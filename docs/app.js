@@ -112,13 +112,13 @@ function renderHeader(generatedAt) {
 function renderWidgets(data) {
     // 燈號閾值設定
     const thresholds = {
-        'TWII':  { type: 'change', warn: -2, danger: -3 },
-        'SP500': { type: 'change', warn: -2, danger: -3 },
+        'TWII':  { type: 'change', warn: -2, danger: -3, reverse: false },
+        'SP500': { type: 'change', warn: -2, danger: -3, reverse: false },
         'VIX':   { type: 'price',  warn: 20, danger: 30 },
         'TNX':   { type: 'price',  warn: 4.5, danger: 5.0 },
         'MOVE':  { type: 'price',  warn: 100, danger: 130 },
         'DXY':   { type: 'price',  warn: 105, danger: 110 },
-        'GOLD':  { type: 'none' },
+        'GOLD':  { type: 'change', warn: 2, danger: 5, reverse: true },
     };
 
     const getSignal = (key, d) => {
@@ -127,8 +127,15 @@ function renderWidgets(data) {
         if (cfg.type === 'change') {
             const chg = d.change_pct;
             if (chg === null || chg === undefined) return '⚪';
-            if (chg <= cfg.danger) return '🔴';
-            if (chg <= cfg.warn) return '🟡';
+            if (cfg.reverse) {
+                // 黃金：漲越多越危險（市場避險）
+                if (chg >= cfg.danger) return '🔴';
+                if (chg >= cfg.warn) return '🟡';
+            } else {
+                // 大盤：跌越多越危險
+                if (chg <= cfg.danger) return '🔴';
+                if (chg <= cfg.warn) return '🟡';
+            }
             return '🟢';
         }
         if (cfg.type === 'price') {
@@ -150,8 +157,8 @@ function renderWidgets(data) {
         return { p: price.toLocaleString(), c: cText, class: cClass };
     };
 
-    // 大盤（有漲跌幅）
-    ['TWII', 'SP500'].forEach(key => {
+    // 有漲跌幅的指標
+    ['TWII', 'SP500', 'GOLD'].forEach(key => {
         const d = data.market[key] || {};
         const f = fmt(d.price, d.change_pct);
         const el = document.getElementById(`market-${key}`);
@@ -169,7 +176,6 @@ function renderWidgets(data) {
         'TNX':  { suffix: '%' },
         'MOVE': { suffix: '' },
         'DXY':  { suffix: '' },
-        'GOLD': { suffix: '' },
     };
     for (const [key, cfg] of Object.entries(singleItems)) {
         const d = data.market[key] || {};

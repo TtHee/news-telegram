@@ -11,7 +11,7 @@ INDICATOR_THRESHOLDS = {
     "VIX":  {"name": "VIX 恐慌指數", "warn": 20, "danger": 30},
     "MOVE": {"name": "MOVE 債市波動", "warn": 100, "danger": 130},
     "DXY":  {"name": "美元指數", "warn": 105, "danger": 110},
-    "GOLD": {"name": "黃金", "warn": None, "danger": None},  # 只顯示，不設閾值
+    "GOLD": {"name": "黃金", "warn": None, "danger": None, "change_warn": 2, "change_danger": 5},
     "TNX":  {"name": "美債10Y殖利率", "warn": 4.5, "danger": 5.0},
 }
 
@@ -25,7 +25,16 @@ def _assess_indicators(market: dict) -> list:
         if price is None:
             continue
         name = cfg["name"]
-        if cfg["danger"] and price >= cfg["danger"]:
+        chg = data.get("change_pct")
+        # 黃金用漲跌幅判斷
+        if cfg.get("change_warn") and chg is not None:
+            if chg >= cfg["change_danger"]:
+                signals.append(f"🔴 {name} {price}（急漲 {chg:+}%，市場避險）")
+            elif chg >= cfg["change_warn"]:
+                signals.append(f"🟡 {name} {price}（漲 {chg:+}%，留意）")
+            else:
+                signals.append(f"🟢 {name} {price}（正常）")
+        elif cfg["danger"] and price >= cfg["danger"]:
             signals.append(f"🔴 {name} {price}（高風險區間）")
         elif cfg["warn"] and price >= cfg["warn"]:
             signals.append(f"🟡 {name} {price}（留意）")
