@@ -5,8 +5,8 @@ from config import GROQ_API_KEY
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 MODEL = "llama3-8b-8192"
 
-SYSTEM_PROMPT = """你是一位專業的財經新聞編輯，請用繁體中文摘要新聞，格式如下：
-1. 摘要：3～5 句話說明重點
+SYSTEM_PROMPT = """你是一位專業的財經新聞編輯，請用繁體中文撰寫詳細的新聞摘要，格式如下：
+1. 摘要：至少 6 行，包含事件背景、關鍵細節、影響分析與後續展望，讓讀者不需閱讀原文就能完整掌握新聞內容
 2. 情緒：只能回答「正面」「中性」「負面」其中一個
 
 回覆格式（JSON）：
@@ -49,7 +49,7 @@ def summarize(title: str, content: str = "") -> dict:
             {"role": "user",   "content": f"標題：{title}\n內文：{content[:800] or '（無）'}"},
         ],
         "temperature": 0.3,
-        "max_tokens": 300,
+        "max_tokens": 600,
     }
 
     try:

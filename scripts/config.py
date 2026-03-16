@@ -46,6 +46,13 @@ RSS_SOURCES = [
     {"name": "The Rundown AI",    "url": "https://www.rundown.ai/rss",                          "category": "ai"},
     {"name": "MIT Tech Review",   "url": "https://www.technologyreview.com/feed/",               "category": "ai"},
     {"name": "The Neuron",        "url": "https://www.theneuron.ai/rss",                         "category": "ai"},
+    # Google Trends 熱門搜尋
+    {"name": "Google Trends 台灣", "url": "https://trends.google.com.tw/trending/rss?geo=TW",   "category": "trends"},
+    {"name": "Google Trends 日本", "url": "https://trends.google.com/trending/rss?geo=JP",      "category": "trends"},
+    {"name": "Google Trends 美國", "url": "https://trends.google.com/trending/rss?geo=US",      "category": "trends"},
+    # 白宮 / 川普
+    {"name": "White House",       "url": "https://www.whitehouse.gov/feed/",                     "category": "whitehouse"},
+    {"name": "Trump News",        "url": "https://news.google.com/rss/search?q=Trump+OR+白宮+OR+川普&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "whitehouse"},
     # 全球趨勢
     {"name": "Reuters Top News",  "url": "https://feeds.reuters.com/reuters/topNews",            "category": "global"},
     {"name": "Semafor",           "url": "https://www.semafor.com/feed",                         "category": "global"},

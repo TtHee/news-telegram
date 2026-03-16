@@ -7,6 +7,8 @@ let filterUnread = false;
 let filterSaved = false;
 
 const CATEGORY_NAMES = {
+    'trends': '🔥 熱門趨勢',
+    'whitehouse': '🏛️ 白宮/川普',
     'ai': '🤖 AI',
     'global': '🌍 全球趨勢',
     'finance': '💰 財經',
@@ -213,7 +215,7 @@ function renderNews() {
                     <span class="tag category-tag">${item.categoryName}</span>
                 </div>
                 <div class="actions">
-                    <button class="action-btn ${isSaved ? 'saved' : ''}" onclick="toggleSaved('${item.id}', this)" title="收藏">⭐</button>
+                    <button class="action-btn ${isSaved ? 'saved' : ''}" onclick="toggleSaved('${item.id}', this)" title="收藏">★</button>
                     <button class="action-btn ${isRead ? 'read' : ''}" onclick="toggleRead('${item.id}', this)" title="標示為已讀">✓</button>
                 </div>
             </div>
