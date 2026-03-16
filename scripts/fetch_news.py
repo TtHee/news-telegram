@@ -107,6 +107,14 @@ def enrich_articles(articles: list, cache: dict) -> list:
     cached_count = 0
 
     for i, a in enumerate(articles):
+        # Google Trends 不需要 AI 摘要，直接通過
+        if a.get("category") in ("trends", "trends_weekly"):
+            a["summary_zh"]  = ""
+            a["sentiment"]   = "中性"
+            a["is_breaking"] = False
+            a.pop("raw_content", None)
+            continue
+
         cached = cache.get(a["id"])
         # 快取有效條件：存在、未過期、摘要不等於標題（等於代表上次失敗）
         if (cached
@@ -119,15 +127,6 @@ def enrich_articles(articles: list, cache: dict) -> list:
             a.pop("raw_content", None)
             cached_count += 1
         else:
-            # Google Trends 不需要 AI 摘要
-            if a.get("category") in ("trends", "trends_weekly"):
-                a["summary_zh"]  = ""
-                a["sentiment"]   = "中性"
-                a["is_breaking"] = False
-                a.pop("raw_content", None)
-                cached_count += 1
-                continue
-
             # 新文章，呼叫 Groq
             print(f"  [Groq] 新文章 {new_count+1}: {a['title'][:45]}")
             result = summarize(a["title"], a.get("raw_content", ""))
