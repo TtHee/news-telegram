@@ -54,10 +54,8 @@ RSS_SOURCES = [
     {"name": "White House News",  "url": "https://www.whitehouse.gov/news/feed/",                "category": "whitehouse"},
     {"name": "白宮新聞",          "url": "https://news.google.com/rss/search?q=白宮+OR+White+House&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "whitehouse"},
     # 川普
-    {"name": "Trump X (rsshub)",  "url": "https://rsshub.app/twitter/user/realDonaldTrump",             "category": "trump"},
-    {"name": "Trump X (rssf)",    "url": "https://rsshub.rssforever.com/twitter/user/realDonaldTrump",  "category": "trump"},
-    {"name": "Trump TruthSocial", "url": "https://rsshub.app/truthsocial/user/realDonaldTrump",         "category": "trump"},
     {"name": "川普新聞",          "url": "https://news.google.com/rss/search?q=Trump+OR+川普&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "trump"},
+    {"name": "Trump News EN",     "url": "https://news.google.com/rss/search?q=Trump+statement+OR+Trump+executive+order&hl=en-US&gl=US&ceid=US:en", "category": "trump"},
     # 全球趨勢
     {"name": "Reuters Top News",  "url": "https://feeds.reuters.com/reuters/topNews",            "category": "global"},
     {"name": "Semafor",           "url": "https://www.semafor.com/feed",                         "category": "global"},
