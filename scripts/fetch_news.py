@@ -3,12 +3,14 @@
 主程式：串接所有模組，執行完整新聞抓取流水線。
 
 流水線：
-  1. RSS 抓取與去重       (rss_fetcher)
-  2. Groq AI 摘要與標記   (groq_summary)
-  3. 市場數據             (market_data)
-  4. 風險評分             (risk_score)
-  5. 寫入 news.json       (本模組)
-  6. Telegram 推播        (telegram_notify)
+  1. 讀取現有 news.json（快取）
+  2. RSS 抓取與去重       (rss_fetcher)
+  3. 過濾已摘要文章，只對新文章呼叫 Groq
+  4. 合併新舊文章
+  5. 市場數據             (market_data)
+  6. 風險評分             (risk_score)
+  7. 寫入 news.json       (本模組)
+  8. Telegram 推播        (telegram_notify)
 """
 import json
 import sys
@@ -29,6 +31,40 @@ from risk_score import calc_risk_score
 from telegram_notify import send_morning_report, send_breaking_news
 
 TZ_TW = timezone(timedelta(hours=8))
+
+# 新聞最多保留 24 小時
+MAX_AGE_HOURS = 24
+
+
+# ── 快取相關 ──────────────────────────────────────────
+
+def _load_existing() -> dict:
+    """讀取現有 news.json，回傳已摘要文章的 ID → 文章 dict 對照表。"""
+    try:
+        with open(NEWS_JSON_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        cache = {}
+        for cat_articles in data.get("categories", {}).values():
+            for a in cat_articles:
+                cache[a["id"]] = a
+        print(f"[Cache] 載入 {len(cache)} 則已摘要文章")
+        return cache
+    except Exception:
+        print("[Cache] 無現有資料，全部重新摘要")
+        return {}
+
+
+def _is_expired(article: dict) -> bool:
+    """檢查文章是否超過 MAX_AGE_HOURS。"""
+    pub = article.get("published_at", "")
+    if not pub:
+        return False
+    try:
+        pub_dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
+        age = (datetime.now(TZ_TW) - pub_dt).total_seconds() / 3600
+        return age > MAX_AGE_HOURS
+    except Exception:
+        return False
 
 
 # ── 輔助函式 ──────────────────────────────────────────
@@ -64,17 +100,34 @@ def _save_sent_ids(sent: dict) -> None:
 
 # ── 流水線各步驟 ──────────────────────────────────────
 
-def enrich_articles(articles: list) -> list:
-    """為每篇文章加上 AI 摘要、情緒標籤、重大新聞標記。"""
+def enrich_articles(articles: list, cache: dict) -> list:
+    """只對新文章呼叫 Groq 摘要，已有的直接用快取。"""
+    new_count = 0
+    cached_count = 0
+
     for i, a in enumerate(articles):
-        print(f"  [Groq] {i+1}/{len(articles)}: {a['title'][:45]}")
-        result = summarize(a["title"], a.get("raw_content", ""))
-        a["title"]       = result["title_zh"]
-        a["summary_zh"]  = result["summary"]
-        a["sentiment"]   = result["sentiment"]
-        a["is_breaking"] = _is_breaking(a)
-        a.pop("raw_content", None)
-        time.sleep(2.5)  # Groq 免費版限制 30 RPM
+        if a["id"] in cache and not _is_expired(cache[a["id"]]):
+            # 已摘要過，直接用快取
+            cached = cache[a["id"]]
+            a["title"]       = cached["title"]
+            a["summary_zh"]  = cached["summary_zh"]
+            a["sentiment"]   = cached["sentiment"]
+            a["is_breaking"] = cached.get("is_breaking", False)
+            a.pop("raw_content", None)
+            cached_count += 1
+        else:
+            # 新文章，呼叫 Groq
+            print(f"  [Groq] 新文章 {new_count+1}: {a['title'][:45]}")
+            result = summarize(a["title"], a.get("raw_content", ""))
+            a["title"]       = result["title_zh"]
+            a["summary_zh"]  = result["summary"]
+            a["sentiment"]   = result["sentiment"]
+            a["is_breaking"] = _is_breaking(a)
+            a.pop("raw_content", None)
+            new_count += 1
+            time.sleep(2.5)  # Groq 免費版限制 30 RPM
+
+    print(f"[Groq] 新摘要 {new_count} 則，快取命中 {cached_count} 則")
     return articles
 
 
@@ -133,8 +186,9 @@ def handle_telegram(output: dict, risk: dict) -> None:
 def main() -> None:
     print(f"[Start] {datetime.now(TZ_TW).isoformat()}")
 
+    cache       = _load_existing()
     articles    = fetch_all()
-    articles    = enrich_articles(articles)
+    articles    = enrich_articles(articles, cache)
     categories  = categorize(articles)
     market_info = get_all_market_data()
     risk        = calc_risk_score(market_info["market"], articles)
