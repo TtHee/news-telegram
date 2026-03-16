@@ -194,60 +194,58 @@ function renderWidgets(data) {
 
 // Render Google Trends as ranked list by country (daily + weekly)
 function renderTrendsList(items) {
-    const COUNTRY_MAP = {
-        'Google Trends 台灣': { label: '🇹🇼 台灣', url: 'https://trends.google.com.tw/trending?geo=TW' },
-        'Google Trends 日本': { label: '🇯🇵 日本', url: 'https://trends.google.com/trending?geo=JP' },
-        'Google Trends 美國': { label: '🇺🇸 美國', url: 'https://trends.google.com/trending?geo=US' },
-    };
+    const COUNTRY_CONFIG = [
+        { daily: 'Google Trends 台灣', weekly: 'Google Trends 台灣 7天', label: '🇹🇼 台灣',
+          dailyUrl: 'https://trends.google.com.tw/trending?geo=TW',
+          weeklyUrl: 'https://trends.google.com.tw/trending?geo=TW&hours=168' },
+        { daily: 'Google Trends 日本', weekly: 'Google Trends 日本 7天', label: '🇯🇵 日本',
+          dailyUrl: 'https://trends.google.com/trending?geo=JP',
+          weeklyUrl: 'https://trends.google.com/trending?geo=JP&hours=168' },
+        { daily: 'Google Trends 美國', weekly: 'Google Trends 美國 7天', label: '🇺🇸 美國',
+          dailyUrl: 'https://trends.google.com/trending?geo=US',
+          weeklyUrl: 'https://trends.google.com/trending?geo=US&hours=168' },
+    ];
 
-    // Group daily by source (country)
-    const groups = {};
+    // Group all trends items by source
+    const bySource = {};
     items.forEach(item => {
-        const info = COUNTRY_MAP[item.source] || { label: item.source, url: '' };
-        const key = item.source;
-        if (!groups[key]) groups[key] = { info, items: [] };
-        groups[key].items.push(item);
+        if (!bySource[item.source]) bySource[item.source] = [];
+        bySource[item.source].push(item);
     });
 
-    // Weekly data from newsData
-    const weekly = newsData.trends_weekly || {};
+    // Also include trends_weekly from categories
+    const weeklyItems = allNews.filter(n => n.categoryCode === 'trends_weekly');
+    weeklyItems.forEach(item => {
+        if (!bySource[item.source]) bySource[item.source] = [];
+        bySource[item.source].push(item);
+    });
 
-    for (const [srcKey, { info, items: trends }] of Object.entries(groups)) {
+    for (const cfg of COUNTRY_CONFIG) {
+        const dailyList = bySource[cfg.daily] || [];
+        const weeklyList = bySource[cfg.weekly] || [];
+
         const card = document.createElement('div');
         card.className = 'news-card trends-card';
 
-        // Daily list
-        let dailyHtml = trends.map((t, i) =>
+        let dailyHtml = dailyList.map((t, i) =>
             `<li><span class="trend-rank">${i + 1}</span><a href="${t.url}" target="_blank" class="trend-link">${t.title}</a></li>`
-        ).join('');
+        ).join('') || '<li class="trend-empty">暫無資料</li>';
 
-        // Weekly list
-        const weeklyItems = weekly[srcKey] || [];
-        let weeklyHtml = '';
-        if (weeklyItems.length) {
-            weeklyHtml = weeklyItems.map((t, i) =>
-                `<li><span class="trend-rank">${i + 1}</span><span class="trend-link">${t.title}</span><span class="trend-count">x${t.count}</span></li>`
-            ).join('');
-        } else {
-            weeklyHtml = '<li class="trend-empty">資料累積中...</li>';
-        }
-
-        const sourceLink = info.url
-            ? `<a href="${info.url}" target="_blank" class="trends-source">Google Trends ↗</a>`
-            : '';
+        let weeklyHtml = weeklyList.map((t, i) =>
+            `<li><span class="trend-rank">${i + 1}</span><a href="${t.url}" target="_blank" class="trend-link">${t.title}</a></li>`
+        ).join('') || '<li class="trend-empty">暫無資料</li>';
 
         card.innerHTML = `
             <div class="trends-header">
-                <h3 class="card-title">${info.label}</h3>
-                ${sourceLink}
+                <h3 class="card-title">${cfg.label}</h3>
             </div>
             <div class="trends-columns">
                 <div class="trends-col">
-                    <div class="trends-col-title">過去 24 小時</div>
+                    <div class="trends-col-title">過去 24 小時 <a href="${cfg.dailyUrl}" target="_blank" class="trends-source">↗</a></div>
                     <ol class="trends-list">${dailyHtml}</ol>
                 </div>
                 <div class="trends-col">
-                    <div class="trends-col-title">過去 7 天</div>
+                    <div class="trends-col-title">過去 7 天 <a href="${cfg.weeklyUrl}" target="_blank" class="trends-source">↗</a></div>
                     <ol class="trends-list">${weeklyHtml}</ol>
                 </div>
             </div>
@@ -266,7 +264,8 @@ function renderNews() {
 
     let filtered = allNews.filter(item => {
         // Category Filter — Google Trends 不在「全部」中顯示
-        if (currentCategory === 'all' && item.categoryCode === 'trends') return false;
+        if (currentCategory === 'all' && (item.categoryCode === 'trends' || item.categoryCode === 'trends_weekly')) return false;
+        if (currentCategory === 'trends' && item.categoryCode === 'trends_weekly') return true;
         if (currentCategory !== 'all' && item.categoryCode !== currentCategory) return false;
         
         // State Filter

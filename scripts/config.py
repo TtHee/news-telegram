@@ -50,10 +50,14 @@ RSS_SOURCES = [
     {"name": "MIT Tech Review",   "url": "https://www.technologyreview.com/feed/",               "category": "ai"},
     {"name": "Google News",       "url": "https://news.google.com/rss/search?q=AI+artificial+intelligence&hl=en-US&gl=US&ceid=US:en", "category": "ai"},
     {"name": "Google News",       "url": "https://news.google.com/rss/search?q=人工智慧+OR+AI&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",       "category": "ai"},
-    # Google Trends 熱門搜尋
-    {"name": "Google Trends 台灣", "url": "https://trends.google.com.tw/trending/rss?geo=TW",   "category": "trends"},
-    {"name": "Google Trends 日本", "url": "https://trends.google.com/trending/rss?geo=JP",      "category": "trends"},
-    {"name": "Google Trends 美國", "url": "https://trends.google.com/trending/rss?geo=US",      "category": "trends"},
+    # Google Trends 每日熱門搜尋
+    {"name": "Google Trends 台灣", "url": "https://trends.google.com.tw/trending/rss?geo=TW",            "category": "trends"},
+    {"name": "Google Trends 日本", "url": "https://trends.google.com/trending/rss?geo=JP",               "category": "trends"},
+    {"name": "Google Trends 美國", "url": "https://trends.google.com/trending/rss?geo=US",               "category": "trends"},
+    # Google Trends 過去 7 天
+    {"name": "Google Trends 台灣 7天", "url": "https://trends.google.com.tw/trending/rss?geo=TW&hours=168", "category": "trends_weekly"},
+    {"name": "Google Trends 日本 7天", "url": "https://trends.google.com/trending/rss?geo=JP&hours=168",    "category": "trends_weekly"},
+    {"name": "Google Trends 美國 7天", "url": "https://trends.google.com/trending/rss?geo=US&hours=168",    "category": "trends_weekly"},
     # 白宮
     {"name": "White House News",  "url": "https://www.whitehouse.gov/news/feed/",                "category": "whitehouse"},
     {"name": "Google News",       "url": "https://news.google.com/rss/search?q=白宮+OR+White+House&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "whitehouse"},
