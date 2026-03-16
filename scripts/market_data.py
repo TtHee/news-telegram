@@ -3,7 +3,7 @@ from urllib.parse import quote
 import requests
 from config import FRED_API_KEY, YFINANCE_TICKERS, FRED_SERIES
 
-YAHOO_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{}?range=2d&interval=1d"
+YAHOO_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{}?range=5d&interval=1d"
 YAHOO_HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 
