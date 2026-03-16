@@ -119,6 +119,15 @@ def enrich_articles(articles: list, cache: dict) -> list:
             a.pop("raw_content", None)
             cached_count += 1
         else:
+            # Google Trends 不需要 AI 摘要
+            if a.get("category") == "trends":
+                a["summary_zh"]  = ""
+                a["sentiment"]   = "中性"
+                a["is_breaking"] = False
+                a.pop("raw_content", None)
+                cached_count += 1
+                continue
+
             # 新文章，呼叫 Groq
             print(f"  [Groq] 新文章 {new_count+1}: {a['title'][:45]}")
             result = summarize(a["title"], a.get("raw_content", ""))

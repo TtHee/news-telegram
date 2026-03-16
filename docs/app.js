@@ -159,6 +159,36 @@ function renderWidgets(data) {
     document.querySelector('#market-TNX .market-price').textContent = tnx.price !== null ? `${tnx.price}%` : '--';
 }
 
+// Render Google Trends as ranked list by country
+function renderTrendsList(items) {
+    const COUNTRY_MAP = {
+        'Google Trends 台灣': '🇹🇼 台灣',
+        'Google Trends 日本': '🇯🇵 日本',
+        'Google Trends 美國': '🇺🇸 美國',
+    };
+
+    // Group by source (country)
+    const groups = {};
+    items.forEach(item => {
+        const country = COUNTRY_MAP[item.source] || item.source;
+        if (!groups[country]) groups[country] = [];
+        groups[country].push(item);
+    });
+
+    for (const [country, trends] of Object.entries(groups)) {
+        const card = document.createElement('div');
+        card.className = 'news-card trends-card';
+        let listHtml = trends.map((t, i) =>
+            `<li><span class="trend-rank">${i + 1}</span><a href="${t.url}" target="_blank" class="trend-link">${t.title}</a></li>`
+        ).join('');
+        card.innerHTML = `
+            <h3 class="card-title">${country} 熱門搜尋</h3>
+            <ol class="trends-list">${listHtml}</ol>
+        `;
+        newsContainer.appendChild(card);
+    }
+}
+
 // Render News
 function renderNews() {
     newsContainer.innerHTML = '';
@@ -194,6 +224,12 @@ function renderNews() {
 
     if (filtered.length === 0) {
         newsContainer.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: #6B7280;">找不到符合條件的新聞。</div>';
+        return;
+    }
+
+    // Google Trends 用排名列表顯示
+    if (currentCategory === 'trends') {
+        renderTrendsList(filtered);
         return;
     }
 
