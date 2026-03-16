@@ -52,6 +52,7 @@ RSS_SOURCES = [
     {"name": "Google Trends 美國", "url": "https://trends.google.com/trending/rss?geo=US",      "category": "trends"},
     # 白宮 / 川普
     {"name": "White House",       "url": "https://www.whitehouse.gov/feed/",                     "category": "whitehouse"},
+    {"name": "Trump X",           "url": "https://rsshub.app/twitter/user/realDonaldTrump",       "category": "whitehouse"},
     {"name": "Trump News",        "url": "https://news.google.com/rss/search?q=Trump+OR+白宮+OR+川普&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "whitehouse"},
     # 全球趨勢
     {"name": "Reuters Top News",  "url": "https://feeds.reuters.com/reuters/topNews",            "category": "global"},
