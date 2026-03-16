@@ -23,6 +23,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from config import (
     NEWS_JSON_PATH, SENT_IDS_PATH,
     BREAKING_KEYWORDS, WATCH_STOCKS, BREAKING_COOLDOWN_HOURS,
+    QUIET_HOUR_START, QUIET_HOUR_END,
 )
 from rss_fetcher import fetch_all
 from groq_summary import summarize
@@ -162,12 +163,25 @@ def write_json(output: dict) -> None:
     print(f"[JSON] 已寫入 {NEWS_JSON_PATH}")
 
 
+def _is_quiet_hour() -> bool:
+    """判斷目前是否在勿擾時段。"""
+    hour = datetime.now(TZ_TW).hour
+    if QUIET_HOUR_START <= QUIET_HOUR_END:
+        return QUIET_HOUR_START <= hour < QUIET_HOUR_END
+    else:
+        return hour >= QUIET_HOUR_START or hour < QUIET_HOUR_END
+
+
 def handle_telegram(output: dict, risk: dict) -> None:
-    """發送早報（09:15）及重大新聞即時推播。"""
+    """發送早報及重大新聞即時推播（勿擾時段不發送）。"""
+    if _is_quiet_hour():
+        print(f"[Telegram] 勿擾時段（{QUIET_HOUR_START}:00～{QUIET_HOUR_END}:00），跳過推播")
+        return
+
     sent = _load_sent_ids()
     now  = datetime.now(TZ_TW)
 
-    if now.hour == 9 and 5 <= now.minute <= 25:
+    if now.hour == 11 and 5 <= now.minute <= 25:
         print("[Telegram] 發送每日早報...")
         send_morning_report(output, risk)
 

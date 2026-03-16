@@ -13,8 +13,12 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 FRED_API_KEY = os.environ.get("FRED_API_KEY", "")
 
 # === 時間設定（台灣時間 UTC+8）===
-MORNING_REPORT_HOUR = 9
+MORNING_REPORT_HOUR = 11
 MORNING_REPORT_MINUTE = 15
+
+# === 勿擾時段（台灣時間）===
+QUIET_HOUR_START = 1   # 凌晨 1:00 開始靜音
+QUIET_HOUR_END = 11    # 上午 11:00 恢復通知
 
 # === 抓取設定 ===
 FETCH_INTERVAL_HOURS = 2
