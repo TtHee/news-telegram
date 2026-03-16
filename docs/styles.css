@@ -82,16 +82,16 @@ body {
 
 .widget-title { font-weight: bold; margin-bottom: 1rem; font-size: 1.1rem; }
 
-/* Risk Widget */
-.risk-signals { list-style: none; font-size: 0.875rem; color: var(--text-muted); margin-bottom: 0.75rem; }
-.risk-signals li { margin-bottom: 0.25rem; display: flex; align-items: flex-start; gap: 0.25rem; }
-.ai-summary { font-size: 0.9rem; color: var(--text-main); line-height: 1.6; padding-top: 0.75rem; border-top: 1px solid var(--border); }
+/* AI Summary */
+.ai-summary { font-size: 0.9rem; color: var(--text-main); line-height: 1.6; padding-top: 0.75rem; margin-top: 0.75rem; border-top: 1px solid var(--border); }
 
 /* Market Widget */
 .market-grid { display: grid; gap: 0.75rem; }
-.market-item { display: flex; justify-content: space-between; align-items: center; font-size: 0.9rem; }
+.market-item { display: flex; align-items: center; font-size: 0.9rem; gap: 0.5rem; }
+.market-signal { font-size: 0.75rem; flex-shrink: 0; }
+.market-data { margin-left: auto; display: flex; gap: 0.5rem; align-items: center; }
 .market-name { color: var(--text-muted); cursor: help; border-bottom: 1px dashed var(--border); }
-.market-data { display: flex; gap: 0.5rem; align-items: center; }
+.market-price { margin-left: auto; }
 .market-price { font-weight: bold; }
 .market-change { font-size: 0.8rem; padding: 2px 4px; border-radius: 4px; }
 .change-up { color: var(--danger); }

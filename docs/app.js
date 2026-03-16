@@ -109,19 +109,35 @@ function renderHeader(generatedAt) {
 
 // Render Widgets
 function renderWidgets(data) {
-    // Risk / Market Signals
-    const signalsList = document.getElementById('riskSignals');
-    if (data.risk_signals && data.risk_signals.length) {
-        signalsList.innerHTML = data.risk_signals.map(s => `<li>${s}</li>`).join('');
-    } else {
-        signalsList.innerHTML = '<li>暫無指標資料</li>';
-    }
+    // 燈號閾值設定
+    const thresholds = {
+        'TWII':  { type: 'change', warn: -2, danger: -3 },
+        'SP500': { type: 'change', warn: -2, danger: -3 },
+        'VIX':   { type: 'price',  warn: 20, danger: 30 },
+        'TNX':   { type: 'price',  warn: 4.5, danger: 5.0 },
+        'MOVE':  { type: 'price',  warn: 100, danger: 130 },
+        'DXY':   { type: 'price',  warn: 105, danger: 110 },
+        'GOLD':  { type: 'none' },
+    };
 
-    // AI Summary
-    const aiEl = document.getElementById('aiSummary');
-    aiEl.textContent = data.ai_summary || '暫無 AI 評估';
+    const getSignal = (key, d) => {
+        const cfg = thresholds[key];
+        if (!cfg || !d || d.price === null || d.price === undefined) return '⚪';
+        if (cfg.type === 'change') {
+            const chg = d.change_pct;
+            if (chg === null || chg === undefined) return '⚪';
+            if (chg <= cfg.danger) return '🔴';
+            if (chg <= cfg.warn) return '🟡';
+            return '🟢';
+        }
+        if (cfg.type === 'price') {
+            if (d.price >= cfg.danger) return '🔴';
+            if (d.price >= cfg.warn) return '🟡';
+            return '🟢';
+        }
+        return '⚪';
+    };
 
-    // Market Widget
     const fmt = (price, change) => {
         if (price === null || price === undefined) return { p: '--', c: '', class: '' };
         let cText = '';
@@ -142,15 +158,17 @@ function renderWidgets(data) {
         el.querySelector('.market-price').textContent = f.p;
         el.querySelector('.market-change').textContent = f.c;
         el.querySelector('.market-change').className = `market-change ${f.class}`;
+        const sig = document.getElementById(`signal-${key}`);
+        if (sig) sig.textContent = getSignal(key, d);
     });
 
     // 單值指標
     const singleItems = {
-        'VIX':  { suffix: '', warnAbove: 25 },
-        'TNX':  { suffix: '%', warnAbove: 4.5 },
-        'MOVE': { suffix: '', warnAbove: 100 },
-        'DXY':  { suffix: '', warnAbove: 105 },
-        'GOLD': { suffix: '', warnAbove: null },
+        'VIX':  { suffix: '' },
+        'TNX':  { suffix: '%' },
+        'MOVE': { suffix: '' },
+        'DXY':  { suffix: '' },
+        'GOLD': { suffix: '' },
     };
     for (const [key, cfg] of Object.entries(singleItems)) {
         const d = data.market[key] || {};
@@ -158,10 +176,13 @@ function renderWidgets(data) {
         if (!el) continue;
         el.textContent = d.price !== null && d.price !== undefined
             ? `${d.price.toLocaleString()}${cfg.suffix}` : '--';
-        if (cfg.warnAbove && d.price > cfg.warnAbove) {
-            el.classList.add('text-danger');
-        }
+        const sig = document.getElementById(`signal-${key}`);
+        if (sig) sig.textContent = getSignal(key, d);
     }
+
+    // AI Summary
+    const aiEl = document.getElementById('aiSummary');
+    aiEl.textContent = data.ai_summary || '暫無 AI 評估';
 }
 
 // Render Google Trends as ranked list by country
