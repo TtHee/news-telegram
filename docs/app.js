@@ -26,9 +26,10 @@ const newsContainer = document.getElementById('newsContainer');
 const loadingEl = document.getElementById('loading');
 const errorMsgEl = document.getElementById('errorMsg');
 const searchInput = document.getElementById('searchInput');
-const menuBtns = document.querySelectorAll('.menu-btn');
+const menuBtns = document.querySelectorAll('.chip');
 const mobileMenuBtn = document.getElementById('mobileMenuBtn');
 const sidebar = document.getElementById('sidebar');
+const sidebarOverlay = document.getElementById('sidebarOverlay');
 
 // Initialization
 document.addEventListener('DOMContentLoaded', () => {
@@ -48,6 +49,9 @@ function setupEventListeners() {
             e.target.classList.add('active');
             currentCategory = e.target.dataset.category;
             renderNews();
+            // 手機版點選後自動收合
+            sidebar.classList.remove('show');
+            sidebarOverlay.classList.remove('show');
         });
     });
 
@@ -63,6 +67,12 @@ function setupEventListeners() {
 
     mobileMenuBtn.addEventListener('click', () => {
         sidebar.classList.toggle('show');
+        sidebarOverlay.classList.toggle('show');
+    });
+
+    sidebarOverlay.addEventListener('click', () => {
+        sidebar.classList.remove('show');
+        sidebarOverlay.classList.remove('show');
     });
 }
 

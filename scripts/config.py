@@ -60,7 +60,7 @@ RSS_SOURCES = [
     {"name": "Google Trends 美國 7天", "url": "https://trends.google.com/trending/rss?geo=US&hours=168",    "category": "trends_weekly"},
     # 白宮
     {"name": "White House News",  "url": "https://www.whitehouse.gov/news/feed/",                "category": "whitehouse"},
-    {"name": "Google News",       "url": "https://news.google.com/rss/search?q=白宮+OR+White+House&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "whitehouse"},
+    {"name": "Google News",       "url": "https://news.google.com/rss/search?q=%22白宮%22+總統+OR+政策+OR+行政命令+OR+%22White+House%22+president+policy&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "whitehouse"},
     # 川普
     {"name": "Google News",       "url": "https://news.google.com/rss/search?q=Trump+OR+川普&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "trump"},
     {"name": "CNN",               "url": "https://news.google.com/rss/search?q=site:cnn.com+Trump&hl=en-US&gl=US&ceid=US:en",     "category": "trump"},
