@@ -7,11 +7,13 @@ from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 TZ_TW = timezone(timedelta(hours=8))
 
 CATEGORY_LABELS = {
-    "ai":       "🤖 AI 人工智慧",
-    "global":   "🌍 全球趨勢",
-    "finance":  "💰 財經",
-    "stock_tw": "📉 台股",
-    "stock_us": "📈 美股",
+    "trends":     "🔥 Google Trends",
+    "whitehouse": "🏛️ 白宮/川普",
+    "ai":         "🤖 AI 人工智慧",
+    "global":     "🌍 全球趨勢",
+    "finance":    "💰 財經",
+    "stock_tw":   "📉 台股",
+    "stock_us":   "📈 美股",
 }
 
 SENTIMENT_EMOJI = {"正面": "✅", "負面": "❌", "中性": "▫️"}
