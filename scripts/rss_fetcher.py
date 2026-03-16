@@ -3,6 +3,7 @@ RSS 抓取與去重邏輯。
 職責：從各來源抓取文章，回傳去重後的原始文章列表。
 """
 import hashlib
+import re
 import time
 
 import feedparser
@@ -14,6 +15,13 @@ def _make_id(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()[:8]
 
 
+def _strip_html(text: str) -> str:
+    """移除 HTML 標籤，只保留純文字。"""
+    clean = re.sub(r'<[^>]+>', '', text)
+    clean = re.sub(r'\s+', ' ', clean).strip()
+    return clean
+
+
 def _parse_feed(source: dict) -> list:
     articles = []
     try:
@@ -22,14 +30,18 @@ def _parse_feed(source: dict) -> list:
             url = entry.get("link", "")
             if not url:
                 continue
+
+            raw = entry.get("summary") or entry.get("description") or ""
+            clean_content = _strip_html(raw)
+
             articles.append({
                 "id":           _make_id(url),
-                "title":        entry.get("title", "").strip(),
+                "title":        _strip_html(entry.get("title", "")).strip(),
                 "url":          url,
                 "source":       source["name"],
                 "category":     source["category"],
                 "published_at": entry.get("published", ""),
-                "raw_content":  (entry.get("summary") or entry.get("description") or "")[:800],
+                "raw_content":  clean_content[:1500],
             })
     except Exception as e:
         print(f"[RSS] {source['name']} 失敗：{e}")

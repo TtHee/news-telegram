@@ -8,7 +8,8 @@ let filterSaved = false;
 
 const CATEGORY_NAMES = {
     'trends': '🔥 Google Trends',
-    'whitehouse': '🏛️ 白宮/川普',
+    'whitehouse': '🏛️ 白宮',
+    'trump': '🇺🇸 川普',
     'ai': '🤖 AI',
     'global': '🌍 全球趨勢',
     'finance': '💰 財經',

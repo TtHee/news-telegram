@@ -8,7 +8,8 @@ TZ_TW = timezone(timedelta(hours=8))
 
 CATEGORY_LABELS = {
     "trends":     "🔥 Google Trends",
-    "whitehouse": "🏛️ 白宮/川普",
+    "whitehouse": "🏛️ 白宮",
+    "trump":      "🇺🇸 川普",
     "ai":         "🤖 AI 人工智慧",
     "global":     "🌍 全球趨勢",
     "finance":    "💰 財經",
