@@ -51,7 +51,6 @@ RSS_SOURCES = [
     {"name": "Google Trends 日本", "url": "https://trends.google.com/trending/rss?geo=JP",      "category": "trends"},
     {"name": "Google Trends 美國", "url": "https://trends.google.com/trending/rss?geo=US",      "category": "trends"},
     # 白宮
-    {"name": "White House",       "url": "https://www.whitehouse.gov/feed/",                     "category": "whitehouse"},
     {"name": "White House News",  "url": "https://www.whitehouse.gov/news/feed/",                "category": "whitehouse"},
     {"name": "白宮新聞",          "url": "https://news.google.com/rss/search?q=白宮+OR+White+House&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "whitehouse"},
     # 川普
