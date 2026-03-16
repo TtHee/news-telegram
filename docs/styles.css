@@ -106,6 +106,24 @@ body {
 .chip:hover { border-color: var(--primary); color: var(--primary); }
 .chip.active { background-color: var(--primary); color: white; border-color: var(--primary); font-weight: bold; }
 
+/* Mobile Tooltip */
+.mobile-tooltip {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: 4px;
+    background: var(--text-main);
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    z-index: 50;
+    max-width: 280px;
+    line-height: 1.5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.market-item { position: relative; }
+
 /* Sidebar Overlay */
 .sidebar-overlay { display: none; }
 

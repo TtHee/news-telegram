@@ -74,6 +74,29 @@ function setupEventListeners() {
         sidebar.classList.remove('show');
         sidebarOverlay.classList.remove('show');
     });
+
+    // 手機 tooltip：點擊有 title 的元素顯示說明
+    document.querySelectorAll('.market-name[title]').forEach(el => {
+        el.addEventListener('click', (e) => {
+            // 移除其他已開啟的 tooltip
+            document.querySelectorAll('.mobile-tooltip').forEach(t => t.remove());
+
+            const tooltip = document.createElement('div');
+            tooltip.className = 'mobile-tooltip';
+            tooltip.textContent = el.getAttribute('title');
+            el.parentElement.appendChild(tooltip);
+
+            // 點其他地方關閉
+            setTimeout(() => {
+                document.addEventListener('click', function close(ev) {
+                    if (!tooltip.contains(ev.target) && ev.target !== el) {
+                        tooltip.remove();
+                        document.removeEventListener('click', close);
+                    }
+                });
+            }, 10);
+        });
+    });
 }
 
 // Fetch Data
