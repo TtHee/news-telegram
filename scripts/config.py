@@ -95,5 +95,6 @@ FRED_SERIES = {
 }
 
 # === 輸出路徑（絕對路徑，無論從哪個目錄執行都正確）===
-NEWS_JSON_PATH = REPO_ROOT / "docs" / "data" / "news.json"
-SENT_IDS_PATH  = REPO_ROOT / "scripts" / ".sent_ids.json"
+NEWS_JSON_PATH    = REPO_ROOT / "docs" / "data" / "news.json"
+SENT_IDS_PATH     = REPO_ROOT / "scripts" / ".sent_ids.json"
+TRENDS_CACHE_PATH = REPO_ROOT / "docs" / "data" / "trends_weekly.json"

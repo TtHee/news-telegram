@@ -21,7 +21,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from config import (
-    NEWS_JSON_PATH, SENT_IDS_PATH,
+    NEWS_JSON_PATH, SENT_IDS_PATH, TRENDS_CACHE_PATH,
     BREAKING_KEYWORDS, WATCH_STOCKS, BREAKING_COOLDOWN_HOURS,
     QUIET_HOUR_START, QUIET_HOUR_END,
 )
@@ -166,6 +166,62 @@ def build_output(categories: dict, market_info: dict, risk: dict) -> dict:
     }
 
 
+def build_trends_weekly(today_trends: list) -> dict:
+    """累積 7 天的 Google Trends 資料，按國家分組。"""
+    # 載入舊的週趨勢快取
+    try:
+        with open(TRENDS_CACHE_PATH, "r", encoding="utf-8") as f:
+            cache = json.load(f)
+    except Exception:
+        cache = {"entries": []}
+
+    now = datetime.now(TZ_TW)
+    seven_days_ago = now - timedelta(hours=168)
+
+    # 加入今天的趨勢
+    for t in today_trends:
+        cache["entries"].append({
+            "title": t["title"],
+            "url": t.get("url", ""),
+            "source": t["source"],
+            "fetched_at": now.isoformat(),
+        })
+
+    # 過濾掉超過 7 天的
+    valid = []
+    for e in cache["entries"]:
+        try:
+            fetched = datetime.fromisoformat(e["fetched_at"])
+            if fetched >= seven_days_ago:
+                valid.append(e)
+        except Exception:
+            pass
+    cache["entries"] = valid
+
+    # 儲存快取
+    Path(TRENDS_CACHE_PATH).parent.mkdir(parents=True, exist_ok=True)
+    with open(TRENDS_CACHE_PATH, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
+
+    # 按國家分組，統計出現次數排名
+    country_counts = {}
+    for e in valid:
+        src = e["source"]
+        title = e["title"]
+        if src not in country_counts:
+            country_counts[src] = {}
+        country_counts[src][title] = country_counts[src].get(title, 0) + 1
+
+    # 排序：出現次數多的排前面
+    weekly = {}
+    for src, counts in country_counts.items():
+        sorted_items = sorted(counts.items(), key=lambda x: -x[1])
+        weekly[src] = [{"title": t, "count": c} for t, c in sorted_items[:10]]
+
+    print(f"[Trends] 週快取 {len(valid)} 筆，{len(country_counts)} 個國家")
+    return weekly
+
+
 def write_json(output: dict) -> None:
     Path(NEWS_JSON_PATH).parent.mkdir(parents=True, exist_ok=True)
     with open(NEWS_JSON_PATH, "w", encoding="utf-8") as f:
@@ -217,6 +273,10 @@ def main() -> None:
     market_info = get_all_market_data()
     risk        = calc_risk_score(market_info["market"], articles)
     output      = build_output(categories, market_info, risk)
+
+    # 累積 Google Trends 週資料
+    today_trends = [a for a in articles if a.get("category") == "trends"]
+    output["trends_weekly"] = build_trends_weekly(today_trends)
 
     write_json(output)
     handle_telegram(output, risk)

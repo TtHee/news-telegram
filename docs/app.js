@@ -83,6 +83,7 @@ async function fetchData() {
             });
         }
 
+        newsData = data;
         renderHeader(data.generated_at);
         renderWidgets(data);
         renderNews();
@@ -185,7 +186,7 @@ function renderWidgets(data) {
     aiEl.textContent = data.ai_summary || '暫無 AI 評估';
 }
 
-// Render Google Trends as ranked list by country
+// Render Google Trends as ranked list by country (daily + weekly)
 function renderTrendsList(items) {
     const COUNTRY_MAP = {
         'Google Trends 台灣': { label: '🇹🇼 台灣', url: 'https://trends.google.com.tw/trending?geo=TW' },
@@ -193,7 +194,7 @@ function renderTrendsList(items) {
         'Google Trends 美國': { label: '🇺🇸 美國', url: 'https://trends.google.com/trending?geo=US' },
     };
 
-    // Group by source (country)
+    // Group daily by source (country)
     const groups = {};
     items.forEach(item => {
         const info = COUNTRY_MAP[item.source] || { label: item.source, url: '' };
@@ -202,21 +203,48 @@ function renderTrendsList(items) {
         groups[key].items.push(item);
     });
 
-    for (const { info, items: trends } of Object.values(groups)) {
+    // Weekly data from newsData
+    const weekly = newsData.trends_weekly || {};
+
+    for (const [srcKey, { info, items: trends }] of Object.entries(groups)) {
         const card = document.createElement('div');
         card.className = 'news-card trends-card';
-        let listHtml = trends.map((t, i) =>
+
+        // Daily list
+        let dailyHtml = trends.map((t, i) =>
             `<li><span class="trend-rank">${i + 1}</span><a href="${t.url}" target="_blank" class="trend-link">${t.title}</a></li>`
         ).join('');
+
+        // Weekly list
+        const weeklyItems = weekly[srcKey] || [];
+        let weeklyHtml = '';
+        if (weeklyItems.length) {
+            weeklyHtml = weeklyItems.map((t, i) =>
+                `<li><span class="trend-rank">${i + 1}</span><span class="trend-link">${t.title}</span><span class="trend-count">x${t.count}</span></li>`
+            ).join('');
+        } else {
+            weeklyHtml = '<li class="trend-empty">資料累積中...</li>';
+        }
+
         const sourceLink = info.url
             ? `<a href="${info.url}" target="_blank" class="trends-source">Google Trends ↗</a>`
             : '';
+
         card.innerHTML = `
             <div class="trends-header">
-                <h3 class="card-title">${info.label} 熱門搜尋</h3>
+                <h3 class="card-title">${info.label}</h3>
                 ${sourceLink}
             </div>
-            <ol class="trends-list">${listHtml}</ol>
+            <div class="trends-columns">
+                <div class="trends-col">
+                    <div class="trends-col-title">過去 24 小時</div>
+                    <ol class="trends-list">${dailyHtml}</ol>
+                </div>
+                <div class="trends-col">
+                    <div class="trends-col-title">過去 7 天</div>
+                    <ol class="trends-list">${weeklyHtml}</ol>
+                </div>
+            </div>
         `;
         newsContainer.appendChild(card);
     }
