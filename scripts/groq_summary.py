@@ -5,7 +5,7 @@ import requests
 from config import GROQ_API_KEY
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "llama-3.1-8b-instant"
 
 SYSTEM_PROMPT = """你是一位專業的財經新聞編輯。不論原文是什麼語言，你都必須用「繁體中文」回覆所有欄位。
 
@@ -88,7 +88,7 @@ def summarize(title: str, content: str = "") -> dict:
             return _parse_response(text, title)
         except requests.exceptions.HTTPError as e:
             if e.response is not None and e.response.status_code == 429:
-                wait = 3 * (attempt + 1)
+                wait = 10 * (attempt + 1)
                 print(f"[Groq] 速率限制，等待 {wait} 秒後重試 ({attempt+1}/{max_retries})")
                 time.sleep(wait)
                 continue
