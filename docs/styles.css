@@ -155,13 +155,12 @@ body {
 .action-btn.read { color: var(--primary); }
 
 .card-title { font-size: 1.125rem; font-weight: bold; margin: 0; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.card-summary { font-size: 0.9rem; color: var(--text-muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; cursor: pointer; }
-.card-summary.expanded { -webkit-line-clamp: unset; }
+.card-summary { font-size: 0.95rem; color: var(--text-main); line-height: 1.7; }
 
 .card-footer { display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; color: var(--text-muted); margin-top: auto; padding-top: 0.5rem; border-top: 1px solid var(--border); }
 .meta-info { display: flex; gap: 0.5rem; align-items: center; }
-.read-more { color: var(--primary); text-decoration: none; font-weight: 500; }
-.read-more:hover { text-decoration: underline; }
+.read-more { color: var(--text-muted); text-decoration: none; font-size: 0.75rem; }
+.read-more:hover { text-decoration: underline; color: var(--primary); }
 
 /* Responsive */
 @media (max-width: 900px) {

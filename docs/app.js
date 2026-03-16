@@ -218,14 +218,14 @@ function renderNews() {
                 </div>
             </div>
             <h3 class="card-title">${item.title}</h3>
-            <p class="card-summary" onclick="this.classList.toggle('expanded')">${item.summary_zh}</p>
+            <p class="card-summary">${item.summary_zh}</p>
             <div class="card-footer">
                 <div class="meta-info">
                     <span>${item.source}</span>
                     <span>•</span>
                     <span>${timeStr}</span>
                 </div>
-                <a href="${item.url}" target="_blank" class="read-more">閱讀原文</a>
+                <a href="${item.url}" target="_blank" class="read-more">原文來源</a>
             </div>
         `;
         newsContainer.appendChild(card);
