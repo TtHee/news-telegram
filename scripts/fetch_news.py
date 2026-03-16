@@ -157,13 +157,12 @@ def categorize(articles: list) -> dict:
 def build_output(categories: dict, market_info: dict, risk: dict) -> dict:
     """組合最終要寫入 news.json 的資料結構。"""
     return {
-        "generated_at": datetime.now(TZ_TW).isoformat(),
-        "risk_score":   risk["score"],
-        "risk_level":   risk["level"],
-        "risk_signals": risk["signals"],
-        "market":       market_info["market"],
-        "macro":        market_info.get("macro", {}),
-        "categories":   categories,
+        "generated_at":  datetime.now(TZ_TW).isoformat(),
+        "risk_signals":  risk["signals"],
+        "ai_summary":    risk["ai_summary"],
+        "market":        market_info["market"],
+        "macro":         market_info.get("macro", {}),
+        "categories":    categories,
     }
 
 

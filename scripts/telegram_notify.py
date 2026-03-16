@@ -74,11 +74,11 @@ def send_morning_report(news_data: dict, risk: dict) -> bool:
     lines = [
         f"📊 <b>每日市場早報 {today}</b>",
         "",
-        f"{risk['emoji']} 系統風險指數：<b>{risk['score']} / 100</b>",
     ]
 
-    if risk.get("signals"):
-        lines.append("⚠️ 警示：" + "；".join(risk["signals"][:3]))
+    if risk.get("ai_summary"):
+        lines.append(f"📡 {risk['ai_summary']}")
+        lines.append("")
 
     lines.extend(["", "📈 <b>市場概況</b>"])
     lines.extend(_format_market(news_data.get("market", {})))

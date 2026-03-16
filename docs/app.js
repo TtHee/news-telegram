@@ -109,54 +109,59 @@ function renderHeader(generatedAt) {
 
 // Render Widgets
 function renderWidgets(data) {
-    // Risk Widget
-    document.getElementById('riskScore').textContent = `${data.risk_score}/100`;
-    const styleElem = document.createElement('style');
-    styleElem.innerHTML = `.risk-bar::after { width: ${data.risk_score}%; }`;
-    document.head.appendChild(styleElem);
-
-    const riskBar = document.getElementById('riskBar');
-    riskBar.className = `risk-bar ${data.risk_level}`;
-
-    const levelMap = { 'normal': '🟢 正常', 'watch': '🟡 留意', 'danger': '🔴 高風險' };
-    document.getElementById('riskLevelText').textContent = levelMap[data.risk_level] || data.risk_level;
-
+    // Risk / Market Signals
     const signalsList = document.getElementById('riskSignals');
-    signalsList.innerHTML = data.risk_signals.slice(0, 3).map(s => `<li>⚠️ ${s}</li>`).join('');
+    if (data.risk_signals && data.risk_signals.length) {
+        signalsList.innerHTML = data.risk_signals.map(s => `<li>${s}</li>`).join('');
+    } else {
+        signalsList.innerHTML = '<li>暫無指標資料</li>';
+    }
+
+    // AI Summary
+    const aiEl = document.getElementById('aiSummary');
+    aiEl.textContent = data.ai_summary || '暫無 AI 評估';
 
     // Market Widget
     const fmt = (price, change) => {
-        if (price === null) return { p: '--', c: '', class: '' };
+        if (price === null || price === undefined) return { p: '--', c: '', class: '' };
         let cText = '';
         let cClass = '';
-        if (change !== null) {
+        if (change !== null && change !== undefined) {
             cText = change > 0 ? `▲ +${change}%` : `▼ ${change}%`;
             cClass = change > 0 ? 'change-up' : 'change-down';
         }
         return { p: price.toLocaleString(), c: cText, class: cClass };
     };
 
-    const twii = data.market.TWII || {};
-    const sp500 = data.market.SP500 || {};
-    const vix = data.market.VIX || {};
-    const tnx = data.market.TNX || {};
+    // 大盤（有漲跌幅）
+    ['TWII', 'SP500'].forEach(key => {
+        const d = data.market[key] || {};
+        const f = fmt(d.price, d.change_pct);
+        const el = document.getElementById(`market-${key}`);
+        if (!el) return;
+        el.querySelector('.market-price').textContent = f.p;
+        el.querySelector('.market-change').textContent = f.c;
+        el.querySelector('.market-change').className = `market-change ${f.class}`;
+    });
 
-    const twiiData = fmt(twii.price, twii.change_pct);
-    document.querySelector('#market-TWII .market-price').textContent = twiiData.p;
-    document.querySelector('#market-TWII .market-change').textContent = twiiData.c;
-    document.querySelector('#market-TWII .market-change').className = `market-change ${twiiData.class}`;
-
-    const sp500Data = fmt(sp500.price, sp500.change_pct);
-    document.querySelector('#market-SP500 .market-price').textContent = sp500Data.p;
-    document.querySelector('#market-SP500 .market-change').textContent = sp500Data.c;
-    document.querySelector('#market-SP500 .market-change').className = `market-change ${sp500Data.class}`;
-
-    const vixVal = vix.price !== null ? vix.price : '--';
-    const vixEl = document.querySelector('#market-VIX .market-price');
-    vixEl.textContent = vixVal;
-    if (vix.price > 25) vixEl.classList.add('text-danger');
-
-    document.querySelector('#market-TNX .market-price').textContent = tnx.price !== null ? `${tnx.price}%` : '--';
+    // 單值指標
+    const singleItems = {
+        'VIX':  { suffix: '', warnAbove: 25 },
+        'TNX':  { suffix: '%', warnAbove: 4.5 },
+        'MOVE': { suffix: '', warnAbove: 100 },
+        'DXY':  { suffix: '', warnAbove: 105 },
+        'GOLD': { suffix: '', warnAbove: null },
+    };
+    for (const [key, cfg] of Object.entries(singleItems)) {
+        const d = data.market[key] || {};
+        const el = document.querySelector(`#market-${key} .market-price`);
+        if (!el) continue;
+        el.textContent = d.price !== null && d.price !== undefined
+            ? `${d.price.toLocaleString()}${cfg.suffix}` : '--';
+        if (cfg.warnAbove && d.price > cfg.warnAbove) {
+            el.classList.add('text-danger');
+        }
+    }
 }
 
 // Render Google Trends as ranked list by country

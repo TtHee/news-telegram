@@ -22,7 +22,7 @@ QUIET_HOUR_END = 11    # 上午 11:00 恢復通知
 
 # === 抓取設定 ===
 FETCH_INTERVAL_HOURS = 2
-MAX_ARTICLES_PER_SOURCE = 5
+MAX_ARTICLES_PER_SOURCE = 8
 
 # === 重大新聞觸發條件 ===
 BREAKING_CHANGE_PCT = 3.0        # 大盤漲跌幅閾值（%）
@@ -83,6 +83,9 @@ YFINANCE_TICKERS = {
     "NASDAQ":"^IXIC",
     "VIX":   "^VIX",
     "TNX":   "^TNX",
+    "MOVE":  "^MOVE",
+    "DXY":   "DX-Y.NYB",
+    "GOLD":  "GC=F",
 }
 
 FRED_SERIES = {

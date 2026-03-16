@@ -22,13 +22,9 @@
         <!-- Tablet/Desktop Sidebar, Mobile top sliding menu -->
         <aside class="sidebar" id="sidebar">
             <div class="widget risk-widget">
-                <div class="widget-title">系統風險指數</div>
-                <div class="risk-bar-container">
-                    <div class="risk-bar" id="riskBar"></div>
-                    <span class="risk-score" id="riskScore">--/100</span>
-                </div>
-                <div class="risk-level" id="riskLevelText">--</div>
+                <div class="widget-title">📡 市場風向</div>
                 <ul class="risk-signals" id="riskSignals"></ul>
+                <div class="ai-summary" id="aiSummary">載入中...</div>
             </div>
 
             <div class="widget market-widget">
@@ -54,6 +50,18 @@
                     </div>
                     <div class="market-item" id="market-TNX">
                         <span class="market-name" title="美國 10 年期公債殖利率：反映市場對經濟前景和通膨的預期，殖利率上升代表借貸成本增加，可能對股市造成壓力">美債10Y</span>
+                        <span class="market-price">--</span>
+                    </div>
+                    <div class="market-item" id="market-MOVE">
+                        <span class="market-name" title="ICE BofA MOVE 指數：衡量債券市場波動率，類似債市的 VIX，>100 代表債市波動加劇">MOVE</span>
+                        <span class="market-price">--</span>
+                    </div>
+                    <div class="market-item" id="market-DXY">
+                        <span class="market-name" title="美元指數：衡量美元對一籃子貨幣的強弱，急漲通常代表避險情緒升高">美元指數</span>
+                        <span class="market-price">--</span>
+                    </div>
+                    <div class="market-item" id="market-GOLD">
+                        <span class="market-name" title="黃金期貨價格（美元/盎司）：傳統避險資產，金價急漲通常代表市場不安">黃金</span>
                         <span class="market-price">--</span>
                     </div>
                 </div>

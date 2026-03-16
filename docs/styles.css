@@ -83,15 +83,9 @@ body {
 .widget-title { font-weight: bold; margin-bottom: 1rem; font-size: 1.1rem; }
 
 /* Risk Widget */
-.risk-bar-container { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
-.risk-bar { height: 12px; flex-grow: 1; background-color: var(--border); border-radius: 6px; overflow: hidden; position: relative; }
-.risk-bar::after { content: ''; display: block; height: 100%; width: 0; background-color: var(--success); transition: width 0.5s ease-out, background-color 0.5s ease; }
-.risk-bar.watch::after { background-color: var(--warning); }
-.risk-bar.danger::after { background-color: var(--danger); }
-.risk-score { font-size: 0.875rem; font-weight: bold; }
-.risk-level { font-weight: bold; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.25rem; }
-.risk-signals { list-style: none; font-size: 0.875rem; color: var(--text-muted); }
+.risk-signals { list-style: none; font-size: 0.875rem; color: var(--text-muted); margin-bottom: 0.75rem; }
 .risk-signals li { margin-bottom: 0.25rem; display: flex; align-items: flex-start; gap: 0.25rem; }
+.ai-summary { font-size: 0.9rem; color: var(--text-main); line-height: 1.6; padding-top: 0.75rem; border-top: 1px solid var(--border); }
 
 /* Market Widget */
 .market-grid { display: grid; gap: 0.75rem; }
