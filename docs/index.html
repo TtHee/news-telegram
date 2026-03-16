@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日智聞</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header-bar">
+        <div class="logo-area">
+            <h1>每日智聞</h1>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="搜尋新聞標題或摘要...">
+        </div>
+        <div class="last-updated" id="lastUpdated">更新於 --/-- --:--</div>
+    </header>
+
+    <div class="main-container">
+        <!-- Tablet/Desktop Sidebar, Mobile top sliding menu -->
+        <aside class="sidebar" id="sidebar">
+            <div class="widget risk-widget">
+                <div class="widget-title">系統風險指數</div>
+                <div class="risk-bar-container">
+                    <div class="risk-bar" id="riskBar"></div>
+                    <span class="risk-score" id="riskScore">--/100</span>
+                </div>
+                <div class="risk-level" id="riskLevelText">--</div>
+                <ul class="risk-signals" id="riskSignals"></ul>
+            </div>
+
+            <div class="widget market-widget">
+                <div class="widget-title">📊 市場概況</div>
+                <div class="market-grid">
+                    <div class="market-item" id="market-TWII">
+                        <span class="market-name">台股</span>
+                        <div class="market-data">
+                            <span class="market-price">--</span>
+                            <span class="market-change">--</span>
+                        </div>
+                    </div>
+                    <div class="market-item" id="market-SP500">
+                        <span class="market-name">S&P500</span>
+                        <div class="market-data">
+                            <span class="market-price">--</span>
+                            <span class="market-change">--</span>
+                        </div>
+                    </div>
+                    <div class="market-item" id="market-VIX">
+                        <span class="market-name">VIX</span>
+                        <span class="market-price">--</span>
+                    </div>
+                    <div class="market-item" id="market-TNX">
+                        <span class="market-name">美債10Y</span>
+                        <span class="market-price">--</span>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="category-menu" id="categoryMenu">
+                <button class="menu-btn active" data-category="all">全部</button>
+                <button class="menu-btn" data-category="ai">🤖 AI</button>
+                <button class="menu-btn" data-category="global">🌍 全球趨勢</button>
+                <button class="menu-btn" data-category="finance">💰 財經</button>
+                <button class="menu-btn" data-category="stock_tw">📉 台股</button>
+                <button class="menu-btn" data-category="stock_us">📈 美股</button>
+            </nav>
+            <div class="filter-controls">
+                <label class="filter-label"><input type="checkbox" id="filterUnread"> 未讀</label>
+                <label class="filter-label"><input type="checkbox" id="filterSaved"> 已收藏</label>
+            </div>
+        </aside>
+
+        <!-- Right Main Area -->
+        <main class="content-area">
+            <div id="loading" class="loading">載入新聞中...</div>
+            <div id="errorMsg" class="error-msg" style="display: none;">載入失敗，請稍後再試。</div>
+            <div class="news-grid" id="newsContainer">
+                <!-- News cards render here -->
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

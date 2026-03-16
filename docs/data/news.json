@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-03-14T09:15:00+08:00",
+  "risk_score": 72,
+  "risk_level": "danger",
+  "risk_signals": ["VIX 高位 28.3", "台股跌 -3.2%"],
+  "market": {
+    "TWII":  { "price": 19850, "change_pct": -0.8 },
+    "SP500": { "price": 5200,  "change_pct": 0.3  },
+    "VIX":   { "price": 18.3,  "change_pct": null  },
+    "TNX":   { "price": 4.25,  "change_pct": null  }
+  },
+  "categories": {
+    "ai": [
+      {
+        "id": "ai1",
+        "title": "OpenAI 發布新一代模型",
+        "url": "#",
+        "source": "Reuters",
+        "published_at": "2026-03-14T08:00:00Z",
+        "summary_zh": "OpenAI 今日宣布推出效能更強大的新一代語言模型，在各項基準測試中均有顯著提升，預計將對 AI 產業帶來新一波衝擊。新模型具備更強的多模態理解能力，支援更長上下文。",
+        "sentiment": "正面",
+        "is_breaking": true
+      }
+    ],
+    "global": [
+      {
+        "id": "gl1",
+        "title": "Fed 宣布維持利率不變，市場反應平靜",
+        "url": "#",
+        "source": "Bloomberg",
+        "published_at": "2026-03-14T06:00:00Z",
+        "summary_zh": "聯準會本次會議決定維持基準利率在 5.25%～5.5% 區間，主席鮑爾表示通膨壓力雖然減緩，但尚未達到降息標準，未來決策將視經濟數據而定。",
+        "sentiment": "中性",
+        "is_breaking": false
+      }
+    ],
+    "finance": [
+      {
+        "id": "fi1",
+        "title": "比特幣突破新高，加密貨幣市場迎來狂歡",
+        "url": "#",
+        "source": "CoinDesk",
+        "published_at": "2026-03-13T20:00:00Z",
+        "summary_zh": "受到機構資金湧入影響，比特幣價格今日突破歷史新高，帶動整體加密貨幣市場走升。分析師警告投資人應注意高波動風險。",
+        "sentiment": "正面",
+        "is_breaking": false
+      }
+    ],
+    "stock_tw": [
+      {
+        "id": "tw1",
+        "title": "台積電法說會釋出利多，帶動台股反彈",
+        "url": "#",
+        "source": "鉅亨網",
+        "published_at": "2026-03-14T05:30:00Z",
+        "summary_zh": "台積電今日在法說會上公布亮眼財報，並上調全年財測，消息一出激勵台股大盤指數止跌回升，半導體類股表現強勁。",
+        "sentiment": "正面",
+        "is_breaking": false
+      }
+    ],
+    "stock_us": [
+      {
+        "id": "us1",
+        "title": "科技股領跌，那斯達克指數重挫",
+        "url": "#",
+        "source": "CNBC",
+        "published_at": "2026-03-14T04:00:00Z",
+        "summary_zh": "華爾街大型科技股今日普遍走跌，拖累那斯達克指數大幅下挫。市場擔憂AI概念股估值過高，引發獲利了結賣壓。",
+        "sentiment": "負面",
+        "is_breaking": false
+      }
+    ]
+  }
+}
