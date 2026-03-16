@@ -7,7 +7,7 @@ let filterUnread = false;
 let filterSaved = false;
 
 const CATEGORY_NAMES = {
-    'trends': '🔥 熱門趨勢',
+    'trends': '🔥 Google Trends',
     'whitehouse': '🏛️ 白宮/川普',
     'ai': '🤖 AI',
     'global': '🌍 全球趨勢',
