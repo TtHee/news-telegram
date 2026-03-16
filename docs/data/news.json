@@ -1,72 +1,844 @@
 {
-  "generated_at": "2026-03-14T09:15:00+08:00",
-  "risk_score": 72,
-  "risk_level": "danger",
-  "risk_signals": ["VIX 高位 28.3", "台股跌 -3.2%"],
+  "generated_at": "2026-03-16T17:10:20.375428+08:00",
+  "risk_score": 0,
+  "risk_level": "normal",
+  "risk_signals": [],
   "market": {
-    "TWII":  { "price": 19850, "change_pct": -0.8 },
-    "SP500": { "price": 5200,  "change_pct": 0.3  },
-    "VIX":   { "price": 18.3,  "change_pct": null  },
-    "TNX":   { "price": 4.25,  "change_pct": null  }
+    "TWII": {
+      "price": null,
+      "change_pct": null
+    },
+    "SP500": {
+      "price": null,
+      "change_pct": null
+    },
+    "NASDAQ": {
+      "price": null,
+      "change_pct": null
+    },
+    "VIX": {
+      "price": null,
+      "change_pct": null
+    },
+    "TNX": {
+      "price": null,
+      "change_pct": null
+    }
   },
+  "macro": {},
   "categories": {
     "ai": [
       {
-        "id": "ai1",
-        "title": "OpenAI 發布新一代模型",
-        "url": "#",
-        "source": "Reuters",
-        "published_at": "2026-03-14T08:00:00Z",
-        "summary_zh": "OpenAI 今日宣布推出效能更強大的新一代語言模型，在各項基準測試中均有顯著提升，預計將對 AI 產業帶來新一波衝擊。新模型具備更強的多模態理解能力，支援更長上下文。",
-        "sentiment": "正面",
-        "is_breaking": true
+        "id": "7d7bf852",
+        "title": "Why physical AI is becoming manufacturing’s next advantage",
+        "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Fri, 13 Mar 2026 15:16:55 +0000",
+        "summary_zh": "Why physical AI is becoming manufacturing’s next advantage",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "f937b116",
+        "title": "The Download: how AI is used for military targeting, and the Pentagon’s war on Claude",
+        "url": "https://www.technologyreview.com/2026/03/13/1134278/the-download-defense-official-ai-chatbots-targeting-pentagon-claude-pollute-military-supply-chain/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Fri, 13 Mar 2026 12:16:56 +0000",
+        "summary_zh": "The Download: how AI is used for military targeting, and the Pentagon’s war on Claude",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "b3d360f5",
+        "title": "Future AI chips could be built on glass",
+        "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Fri, 13 Mar 2026 09:00:00 +0000",
+        "summary_zh": "Future AI chips could be built on glass",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "47f7f571",
+        "title": "A defense official reveals how AI chatbots could be used for targeting decisions",
+        "url": "https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 12 Mar 2026 22:23:34 +0000",
+        "summary_zh": "A defense official reveals how AI chatbots could be used for targeting decisions",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "c39b79ad",
+        "title": "The Download: Early adopters cash in on China’s OpenClaw craze, and US batteries slump",
+        "url": "https://www.technologyreview.com/2026/03/12/1134207/the-download-china-openclaw-ai-craze-us-battery-industry-downturn/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 12 Mar 2026 13:02:48 +0000",
+        "summary_zh": "The Download: Early adopters cash in on China’s OpenClaw craze, and US batteries slump",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "a4c3f182",
+        "title": "Pragmatic by design: Engineering AI for the real world",
+        "url": "https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 12 Mar 2026 13:00:00 +0000",
+        "summary_zh": "Pragmatic by design: Engineering AI for the real world",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "6d0459b5",
+        "title": "Brutal times for the US battery industry",
+        "url": "https://www.technologyreview.com/2026/03/12/1134197/us-battery-industry/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 12 Mar 2026 10:00:00 +0000",
+        "summary_zh": "Brutal times for the US battery industry",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "e1a88b06",
+        "title": "Hustlers are cashing in on China’s OpenClaw AI craze",
+        "url": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 11 Mar 2026 12:46:21 +0000",
+        "summary_zh": "Hustlers are cashing in on China’s OpenClaw AI craze",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "f0c10a6e",
+        "title": "The Download: Pokémon Go to train world models, and the US-China race to find aliens",
+        "url": "https://www.technologyreview.com/2026/03/11/1134174/the-download-pokemon-go-train-world-models-us-china-race-find-aliens/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 11 Mar 2026 12:38:00 +0000",
+        "summary_zh": "The Download: Pokémon Go to train world models, and the US-China race to find aliens",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "628a37b7",
+        "title": "Building a strong data infrastructure for AI agent success",
+        "url": "https://www.technologyreview.com/2026/03/10/1134083/building-a-strong-data-infrastructure-for-ai-agent-success/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Tue, 10 Mar 2026 14:00:00 +0000",
+        "summary_zh": "Building a strong data infrastructure for AI agent success",
+        "sentiment": "中性",
+        "is_breaking": false
       }
     ],
-    "global": [
+    "trends": [
       {
-        "id": "gl1",
-        "title": "Fed 宣布維持利率不變，市場反應平靜",
-        "url": "#",
-        "source": "Bloomberg",
-        "published_at": "2026-03-14T06:00:00Z",
-        "summary_zh": "聯準會本次會議決定維持基準利率在 5.25%～5.5% 區間，主席鮑爾表示通膨壓力雖然減緩，但尚未達到降息標準，未來決策將視經濟數據而定。",
+        "id": "2e39f7f1",
+        "title": "安娜溫圖",
+        "url": "https://trends.google.com/trending/rss?geo=TW",
+        "source": "Google Trends 台灣",
+        "category": "trends",
+        "published_at": "Mon, 16 Mar 2026 00:00:00 -0700",
+        "summary_zh": "安娜溫圖",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "ccbd37e7",
+        "title": "青木さやか",
+        "url": "https://trends.google.com/trending/rss?geo=JP",
+        "source": "Google Trends 日本",
+        "category": "trends",
+        "published_at": "Mon, 16 Mar 2026 01:20:00 -0700",
+        "summary_zh": "青木さやか",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "b2e86c0d",
+        "title": "openai",
+        "url": "https://trends.google.com/trending/rss?geo=US",
+        "source": "Google Trends 美國",
+        "category": "trends",
+        "published_at": "Mon, 16 Mar 2026 01:00:00 -0700",
+        "summary_zh": "openai",
+        "sentiment": "中性",
+        "is_breaking": false
+      }
+    ],
+    "whitehouse": [
+      {
+        "id": "a5f302b7",
+        "title": "川普稱仍有權徵關稅美中展開新一輪貿易談判| 國際 - 中央社 CNA",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtaVhDbkM2clNGaHhGTXBGNHhZamgzQ1NGdXBtY0VlSlBpYVFNYWxvUkROWUNBa0JVVW42dzZVTDZXSURSR1paMnJfNFpUOWpreFg1NWhmZF9sX2xySGs0?oc=5",
+        "source": "Trump News",
+        "category": "whitehouse",
+        "published_at": "Mon, 16 Mar 2026 05:48:00 GMT",
+        "summary_zh": "川普稱仍有權徵關稅美中展開新一輪貿易談判| 國際 - 中央社 CNA",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "0bab6640",
+        "title": "川普警告北約歐盟加入對伊朗行動 施壓中國協助疏通荷姆茲海峽稱不排除延後訪北京 - Yahoo新聞",
+        "url": "https://news.google.com/rss/articles/CBMikARBVV95cUxPOGozZDVja2s4dDNZS0txUGpOLUtZZ1I1OFBVYTRuc0cwZWlBTEN0Vlo3TFhfZFFEdk5HNkVId3hLeXdxM09saURia0JSR01zTG1QT1dGaU0zQXUyMVNNVHFPUGE3TTY5bTBFTm9NYTZraHlnZTlLQjQtTDR4eU9YMmFDOXJ2b3MxVS1Db2VOdlJTams1dlNDbVBuTUxfRmFDNEpYUldSU1QwRUtlNzlDT25kcE5rbHdhcTFlTk1vR1Z0dVhkcnJIXzdBUlBSY2ctWnhRR3BUU0FoNlNOekNXd1pTYXFhaDdmYmtLY3luUDFMQ20xX09ST3BhSEtQejRTUENVZjlJMEt0aDd0YWxLX2R0QW1WdnRpcHQtQnR6LW5jVkQwVEN0ckdseUlxTUpXVnduT2YwRkc1X0lQUzBKejRrNUczZXhpbzNtMGhiSWpBOU15NG13U3RKNWQyeUF1V3NRWG5BeUNldXdNc1RmRlV4NTB4VmtjeE9YYkVPQmx6Y3AwNWF0ZVNxdTlqU1BHTTlZYl9KOFdZOS1obGJhZnEzWVc3d0RsNFFhV2ozSmNzdDlTRDJLRGtyTmxkZVhucmg3R3A3MHVGQjJBZjQ3ZGt2YWs4Wk5EazRRU0h0eWtRQXlVLU5ZeHZmZHBjUXZiWEl2VGxjUEJhTndLbWFTNHF5SzUxWUlmTkd5YzMwOFo?oc=5",
+        "source": "Trump News",
+        "category": "whitehouse",
+        "published_at": "Mon, 16 Mar 2026 06:52:43 GMT",
+        "summary_zh": "川普警告北約歐盟加入對伊朗行動 施壓中國協助疏通荷姆茲海峽稱不排除延後訪北京 - Yahoo新聞",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "f3a76c4a",
+        "title": "伊朗戰爭何時收場？川普說法反覆 盟友敵手全看傻 - 鉅亨網",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBpa09QemhMSUtDUl9JM0ltWjZOb044VjJOeXhxeVhBUDhqOHJxY0I5OU9IbFR6TkxHbDlMWXB4WDFqNWltdUlqRXpMSQ?oc=5",
+        "source": "Trump News",
+        "category": "whitehouse",
+        "published_at": "Mon, 16 Mar 2026 09:00:02 GMT",
+        "summary_zh": "伊朗戰爭何時收場？川普說法反覆 盟友敵手全看傻 - 鉅亨網",
+        "sentiment": "中性",
+        "is_breaking": true
+      },
+      {
+        "id": "84593f27",
+        "title": "川普放話了！(#01J) 【川普威脅「取消 #川習會」 施壓中國打通荷莫茲海峽】 （圖／路透） - facebook.com",
+        "url": "https://news.google.com/rss/articles/CBMivwNBVV95cUxOVU1TcDRQYWlaWVZhYVVkOFMzMDd2X3dYLU5XOVFRa2M3Y2NvYmRGMXYzQjVLNnEzSGRPV2pFV0VwYVF2S2xRSEVGaTF5YkRyWXRhekJDTnRKXzB4TDNfWDBvejk0TzZxeTQwZURGSnlMRUE0c0VwUWtYZGlEMzdvTlcxSmNXOWV6dGtYUkhiVU94YTZnbkNDNEdYdjNIejdlaTJaZmthQ0dyRVIwdFh4c3diMS1xR1N1U3JLWS1pVTJGTS1sVERVOEtUbGFvYzZhLU5CRjhWUXR4eS1PUGFoM1VMaFpCNGJPODRndWZvSU1OVm8tLUUzWGIxLUZVQklHNmZuZ3pYdEwzSFQ1ZDJrSzZqM2RyYUg1c3pLWTM1NVdNMGFqdnlqWHZUZlBvSWNrYVh6dFR0ajdsQ0JObEdndWVXd3pxa0hPVlpFX0dxaDFJb0JPemNQXzhsTkNMRjB6VWtNbG1IdlQxYkZXclZ0dUZjSjZLZ2twd0xmVlVpdDdXMDhCTTJaQ1psN3RwUWpnUUhXZU1lZHJIbFZWVEZ4ODNEbmJIQ1ZvdENlMVdxbG45eGplZm5uN3NZZ0U1ZWs?oc=5",
+        "source": "Trump News",
+        "category": "whitehouse",
+        "published_at": "Mon, 16 Mar 2026 08:02:56 GMT",
+        "summary_zh": "川普放話了！(#01J) 【川普威脅「取消 #川習會」 施壓中國打通荷莫茲海峽】 （圖／路透） - facebook.com",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "f9ed4703",
+        "title": "古巴證實與美接洽川普：解決伊朗問題後來處理- 新聞 - MoneyDJ理財網",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSEdGNExFMHQwS3Jjam1FMzdUQVgzbUlmRmtMR01PWG1DbTNBMkR3Sm4zOFlRTTdCbERiazhDclhoWnZvS1Q1S01XaWMwR0M4R1RPYVlLYkFoZm5LUjJYVHA2aFdEcFZZS0tBZTBEYW9ralUxSFk0cFRxQzRKR3RoSDN1TjM3akZvdGdqTDAyYlJIdw?oc=5",
+        "source": "Trump News",
+        "category": "whitehouse",
+        "published_at": "Mon, 16 Mar 2026 02:42:00 GMT",
+        "summary_zh": "古巴證實與美接洽川普：解決伊朗問題後來處理- 新聞 - MoneyDJ理財網",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "bea0997b",
+        "title": "川普「史詩憤怒」好燒錢！ 白宮經濟顧問：支出已超120億美元反對派憂衝突升溫| 國際 - Newtalk新聞",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5bk5VR0h4QjZnYUI4WGFKa0ZkLWJRdllSZHpDREZTUTkxUXMtWEVuZXRZUEhVSWpOcTc2dTZ6Q0NHdXFPUHY0TUtRdFJQMHdtT1hwWi1wV0xRQ0k?oc=5",
+        "source": "Trump News",
+        "category": "whitehouse",
+        "published_at": "Mon, 16 Mar 2026 05:28:08 GMT",
+        "summary_zh": "川普「史詩憤怒」好燒錢！ 白宮經濟顧問：支出已超120億美元反對派憂衝突升溫| 國際 - Newtalk新聞",
+        "sentiment": "中性",
+        "is_breaking": true
+      },
+      {
+        "id": "50ea304d",
+        "title": "川普會氣死！吉米金莫奧斯卡諷「言論審查像北韓」　再酸第一夫人：只會在白宮試鞋 - 鏡週刊Mirror Media",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wd3F1TmtpalB3N0VOT01oY2xnX01TNmV5ZmpNWVZzNjdsS0NxTnNyR3ZpYkg5RU1DUGI1STVhc1M2MjFCVVVoQWxRUlhaMThvU1FUVHVfRXJNcGvSAWBBVV95cUxNdTZZR3h1a29vSlB2NzlNWWFyRUVNTmJtMXlNb25ZeHU4R0Rmc1RGb2l1YS1PMDJGYTYwbUttbnlWMmZ6dlliaG1OTG12aGlucENBYjAtVFRaQkZvclJ2dEQ?oc=5",
+        "source": "Trump News",
+        "category": "whitehouse",
+        "published_at": "Mon, 16 Mar 2026 05:18:00 GMT",
+        "summary_zh": "川普會氣死！吉米金莫奧斯卡諷「言論審查像北韓」　再酸第一夫人：只會在白宮試鞋 - 鏡週刊Mirror Media",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "7d5a104e",
+        "title": "川普「搖旗」討救兵，慘遭中英法日韓「已讀不回」！荷莫茲遭遇封鎖危機，各國不願派兵淌渾水| 李忠謙 | 新聞 - 風傳媒",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBfQlNhN2FHa3ktQzFCblRzYzRlZFZNZHpPY2drVmZMMUxWd3dfbkFvTk9nZ1dyQWR1YnMzck1GYkdxQ1VBTnpWczRTUUlfZw?oc=5",
+        "source": "Trump News",
+        "category": "whitehouse",
+        "published_at": "Mon, 16 Mar 2026 04:18:17 GMT",
+        "summary_zh": "川普「搖旗」討救兵，慘遭中英法日韓「已讀不回」！荷莫茲遭遇封鎖危機，各國不願派兵淌渾水| 李忠謙 | 新聞 - 風傳媒",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "63694940",
+        "title": "川普希望中日韓向荷姆茲海峽派遣艦船 - 日經中文網",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeHZSalBZaFh0ald4N0o3MXlTLWtxenVWeDBJd0FsZmZvMVlMRjhlZEtLTDJOdVpUVWRwNHh6YlF0YWFyMVBLVWFKcXFnMGFKclpzRUdfM3JBNExLSG0tYUhTYnQ2NkN6eDZ5QlZHNVd2YWVUQndGcDJhb2x0Z3BLeGhOcUpOdi1lWGlVd3hpaC10b0k?oc=5",
+        "source": "Trump News",
+        "category": "whitehouse",
+        "published_at": "Mon, 16 Mar 2026 01:57:53 GMT",
+        "summary_zh": "川普希望中日韓向荷姆茲海峽派遣艦船 - 日經中文網",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "6f62cf8d",
+        "title": "川普施壓北約中國協助疏通荷莫茲海峽不排除延後川習會| 國際 - 中央社 CNA",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE93RF9FNHpQWXZfNHRlX196N1BXdjhKNTZuOTZ3MG9FbHFtUzVPbFNSWmduaEtYc2FWLXQ2TXczVzVDRW01d2w1cTJPbDJmWTM0OHpGbGNWODZrdW02QmNj?oc=5",
+        "source": "Trump News",
+        "category": "whitehouse",
+        "published_at": "Mon, 16 Mar 2026 00:48:00 GMT",
+        "summary_zh": "川普施壓北約中國協助疏通荷莫茲海峽不排除延後川習會| 國際 - 中央社 CNA",
         "sentiment": "中性",
         "is_breaking": false
       }
     ],
     "finance": [
       {
-        "id": "fi1",
-        "title": "比特幣突破新高，加密貨幣市場迎來狂歡",
-        "url": "#",
-        "source": "CoinDesk",
-        "published_at": "2026-03-13T20:00:00Z",
-        "summary_zh": "受到機構資金湧入影響，比特幣價格今日突破歷史新高，帶動整體加密貨幣市場走升。分析師警告投資人應注意高波動風險。",
-        "sentiment": "正面",
+        "id": "94cc4d65",
+        "title": "Crude prices top $100 as Trump says U.S. may hit Iran's oil hub again 'just for fun'",
+        "url": "https://www.cnbc.com/2026/03/15/oil-prices-today-iran-war.html",
+        "source": "CNBC",
+        "category": "finance",
+        "published_at": "Mon, 16 Mar 2026 07:54:31 GMT",
+        "summary_zh": "Crude prices top $100 as Trump says U.S. may hit Iran's oil hub again 'just for fun'",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "9c491581",
+        "title": "'We will remember': Trump warns countries to help secure Strait of Hormuz as shipping stalls",
+        "url": "https://www.cnbc.com/2026/03/16/trump-demands-allies-secure-strait-of-hormuz-oil-iran.html",
+        "source": "CNBC",
+        "category": "finance",
+        "published_at": "Mon, 16 Mar 2026 09:08:15 GMT",
+        "summary_zh": "'We will remember': Trump warns countries to help secure Strait of Hormuz as shipping stalls",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "eb8c6980",
+        "title": "UAE’s Fujairah oil trading hub targeted by a drone attack, causing large fire",
+        "url": "https://www.cnbc.com/2026/03/16/uae-fujairah-oil-hub-drone-fire-iran-war-us-israel-middle-east.html",
+        "source": "CNBC",
+        "category": "finance",
+        "published_at": "Mon, 16 Mar 2026 09:06:47 GMT",
+        "summary_zh": "UAE’s Fujairah oil trading hub targeted by a drone attack, causing large fire",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "57c9cb8a",
+        "title": "Oil’s war-driven volatility pulls in record retail money, fueling 'meme-style' trading",
+        "url": "https://www.cnbc.com/2026/03/16/oil-crude-iran-war-retailers-meme.html",
+        "source": "CNBC",
+        "category": "finance",
+        "published_at": "Mon, 16 Mar 2026 08:18:44 GMT",
+        "summary_zh": "Oil’s war-driven volatility pulls in record retail money, fueling 'meme-style' trading",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "92a65413",
+        "title": "Op-ed: Why my interview with Russia's ambassador to the U.K. reflected a stark global picture",
+        "url": "https://www.cnbc.com/2026/03/16/russian-ambassador-to-uk-andrey-kelin-iran-crimea-ukraine.html",
+        "source": "CNBC",
+        "category": "finance",
+        "published_at": "Mon, 16 Mar 2026 07:57:59 GMT",
+        "summary_zh": "Op-ed: Why my interview with Russia's ambassador to the U.K. reflected a stark global picture",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "26c83093",
+        "title": "Trump’s warning over Kharg Island raises the stakes for Iran’s oil exports",
+        "url": "https://www.cnbc.com/2026/03/16/trump-iran-kharg-island-strikes-oil-exports.html",
+        "source": "CNBC",
+        "category": "finance",
+        "published_at": "Mon, 16 Mar 2026 07:02:03 GMT",
+        "summary_zh": "Trump’s warning over Kharg Island raises the stakes for Iran’s oil exports",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "66e7dc87",
+        "title": "A Paramount-Warner Bros. movie slate could rule the 2027 box office, but is it sustainable?",
+        "url": "https://www.cnbc.com/2026/03/14/paramount-wbd-2027-movie-slate.html",
+        "source": "CNBC",
+        "category": "finance",
+        "published_at": "Sat, 14 Mar 2026 11:00:01 GMT",
+        "summary_zh": "A Paramount-Warner Bros. movie slate could rule the 2027 box office, but is it sustainable?",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "f4d76550",
+        "title": "Kalshi co-founder Luana Lopes Lara on the biggest prediction markets risks she has ever taken",
+        "url": "https://www.cnbc.com/2026/03/14/kalshi-prediction-markets-bet-luana-lopes-lara.html",
+        "source": "CNBC",
+        "category": "finance",
+        "published_at": "Sat, 14 Mar 2026 14:42:44 GMT",
+        "summary_zh": "Kalshi co-founder Luana Lopes Lara on the biggest prediction markets risks she has ever taken",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "f9fc1e37",
+        "title": "Big Tech purchases of carbon credits explode amid AI race, with Microsoft leading the way",
+        "url": "https://www.cnbc.com/2026/03/16/microsoft-carbon-credits-ai-tech-google-meta.html",
+        "source": "CNBC",
+        "category": "finance",
+        "published_at": "Mon, 16 Mar 2026 08:39:38 GMT",
+        "summary_zh": "Big Tech purchases of carbon credits explode amid AI race, with Microsoft leading the way",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "db93775c",
+        "title": "Trump signals possible delay to Beijing summit as U.S. pressures China to help reopen Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/03/16/trump-possible-delay-beijing-summit-china-iran-strait-of-hormuz-.html",
+        "source": "CNBC",
+        "category": "finance",
+        "published_at": "Mon, 16 Mar 2026 04:16:51 GMT",
+        "summary_zh": "Trump signals possible delay to Beijing summit as U.S. pressures China to help reopen Strait of Hormuz",
+        "sentiment": "中性",
         "is_breaking": false
       }
     ],
     "stock_tw": [
       {
-        "id": "tw1",
-        "title": "台積電法說會釋出利多，帶動台股反彈",
-        "url": "#",
-        "source": "鉅亨網",
-        "published_at": "2026-03-14T05:30:00Z",
-        "summary_zh": "台積電今日在法說會上公布亮眼財報，並上調全年財測，消息一出激勵台股大盤指數止跌回升，半導體類股表現強勁。",
-        "sentiment": "正面",
+        "id": "24d1fffa",
+        "title": "你有嗎？國人平均經常性薪資今年1月達4萬8,819元 再創16年新高",
+        "url": "https://tw.stock.yahoo.com/news/%E4%BD%A0%E6%9C%89%E5%97%8E%EF%BC%9F%E5%9C%8B%E4%BA%BA%E5%B9%B3%E5%9D%87%E7%B6%93%E5%B8%B8%E6%80%A7%E8%96%AA%E8%B3%87%E4%BB%8A%E5%B9%B41%E6%9C%88%E9%81%944%E8%90%AC8819%E5%85%83-%E5%86%8D%E5%89%B516%E5%B9%B4%E6%96%B0%E9%AB%98-090403448.html",
+        "source": "Yahoo 台股新聞",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 09:04:03 GMT",
+        "summary_zh": "你有嗎？國人平均經常性薪資今年1月達4萬8,819元 再創16年新高",
+        "sentiment": "中性",
         "is_breaking": false
+      },
+      {
+        "id": "643ce610",
+        "title": "台灣大去年EPS 4.77元創七年新高，超額配息4.8元，今年營收拚增5%~7%",
+        "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%81%A3%E5%A4%A7%E5%8E%BB%E5%B9%B4eps-4-77%E5%85%83%E5%89%B5%E4%B8%83%E5%B9%B4%E6%96%B0%E9%AB%98-%E8%B6%85%E9%A1%8D%E9%85%8D%E6%81%AF4-8%E5%85%83-090255226.html",
+        "source": "Yahoo 台股新聞",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 09:02:55 GMT",
+        "summary_zh": "台灣大去年EPS 4.77元創七年新高，超額配息4.8元，今年營收拚增5%~7%",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "75434619",
+        "title": "《科技》BenQ發布全新教育互動觸控顯示器 搭載業界最高AI算力",
+        "url": "https://tw.stock.yahoo.com/news/%E9%9B%BB%E9%80%B1%E9%82%8A-benq%E7%99%BC%E5%B8%83%E5%85%A8%E6%96%B0%E6%95%99%E8%82%B2%E4%BA%92%E5%8B%95%E8%A7%B8%E6%8E%A7%E9%A1%AF%E7%A4%BA%E5%99%A8-%E6%90%AD%E8%BC%89%E6%A5%AD%E7%95%8C%E6%9C%80%E9%AB%98ai%E7%AE%97%E5%8A%9B-021221598.html",
+        "source": "Yahoo 台股新聞",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 09:02:46 GMT",
+        "summary_zh": "《科技》BenQ發布全新教育互動觸控顯示器 搭載業界最高AI算力",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "977b2f9f",
+        "title": "勤誠美國NCT廠落成啟用，量產廠訂2027年底投產，美國製造佈局邁大步",
+        "url": "https://tw.stock.yahoo.com/news/%E5%8B%A4%E8%AA%A0%E7%BE%8E%E5%9C%8Bnct%E5%BB%A0%E8%90%BD%E6%88%90%E5%95%9F%E7%94%A8-%E9%87%8F%E7%94%A2%E5%BB%A0%E8%A8%822027%E5%B9%B4%E5%BA%95%E6%8A%95%E7%94%A2-%E7%BE%8E%E5%9C%8B%E8%A3%BD%E9%80%A0%E4%BD%88%E5%B1%80%E9%82%81%E5%A4%A7%E6%AD%A5-090239589.html",
+        "source": "Yahoo 台股新聞",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 09:02:39 GMT",
+        "summary_zh": "勤誠美國NCT廠落成啟用，量產廠訂2027年底投產，美國製造佈局邁大步",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "9fb68e0a",
+        "title": "富邦金法說3》去年股海大賺1703億元 台股投報率28.8%冠壽險",
+        "url": "https://tw.stock.yahoo.com/news/%E5%AF%8C%E9%82%A6%E9%87%91%E6%B3%95%E8%AA%AA3%E3%80%8B%E5%8E%BB%E5%B9%B4%E8%82%A1%E6%B5%B7%E5%A4%A7%E8%B3%BA1703%E5%84%84%E5%85%83-%E5%8F%B0%E8%82%A1%E6%8A%95%E5%A0%B1%E7%8E%87288%E5%86%A0%E5%A3%BD%E9%9A%AA-090220007.html",
+        "source": "Yahoo 台股新聞",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 09:02:20 GMT",
+        "summary_zh": "富邦金法說3》去年股海大賺1703億元 台股投報率28.8%冠壽險",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "af1b5fcb",
+        "title": "境外企業注意！拓展歐盟市場須選任代理人 違規最高罰全球營收 7%",
+        "url": "https://tw.stock.yahoo.com/news/%E5%A2%83%E5%A4%96%E4%BC%81%E6%A5%AD%E6%B3%A8%E6%84%8F-%E6%8B%93%E5%B1%95%E6%AD%90%E7%9B%9F%E5%B8%82%E5%A0%B4%E9%A0%88%E9%81%B8%E4%BB%BB%E4%BB%A3%E7%90%86%E4%BA%BA-%E9%81%95%E8%A6%8F%E6%9C%80%E9%AB%98%E7%BD%B0%E5%85%A8%E7%90%83%E7%87%9F%E6%94%B6-7-085829633.html",
+        "source": "Yahoo 台股新聞",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 08:58:29 GMT",
+        "summary_zh": "境外企業注意！拓展歐盟市場須選任代理人 違規最高罰全球營收 7%",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "da09bab9",
+        "title": "外資連三砍台股又中刀 群創大單夢醒爆量賣壓炸鍋｜Yahoo財經掃描",
+        "url": "https://tw.stock.yahoo.com/news/%E5%A4%96%E8%B3%87%E9%80%A3%E4%B8%89%E7%A0%8D%E5%8F%B0%E8%82%A1%E5%8F%88%E4%B8%AD%E5%88%80-%E7%BE%A4%E5%89%B5%E5%A4%A7%E5%96%AE%E5%A4%A2%E9%86%92%E7%88%86%E9%87%8F%E8%B3%A3%E5%A3%93%E7%82%B8%E9%8D%8B%EF%BD%9Cyahoo%E8%B2%A1%E7%B6%93%E6%8E%83%E6%8F%8F-085633136.html",
+        "source": "Yahoo 台股新聞",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 08:56:33 GMT",
+        "summary_zh": "外資連三砍台股又中刀 群創大單夢醒爆量賣壓炸鍋｜Yahoo財經掃描",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "fa6e34ec",
+        "title": "中東衝突若持續，歐洲恐面臨物價上漲與供應鏈中斷風險",
+        "url": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E6%9D%B1%E8%A1%9D%E7%AA%81%E8%8B%A5%E6%8C%81%E7%BA%8C-%E6%AD%90%E6%B4%B2%E6%81%90%E9%9D%A2%E8%87%A8%E7%89%A9%E5%83%B9%E4%B8%8A%E6%BC%B2%E8%88%87%E4%BE%9B%E6%87%89%E9%8F%88%E4%B8%AD%E6%96%B7%E9%A2%A8%E9%9A%AA-085600841.html",
+        "source": "Yahoo 台股新聞",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 08:56:00 GMT",
+        "summary_zh": "中東衝突若持續，歐洲恐面臨物價上漲與供應鏈中斷風險",
+        "sentiment": "中性",
+        "is_breaking": true
+      },
+      {
+        "id": "b96d4ebf",
+        "title": "輝達GTC大會，台供應鏈精銳盡出，仁寶、英業達秀肌肉，宏碁也不缺席",
+        "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94gtc%E5%A4%A7%E6%9C%83-%E5%8F%B0%E4%BE%9B%E6%87%89%E9%8F%88%E7%B2%BE%E9%8A%B3%E7%9B%A1%E5%87%BA-%E4%BB%81%E5%AF%B6-%E8%8B%B1%E6%A5%AD%E9%81%94%E7%A7%80%E8%82%8C%E8%82%89-%E5%AE%8F%E7%A2%81%E4%B9%9F%E4%B8%8D%E7%BC%BA%E5%B8%AD-085433591.html",
+        "source": "Yahoo 台股新聞",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 08:54:33 GMT",
+        "summary_zh": "輝達GTC大會，台供應鏈精銳盡出，仁寶、英業達秀肌肉，宏碁也不缺席",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "2bbbeda0",
+        "title": "關稅底定、訂單回籠 永豐餘：越南擴廠、擴產線 搶賺供應鏈移轉商機",
+        "url": "https://tw.stock.yahoo.com/news/%E9%97%9C%E7%A8%85%E5%BA%95%E5%AE%9A-%E8%A8%82%E5%96%AE%E5%9B%9E%E7%B1%A0-%E6%B0%B8%E8%B1%90%E9%A4%98-%E8%B6%8A%E5%8D%97%E6%93%B4%E5%BB%A0-%E6%93%B4%E7%94%A2%E7%B7%9A-084856755.html",
+        "source": "Yahoo 台股新聞",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 08:48:56 GMT",
+        "summary_zh": "關稅底定、訂單回籠 永豐餘：越南擴廠、擴產線 搶賺供應鏈移轉商機",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "99798073",
+        "title": "最後一隻白老鼠？ 26萬散戶昨FOMO進場淪住套房 分析師：健康換手",
+        "url": "https://tw.stock.yahoo.com/news/%E6%9C%80%E5%BE%8C%E4%B8%80%E9%9A%BB%E7%99%BD%E8%80%81%E9%BC%A0%EF%BC%9F-26%E8%90%AC%E6%95%A3%E6%88%B6%E6%98%A8fomo%E9%80%B2%E5%A0%B4%E6%B7%AA%E4%BD%8F%E5%A5%97%E6%88%BF-%E5%88%86%E6%9E%90%E5%B8%AB%EF%BC%9A%E5%81%A5%E5%BA%B7%E6%8F%9B%E6%89%8B-021046535.html",
+        "source": "Yahoo 研究報告",
+        "category": "stock_tw",
+        "published_at": "Thu, 26 Feb 2026 02:10:46 GMT",
+        "summary_zh": "最後一隻白老鼠？ 26萬散戶昨FOMO進場淪住套房 分析師：健康換手",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "b1591726",
+        "title": "年底前噴漲40％！輝達疲軟不用怕 分析師3原因大膽預測",
+        "url": "https://tw.stock.yahoo.com/news/%E5%B9%B4%E5%BA%95%E5%89%8D%E5%99%B4%E6%BC%B240-%E8%BC%9D%E9%81%94%E7%96%B2%E8%BB%9F%E4%B8%8D%E7%94%A8%E6%80%95-%E5%88%86%E6%9E%90%E5%B8%AB3%E5%8E%9F%E5%9B%A0%E5%A4%A7%E8%86%BD%E9%A0%90%E6%B8%AC-083740709.html",
+        "source": "Yahoo 研究報告",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 08:37:40 GMT",
+        "summary_zh": "年底前噴漲40％！輝達疲軟不用怕 分析師3原因大膽預測",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "7221e7e5",
+        "title": "【Follow法人】外資連3天狂砍1730億元 分析師：市場不確定性升高",
+        "url": "https://tw.stock.yahoo.com/news/%E3%80%90follow%E6%B3%95%E4%BA%BA%E3%80%91%E5%A4%96%E8%B3%87%E9%80%A33%E5%A4%A9%E7%8B%82%E7%A0%8D1730%E5%84%84%E5%85%83-%E5%88%86%E6%9E%90%E5%B8%AB%EF%BC%9A%E5%B8%82%E5%A0%B4%E4%B8%8D%E7%A2%BA%E5%AE%9A%E6%80%A7%E5%8D%87%E9%AB%98-071202736.html",
+        "source": "Yahoo 研究報告",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 07:12:02 GMT",
+        "summary_zh": "【Follow法人】外資連3天狂砍1730億元 分析師：市場不確定性升高",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "efa934b3",
+        "title": "鴻海法說劉揚偉親上火線主持！分析師曝關鍵：樂看成長",
+        "url": "https://tw.stock.yahoo.com/news/%E9%B4%BB%E6%B5%B7%E6%B3%95%E8%AA%AA%E5%8A%89%E6%8F%9A%E5%81%89%E8%A6%AA%E4%B8%8A%E7%81%AB%E7%B7%9A%E4%B8%BB%E6%8C%81%EF%BC%81%E5%88%86%E6%9E%90%E5%B8%AB%E6%9B%9D%E9%97%9C%E9%8D%B5%EF%BC%9A%E6%A8%82%E7%9C%8B%E6%88%90%E9%95%B7-043439550.html",
+        "source": "Yahoo 研究報告",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 04:34:39 GMT",
+        "summary_zh": "鴻海法說劉揚偉親上火線主持！分析師曝關鍵：樂看成長",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "a002e1f4",
+        "title": "【Hot台股】南電出關首日狂飆9%逼前高！網讚「越關越大尾」 分析師看法出爐",
+        "url": "https://tw.stock.yahoo.com/news/%E3%80%90hot%E5%8F%B0%E8%82%A1%E3%80%91%E5%8D%97%E9%9B%BB%E5%87%BA%E9%97%9C%E9%A6%96%E6%97%A5%E7%8B%82%E9%A3%869%E9%80%BC%E5%89%8D%E9%AB%98%EF%BC%81%E7%B6%B2%E8%AE%9A%E3%80%8C%E8%B6%8A%E9%97%9C%E8%B6%8A%E5%A4%A7%E5%B0%BE%E3%80%8D-%E5%88%86%E6%9E%90%E5%B8%AB%E7%9C%8B%E6%B3%95%E5%87%BA%E7%88%90-034642318.html",
+        "source": "Yahoo 研究報告",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 03:46:42 GMT",
+        "summary_zh": "【Hot台股】南電出關首日狂飆9%逼前高！網讚「越關越大尾」 分析師看法出爐",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "79f4d9c8",
+        "title": "德律今年來飆漲47%...上周登歷史天價今卻苦吞綠燈？分析師這樣看",
+        "url": "https://tw.stock.yahoo.com/news/%E5%BE%B7%E5%BE%8B%E4%BB%8A%E5%B9%B4%E4%BE%86%E9%A3%86%E6%BC%B247%E4%B8%8A%E5%91%A8%E7%99%BB%E6%AD%B7%E5%8F%B2%E5%A4%A9%E5%83%B9%E4%BB%8A%E5%8D%BB%E8%8B%A6%E5%90%9E%E7%B6%A0%E7%87%88%EF%BC%9F%E5%88%86%E6%9E%90%E5%B8%AB%E9%80%99%E6%A8%A3%E7%9C%8B-030256454.html",
+        "source": "Yahoo 研究報告",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 03:02:56 GMT",
+        "summary_zh": "德律今年來飆漲47%...上周登歷史天價今卻苦吞綠燈？分析師這樣看",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "faaf4257",
+        "title": "【Yahoo早盤】台股漲逾300點後翻黑跌百點 分析師白易弘：多頭仍在",
+        "url": "https://tw.stock.yahoo.com/news/%E3%80%90yahoo%E6%97%A9%E7%9B%A4%E3%80%91%E5%8F%B0%E8%82%A1%E6%BC%B2%E9%80%BE300%E9%BB%9E%E5%BE%8C%E7%BF%BB%E9%BB%91%E8%B7%8C%E7%99%BE%E9%BB%9E-%E5%88%86%E6%9E%90%E5%B8%AB%E7%99%BD%E6%98%93%E5%BC%98%EF%BC%9A%E5%A4%9A%E9%A0%AD%E4%BB%8D%E5%9C%A8-014848716.html",
+        "source": "Yahoo 研究報告",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 01:48:48 GMT",
+        "summary_zh": "【Yahoo早盤】台股漲逾300點後翻黑跌百點 分析師白易弘：多頭仍在",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "d57704d5",
+        "title": "鴻海法說前未見押寶？股價平盤震盪後一度翻黑 分析師：要有耐心",
+        "url": "https://tw.stock.yahoo.com/news/%E9%B4%BB%E6%B5%B7%E6%B3%95%E8%AA%AA%E5%89%8D%E6%9C%AA%E8%A6%8B%E6%8A%BC%E5%AF%B6%EF%BC%9F%E8%82%A1%E5%83%B9%E5%B9%B3%E7%9B%A4%E9%9C%87%E7%9B%AA%E5%BE%8C%E4%B8%80%E5%BA%A6%E7%BF%BB%E9%BB%91-%E5%88%86%E6%9E%90%E5%B8%AB%EF%BC%9A%E8%A6%81%E6%9C%89%E8%80%90%E5%BF%83-013030272.html",
+        "source": "Yahoo 研究報告",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 01:30:30 GMT",
+        "summary_zh": "鴻海法說前未見押寶？股價平盤震盪後一度翻黑 分析師：要有耐心",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "a86a63da",
+        "title": "《研究報告》地緣衝突 不改美股長線行情",
+        "url": "https://tw.stock.yahoo.com/news/%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A-%E5%9C%B0%E7%B7%A3%E8%A1%9D%E7%AA%81-%E4%B8%8D%E6%94%B9%E7%BE%8E%E8%82%A1%E9%95%B7%E7%B7%9A%E8%A1%8C%E6%83%85-003159997.html",
+        "source": "Yahoo 研究報告",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 00:31:59 GMT",
+        "summary_zh": "《研究報告》地緣衝突 不改美股長線行情",
+        "sentiment": "中性",
+        "is_breaking": true
+      },
+      {
+        "id": "97222451",
+        "title": "《研究報告》3月新基金開募 ETF最搶戲",
+        "url": "https://tw.stock.yahoo.com/news/%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A-3%E6%9C%88%E6%96%B0%E5%9F%BA%E9%87%91%E9%96%8B%E5%8B%9F-etf%E6%9C%80%E6%90%B6%E6%88%B2-003136851.html",
+        "source": "Yahoo 研究報告",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 00:31:36 GMT",
+        "summary_zh": "《研究報告》3月新基金開募 ETF最搶戲",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "e8c4c651",
+        "title": "國泰金上修台灣今年經濟成長率至5.8%　油價恐推升通膨",
+        "url": "https://www.cna.com.tw/news/afe/202603160189.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 16:23:12 +0800",
+        "summary_zh": "國泰金上修台灣今年經濟成長率至5.8%　油價恐推升通膨",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "546bcae2",
+        "title": "新台幣貶3分　收31.948元",
+        "url": "https://www.cna.com.tw/news/afe/202603160187.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 16:06:07 +0800",
+        "summary_zh": "新台幣貶3分　收31.948元",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "af0f441d",
+        "title": "鴻海：今年營運強勁成長　AI機櫃出貨看倍增",
+        "url": "https://www.cna.com.tw/news/afe/202603160184.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 15:53:01 +0800",
+        "summary_zh": "鴻海：今年營運強勁成長　AI機櫃出貨看倍增",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "7094c0b8",
+        "title": "宜鼎2月獲利年增1332%　每股純益16.22元",
+        "url": "https://www.cna.com.tw/news/afe/202603160171.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 15:32:33 +0800",
+        "summary_zh": "宜鼎2月獲利年增1332%　每股純益16.22元",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "fbd5142a",
+        "title": "卓榮泰：3、4月能源無虞　5月全力努力搶更多現貨",
+        "url": "https://www.cna.com.tw/news/afe/202603160170.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 15:29:31 +0800",
+        "summary_zh": "卓榮泰：3、4月能源無虞　5月全力努力搶更多現貨",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "4c2a02fd",
+        "title": "三大法人賣超台股477.89億元",
+        "url": "https://www.cna.com.tw/news/afe/202603160163.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 15:11:16 +0800",
+        "summary_zh": "三大法人賣超台股477.89億元",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "76162d07",
+        "title": "安格欣普羅前進GTC　展視覺感知系統和攝影機模組",
+        "url": "https://www.cna.com.tw/news/afe/202603160162.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 15:10:14 +0800",
+        "summary_zh": "安格欣普羅前進GTC　展視覺感知系統和攝影機模組",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "a4c92330",
+        "title": "鴻海去年獲利創新高每股賺13.61元　第4季3率3降",
+        "url": "https://www.cna.com.tw/news/afe/202603160155.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 15:00:59 +0800",
+        "summary_zh": "鴻海去年獲利創新高每股賺13.61元　第4季3率3降",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "3dbdb6f6",
+        "title": "油價攀升、投資人關注川高會　日股收跌",
+        "url": "https://www.cna.com.tw/news/afe/202603160154.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 14:59:57 +0800",
+        "summary_zh": "油價攀升、投資人關注川高會　日股收跌",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "472fc8fd",
+        "title": "台積電收低記憶體等族群強漲　台股均線糾結下跌57點",
+        "url": "https://www.cna.com.tw/news/afe/202603160153.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 16 Mar 2026 14:58:55 +0800",
+        "summary_zh": "台積電收低記憶體等族群強漲　台股均線糾結下跌57點",
+        "sentiment": "中性",
+        "is_breaking": true
       }
     ],
     "stock_us": [
       {
-        "id": "us1",
-        "title": "科技股領跌，那斯達克指數重挫",
-        "url": "#",
-        "source": "CNBC",
-        "published_at": "2026-03-14T04:00:00Z",
-        "summary_zh": "華爾街大型科技股今日普遍走跌，拖累那斯達克指數大幅下挫。市場擔憂AI概念股估值過高，引發獲利了結賣壓。",
-        "sentiment": "負面",
+        "id": "57eb8815",
+        "title": "《盤中解析》震盪翻紅攻10日線！題材股勿追高 璞玉挑2類 - Yahoo股市",
+        "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPSUZmUWFtdnBwdmk2Zmp0Zy0wUHdsbGVuUFNydkFSYUl0QlBkbmdmNkx1N0M2UTI2bTVTenlXS1Z5SVFQZmhadDYzNnM4SXp6eVFmalpKU0ZOb2NYT1NhcVdMQXdrY0o4RmJDQmZZZ05BLUlCZTN0RVhqUEpKbmVWMDFjWkFjM1VpMkVaSGtfWjVQSjlTR2R0Q3NXT1BnZ19ycmFYT0Ewc3N3NlZpZVhkblcwaHNuNnFVMUhreW90OWNlc0U2Tjh4WnBTOW5OVzZ4bjNNVWRUblltWVQ1UTRxTGIya2NyLUZ3TEZzSVhIZnZoTVVYOWV4R0IwajFneEl5N1hrYkNhX1BFdEFicmQtZDZtMHNfZEZ5SWtIOXp0Slg5bkxONVBZLTVOcV9FR2w3WWFuNXo2RFVSelRlZjNaSGtIa2VnTEpQZ2ZFcl9aYnFUMnhxb3ZKTnBTVjl6MEE?oc=5",
+        "source": "Google News 財經",
+        "category": "stock_us",
+        "published_at": "Mon, 16 Mar 2026 04:22:36 GMT",
+        "summary_zh": "《盤中解析》震盪翻紅攻10日線！題材股勿追高 璞玉挑2類 - Yahoo股市",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "33d0934d",
+        "title": "焦點股》旺宏：超狂報告效應 股價超越華邦電 - 自由財經",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZQ3g0YVJvSWF4bHRuVWRJWG5tVlB6aUlqSUdVMEhHWnR2WWlpUEMzVzJDanh1ckoxR011V25zZS11cjJOQzRPOEo4dlJSdDZja3IzUzE5M2M3eHVUZWFF0gFkQVVfeXFMT3d5UEZLOW9ZVmFEZU9XRV9adDh1S28xUXFQTXZSQUNxMGRhYktPMUxxTEtPeHd0M19sbno4bGwzLXg2bWRtTFJodGt3T3dSQzNyWGpWQTFUQTFOWmNBcm03RURPVQ?oc=5",
+        "source": "Google News 財經",
+        "category": "stock_us",
+        "published_at": "Mon, 16 Mar 2026 01:45:34 GMT",
+        "summary_zh": "焦點股》旺宏：超狂報告效應 股價超越華邦電 - 自由財經",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "84d25686",
+        "title": "美伊戰事恐推升油價！主計長：油漲一成GDP減0.12百分點 - Yahoo股市",
+        "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxPNFFOVUxNaDlCYXpHYmVSNDZLQk5qS3k1Sl91OUFRX0RocDByNUpDOURxWUlrUFExczc5RVVBQ3k4al9YbmJKcTVmVVdDXzQyWU1pU0U3bWU2aVVDM253QzNXVHVFUXNrN1NPeDNXWTR1LXNac3JObGl2Q1JReUJha2xFZ2s1RTNESXRKLUw5aFdsRzB4VjNnbnBPVmpIc3BMRmVzeWJYcnI0TVRvNjZqRUx1ODQ2T1ZuUm1QYWR5NmhRMXp4TmNsdlNkb2p3OUd2UU8wZDBKQXNMVFl2cU1GYlFRQ2RvbW9kOTNsZVdpTU9aQTFYX1JDOWU2NDJ6NzRyOU5zMzNRMGFoM25qRE1zbEpzWlpIU05Xc0gtcnl4bXlvalY0M3BsV1hvSU9GYlliNG9tcDlnMHFYQ3VlQWFxeTZqcXlCZTRIQnVhblFqSmdFMDJUWGdxeVozS1dQR0NVZWJCTjJzV1BYeHM?oc=5",
+        "source": "Google News 財經",
+        "category": "stock_us",
+        "published_at": "Mon, 16 Mar 2026 03:26:53 GMT",
+        "summary_zh": "美伊戰事恐推升油價！主計長：油漲一成GDP減0.12百分點 - Yahoo股市",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "8cf7c946",
+        "title": "【Follow法人】外資今再砍439億 連3賣累計提款1730億元 - Yahoo股市",
+        "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPQTVSSV91ZDhGSGtDdVk2dkg4NnV5RC1QOElSNWxIaDAyUGtlRklHUkVnMXNTNnBETndwZnlhVmxkVlJfUGNsdFVUZEloUXRPSHFpMzhHRVVKUk1laVFGbTB0d3pCWEYwT21uQktIdXZkUlFpeC1WVzFEV3VFVHYxMGQ0RzlpcTdSbjNyOGg2a0QwZVpZOFRzT2FHMDRBVTc1QTdyelpBR2RnNkwyWTlFN1licUpfU3FZc3UydFRydGVTV2dxd2lTYkpOd2RsZzNMUnRQS09qVkdJdUFwdkIyaHhsYXhGMjloeU9EV3JZVWtnNDZ0M1lEQkltUjlZTnZkVEVPSFZVLVhCbXJVcDhyODJqRmZHU3EyRGtmWkdDWkFMY2ZnUkozVHpzakVQWTVOcmxpSXdMWFFURHpkMnllRVlySlZaSUU?oc=5",
+        "source": "Google News 財經",
+        "category": "stock_us",
+        "published_at": "Mon, 16 Mar 2026 07:12:02 GMT",
+        "summary_zh": "【Follow法人】外資今再砍439億 連3賣累計提款1730億元 - Yahoo股市",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "553bd846",
+        "title": "近半世紀最大規模！日本今起釋放約8000萬桶石油儲備 相當45天所需石油供應 - news.cnyes.com",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YeFpIb24wNUp0ZFNrNVgtaVNmNHNFcDFZUldodHZzeWZjRXRiM1ZDTmNCaFhIUkxyRElQVUI3OHlfRnFpZnVuZEVGT3lNb2s?oc=5",
+        "source": "Google News 財經",
+        "category": "stock_us",
+        "published_at": "Mon, 16 Mar 2026 00:51:49 GMT",
+        "summary_zh": "近半世紀最大規模！日本今起釋放約8000萬桶石油儲備 相當45天所需石油供應 - news.cnyes.com",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "cd12c759",
+        "title": "3／16盤前｜輝達GTC登場救駕外資劃重點盤點台鏈光明燈- 證券 - 工商時報",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yS3k2NHJqME1Ma09JMGtoaXd6V2k1Z3NQWkhWcG9HUmNLTjBSSXFQRm1OUHVqOFAxM0xXS1prVjFDUHlwUl9BbjlSdGxyUjVIWXlTajI0YWxWcHMxZ1Br?oc=5",
+        "source": "Google News 財經",
+        "category": "stock_us",
+        "published_at": "Sun, 15 Mar 2026 23:36:00 GMT",
+        "summary_zh": "3／16盤前｜輝達GTC登場救駕外資劃重點盤點台鏈光明燈- 證券 - 工商時報",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "f5f3f123",
+        "title": "美元指數破百 台幣匯率重貶1.13角破32關卡 - 聯合新聞網",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1aWmFXdjVnMXJ6Nm5nczFxRFh6ZV9jeW9nYmV5NDJLNnp4ODBQbXNLMHpNeV80aF9YajRkTW4zVG55UnVOR255QnJPVWEyX2Y30gFWQVVfeXFMTW1FSXNCQVNpVWVGc2pvam40cnZ2ZEduVW9NWGhTaUNWTzQ3ZHdFdjZaQzJUTURBbHFlT0FNUWJzMmEwekNHbWxRaHFobElpVVkxLTBOZHc?oc=5",
+        "source": "Google News 財經",
+        "category": "stock_us",
+        "published_at": "Mon, 16 Mar 2026 05:14:40 GMT",
+        "summary_zh": "美元指數破百 台幣匯率重貶1.13角破32關卡 - 聯合新聞網",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "ad6037c3",
+        "title": "「最美董娘」豪砸2500萬加碼！彭雪芬掃台新新光股票 驚人持股數曝 - Yahoo新聞",
+        "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxNaWJaajV3eUNraG8ta3Fzd1NEVzl5Y1lWRWhWelZRRG93U2dZVVRGVDc2NHVFdHVMTHBhR1p2WTdteXk0V29jYmdoUGlyNmpmX040YUFmZlpNWmVyS3lnc0pSRkZtaGtGQkxZVWx2ZzY0N056bklRV3FwS2hMV3UxSngxWS1qMkM1VEpIUmptZnJLcEtST1I1REtfMGEweS1iQmlzMDFQbnFETEEzcTBnZV9jU2RoU1Fzbm9mNWFMV1UxcHpIZndjd25MaFhhMjJzNG1nM0N1YnlHYmVmYkR4anFvRHNqRGpueHpuMHJPQWE3M091NHN2LXBzMmIwakNsZi1wTDBMRGFpYXNiang0RE42bXpxMzdobEhVaE1UTC1IVmMxaTFfb2J3c3ROSEFrcldocm1GcGI1Yjk2ZksxdmJEd2luS2ZEVUNxbmV3UWxVR01XLUtPYW1TYmlmSmFwT0podG5ELWZ1cDNrOURRXzhjWWc4ZkVnaXFQVDJ4bDcxWGpmeHp3QQ?oc=5",
+        "source": "Google News 財經",
+        "category": "stock_us",
+        "published_at": "Mon, 16 Mar 2026 04:33:39 GMT",
+        "summary_zh": "「最美董娘」豪砸2500萬加碼！彭雪芬掃台新新光股票 驚人持股數曝 - Yahoo新聞",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "47df8fab",
+        "title": "避險功能「失靈」了 ? 美伊戰爭金價下跌 小摩「全說了」 - 自由財經",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWalh3OEtFejFCYnM5NE5DU3NuOWV3OWNuNUdSd1d1MWZBZXo2VEVhVElnSnlwZll6SE9KMkJJWExXTzMtaHJKQXd1a004WkFwWlk1Ymt2WDh3SFV2NFNB0gFkQVVfeXFMTXM3em1tVWo3MERzcnV6bnZOOFRHay05YWI2OGNNcGRRV0JjVmtWZGEwTFRCVnY1LU1yZ2R0RVdYTGVKMm5jWWVsQlFzQUx6UWdfNTRQa1QxakxWNGMyY1Z6a01nRA?oc=5",
+        "source": "Google News 財經",
+        "category": "stock_us",
+        "published_at": "Mon, 16 Mar 2026 02:51:10 GMT",
+        "summary_zh": "避險功能「失靈」了 ? 美伊戰爭金價下跌 小摩「全說了」 - 自由財經",
+        "sentiment": "中性",
+        "is_breaking": true
+      },
+      {
+        "id": "0796ffa2",
+        "title": "鴻海法說3》115萬股東嗨！鴻海配息7.2元創上市新高 配發率52% - Yahoo股市",
+        "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPbUFzTVF0OEVRSEJXQWZGemxWaVRJSUZoQ1R4YlVnazlZdXhpbC1ySXhfYnV2bXhkeVNkblRqWEs3d3EzNlV1NFMxNVZmT0FNMmtoVGJXRlU2TGJzd25TYzNZcXNiNjRVYzRSQWx4SUkxZ2VSeXI2WEdsRURFMnV4ZkVzRWJHUTM4blVYZ1dJTS00QzU0X2tVdXoxMEFpSWJoSVp3NHZNRnctZG0zYmg5LWpoQ3lVcjZ5eEwzaGFGSEdsTVc2YVIyZk13NnNLemliRnFKbnlkWmpHQ0pnOUdnWTBQTFdoYlRUcG9Qb3NtT3l5UVlVVWp6Yk5JdTVRNUtmX2dTSjExd25LLVFCSXNDZlBlVDZPNzV4eWY1TnUxWkkzNWVfUlZnUm5na0h3d2VBRkhINjNlMVFzWnltSndENjlHMjlqMjloZEtuRXplY3dza0Y3UjJBd1JOamQ0dUozejlNWTlKV3pVYTJEVnVwS2VWbnN1UjdRT1g0?oc=5",
+        "source": "Google News 財經",
+        "category": "stock_us",
+        "published_at": "Mon, 16 Mar 2026 08:11:16 GMT",
+        "summary_zh": "鴻海法說3》115萬股東嗨！鴻海配息7.2元創上市新高 配發率52% - Yahoo股市",
+        "sentiment": "中性",
         "is_breaking": false
       }
     ]
