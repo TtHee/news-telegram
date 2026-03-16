@@ -107,9 +107,11 @@ def enrich_articles(articles: list, cache: dict) -> list:
     cached_count = 0
 
     for i, a in enumerate(articles):
-        if a["id"] in cache and not _is_expired(cache[a["id"]]):
-            # 已摘要過，直接用快取
-            cached = cache[a["id"]]
+        cached = cache.get(a["id"])
+        # 快取有效條件：存在、未過期、摘要不等於標題（等於代表上次失敗）
+        if (cached
+            and not _is_expired(cached)
+            and cached.get("summary_zh", "") != cached.get("title", "")):
             a["title"]       = cached["title"]
             a["summary_zh"]  = cached["summary_zh"]
             a["sentiment"]   = cached["sentiment"]
