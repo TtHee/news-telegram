@@ -43,19 +43,21 @@ RISK_LEVEL_WATCH_MAX = 70    # 41~70 🟡
 # === RSS 來源 ===
 RSS_SOURCES = [
     # AI
-    {"name": "The Rundown AI",    "url": "https://www.rundown.ai/rss",                          "category": "ai"},
     {"name": "MIT Tech Review",   "url": "https://www.technologyreview.com/feed/",               "category": "ai"},
-    {"name": "The Neuron",        "url": "https://www.theneuron.ai/rss",                         "category": "ai"},
+    {"name": "Google News",       "url": "https://news.google.com/rss/search?q=AI+artificial+intelligence&hl=en-US&gl=US&ceid=US:en", "category": "ai"},
+    {"name": "Google News",       "url": "https://news.google.com/rss/search?q=人工智慧+OR+AI&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",       "category": "ai"},
     # Google Trends 熱門搜尋
     {"name": "Google Trends 台灣", "url": "https://trends.google.com.tw/trending/rss?geo=TW",   "category": "trends"},
     {"name": "Google Trends 日本", "url": "https://trends.google.com/trending/rss?geo=JP",      "category": "trends"},
     {"name": "Google Trends 美國", "url": "https://trends.google.com/trending/rss?geo=US",      "category": "trends"},
     # 白宮
     {"name": "White House News",  "url": "https://www.whitehouse.gov/news/feed/",                "category": "whitehouse"},
-    {"name": "白宮新聞",          "url": "https://news.google.com/rss/search?q=白宮+OR+White+House&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "whitehouse"},
+    {"name": "Google News",       "url": "https://news.google.com/rss/search?q=白宮+OR+White+House&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "whitehouse"},
     # 川普
-    {"name": "川普新聞",          "url": "https://news.google.com/rss/search?q=Trump+OR+川普&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "trump"},
-    {"name": "Trump News EN",     "url": "https://news.google.com/rss/search?q=Trump+statement+OR+Trump+executive+order&hl=en-US&gl=US&ceid=US:en", "category": "trump"},
+    {"name": "Google News",       "url": "https://news.google.com/rss/search?q=Trump+OR+川普&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "trump"},
+    {"name": "CNN",               "url": "https://news.google.com/rss/search?q=site:cnn.com+Trump&hl=en-US&gl=US&ceid=US:en",     "category": "trump"},
+    {"name": "Reuters",           "url": "https://news.google.com/rss/search?q=site:reuters.com+Trump&hl=en-US&gl=US&ceid=US:en", "category": "trump"},
+    {"name": "BBC",               "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",                              "category": "trump"},
     # 全球趨勢
     {"name": "Reuters Top News",  "url": "https://feeds.reuters.com/reuters/topNews",            "category": "global"},
     {"name": "Semafor",           "url": "https://www.semafor.com/feed",                         "category": "global"},
@@ -67,7 +69,7 @@ RSS_SOURCES = [
     {"name": "Yahoo 研究報告",    "url": "https://tw.stock.yahoo.com/rss?category=research",     "category": "stock_tw"},
     {"name": "中央社財經",        "url": "https://feeds.feedburner.com/rsscna/finance",           "category": "stock_tw"},
     # 美股（Google News 聚合）
-    {"name": "Google News 財經",  "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "stock_us"},
+    {"name": "Google News",       "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "stock_us"},
 ]
 
 # === 市場數據代碼 ===

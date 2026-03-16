@@ -1,27 +1,36 @@
 import requests
-import yfinance as yf
 from config import FRED_API_KEY, YFINANCE_TICKERS, FRED_SERIES
+
+YAHOO_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=2d&interval=1d"
+YAHOO_HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 
 def get_yfinance_data() -> dict:
-    """抓取大盤、VIX、殖利率等即時數據"""
+    """用 Yahoo Finance HTTP API 抓取市場數據（不依賴 yfinance 套件）"""
     result = {}
     for key, ticker in YFINANCE_TICKERS.items():
         try:
-            t = yf.Ticker(ticker)
-            hist = t.history(period="2d")
-            if len(hist) >= 2:
-                prev  = hist["Close"].iloc[-2]
-                close = hist["Close"].iloc[-1]
+            resp = requests.get(
+                YAHOO_URL.format(symbol=ticker),
+                headers=YAHOO_HEADERS,
+                timeout=10,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+            closes = data["chart"]["result"][0]["indicators"]["quote"][0]["close"]
+            # 過濾掉 None 值
+            closes = [c for c in closes if c is not None]
+
+            if len(closes) >= 2:
+                prev, close = closes[-2], closes[-1]
                 change_pct = round((close - prev) / prev * 100, 2)
-                result[key] = {"price": round(float(close), 2), "change_pct": change_pct}
-            elif len(hist) == 1:
-                close = hist["Close"].iloc[-1]
-                result[key] = {"price": round(float(close), 2), "change_pct": None}
+                result[key] = {"price": round(close, 2), "change_pct": change_pct}
+            elif len(closes) == 1:
+                result[key] = {"price": round(closes[-1], 2), "change_pct": None}
             else:
                 result[key] = {"price": None, "change_pct": None}
         except Exception as e:
-            print(f"[yfinance] {key} 失敗：{e}")
+            print(f"[Market] {key} ({ticker}) 失敗：{e}")
             result[key] = {"price": None, "change_pct": None}
     return result
 

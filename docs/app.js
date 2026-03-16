@@ -168,7 +168,8 @@ function renderNews() {
     const readIds = JSON.parse(localStorage.getItem(STORE_READ) || '[]');
 
     let filtered = allNews.filter(item => {
-        // Category Filter
+        // Category Filter — Google Trends 不在「全部」中顯示
+        if (currentCategory === 'all' && item.categoryCode === 'trends') return false;
         if (currentCategory !== 'all' && item.categoryCode !== currentCategory) return false;
         
         // State Filter
