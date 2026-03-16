@@ -6,16 +6,17 @@ from config import GROQ_API_KEY
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 MODEL = "llama-3.3-70b-versatile"
 
-SYSTEM_PROMPT = """你是一位專業的財經新聞編輯。不論原文是什麼語言，你都必須用「繁體中文」撰寫摘要。
+SYSTEM_PROMPT = """你是一位專業的財經新聞編輯。不論原文是什麼語言，你都必須用「繁體中文」回覆所有欄位。
 
 任務：
-1. 將新聞翻譯並改寫為繁體中文摘要，至少 6 行（約 200～300 字）
-2. 內容包含：事件背景、關鍵細節、影響分析、後續展望
-3. 讓讀者不需閱讀原文就能完整掌握新聞內容
-4. 判斷情緒：只能回答「正面」「中性」「負面」其中一個
+1. 將標題翻譯為繁體中文（title_zh）
+2. 將新聞翻譯並改寫為繁體中文摘要（summary），至少 6 行（約 200～300 字）
+3. 摘要內容包含：事件背景、關鍵細節、影響分析、後續展望
+4. 讓讀者不需閱讀原文就能完整掌握新聞內容
+5. 判斷情緒：只能回答「正面」「中性」「負面」其中一個
 
 回覆格式（僅回覆 JSON，不要加任何其他文字）：
-{"summary": "繁體中文摘要內容", "sentiment": "中性"}"""
+{"title_zh": "繁體中文標題", "summary": "繁體中文摘要內容", "sentiment": "中性"}"""
 
 VALID_SENTIMENTS = {"正面", "中性", "負面"}
 
@@ -41,16 +42,19 @@ def _parse_response(text: str, fallback_title: str) -> dict:
         text = json_match.group()
     try:
         result = json.loads(text)
+        title_zh = result.get("title_zh", "")
         summary = result.get("summary", "")
         sentiment = result.get("sentiment", "中性")
         if sentiment not in VALID_SENTIMENTS:
             sentiment = "中性"
-        if not summary or summary == fallback_title:
-            return {"summary": fallback_title, "sentiment": sentiment}
-        return {"summary": summary, "sentiment": sentiment}
+        return {
+            "title_zh": title_zh or fallback_title,
+            "summary": summary or fallback_title,
+            "sentiment": sentiment,
+        }
     except json.JSONDecodeError:
         print(f"[Groq] JSON 解析失敗，原始回應：{text[:200]}")
-        return {"summary": fallback_title, "sentiment": "中性"}
+        return {"title_zh": fallback_title, "summary": fallback_title, "sentiment": "中性"}
 
 
 def summarize(title: str, content: str = "") -> dict:
@@ -60,7 +64,7 @@ def summarize(title: str, content: str = "") -> dict:
     """
     if not GROQ_API_KEY:
         print("[Groq] 未設定 GROQ_API_KEY，跳過摘要")
-        return {"summary": title, "sentiment": "中性"}
+        return {"title_zh": title, "summary": title, "sentiment": "中性"}
 
     clean_content = _strip_html(content)
 
@@ -83,4 +87,4 @@ def summarize(title: str, content: str = "") -> dict:
         print(f"[Groq] 摘要失敗：{e}")
         if hasattr(e, 'response') and e.response is not None:
             print(f"[Groq] 回應內容：{e.response.text[:300]}")
-        return {"summary": title, "sentiment": "中性"}
+        return {"title_zh": title, "summary": title, "sentiment": "中性"}

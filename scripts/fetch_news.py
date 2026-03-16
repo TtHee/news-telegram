@@ -69,6 +69,7 @@ def enrich_articles(articles: list) -> list:
     for i, a in enumerate(articles):
         print(f"  [Groq] {i+1}/{len(articles)}: {a['title'][:45]}")
         result = summarize(a["title"], a.get("raw_content", ""))
+        a["title"]       = result["title_zh"]
         a["summary_zh"]  = result["summary"]
         a["sentiment"]   = result["sentiment"]
         a["is_breaking"] = _is_breaking(a)
