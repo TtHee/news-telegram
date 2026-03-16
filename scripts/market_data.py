@@ -1,7 +1,9 @@
+from urllib.parse import quote
+
 import requests
 from config import FRED_API_KEY, YFINANCE_TICKERS, FRED_SERIES
 
-YAHOO_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=2d&interval=1d"
+YAHOO_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{}?range=2d&interval=1d"
 YAHOO_HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 
@@ -10,11 +12,8 @@ def get_yfinance_data() -> dict:
     result = {}
     for key, ticker in YFINANCE_TICKERS.items():
         try:
-            resp = requests.get(
-                YAHOO_URL.format(symbol=ticker),
-                headers=YAHOO_HEADERS,
-                timeout=10,
-            )
+            url = YAHOO_URL.format(quote(ticker))
+            resp = requests.get(url, headers=YAHOO_HEADERS, timeout=10)
             resp.raise_for_status()
             data = resp.json()
             closes = data["chart"]["result"][0]["indicators"]["quote"][0]["close"]
@@ -25,10 +24,13 @@ def get_yfinance_data() -> dict:
                 prev, close = closes[-2], closes[-1]
                 change_pct = round((close - prev) / prev * 100, 2)
                 result[key] = {"price": round(close, 2), "change_pct": change_pct}
+                print(f"  [Market] {key}: {round(close, 2)} ({change_pct:+}%)")
             elif len(closes) == 1:
                 result[key] = {"price": round(closes[-1], 2), "change_pct": None}
+                print(f"  [Market] {key}: {round(closes[-1], 2)}")
             else:
                 result[key] = {"price": None, "change_pct": None}
+                print(f"  [Market] {key}: 無資料")
         except Exception as e:
             print(f"[Market] {key} ({ticker}) 失敗：{e}")
             result[key] = {"price": None, "change_pct": None}
