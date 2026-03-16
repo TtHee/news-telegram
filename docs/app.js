@@ -162,27 +162,34 @@ function renderWidgets(data) {
 // Render Google Trends as ranked list by country
 function renderTrendsList(items) {
     const COUNTRY_MAP = {
-        'Google Trends 台灣': '🇹🇼 台灣',
-        'Google Trends 日本': '🇯🇵 日本',
-        'Google Trends 美國': '🇺🇸 美國',
+        'Google Trends 台灣': { label: '🇹🇼 台灣', url: 'https://trends.google.com.tw/trending?geo=TW' },
+        'Google Trends 日本': { label: '🇯🇵 日本', url: 'https://trends.google.com/trending?geo=JP' },
+        'Google Trends 美國': { label: '🇺🇸 美國', url: 'https://trends.google.com/trending?geo=US' },
     };
 
     // Group by source (country)
     const groups = {};
     items.forEach(item => {
-        const country = COUNTRY_MAP[item.source] || item.source;
-        if (!groups[country]) groups[country] = [];
-        groups[country].push(item);
+        const info = COUNTRY_MAP[item.source] || { label: item.source, url: '' };
+        const key = item.source;
+        if (!groups[key]) groups[key] = { info, items: [] };
+        groups[key].items.push(item);
     });
 
-    for (const [country, trends] of Object.entries(groups)) {
+    for (const { info, items: trends } of Object.values(groups)) {
         const card = document.createElement('div');
         card.className = 'news-card trends-card';
         let listHtml = trends.map((t, i) =>
             `<li><span class="trend-rank">${i + 1}</span><a href="${t.url}" target="_blank" class="trend-link">${t.title}</a></li>`
         ).join('');
+        const sourceLink = info.url
+            ? `<a href="${info.url}" target="_blank" class="trends-source">Google Trends ↗</a>`
+            : '';
         card.innerHTML = `
-            <h3 class="card-title">${country} 熱門搜尋</h3>
+            <div class="trends-header">
+                <h3 class="card-title">${info.label} 熱門搜尋</h3>
+                ${sourceLink}
+            </div>
             <ol class="trends-list">${listHtml}</ol>
         `;
         newsContainer.appendChild(card);

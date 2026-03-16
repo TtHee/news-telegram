@@ -96,12 +96,12 @@ body {
 /* Market Widget */
 .market-grid { display: grid; gap: 0.75rem; }
 .market-item { display: flex; justify-content: space-between; align-items: center; font-size: 0.9rem; }
-.market-name { color: var(--text-muted); }
+.market-name { color: var(--text-muted); cursor: help; border-bottom: 1px dashed var(--border); }
 .market-data { display: flex; gap: 0.5rem; align-items: center; }
 .market-price { font-weight: bold; }
 .market-change { font-size: 0.8rem; padding: 2px 4px; border-radius: 4px; }
-.change-up { color: var(--success); }
-.change-down { color: var(--danger); }
+.change-up { color: var(--danger); }
+.change-down { color: var(--success); }
 .text-danger { color: var(--danger); font-weight: bold; }
 
 /* Menu */
@@ -163,6 +163,9 @@ body {
 .read-more:hover { text-decoration: underline; color: var(--primary); }
 
 /* Google Trends */
+.trends-header { display: flex; justify-content: space-between; align-items: center; }
+.trends-source { font-size: 0.8rem; color: var(--primary); text-decoration: none; white-space: nowrap; }
+.trends-source:hover { text-decoration: underline; }
 .trends-card { grid-column: 1 / -1; max-width: 500px; }
 .trends-list { list-style: none; padding: 0; margin: 0.75rem 0 0; }
 .trends-list li { display: flex; align-items: center; gap: 0.75rem; padding: 0.5rem 0; border-bottom: 1px solid var(--border); }

@@ -63,10 +63,10 @@ RSS_SOURCES = [
     {"name": "Reuters",           "url": "https://news.google.com/rss/search?q=site:reuters.com+Trump&hl=en-US&gl=US&ceid=US:en", "category": "trump"},
     {"name": "BBC",               "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",                              "category": "trump"},
     # 全球趨勢
-    {"name": "Reuters Top News",  "url": "https://feeds.reuters.com/reuters/topNews",            "category": "global"},
-    {"name": "Semafor",           "url": "https://www.semafor.com/feed",                         "category": "global"},
+    {"name": "Google News",       "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "global"},
+    {"name": "BBC World",         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",          "category": "global"},
     # 財經
-    {"name": "Reuters Business",  "url": "https://feeds.reuters.com/reuters/businessNews",       "category": "finance"},
+    {"name": "Google News",       "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en", "category": "finance"},
     {"name": "CNBC",              "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html","category": "finance"},
     # 台股
     {"name": "Yahoo 台股新聞",    "url": "https://tw.stock.yahoo.com/rss?category=news",         "category": "stock_tw"},
