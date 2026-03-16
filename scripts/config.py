@@ -18,7 +18,7 @@ MORNING_REPORT_MINUTE = 15
 
 # === 抓取設定 ===
 FETCH_INTERVAL_HOURS = 2
-MAX_ARTICLES_PER_SOURCE = 10
+MAX_ARTICLES_PER_SOURCE = 5
 
 # === 重大新聞觸發條件 ===
 BREAKING_CHANGE_PCT = 3.0        # 大盤漲跌幅閾值（%）

@@ -1,5 +1,6 @@
 import json
 import re
+import time
 import requests
 from config import GROQ_API_KEY
 
@@ -78,13 +79,26 @@ def summarize(title: str, content: str = "") -> dict:
         "max_tokens": 800,
     }
 
-    try:
-        resp = requests.post(GROQ_API_URL, headers=_build_headers(), json=payload, timeout=30)
-        resp.raise_for_status()
-        text = resp.json()["choices"][0]["message"]["content"].strip()
-        return _parse_response(text, title)
-    except Exception as e:
-        print(f"[Groq] 摘要失敗：{e}")
-        if hasattr(e, 'response') and e.response is not None:
-            print(f"[Groq] 回應內容：{e.response.text[:300]}")
-        return {"title_zh": title, "summary": title, "sentiment": "中性"}
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            resp = requests.post(GROQ_API_URL, headers=_build_headers(), json=payload, timeout=30)
+            resp.raise_for_status()
+            text = resp.json()["choices"][0]["message"]["content"].strip()
+            return _parse_response(text, title)
+        except requests.exceptions.HTTPError as e:
+            if e.response is not None and e.response.status_code == 429:
+                wait = 3 * (attempt + 1)
+                print(f"[Groq] 速率限制，等待 {wait} 秒後重試 ({attempt+1}/{max_retries})")
+                time.sleep(wait)
+                continue
+            print(f"[Groq] 摘要失敗：{e}")
+            if e.response is not None:
+                print(f"[Groq] 回應內容：{e.response.text[:300]}")
+            return {"title_zh": title, "summary": title, "sentiment": "中性"}
+        except Exception as e:
+            print(f"[Groq] 摘要失敗：{e}")
+            return {"title_zh": title, "summary": title, "sentiment": "中性"}
+
+    print(f"[Groq] 重試 {max_retries} 次仍失敗：{title[:50]}")
+    return {"title_zh": title, "summary": title, "sentiment": "中性"}

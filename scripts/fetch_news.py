@@ -74,7 +74,7 @@ def enrich_articles(articles: list) -> list:
         a["sentiment"]   = result["sentiment"]
         a["is_breaking"] = _is_breaking(a)
         a.pop("raw_content", None)
-        time.sleep(0.3)
+        time.sleep(2.5)  # Groq 免費版限制 30 RPM
     return articles
 
 
