@@ -5,14 +5,18 @@ RSS 抓取與去重邏輯。
 import hashlib
 import re
 import time
+from urllib.parse import quote_plus
 
 import feedparser
 
 from config import RSS_SOURCES, MAX_ARTICLES_PER_SOURCE
 
+# Google Trends 每來源最多抓 20 則（頁面上大約就這麼多）
+MAX_TRENDS_PER_SOURCE = 20
 
-def _make_id(url: str) -> str:
-    return hashlib.sha256(url.encode()).hexdigest()[:8]
+
+def _make_id(text: str) -> str:
+    return hashlib.sha256(text.encode()).hexdigest()[:8]
 
 
 def _strip_html(text: str) -> str:
@@ -24,13 +28,11 @@ def _strip_html(text: str) -> str:
 
 def _extract_news_url(entry) -> str:
     """從 Google Trends RSS 的 ht:news_item 中提取真正的新聞連結。"""
-    # Google Trends 把新聞連結放在 ht:news_item_url
     for key in ['ht_news_item_url', 'news_item_url']:
         val = entry.get(key, "")
         if val:
             return val
 
-    # 從 description/summary HTML 中提取第一個 http 連結
     raw = entry.get("summary") or entry.get("description") or ""
     url_match = re.search(r'href=["\']?(https?://[^"\'>\s]+)', raw)
     if url_match:
@@ -42,24 +44,33 @@ def _extract_news_url(entry) -> str:
 def _parse_feed(source: dict) -> list:
     articles = []
     is_trends = "trends.google" in source["url"]
+    limit = MAX_TRENDS_PER_SOURCE if is_trends else MAX_ARTICLES_PER_SOURCE
+
     try:
         feed = feedparser.parse(source["url"])
-        for entry in feed.entries[:MAX_ARTICLES_PER_SOURCE]:
-            # Google Trends 需要特別處理連結
+        for entry in feed.entries[:limit]:
+            title = _strip_html(entry.get("title", "")).strip()
+            if not title:
+                continue
+
             if is_trends:
-                url = _extract_news_url(entry) or entry.get("link", "")
+                # Google Trends: 用「來源名+標題」產生唯一 ID，避免被去重
+                unique_key = f"{source['name']}:{title}"
+                article_id = _make_id(unique_key)
+                # 連結到 Google 搜尋該關鍵字
+                url = f"https://www.google.com/search?q={quote_plus(title)}"
             else:
                 url = entry.get("link", "")
-
-            if not url:
-                continue
+                if not url:
+                    continue
+                article_id = _make_id(url)
 
             raw = entry.get("summary") or entry.get("description") or ""
             clean_content = _strip_html(raw)
 
             articles.append({
-                "id":           _make_id(url),
-                "title":        _strip_html(entry.get("title", "")).strip(),
+                "id":           article_id,
+                "title":        title,
                 "url":          url,
                 "source":       source["name"],
                 "category":     source["category"],
