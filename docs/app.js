@@ -6,6 +6,11 @@ let searchQuery = '';
 let filterUnread = false;
 let filterSaved = false;
 
+// AI Chat State
+const chatSessions = {};   // key: item.id, value: [{role, content}, ...]
+const newsItemMap = {};     // key: item.id, value: item object
+const WORKER_URL = 'https://news-ai-proxy.chiharune2.workers.dev';
+
 const CATEGORY_NAMES = {
     'trends': '🔥 Google Trends',
     'whitehouse': '🏛️ 白宮',
@@ -364,9 +369,31 @@ function renderNews() {
                     <span>•</span>
                     <span>${timeStr}</span>
                 </div>
-                <a href="${item.url}" target="_blank" class="read-more">原文來源</a>
+                <div style="display:flex;gap:0.5rem;align-items:center;">
+                    <button class="ask-ai-btn" data-id="${item.id}">問 AI</button>
+                    <a href="${item.url}" target="_blank" class="read-more">原文來源</a>
+                </div>
+            </div>
+            <div class="chat-panel" id="chat-${item.id}">
+                <div class="chat-messages" id="chatMsgs-${item.id}"></div>
+                <div class="chat-input-row">
+                    <input type="text" class="chat-input" id="chatInput-${item.id}"
+                           placeholder="問一個關於這則新聞的問題...">
+                    <button class="chat-send-btn" data-id="${item.id}">送出</button>
+                </div>
             </div>
         `;
+
+        // Store item reference for chat
+        newsItemMap[item.id] = item;
+
+        // Bind events
+        card.querySelector('.ask-ai-btn').addEventListener('click', () => toggleChat(item.id));
+        card.querySelector('.chat-send-btn').addEventListener('click', () => sendChat(item.id));
+        card.querySelector('.chat-input').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') sendChat(item.id);
+        });
+
         newsContainer.appendChild(card);
     });
 }
@@ -410,3 +437,81 @@ window.toggleRead = (id, btn) => {
     localStorage.setItem(STORE_READ, JSON.stringify(read));
     if (filterUnread) renderNews(); // re-render if filtering
 };
+
+// AI Chat Functions
+function toggleChat(id) {
+    const panel = document.getElementById(`chat-${id}`);
+    const isVisible = panel.style.display === 'flex';
+    panel.style.display = isVisible ? 'none' : 'flex';
+    if (!isVisible) {
+        document.getElementById(`chatInput-${id}`).focus();
+    }
+}
+
+async function sendChat(id) {
+    const input = document.getElementById(`chatInput-${id}`);
+    const msgContainer = document.getElementById(`chatMsgs-${id}`);
+    const question = input.value.trim();
+    if (!question) return;
+
+    // Init session
+    if (!chatSessions[id]) chatSessions[id] = [];
+
+    // Show user message
+    chatSessions[id].push({ role: 'user', content: question });
+    appendChatBubble(msgContainer, 'user', question);
+    input.value = '';
+
+    // Show typing indicator
+    const typing = document.createElement('div');
+    typing.className = 'chat-typing';
+    typing.textContent = 'AI 思考中...';
+    msgContainer.appendChild(typing);
+    msgContainer.scrollTop = msgContainer.scrollHeight;
+
+    // Disable send button
+    const sendBtn = document.querySelector(`#chat-${id} .chat-send-btn`);
+    sendBtn.disabled = true;
+
+    try {
+        const item = newsItemMap[id];
+        const resp = await fetch(WORKER_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                category: item.categoryCode,
+                articleTitle: item.title,
+                articleSummary: item.summary_zh,
+                messages: chatSessions[id],
+            }),
+        });
+
+        typing.remove();
+
+        const data = await resp.json();
+        if (!resp.ok) {
+            appendChatBubble(msgContainer, 'error', data.error || 'AI 回應失敗');
+            chatSessions[id].pop(); // remove failed user msg from history
+            return;
+        }
+
+        chatSessions[id].push({ role: 'assistant', content: data.reply });
+        appendChatBubble(msgContainer, 'assistant', data.reply);
+
+    } catch (err) {
+        typing.remove();
+        appendChatBubble(msgContainer, 'error', '網路錯誤，請檢查連線後再試');
+        chatSessions[id].pop();
+    } finally {
+        sendBtn.disabled = false;
+        input.focus();
+    }
+}
+
+function appendChatBubble(container, role, text) {
+    const bubble = document.createElement('div');
+    bubble.className = `chat-bubble chat-${role}`;
+    bubble.textContent = text;
+    container.appendChild(bubble);
+    container.scrollTop = container.scrollHeight;
+}
