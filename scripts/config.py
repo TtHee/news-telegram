@@ -86,6 +86,8 @@ RSS_SOURCES = [
     {"name": "CNN",               "url": "https://news.google.com/rss/search?q=site:cnn.com+Trump&hl=en-US&gl=US&ceid=US:en",     "category": "trump"},
     {"name": "Reuters",           "url": "https://news.google.com/rss/search?q=site:reuters.com+Trump&hl=en-US&gl=US&ceid=US:en", "category": "trump"},
     {"name": "BBC",               "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",                              "category": "trump"},
+    # 美國旅行警示（STEP）
+    {"name": "US Travel Advisory", "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",        "category": "travel_alert"},
     # 全球趨勢
     {"name": "Google News",       "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "global"},
     {"name": "BBC World",         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",          "category": "global"},
