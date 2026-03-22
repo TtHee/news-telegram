@@ -4,21 +4,9 @@ from pathlib import Path
 # 專案根目錄（scripts/ 的上一層）
 REPO_ROOT = Path(__file__).parent.parent
 
-# === Telegram ===
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
-
 # === API Keys ===
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 FRED_API_KEY = os.environ.get("FRED_API_KEY", "")
-
-# === 時間設定（台灣時間 UTC+8）===
-MORNING_REPORT_HOUR = 11
-MORNING_REPORT_MINUTE = 15
-
-# === 勿擾時段（台灣時間）===
-QUIET_HOUR_START = 1   # 凌晨 1:00 開始靜音
-QUIET_HOUR_END = 11    # 上午 11:00 恢復通知
 
 # === 抓取設定 ===
 FETCH_INTERVAL_HOURS = 2
@@ -26,8 +14,6 @@ MAX_ARTICLES_PER_SOURCE = 8
 
 # === 重大新聞觸發條件 ===
 BREAKING_CHANGE_PCT = 3.0        # 大盤漲跌幅閾值（%）
-BREAKING_COOLDOWN_HOURS = 72     # 同類警示冷卻時間（小時）
-BREAKING_SENTIMENT_COUNT = 3     # 連續負面新聞數觸發
 
 BREAKING_KEYWORDS = [
     "Fed升息", "Fed降息", "聯準會", "央行", "升息", "降息",
@@ -131,5 +117,4 @@ FRED_SERIES = {
 
 # === 輸出路徑（絕對路徑，無論從哪個目錄執行都正確）===
 NEWS_JSON_PATH    = REPO_ROOT / "docs" / "data" / "news.json"
-SENT_IDS_PATH     = REPO_ROOT / "scripts" / ".sent_ids.json"
 TRENDS_CACHE_PATH = REPO_ROOT / "docs" / "data" / "trends_weekly.json"

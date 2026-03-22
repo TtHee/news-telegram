@@ -10,7 +10,6 @@
   5. 市場數據             (market_data)
   6. 風險評分             (risk_score)
   7. 寫入 news.json       (本模組)
-  8. Telegram 推播        (telegram_notify)
 """
 import json
 import sys
@@ -21,9 +20,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from config import (
-    NEWS_JSON_PATH, SENT_IDS_PATH,
-    BREAKING_KEYWORDS, WATCH_STOCKS, BREAKING_COOLDOWN_HOURS,
-    QUIET_HOUR_START, QUIET_HOUR_END,
+    NEWS_JSON_PATH,
+    BREAKING_KEYWORDS, WATCH_STOCKS,
     MAX_AGE_HOURS, GROQ_RPM_SLEEP,
     INDICATOR_THRESHOLDS,
 )
@@ -31,7 +29,6 @@ from rss_fetcher import fetch_all
 from groq_summary import summarize
 from market_data import get_all_market_data
 from risk_score import calc_risk_score
-from telegram_notify import send_morning_report, send_breaking_news
 
 TZ_TW = timezone(timedelta(hours=8))
 
@@ -78,27 +75,6 @@ def _is_breaking(article: dict) -> bool:
     stock_hit   = any(s.lower() in text for s in WATCH_STOCKS)
     return keyword_hit or stock_hit or article.get("sentiment") == "負面"
 
-
-def _cooldown_ok(article_id: str, sent: dict) -> bool:
-    if article_id not in sent:
-        return True
-    sent_at = datetime.fromisoformat(sent[article_id])
-    elapsed_hours = (datetime.now(TZ_TW) - sent_at).total_seconds() / 3600
-    return elapsed_hours >= BREAKING_COOLDOWN_HOURS
-
-
-def _load_sent_ids() -> dict:
-    try:
-        with open(SENT_IDS_PATH, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return {}
-
-
-def _save_sent_ids(sent: dict) -> None:
-    Path(SENT_IDS_PATH).parent.mkdir(parents=True, exist_ok=True)
-    with open(SENT_IDS_PATH, "w", encoding="utf-8") as f:
-        json.dump(sent, f)
 
 
 # ── 流水線各步驟 ──────────────────────────────────────
@@ -176,38 +152,6 @@ def write_json(output: dict) -> None:
     print(f"[JSON] 已寫入 {NEWS_JSON_PATH}")
 
 
-def _is_quiet_hour() -> bool:
-    """判斷目前是否在勿擾時段。"""
-    hour = datetime.now(TZ_TW).hour
-    if QUIET_HOUR_START <= QUIET_HOUR_END:
-        return QUIET_HOUR_START <= hour < QUIET_HOUR_END
-    else:
-        return hour >= QUIET_HOUR_START or hour < QUIET_HOUR_END
-
-
-def handle_telegram(output: dict, risk: dict) -> None:
-    """發送早報及重大新聞即時推播（勿擾時段不發送）。"""
-    if _is_quiet_hour():
-        print(f"[Telegram] 勿擾時段（{QUIET_HOUR_START}:00～{QUIET_HOUR_END}:00），跳過推播")
-        return
-
-    sent = _load_sent_ids()
-    now  = datetime.now(TZ_TW)
-
-    if now.hour == 11 and 5 <= now.minute <= 25:
-        print("[Telegram] 發送每日早報...")
-        send_morning_report(output, risk)
-
-    for cat_articles in output.get("categories", {}).values():
-        for a in cat_articles:
-            if a.get("is_breaking") and _cooldown_ok(a["id"], sent):
-                print(f"[Telegram] 重大新聞推播：{a['title'][:50]}")
-                if send_breaking_news(a):
-                    sent[a["id"]] = now.isoformat()
-
-    _save_sent_ids(sent)
-
-
 # ── 主流程 ────────────────────────────────────────────
 
 def main() -> None:
@@ -222,7 +166,6 @@ def main() -> None:
     output      = build_output(categories, market_info, risk)
 
     write_json(output)
-    handle_telegram(output, risk)
 
     print("[Done]")
 
