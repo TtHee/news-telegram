@@ -2,6 +2,7 @@ import { fetchNewsData, CATEGORY_NAMES } from './modules/api.js';
 import { renderHeader, renderWidgets, renderNews } from './modules/render.js';
 import { toggleSaved, toggleRead } from './modules/storage.js';
 import { toggleChat, sendChat } from './modules/chat.js';
+import { signInWithGoogle, signOut, getSession, getProfile, onAuthStateChange } from './modules/supabase.js';
 
 // Module-scoped state — no globals, no window.*
 const state = {
@@ -10,6 +11,8 @@ const state = {
     searchQuery: '',
     filterUnread: false,
     filterSaved: false,
+    user: null,
+    profile: null,
 };
 
 const newsItemMap = new Map();
@@ -24,9 +27,63 @@ const sidebarOverlay = document.getElementById('sidebarOverlay');
 
 // --- Bootstrap ---
 
+initAuth();
 fetchData();
 setupSidebarEvents();
 setupDelegation();
+setupAuthEvents();
+
+// --- Auth ---
+
+async function initAuth() {
+    // getSession() triggers URL fragment parsing on OAuth redirect
+    const session = await getSession();
+    await updateAuthUI(session?.user ?? null);
+
+    onAuthStateChange(async (user) => {
+        await updateAuthUI(user);
+    });
+}
+
+async function updateAuthUI(user) {
+    state.user = user;
+    const authArea = document.getElementById('authArea');
+
+    if (user) {
+        try {
+            state.profile = await getProfile(user.id);
+        } catch {
+            state.profile = null;
+        }
+        const name = state.profile?.display_name || user.user_metadata?.full_name || user.email;
+        const avatar = state.profile?.avatar_url || user.user_metadata?.avatar_url;
+        authArea.innerHTML = `
+            <div class="user-info">
+                ${avatar ? `<img class="user-avatar" src="${avatar}" alt="" referrerpolicy="no-referrer">` : ''}
+                <span class="user-name">${escapeHtmlAttr(name)}</span>
+                <button class="auth-btn auth-btn-outline" id="logoutBtn">登出</button>
+            </div>
+        `;
+    } else {
+        state.profile = null;
+        authArea.innerHTML = '<button class="auth-btn" id="loginBtn">登入</button>';
+    }
+}
+
+function escapeHtmlAttr(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function setupAuthEvents() {
+    document.getElementById('authArea').addEventListener('click', async (e) => {
+        if (e.target.id === 'loginBtn') {
+            await signInWithGoogle();
+        } else if (e.target.id === 'logoutBtn') {
+            await signOut();
+        }
+    });
+}
 
 // --- Data ---
 
