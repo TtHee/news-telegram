@@ -71,4 +71,14 @@ def get_fred_data() -> dict:
 def get_all_market_data() -> dict:
     market = get_yfinance_data()
     fred   = get_fred_data()
+
+    # HY_OAS 從 FRED 取得，併入 market 供風險評估使用
+    hy = fred.pop("HY_OAS", None)
+    if hy and hy.get("value") not in (None, "."):
+        try:
+            market["HY_OAS"] = {"price": float(hy["value"]), "change_pct": None}
+            print(f"  [Market] HY_OAS: {hy['value']} (from FRED)")
+        except (ValueError, TypeError):
+            pass
+
     return {"market": market, "macro": fred}

@@ -187,6 +187,31 @@ def test_assess_indicators():
     signals = _assess_indicators(market_dxy)
     assert any("🔴" in s for s in signals), "DXY 112 應觸發紅燈"
 
+    # 11) 原油急漲 → 紅燈（reverse）
+    market_oil = {"OIL": {"price": 85, "change_pct": 6}}
+    signals = _assess_indicators(market_oil)
+    assert any("🔴" in s for s in signals), "原油 +6% 應觸發紅燈"
+
+    # 12) 原油小漲 → 黃燈
+    market_oil_warn = {"OIL": {"price": 80, "change_pct": 3.5}}
+    signals = _assess_indicators(market_oil_warn)
+    assert any("🟡" in s for s in signals), "原油 +3.5% 應觸發黃燈"
+
+    # 13) USD/TWD 急貶 → 紅燈（reverse）
+    market_twd = {"USDTWD": {"price": 32.5, "change_pct": 1.2}}
+    signals = _assess_indicators(market_twd)
+    assert any("🔴" in s for s in signals), "USD/TWD +1.2% 應觸發紅燈"
+
+    # 14) 高收益債利差高風險 → 紅燈
+    market_hy = {"HY_OAS": {"price": 520, "change_pct": None}}
+    signals = _assess_indicators(market_hy)
+    assert any("🔴" in s for s in signals), "HY_OAS 520 應觸發紅燈"
+
+    # 15) 高收益債利差警告 → 黃燈
+    market_hy_warn = {"HY_OAS": {"price": 430, "change_pct": None}}
+    signals = _assess_indicators(market_hy_warn)
+    assert any("🟡" in s for s in signals), "HY_OAS 430 應觸發黃燈"
+
     print("_assess_indicators: ALL PASSED")
 
 # ============================================================

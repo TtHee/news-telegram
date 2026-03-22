@@ -71,7 +71,7 @@ export function renderWidgets(data) {
         return { p: price.toLocaleString(), c: cText, class: cClass };
     };
 
-    ['TWII', 'SP500', 'GOLD'].forEach(key => {
+    ['TWII', 'SP500', 'GOLD', 'OIL', 'USDTWD'].forEach(key => {
         const d = data.market[key] || {};
         const f = fmt(d.price, d.change_pct);
         const el = document.getElementById(`market-${key}`);
@@ -84,10 +84,11 @@ export function renderWidgets(data) {
     });
 
     const singleItems = {
-        'VIX':  { suffix: '' },
-        'TNX':  { suffix: '%' },
-        'MOVE': { suffix: '' },
-        'DXY':  { suffix: '' },
+        'VIX':    { suffix: '' },
+        'TNX':    { suffix: '%' },
+        'MOVE':   { suffix: '' },
+        'DXY':    { suffix: '' },
+        'HY_OAS': { suffix: ' bps' },
     };
     for (const [key, cfg] of Object.entries(singleItems)) {
         const d = data.market[key] || {};

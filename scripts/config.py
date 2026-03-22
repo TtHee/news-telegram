@@ -56,6 +56,9 @@ INDICATOR_THRESHOLDS = {
     "DXY":   {"name": "美元指數",     "type": "price",  "warn": 105,  "danger": 110},
     "GOLD":  {"name": "黃金",         "type": "change", "warn": 2,    "danger": 5,   "reverse": True},
     "TNX":   {"name": "美債10Y殖利率","type": "price",  "warn": 4.5,  "danger": 5.0},
+    "OIL":   {"name": "原油 WTI",     "type": "change", "warn": 3,    "danger": 5,   "reverse": True},
+    "USDTWD":{"name": "美元/台幣",    "type": "change", "warn": 0.5,  "danger": 1.0, "reverse": True},
+    "HY_OAS":{"name": "高收益債利差", "type": "price",  "warn": 400,  "danger": 500},
 }
 
 # === 新聞保留時間 ===
@@ -99,20 +102,23 @@ RSS_SOURCES = [
 
 # === 市場數據代碼 ===
 YFINANCE_TICKERS = {
-    "TWII":  "^TWII",
-    "SP500": "^GSPC",
-    "NASDAQ":"^IXIC",
-    "VIX":   "^VIX",
-    "TNX":   "^TNX",
-    "MOVE":  "^MOVE",
-    "DXY":   "DX-Y.NYB",
-    "GOLD":  "GC=F",
+    "TWII":   "^TWII",
+    "SP500":  "^GSPC",
+    "NASDAQ": "^IXIC",
+    "VIX":    "^VIX",
+    "TNX":    "^TNX",
+    "MOVE":   "^MOVE",
+    "DXY":    "DX-Y.NYB",
+    "GOLD":   "GC=F",
+    "OIL":    "CL=F",
+    "USDTWD": "TWD=X",
 }
 
 FRED_SERIES = {
     "CPI":          "CPIAUCSL",
     "UNEMPLOYMENT": "UNRATE",
     "GDP":          "GDP",
+    "HY_OAS":       "BAMLH0A0HYM2",
 }
 
 # === 輸出路徑（絕對路徑，無論從哪個目錄執行都正確）===
