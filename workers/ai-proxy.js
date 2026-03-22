@@ -1,5 +1,5 @@
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
-const MODEL = 'deepseek-r1-distill-llama-70b';
+const MODEL = 'llama-3.3-70b-versatile';
 
 const ROLE_MAP = {
   ai: '你是一位 AI 與科技領域專家，擅長分析人工智慧、半導體、軟體產業的趨勢與影響',
@@ -14,6 +14,7 @@ const ROLE_MAP = {
 
 const ALLOWED_ORIGINS = [
   'https://tthee.github.io',
+  'https://news-telegram-bgxs.vercel.app',
   'http://localhost:3000',
   'http://127.0.0.1:3000',
 ];
@@ -97,7 +98,9 @@ export default {
         model: MODEL,
         messages: [
           { role: 'system', content: systemPrompt },
-          ...messages.map(m => ({ role: m.role, content: m.content })),
+          ...messages
+            .filter(m => m.role === 'user' || m.role === 'assistant')
+            .map(m => ({ role: m.role, content: String(m.content).slice(0, 500) })),
         ],
         temperature: 0.6,
         max_tokens: 1024,
@@ -124,8 +127,7 @@ export default {
       const groqData = await groqResp.json();
       let reply = groqData.choices?.[0]?.message?.content || 'AI 無法回應';
 
-      // Strip DeepSeek R1 <think>...</think> tags
-      reply = reply.replace(/<think>[\s\S]*?<\/think>/g, '').trim();
+      reply = reply.trim();
 
       return Response.json({ reply }, { headers });
 

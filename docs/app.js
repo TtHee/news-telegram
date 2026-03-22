@@ -22,6 +22,17 @@ const CATEGORY_NAMES = {
     'stock_us': '📈 美股'
 };
 
+// HTML Escape — prevent XSS from external RSS data
+function escapeHtml(str) {
+    if (!str) return '';
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+}
+
 // LocalStorage Keys
 const STORE_SAVED = 'news_saved';
 const STORE_READ = 'news_read';
@@ -266,11 +277,11 @@ function renderTrendsList(items) {
         card.className = 'news-card trends-card';
 
         let dailyHtml = dailyList.map((t, i) =>
-            `<li><span class="trend-rank">${i + 1}</span><a href="${t.url}" target="_blank" class="trend-link">${t.title}</a></li>`
+            `<li><span class="trend-rank">${i + 1}</span><a href="${escapeHtml(t.url)}" target="_blank" class="trend-link">${escapeHtml(t.title)}</a></li>`
         ).join('') || '<li class="trend-empty">暫無資料</li>';
 
         let weeklyHtml = weeklyList.map((t, i) =>
-            `<li><span class="trend-rank">${i + 1}</span><a href="${t.url}" target="_blank" class="trend-link">${t.title}</a></li>`
+            `<li><span class="trend-rank">${i + 1}</span><a href="${escapeHtml(t.url)}" target="_blank" class="trend-link">${escapeHtml(t.title)}</a></li>`
         ).join('') || '<li class="trend-empty">暫無資料</li>';
 
         card.innerHTML = `
@@ -349,37 +360,38 @@ function renderNews() {
 
         const card = document.createElement('div');
         card.className = `news-card ${isRead ? 'is-read' : ''}`;
+        const eid = escapeHtml(item.id);
         card.innerHTML = `
             <div class="card-header">
                 <div class="tags">
                     ${breakingHtml}
                     <span class="tag ${st.c}">${st.t}</span>
-                    <span class="tag category-tag">${item.categoryName}</span>
+                    <span class="tag category-tag">${escapeHtml(item.categoryName)}</span>
                 </div>
                 <div class="actions">
-                    <button class="action-btn ${isSaved ? 'saved' : ''}" onclick="toggleSaved('${item.id}', this)" title="收藏">★</button>
-                    <button class="action-btn ${isRead ? 'read' : ''}" onclick="toggleRead('${item.id}', this)" title="標示為已讀">✓</button>
+                    <button class="action-btn ${isSaved ? 'saved' : ''}" data-action="save" data-id="${eid}" title="收藏">★</button>
+                    <button class="action-btn ${isRead ? 'read' : ''}" data-action="read" data-id="${eid}" title="標示為已讀">✓</button>
                 </div>
             </div>
-            <h3 class="card-title">${item.title}</h3>
-            <p class="card-summary">${item.summary_zh}</p>
+            <h3 class="card-title">${escapeHtml(item.title)}</h3>
+            <p class="card-summary">${escapeHtml(item.summary_zh)}</p>
             <div class="card-footer">
                 <div class="meta-info">
-                    <span>${item.source}</span>
+                    <span>${escapeHtml(item.source)}</span>
                     <span>•</span>
-                    <span>${timeStr}</span>
+                    <span>${escapeHtml(timeStr)}</span>
                 </div>
                 <div style="display:flex;gap:0.5rem;align-items:center;">
-                    <button class="ask-ai-btn" data-id="${item.id}">問 AI</button>
-                    <a href="${item.url}" target="_blank" class="read-more">原文來源</a>
+                    <button class="ask-ai-btn" data-id="${eid}">問 AI</button>
+                    <a href="${escapeHtml(item.url)}" target="_blank" class="read-more">原文來源</a>
                 </div>
             </div>
-            <div class="chat-panel" id="chat-${item.id}">
-                <div class="chat-messages" id="chatMsgs-${item.id}"></div>
+            <div class="chat-panel" id="chat-${eid}">
+                <div class="chat-messages" id="chatMsgs-${eid}"></div>
                 <div class="chat-input-row">
-                    <input type="text" class="chat-input" id="chatInput-${item.id}"
+                    <input type="text" class="chat-input" id="chatInput-${eid}"
                            placeholder="問一個關於這則新聞的問題...">
-                    <button class="chat-send-btn" data-id="${item.id}">送出</button>
+                    <button class="chat-send-btn" data-id="${eid}">送出</button>
                 </div>
             </div>
         `;
@@ -387,7 +399,9 @@ function renderNews() {
         // Store item reference for chat
         newsItemMap[item.id] = item;
 
-        // Bind events
+        // Bind events (no inline onclick — avoids XSS via item.id)
+        card.querySelector('[data-action="save"]').addEventListener('click', function () { toggleSaved(item.id, this); });
+        card.querySelector('[data-action="read"]').addEventListener('click', function () { toggleRead(item.id, this); });
         card.querySelector('.ask-ai-btn').addEventListener('click', () => toggleChat(item.id));
         card.querySelector('.chat-send-btn').addEventListener('click', () => sendChat(item.id));
         card.querySelector('.chat-input').addEventListener('keydown', (e) => {
