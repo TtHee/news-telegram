@@ -1,19 +1,11 @@
-import json
-import re
-import time
-import requests
-from config import GROQ_API_KEY
-
-GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL = "llama-3.1-8b-instant"
-
-INDICATOR_THRESHOLDS = {
-    "VIX":  {"name": "VIX 恐慌指數", "warn": 20, "danger": 30},
-    "MOVE": {"name": "MOVE 債市波動", "warn": 100, "danger": 130},
-    "DXY":  {"name": "美元指數", "warn": 105, "danger": 110},
-    "GOLD": {"name": "黃金", "warn": None, "danger": None, "change_warn": 2, "change_danger": 5},
-    "TNX":  {"name": "美債10Y殖利率", "warn": 4.5, "danger": 5.0},
-}
+"""
+市場風險評估模組：根據指標閾值產生信號，並用 AI 生成綜合評估。
+"""
+from config import (
+    GROQ_API_KEY, INDICATOR_THRESHOLDS,
+    GROQ_RISK_TIMEOUT, GROQ_RISK_TEMPERATURE, GROQ_RISK_MAX_TOKENS,
+)
+from groq_client import chat_completion
 
 
 def _assess_indicators(market: dict) -> list:
@@ -26,20 +18,33 @@ def _assess_indicators(market: dict) -> list:
             continue
         name = cfg["name"]
         chg = data.get("change_pct")
-        # 黃金用漲跌幅判斷
-        if cfg.get("change_warn") and chg is not None:
-            if chg >= cfg["change_danger"]:
-                signals.append(f"🔴 {name} {price}（急漲 {chg:+}%，市場避險）")
-            elif chg >= cfg["change_warn"]:
-                signals.append(f"🟡 {name} {price}（漲 {chg:+}%，留意）")
+        threshold_type = cfg.get("type", "price")
+
+        if threshold_type == "change" and chg is not None:
+            reverse = cfg.get("reverse", False)
+            if reverse:
+                # 黃金：漲越多越危險（市場避險）
+                if chg >= cfg["danger"]:
+                    signals.append(f"🔴 {name} {price}（急漲 {chg:+}%，市場避險）")
+                elif chg >= cfg["warn"]:
+                    signals.append(f"🟡 {name} {price}（漲 {chg:+}%，留意）")
+                else:
+                    signals.append(f"🟢 {name} {price}（正常）")
+            else:
+                # 大盤：跌越多越危險
+                if chg <= cfg["danger"]:
+                    signals.append(f"🔴 {name} {price}（急跌 {chg:+}%）")
+                elif chg <= cfg["warn"]:
+                    signals.append(f"🟡 {name} {price}（下跌 {chg:+}%，留意）")
+                else:
+                    signals.append(f"🟢 {name} {price}（正常）")
+        elif threshold_type == "price":
+            if price >= cfg["danger"]:
+                signals.append(f"🔴 {name} {price}（高風險區間）")
+            elif price >= cfg["warn"]:
+                signals.append(f"🟡 {name} {price}（留意）")
             else:
                 signals.append(f"🟢 {name} {price}（正常）")
-        elif cfg["danger"] and price >= cfg["danger"]:
-            signals.append(f"🔴 {name} {price}（高風險區間）")
-        elif cfg["warn"] and price >= cfg["warn"]:
-            signals.append(f"🟡 {name} {price}（留意）")
-        else:
-            signals.append(f"🟢 {name} {price}（正常）")
     return signals
 
 
@@ -50,7 +55,6 @@ def _ai_summary(market: dict, signals: list) -> str:
 
     indicators_text = "\n".join(signals)
 
-    # 加入漲跌資訊
     extras = []
     for key in ["TWII", "SP500", "NASDAQ"]:
         data = market.get(key, {})
@@ -68,37 +72,24 @@ def _ai_summary(market: dict, signals: list) -> str:
 
 只回覆評估文字，不要加任何格式或標題。"""
 
-    payload = {
-        "model": MODEL,
-        "messages": [
+    text = chat_completion(
+        messages=[
             {"role": "system", "content": "你是專業財經分析師，用繁體中文回覆。"},
             {"role": "user", "content": prompt},
         ],
-        "temperature": 0.4,
-        "max_tokens": 200,
-    }
+        temperature=GROQ_RISK_TEMPERATURE,
+        max_tokens=GROQ_RISK_MAX_TOKENS,
+        timeout=GROQ_RISK_TIMEOUT,
+    )
 
-    try:
-        resp = requests.post(
-            GROQ_API_URL,
-            headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
-            json=payload,
-            timeout=20,
-        )
-        resp.raise_for_status()
-        return resp.json()["choices"][0]["message"]["content"].strip()
-    except Exception as e:
-        print(f"[Risk AI] 評估失敗：{e}")
-        return "AI 評估暫時無法使用"
+    return text or "AI 評估暫時無法使用"
 
 
 def calc_risk_score(market: dict, articles: list) -> dict:
     """
     回傳 {"signals": list, "ai_summary": str}
-    不再自製分數，改為真實指標 + AI 結語。
     """
     signals = _assess_indicators(market)
     ai_summary = _ai_summary(market, signals)
     print(f"[Risk] AI 評估：{ai_summary[:80]}")
-
     return {"signals": signals, "ai_summary": ai_summary}

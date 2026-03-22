@@ -159,16 +159,8 @@ function renderHeader(generatedAt) {
 
 // Render Widgets
 function renderWidgets(data) {
-    // 燈號閾值設定
-    const thresholds = {
-        'TWII':  { type: 'change', warn: -2, danger: -3, reverse: false },
-        'SP500': { type: 'change', warn: -2, danger: -3, reverse: false },
-        'VIX':   { type: 'price',  warn: 20, danger: 30 },
-        'TNX':   { type: 'price',  warn: 4.5, danger: 5.0 },
-        'MOVE':  { type: 'price',  warn: 100, danger: 130 },
-        'DXY':   { type: 'price',  warn: 105, danger: 110 },
-        'GOLD':  { type: 'change', warn: 2, danger: 5, reverse: true },
-    };
+    // 燈號閾值從 news.json 的 thresholds 欄位讀取（單一來源）
+    const thresholds = data.thresholds || {};
 
     const getSignal = (key, d) => {
         const cfg = thresholds[key];

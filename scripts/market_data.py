@@ -31,8 +31,11 @@ def get_yfinance_data() -> dict:
             else:
                 result[key] = {"price": None, "change_pct": None}
                 print(f"  [Market] {key}: 無資料")
-        except Exception as e:
-            print(f"[Market] {key} ({ticker}) 失敗：{e}")
+        except requests.exceptions.RequestException as e:
+            print(f"[Market] {key} ({ticker}) 網路錯誤：{e}")
+            result[key] = {"price": None, "change_pct": None}
+        except (KeyError, IndexError, ValueError) as e:
+            print(f"[Market] {key} ({ticker}) 資料解析錯誤：{e}")
             result[key] = {"price": None, "change_pct": None}
     return result
 
@@ -58,8 +61,10 @@ def get_fred_data() -> dict:
             obs = resp.json().get("observations", [])
             if obs:
                 result[key] = {"value": obs[0]["value"], "date": obs[0]["date"]}
-        except Exception as e:
-            print(f"[FRED] {key} 失敗：{e}")
+        except requests.exceptions.RequestException as e:
+            print(f"[FRED] {key} 網路錯誤：{e}")
+        except (KeyError, ValueError) as e:
+            print(f"[FRED] {key} 資料解析錯誤：{e}")
     return result
 
 

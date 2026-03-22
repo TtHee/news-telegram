@@ -44,6 +44,37 @@ RISK_LEVEL_NORMAL_MAX = 40   # 0~40 🟢
 RISK_LEVEL_WATCH_MAX = 70    # 41~70 🟡
                               # 71~100 🔴
 
+# === Groq API 設定 ===
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL = "llama-3.1-8b-instant"
+GROQ_MAX_RETRIES = 3
+GROQ_RETRY_BASE_WAIT = 10       # 重試基礎等待秒數（10, 20, 30…）
+GROQ_SUMMARY_TIMEOUT = 30       # 摘要請求逾時（秒）
+GROQ_SUMMARY_TEMPERATURE = 0.3
+GROQ_SUMMARY_MAX_TOKENS = 800
+GROQ_RISK_TIMEOUT = 20          # 風險評估請求逾時（秒）
+GROQ_RISK_TEMPERATURE = 0.4
+GROQ_RISK_MAX_TOKENS = 200
+GROQ_RPM_SLEEP = 2.5            # Groq 免費版 30 RPM 間隔
+
+# === 內容處理 ===
+CONTENT_TRUNCATE_LEN = 1500     # 文章內容截斷長度
+MAX_TRENDS_PER_SOURCE = 20      # Google Trends 每來源最多抓取數
+
+# === 市場指標閾值（前端也會讀取）===
+INDICATOR_THRESHOLDS = {
+    "TWII":  {"name": "台股加權",     "type": "change", "warn": -2,   "danger": -3,  "reverse": False},
+    "SP500": {"name": "S&P 500",      "type": "change", "warn": -2,   "danger": -3,  "reverse": False},
+    "VIX":   {"name": "VIX 恐慌指數", "type": "price",  "warn": 20,   "danger": 30},
+    "MOVE":  {"name": "MOVE 債市波動", "type": "price",  "warn": 100,  "danger": 130},
+    "DXY":   {"name": "美元指數",     "type": "price",  "warn": 105,  "danger": 110},
+    "GOLD":  {"name": "黃金",         "type": "change", "warn": 2,    "danger": 5,   "reverse": True},
+    "TNX":   {"name": "美債10Y殖利率","type": "price",  "warn": 4.5,  "danger": 5.0},
+}
+
+# === 新聞保留時間 ===
+MAX_AGE_HOURS = 24
+
 # === RSS 來源 ===
 RSS_SOURCES = [
     # AI

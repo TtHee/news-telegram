@@ -24,6 +24,8 @@ from config import (
     NEWS_JSON_PATH, SENT_IDS_PATH,
     BREAKING_KEYWORDS, WATCH_STOCKS, BREAKING_COOLDOWN_HOURS,
     QUIET_HOUR_START, QUIET_HOUR_END,
+    MAX_AGE_HOURS, GROQ_RPM_SLEEP,
+    INDICATOR_THRESHOLDS,
 )
 from rss_fetcher import fetch_all
 from groq_summary import summarize
@@ -32,9 +34,6 @@ from risk_score import calc_risk_score
 from telegram_notify import send_morning_report, send_breaking_news
 
 TZ_TW = timezone(timedelta(hours=8))
-
-# 新聞最多保留 24 小時
-MAX_AGE_HOURS = 24
 
 
 # ── 快取相關 ──────────────────────────────────────────
@@ -50,8 +49,11 @@ def _load_existing() -> dict:
                 cache[a["id"]] = a
         print(f"[Cache] 載入 {len(cache)} 則已摘要文章")
         return cache
-    except Exception:
+    except FileNotFoundError:
         print("[Cache] 無現有資料，全部重新摘要")
+        return {}
+    except (json.JSONDecodeError, KeyError) as e:
+        print(f"[Cache] 快取格式錯誤：{e}，全部重新摘要")
         return {}
 
 
@@ -64,7 +66,7 @@ def _is_expired(article: dict) -> bool:
         pub_dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
         age = (datetime.now(TZ_TW) - pub_dt).total_seconds() / 3600
         return age > MAX_AGE_HOURS
-    except Exception:
+    except (ValueError, TypeError):
         return False
 
 
@@ -89,7 +91,7 @@ def _load_sent_ids() -> dict:
     try:
         with open(SENT_IDS_PATH, "r", encoding="utf-8") as f:
             return json.load(f)
-    except Exception:
+    except (FileNotFoundError, json.JSONDecodeError):
         return {}
 
 
@@ -136,7 +138,7 @@ def enrich_articles(articles: list, cache: dict) -> list:
             a["is_breaking"] = _is_breaking(a)
             a.pop("raw_content", None)
             new_count += 1
-            time.sleep(2.5)  # Groq 免費版限制 30 RPM
+            time.sleep(GROQ_RPM_SLEEP)
 
     print(f"[Groq] 新摘要 {new_count} 則，快取命中 {cached_count} 則")
     return articles
@@ -162,6 +164,7 @@ def build_output(categories: dict, market_info: dict, risk: dict) -> dict:
         "market":        market_info["market"],
         "macro":         market_info.get("macro", {}),
         "categories":    categories,
+        "thresholds":    INDICATOR_THRESHOLDS,
     }
 
 
