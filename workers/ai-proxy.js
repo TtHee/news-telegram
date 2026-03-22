@@ -19,20 +19,32 @@ const ALLOWED_ORIGINS = [
   'http://127.0.0.1:3000',
 ];
 
-// Simple in-memory rate limiter
-const rateLimit = new Map();
+// Rate limiter backed by Cloudflare KV (persistent across restarts)
 const RATE_LIMIT_RPM = 20;
-const RATE_LIMIT_WINDOW = 60000;
+const RATE_LIMIT_WINDOW_SEC = 60;
 
-function checkRateLimit(ip) {
+async function checkRateLimit(ip, env) {
+  const kv = env.RATE_LIMIT;
+  if (!kv) return true; // KV not bound → allow (dev fallback)
+
+  const key = `rl:${ip}`;
+  const record = await kv.get(key, 'json');
   const now = Date.now();
-  const record = rateLimit.get(ip);
-  if (!record || now - record.start > RATE_LIMIT_WINDOW) {
-    rateLimit.set(ip, { start: now, count: 1 });
+
+  if (!record || now - record.start > RATE_LIMIT_WINDOW_SEC * 1000) {
+    await kv.put(key, JSON.stringify({ start: now, count: 1 }), {
+      expirationTtl: RATE_LIMIT_WINDOW_SEC,
+    });
     return true;
   }
+
   record.count++;
-  return record.count <= RATE_LIMIT_RPM;
+  if (record.count > RATE_LIMIT_RPM) return false;
+
+  await kv.put(key, JSON.stringify(record), {
+    expirationTtl: RATE_LIMIT_WINDOW_SEC,
+  });
+  return true;
 }
 
 function corsHeaders(origin) {
@@ -60,7 +72,7 @@ export default {
 
     // Rate limit check
     const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
-    if (!checkRateLimit(ip)) {
+    if (!(await checkRateLimit(ip, env))) {
       return Response.json(
         { error: 'AI 目前較忙，請稍後再試' },
         { status: 429, headers }
