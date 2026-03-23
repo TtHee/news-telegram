@@ -155,12 +155,53 @@ def write_json(output: dict) -> None:
 
 # ── 主流程 ────────────────────────────────────────────
 
+def _normalize_title(title: str) -> str:
+    """正規化標題：移除標點、空白、轉小寫，用於相似度比對。"""
+    import re
+    t = re.sub(r'[^\w]', '', title.lower())
+    return t
+
+
+def _is_similar_title(t1: str, t2: str) -> bool:
+    """檢查兩個標題是否高度相似（包含關係或重疊率 > 70%）。"""
+    n1 = _normalize_title(t1)
+    n2 = _normalize_title(t2)
+    if not n1 or not n2:
+        return False
+    # 短標題包含在長標題中
+    if n1 in n2 or n2 in n1:
+        return True
+    # 字元重疊率
+    set1, set2 = set(n1), set(n2)
+    overlap = len(set1 & set2) / max(len(set1), len(set2))
+    return overlap > 0.7
+
+
 def _deduplicate(articles: list) -> list:
-    """跨來源去重（RSS + NewsData 可能重疊）。"""
-    seen = {}
+    """跨來源去重：先比 ID（URL hash），再比標題相似度。同 category 內才去重。"""
+    # 1. ID 去重
+    seen_ids = {}
     for a in articles:
-        seen[a["id"]] = a
-    return list(seen.values())
+        seen_ids[a["id"]] = a
+    unique = list(seen_ids.values())
+
+    # 2. 標題去重（同 category 內）
+    by_cat = {}
+    for a in unique:
+        cat = a.get("category", "")
+        by_cat.setdefault(cat, []).append(a)
+
+    result = []
+    for cat, items in by_cat.items():
+        kept = []
+        for a in items:
+            if any(_is_similar_title(a["title"], k["title"]) for k in kept):
+                print(f"  [Dedup] 標題重複跳過：{a['title'][:50]}")
+                continue
+            kept.append(a)
+        result.extend(kept)
+
+    return result
 
 
 def main() -> None:
