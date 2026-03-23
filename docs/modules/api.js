@@ -5,7 +5,6 @@ export const CATEGORY_NAMES = {
     'whitehouse': '🏛️ 白宮',
     'trump': '🇺🇸 川普',
     'ai': '🤖 AI',
-    'travel_alert': '🛫 旅行警示',
     'global': '🌍 全球趨勢',
     'finance': '💰 財經',
     'stock_tw': '📉 台股',
