@@ -15,6 +15,7 @@ import json
 import sys
 import time
 from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -56,17 +57,33 @@ def _load_existing() -> dict:
         return {}
 
 
+def _parse_published(pub: str) -> datetime | None:
+    """解析多種日期格式，回傳 aware datetime 或 None。"""
+    if not pub:
+        return None
+    # 1. ISO 格式（含時區）
+    try:
+        dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    except (ValueError, TypeError):
+        pass
+    # 2. RFC 2822 格式（RSS 常見）
+    try:
+        return parsedate_to_datetime(pub)
+    except (ValueError, TypeError):
+        pass
+    return None
+
+
 def _is_expired(article: dict) -> bool:
     """檢查文章是否超過 MAX_AGE_HOURS。"""
-    pub = article.get("published_at", "")
-    if not pub:
+    pub_dt = _parse_published(article.get("published_at", ""))
+    if not pub_dt:
         return False
-    try:
-        pub_dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
-        age = (datetime.now(TZ_TW) - pub_dt).total_seconds() / 3600
-        return age > MAX_AGE_HOURS
-    except (ValueError, TypeError):
-        return False
+    age = (datetime.now(TZ_TW) - pub_dt).total_seconds() / 3600
+    return age > MAX_AGE_HOURS
 
 
 # ── 輔助函式 ──────────────────────────────────────────
@@ -218,6 +235,10 @@ def main() -> None:
     articles    = _deduplicate(rss_articles + newsdata_articles)
     print(f"[Fetch] RSS {len(rss_articles)} + NewsData {len(newsdata_articles)} → 去重後 {len(articles)}")
     articles    = enrich_articles(articles, cache)
+    expired = [a for a in articles if _is_expired(a)]
+    articles = [a for a in articles if not _is_expired(a)]
+    if expired:
+        print(f"[Filter] 移除 {len(expired)} 則過期文章（>{MAX_AGE_HOURS}h）")
     categories  = categorize(articles)
     market_info = get_all_market_data()
     risk        = calc_risk_score(market_info["market"], articles)

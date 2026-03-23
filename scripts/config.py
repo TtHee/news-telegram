@@ -34,6 +34,7 @@ RISK_LEVEL_WATCH_MAX = 70    # 41~70 🟡
 # === Groq API 設定 ===
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "llama-3.1-8b-instant"
+GROQ_DIGEST_MODEL = "llama-3.3-70b-versatile"  # digest 需要更強的模型穩定產出 JSON
 GROQ_MAX_RETRIES = 3
 GROQ_RETRY_BASE_WAIT = 10       # 重試基礎等待秒數（10, 20, 30…）
 GROQ_SUMMARY_TIMEOUT = 30       # 摘要請求逾時（秒）
@@ -80,39 +81,37 @@ RSS_SOURCES = [
     {"name": "Google Trends 美國 7天", "url": "https://trends.google.com/trending/rss?geo=US&hours=168",    "category": "trends_weekly"},
     # 白宮（美國政府公共領域）
     {"name": "White House News",  "url": "https://www.whitehouse.gov/news/feed/",                "category": "whitehouse"},
-    # 美國旅行警示（美國政府公共領域）
-    {"name": "US Travel Advisory", "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",        "category": "travel_alert"},
 ]
 
 # === NewsData.io 來源（商用授權，國外媒體優先）===
 NEWSDATA_SOURCES = [
     {
         "category": "ai",
-        "params": {"q": "AI OR artificial intelligence", "language": "en", "category": "technology"},
+        "params": {"q": "AI OR artificial intelligence", "language": "en", "category": "technology", "prioritydomain": "top"},
     },
     {
         "category": "whitehouse",
-        "params": {"q": "White House OR president policy", "country": "us", "language": "en", "category": "politics"},
+        "params": {"q": "White House OR president policy", "country": "us", "language": "en", "category": "politics", "prioritydomain": "top"},
     },
     {
         "category": "trump",
-        "params": {"q": "Trump", "country": "us,gb", "language": "en", "category": "politics"},
+        "params": {"q": "Trump", "country": "us,gb", "language": "en", "category": "politics", "prioritydomain": "top"},
     },
     {
         "category": "global",
-        "params": {"q": None, "country": "us,gb,jp", "language": "en", "category": "world"},
+        "params": {"q": None, "country": "us,gb,jp", "language": "en", "category": "world", "prioritydomain": "top"},
     },
     {
         "category": "finance",
-        "params": {"q": None, "country": "us,gb", "language": "en", "category": "business"},
+        "params": {"q": None, "country": "us,gb", "language": "en", "category": "business", "prioritydomain": "top"},
     },
     {
         "category": "stock_tw",
-        "params": {"q": "股市 OR 台股 OR 台積電", "country": "tw", "language": "zh", "category": "business"},
+        "params": {"q": "股市 OR 台股 OR 台積電", "country": "tw", "language": "zh", "category": "business", "prioritydomain": "top"},
     },
     {
         "category": "stock_us",
-        "params": {"q": "stock market OR Wall Street OR S&P 500", "country": "us", "language": "en", "category": "business"},
+        "params": {"q": "stock market OR Wall Street OR S&P 500", "country": "us", "language": "en", "category": "business", "prioritydomain": "top"},
     },
 ]
 

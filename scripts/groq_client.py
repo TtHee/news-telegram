@@ -22,6 +22,7 @@ def _build_headers() -> dict:
 def chat_completion(
     messages: list[dict],
     *,
+    model: str | None = None,
     temperature: float = 0.3,
     max_tokens: int = 800,
     timeout: int = 30,
@@ -35,7 +36,7 @@ def chat_completion(
         return None
 
     payload = {
-        "model": GROQ_MODEL,
+        "model": model or GROQ_MODEL,
         "messages": messages,
         "temperature": temperature,
         "max_tokens": max_tokens,

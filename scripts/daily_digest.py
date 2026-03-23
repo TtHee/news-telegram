@@ -8,7 +8,7 @@ import time
 
 from config import (
     GROQ_DIGEST_TIMEOUT, GROQ_DIGEST_TEMPERATURE, GROQ_DIGEST_MAX_TOKENS,
-    GROQ_RPM_SLEEP,
+    GROQ_DIGEST_MODEL, GROQ_RPM_SLEEP,
 )
 from groq_client import chat_completion
 
@@ -70,6 +70,7 @@ def generate_daily_digest(articles: list) -> dict | None:
             {"role": "system", "content": DIGEST_SYSTEM_PROMPT},
             {"role": "user", "content": user_msg},
         ],
+        model=GROQ_DIGEST_MODEL,
         temperature=GROQ_DIGEST_TEMPERATURE,
         max_tokens=GROQ_DIGEST_MAX_TOKENS,
         timeout=GROQ_DIGEST_TIMEOUT,
