@@ -28,6 +28,7 @@ from config import (
 from rss_fetcher import fetch_all as rss_fetch_all
 from newsdata_fetcher import fetch_all as newsdata_fetch_all
 from groq_summary import summarize
+from daily_digest import generate_daily_digest
 from market_data import get_all_market_data
 from risk_score import calc_risk_score
 
@@ -132,9 +133,10 @@ def categorize(articles: list) -> dict:
     return result
 
 
-def build_output(categories: dict, market_info: dict, risk: dict) -> dict:
+def build_output(categories: dict, market_info: dict, risk: dict,
+                  daily_digest: dict | None = None) -> dict:
     """組合最終要寫入 news.json 的資料結構。"""
-    return {
+    output = {
         "generated_at":  datetime.now(TZ_TW).isoformat(),
         "risk_signals":  risk["signals"],
         "ai_summary":    risk["ai_summary"],
@@ -143,6 +145,9 @@ def build_output(categories: dict, market_info: dict, risk: dict) -> dict:
         "categories":    categories,
         "thresholds":    INDICATOR_THRESHOLDS,
     }
+    if daily_digest:
+        output["daily_digest"] = daily_digest
+    return output
 
 
 
@@ -216,7 +221,8 @@ def main() -> None:
     categories  = categorize(articles)
     market_info = get_all_market_data()
     risk        = calc_risk_score(market_info["market"], articles)
-    output      = build_output(categories, market_info, risk)
+    digest      = generate_daily_digest(articles)
+    output      = build_output(categories, market_info, risk, digest)
 
     write_json(output)
 
