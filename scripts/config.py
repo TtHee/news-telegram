@@ -7,6 +7,7 @@ REPO_ROOT = Path(__file__).parent.parent
 # === API Keys ===
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 FRED_API_KEY = os.environ.get("FRED_API_KEY", "")
+NEWSDATA_API_KEY = os.environ.get("NEWSDATA_API_KEY", "")
 
 # === 抓取設定 ===
 FETCH_INTERVAL_HOURS = 2
@@ -64,12 +65,8 @@ INDICATOR_THRESHOLDS = {
 # === 新聞保留時間 ===
 MAX_AGE_HOURS = 24
 
-# === RSS 來源 ===
+# === RSS 來源（僅保留公共領域 & 非新聞內容）===
 RSS_SOURCES = [
-    # AI
-    {"name": "MIT Tech Review",   "url": "https://www.technologyreview.com/feed/",               "category": "ai"},
-    {"name": "Google News",       "url": "https://news.google.com/rss/search?q=AI+artificial+intelligence&hl=en-US&gl=US&ceid=US:en", "category": "ai"},
-    {"name": "Google News",       "url": "https://news.google.com/rss/search?q=人工智慧+OR+AI&hl=zh-TW&gl=TW&ceid=TW:zh-Hant",       "category": "ai"},
     # Google Trends 每日熱門搜尋
     {"name": "Google Trends 台灣", "url": "https://trends.google.com.tw/trending/rss?geo=TW",            "category": "trends"},
     {"name": "Google Trends 日本", "url": "https://trends.google.com/trending/rss?geo=JP",               "category": "trends"},
@@ -78,29 +75,47 @@ RSS_SOURCES = [
     {"name": "Google Trends 台灣 7天", "url": "https://trends.google.com.tw/trending/rss?geo=TW&hours=168", "category": "trends_weekly"},
     {"name": "Google Trends 日本 7天", "url": "https://trends.google.com/trending/rss?geo=JP&hours=168",    "category": "trends_weekly"},
     {"name": "Google Trends 美國 7天", "url": "https://trends.google.com/trending/rss?geo=US&hours=168",    "category": "trends_weekly"},
-    # 白宮
+    # 白宮（美國政府公共領域）
     {"name": "White House News",  "url": "https://www.whitehouse.gov/news/feed/",                "category": "whitehouse"},
-    {"name": "Google News",       "url": "https://news.google.com/rss/search?q=%22白宮%22+總統+OR+政策+OR+行政命令+OR+%22White+House%22+president+policy&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "whitehouse"},
-    # 川普
-    {"name": "Google News",       "url": "https://news.google.com/rss/search?q=Trump+OR+川普&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "trump"},
-    {"name": "CNN",               "url": "https://news.google.com/rss/search?q=site:cnn.com+Trump&hl=en-US&gl=US&ceid=US:en",     "category": "trump"},
-    {"name": "Reuters",           "url": "https://news.google.com/rss/search?q=site:reuters.com+Trump&hl=en-US&gl=US&ceid=US:en", "category": "trump"},
-    {"name": "BBC",               "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",                              "category": "trump"},
-    # 美國旅行警示（STEP）
+    # 美國旅行警示（美國政府公共領域）
     {"name": "US Travel Advisory", "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",        "category": "travel_alert"},
-    # 全球趨勢
-    {"name": "Google News",       "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "global"},
-    {"name": "BBC World",         "url": "https://feeds.bbci.co.uk/news/world/rss.xml",          "category": "global"},
-    # 財經
-    {"name": "Google News",       "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en", "category": "finance"},
-    {"name": "CNBC",              "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html","category": "finance"},
-    # 台股
-    {"name": "Yahoo 台股新聞",    "url": "https://tw.stock.yahoo.com/rss?category=news",         "category": "stock_tw"},
-    {"name": "Yahoo 研究報告",    "url": "https://tw.stock.yahoo.com/rss?category=research",     "category": "stock_tw"},
-    {"name": "中央社財經",        "url": "https://feeds.feedburner.com/rsscna/finance",           "category": "stock_tw"},
-    # 美股（Google News 聚合）
-    {"name": "Google News",       "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "category": "stock_us"},
 ]
+
+# === NewsData.io 來源（商用授權，國外媒體優先）===
+NEWSDATA_SOURCES = [
+    {
+        "category": "ai",
+        "params": {"q": "AI OR artificial intelligence", "language": "en", "category": "technology"},
+    },
+    {
+        "category": "whitehouse",
+        "params": {"q": "White House OR president policy", "country": "us", "language": "en", "category": "politics"},
+    },
+    {
+        "category": "trump",
+        "params": {"q": "Trump", "country": "us,gb", "language": "en", "category": "politics"},
+    },
+    {
+        "category": "global",
+        "params": {"q": None, "country": "us,gb,jp", "language": "en", "category": "world"},
+    },
+    {
+        "category": "finance",
+        "params": {"q": None, "country": "us,gb", "language": "en", "category": "business"},
+    },
+    {
+        "category": "stock_tw",
+        "params": {"q": "股市 OR 台股 OR 台積電", "country": "tw", "language": "zh", "category": "business"},
+    },
+    {
+        "category": "stock_us",
+        "params": {"q": "stock market OR Wall Street OR S&P 500", "country": "us", "language": "en", "category": "business"},
+    },
+]
+
+# === NewsData.io 設定 ===
+NEWSDATA_API_URL = "https://newsdata.io/api/1/latest"
+NEWSDATA_MAX_PER_CATEGORY = 10   # 每個 category 最多抓幾則
 
 # === 市場數據代碼 ===
 YFINANCE_TICKERS = {

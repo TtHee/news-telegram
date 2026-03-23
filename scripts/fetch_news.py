@@ -25,7 +25,8 @@ from config import (
     MAX_AGE_HOURS, GROQ_RPM_SLEEP,
     INDICATOR_THRESHOLDS,
 )
-from rss_fetcher import fetch_all
+from rss_fetcher import fetch_all as rss_fetch_all
+from newsdata_fetcher import fetch_all as newsdata_fetch_all
 from groq_summary import summarize
 from market_data import get_all_market_data
 from risk_score import calc_risk_score
@@ -154,11 +155,22 @@ def write_json(output: dict) -> None:
 
 # ── 主流程 ────────────────────────────────────────────
 
+def _deduplicate(articles: list) -> list:
+    """跨來源去重（RSS + NewsData 可能重疊）。"""
+    seen = {}
+    for a in articles:
+        seen[a["id"]] = a
+    return list(seen.values())
+
+
 def main() -> None:
     print(f"[Start] {datetime.now(TZ_TW).isoformat()}")
 
     cache       = _load_existing()
-    articles    = fetch_all()
+    rss_articles     = rss_fetch_all()
+    newsdata_articles = newsdata_fetch_all()
+    articles    = _deduplicate(rss_articles + newsdata_articles)
+    print(f"[Fetch] RSS {len(rss_articles)} + NewsData {len(newsdata_articles)} → 去重後 {len(articles)}")
     articles    = enrich_articles(articles, cache)
     categories  = categorize(articles)
     market_info = get_all_market_data()

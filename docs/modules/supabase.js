@@ -47,3 +47,13 @@ export function onAuthStateChange(callback) {
         callback(session?.user ?? null);
     });
 }
+
+// --- Usage Quota ---
+
+export async function checkUsageQuota(articleId) {
+    const { data, error } = await supabase.rpc('check_and_increment_usage', {
+        p_article_id: articleId,
+    });
+    if (error) throw error;
+    return data;
+}
