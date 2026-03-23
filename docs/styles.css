@@ -310,6 +310,168 @@ a.trend-link:hover { color: var(--primary); text-decoration: underline; }
     .trends-columns { grid-template-columns: 1fr; }
 }
 
+/* === Daily Digest (今日脈絡) === */
+.digest-container {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--border);
+}
+.digest-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--text-main);
+    margin-bottom: 0.25rem;
+}
+.digest-trial-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    background: #dbeafe;
+    color: var(--primary);
+    padding: 2px 10px;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+.digest-section { margin-top: 1.25rem; }
+.digest-section-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--text-main);
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid var(--primary);
+}
+
+/* Key Themes */
+.digest-themes { display: flex; flex-direction: column; gap: 0.75rem; }
+.digest-theme {
+    background: var(--bg-color);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    border-left: 3px solid var(--primary);
+}
+.digest-theme-title { font-weight: bold; font-size: 0.95rem; margin-bottom: 0.25rem; }
+.digest-theme-summary { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
+
+/* Timeline */
+.digest-timeline {
+    position: relative;
+    padding-left: 1.5rem;
+}
+.digest-timeline::before {
+    content: '';
+    position: absolute;
+    left: 0.45rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--primary), #93c5fd);
+}
+.timeline-item {
+    position: relative;
+    padding: 0.5rem 0 1rem 1rem;
+    transition: opacity 0.3s;
+}
+.timeline-dot {
+    position: absolute;
+    left: -1.3rem;
+    top: 0.7rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--primary);
+    border: 2px solid var(--card-bg);
+    box-shadow: 0 0 0 2px var(--primary);
+}
+.timeline-content {
+    background: var(--bg-color);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+}
+.timeline-time {
+    font-size: 0.75rem;
+    color: var(--primary);
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+.timeline-event {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    line-height: 1.5;
+}
+.timeline-impact {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+.timeline-cat {
+    display: inline-block;
+    font-size: 0.7rem;
+    background: #e0e7ff;
+    color: var(--primary);
+    padding: 1px 8px;
+    border-radius: 10px;
+    margin-top: 0.35rem;
+}
+
+/* Blurred items */
+.timeline-blurred .timeline-content,
+.digest-section-blurred .digest-watch,
+.digest-section-blurred .digest-cross {
+    filter: blur(5px);
+    user-select: none;
+    pointer-events: none;
+}
+
+/* Watch Next */
+.digest-watch { display: flex; flex-direction: column; gap: 0.5rem; }
+.digest-watch-item {
+    background: var(--bg-color);
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+}
+.digest-watch-topic { font-weight: bold; font-size: 0.9rem; }
+.digest-watch-reason { font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; }
+
+/* Cross Links */
+.digest-cross { display: flex; flex-direction: column; gap: 0.5rem; }
+.digest-cross-item {
+    background: var(--bg-color);
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+}
+.digest-cross-themes { font-weight: bold; font-size: 0.9rem; color: var(--primary); margin-bottom: 0.2rem; }
+.digest-cross-explain { font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; }
+
+/* Paywall CTA */
+.digest-paywall {
+    margin-top: 1.25rem;
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(to right, #eff6ff, #dbeafe);
+    border-radius: 8px;
+}
+.digest-paywall p {
+    font-size: 0.9rem;
+    color: var(--text-main);
+    margin-bottom: 0.75rem;
+}
+.digest-cta-btn {
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.digest-cta-btn:hover { background: #1d4ed8; }
+.digest-cta-btn:disabled { background: #93c5fd; cursor: not-allowed; }
+
 /* Responsive */
 @media (max-width: 900px) {
     .main-container { flex-direction: column; }

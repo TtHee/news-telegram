@@ -4,7 +4,13 @@
       "WebFetch(domain:www.technologyreview.com)",
       "WebFetch(domain:trends.google.com.tw)",
       "WebFetch(domain:tthee.github.io)",
-      "WebFetch(domain:news-telegram-tthees-projects.vercel.app)"
+      "WebFetch(domain:news-telegram-tthees-projects.vercel.app)",
+      "WebFetch(domain:console.groq.com)",
+      "Bash(python -c \"import ast; [ast.parse\\(open\\(f''scripts/{f}''\\).read\\(\\)\\) for f in [''config.py'',''utils.py'',''models.py'',''groq_client.py'',''groq_summary.py'',''rss_fetcher.py'',''risk_score.py'',''market_data.py'',''telegram_notify.py'',''fetch_news.py'']]; print\\(''All Python files parse OK''\\)\")",
+      "Bash(python:*)",
+      "WebSearch",
+      "Bash(git:*)",
+      "Bash(gh run:*)"
     ]
   }
 }

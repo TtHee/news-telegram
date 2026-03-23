@@ -1,5 +1,6 @@
 import { fetchNewsData, CATEGORY_NAMES } from './modules/api.js';
 import { renderHeader, renderWidgets, renderNews } from './modules/render.js';
+import { renderDigest } from './modules/digest.js';
 import { toggleSaved, toggleRead } from './modules/storage.js';
 import { toggleChat, sendChat } from './modules/chat.js';
 import { signInWithGoogle, signOut, getSession, getProfile, onAuthStateChange } from './modules/supabase.js';
@@ -13,6 +14,7 @@ const state = {
     filterSaved: false,
     user: null,
     profile: null,
+    digestData: null,
 };
 
 const newsItemMap = new Map();
@@ -24,6 +26,7 @@ const errorMsgEl = document.getElementById('errorMsg');
 const searchInput = document.getElementById('searchInput');
 const sidebar = document.getElementById('sidebar');
 const sidebarOverlay = document.getElementById('sidebarOverlay');
+const digestContainer = document.getElementById('digestContainer');
 
 // --- Bootstrap ---
 
@@ -68,6 +71,10 @@ async function updateAuthUI(user) {
         state.profile = null;
         authArea.innerHTML = '<button class="auth-btn" id="loginBtn">登入</button>';
     }
+    // Re-render digest with updated auth state
+    if (state.digestData) {
+        renderDigest(digestContainer, state.digestData, state.user);
+    }
 }
 
 function escapeHtmlAttr(str) {
@@ -101,8 +108,11 @@ async function fetchData() {
             });
         }
 
+        state.digestData = data.daily_digest || null;
+
         renderHeader(data.generated_at);
         renderWidgets(data);
+        renderDigest(digestContainer, state.digestData, state.user);
         doRender();
 
         loadingEl.style.display = 'none';
