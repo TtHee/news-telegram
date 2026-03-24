@@ -1,62 +1,495 @@
 {
-  "generated_at": "2026-03-24T23:01:55.092363+08:00",
+  "generated_at": "2026-03-25T00:01:53.654416+08:00",
   "risk_signals": [
     "🟢 台股加權 32612.24（正常）",
-    "🟢 S&P 500 6576.52（正常）",
-    "🟡 VIX 恐慌指數 26.57（留意）",
+    "🟢 S&P 500 6575.1（正常）",
+    "🟡 VIX 恐慌指數 25.81（留意）",
     "🟢 MOVE 債市波動 98.15（正常）",
-    "🟢 美元指數 99.36（正常）",
-    "🟢 黃金 4406.0（正常）",
-    "🟢 美債10Y殖利率 4.39（正常）",
-    "🟡 原油 WTI 91.85（漲 +4.22%，留意）",
+    "🟢 美元指數 99.4（正常）",
+    "🟢 黃金 4424.3（正常）",
+    "🟢 美債10Y殖利率 4.37（正常）",
+    "🟡 原油 WTI 91.45（漲 +3.77%，留意）",
     "🟢 美元/台幣 31.92（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，但注意原油價格上漲，恐慌指數也稍微上升，需要留意市場對能源的反應。",
+  "ai_summary": "市場呈現平穩氛圍，美元指數和美債10Y殖利率維持正常水平，但原油價格上漲和VIX恐慌指數略有波動，需要留意。",
   "market": {
     "TWII": {
       "price": 32612.24,
       "change_pct": -0.34
     },
     "SP500": {
-      "price": 6576.52,
-      "change_pct": -0.07
+      "price": 6575.1,
+      "change_pct": -0.09
     },
     "NASDAQ": {
-      "price": 21844.6,
-      "change_pct": -0.47
+      "price": 21837.5,
+      "change_pct": -0.5
     },
     "VIX": {
-      "price": 26.57,
-      "change_pct": 1.61
+      "price": 25.81,
+      "change_pct": -1.3
     },
     "TNX": {
-      "price": 4.39,
-      "change_pct": 1.2
+      "price": 4.37,
+      "change_pct": 0.78
     },
     "MOVE": {
       "price": 98.15,
       "change_pct": -9.82
     },
     "DXY": {
-      "price": 99.36,
-      "change_pct": 0.42
+      "price": 99.4,
+      "change_pct": 0.45
     },
     "GOLD": {
-      "price": 4406.0,
-      "change_pct": 0.04
+      "price": 4424.3,
+      "change_pct": 0.46
     },
     "OIL": {
-      "price": 91.85,
-      "change_pct": 4.22
+      "price": 91.45,
+      "change_pct": 3.77
     },
     "USDTWD": {
       "price": 31.92,
-      "change_pct": -0.33
+      "change_pct": -0.31
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "43ad819f",
+        "title": "白宮發表賀詞：紀念帕特里克·亨利「給我自由或給我死亡！」演說250週年",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-the-anniversary-of-patrick-henrys-give-me-liberty-or-give-me-death-speech/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 23 Mar 2026 19:00:00 +0000",
+        "summary_zh": "250年前，13個殖民地站在革命的邊緣，偉大的帕特里克·亨利在第二次弗吉尼亞會議上發表了震撼人心的演說，堅定地宣告著「給我自由，或給我死亡！」這句歷史上的名言。這句名言在歷史上留下了深刻的印記，成為美國獨立運動的象徵。這項重要的歷史事件讓我們回顧過去，感受美國人民對自由的渴望和勇氣。這項紀念活動表明，美國政府仍然致力於捍衛自由和民主的價值。然而，這也提醒我們，自由和民主的價值需要不斷地努力和捍衛，才能讓它們持續下去。",
+        "sentiment": "正面",
+        "is_breaking": false
+      }
+    ],
+    "trends": [
+      {
+        "id": "b18a1212",
+        "title": "iran war missiles",
+        "url": "https://www.google.com/search?q=iran+war+missiles",
+        "source": "Google Trends 美國",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:40:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "f42a6cff",
+        "title": "abby huntsman",
+        "url": "https://www.google.com/search?q=abby+huntsman",
+        "source": "Google Trends 美國",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:00:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "21bce5c6",
+        "title": "trevor siemian",
+        "url": "https://www.google.com/search?q=trevor+siemian",
+        "source": "Google Trends 美國",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:00:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "291181fb",
+        "title": "marsha blackburn",
+        "url": "https://www.google.com/search?q=marsha+blackburn",
+        "source": "Google Trends 美國",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:00:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "876a9804",
+        "title": "litellm",
+        "url": "https://www.google.com/search?q=litellm",
+        "source": "Google Trends 美國",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:00:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "ad2a289b",
+        "title": "moon",
+        "url": "https://www.google.com/search?q=moon",
+        "source": "Google Trends 美國",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:00:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "6f378f1d",
+        "title": "harry potter",
+        "url": "https://www.google.com/search?q=harry+potter",
+        "source": "Google Trends 美國",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "5bb9e2e2",
+        "title": "epic games layoffs",
+        "url": "https://www.google.com/search?q=epic+games+layoffs",
+        "source": "Google Trends 美國",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "ebf5dd90",
+        "title": "arctic frost",
+        "url": "https://www.google.com/search?q=arctic+frost",
+        "source": "Google Trends 美國",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 07:30:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "cd20aed7",
+        "title": "brett larson",
+        "url": "https://www.google.com/search?q=brett+larson",
+        "source": "Google Trends 美國",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 07:30:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "08e67f90",
+        "title": "冨安健洋",
+        "url": "https://www.google.com/search?q=%E5%86%A8%E5%AE%89%E5%81%A5%E6%B4%8B",
+        "source": "Google Trends 日本",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:50:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "62f5a28f",
+        "title": "宮舘涼太",
+        "url": "https://www.google.com/search?q=%E5%AE%AE%E8%88%98%E6%B6%BC%E5%A4%AA",
+        "source": "Google Trends 日本",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:40:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "d0f8f070",
+        "title": "ミュージアム",
+        "url": "https://www.google.com/search?q=%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0",
+        "source": "Google Trends 日本",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:40:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "8e20a3d6",
+        "title": "超特急",
+        "url": "https://www.google.com/search?q=%E8%B6%85%E7%89%B9%E6%80%A5",
+        "source": "Google Trends 日本",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:40:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "48e78406",
+        "title": "大阪城",
+        "url": "https://www.google.com/search?q=%E5%A4%A7%E9%98%AA%E5%9F%8E",
+        "source": "Google Trends 日本",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:40:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "a8a0166d",
+        "title": "ゼンハイザー",
+        "url": "https://www.google.com/search?q=%E3%82%BC%E3%83%B3%E3%83%8F%E3%82%A4%E3%82%B6%E3%83%BC",
+        "source": "Google Trends 日本",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:30:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "0813f4f0",
+        "title": "ともさかりえ",
+        "url": "https://www.google.com/search?q=%E3%81%A8%E3%82%82%E3%81%95%E3%81%8B%E3%82%8A%E3%81%88",
+        "source": "Google Trends 日本",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:20:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "7e4fbb73",
+        "title": "グリーズマン",
+        "url": "https://www.google.com/search?q=%E3%82%B0%E3%83%AA%E3%83%BC%E3%82%BA%E3%83%9E%E3%83%B3",
+        "source": "Google Trends 日本",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:20:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "47162169",
+        "title": "チェンソーマン 最終回",
+        "url": "https://www.google.com/search?q=%E3%83%81%E3%82%A7%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%9E%E3%83%B3+%E6%9C%80%E7%B5%82%E5%9B%9E",
+        "source": "Google Trends 日本",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:10:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "a044dcae",
+        "title": "奥原希望",
+        "url": "https://www.google.com/search?q=%E5%A5%A5%E5%8E%9F%E5%B8%8C%E6%9C%9B",
+        "source": "Google Trends 日本",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:10:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "72674ec3",
+        "title": "宮古島",
+        "url": "https://www.google.com/search?q=%E5%AE%AE%E5%8F%A4%E5%B3%B6",
+        "source": "Google Trends 台灣",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:50:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "7a951b0f",
+        "title": "林強",
+        "url": "https://www.google.com/search?q=%E6%9E%97%E5%BC%B7",
+        "source": "Google Trends 台灣",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 08:40:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "afcccc21",
+        "title": "crcl",
+        "url": "https://www.google.com/search?q=crcl",
+        "source": "Google Trends 台灣",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 07:30:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "0fd79cbe",
+        "title": "立方救贖",
+        "url": "https://www.google.com/search?q=%E7%AB%8B%E6%96%B9%E6%95%91%E8%B4%96",
+        "source": "Google Trends 台灣",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 06:10:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "48ec926e",
+        "title": "吳宗憲",
+        "url": "https://www.google.com/search?q=%E5%90%B3%E5%AE%97%E6%86%B2",
+        "source": "Google Trends 台灣",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 05:50:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "0b3260c3",
+        "title": "539號碼",
+        "url": "https://www.google.com/search?q=539%E8%99%9F%E7%A2%BC",
+        "source": "Google Trends 台灣",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 05:40:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "f5cb2cdf",
+        "title": "金世正",
+        "url": "https://www.google.com/search?q=%E9%87%91%E4%B8%96%E6%AD%A3",
+        "source": "Google Trends 台灣",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 05:30:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "ecb3389f",
+        "title": "徐漢",
+        "url": "https://www.google.com/search?q=%E5%BE%90%E6%BC%A2",
+        "source": "Google Trends 台灣",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 05:30:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "36fd949c",
+        "title": "康普",
+        "url": "https://www.google.com/search?q=%E5%BA%B7%E6%99%AE",
+        "source": "Google Trends 台灣",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 05:30:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "bee6353a",
+        "title": "張雪峰",
+        "url": "https://www.google.com/search?q=%E5%BC%B5%E9%9B%AA%E5%B3%B0",
+        "source": "Google Trends 台灣",
+        "category": "trends",
+        "published_at": "Tue, 24 Mar 2026 05:10:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      }
+    ],
     "trends_weekly": [
+      {
+        "id": "db843035",
+        "title": "iran war missiles",
+        "url": "https://www.google.com/search?q=iran+war+missiles",
+        "source": "Google Trends 美國 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:40:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "96e2494a",
+        "title": "abby huntsman",
+        "url": "https://www.google.com/search?q=abby+huntsman",
+        "source": "Google Trends 美國 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:00:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "8202f705",
+        "title": "trevor siemian",
+        "url": "https://www.google.com/search?q=trevor+siemian",
+        "source": "Google Trends 美國 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:00:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "3fb87d4e",
+        "title": "marsha blackburn",
+        "url": "https://www.google.com/search?q=marsha+blackburn",
+        "source": "Google Trends 美國 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:00:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "411119b5",
+        "title": "litellm",
+        "url": "https://www.google.com/search?q=litellm",
+        "source": "Google Trends 美國 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:00:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "6e05a818",
+        "title": "moon",
+        "url": "https://www.google.com/search?q=moon",
+        "source": "Google Trends 美國 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:00:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "18438cdc",
+        "title": "harry potter",
+        "url": "https://www.google.com/search?q=harry+potter",
+        "source": "Google Trends 美國 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "1484edf6",
+        "title": "epic games layoffs",
+        "url": "https://www.google.com/search?q=epic+games+layoffs",
+        "source": "Google Trends 美國 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
       {
         "id": "e7781d9b",
         "title": "arctic frost",
@@ -69,164 +502,10 @@
         "is_breaking": false
       },
       {
-        "id": "69ac57ba",
-        "title": "stubhub",
-        "url": "https://www.google.com/search?q=stubhub",
+        "id": "7cde42b0",
+        "title": "brett larson",
+        "url": "https://www.google.com/search?q=brett+larson",
         "source": "Google Trends 美國 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "b07103a5",
-        "title": "seatgeek",
-        "url": "https://www.google.com/search?q=seatgeek",
-        "source": "Google Trends 美國 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "185d252a",
-        "title": "jay z",
-        "url": "https://www.google.com/search?q=jay+z",
-        "source": "Google Trends 美國 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "3081ca7b",
-        "title": "antoine griezmann",
-        "url": "https://www.google.com/search?q=antoine+griezmann",
-        "source": "Google Trends 美國 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "a5ab5109",
-        "title": "crcl stock",
-        "url": "https://www.google.com/search?q=crcl+stock",
-        "source": "Google Trends 美國 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "aa8948e4",
-        "title": "yankee stadium",
-        "url": "https://www.google.com/search?q=yankee+stadium",
-        "source": "Google Trends 美國 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "a0fb1611",
-        "title": "mpc sample",
-        "url": "https://www.google.com/search?q=mpc+sample",
-        "source": "Google Trends 美國 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "360b64b7",
-        "title": "pokemon champions",
-        "url": "https://www.google.com/search?q=pokemon+champions",
-        "source": "Google Trends 美國 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:10:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "bb91a7be",
-        "title": "東国原英夫",
-        "url": "https://www.google.com/search?q=%E6%9D%B1%E5%9B%BD%E5%8E%9F%E8%8B%B1%E5%A4%AB",
-        "source": "Google Trends 日本 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "cab4ed68",
-        "title": "メガソーラー",
-        "url": "https://www.google.com/search?q=%E3%83%A1%E3%82%AC%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC",
-        "source": "Google Trends 日本 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "d9ae9f8e",
-        "title": "菅野結以",
-        "url": "https://www.google.com/search?q=%E8%8F%85%E9%87%8E%E7%B5%90%E4%BB%A5",
-        "source": "Google Trends 日本 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "fedddbd5",
-        "title": "新名神 6人死亡事故 身元",
-        "url": "https://www.google.com/search?q=%E6%96%B0%E5%90%8D%E7%A5%9E+6%E4%BA%BA%E6%AD%BB%E4%BA%A1%E4%BA%8B%E6%95%85+%E8%BA%AB%E5%85%83",
-        "source": "Google Trends 日本 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "918e86af",
-        "title": "駒澤大学",
-        "url": "https://www.google.com/search?q=%E9%A7%92%E6%BE%A4%E5%A4%A7%E5%AD%A6",
-        "source": "Google Trends 日本 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "7d0fdee1",
-        "title": "玉井陸斗",
-        "url": "https://www.google.com/search?q=%E7%8E%89%E4%BA%95%E9%99%B8%E6%96%97",
-        "source": "Google Trends 日本 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:40:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "aa15455a",
-        "title": "鈴木奈々",
-        "url": "https://www.google.com/search?q=%E9%88%B4%E6%9C%A8%E5%A5%88%E3%80%85",
-        "source": "Google Trends 日本 7天",
         "category": "trends_weekly",
         "published_at": "Tue, 24 Mar 2026 07:30:00 -0700",
         "summary_zh": "",
@@ -234,10 +513,32 @@
         "is_breaking": false
       },
       {
-        "id": "206ed613",
-        "title": "香港",
-        "url": "https://www.google.com/search?q=%E9%A6%99%E6%B8%AF",
-        "source": "Google Trends 日本 7天",
+        "id": "44416e1c",
+        "title": "宮古島",
+        "url": "https://www.google.com/search?q=%E5%AE%AE%E5%8F%A4%E5%B3%B6",
+        "source": "Google Trends 台灣 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:50:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "48fb194f",
+        "title": "林強",
+        "url": "https://www.google.com/search?q=%E6%9E%97%E5%BC%B7",
+        "source": "Google Trends 台灣 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:40:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "ec15abdf",
+        "title": "crcl",
+        "url": "https://www.google.com/search?q=crcl",
+        "source": "Google Trends 台灣 7天",
         "category": "trends_weekly",
         "published_at": "Tue, 24 Mar 2026 07:30:00 -0700",
         "summary_zh": "",
@@ -245,23 +546,12 @@
         "is_breaking": false
       },
       {
-        "id": "5a4e6eda",
-        "title": "愛のハイエナ",
-        "url": "https://www.google.com/search?q=%E6%84%9B%E3%81%AE%E3%83%8F%E3%82%A4%E3%82%A8%E3%83%8A",
-        "source": "Google Trends 日本 7天",
+        "id": "d651003e",
+        "title": "立方救贖",
+        "url": "https://www.google.com/search?q=%E7%AB%8B%E6%96%B9%E6%95%91%E8%B4%96",
+        "source": "Google Trends 台灣 7天",
         "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:30:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "3cc462ea",
-        "title": "中川安奈",
-        "url": "https://www.google.com/search?q=%E4%B8%AD%E5%B7%9D%E5%AE%89%E5%A5%88",
-        "source": "Google Trends 日本 7天",
-        "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
+        "published_at": "Tue, 24 Mar 2026 06:10:00 -0700",
         "summary_zh": "",
         "sentiment": "中性",
         "is_breaking": false
@@ -284,6 +574,17 @@
         "source": "Google Trends 台灣 7天",
         "category": "trends_weekly",
         "published_at": "Tue, 24 Mar 2026 05:40:00 -0700",
+        "summary_zh": "",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "5004819b",
+        "title": "金世正",
+        "url": "https://www.google.com/search?q=%E9%87%91%E4%B8%96%E6%AD%A3",
+        "source": "Google Trends 台灣 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 05:30:00 -0700",
         "summary_zh": "",
         "sentiment": "中性",
         "is_breaking": false
@@ -322,492 +623,290 @@
         "is_breaking": false
       },
       {
-        "id": "969e4dd0",
-        "title": "张雪峰",
-        "url": "https://www.google.com/search?q=%E5%BC%A0%E9%9B%AA%E5%B3%B0",
-        "source": "Google Trends 台灣 7天",
+        "id": "327d7442",
+        "title": "冨安健洋",
+        "url": "https://www.google.com/search?q=%E5%86%A8%E5%AE%89%E5%81%A5%E6%B4%8B",
+        "source": "Google Trends 日本 7天",
         "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 04:50:00 -0700",
+        "published_at": "Tue, 24 Mar 2026 08:50:00 -0700",
         "summary_zh": "",
         "sentiment": "中性",
         "is_breaking": false
       },
       {
-        "id": "82ed1329",
-        "title": "中山美穗",
-        "url": "https://www.google.com/search?q=%E4%B8%AD%E5%B1%B1%E7%BE%8E%E7%A9%97",
-        "source": "Google Trends 台灣 7天",
+        "id": "d9a6d3dd",
+        "title": "宮舘涼太",
+        "url": "https://www.google.com/search?q=%E5%AE%AE%E8%88%98%E6%B6%BC%E5%A4%AA",
+        "source": "Google Trends 日本 7天",
         "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 04:30:00 -0700",
+        "published_at": "Tue, 24 Mar 2026 08:40:00 -0700",
         "summary_zh": "",
         "sentiment": "中性",
         "is_breaking": false
       },
       {
-        "id": "a545b3dd",
-        "title": "line today",
-        "url": "https://www.google.com/search?q=line+today",
-        "source": "Google Trends 台灣 7天",
+        "id": "d7a0400c",
+        "title": "ミュージアム",
+        "url": "https://www.google.com/search?q=%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0",
+        "source": "Google Trends 日本 7天",
         "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 04:20:00 -0700",
+        "published_at": "Tue, 24 Mar 2026 08:40:00 -0700",
         "summary_zh": "",
         "sentiment": "中性",
         "is_breaking": false
       },
       {
-        "id": "9c336236",
-        "title": "順德",
-        "url": "https://www.google.com/search?q=%E9%A0%86%E5%BE%B7",
-        "source": "Google Trends 台灣 7天",
+        "id": "5c90868d",
+        "title": "超特急",
+        "url": "https://www.google.com/search?q=%E8%B6%85%E7%89%B9%E6%80%A5",
+        "source": "Google Trends 日本 7天",
         "category": "trends_weekly",
-        "published_at": "Tue, 24 Mar 2026 04:20:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      }
-    ],
-    "trends": [
-      {
-        "id": "ebf5dd90",
-        "title": "arctic frost",
-        "url": "https://www.google.com/search?q=arctic+frost",
-        "source": "Google Trends 美國",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:30:00 -0700",
+        "published_at": "Tue, 24 Mar 2026 08:40:00 -0700",
         "summary_zh": "",
         "sentiment": "中性",
         "is_breaking": false
       },
       {
-        "id": "d1a21998",
-        "title": "stubhub",
-        "url": "https://www.google.com/search?q=stubhub",
-        "source": "Google Trends 美國",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
+        "id": "e8cb5483",
+        "title": "大阪城",
+        "url": "https://www.google.com/search?q=%E5%A4%A7%E9%98%AA%E5%9F%8E",
+        "source": "Google Trends 日本 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:40:00 -0700",
         "summary_zh": "",
         "sentiment": "中性",
         "is_breaking": false
       },
       {
-        "id": "53253f6a",
-        "title": "seatgeek",
-        "url": "https://www.google.com/search?q=seatgeek",
-        "source": "Google Trends 美國",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
+        "id": "568dd7f3",
+        "title": "ゼンハイザー",
+        "url": "https://www.google.com/search?q=%E3%82%BC%E3%83%B3%E3%83%8F%E3%82%A4%E3%82%B6%E3%83%BC",
+        "source": "Google Trends 日本 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:30:00 -0700",
         "summary_zh": "",
         "sentiment": "中性",
         "is_breaking": false
       },
       {
-        "id": "0cc1cf7d",
-        "title": "jay z",
-        "url": "https://www.google.com/search?q=jay+z",
-        "source": "Google Trends 美國",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
+        "id": "e5188a57",
+        "title": "ともさかりえ",
+        "url": "https://www.google.com/search?q=%E3%81%A8%E3%82%82%E3%81%95%E3%81%8B%E3%82%8A%E3%81%88",
+        "source": "Google Trends 日本 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:20:00 -0700",
         "summary_zh": "",
         "sentiment": "中性",
         "is_breaking": false
       },
       {
-        "id": "c90454fd",
-        "title": "antoine griezmann",
-        "url": "https://www.google.com/search?q=antoine+griezmann",
-        "source": "Google Trends 美國",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
+        "id": "8dd57928",
+        "title": "グリーズマン",
+        "url": "https://www.google.com/search?q=%E3%82%B0%E3%83%AA%E3%83%BC%E3%82%BA%E3%83%9E%E3%83%B3",
+        "source": "Google Trends 日本 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:20:00 -0700",
         "summary_zh": "",
         "sentiment": "中性",
         "is_breaking": false
       },
       {
-        "id": "65181920",
-        "title": "crcl stock",
-        "url": "https://www.google.com/search?q=crcl+stock",
-        "source": "Google Trends 美國",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
+        "id": "025f7822",
+        "title": "チェンソーマン 最終回",
+        "url": "https://www.google.com/search?q=%E3%83%81%E3%82%A7%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%9E%E3%83%B3+%E6%9C%80%E7%B5%82%E5%9B%9E",
+        "source": "Google Trends 日本 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:10:00 -0700",
         "summary_zh": "",
         "sentiment": "中性",
         "is_breaking": false
       },
       {
-        "id": "d121f2f4",
-        "title": "yankee stadium",
-        "url": "https://www.google.com/search?q=yankee+stadium",
-        "source": "Google Trends 美國",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
+        "id": "0cb42276",
+        "title": "奥原希望",
+        "url": "https://www.google.com/search?q=%E5%A5%A5%E5%8E%9F%E5%B8%8C%E6%9C%9B",
+        "source": "Google Trends 日本 7天",
+        "category": "trends_weekly",
+        "published_at": "Tue, 24 Mar 2026 08:10:00 -0700",
         "summary_zh": "",
         "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "e68c6242",
-        "title": "mpc sample",
-        "url": "https://www.google.com/search?q=mpc+sample",
-        "source": "Google Trends 美國",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "cc56143f",
-        "title": "pokemon champions",
-        "url": "https://www.google.com/search?q=pokemon+champions",
-        "source": "Google Trends 美國",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:10:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "5c52c0cf",
-        "title": "東国原英夫",
-        "url": "https://www.google.com/search?q=%E6%9D%B1%E5%9B%BD%E5%8E%9F%E8%8B%B1%E5%A4%AB",
-        "source": "Google Trends 日本",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "f29aeece",
-        "title": "メガソーラー",
-        "url": "https://www.google.com/search?q=%E3%83%A1%E3%82%AC%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BC",
-        "source": "Google Trends 日本",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "f456d63d",
-        "title": "菅野結以",
-        "url": "https://www.google.com/search?q=%E8%8F%85%E9%87%8E%E7%B5%90%E4%BB%A5",
-        "source": "Google Trends 日本",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "48e31541",
-        "title": "新名神 6人死亡事故 身元",
-        "url": "https://www.google.com/search?q=%E6%96%B0%E5%90%8D%E7%A5%9E+6%E4%BA%BA%E6%AD%BB%E4%BA%A1%E4%BA%8B%E6%95%85+%E8%BA%AB%E5%85%83",
-        "source": "Google Trends 日本",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "de57f042",
-        "title": "駒澤大学",
-        "url": "https://www.google.com/search?q=%E9%A7%92%E6%BE%A4%E5%A4%A7%E5%AD%A6",
-        "source": "Google Trends 日本",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:50:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "152bb5fb",
-        "title": "玉井陸斗",
-        "url": "https://www.google.com/search?q=%E7%8E%89%E4%BA%95%E9%99%B8%E6%96%97",
-        "source": "Google Trends 日本",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:40:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "a697d93d",
-        "title": "鈴木奈々",
-        "url": "https://www.google.com/search?q=%E9%88%B4%E6%9C%A8%E5%A5%88%E3%80%85",
-        "source": "Google Trends 日本",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:30:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "b843ed84",
-        "title": "香港",
-        "url": "https://www.google.com/search?q=%E9%A6%99%E6%B8%AF",
-        "source": "Google Trends 日本",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:30:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "62fc019f",
-        "title": "愛のハイエナ",
-        "url": "https://www.google.com/search?q=%E6%84%9B%E3%81%AE%E3%83%8F%E3%82%A4%E3%82%A8%E3%83%8A",
-        "source": "Google Trends 日本",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:30:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "39428ef1",
-        "title": "中川安奈",
-        "url": "https://www.google.com/search?q=%E4%B8%AD%E5%B7%9D%E5%AE%89%E5%A5%88",
-        "source": "Google Trends 日本",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 07:20:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "48ec926e",
-        "title": "吳宗憲",
-        "url": "https://www.google.com/search?q=%E5%90%B3%E5%AE%97%E6%86%B2",
-        "source": "Google Trends 台灣",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 05:50:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "0b3260c3",
-        "title": "539號碼",
-        "url": "https://www.google.com/search?q=539%E8%99%9F%E7%A2%BC",
-        "source": "Google Trends 台灣",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 05:40:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "ecb3389f",
-        "title": "徐漢",
-        "url": "https://www.google.com/search?q=%E5%BE%90%E6%BC%A2",
-        "source": "Google Trends 台灣",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 05:30:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "36fd949c",
-        "title": "康普",
-        "url": "https://www.google.com/search?q=%E5%BA%B7%E6%99%AE",
-        "source": "Google Trends 台灣",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 05:30:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "bee6353a",
-        "title": "張雪峰",
-        "url": "https://www.google.com/search?q=%E5%BC%B5%E9%9B%AA%E5%B3%B0",
-        "source": "Google Trends 台灣",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 05:10:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "15a6c87d",
-        "title": "张雪峰",
-        "url": "https://www.google.com/search?q=%E5%BC%A0%E9%9B%AA%E5%B3%B0",
-        "source": "Google Trends 台灣",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 04:50:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "a8f407a1",
-        "title": "中山美穗",
-        "url": "https://www.google.com/search?q=%E4%B8%AD%E5%B1%B1%E7%BE%8E%E7%A9%97",
-        "source": "Google Trends 台灣",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 04:30:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "80c8eceb",
-        "title": "line today",
-        "url": "https://www.google.com/search?q=line+today",
-        "source": "Google Trends 台灣",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 04:20:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "4acaa42d",
-        "title": "順德",
-        "url": "https://www.google.com/search?q=%E9%A0%86%E5%BE%B7",
-        "source": "Google Trends 台灣",
-        "category": "trends",
-        "published_at": "Tue, 24 Mar 2026 04:20:00 -0700",
-        "summary_zh": "",
-        "sentiment": "中性",
-        "is_breaking": false
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "43ad819f",
-        "title": "白宮發表賀詞：紀念帕特里克·亨利「給我自由或給我死亡！」演說250週年",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/03/presidential-message-on-the-anniversary-of-patrick-henrys-give-me-liberty-or-give-me-death-speech/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 23 Mar 2026 19:00:00 +0000",
-        "summary_zh": "250年前，13個殖民地站在革命的邊緣，偉大的帕特里克·亨利在第二次弗吉尼亞會議上發表了震撼人心的演說，堅定地宣告著「給我自由，或給我死亡！」這句歷史上的名言。這句名言在歷史上留下了深刻的印記，成為美國獨立運動的象徵。這項重要的歷史事件讓我們回顧過去，感受美國人民對自由的渴望和勇氣。這項紀念活動表明，美國政府仍然致力於捍衛自由和民主的價值。然而，這也提醒我們，自由和民主的價值需要不斷地努力和捍衛，才能讓它們持續下去。",
-        "sentiment": "正面",
         "is_breaking": false
       }
     ],
     "ai": [
       {
-        "id": "46b5fcbd",
-        "title": "WWDC 2026：蘋果將於6月8日舉辦年度開發者會議",
-        "url": "https://www.firstpost.com/tech/wwdc-2026-apple-to-hold-annual-developers-conference-from-june-8-13992459.html",
-        "source": "Firstpost",
+        "id": "3f327bc7",
+        "title": "歐洲領袖呼籲社交媒體平台設置最低使用年齡",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/03/24/europe039s-leaders-urge-minimum-age-on-social-media-platforms",
+        "source": "The Star",
         "category": "ai",
-        "published_at": "2026-03-24 02:36:43",
-        "summary_zh": "蘋果公司宣布將於今年6月8日舉辦年度開發者會議（WWDC 2026）。這次會議預計將推出更多的Apple Intelligence功能，並提供未來iPhone的前瞻性預覽。這是蘋果年度開發者會議的重要一步，將為開發者提供最新的軟體和硬體技術。會議將為業界帶來許多新發現和創新，同時也將為未來的科技發展提供重要的指標。蘋果一直在推動智能科技的發展，並且這次會議將是公司在這方面的重要一步。",
-        "sentiment": "中性",
-        "is_breaking": false
+        "published_at": "2026-03-24 04:00:00",
+        "summary_zh": "歐盟領袖正在努力推動推出社交媒體平台的最低使用年齡限制，例如TikTok和Instagram。這項措施是出於擔心社交媒體可能對年輕人造成傷害。歐盟領袖認為，社交媒體對年輕人的身心健康有著潛在的負面影響，包括自殺、焦慮和身體健康問題。為了應對這些問題，歐盟領袖正在考慮推出最低使用年齡限制，禁止未滿18歲的兒童使用社交媒體平台。這項措施的目的是保護年輕人免受社交媒體的傷害，並促進他們的身心健康發展。然而，這項措施也引發了爭議，部分人認為這項限制會侵犯年輕人的自主權。",
+        "sentiment": "負面",
+        "is_breaking": true
       },
       {
-        "id": "332e788f",
-        "title": "人工智慧成為網路設計和體驗的核心",
-        "url": "https://telecom.economictimes.indiatimes.com/news/policy/ai-revolutionizes-telecom-network-design-and-management-says-trai-chief/129765717",
-        "source": "Et Telecom",
+        "id": "3d1b540d",
+        "title": "蘋果宣布WWDC 2026將於6月8日舉辦，展示人工智慧和軟體的進展",
+        "url": "https://www.gadgets360.com/mobiles/news/apple-wwdc-2026-date-expected-announcements-ai-ios-27-11257651",
+        "source": "Gadgets 360",
         "category": "ai",
-        "published_at": "2026-03-24 02:22:18",
-        "summary_zh": "印度電信監管機構TRAI的AK Lahoti表示，人工智慧正在改變網路的設計和體驗。人工智慧已經使網路能夠自我優化、預測維護、智能頻譜管理、增強網路安全、提高能效和改善用戶體驗。這些技術的應用將為用戶帶來更好的網路體驗和更高效的網路運營。然而，人工智慧的廣泛應用也引發了對網路安全和隱私的新挑戰。",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "749eaebb",
-        "title": "機器人AI在企業的影響 – 追蹤最新發展",
-        "url": "https://www.computerworld.com/article/3843138/agentic-ai-ongoing-coverage-of-its-impact-on-the-enterprise.html",
-        "source": "Computer World",
-        "category": "ai",
-        "published_at": "2026-03-24 02:13:55",
-        "summary_zh": "在未來幾年內，機器人AI將不僅帶來快速的技術突破，也將帶來社會變革，重新定義我們生活、工作和與世界互動的方式。這種變革正在快速進行中。根據研究公司Gartner的預測，到2028年，33%的企業軟體應用程式將包含機器人AI，從2024年的不到1%大幅增加，讓15%的日常工作決策可以自動執行。與傳統AI不同，機器人AI能夠適應新情況、從經驗中學習，並在沒有人類干預的情況下執行目標。簡單地說，機器人AI使系統能夠自主行事，做出決定並執行任務 — 甚至能夠直接與其他AI代理溝通 — 而不需要人類的參與。機器人AI將使機器能夠與物理世界進行前所未有的智慧互動，從而能夠在動態環境中執行複雜任務，這對於面臨勞工短缺或危險條件的行業可能會特別有用。然而，機器人AI的興起也引發了安全和倫理上的關注。確保這些自主系統安全、透明和負責任地運作，需要建立規範和測試。請繼續關注Computerworld和Foundry的其他出版物，追蹤機器人AI的最新發展。",
+        "published_at": "2026-03-24 03:23:20",
+        "summary_zh": "蘋果公司宣布將於6月8日舉辦全球開發者大會（WWDC 2026），該活動將持續五天。根據傳統，該活動將由蘋果CEO蒂姆·庫克主持開幕式演講。WWDC 2026將聚焦於蘋果軟體的最新進展，特別是人工智慧領域的突破。這次活動將為開發者提供一個展示新功能和技術的平台，同時也將為業界帶來新的創新和機會。蘋果的軟體更新將對於蘋果的生態系和整體競爭力產生重大影響。",
         "sentiment": "中性",
         "is_breaking": false
       }
     ],
     "trump": [
       {
-        "id": "72ce950d",
-        "title": "五角大樓修改記者政策，記者團體不滿",
-        "url": "https://www.axios.com/2026/03/24/defense-department-press-policy-revised",
-        "source": "Axios",
+        "id": "b663aeef",
+        "title": "墨西哥總統謝恩鮑姆呼籲和平解決美古緊張關係",
+        "url": "https://www.yahoo.com/news/articles/mexicos-sheinbaum-calls-peaceful-solution-035922971.html",
+        "source": "Yahoo! News",
         "category": "trump",
-        "published_at": "2026-03-24 02:33:49",
-        "summary_zh": "五角大樓近日宣布新的媒體政策，該政策與前總統川普政府對五角大樓記者的限制措施有關。美國聯邦法官日前裁定川普政府的限制措施違反了第一修正案，五角大樓表示遵守了判決，但記者團體認為新政策實際上對記者施加了新的限制。新政策的具體內容包括：關閉「記者走廊」，理由是無陪同的記者進入五角大樓無法負責地進行安全評估；將記者遷移到一座位於五角大樓外的新大樓；限制記者進入五角大樓的時間。記者團體認為這些措施違反了法院的判決精神，並正在與法律顧問磋商。五角大樓的發言人表示，五角大樓正在上訴法院的判決。這一事件引發了對新聞自由的擔憂，記者團體認為新政策將對新聞工作造成不利影響。",
-        "sentiment": "負面",
+        "published_at": "2026-03-24 03:59:22",
+        "summary_zh": "墨西哥總統謝恩鮑姆於週一重申對古巴自決權的支持，古巴和美國之間的緊張關係正在升高。謝恩鮑姆在墨西哥城的一個記者會上表示，古巴人民有權決定自己的未來，呼籲雙方尋求和平解決方案。這一立場表明墨西哥政府支持古巴的主權和獨立。同時，謝恩鮑姆也呼籲美國和古巴政府盡快恢復對話，避免任何形式的軍事衝突。這一呼籲受到墨西哥對拉丁美洲地區和平與穩定的重視。",
+        "sentiment": "中性",
         "is_breaking": true
       },
       {
-        "id": "81e0b5e8",
-        "title": "班農稱ICE在機場行動是2026年選舉的試驗",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb2loZG5BTzlDZzl5ZE1tODFOR3pTRzRIZUt2bTZ0RHV4ZHFweHlwdUplMG9qeVBtWVdUMHkycTRoRDFtb29oc2NscXpXRzVER3AxWWg5QW9sR2FpVFpvbXpQQVREZkVNY2lUeS1DMmRSbDhTdWFkdFA2VUxOWEhReTdkQ0ljenVESkNhZHZ30gGTAUFVX3lxTFBmYnlqT3B5RFNZdlp2emh1NDk2Sk5KNWxnaS1DdFlJWFJETzUyRGp1UXJYbnFoSGxLeWNCa3RkcjhlRnZVN09VRzJEb3djQktLczBxejVIWnc3UnJXRUpueElKQWRxWFNsN2V4N3BNekJYWjRpdDF3S0k0VzZqejdmSnpTckp5MUIwODlxQ0lxV3hNbw?oc=5",
-        "source": "Google News",
+        "id": "71449162",
+        "title": "中東戰爭直播：川普稱美伊正在溝通，伊朗發射新型導彈攻擊以色列",
+        "url": "https://www.france24.com/en/middle-east/20260324-middle-east-war-live-trump-us-iran-talks-tehran-fires-missiles-israel",
+        "source": "France 24",
         "category": "trump",
-        "published_at": "2026-03-24 02:56:00",
-        "summary_zh": "班農表示，美國移民及邊境保護局（ICE）在機場的行動，是為2026年美國大選做準備的試驗。美國總統川普最近部署ICE人員至美國各大機場，引起了民眾的關注。這項行動是在美國國土安全部部分停擺的情況下進行的。班農認為，這是川普政府為未來選舉做準備的一部分。然而，這項行動也引起了民眾的不滿，許多人批評ICE在機場的行動是侵犯人權的行為。這項行動的影響尚未完全明朗，但它可能會對未來的選舉產生重大影響。",
+        "published_at": "2026-03-24 03:41:26",
+        "summary_zh": "中東戰爭持續第四週，美國總統川普表達了對美伊戰爭可能結束的希望。然而，伊朗在星期二早晨發射了新的導彈攻擊以色列。根據伊朗國營電視台的報導，伊朗又一次對以色列發動了導彈攻擊。這一系列事件引發了關注，美國和伊朗是否正在進行溝通。川普的表述給人留下了希望，但伊朗的行動卻表明了對和平的不願意。這一局勢的發展仍在觀察中，世界各國正在密切關注中東局勢的變化。",
         "sentiment": "負面",
         "is_breaking": true
       }
     ],
     "global": [
       {
-        "id": "dd6bf82a",
-        "title": "以色列北部居民不願撤離　儘管遭到希伯倫武裝組織的火箭攻擊",
-        "url": "https://www.wsj.com/world/middle-east/residents-on-israels-northern-border-stay-put-despite-hezbollah-fire-e4ece5cf",
-        "source": "Wsj",
+        "id": "5258cb7f",
+        "title": "父親被囚禁因為斬首海鳥搶食女兒的薯片",
+        "url": "https://www.dailystar.co.uk/news/weird-news/dad-jailed-decapitating-seagull-after-36911180",
+        "source": "Dailystar Co Uk",
         "category": "global",
-        "published_at": "2026-03-24 03:00:00",
-        "summary_zh": "以色列軍方正嘗試在黎巴嫩境內建立一個足夠寬廣的緩衝區，將靠近邊境的居民區置於武裝組織希伯倫的攻擊範圍之外。儘管希伯倫武裝組織近期對以色列北部發動火箭攻擊，但居民仍堅持不撤離。這一決定引起了軍方和政府的擔憂，因為居民的安全將成為軍方在建立緩衝區時的關鍵考慮。軍方的目標是將居民區移至安全的區域，讓居民能夠繼續正常生活。然而，這一過程將需要時間和資源，並可能會對當地居民造成一定的影響。",
-        "sentiment": "中性",
+        "published_at": "2026-03-24 04:00:00",
+        "summary_zh": "英國一名父親因為斬首搶食女兒薯片的海鳥而被判刑。事件發生在英國一處海灘上，父親的女兒在吃薯片時，海鳥突然搶食，父親為了保護女兒，斬首了海鳥。然而，動物權益團體認為這個判決太過寬鬆。父親被判入獄，動物權益團體對於這個判決感到不滿。這個事件引起了社會的關注，許多人對於父親的行為感到同情，而其他人則認為父親的行為太過極端。這個事件也引發了對於動物保護和人類行為的討論。",
+        "sentiment": "負面",
+        "is_breaking": true
+      },
+      {
+        "id": "6d3ca71b",
+        "title": "14歲及15歲男孩在悉尼摩托車與巴士碰撞中喪生",
+        "url": "https://www.dailystar.co.uk/news/world-news/teen-boys-14-15-die-36912602",
+        "source": "Dailystar Co Uk",
+        "category": "global",
+        "published_at": "2026-03-24 03:56:51",
+        "summary_zh": "一場慘烈的摩托車與巴士碰撞事件在悉尼發生，兩名14歲及15歲的男孩在事發現場被醫護人員急救後宣告不治。目擊者表示，他們看到其中一名年輕人直接被巴士壓下。這起事故引起了廣泛關注，當局正在調查事故原因。這兩名年輕人的喪生令人感到悲痛，令人感到震驚的意外事故將對當地社區造成深遠影響。",
+        "sentiment": "負面",
+        "is_breaking": true
+      },
+      {
+        "id": "ebc52afd",
+        "title": "漫威《神奇男孩》續訂第二季",
+        "url": "https://www.kgw.com/article/news/nation-world/wonder-man-renewed-season-2/507-63d4bea1-12a2-4ea2-887b-20106d351935",
+        "source": "Kgw",
+        "category": "global",
+        "published_at": "2026-03-24 03:53:53",
+        "summary_zh": "漫威的Disney+原創劇《神奇男孩》已經續訂第二季，這是漫威在Disney+平台上獲得續訂的少數幾個項目之一。雖然原文內容簡短，但這個消息對於漫威粉絲來說是好消息。續訂第二季意味著《神奇男孩》劇組將繼續為觀眾帶來更多精彩的故事和角色。這也表明Disney+對於漫威內容的重視程度。然而，續訂第二季的具體時間表和內容仍待官方公布。",
+        "sentiment": "正面",
         "is_breaking": false
       },
       {
-        "id": "b844a8d3",
-        "title": "習近平道德打壓的新目標：全球葡萄酒業",
-        "url": "https://www.wsj.com/world/china/xi-jinpings-morality-crackdown-has-a-new-victim-the-global-wine-trade-f030b778",
-        "source": "Wsj",
+        "id": "de158be6",
+        "title": "四名防守球員下場，參議員以歷史最少射門數擊敗藍衫軍",
+        "url": "https://www.usnews.com/news/sports/articles/2026-03-24/down-to-4-defensemen-senators-hold-the-rangers-to-the-fewest-shots-by-an-nhl-team-since-2003",
+        "source": "Usnews",
         "category": "global",
-        "published_at": "2026-03-24 03:00:00",
-        "summary_zh": "習近平政府對中國的道德打壓，對全球葡萄酒業產生了重大影響。中國的消費需求下降，導致法國的波爾多葡萄園到澳洲的葡萄園都開始砍掉葡萄藤，許多葡萄被棄置在田裡。這種情況不僅影響了葡萄酒生產商的收入，也對全球葡萄酒市場造成了波及效應。中國的消費需求下降是由於習近平政府對葡萄酒的消費進行了道德打壓，認為葡萄酒是「奢侈品」。這種打壓措施導致了中國的葡萄酒消費量大幅下降，從而影響了全球葡萄酒產業。",
-        "sentiment": "負面",
-        "is_breaking": true
+        "published_at": "2026-03-24 03:51:55",
+        "summary_zh": "參議員隊在昨晚的比賽中，以2比1的比數擊敗藍衫軍隊，創下自2003年以來，對手射門數最少的一次。這場勝利來自於參議員隊的堅固防守，儘管隊內還有兩名球員因傷退出比賽。參議員隊的防守球員在昨晚的比賽中表現出色，成功限制藍衫軍隊的進攻機會，創下九次射門的新低。這場勝利對參議員隊來說是一個重要的勝利，證明了他們的團隊精神和堅韌不拔的意志。然而，這場勝利也使參議員隊的傷病問題更加嚴重，隊內的傷病人數已經達到四人。參議員隊將需要儘快恢復傷病球員的健康狀態，以便能夠繼續爭取聯賽冠軍的機會。",
+        "sentiment": "正面",
+        "is_breaking": false
       }
     ],
     "finance": [
       {
-        "id": "3d98aa3b",
-        "title": "紐約三十年來首次出現如此少的房屋出售數量",
-        "url": "https://nypost.com/2026/03/23/real-estate/new-york-hasnt-had-this-few-homes-for-sale-in-at-least-30-years/",
-        "source": "New York Post",
+        "id": "148690ff",
+        "title": "B&M推出£6的鳥舍裝飾，吸引美麗的鳥類到庭院",
+        "url": "https://www.mirror.co.uk/lifestyle/how-to-attract-birds-garden-36903769",
+        "source": "Mirror",
         "category": "finance",
-        "published_at": "2026-03-24 02:58:03",
-        "summary_zh": "紐約州二月份房屋出售數量創下新低，僅有22,366個房屋出售。根據紐約房地產經紀人協會的數據，自1997年開始追蹤房屋出售數量以來，這是首次出現如此少的房屋出售數量。這種情況可能與房屋供求不平衡、房屋價格上漲等因素有關。房屋出售數量的下降可能對房地產市場產生重大影響，買家和賣家都需要注意。未來房地產市場的走向將取決於多種因素，包括經濟情況、政策變化和房屋供求情況。",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "33b2f32e",
-        "title": "阿波羅集團宣布在全球領先玻璃製造商NSG集團進行戰略投資",
-        "url": "https://www.globenewswire.com/news-release/2026/03/24/3260933/0/en/Apollo-Funds-Announce-Strategic-Investment-in-NSG-Group-a-Global-Leader-in-Glass-Manufacturing.html",
-        "source": "Globe Newswire",
-        "category": "finance",
-        "published_at": "2026-03-24 02:45:00",
-        "summary_zh": "阿波羅集團（Apollo）近日宣布，其旗下基金（Apollo Funds）已與日本玻璃製造商日本紙器玻璃公司（NSG）達成最終協議，將進行一系列交易以收購NSG。這項交易將是阿波羅集團在日本的最大私募股權投資，總額達到約3.7億美元（約590億日元）。NSG是全球領先的玻璃製造商，業務涵蓋建築、汽車和太陽能玻璃領域。這項投資將為NSG帶來新的發展機會，並加強其全球競爭力。",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "13bdf26f",
-        "title": "AWS 將在印度建設 2-3 兆瓦級數據中心",
-        "url": "https://uk.investing.com/news/stock-market-news/aws-targets-23-gigawatts-india-data-centre-capacity-et-reports-4573306",
-        "source": "Investing Uk",
-        "category": "finance",
-        "published_at": "2026-03-24 02:40:08",
-        "summary_zh": "美國雲端服務巨頭亞馬遜網路服務公司（AWS）正在印度建設 2-3 兆瓦級數據中心。根據經濟時報（ET）的報導，AWS 的這一計畫將為印度的數據中心市場帶來新的競爭力。印度政府正在積極推動數據中心建設，以滿足國內快速增長的數據需求。AWS 的計畫將在印度的數據中心市場中佔有一席之地。這一發展將對印度的數據中心市場產生重大影響，同時也將為AWS 在印度的業務提供新的發展機會。AWS 的計畫將在未來的幾年中逐步實施。",
+        "published_at": "2026-03-24 03:59:00",
+        "summary_zh": "英國百貨公司B&M推出一款鳥舍裝飾，售價僅£6，據稱能夠吸引鳥類到庭院。這款裝飾的設計理念是為了讓鳥類有舒適的棲息地，同時也能夠觀賞鳥類的美麗景象。鳥舍裝飾的尺寸適合庭院大小不同，讓顧客能夠選擇合適的尺寸。這款裝飾不僅能夠吸引鳥類，也能夠增加庭院的自然美感。鳥舍裝飾的推出，讓顧客有更多選擇來吸引鳥類到庭院，同時也能夠欣賞鳥類的美麗景象。",
         "sentiment": "中性",
         "is_breaking": false
       }
     ],
     "stock_tw": [
+      {
+        "id": "f2dd6c29",
+        "title": "台股投資向下紮根：兒童平均6歲開戶，家長用0050幫孩子存未來",
+        "url": "https://udn.com/news/story/7239/9399296",
+        "source": "Udnnewsindex",
+        "category": "stock_tw",
+        "published_at": "2026-03-24 03:45:14",
+        "summary_zh": "近年來，台股交易熱絡，帶動兒童理財投資市場快速成長。根據元大證券最新統計，2025年12歲以下兒童開戶數年增率達到3成，且開戶年齡持續下探，平均開戶年齡僅6歲。這反映了家長的理財規劃更加積極和前瞻。家長們透過投資台股的基金，例如0050，為孩子們的未來儲備財富，讓他們早早地開始學習投資理財的重要性。這項趨勢表明，家長們正在為孩子們的未來做好準備，同時也鼓勵孩子們從小就開始學習投資理財的概念。然而，這也引發了對於孩子們投資知識和管理能力的擔憂。",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "8486d9fa",
+        "title": "想不到吧!基富通:Z世代高達84%採定期定額投資",
+        "url": "https://udn.com/news/story/7239/9399265",
+        "source": "Udnnewsindex",
+        "category": "stock_tw",
+        "published_at": "2026-03-24 03:36:53",
+        "summary_zh": "近年來,許多人以為新世代投資理財就是勇猛衝進衝出,但實際情況可能顛覆大家的刻板印象。根據基富通證券的統計,平台上的Z世代(30歲以下)族群中,高達84%採取定期定額投資,僅56%有單筆投入。這顯示新世代投資人更加重視長期投資和風險管理。這種投資風格可能是由於新世代對未來的不確定性和投資教育的增多所致。基富通的數據也表明,新世代投資人更加注重投資的規劃和管理,這可能是未來投資市場的新趨勢。",
+        "sentiment": "中性",
+        "is_breaking": false
+      },
+      {
+        "id": "af293b12",
+        "title": "日股早盤大漲後拉回!日本商社具能源護城河遭錯殺 回頭載客別忘上車",
+        "url": "https://udn.com/news/story/7239/9399247",
+        "source": "Udnnewsindex",
+        "category": "stock_tw",
+        "published_at": "2026-03-24 03:29:28",
+        "summary_zh": "受美伊衝突影響,國際油價近期大幅震盪,一度衝破每桶100美元大關,引發全球股市劇烈波動。美國總統川普23日宣布延後對伊朗電力設施的軍事打擊,亞股今日普遍反彈,日股早盤一度漲逾千點,惟漲幅收斂。日本商社因能源護城河遭錯殺,股價大幅下挫。這次美伊衝突的波及效應,讓全球股市面臨著不確定性,投資者應該保持警醒,不斷監控市場動態,以避免錯殺。",
+        "sentiment": "中性",
+        "is_breaking": true
+      },
+      {
+        "id": "189716a5",
+        "title": "台積電ADR市值超越沙烏地阿美 重登全球第6",
+        "url": "https://udn.com/news/story/7240/9398997",
+        "source": "Udnnewsindex",
+        "category": "stock_tw",
+        "published_at": "2026-03-24 03:25:31",
+        "summary_zh": "台積電美國存託憑證(ADR)近日止跌回升,上揚9.21美元,市值達1.75兆美元,超越世界最大石油出口商沙烏地阿拉伯國營石油公司沙烏地阿美(SaudiAramco)的1.74兆美元。這一突破使得台積電重登全球第六大公司的行列。台積電的市值增長是由於其在全球半導體市場的領導地位,以及其業務的持續擴張。然而,市場分析師也提醒,台積電的市值增長也帶來了新的挑戰,包括資本市場的壓力和業務的競爭壓力。",
+        "sentiment": "正面",
+        "is_breaking": true
+      },
+      {
+        "id": "47d482a5",
+        "title": "基富通: Z世代 84%採取定期定額 長期紀律投資基金",
+        "url": "https://udn.com/news/story/7239/9399200",
+        "source": "Udnnewsindex",
+        "category": "stock_tw",
+        "published_at": "2026-03-24 03:25:01",
+        "summary_zh": "近年來,許多人以為新世代投資理財就是衝進衝出,但實際情況可能與大家的刻板印象有所不同。根據基富通證券的統計,平台上的Z世代(30歲以下)族群中,高達84%採取定期定額,顯示新世代投資人更加重視長期紀律投資,理財觀念逐漸成熟。這一趨勢表明,新世代投資人開始注重投資的長期收益,而不是短期的風險。這一變化可能是由於新世代投資人對投資理財的認知度提高,以及對市場的了解更加深入。基富通的統計數據也顯示,新世代投資人更加注重投資的風險管理,並且願意承擔較低的投資風險,以獲得穩定的投資收益。這一趨勢可能會對投資市場產生重大影響,並可能推動投資理財的發展方向。",
+        "sentiment": "正面",
+        "is_breaking": false
+      },
+      {
+        "id": "9e5cebda",
+        "title": "聯準會點陣圖驚現「微妙偏鷹」 法人警示:中東情勢、能源危機未除",
+        "url": "https://udn.com/news/story/7238/9399195",
+        "source": "Udnnewsindex",
+        "category": "stock_tw",
+        "published_at": "2026-03-24 03:15:07",
+        "summary_zh": "美國聯準會近期釋出偏鷹派言論,影響市場對於降息預期,債市因此出現漲跌互見。分析人士表示,聯準會如預期保持穩定,點陣圖出現微妙偏鷹派轉變,這意味著市場可能需要更多時間才能看到降息的機會。另一方面,中東局勢仍未解決,能源供應的穩定程度成為市場氛圍的關鍵因子。能源危機可能會對全球經濟造成重大影響,因此市場需要密切關注這一問題。目前,市場對於聯準會的下一步行動仍然充滿了不確定性,投資者需要保持謹慎的態度。",
+        "sentiment": "中性",
+        "is_breaking": true
+      },
       {
         "id": "43bea8e6",
         "title": "賴總統突拋「重啟核電」事前有充分討論",
@@ -851,72 +950,6 @@
         "summary_zh": "位於台中市中區的預售新案「九上·州廳」,其基地前身為1938年由石津坂一醫師創立的醫宅,這座建築的基因承襲了百年前的文化遺產。九上建設將這座地標重建為一座現代化的豪宅,融合了傳統和現代元素,展現出獨特的風格。這座豪宅將成為中區的一個新地標,不僅僅是一座建築,而是一段文化的延續。",
         "sentiment": "中性",
         "is_breaking": false
-      },
-      {
-        "id": "c7f686bb",
-        "title": "屏東黑鮪魚季「第一鮪」辦法調整 新增去鰓及起鉤錄影",
-        "url": "https://udn.com/news/story/7241/9398817",
-        "source": "Udnnewsindex",
-        "category": "stock_tw",
-        "published_at": "2026-03-24 00:57:58",
-        "summary_zh": "屏東縣政府近日公告今年黑鮪魚文化觀光季的條件及辦法，為配合漁業署推動「海上去鰓」政策，今年的「屏東第一鮪」認定標準進行了調整，新增了去鰓和活魚起鉤錄影的條件。東港區魚市場將會負責進行鰓檢查和起鉤錄影，讓觀光客可以更好地體驗黑鮪魚的捕撈過程。這項政策的推動，預計將會對屏東的觀光業帶來新的機會和發展空間。",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "3f3f5e3f",
-        "title": "選股為先 利率持平下的震盪市況中找機會",
-        "url": "https://udn.com/news/story/7239/9398814",
-        "source": "Udnnewsindex",
-        "category": "stock_tw",
-        "published_at": "2026-03-24 00:55:33",
-        "summary_zh": "在台股市場中,聯邦投信分析指出,中東地緣政治風險升溫導致油價上漲,使市場波動加劇,資金操作趨於保守,整體盤勢呈現「指數震盪、結構分化」格局。這種情況下,權值股的動能相對受限,但具備定價能力的原物料族群表現較為穩定。投資者可以在這種震盪市況中,選擇具備穩定性和定價能力的股票,並且關注原物料族群的表現,以尋找投資機會。",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "4ec8189d",
-        "title": "貝萊德集團董事長Larry Fink 發布2026年年度信函",
-        "url": "https://udn.com/news/story/7239/9398811",
-        "source": "Udnnewsindex",
-        "category": "stock_tw",
-        "published_at": "2026-03-24 00:55:03",
-        "summary_zh": "貝萊德集團董事長勞倫斯·芬克(Larry Fink)於3月23日發布2026年致全球投資人的年度信函,題為《與國家共同成長:一位長期樂觀主義者的觀點》。這封信函每年都反映了勞倫斯·芬克過去一年對投資市場的看法和預測。今年的信函中,芬克強調了投資者應該與國家共同成長,並提出了對未來市場趨勢的分析。根據芬克的看法,全球經濟將繼續面臨挑戰,但也會有新的機會和投資機會。芬克還提到了對中國經濟的看法,認為中國將繼續在全球經濟中發揮重要作用。這封信函對投資者提供了對未來市場趨勢的深入分析和預測,對投資者有重要的參考價值。",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "ab315702",
-        "title": "台股ETF連8周創新高受益人數達1,734,454人",
-        "url": "https://udn.com/news/story/7239/9398749",
-        "source": "Udnnewsindex",
-        "category": "stock_tw",
-        "published_at": "2026-03-24 00:08:03",
-        "summary_zh": "根據集保戶股權分散3月20日最新統計資料顯示,無論大盤如何震盪,83檔台股ETF的受益人數持續增加,上周新增153,851人,總人數來到13,907,994人,創下連續八周的新高。今年來,台股ETF的受益人數已經增加了1,734,454人。這表明越來越多投資者開始關注台股ETF的投資潛力,並且願意承擔風險來追求收益。然而,在市場波動的背景下,投資者也需要保持警覺,並且謹慎評估風險,以避免投資失誤。",
-        "sentiment": "正面",
-        "is_breaking": false
-      },
-      {
-        "id": "35651870",
-        "title": "WBS Power 推進 3.2 GW 能源基礎設施以支持超大規模數據中心園區",
-        "url": "https://www.prnewswire.com/apac/zh/news-releases/wbs-power--3-2-gw--302721543.html",
-        "source": "Pr Newswire Apac",
-        "category": "stock_tw",
-        "published_at": "2026-03-24 00:00:00",
-        "summary_zh": "波蘭托馬舒夫馬佐維耶茨基近日宣布，波蘭北部波美拉尼亞地區霍切沃市的盧布萊沃將開發全新的超大規模數據中心園區，目標容量為 3.2 GW。這個名為 Baltic Data Center Campus 的項目由 WBS Power S.A. 負責開發，公司已成功取得整個 3.2 GW 容量的電網連接條件。該項目將是波蘭同類項目中最大的一個，規模亦可謂在歐洲數一數二。 WBS Power 行政總裁 Maciej Marcjanik 表示，這將是公司進軍超大規模數據中心領域的一大步驟，將自身定位為人工智能 (AI) 和雲計算領域的重要參與者。該項目的開發將對當地經濟產生重大影響，創造大量就業機會和投資機會。然而，該項目的環境影響和能源效率也值得關注。 WBS Power 的這一舉措將對波蘭的數據中心業界帶來新的競爭力和發展機會。",
-        "sentiment": "中性",
-        "is_breaking": false
-      },
-      {
-        "id": "28c7e00e",
-        "title": "台指期夜盤大漲1,059點 台積電收漲55點",
-        "url": "https://udn.com/news/story/7239/9398720",
-        "source": "Udnnewsindex",
-        "category": "stock_tw",
-        "published_at": "2026-03-23 23:40:54",
-        "summary_zh": "台指期在24日清晨五點收盤的盤後交易行情中大漲1,059點，收在33,618點，漲幅達3.25%。台積電(2330)期貨近月合約也上漲55點，收在1,865點，漲幅為3.04%。這種大幅上漲的原因是美國總統川普宣布將對中國加徵關稅，這使得投資者對於台積電等科技股的投資意欲增加。台積電是全球最大的晶圓製造商之一，對於全球半導體業的影響非常大。這次的上漲不僅對於台積電股價有利，也對於整個科技股市有著重要的影響。然而，投資者也需要注意到市場的波動性，避免過度投資。",
-        "sentiment": "正面",
-        "is_breaking": true
       }
     ],
     "stock_us": [
@@ -1014,103 +1047,103 @@
   "daily_digest": {
     "key_themes": [
       {
-        "title": "全球政治與經濟",
-        "summary": "今日新聞中，全球政治與經濟的議題佔據重要位置，包括白宮的賀詞、蘋果的年度開發者會議、以色列北部居民的抗爭、習近平政府的道德打壓等。這些事件反映了全球政治與經濟的複雜性和多變性。"
+        "title": "全球政治與衝突",
+        "summary": "白宮發表賀詞紀念帕特里克·亨利演說250週年，歐洲領袖呼籲社交媒體平台設置最低使用年齡，中東戰爭持續，美國和伊朗之間的緊張關係升高。"
       },
       {
         "title": "科技與創新",
-        "summary": "科技與創新的進步是今日新聞中的另一個重要主題，包括人工智慧的應用、機器人AI的發展、AWS在印度的數據中心建設等。這些事件展示了科技與創新的迅速發展和其對社會的影響。"
+        "summary": "蘋果宣布WWDC 2026將於6月8日舉辦，展示人工智慧和軟體的進展，台積電ADR市值超越沙烏地阿美，重登全球第六大公司的行列。"
       },
       {
-        "title": "財經市場",
-        "summary": "財經市場的變動也是今日新聞中的重要組成部分，包括紐約房屋出售數量的下降、阿波羅集團的戰略投資、台股ETF的受益人數增加等。這些事件反映了財經市場的波動性和投資者的關注點。"
+        "title": "財經與投資",
+        "summary": "台股投資向下紮根，兒童平均6歲開戶，家長用0050幫孩子存未來，基富通統計顯示Z世代84%採取定期定額投資，聯準會點陣圖出現微妙偏鷹，市場氛圍關鍵因子是中東局勢和能源供應的穩定程度。"
       }
     ],
     "timeline": [
       {
-        "time": "250年前",
-        "event": "帕特里克·亨利的演說",
-        "impact": "美國獨立運動的象徵",
-        "category": "歷史"
-      },
-      {
         "time": "2026年6月8日",
-        "event": "蘋果的年度開發者會議",
-        "impact": "推出更多的Apple Intelligence功能",
-        "category": "科技"
+        "event": "蘋果WWDC 2026",
+        "impact": "展示人工智慧和軟體的進展",
+        "category": "科技與創新"
       },
       {
-        "time": "近期",
-        "event": "以色列北部居民的抗爭",
-        "impact": "居民的安全成為軍方的關鍵考慮",
-        "category": "全球政治"
-      },
-      {
-        "time": "2024年",
-        "event": "機器人AI的快速發展",
-        "impact": "重新定義我們的生活和工作方式",
-        "category": "科技"
+        "time": "2025年12月",
+        "event": "兒童開戶數年增率達到3成",
+        "impact": "兒童平均6歲開戶，家長用0050幫孩子存未來",
+        "category": "財經與投資"
       },
       {
         "time": "2026年",
-        "event": "習近平政府的道德打壓",
-        "impact": "對全球葡萄酒業產生重大影響",
-        "category": "全球政治"
-      },
-      {
-        "time": "1997年",
-        "event": "紐約房屋出售數量的追蹤",
-        "impact": "首次出現如此少的房屋出售數量",
-        "category": "財經"
+        "event": "中東戰爭持續",
+        "impact": "美國和伊朗之間的緊張關係升高",
+        "category": "全球政治與衝突"
       },
       {
         "time": "2026年",
-        "event": "阿波羅集團的戰略投資",
-        "impact": "在日本的最大私募股權投資",
-        "category": "財經"
+        "event": "白宮發表賀詞",
+        "impact": "紀念帕特里克·亨利演說250週年",
+        "category": "全球政治與衝突"
       },
       {
-        "time": "近期",
-        "event": "AWS在印度的數據中心建設",
-        "impact": "為印度的數據中心市場帶來新的競爭力",
-        "category": "科技"
+        "time": "2026年",
+        "event": "歐洲領袖呼籲社交媒體平台設置最低使用年齡",
+        "impact": "限制未成年人使用社交媒體",
+        "category": "全球政治與衝突"
+      },
+      {
+        "time": "2026年",
+        "event": "台積電ADR市值超越沙烏地阿美",
+        "impact": "重登全球第六大公司的行列",
+        "category": "財經與投資"
+      },
+      {
+        "time": "2026年",
+        "event": "基富通統計顯示Z世代84%採取定期定額投資",
+        "impact": "長期紀律投資基金",
+        "category": "財經與投資"
+      },
+      {
+        "time": "2026年",
+        "event": "聯準會點陣圖出現微妙偏鷹",
+        "impact": "市場氛圍關鍵因子是中東局勢和能源供應的穩定程度",
+        "category": "財經與投資"
       }
     ],
     "watch_next": [
       {
-        "topic": "全球政治與經濟的發展",
-        "reason": "了解全球政治與經濟的變化對於投資和商業決策的重要性"
+        "topic": "中東戰爭的發展",
+        "reason": "美國和伊朗之間的緊張關係升高，可能會對全球政治和經濟產生重大影響。"
       },
       {
-        "topic": "科技與創新的進步",
-        "reason": "科技與創新的迅速發展對於各個行業和社會的影響"
+        "topic": "科技創新的進展",
+        "reason": "蘋果WWDC 2026和台積電ADR市值超越沙烏地阿美，可能會對科技業和全球經濟產生重大影響。"
       },
       {
-        "topic": "財經市場的波動",
-        "reason": "財經市場的變動對於投資者和企業的影響"
+        "topic": "財經市場的變化",
+        "reason": "基富通統計顯示Z世代84%採取定期定額投資，聯準會點陣圖出現微妙偏鷹，可能會對財經市場產生重大影響。"
       }
     ],
     "cross_links": [
       {
         "themes": [
-          "全球政治與經濟",
+          "全球政治與衝突",
           "科技與創新"
         ],
-        "explanation": "全球政治與經濟的變化對於科技與創新的進步有著重要的影響，例如政府的政策和投資可以推動科技的發展"
+        "explanation": "中東戰爭的發展可能會對科技業和全球經濟產生重大影響，例如影響能源供應和全球供應鏈。"
       },
       {
         "themes": [
-          "財經市場",
+          "財經與投資",
           "科技與創新"
         ],
-        "explanation": "財經市場的波動可以影響科技企業的發展和投資，同時科技的進步也可以推動財經市場的成長"
+        "explanation": "科技創新的進展可能會對財經市場產生重大影響，例如影響投資機會和風險。"
       },
       {
         "themes": [
-          "全球政治與經濟",
-          "財經市場"
+          "全球政治與衝突",
+          "財經與投資"
         ],
-        "explanation": "全球政治與經濟的變化可以對財經市場產生重大影響，例如貿易戰和經濟制裁可以影響市場的波動"
+        "explanation": "中東戰爭的發展可能會對財經市場產生重大影響，例如影響能源價格和全球經濟。"
       }
     ]
   }
