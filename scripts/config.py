@@ -88,7 +88,7 @@ RSS_SOURCES = [
 NEWSDATA_SOURCES = [
     {
         "category": "ai",
-        "params": {"q": "AI OR artificial intelligence", "language": "en", "domain": "cnn.com,bbc.com,reuters.com,theverge.com,wired.com"},
+        "params": {"q": "AI OR artificial intelligence", "language": "en", "domain": "techcrunch.com,theverge.com,wired.com,arstechnica.com,venturebeat.com"},
     },
     {
         "category": "whitehouse",
