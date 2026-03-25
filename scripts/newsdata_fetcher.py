@@ -32,7 +32,8 @@ def _fetch_category(source: dict) -> list[RawArticle]:
     except requests.HTTPError as e:
         if resp.status_code == 422 and "domainurl" in params:
             dropped = params.pop("domainurl")
-            print(f"[NewsData] {source['category']} domainurl 不支援（{dropped}），改為不限來源重試")
+            params["prioritydomain"] = "top"
+            print(f"[NewsData] {source['category']} domainurl 不支援（{dropped}），改為 prioritydomain=top 重試")
             try:
                 resp = requests.get(NEWSDATA_API_URL, params=params, timeout=30)
                 resp.raise_for_status()
