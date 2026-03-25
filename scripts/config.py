@@ -11,7 +11,7 @@ NEWSDATA_API_KEY = os.environ.get("NEWSDATA_API_KEY", "")
 
 # === 抓取設定 ===
 FETCH_INTERVAL_HOURS = 2
-MAX_ARTICLES_PER_SOURCE = 8
+MAX_ARTICLES_PER_SOURCE = 15
 
 # === 重大新聞觸發條件 ===
 BREAKING_CHANGE_PCT = 3.0        # 大盤漲跌幅閾值（%）
@@ -82,6 +82,18 @@ RSS_SOURCES = [
     {"name": "The Hill",           "url": "https://thehill.com/feed/",                          "category": "whitehouse"},
     {"name": "Guardian US",        "url": "https://www.theguardian.com/us-news/rss",            "category": "whitehouse"},
 
+    # --- AI & 科技 ---
+    {"name": "The Verge AI",       "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "category": "ai"},
+    {"name": "MIT Tech Review",    "url": "https://www.technologyreview.com/feed/",             "category": "ai"},
+    {"name": "Wired AI",           "url": "https://www.wired.com/feed/tag/ai/latest/rss",       "category": "ai"},
+    {"name": "VentureBeat",        "url": "https://venturebeat.com/feed/",                      "category": "ai"},
+    {"name": "Import AI",          "url": "https://importai.substack.com/feed",                 "category": "ai"},
+    {"name": "The Gradient",       "url": "https://thegradient.pub/rss/",                       "category": "ai"},
+    {"name": "Bloomberg Tech",     "url": "https://feeds.bloomberg.com/technology/news.rss",    "category": "ai"},
+    {"name": "FT Tech",            "url": "https://www.ft.com/technology?format=rss",           "category": "ai"},
+    {"name": "Politico Tech",      "url": "https://rss.politico.com/technology.xml",            "category": "ai"},
+    {"name": "Rest of World",      "url": "https://restofworld.org/feed/",                      "category": "ai"},
+
     # --- 台股財經 ---
     {"name": "中央社財經",          "url": "https://feeds.feedburner.com/rsscna/finance",        "category": "stock_tw"},
     {"name": "經濟日報",            "url": "https://money.udn.com/rssfeed/news/1001/rss2.xml",  "category": "stock_tw"},
@@ -92,10 +104,6 @@ RSS_SOURCES = [
 # === NewsData.io 來源（僅保留 domainurl 正常運作的分類）===
 # 其餘分類已改用直接 RSS 取得權威來源
 NEWSDATA_SOURCES = [
-    {
-        "category": "ai",
-        "params": {"q": "AI OR artificial intelligence", "language": "en", "domainurl": "techcrunch.com,theverge.com,wired.com,arstechnica.com,venturebeat.com"},
-    },
     {
         "category": "finance",
         "params": {"language": "en", "category": "business", "domainurl": "cnbc.com,reuters.com,bloomberg.com,ft.com,wsj.com"},
