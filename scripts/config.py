@@ -83,36 +83,36 @@ RSS_SOURCES = [
     {"name": "White House News",  "url": "https://www.whitehouse.gov/news/feed/",                "category": "whitehouse"},
 ]
 
-# === NewsData.io 來源（商用授權，明確指定一線媒體 domain）===
-# 免費版每次最多 5 個 domain，格式: "cnn.com,bbc.com"
+# === NewsData.io 來源（商用授權，明確指定一線媒體 domainurl）===
+# 免費版每次最多 5 個 domainurl，格式: "cnn.com,bbc.com"
 NEWSDATA_SOURCES = [
     {
         "category": "ai",
-        "params": {"q": "AI OR artificial intelligence", "language": "en", "domain": "techcrunch.com,theverge.com,wired.com,arstechnica.com,venturebeat.com"},
+        "params": {"q": "AI OR artificial intelligence", "language": "en", "domainurl": "techcrunch.com,theverge.com,wired.com,arstechnica.com,venturebeat.com"},
     },
     {
         "category": "whitehouse",
-        "params": {"q": "White House OR president", "language": "en", "domain": "cnn.com,bbc.com,reuters.com,apnews.com,nytimes.com"},
+        "params": {"q": "White House OR president", "language": "en", "domainurl": "cnn.com,bbc.com,reuters.com,apnews.com,nytimes.com"},
     },
     {
         "category": "trump",
-        "params": {"q": "Trump", "language": "en", "domain": "cnn.com,bbc.com,reuters.com,theguardian.com,apnews.com"},
+        "params": {"q": "Trump", "language": "en", "domainurl": "cnn.com,bbc.com,reuters.com,theguardian.com,apnews.com"},
     },
     {
         "category": "global",
-        "params": {"language": "en", "category": "world", "domain": "cnn.com,bbc.com,reuters.com,aljazeera.com,theguardian.com"},
+        "params": {"language": "en", "category": "world", "domainurl": "cnn.com,bbc.com,reuters.com,aljazeera.com,theguardian.com"},
     },
     {
         "category": "finance",
-        "params": {"language": "en", "category": "business", "domain": "cnbc.com,reuters.com,bloomberg.com,ft.com,wsj.com"},
+        "params": {"language": "en", "category": "business", "domainurl": "cnbc.com,reuters.com,bloomberg.com,ft.com,wsj.com"},
     },
     {
         "category": "stock_tw",
-        "params": {"q": "股市 OR 台股 OR 台積電", "country": "tw", "language": "zh", "domain": "udn.com,ltn.com.tw,ctee.com.tw,chinatimes.com,cna.com.tw"},
+        "params": {"q": "股市 OR 台股 OR 台積電", "country": "tw", "language": "zh", "domainurl": "udn.com,ltn.com.tw,ctee.com.tw,chinatimes.com,cna.com.tw"},
     },
     {
         "category": "stock_us",
-        "params": {"q": "stock OR market OR Wall Street", "language": "en", "domain": "cnbc.com,reuters.com,bloomberg.com,marketwatch.com,wsj.com"},
+        "params": {"q": "stock OR market OR Wall Street", "language": "en", "domainurl": "cnbc.com,reuters.com,bloomberg.com,marketwatch.com,wsj.com"},
     },
 ]
 
