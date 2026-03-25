@@ -69,7 +69,7 @@ INDICATOR_THRESHOLDS = {
 # === 新聞保留時間 ===
 MAX_AGE_HOURS = 24
 
-# === RSS 來源（僅保留公共領域 & 非新聞內容）===
+# === RSS 來源 ===
 RSS_SOURCES = [
     # Google Trends 每日熱門搜尋
     {"name": "Google Trends 台灣", "url": "https://trends.google.com.tw/trending/rss?geo=TW",            "category": "trends"},
@@ -79,36 +79,36 @@ RSS_SOURCES = [
     {"name": "Google Trends 台灣 7天", "url": "https://trends.google.com.tw/trending/rss?geo=TW&hours=168", "category": "trends_weekly"},
     {"name": "Google Trends 日本 7天", "url": "https://trends.google.com/trending/rss?geo=JP&hours=168",    "category": "trends_weekly"},
     {"name": "Google Trends 美國 7天", "url": "https://trends.google.com/trending/rss?geo=US&hours=168",    "category": "trends_weekly"},
-    # 白宮（美國政府公共領域）
-    {"name": "White House News",  "url": "https://www.whitehouse.gov/news/feed/",                "category": "whitehouse"},
+
+    # --- 國際新聞（權威一線媒體 RSS）---
+    {"name": "BBC World",          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",        "category": "global"},
+    {"name": "CNN International",  "url": "http://rss.cnn.com/rss/edition.rss",                 "category": "global"},
+    {"name": "Guardian World",     "url": "https://www.theguardian.com/world/rss",              "category": "global"},
+    {"name": "Al Jazeera",         "url": "https://aljazeera.com/xml/rss/all.xml",              "category": "global"},
+
+    # --- 美國政治 ---
+    {"name": "White House News",   "url": "https://www.whitehouse.gov/news/feed/",              "category": "whitehouse"},
+    {"name": "CNN Politics",       "url": "http://rss.cnn.com/rss/cnn_allpolitics.rss",        "category": "whitehouse"},
+    {"name": "Guardian US",        "url": "https://www.theguardian.com/us-news/rss",            "category": "whitehouse"},
+    {"name": "BBC Asia",           "url": "https://feeds.bbci.co.uk/news/world/asia/rss.xml",   "category": "global"},
+
+    # --- 台股財經 ---
+    {"name": "中央社財經",          "url": "https://feeds.feedburner.com/rsscna/finance",        "category": "stock_tw"},
+    {"name": "經濟日報",            "url": "https://money.udn.com/rssfeed/news/1001/rss2.xml",  "category": "stock_tw"},
+    {"name": "自由時報財經",        "url": "https://news.ltn.com.tw/rss/business.xml",           "category": "stock_tw"},
+    {"name": "Yahoo 台股",         "url": "https://tw.stock.yahoo.com/rss?category=tw-market",  "category": "stock_tw"},
 ]
 
-# === NewsData.io 來源（商用授權，明確指定一線媒體 domainurl）===
-# 免費版每次最多 5 個 domainurl，格式: "cnn.com,bbc.com"
+# === NewsData.io 來源（僅保留 domainurl 正常運作的分類）===
+# 其餘分類已改用直接 RSS 取得權威來源
 NEWSDATA_SOURCES = [
     {
         "category": "ai",
         "params": {"q": "AI OR artificial intelligence", "language": "en", "domainurl": "techcrunch.com,theverge.com,wired.com,arstechnica.com,venturebeat.com"},
     },
     {
-        "category": "whitehouse",
-        "params": {"q": "White House OR president", "language": "en", "domainurl": "cnn.com,bbc.com,reuters.com,apnews.com,nytimes.com"},
-    },
-    {
-        "category": "trump",
-        "params": {"q": "Trump", "language": "en", "domainurl": "cnn.com,bbc.com,reuters.com,theguardian.com,apnews.com"},
-    },
-    {
-        "category": "global",
-        "params": {"language": "en", "category": "world", "domainurl": "cnn.com,bbc.com,reuters.com,aljazeera.com,theguardian.com"},
-    },
-    {
         "category": "finance",
         "params": {"language": "en", "category": "business", "domainurl": "cnbc.com,reuters.com,bloomberg.com,ft.com,wsj.com"},
-    },
-    {
-        "category": "stock_tw",
-        "params": {"q": "股市 OR 台股 OR 台積電", "country": "tw", "language": "zh", "domainurl": "udn.com,ltn.com.tw,ctee.com.tw,chinatimes.com,cna.com.tw"},
     },
     {
         "category": "stock_us",
