@@ -105,29 +105,32 @@ def enrich_articles(articles: list, cache: dict) -> list:
 
     for i, a in enumerate(articles):
         cached = cache.get(a["id"])
-        # 快取有效條件：存在、未過期、摘要不等於標題（等於代表上次失敗）
+        # 快取有效條件：存在、未過期、摘要不等於標題、已經過 AI 分類
         if (cached
             and not _is_expired(cached)
-            and cached.get("summary_zh", "") != cached.get("title", "")):
+            and cached.get("summary_zh", "") != cached.get("title", "")
+            and cached.get("ai_classified")):
             a["title"]       = cached["title"]
             a["summary_zh"]  = cached["summary_zh"]
             a["sentiment"]   = cached["sentiment"]
             a["is_breaking"] = cached.get("is_breaking", False)
-            # 快取中有 AI 分類的就沿用
-            if cached.get("category"):
-                a["category"] = cached["category"]
+            a["category"]    = cached["category"]
+            a["ai_classified"] = True
             a.pop("raw_content", None)
             cached_count += 1
         else:
-            # 新文章，呼叫 Groq
-            print(f"  [Groq] 新文章 {new_count+1}: {a['title'][:45]}")
-            result = summarize(a["title"], a.get("raw_content", ""))
+            # 新文章或尚未 AI 分類，呼叫 Groq
+            title_for_groq = cached["title"] if cached and cached.get("summary_zh") else a["title"]
+            content_for_groq = a.get("raw_content", "") or (cached.get("summary_zh", "") if cached else "")
+            print(f"  [Groq] 新文章 {new_count+1}: {title_for_groq[:45]}")
+            result = summarize(title_for_groq, content_for_groq)
             a["title"]       = result["title_zh"]
             a["summary_zh"]  = result["summary"]
             a["sentiment"]   = result["sentiment"]
             # AI 重新分類：覆蓋靜態分類
             if result.get("category"):
                 a["category"] = result["category"]
+            a["ai_classified"] = True
             a["is_breaking"] = _is_breaking(a)
             a.pop("raw_content", None)
             new_count += 1
