@@ -14,12 +14,13 @@ export function escapeHtml(str) {
 }
 
 function formatTime(isoString) {
-    const diff = new Date() - new Date(isoString);
-    const mins = Math.floor(diff / 60000);
-    if (mins < 60) return `發布於 ${mins} 分鐘前`;
-    const hrs = Math.floor(mins / 60);
-    if (hrs < 24) return `發布於 ${hrs} 小時前`;
-    return `發布於 ${Math.floor(hrs / 24)} 天前`;
+    const d = new Date(isoString);
+    if (isNaN(d.getTime())) return '';
+    const mm = String(d.getMonth() + 1).padStart(2, '0');
+    const dd = String(d.getDate()).padStart(2, '0');
+    const hh = String(d.getHours()).padStart(2, '0');
+    const min = String(d.getMinutes()).padStart(2, '0');
+    return `${mm}/${dd} ${hh}:${min}`;
 }
 
 // --- Header & Widgets ---
