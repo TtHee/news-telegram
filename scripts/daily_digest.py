@@ -5,6 +5,7 @@
 import json
 import re
 import time
+from datetime import date
 
 from config import (
     GROQ_DIGEST_TIMEOUT, GROQ_DIGEST_TEMPERATURE, GROQ_DIGEST_MAX_TOKENS,
@@ -12,30 +13,34 @@ from config import (
 )
 from groq_client import chat_completion
 
-DIGEST_SYSTEM_PROMPT = """你是一位資深國際新聞主編。根據今日新聞摘要，產出「今日脈絡」分析。
+DIGEST_SYSTEM_PROMPT = """你是一位資深國際新聞主編。今天是 {today}。
+根據今日新聞摘要，產出「今日脈絡」深度分析。
 
 僅回覆 JSON，不要加任何其他文字，不要用 markdown code block：
-{"key_themes":[{"title":"主題標題","summary":"2-3句說明"}],"timeline":[{"time":"時間點","event":"事件","impact":"影響","category":"分類"}],"watch_next":[{"topic":"關注方向","reason":"原因"}],"cross_links":[{"themes":["主題A","主題B"],"explanation":"如何互相影響"}]}
+{{"key_themes":[{{"title":"主題標題","summary":"背景脈絡 → 關鍵發展 → 潛在影響，4-6句深度分析"}}],"watch_next":[{{"topic":"關注方向","reason":"原因"}}],"cross_links":[{{"themes":["主題A","主題B"],"explanation":"如何互相影響"}}]}}
 
 規則：
-- key_themes：3-5 個今日最重要主題
-- timeline：5-8 個事件，按時間或因果順序排列
+- key_themes：3-5 個今日最重要主題，每個 summary 必須包含「背景脈絡→關鍵發展→潛在影響」三層分析，4-6 句
 - watch_next：2-4 個接下來要關注的方向
 - cross_links：1-3 個跨主題關聯
-- 全部繁體中文，簡潔有力"""
+- 全部繁體中文，深入但簡潔"""
 
 
 def _build_news_context(articles: list) -> str:
-    """將文章清單整理成 prompt 用的文字脈絡。限制長度避免超過 token 上限。"""
-    lines = []
+    """將文章清單整理成 prompt 用的文字脈絡，按 category 分組。"""
+    groups: dict[str, list[str]] = {}
     for i, a in enumerate(articles, 1):
-        cat = a.get("category", "")
+        cat = a.get("category", "其他")
         title = a.get("title", "")
-        # 摘要截斷到 150 字，減少 token 用量
-        summary = (a.get("summary_zh", "") or "")[:150]
+        summary = (a.get("summary_zh", "") or "")[:300]
         sentiment = a.get("sentiment", "中性")
-        lines.append(f"[{i}] {cat}|{sentiment}|{title}|{summary}")
-    return "\n".join(lines)
+        line = f"  [{i}] {sentiment}|{title}|{summary}"
+        groups.setdefault(cat, []).append(line)
+
+    sections = []
+    for cat, lines in groups.items():
+        sections.append(f"【{cat}】\n" + "\n".join(lines))
+    return "\n\n".join(sections)
 
 
 def generate_daily_digest(articles: list) -> dict | None:
@@ -58,7 +63,9 @@ def generate_daily_digest(articles: list) -> dict | None:
         digest_articles = digest_articles[:20]
 
     context = _build_news_context(digest_articles)
-    user_msg = f"今日 {len(digest_articles)} 則新聞：\n{context}"
+    today = date.today().isoformat()
+    system_prompt = DIGEST_SYSTEM_PROMPT.format(today=today)
+    user_msg = f"今日（{today}）{len(digest_articles)} 則新聞：\n{context}"
 
     print(f"[Digest] 送出 {len(digest_articles)} 則新聞給 Groq 分析脈絡...")
 
@@ -67,7 +74,7 @@ def generate_daily_digest(articles: list) -> dict | None:
 
     raw = chat_completion(
         messages=[
-            {"role": "system", "content": DIGEST_SYSTEM_PROMPT},
+            {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_msg},
         ],
         model=GROQ_DIGEST_MODEL,
@@ -83,7 +90,7 @@ def generate_daily_digest(articles: list) -> dict | None:
     result = _parse_digest(raw)
     if result:
         print(f"[Digest] 成功：{len(result.get('key_themes',[]))} 主題, "
-              f"{len(result.get('timeline',[]))} 事件")
+              f"{len(result.get('watch_next',[]))} 觀察方向")
     return result
 
 
@@ -145,14 +152,13 @@ def _parse_digest(raw: str) -> dict | None:
 
 
 def _validate_digest(data: dict) -> bool:
-    """驗證 digest JSON 結構，寬鬆模式：至少有 key_themes 和 timeline。"""
+    """驗證 digest JSON 結構，只要求 key_themes 存在。"""
     if not isinstance(data, dict):
         return False
-    has_themes = "key_themes" in data and isinstance(data["key_themes"], list)
-    has_timeline = "timeline" in data and isinstance(data["timeline"], list)
-    if not (has_themes and has_timeline):
+    if "key_themes" not in data or not isinstance(data["key_themes"], list):
         return False
-    # 補上缺少的欄位
+    # 移除舊欄位、補上缺少的欄位
+    data.pop("timeline", None)
     data.setdefault("watch_next", [])
     data.setdefault("cross_links", [])
     return True

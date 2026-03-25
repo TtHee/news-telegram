@@ -1,12 +1,11 @@
 /**
- * 今日脈絡 — 垂直 Timeline UI + 試用機制
+ * 今日脈絡 — 主題深度分析 + 試用機制
  */
 import { escapeHtml } from './render.js';
 import { supabase } from './supabase.js';
 
 const TRIAL_DAYS = 30;
 const TRIAL_KEY = 'digest_trial_start';
-const VISIBLE_ITEMS = 2; // 未登入/到期用戶可看到的 timeline 項目數
 
 // --- Trial Logic ---
 
@@ -57,30 +56,11 @@ export function renderDigest(container, digest, user) {
         html += '<div class="digest-section">';
         html += '<h3 class="digest-section-title">🎯 重點主題</h3>';
         html += '<div class="digest-themes">';
-        digest.key_themes.forEach(theme => {
-            html += `<div class="digest-theme">
+        digest.key_themes.forEach((theme, i) => {
+            const blurred = !hasAccess && i >= 2;
+            html += `<div class="digest-theme ${blurred ? 'digest-theme-blurred' : ''}">
                 <div class="digest-theme-title">${escapeHtml(theme.title)}</div>
-                <div class="digest-theme-summary">${escapeHtml(theme.summary)}</div>
-            </div>`;
-        });
-        html += '</div></div>';
-    }
-
-    // Timeline
-    if (digest.timeline && digest.timeline.length > 0) {
-        html += '<div class="digest-section">';
-        html += '<h3 class="digest-section-title">⏱ 事件時間軸</h3>';
-        html += '<div class="digest-timeline">';
-        digest.timeline.forEach((item, i) => {
-            const blurred = !hasAccess && i >= VISIBLE_ITEMS;
-            html += `<div class="timeline-item ${blurred ? 'timeline-blurred' : ''}">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <div class="timeline-time">${escapeHtml(item.time)}</div>
-                    <div class="timeline-event">${escapeHtml(item.event)}</div>
-                    <div class="timeline-impact">${escapeHtml(item.impact)}</div>
-                    ${item.category ? `<span class="timeline-cat">${escapeHtml(item.category)}</span>` : ''}
-                </div>
+                <div class="digest-theme-summary">${escapeHtml(theme.summary).replace(/\n/g, '<br>')}</div>
             </div>`;
         });
         html += '</div></div>';
