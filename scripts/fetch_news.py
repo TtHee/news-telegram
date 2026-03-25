@@ -121,6 +121,9 @@ def enrich_articles(articles: list, cache: dict) -> list:
             a["summary_zh"]  = cached["summary_zh"]
             a["sentiment"]   = cached["sentiment"]
             a["is_breaking"] = cached.get("is_breaking", False)
+            # 快取中有 AI 分類的就沿用
+            if cached.get("category"):
+                a["category"] = cached["category"]
             a.pop("raw_content", None)
             cached_count += 1
         else:
@@ -130,10 +133,19 @@ def enrich_articles(articles: list, cache: dict) -> list:
             a["title"]       = result["title_zh"]
             a["summary_zh"]  = result["summary"]
             a["sentiment"]   = result["sentiment"]
+            # AI 重新分類：覆蓋靜態分類
+            if result.get("category"):
+                a["category"] = result["category"]
             a["is_breaking"] = _is_breaking(a)
             a.pop("raw_content", None)
             new_count += 1
             time.sleep(GROQ_RPM_SLEEP)
+
+    # 過濾掉 AI 判定為不相關的文章
+    skip_count = sum(1 for a in articles if a.get("category") == "skip")
+    if skip_count:
+        print(f"[Filter] AI 判定 {skip_count} 則為不相關雜聞，已移除")
+    articles = [a for a in articles if a.get("category") != "skip"]
 
     print(f"[Groq] 新摘要 {new_count} 則，快取命中 {cached_count} 則")
     return articles
