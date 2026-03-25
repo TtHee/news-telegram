@@ -46,7 +46,7 @@ GROQ_RISK_MAX_TOKENS = 200
 GROQ_DIGEST_TIMEOUT = 60        # 今日脈絡請求逾時（秒）
 GROQ_DIGEST_TEMPERATURE = 0.4
 GROQ_DIGEST_MAX_TOKENS = 4000
-GROQ_RPM_SLEEP = 2.5            # Groq 免費版 30 RPM 間隔
+GROQ_RPM_SLEEP = 3.0            # Groq 免費版 30 RPM 間隔（20 RPM 留餘量）
 
 # === 內容處理 ===
 CONTENT_TRUNCATE_LEN = 1500     # 文章內容截斷長度

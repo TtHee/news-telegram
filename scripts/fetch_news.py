@@ -130,7 +130,9 @@ def enrich_articles(articles: list, cache: dict) -> list:
             # AI 重新分類：覆蓋靜態分類
             if result.get("category"):
                 a["category"] = result["category"]
-            a["ai_classified"] = True
+            # 只有成功摘要才標記，失敗的下次會重試
+            if result["summary"] != result["title_zh"]:
+                a["ai_classified"] = True
             a["is_breaking"] = _is_breaking(a)
             a.pop("raw_content", None)
             new_count += 1
@@ -141,6 +143,12 @@ def enrich_articles(articles: list, cache: dict) -> list:
     if skip_count:
         print(f"[Filter] AI 判定 {skip_count} 則為不相關雜聞，已移除")
     articles = [a for a in articles if a.get("category") != "skip"]
+
+    # 過濾掉摘要失敗的文章（summary == title 代表 Groq 失敗）
+    fail_count = sum(1 for a in articles if a.get("summary_zh", "") == a.get("title", ""))
+    if fail_count:
+        print(f"[Filter] {fail_count} 則摘要失敗（未翻譯），已移除，下次會重試")
+    articles = [a for a in articles if a.get("summary_zh", "") != a.get("title", "")]
 
     print(f"[Groq] 新摘要 {new_count} 則，快取命中 {cached_count} 則")
     return articles
