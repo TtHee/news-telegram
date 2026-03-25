@@ -12,7 +12,7 @@ export const CATEGORY_NAMES = {
 };
 
 export async function fetchNewsData() {
-    const response = await fetch('data/news.json');
+    const response = await fetch(`data/news.json?t=${Date.now()}`);
     if (!response.ok) throw new Error('Network response was not ok');
     return response.json();
 }
