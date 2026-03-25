@@ -50,8 +50,7 @@ def generate_daily_digest(articles: list) -> dict | None:
     """
     digest_articles = [
         a for a in articles
-        if a.get("category") not in ("trends", "trends_weekly")
-        and a.get("summary_zh")
+        if a.get("summary_zh")
     ]
 
     if len(digest_articles) < 3:

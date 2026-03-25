@@ -109,69 +109,6 @@ export function renderWidgets(data) {
     aiEl.textContent = data.ai_summary || '暫無 AI 評估';
 }
 
-// --- Google Trends ---
-
-function renderTrendsList(container, items, allNews) {
-    const COUNTRY_CONFIG = [
-        { daily: 'Google Trends 台灣', weekly: 'Google Trends 台灣 7天', label: '🇹🇼 台灣',
-          dailyUrl: 'https://trends.google.com.tw/trending?geo=TW',
-          weeklyUrl: 'https://trends.google.com.tw/trending?geo=TW&hours=168' },
-        { daily: 'Google Trends 日本', weekly: 'Google Trends 日本 7天', label: '🇯🇵 日本',
-          dailyUrl: 'https://trends.google.com/trending?geo=JP',
-          weeklyUrl: 'https://trends.google.com/trending?geo=JP&hours=168' },
-        { daily: 'Google Trends 美國', weekly: 'Google Trends 美國 7天', label: '🇺🇸 美國',
-          dailyUrl: 'https://trends.google.com/trending?geo=US',
-          weeklyUrl: 'https://trends.google.com/trending?geo=US&hours=168' },
-    ];
-
-    const bySource = {};
-    items.forEach(item => {
-        if (!bySource[item.source]) bySource[item.source] = [];
-        bySource[item.source].push(item);
-    });
-
-    const weeklyItems = allNews.filter(n => n.categoryCode === 'trends_weekly');
-    weeklyItems.forEach(item => {
-        if (!bySource[item.source]) bySource[item.source] = [];
-        bySource[item.source].push(item);
-    });
-
-    container.innerHTML = '';
-
-    for (const cfg of COUNTRY_CONFIG) {
-        const dailyList = bySource[cfg.daily] || [];
-        const weeklyList = bySource[cfg.weekly] || [];
-
-        const card = document.createElement('div');
-        card.className = 'news-card trends-card';
-
-        let dailyHtml = dailyList.map((t, i) =>
-            `<li><span class="trend-rank">${i + 1}</span><a href="${escapeHtml(t.url)}" target="_blank" class="trend-link">${escapeHtml(t.title)}</a></li>`
-        ).join('') || '<li class="trend-empty">暫無資料</li>';
-
-        let weeklyHtml = weeklyList.map((t, i) =>
-            `<li><span class="trend-rank">${i + 1}</span><a href="${escapeHtml(t.url)}" target="_blank" class="trend-link">${escapeHtml(t.title)}</a></li>`
-        ).join('') || '<li class="trend-empty">暫無資料</li>';
-
-        card.innerHTML = `
-            <div class="trends-header">
-                <h3 class="card-title">${cfg.label}</h3>
-            </div>
-            <div class="trends-columns">
-                <div class="trends-col">
-                    <div class="trends-col-title">過去 24 小時 <a href="${cfg.dailyUrl}" target="_blank" class="trends-source">↗</a></div>
-                    <ol class="trends-list">${dailyHtml}</ol>
-                </div>
-                <div class="trends-col">
-                    <div class="trends-col-title">過去 7 天 <a href="${cfg.weeklyUrl}" target="_blank" class="trends-source">↗</a></div>
-                    <ol class="trends-list">${weeklyHtml}</ol>
-                </div>
-            </div>
-        `;
-        container.appendChild(card);
-    }
-}
-
 // --- News Cards (differential rendering) ---
 
 const cardCache = new Map();
@@ -241,8 +178,6 @@ export function renderNews(container, allNews, filters) {
     const readIds = getReadIds();
 
     let filtered = allNews.filter(item => {
-        if (currentCategory === 'all' && (item.categoryCode === 'trends' || item.categoryCode === 'trends_weekly')) return false;
-        if (currentCategory === 'trends' && item.categoryCode === 'trends_weekly') return true;
         if (currentCategory !== 'all' && item.categoryCode !== currentCategory) return false;
         if (filterUnread && readIds.includes(item.id)) return false;
         if (filterSaved && !savedIds.includes(item.id)) return false;
@@ -263,12 +198,6 @@ export function renderNews(container, allNews, filters) {
     if (filtered.length === 0) {
         container.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: #6B7280;">找不到符合條件的新聞。</div>';
         cardCache.clear();
-        return;
-    }
-
-    if (currentCategory === 'trends') {
-        cardCache.clear();
-        renderTrendsList(container, filtered, allNews);
         return;
     }
 

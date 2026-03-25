@@ -1,7 +1,6 @@
 export const WORKER_URL = 'https://news-ai-proxy.chiharune2.workers.dev';
 
 export const CATEGORY_NAMES = {
-    'trends': '🔥 Google Trends',
     'whitehouse': '🏛️ 美國政治',
     'ai': '🤖 AI',
     'global': '🌍 全球趨勢',

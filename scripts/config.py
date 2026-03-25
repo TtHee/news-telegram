@@ -50,7 +50,6 @@ GROQ_RPM_SLEEP = 2.5            # Groq 免費版 30 RPM 間隔
 
 # === 內容處理 ===
 CONTENT_TRUNCATE_LEN = 1500     # 文章內容截斷長度
-MAX_TRENDS_PER_SOURCE = 20      # Google Trends 每來源最多抓取數
 
 # === 市場指標閾值（前端也會讀取）===
 INDICATOR_THRESHOLDS = {
@@ -71,15 +70,6 @@ MAX_AGE_HOURS = 24
 
 # === RSS 來源 ===
 RSS_SOURCES = [
-    # Google Trends 每日熱門搜尋
-    {"name": "Google Trends 台灣", "url": "https://trends.google.com.tw/trending/rss?geo=TW",            "category": "trends"},
-    {"name": "Google Trends 日本", "url": "https://trends.google.com/trending/rss?geo=JP",               "category": "trends"},
-    {"name": "Google Trends 美國", "url": "https://trends.google.com/trending/rss?geo=US",               "category": "trends"},
-    # Google Trends 過去 7 天
-    {"name": "Google Trends 台灣 7天", "url": "https://trends.google.com.tw/trending/rss?geo=TW&hours=168", "category": "trends_weekly"},
-    {"name": "Google Trends 日本 7天", "url": "https://trends.google.com/trending/rss?geo=JP&hours=168",    "category": "trends_weekly"},
-    {"name": "Google Trends 美國 7天", "url": "https://trends.google.com/trending/rss?geo=US&hours=168",    "category": "trends_weekly"},
-
     # --- 國際新聞（權威一線媒體 RSS）---
     {"name": "BBC World",          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",        "category": "global"},
     {"name": "Guardian World",     "url": "https://www.theguardian.com/world/rss",              "category": "global"},

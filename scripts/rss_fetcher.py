@@ -2,58 +2,32 @@
 RSS 抓取與去重邏輯。
 職責：從各來源抓取文章，回傳去重後的原始文章列表。
 """
-import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from urllib.parse import quote_plus
 
 import feedparser
 
 from config import (
     RSS_SOURCES, MAX_ARTICLES_PER_SOURCE,
-    MAX_TRENDS_PER_SOURCE, CONTENT_TRUNCATE_LEN,
+    CONTENT_TRUNCATE_LEN,
 )
 from models import RawArticle
 from utils import strip_html, make_id
 
 
-def _extract_news_url(entry) -> str:
-    """從 Google Trends RSS 的 ht:news_item 中提取真正的新聞連結。"""
-    for key in ['ht_news_item_url', 'news_item_url']:
-        val = entry.get(key, "")
-        if val:
-            return val
-
-    raw = entry.get("summary") or entry.get("description") or ""
-    url_match = re.search(r'href=["\']?(https?://[^"\'>\s]+)', raw)
-    if url_match:
-        return url_match.group(1)
-
-    return ""
-
-
 def _parse_feed(source: dict) -> list[RawArticle]:
     articles = []
-    is_trends = "trends.google" in source["url"]
-    limit = MAX_TRENDS_PER_SOURCE if is_trends else MAX_ARTICLES_PER_SOURCE
 
     try:
         feed = feedparser.parse(source["url"])
-        for entry in feed.entries[:limit]:
+        for entry in feed.entries[:MAX_ARTICLES_PER_SOURCE]:
             title = strip_html(entry.get("title", "")).strip()
             if not title:
                 continue
 
-            if is_trends:
-                # Google Trends: 用「來源名+標題」產生唯一 ID，避免被去重
-                unique_key = f"{source['name']}:{title}"
-                article_id = make_id(unique_key)
-                # 連結到 Google 搜尋該關鍵字
-                url = f"https://www.google.com/search?q={quote_plus(title)}"
-            else:
-                url = entry.get("link", "")
-                if not url:
-                    continue
-                article_id = make_id(url)
+            url = entry.get("link", "")
+            if not url:
+                continue
+            article_id = make_id(url)
 
             raw = entry.get("summary") or entry.get("description") or ""
             clean_content = strip_html(raw)
