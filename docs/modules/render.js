@@ -16,10 +16,10 @@ export function escapeHtml(str) {
 function formatTime(isoString) {
     const diff = new Date() - new Date(isoString);
     const mins = Math.floor(diff / 60000);
-    if (mins < 60) return `${mins} 分鐘前`;
+    if (mins < 60) return `發布於 ${mins} 分鐘前`;
     const hrs = Math.floor(mins / 60);
-    if (hrs < 24) return `${hrs} 小時前`;
-    return `${Math.floor(hrs / 24)} 天前`;
+    if (hrs < 24) return `發布於 ${hrs} 小時前`;
+    return `發布於 ${Math.floor(hrs / 24)} 天前`;
 }
 
 // --- Header & Widgets ---
@@ -27,11 +27,15 @@ function formatTime(isoString) {
 export function renderHeader(generatedAt) {
     const el = document.getElementById('lastUpdated');
     const d = new Date(generatedAt);
-    const mm = String(d.getMonth() + 1).padStart(2, '0');
-    const dd = String(d.getDate()).padStart(2, '0');
+    const diff = Date.now() - d.getTime();
+    const mins = Math.floor(diff / 60000);
+    let ago;
+    if (mins < 1) ago = '剛剛';
+    else if (mins < 60) ago = `${mins} 分鐘前`;
+    else ago = `${Math.floor(mins / 60)} 小時前`;
     const hh = String(d.getHours()).padStart(2, '0');
     const min = String(d.getMinutes()).padStart(2, '0');
-    el.textContent = `更新於 ${mm}/${dd} ${hh}:${min}`;
+    el.textContent = `資料更新：${hh}:${min}（${ago}）`;
 }
 
 export function renderWidgets(data) {
