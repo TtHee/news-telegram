@@ -83,35 +83,36 @@ RSS_SOURCES = [
     {"name": "White House News",  "url": "https://www.whitehouse.gov/news/feed/",                "category": "whitehouse"},
 ]
 
-# === NewsData.io 來源（商用授權，國外媒體優先）===
+# === NewsData.io 來源（商用授權，明確指定一線媒體 domain）===
+# 免費版每次最多 5 個 domain，格式: "cnn.com,bbc.com"
 NEWSDATA_SOURCES = [
     {
         "category": "ai",
-        "params": {"q": "AI OR artificial intelligence", "language": "en", "category": "technology", "prioritydomain": "top"},
+        "params": {"q": "AI OR artificial intelligence", "language": "en", "domain": "cnn.com,bbc.com,reuters.com,theverge.com,wired.com"},
     },
     {
         "category": "whitehouse",
-        "params": {"q": "White House OR president policy", "country": "us", "language": "en", "category": "politics", "prioritydomain": "top"},
+        "params": {"q": "White House OR president", "language": "en", "domain": "cnn.com,bbc.com,reuters.com,apnews.com,nytimes.com"},
     },
     {
         "category": "trump",
-        "params": {"q": "Trump", "country": "us,gb", "language": "en", "category": "politics", "prioritydomain": "top"},
+        "params": {"q": "Trump", "language": "en", "domain": "cnn.com,bbc.com,reuters.com,theguardian.com,apnews.com"},
     },
     {
         "category": "global",
-        "params": {"q": None, "country": "us,gb,jp", "language": "en", "category": "world", "prioritydomain": "top"},
+        "params": {"language": "en", "category": "world", "domain": "cnn.com,bbc.com,reuters.com,aljazeera.com,theguardian.com"},
     },
     {
         "category": "finance",
-        "params": {"q": None, "country": "us,gb", "language": "en", "category": "business", "prioritydomain": "top"},
+        "params": {"language": "en", "category": "business", "domain": "cnbc.com,reuters.com,bloomberg.com,ft.com,wsj.com"},
     },
     {
         "category": "stock_tw",
-        "params": {"q": "股市 OR 台股 OR 台積電", "country": "tw", "language": "zh", "category": "business", "prioritydomain": "top"},
+        "params": {"q": "股市 OR 台股 OR 台積電", "country": "tw", "language": "zh", "domain": "udn.com,ltn.com.tw,ctee.com.tw,chinatimes.com,cna.com.tw"},
     },
     {
         "category": "stock_us",
-        "params": {"q": "stock market OR Wall Street OR S&P 500", "country": "us", "language": "en", "category": "business", "prioritydomain": "top"},
+        "params": {"q": "stock OR market OR Wall Street", "language": "en", "domain": "cnbc.com,reuters.com,bloomberg.com,marketwatch.com,wsj.com"},
     },
 ]
 

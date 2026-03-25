@@ -41,6 +41,7 @@ def _fetch_category(source: dict) -> list[RawArticle]:
         return []
 
     articles = []
+    sources_seen = set()
     for item in data.get("results") or []:
         url = item.get("link", "")
         title = (item.get("title") or "").strip()
@@ -48,17 +49,21 @@ def _fetch_category(source: dict) -> list[RawArticle]:
             continue
 
         content = item.get("description") or item.get("content") or ""
+        source_name = item.get("source_name", "NewsData")
+        sources_seen.add(source_name)
 
         articles.append({
             "id":           make_id(url),
             "title":        title,
             "url":          url,
-            "source":       item.get("source_name", "NewsData"),
+            "source":       source_name,
             "category":     source["category"],
             "published_at": item.get("pubDate", ""),
             "raw_content":  content[:CONTENT_TRUNCATE_LEN],
         })
 
+    if sources_seen:
+        print(f"    [NewsData] {source['category']} 來源：{', '.join(sorted(sources_seen))}")
     return articles
 
 
