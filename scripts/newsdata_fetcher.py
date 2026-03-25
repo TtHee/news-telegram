@@ -14,7 +14,7 @@ from utils import make_id
 
 
 def _fetch_category(source: dict) -> list[RawArticle]:
-    """呼叫 NewsData.io API 取得單一 category 的新聞。"""
+    """呼叫 NewsData.io API 取得單一 category 的新聞。422 時自動去掉 domainurl 重試。"""
     if not NEWSDATA_API_KEY:
         print("[NewsData] 未設定 NEWSDATA_API_KEY，跳過")
         return []
@@ -29,6 +29,20 @@ def _fetch_category(source: dict) -> list[RawArticle]:
         resp = requests.get(NEWSDATA_API_URL, params=params, timeout=30)
         resp.raise_for_status()
         data = resp.json()
+    except requests.HTTPError as e:
+        if resp.status_code == 422 and "domainurl" in params:
+            dropped = params.pop("domainurl")
+            print(f"[NewsData] {source['category']} domainurl 不支援（{dropped}），改為不限來源重試")
+            try:
+                resp = requests.get(NEWSDATA_API_URL, params=params, timeout=30)
+                resp.raise_for_status()
+                data = resp.json()
+            except requests.RequestException as retry_e:
+                print(f"[NewsData] {source['category']} 重試仍失敗：{retry_e}")
+                return []
+        else:
+            print(f"[NewsData] {source['category']} 請求失敗：{e}")
+            return []
     except requests.RequestException as e:
         print(f"[NewsData] {source['category']} 請求失敗：{e}")
         return []
