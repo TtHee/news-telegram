@@ -185,14 +185,13 @@ def write_json(output: dict) -> None:
 # ── 主流程 ────────────────────────────────────────────
 
 def _normalize_title(title: str) -> str:
-    """正規化標題：移除標點、空白、轉小寫，用於相似度比對。"""
+    """正規化標題：移除標點、轉小寫，用於相似度比對。"""
     import re
-    t = re.sub(r'[^\w]', '', title.lower())
-    return t
+    return re.sub(r'[^\w\s]', '', title.lower()).strip()
 
 
 def _is_similar_title(t1: str, t2: str) -> bool:
-    """檢查兩個標題是否高度相似（包含關係或重疊率 > 70%）。"""
+    """檢查兩個標題是否高度相似（子字串包含或詞級重疊率 > 70%）。"""
     n1 = _normalize_title(t1)
     n2 = _normalize_title(t2)
     if not n1 or not n2:
@@ -200,9 +199,12 @@ def _is_similar_title(t1: str, t2: str) -> bool:
     # 短標題包含在長標題中
     if n1 in n2 or n2 in n1:
         return True
-    # 字元重疊率
-    set1, set2 = set(n1), set(n2)
-    overlap = len(set1 & set2) / max(len(set1), len(set2))
+    # 詞級重疊率（用詞集合而非字元集合）
+    words1 = set(n1.split())
+    words2 = set(n2.split())
+    if not words1 or not words2:
+        return False
+    overlap = len(words1 & words2) / max(len(words1), len(words2))
     return overlap > 0.7
 
 
