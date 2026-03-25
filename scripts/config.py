@@ -82,15 +82,15 @@ RSS_SOURCES = [
 
     # --- 國際新聞（權威一線媒體 RSS）---
     {"name": "BBC World",          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",        "category": "global"},
-    {"name": "CNN International",  "url": "http://rss.cnn.com/rss/edition.rss",                 "category": "global"},
     {"name": "Guardian World",     "url": "https://www.theguardian.com/world/rss",              "category": "global"},
     {"name": "Al Jazeera",         "url": "https://aljazeera.com/xml/rss/all.xml",              "category": "global"},
+    {"name": "BBC Asia",           "url": "https://feeds.bbci.co.uk/news/world/asia/rss.xml",   "category": "global"},
 
     # --- 美國政治 ---
     {"name": "White House News",   "url": "https://www.whitehouse.gov/news/feed/",              "category": "whitehouse"},
-    {"name": "CNN Politics",       "url": "http://rss.cnn.com/rss/cnn_allpolitics.rss",        "category": "whitehouse"},
+    {"name": "BBC North America",  "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml", "category": "whitehouse"},
+    {"name": "The Hill",           "url": "https://thehill.com/feed/",                          "category": "whitehouse"},
     {"name": "Guardian US",        "url": "https://www.theguardian.com/us-news/rss",            "category": "whitehouse"},
-    {"name": "BBC Asia",           "url": "https://feeds.bbci.co.uk/news/world/asia/rss.xml",   "category": "global"},
 
     # --- 台股財經 ---
     {"name": "中央社財經",          "url": "https://feeds.feedburner.com/rsscna/finance",        "category": "stock_tw"},
