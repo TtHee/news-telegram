@@ -82,6 +82,17 @@ RSS_SOURCES = [
     {"name": "The Hill",           "url": "https://thehill.com/feed/",                          "category": "whitehouse"},
     {"name": "Guardian US",        "url": "https://www.theguardian.com/us-news/rss",            "category": "whitehouse"},
 
+    # --- 國際趨勢 & 地緣政治 ---
+    {"name": "Foreign Affairs",    "url": "https://www.foreignaffairs.com/rss.xml",             "category": "global"},
+    {"name": "Foreign Policy",     "url": "https://foreignpolicy.com/feed/",                    "category": "global"},
+    {"name": "The Diplomat",       "url": "https://thediplomat.com/feed/",                      "category": "global"},
+    {"name": "SCMP",               "url": "https://www.scmp.com/rss/91/feed",                   "category": "global"},
+    {"name": "France24",           "url": "https://www.france24.com/en/rss",                    "category": "global"},
+    {"name": "Project Syndicate",  "url": "https://www.project-syndicate.org/rss",              "category": "global"},
+    {"name": "Channel News Asia",  "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml", "category": "global"},
+    {"name": "OilPrice",           "url": "https://oilprice.com/rss/main",                      "category": "global"},
+    {"name": "War on the Rocks",   "url": "https://warontherocks.com/feed/",                    "category": "global"},
+
     # --- AI & 科技 ---
     {"name": "The Verge AI",       "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "category": "ai"},
     {"name": "MIT Tech Review",    "url": "https://www.technologyreview.com/feed/",             "category": "ai"},
