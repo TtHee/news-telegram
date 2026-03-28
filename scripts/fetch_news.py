@@ -30,6 +30,7 @@ from config import (
 from rss_fetcher import fetch_all as rss_fetch_all
 from newsdata_fetcher import fetch_all as newsdata_fetch_all
 from groq_summary import summarize
+from groq_client import get_throttle_delay
 from daily_digest import generate_daily_digest
 from market_data import get_all_market_data
 from risk_score import calc_risk_score
@@ -151,7 +152,12 @@ def enrich_articles(articles: list, cache: dict) -> list:
             a["is_breaking"] = _is_breaking(a)
             a.pop("raw_content", None)
             new_count += 1
-            time.sleep(GROQ_RPM_SLEEP)
+            # Adaptive sleep: base interval + extra delay from 429 hits
+            adaptive_delay = get_throttle_delay()
+            total_sleep = GROQ_RPM_SLEEP + adaptive_delay
+            if adaptive_delay > 0:
+                print(f"  [Throttle] 自適應間隔 {total_sleep:.0f}s（base {GROQ_RPM_SLEEP}s + throttle +{adaptive_delay:.0f}s）")
+            time.sleep(total_sleep)
 
     if skipped_rate_limit:
         print(f"[Groq] 本次上限 {GROQ_MAX_NEW_PER_RUN} 則，{skipped_rate_limit} 則延後至下次執行")
