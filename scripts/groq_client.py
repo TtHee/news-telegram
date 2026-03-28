@@ -29,7 +29,8 @@ def chat_completion(
 ) -> str | None:
     """
     呼叫 Groq Chat Completion API，回傳回應文字。
-    自動處理 429 rate limit 重試。失敗時回傳 None。
+    自動處理 429 rate limit 重試（讀取 Retry-After header）。
+    失敗時回傳 None。
     """
     if not GROQ_API_KEY:
         print("[Groq] 未設定 GROQ_API_KEY，跳過")
@@ -55,7 +56,17 @@ def chat_completion(
 
         except requests.exceptions.HTTPError as e:
             if e.response is not None and e.response.status_code == 429:
-                wait = GROQ_RETRY_BASE_WAIT * (attempt + 1)
+                # Read Retry-After header if available
+                retry_after = e.response.headers.get("Retry-After")
+                if retry_after:
+                    try:
+                        wait = int(float(retry_after)) + 2
+                    except (ValueError, TypeError):
+                        wait = GROQ_RETRY_BASE_WAIT * (attempt + 1)
+                else:
+                    wait = GROQ_RETRY_BASE_WAIT * (attempt + 1)
+                # Cap at 120 seconds
+                wait = min(wait, 120)
                 print(f"[Groq] 速率限制，等待 {wait} 秒後重試 ({attempt+1}/{GROQ_MAX_RETRIES})")
                 time.sleep(wait)
                 continue

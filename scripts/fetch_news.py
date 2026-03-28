@@ -24,6 +24,7 @@ from config import (
     NEWS_JSON_PATH,
     BREAKING_KEYWORDS, WATCH_STOCKS,
     MAX_AGE_HOURS, GROQ_RPM_SLEEP,
+    GROQ_MAX_NEW_PER_RUN, GROQ_BATCH_PAUSE_EVERY, GROQ_BATCH_PAUSE_SEC,
     INDICATOR_THRESHOLDS,
 )
 from rss_fetcher import fetch_all as rss_fetch_all
@@ -99,9 +100,12 @@ def _is_breaking(article: dict) -> bool:
 # ── 流水線各步驟 ──────────────────────────────────────
 
 def enrich_articles(articles: list, cache: dict) -> list:
-    """只對新文章呼叫 Groq 摘要，已有的直接用快取。"""
+    """只對新文章呼叫 Groq 摘要，已有的直接用快取。
+    每次最多處理 GROQ_MAX_NEW_PER_RUN 則新文章，避免打爆 rate limit。
+    """
     new_count = 0
     cached_count = 0
+    skipped_rate_limit = 0
 
     for i, a in enumerate(articles):
         cached = cache.get(a["id"])
@@ -119,10 +123,21 @@ def enrich_articles(articles: list, cache: dict) -> list:
             a.pop("raw_content", None)
             cached_count += 1
         else:
+            # 達到每次上限，跳過剩餘新文章（下次執行會處理）
+            if new_count >= GROQ_MAX_NEW_PER_RUN:
+                skipped_rate_limit += 1
+                a.pop("raw_content", None)
+                continue
+
+            # 批次暫停：每 N 則多休息一下
+            if new_count > 0 and new_count % GROQ_BATCH_PAUSE_EVERY == 0:
+                print(f"  [Groq] 已處理 {new_count} 則，暫停 {GROQ_BATCH_PAUSE_SEC} 秒...")
+                time.sleep(GROQ_BATCH_PAUSE_SEC)
+
             # 新文章或尚未 AI 分類，呼叫 Groq
             title_for_groq = cached["title"] if cached and cached.get("summary_zh") else a["title"]
             content_for_groq = a.get("raw_content", "") or (cached.get("summary_zh", "") if cached else "")
-            print(f"  [Groq] 新文章 {new_count+1}: {title_for_groq[:45]}")
+            print(f"  [Groq] 新文章 {new_count+1}/{GROQ_MAX_NEW_PER_RUN}: {title_for_groq[:45]}")
             result = summarize(title_for_groq, content_for_groq)
             a["title"]       = result["title_zh"]
             a["summary_zh"]  = result["summary"]
@@ -137,6 +152,9 @@ def enrich_articles(articles: list, cache: dict) -> list:
             a.pop("raw_content", None)
             new_count += 1
             time.sleep(GROQ_RPM_SLEEP)
+
+    if skipped_rate_limit:
+        print(f"[Groq] 本次上限 {GROQ_MAX_NEW_PER_RUN} 則，{skipped_rate_limit} 則延後至下次執行")
 
     # 過濾掉 AI 判定為不相關的文章
     skip_count = sum(1 for a in articles if a.get("category") == "skip")

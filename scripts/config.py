@@ -46,7 +46,10 @@ GROQ_RISK_MAX_TOKENS = 200
 GROQ_DIGEST_TIMEOUT = 60        # 今日脈絡請求逾時（秒）
 GROQ_DIGEST_TEMPERATURE = 0.4
 GROQ_DIGEST_MAX_TOKENS = 4000
-GROQ_RPM_SLEEP = 3.0            # Groq 免費版 30 RPM 間隔（20 RPM 留餘量）
+GROQ_RPM_SLEEP = 4.0            # Groq 免費版 30 RPM 間隔（15 RPM 留餘量）
+GROQ_MAX_NEW_PER_RUN = 40       # 每次執行最多處理幾則新文章（避免打爆 rate limit）
+GROQ_BATCH_PAUSE_EVERY = 10     # 每處理 N 則後額外暫停
+GROQ_BATCH_PAUSE_SEC = 15       # 批次暫停秒數
 
 # === 內容處理 ===
 CONTENT_TRUNCATE_LEN = 1500     # 文章內容截斷長度
