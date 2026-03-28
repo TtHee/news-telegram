@@ -109,6 +109,37 @@
                 <label class="filter-label"><input type="checkbox" id="filterUnread"> 未讀</label>
                 <label class="filter-label"><input type="checkbox" id="filterSaved"> 已收藏</label>
             </div>
+
+            <!-- #9 Settings -->
+            <div class="settings-widget" id="settingsWidget">
+                <div class="widget-title">⚙️ 設定</div>
+                <div class="setting-row">
+                    <span class="setting-label">台股漲跌顯示</span>
+                    <div class="seg-control" id="twiiFormatControl">
+                        <button class="active" data-value="percent">%</button>
+                        <button data-value="points">點</button>
+                    </div>
+                </div>
+                <div class="setting-row">
+                    <span class="setting-label">新聞排序</span>
+                    <div class="seg-control" id="sortControl">
+                        <button class="active" data-value="breaking">重大優先</button>
+                        <button data-value="time">時間優先</button>
+                    </div>
+                </div>
+                <div class="setting-row">
+                    <span class="setting-label">深色模式</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="darkModeToggle">
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- #2 Sidebar Auth (mobile) -->
+            <div class="sidebar-auth" id="sidebarAuth">
+                <button class="auth-btn" id="sidebarLoginBtn">登入</button>
+            </div>
         </aside>
 
         <div class="sidebar-overlay" id="sidebarOverlay"></div>
@@ -118,6 +149,19 @@
             <div id="loading" class="loading">載入新聞中...</div>
             <div id="errorMsg" class="error-msg" style="display: none;">載入失敗，請稍後再試。</div>
             <div id="digestContainer" style="display:none;"></div>
+
+            <!-- #7 Global AI Analysis -->
+            <div class="global-ai-container" id="globalAiContainer">
+                <div class="global-ai-title">🔍 新聞智能分析</div>
+                <div class="global-ai-desc">輸入你觀察到的現象（如「台積電大跌」、「金價急漲」），AI 會從今日所有新聞中交叉分析可能的原因。</div>
+                <div class="global-ai-messages" id="globalAiMessages"></div>
+                <div class="global-ai-input-row">
+                    <input type="text" class="global-ai-input" id="globalAiInput" placeholder="例如：美股為什麼突然下跌？">
+                    <button class="global-ai-send" id="globalAiSend">分析</button>
+                </div>
+                <div class="global-ai-quota" id="globalAiQuota"></div>
+            </div>
+
             <div class="news-grid" id="newsContainer">
                 <!-- News cards render here -->
             </div>

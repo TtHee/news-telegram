@@ -10,6 +10,7 @@ const ROLE_MAP = {
   whitehouse: '你是一位美國政治分析師，專精白宮政策、美國內政與國際影響',
   trump: '你是一位美國政治分析師，專精白宮政策、美國內政與國際影響',
   trends: '你是一位趨勢分析師，擅長解讀搜尋趨勢背後的社會脈動與大眾關注焦點',
+  _global_analysis: '你是一位資深新聞分析師與財經專家，擅長從多則新聞中交叉比對、歸納因果關係，找出表面現象背後的深層原因',
 };
 
 const ALLOWED_ORIGINS = [
@@ -25,7 +26,7 @@ const RATE_LIMIT_WINDOW_SEC = 60;
 
 async function checkRateLimit(ip, env) {
   const kv = env.RATE_LIMIT;
-  if (!kv) return true; // KV not bound → allow (dev fallback)
+  if (!kv) return true; // KV not bound -> allow (dev fallback)
 
   const key = `rl:${ip}`;
   const record = await kv.get(key, 'json');
@@ -54,6 +55,29 @@ function corsHeaders(origin) {
     'Access-Control-Allow-Methods': 'POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type',
   };
+}
+
+function buildSystemPrompt(category, articleTitle, articleSummary) {
+  const role = ROLE_MAP[category] || '你是一位新聞分析師';
+
+  if (category === '_global_analysis') {
+    // Global analysis mode: articleSummary contains all news
+    return `${role}。
+你正在分析以下所有今日新聞報導，協助讀者找出觀察到的現象之可能原因。
+請用繁體中文回答，條理分明、有深度。
+當你找到相關新聞時，請引用新聞編號和來源。
+如果新聞中沒有直接相關的資訊，請誠實說明，並提供你的專業判斷。
+
+=== 今日新聞列表 ===
+${(articleSummary || '').slice(0, 12000)}`;
+  }
+
+  return `${role}。
+你正在針對以下新聞回答讀者問題。請用繁體中文回答，簡潔精準、有深度。
+如果讀者的問題涉及更廣泛的背景知識，請主動補充相關脈絡。
+
+新聞標題：${articleTitle || '（無標題）'}
+新聞摘要：${articleSummary || '（無摘要）'}`;
 }
 
 export default {
@@ -97,14 +121,7 @@ export default {
         return Response.json({ error: '訊息過長，請縮短後再試' }, { status: 400, headers });
       }
 
-      // Build system prompt with role
-      const role = ROLE_MAP[category] || '你是一位新聞分析師';
-      const systemPrompt = `${role}。
-你正在針對以下新聞回答讀者問題。請用繁體中文回答，簡潔精準、有深度。
-如果讀者的問題涉及更廣泛的背景知識，請主動補充相關脈絡。
-
-新聞標題：${articleTitle || '（無標題）'}
-新聞摘要：${articleSummary || '（無摘要）'}`;
+      const systemPrompt = buildSystemPrompt(category, articleTitle, articleSummary);
 
       const groqPayload = {
         model: MODEL,
@@ -115,7 +132,7 @@ export default {
             .map(m => ({ role: m.role, content: String(m.content).slice(0, 500) })),
         ],
         temperature: 0.6,
-        max_tokens: 1024,
+        max_tokens: category === '_global_analysis' ? 2048 : 1024,
       };
 
       const groqResp = await fetch(GROQ_API_URL, {

@@ -48,12 +48,20 @@ export function onAuthStateChange(callback) {
     });
 }
 
-// --- Usage Quota ---
+// --- Usage Quota (legacy per-article) ---
 
 export async function checkUsageQuota(articleId) {
     const { data, error } = await supabase.rpc('check_and_increment_usage', {
         p_article_id: articleId,
     });
+    if (error) throw error;
+    return data;
+}
+
+// --- Daily Quota (new: daily global limit) ---
+
+export async function checkDailyQuota() {
+    const { data, error } = await supabase.rpc('check_and_increment_daily_usage');
     if (error) throw error;
     return data;
 }

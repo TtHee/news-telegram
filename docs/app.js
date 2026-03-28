@@ -4,8 +4,10 @@ import { renderDigest } from './modules/digest.js';
 import { toggleSaved, toggleRead } from './modules/storage.js';
 import { toggleChat, sendChat } from './modules/chat.js';
 import { signInWithGoogle, signOut, getSession, getProfile, onAuthStateChange } from './modules/supabase.js';
+import { getSettings, updateSetting, applyDarkMode } from './modules/settings.js';
+import { initGlobalAi } from './modules/global-ai.js';
 
-// Module-scoped state — no globals, no window.*
+// Module-scoped state
 const state = {
     allNews: [],
     currentCategory: 'all',
@@ -15,6 +17,7 @@ const state = {
     user: null,
     profile: null,
     digestData: null,
+    rawData: null,
 };
 
 const newsItemMap = new Map();
@@ -30,16 +33,70 @@ const digestContainer = document.getElementById('digestContainer');
 
 // --- Bootstrap ---
 
+initSettings();
 initAuth();
 fetchData();
 setupSidebarEvents();
+setupSettingsEvents();
 setupDelegation();
 setupAuthEvents();
+
+// --- Settings ---
+
+function initSettings() {
+    const settings = getSettings();
+    applyDarkMode(settings.darkMode);
+
+    // Restore toggle states
+    const darkToggle = document.getElementById('darkModeToggle');
+    if (darkToggle) darkToggle.checked = settings.darkMode;
+
+    // Restore segmented controls
+    restoreSegControl('twiiFormatControl', settings.twiiFormat);
+    restoreSegControl('sortControl', settings.sortMode);
+}
+
+function restoreSegControl(id, value) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.querySelectorAll('button').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.value === value);
+    });
+}
+
+function setupSettingsEvents() {
+    // Dark mode toggle
+    const darkToggle = document.getElementById('darkModeToggle');
+    if (darkToggle) {
+        darkToggle.addEventListener('change', () => {
+            updateSetting('darkMode', darkToggle.checked);
+            applyDarkMode(darkToggle.checked);
+        });
+    }
+
+    // Segmented controls
+    setupSegControl('twiiFormatControl', 'twiiFormat', () => {
+        if (state.rawData) renderWidgets(state.rawData);
+    });
+    setupSegControl('sortControl', 'sortMode', () => doRender());
+}
+
+function setupSegControl(id, settingKey, onChange) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.addEventListener('click', (e) => {
+        const btn = e.target.closest('button');
+        if (!btn) return;
+        el.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        updateSetting(settingKey, btn.dataset.value);
+        if (onChange) onChange();
+    });
+}
 
 // --- Auth ---
 
 async function initAuth() {
-    // getSession() triggers URL fragment parsing on OAuth redirect
     const session = await getSession();
     await updateAuthUI(session?.user ?? null);
 
@@ -51,6 +108,7 @@ async function initAuth() {
 async function updateAuthUI(user) {
     state.user = user;
     const authArea = document.getElementById('authArea');
+    const sidebarAuth = document.getElementById('sidebarAuth');
 
     if (user) {
         try {
@@ -60,6 +118,10 @@ async function updateAuthUI(user) {
         }
         const name = state.profile?.display_name || user.user_metadata?.full_name || user.email;
         const avatar = state.profile?.avatar_url || user.user_metadata?.avatar_url;
+        const plan = state.profile?.plan || 'free';
+        const planLabel = { free: '免費', light: 'Light', pro: 'Pro', creator: 'Creator' }[plan] || plan;
+
+        // Header auth (desktop)
         authArea.innerHTML = `
             <div class="user-info">
                 ${avatar ? `<img class="user-avatar" src="${avatar}" alt="" referrerpolicy="no-referrer">` : ''}
@@ -67,10 +129,24 @@ async function updateAuthUI(user) {
                 <button class="auth-btn auth-btn-outline" id="logoutBtn">登出</button>
             </div>
         `;
+
+        // Sidebar auth (mobile)
+        sidebarAuth.innerHTML = `
+            <div class="user-info">
+                <div class="user-row">
+                    ${avatar ? `<img class="user-avatar" src="${avatar}" alt="" referrerpolicy="no-referrer">` : ''}
+                    <span class="user-name">${escapeHtmlAttr(name)}</span>
+                </div>
+                <span style="font-size:0.75rem;color:var(--text-muted);">${escapeHtmlAttr(planLabel)} 方案</span>
+                <button class="auth-btn auth-btn-outline" id="sidebarLogoutBtn">登出</button>
+            </div>
+        `;
     } else {
         state.profile = null;
         authArea.innerHTML = '<button class="auth-btn" id="loginBtn">登入</button>';
+        sidebarAuth.innerHTML = '<button class="auth-btn" id="sidebarLoginBtn">登入</button>';
     }
+
     // Re-render digest with updated auth state
     if (state.digestData) {
         renderDigest(digestContainer, state.digestData, state.user);
@@ -83,12 +159,16 @@ function escapeHtmlAttr(str) {
 }
 
 function setupAuthEvents() {
+    // Header auth clicks
     document.getElementById('authArea').addEventListener('click', async (e) => {
-        if (e.target.id === 'loginBtn') {
-            await signInWithGoogle();
-        } else if (e.target.id === 'logoutBtn') {
-            await signOut();
-        }
+        if (e.target.id === 'loginBtn') await signInWithGoogle();
+        else if (e.target.id === 'logoutBtn') await signOut();
+    });
+
+    // Sidebar auth clicks
+    document.getElementById('sidebarAuth').addEventListener('click', async (e) => {
+        if (e.target.id === 'sidebarLoginBtn') await signInWithGoogle();
+        else if (e.target.id === 'sidebarLogoutBtn') await signOut();
     });
 }
 
@@ -97,6 +177,7 @@ function setupAuthEvents() {
 async function fetchData() {
     try {
         const data = await fetchNewsData();
+        state.rawData = data;
 
         state.allNews = [];
         for (const [cat, items] of Object.entries(data.categories)) {
@@ -113,6 +194,7 @@ async function fetchData() {
         renderHeader(data.generated_at);
         renderWidgets(data);
         renderDigest(digestContainer, state.digestData, state.user);
+        initGlobalAi(state.allNews);
         doRender();
 
         loadingEl.style.display = 'none';
@@ -125,11 +207,13 @@ async function fetchData() {
 }
 
 function doRender() {
+    const settings = getSettings();
     renderNews(newsContainer, state.allNews, {
         currentCategory: state.currentCategory,
         searchQuery: state.searchQuery,
         filterUnread: state.filterUnread,
         filterSaved: state.filterSaved,
+        sortMode: settings.sortMode,
     });
 }
 
@@ -141,7 +225,6 @@ function setupSidebarEvents() {
         doRender();
     });
 
-    // Category chips — delegation on menu container
     document.getElementById('categoryMenu').addEventListener('click', (e) => {
         const chip = e.target.closest('.chip');
         if (!chip) return;

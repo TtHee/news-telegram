@@ -1,5 +1,5 @@
 import { sendChatMessage } from './api.js';
-import { getSession as getAuthSession, checkUsageQuota } from './supabase.js';
+import { getSession as getAuthSession, checkDailyQuota } from './supabase.js';
 
 const chatSessions = {};
 
@@ -27,7 +27,7 @@ export async function sendChat(id, newsItemMap) {
     const sendBtn = document.querySelector(`#chat-${id} .chat-send-btn`);
     sendBtn.disabled = true;
 
-    // --- 額度檢查 ---
+    // --- Auth check ---
     const authSession = await getAuthSession();
     if (!authSession) {
         appendBubble(msgContainer, 'error', '請先登入才能使用 AI 對話');
@@ -35,25 +35,26 @@ export async function sendChat(id, newsItemMap) {
         return;
     }
 
+    // --- Daily quota check ---
     try {
-        const quota = await checkUsageQuota(id);
+        const quota = await checkDailyQuota();
         if (!quota.allowed) {
             const msg = quota.reason === 'plan_no_ai'
-                ? '免費方案不含 AI 對話功能，請升級為 Light 或 Pro'
-                : quota.reason === 'quota_exceeded'
-                    ? `本則新聞的 AI 對話額度已用完（${quota.used}/${quota.limit}），請升級方案`
+                ? '免費方案的每日 AI 額度已用完，明天再試或升級方案'
+                : quota.reason === 'daily_quota_exceeded'
+                    ? `今日 AI 額度已用完（${quota.used}/${quota.limit}），明天再試`
                     : '無法使用 AI 對話';
             appendBubble(msgContainer, 'error', msg);
             sendBtn.disabled = false;
             return;
         }
-    } catch (err) {
+    } catch {
         appendBubble(msgContainer, 'error', '額度檢查失敗，請稍後再試');
         sendBtn.disabled = false;
         return;
     }
 
-    // --- 發送對話 ---
+    // --- Send chat ---
     const session = getChatSession(id);
     session.push({ role: 'user', content: question });
     appendBubble(msgContainer, 'user', question);

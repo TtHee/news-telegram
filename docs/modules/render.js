@@ -1,5 +1,41 @@
 import { CATEGORY_NAMES } from './api.js';
 import { getSavedIds, getReadIds } from './storage.js';
+import { getSettings } from './settings.js';
+
+// --- Source → Region Mapping ---
+
+const SOURCE_REGION_MAP = {
+    // Taiwan
+    '中央社財經': 'tw', '經濟日報': 'tw', '自由時報財經': 'tw',
+    'Yahoo 台股': 'tw', 'Yahoo 奇摩股市': 'tw',
+    // US
+    'CNBC': 'us', 'CNBC Top News': 'us', 'CNBC World': 'us',
+    'MarketWatch': 'us', 'White House News': 'us', 'The Hill': 'us',
+    'VentureBeat': 'us', 'Seeking Alpha': 'us', 'The Verge AI': 'us',
+    'Wired AI': 'us', 'MIT Tech Review': 'us', 'Bloomberg Tech': 'us',
+    'Politico Tech': 'us', 'Import AI': 'us', 'The Gradient': 'us',
+    'Yahoo Finance US': 'us', 'Investing.com': 'us',
+    'BBC North America': 'us', 'Guardian US': 'us',
+    // Europe
+    'BBC World': 'eu', 'BBC Asia': 'eu', 'Guardian World': 'eu',
+    'France24': 'eu', 'FT Tech': 'eu',
+    // China / HK
+    'SCMP': 'cn',
+    // Other Asia
+    'Channel News Asia': 'asia', 'The Diplomat': 'asia',
+    // International
+    'Al Jazeera': 'intl', 'Foreign Affairs': 'intl', 'Foreign Policy': 'intl',
+    'Project Syndicate': 'intl', 'Rest of World': 'intl',
+    'OilPrice': 'intl', 'War on the Rocks': 'intl',
+};
+
+const REGION_LABELS = {
+    tw: '台灣', us: '美國', eu: '歐洲', cn: '中港', asia: '亞洲', intl: '國際',
+};
+
+function getRegion(source) {
+    return SOURCE_REGION_MAP[source] || 'intl';
+}
 
 // --- Utilities ---
 
@@ -13,14 +49,36 @@ export function escapeHtml(str) {
         .replace(/'/g, '&#039;');
 }
 
-function formatTime(isoString) {
+/**
+ * Convert any date string to Taiwan time display.
+ * Supports RFC 2822 ("Wed, 25 Mar 2026 06:00:23 GMT") and ISO 8601.
+ * Returns: { absolute: "03/26 14:00 台灣", relative: "6小時前" }
+ */
+function formatTimeTW(isoString) {
+    if (!isoString) return { absolute: '', relative: '' };
     const d = new Date(isoString);
-    if (isNaN(d.getTime())) return '';
-    const mm = String(d.getMonth() + 1).padStart(2, '0');
-    const dd = String(d.getDate()).padStart(2, '0');
-    const hh = String(d.getHours()).padStart(2, '0');
-    const min = String(d.getMinutes()).padStart(2, '0');
-    return `${mm}/${dd} ${hh}:${min}`;
+    if (isNaN(d.getTime())) return { absolute: '', relative: '' };
+
+    // Format in Asia/Taipei timezone
+    const twOptions = { timeZone: 'Asia/Taipei', hour12: false };
+    const twMonth = d.toLocaleString('en-US', { ...twOptions, month: '2-digit' });
+    const twDay = d.toLocaleString('en-US', { ...twOptions, day: '2-digit' });
+    const twHour = d.toLocaleString('en-US', { ...twOptions, hour: '2-digit' });
+    const twMin = d.toLocaleString('en-US', { ...twOptions, minute: '2-digit' });
+
+    const absolute = `${twMonth}/${twDay} ${twHour}:${twMin} 台灣`;
+
+    // Relative time
+    const diff = Date.now() - d.getTime();
+    const mins = Math.floor(diff / 60000);
+    let relative;
+    if (mins < 0) relative = '剛剛';
+    else if (mins < 1) relative = '剛剛';
+    else if (mins < 60) relative = `${mins}分鐘前`;
+    else if (mins < 1440) relative = `${Math.floor(mins / 60)}小時前`;
+    else relative = `${Math.floor(mins / 1440)}天前`;
+
+    return { absolute, relative };
 }
 
 // --- Header & Widgets ---
@@ -34,13 +92,16 @@ export function renderHeader(generatedAt) {
     if (mins < 1) ago = '剛剛';
     else if (mins < 60) ago = `${mins} 分鐘前`;
     else ago = `${Math.floor(mins / 60)} 小時前`;
-    const hh = String(d.getHours()).padStart(2, '0');
-    const min = String(d.getMinutes()).padStart(2, '0');
+
+    const twOptions = { timeZone: 'Asia/Taipei', hour12: false };
+    const hh = d.toLocaleString('en-US', { ...twOptions, hour: '2-digit' });
+    const min = d.toLocaleString('en-US', { ...twOptions, minute: '2-digit' });
     el.textContent = `資料更新：${hh}:${min}（${ago}）`;
 }
 
 export function renderWidgets(data) {
     const thresholds = data.thresholds || {};
+    const settings = getSettings();
 
     const getSignal = (key, d) => {
         const cfg = thresholds[key];
@@ -65,12 +126,20 @@ export function renderWidgets(data) {
         return '⚪';
     };
 
-    const fmt = (price, change) => {
+    const fmt = (key, price, change) => {
         if (price === null || price === undefined) return { p: '--', c: '', class: '' };
+
+        // #9: TWII can show points or percent
         let cText = '';
         let cClass = '';
         if (change !== null && change !== undefined) {
-            cText = change > 0 ? `▲ +${change}%` : `▼ ${change}%`;
+            if (key === 'TWII' && settings.twiiFormat === 'points') {
+                // Calculate approximate points from percent
+                const points = Math.round(price * change / 100);
+                cText = points > 0 ? `▲ +${points}` : `▼ ${points}`;
+            } else {
+                cText = change > 0 ? `▲ +${change}%` : `▼ ${change}%`;
+            }
             cClass = change > 0 ? 'change-up' : 'change-down';
         }
         return { p: price.toLocaleString(), c: cText, class: cClass };
@@ -78,7 +147,7 @@ export function renderWidgets(data) {
 
     ['TWII', 'SP500', 'GOLD', 'OIL', 'USDTWD'].forEach(key => {
         const d = data.market[key] || {};
-        const f = fmt(d.price, d.change_pct);
+        const f = fmt(key, d.price, d.change_pct);
         const el = document.getElementById(`market-${key}`);
         if (!el) return;
         el.querySelector('.market-price').textContent = f.p;
@@ -121,11 +190,15 @@ function createCard(item, isSaved, isRead) {
     };
     const st = sentimentMap[item.sentiment] || sentimentMap['中性'];
     const breakingHtml = item.is_breaking ? '<span class="tag breaking">🔔 Breaking</span>' : '';
-    const timeStr = formatTime(item.published_at);
+    const time = formatTimeTW(item.published_at);
     const eid = escapeHtml(item.id);
 
+    // Region
+    const region = getRegion(item.source);
+    const regionLabel = REGION_LABELS[region] || '國際';
+
     const card = document.createElement('div');
-    card.className = `news-card ${isRead ? 'is-read' : ''}`;
+    card.className = `news-card region-${region} ${isRead ? 'is-read' : ''}`;
     card.dataset.id = item.id;
     card.innerHTML = `
         <div class="card-header">
@@ -133,6 +206,7 @@ function createCard(item, isSaved, isRead) {
                 ${breakingHtml}
                 <span class="tag ${st.c}">${st.t}</span>
                 <span class="tag category-tag">${escapeHtml(item.categoryName)}</span>
+                <span class="tag region-badge region-badge-${region}">${escapeHtml(regionLabel)}</span>
             </div>
             <div class="actions">
                 <button class="action-btn ${isSaved ? 'saved' : ''}" data-action="save" data-id="${eid}" title="收藏">★</button>
@@ -145,7 +219,10 @@ function createCard(item, isSaved, isRead) {
             <div class="meta-info">
                 <span>${escapeHtml(item.source)}</span>
                 <span>•</span>
-                <span>${escapeHtml(timeStr)}</span>
+                <span class="time-info">
+                    <span class="time-absolute">${escapeHtml(time.absolute)}</span>
+                    <span class="time-relative">${escapeHtml(time.relative)}</span>
+                </span>
             </div>
             <div style="display:flex;gap:0.5rem;align-items:center;">
                 <button class="ask-ai-btn" data-action="ask-ai" data-id="${eid}">問 AI</button>
@@ -173,7 +250,7 @@ function updateCardState(card, isSaved, isRead) {
 }
 
 export function renderNews(container, allNews, filters) {
-    const { currentCategory, searchQuery, filterUnread, filterSaved } = filters;
+    const { currentCategory, searchQuery, filterUnread, filterSaved, sortMode } = filters;
     const savedIds = getSavedIds();
     const readIds = getReadIds();
 
@@ -189,14 +266,20 @@ export function renderNews(container, allNews, filters) {
         return true;
     });
 
-    filtered.sort((a, b) => {
-        if (a.is_breaking && !b.is_breaking) return -1;
-        if (!a.is_breaking && b.is_breaking) return 1;
-        return new Date(b.published_at) - new Date(a.published_at);
-    });
+    // Sort based on user preference
+    if (sortMode === 'time') {
+        filtered.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+    } else {
+        // Default: breaking first, then by time
+        filtered.sort((a, b) => {
+            if (a.is_breaking && !b.is_breaking) return -1;
+            if (!a.is_breaking && b.is_breaking) return 1;
+            return new Date(b.published_at) - new Date(a.published_at);
+        });
+    }
 
     if (filtered.length === 0) {
-        container.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: #6B7280;">找不到符合條件的新聞。</div>';
+        container.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: var(--text-muted);">找不到符合條件的新聞。</div>';
         cardCache.clear();
         return;
     }
