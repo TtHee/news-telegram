@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T21:04:11.581345+08:00",
+  "generated_at": "2026-03-29T21:31:31.391561+08:00",
   "risk_signals": [
     "🟢 台股加權 33112.59（正常）",
     "🟢 S&P 500 6368.85（正常）",
@@ -9,9 +9,9 @@
     "🟡 黃金 4524.3（漲 +3.4%，留意）",
     "🟢 美債10Y殖利率 4.44（正常）",
     "🔴 原油 WTI 99.64（急漲 +5.46%，市場避險）",
-    "🟢 美元/台幣 31.93（正常）"
+    "🟢 美元/台幣 32.02（正常）"
   ],
-  "ai_summary": "市場氛圍偏向偏憂鬱，投資人對風險的恐懼感增強，避險情緒抬頭。美元指數和黃金表現相對穩定，但原油價格急劇上升，市場避險情緒明顯。",
+  "ai_summary": "市場呈現高風險區間，台股和美股均出現小幅下跌，恐慌指數和原油價格急漲，黃金價格大幅上漲，債市波動也出現波動。",
   "market": {
     "TWII": {
       "price": 33112.59,
@@ -50,21 +50,277 @@
       "change_pct": 5.46
     },
     "USDTWD": {
-      "price": 31.93,
-      "change_pct": -0.02
+      "price": 32.02,
+      "change_pct": 0.28
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "59b48042",
+        "title": "教育與分享日，美國，2026",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/03/education-and-sharing-day-u-s-a-2026/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Sun, 29 Mar 2026 00:00:00 +0000",
+        "summary_zh": "美國教育已經在自由、機會和公民道德的基礎上站穩250年。這個教育與分享日，我們重申了嚴格教育的重要性——它能夠為未來的美國人提供領導力、愛國主義和誠實的能力。今天，我們致敬拉比門赫姆的生活、遺產和願景。拉比門赫姆是一位對教育的貢獻者，他的理念對美國教育產生了深遠的影響。教育與分享日的目的在於鼓勵美國人關注教育的重要性，並為未來的美國人提供更好的教育機會。這項活動將繼續推動美國教育的進步，並為未來的美國人提供更好的成長環境。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6c68ef62",
+        "title": "中期選舉預測：為什麼共和黨試圖改變選舉規則",
+        "url": "https://thehill.com/opinion/campaign/5804513-voter-fraud-gerrymandering-2026/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Sun, 29 Mar 2026 12:00:00 +0000",
+        "summary_zh": "中期選舉仍有七個月時間。儘管如此，仍有許多人試圖透過不公平的手段來勝選。共和黨人試圖通過修改選舉規則來影響選舉結果。這種行為違反了選舉的公平性和自由性。選舉官員和監察員正努力防止這種行為。然而，仍有許多疑慮和挑戰需要被解決。選舉的公平性和自由性是民主制度的基石。任何試圖破壞這些基石的行為都是有害的。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "7bd8b811",
+        "title": "肯尼迪後代批評億萬富翁與AI公司在紐約議會選舉中花巨資",
+        "url": "https://thehill.com/homenews/campaign/5806153-jfk-grandson-schlossberg-says-billionaires-massive-ai-companies-spending-millions-in-new-york-house-race/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Sun, 29 Mar 2026 11:00:00 +0000",
+        "summary_zh": "肯尼迪家族後代、紐約議會候選人Jack Schlossberg在週日批評億萬富翁與科技業巨頭在他參選的議會選舉中投入巨額資金。 他表示，這些資金是想「買下選舉」。 在這場選舉中，Schlossberg面對著由億萬富翁或AI公司背後支持的對手。 這些對手的資金來源讓Schlossberg感到擔憂，他認為這可能會影響選舉的公平性。 Schlossberg的對手包括一些來自科技業的億萬富翁，例如Google的創始人之一Eric Schmidt的兒子。 這些富翁的資金支持可能會使得Schlossberg的競選工作更加困難。 Schlossberg的競選團隊正努力爭取民眾的支持，盡量減少對手的資金優勢。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6aa2b8fc",
+        "title": "赫斯提將激進基督教意識形態注入美國軍隊",
+        "url": "https://thehill.com/policy/defense/5803295-hegseth-christianity-military-pentagon/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Sun, 29 Mar 2026 10:00:00 +0000",
+        "summary_zh": "美國國防部長赫斯提在伊朗戰爭的簡報中提到，美國人應該跪下禱告耶穌，祈求美軍在中東的成功。幾天後，他在演講中禱告，希望「邪惡靈魂」能被「永遠地判處地獄」。這些言論引起了爭議，許多人批評赫斯提將宗教意識形態帶入軍隊，違反了美國軍隊的中立性原則。這種行為可能會對美軍士兵的凝聚力和士氣造成不利影響。許多人認為，這種行為違反了美國憲法第一修正案的精神，即政府應該保持中立，避免對任何宗教或政治信仰的偏袒。赫斯提的言論引起了輿論的關注，許多人呼籲他撤回這些言論，並恢復軍隊的中立性原則。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "03a4f67a",
+        "title": "副總統瓦恩斯稱自己對不明飛行物「著迷」，將外星人稱為「惡魔」",
+        "url": "https://thehill.com/homenews/administration/5806206-vance-obsessed-ufo-mystery/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Sun, 29 Mar 2026 03:02:00 +0000",
+        "summary_zh": "副總統瓦恩斯在最新的採訪中透露，他對不明飛行物（UFO）感到「著迷」，並承諾在離職前要揭開這個神秘的面紗。他表示自己比任何人都更好奇這個問題，並且擁有三年來對美國政府最高層級的資訊。瓦恩斯的言論引起了外界的關注，他的說法也引發了對政府隱瞞情報的質疑。這個事件可能會對美國政府的信任度產生影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "79423d19",
+        "title": "FBI 導致推動釋放調查文件關於瑞威爾議員與中國間諜事件",
+        "url": "https://thehill.com/homenews/administration/5806190-fbi-director-pushes-to-release-investigative-files-on-rep-eric-swalwell-reports/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Sun, 29 Mar 2026 02:11:19 +0000",
+        "summary_zh": "美國聯邦調查局局長卡許·帕特爾（Kash Patel）正推動釋放與加州民主黨議員瑞威爾（Eric Swalwell）與疑似中國間諜互動的調查文件。根據紐約時報和華盛頓郵報的報導，聯邦調查局在加州的探員和其他人員已被指示收集並刪除敏感資訊。這項調查是針對瑞威爾與中國間諜芳芳（Fang Fang）互動的結果。瑞威爾在2014年與芳芳互動，當時芳芳正在與瑞威爾競選助理的前任女友發展關係。瑞威爾在2015年與芳芳互動時，芳芳已經被聯邦調查局視為疑似間諜。瑞威爾的辦公室否認任何不當行為。這項調查事件可能會對瑞威爾的政治生涯造成影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ccd7dd3a",
+        "title": "美國眾議院通過一項動議，要求特朗普政府延長海地移民暫時保護",
+        "url": "https://thehill.com/homenews/house/5806112-trump-haiti-tps-petition-vote/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Sat, 28 Mar 2026 22:45:53 +0000",
+        "summary_zh": "美國眾議院一項針對海地移民的暫時保護措施動議，已經收集到足夠的簽名，迫使眾議院進行投票。民主黨議員馬麗·格勞森坎普·佩雷茲（Marie Gleusenkamp Perez）是第218位簽名人，還有四名共和黨議員也加入了這項動議。這項動議要求特朗普政府延長海地移民的暫時保護措施，這些移民來自於海地並在2010年海地大地震後來到美國。該動議的通過意味著美國政府必須考慮延長這些移民的暫時保護措施，否則他們將面臨被遣返的風險。這項動議的通過也表明美國對海地移民的暫時保護措施有所關注，同時也展現了美國政治對移民問題的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "dc74deb7",
+        "title": "副總統范斯(JD范斯)贏得2028年共和黨總統提名CPAC民意調查",
+        "url": "https://thehill.com/homenews/campaign/5806096-cpac-straw-poll-vance-rubio/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Sat, 28 Mar 2026 22:17:34 +0000",
+        "summary_zh": "副總統范斯(JD范斯)在共和黨人聚集的保守政治行動會議(CPAC)上贏得了2028年共和黨總統提名的民意調查。根據調查結果，范斯獲得了參與投票的約53%的支持。這項民意調查在德克薩斯州格雷普維的年度會議上進行。這項結果表明范斯在共和黨內的支持度頗高。然而，這也意味著2028年共和黨總統提名競選將是一場激烈的爭奪戰。范斯的勝利也引起了對他的競選前景的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "49cb1865",
+        "title": "美國國會與川普政府三度試圖解決國土安全部資金短缺問題",
+        "url": "https://thehill.com/homenews/5806028-congress-dhs-funding-attempts/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Sat, 28 Mar 2026 21:37:09 +0000",
+        "summary_zh": "美國國會與川普政府在國土安全部資金短缺問題上進行了三次協商，但仍未能達成共識。國土安全部資金短缺已經持續43天，無法預測何時結束。國會民主黨人阻止了一項維持國土安全部運作的法案，要求對該部門進行大規模改革。這項改革包括對移民和海關執法局（ICE）和交通安全管理局（TSA）等機構進行調整。國會共和黨人則認為這項改革過於激進，會對國家安全造成風險。目前，國土安全部資金短缺問題仍未解決，美國政府的運作受到影響。這項短缺問題不僅影響國土安全部，還會對整個政府的運作造成影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1ec860e0",
+        "title": "美國多地爆發「No Kings」抗議活動，抗議唐納德·川普",
+        "url": "https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Sun, 29 Mar 2026 04:11:27 GMT",
+        "summary_zh": "美國多個城市發生了「No Kings」抗議活動，抗議唐納德·川普。這些抗議活動主要聚焦在川普的政治立場和政策。其中，明尼蘇達州的一場抗議活動特別吸引了眾人注意，因為歌手布魯斯·斯普林斯汀（Bruce Springsteen）在現場表演。這些抗議活動表明美國民眾對於政治議題的關注度不斷升高。川普的政治立場和政策是否能夠得到民眾的支持，仍然存有疑問。這些抗議活動將會對美國政治產生什麼影響，尚待觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "d3833877",
+        "title": "2026年兩黨都在避開稅務真相",
+        "url": "https://thehill.com/opinion/finance/5804302-tax-policy-debate-complexity-growth/",
+        "source": "The Hill",
+        "category": "finance",
+        "published_at": "Sun, 29 Mar 2026 13:00:00 +0000",
+        "summary_zh": "稅務改革應該讓生活更輕鬆，而不是更複雜。然而，2026年來，政治兩黨卻在這個問題上避重就輕。稅務改革的目標是簡化稅務程序、降低稅負，但實際上卻使得稅務制度更加複雜。這種情況下，普通民眾不僅要面臨更高的稅負，而且還要花更多時間和精力來處理稅務事務。政治兩黨應該誠實面對稅務問題，找出解決方案，而不是繼續推動使生活更加複雜的稅務改革。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "0d48964e",
+        "title": "美國銀行同意支付 72.5 億美元和解費用，結束與愛普斯坦性侵案的法律糾紛",
+        "url": "https://www.bbc.com/news/articles/cn0wjgwvp2ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "finance",
+        "published_at": "Sat, 28 Mar 2026 15:17:35 GMT",
+        "summary_zh": "美國銀行同意支付 72.5 億美元的和解費用，結束與前美國金融大亨傑夫·愛普斯坦 (Jeffrey Epstein) 性侵犯案的法律糾紛。這起訴訟指控美國銀行協助愛普斯坦的性販運業務。這項和解是對愛普斯坦性侵犯案的最新發展，該案已經引起了全球的關注。愛普斯坦曾被指控犯下多起性侵犯罪，並在 2019 年自殺前被關押在監獄中。美國銀行的和解表明該銀行可能會面臨法律責任，承認其在愛普斯坦性侵犯案中的角色。這項和解將對美國銀行的聲譽和財務產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "global": [
       {
-        "id": "b062fc86",
-        "title": "南非小鎮改名引發種族緊張",
-        "url": "https://www.theguardian.com/world/2026/mar/29/graaff-reinet-robert-sobukwe-south-african-town-name-change-stirs-racial-tensions",
-        "source": "Guardian World",
+        "id": "4299d4bf",
+        "title": "俄羅斯在伊朗攻擊前三度拍攝美國在沙特阿拉伯基地衛星圖像",
+        "url": "https://thehill.com/policy/international/5806319-zelensky-russian-satellite-images-iran/",
+        "source": "The Hill",
         "category": "global",
-        "published_at": "Sun, 29 Mar 2026 04:00:46 GMT",
-        "summary_zh": "南非一座小鎮因改名而引發了種族緊張。該鎮原名為殖民地時期的Graaff-Reinet，現在將改名為抗議種族隔離的抗議領袖Robert Sobukwe。這個決定引起了居民的爭議，甚至有居民簽署了請願書，舉辦了反對和支持的遊行，還有居民向文化部長Gayton McKenzie發出了正式投訴信。文化部長在2月6日批准了改名的決定。這個改名的決定引發了種族緊張，居民對此表示了強烈的反對或支持。",
+        "published_at": "Sun, 29 Mar 2026 12:37:38 +0000",
+        "summary_zh": "烏克蘭總統澤連斯基在卡達多哈接受NBC新聞採訪時表示，俄羅斯軍隊在伊朗攻擊美國沙特阿拉伯基地前三度拍攝該基地的衛星圖像。他堅信俄羅斯已經將這些情報分享給伊朗。根據澤連斯基的說法，這些圖像顯示了美國在沙特阿拉伯的空軍基地內部情況，包括跑道、機庫和其他設施。這項情報可能對伊朗的攻擊行動有所幫助。這一事件引發了對俄羅斯和伊朗間情報共享的關注。沙特阿拉伯的美國空軍基地是該國重要的軍事據點，該基地的安全對美國和中東地區的穩定有重要影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "3c75883f",
+        "title": "巴基斯坦與土耳其、沙地阿拉伯、埃及舉行會議　討論伊朗戰爭",
+        "url": "https://thehill.com/policy/international/5806308-pakistan-turkey-saudi-egypt-iran-war-talks/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 12:09:44 +0000",
+        "summary_zh": "巴基斯坦、埃及、沙地阿拉伯和土耳其的外長將於本週日在伊斯蘭堡會面，美國以色列與伊朗的戰爭已經超過30天。巴基斯坦外交部透過社交平台X宣布，土耳其外長哈坎·菲達（Hakan Fidan）已經抵達伊斯蘭堡，並與沙地阿拉伯和埃及的外長會面。這次會議的議程尚未公布，但外界認為，會議將討論伊朗戰爭的影響以及如何維持地區的穩定。伊朗戰爭的爆發已經對全球產生重大影響，包括油價大幅上升和全球經濟的不穩定。這次會議的結果將對地區的政治局勢產生重大影響，因此外界密切關注這次會議的發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "9fcc4540",
+        "title": "伊朗對歐洲發出警告：迪戈加西亞導彈事件是改變遊戲規則",
+        "url": "https://thehill.com/policy/defense/5805173-iran-missile-threat-europe/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 10:00:00 +0000",
+        "summary_zh": "伊朗在3月20日發射兩枚導彈向印度洋的美英聯合基地，向歐洲發出警告，表明伊朗似乎能夠發動之前被認為超出其能力範圍的攻擊。雖然這次發射未能取得成功，但仍然證明伊朗的導彈技術有所進步。伊朗的這一行動可能會對歐洲地區產生重大影響，尤其是在能源安全和地緣政治方面。這一事件也可能會加劇美伊關係的緊張情緒。伊朗的這一行動是否會導致歐洲地區的安全局勢進一步惡化，還有待觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "21f52adf",
+        "title": "週日節目預告: 共和黨分裂延伸至國土安全局資金爭議; 伊朗衝突擴大",
+        "url": "https://thehill.com/homenews/sunday-talk-shows/5806066-sunday-shows-preview-gop-divide-spills-into-dhs-funding-battle-iran-conflict-widens/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Sat, 28 Mar 2026 22:25:03 +0000",
+        "summary_zh": "共和黨內部分裂持續惡化，國土安全局資金爭議成為最新的焦點。美國眾議院否決參議院通過的國土安全局部分資金法案，造成共和黨內部的裂痕。參議院早於星期五通過了一項法案，通過一致同意投票，資金國土安全局但不包括移民和海關執法局（ICE）和美國邊境巡邏隊。這項法案的通過，意味著國土安全局將在未來幾天內關閉。共和黨內部的分裂，讓國土安全局資金爭議變得更加複雜。這項爭議不僅影響國土安全局的運作，也影響美國的整體安全。伊朗的衝突持續擴大，對美國的影響也日益明顯。美國政府正在努力應對伊朗的挑戰，同時也需要處理國土安全局資金的爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "07fa8e3f",
+        "title": "伊朗支持者在社交媒體上推出反川普的漫畫，反擊川普在宣傳戰中",
+        "url": "https://thehill.com/homenews/administration/5805249-iran-war-propaganda-memes/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Sat, 28 Mar 2026 21:00:00 +0000",
+        "summary_zh": "伊朗戰爭是第一場主要衝突，宣傳戰的勝負可能取決於社交媒體上的漫畫。近日，支持伊朗的帳戶在社交媒體上推出了一系列的漫畫，嘲笑川普總統，將他描繪成以色列總理內塔尼亞胡的傀儡，並暗示美國軍隊若戰爭持續，將面臨重大損失。這些漫畫在社交媒體上迅速流行，展現了伊朗對宣傳戰的強大能力。這種宣傳戰的風格與以往的傳統宣傳不同，使用了更具創意和互動性的方式，吸引了年輕人的關注。這種風格的宣傳戰可能會在未來的戰爭中扮演重要角色，讓我們看到宣傳戰的新形態。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6bf4b93f",
+        "title": "2026年世界盃期間，費城酒吧可延遲至凌晨4點關閉",
+        "url": "https://thehill.com/homenews/state-watch/5806024-philadelphia-bars-extended-hours/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Sat, 28 Mar 2026 20:36:41 +0000",
+        "summary_zh": "2026年世界盃將在費城舉行，為了吸引觀眾，賓夕法尼亞州州長約許·夏皮羅 (D) 簽署了一個跨黨派法案，允許費城酒吧在世界盃賽事和第四七月慶典期間延遲至凌晨4點關閉。這項政策旨在為觀眾提供更好的體驗，並為城市帶來更多收入。然而，這也引發了對酒吧業者和居民的擔憂，擔心晚上更長的營業時間將會導致噪音、交通擁擠和其他問題。費城市政府正密切監控這項政策的執行情況，確保它們能夠平衡觀眾需求和居民的權益。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "5b2e6109",
+        "title": "川普的最大支持者：林賽格雷厄姆轉變為伊朗戰爭的最大支持者",
+        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/mar/29/lindsey-graham-trump-iran-war",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 11:00:03 GMT",
+        "summary_zh": "南卡羅來納州的共和黨參議員林賽格雷厄姆曾經是川普的死對頭，但現在他已經與川普和解，並且在推動川普對伊朗的戰爭。格雷厄姆多年來一直渴望與伊朗政權對抗，他認為伊朗政權的倒台將給美國總統帶來自己的「柏林牆時刻」。現在，他正在敦促川普進一步升級對伊朗的戰爭。他援引第二次世界大戰中的血腥伊沃吉馬島戰役來支持自己的立場。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "84aefefe",
+        "title": "模特兒行業激進主義者要求調查機構如何「助長」艾普斯坦的虐待行為",
+        "url": "https://www.theguardian.com/us-news/2026/mar/29/modeling-industry-activist-inquiry-epstein-files-sara-ziff",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 10:00:53 GMT",
+        "summary_zh": "模特兒行業激進主義者莎拉·齊夫（Sara Ziff）呼籲商界領袖應該被召喚到美國國會審查委員會，調查模特兒行業機構在傑佛瑞·艾普斯坦性交易醜聞中的角色。莎拉齊夫是非營利組織模特兒聯盟（Model Alliance）的創始人，該組織致力於為時尚行業工人爭取公平待遇、勞動權益和安全工作環境。莎拉齊夫表示，商界領袖需要被調查，以了解模特兒行業機構是否有助長艾普斯坦的虐待行為。這一要求是針對近期對艾普斯坦性交易醜聞的調查結果而提出。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9b837c29",
+        "title": "無王者抗議活動將在全美50州及16國舉行，抗議川普政府",
+        "url": "https://www.theguardian.com/us-news/2026/mar/28/no-kings-protests-trump",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sat, 28 Mar 2026 22:27:42 GMT",
+        "summary_zh": "美國即將迎來最大規模的抗議活動，無王者抗議活動將在全美50州及16國舉行，抗議川普政府。根據組織者們的估計，將有超過3,000個活動在全美各地舉行，包括50州及16個國家。抗議活動的組織者包括反抗政府的團體、勞工工會和其他民間組織。組織者們預計，這將是美國歷史上最大規模的抗議活動。抗議活動的目的在於表達對川普政府的不滿，抗議者將在各地表達自己的聲音。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c0bf96f4",
+        "title": "美國財政部要求《金融時報》撤稿：指控文章內容不實",
+        "url": "https://www.theguardian.com/us-news/2026/mar/28/treasury-department-financial-times-federal-reserve",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sat, 28 Mar 2026 20:58:06 GMT",
+        "summary_zh": "美國財政部週五要求《金融時報》撤稿，指控該報在財政部長斯科特·貝森特（Scott Bessent）關於美聯儲的看法文章中，刊登了「不實的主張」。財政部在正式投訴中指出，這些主張是「製造的」。財政部官員在投訴信中，對《金融時報》多個主張提出異議，並批評該報標題不符實際內容。財政部的投訴被發送給《金融時報》高級編輯和日經集團（Nikkei Inc.）高層。財政部長的看法在《金融時報》文章中被描述為美聯儲監管的增加，這引起了財政部的不滿。財政部認為，這些看法被不當地呈現，並對《金融時報》提出正式投訴。這一事件可能會對美聯儲的監管政策產生影響，同時也會對《金融時報》和財政部的關係產生影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -178,1598 +434,16 @@
         "ai_classified": true
       },
       {
-        "id": "037c343d",
-        "title": "Unidentified drones crash in Finland",
-        "url": "https://www.france24.com/en/europe/20260329-unidentified-drones-crash-finland",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 12:58:40 GMT"
-      },
-      {
-        "id": "1c81a9ae",
-        "title": "Mediation talks in Islamabad: Middle East powers meet to discuss how to end the fighting",
-        "url": "https://www.france24.com/en/mediation-talks-in-islamabad-middle-east-powers-meet-to-discuss-how-to-end-the-fighting",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 12:32:30 GMT"
-      },
-      {
-        "id": "564931e4",
-        "title": "Israeli police bar top Catholic figure in Jerusalem from holding Palm Sunday mass at Holy Sepulchre",
-        "url": "https://www.france24.com/en/middle-east/20260329-israeli-police-prevent-jerusalem-latin-patriarch-from-celebrating-palm-sunday-mass",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 11:48:37 GMT"
-      },
-      {
-        "id": "b3a71020",
-        "title": "France foils bomb attack outside Bank of America in Paris",
-        "url": "https://www.france24.com/en/france-foils-bomb-attack-outside-bank-of-america-in-paris",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 11:32:17 GMT"
-      },
-      {
-        "id": "ff693298",
-        "title": "Anti-war protests in Israel: Hundreds gather in Tel-Aviv",
-        "url": "https://www.france24.com/en/video/20260329-anti-war-protests-in-israel-hundreds-gather-in-tel-aviv",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 09:48:16 GMT"
-      },
-      {
-        "id": "b0ba1fda",
-        "title": "Two new suspects arrested over foiled Bank of America bomb plot in Paris",
-        "url": "https://www.france24.com/en/france/20260329-two-new-suspects-arrested-over-foiled-bank-of-america-bomb-plot-in-paris",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 09:47:38 GMT"
-      },
-      {
-        "id": "ff5e7b9b",
-        "title": "Tehran threatens to target US universities in the region",
-        "url": "https://www.france24.com/en/tehran-threatens-to-target-us-universities-in-the-region",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 09:45:48 GMT"
-      },
-      {
-        "id": "be626c7a",
-        "title": "New International Olympic Committee policy bans transgender athletes",
-        "url": "https://www.france24.com/en/new-international-olympic-committee-policy-bans-transgender-athletes",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 08:57:16 GMT"
-      },
-      {
-        "id": "bc57435f",
-        "title": "'No Kings' rallies draw crowds across US",
-        "url": "https://www.france24.com/en/no-kings-rallies-draw-crowds-across-us",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 08:54:13 GMT"
-      },
-      {
-        "id": "a85ea78e",
-        "title": "Three Lebanese journalists killed in strikes",
-        "url": "https://www.france24.com/en/three-lebanese-journalists-killed-in-strikes",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 08:51:26 GMT"
-      },
-      {
-        "id": "c1baa598",
-        "title": "Yemen's rebels could further threaten global shipping",
-        "url": "https://www.france24.com/en/yemen-s-rebels-could-further-threaten-global-shipping",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 08:46:47 GMT"
-      },
-      {
-        "id": "9d86f947",
-        "title": "Iran: 3,500 US marines arrive in Middle East",
-        "url": "https://www.france24.com/en/iran-3-500-us-marines-arrive-in-middle-east",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 08:45:13 GMT"
-      },
-      {
-        "id": "20c2c88a",
-        "title": "Houthi attacks on Israel open new front in Mideast war, threaten Red Sea shipping",
-        "url": "https://www.france24.com/en/middle-east/20260329-yemen-houthi-attacks-on-israel-open-new-front-mideast-war-threaten-red-sea-shipping",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 07:13:29 GMT"
-      },
-      {
-        "id": "6f987512",
-        "title": "Israeli military says fifth soldier killed in south Lebanon",
-        "url": "https://www.france24.com/en/video/20260329-israeli-military-says-fifth-soldier-killed-in-south-lebanon",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 06:10:40 GMT"
-      },
-      {
-        "id": "fe56848f",
-        "title": "North Korea tests high-thrust engine for missile capable of striking US mainland",
-        "url": "https://www.france24.com/en/asia-pacific/20260329-north-korea-tests-high-thrust-engine-for-missile-capable-of-striking-us-mainland",
-        "source": "France24",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 05:09:11 GMT"
-      },
-      {
-        "id": "075ea0bd",
-        "title": "Swiss back tougher social media rules for minors, survey finds",
-        "url": "https://www.channelnewsasia.com/business/swiss-back-tougher-social-media-rules-minors-survey-finds-6024196",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 20:37:53 +0800"
-      },
-      {
-        "id": "c73d61b1",
-        "title": "CAF to make changes to regulations after Afcon final fiasco",
-        "url": "https://www.channelnewsasia.com/sport/caf-make-changes-regulations-after-afcon-final-fiasco-6024201",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 20:35:39 +0800"
-      },
-      {
-        "id": "64cb759e",
-        "title": "Iran parliament speaker says US planning ground attack",
-        "url": "https://www.channelnewsasia.com/world/iran-parliament-speaker-says-us-planning-ground-attack-6024131",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 20:07:00 +0800"
-      },
-      {
-        "id": "cffb588e",
-        "title": "CAF general-secretary quits amid turbulent times for African football",
-        "url": "https://www.channelnewsasia.com/sport/caf-general-secretary-quits-amid-turbulent-times-african-football-6024156",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 20:04:51 +0800"
-      },
-      {
-        "id": "1a5fccfb",
-        "title": "US loss can be a catalyst for improvement insists coach",
-        "url": "https://www.channelnewsasia.com/sport/us-loss-can-be-catalyst-improvement-insists-coach-6024126",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 19:31:47 +0800"
-      },
-      {
-        "id": "19bd73ca",
-        "title": "Romania coach Lucescu hospitalised after falling sick before training",
-        "url": "https://www.channelnewsasia.com/sport/romania-coach-lucescu-hospitalised-after-falling-sick-training-6024111",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 19:11:07 +0800"
-      },
-      {
-        "id": "995d1d0a",
-        "title": "Man arrested for attempted murder after car hits pedestrians in UK",
-        "url": "https://www.channelnewsasia.com/world/man-arrested-attempted-murder-after-car-hits-pedestrians-in-uk-6024086",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 18:51:56 +0800"
-      },
-      {
-        "id": "db7ae78c",
-        "title": "'Beyond frustrated' Verstappen says eighth was best he could do",
-        "url": "https://www.channelnewsasia.com/sport/beyond-frustrated-verstappen-says-eighth-was-best-he-could-do-6024071",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 18:18:54 +0800"
-      },
-      {
-        "id": "d3fc2275",
-        "title": "WTO talks near deal on reform road map amid US-India e-commerce deadlock",
-        "url": "https://www.channelnewsasia.com/world/wto-talks-near-deal-reform-us-india-e-commerce-deadlock-6023901",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 17:30:00 +0800"
-      },
-      {
-        "id": "a834faea",
-        "title": "Fans furious over clash of kit colours in US v Belgium friendly",
-        "url": "https://www.channelnewsasia.com/sport/fans-furious-over-clash-kit-colours-in-us-v-belgium-friendly-6024016",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 16:47:26 +0800"
-      },
-      {
-        "id": "5771e506",
-        "title": "Italian teenager Antonelli wins Japanese GP to take championship lead",
-        "url": "https://www.channelnewsasia.com/sport/italian-teenager-antonelli-wins-japanese-gp-take-championship-lead-6023976",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 14:49:55 +0800"
-      },
-      {
-        "id": "23369494",
-        "title": "Batam Immigration investigates alleged extortion of foreign tourists, including Singaporeans",
-        "url": "https://www.channelnewsasia.com/asia/batam-immigration-singapore-foreign-tourists-extortion-official-investigation-6023946",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 14:13:00 +0800"
-      },
-      {
-        "id": "2a7bed47",
-        "title": "Mayweather says rematch with Pacquiao is exhibition, venue still to be decided",
-        "url": "https://www.channelnewsasia.com/sport/mayweather-says-rematch-pacquiao-exhibition-venue-still-be-decided-6023951",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 12:50:40 +0800"
-      },
-      {
-        "id": "0267c648",
-        "title": "Kohli's one-format focus fuels strong IPL start",
-        "url": "https://www.channelnewsasia.com/sport/kohlis-one-format-focus-fuels-strong-ipl-start-6023941",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 12:47:10 +0800"
-      },
-      {
-        "id": "a977892b",
-        "title": "Singapore police unveil new tactical strike vehicles and water cannon fleet",
-        "url": "https://www.channelnewsasia.com/singapore/singapore-police-force-new-vehicles-tactical-strike-water-cannon-6020866",
-        "source": "Channel News Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 12:00:00 +0800"
-      },
-      {
-        "id": "6105dc06",
-        "title": "ICC states should not ignore judicial experts’ conclusions in Khan’s case",
-        "url": "https://www.aljazeera.com/opinions/2026/3/29/icc-states-should-not-ignore-judicial-experts-conclusions-in-khans-case?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 12:25:29 +0000"
-      },
-      {
-        "id": "43453d07",
-        "title": "The US-Israeli war on humanity",
-        "url": "https://www.aljazeera.com/opinions/2026/3/29/the-us-israeli-war-on-humanity?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 12:08:26 +0000"
-      },
-      {
-        "id": "08f05621",
-        "title": "Pakistan hosts four-nation bid to encourage US, Iran towards diplomacy",
-        "url": "https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-four-nation-bid-to-encourage-us-iran-towards-diplomacy?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 11:10:43 +0000"
-      },
-      {
-        "id": "e58aa488",
-        "title": "‘We will see a new government in Venezuela, in Cuba and in Iran’",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/29/we-will-see-a-new-government-in-venezuela-in-cuba-and-in?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 11:09:04 +0000"
-      },
-      {
-        "id": "aa7da6c1",
-        "title": "Olympic gender test ‘a disrespect for women’, South Africa’s Semenya says",
-        "url": "https://www.aljazeera.com/sports/2026/3/29/olympic-gender-test-a-disrespect-for-women-south-africas-semenya-says?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 10:33:51 +0000"
-      },
-      {
-        "id": "32a8b4ef",
-        "title": "Dozens detained in Tel Aviv as anti-war protest turns violent",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/29/dozens-detained-in-tel-aviv-as-anti-war-protest-turns-violent?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 09:30:28 +0000"
-      },
-      {
-        "id": "2c4ab4e4",
-        "title": "Pentagon readies ‘for weeks of US ground operations’ in Iran",
-        "url": "https://www.aljazeera.com/news/2026/3/29/pentagon-readies-for-weeks-of-us-ground-operations-in-iran-report?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 09:15:57 +0000"
-      },
-      {
-        "id": "5099c47a",
-        "title": "US-Israel war on Iran: What’s happening on day 30 of attacks?",
-        "url": "https://www.aljazeera.com/news/2026/3/29/us-israel-war-on-iran-whats-happening-on-day-30-of-attacks?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 08:54:04 +0000"
-      },
-      {
-        "id": "e7068f90",
-        "title": "Analyst says that Iran’s interest is in an extended war",
-        "url": "https://www.aljazeera.com/video/quotable/2026/3/29/analyst-says-that-irans-interest-is-in-an-extended-war?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 08:44:59 +0000"
-      },
-      {
-        "id": "c6d89d35",
-        "title": "Living in the dark: Gaza’s struggle for electricity",
-        "url": "https://www.aljazeera.com/features/2026/3/29/living-in-the-dark-gazas-struggle-for-electricity?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 08:21:13 +0000"
-      },
-      {
-        "id": "46d09c28",
-        "title": "Pakistan hosts top Saudi, Turkish, Egyptian diplomats over war in Iran",
-        "url": "https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-top-saudi-turkish-egyptian-diplomats-over-war-in-iran?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 08:11:52 +0000"
-      },
-      {
-        "id": "c1e9d8e5",
-        "title": "Lebanese resident stays behind with pet monkey despite evacuation orders",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/29/lebanese-resident-stays-behind-with-pet-monkey-despite-evacuation-orders?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 07:31:17 +0000"
-      },
-      {
-        "id": "942b584a",
-        "title": "Iran’s IRGC claims attacks on UAE, Bahrain aluminium facilities",
-        "url": "https://www.aljazeera.com/news/2026/3/29/irans-irgc-claim-attacks-on-uae-bahrain-facilities-linked-to-us-war?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 07:30:22 +0000"
-      },
-      {
-        "id": "eded2cac",
-        "title": "Kimi Antonelli wins Japanese GP to become youngest F1 title leader",
-        "url": "https://www.aljazeera.com/sports/2026/3/29/kimi-antonelli-wins-japanese-gp-to-become-youngest-f1-title-leader?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 07:20:58 +0000"
-      },
-      {
-        "id": "880dbefa",
-        "title": "‘Trump has to open the Strait of Hormuz’ with ground forces",
-        "url": "https://www.aljazeera.com/video/quotable/2026/3/29/trump-has-to-open-the-strait-of-hormuz-with-ground-forces?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 07:15:40 +0000"
-      },
-      {
-        "id": "a59af985",
-        "title": "Quieter, stealthier, further: new hybrid unit to power China’s small battle drones",
-        "url": "https://www.scmp.com/news/china/military/article/3348309/quieter-stealthier-further-new-hybrid-unit-power-chinas-small-battle-drones?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 13:00:09 +0000"
-      },
-      {
-        "id": "e1517db0",
-        "title": "Europe’s response to Iran war risks becoming its ‘darkest hour’",
-        "url": "https://www.scmp.com/opinion/world-opinion/article/3347867/europes-response-iran-war-risks-becoming-its-darkest-hour?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 12:30:08 +0000"
-      },
-      {
-        "id": "e9c15d44",
-        "title": "Iran targets Bahrain aluminium, 2 injured amid Hormuz closure",
-        "url": "https://www.scmp.com/news/world/middle-east/article/3348314/iran-targets-bahrain-aluminium-2-injured-amid-hormuz-closure?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 12:22:06 +0000"
-      },
-      {
-        "id": "ee47f184",
-        "title": "Brace yourself for conditions at fire-hit Wang Fuk Court, returning residents told",
-        "url": "https://www.scmp.com/news/hong-kong/society/article/3348313/brace-yourself-conditions-fire-hit-wang-fuk-court-returning-residents-told?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 12:13:57 +0000"
-      },
-      {
-        "id": "ed434e55",
-        "title": "Japan upgrades destroyer with Tomahawk missiles. Why it might pose a threat to China",
-        "url": "https://www.scmp.com/news/china/military/article/3348299/japan-upgrades-destroyer-tomahawk-missiles-why-it-might-pose-threat-china?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 12:00:08 +0000"
-      },
-      {
-        "id": "c1e36dfd",
-        "title": "French prosecutors open terror probe after Bank of America attack attempt",
-        "url": "https://www.scmp.com/news/world/europe/article/3348307/french-prosecutors-open-terror-probe-after-bank-america-attack-attempt?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 11:45:58 +0000"
-      },
-      {
-        "id": "21b198fc",
-        "title": "China biotech deals hit record as innovative drugs draw interest of multinationals",
-        "url": "https://www.scmp.com/business/china-business/article/3348295/china-biotech-deals-hit-record-innovative-drugs-draw-interest-multinationals?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 11:26:21 +0000"
-      },
-      {
-        "id": "e58cdcc9",
-        "title": "Trump’s Iran war: could Republican rift and Maga discontent doom midterms?",
-        "url": "https://www.scmp.com/news/china/diplomacy/article/3348205/trumps-iran-war-could-republican-rift-and-maga-discontent-doom-midterms?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 11:00:09 +0000"
-      },
-      {
-        "id": "55abd0f0",
-        "title": "Mongolian parliament selects new prime minister amid corruption allegations",
-        "url": "https://www.scmp.com/news/asia/east-asia/article/3348300/mongolian-parliament-selects-new-prime-minister-amid-corruption-allegations?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 10:35:13 +0000"
-      },
-      {
-        "id": "0aef73ff",
-        "title": "Hong Kong’s MPF authority to propose 2-tier surcharges for late employer contributions",
-        "url": "https://www.scmp.com/news/hong-kong/society/article/3348298/mpf-authority-propose-2-tier-surcharges-late-employer-contributions?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 10:18:10 +0000"
-      },
-      {
-        "id": "14e99767",
-        "title": "Chinese analogue chipmakers join wave of global price rises as mature-node firms eye gains",
-        "url": "https://www.scmp.com/tech/big-tech/article/3348284/chinese-analogue-chipmakers-join-wave-global-price-rises-mature-node-firms-eye-gains?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 10:00:13 +0000"
-      },
-      {
-        "id": "ff3857c3",
-        "title": "China mum, inspired by son’s heroic death, has handcrafted shoe pads for soldiers for 20 years",
-        "url": "https://www.scmp.com/news/people-culture/trending-china/article/3347835/china-mum-inspired-sons-heroic-death-has-handcrafted-shoe-pads-soldiers-20-years?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 10:00:09 +0000"
-      },
-      {
-        "id": "fe39689c",
-        "title": "Regional diplomats gather in Pakistan for talks to end Iran war",
-        "url": "https://www.scmp.com/news/asia/south-asia/article/3348296/regional-diplomats-gather-pakistan-talks-end-iran-war?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 09:59:55 +0000"
-      },
-      {
-        "id": "598873fb",
-        "title": "ByteDance bolsters Seedance 2.0 with watermarking, IP safeguards ahead of global roll-out",
-        "url": "https://www.scmp.com/tech/policy/article/3348290/bytedance-bolsters-seedance-20-watermarking-ip-safeguards-ahead-global-roll-out?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 09:00:13 +0000"
-      },
-      {
-        "id": "b93ea55b",
-        "title": "Jiang Xueqin, the viral ‘prophet’ predicting the world’s fate from a Beijing classroom",
-        "url": "https://www.scmp.com/news/china/politics/article/3348289/jiang-xueqin-viral-prophet-predicting-worlds-fate-beijing-classroom?utm_source=rss_feed",
-        "source": "SCMP",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 09:00:10 +0000"
-      },
-      {
-        "id": "b8397f97",
-        "title": "Punish Russia for Helping Iran Target the U.S. Military",
-        "url": "https://warontherocks.com/2026/03/punish-russia-for-helping-iran-target-the-u-s-military/",
-        "source": "War on the Rocks",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 07:30:38 +0000"
-      },
-      {
-        "id": "99f0e107",
-        "title": "Iran’s Water Weapon Against the Gulf",
-        "url": "https://www.project-syndicate.org/commentary/us-escalation-iran-war-threatens-gulf-desalination-infrastructure-by-michael-christopher-low-2026-03",
-        "source": "Project Syndicate",
-        "category": "global",
-        "published_at": "Sat, 28 Mar 2026 14:37:22 GMT"
-      },
-      {
-        "id": "243def12",
-        "title": "Drillers See Triple-Digit Crude and Hit the Brakes",
-        "url": "https://oilprice.com/Energy/Crude-Oil/Drillers-See-Triple-Digit-Crude-and-Hit-the-Brakes.html",
-        "source": "OilPrice",
-        "category": "global",
-        "published_at": "Sat, 28 Mar 2026 18:00:00 -0500"
-      },
-      {
-        "id": "d8f3d9f8",
-        "title": "Middle East War Reignites the Energy Transition",
-        "url": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Middle-East-War-Reignites-the-Energy-Transition.html",
-        "source": "OilPrice",
-        "category": "global",
-        "published_at": "Sat, 28 Mar 2026 16:00:00 -0500"
-      },
-      {
-        "id": "fe712749",
-        "title": "Is It Time for Energy Rationing to Return?",
-        "url": "https://oilprice.com/Energy/Energy-General/Is-It-Time-for-Energy-Rationing-to-Return.html",
-        "source": "OilPrice",
-        "category": "global",
-        "published_at": "Sat, 28 Mar 2026 14:00:00 -0500"
-      },
-      {
-        "id": "03396146",
-        "title": "Washington Plans $1 Billion Deal to Kill Wind Power as Energy Prices Rise",
-        "url": "https://oilprice.com/Energy/Energy-General/Washington-Plans-1-Billion-Deal-to-Kill-Wind-Power-as-Energy-Prices-Rise.html",
-        "source": "OilPrice",
-        "category": "global",
-        "published_at": "Sat, 28 Mar 2026 12:00:00 -0500"
-      },
-      {
-        "id": "2bdbb003",
-        "title": "Why Spain Is Weathering Europe’s Energy Crunch Better Than Most",
-        "url": "https://oilprice.com/Alternative-Energy/Solar-Energy/Why-Spain-Is-Weathering-Europes-Energy-Crunch-Better-Than-Most.html",
-        "source": "OilPrice",
-        "category": "global",
-        "published_at": "Sat, 28 Mar 2026 10:00:00 -0500"
-      },
-      {
-        "id": "3a837ec4",
-        "title": "「增肌」影響者Clavicular遭佛羅里達州逮捕　指控涉嫌電擊罪",
-        "url": "https://www.bbc.com/news/articles/cr513g72vqgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Sat, 28 Mar 2026 13:19:20 GMT",
-        "summary_zh": "佛羅里達州一名名為Clavicular的「增肌」影響者，近日遭到逮捕。根據當地當局的說法，Clavicular被指控在一場打架事件中扮演了煽動角色，並將事件錄影並上傳到網路上。這名影響者被控涉嫌電擊罪，目前尚未有更多細節。這一事件引起了網路上許多人的關注，許多人對於Clavicular的行為表示不滿和譴責。這一事件也引發了對於網路影響者的責任和道德問題的討論。",
+        "id": "b062fc86",
+        "title": "南非小鎮改名引發種族緊張",
+        "url": "https://www.theguardian.com/world/2026/mar/29/graaff-reinet-robert-sobukwe-south-african-town-name-change-stirs-racial-tensions",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 04:00:46 GMT",
+        "summary_zh": "南非一座小鎮因改名而引發了種族緊張。該鎮原名為殖民地時期的Graaff-Reinet，現在將改名為抗議種族隔離的抗議領袖Robert Sobukwe。這個決定引起了居民的爭議，甚至有居民簽署了請願書，舉辦了反對和支持的遊行，還有居民向文化部長Gayton McKenzie發出了正式投訴信。文化部長在2月6日批准了改名的決定。這個改名的決定引發了種族緊張，居民對此表示了強烈的反對或支持。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "5b2e6109",
-        "title": "川普的最大支持者：林賽格雷厄姆轉變為伊朗戰爭的最大支持者",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/mar/29/lindsey-graham-trump-iran-war",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 11:00:03 GMT",
-        "summary_zh": "南卡羅來納州的共和黨參議員林賽格雷厄姆曾經是川普的死對頭，但現在他已經與川普和解，並且在推動川普對伊朗的戰爭。格雷厄姆多年來一直渴望與伊朗政權對抗，他認為伊朗政權的倒台將給美國總統帶來自己的「柏林牆時刻」。現在，他正在敦促川普進一步升級對伊朗的戰爭。他援引第二次世界大戰中的血腥伊沃吉馬島戰役來支持自己的立場。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "84aefefe",
-        "title": "模特兒行業激進主義者要求調查機構如何「助長」艾普斯坦的虐待行為",
-        "url": "https://www.theguardian.com/us-news/2026/mar/29/modeling-industry-activist-inquiry-epstein-files-sara-ziff",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 10:00:53 GMT",
-        "summary_zh": "模特兒行業激進主義者莎拉·齊夫（Sara Ziff）呼籲商界領袖應該被召喚到美國國會審查委員會，調查模特兒行業機構在傑佛瑞·艾普斯坦性交易醜聞中的角色。莎拉齊夫是非營利組織模特兒聯盟（Model Alliance）的創始人，該組織致力於為時尚行業工人爭取公平待遇、勞動權益和安全工作環境。莎拉齊夫表示，商界領袖需要被調查，以了解模特兒行業機構是否有助長艾普斯坦的虐待行為。這一要求是針對近期對艾普斯坦性交易醜聞的調查結果而提出。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9b837c29",
-        "title": "無王者抗議活動將在全美50州及16國舉行，抗議川普政府",
-        "url": "https://www.theguardian.com/us-news/2026/mar/28/no-kings-protests-trump",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sat, 28 Mar 2026 22:27:42 GMT",
-        "summary_zh": "美國即將迎來最大規模的抗議活動，無王者抗議活動將在全美50州及16國舉行，抗議川普政府。根據組織者們的估計，將有超過3,000個活動在全美各地舉行，包括50州及16個國家。抗議活動的組織者包括反抗政府的團體、勞工工會和其他民間組織。組織者們預計，這將是美國歷史上最大規模的抗議活動。抗議活動的目的在於表達對川普政府的不滿，抗議者將在各地表達自己的聲音。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c0bf96f4",
-        "title": "美國財政部要求《金融時報》撤稿：指控文章內容不實",
-        "url": "https://www.theguardian.com/us-news/2026/mar/28/treasury-department-financial-times-federal-reserve",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sat, 28 Mar 2026 20:58:06 GMT",
-        "summary_zh": "美國財政部週五要求《金融時報》撤稿，指控該報在財政部長斯科特·貝森特（Scott Bessent）關於美聯儲的看法文章中，刊登了「不實的主張」。財政部在正式投訴中指出，這些主張是「製造的」。財政部官員在投訴信中，對《金融時報》多個主張提出異議，並批評該報標題不符實際內容。財政部的投訴被發送給《金融時報》高級編輯和日經集團（Nikkei Inc.）高層。財政部長的看法在《金融時報》文章中被描述為美聯儲監管的增加，這引起了財政部的不滿。財政部認為，這些看法被不當地呈現，並對《金融時報》提出正式投訴。這一事件可能會對美聯儲的監管政策產生影響，同時也會對《金融時報》和財政部的關係產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4ce01bb0",
-        "title": "佛羅里達州「鱷魚阿拉卡茲」移民拘留所官員必須讓律師接觸囚犯",
-        "url": "https://www.theguardian.com/us-news/2026/mar/28/florida-alligator-alcatraz-attorneys-access-clients",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sat, 28 Mar 2026 18:04:13 GMT",
-        "summary_zh": "一名聯邦法官在週五判決佛羅里達州一間由州政府營運的移民拘留所，要求官員為律師提供更好的接觸囚犯的機會。法官雪莉·波爾斯特·查普爾 (Sheri Polster Chappell) 的判決指出，拘留所官員必須為囚犯提供免費、私人、未監控的電話溝通機會。律師也可以不事先預約就拜訪囚犯，跳過拘留所的預約安排。這項判決旨在改善囚犯和律師之間的溝通，讓律師能夠更好地為囚犯辯護。這項判決對於改善移民拘留所的管理和囚犯權益具有重要意義。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e366b4ed",
-        "title": "十年抗擊川普：我學到的六個教訓",
-        "url": "https://www.theguardian.com/commentisfree/2026/mar/29/trump-grassroots-organizing",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 11:00:01 GMT",
-        "summary_zh": "十年前，我對組織活動一無所知，但普通人在抗拒極權主義的崛起中扮演著至關重要的角色。在2017年1月，我寄出了對幾十位朋友和熟人的一封試探性電子郵件，詢問他們是否願意加入名為「Indivisible」的組織，該組織旨在作為一個民間自由主義的基礎設施來對抗新政府。當時，我對活動主義一無所知。自那以來，超過九年的時間，我們的團體每個工作日發送了一封電子郵件，總共約有2300封，內容是對我們成員的單一具體要求：打電話給當選代表。捐款。參加集會。在這段時間內，我們敲了數十萬個門，籌集了數百萬美元，贊助了難民家庭，並 mobilize 我們的朋友、鄰居、同事和熟人繼續為民主而戰。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9fcc4540",
-        "title": "伊朗對歐洲發出警告：迪戈加西亞導彈事件是改變遊戲規則",
-        "url": "https://thehill.com/policy/defense/5805173-iran-missile-threat-europe/",
-        "source": "The Hill",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 10:00:00 +0000",
-        "summary_zh": "伊朗在3月20日發射兩枚導彈向印度洋的美英聯合基地，向歐洲發出警告，表明伊朗似乎能夠發動之前被認為超出其能力範圍的攻擊。雖然這次發射未能取得成功，但仍然證明伊朗的導彈技術有所進步。伊朗的這一行動可能會對歐洲地區產生重大影響，尤其是在能源安全和地緣政治方面。這一事件也可能會加劇美伊關係的緊張情緒。伊朗的這一行動是否會導致歐洲地區的安全局勢進一步惡化，還有待觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "21f52adf",
-        "title": "週日節目預告: 共和黨分裂延伸至國土安全局資金爭議; 伊朗衝突擴大",
-        "url": "https://thehill.com/homenews/sunday-talk-shows/5806066-sunday-shows-preview-gop-divide-spills-into-dhs-funding-battle-iran-conflict-widens/",
-        "source": "The Hill",
-        "category": "global",
-        "published_at": "Sat, 28 Mar 2026 22:25:03 +0000",
-        "summary_zh": "共和黨內部分裂持續惡化，國土安全局資金爭議成為最新的焦點。美國眾議院否決參議院通過的國土安全局部分資金法案，造成共和黨內部的裂痕。參議院早於星期五通過了一項法案，通過一致同意投票，資金國土安全局但不包括移民和海關執法局（ICE）和美國邊境巡邏隊。這項法案的通過，意味著國土安全局將在未來幾天內關閉。共和黨內部的分裂，讓國土安全局資金爭議變得更加複雜。這項爭議不僅影響國土安全局的運作，也影響美國的整體安全。伊朗的衝突持續擴大，對美國的影響也日益明顯。美國政府正在努力應對伊朗的挑戰，同時也需要處理國土安全局資金的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "07fa8e3f",
-        "title": "伊朗支持者在社交媒體上推出反川普的漫畫，反擊川普在宣傳戰中",
-        "url": "https://thehill.com/homenews/administration/5805249-iran-war-propaganda-memes/",
-        "source": "The Hill",
-        "category": "global",
-        "published_at": "Sat, 28 Mar 2026 21:00:00 +0000",
-        "summary_zh": "伊朗戰爭是第一場主要衝突，宣傳戰的勝負可能取決於社交媒體上的漫畫。近日，支持伊朗的帳戶在社交媒體上推出了一系列的漫畫，嘲笑川普總統，將他描繪成以色列總理內塔尼亞胡的傀儡，並暗示美國軍隊若戰爭持續，將面臨重大損失。這些漫畫在社交媒體上迅速流行，展現了伊朗對宣傳戰的強大能力。這種宣傳戰的風格與以往的傳統宣傳不同，使用了更具創意和互動性的方式，吸引了年輕人的關注。這種風格的宣傳戰可能會在未來的戰爭中扮演重要角色，讓我們看到宣傳戰的新形態。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6bf4b93f",
-        "title": "2026年世界盃期間，費城酒吧可延遲至凌晨4點關閉",
-        "url": "https://thehill.com/homenews/state-watch/5806024-philadelphia-bars-extended-hours/",
-        "source": "The Hill",
-        "category": "global",
-        "published_at": "Sat, 28 Mar 2026 20:36:41 +0000",
-        "summary_zh": "2026年世界盃將在費城舉行，為了吸引觀眾，賓夕法尼亞州州長約許·夏皮羅 (D) 簽署了一個跨黨派法案，允許費城酒吧在世界盃賽事和第四七月慶典期間延遲至凌晨4點關閉。這項政策旨在為觀眾提供更好的體驗，並為城市帶來更多收入。然而，這也引發了對酒吧業者和居民的擔憂，擔心晚上更長的營業時間將會導致噪音、交通擁擠和其他問題。費城市政府正密切監控這項政策的執行情況，確保它們能夠平衡觀眾需求和居民的權益。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "1ec860e0",
-        "title": "美國多地爆發「No Kings」抗議活動，抗議唐納德·川普",
-        "url": "https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 04:11:27 GMT",
-        "summary_zh": "美國多個城市發生了「No Kings」抗議活動，抗議唐納德·川普。這些抗議活動主要聚焦在川普的政治立場和政策。其中，明尼蘇達州的一場抗議活動特別吸引了眾人注意，因為歌手布魯斯·斯普林斯汀（Bruce Springsteen）在現場表演。這些抗議活動表明美國民眾對於政治議題的關注度不斷升高。川普的政治立場和政策是否能夠得到民眾的支持，仍然存有疑問。這些抗議活動將會對美國政治產生什麼影響，尚待觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b96fedbf",
-        "title": "Long lines, martinis and memories as LA says adieu to cherished restaurant Taix",
-        "url": "https://www.theguardian.com/us-news/2026/mar/29/los-angeles-taix-french-restaurant-echo-park",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 12:00:02 GMT"
-      },
-      {
-        "id": "d6fdc31b",
-        "title": "‘People should be scared’: convictions in US ‘antifa’ trial set dangerous precedent",
-        "url": "https://www.theguardian.com/us-news/2026/mar/29/texas-leftwing-antifa-activist-trial",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 12:00:01 GMT"
-      },
-      {
-        "id": "7fa9a4e6",
-        "title": "特朗普最新消息一瞥：無王者集會吸引數百萬人上街抗議總統",
-        "url": "https://www.theguardian.com/us-news/2026/mar/29/trump-news-at-a-glance-no-kings-rallies-draw-millions-to-us-streets-in-protest-against-president",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 01:38:41 GMT",
-        "summary_zh": "近日，美國各地發生了大規模的抗議活動，抗議者來自50個州和16個國家，抗議總統特朗普入侵伊朗、移民政策和生活成本上升等問題。美國政治新聞的關鍵故事從3月28日星期六一瞥。無王者集會在美國50個州和16個國家舉行，這是對特朗普政府的第三次抗議活動。抗議者聚集在各地，抗議特朗普入侵伊朗、生活成本上升和聯邦移民執法等問題。這些抗議活動表明，美國民眾對特朗普政府的政策感到不滿和擔憂。這些抗議活動的影響將對美國政治和社會產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "15d76a8c",
-        "title": "No Kings抗議活動最新消息：美國三千多個城市和鎮鎮預計參與抗議活動",
-        "url": "https://www.theguardian.com/us-news/live/2026/mar/28/no-kings-protests-us-trump-administration-latest-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sat, 28 Mar 2026 23:44:02 GMT",
-        "summary_zh": "美國三千多個城市和鎮鎮預計參與No Kings抗議活動，抗議對象是川普政府。這是自川普當選總統後第三次的抗議活動。抗議活動將在美國各地的城市和小鎮舉行，預計參與人數將達到數百萬人。抗議活動的組織者之一，Indivisible的共同創始人Ezra Levin表示，這將是美國歷史上最大規模的抗議活動。抗議活動的原因是川普政府的政策，包括移民政策。今年一月，美國移民和海關執法局（ICE）在明尼蘇達州的Twin Cities地區實施了強制移民政策，導致兩名居民死亡。抗議活動將在明尼蘇達州的Twin Cities地區舉行，抗議者將要求政府停止強制移民政策。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a41bb980",
-        "title": "JD 簡·文斯領先CPAC民調，成為共和黨下一任總統候選人首選人",
-        "url": "https://www.theguardian.com/us-news/2026/mar/28/jd-vance-leads-cpac-poll-republican-presidential-candidate",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sat, 28 Mar 2026 23:25:08 GMT",
-        "summary_zh": "美國共和黨副總統候選人JD 簡·文斯（JD Vance）在今年在德克薩斯州舉行的保守政治行動會議（CPAC）中，獲得超過53%的選民支持，成為共和黨下一任總統候選人首選人。根據路透社報導，CPAC的民調結果顯示，文斯在超過1600名參與投票的會議參與者中，獲得了53%的支持率。美國國務卿馬可·魯比奧（Marco Rubio）則以35%的支持率排名第二。這項民調結果顯示，文斯在共和黨內部的影響力正在增強，可能會在未來的選舉中扮演重要角色。然而，需要注意的是，這項民調僅代表了會議參與者的意見，並不一定反映整個共和黨的意見。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3b63bd6f",
-        "title": "James Tolkan, known for his roles in Top Gun and Back to the Future, dies aged 94",
-        "url": "https://www.theguardian.com/us-news/2026/mar/28/james-tolkan-top-gun-back-to-the-future-dies",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sat, 28 Mar 2026 21:50:26 GMT"
-      },
-      {
-        "id": "0bf53d2c",
-        "title": "‘No kings, just vaccines!’: demonstrators gather at NIH headquarters to protest against cuts to medical research",
-        "url": "https://www.theguardian.com/us-news/2026/mar/28/national-institutes-health-no-kings-protest",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sat, 28 Mar 2026 19:57:39 GMT"
-      },
-      {
-        "id": "5cbe97f1",
-        "title": "美國眾議院通過臨時國土安全部預算案，共和黨拒絕參議院協議",
-        "url": "https://www.theguardian.com/us-news/2026/mar/28/us-house-stopgap-dhs-funding-bill-republicans-senate",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sat, 28 Mar 2026 19:12:10 GMT",
-        "summary_zh": "美國眾議院共和黨拒絕參議院的臨時國土安全部預算協議，選擇通過自己的預算案。這一行動延續了數周的預算僵局，影響了航空旅行。眾議院通過的臨時預算案將國土安全部預算擴展八周，獲得213票贊成、203票反對。這一預算案排除了移民及海關執法局（ICE）和邊境巡邏隊的預算。這一行動延續了美國國會預算僵局，影響了美國的航空旅行。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c51be3d9",
-        "title": "Protesters dumped a Columbus statue in 2020. Trump installed a replica near the White House",
-        "url": "https://www.theguardian.com/commentisfree/2026/mar/29/trump-columbus-statue-white-house-history",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 12:00:02 GMT"
-      },
-      {
-        "id": "59b48042",
-        "title": "教育與分享日，美國，2026",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/03/education-and-sharing-day-u-s-a-2026/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 00:00:00 +0000",
-        "summary_zh": "美國教育已經在自由、機會和公民道德的基礎上站穩250年。這個教育與分享日，我們重申了嚴格教育的重要性——它能夠為未來的美國人提供領導力、愛國主義和誠實的能力。今天，我們致敬拉比門赫姆的生活、遺產和願景。拉比門赫姆是一位對教育的貢獻者，他的理念對美國教育產生了深遠的影響。教育與分享日的目的在於鼓勵美國人關注教育的重要性，並為未來的美國人提供更好的教育機會。這項活動將繼續推動美國教育的進步，並為未來的美國人提供更好的成長環境。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4299d4bf",
-        "title": "Russia took satellite images of US base in Saudi Arabia before Iran strike: Zelensky",
-        "url": "https://thehill.com/policy/international/5806319-zelensky-russian-satellite-images-iran/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 12:37:38 +0000"
-      },
-      {
-        "id": "3c75883f",
-        "title": "Pakistan holds talks with Turkey, Saudi Arabia, Egypt on Iran war",
-        "url": "https://thehill.com/policy/international/5806308-pakistan-turkey-saudi-egypt-iran-war-talks/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 12:09:44 +0000"
-      },
-      {
-        "id": "6c68ef62",
-        "title": "Handicapping the midterms: Why the GOP is trying to change the rules",
-        "url": "https://thehill.com/opinion/campaign/5804513-voter-fraud-gerrymandering-2026/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 12:00:00 +0000"
-      },
-      {
-        "id": "7bd8b811",
-        "title": "肯尼迪後代批評億萬富翁與AI公司在紐約議會選舉中花巨資",
-        "url": "https://thehill.com/homenews/campaign/5806153-jfk-grandson-schlossberg-says-billionaires-massive-ai-companies-spending-millions-in-new-york-house-race/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 11:00:00 +0000",
-        "summary_zh": "肯尼迪家族後代、紐約議會候選人Jack Schlossberg在週日批評億萬富翁與科技業巨頭在他參選的議會選舉中投入巨額資金。 他表示，這些資金是想「買下選舉」。 在這場選舉中，Schlossberg面對著由億萬富翁或AI公司背後支持的對手。 這些對手的資金來源讓Schlossberg感到擔憂，他認為這可能會影響選舉的公平性。 Schlossberg的對手包括一些來自科技業的億萬富翁，例如Google的創始人之一Eric Schmidt的兒子。 這些富翁的資金支持可能會使得Schlossberg的競選工作更加困難。 Schlossberg的競選團隊正努力爭取民眾的支持，盡量減少對手的資金優勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6aa2b8fc",
-        "title": "赫斯提將激進基督教意識形態注入美國軍隊",
-        "url": "https://thehill.com/policy/defense/5803295-hegseth-christianity-military-pentagon/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 10:00:00 +0000",
-        "summary_zh": "美國國防部長赫斯提在伊朗戰爭的簡報中提到，美國人應該跪下禱告耶穌，祈求美軍在中東的成功。幾天後，他在演講中禱告，希望「邪惡靈魂」能被「永遠地判處地獄」。這些言論引起了爭議，許多人批評赫斯提將宗教意識形態帶入軍隊，違反了美國軍隊的中立性原則。這種行為可能會對美軍士兵的凝聚力和士氣造成不利影響。許多人認為，這種行為違反了美國憲法第一修正案的精神，即政府應該保持中立，避免對任何宗教或政治信仰的偏袒。赫斯提的言論引起了輿論的關注，許多人呼籲他撤回這些言論，並恢復軍隊的中立性原則。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "03a4f67a",
-        "title": "副總統瓦恩斯稱自己對不明飛行物「著迷」，將外星人稱為「惡魔」",
-        "url": "https://thehill.com/homenews/administration/5806206-vance-obsessed-ufo-mystery/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 03:02:00 +0000",
-        "summary_zh": "副總統瓦恩斯在最新的採訪中透露，他對不明飛行物（UFO）感到「著迷」，並承諾在離職前要揭開這個神秘的面紗。他表示自己比任何人都更好奇這個問題，並且擁有三年來對美國政府最高層級的資訊。瓦恩斯的言論引起了外界的關注，他的說法也引發了對政府隱瞞情報的質疑。這個事件可能會對美國政府的信任度產生影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "79423d19",
-        "title": "FBI 導致推動釋放調查文件關於瑞威爾議員與中國間諜事件",
-        "url": "https://thehill.com/homenews/administration/5806190-fbi-director-pushes-to-release-investigative-files-on-rep-eric-swalwell-reports/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 02:11:19 +0000",
-        "summary_zh": "美國聯邦調查局局長卡許·帕特爾（Kash Patel）正推動釋放與加州民主黨議員瑞威爾（Eric Swalwell）與疑似中國間諜互動的調查文件。根據紐約時報和華盛頓郵報的報導，聯邦調查局在加州的探員和其他人員已被指示收集並刪除敏感資訊。這項調查是針對瑞威爾與中國間諜芳芳（Fang Fang）互動的結果。瑞威爾在2014年與芳芳互動，當時芳芳正在與瑞威爾競選助理的前任女友發展關係。瑞威爾在2015年與芳芳互動時，芳芳已經被聯邦調查局視為疑似間諜。瑞威爾的辦公室否認任何不當行為。這項調查事件可能會對瑞威爾的政治生涯造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ccd7dd3a",
-        "title": "美國眾議院通過一項動議，要求特朗普政府延長海地移民暫時保護",
-        "url": "https://thehill.com/homenews/house/5806112-trump-haiti-tps-petition-vote/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Sat, 28 Mar 2026 22:45:53 +0000",
-        "summary_zh": "美國眾議院一項針對海地移民的暫時保護措施動議，已經收集到足夠的簽名，迫使眾議院進行投票。民主黨議員馬麗·格勞森坎普·佩雷茲（Marie Gleusenkamp Perez）是第218位簽名人，還有四名共和黨議員也加入了這項動議。這項動議要求特朗普政府延長海地移民的暫時保護措施，這些移民來自於海地並在2010年海地大地震後來到美國。該動議的通過意味著美國政府必須考慮延長這些移民的暫時保護措施，否則他們將面臨被遣返的風險。這項動議的通過也表明美國對海地移民的暫時保護措施有所關注，同時也展現了美國政治對移民問題的關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "dc74deb7",
-        "title": "副總統范斯(JD范斯)贏得2028年共和黨總統提名CPAC民意調查",
-        "url": "https://thehill.com/homenews/campaign/5806096-cpac-straw-poll-vance-rubio/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Sat, 28 Mar 2026 22:17:34 +0000",
-        "summary_zh": "副總統范斯(JD范斯)在共和黨人聚集的保守政治行動會議(CPAC)上贏得了2028年共和黨總統提名的民意調查。根據調查結果，范斯獲得了參與投票的約53%的支持。這項民意調查在德克薩斯州格雷普維的年度會議上進行。這項結果表明范斯在共和黨內的支持度頗高。然而，這也意味著2028年共和黨總統提名競選將是一場激烈的爭奪戰。范斯的勝利也引起了對他的競選前景的關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "49cb1865",
-        "title": "美國國會與川普政府三度試圖解決國土安全部資金短缺問題",
-        "url": "https://thehill.com/homenews/5806028-congress-dhs-funding-attempts/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Sat, 28 Mar 2026 21:37:09 +0000",
-        "summary_zh": "美國國會與川普政府在國土安全部資金短缺問題上進行了三次協商，但仍未能達成共識。國土安全部資金短缺已經持續43天，無法預測何時結束。國會民主黨人阻止了一項維持國土安全部運作的法案，要求對該部門進行大規模改革。這項改革包括對移民和海關執法局（ICE）和交通安全管理局（TSA）等機構進行調整。國會共和黨人則認為這項改革過於激進，會對國家安全造成風險。目前，國土安全部資金短缺問題仍未解決，美國政府的運作受到影響。這項短缺問題不僅影響國土安全部，還會對整個政府的運作造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3cf2a2ae",
-        "title": "李先生呼籲參議院取消春季休假，重新召開會議撥款國土安全部",
-        "url": "https://thehill.com/homenews/senate/5805993-lee-calls-on-senate-to-ditch-spring-recess-reconvene-to-fund-dhs/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Sat, 28 Mar 2026 20:22:11 +0000",
-        "summary_zh": "美國參議員李先生（共和黨，猶他州）在週六呼籲他的參議院同事取消兩週的休假，並返回華盛頓，同時國土安全部（DHS）的撥款仍在擱淺。李先生表示，如果不想為國防戰鬥而犧牲，別當火焰消防員；如果不願意在困難時期投下艱難的選擇，別當政治家。李先生強調，國土安全部的撥款是國會的首要任務，應該立即通過。同時，他也批評民主黨人對國土安全部的撥款沒有足夠的支持。李先生的呼籲引發了對國會會議安排和國土安全部撥款的爭議。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "0d48964e",
-        "title": "美國銀行同意支付 72.5 億美元和解費用，結束與愛普斯坦性侵案的法律糾紛",
-        "url": "https://www.bbc.com/news/articles/cn0wjgwvp2ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "finance",
-        "published_at": "Sat, 28 Mar 2026 15:17:35 GMT",
-        "summary_zh": "美國銀行同意支付 72.5 億美元的和解費用，結束與前美國金融大亨傑夫·愛普斯坦 (Jeffrey Epstein) 性侵犯案的法律糾紛。這起訴訟指控美國銀行協助愛普斯坦的性販運業務。這項和解是對愛普斯坦性侵犯案的最新發展，該案已經引起了全球的關注。愛普斯坦曾被指控犯下多起性侵犯罪，並在 2019 年自殺前被關押在監獄中。美國銀行的和解表明該銀行可能會面臨法律責任，承認其在愛普斯坦性侵犯案中的角色。這項和解將對美國銀行的聲譽和財務產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "83b1812e",
-        "title": "Zelenskiy Seeks Fuel Supply Deals During Middle East Tour",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-28/zelenskiy-seeks-long-term-fuel-supply-deals-on-middle-east-tour",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-28 14:58:09"
-      },
-      {
-        "id": "004e1180",
-        "title": "Australia LNG disruptions continue after Narelle, thousands without power",
-        "url": "https://www.reuters.com/business/energy/australia-lng-disruptions-continue-after-narelle-thousands-without-power-2026-03-29/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-03-29 00:52:50"
-      },
-      {
-        "id": "0e546d13",
-        "title": "US Job Market Likely Thawed Out This Month After February Chill",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-28/us-job-market-probably-thawed-out-this-month-after-february-chill",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-28 20:00:00"
-      },
-      {
-        "id": "c994fe03",
-        "title": "Inside ‘Project Eagle,’ JPMorgan’s High-Wire Act to Fund EA Deal",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-28/how-jpmorgan-pulled-off-ea-s-15-billion-debt-sale-amid-war",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-28 19:00:00"
-      },
-      {
-        "id": "b95cc1c0",
-        "title": "Meloni Mulls Changes at Italian State-Owned Firms After Setback",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-28/meloni-mulls-changes-at-italian-state-owned-firms-after-setback",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-28 17:26:20"
-      },
-      {
-        "id": "393fb19f",
-        "title": "India Says Iran War Could Hit Growth, Widen Fiscal Deficit",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-28/india-says-iran-war-could-hit-growth-widen-fiscal-deficit",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-28 15:42:21"
-      },
-      {
-        "id": "59d57880",
-        "title": "Manila, Beijing resume talks on South China Sea, energy security",
-        "url": "https://www.reuters.com/business/energy/manila-beijing-resume-talks-south-china-sea-energy-security-2026-03-28/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-03-28 15:01:34"
-      },
-      {
-        "id": "f6236a3c",
-        "title": "DJs Blame Private Equity for Music Firm’s Woes",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-03-28/djs-blame-private-equity-for-native-instruments-insolvency",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-28 15:00:01"
-      }
-    ],
-    "ai": [
-      {
-        "id": "98eb0af9",
-        "title": "Suno leans into customization with v5.5",
-        "url": "https://www.theverge.com/entertainment/903056/suno-ai-music-v5-5-model",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-03-28T14:33:10-04:00"
-      },
-      {
-        "id": "719f4154",
-        "title": "Why can’t TikTok identify AI generated ads when I can?",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-03-28T10:00:00-04:00"
-      },
-      {
-        "id": "ed03f12d",
-        "title": "Nexstar-Tegna deal on ice after judge issues temporary restraining order",
-        "url": "https://www.politico.com/news/2026/03/28/nexstar-tegna-media-merger-00849504",
-        "source": "Politico Tech",
-        "category": "ai",
-        "published_at": "Sat, 28 Mar 2026 12:33:44 EST"
-      },
-      {
-        "id": "da7b1a54",
-        "title": "When AI turns software development inside-out: 170% throughput at 80% headcount",
-        "url": "https://venturebeat.com/orchestration/when-ai-turns-software-development-inside-out-170-throughput-at-80-headcount",
-        "source": "VentureBeat",
-        "category": "ai",
-        "published_at": "Sat, 28 Mar 2026 16:00:00 GMT"
-      },
-      {
-        "id": "1e3eab8f",
-        "title": "Apple Pivots Its AI Strategy to App Store, Search-Like Platform Approach",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-03-29/apple-doubles-down-on-hardware-services-with-revamped-ai-strategy-rare-bonuses-mnbpiwon",
-        "source": "Bloomberg Tech",
-        "category": "ai",
-        "published_at": "Sun, 29 Mar 2026 12:00:01 GMT"
-      },
-      {
-        "id": "49c4b79d",
-        "title": "Telecom Italia Scraps Plan to Renew Inwit Tower Contract in 2030",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-29/telecom-italia-scraps-plan-to-renew-inwit-tower-contract-in-2030",
-        "source": "Bloomberg Tech",
-        "category": "ai",
-        "published_at": "Sun, 29 Mar 2026 11:19:09 GMT"
-      },
-      {
-        "id": "fe49fcee",
-        "title": "Syria Eyes $1 Billion Revival for Postal and Mobile Networks",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-29/syria-eyes-1-billion-revival-for-postal-and-mobile-networks",
-        "source": "Bloomberg Tech",
-        "category": "ai",
-        "published_at": "Sun, 29 Mar 2026 10:12:29 GMT"
-      },
-      {
-        "id": "88b9a85b",
-        "title": "Mideast Aluminum Makers Suffer Damage From Iranian Attacks",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-28/emirates-global-aluminium-says-smelter-site-damaged-in-attack-mnaeo4uk",
-        "source": "Bloomberg Tech",
-        "category": "ai",
-        "published_at": "Sat, 28 Mar 2026 14:08:25 GMT"
-      },
-      {
-        "id": "b3b6aaea",
-        "title": "Actors Union Is Bargaining for ‘Tilly Tax’ On AI Film Characters",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-28/sag-aftra-actors-union-bargaining-for-tilly-tax-on-ai-film-characters",
-        "source": "Bloomberg Tech",
-        "category": "ai",
-        "published_at": "Sat, 28 Mar 2026 14:00:00 GMT"
-      },
-      {
-        "id": "f334a0eb",
-        "title": "Eli Lilly to sign $2bn deal for AI drug development with Hong Kong biotech",
-        "url": "https://www.ft.com/content/4efaf8cd-d415-46bb-8fb9-367e4eb3a781",
-        "source": "FT Tech",
-        "category": "ai",
-        "published_at": "Sun, 29 Mar 2026 11:00:11 GMT"
-      },
-      {
-        "id": "6df9d81a",
-        "title": "Social media has been put on notice",
-        "url": "https://www.ft.com/content/dd7606e1-8350-4d88-8026-7afaaf5a23a5",
-        "source": "FT Tech",
-        "category": "ai",
-        "published_at": "Sun, 29 Mar 2026 10:00:09 GMT"
-      },
-      {
-        "id": "090bb1d1",
-        "title": "The Pentagon-Anthropic dispute is a test of control",
-        "url": "https://www.ft.com/content/35e58efe-8601-4c33-af91-007659b679cc",
-        "source": "FT Tech",
-        "category": "ai",
-        "published_at": "Sun, 29 Mar 2026 04:00:17 GMT"
-      },
-      {
-        "id": "9de6267d",
-        "title": "Ministers explore triggering break clause in Palantir’s NHS contract",
-        "url": "https://www.ft.com/content/2d2b1af1-edea-4fd0-a081-3811e34bc52e",
-        "source": "FT Tech",
-        "category": "ai",
-        "published_at": "Sun, 29 Mar 2026 04:00:17 GMT"
-      },
-      {
-        "id": "64a30708",
-        "title": "The hunger for ‘content’ is keeping us culturally stuck",
-        "url": "https://www.ft.com/content/0d963580-eabd-40e2-8805-776893b61cc6",
-        "source": "FT Tech",
-        "category": "ai",
-        "published_at": "Sun, 29 Mar 2026 04:00:17 GMT"
-      },
-      {
-        "id": "51b7b87f",
-        "title": "OpenAI investor says AI requires an income tax overhaul",
-        "url": "https://www.ft.com/content/7de1d3c5-0d0c-46b1-b2b7-dbf6f5226069",
-        "source": "FT Tech",
-        "category": "ai",
-        "published_at": "Sun, 29 Mar 2026 04:00:08 GMT"
-      },
-      {
-        "id": "f4cb7e83",
-        "title": "UK risks losing defence tech start-ups to relocation amid funding delays",
-        "url": "https://www.ft.com/content/f62751d1-2292-45f7-a693-93d0af5b9f28",
-        "source": "FT Tech",
-        "category": "ai",
-        "published_at": "Sun, 29 Mar 2026 04:00:08 GMT"
-      },
-      {
-        "id": "ba42f4f2",
-        "title": "Just Eat’s new owner pushes for European revival as rivals close in",
-        "url": "https://www.ft.com/content/5966aea2-7316-4f33-8994-4938ba8e447f",
-        "source": "FT Tech",
-        "category": "ai",
-        "published_at": "Sun, 29 Mar 2026 04:00:08 GMT"
-      },
-      {
-        "id": "1a40e632",
-        "title": "Why recruiters are making interviews ‘AI-free zones’",
-        "url": "https://www.ft.com/content/bcc3becc-859e-4628-b6a7-b4788e6f20a6",
-        "source": "FT Tech",
-        "category": "ai",
-        "published_at": "Sun, 29 Mar 2026 04:00:08 GMT"
-      }
-    ],
-    "stock_tw": [
-      {
-        "id": "14028266",
-        "title": "擁320萬顧金孫變成包山包海 阿嬤一刷存摺嚇傻了",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386542",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 20:45:07 +0800"
-      },
-      {
-        "id": "13bcb237",
-        "title": "戰爭擾亂全球氦氣供應 這兩個產業風險驟升",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386731",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 20:44:36 +0800"
-      },
-      {
-        "id": "117e58bf",
-        "title": "求職狂碰壁！62歲全職主婦「淪超市打工」 揭被迫踏入職場現實",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386705",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 20:25:05 +0800"
-      },
-      {
-        "id": "2f94201f",
-        "title": "中油漲油價揩油消費者？中油嚴正澄清：已吸收絕大部分油價漲幅",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386700",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 20:08:39 +0800"
-      },
-      {
-        "id": "be575a2a",
-        "title": "內鬨！伊朗總統開噴革命衛隊 再不停火經濟大崩潰",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386674",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 19:19:41 +0800"
-      },
-      {
-        "id": "0f5a1d1b",
-        "title": "無法攻破台積電護城河！馬斯克的世界工廠有3大難關阻礙",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386671",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 19:15:53 +0800"
-      },
-      {
-        "id": "5d5d78e3",
-        "title": "看似小錢卻最傷財！退休族在70歲前該「立刻停止」5種開銷",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386607",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 18:29:14 +0800"
-      },
-      {
-        "id": "1c50a89c",
-        "title": "選錯科系恐葬送6400萬大「錢」途？大學校長全說了",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386532",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 18:23:39 +0800"
-      },
-      {
-        "id": "1b8c21eb",
-        "title": "傳技術司高層要查霸凌案吹哨者 經部：絕無此事",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386608",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 18:03:12 +0800"
-      },
-      {
-        "id": "f44820fe",
-        "title": "參戰挺伊朗！葉門青年運動握「1殺傷力籌碼」 恐逼美放棄戰爭",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386459",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 17:34:20 +0800"
-      },
-      {
-        "id": "dcae0663",
-        "title": "中國經濟冰火兩重天 專家：高科技和出口暢旺 但內需低迷",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386566",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 17:25:05 +0800"
-      },
-      {
-        "id": "1e42f740",
-        "title": "南韓護國神山崩塌！股市市值蒸發14兆元 兩家公司佔一半",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386567",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 17:20:04 +0800"
-      },
-      {
-        "id": "6a2402dd",
-        "title": "報稅注意！超商KIOSK停止健保卡認證 無法取得查詢碼",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386541",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 17:06:30 +0800"
-      },
-      {
-        "id": "bb777b20",
-        "title": "33歲女辭餐飲工作 靠「組裝IKEA家具」去年狂賺118萬元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386491",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 16:44:41 +0800"
-      },
-      {
-        "id": "380627e0",
-        "title": "全球AI軍火庫有痛點！台灣這1事要靠老天爺 外媒好擔心",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386479",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 16:42:09 +0800"
-      },
-      {
-        "id": "c93af7d6",
-        "title": "晶圓代工廠華虹傳跨入7奈米 大陸半導體技術進步真的這麼快嗎？",
-        "url": "https://money.udn.com/money/story/5604/9386559",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Tue, 31 Mar 2026 23:48:33 +0800"
-      },
-      {
-        "id": "67a6ade0",
-        "title": "全球人壽調整不動產投資配置 新總部第4季落成",
-        "url": "https://money.udn.com/money/story/5612/9410344",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 21:00:37 +0800"
-      },
-      {
-        "id": "9c5efd3b",
-        "title": "中國豬肉價格每台斤跌到27元 創歷史新低",
-        "url": "https://money.udn.com/money/story/5603/9410329",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 20:36:24 +0800"
-      },
-      {
-        "id": "6e4037bd",
-        "title": "德國青年出走意願升高 逾6成嚮往海外生活",
-        "url": "https://money.udn.com/money/story/5599/9410322",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 20:30:23 +0800"
-      },
-      {
-        "id": "6a49ebc1",
-        "title": "柯文哲籲給台灣希望 綠盼在野勿癱瘓民生國防預算",
-        "url": "https://money.udn.com/money/story/7307/9410277",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 20:12:22 +0800"
-      },
-      {
-        "id": "e58e1672",
-        "title": "烏干達力挺以色列 軍事首長稱若以瀕敗將參戰",
-        "url": "https://money.udn.com/money/story/5599/9410252",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 19:45:54 +0800"
-      },
-      {
-        "id": "fea2a5b7",
-        "title": "供油不穩恐減班？航空業：多方評估確保航線穩定",
-        "url": "https://money.udn.com/money/story/5612/9410251",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 19:45:39 +0800"
-      },
-      {
-        "id": "b4053437",
-        "title": "湖南九郎山高鐵站耗資6億元 閒置4年惹議",
-        "url": "https://money.udn.com/money/story/5603/9410250",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 19:45:24 +0800"
-      },
-      {
-        "id": "9f055fdf",
-        "title": "中油：油品吸收金額大幅增加 籲請外界支持穩定經營",
-        "url": "https://money.udn.com/money/story/5612/9410238",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 19:34:13 +0800"
-      },
-      {
-        "id": "0c117740",
-        "title": "丁學文專欄／為什麼伊朗老神在在 川普進退兩難？",
-        "url": "https://money.udn.com/money/story/122337/9410231",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 19:19:13 +0800"
-      },
-      {
-        "id": "d8f39f14",
-        "title": "伊朗的飛彈還能打多久？ 專家說分明",
-        "url": "https://money.udn.com/money/story/5599/9410230",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 19:15:45 +0800"
-      },
-      {
-        "id": "6218cf83",
-        "title": "伊朗安全部隊招募12歲孩童 恐違反兒童權利公約",
-        "url": "https://money.udn.com/money/story/5599/9410224",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 19:07:43 +0800"
-      },
-      {
-        "id": "2a4d2140",
-        "title": "大和：嘉澤受惠 AI 代理等商機 目標價上調至3,000 元",
-        "url": "https://money.udn.com/money/story/5607/9410223",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 19:04:19 +0800"
-      },
-      {
-        "id": "82127ce9",
-        "title": "中東戰雲密布 教宗罕見嚴詞：任何戰爭皆不能假借天主之名",
-        "url": "https://money.udn.com/money/story/5599/9410222",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 19:00:25 +0800"
-      },
-      {
-        "id": "f182969e",
-        "title": "柯文哲：司法淪政治鬥爭工具 目的摧毀台灣新政治",
-        "url": "https://money.udn.com/money/story/7307/9410218",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 18:54:50 +0800"
-      },
-      {
-        "id": "ff784b01",
-        "title": "南非4月柴油漲近新台幣20元破紀錄 限購防民眾搶買",
-        "url": "https://www.cna.com.tw/news/aopl/202603290150.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 18:43:53 +0800"
-      },
-      {
-        "id": "2eef0197",
-        "title": "美伊戰事牽動油價飆漲 法人：台股難脫震盪",
-        "url": "https://www.cna.com.tw/news/afe/202603290134.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 17:09:18 +0800"
-      },
-      {
-        "id": "3850059a",
-        "title": "台塑石化：汽油每公升漲1.7元 柴油漲1.5元",
-        "url": "https://www.cna.com.tw/news/afe/202603290096.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 15:01:55 +0800"
-      },
-      {
-        "id": "5ff2c803",
-        "title": "美印電商關稅分歧未解 世界貿易組織談判陷僵局",
-        "url": "https://www.cna.com.tw/news/afe/202603290093.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 14:50:48 +0800"
-      },
-      {
-        "id": "41d8e04a",
-        "title": "航油價格一天一變 非洲航班落地才報價",
-        "url": "https://www.cna.com.tw/news/aopl/202603290079.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 13:57:18 +0800"
-      },
-      {
-        "id": "a22a168d",
-        "title": "日圓兌美元貶破160關卡 創2024年7月以來新低",
-        "url": "https://www.cna.com.tw/news/afe/202603290052.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 11:32:17 +0800"
-      },
-      {
-        "id": "c09d6115",
-        "title": "Grab併台灣foodpanda 專家：外送市場掀生態戰",
-        "url": "https://www.cna.com.tw/news/afe/202603290030.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 10:40:30 +0800"
-      },
-      {
-        "id": "c34397d7",
-        "title": "Grab駁繞道投資與中資疑慮 Uber、滴滴出行投票權低",
-        "url": "https://www.cna.com.tw/news/afe/202603290027.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 10:14:23 +0800"
-      },
-      {
-        "id": "7fd4d51d",
-        "title": "偽冒LINE網站誘騙下載 資安署揭9個假網址示警",
-        "url": "https://www.cna.com.tw/news/afe/202603290024.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 09:36:16 +0800"
-      },
-      {
-        "id": "edd67c32",
-        "title": "今彩539第115078期 頭獎槓龜",
-        "url": "https://www.cna.com.tw/news/ahel/202603280217.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sat, 28 Mar 2026 22:04:51 +0800"
-      },
-      {
-        "id": "7c36500c",
-        "title": "油價飆漲不滿補貼措施不足 法國運輸業動員示威",
-        "url": "https://www.cna.com.tw/news/aopl/202603280211.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sat, 28 Mar 2026 21:17:36 +0800"
-      },
-      {
-        "id": "6fb3252f",
-        "title": "台股Q2震盪加劇？專家曝最壞情境恐跌至26000點",
-        "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1q2%E9%9C%87%E7%9B%AA%E5%8A%A0%E5%8A%87-%E5%B0%88%E5%AE%B6%E6%9B%9D%E6%9C%80%E5%A3%9E%E6%83%85%E5%A2%83%E6%81%90%E8%B7%8C%E8%87%B326000%E9%BB%9E-124608522.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 12:46:08 GMT"
-      },
-      {
-        "id": "1fa840af",
-        "title": "鴻海還有機會死貓跳？資深分析師曝最好買進時機在「這價位」 1原因不建議全面出清",
-        "url": "https://tw.stock.yahoo.com/news/%E9%B4%BB%E6%B5%B7%E9%82%84%E6%9C%89%E6%A9%9F%E6%9C%83%E6%AD%BB%E8%B2%93%E8%B7%B3-%E8%B3%87%E6%B7%B1%E5%88%86%E6%9E%90%E5%B8%AB%E6%9B%9D%E6%9C%80%E5%A5%BD%E8%B2%B7%E9%80%B2%E6%99%82%E6%A9%9F%E5%9C%A8-%E9%80%99%E5%83%B9%E4%BD%8D-1%E5%8E%9F%E5%9B%A0%E4%B8%8D%E5%BB%BA%E8%AD%B0%E5%85%A8%E9%9D%A2%E5%87%BA%E6%B8%85-120000820.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 12:00:00 GMT"
-      },
-      {
-        "id": "4cc7475f",
-        "title": "台積電大單到手！這「先進封裝廠」營收飆近7成 訂單動能逐步增強",
-        "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%A4%A7%E5%96%AE%E5%88%B0%E6%89%8B-%E9%80%99-%E5%85%88%E9%80%B2%E5%B0%81%E8%A3%9D%E5%BB%A0-%E7%87%9F%E6%94%B6%E9%A3%86%E8%BF%917%E6%88%90-%E8%A8%82%E5%96%AE%E5%8B%95%E8%83%BD%E9%80%90%E6%AD%A5%E5%A2%9E%E5%BC%B7-113500149.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 11:35:00 GMT"
-      },
-      {
-        "id": "a983644e",
-        "title": "美銀看衰Terafab 點出台積電最強護城河",
-        "url": "https://tw.news.yahoo.com/%E7%BE%8E%E9%8A%80%E7%9C%8B%E8%A1%B0terafab-%E9%BB%9E%E5%87%BA%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%9C%80%E5%BC%B7%E8%AD%B7%E5%9F%8E%E6%B2%B3-110603088.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 11:06:03 GMT"
-      },
-      {
-        "id": "4ceb9ea6",
-        "title": "台股Q2驚濤駭浪？震撼預測「最慘恐殺到2.6萬」 最壞情境一文看",
-        "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1q2%E9%A9%9A%E6%BF%A4%E9%A7%AD%E6%B5%AA-%E9%9C%87%E6%92%BC%E9%A0%90%E6%B8%AC-%E6%9C%80%E6%85%98%E6%81%90%E6%AE%BA%E5%88%B02-6%E8%90%AC-%E6%9C%80%E5%A3%9E%E6%83%85%E5%A2%83-100708199.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 10:07:08 GMT"
-      },
-      {
-        "id": "d8dc09b8",
-        "title": "中東鋁廠被炸 台股鋁概念股誰先動？",
-        "url": "https://tw.news.yahoo.com/%E4%B8%AD%E6%9D%B1%E9%8B%81%E5%BB%A0%E8%A2%AB%E7%82%B8-%E5%8F%B0%E8%82%A1%E9%8B%81%E6%A6%82%E5%BF%B5%E8%82%A1%E8%AA%B0%E5%85%88%E5%8B%95-100027388.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 10:00:27 GMT"
-      },
-      {
-        "id": "646b2b72",
-        "title": "台股周報》美股空頭壓境 台股拚守季線 國安政策護盤 醞釀反彈？",
-        "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%91%A8%E5%A0%B1-%E7%BE%8E%E8%82%A1%E7%A9%BA%E9%A0%AD%E5%A3%93%E5%A2%83-%E5%8F%B0%E8%82%A1%E6%8B%9A%E5%AE%88%E5%AD%A3%E7%B7%9A-%E5%9C%8B%E5%AE%89%E6%94%BF%E7%AD%96%E8%AD%B7%E7%9B%A4-%E9%86%9E%E9%87%80%E5%8F%8D%E5%BD%88-085920755.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 08:59:20 GMT"
-      },
-      {
-        "id": "40877ef2",
-        "title": "《台北股市》李俊緯：長線多頭仍在 AI重掌盤面",
-        "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E5%8C%97%E8%82%A1%E5%B8%82-%E6%9D%8E%E4%BF%8A%E7%B7%AF-%E9%95%B7%E7%B7%9A%E5%A4%9A%E9%A0%AD%E4%BB%8D%E5%9C%A8-ai%E9%87%8D%E6%8E%8C%E7%9B%A4%E9%9D%A2-083810637.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 08:38:10 GMT"
-      },
-      {
-        "id": "50614eec",
-        "title": "台積電先進封裝革命！陸行之點這5檔最有戲",
-        "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%85%88%E9%80%B2%E5%B0%81%E8%A3%9D%E9%9D%A9%E5%91%BD-%E9%99%B8%E8%A1%8C%E4%B9%8B%E9%BB%9E%E9%80%995%E6%AA%94%E6%9C%80%E6%9C%89%E6%88%B2-083555878.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 08:35:55 GMT"
-      },
-      {
-        "id": "522fd3d8",
-        "title": "《台北股市》陳立委：台股後市 可留意兩大主軸",
-        "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E5%8C%97%E8%82%A1%E5%B8%82-%E9%99%B3%E7%AB%8B%E5%A7%94-%E5%8F%B0%E8%82%A1%E5%BE%8C%E5%B8%82-%E5%8F%AF%E7%95%99%E6%84%8F%E5%85%A9%E5%A4%A7%E4%B8%BB%E8%BB%B8-080956770.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 08:09:56 GMT"
-      },
-      {
-        "id": "96e93dee",
-        "title": "能源股飆、台積電被擠下去？ 「AI關鍵數據」揭真相",
-        "url": "https://tw.stock.yahoo.com/news/%E8%83%BD%E6%BA%90%E8%82%A1%E9%A3%86-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%A2%AB%E6%93%A0%E4%B8%8B%E5%8E%BB-ai%E9%97%9C%E9%8D%B5%E6%95%B8%E6%93%9A-%E6%8F%AD%E7%9C%9F%E7%9B%B8-080629267.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 08:06:29 GMT"
-      },
-      {
-        "id": "da072ec7",
-        "title": "《台北股市》趙彭博：區間震盪 中小型股仍有撐",
-        "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E5%8C%97%E8%82%A1%E5%B8%82-%E8%B6%99%E5%BD%AD%E5%8D%9A-%E5%8D%80%E9%96%93%E9%9C%87%E7%9B%AA-%E4%B8%AD%E5%B0%8F%E5%9E%8B%E8%82%A1%E4%BB%8D%E6%9C%89%E6%92%90-074333089.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 07:43:33 GMT"
-      },
-      {
-        "id": "3d6df02f",
-        "title": "鴻海Micro-LED技術新突破！加密速度大提升 6G與衛星通訊受惠",
-        "url": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7micro-led%E6%8A%80%E8%A1%93%E6%96%B0%E7%AA%81%E7%A0%B4-%E5%8A%A0%E5%AF%86%E9%80%9F%E5%BA%A6%E5%A4%A7%E6%8F%90%E5%8D%87-6g%E8%88%87%E8%A1%9B%E6%98%9F%E9%80%9A%E8%A8%8A%E5%8F%97%E6%83%A0-074200096.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 07:42:00 GMT"
-      },
-      {
-        "id": "b7a57bd9",
-        "title": "台股週跌逾400點！外資連4週賣超逾千億 AI撐盤、地緣風險成關鍵",
-        "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%80%B1%E8%B7%8C%E9%80%BE400%E9%BB%9E-%E5%A4%96%E8%B3%87%E9%80%A34%E9%80%B1%E8%B3%A3%E8%B6%85%E9%80%BE%E5%8D%83%E5%84%84-ai%E6%92%90%E7%9B%A4-%E5%9C%B0%E7%B7%A3%E9%A2%A8%E9%9A%AA%E6%88%90%E9%97%9C%E9%8D%B5-073000829.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Sun, 29 Mar 2026 07:30:00 GMT"
-      }
-    ],
-    "stock_us": [
-      {
-        "id": "76faafc9",
-        "title": "New Delhi Street Stalls Show the Cost of India’s Energy Crunch",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-29/india-lpg-crisis-new-delhi-street-stalls-show-the-cost-of-iran-energy-crunch",
-        "source": "Bloomberg",
-        "category": "stock_us",
-        "published_at": "2026-03-29 00:00:00"
-      },
-      {
-        "id": "5b40e833",
-        "title": "Here are 3 themes that drove another super challenging week for stocks",
-        "url": "https://www.cnbc.com/2026/03/28/here-are-3-themes-that-drove-another-super-challenging-week-for-stocks.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-03-28 15:42:21"
-      },
-      {
-        "id": "cddb1035",
-        "title": "Meta is among the most oversold stocks after another losing week on Wall Street",
-        "url": "https://www.cnbc.com/2026/03/28/meta-is-among-the-most-oversold-stocks-after-another-losing-week-on-wall-street.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-03-28 13:16:00"
       }
     ]
   },
@@ -1843,47 +517,82 @@
   "daily_digest": {
     "key_themes": [
       {
-        "title": "全球政治局勢",
-        "summary": "背景脈絡→全球政治局勢日益複雜，各國之間的關係緊張，特別是美國與伊朗之間的對立。近期伊朗在波斯灣地區的攻擊行動對全球能源市場產生了重大影響，同時也引起了國際社會的關注。美國總統川普的直覺作戰策略未能奏效，反而加劇了局勢的緊張。這些發展可能會對全球政治局勢和經濟產生深遠的影響。因此，各國需要重新評估自己的戰略和政策，以應對日益複雜的全球局勢。這些發展對全球政治局勢的影響將是深遠的，需要各國共同努力來維持全球的穩定和安全。"
+        "title": "美國政治局勢",
+        "background": "美國中期選舉預測和共和黨試圖改變選舉規則",
+        "development": "共和黨人試圖修改選舉規則，引發選舉公平性的質疑，肯尼迪家族後代批評億萬富翁和AI公司在選舉中投入巨資",
+        "impact": "這些事件可能會影響選舉的公平性和民主制度的基石，VIX 恐慌指數上升 13.16% ",
+        "conclusion": "美國政治局勢將繼續受到關注，選舉公平性和民主制度的基石可能會受到影響，預計未來 1-3 天內，美國政治局勢將繼續惡化",
+        "region": "americas"
       },
       {
-        "title": "美國政治與抗議",
-        "summary": "背景脈絡→美國政治局勢日益激烈，反對總統川普的抗議活動不斷增多。近期的「No Kings」抗議活動在全美50州和16個國家舉行，表明美國民眾對於政治議題的關注度不斷升高。這些抗議活動主要聚焦在川普的政治立場和政策，包括移民政策和生活成本上升等問題。這些發展可能會對美國政治和社會產生重大影響，需要政府和民間共同努力來維持社會的穩定和團結。這些抗議活動的影響將對美國政治和社會產生深遠的影響，需要各方共同努力來尋找解決方案。"
+        "title": "伊朗戰爭",
+        "background": "伊朗戰爭持續，俄羅斯在伊朗攻擊前三度拍攝美國在沙特阿拉伯基地衛星圖像",
+        "development": "伊朗發射導彈向印度洋的美英聯合基地，川普的直覺作戰策略未能奏效，伊朗在波斯灣地區持續發動攻擊",
+        "impact": "伊朗戰爭的爆發已經對全球產生重大影響，包括油價大幅上升和全球經濟的不穩定，黃金價格上升 3.40% ",
+        "conclusion": "伊朗戰爭的結果尚不明確，國際社會將繼續關注這一事件，預計未來 1-3 天內，伊朗戰爭將繼續升級",
+        "region": "global"
       },
       {
-        "title": "經濟與金融",
-        "summary": "背景脈絡→全球經濟局勢日益複雜，各國之間的貿易關係緊張。近期美國銀行同意支付72.5億美元的和解費用，結束與愛普斯坦性侵案的法律糾紛，表明金融機構可能會面臨法律責任，承認其在相關案件中的角色。這些發展可能會對全球經濟和金融產生重大影響，需要各國共同努力來維持全球的經濟穩定和安全。這些發展對全球經濟和金融的影響將是深遠的，需要各國共同努力來尋找解決方案。"
+        "title": "全球經濟",
+        "background": "2026 年兩黨都在避開稅務真相，美國銀行同意支付 72.5 億美元和解費用",
+        "development": "稅務改革的目標是簡化稅務程序、降低稅負，但實際上卻使得稅務制度更加複雜，美國銀行的和解費用將對其財務產生重大影響",
+        "impact": "全球經濟的不穩定將繼續受到關注，稅務改革和銀行和解費用的問題將對經濟產生影響，美元指數上升 0.25% ",
+        "conclusion": "全球經濟的未來尚不明確，國際社會將繼續關注這一事件，預計未來 1-3 天內，全球經濟將繼續面臨挑戰",
+        "region": "global"
+      },
+      {
+        "title": "能源市場",
+        "background": "伊朗戰爭的爆發已經對能源市場產生重大影響",
+        "development": "油價大幅上升，黃金價格上升 3.40% ",
+        "impact": "能源市場的波動將繼續受到關注，油價和黃金價格的變化將對全球經濟產生影響，原油 WTI 價格上升 5.46% ",
+        "conclusion": "能源市場的未來尚不明確，國際社會將繼續關注這一事件，預計未來 1-3 天內，能源市場將繼續波動",
+        "region": "global"
+      },
+      {
+        "title": "美國股市",
+        "background": "S&P500 指數下降 1.67% ",
+        "development": "那斯達克指數下降 2.15% ",
+        "impact": "美國股市的波動將繼續受到關注，投資者將繼續關注這一事件，VIX 恐慌指數上升 13.16% ",
+        "conclusion": "美國股市的未來尚不明確，國際社會將繼續關注這一事件，預計未來 1-3 天內，美國股市將繼續波動",
+        "region": "americas"
       }
     ],
     "watch_next": [
       {
-        "topic": "全球政治局勢的發展",
-        "reason": "各國之間的關係緊張，局勢日益複雜，需要關注其發展趨勢。"
+        "topic": "美國政治局勢",
+        "reason": "選舉公平性和民主制度的基石可能會受到影響",
+        "timeframe": "本週"
       },
       {
-        "topic": "美國政治與抗議的影響",
-        "reason": "美國政治局勢日益激烈，反對總統川普的抗議活動不斷增多，需要關注其影響。"
+        "topic": "伊朗戰爭",
+        "reason": "伊朗戰爭的結果尚不明確",
+        "timeframe": "本週"
       },
       {
-        "topic": "經濟與金融的走勢",
-        "reason": "全球經濟局勢日益複雜，各國之間的貿易關係緊張，需要關注其走勢。"
+        "topic": "全球經濟",
+        "reason": "全球經濟的不穩定將繼續受到關注",
+        "timeframe": "本月"
       }
     ],
     "cross_links": [
       {
         "themes": [
-          "全球政治局勢",
-          "美國政治與抗議"
+          "美國政治局勢",
+          "伊朗戰爭"
         ],
-        "explanation": "全球政治局勢和美國政治與抗議之間存在著密切的關係，美國的政治立場和政策會對全球政治局勢產生影響，同時全球政治局勢也會對美國政治與抗議產生影響。"
+        "chain": "美國政治局勢 → 伊朗戰爭 → 全球經濟"
       },
       {
         "themes": [
-          "經濟與金融",
-          "全球政治局勢"
+          "全球經濟",
+          "能源市場"
         ],
-        "explanation": "經濟與金融和全球政治局勢之間存在著密切的關係，全球政治局勢會對經濟與金融產生影響，同時經濟與金融也會對全球政治局勢產生影響。"
+        "chain": "全球經濟 → 能源市場 → 美國股市"
       }
-    ]
+    ],
+    "market_snapshot": {
+      "mood": "避險",
+      "key_moves": "VIX 恐慌指數上升 13.16% ，原油 WTI 價格上升 5.46% ，黃金價格上升 3.40% ，S&P500 指數下降 1.67% ，那斯達克指數下降 2.15% "
+    }
   }
 }
