@@ -31,7 +31,8 @@ from rss_fetcher import fetch_all as rss_fetch_all
 from newsdata_fetcher import fetch_all as newsdata_fetch_all
 from groq_summary import summarize
 from groq_client import get_throttle_delay
-from daily_digest import generate_daily_digest
+from daily_digest import generate_daily_digest, save_daily_digest
+from rollup import generate_weekly_rollup, generate_monthly_rollup
 from market_data import get_all_market_data
 from risk_score import calc_risk_score
 
@@ -168,11 +169,16 @@ def enrich_articles(articles: list, cache: dict) -> list:
         print(f"[Filter] AI 判定 {skip_count} 則為不相關雜聞，已移除")
     articles = [a for a in articles if a.get("category") != "skip"]
 
-    # 過濾掉摘要失敗的文章（summary == title 代表 Groq 失敗）
-    fail_count = sum(1 for a in articles if a.get("summary_zh", "") == a.get("title", ""))
-    if fail_count:
-        print(f"[Filter] {fail_count} 則摘要失敗（未翻譯），已移除，下次會重試")
-    articles = [a for a in articles if a.get("summary_zh", "") != a.get("title", "")]
+    # 過濾掉未處理的文章（無摘要或摘要等於標題代表 Groq 失敗/未處理）
+    # 這些文章下次執行時 cache miss 會自動重試
+    no_summary = [a for a in articles
+                  if not a.get("summary_zh")
+                  or a.get("summary_zh", "") == a.get("title", "")]
+    if no_summary:
+        print(f"[Filter] {len(no_summary)} 則無摘要或未翻譯，已移除，下次會重試")
+    articles = [a for a in articles
+                if a.get("summary_zh")
+                and a.get("summary_zh", "") != a.get("title", "")]
 
     print(f"[Groq] 新摘要 {new_count} 則，快取命中 {cached_count} 則")
     return articles
@@ -283,10 +289,23 @@ def main() -> None:
     categories  = categorize(articles)
     market_info = get_all_market_data()
     risk        = calc_risk_score(market_info["market"], articles)
-    digest      = generate_daily_digest(articles)
+    digest      = generate_daily_digest(articles, market=market_info.get("market"))
     output      = build_output(categories, market_info, risk, digest)
 
     write_json(output)
+
+    # Archive daily digest
+    if digest:
+        save_daily_digest(digest)
+
+    # Weekly rollup on Sundays, monthly rollup on 1st of month
+    today = datetime.now(TZ_TW)
+    if today.weekday() == 6:  # Sunday
+        print("[Rollup] 週日，產生本週週報...")
+        generate_weekly_rollup()
+    if today.day == 1:
+        print("[Rollup] 月初，產生上月月報...")
+        generate_monthly_rollup()
 
     print("[Done]")
 
