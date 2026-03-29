@@ -10,7 +10,7 @@ FRED_API_KEY = os.environ.get("FRED_API_KEY", "")
 NEWSDATA_API_KEY = os.environ.get("NEWSDATA_API_KEY", "")
 
 # === 抓取設定 ===
-FETCH_INTERVAL_HOURS = 2
+FETCH_INTERVAL_HOURS = 1
 MAX_ARTICLES_PER_SOURCE = 15
 
 # === 重大新聞觸發條件 ===
@@ -45,7 +45,7 @@ GROQ_RISK_TEMPERATURE = 0.4
 GROQ_RISK_MAX_TOKENS = 200
 GROQ_DIGEST_TIMEOUT = 60        # 今日脈絡請求逾時（秒）
 GROQ_DIGEST_TEMPERATURE = 0.4
-GROQ_DIGEST_MAX_TOKENS = 4000
+GROQ_DIGEST_MAX_TOKENS = 6000
 GROQ_RPM_SLEEP = 6.0            # Groq 免費版 30 RPM — 基礎間隔 6s（~10 RPM，含 token 餘量）
 GROQ_MAX_NEW_PER_RUN = 20       # 每次執行最多處理 20 則新文章（降低 429 風險）
 GROQ_BATCH_PAUSE_EVERY = 5      # 每 5 則額外暫停（更頻繁休息）

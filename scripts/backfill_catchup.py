@@ -73,8 +73,9 @@ def enrich_articles_backfill(articles: list, cache: dict) -> list:
 
             title_for_groq = cached["title"] if cached and cached.get("summary_zh") else a["title"]
             content_for_groq = a.get("raw_content", "") or (cached.get("summary_zh", "") if cached else "")
-            print(f"  [Groq] 補債 {new_count+1}/{BACKFILL_MAX}: {title_for_groq[:50]}")
-            result = summarize(title_for_groq, content_for_groq)
+            source_cat = a.get("category", "global")
+            print(f"  [Groq] 補債 {new_count+1}/{BACKFILL_MAX}: [{source_cat}] {title_for_groq[:45]}")
+            result = summarize(title_for_groq, content_for_groq, source_category=source_cat)
             a["title"]       = result["title_zh"]
             a["summary_zh"]  = result["summary"]
             a["sentiment"]   = result["sentiment"]

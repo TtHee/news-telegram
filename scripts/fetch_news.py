@@ -139,8 +139,9 @@ def enrich_articles(articles: list, cache: dict) -> list:
             # 新文章或尚未 AI 分類，呼叫 Groq
             title_for_groq = cached["title"] if cached and cached.get("summary_zh") else a["title"]
             content_for_groq = a.get("raw_content", "") or (cached.get("summary_zh", "") if cached else "")
-            print(f"  [Groq] 新文章 {new_count+1}/{GROQ_MAX_NEW_PER_RUN}: {title_for_groq[:45]}")
-            result = summarize(title_for_groq, content_for_groq)
+            source_cat = a.get("category", "global")
+            print(f"  [Groq] 新文章 {new_count+1}/{GROQ_MAX_NEW_PER_RUN}: [{source_cat}] {title_for_groq[:40]}")
+            result = summarize(title_for_groq, content_for_groq, source_category=source_cat)
             a["title"]       = result["title_zh"]
             a["summary_zh"]  = result["summary"]
             a["sentiment"]   = result["sentiment"]
@@ -273,6 +274,28 @@ def _deduplicate(articles: list) -> list:
     return result
 
 
+def _interleave_by_category(articles: list) -> list:
+    """Round-robin interleave articles across categories.
+    Ensures each category gets fair processing when hitting GROQ_MAX_NEW_PER_RUN limit.
+    """
+    by_cat: dict[str, list] = {}
+    for a in articles:
+        cat = a.get("category", "other")
+        by_cat.setdefault(cat, []).append(a)
+
+    result = []
+    remaining = True
+    idx = 0
+    while remaining:
+        remaining = False
+        for cat_articles in by_cat.values():
+            if idx < len(cat_articles):
+                result.append(cat_articles[idx])
+                remaining = True
+        idx += 1
+    return result
+
+
 def main() -> None:
     print(f"[Start] {datetime.now(TZ_TW).isoformat()}")
 
@@ -281,6 +304,10 @@ def main() -> None:
     newsdata_articles = newsdata_fetch_all()
     articles    = _deduplicate(rss_articles + newsdata_articles)
     print(f"[Fetch] RSS {len(rss_articles)} + NewsData {len(newsdata_articles)} → 去重後 {len(articles)}")
+
+    # Interleave so each category gets fair share of processing slots
+    articles = _interleave_by_category(articles)
+
     articles    = enrich_articles(articles, cache)
     expired = [a for a in articles if _is_expired(a)]
     articles = [a for a in articles if not _is_expired(a)]
