@@ -51,6 +51,15 @@ export function renderDigest(container, digest, user) {
         html += `<span class="digest-trial-badge">免費試用中（剩 ${daysLeft} 天）</span>`;
     }
 
+    // Market Snapshot
+    if (digest.market_snapshot && digest.market_snapshot.mood) {
+        const snap = digest.market_snapshot;
+        html += `<div class="digest-market-snapshot">
+            <span class="digest-snapshot-mood">市場氛圍：${escapeHtml(snap.mood)}</span>
+            ${snap.key_moves ? `<span class="digest-snapshot-moves">${escapeHtml(snap.key_moves)}</span>` : ''}
+        </div>`;
+    }
+
     // Key Themes
     if (digest.key_themes && digest.key_themes.length > 0) {
         html += '<div class="digest-section">';
@@ -58,9 +67,27 @@ export function renderDigest(container, digest, user) {
         html += '<div class="digest-themes">';
         digest.key_themes.forEach((theme, i) => {
             const blurred = !hasAccess && i >= 2;
+            // Support both new 4-layer format and legacy summary format
+            const hasLayers = theme.background || theme.development || theme.impact || theme.conclusion;
+            let bodyHtml = '';
+            if (hasLayers) {
+                const layers = [
+                    { label: '前因', text: theme.background, icon: '📋' },
+                    { label: '經過', text: theme.development, icon: '📰' },
+                    { label: '影響', text: theme.impact, icon: '💥' },
+                    { label: '結論', text: theme.conclusion, icon: '🔮' },
+                ];
+                bodyHtml = layers
+                    .filter(l => l.text)
+                    .map(l => `<div class="digest-theme-layer"><span class="digest-layer-label">${l.icon} ${l.label}</span><span class="digest-layer-text">${escapeHtml(l.text)}</span></div>`)
+                    .join('');
+            } else {
+                bodyHtml = `<div class="digest-theme-summary">${escapeHtml(theme.summary || '').replace(/\n/g, '<br>')}</div>`;
+            }
+            const regionTag = theme.region ? `<span class="digest-theme-region">${escapeHtml(theme.region)}</span>` : '';
             html += `<div class="digest-theme ${blurred ? 'digest-theme-blurred' : ''}">
-                <div class="digest-theme-title">${escapeHtml(theme.title)}</div>
-                <div class="digest-theme-summary">${escapeHtml(theme.summary).replace(/\n/g, '<br>')}</div>
+                <div class="digest-theme-header"><div class="digest-theme-title">${escapeHtml(theme.title)}</div>${regionTag}</div>
+                ${bodyHtml}
             </div>`;
         });
         html += '</div></div>';
@@ -73,8 +100,9 @@ export function renderDigest(container, digest, user) {
         html += '<h3 class="digest-section-title">👀 觀察方向</h3>';
         html += '<div class="digest-watch">';
         digest.watch_next.forEach(w => {
+            const timeframe = w.timeframe ? `<span class="digest-watch-timeframe">${escapeHtml(w.timeframe)}</span>` : '';
             html += `<div class="digest-watch-item">
-                <div class="digest-watch-topic">${escapeHtml(w.topic)}</div>
+                <div class="digest-watch-topic">${escapeHtml(w.topic)}${timeframe}</div>
                 <div class="digest-watch-reason">${escapeHtml(w.reason)}</div>
             </div>`;
         });
@@ -89,9 +117,10 @@ export function renderDigest(container, digest, user) {
         html += '<div class="digest-cross">';
         digest.cross_links.forEach(link => {
             const themes = (link.themes || []).map(t => escapeHtml(t)).join(' ↔ ');
+            const explain = link.chain || link.explanation || '';
             html += `<div class="digest-cross-item">
                 <div class="digest-cross-themes">${themes}</div>
-                <div class="digest-cross-explain">${escapeHtml(link.explanation)}</div>
+                <div class="digest-cross-explain">${escapeHtml(explain)}</div>
             </div>`;
         });
         html += '</div></div>';

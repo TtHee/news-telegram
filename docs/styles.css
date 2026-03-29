@@ -518,6 +518,21 @@ a.trend-link:hover { color: var(--primary); text-decoration: underline; }
     border-bottom: 2px solid var(--primary);
 }
 
+/* Market Snapshot */
+.digest-market-snapshot {
+    background: var(--bg-color);
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    font-size: 0.85rem;
+    border-left: 3px solid var(--warning);
+}
+.digest-snapshot-mood { font-weight: bold; }
+.digest-snapshot-moves { color: var(--text-muted); }
+
 /* Key Themes */
 .digest-themes { display: flex; flex-direction: column; gap: 0.75rem; }
 .digest-theme {
@@ -526,8 +541,42 @@ a.trend-link:hover { color: var(--primary); text-decoration: underline; }
     padding: 0.75rem 1rem;
     border-left: 3px solid var(--primary);
 }
-.digest-theme-title { font-weight: bold; font-size: 0.95rem; margin-bottom: 0.25rem; }
+.digest-theme-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem; }
+.digest-theme-title { font-weight: bold; font-size: 0.95rem; }
+.digest-theme-region {
+    font-size: 0.7rem;
+    background: var(--primary);
+    color: #fff;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
 .digest-theme-summary { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
+.digest-theme-layer {
+    display: flex;
+    gap: 0.4rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
+.digest-layer-label {
+    flex-shrink: 0;
+    font-weight: 600;
+    font-size: 0.8rem;
+    min-width: 3.2rem;
+}
+.digest-layer-text { color: var(--text-muted); }
+
+/* Watch Timeframe */
+.digest-watch-timeframe {
+    font-size: 0.7rem;
+    background: var(--success);
+    color: #fff;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+}
 
 /* Blurred items */
 .digest-theme-blurred,
