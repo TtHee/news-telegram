@@ -174,8 +174,13 @@ export function renderWidgets(data) {
         if (sig) sig.textContent = getSignal(key, d);
     }
 
+    // Market mood from daily digest + AI summary
     const aiEl = document.getElementById('aiSummary');
-    aiEl.textContent = data.ai_summary || '暫無 AI 評估';
+    const digest = data.daily_digest;
+    const mood = digest && digest.market_snapshot && digest.market_snapshot.mood;
+    const moodMap = { '避險': '🔴', '觀望': '🟡', '樂觀': '🟢', '分歧': '🟠' };
+    const moodPrefix = mood ? `${moodMap[mood] || '⚪'} 市場氛圍：${mood}｜` : '';
+    aiEl.textContent = moodPrefix + (data.ai_summary || '暫無 AI 評估');
 }
 
 // --- News Cards (differential rendering) ---
