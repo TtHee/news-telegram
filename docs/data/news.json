@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-30T18:04:14.372003+08:00",
+  "generated_at": "2026-03-30T19:08:39.335720+08:00",
   "risk_signals": [
     "🟢 台股加權 32518.16（正常）",
     "🟢 S&P 500 6368.85（正常）",
-    "🔴 VIX 恐慌指數 30.86（高風險區間）",
+    "🔴 VIX 恐慌指數 31.27（高風險區間）",
     "🟡 MOVE 債市波動 111.95（留意）",
     "🟢 美元指數 100.26（正常）",
-    "🟢 黃金 4563.4（正常）",
+    "🟢 黃金 4561.1（正常）",
     "🟢 美債10Y殖利率 4.44（正常）",
-    "🟢 原油 WTI 101.53（正常）",
-    "🟢 美元/台幣 32.01（正常）"
+    "🟢 原油 WTI 101.91（正常）",
+    "🟢 美元/台幣 32.02（正常）"
   ],
-  "ai_summary": "市場今天表現偏弱，台股和美股均下跌約1.6%至2.2%。VIX恐慌指數和MOVE債市波動升高，表明市場風險增加。",
+  "ai_summary": "市場氛圍偏為偏憂，恐慌指數升高，債市波動加劇，表明投資者對風險的關注增加。",
   "market": {
     "TWII": {
       "price": 32518.16,
@@ -26,8 +26,8 @@
       "change_pct": -2.15
     },
     "VIX": {
-      "price": 30.86,
-      "change_pct": -0.61
+      "price": 31.27,
+      "change_pct": 0.71
     },
     "TNX": {
       "price": 4.44,
@@ -42,20 +42,274 @@
       "change_pct": 0.11
     },
     "GOLD": {
-      "price": 4563.4,
-      "change_pct": 1.59
+      "price": 4561.1,
+      "change_pct": 1.54
     },
     "OIL": {
-      "price": 101.53,
-      "change_pct": 1.9
+      "price": 101.91,
+      "change_pct": 2.28
     },
     "USDTWD": {
-      "price": 32.01,
-      "change_pct": 0.26
+      "price": 32.02,
+      "change_pct": 0.28
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "2bf5f4be",
+        "title": "中東暴雨：沙烏地阿拉伯和阿聯酋遭遇強烈雷雨",
+        "url": "https://www.theguardian.com/environment/2026/mar/30/weather-tracker-thunderstorms-uae-united-arab-emirates-saudi-arabia",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 09:31:31 GMT",
+        "summary_zh": "近期，中東地區出現異常的氣候模式，引發嚴重的雷雨天氣。沙烏地阿拉伯和阿聯酋等國家受到影響，地區通常以乾燥沙漠氣候為主，卻在短短幾天內接收到達150毫米的豪雨。這場豪雨的原因是由於一股異常強勁的氣流帶引發了北部沙烏地阿拉伯的一個深低壓區。這個低壓區吸引了印度洋的濕潤熱帶空氣，進而引發了強烈的暴雨。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "116e4b4b",
+        "title": "非洲需立即行動防止數位暴力增長",
+        "url": "https://www.theguardian.com/global-development/2026/mar/30/urgent-action-needed-to-prevent-surge-in-digital-violence-in-africa-experts-say",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 04:00:16 GMT",
+        "summary_zh": "非洲正面臨著數位暴力的增長，尤其是在年輕人使用互聯網的同時，對女性和女孩的網路暴力也在增加。專家指出，這是因為年輕人使用互聯網的數量大幅增加，同時也給了攻擊者更多的工具來控制和噤聲女性和女孩，影響男孩。非洲的活動家和律師呼籲立即採取行動來保護女性、女孩和男孩免受數位暴力的侵害。這種數位暴力對受害者的影響是非常嚴重的，需要立即的關注和行動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cc0863b2",
+        "title": "葉門叛軍介入中東戰事 亞股多收低",
+        "url": "https://www.cna.com.tw/news/afe/202603300240.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 17:54:04 +0800",
+        "summary_zh": "中東地區的戰事再次升溫，葉門叛軍「青年運動」介入戰事，可能威脅到曼德海峽，進而影響石油出口和航運安全。投資人擔心美國可能派地面部隊赴中東，導致亞洲股市今天多收低。這個事件的背景是中東地區長期的政治不穩定和軍事衝突，目前的發展可能會對全球石油市場和航運業造成重大影響。投資人正在密切關注這個情況的發展，等待更多資訊以便做出明智的投資決策。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "fc0dd13d",
+        "title": "以色列議會通過2026年國家預算，發言人表示",
+        "url": "https://www.reuters.com/world/middle-east/israeli-parliament-approves-2026-state-budget-spokesperson-says-2026-03-29/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-03-29 22:59:57",
+        "summary_zh": "以色列議會近日通過2026年國家預算，預算內容包括了對教育、醫療和基礎建設的投資。根據發言人的說法，這一預算將為國家帶來新的機會和挑戰。預算通過後，將對國家的發展產生重大影響。這一預算的通過是以色列政府的一大成就，展現了政府對國家發展的承諾。然而，預算的通過也引發了對於國家財政的擔憂。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "433b6490",
+        "title": "美國將允許俄羅斯油輪抵達古巴，繞過封鎖",
+        "url": "https://www.theguardian.com/us-news/2026/mar/29/us-russian-oil-tanker-cuba-blockade",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 08:53:42 GMT",
+        "summary_zh": "美國官員表示，俄羅斯油輪「安托洛·科洛德金」可能在三個月後古巴的最後一次石油進口後，將在馬坦薩斯港卸貨。這艘油輪已進入古巴的經濟海域，載有俄羅斯烏拉爾原油650萬桶。根據船舶跟蹤資料，油輪「安托洛·科洛德金」已於週日進入古巴的經濟海域。油輪在俄羅斯普里莫斯克出發後，載有烏拉爾原油650萬桶。根據跟蹤服務MarineTraffic和LSEG的資料，油輪若不改變航線，將在古巴馬坦薩斯港卸貨。這可能是古巴近兩個月來的第一批石油進口。美國對古巴實施的石油禁運令仍然有效，但美國官員表示，美國將允許油輪抵達古巴。這一決定可能會對美國與古巴的關係產生影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6fb47dc3",
+        "title": "照片顯示美國雷達戰機在沙地阿拉伯基地嚴重受損",
+        "url": "https://www.bbc.com/news/articles/cwyd07m7e1xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 18:42:19 GMT",
+        "summary_zh": "美國中東指揮部尚未對此事件發表任何評論。根據最新的照片，美國一架雷達戰機在沙地阿拉伯基地遭到嚴重損壞。這一事件的具體原因尚未明朗，美國中東指揮部尚未就此發表任何評論。這一事件的影響尚待觀察，可能與當地的安全局勢有關。美國政府對此事件的回應將是關鍵的。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f5d98d01",
+        "title": "澳大利亞逃犯德齊·弗里曼被擊斃，警方相信他已經逍遙法外數月",
+        "url": "https://www.bbc.com/news/articles/c93e4gxn22wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 07:07:15 GMT",
+        "summary_zh": "澳大利亞警方一直在追捕德齊·弗里曼，他涉嫌在8月份的普爾普南卡（Porepunkah）槍殺兩名警察。警方相信弗里曼已經在逃亡數月，直到最近被擊斃。這起槍擊事件引起了澳大利亞社會的震驚和關注。警方的行動顯示他們對弗里曼的追捕非常嚴肅和有效。然而，這也引發了對警察執法權力的爭議和質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "47917b7b",
+        "title": "想繼續抗議？了解如何維持運動的動能",
+        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/mar/29/no-kings-protest-next-steps-activism",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 17:18:25 GMT",
+        "summary_zh": "週六，超過8000萬人參與了「No Kings」抗議活動，要求美國政府停止對伊朗的戰爭、移民執法在社區內的存在以及對他們而言的川普政府的威權主義。組織者表示，這是美國歷史上單日抗議人數最多的一次。但是，運動學者指出，社會變革不僅僅局限於一次抗議活動，需要在地方和國家層面進行多種形式的活動才能帶來變化。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2431d972",
+        "title": "緬甸軍政府首腦敏昂萊提名為總統",
+        "url": "https://www.bbc.com/news/articles/clyew40w249o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 05:26:09 GMT",
+        "summary_zh": "緬甸軍政府首腦敏昂萊被提名為總統，這是由於他已經被西方國家制裁。敏昂萊的提名意味著他將成為緬甸的新總統，雖然這個決定仍需要通過正式程序，但根據目前的情況，他的勝選幾乎是無可爭議的。敏昂萊的上任將對緬甸政治產生重大影響，特別是在軍政府的統治下，他的政策將對民眾生活產生深遠的影響。緬甸的民主進步曾在2021年被軍政府推翻，自此，該國一直處於軍政府的統治之下。敏昂萊的上任將使得緬甸的民主進步受阻，民眾的生活將更加艱難。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "34ec66b3",
+        "title": "以色列警方阻止拉丁教會主教參與耶路撒冷棕櫚星期日大祭",
+        "url": "https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 10:41:14 GMT",
+        "summary_zh": "近日，以色列警方在耶路撒冷棕櫚星期日大祭前，阻止拉丁教會主教參與典禮。以色列總理內塔尼亞胡表示，這是為了安全考量，最近伊朗對以色列發動攻擊。這一事件引起了國際社會的關注。棕櫚星期日是基督教的重要節日，拉丁教會主教的參與是典禮的一部分。以色列警方的行動被視為對基督教信仰的限制。這一事件可能會對以色列與國際社會的關係產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "14260f85",
+        "title": "美國民眾感到擔憂：伊朗戰事使日常生活成本大幅上升",
+        "url": "https://www.theguardian.com/world/2026/mar/29/americans-struggling-rising-costs-iran-war",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 13:00:03 GMT",
+        "summary_zh": "美國與以色列對伊朗的軍事打擊，導致全球市場出現波動，美國民眾面臨日常生活成本的重大增加。伊朗對美國在該地區的盟友發動報復攻擊，以及伊朗關閉霍爾木茲海峽，全球市場出現大幅波動。美國汽油價格大幅上升，國內平均價格上升了約 30%，超過一個月。食物、房屋貸款利率和肥料成本也大幅上升。美國民眾感到擔憂，日常生活成本的增加可能會對他們的生活造成重大影響。這種局勢可能會持續下去，美國民眾需要準備面對日常生活成本的重大挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d9a8b923",
+        "title": "甘比亞教堂聚會中未完成建築倒塌三人喪生",
+        "url": "https://www.bbc.com/news/articles/ckgex51zzd8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 08:15:40 GMT",
+        "summary_zh": "在加納一間學校內的未完成建築倒塌，造成三人死亡。當地居民表示，這座建築已經多年未完成，但仍在進行教堂聚會。這起意外發生在加納南部的阿克拉地區。這種類型的建築事故在加納並非罕見，當地政府一直在努力改善建築安全。這次事故的原因尚未明朗，但當地居民表示，未完成的建築物應該不應該被允許進行聚會。這起事故引起了當地居民的強烈反應，許多人在社交媒體上表達了對政府的不滿。這起事故也引起了國際社會的關注，許多人呼籲加納政府提高建築安全標準。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "39e09d43",
+        "title": "倫勃朗、塞尚和馬蒂斯畫作在義大利被竊",
+        "url": "https://www.bbc.com/news/articles/cn4vw2xmpzzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 21:29:56 GMT",
+        "summary_zh": "義大利帕爾馬的一座博物館在凌晨四名蒙面男子的襲擊下遭竊，竊賊搶走了倫勃朗、塞尚和馬蒂斯的畫作。這起案件引起了全球藝術界的關注。倫勃朗、塞尚和馬蒂斯都是著名的藝術家，他們的作品被認為是世界藝術史上的珍品。這些畫作的失竊將對藝術界和博物館的安全造成重大影響。目前，警方正在調查這起案件，試圖追蹤竊賊的下落。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "323d1b72",
+        "title": "意大利調查雪花影像和Benefit公司涉嫌向兒童推廣保養品",
+        "url": "https://www.bbc.com/news/articles/c3dlk93m7jyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 19:37:03 GMT",
+        "summary_zh": "意大利競爭當局指出奢侈品巨頭LVMH採用了「尤其詭計」(insidious)的行銷策略，涉嫌向兒童推廣保養品。這項調查主要針對雪花影像和Benefit公司，兩家公司都隸屬於LVMH旗下。調查發現，這些公司在線上和線下都推出了針對兒童的保養品廣告，包括兒童版的化妝品和保養品。意大利競爭當局認為，這些行銷策略可能會對兒童造成不良影響，包括促進不健康的美容觀念和誘導兒童購買保養品。這項調查可能會對LVMH旗下公司的行銷策略產生重大影響，甚至可能導致公司面臨罰款或其他法律後果。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "192885b3",
+        "title": "巴黎銀行外發生爆炸攻擊案 三人被捕",
+        "url": "https://www.bbc.com/news/articles/cd9v234j2v7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 15:33:36 GMT",
+        "summary_zh": "巴黎發生爆炸攻擊案，銀行外的爆炸攻擊事件引起了當地警方的關注。法國反恐檢察官的辦公室表示，該案件已經被立即轉交給反恐檢察官處理。事件發生在美國銀行銀行外，銀行的名字是 Bank of America。根據目前的情報，三名嫌疑人已經被捕。這起爆炸攻擊事件的影響是嚴重的，銀行外的安全措施將會被嚴格執行。法國政府將會對這起事件進行調查，並將會對嫌疑人進行嚴厲的懲處。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d0f26730",
+        "title": "非洲足球總會主席辭職，引發摩洛哥-塞內加爾決賽爭議",
+        "url": "https://www.bbc.com/news/articles/cx2w8d1q70vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 13:53:17 GMT",
+        "summary_zh": "非洲足球總會主席Veron Mosengo-Omba在摩洛哥-塞內加爾決賽引發爭議後宣布辭職。這是非洲足球發展的一個關鍵時刻，Mosengo-Omba的辭職可能會對未來的足球事務產生重大影響。雖然尚未公佈他的下一步計劃，但他的辭職可能會讓非洲足球界有新的發展機會。這一事件也引發了對非洲足球未來發展方向的討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "bd31bb1a",
+        "title": "澳洲七個月大追捕終結",
+        "url": "https://www.bbc.com/news/videos/cjw8vqnlzxvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 05:58:41 GMT",
+        "summary_zh": "澳洲警方近期終結了一個持續七個月的追捕行動。嫌犯Dezi Freeman自去年八月在農村地帶槍殺了兩名警察後一直在逃避。警方對他的追捕行動一直持續至今，最終在最近的行動中成功逮捕了嫌犯。這起事件引起了澳洲社會的廣泛關注和討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "709a82e2",
+        "title": "石油價格破115美元，亞洲股市下滑，伊朗戰事進入第五周",
+        "url": "https://www.bbc.com/news/articles/cz905eyjznno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 06:37:22 GMT",
+        "summary_zh": "伊朗戰事進入第五周，伊朗支持的胡塞武裝在也門發動攻擊，針對以色列。這一事件導致石油價格上升至115美元以上，亞洲股市也出現下滑趨勢。石油價格的上升主要是由於伊朗戰事的不斷升級，進一步擴大了全球石油供應的不確定性。這一事件對全球經濟和金融市場產生了重大影響，亞洲股市的下滑也表明投資者對未來的不確定性感到擔憂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "954d24a2",
+        "title": "受教育、就業但仍困擾：印度中產階級承受壓力",
+        "url": "https://www.bbc.com/news/articles/cvg5g3pjy06o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 21:29:18 GMT",
+        "summary_zh": "印度中產階級曾經是社會的象徵，但現在卻面臨著許多挑戰。受教育和就業的機會越來越少，使得這些人難以實現自己的夢想。印度的經濟增長曾經被視為中產階級的希望，但現在卻變得越來越不穩定。許多中產階級家庭面臨著高昂的生活費用和收入不穩定的問題，導致他們的生活質量下降。政府和企業需要採取措施來幫助中產階級渡過難關，為他們提供更多的就業機會和教育資源。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0abf5912",
+        "title": "為何中國科技公司紛紛在香港設立據點",
+        "url": "https://www.bbc.com/news/articles/c8d5v404m96o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 23:07:12 GMT",
+        "summary_zh": "近年來，中國科技公司紛紛在香港設立據點，原因有二。首先，香港成為中國科技公司試驗新產品的理想場所。許多中國公司在香港設立實驗室和研發中心，從而能夠快速測試和改進新產品。其次，香港作為國際金融中心和商業樞紐，為中國科技公司提供了全球擴張的跳板。許多中國公司利用香港的優勢，進軍全球市場，拓展業務。這一趨勢表明，香港正逐漸成為中國科技業的重要據點。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "68552d6d",
+        "title": "兩個澳洲州份免費公車，為了應對伊朗戰爭推升油價",
+        "url": "https://www.bbc.com/news/articles/c937n0yxggeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 05:38:26 GMT",
+        "summary_zh": "由於伊朗戰爭導致油價大幅上升，澳洲的維多利亞州和塔斯馬尼亞州決定推出免費公車服務，以鼓勵民眾不再開車。這項措施旨在減少交通擁擠和環境污染，同時也幫助民眾節省油費。這項政策的推出也引發了對政府財政支出的擔憂。分析人士認為，這項措施可能會對州政府的財政造成一定的影響，但也會對民眾的生活質量產生正面影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
       {
         "id": "376ec21f",
@@ -66,42 +320,6 @@
         "published_at": "Mon, 30 Mar 2026 00:45:13 +0000",
         "summary_zh": "總統發表致辭，紀念越南戰爭退伍軍人節。1965年，數百萬名美國英雄勇敢地離開了家鄉，來到越南的丟棄森林，阻止共產主義的蔓延，捍衛自由的理念，反對惡勢力和壓迫。8年來的激烈戰鬥後，1973年3月29日，最後一批美國軍隊撤出，結束了戰爭。這些英雄們的犧牲和勇氣，讓我們永遠記住他們的貢獻。總統致辭，表達對退伍軍人的敬意和感謝。這一天，讓我們共同紀念這些英雄的犧牲和成就。",
         "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2d4c59d2",
-        "title": "伊朗戰爭升級 2028 年選情風雲：特朗普考慮瓦恩斯 vs. 魯比奧",
-        "url": "https://www.reuters.com/world/us/jd-or-marco-iran-war-raises-2028-stakes-trump-weighs-vance-vs-rubio-2026-03-29/",
-        "source": "Reuters",
-        "category": "whitehouse",
-        "published_at": "2026-03-29 10:04:09",
-        "summary_zh": "伊朗戰爭的升級，對美國總統特朗普的遺產造成了威脅，同時也使得他的兩名高級助手——副總統瓦恩斯和國務卿魯比奧——面臨著政治風險。伊朗戰爭的發展，可能會對 2028 年的美國總統選舉產生重大影響。瓦恩斯和魯比奧的政治前景，正受到關注。特朗普的決定，可能會對美國的外交政策和政治格局產生重大影響。伊朗戰爭的升級，顯示了美國對該地區的軍事介入，可能會對美國的政治和外交政策產生長遠的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dd263a23",
-        "title": "美國政府部分停擺創下歷史新高",
-        "url": "https://www.bbc.com/news/articles/cyv1qpzq5v7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 30 Mar 2026 01:13:51 GMT",
-        "summary_zh": "美國政府部分停擺已經持續44天，導致國土安全部的資金短缺。這種情況導致美國各大機場出現了旅遊混亂。美國政府部分停擺的原因是國會無法就國土安全部的預算達成共識，導致政府部分部門無法正常運作。這種情況對美國的國土安全和旅遊業造成了重大影響。政府停擺的持續時間已經超過了之前的紀錄，引起了國內外的關注。美國政府停擺的影響不僅僅是旅遊業，還包括國土安全、醫療服務和教育等多個領域。美國政府應該儘快恢復正常運作，以避免更多的問題出現。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1ec860e0",
-        "title": "美國多地爆發「No Kings」抗議活動，抗議唐納德·川普",
-        "url": "https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 29 Mar 2026 23:57:25 GMT",
-        "summary_zh": "美國多個城市發生了「No Kings」抗議活動，抗議唐納德·川普。這些抗議活動主要聚焦在川普的政治立場和政策。其中，明尼蘇達州的一場抗議活動特別吸引了眾人注意，因為歌手布魯斯·斯普林斯汀（Bruce Springsteen）在現場表演。這些抗議活動表明美國民眾對於政治議題的關注度不斷升高。川普的政治立場和政策是否能夠得到民眾的支持，仍然存有疑問。這些抗議活動將會對美國政治產生什麼影響，尚待觀察。",
-        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
@@ -166,6 +384,30 @@
         "ai_classified": true
       },
       {
+        "id": "dd263a23",
+        "title": "美國政府部分停擺創下歷史新高",
+        "url": "https://www.bbc.com/news/articles/cyv1qpzq5v7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 30 Mar 2026 01:13:51 GMT",
+        "summary_zh": "美國政府部分停擺已經持續44天，導致國土安全部的資金短缺。這種情況導致美國各大機場出現了旅遊混亂。美國政府部分停擺的原因是國會無法就國土安全部的預算達成共識，導致政府部分部門無法正常運作。這種情況對美國的國土安全和旅遊業造成了重大影響。政府停擺的持續時間已經超過了之前的紀錄，引起了國內外的關注。美國政府停擺的影響不僅僅是旅遊業，還包括國土安全、醫療服務和教育等多個領域。美國政府應該儘快恢復正常運作，以避免更多的問題出現。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1ec860e0",
+        "title": "美國多地爆發「No Kings」抗議活動，抗議唐納德·川普",
+        "url": "https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Sun, 29 Mar 2026 23:57:25 GMT",
+        "summary_zh": "美國多個城市發生了「No Kings」抗議活動，抗議唐納德·川普。這些抗議活動主要聚焦在川普的政治立場和政策。其中，明尼蘇達州的一場抗議活動特別吸引了眾人注意，因為歌手布魯斯·斯普林斯汀（Bruce Springsteen）在現場表演。這些抗議活動表明美國民眾對於政治議題的關注度不斷升高。川普的政治立場和政策是否能夠得到民眾的支持，仍然存有疑問。這些抗議活動將會對美國政治產生什麼影響，尚待觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "7b8a684f",
         "title": "首站月球，下站火星？為什麼NASA的任務如此重要？",
         "url": "https://www.bbc.com/news/articles/cd6wp6xenv0o?at_medium=RSS&at_campaign=rss",
@@ -173,272 +415,6 @@
         "category": "whitehouse",
         "published_at": "Sun, 29 Mar 2026 23:50:21 GMT",
         "summary_zh": "美國正在投資時間、人力和金錢，為了前往月球並進一步探索太空。這項任務不僅僅是與中國競賽，還有許多科學探索和發現的機會。NASA的任務將幫助我們更好地了解月球、太陽系和宇宙的奧秘。美國政府正在為NASA的月球任務提供龐大的資金，同時也在籌劃前往火星的計劃。這項任務的成功將對未來的太空探索和科學研究帶來重大影響。美國的太空計劃正成為全球關注的焦點，與中國競爭的同時，也為世界帶來新的科學發現和技術進步。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "bd31bb1a",
-        "title": "澳洲七個月大追捕終結",
-        "url": "https://www.bbc.com/news/videos/cjw8vqnlzxvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 05:58:41 GMT",
-        "summary_zh": "澳洲警方近期終結了一個持續七個月的追捕行動。嫌犯Dezi Freeman自去年八月在農村地帶槍殺了兩名警察後一直在逃避。警方對他的追捕行動一直持續至今，最終在最近的行動中成功逮捕了嫌犯。這起事件引起了澳洲社會的廣泛關注和討論。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "09c22407",
-        "title": "英國財長將告訴G7盟友：避免能源保護主義",
-        "url": "https://www.ft.com/content/52541a81-f64d-4eaf-8201-ec2928269aee",
-        "source": "Financial Times",
-        "category": "global",
-        "published_at": "2026-03-29 21:30:02",
-        "summary_zh": "英國財長將在G7會議上呼籲盟友共同行動，避免能源保護主義的行為。這是因為各國正面臨霍爾木茲海峽關閉的挑戰，霍爾木茲海峽是世界上最重要的石油輸出通道之一。英國財長認為，各國應該共同努力，避免採取保護主義的政策，從而不斷削弱集體抵抗力。這項呼籲是英國財長對於全球經濟安全的關注，同時也表明了英國對於G7盟友的期待。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "709a82e2",
-        "title": "石油價格破115美元，亞洲股市下滑，伊朗戰事進入第五周",
-        "url": "https://www.bbc.com/news/articles/cz905eyjznno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 06:37:22 GMT",
-        "summary_zh": "伊朗戰事進入第五周，伊朗支持的胡塞武裝在也門發動攻擊，針對以色列。這一事件導致石油價格上升至115美元以上，亞洲股市也出現下滑趨勢。石油價格的上升主要是由於伊朗戰事的不斷升級，進一步擴大了全球石油供應的不確定性。這一事件對全球經濟和金融市場產生了重大影響，亞洲股市的下滑也表明投資者對未來的不確定性感到擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f5d98d01",
-        "title": "澳大利亞逃犯德齊·弗里曼被擊斃，警方相信他已經逍遙法外數月",
-        "url": "https://www.bbc.com/news/articles/c93e4gxn22wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 07:07:15 GMT",
-        "summary_zh": "澳大利亞警方一直在追捕德齊·弗里曼，他涉嫌在8月份的普爾普南卡（Porepunkah）槍殺兩名警察。警方相信弗里曼已經在逃亡數月，直到最近被擊斃。這起槍擊事件引起了澳大利亞社會的震驚和關注。警方的行動顯示他們對弗里曼的追捕非常嚴肅和有效。然而，這也引發了對警察執法權力的爭議和質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2431d972",
-        "title": "緬甸軍政府首腦敏昂萊提名為總統",
-        "url": "https://www.bbc.com/news/articles/clyew40w249o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 05:26:09 GMT",
-        "summary_zh": "緬甸軍政府首腦敏昂萊被提名為總統，這是由於他已經被西方國家制裁。敏昂萊的提名意味著他將成為緬甸的新總統，雖然這個決定仍需要通過正式程序，但根據目前的情況，他的勝選幾乎是無可爭議的。敏昂萊的上任將對緬甸政治產生重大影響，特別是在軍政府的統治下，他的政策將對民眾生活產生深遠的影響。緬甸的民主進步曾在2021年被軍政府推翻，自此，該國一直處於軍政府的統治之下。敏昂萊的上任將使得緬甸的民主進步受阻，民眾的生活將更加艱難。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "954d24a2",
-        "title": "受教育、就業但仍困擾：印度中產階級承受壓力",
-        "url": "https://www.bbc.com/news/articles/cvg5g3pjy06o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 21:29:18 GMT",
-        "summary_zh": "印度中產階級曾經是社會的象徵，但現在卻面臨著許多挑戰。受教育和就業的機會越來越少，使得這些人難以實現自己的夢想。印度的經濟增長曾經被視為中產階級的希望，但現在卻變得越來越不穩定。許多中產階級家庭面臨著高昂的生活費用和收入不穩定的問題，導致他們的生活質量下降。政府和企業需要採取措施來幫助中產階級渡過難關，為他們提供更多的就業機會和教育資源。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0abf5912",
-        "title": "為何中國科技公司紛紛在香港設立據點",
-        "url": "https://www.bbc.com/news/articles/c8d5v404m96o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 23:07:12 GMT",
-        "summary_zh": "近年來，中國科技公司紛紛在香港設立據點，原因有二。首先，香港成為中國科技公司試驗新產品的理想場所。許多中國公司在香港設立實驗室和研發中心，從而能夠快速測試和改進新產品。其次，香港作為國際金融中心和商業樞紐，為中國科技公司提供了全球擴張的跳板。許多中國公司利用香港的優勢，進軍全球市場，拓展業務。這一趨勢表明，香港正逐漸成為中國科技業的重要據點。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "68552d6d",
-        "title": "兩個澳洲州份免費公車，為了應對伊朗戰爭推升油價",
-        "url": "https://www.bbc.com/news/articles/c937n0yxggeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 05:38:26 GMT",
-        "summary_zh": "由於伊朗戰爭導致油價大幅上升，澳洲的維多利亞州和塔斯馬尼亞州決定推出免費公車服務，以鼓勵民眾不再開車。這項措施旨在減少交通擁擠和環境污染，同時也幫助民眾節省油費。這項政策的推出也引發了對政府財政支出的擔憂。分析人士認為，這項措施可能會對州政府的財政造成一定的影響，但也會對民眾的生活質量產生正面影響。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4a89930e",
-        "title": "伊朗戰事升溫推高油價恐衝擊經濟 日股重挫",
-        "url": "https://www.cna.com.tw/news/afe/202603300151.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 14:47:54 +0800",
-        "summary_zh": "伊朗戰事升級引發市場對高油價的關注，恐怕對全球經濟造成重大影響。日本股市在此背景下遭受重挫，投資者出現擔心經濟衰退的趨勢。伊朗戰事的持續升級可能導致油價大幅上漲，進而影響全球經濟的發展。日本股市的下跌是市場對未來經濟風險的反應。投資者正在密切關注油價和經濟指標的變化，以評估戰事對經濟的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "82356a88",
-        "title": "中東戰火致油氣飆漲 G7財經首長商討對策",
-        "url": "https://www.cna.com.tw/news/aopl/202603300141.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 14:32:33 +0800",
-        "summary_zh": "中東戰爭持續進行，國際油價與天然氣價格不斷飆升。為了針對這種情況，七大工業國集團（G7）財經部長將舉行會議，商討對策。這次會議的目的在於探討中東戰爭對全球經濟的影響，並尋找可行的解決方案。法國政府表示，這次會議將是討論中東戰爭經濟後果的重要機會。七大工業國集團包括美國、加拿大、法國、德國、義大利、日本和英國等七個國家的財經部長將參與會議。會議的議程將包括討論中東戰爭對油價和天然氣價格的影響，以及尋找可行的解決方案。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6fb47dc3",
-        "title": "照片顯示美國雷達戰機在沙地阿拉伯基地嚴重受損",
-        "url": "https://www.bbc.com/news/articles/cwyd07m7e1xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 18:42:19 GMT",
-        "summary_zh": "美國中東指揮部尚未對此事件發表任何評論。根據最新的照片，美國一架雷達戰機在沙地阿拉伯基地遭到嚴重損壞。這一事件的具體原因尚未明朗，美國中東指揮部尚未就此發表任何評論。這一事件的影響尚待觀察，可能與當地的安全局勢有關。美國政府對此事件的回應將是關鍵的。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "34ec66b3",
-        "title": "以色列警方阻止拉丁教會主教參與耶路撒冷棕櫚星期日大祭",
-        "url": "https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 00:41:58 GMT",
-        "summary_zh": "近日，以色列警方在耶路撒冷棕櫚星期日大祭前，阻止拉丁教會主教參與典禮。以色列總理內塔尼亞胡表示，這是為了安全考量，最近伊朗對以色列發動攻擊。這一事件引起了國際社會的關注。棕櫚星期日是基督教的重要節日，拉丁教會主教的參與是典禮的一部分。以色列警方的行動被視為對基督教信仰的限制。這一事件可能會對以色列與國際社會的關係產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "47917b7b",
-        "title": "想繼續抗議？了解如何維持運動的動能",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/mar/29/no-kings-protest-next-steps-activism",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 17:18:25 GMT",
-        "summary_zh": "週六，超過8000萬人參與了「No Kings」抗議活動，要求美國政府停止對伊朗的戰爭、移民執法在社區內的存在以及對他們而言的川普政府的威權主義。組織者表示，這是美國歷史上單日抗議人數最多的一次。但是，運動學者指出，社會變革不僅僅局限於一次抗議活動，需要在地方和國家層面進行多種形式的活動才能帶來變化。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d9a8b923",
-        "title": "甘比亞教堂聚會中未完成建築倒塌三人喪生",
-        "url": "https://www.bbc.com/news/articles/ckgex51zzd8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 08:15:40 GMT",
-        "summary_zh": "在加納一間學校內的未完成建築倒塌，造成三人死亡。當地居民表示，這座建築已經多年未完成，但仍在進行教堂聚會。這起意外發生在加納南部的阿克拉地區。這種類型的建築事故在加納並非罕見，當地政府一直在努力改善建築安全。這次事故的原因尚未明朗，但當地居民表示，未完成的建築物應該不應該被允許進行聚會。這起事故引起了當地居民的強烈反應，許多人在社交媒體上表達了對政府的不滿。這起事故也引起了國際社會的關注，許多人呼籲加納政府提高建築安全標準。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "45c9fc8e",
-        "title": "中途荒野：為什麼人們在沙漠中跑來跑去的「學院」?",
-        "url": "https://www.theguardian.com/us-news/2026/mar/29/mars-college-california-campus",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 15:00:01 GMT",
-        "summary_zh": "在洛杉磯兩個小時車程的沙漠中，有一所非傳統的學院——Mars College。這所學院源自於Burning Man的文化，學生們在沒有電力網路的情況下進行學習。這所學院的學生們聚集在沙漠中，圍坐在一堆破舊沙發上，使用筆記本電腦進行學習。學生們在互相分享自己的作品時，顯示出對於學習的熱情。這種非傳統的學習方式是否是未來的典範？",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "39e09d43",
-        "title": "倫勃朗、塞尚和馬蒂斯畫作在義大利被竊",
-        "url": "https://www.bbc.com/news/articles/cn4vw2xmpzzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 21:29:56 GMT",
-        "summary_zh": "義大利帕爾馬的一座博物館在凌晨四名蒙面男子的襲擊下遭竊，竊賊搶走了倫勃朗、塞尚和馬蒂斯的畫作。這起案件引起了全球藝術界的關注。倫勃朗、塞尚和馬蒂斯都是著名的藝術家，他們的作品被認為是世界藝術史上的珍品。這些畫作的失竊將對藝術界和博物館的安全造成重大影響。目前，警方正在調查這起案件，試圖追蹤竊賊的下落。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "192885b3",
-        "title": "巴黎銀行外發生爆炸攻擊案 三人被捕",
-        "url": "https://www.bbc.com/news/articles/cd9v234j2v7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 15:33:36 GMT",
-        "summary_zh": "巴黎發生爆炸攻擊案，銀行外的爆炸攻擊事件引起了當地警方的關注。法國反恐檢察官的辦公室表示，該案件已經被立即轉交給反恐檢察官處理。事件發生在美國銀行銀行外，銀行的名字是 Bank of America。根據目前的情報，三名嫌疑人已經被捕。這起爆炸攻擊事件的影響是嚴重的，銀行外的安全措施將會被嚴格執行。法國政府將會對這起事件進行調查，並將會對嫌疑人進行嚴厲的懲處。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "323d1b72",
-        "title": "意大利調查雪花影像和Benefit公司涉嫌向兒童推廣保養品",
-        "url": "https://www.bbc.com/news/articles/c3dlk93m7jyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 19:37:03 GMT",
-        "summary_zh": "意大利競爭當局指出奢侈品巨頭LVMH採用了「尤其詭計」(insidious)的行銷策略，涉嫌向兒童推廣保養品。這項調查主要針對雪花影像和Benefit公司，兩家公司都隸屬於LVMH旗下。調查發現，這些公司在線上和線下都推出了針對兒童的保養品廣告，包括兒童版的化妝品和保養品。意大利競爭當局認為，這些行銷策略可能會對兒童造成不良影響，包括促進不健康的美容觀念和誘導兒童購買保養品。這項調查可能會對LVMH旗下公司的行銷策略產生重大影響，甚至可能導致公司面臨罰款或其他法律後果。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "14260f85",
-        "title": "美國民眾感到擔憂：伊朗戰事使日常生活成本大幅上升",
-        "url": "https://www.theguardian.com/world/2026/mar/29/americans-struggling-rising-costs-iran-war",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 13:00:03 GMT",
-        "summary_zh": "美國與以色列對伊朗的軍事打擊，導致全球市場出現波動，美國民眾面臨日常生活成本的重大增加。伊朗對美國在該地區的盟友發動報復攻擊，以及伊朗關閉霍爾木茲海峽，全球市場出現大幅波動。美國汽油價格大幅上升，國內平均價格上升了約 30%，超過一個月。食物、房屋貸款利率和肥料成本也大幅上升。美國民眾感到擔憂，日常生活成本的增加可能會對他們的生活造成重大影響。這種局勢可能會持續下去，美國民眾需要準備面對日常生活成本的重大挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d0f26730",
-        "title": "非洲足球總會主席辭職，引發摩洛哥-塞內加爾決賽爭議",
-        "url": "https://www.bbc.com/news/articles/cx2w8d1q70vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 13:53:17 GMT",
-        "summary_zh": "非洲足球總會主席Veron Mosengo-Omba在摩洛哥-塞內加爾決賽引發爭議後宣布辭職。這是非洲足球發展的一個關鍵時刻，Mosengo-Omba的辭職可能會對未來的足球事務產生重大影響。雖然尚未公佈他的下一步計劃，但他的辭職可能會讓非洲足球界有新的發展機會。這一事件也引發了對非洲足球未來發展方向的討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "116e4b4b",
-        "title": "非洲需立即行動防止數位暴力增長",
-        "url": "https://www.theguardian.com/global-development/2026/mar/30/urgent-action-needed-to-prevent-surge-in-digital-violence-in-africa-experts-say",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 04:00:16 GMT",
-        "summary_zh": "非洲正面臨著數位暴力的增長，尤其是在年輕人使用互聯網的同時，對女性和女孩的網路暴力也在增加。專家指出，這是因為年輕人使用互聯網的數量大幅增加，同時也給了攻擊者更多的工具來控制和噤聲女性和女孩，影響男孩。非洲的活動家和律師呼籲立即採取行動來保護女性、女孩和男孩免受數位暴力的侵害。這種數位暴力對受害者的影響是非常嚴重的，需要立即的關注和行動。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "433b6490",
-        "title": "美國將允許俄羅斯油輪抵達古巴，繞過封鎖",
-        "url": "https://www.theguardian.com/us-news/2026/mar/29/us-russian-oil-tanker-cuba-blockade",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 08:53:42 GMT",
-        "summary_zh": "美國官員表示，俄羅斯油輪「安托洛·科洛德金」可能在三個月後古巴的最後一次石油進口後，將在馬坦薩斯港卸貨。這艘油輪已進入古巴的經濟海域，載有俄羅斯烏拉爾原油650萬桶。根據船舶跟蹤資料，油輪「安托洛·科洛德金」已於週日進入古巴的經濟海域。油輪在俄羅斯普里莫斯克出發後，載有烏拉爾原油650萬桶。根據跟蹤服務MarineTraffic和LSEG的資料，油輪若不改變航線，將在古巴馬坦薩斯港卸貨。這可能是古巴近兩個月來的第一批石油進口。美國對古巴實施的石油禁運令仍然有效，但美國官員表示，美國將允許油輪抵達古巴。這一決定可能會對美國與古巴的關係產生影響。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -471,6 +447,42 @@
       }
     ],
     "stock_tw": [
+      {
+        "id": "4f761f9a",
+        "title": "宏碁智新4月20日上櫃 瞄準印度東南亞家電市場",
+        "url": "https://www.cna.com.tw/news/afe/202603300247.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 30 Mar 2026 18:14:21 +0800",
+        "summary_zh": "宏碁智新將於4月20日掛牌上櫃，受惠全球智慧家電市場規模持續擴張。印度家庭大家電普及率偏低，仍具高度成長空間，宏碁智新將印度視為下一階段成長的核心戰場。公司將持續拓展東南亞等新興市場，展望未來發展。這項決策表明宏碁智新對印度市場的信心和發展願景。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "4f584560",
+        "title": "股匯齊挫 新台幣重貶1.16角收31.996元",
+        "url": "https://www.cna.com.tw/news/afe/202603300243.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 30 Mar 2026 18:06:10 +0800",
+        "summary_zh": "中東戰火延燒，市場避險情緒高漲，今天台灣股匯市雙雙重挫。台股盤中一度大跌逾780點，新台幣兌美元也貶勢洶洶，午盤後重挫1.7角，最低觸及32.05元。尾盤貶幅收斂，收盤收在31.996元，貶1.16角。台北及元太外匯市場總成交金額28.92億美元。這次股匯市場的重挫，與中東戰火的延燒和市場避險情緒的高漲有直接關係。市場投資者出於安全考量，紛紛將資金轉出市場，導致股匯市場的波動。這種情況可能會持續一段時間，直到市場情緒穩定為止。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "ddbbda08",
+        "title": "公勝保經掛牌上櫃 拚籌資建立競爭優勢",
+        "url": "https://www.cna.com.tw/news/afe/202603300237.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 30 Mar 2026 17:51:57 +0800",
+        "summary_zh": "公勝保經今天正式掛牌上櫃，董事長蔡聖威表示，將透過上櫃建立起更完善的治理制度、提升公司知名度，並藉由資本市場籌資管道，持續建立更強大的競爭優勢。這是公勝保經在市場上的一大進展，公司將會透過上櫃的資金來強化其業務能力，進一步鞏固其在保險經紀人市場的競爭力。公勝保經的上櫃掛牌將對於公司的發展帶來重要影響，公司將會繼續致力於建立競爭優勢，為股東創造更高的價值。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "071caedb",
         "title": "宜鼎:今年AI系統業績可望倍增 啟動設計宜蘭三廠",
@@ -532,66 +544,6 @@
         "ai_classified": true
       },
       {
-        "id": "ced1b578",
-        "title": "三大法人賣超台股739.56億元",
-        "url": "https://www.cna.com.tw/news/afe/202603300160.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 30 Mar 2026 15:06:14 +0800",
-        "summary_zh": "台股今天跌594.43點，收在32518.16點，成交值新台幣6466.24億元。三大法人外資及陸資賣超、投信買超、自營商賣超，合計賣超739.56億元。這意味著外資和陸資在今天的交易中賣出了大量的股票，而投信和自營商則買入了股票。這種情況可能會對台股的市場情緒產生一定的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e326d7dc",
-        "title": "外資連續4週賣超逾千億元 台股下跌1.29% ",
-        "url": "https://www.cna.com.tw/news/afe/202603300158.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 30 Mar 2026 15:06:09 +0800",
-        "summary_zh": "受美伊戰事影響，台股上週下跌431.29點或1.29%，上週五集中市場指數收在33112.59點。外資在台股市場上週賣超新台幣1030.3億元，連續4週賣超逾千億元，累計4週賣超金額約8235億元。這表明外資對台股市場的信心正在下降。外資賣超的原因可能與美伊戰事的不確定性和台股市場的波動有關。這也可能對台股市場的短期走勢產生影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "479370fe",
-        "title": "新青安2.0改版 楊金龍：寬限期太長不好",
-        "url": "https://www.cna.com.tw/news/afe/202603300152.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 30 Mar 2026 14:47:57 +0800",
-        "summary_zh": "新青安貸款將於今年7月底屆期，引起立委關注央行的看法。中央銀行總裁楊金龍表示，寬限期太長並不好，可能導致借款人財務規劃鬆散、鬆懈。楊金龍認為，縮短寬限期對借款人和銀行都有益。這意味著央行可能會考慮縮短寬限期，以避免借款人過度依賴貸款，同時也要考慮銀行的風險。這項決定將對台灣的財經政策產生影響，需要密切關注。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8307a940",
-        "title": "國發會：首期信保機制目標籌資12億美元 拚6月上路",
-        "url": "https://www.cna.com.tw/news/afe/202603300147.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 30 Mar 2026 14:38:46 +0800",
-        "summary_zh": "國發會規劃「支持企業投資美國融資保證機制」，目標籌資12億美元。該機制提供3個方案供金融機構選擇，首期國發基金將注資8億美元。為鼓勵更多企業參與，可能規範單一企業最高融資金額。預計4月底前提報行政院，目標6月底前開放企業申請。這項機制旨在幫助企業投資美國，增強台美經濟合作。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8923ba12",
-        "title": "家電補助申請倒數 政策助市場銷售額破1465億",
-        "url": "https://www.cna.com.tw/news/afe/202603300144.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 30 Mar 2026 14:36:40 +0800",
-        "summary_zh": "經濟部近年推動家電汰換補助政策，目的是節能達到淨零目標。根據能源署的數據，過去三年完成了488.4萬台高耗能家電的汰換，從而節省了31.6億度的電力。這項政策不僅幫助節約能源，也帶動了家電市場的銷售額，突破了新台幣1465.2億元。今年是補助政策的最後一年，能源署提醒民眾把握申請機會，趁機更新高耗能家電，節省能源並支持家電市場。這項政策的成功，證明了政府的政策可以有效推動節能和市場發展。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "c93af7d6",
         "title": "華虹傳跨入7奈米 大陸半導體技術進步真的這麼快嗎？",
         "url": "https://money.udn.com/money/story/5604/9386559",
@@ -604,7 +556,57 @@
         "ai_classified": true
       }
     ],
+    "finance": [
+      {
+        "id": "849f77ac",
+        "title": "外國人在3月份將印度股票抛售達12億美元，原因是戰爭",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-29/foreigners-dump-record-12-billion-india-stocks-in-march-on-war",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-03-29 23:00:00",
+        "summary_zh": "印度股市在3月份遭遇外資大幅撤資，外國人在該月份將印度股票抛售達12億美元，這是自2001年以來最大的單月撤資額。這一趨勢與印度與巴基斯坦之間的軍事對峙有關，外國投資者擔心印度的政治不穩定會對經濟造成負面影響。印度政府正在努力維持經濟穩定，同時也在與巴基斯坦進行談判以解決兩國之間的緊張關係。外資撤資的消息對印度股市造成了重大影響，股價下跌，投資者感到擔憂。印度政府將如何應對這一挑戰，還需要觀察。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "4e4489e5",
+        "title": "歐洲央行必須穩定通貨膨脹預期，維勒洛對意大利《拉斯坦帕》發表言論",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-29/ecb-must-anchor-inflation-expectations-villeroy-tells-la-stampa",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-03-29 23:00:00",
+        "summary_zh": "歐洲央行總裁維勒洛表示，歐洲央行必須穩定通貨膨脹預期，避免市場對未來的預期過高。維勒洛在接受意大利《拉斯坦帕》採訪時表示，歐洲央行將繼續採取措施控制通貨膨脹，確保物價穩定。維勒洛強調，歐洲央行的目標是維持低通貨膨脹率，避免物價上漲對民眾的影響。同時，維勒洛也表示，歐洲央行將密切監測經濟情況，隨時調整政策以應對未來的挑戰。維勒洛的言論表明，歐洲央行將繼續堅持穩定通貨膨脹的政策，確保歐洲經濟的穩定發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "2352a7af",
+        "title": "澳洲星娛樂與WhiteHawk簽署39億美元重組貸款協議",
+        "url": "https://www.reuters.com/world/asia-pacific/australias-star-entertainment-inks-390-million-refinancing-deal-with-whitehawk-2026-03-29/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-03-29 22:57:45",
+        "summary_zh": "澳洲星娛樂公司宣布與WhiteHawk簽署39億美元的重組貸款協議。這項協議將幫助公司減輕負債和提高財務穩定性。澳洲星娛樂是一家領先的澳洲娛樂公司，提供賭博、酒店和餐飲服務。該公司面臨著財務壓力，該協議將幫助公司度過難關。重組貸款協議將為澳洲星娛樂提供額外的資金來支付債務，並且將公司的財務狀況提高到可接受的水平。這項協議對澳洲星娛樂的未來發展具有重要意義，公司將能夠繼續投資於業務和創新項目。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      }
+    ],
     "stock_us": [
+      {
+        "id": "5d250190",
+        "title": "美股未來指數下跌，石油價格大幅上漲，伊朗戰爭持續無止境",
+        "url": "https://www.marketwatch.com/story/u-s-stock-futures-sink-oil-prices-surge-as-iran-war-shows-no-signs-of-letting-up-5c463163?mod=mw_rss_topstories",
+        "source": "Marketwatch",
+        "category": "stock_us",
+        "published_at": "2026-03-29 22:16:00",
+        "summary_zh": "伊朗戰爭持續第五周，美股未來指數下跌，石油價格大幅上漲。投資人開始意識到伊朗戰爭對經濟的影響可能會持續較長時間。美股未來指數在週五的大幅下跌後，週日再度下跌。石油價格也在週日大幅上漲。投資人對戰爭持續的影響感到擔憂。伊朗戰爭對全球經濟的影響可能會持續較長時間。投資人需要密切關注戰爭的進展和石油價格的變化。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "c50b9b97",
         "title": "投資者面臨的問題：我們不知道川普如何想結束伊朗戰爭",
@@ -614,8 +616,8 @@
         "published_at": "2026-03-29 21:03:29",
         "summary_zh": "美國投資家面臨著不確定的局勢，伊朗戰爭持續進行，市場預期S&P 500將繼續下跌。投資家Jim Cramer在他的星期日專欄中指出，伊朗戰爭對美國股市將產生重大影響。川普政府的不確定性使投資者難以做出決策，市場預期下跌將持續。投資者需要密切關注政府的動向和市場的反應，以便做出明智的投資決策。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "17f47603",
@@ -673,128 +675,6 @@
         "category": "stock_us",
         "published_at": "2026-03-29 12:00:01",
         "summary_zh": "稀有卡片已經成為一些投資者的替代投資類別，尤其是那些來自Pokémon等知名品牌的稀有卡片，價值達到數百萬美元。投資者和名人都注意到了這一趨勢，甚至有些稀有卡片的回報率超過了S&P 500指數。這一趨勢引起了市場的關注，投資者開始將稀有卡片視為一種新的投資機會。然而，稀有卡片的市場也存在著不少風險，投資者需要謹慎評估風險和回報率。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2aad2031",
-        "title": "有專家指出，預先知曉特朗普政策變化的投資人應該被審查",
-        "url": "https://www.reuters.com/legal/government/lucrative-bets-that-anticipated-trumps-policy-surprises-warrant-scrutiny-experts-2026-03-29/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-03-29 10:15:44",
-        "summary_zh": "在特朗普政府的關鍵決策前夕，某些投資人進行了精確的投資，取得了數百萬美元的利潤。這引發了關於資訊洩露的疑慮。這些投資人似乎預先知曉了政府關於關稅、委內瑞拉和伊朗的政策變化。這些交易似乎是有意識的，讓人們懷疑是否存在資訊洩露或其他不當行為。這些事件引發了對投資人是否有不當獲得資訊的質疑，同時也引發了對政府政策變化的預測能力的質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "bbc1cb57",
-        "title": "英國雷維斯呼籲G7增強能源供應　史達默與企業會面",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-29/uk-s-reeves-urges-g-7-to-boost-energy-supply-as-starmer-meets-businesses",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-29 21:30:00",
-        "summary_zh": "英國財政大臣雷維斯呼籲七大工業國組織（G7）增強能源供應，以應對全球能源危機。雷維斯在與七大工業國組織領袖會面時，強調能源供應的重要性。另一方面，英國工黨領袖史達默正在與企業代表會面，探討如何應對能源危機的影響。雷維斯的呼籲是為了應對全球能源供應緊張的局面，史達默的會面則是為了了解企業的需求和意見。這兩個事件表明，英國政府和工黨正在努力應對能源危機的挑戰。能源危機對全球經濟和民生造成了重大影響，各國政府和企業正在努力尋找解決方案。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "0dce1019",
-        "title": "澳洲汽油儲備不足：有何關注?",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-29/could-australia-run-out-of-fuel-as-iran-war-disrupts-global-oil-supplies",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-29 21:23:20",
-        "summary_zh": "澳洲的汽油儲備量一直是關注的焦點。根據最新的數據，澳洲的汽油儲備量低於預期，引起了對供應鏈的擔憂。這可能會對澳洲的經濟和人民生活造成影響。澳洲政府正在努力增加儲備量，但仍然面臨著挑戰。同時，汽油價格也在上漲，對消費者造成了壓力。這些因素都表明，澳洲的汽油儲備不足可能是一個嚴重的問題。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "4a1b6e1c",
-        "title": "私募股權的殘酷附帶條款讓貸款人在黑暗中摸索",
-        "url": "https://www.bloomberg.com/news/features/2026-03-29/private-equity-requires-lenders-to-sign-ndas-in-brutal-side-deals",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-29 21:05:02",
-        "summary_zh": "私募股權投資（Private Equity）背後的公司在債務重組時，往往讓貸款人只能拿到殘破的剩餘。這種情況出現在私募股權投資背後的公司債務重組時，貸款人往往被迫接受不利的條款，讓他們只能拿到債務重組後剩下的殘破資產。這種情況下，貸款人往往無法掌握私募股權投資背後的公司的財務狀況，甚至無法確定公司是否還有剩餘資產可供債務重組。這種情況下，貸款人只能在黑暗中摸索，無法確定自己是否會拿到足夠的資產來償還債務。私募股權投資背後的公司債務重組的這種情況，讓貸款人感到困擾和擔憂。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "22ea33aa",
-        "title": "利比亞沙拉拉油田預計48小時內恢復正常產量，工程師表示",
-        "url": "https://www.reuters.com/business/energy/libyas-sharara-oilfield-expected-resume-normal-output-48-hours-engineers-say-2026-03-29/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-03-29 21:00:09",
-        "summary_zh": "利比亞沙拉拉油田因為停機維修而暫時停止產量。工程師表示，停機維修工作已經完成，油田預計在48小時內恢復正常產量。利比亞的石油產量對於全球石油市場有著重要影響。油田停機的原因是由於安全問題和技術問題。工程師們正在努力恢復油田的正常運作，以確保石油的穩定供應。利比亞的石油產量的恢復對於全球石油市場將有著重要影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "dddbf18e",
-        "title": "債務基金聚焦私人貸款市場下行，視為 2008 年以來最大機會",
-        "url": "https://www.ft.com/content/8c3514be-8c7b-4d13-a59a-dd8a23fb8c40",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-03-29 20:00:02",
-        "summary_zh": "在私人貸款市場出現下行跡象時，債務基金投資者認為，這將是 2008 年以來最大的投資機會。私人貸款市場是指企業或個人的非銀行性貸款，通常由投資者或私人基金提供。市場分析師預測，私人貸款市場將出現下行趨勢，投資者將有機會購入低價的債務資產。這種情況與 2008 年金融危機時相似，當時債務基金投資者也抓住了下行機會，取得了豐厚的收益。然而，投資者也應該注意到，私人貸款市場的下行可能會導致債務資產價值下降，投資者需要謹慎評估風險和回報率。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9a13b2ae",
-        "title": "投資者焦慮持續升級，戰爭第五週即將到來",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-29/investor-unease-builds-entering-war-s-fifth-week-markets-wrap",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-29 19:31:25",
-        "summary_zh": "在伊朗戰爭持續第五週的背景下，石油價格創下歷史新高，股市處於或接近正確區域，債券面臨壓力，而投資者越來越感到市場難以避免戰爭的影響。投資者對市場的擔憂正在增長，市場工具似乎難以應對伊朗戰爭的持久性。石油價格的上漲使得全球經濟面臨新的挑戰，投資者需要謹慎評估市場風險。伊朗戰爭的持久性對全球經濟的影響正在逐漸顯現，投資者需要密切關注市場的變化。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0a1993af",
-        "title": "阿波羅全球管理欲在佛羅里達州或德克薩斯州設立第二總部",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-29/apollo-pushes-to-open-a-second-headquarters-in-florida-or-texas",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-29 19:05:30",
-        "summary_zh": "阿波羅全球管理公司正在計劃在美國設立第二總部，目前正在考慮佛羅里達州南部或德克薩斯州作為選擇。這項消息於星期日公布。阿波羅全球管理公司是一家全球性私募基金公司，總部位於紐約。該公司的第二總部將會是公司業務的重要據點，將會為公司的發展提供更大的便利。佛羅里達州南部和德克薩斯州都是美國南部的重要經濟中心，兩地都有豐富的資源和優越的交通條件。阿波羅全球管理公司的這一決定將會對當地經濟產生重要影響，同時也將會為公司的發展提供新的機遇。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7590803f",
-        "title": "摩根大通和普利摩克表示債券市場低估衰退風險",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-29/jpmorgan-pimco-say-bond-market-is-underestimating-slowdown-risk",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-29 19:00:00",
-        "summary_zh": "摩根大通和普利摩克發表意見表示，債券市場低估了全球經濟衰退的風險。根據他們的分析，全球經濟正面臨著衰退風險，債券市場的預期過於樂觀。這些分析師認為，全球經濟的衰退風險遠高於市場預期，債券市場應該更加謹慎地評估這種風險。摩根大通和普利摩克的分析是基於全球經濟的變化和市場的動態。這些變化包括全球貿易戰、經濟增長率下降和投資者對未來的不確定性。這些分析師認為，債券市場需要更加謹慎地評估這些風險，以避免未來的損失。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "49c4b79d",
-        "title": "Telecom Italia取消與Inwit的行動電話塔合同續約",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-29/telecom-italia-scraps-plan-to-renew-inwit-tower-contract-in-2030",
-        "source": "Bloomberg Tech",
-        "category": "finance",
-        "published_at": "Sun, 29 Mar 2026 11:19:09 GMT",
-        "summary_zh": "Telecom Italia SpA 宣布不會續約行動電話塔合同，該合同將延伸至 2038 年。這項決定是 Telecom Italia 對其行動電話塔合同續約的變化之一。行動電話塔合同續約是 Telecom Italia 的重要業務之一，該公司與 Inwit SpA 共同擁有行動電話塔網絡。Telecom Italia 的決定可能會對行動電話塔業影響，同時也會對 Inwit SpA 的業務產生影響。這項決定可能是 Telecom Italia 對其業務進行重新評估的一部分。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -866,243 +746,6 @@
       "type": "price",
       "warn": 400,
       "danger": 500
-    }
-  },
-  "daily_digest": {
-    "key_themes": [
-      {
-        "title": "全球能源危機",
-        "background": "全球能源供應緊張，尤其是石油和天然氣。",
-        "development": "伊朗戰事進入第五周，伊朗支持的胡塞武裝在也門發動攻擊，針對以色列，導致石油價格上升至115美元以上。",
-        "impact": "石油價格的上升對全球經濟和金融市場產生了重大影響，亞洲股市也出現下滑趨勢。",
-        "conclusion": "全球能源危機將持續對經濟和金融市場產生影響，投資者需要謹慎評估風險。",
-        "region": "global"
-      },
-      {
-        "title": "台股走勢",
-        "background": "台股近期走勢不穩。",
-        "development": "台股今天跌594.43點，收在32518.16點，成交值新台幣6466.24億元。三大法人外資及陸資賣超、投信買超、自營商賣超，合計賣超739.56億元。",
-        "impact": "台股走勢不穩對投資者信心產生影響。",
-        "conclusion": "台股走勢將繼續受到全球經濟和能源危機的影響，投資者需要密切關注市場變化。",
-        "region": "asia"
-      },
-      {
-        "title": "私募股權投資風險",
-        "background": "私募股權投資背後的公司在債務重組時，往往讓貸款人只能拿到殘破的剩餘。",
-        "development": "私募股權投資背後的公司債務重組時，貸款人往往被迫接受不利的條款，讓他們只能拿到債務重組後剩下的殘破資產。",
-        "impact": "私募股權投資風險對貸款人和投資者產生了重大影響。",
-        "conclusion": "私募股權投資需要謹慎評估風險，投資者需要密切關注公司的財務狀況。",
-        "region": "global"
-      },
-      {
-        "title": "中國科技公司在香港設立據點",
-        "background": "中國科技公司近年來在香港設立據點。",
-        "development": "中國科技公司在香港設立據點，原因有二，首先，香港成為中國科技公司試驗新產品的理想場所，許多中國公司在香港設立實驗室和研發中心。",
-        "impact": "中國科技公司在香港設立據點對香港經濟和科技業產生了重大影響。",
-        "conclusion": "中國科技公司在香港設立據點將繼續對香港經濟和科技業產生影響，投資者需要密切關注市場變化。",
-        "region": "asia"
-      },
-      {
-        "title": "人工智慧在音樂產業的應用",
-        "background": "人工智慧技術已經影響到音樂產業的各個方面。",
-        "development": "人工智慧在音樂產業的應用也引發了技術和法律挑戰，激烈的道德辯論，以及擔心人工智慧會通過大量數量壓倒實際的音樂家。",
-        "impact": "人工智慧在音樂產業的應用對音樂產業產生了重大影響。",
-        "conclusion": "人工智慧在音樂產業的應用需要謹慎評估風險，音樂家和投資者需要密切關注市場變化。",
-        "region": "global"
-      }
-    ],
-    "sector_analysis": [
-      {
-        "sector": "能源",
-        "direction": "看空",
-        "reasoning": "全球能源供應緊張，尤其是石油和天然氣。",
-        "key_ticker": "石油"
-      },
-      {
-        "sector": "科技",
-        "direction": "看多",
-        "reasoning": "中國科技公司在香港設立據點，對香港經濟和科技業產生了重大影響。",
-        "key_ticker": "中國科技公司"
-      },
-      {
-        "sector": "金融",
-        "direction": "看空",
-        "reasoning": "私募股權投資風險對貸款人和投資者產生了重大影響。",
-        "key_ticker": "私募股權投資"
-      }
-    ],
-    "action_signals": [
-      {
-        "asset": "石油",
-        "signal": "短空",
-        "reasoning": "全球能源供應緊張，尤其是石油和天然氣。",
-        "confidence": "高"
-      },
-      {
-        "asset": "中國科技公司",
-        "signal": "短多",
-        "reasoning": "中國科技公司在香港設立據點，對香港經濟和科技業產生了重大影響。",
-        "confidence": "高"
-      },
-      {
-        "asset": "私募股權投資",
-        "signal": "短空",
-        "reasoning": "私募股權投資風險對貸款人和投資者產生了重大影響。",
-        "confidence": "中高"
-      }
-    ],
-    "risk_radar": [
-      {
-        "event": "全球能源危機",
-        "probability": "高",
-        "impact": "高",
-        "timeframe": "本週",
-        "description": "全球能源供應緊張，尤其是石油和天然氣。"
-      },
-      {
-        "event": "私募股權投資風險",
-        "probability": "中",
-        "impact": "中",
-        "timeframe": "下週",
-        "description": "私募股權投資風險對貸款人和投資者產生了重大影響。"
-      },
-      {
-        "event": "中國科技公司在香港設立據點",
-        "probability": "低",
-        "impact": "低",
-        "timeframe": "本月",
-        "description": "中國科技公司在香港設立據點，對香港經濟和科技業產生了重大影響。"
-      }
-    ],
-    "narrative_shift": {
-      "new_themes": [
-        "全球能源危機",
-        "私募股權投資風險"
-      ],
-      "escalated": [
-        "中國科技公司在香港設立據點"
-      ],
-      "cooled": [
-        "人工智慧在音樂產業的應用"
-      ],
-      "disappeared": []
-    },
-    "watch_next": [
-      {
-        "topic": "全球能源危機",
-        "reason": "全球能源供應緊張，尤其是石油和天然氣。",
-        "timeframe": "本週"
-      },
-      {
-        "topic": "中國科技公司在香港設立據點",
-        "reason": "中國科技公司在香港設立據點，對香港經濟和科技業產生了重大影響。",
-        "timeframe": "下週"
-      },
-      {
-        "topic": "私募股權投資風險",
-        "reason": "私募股權投資風險對貸款人和投資者產生了重大影響。",
-        "timeframe": "本月"
-      }
-    ],
-    "cross_links": [
-      {
-        "themes": [
-          "全球能源危機",
-          "中國科技公司在香港設立據點"
-        ],
-        "chain": "全球能源危機→中國科技公司在香港設立據點→香港經濟"
-      },
-      {
-        "themes": [
-          "私募股權投資風險",
-          "人工智慧在音樂產業的應用"
-        ],
-        "chain": "私募股權投資風險→人工智慧在音樂產業的應用→音樂產業"
-      },
-      {
-        "themes": [
-          "中國科技公司在香港設立據點",
-          "人工智慧在音樂產業的應用"
-        ],
-        "chain": "中國科技公司在香港設立據點→人工智慧在音樂產業的應用→科技業"
-      }
-    ],
-    "market_snapshot": {
-      "mood": "避險",
-      "key_moves": "VIX 恐慌指數 30.86(-0.61%)、原油 WTI 101.53(+1.90%)、黃金 4563.4(+1.59%)、S&P500 6368.85(-1.67%)、那斯達克 20948.36(-2.15%)、台股 32518.16(-1.80%)、美元指數 100.26(+0.11%)、美債10Y殖利率 4.44(+0.54%)、美元/台幣 32.01(+0.26%)"
-    },
-    "data_table": {
-      "indices": [
-        {
-          "key": "SP500",
-          "name": "S&P 500",
-          "price": 6368.85,
-          "change_pct": -1.67,
-          "status": "danger"
-        },
-        {
-          "key": "NASDAQ",
-          "name": "那斯達克",
-          "price": 20948.36,
-          "change_pct": -2.15,
-          "status": "normal"
-        },
-        {
-          "key": "TWII",
-          "name": "台股加權",
-          "price": 32518.16,
-          "change_pct": -1.8,
-          "status": "danger"
-        }
-      ],
-      "commodities": [
-        {
-          "key": "GOLD",
-          "name": "黃金",
-          "price": 4563.4,
-          "change_pct": 1.59,
-          "status": "normal"
-        },
-        {
-          "key": "OIL",
-          "name": "原油 WTI",
-          "price": 101.53,
-          "change_pct": 1.9,
-          "status": "normal"
-        }
-      ],
-      "forex": [
-        {
-          "key": "DXY",
-          "name": "美元指數",
-          "price": 100.26,
-          "change_pct": 0.11,
-          "status": "normal"
-        },
-        {
-          "key": "USDTWD",
-          "name": "美元/台幣",
-          "price": 32.01,
-          "change_pct": 0.26,
-          "status": "normal"
-        }
-      ],
-      "bonds_volatility": [
-        {
-          "key": "TNX",
-          "name": "美債10Y殖利率",
-          "price": 4.44,
-          "change_pct": 0.54,
-          "status": "normal"
-        },
-        {
-          "key": "VIX",
-          "name": "VIX 恐慌指數",
-          "price": 30.86,
-          "change_pct": -0.61,
-          "status": "danger"
-        }
-      ]
     }
   }
 }
