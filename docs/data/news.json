@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-03-30T12:08:39.550786+08:00",
+  "generated_at": "2026-03-30T13:04:16.829369+08:00",
   "risk_signals": [
-    "🟢 台股加權 32575.14（正常）",
+    "🟢 台股加權 32662.62（正常）",
     "🟢 S&P 500 6368.85（正常）",
     "🔴 VIX 恐慌指數 31.05（高風險區間）",
     "🟡 MOVE 債市波動 111.95（留意）",
-    "🟢 美元指數 100.15（正常）",
-    "🟡 黃金 4492.0（漲 +2.66%，留意）",
+    "🟢 美元指數 100.1（正常）",
+    "🟢 黃金 4521.1（正常）",
     "🟢 美債10Y殖利率 4.44（正常）",
-    "🔴 原油 WTI 99.64（急漲 +5.46%，市場避險）",
-    "🟢 美元/台幣 31.99（正常）"
+    "🟢 原油 WTI 101.38（正常）",
+    "🟢 美元/台幣 32.0（正常）"
   ],
-  "ai_summary": "市場氛圍緊繃，全球股市下跌，恐慌指數升高，原油急漲，市場避險情緒增強。",
+  "ai_summary": "市場氛圍偏向偏憂慮，台股和美股均有小幅下跌，VIX 恐慌指數高於正常水平，留意債市波動的上升。",
   "market": {
     "TWII": {
-      "price": 32575.14,
-      "change_pct": -1.62
+      "price": 32662.62,
+      "change_pct": -1.36
     },
     "SP500": {
       "price": 6368.85,
@@ -38,24 +38,278 @@
       "change_pct": -2.67
     },
     "DXY": {
-      "price": 100.15,
-      "change_pct": 0.25
+      "price": 100.1,
+      "change_pct": -0.05
     },
     "GOLD": {
-      "price": 4492.0,
-      "change_pct": 2.66
+      "price": 4521.1,
+      "change_pct": 0.65
     },
     "OIL": {
-      "price": 99.64,
-      "change_pct": 5.46
+      "price": 101.38,
+      "change_pct": 1.75
     },
     "USDTWD": {
-      "price": 31.99,
-      "change_pct": 0.2
+      "price": 32.0,
+      "change_pct": 0.21
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "709a82e2",
+        "title": "石油價格破115美元，亞洲股市下滑，伊朗戰事進入第五周",
+        "url": "https://www.bbc.com/news/articles/cz905eyjznno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 03:34:37 GMT",
+        "summary_zh": "伊朗戰事進入第五周，伊朗支持的胡塞武裝在也門發動攻擊，針對以色列。這一事件導致石油價格上升至115美元以上，亞洲股市也出現下滑趨勢。石油價格的上升主要是由於伊朗戰事的不斷升級，進一步擴大了全球石油供應的不確定性。這一事件對全球經濟和金融市場產生了重大影響，亞洲股市的下滑也表明投資者對未來的不確定性感到擔憂。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "f5d98d01",
+        "title": "澳大利亞逃犯德齊·弗里曼被擊斃，警方相信他已經逍遙法外數月",
+        "url": "https://www.bbc.com/news/articles/c93e4gxn22wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 02:01:39 GMT",
+        "summary_zh": "澳大利亞警方一直在追捕德齊·弗里曼，他涉嫌在8月份的普爾普南卡（Porepunkah）槍殺兩名警察。警方相信弗里曼已經在逃亡數月，直到最近被擊斃。這起槍擊事件引起了澳大利亞社會的震驚和關注。警方的行動顯示他們對弗里曼的追捕非常嚴肅和有效。然而，這也引發了對警察執法權力的爭議和質疑。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "954d24a2",
+        "title": "受教育、就業但仍困擾：印度中產階級承受壓力",
+        "url": "https://www.bbc.com/news/articles/cvg5g3pjy06o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 21:29:18 GMT",
+        "summary_zh": "印度中產階級曾經是社會的象徵，但現在卻面臨著許多挑戰。受教育和就業的機會越來越少，使得這些人難以實現自己的夢想。印度的經濟增長曾經被視為中產階級的希望，但現在卻變得越來越不穩定。許多中產階級家庭面臨著高昂的生活費用和收入不穩定的問題，導致他們的生活質量下降。政府和企業需要採取措施來幫助中產階級渡過難關，為他們提供更多的就業機會和教育資源。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "0abf5912",
+        "title": "為何中國科技公司紛紛在香港設立據點",
+        "url": "https://www.bbc.com/news/articles/c8d5v404m96o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 23:07:12 GMT",
+        "summary_zh": "近年來，中國科技公司紛紛在香港設立據點，原因有二。首先，香港成為中國科技公司試驗新產品的理想場所。許多中國公司在香港設立實驗室和研發中心，從而能夠快速測試和改進新產品。其次，香港作為國際金融中心和商業樞紐，為中國科技公司提供了全球擴張的跳板。許多中國公司利用香港的優勢，進軍全球市場，拓展業務。這一趨勢表明，香港正逐漸成為中國科技業的重要據點。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8c3777fc",
+        "title": "中東戰事推升物價 伊朗年通膨率漲破50%",
+        "url": "https://www.cna.com.tw/news/aopl/202603300031.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 10:07:36 +0800",
+        "summary_zh": "伊朗因為中東戰事而出現物價大幅上升，伊朗官方統計中心今天表示，截至3月中旬，伊朗的年通膨率已攀升至50.6%，較前1個月上升3個百分點。這意味著伊朗的物價已經大幅上升，對於民眾的生活造成了很大的影響。伊朗的經濟已經受到戰事的嚴重影響，物價的上升將會使得民眾的生活更加困難。這也會對伊朗的經濟發展造成負面影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "68552d6d",
+        "title": "兩個澳洲州份免費公車，為了應對伊朗戰爭推升油價",
+        "url": "https://www.bbc.com/news/articles/c937n0yxggeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 15:24:54 GMT",
+        "summary_zh": "由於伊朗戰爭導致油價大幅上升，澳洲的維多利亞州和塔斯馬尼亞州決定推出免費公車服務，以鼓勵民眾不再開車。這項措施旨在減少交通擁擠和環境污染，同時也幫助民眾節省油費。這項政策的推出也引發了對政府財政支出的擔憂。分析人士認為，這項措施可能會對州政府的財政造成一定的影響，但也會對民眾的生活質量產生正面影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "2f485d74",
+        "title": "中東戰事延燒 日韓股市早盤大幅下挫",
+        "url": "https://www.cna.com.tw/news/afe/202603300023.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 09:20:19 +0800",
+        "summary_zh": "中東戰爭持續不斷，油價再次上漲，對於全球股市產生重大影響。日股基準日經225指數今天早盤重挫逾5%，韓國股市基準KOSPI指數跌幅也超過4%。這種情況下，投資者感到擔憂，市場情緒不穩定。中東戰爭的持續時間和油價的波動對於全球經濟和股市都會產生重大影響。投資者需要密切關注這種情況的發展，準備應對未來的風險。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "47917b7b",
+        "title": "想繼續抗議？了解如何維持運動的動能",
+        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/mar/29/no-kings-protest-next-steps-activism",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 17:18:25 GMT",
+        "summary_zh": "週六，超過8000萬人參與了「No Kings」抗議活動，要求美國政府停止對伊朗的戰爭、移民執法在社區內的存在以及對他們而言的川普政府的威權主義。組織者表示，這是美國歷史上單日抗議人數最多的一次。但是，運動學者指出，社會變革不僅僅局限於一次抗議活動，需要在地方和國家層面進行多種形式的活動才能帶來變化。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "45c9fc8e",
+        "title": "中途荒野：為什麼人們在沙漠中跑來跑去的「學院」?",
+        "url": "https://www.theguardian.com/us-news/2026/mar/29/mars-college-california-campus",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 15:00:01 GMT",
+        "summary_zh": "在洛杉磯兩個小時車程的沙漠中，有一所非傳統的學院——Mars College。這所學院源自於Burning Man的文化，學生們在沒有電力網路的情況下進行學習。這所學院的學生們聚集在沙漠中，圍坐在一堆破舊沙發上，使用筆記本電腦進行學習。學生們在互相分享自己的作品時，顯示出對於學習的熱情。這種非傳統的學習方式是否是未來的典範？",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "14260f85",
+        "title": "美國民眾感到擔憂：伊朗戰事使日常生活成本大幅上升",
+        "url": "https://www.theguardian.com/world/2026/mar/29/americans-struggling-rising-costs-iran-war",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 13:00:03 GMT",
+        "summary_zh": "美國與以色列對伊朗的軍事打擊，導致全球市場出現波動，美國民眾面臨日常生活成本的重大增加。伊朗對美國在該地區的盟友發動報復攻擊，以及伊朗關閉霍爾木茲海峽，全球市場出現大幅波動。美國汽油價格大幅上升，國內平均價格上升了約 30%，超過一個月。食物、房屋貸款利率和肥料成本也大幅上升。美國民眾感到擔憂，日常生活成本的增加可能會對他們的生活造成重大影響。這種局勢可能會持續下去，美國民眾需要準備面對日常生活成本的重大挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ca35d435",
+        "title": "伊朗在波斯灣地區持續發動攻擊，主要工業設施受影響",
+        "url": "https://www.bbc.com/news/articles/cp86yrq5jy7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 13:32:49 GMT",
+        "summary_zh": "伊朗在波斯灣地區持續發動攻擊，多個工業設施受影響，包括阿拉伯聯合酋長國和巴林的鋁業工廠。根據報導，多人受傷。這些攻擊是伊朗對該地區的最新行動，表明該國對該地區的影響力仍在持續增強。這些攻擊對該地區的經濟和安全情勢產生了重大影響，引起了國際社會的關注。伊朗的行動可能會對該地區的穩定性產生不利影響，進一步加劇該地區的緊張局勢。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "701caa4f",
+        "title": "黎巴嫩三名記者在以色列空襲中喪生",
+        "url": "https://www.bbc.com/news/articles/cgme1j70294o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 07:51:04 GMT",
+        "summary_zh": "黎巴嫩境內發生了嚴重的衝突，三名記者在以色列的空襲中喪生。根據廣播公司的報導，三名記者都是在黎巴嫩南部被以色列軍方的空襲擊中。其中一名記者是來自於親他zbollah的電視台Al Manar TV的Ali Shoeib。以色列軍方確認了Ali Shoeib的死亡。這一事件引發了對黎巴嫩局勢的關注，許多人擔心這一事件會使得局勢更加惡化。黎巴嫩政府和國際社會都呼籲雙方保持冷靜，並尋求和平解決方案。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "192885b3",
+        "title": "巴黎銀行外發生爆炸攻擊案 三人被捕",
+        "url": "https://www.bbc.com/news/articles/cd9v234j2v7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 15:33:36 GMT",
+        "summary_zh": "巴黎發生爆炸攻擊案，銀行外的爆炸攻擊事件引起了當地警方的關注。法國反恐檢察官的辦公室表示，該案件已經被立即轉交給反恐檢察官處理。事件發生在美國銀行銀行外，銀行的名字是 Bank of America。根據目前的情報，三名嫌疑人已經被捕。這起爆炸攻擊事件的影響是嚴重的，銀行外的安全措施將會被嚴格執行。法國政府將會對這起事件進行調查，並將會對嫌疑人進行嚴厲的懲處。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "323d1b72",
+        "title": "意大利調查雪花影像和Benefit公司涉嫌向兒童推廣保養品",
+        "url": "https://www.bbc.com/news/articles/c3dlk93m7jyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 19:37:03 GMT",
+        "summary_zh": "意大利競爭當局指出奢侈品巨頭LVMH採用了「尤其詭計」(insidious)的行銷策略，涉嫌向兒童推廣保養品。這項調查主要針對雪花影像和Benefit公司，兩家公司都隸屬於LVMH旗下。調查發現，這些公司在線上和線下都推出了針對兒童的保養品廣告，包括兒童版的化妝品和保養品。意大利競爭當局認為，這些行銷策略可能會對兒童造成不良影響，包括促進不健康的美容觀念和誘導兒童購買保養品。這項調查可能會對LVMH旗下公司的行銷策略產生重大影響，甚至可能導致公司面臨罰款或其他法律後果。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "34ec66b3",
+        "title": "以色列警方阻止拉丁教會主教參與耶路撒冷棕櫚星期日大祭",
+        "url": "https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 00:41:58 GMT",
+        "summary_zh": "近日，以色列警方在耶路撒冷棕櫚星期日大祭前，阻止拉丁教會主教參與典禮。以色列總理內塔尼亞胡表示，這是為了安全考量，最近伊朗對以色列發動攻擊。這一事件引起了國際社會的關注。棕櫚星期日是基督教的重要節日，拉丁教會主教的參與是典禮的一部分。以色列警方的行動被視為對基督教信仰的限制。這一事件可能會對以色列與國際社會的關係產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "39e09d43",
+        "title": "倫勃朗、塞尚和馬蒂斯畫作在義大利被竊",
+        "url": "https://www.bbc.com/news/articles/cn4vw2xmpzzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 21:29:56 GMT",
+        "summary_zh": "義大利帕爾馬的一座博物館在凌晨四名蒙面男子的襲擊下遭竊，竊賊搶走了倫勃朗、塞尚和馬蒂斯的畫作。這起案件引起了全球藝術界的關注。倫勃朗、塞尚和馬蒂斯都是著名的藝術家，他們的作品被認為是世界藝術史上的珍品。這些畫作的失竊將對藝術界和博物館的安全造成重大影響。目前，警方正在調查這起案件，試圖追蹤竊賊的下落。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d0f26730",
+        "title": "非洲足球總會主席辭職，引發摩洛哥-塞內加爾決賽爭議",
+        "url": "https://www.bbc.com/news/articles/cx2w8d1q70vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 13:53:17 GMT",
+        "summary_zh": "非洲足球總會主席Veron Mosengo-Omba在摩洛哥-塞內加爾決賽引發爭議後宣布辭職。這是非洲足球發展的一個關鍵時刻，Mosengo-Omba的辭職可能會對未來的足球事務產生重大影響。雖然尚未公佈他的下一步計劃，但他的辭職可能會讓非洲足球界有新的發展機會。這一事件也引發了對非洲足球未來發展方向的討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "433b6490",
+        "title": "美國將允許俄羅斯油輪抵達古巴，繞過封鎖",
+        "url": "https://www.theguardian.com/us-news/2026/mar/29/us-russian-oil-tanker-cuba-blockade",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 22:41:49 GMT",
+        "summary_zh": "美國官員表示，俄羅斯油輪「安托洛·科洛德金」可能在三個月後古巴的最後一次石油進口後，將在馬坦薩斯港卸貨。這艘油輪已進入古巴的經濟海域，載有俄羅斯烏拉爾原油650萬桶。根據船舶跟蹤資料，油輪「安托洛·科洛德金」已於週日進入古巴的經濟海域。油輪在俄羅斯普里莫斯克出發後，載有烏拉爾原油650萬桶。根據跟蹤服務MarineTraffic和LSEG的資料，油輪若不改變航線，將在古巴馬坦薩斯港卸貨。這可能是古巴近兩個月來的第一批石油進口。美國對古巴實施的石油禁運令仍然有效，但美國官員表示，美國將允許油輪抵達古巴。這一決定可能會對美國與古巴的關係產生影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "698daee1",
+        "title": "伊朗警告美國中東大學校園可能成為「合法目標」",
+        "url": "https://thehill.com/policy/international/5806893-iran-warns-that-us-college-campuses-in-middle-east-could-become-legitimate-targets/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 23:24:43 +0000",
+        "summary_zh": "伊朗週日表示，將視美國中東大學校園為「合法目標」，這是因為美國和以色列近日對伊朗的科技大學進行攻擊。伊朗表示，這次攻擊針對伊斯法罕科技大學和德黑蘭科技大學。伊朗政府強調，美國白宮的領導人應該知道，從今以後，所有美國中東大學校園都將成為伊朗軍方的攻擊目標。伊朗此舉是對美國和以色列的報復行動。伊朗此前曾表示，將對美國的軍事行動進行報復。伊朗的這一決定可能會對美國在中東的軍事行動產生重大影響。伊朗的這一決定也可能會對美國的大學生和教職員造成風險。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ca53bd29",
+        "title": "北韓宣稱試射新型固體燃料火箭引擎，能夠攻擊美國本土",
+        "url": "https://thehill.com/policy/international/5806816-north-korea-missile-test/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 22:44:20 +0000",
+        "summary_zh": "北韓於週日進行了一次試射，宣稱該試射的固體燃料引擎能夠攻擊美國本土。根據官方的朝鮮中央新聞社（KCNA），該引擎的最大推力為 2,500 千牛頓，較 9 月份的 1,970 千牛頓測試有所增加。該試射的具體情況尚未公布，但北韓政府已經宣稱該引擎的性能優於之前的版本。這次試射引發了對北韓軍事能力的關注，同時也加劇了朝美關係的緊張。美國政府已經對此表示關注，並將繼續密切關注北韓的軍事活動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "74499be5",
+        "title": "前中東指揮官：美軍已經多年在伊朗準備地面突襲計畫",
+        "url": "https://thehill.com/policy/defense/5806811-mckenzie-us-iran-raids/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Sun, 29 Mar 2026 22:02:48 +0000",
+        "summary_zh": "前美國中東指揮官麥肯齊（Frank McKenzie）週日表示，美國軍方已經多年在伊朗南部沿岸準備地面突襲計畫，當時美國總統特朗普正考慮派遣部隊進入伊朗。麥肯齊表示，美國軍方在伊朗南部沿岸的行動是為了應對伊朗的威脅，同時也為了保護美國在伊朗的利益。他強調，美國軍方的計畫是為了防止伊朗的核武計畫進展，並且保護美國在伊朗的盟友。麥肯齊的言論表明，美國軍方已經對伊朗的威脅做出了充分的準備，隨時準備應對伊朗的行動。然而，美國總統特朗普的決定仍然未明朗，仍在考慮派遣部隊進入伊朗。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
       {
         "id": "1ec860e0",
@@ -70,64 +324,28 @@
         "ai_classified": true
       },
       {
-        "id": "2b20f944",
-        "title": "川普稱伊朗領導人死亡是政變成功",
-        "url": "https://thehill.com/policy/international/5806993-regime-change-trump-iran-war/",
-        "source": "The Hill",
+        "id": "e067c110",
+        "title": "川普新聞速覽：保守派年輕世代對伊朗戰爭表達失望",
+        "url": "https://www.theguardian.com/us-news/2026/mar/30/trump-news-updates-maga-cpac-conservative-conference-iran-dhs-abortion-no-kings",
+        "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Mon, 30 Mar 2026 03:38:57 +0000",
-        "summary_zh": "川普總統週日表示，美國已經在伊朗實現政變，指出自美國和以色列聯合部隊發動攻擊一個月來，伊朗多名領導人已經死亡。川普在空軍一號上與記者交談時表示，他不確定美國是否能與目前的伊朗領導人達成協議。川普的說法引發了對美國對伊朗政策的關注。伊朗領導人之死是否真的意味著政變成功，仍待觀察。美國對伊朗的軍事行動引發了伊朗對美國的反擊，雙方關係緊張。美國的政策是否能夠達到預期的效果，仍待觀察。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "c30bb88d",
-        "title": "川普稱「我的最愛是奪取伊朗的石油」",
-        "url": "https://thehill.com/policy/international/5806957-trump-iran-war-oil-control/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Mon, 30 Mar 2026 02:20:48 +0000",
-        "summary_zh": "川普總統週日表示，他在伊朗戰爭中優先考慮的是控制伊朗石油業。這是他在與以色列發動戰爭一個月後，思考下一步行動時的表述。他說：「誠實地說，我最喜歡的就是奪取伊朗的石油，但有些愚蠢的人回來說……」雖然川普沒有明確指出這些人是誰，但他的話引發了對伊朗戰爭目的的質疑。伊朗石油業的控制將對全球石油市場產生重大影響，川普的表述也使人懷疑美國對伊朗的戰略意圖。美國和以色列的軍事行動已經導致伊朗石油產量大幅下降，全球油價也因此上升。這種局勢下，川普的話語可能會對全球石油市場產生重大影響。",
+        "published_at": "Mon, 30 Mar 2026 00:49:21 GMT",
+        "summary_zh": "近日，保守派政治行動會議（CPAC）在德克薩斯州舉行，出現了年輕保守派與老一輩保守派對伊朗戰爭的意見分歧。年輕保守派對川普總統發動對伊朗的軍事行動表示失望，甚至認為這是對川普的背叛。川普曾多次承諾反對外國干預，但這次行動卻與他的承諾相違背。這種意見分歧出現在保守派對未來的選擇上，尤其是在即將到來的中期選舉中，共和黨面臨著挑戰。保守派領袖呼籲團結，但年輕保守派的失望情緒仍然存在。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "a5776d02",
-        "title": "川普表示美國將允許俄羅斯油輪運送石油到古巴",
-        "url": "https://thehill.com/homenews/administration/5806983-trump-russian-oil-tanker-cuba/",
-        "source": "The Hill",
+        "id": "f4410827",
+        "title": "洛杉磯縣警長副官在越野賽中因醫療緊急情況去世",
+        "url": "https://www.theguardian.com/us-news/2026/mar/29/la-county-sheriff-deputy-death-relay-race",
+        "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Mon, 30 Mar 2026 02:06:31 +0000",
-        "summary_zh": "川普在週日晚間表示，他同意俄羅斯油輪運送石油到古巴，從而放寬了對古巴的封鎖。這一決定對於古巴的能源危機產生了重大影響。根據紐約時報的報導，美國將允許這艘油輪運送的石油到達古巴。這一決定表明美國對古巴的政策正在發生變化。這一變化可能會對古巴的經濟和政治產生重大影響。美國的這一決定可能會被視為對古巴的開放政策的一部分。然而，這一決定也可能會引起古巴的反對者對美國的批評。",
-        "sentiment": "中性",
+        "published_at": "Sun, 29 Mar 2026 23:08:37 GMT",
+        "summary_zh": "洛杉磯縣警長副官萊維·瓦加斯 (Levi Vargas) 在參與 annual relay race 的時候因醫療緊急情況去世，年僅 30 歲。瓦加斯正在參與的「Baker to Vegas Challenge Cup」越野賽，該賽事距離達 120 英里 (193 公里)，從加州的巴克 (Baker) 到內華達州的拉斯維加斯 (Las Vegas)，途徑莫哈維沙漠 (Mojave desert)。每年都有多個警方機構派出 20 名跑手參加這項賽事。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "2d4c59d2",
-        "title": "伊朗戰爭升級 2028 年選情風雲：特朗普考慮瓦恩斯 vs. 魯比奧",
-        "url": "https://www.reuters.com/world/us/jd-or-marco-iran-war-raises-2028-stakes-trump-weighs-vance-vs-rubio-2026-03-29/",
-        "source": "Reuters",
-        "category": "whitehouse",
-        "published_at": "2026-03-29 10:04:09",
-        "summary_zh": "伊朗戰爭的升級，對美國總統特朗普的遺產造成了威脅，同時也使得他的兩名高級助手——副總統瓦恩斯和國務卿魯比奧——面臨著政治風險。伊朗戰爭的發展，可能會對 2028 年的美國總統選舉產生重大影響。瓦恩斯和魯比奧的政治前景，正受到關注。特朗普的決定，可能會對美國的外交政策和政治格局產生重大影響。伊朗戰爭的升級，顯示了美國對該地區的軍事介入，可能會對美國的政治和外交政策產生長遠的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dd263a23",
-        "title": "美國政府部分停擺創下歷史新高",
-        "url": "https://www.bbc.com/news/articles/cyv1qpzq5v7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 30 Mar 2026 01:13:51 GMT",
-        "summary_zh": "美國政府部分停擺已經持續44天，導致國土安全部的資金短缺。這種情況導致美國各大機場出現了旅遊混亂。美國政府部分停擺的原因是國會無法就國土安全部的預算達成共識，導致政府部分部門無法正常運作。這種情況對美國的國土安全和旅遊業造成了重大影響。政府停擺的持續時間已經超過了之前的紀錄，引起了國內外的關注。美國政府停擺的影響不僅僅是旅遊業，還包括國土安全、醫療服務和教育等多個領域。美國政府應該儘快恢復正常運作，以避免更多的問題出現。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
+        "is_breaking": true
       },
       {
         "id": "75ef41f4",
@@ -154,6 +372,18 @@
         "ai_classified": true
       },
       {
+        "id": "2d4c59d2",
+        "title": "伊朗戰爭升級 2028 年選情風雲：特朗普考慮瓦恩斯 vs. 魯比奧",
+        "url": "https://www.reuters.com/world/us/jd-or-marco-iran-war-raises-2028-stakes-trump-weighs-vance-vs-rubio-2026-03-29/",
+        "source": "Reuters",
+        "category": "whitehouse",
+        "published_at": "2026-03-29 10:04:09",
+        "summary_zh": "伊朗戰爭的升級，對美國總統特朗普的遺產造成了威脅，同時也使得他的兩名高級助手——副總統瓦恩斯和國務卿魯比奧——面臨著政治風險。伊朗戰爭的發展，可能會對 2028 年的美國總統選舉產生重大影響。瓦恩斯和魯比奧的政治前景，正受到關注。特朗普的決定，可能會對美國的外交政策和政治格局產生重大影響。伊朗戰爭的升級，顯示了美國對該地區的軍事介入，可能會對美國的政治和外交政策產生長遠的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "f37a4501",
         "title": "洛杉磯警方與抗議者衝突 dozens 名抗議者被捕",
         "url": "https://www.theguardian.com/us-news/2026/mar/29/los-angeles-no-kings-protest-police-arrests",
@@ -161,6 +391,18 @@
         "category": "whitehouse",
         "published_at": "Sun, 29 Mar 2026 18:02:36 GMT",
         "summary_zh": "近日洛杉磯警方與一群抗議者發生衝突，警方使用胡椒球和催淚瓦斯驅散抗議者，逮捕了其中的大部分人。這次衝突發生在洛杉磯的Metropolitan拘留中心外，這裡已經成為抗議者的聚集點。抗議者是在反對川普政府的移民政策，該政策於去年在洛杉磯發生。這是No Kings抗議運動的第三次，全球有8000萬人參與了這次抗議運動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "dd263a23",
+        "title": "美國政府部分停擺創下歷史新高",
+        "url": "https://www.bbc.com/news/articles/cyv1qpzq5v7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 30 Mar 2026 01:13:51 GMT",
+        "summary_zh": "美國政府部分停擺已經持續44天，導致國土安全部的資金短缺。這種情況導致美國各大機場出現了旅遊混亂。美國政府部分停擺的原因是國會無法就國土安全部的預算達成共識，導致政府部分部門無法正常運作。這種情況對美國的國土安全和旅遊業造成了重大影響。政府停擺的持續時間已經超過了之前的紀錄，引起了國內外的關注。美國政府停擺的影響不僅僅是旅遊業，還包括國土安全、醫療服務和教育等多個領域。美國政府應該儘快恢復正常運作，以避免更多的問題出現。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -176,29 +418,39 @@
         "sentiment": "正面",
         "is_breaking": true,
         "ai_classified": true
-      }
-    ],
-    "ai": [
+      },
       {
-        "id": "73970da2",
-        "title": "人工智慧在音樂產業的最新發展",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-03-29T21:32:14-04:00",
-        "summary_zh": "人工智慧技術已經影響到音樂產業的各個方面，從樣本採集和試聽錄音，到提供數位歌詞和建立播放清單。然而，人工智慧在音樂產業的應用也引發了技術和法律挑戰，激烈的道德辯論，以及擔心人工智慧會通過大量數量壓倒實際的音樂家。人工智慧創作的音樂是否算作藝術，還是只是機器的產物？這些問題引發了音樂界的熱議。",
+        "id": "2b20f944",
+        "title": "川普稱伊朗領導人死亡是政變成功",
+        "url": "https://thehill.com/policy/international/5806993-regime-change-trump-iran-war/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Mon, 30 Mar 2026 03:38:57 +0000",
+        "summary_zh": "川普總統週日表示，美國已經在伊朗實現政變，指出自美國和以色列聯合部隊發動攻擊一個月來，伊朗多名領導人已經死亡。川普在空軍一號上與記者交談時表示，他不確定美國是否能與目前的伊朗領導人達成協議。川普的說法引發了對美國對伊朗政策的關注。伊朗領導人之死是否真的意味著政變成功，仍待觀察。美國對伊朗的軍事行動引發了伊朗對美國的反擊，雙方關係緊張。美國的政策是否能夠達到預期的效果，仍待觀察。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "5241aed1",
-        "title": "藍斯基新應用程式：自定義新聞源的 AI 助手",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-03-29T17:44:41-04:00",
-        "summary_zh": "藍斯基團隊最新推出的應用程式名為 Attie，是一款 AI 助手，讓用戶可以自行建立自己的新聞源算法。 Attie 由 Anthropic 的 Claude 提供動力，基於藍斯基的底層 AT 協定 (atproto) 建置。 Attie 允許用戶自定義新聞源，選擇喜歡的內容，排除不喜歡的內容。這項功能讓用戶可以更好地控制自己的新聞源，避免被算法推送的不想要的內容。 Attie 的推出標誌著藍斯基團隊致力於開放式新聞源的發展，讓用戶有更多的選擇和控制權。",
+        "id": "c30bb88d",
+        "title": "川普稱「我的最愛是奪取伊朗的石油」",
+        "url": "https://thehill.com/policy/international/5806957-trump-iran-war-oil-control/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Mon, 30 Mar 2026 02:20:48 +0000",
+        "summary_zh": "川普總統週日表示，他在伊朗戰爭中優先考慮的是控制伊朗石油業。這是他在與以色列發動戰爭一個月後，思考下一步行動時的表述。他說：「誠實地說，我最喜歡的就是奪取伊朗的石油，但有些愚蠢的人回來說……」雖然川普沒有明確指出這些人是誰，但他的話引發了對伊朗戰爭目的的質疑。伊朗石油業的控制將對全球石油市場產生重大影響，川普的表述也使人懷疑美國對伊朗的戰略意圖。美國和以色列的軍事行動已經導致伊朗石油產量大幅下降，全球油價也因此上升。這種局勢下，川普的話語可能會對全球石油市場產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a5776d02",
+        "title": "川普表示美國將允許俄羅斯油輪運送石油到古巴",
+        "url": "https://thehill.com/homenews/administration/5806983-trump-russian-oil-tanker-cuba/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Mon, 30 Mar 2026 02:06:31 +0000",
+        "summary_zh": "川普在週日晚間表示，他同意俄羅斯油輪運送石油到古巴，從而放寬了對古巴的封鎖。這一決定對於古巴的能源危機產生了重大影響。根據紐約時報的報導，美國將允許這艘油輪運送的石油到達古巴。這一決定表明美國對古巴的政策正在發生變化。這一變化可能會對古巴的經濟和政治產生重大影響。美國的這一決定可能會被視為對古巴的開放政策的一部分。然而，這一決定也可能會引起古巴的反對者對美國的批評。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -206,100 +458,28 @@
     ],
     "stock_tw": [
       {
-        "id": "a154b3ef",
-        "title": "全台最愛點兒童餐城市出爐！外送御三家年收5千萬、宜蘭成長最猛",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5387119",
-        "source": "自由時報財經",
+        "id": "82b9993e",
+        "title": "foodpanda：兒童經濟升溫 成外送市場新動能",
+        "url": "https://www.cna.com.tw/news/afe/202603300069.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Mon, 30 Mar 2026 11:50:02 +0800",
-        "summary_zh": "隨著連假與兒童節將至，foodpanda觀察到「兒童經濟」明顯升溫。小家庭與雙薪家庭成為主流的背景下，家長對於便利且多元的餐飲需求持續提升，也讓外送平台逐漸從單純的餐點服務轉變為提供多元化的餐飲選擇。根據foodpanda的數據，兒童餐的點餐量在過去一年內增加了近 30%。其中，宜蘭市的兒童餐點餐量增長最為迅速，年收5千萬元，成為全台最愛點兒童餐城市。這表明，宜蘭市的餐飲業正在經歷著快速的發展，並且受到外送平台的推動。這項趨勢預示著未來兒童餐將會繼續受到歡迎，並且將會是外送平台的重要業務之一。",
+        "published_at": "Mon, 30 Mar 2026 11:41:57 +0800",
+        "summary_zh": "近年來，外送市場的兒童經濟逐漸升溫，foodpanda觀察指出，提供兒童餐點的麥當勞、Sukiya與CoCo壹番屋咖哩，今年的年度銷售已經達到近新台幣5000萬元。這些兒童餐點的熱賣，讓愛點兒童餐點的城市由桃園奪冠，宜蘭的年增率達到4%，而卡通IP授權商品的買氣也飆升了5%。此外，寵物商機也成為兒童節的新戰場。這些數據表明，兒童經濟正在成為外送市場的新動能，企業應該關注這個趨勢並適應市場的變化。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "56e92a10",
-        "title": "黃金、股市甜蜜價還沒到！美銀直言：1關鍵抄底訊號還未浮現",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5386865",
-        "source": "自由時報財經",
+        "id": "fa7effae",
+        "title": "台股盤中重挫逾700點 塑化逆勢走強",
+        "url": "https://www.cna.com.tw/news/afe/202603300050.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Mon, 30 Mar 2026 11:38:05 +0800",
-        "summary_zh": "近期全球股市與黃金出現劇烈震盪，受中東戰火延燒影響。美銀指出，牛熊指標從8.4降至7.4，延續逾3個月的賣出訊號宣告終結。但是，美銀直言，抄底訊號尚未浮現，需要全球88%以上的指標達到某個水平才算是正式的買入訊號。目前，市場仍處於觀望狀態，投資者需要耐心等待更多訊息。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "15da53f8",
-        "title": "羅伯特清崎分享投資秘訣：預見未來 抓住財富先機",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5387076",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 30 Mar 2026 11:27:14 +0800",
-        "summary_zh": "知名理財暢銷書《富爸爸，窮爸爸》作者羅伯特清崎，近日在社交平台X分享投資者的秘訣。他認為，想要成為富有的投資者，就必須能看見未來，並抓住財富先機。清崎強調，投資者需要具備長期的視野和耐心，才能在市場波動中找到機會。同時，他也提醒投資者要避免被市場情緒左右，保持冷靜和理性。清崎的投資秘訣受到許多投資者關注，他的理財觀點一直受到廣泛討論。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "edf87863",
-        "title": "和泰攜手Google Cloud啟動「AI First」轉型 重塑營運效率",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5387084",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 30 Mar 2026 11:26:34 +0800",
-        "summary_zh": "和泰汽車正面臨著汽車產業的數位化與電動化浪潮，人工智慧（AI）成為競爭力的關鍵。為了應對挑戰，和泰汽車與Google Cloud展開深度合作，導入Gemini Enterprise等AI技術，重塑營運效率。這項合作將幫助和泰汽車提高數據分析能力、優化供應鏈管理、提升客戶服務質量等方面的效率。這項轉型將使和泰汽車更具競爭力，能夠更好地應對未來的挑戰。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "4496fabb",
-        "title": "經部攜手四大超商阻詐最前線　包裹退件成功率升至64.6％",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5387065",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 30 Mar 2026 11:25:31 +0800",
-        "summary_zh": "經濟部商業署近期與四大超商合作，共同打造阻詐前線，以防止民眾受詐騙包裹的影響。經部已經全面建置線上申訴平台和防詐騙服務專線，協助民眾在誤收詐騙包裹時能夠快速退貨退款。根據統計，2025年全年包裹退件成功率已經升至64.6％，顯示經部與超商的合作成果。這項合作不僅幫助民眾避免受詐騙包裹的影響，也提高了退件的效率和成功率。經部表示，將繼續與超商合作，共同努力防止詐騙包裹的影響，保護民眾的權益。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a896881c",
-        "title": "中國20大資訊企業來台非法挖角！調查局連10天搜索11家公司",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5387078",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 30 Mar 2026 11:24:37 +0800",
-        "summary_zh": "近日，台灣高科技人才面臨來自中國的挖角威脅。為了應對此挑戰，法務部調查局展開行動。自本月16日起，調查局連續10天，分別突擊搜索11家涉嫌違法在台挖角我國高科技人才的中國企業。這些企業包括全球知名公司O...…這些行動旨在防止中國企業違法挖角台灣的高科技人才，保護台灣的知識產權。調查局的行動顯示出對於保護台灣人才和知識產權的嚴肅態度。然而，這也引發了對於中共對台灣高科技人才的挖角行為的關注。",
+        "published_at": "Mon, 30 Mar 2026 11:16:17 +0800",
+        "summary_zh": "台股今天面臨中東戰事及談判訊息的不確定性，國際油價持續高漲，導致台股開低走低，盤中下跌逾700點。其中，權王台積電在開盤即失守1800元，盤中則在1785元出現狹幅震盪，下跌35元。然而，中東戰火也推動了塑化、鋁製品相關概念股的股價表現，呈現逆勢走強的狀況。這種市場情況下，投資者需要謹慎評估風險並做出適當的投資決策。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
-      },
-      {
-        "id": "f5d3d675",
-        "title": "焦點股》0050：外資連24日賣超 散戶狂撿",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5387071",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 30 Mar 2026 11:21:45 +0800",
-        "summary_zh": "受美伊戰事影響，元大台灣50（0050）遭外資連續24日賣超，今日台股開低走低。截至10:49分，0050股價下跌1.65元，暫報73.35元，爆出10.8萬張成交。散戶買盤緊接著接棒，買超情緒逐漸抬頭。市場分析指出，外資賣超對市場的影響不大，散戶買盤的出現，讓市場氣氛逐漸改善。目前，0050股價仍在下跌，但買超情緒的出現，讓投資人對市場的看法逐漸轉變。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "c93af7d6",
-        "title": "華虹傳跨入7奈米 大陸半導體技術進步真的這麼快嗎？",
-        "url": "https://money.udn.com/money/story/5604/9386559",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Tue, 31 Mar 2026 23:48:33 +0800",
-        "summary_zh": "近年來，中國大陸半導體技術快速發展，華虹集團最新傳出已研發出7奈米製程技術，預計今年底在上海量產。這是繼中芯國際之後，大陸第二家要跨入7奈米製程的晶圓代工廠。7奈米製程技術是現代半導體製造的重要里程碑，代表著製程技術的進步和產能的提升。華虹集團的這一成就，表明大陸半導體業的進步速度正在加快。然而，是否能夠真正實現量產和市場競爭力，還需要觀察和評估。這一發展也引發了關於大陸半導體技術的競爭力和全球市場的影響的討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       },
       {
         "id": "c6734c43",
@@ -420,9 +600,141 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "c93af7d6",
+        "title": "華虹傳跨入7奈米 大陸半導體技術進步真的這麼快嗎？",
+        "url": "https://money.udn.com/money/story/5604/9386559",
+        "source": "經濟日報",
+        "category": "stock_tw",
+        "published_at": "Tue, 31 Mar 2026 23:48:33 +0800",
+        "summary_zh": "近年來，中國大陸半導體技術快速發展，華虹集團最新傳出已研發出7奈米製程技術，預計今年底在上海量產。這是繼中芯國際之後，大陸第二家要跨入7奈米製程的晶圓代工廠。7奈米製程技術是現代半導體製造的重要里程碑，代表著製程技術的進步和產能的提升。華虹集團的這一成就，表明大陸半導體業的進步速度正在加快。然而，是否能夠真正實現量產和市場競爭力，還需要觀察和評估。這一發展也引發了關於大陸半導體技術的競爭力和全球市場的影響的討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a154b3ef",
+        "title": "全台最愛點兒童餐城市出爐！外送御三家年收5千萬、宜蘭成長最猛",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5387119",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 30 Mar 2026 11:50:02 +0800",
+        "summary_zh": "隨著連假與兒童節將至，foodpanda觀察到「兒童經濟」明顯升溫。小家庭與雙薪家庭成為主流的背景下，家長對於便利且多元的餐飲需求持續提升，也讓外送平台逐漸從單純的餐點服務轉變為提供多元化的餐飲選擇。根據foodpanda的數據，兒童餐的點餐量在過去一年內增加了近 30%。其中，宜蘭市的兒童餐點餐量增長最為迅速，年收5千萬元，成為全台最愛點兒童餐城市。這表明，宜蘭市的餐飲業正在經歷著快速的發展，並且受到外送平台的推動。這項趨勢預示著未來兒童餐將會繼續受到歡迎，並且將會是外送平台的重要業務之一。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "56e92a10",
+        "title": "黃金、股市甜蜜價還沒到！美銀直言：1關鍵抄底訊號還未浮現",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5386865",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 30 Mar 2026 11:38:05 +0800",
+        "summary_zh": "近期全球股市與黃金出現劇烈震盪，受中東戰火延燒影響。美銀指出，牛熊指標從8.4降至7.4，延續逾3個月的賣出訊號宣告終結。但是，美銀直言，抄底訊號尚未浮現，需要全球88%以上的指標達到某個水平才算是正式的買入訊號。目前，市場仍處於觀望狀態，投資者需要耐心等待更多訊息。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "15da53f8",
+        "title": "羅伯特清崎分享投資秘訣：預見未來 抓住財富先機",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5387076",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 30 Mar 2026 11:27:14 +0800",
+        "summary_zh": "知名理財暢銷書《富爸爸，窮爸爸》作者羅伯特清崎，近日在社交平台X分享投資者的秘訣。他認為，想要成為富有的投資者，就必須能看見未來，並抓住財富先機。清崎強調，投資者需要具備長期的視野和耐心，才能在市場波動中找到機會。同時，他也提醒投資者要避免被市場情緒左右，保持冷靜和理性。清崎的投資秘訣受到許多投資者關注，他的理財觀點一直受到廣泛討論。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "edf87863",
+        "title": "和泰攜手Google Cloud啟動「AI First」轉型 重塑營運效率",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5387084",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 30 Mar 2026 11:26:34 +0800",
+        "summary_zh": "和泰汽車正面臨著汽車產業的數位化與電動化浪潮，人工智慧（AI）成為競爭力的關鍵。為了應對挑戰，和泰汽車與Google Cloud展開深度合作，導入Gemini Enterprise等AI技術，重塑營運效率。這項合作將幫助和泰汽車提高數據分析能力、優化供應鏈管理、提升客戶服務質量等方面的效率。這項轉型將使和泰汽車更具競爭力，能夠更好地應對未來的挑戰。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4496fabb",
+        "title": "經部攜手四大超商阻詐最前線　包裹退件成功率升至64.6％",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5387065",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 30 Mar 2026 11:25:31 +0800",
+        "summary_zh": "經濟部商業署近期與四大超商合作，共同打造阻詐前線，以防止民眾受詐騙包裹的影響。經部已經全面建置線上申訴平台和防詐騙服務專線，協助民眾在誤收詐騙包裹時能夠快速退貨退款。根據統計，2025年全年包裹退件成功率已經升至64.6％，顯示經部與超商的合作成果。這項合作不僅幫助民眾避免受詐騙包裹的影響，也提高了退件的效率和成功率。經部表示，將繼續與超商合作，共同努力防止詐騙包裹的影響，保護民眾的權益。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a896881c",
+        "title": "中國20大資訊企業來台非法挖角！調查局連10天搜索11家公司",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5387078",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 30 Mar 2026 11:24:37 +0800",
+        "summary_zh": "近日，台灣高科技人才面臨來自中國的挖角威脅。為了應對此挑戰，法務部調查局展開行動。自本月16日起，調查局連續10天，分別突擊搜索11家涉嫌違法在台挖角我國高科技人才的中國企業。這些企業包括全球知名公司O...…這些行動旨在防止中國企業違法挖角台灣的高科技人才，保護台灣的知識產權。調查局的行動顯示出對於保護台灣人才和知識產權的嚴肅態度。然而，這也引發了對於中共對台灣高科技人才的挖角行為的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f5d3d675",
+        "title": "焦點股》0050：外資連24日賣超 散戶狂撿",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5387071",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 30 Mar 2026 11:21:45 +0800",
+        "summary_zh": "受美伊戰事影響，元大台灣50（0050）遭外資連續24日賣超，今日台股開低走低。截至10:49分，0050股價下跌1.65元，暫報73.35元，爆出10.8萬張成交。散戶買盤緊接著接棒，買超情緒逐漸抬頭。市場分析指出，外資賣超對市場的影響不大，散戶買盤的出現，讓市場氣氛逐漸改善。目前，0050股價仍在下跌，但買超情緒的出現，讓投資人對市場的看法逐漸轉變。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "finance": [
+      {
+        "id": "db6976ee",
+        "title": "世界貿易組織談判電子商務關稅暫緩延長陷入僵局",
+        "url": "https://www.reuters.com/pt/negocio/MEWKWE2GJFPPTKHVLYWZ5V7WVI-2026-03-29/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-03-29 16:38:27",
+        "summary_zh": "世界貿易組織（WTO）正在進行關於延長暫緩電子商務關稅的談判，但目前陷入僵局。根據外交官的說法，這些談判正在進行，但尚未取得進展。另一方面，WTO正在籌劃一項更廣泛的改革方案，這項方案似乎即將達成共識。電子商務關稅暫緩是指暫時不徵收關稅的措施，適用於電子文件的下載等數字交易。這項措施的延長將對全球電子商務產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "46b9d506",
+        "title": "紐約大型畫廊時代的轉變：新博物館擴張的信號",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-03-29/the-new-museum-expansion-by-rem-koolhaas-reflects-new-york-s-mega-dealer-era",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-03-29 16:25:59",
+        "summary_zh": "紐約的藝術界正在經歷重大變化。新博物館的擴張標誌著一種新的藝術觀念和經營模式。這項擴張將為藝術界帶來新的機會和挑戰。新博物館的擴張將推動藝術界的發展，為藝術家和藝術愛好者帶來新的體驗。這項變革將對紐約的藝術界產生深遠的影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b45933e4",
+        "title": "阿波羅私募資本公司規劃第二總部 不再限於紐約",
+        "url": "https://www.ft.com/content/efeca6be-c9b5-4912-b66b-15716cc914b7",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-03-29 16:13:34",
+        "summary_zh": "阿波羅私募資本公司正在規劃第二總部，將不再限於紐約。該公司希望在美國南部某個州建立新的辦公室，以應對其持續擴張的需求。阿波羅私募資本公司是一家知名的私募資本公司，已經在全球範圍內運營多年。該公司的決定表明其願意投資和發展在美國南部的業務。這一發展將對當地經濟產生積極影響，同時也會為公司的未來成長提供更多的機會。阿波羅私募資本公司的第二總部將會是公司未來發展的重要據點，同時也會成為該公司與美國南部地區企業和投資者的重要橋樑。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "27f65087",
         "title": "法國工廠關閉率大幅上升，受亞洲壓力和美國關稅影響",
@@ -481,30 +793,6 @@
         "summary_zh": "印度銀行要求印度央行（RBI）延長遵守外匯持倉限制的期限，要求可以在 3 個月內完成遵守。根據消息來源，印度央行在去年 7 月宣布，將對銀行的外匯持倉進行限制，目的是防止資金外流。銀行們認為這項限制對銀行的業務造成了困擾，要求央行延期遵守。印度央行的決定將對印度銀行業產生重大影響。這項限制的延期將使銀行們有更多時間來適應新的規範，並減少對業務的影響。然而，這也可能會延遲印度銀行業的改革進程。印度政府和央行尚未對銀行的要求做出回應。",
         "sentiment": "中性",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4fa11a6d",
-        "title": "意大利銀行委派特別管理人協助BFF貸款公司重組",
-        "url": "https://www.reuters.com/sustainability/bank-italy-appoints-special-administrators-support-bff-board-lenders-2026-03-29/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-03-29 13:38:08",
-        "summary_zh": "意大利銀行(Bank of Italy)近日宣布委派特別管理人協助BFF貸款公司的董事會進行重組。這項決定是為了支持BFF貸款公司在重組過程中取得穩定的財務狀況。BFF貸款公司是一家意大利的貸款公司，面臨著嚴重的財務問題。特別管理人將會協助董事會制定新的財務策略和業務計畫，以便公司能夠在未來的競爭環境中茁壯成長。這項重組計畫將會對公司的未來發展產生重大影響。意大利銀行的這一決定表明了對BFF貸款公司的支持和信心。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a3c9c401",
-        "title": "WTO成員國就電子商務關稅禁令五年延長展開辯論",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-29/wto-members-debate-five-year-extension-of-e-commerce-tariff-ban",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-29 13:31:49",
-        "summary_zh": "世界貿易組織(WTO)成員國正在就電子商務關稅禁令的延長展開辯論。這項禁令自2016年起生效，禁止成員國對電子商務進行保護主義措施。五年後，這項禁令即將到期，成員國需要就是否延長或修改禁令進行協商。電子商務在全球貿易中扮演著越來越重要的角色，許多企業透過電子商務來拓展市場和增加銷售。延長禁令可能會讓電子商務持續發展，保護全球貿易的自由化。然而，也有批評者認為禁令過於寬泛，限制了成員國對電子商務的管制權。最終，WTO成員國需要在保護貿易自由和允許成員國管制電子商務之間取得平衡。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -618,207 +906,27 @@
         "ai_classified": true
       }
     ],
-    "global": [
+    "ai": [
       {
-        "id": "ca35d435",
-        "title": "伊朗在波斯灣地區持續發動攻擊，主要工業設施受影響",
-        "url": "https://www.bbc.com/news/articles/cp86yrq5jy7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 13:32:49 GMT",
-        "summary_zh": "伊朗在波斯灣地區持續發動攻擊，多個工業設施受影響，包括阿拉伯聯合酋長國和巴林的鋁業工廠。根據報導，多人受傷。這些攻擊是伊朗對該地區的最新行動，表明該國對該地區的影響力仍在持續增強。這些攻擊對該地區的經濟和安全情勢產生了重大影響，引起了國際社會的關注。伊朗的行動可能會對該地區的穩定性產生不利影響，進一步加劇該地區的緊張局勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "701caa4f",
-        "title": "黎巴嫩三名記者在以色列空襲中喪生",
-        "url": "https://www.bbc.com/news/articles/cgme1j70294o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 07:51:04 GMT",
-        "summary_zh": "黎巴嫩境內發生了嚴重的衝突，三名記者在以色列的空襲中喪生。根據廣播公司的報導，三名記者都是在黎巴嫩南部被以色列軍方的空襲擊中。其中一名記者是來自於親他zbollah的電視台Al Manar TV的Ali Shoeib。以色列軍方確認了Ali Shoeib的死亡。這一事件引發了對黎巴嫩局勢的關注，許多人擔心這一事件會使得局勢更加惡化。黎巴嫩政府和國際社會都呼籲雙方保持冷靜，並尋求和平解決方案。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "192885b3",
-        "title": "巴黎銀行外發生爆炸攻擊案 三人被捕",
-        "url": "https://www.bbc.com/news/articles/cd9v234j2v7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 15:33:36 GMT",
-        "summary_zh": "巴黎發生爆炸攻擊案，銀行外的爆炸攻擊事件引起了當地警方的關注。法國反恐檢察官的辦公室表示，該案件已經被立即轉交給反恐檢察官處理。事件發生在美國銀行銀行外，銀行的名字是 Bank of America。根據目前的情報，三名嫌疑人已經被捕。這起爆炸攻擊事件的影響是嚴重的，銀行外的安全措施將會被嚴格執行。法國政府將會對這起事件進行調查，並將會對嫌疑人進行嚴厲的懲處。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "323d1b72",
-        "title": "意大利調查雪花影像和Benefit公司涉嫌向兒童推廣保養品",
-        "url": "https://www.bbc.com/news/articles/c3dlk93m7jyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 19:37:03 GMT",
-        "summary_zh": "意大利競爭當局指出奢侈品巨頭LVMH採用了「尤其詭計」(insidious)的行銷策略，涉嫌向兒童推廣保養品。這項調查主要針對雪花影像和Benefit公司，兩家公司都隸屬於LVMH旗下。調查發現，這些公司在線上和線下都推出了針對兒童的保養品廣告，包括兒童版的化妝品和保養品。意大利競爭當局認為，這些行銷策略可能會對兒童造成不良影響，包括促進不健康的美容觀念和誘導兒童購買保養品。這項調查可能會對LVMH旗下公司的行銷策略產生重大影響，甚至可能導致公司面臨罰款或其他法律後果。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "34ec66b3",
-        "title": "以色列警方阻止拉丁教會主教參與耶路撒冷棕櫚星期日大祭",
-        "url": "https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 00:41:58 GMT",
-        "summary_zh": "近日，以色列警方在耶路撒冷棕櫚星期日大祭前，阻止拉丁教會主教參與典禮。以色列總理內塔尼亞胡表示，這是為了安全考量，最近伊朗對以色列發動攻擊。這一事件引起了國際社會的關注。棕櫚星期日是基督教的重要節日，拉丁教會主教的參與是典禮的一部分。以色列警方的行動被視為對基督教信仰的限制。這一事件可能會對以色列與國際社會的關係產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "698daee1",
-        "title": "伊朗警告美國中東大學校園可能成為「合法目標」",
-        "url": "https://thehill.com/policy/international/5806893-iran-warns-that-us-college-campuses-in-middle-east-could-become-legitimate-targets/",
-        "source": "The Hill",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 23:24:43 +0000",
-        "summary_zh": "伊朗週日表示，將視美國中東大學校園為「合法目標」，這是因為美國和以色列近日對伊朗的科技大學進行攻擊。伊朗表示，這次攻擊針對伊斯法罕科技大學和德黑蘭科技大學。伊朗政府強調，美國白宮的領導人應該知道，從今以後，所有美國中東大學校園都將成為伊朗軍方的攻擊目標。伊朗此舉是對美國和以色列的報復行動。伊朗此前曾表示，將對美國的軍事行動進行報復。伊朗的這一決定可能會對美國在中東的軍事行動產生重大影響。伊朗的這一決定也可能會對美國的大學生和教職員造成風險。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "39e09d43",
-        "title": "倫勃朗、塞尚和馬蒂斯畫作在義大利被竊",
-        "url": "https://www.bbc.com/news/articles/cn4vw2xmpzzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 21:29:56 GMT",
-        "summary_zh": "義大利帕爾馬的一座博物館在凌晨四名蒙面男子的襲擊下遭竊，竊賊搶走了倫勃朗、塞尚和馬蒂斯的畫作。這起案件引起了全球藝術界的關注。倫勃朗、塞尚和馬蒂斯都是著名的藝術家，他們的作品被認為是世界藝術史上的珍品。這些畫作的失竊將對藝術界和博物館的安全造成重大影響。目前，警方正在調查這起案件，試圖追蹤竊賊的下落。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ca53bd29",
-        "title": "北韓宣稱試射新型固體燃料火箭引擎，能夠攻擊美國本土",
-        "url": "https://thehill.com/policy/international/5806816-north-korea-missile-test/",
-        "source": "The Hill",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 22:44:20 +0000",
-        "summary_zh": "北韓於週日進行了一次試射，宣稱該試射的固體燃料引擎能夠攻擊美國本土。根據官方的朝鮮中央新聞社（KCNA），該引擎的最大推力為 2,500 千牛頓，較 9 月份的 1,970 千牛頓測試有所增加。該試射的具體情況尚未公布，但北韓政府已經宣稱該引擎的性能優於之前的版本。這次試射引發了對北韓軍事能力的關注，同時也加劇了朝美關係的緊張。美國政府已經對此表示關注，並將繼續密切關注北韓的軍事活動。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "d0f26730",
-        "title": "非洲足球總會主席辭職，引發摩洛哥-塞內加爾決賽爭議",
-        "url": "https://www.bbc.com/news/articles/cx2w8d1q70vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 13:53:17 GMT",
-        "summary_zh": "非洲足球總會主席Veron Mosengo-Omba在摩洛哥-塞內加爾決賽引發爭議後宣布辭職。這是非洲足球發展的一個關鍵時刻，Mosengo-Omba的辭職可能會對未來的足球事務產生重大影響。雖然尚未公佈他的下一步計劃，但他的辭職可能會讓非洲足球界有新的發展機會。這一事件也引發了對非洲足球未來發展方向的討論。",
+        "id": "73970da2",
+        "title": "人工智慧在音樂產業的最新發展",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-03-29T21:32:14-04:00",
+        "summary_zh": "人工智慧技術已經影響到音樂產業的各個方面，從樣本採集和試聽錄音，到提供數位歌詞和建立播放清單。然而，人工智慧在音樂產業的應用也引發了技術和法律挑戰，激烈的道德辯論，以及擔心人工智慧會通過大量數量壓倒實際的音樂家。人工智慧創作的音樂是否算作藝術，還是只是機器的產物？這些問題引發了音樂界的熱議。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "74499be5",
-        "title": "前中東指揮官：美軍已經多年在伊朗準備地面突襲計畫",
-        "url": "https://thehill.com/policy/defense/5806811-mckenzie-us-iran-raids/",
-        "source": "The Hill",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 22:02:48 +0000",
-        "summary_zh": "前美國中東指揮官麥肯齊（Frank McKenzie）週日表示，美國軍方已經多年在伊朗南部沿岸準備地面突襲計畫，當時美國總統特朗普正考慮派遣部隊進入伊朗。麥肯齊表示，美國軍方在伊朗南部沿岸的行動是為了應對伊朗的威脅，同時也為了保護美國在伊朗的利益。他強調，美國軍方的計畫是為了防止伊朗的核武計畫進展，並且保護美國在伊朗的盟友。麥肯齊的言論表明，美國軍方已經對伊朗的威脅做出了充分的準備，隨時準備應對伊朗的行動。然而，美國總統特朗普的決定仍然未明朗，仍在考慮派遣部隊進入伊朗。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "8c3777fc",
-        "title": "中東戰事推升物價 伊朗年通膨率漲破50%",
-        "url": "https://www.cna.com.tw/news/aopl/202603300031.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 10:07:36 +0800",
-        "summary_zh": "伊朗因為中東戰事而出現物價大幅上升，伊朗官方統計中心今天表示，截至3月中旬，伊朗的年通膨率已攀升至50.6%，較前1個月上升3個百分點。這意味著伊朗的物價已經大幅上升，對於民眾的生活造成了很大的影響。伊朗的經濟已經受到戰事的嚴重影響，物價的上升將會使得民眾的生活更加困難。這也會對伊朗的經濟發展造成負面影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2f485d74",
-        "title": "中東戰事延燒 日韓股市早盤大幅下挫",
-        "url": "https://www.cna.com.tw/news/afe/202603300023.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 09:20:19 +0800",
-        "summary_zh": "中東戰爭持續不斷，油價再次上漲，對於全球股市產生重大影響。日股基準日經225指數今天早盤重挫逾5%，韓國股市基準KOSPI指數跌幅也超過4%。這種情況下，投資者感到擔憂，市場情緒不穩定。中東戰爭的持續時間和油價的波動對於全球經濟和股市都會產生重大影響。投資者需要密切關注這種情況的發展，準備應對未來的風險。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "47917b7b",
-        "title": "想繼續抗議？了解如何維持運動的動能",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/mar/29/no-kings-protest-next-steps-activism",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 17:18:25 GMT",
-        "summary_zh": "週六，超過8000萬人參與了「No Kings」抗議活動，要求美國政府停止對伊朗的戰爭、移民執法在社區內的存在以及對他們而言的川普政府的威權主義。組織者表示，這是美國歷史上單日抗議人數最多的一次。但是，運動學者指出，社會變革不僅僅局限於一次抗議活動，需要在地方和國家層面進行多種形式的活動才能帶來變化。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "45c9fc8e",
-        "title": "中途荒野：為什麼人們在沙漠中跑來跑去的「學院」?",
-        "url": "https://www.theguardian.com/us-news/2026/mar/29/mars-college-california-campus",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 15:00:01 GMT",
-        "summary_zh": "在洛杉磯兩個小時車程的沙漠中，有一所非傳統的學院——Mars College。這所學院源自於Burning Man的文化，學生們在沒有電力網路的情況下進行學習。這所學院的學生們聚集在沙漠中，圍坐在一堆破舊沙發上，使用筆記本電腦進行學習。學生們在互相分享自己的作品時，顯示出對於學習的熱情。這種非傳統的學習方式是否是未來的典範？",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "14260f85",
-        "title": "美國民眾感到擔憂：伊朗戰事使日常生活成本大幅上升",
-        "url": "https://www.theguardian.com/world/2026/mar/29/americans-struggling-rising-costs-iran-war",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 13:00:03 GMT",
-        "summary_zh": "美國與以色列對伊朗的軍事打擊，導致全球市場出現波動，美國民眾面臨日常生活成本的重大增加。伊朗對美國在該地區的盟友發動報復攻擊，以及伊朗關閉霍爾木茲海峽，全球市場出現大幅波動。美國汽油價格大幅上升，國內平均價格上升了約 30%，超過一個月。食物、房屋貸款利率和肥料成本也大幅上升。美國民眾感到擔憂，日常生活成本的增加可能會對他們的生活造成重大影響。這種局勢可能會持續下去，美國民眾需要準備面對日常生活成本的重大挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c2b7512d",
-        "title": "《衛報》評論：羅伯特·肯尼迪·羅斯對肽類物質的看法：讓公眾健康政策給騙子們去管",
-        "url": "https://www.theguardian.com/commentisfree/2026/mar/29/the-guardian-view-on-peptides-robert-f-kennedy-jr-would-leave-public-health-policy-to-the-hucksters",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 16:25:00 GMT",
-        "summary_zh": "美國衛生部長羅伯特·肯尼迪·羅斯對肽類物質的支持，引起了關注。肽類物質是一類有許多種類的分子，常用於人體信號傳遞。然而，許多肽類物質仍未經過充分的臨床試驗，安全性和有效性仍存疑。美國食品藥物管理局（FDA）在2023年限制了17種肽類物質的使用，因為它們存在重大安全風險。美國衛生部長羅伯特·肯尼迪·羅斯的做法，被批評為忽視科學專業，放任「健康」騙子和利益相關者。這種做法可能會導致公眾健康政策的混亂和不確定性。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "433b6490",
-        "title": "美國將允許俄羅斯油輪抵達古巴，繞過封鎖",
-        "url": "https://www.theguardian.com/us-news/2026/mar/29/us-russian-oil-tanker-cuba-blockade",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 29 Mar 2026 22:41:49 GMT",
-        "summary_zh": "美國官員表示，俄羅斯油輪「安托洛·科洛德金」可能在三個月後古巴的最後一次石油進口後，將在馬坦薩斯港卸貨。這艘油輪已進入古巴的經濟海域，載有俄羅斯烏拉爾原油650萬桶。根據船舶跟蹤資料，油輪「安托洛·科洛德金」已於週日進入古巴的經濟海域。油輪在俄羅斯普里莫斯克出發後，載有烏拉爾原油650萬桶。根據跟蹤服務MarineTraffic和LSEG的資料，油輪若不改變航線，將在古巴馬坦薩斯港卸貨。這可能是古巴近兩個月來的第一批石油進口。美國對古巴實施的石油禁運令仍然有效，但美國官員表示，美國將允許油輪抵達古巴。這一決定可能會對美國與古巴的關係產生影響。",
+        "id": "5241aed1",
+        "title": "藍斯基新應用程式：自定義新聞源的 AI 助手",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-03-29T17:44:41-04:00",
+        "summary_zh": "藍斯基團隊最新推出的應用程式名為 Attie，是一款 AI 助手，讓用戶可以自行建立自己的新聞源算法。 Attie 由 Anthropic 的 Claude 提供動力，基於藍斯基的底層 AT 協定 (atproto) 建置。 Attie 允許用戶自定義新聞源，選擇喜歡的內容，排除不喜歡的內容。這項功能讓用戶可以更好地控制自己的新聞源，避免被算法推送的不想要的內容。 Attie 的推出標誌著藍斯基團隊致力於開放式新聞源的發展，讓用戶有更多的選擇和控制權。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -890,6 +998,243 @@
       "type": "price",
       "warn": 400,
       "danger": 500
+    }
+  },
+  "daily_digest": {
+    "key_themes": [
+      {
+        "title": "伊朗戰爭對全球市場的影響",
+        "background": "伊朗戰爭的升級，導致石油價格上升至115美元以上，亞洲股市也出現下滑趨勢。",
+        "development": "石油價格的上升主要是由於伊朗戰事的不斷升級，進一步擴大了全球石油供應的不確定性。",
+        "impact": "這一事件對全球經濟和金融市場產生了重大影響，亞洲股市的下滑也表明投資者對未來的不確定性感到擔憂。",
+        "conclusion": "短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈。",
+        "region": "global"
+      },
+      {
+        "title": "印度中產階級的挑戰",
+        "background": "印度中產階級曾經是社會的象徵，但現在卻面臨著許多挑戰。",
+        "development": "受教育和就業的機會越來越少，使得這些人難以實現自己的夢想。",
+        "impact": "許多中產階級家庭面臨著高昂的生活費用和收入不穩定的問題，導致他們的生活質量下降。",
+        "conclusion": "政府和企業需要採取措施來幫助中產階級渡過難關，為他們提供更多的就業機會和教育資源。",
+        "region": "asia"
+      },
+      {
+        "title": "中國科技公司在香港設立據點",
+        "background": "近年來，中國科技公司紛紛在香港設立據點。",
+        "development": "香港成為中國科技公司試驗新產品的理想場所，許多中國公司在香港設立實驗室和研發中心。",
+        "impact": "這一趨勢表明，香港正逐漸成為中國科技業的重要據點。",
+        "conclusion": "中國科技公司在香港設立據點將會對香港的經濟和科技業產生重大影響。",
+        "region": "asia"
+      },
+      {
+        "title": "美國國土安全部資金凍結",
+        "background": "美國國土安全部資金凍結已經持續六週。",
+        "development": "這次停擺的原因是國會無法就國土安全部的預算達成共識。",
+        "impact": "美國國土安全部的工作人員正在努力維持國土安全，但停擺的影響可能會持續很長時間。",
+        "conclusion": "美國政府停擺的影響不僅僅是財政問題，也影響到許多公共服務。",
+        "region": "americas"
+      },
+      {
+        "title": "全球電子商務關稅暫緩延長",
+        "background": "世界貿易組織正在進行關於延長暫緩電子商務關稅的談判。",
+        "development": "電子商務關稅暫緩是指暫時不徵收關稅的措施，適用於電子文件的下載等數字交易。",
+        "impact": "這項措施的延長將對全球電子商務產生重大影響。",
+        "conclusion": "電子商務關稅暫緩延長將會對全球電子商務產生正面影響。",
+        "region": "global"
+      }
+    ],
+    "sector_analysis": [
+      {
+        "sector": "能源",
+        "direction": "看空",
+        "reasoning": "伊朗戰爭的升級，導致石油價格上升至115美元以上。",
+        "key_ticker": "WTI"
+      },
+      {
+        "sector": "科技",
+        "direction": "看多",
+        "reasoning": "中國科技公司在香港設立據點，香港成為中國科技公司試驗新產品的理想場所。",
+        "key_ticker": "Tencent"
+      },
+      {
+        "sector": "金融",
+        "direction": "看空",
+        "reasoning": "美國國土安全部資金凍結，對美國的國土安全和公共服務產生了重大影響。",
+        "key_ticker": "SPY"
+      }
+    ],
+    "action_signals": [
+      {
+        "asset": "SPY",
+        "signal": "短空",
+        "reasoning": "美國國土安全部資金凍結，對美國的國土安全和公共服務產生了重大影響。",
+        "confidence": "高"
+      },
+      {
+        "asset": "Tencent",
+        "signal": "短多",
+        "reasoning": "中國科技公司在香港設立據點，香港成為中國科技公司試驗新產品的理想場所。",
+        "confidence": "中高"
+      },
+      {
+        "asset": "WTI",
+        "signal": "短空",
+        "reasoning": "伊朗戰爭的升級，導致石油價格上升至115美元以上。",
+        "confidence": "中"
+      }
+    ],
+    "risk_radar": [
+      {
+        "event": "伊朗戰爭升級",
+        "probability": "高",
+        "impact": "高",
+        "timeframe": "本週",
+        "description": "伊朗戰爭的升級，導致石油價格上升至115美元以上，亞洲股市也出現下滑趨勢。"
+      },
+      {
+        "event": "美國國土安全部資金凍結",
+        "probability": "中",
+        "impact": "中",
+        "timeframe": "下週",
+        "description": "美國國土安全部資金凍結，對美國的國土安全和公共服務產生了重大影響。"
+      },
+      {
+        "event": "全球電子商務關稅暫緩延長",
+        "probability": "低",
+        "impact": "低",
+        "timeframe": "本月",
+        "description": "電子商務關稅暫緩延長，將對全球電子商務產生重大影響。"
+      }
+    ],
+    "narrative_shift": {
+      "new_themes": [
+        "中國科技公司在香港設立據點",
+        "美國國土安全部資金凍結"
+      ],
+      "escalated": [
+        "伊朗戰爭升級"
+      ],
+      "cooled": [
+        "全球電子商務關稅暫緩延長"
+      ],
+      "disappeared": []
+    },
+    "watch_next": [
+      {
+        "topic": "伊朗戰爭升級",
+        "reason": "伊朗戰爭的升級，導致石油價格上升至115美元以上。",
+        "timeframe": "本週"
+      },
+      {
+        "topic": "美國國土安全部資金凍結",
+        "reason": "美國國土安全部資金凍結，對美國的國土安全和公共服務產生了重大影響。",
+        "timeframe": "下週"
+      },
+      {
+        "topic": "全球電子商務關稅暫緩延長",
+        "reason": "電子商務關稅暫緩延長，將對全球電子商務產生重大影響。",
+        "timeframe": "本月"
+      }
+    ],
+    "cross_links": [
+      {
+        "themes": [
+          "伊朗戰爭升級",
+          "石油價格上漲"
+        ],
+        "chain": "伊朗戰爭升級 → 石油價格上漲 → 亞洲股市下滑"
+      },
+      {
+        "themes": [
+          "美國國土安全部資金凍結",
+          "公共服務"
+        ],
+        "chain": "美國國土安全部資金凍結 → 公共服務受影響 → 美國經濟受影響"
+      },
+      {
+        "themes": [
+          "中國科技公司在香港設立據點",
+          "科技業"
+        ],
+        "chain": "中國科技公司在香港設立據點 → 科技業發展 → 香港經濟受益"
+      }
+    ],
+    "market_snapshot": {
+      "mood": "避險",
+      "key_moves": "VIX 恐慌指數上漲 13.16%，WTI 原油價格上漲 1.75%，S&P 500 指數下跌 1.67%。"
+    },
+    "data_table": {
+      "indices": [
+        {
+          "key": "SP500",
+          "name": "S&P 500",
+          "price": 6368.85,
+          "change_pct": -1.67,
+          "status": "danger"
+        },
+        {
+          "key": "NASDAQ",
+          "name": "那斯達克",
+          "price": 20948.36,
+          "change_pct": -2.15,
+          "status": "normal"
+        },
+        {
+          "key": "TWII",
+          "name": "台股加權",
+          "price": 32662.62,
+          "change_pct": -1.36,
+          "status": "danger"
+        }
+      ],
+      "commodities": [
+        {
+          "key": "GOLD",
+          "name": "黃金",
+          "price": 4521.1,
+          "change_pct": 0.65,
+          "status": "normal"
+        },
+        {
+          "key": "OIL",
+          "name": "原油 WTI",
+          "price": 101.38,
+          "change_pct": 1.75,
+          "status": "normal"
+        }
+      ],
+      "forex": [
+        {
+          "key": "DXY",
+          "name": "美元指數",
+          "price": 100.1,
+          "change_pct": -0.05,
+          "status": "normal"
+        },
+        {
+          "key": "USDTWD",
+          "name": "美元/台幣",
+          "price": 32.0,
+          "change_pct": 0.21,
+          "status": "normal"
+        }
+      ],
+      "bonds_volatility": [
+        {
+          "key": "TNX",
+          "name": "美債10Y殖利率",
+          "price": 4.44,
+          "change_pct": 0.54,
+          "status": "normal"
+        },
+        {
+          "key": "VIX",
+          "name": "VIX 恐慌指數",
+          "price": 31.05,
+          "change_pct": 13.16,
+          "status": "danger"
+        }
+      ]
     }
   }
 }
