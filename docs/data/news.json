@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-03-31T09:04:28.474073+08:00",
+  "generated_at": "2026-03-31T10:08:36.182764+08:00",
   "risk_signals": [
-    "🟢 台股加權 33112.59（正常）",
+    "🟢 台股加權 32320.81（正常）",
     "🟢 S&P 500 6343.72（正常）",
     "🔴 VIX 恐慌指數 30.61（高風險區間）",
     "🟡 MOVE 債市波動 108.33（留意）",
-    "🟢 美元指數 100.43（正常）",
-    "🟢 黃金 4570.5（正常）",
+    "🟢 美元指數 100.37（正常）",
+    "🟡 黃金 4641.9（漲 +3.34%，留意）",
     "🟢 美債10Y殖利率 4.34（正常）",
-    "🔴 原油 WTI 104.96（急漲 +5.34%，市場避險）",
-    "🟢 美元/台幣 32.09（正常）"
+    "🟢 原油 WTI 101.14（正常）",
+    "🟢 美元/台幣 32.07（正常）"
   ],
-  "ai_summary": "市場呈現偏於避險情緒，原油急漲引發市場關注。",
+  "ai_summary": "市場氛圍稍有緊張，債市波動和黃金價格上漲，恐慌指數仍處於高風險區間。",
   "market": {
     "TWII": {
-      "price": 33112.59,
-      "change_pct": -0.68
+      "price": 32320.81,
+      "change_pct": -0.61
     },
     "SP500": {
       "price": 6343.72,
@@ -38,32 +38,56 @@
       "change_pct": -3.23
     },
     "DXY": {
-      "price": 100.43,
-      "change_pct": 0.28
+      "price": 100.37,
+      "change_pct": -0.14
     },
     "GOLD": {
-      "price": 4570.5,
-      "change_pct": 1.75
+      "price": 4641.9,
+      "change_pct": 3.34
     },
     "OIL": {
-      "price": 104.96,
-      "change_pct": 5.34
+      "price": 101.14,
+      "change_pct": 1.51
     },
     "USDTWD": {
-      "price": 32.09,
-      "change_pct": 0.35
+      "price": 32.07,
+      "change_pct": 0.3
     }
   },
   "macro": {},
   "categories": {
     "whitehouse": [
       {
+        "id": "2be1e64f",
+        "title": "川普總統行動，為國土安全部員工和旅客帶來幫助",
+        "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-acts-where-democrats-refused-bringing-relief-to-tsa-workers-and-travelers/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 30 Mar 2026 18:28:31 +0000",
+        "summary_zh": "川普總統的果斷領導使得美國各地機場的混亂逐漸減少，國土安全部員工在民主黨國土安全部停擺的影響下終於領到了長期欠薪。民主黨國土安全部停擺已經持續45天，民主黨員們拒絕為國安相關計劃提供資金，導致國土安全部停擺。這種情況對於美國的國家安全造成了嚴重影響。川普總統的行動使得國土安全部員工的生活得到了改善，同時也為旅客帶來了方便。這種情況對於美國的國家安全和旅客的舒適度都有著重要的影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3858a748",
+        "title": "加拿大航空CEO宣布退休　因哀悼視訊事件引發辭職要求",
+        "url": "https://www.bbc.com/news/articles/cgme8xy2rl1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 30 Mar 2026 21:06:47 GMT",
+        "summary_zh": "加拿大航空CEO羅素 (Michael Rousseau) 因哀悼視訊事件引發辭職要求，宣布將於未來退休。事件始於去年美國紐約拉瓜迪亞機場發生一場致命的空中碰撞事故後，羅素發布了一則僅用英文的哀悼視訊，引發了對他的批評。多數人認為，該視訊缺乏對受影響家庭的尊嚴和同情，甚至要求羅素辭職。羅素的決定將對公司的未來產生重大影響，同時也引發了對公司文化和領導力的質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "e4f790ee",
         "title": "白宮批評民主黨，指責民主黨導致國土安全部停擺，共和黨議員拒絕參議院的妥協法案",
         "url": "https://www.theguardian.com/us-news/live/2026/mar/30/donald-trump-shutdown-ice-dhs-tsa-airports-iran-jd-vance-latest-news-updates",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Tue, 31 Mar 2026 00:37:24 GMT",
+        "published_at": "Tue, 31 Mar 2026 01:32:36 GMT",
         "summary_zh": "白宮發言人卡羅琳·萊維特表示，美國各地機場的安全檢查線仍然很長，TSA 員工的士氣已經「大幅下降」。此外，美國汽油價格即將突破4美元一加侖的里程碑，美國汽車協會預測。這個價格比一個月前的2.98美元一加侖高出33%，是2022年俄烏戰爭後來自俄羅斯的全面入侵以來的最高國家平均價格。",
         "sentiment": "負面",
         "is_breaking": true,
@@ -78,8 +102,8 @@
         "published_at": "Mon, 30 Mar 2026 23:59:34 GMT",
         "summary_zh": "加州州長加文·紐森(Gavin Newsom)在川普總統試圖阻止的背景下，簽署了一項行政命令，要求該州在四個月內發展出優先公眾安全的人工智慧政策。這項措施旨在對於與州政府業務有關的人工智慧公司施加新的標準。川普總統曾試圖阻止加州對人工智慧業進行過度管制，認為這會導致繁雜的規範。然而，加州政府認為，需要對人工智慧業進行監管，以確保公眾安全和權益。這項新政策將對加州的經濟和技術發展產生重大影響，同時也會引發人工智慧業界的爭議。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "390d5afb",
@@ -89,18 +113,6 @@
         "category": "whitehouse",
         "published_at": "Mon, 30 Mar 2026 23:40:51 GMT",
         "summary_zh": "紐約市議員法拉·路易斯 (Farah Louis) 和她的姊姊黛比·路易斯 (Debbie Louis) 受聯邦檢察官調查，懷疑她們接受賄賂或回扣，以幫助一家移民收容中心的提供商獲得紐約市的資金。根據《聯合報》報導，檢察官在 3 月 19 日簽發了一份搜索令，要求搜集證據，證明議員路易斯和黛比·路易斯涉嫌違反刑事法律。法拉·路易斯是布魯克林的一名民主黨議員，而黛比·路易斯則是霍楚爾州長的助理秘書，負責紐約市間政府事務。這項調查可能對紐約市政府的信任度產生重大影響，同時也引發了對霍楚爾州長的關注。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "3858a748",
-        "title": "加拿大航空CEO宣布退休　因哀悼視訊事件引發辭職要求",
-        "url": "https://www.bbc.com/news/articles/cgme8xy2rl1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 30 Mar 2026 21:06:47 GMT",
-        "summary_zh": "加拿大航空CEO羅素 (Michael Rousseau) 因哀悼視訊事件引發辭職要求，宣布將於未來退休。事件始於去年美國紐約拉瓜迪亞機場發生一場致命的空中碰撞事故後，羅素發布了一則僅用英文的哀悼視訊，引發了對他的批評。多數人認為，該視訊缺乏對受影響家庭的尊嚴和同情，甚至要求羅素辭職。羅素的決定將對公司的未來產生重大影響，同時也引發了對公司文化和領導力的質疑。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -114,8 +126,8 @@
         "published_at": "Mon, 30 Mar 2026 23:15:32 GMT",
         "summary_zh": "民主黨議員喬昆卡斯托（Joaquin Castro）發出警告，指美國移民和海關執法局（ICE）拘留中心內的一名兩歲男童，名為 Kaleth，病重未獲適當照護。根據卡斯托的說法，這名男童患有高燒，並不吃拘留中心提供的食物。卡斯托表示，拘留中心的囚犯曾經投訴食物中有霉菌和蟲子。卡斯托在社交媒體平台 X 上發布了一篇帖子，指當男童的母親要求幫助時，工作人員卻說這是「心理問題」。卡斯托批評 ICE 拒絕承認男童的病情和需求，表示這是「可恥的」並應該停止。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "881158c2",
@@ -126,8 +138,8 @@
         "published_at": "Mon, 30 Mar 2026 23:02:29 GMT",
         "summary_zh": "川普政府正在努力披露一份與民主黨國會議員瑞斯韋爾爾 (Eric Swalwell) 有關的 FBI 檔案。根據華盛頓郵報報導，該檔案與瑞斯韋爾爾與一名中國間諜的關係有關。瑞斯韋爾爾正在競選加州州長，川普政府試圖披露這份檔案，儘管瑞斯韋爾爾沒有被指控有任何不當行為。該檔案源自十年前的調查，調查了一名被懷疑是間諜的中國人，他曾與美國政客建立關係，並協助瑞斯韋爾爾籌集資金。民主黨人批評川普政府的行動是「抹黑」瑞斯韋爾爾的行為。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "6517537b",
@@ -142,18 +154,6 @@
         "ai_classified": true
       },
       {
-        "id": "efce908c",
-        "title": "越壓迫我們，越團結：14名No Kings抗議者談未來路線",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/mar/30/no-kings-protest-crowds",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 30 Mar 2026 21:55:38 GMT",
-        "summary_zh": "週六的抗議活動吸引了美國和全球數百萬人參與。《衛報》與其中一些抗議者交談，了解他們為什麼會參與抗議，並探討未來發展。週六的抗議活動是美國歷史上最大規模的抗議活動之一，超過800萬人在3300個No Kings活動中走上街頭，反對唐納·川普的政策。最近幾個月，川普政府已經派遣超過3000名聯邦移民官員進入明尼蘇達州的雙城地區，引起恐懼和混亂，當地官員殺害兩名居民的事件更是使情況惡化。川普還發動了對委內瑞拉的空襲和伊朗戰爭，前景不明，目前已經耗資30億到40億美元。這還包括美國繼續對以色列的戰爭在加沙的資金支持、其他美國城市、鎮和農村地區的移民突擊、對跨性別權利、投票權利等的威脅。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "9e0d7321",
         "title": "美國指示駐外使館對抗外國「敵意」 – 並邀請馬斯克合作",
         "url": "https://www.theguardian.com/us-news/2026/mar/30/embassies-campaign-marco-rubio-elon-musk",
@@ -164,129 +164,9 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "dd263a23",
-        "title": "美國政府部分停擺創下歷史新高",
-        "url": "https://www.bbc.com/news/articles/cyv1qpzq5v7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 30 Mar 2026 01:13:51 GMT",
-        "summary_zh": "美國政府部分停擺已經持續44天，導致國土安全部的資金短缺。這種情況導致美國各大機場出現了旅遊混亂。美國政府部分停擺的原因是國會無法就國土安全部的預算達成共識，導致政府部分部門無法正常運作。這種情況對美國的國土安全和旅遊業造成了重大影響。政府停擺的持續時間已經超過了之前的紀錄，引起了國內外的關注。美國政府停擺的影響不僅僅是旅遊業，還包括國土安全、醫療服務和教育等多個領域。美國政府應該儘快恢復正常運作，以避免更多的問題出現。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2be1e64f",
-        "title": "川普總統行動，為國土安全部員工和旅客帶來幫助",
-        "url": "https://www.whitehouse.gov/releases/2026/03/president-trump-acts-where-democrats-refused-bringing-relief-to-tsa-workers-and-travelers/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 30 Mar 2026 18:28:31 +0000",
-        "summary_zh": "川普總統的果斷領導使得美國各地機場的混亂逐漸減少，國土安全部員工在民主黨國土安全部停擺的影響下終於領到了長期欠薪。民主黨國土安全部停擺已經持續45天，民主黨員們拒絕為國安相關計劃提供資金，導致國土安全部停擺。這種情況對於美國的國家安全造成了嚴重影響。川普總統的行動使得國土安全部員工的生活得到了改善，同時也為旅客帶來了方便。這種情況對於美國的國家安全和旅客的舒適度都有著重要的影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "global": [
-      {
-        "id": "0a95c908",
-        "title": "美國重開委內瑞拉大使館 進一步緩和兩國關係",
-        "url": "https://www.theguardian.com/world/2026/mar/30/us-reopens-embassy-venezuela",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 17:27:57 GMT",
-        "summary_zh": "美國政府宣布重開委內瑞拉大使館，近三個月前前委內瑞拉總統馬杜羅被美國軍隊強行驅逐出境並被扣押在美國。這標誌著美國與委內瑞拉關係的重大進展，特朗普政府開始與新上任的代理總統德爾西·羅德里格斯（Delcy Rodríguez）政府密切合作，羅德里格斯曾任馬杜羅的副總統。這一發展表明美國與委內瑞拉之間的關係正在逐步改善。然而，美國對委內瑞拉的政策仍然存在爭議，許多人批評美國干涉委內瑞拉內政。委內瑞拉政府的變動對美國的影響將如何？這一發展將如何改善美國與委內瑞拉的經濟和政治關係？",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ac5786c0",
-        "title": "多家新聞媒體錯誤報導索馬利蘭要求伊爾汗·奧馬爾引渡",
-        "url": "https://www.theguardian.com/us-news/2026/mar/30/ilhan-omar-false-reports-somaliland",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 16:38:43 GMT",
-        "summary_zh": "近日，一些新聞媒體錯誤報導索馬利蘭政府要求美國國會議員伊爾汗·奧馬爾引渡回索馬利蘭。這些報導基於一則來自非官方X賬戶的帖子，該帖子聲稱是索馬利蘭政府的官方發言人。然而，事實上，這則帖子並不代表索馬利蘭政府。多家媒體包括福斯新聞網、紐約郵報、辛辛那提廣播集團的國家新聞台和獨立媒體都報導了這個事件。這些報導的基礎是索馬利蘭政府的官方發言人對美國參議員JD Vance的回應，後者指控奧馬爾涉嫌移民欺詐。這些指控與奧馬爾之前被指控的移民欺詐事件有關，奧馬爾vehement地否認了這些指控。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c9162cb5",
-        "title": "中東戰火衝擊 法國柴油均價創1985年以來最高",
-        "url": "https://www.cna.com.tw/news/aopl/202603310014.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Tue, 31 Mar 2026 07:42:54 +0800",
-        "summary_zh": "法國生態轉型部公布最新數據，法國燃油平均價格上週持續上漲，連續第5週攀升。尤其是柴油平均價格達到自1985年統計以來最高點。這種情況與中東戰火的影響有關，導致全球能源市場的不穩定。這將對法國的汽車業和消費者造成重大影響。法國政府可能會採取措施來應對這種情況，例如調整稅率或推動節能政策。然而，短期內，消費者可能會面臨柴油價格的上漲。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "768eb590",
-        "title": "川普再次警告伊朗要開闢霍爾木茲海峽",
-        "url": "https://www.reuters.com/pt/mundo/N4QO7OL3KBOBZJXIAIQNYIQJHE-2026-03-30/",
-        "source": "Reuters",
-        "category": "global",
-        "published_at": "2026-03-30 12:54:03",
-        "summary_zh": "川普再次警告伊朗要開闢霍爾木茲海峽。川普在社交媒體上發表了一則推文，表示伊朗若要開闢霍爾木茲海峽，美國將會採取行動。霍爾木茲海峽是全球最重要的石油運輸通道，伊朗控制著該海峽的入口。川普的警告引起了國際關注，各國都在關注美國和伊朗之間的緊張關係。伊朗的霍爾木茲海峽是全球石油運輸的重要樞紐，伊朗控制著該海峽的入口，美國的警告意味著美國將會採取行動以防止伊朗的行動。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "30e984bb",
-        "title": "塞琳娜·狄翁宣布回歸演唱會在巴黎開唱",
-        "url": "https://www.bbc.com/news/articles/c0708dkm2lko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 19:15:23 GMT",
-        "summary_zh": "塞琳娜·狄翁宣布將在巴黎舉辦回歸演唱會。雖然她已經被診斷出患有罕見的疾病，這種疾病會影響她的歌唱聲音和行走能力，但她仍決定勇敢地回歸舞台。這項消息讓粉絲們感到欣慰和鼓舞，同時也表明塞琳娜·狄翁的精神力量和毅力。這次回歸演唱會將是她在巴黎的第一站，粉絲們可以期待她精彩的表演和深情的演唱。塞琳娜·狄翁的回歸將為粉絲們帶來新的樂趣和感動。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "bbb459c5",
-        "title": "川普威脅打擊伊朗能源基礎設施 國際油價大漲",
-        "url": "https://www.cna.com.tw/news/afe/202603310008.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Tue, 31 Mar 2026 05:49:37 +0800",
-        "summary_zh": "美國總統川普近日再度揚言進一步升級對伊朗的行動，包括鎖定伊朗的能源基礎設施。這一威脅使得國際油價今天大幅上漲，西德州原油價格甚至突破100美元，成為伊朗戰事爆發以來首見。這一價格升高也是2022年7月以來最高價位。伊朗戰事的升級使得全球油價市場感到擔憂，投資者紛紛擔心油價將持續上漲。川普的威脅也使得國際社會對伊朗戰事的發展感到緊張，各國政府正在密切關注這一局勢的發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "36577944",
-        "title": "巴比妞夢幻節在佛羅里達州發生退款風波",
-        "url": "https://www.bbc.com/news/articles/cp3l1422d3qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 18:13:45 GMT",
-        "summary_zh": "巴比妞夢幻節在佛羅里達州的活動遭到粉絲投訴。粉絲們支付了高達 450 美元（約 340 英鎊）的費用，但卻只獲得了一個灰色會議中心的背景和一個包含巴比妞手消毒劑的塑膠袋。粉絲們對這次活動的安排感到失望和不滿。這次事件可能會對巴比妞品牌的形象造成不利影響。目前，活動組織方已經承諾會退還購票費用給粉絲們。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "f0442311",
-        "title": "投資人關注中東戰事結束可能性 歐股收盤勁揚",
-        "url": "https://www.cna.com.tw/news/afe/202603310002.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Tue, 31 Mar 2026 01:00:20 +0800",
-        "summary_zh": "中東戰事近日引起全球關注，投資人一直在關注是否會有和平的可能。美國總統川普近日發文表示，美方與伊朗就停止衝突的磋商已經取得重大進展。這項消息傳出後，投資人開始擁抱希望，歐洲股市主要指數今天收漲。這表明投資人對中東和平的希望正在增強。然而，投資人也知道，中東戰事的結束並不是一件容易的事情。投資人需要繼續關注這項消息的進展，了解是否真的會有和平的可能。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
       {
         "id": "242db3d5",
         "title": "西班牙關閉對美國參與伊朗戰爭的飛機空域",
@@ -295,18 +175,6 @@
         "category": "global",
         "published_at": "Mon, 30 Mar 2026 15:29:15 GMT",
         "summary_zh": "西班牙政府決定拒絕美國使用兩個位於安達盧西亞的共同軍事基地後，西班牙關閉了對美國參與伊朗戰爭的飛機空域。這一決定是對美國在伊朗戰爭中的行動的一種反應。西班牙政府的決定可能會對美國在區域的軍事行動產生影響。這一事件可能會對區域的地緣政治產生影響。西班牙的決定可能會與其他國家的關係產生變化。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d19e9114",
-        "title": "密西根州猶太教堂攻擊者受希拉伯影響，FBI調查",
-        "url": "https://www.theguardian.com/us-news/2026/mar/30/michigan-synagogue-attacker-inspired-hezbollah",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 22:16:33 GMT",
-        "summary_zh": "密西根州一名攻擊猶太教堂的男子受希拉伯影響，根據FBI調查。 Ayman Ghazali, 一名來自黎巴嫩的美國公民，經常在網路上觀看與黎巴嫩組織相關的內容。 FBI的德特羅特分局局長Jennifer Runyan在記者會上宣布，Ghazali在攻擊 Temple Israel 教堂之前，頻繁觀看希拉伯相關內容。 Ghazali在攻擊前錄製的視頻中表示，他想「殺死所有他們」。 這名男子在3月12日駕駛卡車攻擊 Temple Israel 教堂，造成傷亡。 FBI正在調查此事件。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -324,6 +192,18 @@
         "ai_classified": true
       },
       {
+        "id": "c9162cb5",
+        "title": "中東戰火衝擊 法國柴油均價創1985年以來最高",
+        "url": "https://www.cna.com.tw/news/aopl/202603310014.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Tue, 31 Mar 2026 07:42:54 +0800",
+        "summary_zh": "法國生態轉型部公布最新數據，法國燃油平均價格上週持續上漲，連續第5週攀升。尤其是柴油平均價格達到自1985年統計以來最高點。這種情況與中東戰火的影響有關，導致全球能源市場的不穩定。這將對法國的汽車業和消費者造成重大影響。法國政府可能會採取措施來應對這種情況，例如調整稅率或推動節能政策。然而，短期內，消費者可能會面臨柴油價格的上漲。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "739d7a6f",
         "title": "澤倫斯基表示盟友要求他減少對俄羅斯能源的攻擊",
         "url": "https://www.bbc.com/news/articles/c0e7lrxrelwo?at_medium=RSS&at_campaign=rss",
@@ -332,6 +212,30 @@
         "published_at": "Mon, 30 Mar 2026 17:53:51 GMT",
         "summary_zh": "烏克蘭總統澤倫斯基表示，由於伊朗戰爭導致的油價大幅上升，盟友們要求他是否能減少對俄羅斯能源的攻擊。這一要求出於對油價穩定的關注。澤倫斯基的回應表明，他正在與盟友磋商，以找到平衡烏克蘭的軍事需求和對油價穩定的關注的方法。這一發展可能對俄羅斯能源的攻擊有所影響，進而影響全球油價。",
         "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0594932f",
+        "title": "巴勒斯坦人因致命攻擊被定罪將面臨死刑判決的新以色列法律通過",
+        "url": "https://www.bbc.com/news/articles/cp8dkd6lnjdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 21:11:37 GMT",
+        "summary_zh": "以色列新法律通過後，巴勒斯坦人因致命攻擊被定罪將面臨死刑判決。這項法律由極右派和安全部長伊特馬爾·本·古維推動。根據法律，巴勒斯坦人若被定罪，將面臨死刑判決，甚至可能被處以終身監禁。這項法律引起了國際社會的關注，許多人認為這將加劇以巴衝突。以色列政府表示，這項法律是為了維護國家安全和防止恐怖主義。然而，許多人批評這項法律是對巴勒斯坦人權的侵犯。這項法律的通過將對巴勒斯坦人和以色列人都造成深遠影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "bbb459c5",
+        "title": "川普威脅打擊伊朗能源基礎設施 國際油價大漲",
+        "url": "https://www.cna.com.tw/news/afe/202603310008.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Tue, 31 Mar 2026 05:49:37 +0800",
+        "summary_zh": "美國總統川普近日再度揚言進一步升級對伊朗的行動，包括鎖定伊朗的能源基礎設施。這一威脅使得國際油價今天大幅上漲，西德州原油價格甚至突破100美元，成為伊朗戰事爆發以來首見。這一價格升高也是2022年7月以來最高價位。伊朗戰事的升級使得全球油價市場感到擔憂，投資者紛紛擔心油價將持續上漲。川普的威脅也使得國際社會對伊朗戰事的發展感到緊張，各國政府正在密切關注這一局勢的發展。",
+        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
@@ -346,6 +250,30 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "f0442311",
+        "title": "投資人關注中東戰事結束可能性 歐股收盤勁揚",
+        "url": "https://www.cna.com.tw/news/afe/202603310002.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Tue, 31 Mar 2026 01:00:20 +0800",
+        "summary_zh": "中東戰事近日引起全球關注，投資人一直在關注是否會有和平的可能。美國總統川普近日發文表示，美方與伊朗就停止衝突的磋商已經取得重大進展。這項消息傳出後，投資人開始擁抱希望，歐洲股市主要指數今天收漲。這表明投資人對中東和平的希望正在增強。然而，投資人也知道，中東戰事的結束並不是一件容易的事情。投資人需要繼續關注這項消息的進展，了解是否真的會有和平的可能。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cb132451",
+        "title": "加沙母親與兩年前撤離的女兒重逢",
+        "url": "https://www.bbc.com/news/articles/czex10lngzjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 21:12:29 GMT",
+        "summary_zh": "在加沙戰爭爆發初期，至少有八名新生兒因為戰火而被撤離。其中一名女嬰在兩年後與母親重逢。這名女嬰出生時為早產嬰兒，兩年來一直在外地居住。這次重逢是由於國際組織的努力，讓母女倆能在戰火中重拾和平。這種情景在戰爭中不鮮見，許多家庭被迫分離，等待著和平的回歸。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "45616c48",
@@ -372,18 +300,6 @@
         "ai_classified": true
       },
       {
-        "id": "f43c36ec",
-        "title": "美國可能試圖佔領伊朗的卡爾格島",
-        "url": "https://www.bbc.com/news/articles/c937gd1vq7xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 14:54:47 GMT",
-        "summary_zh": "美國前總統唐納德·川普曾表明可能派遣軍隊奪取伊朗的重要石油出口港口卡爾格島。卡爾格島是伊朗石油出口的關鍵據點，控制該島將對伊朗石油出口產生重大影響。美國的此舉將可能導致伊朗與美國的關係惡化，甚至可能引發軍事衝突。伊朗政府可能會採取強烈反應，試圖保衛其領土和石油出口。美國的行動將受到各國的關注和評估，包括中東地區的盟友和對手。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "6bf49a09",
         "title": "金珍妮的照片在中國社交媒體流行，帶來好運的趨勢",
         "url": "https://www.bbc.com/news/articles/c0rx57zgz52o?at_medium=RSS&at_campaign=rss",
@@ -393,18 +309,6 @@
         "summary_zh": "近三天內，數百萬篇文章在社交媒體上被分享，許多用戶都希望能夠帶來好運。金珍妮的照片在中國社交媒體上流行，成為了一個好運的符號。用戶們分享這些照片，希望能夠獲得好運和成功。這種趨勢可能與中國的文化習俗有關，中國人常常相信某些符號或物品能夠帶來好運。金珍妮的照片可能被視為一個幸運的符號，許多用戶都希望能夠擁有這種好運。這種趨勢可能會持續下去，直到下一次流行趨勢出現。",
         "sentiment": "正面",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "55cce04c",
-        "title": "墨西哥要求答案：又一名移民在ICE監管下死亡",
-        "url": "https://www.bbc.com/news/articles/c15dvdx32v0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 23:19:55 GMT",
-        "summary_zh": "墨西哥總統希恩鮑姆（Sheinbaum）承諾會採取行動，對於在加州一間ICE監管中心去週死亡的墨西哥籍移民表示哀悼。墨西哥政府對於這起事件感到憤怒和困惑，要求美國政府解釋這起事件的原因。這是ICE監管中心內第二名死亡的移民，墨西哥政府正在努力確保這些移民的權益得到保護。這起事件也引發了對美國移民政策的批評，許多人認為這些政策對移民的生命和福祉造成了嚴重的影響。墨西哥政府正在與美國政府進行溝通，要求他們採取措施改善移民的待遇和安全。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -444,50 +348,50 @@
         "ai_classified": true
       },
       {
-        "id": "b873c8f4",
-        "title": "澳洲警方七個月大追捕後，鎮民爆出震驚、悲傷和釋然",
-        "url": "https://www.bbc.com/news/articles/cq59wj31vl4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "id": "36577944",
+        "title": "巴比妞夢幻節在佛羅里達州發生退款風波",
+        "url": "https://www.bbc.com/news/articles/cp3l1422d3qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Mon, 30 Mar 2026 20:54:28 GMT",
-        "summary_zh": "澳洲一座小鎮近期成為全球關注的焦點。去年，一名男子德齊·費曼（Dezi Freeman）槍殺了兩名警察，引發了警方七個月的大追捕。這次事件對當地居民造成了深遠的影響，許多人感到震驚、悲傷和釋然。居民們對於警方的努力和鎮民的團結感到感謝。然而，這次事件也引發了對安全和治安的關注。居民們希望政府能夠提供更多的資源和支持，以確保鎮民的安全。這座小鎮的居民們正在努力重建和恢復，希望能夠回到正常的生活。",
+        "published_at": "Mon, 30 Mar 2026 18:13:45 GMT",
+        "summary_zh": "巴比妞夢幻節在佛羅里達州的活動遭到粉絲投訴。粉絲們支付了高達 450 美元（約 340 英鎊）的費用，但卻只獲得了一個灰色會議中心的背景和一個包含巴比妞手消毒劑的塑膠袋。粉絲們對這次活動的安排感到失望和不滿。這次事件可能會對巴比妞品牌的形象造成不利影響。目前，活動組織方已經承諾會退還購票費用給粉絲們。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "30e984bb",
+        "title": "塞琳娜·狄翁宣布回歸演唱會在巴黎開唱",
+        "url": "https://www.bbc.com/news/articles/c0708dkm2lko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 19:15:23 GMT",
+        "summary_zh": "塞琳娜·狄翁宣布將在巴黎舉辦回歸演唱會。雖然她已經被診斷出患有罕見的疾病，這種疾病會影響她的歌唱聲音和行走能力，但她仍決定勇敢地回歸舞台。這項消息讓粉絲們感到欣慰和鼓舞，同時也表明塞琳娜·狄翁的精神力量和毅力。這次回歸演唱會將是她在巴黎的第一站，粉絲們可以期待她精彩的表演和深情的演唱。塞琳娜·狄翁的回歸將為粉絲們帶來新的樂趣和感動。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0a95c908",
+        "title": "美國重開委內瑞拉大使館 進一步緩和兩國關係",
+        "url": "https://www.theguardian.com/world/2026/mar/30/us-reopens-embassy-venezuela",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 17:27:57 GMT",
+        "summary_zh": "美國政府宣布重開委內瑞拉大使館，近三個月前前委內瑞拉總統馬杜羅被美國軍隊強行驅逐出境並被扣押在美國。這標誌著美國與委內瑞拉關係的重大進展，特朗普政府開始與新上任的代理總統德爾西·羅德里格斯（Delcy Rodríguez）政府密切合作，羅德里格斯曾任馬杜羅的副總統。這一發展表明美國與委內瑞拉之間的關係正在逐步改善。然而，美國對委內瑞拉的政策仍然存在爭議，許多人批評美國干涉委內瑞拉內政。委內瑞拉政府的變動對美國的影響將如何？這一發展將如何改善美國與委內瑞拉的經濟和政治關係？",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "6cb3dac9",
-        "title": "緬甸汽油短缺：民眾排長龍買油",
-        "url": "https://www.bbc.com/news/videos/cn08w9ye38yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "id": "ac5786c0",
+        "title": "多家新聞媒體錯誤報導索馬利蘭要求伊爾汗·奧馬爾引渡",
+        "url": "https://www.theguardian.com/us-news/2026/mar/30/ilhan-omar-false-reports-somaliland",
+        "source": "Guardian World",
         "category": "global",
-        "published_at": "Mon, 30 Mar 2026 22:03:59 GMT",
-        "summary_zh": "緬甸因伊朗戰爭而出現汽油短缺問題，民眾在油站排長龍買油。伊朗戰爭持續影響全球，緬甸汽油短缺問題日益嚴重。油站外的長龍讓民眾無法正常購買汽油，造成不便。伊朗戰爭對全球產業和經濟造成重大影響，緬甸汽油短缺問題是其中之一。政府應該採取措施解決汽油短缺問題，讓民眾能夠正常生活。",
+        "published_at": "Mon, 30 Mar 2026 16:38:43 GMT",
+        "summary_zh": "近日，一些新聞媒體錯誤報導索馬利蘭政府要求美國國會議員伊爾汗·奧馬爾引渡回索馬利蘭。這些報導基於一則來自非官方X賬戶的帖子，該帖子聲稱是索馬利蘭政府的官方發言人。然而，事實上，這則帖子並不代表索馬利蘭政府。多家媒體包括福斯新聞網、紐約郵報、辛辛那提廣播集團的國家新聞台和獨立媒體都報導了這個事件。這些報導的基礎是索馬利蘭政府的官方發言人對美國參議員JD Vance的回應，後者指控奧馬爾涉嫌移民欺詐。這些指控與奧馬爾之前被指控的移民欺詐事件有關，奧馬爾vehement地否認了這些指控。",
         "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "709a82e2",
-        "title": "石油價格破115美元，亞洲股市下滑，伊朗戰事進入第五周",
-        "url": "https://www.bbc.com/news/articles/cz905eyjznno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 15:35:40 GMT",
-        "summary_zh": "伊朗戰事進入第五周，伊朗支持的胡塞武裝在也門發動攻擊，針對以色列。這一事件導致石油價格上升至115美元以上，亞洲股市也出現下滑趨勢。石油價格的上升主要是由於伊朗戰事的不斷升級，進一步擴大了全球石油供應的不確定性。這一事件對全球經濟和金融市場產生了重大影響，亞洲股市的下滑也表明投資者對未來的不確定性感到擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "68552d6d",
-        "title": "兩個澳洲州份免費公車，為了應對伊朗戰爭推升油價",
-        "url": "https://www.bbc.com/news/articles/c937n0yxggeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 05:38:26 GMT",
-        "summary_zh": "由於伊朗戰爭導致油價大幅上升，澳洲的維多利亞州和塔斯馬尼亞州決定推出免費公車服務，以鼓勵民眾不再開車。這項措施旨在減少交通擁擠和環境污染，同時也幫助民眾節省油費。這項政策的推出也引發了對政府財政支出的擔憂。分析人士認為，這項措施可能會對州政府的財政造成一定的影響，但也會對民眾的生活質量產生正面影響。",
-        "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
       },
@@ -540,6 +444,18 @@
         "ai_classified": true
       },
       {
+        "id": "d19e9114",
+        "title": "密西根州猶太教堂攻擊者受希拉伯影響，FBI調查",
+        "url": "https://www.theguardian.com/us-news/2026/mar/30/michigan-synagogue-attacker-inspired-hezbollah",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 22:16:33 GMT",
+        "summary_zh": "密西根州一名攻擊猶太教堂的男子受希拉伯影響，根據FBI調查。 Ayman Ghazali, 一名來自黎巴嫩的美國公民，經常在網路上觀看與黎巴嫩組織相關的內容。 FBI的德特羅特分局局長Jennifer Runyan在記者會上宣布，Ghazali在攻擊 Temple Israel 教堂之前，頻繁觀看希拉伯相關內容。 Ghazali在攻擊前錄製的視頻中表示，他想「殺死所有他們」。 這名男子在3月12日駕駛卡車攻擊 Temple Israel 教堂，造成傷亡。 FBI正在調查此事件。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "81dcc273",
         "title": "加拿大新民主黨選出新領導人 阿維·路易斯承諾帶領黨團逆轉",
         "url": "https://www.theguardian.com/world/2026/mar/30/canada-avi-lewis-elected-new-democratic-party",
@@ -562,9 +478,93 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "f43c36ec",
+        "title": "美國可能試圖佔領伊朗的卡爾格島",
+        "url": "https://www.bbc.com/news/articles/c937gd1vq7xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 14:54:47 GMT",
+        "summary_zh": "美國前總統唐納德·川普曾表明可能派遣軍隊奪取伊朗的重要石油出口港口卡爾格島。卡爾格島是伊朗石油出口的關鍵據點，控制該島將對伊朗石油出口產生重大影響。美國的此舉將可能導致伊朗與美國的關係惡化，甚至可能引發軍事衝突。伊朗政府可能會採取強烈反應，試圖保衛其領土和石油出口。美國的行動將受到各國的關注和評估，包括中東地區的盟友和對手。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "55cce04c",
+        "title": "墨西哥要求答案：又一名移民在ICE監管下死亡",
+        "url": "https://www.bbc.com/news/articles/c15dvdx32v0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 23:19:55 GMT",
+        "summary_zh": "墨西哥總統希恩鮑姆（Sheinbaum）承諾會採取行動，對於在加州一間ICE監管中心去週死亡的墨西哥籍移民表示哀悼。墨西哥政府對於這起事件感到憤怒和困惑，要求美國政府解釋這起事件的原因。這是ICE監管中心內第二名死亡的移民，墨西哥政府正在努力確保這些移民的權益得到保護。這起事件也引發了對美國移民政策的批評，許多人認為這些政策對移民的生命和福祉造成了嚴重的影響。墨西哥政府正在與美國政府進行溝通，要求他們採取措施改善移民的待遇和安全。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b873c8f4",
+        "title": "澳洲警方七個月大追捕後，鎮民爆出震驚、悲傷和釋然",
+        "url": "https://www.bbc.com/news/articles/cq59wj31vl4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 20:54:28 GMT",
+        "summary_zh": "澳洲一座小鎮近期成為全球關注的焦點。去年，一名男子德齊·費曼（Dezi Freeman）槍殺了兩名警察，引發了警方七個月的大追捕。這次事件對當地居民造成了深遠的影響，許多人感到震驚、悲傷和釋然。居民們對於警方的努力和鎮民的團結感到感謝。然而，這次事件也引發了對安全和治安的關注。居民們希望政府能夠提供更多的資源和支持，以確保鎮民的安全。這座小鎮的居民們正在努力重建和恢復，希望能夠回到正常的生活。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6cb3dac9",
+        "title": "緬甸汽油短缺：民眾排長龍買油",
+        "url": "https://www.bbc.com/news/videos/cn08w9ye38yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 22:03:59 GMT",
+        "summary_zh": "緬甸因伊朗戰爭而出現汽油短缺問題，民眾在油站排長龍買油。伊朗戰爭持續影響全球，緬甸汽油短缺問題日益嚴重。油站外的長龍讓民眾無法正常購買汽油，造成不便。伊朗戰爭對全球產業和經濟造成重大影響，緬甸汽油短缺問題是其中之一。政府應該採取措施解決汽油短缺問題，讓民眾能夠正常生活。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "709a82e2",
+        "title": "石油價格破115美元，亞洲股市下滑，伊朗戰事進入第五周",
+        "url": "https://www.bbc.com/news/articles/cz905eyjznno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 15:35:40 GMT",
+        "summary_zh": "伊朗戰事進入第五周，伊朗支持的胡塞武裝在也門發動攻擊，針對以色列。這一事件導致石油價格上升至115美元以上，亞洲股市也出現下滑趨勢。石油價格的上升主要是由於伊朗戰事的不斷升級，進一步擴大了全球石油供應的不確定性。這一事件對全球經濟和金融市場產生了重大影響，亞洲股市的下滑也表明投資者對未來的不確定性感到擔憂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "68552d6d",
+        "title": "兩個澳洲州份免費公車，為了應對伊朗戰爭推升油價",
+        "url": "https://www.bbc.com/news/articles/c937n0yxggeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 30 Mar 2026 05:38:26 GMT",
+        "summary_zh": "由於伊朗戰爭導致油價大幅上升，澳洲的維多利亞州和塔斯馬尼亞州決定推出免費公車服務，以鼓勵民眾不再開車。這項措施旨在減少交通擁擠和環境污染，同時也幫助民眾節省油費。這項政策的推出也引發了對政府財政支出的擔憂。分析人士認為，這項措施可能會對州政府的財政造成一定的影響，但也會對民眾的生活質量產生正面影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "ai": [
+      {
+        "id": "bd171386",
+        "title": "Okta CEO Todd McKinnon押注人工智慧身份驗證",
+        "url": "https://www.theverge.com/podcast/902264/oktas-ceo-is-betting-big-on-ai-agent-identity",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-03-30T11:15:00-04:00",
+        "summary_zh": "Okta 是一家提供企業安全和身份驗證管理平台的公司，讓大型企業能夠管理員工在各個應用程式和服務中使用的安全和身份驗證。Okta 的 CEO Todd McKinnon 表示，他正在押注人工智慧身份驗證將是未來的關鍵技術。根據他，人工智慧身份驗證將能夠更好地識別和驗證使用者身份，同時也能夠提供更好的安全性和管理性。這將對企業的安全和身份驗證管理產生重大影響。目前，Okta 正在發展人工智慧身份驗證技術，並且已經與多家企業合作。Okta 的這一押注將對未來的安全和身份驗證產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "324af286",
         "title": "人工智慧健康工具比以往任何時候都多，但它們的效果如何?",
@@ -612,30 +612,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "bd171386",
-        "title": "Okta CEO Todd McKinnon押注人工智慧身份驗證",
-        "url": "https://www.theverge.com/podcast/902264/oktas-ceo-is-betting-big-on-ai-agent-identity",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-03-30T11:15:00-04:00",
-        "summary_zh": "Okta 是一家提供企業安全和身份驗證管理平台的公司，讓大型企業能夠管理員工在各個應用程式和服務中使用的安全和身份驗證。Okta 的 CEO Todd McKinnon 表示，他正在押注人工智慧身份驗證將是未來的關鍵技術。根據他，人工智慧身份驗證將能夠更好地識別和驗證使用者身份，同時也能夠提供更好的安全性和管理性。這將對企業的安全和身份驗證管理產生重大影響。目前，Okta 正在發展人工智慧身份驗證技術，並且已經與多家企業合作。Okta 的這一押注將對未來的安全和身份驗證產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "73970da2",
-        "title": "人工智慧在音樂產業的最新發展",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-03-29T21:32:14-04:00",
-        "summary_zh": "人工智慧技術已經影響到音樂產業的各個方面，從樣本採集和試聽錄音，到提供數位歌詞和建立播放清單。然而，人工智慧在音樂產業的應用也引發了技術和法律挑戰，激烈的道德辯論，以及擔心人工智慧會通過大量數量壓倒實際的音樂家。人工智慧創作的音樂是否算作藝術，還是只是機器的產物？這些問題引發了音樂界的熱議。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "stock_tw": [
@@ -648,8 +624,8 @@
         "published_at": "Tue, 31 Mar 2026 08:35:10 +0800",
         "summary_zh": "美伊戰火延燒，美股持續偏弱，週一記憶體大廠美光領跌，半導體股回檔。台積電的ADR價格下跌3.13%，而台指期夜盤則下跌449點，收在32031點。專家預測，台股短線可能會回測32000點關卡。由於即將到來的兒童清明節連假，市場變數多，節前台股可能會出現震盪。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "ec56d113",
@@ -712,66 +688,6 @@
         "ai_classified": true
       },
       {
-        "id": "f56997ba",
-        "title": "旺矽董事長: 台灣沒有競爭對手，旺矽今年有望逐季成長",
-        "url": "https://ec.ltn.com.tw/article/paper/1748982",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 31 Mar 2026 05:30:00 +0800",
-        "summary_zh": "旺矽董事長葛長林在櫃買市場業績發表會上表示，旺矽在台灣沒有競爭對手，目前競爭對手主要是來自美國和義大利的公司。葛長林認為，台灣公司的競爭力在於台灣人肯拚和整體成本相對有競爭力。旺矽在過去幾年已經布局全球市場，今年有望逐季成長。旺矽的業務範圍包括半導體測試介面暨設備的設計、製造和銷售。公司的競爭優勢在於其技術和產品的創新能力。旺矽的成長將受到市場需求和競爭對手的影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9a6999b0",
-        "title": "房市降溫見成效 楊金龍︰不排除放鬆管制",
-        "url": "https://ec.ltn.com.tw/article/paper/1748963",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 31 Mar 2026 05:30:00 +0800",
-        "summary_zh": "中央銀行總裁楊金龍昨日在立法院財政委員會進行業務報告。他表示，將房市管制擴大到全國一體適用，是因為炒房熱潮蔓延。目前房市降溫的成效已經開始出現。楊金龍也不排除將管制措施調整回區域化。另外，他也表態支持研議中的「新青安二．〇」，並認為寬限期不宜過長，以引導借款人審慎規劃。這些措施的出現，可能會對房市產生一定的影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "64ee0b6e",
-        "title": "二月景氣燈號連三紅 分數逾4年新高",
-        "url": "https://ec.ltn.com.tw/article/paper/1748964",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 31 Mar 2026 05:30:00 +0800",
-        "summary_zh": "國發會昨公布二月景氣對策信號綜合判斷分數為四十分，較上月增加一分，為二〇二一年七月以來最高。這意味著景氣燈號連續亮出第三顆代表景氣熱絡的紅燈。九項構成項目中，工業及服務業加班工時轉為紅燈，顯示勞動市場需求旺盛。然而，隨著中東衝突推升國際油價，國發會表示，政府對油價採平穩機制降低衝擊，但景氣能否維持紅燈仍待觀察。這個結果表明台灣的經濟正在經歷一個相對熱絡的時期，但仍面臨著挑戰和不確定性。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "63c0e789",
-        "title": "盤勢分析》追價意願不高 延續箱型區間走勢",
-        "url": "https://ec.ltn.com.tw/article/paper/1748989",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 31 Mar 2026 05:30:00 +0800",
-        "summary_zh": "近日中東局勢多變，國際油價大漲，引發市場對通膨的隱憂。日韓股市昨日一開盤就重挫，拖累台股開盤後大型電子權值股承壓。台積電（2330）在殺尾盤中表現突出，終場大盤下跌594.43點，跌幅1.8%，以3萬2518.16點作收。成交量6781.52億元，低於5日均量。外資昨日又賣超639.37億元，三大法人中，外資賣超量居多，市場對台股的追價意願不高，盤勢延續箱型區間走勢。這種情況可能會持續一段時間，投資者需要謹慎觀察市場變化。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "56c2934a",
-        "title": "央行穩匯防輸入性通膨 楊金龍強調經濟基本面仍穩健",
-        "url": "https://ec.ltn.com.tw/article/paper/1748960",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 31 Mar 2026 05:30:00 +0800",
-        "summary_zh": "中東戰事持續升溫，推升國際油價並引發全球金融市場動盪。中央銀行總裁楊金龍昨在立法院財政委員會表示，儘管外在環境充滿不確定性，但台灣經濟基本面仍屬穩健。楊金龍強調，若通膨預期升溫，將適時緊縮因應。目前尚未出現輸入性通膨，但中央銀行將密切監測通膨風險。楊金龍表示，對今年經濟成長率「保七」以上審慎樂觀。中央銀行將繼續保持穩健的貨幣政策，防止輸入性通膨的出現。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "c93af7d6",
         "title": "華虹傳跨入7奈米 大陸半導體技術進步真的這麼快嗎？",
         "url": "https://money.udn.com/money/story/5604/9386559",
@@ -784,7 +700,93 @@
         "ai_classified": true
       }
     ],
+    "finance": [
+      {
+        "id": "6731fd6f",
+        "title": "中南航空2025年首度盈利，五年內虧損結束",
+        "url": "https://www.reuters.com/world/china/china-southern-returns-profit-2025-after-five-years-losses-2026-03-30/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-03-30 13:58:01",
+        "summary_zh": "中南航空公司在2025年首度盈利，結束了五年的虧損歷程。根據公司的財務報告，該公司在2025年實現了約10億美元的淨利潤，較前一年增長了50%。這一成績是由於公司的收入增加和成本控制得當，特別是在燃油價格下跌後，公司的營運效率大幅提升。中南航空的盈利是中國航空業的一個重要里程碑，表明該公司正在走上正軌。然而，這一成績也面臨著未來的挑戰，包括競爭加劇和全球經濟不確定性。中南航空將如何繼續保持盈利，將是市場關注的焦點。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e542b292",
+        "title": "勞動部提案規則：允許401(k)計畫包含替代資產",
+        "url": "https://www.cnbc.com/2026/03/30/401ks-alternative-investments.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-03-30 13:55:45",
+        "summary_zh": "美國勞動部提案了一項規則，規定401(k)退休計畫的管理人和受托人如何包含替代資產。這項規則旨在為投資者提供更多選擇，讓他們可以在退休計畫中投資更多的替代資產，例如私募基金、房地產投資信託等。這項規則的提出，可能會對投資者和企業產生重大影響，尤其是在退休計畫的投資組合方面。然而，規則的具體內容尚未明確，需要進一步的討論和評估。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9f9c7929",
+        "title": "XED Executive Development, 印度首家 GIFT 城市 IPO, 因需求不足撤回發行",
+        "url": "https://www.reuters.com/business/xed-executive-development-indias-first-gift-city-ipo-withdraws-issue-after-weak-2026-03-30/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-03-30 13:49:53",
+        "summary_zh": "印度首家 GIFT 城市的 IPO 由 XED Executive Development 發行，但因為市場需求不足，最終撤回發行。這項消息對於印度的金融市場造成了影響，投資者也感到意外。分析人士認為，市場需求不足可能是因為投資者對於公司未來發展的不確定性。這項撤回發行的消息也可能會影響到其他公司的 IPO 發行。印度的金融市場正在經歷著快速的變化，投資者需要密切關注市場的發展。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "17313d8f",
+        "title": "美國勞動部發布401(k)指南關於私人資產",
+        "url": "https://www.reuters.com/world/us/us-department-labor-issues-401k-guidelines-private-assets-2026-03-30/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-03-30 13:49:12",
+        "summary_zh": "美國勞動部近日發布了新的指南，針對401(k)計畫的私人資產投資提供指導。這些指南旨在幫助投資者了解如何在401(k)計畫中投資私人資產，例如房地產、股票或私人企業股份。根據指南，投資者需要仔細評估私人資產的風險和潛在收益，並確保投資符合401(k)計畫的規定。這些指南對於投資者和401(k)計畫管理者來說都是重要的資源，幫助他們做出明智的投資決策。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2816cc71",
+        "title": "美國財政部長：2026年個人稅退稅金額超過去年10%，近半數稅戶申報共和黨稅法新扣除額",
+        "url": "https://www.reuters.com/sustainability/sustainable-finance-reporting/bessent-says-nearly-half-us-tax-filers-claim-new-deductions-republican-tax-law-2026-03-30/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-03-30 13:47:44",
+        "summary_zh": "美國財政部長斯科特·貝森特（Scott Bessent）表示，2026年稅季個人稅退稅金額比去年增加超過10%，近半數稅戶申報了共和黨稅法中新引入的扣除額。這項稅法於去年通過，旨在減輕美國納稅人的負擔。根據財政部的數據，2026年稅季的稅退稅金額已經超過10%，這表明美國納稅人對新稅法的反應良好。然而，仍有許多人對新稅法的具體內容和影響存在疑慮。這項稅法的通過對美國經濟和稅收體系都會產生深遠的影響，需要密切關注。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "5e4ef218",
+        "title": "早市評論：原油升溫",
+        "url": "https://www.reuters.com/business/finance/global-markets-view-usa-2026-03-30/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-03-30 10:55:10",
+        "summary_zh": "原油價格持續升溫，影響全球能源市場。美國能源情報局預估全球原油需求將在今年下半年達到新高。市場關注美國和全球能源市場的動態，包括原油價格、能源供應和需求。同時，全球經濟復甦也受到關注，市場預期能源需求將持續增長。原油價格的上升也會對全球經濟產生影響，包括通膨和經濟增長。市場投資者需要密切關注原油價格和全球經濟的變化。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "stock_us": [
+      {
+        "id": "1982d862",
+        "title": "紐約財富稅戰升級：市府與州府展開對決",
+        "url": "https://www.cnbc.com/video/2026/03/30/nys-wealth-tax-battle-is-turning-into-a-state-vs-city-showdown-partnership-for-nycs-steven-fulop.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-03-30 13:26:47",
+        "summary_zh": "紐約市財富稅政策引發爭議，紐約市與州府之間的對立加劇。紐約市長府與州府之間的財富稅政策爭議日益升級，引發了紐約市與州府之間的對立。紐約市長府認為財富稅政策對於紐約市的經濟發展有著重要作用，而州府則認為這項政策會對於州府的財政收入造成負面影響。紐約市長府與州府之間的對立加劇，可能會對於紐約市的經濟發展造成影響。紐約市長府的財富稅政策爭議可能會對於紐約市的經濟發展造成影響。紐約市長府與州府之間的對立加劇，可能會對於紐約市的經濟發展造成影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "e37d73c5",
         "title": "這家線上旅遊代理商可能因為AI趨勢而大幅上漲，Jefferies表示",
@@ -794,20 +796,8 @@
         "published_at": "2026-03-30 12:59:53",
         "summary_zh": "根據Jefferies的分析，Expedia Group可能因為多項與AI相關的趨勢而取得進展，包括更容易取得網路流量和更個人化的搜尋結果。這些趨勢可能對Expedia Group的業務產生正面影響，讓該公司能夠更好地競爭市場。然而，目前尚未有明確的數據表明Expedia Group的業務會因為AI趨勢而大幅上漲。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "1cf305b5",
-        "title": "華爾街投資銀行持續預測2026年美聯儲降息兩次",
-        "url": "https://www.reuters.com/business/finance/wall-street-brokerages-pencil-fed-rate-cuts-mid2026-2026-03-30/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-03-30 12:26:29",
-        "summary_zh": "根據最新消息，華爾街投資銀行仍持續預測2026年美聯儲將降息兩次，與美聯儲最新的預測相反。美聯儲最新的預測表明，將降息一次四分之一點，原因是中東戰爭導致的通膨擔憂。投資銀行的預測仍然堅持美聯儲將降息兩次，這表明市場對美聯儲的政策仍然有所期待。這一預測也反映了市場對美聯儲政策的不確定性。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "286ba152",
@@ -822,6 +812,18 @@
         "ai_classified": true
       },
       {
+        "id": "1cf305b5",
+        "title": "華爾街投資銀行持續預測2026年美聯儲降息兩次",
+        "url": "https://www.reuters.com/business/finance/wall-street-brokerages-pencil-fed-rate-cuts-mid2026-2026-03-30/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-03-30 12:26:29",
+        "summary_zh": "根據最新消息，華爾街投資銀行仍持續預測2026年美聯儲將降息兩次，與美聯儲最新的預測相反。美聯儲最新的預測表明，將降息一次四分之一點，原因是中東戰爭導致的通膨擔憂。投資銀行的預測仍然堅持美聯儲將降息兩次，這表明市場對美聯儲的政策仍然有所期待。這一預測也反映了市場對美聯儲政策的不確定性。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "c245cd53",
         "title": "麥克·桑托利：牛市必須承擔更高的證據壓力，因為股市陷入五週連續下跌的窘境",
         "url": "https://www.cnbc.com/2026/03/30/mike-santoli-the-burden-of-proof-rises-for-stock-market-bulls.html",
@@ -830,8 +832,8 @@
         "published_at": "2026-03-30 12:20:36",
         "summary_zh": "股市近期陷入五週連續下跌的窘境，雖然尚未觸發市場的清洗恐慌，但這種情況卻使得牛市必須承擔更高的證據壓力。投資人需要在市場的不確定性下，找尋購買的機會。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "69101247",
@@ -842,8 +844,8 @@
         "published_at": "2026-03-30 12:20:28",
         "summary_zh": "石油價格創下歷史新高，對全球經濟產生重大影響。同時，美國交通安全管理局（TSA）員工的薪水也引起關注。另外，Pokémon卡的二手市場熱絡，成為投資者關注的焦點。這些事件將對全球金融市場產生重大影響。投資者需要了解這些事件的背景、關鍵細節、影響分析和後續展望，以做出明智的投資決策。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "d3ae4462",
@@ -854,8 +856,8 @@
         "published_at": "2026-03-30 12:19:46",
         "summary_zh": "美股分析師周一發表了對多家公司的評估。其中包括Nvidia、Apple、Netflix、Carnival、Expedia、CrowdStrike、Meta、Seagate等公司。這些評估將對這些公司的股價產生重要影響。分析師們對這些公司的表現表示了不同意見，從而導致股價的波動。這些評估將對投資者和股東產生重要影響，投資者需要密切關注這些公司的表現和評估。這些評估將對市場的走向產生重要影響，投資者需要準備好面對未來的挑戰和機會。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "51d4dd8c",
@@ -891,68 +893,6 @@
         "summary_zh": "全球股市因中東戰事擔憂而大幅下跌，全球最有價值的公司Nvidia也因而受到影響。該公司股價的市盈率跌至七年來最低，甚至低於ChatGPT AI技術興起之前的水平。這表明投資者對Nvidia的未來前景感到擔憂，同時也反映了全球股市對中東戰事的不安。這種情況下，Nvidia的股價可能會繼續下跌，投資者需要密切關注公司的財務表現和未來發展。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "abbdde53",
-        "title": "我們退出這家科技股，為慈善捐款後的資金儲備進行補充",
-        "url": "https://www.cnbc.com/2026/03/30/were-exiting-this-tech-stock-to-replenish-our-cash-pile-after-our-annual-charity-donation.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-03-30 12:57:45",
-        "summary_zh": "一家投資公司宣布退出一家科技股，原因是慈善捐款後的資金儲備降至6.5%，低於正常水準。投資公司表示，這次慈善捐款將資金從約15%降至6.5%。這表明投資公司的資金儲備不足以承受市場波動或未來的投資機會。這項決定可能會對投資公司的投資組合產生影響，投資者應該密切關注此事。投資公司未來的財務狀況和投資策略將受到關注。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "dc73bbd0",
-        "title": "SEC 半年報告計畫進入白宮審核階段",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-30/sec-semiannual-reporting-plan-advances-to-white-house-for-review",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-03-30 12:57:04",
-        "summary_zh": "美國證券交易委員會 (SEC) 的半年報告計畫已經進入白宮審核階段。這項計畫旨在改善企業的財務披露和透明度。根據SEC的說法，這項計畫將會幫助投資者更好地了解企業的財務狀況和風險。然而，該計畫的具體內容尚未公開，投資者和企業關注的是這項計畫會如何影響企業的財務報告和投資市場。白宮的審核階段將會對計畫的最終版本有重大影響。投資者和企業應該密切關注這項計畫的進展，以了解其對企業和投資市場的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "2e67e701",
-        "title": "巴西央行治理改革限制極端政策波動，Galipolo表示",
-        "url": "https://www.reuters.com/world/americas/brazil-central-bank-governance-curbs-extreme-policy-swings-galipolo-says-2026-03-30/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-03-30 12:52:18",
-        "summary_zh": "巴西央行近日宣布改革其治理機制，以防止極端政策波動。巴西央行總裁Galipolo表示，這項改革旨在確保央行的政策決定更加穩健和透明。改革措施包括設立一個新的政策委員會，負責制定央行的政策方向。這項改革受到市場的歡迎，市場預期央行將採取更加穩健的政策立場。然而，仍有市場人士擔心改革措施可能會導致央行失去政策靈活性。巴西央行的改革措施將對該國的經濟政策產生重要影響，市場將密切關注央行的政策決定。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "77532035",
-        "title": "德國降低歐元紀念幣銀含量，因為價格波動",
-        "url": "https://www.reuters.com/business/germany-cuts-silver-content-euro-collector-coins-prices-gyrate-2026-03-30/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-03-30 12:49:43",
-        "summary_zh": "德國因為價格波動，決定降低歐元紀念幣中的銀含量。這項變更將對投資者產生重大影響。投資者們一直對這些紀念幣的價值感到關注，因為市場上價格的波動會對這些投資產生重大影響。德國的這一決定可能會影響投資者對這些紀念幣的信心。投資者們可能會因為這一變更而重新評估這些投資的價值。這一變更可能會對德國的經濟產生一定的影響。德國的這一決定可能會對投資市場產生一定的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "5e4ef218",
-        "title": "早市評論：原油升溫",
-        "url": "https://www.reuters.com/business/finance/global-markets-view-usa-2026-03-30/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-03-30 10:55:10",
-        "summary_zh": "原油價格持續升溫，影響全球能源市場。美國能源情報局預估全球原油需求將在今年下半年達到新高。市場關注美國和全球能源市場的動態，包括原油價格、能源供應和需求。同時，全球經濟復甦也受到關注，市場預期能源需求將持續增長。原油價格的上升也會對全球經濟產生影響，包括通膨和經濟增長。市場投資者需要密切關注原油價格和全球經濟的變化。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       }
     ]
@@ -1022,229 +962,6 @@
       "type": "price",
       "warn": 400,
       "danger": 500
-    }
-  },
-  "daily_digest": {
-    "key_themes": [
-      {
-        "title": "中東戰爭對全球市場的影響",
-        "background": "中東戰爭的持續影響將對全球市場產生長遠的影響，投資者需要謹慎對待這個問題。",
-        "development": "近期，中東戰火延燒，美股持續偏弱，週一記憶體大廠美光領跌，半導體股回檔。",
-        "impact": "這種情況表明投資人對未來的不確定性感到擔憂，導致股市下跌。",
-        "conclusion": "短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈",
-        "region": "global"
-      },
-      {
-        "title": "能源價格的上升",
-        "background": "能源價格的上升將對全球市場產生長遠的影響，投資者需要謹慎對待這個問題。",
-        "development": "近期，能源價格創下歷史新高，對全球經濟產生重大影響。",
-        "impact": "這種情況將對全球經濟產生重大影響，投資者需要謹慎觀察市場變化。",
-        "conclusion": "能源價格的上升將持續對全球市場產生影響，投資者需要謹慎對待這個問題。",
-        "region": "global"
-      },
-      {
-        "title": "人工智慧在健康領域的應用",
-        "background": "人工智慧在健康領域的應用正在逐漸增加，投資者需要了解其潛在的影響。",
-        "development": "近期，微軟推出了Copilot Health，讓用戶可以在Copilot app中連接醫療記錄並詢問健康問題。",
-        "impact": "這種情況表明人工智慧在健康領域的應用將對醫療業界產生重大影響。",
-        "conclusion": "人工智慧在健康領域的應用將持續增加，投資者需要謹慎觀察市場變化。",
-        "region": "global"
-      }
-    ],
-    "sector_analysis": [
-      {
-        "sector": "能源",
-        "direction": "看多",
-        "reasoning": "能源價格的上升將持續對全球市場產生影響，投資者需要謹慎對待這個問題。",
-        "key_ticker": "原油"
-      },
-      {
-        "sector": "科技",
-        "direction": "看空",
-        "reasoning": "中東戰火延燒，美股持續偏弱，週一記憶體大廠美光領跌，半導體股回檔。",
-        "key_ticker": "半導體"
-      },
-      {
-        "sector": "金融",
-        "direction": "中性",
-        "reasoning": "巴西央行近日宣布改革其治理機制，以防止極端政策波動。",
-        "key_ticker": "巴西央行"
-      }
-    ],
-    "action_signals": [
-      {
-        "asset": "原油",
-        "signal": "短多",
-        "reasoning": "能源價格的上升將持續對全球市場產生影響，投資者需要謹慎對待這個問題。",
-        "confidence": "高"
-      },
-      {
-        "asset": "半導體",
-        "signal": "短空",
-        "reasoning": "中東戰火延燒，美股持續偏弱，週一記憶體大廠美光領跌，半導體股回檔。",
-        "confidence": "中高"
-      },
-      {
-        "asset": "巴西央行",
-        "signal": "觀望",
-        "reasoning": "巴西央行近日宣布改革其治理機制，以防止極端政策波動。",
-        "confidence": "中"
-      }
-    ],
-    "risk_radar": [
-      {
-        "event": "中東戰爭升級",
-        "probability": "高",
-        "impact": "高",
-        "timeframe": "本週",
-        "description": "中東戰火延燒，美股持續偏弱，週一記憶體大廠美光領跌，半導體股回檔。"
-      },
-      {
-        "event": "能源價格上漲",
-        "probability": "中",
-        "impact": "中",
-        "timeframe": "下週",
-        "description": "能源價格的上升將持續對全球市場產生影響，投資者需要謹慎對待這個問題。"
-      },
-      {
-        "event": "巴西央行改革",
-        "probability": "低",
-        "impact": "低",
-        "timeframe": "本月",
-        "description": "巴西央行近日宣布改革其治理機制，以防止極端政策波動。"
-      }
-    ],
-    "narrative_shift": {
-      "new_themes": [
-        "能源價格的上升",
-        "人工智慧在健康領域的應用"
-      ],
-      "escalated": [
-        "中東戰爭對全球市場的影響"
-      ],
-      "cooled": [
-        "美國股市的走勢"
-      ],
-      "disappeared": [
-        "台股的走勢"
-      ]
-    },
-    "watch_next": [
-      {
-        "topic": "中東戰爭的最新發展",
-        "reason": "中東戰火延燒，美股持續偏弱，週一記憶體大廠美光領跌，半導體股回檔。",
-        "timeframe": "本週"
-      },
-      {
-        "topic": "能源價格的變化",
-        "reason": "能源價格的上升將持續對全球市場產生影響，投資者需要謹慎對待這個問題。",
-        "timeframe": "下週"
-      },
-      {
-        "topic": "巴西央行的改革進展",
-        "reason": "巴西央行近日宣布改革其治理機制，以防止極端政策波動。",
-        "timeframe": "本月"
-      }
-    ],
-    "cross_links": [
-      {
-        "themes": [
-          "中東戰爭",
-          "能源價格"
-        ],
-        "chain": "中東戰爭的升級將導致能源價格的上漲"
-      },
-      {
-        "themes": [
-          "能源價格",
-          "全球經濟"
-        ],
-        "chain": "能源價格的上漲將對全球經濟產生重大影響"
-      },
-      {
-        "themes": [
-          "人工智慧",
-          "健康領域"
-        ],
-        "chain": "人工智慧在健康領域的應用將對醫療業界產生重大影響"
-      }
-    ],
-    "market_snapshot": {
-      "mood": "避險",
-      "key_moves": "中東戰火延燒，美股持續偏弱，週一記憶體大廠美光領跌，半導體股回檔。"
-    },
-    "data_table": {
-      "indices": [
-        {
-          "key": "SP500",
-          "name": "S&P 500",
-          "price": 6343.72,
-          "change_pct": -0.39,
-          "status": "danger"
-        },
-        {
-          "key": "NASDAQ",
-          "name": "那斯達克",
-          "price": 20794.64,
-          "change_pct": -0.73,
-          "status": "normal"
-        },
-        {
-          "key": "TWII",
-          "name": "台股加權",
-          "price": 33112.59,
-          "change_pct": -0.68,
-          "status": "danger"
-        }
-      ],
-      "commodities": [
-        {
-          "key": "GOLD",
-          "name": "黃金",
-          "price": 4570.5,
-          "change_pct": 1.75,
-          "status": "normal"
-        },
-        {
-          "key": "OIL",
-          "name": "原油 WTI",
-          "price": 104.96,
-          "change_pct": 5.34,
-          "status": "danger"
-        }
-      ],
-      "forex": [
-        {
-          "key": "DXY",
-          "name": "美元指數",
-          "price": 100.43,
-          "change_pct": 0.28,
-          "status": "normal"
-        },
-        {
-          "key": "USDTWD",
-          "name": "美元/台幣",
-          "price": 32.09,
-          "change_pct": 0.35,
-          "status": "normal"
-        }
-      ],
-      "bonds_volatility": [
-        {
-          "key": "TNX",
-          "name": "美債10Y殖利率",
-          "price": 4.34,
-          "change_pct": -2.21,
-          "status": "normal"
-        },
-        {
-          "key": "VIX",
-          "name": "VIX 恐慌指數",
-          "price": 30.61,
-          "change_pct": -1.42,
-          "status": "danger"
-        }
-      ]
     }
   }
 }
