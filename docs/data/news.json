@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-31T15:04:06.409565+08:00",
+  "generated_at": "2026-03-31T16:08:37.893314+08:00",
   "risk_signals": [
     "🟡 台股加權 31722.99（下跌 -2.45%，留意）",
     "🟢 S&P 500 6343.72（正常）",
-    "🔴 VIX 恐慌指數 30.61（高風險區間）",
+    "🟡 VIX 恐慌指數 29.01（留意）",
     "🟡 MOVE 債市波動 108.33（留意）",
     "🟢 美元指數 100.47（正常）",
-    "🟢 黃金 4587.8（正常）",
+    "🟢 黃金 4592.0（正常）",
     "🟢 美債10Y殖利率 4.34（正常）",
-    "🟢 原油 WTI 102.93（正常）",
-    "🟢 美元/台幣 32.05（正常）"
+    "🟢 原油 WTI 102.02（正常）",
+    "🟢 美元/台幣 32.06（正常）"
   ],
-  "ai_summary": "市場氛圍偏於謹慎，台股下跌超過2%，VIX恐慌指數持續高位，債市波動亦有所上升。",
+  "ai_summary": "台股下跌，市場表現疲弱，VIX 恐慌指數和債市波動升高，表明投資者開始擔心風險。",
   "market": {
     "TWII": {
       "price": 31722.99,
@@ -26,8 +26,8 @@
       "change_pct": -0.73
     },
     "VIX": {
-      "price": 30.61,
-      "change_pct": -1.42
+      "price": 29.01,
+      "change_pct": -5.23
     },
     "TNX": {
       "price": 4.34,
@@ -42,16 +42,16 @@
       "change_pct": -0.04
     },
     "GOLD": {
-      "price": 4587.8,
-      "change_pct": 1.37
+      "price": 4592.0,
+      "change_pct": 1.46
     },
     "OIL": {
-      "price": 102.93,
-      "change_pct": 0.05
+      "price": 102.02,
+      "change_pct": -0.84
     },
     "USDTWD": {
-      "price": 32.05,
-      "change_pct": 0.23
+      "price": 32.06,
+      "change_pct": 0.26
     }
   },
   "macro": {},
@@ -68,6 +68,18 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "83177bf3",
+        "title": "白宮舞廳項目將包含龐大的軍事複合體",
+        "url": "https://www.reuters.com/world/us/white-house-ballroom-project-include-massive-military-complex-2026-03-30/",
+        "source": "Reuters",
+        "category": "whitehouse",
+        "published_at": "2026-03-30 19:37:47",
+        "summary_zh": "白宮最近宣布了一項重大計畫，將舞廳改建為龐大的軍事複合體。根據消息，該計畫將包括軍事指揮中心、軍事研究院和軍事博物館等設施。這項計畫的目的是為美國軍方提供更好的訓練和準備環境，同時也將成為國家安全的重要據點。白宮表示，這項計畫將在未來幾年內完成，並將創造大量就業機會。然而，這項計畫也引起了部分人士的關注，擔心這將會使白宮成為軍事化的據點。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "3858a748",
@@ -180,6 +192,18 @@
         "ai_classified": true
       },
       {
+        "id": "1359bcd8",
+        "title": "蘇丹某些地區性暴力成為「日常生活」的一部分，慈善機構表示",
+        "url": "https://www.bbc.com/news/articles/c5ywgn2n3nqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 31 Mar 2026 07:12:41 GMT",
+        "summary_zh": "在蘇丹某些地區，性暴力已經成為日常生活的一部分。受害者描述了自己在進行日常活動時被攻擊的經歷。根據慈善機構的報告，受害者包括婦女、兒童和其他弱勢群體。這些人在進行日常活動，如購物、上學或在市場上買賣時，常常被性暴力攻擊。受害者面臨著嚴重的精神和身體創傷，許多人甚至被迫逃離家園。這種情況引起了國際社會的關注，各國政府和國際組織正在努力解決這個問題。然而，蘇丹政府對性暴力的問題仍然缺乏有效的應對措施。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "6dd92dc9",
         "title": "歐洲歌唱大賽首次來到亞洲，10國參賽",
         "url": "https://www.bbc.com/news/articles/cx2rwq53zxyo?at_medium=RSS&at_campaign=rss",
@@ -188,8 +212,8 @@
         "published_at": "Tue, 31 Mar 2026 06:26:19 GMT",
         "summary_zh": "歐洲歌唱大賽宣布推出首次亞洲版，10個國家的廣播公司將參與其中，包括南韓和菲律賓。這項舉措將為亞洲音樂市場帶來新的機會和挑戰。南韓和菲律賓的參與表明，這些國家正致力於發展其音樂產業，並與國際音樂界進行交流。然而，這項舉措也可能引發對亞洲音樂市場的競爭和壓力。亞洲歌唱大賽的推出將為觀眾帶來新的選擇和體驗，同時也將為亞洲音樂創作者提供新的平台和機會。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "0594932f",
@@ -214,6 +238,18 @@
         "sentiment": "正面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "82d00f74",
+        "title": "中東兩大鋁廠遭伊朗攻擊 鋁價飆近4年新高",
+        "url": "https://www.cna.com.tw/news/aopl/202603310173.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Tue, 31 Mar 2026 14:01:36 +0800",
+        "summary_zh": "中東最大的鋁業製造商阿聯全球鋁業（EGA）和巴林鋁業（Aluminium Bahrain）設施於週末遭伊朗攻擊，導致鋁價大幅上漲。這兩家鋁廠的受損導致全球鋁產量減少，進而推動鋁價飆升。根據市場數據，鋁價已經接近4年來的最高點。這一事件對全球鋁業產業產生了重大影響，許多企業和投資者都在關注鋁價的走勢。伊朗的攻擊行動對中東地區的穩定性也產生了影響，可能會對全球經濟產生遠-reaching影響。目前，國際社會仍在關注伊朗的行動和鋁價的走勢。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "07ee39e8",
@@ -276,24 +312,12 @@
         "ai_classified": true
       },
       {
-        "id": "6bf49a09",
-        "title": "金珍妮的照片在中國社交媒體流行，帶來好運的趨勢",
-        "url": "https://www.bbc.com/news/articles/c0rx57zgz52o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 12:59:23 GMT",
-        "summary_zh": "近三天內，數百萬篇文章在社交媒體上被分享，許多用戶都希望能夠帶來好運。金珍妮的照片在中國社交媒體上流行，成為了一個好運的符號。用戶們分享這些照片，希望能夠獲得好運和成功。這種趨勢可能與中國的文化習俗有關，中國人常常相信某些符號或物品能夠帶來好運。金珍妮的照片可能被視為一個幸運的符號，許多用戶都希望能夠擁有這種好運。這種趨勢可能會持續下去，直到下一次流行趨勢出現。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "cbbf235b",
         "title": "查爾斯王子應與愛普斯坦受害者會面，美國立法者表示",
         "url": "https://www.bbc.com/news/articles/cn78xp0m75zo?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "global",
-        "published_at": "Tue, 31 Mar 2026 02:57:36 GMT",
+        "published_at": "Tue, 31 Mar 2026 07:55:23 GMT",
         "summary_zh": "英國王儲查爾斯王子和王后卡米拉計劃於4月底訪問美國。雖然此行程尚未正式確認，但美國立法者認為查爾斯王子應與曾經受益於前金融家傑夫愛普斯坦的受害者會面。愛普斯坦被指控犯有性侵犯罪行，多名受害者指控他在美國和英國進行性侵犯。美國立法者認為，查爾斯王子應該與受害者會面並公開道歉，以表達對受害者及其家人的支持。這一要求引發了關於查爾斯王子的道德責任和英國皇室對性侵犯的回應問題的辯論。",
         "sentiment": "負面",
         "is_breaking": true,
@@ -360,18 +384,6 @@
         "ai_classified": true
       },
       {
-        "id": "f5d98d01",
-        "title": "澳大利亞逃犯德齊·弗里曼被擊斃，警方相信他已經逍遙法外數月",
-        "url": "https://www.bbc.com/news/articles/c93e4gxn22wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 30 Mar 2026 07:07:15 GMT",
-        "summary_zh": "澳大利亞警方一直在追捕德齊·弗里曼，他涉嫌在8月份的普爾普南卡（Porepunkah）槍殺兩名警察。警方相信弗里曼已經在逃亡數月，直到最近被擊斃。這起槍擊事件引起了澳大利亞社會的震驚和關注。警方的行動顯示他們對弗里曼的追捕非常嚴肅和有效。然而，這也引發了對警察執法權力的爭議和質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "36577944",
         "title": "巴比妞夢幻節在佛羅里達州發生退款風波",
         "url": "https://www.bbc.com/news/articles/cp3l1422d3qo?at_medium=RSS&at_campaign=rss",
@@ -423,7 +435,7 @@
         "id": "0a95c908",
         "title": "美國重開委內瑞拉大使館 進一步緩和兩國關係",
         "url": "https://www.theguardian.com/world/2026/mar/30/us-reopens-embassy-venezuela",
-        "source": "Guardian World",
+        "source": "Guardian US",
         "category": "global",
         "published_at": "Mon, 30 Mar 2026 17:27:57 GMT",
         "summary_zh": "美國政府宣布重開委內瑞拉大使館，近三個月前前委內瑞拉總統馬杜羅被美國軍隊強行驅逐出境並被扣押在美國。這標誌著美國與委內瑞拉關係的重大進展，特朗普政府開始與新上任的代理總統德爾西·羅德里格斯（Delcy Rodríguez）政府密切合作，羅德里格斯曾任馬杜羅的副總統。這一發展表明美國與委內瑞拉之間的關係正在逐步改善。然而，美國對委內瑞拉的政策仍然存在爭議，許多人批評美國干涉委內瑞拉內政。委內瑞拉政府的變動對美國的影響將如何？這一發展將如何改善美國與委內瑞拉的經濟和政治關係？",
@@ -568,64 +580,52 @@
     ],
     "stock_tw": [
       {
-        "id": "5465c3ab",
-        "title": "國碩股東會紀念品出爐 領取條件看這裡",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5388427",
-        "source": "自由時報財經",
+        "id": "36665f41",
+        "title": "聯發科攜手灣聲樂團 推動人文藝術扎根",
+        "url": "https://www.cna.com.tw/news/afe/202603310192.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 31 Mar 2026 14:55:01 +0800",
-        "summary_zh": "國碩股東會紀念品今年將發送給股東，內容為「統一超商商品卡35元」。股東常會將於6月26日舉行，股票停止過戶時間為4月28日至6月26日。想領取紀念品的股東需在指定時間內辦理股票過戶。國碩的股東會紀念品是公司對股東的一種回饋，表達對股東的感謝。這項活動對於股東來說是一個好消息，能夠享受公司的回饋。然而，股東也需要注意股票過戶的時間和程序，以避免錯過領取紀念品的機會。",
+        "published_at": "Tue, 31 Mar 2026 14:32:16 +0800",
+        "summary_zh": "聯發科與灣聲樂團共同發起「台灣共鳴－公益音樂行腳」計畫，將古典樂帶入全台校園、社區與公共領域，守護在地文化，讓人文藝術扎根於台灣各角落。這項計畫旨在推動人文藝術在台灣的發展，讓更多人能夠享受到優質的音樂體驗。聯發科的參與，將為灣聲樂團的活動提供重要的支持，幫助該團在台灣各地進行巡迴演出。這項合作將促進台灣文化的傳承和推廣，讓人文藝術在台灣的發展更加茁壯。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a998229e",
+        "title": "防止假養殖真發電 經濟部:未經查核不發電業執照",
+        "url": "https://www.cna.com.tw/news/afe/202603310190.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 31 Mar 2026 14:27:12 +0800",
+        "summary_zh": "針對台南地區部分光電案場因風災受損停擺，並涉未落實漁電共生養殖等爭議，經濟部表示，未經農業主管機關確認有實際養殖事實前，不會核發電業執照。這樣做的目的是要杜絕「假養殖、真發電」的相關情事發生。經濟部希望通過這種方式來防止業者以假養殖為名，取得電業執照，然後真正發電。這樣既能夠保護環境，又能夠確保業者的誠實性。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "788f54db",
-        "title": "中東戰事加劇 燁輝內外銷盤價大漲1500到2000元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5388571",
-        "source": "自由時報財經",
+        "id": "a62c2ade",
+        "title": "台股下跌795點創史上第12大跌點 3月重挫3691.5點",
+        "url": "https://www.cna.com.tw/news/afe/202603310188.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 31 Mar 2026 14:44:33 +0800",
-        "summary_zh": "中東戰事加劇，導致能源與運輸價格大幅上升。燁輝公司在4月內銷烤漆的價格大漲2000元，而5月外銷的價格也大漲1500元至2000元。公司表示，這是由於成本支撐，易漲難跌的市場環境。這意味著燁輝的產品價格將會繼續上升，對於公司的營業額和利潤都會有重大影響。這項變化將會對燁輝的競爭力和市場份額造成影響，公司需要適應這種新的市場環境。",
+        "published_at": "Tue, 31 Mar 2026 14:25:07 +0800",
+        "summary_zh": "台股今天遭遇重大挫折，下跌795.17點，創史上第12大跌點。這次下跌的主要原因是中東戰事與能源市場動盪，引發投資人擔憂。雖然台積電早盤一度翻紅撐盤，但午盤後賣壓湧現，導致台股盤中最多下殺812點。這次的下跌不僅跌破季線，還失守32000點關卡，累計3月重挫達3691.5點。這個結果對台股的影響非常大，投資人應該密切關注市場的發展。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "7a64143d",
-        "title": "台新美國非投等債掛牌登場 強調\"優質化\"與\"防禦力\"",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5388560",
-        "source": "自由時報財經",
+        "id": "c39bc934",
+        "title": "4月電子期跌 金融期漲",
+        "url": "https://www.cna.com.tw/news/afe/202603310179.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 31 Mar 2026 14:38:13 +0800",
-        "summary_zh": "台新美國非投等債（00989B）於今日（3月31日）掛牌交易。台新投信表示，美伊戰爭的不確定性使得投資人需要強化資產配置的防禦力。台新美國非投等債的優質化表現明顯優於其他類型的債券。這種債券的優點在於其投資風險較低，投資回報相對穩定。台新投信認為，這種債券可以幫助投資人在市場波動時保持穩定。",
+        "published_at": "Tue, 31 Mar 2026 14:08:48 +0800",
+        "summary_zh": "台北股市今天下跌795.17點，收31722.99點。電子期商品期貨市場方面，4月電子期收1971.35點，下跌40點，正價差12.55點。相反地，金融期商品期貨市場上，4月金融期收2396點，上漲1.20點，正價差15.43點。這些數據表明，電子產業在今天的市場表現不佳，而金融產業則有所改善。這種市場變化可能與多種因素相關，包括市場情緒、經濟指標和全球事件等。",
         "sentiment": "中性",
         "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "1cc256ad",
-        "title": "3萬2失守！記憶體殺瘋、1596家嚇趴 指數收跌795點",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5388032",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 31 Mar 2026 13:44:55 +0800",
-        "summary_zh": "亞洲股市週二受到中東戰火升溫的影響，持續下跌。美國總統川普升級了他的威脅，稱如果荷姆茲海峽繼續關閉，美國將對伊朗發動軍事行動，摧毀其發電廠、油井和哈爾克島。受此衝擊，亞股市場出現大幅下跌，指數收跌795點。市場分析師認為，中東戰火升溫對亞洲股市的影響將持續，投資者應該保持謹慎。同時，記憶體市場也出現殺跌，1596家公司的股價下跌。市場預期，記憶體市場的下跌將對整體經濟產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8186449b",
-        "title": "中東能源基建恢復要時間 台經院示警 油價可能維持高檔",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5388426",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 31 Mar 2026 13:06:47 +0800",
-        "summary_zh": "台經院今日公布2月製造業景氣燈號，整體製造業景氣信號值11.55分，月減3.26分，燈號由代表景氣持平的綠燈轉為低迷的黃藍燈。分析指出，2月製造業景氣轉弱的主因是農曆春節工作天數減少。然而，台經院也提醒，中東能源基建的恢復將需要時間，油價可能維持在高檔。這意味著全球經濟仍面臨著不確定性。台經院的警告讓市場關注，是否會出現新的經濟波動。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "is_breaking": false
       },
       {
         "id": "0f1464e8",
@@ -688,6 +688,30 @@
         "ai_classified": true
       },
       {
+        "id": "5465c3ab",
+        "title": "國碩股東會紀念品出爐 領取條件看這裡",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5388427",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 31 Mar 2026 14:55:01 +0800",
+        "summary_zh": "國碩股東會紀念品今年將發送給股東，內容為「統一超商商品卡35元」。股東常會將於6月26日舉行，股票停止過戶時間為4月28日至6月26日。想領取紀念品的股東需在指定時間內辦理股票過戶。國碩的股東會紀念品是公司對股東的一種回饋，表達對股東的感謝。這項活動對於股東來說是一個好消息，能夠享受公司的回饋。然而，股東也需要注意股票過戶的時間和程序，以避免錯過領取紀念品的機會。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "788f54db",
+        "title": "中東戰事加劇 燁輝內外銷盤價大漲1500到2000元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5388571",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 31 Mar 2026 14:44:33 +0800",
+        "summary_zh": "中東戰事加劇，導致能源與運輸價格大幅上升。燁輝公司在4月內銷烤漆的價格大漲2000元，而5月外銷的價格也大漲1500元至2000元。公司表示，這是由於成本支撐，易漲難跌的市場環境。這意味著燁輝的產品價格將會繼續上升，對於公司的營業額和利潤都會有重大影響。這項變化將會對燁輝的競爭力和市場份額造成影響，公司需要適應這種新的市場環境。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "7a0141f1",
         "title": "日和旅行社開賣2027日本銀山溫泉 打造深度旅遊新典範",
         "url": "https://money.udn.com/money/story/5635/9412521",
@@ -714,49 +738,49 @@
     ],
     "finance": [
       {
-        "id": "a2dfc8a5",
-        "title": "參議員質詢證券交易委員會關於加密貨幣的問題",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-30/senator-queries-sec-on-crypto-cases-after-enforcement-head-quits",
+        "id": "24c9fd2d",
+        "title": "美聯儲威廉斯：政策在供應沖擊面前處於良好位置",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-30/fed-s-williams-says-policy-well-positioned-amid-supply-shock",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-03-30 18:59:33",
-        "summary_zh": "美國參議員最近發起調查，關注證券交易委員會（SEC）對加密貨幣的監管。這一調查是由於證券交易委員會的執行長突然辭職，引發了對該委員會未來政策方向的擔憂。參議員質詢的主要目的是了解證券交易委員會是否有足夠的資源和能力來監管加密貨幣市場。這一市場的快速發展和不斷變化，引起了對未來監管方向的懷疑。參議員們希望能夠獲得證券交易委員會的明確解釋和保證，證券交易委員會是否有足夠的能力來監管這一市場。這一事件可能會對未來的加密貨幣監管政策產生重大影響。",
+        "published_at": "2026-03-30 20:00:00",
+        "summary_zh": "美聯儲副行長威廉斯表示，目前的政策措施已經準備好應對供應鏈的沖擊。這是因為供應鏈的變化對經濟的影響已經開始出現。威廉斯認為，政策措施已經足夠應對目前的經濟情況。然而，他也提到，政策措施需要根據經濟情況的變化進行調整。供應鏈的沖擊對經濟的影響可能會持續一段時間。威廉斯的說法表明，美聯儲正在密切關注經濟情況的變化，並準備好採取適當的措施應對挑戰。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "231a4e48",
-        "title": "GCC 供應與交易總裁、董事會成員辭職，來源稱",
-        "url": "https://www.reuters.com/business/energy/gcc-supply-trading-president-board-member-resign-sources-say-2026-03-30/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-03-30 18:58:08",
-        "summary_zh": "GCC 供應與交易公司的總裁和董事會成員最近辭職。根據來源，該公司的高層人事變動可能與公司未來發展方向有關。GCC 供應與交易公司是一家全球性能源公司，業務涉及石油、天然氣和其他能源商品的買賣。該公司的總裁和董事會成員的辭職可能會對公司的運作產生影響。分析人士認為，這可能是公司未來發展方向的一個重要轉折點。然而，公司方面尚未對這一事件做出任何正式的回應。目前尚不清楚這一事件會對公司的未來發展產生什麼樣的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "5b29729d",
-        "title": "內部人士在上週出售Nvidia、Dell Technologies和Five Below的股份",
-        "url": "https://www.cnbc.com/2026/03/30/top-insiders-sold-shares-of-nvidia-dell-technologies-and-five-below-last-week.html",
+        "id": "9bc3ab2d",
+        "title": "旅行卡年費太高，該怎麼辦？",
+        "url": "https://www.cnbc.com/select/downgrading-vs-canceling-your-credit-card/",
         "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-03-30 18:44:28",
-        "summary_zh": "根據CNBC Pro的數據分析，內部人士在上週出售了許多Nvidia、ConocoPhillips、GitLab、Ross Stores等公司的股份。這些出售股份的內部人士包括公司高層和管理人員。這種行為可能與公司未來發展前景不佳或股價過高有關。內部人士出售股份的行為可能對股價產生一定的影響，投資者應該注意這種情況。這些公司的股價在未來的發展趨勢將受到關注。",
+        "published_at": "2026-03-30 19:42:05",
+        "summary_zh": "在選擇旅行卡時，許多人會遇到年費問題。旅行卡年費高昂，卻又想繼續享受航空里數的優惠。這時候，該怎麼辦呢？一位積分專家指出，選擇正確的旅行卡是關鍵。根據專家的建議，某些航空公司的卡片可以幫助您節省年費。同時，還有其他方法可以避免年費，例如選擇免費的基本卡片，或是結合其他優惠卡片來達到相同的效果。這樣的做法不僅可以節省年費，還可以讓您繼續享受航空里數的優惠。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7522c3ec",
+        "title": "企業家預期通膨降低、經濟改善，直到伊拉克戰爭爆發，調查顯示",
+        "url": "https://www.reuters.com/pt/negocio/JFCWXMFGRRJMBFO3PUY5AMD3RY-2026-03-30/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-03-30 19:31:44",
+        "summary_zh": "一項調查顯示，企業家在伊拉克戰爭爆發之前預期通膨率會降低、經濟會改善，但實際情況與預期相反。調查結果顯示，企業家在戰前預期通膨率為 3.5%，但實際上通膨率在戰爭爆發後迅速上升。這項調查由 Firmus 進行，旨在了解企業家對經濟情況的看法。結果顯示，企業家對伊拉克戰爭的影響感到意外，許多企業家預期戰爭會帶來經濟改善，但實際上戰爭卻導致經濟衰退。這項調查提供了關於企業家預期和經濟情況的重要見解，幫助我們了解企業家對經濟變化的看法。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "fb7a126c",
-        "title": "美國原油首次自2022年以來突破100美元",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-30/us-crude-oil-settles-above-100-for-first-time-since-2022",
+        "id": "d54d1b49",
+        "title": "一場被遺忘的危機解釋今日石油震盪",
+        "url": "https://www.bloomberg.com/opinion/articles/2026-03-30/iran-war-a-forgotten-crisis-explains-today-s-energy-shock",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-03-30 18:43:27",
-        "summary_zh": "美國原油價格自2022年以來首次突破100美元。根據市場數據，美國原油價格在近期的市場波動下上漲，超過了100美元的關卡。這一變化引起了投資者的關注，許多分析師認為這是全球能源市場的重要跡象。原油價格的上漲將對全球經濟產生影響，特別是在能源消耗較高的國家。投資者和分析師將密切關注原油價格的變化，以了解其對全球經濟的影響。",
+        "published_at": "2026-03-30 19:30:05",
+        "summary_zh": "石油價格近期出現了大幅波動，引起了全球的關注。根據專家的分析，這些波動與 1970 年代的石油危機有關。這場危機導致了石油供應嚴重不足，引發了全球經濟的衰退。然而，這場危機被遺忘了，並沒有得到足夠的關注。現在，石油供應的不穩定性再次成為焦點。分析師認為，這種不穩定性是由於石油生產國之間的政治不穩定和投資不足所導致。同時，石油需求的增長也成為一個重要因素。這些因素的結合導致了石油價格的波動。專家們認為，這種情況可能會持續下去，直到石油供應的不穩定性得到改善。石油價格的波動對全球經濟有著重大影響，因此，需要關注這種情況並尋找解決方案。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -784,32 +808,8 @@
         "published_at": "2026-03-30 18:36:10",
         "summary_zh": "市場每個工作日都會釋放Homestretch，作為投資者在交易最後一小時的行動指南。根據Homestretch，市場早期的反彈消失了。投資者們一直關注著TJX的股息政策，雖然股息並不高，但仍然對投資者來說是重要的。股息政策能夠提供穩定的收益，讓投資者們能夠在市場波動時保持穩定。投資者們應該關注TJX的股息政策，並且評估其對投資的影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a83e22f9",
-        "title": "市場崩盤前兆？經濟衰退警報大響、專家全說了",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5388118",
-        "source": "自由時報財經",
-        "category": "stock_us",
-        "published_at": "Tue, 31 Mar 2026 14:49:09 +0800",
-        "summary_zh": "近日，美國經濟是否即將轉弱，市場出現新的警訊。華爾街資深經濟學家指出，一項以沃爾瑪（Walmart）為核心的「沃爾瑪衰退指標」（Walmart Recession Signal）已經出現警報。這項指標是根據沃爾瑪的銷售數據進行計算的，當沃爾瑪的銷售數據出現下滑時，就會觸發警報。根據目前的數據，沃爾瑪的銷售數據已經出現下滑，市場開始擔心美國經濟是否即將進入衰退期。專家們認為，這項指標的出現是市場崩盤前兆，市場應該保持警惕。同時，市場也開始關注其他經濟指標，例如失業率和通膨率等。失業率的上升和通膨率的下降，可能會加劇市場的擔憂。市場的反應將對美國經濟的未來發展產生重大影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "996c5ea3",
-        "title": "帕洛阿爾托股價大漲：首席執行官尼克許·阿羅拉購買股份多年來首次",
-        "url": "https://www.cnbc.com/2026/03/30/palo-alto-stock-nikesh-arora-buys-shares.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-03-30 18:23:10",
-        "summary_zh": "帕洛阿爾托的股價大幅上漲，原因是首席執行官尼克許·阿羅拉購買了公司股份，這是他多年來首次購買股份。近期，資安股價大幅下跌，原因是人工智慧的出現可能會破壞資安公司的業務模式。阿羅拉的購買行動表明他對公司未來的前景感到樂觀。這一行動也可能會對股價產生正面的影響。然而，資安業界仍面臨著人工智慧的挑戰，未來仍需要密切關注。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "e3ae38be",
@@ -820,8 +820,20 @@
         "published_at": "2026-03-30 18:29:00",
         "summary_zh": "隨著汽油價格上漲，餐廳和零售商的營業額會受到影響。根據最近的分析，汽油價格每增加 1 美元，就會導致每天約有 6 位客人減少使用快餐店的自助服務窗口。這意味著，當汽油價格上漲時，餐廳和零售商的營業額會下降。這對這些企業來說是一個挑戰，因為他們需要找到新的方法來吸引客戶。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "996c5ea3",
+        "title": "帕洛阿爾托股價大漲：首席執行官尼克許·阿羅拉購買股份多年來首次",
+        "url": "https://www.cnbc.com/2026/03/30/palo-alto-stock-nikesh-arora-buys-shares.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-03-30 18:23:10",
+        "summary_zh": "帕洛阿爾托的股價大幅上漲，原因是首席執行官尼克許·阿羅拉購買了公司股份，這是他多年來首次購買股份。近期，資安股價大幅下跌，原因是人工智慧的出現可能會破壞資安公司的業務模式。阿羅拉的購買行動表明他對公司未來的前景感到樂觀。這一行動也可能會對股價產生正面的影響。然而，資安業界仍面臨著人工智慧的挑戰，未來仍需要密切關注。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "47af905d",
@@ -894,6 +906,18 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "a83e22f9",
+        "title": "市場崩盤前兆？經濟衰退警報大響、專家全說了",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5388118",
+        "source": "自由時報財經",
+        "category": "stock_us",
+        "published_at": "Tue, 31 Mar 2026 14:49:09 +0800",
+        "summary_zh": "近日，美國經濟是否即將轉弱，市場出現新的警訊。華爾街資深經濟學家指出，一項以沃爾瑪（Walmart）為核心的「沃爾瑪衰退指標」（Walmart Recession Signal）已經出現警報。這項指標是根據沃爾瑪的銷售數據進行計算的，當沃爾瑪的銷售數據出現下滑時，就會觸發警報。根據目前的數據，沃爾瑪的銷售數據已經出現下滑，市場開始擔心美國經濟是否即將進入衰退期。專家們認為，這項指標的出現是市場崩盤前兆，市場應該保持警惕。同時，市場也開始關注其他經濟指標，例如失業率和通膨率等。失業率的上升和通膨率的下降，可能會加劇市場的擔憂。市場的反應將對美國經濟的未來發展產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ]
   },
@@ -962,244 +986,6 @@
       "type": "price",
       "warn": 400,
       "danger": 500
-    }
-  },
-  "daily_digest": {
-    "key_themes": [
-      {
-        "title": "中東戰爭對全球市場的影響",
-        "background": "中東戰爭的持續影響將對全球市場產生長遠的影響，投資者需要謹慎對待這個問題。",
-        "development": "根據今日新聞，西班牙關閉了對美國參與伊朗戰爭的飛機空域，美國原油價格首次自2022年以來突破100美元。這些事件表明中東戰爭的影響正在擴大，對全球能源市場和經濟產生重大影響。",
-        "impact": "中東戰爭的影響將對全球能源市場和經濟產生重大影響，投資者需要謹慎對待這個問題。根據今日新聞，美國原油價格的上漲將對全球經濟產生影響，特別是在能源消耗較高的國家。",
-        "conclusion": "短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈。",
-        "region": "global"
-      },
-      {
-        "title": "美國股市的走勢",
-        "background": "美國股市的走勢將受到中東戰爭的影響，投資者需要謹慎觀察市場變化。",
-        "development": "根據今日新聞，市場早期的反彈消失了，市場崩盤前兆？經濟衰退警報大響、專家全說了。這些事件表明美國股市的走勢正在受到中東戰爭的影響，投資者需要謹慎觀察市場變化。",
-        "impact": "美國股市的走勢將對全球市場產生重大影響，投資者需要謹慎觀察市場變化。根據今日新聞，市場崩盤前兆的出現是市場崩盤前兆，市場應該保持警惕。",
-        "conclusion": "美國股市的走勢將受到中東戰爭的影響，投資者需要謹慎觀察市場變化。短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈。",
-        "region": "americas"
-      },
-      {
-        "title": "能源價格的上升",
-        "background": "能源價格的上升將對全球市場產生長遠的影響，投資者需要謹慎對待這個問題。",
-        "development": "根據今日新聞，美國原油價格首次自2022年以來突破100美元，能源價格的上升將對全球經濟產生影響。",
-        "impact": "能源價格的上升將對全球經濟產生重大影響，投資者需要謹慎對待這個問題。根據今日新聞，能源價格的上升將對全球經濟產生影響，特別是在能源消耗較高的國家。",
-        "conclusion": "能源價格的上升將對全球經濟產生重大影響，投資者需要謹慎對待這個問題。短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈。",
-        "region": "global"
-      },
-      {
-        "title": "台股的走勢",
-        "background": "台股的走勢將受到中東戰爭的影響，投資者需要謹慎觀察市場變化。",
-        "development": "根據今日新聞，台股難脫震盪，需要謹慎對待這個問題。",
-        "impact": "台股的走勢將對全球市場產生重大影響，投資者需要謹慎觀察市場變化。根據今日新聞，台股的走勢正在受到中東戰爭的影響，投資者需要謹慎觀察市場變化。",
-        "conclusion": "台股的走勢將受到中東戰爭的影響，投資者需要謹慎觀察市場變化。短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈。",
-        "region": "asia"
-      },
-      {
-        "title": "英國富時100指數的走勢",
-        "background": "英國富時100指數的走勢將受到能源價格的影響，投資者需要謹慎觀察市場變化。",
-        "development": "根據今日新聞，英國富時100指數的走勢將受到能源價格的影響，投資者需要謹慎觀察市場變化。",
-        "impact": "英國富時100指數的走勢將對全球市場產生重大影響，投資者需要謹慎觀察市場變化。根據今日新聞，英國富時100指數的走勢正在受到能源價格的影響，投資者需要謹慎觀察市場變化。",
-        "conclusion": "英國富時100指數的走勢將受到能源價格的影響，投資者需要謹慎觀察市場變化。短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈。",
-        "region": "europe"
-      }
-    ],
-    "sector_analysis": [
-      {
-        "sector": "能源",
-        "direction": "看空",
-        "reasoning": "能源價格的上升將對全球經濟產生重大影響，投資者需要謹慎對待這個問題。",
-        "key_ticker": "原油"
-      },
-      {
-        "sector": "科技",
-        "direction": "看多",
-        "reasoning": "科技股的走勢將受到中東戰爭的影響，投資者需要謹慎觀察市場變化。",
-        "key_ticker": "蘋果"
-      },
-      {
-        "sector": "金融",
-        "direction": "看空",
-        "reasoning": "金融股的走勢將受到中東戰爭的影響，投資者需要謹慎觀察市場變化。",
-        "key_ticker": "摩根士丹利"
-      }
-    ],
-    "action_signals": [
-      {
-        "asset": "原油",
-        "signal": "短空",
-        "reasoning": "能源價格的上升將對全球經濟產生重大影響，投資者需要謹慎對待這個問題。",
-        "confidence": "高"
-      },
-      {
-        "asset": "蘋果",
-        "signal": "短多",
-        "reasoning": "科技股的走勢將受到中東戰爭的影響，投資者需要謹慎觀察市場變化。",
-        "confidence": "中高"
-      },
-      {
-        "asset": "摩根士丹利",
-        "signal": "短空",
-        "reasoning": "金融股的走勢將受到中東戰爭的影響，投資者需要謹慎觀察市場變化。",
-        "confidence": "中"
-      }
-    ],
-    "risk_radar": [
-      {
-        "event": "中東戰爭",
-        "probability": "高",
-        "impact": "高",
-        "timeframe": "本週",
-        "description": "中東戰爭的影響將對全球市場產生重大影響，投資者需要謹慎對待這個問題。"
-      },
-      {
-        "event": "能源價格上升",
-        "probability": "高",
-        "impact": "高",
-        "timeframe": "本週",
-        "description": "能源價格的上升將對全球經濟產生重大影響，投資者需要謹慎對待這個問題。"
-      },
-      {
-        "event": "經濟衰退",
-        "probability": "中",
-        "impact": "高",
-        "timeframe": "下週",
-        "description": "經濟衰退的可能性正在增加，投資者需要謹慎觀察市場變化。"
-      }
-    ],
-    "narrative_shift": {
-      "new_themes": [
-        "中東戰爭對全球市場的影響"
-      ],
-      "escalated": [
-        "能源價格上升"
-      ],
-      "cooled": [
-        "台股的走勢"
-      ],
-      "disappeared": [
-        "英國富時100指數的走勢"
-      ]
-    },
-    "watch_next": [
-      {
-        "topic": "中東戰爭",
-        "reason": "中東戰爭的影響將對全球市場產生重大影響，投資者需要謹慎對待這個問題。",
-        "timeframe": "本週"
-      },
-      {
-        "topic": "能源價格上升",
-        "reason": "能源價格的上升將對全球經濟產生重大影響，投資者需要謹慎對待這個問題。",
-        "timeframe": "本週"
-      },
-      {
-        "topic": "經濟衰退",
-        "reason": "經濟衰退的可能性正在增加，投資者需要謹慎觀察市場變化。",
-        "timeframe": "下週"
-      }
-    ],
-    "cross_links": [
-      {
-        "themes": [
-          "中東戰爭",
-          "能源價格上升"
-        ],
-        "chain": "中東戰爭→能源價格上升→全球經濟"
-      },
-      {
-        "themes": [
-          "能源價格上升",
-          "經濟衰退"
-        ],
-        "chain": "能源價格上升→經濟衰退→全球市場"
-      },
-      {
-        "themes": [
-          "中東戰爭",
-          "經濟衰退"
-        ],
-        "chain": "中東戰爭→經濟衰退→全球市場"
-      }
-    ],
-    "market_snapshot": {
-      "mood": "避險",
-      "key_moves": "VIX 恐慌指數 30.61(-1.42%)、原油 WTI 102.93(+0.05%)、黃金 4587.8(+1.37%)、S&P500 6343.72(-0.39%)、那斯達克 20794.64(-0.73%)、台股 31722.99(-2.45%)、美元指數 100.47(-0.04%)、美債10Y殖利率 4.34(-2.21%)、美元/台幣 32.05(+0.23%)"
-    },
-    "data_table": {
-      "indices": [
-        {
-          "key": "SP500",
-          "name": "S&P 500",
-          "price": 6343.72,
-          "change_pct": -0.39,
-          "status": "danger"
-        },
-        {
-          "key": "NASDAQ",
-          "name": "那斯達克",
-          "price": 20794.64,
-          "change_pct": -0.73,
-          "status": "normal"
-        },
-        {
-          "key": "TWII",
-          "name": "台股加權",
-          "price": 31722.99,
-          "change_pct": -2.45,
-          "status": "danger"
-        }
-      ],
-      "commodities": [
-        {
-          "key": "GOLD",
-          "name": "黃金",
-          "price": 4587.8,
-          "change_pct": 1.37,
-          "status": "normal"
-        },
-        {
-          "key": "OIL",
-          "name": "原油 WTI",
-          "price": 102.93,
-          "change_pct": 0.05,
-          "status": "normal"
-        }
-      ],
-      "forex": [
-        {
-          "key": "DXY",
-          "name": "美元指數",
-          "price": 100.47,
-          "change_pct": -0.04,
-          "status": "normal"
-        },
-        {
-          "key": "USDTWD",
-          "name": "美元/台幣",
-          "price": 32.05,
-          "change_pct": 0.23,
-          "status": "normal"
-        }
-      ],
-      "bonds_volatility": [
-        {
-          "key": "TNX",
-          "name": "美債10Y殖利率",
-          "price": 4.34,
-          "change_pct": -2.21,
-          "status": "normal"
-        },
-        {
-          "key": "VIX",
-          "name": "VIX 恐慌指數",
-          "price": 30.61,
-          "change_pct": -1.42,
-          "status": "danger"
-        }
-      ]
     }
   }
 }
