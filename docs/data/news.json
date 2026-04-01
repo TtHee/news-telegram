@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-04-01T11:04:03.998768+08:00",
+  "generated_at": "2026-04-01T12:03:57.883795+08:00",
   "risk_signals": [
-    "🟢 台股加權 33067.13（正常）",
+    "🟢 台股加權 33172.28（正常）",
     "🟢 S&P 500 6528.52（正常）",
     "🟡 VIX 恐慌指數 25.25（留意）",
     "🟢 MOVE 債市波動 96.05（正常）",
-    "🟢 美元指數 99.76（正常）",
-    "🟢 黃金 4713.1（正常）",
+    "🟢 美元指數 99.96（正常）",
+    "🟡 黃金 4647.6（漲 +2.69%，留意）",
     "🟢 美債10Y殖利率 4.31（正常）",
-    "🟢 原油 WTI 102.95（正常）",
-    "🟢 美元/台幣 31.89（正常）"
+    "🟢 原油 WTI 101.38（正常）",
+    "🟢 美元/台幣 31.92（正常）"
   ],
-  "ai_summary": "市場呈現中性氛圍，投資者應保持警戒，隨時準備應對市場波動。注意恐慌指數維持在稍高水平，表明投資者仍然對市場風險感到擔憂。",
+  "ai_summary": "市場氛圍偏向樂觀，指數大幅上升，黃金價格也上漲。留意恐慌指數持續在警戒線上，表明市場風險依舊存在。",
   "market": {
     "TWII": {
-      "price": 33067.13,
-      "change_pct": 4.24
+      "price": 33172.28,
+      "change_pct": 4.57
     },
     "SP500": {
       "price": 6528.52,
@@ -35,28 +35,136 @@
     },
     "MOVE": {
       "price": 96.05,
-      "change_pct": -11.33
+      "change_pct": -11.34
     },
     "DXY": {
-      "price": 99.76,
-      "change_pct": -0.2
+      "price": 99.96,
+      "change_pct": -0.55
     },
     "GOLD": {
-      "price": 4713.1,
-      "change_pct": 1.41
+      "price": 4647.6,
+      "change_pct": 2.69
     },
     "OIL": {
-      "price": 102.95,
-      "change_pct": 1.55
+      "price": 101.38,
+      "change_pct": -1.46
     },
     "USDTWD": {
-      "price": 31.89,
-      "change_pct": -0.47
+      "price": 31.92,
+      "change_pct": -0.37
     }
   },
   "macro": {},
   "categories": {
     "whitehouse": [
+      {
+        "id": "7beb6075",
+        "title": "特朗普限制郵寄選票令：他有權力嗎?",
+        "url": "https://www.theguardian.com/us-news/2026/mar/31/trump-order-election-voting-explainer",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 01 Apr 2026 01:59:47 GMT",
+        "summary_zh": "美國前總統特朗普星期二簽署了一個行政令，試圖限制郵寄選票，並建立一個全國性的選民名單。這個行動被批評為違憲，並可能被法院阻止。行政令要求政府建立一個確認公民身份的聯邦名單，並要求郵政局只發送郵寄選票給名單上的選民。在白宮舉行的記者會上，特朗普表示，政府希望要求選民出示身份證明和公民身份證明，並重複了對郵寄選票的錯誤說法。這個行動引起了廣泛的爭議，許多人認為這違反了美國憲法的選舉自由權。美國法律界人士表示，這個行政令很可能會被法院駁回。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "2810049a",
+        "title": "最高法院對科羅拉多州「轉換治療」禁令的判決遭到一名法官反對",
+        "url": "https://www.theguardian.com/us-news/live/2026/mar/31/donald-trump-iran-shutdown-dhs-tsa-ice-immigration-kennedy-center-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 01 Apr 2026 01:56:32 GMT",
+        "summary_zh": "科羅拉多州的「轉換治療」禁令遭到最高法院的裁決，裁決中有一名法官表示反對。最高法院法官凱坦吉·布朗·傑克遜（Ketanji Brown Jackson）在裁決中表示，多數法官未能充分了解案件的憲法主張。同時，前總統唐納德·川普（Donald Trump）確認英國國王查爾斯和王后卡米拉將於4月27日至30日訪問美國，並將於4月28日在白宮舉行宴會晚宴。川普表示，他期待與國王一起度過美好時光，並表示這將是「非常棒的經歷！」。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "470f9fa9",
+        "title": "美國林務局將總部從華盛頓遷至鹽湖城",
+        "url": "https://www.theguardian.com/us-news/2026/mar/31/us-forest-service-washington-dc-salt-lake-city",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 01 Apr 2026 01:16:38 GMT",
+        "summary_zh": "美國林務局總部將從華盛頓遷至鹽湖城，這是川普政府的一項爭議性重組計劃。根據農業部的公告，這項重組是川普政府官員自去年以來規劃的。美國林務局的區域辦事處將會關閉。這項重組引發了對於政府對於科學和科學家攻擊的批評。川普政府官員稱這是「理性的方法」。這項重組與川普政府先前試圖將美國土地管理局從華盛頓遷至科羅拉多州的嘗試類似。美國土地管理局在2019年宣布將總部遷至科羅拉多州，但最終該局於2021年川普政府離任後返回華盛頓。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f1f49999",
+        "title": "川普轟擊歐洲盟友：美國總統怒斥英法拒參戰伊朗",
+        "url": "https://www.theguardian.com/us-news/2026/mar/31/trump-news-at-a-glance-latest-updates-today",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 01 Apr 2026 01:00:33 GMT",
+        "summary_zh": "川普總統近日再度對歐洲國家發出攻擊，指責英國和法國拒絕參與對伊朗的戰爭，進一步惡化了兩大洲之間的關係。根據川普的社交媒體發布，美國總統建議那些擔心汽油價格上漲的政府「去搶取自己的石油」，這番言論使油價再度上漲。這場伊朗戰爭的爆發已經對全球經濟造成了嚴重影響，川普的言論也引發了各界的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ee328c2b",
+        "title": "特朗普斥責歐洲國家不加入伊朗戰爭：‘去搶你自己的石油’，油價再上漲",
+        "url": "https://www.theguardian.com/world/2026/mar/31/trump-launches-tirade-against-european-countries-not-joining-iran-war",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 01 Apr 2026 00:06:29 GMT",
+        "summary_zh": "特朗普在其社交媒體平台上發表言論，對於擔心石油價格上漲的國家說：“去搶你自己的石油”，這番言論讓油價再次上漲。這次發言是他對於歐洲國家不加入伊朗戰爭的回應，歐洲多國已經將該戰爭定性為非法，並阻止以色列和美國的飛機通過其領空運送武器。中東局勢持續惡化，全球經濟受到重創，美歐關係日益惡化。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "71016be9",
+        "title": "希格斯說停職的直升機飛行員已解除停職",
+        "url": "https://www.theguardian.com/us-news/2026/mar/31/hegseth-kid-rock-army-helicopter-video",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 31 Mar 2026 23:30:49 GMT",
+        "summary_zh": "美國國防部長希格斯（Pete Hegseth）宣布，兩架美軍AH-64阿帕契直升機的飛行員因在田納西州一名歌手Kid Rock的泳池旁空中停駐而被停職的處分已經被撤銷。希格斯在社交媒體上表示，沒有任何處分，也沒有調查。這一決定引發了爭議，許多人認為這是一個不恰當的行為。這一事件的背景是，美軍直升機在Kid Rock的泳池旁空中停駐，Kid Rock則在旁邊拍照和敬禮。這一事件引發了對美軍行為的質疑。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c3338cb9",
+        "title": "美國法官命令川普暫停 40 億美元白宮大廳工程",
+        "url": "https://www.theguardian.com/us-news/2026/mar/31/judge-blocks-trump-white-house-ballroom-plan",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 31 Mar 2026 22:57:36 GMT",
+        "summary_zh": "美國總統川普去年拆除白宮東翼以便進行 90,000 平方英尺的工程，耗資 40 億美元。美國法官最近下令暫停這項工程。川普總統拆除東翼的決定引起了爭議，許多人認為這是對歷史建築的破壞。這項工程的目的是為白宮增添一個大型的舞廳。然而，美國法官認為這項工程可能會對白宮的歷史建築造成損害，因此下令暫停。這項決定可能會對川普總統的計劃造成影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "c0164987",
+        "title": "白宮豁免保育法 美國在墨西哥灣開採石油天然氣",
+        "url": "https://www.theguardian.com/us-news/2026/mar/31/gulf-of-mexico-drilling-endangered-species",
+        "source": "Guardian World",
+        "category": "whitehouse",
+        "published_at": "Tue, 31 Mar 2026 15:26:49 GMT",
+        "summary_zh": "美國政府於週二通過一項決議，豁免墨西哥灣石油天然氣開採的保育法規。這項決議引起了批評聲浪，指責白宮利用這項豁免法規，為石油天然氣開採提供便利，並可能導致墨西哥灣罕見的稀有鯨類物種滅絕。根據資料，稀有鯨類物種——稻草鯨——正處於極度濒危狀態。美國政府的這項決議，將對墨西哥灣的海洋生態系統產生重大影響。批評者認為，這項決議將加劇美國的天然氣危機，並對稀有鯨類物種造成致命的打擊。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "faca52af",
+        "title": "TMZ追蹤美國國會議員在政府停擺期間的度假行程",
+        "url": "https://www.theguardian.com/us-news/2026/mar/31/tmz-lawmakers-vacationing-partial-government-shutdown",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 31 Mar 2026 18:17:04 GMT",
+        "summary_zh": "在美國政府停擺的第七周，聯邦政府員工沒有領到薪水的同時，南卡羅來納州共和黨參議員林西·格雷厄姆卻選擇在佛羅里達州的迪士尼世界度假。照片很快就出現在 TMZ 的首頁上。這不是唯一一位在政府停擺期間度假的國會議員，民主黨和共和黨的議員都選擇在這個時候放松身心。這些照片引發了對於政府停擺期間國會議員行為的質疑。政府停擺的原因是國會無法就預算達成一致，導致許多政府部門的運作受影響。這些照片讓人們開始思考，國會議員是否真的關心政府停擺對於人民的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "84e067b5",
         "title": "白宮發布白皮書：川普總統確保公民身份核實和選民資格在聯邦選舉中",
@@ -106,15 +214,27 @@
         "ai_classified": true
       },
       {
-        "id": "c0164987",
-        "title": "白宮豁免保育法 美國在墨西哥灣開採石油天然氣",
-        "url": "https://www.theguardian.com/us-news/2026/mar/31/gulf-of-mexico-drilling-endangered-species",
-        "source": "Guardian World",
+        "id": "b5acc7b5",
+        "title": "美國法官暫時暫停川普白宮舞廳建設",
+        "url": "https://www.bbc.com/news/articles/c7056exw78xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "whitehouse",
-        "published_at": "Tue, 31 Mar 2026 15:26:49 GMT",
-        "summary_zh": "美國政府於週二通過一項決議，豁免墨西哥灣石油天然氣開採的保育法規。這項決議引起了批評聲浪，指責白宮利用這項豁免法規，為石油天然氣開採提供便利，並可能導致墨西哥灣罕見的稀有鯨類物種滅絕。根據資料，稀有鯨類物種——稻草鯨——正處於極度濒危狀態。美國政府的這項決議，將對墨西哥灣的海洋生態系統產生重大影響。批評者認為，這項決議將加劇美國的天然氣危機，並對稀有鯨類物種造成致命的打擊。",
-        "sentiment": "負面",
-        "is_breaking": true,
+        "published_at": "Tue, 31 Mar 2026 23:58:29 GMT",
+        "summary_zh": "美國共和黨提名的法官裁定川普是白宮的「園丁」，但不是「主人」。這項裁定暫時暫停了川普計畫在白宮興建一座大型舞廳的建設。川普的計畫遭到民主黨人士的反對，他們認為這項建設會破壞白宮的歷史建築。法官的裁定意味著川普將無法繼續建設舞廳，直到案件被審理完畢。這項裁定對川普的計畫造成了重大影響，可能會延遲舞廳的開工日期。川普的計畫是否會被永久取消還有待觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2e9d30de",
+        "title": "赫格塞斯解除美國陸軍飛行員停職令，涉及飛近Kid Rock家中事件",
+        "url": "https://www.bbc.com/news/articles/c4gx2rw87e9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 01 Apr 2026 00:51:56 GMT",
+        "summary_zh": "美國總統唐納德·川普在被問及飛行員飛近朋友Kid Rock家中一事時表示，「他們喜歡Kid Rock，我也喜歡Kid Rock」。這一事件引發了關於美國陸軍飛行員行為的爭議。美國陸軍上將赫格塞斯（Hegseth）最終決定解除對涉事飛行員的停職令。這一決定引發了對美國陸軍紀律的質疑。許多人認為，這一事件表明美國陸軍對紀律的執行不夠嚴格。然而，也有人認為，這一事件是個笑話，並不需要過度的關注。總之，這一事件引發了對美國陸軍紀律和紀律執行的爭議。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -214,102 +334,6 @@
         "ai_classified": true
       },
       {
-        "id": "2810049a",
-        "title": "最高法院對科羅拉多州「轉換治療」禁令的判決遭到一名法官反對",
-        "url": "https://www.theguardian.com/us-news/live/2026/mar/31/donald-trump-iran-shutdown-dhs-tsa-ice-immigration-kennedy-center-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 01 Apr 2026 01:56:32 GMT",
-        "summary_zh": "科羅拉多州的「轉換治療」禁令遭到最高法院的裁決，裁決中有一名法官表示反對。最高法院法官凱坦吉·布朗·傑克遜（Ketanji Brown Jackson）在裁決中表示，多數法官未能充分了解案件的憲法主張。同時，前總統唐納德·川普（Donald Trump）確認英國國王查爾斯和王后卡米拉將於4月27日至30日訪問美國，並將於4月28日在白宮舉行宴會晚宴。川普表示，他期待與國王一起度過美好時光，並表示這將是「非常棒的經歷！」。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "470f9fa9",
-        "title": "美國林務局將總部從華盛頓遷至鹽湖城",
-        "url": "https://www.theguardian.com/us-news/2026/mar/31/us-forest-service-washington-dc-salt-lake-city",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 01 Apr 2026 01:16:38 GMT",
-        "summary_zh": "美國林務局總部將從華盛頓遷至鹽湖城，這是川普政府的一項爭議性重組計劃。根據農業部的公告，這項重組是川普政府官員自去年以來規劃的。美國林務局的區域辦事處將會關閉。這項重組引發了對於政府對於科學和科學家攻擊的批評。川普政府官員稱這是「理性的方法」。這項重組與川普政府先前試圖將美國土地管理局從華盛頓遷至科羅拉多州的嘗試類似。美國土地管理局在2019年宣布將總部遷至科羅拉多州，但最終該局於2021年川普政府離任後返回華盛頓。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f1f49999",
-        "title": "川普轟擊歐洲盟友：美國總統怒斥英法拒參戰伊朗",
-        "url": "https://www.theguardian.com/us-news/2026/mar/31/trump-news-at-a-glance-latest-updates-today",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 01 Apr 2026 01:00:33 GMT",
-        "summary_zh": "川普總統近日再度對歐洲國家發出攻擊，指責英國和法國拒絕參與對伊朗的戰爭，進一步惡化了兩大洲之間的關係。根據川普的社交媒體發布，美國總統建議那些擔心汽油價格上漲的政府「去搶取自己的石油」，這番言論使油價再度上漲。這場伊朗戰爭的爆發已經對全球經濟造成了嚴重影響，川普的言論也引發了各界的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ee328c2b",
-        "title": "特朗普斥責歐洲國家不加入伊朗戰爭：‘去搶你自己的石油’，油價再上漲",
-        "url": "https://www.theguardian.com/world/2026/mar/31/trump-launches-tirade-against-european-countries-not-joining-iran-war",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 01 Apr 2026 00:06:29 GMT",
-        "summary_zh": "特朗普在其社交媒體平台上發表言論，對於擔心石油價格上漲的國家說：“去搶你自己的石油”，這番言論讓油價再次上漲。這次發言是他對於歐洲國家不加入伊朗戰爭的回應，歐洲多國已經將該戰爭定性為非法，並阻止以色列和美國的飛機通過其領空運送武器。中東局勢持續惡化，全球經濟受到重創，美歐關係日益惡化。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "71016be9",
-        "title": "希格斯說停職的直升機飛行員已解除停職",
-        "url": "https://www.theguardian.com/us-news/2026/mar/31/hegseth-kid-rock-army-helicopter-video",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 31 Mar 2026 23:30:49 GMT",
-        "summary_zh": "美國國防部長希格斯（Pete Hegseth）宣布，兩架美軍AH-64阿帕契直升機的飛行員因在田納西州一名歌手Kid Rock的泳池旁空中停駐而被停職的處分已經被撤銷。希格斯在社交媒體上表示，沒有任何處分，也沒有調查。這一決定引發了爭議，許多人認為這是一個不恰當的行為。這一事件的背景是，美軍直升機在Kid Rock的泳池旁空中停駐，Kid Rock則在旁邊拍照和敬禮。這一事件引發了對美軍行為的質疑。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b5acc7b5",
-        "title": "美國法官暫時暫停川普白宮舞廳建設",
-        "url": "https://www.bbc.com/news/articles/c7056exw78xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Tue, 31 Mar 2026 23:58:29 GMT",
-        "summary_zh": "美國共和黨提名的法官裁定川普是白宮的「園丁」，但不是「主人」。這項裁定暫時暫停了川普計畫在白宮興建一座大型舞廳的建設。川普的計畫遭到民主黨人士的反對，他們認為這項建設會破壞白宮的歷史建築。法官的裁定意味著川普將無法繼續建設舞廳，直到案件被審理完畢。這項裁定對川普的計畫造成了重大影響，可能會延遲舞廳的開工日期。川普的計畫是否會被永久取消還有待觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2e9d30de",
-        "title": "赫格塞斯解除美國陸軍飛行員停職令，涉及飛近Kid Rock家中事件",
-        "url": "https://www.bbc.com/news/articles/c4gx2rw87e9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Wed, 01 Apr 2026 00:51:56 GMT",
-        "summary_zh": "美國總統唐納德·川普在被問及飛行員飛近朋友Kid Rock家中一事時表示，「他們喜歡Kid Rock，我也喜歡Kid Rock」。這一事件引發了關於美國陸軍飛行員行為的爭議。美國陸軍上將赫格塞斯（Hegseth）最終決定解除對涉事飛行員的停職令。這一決定引發了對美國陸軍紀律的質疑。許多人認為，這一事件表明美國陸軍對紀律的執行不夠嚴格。然而，也有人認為，這一事件是個笑話，並不需要過度的關注。總之，這一事件引發了對美國陸軍紀律和紀律執行的爭議。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "faca52af",
-        "title": "TMZ追蹤美國國會議員在政府停擺期間的度假行程",
-        "url": "https://www.theguardian.com/us-news/2026/mar/31/tmz-lawmakers-vacationing-partial-government-shutdown",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 31 Mar 2026 18:17:04 GMT",
-        "summary_zh": "在美國政府停擺的第七周，聯邦政府員工沒有領到薪水的同時，南卡羅來納州共和黨參議員林西·格雷厄姆卻選擇在佛羅里達州的迪士尼世界度假。照片很快就出現在 TMZ 的首頁上。這不是唯一一位在政府停擺期間度假的國會議員，民主黨和共和黨的議員都選擇在這個時候放松身心。這些照片引發了對於政府停擺期間國會議員行為的質疑。政府停擺的原因是國會無法就預算達成一致，導致許多政府部門的運作受影響。這些照片讓人們開始思考，國會議員是否真的關心政府停擺對於人民的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "274df054",
         "title": "查爾斯三世和卡蜜拉王后將於四月訪問美國",
         "url": "https://www.bbc.com/news/articles/cjd8nkezdyxo?at_medium=RSS&at_campaign=rss",
@@ -323,18 +347,6 @@
       }
     ],
     "ai": [
-      {
-        "id": "2cfa53c7",
-        "title": "人工智慧大幅改善天氣預報，但使用者體驗仍有差異",
-        "url": "https://www.wired.com/story/ai-has-flooded-all-the-weather-apps/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Tue, 31 Mar 2026 13:00:00 +0000",
-        "summary_zh": "近年來，人工智慧對天氣預報產生了重大影響。然而，人工智慧對天氣預報的影響如何，則取決於不同天氣應用程式的實施。人工智慧技術已經被廣泛應用於天氣預報領域，從而提高了預報的準確度和準時性。然而，使用者在使用天氣應用程式時，仍然會遇到不同的體驗。有些應用程式可能會提供更精確的預報，而有些則可能會出現預報不準確的問題。這些差異可能是由於不同應用程式的資料來源、算法和設計等因素所致。因此，使用者需要根據自己的需求和偏好選擇合適的天氣應用程式。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
       {
         "id": "1199d3a9",
         "title": "轉變為人工智慧模型定制是建築性的必然",
@@ -370,6 +382,18 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "41ea7201",
+        "title": "CoreWeave garantir empréstimo de US$8,5 bi para擴展人工智慧基礎設施",
+        "url": "https://www.reuters.com/pt/negocio/CVZYVZFBLZJTRKPNUSRUVIDHFA-2026-03-31/",
+        "source": "Reuters",
+        "category": "ai",
+        "published_at": "2026-03-31 15:43:44",
+        "summary_zh": "人工智慧公司CoreWeave宣布獲得8.5億美元的貸款，以擴展其人工智慧基礎設施。這筆資金將幫助公司進一步發展其基礎設施，提高效率和可靠性。CoreWeave的基礎設施已經在多個領域取得成功，包括雲計算、物聯網和人工智慧。公司的目標是建立一個全面的基礎設施，以支撐其人工智慧應用。這筆貸款將有助於公司實現這一目標，進一步推動人工智慧的發展。然而，投資者應該注意到，這筆貸款的影響可能會受到市場波動的影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "d5aa3d85",
@@ -430,6 +454,18 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "2cfa53c7",
+        "title": "人工智慧大幅改善天氣預報，但使用者體驗仍有差異",
+        "url": "https://www.wired.com/story/ai-has-flooded-all-the-weather-apps/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Tue, 31 Mar 2026 13:00:00 +0000",
+        "summary_zh": "近年來，人工智慧對天氣預報產生了重大影響。然而，人工智慧對天氣預報的影響如何，則取決於不同天氣應用程式的實施。人工智慧技術已經被廣泛應用於天氣預報領域，從而提高了預報的準確度和準時性。然而，使用者在使用天氣應用程式時，仍然會遇到不同的體驗。有些應用程式可能會提供更精確的預報，而有些則可能會出現預報不準確的問題。這些差異可能是由於不同應用程式的資料來源、算法和設計等因素所致。因此，使用者需要根據自己的需求和偏好選擇合適的天氣應用程式。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
@@ -442,8 +478,8 @@
         "published_at": "Wed, 01 Apr 2026 09:52:05 +0800",
         "summary_zh": "夏普新任社長河村哲治表示，公司已完成組織改革與資產輕量化任務，未來將運用母公司鴻海的全球政經關係與資源，加速SHARP品牌的國際擴張。鴻海是夏普的母公司，擁有豐富的政經資源。夏普的這一轉變，將帶領公司邁向「再次成長」的下一階段。這一發展將對夏普的國際競爭力產生重大影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "f5c30ced",
@@ -454,8 +490,8 @@
         "published_at": "Wed, 01 Apr 2026 09:12:46 +0800",
         "summary_zh": "台股交投熱絡，根據台灣證券交易所統計，截至3月底，台股累積總開戶數達到1410萬2236人，正式衝破1400萬人大關，續創歷史新高。這是台股開戶數歷史上首次突破1400萬人，顯示投資人對台股的信心正在增強。這項數據也表明，台股的流通性和市場活躍度正在提高。台股的開戶數增長，可能是因為投資人對台股的預期和投資意願正在增加。這項數據也可能是因為市場的整體環境正在改善，投資人對未來的市場前景感到樂觀。總體來說，這項數據是對台股市場的積極評估，表明投資人對台股的信心正在增強。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "f81b6f89",
@@ -466,8 +502,8 @@
         "published_at": "Wed, 01 Apr 2026 09:12:44 +0800",
         "summary_zh": "台股今天早盤出現大幅反彈，收復季線約32259點，早盤最高33012.41點，大漲1289.42點，力拚站穩33000點。這種反彈主要是受到美國和伊朗釋出衝突緩和訊號的影響，美股4大指數也隨之強漲。這種市場情況下，台股的反彈是合理的，並且有助於市場的穩定。然而，市場仍然需要觀察後續發展，以確保市場的穩定和持續反彈。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "8825da8b",
@@ -478,8 +514,8 @@
         "published_at": "Wed, 01 Apr 2026 09:05:42 +0800",
         "summary_zh": "台北外匯市場新台幣兌美元匯率今天以31.94元開盤，升4分。這是近期新台幣兌美元匯率的升值趨勢。根據市場分析，新台幣兌美元匯率的升值主要是由於市場對台幣的信心增強，以及外資對台股的投資需求增加所致。這種升值趨勢可能會對台灣的出口業和外匯儲備產生正面影響。然而，市場也存在一定的不確定性，未來新台幣兌美元匯率的走勢仍有待觀察。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "4c620f6f",
@@ -490,8 +526,20 @@
         "published_at": "Wed, 01 Apr 2026 09:05:39 +0800",
         "summary_zh": "台北股市今天開盤大漲169.34點，市場情緒顯得相當積極。加權股價指數突破31892.33點，成交金額新台幣78.74億元，顯示投資人對市場有著積極的看法。這種市場反應可能是由於投資人對經濟前景的樂觀預期，或是市場對政策的期待。然而，投資人也應該注意市場的波動性，避免過度炒作。市場的未來走向將取決於多種因素，包括經濟數據、政策變化和全球市場的影響。投資人應該保持謹慎的態度，盡量做好風險管理。",
         "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6aa2cc20",
+        "title": "川普稱伊朗戰事很快將結束 日韓股市早盤大漲",
+        "url": "https://www.cna.com.tw/news/afe/202604010030.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 01 Apr 2026 09:02:37 +0800",
+        "summary_zh": "美國總統川普日前表示，與伊朗的戰爭可能將在大約兩週內結束。隨著這則消息的傳出，日股基準日經225指數今天早盤上漲逾3%，韓國股市基準KOSPI指數也大漲近5%。這表明投資者對於伊朗戰事的結束感到樂觀，進而對於全球經濟的前景感到更加樂觀。然而，伊朗戰事的結束並不代表全球經濟問題的解決，許多問題仍待解決。因此，投資者仍需保持謹慎的態度。",
+        "sentiment": "正面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
       {
         "id": "57b5f389",
@@ -532,52 +580,52 @@
     ],
     "finance": [
       {
-        "id": "ed87b396",
-        "title": "美國銀行私人貸款熱潮催生 3480 億美元貸款山",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-31/us-banks-private-credit-zeal-fuels-348-billion-pile-of-loans",
-        "source": "Bloomberg",
+        "id": "28f70c5a",
+        "title": "Boies領導的律師團要求Google判決案中$147億美元律師費",
+        "url": "https://www.reuters.com/legal/government/david-boies-led-legal-team-seeks-147-million-fees-google-verdict-2026-03-31/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-03-31 15:00:00",
-        "summary_zh": "美國銀行業在私人貸款方面展現出強勁的熱潮，貸款規模達到 3480 億美元。這種趨勢與銀行業在經濟衰退期間為企業提供貸款的需求增加有關。私人貸款的增長對銀行業的風險敘述產生了影響，銀行業需要小心管理貸款風險以避免未來的問題。美國銀行業的私人貸款熱潮對銀行業的風險敘述和經濟的穩定性產生了重要影響。銀行業需要繼續監控貸款市場以確保貸款風險得到有效管理。",
+        "published_at": "2026-03-31 15:59:43",
+        "summary_zh": "美國律師大衛·博伊斯（David Boies）領導的律師團在去年對 Alphabet 的 Google 在資料隱私訴訟中勝訴，獲得 425 億美元的陪審團判決。近日，該律師團向法官提出申請，要求獲得 147 億美元的律師費。根據最新的法庭文件，描述了美國律師費率最高的例子。這些律師費率遠遠高於普通律師的費率，引起了關注。這樁案件的結果將對美國的法律界產生重大影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "d5bbc650",
-        "title": "愛爾蘭將於2027年推出新型個人儲蓄帳戶",
-        "url": "https://www.reuters.com/business/finance/ireland-offer-new-personal-savings-account-2027-finance-minister-says-2026-03-31/",
-        "source": "Reuters",
+        "id": "6c27d115",
+        "title": "降低招聘需求擔憂加劇 美聯儲擔心就業成長低迷",
+        "url": "https://www.ft.com/content/80cf0f6c-3be2-4bea-bd32-65c5bc1cda35",
+        "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-03-31 14:56:43",
-        "summary_zh": "愛爾蘭財政部長宣布，該國將於2027年推出新型個人儲蓄帳戶。這項新措施旨在幫助愛爾蘭公民更好地規劃和管理自己的財務。根據財政部長的說法，這項新帳戶將提供更高的利率和更靈活的儲蓄選擇，讓愛爾蘭公民可以更好地實現自己的財務目標。這項新措施將對愛爾蘭的個人財務產生重要影響，同時也將促進該國的經濟發展。愛爾蘭政府正積極推動這項新措施，希望能夠幫助更多的公民擁有更好的財務管理能力。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "9e1208e2",
-        "title": "美國就業機會下降，二月份錄用人數創近六年新低",
-        "url": "https://www.reuters.com/business/us-job-openings-fall-february-hiring-lowest-since-pandemic-2026-03-31/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-03-31 14:55:45",
-        "summary_zh": "美國就業市場出現了不少變化，根據政府數據，二月份的就業機會比預期下降了許多。同時，錄用人數也降至近六年來最低點。這些數據表明美國就業市場正在經歷一段不穩定的時期。分析師認為，這可能是由於美國經濟的放緩以及企業對未來需求的不確定性所致。這種情況可能會對美國的就業市場造成長期影響。政府數據顯示，二月份的就業機會下降了 1.1%，而錄用人數則下降了 3.4%。這些數據與之前的預期相比，顯示美國就業市場正在經歷一段不穩定的時期。",
+        "published_at": "2026-03-31 15:46:34",
+        "summary_zh": "美國經濟在二月份出現了降低招聘需求的跡象，這使得美聯儲對就業成長的擔憂加劇。雖然求職空缺仍然強勁，但美國企業在二月份錄用了遠少於預期的新員工。這一發展可能會影響美聯儲在未來的政策決策。美聯儲一直關注美國就業市場的低迷成長，降低招聘需求的跡象可能意味著企業對未來經濟前景的不確定性增加。這一變化可能會對美聯儲在未來的政策決策產生影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "581e1bee",
-        "title": "激進投資者Irenic被指控在Snap購買股份",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-31/activist-investor-irenic-is-said-to-build-stake-in-snap",
+        "id": "8fe0d83c",
+        "title": "ICE 告知交易商：穆爾班油價期貨有足夠的原油供應",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-31/ice-tells-traders-there-s-enough-oil-for-its-murban-futures",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-03-31 14:51:32",
-        "summary_zh": "據報導，激進投資者Irenic正在積極購買Snap的股份。這項行動引發了市場關注，尤其是在Snap的股價近期出現波動的情況下。 Irenic是一家專門從事激進投資的公司，擁有多年對企業進行激進改革的經驗。該公司的目標是通過購買股份並與企業管理層進行談判，以實現企業的改善和增長。 Snap是一家社交媒體公司，近期股價出現波動，市場人士對公司未來的發展感到關注。 Irenic的行動可能會對Snap的股價產生影響，市場人士將密切關注這項事件的進展。",
+        "published_at": "2026-03-31 15:44:12",
+        "summary_zh": "市場觀察家注意到，國際能源交易所 (ICE) 最近發出公告，表示穆爾班油價期貨有足夠的原油供應。這項公告是為了應對市場的擔憂，穆爾班油價期貨是 ICE 的一項重要產品，主要用於交易阿拉伯聯合大公國的原油。 ICE 表示，儘管阿拉伯聯合大公國的原油產量有所下降，但仍有足夠的原油供應來滿足市場需求。這項公告對於穆爾班油價期貨的交易商和投資者來說是一個重要的訊息，讓他們知道市場供應充足，無需擔憂原油短缺。然而，這項公告也引發了對於市場供應和需求的關注，是否有足夠的原油供應來滿足未來的市場需求？這仍然是一個未知的變數。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
+      },
+      {
+        "id": "be8e62bf",
+        "title": "布法磯將不再承諾捐贈給蓋茨基金會",
+        "url": "https://www.reuters.com/sustainability/boards-policy-regulation/warren-buffett-will-not-commit-more-donations-gates-foundation-2026-03-31/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-03-31 15:43:35",
+        "summary_zh": "布法磯是全球最富有的投資家之一，他在2010年承諾將捐贈100億美元給蓋茨基金會。然而，近日布法磯表示，他不再願意承諾額外的捐贈。蓋茨基金會是由微軟創始人比爾蓋茨和他的妻子梅琳達蓋茨共同創辦的慈善機構，主要致力於全球健康和教育等領域的發展。布法磯的決定可能會對蓋茨基金會的籌款工作產生影響。蓋茨基金會一直以來都仰賴布法磯的捐贈來支持其慈善活動。布法磯的決定是否意味著他不再支持蓋茨基金會的工作，目前尚不清楚。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "771c487e",
@@ -594,6 +642,30 @@
     ],
     "stock_us": [
       {
+        "id": "9c974104",
+        "title": "為什麼 Trivariate 的 Adam Parker 對軟體股感到 \"很負面\"？",
+        "url": "https://www.cnbc.com/video/2026/03/31/why-trivariates-adam-parker-is-pretty-negative-on-software.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-03-31 15:52:40",
+        "summary_zh": "Adam Parker 是 Trivariate Research 的創辦人兼 CEO，最近在節目 'Squawk on the Street' 中談論了軟體股、市場主題等。根據 Parker 的看法，軟體股的表現令人失望，市場的整體情況也存在著不少挑戰。軟體股的表現不佳，與市場的預期相比，軟體股的成長率遠低於市場平均值。這使得軟體股的投資吸引力下降。市場的整體情況也存在著不少挑戰，包括通膨、利率上升等因素。這些挑戰使得市場的未來前景變得不確定。Parker 將會持續關注軟體股和市場的發展，提供投資者更準確的資訊和建議。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "30c79996",
+        "title": "赫氏公司CEO凱克·坦納接受CNBC專訪",
+        "url": "https://www.cnbc.com/video/2026/03/31/watch-cnbcs-full-interview-with-hershey-ceo-kirk-tanner.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-03-31 15:27:39",
+        "summary_zh": "赫氏公司CEO凱克·坦納在CNBC節目中接受專訪，討論公司的成長戰略、糖果市場消費者支出等議題。赫氏公司正致力於發展新的產品線和市場，包括在全球各地推出新的糖果品牌。凱克·坦納表示，公司的成長戰略包括投資在數字化和創新上，同時保持對傳統糖果業務的重視。同時，他也提到糖果市場的消費者支出正在逐漸恢復，公司的銷售額也在增長。這些發展表明，赫氏公司正朝著一個更強大的未來邁進。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "d9fc504f",
         "title": "埃德·雅登尼：消費者一直表現出「非常堅韌」",
         "url": "https://www.cnbc.com/video/2026/03/31/ed-yardeni-consumers-have-been-remarkably-resilient-for-quite-some-time.html",
@@ -602,8 +674,8 @@
         "published_at": "2026-03-31 14:22:32",
         "summary_zh": "美國經濟學家埃德·雅登尼表示，消費者一直表現出「非常堅韌」，這是近期的一個重要跡象。他在接受《Squawk on the Street》採訪時提到，伊朗戰爭的影響正在被市場所關注。同時，他也提到市場的幾個重要主題，包括經濟增長、利率和股市走勢。雖然伊朗戰爭的風險正在上升，但消費者仍然保持著堅韌的態度，這是市場的一個重要信號。這意味著市場可能會繼續保持穩定，直到新的風險出現。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "1dce59e9",
@@ -632,6 +704,18 @@
     ],
     "global": [
       {
+        "id": "a7bf0d2f",
+        "title": "歐洲股市升揚　傳特朗普考慮結束伊朗戰爭",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-31/european-stocks-set-for-worst-month-since-2020-on-iran-war",
+        "source": "Bloomberg",
+        "category": "global",
+        "published_at": "2026-03-31 15:56:44",
+        "summary_zh": "根據最新消息，歐洲股市近日出現升揚的趨勢。這一變化與美國總統特朗普考慮結束伊朗戰爭有關。伊朗戰爭的爆發對全球經濟產生了重大影響，包括油價上升、全球貿易不確定性增加等。特朗普的考慮意味著可能會結束這場戰爭，從而帶來市場的穩定和投資者的信心。這一消息對於投資者和企業來說是一個積極的信號，可能會帶來新的投資機會和經濟增長的希望。然而，伊朗戰爭的結束也可能會對某些產業產生負面影響，例如石油和能源行業。因此，投資者需要密切關注這一發展，評估其對市場和經濟的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "5ac47f5a",
         "title": "蒙古國議會確認新總理，結束九個月的政治僵局",
         "url": "https://www.reuters.com/world/china/mongolia-names-new-prime-minister-following-stalemate-parliament-2026-03-31/",
@@ -656,6 +740,18 @@
         "ai_classified": true
       },
       {
+        "id": "e579e301",
+        "title": "加拿大政治家與社會活動家史蒂芬·路易斯去世，享年88歲",
+        "url": "https://www.theguardian.com/world/2026/apr/01/stephen-lewis-canadian-politician-and-social-activist-dies-aged-88",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 01:31:04 GMT",
+        "summary_zh": "加拿大前外交官、政治家與人權倡導者史蒂芬·路易斯，因癌症去世，享年88歲。他在多年間，為了關注全球HIV/愛滋疫情，從不疲倦地努力。他曾擔任加拿大聯合國大使，以及安大略省新民主黨的領袖。路易斯的兒子阿維·路易斯，曾經在父親去世前一天，當選為進步新民主黨的領袖。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "cd680b57",
         "title": "全球市場如何應對伊朗戰爭",
         "url": "https://www.cnbc.com/2026/03/31/iran-war-stocks-sp500-spx-nasdaq-dow-bonds-treasurys-yields-price-markets-gold-rates.html",
@@ -663,18 +759,6 @@
         "category": "global",
         "published_at": "2026-03-31 13:07:33",
         "summary_zh": "自伊朗戰爭爆發以來，全球各大資產市場都經歷了波動的時期。市場上各種資產的價格都受到戰爭的影響，包括股票、債券和商品。投資者和經濟學家都在關注這些市場的變化，以了解戰爭對全球經濟的影響。伊朗戰爭的爆發使得全球市場感到不安，各種資產的價格都出現了波動。投資者和經濟學家都在努力評估這些變化的影響，以便做出明智的投資決策。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c9872312",
-        "title": "美國國防部長要求盟友「加速」對霍爾木茲海峽的應對",
-        "url": "https://www.bbc.com/news/articles/cpwj7r5yxv1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 31 Mar 2026 15:19:58 GMT",
-        "summary_zh": "美國國防部長在霍爾木茲海峽問題上發表言論，要求盟友加速應對。這一要求是在美國總統川普之前已經要求其他國家「去搶取自己的石油」。霍爾木茲海峽是伊朗與阿拉伯聯合大公國之間的重要海峽，海峽附近的石油輸送路線是全球石油市場的關鍵部分。美國國防部長的要求表明美國希望盟友能夠與美國一起加強對霍爾木茲海峽的安全監控，防止伊朗或其他勢力干擾石油輸送。這一要求也可能與美國對伊朗的制裁政策有關。美國對伊朗的制裁政策已經引起了全球的關注，許多國家擔心這一政策可能會導致石油價格上升。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -704,61 +788,25 @@
         "ai_classified": true
       },
       {
-        "id": "78b86828",
-        "title": "印度海員在伊朗被扣留近一年終獲釋回國",
-        "url": "https://www.bbc.com/news/articles/cvgkn9379pqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "id": "43902957",
+        "title": "美國記者在巴格達遭綁架 美國國務院指控與伊朗支持的民兵組織有關",
+        "url": "https://www.bbc.com/news/articles/c5yled478zwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Tue, 31 Mar 2026 09:12:18 GMT",
-        "summary_zh": "印度海員在伊朗被扣留近一年，據報導，這批海員的船隻在去年12月被伊朗扣押。令人驚訝的是，這批海員在伊朗扣押的船隻在伊朗與烏克蘭發生戰爭前一天就已經收到釋放令。這批印度海員的釋放令在伊朗與烏克蘭爆發戰爭前一天發出，讓人感到驚訝。這批海員在被扣留期間經歷了許多困難和挑戰。根據印度政府的說法，這批海員的釋放是由於他們的船隻在伊朗扣押期間沒有參與任何戰爭活動。這批海員的釋放令是由伊朗政府發出的，讓人感到欣慰。這批印度海員的釋放將會給他們帶來新的希望和機會。",
-        "sentiment": "正面",
+        "published_at": "Tue, 31 Mar 2026 21:08:35 GMT",
+        "summary_zh": "美國記者雪莉·基特爾森（Shelly Kittleson）在伊拉克巴格達遭綁架，美國國務院表示，綁架她的嫌疑人與伊朗支持的民兵組織卡塔伊布·希特拉（Kataib Hezbollah）有關。這起綁架案引起了美國政府的關注，美國國務院已經就此事發表聲明。卡塔伊布·希特拉是一個伊朗支持的伊拉克民兵組織，曾經多次與美國軍隊發生衝突。美國政府對此事表達了強烈的關注，並呼籲伊拉克政府採取行動保護美國公民的安全。綁架事件的影響可能會對美國與伊拉克的關係產生影響，同時也會對美國在伊拉克的安全形勢產生影響。美國政府可能會採取進一步的措施來保護美國公民的安全，並與伊拉克政府合作來解決這個問題。",
+        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "0661b2df",
-        "title": "中國禁止將骨灰存放在空置的「骨灰公寓」",
-        "url": "https://www.bbc.com/news/articles/cm25ynex2zxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "c9872312",
+        "title": "美國國防部長要求盟友「加速」對霍爾木茲海峽的應對",
+        "url": "https://www.bbc.com/news/articles/cpwj7r5yxv1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Tue, 31 Mar 2026 10:53:10 GMT",
-        "summary_zh": "中國政府近期出台新規定，禁止將骨灰存放在稱為「骨灰公寓」的空置單位中。這些單位原本是為了方便家庭在家中安葬亡者而設置，但卻被一些家庭用作存放骨灰的場所。根據新規定，任何人不得在非法的「骨灰公寓」中存放骨灰，違反規定者將面臨嚴厲的處罰。這一措施的出台，旨在防止非法的骨灰存放場所出現，並維護社會秩序。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6dd92dc9",
-        "title": "歐洲歌唱大賽首次來到亞洲，10國參賽",
-        "url": "https://www.bbc.com/news/articles/cx2rwq53zxyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 31 Mar 2026 09:51:58 GMT",
-        "summary_zh": "歐洲歌唱大賽宣布推出首次亞洲版，10個國家的廣播公司將參與其中，包括南韓和菲律賓。這項舉措將為亞洲音樂市場帶來新的機會和挑戰。南韓和菲律賓的參與表明，這些國家正致力於發展其音樂產業，並與國際音樂界進行交流。然而，這項舉措也可能引發對亞洲音樂市場的競爭和壓力。亞洲歌唱大賽的推出將為觀眾帶來新的選擇和體驗，同時也將為亞洲音樂創作者提供新的平台和機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b873c8f4",
-        "title": "澳洲警方七個月大追捕後，鎮民爆出震驚、悲傷和釋然",
-        "url": "https://www.bbc.com/news/articles/cq59wj31vl4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 31 Mar 2026 04:04:32 GMT",
-        "summary_zh": "澳洲一座小鎮近期成為全球關注的焦點。去年，一名男子德齊·費曼（Dezi Freeman）槍殺了兩名警察，引發了警方七個月的大追捕。這次事件對當地居民造成了深遠的影響，許多人感到震驚、悲傷和釋然。居民們對於警方的努力和鎮民的團結感到感謝。然而，這次事件也引發了對安全和治安的關注。居民們希望政府能夠提供更多的資源和支持，以確保鎮民的安全。這座小鎮的居民們正在努力重建和恢復，希望能夠回到正常的生活。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "43902957",
-        "title": "美國記者在巴格達遭綁架 美國國務院指控與伊朗支持的民兵組織有關",
-        "url": "https://www.bbc.com/news/articles/c5yled478zwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 31 Mar 2026 21:08:35 GMT",
-        "summary_zh": "美國記者雪莉·基特爾森（Shelly Kittleson）在伊拉克巴格達遭綁架，美國國務院表示，綁架她的嫌疑人與伊朗支持的民兵組織卡塔伊布·希特拉（Kataib Hezbollah）有關。這起綁架案引起了美國政府的關注，美國國務院已經就此事發表聲明。卡塔伊布·希特拉是一個伊朗支持的伊拉克民兵組織，曾經多次與美國軍隊發生衝突。美國政府對此事表達了強烈的關注，並呼籲伊拉克政府採取行動保護美國公民的安全。綁架事件的影響可能會對美國與伊拉克的關係產生影響，同時也會對美國在伊拉克的安全形勢產生影響。美國政府可能會採取進一步的措施來保護美國公民的安全，並與伊拉克政府合作來解決這個問題。",
+        "published_at": "Tue, 31 Mar 2026 15:19:58 GMT",
+        "summary_zh": "美國國防部長在霍爾木茲海峽問題上發表言論，要求盟友加速應對。這一要求是在美國總統川普之前已經要求其他國家「去搶取自己的石油」。霍爾木茲海峽是伊朗與阿拉伯聯合大公國之間的重要海峽，海峽附近的石油輸送路線是全球石油市場的關鍵部分。美國國防部長的要求表明美國希望盟友能夠與美國一起加強對霍爾木茲海峽的安全監控，防止伊朗或其他勢力干擾石油輸送。這一要求也可能與美國對伊朗的制裁政策有關。美國對伊朗的制裁政策已經引起了全球的關注，許多國家擔心這一政策可能會導致石油價格上升。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -824,6 +872,18 @@
         "ai_classified": true
       },
       {
+        "id": "0661b2df",
+        "title": "中國禁止將骨灰存放在空置的「骨灰公寓」",
+        "url": "https://www.bbc.com/news/articles/cm25ynex2zxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 31 Mar 2026 10:53:10 GMT",
+        "summary_zh": "中國政府近期出台新規定，禁止將骨灰存放在稱為「骨灰公寓」的空置單位中。這些單位原本是為了方便家庭在家中安葬亡者而設置，但卻被一些家庭用作存放骨灰的場所。根據新規定，任何人不得在非法的「骨灰公寓」中存放骨灰，違反規定者將面臨嚴厲的處罰。這一措施的出台，旨在防止非法的骨灰存放場所出現，並維護社會秩序。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "2a52cbae",
         "title": "狼攻擊德國女性　漢堡購物街震驚",
         "url": "https://www.bbc.com/news/articles/c20qxjxe2nno?at_medium=RSS&at_campaign=rss",
@@ -836,15 +896,39 @@
         "ai_classified": true
       },
       {
-        "id": "63deadce",
-        "title": "俄羅斯油輪抵達古巴 結束幾乎完全的封鎖",
-        "url": "https://www.bbc.com/news/articles/clyx1lrv0w5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "6dd92dc9",
+        "title": "歐洲歌唱大賽首次來到亞洲，10國參賽",
+        "url": "https://www.bbc.com/news/articles/cx2rwq53zxyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "Tue, 31 Mar 2026 12:51:51 GMT",
-        "summary_zh": "古巴因為俄羅斯油輪的抵達，結束了幾個月的油品短缺。這艘俄羅斯油輪的到來，為古巴帶來了暫時的油品供應，結束了幾個月的油品短缺。這種短缺是由於美國對古巴實施的經濟制裁和對俄羅斯的制裁所導致的。這種制裁導致了古巴無法獲得足夠的油品，從而導致了油品短缺。俄羅斯油輪的到來，為古巴帶來了新的希望，古巴可以暫時解決油品短缺的問題。然而，長期來看，這種短缺仍然可能會繼續存在，古巴需要尋找長期的解決方案。",
+        "published_at": "Tue, 31 Mar 2026 09:51:58 GMT",
+        "summary_zh": "歐洲歌唱大賽宣布推出首次亞洲版，10個國家的廣播公司將參與其中，包括南韓和菲律賓。這項舉措將為亞洲音樂市場帶來新的機會和挑戰。南韓和菲律賓的參與表明，這些國家正致力於發展其音樂產業，並與國際音樂界進行交流。然而，這項舉措也可能引發對亞洲音樂市場的競爭和壓力。亞洲歌唱大賽的推出將為觀眾帶來新的選擇和體驗，同時也將為亞洲音樂創作者提供新的平台和機會。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "78b86828",
+        "title": "印度海員在伊朗被扣留近一年終獲釋回國",
+        "url": "https://www.bbc.com/news/articles/cvgkn9379pqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 31 Mar 2026 09:12:18 GMT",
+        "summary_zh": "印度海員在伊朗被扣留近一年，據報導，這批海員的船隻在去年12月被伊朗扣押。令人驚訝的是，這批海員在伊朗扣押的船隻在伊朗與烏克蘭發生戰爭前一天就已經收到釋放令。這批印度海員的釋放令在伊朗與烏克蘭爆發戰爭前一天發出，讓人感到驚訝。這批海員在被扣留期間經歷了許多困難和挑戰。根據印度政府的說法，這批海員的釋放是由於他們的船隻在伊朗扣押期間沒有參與任何戰爭活動。這批海員的釋放令是由伊朗政府發出的，讓人感到欣慰。這批印度海員的釋放將會給他們帶來新的希望和機會。",
         "sentiment": "正面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b873c8f4",
+        "title": "澳洲警方七個月大追捕後，鎮民爆出震驚、悲傷和釋然",
+        "url": "https://www.bbc.com/news/articles/cq59wj31vl4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 31 Mar 2026 04:04:32 GMT",
+        "summary_zh": "澳洲一座小鎮近期成為全球關注的焦點。去年，一名男子德齊·費曼（Dezi Freeman）槍殺了兩名警察，引發了警方七個月的大追捕。這次事件對當地居民造成了深遠的影響，許多人感到震驚、悲傷和釋然。居民們對於警方的努力和鎮民的團結感到感謝。然而，這次事件也引發了對安全和治安的關注。居民們希望政府能夠提供更多的資源和支持，以確保鎮民的安全。這座小鎮的居民們正在努力重建和恢復，希望能夠回到正常的生活。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       }
     ]
