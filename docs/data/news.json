@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-04-02T13:04:00.267089+08:00",
+  "generated_at": "2026-04-02T14:03:58.726191+08:00",
   "risk_signals": [
-    "🟢 台股加權 32649.63（正常）",
+    "🟢 台股加權 32572.43（正常）",
     "🟢 S&P 500 6575.32（正常）",
     "🟡 VIX 恐慌指數 24.54（留意）",
     "🟢 MOVE 債市波動 90.19（正常）",
-    "🟢 美元指數 100.03（正常）",
-    "🟢 黃金 4696.1（正常）",
+    "🟢 美元指數 100.07（正常）",
+    "🟢 黃金 4633.9（正常）",
     "🟢 美債10Y殖利率 4.32（正常）",
-    "🟡 原油 WTI 105.05（漲 +4.92%，留意）",
-    "🟢 美元/台幣 31.98（正常）"
+    "🔴 原油 WTI 105.52（急漲 +5.39%，市場避險）",
+    "🟢 美元/台幣 31.99（正常）"
   ],
-  "ai_summary": "市場指標呈現中性至偏樂觀的趨勢，留意原油價格的上漲。",
+  "ai_summary": "市場目前處於中性狀態，投資者應保持謹慎。台股和美股表現平穩，但原油急漲引發市場避險情緒，需密切關注恐慌指數的變化。",
   "market": {
     "TWII": {
-      "price": 32649.63,
-      "change_pct": -1.58
+      "price": 32572.43,
+      "change_pct": -1.82
     },
     "SP500": {
       "price": 6575.32,
@@ -38,133 +38,231 @@
       "change_pct": -6.1
     },
     "DXY": {
-      "price": 100.03,
-      "change_pct": 0.38
+      "price": 100.07,
+      "change_pct": 0.42
     },
     "GOLD": {
-      "price": 4696.1,
-      "change_pct": -1.82
+      "price": 4633.9,
+      "change_pct": -3.12
     },
     "OIL": {
-      "price": 105.05,
-      "change_pct": 4.92
+      "price": 105.52,
+      "change_pct": 5.39
     },
     "USDTWD": {
-      "price": 31.98,
-      "change_pct": 0.12
+      "price": 31.99,
+      "change_pct": 0.18
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "de60d8a6",
+        "title": "觀看阿特米斯二號飛船發射升空的瞬間！",
+        "url": "https://www.bbc.com/news/videos/cwydnrmggnno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 23:00:39 GMT",
+        "summary_zh": "阿特米斯二號飛船終於在佛羅里達州發射升空，結束了50年來首次載人月球任務的延遲和技術問題。飛船已經進入地球的軌道，正式啟動了載人月球探索計畫。這次任務標誌著美國再次嘗試登月，展開了新的太空探索旅程。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d9ff3aca",
+        "title": "川普未解答關鍵問題，試圖平息對伊朗戰爭的擔憂",
+        "url": "https://www.bbc.com/news/articles/cnv81ven263o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 03:22:51 GMT",
+        "summary_zh": "川普在晚間發表電視講話，試圖平息對伊朗戰爭的擔憂，但他未能解答關鍵問題。BBC的Gary O'Donoghue指出，川普的講話中有許多明顯的漏洞。他未能明確地回答美國對伊朗戰爭的戰略目標、未能提供伊朗核計畫的進展情況、未能解釋為什麼美國要發動對伊朗的軍事行動等問題。這些漏洞使得川普的講話無法有效地平息對伊朗戰爭的擔憂。川普的行動可能會使得伊朗戰爭的風險增加，對全球經濟和安全造成不利影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "aa2b985c",
+        "title": "印尼近海發生7.4級地震，造成一人死亡",
+        "url": "https://www.bbc.com/news/articles/cn53krrrr24o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 04:00:48 GMT",
+        "summary_zh": "印尼近海發生7.4級地震，地震中心位於馬納多島和特納特島之間。地震造成一人死亡，當局已經取消了海嘯警告。這次地震發生在印尼近海的海域，地震的強度達到7.4級，地震中心位於馬納多島和特納特島之間。印尼當局迅速展開救援工作，目前已經確認一人死亡。海嘯警告在發生地震後不久就被取消。印尼政府已經宣布成立調查委員會，調查地震的原因和影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "4e1e7d1a",
+        "title": "以色列加強黎巴嫩攻擊，打擊非真主黨控制區域",
+        "url": "https://www.bbc.com/news/articles/cvg07j6yeweo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 10:33:35 GMT",
+        "summary_zh": "以色列近日加強對黎巴嫩的攻擊，宣布意圖控制黎巴嫩南部的大片區域。這一行動引發了黎巴嫩政府的強烈反應。根據目前的情報，真主黨雖然在黎巴嫩南部有影響力，但並非控制所有區域。以色列的攻擊行動可能會導致黎巴嫩境內的局勢惡化。這一發展也引起了國際社會的關注，各國政府正在密切關注以色列和黎巴嫩之間的局勢發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "91ae1863",
+        "title": "百度自駕車大規模故障停擺中國城市交通",
+        "url": "https://www.bbc.com/news/articles/cvge91r9j80o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 11:34:31 GMT",
+        "summary_zh": "近日，一場百度自駕車大規模故障在中國某城市引起交通癱瘓。據報導，至少有100輛自駕車受影響。百度方面尚未回應有關此事的評論。這次事件的原因尚未明朗，但已引起關注。百度的自駕車技術曾經被視為中國的自駕車領先者，但這次故障卻讓人質疑其可靠性。這是否標誌著中國自駕車技術的發展遇到瓶頸？未來將如何發展？這些問題都將在未來的發展中被逐步揭露。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "eddf93db",
+        "title": "希臘列車碰撞案：57人遇難，36人被控罪",
+        "url": "https://www.bbc.com/news/articles/cx2wq13758no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 16:30:17 GMT",
+        "summary_zh": "希臘歷史上最嚴重的列車碰撞事故發生於2023年，造成57人死亡。今年，36名被告將面臨多年的審判。這起事故的受害者家屬紛紛湧入法院，為了爭取正義。希臘政府已經承諾會對事故負責，並將採取措施改善鐵路安全。然而，這起事故的審判將是一個漫長的過程，受害者家屬將面臨長達數年的等待。希臘政府的措施是否足夠，還有待觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "801aecc6",
+        "title": "CFR的Michael Froman表示伊朗可以繼續對全球經濟造成破壞",
+        "url": "https://www.cnbc.com/video/2026/04/01/iran-can-continue-to-wreak-havoc-on-the-global-economy-says-cfrs-michael-froman.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-04-01 15:20:45",
+        "summary_zh": "伊朗戰爭對全球經濟造成了重大影響，伊朗可以繼續對全球經濟造成破壞。伊朗戰爭的影響不僅限於伊朗本身，還會對全球經濟產生重大影響。伊朗的戰爭導致了石油價格的上升，對全球經濟造成了重大影響。CFR的Michael Froman表示，伊朗可以繼續對全球經濟造成破壞，直到伊朗的戰爭結束。伊朗的戰爭對全球經濟造成了重大影響，需要全球各國共同努力來解決。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0f95d93c",
+        "title": "意大利球迷與管理層懷疑自己陷入「第三次末日」",
+        "url": "https://www.bbc.com/news/articles/cj943rmkkm4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 12:05:34 GMT",
+        "summary_zh": "意大利國家足球隊在連續兩屆世界盃失利後，再度未能晉級世界盃。球迷和管理層紛紛思考自己在這次失利背後的原因。意大利足球的下一步發展方向，引起了各界的關注。這次失利對於意大利足球的影響有多大？未來該如何改善？意大利球迷和管理層將如何應對這次失利？這些問題都將在未來的發展中得到回答。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "18ad9810",
+        "title": "黃金大暴走！川普演說1句話金價重挫逾3％ 專家警告將下探「此價位」",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5390854",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 12:23:32 +0800",
+        "summary_zh": "美國總統川普就伊朗戰事發表全美電視演說，宣稱對伊朗戰事取得「壓倒性勝利」，將在未來2到3週將開展極其嚴厲的打擊。演說完畢後，全球金融市場下挫，黃金現貨日內每盎司一度重挫逾3％。專家警告，金價將下探「此價位」，市場情緒緊繃。伊朗戰事的升級可能會對全球金融市場造成重大影響，投資者應該保持警覺。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7e83ab70",
+        "title": "布隆迪彈藥儲存庫爆炸，平民傷亡",
+        "url": "https://www.bbc.com/news/articles/c5y7x7qre0zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 16:26:19 GMT",
+        "summary_zh": "布隆迪首都布瓮拉城發生彈藥儲存庫爆炸，造成大量平民傷亡。爆炸發生於當地時間星期二晚上，引發了嚴重的恐慌，許多房屋被毀壞。目擊者表示，爆炸聲音非常巨大，震動了整個城市。爆炸造成的傷亡人數尚未公布，但已知有多人受傷。布隆迪政府尚未對爆炸事件發表任何聲明。這次爆炸事件引發了國際社會的關注，許多人呼籲布隆迪政府採取措施防止類似事件再次發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "986dfeee",
+        "title": "巴西法官阻止糖山滑索計畫",
+        "url": "https://www.bbc.com/news/articles/cx29e3wljj2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 11:17:18 GMT",
+        "summary_zh": "巴西的一名法官決定阻止建造連接里約熱內盧著名觀光景點糖山和莫羅達烏卡的滑索計畫。這個計畫引起了爭議，許多人對於這個計畫的風險和影響表達了擔憂。法官的決定意味著這個計畫暫時被擱置，未來是否會重新啟動仍待觀察。這個決定可能會對巴西的觀光業產生影響，同時也會讓當地居民對於政府的決策表達不滿。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ba3e77de",
+        "title": "南非軍隊抵達犯罪高發區域協助打擊黑幫",
+        "url": "https://www.bbc.com/news/articles/cx2e78yk09no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 14:35:00 GMT",
+        "summary_zh": "南非政府決定將軍隊部署至該國九個省份中五個犯罪高發區域，展開一年長的行動。這項行動旨在應對南非面臨的嚴重犯罪問題，特別是黑幫活動的擴散。軍隊的到來將會與警察合作，共同維持治安並保護民眾。這項行動的目標是降低犯罪率並恢復社會秩序。南非政府希望通過這項行動，能夠有效地打擊黑幫活動並改善民眾的安全感。然而，這項行動也引發了民眾對政府管控和軍隊介入的擔憂。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "aa54072f",
+        "title": "伊朗戰爭經濟震盪將持續『數月』 澳洲總理警告",
+        "url": "https://www.bbc.com/news/articles/cvg4nre8nl9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 10:53:03 GMT",
+        "summary_zh": "澳洲總理安東尼·阿爾巴尼澤在罕見的電視講話中告訴澳洲人，伊朗戰爭的全球影響將持續數月。伊朗戰爭對全球經濟的影響正在逐漸顯現，澳洲總理警告澳洲人，未來幾個月可能不會容易。伊朗戰爭的影響不僅影響伊朗本身，也影響到全球各國的經濟，包括澳洲。澳洲總理呼籲澳洲人做好準備，面對未來的挑戰。伊朗戰爭的持續時間和影響力仍然不明朗，澳洲總理的警告表明，澳洲政府正在密切關注這一情況。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b637137f",
+        "title": "剛果民主共和國宣布國定假日，52年來首次晉級世界盃決賽",
+        "url": "https://www.bbc.com/news/articles/cm296yv05eeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 15:13:13 GMT",
+        "summary_zh": "剛果民主共和國在52年來首次晉級世界盃決賽，引發了喀麥隆首都金沙薩的慶祝活動。這是該國第二次晉級世界盃決賽，國內民眾對此感到極度興奮。剛果民主共和國政府為此宣布國定假日，讓民眾可以自由慶祝。這項成就對剛果民主共和國來說是一個重大突破，證明了該國足球隊的實力和團隊精神。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fa50853a",
+        "title": "中國試圖在伊朗戰爭中扮演和平使者 - 這會成功嗎?",
+        "url": "https://www.bbc.com/news/articles/cze0kz7gr84o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 07:16:15 GMT",
+        "summary_zh": "中國近日試圖在伊朗戰爭中扮演和平使者的角色，這是北京官方的轉變之一。中國為什麼現在才出手？根據外界分析，中國的動機可能是為了維護其在全球經濟中的重要地位。中國是世界上第二大經濟體，同時也是世界上最大的石油進口國。伊朗是世界上第四大石油出口國，中國對伊朗的石油需求量很大。中國的出手，可能是為了保護其石油供應鏈和經濟利益。同時，中國也可能是為了避免伊朗戰爭對全球經濟的不利影響。伊朗戰爭可能會導致石油價格上升，從而對全球經濟產生不利影響。中國的出手，可能是為了保護其經濟利益和避免全球經濟的不利影響。然而，中國的出手是否會成功，還需要觀察和等待。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "26e8757e",
+        "title": "史丹佛大學贏得保留毛澤東秘書日記的戰鬥",
+        "url": "https://www.bbc.com/news/articles/czxry0nyq5xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 09:31:37 GMT",
+        "summary_zh": "史丹佛大學宣布，該校取得毛澤東秘書的日記，日記中提到天安門事件，若將日記返還給北京，將會被禁止。這些日記被視為重要歷史文獻，對於了解毛澤東和中共的歷史有重要意義。然而，中國政府可能會反對這項決定，認為這些日記是中國內部事務。這項爭議可能會引起國際關注，對於中美關係的影響也值得關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "78b86828",
+        "title": "印度海員在伊朗被扣留近一年終獲釋回國",
+        "url": "https://www.bbc.com/news/articles/cvgkn9379pqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 01 Apr 2026 06:15:42 GMT",
+        "summary_zh": "印度海員在伊朗被扣留近一年，據報導，這批海員的船隻在去年12月被伊朗扣押。令人驚訝的是，這批海員在伊朗扣押的船隻在伊朗與烏克蘭發生戰爭前一天就已經收到釋放令。這批印度海員的釋放令在伊朗與烏克蘭爆發戰爭前一天發出，讓人感到驚訝。這批海員在被扣留期間經歷了許多困難和挑戰。根據印度政府的說法，這批海員的釋放是由於他們的船隻在伊朗扣押期間沒有參與任何戰爭活動。這批海員的釋放令是由伊朗政府發出的，讓人感到欣慰。這批印度海員的釋放將會給他們帶來新的希望和機會。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
-      {
-        "id": "5118a52b",
-        "title": "川普再次威脅退出北約 美國盟友不願參與對伊朗戰爭",
-        "url": "https://www.theguardian.com/us-news/2026/apr/01/trump-news-at-a-glance-nato",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 02 Apr 2026 02:34:12 GMT",
-        "summary_zh": "川普總統再次表明考慮退出北約，指出這一問題已經超出了重新考慮的範圍。這是因為北約盟國拒絕參與美國和以色列對伊朗的戰爭。川普一直對北約的價值表達懷疑，但自從北約盟國拒絕參與對伊朗的戰爭後，他的言論更加激烈。這一事件反映了川普對北約的不滿，美國盟友的不合作也使得川普的威脅更加真實。這一事件對美國的外交政策和北約的未來可能會產生重大影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "fe3d07f8",
-        "title": "川普稱美伊戰爭「即將完成」，稱美方已經達到大部分軍事目標",
-        "url": "https://www.theguardian.com/us-news/2026/apr/01/trump-iran-war-address-white-house",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 02 Apr 2026 02:29:10 GMT",
-        "summary_zh": "美國總統川普在週三晚間的白宮直播中宣布，美伊戰爭已經取得重大進展，美方「大部分軍事目標」已經達到。然而，川普並未提供明確的細節，表明如何在未來的兩到三週內結束戰爭。美伊戰爭持續了逾一個月，導致全球經濟混亂、跨大西洋聯盟分裂以及川普的民意支持率下滑。川普的聲明在中東危機的背景下引發了廣泛的關注。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "184d7fa7",
-        "title": "川普料將出席最高法院審理關於出生公民權案的庭審",
-        "url": "https://www.theguardian.com/us-news/live/2026/apr/01/donald-trump-supreme-court-birthright-citizenship-case-us-politics-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 02 Apr 2026 00:36:25 GMT",
-        "summary_zh": "美國最高法院即將審理一樁關於出生公民權的重磅案件，這樁案件將會評估川普是否有權否決出生公民權。川普曾試圖通過行政命令終止出生公民權，但這一舉動引起了廣泛爭議。最高法院的判決將對美國的移民政策產生重大影響。川普的出席將使這樁案件引起更大的關注。這樁案件的結果將會對美國的政治格局產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d27f882a",
-        "title": "美墨邊境官員遺棄羅興亞難民身亡定性為謀殺案",
-        "url": "https://www.theguardian.com/us-news/2026/apr/01/buffalo-refugee-border-patrol-homicide",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 01 Apr 2026 23:55:40 GMT",
-        "summary_zh": "美國邊境巡邏隊在寒冷的冬夜將 56 歲的視障羅興亞難民努爾·阿敏·沙赫（Nurul Amin Shah）遺棄在紐約布法羅一間蒂姆霍頓斯（Tim Hortons）停車場，五天後他在當地醫院去世。美國當局最終確認努爾·阿敏·沙赫的死亡是謀殺案。這名視障難民在 24 日去世，前五天美國邊境巡邏隊將他遺棄在蒂姆霍頓斯停車場，沒有通知他的家人或律師。這起事件引發了對美國邊境管理政策的爭議。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "9cf7aaea",
-        "title": "佛羅里達州通過嚴格的投票身份證明法，川普的救援法案在美國參議院遇到困難",
-        "url": "https://www.theguardian.com/us-news/2026/apr/01/florida-new-voter-id-laws-proof-citizenship",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 01 Apr 2026 19:57:37 GMT",
-        "summary_zh": "佛羅里達州成為今年第三個通過投票身份證明法的州，州長羅恩·德桑蒂斯星期三簽署立法，要求投票者提供身份證明，同時啟動一項程序，最終將會取消未提供身份證明的投票者。這項立法是美國南部州份通過聯邦法案的部分條款。南達科他州和猶他州的州長先前已經簽署了相同的法案。這項立法引發了對投票權的爭議，許多人擔心這將會剝奪某些人士的投票權。這項立法的通過將會對佛羅里達州的投票制度產生重大影響，同時也會對美國的投票權爭議產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "acb87346",
-        "title": "美國FDA批准艾利利利藥廠新口服減重藥片",
-        "url": "https://www.theguardian.com/us-news/2026/apr/01/new-weight-loss-pill-glp-1-foundayo",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 01 Apr 2026 18:54:38 GMT",
-        "summary_zh": "美國食品藥物管理局（FDA）於週三批准了艾利利利藥廠（Eli Lilly）開發的新口服減重藥片，名為Forglipron或品牌名稱Foundayo。這種藥片每天一次，成為市場上第二種可口服的GLP-1類藥物，緊接著諾沃諾迪斯克公司（Novo Nordisk）的Wegovy藥片在12月獲得批准。這種藥片的批准將為美國的減重市場帶來新的選擇。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2d3b9f65",
-        "title": "最高法院法官表現出對終止出生公民權的犹豫態度，川普出席辯論",
-        "url": "https://www.theguardian.com/us-news/2026/apr/01/supreme-court-birthright-citizenship-case",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 01 Apr 2026 16:45:08 GMT",
-        "summary_zh": "美國總統川普在 2025 年發佈了一份行政命令，試圖廢除憲法賦予的出生公民權。美國最高法院於星期三聽取了對出生公民權的辯論，川普本人也出席了庭審。多數法官在庭上提問，表明對政府試圖推翻出生公民權的態度存疑。雖然有些人預期這個案件將是挑戰政府的明確勝利，但目前尚不清楚有多少法官會支持川普。預計最高法院將在夏季出判決。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "87849e88",
-        "title": "川普總統發表強烈的時段性演說，關於Operation Epic Fury行動",
-        "url": "https://www.whitehouse.gov/releases/2026/04/president-trump-delivers-powerful-primetime-address-on-operation-epic-fury/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 02 Apr 2026 02:27:40 +0000",
-        "summary_zh": "川普總統在時段性演說中，向全國公佈Operation Epic Fury行動的進展。僅過一個月，川普總統強調了美國軍隊的非凡成就，對伊朗政權進行了迅速、徹底的打擊，摧毀了伊朗海軍，摧毀了伊朗空軍，消滅了伊朗的重要恐怖組織。這項行動的成功，表明了美國軍隊的強大力量和對伊朗政權的制裁。這項行動的影響將對全球安全格局產生重大影響。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2e6a20e8",
-        "title": "川普總統堅定不移的目標推動美軍對伊朗政權的決定性勝利",
-        "url": "https://www.whitehouse.gov/releases/2026/04/president-trumps-clear-and-unchanging-objectives-drive-decisive-success-against-iranian-regime/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 01 Apr 2026 18:39:57 +0000",
-        "summary_zh": "川普總統將在今晚的國家電視演說中，宣布「Operation Epic Fury」行動計畫，這是一場美國力量的決定性戰役，旨在徹底摧毀伊朗政權對美國和自由世界的威脅。川普總統的領導下，美國軍方正在執行這項任務，展現出無與倫比的力量和精確度。這項行動的目標是摧毀伊朗政權的能力，防止其對美國和自由世界的威脅。川普總統的堅定不移的目標和決心，推動了美軍的勝利，展現了美國對自由世界的承諾。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
       {
         "id": "07ffc854",
         "title": "猶他州少年被確認為連環殺手泰德·班迪的受害者",
@@ -248,6 +346,114 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "fe3d07f8",
+        "title": "川普稱美伊戰爭「即將完成」，稱美方已經達到大部分軍事目標",
+        "url": "https://www.theguardian.com/us-news/2026/apr/01/trump-iran-war-address-white-house",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 02 Apr 2026 05:29:29 GMT",
+        "summary_zh": "美國總統川普在週三晚間的白宮直播中宣布，美伊戰爭已經取得重大進展，美方「大部分軍事目標」已經達到。然而，川普並未提供明確的細節，表明如何在未來的兩到三週內結束戰爭。美伊戰爭持續了逾一個月，導致全球經濟混亂、跨大西洋聯盟分裂以及川普的民意支持率下滑。川普的聲明在中東危機的背景下引發了廣泛的關注。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5118a52b",
+        "title": "川普再次威脅退出北約 美國盟友不願參與對伊朗戰爭",
+        "url": "https://www.theguardian.com/us-news/2026/apr/01/trump-news-at-a-glance-nato",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 02 Apr 2026 02:34:12 GMT",
+        "summary_zh": "川普總統再次表明考慮退出北約，指出這一問題已經超出了重新考慮的範圍。這是因為北約盟國拒絕參與美國和以色列對伊朗的戰爭。川普一直對北約的價值表達懷疑，但自從北約盟國拒絕參與對伊朗的戰爭後，他的言論更加激烈。這一事件反映了川普對北約的不滿，美國盟友的不合作也使得川普的威脅更加真實。這一事件對美國的外交政策和北約的未來可能會產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "184d7fa7",
+        "title": "川普料將出席最高法院審理關於出生公民權案的庭審",
+        "url": "https://www.theguardian.com/us-news/live/2026/apr/01/donald-trump-supreme-court-birthright-citizenship-case-us-politics-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 02 Apr 2026 00:36:25 GMT",
+        "summary_zh": "美國最高法院即將審理一樁關於出生公民權的重磅案件，這樁案件將會評估川普是否有權否決出生公民權。川普曾試圖通過行政命令終止出生公民權，但這一舉動引起了廣泛爭議。最高法院的判決將對美國的移民政策產生重大影響。川普的出席將使這樁案件引起更大的關注。這樁案件的結果將會對美國的政治格局產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d27f882a",
+        "title": "美墨邊境官員遺棄羅興亞難民身亡定性為謀殺案",
+        "url": "https://www.theguardian.com/us-news/2026/apr/01/buffalo-refugee-border-patrol-homicide",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 01 Apr 2026 23:55:40 GMT",
+        "summary_zh": "美國邊境巡邏隊在寒冷的冬夜將 56 歲的視障羅興亞難民努爾·阿敏·沙赫（Nurul Amin Shah）遺棄在紐約布法羅一間蒂姆霍頓斯（Tim Hortons）停車場，五天後他在當地醫院去世。美國當局最終確認努爾·阿敏·沙赫的死亡是謀殺案。這名視障難民在 24 日去世，前五天美國邊境巡邏隊將他遺棄在蒂姆霍頓斯停車場，沒有通知他的家人或律師。這起事件引發了對美國邊境管理政策的爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9cf7aaea",
+        "title": "佛羅里達州通過嚴格的投票身份證明法，川普的救援法案在美國參議院遇到困難",
+        "url": "https://www.theguardian.com/us-news/2026/apr/01/florida-new-voter-id-laws-proof-citizenship",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 01 Apr 2026 19:57:37 GMT",
+        "summary_zh": "佛羅里達州成為今年第三個通過投票身份證明法的州，州長羅恩·德桑蒂斯星期三簽署立法，要求投票者提供身份證明，同時啟動一項程序，最終將會取消未提供身份證明的投票者。這項立法是美國南部州份通過聯邦法案的部分條款。南達科他州和猶他州的州長先前已經簽署了相同的法案。這項立法引發了對投票權的爭議，許多人擔心這將會剝奪某些人士的投票權。這項立法的通過將會對佛羅里達州的投票制度產生重大影響，同時也會對美國的投票權爭議產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "acb87346",
+        "title": "美國FDA批准艾利利利藥廠新口服減重藥片",
+        "url": "https://www.theguardian.com/us-news/2026/apr/01/new-weight-loss-pill-glp-1-foundayo",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 01 Apr 2026 18:54:38 GMT",
+        "summary_zh": "美國食品藥物管理局（FDA）於週三批准了艾利利利藥廠（Eli Lilly）開發的新口服減重藥片，名為Forglipron或品牌名稱Foundayo。這種藥片每天一次，成為市場上第二種可口服的GLP-1類藥物，緊接著諾沃諾迪斯克公司（Novo Nordisk）的Wegovy藥片在12月獲得批准。這種藥片的批准將為美國的減重市場帶來新的選擇。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2d3b9f65",
+        "title": "最高法院法官表現出對終止出生公民權的犹豫態度，川普出席辯論",
+        "url": "https://www.theguardian.com/us-news/2026/apr/01/supreme-court-birthright-citizenship-case",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 01 Apr 2026 16:45:08 GMT",
+        "summary_zh": "美國總統川普在 2025 年發佈了一份行政命令，試圖廢除憲法賦予的出生公民權。美國最高法院於星期三聽取了對出生公民權的辯論，川普本人也出席了庭審。多數法官在庭上提問，表明對政府試圖推翻出生公民權的態度存疑。雖然有些人預期這個案件將是挑戰政府的明確勝利，但目前尚不清楚有多少法官會支持川普。預計最高法院將在夏季出判決。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "87849e88",
+        "title": "川普總統發表強烈的時段性演說，關於Operation Epic Fury行動",
+        "url": "https://www.whitehouse.gov/releases/2026/04/president-trump-delivers-powerful-primetime-address-on-operation-epic-fury/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 02 Apr 2026 02:27:40 +0000",
+        "summary_zh": "川普總統在時段性演說中，向全國公佈Operation Epic Fury行動的進展。僅過一個月，川普總統強調了美國軍隊的非凡成就，對伊朗政權進行了迅速、徹底的打擊，摧毀了伊朗海軍，摧毀了伊朗空軍，消滅了伊朗的重要恐怖組織。這項行動的成功，表明了美國軍隊的強大力量和對伊朗政權的制裁。這項行動的影響將對全球安全格局產生重大影響。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2e6a20e8",
+        "title": "川普總統堅定不移的目標推動美軍對伊朗政權的決定性勝利",
+        "url": "https://www.whitehouse.gov/releases/2026/04/president-trumps-clear-and-unchanging-objectives-drive-decisive-success-against-iranian-regime/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 01 Apr 2026 18:39:57 +0000",
+        "summary_zh": "川普總統將在今晚的國家電視演說中，宣布「Operation Epic Fury」行動計畫，這是一場美國力量的決定性戰役，旨在徹底摧毀伊朗政權對美國和自由世界的威脅。川普總統的領導下，美國軍方正在執行這項任務，展現出無與倫比的力量和精確度。這項行動的目標是摧毀伊朗政權的能力，防止其對美國和自由世界的威脅。川普總統的堅定不移的目標和決心，推動了美軍的勝利，展現了美國對自由世界的承諾。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "ai": [
@@ -302,6 +508,54 @@
     ],
     "stock_tw": [
       {
+        "id": "631f2796",
+        "title": "有錢退休生活反而更痛苦？7旬夫妻賣房住高級養老院、活成『無力人生』",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5390706",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 02 Apr 2026 13:55:50 +0800",
+        "summary_zh": "許多人在年老後會考慮入住養老院，但卻可能面臨意想不到的麻煩。日本一對經濟條件優渥的退休夫婦，合計月領33萬日圓（約新台幣6萬元）的退休年金，並擁有8000萬日圓（約新台幣1.6億元）的財富。然而，他們卻選擇出售自己的房子，搬進高級養老院生活。這對夫婦的故事，讓人們開始思考：有錢退休生活是否真的如夢幻般美好？事實上，這對夫婦的生活，卻充滿著無力感和痛苦。出售房子後，他們的生活費用大幅增加，原本的退休年金和財富，卻無法滿足他們的需求。這對夫婦的故事，讓人們開始質疑：有錢退休生活真的能帶來幸福嗎？還是它只是個虛幻的夢想？",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "35382abb",
+        "title": "川普演說台股嚇趴！台積電領1358家齊殺 指數收跌602點",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5390762",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 02 Apr 2026 13:48:47 +0800",
+        "summary_zh": "台股在台積電開盤上漲，指數開盤漲43.2點，以33218.02點為高點。但隨著川普的演說，台股突然轉趨下跌，指數收跌602點。台積電領導了1358家公司一起殺跌，市場情緒大變。分析師認為，川普的演說對市場產生了重大影響，投資者開始擔心未來的經濟趨勢。台股的下跌也可能與全球股市的波動有關，市場正在等待更多的資訊來確定未來的走向。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "d799dd1c",
+        "title": "貿易署推22項產品補助 公協會最高可獲百萬元助攻拓銷國際",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5391129",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 02 Apr 2026 13:17:00 +0800",
+        "summary_zh": "為協助國內易受貿易自由化衝擊的產業強化競爭力，經濟部貿易署推出2026年度22項產品補助計畫。這些產品包括紡織成衣、毛巾、織襪與鞋類、陶瓷等。公協會最高可獲百萬元補助，以幫助相關產業拓展國際市場。這項計畫旨在幫助國內產業強化競爭力，同時也鼓勵相關產業拓展國際市場。貿易署的補助計畫將對國內產業帶來重要幫助，幫助他們在國際市場上站穩腳步。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "00275a2a",
+        "title": "外送漲聲響起？平台先調商家費恐擴及消費者",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5391103",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 02 Apr 2026 12:59:06 +0800",
+        "summary_zh": "隨著《外送員權益保障及外送平臺管理法》預計於今年7月中旬正式上路，國內外送產業正面臨一波結構性轉變。平台、商家與消費者的成本分攤模式也隨之出現重整跡象。外送平台Uber Eats與foodpanda已經先行調整商家費用，預計將對消費者產生影響。這項法律的通過將對外送產業造成重大影響，平台和商家將需要重新評估成本分攤模式。外送員的權益保障將得到改善，但消費者的費用可能會上漲。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "8c96b4c0",
         "title": "日圓大崩潰？瑞銀示警油價漲至「此價位」年底恐觸及175美元",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5391020",
@@ -310,8 +564,8 @@
         "published_at": "Thu, 02 Apr 2026 12:50:07 +0800",
         "summary_zh": "日圓近期大幅貶值，瑞銀集團策略師認為，石油供應中斷後，油價每桶可能會漲至150美元。這將對美元兌日圓的匯率產生重大影響。瑞銀預測，美元兌日圓匯率可能會下跌至175美元，這將對日本經濟產生重大影響。日本官員已經加大了干預言論力度，試圖穩定市場。然而，瑞銀認為，市場動盪的情況下，美元兌日圓的匯率仍然面臨著重大挑戰。這些預測對於投資者和企業來說都是關鍵的信息，需要密切關注。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "314264ba",
@@ -322,8 +576,8 @@
         "published_at": "Thu, 02 Apr 2026 12:19:57 +0800",
         "summary_zh": "川普的談話再次引發金融市場的波瀾。儘管美股前一交易日收紅，但亞洲股匯市今早率先反應川普對伊朗強硬言論，全面重挫。台股失守33,000點，新台幣兌美元一度貶回32字頭。這種波瀾是由於市場對川普言論的不確定性和伊朗局勢的不穩定所致。市場人士認為，川普的言論可能會對全球經濟產生重大影響，尤其是在能源和金融市場。這種波瀾可能會持續一段時間，直到市場對川普言論和伊朗局勢的不確定性有所改善。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "f7d56666",
@@ -334,8 +588,8 @@
         "published_at": "Thu, 02 Apr 2026 12:10:22 +0800",
         "summary_zh": "聯邦銀行為推廣兒童藝術教育、打造良好親子關係並響應SDGs永續發展理念，舉辦第26屆「藝童愛媽咪‧愛地球」兒童環保繪圖比賽。比賽時間為即日起至115年4月28日，邀請國小及幼兒園學生參與。參賽學生可繪製環保題材的圖片，表達對地球的愛意。聯邦銀行希望通過這個活動，鼓勵學生培養環保意識和創造力。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "f255972d",
@@ -434,18 +688,6 @@
         "ai_classified": true
       },
       {
-        "id": "970fc695",
-        "title": "伊朗報復美企第一槍？亞馬遜巴林雲端設施傳遇襲起火",
-        "url": "https://www.cna.com.tw/news/aopl/202604020007.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 02 Apr 2026 02:57:04 +0800",
-        "summary_zh": "伊朗近日與美國關係緊張，美國對伊朗實施制裁，伊朗也對美國企業實施報復。根據路透社的報導，亞馬遜位於巴林的雲端運算業務在伊朗發動的攻擊中受損。這是伊朗對美國企業的報復之一，伊朗政府尚未對此事件發表任何聲明。這次事件可能會對全球雲端運算業務造成影響，亞馬遜也可能會面臨重大損失。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "8ba0cd6a",
         "title": "苗栗縣長鍾東錦訪日深化半導體布局 鏈結關鍵材料技術推動產業升級",
         "url": "https://money.udn.com/money/story/5635/9416365",
@@ -460,49 +702,85 @@
     ],
     "finance": [
       {
-        "id": "86f07b2e",
-        "title": "美國農民因伊朗戰爭而減少玉米種植，轉而種植更多的豆類作物",
-        "url": "https://www.reuters.com/world/us/us-farmers-plant-less-corn-iran-war-spikes-fertilizer-prices-2026-04-01/",
-        "source": "Reuters",
+        "id": "ab5a9beb",
+        "title": "SpaceX 提出上市申請，史上最大規模IPO程序啟動",
+        "url": "https://www.ft.com/content/c212f37a-031c-4475-b728-da053820a1bb",
+        "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-04-01 16:53:41",
-        "summary_zh": "美國農業部最新調查顯示，美國農民在2026年將比去年種植更少的玉米和更多的豆類作物。這是由於伊朗戰爭導致肥料和燃料價格大幅上升，對於已經受困的農業行業造成了新的打擊。美國農民面臨著高昂的肥料和燃料成本，影響了他們的種植計畫。這種情況可能會對美國的糧食安全和農業產業造成長期影響。美國農業部的調查結果顯示，美國農民正在調整自己的種植計畫，以應對高昂的成本和不確定的市場情況。",
+        "published_at": "2026-04-01 17:31:39",
+        "summary_zh": "SpaceX 正式提交了與美國證券交易委員會 (SEC) 的保密申請，啟動了史上最大規模的首次公開募股 (IPO) 程序。這項申請將使 SpaceX 成為全球首家上市的私人太空公司。根據目前的規劃，SpaceX 將在今年夏季進行上市交易。這項 IPO 的規模將遠超過 Uber 和 Airbnb 的上市交易，成為歷史上最大規模的 IPO。SpaceX 的上市交易將為公司注入大量資金，幫助公司繼續發展太空探索和星際交通的業務。這項 IPO 的成功將對全球太空業界產生重大影響，可能會吸引更多投資者進入太空行業。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "dcfe4cc0",
+        "title": "房屋貸款利率下降至八月高點後",
+        "url": "https://www.cnbc.com/video/2026/04/01/mortgage-rates-move-lower-after-retesting-august-highs.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-04-01 17:57:30",
+        "summary_zh": "房屋貸款利率近日出現下降趨勢。根據市場觀察，房屋貸款利率已經達到八月份的高點。這意味著房屋購買者現在有更好的機會獲得較低的貸款利率，從而減少房屋購買的成本。然而，這也可能對房屋業主造成影響，因為貸款利率下降可能會導致房屋價格下跌。房屋貸款利率的變化對於房屋市場的影響有多大，還需要觀察和監測。房屋貸款利率的下降可能會對房屋購買者和業主都造成影響，需要密切關注。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "04ad28d1",
+        "title": "全球掙扎求取柴油：一趟 12,000 英里之旅",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-01/a-12-000-mile-journey-shows-the-world-s-scramble-for-diesel",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-01 17:56:17",
+        "summary_zh": "柴油價格飆升，全球各國都在掙扎求取這種能源。根據一項調查，全球柴油價格已經達到歷史新高。這種情況下，全球各國都在尋找柴油的來源，包括從美國到中東的各個地區。這項調查顯示，全球柴油價格的飆升主要是由於供應鏈緊張和需求增加所致。這種情況下，全球各國都在掙扎求取柴油，從而導致柴油價格的持續上升。這項趨勢預計將持續下去，直到供應鏈得到改善和需求降低為止。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "355da06c",
-        "title": "阿根廷比索十年來首度成為避風港",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-01/after-decade-of-slumps-argentine-peso-becomes-surprise-haven",
+        "id": "fdff5b2b",
+        "title": "2025年黃金交易商創下新高 3.9億美元收益",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-01/gold-traders-made-a-record-3-9-billion-in-2025-coalition-says",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-04-01 16:46:50",
-        "summary_zh": "阿根廷比索近年來一直遭受嚴重貶值，卻在最近的市場波動中意外地成為避風港。這一轉變與阿根廷政府的經濟政策有關，政府試圖控制通貨膨脹並恢復經濟穩定。阿根廷的經濟情況一直受到國際市場的關注，尤其是在美洲國家發展銀行（IDB）和國際貨幣基金組織（IMF）提供的援助下，阿根廷政府試圖實現經濟轉型。然而，這一轉變也引發了投資者的擔憂，擔心阿根廷政府的政策會導致經濟不穩定。阿根廷的經濟情況仍然充滿挑戰，投資者需要密切關注政府的政策和經濟數據的變化。",
+        "published_at": "2026-04-01 17:50:31",
+        "summary_zh": "根據聯盟的報告，2025年黃金交易商創下了新高的收益，達到 3.9 億美元。這一成績表明黃金市場的活躍程度。然而，該報告並未披露更多細節，包括哪些交易商取得了如此高的收益，以及該收益的來源。這一成績可能是由於市場對黃金的需求增加，或者是由於交易商的投資策略改善所導致。無論如何，這一成績將對黃金市場產生重大影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b5db00bd",
+        "title": "Accor同意將酒店股份出售給黑石集團",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-01/accor-agrees-to-sell-hotel-stake-to-blackstone-consortium",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-01 17:45:36",
+        "summary_zh": "法國酒店巨頭Accor宣布同意將旗下酒店股份出售給黑石集團的投資合夥企業。這項交易將使黑石集團在Accor的股份擁有約20%。黑石集團的投資合夥企業將支付約€6.2億歐元購買Accor的酒店股份。這項交易將使Accor獲得約€4.5億歐元的現金收入。這項交易的完成將使Accor的股份在歐洲酒店市場上更加競爭力。Accor的酒店股份交易將在未來幾個月內完成。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "5ee275a5",
-        "title": "特斯拉葡萄牙銷售下滑 1.7% ",
-        "url": "https://www.reuters.com/business/tesla-sales-portugal-fall-17-march-2026-04-01/",
-        "source": "Reuters",
+        "id": "f7a59e46",
+        "title": "埃隆·馬斯克的SpaceX將成為一家上市公司",
+        "url": "https://www.bbc.com/news/articles/c2k35lg92dpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "finance",
-        "published_at": "2026-04-01 16:44:09",
-        "summary_zh": "根據葡萄牙汽車工業協會 (ACAP) 的數據，特斯拉在葡萄牙的新車登記量在 3 月份從去年同期下滑 1.7%，達到 1,189 台。與此同時，葡萄牙全國電動車銷量則上升 24%，達到 6,704 台。這些數據表明，葡萄牙電動車市場正逐漸成長，但特斯拉的市場份額卻在下滑。這可能是由於其他電動車品牌的銷量增長所致。",
-        "sentiment": "中性",
+        "published_at": "Wed, 01 Apr 2026 22:35:23 GMT",
+        "summary_zh": "埃隆·馬斯克的太空探索技術公司（SpaceX）宣布將成為一家上市公司，這將是歷史上最有價值的上市公司之一，同時也可能使馬斯克成為世界上第一個千億富豪。這一決定將對全球財經市場產生重大影響，同時也將使SpaceX的財務透明度提高。SpaceX的上市將使公司能夠籌集更多資金，進一步推進太空探索和星際旅行的發展。馬斯克的這一決定也將受到各界的關注和評估。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "373f47ad",
-        "title": "加州州政府等要求 10.3 億美元補償協助阻止 Kroger-Albertsons 合併",
-        "url": "https://www.reuters.com/legal/litigation/california-states-seek-103-million-helping-block-kroger-albertsons-merger-2026-04-01/",
+        "id": "9800765d",
+        "title": "SpaceX IPO 將測試市場的膽識，而非深度",
+        "url": "https://www.reuters.com/commentary/breakingviews/spacex-ipo-will-gauge-market-moxie-more-than-depth-2026-04-01/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-04-01 16:43:29",
-        "summary_zh": "加州州政府及其他州政府要求 10.3 億美元補償協助阻止 Kroger-Albertsons 合併。這項合併案曾引起廣泛關注，擔心會壟斷超市市場。加州州政府及其他州政府在 2022 年提出反對聲明，認為這項合併會對消費者造成不利影響。最終，聯邦法院裁定合併案無效。現在，州政府要求補償協助阻止合併的費用。這項要求將會進入法律程序。這項合併案的結果將對超市市場產生重大影響。消費者將會受到影響，超市業者也將會受到影響。這項事件的發展將會受到關注。",
+        "published_at": "2026-04-01 17:41:00",
+        "summary_zh": "SpaceX 即將進行首次公開募股（IPO），這項事件將測試市場對這家私人太空公司的膽識，而非其財務深度。SpaceX 的財務狀況一直是市場關注的焦點，公司的收入和支出都有著顯著的波動。然而，SpaceX 的創辦人伊隆·馬斯克（Elon Musk）一直堅持公司不需要公開募股來籌集資金。他認為，公司的財務狀況足以支持其未來的發展計畫。SpaceX 的IPO 將給市場提供一個機會來評估公司的財務狀況，並測試市場對這家私人太空公司的膽識。這項事件也將給投資者提供一個機會來了解SpaceX 的財務狀況和未來發展計畫。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -522,6 +800,30 @@
     ],
     "stock_us": [
       {
+        "id": "4b74e1fa",
+        "title": "華爾街對耐克失去耐心，轉型進展遲緩加劇中國市場衰退",
+        "url": "https://www.cnbc.com/2026/04/01/nike-q3-2026-turnaround-drags-china-sales-slump.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-01 17:45:58",
+        "summary_zh": "耐克公司預告其轉型進展比預期更遲緩，導致三家華爾街銀行將該公司股價下調。投資人對耐克的耐心逐漸喪失，市場預期耐克的轉型將需要更長時間來實現。耐克的轉型計畫旨在改善公司的財務表現和市場競爭力，但目前的進展顯示該計畫仍處於初期階段。同時，耐克也面臨著中國市場的衰退，這將對公司的財務表現產生重大影響。投資人對耐克的投資意欲逐漸下降，華爾街銀行的下調也反映了投資人對耐克未來發展的悲觀情緒。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "777c24a7",
+        "title": "適逢耶穌受難日 美股4/3休市1天",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5391114",
+        "source": "自由時報財經",
+        "category": "stock_us",
+        "published_at": "Thu, 02 Apr 2026 13:49:46 +0800",
+        "summary_zh": "美國股市與債市將因適逢耶穌受難日休市不進行交易。耶穌受難日是基督教紀念耶穌被釘十字架受難的莊嚴日子，定於復活節前一天。美國股市與債市每年都會因耶穌受難日休市，讓投資者有時間休息和反思。這一天的休市將對市場的運作產生影響，但對整體市場的走勢影響不大。投資者應該繼續關注市場的動態和趨勢，做好準備迎接未來的挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "822ccf3d",
         "title": "UBS建議買入這家天然食品色素製造商，因為美國企業正逐步棄用人工色素",
         "url": "https://www.cnbc.com/2026/04/01/buy-this-natural-food-dye-maker-as-us-firms-switch-from-artificial-alternatives-ubs-says.html",
@@ -530,8 +832,8 @@
         "published_at": "2026-04-01 16:30:01",
         "summary_zh": "UBS最近對這家天然食品色素製造商進行了評估，給予買入建議。根據UBS的分析，美國企業正逐步棄用人工色素，轉向天然色素。這一趨勢的背後原因是消費者對健康和環保的關注日益增強。UBS認為，這家公司正處於最佳位置，能夠滿足這一需求。該公司的天然色素產品不僅色彩豐富，而且安全性高，符合現代消費者的需求。UBS預測，這家公司的銷售將在未來幾年內持續增長。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "5900cb8f",
@@ -542,8 +844,8 @@
         "published_at": "2026-04-01 16:06:03",
         "summary_zh": "SpaceX 進一步接近公開上市，該公司秘密上市申請已經公佈，這使得比爾蓋茨創辦的 OpenAI 和 Anthropic 的 IPO 時間表面臨挑戰。SpaceX 的秘密上市申請是由一位熟悉該事項的人透露的，該人告訴路透社，這使得 Elon Musk 的火箭和衛星公司有可能在未來的 IPO 市場中佔據先機。這項消息對於 SpaceX 的未來發展具有重要意義，同時也使得市場對 OpenAI 和 Anthropic 的 IPO 時間表產生了新的猜測。SpaceX 的秘密上市申請表明該公司正積極準備在未來的 IPO 市場中佔據優勢，同時也使得市場對該公司未來的發展產生了新的期待。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c25030bc",
@@ -570,18 +872,6 @@
         "ai_classified": true
       },
       {
-        "id": "7fc7bd1f",
-        "title": "美股別急著抄底！美銀「1數據」揭露未見『買進』訊號",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5390925",
-        "source": "自由時報財經",
-        "category": "stock_us",
-        "published_at": "Thu, 02 Apr 2026 11:54:45 +0800",
-        "summary_zh": "美股近期下跌，引起投資者對抄底的討論。美銀最新報告顯示，隨著標普500單月跌5%，華爾街賣方情緒指標（SSI）降低，但降幅僅30個基點，約為去年關稅衝擊的5分之1。這意味著投資者仍然保持著悲觀的態度。美銀認為，目前市場未見買進的訊號，投資者應該保持謹慎。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "90d41ee2",
         "title": "Jefferies 分析師 Randy Konik: 對Nike 股票 '非常有吸引力'",
         "url": "https://www.cnbc.com/video/2026/04/01/jefferies-analyst-randy-konik-on-why-nike-stock-is-very-attractive-at-todays-levels.html",
@@ -594,220 +884,14 @@
         "ai_classified": true
       },
       {
-        "id": "3f29e155",
-        "title": "美聯儲降息難度加大",
-        "url": "https://www.cnbc.com/video/2026/04/01/its-getting-harder-for-the-fed-to-cut-rates-says-wharton-professor-jeremy-siegel.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-04-01 14:26:48",
-        "summary_zh": "美國聯邦儲備委員會降息難度加大。Wharton商學院教授Jeremy Siegel表示，美聯儲降息的難度正在增加。Siegel是Wisdomtree的首席經濟學家，最近出席了《Squawk on the Street》節目，與主持人討論了石油價格、伊朗戰爭等議題。石油價格的波動將對全球經濟產生重大影響。伊朗戰爭的爆發將進一步壓低石油價格，從而使美聯儲降息的難度加大。Siegel認為，美聯儲降息的難度加大將對全球經濟產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c398711a",
-        "title": "中東終戰現曙光 美股受激勵收高",
-        "url": "https://www.cna.com.tw/news/afe/202604020010.aspx",
-        "source": "中央社財經",
-        "category": "stock_us",
-        "published_at": "Thu, 02 Apr 2026 04:40:12 +0800",
-        "summary_zh": "美股主要指數今天收高，受美國總統川普（Donald Trump）暗示中東衝突可能已接近尾聲的影響。Google母公司Alphabet等權值股也表現出強勁的漲勢。這一發展讓投資者感到樂觀，市場預期中東局勢的改善將對全球經濟產生正面影響。然而，投資者也認為，中東局勢的變化仍然充滿不確定性，需要密切關注。總的來說，今天的市場表現是積極的，投資者對未來的預期也相當樂觀。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "18ad9810",
-        "title": "黃金大暴走！川普演說1句話金價重挫逾3％ 專家警告將下探「此價位」",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5390854",
+        "id": "7fc7bd1f",
+        "title": "美股別急著抄底！美銀「1數據」揭露未見『買進』訊號",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5390925",
         "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 12:23:32 +0800",
-        "summary_zh": "美國總統川普就伊朗戰事發表全美電視演說，宣稱對伊朗戰事取得「壓倒性勝利」，將在未來2到3週將開展極其嚴厲的打擊。演說完畢後，全球金融市場下挫，黃金現貨日內每盎司一度重挫逾3％。專家警告，金價將下探「此價位」，市場情緒緊繃。伊朗戰事的升級可能會對全球金融市場造成重大影響，投資者應該保持警覺。",
+        "category": "stock_us",
+        "published_at": "Thu, 02 Apr 2026 11:54:45 +0800",
+        "summary_zh": "美股近期下跌，引起投資者對抄底的討論。美銀最新報告顯示，隨著標普500單月跌5%，華爾街賣方情緒指標（SSI）降低，但降幅僅30個基點，約為去年關稅衝擊的5分之1。這意味著投資者仍然保持著悲觀的態度。美銀認為，目前市場未見買進的訊號，投資者應該保持謹慎。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "801aecc6",
-        "title": "CFR的Michael Froman表示伊朗可以繼續對全球經濟造成破壞",
-        "url": "https://www.cnbc.com/video/2026/04/01/iran-can-continue-to-wreak-havoc-on-the-global-economy-says-cfrs-michael-froman.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-04-01 15:20:45",
-        "summary_zh": "伊朗戰爭對全球經濟造成了重大影響，伊朗可以繼續對全球經濟造成破壞。伊朗戰爭的影響不僅限於伊朗本身，還會對全球經濟產生重大影響。伊朗的戰爭導致了石油價格的上升，對全球經濟造成了重大影響。CFR的Michael Froman表示，伊朗可以繼續對全球經濟造成破壞，直到伊朗的戰爭結束。伊朗的戰爭對全球經濟造成了重大影響，需要全球各國共同努力來解決。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "eb5c52fc",
-        "title": "美伊終戰現曙光 國際油價下跌",
-        "url": "https://www.cna.com.tw/news/afe/202604020011.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 04:50:14 +0800",
-        "summary_zh": "美國總統川普即將發表演說，引發市場關注他是否會宣布結束與伊朗的戰爭。這一消息使得國際油價今天下跌。市場人士認為，如果川普宣布結束戰爭，將會對全球油價產生重大影響。伊朗與美國的戰爭已經持續了數月，對油價造成了重大壓力。川普的演說將對市場產生重大影響，交易員將密切關注他的演說內容。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "de60d8a6",
-        "title": "觀看阿特米斯二號飛船發射升空的瞬間！",
-        "url": "https://www.bbc.com/news/videos/cwydnrmggnno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 01 Apr 2026 23:00:39 GMT",
-        "summary_zh": "阿特米斯二號飛船終於在佛羅里達州發射升空，結束了50年來首次載人月球任務的延遲和技術問題。飛船已經進入地球的軌道，正式啟動了載人月球探索計畫。這次任務標誌著美國再次嘗試登月，展開了新的太空探索旅程。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4e1e7d1a",
-        "title": "以色列加強黎巴嫩攻擊，打擊非真主黨控制區域",
-        "url": "https://www.bbc.com/news/articles/cvg07j6yeweo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 01 Apr 2026 10:33:35 GMT",
-        "summary_zh": "以色列近日加強對黎巴嫩的攻擊，宣布意圖控制黎巴嫩南部的大片區域。這一行動引發了黎巴嫩政府的強烈反應。根據目前的情報，真主黨雖然在黎巴嫩南部有影響力，但並非控制所有區域。以色列的攻擊行動可能會導致黎巴嫩境內的局勢惡化。這一發展也引起了國際社會的關注，各國政府正在密切關注以色列和黎巴嫩之間的局勢發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "91ae1863",
-        "title": "百度自駕車大規模故障停擺中國城市交通",
-        "url": "https://www.bbc.com/news/articles/cvge91r9j80o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 01 Apr 2026 11:34:31 GMT",
-        "summary_zh": "近日，一場百度自駕車大規模故障在中國某城市引起交通癱瘓。據報導，至少有100輛自駕車受影響。百度方面尚未回應有關此事的評論。這次事件的原因尚未明朗，但已引起關注。百度的自駕車技術曾經被視為中國的自駕車領先者，但這次故障卻讓人質疑其可靠性。這是否標誌著中國自駕車技術的發展遇到瓶頸？未來將如何發展？這些問題都將在未來的發展中被逐步揭露。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "eddf93db",
-        "title": "希臘列車碰撞案：57人遇難，36人被控罪",
-        "url": "https://www.bbc.com/news/articles/cx2wq13758no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 01 Apr 2026 16:30:17 GMT",
-        "summary_zh": "希臘歷史上最嚴重的列車碰撞事故發生於2023年，造成57人死亡。今年，36名被告將面臨多年的審判。這起事故的受害者家屬紛紛湧入法院，為了爭取正義。希臘政府已經承諾會對事故負責，並將採取措施改善鐵路安全。然而，這起事故的審判將是一個漫長的過程，受害者家屬將面臨長達數年的等待。希臘政府的措施是否足夠，還有待觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0f95d93c",
-        "title": "意大利球迷與管理層懷疑自己陷入「第三次末日」",
-        "url": "https://www.bbc.com/news/articles/cj943rmkkm4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 01 Apr 2026 12:05:34 GMT",
-        "summary_zh": "意大利國家足球隊在連續兩屆世界盃失利後，再度未能晉級世界盃。球迷和管理層紛紛思考自己在這次失利背後的原因。意大利足球的下一步發展方向，引起了各界的關注。這次失利對於意大利足球的影響有多大？未來該如何改善？意大利球迷和管理層將如何應對這次失利？這些問題都將在未來的發展中得到回答。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7e83ab70",
-        "title": "布隆迪彈藥儲存庫爆炸，平民傷亡",
-        "url": "https://www.bbc.com/news/articles/c5y7x7qre0zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 01 Apr 2026 16:26:19 GMT",
-        "summary_zh": "布隆迪首都布瓮拉城發生彈藥儲存庫爆炸，造成大量平民傷亡。爆炸發生於當地時間星期二晚上，引發了嚴重的恐慌，許多房屋被毀壞。目擊者表示，爆炸聲音非常巨大，震動了整個城市。爆炸造成的傷亡人數尚未公布，但已知有多人受傷。布隆迪政府尚未對爆炸事件發表任何聲明。這次爆炸事件引發了國際社會的關注，許多人呼籲布隆迪政府採取措施防止類似事件再次發生。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "986dfeee",
-        "title": "巴西法官阻止糖山滑索計畫",
-        "url": "https://www.bbc.com/news/articles/cx29e3wljj2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 01 Apr 2026 11:17:18 GMT",
-        "summary_zh": "巴西的一名法官決定阻止建造連接里約熱內盧著名觀光景點糖山和莫羅達烏卡的滑索計畫。這個計畫引起了爭議，許多人對於這個計畫的風險和影響表達了擔憂。法官的決定意味著這個計畫暫時被擱置，未來是否會重新啟動仍待觀察。這個決定可能會對巴西的觀光業產生影響，同時也會讓當地居民對於政府的決策表達不滿。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ba3e77de",
-        "title": "南非軍隊抵達犯罪高發區域協助打擊黑幫",
-        "url": "https://www.bbc.com/news/articles/cx2e78yk09no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 01 Apr 2026 14:35:00 GMT",
-        "summary_zh": "南非政府決定將軍隊部署至該國九個省份中五個犯罪高發區域，展開一年長的行動。這項行動旨在應對南非面臨的嚴重犯罪問題，特別是黑幫活動的擴散。軍隊的到來將會與警察合作，共同維持治安並保護民眾。這項行動的目標是降低犯罪率並恢復社會秩序。南非政府希望通過這項行動，能夠有效地打擊黑幫活動並改善民眾的安全感。然而，這項行動也引發了民眾對政府管控和軍隊介入的擔憂。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "aa54072f",
-        "title": "伊朗戰爭經濟震盪將持續『數月』 澳洲總理警告",
-        "url": "https://www.bbc.com/news/articles/cvg4nre8nl9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 01 Apr 2026 10:53:03 GMT",
-        "summary_zh": "澳洲總理安東尼·阿爾巴尼澤在罕見的電視講話中告訴澳洲人，伊朗戰爭的全球影響將持續數月。伊朗戰爭對全球經濟的影響正在逐漸顯現，澳洲總理警告澳洲人，未來幾個月可能不會容易。伊朗戰爭的影響不僅影響伊朗本身，也影響到全球各國的經濟，包括澳洲。澳洲總理呼籲澳洲人做好準備，面對未來的挑戰。伊朗戰爭的持續時間和影響力仍然不明朗，澳洲總理的警告表明，澳洲政府正在密切關注這一情況。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b637137f",
-        "title": "剛果民主共和國宣布國定假日，52年來首次晉級世界盃決賽",
-        "url": "https://www.bbc.com/news/articles/cm296yv05eeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 01 Apr 2026 15:13:13 GMT",
-        "summary_zh": "剛果民主共和國在52年來首次晉級世界盃決賽，引發了喀麥隆首都金沙薩的慶祝活動。這是該國第二次晉級世界盃決賽，國內民眾對此感到極度興奮。剛果民主共和國政府為此宣布國定假日，讓民眾可以自由慶祝。這項成就對剛果民主共和國來說是一個重大突破，證明了該國足球隊的實力和團隊精神。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fa50853a",
-        "title": "中國試圖在伊朗戰爭中扮演和平使者 - 這會成功嗎?",
-        "url": "https://www.bbc.com/news/articles/cze0kz7gr84o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 01 Apr 2026 07:16:15 GMT",
-        "summary_zh": "中國近日試圖在伊朗戰爭中扮演和平使者的角色，這是北京官方的轉變之一。中國為什麼現在才出手？根據外界分析，中國的動機可能是為了維護其在全球經濟中的重要地位。中國是世界上第二大經濟體，同時也是世界上最大的石油進口國。伊朗是世界上第四大石油出口國，中國對伊朗的石油需求量很大。中國的出手，可能是為了保護其石油供應鏈和經濟利益。同時，中國也可能是為了避免伊朗戰爭對全球經濟的不利影響。伊朗戰爭可能會導致石油價格上升，從而對全球經濟產生不利影響。中國的出手，可能是為了保護其經濟利益和避免全球經濟的不利影響。然而，中國的出手是否會成功，還需要觀察和等待。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "26e8757e",
-        "title": "史丹佛大學贏得保留毛澤東秘書日記的戰鬥",
-        "url": "https://www.bbc.com/news/articles/czxry0nyq5xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 01 Apr 2026 09:31:37 GMT",
-        "summary_zh": "史丹佛大學宣布，該校取得毛澤東秘書的日記，日記中提到天安門事件，若將日記返還給北京，將會被禁止。這些日記被視為重要歷史文獻，對於了解毛澤東和中共的歷史有重要意義。然而，中國政府可能會反對這項決定，認為這些日記是中國內部事務。這項爭議可能會引起國際關注，對於中美關係的影響也值得關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "78b86828",
-        "title": "印度海員在伊朗被扣留近一年終獲釋回國",
-        "url": "https://www.bbc.com/news/articles/cvgkn9379pqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 01 Apr 2026 06:15:42 GMT",
-        "summary_zh": "印度海員在伊朗被扣留近一年，據報導，這批海員的船隻在去年12月被伊朗扣押。令人驚訝的是，這批海員在伊朗扣押的船隻在伊朗與烏克蘭發生戰爭前一天就已經收到釋放令。這批印度海員的釋放令在伊朗與烏克蘭爆發戰爭前一天發出，讓人感到驚訝。這批海員在被扣留期間經歷了許多困難和挑戰。根據印度政府的說法，這批海員的釋放是由於他們的船隻在伊朗扣押期間沒有參與任何戰爭活動。這批海員的釋放令是由伊朗政府發出的，讓人感到欣慰。這批印度海員的釋放將會給他們帶來新的希望和機會。",
-        "sentiment": "正面",
         "is_breaking": true,
         "ai_classified": true
       }
