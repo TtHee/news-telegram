@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-03T11:04:04.725865+08:00",
+  "generated_at": "2026-04-03T12:04:04.762042+08:00",
   "risk_signals": [
     "🟢 台股加權 32572.43（正常）",
     "🟢 S&P 500 6582.69（正常）",
     "🟡 VIX 恐慌指數 23.87（留意）",
     "🟢 MOVE 債市波動 84.41（正常）",
-    "🟢 美元指數 100.04（正常）",
-    "🟢 黃金 4702.7（正常）",
+    "🟢 美元指數 100.05（正常）",
+    "🟢 黃金 4651.5（正常）",
     "🟢 美債10Y殖利率 4.31（正常）",
-    "🔴 原油 WTI 112.06（急漲 +11.93%，市場避險）",
-    "🟢 美元/台幣 31.94（正常）"
+    "🔴 原油 WTI 111.54（急漲 +11.41%，市場避險）",
+    "🟢 美元/台幣 31.95（正常）"
   ],
-  "ai_summary": "市場氛圍偏於偏險，原油急漲引發市場避險情緒，台股則因為美元指數升值而受累。",
+  "ai_summary": "市場氛圍偏緊張，原油急漲引發市場避險情緒，VIX 恐慌指數升高，台股下跌近 2%。",
   "market": {
     "TWII": {
       "price": 32572.43,
@@ -35,27 +35,245 @@
     },
     "MOVE": {
       "price": 84.41,
-      "change_pct": -6.4
+      "change_pct": -6.41
     },
     "DXY": {
-      "price": 100.04,
-      "change_pct": 0.01
+      "price": 100.05,
+      "change_pct": 0.02
     },
     "GOLD": {
-      "price": 4702.7,
-      "change_pct": -1.68
+      "price": 4651.5,
+      "change_pct": -2.75
     },
     "OIL": {
-      "price": 112.06,
-      "change_pct": 11.93
+      "price": 111.54,
+      "change_pct": 11.41
     },
     "USDTWD": {
-      "price": 31.94,
-      "change_pct": -0.19
+      "price": 31.95,
+      "change_pct": -0.17
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "3ca99e74",
+        "title": "阿特米斯二號飛船越過月球背面關口",
+        "url": "https://www.bbc.com/news/articles/c937g7nd5x4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 03 Apr 2026 03:35:28 GMT",
+        "summary_zh": "阿特米斯二號飛船的最後一次重大推進，將人類送入月球軌道，距月球背面僅一步之遙。自 1972 年以來，這是第一次有人類飛船成功離開地球軌道，進入月球軌道。這項任務標誌著人類在月球探索的重大里程碑，展現了太空探索的進步和挑戰。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2a1097a5",
+        "title": "一個月來的戰爭，伊朗民眾日益絕望：『我已經幾天沒睡了』",
+        "url": "https://www.bbc.com/news/articles/crm1vj941x9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 16:09:24 GMT",
+        "summary_zh": "伊朗戰爭已經持續一個月，伊朗民眾面臨著日益惡化的經濟困難和恐懼。伊朗各地的平民描述了戰爭的擴大、經濟痛苦和鎮壓的恐懼。伊朗民眾的日常生活受到戰爭的影響，許多人面臨著經濟困難和恐懼的生活。伊朗政府的鎮壓政策也使得民眾感到恐懼。伊朗民眾的絕望感日益加深，許多人表達了對未來的擔憂。伊朗政府應該採取措施解決民眾的經濟困難和恐懼感。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6511821d",
+        "title": "伊朗戰爭可能使印度啤酒和瓶裝水更貴",
+        "url": "https://www.bbc.com/news/articles/c5ywqky5dd7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 23:16:37 GMT",
+        "summary_zh": "伊朗戰爭對印度啤酒和瓶裝水的影響正在出現。伊朗是印度瓶裝水和啤酒生產商重要的原材料供應商之一。由於戰爭，供應鏈受到影響，瓶裝水和啤酒生產商難以獲得原材料。這將導致瓶裝水和啤酒的價格上漲。印度政府正在積極尋找替代供應商來解決這個問題。這個問題不僅影響瓶裝水和啤酒的生產，也影響了印度的消費者。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c5262f83",
+        "title": "馬克宏批評川普對伊朗戰爭的態度：不要每天都說話，別太認真不認真",
+        "url": "https://www.bbc.com/news/articles/cevk0e4ykwko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 13:41:27 GMT",
+        "summary_zh": "法國總統馬克宏最近在會議上批評美國總統川普對伊朗戰爭的態度。馬克宏的評論被視為對川普有時候矛盾的立場的批評。川普政府與以色列政府共同對抗伊朗的戰爭已經持續了一段時間。馬克宏的評論表明了他對川普政府的戰爭政策有所擔憂。這也可能是法國與美國在伊朗問題上的分歧。馬克宏的評論也引起了對川普政府戰爭政策的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "04269d44",
+        "title": "觀看CNBC專訪前摩根士丹利亞洲主席史蒂芬·羅奇",
+        "url": "https://www.cnbc.com/video/2026/04/02/watch-cnbcs-full-interview-with-former-morgan-stanley-asia-chair-stephen-roach.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-04-02 14:57:11",
+        "summary_zh": "前摩根士丹利亞洲主席史蒂芬·羅奇接受CNBC專訪，與觀眾分享他對伊朗戰爭對全球大國平衡、中國等議題的看法。羅奇表示，伊朗戰爭可能會對全球大國平衡產生重大影響，中國可能會因為伊朗戰爭而受益。同時，他也提到中國的經濟發展和全球貿易的重要性。羅奇的看法提供了對全球政治和經濟發展的獨特視角。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0d06fcc7",
+        "title": "巴西通過新法，分居夫妻共享寵物撫養權",
+        "url": "https://www.bbc.com/news/articles/ce8jzn180x2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 09:38:08 GMT",
+        "summary_zh": "巴西國會議員於週二通過了一項新法，將寵物的撫養權賦予分居夫妻共同擁有。這項法律變革被視為巴西人對寵物的重視程度的一個反映。根據新法，分居夫妻雙方均有權對寵物進行撫養和照顧，無論是男方還是女方，都不再需要爭取寵物撫養權的獨立判決。這項法律變革將對巴西的寵物撫養權制度產生重大影響，讓更多的寵物主人能夠與其寵物共享生活。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "92da3c10",
+        "title": "伊朗兩大鋼廠因罷工停產，公司表示",
+        "url": "https://www.bbc.com/news/articles/c1w4pdexxqpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 17:01:08 GMT",
+        "summary_zh": "伊朗政府指責以色列與美國在上周共同策劃了這次罷工。這次罷工可能對伊朗經濟造成重大損害。伊朗兩大鋼廠的停產將對該國鋼鐵產業造成嚴重影響，同時也會對伊朗的出口業和就業市場產生影響。伊朗政府將會採取措施應對這次罷工，試圖恢復鋼廠的正常運作。然而，罷工的持續時間和結果仍然不明朗，伊朗經濟的未來發展也面臨著不確定性。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "20150df4",
+        "title": "川普再次威脅伊朗 美國原油價格大漲逾11%",
+        "url": "https://www.cna.com.tw/news/afe/202604030006.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Fri, 03 Apr 2026 04:24:36 +0800",
+        "summary_zh": "美國原油價格今天大漲超過11%，布倫特原油也上漲近8%，主要原因是美國總統川普再次威脅伊朗，表示美國將持續攻擊伊朗。這種威脅讓市場擔心原油供應會長期受到影響，進而導致油價大幅上漲。這種情況下，油市走勢變得非常不穩定，投資者都在關注著美國和伊朗之間的關係是否會進一步惡化。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "59a3b06d",
+        "title": "荷蘭古金盔一年後被挖出",
+        "url": "https://www.bbc.com/news/articles/cpvxj4jzvvvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 14:20:02 GMT",
+        "summary_zh": "荷蘭一件古金盔在2025年1月被盜竊，但今年才被挖出。盜竊案中，除了金盔外還有三條金手鐲被盜竊，但其中一條仍然未被找到。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "33e9fbec",
+        "title": "希臘男子在暴雨中遇難，克里特島被沙漠塵暴籠罩",
+        "url": "https://www.bbc.com/news/articles/c070d9g5k7jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 17:32:25 GMT",
+        "summary_zh": "希臘近日遭遇嚴重的暴雨和沙漠塵暴，導致多個地區出現嚴重的洪水和塵暴。其中，克里特島被沙漠塵暴籠罩，天空被一層厚厚的塵埃籠罩，視線遮蔽。同時，希臘首都雅典附近也出現嚴重的洪水，造成至少一名男子遇難。這場天氣災害對希臘的交通和生活造成了嚴重的影響，政府正在努力應對這場天氣災害。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ba16272d",
+        "title": "伊朗諾貝爾獎得主在監獄中疑似心臟病發，家屬擔心生命安全",
+        "url": "https://www.bbc.com/news/articles/cdj7xye8knxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 16:00:58 GMT",
+        "summary_zh": "伊朗諾貝爾和平獎得主納吉斯·穆罕默迪(Narges Mohammadi)被關押在監獄中，據她的兄弟透露，她可能在監獄中遭遇心臟病發。兄弟表示，他擔心她的生命安全，要求將她轉移到醫院進行治療。伊朗政府對她的處置引起了國際社會的關注。納吉斯·穆罕默迪曾因為她的人權活動而被捕，目前仍在監獄中服刑。她的兄弟的聲明表明，她的健康狀況可能不佳，需要及時的醫療照護。這一事件再次引發了對伊朗政府人權記錄的批評和擔憂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "981f820e",
+        "title": "烏干達幼兒園四名幼童遭刺殺",
+        "url": "https://www.bbc.com/news/articles/cq8wzklp834o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 21:23:44 GMT",
+        "summary_zh": "烏干達一所幼兒園發生慘劇，四名幼童遭刺殺。警方表示，嫌疑人已被拘捕，但其動機仍不明。這起事件引起了全國的震撼，許多人對此感到悲痛和愤怒。警方正在調查此案，試圖找出真相。這個事件也引起了對兒童安全和教育系統的關注。烏干達政府應該採取措施確保兒童的安全和福祉。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "43484469",
+        "title": "「令人毛骨悚然的谷底」：伊朗對美國科技威脅、川普的中期選舉計畫和Polymarket的DC酒吧失敗",
+        "url": "https://www.wired.com/story/uncanny-valley-podcast-iran-targets-us-tech-polymarket-pop-up-trump-midterms/",
+        "source": "Wired AI",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 21:04:22 +0000",
+        "summary_zh": "伊朗政府近日對美國科技企業發出威脅，表示將針對美國科技公司進行攻擊。這項威脅引起了美國政府的關注，美國政府正在評估對伊朗的回應。另一方面，川普政府正積極籌備中期選舉，預計將發表多項政策計畫。另外，DC的Polymarket酒吧最近開幕，但卻因為技術問題而導致失敗。這些事件都引起了美國政治界的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "35af32df",
+        "title": "石油價格飆升，塑膠可能是下一個受影響的產業",
+        "url": "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/",
+        "source": "MIT Tech Review",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 10:00:00 +0000",
+        "summary_zh": "中東戰爭持續進行，霍爾木茲海峽封鎖，全球經濟波動的影響已經出現。尤其是石油價格的波動，汽油價格已經超過每加侖 4 美元。這種情況下，石油價格的上漲會對塑膠產業產生什麼影響呢？根據目前的情況，塑膠的原材料價格可能會上漲，從而影響塑膠產品的價格。這種情況下，塑膠產業可能會面臨新的挑戰。然而，塑膠產業也可能會找到新的機會，例如轉向可再生材料或開發新的生產技術。最終，塑膠產業的未來將取決於市場的變化和產業的應對能力。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ce4cdde0",
+        "title": "歐洲的未被發現的軍備庫",
+        "url": "https://www.foreignaffairs.com/europes-untapped-arsenal",
+        "source": "Foreign Affairs",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 09:17:00 -0400",
+        "summary_zh": "在俄羅斯入侵烏克蘭的背景下，烏克蘭迅速發展了自己的國防工業，成為歐洲所需的防衛工業。烏克蘭的國防工業發展迅速，為歐洲提供了新的軍備供應來源。這項發展對於歐洲的安全和穩定具有重要意義。烏克蘭的國防工業不僅提供了新的軍備供應來源，也為歐洲的經濟帶來新的機會。然而，這項發展也引發了對烏克蘭未來發展的關注和擔憂。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "24552125",
+        "title": "川普矢言繼續攻擊伊朗 國際油價衝上110美元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5391941",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Fri, 03 Apr 2026 08:52:15 +0800",
+        "summary_zh": "美國總統川普誓言將在未來幾週內升級伊朗戰爭，導致荷姆茲海峽能源流動中斷時間可能進一步延長。這使得國際油價週四反彈至每桶110美元。伊朗戰爭的升級將對全球經濟產生重大影響，特別是在能源出口國。荷姆茲海峽是全球石油輸送的重要通道，中斷將嚴重影響全球油價。川普的言論使得投資者擔心戰爭的升級將導致油價大幅上漲。這將對能源出口國的經濟產生重大影響，同時也會對全球經濟產生波及效應。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "72b24ccc",
+        "title": "烏干達接收首批美國遣返飛機",
+        "url": "https://www.theguardian.com/us-news/2026/apr/02/uganda-receives-first-us-deportation-flight-under-third-country-agreement",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 16:37:12 GMT",
+        "summary_zh": "烏干達近日接收了首批來自美國的遣返飛機，這是美國政府與第三國合作的新一波移民遣返行動。根據路透社報導，來自美國的十二名被遣返者已經抵達烏干達。根據一名烏干達政府高官的說法，這些被遣返者將暫時在該國居住，等待被轉介到其他國家。然而，這項行動引起了法律挑戰和批評，許多人認為這是一個「人道主義問題」。美國政府的移民政策一直受到爭議，許多人質疑該國的移民政策是否合理和公平。烏干達政府的表態也引起了關注，該國是否有能力接收和處理這些被遣返者。這項行動的影響將如何，尚待觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "82c5916c",
+        "title": "加拿大廣播公司揭露魁北克大型楓糖生產商涉嫌楓糖詐騙案",
+        "url": "https://www.theguardian.com/world/2026/apr/02/maple-syrup-scam-quebec-canada",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 02 Apr 2026 19:07:20 GMT",
+        "summary_zh": "加拿大廣播公司調查發現魁北克一家大型楓糖生產商涉嫌將楓糖稀釋成糖水，並將這種偽造的楓糖出售給超市連鎖店。調查人員使用假身份和隱蔽錄音進行了釣魚行動，發現一家超市連鎖店出售的低成本楓糖實際上是被嚴重稀釋的。該公司的楓糖被檢測出含有來自甘蔗的糖分。調查人員還發現該公司的楓糖被出售給多家超市連鎖店，影響了數百萬顆楓糖的銷售。這一事件引起了楓糖產業界的關注，許多人質疑該公司的誠信。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
       {
         "id": "b6ca0360",
@@ -116,18 +334,6 @@
         "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "55035756",
-        "title": "川普表示將簽署命令支付國土安全部員工薪水",
-        "url": "https://www.reuters.com/world/us/trump-says-he-will-sign-order-pay-dhs-employees-2026-04-02/",
-        "source": "Reuters",
-        "category": "whitehouse",
-        "published_at": "2026-04-02 14:47:30",
-        "summary_zh": "美國前總統川普表示，他將簽署命令支付國土安全部員工的薪水。這項命令是針對政府停擺期間，國土安全部員工未能收到薪水的情況。川普的這一決定，可能會對國土安全部的運作產生影響。分析人士認為，這一決定可能是為了在2024年總統選舉中，爭取國土安全部員工的支持。川普的決定還可能會對政府停擺的影響產生影響。政府停擱對美國的經濟和政治產生了重大影響，川普的決定可能會對政府停擱的結束產生影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
       },
       {
         "id": "527ea905",
@@ -226,42 +432,6 @@
         "ai_classified": true
       },
       {
-        "id": "67092a89",
-        "title": "一場偶然相遇如何影響加拿大人傑瑞米·漢森前往月球的任務",
-        "url": "https://www.bbc.com/news/articles/cy81n289739o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 02 Apr 2026 09:28:23 GMT",
-        "summary_zh": "加拿大籍宇航員傑瑞米·漢森自小對太空充滿著夢想，他的這個夢想源於對尼爾·阿姆斯特朗的一張照片。這張照片對於漢森來說是一個轉折點，讓他開始追求成為宇航員的夢想。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "86d1f8a1",
-        "title": "川普稱伊朗戰爭目標「接近完成」在對全國的演說",
-        "url": "https://www.bbc.com/news/articles/cql72qk97gpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 02 Apr 2026 11:33:18 GMT",
-        "summary_zh": "川普總統在對全國的演說中表示，伊朗戰爭的目標「接近完成」。然而，這次演說並未能平息市場的不安。伊朗戰爭的爆發導致全球市場出現波動，投資者對未來的不確定性感到擔憂。川普的演說中強調了美國的決心和堅定立場，但市場仍然對戰爭的進展感到擔憂。這次演說的效果不明顯，市場仍然處於波動狀態。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b59ee25c",
-        "title": "馬克宏批評川普評論婚姻不合適",
-        "url": "https://www.bbc.com/news/videos/c70dxqp0q2do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 02 Apr 2026 12:33:03 GMT",
-        "summary_zh": "法國總統馬克宏對川普評論其婚姻的言論表示不滿，稱其「不合適也不符合標準」。這些評論出自川普對馬克宏婚姻的評論，法國總統馬克宏的妻子布里吉特·馬克宏在2017年與法國總統結婚。川普的評論被視為不恰當，馬克宏的回應表明了對川普言論的不滿。這樁事件可能會對兩國的關係產生影響，展現了兩國領導人的不同風格和態度。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "e769e22c",
         "title": "邦迪表示會繼續為川普辯護　川普將她免職　美國總統對她處理艾普斯坦檔案感到不滿",
         "url": "https://www.theguardian.com/us-news/live/2026/apr/02/trump-white-house-ballroom-republicans-dhs-funding-deal-tariffs-latest-news-updates",
@@ -298,6 +468,42 @@
         "ai_classified": true
       },
       {
+        "id": "67092a89",
+        "title": "一場偶然相遇如何影響加拿大人傑瑞米·漢森前往月球的任務",
+        "url": "https://www.bbc.com/news/articles/cy81n289739o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 02 Apr 2026 09:28:23 GMT",
+        "summary_zh": "加拿大籍宇航員傑瑞米·漢森自小對太空充滿著夢想，他的這個夢想源於對尼爾·阿姆斯特朗的一張照片。這張照片對於漢森來說是一個轉折點，讓他開始追求成為宇航員的夢想。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "86d1f8a1",
+        "title": "川普稱伊朗戰爭目標「接近完成」在對全國的演說",
+        "url": "https://www.bbc.com/news/articles/cql72qk97gpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 02 Apr 2026 11:33:18 GMT",
+        "summary_zh": "川普總統在對全國的演說中表示，伊朗戰爭的目標「接近完成」。然而，這次演說並未能平息市場的不安。伊朗戰爭的爆發導致全球市場出現波動，投資者對未來的不確定性感到擔憂。川普的演說中強調了美國的決心和堅定立場，但市場仍然對戰爭的進展感到擔憂。這次演說的效果不明顯，市場仍然處於波動狀態。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b59ee25c",
+        "title": "馬克宏批評川普評論婚姻不合適",
+        "url": "https://www.bbc.com/news/videos/c70dxqp0q2do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 02 Apr 2026 12:33:03 GMT",
+        "summary_zh": "法國總統馬克宏對川普評論其婚姻的言論表示不滿，稱其「不合適也不符合標準」。這些評論出自川普對馬克宏婚姻的評論，法國總統馬克宏的妻子布里吉特·馬克宏在2017年與法國總統結婚。川普的評論被視為不恰當，馬克宏的回應表明了對川普言論的不滿。這樁事件可能會對兩國的關係產生影響，展現了兩國領導人的不同風格和態度。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "5600ed77",
         "title": "哥斯達黎加與美國簽署協議，接收美方遣返的非法移民",
         "url": "https://www.theguardian.com/us-news/2026/apr/02/trump-costa-rica-deported-migrants-deal",
@@ -318,248 +524,6 @@
         "published_at": "Thu, 02 Apr 2026 10:53:26 GMT",
         "summary_zh": "美國政府近日宣布解除對委內瑞拉代理總統德爾西·羅德里格茲的制裁，這是美委兩國關係正常化的一步。去年1月，美國軍方曾拘捕委內瑞拉總統尼古拉斯·馬杜羅和他的妻子，並將他們帶往紐約，指控他們涉嫌販毒。馬杜羅夫婦否認了這項指控。這次解除制裁的決定，意味著美國正在朝著恢復兩國之間的正常關係邁進。然而，美委關係的改善仍面臨許多挑戰和不確定性。",
         "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5237d77c",
-        "title": "川普總統將邦迪律政長官換下，白宮大廳獲准",
-        "url": "https://thehill.com/homenews/administration/5811509-live-updates-trump-iran-ballroom/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Thu, 02 Apr 2026 21:02:50 +0000",
-        "summary_zh": "川普總統宣布律政長官邦迪將被換下，由副長官布蘭奇擔任臨時長官。川普在社交媒體Truth Social上發表聲明，表示邦迪將會轉往私部門工作，具體職位將在未來公布。這一變動發生在白宮大廳獲准舉行舞會之際。川普總統此舉引起了外界的關注，許多人紛紛猜測邦迪將會前往何處工作。這一變動也引發了對美國司法部未來走向的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "2a1097a5",
-        "title": "一個月來的戰爭，伊朗民眾日益絕望：『我已經幾天沒睡了』",
-        "url": "https://www.bbc.com/news/articles/crm1vj941x9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 16:09:24 GMT",
-        "summary_zh": "伊朗戰爭已經持續一個月，伊朗民眾面臨著日益惡化的經濟困難和恐懼。伊朗各地的平民描述了戰爭的擴大、經濟痛苦和鎮壓的恐懼。伊朗民眾的日常生活受到戰爭的影響，許多人面臨著經濟困難和恐懼的生活。伊朗政府的鎮壓政策也使得民眾感到恐懼。伊朗民眾的絕望感日益加深，許多人表達了對未來的擔憂。伊朗政府應該採取措施解決民眾的經濟困難和恐懼感。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6511821d",
-        "title": "伊朗戰爭可能使印度啤酒和瓶裝水更貴",
-        "url": "https://www.bbc.com/news/articles/c5ywqky5dd7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 23:16:37 GMT",
-        "summary_zh": "伊朗戰爭對印度啤酒和瓶裝水的影響正在出現。伊朗是印度瓶裝水和啤酒生產商重要的原材料供應商之一。由於戰爭，供應鏈受到影響，瓶裝水和啤酒生產商難以獲得原材料。這將導致瓶裝水和啤酒的價格上漲。印度政府正在積極尋找替代供應商來解決這個問題。這個問題不僅影響瓶裝水和啤酒的生產，也影響了印度的消費者。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "04269d44",
-        "title": "觀看CNBC專訪前摩根士丹利亞洲主席史蒂芬·羅奇",
-        "url": "https://www.cnbc.com/video/2026/04/02/watch-cnbcs-full-interview-with-former-morgan-stanley-asia-chair-stephen-roach.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-04-02 14:57:11",
-        "summary_zh": "前摩根士丹利亞洲主席史蒂芬·羅奇接受CNBC專訪，與觀眾分享他對伊朗戰爭對全球大國平衡、中國等議題的看法。羅奇表示，伊朗戰爭可能會對全球大國平衡產生重大影響，中國可能會因為伊朗戰爭而受益。同時，他也提到中國的經濟發展和全球貿易的重要性。羅奇的看法提供了對全球政治和經濟發展的獨特視角。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "c5262f83",
-        "title": "馬克宏批評川普對伊朗戰爭的態度：不要每天都說話，別太認真不認真",
-        "url": "https://www.bbc.com/news/articles/cevk0e4ykwko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 13:41:27 GMT",
-        "summary_zh": "法國總統馬克宏最近在會議上批評美國總統川普對伊朗戰爭的態度。馬克宏的評論被視為對川普有時候矛盾的立場的批評。川普政府與以色列政府共同對抗伊朗的戰爭已經持續了一段時間。馬克宏的評論表明了他對川普政府的戰爭政策有所擔憂。這也可能是法國與美國在伊朗問題上的分歧。馬克宏的評論也引起了對川普政府戰爭政策的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "20150df4",
-        "title": "川普再次威脅伊朗 美國原油價格大漲逾11%",
-        "url": "https://www.cna.com.tw/news/afe/202604030006.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Fri, 03 Apr 2026 04:24:36 +0800",
-        "summary_zh": "美國原油價格今天大漲超過11%，布倫特原油也上漲近8%，主要原因是美國總統川普再次威脅伊朗，表示美國將持續攻擊伊朗。這種威脅讓市場擔心原油供應會長期受到影響，進而導致油價大幅上漲。這種情況下，油市走勢變得非常不穩定，投資者都在關注著美國和伊朗之間的關係是否會進一步惡化。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0d06fcc7",
-        "title": "巴西通過新法，分居夫妻共享寵物撫養權",
-        "url": "https://www.bbc.com/news/articles/ce8jzn180x2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 09:38:08 GMT",
-        "summary_zh": "巴西國會議員於週二通過了一項新法，將寵物的撫養權賦予分居夫妻共同擁有。這項法律變革被視為巴西人對寵物的重視程度的一個反映。根據新法，分居夫妻雙方均有權對寵物進行撫養和照顧，無論是男方還是女方，都不再需要爭取寵物撫養權的獨立判決。這項法律變革將對巴西的寵物撫養權制度產生重大影響，讓更多的寵物主人能夠與其寵物共享生活。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "92da3c10",
-        "title": "伊朗兩大鋼廠因罷工停產，公司表示",
-        "url": "https://www.bbc.com/news/articles/c1w4pdexxqpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 17:01:08 GMT",
-        "summary_zh": "伊朗政府指責以色列與美國在上周共同策劃了這次罷工。這次罷工可能對伊朗經濟造成重大損害。伊朗兩大鋼廠的停產將對該國鋼鐵產業造成嚴重影響，同時也會對伊朗的出口業和就業市場產生影響。伊朗政府將會採取措施應對這次罷工，試圖恢復鋼廠的正常運作。然而，罷工的持續時間和結果仍然不明朗，伊朗經濟的未來發展也面臨著不確定性。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "59a3b06d",
-        "title": "荷蘭古金盔一年後被挖出",
-        "url": "https://www.bbc.com/news/articles/cpvxj4jzvvvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 14:20:02 GMT",
-        "summary_zh": "荷蘭一件古金盔在2025年1月被盜竊，但今年才被挖出。盜竊案中，除了金盔外還有三條金手鐲被盜竊，但其中一條仍然未被找到。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "33e9fbec",
-        "title": "希臘男子在暴雨中遇難，克里特島被沙漠塵暴籠罩",
-        "url": "https://www.bbc.com/news/articles/c070d9g5k7jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 17:32:25 GMT",
-        "summary_zh": "希臘近日遭遇嚴重的暴雨和沙漠塵暴，導致多個地區出現嚴重的洪水和塵暴。其中，克里特島被沙漠塵暴籠罩，天空被一層厚厚的塵埃籠罩，視線遮蔽。同時，希臘首都雅典附近也出現嚴重的洪水，造成至少一名男子遇難。這場天氣災害對希臘的交通和生活造成了嚴重的影響，政府正在努力應對這場天氣災害。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ba16272d",
-        "title": "伊朗諾貝爾獎得主在監獄中疑似心臟病發，家屬擔心生命安全",
-        "url": "https://www.bbc.com/news/articles/cdj7xye8knxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 16:00:58 GMT",
-        "summary_zh": "伊朗諾貝爾和平獎得主納吉斯·穆罕默迪(Narges Mohammadi)被關押在監獄中，據她的兄弟透露，她可能在監獄中遭遇心臟病發。兄弟表示，他擔心她的生命安全，要求將她轉移到醫院進行治療。伊朗政府對她的處置引起了國際社會的關注。納吉斯·穆罕默迪曾因為她的人權活動而被捕，目前仍在監獄中服刑。她的兄弟的聲明表明，她的健康狀況可能不佳，需要及時的醫療照護。這一事件再次引發了對伊朗政府人權記錄的批評和擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "981f820e",
-        "title": "烏干達幼兒園四名幼童遭刺殺",
-        "url": "https://www.bbc.com/news/articles/cq8wzklp834o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 21:23:44 GMT",
-        "summary_zh": "烏干達一所幼兒園發生慘劇，四名幼童遭刺殺。警方表示，嫌疑人已被拘捕，但其動機仍不明。這起事件引起了全國的震撼，許多人對此感到悲痛和愤怒。警方正在調查此案，試圖找出真相。這個事件也引起了對兒童安全和教育系統的關注。烏干達政府應該採取措施確保兒童的安全和福祉。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "aa2b985c",
-        "title": "印尼近海發生7.4級地震，造成一人死亡",
-        "url": "https://www.bbc.com/news/articles/cn53krrrr24o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 04:00:48 GMT",
-        "summary_zh": "印尼近海發生7.4級地震，地震中心位於馬納多島和特納特島之間。地震造成一人死亡，當局已經取消了海嘯警告。這次地震發生在印尼近海的海域，地震的強度達到7.4級，地震中心位於馬納多島和特納特島之間。印尼當局迅速展開救援工作，目前已經確認一人死亡。海嘯警告在發生地震後不久就被取消。印尼政府已經宣布成立調查委員會，調查地震的原因和影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "35af32df",
-        "title": "石油價格飆升，塑膠可能是下一個受影響的產業",
-        "url": "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/",
-        "source": "MIT Tech Review",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 10:00:00 +0000",
-        "summary_zh": "中東戰爭持續進行，霍爾木茲海峽封鎖，全球經濟波動的影響已經出現。尤其是石油價格的波動，汽油價格已經超過每加侖 4 美元。這種情況下，石油價格的上漲會對塑膠產業產生什麼影響呢？根據目前的情況，塑膠的原材料價格可能會上漲，從而影響塑膠產品的價格。這種情況下，塑膠產業可能會面臨新的挑戰。然而，塑膠產業也可能會找到新的機會，例如轉向可再生材料或開發新的生產技術。最終，塑膠產業的未來將取決於市場的變化和產業的應對能力。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "43484469",
-        "title": "「令人毛骨悚然的谷底」：伊朗對美國科技威脅、川普的中期選舉計畫和Polymarket的DC酒吧失敗",
-        "url": "https://www.wired.com/story/uncanny-valley-podcast-iran-targets-us-tech-polymarket-pop-up-trump-midterms/",
-        "source": "Wired AI",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 21:04:22 +0000",
-        "summary_zh": "伊朗政府近日對美國科技企業發出威脅，表示將針對美國科技公司進行攻擊。這項威脅引起了美國政府的關注，美國政府正在評估對伊朗的回應。另一方面，川普政府正積極籌備中期選舉，預計將發表多項政策計畫。另外，DC的Polymarket酒吧最近開幕，但卻因為技術問題而導致失敗。這些事件都引起了美國政治界的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "24552125",
-        "title": "川普矢言繼續攻擊伊朗 國際油價衝上110美元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5391941",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Fri, 03 Apr 2026 08:52:15 +0800",
-        "summary_zh": "美國總統川普誓言將在未來幾週內升級伊朗戰爭，導致荷姆茲海峽能源流動中斷時間可能進一步延長。這使得國際油價週四反彈至每桶110美元。伊朗戰爭的升級將對全球經濟產生重大影響，特別是在能源出口國。荷姆茲海峽是全球石油輸送的重要通道，中斷將嚴重影響全球油價。川普的言論使得投資者擔心戰爭的升級將導致油價大幅上漲。這將對能源出口國的經濟產生重大影響，同時也會對全球經濟產生波及效應。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ce4cdde0",
-        "title": "歐洲的未被發現的軍備庫",
-        "url": "https://www.foreignaffairs.com/europes-untapped-arsenal",
-        "source": "Foreign Affairs",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 09:17:00 -0400",
-        "summary_zh": "在俄羅斯入侵烏克蘭的背景下，烏克蘭迅速發展了自己的國防工業，成為歐洲所需的防衛工業。烏克蘭的國防工業發展迅速，為歐洲提供了新的軍備供應來源。這項發展對於歐洲的安全和穩定具有重要意義。烏克蘭的國防工業不僅提供了新的軍備供應來源，也為歐洲的經濟帶來新的機會。然而，這項發展也引發了對烏克蘭未來發展的關注和擔憂。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7fc6ff40",
-        "title": "伊朗的必然性",
-        "url": "https://www.foreignaffairs.com/iran/iran-imperative",
-        "source": "Foreign Affairs",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 00:00:00 -0400",
-        "summary_zh": "美國和以色列如何塑造一個新的中東局勢。近年來，伊朗在中東的影響力日益增強，美國和以色列面臨著挑戰。為了應對這種局勢，美國和以色列需要共同努力，以塑造一個新的中東局勢。這需要透過軍事力量、外交努力和經濟援助來實現。美國和以色列需要與其他中東國家合作，共同對抗伊朗的影響。同時，也需要透過對話和合作來解決地區的問題。這樣才能創造一個更加穩定的和安全的中東。伊朗的崛起對於美國和以色列來說是一個重大挑戰，但也是一個機會。美國和以色列可以通過合作和對話來塑造一個新的中東局勢，同時也可以保護自己的利益。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "72b24ccc",
-        "title": "烏干達接收首批美國遣返飛機",
-        "url": "https://www.theguardian.com/us-news/2026/apr/02/uganda-receives-first-us-deportation-flight-under-third-country-agreement",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 16:37:12 GMT",
-        "summary_zh": "烏干達近日接收了首批來自美國的遣返飛機，這是美國政府與第三國合作的新一波移民遣返行動。根據路透社報導，來自美國的十二名被遣返者已經抵達烏干達。根據一名烏干達政府高官的說法，這些被遣返者將暫時在該國居住，等待被轉介到其他國家。然而，這項行動引起了法律挑戰和批評，許多人認為這是一個「人道主義問題」。美國政府的移民政策一直受到爭議，許多人質疑該國的移民政策是否合理和公平。烏干達政府的表態也引起了關注，該國是否有能力接收和處理這些被遣返者。這項行動的影響將如何，尚待觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "82c5916c",
-        "title": "加拿大廣播公司揭露魁北克大型楓糖生產商涉嫌楓糖詐騙案",
-        "url": "https://www.theguardian.com/world/2026/apr/02/maple-syrup-scam-quebec-canada",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 02 Apr 2026 19:07:20 GMT",
-        "summary_zh": "加拿大廣播公司調查發現魁北克一家大型楓糖生產商涉嫌將楓糖稀釋成糖水，並將這種偽造的楓糖出售給超市連鎖店。調查人員使用假身份和隱蔽錄音進行了釣魚行動，發現一家超市連鎖店出售的低成本楓糖實際上是被嚴重稀釋的。該公司的楓糖被檢測出含有來自甘蔗的糖分。調查人員還發現該公司的楓糖被出售給多家超市連鎖店，影響了數百萬顆楓糖的銷售。這一事件引起了楓糖產業界的關注，許多人質疑該公司的誠信。",
-        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       }
@@ -638,18 +602,6 @@
         "ai_classified": true
       },
       {
-        "id": "44248170",
-        "title": "下載：塑膠面臨的燃油價格問題，和SpaceX的史上最大規模IPO",
-        "url": "https://www.technologyreview.com/2026/04/02/1135049/the-download-plastic-problem-fuel-prices-spacex-ipo/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 02 Apr 2026 12:10:00 +0000",
-        "summary_zh": "塑膠可能會面臨燃油價格的問題。伊朗戰爭的影響，導致全球燃油價格大幅上升。然而，未來可能會出現塑膠價格的波動。SpaceX即將進行史上最大規模的IPO，預計籌集超過100億美元。這將是科技公司史上最大的IPO之一。SpaceX的成功IPO將為公司注入新的資金，讓它們能夠繼續發展新的技術和事業。這將對全球科技業產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "ecc72b3e",
         "title": "OpenAI 收購商業訪談節目 'TBPN'—為自己爭取正面新聞",
         "url": "https://www.wired.com/story/openai-acquires-tbpn-buys-positive-news-coverage/",
@@ -696,9 +648,57 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "44248170",
+        "title": "下載：塑膠面臨的燃油價格問題，和SpaceX的史上最大規模IPO",
+        "url": "https://www.technologyreview.com/2026/04/02/1135049/the-download-plastic-problem-fuel-prices-spacex-ipo/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 02 Apr 2026 12:10:00 +0000",
+        "summary_zh": "塑膠可能會面臨燃油價格的問題。伊朗戰爭的影響，導致全球燃油價格大幅上升。然而，未來可能會出現塑膠價格的波動。SpaceX即將進行史上最大規模的IPO，預計籌集超過100億美元。這將是科技公司史上最大的IPO之一。SpaceX的成功IPO將為公司注入新的資金，讓它們能夠繼續發展新的技術和事業。這將對全球科技業產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "cf81dcc3",
+        "title": "確保塑膠袋供應無虞 經部啟動3層調度機制",
+        "url": "https://www.cna.com.tw/news/afe/202604030031.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 03 Apr 2026 09:47:36 +0800",
+        "summary_zh": "中東戰事持續影響石化供應鏈，近期市場頻傳塑膠袋供應吃緊。為了確保塑膠袋的供應，經濟部啟動了3層調度機制。首先，商圈組織及市場自治會會彙整需求，填寫缺貨品項、數量等資料送交商業署評估。接著，商業署與通路商合作調貨，如果仍然有缺貨，商業署將通報產業發展署協調上游製造商接單生產。同時，商業署也會協助報價，以確保塑膠袋的供應。這項措施旨在防止塑膠袋供應吃緊，維持市場的穩定。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7a852c15",
+        "title": "AI接管COMPUTEX舞台 輝達參展規模變遷見證產業質變",
+        "url": "https://www.cna.com.tw/news/afe/202604030030.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 03 Apr 2026 09:40:33 +0800",
+        "summary_zh": "台北國際電腦展（COMPUTEX）正經歷一場深刻轉型，從過去的個人電腦（PC）零組件與供應鏈盛會，變成由人工智慧（AI）接管的舞台。其中，AI晶片龍頭輝達（NVIDIA）的參展規模轉變，成為產業質變的重要指標。這一變化反映了全球AI浪潮的影響，COMPUTEX也開始轉型以應對這個變化。輝達的參展規模變遷，見證了產業從傳統PC零組件轉向AI技術的轉型。這一變化將對台灣的電子業產生深遠影響，同時也將帶來新的機會和挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "12d3622b",
+        "title": "對等關稅重塑全球貿易版圖 台灣對美出口飆升逾8成",
+        "url": "https://www.cna.com.tw/news/aopl/202604030027.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 03 Apr 2026 09:21:27 +0800",
+        "summary_zh": "近年來，美國總統川普宣布的「對等關稅」對全球貿易產生了重大影響。根據統計，自川普宣布「對等關稅」一年以來，全球產業競爭力差異變得更加明顯。其中，台灣對美國出口大幅成長逾8成，超越日韓。這表明台灣的出口業正在從這項政策中受益。然而，這也引發了對全球貿易模式的變化的關注。許多企業正在重新評估其貿易策略，以適應這項新政策的影響。這項變化將對全球經濟產生重大影響，需要各國政府和企業共同努力來應對。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "dcdaf591",
         "title": "商業署助力台灣餐飲業升級 3年帶動營收23.1億元",
@@ -772,6 +772,18 @@
         "ai_classified": true
       },
       {
+        "id": "369ee471",
+        "title": "荷姆茲海峽重啟！韓股飆逾3.5％ 日股漲逾900點",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5391933",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 03 Apr 2026 11:08:20 +0800",
+        "summary_zh": "荷姆茲海峽重啟事件對亞洲股市產生了重大影響。韓股在週五大幅上漲，超過3.5%，突破5400點。日股也在此期間大幅上漲，回到53400點。這些市場反彈的原因是荷姆茲海峽的重啟，預示著全球經濟活動的恢復。然而，伊朗和阿曼正在起草一項協議，可能會對全球經濟產生影響。這項協議的具體內容尚未公佈，但它可能會對市場造成新的挑戰。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "a8aa4d56",
         "title": "荷姆茲海峽有望重啟？伊朗聯手阿曼起草通行協議",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5391925",
@@ -782,128 +794,116 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "369ee471",
-        "title": "荷姆茲海峽重啟！韓股飆逾3.5％ 日股漲逾900點",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5391933",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 03 Apr 2026 08:27:20 +0800",
-        "summary_zh": "荷姆茲海峽重啟事件對亞洲股市產生了重大影響。韓股在週五大幅上漲，超過3.5%，突破5400點。日股也在此期間大幅上漲，回到53400點。這些市場反彈的原因是荷姆茲海峽的重啟，預示著全球經濟活動的恢復。然而，伊朗和阿曼正在起草一項協議，可能會對全球經濟產生影響。這項協議的具體內容尚未公佈，但它可能會對市場造成新的挑戰。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9e8fe83c",
-        "title": "巴拿馬接管長和港口資產，中國報復扣押44艘船隻",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5391849",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 03 Apr 2026 08:15:32 +0800",
-        "summary_zh": "巴拿馬政府接管香港長江和記實業（長和）在巴拿馬運河兩端的港口資產，引發中國的報復。中國政府在3月1日至18日期間，扣押了44艘船隻。這一事件的背景是巴拿馬政府與長和公司之間的糾紛，巴拿馬政府認為長和公司違反了巴拿馬法律。中國政府的報復行動顯示出對巴拿馬政府的不滿和對長和公司的支持。這一事件將對巴拿馬和中國的關係產生影響，可能會導致兩國之間的貿易和經濟往來受到影響。中國政府的報復行動也可能會對全球經濟產生影響，特別是在巴拿馬運河是全球貿易的一個重要樞紐時。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "6c64764f",
-        "title": "杜拜的埃米拉特銀行(NBD)獲印度央行批准成為印度RBL銀行的控股股東",
-        "url": "https://www.reuters.com/sustainability/boards-policy-regulation/dubais-emirates-nbd-gets-indias-central-bank-nod-become-majority-owner-rbl-bank-2026-04-02/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-02 14:57:43",
-        "summary_zh": "印度央行批准埃米拉特銀行(NBD)的提案，購入印度RBL銀行的控股權，這是印度金融業跨境交易中的一項關鍵法規批准。這項交易將使埃米拉特銀行(NBD)成為印度RBL銀行的控股股東。這項批准對印度金融業的影響將是重大且持久的。這項交易的完成將使埃米拉特銀行(NBD)進一步鞏固其在印度市場的位置。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "79fd3671",
-        "title": "盧拉總統要求取消巴西石油公司天然氣拍賣會",
-        "url": "https://www.reuters.com/business/energy/brazils-lula-seeks-annul-petrobras-liquefied-petroleum-gas-auction-2026-04-02/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-02 14:52:09",
-        "summary_zh": "巴西總統盧拉在星期四表示，政府將要求取消一場拍賣會，該拍賣會由國有石油公司巴西石油公司出售液化石油氣（LPG）。盧拉表示，該拍賣會的價格過高，與伊朗戰爭有關。這一決定是為了保護巴西人民的利益，盧拉總統表示政府將採取行動來降低液化石油氣的價格。這一決定可能會對巴西石油公司的股價產生影響，同時也會關注巴西對伊朗戰爭的立場。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "a2aa3b2b",
-        "title": "Two Sigma 合夥人 Scott Hoffman 辭職，指控 '治理挑戰'",
-        "url": "https://www.reuters.com/sustainability/boards-policy-regulation/two-sigma-co-ceo-scott-hoffman-resigns-cites-governance-challenges-2026-04-02/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-02 14:50:33",
-        "summary_zh": "Two Sigma 的合夥人 Scott Hoffman 宣布辭職，指出公司治理面臨著挑戰。Two Sigma 是一家知名的量化投資公司，成立於 2001 年。Hoffman 是公司的共同創始人和執行合夥人之一。雖然公司未透露 Hoffman 辭職的具體原因，但據了解，他的辭職與公司治理面臨的挑戰有關。Two Sigma 的另一位合夥人 David Siegel 將繼續領導公司。Hoffman 的辭職將對公司的未來發展產生影響，投資者將密切關注公司的治理和管理情況。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "76169b39",
-        "title": "私人貸款CLO機器人加速運作，為籌集更多資金而努力",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-02/private-credit-s-clo-machine-ramps-up-in-push-to-raise-more-cash",
+        "id": "9769def7",
+        "title": "美國房屋貸款利率第五週連升，30年期貸款達6.46%最高點",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-02/us-mortgage-rates-rise-for-fifth-week-sending-30-year-to-6-46",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-04-02 14:50:30",
-        "summary_zh": "私人貸款市場正在快速擴張，CLO（Collateralized Loan Obligation）市場也在迅速增長。CLO 是一種複雜的金融工具，通過將多個貸款包裝成一種安全的債券，為投資者提供收益。私人貸款機器人正在加速運作，為籌集更多資金而努力。這些機器人通過分析貸款市場的風險和回報率，為投資者提供風險評估和投資建議。私人貸款市場的快速擴張和CLO市場的增長，為投資者提供了新的投資機會。然而，這也引發了對市場風險和規管的關注。投資者需要謹慎評估風險和回報率，才能在這個快速變化的市場中取得成功。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "23bf4ada",
-        "title": "倫敦金屬交易所交易員錯判金屬供應危機",
-        "url": "https://www.reuters.com/markets/commodities/lme-traders-were-pricing-wrong-metal-supply-crisis-2026-04-02/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-02 14:40:58",
-        "summary_zh": "倫敦金屬交易所 (LME) 的交易員錯判了金屬供應危機的嚴重性。根據最近的調查，交易員們錯誤地將焦點放在了鋁和銅的供應上，而忽略了對金屬市場的影響更大的鐵礦石和鎳的供應危機。這種錯誤導致了市場對鋁和銅的供應危機的過度關注，導致了市場價格的不穩定。調查還發現，交易員們對金屬供應危機的評估過於依賴市場傳聞和預測，而忽略了實際的供應數據。這種錯誤評估導致了市場對金屬供應危機的錯判，從而導致了市場價格的不穩定。這種錯誤評估對金屬市場的影響將持續存在，直到交易員們能夠正確評估金屬供應危機的嚴重性。",
+        "published_at": "2026-04-02 16:00:00",
+        "summary_zh": "美國房屋貸款利率持續上升，第五週連續上漲，30年期貸款利率達到6.46%的新高點。根據最新數據，美國房屋貸款利率已經連續上升五週，對於房屋買家和賣家來說，房貸利率的上升將會對房屋市場產生重大影響。房屋買家將會面臨更高的房貸利率，而房屋賣家則將會面臨房屋市場需求的下降。美國房屋貸款利率的上升也會對整個經濟產生影響，可能會影響到房屋市場的銷售量和房屋價格的穩定。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "fd1a6cc2",
-        "title": "美國起訴伊利諾州關於預測市場管制",
-        "url": "https://www.reuters.com/legal/litigation/us-sues-illinois-over-regulation-prediction-markets-2026-04-02/",
-        "source": "Reuters",
+        "id": "a9d9119c",
+        "title": "午市最大漲跌股：特斯拉、NextDecade、通用汽車、達美航空等",
+        "url": "https://www.cnbc.com/2026/04/02/stocks-making-the-biggest-moves-midday-tsla-next-gm-dal.html",
+        "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-04-02 14:39:48",
-        "summary_zh": "美國政府起訴伊利諾州政府，指責其對預測市場的管制違反聯邦法律。預測市場是一種允許用戶在未來事件發生前下注的市場，美國政府認為這種市場對於投資者和企業的財務決策具有重要影響。伊利諾州政府的管制措施包括限制預測市場的規模和嚴格監管交易活動。美國政府認為這些措施違反了聯邦法律，限制了投資者和企業的自由。這起訴訟可能會對預測市場的發展產生重大影響，影響投資者和企業的財務決策。",
+        "published_at": "2026-04-02 15:57:43",
+        "summary_zh": "午市交易期間，特斯拉、NextDecade、通用汽車、達美航空等股價出現波動。特斯拉的股價在午市交易期間出現小幅上漲，NextDecade則出現小幅下跌。通用汽車的股價在午市交易期間出現小幅上漲，而達美航空的股價則出現小幅下跌。這些股價的變動可能與公司的財務報告、市場預期或其他因素有關。投資者應該密切關注這些股價的變動，以便做出明智的投資決策。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "5282a743",
-        "title": "清潔用品公司McBride因伊朗戰爭能源成本上升調漲價格",
-        "url": "https://www.reuters.com/business/energy/cleaning-products-firm-mcbride-raises-prices-iran-war-energy-hit-2026-04-02/",
+        "id": "2352c38d",
+        "title": "特朗普演說再次使美國消費者承受高油價風險，汽柴油價格創新高",
+        "url": "https://www.reuters.com/business/energy/trump-speech-unleashes-more-pain-us-consumers-with-5-gasoline-record-diesel-2026-04-02/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-04-02 14:35:50",
-        "summary_zh": "歐洲清潔用品製造商McBride宣布調漲價格，原因是伊朗戰爭對其供應商的能源成本造成了重大影響。該公司表示，為了彌補能源成本的增加，將對其產品進行價格調整。伊朗戰爭的能源成本上升對全球供應鏈造成了重大影響，許多公司正在努力應對這種挑戰。 McBride 的價格調整將對消費者產生影響，可能會導致清潔用品的價格上漲。這一事件也引起了對全球經濟的關注，尤其是在能源成本和供應鏈安全性方面。",
+        "published_at": "2026-04-02 15:57:40",
+        "summary_zh": "美國總統特朗普近日發表演說，預告汽柴油價格將再次上漲。根據目前的趨勢，美國汽油價格已經達到 5 美元一加侖，柴油價格則有望創下歷史新高。這一消息對美國消費者來說是個不好的消息，因為汽柴油價格的上漲將直接影響到日常生活的成本。美國消費者聯盟表示，這一趨勢將使美國消費者承受更大的經濟壓力。美國政府的政策變化對於美國經濟的影響仍存有爭議，然而，汽柴油價格的上漲卻是事實。美國消費者將需要適應這一新變化，同時也需要關注政府對於汽柴油價格的政策變化。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "f7a59e46",
-        "title": "埃隆·馬斯克的SpaceX將成為一家上市公司",
-        "url": "https://www.bbc.com/news/articles/c2k35lg92dpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "b41f11ea",
+        "title": "德國投資者痛苦蔓延至倫敦，奧林匹亞損失擴散",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-02/german-investor-pain-spreads-to-london-with-losses-from-olympia",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "Thu, 02 Apr 2026 07:05:05 GMT",
-        "summary_zh": "埃隆·馬斯克的太空探索技術公司（SpaceX）宣布將成為一家上市公司，這將是歷史上最有價值的上市公司之一，同時也可能使馬斯克成為世界上第一個千億富豪。這一決定將對全球財經市場產生重大影響，同時也將使SpaceX的財務透明度提高。SpaceX的上市將使公司能夠籌集更多資金，進一步推進太空探索和星際旅行的發展。馬斯克的這一決定也將受到各界的關注和評估。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
+        "published_at": "2026-04-02 15:56:22",
+        "summary_zh": "倫敦奧林匹亞項目的投資者正在面臨重大損失，德國投資者痛苦蔓延至倫敦。倫敦奧林匹亞項目是一個高檔住宅項目，投資者曾經對其充滿信心，但現在卻面臨著嚴重的財務問題。德國投資者曾經投資了大量資金於此項目，但現在卻面臨著巨額損失。投資者們對於項目的管理和財務狀況感到擔憂，正在呼籲項目管理者進行透明和解決方案。倫敦奧林匹亞項目的損失擴散將對倫敦房地產市場造成重大影響，投資者們將密切關注此事件的發展。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "cbd69916",
+        "title": "美銀美林與伊普斯坦受害者達成72.5億美元和解方案獲得初步通過",
+        "url": "https://www.reuters.com/legal/government/bank-americas-725-million-settlement-with-epstein-accusers-wins-preliminary-2026-04-02/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-02 15:55:52",
+        "summary_zh": "美國一名法官於週四批准美銀美林與伊普斯坦受害者達成的72.5億美元和解方案。伊普斯坦受害者指控美銀美林協助伊普斯坦性侵犯。這項和解方案獲得初步通過，意味著美銀美林將支付72.5億美元予受害者。這項和解方案可能會對受害者帶來一定程度的幫助，但也可能會引起爭議。伊普斯坦的性侵犯案件已經引起了廣泛的關注，美銀美林的和解方案可能會對公司的聲譽造成影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "2d6a20a2",
+        "title": "‘大象’式交易者出售比特幣，導致機構需求下降",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-02/venda-de-bitcoin-por-baleias-reduz-demanda-institucional",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-02 15:53:28",
+        "summary_zh": "近期，市場上出現了一種新型的比特幣交易者——‘大象’式交易者。這些交易者通過大宗交易（baleias）出售比特幣，導致機構投資者的需求下降。這種交易方式讓機構投資者感到不舒服，因為它們無法透過正常的市場流程購買這些大宗交易。這種情況可能會導致比特幣市場的不穩定，進而影響整個加密貨幣市場。分析師認為，這種交易方式可能是由於市場上出現了過多的比特幣供應，導致價格下跌。然而，這種交易方式也可能是由於機構投資者對比特幣的信心下降。總之，這種交易方式可能會對比特幣市場造成不利影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "9b85c63e",
+        "title": "朱利安·哈里斯：市場聽從特朗普的話比貝利更多",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-04-02/markets-are-listening-to-trump-a-lot-more-than-bailey",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-02 15:53:23",
+        "summary_zh": "朱利安·哈里斯表示，市場對特朗普的話有更大的反應。這是因為市場認為特朗普的政策會對經濟產生重大影響。哈里斯認為，市場對特朗普的反應是因為他對經濟的看法和政策會對市場產生重大影響。另一方面，市場對英國財長貝利的話反應不大，因為市場認為貝利的政策不會對經濟產生重大影響。哈里斯的觀點表明，市場對政治人物的反應是根據對經濟的看法和政策來評估的。這意味著，市場會對那些有能力影響經濟的政治人物有更大的反應。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "53f7aa60",
+        "title": "加元下跌 美元升值因為中東戰爭結束速度不明朗",
+        "url": "https://www.reuters.com/business/canadian-dollar-falls-fading-hope-quick-end-war-boosts-greenback-2026-04-02/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-02 15:50:51",
+        "summary_zh": "加拿大元在週四與美元相比下滑，原因是中東戰爭結束的希望逐漸消退，同時加拿大貿易赤字也出現意外擴大。加拿大貿易赤字在 2023 年第三季度出現了意外擴大，這使得美元在國際市場上更具競爭力。加拿大央行的政策也受到影響，可能會導致加元貶值。這種情況對加拿大出口業和貿易業有著不利影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "b2aec99f",
+        "title": "WTO 國家集團同意不徵收電子商務稅",
+        "url": "https://www.reuters.com/world/asia-pacific/group-wto-states-agrees-not-impose-e-commerce-duties-2026-04-02/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-02 15:48:28",
+        "summary_zh": "世界貿易組織 (WTO) 的一群國家最近達成共識，同意不徵收電子商務稅。這項決定對於全球電子商務的發展具有重要意義。電子商務在全球經濟中發揮著越來越重要的作用，許多國家正嘗試通過徵收電子商務稅來籌集收入。然而，這項徵稅可能會對電子商務企業造成不利影響，進而影響全球經濟的穩定。WTO 國家集團的決定意味著，這些國家將不會對電子商務企業徵收稅款，這將有助於促進電子商務的發展。這項決定對於全球經濟的發展具有重要意義，將有助於促進電子商務的發展和全球經濟的穩定。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "e2f92b1a",
@@ -920,14 +920,38 @@
     ],
     "stock_us": [
       {
-        "id": "ce9e546d",
-        "title": "地區運動網路頻道出現衰退，儘管收視率大幅上升",
-        "url": "https://www.cnbc.com/2026/04/02/regional-sports-networks-are-faltering-even-as-ratings-soar.html",
+        "id": "e2995af6",
+        "title": "伊朗戰爭期間股市情緒快速變化：如何在混亂中導航",
+        "url": "https://www.cnbc.com/2026/04/02/the-mood-of-the-stock-market-is-changing-fast-during-iran-war-how-to-navigate-the-confusion.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-04-02 14:40:57",
-        "summary_zh": "地區運動網路頻道出現衰退的跡象，儘管收視率大幅上升。這些頻道曾經是非常有利可圖的業務，但現在面臨著嚴重的壓力。這些頻道的衰退是由於多種原因，包括收視率的下滑、廣告收入的減少以及競爭的加劇。這些頻道的衰退將對運動界和觀眾造成重大影響。運動界的投資者和觀眾都應該關注這一趨勢，並思考如何應對這一變化。",
-        "sentiment": "負面",
+        "published_at": "2026-04-02 15:45:31",
+        "summary_zh": "伊朗戰爭期間股市情緒快速變化，投資者感到困惑和沮喪。然而，長期投資者應該堅持下去，耐心等待市場的變化。這段時間，投資者需要保持冷靜，避免做出倉促的決定，盡量減少風險。同時，投資者也應該關注市場的動態，及時跟蹤最新的消息和趨勢。這樣才能在市場的變化中找到機會，實現長期投資的目標。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "c25cf5fc",
+        "title": "世界觀視界CEO稱伊朗地區不可能沒有監控的和平",
+        "url": "https://www.cnbc.com/video/2026/04/02/world-view-ceo-says-peace-without-surveillance-is-just-not-possible-in-the-iranian-region.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-02 15:20:11",
+        "summary_zh": "伊朗局勢下的智慧情報在戰爭中扮演著重要角色，世界觀視界CEO萊恩·哈特曼（Ryan Hartman）在接受採訪時表示，和平不可能不伴隨著監控。這一觀點引發了對情報監控的爭議。世界觀視界最近被奧達斯公司收購，這一事件也引起了市場的關注。萊恩·哈特曼還討論了公司的發展方向和未來展望。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "705a7a80",
+        "title": "耶魯大學的史蒂芬·羅奇認為中國在伊朗戰爭中比美國更有優勢",
+        "url": "https://www.cnbc.com/video/2026/04/02/why-former-morgan-stanley-chair-stephen-roach-sees-china-in-a-stronger-position-from-iran-war.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-02 15:02:49",
+        "summary_zh": "史蒂芬·羅奇，前摩根士丹利亞洲主席，現任耶魯法學院高級研究員，近日在《Squawk on the Street》節目中表示，伊朗戰爭對全球權力平衡的影響，中國的處理方式，以及更多議題。他認為中國在伊朗戰爭中比美國更有優勢，這是因為中國的經濟與軍事實力相對穩定，而美國則面臨著嚴重的財政問題。羅奇還提到，中國的外交政策更加務實，能夠與各國保持良好的關係，而美國則處於一個相對孤立的狀態。這些因素使得中國在伊朗戰爭中更有優勢。羅奇的觀點引發了關注，許多人認為他對中國的評估是正確的。然而，也有許多人對他的評估表示質疑，認為美國仍然是全球領導者的地位不會被挑戰。伊朗戰爭的影響將持續存在，中國和美國的競爭將是未來的關鍵議題。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": true
       },
@@ -952,8 +976,20 @@
         "published_at": "2026-04-02 14:56:27",
         "summary_zh": "美股市場在本週最後一天下跌，主要原因是美國總統川普對伊朗的言論，表明將採取更激進的措施，降低了伊朗衝突的和平解決機會。這使得投資者感到擔憂，市場出現下跌。伊朗衝突已經持續了一段時間，川普的言論使得市場對未來的前景感到不確定。投資者正在密切關注這種局勢的發展，準備應對市場的變化。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ce9e546d",
+        "title": "地區運動網路頻道出現衰退，儘管收視率大幅上升",
+        "url": "https://www.cnbc.com/2026/04/02/regional-sports-networks-are-faltering-even-as-ratings-soar.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-02 14:40:57",
+        "summary_zh": "地區運動網路頻道出現衰退的跡象，儘管收視率大幅上升。這些頻道曾經是非常有利可圖的業務，但現在面臨著嚴重的壓力。這些頻道的衰退是由於多種原因，包括收視率的下滑、廣告收入的減少以及競爭的加劇。這些頻道的衰退將對運動界和觀眾造成重大影響。運動界的投資者和觀眾都應該關注這一趨勢，並思考如何應對這一變化。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "c8b3d5b8",
@@ -964,8 +1000,8 @@
         "published_at": "2026-04-02 14:32:04",
         "summary_zh": "阿波羅全球管理首席經濟學家Torsten Slok在節目\"Squawk on the Street\"中與觀眾分享了對石油價格、伊朗戰爭等議題的看法。然而，他對人工智慧的效率增長持謹慎態度，認為目前尚未看到明顯的成果。這表明人工智慧仍處於發展階段，需要進一步的研究和實踐。這項看法對於了解人工智慧的發展趨勢具有重要意義，同時也提醒我們應該保持謹慎的態度。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "b207a7e6",
@@ -976,8 +1012,8 @@
         "published_at": "2026-04-02 14:26:25",
         "summary_zh": "美國銀行集團JPMorgan的全球策略總監David Kelly接受CNBC的採訪，與觀眾分享關於伊朗戰爭、關稅等議題的看法。他強調伊朗戰爭對全球經濟的影響可能不大，但關稅政策可能會對美國經濟造成重大影響。Kelly還表示，美國企業應該準備好面對未來的挑戰，包括全球經濟不確定性和政治風險。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "752ed476",
@@ -988,8 +1024,8 @@
         "published_at": "2026-04-02 14:26:02",
         "summary_zh": "摩根大通全球策略總監大衛凱利（David Kelly）在節目「Squawk on the Street」中表示，伊朗戰爭、關稅等問題是暫時的。他認為，石油價格的波動和關稅問題對全球經濟的影響是暫時的，投資者不應該過度擔心。伊朗戰爭的風險仍存在，但凱利認為美國政府會採取措施避免戰爭的爆發。關稅問題的影響也將會逐漸減少，全球經濟的前景仍然看好。凱利建議投資者保持冷靜，避免過度擔心短期市場波動，長期來看，全球經濟仍然有很好的前景。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "2e3ed67d",
@@ -1000,20 +1036,8 @@
         "published_at": "2026-04-02 14:17:45",
         "summary_zh": "美國紐約證券交易所因川普總統最新的言論，導致投資人對伊朗衝突的風險增加，進而導致市場出現大幅下跌。這是因為川普總統的言論使得投資人對伊朗衝突的風險增加，進而導致市場出現大幅下跌。這種情況下，投資人對市場的風險評估增加，進而導致市場出現大幅下跌。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "da560aef",
-        "title": "Pariah Capital勝出第一季度 —— 並且贏得整場戰役",
-        "url": "https://www.marketwatch.com/story/pariah-capital-won-the-first-quarter-and-its-winning-the-war-ec2978e2?mod=mw_rss_topstories",
-        "source": "Marketwatch",
-        "category": "stock_us",
-        "published_at": "2026-04-02 14:07:00",
-        "summary_zh": "市場觀察網站創造的想像基金，投資於華爾街所厭惡的股票，在伊朗戰爭期間，超越了標準普爾500指數、納斯達克指數和大部分活躍的基金經理。這個名為Pariah Capital的基金，最初是為了測試市場反應而創建的，但卻意外地在第一季度表現出色。基金的表現令人驚訝，尤其是在伊朗戰爭期間，當時市場對該地區的不確定性和不穩定性達到頂峰。這個結果表明，基金經理們對華爾街所厭惡的股票的投資決策可能是錯誤的。 Pariah Capital的成功也引起了投資界的關注，許多人開始重新評估投資策略。然而，投資者應該謹慎地看待這個結果，因為這個基金是虛構的，並且它的表現可能與實際投資環境有所不同。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "223ba8bb",
@@ -1025,18 +1049,6 @@
         "summary_zh": "美國總統川普在演說中揚言要對伊朗採取更強硬打擊，打破了投資人對中東衝突迅速落幕的期望。這使得華爾街股市主要指數在開盤之後呈現重跌。川普的言論使得投資人感到擔憂，認為中東地區的局勢可能會更加惡化。這種不確定性導致投資人紛紛撤資，導致股市重挫。川普的言論也使得美元的價值上升，對於美元收藏家和投資者來說是一個好消息，但對於美元兌換其他貨幣的投資者來說則是一個壞消息。總的來說，川普的言論使得投資人感到擔憂，認為中東地區的局勢可能會更加惡化，導致股市重挫。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "94e7cbd3",
-        "title": "川普的『解放日』過去一周年，全球投資者重新思考美國優越主義",
-        "url": "https://www.cnbc.com/2026/04/02/liberation-day-1-year-on-investors-are-rethinking-us-assets.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-04-02 12:58:41",
-        "summary_zh": "一年過去，川普總統宣稱的『解放日』已經成為全球投資者重新思考美國優越主義的契機。美國優越主義在全球投資者中不再是自發的，市場觀察家對此表示了意見。美國優越主義的概念指出，美國的政治制度、經濟體系和文化價值具有全球領先地位。然而，隨著川普總統的上台，美國優越主義的概念開始被挑戰。全球投資者開始質疑美國的政治穩定性、經濟政策和社會價值觀。這一轉變對美國的經濟和政治影響將如何？美國優越主義的下一步將如何發展？這些問題都將在未來的市場變化中得到回答。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -1118,264 +1130,6 @@
       "type": "price",
       "warn": 400,
       "danger": 500
-    }
-  },
-  "daily_digest": {
-    "key_themes": [
-      {
-        "title": "伊朗戰爭對全球市場的影響",
-        "background": "伊朗戰爭已經持續了一個月，對全球市場產生了重大影響。",
-        "development": "美國總統川普對伊朗的言論使得市場對未來的前景感到不確定，投資者正在密切關注這種局勢的發展。",
-        "impact": "伊朗戰爭對全球能源市場、金融市場和地緣政治產生了重大影響，投資者需要謹慎評估風險和回報率。",
-        "conclusion": "伊朗戰爭的持續將對全球市場產生長期的影響，投資者需要保持警惕和適應能力。",
-        "region": "global"
-      },
-      {
-        "title": "美國政治對經濟的影響",
-        "background": "美國政治對經濟的影響正在增強，特別是在伊朗戰爭的背景下。",
-        "development": "美國總統川普的言論和行動對市場產生了重大影響，投資者需要密切關注美國政治的發展。",
-        "impact": "美國政治對經濟的影響將對全球市場產生重大影響，投資者需要謹慎評估風險和回報率。",
-        "conclusion": "美國政治的不確定性將對經濟產生長期的影響，投資者需要保持警惕和適應能力。",
-        "region": "americas"
-      },
-      {
-        "title": "科技業的發展和挑戰",
-        "background": "科技業的發展正在增強，特別是在人工智慧和金融科技的領域。",
-        "development": "然而，科技業也面臨著挑戰，特別是在隱私和安全的方面。",
-        "impact": "科技業的發展將對經濟和社會產生重大影響，投資者需要謹慎評估風險和回報率。",
-        "conclusion": "科技業的發展需要平衡創新和風險，投資者需要保持警惕和適應能力。",
-        "region": "global"
-      },
-      {
-        "title": "能源市場的變化",
-        "background": "能源市場的變化正在增強，特別是在伊朗戰爭的背景下。",
-        "development": "能源價格的波動對市場產生了重大影響，投資者需要密切關注能源市場的發展。",
-        "impact": "能源市場的變化將對全球經濟產生重大影響，投資者需要謹慎評估風險和回報率。",
-        "conclusion": "能源市場的變化需要投資者保持警惕和適應能力，特別是在伊朗戰爭的背景下。",
-        "region": "global"
-      },
-      {
-        "title": "金融市場的波動",
-        "background": "金融市場的波動正在增強，特別是在伊朗戰爭的背景下。",
-        "development": "金融市場的波動對投資者產生了重大影響，投資者需要密切關注市場的發展。",
-        "impact": "金融市場的波動將對全球經濟產生重大影響，投資者需要謹慎評估風險和回報率。",
-        "conclusion": "金融市場的波動需要投資者保持警惕和適應能力，特別是在伊朗戰爭的背景下。",
-        "region": "global"
-      }
-    ],
-    "sector_analysis": [
-      {
-        "sector": "能源",
-        "direction": "看多",
-        "reasoning": "能源價格的上漲對能源股產生了正面的影響。",
-        "key_ticker": "XOM"
-      },
-      {
-        "sector": "金融",
-        "direction": "看空",
-        "reasoning": "金融市場的波動對金融股產生了負面的影響。",
-        "key_ticker": "JPM"
-      },
-      {
-        "sector": "科技",
-        "direction": "看多",
-        "reasoning": "科技業的發展對科技股產生了正面的影響。",
-        "key_ticker": "AAPL"
-      },
-      {
-        "sector": "工業",
-        "direction": "看空",
-        "reasoning": "工業產業的波動對工業股產生了負面的影響。",
-        "key_ticker": "GE"
-      },
-      {
-        "sector": "醫療",
-        "direction": "看多",
-        "reasoning": "醫療業的發展對醫療股產生了正面的影響。",
-        "key_ticker": "JNJ"
-      }
-    ],
-    "action_signals": [
-      {
-        "asset": "SPY",
-        "signal": "短空",
-        "reasoning": "市場的波動對SPY產生了負面的影響。",
-        "confidence": "中高"
-      },
-      {
-        "asset": "USO",
-        "signal": "短多",
-        "reasoning": "能源價格的上漲對USO產生了正面的影響。",
-        "confidence": "高"
-      },
-      {
-        "asset": "QQQ",
-        "signal": "短空",
-        "reasoning": "科技業的波動對QQQ產生了負面的影響。",
-        "confidence": "中"
-      },
-      {
-        "asset": "IWM",
-        "signal": "短空",
-        "reasoning": "小型股的波動對IWM產生了負面的影響。",
-        "confidence": "中低"
-      }
-    ],
-    "risk_radar": [
-      {
-        "event": "伊朗戰爭的升級",
-        "probability": "高",
-        "impact": "高",
-        "timeframe": "本週",
-        "description": "伊朗戰爭的升級將對全球市場產生重大影響。"
-      },
-      {
-        "event": "美國政治的不確定性",
-        "probability": "中高",
-        "impact": "中高",
-        "timeframe": "下週",
-        "description": "美國政治的不確定性將對市場產生影響。"
-      },
-      {
-        "event": "能源價格的波動",
-        "probability": "中",
-        "impact": "中",
-        "timeframe": "本月",
-        "description": "能源價格的波動將對市場產生影響。"
-      }
-    ],
-    "narrative_shift": {
-      "new_themes": [
-        "伊朗戰爭的影響",
-        "美國政治的不確定性"
-      ],
-      "escalated": [
-        "能源市場的變化",
-        "金融市場的波動"
-      ],
-      "cooled": [
-        "科技業的發展"
-      ],
-      "disappeared": [
-        "工業產業的波動"
-      ]
-    },
-    "watch_next": [
-      {
-        "topic": "伊朗戰爭的發展",
-        "reason": "伊朗戰爭的升級將對全球市場產生重大影響。",
-        "timeframe": "本週"
-      },
-      {
-        "topic": "美國政治的不確定性",
-        "reason": "美國政治的不確定性將對市場產生影響。",
-        "timeframe": "下週"
-      },
-      {
-        "topic": "能源價格的波動",
-        "reason": "能源價格的波動將對市場產生影響。",
-        "timeframe": "本月"
-      }
-    ],
-    "cross_links": [
-      {
-        "themes": [
-          "伊朗戰爭",
-          "能源市場"
-        ],
-        "chain": "伊朗戰爭的升級→能源價格的上漲→能源市場的變化"
-      },
-      {
-        "themes": [
-          "美國政治",
-          "金融市場"
-        ],
-        "chain": "美國政治的不確定性→金融市場的波動→金融股的下跌"
-      },
-      {
-        "themes": [
-          "科技業",
-          "工業產業"
-        ],
-        "chain": "科技業的發展→工業產業的波動→工業股的下跌"
-      }
-    ],
-    "market_snapshot": {
-      "mood": "觀望",
-      "key_moves": "能源價格的上漲、金融市場的波動、科技業的發展"
-    },
-    "data_table": {
-      "indices": [
-        {
-          "key": "SP500",
-          "name": "S&P 500",
-          "price": 6582.69,
-          "change_pct": 0.11,
-          "status": "danger"
-        },
-        {
-          "key": "NASDAQ",
-          "name": "那斯達克",
-          "price": 21879.18,
-          "change_pct": 0.18,
-          "status": "normal"
-        },
-        {
-          "key": "TWII",
-          "name": "台股加權",
-          "price": 32572.43,
-          "change_pct": -1.82,
-          "status": "danger"
-        }
-      ],
-      "commodities": [
-        {
-          "key": "GOLD",
-          "name": "黃金",
-          "price": 4702.7,
-          "change_pct": -1.68,
-          "status": "normal"
-        },
-        {
-          "key": "OIL",
-          "name": "原油 WTI",
-          "price": 112.06,
-          "change_pct": 11.93,
-          "status": "danger"
-        }
-      ],
-      "forex": [
-        {
-          "key": "DXY",
-          "name": "美元指數",
-          "price": 100.04,
-          "change_pct": 0.01,
-          "status": "normal"
-        },
-        {
-          "key": "USDTWD",
-          "name": "美元/台幣",
-          "price": 31.94,
-          "change_pct": -0.19,
-          "status": "normal"
-        }
-      ],
-      "bonds_volatility": [
-        {
-          "key": "TNX",
-          "name": "美債10Y殖利率",
-          "price": 4.31,
-          "change_pct": -0.14,
-          "status": "normal"
-        },
-        {
-          "key": "VIX",
-          "name": "VIX 恐慌指數",
-          "price": 23.87,
-          "change_pct": -2.73,
-          "status": "warn"
-        }
-      ]
     }
   }
 }
