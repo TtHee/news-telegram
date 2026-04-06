@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-06T14:04:07.819024+08:00",
+  "generated_at": "2026-04-06T15:04:04.092157+08:00",
   "risk_signals": [
     "🟢 台股加權 32572.43（正常）",
     "🟢 S&P 500 6582.69（正常）",
     "🟡 VIX 恐慌指數 23.87（留意）",
     "🟢 MOVE 債市波動 81.78（正常）",
-    "🟢 美元指數 100.11（正常）",
-    "🟢 黃金 4690.8（正常）",
+    "🟢 美元指數 100.08（正常）",
+    "🟢 黃金 4687.7（正常）",
     "🟢 美債10Y殖利率 4.31（正常）",
-    "🟢 原油 WTI 111.81（正常）",
-    "🟢 美元/台幣 32.01（正常）"
+    "🟢 原油 WTI 110.87（正常）",
+    "🟢 美元/台幣 31.97（正常）"
   ],
-  "ai_summary": "市場氛圍持續穩定，指標正常，但恐慌指數略有上升，需要留意。整體來說，市場風險偏好保持穩定，但仍需要保持警戒。",
+  "ai_summary": "市場氛圍保持穩定，投資人仍然對全球經濟持樂觀態度，但需要留意恐慌指數的微升。",
   "market": {
     "TWII": {
       "price": 32572.43,
@@ -38,25 +38,303 @@
       "change_pct": -3.12
     },
     "DXY": {
-      "price": 100.11,
-      "change_pct": 0.08
+      "price": 100.08,
+      "change_pct": 0.05
     },
     "GOLD": {
-      "price": 4690.8,
-      "change_pct": 0.84
+      "price": 4687.7,
+      "change_pct": 0.78
     },
     "OIL": {
-      "price": 111.81,
-      "change_pct": 0.24
+      "price": 110.87,
+      "change_pct": -0.6
     },
     "USDTWD": {
-      "price": 32.01,
-      "change_pct": 0.24
+      "price": 31.97,
+      "change_pct": 0.11
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "f63e7477",
+        "title": "川普被指威脅可能犯下戰爭罪行　對伊朗發威脅性言論",
+        "url": "https://www.theguardian.com/us-news/2026/apr/06/trump-administration-news-updates-social-media-post-today",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 01:07:52 GMT",
+        "summary_zh": "美國總統川普在社交媒體上發表了一則含有粗言穢語的帖文，威脅要摧毀伊朗的電力廠和橋樑。民主黨領袖舒默批評川普的言論「像瘋子一樣亂說」，並指責他威脅可能犯下戰爭罪行。這則帖文引起了美國政治界的強烈反應。川普在帖文中說：「開放這座海峽，瘋子們，否則你們會在地獄生活。」他同時也表示，伊朗和美國可能會在星期一達成協議，結束五周的戰爭。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "06c24479",
+        "title": "千人在德克薩斯州抗議邊境牆穿越國家公園：『對大弯曲河谷的深厚愛意』",
+        "url": "https://www.theguardian.com/us-news/2026/apr/05/texas-capitol-protest-big-bend-border-wall",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 05 Apr 2026 19:10:57 GMT",
+        "summary_zh": "近千人聚集在德克薩斯州議會大廈前，抗議白宮計畫在大弯曲河谷國家公園建造邊境牆。這場抗議活動獲得了跨黨派的支持。美國邊境巡邏隊在前一天宣布，將在大弯曲河谷國家公園的部分地區建造鋼鐵牆。這一決定引起了廣泛的爭議。抗議者認為，邊境牆將破壞國家公園的自然美景和生態系統。同時，許多人也擔心，牆的建設將對當地的環境和野生動物造成嚴重影響。抗議活動的組織者表示，這是對白宮計畫的強烈反對。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a6dfe6e4",
+        "title": "NASA 領導人：外星生命的可能性影響太空任務的規劃",
+        "url": "https://www.theguardian.com/us-news/2026/apr/05/alien-life-nasa-jared-isaacman-artemis-ii",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 05 Apr 2026 17:26:22 GMT",
+        "summary_zh": "NASA 領導人 Jared Isaacman 表示，外星生命的可能性是太空任務規劃的關鍵因素。他在接受 CNN 采訪時表示，探索外星生命的可能性是 NASA 的工作重點之一，「我們的任務是去解開宇宙的秘密」。這番話是在 NASA 的 Artemis II 任務發射後四天發表的。Artemis II 任務是 NASA 的一項重大太空任務，目的是將宇航員送到月球附近的軌道上。NASA 領導人 Jared Isaacman 的話題引起了外界對太空探索的關注，也讓人們對外星生命的可能性產生了新的思考。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c24df242",
+        "title": "美國政治人物對特朗普對伊朗的髒話威脅感到震驚",
+        "url": "https://www.theguardian.com/us-news/2026/apr/05/trump-iran-threats-politician-reactions",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 05 Apr 2026 17:01:12 GMT",
+        "summary_zh": "美國總統特朗普在社交媒體上發表了一則含髒話的威脅性言論，呼籲伊朗「開放霍爾木茲海峽，否則你們將會陷入地獄」。這則言論引起了美國政治人物的強烈反應，包括馬吉里·泰勒·格林和伯尼·桑德斯，他們對特朗普的言論感到震驚，並質疑他的精神狀態。特朗普的言論被視為對伊朗的威脅，尤其是在中東危機的背景下。美國政治人物對特朗普的言論感到擔憂，認為這可能會使局勢惡化。這則言論也引起了對美國總統精神狀態的質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "84a0fff3",
+        "title": "曼達尼承諾推動紐約廉價住房方案，卻如何實現？",
+        "url": "https://www.theguardian.com/us-news/2026/apr/05/zohran-mamdani-affordable-housing-new-york",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 05 Apr 2026 16:00:54 GMT",
+        "summary_zh": "紐約市長曼達尼在競選期間承諾推動廉價住房方案，但最近卻決定上訴法院判決，要求城市擴大住房補助金計劃，引起無家可歸者倡導者們的不滿。曼達尼解釋了他的決定，指出城市抗擊無家可歸和驅逐預防補助金計劃（CityFHEPS）成本高昂，這項計劃幫助住在收容所或面臨無家可歸的人找到永久性住房。曼達尼還面臨著$54億美元的預算赤字問題，需要找到解決方案。這一決定引起了對無家可歸者政策的關注和爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a04c4d41",
+        "title": "川普大規模驅逐計畫在美國小鎮引起震動：『我們必須彼此照顧』",
+        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/apr/05/trump-deportation-rural-towns-wisconsin",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 05 Apr 2026 14:02:36 GMT",
+        "summary_zh": "在美國西部的農村地區，移民局人員開始行動，將數十名人士從保守派地區的小鎮帶走。2月份被移民局人員帶走的墨西哥餐廳仍然關閉，位於附近的旅遊中心另一邊，人們也被聯邦機構逮捕。靠近的小鎮有一家來自厄瓜多的市場被移民局人員鎖定，但市場已經重新開業，門口掛著告示，要求進入前先按鈴。這些小鎮的居民正在努力保持鎮靜，但他們的生活已經受到嚴重影響。這些小鎮的居民正在努力保持鎮靜，但他們的生活已經受到嚴重影響。這些小鎮的居民正在努力保持鎮靜，但他們的生活已經受到嚴重影響。這些小鎮的居民正在努力保持鎮靜，但他們的生活已經受到嚴重影響。這些小鎮的居民正在努力保持鎮靜，但他們的生活已經受到嚴重影響。這些小鎮的居民正在努力保持鎮靜，但他們的生活已經受到嚴重影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d15c4fd0",
+        "title": "我曾是美國軟實力大使：川普的貪婪形象和伊朗戰爭可能使美國在全球的影響力永遠喪失",
+        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/apr/05/american-soft-power-iran-war",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 05 Apr 2026 13:00:53 GMT",
+        "summary_zh": "美國在全球的軟實力可能永遠無法恢復。美國總統川普的貪婪形象和對伊朗的戰爭將對美國在全球的影響力造成無法估計的傷害。2003年夏季的一天，我在南非沿海小鎮的中心開車去買報紙。當時正值伊拉克戰爭初期，我從兩個街區外就能看見報紙亭的頭版：「布希比本拉登更糟糕。」這令我感到失望，尤其是在如此遙遠的地方。但這也與美國在全球的形象變化相符：美國在全球的受歡迎程度往往會因為戰爭（尤其是美國自己引發的戰爭）和美國總統的形象而大幅波動。在美國對伊拉克發動攻擊後不久，美國在9·11事件後獲得的國際支持就被浪費了。美國在全球的軟實力可能永遠無法恢復。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c23e7243",
+        "title": "美國健康官員在中期選舉前似乎避免批評疫苗",
+        "url": "https://www.theguardian.com/us-news/2026/apr/05/health-officials-anti-vaccine-views-midterms",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 05 Apr 2026 13:00:51 GMT",
+        "summary_zh": "美國即將舉行中期選舉，健康官員似乎避免在公共場合中表達對疫苗的負面看法。根據最新的民調，反疫苗觀點已經成為選民的負面評價。過去一年，美國健康官員對兒童疫苗接種建議進行了前所未有的變更，包括將乙型肝炎疫苗從出生時的接種項目中刪除。然而，即使聯邦法官已經無效化了這些變更，官員們仍未大力推廣這些重大變更。原因是唐納德·川普的民調專家建議在中期選舉前避免反疫苗觀點。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "08fc485a",
+        "title": "內維雅圖尼亞說他與川普通話，祝賀他成功營救被伊朗擊落的美軍飛行員",
+        "url": "https://thehill.com/policy/international/5817394-netanyahu-trump-cooperation-rescue/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 00:18:57 +0000",
+        "summary_zh": "內維雅圖尼亞在週日表示，他與美國總統川普通話，對於川普在營救被伊朗擊落的美軍飛行員的決定表示祝賀。根據內維雅圖尼亞的說法，川普的決定「非常英勇」，而營救行動「完美地執行」。這項行動是針對伊朗擊落一架美軍飛機，造成一名美軍飛行員受傷的事件。內維雅圖尼亞的說法顯示，兩國領導人在此事件上保持著密切的合作關係。這項行動的成功也表明，美國和以色列在面對伊朗的威脅時將繼續保持堅定的合作態度。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3ec86054",
+        "title": "SNL嘲笑邦迪辭職的冷開",
+        "url": "https://thehill.com/media/5817305-snl-rips-bondis-departure-in-cold-open/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Sun, 05 Apr 2026 22:06:37 +0000",
+        "summary_zh": "週六夜現場（Saturday Night Live）在最新一集的冷開環節中，嘲笑了美國律政長官邦迪（Pam Bondi）最近被解職的事件。這個滑稽的角色扮演了一場NCAA冠軍四強賽後的訪問節目，查理斯·巴克利（Charles Barkley）一角由肯恩·湯普森（Kenan Thompson）飾演，卻一直跑題，談論邦迪辭職的事件。 '當有人被解職時，總是令人遺憾。但我們都知道，邦迪是因為她太會說話了。' 查理斯·巴克利說道。 '她說了太多話，太多話，太多話!' 這個角色扮演的訪問節目還有其他角色加入，包括一個模仿美國總統川普的角色。這個滑稽的角色扮演讚揚了川普的做法，說他將邦迪解職是為了讓她能夠 '說話'。這個滑稽的角色扮演讚揚了川普的做法，說他將邦迪解職是為了讓她能夠 '說話'。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "be8ee9bc",
+        "title": "莎凡納·古思里回歸《今日》節目",
+        "url": "https://thehill.com/blogs/in-the-know/5817282-savannah-guthrie-returns-today/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Sun, 05 Apr 2026 21:34:49 +0000",
+        "summary_zh": "莎凡納·古思里將於復活節後的星期一回歸NBC的《今日》節目，超過兩個月前她的母親南希·古思里失蹤後。莎凡納表示，回歸節目將是個挑戰，因為《今日》節目是一個充滿歡樂和陽光的地方，她不想假裝自己不是現在的她。莎凡納的母親南希在去年12月失蹤，當時她正在美國西部旅行。莎凡納表示，她的母親失蹤後，她感到非常難過和混亂。莎凡納希望通過回歸節目來幫助自己恢復，同時也希望能夠為觀眾帶來歡樂和陽光。莎凡納的回歸將是節目的一個重大的轉捩點，觀眾們都期待著她的回歸。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "66747faf",
+        "title": "這個復活節，川普總統再次確認美國是基督教自由的燈塔",
+        "url": "https://www.whitehouse.gov/releases/2026/04/this-easter-president-trump-reaffirms-america-as-a-beacon-for-christian-liberty/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 01:55:10 +0000",
+        "summary_zh": "在全世界的基督徒們為耶穌基督的光榮復活而慶祝的復活節星期日，美國總統川普堅定地捍衛基督教信仰。自從他重返總統職位的第一天起，川普總統就把保護信仰的人民作為他的政府的核心任務之一。由於他的領導，美國成為了基督教信仰的堡壘。這是川普總統在復活節星期日發表的一份聲明，他在聲明中強調，美國將繼續捍衛基督教信仰，並成為世界各地基督徒的燈塔。這一聲明表明，川普總統將基督教信仰作為他的政府的核心任務之一，並將繼續捍衛美國的價值觀。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "796fa340",
+        "title": "阿特米斯II號飛行員在前往月球途中遇到廁所問題",
+        "url": "https://www.bbc.com/news/articles/c87wy05wr4no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Sun, 05 Apr 2026 18:35:24 GMT",
+        "summary_zh": "阿特米斯II號任務的四名飛行員在搭乘奧利恩號太空艙前往月球時，遇到了太空艙廁所的異常問題。這些問題出現在飛行員使用廁所的時候，可能與太空艙的系統故障或是廁所的設計問題有關。這種情況對飛行員的健康和舒適度造成了影響。阿特米斯II號任務是NASA的月球探索計畫的一部分，目的是測試太空艙的性能和飛行員的適應能力。這次的問題可能會對未來的太空探索任務造成影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "global": [
+      {
+        "id": "fa96c967",
+        "title": "中國為什麼會被一個螃蟹迷惑？AI助手揭示北京的雄心",
+        "url": "https://www.bbc.com/news/articles/cy41n17e23go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Sun, 05 Apr 2026 22:07:40 GMT",
+        "summary_zh": "中國近期出現了一個名為「螃蟹培養」的熱潮，據報導，這是由於一款AI助手的推動。該AI助手在三月份引發了極大的反響，許多用戶都在訓練這款工具，以滿足自己的需求。這個事件揭示了中國政府對於人工智慧技術的雄心和願望。中國政府一直在努力推動人工智慧的發展，並且在各個領域都有著積極的嘗試。這個事件也表明了中國政府對於人工智慧的重視和投資。然而，這也引發了對於中國政府對於人工智慧的控制和監管的擔憂。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "158720c4",
+        "title": "德克薩斯州油罐車翻覆引發大火",
+        "url": "https://www.theguardian.com/us-news/2026/apr/05/fuel-tanker-collision-fire-fort-worth-tx",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 05 Apr 2026 22:18:15 GMT",
+        "summary_zh": "德克薩斯州一輛油罐車在福特沃思外圍翻覆，撞毀電線後引發大火。事發時油罐車內裝有9,000加侖汽油。油罐車司機受傷被送醫治療。油罐車撞毀電線後引發大火，造成嚴重後果。這起意外事件可能會對當地居民造成影響。油罐車事故的原因仍在調查中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "499cc22a",
+        "title": "兩場示威，兩場選舉：尼泊爾年輕世代的勝利與孟加拉的失敗",
+        "url": "https://www.bbc.com/news/articles/cz673y3qqjlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Sun, 05 Apr 2026 22:07:30 GMT",
+        "summary_zh": "尼泊爾的年輕世代在兩場示威中取得了成功，但在孟加拉卻失敗了。尼泊爾的年輕世代通過組織抗議活動和參與選舉，成功推動了政治變革。相比之下，孟加拉的年輕世代雖然也參與了抗議活動，但卻無法在選舉中取得勝利。分析指出，尼泊爾的年輕世代的成功在於他們的組織能力和團結精神，而孟加拉的年輕世代則缺乏有效的領導和策略。這兩個案例表明，年輕世代的政治參與對於推動社會變革具有重要影響力。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "25705d4e",
+        "title": "印度15分鐘內就可以僱用家政幫傭，是否公平?",
+        "url": "https://www.bbc.com/news/articles/c98megy6r1mo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Sun, 05 Apr 2026 22:01:45 GMT",
+        "summary_zh": "印度近年來推出了一項名為「15分鐘家政幫傭」的服務，讓用戶可以快速僱用家政幫傭。這項服務的推出，帶來了速度和結構的好處，但卻也使得家政幫傭的工作壓力增加，同時也面臨著更嚴格的控制。這項服務的推出，引發了對公平性的質疑。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "ebdf0d3c",
+        "title": "伊朗允許伊拉克船隻通過霍爾木茲海峽",
+        "url": "https://www.ft.com/content/53db0c3d-c897-4ccd-8517-5ad392dfa252",
+        "source": "Financial Times",
+        "category": "global",
+        "published_at": "2026-04-05 13:24:43",
+        "summary_zh": "伊朗政府近日宣布允許伊拉克船隻通過霍爾木茲海峽，這一決定可能會釋放出每日 300 萬桶的石油供國際市場使用。霍爾木茲海峽是全球石油運輸的重要通道，伊朗的決定可能會對全球石油市場產生重大影響。這一決定與伊朗與伊拉克的關係密切相關，伊拉克船隻通過霍爾木茲海峽將會大大降低伊拉克的運輸成本。伊朗的決定可能會對全球石油市場產生重大影響，可能會導致石油價格下跌。然而，伊朗的決定也可能會對伊朗自身產生影響，可能會導致伊朗的石油出口增加。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "304ae11c",
+        "title": "阿拉伯半島多股市低迷 因衝突升級",
+        "url": "https://www.reuters.com/world/middle-east/most-gulf-stocks-subdued-amid-escalating-conflict-2026-04-05/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-04-05 13:21:43",
+        "summary_zh": "阿拉伯半島股市因衝突升級而出現低迷。多家股市指數在近期出現下滑，表明投資者對當地經濟前景感到擔憂。儘管一些股市仍然表現穩定，但整體來說，市場情緒仍然疲弱。分析師認為，這種情況可能會持續一段時間，因為投資者仍然對衝突的影響感到擔憂。這種情緒不僅影響了阿拉伯半島的股市，也影響了全球股市的走勢。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "14195a94",
+        "title": "中東戰爭掀能源危機 IEA籲勿祭出口禁令囤油",
+        "url": "https://www.cna.com.tw/news/afe/202604060023.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Mon, 06 Apr 2026 09:59:12 +0800",
+        "summary_zh": "中東戰爭引發的能源危機正在全球造成影響，國際能源總署（IEA）執行董事比羅爾發出警告，各國應該克制囤積石油與燃料的衝動。荷莫茲海峽的封鎖可能會使供應量進一步縮減，導致能源危機加劇。IEA籲勿祭出口禁令，希望能夠維持全球石油市場的穩定。能源危機的影響將會波及各個國家，包括台灣，各國政府和企業應該準備面對這種挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e0771507",
+        "title": "中東戰爭持續全球能源供應緊張 原油價格衝破113美元",
+        "url": "https://www.cna.com.tw/news/afe/202604060010.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Mon, 06 Apr 2026 07:52:43 +0800",
+        "summary_zh": "中東戰爭持續蔓延，全球能源供應緊張，原油價格今天開盤走高。美國基準原油西德州中級原油（West Texas Intermediate, WTI）上漲1.86%，報每桶113.62美元。這是西德州中級原油價格首次衝破113美元的里程碑。能源供應緊張的局面下，原油價格的上漲將對全球經濟產生重大影響。中東戰爭的持續蔓延將進一步加劇能源供應緊張，可能導致原油價格持續上漲。這將對全球經濟、尤其是能源消費國的經濟產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a5c97b1a",
+        "title": "OPEC+：受損能源設施修復費時且昂貴",
+        "url": "https://www.cna.com.tw/news/aopl/202604060004.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Mon, 06 Apr 2026 02:52:23 +0800",
+        "summary_zh": "石油輸出國家組織與盟國（OPEC+）今天發出警告，近期遭受攻擊的能源設施修復將是一個漫長而昂貴的過程。這可能導致全球石油供應在今後很長時間內會持續受到影響。受損的能源設施需要時間和資源來修復，這將對全球石油市場造成重大影響。OPEC+ 的警告表明，能源安全面臨著新的挑戰，全球石油供應可能會持續受到影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "19c65f42",
+        "title": "伊朗稱美軍飛機在營救失蹤美軍人員任務中被摧毀",
+        "url": "https://thehill.com/policy/defense/5817315-daring-rescue-mission-iran/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Sun, 05 Apr 2026 22:43:12 +0000",
+        "summary_zh": "伊朗伊斯蘭革命衛隊親近的法爾斯新聞社（Fars News Agency）週日報導，美軍在伊朗營救失蹤美軍人員任務中，摧毀了多架美軍飛機。伊朗法爾斯新聞社指出，美軍在營救任務中摧毀了兩架C-130運輸機和兩架UH-60黑鷹直升機。這一事件的具體情況尚未得到確認。美軍在伊朗的行動一直受到伊朗政府的嚴格控制和監視。伊朗政府對美軍在伊朗的行動採取了強烈反對立場。這一事件可能會對美伊關係產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "50bdf06e",
         "title": "美國空軍飛行員在伊朗偏遠地區的營救行動",
@@ -65,18 +343,6 @@
         "category": "global",
         "published_at": "Sun, 05 Apr 2026 21:19:02 GMT",
         "summary_zh": "美國政府為了營救被困在伊朗偏遠地區的空軍飛行員，展開了複雜的行動。這項行動涉及多個美國政府機構，包括負責秘密行動的特工單位。營救行動的細節尚未公開，但已知這是一項極具挑戰性的任務。伊朗是美國政府眼中的一個敵對國家，美國政府必須小心避免與伊朗政府發生衝突。美國政府為了保護其公民的安全，採取了多種措施，包括秘密行動和外交努力。這項行動的成功，表明美國政府對保護其公民的承諾。然而，營救行動的細節仍未公開，美國政府仍在評估行動的影響。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d7602fea",
-        "title": "分析：川普宣布在伊朗戰爭中取得勝利，卻仍面臨美國行動的威脅",
-        "url": "https://www.bbc.com/news/articles/cy01vg7x5ppo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 06 Apr 2026 00:23:16 GMT",
-        "summary_zh": "伊朗戰爭中的救援行動可能會影響川普對於攻佔卡爾吉島或奪取濃縮鈾工廠的立場。川普宣布在伊朗戰爭中取得勝利，但美國行動仍面臨著許多威脅。這次的救援行動表明了美國軍方的能力和決心，但也使得伊朗領導人更加堅定地反對美國的行動。美國政府仍然面臨著如何處理伊朗核問題的難題，同時也必須考慮到伊朗領導人的反應和美國國會的反對。",
         "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
@@ -118,85 +384,13 @@
         "ai_classified": true
       },
       {
-        "id": "14195a94",
-        "title": "中東戰爭掀能源危機 IEA籲勿祭出口禁令囤油",
-        "url": "https://www.cna.com.tw/news/afe/202604060023.aspx",
-        "source": "中央社財經",
+        "id": "d7602fea",
+        "title": "分析：川普宣布在伊朗戰爭中取得勝利，卻仍面臨美國行動的威脅",
+        "url": "https://www.bbc.com/news/articles/cy01vg7x5ppo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Mon, 06 Apr 2026 09:59:12 +0800",
-        "summary_zh": "中東戰爭引發的能源危機正在全球造成影響，國際能源總署（IEA）執行董事比羅爾發出警告，各國應該克制囤積石油與燃料的衝動。荷莫茲海峽的封鎖可能會使供應量進一步縮減，導致能源危機加劇。IEA籲勿祭出口禁令，希望能夠維持全球石油市場的穩定。能源危機的影響將會波及各個國家，包括台灣，各國政府和企業應該準備面對這種挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ebdf0d3c",
-        "title": "伊朗允許伊拉克船隻通過霍爾木茲海峽",
-        "url": "https://www.ft.com/content/53db0c3d-c897-4ccd-8517-5ad392dfa252",
-        "source": "Financial Times",
-        "category": "global",
-        "published_at": "2026-04-05 13:24:43",
-        "summary_zh": "伊朗政府近日宣布允許伊拉克船隻通過霍爾木茲海峽，這一決定可能會釋放出每日 300 萬桶的石油供國際市場使用。霍爾木茲海峽是全球石油運輸的重要通道，伊朗的決定可能會對全球石油市場產生重大影響。這一決定與伊朗與伊拉克的關係密切相關，伊拉克船隻通過霍爾木茲海峽將會大大降低伊拉克的運輸成本。伊朗的決定可能會對全球石油市場產生重大影響，可能會導致石油價格下跌。然而，伊朗的決定也可能會對伊朗自身產生影響，可能會導致伊朗的石油出口增加。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "304ae11c",
-        "title": "阿拉伯半島多股市低迷 因衝突升級",
-        "url": "https://www.reuters.com/world/middle-east/most-gulf-stocks-subdued-amid-escalating-conflict-2026-04-05/",
-        "source": "Reuters",
-        "category": "global",
-        "published_at": "2026-04-05 13:21:43",
-        "summary_zh": "阿拉伯半島股市因衝突升級而出現低迷。多家股市指數在近期出現下滑，表明投資者對當地經濟前景感到擔憂。儘管一些股市仍然表現穩定，但整體來說，市場情緒仍然疲弱。分析師認為，這種情況可能會持續一段時間，因為投資者仍然對衝突的影響感到擔憂。這種情緒不僅影響了阿拉伯半島的股市，也影響了全球股市的走勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e0771507",
-        "title": "中東戰爭持續全球能源供應緊張 原油價格衝破113美元",
-        "url": "https://www.cna.com.tw/news/afe/202604060010.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Mon, 06 Apr 2026 07:52:43 +0800",
-        "summary_zh": "中東戰爭持續蔓延，全球能源供應緊張，原油價格今天開盤走高。美國基準原油西德州中級原油（West Texas Intermediate, WTI）上漲1.86%，報每桶113.62美元。這是西德州中級原油價格首次衝破113美元的里程碑。能源供應緊張的局面下，原油價格的上漲將對全球經濟產生重大影響。中東戰爭的持續蔓延將進一步加劇能源供應緊張，可能導致原油價格持續上漲。這將對全球經濟、尤其是能源消費國的經濟產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a5c97b1a",
-        "title": "OPEC+：受損能源設施修復費時且昂貴",
-        "url": "https://www.cna.com.tw/news/aopl/202604060004.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Mon, 06 Apr 2026 02:52:23 +0800",
-        "summary_zh": "石油輸出國家組織與盟國（OPEC+）今天發出警告，近期遭受攻擊的能源設施修復將是一個漫長而昂貴的過程。這可能導致全球石油供應在今後很長時間內會持續受到影響。受損的能源設施需要時間和資源來修復，這將對全球石油市場造成重大影響。OPEC+ 的警告表明，能源安全面臨著新的挑戰，全球石油供應可能會持續受到影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "158720c4",
-        "title": "德克薩斯州油罐車翻覆引發大火",
-        "url": "https://www.theguardian.com/us-news/2026/apr/05/fuel-tanker-collision-fire-fort-worth-tx",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 05 Apr 2026 22:18:15 GMT",
-        "summary_zh": "德克薩斯州一輛油罐車在福特沃思外圍翻覆，撞毀電線後引發大火。事發時油罐車內裝有9,000加侖汽油。油罐車司機受傷被送醫治療。油罐車撞毀電線後引發大火，造成嚴重後果。這起意外事件可能會對當地居民造成影響。油罐車事故的原因仍在調查中。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "073671c2",
-        "title": "4月5日 美伊戰爭對國際經濟、財經市場與民生衝擊",
-        "url": "https://www.cna.com.tw/news/aopl/202604050128.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Sun, 05 Apr 2026 16:50:34 +0800",
-        "summary_zh": "伊朗戰爭已經邁入第六週，為應對油價大幅上漲，歐盟五國提議對燃油業者課徵暴利稅。中東觀光業因戰爭動盪而衰退，許多亞洲旅客改赴東南亞旅行。相反地，藥品物流業因需求激增而逆勢成長。這些變化對國際經濟、財經市場和民生產生了重大影響。",
+        "published_at": "Mon, 06 Apr 2026 00:23:16 GMT",
+        "summary_zh": "伊朗戰爭中的救援行動可能會影響川普對於攻佔卡爾吉島或奪取濃縮鈾工廠的立場。川普宣布在伊朗戰爭中取得勝利，但美國行動仍面臨著許多威脅。這次的救援行動表明了美國軍方的能力和決心，但也使得伊朗領導人更加堅定地反對美國的行動。美國政府仍然面臨著如何處理伊朗核問題的難題，同時也必須考慮到伊朗領導人的反應和美國國會的反對。",
         "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
@@ -226,18 +420,6 @@
         "ai_classified": true
       },
       {
-        "id": "19c65f42",
-        "title": "伊朗稱美軍飛機在營救失蹤美軍人員任務中被摧毀",
-        "url": "https://thehill.com/policy/defense/5817315-daring-rescue-mission-iran/",
-        "source": "The Hill",
-        "category": "global",
-        "published_at": "Sun, 05 Apr 2026 22:43:12 +0000",
-        "summary_zh": "伊朗伊斯蘭革命衛隊親近的法爾斯新聞社（Fars News Agency）週日報導，美軍在伊朗營救失蹤美軍人員任務中，摧毀了多架美軍飛機。伊朗法爾斯新聞社指出，美軍在營救任務中摧毀了兩架C-130運輸機和兩架UH-60黑鷹直升機。這一事件的具體情況尚未得到確認。美軍在伊朗的行動一直受到伊朗政府的嚴格控制和監視。伊朗政府對美軍在伊朗的行動採取了強烈反對立場。這一事件可能會對美伊關係產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "5289be85",
         "title": "墨西哥藝術界抗議將弗里達卡荷作品送往西班牙",
         "url": "https://www.theguardian.com/world/2026/apr/05/mexican-art-world-protests-over-plan-to-send-frida-kahlo-masterpieces-to-spain",
@@ -250,7 +432,143 @@
         "ai_classified": true
       }
     ],
+    "ai": [
+      {
+        "id": "22bfdeb3",
+        "title": "Suno 是音樂版權的噩夢",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-04-05T12:00:00-04:00",
+        "summary_zh": "Suno 是一款音樂 AI 平台，其政策是禁止使用版權材料。您可以上傳自己的歌曲進行混音或將原創歌詞設置為 AI 生成的音樂。但是，理論上它應該能夠辨識並阻止您使用他人的歌曲和歌詞。然而，目前的系統並不完美，仍有許多問題存在。許多音樂創作者和樂迷都在抱怨，Suno 的系統仍然允許使用版權材料。這使得許多音樂創作者感到擔憂，因為他們的作品可能會被盜用。Suno 的管理員表示，正在努力改進系統，以確保音樂創作者的作品得到保護。然而，問題仍然存在，需要更多的改進。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7be922b9",
+        "title": "讓吉米尼幫助我Google地圖規劃一天，結果意外地成功",
+        "url": "https://www.theverge.com/tech/907015/gemini-google-maps-hands-on",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-04-05T10:00:00-04:00",
+        "summary_zh": "吉米尼是Google各個服務中的一個內建功能，最近它也出現在Google地圖上。雖然它在Gmail中存在了一年多，但在Google地圖中，它的加入卻意外地成功。使用吉米尼幫助規劃一天的行程，結果令人驚訝地順暢。這項功能可以根據使用者的行程和地點，提供個人化的建議和提示。它可以幫助你節省時間和精力，提高工作效率和生活品質。這項功能的出現，讓人們對於吉米尼的看法有所改變。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9571bb9e",
+        "title": "格拉馬利的疏漏之旅",
+        "url": "https://www.theverge.com/column/906606/grammarly-expert-review-ai-saga",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-04-05T08:00:00-04:00",
+        "summary_zh": "格拉馬利是一家知名的語言檢查工具公司。近日，格拉馬利出現了一樁涉及公司內部員工的醜聞。根據外界的報導，格拉馬利的一名員工因為在公司內部的聊天室中發表不當言論而被開除。這名員工的言論被認為是對公司內部的員工進行性別歧視和種族歧視。格拉馬利公司對此事件表達了深深的遺憾，並承諾會對此事件進行徹底的調查和處理。這樁事件引起了外界的關注和討論，許多人對格拉馬利公司的處理方式表示了不滿。格拉馬利公司的這一措施被認為是對公司內部員工進行的重要改革，希望能夠改善公司內部的工作環境和員工的福祉。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "8dda0828",
+        "title": "人工智慧是否將取代石油開採?",
+        "url": "https://www.ft.com/content/525cc89e-1ee9-4039-a588-5039565053f9",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-04-05 15:00:27",
+        "summary_zh": "近年來，對資料中心的反彈聲浪逐漸升高，與過去的能源反對派人士一樣，認為資料中心的建設會對環境造成嚴重影響。資料中心的能源消耗量驚人，甚至超過部分國家的能源消耗量。許多人擔心，資料中心的建設會導致能源浪費和環境污染。這種反彈聲浪與過去的能源反對派人士所表達的擔憂相似，認為能源開採會對環境造成嚴重影響。然而，人工智慧的發展也可能會取代部分能源開採的需求，從而減少對環境的影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0a1849ac",
+        "title": "川普如何成為科技業的監管大臣",
+        "url": "https://www.ft.com/content/16bc1f88-0ae0-4de8-91ef-ea947876dc7d",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-04-05 11:30:32",
+        "summary_zh": "川普政府的科技監管政策已經超越歐盟的任何措施。川普政府對科技業的干預遠超過歐盟。川普政府通過多項政策和行動，對科技業施加了強有力的監管。這些政策包括對大型科技公司的反壟斷措施、數據保護法規和網路安全法規等。川普政府的這些政策旨在保護美國公民的資料安全和網路安全，並防止大型科技公司壟斷市場。然而，這些政策也引發了爭議，批評者認為這些政策對科技業的發展造成了不必要的限制。川普政府的科技監管政策將對全球科技業產生重大影響，展現了美國對科技監管的強烈意志。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c7c174d5",
+        "title": "SpaceX、Anthropic 和 OpenAI 的巨額 IPO 仍無法改善股市情況",
+        "url": "https://www.cnbc.com/2026/04/05/cramer-ipos-of-spacex-anthropic-and-openai-alone-cant-fix-this-market.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-04-05 17:16:39",
+        "summary_zh": "股市近期受到多重挑戰，包括經濟衰退、通膨和利率上升等風險因素。SpaceX、Anthropic 和 OpenAI 的巨額 IPO 雖然引人注目，但仍無法改善股市的情況。這些 IPO 的成功並不能抵消股市面臨的長期風險和挑戰。投資者需要注意的是，股市的情況可能會持續惡化，投資者需要謹慎評估風險並做好準備。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cd3b1ce5",
+        "title": "利比亞石油產量達10年來新高，達143萬桶每日",
+        "url": "https://www.reuters.com/pt/negocio/5LSG73TX6BODZE7E7TZYE7FJEM-2026-04-05/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-05 17:10:54",
+        "summary_zh": "利比亞國家石油公司(NOOC)宣布，該國石油產量已達10年來新高，達143萬桶每日。這一數字超過了2011年之前的產量。利比亞石油產量的增長是由於該國的石油產業在近年來得到重啟，許多石油公司開始在該國進行開採。這一發展對利比亞經濟有著重要影響，石油產量的增長將帶來新的收入和就業機會。然而，這一發展也引發了對環境和社會影響的擔憂。利比亞政府和石油公司需要在開採石油的同時，確保環境和社會的保護。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4e683ee2",
+        "title": "美國老年人面臨重大稅改，哪里可以找到免費稅務幫助",
+        "url": "https://www.cnbc.com/2026/04/05/free-tax-filing-help-retirees.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-04-05 13:30:01",
+        "summary_zh": "美國老年人今年可能會獲得更大的退稅金額。隨著稅法的變化，稅務複雜性增加，美國政府為老年人提供免費稅務服務，以幫助他們充分利用新稅收優惠政策。這些服務將有助於老年人更好地理解稅法變化，避免錯誤申報稅款，從而獲得更大的退稅金額。這項措施旨在幫助老年人更好地管理財務，減少稅務壓力。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c33e6861",
+        "title": "中國債券即將達到轉折點，通膨預期出現變化",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-05/chinese-bonds-near-inflection-point-as-inflation-outlook-shifts",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-05 12:00:00",
+        "summary_zh": "中國債券市場近期出現變化，隨著通膨預期出現變化，市場預期中國央行可能會採取措施來控制通膨。這些變化使得中國債券市場處於一個關鍵時刻，投資者需要考慮這些變化對債券價格的影響。根據最新的數據，中國的通膨率已經開始下降，這使得市場預期央行可能會放鬆貨幣政策。然而，中國政府仍然堅持控制通膨的目標，因此投資者需要密切關注央行的政策變化。這些變化對中國債券市場的影響將是投資者關注的焦點。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "stock_tw": [
+      {
+        "id": "92efd4a2",
+        "title": "中油四輕增產 經濟部:塑膠袋醫材蔬果包裝供應無虞",
+        "url": "https://www.cna.com.tw/news/afe/202604060102.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 06 Apr 2026 14:32:04 +0800",
+        "summary_zh": "由於中東戰事造成石化原料供應受阻，外界關注經濟部塑膠袋平價專案是否排擠其他用途製品量能。經濟部次長何晉滄表示，中油四輕4月陸續增產後，就能有餘裕供應塑膠袋、醫材、蔬果包裝等，民眾無需到市場搶購，供應無虞。這意味著，經濟部的措施將能夠有效解決塑膠袋短缺的問題，同時也能夠滿足其他用途的需求。這一措施對於維持市場穩定和民眾生活的正常運作具有重要意義。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ea7e9f65",
+        "title": "法人：日韓股市反彈暨美伊戰事影響台股表現",
+        "url": "https://www.cna.com.tw/news/afe/202604060101.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 06 Apr 2026 14:28:02 +0800",
+        "summary_zh": "台股2日下跌602.39點，跌破5日均線，美股主要指數多數收漲。法人認為，日本、韓國股市反彈對台股7日表現有利，但美伊戰事發展仍是關注重點。台指期夜盤上漲372點，表明市場對台股未來表現有所期待。然而，美伊戰事的不確定性仍可能對台股產生影響。因此，投資者需要密切關注國際形勢的發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "c9ceb6cc",
         "title": "韓國炸雞品牌進軍海外 開店前先進「炸雞大學」",
@@ -260,8 +578,8 @@
         "published_at": "Mon, 06 Apr 2026 12:21:53 +0800",
         "summary_zh": "韓國炸雞品牌正在全球掀起熱潮，為了確保品質，位於京畿道利川市的BBQ「炸雞大學」提供了加盟主的培訓。這所大學讓加盟主學習如何製作韓式炸雞，從選擇原料到烹飪技巧，都會被教導。這項培訓不僅僅是學習烹飪技巧，更是培養加盟主的服務精神和團隊合作能力。通過這項培訓，加盟主將能夠提供高品質的韓式炸雞給顧客。這項措施不僅能夠保證每間分店的品質，也能夠為品牌的全球化發展提供堅實的基礎。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "71c8dcd7",
@@ -372,18 +690,6 @@
         "ai_classified": true
       },
       {
-        "id": "2527cad0",
-        "title": "網傳苗栗大雨為人工增雨所致 水利署：勿輕信謠言",
-        "url": "https://www.cna.com.tw/news/afe/202604050134.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 05 Apr 2026 17:10:47 +0800",
-        "summary_zh": "苗栗地區近日受鋒面影響出現局部豪大雨，引發災情。網路社群上流傳謠言，指苗栗大雨是人工增雨所致。水利署今天發布新聞稿，嚴正澄清這項謠言，並強調此非事實。水利署呼籲民眾不要輕信謠言，保持理性。這項事件的出現，讓民眾對於水利署的工作感到疑慮。水利署的澄清，希望能夠讓民眾了解真相，並且能夠放心接受水利署的服務。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "27da2317",
         "title": "地緣衝突牽動台股震盪 清明後開盤上演季線保衛戰",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5394522",
@@ -404,140 +710,6 @@
         "published_at": "Mon, 06 Apr 2026 10:53:06 +0800",
         "summary_zh": "股東會紀念品熱潮來襲，各公司紀念品陸續曝光，投資人關注度飆升。明（4月7日）為獲得6檔股東會紀念品的最後買進日。包括信音（6126）超商禮物卡50元、東華（1418）皮革收納袋、聯發科（2454）手機充電器、統一（1216）咖啡機、台塑化（1303）手提袋、台塑化（1303）太陽能燈等好康。投資人應該趁最後買進日趁早買進相關股票，以獲得這些好康。",
         "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e51a9e5d",
-        "title": "元大台灣50正2分割後交易量暴增 成市場新寵",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5394485",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 06 Apr 2026 10:27:43 +0800",
-        "summary_zh": "ETF股王元大台灣50正2（00631L）順利分割，恢復交易後每股不到20元，成為最便宜的台股正2ETF。上週短短４個交易日，成交金額突破百億元，交易量在全體ETF排名中名列前茅。這一事件的背後原因是因為 ETF 分割後的門檻大降，投資者可以以較低的成本購買元大台灣50正2，從而導致交易量的暴增。這一事件對於ETF市場的影響是顯著的，投資者應該關注這一趨勢的發展。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4dd92d53",
-        "title": "國原院啟動SMR研究 估最快2035年台灣發出第1度電",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5394473",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 06 Apr 2026 10:26:30 +0800",
-        "summary_zh": "國家原子能科技研究院今年啟動小型模組化反應器（SMR）研究計畫，目的是減少高階核廢料的產生。研究人員已經初步盤點了3種SMR技術，這些技術可以讓高階核廢料的產生大幅減少，達到逾7成。這項研究計畫的目標是讓台灣能夠在2035年前發出第一度電。另外，研究人員也正在檢視國際輕水式SMR商用產品的可行性，如果確認安全無虞，則會考慮在國外授權生產。這項計畫的成功將對台灣的能源產業帶來重大影響，同時也會減少核廢料的產生，保護環境。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8abe145f",
-        "title": "「工業維他命」大翻身！日媒曝：這17種元素撬動全球權力版圖",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5394382",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 06 Apr 2026 10:18:52 +0800",
-        "summary_zh": "近日，日本首相高市早苗與法國總統馬克宏在東京會晤，雙方就稀土等重要礦產資源達成共識。根據日媒的報導，雙方同意日法聯合重稀土精煉計畫，以實現稀土來源多元化。稀土元素是全球各國競逐的重要礦產資源，具有廣泛的應用領域，包括高科技產業、能源和交通等。這17種元素的多元化來源將對全球經濟和政治格局產生重大影響。這項協議將使日本和法國在全球稀土市場中佔據重要地位，同時也將促進兩國在經濟和政治上的合作。這項協議的實施將對全球稀土市場的格局產生重大影響，同時也將對全球經濟和政治格局產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c4c6ff64",
-        "title": "川普警告伊朗！金價大跌專家指黃金牛市尚未結束",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5394395",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 06 Apr 2026 09:43:05 +0800",
-        "summary_zh": "美國總統川普最近對伊朗發出警告，表示若伊朗不開放荷姆茲海峽，將讓其遭遇地獄般的打擊。受此衝擊，金價大幅下跌，週一亞洲盤每盎司一度測4601美元，跌1.6%。然而，專家表示，黃金牛市尚未結束，金價仍有升值的空間。根據市場分析，黃金的需求正在增加，尤其是在全球經濟不穩定的情況下，黃金的價格仍有升值的機會。專家指出，目前的金價已經達到一個相對合理的水平，仍有升值的空間。因此，投資者不需要擔心金價的下跌，反而應該關注黃金的升值機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "8dda0828",
-        "title": "人工智慧是否將取代石油開採?",
-        "url": "https://www.ft.com/content/525cc89e-1ee9-4039-a588-5039565053f9",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-04-05 15:00:27",
-        "summary_zh": "近年來，對資料中心的反彈聲浪逐漸升高，與過去的能源反對派人士一樣，認為資料中心的建設會對環境造成嚴重影響。資料中心的能源消耗量驚人，甚至超過部分國家的能源消耗量。許多人擔心，資料中心的建設會導致能源浪費和環境污染。這種反彈聲浪與過去的能源反對派人士所表達的擔憂相似，認為能源開採會對環境造成嚴重影響。然而，人工智慧的發展也可能會取代部分能源開採的需求，從而減少對環境的影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0a1849ac",
-        "title": "川普如何成為科技業的監管大臣",
-        "url": "https://www.ft.com/content/16bc1f88-0ae0-4de8-91ef-ea947876dc7d",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-04-05 11:30:32",
-        "summary_zh": "川普政府的科技監管政策已經超越歐盟的任何措施。川普政府對科技業的干預遠超過歐盟。川普政府通過多項政策和行動，對科技業施加了強有力的監管。這些政策包括對大型科技公司的反壟斷措施、數據保護法規和網路安全法規等。川普政府的這些政策旨在保護美國公民的資料安全和網路安全，並防止大型科技公司壟斷市場。然而，這些政策也引發了爭議，批評者認為這些政策對科技業的發展造成了不必要的限制。川普政府的科技監管政策將對全球科技業產生重大影響，展現了美國對科技監管的強烈意志。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c7c174d5",
-        "title": "SpaceX、Anthropic 和 OpenAI 的巨額 IPO 仍無法改善股市情況",
-        "url": "https://www.cnbc.com/2026/04/05/cramer-ipos-of-spacex-anthropic-and-openai-alone-cant-fix-this-market.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-04-05 17:16:39",
-        "summary_zh": "股市近期受到多重挑戰，包括經濟衰退、通膨和利率上升等風險因素。SpaceX、Anthropic 和 OpenAI 的巨額 IPO 雖然引人注目，但仍無法改善股市的情況。這些 IPO 的成功並不能抵消股市面臨的長期風險和挑戰。投資者需要注意的是，股市的情況可能會持續惡化，投資者需要謹慎評估風險並做好準備。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "cd3b1ce5",
-        "title": "利比亞石油產量達10年來新高，達143萬桶每日",
-        "url": "https://www.reuters.com/pt/negocio/5LSG73TX6BODZE7E7TZYE7FJEM-2026-04-05/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-05 17:10:54",
-        "summary_zh": "利比亞國家石油公司(NOOC)宣布，該國石油產量已達10年來新高，達143萬桶每日。這一數字超過了2011年之前的產量。利比亞石油產量的增長是由於該國的石油產業在近年來得到重啟，許多石油公司開始在該國進行開採。這一發展對利比亞經濟有著重要影響，石油產量的增長將帶來新的收入和就業機會。然而，這一發展也引發了對環境和社會影響的擔憂。利比亞政府和石油公司需要在開採石油的同時，確保環境和社會的保護。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "4e683ee2",
-        "title": "美國老年人面臨重大稅改，哪里可以找到免費稅務幫助",
-        "url": "https://www.cnbc.com/2026/04/05/free-tax-filing-help-retirees.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-04-05 13:30:01",
-        "summary_zh": "美國老年人今年可能會獲得更大的退稅金額。隨著稅法的變化，稅務複雜性增加，美國政府為老年人提供免費稅務服務，以幫助他們充分利用新稅收優惠政策。這些服務將有助於老年人更好地理解稅法變化，避免錯誤申報稅款，從而獲得更大的退稅金額。這項措施旨在幫助老年人更好地管理財務，減少稅務壓力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c33e6861",
-        "title": "中國債券即將達到轉折點，通膨預期出現變化",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-05/chinese-bonds-near-inflection-point-as-inflation-outlook-shifts",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-05 12:00:00",
-        "summary_zh": "中國債券市場近期出現變化，隨著通膨預期出現變化，市場預期中國央行可能會採取措施來控制通膨。這些變化使得中國債券市場處於一個關鍵時刻，投資者需要考慮這些變化對債券價格的影響。根據最新的數據，中國的通膨率已經開始下降，這使得市場預期央行可能會放鬆貨幣政策。然而，中國政府仍然堅持控制通膨的目標，因此投資者需要密切關注央行的政策變化。這些變化對中國債券市場的影響將是投資者關注的焦點。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8265f637",
-        "title": "油價狂飆恐推升通膨 投顧看三大觀察重點",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5394500",
-        "source": "自由時報財經",
-        "category": "finance",
-        "published_at": "Mon, 06 Apr 2026 10:52:36 +0800",
-        "summary_zh": "石油輸出國組織宣布5月每日增產20.6萬桶原油，但增產增幅不大，油價可能難以下滑。布蘭特原油現貨每桶狂飆至141美元，創下2008年來新高。這可能會推升通膨。投顧看三大觀察重點：一是油價的波動對全球經濟的影響，二是石油供應的穩定性，三是油價上漲對通膨的影響。油價的波動可能會影響全球經濟的發展，石油供應的穩定性對油價的波動有著重要的影響。油價上漲對通膨的影響可能會加劇通膨的問題。",
-        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       }
@@ -564,214 +736,6 @@
         "published_at": "2026-04-05 10:57:46",
         "summary_zh": "土耳其央行行長和財政部長在會議中向投資者表明對於伊朗戰爭後果的處理步驟充滿信心。根據會議參與者表示，投資者留下了印象，土耳其央行可能會提高利率以應對經濟風險。這一措施旨在穩定土耳其的經濟，抵禦戰爭對經濟的不利影響。投資者對於央行的動作表示關注，認為利率上升可能會對經濟產生重大影響。土耳其的經濟面臨著多重挑戰，包括戰爭的不確定性和經濟衰退的風險。投資者將密切關注土耳其央行的下一步動作，以了解是否會實施利率上升。",
         "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "66747faf",
-        "title": "這個復活節，川普總統再次確認美國是基督教自由的燈塔",
-        "url": "https://www.whitehouse.gov/releases/2026/04/this-easter-president-trump-reaffirms-america-as-a-beacon-for-christian-liberty/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 01:55:10 +0000",
-        "summary_zh": "在全世界的基督徒們為耶穌基督的光榮復活而慶祝的復活節星期日，美國總統川普堅定地捍衛基督教信仰。自從他重返總統職位的第一天起，川普總統就把保護信仰的人民作為他的政府的核心任務之一。由於他的領導，美國成為了基督教信仰的堡壘。這是川普總統在復活節星期日發表的一份聲明，他在聲明中強調，美國將繼續捍衛基督教信仰，並成為世界各地基督徒的燈塔。這一聲明表明，川普總統將基督教信仰作為他的政府的核心任務之一，並將繼續捍衛美國的價值觀。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "f63e7477",
-        "title": "川普被指威脅可能犯下戰爭罪行　對伊朗發威脅性言論",
-        "url": "https://www.theguardian.com/us-news/2026/apr/06/trump-administration-news-updates-social-media-post-today",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 01:07:52 GMT",
-        "summary_zh": "美國總統川普在社交媒體上發表了一則含有粗言穢語的帖文，威脅要摧毀伊朗的電力廠和橋樑。民主黨領袖舒默批評川普的言論「像瘋子一樣亂說」，並指責他威脅可能犯下戰爭罪行。這則帖文引起了美國政治界的強烈反應。川普在帖文中說：「開放這座海峽，瘋子們，否則你們會在地獄生活。」他同時也表示，伊朗和美國可能會在星期一達成協議，結束五周的戰爭。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "06c24479",
-        "title": "千人在德克薩斯州抗議邊境牆穿越國家公園：『對大弯曲河谷的深厚愛意』",
-        "url": "https://www.theguardian.com/us-news/2026/apr/05/texas-capitol-protest-big-bend-border-wall",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 05 Apr 2026 19:10:57 GMT",
-        "summary_zh": "近千人聚集在德克薩斯州議會大廈前，抗議白宮計畫在大弯曲河谷國家公園建造邊境牆。這場抗議活動獲得了跨黨派的支持。美國邊境巡邏隊在前一天宣布，將在大弯曲河谷國家公園的部分地區建造鋼鐵牆。這一決定引起了廣泛的爭議。抗議者認為，邊境牆將破壞國家公園的自然美景和生態系統。同時，許多人也擔心，牆的建設將對當地的環境和野生動物造成嚴重影響。抗議活動的組織者表示，這是對白宮計畫的強烈反對。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a6dfe6e4",
-        "title": "NASA 領導人：外星生命的可能性影響太空任務的規劃",
-        "url": "https://www.theguardian.com/us-news/2026/apr/05/alien-life-nasa-jared-isaacman-artemis-ii",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 05 Apr 2026 17:26:22 GMT",
-        "summary_zh": "NASA 領導人 Jared Isaacman 表示，外星生命的可能性是太空任務規劃的關鍵因素。他在接受 CNN 采訪時表示，探索外星生命的可能性是 NASA 的工作重點之一，「我們的任務是去解開宇宙的秘密」。這番話是在 NASA 的 Artemis II 任務發射後四天發表的。Artemis II 任務是 NASA 的一項重大太空任務，目的是將宇航員送到月球附近的軌道上。NASA 領導人 Jared Isaacman 的話題引起了外界對太空探索的關注，也讓人們對外星生命的可能性產生了新的思考。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c24df242",
-        "title": "美國政治人物對特朗普對伊朗的髒話威脅感到震驚",
-        "url": "https://www.theguardian.com/us-news/2026/apr/05/trump-iran-threats-politician-reactions",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 05 Apr 2026 17:01:12 GMT",
-        "summary_zh": "美國總統特朗普在社交媒體上發表了一則含髒話的威脅性言論，呼籲伊朗「開放霍爾木茲海峽，否則你們將會陷入地獄」。這則言論引起了美國政治人物的強烈反應，包括馬吉里·泰勒·格林和伯尼·桑德斯，他們對特朗普的言論感到震驚，並質疑他的精神狀態。特朗普的言論被視為對伊朗的威脅，尤其是在中東危機的背景下。美國政治人物對特朗普的言論感到擔憂，認為這可能會使局勢惡化。這則言論也引起了對美國總統精神狀態的質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "84a0fff3",
-        "title": "曼達尼承諾推動紐約廉價住房方案，卻如何實現？",
-        "url": "https://www.theguardian.com/us-news/2026/apr/05/zohran-mamdani-affordable-housing-new-york",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 05 Apr 2026 16:00:54 GMT",
-        "summary_zh": "紐約市長曼達尼在競選期間承諾推動廉價住房方案，但最近卻決定上訴法院判決，要求城市擴大住房補助金計劃，引起無家可歸者倡導者們的不滿。曼達尼解釋了他的決定，指出城市抗擊無家可歸和驅逐預防補助金計劃（CityFHEPS）成本高昂，這項計劃幫助住在收容所或面臨無家可歸的人找到永久性住房。曼達尼還面臨著$54億美元的預算赤字問題，需要找到解決方案。這一決定引起了對無家可歸者政策的關注和爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a04c4d41",
-        "title": "川普大規模驅逐計畫在美國小鎮引起震動：『我們必須彼此照顧』",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/apr/05/trump-deportation-rural-towns-wisconsin",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 05 Apr 2026 14:02:36 GMT",
-        "summary_zh": "在美國西部的農村地區，移民局人員開始行動，將數十名人士從保守派地區的小鎮帶走。2月份被移民局人員帶走的墨西哥餐廳仍然關閉，位於附近的旅遊中心另一邊，人們也被聯邦機構逮捕。靠近的小鎮有一家來自厄瓜多的市場被移民局人員鎖定，但市場已經重新開業，門口掛著告示，要求進入前先按鈴。這些小鎮的居民正在努力保持鎮靜，但他們的生活已經受到嚴重影響。這些小鎮的居民正在努力保持鎮靜，但他們的生活已經受到嚴重影響。這些小鎮的居民正在努力保持鎮靜，但他們的生活已經受到嚴重影響。這些小鎮的居民正在努力保持鎮靜，但他們的生活已經受到嚴重影響。這些小鎮的居民正在努力保持鎮靜，但他們的生活已經受到嚴重影響。這些小鎮的居民正在努力保持鎮靜，但他們的生活已經受到嚴重影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d15c4fd0",
-        "title": "我曾是美國軟實力大使：川普的貪婪形象和伊朗戰爭可能使美國在全球的影響力永遠喪失",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/apr/05/american-soft-power-iran-war",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 05 Apr 2026 13:00:53 GMT",
-        "summary_zh": "美國在全球的軟實力可能永遠無法恢復。美國總統川普的貪婪形象和對伊朗的戰爭將對美國在全球的影響力造成無法估計的傷害。2003年夏季的一天，我在南非沿海小鎮的中心開車去買報紙。當時正值伊拉克戰爭初期，我從兩個街區外就能看見報紙亭的頭版：「布希比本拉登更糟糕。」這令我感到失望，尤其是在如此遙遠的地方。但這也與美國在全球的形象變化相符：美國在全球的受歡迎程度往往會因為戰爭（尤其是美國自己引發的戰爭）和美國總統的形象而大幅波動。在美國對伊拉克發動攻擊後不久，美國在9·11事件後獲得的國際支持就被浪費了。美國在全球的軟實力可能永遠無法恢復。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c23e7243",
-        "title": "美國健康官員在中期選舉前似乎避免批評疫苗",
-        "url": "https://www.theguardian.com/us-news/2026/apr/05/health-officials-anti-vaccine-views-midterms",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 05 Apr 2026 13:00:51 GMT",
-        "summary_zh": "美國即將舉行中期選舉，健康官員似乎避免在公共場合中表達對疫苗的負面看法。根據最新的民調，反疫苗觀點已經成為選民的負面評價。過去一年，美國健康官員對兒童疫苗接種建議進行了前所未有的變更，包括將乙型肝炎疫苗從出生時的接種項目中刪除。然而，即使聯邦法官已經無效化了這些變更，官員們仍未大力推廣這些重大變更。原因是唐納德·川普的民調專家建議在中期選舉前避免反疫苗觀點。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "796fa340",
-        "title": "阿特米斯II號飛行員在前往月球途中遇到廁所問題",
-        "url": "https://www.bbc.com/news/articles/c87wy05wr4no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 05 Apr 2026 18:35:24 GMT",
-        "summary_zh": "阿特米斯II號任務的四名飛行員在搭乘奧利恩號太空艙前往月球時，遇到了太空艙廁所的異常問題。這些問題出現在飛行員使用廁所的時候，可能與太空艙的系統故障或是廁所的設計問題有關。這種情況對飛行員的健康和舒適度造成了影響。阿特米斯II號任務是NASA的月球探索計畫的一部分，目的是測試太空艙的性能和飛行員的適應能力。這次的問題可能會對未來的太空探索任務造成影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "08fc485a",
-        "title": "內維雅圖尼亞說他與川普通話，祝賀他成功營救被伊朗擊落的美軍飛行員",
-        "url": "https://thehill.com/policy/international/5817394-netanyahu-trump-cooperation-rescue/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 00:18:57 +0000",
-        "summary_zh": "內維雅圖尼亞在週日表示，他與美國總統川普通話，對於川普在營救被伊朗擊落的美軍飛行員的決定表示祝賀。根據內維雅圖尼亞的說法，川普的決定「非常英勇」，而營救行動「完美地執行」。這項行動是針對伊朗擊落一架美軍飛機，造成一名美軍飛行員受傷的事件。內維雅圖尼亞的說法顯示，兩國領導人在此事件上保持著密切的合作關係。這項行動的成功也表明，美國和以色列在面對伊朗的威脅時將繼續保持堅定的合作態度。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "54842703",
-        "title": "川普對伊朗發表髒話攻擊 國會議員批評幼稚",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5394442",
-        "source": "自由時報財經",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 10:25:35 +0800",
-        "summary_zh": "美國總統川普週日對伊朗發表充滿髒話的攻擊，引發了國會議員的批評。川普在社交平台發文，對伊朗進行攻擊性言論，國會議員認為這些言論幼稚且令人尷尬。這些批評表明，國會議員對川普的言論感到不滿，認為這些言論不適合一個總統的形象。這一事件也引發了對川普言論風格的質疑，是否他言論的過度激烈會對美國的外交關係造成不利影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3ec86054",
-        "title": "SNL嘲笑邦迪辭職的冷開",
-        "url": "https://thehill.com/media/5817305-snl-rips-bondis-departure-in-cold-open/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Sun, 05 Apr 2026 22:06:37 +0000",
-        "summary_zh": "週六夜現場（Saturday Night Live）在最新一集的冷開環節中，嘲笑了美國律政長官邦迪（Pam Bondi）最近被解職的事件。這個滑稽的角色扮演了一場NCAA冠軍四強賽後的訪問節目，查理斯·巴克利（Charles Barkley）一角由肯恩·湯普森（Kenan Thompson）飾演，卻一直跑題，談論邦迪辭職的事件。 '當有人被解職時，總是令人遺憾。但我們都知道，邦迪是因為她太會說話了。' 查理斯·巴克利說道。 '她說了太多話，太多話，太多話!' 這個角色扮演的訪問節目還有其他角色加入，包括一個模仿美國總統川普的角色。這個滑稽的角色扮演讚揚了川普的做法，說他將邦迪解職是為了讓她能夠 '說話'。這個滑稽的角色扮演讚揚了川普的做法，說他將邦迪解職是為了讓她能夠 '說話'。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "be8ee9bc",
-        "title": "莎凡納·古思里回歸《今日》節目",
-        "url": "https://thehill.com/blogs/in-the-know/5817282-savannah-guthrie-returns-today/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Sun, 05 Apr 2026 21:34:49 +0000",
-        "summary_zh": "莎凡納·古思里將於復活節後的星期一回歸NBC的《今日》節目，超過兩個月前她的母親南希·古思里失蹤後。莎凡納表示，回歸節目將是個挑戰，因為《今日》節目是一個充滿歡樂和陽光的地方，她不想假裝自己不是現在的她。莎凡納的母親南希在去年12月失蹤，當時她正在美國西部旅行。莎凡納表示，她的母親失蹤後，她感到非常難過和混亂。莎凡納希望通過回歸節目來幫助自己恢復，同時也希望能夠為觀眾帶來歡樂和陽光。莎凡納的回歸將是節目的一個重大的轉捩點，觀眾們都期待著她的回歸。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "ai": [
-      {
-        "id": "22bfdeb3",
-        "title": "Suno 是音樂版權的噩夢",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-04-05T12:00:00-04:00",
-        "summary_zh": "Suno 是一款音樂 AI 平台，其政策是禁止使用版權材料。您可以上傳自己的歌曲進行混音或將原創歌詞設置為 AI 生成的音樂。但是，理論上它應該能夠辨識並阻止您使用他人的歌曲和歌詞。然而，目前的系統並不完美，仍有許多問題存在。許多音樂創作者和樂迷都在抱怨，Suno 的系統仍然允許使用版權材料。這使得許多音樂創作者感到擔憂，因為他們的作品可能會被盜用。Suno 的管理員表示，正在努力改進系統，以確保音樂創作者的作品得到保護。然而，問題仍然存在，需要更多的改進。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7be922b9",
-        "title": "讓吉米尼幫助我Google地圖規劃一天，結果意外地成功",
-        "url": "https://www.theverge.com/tech/907015/gemini-google-maps-hands-on",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-04-05T10:00:00-04:00",
-        "summary_zh": "吉米尼是Google各個服務中的一個內建功能，最近它也出現在Google地圖上。雖然它在Gmail中存在了一年多，但在Google地圖中，它的加入卻意外地成功。使用吉米尼幫助規劃一天的行程，結果令人驚訝地順暢。這項功能可以根據使用者的行程和地點，提供個人化的建議和提示。它可以幫助你節省時間和精力，提高工作效率和生活品質。這項功能的出現，讓人們對於吉米尼的看法有所改變。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9571bb9e",
-        "title": "格拉馬利的疏漏之旅",
-        "url": "https://www.theverge.com/column/906606/grammarly-expert-review-ai-saga",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-04-05T08:00:00-04:00",
-        "summary_zh": "格拉馬利是一家知名的語言檢查工具公司。近日，格拉馬利出現了一樁涉及公司內部員工的醜聞。根據外界的報導，格拉馬利的一名員工因為在公司內部的聊天室中發表不當言論而被開除。這名員工的言論被認為是對公司內部的員工進行性別歧視和種族歧視。格拉馬利公司對此事件表達了深深的遺憾，並承諾會對此事件進行徹底的調查和處理。這樁事件引起了外界的關注和討論，許多人對格拉馬利公司的處理方式表示了不滿。格拉馬利公司的這一措施被認為是對公司內部員工進行的重要改革，希望能夠改善公司內部的工作環境和員工的福祉。",
-        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       }
