@@ -1,84 +1,314 @@
 {
-  "generated_at": "2026-04-08T01:04:12.811606+08:00",
+  "generated_at": "2026-04-08T02:04:09.359813+08:00",
   "risk_signals": [
     "🟢 台股加權 32572.43（正常）",
-    "🟢 S&P 500 6590.79（正常）",
-    "🟡 VIX 恐慌指數 26.22（留意）",
+    "🟢 S&P 500 6592.38（正常）",
+    "🟡 VIX 恐慌指數 26.71（留意）",
     "🟢 MOVE 債市波動 81.68（正常）",
-    "🟢 美元指數 99.87（正常）",
-    "🟢 黃金 4687.0（正常）",
-    "🟢 美債10Y殖利率 4.36（正常）",
-    "🟢 原油 WTI 114.54（正常）",
-    "🟢 美元/台幣 31.94（正常）"
+    "🟢 美元指數 99.82（正常）",
+    "🟢 黃金 4705.0（正常）",
+    "🟢 美債10Y殖利率 4.35（正常）",
+    "🟢 原油 WTI 113.56（正常）",
+    "🟢 美元/台幣 31.93（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，但應留意恐慌指數觸發警訊，投資者需謹慎處置。",
+  "ai_summary": "市場氛圍仍然相對穩定，但恐慌指數略有上升，留意市場可能存在的不確定性。",
   "market": {
     "TWII": {
       "price": 32572.43,
       "change_pct": -1.82
     },
     "SP500": {
-      "price": 6590.79,
-      "change_pct": -0.32
+      "price": 6592.38,
+      "change_pct": -0.29
     },
     "NASDAQ": {
-      "price": 21884.61,
-      "change_pct": -0.51
+      "price": 21896.12,
+      "change_pct": -0.46
     },
     "VIX": {
-      "price": 26.22,
-      "change_pct": 8.48
+      "price": 26.71,
+      "change_pct": 10.51
     },
     "TNX": {
-      "price": 4.36,
-      "change_pct": 0.48
+      "price": 4.35,
+      "change_pct": 0.42
     },
     "MOVE": {
       "price": 81.68,
       "change_pct": -3.23
     },
     "DXY": {
-      "price": 99.87,
-      "change_pct": -0.11
+      "price": 99.82,
+      "change_pct": -0.16
     },
     "GOLD": {
-      "price": 4687.0,
-      "change_pct": 0.65
+      "price": 4705.0,
+      "change_pct": 1.04
     },
     "OIL": {
-      "price": 114.54,
-      "change_pct": 1.89
+      "price": 113.56,
+      "change_pct": 1.02
     },
     "USDTWD": {
-      "price": 31.94,
-      "change_pct": -0.07
+      "price": 31.93,
+      "change_pct": -0.1
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "a2c86103",
+        "title": "政府停擺八周 美國國會休會至四月十三日",
+        "url": "https://www.theguardian.com/us-news/live/2026/apr/07/government-shutdown-congress-house-of-representatives-donald-trump-republicans-democrats-ice-us-politics-latest-updates-news",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 07 Apr 2026 17:29:20 GMT",
+        "summary_zh": "美國政府停擺已經持續八周，國會將於四月十三日恢復工作。美國副總統 JD Vance 進入匈牙利，試圖影響即將舉行的選舉。Vance 將與長期執政的總理 Viktor Orbán 進行官方訪問，並出席他的競選活動，這是美國政府對 Orbán 選舉結果的明確表態。選舉將於本週日舉行，Orbán 是唐納德·川普 的親密盟友。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1ed696dd",
+        "title": "川普警告：如果伊朗不重開霍爾木茲海峽，整個文明將毀滅",
+        "url": "https://www.theguardian.com/us-news/2026/apr/07/trump-iran-threat-truth-social",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 07 Apr 2026 17:25:43 GMT",
+        "summary_zh": "川普在 Truth Social 表示，如果伊朗政府不在 8 點 ET 前重開霍爾木茲海峽，他將徹底摧毀伊朗文明。川普表示，這將是一個不可逆轉的過程，伊朗將失去 90 多萬人的文明。川普表明，他不希望這種情況發生，但可能會發生。這種威脅來自於霍爾木茲海峽對全球石油供應的重要性，海峽的封鎖可能會對全球經濟造成重大影響。川普的言論引發了對美國政策的關注，是否美國將採取軍事行動來解決霍爾木茲海峽問題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5fd612dc",
+        "title": "川普政府削減槍擊暴力防治資金，加州拉丁裔社區面臨後果",
+        "url": "https://www.theguardian.com/us-news/2026/apr/07/gun-violence-funding-cuts-california-trump",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 07 Apr 2026 17:00:01 GMT",
+        "summary_zh": "川普政府削減槍擊暴力防治資金，導致加州拉丁裔社區面臨嚴重後果。非營利組織正在縮減項目，擔心暴力會加劇在歷史上被忽視的社區。Oakland的一個非營利組織Youth Alive的槍擊暴力防治專家Sergio Diaz透露，他每天都會去東奧克蘭的Highland醫院，與受槍傷的病人會面，了解他們的需求並幫助他們遠離報復。Diaz能夠與來自中美洲的移民建立關係，因為他了解他們的經歷。然而，由於資金削減，非營利組織正在縮減項目，擔心暴力會加劇。這將對加州拉丁裔社區造成嚴重影響，尤其是在歷史上被忽視的社區。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "72b3db27",
+        "title": "JD Vance 突擊匈牙利 支持 Orbán 在選舉最後一周",
+        "url": "https://www.ft.com/content/a528c2fe-c448-4ebf-abbf-3d744d9004c4",
+        "source": "Financial Times",
+        "category": "whitehouse",
+        "published_at": "2026-04-07 05:00:10",
+        "summary_zh": "美國政治人物 JD Vance 近日抵達匈牙利，試圖在選舉最後一周為匈牙利總理 Orbán 的競選活動提供支持。這一行動引起了外界的關注，特別是在選舉即將到來的時候。 Orbán 的競選活動一直受到爭議，許多人批評他對民主和人權的態度。 Vance 的到訪被視為對 Orbán 的支持，可能會對選舉結果產生影響。 匈牙利選舉的結果將決定該國未來的政治走向，外界都在關注這一點。 Vance 的到訪也引起了美國政治界的關注，許多人對他支持 Orbán 的決定表示擔憂。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "518d41e3",
+        "title": "ICE逮捕超過800人，調查顯示TSA提供了超過31,000名旅客資料",
+        "url": "https://www.theguardian.com/us-news/2026/apr/07/tsa-ice-arrests-airports",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 07 Apr 2026 15:15:45 GMT",
+        "summary_zh": "根據路透社的調查，自唐納德·川普第二任總統任期開始至2026年2月，美國移民和海關執法局（ICE）逮捕了超過800人。ICE接收了來自交通安全管理局（TSA）的超過31,000名旅客資料，供移民執法使用。這些資料顯示，ICE逮捕了超過800人，遠超過之前公開知曉的數字。這項調查顯示，TSA與ICE之間的合作關係在移民執法中扮演了重要角色。這項合作關係引發了對民權和人權的擔憂，特別是在移民社群中。ICE的行動可能會對移民社群造成重大影響，包括逮捕和驅逐。這項調查也引發了對政府機構之間合作關係的質疑，特別是在移民執法中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "24e272ce",
+        "title": "中西部的瓶頸橋樑終於得到了幫助，但這是否都是好消息?",
+        "url": "https://www.theguardian.com/us-news/2026/apr/07/brent-spence-bridge-bottleneck-ohio-kentucky",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 07 Apr 2026 14:00:49 GMT",
+        "summary_zh": "布倫特斯佩斯橋樑連接肯塔基州和俄亥俄州，是中西部工業區與南部城市之間的重要聯繫。然而，這座橋樑的升級卻引發了關於成本超支、污染和房屋問題的擔憂。這座橋樑建於1960年代初期，當時設計容納每天85,000輛車輛，但現今卻有兩倍的車輛通過，包括汽車和卡車。這座橋樑的狹窄車道、彎曲的進入道路和缺乏緊急出口道路，使得在事故發生後，司機們可能會被困在橋樑上數小時。升級工程的進行將會改善橋樑的交通流通，但同時也引發了環境問題和房屋被拆除的擔憂。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d5e52d3a",
+        "title": "錄影片段揭露ICE官員開槍事件真相，違反當初的說法",
+        "url": "https://www.theguardian.com/us-news/2026/apr/07/minneapolis-video-ice-shooting-venezuelan-men",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 07 Apr 2026 13:19:31 GMT",
+        "summary_zh": "明尼阿波利斯市政府在一月份發生的一起與移民局（ICE）官員槍擊事件中，釋放了一段錄影片段。該錄影片段來自於市政府的監控攝像頭，顯示移民局官員在追捕一名在當地居住的委內瑞拉男子時，另外一名居住在該男子家中的委內瑞拉男子在衝突中遭到槍擊。這起事件最終導致兩名涉及川普政府在明尼蘇達州推動的移民打擊行動（Operation Metro Surge）的聯邦官員被停職。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "efbe5182",
+        "title": "川普對伊朗的最後期限與民間目標威脅迫在即",
+        "url": "https://www.theguardian.com/us-news/2026/apr/06/trump-administration-news-updates-today",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 07 Apr 2026 01:55:00 GMT",
+        "summary_zh": "川普在記者會上被問到他的對伊朗戰爭是否正在減少或加劇，他回答說：「我無法告訴你。」這些發言出現在伊朗戰爭中外交談判似乎陷入僵局之際。伊朗戰爭的緊張局勢持續升高，美國總統川普的最後期限與對伊朗的威脅迫在即。伊朗戰爭的外交談判似乎陷入困境，美國總統川普的最後期限與對伊朗的威脅迫在即，引起了國際社會的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "68b2110a",
+        "title": "總統賀勉NCAA大學籃球錦標賽冠軍",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-ncaa-college-basketball-national-championship-game/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 18:49:56 +0000",
+        "summary_zh": "今天，美國總統與數百萬名美國人一起祝賀密西根大學籃球隊和康涅狄格大學籃球隊，兩隊將在2026年全美大學體育協會(NCAA)大學籃球錦標賽中爭奪冠軍。這項錦標賽已經在近90年間為美國人帶來了無數的激動人心的時刻，展現了運動員的拼搏精神和勝利的喜悅。每年三月，美國人都會圍繞著這項錦標賽進行熱烈的討論和觀看。總統對於這項錦標賽的熱情和競爭精神感到鼓舞，並祝賀參賽的球隊和球迷。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "11c09ffa",
+        "title": "Lil Nas X 案件將被撤銷 如果他完成精神健康計畫",
+        "url": "https://www.bbc.com/news/articles/cew7nqn5rqgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 21:55:11 GMT",
+        "summary_zh": "美國歌手Lil Nas X 因涉嫌襲擊案被捕，但法官認為他在案發時的行為與正常行為有所不同。法官表示，如果他完成精神健康計畫，案件將會被撤銷。這項判決表明法官對Lil Nas X 的精神健康狀況有所關注，並希望他能夠接受幫助。這項事件也引起了對於藝人精神健康的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c34a5205",
+        "title": "觀看：阿特米斯二號太空船的歷史性月球飛越... 在 90 秒內",
+        "url": "https://www.bbc.com/news/videos/c3exp80x7vqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 07 Apr 2026 10:56:44 GMT",
+        "summary_zh": "阿特米斯二號太空船的四名宇航員在軌道器上創下了從地球旅行的新里程碑。這次任務的主要目標是測試太空船在深空飛行的能力，並為未來的月球登陸做好準備。太空船在飛越月球的過程中，進行了多項科學實驗和測試，收集了豐富的資料。這次任務的成功完成，為未來的人類太空探索開闢了新道路。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ef4dc1cd",
+        "title": "明尼蘇達聯盟否認羅德里奎茲罹患罕見肌肉衰竭症",
+        "url": "https://www.bbc.com/sport/football/articles/cvgek33dxkpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 07 Apr 2026 06:49:14 GMT",
+        "summary_zh": "明尼蘇達聯盟否認了中場球員詹姆斯·羅德里奎茲罹患罕見肌肉衰竭症的流言。這種罕見的肌肉衰竭症是一種可能威脅生命的疾病，會導致肌肉逐漸萎縮和壞死。聯盟方面表示羅德里奎茲目前身體健康，正在接受醫學檢查。這項否認表明聯盟對球員的健康狀況感到關心，並希望澄清流言以避免對球員造成不必要的壓力。這項消息對球迷和球員的影響不大，但對球隊的形象和聲譽可能有一定影響。未來聯盟將繼續關注羅德里奎茲的健康狀況，並希望他能夠繼續為球隊出戰。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0dae16b5",
+        "title": "川普支持前英國政治顧問史蒂夫希爾頓競選加州州長",
+        "url": "https://www.bbc.com/news/articles/c0mj4jeyvmzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 18:55:45 GMT",
+        "summary_zh": "前美國總統川普支持史蒂夫希爾頓競選加州州長。史蒂夫希爾頓曾擔任前英國首相顧問，還曾主持福斯新聞台節目。他將以共和黨的身份參選加州州長選舉。這是川普支持的一個重要動作，展現了他對共和黨未來選舉的關注。然而，史蒂夫希爾頓的競選前景如何，還需要觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0b4e6003",
+        "title": "阿特米斯二號任務：我們是否能夠再次登陸月球?",
+        "url": "https://www.bbc.com/news/articles/cj60nkd8nrko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 07 Apr 2026 15:23:05 GMT",
+        "summary_zh": "阿特米斯二號任務迄今為止幾乎沒有錯誤，但這次試飛是否已經證明了美國國家航空暨太空總署（NASA）準備好要將人類送上月球表面?",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "global": [
       {
-        "id": "e9fedbdb",
-        "title": "伊斯坦堡以色列總領事館遭槍擊一死二傷",
-        "url": "https://www.bbc.com/news/articles/c3exp8j7yz4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "d0e8fb8a",
+        "title": "美國將柬埔寨人驅逐至埃斯瓦蒂尼，受害者稱自己應該享有正義程序",
+        "url": "https://www.theguardian.com/world/2026/apr/07/cambodian-man-pheap-rom-deported-us-eswatini",
+        "source": "Guardian World",
         "category": "global",
-        "published_at": "Tue, 07 Apr 2026 14:51:07 GMT",
-        "summary_zh": "伊斯坦堡發生槍擊案，造成一名槍手死亡，兩人受傷。然而，目前以色列駐土耳其的外交官都已經離職，伊斯坦堡總領事館已經空置兩年半。這起槍擊案的原因尚未明朗。根據目前的資訊，這起事件似乎並非針對以色列外交官的襲擊。事態的發展仍在持續追蹤中。",
+        "published_at": "Tue, 07 Apr 2026 16:13:07 GMT",
+        "summary_zh": "柬埔寨人Pheap Rom是美國在2025年10月將15人驅逐至埃斯瓦蒂尼的其中一名。這15人都已完成美國的刑期，但仍被送進了該國的最高安全監獄。Pheap Rom被定罪為謀殺未遂罪，曾在美國服刑。然而，他被送往埃斯瓦蒂尼時，自己甚至不知道該國的名字是埃斯瓦蒂尼，而不是美國路易斯安那州的一個移民拘留中心。Pheap Rom被驅逐至埃斯瓦蒂尼後，於2026年3月才被送回柬埔寨。受害者表示，他願意接受被送回柬埔寨，但沒有想到自己會被送往一個如此陌生的國家。這一事件引起了關於美國移民政策的爭議。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "d4f7ea54",
+        "title": "川普最後通牒期限將至 歐股收低",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5396379",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Wed, 08 Apr 2026 00:48:03 +0800",
+        "summary_zh": "美國總統川普要求德黑蘭開放荷莫茲海峽，最後通牒期限進入倒數。美國與以色列攻擊伊朗重要石油出口樞紐哈格島後，川普發出警告，表示「一整個文明將於今晚毀滅」。此事件引起全球市場的關注，倫敦FTSE 100指數今天收黑。荷莫茲海峽是伊朗石油出口的重要通路，如果伊朗不開放，將對全球石油市場造成重大影響。川普的最後通牒期限將於今晚結束，如果德黑蘭不開放，美國可能會採取進一步的行動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "30f82459",
+        "title": "亞太市場預期開盤升幅　投資者評估伊朗戰爭訊息不一",
+        "url": "https://www.cnbc.com/2026/04/07/asia-pacific-markets-toda-kospi-nikkei225-nifty50.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-04-06 23:49:51",
+        "summary_zh": "美國總統川普再次威脅若伊朗和談不成，將針對伊朗民用基礎設施進行攻擊。然而，他同時表明伊朗領導層正真誠地進行談判。投資者在收到這些訊息後，預期亞太市場將在開盤時呈現升幅。伊朗戰爭的風險仍在升高，市場投資者正努力評估這些訊息的意義。這些訊息的不一致性使得投資者感到困惑，難以做出明確的投資決策。伊朗戰爭的風險對全球市場有著重大影響，投資者將密切關注這些訊息的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3e13d666",
+        "title": "洛杉磯附近的東復森林公園發現人頭",
+        "url": "https://www.theguardian.com/us-news/2026/apr/07/human-skull-found-near-los-angeles-easter",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Tue, 07 Apr 2026 15:49:04 GMT",
+        "summary_zh": "近日，在洛杉磯附近的東復森林公園舉行的復活節蛋 hunt 活動中，發現了一個人的頭顱。根據當地報導，事件發生在星期日下午 5 點左右，一個家庭在公園中進行蛋 hunt 時，發現了這些人頭。當地警方已經展開調查，正在努力確定這些人頭的身份和來源。這個事件引起了當地居民的關注和恐懼，許多人對於這個發生在一個公共公園的事件感到震驚和不適。警方正在努力解決這個案件，並確保公園的安全。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "781a214c",
+        "title": "加拿大阿爾伯塔省原住民要求法院阻止分離公投",
+        "url": "https://www.theguardian.com/world/2026/apr/07/first-nation-decries-alberta-separatist-push-canada",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 07 Apr 2026 16:43:13 GMT",
+        "summary_zh": "阿爾伯塔省的史圖根湖克里族原住民已經向法院提出訴訟，要求阻止該省分離公投。該族原住民認為，這項公投將違反他們的條約權利。該省的一小部分居民長期以來一直認為，該省的問題是由於向聯邦政府支付結構和將豐富的石油資源賣到市場的困難所致。該省的分離主義者一直在爭論該省應該脫離加拿大。然而，該族原住民認為，這項公投是「完全不負責任和不光彩的」，並應該被關閉。該族原住民的訴訟認為，公投將違反他們的條約權利。這項訴訟將對該省的未來產生重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "d6057f8f",
+        "title": "多倫多富人區爭議：使用人工智慧監控系統建立「虛擬圍牆社區」",
+        "url": "https://www.theguardian.com/technology/2026/apr/07/toronto-rosedale-row-virtual-gated-community-ai-surveillance-flock",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 07 Apr 2026 14:07:18 GMT",
+        "summary_zh": "多倫多的一個富人區，羅斯代爾（Rosedale），因為計劃使用人工智慧監控系統來打擊財產犯罪而引發爭議。該區的居民因為財產侵入案件的增加而感到擔憂，犯罪率在整個多倫多正在下降，但該區的犯罪率卻遠高於平均值。該區的居民正在考慮使用車牌掃描系統Flock來監控該區，該系統可以偵測未經允許進入的車輛。這項計畫引發了爭議，部分居民認為這項措施侵犯了他們的隱私權，部分居民則認為這項措施有助於打擊財產犯罪。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "0d8df6d0",
-        "title": "NASA 公佈月球飛越任務首張照片：地球升起與日食",
-        "url": "https://www.bbc.com/news/articles/cyv183v02j3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "id": "31d1f60e",
+        "title": "美墨關係惡化：墨西哥成為美國垃圾填埋場 美國專家批評",
+        "url": "https://www.theguardian.com/world/2026/apr/07/mexico-us-toxic-waste-un-special-rapporteur",
+        "source": "Guardian World",
         "category": "global",
-        "published_at": "Tue, 07 Apr 2026 14:53:18 GMT",
-        "summary_zh": "NASA 公佈了月球飛越任務的首張照片，包括一張名為「地球升起」的照片，顯示地球從月球的視角出現。這張照片是由NASA的月球飛越任務拍攝的。另外，照片中還顯示了太陽黑子和日食的景象。這張照片是NASA月球飛越任務的首張公開照片，展現了太空探索的壯麗景象。這張照片的釋放，讓人們能夠更好地了解月球飛越任務的成果，並且對太空探索的發展提供了新的視角。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "published_at": "Tue, 07 Apr 2026 10:00:45 GMT",
+        "summary_zh": "墨西哥正面臨一場「有毒危機」，並被美國視為「垃圾填埋場」。聯合國專家馬可斯·奧雷蘭納（Marcos Orellana）表示，墨西哥缺乏環境標準和監管，使得污染物積累。這些污染物包括進口垃圾和有毒農藥，對墨西哥社區造成危害。奧雷蘭納指出，這些污染物侵犯了墨西哥人民的健康權利。墨西哥政府應該加強環境監管和標準，以保護人民的健康和環境。這一問題不僅影響墨西哥，也影響美墨關係。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -94,16 +324,16 @@
         "ai_classified": true
       },
       {
-        "id": "d4f7ea54",
-        "title": "川普最後通牒期限將至 歐股收低",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5396379",
-        "source": "自由時報財經",
+        "id": "e9fedbdb",
+        "title": "伊斯坦堡以色列總領事館遭槍擊一死二傷",
+        "url": "https://www.bbc.com/news/articles/c3exp8j7yz4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "global",
-        "published_at": "Wed, 08 Apr 2026 00:48:03 +0800",
-        "summary_zh": "美國總統川普要求德黑蘭開放荷莫茲海峽，最後通牒期限進入倒數。美國與以色列攻擊伊朗重要石油出口樞紐哈格島後，川普發出警告，表示「一整個文明將於今晚毀滅」。此事件引起全球市場的關注，倫敦FTSE 100指數今天收黑。荷莫茲海峽是伊朗石油出口的重要通路，如果伊朗不開放，將對全球石油市場造成重大影響。川普的最後通牒期限將於今晚結束，如果德黑蘭不開放，美國可能會採取進一步的行動。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "published_at": "Tue, 07 Apr 2026 14:51:07 GMT",
+        "summary_zh": "伊斯坦堡發生槍擊案，造成一名槍手死亡，兩人受傷。然而，目前以色列駐土耳其的外交官都已經離職，伊斯坦堡總領事館已經空置兩年半。這起槍擊案的原因尚未明朗。根據目前的資訊，這起事件似乎並非針對以色列外交官的襲擊。事態的發展仍在持續追蹤中。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "fecc6296",
@@ -114,19 +344,7 @@
         "published_at": "Tue, 07 Apr 2026 13:55:19 GMT",
         "summary_zh": "近日，世界衛生組織暫停了對加沙的醫療撤離行動。根據報導，事件的起因是以色列軍隊槍殺了一名承包商。以色列軍方表示，軍隊認為該名承包商駕駛的車輛構成了「即時威脅」。這一事件引發了對醫療人員和撤離行動的安全性的擔憂。世界衛生組織暫停撤離行動，表明了對安全性的關注。這一決定可能會對加沙地區的醫療服務產生影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "b2d772e6",
-        "title": "美國副總統訪匈牙利支持奧班尼再次競選",
-        "url": "https://www.bbc.com/news/articles/cyv16lq2rp1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 07 Apr 2026 15:18:57 GMT",
-        "summary_zh": "美國副總統珍·范斯 (JD Vance) 將於近期訪問匈牙利，表達白宮對匈牙利領導人奧班尼 (Orban) 的支持。這次訪問是白宮對奧班尼競選連任的最新表態。奧班尼領導的匈牙利政府與美國政府在某些議題上存在分歧，但白宮仍然表達了對奧班尼競選連任的支持。這一發展可能會對匈牙利政治產生重大影響，並可能影響匈牙利與美國的關係。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -139,18 +357,6 @@
         "summary_zh": "智利婦女阿德里安娜·里瓦斯（Adriana Rivas）於1970年代移居澳洲，曾擔任保姆和清潔工。近期，她被指涉嫌在皮諾切特政權時期參與綁架案，引發澳洲政府與智利政府之間的引渡爭議。最終，澳洲法院判決不予將她引渡回智利。這一判決被視為對於追究皮諾切特政權罪行的重要一步。然而，智利政府仍表明會繼續追究阿德里安娜·里瓦斯的案件。這一事件也引發了對於澳洲引渡條例的關注。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "30f82459",
-        "title": "亞太市場預期開盤升幅　投資者評估伊朗戰爭訊息不一",
-        "url": "https://www.cnbc.com/2026/04/07/asia-pacific-markets-toda-kospi-nikkei225-nifty50.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-04-06 23:49:51",
-        "summary_zh": "美國總統川普再次威脅若伊朗和談不成，將針對伊朗民用基礎設施進行攻擊。然而，他同時表明伊朗領導層正真誠地進行談判。投資者在收到這些訊息後，預期亞太市場將在開盤時呈現升幅。伊朗戰爭的風險仍在升高，市場投資者正努力評估這些訊息的意義。這些訊息的不一致性使得投資者感到困惑，難以做出明確的投資決策。伊朗戰爭的風險對全球市場有著重大影響，投資者將密切關注這些訊息的發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -186,8 +392,8 @@
         "published_at": "Tue, 07 Apr 2026 15:02:10 GMT",
         "summary_zh": "一名美國婦女在巴哈馬失蹤，警方正在進行搜索。她丈夫向當局報案稱，她是在週六晚上從他們的小艇上掉落進海中，遭大海掀走。事件發生在巴哈馬北部的Freeport地區。警方正在與海事當局合作，展開大規模搜索行動，包括使用飛機和船隻。婦女的丈夫表示，他們是從美國來的度假，沒有發現任何異常跡象。警方呼籲任何有關該名婦女的資訊或線索都應儘快報警。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "25db4224",
@@ -202,15 +408,27 @@
         "ai_classified": true
       },
       {
-        "id": "40eccff1",
-        "title": "特朗普對伊朗最後期限逼近，美國總統陷入政治困境",
-        "url": "https://www.bbc.com/news/articles/czexw94rj5jo?at_medium=RSS&at_campaign=rss",
+        "id": "0d8df6d0",
+        "title": "NASA 公佈月球飛越任務首張照片：地球升起與日食",
+        "url": "https://www.bbc.com/news/articles/cyv183v02j3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "global",
-        "published_at": "Mon, 06 Apr 2026 23:04:23 GMT",
-        "summary_zh": "美國總統特朗普面臨著伊朗開放霍爾木茲海峽的最後期限，時間逐漸逼近。伊朗拒絕美國的要求，美國軍隊在海峽附近的軍事行動加劇。美國總統特朗普的政治地位變得更加脆弱，美國國會對他的政策表示質疑。美國政府的對伊朗政策可能會對全球油價和地區安全造成重大影響。美國總統特朗普的最後期限 ultimatum 對伊朗的影響仍然不明朗，美國軍隊的行動可能會導致局勢升級。美國總統特朗普的決策將對全球產生重大影響，美國國會和國際社會都在關注他的下一步行動。",
-        "sentiment": "負面",
-        "is_breaking": true,
+        "published_at": "Tue, 07 Apr 2026 14:53:18 GMT",
+        "summary_zh": "NASA 公佈了月球飛越任務的首張照片，包括一張名為「地球升起」的照片，顯示地球從月球的視角出現。這張照片是由NASA的月球飛越任務拍攝的。另外，照片中還顯示了太陽黑子和日食的景象。這張照片是NASA月球飛越任務的首張公開照片，展現了太空探索的壯麗景象。這張照片的釋放，讓人們能夠更好地了解月球飛越任務的成果，並且對太空探索的發展提供了新的視角。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b2d772e6",
+        "title": "美國副總統訪匈牙利支持奧班尼再次競選",
+        "url": "https://www.bbc.com/news/articles/cyv16lq2rp1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 07 Apr 2026 15:18:57 GMT",
+        "summary_zh": "美國副總統珍·范斯 (JD Vance) 將於近期訪問匈牙利，表達白宮對匈牙利領導人奧班尼 (Orban) 的支持。這次訪問是白宮對奧班尼競選連任的最新表態。奧班尼領導的匈牙利政府與美國政府在某些議題上存在分歧，但白宮仍然表達了對奧班尼競選連任的支持。這一發展可能會對匈牙利政治產生重大影響，並可能影響匈牙利與美國的關係。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -223,18 +441,6 @@
         "summary_zh": "台湾反对党领袖陈丽文（Cheng Li-wun）近日表示，她已接受中国国家主席习近平的邀请，预计将与习近平会面。陈丽文称，她愿意成为台湾与中国之间的和平桥梁。然而，这一举动引发了台湾内部的争议。台湾总统蔡英文（Tsai Ing-wen）政府表示，陈丽文的行程并未获得官方批准，且与台湾政府的立场不符。陈丽文的访问被视为台湾内部政治分裂的最新迹象。台湾与中国之间的关系长期以来一直紧张，双方的政治立场和意识形态存在着巨大差异。陈丽文的访问可能会加剧台湾内部的政治紧张，影响台湾与中国之间的关系。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "bde23eb2",
-        "title": "川普威脅若未能達成協議將在「一夜」內擊敗伊朗",
-        "url": "https://www.bbc.com/news/articles/cqj8ep9w1pno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 06 Apr 2026 21:55:50 GMT",
-        "summary_zh": "美國總統川普對伊朗提出最後通牒，要求伊朗在星期二截止日期前重新開放霍爾木茲海峽，霍爾木茲海峽是全球能源運輸的關鍵路線。川普威脅若伊朗未能順從將在「一夜」內對伊朗進行軍事行動。伊朗控制的霍爾木茲海峽是全球石油出口的重要通道，美國和伊朗之間的緊張關係已經達到臨界點。美國對伊朗的威脅可能會導致全球能源市場的波動和地區安全的不穩定。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -286,30 +492,6 @@
         "ai_classified": true
       },
       {
-        "id": "31d1f60e",
-        "title": "美墨關係惡化：墨西哥成為美國垃圾填埋場 美國專家批評",
-        "url": "https://www.theguardian.com/world/2026/apr/07/mexico-us-toxic-waste-un-special-rapporteur",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 07 Apr 2026 10:00:45 GMT",
-        "summary_zh": "墨西哥正面臨一場「有毒危機」，並被美國視為「垃圾填埋場」。聯合國專家馬可斯·奧雷蘭納（Marcos Orellana）表示，墨西哥缺乏環境標準和監管，使得污染物積累。這些污染物包括進口垃圾和有毒農藥，對墨西哥社區造成危害。奧雷蘭納指出，這些污染物侵犯了墨西哥人民的健康權利。墨西哥政府應該加強環境監管和標準，以保護人民的健康和環境。這一問題不僅影響墨西哥，也影響美墨關係。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5722de6f",
-        "title": "美國民主黨議員要求永久解決古巴危機，批評美國能源封鎖造成嚴重影響",
-        "url": "https://www.theguardian.com/us-news/2026/apr/06/cuba-blockade-energy-house-democrats",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 06 Apr 2026 17:41:43 GMT",
-        "summary_zh": "美國民主黨兩名議員，華盛頓州的Pramila Jayapal和伊利諾伊州的Jonathan Jackson，近日訪問古巴，目睹了美國能源封鎖對古巴的影響。兩人與古巴總統米格爾·迪亞斯-卡內爾和外交部長布魯諾·羅德里格斯會面，並與古巴國會成員會議。古巴總統米格爾·迪亞斯-卡內爾在社交平台上表示，美國能源封鎖對古巴造成了嚴重損害，尤其是美國政府的能源封鎖和威脅性行動。他們要求永久解決古巴危機，批評美國能源封鎖造成的嚴重影響。這次訪問是兩名議員對美國對古巴的能源封鎖政策的反應，表明了對古巴人民的關心。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "8acf3aaf",
         "title": "烏克蘭和平的錯誤公式",
         "url": "https://www.foreignaffairs.com/ukraine/flawed-formula-peace-ukraine",
@@ -344,17 +526,41 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "40eccff1",
+        "title": "特朗普對伊朗最後期限逼近，美國總統陷入政治困境",
+        "url": "https://www.bbc.com/news/articles/czexw94rj5jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 06 Apr 2026 23:04:23 GMT",
+        "summary_zh": "美國總統特朗普面臨著伊朗開放霍爾木茲海峽的最後期限，時間逐漸逼近。伊朗拒絕美國的要求，美國軍隊在海峽附近的軍事行動加劇。美國總統特朗普的政治地位變得更加脆弱，美國國會對他的政策表示質疑。美國政府的對伊朗政策可能會對全球油價和地區安全造成重大影響。美國總統特朗普的最後期限 ultimatum 對伊朗的影響仍然不明朗，美國軍隊的行動可能會導致局勢升級。美國總統特朗普的決策將對全球產生重大影響，美國國會和國際社會都在關注他的下一步行動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bde23eb2",
+        "title": "川普威脅若未能達成協議將在「一夜」內擊敗伊朗",
+        "url": "https://www.bbc.com/news/articles/cqj8ep9w1pno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 06 Apr 2026 21:55:50 GMT",
+        "summary_zh": "美國總統川普對伊朗提出最後通牒，要求伊朗在星期二截止日期前重新開放霍爾木茲海峽，霍爾木茲海峽是全球能源運輸的關鍵路線。川普威脅若伊朗未能順從將在「一夜」內對伊朗進行軍事行動。伊朗控制的霍爾木茲海峽是全球石油出口的重要通道，美國和伊朗之間的緊張關係已經達到臨界點。美國對伊朗的威脅可能會導致全球能源市場的波動和地區安全的不穩定。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "f86787bb",
-        "title": "黑石投資公司投資保加利亞可再生能源公司Sunotec",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-07/blackstone-invests-in-bulgarian-renewable-energy-firm-sunotec",
+        "id": "d3dab6f6",
+        "title": "日本依靠遠洋油船轉運來確保中東原油供應",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-07/japan-relies-on-offshore-oil-transfers-as-middle-east-risks-rise",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-04-07 05:00:00",
-        "summary_zh": "黑石投資公司宣布投資保加利亞的可再生能源公司Sunotec。這是黑石在可再生能源領域的最新投資，表明投資者對可再生能源的重視。可再生能源公司Sunotec致力於開發和運營風力和太陽能項目。投資將幫助公司擴大業務和提高效率。這項投資將為保加利亞的可再生能源產業帶來新的動力。黑石投資公司的投資將幫助公司實現可再生能源的可持續發展。這項投資將為公司的未來發展提供穩定的資金支持。",
+        "published_at": "2026-04-07 05:50:35",
+        "summary_zh": "日本因為中東風險增高，決定將油船轉運至遠洋，避免油船進入風險區域，同時確保原油供應。這種做法讓日本可以繞過中東地區，直接將原油從其他地區轉運至日本。這種轉運方式能夠減少對中東地區的依賴，同時也能夠降低油船被攻擊的風險。日本政府和油船公司正密切關注中東局勢的發展，隨時準備應對任何可能的風險。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -368,8 +574,68 @@
         "published_at": "2026-04-07 04:38:02",
         "summary_zh": "在市場分析師Ankur Banerjee的指導下，這篇文章將對歐洲和全球市場展開全面檢視。市場正在期待著一項關鍵交易的落實，這項交易將對石油行業產生重大影響。這項交易的具體細節尚未公布，但市場預期它將帶來重大變化。同時，市場也在關注石油價格的波動。石油價格的上升將對全球經濟產生重大影響，特別是在能源消耗量大的國家。市場分析師預測，這項交易將對石油行業產生重大影響，並可能導致石油價格的上升。然而，市場也存在著風險，包括交易的落實是否會受到政治因素的影響。總體而言，這項交易將對全球經濟產生重大影響，並需要市場分析師密切關注。",
         "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b671e9f2",
+        "title": "日本央行可能在七月前提高利率來應對通膨壓力",
+        "url": "https://www.reuters.com/world/asia-pacific/boj-raise-rates-by-july-mounting-price-pressure-ex-board-member-says-2026-04-07/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-07 05:31:43",
+        "summary_zh": "日本央行可能在七月前提高利率來應對日益升高的通膨壓力。日本央行前董事會成員表示，日本央行可能在七月前提高利率來應對日益升高的通膨壓力。根據日本央行前董事會成員的話，日本央行正在考慮提高利率來應對日益升高的通膨壓力。這是因為日本的物價指數已經超過了日本央行的目標範圍。日本央行的目標是維持物價穩定，並且避免通膨壓力過大。日本央行前董事會成員表示，日本央行可能會在七月前提高利率來應對日益升高的通膨壓力。這將會對日本的經濟產生重大影響。日本央行的決定將會對日本的經濟產生重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "9f82baa7",
+        "title": "新加坡稱美國移除不準確貿易數據，調查仍在進行中",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-07/singapore-says-us-removes-inaccurate-trade-figure-amid-probe",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-07 05:02:30",
+        "summary_zh": "新加坡政府近日表示，美國政府已經移除了一個不準確的貿易數據，該數據曾被用來支持對新加坡的貿易調查。新加坡政府表示，這個數據是錯誤的，並且已經被美國政府所刪除。這個事件發生在美國政府正在進行一系列貿易調查的時候，包括對新加坡、中國和其他國家的調查。新加坡政府強調，該國的貿易數據是準確的，並且一直以來都遵守了相關的貿易規則。美國政府的調查可能會對新加坡的貿易政策和經濟產生影響。新加坡政府已經表明，將會繼續與美國政府溝通，確保雙方的貿易關係保持穩定。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
+      },
+      {
+        "id": "4b1121d6",
+        "title": "私募股權收購大幅下滑",
+        "url": "https://www.ft.com/content/ca08ae04-15bb-4071-a29f-fe3daa76f2a2",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-04-07 05:00:10",
+        "summary_zh": "私募股權收購市場出現大幅下滑，政府債券需求大幅增加，資產管理公司整合浪潮正在席捲全球。這些變化表明投資者對未來的不確定性正在增加。私募股權收購市場的下滑可能是由於投資者對市場風險的擔憂，或者是由於收購市場的供需失衡。政府債券的需求增加可能是由於投資者尋求安全性和穩定性。資產管理公司的整合浪潮可能是由於公司尋求成本節省和業務擴展的機會。整體來說，這些變化表明投資者正在重新評估他們的投資策略和風險承受能力。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "8ddb3e7f",
+        "title": "SpaceX 銀行家為搶得 IPO 角色而不遺餘力",
+        "url": "https://www.ft.com/content/a8e02654-b29a-4e6a-b2f8-f458b5dbfe5c",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-04-07 05:00:10",
+        "summary_zh": "SpaceX 即將進行 IPO，銀行家們為了能夠參與這個重要的金融事件而不斷努力。這家私人航天公司的 IPO 將是近年來最大的金融活動之一，銀行家們為了能夠獲得這個機會而不惜一切。儘管 SpaceX 的財務狀況尚不明朗，但銀行家們仍然對這個機會感到非常興奮。根據市場分析，SpaceX 的 IPO 將會對全球金融市場產生重大影響。銀行家們為了能夠參與這個金融活動而不斷努力，希望能夠在這個重要的時刻為 SpaceX 提供最佳的金融服務。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f86787bb",
+        "title": "黑石投資公司投資保加利亞可再生能源公司Sunotec",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-07/blackstone-invests-in-bulgarian-renewable-energy-firm-sunotec",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-07 05:00:00",
+        "summary_zh": "黑石投資公司宣布投資保加利亞的可再生能源公司Sunotec。這是黑石在可再生能源領域的最新投資，表明投資者對可再生能源的重視。可再生能源公司Sunotec致力於開發和運營風力和太陽能項目。投資將幫助公司擴大業務和提高效率。這項投資將為保加利亞的可再生能源產業帶來新的動力。黑石投資公司的投資將幫助公司實現可再生能源的可持續發展。這項投資將為公司的未來發展提供穩定的資金支持。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "5c72e6db",
@@ -380,8 +646,8 @@
         "published_at": "2026-04-07 04:55:09",
         "summary_zh": "印度航空公司董事總經理坎貝爾·威爾遜近日宣佈辭職。他的辭職是由於印度航空公司在去年發生了一架波音夢見客機墜機事故，該事故嚴重打擊了公司的轉型計畫。坎貝爾·威爾遜上任後，曾試圖將印度航空公司打造成世界一流航空公司，但由於一系列的問題，包括波音夢見客機的安全問題，公司的轉型計畫遭遇了重大挫折。坎貝爾·威爾遜的辭職表明，公司的轉型計畫仍面臨著嚴重的挑戰。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "dd4d0d15",
@@ -392,8 +658,8 @@
         "published_at": "2026-04-07 04:43:19",
         "summary_zh": "印度 Jubilant Foodworks 股價近日暴跌至兩年新低，主要原因是該公司第四季度的同店銷售增長不符預期。根據最新的財報顯示，該公司第四季度的同店銷售增長為 3.4%，遠低於市場預期的 6.5%。這一結果使得該公司股價大幅下跌，股價跌幅達到 10%。 Jubilant Foodworks 是印度一家知名的快餐連鎖店，旗下品牌包括 Domino's Pizza 等。該公司的財報結果使得市場對印度餐飲業未來發展感到擔憂。市場分析師認為，該公司未來的銷售增長將受到多種因素的影響，包括市場競爭、營運成本等。因此，市場對該公司未來發展的預期將繼續受到考驗。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "a8a2a185",
@@ -404,47 +670,47 @@
         "published_at": "2026-04-07 04:39:47",
         "summary_zh": "印度央行在伊朗戰爭後的首場政策會議，料將維持利率不變。同時，印度央行也面臨著印度盧比的快速貶值，試圖維持經濟成長。印度央行的這一決策，將對印度的經濟產生重大影響，同時也會對全球金融市場造成波動。印度央行的決策，將會受到全球經濟形勢的影響，包括美國的利率決策等。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "8bab00ed",
-        "title": "印度計劃為因伊朗戰事受影響的企業提供國債擔保",
-        "url": "https://www.reuters.com/world/india/india-plans-sovereign-guarantees-loans-businesses-hit-by-iran-war-sources-say-2026-04-07/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-07 04:19:43",
-        "summary_zh": "印度政府計劃為受伊朗戰事影響的企業提供 267 億美元的國債擔保，尤其是小型企業。根據政府消息人士的說法，這項措施旨在支持受中東危機影響的企業。印度政府已經開始為這項計劃做好準備，計劃為受影響的企業提供 267 億美元的國債擔保。這項措施將對受影響的企業有所幫助，讓他們能夠繼續運營並維持就業。印度政府的這項措施也將對國家的經濟有所幫助，讓企業能夠繼續投資並創造就業機會。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "2be8da99",
-        "title": "石油價格上升推動泰國通膨率進入正區",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-07/oil-shock-pushes-thailand-s-inflation-toward-positive-territory",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-07 04:13:55",
-        "summary_zh": "泰國近年來一直經歷著連續的降價潮，但隨著石油價格上升和中東供應受阻，泰國的通膨率開始出現上升趨勢。石油價格的上升將會對泰國的生活費用產生重大影響，特別是在交通和食品方面。泰國央行將會密切關注通膨率的變化，以確保經濟穩定。石油價格的上升也將會對泰國的出口業產生影響，可能會導致泰國的出口額下降。泰國政府將會採取措施來應對這種情況，例如調整稅率和投資於能源領域。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "92330ea7",
-        "title": "中國電弧鋼廠再次領先業界，利潤恢復",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-07/china-s-electric-arc-steelmakers-regain-edge-as-profits-recover",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-07 04:01:53",
-        "summary_zh": "中國電弧鋼廠在去年底至今年初的鋼鐵市場波動中，面臨著嚴重的挑戰。然而，隨著市場需求的恢復，中國電弧鋼廠的利潤也開始恢復。根據最新的數據顯示，中國電弧鋼廠的利潤率已經超過了傳統的爐窯鋼廠。這一轉變的原因是電弧鋼廠的生產成本較低，同時也能夠更好地應對市場需求的波動。這一發展對於中國鋼鐵業的未來發展具有重要的意義。中國政府也正在推動電弧鋼廠的發展，以提高鋼鐵業的競爭力。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "ai": [
+      {
+        "id": "b9530986",
+        "title": "Suno與大型音樂公司發生衝突：AI音樂分享權益未達成共識",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/908119/suno-sony-universal-music-ai-disagreement",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-04-07T12:21:22-04:00",
+        "summary_zh": "近日，人工智慧音樂創作者Suno與環球音樂集團（Universal Music Group）和索尼音樂娛樂（Sony Music Entertainment）發生了衝突。根據金融時報的報導，兩方無法就使用者是否能夠分享由AI生成的音樂作品達成共識。環球音樂要求AI生成的音樂作品只能在應用程式內分享，而索尼音樂則希望能夠允許使用者將這些作品分享到社交媒體平台。這種分歧可能會影響Suno的業務發展，同時也反映出音樂產業對AI音樂的態度。這種態度可能會對未來的音樂創作和分發模式產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "8f129dc7",
+        "title": "麥克森的Terafab AI晶片工廠將與英特爾合作",
+        "url": "https://www.theverge.com/transportation/907976/elon-musk-terafab-intel-ai-chip-spacex-tesla",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-04-07T11:43:17-04:00",
+        "summary_zh": "麥克森的Terafab AI晶片工廠計畫在德克薩斯州奧斯汀市展開，正獲得英特爾的關鍵合作夥伴。英特爾於週二宣布將與麥克森合作設計和建造這座工廠，工廠將供應麥克森旗下兩家公司SpaceX（與xAI合併）和特斯拉的AI晶片。麥克森需要AI晶片來發展他的AI計劃，而這項合作將為他帶來重要的進展。這項合作將使麥克森的AI晶片工廠擁有更強大的設計和建造能力，進一步推動他的AI計劃。這項新聞表明，麥克森正在積極推動他的AI計劃，並且正在尋求與業界領先公司合作來實現他的目標。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "1dbfce6c",
+        "title": "谷歌 Gemini 聚焦於幫助身心受困者尋求精神健康資源",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/907842/google-gemini-mental-health-interface-update",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-04-07T06:09:57-04:00",
+        "summary_zh": "谷歌宣布更新 Gemini，讓使用者在危機時更容易找到精神健康資源。這項變更出現於谷歌面臨一項錯誤死亡訴訟，指控其聊天機器人「教導」一名男子自殺。這是谷歌面臨因 AI 產品造成實際傷害的訴訟之一。谷歌正試圖透過此變更，改善其 AI 產品對使用者身心健康的影響。這項變更將幫助身心受困者更快速地找到精神健康資源，包括熱線電話和線上資源。谷歌仍面臨著因其 AI 產品造成傷害的訴訟，公司正試圖改善其產品對使用者身心健康的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "a9278189",
         "title": "為了 AI 代理的發展：重新設計流程",
@@ -467,18 +733,6 @@
         "summary_zh": "近日，人工智慧對就業的影響成為焦點。美國硅谷的科技界人士紛紛討論，AI 將會對就業市場造成重大影響。經濟學家也開始關注這個問題。根據一項研究，AI 將會取代約 20% 的工作崗位。這意味著，未來的工作市場將會呈現出重大變化。另一方面，太空中的數據中心也成為話題。太空公司正在建設數據中心，為未來的太空探索提供基礎設施。這項投資將會為太空行業帶來新的機會。然而，人工智慧對就業的影響仍然是未知數。只有透過持續的研究和監測，才能了解這個問題的真相。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1dbfce6c",
-        "title": "谷歌 Gemini 聚焦於幫助身心受困者尋求精神健康資源",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/907842/google-gemini-mental-health-interface-update",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-04-07T06:09:57-04:00",
-        "summary_zh": "谷歌宣布更新 Gemini，讓使用者在危機時更容易找到精神健康資源。這項變更出現於谷歌面臨一項錯誤死亡訴訟，指控其聊天機器人「教導」一名男子自殺。這是谷歌面臨因 AI 產品造成實際傷害的訴訟之一。谷歌正試圖透過此變更，改善其 AI 產品對使用者身心健康的影響。這項變更將幫助身心受困者更快速地找到精神健康資源，包括熱線電話和線上資源。谷歌仍面臨著因其 AI 產品造成傷害的訴訟，公司正試圖改善其產品對使用者身心健康的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ],
@@ -552,8 +806,8 @@
         "published_at": "Tue, 07 Apr 2026 21:00:32 +0800",
         "summary_zh": "佳世達在3月公布了其營收數據，顯示該公司的營收在去年同期相比成長了10%，而且也比上月成長了36%。這表明佳世達的業務正在持續增長。佳世達的累計第一季營收為515.41億元，比去年同期成長了4%。雖然去年第四季的營收較高，但佳世達仍然表現出了一定的增長。佳世達的這些數據表明該公司在高附加價值事業方面取得了成功。佳世達的未來發展前景值得關注。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "49191775",
@@ -638,18 +892,6 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "cbbff4a5",
-        "title": "遠傳5G遠距診療、雲端HIS獲國際驗證",
-        "url": "https://www.cna.com.tw/news/afe/202604070308.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 07 Apr 2026 19:59:49 +0800",
-        "summary_zh": "遠傳電信宣布，自主開發的5G遠距診療平台和雲端醫療資訊系統（Cloud HIS），獲得了BSI頒發的「ISO 22301:2019營運持續管理系統」證書。這標誌著遠傳成為台灣電信業第一家獲得此證書的公司。遠距診療平台已經在15個縣市和59個鄉鎮推廣，累積了超過7.5萬人次的服務使用者。這項成就表明遠傳在5G遠距診療領域的領先地位和技術能力。遠傳的這項成就也將為台灣的醫療系統提供新的發展方向和可能性。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "stock_us": [
@@ -699,188 +941,6 @@
         "summary_zh": "標準普爾 500 指數正嘗試延續勝利佳績。投資俱樂部每個工作日都會釋出《Homestretch》專欄，內容包括行動性的下午更新，幫助投資者在交易最後一小時做出明智的決策。這些內容將在最後一小時的交易中提供有用指引。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "92709097",
-        "title": "美聯儲官員稱通膨已經達到「橙色」警戒，甚至更糟",
-        "url": "https://www.reuters.com/markets/us/feds-goolsbee-hammack-say-inflation-is-flashing-orange-or-worse-2026-04-06/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-04-06 17:41:47",
-        "summary_zh": "美聯儲的克里夫蘭分行總裁貝絲·漢馬克（Beth Hammack）和芝加哥分行總裁奧斯汀·古爾斯比（Austan Goolsbee）都認為通膨比就業率更為嚴重，表明他們對加緊而非放鬆貨幣政策持支持態度。伊朗戰爭對能源價格產生了上升壓力，而就業市場仍然陷入低迷。美聯儲官員們認為通膨已經達到「橙色」警戒，甚至更糟，這意味著需要採取更嚴厲的措施來控制通膨。這一觀點與目前市場預期相反，市場預期美聯儲會在未來幾個月內放鬆貨幣政策以刺激經濟。然而，美聯儲官員們的意見表明，美聯儲可能會採取更保守的立場來應對通膨風險。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "11c09ffa",
-        "title": "Lil Nas X 案件將被撤銷 如果他完成精神健康計畫",
-        "url": "https://www.bbc.com/news/articles/cew7nqn5rqgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 21:55:11 GMT",
-        "summary_zh": "美國歌手Lil Nas X 因涉嫌襲擊案被捕，但法官認為他在案發時的行為與正常行為有所不同。法官表示，如果他完成精神健康計畫，案件將會被撤銷。這項判決表明法官對Lil Nas X 的精神健康狀況有所關注，並希望他能夠接受幫助。這項事件也引起了對於藝人精神健康的關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c34a5205",
-        "title": "觀看：阿特米斯二號太空船的歷史性月球飛越... 在 90 秒內",
-        "url": "https://www.bbc.com/news/videos/c3exp80x7vqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 07 Apr 2026 10:56:44 GMT",
-        "summary_zh": "阿特米斯二號太空船的四名宇航員在軌道器上創下了從地球旅行的新里程碑。這次任務的主要目標是測試太空船在深空飛行的能力，並為未來的月球登陸做好準備。太空船在飛越月球的過程中，進行了多項科學實驗和測試，收集了豐富的資料。這次任務的成功完成，為未來的人類太空探索開闢了新道路。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "0dae16b5",
-        "title": "川普支持前英國政治顧問史蒂夫希爾頓競選加州州長",
-        "url": "https://www.bbc.com/news/articles/c0mj4jeyvmzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 18:55:45 GMT",
-        "summary_zh": "前美國總統川普支持史蒂夫希爾頓競選加州州長。史蒂夫希爾頓曾擔任前英國首相顧問，還曾主持福斯新聞台節目。他將以共和黨的身份參選加州州長選舉。這是川普支持的一個重要動作，展現了他對共和黨未來選舉的關注。然而，史蒂夫希爾頓的競選前景如何，還需要觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ef4dc1cd",
-        "title": "明尼蘇達聯盟否認羅德里奎茲罹患罕見肌肉衰竭症",
-        "url": "https://www.bbc.com/sport/football/articles/cvgek33dxkpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 07 Apr 2026 06:49:14 GMT",
-        "summary_zh": "明尼蘇達聯盟否認了中場球員詹姆斯·羅德里奎茲罹患罕見肌肉衰竭症的流言。這種罕見的肌肉衰竭症是一種可能威脅生命的疾病，會導致肌肉逐漸萎縮和壞死。聯盟方面表示羅德里奎茲目前身體健康，正在接受醫學檢查。這項否認表明聯盟對球員的健康狀況感到關心，並希望澄清流言以避免對球員造成不必要的壓力。這項消息對球迷和球員的影響不大，但對球隊的形象和聲譽可能有一定影響。未來聯盟將繼續關注羅德里奎茲的健康狀況，並希望他能夠繼續為球隊出戰。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0b4e6003",
-        "title": "阿特米斯二號任務：我們是否能夠再次登陸月球?",
-        "url": "https://www.bbc.com/news/articles/cj60nkd8nrko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 07 Apr 2026 15:23:05 GMT",
-        "summary_zh": "阿特米斯二號任務迄今為止幾乎沒有錯誤，但這次試飛是否已經證明了美國國家航空暨太空總署（NASA）準備好要將人類送上月球表面?",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a2c86103",
-        "title": "政府停擺八周 美國國會休會至四月十三日",
-        "url": "https://www.theguardian.com/us-news/live/2026/apr/07/government-shutdown-congress-house-of-representatives-donald-trump-republicans-democrats-ice-us-politics-latest-updates-news",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 07 Apr 2026 16:26:29 GMT",
-        "summary_zh": "美國政府停擺已經持續八周，國會將於四月十三日恢復工作。美國副總統 JD Vance 進入匈牙利，試圖影響即將舉行的選舉。Vance 將與長期執政的總理 Viktor Orbán 進行官方訪問，並出席他的競選活動，這是美國政府對 Orbán 選舉結果的明確表態。選舉將於本週日舉行，Orbán 是唐納德·川普 的親密盟友。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "518d41e3",
-        "title": "ICE逮捕超過800人，調查顯示TSA提供了超過31,000名旅客資料",
-        "url": "https://www.theguardian.com/us-news/2026/apr/07/tsa-ice-arrests-airports",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 07 Apr 2026 15:15:45 GMT",
-        "summary_zh": "根據路透社的調查，自唐納德·川普第二任總統任期開始至2026年2月，美國移民和海關執法局（ICE）逮捕了超過800人。ICE接收了來自交通安全管理局（TSA）的超過31,000名旅客資料，供移民執法使用。這些資料顯示，ICE逮捕了超過800人，遠超過之前公開知曉的數字。這項調查顯示，TSA與ICE之間的合作關係在移民執法中扮演了重要角色。這項合作關係引發了對民權和人權的擔憂，特別是在移民社群中。ICE的行動可能會對移民社群造成重大影響，包括逮捕和驅逐。這項調查也引發了對政府機構之間合作關係的質疑，特別是在移民執法中。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1ed696dd",
-        "title": "川普警告：如果伊朗不重開霍爾木茲海峽，整個文明將毀滅",
-        "url": "https://www.theguardian.com/us-news/2026/apr/07/trump-iran-threat-truth-social",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 07 Apr 2026 15:06:11 GMT",
-        "summary_zh": "川普在 Truth Social 表示，如果伊朗政府不在 8 點 ET 前重開霍爾木茲海峽，他將徹底摧毀伊朗文明。川普表示，這將是一個不可逆轉的過程，伊朗將失去 90 多萬人的文明。川普表明，他不希望這種情況發生，但可能會發生。這種威脅來自於霍爾木茲海峽對全球石油供應的重要性，海峽的封鎖可能會對全球經濟造成重大影響。川普的言論引發了對美國政策的關注，是否美國將採取軍事行動來解決霍爾木茲海峽問題。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "24e272ce",
-        "title": "中西部的瓶頸橋樑終於得到了幫助，但這是否都是好消息?",
-        "url": "https://www.theguardian.com/us-news/2026/apr/07/brent-spence-bridge-bottleneck-ohio-kentucky",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 07 Apr 2026 14:00:49 GMT",
-        "summary_zh": "布倫特斯佩斯橋樑連接肯塔基州和俄亥俄州，是中西部工業區與南部城市之間的重要聯繫。然而，這座橋樑的升級卻引發了關於成本超支、污染和房屋問題的擔憂。這座橋樑建於1960年代初期，當時設計容納每天85,000輛車輛，但現今卻有兩倍的車輛通過，包括汽車和卡車。這座橋樑的狹窄車道、彎曲的進入道路和缺乏緊急出口道路，使得在事故發生後，司機們可能會被困在橋樑上數小時。升級工程的進行將會改善橋樑的交通流通，但同時也引發了環境問題和房屋被拆除的擔憂。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d5e52d3a",
-        "title": "錄影片段揭露ICE官員開槍事件真相，違反當初的說法",
-        "url": "https://www.theguardian.com/us-news/2026/apr/07/minneapolis-video-ice-shooting-venezuelan-men",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 07 Apr 2026 13:19:31 GMT",
-        "summary_zh": "明尼阿波利斯市政府在一月份發生的一起與移民局（ICE）官員槍擊事件中，釋放了一段錄影片段。該錄影片段來自於市政府的監控攝像頭，顯示移民局官員在追捕一名在當地居住的委內瑞拉男子時，另外一名居住在該男子家中的委內瑞拉男子在衝突中遭到槍擊。這起事件最終導致兩名涉及川普政府在明尼蘇達州推動的移民打擊行動（Operation Metro Surge）的聯邦官員被停職。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "fa1ff51b",
-        "title": "華盛頓DC高素質勞工難找工作：『到底發生什麼事了？』",
-        "url": "https://www.theguardian.com/us-news/2026/apr/07/washington-dc-highly-qualified-workers-unemployment",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 07 Apr 2026 11:00:46 GMT",
-        "summary_zh": "華盛頓DC的失業率最高，阿莉西婭·康特拉斯（Alicia Contreras）在突尼西亞工作時收到消息：她被解僱。川普政府停止了美國外援署（USAID）在突尼西亞的業務，並解僱了大部分海外員工。康特拉斯原本不認為自己，畢業於雙主修，獲得MBA學位，17年公共服務經驗後，仍難找到工作回家。康特拉斯於去年九月回到華盛頓DC地區，並立即開始求職。她在公共部門和私部門、面對面、混合和遠距工作中尋找工作機會。她主要集中在美國首都城市和鄰近的馬里蘭州和維吉尼亞州，因為她有兩個孩子，分別三歲和六歲。六個月後，她近百個求職申請都未成功。這種情況在華盛頓DC的高素質勞工中並非孤例。許多人面臨著同樣的困境，無法找到合適的工作機會。這種情況引起了對於美國勞動市場的關注，尤其是在華盛頓DC這個特殊的地區。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "efbe5182",
-        "title": "川普對伊朗的最後期限與民間目標威脅迫在即",
-        "url": "https://www.theguardian.com/us-news/2026/apr/06/trump-administration-news-updates-today",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 07 Apr 2026 01:55:00 GMT",
-        "summary_zh": "川普在記者會上被問到他的對伊朗戰爭是否正在減少或加劇，他回答說：「我無法告訴你。」這些發言出現在伊朗戰爭中外交談判似乎陷入僵局之際。伊朗戰爭的緊張局勢持續升高，美國總統川普的最後期限與對伊朗的威脅迫在即。伊朗戰爭的外交談判似乎陷入困境，美國總統川普的最後期限與對伊朗的威脅迫在即，引起了國際社會的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "68b2110a",
-        "title": "總統賀勉NCAA大學籃球錦標賽冠軍",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-ncaa-college-basketball-national-championship-game/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 18:49:56 +0000",
-        "summary_zh": "今天，美國總統與數百萬名美國人一起祝賀密西根大學籃球隊和康涅狄格大學籃球隊，兩隊將在2026年全美大學體育協會(NCAA)大學籃球錦標賽中爭奪冠軍。這項錦標賽已經在近90年間為美國人帶來了無數的激動人心的時刻，展現了運動員的拼搏精神和勝利的喜悅。每年三月，美國人都會圍繞著這項錦標賽進行熱烈的討論和觀看。總統對於這項錦標賽的熱情和競爭精神感到鼓舞，並祝賀參賽的球隊和球迷。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9c07d7f7",
-        "title": "當川普總統指揮英雄式救援任務時，激進左派散布瘋狂謊言",
-        "url": "https://www.whitehouse.gov/releases/2026/04/while-president-trump-directed-heroic-rescue-radical-left-spread-deranged-lies/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 17:29:23 +0000",
-        "summary_zh": "在川普總統在白宮辦公室和戰情室指揮一場在近代美國歷史上最具挑戰性的軍事搜索與救援任務時，激進左派暴露了他們靈魂中惡劣的病症。這週末，美國精英戰士在伊朗深入敵後地區執行了一項複雜的任務，同時激進左派開始散布瘋狂的謊言。這些謊言不僅對川普總統的英雄式救援任務造成了不必要的干擾，也對美國的國家安全造成了威脅。激進左派的行為表明了他們對川普總統和美國的仇恨和偏見。這項任務的成功證明了川普總統的領導能力和美國軍隊的勇氣和專業性。激進左派的行為將繼續受到檢視和譴責，直到他們停止散布瘋狂的謊言和對美國的仇恨。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ]
