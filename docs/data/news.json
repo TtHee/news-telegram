@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-07T14:04:13.598206+08:00",
+  "generated_at": "2026-04-07T15:04:04.322831+08:00",
   "risk_signals": [
     "🟢 台股加權 33229.82（正常）",
     "🟢 S&P 500 6611.83（正常）",
     "🟡 VIX 恐慌指數 24.17（留意）",
     "🟢 MOVE 債市波動 81.68（正常）",
-    "🟢 美元指數 100.08（正常）",
-    "🟢 黃金 4665.2（正常）",
+    "🟢 美元指數 100.0（正常）",
+    "🟢 黃金 4677.7（正常）",
     "🟢 美債10Y殖利率 4.34（正常）",
-    "🟢 原油 WTI 115.24（正常）",
-    "🟢 美元/台幣 31.91（正常）"
+    "🟢 原油 WTI 114.8（正常）",
+    "🟢 美元/台幣 31.99（正常）"
   ],
-  "ai_summary": "市場狀況相對穩定，但需要留意恐慌指數略微升高，表明投資者對未來風險的關注正在增加。",
+  "ai_summary": "市場氛圍相對穩定，但需要留意恐慌指數VIX持續升高，表明投資者開始擔心市場風險。",
   "market": {
     "TWII": {
       "price": 33229.82,
@@ -38,25 +38,339 @@
       "change_pct": -3.23
     },
     "DXY": {
-      "price": 100.08,
-      "change_pct": 0.11
+      "price": 100.0,
+      "change_pct": 0.02
     },
     "GOLD": {
-      "price": 4665.2,
-      "change_pct": 0.18
+      "price": 4677.7,
+      "change_pct": 0.45
     },
     "OIL": {
-      "price": 115.24,
-      "change_pct": 2.52
+      "price": 114.8,
+      "change_pct": 2.13
     },
     "USDTWD": {
-      "price": 31.91,
-      "change_pct": -0.16
+      "price": 31.99,
+      "change_pct": 0.08
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "68b2110a",
+        "title": "總統賀勉NCAA大學籃球錦標賽冠軍",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-ncaa-college-basketball-national-championship-game/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 18:49:56 +0000",
+        "summary_zh": "今天，美國總統與數百萬名美國人一起祝賀密西根大學籃球隊和康涅狄格大學籃球隊，兩隊將在2026年全美大學體育協會(NCAA)大學籃球錦標賽中爭奪冠軍。這項錦標賽已經在近90年間為美國人帶來了無數的激動人心的時刻，展現了運動員的拼搏精神和勝利的喜悅。每年三月，美國人都會圍繞著這項錦標賽進行熱烈的討論和觀看。總統對於這項錦標賽的熱情和競爭精神感到鼓舞，並祝賀參賽的球隊和球迷。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d7a9375c",
+        "title": "川普政府計劃大幅改革大學監管規則",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/trump-administration-plans-major-shake-up-of-college-oversight-rules",
+        "source": "Bloomberg",
+        "category": "whitehouse",
+        "published_at": "2026-04-06 19:00:00",
+        "summary_zh": "美國川普政府計劃大幅改革大學監管規則，據了解，這一變革將對美國高等教育產生重大影響。美國教育部長布埃納表示，新的規則將針對大學的學術自由和學生權益進行改革。這一變革將涉及大學的學術自由、學生權益和學費等多個方面。美國教育部長布埃納表示，這一變革將使大學更具競爭力和靈活性。然而，這一變革也引起了許多批評和擔憂，包括大學教師和學生代表團體。美國大學教師協會表示，這一變革將對大學的學術自由和學生權益造成嚴重損害。美國教育部長布埃納表示，這一變革將在未來幾個月內實施。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9c07d7f7",
+        "title": "當川普總統指揮英雄式救援任務時，激進左派散布瘋狂謊言",
+        "url": "https://www.whitehouse.gov/releases/2026/04/while-president-trump-directed-heroic-rescue-radical-left-spread-deranged-lies/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 17:29:23 +0000",
+        "summary_zh": "在川普總統在白宮辦公室和戰情室指揮一場在近代美國歷史上最具挑戰性的軍事搜索與救援任務時，激進左派暴露了他們靈魂中惡劣的病症。這週末，美國精英戰士在伊朗深入敵後地區執行了一項複雜的任務，同時激進左派開始散布瘋狂的謊言。這些謊言不僅對川普總統的英雄式救援任務造成了不必要的干擾，也對美國的國家安全造成了威脅。激進左派的行為表明了他們對川普總統和美國的仇恨和偏見。這項任務的成功證明了川普總統的領導能力和美國軍隊的勇氣和專業性。激進左派的行為將繼續受到檢視和譴責，直到他們停止散布瘋狂的謊言和對美國的仇恨。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "797e1ee0",
+        "title": "楊金(Youngkin)表態願意回歸政壇：‘我還有更多可以獻出’",
+        "url": "https://thehill.com/homenews/campaign/5818653-youngkin-podcast-interview-hannity/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 22:58:58 +0000",
+        "summary_zh": "前維吉尼亞州州長楊金（共和黨）在完成任期後不久就表明了他願意回歸政壇的意願。楊金在接受Sean Hannity主持的《Hang out with Sean Hannity》播客訪問中表示，他仍有很多可以獻出的東西。雖然訪問是在幾周前錄製的，但預計在未來的某個時候播出。楊金的表態引起了關注，許多人認為他可能會在未來的選舉中參與。楊金的政壇生涯始於2000年代，他曾在多家公司任職，包括Carlyle Group和Kohlberg Kravis Roberts。楊金在2017年加入共和黨，並在2021年當選為維吉尼亞州州長。他在任期間推動了多項教育和經濟政策。楊金的回歸政壇表態引起了對未來的關注，許多人期待他在未來的選舉中扮演重要角色。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4f179f89",
+        "title": "川普就伊朗戰事發表記者會五大要點",
+        "url": "https://thehill.com/homenews/administration/5818675-trump-threatens-iran-action/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 22:54:45 +0000",
+        "summary_zh": "川普總統於美國白宮記者會上就伊朗戰事進行了長時間的發言。會上，川普總統與國防部長彼得·赫格塞斯（Pete Hegseth）等重要盟友並立，首先闡述了一名被迫從戰鬥機上跳傘的空軍飛行員的故事。這名飛行員在伊朗被俘虜後，遭到伊朗軍方的嚴刑拷問。川普總統強調，美國政府將為這名飛行員的安全和自由而努力。會上，川普總統還提到美國對伊朗的軍事行動，包括對伊朗軍方的空襲和海上封鎖。川普總統表示，美國將繼續對伊朗施壓，直到伊朗願意與美國進行談判為止。這次記者會的主要目的在於展示美國對伊朗戰事的堅定立場和決心。然而，這次會議也引發了對川普總統行為的批評，許多人認為他在會上說了太多不必要的話。總之，這次記者會顯示了美國對伊朗戰事的堅定立場和決心，但也引發了對川普總統行為的批評。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4c2b64da",
+        "title": "美國環保署開始撤銷氣體排放限制規則",
+        "url": "https://thehill.com/policy/energy-environment/5818608-epa-methane-rule-flaring/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 22:06:02 +0000",
+        "summary_zh": "美國環保署（EPA）已經展開了一項重大的政策變革，旨在撤銷拜登政府頒布的規則，限制石油和天然氣產業的甲烷排放。去年，環保署宣布將重新審視這項規則，指出這項規則對石油和天然氣業有「抑制作用」。環保署表示，這項規則的撤銷將對美國的經濟和能源安全產生積極影響。然而，這項決定也引發了環保團體的批評，認為這將導致環境污染加劇。這項政策變革的影響尚未完全明朗，但它將是拜登政府的氣候政策面臨重大挑戰的重要一步。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0dae16b5",
+        "title": "川普支持前英國政治顧問史蒂夫希爾頓競選加州州長",
+        "url": "https://www.bbc.com/news/articles/c0mj4jeyvmzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 18:55:45 GMT",
+        "summary_zh": "前美國總統川普支持史蒂夫希爾頓競選加州州長。史蒂夫希爾頓曾擔任前英國首相顧問，還曾主持福斯新聞台節目。他將以共和黨的身份參選加州州長選舉。這是川普支持的一個重要動作，展現了他對共和黨未來選舉的關注。然而，史蒂夫希爾頓的競選前景如何，還需要觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a656d64b",
+        "title": "川普批評最高法院：不關心國情、對關稅判決不滿",
+        "url": "https://thehill.com/homenews/administration/5818557-birthright-citizenship-trump-sc/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 22:03:45 +0000",
+        "summary_zh": "川普總統在周一表示，最高法院的判決不滿他關稅的政策，同時對於最高法院對於出生在美國即獲得公民權的判決也產生了不滿。他批評最高法院似乎不關心國家的情況，並表示他將在今晚的節目中詳細闡述自己的觀點。川普的言論表明他對最高法院的判決感到不滿，並將繼續推動自己的政策。這一事件可能會對美國的政治格局產生影響，並可能會引發更多的爭論和討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "110862a3",
+        "title": "美國最高法院為前川普策略家史蒂夫班農案件開路",
+        "url": "https://www.bbc.com/news/articles/cgqk4kyj4yvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 16:43:14 GMT",
+        "summary_zh": "美國最高法院發佈了一項命令，允許下級法院考慮是否撤銷前川普策略家史蒂夫班農的起訴書。這項命令對於班農的案件產生了重大影響，可能會影響到他的未來。班農曾經在川普政府任職，並且被指控違反了國會調查委員會的命令。這項命令的出現，可能會讓班農的律師爭取到更好的結果。然而，該命令的具體內容和影響仍需要進一步的觀察和分析。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "11c09ffa",
+        "title": "Lil Nas X 案件將被撤銷 如果他完成精神健康計畫",
+        "url": "https://www.bbc.com/news/articles/cew7nqn5rqgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 21:55:11 GMT",
+        "summary_zh": "美國歌手Lil Nas X 因涉嫌襲擊案被捕，但法官認為他在案發時的行為與正常行為有所不同。法官表示，如果他完成精神健康計畫，案件將會被撤銷。這項判決表明法官對Lil Nas X 的精神健康狀況有所關注，並希望他能夠接受幫助。這項事件也引起了對於藝人精神健康的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6276c5cd",
+        "title": "莎凡納·古思里回歸NBC晨間新聞，母親失蹤案仍在查緝中",
+        "url": "https://www.bbc.com/news/articles/c04xqglg7xgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 18:07:46 GMT",
+        "summary_zh": "莎凡納·古思里（Savannah Guthrie）已經回歸NBC晨間新聞的主播席位，但她母親的失蹤案仍在進行中。根據當局的調查，莎凡納·古思里的母親南希·古思里（Nancy Guthrie）在亞利桑那州圖森市（Tucson）失蹤，當局懷疑她遭到綁架。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e002096b",
+        "title": "川普將在伊朗戰爭記者會後發表社交媒體罵人言論",
+        "url": "https://www.theguardian.com/us-news/live/2026/apr/06/trump-iran-war-congress-us-politics-live",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 07 Apr 2026 02:00:44 GMT",
+        "summary_zh": "川普將在1點整東部時間在伊朗戰爭記者會上發表演說，伊朗在復活節星期天關閉霍爾木茲海峽。美國各地的聯邦法院法官們越來越多地發表強烈的判決，挑戰川普的政策和行政權力，暫時阻止了一些關鍵政策，引發川普、前法官和檢察官的憤怒反應。自川普第二任期開始，聯邦法院下級法官們就對他的不合法政策，移民、關稅、司法部對政治對手的起訴等發表了尖銳的批評意見。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "33ea47f5",
+        "title": "川普威脅將記者關押以找出第二名空軍飛行員失蹤報導來源",
+        "url": "https://www.theguardian.com/us-news/2026/apr/06/trump-threats-journalist-missing-airman-iran",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 20:00:26 GMT",
+        "summary_zh": "川普總統在試圖找出一名美國空軍飛行員失蹤報導的來源時，威脅將記者關押。根據報導，這名空軍飛行員在被伊朗軍隊擊落後，受重傷躲藏在山谷中，後來被美國救援隊伍救出。川普總統週日宣布該名軍人已被救出。這名記者可能是透過某些來源得知這項消息，川普總統認為這名記者或記者們可能是情報洩漏者。川普總統的行動引發了對新聞自由的擔憂。這項事件表明，川普總統對新聞自由的限制可能會進一步加劇。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ffa0326f",
+        "title": "印第安納波里斯市議員家遭槍擊　因支持數據中心計畫而被針對",
+        "url": "https://www.theguardian.com/us-news/2026/apr/06/indianapolis-city-council-home-shot-at-data-centers",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 19:14:58 GMT",
+        "summary_zh": "印第安納波里斯市議員羅恩·吉布森（Ron Gibson）在最近表示支持一項14英畝的500萬美元數據中心計畫後，遭人家中槍擊。案件發生在美國政治暴力問題日益擴大之際，吉布森是一名民主黨的印第安納波里斯市議員。美國各界對於政治暴力問題表示擔憂，包括最近一名保守派活動家被謀殺的案件。吉布森在案件發生後表示，他的家中遭到槍擊，但沒有受傷。案件的背景是吉布森支持一項數據中心計畫，這項計畫引起了當地居民的反對。吉布森的家中留下了一張紙條，紙條上寫著他被針對的原因是他支持數據中心計畫。吉布森表示，他將與當地警方合作調查案件，並確保家人的安全。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d4f0b44b",
+        "title": "川普稱伊朗民眾歡迎美軍攻擊基礎設施，無證據證明",
+        "url": "https://www.theguardian.com/us-news/2026/apr/06/trump-iranians-strikes-on-infrastructure",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 06 Apr 2026 19:11:05 GMT",
+        "summary_zh": "川普星期一在白宮記者會上表示，伊朗民眾歡迎美國對伊朗基礎設施的攻擊，認為他們願意承受停電和基本服務斷裂的苦果，以換取自由於伊斯蘭共和國。川普否認美軍攻擊伊朗民用基礎設施會對普通伊朗人造成懲罰，認為美國情報機構已經截獲民眾在美軍轟炸目標附近呼籲美軍繼續攻擊的訊息。然而，川普沒有提供任何證據來支持這一說法。這一說法引起了外界的關注，因為美軍攻擊伊朗民用基礎設施可能違反國際人道法。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "global": [
+      {
+        "id": "ab3b9d67",
+        "title": "美國失去阿拉伯世界的支持",
+        "url": "https://www.foreignaffairs.com/iran/america-has-lost-arab-world",
+        "source": "Foreign Affairs",
+        "category": "global",
+        "published_at": "Tue, 07 Apr 2026 00:00:00 -0400",
+        "summary_zh": "近年來，美國在阿拉伯世界的聲譽受損，尤其是在加沙、伊朗等地的戰爭中。這些事件使得美國在該地區的影響力下降，甚至可能永久喪失。美國在阿拉伯世界的失信是由於多年來的軍事行動和外交政策失誤所導致。伊朗核問題、巴勒斯坦問題等問題長期未能得到解決，反而使得美國在該地區的聲譽不斷下滑。美國政府應該重新評估其對阿拉伯世界的政策，尋求新的外交途徑來重建信任。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "8acf3aaf",
+        "title": "烏克蘭和平的錯誤公式",
+        "url": "https://www.foreignaffairs.com/ukraine/flawed-formula-peace-ukraine",
+        "source": "Foreign Affairs",
+        "category": "global",
+        "published_at": "Tue, 07 Apr 2026 00:00:00 -0400",
+        "summary_zh": "烏克蘭戰爭的和平談判正面臨挑戰。美國前總統川普試圖通過房地產交易來結束戰爭，但這種方法被認為是不夠的。烏克蘭戰爭的複雜性遠超出房地產交易的範圍，需要政治和外交上的妥協。這種方法可能會使和平談判陷入困境，對烏克蘭人民造成更多的傷害。烏克蘭戰爭的和平需要一個更具體的方案和各方的合作。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1e22338c",
+        "title": "美國和中國可以共同創造出更安全的人工智慧",
+        "url": "https://www.foreignaffairs.com/united-states/america-and-china-can-make-ai-safer",
+        "source": "Foreign Affairs",
+        "category": "global",
+        "published_at": "Tue, 07 Apr 2026 00:00:00 -0400",
+        "summary_zh": "人工智慧的發展正日益受到關注，美國和中國都認為需要共同合作來創造出更安全的人工智慧。這種合作並不困難，兩國都有能力在這方面進行合作。美國和中國都有著在人工智慧領域的經驗和專業知識，可以共同共享和合作來發展出更安全的人工智慧。這種合作不僅可以幫助兩國在人工智慧領域的發展，也可以促進兩國在其他領域的合作和理解。然而，人工智慧的安全性也是個複雜的問題，需要兩國共同努力來解決。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "94ca2610",
+        "title": "阿特米斯二號突破阿波羅13號的距離紀錄 人類首次遠離地球100萬公里",
+        "url": "https://www.cnbc.com/2026/04/06/artemis-ii-breaks-apollo-13s-distance-record.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-04-06 18:41:21",
+        "summary_zh": "阿特米斯二號太空船成功突破阿波羅13號的距離紀錄，成為人類首次遠離地球100萬公里。這次任務是阿特米斯計畫的一部分，目的是測試太空船和太空衣的性能，為未來的人類登月和深空探索做好準備。太空船的遠離地球的距離是100萬公里，遠超過阿波羅13號在1970年達到的距離。這次任務的成功表明了太空探索的進步和人類對太空的探索願望。然而，仍然有許多挑戰需要克服，才能使人類登月和深空探索成為現實。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d4b46b5c",
+        "title": "年輕灰鯨在華盛頓州河流中死亡",
+        "url": "https://www.bbc.com/news/articles/cew7n4glz54o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 06 Apr 2026 11:25:32 GMT",
+        "summary_zh": "一頭年輕的灰鯨在華盛頓州的河流中死亡。該鯨被稱為Willapa Willy，專家認為鯨魚可能因為飢餓而游入河流。這種情況在近年來已經發生過多次，許多鯨魚都因為飢餓而游入河流。飢餓可能是由於鯨魚的食物來源減少或環境變化所致。這種情況對鯨魚的生存造成了重大威脅。專家呼籲需要關注鯨魚的生存狀況並採取措施保護他們的環境。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5c59e19a",
+        "title": "BBC探訪被查封的詐騙基地：假冒澳洲、中國和巴西警察局",
+        "url": "https://www.bbc.com/news/articles/cjenpy8gx71o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 06 Apr 2026 23:09:23 GMT",
+        "summary_zh": "近日，泰國軍方接管了皇家山莊賭場（Royal Hill casino），但關於該賭場的資訊幾乎為零。根據BBC的調查，皇家山莊賭場被認為是詐騙集團的據點。BBC探訪了被查封的詐騙基地，發現該基地內設有假冒澳洲、中國和巴西警察局的辦公室。這些假警察局的存在，可能是詐騙集團用來欺騙外國人並將其資金轉移至泰國的工具。BBC的調查還發現，該基地內還有其他詐騙活動的痕跡，包括假冒銀行和金融機構的辦公室。這些發現，表明皇家山莊賭場的詐騙活動可能更為複雜和廣泛。泰國政府正在調查皇家山莊賭場的詐騙活動，並已經拘捕了多名涉案人員。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1ef33d68",
+        "title": "澳大利亞最受獎勵的士兵因涉嫌戰爭罪被捕",
+        "url": "https://www.bbc.com/news/articles/crr1jyk0qwjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 07 Apr 2026 06:52:27 GMT",
+        "summary_zh": "澳大利亞最受獎勵的士兵本·羅伯茨史密斯（Ben Roberts-Smith）因涉嫌戰爭罪被捕。他否認所有指控，之前已經失去了關於涉嫌謀殺的重磅誹謗案。這起事件的背景是在澳大利亞士兵在阿富汗戰爭期間的行為。關鍵細節是本·羅伯茨史密斯被指控犯下了多起戰爭罪，包括謀殺平民和非戰鬥人員。影響分析是這起事件可能會對澳大利亞軍隊的聲譽和信譽造成重大影響。後續展望是本·羅伯茨史密斯將會面臨嚴厲的法律追究。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bde23eb2",
+        "title": "川普威脅若未能達成協議將在「一夜」內擊敗伊朗",
+        "url": "https://www.bbc.com/news/articles/cqj8ep9w1pno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 06 Apr 2026 21:55:50 GMT",
+        "summary_zh": "美國總統川普對伊朗提出最後通牒，要求伊朗在星期二截止日期前重新開放霍爾木茲海峽，霍爾木茲海峽是全球能源運輸的關鍵路線。川普威脅若伊朗未能順從將在「一夜」內對伊朗進行軍事行動。伊朗控制的霍爾木茲海峽是全球石油出口的重要通道，美國和伊朗之間的緊張關係已經達到臨界點。美國對伊朗的威脅可能會導致全球能源市場的波動和地區安全的不穩定。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "43d0d137",
+        "title": "印度面臨中東戰事，高成長經濟遭遇油價大漲",
+        "url": "https://www.bbc.com/news/articles/cn43wllgn4vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 07 Apr 2026 01:21:36 GMT",
+        "summary_zh": "印度面臨中東戰事所引發的三重能源沖擊，導致印度的貨幣、股票和成長預測受到嚴重影響。印度的經濟成長率曾經被預測將達到 7.3%，但隨著油價大漲，這個預測已經被降低到 6.9%。印度的央行也被迫提高利率以穩定貨幣，同時政府也面臨著如何應對能源短缺的挑戰。這次能源沖擊對印度的經濟影響將是長期的，印度需要採取積極的措施來應對這種挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2c1ce9ef",
+        "title": "印度九名警察被判死刑 因涉嫌在疫情期間囚禁期間殺害兩人",
+        "url": "https://www.bbc.com/news/articles/ce8l0md9gl1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 06 Apr 2026 21:21:13 GMT",
+        "summary_zh": "印度一名父子於2020年因懷疑違反疫情封鎖規定而被捕，後在監獄中喪生。九名涉嫌涉案的警察被判處死刑。事件發生在疫情期間，當地政府實施嚴格的封鎖措施，許多人因違反規定而被捕。父子被捕後，據報被囚禁在監獄中，並在短時間內喪生。這起事件引發了社會上的關注和爭議，許多人批評政府對疫情封鎖措施的執行。九名涉嫌涉案的警察被判處死刑，這一判決被視為對政府執行封鎖措施的負責。然而，這一判決也引發了對死刑制度的爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5b36511c",
+        "title": "百名兒童在一月內因麻疹疑似病例去世，孟加拉國緊急接種疫苗",
+        "url": "https://www.bbc.com/news/articles/cevkz2z7dm8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 06 Apr 2026 09:59:40 GMT",
+        "summary_zh": "孟加拉國近期爆發麻疹疫情，自 3 月中旬以來，已有超過 100 人，多為兒童，疑似因麻疹而死亡。政府官員懷疑這是一個嚴重的疫情，已經展開緊急接種疫苗行動。麻疹是一種高度傳染性的疾病，尤其對兒童有害。政府正在努力控制疫情，防止更多人受影響。這個疫情的爆發，讓孟加拉國的衛生部門感到擔憂，正在全力應對。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "40eccff1",
         "title": "特朗普對伊朗最後期限逼近，美國總統陷入政治困境",
@@ -70,6 +384,18 @@
         "ai_classified": true
       },
       {
+        "id": "3a41175c",
+        "title": "加州一縣近一個月內已有六人遭蛇咬",
+        "url": "https://www.theguardian.com/us-news/2026/apr/06/california-sixth-person-bitten-rattlesnake",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Mon, 06 Apr 2026 21:24:02 GMT",
+        "summary_zh": "近一個月內，南加州的文塔拉縣已有六人遭到響尾蛇咬傷。根據文塔拉縣消防局的 spokesperson Andrew Dowd 表示，自去年 2025 年以來，這是該縣一年中遭蛇咬人數的三分之二。最近一次事件發生在週日，當地消防員接到一名男子遭蛇咬的報案，受傷男子表示是在加州州立大學CHANNEL ISLANDS附近遭到咬傷。今年春天的溫暖天氣使得蛇類出現在步道上較早，南加州已經有兩人因蛇咬而喪生。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "b2d772e6",
         "title": "美國副總統訪匈牙利支持奧班尼再次競選",
         "url": "https://www.bbc.com/news/articles/cyv16lq2rp1o?at_medium=RSS&at_campaign=rss",
@@ -78,8 +404,8 @@
         "published_at": "Tue, 07 Apr 2026 01:45:41 GMT",
         "summary_zh": "美國副總統珍·范斯 (JD Vance) 將於近期訪問匈牙利，表達白宮對匈牙利領導人奧班尼 (Orban) 的支持。這次訪問是白宮對奧班尼競選連任的最新表態。奧班尼領導的匈牙利政府與美國政府在某些議題上存在分歧，但白宮仍然表達了對奧班尼競選連任的支持。這一發展可能會對匈牙利政治產生重大影響，並可能影響匈牙利與美國的關係。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c1a00d99",
@@ -89,30 +415,6 @@
         "category": "global",
         "published_at": "Mon, 06 Apr 2026 19:11:20 GMT",
         "summary_zh": "近日，當地消息人士指出，以色列軍隊對加沙發動空襲，造成至少10人喪生。據報導，這次空襲是針對哈馬斯安全人員的行動，原因是他們與以色列支持的民兵組織在馬吉齊營區附近發生衝突。這次衝突是近期加沙地區的又一場暴力事件，引發了對當地局勢的擔憂。這種衝突不僅影響當地居民的生活，也會對地區的穩定性造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2c1ce9ef",
-        "title": "印度九名警察被判死刑 因涉嫌在疫情期間囚禁期間殺害兩人",
-        "url": "https://www.bbc.com/news/articles/ce8l0md9gl1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 06 Apr 2026 21:21:13 GMT",
-        "summary_zh": "印度一名父子於2020年因懷疑違反疫情封鎖規定而被捕，後在監獄中喪生。九名涉嫌涉案的警察被判處死刑。事件發生在疫情期間，當地政府實施嚴格的封鎖措施，許多人因違反規定而被捕。父子被捕後，據報被囚禁在監獄中，並在短時間內喪生。這起事件引發了社會上的關注和爭議，許多人批評政府對疫情封鎖措施的執行。九名涉嫌涉案的警察被判處死刑，這一判決被視為對政府執行封鎖措施的負責。然而，這一判決也引發了對死刑制度的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d4b46b5c",
-        "title": "年輕灰鯨在華盛頓州河流中死亡",
-        "url": "https://www.bbc.com/news/articles/cew7n4glz54o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 06 Apr 2026 11:25:32 GMT",
-        "summary_zh": "一頭年輕的灰鯨在華盛頓州的河流中死亡。該鯨被稱為Willapa Willy，專家認為鯨魚可能因為飢餓而游入河流。這種情況在近年來已經發生過多次，許多鯨魚都因為飢餓而游入河流。飢餓可能是由於鯨魚的食物來源減少或環境變化所致。這種情況對鯨魚的生存造成了重大威脅。專家呼籲需要關注鯨魚的生存狀況並採取措施保護他們的環境。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -142,18 +444,6 @@
         "ai_classified": true
       },
       {
-        "id": "5b36511c",
-        "title": "百名兒童在一月內因麻疹疑似病例去世，孟加拉國緊急接種疫苗",
-        "url": "https://www.bbc.com/news/articles/cevkz2z7dm8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 06 Apr 2026 09:59:40 GMT",
-        "summary_zh": "孟加拉國近期爆發麻疹疫情，自 3 月中旬以來，已有超過 100 人，多為兒童，疑似因麻疹而死亡。政府官員懷疑這是一個嚴重的疫情，已經展開緊急接種疫苗行動。麻疹是一種高度傳染性的疾病，尤其對兒童有害。政府正在努力控制疫情，防止更多人受影響。這個疫情的爆發，讓孟加拉國的衛生部門感到擔憂，正在全力應對。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "51438ad7",
         "title": "剛果共和國同意接收美國遣返者",
         "url": "https://www.bbc.com/news/articles/c20d35eejxgo?at_medium=RSS&at_campaign=rss",
@@ -166,54 +456,6 @@
         "ai_classified": true
       },
       {
-        "id": "bde23eb2",
-        "title": "川普威脅若未能達成協議將在「一夜」內擊敗伊朗",
-        "url": "https://www.bbc.com/news/articles/cqj8ep9w1pno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 06 Apr 2026 21:55:50 GMT",
-        "summary_zh": "美國總統川普對伊朗提出最後通牒，要求伊朗在星期二截止日期前重新開放霍爾木茲海峽，霍爾木茲海峽是全球能源運輸的關鍵路線。川普威脅若伊朗未能順從將在「一夜」內對伊朗進行軍事行動。伊朗控制的霍爾木茲海峽是全球石油出口的重要通道，美國和伊朗之間的緊張關係已經達到臨界點。美國對伊朗的威脅可能會導致全球能源市場的波動和地區安全的不穩定。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5c59e19a",
-        "title": "BBC探訪被查封的詐騙基地：假冒澳洲、中國和巴西警察局",
-        "url": "https://www.bbc.com/news/articles/cjenpy8gx71o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 06 Apr 2026 23:09:23 GMT",
-        "summary_zh": "近日，泰國軍方接管了皇家山莊賭場（Royal Hill casino），但關於該賭場的資訊幾乎為零。根據BBC的調查，皇家山莊賭場被認為是詐騙集團的據點。BBC探訪了被查封的詐騙基地，發現該基地內設有假冒澳洲、中國和巴西警察局的辦公室。這些假警察局的存在，可能是詐騙集團用來欺騙外國人並將其資金轉移至泰國的工具。BBC的調查還發現，該基地內還有其他詐騙活動的痕跡，包括假冒銀行和金融機構的辦公室。這些發現，表明皇家山莊賭場的詐騙活動可能更為複雜和廣泛。泰國政府正在調查皇家山莊賭場的詐騙活動，並已經拘捕了多名涉案人員。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1ef33d68",
-        "title": "澳大利亞最受獎勵的士兵因涉嫌戰爭罪被捕",
-        "url": "https://www.bbc.com/news/articles/crr1jyk0qwjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 07 Apr 2026 05:53:52 GMT",
-        "summary_zh": "澳大利亞最受獎勵的士兵本·羅伯茨史密斯（Ben Roberts-Smith）因涉嫌戰爭罪被捕。他否認所有指控，之前已經失去了關於涉嫌謀殺的重磅誹謗案。這起事件的背景是在澳大利亞士兵在阿富汗戰爭期間的行為。關鍵細節是本·羅伯茨史密斯被指控犯下了多起戰爭罪，包括謀殺平民和非戰鬥人員。影響分析是這起事件可能會對澳大利亞軍隊的聲譽和信譽造成重大影響。後續展望是本·羅伯茨史密斯將會面臨嚴厲的法律追究。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "43d0d137",
-        "title": "印度面臨中東戰事，高成長經濟遭遇油價大漲",
-        "url": "https://www.bbc.com/news/articles/cn43wllgn4vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 07 Apr 2026 01:21:36 GMT",
-        "summary_zh": "印度面臨中東戰事所引發的三重能源沖擊，導致印度的貨幣、股票和成長預測受到嚴重影響。印度的經濟成長率曾經被預測將達到 7.3%，但隨著油價大漲，這個預測已經被降低到 6.9%。印度的央行也被迫提高利率以穩定貨幣，同時政府也面臨著如何應對能源短缺的挑戰。這次能源沖擊對印度的經濟影響將是長期的，印度需要採取積極的措施來應對這種挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "5722de6f",
         "title": "美國民主黨議員要求永久解決古巴危機，批評美國能源封鎖造成嚴重影響",
         "url": "https://www.theguardian.com/us-news/2026/apr/06/cuba-blockade-energy-house-democrats",
@@ -223,18 +465,6 @@
         "summary_zh": "美國民主黨兩名議員，華盛頓州的Pramila Jayapal和伊利諾伊州的Jonathan Jackson，近日訪問古巴，目睹了美國能源封鎖對古巴的影響。兩人與古巴總統米格爾·迪亞斯-卡內爾和外交部長布魯諾·羅德里格斯會面，並與古巴國會成員會議。古巴總統米格爾·迪亞斯-卡內爾在社交平台上表示，美國能源封鎖對古巴造成了嚴重損害，尤其是美國政府的能源封鎖和威脅性行動。他們要求永久解決古巴危機，批評美國能源封鎖造成的嚴重影響。這次訪問是兩名議員對美國對古巴的能源封鎖政策的反應，表明了對古巴人民的關心。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3a41175c",
-        "title": "加州一縣近一個月內已有六人遭蛇咬",
-        "url": "https://www.theguardian.com/us-news/2026/apr/06/california-sixth-person-bitten-rattlesnake",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Mon, 06 Apr 2026 21:24:02 GMT",
-        "summary_zh": "近一個月內，南加州的文塔拉縣已有六人遭到響尾蛇咬傷。根據文塔拉縣消防局的 spokesperson Andrew Dowd 表示，自去年 2025 年以來，這是該縣一年中遭蛇咬人數的三分之二。最近一次事件發生在週日，當地消防員接到一名男子遭蛇咬的報案，受傷男子表示是在加州州立大學CHANNEL ISLANDS附近遭到咬傷。今年春天的溫暖天氣使得蛇類出現在步道上較早，南加州已經有兩人因蛇咬而喪生。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -322,225 +552,7 @@
         "ai_classified": true
       }
     ],
-    "whitehouse": [
-      {
-        "id": "11c09ffa",
-        "title": "Lil Nas X 案件將被撤銷 如果他完成精神健康計畫",
-        "url": "https://www.bbc.com/news/articles/cew7nqn5rqgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 21:55:11 GMT",
-        "summary_zh": "美國歌手Lil Nas X 因涉嫌襲擊案被捕，但法官認為他在案發時的行為與正常行為有所不同。法官表示，如果他完成精神健康計畫，案件將會被撤銷。這項判決表明法官對Lil Nas X 的精神健康狀況有所關注，並希望他能夠接受幫助。這項事件也引起了對於藝人精神健康的關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6276c5cd",
-        "title": "莎凡納·古思里回歸NBC晨間新聞，母親失蹤案仍在查緝中",
-        "url": "https://www.bbc.com/news/articles/c04xqglg7xgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 18:07:46 GMT",
-        "summary_zh": "莎凡納·古思里（Savannah Guthrie）已經回歸NBC晨間新聞的主播席位，但她母親的失蹤案仍在進行中。根據當局的調查，莎凡納·古思里的母親南希·古思里（Nancy Guthrie）在亞利桑那州圖森市（Tucson）失蹤，當局懷疑她遭到綁架。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "75a3876e",
-        "title": "川普建議砍去 TSA 9,400 名員工，減少 1.5 億美元預算",
-        "url": "https://www.reuters.com/legal/government/trump-proposes-cut-9400-tsa-workers-15-billion-budget-2026-04-06/",
-        "source": "Reuters",
-        "category": "whitehouse",
-        "published_at": "2026-04-06 17:58:50",
-        "summary_zh": "川普政府提議砍去 9,400 名負責機場安全檢查的 TSA 員工，同時減少 1.5 億美元的預算。這項建議來自於白宮的預算文件。TSA 是一家負責機場安全檢查的政府機構，共有 60,000 名員工。川普政府的這項建議將對 TSA 的運作產生重大影響，可能會影響機場安全檢查的效率和質量。這項建議也引發了對政府預算削減的擔憂，是否會影響政府的服務質量和安全性。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "0dae16b5",
-        "title": "川普支持前英國政治顧問史蒂夫希爾頓競選加州州長",
-        "url": "https://www.bbc.com/news/articles/c0mj4jeyvmzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 18:55:45 GMT",
-        "summary_zh": "前美國總統川普支持史蒂夫希爾頓競選加州州長。史蒂夫希爾頓曾擔任前英國首相顧問，還曾主持福斯新聞台節目。他將以共和黨的身份參選加州州長選舉。這是川普支持的一個重要動作，展現了他對共和黨未來選舉的關注。然而，史蒂夫希爾頓的競選前景如何，還需要觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "110862a3",
-        "title": "美國最高法院為前川普策略家史蒂夫班農案件開路",
-        "url": "https://www.bbc.com/news/articles/cgqk4kyj4yvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 16:43:14 GMT",
-        "summary_zh": "美國最高法院發佈了一項命令，允許下級法院考慮是否撤銷前川普策略家史蒂夫班農的起訴書。這項命令對於班農的案件產生了重大影響，可能會影響到他的未來。班農曾經在川普政府任職，並且被指控違反了國會調查委員會的命令。這項命令的出現，可能會讓班農的律師爭取到更好的結果。然而，該命令的具體內容和影響仍需要進一步的觀察和分析。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "68b2110a",
-        "title": "總統賀勉NCAA大學籃球錦標賽冠軍",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-ncaa-college-basketball-national-championship-game/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 18:49:56 +0000",
-        "summary_zh": "今天，美國總統與數百萬名美國人一起祝賀密西根大學籃球隊和康涅狄格大學籃球隊，兩隊將在2026年全美大學體育協會(NCAA)大學籃球錦標賽中爭奪冠軍。這項錦標賽已經在近90年間為美國人帶來了無數的激動人心的時刻，展現了運動員的拼搏精神和勝利的喜悅。每年三月，美國人都會圍繞著這項錦標賽進行熱烈的討論和觀看。總統對於這項錦標賽的熱情和競爭精神感到鼓舞，並祝賀參賽的球隊和球迷。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9c07d7f7",
-        "title": "當川普總統指揮英雄式救援任務時，激進左派散布瘋狂謊言",
-        "url": "https://www.whitehouse.gov/releases/2026/04/while-president-trump-directed-heroic-rescue-radical-left-spread-deranged-lies/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 17:29:23 +0000",
-        "summary_zh": "在川普總統在白宮辦公室和戰情室指揮一場在近代美國歷史上最具挑戰性的軍事搜索與救援任務時，激進左派暴露了他們靈魂中惡劣的病症。這週末，美國精英戰士在伊朗深入敵後地區執行了一項複雜的任務，同時激進左派開始散布瘋狂的謊言。這些謊言不僅對川普總統的英雄式救援任務造成了不必要的干擾，也對美國的國家安全造成了威脅。激進左派的行為表明了他們對川普總統和美國的仇恨和偏見。這項任務的成功證明了川普總統的領導能力和美國軍隊的勇氣和專業性。激進左派的行為將繼續受到檢視和譴責，直到他們停止散布瘋狂的謊言和對美國的仇恨。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "797e1ee0",
-        "title": "楊金(Youngkin)表態願意回歸政壇：‘我還有更多可以獻出’",
-        "url": "https://thehill.com/homenews/campaign/5818653-youngkin-podcast-interview-hannity/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 22:58:58 +0000",
-        "summary_zh": "前維吉尼亞州州長楊金（共和黨）在完成任期後不久就表明了他願意回歸政壇的意願。楊金在接受Sean Hannity主持的《Hang out with Sean Hannity》播客訪問中表示，他仍有很多可以獻出的東西。雖然訪問是在幾周前錄製的，但預計在未來的某個時候播出。楊金的表態引起了關注，許多人認為他可能會在未來的選舉中參與。楊金的政壇生涯始於2000年代，他曾在多家公司任職，包括Carlyle Group和Kohlberg Kravis Roberts。楊金在2017年加入共和黨，並在2021年當選為維吉尼亞州州長。他在任期間推動了多項教育和經濟政策。楊金的回歸政壇表態引起了對未來的關注，許多人期待他在未來的選舉中扮演重要角色。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4f179f89",
-        "title": "川普就伊朗戰事發表記者會五大要點",
-        "url": "https://thehill.com/homenews/administration/5818675-trump-threatens-iran-action/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 22:54:45 +0000",
-        "summary_zh": "川普總統於美國白宮記者會上就伊朗戰事進行了長時間的發言。會上，川普總統與國防部長彼得·赫格塞斯（Pete Hegseth）等重要盟友並立，首先闡述了一名被迫從戰鬥機上跳傘的空軍飛行員的故事。這名飛行員在伊朗被俘虜後，遭到伊朗軍方的嚴刑拷問。川普總統強調，美國政府將為這名飛行員的安全和自由而努力。會上，川普總統還提到美國對伊朗的軍事行動，包括對伊朗軍方的空襲和海上封鎖。川普總統表示，美國將繼續對伊朗施壓，直到伊朗願意與美國進行談判為止。這次記者會的主要目的在於展示美國對伊朗戰事的堅定立場和決心。然而，這次會議也引發了對川普總統行為的批評，許多人認為他在會上說了太多不必要的話。總之，這次記者會顯示了美國對伊朗戰事的堅定立場和決心，但也引發了對川普總統行為的批評。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4c2b64da",
-        "title": "美國環保署開始撤銷氣體排放限制規則",
-        "url": "https://thehill.com/policy/energy-environment/5818608-epa-methane-rule-flaring/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 22:06:02 +0000",
-        "summary_zh": "美國環保署（EPA）已經展開了一項重大的政策變革，旨在撤銷拜登政府頒布的規則，限制石油和天然氣產業的甲烷排放。去年，環保署宣布將重新審視這項規則，指出這項規則對石油和天然氣業有「抑制作用」。環保署表示，這項規則的撤銷將對美國的經濟和能源安全產生積極影響。然而，這項決定也引發了環保團體的批評，認為這將導致環境污染加劇。這項政策變革的影響尚未完全明朗，但它將是拜登政府的氣候政策面臨重大挑戰的重要一步。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a656d64b",
-        "title": "川普批評最高法院：不關心國情、對關稅判決不滿",
-        "url": "https://thehill.com/homenews/administration/5818557-birthright-citizenship-trump-sc/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 22:03:45 +0000",
-        "summary_zh": "川普總統在周一表示，最高法院的判決不滿他關稅的政策，同時對於最高法院對於出生在美國即獲得公民權的判決也產生了不滿。他批評最高法院似乎不關心國家的情況，並表示他將在今晚的節目中詳細闡述自己的觀點。川普的言論表明他對最高法院的判決感到不滿，並將繼續推動自己的政策。這一事件可能會對美國的政治格局產生影響，並可能會引發更多的爭論和討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e002096b",
-        "title": "川普將在伊朗戰爭記者會後發表社交媒體罵人言論",
-        "url": "https://www.theguardian.com/us-news/live/2026/apr/06/trump-iran-war-congress-us-politics-live",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 07 Apr 2026 02:00:44 GMT",
-        "summary_zh": "川普將在1點整東部時間在伊朗戰爭記者會上發表演說，伊朗在復活節星期天關閉霍爾木茲海峽。美國各地的聯邦法院法官們越來越多地發表強烈的判決，挑戰川普的政策和行政權力，暫時阻止了一些關鍵政策，引發川普、前法官和檢察官的憤怒反應。自川普第二任期開始，聯邦法院下級法官們就對他的不合法政策，移民、關稅、司法部對政治對手的起訴等發表了尖銳的批評意見。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "33ea47f5",
-        "title": "川普威脅將記者關押以找出第二名空軍飛行員失蹤報導來源",
-        "url": "https://www.theguardian.com/us-news/2026/apr/06/trump-threats-journalist-missing-airman-iran",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 20:00:26 GMT",
-        "summary_zh": "川普總統在試圖找出一名美國空軍飛行員失蹤報導的來源時，威脅將記者關押。根據報導，這名空軍飛行員在被伊朗軍隊擊落後，受重傷躲藏在山谷中，後來被美國救援隊伍救出。川普總統週日宣布該名軍人已被救出。這名記者可能是透過某些來源得知這項消息，川普總統認為這名記者或記者們可能是情報洩漏者。川普總統的行動引發了對新聞自由的擔憂。這項事件表明，川普總統對新聞自由的限制可能會進一步加劇。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ffa0326f",
-        "title": "印第安納波里斯市議員家遭槍擊　因支持數據中心計畫而被針對",
-        "url": "https://www.theguardian.com/us-news/2026/apr/06/indianapolis-city-council-home-shot-at-data-centers",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 19:14:58 GMT",
-        "summary_zh": "印第安納波里斯市議員羅恩·吉布森（Ron Gibson）在最近表示支持一項14英畝的500萬美元數據中心計畫後，遭人家中槍擊。案件發生在美國政治暴力問題日益擴大之際，吉布森是一名民主黨的印第安納波里斯市議員。美國各界對於政治暴力問題表示擔憂，包括最近一名保守派活動家被謀殺的案件。吉布森在案件發生後表示，他的家中遭到槍擊，但沒有受傷。案件的背景是吉布森支持一項數據中心計畫，這項計畫引起了當地居民的反對。吉布森的家中留下了一張紙條，紙條上寫著他被針對的原因是他支持數據中心計畫。吉布森表示，他將與當地警方合作調查案件，並確保家人的安全。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d4f0b44b",
-        "title": "川普稱伊朗民眾歡迎美軍攻擊基礎設施，無證據證明",
-        "url": "https://www.theguardian.com/us-news/2026/apr/06/trump-iranians-strikes-on-infrastructure",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 06 Apr 2026 19:11:05 GMT",
-        "summary_zh": "川普星期一在白宮記者會上表示，伊朗民眾歡迎美國對伊朗基礎設施的攻擊，認為他們願意承受停電和基本服務斷裂的苦果，以換取自由於伊斯蘭共和國。川普否認美軍攻擊伊朗民用基礎設施會對普通伊朗人造成懲罰，認為美國情報機構已經截獲民眾在美軍轟炸目標附近呼籲美軍繼續攻擊的訊息。然而，川普沒有提供任何證據來支持這一說法。這一說法引起了外界的關注，因為美軍攻擊伊朗民用基礎設施可能違反國際人道法。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
     "ai": [
-      {
-        "id": "7501dfe2",
-        "title": "伊朗威脅對阿布扎比的OpenAI數據中心",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-04-06T11:54:19-04:00",
-        "summary_zh": "伊朗伊斯蘭革命衛隊(IRGC) recently 公布了一個影片，威脅如果美國實行對伊朗核電站的攻擊，將對OpenAI在阿布扎比的數據中心展開攻擊。這個影片發布在一個伊朗政府支持的新聞媒體的X帳戶上。伊朗的威脅是對美國對伊朗核電站的攻擊威脅的回應。這個數據中心的建設正在進行中，預計將成為OpenAI的重要據點。伊朗的行動引起了關注，許多人認為這可能會對全球AI發展產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "707d19ee",
-        "title": "奇異創投CEO查克羅賓斯：將資料中心建置在太空",
-        "url": "https://www.theverge.com/podcast/906727/cisco-ceo-chuck-robbins-data-centers-space-ai-elon-musk-interview",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-04-06T11:15:00-04:00",
-        "summary_zh": "奇異創投CEO查克羅賓斯近日表示，公司正在研究將資料中心建置在太空。這項計畫旨在為未來的太空探索提供更快速、更可靠的數據傳輸。資料中心在太空的建置將需要面對嚴峻的技術挑戰，包括太空環境的惡劣條件、太空碎片的威脅以及資料傳輸的延遲問題。然而，奇異創投認為這項計畫有潛力為未來的太空探索提供重要的技術支撐。這項計畫的成功將對太空探索產生重大影響，為未來的太空殖民提供重要的基礎設施。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c858f67b",
-        "title": "中國在人工智慧競賽中取得領先一步，但美國仍有機會反超",
-        "url": "https://www.bbc.com/news/articles/c145enxln0go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "ai",
-        "published_at": "Tue, 07 Apr 2026 05:13:12 GMT",
-        "summary_zh": "人工智慧競賽中，中國和美國都在各自領域取得了進展，但雙方都希望避免讓對手取得領先地位。這場競賽可能會持續進行，並且可能會因為新的技術突破而被轉變。中國在某些人工智慧領域取得了領先地位，例如在圖像識別和語言處理方面的進展。但是，美國在人工智慧安全和倫理方面取得了進展，例如在人工智慧安全的研究和開發方面的突破。這兩個國家的競賽可能會持續進行，並且可能會因為新的技術突破而被轉變。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
       {
         "id": "268853e8",
         "title": "一個數據可能揭示你工作和 AI 的未來",
@@ -566,6 +578,30 @@
         "ai_classified": true
       },
       {
+        "id": "7501dfe2",
+        "title": "伊朗威脅對阿布扎比的OpenAI數據中心",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-04-06T11:54:19-04:00",
+        "summary_zh": "伊朗伊斯蘭革命衛隊(IRGC) recently 公布了一個影片，威脅如果美國實行對伊朗核電站的攻擊，將對OpenAI在阿布扎比的數據中心展開攻擊。這個影片發布在一個伊朗政府支持的新聞媒體的X帳戶上。伊朗的威脅是對美國對伊朗核電站的攻擊威脅的回應。這個數據中心的建設正在進行中，預計將成為OpenAI的重要據點。伊朗的行動引起了關注，許多人認為這可能會對全球AI發展產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "707d19ee",
+        "title": "奇異創投CEO查克羅賓斯：將資料中心建置在太空",
+        "url": "https://www.theverge.com/podcast/906727/cisco-ceo-chuck-robbins-data-centers-space-ai-elon-musk-interview",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-04-06T11:15:00-04:00",
+        "summary_zh": "奇異創投CEO查克羅賓斯近日表示，公司正在研究將資料中心建置在太空。這項計畫旨在為未來的太空探索提供更快速、更可靠的數據傳輸。資料中心在太空的建置將需要面對嚴峻的技術挑戰，包括太空環境的惡劣條件、太空碎片的威脅以及資料傳輸的延遲問題。然而，奇異創投認為這項計畫有潛力為未來的太空探索提供重要的技術支撐。這項計畫的成功將對太空探索產生重大影響，為未來的太空殖民提供重要的基礎設施。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "63b67a96",
         "title": "Sam Altman 的『新協議』：超級智慧的新社會契約",
         "url": "https://thehill.com/newsletters/technology/5818609-sam-altman-openai-superintelligence/",
@@ -580,6 +616,54 @@
     ],
     "stock_tw": [
       {
+        "id": "14f82e25",
+        "title": "航太與軍工產能滿載至9月底 八貫3月與首季營收雙創新高",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5395756",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 07 Apr 2026 14:50:19 +0800",
+        "summary_zh": "八貫企業今日公告3月營收3.71億元，累計第一季營收9.17億元，年增率達17.77％。受航太與軍工產能的強勁推升，八貫企業的營收創下新高。航太與軍工產能的需求正在快速增長，八貫企業的產品如TPU（熱可塑性聚氨酯彈性體）正受到市場的歡迎。這種需求的增長將對八貫企業的未來營收產生持續的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "fee526a7",
+        "title": "好市多熱狗套餐1985年至今的真實售價曝光，成本計算曝光",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5395408",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 07 Apr 2026 14:27:29 +0800",
+        "summary_zh": "好市多熱狗套餐自1985年以來一直是其最受歡迎的商品之一，價格一直保持在令人印象深刻的低位。根據曝光的真實數字，熱狗套餐的售價從1985年的1.5美元一直維持到現在。這意味著，好市多在過去幾十年來，熱狗套餐的售價沒有進行過任何大幅度的調整。這種情況下，好市多的成本計算也引起了關注。許多人認為，好市多的熱狗套餐價格太低，可能導致公司虧損。然而，根據好市多的財務報表，公司的營業額和利潤都在穩步增長。這意味著，好市多的熱狗套餐價格雖然低，但公司的整體財務狀況仍然健康。因此，好市多的熱狗套餐價格並不會導致公司虧損。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7b7931f5",
+        "title": "騰輝電子- KY 3月營收衝近4年新高 Q1航空航天材料出貨翻倍",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5395723",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 07 Apr 2026 14:24:50 +0800",
+        "summary_zh": "騰輝電子-KY（6672）今日公告3月營收達4.81億元，月增35%，年增33%。這使得公司3月營收達到近4年新高。累計第一季營收達12.4億元，年增22%，並較去年第四季成長12%。公司今年度營收預期將繼續保持穩健的增長。騰輝電子-KY的業務主要聚焦於航空航天材料的生產和銷售，近期出貨量的快速增長是公司營收的重要驅動力。這表明公司在該領域的競爭力和市場占有率正在增強。然而，市場仍需關注公司未來的營收預期和業績表現。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8ccbe09c",
+        "title": "由田：半導體布局多箭齊發 今年營收衝至50％以上",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5395737",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 07 Apr 2026 14:22:38 +0800",
+        "summary_zh": "由田公司正深耕先進封裝AOI檢測與量測設備，產品線已可完整對應晶圓級、面板級，以及封裝後單顆檢測需求。隨著半導體先進製造需求快速攀升，公司的營收預期將在今年衝至50％以上。由田公司的這一布局是為了應對持續演進的封裝製造技術，同時也為客戶提供更高效的製造流程。這一發展對於台灣半導體業界的競爭力和全球市場的份額都有重要影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "3bee73ed",
         "title": "善商控股創辦人小川賢太郎過世 打造食其家等餐飲王國",
         "url": "https://www.cna.com.tw/news/aopl/202604070122.aspx",
@@ -588,8 +672,8 @@
         "published_at": "Tue, 07 Apr 2026 13:11:07 +0800",
         "summary_zh": "日本善商控股旗下擁有食其家（SUKIYA）、濱壽司等多個連鎖餐飲品牌。創辦人暨董事長小川賢太郎因心肌梗塞過世，享壽77歲。小川賢太郎在餐飲業界有豐富的經驗，於1970年代創辦了善商控股，後來打造出多個成功的餐飲品牌。食其家是其中一個代表品牌，全球有超過1,000家分店。小川賢太郎的去世將對餐飲業界產生影響，未來將觀察到如何對善商控股和食其家等品牌的發展產生影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "0bebb70c",
@@ -600,8 +684,8 @@
         "published_at": "Tue, 07 Apr 2026 12:25:24 +0800",
         "summary_zh": "電動車廠特斯拉在台推出「油轉電換購補貼」方案，針對第2季新購及油車換購車主。這項措施是因應國際油價飆升走勢，鼓勵車主轉換至電動車。根據特斯拉的數據，3月交付5421輛新車，Model Y單一車款橫跨台灣全車種新車銷售冠軍。這表明電動車在台灣的需求正在增長。特斯拉的這項補貼方案可能會對電動車的推廣產生正面影響，同時也會對油車市場造成一定的影響。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "4cc99774",
@@ -612,8 +696,8 @@
         "published_at": "Tue, 07 Apr 2026 12:12:16 +0800",
         "summary_zh": "中東地緣政治緊張持續，影響了全球海運。荷莫茲海峽通行受限及潛在封鎖風險，使得亞洲主要海運港口壅塞情況升溫。這也波及鐵路與公路運輸，整體物流成本因此上升。隨著運力收緊，航空公司陸續調整燃油附加費，空運價格獲得支撐。這種情況下，企業和消費者都會受到影響。海運塞港會導致貨物運輸時間延長，增加運輸成本。這些成本將會被轉嫁給最終消費者。另一方面，空運價格的上升也會對航空公司和旅客造成影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "1341735f",
@@ -624,8 +708,8 @@
         "published_at": "Tue, 07 Apr 2026 12:12:14 +0800",
         "summary_zh": "工業技術研究院院長張培仁宣布，工研院與美國無人機產業協會正式簽署合約，將在台灣建立綠色無人機測試系統。這是全球首例在美國本土以外建立的綠色無人機測試系統，也是目前唯一的無人機「非紅供應鏈」測試驗證制度據點。這項合作將促進台灣成為無人機產業的重要據點，並推動綠色無人機的發展。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "3e3045b6",
@@ -650,191 +734,33 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "897728ef",
-        "title": "台積電漲35元 台股漲勢收斂拚站穩33000點",
-        "url": "https://www.cna.com.tw/news/afe/202604070066.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 07 Apr 2026 11:21:06 +0800",
-        "summary_zh": "台股今天盤中高點達33264.22點，漲691.79點，隨後漲勢收斂，力拚站穩33000點關卡。台積電盤中達1845元，漲35元，最高漲至1855元。投資人淡化美伊戰事升級疑慮，美股收紅，對台股產生正面影響。台股的漲勢收斂，表明投資人正在觀察市場情況，準備站穩33000點關卡。這一關卡的穩定對於台股的整體走勢有重要影響。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "de5d9566",
-        "title": "台彩推4款刮刮樂新品 總獎金逾19.7億元",
-        "url": "https://www.cna.com.tw/news/ahel/202604070057.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 07 Apr 2026 11:02:47 +0800",
-        "summary_zh": "台灣彩券公司宣布推出4款刮刮樂新品，包括『獎金獵人』、『一觸即發』、『幸運拉霸』、『幸運777』。這4款新品的售價在新台幣100元至200元之間，總共有超過555萬個獎項，總獎金達到逾19.7億元。這項新品的推出將為彩民帶來更多的選擇和機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e04a3d5a",
-        "title": "三星電子首季營業利潤創歷史新高",
-        "url": "https://www.cna.com.tw/news/aopl/202604070033.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 07 Apr 2026 09:55:55 +0800",
-        "summary_zh": "三星電子預估2026年第一季營業利潤將達57.2兆韓元，遠超市場先前預期的40.6兆韓元，創下歷史新高。這個數字比去年同期的6.69兆韓元暴增755%，遠超市場預期。三星電子這項預估的出現，與其在人工智慧和半導體領域的業務成長有關。這項成長對於三星電子來說是一個重要的里程碑，同時也表明公司在這些領域的競爭力和市場占有率正在增強。然而，這項預估也引發了對公司未來業務發展的關注，市場將密切關注三星電子是否能夠維持這項成長趨勢。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b2dd81c4",
-        "title": "台積電股價大幅上漲 市值突破47兆元大關",
-        "url": "https://www.cna.com.tw/news/afe/202604070029.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 07 Apr 2026 09:26:46 +0800",
-        "summary_zh": "台積電股價在美股主要指數全面收高的情況下同步走高，今天開盤跳空達1850元，上漲40元，市值回升至新台幣47.97兆元。這次上漲是由於台積電美國存託憑證（ADR）上漲0.8%，表明台積電在國際市場的表現良好。這次股價上漲將對台積電的市值帶來重大影響，同時也會對整體股市產生一定的影響。然而，市場仍需要觀察台積電未來的表現，以確定這次上漲是否會持續。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "53e7cb24",
-        "title": "台股早盤漲逾600點 越過33000點",
-        "url": "https://www.cna.com.tw/news/afe/202604070028.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 07 Apr 2026 09:24:44 +0800",
-        "summary_zh": "台股在連續假期後今天早盤大幅上揚，漲幅超過600點，首次越過33000點。雖然美國總統川普態度多變，中東戰事仍未解決，但美股昨天收紅，影響台股市場。這次台股的上揚可能與市場對於美股的反彈以及台股的低點買盤有關。市場分析師認為，台股的上揚是短期內的趨勢，但長期來看，市場仍需要關注全球經濟的發展和台股的基本面。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ad4e819d",
-        "title": "新台幣開盤升5.2分，達31.92元",
-        "url": "https://www.cna.com.tw/news/afe/202604070025.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 07 Apr 2026 09:05:38 +0800",
-        "summary_zh": "台北外匯市場新台幣兌美元匯率今天以31.92元開盤，升5.2分。這是近期新台幣升值的趨勢。市場分析人士認為，這可能與台幣供應量的調整有關。新台幣升值對於出口企業有利，可能會促進出口業的發展。然而，升值也可能對於進口企業造成壓力。隨著新台幣的升值，外資可能會持續流入台幣市場。這將對台幣匯率產生持續的影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "51201704",
-        "title": "台股開盤漲99.09點",
-        "url": "https://www.cna.com.tw/news/afe/202604070024.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 07 Apr 2026 09:04:35 +0800",
-        "summary_zh": "台北股市今天開盤出現明顯的上漲趨勢，指數上升至32671.52點，成交金額達新台幣59.51億元。這一波上漲可能與市場對經濟前景的樂觀預期有關，投資者對未來的投資意欲增強。然而，市場的波動性仍然很高，投資者需要保持謹慎的態度。台股的上漲也可能受到外部因素的影響，例如全球經濟的變化和美元的走勢。投資者需要密切關注市場的變化和趨勢。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b838e93e",
-        "title": "中東變局下美股收紅 法人：台股為整理格局",
-        "url": "https://www.cna.com.tw/news/afe/202604070021.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 07 Apr 2026 08:31:28 +0800",
-        "summary_zh": "中東戰事的變局對全球股市產生了重大影響，美股在這波變局下收紅。台積電的ADR上揚近1%，表明市場對這家科技巨頭的信心仍然存在。然而，專家認為，台股相對美股位階較高，目前的走勢是整理格局。上週四台股走低，收盤失守短期均線，這表明市場可能正在整理資金。後續台股仍將受中東戰事消息面影響，投資者需要注意行情的波動。下週台積電將舉行法說會，可能會對市場產生影響。然而，中東戰事的消息每日都在變，投資者需要保持警惕。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "c6f33eab",
-        "title": "威爾士堡買下愛爾蘭質量控制公司Lotusworks",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-06/bureau-veritas-buys-irish-quality-control-business-lotusworks",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-06 18:00:00",
-        "summary_zh": "威爾士堡（Bureau Veritas）宣布收購愛爾蘭質量控制公司Lotusworks。這項交易將進一步增強威爾士堡在全球質量控制領域的競爭力。Lotusworks是一家專門提供質量控制和檢測服務的公司，主要客戶來自食品、藥物和生物技術等行業。威爾士堡表示，這項收購將為客戶提供更完整的質量控制解決方案。這項交易的具體細節尚未公布，但預計將在未來的財務報告中披露。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "d76cdcb3",
-        "title": "美國專利局新政策可能重塑海外公司對美國專利挑戰",
-        "url": "https://www.reuters.com/legal/legalindustry/new-ptab-discretionary-denial-policy-may-reshape-patent-challenges-by-overseas--pracin-2026-04-06/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-06 17:53:10",
-        "summary_zh": "美國專利局局長發表了一份備忘錄，新增判斷是否應該對美國專利進行間接審查的因素。這可能會對海外公司對美國專利的挑戰產生重大影響。 Banner Witcoff 的 Hengyi Jiang 表示，這項新政策可能會重塑美國專利挑戰的格局。美國專利局的新政策可能會對海外公司的專利挑戰產生重大影響，海外公司需要密切關注這項政策的變化。這項政策的變化可能會對美國的專利市場產生重大影響。美國專利局的新政策可能會對海外公司的專利挑戰產生重大影響，海外公司需要準備好應對這項政策的變化。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "0b0dde6c",
-        "title": "仍然是每日上班的巴菲特：專家們說，當前任老闆變成你的下屬時該如何處理",
-        "url": "https://www.cnbc.com/2026/04/06/buffett-abel-berkshire-hathaway-former-boss-now-reports-to-you.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-04-06 17:51:58",
-        "summary_zh": "巴菲特仍然每天到辦公室上班，展現了一個令人好奇的局面：領導者在公司內再次出現。這種情況下，前任老闆變成你的下屬，如何處理這種情況？專家們表示，這種情況下，領導者需要學會適應新的角色，並且要有足夠的自我控制能力。同時，老闆也需要學會如何與前任老闆合作，建立信任和有效的溝通。這種情況下，領導者需要學會如何平衡自己的權威和新任老闆的需求，同時也需要學會如何與前任老闆合作，建立信任和有效的溝通。最終，領導者需要學會如何適應新的角色，並且要有足夠的自我控制能力。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "cd3b2770",
-        "title": "日本企業併購潮將持續，Alvarez & Marsal的Aversano表示",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-06/japan-m-a-momentum-to-persist-alvarez-marsal-s-aversano-says",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-06 17:45:38",
-        "summary_zh": "日本企業併購潮正在持續加溫，Alvarez & Marsal的合夥人Aversano表示，日本企業正在加速進行海外併購。根據Aversano的分析，日本企業的併購潮將持續至今年年底，甚至可能延伸到明年。這是因為日本企業正試圖擴大業務、增強競爭力和進入新的市場。Aversano指出，日本企業正在轉型為全球企業，正在積極進行海外投資和併購。這將對全球經濟產生重大影響，特別是在亞太地區。日本企業的併購潮將對當地企業和投資者造成重大影響，投資者應該密切關注這一趨勢。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "87980374",
-        "title": "州政府考慮放寬氣候法令以應對高能源價格",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-04-06/state-lawmakers-weigh-weakening-climate-laws-as-iran-war-drives-up-energy-prices",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-06 17:44:22",
-        "summary_zh": "在高能源價格的壓力下，美國各州政府正在考慮是否應該放寬氣候法令。這些法令旨在減少氣候變化的影響，但也可能導致能源價格上升。州政府正在努力找到平衡點，既要保護環境，又要確保能源供應穩定。這一變化可能會對能源產業和環保組織產生重大影響。同時，政府也需要考慮到這些政策變化對民眾的影響。氣候變化和能源價格的問題已經成為美國政治和經濟的重要議題。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "278be86c",
-        "title": "塞德利律師事務所聘請克拉夫特合夥人領導科技資本市場實踐",
-        "url": "https://www.reuters.com/legal/legalindustry/sidley-taps-cravath-partner-lead-tech-capital-markets-practice-2026-04-06/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-06 17:43:44",
-        "summary_zh": "塞德利律師事務所宣布聘請克拉夫特律師事務所的合夥人擔任科技資本市場實踐的領導人。這項任命是塞德利律師事務所在科技領域的最新發展，該實踐將負責協助科技公司在資本市場上進行融資和上市等業務。塞德利律師事務所的這項任命表明了該公司對科技領域的重視和投資。這項任命將對塞德利律師事務所的業務和影響力產生重要影響。塞德利律師事務所將繼續在科技領域保持競爭力和領先地位。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a995c212",
-        "title": "舊金山房價創新高達2.15萬美元　AI業績火紅",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-06/san-francisco-house-prices-hit-record-2-15-million-on-ai-boom",
-        "source": "Bloomberg Tech",
-        "category": "finance",
-        "published_at": "Mon, 06 Apr 2026 14:49:59 GMT",
-        "summary_zh": "由於人工智慧技術的爆炸性增長，舊金山的房價已經創下新高，達到2.15萬美元。這種情況下，房價的上升主要是由於AI技術的需求增加所致。許多科技公司都在這個地區設立了據點，吸引了大量的AI人才。這種趨勢不僅影響了舊金山的房市，也對整個灣區的房價產生了影響。許多分析師認為，這種情況可能會持續下去，直到AI技術的需求減少為止。然而，對於那些正在尋找一個適合的住所的人來說，這種情況可能會導致房價的上升，使得購買房產變得更加困難。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "stock_us": [
+      {
+        "id": "8cb517eb",
+        "title": "標準普爾 500 指數欲延續勝利 — 附一家關鍵企業財務長更替",
+        "url": "https://www.cnbc.com/2026/04/06/sp-500-aims-to-extend-win-streak-plus-a-cfo-switch-at-one-of-our-key-names.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-06 18:24:54",
+        "summary_zh": "標準普爾 500 指數近日表現出色，投資人對其未來走勢充滿期待。然而，市場關注點不僅僅在於指數本身，還有許多企業正在經歷著重要變化。其中一家企業的財務長更替，引起了市場的關注。投資人需要密切關注這些變化，以便做出明智的投資決策。市場分析師預測，標準普爾 500 指數將繼續保持強勁表現，但投資人需要保持警惕，隨時準備面對市場的變化。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "306a9402",
+        "title": "華爾街研究公司派員前往霍爾木茲海峽，親眼目睹海上貨物活動",
+        "url": "https://www.cnbc.com/2026/04/06/wall-street-firm-sends-analyst-to-the-strait-of-hormuz-heres-what-they-found-out.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-06 18:51:33",
+        "summary_zh": "華爾街研究公司Citrini Research派遣分析師前往阿曼的穆桑達姆半島，乘船前往霍爾木茲海峽，親眼目睹海上貨物活動。這項行動是為了收集第一手資料，了解海峽的海上貨物活動情況。分析師的目睹結果將有助於公司對全球貿易市場進行更準確的評估。這項行動也顯示了公司對全球貿易市場的深入了解和分析能力。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "92709097",
         "title": "美聯儲官員稱通膨已經達到「橙色警戒」或更糟",
@@ -844,8 +770,8 @@
         "published_at": "2026-04-06 17:41:47",
         "summary_zh": "美聯儲克里夫蘭分行總裁Beth Hammack和芝加哥分行總裁Austan Goolsbee都認為通膨比就業率更為嚴重，強調支持收緊而非放鬆貨幣政策。隨著伊朗戰爭對能源價格和就業市場施加上行壓力，兩位官員的看法顯示通膨已經達到「橙色警戒」或更糟的狀態。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "df177619",
@@ -906,15 +832,53 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "d07d6755",
+        "title": "CNBC點評專欄：如何合理使用信用卡積分",
+        "url": "https://www.cnbc.com/select/best-time-to-use-credit-card-points/",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-04-06 18:49:22",
+        "summary_zh": "在現代生活中，積分卡成為越來越多人的生活工具。然而，很多人只知道如何積分，卻不知道如何合理使用積分。點評專欄的Jason Stauffer指出，積分卡的使用需要有明確的計畫。這樣才能最大化積分的價值。根據Jason的建議，積分卡的使用應該根據個人的需求和目標進行規劃。例如，如果你需要購買特定的商品或服務，積分卡可以幫助你節省成本。另一方面，如果你需要償還債務，積分卡可以幫助你償還債務。因此，積分卡的使用需要有明確的計畫和目標。只有這樣才能最大化積分的價值。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
-        "id": "2b4b344d",
-        "title": "摩根大通戴蒙：伊朗戰爭恐推高通膨 Fed延後降息",
-        "url": "https://www.cna.com.tw/news/aopl/202604070049.aspx",
-        "source": "中央社財經",
-        "category": "stock_us",
-        "published_at": "Tue, 07 Apr 2026 10:42:29 +0800",
-        "summary_zh": "摩根大通執行長戴蒙在年度信函中表示，伊朗爆發戰爭可能導致全球能源市場動盪，對美國經濟產生影響。雖然美國經濟表現「韌性十足」，但戴蒙認為有可能再度面臨通膨壓力。這可能會使聯邦儲備委員會(Fed)延後降息。伊朗戰爭的爆發將對全球能源市場造成重大影響，可能導致油價上升，進而推高通膨率。戴蒙的評估表明，美國經濟可能面臨新的挑戰，需要Fed的適當調整。",
+        "id": "bff552c9",
+        "title": "美國石油開採商料增加原油產量受霍爾木茲灣油價上漲影響",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/us-shale-drillers-to-increase-oil-production-as-iran-war-lifts-crude-prices",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-06 18:48:40",
+        "summary_zh": "美國石油開採商料在霍爾木茲灣油價上漲的推動下增加原油產量。根據市場分析師的預測，美國石油開採商將在今年下半年增加原油產量。霍爾木茲灣是全球最重要的石油輸出通道，近期因地緣政治緊張局勢而導致原油價格上漲。美國石油開採商的產量增加將對全球原油市場產生影響，可能會壓低原油價格。市場分析師預測，今年下半年美國石油開採商的產量將增加 100 萬桶/日。這將是美國石油開採商自 2019 年以來產量增加最快的一年。美國石油開採商的產量增加將是全球原油市場的一個重要變數，將對全球經濟和能源市場產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c6f33eab",
+        "title": "威爾士堡買下愛爾蘭質量控制公司Lotusworks",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/bureau-veritas-buys-irish-quality-control-business-lotusworks",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-06 18:00:00",
+        "summary_zh": "威爾士堡（Bureau Veritas）宣布收購愛爾蘭質量控制公司Lotusworks。這項交易將進一步增強威爾士堡在全球質量控制領域的競爭力。Lotusworks是一家專門提供質量控制和檢測服務的公司，主要客戶來自食品、藥物和生物技術等行業。威爾士堡表示，這項收購將為客戶提供更完整的質量控制解決方案。這項交易的具體細節尚未公布，但預計將在未來的財務報告中披露。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a995c212",
+        "title": "舊金山房價創新高達2.15萬美元　AI業績火紅",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/san-francisco-house-prices-hit-record-2-15-million-on-ai-boom",
+        "source": "Bloomberg Tech",
+        "category": "finance",
+        "published_at": "Mon, 06 Apr 2026 14:49:59 GMT",
+        "summary_zh": "由於人工智慧技術的爆炸性增長，舊金山的房價已經創下新高，達到2.15萬美元。這種情況下，房價的上升主要是由於AI技術的需求增加所致。許多科技公司都在這個地區設立了據點，吸引了大量的AI人才。這種趨勢不僅影響了舊金山的房市，也對整個灣區的房價產生了影響。許多分析師認為，這種情況可能會持續下去，直到AI技術的需求減少為止。然而，對於那些正在尋找一個適合的住所的人來說，這種情況可能會導致房價的上升，使得購買房產變得更加困難。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
