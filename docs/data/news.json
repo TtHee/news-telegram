@@ -1,61 +1,231 @@
 {
-  "generated_at": "2026-04-10T02:04:12.410712+08:00",
+  "generated_at": "2026-04-10T03:04:10.309169+08:00",
   "risk_signals": [
     "🟢 台股加權 34761.38（正常）",
-    "🟢 S&P 500 6817.74（正常）",
-    "🟢 VIX 恐慌指數 19.73（正常）",
+    "🟢 S&P 500 6820.05（正常）",
+    "🟡 VIX 恐慌指數 20.01（留意）",
     "🟢 MOVE 債市波動 78.74（正常）",
-    "🟢 美元指數 98.7（正常）",
-    "🟢 黃金 4822.0（正常）",
-    "🟢 美債10Y殖利率 4.27（正常）",
-    "🟢 原油 WTI 96.33（正常）",
-    "🟢 美元/台幣 31.74（正常）"
+    "🟢 美元指數 98.8（正常）",
+    "🟢 黃金 4795.4（正常）",
+    "🟢 美債10Y殖利率 4.29（正常）",
+    "🟡 原油 WTI 98.48（漲 +4.31%，留意）",
+    "🟢 美元/台幣 31.75（正常）"
   ],
-  "ai_summary": "市場指標顯示整體趨勢穩定，沒有明顯的恐慌跡象。台股和美股均出現微幅上漲，表明投資人對市場持續樂觀態度。",
+  "ai_summary": "市場呈現穩定氣氛，但需留意原油價格上漲和VIX恐慌指數偏高，可能預示市場風險上升。",
   "market": {
     "TWII": {
       "price": 34761.38,
       "change_pct": 4.61
     },
     "SP500": {
-      "price": 6817.74,
-      "change_pct": 0.51
+      "price": 6820.05,
+      "change_pct": 0.55
     },
     "NASDAQ": {
-      "price": 22769.32,
-      "change_pct": 0.59
+      "price": 22782.8,
+      "change_pct": 0.65
     },
     "VIX": {
-      "price": 19.73,
-      "change_pct": -6.23
+      "price": 20.01,
+      "change_pct": -4.9
     },
     "TNX": {
-      "price": 4.27,
-      "change_pct": -0.54
+      "price": 4.29,
+      "change_pct": 0.0
     },
     "MOVE": {
       "price": 78.74,
       "change_pct": -5.3
     },
     "DXY": {
-      "price": 98.7,
-      "change_pct": -0.34
+      "price": 98.8,
+      "change_pct": -0.23
     },
     "GOLD": {
-      "price": 4822.0,
-      "change_pct": 1.53
+      "price": 4795.4,
+      "change_pct": 0.97
     },
     "OIL": {
-      "price": 96.33,
-      "change_pct": 2.03
+      "price": 98.48,
+      "change_pct": 4.31
     },
     "USDTWD": {
-      "price": 31.74,
-      "change_pct": -0.48
+      "price": 31.75,
+      "change_pct": -0.46
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "e82a6443",
+        "title": "第一夫人梅拉尼婭·川普發表聲明",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-statement/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Apr 2026 18:59:01 +0000",
+        "summary_zh": "第一夫人梅拉尼婭·川普在一份聲明中表示，對於與Jeffrey Epstein有關的謊言需要立即停止。那些對她謊言的人缺乏道德標準、謙逊和尊嚴。梅拉尼婭·川普不反對他們的無知，但拒絕了他們對她的名譽進行惡意攻擊的企圖。她強調自己從未與Epstein成為朋友。聲明中還提到她的丈夫川普，但名字未被提及。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "39f11a91",
+        "title": "安提貢時期結束：特朗普總統恢復移民法庭的法治",
+        "url": "https://www.whitehouse.gov/releases/2026/04/era-of-amnesty-is-over-president-trump-restores-rule-of-law-to-immigration-courts/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Apr 2026 17:42:32 +0000",
+        "summary_zh": "自從特朗普總統回任以來，美國展開了史上最激進成功的移民執法改革，移民法庭也不例外。四年前拜登政府的混亂讓移民法庭變成無限制的庇護機制，讓未經審核的非法移民獲得無限制的庇護。然而，特朗普政府正試圖重建這個破碎的系統。根據白宮的說法，這是史上最激進成功的移民執法改革。這項改革旨在恢復移民法庭的法治，防止未經審核的非法移民獲得庇護。這項改革將對美國的移民政策產生重大影響，將會對未經審核的非法移民造成嚴厲的懲罰。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "cbc1e692",
+        "title": "白宮CEQ發佈指南：簡化NEPA審查程序",
+        "url": "https://www.whitehouse.gov/releases/2026/04/ceq-issues-guidance-on-categorical-exclusions/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Apr 2026 16:13:58 +0000",
+        "summary_zh": "白宮環境質量評估委員會（CEQ）今天發佈了一份新指南，規範聯邦部門和機構如何根據國家環境政策法案（NEPA）建立、修訂、採用和適用類別排除（CE）。這份指南旨在釋放基礎設施項目免於過度許可的困擾。根據這份指南，聯邦部門和機構可以根據NEPA的規定，自行決定是否需要進行環境影響評估。這一新指南將大大簡化NEPA審查程序，幫助基礎設施項目更快地推動。這一措施將對美國的基礎設施建設產生重大影響，促進美國的經濟發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "318f8a8d",
+        "title": "美國250週年：總統對於阿波馬托克斯投降週年的致辭",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/america-250-presidential-message-on-the-anniversary-of-the-surrender-at-appomattox/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Apr 2026 14:30:27 +0000",
+        "summary_zh": "美國總統在美國250週年紀念日的致辭中，回顧了美國內戰的歷史。四年來的內戰帶來了無數的苦難、犧牲和悲劇，但最終在阿波馬托克斯法院，羅伯特·李將軍正式向尤利西斯·格蘭特將軍投降，結束了戰爭，治癒了分裂的傷口，並恢復了美國的榮光。這一歷史事件標誌著聯邦的勝利，為美國的未來開闢了道路。總統的致辭呼籲美國人們共同慶祝這一重要里程碑，並致力於促進和解和團結。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "43b43790",
+        "title": "總統對於國家前戰俘認可日的致辭",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-national-former-prisoner-of-war-recognition-day/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Apr 2026 14:29:26 +0000",
+        "summary_zh": "今天是國家前戰俘認可日，總統致辭表示，將永遠堅守承諾，不會讓任何戰士被遺忘，將帶回戰爭或衝突中失蹤的靈魂。這一天，總統致意於所有曾經遭受敵對勢力的囚禁的美軍士兵，他們在戰爭中承受了無數的苦難。總統的政府將不斷努力，確保所有戰俘都能得到尊嚴的對待和適當的照顧。這一致辭表明了總統對於戰俘的關心和承諾，同時也向所有曾經受苦的戰俘致敬。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "37cbf878",
+        "title": "總統致贈美國馬斯特斯錦標賽賀詞",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-masters-tournament/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Apr 2026 14:27:47 +0000",
+        "summary_zh": "美國總統在馬斯特斯錦標賽的90周年之際，致贈賀詞。這項錦標賽以其美景和挑戰性而聞名，成為美國精神的象徵。每年春天，球員們在這個美景如畫的球場上展現他們的才華、毅力和辛勞。總統夫婦對參賽者們致以最誠摯的祝福。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "07e094f5",
+        "title": "2027財政年度削減預算命令根據《平衡預算和緊急赤字控制法》第251條",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/04/sequestration-order-for-fiscal-year-2027-pursuant-to-section-251a-of-the-balanced-budgetand-emergency-deficit-control-act-as-amended/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 08 Apr 2026 21:25:47 +0000",
+        "summary_zh": "美國總統根據《平衡預算和緊急赤字控制法》第251條的授權，發布命令，於2026年10月1日實施2027財政年度的直接支出預算資源削減。這項命令是為了控制美國的赤字問題，根據《平衡預算和緊急赤字控制法》，政府必須實施削減預算的措施，以達到平衡預算的目標。這項命令將對美國政府的預算產生重大影響，可能會影響到各個政府部門的資源分配和支出。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7db579fa",
+        "title": "「 Ketamine 女王」被判15年監禁 Matthew Perry 過量服用藥物致死",
+        "url": "https://www.bbc.com/news/articles/c6258qe1yl0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 08 Apr 2026 19:34:29 GMT",
+        "summary_zh": "加拿大女孩Jasveen Sangha因販售毒品而被判處15年監禁。原因是她販售的毒品導致好友Friends演員Matthew Perry過量服用藥物而死亡。Matthew Perry曾經多年來與毒癮鬥爭。這起事件引起了社會關注，許多人對毒品販售和濫用問題表示憂慮。這起案件也提醒我們，毒品販售和濫用對個人的生命和家庭造成了嚴重的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5135ad78",
+        "title": "JD Vance 領導美國團隊與伊朗在巴基斯坦進行談判",
+        "url": "https://www.bbc.com/news/articles/c248ljegn6lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 08 Apr 2026 19:17:21 GMT",
+        "summary_zh": "美國已宣布取得軍事勝利，但與伊朗在巴基斯坦進行的談判細節仍不明朗。美國政府正在與伊朗進行談判，試圖達成和平協議。這項談判的具體細節尚未公開，但已知美國政府已經派遣代表團前往巴基斯坦與伊朗進行會面。美國政府的目標是與伊朗達成一個能夠解決兩國間長期存在的爭端的協議。然而，伊朗方面的立場尚未明確，美國政府對於談判的前景仍存疑慮。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7352b120",
+        "title": "民主黨力推通過伊朗戰爭權限決議案，指責川普『失控行為』",
+        "url": "https://www.theguardian.com/us-news/live/2026/apr/09/democrats-war-powers-resolution-iran-republicans-melania-donald-trump-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Apr 2026 18:37:11 GMT",
+        "summary_zh": "民主黨領袖哈基姆·傑佛瑞 (Hakeem Jeffries) 將利用臨時會議的機會，試圖通過一項決議案，要求川普總統撤出美軍從中東。這項決議案旨在限制川普對伊朗的軍事行動。民主黨人批評川普的行為『失控』，並指責他對伊朗的威脅，將導致更多的戰爭和血腥。川普總統在與北約秘書長會面之前，發表了對北約的批評，並暗示他可能會再次試圖佔領格陵蘭島。同時，他也與前盟友馬吉里·泰勒·格林 (Marjorie Taylor Greene) 進行社交媒體戰。美國副總統 JD Vance 表示，他不認識梵蒂岡駐美大使 (Vatican ambassador to the US)，並否認美國國防部官員批評梵蒂岡駐美大使的報導。美國國防部發言人彼得·赫格塞斯 (Pete Hegseth) 表示，伊朗『跪求』了這次停火，同時他也聲稱，美國的軍事行動『徹底摧毀』了伊朗的軍事力量。美國司法部宣布，FBI 進行了對軍事退伍兵科特尼·威廉斯 (Courtney Williams) 的逮捕。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "06270c9c",
+        "title": "RFK Jr 關係人在密西西比州推動放寬疫苗規則，麻腫病急劇上升，嬰兒死亡",
+        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/apr/09/rfk-jr-mississippi-rollback-school-vaccine-rules",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Apr 2026 17:36:37 GMT",
+        "summary_zh": "密西西比州曾經在美國兒童疫苗接種率方面取得了顯著的成績，甚至在其他健康指標中排名垫底。然而，2023 年一名聯邦法官下令放寬該州對兒童的疫苗規則，對一些醫生來說，這是一個沉重的打擊。這項變革的推動者之一是兩名與美國衛生部長RFK Jr有密切關係的男子。該州的放寬規則導致麻腫病的發生率急劇上升，甚至導致一名嬰兒死亡。這種情況引起了醫學界的關注和擔憂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "377c5649",
+        "title": "民主黨力推限制川普對伊朗戰權的法案",
+        "url": "https://www.theguardian.com/us-news/2026/apr/09/house-democrats-trump-war-powers-resolution-iran",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Apr 2026 16:33:36 GMT",
+        "summary_zh": "民主黨將於星期四通過一項決議，限制川普總統對伊朗的戰爭權限。儘管共和黨人將很可能阻止這項決議通過，但這表明國會對中東衝突的擔憂。伊朗和美國近期達成停火協議，但沒有明確的結束時間。民主黨人將使用無異議通過的程序，讓決議通過 chamber，無需辯論或正式計票。但是，共和黨人預計會反對這項決議。這項決議的通過將表明國會對中東衝突的擔憂。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7308f3f1",
+        "title": "被控發動美國火彈襲擊案嫌犯與支持對抗巴勒斯坦人團體有關",
+        "url": "https://www.theguardian.com/us-news/2026/apr/09/jdl-613-jewish-extremist-organization",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Apr 2026 11:00:47 GMT",
+        "summary_zh": "美國一名男子被控策劃對一名支持巴勒斯坦的活動家的家進行火彈襲擊。調查發現，這名男子與一群領袖支持對抗巴勒斯坦人並且與一名被定罪的恐怖份子有關的團體有關。該團體的錄影顯示其領袖對紐約市長佐蘭·馬曼迪尼 (Zohran Mamdani) 有著強烈的反感，並且稱他為「穆斯林恐怖份子」、「惡性腫瘤」和「美國伊斯蘭化的先兆」。這名男子被控策劃的襲擊事件可能與這群領袖的極端觀點有關。這個事件引起了關注，尤其是在美國的政治和社會環境中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bf03d7ad",
+        "title": "夏威夷醫生被控試圖殺害妻子被判犯有未遂謀殺罪",
+        "url": "https://www.theguardian.com/us-news/2026/apr/08/hawaii-doctor-wife-murder-guilty-attempted-manslaughter",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Apr 2026 02:13:30 GMT",
+        "summary_zh": "夏威夷一名麻醉科醫生，47歲的格哈德特·柯尼格（Gerhardt Konig），被指控在去年夏威夷的一次生日旅行中，試圖在山坡上殺害他的妻子。這名醫生被控犯有未遂謀殺罪，而不是原先指控的謀殺罪。星期三，夏威夷的一名陪審團在審判後的一天內，做出了對柯尼格的判決。這名醫生被控在去年夏威夷的一次生日旅行中，試圖殺害他的妻子。這起案件的背景是，柯尼格夫婦在夏威夷的山坡上進行一場生日旅行，期間柯尼格被指控試圖殺害他的妻子。這起案件的關鍵細節是，柯尼格被指控使用某種方法試圖殺害他的妻子，但最終未成功。這起案件的影響分析是，這起案件對於夏威夷的醫療界和家庭暴力問題都有重要的影響。這起案件的後續展望是，這名醫生將會面臨懲罰，並且可能會對他的醫療生涯和家庭造成不利影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "global": [
       {
         "id": "175d9b0b",
@@ -66,19 +236,7 @@
         "published_at": "Thu, 09 Apr 2026 16:06:39 GMT",
         "summary_zh": "伊朗長期遭受戰爭的影響，兒童是最大的受害者。BBC獲得了來自父母和幫助兒童處理戰爭帶來的創傷的證詞。伊朗兒童面臨著不斷的恐懼和創傷，無法逃避戰爭的陰影。即使戰鬥停止，兒童的傷害仍將持續，需要長期的幫助和支持。伊朗政府和國際社會應該關注兒童的福祉和安全，提供必要的資源和幫助。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "e7a057b0",
-        "title": "阿特米斯號宇航員返回地球帶回月球發現的「好東西」",
-        "url": "https://www.bbc.com/news/articles/c70dr45dj1lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 09 Apr 2026 05:57:18 GMT",
-        "summary_zh": "阿特米斯號宇宙任務結束，四名宇航員將返回地球。據宇航員表示，他們將帶回許多新的照片和故事。這次任務是為了探索月球，了解月球的表面和內部結構。宇航員們在月球表面停留了幾天，進行了多項科學實驗和探測任務。這些發現將為科學家和工程師提供寶貴的資訊，幫助他們更好地了解月球和太空。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -89,6 +247,18 @@
         "category": "global",
         "published_at": "Fri, 10 Apr 2026 00:39:03 +0800",
         "summary_zh": "全球股市今天多半下挫，歐洲三大股市都收黑。投資人擔憂中東停火協議能否維持，同時也關注荷莫茲海峽是否能夠全面重啟。倫敦FTSE 100指數小跌0.05%，而其他歐洲股市也表現不佳。這些下挫的表現與投資人對中東局勢的不確定性有關。荷莫茲海峽是全球石油輸送的重要通道，停火協議的不確定性使得投資人感到擔憂。這種擔憂會對全球股市產生重大影響，目前投資人仍在觀察中東局勢的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6f254f59",
+        "title": "伊朗戰爭推動埃及通膨率達逾 5 年來最高",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/iran-war-drives-egyptian-inflation-rate-to-highest-since-may",
+        "source": "Bloomberg",
+        "category": "global",
+        "published_at": "2026-04-09 06:53:40",
+        "summary_zh": "伊朗戰爭對埃及造成重大影響，埃及通膨率已經達到逾 5 年來的最高點。根據最新數據，埃及通膨率已經升至 35.05%，遠超過 2022 年 5 月的 33.3%。這一數字表明埃及經濟正面臨嚴重挑戰。伊朗戰爭導致埃及進口成本大幅增加，包括糧食和燃料等基本商品。埃及政府正在努力控制通膨率，包括調整價格和稅收政策。然而，通膨率的上升仍然對埃及人民造成重大影響，包括購買力下降和生活成本上升。伊朗戰爭的持續影響將對埃及經濟造成持續的壓力。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
@@ -150,8 +320,8 @@
         "published_at": "Thu, 09 Apr 2026 15:05:15 GMT",
         "summary_zh": "法國極右翼政黨國民陣線的總統候選人喬丹·巴德拉拉（Jordan Bardella）近日在科西嘉島的一個海灘上與義大利波旁-兩西西里王朝的公主瑪麗亞·卡羅琳娜（Princess Maria Carolina of Bourbon-Two Sicilies）被拍到一起。這一照片引發了對巴德拉拉的關注，因為他被視為法國極右翼政黨的領袖之一。這一事件也引發了對巴德拉拉政治立場的質疑。巴德拉拉的政黨被認為是法國極右翼政黨之一，而他本人也被視為是法國極右翼政黨的領袖之一。這一事件也引發了對法國政治的關注。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "47f564f3",
@@ -219,7 +389,7 @@
         "url": "https://www.bbc.com/news/articles/cq6j0rnvlzeo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Thu, 09 Apr 2026 13:49:04 GMT",
+        "published_at": "Thu, 09 Apr 2026 18:27:14 GMT",
         "summary_zh": "石油價格近日出現波動，美國與伊朗停火協議的簽署引發了市場的關注。雖然最初預計停火協議將會暫停戰事，但美國與伊朗之間的緊張關係仍未完全消除。石油價格在星期三出現了大幅下跌，但隨著停火協議的簽署，石油價格又開始上漲。市場分析師認為，停火協議的簽署對石油價格的影響不大，主要是因為市場對停火協議的可靠性存疑。美國與伊朗之間的緊張關係仍然存在，市場仍然對未來的發展感到擔憂。",
         "sentiment": "負面",
         "is_breaking": true,
@@ -238,13 +408,25 @@
         "ai_classified": true
       },
       {
-        "id": "36cfc6ef",
-        "title": "印度重要州選舉正式展開　對莫迪黨的考驗",
-        "url": "https://www.bbc.com/news/articles/c5yv8p4zvd0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "id": "091ef548",
+        "title": "中東地區停火前景不明 美國股市開盤走勢分歧",
+        "url": "https://www.cna.com.tw/news/afe/202604090366.aspx",
+        "source": "中央社財經",
         "category": "global",
-        "published_at": "Thu, 09 Apr 2026 10:35:30 GMT",
-        "summary_zh": "印度重要州選舉正式展開，這是對莫迪黨 Bharatiya Janata Party 的考驗。莫迪黨試圖在自己長期未能取得勢力的地方擴展影響力。這些州選舉將對印度政治格局產生重大影響，尤其是在莫迪黨的領導人莫迪的領導下。選舉結果將對莫迪黨未來的發展方向產生重要影響。這些州選舉將是莫迪黨鞏固其在印度政治中的地位的關鍵考驗。",
+        "published_at": "Thu, 09 Apr 2026 21:56:47 +0800",
+        "summary_zh": "中東地區停火現況出現裂痕，投資人面臨著不確定的情況。同時，美國通膨數據出現符合各界預期的結果。華爾街股市主要指數今天開盤走勢分歧，漲跌幅度不大。這種不確定性可能會對股市產生影響。投資人需要密切關注中東地區的發展和美國經濟數據，以便做出明智的投資決策。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e7a057b0",
+        "title": "阿特米斯號宇航員返回地球帶回月球發現的「好東西」",
+        "url": "https://www.bbc.com/news/articles/c70dr45dj1lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 09 Apr 2026 05:57:18 GMT",
+        "summary_zh": "阿特米斯號宇宙任務結束，四名宇航員將返回地球。據宇航員表示，他們將帶回許多新的照片和故事。這次任務是為了探索月球，了解月球的表面和內部結構。宇航員們在月球表面停留了幾天，進行了多項科學實驗和探測任務。這些發現將為科學家和工程師提供寶貴的資訊，幫助他們更好地了解月球和太空。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -253,22 +435,10 @@
         "id": "c55dae18",
         "title": "中國科研人員在美國被問詢後死亡　北京發表強烈抗議",
         "url": "https://www.bbc.com/news/articles/cge0xd4g21qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "source": "BBC Asia",
         "category": "global",
         "published_at": "Thu, 09 Apr 2026 03:07:03 GMT",
         "summary_zh": "中國一名半導體研究員在美國被美國法警進行「敵對詢問」後被發現死亡。事件引發中國政府強烈不滿，對美國發表嚴厲批評。這名研究員在美國進行研究工作期間，遭到美國法警的盤問，隨後被發現死亡。中國外交部對此事件表示極度關注，並對美國進行嚴厲批評，指責美國法警的行為是「嚴重侵犯人權」。事件的發生引發了中國社會對美國的不滿，許多人認為美國對中國科研人員的待遇不佳。中國政府對此事件的回應表明了對美國的不滿，並可能對美中關係產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "60e8e517",
-        "title": "19歲非法移民在美國ICE拘留中心的日常生活：『我覺得這個噩夢不會結束』",
-        "url": "https://www.theguardian.com/us-news/2026/apr/09/day-in-the-life-19-year-old-ice-detention",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Thu, 09 Apr 2026 11:00:48 GMT",
-        "summary_zh": "19歲的奧莉維亞（Olivia）已經在德克薩斯州的Dilley移民處理中心被拘留了四個多月。她已經減重20磅，每天早上都會頭痛。奧莉維亞每天都覺得時間飛逝，好像只有48小時。 她來自剛果民主共和國，曾經申請庇護，但仍然被ICE拘留。這種拘留生活對奧莉維亞的身體和精神都造成了嚴重的影響。 奧莉維亞的故事是許多非法移民在美國ICE拘留中心的日常生活的縮影。許多人在拘留中心待了數月甚至數年，面臨著人身自由的喪失和精神健康的問題。 美國政府對非法移民的拘留政策一直是爭議的話題。許多人批評這種政策對移民的影響太大。 ",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -286,18 +456,6 @@
         "ai_classified": true
       },
       {
-        "id": "132a8602",
-        "title": "BTS 將數百萬人引入 K-pop，但現在卻困在韓國與世界之間",
-        "url": "https://www.bbc.com/news/articles/cg73dnz0l1xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 09 Apr 2026 03:28:15 GMT",
-        "summary_zh": "BTS 在全球範圍內的流行，讓 K-pop 的影響力大幅提升。然而，最近他們的表演和音樂風格引起了爭議，是否他們正在背離 K-pop 的傳統？這個問題引起了各界的關注。根據外界的觀察，BTS 的音樂風格正在逐漸轉變，加入了更多的西方元素，讓人們開始質疑他們是否還是 K-pop 的代表。這種變化是否會影響到他們的全球粉絲群？這是目前最關注的問題。另一方面，韓國政府也在關注這個問題，是否 BTS 的變化會影響到韓國的文化出口？這是個值得關注的問題。最終，BTS 的未來發展將取決於他們的音樂風格和全球粉絲群的支持。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "f68f963c",
         "title": "阿根廷國會通過米萊的冰川礦業法案",
         "url": "https://www.theguardian.com/world/2026/apr/09/argentina-approves-glacier-mining-bill-environment-protests-andes-mountaines-javier-milei",
@@ -310,13 +468,25 @@
         "ai_classified": true
       },
       {
-        "id": "091ef548",
-        "title": "中東地區停火前景不明 美國股市開盤走勢分歧",
-        "url": "https://www.cna.com.tw/news/afe/202604090366.aspx",
-        "source": "中央社財經",
+        "id": "60e8e517",
+        "title": "19歲非法移民在美國ICE拘留中心的日常生活：『我覺得這個噩夢不會結束』",
+        "url": "https://www.theguardian.com/us-news/2026/apr/09/day-in-the-life-19-year-old-ice-detention",
+        "source": "Guardian US",
         "category": "global",
-        "published_at": "Thu, 09 Apr 2026 21:56:47 +0800",
-        "summary_zh": "中東地區停火現況出現裂痕，投資人面臨著不確定的情況。同時，美國通膨數據出現符合各界預期的結果。華爾街股市主要指數今天開盤走勢分歧，漲跌幅度不大。這種不確定性可能會對股市產生影響。投資人需要密切關注中東地區的發展和美國經濟數據，以便做出明智的投資決策。",
+        "published_at": "Thu, 09 Apr 2026 11:00:48 GMT",
+        "summary_zh": "19歲的奧莉維亞（Olivia）已經在德克薩斯州的Dilley移民處理中心被拘留了四個多月。她已經減重20磅，每天早上都會頭痛。奧莉維亞每天都覺得時間飛逝，好像只有48小時。 她來自剛果民主共和國，曾經申請庇護，但仍然被ICE拘留。這種拘留生活對奧莉維亞的身體和精神都造成了嚴重的影響。 奧莉維亞的故事是許多非法移民在美國ICE拘留中心的日常生活的縮影。許多人在拘留中心待了數月甚至數年，面臨著人身自由的喪失和精神健康的問題。 美國政府對非法移民的拘留政策一直是爭議的話題。許多人批評這種政策對移民的影響太大。 ",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "36cfc6ef",
+        "title": "印度重要州選舉正式展開　對莫迪黨的考驗",
+        "url": "https://www.bbc.com/news/articles/c5yv8p4zvd0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 09 Apr 2026 10:35:30 GMT",
+        "summary_zh": "印度重要州選舉正式展開，這是對莫迪黨 Bharatiya Janata Party 的考驗。莫迪黨試圖在自己長期未能取得勢力的地方擴展影響力。這些州選舉將對印度政治格局產生重大影響，尤其是在莫迪黨的領導人莫迪的領導下。選舉結果將對莫迪黨未來的發展方向產生重要影響。這些州選舉將是莫迪黨鞏固其在印度政治中的地位的關鍵考驗。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -343,6 +513,18 @@
         "summary_zh": "伊朗與黎巴嫩停火的局面出現危機，雙方對停火協議的解釋存在重大分歧。伊朗的議長穆罕默德·巴格爾·格哈利巴夫發表聲明，指責以色列和美國違反了停火協議的條款，並譴責以色列對黎巴嫩的激烈轟炸和美國要求伊朗放棄擁有自己的鈾 enrichment權利。伊朗已經暫停石油運輸船的通過，指責以色列違反停火協議。這是一個正在發展中的故事，請參考我們的直播新聞。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "132a8602",
+        "title": "BTS 將數百萬人引入 K-pop，但現在卻困在韓國與世界之間",
+        "url": "https://www.bbc.com/news/articles/cg73dnz0l1xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 09 Apr 2026 03:28:15 GMT",
+        "summary_zh": "BTS 在全球範圍內的流行，讓 K-pop 的影響力大幅提升。然而，最近他們的表演和音樂風格引起了爭議，是否他們正在背離 K-pop 的傳統？這個問題引起了各界的關注。根據外界的觀察，BTS 的音樂風格正在逐漸轉變，加入了更多的西方元素，讓人們開始質疑他們是否還是 K-pop 的代表。這種變化是否會影響到他們的全球粉絲群？這是目前最關注的問題。另一方面，韓國政府也在關注這個問題，是否 BTS 的變化會影響到韓國的文化出口？這是個值得關注的問題。最終，BTS 的未來發展將取決於他們的音樂風格和全球粉絲群的支持。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -380,30 +562,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "674de046",
-        "title": "以色列在過去40天內對加沙進行了36天的轟炸，伊朗戰爭仍在進行中",
-        "url": "https://www.aljazeera.com/news/2026/4/9/israel-bombed-gaza-on-36-of-the-past-40-days-while-the-war-raged-in-iran?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Thu, 09 Apr 2026 15:53:33 +0000",
-        "summary_zh": "近期以色列對加沙進行了大量轟炸，造成107人死亡。根據統計，僅有8%的醫療撤離申請被批准，而只有20%的貨車被允許進入加沙。這種局面使得加沙的民眾面臨著嚴重的生活困難。伊朗戰爭的持續進行使得局勢更加緊張。這種局勢下的民眾生活將會如何受到影響？這種局勢是否會對地區的和平進程產生影響？",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f152040c",
-        "title": "破紀錄的參選人名單：了解秘魯總統大選的預期",
-        "url": "https://www.aljazeera.com/news/2026/4/9/a-record-breaking-field-what-to-expect-from-perus-presidential-election?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Thu, 09 Apr 2026 15:52:12 +0000",
-        "summary_zh": "秘魯正面臨持續的政治不穩定，選民關注的問題包括犯罪和腐敗。這些問題成為了秘魯總統大選的關鍵議題。選民將在選舉中選出下一任總統，選舉將是秘魯政治史上的一個里程碑。選民的選擇將對秘魯的未來產生重大影響，選舉結果將決定該國未來的政治方向。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "ai": [
@@ -416,8 +574,8 @@
         "published_at": "2026-04-09T13:57:58-04:00",
         "summary_zh": "谷歌最新的升級將為 Gemini 聊天機器人提供生成互動 3D 模型和模擬的功能。根據谷歌的說法，這項新功能將允許使用者旋轉 AI 生成的模型、手動調整滑桿或輸入不同的值來改變模擬。這項功能的出現將使使用者能夠更深入地了解和探索問題的答案。這項升級將為 Gemini 帶來新的互動方式，使其更接近於人類的溝通方式。這項功能的出現將對於科學研究、教育和各行各業都具有重要的意義。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "34415bbe",
@@ -489,116 +647,6 @@
         "summary_zh": "淡水生產技術已經成為越來越重要的技術，尤其是在水資源短缺的地區，包括中東地區。根據數據，我們發現一些國家對淡水生產技術的依賴程度達到了令人驚訝的程度。例如，約旦的淡水生產能力已經超過了該國的淡水自然產量，甚至還有部分淡水被輸出到其他國家。這種情況在其他地區也很常見，例如阿拉伯聯合大公國的淡水生產能力已經超過了該國的淡水自然產量。淡水生產技術的發展對於解決水資源短缺問題具有重要意義，但也引發了關於成本、環境影響和社會影響的爭議。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "9f4d2b20",
-        "title": "歐洲銀行預期人工智慧建設會增加員工人數，調查顯示",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-09/european-banks-expect-ai-buildout-to-add-headcount-survey-says",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-09 06:00:00",
-        "summary_zh": "根據最新的一項調查，歐洲銀行預期人工智慧建設將會帶來員工人數的增加。這項調查發現，歐洲銀行正在投資人工智慧技術，並預期這項投資將會帶來業務增長和效率提高。然而，這項投資也會增加員工人數，尤其是在人工智慧工程師和資料科學家等領域。這項調查顯示，歐洲銀行正在致力於人工智慧建設，並預期這項投資將會帶來長期的業務成長和競爭力提高。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "48403a4f",
-        "title": "Astorg將新領導人擁有公司半數股權後進行內部收購",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-09/astorg-hands-new-leaders-half-of-firm-after-internal-lbo",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-09 06:00:00",
-        "summary_zh": "法國私募基金Astorg宣布進行內部收購，將公司股權分配給新領導人。這項行動被描述為「內部收購」（Internal LBO），意指公司內部的投資者通過購買公司股份來擁有公司的控制權。這種做法在私募基金業中相當常見，通常用於激勵投資者和管理層的績效。 Astorg的這一行動將會對公司的未來發展產生重大影響，投資者和管理層的角色都將會有所變化。這項內部收購的結果將會是誰掌控公司的股權，誰將會擔任公司的領導人。這項行動的背後動機和影響將會受到關注。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "86366c28",
-        "title": "日本考慮釋放約20天的石油儲備",
-        "url": "https://www.reuters.com/business/energy/japan-weighs-new-release-about-20-days-worth-oil-reserves-kyodo-says-2026-04-09/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-09 05:54:24",
-        "summary_zh": "日本政府正在考慮釋放約20天的石油儲備，以應對近期的能源短缺問題。根據日本共同社的報導，日本政府正在與石油業者磋商，釋放儲備以穩定市場供應。這一措施旨在減少對外部石油市場的依賴，同時也希望能夠降低石油價格。日本政府的決定將會對全球能源市場產生影響，同時也會受到各國的關注。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "e63eeb23",
-        "title": "中國銀行貸款料在節後反彈大增",
-        "url": "https://www.reuters.com/business/finance/chinas-march-bank-lending-seen-surging-post-holiday-rebound-2026-04-09/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-09 05:53:43",
-        "summary_zh": "根據市場預測，中國的銀行貸款在節假日後將大幅增加。這是因為中國的節假日通常是銀行貸款的旺季，企業和家庭在節假日後會有更多的需求和資金。這種情況下，銀行貸款的增長將是市場的關注點。分析師預測，中國的銀行貸款將在節假日後大幅增加，達到今年前三個月的平均水平。這將對中國的經濟有所影響，特別是在企業的投資和消費方面。中國政府也會關注這種情況，以確保銀行貸款的穩定和合理。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "f9445018",
-        "title": "塔塔咨詢將在財報結果中出現大幅波動，選項顯示",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-09/tata-consultancy-will-see-outsized-move-on-results-options-show",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-09 05:51:37",
-        "summary_zh": "塔塔咨詢服務有限公司的股價可能會因為人工智慧對其成長前景的影響而出現大幅波動。市場人士表示，該公司的財報結果可能會受到人工智慧的影響，從而導致股價大幅波動。分析師預測，該公司的財報結果可能會出現大幅波動，甚至可能會超出市場預期。選項交易顯示，市場人士對該公司的財報結果有著各種預期，從悲觀到樂觀，甚至有市場人士預測該公司的股價將會大幅上漲。這些預期表明，市場人士對該公司的財報結果有著各種看法，從而導致股價大幅波動。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "bae159cd",
-        "title": "日本消費者信心大幅下滑，自疫情爆發後最慘重",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-09/japan-s-consumer-confidence-tumbles-by-most-since-covid-pandemic",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-09 05:51:04",
-        "summary_zh": "日本消費者信心指數大幅下滑，自疫情爆發後最慘重。根據日本消費者財務廳公布的數據，日本消費者信心指數在 3 月下滑至 38.8，較前一月下滑 8.2 點。這是自 2020 年疫情爆發後，日本消費者信心指數下滑幅度最大的月份。日本政府預計，今年 GDP 增長率將為 1.4%，但消費者信心指數的下滑可能會對經濟增長產生負面影響。日本消費者財務廳指出，消費者信心指數的下滑主要是由於消費者對未來收入的不確定性和消費者對經濟情況的悲觀情緒。日本政府正在採取措施刺激經濟增長，包括增加公共開支和推動投資項目。然而，消費者信心指數的下滑仍然是日本經濟增長的一個挑戰。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "11ba5e8f",
-        "title": "FTSE 100 繼續上漲，英國股市反彈",
-        "url": "https://www.bloomberg.com/news/live-blog/2026-04-09/ftse-100-live-iran-war-trump-pound-bonds-oil-gold-prices-usd-what-s-moving-uk-markets-right-now-markets-today",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-09 05:47:56",
-        "summary_zh": "英國股市FTSE 100指數繼續上漲，市場分析師認為這是由於市場對經濟前景的反彈。然而，其他地區的股市反彈似乎已經暫時停止。英國股市的上漲可能與英國政府的財政政策有關，市場投資者對於英國政府的財政政策感到樂觀。這使得英國股市成為全球股市中少數仍在上漲的指數之一。市場分析師認為，這種情況可能是由於英國政府的財政政策對經濟的刺激作用。然而，這種情況可能也會受到市場對經濟前景的變化的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "45e59bc7",
-        "title": "高盛預測2026年第二季度油價下降 美伊停火協議影響油價預測",
-        "url": "https://www.reuters.com/business/energy/analysts-reassess-oil-price-estimates-iran-conflict-disrupts-markets-2026-04-09/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-09 05:45:39",
-        "summary_zh": "美伊停火協議出爐，高盛預測2026年第二季度布倫特原油和美國原油價格將下降至每桶90美元和87美元。這是因為停火協議可能會減少美伊之間的緊張局勢，進而影響油價。油價預測的下調將對全球能源市場產生重大影響。高盛的預測表明，油價下降可能會對能源公司的收益造成影響。同時，停火協議也可能會影響全球經濟的發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "c43647a5",
-        "title": "美國2月核心PCE年增3% 符合市場預期",
-        "url": "https://www.cna.com.tw/news/aopl/202604090364.aspx",
-        "source": "中央社財經",
-        "category": "finance",
-        "published_at": "Thu, 09 Apr 2026 21:41:40 +0800",
-        "summary_zh": "美國商務部公布的數據顯示，美國2月核心個人消費支出物價指數（PCE）經季節調整後年增3%，符合市場預期。這項數據有助美國聯邦準備理事會掌握伊朗戰爭爆發前的經濟情勢。市場預期核心PCE年增率為3%，而實際數據也達到這個預期。這項數據表明美國經濟在伊朗戰爭爆發前仍然保持穩定。美國聯邦準備理事會將此數據視為掌握經濟情勢的重要依據，幫助他們做出適當的決策。",
-        "sentiment": "中性",
-        "is_breaking": true,
         "ai_classified": true
       }
     ],
@@ -696,164 +744,128 @@
         "published_at": "2026-04-08 20:19:57",
         "summary_zh": "美股市場在停火消息傳出後大幅上漲，市場人士認為停火消息減少了美伊戰爭的風險，從而帶動市場投資者的信心。美股指數DJIA和S&P 500在停火消息傳出後大幅上漲，市場投資者對美股市場的看法也有所改善。然而，市場人士也指出，停火消息並不代表美伊戰爭就結束了，仍有許多風險和不確定性需要市場投資者關注。",
         "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4a0f72ad",
+        "title": "投資者對SpaceX上市感到興奮，但市場影響可能不如預期",
+        "url": "https://www.cnbc.com/2026/04/08/investors-are-getting-hyped-over-the-spacex-ipo-heres-what-the-market-impact-may-be.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-08 20:08:19",
+        "summary_zh": "SpaceX可能會為目前的上市市場注入活力，但投資者對其市場影響的預期可能會被打破。SpaceX是一家由Elon Musk創辦的航天公司，目前正在準備上市。投資者對其上市感到興奮，希望其能夠為市場帶來新的活力。然而，市場分析師認為，SpaceX上市的市場影響可能不如投資者預期。根據分析師的預測，SpaceX上市可能會對市場產生相對較小的影響。這是因為目前的上市市場已經相對疲弱，投資者對新公司的興趣不如以往。SpaceX上市可能會成為市場的一個小插曲，但它不太可能對市場產生重大影響。",
+        "sentiment": "中性",
         "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false
       }
     ],
-    "whitehouse": [
+    "finance": [
       {
-        "id": "7db579fa",
-        "title": "「 Ketamine 女王」被判15年監禁 Matthew Perry 過量服用藥物致死",
-        "url": "https://www.bbc.com/news/articles/c6258qe1yl0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 08 Apr 2026 19:34:29 GMT",
-        "summary_zh": "加拿大女孩Jasveen Sangha因販售毒品而被判處15年監禁。原因是她販售的毒品導致好友Friends演員Matthew Perry過量服用藥物而死亡。Matthew Perry曾經多年來與毒癮鬥爭。這起事件引起了社會關注，許多人對毒品販售和濫用問題表示憂慮。這起案件也提醒我們，毒品販售和濫用對個人的生命和家庭造成了嚴重的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cbc1e692",
-        "title": "白宮CEQ發佈指南：簡化NEPA審查程序",
-        "url": "https://www.whitehouse.gov/releases/2026/04/ceq-issues-guidance-on-categorical-exclusions/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Apr 2026 16:13:58 +0000",
-        "summary_zh": "白宮環境質量評估委員會（CEQ）今天發佈了一份新指南，規範聯邦部門和機構如何根據國家環境政策法案（NEPA）建立、修訂、採用和適用類別排除（CE）。這份指南旨在釋放基礎設施項目免於過度許可的困擾。根據這份指南，聯邦部門和機構可以根據NEPA的規定，自行決定是否需要進行環境影響評估。這一新指南將大大簡化NEPA審查程序，幫助基礎設施項目更快地推動。這一措施將對美國的基礎設施建設產生重大影響，促進美國的經濟發展。",
+        "id": "e4ed9ddd",
+        "title": "印度燃油零售商購買折扣柴油避免價格上漲",
+        "url": "https://www.reuters.com/business/energy/indian-fuel-retailers-buy-discounted-diesel-avoid-price-hikes-2026-04-09/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-09 06:53:17",
+        "summary_zh": "印度燃油零售商正在採取措施避免柴油價格上漲。由於全球市場上柴油價格下跌，印度政府允許燃油零售商購買折扣柴油。這項措施旨在幫助零售商降低成本，避免將柴油價格傳遞給消費者。印度政府的這一決定可能會對全球燃油市場產生影響，特別是在柴油價格下跌的背景下。燃油零售商購買折扣柴油的做法可能會導致柴油價格在印度市場上保持穩定。這項措施可能會對印度經濟產生正面影響，特別是在消費者價格穩定方面。然而，這項措施也可能會對全球燃油市場產生影響，可能會導致柴油價格下跌。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
-        "id": "318f8a8d",
-        "title": "美國250週年：總統對於阿波馬托克斯投降週年的致辭",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/america-250-presidential-message-on-the-anniversary-of-the-surrender-at-appomattox/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Apr 2026 14:30:27 +0000",
-        "summary_zh": "美國總統在美國250週年紀念日的致辭中，回顧了美國內戰的歷史。四年來的內戰帶來了無數的苦難、犧牲和悲劇，但最終在阿波馬托克斯法院，羅伯特·李將軍正式向尤利西斯·格蘭特將軍投降，結束了戰爭，治癒了分裂的傷口，並恢復了美國的榮光。這一歷史事件標誌著聯邦的勝利，為美國的未來開闢了道路。總統的致辭呼籲美國人們共同慶祝這一重要里程碑，並致力於促進和解和團結。",
+        "id": "7513608b",
+        "title": "世界銀行：印度預期2027財年6.6%增長面臨下行風險",
+        "url": "https://www.reuters.com/world/india/world-bank-says-risks-indias-projected-66-growth-fy27-skewed-downside-2026-04-09/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-09 06:47:43",
+        "summary_zh": "世界銀行最新報告指出，印度預期2027財年6.6%的增長率面臨下行風險。報告認為，印度面臨的風險包括全球經濟放緩、能源價格上漲、金融市場波動等。這些風險可能會影響印度的出口、投資和消費者信心，進而影響整體經濟增長。世界銀行還表示，印度需要繼續推動改革和投資，以維持經濟增長的穩定性。印度政府應該密切關注這些風險，並採取適當措施來應對。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "6fd1a976",
+        "title": "Trafigura與加納黃金礦公司簽署採購、融資協議",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/trafigura-signs-offtake-financing-deal-with-ghanaian-gold-miner",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-09 06:43:12",
+        "summary_zh": "加納政府近期推動黃金產業發展，Trafigura公司與一家加納黃金礦公司簽署了採購和融資協議。根據協議，Trafigura將購買該礦公司的黃金產量，並為礦公司提供融資支持。這一協議有助於加納政府推動黃金產業發展，同時也為礦公司提供了穩定的收入來源。Trafigura公司的這一行動也體現了該公司對非洲黃金產業的投資興趣。然而，這一協議的具體細節尚未公開。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "271ad91b",
+        "title": "七喜集團美國業務上市延遲　盈餘預期未達預期",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/seven-i-will-delay-public-listing-of-us-business-nikkei-says",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-09 06:42:24",
+        "summary_zh": "七喜集團宣布將延遲將美國業務上市至未來。這一決定是由於公司的盈餘預期未能達到市場預期。七喜集團是全球最大的超市連鎖企業之一，旗下品牌包括7-Eleven、Costco等。公司的美國業務佔據了公司的重要地位。七喜集團的財務報告顯示，公司的盈餘預期未能達到市場預期，導致上市延遲。這一決定將對公司的股價和市場形象產生影響。七喜集團的管理層將會就此事進行評估和調整，以確保公司的未來發展。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "9fb05442",
+        "title": "Uniqlo母公司Fast Retailing Q2盈利增長29.4% 預估全年成長",
+        "url": "https://www.reuters.com/world/asia-pacific/uniqlo-owner-fast-retailing-books-294-rise-q2-profit-2026-04-09/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-09 06:41:44",
+        "summary_zh": "日本服裝品牌Uniqlo的母公司Fast Retailing宣布，近期的季度盈利增長29.4%，這是在中東危機發生之前，全球市場和供應鏈受影響之前。該公司表示，由於國際市場的強勁成長，預計今年的盈利將會超出預期。這是因為Uniqlo在全球各地的銷售表現良好，特別是在亞洲市場。該公司的盈利增長是由於銷售收入的增長和成本控制的改善。這表明Uniqlo在全球市場上取得了成功，展現出強大的競爭力。然而，中東危機的影響尚未完全消失，仍可能對全球市場和供應鏈造成影響。",
         "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
-        "id": "43b43790",
-        "title": "總統對於國家前戰俘認可日的致辭",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-national-former-prisoner-of-war-recognition-day/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Apr 2026 14:29:26 +0000",
-        "summary_zh": "今天是國家前戰俘認可日，總統致辭表示，將永遠堅守承諾，不會讓任何戰士被遺忘，將帶回戰爭或衝突中失蹤的靈魂。這一天，總統致意於所有曾經遭受敵對勢力的囚禁的美軍士兵，他們在戰爭中承受了無數的苦難。總統的政府將不斷努力，確保所有戰俘都能得到尊嚴的對待和適當的照顧。這一致辭表明了總統對於戰俘的關心和承諾，同時也向所有曾經受苦的戰俘致敬。",
+        "id": "4172c59e",
+        "title": "印度天然氣公司GAIL (印度) 將於 2027 年借款 50-60 億盧比",
+        "url": "https://www.reuters.com/business/energy/gail-india-borrow-50-60-billion-rupees-financial-year-2027-2026-04-09/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-09 06:41:43",
+        "summary_zh": "印度天然氣公司GAIL (印度) 宣布將於 2027 年借款 50-60 億盧比，總額約為 5.39 億至 6.47 億美元。這項決策是在最近購買三艘臨時液化天然氣（LNG）貨船的背景下進行的，目的是補充因伊朗戰爭而導致的短缺。公司財務總監Rakesh Jain 表示，這項決定是為了應對當前市場的挑戰，並確保公司的穩定運營。這項借款將幫助公司完成其業務計畫，並在未來的市場變化中保持競爭力。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "7862ab06",
+        "title": "速達集團提升日本銷售預期、全球需求",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/fast-retailing-raises-outlook-on-japan-sales-global-demand",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-09 06:37:37",
+        "summary_zh": "速達集團最新公布，公司對日本銷售的預期已經提升。根據公司的最新財報，日本銷售的增長率遠超市場預期。公司的這一決定是基於對日本消費者購買力的增強以及全球需求的增長。日本消費者對服裝的需求正在增加，尤其是在年輕人中。這一趨勢對公司的銷售有著積極的影響。公司的這一預期提升將對公司的未來發展產生重大影響。公司將繼續關注全球需求的變化，調整公司的策略以滿足市場的需求。",
         "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
-        "id": "37cbf878",
-        "title": "總統致贈美國馬斯特斯錦標賽賀詞",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/presidential-message-on-the-masters-tournament/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Apr 2026 14:27:47 +0000",
-        "summary_zh": "美國總統在馬斯特斯錦標賽的90周年之際，致贈賀詞。這項錦標賽以其美景和挑戰性而聞名，成為美國精神的象徵。每年春天，球員們在這個美景如畫的球場上展現他們的才華、毅力和辛勞。總統夫婦對參賽者們致以最誠摯的祝福。",
+        "id": "ceb2f534",
+        "title": "BNP巴黎銀行將僱用UBS的Abhishek Joshi領導印度IPO業務",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/bnp-paribas-said-to-hire-ubs-s-abhishek-joshi-to-lead-india-ecm",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-09 06:35:10",
+        "summary_zh": "據報導，BNP巴黎銀行正在僱用UBS的Abhishek Joshi，後者將領導印度的企業債務和股票發行業務。這項任命將有助於BNP巴黎銀行在印度市場的擴張。印度的企業債務和股票發行市場正在快速發展，成為全球投資者的重要投資選擇。BNP巴黎銀行的這一任命表明該行對印度市場的重視。印度的經濟成長率高，市場需求旺盛，企業債務和股票發行業務的潛力巨大。這項任命將對印度的企業債務和股票發行市場產生重大影響。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
-        "id": "07e094f5",
-        "title": "2027財政年度削減預算命令根據《平衡預算和緊急赤字控制法》第251條",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/04/sequestration-order-for-fiscal-year-2027-pursuant-to-section-251a-of-the-balanced-budgetand-emergency-deficit-control-act-as-amended/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 08 Apr 2026 21:25:47 +0000",
-        "summary_zh": "美國總統根據《平衡預算和緊急赤字控制法》第251條的授權，發布命令，於2026年10月1日實施2027財政年度的直接支出預算資源削減。這項命令是為了控制美國的赤字問題，根據《平衡預算和緊急赤字控制法》，政府必須實施削減預算的措施，以達到平衡預算的目標。這項命令將對美國政府的預算產生重大影響，可能會影響到各個政府部門的資源分配和支出。",
+        "id": "c43647a5",
+        "title": "美國2月核心PCE年增3% 符合市場預期",
+        "url": "https://www.cna.com.tw/news/aopl/202604090364.aspx",
+        "source": "中央社財經",
+        "category": "finance",
+        "published_at": "Thu, 09 Apr 2026 21:41:40 +0800",
+        "summary_zh": "美國商務部公布的數據顯示，美國2月核心個人消費支出物價指數（PCE）經季節調整後年增3%，符合市場預期。這項數據有助美國聯邦準備理事會掌握伊朗戰爭爆發前的經濟情勢。市場預期核心PCE年增率為3%，而實際數據也達到這個預期。這項數據表明美國經濟在伊朗戰爭爆發前仍然保持穩定。美國聯邦準備理事會將此數據視為掌握經濟情勢的重要依據，幫助他們做出適當的決策。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "57187da8",
-        "title": "和平通過力量：Operation Epic Fury摧毀伊朗威脅，停火生效",
-        "url": "https://www.whitehouse.gov/releases/2026/04/peace-through-strength-operation-epic-fury-crushes-iranian-threat-as-ceasefire-takes-hold/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 08 Apr 2026 18:17:58 +0000",
-        "summary_zh": "美國總統唐納德·特朗普宣布了Operation Epic Fury的明確目標，僅用38天，世界上最強大的戰鬥力量就以壓倒性的力量和致命的準確度達成了這些目標。伊朗已同意停火和重開霍爾木茲海峽，而特朗普政府正在與伊朗進行談判。這次行動表明了美國的軍事力量和外交手段的有效性。伊朗的停火是對美國軍事行動的回應，表明了伊朗對美國的威脅感。霍爾木茲海峽的重開將對全球能源市場產生重大影響。這次行動的成功將對美國的國際地位和影響力產生重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5135ad78",
-        "title": "JD Vance 領導美國團隊與伊朗在巴基斯坦進行談判",
-        "url": "https://www.bbc.com/news/articles/c248ljegn6lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 08 Apr 2026 19:17:21 GMT",
-        "summary_zh": "美國已宣布取得軍事勝利，但與伊朗在巴基斯坦進行的談判細節仍不明朗。美國政府正在與伊朗進行談判，試圖達成和平協議。這項談判的具體細節尚未公開，但已知美國政府已經派遣代表團前往巴基斯坦與伊朗進行會面。美國政府的目標是與伊朗達成一個能夠解決兩國間長期存在的爭端的協議。然而，伊朗方面的立場尚未明確，美國政府對於談判的前景仍存疑慮。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7352b120",
-        "title": "民主黨力推通過伊朗戰爭權限決議案，指責川普『失控行為』",
-        "url": "https://www.theguardian.com/us-news/live/2026/apr/09/democrats-war-powers-resolution-iran-republicans-melania-donald-trump-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Apr 2026 17:44:36 GMT",
-        "summary_zh": "民主黨領袖哈基姆·傑佛瑞 (Hakeem Jeffries) 將利用臨時會議的機會，試圖通過一項決議案，要求川普總統撤出美軍從中東。這項決議案旨在限制川普對伊朗的軍事行動。民主黨人批評川普的行為『失控』，並指責他對伊朗的威脅，將導致更多的戰爭和血腥。川普總統在與北約秘書長會面之前，發表了對北約的批評，並暗示他可能會再次試圖佔領格陵蘭島。同時，他也與前盟友馬吉里·泰勒·格林 (Marjorie Taylor Greene) 進行社交媒體戰。美國副總統 JD Vance 表示，他不認識梵蒂岡駐美大使 (Vatican ambassador to the US)，並否認美國國防部官員批評梵蒂岡駐美大使的報導。美國國防部發言人彼得·赫格塞斯 (Pete Hegseth) 表示，伊朗『跪求』了這次停火，同時他也聲稱，美國的軍事行動『徹底摧毀』了伊朗的軍事力量。美國司法部宣布，FBI 進行了對軍事退伍兵科特尼·威廉斯 (Courtney Williams) 的逮捕。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "06270c9c",
-        "title": "RFK Jr 關係人在密西西比州推動放寬疫苗規則，麻腫病急劇上升，嬰兒死亡",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/apr/09/rfk-jr-mississippi-rollback-school-vaccine-rules",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Apr 2026 17:36:37 GMT",
-        "summary_zh": "密西西比州曾經在美國兒童疫苗接種率方面取得了顯著的成績，甚至在其他健康指標中排名垫底。然而，2023 年一名聯邦法官下令放寬該州對兒童的疫苗規則，對一些醫生來說，這是一個沉重的打擊。這項變革的推動者之一是兩名與美國衛生部長RFK Jr有密切關係的男子。該州的放寬規則導致麻腫病的發生率急劇上升，甚至導致一名嬰兒死亡。這種情況引起了醫學界的關注和擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "377c5649",
-        "title": "民主黨力推限制川普對伊朗戰權的法案",
-        "url": "https://www.theguardian.com/us-news/2026/apr/09/house-democrats-trump-war-powers-resolution-iran",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Apr 2026 16:33:36 GMT",
-        "summary_zh": "民主黨將於星期四通過一項決議，限制川普總統對伊朗的戰爭權限。儘管共和黨人將很可能阻止這項決議通過，但這表明國會對中東衝突的擔憂。伊朗和美國近期達成停火協議，但沒有明確的結束時間。民主黨人將使用無異議通過的程序，讓決議通過 chamber，無需辯論或正式計票。但是，共和黨人預計會反對這項決議。這項決議的通過將表明國會對中東衝突的擔憂。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7308f3f1",
-        "title": "被控發動美國火彈襲擊案嫌犯與支持對抗巴勒斯坦人團體有關",
-        "url": "https://www.theguardian.com/us-news/2026/apr/09/jdl-613-jewish-extremist-organization",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Apr 2026 11:00:47 GMT",
-        "summary_zh": "美國一名男子被控策劃對一名支持巴勒斯坦的活動家的家進行火彈襲擊。調查發現，這名男子與一群領袖支持對抗巴勒斯坦人並且與一名被定罪的恐怖份子有關的團體有關。該團體的錄影顯示其領袖對紐約市長佐蘭·馬曼迪尼 (Zohran Mamdani) 有著強烈的反感，並且稱他為「穆斯林恐怖份子」、「惡性腫瘤」和「美國伊斯蘭化的先兆」。這名男子被控策劃的襲擊事件可能與這群領袖的極端觀點有關。這個事件引起了關注，尤其是在美國的政治和社會環境中。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bf03d7ad",
-        "title": "夏威夷醫生被控試圖殺害妻子被判犯有未遂謀殺罪",
-        "url": "https://www.theguardian.com/us-news/2026/apr/08/hawaii-doctor-wife-murder-guilty-attempted-manslaughter",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Apr 2026 02:13:30 GMT",
-        "summary_zh": "夏威夷一名麻醉科醫生，47歲的格哈德特·柯尼格（Gerhardt Konig），被指控在去年夏威夷的一次生日旅行中，試圖在山坡上殺害他的妻子。這名醫生被控犯有未遂謀殺罪，而不是原先指控的謀殺罪。星期三，夏威夷的一名陪審團在審判後的一天內，做出了對柯尼格的判決。這名醫生被控在去年夏威夷的一次生日旅行中，試圖殺害他的妻子。這起案件的背景是，柯尼格夫婦在夏威夷的山坡上進行一場生日旅行，期間柯尼格被指控試圖殺害他的妻子。這起案件的關鍵細節是，柯尼格被指控使用某種方法試圖殺害他的妻子，但最終未成功。這起案件的影響分析是，這起案件對於夏威夷的醫療界和家庭暴力問題都有重要的影響。這起案件的後續展望是，這名醫生將會面臨懲罰，並且可能會對他的醫療生涯和家庭造成不利影響。",
-        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       }
@@ -868,8 +880,8 @@
         "published_at": "Thu, 09 Apr 2026 23:13:53 +0800",
         "summary_zh": "英特爾代工服務宣布成功研發出全球首款、也是最薄的氮化鎵晶片，厚度僅19 微米。這項成果標誌著英特爾在半導體領域的進步。氮化鎵晶片的薄度和高效能使其在電力電子和汽車電氣化等領域有廣闊的應用前景。這項技術的開發將有助於改善能源效率和減少碳排放。英特爾的這項成果也表明該公司在競爭激烈的半導體市場中正在努力翻身。然而，業界還需要觀察英特爾在未來的市場競爭和技術發展中如何運用這項技術。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "59363471",
@@ -904,8 +916,8 @@
         "published_at": "Thu, 09 Apr 2026 21:17:24 +0800",
         "summary_zh": "台股近期受美伊戰爭停火影響大幅上漲，週三創下史上第2大收盤漲點，今天續揚99.78點。台灣證券交易所9日公布注意有價證券資訊，包括台積電在內，多達33檔有價證券被列入注意股名單。這些股票的漲幅超過10%，或是市場交易量超過平均值的5倍。台積電的股價近期大幅上漲，市場預期公司的業績將受益於美伊戰爭停火帶來的電子產品需求增加。然而，證交所的公告並未披露具體原因，僅表示這些股票的行為值得關注。投資者應該謹慎評估這些股票的風險和潛在收益。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "fff39359",
@@ -1058,200 +1070,6 @@
       "type": "price",
       "warn": 400,
       "danger": 500
-    }
-  },
-  "daily_digest": {
-    "key_themes": [
-      {
-        "title": "中東停火協議的不確定性",
-        "background": "中東戰爭的不確定性對全球經濟產生重大影響",
-        "development": "投資人擔憂中東停火協議能否維持，同時也關注荷莫茲海峽是否能夠全面重啟，導致歐洲三大股市都收黑",
-        "impact": "這種不確定性會對全球股市產生重大影響，目前投資人仍在觀察中東局勢的發展",
-        "conclusion": "短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈",
-        "region": "global"
-      },
-      {
-        "title": "人工智慧產業的利潤競賽",
-        "background": "人工智慧產業的利潤競賽正在加速",
-        "development": "許多公司面臨著生存危機，谷歌最新的升級將為 Gemini 聊天機器人提供生成互動 3D 模型和模擬的功能",
-        "impact": "這項功能的出現將使使用者能夠更深入地了解和探索問題的答案",
-        "conclusion": "人工智慧產業的利潤競賽將持續加速，公司需要不斷創新以保持競爭力",
-        "region": "global"
-      },
-      {
-        "title": "全球能源市場的變化",
-        "background": "全球能源市場的變化對投資者產生重大影響",
-        "development": "日本政府正在考慮釋放約20天的石油儲備，以應對近期的能源短缺問題",
-        "impact": "這一措施旨在減少對外部石油市場的依賴，同時也希望能夠降低石油價格",
-        "conclusion": "全球能源市場的變化將持續影響投資者，公司需要謹慎評估投資風險",
-        "region": "asia"
-      }
-    ],
-    "sector_analysis": [
-      {
-        "sector": "科技",
-        "direction": "看多",
-        "reasoning": "人工智慧產業的利潤競賽將持續加速，公司需要不斷創新以保持競爭力",
-        "key_ticker": "GOOGL"
-      },
-      {
-        "sector": "能源",
-        "direction": "看空",
-        "reasoning": "全球能源市場的變化將持續影響投資者，公司需要謹慎評估投資風險",
-        "key_ticker": "XOM"
-      },
-      {
-        "sector": "金融",
-        "direction": "中性",
-        "reasoning": "中東停火協議的不確定性對全球經濟產生重大影響，投資者需要謹慎評估投資風險",
-        "key_ticker": "JPM"
-      }
-    ],
-    "action_signals": [
-      {
-        "asset": "S&P 500",
-        "signal": "短多",
-        "reasoning": "若週末停火談判有進展，週一可能出現技術反彈",
-        "confidence": "中高"
-      },
-      {
-        "asset": "石油",
-        "signal": "短空",
-        "reasoning": "全球能源市場的變化將持續影響投資者，公司需要謹慎評估投資風險",
-        "confidence": "中"
-      }
-    ],
-    "risk_radar": [
-      {
-        "event": "中東停火協議破裂",
-        "probability": "中",
-        "impact": "高",
-        "timeframe": "本週",
-        "description": "中東停火協議的不確定性對全球經濟產生重大影響"
-      },
-      {
-        "event": "全球能源市場的變化",
-        "probability": "高",
-        "impact": "中",
-        "timeframe": "下週",
-        "description": "全球能源市場的變化將持續影響投資者"
-      }
-    ],
-    "narrative_shift": {
-      "new_themes": [
-        "中東停火協議的不確定性",
-        "人工智慧產業的利潤競賽"
-      ],
-      "escalated": [
-        "全球能源市場的變化"
-      ],
-      "cooled": [],
-      "disappeared": []
-    },
-    "watch_next": [
-      {
-        "topic": "中東停火協議的進展",
-        "reason": "中東停火協議的不確定性對全球經濟產生重大影響",
-        "timeframe": "本週"
-      },
-      {
-        "topic": "人工智慧產業的發展",
-        "reason": "人工智慧產業的利潤競賽將持續加速",
-        "timeframe": "下週"
-      }
-    ],
-    "cross_links": [
-      {
-        "themes": [
-          "中東停火協議的不確定性",
-          "全球能源市場的變化"
-        ],
-        "chain": "中東停火協議的不確定性 → 全球能源市場的變化 → 投資者風險"
-      },
-      {
-        "themes": [
-          "人工智慧產業的利潤競賽",
-          "科技"
-        ],
-        "chain": "人工智慧產業的利潤競賽 → 科技 → 創新"
-      }
-    ],
-    "market_snapshot": {
-      "mood": "觀望",
-      "key_moves": "S&P 500 上漲 0.51%，那斯達克上漲 0.59%，台股上漲 4.61%"
-    },
-    "data_table": {
-      "indices": [
-        {
-          "key": "SP500",
-          "name": "S&P 500",
-          "price": 6817.74,
-          "change_pct": 0.51,
-          "status": "danger"
-        },
-        {
-          "key": "NASDAQ",
-          "name": "那斯達克",
-          "price": 22769.32,
-          "change_pct": 0.59,
-          "status": "normal"
-        },
-        {
-          "key": "TWII",
-          "name": "台股加權",
-          "price": 34761.38,
-          "change_pct": 4.61,
-          "status": "normal"
-        }
-      ],
-      "commodities": [
-        {
-          "key": "GOLD",
-          "name": "黃金",
-          "price": 4822.0,
-          "change_pct": 1.53,
-          "status": "normal"
-        },
-        {
-          "key": "OIL",
-          "name": "原油 WTI",
-          "price": 96.33,
-          "change_pct": 2.03,
-          "status": "normal"
-        }
-      ],
-      "forex": [
-        {
-          "key": "DXY",
-          "name": "美元指數",
-          "price": 98.7,
-          "change_pct": -0.34,
-          "status": "normal"
-        },
-        {
-          "key": "USDTWD",
-          "name": "美元/台幣",
-          "price": 31.74,
-          "change_pct": -0.48,
-          "status": "normal"
-        }
-      ],
-      "bonds_volatility": [
-        {
-          "key": "TNX",
-          "name": "美債10Y殖利率",
-          "price": 4.27,
-          "change_pct": -0.54,
-          "status": "normal"
-        },
-        {
-          "key": "VIX",
-          "name": "VIX 恐慌指數",
-          "price": 19.73,
-          "change_pct": -6.23,
-          "status": "normal"
-        }
-      ]
     }
   }
 }
