@@ -1,160 +1,178 @@
 {
   "date": "2026-04-09",
-  "generated_at": "2026-04-09T17:04:26.614508+08:00",
+  "generated_at": "2026-04-10T02:04:12.412516+08:00",
   "key_themes": [
     {
-      "title": "美伊停火協議對全球市場的影響",
-      "background": "美伊戰爭對全球經濟的影響",
-      "development": "美國和伊朗近期達成停火協議，市場對此感到樂觀，美股市場大幅上漲，油價下跌",
-      "impact": "停火協議對於緩和美國和伊朗之間的緊張關係具有重要意義，同時也表明雙方願意透過對話來解決爭端",
-      "conclusion": "短線避險情緒將持續減弱，但若週末停火談判有進展，週一可能出現技術反彈",
+      "title": "中東停火協議的不確定性",
+      "background": "中東戰爭的不確定性對全球經濟產生重大影響",
+      "development": "投資人擔憂中東停火協議能否維持，同時也關注荷莫茲海峽是否能夠全面重啟，導致歐洲三大股市都收黑",
+      "impact": "這種不確定性會對全球股市產生重大影響，目前投資人仍在觀察中東局勢的發展",
+      "conclusion": "短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈",
       "region": "global"
     },
     {
-      "title": "人工智慧技術的發展",
-      "background": "人工智慧技術的快速發展",
-      "development": "Meta公司推出新人工智慧模型Muse Spark，金星獲得筆記本功能，幫助用戶組織專案",
-      "impact": "人工智慧技術的發展將對各個產業產生重大影響，包括科技、金融、醫療等",
-      "conclusion": "人工智慧技術的發展將繼續加速，市場將對其產生更多的關注",
+      "title": "人工智慧產業的利潤競賽",
+      "background": "人工智慧產業的利潤競賽正在加速",
+      "development": "許多公司面臨著生存危機，谷歌最新的升級將為 Gemini 聊天機器人提供生成互動 3D 模型和模擬的功能",
+      "impact": "這項功能的出現將使使用者能夠更深入地了解和探索問題的答案",
+      "conclusion": "人工智慧產業的利潤競賽將持續加速，公司需要不斷創新以保持競爭力",
       "region": "global"
     },
     {
-      "title": "全球經濟的不確定性",
-      "background": "全球經濟的不確定性",
-      "development": "日本銀行可能在四月加息，前官員表示，巴西考慮加速生物柴油試驗",
-      "impact": "全球經濟的不確定性可能會對投資者產生重大影響，需要謹慎評估投資風險",
-      "conclusion": "全球經濟的不確定性將繼續存在，投資者需要保持謹慎",
-      "region": "global"
+      "title": "全球能源市場的變化",
+      "background": "全球能源市場的變化對投資者產生重大影響",
+      "development": "日本政府正在考慮釋放約20天的石油儲備，以應對近期的能源短缺問題",
+      "impact": "這一措施旨在減少對外部石油市場的依賴，同時也希望能夠降低石油價格",
+      "conclusion": "全球能源市場的變化將持續影響投資者，公司需要謹慎評估投資風險",
+      "region": "asia"
     }
   ],
   "sector_analysis": [
     {
       "sector": "科技",
       "direction": "看多",
-      "reasoning": "人工智慧技術的發展將對科技產業產生重大影響",
-      "key_ticker": "Meta"
+      "reasoning": "人工智慧產業的利潤競賽將持續加速，公司需要不斷創新以保持競爭力",
+      "key_ticker": "GOOGL"
     },
     {
       "sector": "能源",
       "direction": "看空",
-      "reasoning": "油價下跌，能源產業可能會受到影響",
-      "key_ticker": "油價"
+      "reasoning": "全球能源市場的變化將持續影響投資者，公司需要謹慎評估投資風險",
+      "key_ticker": "XOM"
     },
     {
       "sector": "金融",
       "direction": "中性",
-      "reasoning": "全球經濟的不確定性可能會對金融產業產生影響",
-      "key_ticker": "股票"
+      "reasoning": "中東停火協議的不確定性對全球經濟產生重大影響，投資者需要謹慎評估投資風險",
+      "key_ticker": "JPM"
     }
   ],
   "action_signals": [
     {
-      "asset": "美股",
+      "asset": "S&P 500",
       "signal": "短多",
-      "reasoning": "美股市場大幅上漲，市場對停火的消息感到樂觀",
-      "confidence": "高"
+      "reasoning": "若週末停火談判有進展，週一可能出現技術反彈",
+      "confidence": "中高"
     },
     {
-      "asset": "油價",
+      "asset": "石油",
       "signal": "短空",
-      "reasoning": "油價下跌，能源產業可能會受到影響",
-      "confidence": "高"
+      "reasoning": "全球能源市場的變化將持續影響投資者，公司需要謹慎評估投資風險",
+      "confidence": "中"
     }
   ],
   "risk_radar": [
     {
-      "event": "美伊戰爭",
-      "probability": "低",
+      "event": "中東停火協議破裂",
+      "probability": "中",
       "impact": "高",
       "timeframe": "本週",
-      "description": "美伊戰爭的不確定性可能會對全球經濟產生重大影響"
+      "description": "中東停火協議的不確定性對全球經濟產生重大影響"
+    },
+    {
+      "event": "全球能源市場的變化",
+      "probability": "高",
+      "impact": "中",
+      "timeframe": "下週",
+      "description": "全球能源市場的變化將持續影響投資者"
     }
   ],
   "narrative_shift": {
     "new_themes": [
-      "人工智慧技術的發展"
+      "中東停火協議的不確定性",
+      "人工智慧產業的利潤競賽"
     ],
     "escalated": [
-      "全球經濟的不確定性"
+      "全球能源市場的變化"
     ],
-    "cooled": [
-      "美伊戰爭"
-    ],
+    "cooled": [],
     "disappeared": []
   },
   "watch_next": [
     {
-      "topic": "美伊停火協議",
-      "reason": "市場對停火的消息感到樂觀",
+      "topic": "中東停火協議的進展",
+      "reason": "中東停火協議的不確定性對全球經濟產生重大影響",
       "timeframe": "本週"
+    },
+    {
+      "topic": "人工智慧產業的發展",
+      "reason": "人工智慧產業的利潤競賽將持續加速",
+      "timeframe": "下週"
     }
   ],
   "cross_links": [
     {
       "themes": [
-        "美伊停火協議",
-        "人工智慧技術的發展"
+        "中東停火協議的不確定性",
+        "全球能源市場的變化"
       ],
-      "chain": "美伊停火協議可能會對人工智慧技術的發展產生影響"
+      "chain": "中東停火協議的不確定性 → 全球能源市場的變化 → 投資者風險"
+    },
+    {
+      "themes": [
+        "人工智慧產業的利潤競賽",
+        "科技"
+      ],
+      "chain": "人工智慧產業的利潤競賽 → 科技 → 創新"
     }
   ],
   "market_snapshot": {
-    "mood": "樂觀",
-    "key_moves": "美股市場大幅上漲，油價下跌"
+    "mood": "觀望",
+    "key_moves": "S&P 500 上漲 0.51%，那斯達克上漲 0.59%，台股上漲 4.61%"
   },
   "data_table": {
     "indices": [
       {
         "key": "SP500",
         "name": "S&P 500",
-        "price": 6782.81,
-        "change_pct": 2.51,
+        "price": 6817.74,
+        "change_pct": 0.51,
         "status": "danger"
       },
       {
         "key": "NASDAQ",
         "name": "那斯達克",
-        "price": 22634.99,
-        "change_pct": 2.8,
+        "price": 22769.32,
+        "change_pct": 0.59,
         "status": "normal"
       },
       {
         "key": "TWII",
         "name": "台股加權",
-        "price": 34861.16,
-        "change_pct": 0.29,
-        "status": "danger"
+        "price": 34761.38,
+        "change_pct": 4.61,
+        "status": "normal"
       }
     ],
     "commodities": [
       {
         "key": "GOLD",
         "name": "黃金",
-        "price": 4752.4,
-        "change_pct": 0.06,
+        "price": 4822.0,
+        "change_pct": 1.53,
         "status": "normal"
       },
       {
         "key": "OIL",
         "name": "原油 WTI",
-        "price": 97.86,
-        "change_pct": 3.65,
-        "status": "warn"
+        "price": 96.33,
+        "change_pct": 2.03,
+        "status": "normal"
       }
     ],
     "forex": [
       {
         "key": "DXY",
         "name": "美元指數",
-        "price": 99.01,
-        "change_pct": -0.02,
+        "price": 98.7,
+        "change_pct": -0.34,
         "status": "normal"
       },
       {
         "key": "USDTWD",
         "name": "美元/台幣",
-        "price": 31.79,
-        "change_pct": -0.33,
+        "price": 31.74,
+        "change_pct": -0.48,
         "status": "normal"
       }
     ],
@@ -162,16 +180,16 @@
       {
         "key": "TNX",
         "name": "美債10Y殖利率",
-        "price": 4.29,
-        "change_pct": -1.2,
+        "price": 4.27,
+        "change_pct": -0.54,
         "status": "normal"
       },
       {
         "key": "VIX",
         "name": "VIX 恐慌指數",
-        "price": 21.48,
-        "change_pct": 2.09,
-        "status": "warn"
+        "price": 19.73,
+        "change_pct": -6.23,
+        "status": "normal"
       }
     ]
   }
