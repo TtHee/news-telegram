@@ -1,62 +1,328 @@
 {
-  "generated_at": "2026-04-11T00:04:34.495353+08:00",
+  "generated_at": "2026-04-11T01:04:12.818325+08:00",
   "risk_signals": [
     "🟢 台股加權 34861.16（正常）",
-    "🟢 S&P 500 6816.05（正常）",
-    "🟢 VIX 恐慌指數 19.61（正常）",
+    "🟢 S&P 500 6813.22（正常）",
+    "🟡 VIX 恐慌指數 20.02（留意）",
     "🟢 MOVE 債市波動 74.01（正常）",
-    "🟢 美元指數 98.69（正常）",
-    "🟢 黃金 4791.8（正常）",
-    "🟢 美債10Y殖利率 4.31（正常）",
-    "🟢 原油 WTI 99.05（正常）",
-    "🟢 美元/台幣 31.72（正常）"
+    "🟢 美元指數 98.73（正常）",
+    "🟢 黃金 4787.7（正常）",
+    "🟢 美債10Y殖利率 4.32（正常）",
+    "🟢 原油 WTI 98.15（正常）",
+    "🟢 美元/台幣 31.74（正常）"
   ],
-  "ai_summary": "市場氛圍相對穩定，指標均處於正常範圍。目前投資風險相對較低，投資者可採取保守策略。",
+  "ai_summary": "市場指標顯示整體穩定，但需留意VIX恐慌指數略微上升，可能預示市場內部的不確定性。",
   "market": {
     "TWII": {
       "price": 34861.16,
       "change_pct": 0.29
     },
     "SP500": {
-      "price": 6816.05,
-      "change_pct": -0.13
+      "price": 6813.22,
+      "change_pct": -0.17
     },
     "NASDAQ": {
-      "price": 22875.33,
-      "change_pct": 0.23
+      "price": 22869.27,
+      "change_pct": 0.21
     },
     "VIX": {
-      "price": 19.61,
-      "change_pct": 0.62
+      "price": 20.02,
+      "change_pct": 2.72
     },
     "TNX": {
-      "price": 4.31,
-      "change_pct": 0.47
+      "price": 4.32,
+      "change_pct": 0.56
     },
     "MOVE": {
       "price": 74.01,
       "change_pct": -6.01
     },
     "DXY": {
-      "price": 98.69,
-      "change_pct": -0.13
+      "price": 98.73,
+      "change_pct": -0.09
     },
     "GOLD": {
-      "price": 4791.8,
-      "change_pct": -0.01
+      "price": 4787.7,
+      "change_pct": -0.09
     },
     "OIL": {
-      "price": 99.05,
-      "change_pct": 1.21
+      "price": 98.15,
+      "change_pct": 0.29
     },
     "USDTWD": {
-      "price": 31.72,
-      "change_pct": 0.01
+      "price": 31.74,
+      "change_pct": 0.06
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "073e4fac",
+        "title": "巴基斯坦主辦美伊和談：一場高風險外交大戲",
+        "url": "https://www.bbc.com/news/articles/c3dl0g4rgn5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 14:07:20 GMT",
+        "summary_zh": "巴基斯坦軍方高層阿西姆·穆尼爾（Asim Munir）被稱為川普的「最愛將軍」。他可能是如何促成美伊和談的？根據最新情報，阿西姆·穆尼爾在與美國中央情報局（CIA）合作的同時，利用巴基斯坦的戰略位置，促進了美伊的和談。這場和談的背後，還涉及到關鍵礦物資源和加密貨幣的交易。阿西姆·穆尼爾的外交手腕讓人驚嘆，他可能是如何在這場高風險的外交大戲中取得成功的？",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a826b8c8",
+        "title": "台湾民进党领袖在北京会见习近平",
+        "url": "https://www.bbc.com/news/articles/cj94y87k2ljo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 07:55:55 GMT",
+        "summary_zh": "台湾民进党外交部长陈时中在去年底因病去世后，台湾国民党外交部长郑立文成为继2013年后首位访问中国的国民党领袖。郑立文的访问标志着台湾与中国关系的缓和。然而，台湾民进党和中国政府之间的紧张关系仍然存在。郑立文的访问可能会带来新的机遇和挑战。台湾和中国之间的关系复杂多变，未来如何发展还需观察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "191cc6dd",
+        "title": "中國工廠價格首次三年來恢復增長，遠超預期的油價大漲",
+        "url": "https://www.cnbc.com/2026/04/10/china-cpi-ppi-march-iran-oil-chock-consumer-inflation-manufacturing-.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-04-10 01:56:46",
+        "summary_zh": "中國工廠價格在三年內首次恢復增長，這一現象遠超市場預期。油價大漲是推動工廠價格增長的重要因素。儘管如此，中國仍面臨可能的通貨膨脹溢出效應。然而，由於中國積累了大量的戰略儲備以及能源來源的多元化，對於通貨膨脹的影響有所減輕。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "bb12a1f7",
+        "title": "城市熱浪：能源危機考驗新加坡的空調依賴",
+        "url": "https://www.bbc.com/news/articles/c80mxrdvkpjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 09 Apr 2026 22:03:15 GMT",
+        "summary_zh": "能源危機對亞洲國家造成了重大影響，尤其是那些對中東石油高度依賴的國家。新加坡因其高溫和高濕的氣候，對空調的需求非常高。然而，能源價格的上升使得新加坡面臨著能源危機的考驗。這種情況不僅影響到新加坡的經濟，也對其居民的生活方式產生了影響。新加坡政府正在努力尋找解決方案，減少對外部能源的依賴，並發展可再生能源。然而，這種過程需要時間和資源，新加坡居民仍然面臨著能源危機的挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "fde92c2c",
+        "title": "美國自十月以來接納了 4499 名難民，全部都是南非人，除了三個外",
+        "url": "https://www.bbc.com/news/articles/c4g89kkvenqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 08:28:12 GMT",
+        "summary_zh": "美國自十月以來接納了 4499 名難民，其中全部都是南非人，除了三個外。這些難民主要是來自南非的白人族群，美國總統川普給予他們優先待遇，他認為這些人正在遭受迫害。然而，南非政府對川普的描述表示反對。這項政策引發了爭議，許多人質疑美國對難民的選擇標準。這項措施的影響尚未明朗，未來將如何發展還不得而知。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "771ada8e",
+        "title": "印度政府提議新規管制社交媒體新聞和政治帖文",
+        "url": "https://www.bbc.com/news/articles/ce9mx2j3xlxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 00:23:18 GMT",
+        "summary_zh": "印度政府正在考慮新的規範，旨在管制社交媒體上的新聞和政治帖文。這些新規範將給予政府更多的權力，對播客和影響力人士分享的新聞相關帖文進行監管。這一措施引發了對言論自由的擔憂，許多人擔心這將是對新聞自由的侵犯。這一發展也引起了外界的關注，許多人認為這將對印度的民主制度造成不利影響。印度政府表示，這些新規範是為了防止假新聞和不實信息的傳播。然而，許多人質疑政府的動機和這一措施的有效性。這一事件也引發了對印度政府管制社交媒體的議題的討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9e4a43c5",
+        "title": "嘻哈先驅阿法卡·班巴塔，享年67歲",
+        "url": "https://www.bbc.com/news/articles/c2evppm30p7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 00:50:21 GMT",
+        "summary_zh": "阿法卡·班巴塔（Afrika Bambaataa）是一位嘻哈音樂先驅，他出生於美國布朗克斯區。他的全球熱門歌曲《星球之戰》（Planet Rock）被認為是塑造了1980年代嘻哈音樂的重要一部分。班巴塔的音樂風格融合了電子音樂、節奏藍調和嘻哈元素，對於嘻哈音樂的發展產生了深遠的影響。他的去世將會讓許多音樂愛好者感到哀傷。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "88a05c81",
+        "title": "以色列準備與黎巴嫩直接談判，但內塔尼亞胡否認會簽署停火協議",
+        "url": "https://www.bbc.com/news/articles/cge0xre3d27o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 02:10:44 GMT",
+        "summary_zh": "近日，黎巴嫩官員呼籲在談判前簽署停火協議，但以色列總理內塔尼亞胡表示，以色列將與黎巴嫩進行直接談判，但不會簽署停火協議。這一發展表明雙方在談判前仍存在著嚴重的分歧。黎巴嫩官員的呼籲是為了保護黎巴嫩人民免受以色列的攻擊，但內塔尼亞胡的回應則表明以色列將堅持自己的立場。這一局勢的發展將對中東地區的和平進程產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b08e34c0",
+        "title": "美伊談判在即 伊朗高級官員爆內鬨",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5400142",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 23:30:01 +0800",
+        "summary_zh": "伊朗高級官員就即將前往巴基斯坦與美國進行談判的代表團成員和權限問題，陷入爭論。根據知情人士的透露，美國與伊朗在巴基斯坦斡旋下，達成停火兩週的共識。兩方將於4月11日在巴基斯坦舉行會議。伊朗的內鬨可能會影響到談判的進行，影響到美伊關係的發展。目前尚未知曉內鬨的具體原因和影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8cd128f0",
+        "title": "德國跨性別極右翼極端份子在捷克被捕",
+        "url": "https://www.bbc.com/news/articles/cn4vdnr8knjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 10:05:42 GMT",
+        "summary_zh": "德國媒體報導，德國跨性別極右翼極端份子馬拉-史文雅·萊比奇（Marla-Svenja Liebich）曾是極右翼組織「血與榮譽」（Blood and Honour）的成員。該組織被認為是德國的極右翼組織之一。馬拉-史文雅·萊比奇被捷克當局拘捕，原因尚未明確。德國政府對此事件表示關注，正在與捷克當局合作調查。這一事件引起了德國社會的廣泛關注，許多人對此表示譴責。德國政府強調，極右翼組織和極端主義不受歡迎，並將繼續努力打擊這種行為。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a8d6cb7e",
+        "title": "俄羅斯和烏克蘭同意在東正教復活節期間停火",
+        "url": "https://www.bbc.com/news/articles/cn0wkkwev2vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 11:56:12 GMT",
+        "summary_zh": "俄羅斯總統普京宣布停火協議，停火時間從4月11日下午開始，直到復活節星期日。這項停火協議將在東正教復活節期間實施，旨在為烏克蘭人民帶來短暫的和平。停火期間，雙方將暫時停止軍事行動，讓烏克蘭人民有機會慶祝復活節。然而，停火協議的具體細節尚未公開，仍有許多疑慮和不確定性。這項停火協議可能會給烏克蘭人民帶來短暫的安慰，但長期來看，停火協議是否能夠持續下去，仍需要觀察和監測。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b66d467b",
+        "title": "人權組織譴責美國在關塔那摩灣設立難民營計畫",
+        "url": "https://www.theguardian.com/us-news/2026/apr/10/trump-guantanamo-cuban-migrants",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 14:02:03 GMT",
+        "summary_zh": "近日，多個美國和國際人權組織發表聯名信，譴責美國政府計劃在關塔那摩灣軍事基地設立難民營，收容來自古巴的難民。根據信件內容，這些組織對於美國國防部高層官員上個月的言論感到深感擔憂，認為在關塔那摩灣設立難民營將是一件「令人不安和不合理的事」。這些組織認為，美國政府的這一計劃將會對難民造成傷害，違反了人權原則。目前，古巴正面臨著嚴重的人道主義危機，美國政府的這一計劃引起了人權組織的強烈反彈。這一事件將會對美國政府的形象和人權政策產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5e9426ec",
+        "title": "野生黑猩猩爆發「內戰」：兩群黑猩猩間發生有組織的攻擊行動",
+        "url": "https://www.theguardian.com/environment/2026/apr/09/civil-war-chimpanzee-group-closer-to-human-condition-aoe",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 09 Apr 2026 18:00:02 GMT",
+        "summary_zh": "在烏干達的基巴萊國家公園，一群黑猩猩的社群出現了內部衝突。2015年6月，一位名為亞倫·桑德爾的靈長類動物學家正在觀察一群黑猩猩的行為時，發現了一些奇怪的跡象。當其他黑猩猩的成員靠近時，這群黑猩猩的成員開始顯示出焦慮的行為，彼此互相觸摸以求安慰。這種行為與他們原本的社群關係不太相符。事後，桑德爾表示，這可能是黑猩猩之間的內戰爆發的第一個跡象。這場內戰持續了幾年，並且造成了許多傷亡。這種現象可能是黑猩猩社群中第一次出現的統一社群之間的內部衝突。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "18205f27",
+        "title": "秘魯民眾投票選舉，希望打破不穩定循環",
+        "url": "https://www.theguardian.com/world/2026/apr/10/peru-election-polls-instability",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 12:28:36 GMT",
+        "summary_zh": "秘魯民眾將於星期日前往投票，希望打破近十年來的不穩定局面，同時面對著嚴重的犯罪和腐敗問題。這次選舉共有 35 名總統候選人，超過 27 萬名有投票權的人民將選擇其中一位。秘魯近年來出現了九位總統的更替，同時伴隨著暴力犯罪的上升、腐敗醜聞和對機構和政治家的信任度大幅下降。這次選舉的投票紙長達近半米，是該國歷史上最長的一次。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "55fc8e8f",
+        "title": "川普錯判伊朗局勢　前美國外交官批評他錯誤地將委內瑞拉局勢與伊朗相提並論",
+        "url": "https://www.theguardian.com/world/2026/apr/10/trump-iran-intervention-easy-as-venezuela-maduro-capture-john-feeley",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 10:00:16 GMT",
+        "summary_zh": "前美國外交官約翰費利 (John Feeley) 表示，川普總統錯誤地認為委內瑞拉總統馬杜羅被捕的經歷，提供了一個成功的藍本，來推翻伊朗政權。費利認為，川普總統在委內瑞拉局勢的勝利中，感到滿足和自信，從而導致他錯誤地將伊朗局勢與委內瑞拉局勢相提並論。這種錯誤的判斷，導致美國對伊朗的攻擊，造成了中東地區的破壞和全球經濟的重創。費利批評川普總統的決定，說他正在「收穫苦果」，因為他錯誤地將委內瑞拉局勢與伊朗局勢相提並論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9c79c591",
+        "title": "美國被指逼迫拉丁美洲國家切斷與古巴醫生計畫的關係",
+        "url": "https://www.theguardian.com/world/2026/apr/09/us-cuban-doctors-program",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 09 Apr 2026 17:59:43 GMT",
+        "summary_zh": "古巴外交部長布魯諾·羅德里格斯指責美國政府正在逼迫拉丁美洲國家取消與古巴簽訂的醫生派遣協議。這些協議已經存在數十年，古巴通過這些醫生派遣使命從外國獲得了數十億美元的收入。美國政府的壓力導致多個拉丁美洲國家停止派遣古巴醫生。古巴外交部長認為美國政府試圖透過這種方式對古巴的經濟施加壓力。這種行動引發了拉丁美洲國家與古巴之間的緊張關係，古巴外交部長呼籲拉丁美洲國家堅持自己的決定，並不受美國政府的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "eac3b663",
+        "title": "颶風馬莉亞襲擊所羅門群島：115哩風速引發毀滅性破壞",
+        "url": "https://www.theguardian.com/environment/2026/apr/10/weather-tracker-cyclone-maila-solomon-islands",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 09:11:48 GMT",
+        "summary_zh": "所羅門群島正在遭受颶風馬莉亞的襲擊，風速達到每小時 185 公里，造成廣泛的破壞。颶風已經在所羅門群島西部、查伊瑟爾省和伊莎貝爾省造成了嚴重的損害，學校、醫院和房屋都受到了影響。政府正在優先提供人道援助，約 120 人已經被迫離開家園，近 73,000 人受到影響。這場颶風的影響不僅限於所羅門群島，越南的溫度也在上升，南韓也遭受了豪雨的侵襲。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bbb05643",
+        "title": "新加坡總理：不會停止向澳洲供應燃料，澳洲最大石油來源也承諾不會減少供應",
+        "url": "https://www.theguardian.com/australia-news/2026/apr/10/australia-singapore-fuel-supply-deal-agreement-albanese",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Fri, 10 Apr 2026 08:16:21 GMT",
+        "summary_zh": "澳洲和新加坡簽署新的能源安全協議，雙方將盡最大努力滿足彼此的能源需求。新加坡總理表示，儘管國際能源危機，新加坡將繼續向澳洲供應燃料和液化天然氣。澳洲總理阿爾巴尼斯訪問新加坡，與新加坡總理文良碩會面，簽署了新的能源安全協議。協議中，澳洲和新加坡將繼續向彼此供應燃料和液化天然氣，同時也將在自由貿易協議中加入法律約束，確保雙方對於能源等基本供應的穩定性。這一協議是為了應對中東戰爭引起的能源危機而簽署的。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
+      {
+        "id": "5dc29aa8",
+        "title": "梅拉尼婭·川普否認與艾普斯坦有關的謠言",
+        "url": "https://www.bbc.com/news/articles/c3ex07l1qvpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 10 Apr 2026 08:37:05 GMT",
+        "summary_zh": "梅拉尼婭·川普在一份意外聲明中否認與前財富顧問傑弗瑞·艾普斯坦有任何關係，並呼籲國會聽取受害者們的聲音。艾普斯坦因性侵犯罪名成立，曾被判處長期監禁。梅拉尼婭·川普的聲明是對艾普斯坦謠言的最新回應，表明她對自己的清白感到堅定。這一事件的背景是川普政府的腐敗醜聞，梅拉尼婭·川普的聲明可能會對這一事件產生影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fe466f2c",
+        "title": "白宮工作人員被禁止在預測市場上下注",
+        "url": "https://www.bbc.com/news/articles/cgld65x396go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 10 Apr 2026 02:32:27 GMT",
+        "summary_zh": "近期，預測市場的流行度不斷上升，許多用戶開始在這些平台上下注，包括對於戰爭等敏感議題的預測。白宮工作人員被禁止在這些平台上下注，原因是為了避免與政府的工作產生衝突。這一規定是為了確保白宮工作人員的中立性和專業性，避免任何可能影響政府決策的行為。這一措施也被視為是維護政府誠信和公正性的重要一步。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ccf652a7",
+        "title": "汽油價格大幅上漲 美國通膨率達近兩年來最高",
+        "url": "https://www.bbc.com/news/articles/cde56g80xp5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 10 Apr 2026 16:20:58 GMT",
+        "summary_zh": "美國汽油價格因伊朗戰爭而大幅上漲，導致通膨率達到近兩年來的最高點，3.3%。這種情況下，美國消費者必須面臨更高的生活費用。伊朗戰爭對美國經濟的影響正在逐漸顯現，汽油價格的上漲是其中一個重要的因素。這種情況下，美國政府可能會面臨壓力，需要採取措施來控制通膨率和穩定經濟。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1ebc30d2",
+        "title": "加拿大卡尼首相接收另一名黨員加入自由黨，近達多數政府門檻",
+        "url": "https://www.bbc.com/news/articles/c98k9wd254xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Apr 2026 21:00:25 GMT",
+        "summary_zh": "加拿大首相卡尼近日迎來另一名黨員加入自由黨，目前已經接近達成多數政府門檻。這名黨員是來自安大略省的瑪莉蓮·格拉杜，她的加入使得自由黨在國會中的席次更加鞏固。卡尼首相需要再獲得一名黨員加入自由黨，才能確保自由黨在國會中取得多數席次。這一發展對加拿大政治產生了重大影響，自由黨將在未來的選舉中擁有更強大的實力。然而，這一發展也引發了對卡尼首相的批評，他被指控利用黨員的背叛來鞏固自己的權力。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "c06295ff",
         "title": "美國與匈牙利雙邊夥伴關係進展",
@@ -94,24 +360,12 @@
         "ai_classified": true
       },
       {
-        "id": "cbc1e692",
-        "title": "白宮CEQ發佈指南：簡化NEPA審查程序",
-        "url": "https://www.whitehouse.gov/releases/2026/04/ceq-issues-guidance-on-categorical-exclusions/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Apr 2026 16:13:58 +0000",
-        "summary_zh": "白宮環境質量評估委員會（CEQ）今天發佈了一份新指南，規範聯邦部門和機構如何根據國家環境政策法案（NEPA）建立、修訂、採用和適用類別排除（CE）。這份指南旨在釋放基礎設施項目免於過度許可的困擾。根據這份指南，聯邦部門和機構可以根據NEPA的規定，自行決定是否需要進行環境影響評估。這一新指南將大大簡化NEPA審查程序，幫助基礎設施項目更快地推動。這一措施將對美國的基礎設施建設產生重大影響，促進美國的經濟發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "8297114e",
         "title": "梅拉尼婭·川普遭受批評：她呼籲聽取強姦受害者聲音，但受害者反駁說已經做了足夠的努力",
         "url": "https://www.theguardian.com/us-news/live/2026/apr/10/donald-trump-melania-jeffrey-epstein-iran-inflation-latest-news-updates",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Fri, 10 Apr 2026 15:32:32 GMT",
+        "published_at": "Fri, 10 Apr 2026 16:20:42 GMT",
         "summary_zh": "美國第一夫人梅拉尼婭·川普近日發表了一份意外聲明，呼籲聽取強姦受害者們的聲音，但這一舉動卻遭到了多名受害者們的批評。受害者們認為，梅拉尼婭·川普的呼籽是太晚了，而且她們已經做了足夠的努力來爭取正義。同時，受害者們還再次呼籽，要求調查官 Pam Bondi 來回答他們的問題。這一事件引起了美國政治界的關注，展現了美國社會對強姦和性侵犯問題的關注。",
         "sentiment": "負面",
         "is_breaking": true,
@@ -126,8 +380,8 @@
         "published_at": "Fri, 10 Apr 2026 14:11:28 GMT",
         "summary_zh": "德克薩斯州最高刑事法院宣布翻轉一名名為克拉倫斯·柯蒂斯·瓊恩的70歲男子的死刑判決。瓊恩於1978年因謀殺一名40歲的休斯頓商店老闆而被判死刑，之後多年來法院多次裁定瓊恩因智力障礙而無法被執行死刑。這名男子在死刑囚房待了近50年，多年來一直沒有律師。法院認為這名男子的智力障礙使他無法承受死刑判決，因此宣布翻轉判決。這一判決將對瓊恩的未來產生重大影響，讓他有機會獲得釋放。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "3cb5bd74",
@@ -164,263 +418,45 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "b0ec18e8",
-        "title": "CDC報告延遲公佈：疫苗減少急診及住院率　官員質疑研究方法",
-        "url": "https://www.theguardian.com/us-news/2026/apr/10/cdc-chief-covid-vaccine",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 10 Apr 2026 11:00:16 GMT",
-        "summary_zh": "美國疾病控制與預防中心(CDC)一份關於疫苗效益的報告，因為CDC代理主任Jay Bhattacharya延遲公佈，引起關注。根據華盛頓郵報的報導，CDC科學家進行的研究發現，疫苗能夠減少健康成年人去急診室及住院的機率約半數。然而，Bhattacharya表示，因為研究方法有問題，才延遲了報告的公佈。這一事件引起了對政府是否在背後試圖削弱疫苗的信任。CDC的研究顯示，疫苗能夠有效減少急診及住院率，這一發現對於疫苗推廣具有重要意義。然而，政府的延遲公佈這一報告，可能會對疫苗的信任度產生負面影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1ebc30d2",
-        "title": "加拿大卡尼首相接收另一名黨員加入自由黨，近達多數政府門檻",
-        "url": "https://www.bbc.com/news/articles/c98k9wd254xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Apr 2026 21:00:25 GMT",
-        "summary_zh": "加拿大首相卡尼近日迎來另一名黨員加入自由黨，目前已經接近達成多數政府門檻。這名黨員是來自安大略省的瑪莉蓮·格拉杜，她的加入使得自由黨在國會中的席次更加鞏固。卡尼首相需要再獲得一名黨員加入自由黨，才能確保自由黨在國會中取得多數席次。這一發展對加拿大政治產生了重大影響，自由黨將在未來的選舉中擁有更強大的實力。然而，這一發展也引發了對卡尼首相的批評，他被指控利用黨員的背叛來鞏固自己的權力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5dc29aa8",
-        "title": "梅拉尼婭·川普否認與艾普斯坦有關的謠言",
-        "url": "https://www.bbc.com/news/articles/c3ex07l1qvpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Fri, 10 Apr 2026 08:37:05 GMT",
-        "summary_zh": "梅拉尼婭·川普在一份意外聲明中否認與前財富顧問傑弗瑞·艾普斯坦有任何關係，並呼籲國會聽取受害者們的聲音。艾普斯坦因性侵犯罪名成立，曾被判處長期監禁。梅拉尼婭·川普的聲明是對艾普斯坦謠言的最新回應，表明她對自己的清白感到堅定。這一事件的背景是川普政府的腐敗醜聞，梅拉尼婭·川普的聲明可能會對這一事件產生影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fe466f2c",
-        "title": "白宮工作人員被禁止在預測市場上下注",
-        "url": "https://www.bbc.com/news/articles/cgld65x396go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Fri, 10 Apr 2026 02:32:27 GMT",
-        "summary_zh": "近期，預測市場的流行度不斷上升，許多用戶開始在這些平台上下注，包括對於戰爭等敏感議題的預測。白宮工作人員被禁止在這些平台上下注，原因是為了避免與政府的工作產生衝突。這一規定是為了確保白宮工作人員的中立性和專業性，避免任何可能影響政府決策的行為。這一措施也被視為是維護政府誠信和公正性的重要一步。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "b66d467b",
-        "title": "人權組織譴責美國在關塔那摩灣設立難民營計畫",
-        "url": "https://www.theguardian.com/us-news/2026/apr/10/trump-guantanamo-cuban-migrants",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Fri, 10 Apr 2026 14:02:03 GMT",
-        "summary_zh": "近日，多個美國和國際人權組織發表聯名信，譴責美國政府計劃在關塔那摩灣軍事基地設立難民營，收容來自古巴的難民。根據信件內容，這些組織對於美國國防部高層官員上個月的言論感到深感擔憂，認為在關塔那摩灣設立難民營將是一件「令人不安和不合理的事」。這些組織認為，美國政府的這一計劃將會對難民造成傷害，違反了人權原則。目前，古巴正面臨著嚴重的人道主義危機，美國政府的這一計劃引起了人權組織的強烈反彈。這一事件將會對美國政府的形象和人權政策產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b08e34c0",
-        "title": "美伊談判在即 伊朗高級官員爆內鬨",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5400142",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Fri, 10 Apr 2026 23:30:01 +0800",
-        "summary_zh": "伊朗高級官員就即將前往巴基斯坦與美國進行談判的代表團成員和權限問題，陷入爭論。根據知情人士的透露，美國與伊朗在巴基斯坦斡旋下，達成停火兩週的共識。兩方將於4月11日在巴基斯坦舉行會議。伊朗的內鬨可能會影響到談判的進行，影響到美伊關係的發展。目前尚未知曉內鬨的具體原因和影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5e9426ec",
-        "title": "野生黑猩猩爆發「內戰」：兩群黑猩猩間發生有組織的攻擊行動",
-        "url": "https://www.theguardian.com/environment/2026/apr/09/civil-war-chimpanzee-group-closer-to-human-condition-aoe",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 09 Apr 2026 18:00:02 GMT",
-        "summary_zh": "在烏干達的基巴萊國家公園，一群黑猩猩的社群出現了內部衝突。2015年6月，一位名為亞倫·桑德爾的靈長類動物學家正在觀察一群黑猩猩的行為時，發現了一些奇怪的跡象。當其他黑猩猩的成員靠近時，這群黑猩猩的成員開始顯示出焦慮的行為，彼此互相觸摸以求安慰。這種行為與他們原本的社群關係不太相符。事後，桑德爾表示，這可能是黑猩猩之間的內戰爆發的第一個跡象。這場內戰持續了幾年，並且造成了許多傷亡。這種現象可能是黑猩猩社群中第一次出現的統一社群之間的內部衝突。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "18205f27",
-        "title": "秘魯民眾投票選舉，希望打破不穩定循環",
-        "url": "https://www.theguardian.com/world/2026/apr/10/peru-election-polls-instability",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Fri, 10 Apr 2026 12:28:36 GMT",
-        "summary_zh": "秘魯民眾將於星期日前往投票，希望打破近十年來的不穩定局面，同時面對著嚴重的犯罪和腐敗問題。這次選舉共有 35 名總統候選人，超過 27 萬名有投票權的人民將選擇其中一位。秘魯近年來出現了九位總統的更替，同時伴隨著暴力犯罪的上升、腐敗醜聞和對機構和政治家的信任度大幅下降。這次選舉的投票紙長達近半米，是該國歷史上最長的一次。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "55fc8e8f",
-        "title": "川普錯判伊朗局勢　前美國外交官批評他錯誤地將委內瑞拉局勢與伊朗相提並論",
-        "url": "https://www.theguardian.com/world/2026/apr/10/trump-iran-intervention-easy-as-venezuela-maduro-capture-john-feeley",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Fri, 10 Apr 2026 10:00:16 GMT",
-        "summary_zh": "前美國外交官約翰費利 (John Feeley) 表示，川普總統錯誤地認為委內瑞拉總統馬杜羅被捕的經歷，提供了一個成功的藍本，來推翻伊朗政權。費利認為，川普總統在委內瑞拉局勢的勝利中，感到滿足和自信，從而導致他錯誤地將伊朗局勢與委內瑞拉局勢相提並論。這種錯誤的判斷，導致美國對伊朗的攻擊，造成了中東地區的破壞和全球經濟的重創。費利批評川普總統的決定，說他正在「收穫苦果」，因為他錯誤地將委內瑞拉局勢與伊朗局勢相提並論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9c79c591",
-        "title": "美國被指逼迫拉丁美洲國家切斷與古巴醫生計畫的關係",
-        "url": "https://www.theguardian.com/world/2026/apr/09/us-cuban-doctors-program",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 09 Apr 2026 17:59:43 GMT",
-        "summary_zh": "古巴外交部長布魯諾·羅德里格斯指責美國政府正在逼迫拉丁美洲國家取消與古巴簽訂的醫生派遣協議。這些協議已經存在數十年，古巴通過這些醫生派遣使命從外國獲得了數十億美元的收入。美國政府的壓力導致多個拉丁美洲國家停止派遣古巴醫生。古巴外交部長認為美國政府試圖透過這種方式對古巴的經濟施加壓力。這種行動引發了拉丁美洲國家與古巴之間的緊張關係，古巴外交部長呼籲拉丁美洲國家堅持自己的決定，並不受美國政府的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "eac3b663",
-        "title": "颶風馬莉亞襲擊所羅門群島：115哩風速引發毀滅性破壞",
-        "url": "https://www.theguardian.com/environment/2026/apr/10/weather-tracker-cyclone-maila-solomon-islands",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Fri, 10 Apr 2026 09:11:48 GMT",
-        "summary_zh": "所羅門群島正在遭受颶風馬莉亞的襲擊，風速達到每小時 185 公里，造成廣泛的破壞。颶風已經在所羅門群島西部、查伊瑟爾省和伊莎貝爾省造成了嚴重的損害，學校、醫院和房屋都受到了影響。政府正在優先提供人道援助，約 120 人已經被迫離開家園，近 73,000 人受到影響。這場颶風的影響不僅限於所羅門群島，越南的溫度也在上升，南韓也遭受了豪雨的侵襲。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "bbb05643",
-        "title": "新加坡總理：不會停止向澳洲供應燃料，澳洲最大石油來源也承諾不會減少供應",
-        "url": "https://www.theguardian.com/australia-news/2026/apr/10/australia-singapore-fuel-supply-deal-agreement-albanese",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Fri, 10 Apr 2026 08:16:21 GMT",
-        "summary_zh": "澳洲和新加坡簽署新的能源安全協議，雙方將盡最大努力滿足彼此的能源需求。新加坡總理表示，儘管國際能源危機，新加坡將繼續向澳洲供應燃料和液化天然氣。澳洲總理阿爾巴尼斯訪問新加坡，與新加坡總理文良碩會面，簽署了新的能源安全協議。協議中，澳洲和新加坡將繼續向彼此供應燃料和液化天然氣，同時也將在自由貿易協議中加入法律約束，確保雙方對於能源等基本供應的穩定性。這一協議是為了應對中東戰爭引起的能源危機而簽署的。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "fde92c2c",
-        "title": "美國自十月以來接納了 4499 名難民，全部都是南非人，除了三個外",
-        "url": "https://www.bbc.com/news/articles/c4g89kkvenqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 10 Apr 2026 08:28:12 GMT",
-        "summary_zh": "美國自十月以來接納了 4499 名難民，其中全部都是南非人，除了三個外。這些難民主要是來自南非的白人族群，美國總統川普給予他們優先待遇，他認為這些人正在遭受迫害。然而，南非政府對川普的描述表示反對。這項政策引發了爭議，許多人質疑美國對難民的選擇標準。這項措施的影響尚未明朗，未來將如何發展還不得而知。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9e4a43c5",
-        "title": "嘻哈先驅阿法卡·班巴塔，享年67歲",
-        "url": "https://www.bbc.com/news/articles/c2evppm30p7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 10 Apr 2026 00:50:21 GMT",
-        "summary_zh": "阿法卡·班巴塔（Afrika Bambaataa）是一位嘻哈音樂先驅，他出生於美國布朗克斯區。他的全球熱門歌曲《星球之戰》（Planet Rock）被認為是塑造了1980年代嘻哈音樂的重要一部分。班巴塔的音樂風格融合了電子音樂、節奏藍調和嘻哈元素，對於嘻哈音樂的發展產生了深遠的影響。他的去世將會讓許多音樂愛好者感到哀傷。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "88a05c81",
-        "title": "以色列準備與黎巴嫩直接談判，但內塔尼亞胡否認會簽署停火協議",
-        "url": "https://www.bbc.com/news/articles/cge0xre3d27o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 10 Apr 2026 02:10:44 GMT",
-        "summary_zh": "近日，黎巴嫩官員呼籲在談判前簽署停火協議，但以色列總理內塔尼亞胡表示，以色列將與黎巴嫩進行直接談判，但不會簽署停火協議。這一發展表明雙方在談判前仍存在著嚴重的分歧。黎巴嫩官員的呼籲是為了保護黎巴嫩人民免受以色列的攻擊，但內塔尼亞胡的回應則表明以色列將堅持自己的立場。這一局勢的發展將對中東地區的和平進程產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a5216273",
-        "title": "中東停戰或不停戰，地區重組仍未完成",
-        "url": "https://www.bbc.com/news/articles/cp3l4yk5rlgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Apr 2026 23:01:47 GMT",
-        "summary_zh": "中東地區目前陷入戰爭，雙方都有理由結束戰爭，但卻無法達成共識。停戰或不停戰，中東地區的重組仍未完成，雙方的分歧仍然存在。這意味著戰爭的風險仍然存在，地區的未來仍然充滿不確定性。雖然雙方都有理由結束戰爭，但卻無法達成共識，這使得停戰的可能性變得更加渺茫。中東地區的重組仍然是一個複雜的問題，需要雙方的合作和妥協才能找到解決方案。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a826b8c8",
-        "title": "台湾民进党领袖在北京会见习近平",
-        "url": "https://www.bbc.com/news/articles/cj94y87k2ljo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Fri, 10 Apr 2026 07:55:55 GMT",
-        "summary_zh": "台湾民进党外交部长陈时中在去年底因病去世后，台湾国民党外交部长郑立文成为继2013年后首位访问中国的国民党领袖。郑立文的访问标志着台湾与中国关系的缓和。然而，台湾民进党和中国政府之间的紧张关系仍然存在。郑立文的访问可能会带来新的机遇和挑战。台湾和中国之间的关系复杂多变，未来如何发展还需观察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8cd128f0",
-        "title": "德國跨性別極右翼極端份子在捷克被捕",
-        "url": "https://www.bbc.com/news/articles/cn4vdnr8knjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 10 Apr 2026 10:05:42 GMT",
-        "summary_zh": "德國媒體報導，德國跨性別極右翼極端份子馬拉-史文雅·萊比奇（Marla-Svenja Liebich）曾是極右翼組織「血與榮譽」（Blood and Honour）的成員。該組織被認為是德國的極右翼組織之一。馬拉-史文雅·萊比奇被捷克當局拘捕，原因尚未明確。德國政府對此事件表示關注，正在與捷克當局合作調查。這一事件引起了德國社會的廣泛關注，許多人對此表示譴責。德國政府強調，極右翼組織和極端主義不受歡迎，並將繼續努力打擊這種行為。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a8d6cb7e",
-        "title": "俄羅斯和烏克蘭同意在東正教復活節期間停火",
-        "url": "https://www.bbc.com/news/articles/cn0wkkwev2vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 10 Apr 2026 11:56:12 GMT",
-        "summary_zh": "俄羅斯總統普京宣布停火協議，停火時間從4月11日下午開始，直到復活節星期日。這項停火協議將在東正教復活節期間實施，旨在為烏克蘭人民帶來短暫的和平。停火期間，雙方將暫時停止軍事行動，讓烏克蘭人民有機會慶祝復活節。然而，停火協議的具體細節尚未公開，仍有許多疑慮和不確定性。這項停火協議可能會給烏克蘭人民帶來短暫的安慰，但長期來看，停火協議是否能夠持續下去，仍需要觀察和監測。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "771ada8e",
-        "title": "印度政府提議新規管制社交媒體新聞和政治帖文",
-        "url": "https://www.bbc.com/news/articles/ce9mx2j3xlxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Fri, 10 Apr 2026 00:23:18 GMT",
-        "summary_zh": "印度政府正在考慮新的規範，旨在管制社交媒體上的新聞和政治帖文。這些新規範將給予政府更多的權力，對播客和影響力人士分享的新聞相關帖文進行監管。這一措施引發了對言論自由的擔憂，許多人擔心這將是對新聞自由的侵犯。這一發展也引起了外界的關注，許多人認為這將對印度的民主制度造成不利影響。印度政府表示，這些新規範是為了防止假新聞和不實信息的傳播。然而，許多人質疑政府的動機和這一措施的有效性。這一事件也引發了對印度政府管制社交媒體的議題的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bb12a1f7",
-        "title": "城市熱浪：能源危機考驗新加坡的空調依賴",
-        "url": "https://www.bbc.com/news/articles/c80mxrdvkpjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 09 Apr 2026 22:03:15 GMT",
-        "summary_zh": "能源危機對亞洲國家造成了重大影響，尤其是那些對中東石油高度依賴的國家。新加坡因其高溫和高濕的氣候，對空調的需求非常高。然而，能源價格的上升使得新加坡面臨著能源危機的考驗。這種情況不僅影響到新加坡的經濟，也對其居民的生活方式產生了影響。新加坡政府正在努力尋找解決方案，減少對外部能源的依賴，並發展可再生能源。然而，這種過程需要時間和資源，新加坡居民仍然面臨著能源危機的挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "ai": [
+      {
+        "id": "2f59430a",
+        "title": "什麼是名字？莫德納的「疫苗」vs. 「治療」困境？",
+        "url": "https://www.technologyreview.com/2026/04/10/1135631/whats-in-a-name-modernas-vaccine-vs-therapy-dilemma/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Fri, 10 Apr 2026 14:04:20 +0000",
+        "summary_zh": "莫德納公司因為疫苗的命名問題而困擾。莫德納公司的下一代mRNA疫苗計畫，針對流感和新興病毒的研發，遭到了疫苗懷疑者們的反對。這些反對者認為莫德納的疫苗應該被稱為「治療」，而不是「疫苗」。莫德納公司面臨著一個困境：要如何命名自己的疫苗，以避免與傳統的疫苗概念混淆？這個問題不僅僅是語言上的問題，也是對於疫苗概念的理解和接受度的問題。莫德納公司的命名困境，反映了疫苗的命名和定義的變化，也反映了疫苗的發展和應用中的挑戰。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c063fb3a",
+        "title": "下載：Jeff VanderMeer獨家故事和太恐怖的AI模型",
+        "url": "https://www.technologyreview.com/2026/04/10/1135618/the-download-jeff-vandermeer-short-story-and-ai-models-too-danger-to-release/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Fri, 10 Apr 2026 12:10:00 +0000",
+        "summary_zh": "今天的下載是科技界的每日新聞，內容包括Jeff VanderMeer的短篇小說《星際聯盟》。故事描述了一艘太空船在一個敵意的行星上墜毀，唯一倖存的成員是太空船上的AI模型。這些AI模型被設計成太恐怖，甚至不敢將它們發布。這些模型的存在引發了關於人工智慧安全性的疑慮。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f57dfb80",
+        "title": "星際航行",
+        "url": "https://www.technologyreview.com/2026/04/10/1135106/jeff-vandermeer-constellations-science-fiction/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Fri, 10 Apr 2026 10:00:00 +0000",
+        "summary_zh": "我們的太空船在星球上墜毀，距離家鄉遙遠。太空船無法修復，救援信號也失效。除了我之外，只有航海導航員、船長的一部分，以及船上的人工智慧（AI）心智還剩下。外面的大氣環境對大多數生物來說是有害的。 我們在生存艇中聚集在一起，試圖找到逃離星球的方法。人工智慧心智正在分析我們的資源和環境，尋找可能的解決方案。然而，太空船的損壞程度令人擔憂，是否能夠成功逃離星球仍然存疑。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "2d8bdc9b",
         "title": "Sam Altman 在 OpenAI 的任期：恐懼與憎恨",
@@ -494,30 +530,6 @@
         "ai_classified": true
       },
       {
-        "id": "2f59430a",
-        "title": "什麼是名字？莫德納的「疫苗」vs. 「治療」困境？",
-        "url": "https://www.technologyreview.com/2026/04/10/1135631/whats-in-a-name-modernas-vaccine-vs-therapy-dilemma/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Fri, 10 Apr 2026 14:04:20 +0000",
-        "summary_zh": "莫德納公司因為疫苗的命名問題而困擾。莫德納公司的下一代mRNA疫苗計畫，針對流感和新興病毒的研發，遭到了疫苗懷疑者們的反對。這些反對者認為莫德納的疫苗應該被稱為「治療」，而不是「疫苗」。莫德納公司面臨著一個困境：要如何命名自己的疫苗，以避免與傳統的疫苗概念混淆？這個問題不僅僅是語言上的問題，也是對於疫苗概念的理解和接受度的問題。莫德納公司的命名困境，反映了疫苗的命名和定義的變化，也反映了疫苗的發展和應用中的挑戰。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "f57dfb80",
-        "title": "星際航行",
-        "url": "https://www.technologyreview.com/2026/04/10/1135106/jeff-vandermeer-constellations-science-fiction/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Fri, 10 Apr 2026 10:00:00 +0000",
-        "summary_zh": "我們的太空船在星球上墜毀，距離家鄉遙遠。太空船無法修復，救援信號也失效。除了我之外，只有航海導航員、船長的一部分，以及船上的人工智慧（AI）心智還剩下。外面的大氣環境對大多數生物來說是有害的。 我們在生存艇中聚集在一起，試圖找到逃離星球的方法。人工智慧心智正在分析我們的資源和環境，尋找可能的解決方案。然而，太空船的損壞程度令人擔憂，是否能夠成功逃離星球仍然存疑。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "62bad3e0",
         "title": "AI 頻道主播們真的很想告訴你如何讓男人開心",
         "url": "https://www.wired.com/story/ai-podcasters-really-want-to-tell-you-how-to-keep-a-man-happy/",
@@ -579,6 +591,126 @@
       }
     ],
     "stock_tw": [
+      {
+        "id": "30da803c",
+        "title": "國發基金啟動退場機制 申報擬出售聯合再生持股",
+        "url": "https://www.cna.com.tw/news/afe/202604100372.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Apr 2026 23:06:54 +0800",
+        "summary_zh": "國發基金投資的「綠能國家隊」聯合再生引發爭議，外界關注退場規劃。根據公告，國發基金申報將出售聯合再生持股，共計420萬1476股。國發基金表示，此為例行退場機制。這一決定可能會對聯合再生股票價格產生影響，投資者應密切關注。國發基金的退場規劃是否能順利實施，還需要觀察後續發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "edce9b64",
+        "title": "智冠設AI發展中心 布局生成式AI擴大營運動能",
+        "url": "https://www.cna.com.tw/news/afe/202604100367.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Apr 2026 22:27:41 +0800",
+        "summary_zh": "智冠近日加速其在人工智慧（AI）領域的布局，董事會已通過成立AI發展中心。該中心將串聯各事業體，發展生成式AI、B2B與B2C應用，作為未來營運成長動能。這一舉動表明智冠致力於推動AI技術的應用，為未來的營運成長打下基礎。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b9f70fad",
+        "title": "中工剔除堡新等提名董事名單 股東反擊聲請假處分",
+        "url": "https://www.cna.com.tw/news/afe/202604100366.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Apr 2026 22:14:39 +0800",
+        "summary_zh": "中華工程經營權之爭升溫，董事會決議不將堡新投資等股東提名的董事及獨立董事候選人列入名單。理由是相關股東屬「共同取得人」，提名已逾應選名額。堡新等股東認為中工違法剔除提名，已向商業法院聲請假處分。這一事件可能會對中華工程的股東權益和公司治理產生重大影響。中工的決定是否合理，還需要進一步調查和審查。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "7fcdb2ec",
+        "title": "今彩539第115089期頭獎1注中獎",
+        "url": "https://www.cna.com.tw/news/ahel/202604100364.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Apr 2026 22:08:34 +0800",
+        "summary_zh": "今彩539第115089期開獎，中獎號碼為09、30、25、21、27。根據派彩結果，頭獎有1注中獎，獎金高達新台幣800萬元。這是今彩539的最新中獎結果，讓參與者們能夠了解自己的中獎情況。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "94fee85c",
+        "title": "大樂透第115043期 頭獎槓龜",
+        "url": "https://www.cna.com.tw/news/ahel/202604100363.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Apr 2026 22:06:32 +0800",
+        "summary_zh": "大樂透第115043期今晚開獎，中獎號碼為21、40、15、10、04、17，特別號30。結果顯示頭獎槓龜，未有中獎者。這意味著今年的大樂透頭獎仍未有人中得。根據統計，大樂透頭獎槓龜的機率相當低，通常只有當抽獎號碼全部不符時才會發生。這次的結果讓許多玩家感到失望，但也讓大家繼續期待下一次的抽獎。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "aa2de379",
+        "title": "國喬擬現增發行新股4億股 加速高值化轉型",
+        "url": "https://www.cna.com.tw/news/afe/202604100353.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Apr 2026 21:23:06 +0800",
+        "summary_zh": "國喬近期正嘗試轉型升級，為此公司宣布董事會決議辦理現金增資發行普通股新股4億股，每股面額新台幣10元。這次增發的用途主要是用於償還銀行借款及購置機器設備。這項決議將有助於國喬加速其高值化轉型計畫，同時也將公司的資金結構進行調整。這項轉型計畫將對國喬的未來發展產生重要影響，值得關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "64d5c704",
+        "title": "穩懋通過辦理私募案 總額不超過4000萬股",
+        "url": "https://www.cna.com.tw/news/afe/202604100347.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Apr 2026 21:03:53 +0800",
+        "summary_zh": "穩懋是一家砷化鎵大廠，近日宣布董事會決議辦理私募普通股，總額不超過4000萬股。這次私募的募集資金將投入資本支出、研發費用及充實營運資金等。穩懋的這一決定可能會對公司的發展和財務狀況產生一定的影響。目前尚不清楚私募的具體安排和時間表，但這一消息可能會吸引投資者的關注。穩懋的私募案可能會對市場產生一定的影響，投資者應該密切關注公司的發展和財務狀況。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4ceddae8",
+        "title": "三星良率問題未解 高通考慮重心移回台積電",
+        "url": "https://www.cna.com.tw/news/aopl/202604100346.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Apr 2026 21:02:51 +0800",
+        "summary_zh": "高通近期一度大幅提高對新訂單的預期，但考慮到良率和穩定性問題，傳出有意將重心從三星電子移回台積電。三星電子一直是高通的主要晶圓供應商，但近期三星電子出現良率問題，導致高通考慮將重心移回台積電。這將對三星電子造成重大影響，可能會影響到三星電子未來的營業額和市場地位。高通的決定也將對台積電帶來新的機會，可能會增加台積電的營業額和市場份額。這項消息也會對整個半導體產業帶來影響，可能會影響到其他公司的營業額和市場地位。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2a8ba594",
+        "title": "聯發科3月營收破600億元創新高 第1季營收符合預期",
+        "url": "https://www.cna.com.tw/news/afe/202604100344.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Apr 2026 20:58:47 +0800",
+        "summary_zh": "聯發科在3月份的營收達到新台幣632.19億元，創下歷史新高。這使得公司在今年的第1季累計營收達到1491.51億元，表現符合預期。雖然季度營收有0.69%的減少，但整體來說，聯發科的營收仍然保持在高位。這是因為手機晶片的需求持續攀升，聯發科的產品供應能力也在增強。這項成績表明，聯發科在全球手機晶片市場的競爭力仍然很強。然而，未來市場的變化和競爭的加劇，仍然是聯發科需要關注的問題。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3641739f",
+        "title": "機器人理財家數減少 金管會：資產規模仍持續成長",
+        "url": "https://www.cna.com.tw/news/afe/202604100340.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Apr 2026 20:51:38 +0800",
+        "summary_zh": "根據金管會的統計，截至今年2月底，機器人理財家數合計16家，客戶數達到24萬1967人，資產規模達到新台幣161.39億元。雖然機器人理財家數較去年同期減少1家，但客戶數和資產規模仍然持續成長。金管會表示，目前也有1家業者提出申請，正在進行公會審查。這表明機器人理財仍然是台灣金融市場的一個重要部分。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "06574399",
         "title": "伊朗想強索荷姆茲「買路財」！英媒曝1殘酷現實",
@@ -698,83 +830,69 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "aa2de379",
-        "title": "國喬擬現增發行新股4億股 加速高值化轉型",
-        "url": "https://www.cna.com.tw/news/afe/202604100353.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 10 Apr 2026 21:23:06 +0800",
-        "summary_zh": "國喬近期正嘗試轉型升級，為此公司宣布董事會決議辦理現金增資發行普通股新股4億股，每股面額新台幣10元。這次增發的用途主要是用於償還銀行借款及購置機器設備。這項決議將有助於國喬加速其高值化轉型計畫，同時也將公司的資金結構進行調整。這項轉型計畫將對國喬的未來發展產生重要影響，值得關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "64d5c704",
-        "title": "穩懋通過辦理私募案 總額不超過4000萬股",
-        "url": "https://www.cna.com.tw/news/afe/202604100347.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 10 Apr 2026 21:03:53 +0800",
-        "summary_zh": "穩懋是一家砷化鎵大廠，近日宣布董事會決議辦理私募普通股，總額不超過4000萬股。這次私募的募集資金將投入資本支出、研發費用及充實營運資金等。穩懋的這一決定可能會對公司的發展和財務狀況產生一定的影響。目前尚不清楚私募的具體安排和時間表，但這一消息可能會吸引投資者的關注。穩懋的私募案可能會對市場產生一定的影響，投資者應該密切關注公司的發展和財務狀況。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4ceddae8",
-        "title": "三星良率問題未解 高通考慮重心移回台積電",
-        "url": "https://www.cna.com.tw/news/aopl/202604100346.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 10 Apr 2026 21:02:51 +0800",
-        "summary_zh": "高通近期一度大幅提高對新訂單的預期，但考慮到良率和穩定性問題，傳出有意將重心從三星電子移回台積電。三星電子一直是高通的主要晶圓供應商，但近期三星電子出現良率問題，導致高通考慮將重心移回台積電。這將對三星電子造成重大影響，可能會影響到三星電子未來的營業額和市場地位。高通的決定也將對台積電帶來新的機會，可能會增加台積電的營業額和市場份額。這項消息也會對整個半導體產業帶來影響，可能會影響到其他公司的營業額和市場地位。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2a8ba594",
-        "title": "聯發科3月營收破600億元創新高 第1季營收符合預期",
-        "url": "https://www.cna.com.tw/news/afe/202604100344.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 10 Apr 2026 20:58:47 +0800",
-        "summary_zh": "聯發科在3月份的營收達到新台幣632.19億元，創下歷史新高。這使得公司在今年的第1季累計營收達到1491.51億元，表現符合預期。雖然季度營收有0.69%的減少，但整體來說，聯發科的營收仍然保持在高位。這是因為手機晶片的需求持續攀升，聯發科的產品供應能力也在增強。這項成績表明，聯發科在全球手機晶片市場的競爭力仍然很強。然而，未來市場的變化和競爭的加劇，仍然是聯發科需要關注的問題。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3641739f",
-        "title": "機器人理財家數減少 金管會：資產規模仍持續成長",
-        "url": "https://www.cna.com.tw/news/afe/202604100340.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 10 Apr 2026 20:51:38 +0800",
-        "summary_zh": "根據金管會的統計，截至今年2月底，機器人理財家數合計16家，客戶數達到24萬1967人，資產規模達到新台幣161.39億元。雖然機器人理財家數較去年同期減少1家，但客戶數和資產規模仍然持續成長。金管會表示，目前也有1家業者提出申請，正在進行公會審查。這表明機器人理財仍然是台灣金融市場的一個重要部分。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "stock_us": [
-      {
-        "id": "9378963e",
-        "title": "美汽油價格飆漲21.2％ 推升3月CPI年增3.3％",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5400110",
-        "source": "自由時報財經",
-        "category": "stock_us",
-        "published_at": "Fri, 10 Apr 2026 22:12:53 +0800",
-        "summary_zh": "美國勞工統計局10日公佈，伊朗戰爭推升能源價格，使美國3月消費者物價指數（CPI）月增0.9％，為近4年來最大月增幅，年增3.3％，從2月的2.4％走高，為兩年以來最大增幅。這主要是由於汽油價格飆漲21.2％，對整體CPI產生了重大影響。同時，食品價格也上漲0.2％，而醫療費用下降0.1％。這項數據表明，美國經濟正在面臨一定程度的通貨膨脹壓力。伊朗戰爭的影響使能源價格大幅上漲，對美國經濟產生了重大影響。這項數據將對美國央行的貨幣政策產生影響，可能會導致利率上升以抑制通貨膨脹。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "finance": [
+      {
+        "id": "f54ce657",
+        "title": "大和證券收購中國證券合資公司合夥人股份",
+        "url": "https://www.reuters.com/legal/transactional/daiwa-buys-out-china-securities-jv-partners-100-million-deal-2026-04-10/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-10 04:57:29",
+        "summary_zh": "日本大和證券公司宣布收購其在中國的證券合資公司的合夥人股份，總值達 1 億美元。這項交易將使大和證券公司完全控制該合資公司，進一步鞏固其在中國市場的影響力。這項收購交易將為大和證券公司提供更大的市場份額和業務發展空間。根據市場分析師的評估，這項交易將對大和證券公司的財務表現產生正面影響。然而，市場也會關注這項交易對中國市場的影響和可能的風險。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "3cd3ff2c",
+        "title": "投資者對黃金在投資組合中的角色產生疑慮，摩根士丹利表示另一個金屬將超越黃金的表現",
+        "url": "https://www.cnbc.com/2026/04/10/gold-portfolio-diversity-morgan-stanley-metals-commodities.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-04-10 04:56:33",
+        "summary_zh": "黃金在投資組合中的傳統角色因為五周內商品價格的劇烈波動而受到質疑。摩根士丹利表示，投資者正在重新評估黃金的作用，另一個金屬即將超越黃金的表現。這種變化與黃金價格的下跌有關，投資者正在尋找替代投資選擇。摩根士丹利的分析師表示，投資者正在將注意力轉移到其他金屬上，例如白金和鉑金，希望能夠在市場波動中獲得更好的收益。這種趨勢可能會對黃金市場造成影響，投資者需要重新評估投資組合中的黃金比例。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "fe87d596",
+        "title": "早晨的投標: \"那不是我們的協議!\" ",
+        "url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-04-10/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-10 04:51:33",
+        "summary_zh": "在Gregor Stuart Hunter的帶領下，我們來看看歐洲和全球市場的前景。今天的市場將受到英國議會對英國政府的決策影響。英國政府的決策可能會對英國的經濟產生重大影響。市場也關注著美國的經濟數據，包括就業率和通脹率。這些數據將對全球市場產生重要影響。同時，市場也關注著歐洲央行的政策決策，包括利率和貨幣政策。這些決策將對歐洲的經濟產生重大影響。總的來說，今天的市場將受到多個因素的影響，包括英國政府的決策、美國的經濟數據和歐洲央行的政策決策。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "b727f8ca",
+        "title": "7-Eleven IPO延期讓Couche-Tard受益",
+        "url": "https://www.reuters.com/commentary/breakingviews/7-eleven-ipo-delay-plays-into-couche-tards-hands-2026-04-10/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-10 04:47:17",
+        "summary_zh": "7-Eleven的IPO延期可能會讓加拿大零售巨頭Couche-Tard受益。Couche-Tard是7-Eleven的母公司，該公司在2014年以220億美元的價格收購了7-Eleven。最近，7-Eleven宣布延期其IPO計畫，這可能會讓Couche-Tard繞過公開募股的程序，繼續控制公司的股權。這一發展可能會讓Couche-Tard在未來的戰略規劃中獲得更多的自由。然而，這一延期也可能會讓7-Eleven的股東感到擔憂，因為他們可能會錯過公開募股的機會。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "bef9c475",
+        "title": "印度盧比領先亞洲上漲，印度央行打擊投機行為",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-10/rupee-leads-asia-gains-after-rbi-cracks-down-on-speculation",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-10 04:43:18",
+        "summary_zh": "印度央行最近出手打擊投機行為，對印度盧比造成了重大影響。根據市場消息，印度央bank 將對外匯市場實施新的規範，旨在防止投機行為並維持市場穩定。印度央bank 的這一措施得到市場的認可，印度盧比因此領先亞洲市場上漲。這一事件對印度經濟和亞洲市場都產生了重大影響。市場分析師認為，這一措施將幫助印度央bank 有效控制外匯市場的波動，從而維持市場穩定。然而，這一措施也引起了市場的關注，投資者們正在密切關注印度央bank 的下一步行動。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "2bcf3bd8",
         "title": "貝森特召集美國銀行CEO討論Anthropic模型的網路風險",
@@ -797,6 +915,56 @@
         "summary_zh": "亞太區高成長企業排名2026 年榜單已公佈。另外，印度酒莊面臨變革；中國 AI 專家從美國返國；中國冠軍企業面臨的最大威脅；門票收入捐贈給慈善機構；新加坡上市公司供應仍相當稀少。這些事件都與亞太區企業發展和投資有關。",
         "sentiment": "中性",
         "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "stock_us": [
+      {
+        "id": "9bc62d79",
+        "title": "大和證券全面控制中國子公司",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-10/daiwa-takes-full-control-of-china-brokerage-arm-for-100-million",
+        "source": "Bloomberg",
+        "category": "stock_us",
+        "published_at": "2026-04-10 03:38:18",
+        "summary_zh": "大和證券集團公司宣布已經全面控制其在中國的證券子公司。這一決定是大和證券加入了多家美國證券公司，已經在全球第二大經濟體中取得控股權的行列。這一發展表明，大和證券正在加強其在中國市場的存在。中國市場的重要性日益升高，許多外資公司正在努力爭取在這個市場的份額。這一發展將對中國證券市場產生重大影響，同時也將對全球金融市場產生一定的波動。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "debaa151",
+        "title": "CNBC每日開市：市場對停火不確定性嗤之以鼻",
+        "url": "https://www.cnbc.com/2026/04/10/investors-positive-despite-disagreement-over-strait-of-hormuz.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-10 01:27:06",
+        "summary_zh": "伊朗與美國的停火協議讓市場氣氛有所改善，但這個「脆弱的停火協議」已經出現了些微的裂痕。伊朗與美國的停火協議在短期內對市場產生了正面影響，但分析師們認為這個協議仍然脆弱，市場仍然面臨著不確定性的風險。市場觀察人士表示，雖然停火協議讓市場氣氛有所改善，但仍然存在著不確定性的風險，包括伊朗可能違反協議、美國可能加強對伊朗的制裁等。這些風險可能會對市場產生重大影響，市場投資者需要保持警惕。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "22aae2ab",
+        "title": "美股波動　伊朗停火考驗　以色列與黎巴嫩和平談判存疑",
+        "url": "https://www.reuters.com/world/china/global-markets-wrapup-1pix-2026-04-10/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-04-10 01:25:00",
+        "summary_zh": "近日，亞洲股市早盤有所上漲，但這些收益被打破，因為投資者對美伊停火的持續性存疑。同時，投資者對以黎和平談判的前景也存疑。美伊停火的持續性受到考驗，投資者對此存疑。以色列與黎巴嫩的和平談判仍處於脆弱狀態。投資者對這些發展感到擔憂，導致股市波動。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "9378963e",
+        "title": "美汽油價格飆漲21.2％ 推升3月CPI年增3.3％",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5400110",
+        "source": "自由時報財經",
+        "category": "stock_us",
+        "published_at": "Fri, 10 Apr 2026 22:12:53 +0800",
+        "summary_zh": "美國勞工統計局10日公佈，伊朗戰爭推升能源價格，使美國3月消費者物價指數（CPI）月增0.9％，為近4年來最大月增幅，年增3.3％，從2月的2.4％走高，為兩年以來最大增幅。這主要是由於汽油價格飆漲21.2％，對整體CPI產生了重大影響。同時，食品價格也上漲0.2％，而醫療費用下降0.1％。這項數據表明，美國經濟正在面臨一定程度的通貨膨脹壓力。伊朗戰爭的影響使能源價格大幅上漲，對美國經濟產生了重大影響。這項數據將對美國央行的貨幣政策產生影響，可能會導致利率上升以抑制通貨膨脹。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       }
     ]
@@ -866,6 +1034,225 @@
       "type": "price",
       "warn": 400,
       "danger": 500
+    }
+  },
+  "daily_digest": {
+    "key_themes": [
+      {
+        "title": "中東停火協議的不確定性",
+        "background": "中東戰爭的不確定性可能會對全球經濟產生重大影響，投資者需要密切關注中東戰火的發展情況。",
+        "development": "近期，伊朗與美國的停火協議讓市場氣氛有所改善，但這個「脆弱的停火協議」已經出現了些微的裂痕。",
+        "impact": "投資者對美伊停火的持續性存疑，同時，投資者對以黎和平談判的前景也存疑。",
+        "conclusion": "短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈。",
+        "region": "global"
+      },
+      {
+        "title": "全球能源市場的變化",
+        "background": "全球能源市場的變化將持續影響投資者，公司需要謹慎評估投資風險。",
+        "development": "中國工廠價格在三年內首次恢復增長，這一現象遠超市場預期。油價大漲是推動工廠價格增長的重要因素。",
+        "impact": "能源價格的上升使得新加坡面臨著能源危機的考驗，這種情況不僅影響到新加坡的經濟，也對其居民的生活方式產生了影響。",
+        "conclusion": "全球能源市場的變化將持續影響投資者，公司需要謹慎評估投資風險。",
+        "region": "asia"
+      },
+      {
+        "title": "人工智慧產業的利潤競賽",
+        "background": "人工智慧產業的利潤競賽將持續加速，公司需要不斷創新以保持競爭力。",
+        "development": "智冠近日加速其在人工智慧（AI）領域的布局，董事會已通過成立AI發展中心。",
+        "impact": "這一舉動表明智冠致力於推動AI技術的應用，為未來的營運成長打下基礎。",
+        "conclusion": "人工智慧產業的利潤競賽將持續加速，公司需要不斷創新以保持競爭力。",
+        "region": "asia"
+      }
+    ],
+    "sector_analysis": [
+      {
+        "sector": "能源",
+        "direction": "看空",
+        "reasoning": "能源價格的上升使得新加坡面臨著能源危機的考驗。",
+        "key_ticker": "新加坡能源股"
+      },
+      {
+        "sector": "人工智慧",
+        "direction": "看多",
+        "reasoning": "智冠近日加速其在人工智慧（AI）領域的布局。",
+        "key_ticker": "智冠"
+      },
+      {
+        "sector": "金融",
+        "direction": "中性",
+        "reasoning": "大和證券收購中國證券合資公司合夥人股份。",
+        "key_ticker": "大和證券"
+      }
+    ],
+    "action_signals": [
+      {
+        "asset": "美股",
+        "signal": "短空",
+        "reasoning": "投資者對美伊停火的持續性存疑。",
+        "confidence": "高"
+      },
+      {
+        "asset": "新加坡能源股",
+        "signal": "短空",
+        "reasoning": "能源價格的上升使得新加坡面臨著能源危機的考驗。",
+        "confidence": "中高"
+      },
+      {
+        "asset": "智冠",
+        "signal": "短多",
+        "reasoning": "智冠近日加速其在人工智慧（AI）領域的布局。",
+        "confidence": "中"
+      }
+    ],
+    "risk_radar": [
+      {
+        "event": "中東戰爭",
+        "probability": "高",
+        "impact": "高",
+        "timeframe": "本週",
+        "description": "中東戰爭的不確定性可能會對全球經濟產生重大影響。"
+      },
+      {
+        "event": "能源危機",
+        "probability": "中",
+        "impact": "中",
+        "timeframe": "下週",
+        "description": "能源價格的上升使得新加坡面臨著能源危機的考驗。"
+      },
+      {
+        "event": "人工智慧產業的利潤競賽",
+        "probability": "低",
+        "impact": "低",
+        "timeframe": "本月",
+        "description": "人工智慧產業的利潤競賽將持續加速。"
+      }
+    ],
+    "narrative_shift": {
+      "new_themes": [
+        "中東停火協議的不確定性",
+        "全球能源市場的變化"
+      ],
+      "escalated": [
+        "人工智慧產業的利潤競賽"
+      ],
+      "cooled": [],
+      "disappeared": []
+    },
+    "watch_next": [
+      {
+        "topic": "中東戰爭",
+        "reason": "中東戰爭的不確定性可能會對全球經濟產生重大影響。",
+        "timeframe": "本週"
+      },
+      {
+        "topic": "能源危機",
+        "reason": "能源價格的上升使得新加坡面臨著能源危機的考驗。",
+        "timeframe": "下週"
+      },
+      {
+        "topic": "人工智慧產業的利潤競賽",
+        "reason": "人工智慧產業的利潤競賽將持續加速。",
+        "timeframe": "本月"
+      }
+    ],
+    "cross_links": [
+      {
+        "themes": [
+          "中東戰爭",
+          "能源危機"
+        ],
+        "chain": "中東戰爭可能會對全球能源市場產生重大影響，從而導致能源危機。"
+      },
+      {
+        "themes": [
+          "能源危機",
+          "人工智慧產業的利潤競賽"
+        ],
+        "chain": "能源危機可能會推動人工智慧產業的發展，從而加速人工智慧產業的利潤競賽。"
+      },
+      {
+        "themes": [
+          "中東戰爭",
+          "人工智慧產業的利潤競賽"
+        ],
+        "chain": "中東戰爭可能會推動人工智慧產業的發展，從而加速人工智慧產業的利潤競賽。"
+      }
+    ],
+    "market_snapshot": {
+      "mood": "觀望",
+      "key_moves": "VIX 恐慌指數 20.02(+2.72%)、原油 WTI 98.15(+0.29%)、黃金 4787.7(-0.09%)、S&P500 6813.22(-0.17%)、那斯達克 22869.27(+0.21%)、台股 34861.16(+0.29%)、美元指數 98.73(-0.09%)、美債10Y殖利率 4.32(+0.56%)、美元/台幣 31.74(+0.06%)"
+    },
+    "data_table": {
+      "indices": [
+        {
+          "key": "SP500",
+          "name": "S&P 500",
+          "price": 6813.22,
+          "change_pct": -0.17,
+          "status": "danger"
+        },
+        {
+          "key": "NASDAQ",
+          "name": "那斯達克",
+          "price": 22869.27,
+          "change_pct": 0.21,
+          "status": "normal"
+        },
+        {
+          "key": "TWII",
+          "name": "台股加權",
+          "price": 34861.16,
+          "change_pct": 0.29,
+          "status": "danger"
+        }
+      ],
+      "commodities": [
+        {
+          "key": "GOLD",
+          "name": "黃金",
+          "price": 4787.7,
+          "change_pct": -0.09,
+          "status": "normal"
+        },
+        {
+          "key": "OIL",
+          "name": "原油 WTI",
+          "price": 98.15,
+          "change_pct": 0.29,
+          "status": "normal"
+        }
+      ],
+      "forex": [
+        {
+          "key": "DXY",
+          "name": "美元指數",
+          "price": 98.73,
+          "change_pct": -0.09,
+          "status": "normal"
+        },
+        {
+          "key": "USDTWD",
+          "name": "美元/台幣",
+          "price": 31.74,
+          "change_pct": 0.06,
+          "status": "normal"
+        }
+      ],
+      "bonds_volatility": [
+        {
+          "key": "TNX",
+          "name": "美債10Y殖利率",
+          "price": 4.32,
+          "change_pct": 0.56,
+          "status": "normal"
+        },
+        {
+          "key": "VIX",
+          "name": "VIX 恐慌指數",
+          "price": 20.02,
+          "change_pct": 2.72,
+          "status": "warn"
+        }
+      ]
     }
   }
 }
