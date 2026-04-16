@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-04-16T09:04:00.762364+08:00",
+  "generated_at": "2026-04-16T10:03:59.494743+08:00",
   "risk_signals": [
-    "🟢 台股加權 36722.14（正常）",
+    "🟢 台股加權 36963.49（正常）",
     "🟢 S&P 500 7022.95（正常）",
     "🟢 VIX 恐慌指數 18.17（正常）",
     "🟢 MOVE 債市波動 67.94（正常）",
-    "🟢 美元指數 98.0（正常）",
-    "🟢 黃金 4857.3（正常）",
+    "🟢 美元指數 98.02（正常）",
+    "🟢 黃金 4843.4（正常）",
     "🟢 美債10Y殖利率 4.28（正常）",
-    "🟢 原油 WTI 91.03（正常）",
-    "🟢 美元/台幣 31.59（正常）"
+    "🟢 原油 WTI 91.34（正常）",
+    "🟢 美元/台幣 31.54（正常）"
   ],
-  "ai_summary": "市場指標顯示整體趨勢穩定，股市上漲，美元指數正常，金價正常，美債殖利率正常，原油價格正常。整體市場氛圍看起來相對穩健。",
+  "ai_summary": "市場指標表現穩定，台股和美股均有小幅上漲，市場氛圍保持樂觀。",
   "market": {
     "TWII": {
-      "price": 36722.14,
-      "change_pct": 1.17
+      "price": 36963.49,
+      "change_pct": 0.66
     },
     "SP500": {
       "price": 7022.95,
@@ -38,25 +38,375 @@
       "change_pct": -8.62
     },
     "DXY": {
-      "price": 98.0,
-      "change_pct": -0.06
+      "price": 98.02,
+      "change_pct": -0.04
     },
     "GOLD": {
-      "price": 4857.3,
-      "change_pct": 0.67
+      "price": 4843.4,
+      "change_pct": 0.9
     },
     "OIL": {
-      "price": 91.03,
-      "change_pct": -0.27
+      "price": 91.34,
+      "change_pct": 0.05
     },
     "USDTWD": {
-      "price": 31.59,
-      "change_pct": 0.22
+      "price": 31.54,
+      "change_pct": 0.06
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "45967e61",
+        "title": "白宮發布執照：授權Enbridge Energy營運北達科他州三座管道設施",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-three-existing-pipeline-facilities-at-pembina-county-north-dakota-at-the-international-boundary-between/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Apr 2026 20:31:09 +0000",
+        "summary_zh": "白宮宣布，根據美國總統的權力，授予Enbridge Energy有限合夥企業（Enbridge Energy, Limited Partnership）在北達科他州彭比納縣（Pembina County）三座現有管道設施的營運和維護執照。這些設施位於美國和加拿大國際邊界上。Enbridge Energy是一家根據德拉瓦州法律成立的有限合夥企業。這項執照的授予，受條件約束，條件將在執照中明確列出。這項決定將對美國能源產業產生重大影響，同時也將加強與加拿大的經濟合作關係。然而，對於環境保護和安全問題的擔憂仍存疑慮。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c5e1c766",
+        "title": "梅拉尼婭·川普夫人倡導新兒童保護法案通過國會",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-champions-new-foster-care-legislation-in-congress/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Apr 2026 19:56:35 +0000",
+        "summary_zh": "梅拉尼婭·川普夫人今天與國會的強大委員會會議合作，推動一項關鍵的法律法案，旨在保護美國的孤兒。梅拉尼婭·川普夫人強調，「我們今天聚集在這裡，不是因為美國的孩子依靠我們，而是因為美國的孩子是我們的道德平等者。」她還提到，新法律將為未來的美國年輕一代帶來新的機會。這項法律將為美國的孤兒提供更好的照護和支持，讓他們有更好的未來。梅拉尼婭·川普夫人的努力將幫助改善美國的兒童保護政策，為未來的年輕一代帶來希望。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b4e4a1f1",
+        "title": "川普再次威脅聯邦儲備理事會主席，推動新任主席人選",
+        "url": "https://www.theguardian.com/us-news/2026/apr/15/trump-news-at-a-glance-latest-updates-today",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Apr 2026 01:00:43 GMT",
+        "summary_zh": "川普再次表示對聯邦儲備理事會主席鮑威爾的不滿，稱他做事不夠好。聯邦儲備理事會的改造工程引發了刑事調查的風波，川普威脅要將鮑威爾炒掉，如果他不在 5 月底前退休。聯邦儲備理事會的新任主席候選人凱文·沃許正被推動接任，但由於參議院需要批准他的提名，鮑威爾仍有可能在 5 月底後繼續擔任主席。這引發了對川普對聯邦儲備理事會的態度的質疑，可能會影響沃許的提名。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "77109056",
+        "title": "伯尼·桑德斯阻止美國向以色列出售武器的努力在參議院失敗",
+        "url": "https://www.theguardian.com/us-news/2026/apr/15/bernie-sanders-pushes-military-block-israel",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Apr 2026 00:48:04 GMT",
+        "summary_zh": "伯尼·桑德斯星期三領導了一場阻止美國出售炸彈和推土機給以色列的努力，但投票結果顯示民主黨人中對限制美國武器轉移給長期的美國盟友以色列的意願正在增長。這是桑德斯第四次在參議院強制考慮切斷以色列軍事援助的決議案，所有這些決議案都被共和黨多數派和許多民主黨人所否決。雖然桑德斯的努力失敗了，但民主黨人對限制美國武器轉移的意願正在增長，這表明美國對以色列的軍事援助可能面臨未來的挑戰。這一發展可能對美國和以色列的關係產生重大影響，需要密切關注。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9e9200b8",
+        "title": "共和黨難以突出川普減稅的成果 美國民眾對稅日卻幾乎不感知",
+        "url": "https://www.theguardian.com/us-news/live/2026/apr/15/donald-trump-iran-economy-tax-day-voter-id-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Apr 2026 00:42:46 GMT",
+        "summary_zh": "共和黨曾期望川普2025年的減稅措施將成為選民關注的焦點，但卻發現許多美國民眾對此幾乎沒有留下任何印象。美國納稅人為了川普推動的巨大軍費增加而花費了數百美元。美國一些最大工會的領袖推出了旨在振興美國勞工運動和抗衡川普下台階級不平等的運動。為了使工人更容易加入工會，並strengthen新工會與強大企業進行談判的能力，一群知名組織者聯合推出了Union Now，非營利組織旨在增加勞工工會密度。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8bde7b08",
+        "title": "喬治亞州男子被控犯下殺害DHS員工和另一名女性的罪行",
+        "url": "https://www.theguardian.com/us-news/2026/apr/15/georgia-killing-dhs-worker",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Apr 2026 00:12:41 GMT",
+        "summary_zh": "美國喬治亞州發生一系列攻擊事件，造成兩名女性死亡、男子重傷。其中一名受害者是美國國土安全部(DHS)員工拉倫·布利斯(Lauren Bullis)，她正在散步時遭到攻擊。美國國土安全部長馬克懷恩·穆林(Markwayne Mullin)發表聲明，表示對於26歲的嫌疑人奧拉·阿德恩·阿貝爾(Olaolukitan Adon Abel)在2022年獲得美國公民身份感到擔憂。阿貝爾被控犯下這一系列攻擊事件。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "912e198f",
+        "title": "「殺人者是Vought」抗議者中斷川普預算首長聽證會",
+        "url": "https://www.theguardian.com/us-news/2026/apr/15/russ-vought-budget-hearing",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Apr 2026 22:38:08 GMT",
+        "summary_zh": "抗議者在華盛頓的國會大廈中斷川普政府預算首長羅素·沃特（Russell Vought）聽證會，抗議者批評沃特削減對抗愛滋病的援助金，同時抗議者也批評政府對於愛滋病的援助金削減，導致愛滋病患者的治療延遲。抗議者兩次中斷聽證會，抗議者要求政府增加對抗愛滋病的援助金。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3ebf2510",
+        "title": " Ketanji布朗傑克森大法官譴責保守派大法官為川普發布支持性命令 ",
+        "url": "https://www.theguardian.com/us-news/2026/apr/15/ketanji-brown-jackson-supreme-court-conservative-judges-trump",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Apr 2026 22:04:30 GMT",
+        "summary_zh": "美國最高法院新任大法官Ketanji布朗傑克森對保守派大法官在川普政府時期發布的緊急命令表示譴責，稱這些命令如草稿般的想法，缺乏深思熟慮。布朗傑克森針對去年發布的超過二十個命令進行評估，這些命令允許川普實施爭議的政策，包括移民政策、聯邦資金大幅削減等。保守派大法官利用緊急命令來實現川普政府的政策，布朗傑克森認為這些命令缺乏深思熟慮和嚴謹性。她的評估表明，她對保守派大法官的行為感到關注和不滿。這一事件可能對美國最高法院的政治格局產生影響，展現了布朗傑克森的立場和態度。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "826e9c47",
+        "title": "法國政府要求釋放86歲法國寡婦被ICE扣留",
+        "url": "https://www.theguardian.com/us-news/2026/apr/15/french-widow-detained-ice-marie-therese-ross",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Apr 2026 21:42:39 GMT",
+        "summary_zh": "法國政府正在要求美國國土安全部釋放一名86歲的法國寡婦。她被美國移民及海關執法局（ICE）扣留，理由是她逾期停留。法國政府表示，這名寡婦是前軍人之妻，應該受到尊嚴和善待。美國國土安全部表示，這名寡婦在1月份被扣留，理由是她逾期停留90天的簽證。目前，這名寡婦被困在路易斯安那州的聯邦移民扣留中心。法國政府要求美國政府釋放這名寡婦，並讓她能夠返回法國。這一事件引起了國際社會的關注，許多人認為，這名寡婦不應該被扣留。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d7271174",
+        "title": "民主黨批評、共和黨支持副總統助理沃特於會議期間激辯: 3個關鍵點",
+        "url": "https://thehill.com/homenews/house/5833431-vought-house-budget-committee/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Apr 2026 23:12:34 +0000",
+        "summary_zh": "美國白宮預算辦公室主任沃特於本周三與眾議院預算委員會的民主黨成員激辯，爭論是次會議的焦點是川普政府提出的削減開支方案。這場年度會議是在川普政府公布其對於2027財政年度的預算草案後舉行的，該草案中提出了對國防開支的40%增加。民主黨批評川普政府的開支削減方案對於社會福利和教育開支的影響不大，而共和黨則表示這些削減對於國家的財政健康是必要的。會議期間，沃特還被問及川普政府對於2027財政年度的預算草案中提出的削減方案的具體措施，包括對於社會福利和教育開支的削減。民主黨成員對於這些削減方案表示不滿，認為這些削減對於社會福利和教育開支的影響不大。共和黨成員則表示，這些削減對於國家的財政健康是必要的。會議期間，沃特還被問及川普政府對於2027財政年度的預算草案中提出的削減方案的具體措施，包括對於社會福利和教育開支的削減。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3501cc86",
+        "title": "佐治亞共和黨議員：將軍喬治遭免職將對軍方產生『寒蟬效應』",
+        "url": "https://thehill.com/policy/defense/5833470-george-removal-chilling-effect/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Apr 2026 23:10:29 +0000",
+        "summary_zh": "佐治亞州共和黨議員奧斯汀·史考特(Austin Scott)表示，國防部長彼得·赫格塞斯(Pete Hegseth)最近將美國陸軍前總參謀長喬治將軍(Randy George)免職，將對軍方的運作產生『寒蟬效應』。史考特議員讚譽喬治將軍為『受人尊敬、受人喜愛的人』，並詢問總參謀長克里斯多福將軍(Christopher)，該事件將如何影響軍方的士氣和信心。這一事件引起了軍方內部的關注和討論，許多人認為這將對軍方的士氣和信心產生不利影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "61822fbe",
+        "title": "川普與教皇之間的裂痕正在公開展露 - 這對他來說是一個昂貴的代價",
+        "url": "https://www.bbc.com/news/articles/c070jxyjrmeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Apr 2026 11:25:09 GMT",
+        "summary_zh": "美國前總統川普與教皇之間的矛盾正在逐漸公開化。許多保守派天主教徒對此表示支持，認為教皇的立場是正確的。根據BBC的報導，這些保守派天主教徒表示，川普的言行與天主教的教義不符，教皇的批評是正確的。這些保守派天主教徒的支持對教皇來說是一個重要的背書，同時也對川普造成了傷害。川普的支持率在美國的保守派圈子中一直很高，但這次教皇的批評可能會使得他的支持率下降。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "54d90053",
+        "title": "川普威脅要炒掉美聯儲主席鮑威爾 若他不在五月離任",
+        "url": "https://www.bbc.com/news/articles/c9qddrdd8w2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Apr 2026 01:55:12 GMT",
+        "summary_zh": "川普總統再度與美聯儲主席鮑威爾發生衝突，威脅要炒掉他如果他不在五月離任。這是川普與鮑威爾的長期爭執的最新一波。川普一直批評美聯儲的升息政策，認為它對經濟有害。鮑威爾則堅持美聯儲的政策是為了維持經濟穩定。這場爭執的影響不僅僅是對美聯儲的政策，也對全球經濟有著重要影響。川普的威脅讓市場感到不安，美元的價格開始下跌。這也讓投資者開始擔心未來的經濟前景。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4ad36292",
+        "title": "票務公司 Ticketmaster 因壟斷被控違法，消費者被過度收取 1.72 美元",
+        "url": "https://www.bbc.com/news/articles/clyddyp19yyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Apr 2026 22:56:29 GMT",
+        "summary_zh": "票務公司 Ticketmaster 因壟斷被控違法，美國政府對其展開調查。根據訴訟指控，該公司壟斷市場，導致票價上漲和服務惡化。調查發現，Ticketmaster 的壟斷行為使得消費者被過度收取 1.72 美元。這一事件引發了對票務公司壟斷行為的關注，美國政府將對此進行進一步調查和處理。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "053bae89",
+        "title": "內布拉斯加州警方開槍射殺持刀婦女，涉嫌在沃爾瑪搶劫三歲男童",
+        "url": "https://www.bbc.com/news/articles/c20q24zjl0eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Apr 2026 00:46:52 GMT",
+        "summary_zh": "內布拉斯加州一名31歲的婦女在沃爾瑪超市隨機劫走了一名三歲男童，警方表示她持刀威脅。警方隨後開槍射殺了該名婦女，事件目前仍在調查中。這起事件引起了社會的關注和譴責，許多人對警方的行動表示支持。這名婦女的動機和行為仍未完全明瞭，警方正在調查她背後的原因。這起事件也引起了對兒童安全和婦女心理健康的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1fe77318",
+        "title": "美國參議院再次否決停止伊朗戰爭決議案，民主黨承諾繼續努力",
+        "url": "https://www.bbc.com/news/articles/czxrrlve714o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Apr 2026 21:32:22 GMT",
+        "summary_zh": "美國參議院再次否決了一項決議案，要求停止對伊朗的軍事行動。雖然多數共和黨議員支持川普總統繼續進行軍事行動，但也有少數共和黨議員表示可能在幾周後重新評估。這項決議案由民主黨提出，意在限制總統對伊朗的軍事行動權限。民主黨議員表示，將繼續努力通過這項決議案，限制總統的軍事行動權限。這項決議案的否決結果，表明美國政府仍然支持對伊朗的軍事行動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b0fe3169",
+        "title": "斯塔默：不會屈服於川普對伊朗戰爭的壓力",
+        "url": "https://www.bbc.com/news/articles/cdxdd7ddzgdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Apr 2026 15:27:22 GMT",
+        "summary_zh": "英國工黨領袖克里斯·斯塔默（Chris Starmer）表示，他不會屈服於美國總統川普對伊朗戰爭的壓力。這是因為川普警告說，美國與英國的貿易協議「可以隨時變更」。這個警告被視為對英國政府的壓力，要求他們加入美國對伊朗的軍事行動。斯塔默表示，他不會讓英國參與任何可能導致伊朗戰爭的行動。英國政府目前正在與美國進行磋商，試圖找到一個能夠滿足雙方需求的方案。這個事件顯示出英國與美國在伊朗問題上的分歧，可能會對英國的外交政策產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5e5d63da",
+        "title": "視頻：校長勇擋槍手",
+        "url": "https://www.bbc.com/news/videos/c8dll87rrm4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Apr 2026 09:03:51 GMT",
+        "summary_zh": "在俄克拉荷馬州的一所高中，校長在發現前學生帶著槍械後，勇敢地衝向槍手。這段CCTV鏡頭顯示校長毫不猶豫地衝向槍手，試圖制止他。校長的行動被視為一項值得肯定的事，表明他願意為學生和教職員的安全而犧牲。這起事件的背景是槍枝暴力在美國的持續問題，校長的行動也被視為對抗這種問題的一種積極行動。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "405c421c",
+        "title": "美國司法部要求棄案國會暴動判決",
+        "url": "https://www.bbc.com/news/articles/ce8jje1d4jgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Apr 2026 02:56:48 GMT",
+        "summary_zh": "美國司法部正在要求法院棄案國會暴動判決，涉及川普政府時期的保衞者（Oath Keepers）和自豪男孩（Proud Boys）成員。這些團體的領袖史都華·羅德斯（Stewart Rhodes）等人因參與2021年1月6日國會暴動被判有罪。美國司法部的決定引發了輿論的關注，許多人認為這是川普政府對國會暴動的責任轉嫁。這項決定可能會對美國政治產生重大影響，尤其是在2024年總統選舉前。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "global": [
+      {
+        "id": "af3c9d60",
+        "title": "德國柏林會議: 英鎊 10 億助敘利亞, 人道主義危機仍未見曙光",
+        "url": "https://www.theguardian.com/global-development/2026/apr/15/more-than-1bn-pledged-for-sudan-as-humanitarian-crisis-deepens",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 15 Apr 2026 17:49:04 GMT",
+        "summary_zh": "德國柏林舉行會議, 籌集超過 10 億英鎊幫助敘利亞, 這一數字已經超過了籌集目標金額, 但停火的前景仍然遙遙無期。敘利亞已經經歷三年戰爭, 造成嚴重的人道主義危機, 有 34 億人需要援助, 而且敘利亞的援助金額一直處於嚴重的短缺狀態。這次會議籌集的金額將幫助解決這一問題, 但停火的前景仍然令人擔憂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2a8a391b",
+        "title": "美國影響力人物Ashly Robinson在坦尚尼亞去世　男友被當局扣押護照",
+        "url": "https://www.theguardian.com/world/2026/apr/15/ashly-robinson-death-influencer-zanzibar",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 15 Apr 2026 15:14:13 GMT",
+        "summary_zh": "美國生活風格影響力人物Ashly Robinson在去年4月9日於坦尚尼亞的茲安芝島與男友Joe McCann度假時不幸去世。 Robinson的去世在社交媒體上引起了懷疑，許多用戶對當時圍繞她死亡的敘述感到懷疑。根據當地官員的說法，McCann的護照已被扣押。儘管警方早前表示McCann不涉及任何不法行為，但茲安芝島當局的最新聲明卻引起了更多的疑慮。目前尚未有任何逮捕行動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "721c6a62",
+        "title": "南非任命前白人統治時期的談判代表為美國大使",
+        "url": "https://www.theguardian.com/world/2026/apr/15/south-africa-names-ambassador-us-roelf-meyer",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 15 Apr 2026 15:04:35 GMT",
+        "summary_zh": "南非近日宣布任命前白人統治時期的談判代表羅爾夫梅耶（Roelf Meyer）為美國大使，這被視為南非試圖改善與美國的外交關係。南非與美國的外交關係在近年來因美國對南非的指控而惡化，美國指控南非正在進行「白人種族滅絕」。羅爾夫梅耶曾在1990年代末期的談判中代表白人統治政府，該談判最終結束了白人統治。羅爾夫梅耶將取代前任大使艾哈邁德拉索爾（Ebrahim Rasool），後者在2025年3月被驅逐出境，因為他批評過川普政府。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b946da19",
+        "title": "中國人被肯尼亞法院判刑一年並罰款 smuggling 蟻",
+        "url": "https://www.theguardian.com/environment/2026/apr/15/ant-smuggler-sentenced-to-a-year-in-jail-by-kenyan-court",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 15 Apr 2026 14:07:33 GMT",
+        "summary_zh": "近日，肯尼亞法院對一名中國人判刑一年並罰款，罪名是試圖將近 2,200 個蟻偷運出肯尼亞。這起案件揭露了東非地區的蟻貿易風險，許多蟻被運往中國、美國和歐洲，作為寵物出售，每隻蟻價值約 100 美元。這種貿易風險曾在去年被揭露。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "85e809b3",
+        "title": "正義被拒絕：為何種族隔離受害者家屬仍在尋求答案",
+        "url": "https://www.theguardian.com/world/2026/apr/15/justice-denied-apartheid-south-africa-truth-and-reconciliation",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 15 Apr 2026 05:00:01 GMT",
+        "summary_zh": "種族隔離時期的四名抗議者，包括Fort Calata、Matthew Goniwe、Sicelo Mhlauli和Sparrow Mkonto，在1985年6月27日遭到白人安全警察拘捕，並被帶回Gqeberha市。三十年前，南非政府成立了真相與和解委員會，旨在促進種族隔離受害者家屬尋求正義。然而，家屬仍在努力尋求真相和正義。這一事件象徵了真相與和解委員會的局限性，委員會成立三十年來，仍未能為家屬帶來滿意的答案。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c00f54c8",
+        "title": "德國承諾 21.2 億歐元援助蘇丹於柏林會議",
+        "url": "https://www.reuters.com/world/africa/germany-pledges-212-mln-euros-sudan-berlin-conference-2026-04-15/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-04-15 13:51:44",
+        "summary_zh": "德國政府在柏林會議上承諾向蘇丹提供 21.2 億歐元的援助。這項援助將針對蘇丹的經濟發展、人道主義援助和安全領域進行支出。德國外長安倍晉三表示，這項援助將幫助蘇丹實現穩定和發展。同時，德國也呼籲其他國家提供援助，共同應對蘇丹的挑戰。柏林會議是德國和其他國家為了應對蘇丹的危機而舉行的會議。會議的目標是尋求解決蘇丹的經濟和安全問題。德國的援助將是對蘇丹的重要支持。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c6359509",
+        "title": "加州灰鯨在舊金山灣區罕見死亡率大幅上升",
+        "url": "https://www.theguardian.com/us-news/2026/apr/15/gray-whales-san-francisco-bay",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Wed, 15 Apr 2026 21:45:57 GMT",
+        "summary_zh": "舊金山灣區的加州灰鯨在近年來罕見死亡率大幅上升，主要原因是與船隻碰撞。加州灰鯨通常從墨西哥的巴哈卡州暖水潭迁徙至北極地區，途中很少會在繁忙的航運航道停留。然而，近年來，情況卻大不相同。最新一項研究發現，灰鯨在舊金山灣區死亡率大幅上升，主要原因是與船隻碰撞。研究人員認為，這是由於船隻航道日益擁擠，灰鯨在航道中停留時間越來越長所致。這項研究結果發表在《海洋科學前沿》期刊上。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ae7149a8",
+        "title": "美伊談判進展：臨近停火期限 美國和伊朗是否會重回談判桌?",
+        "url": "https://thehill.com/policy/international/5833458-us-israel-iran-fragile-ceasefire/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Wed, 15 Apr 2026 23:12:05 +0000",
+        "summary_zh": "美伊停火期限將於4月22日到期，美伊近兩個月的戰爭將告一段落。然而，停火狀態仍然脆弱，美伊雙方尚未達成共識。為了避免戰爭再次爆發，中立國的外交官正在努力促進雙方重回談判桌。美伊兩國之間的緊張關係已經持續了數月，雙方都表明了對和平的渴望。然而，停火期限的臨近使得雙方的壓力倍增。外交官們正努力在短時間內找到解決方案，避免戰爭再次爆發。這項談判的成功將對全球安全和穩定產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6954537a",
+        "title": "市場評估中東戰事前景 歐股走勢分歧",
+        "url": "https://www.cna.com.tw/news/afe/202604160003.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Thu, 16 Apr 2026 00:37:03 +0800",
+        "summary_zh": "中東戰事持續發酵，投資人對停戰談判的前景感到懷疑，同時關注荷莫茲海峽油氣運輸的恢復。這使得歐洲主要股市今天走勢分歧，原油價格也因此上漲。市場分析師認為，戰事的持續和停戰談判的不確定性，將對全球經濟產生重大影響。荷莫茲海峽是世界上最重要的油氣運輸通道之一，如果戰事持續，將對全球油價造成重大影響。投資人正在密切關注戰事的發展和停戰談判的進展，以評估市場的風險和機會。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bb183d31",
+        "title": "伊朗戰爭推高油價 挪威3月原油出口值創新高",
+        "url": "https://www.cna.com.tw/news/aopl/202604150354.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Wed, 15 Apr 2026 21:26:11 +0800",
+        "summary_zh": "伊朗戰爭爆發後，關鍵航道荷莫茲海峽被封鎖，國際油價大幅上升。挪威統計局今天發布消息，指出挪威3月原油出口值創下紀錄新高。這一波油價上漲對全球經濟產生了重大影響，許多國家的能源消費者都感到擔憂。挪威原油出口的增加是市場對來自中東地區的供應緊張的反應。然而，這也意味著挪威的經濟將受益於油價上漲。伊朗戰爭的影響尚未完全清晰，但它已經對全球經濟產生了重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "e12cd736",
         "title": "利斯·杜庫特：在脆弱的停火協議下，伊朗人質疑美國是否能達成協議",
@@ -106,30 +456,6 @@
         "ai_classified": true
       },
       {
-        "id": "32bcad02",
-        "title": "聖誕老人巡遊組織者被控盜竊100萬美元慈善活動收入",
-        "url": "https://www.bbc.com/news/articles/crl11g21ex8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 15 Apr 2026 17:56:47 GMT",
-        "summary_zh": "聖誕老人巡遊組織者史蒂芬·皮爾德斯（Stefan Pildes）被控盜竊慈善活動收入達100萬美元。根據檢方的說法，皮爾德斯在籌集了2.7萬美元的善款後，花了數十萬美元在個人開銷上。這個慈善活動原本是為了籌集善款，幫助那些需要幫助的人，但卻被組織者利用來滿足自己的私利。這個事件引發了社會的關注和譴責。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6954537a",
-        "title": "市場評估中東戰事前景 歐股走勢分歧",
-        "url": "https://www.cna.com.tw/news/afe/202604160003.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Thu, 16 Apr 2026 00:37:03 +0800",
-        "summary_zh": "中東戰事持續發酵，投資人對停戰談判的前景感到懷疑，同時關注荷莫茲海峽油氣運輸的恢復。這使得歐洲主要股市今天走勢分歧，原油價格也因此上漲。市場分析師認為，戰事的持續和停戰談判的不確定性，將對全球經濟產生重大影響。荷莫茲海峽是世界上最重要的油氣運輸通道之一，如果戰事持續，將對全球油價造成重大影響。投資人正在密切關注戰事的發展和停戰談判的進展，以評估市場的風險和機會。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "a7b70051",
         "title": "以色列三次精確打擊殺死三名黎巴嫩救護人員，官員表示",
         "url": "https://www.bbc.com/news/articles/cgqkkxd09e2o?at_medium=RSS&at_campaign=rss",
@@ -142,25 +468,13 @@
         "ai_classified": true
       },
       {
-        "id": "94bfe124",
-        "title": "南非任命前白人統治時期政治人物為美國大使",
-        "url": "https://www.bbc.com/news/articles/cwyjjjz8n8ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "32bcad02",
+        "title": "聖誕老人巡遊組織者被控盜竊100萬美元慈善活動收入",
+        "url": "https://www.bbc.com/news/articles/crl11g21ex8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Wed, 15 Apr 2026 13:10:56 GMT",
-        "summary_zh": "南非政府宣布任命前白人統治時期政治人物羅爾夫梅耶（Roelf Meyer）為新任美國大使。羅爾夫梅耶曾在南非政府與黑人領袖進行談判，試圖結束白人少數族裔統治時期。這一任命引起了南非內部的爭議，許多人認為羅爾夫梅耶的過去與南非政府的政策有所關聯。然而，南非政府表示，這一任命是為了促進南非與美國之間的關係，並希望能夠在經濟、政治和文化等領域取得進展。羅爾夫梅耶的任命也引起了美國政府的關注，美國政府將會對這一任命進行評估。這一事件可能會對南非與美國之間的關係產生影響，南非政府將會面臨著如何平衡南非內部的爭議與外部的關係的挑戰。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "bb183d31",
-        "title": "伊朗戰爭推高油價 挪威3月原油出口值創新高",
-        "url": "https://www.cna.com.tw/news/aopl/202604150354.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Wed, 15 Apr 2026 21:26:11 +0800",
-        "summary_zh": "伊朗戰爭爆發後，關鍵航道荷莫茲海峽被封鎖，國際油價大幅上升。挪威統計局今天發布消息，指出挪威3月原油出口值創下紀錄新高。這一波油價上漲對全球經濟產生了重大影響，許多國家的能源消費者都感到擔憂。挪威原油出口的增加是市場對來自中東地區的供應緊張的反應。然而，這也意味著挪威的經濟將受益於油價上漲。伊朗戰爭的影響尚未完全清晰，但它已經對全球經濟產生了重大影響。",
+        "published_at": "Wed, 15 Apr 2026 17:56:47 GMT",
+        "summary_zh": "聖誕老人巡遊組織者史蒂芬·皮爾德斯（Stefan Pildes）被控盜竊慈善活動收入達100萬美元。根據檢方的說法，皮爾德斯在籌集了2.7萬美元的善款後，花了數十萬美元在個人開銷上。這個慈善活動原本是為了籌集善款，幫助那些需要幫助的人，但卻被組織者利用來滿足自己的私利。這個事件引發了社會的關注和譴責。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -178,30 +492,6 @@
         "ai_classified": true
       },
       {
-        "id": "93803458",
-        "title": "與加拿大邊境巡邏隊一起穿越寒冷的北極",
-        "url": "https://www.bbc.com/news/videos/cwyvgvl4wv7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 15 Apr 2026 12:10:56 GMT",
-        "summary_zh": "加拿大邊境巡邏隊在北極地區展開巡邏任務，BBC記者與隊員一起走完了這趟歷史性的旅程。這支隊伍負責在加拿大北部地區維持秩序，確保該地區的安全。這次巡邏任務的目的在於展示加拿大政府對北部地區的存在感和關注度。隊員們需要在嚴寒的環境中進行巡邏，同時也需要保持高警覺性，以防止任何不法份子入侵該地區。這項任務對於加拿大政府來說非常重要，因為它可以幫助維護該地區的安全和穩定。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "adf702f1",
-        "title": "波斯尼亞選擇美國投資者為克羅地亞天然氣連接線項目",
-        "url": "https://www.reuters.com/business/energy/bosnia-selects-us-investor-gas-link-with-croatia-cut-reliance-russia-2026-04-15/",
-        "source": "Reuters",
-        "category": "global",
-        "published_at": "2026-04-15 12:48:49",
-        "summary_zh": "波斯尼亞政府近期宣布，選擇美國投資者為該國與克羅地亞之間的天然氣連接線項目。這項項目旨在減少波斯尼亞對俄羅斯天然氣的依賴。波斯尼亞政府表示，這項投資將幫助該國降低能源成本，並提高能源安全。波斯尼亞與克羅地亞之間的天然氣連接線將使兩國之間的天然氣交易更加便捷。波斯尼亞政府預計，這項項目將在2025年完成，並將創造約100個工作機會。波斯尼亞政府的這一決定被視為減少對俄羅斯天然氣的依賴的一步棋。波斯尼亞政府希望通過這項投資，降低能源成本，並提高能源安全。波斯尼亞與克羅地亞之間的天然氣連接線將使兩國之間的天然氣交易更加便捷。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
         "id": "91515213",
         "title": "南韓將美國YouTuber囚禁為公共擾亂罪",
         "url": "https://www.bbc.com/news/articles/cj400lje9vxo?at_medium=RSS&at_campaign=rss",
@@ -211,6 +501,18 @@
         "summary_zh": "南韓一名美國YouTuber Johnny Somali 因為在一尊紀念二戰性奴役受害者雕像前親吻而引發民眾憤怒。這名YouTuber的行為被視為對受害者的冒犯和不尊嚴。南韓當局對他的行為表示強烈譴責，並將他囚禁為公共擾亂罪。這一事件引發了對南韓對二戰歷史和性奴役受害者尊嚴的關注。南韓政府和社會對這一事件的反應表明了對尊嚴和對歷史的重視。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "93803458",
+        "title": "與加拿大邊境巡邏隊一起穿越寒冷的北極",
+        "url": "https://www.bbc.com/news/videos/cwyvgvl4wv7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 15 Apr 2026 12:10:56 GMT",
+        "summary_zh": "加拿大邊境巡邏隊在北極地區展開巡邏任務，BBC記者與隊員一起走完了這趟歷史性的旅程。這支隊伍負責在加拿大北部地區維持秩序，確保該地區的安全。這次巡邏任務的目的在於展示加拿大政府對北部地區的存在感和關注度。隊員們需要在嚴寒的環境中進行巡邏，同時也需要保持高警覺性，以防止任何不法份子入侵該地區。這項任務對於加拿大政府來說非常重要，因為它可以幫助維護該地區的安全和穩定。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -284,371 +586,9 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "c6359509",
-        "title": "加州灰鯨在舊金山灣區罕見死亡率大幅上升",
-        "url": "https://www.theguardian.com/us-news/2026/apr/15/gray-whales-san-francisco-bay",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Wed, 15 Apr 2026 21:45:57 GMT",
-        "summary_zh": "舊金山灣區的加州灰鯨在近年來罕見死亡率大幅上升，主要原因是與船隻碰撞。加州灰鯨通常從墨西哥的巴哈卡州暖水潭迁徙至北極地區，途中很少會在繁忙的航運航道停留。然而，近年來，情況卻大不相同。最新一項研究發現，灰鯨在舊金山灣區死亡率大幅上升，主要原因是與船隻碰撞。研究人員認為，這是由於船隻航道日益擁擠，灰鯨在航道中停留時間越來越長所致。這項研究結果發表在《海洋科學前沿》期刊上。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ae7149a8",
-        "title": "美伊談判進展：臨近停火期限 美國和伊朗是否會重回談判桌?",
-        "url": "https://thehill.com/policy/international/5833458-us-israel-iran-fragile-ceasefire/",
-        "source": "The Hill",
-        "category": "global",
-        "published_at": "Wed, 15 Apr 2026 23:12:05 +0000",
-        "summary_zh": "美伊停火期限將於4月22日到期，美伊近兩個月的戰爭將告一段落。然而，停火狀態仍然脆弱，美伊雙方尚未達成共識。為了避免戰爭再次爆發，中立國的外交官正在努力促進雙方重回談判桌。美伊兩國之間的緊張關係已經持續了數月，雙方都表明了對和平的渴望。然而，停火期限的臨近使得雙方的壓力倍增。外交官們正努力在短時間內找到解決方案，避免戰爭再次爆發。這項談判的成功將對全球安全和穩定產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "af3c9d60",
-        "title": "德國柏林會議: 英鎊 10 億助敘利亞, 人道主義危機仍未見曙光",
-        "url": "https://www.theguardian.com/global-development/2026/apr/15/more-than-1bn-pledged-for-sudan-as-humanitarian-crisis-deepens",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 15 Apr 2026 17:49:04 GMT",
-        "summary_zh": "德國柏林舉行會議, 籌集超過 10 億英鎊幫助敘利亞, 這一數字已經超過了籌集目標金額, 但停火的前景仍然遙遙無期。敘利亞已經經歷三年戰爭, 造成嚴重的人道主義危機, 有 34 億人需要援助, 而且敘利亞的援助金額一直處於嚴重的短缺狀態。這次會議籌集的金額將幫助解決這一問題, 但停火的前景仍然令人擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2a8a391b",
-        "title": "美國影響力人物Ashly Robinson在坦尚尼亞去世　男友被當局扣押護照",
-        "url": "https://www.theguardian.com/world/2026/apr/15/ashly-robinson-death-influencer-zanzibar",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 15 Apr 2026 15:14:13 GMT",
-        "summary_zh": "美國生活風格影響力人物Ashly Robinson在去年4月9日於坦尚尼亞的茲安芝島與男友Joe McCann度假時不幸去世。 Robinson的去世在社交媒體上引起了懷疑，許多用戶對當時圍繞她死亡的敘述感到懷疑。根據當地官員的說法，McCann的護照已被扣押。儘管警方早前表示McCann不涉及任何不法行為，但茲安芝島當局的最新聲明卻引起了更多的疑慮。目前尚未有任何逮捕行動。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b946da19",
-        "title": "中國人被肯尼亞法院判刑一年並罰款 smuggling 蟻",
-        "url": "https://www.theguardian.com/environment/2026/apr/15/ant-smuggler-sentenced-to-a-year-in-jail-by-kenyan-court",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 15 Apr 2026 14:07:33 GMT",
-        "summary_zh": "近日，肯尼亞法院對一名中國人判刑一年並罰款，罪名是試圖將近 2,200 個蟻偷運出肯尼亞。這起案件揭露了東非地區的蟻貿易風險，許多蟻被運往中國、美國和歐洲，作為寵物出售，每隻蟻價值約 100 美元。這種貿易風險曾在去年被揭露。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "85e809b3",
-        "title": "正義被拒絕：為何種族隔離受害者家屬仍在尋求答案",
-        "url": "https://www.theguardian.com/world/2026/apr/15/justice-denied-apartheid-south-africa-truth-and-reconciliation",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 15 Apr 2026 05:00:01 GMT",
-        "summary_zh": "種族隔離時期的四名抗議者，包括Fort Calata、Matthew Goniwe、Sicelo Mhlauli和Sparrow Mkonto，在1985年6月27日遭到白人安全警察拘捕，並被帶回Gqeberha市。三十年前，南非政府成立了真相與和解委員會，旨在促進種族隔離受害者家屬尋求正義。然而，家屬仍在努力尋求真相和正義。這一事件象徵了真相與和解委員會的局限性，委員會成立三十年來，仍未能為家屬帶來滿意的答案。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1384b6d6",
-        "title": "希恩鲍姆承诺为墨西哥人「在所有层面」发声，抗议特朗普对移民死亡的反应",
-        "url": "https://www.theguardian.com/world/2026/apr/15/mexico-president-claudia-sheinbaum-donald-trump-ice-deaths",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 15 Apr 2026 01:50:47 GMT",
-        "summary_zh": "墨西哥政府近期表達對美國囚禁墨西哥公民致死的關注，墨西哥總統希恩鲍姆也在反對特朗普政府對古巴實施能源封鎖的決定。希恩鲍姆領導的進步政府在過去一年多與特朗普政府保持著微妙的關係，對特朗普的挑釁採取了平衡的態度，並且在壓力下同意加強打擊走私集團，以避免美國對墨西哥實施關稅和軍事行動的威脅。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "61822fbe",
-        "title": "川普與教皇之間的裂痕正在公開展露 - 這對他來說是一個昂貴的代價",
-        "url": "https://www.bbc.com/news/articles/c070jxyjrmeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 11:25:09 GMT",
-        "summary_zh": "美國前總統川普與教皇之間的矛盾正在逐漸公開化。許多保守派天主教徒對此表示支持，認為教皇的立場是正確的。根據BBC的報導，這些保守派天主教徒表示，川普的言行與天主教的教義不符，教皇的批評是正確的。這些保守派天主教徒的支持對教皇來說是一個重要的背書，同時也對川普造成了傷害。川普的支持率在美國的保守派圈子中一直很高，但這次教皇的批評可能會使得他的支持率下降。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "54d90053",
-        "title": "川普威脅要炒掉美聯儲主席鮑威爾 若他不在五月離任",
-        "url": "https://www.bbc.com/news/articles/c9qddrdd8w2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 18:29:50 GMT",
-        "summary_zh": "川普總統再度與美聯儲主席鮑威爾發生衝突，威脅要炒掉他如果他不在五月離任。這是川普與鮑威爾的長期爭執的最新一波。川普一直批評美聯儲的升息政策，認為它對經濟有害。鮑威爾則堅持美聯儲的政策是為了維持經濟穩定。這場爭執的影響不僅僅是對美聯儲的政策，也對全球經濟有著重要影響。川普的威脅讓市場感到不安，美元的價格開始下跌。這也讓投資者開始擔心未來的經濟前景。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4ad36292",
-        "title": "票務公司 Ticketmaster 因壟斷被控違法，消費者被過度收取 1.72 美元",
-        "url": "https://www.bbc.com/news/articles/clyddyp19yyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 22:56:29 GMT",
-        "summary_zh": "票務公司 Ticketmaster 因壟斷被控違法，美國政府對其展開調查。根據訴訟指控，該公司壟斷市場，導致票價上漲和服務惡化。調查發現，Ticketmaster 的壟斷行為使得消費者被過度收取 1.72 美元。這一事件引發了對票務公司壟斷行為的關注，美國政府將對此進行進一步調查和處理。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "053bae89",
-        "title": "內布拉斯加州警方開槍射殺持刀婦女，涉嫌在沃爾瑪搶劫三歲男童",
-        "url": "https://www.bbc.com/news/articles/c20q24zjl0eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 16 Apr 2026 00:46:52 GMT",
-        "summary_zh": "內布拉斯加州一名31歲的婦女在沃爾瑪超市隨機劫走了一名三歲男童，警方表示她持刀威脅。警方隨後開槍射殺了該名婦女，事件目前仍在調查中。這起事件引起了社會的關注和譴責，許多人對警方的行動表示支持。這名婦女的動機和行為仍未完全明瞭，警方正在調查她背後的原因。這起事件也引起了對兒童安全和婦女心理健康的關注。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "1fe77318",
-        "title": "美國參議院再次否決停止伊朗戰爭決議案，民主黨承諾繼續努力",
-        "url": "https://www.bbc.com/news/articles/czxrrlve714o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 21:32:22 GMT",
-        "summary_zh": "美國參議院再次否決了一項決議案，要求停止對伊朗的軍事行動。雖然多數共和黨議員支持川普總統繼續進行軍事行動，但也有少數共和黨議員表示可能在幾周後重新評估。這項決議案由民主黨提出，意在限制總統對伊朗的軍事行動權限。民主黨議員表示，將繼續努力通過這項決議案，限制總統的軍事行動權限。這項決議案的否決結果，表明美國政府仍然支持對伊朗的軍事行動。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "b0fe3169",
-        "title": "斯塔默：不會屈服於川普對伊朗戰爭的壓力",
-        "url": "https://www.bbc.com/news/articles/cdxdd7ddzgdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 15:27:22 GMT",
-        "summary_zh": "英國工黨領袖克里斯·斯塔默（Chris Starmer）表示，他不會屈服於美國總統川普對伊朗戰爭的壓力。這是因為川普警告說，美國與英國的貿易協議「可以隨時變更」。這個警告被視為對英國政府的壓力，要求他們加入美國對伊朗的軍事行動。斯塔默表示，他不會讓英國參與任何可能導致伊朗戰爭的行動。英國政府目前正在與美國進行磋商，試圖找到一個能夠滿足雙方需求的方案。這個事件顯示出英國與美國在伊朗問題上的分歧，可能會對英國的外交政策產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5e5d63da",
-        "title": "視頻：校長勇擋槍手",
-        "url": "https://www.bbc.com/news/videos/c8dll87rrm4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 09:03:51 GMT",
-        "summary_zh": "在俄克拉荷馬州的一所高中，校長在發現前學生帶著槍械後，勇敢地衝向槍手。這段CCTV鏡頭顯示校長毫不猶豫地衝向槍手，試圖制止他。校長的行動被視為一項值得肯定的事，表明他願意為學生和教職員的安全而犧牲。這起事件的背景是槍枝暴力在美國的持續問題，校長的行動也被視為對抗這種問題的一種積極行動。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "405c421c",
-        "title": "美國司法部要求棄案國會暴動判決",
-        "url": "https://www.bbc.com/news/articles/ce8jje1d4jgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 02:56:48 GMT",
-        "summary_zh": "美國司法部正在要求法院棄案國會暴動判決，涉及川普政府時期的保衞者（Oath Keepers）和自豪男孩（Proud Boys）成員。這些團體的領袖史都華·羅德斯（Stewart Rhodes）等人因參與2021年1月6日國會暴動被判有罪。美國司法部的決定引發了輿論的關注，許多人認為這是川普政府對國會暴動的責任轉嫁。這項決定可能會對美國政治產生重大影響，尤其是在2024年總統選舉前。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b91746e1",
-        "title": "外交在冰上：馬克·卡尼和亞歷山大·斯圖布打冰球",
-        "url": "https://www.bbc.com/news/videos/c07005v7x8mo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 01:06:10 GMT",
-        "summary_zh": "在加拿大首都渥太華，時任加拿大總理馬克·卡尼與芬蘭總統亞歷山大·斯圖布在冰上打冰球。這是芬蘭總統亞歷山大·斯圖布的首次正式雙邊訪問。這次冰上對決不僅僅是友好的競賽，更是加拿大和芬蘭之間的外交關係的展示。兩國領導人在冰上展現了友好的氣氛，展現了兩國之間的和平友好關係。這次訪問不僅僅是冰球賽事，更是加拿大和芬蘭之間的外交關係的深化。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "45967e61",
-        "title": "白宮發布執照：授權Enbridge Energy營運北達科他州三座管道設施",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-three-existing-pipeline-facilities-at-pembina-county-north-dakota-at-the-international-boundary-between/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 20:31:09 +0000",
-        "summary_zh": "白宮宣布，根據美國總統的權力，授予Enbridge Energy有限合夥企業（Enbridge Energy, Limited Partnership）在北達科他州彭比納縣（Pembina County）三座現有管道設施的營運和維護執照。這些設施位於美國和加拿大國際邊界上。Enbridge Energy是一家根據德拉瓦州法律成立的有限合夥企業。這項執照的授予，受條件約束，條件將在執照中明確列出。這項決定將對美國能源產業產生重大影響，同時也將加強與加拿大的經濟合作關係。然而，對於環境保護和安全問題的擔憂仍存疑慮。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c5e1c766",
-        "title": "梅拉尼婭·川普夫人倡導新兒童保護法案通過國會",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-champions-new-foster-care-legislation-in-congress/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 19:56:35 +0000",
-        "summary_zh": "梅拉尼婭·川普夫人今天與國會的強大委員會會議合作，推動一項關鍵的法律法案，旨在保護美國的孤兒。梅拉尼婭·川普夫人強調，「我們今天聚集在這裡，不是因為美國的孩子依靠我們，而是因為美國的孩子是我們的道德平等者。」她還提到，新法律將為未來的美國年輕一代帶來新的機會。這項法律將為美國的孤兒提供更好的照護和支持，讓他們有更好的未來。梅拉尼婭·川普夫人的努力將幫助改善美國的兒童保護政策，為未來的年輕一代帶來希望。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9e9200b8",
-        "title": "共和黨難以突出川普減稅的成果 美國民眾對稅日卻幾乎不感知",
-        "url": "https://www.theguardian.com/us-news/live/2026/apr/15/donald-trump-iran-economy-tax-day-voter-id-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 16 Apr 2026 00:42:46 GMT",
-        "summary_zh": "共和黨曾期望川普2025年的減稅措施將成為選民關注的焦點，但卻發現許多美國民眾對此幾乎沒有留下任何印象。美國納稅人為了川普推動的巨大軍費增加而花費了數百美元。美國一些最大工會的領袖推出了旨在振興美國勞工運動和抗衡川普下台階級不平等的運動。為了使工人更容易加入工會，並strengthen新工會與強大企業進行談判的能力，一群知名組織者聯合推出了Union Now，非營利組織旨在增加勞工工會密度。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "912e198f",
-        "title": "「殺人者是Vought」抗議者中斷川普預算首長聽證會",
-        "url": "https://www.theguardian.com/us-news/2026/apr/15/russ-vought-budget-hearing",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 22:38:08 GMT",
-        "summary_zh": "抗議者在華盛頓的國會大廈中斷川普政府預算首長羅素·沃特（Russell Vought）聽證會，抗議者批評沃特削減對抗愛滋病的援助金，同時抗議者也批評政府對於愛滋病的援助金削減，導致愛滋病患者的治療延遲。抗議者兩次中斷聽證會，抗議者要求政府增加對抗愛滋病的援助金。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3ebf2510",
-        "title": " Ketanji布朗傑克森大法官譴責保守派大法官為川普發布支持性命令 ",
-        "url": "https://www.theguardian.com/us-news/2026/apr/15/ketanji-brown-jackson-supreme-court-conservative-judges-trump",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 22:04:30 GMT",
-        "summary_zh": "美國最高法院新任大法官Ketanji布朗傑克森對保守派大法官在川普政府時期發布的緊急命令表示譴責，稱這些命令如草稿般的想法，缺乏深思熟慮。布朗傑克森針對去年發布的超過二十個命令進行評估，這些命令允許川普實施爭議的政策，包括移民政策、聯邦資金大幅削減等。保守派大法官利用緊急命令來實現川普政府的政策，布朗傑克森認為這些命令缺乏深思熟慮和嚴謹性。她的評估表明，她對保守派大法官的行為感到關注和不滿。這一事件可能對美國最高法院的政治格局產生影響，展現了布朗傑克森的立場和態度。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "826e9c47",
-        "title": "法國政府要求釋放86歲法國寡婦被ICE扣留",
-        "url": "https://www.theguardian.com/us-news/2026/apr/15/french-widow-detained-ice-marie-therese-ross",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 21:42:39 GMT",
-        "summary_zh": "法國政府正在要求美國國土安全部釋放一名86歲的法國寡婦。她被美國移民及海關執法局（ICE）扣留，理由是她逾期停留。法國政府表示，這名寡婦是前軍人之妻，應該受到尊嚴和善待。美國國土安全部表示，這名寡婦在1月份被扣留，理由是她逾期停留90天的簽證。目前，這名寡婦被困在路易斯安那州的聯邦移民扣留中心。法國政府要求美國政府釋放這名寡婦，並讓她能夠返回法國。這一事件引起了國際社會的關注，許多人認為，這名寡婦不應該被扣留。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "61581f7f",
-        "title": "1月6日前夕疑似縱火者面臨新控訴",
-        "url": "https://www.theguardian.com/us-news/2026/apr/15/january-6-pipe-bomber-suspect-charges",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 18:45:04 GMT",
-        "summary_zh": "一名疑似在美國首都華盛頓特區共和黨和民主黨總部附近放置管炸彈的人，被控運送和安置兩枚即時爆炸裝置。最新的起訴書中，對該名男子布萊恩·柯爾·喬丹（Brian Cole Jr）提出了兩項新的重罪指控，分別是企圖使用大規模殺傷性武器和在武裝的情況下進行恐怖主義行為。這名男子已經被捕，並在12月份被指控運送和安置兩枚即時爆炸裝置。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d7271174",
-        "title": "民主黨批評、共和黨支持副總統助理沃特於會議期間激辯: 3個關鍵點",
-        "url": "https://thehill.com/homenews/house/5833431-vought-house-budget-committee/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 23:12:34 +0000",
-        "summary_zh": "美國白宮預算辦公室主任沃特於本周三與眾議院預算委員會的民主黨成員激辯，爭論是次會議的焦點是川普政府提出的削減開支方案。這場年度會議是在川普政府公布其對於2027財政年度的預算草案後舉行的，該草案中提出了對國防開支的40%增加。民主黨批評川普政府的開支削減方案對於社會福利和教育開支的影響不大，而共和黨則表示這些削減對於國家的財政健康是必要的。會議期間，沃特還被問及川普政府對於2027財政年度的預算草案中提出的削減方案的具體措施，包括對於社會福利和教育開支的削減。民主黨成員對於這些削減方案表示不滿，認為這些削減對於社會福利和教育開支的影響不大。共和黨成員則表示，這些削減對於國家的財政健康是必要的。會議期間，沃特還被問及川普政府對於2027財政年度的預算草案中提出的削減方案的具體措施，包括對於社會福利和教育開支的削減。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3501cc86",
-        "title": "佐治亞共和黨議員：將軍喬治遭免職將對軍方產生『寒蟬效應』",
-        "url": "https://thehill.com/policy/defense/5833470-george-removal-chilling-effect/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Apr 2026 23:10:29 +0000",
-        "summary_zh": "佐治亞州共和黨議員奧斯汀·史考特(Austin Scott)表示，國防部長彼得·赫格塞斯(Pete Hegseth)最近將美國陸軍前總參謀長喬治將軍(Randy George)免職，將對軍方的運作產生『寒蟬效應』。史考特議員讚譽喬治將軍為『受人尊敬、受人喜愛的人』，並詢問總參謀長克里斯多福將軍(Christopher)，該事件將如何影響軍方的士氣和信心。這一事件引起了軍方內部的關注和討論，許多人認為這將對軍方的士氣和信心產生不利影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "ai": [
-      {
-        "id": "d6efd540",
-        "title": "NASA 正在開發核能太空船，揭露我們的 AI 10 名單",
-        "url": "https://www.technologyreview.com/2026/04/15/1135904/the-download-nasa-nuclear-powered-spacecraft-10-things-that-matter-in-ai-right-now/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Wed, 15 Apr 2026 12:10:00 +0000",
-        "summary_zh": "NASA 正在開發一艘核能太空船，這艘太空船將是第一艘使用核能驅動的行星間太空船。這艘太空船將如何運作？就在阿特米斯二號進行了歷史性的月球彈道飛行之前，NASA 公佈了一個更宏偉的太空旅行計畫。這個計畫將會讓人們更深入地了解太空和太陽系。同時，NASA 也揭露了我們的 AI 10 名單，這些 AI 將會在未來的太空探索中發揮重要作用。這些 AI 將會幫助太空船進行自動化任務，提高太空旅行的效率和安全性。這個計畫將會為未來的太空探索開闢新路徑。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "71407c1e",
-        "title": "Jane Street 與 CoreWeave簽下 6 億美元的 AI 雲端服務合約",
-        "url": "https://www.reuters.com/legal/transactional/jane-street-signs-6-billion-ai-cloud-deal-with-coreweave-boosts-stake-2026-04-15/",
-        "source": "Reuters",
-        "category": "ai",
-        "published_at": "2026-04-15 12:58:38",
-        "summary_zh": "交易公司 Jane Street 宣布將投入約 6 億美元購買 CoreWeave 的雲端服務。這項交易標誌著 CoreWeave 在一周內獲得第三筆超過 10 億美元的投資，同時凸顯著人工智慧應用日益增長所帶來的計算能力需求激增。這項交易也凸顯了 CoreWeave 作為 Nvidia 支持的新興雲端公司的重要性。人工智慧應用的需求日益增長，導致計算能力需求的激增，CoreWeave 的雲端服務正是滿足這種需求的最佳選擇。這項交易對 CoreWeave 的未來發展具有重要意義，同時也凸顯了人工智慧技術的重要性。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "7e6e1f8a",
-        "title": "黑客利用 Telegram 上的非法工具逃過銀行安全檢查",
-        "url": "https://www.technologyreview.com/2026/04/15/1135898/cyberscammers-bypassing-bank-telegram/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Wed, 15 Apr 2026 11:26:12 +0000",
-        "summary_zh": "近日，一名來自柬埔寨洗錢中心的員工在手機上打開了一款流行的越南銀行應用程式。應用程式要求他上傳與帳戶相關的照片，他點擊了一張 30 多歲的亞洲男子照片。接著，應用程式要求他開啟相機進行「活性」檢查。這些操作看似合法，但實際上是黑客利用 Telegram 上的非法工具，逃過銀行安全檢查。這些工具可以讓黑客偽造身份，通過銀行安全檢查，進而進行洗錢和其他非法活動。這一問題已經引起了銀行和監管機構的關注，正在努力找出解決方案。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2f015594",
-        "title": "人工生物是否會毀滅我們？",
-        "url": "https://www.technologyreview.com/2026/04/15/1135197/synthetic-mirror-life-microbes-kill-us-all/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Wed, 15 Apr 2026 09:00:00 +0000",
-        "summary_zh": "2019 年 2 月，在北維吉尼亞的一個會議中心，約 30 名合成生物學家和倫理學家聚集了 4 天，討論國家科學基金會應該資助的高風險、前沿且引人入勝的想法。會議結束後，他們認為應該開發「鏡像」細菌。這種細菌的出現，可能會對人類造成重大影響。然而，目前尚未有人確定這種生物是否會對我們造成毀滅性的威脅。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "deb367cb",
-        "title": "在人工智慧時代建立信任：以隱私為導向的使用者經驗",
-        "url": "https://www.technologyreview.com/2026/04/15/1135530/building-trust-in-the-ai-era-with-privacy-led-ux/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Wed, 15 Apr 2026 06:00:00 +0000",
-        "summary_zh": "在人工智慧時代，隱私導向的使用者經驗（UX）是一種設計哲學，將透明度在資料收集和使用方面作為客戶關係的一部分。這是一個在數位行銷中尚未被充分挖掘的機會，隱私導向的UX將用戶同意視為客戶關係的第一個邀請，而不是單純的合規性檢查。這種方法可以幫助企業建立信任，改善用戶體驗，並在競爭激烈的市場中取得優勢。透過隱私導向的UX，企業可以展示對用戶隱私的重視，並提供更個人化的服務，從而建立長期的客戶關係。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
       {
         "id": "f9e27763",
         "title": "特朗普發布更多人工智慧生成的特朗普-耶穌粉絲藝術",
@@ -670,6 +610,18 @@
         "published_at": "2026-04-15T14:10:15-04:00",
         "summary_zh": "Google宣布推出Gemini AI應用程式，讓Mac用戶可以在桌面上與AI交互，無需切換視窗。用戶可以使用Option + Space快捷鍵呼叫浮動聊天泡泡，與Gemini交談並分享視窗。這項功能讓用戶可以更方便地與AI進行溝通，提高工作效率。Gemini AI應用程式的推出，標誌著Google在Mac平台的AI應用程式進展。",
         "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "71407c1e",
+        "title": "Jane Street 與 CoreWeave簽下 6 億美元的 AI 雲端服務合約",
+        "url": "https://www.reuters.com/legal/transactional/jane-street-signs-6-billion-ai-cloud-deal-with-coreweave-boosts-stake-2026-04-15/",
+        "source": "Reuters",
+        "category": "ai",
+        "published_at": "2026-04-15 12:58:38",
+        "summary_zh": "交易公司 Jane Street 宣布將投入約 6 億美元購買 CoreWeave 的雲端服務。這項交易標誌著 CoreWeave 在一周內獲得第三筆超過 10 億美元的投資，同時凸顯著人工智慧應用日益增長所帶來的計算能力需求激增。這項交易也凸顯了 CoreWeave 作為 Nvidia 支持的新興雲端公司的重要性。人工智慧應用的需求日益增長，導致計算能力需求的激增，CoreWeave 的雲端服務正是滿足這種需求的最佳選擇。這項交易對 CoreWeave 的未來發展具有重要意義，同時也凸顯了人工智慧技術的重要性。",
+        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
@@ -710,6 +662,54 @@
         "ai_classified": true
       },
       {
+        "id": "d6efd540",
+        "title": "NASA 正在開發核能太空船，揭露我們的 AI 10 名單",
+        "url": "https://www.technologyreview.com/2026/04/15/1135904/the-download-nasa-nuclear-powered-spacecraft-10-things-that-matter-in-ai-right-now/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 15 Apr 2026 12:10:00 +0000",
+        "summary_zh": "NASA 正在開發一艘核能太空船，這艘太空船將是第一艘使用核能驅動的行星間太空船。這艘太空船將如何運作？就在阿特米斯二號進行了歷史性的月球彈道飛行之前，NASA 公佈了一個更宏偉的太空旅行計畫。這個計畫將會讓人們更深入地了解太空和太陽系。同時，NASA 也揭露了我們的 AI 10 名單，這些 AI 將會在未來的太空探索中發揮重要作用。這些 AI 將會幫助太空船進行自動化任務，提高太空旅行的效率和安全性。這個計畫將會為未來的太空探索開闢新路徑。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7e6e1f8a",
+        "title": "黑客利用 Telegram 上的非法工具逃過銀行安全檢查",
+        "url": "https://www.technologyreview.com/2026/04/15/1135898/cyberscammers-bypassing-bank-telegram/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 15 Apr 2026 11:26:12 +0000",
+        "summary_zh": "近日，一名來自柬埔寨洗錢中心的員工在手機上打開了一款流行的越南銀行應用程式。應用程式要求他上傳與帳戶相關的照片，他點擊了一張 30 多歲的亞洲男子照片。接著，應用程式要求他開啟相機進行「活性」檢查。這些操作看似合法，但實際上是黑客利用 Telegram 上的非法工具，逃過銀行安全檢查。這些工具可以讓黑客偽造身份，通過銀行安全檢查，進而進行洗錢和其他非法活動。這一問題已經引起了銀行和監管機構的關注，正在努力找出解決方案。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2f015594",
+        "title": "人工生物是否會毀滅我們？",
+        "url": "https://www.technologyreview.com/2026/04/15/1135197/synthetic-mirror-life-microbes-kill-us-all/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 15 Apr 2026 09:00:00 +0000",
+        "summary_zh": "2019 年 2 月，在北維吉尼亞的一個會議中心，約 30 名合成生物學家和倫理學家聚集了 4 天，討論國家科學基金會應該資助的高風險、前沿且引人入勝的想法。會議結束後，他們認為應該開發「鏡像」細菌。這種細菌的出現，可能會對人類造成重大影響。然而，目前尚未有人確定這種生物是否會對我們造成毀滅性的威脅。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "deb367cb",
+        "title": "在人工智慧時代建立信任：以隱私為導向的使用者經驗",
+        "url": "https://www.technologyreview.com/2026/04/15/1135530/building-trust-in-the-ai-era-with-privacy-led-ux/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 15 Apr 2026 06:00:00 +0000",
+        "summary_zh": "在人工智慧時代，隱私導向的使用者經驗（UX）是一種設計哲學，將透明度在資料收集和使用方面作為客戶關係的一部分。這是一個在數位行銷中尚未被充分挖掘的機會，隱私導向的UX將用戶同意視為客戶關係的第一個邀請，而不是單純的合規性檢查。這種方法可以幫助企業建立信任，改善用戶體驗，並在競爭激烈的市場中取得優勢。透過隱私導向的UX，企業可以展示對用戶隱私的重視，並提供更個人化的服務，從而建立長期的客戶關係。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "5c4a5ffb",
         "title": "CEO 會話機器人時代即將來臨",
         "url": "https://www.ft.com/content/782b1eee-5a64-4b2d-8cbf-35c5eb4c534e",
@@ -722,7 +722,153 @@
         "ai_classified": true
       }
     ],
+    "finance": [
+      {
+        "id": "a0c0bc3a",
+        "title": "Allbirds 飛躍 373%：運動鞋公司改名為 AI 股票後大躍進",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-15/ex-sneaker-firm-allbirds-soars-373-after-rebranding-as-ai-stock",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-15 13:48:14",
+        "summary_zh": "運動鞋公司 Allbirds 近期宣布改名為 AI 股票，股價大幅上升 373%。這項變革引起市場關注，投資者紛紛關注這家公司未來發展的方向。分析師認為，Allbirds 的改名是為了強調公司在 AI 技術上的投資和發展，同時也表明公司願意冒險嘗試新事物。然而，投資者也對公司未來的財務表現和競爭力表示憂慮。目前，Allbirds 的股價仍在上漲，但投資者仍需密切關注公司未來的發展方向和財務表現。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "00c37c2d",
+        "title": "美國房屋建造商信心指數跌至七個月低點",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-15/us-homebuilder-sentiment-falls-to-seven-month-low-amid-iran-war",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-15 14:00:00",
+        "summary_zh": "美國房屋建造商信心指數在最新調查中跌至七個月低點，主要是因為房屋需求疲弱和材料成本上升。房屋建造商對未來六個月房屋銷售情況的預期下降，同時也對材料成本和勞工短缺的擔憂增加。這一調查結果顯示美國房屋市場正在經歷一個不穩定的時期。房屋建造商的信心指數下降可能會影響房屋銷售和建造活動的增長。房屋建造商的信心指數下降可能會影響房屋銷售和建造活動的增長。房屋建造商的信心指數下降可能會影響房屋銷售和建造活動的增長。房屋建造商的信心指數下降可能會影響房屋銷售和建造活動的增長。房屋建造商的信心指數下降可能會影響房屋銷售和建造活動的增長。房屋建造商的信心指數下降可能會影響房屋銷售和建造活動的增長。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1496b677",
+        "title": "56% 的美國人認為日常生活比去年更不容易負擔。這些信用卡可以幫助抵消日漸上升的成本",
+        "url": "https://www.cnbc.com/select/credit-cards-that-can-help-with-everyday-affordability/",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-04-15 13:58:39",
+        "summary_zh": "根據CNBC的一項調查，超過半數的美國人認為日常生活比去年更不容易負擔。為了幫助消費者抵消日漸上升的成本，以下是5張獎勵信用卡。這些信用卡不僅提供高額獎勵還能幫助消費者償還債務，同時還能提供購物折扣和其他優惠。這些信用卡的獎勵包括購物、旅遊、餐飲等領域，讓消費者能夠在日常生活中享受更多的獎勵。這項調查顯示，美國人日常生活的費用正在上升，信用卡可以幫助消費者抵消這些費用。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8c7bb298",
+        "title": "美聯儲的哈姆克：利率可能持續維持不變 '一段時間'",
+        "url": "https://www.reuters.com/business/feds-hammack-rates-likely-hold-for-good-while-cnbc-2026-04-15/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-15 13:54:10",
+        "summary_zh": "美聯儲克利夫蘭分行總裁貝絲哈姆克(Beth Hammack)表示，儘管她認為美聯儲不需要立即調整利率目標設定，但仍有可能出現降息或加息的情況。哈姆克在星期三的發言中表示，美聯儲的利率可能會維持不變 '一段時間'。這意味著美聯儲可能會繼續保持較低的利率水平，來支持經濟的恢復。哈姆克的發言表明，美聯儲仍然會密切監測經濟情況，並根據需要進行調整。這樣的做法有助於維持經濟的穩定和可預測性。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "2041f079",
+        "title": "英國監管機構新領導人：英國可以從歐洲央行學習銀行監管經驗",
+        "url": "https://www.reuters.com/business/finance/incoming-head-pra-says-uk-could-learn-ecb-review-bank-supervision-2026-04-15/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-15 13:52:54",
+        "summary_zh": "英國的監管機構新領導人表示，英國可以從歐洲央行的銀行監管體系中學習。歐洲央行最近對其銀行監管體系進行了檢視，英國新領導人認為這些經驗值得借鑑。英國的銀行監管體系一直受到關注，新領導人表示，通過學習歐洲央行的經驗，英國可以改善自己的監管體系，提高銀行的安全性和穩定性。這將對英國的金融市場和銀行業產生重要影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "c3dd8902",
+        "title": "市場人士熱衷於霍爾木茲海峽，為什麼這並不如你想的那樣重要？",
+        "url": "https://www.cnbc.com/2026/04/15/power-insider-the-markets-are-obsessed-with-the-strait-of-hormuz-why-it-matters-less-than-you-think.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-04-15 11:00:55",
+        "summary_zh": "霍爾木茲海峽是全球最重要的石油運輸通道，市場人士一直關注其通航情況，以期能夠從中獲得油價走勢的線索。然而，實際上，這種方法並不準確。石油價格受到多種因素的影響，包括全球需求、供應、經濟情況等，而霍爾木茲海峽的通航狀況只是其中之一。因此，市場人士過度關注霍爾木茲海峽的通航情況，實際上並不能為其投資決策提供有意義的線索。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "stock_tw": [
+      {
+        "id": "e923d5fd",
+        "title": "魏哲家獲《TIME》百大影響力人物 黃仁勳撰文盛讚 \"謙遜且自律\"",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5405447",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 16 Apr 2026 09:57:59 +0800",
+        "summary_zh": "美國《時代》雜誌今日公布2026年度百大影響力人物，台積電董事長暨總裁魏哲家上榜。魏哲家因其在全球晶片產業的領導地位和對台灣經濟的貢獻而受到肯定。輝達執行長黃仁勳撰文介紹魏哲家，讚揚他「謙遜且自律」的性格。魏哲家在台積電的領導下，推動了公司的全球化和技術革新，為台灣的經濟發展做出了重要貢獻。這項榮譽是對魏哲家辛勤工作和對業界的貢獻的肯定。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "43850bd1",
+        "title": "焦點股》聯電：傳代工快閃記憶體 股價奔漲停",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5405479",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 16 Apr 2026 09:55:46 +0800",
+        "summary_zh": "聯電今日股價表現強勁，盤中漲停達68.3元，一舉上漲6.2元。截至9點21分，成交量逾16萬張，漲停後委買量超過2.5萬張。業界傳出，聯電正在針對快閃記憶體的發展進行投資。這項發展可能會對聯電的業務帶來重大影響。然而，聯電尚未公布任何官方消息，投資者應謹慎評估此次股價波動。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "843383da",
+        "title": "焦點股》聯發科：外資認錯回補 3天大漲逾16％",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5405504",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 16 Apr 2026 09:54:21 +0800",
+        "summary_zh": "聯發科因智慧型手機今年需求下滑，加上有大客戶Google更改TPU設計的傳言，股價一度回測半年線。然而，聯發科3月營收創下歷史新高，外資投資人認錯回補，3天內大漲逾16％。這表明投資人對聯發科未來發展有信心。聯發科的強勁營收表現可能是投資人重估公司未來成長潛力的原因。然而，市場仍需關注Google更改TPU設計的傳言，是否會對聯發科的業務造成影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "82ebe35a",
+        "title": "焦點股》事欣科：法說會報喜 帶量大漲",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5405505",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 16 Apr 2026 09:54:10 +0800",
+        "summary_zh": "事欣科（4916）於昨日的法說會釋出積極的營運展望，預測今年本業將迎來強勁的成長。管理層預計全年獲利將比過往年度有顯著的提升，毛利率則可望維持在20%水準。這項消息對股價產生了正面的影響，今日股價開高帶量大漲。事欣科的這一預測與市場的期待相符，股民對公司未來的前景感到樂觀。然而，股價的短期波動仍然難以預測，投資者應該保持謹慎的態度。事欣科的強勁成長預測將對公司的股價產生持續的正面影響，股民應該密切關注公司的發展動態。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "06d160b1",
+        "title": "焦點股》金寶：賣掉東莞廠獲利8億 帶量漲停",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5405481",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 16 Apr 2026 09:52:57 +0800",
+        "summary_zh": "金仁寶集團旗下金寶（2312）昨日公布以人民幣4.75億元（約新台幣22億元）出售中國東莞廠，獲得處分利益約人民幣1.89億元（約新台幣8.76億元）。此消息一出，今日買盤大受激勵，金寶股價帶量漲停，市場對此表示高度關注。金寶的出售動作顯示公司正在積極調整其業務，出售不核心的資產以提高效率。這一舉動也表明公司對未來的市場前景感到樂觀。然而，市場也會關注出售廠房的影響，是否會對公司的營運造成影響。總的來說，這一消息對金寶股價的短期表現有著積極的影響，市場將密切關注公司的未來發展。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "795946e1",
+        "title": "2026年時代雜誌百大最影響力人物揭曉！台積電總裁魏哲家上榜",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5405468",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 16 Apr 2026 09:51:15 +0800",
+        "summary_zh": "美國時代雜誌今天公布2026年百大最具影響力人物名單，台積電董事長暨總裁魏哲家入選。魏哲家在台積電的領導下，協助公司成為全球最大的半導體製造商。人工智慧晶片龍頭輝達執行長黃仁勳撰文，稱讚魏哲家對於推動科技業發展的貢獻。魏哲家入選百大最具影響力人物，表明他在全球科技業界的影響力和地位。這也反映了台積電在全球半導體產業中的重要地位和影響力。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "57f5e1f6",
         "title": "市場關注美國庫存與美伊和談 國際油價持穩",
@@ -770,130 +916,20 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "77e13b04",
-        "title": "兆豐銀插旗印度GIFT City 支持台商海外發展",
-        "url": "https://www.cna.com.tw/news/afe/202604150323.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Apr 2026 19:40:02 +0800",
-        "summary_zh": "兆豐銀行近日獲准於印度古吉拉特邦金融特區（GIFT City）設立分行，旨在支持台商海外發展。這一舉動表明兆豐銀行看好印度成為台商投資新興重點國家。根據兆豐銀行的計畫，新設立的分行將全力支持台商在印度的業務發展，為台商提供更多的授信資源和服務。這一舉動將為台商在印度的投資提供更多的便利和支持，進一步推動台商海外發展。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cc63ced4",
-        "title": "5大銀行首季刷卡9046億年增15% 國外旅遊助攻",
-        "url": "https://www.cna.com.tw/news/afe/202604150317.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Apr 2026 19:22:49 +0800",
-        "summary_zh": "第6屆世界棒球經典賽帶動3月旅日熱潮，5大發卡銀行3月信用卡簽帳金額合計達新台幣3282億8430萬元，年增23.43%。中信銀以簽帳金額846億元續居第一。5大發卡銀行首季刷卡簽帳金額達9046億4784萬元，年成長15.76%。這些數字表明，國外旅遊對台灣的影響越來越大，尤其是在旅日方面。旅遊業的增長對台灣的經濟有著重要的影響，同時也反映出台灣人民的消費習慣和對外旅遊的需求。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "881ecbaf",
-        "title": "IMF 表示美國國債失去優惠，警告美國債務管理風險",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-15/imf-says-treasuries-losing-premium-warns-us-on-debt-management",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-15 13:00:00",
-        "summary_zh": "國際貨幣基金組織 (IMF) 週二發表報告，指出美國國債在全球市場上已經失去優惠地位。IMF 表示，美國國債的收益率已經不再高於其他國家的國債，甚至在某些情況下甚至低於其他國家的國債。這意味著美國國債的投資吸引力正在下降。IMF 的報告還警告美國政府需要改善債務管理，避免債務風險增加。美國政府的債務管理一直是市場關注的議題，IMF 的報告提供了新的視角和警告。美國政府需要採取積極措施來改善債務管理，避免債務風險增加。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "f0c70991",
-        "title": "美財長表示今年下半年經濟增長速度將放緩",
-        "url": "https://www.reuters.com/world/treasury-secretary-says-economic-growth-will-be-slower-this-quarter-amid-war-2026-04-15/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-15 12:59:10",
-        "summary_zh": "美國財政部長表示，由於戰爭的影響，今年下半年的經濟增長速度將會放緩。這是因為戰爭會導致供應鏈中斷、物價上漲以及投資人對未來經濟前景的不確定性增加。美國財政部長認為，這些因素都會對經濟增長速度產生負面影響。同時，他也表示，美國政府正在努力減少對經濟的不確定性，並且正在採取措施應對戰爭對經濟的影響。這些措施包括提供援助給受戰爭影響的國家和地區，並且正在努力恢復供應鏈。美國財政部長的說法表明，美國政府對經濟增長速度的預期是悲觀的，同時也表明政府正在努力應對戰爭對經濟的影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "38285e5a",
-        "title": "普京斥責俄羅斯高層官員經濟衰退",
-        "url": "https://www.reuters.com/business/finance/russias-putin-scolds-top-officials-economic-contraction-2026-04-15/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-15 12:54:51",
-        "summary_zh": "俄羅斯經濟陷入衰退，普京對此感到不滿。他在會議上批評俄羅斯政府和央行未能有效應對經濟挑戰。普京指責官員們沒有采取足夠的措施來刺激經濟增長，同時也批評俄羅斯央行未能有效控制通貨膨脹。這次會議的目的是要討論如何改善俄羅斯經濟的表現。普京的批評表明，他對俄羅斯經濟的衰退感到擔憂。這可能會對俄羅斯的經濟政策產生影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "9f256621",
-        "title": "俄羅斯Novatek表示其天然氣產量今年第一季度同比增3% ",
-        "url": "https://www.reuters.com/business/energy/russias-novatek-says-its-gas-output-up-3-yy-q1-2026-04-15/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-15 12:54:09",
-        "summary_zh": "俄羅斯天然氣公司Novatek表示，今年第一季度其天然氣產量同比增長3%。這是由於公司的天然氣開採業務持續擴張。Novatek的天然氣產量增長主要是由於公司的天然氣儲存設施的運營效率提高，以及天然氣開採業務的投資回報。這項消息對於了解俄羅斯天然氣產量的變化以及全球天然氣市場的走勢具有重要意義。然而，隨著全球能源市場的變化，Novatek的天然氣產量增長可能面臨著新的挑戰和機會。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "5f6f0f9f",
-        "title": "摩根士丹利利潤增長，受M&A和交易業務推動",
-        "url": "https://www.reuters.com/it/azienda/morgan-stanley-utile-trim1-cresce-su-spinta-ma-e-trading-2026-04-15/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-15 12:52:12",
-        "summary_zh": "摩根士丹利是全球知名的投資銀行和證券公司。近期，該公司的利潤增長受到市場預期的正面影響。摩根士丹利的M&A業務和交易業務都表現出良好的成績，為公司的利潤增長做出了重要貢獻。這些業務的增長是由於市場對M&A和交易的需求增加所致。摩根士丹利的這一表現是市場對公司未來前景的積極評估的一部分。然而，市場仍然對未來的經濟情況和公司的競爭力保持著關注。摩根士丹利的利潤增長將對市場產生持續的影響，投資者將密切關注公司未來的發展。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "e4d5950e",
-        "title": "美國進口價格增幅低於預期",
-        "url": "https://www.reuters.com/markets/us/us-import-prices-increase-less-than-expected-march-2026-04-15/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-15 12:51:43",
-        "summary_zh": "美國進口價格在3月份增幅低於預期，根據美國商務部的數據，美國進口價格在3月份增幅為0.4%，低於市場預期的0.7%。這一數據表明，美國進口價格增幅的速度正在放緩。美國商務部的數據顯示，美國進口價格增幅的主要原因是原材料價格的上漲。這一趨勢可能會對美國的經濟有所影響。美國經濟學家認為，這一數據表明，美國的通貨膨脹率正在放緩。美國的央行可能會因為這一數據而調整其貨幣政策。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "c3dd8902",
-        "title": "市場人士熱衷於霍爾木茲海峽，為什麼這並不如你想的那樣重要？",
-        "url": "https://www.cnbc.com/2026/04/15/power-insider-the-markets-are-obsessed-with-the-strait-of-hormuz-why-it-matters-less-than-you-think.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-04-15 11:00:55",
-        "summary_zh": "霍爾木茲海峽是全球最重要的石油運輸通道，市場人士一直關注其通航情況，以期能夠從中獲得油價走勢的線索。然而，實際上，這種方法並不準確。石油價格受到多種因素的影響，包括全球需求、供應、經濟情況等，而霍爾木茲海峽的通航狀況只是其中之一。因此，市場人士過度關注霍爾木茲海峽的通航情況，實際上並不能為其投資決策提供有意義的線索。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "stock_us": [
       {
-        "id": "22b206fd",
-        "title": "市場預期美伊達成協議 美股多收紅標普那指創新高",
-        "url": "https://www.cna.com.tw/news/afe/202604160010.aspx",
-        "source": "中央社財經",
+        "id": "e6a78899",
+        "title": "利潤報表取代伊朗戰事，股市迎好消息",
+        "url": "https://www.cnbc.com/2026/04/15/earnings-are-taking-over-from-iran-thats-good-for-the-stock-market.html",
+        "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "Thu, 16 Apr 2026 05:14:22 +0800",
-        "summary_zh": "美伊關係近期因伊朗核問題而引起關注，市場預期雙方有望達成協議，白宮也釋出對進一步談判持開放態度的訊號。這項消息對市場產生正面影響，美股主要指數今天多收紅，延續近期漲勢，標普與那指再創新高。這表明市場對美伊關係的改善感到樂觀，對未來的投資前景充滿希望。然而，市場也需要注意到，美伊關係的改善可能會對全球政治格局產生影響，可能會對某些行業產生不確定性。",
+        "published_at": "2026-04-15 13:27:36",
+        "summary_zh": "近六週來，華爾街對美伊戰事一直非常關注。但是，隨著第一季企業利潤報表的陸續公布，投資人開始轉移注意力。這一轉變對股市來說是個好消息，因為企業的財務表現對股市的走勢有著重要影響。企業的利潤報表可以提供投資人關於企業經營狀況、盈利能力和未來發展前景的重要信息。這些信息可以幫助投資人做出更準確的投資決策，從而對股市產生正面影響。",
         "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "f22e1c25",
@@ -904,8 +940,8 @@
         "published_at": "2026-04-15 12:31:53",
         "summary_zh": "美股市場分析師發布了多家公司的評估報告。Nvidia 的分析師呼籲買入，認為該公司的高性能計算業務有很大潛力。另一方面，Apple 的分析師則表示該公司的股價過高，建議賣出。Tesla 的分析師則認為該公司的電動汽車業務有很大競爭壓力。Marvell 的分析師則呼籲買入，認為該公司的網路設備業務有很大潛力。Affirm 的分析師則表示該公司的股價過高，建議賣出。Broadcom 的分析師則呼籲買入，認為該公司的半導體業務有很大潛力。Meta 的分析師則表示該公司的股價過高，建議賣出。這些評估報告對於投資者有很大的影響，投資者需要仔細評估這些評估報告的內容，才能做出明智的投資決策。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "e78f27da",
@@ -916,8 +952,8 @@
         "published_at": "2026-04-15 12:28:34",
         "summary_zh": "摩根大通將於今天公布財報，投資者需要關注公司的財務表現。另外，Kalshi正在華盛頓展開魅力攻勢，試圖影響政策決策。美聯正在考慮與另一家公司合併，投資者需要關注這項交易的影響。這些事件將對市場產生重大影響，投資者需要密切關注。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "8f843920",
@@ -928,8 +964,8 @@
         "published_at": "2026-04-15 12:22:00",
         "summary_zh": "摩根士丹利在近期的財報中表現亮眼，股東每股盈餘達 3.43 美元，遠超市場預期的 3.02 美元。這一表現使摩根士丹利成為當前美國銀行業中表現最好的公司之一。摩根士丹利的這一財報結果對於投資者來說是一個好消息，因為它表明公司的財務狀況良好，未來發展前景光明。然而，市場也會密切關注摩根士丹利未來的發展，是否能夠維持這一高水準的表現。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "fedd7826",
@@ -940,8 +976,8 @@
         "published_at": "2026-04-15 12:00:09",
         "summary_zh": "投資公司 Jane Street 宣布投資 10 億美元於 CoreWeave，CoreWeave 是一家專門提供雲端基礎設施的公司。這筆投資將幫助 CoreWeave 增強其基礎設施，並實現其未來的開支計畫。 Jane Street 的投資將對 CoreWeave 的業務發展產生重大影響，CoreWeave 可能會利用這筆資金來擴大業務、開發新產品和增強其市場競爭力。這項投資也表明了 Jane Street 對雲端基礎設施的信心和未來發展的前景。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "17c5b843",
@@ -952,8 +988,8 @@
         "published_at": "2026-04-15 11:55:00",
         "summary_zh": "市場在夏季可能會出現低迷，但你不需要退出市場來應對。根據2026 年選舉周期，以下股票和 ETF 可以幫助你在這段時間內保持穩定。投資者們常常會在五月份開始賣出股票，避免市場的下跌。但是，有些股票和 ETF 可以幫助你在這段時間內保持穩定。根據分析師的建議，這些股票和 ETF 可以幫助你在2026 年選舉周期中保持穩定。其中包括一些科技公司和金融服務公司。這些公司的業務穩定，且有能力在市場波動中保持穩定。投資者們可以考慮購買這些股票和 ETF，來幫助你在夏季低迷中保持穩定。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "4a9a0d29",
@@ -980,13 +1016,13 @@
         "ai_classified": true
       },
       {
-        "id": "d36f9aab",
-        "title": "摩根士丹利即將公布第一季財報，市場預期利潤佳",
-        "url": "https://www.cnbc.com/2026/04/15/morgan-stanley-ms-earnings-1q-2026.html",
-        "source": "Cnbc",
+        "id": "22b206fd",
+        "title": "市場預期美伊達成協議 美股多收紅標普那指創新高",
+        "url": "https://www.cna.com.tw/news/afe/202604160010.aspx",
+        "source": "中央社財經",
         "category": "stock_us",
-        "published_at": "2026-04-15 11:00:01",
-        "summary_zh": "摩根士丹利預計在第一季度投資銀行和交易業務收入大幅增長，市場分析師認為這與同業金馬倫和高盛的表現有關。摩根士丹利的投資銀行業務在近期已經展現出強勁的表現，市場預期第一季度將繼續保持這種趨勢。摩根士丹利的交易業務也預期將受惠於市場波動和經濟活動的增長。整體來說，市場預期摩根士丹利的第一季度財報將呈現出良好的表現。",
+        "published_at": "Thu, 16 Apr 2026 05:14:22 +0800",
+        "summary_zh": "美伊關係近期因伊朗核問題而引起關注，市場預期雙方有望達成協議，白宮也釋出對進一步談判持開放態度的訊號。這項消息對市場產生正面影響，美股主要指數今天多收紅，延續近期漲勢，標普與那指再創新高。這表明市場對美伊關係的改善感到樂觀，對未來的投資前景充滿希望。然而，市場也需要注意到，美伊關係的改善可能會對全球政治格局產生影響，可能會對某些行業產生不確定性。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
