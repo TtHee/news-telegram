@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T01:04:06.954171+08:00",
+  "generated_at": "2026-04-20T02:04:05.979614+08:00",
   "risk_signals": [
     "🟢 台股加權 36804.34（正常）",
     "🟢 S&P 500 7126.06（正常）",
@@ -9,9 +9,9 @@
     "🟢 黃金 4879.6（正常）",
     "🟢 美債10Y殖利率 4.25（正常）",
     "🟢 原油 WTI 82.59（正常）",
-    "🟢 美元/台幣 31.46（正常）"
+    "🟢 美元/台幣 31.48（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，多個指標維持正常水平，表明投資人對未來仍有信心。然而，台股今日小幅下跌，可能是市場對全球經濟前景的微妙調整。",
+  "ai_summary": "市場表現平穩，指數波動在正常範圍內。美元指數和美債10Y殖利率維持穩定，表明投資者對經濟前景有信心。",
   "market": {
     "TWII": {
       "price": 36804.34,
@@ -50,13 +50,291 @@
       "change_pct": -12.78
     },
     "USDTWD": {
-      "price": 31.46,
-      "change_pct": -0.3
+      "price": 31.48,
+      "change_pct": -0.26
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "a4d2f846",
+        "title": "路易斯安那州發生大規模槍擊案，8名兒童喪生",
+        "url": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 17:36:38 GMT",
+        "summary_zh": "路易斯安那州舒維波特市發生槍擊案，8名兒童在1至14歲之間喪生。警方稱這是一起「家庭內部糾紛」案件。這起槍擊案引起了廣泛關注，警方正在調查案件的原因和詳情。這種類型的槍擊案在美國屢見不鮮，卻仍然引起了強烈的反響。這起案件的影響將遠超舒維波特市，會對美國整體的槍枝控制和兒童安全議題造成影響。警方正在努力解決案件，同時也呼籲民眾提供任何有關案件的線索。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a496031b",
+        "title": "烏克蘭警察局長辭職，指控警員逃跑不救人命案",
+        "url": "https://www.bbc.com/news/articles/c8ejn778j4do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 17:48:41 GMT",
+        "summary_zh": "烏克蘭發生人命案，當地警員被指在槍擊事件中逃跑不救人。烏克蘭當局表示，涉事警員已被停職，並展開調查。這一事件引發了社會的關注和爭議。烏克蘭警察局長在這一事件後宣布辭職，表明對於警員的行為感到遺憾和不滿。這一事件也引發了對於烏克蘭警力質量和治安問題的關注。烏克蘭政府將會對這一事件進行徹底調查，並對涉事警員進行嚴厲處理。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "17532837",
+        "title": "川普確認第二輪美伊談判日期 警告伊朗別當硬漢 否則要炸遍兩大設施",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5409169",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 21:26:49 +0800",
+        "summary_zh": "美國總統川普確認，美伊第二輪談判將於週一在巴基斯坦首都伊斯蘭堡舉行。川普在社交平台上表示，美國代表團將前往伊斯蘭堡，與伊朗代表進行談判。他同時警告伊朗，若不合作，美國將會對兩大設施進行攻擊。這次談判的目標是解決伊朗核問題和其他爭議。伊朗方面尚未對談判日期做出回應。美國和伊朗的關係一直處於緊張狀態，雙方多次進行軍事衝突。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2b9d7780",
+        "title": "奧地利警方發現嬰兒食品罐頭中含有鼠藥",
+        "url": "https://www.bbc.com/news/articles/cvg07lq5ql4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 12:52:26 GMT",
+        "summary_zh": "奧地利警方發現一罐嬰兒食品品牌HiPP的罐頭中含有鼠藥，警方於週六發出警告，表示可能會對消費者造成「生命威脅」。警方要求消費者立即停止使用這罐嬰兒食品，並將罐頭交給當地警署進行處理。這起事件引起了廣泛關注，消費者對嬰兒食品安全的擔憂再次升級。警方正在調查此事件的原因，確保未來不會再發生類似事件。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3a4617e7",
+        "title": "中國3億農民工城市難找工作 滯留家鄉引發北京維穩新挑戰",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5409134",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 21:25:25 +0800",
+        "summary_zh": "中國內陸省份的農民工離開家鄉前往富裕的東部和南部省份的工廠和工地討生活已經有數十年歷史，但近年來中國內需疲軟和都市高薪工作越來越難找到，導致許多農民工難以找到工作，最終只能滯留家鄉。這種情況引發了北京的維穩新挑戰，企業和決策人士擔憂農民工的留守將對社會穩定和經濟發展產生重大影響。根據估計，中國有3億農民工將會留在家鄉，這將是中國維穩的重大挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b86be7e4",
+        "title": "澤倫斯基譴責美國延長俄羅斯制裁豁免",
+        "url": "https://www.bbc.com/news/articles/c248m3z49j1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 09:55:22 GMT",
+        "summary_zh": "烏克蘭總統澤倫斯基對美國延長俄羅斯制裁豁免的決定表示譴責。美國政府聲稱，這一決定是為了緩解由美國與以色列對伊朗戰爭引發的能源供應緊張局勢。這一決定引發了各界的爭議，許多人認為這一決定將會給俄羅斯帶來新的經濟利益。這一事件的背景是俄羅斯在烏克蘭戰爭中對烏克蘭的侵略行為。美國延長俄羅斯制裁豁免的決定可能會對烏克蘭的經濟和安全產生重大影響。烏克蘭政府和民眾對此表示強烈不滿，要求美國政府重新考慮這一決定。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e259e23e",
+        "title": "特立尼達墓園發現50具嬰兒屍體",
+        "url": "https://www.bbc.com/news/articles/ce8jl1271pjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 07:49:45 GMT",
+        "summary_zh": "特立尼達墓園發現50具嬰兒屍體，當地警方初步調查指出，這可能是一起「非法處理未收留屍體」的案件。這起事件引起了社會的關注和譴責。特立尼達政府已經展開調查，並且將會對相關人員進行懲處。這起事件也引起了國際社會的關注，許多人對此表示了震驚和憤怒。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c4c53c17",
+        "title": "為什麼在舊金山水域的灰鯨會死亡？美國科學家正在尋找線索",
+        "url": "https://www.bbc.com/news/articles/c9qdd8qvrplo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 13:08:05 GMT",
+        "summary_zh": "近年來，舊金山水域出現了多起灰鯨死亡事件，引起了科學家的關注。根據目前的研究，氣候變遷和遷徙模式的變化可能是灰鯨死亡的原因。這種情況不僅對灰鯨的生存而言是一個挑戰，也對科學家來說是一個難解的謎題。氣候變遷導致海洋環境的變化，可能影響到灰鯨的覓食和遷徙行為。同時，灰鯨的遷徙模式也在變化，可能與氣候變遷有關。科學家正在努力解釋這些變化背後的原因，為保護灰鯨提供有力的證據。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "76c6b8c6",
+        "title": "千名巴黎市民被迫撤離，二戰炸彈爆炸",
+        "url": "https://www.bbc.com/news/articles/c4gxv3874vjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 15:50:48 GMT",
+        "summary_zh": "巴黎近日發生了一起二戰炸彈爆炸事件，當地居民被迫撤離。根據當地政府的指示，距離炸彈爆炸點約 450 米內的居民被要求離開家園，直到炸彈被中和為止。這起事件引起了當地居民的恐慌和擔憂，同時也引發了對城市安全的關注。這種情況下，居民的安全和城市的穩定是首要考慮的。雖然這起事件並未造成重大傷亡或財產損失，但它仍然是一個值得關注的事件，需要政府和當地機構加強安全措施和應急準備。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "31abd2cd",
+        "title": "澳洲最受獎勵的士兵承諾「戰鬥」戰爭罪指控",
+        "url": "https://www.bbc.com/news/articles/cy91r7ww3weo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 05:12:40 GMT",
+        "summary_zh": "澳洲最受獎勵的士兵本·羅伯茨史密斯（Ben Roberts-Smith）在去週被控五項戰爭罪中的謀殺罪後，首次發表聲明。他承諾會「戰鬥」這些指控。羅伯茨史密斯曾在阿富汗服役，獲得多項榮譽。然而，他被控在阿富汗戰爭期間，殺害了五名阿富汗平民。這項指控對羅伯茨史密斯的軍事榮譽和名聲造成了重大影響。羅伯茨史密斯的律師表示，他將會全力為客戶辯護，爭取無罪釋放。這項案件將在未來幾個月內進行審判。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1208c658",
+        "title": "LNG 載運船改航路避開霍爾木茲海峽，伊朗繼續封鎖海峽",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-18/lng-tankers-make-u-turns-from-hormuz-as-iran-keeps-strait-shut",
+        "source": "Bloomberg",
+        "category": "global",
+        "published_at": "2026-04-18 20:04:22",
+        "summary_zh": "霍爾木茲海峽是全球最重要的石油和天然氣運輸通道之一。伊朗近期繼續封鎖海峽，導致全球 LNG 載運船改航路避開該海峽。這一事件的背景是伊朗與西方國家的政治緊張關係，伊朗在霍爾木茲海峽的封鎖對全球能源市場造成了重大影響。許多 LNG 載運船已經改航路避開霍爾木茲海峽，前往其他運輸通道。這一事件的影響包括全球能源供應的不穩定性以及對 LNG 價格的影響。未來，伊朗的行動將對全球能源市場產生持續的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "736104b3",
+        "title": "墨西哥總統否認與西班牙發生「外交危機」",
+        "url": "https://www.bbc.com/news/articles/cp86r29l45go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sat, 18 Apr 2026 21:27:56 GMT",
+        "summary_zh": "墨西哥總統謝恩鮑姆（Claudia Sheinbaum）否認墨西哥與西班牙之間出現外交危機。這是因為墨西哥對於西班牙殖民歷史的看法引起了爭議。謝恩鮑姆總統表示，墨西哥從未對西班牙殖民歷史感到緊張。這個問題曾經成為一個敏感話題，引起了兩國之間的爭議。謝恩鮑姆總統的說法可能會減少兩國之間的緊張關係。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6a86d5dc",
+        "title": "烏克蘭首都基輔至少兩人遇害，槍手與警方交火後被擊斃",
+        "url": "https://www.bbc.com/news/articles/cm25r1vkx4lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sat, 18 Apr 2026 18:09:57 GMT",
+        "summary_zh": "烏克蘭首都基輔發生槍擊案，至少兩人死亡。根據當地內政部長的說法，槍手與警方交火後被擊斃。這起事件的背景是烏克蘭正處於俄羅斯入侵的影響下，基輔市民的安全感受到了嚴重的挑戰。槍手的動機尚不清楚，但這起事件顯示了烏克蘭正面臨著嚴重的安全威脅。基輔市民的安全將是烏克蘭政府的首要關注點。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "48fa70d8",
+        "title": "法國和平維和人員南黎巴嫩遇害",
+        "url": "https://www.bbc.com/news/articles/cvg4mrm2vm0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 11:39:47 GMT",
+        "summary_zh": "南黎巴嫩發生一宗槍擊案，法國和平維和人員遇害。法國總統馬克宏指責這起襲擊事件是由於希拉克的行動所致。伊朗支持的武裝組織希拉克否認與這起事件有任何關聯。這起事件引發了國際社會的關注，各方都在評估此事件的影響。法國政府已經對此事件表達了強烈的譴責，並要求希拉克就此事件作出解釋。這起事件可能會對黎巴嫩局勢產生重大影響，各方都在關注此事件的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f7135bf9",
+        "title": "中國短期得利難掩長期風險 衛報：北京盼伊朗戰爭儘早結束",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5409019",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 18:45:00 +0800",
+        "summary_zh": "根據英國《衛報》的分析，美國和以色列2月底對伊朗發動戰爭，短期內可能為中國帶來些許外交利益。然而，這場戰爭將對中國的能源安全和經濟構成風險，進而轉換為長期的痛苦。中國政府希望伊朗戰爭儘早結束，以避免對自己經濟和能源安全造成不必要的風險。這場戰爭可能會影響中國的石油和天然氣進口，進而對中國的經濟產生重大影響。中國政府正在密切關注這場戰爭的發展，並希望通過外交努力來解決這個問題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6f156459",
+        "title": "夏威夷居民重建拉海納鎮　為當地人而非觀光客打造",
+        "url": "https://www.theguardian.com/us-news/2026/apr/19/lahaina-maui-rebuild-locals-tourists",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 14:00:44 GMT",
+        "summary_zh": "近年來，夏威夷拉海納鎮遭遇多次嚴重天災，包括2023年的火災、最近的豪雨和ICE突擊檢查。居民決心重建鎮區，將其打造為一座真正為當地人服務的社區。今年三月，夏威夷遭遇兩場連環豪雨，引發20年來最嚴重的洪水。拉海納鎮的泥濘洪水將街道變成河流，掘開道路，淹沒房屋。洪水過後，坑洞出現，吞噬了車輛。這是近三年來美國歷史上最嚴重的火災在拉海納鎮造成的災難，摧毀了超過2,000棟建築物，殺死超過100人。數百名受影響的家庭仍在臨時住所中度過。貧困、失業和房屋不穩定等問題在火災前就存在，現在更加嚴重。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "73214b10",
+        "title": "美國中西部遭受龍捲風和強風侵襲，房屋和道路受損",
+        "url": "https://www.theguardian.com/us-news/2026/apr/19/tornadoes-heavy-winds-damage-midwest",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 13:51:06 GMT",
+        "summary_zh": "美國中西部近日遭受一波強風和龍捲風侵襲，導致房屋和道路嚴重受損。儘管沒有報告死亡事件，但官員預計這些鄉村社區將需要長時間恢復。龍捲風和強風在週五席捲美國中西部地區，造成房屋屋頂被掀走、樹木被拔起和道路被碎石阻塞。官員已經為一些鄉村社區居民預備長時間的恢復工作。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "df71be56",
+        "title": "4月19日 美伊戰爭對國際經濟、財經市場與民生衝擊",
+        "url": "https://www.cna.com.tw/news/aopl/202604190099.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 15:36:38 +0800",
+        "summary_zh": "伊朗軍方宣布關閉荷莫茲海峽，對全球油價造成重大影響。荷莫茲海峽是全球最大的石油出口通道之一，關閉後將對全球石油市場造成重大衝擊。伊朗民航局宣布重新開放部分領空，允許國際航班飛越其東部空域。這一措施將有助於減少對全球航運的影響。美國總統川普表示美伊目前對話進展順利，預計很快會有進一步消息。這一消息將對全球經濟和財經市場產生重大影響。伊朗軍方關閉荷莫茲海峽的決定將對全球油價造成重大影響，可能導致油價上漲。這將對全球經濟和財經市場產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bd03bf60",
+        "title": "加拿大太空人在太空發表法文話語，為法語爭議帶來和解",
+        "url": "https://www.theguardian.com/world/2026/apr/19/artemis-astronaut-jeremy-hansen-french-canada",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Sun, 19 Apr 2026 11:00:41 GMT",
+        "summary_zh": "加拿大太空人傑瑞米·漢森(Jeremy Hansen)因在阿波羅任務中說出四個法文詞彙而受到讚賞。這一事件發生在加拿大航空公司(Air Canada)首席執行官的法文言論被指責時，法語爭議再次引起關注。加拿大總理對此事發表評論，表達了對法語的支持。這一事件顯示，法語在加拿大的重要性仍然存在，太空人傑瑞米·漢森的表現也被視為一個和解的象徵。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
+      {
+        "id": "04d66529",
+        "title": "教皇否認其對特朗普的批評",
+        "url": "https://www.bbc.com/news/articles/ce84j261kj1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Sun, 19 Apr 2026 07:47:35 GMT",
+        "summary_zh": "教皇方濟各近日發表演講，遭到美國總統特朗普的批評。教皇方濟各隨後表示，其演講內容被誤解了。他強調，自己的演講並非針對特朗普，而是針對那些滲透到政治領域的暴政。教皇方濟各的演講被視為對全球政治的批評，包括那些滲透到政治領域的暴政。他還提到，暴政的滲透會導致社會的分裂和不穩定。教皇方濟各的話語被視為對全球政治的警告，呼籲各國領導人應該致力於促進和平和穩定。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0b3626ac",
+        "title": "亞歷山大·巴爾溫將面臨民事訴訟　因《雷斯特》電影拍攝場景槍擊事件",
+        "url": "https://www.bbc.com/news/articles/cp86rrld6dyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Sat, 18 Apr 2026 23:08:23 GMT",
+        "summary_zh": "美國演員亞歷山大·巴爾溫（Alec Baldwin）因《雷斯特》電影拍攝場景槍擊事件，雖然2024年刑事案件已經被撤銷，但他仍將面臨民事訴訟。這起槍擊事件發生在2021年，導致攝影師哈利·萊許（Halyna Hutchins）喪生。民事訴訟將對巴爾溫的行為進行審查，探討是否有疏忽或過失導致這起悲慘事件的發生。這項訴訟將對巴爾溫的聲譽和職業生涯產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "457715ff",
+        "title": "特朗普白宮大舞廳建設案可恢復進行，聯邦上訴法院裁定",
+        "url": "https://www.bbc.com/news/articles/clyx9xyy0j9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Sat, 18 Apr 2026 19:18:40 GMT",
+        "summary_zh": "美國聯邦上訴法院裁定，特朗普白宮大舞廳的建設案可恢復進行。這項裁定意味著，白宮的大舞廳建設將繼續進行，直到下一次庭審在六月舉行為止。這項建設案曾經一度被暫停，但現在已經恢復進行。這項裁定對白宮的建設計畫有重要影響，將會繼續推進白宮的建設工作。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c1b52390",
+        "title": "觀看：奧巴馬與曼達尼與紐約兒童合唱",
+        "url": "https://www.bbc.com/news/videos/c0le5pdgdzwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Sun, 19 Apr 2026 11:19:32 GMT",
+        "summary_zh": "奧巴馬和紐約市前市長曼達尼首次會面是在布朗克斯的兒童照護中心。兩人在兒童中心與孩子們一起合唱，展現友好的氣氛。這次會面是為了支持兒童福利和教育的活動。奧巴馬和曼達尼都表達了對兒童福利的關注，並希望通過這次活動，為兒童提供更好的照護和教育機會。這次活動的舉辦，讓孩子們能夠與著名人物互動，增添了活動的趣味性和意義。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "d3f7990b",
         "title": "奧巴馬與曼達尼首度會面：與紐約幼兒一起閱讀和唱歌",
@@ -66,8 +344,8 @@
         "published_at": "Sun, 19 Apr 2026 16:10:59 GMT",
         "summary_zh": "前美國總統奧巴馬與紐約市長曼達尼在布朗克斯的一間幼兒中心會面，與一群幼兒一起閱讀和唱歌。這次會面是在曼達尼試圖與前總統川普建立工作關係的同時進行的。曼達尼是一位民主社會主義者，剛剛完成100天任期。奧巴馬與曼達尼的會面顯示兩人都致力於與不同政黨的領袖建立關係。這次會面的目的在於為曼達尼的任期提供支持和鼓勵。曼達尼的任期將對紐約市的未來產生重大影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "ffe2e1e1",
@@ -78,8 +356,8 @@
         "published_at": "Sun, 19 Apr 2026 15:54:19 GMT",
         "summary_zh": "川普政府的能源部長克里斯·懷特（Chris Wright）在週日表示，美國汽油價格可能不會再降至每加侖3美元前，直到2027年。根據CNN的報導，懷特在接受CNN的《國會週報》（State of the Union）主持人傑克·塔珀（Jake Tapper）訪問時表示，當被問到美國汽油價格是否會再降至每加侖3美元時，他回答說：“我不知道。”懷特還表示，汽油價格可能會在今年晚些時候恢復到每加侖3美元以下，也可能需要等到明年。美國目前的汽油價格已經飆升到每加侖4美元。懷特的表述引發了對美國能源政策的關注，許多人對於美國汽油價格的高漲感到擔憂。美國政府應該採取什麼措施來降低汽油價格？懷特的表述也引發了對於美國能源政策未來走向的關注。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "23ad2eef",
@@ -116,42 +394,6 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "04d66529",
-        "title": "教皇否認其對特朗普的批評",
-        "url": "https://www.bbc.com/news/articles/ce84j261kj1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 19 Apr 2026 07:47:35 GMT",
-        "summary_zh": "教皇方濟各近日發表演講，遭到美國總統特朗普的批評。教皇方濟各隨後表示，其演講內容被誤解了。他強調，自己的演講並非針對特朗普，而是針對那些滲透到政治領域的暴政。教皇方濟各的演講被視為對全球政治的批評，包括那些滲透到政治領域的暴政。他還提到，暴政的滲透會導致社會的分裂和不穩定。教皇方濟各的話語被視為對全球政治的警告，呼籲各國領導人應該致力於促進和平和穩定。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0b3626ac",
-        "title": "亞歷山大·巴爾溫將面臨民事訴訟　因《雷斯特》電影拍攝場景槍擊事件",
-        "url": "https://www.bbc.com/news/articles/cp86rrld6dyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sat, 18 Apr 2026 23:08:23 GMT",
-        "summary_zh": "美國演員亞歷山大·巴爾溫（Alec Baldwin）因《雷斯特》電影拍攝場景槍擊事件，雖然2024年刑事案件已經被撤銷，但他仍將面臨民事訴訟。這起槍擊事件發生在2021年，導致攝影師哈利·萊許（Halyna Hutchins）喪生。民事訴訟將對巴爾溫的行為進行審查，探討是否有疏忽或過失導致這起悲慘事件的發生。這項訴訟將對巴爾溫的聲譽和職業生涯產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "457715ff",
-        "title": "特朗普白宮大舞廳建設案可恢復進行，聯邦上訴法院裁定",
-        "url": "https://www.bbc.com/news/articles/clyx9xyy0j9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sat, 18 Apr 2026 19:18:40 GMT",
-        "summary_zh": "美國聯邦上訴法院裁定，特朗普白宮大舞廳的建設案可恢復進行。這項裁定意味著，白宮的大舞廳建設將繼續進行，直到下一次庭審在六月舉行為止。這項建設案曾經一度被暫停，但現在已經恢復進行。這項裁定對白宮的建設計畫有重要影響，將會繼續推進白宮的建設工作。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "ai": [
@@ -169,6 +411,102 @@
       }
     ],
     "stock_tw": [
+      {
+        "id": "3a088bdf",
+        "title": "英特爾股價狂飆 仍未脫離險境",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5409187",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Sun, 19 Apr 2026 22:06:59 +0800",
+        "summary_zh": "人工智慧市場的轉變對英特爾有利，該公司股價已上漲兩倍。然而，投資人卻對英特爾未來的財務表現存疑。《華爾街日報》指出，英特爾要重現昔日輝煌還有很長的路要走。投資人關注的是，英特爾是否能夠維持其轉虧為盈的成果。英特爾的財務表現仍未完全恢復，投資人需要更多的證據來證明英特爾的財務狀況是否穩定。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "dd1cd123",
+        "title": "台積電4個理由賺很大 股價評級躍升",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5409153",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Sun, 19 Apr 2026 21:02:30 +0800",
+        "summary_zh": "台積電公佈的季度營收成長強勁，成長轉化為利潤的效率高達接近高峰值。分析師認為，先進製程的需求仍然旺盛，業績指引顯示下一季將延續這一成長動能。因此，台積電股價評級躍升，分析師認為這是投資的好機會。台積電的強勁業績和明確的業績指引，使得投資者對於公司未來的成長感到樂觀。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "13fbf248",
+        "title": "不怕修車地獄！專家點名「2026最耐用4款車」Toyota、現代都上榜",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5409111",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Sun, 19 Apr 2026 20:42:17 +0800",
+        "summary_zh": "根據美國理財網站《GOBankingRates》的調查，汽車的可靠性與安全性對購車者而言非常重要。這些因素會直接影響長期成本、使用便利性以及二手轉售價值。專家們點名了2026年最耐用的四款車，其中包括Toyota和現代。這些車款被認為具有較好的可靠性和安全性，對購車者來說是一個不錯的選擇。然而，汽車的耐用性還是取決於各種因素，包括車主的駕駛技巧和維護情況。因此，購車者需要仔細評估各個車款的優缺點，選擇最適合自己的車型。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ca18c5fb",
+        "title": "為了買尿布！他靠出租破車從低收入戶翻身 年賺9300萬超驚人",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5408980",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Sun, 19 Apr 2026 20:03:48 +0800",
+        "summary_zh": "在美國夏威夷，生活成本居高不下的情況下，一名38歲男子為了負擔孩子的奶粉和尿布開銷，決定出租自己的愛車。這個決定意外地幫助他打造了驚人的財富。根據報導，他的年收入超過了9300萬元，遠超過他以前的收入水平。這名男子的故事讓人們感受到，通過創造性地利用資源和機會，人們可以從低收入戶中翻身。然而，這個故事也提醒我們，生活成本居高不下的問題仍然存在，並需要被關注和解決。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6797e3c5",
+        "title": "翡管局收耗水費遭澄清：水利署勿混用援引法源",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5409069",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Sun, 19 Apr 2026 19:32:14 +0800",
+        "summary_zh": "台北市翡翠水庫管理局宣布，將向台電收取耗水費。經濟部水利署隨後澄清，表示翡管局不應該援引《水利法》作為收費依據。水利署解釋，耗水費機制並非如翡管局所述，水力發電不被視為耗水行為。這意味著翡管局的收費計畫可能會受到影響。翡管局的收費計畫引起了爭議，許多人質疑翡管局的做法是否合理。水利署的澄清可能會讓翡管局的計畫受到影響，讓人們關注翡管局的收費計畫是否會被推遲或取消。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "4104873e",
+        "title": "中國惠台內容縮水「以經干政」不奏效 經部：台灣無須走回頭路依附中國",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5409011",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Sun, 19 Apr 2026 18:43:13 +0800",
+        "summary_zh": "中國自2018年起陸續推出4波惠台措施，但內容呈現退縮之勢，國內業者多反應冷淡。經濟部認為，中國試圖透過經濟手段干預台灣政治，稱台灣無須走回頭路依附中國。這些惠台措施雖然有助於台灣出口商的業務，但對於台灣企業的投資和發展影響有限。經濟部強調，台灣應該堅持自己的經濟政策和發展路線，而不是依附中國的經濟利益。這一立場表明，台灣政府正在努力維護自己的經濟自主權和發展方向。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c1e33985",
+        "title": "百萬網友哭了！美癌末少女過世前寫下8個問題 馬斯克親自回答",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5408966",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Sun, 19 Apr 2026 18:38:18 +0800",
+        "summary_zh": "美國15歲癌末少女佩羅托（Liv Perrott）生前寫下8個想向特斯拉執行長馬斯克提出的問題，包括「人工智慧的未來方向」、「太空探索的目標」等。佩羅托過世後，馬斯克親自在X平台上一一回覆這些問題，目前已獲得近200萬人次的點擊。這些回覆不僅展現了馬斯克對佩羅托的尊敬，也讓人們對未來的前瞻和夢想充滿了希望。佩羅托的問題和馬斯克的回覆，讓人們看到科技業和社會的未來發展方向，同時也讓人們感受到人性的溫度和善良。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1387010e",
+        "title": "台積電越放越強！外媒點名這3檔『買進並長抱』是最佳答案",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5408959",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Sun, 19 Apr 2026 18:37:10 +0800",
+        "summary_zh": "台積電在近期市場波動中表現出色，證明了少即是多、簡單才是王道的投資理念。投資媒體《The Motley Fool》指出，股市在短期內難以預測，但台積電的表現卻是值得投資人的關注。外媒推薦三檔股票作為最佳投資選擇，包括台積電等。台積電的強大表現不僅僅是市場波動的結果，也是公司的長期發展戰略和技術優勢的體現。投資人應該關注台積電的未來發展和市場趨勢，作為長期投資的選擇。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "3e73e9a7",
         "title": "IMF預估5年後台灣人均GDP將超越韓國1萬美元 半導體生態系成關鍵",
@@ -324,90 +662,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "3a088bdf",
-        "title": "英特爾股價狂飆 仍未脫離險境",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5409187",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 19 Apr 2026 22:06:59 +0800",
-        "summary_zh": "人工智慧市場的轉變對英特爾有利，該公司股價已上漲兩倍。然而，投資人卻對英特爾未來的財務表現存疑。《華爾街日報》指出，英特爾要重現昔日輝煌還有很長的路要走。投資人關注的是，英特爾是否能夠維持其轉虧為盈的成果。英特爾的財務表現仍未完全恢復，投資人需要更多的證據來證明英特爾的財務狀況是否穩定。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dd1cd123",
-        "title": "台積電4個理由賺很大 股價評級躍升",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5409153",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 19 Apr 2026 21:02:30 +0800",
-        "summary_zh": "台積電公佈的季度營收成長強勁，成長轉化為利潤的效率高達接近高峰值。分析師認為，先進製程的需求仍然旺盛，業績指引顯示下一季將延續這一成長動能。因此，台積電股價評級躍升，分析師認為這是投資的好機會。台積電的強勁業績和明確的業績指引，使得投資者對於公司未來的成長感到樂觀。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "13fbf248",
-        "title": "不怕修車地獄！專家點名「2026最耐用4款車」Toyota、現代都上榜",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5409111",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 19 Apr 2026 20:42:17 +0800",
-        "summary_zh": "根據美國理財網站《GOBankingRates》的調查，汽車的可靠性與安全性對購車者而言非常重要。這些因素會直接影響長期成本、使用便利性以及二手轉售價值。專家們點名了2026年最耐用的四款車，其中包括Toyota和現代。這些車款被認為具有較好的可靠性和安全性，對購車者來說是一個不錯的選擇。然而，汽車的耐用性還是取決於各種因素，包括車主的駕駛技巧和維護情況。因此，購車者需要仔細評估各個車款的優缺點，選擇最適合自己的車型。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ca18c5fb",
-        "title": "為了買尿布！他靠出租破車從低收入戶翻身 年賺9300萬超驚人",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5408980",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 19 Apr 2026 20:03:48 +0800",
-        "summary_zh": "在美國夏威夷，生活成本居高不下的情況下，一名38歲男子為了負擔孩子的奶粉和尿布開銷，決定出租自己的愛車。這個決定意外地幫助他打造了驚人的財富。根據報導，他的年收入超過了9300萬元，遠超過他以前的收入水平。這名男子的故事讓人們感受到，通過創造性地利用資源和機會，人們可以從低收入戶中翻身。然而，這個故事也提醒我們，生活成本居高不下的問題仍然存在，並需要被關注和解決。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4104873e",
-        "title": "中國惠台內容縮水「以經干政」不奏效 經部：台灣無須走回頭路依附中國",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5409011",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 19 Apr 2026 18:43:13 +0800",
-        "summary_zh": "中國自2018年起陸續推出4波惠台措施，但內容呈現退縮之勢，國內業者多反應冷淡。經濟部認為，中國試圖透過經濟手段干預台灣政治，稱台灣無須走回頭路依附中國。這些惠台措施雖然有助於台灣出口商的業務，但對於台灣企業的投資和發展影響有限。經濟部強調，台灣應該堅持自己的經濟政策和發展路線，而不是依附中國的經濟利益。這一立場表明，台灣政府正在努力維護自己的經濟自主權和發展方向。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c1e33985",
-        "title": "百萬網友哭了！美癌末少女過世前寫下8個問題 馬斯克親自回答",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5408966",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 19 Apr 2026 18:38:18 +0800",
-        "summary_zh": "美國15歲癌末少女佩羅托（Liv Perrott）生前寫下8個想向特斯拉執行長馬斯克提出的問題，包括「人工智慧的未來方向」、「太空探索的目標」等。佩羅托過世後，馬斯克親自在X平台上一一回覆這些問題，目前已獲得近200萬人次的點擊。這些回覆不僅展現了馬斯克對佩羅托的尊敬，也讓人們對未來的前瞻和夢想充滿了希望。佩羅托的問題和馬斯克的回覆，讓人們看到科技業和社會的未來發展方向，同時也讓人們感受到人性的溫度和善良。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1387010e",
-        "title": "台積電越放越強！外媒點名這3檔『買進並長抱』是最佳答案",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5408959",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 19 Apr 2026 18:37:10 +0800",
-        "summary_zh": "台積電在近期市場波動中表現出色，證明了少即是多、簡單才是王道的投資理念。投資媒體《The Motley Fool》指出，股市在短期內難以預測，但台積電的表現卻是值得投資人的關注。外媒推薦三檔股票作為最佳投資選擇，包括台積電等。台積電的強大表現不僅僅是市場波動的結果，也是公司的長期發展戰略和技術優勢的體現。投資人應該關注台積電的未來發展和市場趨勢，作為長期投資的選擇。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "finance": [
@@ -420,8 +674,8 @@
         "published_at": "2026-04-19 04:00:16",
         "summary_zh": "歐盟委員會推動員工遠距工作，以減少能源消耗並緩解能源危機。委員會還建議採用熱泵和公共交通補貼，以降低能源消耗。這一措施旨在幫助歐洲國家在能源短缺的情況下保持經濟活動。遠距工作的推動將對員工和企業產生影響，企業需要調整工作模式和設施，以適應遠距工作的需求。委員會的建議也將對公共交通和能源產業產生影響，企業和政府需要共同努力來實現能源節約和減少排放。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "b70b6c73",
@@ -432,8 +686,8 @@
         "published_at": "2026-04-19 04:00:07",
         "summary_zh": "義大利頂級帽子製造商博加特（Borsalino）成立了 169 年，近期宣布將在上海開設第一家專門店。博加特以其精美的義大利帽子而聞名，曾經是好萊塢電影《金塊女俠》中博加特的角色所佩戴的帽子。博加特的進軍上海市場是為了拓展其全球市場份額，尤其是在亞洲地區。博加特的產品以其高品質和獨特設計而聞名，將在上海的新店中展出。這一舉動將使博加特進一步鞏固其在全球頂級帽子製造商中的地位。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "cd7e72fe",
@@ -444,8 +698,8 @@
         "published_at": "2026-04-19 04:00:07",
         "summary_zh": "麥金太爾公司正在將重心放在高端產品上，以保留法國的製造業，但工人擔心中國的競爭將對其造成威脅。麥金太爾的未來發展計畫包括開發新的材料和技術，以應對全球汽車行業的變化。公司正在投資大量資金來研發新材料和製造技術，以便於製造更高效和更環保的汽車零部件。這些新材料和技術將有助於公司在法國製造業中保持競爭力，並減少對中國的依賴。然而，工人擔心這些變化將導致工作崗位的減少和員工福利的削減。麥金太爾公司正在努力平衡其未來發展的需求和工人的需求，同時保持其在法國製造業中的競爭力。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c3c175c0",
@@ -492,200 +746,6 @@
         "published_at": "2026-04-18 19:00:00",
         "summary_zh": "自2月底戰爭爆發以來，信貸投資者一直以避險資產為主。然而，隨著伊朗和美國的停火協議，投資者開始轉向風險較高的債券。這種趨勢表明投資者對停火的信心正在增強。投資者正在嘗試將戰爭的影響從投資決策中排除，轉而關注市場的長期趨勢。這種轉變可能會對市場造成重大影響。投資者正在對風險投資進行重估，希望能夠在停火後的市場環境中取得更好的收益。然而，這也可能會使投資者面臨更大的風險。投資者需要小心地平衡風險和收益的關係，以確保投資的穩定性。",
         "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "6f156459",
-        "title": "夏威夷居民重建拉海納鎮　為當地人而非觀光客打造",
-        "url": "https://www.theguardian.com/us-news/2026/apr/19/lahaina-maui-rebuild-locals-tourists",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 19 Apr 2026 14:00:44 GMT",
-        "summary_zh": "近年來，夏威夷拉海納鎮遭遇多次嚴重天災，包括2023年的火災、最近的豪雨和ICE突擊檢查。居民決心重建鎮區，將其打造為一座真正為當地人服務的社區。今年三月，夏威夷遭遇兩場連環豪雨，引發20年來最嚴重的洪水。拉海納鎮的泥濘洪水將街道變成河流，掘開道路，淹沒房屋。洪水過後，坑洞出現，吞噬了車輛。這是近三年來美國歷史上最嚴重的火災在拉海納鎮造成的災難，摧毀了超過2,000棟建築物，殺死超過100人。數百名受影響的家庭仍在臨時住所中度過。貧困、失業和房屋不穩定等問題在火災前就存在，現在更加嚴重。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "73214b10",
-        "title": "美國中西部遭受龍捲風和強風侵襲，房屋和道路受損",
-        "url": "https://www.theguardian.com/us-news/2026/apr/19/tornadoes-heavy-winds-damage-midwest",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 19 Apr 2026 13:51:06 GMT",
-        "summary_zh": "美國中西部近日遭受一波強風和龍捲風侵襲，導致房屋和道路嚴重受損。儘管沒有報告死亡事件，但官員預計這些鄉村社區將需要長時間恢復。龍捲風和強風在週五席捲美國中西部地區，造成房屋屋頂被掀走、樹木被拔起和道路被碎石阻塞。官員已經為一些鄉村社區居民預備長時間的恢復工作。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "df71be56",
-        "title": "4月19日 美伊戰爭對國際經濟、財經市場與民生衝擊",
-        "url": "https://www.cna.com.tw/news/aopl/202604190099.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Sun, 19 Apr 2026 15:36:38 +0800",
-        "summary_zh": "伊朗軍方宣布關閉荷莫茲海峽，對全球油價造成重大影響。荷莫茲海峽是全球最大的石油出口通道之一，關閉後將對全球石油市場造成重大衝擊。伊朗民航局宣布重新開放部分領空，允許國際航班飛越其東部空域。這一措施將有助於減少對全球航運的影響。美國總統川普表示美伊目前對話進展順利，預計很快會有進一步消息。這一消息將對全球經濟和財經市場產生重大影響。伊朗軍方關閉荷莫茲海峽的決定將對全球油價造成重大影響，可能導致油價上漲。這將對全球經濟和財經市場產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bd03bf60",
-        "title": "加拿大太空人在太空發表法文話語，為法語爭議帶來和解",
-        "url": "https://www.theguardian.com/world/2026/apr/19/artemis-astronaut-jeremy-hansen-french-canada",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 19 Apr 2026 11:00:41 GMT",
-        "summary_zh": "加拿大太空人傑瑞米·漢森(Jeremy Hansen)因在阿波羅任務中說出四個法文詞彙而受到讚賞。這一事件發生在加拿大航空公司(Air Canada)首席執行官的法文言論被指責時，法語爭議再次引起關注。加拿大總理對此事發表評論，表達了對法語的支持。這一事件顯示，法語在加拿大的重要性仍然存在，太空人傑瑞米·漢森的表現也被視為一個和解的象徵。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1208c658",
-        "title": "LNG 載運船改航路避開霍爾木茲海峽，伊朗繼續封鎖海峽",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-18/lng-tankers-make-u-turns-from-hormuz-as-iran-keeps-strait-shut",
-        "source": "Bloomberg",
-        "category": "global",
-        "published_at": "2026-04-18 20:04:22",
-        "summary_zh": "霍爾木茲海峽是全球最重要的石油和天然氣運輸通道之一。伊朗近期繼續封鎖海峽，導致全球 LNG 載運船改航路避開該海峽。這一事件的背景是伊朗與西方國家的政治緊張關係，伊朗在霍爾木茲海峽的封鎖對全球能源市場造成了重大影響。許多 LNG 載運船已經改航路避開霍爾木茲海峽，前往其他運輸通道。這一事件的影響包括全球能源供應的不穩定性以及對 LNG 價格的影響。未來，伊朗的行動將對全球能源市場產生持續的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "31abd2cd",
-        "title": "澳洲最受獎勵的士兵承諾「戰鬥」戰爭罪指控",
-        "url": "https://www.bbc.com/news/articles/cy91r7ww3weo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 19 Apr 2026 05:12:40 GMT",
-        "summary_zh": "澳洲最受獎勵的士兵本·羅伯茨史密斯（Ben Roberts-Smith）在去週被控五項戰爭罪中的謀殺罪後，首次發表聲明。他承諾會「戰鬥」這些指控。羅伯茨史密斯曾在阿富汗服役，獲得多項榮譽。然而，他被控在阿富汗戰爭期間，殺害了五名阿富汗平民。這項指控對羅伯茨史密斯的軍事榮譽和名聲造成了重大影響。羅伯茨史密斯的律師表示，他將會全力為客戶辯護，爭取無罪釋放。這項案件將在未來幾個月內進行審判。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2b9d7780",
-        "title": "奧地利警方發現嬰兒食品罐頭中含有鼠藥",
-        "url": "https://www.bbc.com/news/articles/cvg07lq5ql4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 19 Apr 2026 12:52:26 GMT",
-        "summary_zh": "奧地利警方發現一罐嬰兒食品品牌HiPP的罐頭中含有鼠藥，警方於週六發出警告，表示可能會對消費者造成「生命威脅」。警方要求消費者立即停止使用這罐嬰兒食品，並將罐頭交給當地警署進行處理。這起事件引起了廣泛關注，消費者對嬰兒食品安全的擔憂再次升級。警方正在調查此事件的原因，確保未來不會再發生類似事件。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b86be7e4",
-        "title": "澤倫斯基譴責美國延長俄羅斯制裁豁免",
-        "url": "https://www.bbc.com/news/articles/c248m3z49j1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 19 Apr 2026 09:55:22 GMT",
-        "summary_zh": "烏克蘭總統澤倫斯基對美國延長俄羅斯制裁豁免的決定表示譴責。美國政府聲稱，這一決定是為了緩解由美國與以色列對伊朗戰爭引發的能源供應緊張局勢。這一決定引發了各界的爭議，許多人認為這一決定將會給俄羅斯帶來新的經濟利益。這一事件的背景是俄羅斯在烏克蘭戰爭中對烏克蘭的侵略行為。美國延長俄羅斯制裁豁免的決定可能會對烏克蘭的經濟和安全產生重大影響。烏克蘭政府和民眾對此表示強烈不滿，要求美國政府重新考慮這一決定。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e259e23e",
-        "title": "特立尼達墓園發現50具嬰兒屍體",
-        "url": "https://www.bbc.com/news/articles/ce8jl1271pjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 19 Apr 2026 07:49:45 GMT",
-        "summary_zh": "特立尼達墓園發現50具嬰兒屍體，當地警方初步調查指出，這可能是一起「非法處理未收留屍體」的案件。這起事件引起了社會的關注和譴責。特立尼達政府已經展開調查，並且將會對相關人員進行懲處。這起事件也引起了國際社會的關注，許多人對此表示了震驚和憤怒。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6a86d5dc",
-        "title": "烏克蘭首都基輔至少兩人遇害，槍手與警方交火後被擊斃",
-        "url": "https://www.bbc.com/news/articles/cm25r1vkx4lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sat, 18 Apr 2026 18:09:57 GMT",
-        "summary_zh": "烏克蘭首都基輔發生槍擊案，至少兩人死亡。根據當地內政部長的說法，槍手與警方交火後被擊斃。這起事件的背景是烏克蘭正處於俄羅斯入侵的影響下，基輔市民的安全感受到了嚴重的挑戰。槍手的動機尚不清楚，但這起事件顯示了烏克蘭正面臨著嚴重的安全威脅。基輔市民的安全將是烏克蘭政府的首要關注點。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "736104b3",
-        "title": "墨西哥總統否認與西班牙發生「外交危機」",
-        "url": "https://www.bbc.com/news/articles/cp86r29l45go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sat, 18 Apr 2026 21:27:56 GMT",
-        "summary_zh": "墨西哥總統謝恩鮑姆（Claudia Sheinbaum）否認墨西哥與西班牙之間出現外交危機。這是因為墨西哥對於西班牙殖民歷史的看法引起了爭議。謝恩鮑姆總統表示，墨西哥從未對西班牙殖民歷史感到緊張。這個問題曾經成為一個敏感話題，引起了兩國之間的爭議。謝恩鮑姆總統的說法可能會減少兩國之間的緊張關係。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "48fa70d8",
-        "title": "法國和平維和人員南黎巴嫩遇害",
-        "url": "https://www.bbc.com/news/articles/cvg4mrm2vm0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 19 Apr 2026 11:39:47 GMT",
-        "summary_zh": "南黎巴嫩發生一宗槍擊案，法國和平維和人員遇害。法國總統馬克宏指責這起襲擊事件是由於希拉克的行動所致。伊朗支持的武裝組織希拉克否認與這起事件有任何關聯。這起事件引發了國際社會的關注，各方都在評估此事件的影響。法國政府已經對此事件表達了強烈的譴責，並要求希拉克就此事件作出解釋。這起事件可能會對黎巴嫩局勢產生重大影響，各方都在關注此事件的發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c4c53c17",
-        "title": "為什麼在舊金山水域的灰鯨會死亡？美國科學家正在尋找線索",
-        "url": "https://www.bbc.com/news/articles/c9qdd8qvrplo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Sun, 19 Apr 2026 13:08:05 GMT",
-        "summary_zh": "近年來，舊金山水域出現了多起灰鯨死亡事件，引起了科學家的關注。根據目前的研究，氣候變遷和遷徙模式的變化可能是灰鯨死亡的原因。這種情況不僅對灰鯨的生存而言是一個挑戰，也對科學家來說是一個難解的謎題。氣候變遷導致海洋環境的變化，可能影響到灰鯨的覓食和遷徙行為。同時，灰鯨的遷徙模式也在變化，可能與氣候變遷有關。科學家正在努力解釋這些變化背後的原因，為保護灰鯨提供有力的證據。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "17532837",
-        "title": "川普確認第二輪美伊談判日期 警告伊朗別當硬漢 否則要炸遍兩大設施",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5409169",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Sun, 19 Apr 2026 21:26:49 +0800",
-        "summary_zh": "美國總統川普確認，美伊第二輪談判將於週一在巴基斯坦首都伊斯蘭堡舉行。川普在社交平台上表示，美國代表團將前往伊斯蘭堡，與伊朗代表進行談判。他同時警告伊朗，若不合作，美國將會對兩大設施進行攻擊。這次談判的目標是解決伊朗核問題和其他爭議。伊朗方面尚未對談判日期做出回應。美國和伊朗的關係一直處於緊張狀態，雙方多次進行軍事衝突。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3a4617e7",
-        "title": "中國3億農民工城市難找工作 滯留家鄉引發北京維穩新挑戰",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5409134",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Sun, 19 Apr 2026 21:25:25 +0800",
-        "summary_zh": "中國內陸省份的農民工離開家鄉前往富裕的東部和南部省份的工廠和工地討生活已經有數十年歷史，但近年來中國內需疲軟和都市高薪工作越來越難找到，導致許多農民工難以找到工作，最終只能滯留家鄉。這種情況引發了北京的維穩新挑戰，企業和決策人士擔憂農民工的留守將對社會穩定和經濟發展產生重大影響。根據估計，中國有3億農民工將會留在家鄉，這將是中國維穩的重大挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f7135bf9",
-        "title": "中國短期得利難掩長期風險 衛報：北京盼伊朗戰爭儘早結束",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5409019",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Sun, 19 Apr 2026 18:45:00 +0800",
-        "summary_zh": "根據英國《衛報》的分析，美國和以色列2月底對伊朗發動戰爭，短期內可能為中國帶來些許外交利益。然而，這場戰爭將對中國的能源安全和經濟構成風險，進而轉換為長期的痛苦。中國政府希望伊朗戰爭儘早結束，以避免對自己經濟和能源安全造成不必要的風險。這場戰爭可能會影響中國的石油和天然氣進口，進而對中國的經濟產生重大影響。中國政府正在密切關注這場戰爭的發展，並希望通過外交努力來解決這個問題。",
-        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       }
