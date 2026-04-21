@@ -1,169 +1,133 @@
 {
   "date": "2026-04-21",
-  "generated_at": "2026-04-21T14:04:09.294475+08:00",
+  "generated_at": "2026-04-21T23:04:11.499327+08:00",
   "key_themes": [
     {
-      "title": "全球經濟走勢",
-      "background": "近期中東戰爭對全球經濟的影響持續，美股可能出現技術反彈",
-      "development": "今日市場快照顯示，VIX 恐慌指數上升，原油價格下跌，黃金價格穩定，S&P500 和那斯達克指數下跌，台股上漲",
-      "impact": "全球經濟面臨能源短缺和地緣政治不穩的雙重挑戰，投資者需要謹慎評估風險和收益",
-      "conclusion": "短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈",
+      "title": "中東戰爭對全球經濟的影響",
+      "background": "中東戰爭持續升級，引發能源價格上漲，對全球經濟造成雙重挑戰。",
+      "development": "近期，伊朗和平談判的消息讓股市反彈，投資者對未來的前景感到更加樂觀。然而，仍有許多不確定性，投資者需要繼續關注市場的發展和政策的變化。石油價格上升成為市場關注的焦點，石油價格的上升與全球經濟的恢復有直接關係。",
+      "impact": "中東戰爭對全球經濟的影響持續，能源價格上漲對全球經濟造成雙重挑戰。投資者需要密切關注這些變化，以便做出適當的投資決策。",
+      "conclusion": "短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈。",
       "region": "global"
     },
     {
-      "title": "科技產業發展",
-      "background": "近期科技產業的快速發展和利潤競賽",
-      "development": "蘋果宣布新CEO接替蒂姆·庫克，Fortnite開發商現在可以創造AI角色了",
-      "impact": "這些變動將會對科技產業的未來發展產生重大影響，投資者需要密切關注相關發展",
-      "conclusion": "科技產業的發展將會繼續推動全球經濟的成長，投資者需要謹慎評估風險和收益",
-      "region": "global"
+      "title": "日本放寬武器出口規則",
+      "background": "日本政府近日宣布放寬武器出口規則，這一決定標誌著日本退出戰後的和平主義。",
+      "development": "根據新規定，日本可以向超過一打國家出售武器。這一決定引發了國際社會的關注，許多人認為這將對全球安全格局產生重大影響。",
+      "impact": "日本的這一決定被視為是該國軍事力量的增強，同時也可能會加劇亞洲地區的軍事緊張局勢。",
+      "conclusion": "日本放寬武器出口規則將對亞洲地區的安全局勢產生影響，投資者需要密切關注這些變化。",
+      "region": "asia"
     },
     {
-      "title": "地緣政治局勢",
-      "background": "近期中東戰爭的不確定性對全球經濟產生重大影響",
-      "development": "今日市場快照顯示，原油價格下跌，黃金價格穩定，S&P500 和那斯達克指數下跌",
-      "impact": "地緣政治局勢的不穩定性將會對全球經濟產生重大影響，投資者需要謹慎評估風險和收益",
-      "conclusion": "地緣政治局勢的不穩定性將會繼續對全球經濟產生影響，投資者需要密切關注相關發展",
+      "title": "人工智慧產業的發展",
+      "background": "人工智慧產業的快速發展和利潤競賽，公司需要不斷創新。",
+      "development": "近期，Yelp 將其聊天機器人助理進行重大升級，將平台轉變為一種類似於數位導遊的服務。",
+      "impact": "人工智慧產業的發展加速，公司需要不斷創新，以保持競爭力。",
+      "conclusion": "人工智慧產業的發展將對各個行業產生影響，投資者需要密切關注這些變化。",
       "region": "global"
     }
   ],
   "sector_analysis": [
     {
-      "sector": "科技",
-      "direction": "看多",
-      "reasoning": "科技產業的快速發展和利潤競賽將會推動全球經濟的成長",
-      "key_ticker": "AAPL"
-    },
-    {
       "sector": "能源",
       "direction": "看空",
-      "reasoning": "原油價格下跌將會對能源產業產生負面影響",
+      "reasoning": "石油價格上升對全球經濟造成雙重挑戰，能源股可能會下跌。",
       "key_ticker": "XOM"
+    },
+    {
+      "sector": "科技",
+      "direction": "看多",
+      "reasoning": "人工智慧產業的快速發展和利潤競賽，科技股可能會上漲。",
+      "key_ticker": "AAPL"
     },
     {
       "sector": "金融",
       "direction": "中性",
-      "reasoning": "金融產業的發展將會受到地緣政治局勢的影響",
+      "reasoning": "金融市場的波動性增加，金融股可能會出現波動。",
       "key_ticker": "JPM"
     }
   ],
   "action_signals": [
     {
-      "asset": "S&P500",
+      "asset": "SPY",
       "signal": "短多",
-      "reasoning": "若週末停火談判有進展，週一可能出現技術反彈",
+      "reasoning": "若週末停火談判有進展，週一可能出現技術反彈。",
       "confidence": "中高"
     },
     {
-      "asset": "AAPL",
+      "asset": "XOM",
       "signal": "短空",
-      "reasoning": "蘋果宣布新CEO接替蒂姆·庫克，可能會對公司的股價產生負面影響",
-      "confidence": "中"
-    },
-    {
-      "asset": "USO",
-      "signal": "短空",
-      "reasoning": "原油價格下跌將會對能源產業產生負面影響",
+      "reasoning": "石油價格上升對全球經濟造成雙重挑戰，能源股可能會下跌。",
       "confidence": "高"
     }
   ],
   "risk_radar": [
     {
-      "event": "中東戰爭",
-      "probability": "高",
+      "event": "中東戰爭升級",
+      "probability": "中",
       "impact": "高",
       "timeframe": "本週",
-      "description": "中東戰爭的不確定性對全球經濟產生重大影響"
+      "description": "中東戰爭升級可能會對全球經濟造成重大影響。"
     },
     {
-      "event": "地緣政治局勢",
-      "probability": "中",
+      "event": "日本放寬武器出口規則",
+      "probability": "低",
       "impact": "中",
       "timeframe": "下週",
-      "description": "地緣政治局勢的不穩定性將會對全球經濟產生影響"
-    },
-    {
-      "event": "科技產業發展",
-      "probability": "低",
-      "impact": "低",
-      "timeframe": "本月",
-      "description": "科技產業的快速發展和利潤競賽將會推動全球經濟的成長"
+      "description": "日本放寬武器出口規則可能會對亞洲地區的安全局勢產生影響。"
     }
   ],
   "narrative_shift": {
     "new_themes": [
-      "全球經濟走勢",
-      "科技產業發展",
-      "地緣政治局勢"
+      "中東戰爭對全球經濟的影響"
     ],
     "escalated": [
-      "中東戰爭"
+      "日本放寬武器出口規則"
     ],
     "cooled": [
-      "能源價格"
+      "人工智慧產業的發展"
     ],
-    "disappeared": [
-      "金融產業發展"
-    ]
+    "disappeared": []
   },
   "watch_next": [
     {
-      "topic": "中東戰爭",
-      "reason": "中東戰爭的不確定性對全球經濟產生重大影響",
+      "topic": "中東戰爭升級",
+      "reason": "中東戰爭升級可能會對全球經濟造成重大影響。",
       "timeframe": "本週"
     },
     {
-      "topic": "科技產業發展",
-      "reason": "科技產業的快速發展和利潤競賽將會推動全球經濟的成長",
+      "topic": "日本放寬武器出口規則",
+      "reason": "日本放寬武器出口規則可能會對亞洲地區的安全局勢產生影響。",
       "timeframe": "下週"
-    },
-    {
-      "topic": "地緣政治局勢",
-      "reason": "地緣政治局勢的不穩定性將會對全球經濟產生影響",
-      "timeframe": "本月"
     }
   ],
   "cross_links": [
     {
       "themes": [
         "中東戰爭",
-        "地緣政治局勢"
+        "能源價格"
       ],
-      "chain": "中東戰爭的不確定性對全球經濟產生重大影響，地緣政治局勢的不穩定性將會對全球經濟產生影響"
-    },
-    {
-      "themes": [
-        "科技產業發展",
-        "全球經濟走勢"
-      ],
-      "chain": "科技產業的快速發展和利潤競賽將會推動全球經濟的成長，全球經濟走勢將會受到科技產業發展的影響"
-    },
-    {
-      "themes": [
-        "能源價格",
-        "金融產業發展"
-      ],
-      "chain": "能源價格的下跌將會對能源產業產生負面影響，金融產業的發展將會受到能源價格的影響"
+      "chain": "中東戰爭升級 → 能源價格上漲 → 全球經濟受影響"
     }
   ],
   "market_snapshot": {
     "mood": "觀望",
-    "key_moves": "VIX 恐慌指數上升，原油價格下跌，黃金價格穩定，S&P500 和那斯達克指數下跌，台股上漲"
+    "key_moves": "石油價格上升，股市下跌"
   },
   "data_table": {
     "indices": [
       {
         "key": "SP500",
         "name": "S&P 500",
-        "price": 7109.14,
-        "change_pct": -0.24,
+        "price": 7087.14,
+        "change_pct": -0.31,
         "status": "danger"
       },
       {
         "key": "NASDAQ",
         "name": "那斯達克",
-        "price": 24404.39,
-        "change_pct": -0.26,
+        "price": 24338.4,
+        "change_pct": -0.27,
         "status": "normal"
       },
       {
@@ -178,15 +142,15 @@
       {
         "key": "GOLD",
         "name": "黃金",
-        "price": 4806.3,
-        "change_pct": -0.01,
+        "price": 4754.6,
+        "change_pct": -1.08,
         "status": "normal"
       },
       {
         "key": "OIL",
         "name": "原油 WTI",
-        "price": 86.2,
-        "change_pct": -3.81,
+        "price": 88.38,
+        "change_pct": -1.37,
         "status": "normal"
       }
     ],
@@ -194,15 +158,15 @@
       {
         "key": "DXY",
         "name": "美元指數",
-        "price": 98.11,
-        "change_pct": 0.06,
+        "price": 98.24,
+        "change_pct": 0.19,
         "status": "normal"
       },
       {
         "key": "USDTWD",
         "name": "美元/台幣",
-        "price": 31.43,
-        "change_pct": -0.11,
+        "price": 31.45,
+        "change_pct": -0.04,
         "status": "normal"
       }
     ],
@@ -210,15 +174,15 @@
       {
         "key": "TNX",
         "name": "美債10Y殖利率",
-        "price": 4.25,
-        "change_pct": 0.09,
+        "price": 4.29,
+        "change_pct": 1.01,
         "status": "normal"
       },
       {
         "key": "VIX",
         "name": "VIX 恐慌指數",
-        "price": 18.87,
-        "change_pct": 7.95,
+        "price": 19.19,
+        "change_pct": 1.7,
         "status": "normal"
       }
     ]
