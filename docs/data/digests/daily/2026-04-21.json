@@ -1,124 +1,125 @@
 {
   "date": "2026-04-21",
-  "generated_at": "2026-04-21T09:04:24.555164+08:00",
+  "generated_at": "2026-04-21T14:04:09.294475+08:00",
   "key_themes": [
     {
-      "title": "中東戰爭對全球經濟的影響",
-      "background": "近期中東戰爭持續升級，對全球經濟產生重大影響",
-      "development": "美國與伊朗的停火期限逼近，國際油價大幅上漲，投資人對美國與伊朗的和談前景感到疑慮",
-      "impact": "中東戰爭對全球經濟的影響持續升溫，能源價格上升對全球經濟造成雙重挑戰",
+      "title": "全球經濟走勢",
+      "background": "近期中東戰爭對全球經濟的影響持續，美股可能出現技術反彈",
+      "development": "今日市場快照顯示，VIX 恐慌指數上升，原油價格下跌，黃金價格穩定，S&P500 和那斯達克指數下跌，台股上漲",
+      "impact": "全球經濟面臨能源短缺和地緣政治不穩的雙重挑戰，投資者需要謹慎評估風險和收益",
       "conclusion": "短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈",
       "region": "global"
     },
     {
-      "title": "人工智慧產業的發展",
-      "background": "人工智慧產業的快速發展和利潤競賽",
-      "development": "Epic Games推出了AI控制的角色，玩家可以與這些角色進行對話和互動",
-      "impact": "人工智慧產業的發展加速，公司需要不斷創新",
-      "conclusion": "人工智慧產業的發展將繼續推動相關公司的成長",
+      "title": "科技產業發展",
+      "background": "近期科技產業的快速發展和利潤競賽",
+      "development": "蘋果宣布新CEO接替蒂姆·庫克，Fortnite開發商現在可以創造AI角色了",
+      "impact": "這些變動將會對科技產業的未來發展產生重大影響，投資者需要密切關注相關發展",
+      "conclusion": "科技產業的發展將會繼續推動全球經濟的成長，投資者需要謹慎評估風險和收益",
       "region": "global"
     },
     {
-      "title": "全球能源市場的變化",
-      "background": "全球能源市場的變化對投資者產生影響",
-      "development": "巴西總統力推生質燃料，美國政府扣押伊朗旗下的船隻",
-      "impact": "全球能源市場的變化對投資者產生影響，能源價格上升對全球經濟造成雙重挑戰",
-      "conclusion": "全球能源市場的變化將繼續影響投資者的投資決策",
+      "title": "地緣政治局勢",
+      "background": "近期中東戰爭的不確定性對全球經濟產生重大影響",
+      "development": "今日市場快照顯示，原油價格下跌，黃金價格穩定，S&P500 和那斯達克指數下跌",
+      "impact": "地緣政治局勢的不穩定性將會對全球經濟產生重大影響，投資者需要謹慎評估風險和收益",
+      "conclusion": "地緣政治局勢的不穩定性將會繼續對全球經濟產生影響，投資者需要密切關注相關發展",
       "region": "global"
     }
   ],
   "sector_analysis": [
     {
-      "sector": "能源",
-      "direction": "看空",
-      "reasoning": "中東戰爭對全球能源市場的影響",
-      "key_ticker": "原油"
-    },
-    {
       "sector": "科技",
       "direction": "看多",
-      "reasoning": "人工智慧產業的快速發展",
-      "key_ticker": "Nvidia"
+      "reasoning": "科技產業的快速發展和利潤競賽將會推動全球經濟的成長",
+      "key_ticker": "AAPL"
+    },
+    {
+      "sector": "能源",
+      "direction": "看空",
+      "reasoning": "原油價格下跌將會對能源產業產生負面影響",
+      "key_ticker": "XOM"
     },
     {
       "sector": "金融",
       "direction": "中性",
-      "reasoning": "全球經濟的變化對金融市場的影響",
-      "key_ticker": "美元指數"
+      "reasoning": "金融產業的發展將會受到地緣政治局勢的影響",
+      "key_ticker": "JPM"
     }
   ],
   "action_signals": [
     {
-      "asset": "原油",
-      "signal": "短空",
-      "reasoning": "中東戰爭對全球能源市場的影響",
-      "confidence": "高"
-    },
-    {
-      "asset": "Nvidia",
+      "asset": "S&P500",
       "signal": "短多",
-      "reasoning": "人工智慧產業的快速發展",
+      "reasoning": "若週末停火談判有進展，週一可能出現技術反彈",
       "confidence": "中高"
     },
     {
-      "asset": "美元指數",
-      "signal": "觀望",
-      "reasoning": "全球經濟的變化對金融市場的影響",
+      "asset": "AAPL",
+      "signal": "短空",
+      "reasoning": "蘋果宣布新CEO接替蒂姆·庫克，可能會對公司的股價產生負面影響",
       "confidence": "中"
+    },
+    {
+      "asset": "USO",
+      "signal": "短空",
+      "reasoning": "原油價格下跌將會對能源產業產生負面影響",
+      "confidence": "高"
     }
   ],
   "risk_radar": [
     {
-      "event": "中東戰爭升級",
+      "event": "中東戰爭",
       "probability": "高",
       "impact": "高",
       "timeframe": "本週",
-      "description": "中東戰爭對全球經濟的影響持續升溫"
+      "description": "中東戰爭的不確定性對全球經濟產生重大影響"
     },
     {
-      "event": "人工智慧產業的發展",
+      "event": "地緣政治局勢",
       "probability": "中",
       "impact": "中",
       "timeframe": "下週",
-      "description": "人工智慧產業的快速發展和利潤競賽"
+      "description": "地緣政治局勢的不穩定性將會對全球經濟產生影響"
     },
     {
-      "event": "全球能源市場的變化",
-      "probability": "中",
-      "impact": "中",
+      "event": "科技產業發展",
+      "probability": "低",
+      "impact": "低",
       "timeframe": "本月",
-      "description": "全球能源市場的變化對投資者產生影響"
+      "description": "科技產業的快速發展和利潤競賽將會推動全球經濟的成長"
     }
   ],
   "narrative_shift": {
     "new_themes": [
-      "中東戰爭對全球經濟的影響",
-      "人工智慧產業的發展"
+      "全球經濟走勢",
+      "科技產業發展",
+      "地緣政治局勢"
     ],
     "escalated": [
-      "全球能源市場的變化"
+      "中東戰爭"
     ],
     "cooled": [
-      "金融市場的變化"
+      "能源價格"
     ],
     "disappeared": [
-      "地緣政治的不穩"
+      "金融產業發展"
     ]
   },
   "watch_next": [
     {
-      "topic": "中東戰爭的發展",
-      "reason": "對全球經濟的影響",
+      "topic": "中東戰爭",
+      "reason": "中東戰爭的不確定性對全球經濟產生重大影響",
       "timeframe": "本週"
     },
     {
-      "topic": "人工智慧產業的發展",
-      "reason": "對相關公司的成長",
+      "topic": "科技產業發展",
+      "reason": "科技產業的快速發展和利潤競賽將會推動全球經濟的成長",
       "timeframe": "下週"
     },
     {
-      "topic": "全球能源市場的變化",
-      "reason": "對投資者的投資決策",
+      "topic": "地緣政治局勢",
+      "reason": "地緣政治局勢的不穩定性將會對全球經濟產生影響",
       "timeframe": "本月"
     }
   ],
@@ -126,28 +127,28 @@
     {
       "themes": [
         "中東戰爭",
-        "全球能源市場"
+        "地緣政治局勢"
       ],
-      "chain": "中東戰爭對全球能源市場的影響"
+      "chain": "中東戰爭的不確定性對全球經濟產生重大影響，地緣政治局勢的不穩定性將會對全球經濟產生影響"
     },
     {
       "themes": [
-        "人工智慧產業",
-        "科技"
+        "科技產業發展",
+        "全球經濟走勢"
       ],
-      "chain": "人工智慧產業的快速發展對科技公司的成長"
+      "chain": "科技產業的快速發展和利潤競賽將會推動全球經濟的成長，全球經濟走勢將會受到科技產業發展的影響"
     },
     {
       "themes": [
-        "全球經濟",
-        "金融市場"
+        "能源價格",
+        "金融產業發展"
       ],
-      "chain": "全球經濟的變化對金融市場的影響"
+      "chain": "能源價格的下跌將會對能源產業產生負面影響，金融產業的發展將會受到能源價格的影響"
     }
   ],
   "market_snapshot": {
     "mood": "觀望",
-    "key_moves": "原油價格上漲，Nvidia股價上漲，美元指數下跌"
+    "key_moves": "VIX 恐慌指數上升，原油價格下跌，黃金價格穩定，S&P500 和那斯達克指數下跌，台股上漲"
   },
   "data_table": {
     "indices": [
@@ -168,8 +169,8 @@
       {
         "key": "TWII",
         "name": "台股加權",
-        "price": 36958.8,
-        "change_pct": 0.42,
+        "price": 37605.11,
+        "change_pct": 1.75,
         "status": "danger"
       }
     ],
@@ -177,31 +178,31 @@
       {
         "key": "GOLD",
         "name": "黃金",
-        "price": 4842.6,
-        "change_pct": -0.31,
+        "price": 4806.3,
+        "change_pct": -0.01,
         "status": "normal"
       },
       {
         "key": "OIL",
         "name": "原油 WTI",
-        "price": 86.45,
-        "change_pct": 3.1,
-        "status": "warn"
+        "price": 86.2,
+        "change_pct": -3.81,
+        "status": "normal"
       }
     ],
     "forex": [
       {
         "key": "DXY",
         "name": "美元指數",
-        "price": 98.1,
-        "change_pct": 0.05,
+        "price": 98.11,
+        "change_pct": 0.06,
         "status": "normal"
       },
       {
         "key": "USDTWD",
         "name": "美元/台幣",
-        "price": 31.44,
-        "change_pct": -0.08,
+        "price": 31.43,
+        "change_pct": -0.11,
         "status": "normal"
       }
     ],
