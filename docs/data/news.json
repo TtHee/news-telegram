@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-04-21T12:03:59.597598+08:00",
+  "generated_at": "2026-04-21T13:03:56.756551+08:00",
   "risk_signals": [
-    "🟢 台股加權 37629.06（正常）",
+    "🟢 台股加權 37613.93（正常）",
     "🟢 S&P 500 7109.14（正常）",
     "🟢 VIX 恐慌指數 18.87（正常）",
     "🟢 MOVE 債市波動 67.9（正常）",
-    "🟢 美元指數 98.05（正常）",
-    "🟢 黃金 4806.6（正常）",
+    "🟢 美元指數 98.14（正常）",
+    "🟢 黃金 4808.0（正常）",
     "🟢 美債10Y殖利率 4.25（正常）",
-    "🔴 原油 WTI 89.61（急漲 +6.87%，市場避險）",
+    "🟢 原油 WTI 86.49（正常）",
     "🟢 美元/台幣 31.44（正常）"
   ],
-  "ai_summary": "市場氛圍偏向中性，台股和美元指數維持正常水平，美債殖利率和黃金價格也在正常範圍。然而原油價格急漲，表明市場避險意願增加。",
+  "ai_summary": "市場指標整體呈穩定趨勢，投資風險相對較低。目前股市走勢看似稍微偏於悲觀，但仍未觸發嚴重恐慌的情況。",
   "market": {
     "TWII": {
-      "price": 37629.06,
-      "change_pct": 1.81
+      "price": 37613.93,
+      "change_pct": 1.77
     },
     "SP500": {
       "price": 7109.14,
@@ -38,25 +38,73 @@
       "change_pct": 3.35
     },
     "DXY": {
-      "price": 98.05,
-      "change_pct": -0.05
+      "price": 98.14,
+      "change_pct": 0.09
     },
     "GOLD": {
-      "price": 4806.6,
-      "change_pct": -1.05
+      "price": 4808.0,
+      "change_pct": 0.03
     },
     "OIL": {
-      "price": 89.61,
-      "change_pct": 6.87
+      "price": 86.49,
+      "change_pct": -3.48
     },
     "USDTWD": {
       "price": 31.44,
-      "change_pct": -0.08
+      "change_pct": -0.1
     }
   },
   "macro": {},
   "categories": {
     "global": [
+      {
+        "id": "3f18cca8",
+        "title": "川普關稅退款開始，但消費者可能錯過",
+        "url": "https://www.bbc.com/news/articles/c7vqgge5g8lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 20 Apr 2026 18:25:17 GMT",
+        "summary_zh": "美國前總統川普推出關稅政策引發全球市場波動。為了回應批評，美國政府開始退還關稅費用。根據預估，退款總額將達到 1600 億美元。然而，消費者可能會錯過這個退款機會，因為企業需要通過網站提交退款申請。這意味著消費者可能需要等待企業申請並獲得退款後才能收到退款。這個退款政策可能會對企業和消費者造成影響，需要密切關注發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "dfd8d750",
+        "title": "蘋果宣布新CEO接替蒂姆·庫克",
+        "url": "https://www.bbc.com/news/articles/c1kr19lry18o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 20 Apr 2026 22:55:39 GMT",
+        "summary_zh": "蘋果公司宣布，前任 CEO 蒂姆·庫克將會退休並轉任執行董事長，而新任 CEO 則由 John Ternus 擔任。這次變動將會對蘋果公司的未來發展產生重大影響。蒂姆·庫克在任 CEO 15 年，帶領公司取得了巨大的成功。然而，隨著公司的成長，需要有人來接棒並帶領公司進入新的發展階段。 John Ternus 是蘋果公司的執行副總裁，負責公司的硬體事業。他有豐富的經驗和領導能力，相信他能夠帶領公司繼續前進。這次變動將會對蘋果公司的股價和未來發展產生重大影響。投資者和業界人士都在關注這次變動的影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a757f997",
+        "title": "母親與兒童跳樓逃生　路易斯安那州槍擊案造成8死",
+        "url": "https://www.bbc.com/news/articles/cj0v36vell4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 20 Apr 2026 20:19:57 GMT",
+        "summary_zh": "路易斯安那州發生槍擊案，當局指出案件涉及父親與家庭成員之間的家暴糾紛。父親在槍擊中殺死了包括自己七個孩子在內的八名兒童。母親與兒童為了逃生，跳樓逃離槍擊現場。這起槍擊案造成重大傷亡，當局正進行調查。母親與兒童的命運如何，仍待查明。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "281942b2",
+        "title": "藍原航太火箭因衛星事故停飛",
+        "url": "https://www.bbc.com/news/articles/cjr9vwz48npo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 20 Apr 2026 19:56:11 GMT",
+        "summary_zh": "藍原航太公司，創辦人為亞馬遜億萬富翁傑夫·貝佐斯，正在調查一場衛星發射失敗的事件。這次發射失敗的原因尚未明朗，公司正在進行調查以確定原因。這次事件對藍原航太的影響尚未可知，但公司已經開始調查以確定原因並改善未來的發射準確性。這次事件也引起了對於私人航太公司的關注，是否能夠安全地進行衛星發射。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "694ab6cb",
         "title": "川普表示美國不會解除霍爾木茲海峽封鎖，直到與伊朗達成協議",
@@ -67,18 +115,6 @@
         "summary_zh": "美國總統川普在伊朗是否參與本週在巴基斯坦舉行的和平談判之間的不確定性下，表示美國不會解除霍爾木茲海峽封鎖，直到與伊朗達成協議。霍爾木茲海峽是伊朗與外界的重要通道，封鎖這個海峽對伊朗的出口貿易和石油出口造成重大影響。川普的說法表明美國對伊朗的談判立場堅定不移，美國政府希望通過談判迫使伊朗放棄其核計畫和其他問題。然而，伊朗政府對美國的要求表示堅決反對，伊朗總統哈梅內伊昨天表示，伊朗不會與美國進行任何形式的談判。霍爾木茲海峽封鎖對全球油價和貿易造成重大影響，國際社會正在密切關注美國和伊朗的對話。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dfd8d750",
-        "title": "蘋果宣布新CEO接替蒂姆·庫克",
-        "url": "https://www.bbc.com/news/articles/c1kr19lry18o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 20 Apr 2026 22:55:39 GMT",
-        "summary_zh": "蘋果公司宣布，前任 CEO 蒂姆·庫克將會退休並轉任執行董事長，而新任 CEO 則由 John Ternus 擔任。這次變動將會對蘋果公司的未來發展產生重大影響。蒂姆·庫克在任 CEO 15 年，帶領公司取得了巨大的成功。然而，隨著公司的成長，需要有人來接棒並帶領公司進入新的發展階段。 John Ternus 是蘋果公司的執行副總裁，負責公司的硬體事業。他有豐富的經驗和領導能力，相信他能夠帶領公司繼續前進。這次變動將會對蘋果公司的股價和未來發展產生重大影響。投資者和業界人士都在關注這次變動的影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -106,15 +142,15 @@
         "ai_classified": true
       },
       {
-        "id": "281942b2",
-        "title": "藍原航太火箭因衛星事故停飛",
-        "url": "https://www.bbc.com/news/articles/cjr9vwz48npo?at_medium=RSS&at_campaign=rss",
+        "id": "11bd3eb7",
+        "title": "賓夕法尼亞州房屋爆炸，母親和六名兒童遇難",
+        "url": "https://www.bbc.com/news/articles/cwydme344rjo?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "global",
-        "published_at": "Mon, 20 Apr 2026 19:56:11 GMT",
-        "summary_zh": "藍原航太公司，創辦人為亞馬遜億萬富翁傑夫·貝佐斯，正在調查一場衛星發射失敗的事件。這次發射失敗的原因尚未明朗，公司正在進行調查以確定原因。這次事件對藍原航太的影響尚未可知，但公司已經開始調查以確定原因並改善未來的發射準確性。這次事件也引起了對於私人航太公司的關注，是否能夠安全地進行衛星發射。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "published_at": "Mon, 20 Apr 2026 14:49:15 GMT",
+        "summary_zh": "一場房屋爆炸在賓夕法尼亞州引起了巨大的悲痛。當地消防隊員在搶救過程中發現，母親和六名兒童被困在房屋內，年齡從三歲到十一歲不等。這起悲劇的原因尚未明朗，但當地警方已經展開調查。這種意外事故對當地社區造成了沉重的打擊，許多人都在為遇難者默哀。這起事件也引起了對房屋安全和預防措施的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -128,30 +164,6 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "a757f997",
-        "title": "母親與兒童跳樓逃生　路易斯安那州槍擊案造成8死",
-        "url": "https://www.bbc.com/news/articles/cj0v36vell4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 20 Apr 2026 20:19:57 GMT",
-        "summary_zh": "路易斯安那州發生槍擊案，當局指出案件涉及父親與家庭成員之間的家暴糾紛。父親在槍擊中殺死了包括自己七個孩子在內的八名兒童。母親與兒童為了逃生，跳樓逃離槍擊現場。這起槍擊案造成重大傷亡，當局正進行調查。母親與兒童的命運如何，仍待查明。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d70a2e28",
-        "title": "歐洲股市下跌 因擔憂伊朗停火延長",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-20/european-stocks-fall-as-worries-about-hormuz-blockade-intensify",
-        "source": "Bloomberg",
-        "category": "global",
-        "published_at": "2026-04-20 15:48:26",
-        "summary_zh": "伊朗停火延長引發全球關注，歐洲股市出現下跌趨勢。根據市場分析師的評估，投資者對伊朗停火延長的風險感到擔憂，進而影響對歐洲股市的投資意欲。這一事件的影響不僅限於伊朗本身，還會對全球經濟產生一定的影響。投資者正在密切關注伊朗停火延長的發展，同時也關注全球經濟的變化。伊朗停火延長的風險可能會持續影響全球股市的走勢。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
       },
       {
         "id": "3a213043",
@@ -202,6 +214,30 @@
         "ai_classified": true
       },
       {
+        "id": "92714639",
+        "title": "Colossal 生物科學公司宣稱成功克隆紅狼　真實性存疑",
+        "url": "https://www.technologyreview.com/2026/04/20/1135222/red-wolves-colossal-biosciences-clones/",
+        "source": "MIT Tech Review",
+        "category": "global",
+        "published_at": "Mon, 20 Apr 2026 10:00:00 +0000",
+        "summary_zh": "近日，Colossal 生物科學公司宣稱成功克隆紅狼，但這項聲明引起了外界的質疑。根據公司的說法，這項成就是通過基因編輯技術實現的。然而，公司並未提供足夠的證據來支持這項宣稱。紅狼是一種瀕臨絕種的物種，曾經在美國東南部的森林中生存。近年來，紅狼的數量已經大幅下降，目前僅剩下約60隻。Colossal 生物科學公司的這項宣稱引起了科學界和環境保護組織的關注。許多人質疑公司的宣稱是否為真，並呼籲公司提供更多的證據來證實這項成就。紅狼的保護是環境保護的重要一環，任何對這種物種的干擾都可能對生態系統造成重大影響。因此，Colossal 生物科學公司的宣稱引起了廣泛的關注和討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ed11d92a",
+        "title": "美國與伊朗停火期限逼近  國際油價大幅上漲",
+        "url": "https://www.cna.com.tw/news/afe/202604210008.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 05:28:30 +0800",
+        "summary_zh": "美國總統川普近日表示，他不太可能延長與伊朗的兩週停火期，伊朗海峽封鎖風險使國際油價今日大幅上漲逾5%。川普的話語引發市場關注，伊朗海峽封鎖可能對全球油價造成重大影響。伊朗海峽是全球重要的油氣運輸通道，封鎖將使油價大幅上漲。市場分析師預測，油價可能繼續上漲，直到停火期限結束為止。美國與伊朗的停火期限將於本週結束，市場關注兩國是否能夠達成新的協議，避免油價大幅上漲。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "2bd0debe",
         "title": "開創先例的黑人美麗皇后在南非撒哈拉以南地區去世，享年 76 歲",
         "url": "https://www.bbc.com/news/articles/cy41kklknreo?at_medium=RSS&at_campaign=rss",
@@ -211,6 +247,18 @@
         "summary_zh": "南非前美麗皇后辛西婭·尚治(Cynthia Shange)於 1972 年的世界小姐競選中，是南非兩位參賽者之一，分別為黑人和白人。這是南非撒哈拉以南地區首次出現黑人參加世界小姐競選。辛西婭·尚治的出現，展現了她對抗種族隔離制度的勇氣和決心。這一事件對南非的社會和政治環境產生了重大影響，促進了種族平等的進步。雖然辛西婭·尚治的去世，讓我們喪失了一位勇敢的先驅者，但她的精神和理念將永遠在我們的心中留下深刻的印象。",
         "sentiment": "正面",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4c3b1500",
+        "title": "市場擔憂伊朗戰事停火能否延期 歐股收盤挫跌",
+        "url": "https://www.cna.com.tw/news/afe/202604210002.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 01:06:13 +0800",
+        "summary_zh": "伊朗戰事停火期限即將到來，美國總統川普表示若無法達成協議，將不太可能延長停火期。這項消息讓市場擔心戰事可能重新爆發，導致歐洲股市今天收盤挫跌。伊朗戰事停火期限的延期對全球經濟有著重要影響，市場對此感到擔憂。川普的言論讓各界對於結束中東戰爭的期望破滅，市場預期戰事可能會持續下去。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -271,78 +319,6 @@
         "summary_zh": "澳洲女星瑞貝爾·威爾遜（Rebel Wilson）被指控誹謗另一女星，指控源於兩人在Bondi的浴室事件。法院聽證會上，瑞貝爾·威爾遜的律師稱這些指控是『惡意捏造』。事件發生在瑞貝爾·威爾遜主演的電影《The Deb》中。瑞貝爾·威爾遜的律師強調，指控是毫無根據的，並且是為了損害瑞貝爾·威爾遜的名譽。法院將會進一步審理這起案件。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "92714639",
-        "title": "Colossal 生物科學公司宣稱成功克隆紅狼　真實性存疑",
-        "url": "https://www.technologyreview.com/2026/04/20/1135222/red-wolves-colossal-biosciences-clones/",
-        "source": "MIT Tech Review",
-        "category": "global",
-        "published_at": "Mon, 20 Apr 2026 10:00:00 +0000",
-        "summary_zh": "近日，Colossal 生物科學公司宣稱成功克隆紅狼，但這項聲明引起了外界的質疑。根據公司的說法，這項成就是通過基因編輯技術實現的。然而，公司並未提供足夠的證據來支持這項宣稱。紅狼是一種瀕臨絕種的物種，曾經在美國東南部的森林中生存。近年來，紅狼的數量已經大幅下降，目前僅剩下約60隻。Colossal 生物科學公司的這項宣稱引起了科學界和環境保護組織的關注。許多人質疑公司的宣稱是否為真，並呼籲公司提供更多的證據來證實這項成就。紅狼的保護是環境保護的重要一環，任何對這種物種的干擾都可能對生態系統造成重大影響。因此，Colossal 生物科學公司的宣稱引起了廣泛的關注和討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ed11d92a",
-        "title": "美國與伊朗停火期限逼近  國際油價大幅上漲",
-        "url": "https://www.cna.com.tw/news/afe/202604210008.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 05:28:30 +0800",
-        "summary_zh": "美國總統川普近日表示，他不太可能延長與伊朗的兩週停火期，伊朗海峽封鎖風險使國際油價今日大幅上漲逾5%。川普的話語引發市場關注，伊朗海峽封鎖可能對全球油價造成重大影響。伊朗海峽是全球重要的油氣運輸通道，封鎖將使油價大幅上漲。市場分析師預測，油價可能繼續上漲，直到停火期限結束為止。美國與伊朗的停火期限將於本週結束，市場關注兩國是否能夠達成新的協議，避免油價大幅上漲。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4c3b1500",
-        "title": "市場擔憂伊朗戰事停火能否延期 歐股收盤挫跌",
-        "url": "https://www.cna.com.tw/news/afe/202604210002.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 01:06:13 +0800",
-        "summary_zh": "伊朗戰事停火期限即將到來，美國總統川普表示若無法達成協議，將不太可能延長停火期。這項消息讓市場擔心戰事可能重新爆發，導致歐洲股市今天收盤挫跌。伊朗戰事停火期限的延期對全球經濟有著重要影響，市場對此感到擔憂。川普的言論讓各界對於結束中東戰爭的期望破滅，市場預期戰事可能會持續下去。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3f18cca8",
-        "title": "川普關稅退款開始，但消費者可能錯過",
-        "url": "https://www.bbc.com/news/articles/c7vqgge5g8lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 20 Apr 2026 18:25:17 GMT",
-        "summary_zh": "美國前總統川普推出關稅政策引發全球市場波動。為了回應批評，美國政府開始退還關稅費用。根據預估，退款總額將達到 1600 億美元。然而，消費者可能會錯過這個退款機會，因為企業需要通過網站提交退款申請。這意味著消費者可能需要等待企業申請並獲得退款後才能收到退款。這個退款政策可能會對企業和消費者造成影響，需要密切關注發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "11bd3eb7",
-        "title": "賓夕法尼亞州房屋爆炸，母親和六名兒童遇難",
-        "url": "https://www.bbc.com/news/articles/cwydme344rjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 20 Apr 2026 14:49:15 GMT",
-        "summary_zh": "一場房屋爆炸在賓夕法尼亞州引起了巨大的悲痛。當地消防隊員在搶救過程中發現，母親和六名兒童被困在房屋內，年齡從三歲到十一歲不等。這起悲劇的原因尚未明朗，但當地警方已經展開調查。這種意外事故對當地社區造成了沉重的打擊，許多人都在為遇難者默哀。這起事件也引起了對房屋安全和預防措施的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9e0285b6",
-        "title": "伊朗女性在美國被捕，涉嫌販賣武器給蘇丹",
-        "url": "https://www.bbc.com/news/articles/ce9m7m1nmdeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 20 Apr 2026 13:32:58 GMT",
-        "summary_zh": "伊朗女性 Shamim Mafi 在美國被捕，據稱她代表伊朗販賣武器給蘇丹國防部。這起事件的背景是伊朗與蘇丹的關係緊張，伊朗一直被指控在該地區進行軍事干預。 Shamim Mafi 的被捕是美國對伊朗武器販賣活動的最新反應。美國政府認為這項活動違反了美國對伊朗的制裁措施。 Shamim Mafi 的被捕將對伊朗與蘇丹的關係產生影響，可能會加劇兩國之間的緊張局勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -408,16 +384,28 @@
         "ai_classified": true
       },
       {
-        "id": "0769d308",
-        "title": "挑戰輝達！Google放眼新晶片 加速AI運算",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5410397",
-        "source": "自由時報財經",
+        "id": "4db24749",
+        "title": "下載：殺人『鏡像』細菌，中國工人與人工智慧雙胞胎的鬥爭",
+        "url": "https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/",
+        "source": "MIT Tech Review",
         "category": "ai",
-        "published_at": "Tue, 21 Apr 2026 11:02:23 +0800",
-        "summary_zh": "Google的AI晶片近期成為科技業最炙手可熱的產品之一，包括Google一些最大競爭者在內的領先AI開發商都在大量囤積這些晶片。根據報導，Google正計劃乘勝追趕，推出新一代的AI晶片，旨在加速AI運算。這一舉動被視為挑戰輝達科技的領導地位。輝達科技長期以來是AI晶片的領導者，但Google的新動作可能會給輝達帶來新的競爭壓力。這一發展可能會對AI產業的未來走向產生重大影響。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "published_at": "Mon, 20 Apr 2026 12:10:00 +0000",
+        "summary_zh": "近日，一份研究提議，人工合成的鏡像生命可能會對我們構成威脅。2019 年 2 月，一群科學家建議國家科學基金會應該投資研究人工合成的鏡像生命。這項研究的目標是創造出能夠反映真實世界的鏡像生命，從而幫助我們更好地了解真實世界。然而，這項研究也引發了對人工合成生命的倫理問題。另一方面，中國的工人正在與人工智慧雙胞胎競爭工作。人工智慧雙胞胎的出現使得工人感到恐懼和不確定。這項研究和實踐的出現使得我們不得不思考人工智慧的倫理問題和對社會的影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "63c04699",
+        "title": "中國科技工作者開始訓練 AI 雙胞 ——並推動反抗",
+        "url": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Mon, 20 Apr 2026 09:00:00 +0000",
+        "summary_zh": "近期，中國科技工作者被老闆要求訓練 AI 代理人來取代自己，引發了早期採用者對這一現象的反思。有個名為 Colleague Skill 的 GitHub 項目宣稱，工作者可以使用它來「提煉」同事的技能和個性特徵，並將其與 AI 代理人合併。這項技術被描述為一種「人工智慧雙胞胎」，可以模擬人類的行為和思維。然而，這項技術引發了工作者對未來工作環境的擔憂。一些工作者認為，這項技術可能會取代他們的工作，甚至會對社會產生負面影響。另一方面，有些工作者則認為，這項技術可以幫助他們提高效率和創造力。這項爭議引發了工作者對 AI 的反思，並促使他們思考未來工作環境和人工智慧的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "5802b3fb",
@@ -444,150 +432,66 @@
         "ai_classified": true
       },
       {
-        "id": "4db24749",
-        "title": "下載：殺人『鏡像』細菌，中國工人與人工智慧雙胞胎的鬥爭",
-        "url": "https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/",
-        "source": "MIT Tech Review",
+        "id": "0769d308",
+        "title": "挑戰輝達！Google放眼新晶片 加速AI運算",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5410397",
+        "source": "自由時報財經",
         "category": "ai",
-        "published_at": "Mon, 20 Apr 2026 12:10:00 +0000",
-        "summary_zh": "近日，一份研究提議，人工合成的鏡像生命可能會對我們構成威脅。2019 年 2 月，一群科學家建議國家科學基金會應該投資研究人工合成的鏡像生命。這項研究的目標是創造出能夠反映真實世界的鏡像生命，從而幫助我們更好地了解真實世界。然而，這項研究也引發了對人工合成生命的倫理問題。另一方面，中國的工人正在與人工智慧雙胞胎競爭工作。人工智慧雙胞胎的出現使得工人感到恐懼和不確定。這項研究和實踐的出現使得我們不得不思考人工智慧的倫理問題和對社會的影響。",
-        "sentiment": "中性",
+        "published_at": "Tue, 21 Apr 2026 11:02:23 +0800",
+        "summary_zh": "Google的AI晶片近期成為科技業最炙手可熱的產品之一，包括Google一些最大競爭者在內的領先AI開發商都在大量囤積這些晶片。根據報導，Google正計劃乘勝追趕，推出新一代的AI晶片，旨在加速AI運算。這一舉動被視為挑戰輝達科技的領導地位。輝達科技長期以來是AI晶片的領導者，但Google的新動作可能會給輝達帶來新的競爭壓力。這一發展可能會對AI產業的未來走向產生重大影響。",
+        "sentiment": "正面",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "63c04699",
-        "title": "中國科技工作者開始訓練 AI 雙胞 ——並推動反抗",
-        "url": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Mon, 20 Apr 2026 09:00:00 +0000",
-        "summary_zh": "近期，中國科技工作者被老闆要求訓練 AI 代理人來取代自己，引發了早期採用者對這一現象的反思。有個名為 Colleague Skill 的 GitHub 項目宣稱，工作者可以使用它來「提煉」同事的技能和個性特徵，並將其與 AI 代理人合併。這項技術被描述為一種「人工智慧雙胞胎」，可以模擬人類的行為和思維。然而，這項技術引發了工作者對未來工作環境的擔憂。一些工作者認為，這項技術可能會取代他們的工作，甚至會對社會產生負面影響。另一方面，有些工作者則認為，這項技術可以幫助他們提高效率和創造力。這項爭議引發了工作者對 AI 的反思，並促使他們思考未來工作環境和人工智慧的發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ],
     "stock_tw": [
       {
-        "id": "fbb03f36",
-        "title": "退休爸791萬養老金一夜消失 兒查存摺被「真相」震撼了",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5410530",
-        "source": "自由時報財經",
+        "id": "82b791ef",
+        "title": "國發會投入逾億元修復中興會堂 「小白宮」再現風華",
+        "url": "https://www.cna.com.tw/news/afe/202604210098.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 21 Apr 2026 11:32:54 +0800",
-        "summary_zh": "一名81歲的日本老翁在去世前告訴兒子自己有約4000萬日圓（約新台幣791萬元）的養老金和20萬日圓的退休金。但在他去世後，兒子查閱存摺卻發現養老金只剩下幾萬日圓，引起了兒子的震驚。兒子懷疑父親的養老金可能被人盜用或是被父親自己花費了。這個事件引起了兒子的疑惑和不確定感，讓他難以接受父親的去世。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "27a240f0",
-        "title": "荷姆茲海峽航運活動大幅減少，僅剩3艘船隻通過",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5410547",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 21 Apr 2026 11:30:50 +0800",
-        "summary_zh": "荷姆茲海峽近日出現局勢升溫，週末多數船隻避開該海峽。週一，伊朗向船隻發射疑似警告性射擊，美國軍方則扣押了1艘伊朗貨船。船舶追蹤數據顯示，在12小時內，僅有3艘船隻經荷姆茲海峽。這表明航運活動大幅減少，與過去的130艘船隻每日通過的數字相比，減少了約97%。荷姆茲海峽是世界上最繁忙的海峽之一，海上交通的減少將對全球貿易和經濟產生重大影響。伊朗和美國的軍事行動可能會進一步升級，進而影響海峽的安全和航運活動。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "da3fb505",
-        "title": "焦點股》合晶：環球晶攻破6百元 跟進奔漲停",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5410624",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 21 Apr 2026 11:13:46 +0800",
-        "summary_zh": "近日，市場需求回溫，矽晶圓產能利用率也回升，矽晶圓廠環球晶（6488）股價站上6百元以上，創波段新高。合晶（6182）則因環球晶的表現而飆漲停，達43.25元。這些股價的上漲主要是由於市場對矽晶圓產能的需求回升所致。矽晶圓是半導體製造的重要原料，需求回升將對相關企業帶來利益。然而，這也使得市場對相關企業的投資風險增加。投資者需要謹慎評估風險並做出明智的投資決策。",
+        "published_at": "Tue, 21 Apr 2026 12:06:48 +0800",
+        "summary_zh": "為活化中興新村並落實文化資產保存，國發會推動中興會堂修復計畫，耗時6年多、投入新台幣1億餘元。中興會堂以其獨特的建築風格，得名「小白宮」。修復工程不僅強化建物耐震韌性，也結合夜間建築照明設計，使其嶄新姿態華麗轉身。這項修復計畫不僅保留了中興會堂的歷史價值，也為該區域帶來新的文化活力。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "456f60fe",
-        "title": "台積電大贏家！外媒點名最看好科技股 曝「這些巨頭」都要靠它",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5410479",
-        "source": "自由時報財經",
+        "id": "5e5687b6",
+        "title": "新台幣午盤升4.3分 暫收31.488元",
+        "url": "https://www.cna.com.tw/news/afe/202604210096.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 21 Apr 2026 11:11:00 +0800",
-        "summary_zh": "外媒指出，輝達和博通兩家公司都處於人工智慧（AI）半導體革命的前線，預計在未來幾年AI晶片的銷售將大幅成長。但是，如果沒有台積電的支持，它們在人工智慧晶片市場的競爭力將會大大降低。台積電的晶片技術和製造能力使得它成為這些公司的關鍵合作夥伴，外媒認為台積電是這些巨頭的關鍵支柱。這意味著台積電的股價將會受到這些公司的銷售成長的影響，外媒預測台積電的股價將會大幅上漲。",
+        "published_at": "Tue, 21 Apr 2026 12:05:44 +0800",
+        "summary_zh": "台北外匯市場新台幣兌美元今天中午暫收31.488元，升4.3分。這是因為市場對台幣的評估出現了改善，投資者開始買入新台幣。這項升值對於出口業者來說是好消息，因為他們可以以較高的匯率出售產品。然而，這也可能對於進口業者造成負面影響。市場分析師預測，新台幣將繼續升值，但升值幅度將受到多種因素的影響，包括經濟成長率、通膨率和外匯政策等。",
         "sentiment": "正面",
         "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false
       },
       {
-        "id": "3c6f565f",
-        "title": "川普威脅升級 韓股漲逾2%創新高 日股逼近史高",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5410408",
-        "source": "自由時報財經",
+        "id": "b3144944",
+        "title": "證交所：台股千股改1股研議中 優化零股交易先行",
+        "url": "https://www.cna.com.tw/news/afe/202604210062.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 21 Apr 2026 10:56:08 +0800",
-        "summary_zh": "近日伊朗和平談判的希望抵銷了川普升級衝突的威脅，週二亞股開高，韓股在三星、SK海力士等重量級科技股大漲逾2%帶動，指數開高走高，來到6361.17點，創新天價，漲逾2%。日股亦受益於亞股的強勁表現，近800點的漲幅逼近歷史高點。這種局勢下，投資者對亞洲市場的預期變得更加樂觀，市場預期將持續上揚。然而，投資者也應該注意到，市場的波動性仍然很高，任何意外事件都可能導致市場的突然波動。",
+        "published_at": "Tue, 21 Apr 2026 11:11:32 +0800",
+        "summary_zh": "台股交易單位從1000股改為1股的議題，近期引起了許多關注。立委先前提議這項變更，目的是讓台灣股票市場接近國際標準。根據台灣證券交易所的最新消息，相關制度調整將會進行，但會先優化零股交易的流程。這項變更將會對台股市場產生重大影響，投資者需要密切關注相關發展。",
         "sentiment": "中性",
         "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false
       },
       {
-        "id": "c9c5eef2",
-        "title": "焦點股》技嘉：Computex激勵老AI 帶量創波高",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5410593",
-        "source": "自由時報財經",
+        "id": "700e59f0",
+        "title": "股王信驊創下天價15680元 台股大漲逾700點再創新高",
+        "url": "https://www.cna.com.tw/news/afe/202604210055.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 21 Apr 2026 10:52:04 +0800",
-        "summary_zh": "台北國際電腦展（Computex）今年預計於6月2日至5日盛大展開，展會的登場將會對相關產業產生重大影響。技嘉科技（技嘉）等「老AI」股價全面上漲，原廠委託設計製造商的委託量增加，預計將帶動產業整體的成長。這一波高潮的出現，讓投資人對這一領域的前景感到樂觀。然而，市場的反應也會受到多種因素的影響，例如產業的競爭格局、全球經濟的變化等等。投資人需要謹慎評估風險和機會，才能在這一波高潮中取得成功。",
+        "published_at": "Tue, 21 Apr 2026 10:59:17 +0800",
+        "summary_zh": "台股今天早盤大幅上漲，股王信驊一度大漲近9%，創下歷史新天價15680元，成為台股多頭指標。台股盤中指數再創歷史新高達37757.68點，至10時30分，集中市場指數上漲710.13點，報37668.93點，成交值約新台幣5802億元。這一波大漲顯示市場對台股的信心正在增強，股民們也開始重新關注台股的投資機會。然而，市場的波動性仍然很高，投資者需要保持謹慎的態度。",
         "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "dde634c5",
-        "title": "焦點股》廣達：市場期待林百里談話 帶量大漲",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5410585",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 21 Apr 2026 10:46:04 +0800",
-        "summary_zh": "廣達預計本週六在桃園龜山總部舉辦家庭日活動，董事長林百里將致詞。市場期待公司可望釋出展望，影響股價。台北國際電腦展即將登場，廣達可能會釋出展望。市場對公司的期待，可能會帶動股價大漲。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1707a3b7",
-        "title": "美對等關稅退款20日開放申請 玩具商親授不卡關技巧",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5410399",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 21 Apr 2026 10:40:56 +0800",
-        "summary_zh": "美國政府啟動對等關稅退款機制，線上申請系統於20日正式上線，估計退款總額高達1660億美元。玩具商表示，對等關稅退款機制的開放，將為美國企業帶來新的商機。為了幫助企業順暢申請退款，玩具商分享了不卡關的技巧，包括仔細檢查申請材料、確保資料準確、及時提交申請等。這項措施旨在幫助美國企業因為對等關稅而遭受的損失。對等關稅退款機制的開放，將對美國企業的出口業務產生重大影響。美國企業需要積極申請退款，以便能夠盡快收到退款，繼續發展業務。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "74f2ccf9",
-        "title": "卓榮泰：2025年經濟成長率8.68％ 寫下近15年來新⾼",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5410560",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 21 Apr 2026 10:40:03 +0800",
-        "summary_zh": "立法院15日朝野協商達成共識，今年度中央政府總預算將於21日由行政院長卓榮泰報告。卓榮泰表示，2025年經濟成長率預估達8.68%，寫下近15年來新高。這是由於政府積極推動經濟政策，包括投資在產業發展、基礎建設等領域。然而，國際局勢的不穩定和快速變化仍是重大挑戰。中東戰事爆發、俄烏戰爭等事件對全球經濟產生了重大影響。政府將繼續密切關注國際局勢，並採取適當措施應對挑戰。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e22038aa",
-        "title": "焦點股》聯發科：大牛也會翻身！ 強鎖漲停創天價",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5410571",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 21 Apr 2026 10:38:55 +0800",
-        "summary_zh": "聯發科（2454）在AI ASIC領域的成長動能被外資看好，強勁的需求使得聯發科股價大幅上漲，甚至強鎖漲停創天價。聯發科是Google AI ASIC供應商之一，外資對其在AI ASIC領域的成長前景感到樂觀。這使得聯發科股價受到市場的追捧，股價大幅上漲。市場分析師認為，聯發科的成長動能優於預期，股價的上漲是合理的。然而，市場也存在一定的風險，投資者需要謹慎評估風險並做出投資決策。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "38cc0eb6",
@@ -686,13 +590,85 @@
         "ai_classified": true
       },
       {
-        "id": "8172aa56",
-        "title": "威力彩頭獎連14槓 下期獎金上看3億元",
-        "url": "https://www.cna.com.tw/news/ahel/202604200303.aspx",
-        "source": "中央社財經",
+        "id": "fbb03f36",
+        "title": "退休爸791萬養老金一夜消失 兒查存摺被「真相」震撼了",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5410530",
+        "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Mon, 20 Apr 2026 22:05:41 +0800",
-        "summary_zh": "威力彩第115032期今晚開獎，第一區中獎號碼為13、34、07、37、35、19，第二區中獎號碼為08號。派彩結果顯示，頭獎槓龜，連14槓。這意味著下期的獎金將會上看3億元。威力彩的連槓紀錄再次刷新，讓玩家們感到驚訝和期待。",
+        "published_at": "Tue, 21 Apr 2026 11:32:54 +0800",
+        "summary_zh": "一名81歲的日本老翁在去世前告訴兒子自己有約4000萬日圓（約新台幣791萬元）的養老金和20萬日圓的退休金。但在他去世後，兒子查閱存摺卻發現養老金只剩下幾萬日圓，引起了兒子的震驚。兒子懷疑父親的養老金可能被人盜用或是被父親自己花費了。這個事件引起了兒子的疑惑和不確定感，讓他難以接受父親的去世。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "27a240f0",
+        "title": "荷姆茲海峽航運活動大幅減少，僅剩3艘船隻通過",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5410547",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Apr 2026 11:30:50 +0800",
+        "summary_zh": "荷姆茲海峽近日出現局勢升溫，週末多數船隻避開該海峽。週一，伊朗向船隻發射疑似警告性射擊，美國軍方則扣押了1艘伊朗貨船。船舶追蹤數據顯示，在12小時內，僅有3艘船隻經荷姆茲海峽。這表明航運活動大幅減少，與過去的130艘船隻每日通過的數字相比，減少了約97%。荷姆茲海峽是世界上最繁忙的海峽之一，海上交通的減少將對全球貿易和經濟產生重大影響。伊朗和美國的軍事行動可能會進一步升級，進而影響海峽的安全和航運活動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "da3fb505",
+        "title": "焦點股》合晶：環球晶攻破6百元 跟進奔漲停",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5410624",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Apr 2026 11:13:46 +0800",
+        "summary_zh": "近日，市場需求回溫，矽晶圓產能利用率也回升，矽晶圓廠環球晶（6488）股價站上6百元以上，創波段新高。合晶（6182）則因環球晶的表現而飆漲停，達43.25元。這些股價的上漲主要是由於市場對矽晶圓產能的需求回升所致。矽晶圓是半導體製造的重要原料，需求回升將對相關企業帶來利益。然而，這也使得市場對相關企業的投資風險增加。投資者需要謹慎評估風險並做出明智的投資決策。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "456f60fe",
+        "title": "台積電大贏家！外媒點名最看好科技股 曝「這些巨頭」都要靠它",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5410479",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Apr 2026 11:11:00 +0800",
+        "summary_zh": "外媒指出，輝達和博通兩家公司都處於人工智慧（AI）半導體革命的前線，預計在未來幾年AI晶片的銷售將大幅成長。但是，如果沒有台積電的支持，它們在人工智慧晶片市場的競爭力將會大大降低。台積電的晶片技術和製造能力使得它成為這些公司的關鍵合作夥伴，外媒認為台積電是這些巨頭的關鍵支柱。這意味著台積電的股價將會受到這些公司的銷售成長的影響，外媒預測台積電的股價將會大幅上漲。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3c6f565f",
+        "title": "川普威脅升級 韓股漲逾2%創新高 日股逼近史高",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5410408",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Apr 2026 10:56:08 +0800",
+        "summary_zh": "近日伊朗和平談判的希望抵銷了川普升級衝突的威脅，週二亞股開高，韓股在三星、SK海力士等重量級科技股大漲逾2%帶動，指數開高走高，來到6361.17點，創新天價，漲逾2%。日股亦受益於亞股的強勁表現，近800點的漲幅逼近歷史高點。這種局勢下，投資者對亞洲市場的預期變得更加樂觀，市場預期將持續上揚。然而，投資者也應該注意到，市場的波動性仍然很高，任何意外事件都可能導致市場的突然波動。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c9c5eef2",
+        "title": "焦點股》技嘉：Computex激勵老AI 帶量創波高",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5410593",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Apr 2026 10:52:04 +0800",
+        "summary_zh": "台北國際電腦展（Computex）今年預計於6月2日至5日盛大展開，展會的登場將會對相關產業產生重大影響。技嘉科技（技嘉）等「老AI」股價全面上漲，原廠委託設計製造商的委託量增加，預計將帶動產業整體的成長。這一波高潮的出現，讓投資人對這一領域的前景感到樂觀。然而，市場的反應也會受到多種因素的影響，例如產業的競爭格局、全球經濟的變化等等。投資人需要謹慎評估風險和機會，才能在這一波高潮中取得成功。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "dde634c5",
+        "title": "焦點股》廣達：市場期待林百里談話 帶量大漲",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5410585",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Apr 2026 10:46:04 +0800",
+        "summary_zh": "廣達預計本週六在桃園龜山總部舉辦家庭日活動，董事長林百里將致詞。市場期待公司可望釋出展望，影響股價。台北國際電腦展即將登場，廣達可能會釋出展望。市場對公司的期待，可能會帶動股價大漲。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
@@ -712,55 +688,115 @@
     ],
     "finance": [
       {
-        "id": "370db926",
-        "title": "午市最大漲跌股：斯坦利黑德克-德克爾、美國航空、道瓊指數、馬威爾科技等",
-        "url": "https://www.cnbc.com/2026/04/20/stocks-making-the-biggest-moves-midday-swk-aal-dow-mrvl.html",
-        "source": "Cnbc",
+        "id": "1b6d358f",
+        "title": "亞馬遜被指涉及價格操縱案，目標是沃爾瑪、家得寶和嚇死貓",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-20/amazon-s-alleged-price-fixing-targets-walmart-home-depot-chewy",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-04-20 15:59:36",
-        "summary_zh": "午市交易中，斯坦利黑德克-德克爾、美國航空、道瓊指數和馬威爾科技等股價出現了最大幅度的波動。這些股價的變化對市場有著重要的影響，投資者需要密切關注。斯坦利黑德克-德克爾的股價出現了明顯的上漲，美國航空的股價則出現了下跌。道瓊指數的波動也對市場產生了影響。馬威爾科技的股價出現了快速的上漲，投資者需要注意這些股價的變化。投資者需要密切關注這些股價的變化，以便做出明智的投資決策。",
-        "sentiment": "中性",
+        "published_at": "2026-04-20 17:00:00",
+        "summary_zh": "據報導，亞馬遜被指涉及價格操縱案，目標是沃爾瑪、家得寶和嚇死貓等競爭對手。這項指控涉及亞馬遜在線零售平台上的行為，可能違反了美國反托拉斯法。分析人士認為，這項指控可能對亞馬遜的競爭地位產生重大影響。沃爾瑪和家得寶等公司可能會因為此事而受到影響，嚇死貓的股價也可能會受到波動。目前尚未有更多資訊可供確認。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
       {
-        "id": "1bbcb754",
-        "title": "美聯儲主席候選人沃許承諾出售外國投資基金",
-        "url": "https://www.reuters.com/legal/government/fed-chief-nominee-warsh-pledges-new-divestment-updated-financial-filing-2026-04-20/",
+        "id": "9d4c4bcb",
+        "title": "Commerzbank反對UniCredit的「敵對」收購方案",
+        "url": "https://www.reuters.com/it/azienda/commerzbank-respinge-approccio-ostile-di-unicredit-2026-04-20/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-04-20 15:56:26",
-        "summary_zh": "美聯儲主席候選人Kevin Warsh承諾，如果確認擔任美國中央銀行主席，將出售一項外國投資基金。根據最新的財務披露文件顯示，沃許承諾出售該投資基金，該基金投資於外國企業。這一決定可能會對沃許的財務狀況產生影響。美聯儲主席的任期通常為四年，沃許的任期將會在2024年到期。這一事件可能會對美聯儲的未來發展產生影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "3d5bf56e",
-        "title": "德國議員反對 UniCredit 收購 Commerzbank，建議合併銀行總部設於法蘭克福",
-        "url": "https://www.reuters.com/business/finance/german-lawmaker-opposed-unicredit-takeover-commerzbank-says-any-combined-bank-2026-04-20/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-20 15:49:29",
-        "summary_zh": "德國一名議員於週一表達反對意見，反對意大利 UniCredit 收購 Commerzbank。然而，如果收購交易仍然發生，該議員建議合併銀行的總部設於法蘭克福。這一建議與德國政府的政策相符，德國政府一直致力於維持法蘭克福的金融中心地位。這一事件可能會對德國銀行業產生重大影響，尤其是在全球經濟不穩定的時期。德國政府的立場是保護本國銀行業的利益，並確保德國金融中心的地位不受影響。這一事件也可能會對意大利銀行業產生影響，意大利政府是否會支持 UniCredit 的收購交易還有待觀察。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "434ed9a6",
-        "title": "QXO CEO 表示收購 TopBuild $17 億美元交易是 '令人激動的'",
-        "url": "https://www.cnbc.com/video/2026/04/20/qxo-ceo-on-plans-to-acquire-topbuild-for-17-billion-the-deal-is-exciting.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-04-20 15:46:57",
-        "summary_zh": "QXO 董事長兼 CEO Brad Jacobs 在節目 'Money Movers' 中討論了公司的新收購計畫、房屋市場等議題。QXO 宣布收購 TopBuild $17 億美元，交易將對公司業務產生重大影響。這項收購將使 QXO 擁有更強大的市場競爭力和業務規模。然而，交易的成功也取決於多個因素，包括市場反應和政府監管。QXO 的這項收購計畫將對公司未來的發展產生重大影響，投資者應密切關注該公司的進展。",
+        "published_at": "2026-04-20 16:57:56",
+        "summary_zh": "德國銀行Commerzbank最近表示反對意大利銀行UniCredit的收購方案。根據了解，UniCredit試圖以每股6.1歐元的價格收購Commerzbank，但Commerzbank的管理層認為這個價格太低。Commerzbank的管理層表示，這個收購方案是「敵對」的，並且沒有考慮到Commerzbank的實際價值。這個消息可能會對歐洲銀行業的整體形勢產生影響，尤其是在面對金融市場的不確定性時。目前，Commerzbank的股價已經上升了近10%，表明投資者對這個消息的反應是積極的。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
+      },
+      {
+        "id": "09ec2311",
+        "title": "全球戰略石油儲備年底達2.5億桶，美國能源情報局公布",
+        "url": "https://www.reuters.com/business/energy/global-strategic-oil-inventory-totaled-25-billion-barrels-end-2025-eia-says-2026-04-20/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-20 16:53:43",
+        "summary_zh": "根據美國能源情報局（EIA）最新公布，全球戰略石油儲備於去年年底達到2.5億桶。這個數字表明全球石油儲備的穩定性和可靠性得到改善。這項數據對於全球石油市場的監控和預測具有重要意義，尤其是在油價波動和供應鏈的不確定性面前。然而，這也意味著石油儲備的管理和維護將面臨新的挑戰和壓力。未來將關注全球石油儲備的變化和管理策略的調整。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "962fe59d",
+        "title": "默茲斥責「敵對」戰術：商業銀行拒絕併購提議",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-20/merz-slams-hostile-tactics-as-commerzbank-rejects-takeover-bid",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-20 16:51:11",
+        "summary_zh": "德國銀行家默茲（Ulrich Merz）斥責商業銀行（Commerzbank）的董事會採取「敵對」戰術，拒絕了他對該銀行的併購提議。默茲表示，這是商業銀行董事會對他的提議「完全不尊重」的表現。商業銀行董事會表示，默茲的提議不符合銀行的最佳利益。默茲的公司，私人投資公司Merz Holding，曾提出以每股22歐元的價格併購商業銀行。然而，董事會認為這個價格太低，對銀行的未來發展不利。默茲的行動被視為對德國銀行業的一個挑戰，可能會對銀行業的整體格局產生影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1964407d",
+        "title": "美國電信公司計劃利用金融科技發展墨西哥預付市場",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-20/us-telecom-aims-to-use-fintech-to-build-mexican-prepaid-market",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-20 16:51:08",
+        "summary_zh": "美國一家電信公司正在嘗試利用金融科技（Fintech）來發展墨西哥的預付市場。這家公司認為，墨西哥的預付市場仍然有很大的發展空間，尤其是在金融服務方面。公司計劃利用Fintech來提供更便捷、更安全的金融服務，讓更多墨西哥民眾能夠享受到預付卡的便利。這項計劃的目標是要在墨西哥建立一個完整的金融生態系統，讓預付卡不僅僅是一種支付工具，也是一種金融工具。公司還計劃與墨西哥的金融機構合作，提供更多的金融服務，例如貸款和儲蓄等。這項計劃的成功將對墨西哥的金融業帶來重大影響，同時也將推動墨西哥的經濟發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c19c6509",
+        "title": "報告：牛市正在縮小高層管理職位的搜索範圍",
+        "url": "https://www.reuters.com/sports/report-bulls-narrowing-search-top-executive-role--flm-2026-04-20/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-20 16:49:32",
+        "summary_zh": "牛市公司正在尋找一位頂級高層管理人員。根據最近的報告，公司正在縮小搜索範圍，尋找合適的人選。這項任命對公司未來的發展將具有重要影響。然而，公司尚未披露任何具體的資訊，包括候選人的身份或任命的時間表。這項任命的結果將對公司的股價和市場形勢產生重大影響。投資者正在密切關注這項任命的進展，希望能夠了解公司未來的發展方向。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7f4cfb70",
+        "title": "費瑞蒂股東提交競爭性董事會名單 預計5月14日決選",
+        "url": "https://www.reuters.com/world/china/ferretti-shareholders-file-rival-board-slates-ahead-may-14-showdown-2026-04-20/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-20 16:48:49",
+        "summary_zh": "意大利時尚品牌費瑞蒂的股東們正為即將於5月14日舉行的董事會選舉展開激烈競爭。費瑞蒂的股東們提交了兩個競爭性的董事會名單，展現出對公司未來方向的不同意見。這次選舉將決定費瑞蒂的未來發展方向，包括公司的戰略和管理層。費瑞蒂的股東們正為公司未來的前景感到擔憂，希望能夠選出能夠帶領公司走向成功的董事會。這次選舉將是費瑞蒂股東們的一場大戰，將決定公司未來的命運。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "426555d5",
+        "title": "川普社交媒體文章改變石油交易市場，塞德爾堡基金的商品首席指導員表示交易員難以適應由總統頻繁發布的訊息引起的波動",
+        "url": "https://www.ft.com/content/23b14d1b-8efa-4346-ab06-30db101e7748",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-04-20 16:31:42",
+        "summary_zh": "塞德爾堡基金的商品首席指導員表示，川普總統的社交媒體文章已經改變了石油交易市場。川普的社交媒體文章引起了市場的波動，交易員難以適應這種情況。川普的文章會影響石油價格，交易員必須快速調整策略以應對市場的波動。這種情況對交易員的工作造成了挑戰。塞德爾堡基金的首席指導員認為，川普的社交媒體文章是石油交易市場的一個重要因素。川普的文章會影響市場的預期和情緒，從而影響石油價格。這種情況對交易員的工作造成了挑戰，交易員必須快速調整策略以應對市場的波動。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       }
     ],
     "stock_us": [
+      {
+        "id": "6090824a",
+        "title": "Tech 股票被 Trivariate Research 升級：'超強的業績使出表現更為可能'",
+        "url": "https://www.cnbc.com/2026/04/20/tech-stocks-upgraded-by-trivariate-research-outperformance-increasingly-likely.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-20 16:31:31",
+        "summary_zh": "美國科技股市場因為企業業績的強勁表現而被升級。根據 Trivariate Research 的研究報告，該公司的創始人 Adam Parker 將科技股市場的預期從市場平均升級為超越市場平均。這一升級是基於企業業績的強勁表現，表明科技股市場有可能超越市場平均的表現。這一預測對於投資者來說是一個積極的信號，可能會帶來新的投資機會。然而，投資市場的風險始終存在，投資者需要謹慎評估風險和收益。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "a17c6470",
         "title": "美國司法部正在調查美國肉類加工公司",
@@ -770,8 +806,8 @@
         "published_at": "2026-04-20 15:58:34",
         "summary_zh": "美國司法部的反壟斷司法部門正在調查大型肉類加工公司的行為，根據《華爾街日報》報導，該報導援引熟悉該事項的人士的話。這項調查是針對美國肉類加工業的壟斷行為進行的。美國司法部的調查將對美國肉類加工業產生重大影響，可能會對業界造成重大變革。美國政府正在努力確保競爭公平，防止壟斷行為對消費者造成不利影響。這項調查的結果將對美國肉類加工業的未來發展產生重大影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "b5241ada",
@@ -782,8 +818,8 @@
         "published_at": "2026-04-20 15:32:31",
         "summary_zh": "法國檢察官要求馬斯克出席X探索調查聽證會，但目前無法強迫他出席。馬斯克是全球最富有的男人。雖然出席聽證會是必不可少的，但目前尚不清楚馬斯克是否會配合。這項調查與馬斯克的社交媒體平台X探索有關。馬斯克的出席將對調查結果產生重大影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "8ce53d66",
@@ -794,8 +830,8 @@
         "published_at": "2026-04-20 15:11:00",
         "summary_zh": "人工智慧電力公司Fermi近日宣布其 CEO 辭職，股價大幅下跌。但是，許多分析師認為，這可能是好事。Fermi是由前美國能源部長Rick Perry共同創辦的公司。分析師表示，CEO 辭職可能會讓公司更容易簽下第一個客戶。這是因為 CEO 辭職後，公司可能會更容易與客戶溝通，找到共同點。同時，CEO 辭職也可能會讓公司更容易進行重組和改造，從而提高競爭力。然而，股價下跌可能會對公司的財務狀況產生影響。總的來說，Fermi的未來發展仍存不確定性。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "18449ac8",
@@ -806,8 +842,8 @@
         "published_at": "2026-04-20 15:07:52",
         "summary_zh": "市場分析師Michael Palmer表示，石油價格和伊朗局勢正在影響市場走勢。他在接受Squawk on the Street訪問時，提到伊朗戰爭對市場的影響，以及石油價格的波動。他認為，投資者應該關注這些因素，做出明智的投資決策。Palmer還提到，市場的動態正在快速變化，投資者需要保持警覺和靈活。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "99b3edb8",
@@ -818,8 +854,8 @@
         "published_at": "2026-04-20 15:00:08",
         "summary_zh": "華盛頓美銀的研究部門最近對一家生物科技公司進行評估，升級該公司的評級至 overweight，從之前的 equal weight。這一升級表明華盛頓美銀對該公司未來發展有著積極的看法。該公司專注於免疫疾病的治療，華盛頓美銀認為該公司的技術和產品具有競爭力，將在未來的市場中佔據重要地位。這一評級升級對該公司的股價可能會有正面的影響，投資者應該密切關注該公司的發展。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "851ecedc",
@@ -868,29 +904,77 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "817555ed",
-        "title": "美伊緊張升溫 華爾街三大指數開低",
-        "url": "https://www.cna.com.tw/news/afe/202604200301.aspx",
-        "source": "中央社財經",
-        "category": "stock_us",
-        "published_at": "Mon, 20 Apr 2026 21:53:36 +0800",
-        "summary_zh": "美伊緊張升溫對全球金融市場造成影響，華爾街三大指數今天開盤走低。美伊緊張升溫使停火協議面臨威脅，同時也影響投資人的信心。投資人對未來市場趨勢感到擔憂，導致股市走低。華爾街三大指數的下滑可能會對全球經濟產生影響，投資人需要密切關注市場發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "whitehouse": [
       {
+        "id": "c9dbe900",
+        "title": "洛里·查維茲-德雷默卸任美國勞工部長",
+        "url": "https://www.bbc.com/news/articles/c4gxvdjjl7yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Apr 2026 22:36:22 GMT",
+        "summary_zh": "洛里·查維茲-德雷默出任美國勞工部長期間，遭到指控涉及不當行為，導致她卸任。這一事件的背景是在美國勞工部長任內，洛里·查維茲-德雷默面臨著嚴重的爭議。她的任期被認為是由不當行為的指控所籠罩。這一事件對美國勞工部的影響是重大性的，洛里·查維茲-德雷默的卸任將會對美國勞工部的未來發展產生重大影響。目前尚未有明確的跡象表明誰將接替洛里·查維茲-德雷默的職位。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "813764e6",
         "title": "美國歌手D4vd因涉嫌殺人被捕",
         "url": "https://www.bbc.com/news/articles/crr1v4gzkvlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "source": "BBC World",
         "category": "whitehouse",
         "published_at": "Tue, 21 Apr 2026 01:05:41 GMT",
         "summary_zh": "美國歌手D4vd（真名David Anthony Burke）因涉嫌殺害一名失蹤的少女而被捕。根據檢方的說法，這名歌手可能面臨終身監禁的判刑。事件的背景是，D4vd被懷疑與一名失蹤的少女有關，檢方認為他涉嫌殺害了這名少女。這一事件對於歌手D4vd的音樂事業和個人生活都造成了重大影響。檢方的指控可能會對D4vd的未來造成深遠的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "eb904e07",
+        "title": "FBI директор卡許·帕特爾對《大西洋雜誌》提出250億美元訴訟",
+        "url": "https://www.bbc.com/news/articles/c78lggvey55o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Apr 2026 17:04:14 GMT",
+        "summary_zh": "FBI директор卡許·帕特爾對《大西洋雜誌》提出250億美元訴訟，指控該雜誌發表了對他的行為的虛假和有害的指控，包括醉酒和未解釋缺席的指控。這起訴訟是對《大西洋雜誌》之前的一篇文章的回應，該文章指控卡許·帕特爾在任職FBI директор期間有不當行為。卡許·帕特爾堅稱自己是清白的，並表示將會對《大西洋雜誌》的指控進行反擊。這起訴訟可能會對FBI和美國政府的形象造成影響，同時也會對《大西洋雜誌》的聲譽造成影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "dfa1851c",
+        "title": "加拿大首相：與美國的經濟關係是「我們必須糾正的弱點」",
+        "url": "https://www.bbc.com/news/videos/c4g43y5g93yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Apr 2026 14:05:35 GMT",
+        "summary_zh": "加拿大首相馬克·卡尼（Mark Carney）表示，由於華盛頓改變了其貿易政策，加拿大與美國的經濟關係曾經是加拿大的優勢，但現在已經變成了「我們必須糾正的弱點」。這是因為美國的貿易政策變化，對加拿大經濟造成了重大影響。加拿大需要糾正這些弱點，才能在全球經濟中保持競爭力。馬克·卡尼首相強調，加拿大需要投資在教育和技能培訓上，來提高勞動力競爭力。同時，加拿大也需要改善與其他國家的經濟關係，來減少對美國的依賴。這是加拿大政府的一個重要任務，目的是為加拿大經濟帶來長期的成長和穩定。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "afc6f7da",
+        "title": "川普總統任內的內幕交易疑雲",
+        "url": "https://www.bbc.com/news/articles/cge0grppe3po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Apr 2026 13:53:22 GMT",
+        "summary_zh": "BBC 發現美國總統公布重要消息前，市場交易量出現明顯波動。這一發現引發了對川普總統是否涉及內幕交易的懷疑。分析人士認為，這一交易模式可能是由於川普總統的親密顧問或官員透露了未來消息，從而導致市場預期的變化。這一事件可能對川普總統的總統任期產生重大影響。分析人士認為，這一事件可能會對川普總統的信任度造成損害，甚至可能導致他的政治生涯受到影響。川普總統的辦公室否認了這一指控，稱這一交易模式是由於市場的正常波動。然而，BBC 的發現卻引發了對川普總統是否真實地與市場交易有關的懷疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f7fd27d7",
+        "title": "美國釋放影片，顯示海軍部隊扣押伊朗貨輪",
+        "url": "https://www.bbc.com/news/videos/c3w30l6qz49o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Apr 2026 07:29:42 GMT",
+        "summary_zh": "美國總統唐納德·川普宣布，美國海軍部隊已在波斯灣扣押一艘伊朗旗幟的貨輪。川普表示，這是美國海軍封鎖的一部分。這項行動引起了對伊朗的關注，伊朗的貨輪被扣押後，美國海軍部隊將貨物進行檢查。川普的決定可能會對伊朗和美國的關係產生重大影響。美國海軍的行動可能會加劇伊朗和美國之間的緊張關係。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -956,90 +1040,6 @@
         "ai_classified": true
       },
       {
-        "id": "df837180",
-        "title": "勞工部長洛莉·查維茲-德雷默離職",
-        "url": "https://thehill.com/homenews/administration/5840049-labor-secretary-lori-chavez-dememer-exit/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Apr 2026 21:23:46 +0000",
-        "summary_zh": "美國勞工部長洛莉·查維茲-德雷默宣布離開川普政府，轉往私部門工作。白宮週一晚間宣布此消息，之前已有多週傳出她未來在川普政府的發展。她的離職是在國土安全部長克莉絲蒂·諾姆和司法部長潘·邦迪遭到免職後發生。洛莉·查維茲-德雷默的離職將對勞工部的未來造成影響。美國勞工部長的職位將空缺，未來的任命將受到關注。這一系列的離職和免職事件可能會對川普政府的形象造成影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4813766c",
-        "title": "格雷斯利接受手術切除膽結石",
-        "url": "https://thehill.com/homenews/senate/5840027-grassley-undergoes-gallstone-surgery/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Apr 2026 21:19:54 +0000",
-        "summary_zh": "美國共和黨籍參議員格雷斯利（Chuck Grassley）於週一宣布，他接受了手術切除膽結石，並表示將盡快返回國會大廈履行職責。格雷斯利，92歲，透過社交平台X發布消息，表示他在愛荷華州進行了手術。格雷斯利是參議院司法委員會主席，曾經擔任參議員九屆。他在社交平台上表示，將盡快恢復健康，並返回國會大廈繼續工作。這項消息對於格雷斯利的健康狀況引發了關注，但他仍然表明將繼續履行職責。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c9dbe900",
-        "title": "洛里·查維茲-德雷默卸任美國勞工部長",
-        "url": "https://www.bbc.com/news/articles/c4gxvdjjl7yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Apr 2026 22:36:22 GMT",
-        "summary_zh": "洛里·查維茲-德雷默出任美國勞工部長期間，遭到指控涉及不當行為，導致她卸任。這一事件的背景是在美國勞工部長任內，洛里·查維茲-德雷默面臨著嚴重的爭議。她的任期被認為是由不當行為的指控所籠罩。這一事件對美國勞工部的影響是重大性的，洛里·查維茲-德雷默的卸任將會對美國勞工部的未來發展產生重大影響。目前尚未有明確的跡象表明誰將接替洛里·查維茲-德雷默的職位。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "eb904e07",
-        "title": "FBI директор卡許·帕特爾對《大西洋雜誌》提出250億美元訴訟",
-        "url": "https://www.bbc.com/news/articles/c78lggvey55o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Apr 2026 17:04:14 GMT",
-        "summary_zh": "FBI директор卡許·帕特爾對《大西洋雜誌》提出250億美元訴訟，指控該雜誌發表了對他的行為的虛假和有害的指控，包括醉酒和未解釋缺席的指控。這起訴訟是對《大西洋雜誌》之前的一篇文章的回應，該文章指控卡許·帕特爾在任職FBI директор期間有不當行為。卡許·帕特爾堅稱自己是清白的，並表示將會對《大西洋雜誌》的指控進行反擊。這起訴訟可能會對FBI和美國政府的形象造成影響，同時也會對《大西洋雜誌》的聲譽造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dfa1851c",
-        "title": "加拿大首相：與美國的經濟關係是「我們必須糾正的弱點」",
-        "url": "https://www.bbc.com/news/videos/c4g43y5g93yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Apr 2026 14:05:35 GMT",
-        "summary_zh": "加拿大首相馬克·卡尼（Mark Carney）表示，由於華盛頓改變了其貿易政策，加拿大與美國的經濟關係曾經是加拿大的優勢，但現在已經變成了「我們必須糾正的弱點」。這是因為美國的貿易政策變化，對加拿大經濟造成了重大影響。加拿大需要糾正這些弱點，才能在全球經濟中保持競爭力。馬克·卡尼首相強調，加拿大需要投資在教育和技能培訓上，來提高勞動力競爭力。同時，加拿大也需要改善與其他國家的經濟關係，來減少對美國的依賴。這是加拿大政府的一個重要任務，目的是為加拿大經濟帶來長期的成長和穩定。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "afc6f7da",
-        "title": "川普總統任內的內幕交易疑雲",
-        "url": "https://www.bbc.com/news/articles/cge0grppe3po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Apr 2026 13:53:22 GMT",
-        "summary_zh": "BBC 發現美國總統公布重要消息前，市場交易量出現明顯波動。這一發現引發了對川普總統是否涉及內幕交易的懷疑。分析人士認為，這一交易模式可能是由於川普總統的親密顧問或官員透露了未來消息，從而導致市場預期的變化。這一事件可能對川普總統的總統任期產生重大影響。分析人士認為，這一事件可能會對川普總統的信任度造成損害，甚至可能導致他的政治生涯受到影響。川普總統的辦公室否認了這一指控，稱這一交易模式是由於市場的正常波動。然而，BBC 的發現卻引發了對川普總統是否真實地與市場交易有關的懷疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f7fd27d7",
-        "title": "美國釋放影片，顯示海軍部隊扣押伊朗貨輪",
-        "url": "https://www.bbc.com/news/videos/c3w30l6qz49o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Apr 2026 07:29:42 GMT",
-        "summary_zh": "美國總統唐納德·川普宣布，美國海軍部隊已在波斯灣扣押一艘伊朗旗幟的貨輪。川普表示，這是美國海軍封鎖的一部分。這項行動引起了對伊朗的關注，伊朗的貨輪被扣押後，美國海軍部隊將貨物進行檢查。川普的決定可能會對伊朗和美國的關係產生重大影響。美國海軍的行動可能會加劇伊朗和美國之間的緊張關係。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "0061825c",
         "title": "川普政府推出退稅系統，首步向美國百姓還清數十億美元",
         "url": "https://www.theguardian.com/us-news/live/2026/apr/20/trump-tariff-refund-politics-vance-congress-latest-updates",
@@ -1085,6 +1085,30 @@
         "summary_zh": "一名美軍上士表示，他的妻子在去年接受移民檢查時被聯邦移民執法機構（ICE）逮捕。該名上士，名叫何塞·塞拉諾（Jose Serrano），有27年的軍事服役歷史，曾在阿富汗服役。他表示，他的妻子德西·里維拉·奧爾特加（Deisy Rivera Ortega）是一名薩爾瓦多人，2019年獲得法律保護，不得被驅逐回薩爾瓦多。奧爾特加在2016年來到美國，2022年與塞拉諾結婚。塞拉諾表示，這次事件表明，ICE的行動失控，違反了法律保護的原則。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "df837180",
+        "title": "勞工部長洛莉·查維茲-德雷默離職",
+        "url": "https://thehill.com/homenews/administration/5840049-labor-secretary-lori-chavez-dememer-exit/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Apr 2026 21:23:46 +0000",
+        "summary_zh": "美國勞工部長洛莉·查維茲-德雷默宣布離開川普政府，轉往私部門工作。白宮週一晚間宣布此消息，之前已有多週傳出她未來在川普政府的發展。她的離職是在國土安全部長克莉絲蒂·諾姆和司法部長潘·邦迪遭到免職後發生。洛莉·查維茲-德雷默的離職將對勞工部的未來造成影響。美國勞工部長的職位將空缺，未來的任命將受到關注。這一系列的離職和免職事件可能會對川普政府的形象造成影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4813766c",
+        "title": "格雷斯利接受手術切除膽結石",
+        "url": "https://thehill.com/homenews/senate/5840027-grassley-undergoes-gallstone-surgery/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Apr 2026 21:19:54 +0000",
+        "summary_zh": "美國共和黨籍參議員格雷斯利（Chuck Grassley）於週一宣布，他接受了手術切除膽結石，並表示將盡快返回國會大廈履行職責。格雷斯利，92歲，透過社交平台X發布消息，表示他在愛荷華州進行了手術。格雷斯利是參議院司法委員會主席，曾經擔任參議員九屆。他在社交平台上表示，將盡快恢復健康，並返回國會大廈繼續工作。這項消息對於格雷斯利的健康狀況引發了關注，但他仍然表明將繼續履行職責。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       }
     ]
