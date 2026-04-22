@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-22T15:04:17.737206+08:00",
+  "generated_at": "2026-04-22T16:04:02.395271+08:00",
   "risk_signals": [
     "🟢 台股加權 37878.47（正常）",
     "🟢 S&P 500 7064.01（正常）",
-    "🟢 VIX 恐慌指數 19.5（正常）",
+    "🟢 VIX 恐慌指數 19.02（正常）",
     "🟢 MOVE 債市波動 70.78（正常）",
     "🟢 美元指數 98.29（正常）",
-    "🟢 黃金 4784.8（正常）",
+    "🟢 黃金 4778.8（正常）",
     "🟢 美債10Y殖利率 4.29（正常）",
-    "🟢 原油 WTI 88.79（正常）",
-    "🟢 美元/台幣 31.47（正常）"
+    "🟢 原油 WTI 89.2（正常）",
+    "🟢 美元/台幣 31.48（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，各大指數表現平穩，投資人仍然對全球經濟持樂觀態度。",
+  "ai_summary": "市場氛圍偏為穩定，投資人對風險的評估趨於理性。",
   "market": {
     "TWII": {
       "price": 37878.47,
@@ -26,8 +26,8 @@
       "change_pct": -0.59
     },
     "VIX": {
-      "price": 19.5,
-      "change_pct": 3.34
+      "price": 19.02,
+      "change_pct": -2.46
     },
     "TNX": {
       "price": 4.29,
@@ -42,31 +42,55 @@
       "change_pct": -0.12
     },
     "GOLD": {
-      "price": 4784.8,
-      "change_pct": 1.84
+      "price": 4778.8,
+      "change_pct": 1.71
     },
     "OIL": {
-      "price": 88.79,
-      "change_pct": -3.63
+      "price": 89.2,
+      "change_pct": -3.18
     },
     "USDTWD": {
-      "price": 31.47,
-      "change_pct": 0.16
+      "price": 31.48,
+      "change_pct": 0.18
     }
   },
   "macro": {},
   "categories": {
     "whitehouse": [
       {
+        "id": "697f9ddb",
+        "title": "提名送交參議院",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/04/nominations-sent-to-the-senate-633f/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 21 Apr 2026 18:49:23 +0000",
+        "summary_zh": "白宮宣布提名多名人選送交參議院審議。其中包括德克薩斯州的Riley Barnes擔任和平會館局長、南卡羅來納州的Rudolph Bauer擔任美國駐貝里斯大使、弗吉尼亞州的Don Richard Berthiaume擔任司法部檢察長等人選。這些提名將在參議院進行審議。這些提名表明白宮正在積極推動美國的外交和內政事務。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "763b1747",
         "title": "川普買時間：美國總統延後伊朗協議，第二次撤回升級戰爭的威脅",
         "url": "https://www.bbc.com/news/articles/cvg4yr90jr2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "source": "BBC World",
         "category": "whitehouse",
         "published_at": "Wed, 22 Apr 2026 00:32:10 GMT",
         "summary_zh": "美國總統川普在幾天來的緊張外交活動後，決定延後伊朗協議，這是他在短短一周內第二次撤回升級戰爭的威脅。這一決定給了伊朗更多時間，讓雙方能夠繼續進行談判。這一轉變表明川普的態度在變化，從最初的強硬立場逐漸轉變為更為謹慎的姿態。這一發展對於伊朗和美國之間的關係具有重要影響，可能會導致雙方的談判進展。然而，仍然存在著許多不確定性，包括伊朗是否會繼續遵守協議，以及美國是否會繼續維持強硬的立場。",
         "sentiment": "中性",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d534ce12",
+        "title": "特朗普總統在CNBC專訪中就國內關鍵問題發表意見",
+        "url": "https://www.whitehouse.gov/releases/2026/04/president-trump-addresses-key-issues-facing-the-nation-in-exclusive-cnbc-interview/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 21 Apr 2026 15:22:18 +0000",
+        "summary_zh": "美國總統唐納德·川普在CNBC的Squawk Box專訪中，對國內一些最關鍵的問題進行了坦率、廣泛的評論。這些問題包括了美國面臨的各種挑戰。雖然沒有提及具體的內容，但這次專訪被視為川普總統對國內問題的重要評估。這也意味著川普總統將繼續關注並努力解決美國面臨的各種問題。這次專訪對於了解川普總統的政策和意圖具有重要意義。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -85,10 +109,34 @@
         "id": "813764e6",
         "title": "美國歌手D4vd被控謀殺未成年女孩，辯方認罪",
         "url": "https://www.bbc.com/news/articles/crr1v4gzkvlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "source": "BBC World",
         "category": "whitehouse",
         "published_at": "Wed, 22 Apr 2026 02:29:37 GMT",
         "summary_zh": "美國歌手D4vd（本名David Anthony Burke）因謀殺未成年女孩被捕。檢方表示，如果被定罪，歌手將面臨終身監禁。這起案件的具體情況尚未披露，但歌手的律師已表示將不會對罪名認罪。歌手D4vd的音樂事業正受到這起案件的影響，未來的表演和音樂計畫也可能受到波及。這起案件的結果將對歌手D4vd的音樂事業和個人生活產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1c95d6c1",
+        "title": "從埃普斯坦到木偶：Kevin Warsh 的聯邦儲備銀行確認聽證會關鍵點",
+        "url": "https://www.bbc.com/news/articles/c8dl3ez4mpno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 21 Apr 2026 18:59:39 GMT",
+        "summary_zh": "Kevin Warsh 在聯邦儲備銀行確認聽證會上否認與唐納德·川普總統就利率達成交易。他還支持「政策體制變革」在中央銀行。Warsh 是一位資深金融專家，曾在聯邦儲備銀行工作多年。他被提名為聯邦儲備銀行的成員，將在未來的政策制定中發揮重要作用。Warsh 的表態表明，他將致力於推動政策變革，改善中央銀行的運作。他否認與川普總統就利率達成交易，這是他被批評的其中一點。Warsh 的表態也表明，他將致力於維護中央銀行的獨立性。這將對未來的經濟政策產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "99b2d59f",
+        "title": "川普官員考慮將協助美軍的1,100名阿富汗人送往剛果民主共和國",
+        "url": "https://www.theguardian.com/us-news/2026/apr/21/afghan-refugees-us-congo",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 21 Apr 2026 23:26:37 GMT",
+        "summary_zh": "川普政府正在考慮將協助美軍的1,100名阿富汗人送往剛果民主共和國。這項計畫的討論始於川普決定停止一項允許阿富汗人協助美軍戰爭努力並申請在美國定居的倡議後。該倡議曾經允許協助美軍的阿富汗人申請在美國定居，但川普政府決定停止這項計畫。這些阿富汗人曾經在阿富汗戰爭中協助美軍，現在面臨著不確定的未來。美國政府正在與非營利組織合作，為這些阿富汗人尋找新的居住地。這項計畫的具體細節尚未公布，但已經引起了關注。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -166,18 +214,6 @@
         "ai_classified": true
       },
       {
-        "id": "99b2d59f",
-        "title": "川普官員考慮將協助美軍的1,100名阿富汗人送往剛果民主共和國",
-        "url": "https://www.theguardian.com/us-news/2026/apr/21/afghan-refugees-us-congo",
-        "source": "Guardian World",
-        "category": "whitehouse",
-        "published_at": "Tue, 21 Apr 2026 23:26:37 GMT",
-        "summary_zh": "川普政府正在考慮將協助美軍的1,100名阿富汗人送往剛果民主共和國。這項計畫的討論始於川普決定停止一項允許阿富汗人協助美軍戰爭努力並申請在美國定居的倡議後。該倡議曾經允許協助美軍的阿富汗人申請在美國定居，但川普政府決定停止這項計畫。這些阿富汗人曾經在阿富汗戰爭中協助美軍，現在面臨著不確定的未來。美國政府正在與非營利組織合作，為這些阿富汗人尋找新的居住地。這項計畫的具體細節尚未公布，但已經引起了關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "27795955",
         "title": "美國民主黨議員謝拉·切菲路斯-麥考密克辭職遭到道德調查",
         "url": "https://www.theguardian.com/us-news/2026/apr/21/sheila-cherfilus-mccormick-congress-democrat-resignation",
@@ -185,284 +221,6 @@
         "category": "whitehouse",
         "published_at": "Tue, 21 Apr 2026 20:02:34 GMT",
         "summary_zh": "美國民主黨議員謝拉·切菲路斯-麥考密克宣布辭職，理由是她違反了議會的道德規則。根據消息，議會委員會將於週二發表對她的懲罰建議。謝拉·切菲路斯-麥考密克在11月份被聯邦大陪審團指控，涉嫌將超過5000萬美元的聯邦災難基金從她的公司轉移到2021年的國會競選活動中。這項指控是她辭職的主要原因。謝拉·切菲路斯-麥考密克的辭職將對美國國會產生重大影響，特別是在這個關鍵時刻。她的辭職也會對她的黨派和選民產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "697f9ddb",
-        "title": "提名送交參議院",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/04/nominations-sent-to-the-senate-633f/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 21 Apr 2026 18:49:23 +0000",
-        "summary_zh": "白宮宣布提名多名人選送交參議院審議。其中包括德克薩斯州的Riley Barnes擔任和平會館局長、南卡羅來納州的Rudolph Bauer擔任美國駐貝里斯大使、弗吉尼亞州的Don Richard Berthiaume擔任司法部檢察長等人選。這些提名將在參議院進行審議。這些提名表明白宮正在積極推動美國的外交和內政事務。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d534ce12",
-        "title": "特朗普總統在CNBC專訪中就國內關鍵問題發表意見",
-        "url": "https://www.whitehouse.gov/releases/2026/04/president-trump-addresses-key-issues-facing-the-nation-in-exclusive-cnbc-interview/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 21 Apr 2026 15:22:18 +0000",
-        "summary_zh": "美國總統唐納德·川普在CNBC的Squawk Box專訪中，對國內一些最關鍵的問題進行了坦率、廣泛的評論。這些問題包括了美國面臨的各種挑戰。雖然沒有提及具體的內容，但這次專訪被視為川普總統對國內問題的重要評估。這也意味著川普總統將繼續關注並努力解決美國面臨的各種問題。這次專訪對於了解川普總統的政策和意圖具有重要意義。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "04a06232",
-        "title": "洋蔥新聞發起新計畫，將InfoWars改造成諷刺網站",
-        "url": "https://www.bbc.com/news/articles/ckgr7dw55lwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 21 Apr 2026 09:28:46 GMT",
-        "summary_zh": "洋蔥新聞發起了一項新計畫，計畫將InfoWars改造成諷刺網站。這項計畫涉及將Alex Jones的公司授權給洋蔥新聞。InfoWars面臨著破產風險，洋蔥新聞認為這是一個諷刺的機會。這項計畫將如何影響InfoWars和洋蔥新聞的形象，還有未來的發展方向，都是值得關注的問題。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "99a1bab2",
-        "title": "智庫報告：哥倫比亞傭兵為蘇丹RSF提供支援，聯合阿聯酋",
-        "url": "https://www.bbc.com/news/articles/cn4vk13wgwwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 22 Apr 2026 04:01:50 GMT",
-        "summary_zh": "根據紛爭洞察組（Conflict Insights Group, CIG）的研究報告，哥倫比亞傭兵在蘇丹的民兵組織RSF（快速支援部隊）中扮演了重要角色。報告指出，這些哥倫比亞傭兵不僅提供了軍事支援，還幫助RSF在國際上擴展影響力。同時，報告還披露了阿聯酋在此事件中的角色，表明阿聯酋也在背後支持這些哥倫比亞傭兵。這項研究報告對於了解蘇丹內部的政治動態和國際干預有重要的意義。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "665b61b4",
-        "title": "伊朗因與美國和以色列的戰爭而面臨大規模裁員潮",
-        "url": "https://www.bbc.com/news/articles/ce84e31376zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 16:05:51 GMT",
-        "summary_zh": "伊朗因與美國和以色列的戰爭而面臨嚴重的經濟影響。製造業、零售業和數位行業都受到影響，預警指出，如果戰爭再次爆發，情況可能會惡化。伊朗的經濟已經在戰爭的陰影下苦苦挣扎，外部壓力和內部不穩定因素使得局勢更加複雜。伊朗政府正在努力應對這種局面，但前景仍然不明朗。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7fcaffac",
-        "title": "以色列士兵因破壞黎巴嫩耶穌像遭懲罰",
-        "url": "https://www.bbc.com/news/articles/cew790ppn8jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 16:13:27 GMT",
-        "summary_zh": "近日，以色列軍方宣布，兩名士兵因在黎巴嫩破壞耶穌像而遭懲罰。根據軍方的說法，這兩名士兵將被從戰鬥任務中撤換，並接受 30 天的軍事拘留。這一事件引發了黎巴嫩政府的抗議，並對以色列的行動表示不滿。這一事件也凸顯了以色列與黎巴嫩之間的緊張關係。黎巴嫩政府已經要求以色列對這一事件進行道歉，並承諾會採取進一步的行動來保護黎巴嫩的宗教遺產。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "39a481f0",
-        "title": "印尼內部勞工終於獲得法律認可，22年爭取的夢想成真",
-        "url": "https://www.bbc.com/news/articles/c1mkvjkg10no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 22 Apr 2026 02:55:40 GMT",
-        "summary_zh": "印尼是全球最大的內部勞工市場之一，約有4.2萬名勞工，其中近九成是女性。這項法律變革終於讓這些勞工獲得了正名和權益。這項變革對於印尼女性勞工的影響將是深遠的，將為他們帶來更好的工作條件和保護。然而，這項變革也面臨著挑戰，政府和勞工組織需要共同努力來確保這項變革的實施。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a0b4211c",
-        "title": "澤倫斯基批評美國代表團未訪烏克蘭首都京比斯為「不尊重」",
-        "url": "https://www.bbc.com/news/articles/cd9v420y190o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 16:25:44 GMT",
-        "summary_zh": "烏克蘭總統澤倫斯基批評美國代表團未有訪問烏克蘭首都京比斯，認為這是一種「不尊重」。美國代表團曾多次訪問莫斯科，但從未訪問京比斯。這一事件的背景是美國代表團與俄羅斯政府的關係密切，而烏克蘭政府則一直希望美國能夠提供更多的支持。關鍵細節是美國代表團的訪問路線與烏克蘭政府的期望不符。影響分析是這一事件可能會影響美國與烏克蘭的關係，烏克蘭政府可能會感到不滿和失望。後續展望是美國政府是否會改變訪問路線，是否會提供更多的支持給烏克蘭政府。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9829d67a",
-        "title": "歐盟最高法院裁定匈牙利反LGBTQ法令違反歐盟價值觀",
-        "url": "https://www.bbc.com/news/articles/cddqvyr0yjro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 12:28:31 GMT",
-        "summary_zh": "匈牙利政府推動的反LGBTQ法令遭到歐盟最高法院的裁定，認為這些改革違反了歐盟的價值觀，同時也破壞了歐盟條約的基礎價值。這項裁定標誌著歐盟最高法院對匈牙利政府的反LGBTQ政策進行了嚴厲的批評。這項裁定對匈牙利政府的影響可能會很大，可能會迫使政府對這些政策進行重大修正。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7cb310d8",
-        "title": "準備迎接更加炎熱、濕潤、暴雨的夏天",
-        "url": "https://www.technologyreview.com/2026/04/21/1134873/get-ready-for-hotter-muggier-stormier-summers/",
-        "source": "MIT Tech Review",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 21:00:00 +0000",
-        "summary_zh": "近期兩名麻省理工學院科學家發表研究報告，指出美國中西部地區夏季的炎熱、濕潤和暴雨天氣模式正逐漸變得更加常見。研究人員發現，氣候模式中的一個關鍵條件決定了這種地區夏季的氣溫、濕度和暴雨頻率。這種模式的出現，可能與全球暖化和氣候變化有關。研究人員表示，這種模式的變化將對當地的氣候和水資源產生重大影響，居民應該準備迎接更加炎熱、濕潤和暴雨的夏天。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a17d03c7",
-        "title": "薩爾瓦多486名疑似黑幫成員集體受審",
-        "url": "https://www.bbc.com/news/videos/ce9mernj0gko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 17:45:39 GMT",
-        "summary_zh": "薩爾瓦多政府近日對486名疑似黑幫成員進行集體受審。根據檢察總長辦公室發佈的視頻片段，數百名男子被迫在監獄中通過視訊連線參與審判。這次集體受審引起了人權團體的關注，批評政府對黑幫成員的處理方式過於嚴厲。薩爾瓦多政府表示，這次行動是為了打擊黑幫活動並維護社會秩序。然而，人權觀察員指出，這種做法可能會導致更多的冤假錯案和人權侵犯。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dabf0385",
-        "title": "日本放寬武器出口規則 退出戰後和平主義",
-        "url": "https://www.bbc.com/news/articles/clyx4vlqy4vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 10:13:54 GMT",
-        "summary_zh": "日本政府近日宣布放寬武器出口規則，這一決定標誌著日本退出戰後的和平主義。根據新規定，日本可以向超過一打國家出售武器。這一決定引發了國際社會的關注，許多人認為這將對全球安全格局產生重大影響。日本的這一決定被視為是該國軍事力量的增強，同時也可能會加劇亞洲地區的軍事緊張局勢。日本政府表示，這一決定是為了應對日益複雜的國際安全環境而做出的必要措施。然而，這一決定也引發了內部反對聲浪，許多日本人擔心這將會對該國的和平主義傳統造成破壞。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0dcd726e",
-        "title": "墨西哥車禍中遇難的美官員身份引發質疑",
-        "url": "https://www.bbc.com/news/articles/c86expy881qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 17:35:56 GMT",
-        "summary_zh": "墨西哥近日發生了一起車禍，造成兩名美國官員遇難。這兩名官員是在墨西哥執行一項破壞非法毒品工廠的行動後，乘車返回美國時發生車禍遇難。這起事件引發了對美方官員身份和行動的質疑。墨西哥當局正在調查這起事件，試圖確定車禍的原因和美方官員的身份。這起事件可能會對美墨關係產生影響，雙方政府將需要就此事件進行溝通和協調。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d9203ec1",
-        "title": "加拿大人在墨西哥古城神廟遇刺案中喪生",
-        "url": "https://www.bbc.com/news/articles/crm1rg3ydkvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 14:55:19 GMT",
-        "summary_zh": "墨西哥官員表示，星期一在該國著名的古城神廟（Teotihuacán）發生槍擊事件，至少一名加拿大人喪生，多人受傷。墨西哥官員沒有透露更多細節，但已經展開調查。這起事件在墨西哥的古蹟觀光業引起了關注。墨西哥政府已經對此事件表示遺憾，並承諾會加強安全措施以防止類似事件再次發生。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d74655f6",
-        "title": "尼日利亞王子被綁架，疑似勒索金額",
-        "url": "https://www.bbc.com/news/articles/cr71de2dr32o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 10:59:51 GMT",
-        "summary_zh": "尼日利亞王子被綁架事件發生在本週六，綁匪襲擊王子的宮殿並據信將他帶到森林中。這起事件引起了當地政府的關注，當局已經展開調查並逮捕了相關嫌疑人。這種勒索行為在尼日利亞已經不是第一次發生，許多富有的家庭和政客都曾經受到過綁架威脅。尼日利亞政府正試圖通過加強安全措施和與當地民眾合作來防止這種事件的發生。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "27f82513",
-        "title": "台北市長赖清德称中国施压，取消访埃斯瓦蒂尼行程",
-        "url": "https://www.theguardian.com/world/2026/apr/21/taiwan-president-blames-china-cancel-eswatini-revoke-flight",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 18:22:29 GMT",
-        "summary_zh": "台北市長赖清德因為多個國家因為中國施壓而取消了埃斯瓦蒂尼訪問行程。赖清德原定於週三出訪埃斯瓦蒂尼，參加該國國王姆斯瓦蒂三世登基40週年的慶典。然而，多個國家，包括塞舌爾、毛里裘斯和馬達加斯加，已經撤回了飛越許可，台北市長的訪問因此被迫取消。台北市長的辦公室表示，這些國家的決定是由於中國施壓。這是對台北市長訪問埃斯瓦蒂尼的最新發展，該國是台北市長唯一的非洲盟友。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f18b77fa",
-        "title": "美兩名官員在墨西哥毒品突襲事件後喪生　疑似為中央情報局人員",
-        "url": "https://www.theguardian.com/world/2026/apr/21/mexico-drug-raid-cia-agents-embassy-investigation",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 18:11:10 GMT",
-        "summary_zh": "墨西哥政府已經展開調查，懷疑美方在墨西哥境內的毒品打擊行動中違反了墨西哥憲法。根據報導，這兩名美方官員在與墨西哥當地官員共同執行毒品實驗室突襲任務後，於墨西哥查瓦羅州（Chihuahua）附近山區邊境區域發生車禍，車輛失控翻落山谷，兩名官員不幸喪生。墨西哥政府將對這起事件進行調查，並評估美方在該次行動中的角色。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "416c1d8e",
-        "title": "卡尼尼任命廣泛團隊為美國加拿大貿易談判顧問",
-        "url": "https://www.theguardian.com/world/2026/apr/21/mark-carney-advisers-us-canada-economic-trade",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 16:15:39 GMT",
-        "summary_zh": "加拿大總理馬克·卡尼尼宣布成立24名成員的貿易談判顧問委員會，旨在為即將到來的加美貿易談判提供最佳建議和最廣泛的視角。這些委員會成員包括保守黨人士和前省級首席部長，卡尼尼表示，這些人將幫助加拿大在貿易談判中取得優勢。卡尼尼強調，委員會的任務是為加拿大提供最佳建議和最廣泛的視角，以便在貿易談判中取得優勢。這一舉動表明卡尼尼願意跨越政治界限，確保加拿大在貿易談判中處於有利地位。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "376c131c",
-        "title": "我們害怕他們要殺了我們：遭美軍擊沉的漁民倖存者說出真相",
-        "url": "https://www.theguardian.com/global-development/2026/apr/21/ecuador-us-boat-strike-survivors",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 11:00:47 GMT",
-        "summary_zh": "一支來自厄瓜多爾的漁民船隊在太平洋中遭遇美國軍艦的襲擊，船員們描述了那一刻的恐懼。根據當時的總統川普，美國正在與「毒品恐怖主義者」進行戰鬥。漁民們在太平洋中捕魚，當時天色柔和，船員們正在等待最後一艘漁船返回。漁民們描述了那一刻的恐懼，說自己只是在工作，等待最後一艘漁船的返回。這起事件可能與川普政府的「戰鬥毒品恐怖主義者」的政策有關。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6a5ddb85",
-        "title": "美國第一位亞裔州長喬治·阿里約希去世，享壽100歲",
-        "url": "https://www.theguardian.com/us-news/2026/apr/21/george-ariyoshi-former-hawaii-governor-dies",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 11:53:47 GMT",
-        "summary_zh": "美國前夏威夷州長喬治·阿里約希（George R Ariyoshi）於2023年去世，享壽100歲。他於1973年至1986年擔任夏威夷州長，是美國第一位亞裔州長。阿里約希是一位民主黨人，在他任內夏威夷州的民主黨開始崛起。夏威夷州現任州長喬許·格林（Josh Green）在一份聲明中表示，阿里約希在周日晚間與家人在身邊去世。阿里約希的去世對美國政治界和夏威夷州的政治情勢都產生了深遠的影響。他的去世也讓人們回顧他在夏威夷州政治發展中的重要角色。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a757f997",
-        "title": "母親與兒童跳樓逃生　路易斯安那州槍擊案造成8死",
-        "url": "https://www.bbc.com/news/articles/cj0v36vell4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 12:31:09 GMT",
-        "summary_zh": "路易斯安那州發生槍擊案，當局指出案件涉及父親與家庭成員之間的家暴糾紛。父親在槍擊中殺死了包括自己七個孩子在內的八名兒童。母親與兒童為了逃生，跳樓逃離槍擊現場。這起槍擊案造成重大傷亡，當局正進行調查。母親與兒童的命運如何，仍待查明。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "555ec40f",
-        "title": "第四名男子被控誤認身份綁架殺害悉尼外祖父案",
-        "url": "https://www.bbc.com/news/articles/cly7ezv8yp2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 23:55:32 GMT",
-        "summary_zh": "悉尼警方表示，85歲的克里斯·巴格沙里安（Chris Baghsarian）並非當初綁架案的目標。警方調查發現，巴格沙里安被誤認為另一名男子，導致他遭到綁架並被殺害。這起案件引起了社會的關注，警方正在努力追捕嫌疑犯並將其繩之以法。這起案件的發生，讓人們感到震驚和憤怒，社會各界都在呼籲加強安全措施，以防止類似事件再次發生。警方正在全力調查此案，並將盡快將嫌疑犯繩之以法。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e805bc63",
-        "title": "一年過去，印度管治的喀什米爾一處旅遊熱點仍留下血腥的傷痕",
-        "url": "https://www.bbc.com/news/articles/c8ej3wl130yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 21 Apr 2026 21:14:37 GMT",
-        "summary_zh": "一年前，印度管治的喀什米爾發生了一場恐怖攻擊，造成 26 人喪生。這次事件留下深深的傷痕，仍然令當地居民難以承受。受害者家屬仍在試圖面對這個悲痛的現實。這次恐怖攻擊的影響深遠，對當地的旅遊業和社會秩序都造成了重大影響。印度政府仍在努力恢復喀什米爾的和平，同時也致力於幫助受害者家屬重建生活。然而，對於受害者家屬來說，痛苦仍在持續。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -550,8 +308,8 @@
         "published_at": "Tue, 21 Apr 2026 21:00:00 +0000",
         "summary_zh": "麻省理工學院近期出版了兩本書籍。首先是由艾莉莎·B·雷諾茲女士編寫的《Priority Technologies: Ensuring US Security and Shared Prosperity》。這本書由麻省理工學院城市研究與規劃實踐教授艾莉莎·B·雷諾茲女士撰寫，她曾任麻省理工學院未來工作任務組的執行董事。這本書由麻省理工學院出版社出版，定價為24.95美元。另一本書是《The Shape of Wonder: How Scientists Think, Work, and Live》，由艾倫·萊特曼教授撰寫。這本書探討科學家如何思考、工作和生活。這兩本書都是麻省理工學院近期出版的傑作，值得關注。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "72604df3",
@@ -662,7 +420,153 @@
         "ai_classified": true
       }
     ],
+    "finance": [
+      {
+        "id": "8d01af35",
+        "title": "頂級律師事務所承認 AI 虛幻現象",
+        "url": "https://www.ft.com/content/657d86df-5e0d-4d03-bf0c-cb768a58e758",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-04-21 19:01:32",
+        "summary_zh": "美國頂級律師事務所蘇利文與克羅姆韋爾（Sullivan & Cromwell）最近承認，該公司的 AI 軟體在一宗破產案中出現了錯誤。這家律師事務所的合夥人每小時收費超過 2,000 美元。該公司在一份聲明中向法官致歉，承認 AI 軟體導致的錯誤。這是 AI 在法律領域的另一場意外，展現了 AI 在法律應用中的局限性。這一事件也引發了對 AI 在法律領域的使用和監管的關注。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "c624d330",
+        "title": "交易中斷",
+        "url": "https://www.ft.com/content/811ebcd8-6e34-4ef8-b598-3287071218f0",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-04-21 20:00:00",
+        "summary_zh": "在2026年FT商品全球峰會上發表的報告指出，全球商品市場正面臨著嚴重的交易中斷風險。這種風險主要來自於數位化轉型過程中的技術問題、系統升級和人為錯誤等因素。根據報告，近期已經出現了多起交易中斷事件，導致市場流動性受損和投資者損失。分析師認為，這種風險不僅影響商品市場，也會對金融市場和全球經濟產生重大影響。為了降低風險，業界正在探索新的技術和流程來改善交易系統的穩定性和安全性。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ff834f30",
+        "title": "沃什如何為川普提供利率削減、維護美聯儲獨立、讓市場感到滿意？",
+        "url": "https://www.cnbc.com/2026/04/21/how-warsh-can-give-trump-rate-cuts-keep-fed-independent-and-make-the-market-happy.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-04-21 19:44:43",
+        "summary_zh": "美聯儲主席候選人沃什的確認聽證會再次引發激烈辯論。川普總統的任命對美聯儲的未來產生了重大影響。沃什的任命將直接影響美聯儲的政策方向，包括利率的調整和經濟政策的制定。美聯儲的獨立性是其運作的基石，如果美聯儲失去獨立性，市場將對此產生重大影響。市場對美聯儲的政策方向有著密切的關注，沃什的任命將對市場產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "fc5b280c",
+        "title": "Roblox與州政府達成和解：35.8億美元賠償兒童安全問題",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-21/roblox-settles-with-states-for-35-8-million-over-child-safety",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-21 19:39:51",
+        "summary_zh": "Roblox是一家知名的線上遊戲平台，近期與多個州政府達成和解，賠償35.8億美元。這是因為Roblox未能有效保護兒童在線安全，導致多起兒童安全問題的事件。根據調查，Roblox未能有效監控兒童在線行為，未能阻止兒童暴露於不適當的內容。這些問題導致多起兒童安全事件，包括兒童被迫暴露於不適當的內容，甚至導致兒童自殺。Roblox承認了自己的錯誤，並同意改善兒童在線安全措施。這項和解將幫助Roblox改善兒童在線安全，同時也將幫助州政府監控和保護兒童在線安全。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "cb3a1621",
+        "title": "加拿大元回落六周高點，中東不確定性影響加拿大元",
+        "url": "https://www.reuters.com/business/canadian-dollar-pulls-back-six-week-high-mideast-uncertainty-2026-04-21/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-21 19:26:41",
+        "summary_zh": "加拿大元近期曾達到六周新高，但隨著中東局勢不斷惡化，市場對未來的不確定性增加，導致加拿大元回落。加拿大央行的政策也對市場產生影響，市場預期加拿大央行可能會在未來提高利率以應對通膨。中東局勢的不確定性使得市場對石油價格的預期變得更加不確定，從而影響加拿大元的走勢。加拿大元的回落也可能對加拿大出口業有所影響，尤其是石油出口業。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "91691921",
+        "title": "別太相信自己！晚上8點後做的3個財務決定你會後悔",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5412226",
+        "source": "自由時報財經",
+        "category": "finance",
+        "published_at": "Wed, 22 Apr 2026 15:13:48 +0800",
+        "summary_zh": "美國財經網站報導，晚上做重大財務決定可能會後悔。神經外科醫師指出，晚上人的專注力下降、情緒波動加劇，大腦正在整理一天的資訊。財務決策上，這一時段的人們更容易做出不理性的決定。有三個財務決定可能會讓你後悔：一是晚上購買不必要的物品；二是晚上投資股票或基金；三是晚上借貸或欠債。因此，晚上8點後做的財務決定要謹慎。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "555e15bc",
+        "title": "美國American Integrity和Safepoint贊助貓科債券，年年增價下跌25% ",
+        "url": "https://www.reuters.com/default/american-integrity-safepoint-sponsor-cat-bonds-with-yoy-pricing-down-25-2026-04-21/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-21 19:09:36",
+        "summary_zh": "美國的貓科債券市場正在經歷著快速發展。根據最新的數據，American Integrity和Safepoint兩家公司共同贊助了貓科債券，年年增價下跌了25%。這表明市場對這類型的風險投資有著越來越大的信心。貓科債券是一種特殊的債券，主要用於風險管理和資產配置。它們的價格取決於市場的風險評估和投資者的需求。美國的貓科債券市場的發展，將對全球風險投資產生重大影響。這也意味著投資者有更多的選擇和機會來管理風險和追求收益。然而，投資者也需要謹慎評估風險和回報率，才能在這個市場中取得成功。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      }
+    ],
     "stock_tw": [
+      {
+        "id": "7d48b0e1",
+        "title": "王品股東會紀念品開獎 大方發出3000元電子大禮包",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5412353",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 22 Apr 2026 15:53:38 +0800",
+        "summary_zh": "王品股東會紀念品今日開獎，延續往年大手筆，發出價值3000元的「王品股東大禮包」。今年為增加使用便利性，大禮包內容全數改為電子形式，讓股東可以輕鬆地在手機上使用。這項舉措被視為對股東的尊重和感謝。王品股東會紀念品的開獎是股民引頸期盼的事件，今年的結果讓股東們感到高興和滿意。這項舉措也體現了王品對股東的關心和重視。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "bba1848c",
+        "title": "5月1日起開徵房屋稅974萬件 全國單一自住占32.6％",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5412349",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 22 Apr 2026 15:48:11 +0800",
+        "summary_zh": "房屋稅差別稅率2.0將於2024年7月實施，今年將進行第二次開徵。課稅所屬期間將從2025年7月1日至2026年6月30日，繳稅期間則為2026年5月1日至6月1日。根據預估，全國將有974萬件房屋需要繳納房屋稅，其中單一自住房屋占比約32.6％。房屋稅的實施將對許多家庭造成影響，需要儘快安排繳稅。房屋稅的差別稅率將根據房屋的使用情況進行調整，旨在鼓勵房屋的合理使用和節約。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "228b5ae7",
+        "title": "台綜院：AI動能強勁支撐 3月電力景氣續呈紅燈",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5412342",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 22 Apr 2026 15:35:42 +0800",
+        "summary_zh": "根據台灣綜合研究院最新公布的2026年3月份台灣EPI電力景氣指數，電力景氣指數持續呈紅燈。人工智慧（AI）、高效能運算與雲端資料服務需求持續擴張，相關產業鏈接單與生產動能同步提升。這些需求的增長對電力產業造成了重大影響，電力需求量持續上升。然而，電力產業面臨著供應鏈瓶頸和資源緊缺等挑戰。台綜院認為，電力產業需要積極投資於新能源和能源儲存技術，以應對未來的電力需求。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1510ebd9",
+        "title": "台股基金績效亮眼 元大新主流基金今年來報酬率高達98％奪冠",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5412312",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 22 Apr 2026 15:35:02 +0800",
+        "summary_zh": "台股今年以來漲幅超過三成，基金績效也相應亮麗。根據最新數據，台股基金平均報酬率近達6成，其中，元大新主流基金今年以來報酬率高達98%，奪得台股基金第一名。這表明基金投資者在台股市場上取得了顯著的收益。然而，投資市場的波動性仍然很高，投資者需要保持謹慎。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "4e5854c7",
+        "title": "SpaceX總裁年薪曝光！肖特威爾去年進帳27億元 超越多位科技巨頭CEO",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5412266",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 22 Apr 2026 15:14:59 +0800",
+        "summary_zh": "SpaceX總裁兼營運長肖特威爾去年總薪酬高達8580萬美元，約新台幣27億元，躋身美國收入最高企業高層之一。這項數據透露肖特威爾的薪酬遠超過多位科技巨頭CEO，包括 Tesla 的埃隆·馬斯克和 Amazon 的傑夫·貝索斯。肖特威爾的高薪酬可能與SpaceX的快速成長和市場份額增長有關。SpaceX近年來一直在發展其星際探索計畫，包括星鏈衛星網路和火星殖民計畫。肖特威爾的薪酬曝光可能會引起關注和討論，尤其是在科技業的高薪酬問題上。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "5c8d014f",
         "title": "川普稱庫克打電話來「親我的屁股」透露兩人多年「互助」交情",
@@ -672,8 +576,8 @@
         "published_at": "Wed, 22 Apr 2026 14:57:31 +0800",
         "summary_zh": "美國川普總統在週二聲稱蘋果公司首席執行長庫克打電話來對他說「親吻我的屁股」，這是庫克宣布將卸任蘋果公司執行長後不久發生的事件。庫克將於今年9月卸任執行長一職，接下來將由克里斯蒂安森接任。川普的說法引起了許多人的關注，許多人認為這是兩人多年來的「互助」交情。然而，蘋果公司方面並未對川普的說法做出回應。這個事件也引起了對兩人關係的猜測，許多人認為這可能與兩人的商業交易有關。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "24d05ae4",
@@ -684,8 +588,8 @@
         "published_at": "Wed, 22 Apr 2026 14:56:43 +0800",
         "summary_zh": "新竹市稅務局表示，今年度共開徵17萬4013輛車輛，稅額達14億2106萬元。但截至15日，仍有約10萬輛車主未繳納牌照稅。這些車主仍有時間繳納，繳納期限截止於4月30日。車主未繳納的原因可能包括忘記繳納、無法繳納或是其他原因。新竹市政府鼓勵車主儘快繳納稅款，避免產生任何法律問題。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "0b5d500c",
@@ -696,8 +600,8 @@
         "published_at": "Wed, 22 Apr 2026 14:55:47 +0800",
         "summary_zh": "台北市政府翡翠水庫管理局提議在緊急支援台電發電時收取耗水補償費，引起中南部立委不滿。中南部立委認為，台北市用電量多、發電量少，卻要中南部縣市承擔高額購電成本。台電購電成本將高達每度14.6元，引起廣泛爭議。台電表示，將在2個月內提呈區域差別電價評估報告，試圖解決這個問題。這個事件引起了中南部地區的反彈，民眾認為，這個決定是不公平的。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "5fe83f78",
@@ -708,8 +612,8 @@
         "published_at": "Wed, 22 Apr 2026 14:54:02 +0800",
         "summary_zh": "一位名為美佐子的女性，負責掌管家庭財務，為了達到退休目標，她的先生每月只有一萬五千日圓的零用錢（約新台幣三萬元），這使得她們的生活非常節儉。退休後，美佐子的先生被告知他的退休金只有每月六萬日圓（約新台幣一萬二千元），這個數字使他感到驚呆。這個故事讓人們思考退休後的生活費用和財務規劃的重要性。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "5f3b8579",
@@ -720,8 +624,8 @@
         "published_at": "Wed, 22 Apr 2026 14:49:54 +0800",
         "summary_zh": "近年來，購屋總價1500萬元已經成為多數首購族能負擔的最大公約數。根據房仲業者的統計，新北市10個熱門行政區的預售屋和中古屋實價揭露資訊，板橋、新莊、汐止和永和等地區的預售屋總價都超過1500萬元，甚至只有套房可購買。然而，中古屋卻能夠買到2房間的房屋，顯示出中古屋的價格相對較低。這一現象引起了房屋市場的關注，許多人開始思考是否該考慮購買中古屋。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "1e0f861f",
@@ -732,8 +636,8 @@
         "published_at": "Wed, 22 Apr 2026 14:47:47 +0800",
         "summary_zh": "2026 TAGE台灣電子遊戲機國際產業展將於4月23日至25日於台北世貿中心一館登場。鈊象公司宣布參展，將展出多款全新研發的大型遊戲機台與經典人氣遊戲。其中，鈊象將攜帶雙人街機《明日行動》參展，展出將為遊戲迷帶來新的體驗。這次展覽將是電子遊戲業界的重要活動，遊戲公司將展示最新的技術和產品。鈊象的參展將是今年展覽的焦點之一，遊戲迷們不容錯過。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "8470a535",
@@ -744,228 +648,34 @@
         "published_at": "Wed, 22 Apr 2026 14:42:46 +0800",
         "summary_zh": "美國擁有超過5400個AI資料中心，是世界上最多，但仍需要依賴台灣的生產來支撐整個產業晶片。根據《La Nacion》報導，2025年，美國將需要超過1.8萬億美元的晶片，遠超過目前的需求。這使得美國對台灣的晶片供應更加依賴。台灣的晶片產業已經成為全球晶片供應鏈的重要樞紐，許多美國公司都在台灣設立工廠，生產晶片。這使得美國的AI產業得以繼續發展，但也使得美國對台灣的依賴更加深入。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "0801ca8a",
-        "title": "看好蘋果世代交替 童子賢：AI長期將重塑產業樣貌",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5412172",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 22 Apr 2026 13:54:37 +0800",
-        "summary_zh": "美國科技巨擘蘋果宣布執行長交棒，由現任CEO庫克轉任執行董事長。新任CEO特納斯將於9月1日正式上任。這一變化將對蘋果的未來發展產生重大影響。同時，和碩董事長童子賢表示，AI將長期重塑產業樣貌，對未來的發展趨勢有著重要的影響。",
-        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "a51062ae",
-        "title": "政府服務獎首設AI應用特別獎 鼓勵機關導入",
-        "url": "https://www.cna.com.tw/news/afe/202604220073.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 22 Apr 2026 11:15:28 +0800",
-        "summary_zh": "國發會今天發布新聞稿，宣布第9屆政府服務獎推薦參獎作業即將啟動。這次的政府服務獎首度增設「人工智慧應用特別獎」，目的是鼓勵各機關強化人工智慧的應用，進而提升服務效能。這項獎項的設立，意在推動政府機關在人工智慧方面的發展，提高服務品質和效率。政府服務獎的目標是鼓勵政府機關提供優質的服務，提高公民對政府的滿意度。人工智慧的應用在政府服務領域有許多潛力，例如智能客服系統、資料分析等。這項獎項的設立將會促進政府機關在人工智慧方面的發展，同時也會提高服務品質和效率。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ac4dba87",
-        "title": "核安會主委陳明真：核電有助電價穩定",
-        "url": "https://www.cna.com.tw/news/afe/202604220068.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 22 Apr 2026 11:01:17 +0800",
-        "summary_zh": "近日，國民黨立委羅智強表示，核電廠重啟的程序是漫漫長路。羅智強曾經提到「非核家園」三預言，包括電力必缺、電價必漲、空污必增。對此，核安會主委陳明真回應，核電確實有助於電價穩定。這意味著核電的重啟可能會幫助降低電價的波動，從而改善民眾的生活質量。然而，核電的安全性和環境影響仍然是爭議的焦點。政府和民間組織需要共同努力，確保核電的運營符合安全和環保標準。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1e01a0b4",
-        "title": "台股首度攻上38000點大關 散熱與IC族群強勢",
-        "url": "https://www.cna.com.tw/news/afe/202604220066.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 22 Apr 2026 10:54:13 +0800",
-        "summary_zh": "台股今天開高走高，盤中上漲逾400點，指數首度攻上38000點大關，最高為38087.87點，再創盤中新高。台積電股價上漲15元，盤中為2065元。AI伺服器出貨強勁，帶動散熱概念股的表現，IC設計概念股也在盤中表現亮眼。這些強勁的表現使得台股的整體市場氣氛變得更加積極。然而，投資者應該保持謹慎，注意市場的波動，避免過度投入。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8cebea8c",
-        "title": "股王信驊衝16495元新紀錄 台股上市櫃再現47千金",
-        "url": "https://www.cna.com.tw/news/afe/202604220065.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 22 Apr 2026 10:53:11 +0800",
-        "summary_zh": "台股今天早盤創下38041.6點的歷史新高，首度突破38000點大關。上市櫃超過千元高價股再度出現，表現強勢。其中，股王伺服器管理晶片廠信驊的股價早盤大漲1250元，衝上16495元，創下新的天價。這一波行情使得台股的新高紀錄再次刷新。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ae9efe79",
-        "title": "宏達電進軍日本AI智慧眼鏡市場",
-        "url": "https://www.cna.com.tw/news/afe/202604220061.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 22 Apr 2026 10:50:02 +0800",
-        "summary_zh": "宏達電持續拓展AI智慧眼鏡全球市場版圖，宣布旗下VIVE Eagle攜手日本電信夥伴KDDI進軍日本市場。這一舉動將擴大宏達電在日本AI穿戴市場的布局。日本市場的進軍將讓宏達電的AI智慧眼鏡產品更廣泛地覆蓋全球市場。這一合作將為宏達電提供更多的市場機會和資源，幫助公司進一步推動AI穿戴技術的發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7886c6b8",
-        "title": "玉山銀推TISA基金服務 落實普惠金融",
-        "url": "https://www.cna.com.tw/news/afe/202604220058.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 22 Apr 2026 10:46:56 +0800",
-        "summary_zh": "玉山銀行近日宣布正式推出台灣個人投資儲蓄帳戶（TISA）服務，旨在落實普惠金融的理念。這項服務允許顧客透過專家嚴選的優質基金，搭配定期定額投資方案，從新台幣1000元起即可參與。這項措施旨在協助顧客以小額、長期且規律的方式建立理財觀念，促進金融教育和普惠金融的發展。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1bf41548",
-        "title": "威力彩13.5億頭獎未兌領 台彩提醒中獎人5/12領獎期限",
-        "url": "https://www.cna.com.tw/news/ahel/202604220056.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 22 Apr 2026 10:42:52 +0800",
-        "summary_zh": "台彩公司表示，今年2月12日威力彩開出新台幣13.5億元的高額頭獎，由2注均分，各得稅前獎金6.77億元。然而，這2名得主迄今尚未出面領獎。台彩公司呼籲中獎人把握最後領獎期限5月12日。這次頭獎的得主若未在期限內領獎，獎金將被沒收。台彩公司強調，領獎期限將不會延長，因此中獎人應儘速領獎。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a4edab5e",
-        "title": "台股再添千金 創新服務上櫃飆1635元大漲160% ",
-        "url": "https://www.cna.com.tw/news/afe/202604220044.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 22 Apr 2026 09:52:26 +0800",
-        "summary_zh": "創新服務今天以每股628元掛牌上櫃，開盤強勢表態衝破1500元，早盤最高1635元，大漲160%，台股再添千金股。創新服務董事長吳智孟表示，公司經過多年努力，從光學產業轉型為半導體產業，持續與探針卡大廠Technoprobe密切合作。這項轉型對公司未來的發展有著重要影響，將幫助公司在半導體產業中取得更大的市場份額。這項新聞表明，創新服務的上櫃是台股的一個重要事件，將對市場產生重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "7cfcfc9e",
-        "title": "戰爭、惡劣天氣和低價格籠罩美國玉米2026年前景",
-        "url": "https://www.reuters.com/markets/commodities/war-weather-weak-prices-cloud-us-corns-2026-outlook-2026-04-21/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-21 19:00:00",
-        "summary_zh": "美國玉米業在2026年的前景受到多重挑戰。首先，俄烏戰爭的持續導致全球糧食市場的不穩定性。同時，今年的天氣條件惡劣，對玉米生產造成了嚴重影響。另外，美國玉米價格持續低迷，對玉米生產商的收入造成了壓力。這些因素的結合，對美國玉米業的前景構成了重大挑戰。分析師預測，美國玉米價格可能會持續低迷，對玉米生產商的收入造成長期影響。玉米生產商需要採取措施來應對這些挑戰，提高生產效率和降低成本，以維持競爭力。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "f3ec9e0e",
-        "title": "塞內加爾稱國債「完全透明」，與國際貨幣基金組織數字吻合",
-        "url": "https://www.reuters.com/world/africa/senegal-says-debt-fully-transparent-aligned-with-imf-figures-2026-04-21/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-21 18:54:09",
-        "summary_zh": "塞內加爾政府近日表示，該國的國債數字已經「完全透明」，並與國際貨幣基金組織（IMF）提供的數字吻合。塞內加爾政府的說法是對於近期的批評和質疑作出的回應。塞內加爾政府表示，該國的國債主要是由於發展項目和基礎設施建設所致。塞內加爾政府還表示，該國的國債管理非常透明，所有相關數字都已經公開。塞內加爾政府的說法表明，該國正在努力解決國債問題，並且正在與國際貨幣基金組織合作，尋求適當的援助。這一發展可能會對塞內加爾的經濟前景產生一定的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "f8a65ce9",
-        "title": "巴拉圭維持關鍵利率5.5% 預期通膨穩定",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-21/paraguay-leaves-key-rate-at-5-5-amid-stable-inflation-outlook",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-21 18:51:30",
-        "summary_zh": "巴拉圭中央銀行在最新的貨幣政策會議中，決定維持關鍵利率5.5%。此決定與之前預期一致，主要原因是巴拉圭的通膨預期保持穩定。根據中央銀行的數據，巴拉圭的通膨率在過去幾個月保持在較低水平，今年的通膨預期也被預測將保持穩定。這一決定對巴拉圭的經濟有著重要影響，可能會促進投資和消費者信心。然而，巴拉圭的經濟環境仍然面臨著挑戰，包括外部市場的不確定性和內部經濟的不穩定性。因此，巴拉圭的中央銀行需要繼續密切監測經濟情況並做出適當的政策調整。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "0fa497be",
-        "title": "頂級石油交易商預警：戰爭後億噸石油短缺將持續影響全球市場",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-21/top-traders-say-billion-barrel-oil-shock-to-echo-long-after-war",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-21 18:48:28",
-        "summary_zh": "石油市場正面臨前所未有的挑戰。頂級石油交易商預測，戰爭導致的石油短缺將持續影響全球市場，甚至可能持續數年。根據交易商的估計，全球石油儲備將減少超過一億噸，遠超過預期。這將導致石油價格大幅上升，對全球經濟產生重大影響。交易商們認為，石油短缺將持續影響全球市場，直到新的石油儲備被開發和運營。這將是一個長期的過程，需要時間和資源。同時，交易商們也提醒，石油短缺將對全球經濟產生重大影響，包括通膨、經濟衰退等。因此，全球應該準備好面對這種挑戰，尋找新的石油儲備和開發新能源來源。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "9bd36014",
-        "title": "美國運輸部長稱聯合航空CEO提議購買美國公司「有趣」",
-        "url": "https://www.reuters.com/world/us-transportation-secretary-calls-united-ceo-proposal-buy-american-interesting-2026-04-21/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-21 18:45:48",
-        "summary_zh": "美國運輸部長彼得·布蒂吉格（Peter Buttigieg）最近對聯合航空CEO杰克·莫拉诺（Scott Kirby）提出的購買美國公司的建議表示出興趣。莫拉诺表示，聯合航空正在考慮購買一家美國公司，以增加該國的航空業競爭力。布蒂吉格認為，這個建議「有趣」，並表示美國政府將密切關注這個發展。這個建議可能會對美國航空業產生重大影響，尤其是在競爭力和國內航空市場的發展方面。聯合航空的這個動作可能會引發其他航空公司跟進，從而促進美國航空業的競爭和發展。然而，購買美國公司的具體細節尚未明確，需要進一步的檢視和評估。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "722a79ee",
-        "title": "美聯儲Wallace呼籲重組區域聯邦銀行業務",
-        "url": "https://www.reuters.com/sustainability/boards-policy-regulation/feds-waller-calls-overhaul-regional-fed-bank-operations-2026-04-21/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-21 18:32:50",
-        "summary_zh": "美聯儲理事Wallace最近呼籲重組區域聯邦銀行業務。他認為現有的區域聯邦銀行業務存在許多問題，包括效率低下、資源分配不均等等。 Wallace建議將區域聯邦銀行業務重組為更具競爭力的單位，以提高效率和增強決策能力。他還提到，重組區域聯邦銀行業務將能夠幫助美聯儲更好地應對未來的經濟挑戰。 Wallace的呼籲引起了業界的關注，許多人認為這是美聯儲在經濟政策上的一個重要一步。然而，重組區域聯邦銀行業務也面臨著許多挑戰，包括資源配置和人力成本等問題。最終，美聯儲將如何實現 Wallace的呼籲，仍待觀察。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "fa1a9c18",
-        "title": "與 AI 分享你的信用分數？你需要知道的保護自己的事項",
-        "url": "https://www.cnbc.com/select/ai-help-with-credit-score-how-to-protect-yourself/",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-04-21 18:31:38",
-        "summary_zh": "近年來，人工智慧（AI）技術在各行各業的應用越來越廣泛，包括金融領域。然而，這也引發了對個人信用分數安全性的擔憂。為了保護自己免受身份盜竊和信用分數被濫用，身份盜竊保護和信用監控服務提供了額外的安全層面。這些服務可以幫助你監控你的信用分數，及時發現任何異常活動，從而防止身份盜竊和信用分數被濫用。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
       }
     ],
     "stock_us": [
       {
-        "id": "400644d6",
-        "title": "Marvel爾將從強化的Amazon-Anthropic夥伴關係中受益",
-        "url": "https://www.cnbc.com/2026/04/21/marvell-stands-to-gain-from-boosted-amazon-anthropic-partnership.html",
-        "source": "Cnbc",
+        "id": "3fc3bc62",
+        "title": "蓋茨基金會將裁員20%，檢視與埃普斯坦的關係",
+        "url": "https://www.reuters.com/business/gates-foundation-cut-20-staff-review-epstein-ties-wsj-reports-2026-04-21/",
+        "source": "Reuters",
         "category": "stock_us",
-        "published_at": "2026-04-21 18:47:59",
-        "summary_zh": "Amazon 近日與人工智慧公司 Anthropic 合作，增強了兩者的夥伴關係。這一變化對於 Marvel爾等 Amazon 的晶片和光學合作夥伴而言將帶來利益。Marvel爾是一家領先的半導體公司，提供高性能的晶片和光學解決方案。這一夥伴關係增強將使 Marvel爾能夠更好地服務 Amazon 的需求，進一步鞏固兩者的合作關係。這一發展對於 Marvel爾和 Amazon 的未來合作前景具有重要意義。",
-        "sentiment": "中性",
+        "published_at": "2026-04-21 19:45:43",
+        "summary_zh": "蓋茨基金會將在未來數年內裁員約500人，約佔其員工人數的20%。基金會同時也對自己與已故金融家、性犯罪者傑弗里·埃普斯坦的關係進行了外部審查。根據《華爾街日報》報導，這些裁員和審查措施是在一份備忘錄中提及的。蓋茨基金會的裁員和審查措施引起了關注，許多人對基金會的決定表達了質疑。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
       {
-        "id": "99000ebe",
-        "title": "為什麼蒂姆·庫克辭去CEO，對於Jim Cramer的Apple信心沒有影響",
-        "url": "https://www.cnbc.com/2026/04/21/why-tim-cook-stepping-down-as-ceo-isnt-shaking-cramers-faith-in-apple.html",
+        "id": "e7a89c67",
+        "title": "蓋茨基金會檢視與伊普斯坦關係、裁員20%：WSJ報導",
+        "url": "https://www.cnbc.com/2026/04/21/gates-foundation-jeffrey-epstein-jobs-cuts.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-04-21 18:36:31",
-        "summary_zh": "在蒂姆·庫克宣布辭去CEO一事發生後，華爾街的投資分析師們仍然對蘋果公司充滿信心。知名投資分析師Jim Cramer表示，他對於Apple未來的發展仍然非常樂觀。事實上，多家華爾街的投資銀行也發出了一系列的積極評論，表明對於Apple未來的前景充滿信心。這些評論表明，雖然蒂姆·庫克辭去CEO，但蘋果公司仍然具有強大的競爭力和發展潛力。",
-        "sentiment": "正面",
+        "published_at": "2026-04-21 19:58:02",
+        "summary_zh": "蓋茨基金會正檢視與已故億萬富翁伊普斯坦的關係，據WSJ報導，該基金會將裁員20%。此前，伯克希爾哈薩威董事長沃倫巴菲特在接受CNBC採訪時表示，他自從伊普斯坦與蓋茨的溝通細節被揭露後，與蓋茨沒有再聯繫。蓋茨基金會的裁員決定可能與基金會的財務狀況和伊普斯坦事件的影響有關。伊普斯坦事件的影響可能會對基金會的聲譽和信任度造成影響，從而導致財務上的不確定性。蓋茨基金會的裁員決定可能會對基金會的未來發展和社會責任有所影響。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
       {
         "id": "046fb25e",
@@ -976,8 +686,32 @@
         "published_at": "2026-04-21 18:55:19",
         "summary_zh": "股市在最近的交易中放棄了部分的漲幅。今年財報季，投資人正在密切關注多家公司的財報表現。投資俱樂部每週五發佈《Homestretch》，提供投資者在交易最後一小時的行動指南。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "400644d6",
+        "title": "Marvel爾將從強化的Amazon-Anthropic夥伴關係中受益",
+        "url": "https://www.cnbc.com/2026/04/21/marvell-stands-to-gain-from-boosted-amazon-anthropic-partnership.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-21 18:47:59",
+        "summary_zh": "Amazon 近日與人工智慧公司 Anthropic 合作，增強了兩者的夥伴關係。這一變化對於 Marvel爾等 Amazon 的晶片和光學合作夥伴而言將帶來利益。Marvel爾是一家領先的半導體公司，提供高性能的晶片和光學解決方案。這一夥伴關係增強將使 Marvel爾能夠更好地服務 Amazon 的需求，進一步鞏固兩者的合作關係。這一發展對於 Marvel爾和 Amazon 的未來合作前景具有重要意義。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "99000ebe",
+        "title": "為什麼蒂姆·庫克辭去CEO，對於Jim Cramer的Apple信心沒有影響",
+        "url": "https://www.cnbc.com/2026/04/21/why-tim-cook-stepping-down-as-ceo-isnt-shaking-cramers-faith-in-apple.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-21 18:36:31",
+        "summary_zh": "在蒂姆·庫克宣布辭去CEO一事發生後，華爾街的投資分析師們仍然對蘋果公司充滿信心。知名投資分析師Jim Cramer表示，他對於Apple未來的發展仍然非常樂觀。事實上，多家華爾街的投資銀行也發出了一系列的積極評論，表明對於Apple未來的前景充滿信心。這些評論表明，雖然蒂姆·庫克辭去CEO，但蘋果公司仍然具有強大的競爭力和發展潛力。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "1c515257",
@@ -988,8 +722,8 @@
         "published_at": "2026-04-21 18:21:54",
         "summary_zh": "白宮正在與阿拉伯聯合大公國討論貨幣匯率線的建立。這項措施將為富含石油的阿拉伯聯合大公國提供美元流動性，但在國內油價上漲的情況下，這一決定可能會對政府造成政治上的困難。這一動作可能會對美元的流動性產生影響，同時也會對美元的流動性造成挑戰。這一決定可能會對美元的流動性產生影響，同時也會對美元的流動性造成挑戰。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c51069df",
@@ -1038,28 +772,258 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      }
+    ],
+    "global": [
+      {
+        "id": "99a1bab2",
+        "title": "智庫報告：哥倫比亞傭兵為蘇丹RSF提供支援，聯合阿聯酋",
+        "url": "https://www.bbc.com/news/articles/cn4vk13wgwwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 22 Apr 2026 04:01:50 GMT",
+        "summary_zh": "根據紛爭洞察組（Conflict Insights Group, CIG）的研究報告，哥倫比亞傭兵在蘇丹的民兵組織RSF（快速支援部隊）中扮演了重要角色。報告指出，這些哥倫比亞傭兵不僅提供了軍事支援，還幫助RSF在國際上擴展影響力。同時，報告還披露了阿聯酋在此事件中的角色，表明阿聯酋也在背後支持這些哥倫比亞傭兵。這項研究報告對於了解蘇丹內部的政治動態和國際干預有重要的意義。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
-        "id": "ac5e356b",
-        "title": "為什麼蘋果CEO更替的時機可能意味著佳績單將不遠",
-        "url": "https://www.cnbc.com/2026/04/21/why-the-timing-of-apples-ceo-change-could-mean-a-good-earnings-report-is-around-the-corner.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-04-21 13:41:04",
-        "summary_zh": "蘋果公司宣布CEO更替，分析師認為這個消息出現於第二季財報前，可能意味著蘋果即將公布佳績單。這個時機的選擇可能是為了讓新CEO在接手公司後，能夠在財報前展示自己的能力和戰略。另一方面，分析師也認為，這個消息可能是為了讓投資者對公司未來的前景感到樂觀，從而推動股價上漲。蘋果公司的第二季財報將於今年夏季公布，投資者將密切關注公司的財務表現。",
+        "id": "665b61b4",
+        "title": "伊朗因與美國和以色列的戰爭而面臨大規模裁員潮",
+        "url": "https://www.bbc.com/news/articles/ce84e31376zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 16:05:51 GMT",
+        "summary_zh": "伊朗因與美國和以色列的戰爭而面臨嚴重的經濟影響。製造業、零售業和數位行業都受到影響，預警指出，如果戰爭再次爆發，情況可能會惡化。伊朗的經濟已經在戰爭的陰影下苦苦挣扎，外部壓力和內部不穩定因素使得局勢更加複雜。伊朗政府正在努力應對這種局面，但前景仍然不明朗。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7fcaffac",
+        "title": "以色列士兵因破壞黎巴嫩耶穌像遭懲罰",
+        "url": "https://www.bbc.com/news/articles/cew790ppn8jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 16:13:27 GMT",
+        "summary_zh": "近日，以色列軍方宣布，兩名士兵因在黎巴嫩破壞耶穌像而遭懲罰。根據軍方的說法，這兩名士兵將被從戰鬥任務中撤換，並接受 30 天的軍事拘留。這一事件引發了黎巴嫩政府的抗議，並對以色列的行動表示不滿。這一事件也凸顯了以色列與黎巴嫩之間的緊張關係。黎巴嫩政府已經要求以色列對這一事件進行道歉，並承諾會採取進一步的行動來保護黎巴嫩的宗教遺產。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "eaad927e",
+        "title": "烏克蘭預計週三下午恢復通過杜布斯卡管道的石油輸送",
+        "url": "https://www.reuters.com/business/energy/ukraine-restart-oil-flows-via-druzhba-wednesday-afternoon-source-says-2026-04-21/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-04-21 19:17:39",
+        "summary_zh": "烏克蘭正面臨石油輸送中斷的困境，杜布斯卡管道是烏克蘭石油輸送的重要通道。根據消息來源，烏克蘭計劃週三下午恢復通過杜布斯卡管道的石油輸送。這一決定可能會對石油市場產生重大影響。烏克蘭石油輸送的中斷已經導致石油價格上升。恢復石油輸送將會幫助降低石油價格，並且對烏克蘭的經濟有所幫助。然而，恢復石油輸送的具體時間表尚未公佈。烏克蘭政府正在努力恢復石油輸送，同時也面臨著其他挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "39a481f0",
+        "title": "印尼內部勞工終於獲得法律認可，22年爭取的夢想成真",
+        "url": "https://www.bbc.com/news/articles/c1mkvjkg10no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 22 Apr 2026 02:55:40 GMT",
+        "summary_zh": "印尼是全球最大的內部勞工市場之一，約有4.2萬名勞工，其中近九成是女性。這項法律變革終於讓這些勞工獲得了正名和權益。這項變革對於印尼女性勞工的影響將是深遠的，將為他們帶來更好的工作條件和保護。然而，這項變革也面臨著挑戰，政府和勞工組織需要共同努力來確保這項變革的實施。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "34f993cc",
-        "title": "摩根大通提高 S&P 500 目標，神話模型增強 AI 買賣",
-        "url": "https://www.cnbc.com/2026/04/21/jpmorgan-raises-sp-500-target-as-mythos-model-bolsters-ai-trade.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-04-21 13:14:44",
-        "summary_zh": "在美伊戰爭引發的賣壓中，與 AI 有關的股票表現不佳。但現在情況已經改善。摩根大通最近提高了 S&P 500 的目標價格，認為 AI 相關股票的表現將會持續改善。這是由於摩根大通的神話模型預測，AI 相關股票將會繼續上漲。這種預測是基於神話模型對 AI 相關股票的分析，該模型認為這些股票的價格將會持續上漲。摩根大通的這一預測對於投資者來說是一個重要的訊息，因為它表明了對 AI 相關股票的信心。然而，投資者仍應該保持謹慎，因為市場的情況總是會變化。",
-        "sentiment": "正面",
+        "id": "7cb310d8",
+        "title": "準備迎接更加炎熱、濕潤、暴雨的夏天",
+        "url": "https://www.technologyreview.com/2026/04/21/1134873/get-ready-for-hotter-muggier-stormier-summers/",
+        "source": "MIT Tech Review",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 21:00:00 +0000",
+        "summary_zh": "近期兩名麻省理工學院科學家發表研究報告，指出美國中西部地區夏季的炎熱、濕潤和暴雨天氣模式正逐漸變得更加常見。研究人員發現，氣候模式中的一個關鍵條件決定了這種地區夏季的氣溫、濕度和暴雨頻率。這種模式的出現，可能與全球暖化和氣候變化有關。研究人員表示，這種模式的變化將對當地的氣候和水資源產生重大影響，居民應該準備迎接更加炎熱、濕潤和暴雨的夏天。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a0b4211c",
+        "title": "澤倫斯基批評美國代表團未訪烏克蘭首都京比斯為「不尊重」",
+        "url": "https://www.bbc.com/news/articles/cd9v420y190o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 16:25:44 GMT",
+        "summary_zh": "烏克蘭總統澤倫斯基批評美國代表團未有訪問烏克蘭首都京比斯，認為這是一種「不尊重」。美國代表團曾多次訪問莫斯科，但從未訪問京比斯。這一事件的背景是美國代表團與俄羅斯政府的關係密切，而烏克蘭政府則一直希望美國能夠提供更多的支持。關鍵細節是美國代表團的訪問路線與烏克蘭政府的期望不符。影響分析是這一事件可能會影響美國與烏克蘭的關係，烏克蘭政府可能會感到不滿和失望。後續展望是美國政府是否會改變訪問路線，是否會提供更多的支持給烏克蘭政府。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9829d67a",
+        "title": "歐盟最高法院裁定匈牙利反LGBTQ法令違反歐盟價值觀",
+        "url": "https://www.bbc.com/news/articles/cddqvyr0yjro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 12:28:31 GMT",
+        "summary_zh": "匈牙利政府推動的反LGBTQ法令遭到歐盟最高法院的裁定，認為這些改革違反了歐盟的價值觀，同時也破壞了歐盟條約的基礎價值。這項裁定標誌著歐盟最高法院對匈牙利政府的反LGBTQ政策進行了嚴厲的批評。這項裁定對匈牙利政府的影響可能會很大，可能會迫使政府對這些政策進行重大修正。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a17d03c7",
+        "title": "薩爾瓦多486名疑似黑幫成員集體受審",
+        "url": "https://www.bbc.com/news/videos/ce9mernj0gko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 17:45:39 GMT",
+        "summary_zh": "薩爾瓦多政府近日對486名疑似黑幫成員進行集體受審。根據檢察總長辦公室發佈的視頻片段，數百名男子被迫在監獄中通過視訊連線參與審判。這次集體受審引起了人權團體的關注，批評政府對黑幫成員的處理方式過於嚴厲。薩爾瓦多政府表示，這次行動是為了打擊黑幫活動並維護社會秩序。然而，人權觀察員指出，這種做法可能會導致更多的冤假錯案和人權侵犯。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "dabf0385",
+        "title": "日本放寬武器出口規則 退出戰後和平主義",
+        "url": "https://www.bbc.com/news/articles/clyx4vlqy4vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 10:13:54 GMT",
+        "summary_zh": "日本政府近日宣布放寬武器出口規則，這一決定標誌著日本退出戰後的和平主義。根據新規定，日本可以向超過一打國家出售武器。這一決定引發了國際社會的關注，許多人認為這將對全球安全格局產生重大影響。日本的這一決定被視為是該國軍事力量的增強，同時也可能會加劇亞洲地區的軍事緊張局勢。日本政府表示，這一決定是為了應對日益複雜的國際安全環境而做出的必要措施。然而，這一決定也引發了內部反對聲浪，許多日本人擔心這將會對該國的和平主義傳統造成破壞。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0dcd726e",
+        "title": "墨西哥車禍中遇難的美官員身份引發質疑",
+        "url": "https://www.bbc.com/news/articles/c86expy881qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 17:35:56 GMT",
+        "summary_zh": "墨西哥近日發生了一起車禍，造成兩名美國官員遇難。這兩名官員是在墨西哥執行一項破壞非法毒品工廠的行動後，乘車返回美國時發生車禍遇難。這起事件引發了對美方官員身份和行動的質疑。墨西哥當局正在調查這起事件，試圖確定車禍的原因和美方官員的身份。這起事件可能會對美墨關係產生影響，雙方政府將需要就此事件進行溝通和協調。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a757f997",
+        "title": "母親與兒童跳樓逃生　路易斯安那州槍擊案造成8死",
+        "url": "https://www.bbc.com/news/articles/cj0v36vell4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 12:31:09 GMT",
+        "summary_zh": "路易斯安那州發生槍擊案，當局指出案件涉及父親與家庭成員之間的家暴糾紛。父親在槍擊中殺死了包括自己七個孩子在內的八名兒童。母親與兒童為了逃生，跳樓逃離槍擊現場。這起槍擊案造成重大傷亡，當局正進行調查。母親與兒童的命運如何，仍待查明。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d9203ec1",
+        "title": "加拿大人在墨西哥古城神廟遇刺案中喪生",
+        "url": "https://www.bbc.com/news/articles/crm1rg3ydkvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 14:55:19 GMT",
+        "summary_zh": "墨西哥官員表示，星期一在該國著名的古城神廟（Teotihuacán）發生槍擊事件，至少一名加拿大人喪生，多人受傷。墨西哥官員沒有透露更多細節，但已經展開調查。這起事件在墨西哥的古蹟觀光業引起了關注。墨西哥政府已經對此事件表示遺憾，並承諾會加強安全措施以防止類似事件再次發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d74655f6",
+        "title": "尼日利亞王子被綁架，疑似勒索金額",
+        "url": "https://www.bbc.com/news/articles/cr71de2dr32o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 10:59:51 GMT",
+        "summary_zh": "尼日利亞王子被綁架事件發生在本週六，綁匪襲擊王子的宮殿並據信將他帶到森林中。這起事件引起了當地政府的關注，當局已經展開調查並逮捕了相關嫌疑人。這種勒索行為在尼日利亞已經不是第一次發生，許多富有的家庭和政客都曾經受到過綁架威脅。尼日利亞政府正試圖通過加強安全措施和與當地民眾合作來防止這種事件的發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "27f82513",
+        "title": "台北市長赖清德称中国施压，取消访埃斯瓦蒂尼行程",
+        "url": "https://www.theguardian.com/world/2026/apr/21/taiwan-president-blames-china-cancel-eswatini-revoke-flight",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 18:22:29 GMT",
+        "summary_zh": "台北市長赖清德因為多個國家因為中國施壓而取消了埃斯瓦蒂尼訪問行程。赖清德原定於週三出訪埃斯瓦蒂尼，參加該國國王姆斯瓦蒂三世登基40週年的慶典。然而，多個國家，包括塞舌爾、毛里裘斯和馬達加斯加，已經撤回了飛越許可，台北市長的訪問因此被迫取消。台北市長的辦公室表示，這些國家的決定是由於中國施壓。這是對台北市長訪問埃斯瓦蒂尼的最新發展，該國是台北市長唯一的非洲盟友。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f18b77fa",
+        "title": "美兩名官員在墨西哥毒品突襲事件後喪生　疑似為中央情報局人員",
+        "url": "https://www.theguardian.com/world/2026/apr/21/mexico-drug-raid-cia-agents-embassy-investigation",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 18:11:10 GMT",
+        "summary_zh": "墨西哥政府已經展開調查，懷疑美方在墨西哥境內的毒品打擊行動中違反了墨西哥憲法。根據報導，這兩名美方官員在與墨西哥當地官員共同執行毒品實驗室突襲任務後，於墨西哥查瓦羅州（Chihuahua）附近山區邊境區域發生車禍，車輛失控翻落山谷，兩名官員不幸喪生。墨西哥政府將對這起事件進行調查，並評估美方在該次行動中的角色。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "416c1d8e",
+        "title": "卡尼尼任命廣泛團隊為美國加拿大貿易談判顧問",
+        "url": "https://www.theguardian.com/world/2026/apr/21/mark-carney-advisers-us-canada-economic-trade",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 16:15:39 GMT",
+        "summary_zh": "加拿大總理馬克·卡尼尼宣布成立24名成員的貿易談判顧問委員會，旨在為即將到來的加美貿易談判提供最佳建議和最廣泛的視角。這些委員會成員包括保守黨人士和前省級首席部長，卡尼尼表示，這些人將幫助加拿大在貿易談判中取得優勢。卡尼尼強調，委員會的任務是為加拿大提供最佳建議和最廣泛的視角，以便在貿易談判中取得優勢。這一舉動表明卡尼尼願意跨越政治界限，確保加拿大在貿易談判中處於有利地位。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "376c131c",
+        "title": "我們害怕他們要殺了我們：遭美軍擊沉的漁民倖存者說出真相",
+        "url": "https://www.theguardian.com/global-development/2026/apr/21/ecuador-us-boat-strike-survivors",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 11:00:47 GMT",
+        "summary_zh": "一支來自厄瓜多爾的漁民船隊在太平洋中遭遇美國軍艦的襲擊，船員們描述了那一刻的恐懼。根據當時的總統川普，美國正在與「毒品恐怖主義者」進行戰鬥。漁民們在太平洋中捕魚，當時天色柔和，船員們正在等待最後一艘漁船返回。漁民們描述了那一刻的恐懼，說自己只是在工作，等待最後一艘漁船的返回。這起事件可能與川普政府的「戰鬥毒品恐怖主義者」的政策有關。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6a5ddb85",
+        "title": "美國第一位亞裔州長喬治·阿里約希去世，享壽100歲",
+        "url": "https://www.theguardian.com/us-news/2026/apr/21/george-ariyoshi-former-hawaii-governor-dies",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 11:53:47 GMT",
+        "summary_zh": "美國前夏威夷州長喬治·阿里約希（George R Ariyoshi）於2023年去世，享壽100歲。他於1973年至1986年擔任夏威夷州長，是美國第一位亞裔州長。阿里約希是一位民主黨人，在他任內夏威夷州的民主黨開始崛起。夏威夷州現任州長喬許·格林（Josh Green）在一份聲明中表示，阿里約希在周日晚間與家人在身邊去世。阿里約希的去世對美國政治界和夏威夷州的政治情勢都產生了深遠的影響。他的去世也讓人們回顧他在夏威夷州政治發展中的重要角色。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "555ec40f",
+        "title": "第四名男子被控誤認身份綁架殺害悉尼外祖父案",
+        "url": "https://www.bbc.com/news/articles/cly7ezv8yp2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 23:55:32 GMT",
+        "summary_zh": "悉尼警方表示，85歲的克里斯·巴格沙里安（Chris Baghsarian）並非當初綁架案的目標。警方調查發現，巴格沙里安被誤認為另一名男子，導致他遭到綁架並被殺害。這起案件引起了社會的關注，警方正在努力追捕嫌疑犯並將其繩之以法。這起案件的發生，讓人們感到震驚和憤怒，社會各界都在呼籲加強安全措施，以防止類似事件再次發生。警方正在全力調查此案，並將盡快將嫌疑犯繩之以法。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e805bc63",
+        "title": "一年過去，印度管治的喀什米爾一處旅遊熱點仍留下血腥的傷痕",
+        "url": "https://www.bbc.com/news/articles/c8ej3wl130yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 21 Apr 2026 21:14:37 GMT",
+        "summary_zh": "一年前，印度管治的喀什米爾發生了一場恐怖攻擊，造成 26 人喪生。這次事件留下深深的傷痕，仍然令當地居民難以承受。受害者家屬仍在試圖面對這個悲痛的現實。這次恐怖攻擊的影響深遠，對當地的旅遊業和社會秩序都造成了重大影響。印度政府仍在努力恢復喀什米爾的和平，同時也致力於幫助受害者家屬重建生活。然而，對於受害者家屬來說，痛苦仍在持續。",
+        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       }
