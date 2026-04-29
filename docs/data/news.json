@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-29T16:04:01.799761+08:00",
+  "generated_at": "2026-04-29T17:03:59.893690+08:00",
   "risk_signals": [
     "🟢 台股加權 39303.5（正常）",
     "🟢 S&P 500 7138.8（正常）",
-    "🟢 VIX 恐慌指數 17.97（正常）",
+    "🟢 VIX 恐慌指數 18.04（正常）",
     "🟢 MOVE 債市波動 68.68（正常）",
-    "🟢 美元指數 98.67（正常）",
-    "🟢 黃金 4584.8（正常）",
+    "🟢 美元指數 98.72（正常）",
+    "🟢 黃金 4587.1（正常）",
     "🟢 美債10Y殖利率 4.35（正常）",
-    "🟢 原油 WTI 101.64（正常）",
+    "🟡 原油 WTI 103.6（漲 +3.67%，留意）",
     "🟢 美元/台幣 31.59（正常）"
   ],
-  "ai_summary": "市場指標呈現穩定趨勢，台股和美股均出現微幅下跌，但仍然處於正常範圍。投資環境相對穩定，未見明顯的市場恐慌跡象。",
+  "ai_summary": "市場氛圍保持穩定，目前沒有明顯的恐慌或躁動跡象。原油價格略微上漲，但其他主要市場指標仍維持正常水平。",
   "market": {
     "TWII": {
       "price": 39303.5,
@@ -26,8 +26,8 @@
       "change_pct": -0.9
     },
     "VIX": {
-      "price": 17.97,
-      "change_pct": 0.79
+      "price": 18.04,
+      "change_pct": 1.18
     },
     "TNX": {
       "price": 4.35,
@@ -38,183 +38,121 @@
       "change_pct": 0.38
     },
     "DXY": {
-      "price": 98.67,
-      "change_pct": 0.05
+      "price": 98.72,
+      "change_pct": 0.11
     },
     "GOLD": {
-      "price": 4584.8,
-      "change_pct": -0.15
+      "price": 4587.1,
+      "change_pct": -0.1
     },
     "OIL": {
-      "price": 101.64,
-      "change_pct": 1.71
+      "price": 103.6,
+      "change_pct": 3.67
     },
     "USDTWD": {
       "price": 31.59,
-      "change_pct": 0.42
+      "change_pct": 0.43
     }
   },
   "macro": {},
   "categories": {
-    "whitehouse": [
+    "global": [
       {
-        "id": "864edcf9",
-        "title": "白宮宣布特朗普夫婦將與英國國王查爾斯三世和王后卡蜜拉舉行國宴",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-releases-details-on-the-state-dinner-with-his-majesty-king-charles-the-iii-of-the-united-kingdom-of-great-britain-and-northern-ireland-and-her-majesty-queen-camilla/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Apr 2026 23:43:51 +0000",
-        "summary_zh": "白宮宣布，美國總統特朗普和第一夫人梅拉尼婭將於今天晚上（2026年4月28日）歡迎英國國王查爾斯三世和王后卡蜜拉參加國宴。第一夫人梅拉尼婭負責籌備國宴的準備工作，該活動將以尊榮英國國王和王后的方式進行。這次國宴將是美國與英國之間的重要外交活動，展現兩國之間的友誼和合作關係。",
+        "id": "d6319cb7",
+        "title": "伊朗戰事影響全球油價　人道組織呼籲開通霍爾木茲海峽人道廊道",
+        "url": "https://www.theguardian.com/global-development/2026/apr/29/humanitarian-corridor-strait-of-hormuz-iran-war-hits-vital-aid",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 07:00:48 GMT",
+        "summary_zh": "伊朗戰事導致全球油價大幅上升，阻礙了向千萬民眾提供食物、燃料和藥物的援助。人道組織表示，戰事造成的油價波動，嚴重影響了最脆弱的人群，阻礙了食物和醫療援助的運送。人道組織現在呼籲，開通霍爾木茲海峽的「人道廊道」，以應對運輸成本的急劇上升。這樣可以幫助向伊朗民眾提供急需的援助。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1f07b8f7",
+        "title": "非洲音樂業界對AI風險與好處進行衡量",
+        "url": "https://www.theguardian.com/world/2026/apr/29/africa-music-industry-ai-artificial-intelligence",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 04:00:45 GMT",
+        "summary_zh": "近期，非洲音樂界出現了一個有趣的事件：一位尼日利亞歌手Fave的歌曲被用AI合成的合唱組合重新錄製，迅速在網路上成為熱門話題。為了應對這種情況，Fave決定錄製了一個自己的混音版本，將AI合成的歌曲整合進去，並將它加進自己的專輯中。非洲音樂業界的律師Oyinkansola Fawehinmi認為，這是個聰明的做法，展現了對商業的敏感性。這種做法不僅讓Fave能夠控制自己的作品，也讓她能夠從中獲益。然而，這也引起了一些關於AI在音樂產業中的風險和好處的討論。一些人認為，AI將取代音樂創作者的工作，而另一些人則認為，AI能夠幫助音樂創作者創造新的音樂作品。非洲音樂業界正在努力找出如何與AI共存，同時保持音樂創作的原創性和真實性。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "cd4a0348",
-        "title": "梅拉尼婭夫人與英國皇后卡蜜拉一同強調科技與教育的重要性",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-reinforces-the-importance-of-technology-and-education-with-her-majesty-queen-camilla/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Apr 2026 16:41:50 +0000",
-        "summary_zh": "美國第一夫人梅拉尼婭夫人與英國皇后卡蜜拉一同主持了一項跨文化教育計劃，利用人工智慧和虛擬實境。這項計劃的靈感來自梅拉尼婭夫人的「共同創造未來」的理念，美國學生與英國皇后卡蜜拉一同學習英美歷史。梅拉尼婭夫人強調，今天的學生可以透過科技和教育，與世界各地的學生交流和學習。這項計劃旨在促進英美文化之間的交流和理解。梅拉尼婭夫人與英國皇后卡蜜拉的合作，將為兩國的學生帶來新的學習機會和經驗。這項計劃的成功將為未來的教育和文化交流提供新的方向和靈感。",
+        "id": "74795110",
+        "title": "地緣政治衝擊北歐供應鏈 芬蘭對中依賴度居5國之冠",
+        "url": "https://www.cna.com.tw/news/aopl/202604290209.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 16:06:23 +0800",
+        "summary_zh": "芬蘭經濟研究院最新研究指出，北歐5國雖然同為高度仰賴對外貿易的小型開放經濟體，但面對地緣政治衝擊時的避險能力卻各不相同。芬蘭對中國進口的依賴程度最高，尤其是鋰離子電池的供應缺口風險最大。這意味著芬蘭在面臨地緣政治風險時，可能會受到較大的影響。這項研究結果對於芬蘭政府和企業來說是一個重要警訊，需要重視對中國的依賴度，並積極尋找替代供應商來降低風險。同時，這也提醒北歐其他國家需要提高對地緣政治風險的警覺性，並采取相應措施來保護自己的供應鏈安全。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "ff566606",
+        "title": "俄羅斯宣稱其非洲軍團阻止馬里政變，斥擊叛軍造成不可估量損失",
+        "url": "https://www.theguardian.com/world/2026/apr/28/russia-claims-its-africa-corps-group-prevented-coup-in-mali-after-rebels-seize-towns",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 28 Apr 2026 17:07:27 GMT",
+        "summary_zh": "俄羅斯國防部宣稱其非洲軍團（前身為瓦格納傭兵團）成功阻止馬里過週末發生的政變，避免了大規模平民傷亡，並對叛軍造成「不可估量損失」。俄羅斯國防部表示，其在沙漠小鎮基達爾（靠近阿爾及利亞邊境）部署的軍隊在被包圍且人數遠遠少於叛軍的情況下，戰鬥超過24小時。俄羅斯國防部還指控沒有提供證據，叛軍被歐洲傭兵教官，包括烏克蘭人所訓練。傷亡人數未有具體數字。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c6ad26be",
+        "title": "索馬里海盜活動再現：三艘船隻在一週內被劫持",
+        "url": "https://www.theguardian.com/world/2026/apr/28/fears-resurgence-somalia-piracy-three-vessels-hijacked-past-week",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 28 Apr 2026 16:20:00 GMT",
+        "summary_zh": "索馬里海盜活動再次引起關注，近期有三艘船隻在該國海域被劫持。這些船隻包括一艘商船Sward和一艘油輪Honour 25，後者運載了18,000桶石油。這些劫持事件發生在國際海軍力量被重新部署到該地區後，海盜似乎正在利用這個機會。這些事件加劇了全球航運業的困境。海盜活動的再現可能會對索馬里和周邊地區的安全造成重大影響。目前尚未有明確的跡象表明海盜活動會持續擴散，但這些事件仍引起了國際社會的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e4f18cef",
+        "title": "印度億萬富翁的兒子願意收留帕布羅·埃斯科巴的河馬",
+        "url": "https://www.theguardian.com/world/2026/apr/29/indian-billionaire-son-anant-ambani-offers-house-pablo-escobar-hippos",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 07:00:48 GMT",
+        "summary_zh": "印度億萬富翁阿南特·安巴尼再次提出將帕布羅·埃斯科巴的 80 頭河馬從哥倫比亞運往印度的計畫。這些河馬是哥倫比亞毒梟的寵物後代，目前仍在哥倫比亞自由放養。帕布羅·埃斯科巴在 1993 年去世後，這些河馬和他們的後代被遺棄在野外。這個問題一直困擾著現代動物學界，如何處理這些河馬的問題仍未有明確的答案。阿南特·安巴尼的計畫可能會為這個問題提供解決方案。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "50370d6e",
+        "title": "美軍士兵被控利用內部情報賭下令馬杜羅下台，否認欺詐罪名",
+        "url": "https://www.theguardian.com/us-news/2026/apr/28/us-soldier-maduro-betting-charges-plea",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 28 Apr 2026 18:05:06 GMT",
+        "summary_zh": "美軍士兵甘諾雲·范迪克（Gannon Ken Van Dyke）被控利用內部情報賭下令委內瑞拉前總統馬杜羅（Nicolás Maduro）下台，賺取 400 萬美元。范迪克在紐約曼哈頓的一個法庭中否認欺詐罪名。根據檢方的指控，范迪克利用軍方內部情報在 Polymarket 這個平台上下注，賺取了 400 萬美元。這起事件引起了關注，因為范迪克的行為被視為違反軍方的紀律和法律法規。范迪克的律師表示，他的客戶是無辜的，並將在庭上爭辯他的清白。這起事件的結果將對范迪克的軍事生涯和個人生活產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d41cdf4f",
+        "title": "墨西哥特種部隊逮捕強大犯罪集團高層指揮官",
+        "url": "https://www.theguardian.com/world/2026/apr/28/mexican-special-forces-arrest-top-commander-audias-flores-el-jardinero-of-powerful-cartel",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 28 Apr 2026 11:00:16 GMT",
+        "summary_zh": "墨西哥特種部隊在西部納亞里特州逮捕了強大賈利斯科新世代犯罪集團的高層指揮官奧迪亞斯·弗洛雷斯（Audias Flores），他被稱為「花園者」（El Jardinero）。弗洛雷斯是該集團在墨西哥太平洋沿岸的地區指揮官，控制著該地區的廣闊領土。他被視為前集團領袖內梅西奧·奧塞格拉（Nemesio Oseguera，別名「梅恩丘」（El Mencho））的潛在繼承人，後者在2月份的一次安全行動中被殺。墨西哥特種部隊的逮捕行動標誌著對該集團的重大打擊，同時也表明墨西哥政府對打擊犯罪集團的決心。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
-      {
-        "id": "e32e2b24",
-        "title": "民主黨的失控言論激發第三次對總統川普的暗殺企圖",
-        "url": "https://www.whitehouse.gov/releases/2026/04/democrats-unhinged-rhetoric-incites-third-assassination-attempt-on-president-trump/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Apr 2026 16:40:43 +0000",
-        "summary_zh": "近期，美國出現第三次對總統川普的暗殺企圖。這次事件發生在短短兩年內，顯示民主黨的言論對社會產生了極大的影響。根據觀察，民主黨對總統川普的攻擊言論已經持續了多年，造成了社會的極端化。民主黨的言論不僅對總統川普本人造成威脅，也對社會的和諧造成了嚴重的影響。這種言論不僅會激發極端份子對總統的仇恨，也會造成社會的分裂和不安。總統川普的安全受到威脅，民主黨的言論責任也應該受到檢視。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d0d6e746",
-        "title": "CEQ 啟動許可證創新者挑戰，邀請業界夥伴提供革新解決方案",
-        "url": "https://www.whitehouse.gov/releases/2026/04/ceq-opens-permitting-innovators-call-for-solutions-to-industry-partners/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Apr 2026 14:21:58 +0000",
-        "summary_zh": "美國白宮環境質量評估委員會（CEQ）與美國航空暨太空總署（NASA）合作，發起許可證創新者挑戰，邀請科技公司、初創企業、研究機構和非營利組織，共同幫助現代化美國聯邦許可證制度。這項挑戰將在今年 6 月結束，期望透過創新的解決方案，改善聯邦許可證程序，讓美國在 21 世紀更有效率地發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "669dd1b7",
-        "title": "國王的歷史性演說五大關鍵點",
-        "url": "https://www.bbc.com/news/articles/c8jvl3x19v9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 29 Apr 2026 06:23:28 GMT",
-        "summary_zh": "國王在國會的歷史性演說引起了各方關注。演說中有一些言論可能會讓民主黨人感到振奮，但也引起了白宮的關注。這些言論可能與美國政治的未來發展有關。民主黨人可能會從中找到機會來推動自己的政策。然而，白宮的反應則可能會對未來的政治局勢產生影響。這些言論也可能會引起國會的反應和回應。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6c1f56cf",
-        "title": "特朗普臉龐將出現在美國紀念性護照上",
-        "url": "https://www.bbc.com/news/articles/cr5pn1ngerpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Apr 2026 23:41:00 GMT",
-        "summary_zh": "美國政府宣布，為慶祝美國獨立宣言250週年，將發行一系列紀念性護照。特朗普的臉龐將出現在這些護照上。這項決定引起了廣泛的爭議，許多人批評政府將政治人物的臉龐印在護照上。這些護照將作為紀念品出售，部分收入將捐贈給美國獨立戰爭博物館。這項決定是否合理，還有待觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "37e80012",
-        "title": "川普在英國皇家訪問時表示：美國與英國的關係比任何時候都要緊密",
-        "url": "https://www.theguardian.com/us-news/live/2026/apr/28/donald-trump-king-charles-melania-camilla-white-house-congress-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 29 Apr 2026 02:04:27 GMT",
-        "summary_zh": "美國總統川普在英國皇家訪問的第二天，向英國皇室致歡迎辭，同時表達了他對美國與英國關係的肯定。然而，川普在與國安高層會議時，對伊朗最新的和平提議表達了不滿，似乎不太可能接受。伊朗的提議將重新開放霍爾木茲海峽，將伊朗核問題留待後續討論。川普的代表人表示，美國總統的紅線對伊朗已經非常明確，對美國公眾和伊朗人都已經表明。伊朗的提議是否被考慮，尚未有明確的跡象。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "856d2f64",
-        "title": "川普時事簡報：美國司法部再次針對 Comey 進行起訴",
-        "url": "https://www.theguardian.com/us-news/2026/apr/28/trump-news-latest-updates-today",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 29 Apr 2026 01:00:40 GMT",
-        "summary_zh": "美國司法部於去年川普總統出行期間，發現前 FBI 導演 James Comey 在 Instagram 上發布了一張照片，照片中有一堆貝殼排列成「86 47」的字樣。美國司法部認為這是對川普總統的威脅。美國司法部於 2026 年 4 月 28 日星期二對 Comey 進行新一輪起訴。起訴理由是 Comey 的 Instagram 發布內容被視為對川普總統的威脅。這是川普時期司法部針對政治對手進行起訴的又一例。川普總統曾經多次批評 Comey，認為他是政治對手。這一事件再次引發了對川普總統和司法部的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4da88386",
-        "title": "川普政府阻止美國風力發電項目轉向石油天然氣",
-        "url": "https://www.theguardian.com/us-news/2026/apr/28/trump-administration-wind-projects",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Apr 2026 21:37:43 GMT",
-        "summary_zh": "美國國會代表Jared Huffman和Jamie Raskin上個月稱這些協議是荒謬且違法。川普政府本週阻止了兩個已經獲得許可的美國風力發電項目的發展，條件是如果這些公司將退款投資在石油天然氣上，政府就會支付數百萬美元的退款。美國內政部官員將取消的協議描述為「促進美國能源安全和可負擔性」的方式，通過將資金從「間歇性、更高成本的能源來源」轉移到「可靠的傳統解決方案」。這項決定引起了許多人對能源政策的擔憂。這項政策可能會對美國的能源產業和環境造成長期影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d5c30394",
-        "title": "男子在母親被殺案中被捕，案件發生超過30年",
-        "url": "https://www.theguardian.com/us-news/2026/apr/28/cindy-wanner-cold-case-murder",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Apr 2026 21:35:33 GMT",
-        "summary_zh": "在加州的富裕郊區，Sacramento的一個案件已經困擾了數十年。1991年11月25日，35歲的辛迪·瓦納（Cindy Wanner）在她姐姐的家中失蹤。她的丈夫帶著四歲的女兒來到家中，發現11個月大的嬰兒孤獨地坐在高椅上，哭叫著。三周後，瓦納的屍體在40英里外的一個隱蔽的林地中被發現，她死於勒殺。經過數十年的調查，警方最終通過法醫DNA分析，逮捕了64歲的詹姆斯·拉夫黑德（James Lawhead）。這是一宗極其惡劣、臭名昭著的冷案，警方表示這是他們工作生涯中最令人震驚的案件之一。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "16e899e4",
-        "title": "美國軍人被控賭博 Maduro 辭職，否認詐欺罪",
-        "url": "https://www.bbc.com/news/articles/cd0p54j9r9vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Apr 2026 18:35:10 GMT",
-        "summary_zh": "美國一名軍官被指控利用機密情報在線預測市場中贏得 400 萬美元。根據調查，該軍官利用其在白宮的職位和機密資訊，進行了非法的賭博活動。這一事件引起了美國政府的關注，軍官被控犯有詐欺罪。軍官否認了這一指控，表示自己沒有做錯事。這一事件可能會對美國軍方的聲譽造成影響，同時也會引起對軍官們是否會利用機密資訊進行非法活動的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f0706eaa",
-        "title": "加州居民驚訝：槍手疑似是鄰居",
-        "url": "https://www.bbc.com/news/articles/c392knk3w2jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Apr 2026 18:19:13 GMT",
-        "summary_zh": "加州一名男子被控企圖暗殺川普，當地居民表示震驚，認為這名男子是他們的鄰居。居民們表示，與槍手的接觸非常普通，沒有任何跡象表明他會進行這種暴力行為。這起事件讓居民們感到困惑和恐懼，質疑自己是否能夠預測鄰居的行為。這起事件也引起了對美國社會的關注，是否存在著潛在的暴力和極端主義。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "57d5769d",
-        "title": "美軍官被指利用機密情報賭博推翻馬杜羅，另一面他還是房地產投資人並獲得好評的Airbnb房客",
-        "url": "https://www.bbc.com/news/articles/clyxd5wrr0wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Apr 2026 19:23:17 GMT",
-        "summary_zh": "一名美國軍官被指控利用機密情報賭博，贏得 400,000 美元。然而，這名軍官的另一面是房地產投資人，他在Airbnb上獲得了極高的評價。這名軍官被指控利用他的軍事職位和機密情報，進行賭博活動。這一事件引起了對軍方紀律和情報安全的關注。軍方正在調查此事件，並且正在對軍官進行懲處。這一事件也引起了對軍方紀律和情報安全的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "global": [
       {
         "id": "83695acc",
         "title": "法伊薩爾：阿聯酋退出歐佩克的意義重大",
@@ -240,6 +178,18 @@
         "ai_classified": true
       },
       {
+        "id": "7b83fdd3",
+        "title": "前FBI局長詹姆斯·科米遭第二次起訴",
+        "url": "https://www.bbc.com/news/articles/cvgz4rvlem5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 00:24:05 GMT",
+        "summary_zh": "前美國聯邦調查局局長詹姆斯·科米再次遭起訴，原因是他在2025年發布的一張海螺照片被批評者認為是鼓勵對美國總統進行暴力。這起指控與科米之前的指控不同，之前他因為泄露機密信息而被起訴。這次的指控可能會對科米的政治前途造成重大影響。科米曾在2016年至2017年擔任FBI局長，是一位備受關注的政治人物。美國總統對科米的指控表示不滿，認為這是對總統的不尊嚴行為。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "be5d7efe",
         "title": "伊朗學校罷課事件沉默週數異常長，前美國官員表示",
         "url": "https://www.bbc.com/news/articles/cwy2482pn0lo?at_medium=RSS&at_campaign=rss",
@@ -247,6 +197,18 @@
         "category": "global",
         "published_at": "Wed, 29 Apr 2026 02:01:50 GMT",
         "summary_zh": "伊朗學校罷課事件發生兩個月來，美國國防部一直保持沉默，只是表示事件正在調查中。前美國官員表示，這種沉默週數異常長，可能是因為事件涉及敏感情報或是政府內部的分歧。伊朗學校罷課事件引起了國際社會的關注，許多人呼籲美國政府對此事件給予更多的澄清。然而，美國國防部的沉默卻讓人感到疑惑，是否有什麼秘密正在被隱藏？",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e1dfea71",
+        "title": "美國監管機構將檢視迪士尼廣播牌照　Jimmy Kimmel對梅拉尼婭川普的笑話引發白宮壓力",
+        "url": "https://www.bbc.com/news/articles/c4g0zwxl3k0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 28 Apr 2026 19:48:49 GMT",
+        "summary_zh": "美國監管機構將檢視迪士尼控股的ABC廣播牌照。這一決定出現於白宮壓力下，白宮要求迪士尼控股的ABC開除節目主持人Jimmy Kimmel。 Jimmy Kimmel在節目中稱梅拉尼婭川普為「未出生的寡婦」，引發白宮不滿。白宮表示，這番言論不恰當，要求ABC開除Jimmy Kimmel。然而，目前尚未有任何跡象表明Jimmy Kimmel將被開除。這一事件引發了對言論自由和媒體自律的爭議。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -260,8 +222,8 @@
         "published_at": "Wed, 29 Apr 2026 06:42:29 GMT",
         "summary_zh": "日本一動物園員工被指涉嫌將妻子屍體扔入動物園的焚化爐。動物園因而被迫延遲重開，警察正在調查這一事件。動物園員工的這一行為引起了極大的震驚，許多人對此感到難以置信。這一事件的發生也引起了對動物園安全和員工心理健康的關注。目前，警察正在調查事件的細節，動物園的重開時間尚未確定。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "5652acdb",
@@ -312,114 +274,6 @@
         "ai_classified": true
       },
       {
-        "id": "4c3819fc",
-        "title": "89歲疑似槍手引發希臘雅典槍擊案，五人受傷",
-        "url": "https://www.bbc.com/news/articles/cyv2pmz2v86o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 28 Apr 2026 14:59:30 GMT",
-        "summary_zh": "希臘雅典發生槍擊案，據希臘國家廣播電台ERT報導，五人受傷，其中五人受傷情況嚴重，可能威脅生命。警方正在追捕疑似槍手，該男子年齡為89歲。希臘政府正在與當地警方合作，展開大規模搜索行動。槍擊案的原因尚未明朗，警方正在調查中。希臘雅典的槍擊案引起了社會的關注和擔憂，希臘政府和警方將繼續努力解決此案。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8dfe1986",
-        "title": "烏克蘭指控以色列收受俄羅斯盜竊的糧食",
-        "url": "https://www.bbc.com/news/articles/cqjplqgd1r2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 28 Apr 2026 13:51:51 GMT",
-        "summary_zh": "烏克蘭指控以色列收受俄羅斯盜竊的糧食。烏克蘭外交部表示，俄羅斯在佔領烏克蘭後，偷竊了大量糧食，並將其運往以色列。然而，以色列外交部否認此事，表示沒有任何證據支持這一指控。以色列外交部長表示，該國沒有收到任何證據表明一艘載有來自佔領烏克蘭的糧食的船隻抵達海法港口。這一事件引發了國際關注，烏克蘭和以色列的關係也因此受到影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7b83fdd3",
-        "title": "前FBI局長詹姆斯·科米遭第二次起訴",
-        "url": "https://www.bbc.com/news/articles/cvgz4rvlem5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 00:24:05 GMT",
-        "summary_zh": "前美國聯邦調查局局長詹姆斯·科米再次遭起訴，原因是他在2025年發布的一張海螺照片被批評者認為是鼓勵對美國總統進行暴力。這起指控與科米之前的指控不同，之前他因為泄露機密信息而被起訴。這次的指控可能會對科米的政治前途造成重大影響。科米曾在2016年至2017年擔任FBI局長，是一位備受關注的政治人物。美國總統對科米的指控表示不滿，認為這是對總統的不尊嚴行為。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1f07b8f7",
-        "title": "非洲音樂業界對AI風險與好處進行衡量",
-        "url": "https://www.theguardian.com/world/2026/apr/29/africa-music-industry-ai-artificial-intelligence",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 04:00:45 GMT",
-        "summary_zh": "近期，非洲音樂界出現了一個有趣的事件：一位尼日利亞歌手Fave的歌曲被用AI合成的合唱組合重新錄製，迅速在網路上成為熱門話題。為了應對這種情況，Fave決定錄製了一個自己的混音版本，將AI合成的歌曲整合進去，並將它加進自己的專輯中。非洲音樂業界的律師Oyinkansola Fawehinmi認為，這是個聰明的做法，展現了對商業的敏感性。這種做法不僅讓Fave能夠控制自己的作品，也讓她能夠從中獲益。然而，這也引起了一些關於AI在音樂產業中的風險和好處的討論。一些人認為，AI將取代音樂創作者的工作，而另一些人則認為，AI能夠幫助音樂創作者創造新的音樂作品。非洲音樂業界正在努力找出如何與AI共存，同時保持音樂創作的原創性和真實性。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ff566606",
-        "title": "俄羅斯宣稱其非洲軍團阻止馬里政變，斥擊叛軍造成不可估量損失",
-        "url": "https://www.theguardian.com/world/2026/apr/28/russia-claims-its-africa-corps-group-prevented-coup-in-mali-after-rebels-seize-towns",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 28 Apr 2026 17:07:27 GMT",
-        "summary_zh": "俄羅斯國防部宣稱其非洲軍團（前身為瓦格納傭兵團）成功阻止馬里過週末發生的政變，避免了大規模平民傷亡，並對叛軍造成「不可估量損失」。俄羅斯國防部表示，其在沙漠小鎮基達爾（靠近阿爾及利亞邊境）部署的軍隊在被包圍且人數遠遠少於叛軍的情況下，戰鬥超過24小時。俄羅斯國防部還指控沒有提供證據，叛軍被歐洲傭兵教官，包括烏克蘭人所訓練。傷亡人數未有具體數字。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e1dfea71",
-        "title": "美國監管機構將檢視迪士尼廣播牌照　Jimmy Kimmel對梅拉尼婭川普的笑話引發白宮壓力",
-        "url": "https://www.bbc.com/news/articles/c4g0zwxl3k0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 28 Apr 2026 19:48:49 GMT",
-        "summary_zh": "美國監管機構將檢視迪士尼控股的ABC廣播牌照。這一決定出現於白宮壓力下，白宮要求迪士尼控股的ABC開除節目主持人Jimmy Kimmel。 Jimmy Kimmel在節目中稱梅拉尼婭川普為「未出生的寡婦」，引發白宮不滿。白宮表示，這番言論不恰當，要求ABC開除Jimmy Kimmel。然而，目前尚未有任何跡象表明Jimmy Kimmel將被開除。這一事件引發了對言論自由和媒體自律的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c6ad26be",
-        "title": "索馬里海盜活動再現：三艘船隻在一週內被劫持",
-        "url": "https://www.theguardian.com/world/2026/apr/28/fears-resurgence-somalia-piracy-three-vessels-hijacked-past-week",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 28 Apr 2026 16:20:00 GMT",
-        "summary_zh": "索馬里海盜活動再次引起關注，近期有三艘船隻在該國海域被劫持。這些船隻包括一艘商船Sward和一艘油輪Honour 25，後者運載了18,000桶石油。這些劫持事件發生在國際海軍力量被重新部署到該地區後，海盜似乎正在利用這個機會。這些事件加劇了全球航運業的困境。海盜活動的再現可能會對索馬里和周邊地區的安全造成重大影響。目前尚未有明確的跡象表明海盜活動會持續擴散，但這些事件仍引起了國際社會的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "50370d6e",
-        "title": "美軍士兵被控利用內部情報賭下令馬杜羅下台，否認欺詐罪名",
-        "url": "https://www.theguardian.com/us-news/2026/apr/28/us-soldier-maduro-betting-charges-plea",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 28 Apr 2026 18:05:06 GMT",
-        "summary_zh": "美軍士兵甘諾雲·范迪克（Gannon Ken Van Dyke）被控利用內部情報賭下令委內瑞拉前總統馬杜羅（Nicolás Maduro）下台，賺取 400 萬美元。范迪克在紐約曼哈頓的一個法庭中否認欺詐罪名。根據檢方的指控，范迪克利用軍方內部情報在 Polymarket 這個平台上下注，賺取了 400 萬美元。這起事件引起了關注，因為范迪克的行為被視為違反軍方的紀律和法律法規。范迪克的律師表示，他的客戶是無辜的，並將在庭上爭辯他的清白。這起事件的結果將對范迪克的軍事生涯和個人生活產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d41cdf4f",
-        "title": "墨西哥特種部隊逮捕強大犯罪集團高層指揮官",
-        "url": "https://www.theguardian.com/world/2026/apr/28/mexican-special-forces-arrest-top-commander-audias-flores-el-jardinero-of-powerful-cartel",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 28 Apr 2026 11:00:16 GMT",
-        "summary_zh": "墨西哥特種部隊在西部納亞里特州逮捕了強大賈利斯科新世代犯罪集團的高層指揮官奧迪亞斯·弗洛雷斯（Audias Flores），他被稱為「花園者」（El Jardinero）。弗洛雷斯是該集團在墨西哥太平洋沿岸的地區指揮官，控制著該地區的廣闊領土。他被視為前集團領袖內梅西奧·奧塞格拉（Nemesio Oseguera，別名「梅恩丘」（El Mencho））的潛在繼承人，後者在2月份的一次安全行動中被殺。墨西哥特種部隊的逮捕行動標誌著對該集團的重大打擊，同時也表明墨西哥政府對打擊犯罪集團的決心。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "bdf836ec",
         "title": "飛行汽車和5分鐘充電：中國電動汽車業在伊朗危機中看見機會",
         "url": "https://www.bbc.com/news/videos/cm2pnde3l7yo?at_medium=RSS&at_campaign=rss",
@@ -439,6 +293,18 @@
         "category": "global",
         "published_at": "Wed, 29 Apr 2026 03:06:52 GMT",
         "summary_zh": "一名澳洲母親被判監禁，因為她偽造兒子患癌，為自己奢侈的生活籌款。這名母親曾經剃光兒子的頭髮和眉毛，作為這次詐騙的部分。這名母親的行為被揭露後，引起了社會的強烈譴責。這起案件顯示出，母親的行為對兒子的身心健康造成了嚴重的影響。社會對這名母親的判決感到欣慰，認為這樣的判決將有助於防止類似的案件發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "df376cad",
+        "title": "前演員 Nathan Chasing Horse 因性侵犯被判至少 37 年監禁",
+        "url": "https://www.bbc.com/news/articles/cx218vkdvpgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 28 Apr 2026 15:36:44 GMT",
+        "summary_zh": "美國一名49歲的前演員Nathan Chasing Horse因性侵犯被判監禁37年以上。法庭聽取了他利用自己作為精神領袖地位來侵犯原住民婦女和女孩的證詞。這名演員曾在幾部電影中出演，包括《天下無敵》。他被指控犯有多宗性侵犯罪，涉及多名原住民婦女和女孩。法庭認為他利用自己的地位來騙取信任，然後進行性侵犯。這名演員的判決將對原住民社區產生重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -466,33 +332,179 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      }
+    ],
+    "whitehouse": [
+      {
+        "id": "d44018c0",
+        "title": "特朗普稱王查爾斯同意禁止伊朗核武",
+        "url": "https://www.theguardian.com/us-news/2026/apr/29/king-charles-agrees-with-me-on-iran-nuclear-weapon-ban-says-trump",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 29 Apr 2026 07:48:45 GMT",
+        "summary_zh": "美國總統特朗普在白宮與英國國王查爾斯和卡米拉舉行會面，表示王查爾斯同意伊朗不應該擁有核武。這番話可能會令英國國王的顧問感到尷尬，因為英國國王通常保持中立立場。特朗普的言論可能會引起爭議，影響英美關係。王查爾斯和卡米拉的訪問是為了慶祝英美友誼，這番話可能會令訪問的氣氛變得尷尬。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
-        "id": "df376cad",
-        "title": "前演員 Nathan Chasing Horse 因性侵犯被判至少 37 年監禁",
-        "url": "https://www.bbc.com/news/articles/cx218vkdvpgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 28 Apr 2026 15:36:44 GMT",
-        "summary_zh": "美國一名49歲的前演員Nathan Chasing Horse因性侵犯被判監禁37年以上。法庭聽取了他利用自己作為精神領袖地位來侵犯原住民婦女和女孩的證詞。這名演員曾在幾部電影中出演，包括《天下無敵》。他被指控犯有多宗性侵犯罪，涉及多名原住民婦女和女孩。法庭認為他利用自己的地位來騙取信任，然後進行性侵犯。這名演員的判決將對原住民社區產生重大影響。",
+        "id": "37e80012",
+        "title": "川普在英國皇家訪問時表示：美國與英國的關係比任何時候都要緊密",
+        "url": "https://www.theguardian.com/us-news/live/2026/apr/28/donald-trump-king-charles-melania-camilla-white-house-congress-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 29 Apr 2026 02:04:27 GMT",
+        "summary_zh": "美國總統川普在英國皇家訪問的第二天，向英國皇室致歡迎辭，同時表達了他對美國與英國關係的肯定。然而，川普在與國安高層會議時，對伊朗最新的和平提議表達了不滿，似乎不太可能接受。伊朗的提議將重新開放霍爾木茲海峽，將伊朗核問題留待後續討論。川普的代表人表示，美國總統的紅線對伊朗已經非常明確，對美國公眾和伊朗人都已經表明。伊朗的提議是否被考慮，尚未有明確的跡象。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      }
-    ],
-    "ai": [
+      },
       {
-        "id": "08d8f04a",
-        "title": "馬斯克和阿爾曼的法律對決，人工智慧的利潤難題",
-        "url": "https://www.technologyreview.com/2026/04/28/1136479/the-download-musk-altman-openai-trial-ai-profit-problem/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Tue, 28 Apr 2026 12:10:00 +0000",
-        "summary_zh": "馬斯克和OpenAI CEO Sam Altman 將在本週的法庭上對開放式人工智慧的未來展開爭論。這場案件的影響將遠超出人工智慧領域。根據目前的消息，馬斯克和阿爾曼將在法庭上對開放式人工智慧的未來展開爭論。這場案件的結果將對人工智慧的發展產生重大影響。馬斯克和阿爾曼的爭論背後，還有著人工智慧的利潤難題。人工智慧的發展正在快速推進，但它的利潤卻一直是個難題。這個難題不僅影響著人工智慧的發展，也影響著整個科技業的未來。馬斯克和阿爾曼的爭論將對人工智慧的發展產生重大影響，也將對整個科技業的未來產生影響。",
+        "id": "856d2f64",
+        "title": "川普時事簡報：美國司法部再次針對 Comey 進行起訴",
+        "url": "https://www.theguardian.com/us-news/2026/apr/28/trump-news-latest-updates-today",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 29 Apr 2026 01:00:40 GMT",
+        "summary_zh": "美國司法部於去年川普總統出行期間，發現前 FBI 導演 James Comey 在 Instagram 上發布了一張照片，照片中有一堆貝殼排列成「86 47」的字樣。美國司法部認為這是對川普總統的威脅。美國司法部於 2026 年 4 月 28 日星期二對 Comey 進行新一輪起訴。起訴理由是 Comey 的 Instagram 發布內容被視為對川普總統的威脅。這是川普時期司法部針對政治對手進行起訴的又一例。川普總統曾經多次批評 Comey，認為他是政治對手。這一事件再次引發了對川普總統和司法部的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4da88386",
+        "title": "川普政府阻止美國風力發電項目轉向石油天然氣",
+        "url": "https://www.theguardian.com/us-news/2026/apr/28/trump-administration-wind-projects",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Apr 2026 21:37:43 GMT",
+        "summary_zh": "美國國會代表Jared Huffman和Jamie Raskin上個月稱這些協議是荒謬且違法。川普政府本週阻止了兩個已經獲得許可的美國風力發電項目的發展，條件是如果這些公司將退款投資在石油天然氣上，政府就會支付數百萬美元的退款。美國內政部官員將取消的協議描述為「促進美國能源安全和可負擔性」的方式，通過將資金從「間歇性、更高成本的能源來源」轉移到「可靠的傳統解決方案」。這項決定引起了許多人對能源政策的擔憂。這項政策可能會對美國的能源產業和環境造成長期影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d5c30394",
+        "title": "男子在母親被殺案中被捕，案件發生超過30年",
+        "url": "https://www.theguardian.com/us-news/2026/apr/28/cindy-wanner-cold-case-murder",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Apr 2026 21:35:33 GMT",
+        "summary_zh": "在加州的富裕郊區，Sacramento的一個案件已經困擾了數十年。1991年11月25日，35歲的辛迪·瓦納（Cindy Wanner）在她姐姐的家中失蹤。她的丈夫帶著四歲的女兒來到家中，發現11個月大的嬰兒孤獨地坐在高椅上，哭叫著。三周後，瓦納的屍體在40英里外的一個隱蔽的林地中被發現，她死於勒殺。經過數十年的調查，警方最終通過法醫DNA分析，逮捕了64歲的詹姆斯·拉夫黑德（James Lawhead）。這是一宗極其惡劣、臭名昭著的冷案，警方表示這是他們工作生涯中最令人震驚的案件之一。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "669dd1b7",
+        "title": "國王的歷史性演說五大關鍵點",
+        "url": "https://www.bbc.com/news/articles/c8jvl3x19v9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 29 Apr 2026 08:48:08 GMT",
+        "summary_zh": "國王在國會的歷史性演說引起了各方關注。演說中有一些言論可能會讓民主黨人感到振奮，但也引起了白宮的關注。這些言論可能與美國政治的未來發展有關。民主黨人可能會從中找到機會來推動自己的政策。然而，白宮的反應則可能會對未來的政治局勢產生影響。這些言論也可能會引起國會的反應和回應。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
+      {
+        "id": "6c1f56cf",
+        "title": "特朗普臉龐將出現在美國紀念性護照上",
+        "url": "https://www.bbc.com/news/articles/cr5pn1ngerpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Apr 2026 23:41:00 GMT",
+        "summary_zh": "美國政府宣布，為慶祝美國獨立宣言250週年，將發行一系列紀念性護照。特朗普的臉龐將出現在這些護照上。這項決定引起了廣泛的爭議，許多人批評政府將政治人物的臉龐印在護照上。這些護照將作為紀念品出售，部分收入將捐贈給美國獨立戰爭博物館。這項決定是否合理，還有待觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "16e899e4",
+        "title": "美國軍人被控賭博 Maduro 辭職，否認詐欺罪",
+        "url": "https://www.bbc.com/news/articles/cd0p54j9r9vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Apr 2026 18:35:10 GMT",
+        "summary_zh": "美國一名軍官被指控利用機密情報在線預測市場中贏得 400 萬美元。根據調查，該軍官利用其在白宮的職位和機密資訊，進行了非法的賭博活動。這一事件引起了美國政府的關注，軍官被控犯有詐欺罪。軍官否認了這一指控，表示自己沒有做錯事。這一事件可能會對美國軍方的聲譽造成影響，同時也會引起對軍官們是否會利用機密資訊進行非法活動的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f0706eaa",
+        "title": "加州居民驚訝：槍手疑似是鄰居",
+        "url": "https://www.bbc.com/news/articles/c392knk3w2jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Apr 2026 18:19:13 GMT",
+        "summary_zh": "加州一名男子被控企圖暗殺川普，當地居民表示震驚，認為這名男子是他們的鄰居。居民們表示，與槍手的接觸非常普通，沒有任何跡象表明他會進行這種暴力行為。這起事件讓居民們感到困惑和恐懼，質疑自己是否能夠預測鄰居的行為。這起事件也引起了對美國社會的關注，是否存在著潛在的暴力和極端主義。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "57d5769d",
+        "title": "美軍官被指利用機密情報賭博推翻馬杜羅，另一面他還是房地產投資人並獲得好評的Airbnb房客",
+        "url": "https://www.bbc.com/news/articles/clyxd5wrr0wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Apr 2026 19:23:17 GMT",
+        "summary_zh": "一名美國軍官被指控利用機密情報賭博，贏得 400,000 美元。然而，這名軍官的另一面是房地產投資人，他在Airbnb上獲得了極高的評價。這名軍官被指控利用他的軍事職位和機密情報，進行賭博活動。這一事件引起了對軍方紀律和情報安全的關注。軍方正在調查此事件，並且正在對軍官進行懲處。這一事件也引起了對軍方紀律和情報安全的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "864edcf9",
+        "title": "白宮宣布特朗普夫婦將與英國國王查爾斯三世和王后卡蜜拉舉行國宴",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-releases-details-on-the-state-dinner-with-his-majesty-king-charles-the-iii-of-the-united-kingdom-of-great-britain-and-northern-ireland-and-her-majesty-queen-camilla/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Apr 2026 23:43:51 +0000",
+        "summary_zh": "白宮宣布，美國總統特朗普和第一夫人梅拉尼婭將於今天晚上（2026年4月28日）歡迎英國國王查爾斯三世和王后卡蜜拉參加國宴。第一夫人梅拉尼婭負責籌備國宴的準備工作，該活動將以尊榮英國國王和王后的方式進行。這次國宴將是美國與英國之間的重要外交活動，展現兩國之間的友誼和合作關係。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cd4a0348",
+        "title": "梅拉尼婭夫人與英國皇后卡蜜拉一同強調科技與教育的重要性",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/first-lady-melania-trump-reinforces-the-importance-of-technology-and-education-with-her-majesty-queen-camilla/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Apr 2026 16:41:50 +0000",
+        "summary_zh": "美國第一夫人梅拉尼婭夫人與英國皇后卡蜜拉一同主持了一項跨文化教育計劃，利用人工智慧和虛擬實境。這項計劃的靈感來自梅拉尼婭夫人的「共同創造未來」的理念，美國學生與英國皇后卡蜜拉一同學習英美歷史。梅拉尼婭夫人強調，今天的學生可以透過科技和教育，與世界各地的學生交流和學習。這項計劃旨在促進英美文化之間的交流和理解。梅拉尼婭夫人與英國皇后卡蜜拉的合作，將為兩國的學生帶來新的學習機會和經驗。這項計劃的成功將為未來的教育和文化交流提供新的方向和靈感。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e32e2b24",
+        "title": "民主黨的失控言論激發第三次對總統川普的暗殺企圖",
+        "url": "https://www.whitehouse.gov/releases/2026/04/democrats-unhinged-rhetoric-incites-third-assassination-attempt-on-president-trump/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Apr 2026 16:40:43 +0000",
+        "summary_zh": "近期，美國出現第三次對總統川普的暗殺企圖。這次事件發生在短短兩年內，顯示民主黨的言論對社會產生了極大的影響。根據觀察，民主黨對總統川普的攻擊言論已經持續了多年，造成了社會的極端化。民主黨的言論不僅對總統川普本人造成威脅，也對社會的和諧造成了嚴重的影響。這種言論不僅會激發極端份子對總統的仇恨，也會造成社會的分裂和不安。總統川普的安全受到威脅，民主黨的言論責任也應該受到檢視。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d0d6e746",
+        "title": "CEQ 啟動許可證創新者挑戰，邀請業界夥伴提供革新解決方案",
+        "url": "https://www.whitehouse.gov/releases/2026/04/ceq-opens-permitting-innovators-call-for-solutions-to-industry-partners/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Apr 2026 14:21:58 +0000",
+        "summary_zh": "美國白宮環境質量評估委員會（CEQ）與美國航空暨太空總署（NASA）合作，發起許可證創新者挑戰，邀請科技公司、初創企業、研究機構和非營利組織，共同幫助現代化美國聯邦許可證制度。這項挑戰將在今年 6 月結束，期望透過創新的解決方案，改善聯邦許可證程序，讓美國在 21 世紀更有效率地發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "ai": [
       {
         "id": "1c752587",
         "title": "埃隆·馬斯克在法庭上表現出來的更像是在吵架，而不是準備",
@@ -513,18 +525,6 @@
         "category": "ai",
         "published_at": "2026-04-28T16:46:54-04:00",
         "summary_zh": "埃隆·穆斯克在與OpenAI共同創辦人、現任CEO薩姆·阿爾特曼的高調法庭案中，展現出自己是一個拯救者。穆斯克在法庭上開始介紹自己的背景，從南非的成長到來到加拿大就讀大學，帶著只有 2,500 加元的旅遊支票。穆斯克表示，他的目標是要讓人工智慧成為一種有益於人类的技術，並且要讓人們能夠與人工智慧共存。穆斯克還表示，他的行動是為了保護人类免於人工智慧的威脅。穆斯克的表現似乎是在試圖為自己辯護，同時也在試圖塑造自己的形象。然而，這個法庭案的結果仍然尚未可知。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4bc848a6",
-        "title": "馬斯克表示在 OpenAI 訴訟中慈善捐贈的基礎在搏鬥",
-        "url": "https://www.bbc.com/news/articles/cz027nyz529o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "ai",
-        "published_at": "Tue, 28 Apr 2026 19:43:02 GMT",
-        "summary_zh": "馬斯克在 OpenAI 訴訟中表示，該公司的慈善捐贈基礎可能會受到影響。這起訴訟可能對人工智慧的未來產生重大影響。OpenAI 的歷史和公眾承諾將在法庭上進行審判。這可能會對人工智慧的發展產生重大影響。馬斯克的聲明表明了對 OpenAI 慈善捐贈基礎的擔憂。這可能會對未來的慈善捐贈活動產生重大影響。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -614,6 +614,30 @@
         "ai_classified": true
       },
       {
+        "id": "08d8f04a",
+        "title": "馬斯克和阿爾曼的法律對決，人工智慧的利潤難題",
+        "url": "https://www.technologyreview.com/2026/04/28/1136479/the-download-musk-altman-openai-trial-ai-profit-problem/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Tue, 28 Apr 2026 12:10:00 +0000",
+        "summary_zh": "馬斯克和OpenAI CEO Sam Altman 將在本週的法庭上對開放式人工智慧的未來展開爭論。這場案件的影響將遠超出人工智慧領域。根據目前的消息，馬斯克和阿爾曼將在法庭上對開放式人工智慧的未來展開爭論。這場案件的結果將對人工智慧的發展產生重大影響。馬斯克和阿爾曼的爭論背後，還有著人工智慧的利潤難題。人工智慧的發展正在快速推進，但它的利潤卻一直是個難題。這個難題不僅影響著人工智慧的發展，也影響著整個科技業的未來。馬斯克和阿爾曼的爭論將對人工智慧的發展產生重大影響，也將對整個科技業的未來產生影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4bc848a6",
+        "title": "馬斯克表示在 OpenAI 訴訟中慈善捐贈的基礎在搏鬥",
+        "url": "https://www.bbc.com/news/articles/cz027nyz529o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "ai",
+        "published_at": "Tue, 28 Apr 2026 19:43:02 GMT",
+        "summary_zh": "馬斯克在 OpenAI 訴訟中表示，該公司的慈善捐贈基礎可能會受到影響。這起訴訟可能對人工智慧的未來產生重大影響。OpenAI 的歷史和公眾承諾將在法庭上進行審判。這可能會對人工智慧的發展產生重大影響。馬斯克的聲明表明了對 OpenAI 慈善捐贈基礎的擔憂。這可能會對未來的慈善捐贈活動產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "b4ad1354",
         "title": "為什麼 Sam Altman 和他的前偶像 Elon Musk 將惡意鬥爭帶到法庭？",
         "url": "https://www.bbc.com/news/articles/cn8dedv8w8xo?at_medium=RSS&at_campaign=rss",
@@ -626,7 +650,153 @@
         "ai_classified": true
       }
     ],
+    "finance": [
+      {
+        "id": "8b7b015c",
+        "title": "三星Dynasty財富一年翻倍達45億美元",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-28/ai-boom-doubles-samsung-dynasty-s-wealth-to-45-billion-in-just-one-year",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-28 21:00:00",
+        "summary_zh": "三星Dynasty的財富在一年內翻倍，達到45億美元。這家公司的財富增長令人震驚，表明其在市場上取得了顯著的成功。根據最新的數據，三星Dynasty的財富增長速度遠超市場平均水平。這家公司的財富增長主要是由於其在半導體和電子產品領域的業務取得了巨大成功。三星Dynasty的財富增長對於市場的影響是顯著的，許多投資者和分析師都對其財富增長感到驚訝。然而，三星Dynasty的財富增長也引發了對市場風險的關注。投資者需要密切關注市場的變化，以確保投資的安全性。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "85a618ef",
+        "title": "NXP半導體預測強勁季度業績，股價大幅上升",
+        "url": "https://www.reuters.com/business/nxp-semiconductors-forecasts-strong-quarterly-results-shares-jump-2026-04-28/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-28 20:59:46",
+        "summary_zh": "NXP半導體預測本季度將會出現強勁的業績，股價因此大幅上升。根據市場分析，NXP半導體的業績增長主要是由於其在汽車電子和工業控制領域的業務快速擴張。這些業務增長的原因是由於全球汽車和工業的需求增加，NXP半導體的產品正是滿足這些需求的關鍵零部件。這項預測表明，NXP半導體的業務正在取得持續的成長，並且股價的上升是對這項成長的反映。然而，投資者仍需密切關注市場的變化和未來的趨勢，以確保投資的安全和收益。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "3a0a0f95",
+        "title": "Nvidia相關數據中心籌集 459 億美元的垃圾債券",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-28/nvidia-tied-data-center-raises-4-59-billion-from-junk-bond-sale",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-28 20:57:53",
+        "summary_zh": "數據中心公司 Data Center Holdings 由 Nvidia 控股，近日發行了 459 億美元的垃圾債券，籌集了這筆巨額資金。這筆融資將有助於該公司擴大其業務，包括購買和建造新的數據中心。 Data Center Holdings 的這一融資行動表明了該公司對未來發展的信心。該公司的業務範圍包括雲計算、人工智能和高性能計算等領域。這筆融資將對該公司的未來發展產生重要影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a15e40af",
+        "title": "PPG 營收超越市場預期，利潤強勁",
+        "url": "https://www.reuters.com/business/ppg-beats-quarterly-profit-revenue-estimates-pricing-strength-2026-04-28/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-28 20:57:17",
+        "summary_zh": "PPG Industries 進入 2024 年第一季度，公司的營收和利潤都超越市場預期。該公司的營收達到 5.35 億美元，遠超市場預期的 5.23 億美元。同時，公司的淨利潤也達到 1.43 億美元，遠超市場預期的 1.36 億美元。這些強勁的業績表現主要歸功於公司的價格強勁。公司的管理層表示，市場需求持續增強，價格壓力仍在上升。這些消息對於投資者來說是一個積極的信號，表明公司的財務狀況良好。然而，未來市場的變化仍將對公司的業績產生影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "6c19b4fe",
+        "title": "中東戰爭推升油價 道達爾能源首季淨利年增近50%",
+        "url": "https://www.cna.com.tw/news/afe/202604290202.aspx",
+        "source": "中央社財經",
+        "category": "finance",
+        "published_at": "Wed, 29 Apr 2026 15:45:08 +0800",
+        "summary_zh": "中東戰爭爆發後，油價大幅上升，導致道達爾能源的淨利在今年第一季度大幅增加。根據道達爾能源的公告，今年第一季度的淨利達58億美元，相較於去年的同期，年增近50%。這種情況下，道達爾能源的財務表現顯得相當亮眼。然而，中東戰爭的持續影響油價的波動，仍然是市場關注的焦點。投資者將密切關注油價的變化，對公司的財務表現產生影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "3d3c2ed8",
+        "title": "中金集團計劃在拉阿雷納銅礦投資 15 億美元",
+        "url": "https://www.reuters.com/world/asia-pacific/chinas-zijin-plans-15-billion-investment-la-arena-copper-mine-2026-04-28/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-28 20:54:45",
+        "summary_zh": "中金集團宣布計劃在智利拉阿雷納銅礦投資 15 億美元。這項投資將使中金集團在拉阿雷納擁有 100% 的股權。拉阿雷納銅礦是一座現有的銅礦，目前每年生產約 100 萬噸銅。中金集團表示，這項投資將使公司在銅礦業的全球領導地位更加鞏固。這項投資將對智利的經濟產生重大影響，並且將創造大量就業機會。中金集團的這項投資表明，公司正在積極擴展業務，並且在全球市場上取得重要進展。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a4ddaebd",
+        "title": "百威高露露終止與詹金斯威士忌母公司合併談判",
+        "url": "https://www.reuters.com/business/pernod-ricard-ends-merger-talks-with-jack-daniels-owner-2026-04-28/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-28 20:54:32",
+        "summary_zh": "百威高露露宣布終止與詹金斯威士忌母公司布朗-福曼的合併談判，兩家公司無法達成共識。百威高露露是一家法國的飲料公司，布朗-福曼則是美國的酒類公司，詹金斯威士忌是其旗下知名品牌。百威高露露的決定意味著這次合併的可能性已經消失。這項消息對於百威高露露和布朗-福曼的未來發展方向會產生什麼影響？百威高露露和布朗-福曼是否會尋找其他合併機會？這項事件對於全球酒類市場會有什麼影響？百威高露露和布朗-福曼的股價會受到多大影響？",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b3e97f3e",
+        "title": "OpenAI 阿爾特曼「盜竊慈善機構」，馬斯克在法庭上指控",
+        "url": "https://www.ft.com/content/a6a987e0-fd93-49c5-a161-2e217c3817b8",
+        "source": "FT Tech",
+        "category": "finance",
+        "published_at": "Tue, 28 Apr 2026 23:04:31 GMT",
+        "summary_zh": "美國知名人工智慧公司 OpenAI 的創辦人 Sam Altman 面臨著一場法律戰役。馬斯克指控 Altman 在 OpenAI 成立初期，將公司的非營利使命出售給了投資者。馬斯克認為這違反了 OpenAI 的初衷，將一家原本為慈善目的而成立的公司變成了一家純粹為利潤而生的企業。這場法律戰役將會展開一系列的庭審，展現出 OpenAI 的創辦人和投資者的爭議。這一事件也引發了對於人工智慧公司的非營利使命和商業化的爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "stock_tw": [
+      {
+        "id": "5365d354",
+        "title": "新台幣貶3.9分 收31.557元",
+        "url": "https://www.cna.com.tw/news/afe/202604290210.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 29 Apr 2026 16:07:25 +0800",
+        "summary_zh": "台北外匯市場新台幣兌美元今天收盤收31.557元，相較於前一交易日貶3.9分。這意味著新台幣的兌換率有所下滑，對於出口企業和外匯儲備管理者可能造成影響。外匯市場的波動通常與全球經濟趨勢、政治風險和投資者信心等因素有關。這次新台幣貶值的原因尚未明確，但可能與全球經濟不確定性、台幣流動性不足等因素有關。未來外匯市場的走向將取決於多種因素，包括全球經濟情況、政治風險和投資者信心等。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "85a52350",
+        "title": "盛群3月通知調漲低毛利產品售價 第2季營收看增",
+        "url": "https://www.cna.com.tw/news/afe/202604290203.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 29 Apr 2026 15:50:10 +0800",
+        "summary_zh": "盛群副總經理潘建州表示，隨著中國同業陸續調漲售價，公司3月起通知客戶調漲低毛利產品售價，預期第2季營收可望優於第1季及去年同期水準。這意味著盛群將在市場上提高競爭力，從而帶動營收增長。然而，是否能夠實現預期的營收增長，還需要觀察市場反應和競爭情況。盛群的這一決策，可能會對整個半導體產業產生影響，尤其是在微控制器市場。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "244463f2",
+        "title": "美國加強布局巴爾幹半島 波士尼亞等國簽能源協議",
+        "url": "https://www.cna.com.tw/news/aopl/202604290192.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 29 Apr 2026 15:28:46 +0800",
+        "summary_zh": "巴爾幹半島國家近日簽署了一項重大能源協議，涉及美國企業。這項協議旨在幫助這些國家減少對俄羅斯天然氣的依賴。美國政府認為，這項協議顯示了美國在巴爾幹半島的布局正在加強。這項協議將對巴爾幹半島地區的能源安全和經濟發展產生重要影響。美國企業將在這項協議中扮演重要角色，幫助這些國家發展自己的能源產業。這項協議的簽署標誌著巴爾幹半島國家與美國企業之間的合作關係進一步加深。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "81ff0b3d",
+        "title": "台積電晶圓20廠第3廠安裝無塵室 第4季投產",
+        "url": "https://www.cna.com.tw/news/afe/202604290186.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 29 Apr 2026 15:15:34 +0800",
+        "summary_zh": "台積電在竹科寶山二期的晶圓20廠正在建設4座廠房，目前已經有2座廠房開始生產2奈米製程技術。根據竹科管理局長胡世民的說法，第3廠正在安裝無塵室，預計在第4季開始投產。這項投資將進一步提升台積電的製程技術和生產能力，為全球晶圓市場提供更多的選擇。這項發展對於台積電和全球晶圓產業都有重要影響，將進一步推動產業的發展和競爭。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "778caf26",
         "title": "5月電子期跌 金融期漲",
@@ -636,8 +806,8 @@
         "published_at": "Wed, 29 Apr 2026 14:19:42 +0800",
         "summary_zh": "台北股市今天下跌218.23點，收39303.5點。電子期商品期貨市場出現下跌趨勢，5月電子期收2538.35點，下跌25.15點。然而，金融期商品期貨市場則出現上漲趨勢，5月金融期收2524.4點，上漲33.6點。這些變化可能與市場對經濟情勢的預期和投資者的行為有關。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "e4b016ab",
@@ -648,8 +818,8 @@
         "published_at": "Wed, 29 Apr 2026 14:13:36 +0800",
         "summary_zh": "台北股市今天終場跌218.23點，收39303.5點。5月台指期以39490點作收，下跌243點，與現貨相較，正價差186.5點。這表明市場對未來股市趨勢的預期有所下降。目前台股的表現仍然受到市場情緒的影響，投資者應該保持謹慎的態度。未來市場的走向將取決於多種因素，包括經濟數據、公司財報等。投資者應該密切關注市場的動態，做好準備應對未來的挑戰。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "8fe27c61",
@@ -660,8 +830,8 @@
         "published_at": "Wed, 29 Apr 2026 14:09:27 +0800",
         "summary_zh": "國發會舉辦的創業綻放-創業大聯盟競賽結果出爐，國發會主委葉俊顯表示，這不僅是一場競賽，更是建立充滿活力的創新生態系的重要里程碑。葉俊顯強調，台灣不僅只有半導體產業，還有許多其他創新領域，例如生技醫療。根據葉俊顯的看法，生技醫療將成為台灣下一座重要產業，甚至可成為下一座護國神山。這意味著台灣將在這個領域展開新的發展機會。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "19e37d1f",
@@ -672,8 +842,8 @@
         "published_at": "Wed, 29 Apr 2026 14:03:21 +0800",
         "summary_zh": "台北股市今天開低震盪，收盤跌218.23點，為39303.5點，跌幅0.55%，成交金額新台幣8750.76億元。這次市場的變動主要是受全球市場的影響，特別是美國股市的波動。台股的跌幅雖然不大，但仍然是市場的關注點。分析師預測，未來市場可能會繼續波動，但投資人仍應保持冷靜，選擇合理的投資策略。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "335005ec",
@@ -684,59 +854,47 @@
         "published_at": "Wed, 29 Apr 2026 13:51:19 +0800",
         "summary_zh": "台股早盤下跌逾600點至38896.30點，回測5日線，引發市場關注。然而，跌幅隨後收斂，盤中一度翻紅，展現出市場的反彈意願。終場，集中市場指數下跌218.23點，收39303.50點，成交值新台幣8750.76億元。這次的下跌可能與市場對經濟前景的擔憂有關，投資者正在觀察市場的反應。未來市場的走勢將取決於多種因素，包括經濟數據、政策變化和市場情緒等。投資者需要保持警醒和耐心，隨時準備應對市場的變化。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "19ad3666",
-        "title": "台積電休兵 台股跌逾400點回測5日線",
-        "url": "https://www.cna.com.tw/news/afe/202604290048.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 29 Apr 2026 10:49:37 +0800",
-        "summary_zh": "台股近期受美國費城半導體指數影響，費半指數本週連續兩天收黑，導致台股今天從歷史高檔下滑。盤中最多下跌逾600點，最後收盤在38896.30點，接近5日線約38985點。這次市場波動可能與台積電休兵有關，台積電是台股的重要指標股。市場分析師認為，台股下跌可能是短期市場調整，長期來看，台股仍有升值空間。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "70d49a7c",
-        "title": "東元安達康爭取AI資料中心訂單 拚下半年登錄興櫃",
-        "url": "https://www.cna.com.tw/news/afe/202604290035.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 29 Apr 2026 09:49:08 +0800",
-        "summary_zh": "東元旗下安達康科技在馬來西亞檳城新廠開幕，董事長林達文表示，當地將擴產裝甲匯流排，積極爭取美系雲端服務供應商和人工智慧AI晶片大廠訂單。目標是供應馬來西亞、泰國、印尼以及新加坡等資料中心市場。安達康將在下半年嘗試登錄興櫃。這項發展有望為東元帶來新的商機和收入增長機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5d127eff",
-        "title": "東元集團董事長利明献：未來3至5年AI資料中心生意做不完",
-        "url": "https://www.cna.com.tw/news/afe/202604290031.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 29 Apr 2026 09:41:00 +0800",
-        "summary_zh": "東元集團旗下安達康科技在馬來西亞檳城新廠今天開幕，董事長利明献表示，未來3至5年人工智慧AI資料中心工程設備的市場需求將大幅增加，甚至說是「生意做不完」。東元集團正在規劃在中國大陸以外的亞洲市場，非伺服器相關AI資料中心、機電設備供應和統包工程市占率達到2成。這意味著東元集團將在這個領域佔據重要地位。利明献的預測表明，人工智慧和AI技術在未來幾年將會持續發展和擴大應用，對相關產業和市場將會產生重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e2c26881",
-        "title": "權值股漲多休息 台股早盤下跌逾500點回測5日線",
-        "url": "https://www.cna.com.tw/news/afe/202604290029.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 29 Apr 2026 09:21:55 +0800",
-        "summary_zh": "台股今天早盤出現大幅下跌，下跌逾500點，回測5日線約38985點。美股漲多休息，費城半導體指數本週連2個交易日收黑，影響台股市場。台股加權指數下跌364.46點，至39157.27點，代表中小型股票的上櫃指數也開低。這種市場情況可能是由於投資人對市場前景的不確定性和風險評估的變化所導致。",
-        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       }
     ],
     "stock_us": [
+      {
+        "id": "6f3dfb2e",
+        "title": "美國航空公司加價 — 旅客仍不斷預訂",
+        "url": "https://www.cnbc.com/2026/04/28/airlines-fares-fuel.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-28 20:28:17",
+        "summary_zh": "美國航空公司正在加價，然而旅客仍不斷預訂機票。航空公司的高層表示，旅客仍在預訂機票，儘管機票價格大幅上漲。這是因為旅客需要為燃油成本付出高昂的費用。航空公司正在努力-cover燃油成本，而旅客仍在不斷預訂機票。這種情況可能會持續下去，直到航空公司的成本下降。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "cad69e5f",
+        "title": "西革科技預測第四季強勁業績，人工智慧需求驅動資料儲存市場",
+        "url": "https://www.reuters.com/business/seagate-forecasts-upbeat-quarter-ai-boom-powers-strong-data-storage-demand-2026-04-28/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-04-28 20:23:00",
+        "summary_zh": "西革科技預測第四季收入和利潤將超越華爾街的預期。公司的這一預測主要是基於企業對人工智慧的採用增加，進而驅動了資料儲存硬件的需求。人工智慧的發展對資料儲存產業產生了重大影響，企業需要儲存大量的資料以支持其AI系統的運行。西革科技正是這一需求的受益者，公司的資料儲存產品正受到企業的歡迎。這一預測表明，西革科技將在第四季度取得強勁的業績，公司的股價可能會受到正面影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7663d953",
+        "title": "星巴克升級預期，CEOBrian Niccol轉型計畫取得成果",
+        "url": "https://www.reuters.com/business/retail-consumer/starbucks-tops-quarterly-sales-estimates-ceos-turnaround-gains-momentum-2026-04-28/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-04-28 20:13:52",
+        "summary_zh": "星巴克在去年第四季度的營業表現出色，超越了投資者的預期。公司的可比銷售額和年營業額預期都有所上升。這是公司CEO Brian Niccol推動的轉型計畫取得成果，投資在快速服務和員工培訓上似乎有效。這些努力似乎已經吸引了更多的客戶，讓公司的營業表現得到改善。這項轉型計畫的成功將對公司未來的發展有所影響，投資者對公司的看法也會有所改變。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "2ccd79c2",
         "title": "星巴克即將公布財報！這些是投資者要關注的點",
@@ -746,8 +904,8 @@
         "published_at": "2026-04-28 19:30:01",
         "summary_zh": "星巴克近12個月股價上漲約15%，使其市值達到約1100億美元。這一表現讓投資者對公司未來財報充滿期待。投資者們將關注公司的營業收入、利潤率和市場佔有率等指標。同時，星巴克的全球業務擴張和新產品推出也將受到關注。這些因素將對公司未來的財務表現產生重大影響。投資者們預計公司的財報將會呈現出良好的表現，股價將繼續上漲。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "2f8e2005",
@@ -758,8 +916,8 @@
         "published_at": "2026-04-28 19:20:10",
         "summary_zh": "美國工業工具製造商Ametek正在與私募基金CD&R旗下公司Indicor展開獨家購併談判，Indicor是一家專門生產閥門和泵的公司。根據《華爾街日報》的報導，這一消息於週二公佈。這一購併交易將對全球工業工具市場產生重大影響，Ametek的業務將擴展到閥門和泵的領域。這一交易的具體細節尚未公佈，但據了解，Ametek將購併Indicor的某些業務。這一消息可能會對相關股票價格產生影響，投資者應密切關注此事的進展。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "679afaa2",
@@ -817,80 +975,6 @@
         "category": "stock_us",
         "published_at": "2026-04-28 16:46:07",
         "summary_zh": "近期，OpenAI 的成長可能遇到了阻礙。根據分析師的預測，Oracle、Amazon 和 Microsoft 的股票可能會受到影響。這是因為其他聊天機器人公司正在爭取市場份額，挑戰 OpenAI 的領導地位。分析師認為，這些科技巨頭可能會因為聊天機器人的競爭而出現短暫的停滯。然而，這些公司仍然擁有龐大的資源和技術優勢，因此仍有很大的競爭力。這項分析是基於近期市場趨勢和聊天機器人的發展情況。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "13a2c77c",
-        "title": "克拉默稱OpenAI驅動的回調證明近期的反彈過熱",
-        "url": "https://www.cnbc.com/2026/04/28/jim-cramer-reacts-to-wsj-openai-report.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-04-28 16:40:33",
-        "summary_zh": "克拉默在星期二表示，華爾街日報對OpenAI的報導引發的市場反應證明了一些AI股過熱。根據報導，OpenAI的股價在近期的市場反彈中表現出色，但隨著市場對AI股的熱情降低，OpenAI的股價也開始下跌。克拉默認為，這表明近期的市場反彈過熱，AI股的價格已經超出了理性的範圍。這項觀察值得關注，因為它可能意味著市場對AI股的熱情正在降低，投資者需要謹慎評估投資AI股的風險。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7b36cc24",
-        "title": "午市最大漲跌股：Centene、Corning、Oracle、Vertiv、可口可樂、Spotify等",
-        "url": "https://www.cnbc.com/2026/04/28/stocks-making-the-biggest-moves-midday-cnc-glw-orcl-vrt-ko-spot.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-04-28 16:38:16",
-        "summary_zh": "午市交易期間，以下幾家公司的股價表現引人關注。可口可樂因為財報出色而大幅上漲，成為午市最大漲跌股之一。另一方面，Spotify 因為股價下跌而引起投資者的關注。這些公司的股價變化對市場的影響有多大？這些公司的未來發展方向又會如何？投資者們正在密切關注這些公司的動態。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "89546f29",
-        "title": "Eni與委內瑞拉簽署重油項目重啟協議",
-        "url": "https://www.reuters.com/business/energy/eni-signs-agreement-relaunch-heavy-oil-project-venezuela-2026-04-28/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-28 19:57:54",
-        "summary_zh": "委內瑞拉重油項目多年未有進展，Eni公司與委內瑞拉政府簽署協議，計畫重啟該項目。該項目位於委內瑞拉的安索阿特吉州，預計將開發該國的重油儲備。Eni公司表示，該項目的重啟將創造大量就業機會，並將對委內瑞拉的經濟有所幫助。委內瑞拉政府也表示，該項目的重啟將是該國經濟發展的重要一步。然而，該項目的重啟仍面臨著多個挑戰，包括資金短缺和技術困難。Eni公司和委內瑞拉政府將需要共同努力來克服這些挑戰，才能使該項目順利重啟。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "8a2c2ad7",
-        "title": "DIs市場收盤穩定，外部市場氛圍惡化，中東戰爭僵局影響市場情緒",
-        "url": "https://www.reuters.com/pt/negocio/W6EWIIJRX5IB5CPTKDT5YBDRDQ-2026-04-28/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-28 19:49:43",
-        "summary_zh": "DIs市場在上午一度上漲，但在收盤前穩定下來。這一天市場情緒受到外部市場的影響，中東戰爭僵局使得市場氛圍惡化。同時，市場也關注著即將發布的通膨數據和美聯儲的利率決策。市場人士認為，美聯儲的利率決策將對市場產生重大影響，因此市場情緒十分緊張。儘管如此，DIs市場仍然保持穩定，表明市場對未來的預期相對樂觀。然而，外部市場的不確定性仍然存在，市場人士將密切關注未來的發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "47d41da9",
-        "title": "意大利Eni進軍委內瑞拉，與委內瑞拉奧里諾科油田簽署合作協議",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-28/italy-s-eni-expands-venezuela-push-with-orinoco-oil-deal",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-04-28 19:36:58",
-        "summary_zh": "意大利能源公司Eni近期宣布與委內瑞拉政府簽署了奧里諾科油田合作協議。這項協議將加強Eni在委內瑞拉的投資，與委內瑞拉政府合作開發奧里諾科油田的石油資源。這項協議的簽署是Eni進軍委內瑞拉的最新一步，意在加強該國在委內瑞拉的業務。然而，委內瑞拉政府的石油政策一直備受爭議，外界擔心該國的石油產業發展可能受到政治不穩定和經濟制裁的影響。Eni的這項投資將如何受到委內瑞拉政府的政策影響，將是關注的焦點。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "b3e97f3e",
-        "title": "OpenAI 阿爾特曼「盜竊慈善機構」，馬斯克在法庭上指控",
-        "url": "https://www.ft.com/content/a6a987e0-fd93-49c5-a161-2e217c3817b8",
-        "source": "FT Tech",
-        "category": "finance",
-        "published_at": "Tue, 28 Apr 2026 23:04:31 GMT",
-        "summary_zh": "美國知名人工智慧公司 OpenAI 的創辦人 Sam Altman 面臨著一場法律戰役。馬斯克指控 Altman 在 OpenAI 成立初期，將公司的非營利使命出售給了投資者。馬斯克認為這違反了 OpenAI 的初衷，將一家原本為慈善目的而成立的公司變成了一家純粹為利潤而生的企業。這場法律戰役將會展開一系列的庭審，展現出 OpenAI 的創辦人和投資者的爭議。這一事件也引發了對於人工智慧公司的非營利使命和商業化的爭議。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
