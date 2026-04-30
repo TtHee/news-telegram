@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-30T17:04:05.730563+08:00",
+  "generated_at": "2026-04-30T18:03:56.976008+08:00",
   "risk_signals": [
     "🟢 台股加權 38926.63（正常）",
     "🟢 S&P 500 7135.95（正常）",
-    "🟢 VIX 恐慌指數 18.4（正常）",
+    "🟢 VIX 恐慌指數 18.32（正常）",
     "🟢 MOVE 債市波動 74.33（正常）",
-    "🟢 美元指數 98.82（正常）",
-    "🟢 黃金 4629.6（正常）",
+    "🟢 美元指數 98.68（正常）",
+    "🟡 黃金 4636.2（漲 +2.0%，留意）",
     "🟢 美債10Y殖利率 4.42（正常）",
-    "🟢 原油 WTI 107.73（正常）",
-    "🟢 美元/台幣 31.65（正常）"
+    "🟢 原油 WTI 106.88（正常）",
+    "🟢 美元/台幣 31.62（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，投資者情緒不受影響，台股和美股均出現微幅波動，但整體來說仍然保持在正常範圍內。",
+  "ai_summary": "市場氛圍偏於穩定，美元指數和美債10Y殖利率維持正常水平。黃金價格上漲2%，表明投資者仍對市場風險感到擔憂。",
   "market": {
     "TWII": {
       "price": 38926.63,
@@ -26,8 +26,8 @@
       "change_pct": 0.04
     },
     "VIX": {
-      "price": 18.4,
-      "change_pct": -2.18
+      "price": 18.32,
+      "change_pct": -2.6
     },
     "TNX": {
       "price": 4.42,
@@ -38,25 +38,423 @@
       "change_pct": 8.23
     },
     "DXY": {
-      "price": 98.82,
-      "change_pct": -0.1
+      "price": 98.68,
+      "change_pct": -0.25
     },
     "GOLD": {
-      "price": 4629.6,
-      "change_pct": 1.86
+      "price": 4636.2,
+      "change_pct": 2.0
     },
     "OIL": {
-      "price": 107.73,
-      "change_pct": 0.8
+      "price": 106.88,
+      "change_pct": 0.0
     },
     "USDTWD": {
-      "price": 31.65,
-      "change_pct": 0.43
+      "price": 31.62,
+      "change_pct": 0.34
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "74453f0f",
+        "title": " Comey 因 Instagram 留言被控威脅川普生命",
+        "url": "https://www.bbc.com/news/articles/c70vzj1nrddo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 20:24:48 GMT",
+        "summary_zh": "前 FBI 導致 James Comey 因 2025 年 Instagram 留言被控威脅川普生命。根據檢方的說法，這張 2025 年的海螺照片是 Comey 對川普的威脅。這一事件的背景是在 Comey 對川普的 Instagram 留言中， Comey 表示他對川普的生命感到威脅。檢方認為這是一個對川普的威脅，川普的安全受到威脅。這一事件的影響是 Comey 的名聲受到損害，他的法律地位也受到影響。未來的展望是 Comey 將會面對法律行動，可能面臨刑事指控。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6902be4e",
+        "title": "一次難得的機會 - 堪薩斯城準備迎接世界盃",
+        "url": "https://www.bbc.com/news/articles/czredkdyykdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 30 Apr 2026 09:49:41 GMT",
+        "summary_zh": "堪薩斯城官員認為今年夏季的足球世界盃是展示城市魅力的機會，但也有部分當地居民對此表示擔憂。今年夏季的足球世界盃將在堪薩斯城舉行，官員們希望藉此機會展示城市的魅力，吸引更多觀光客。然而，部分當地居民擔憂會造成交通擁塞和住宿問題。官員們正努力解決這些問題，確保世界盃的成功舉辦。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "95853aff",
+        "title": "中國將禁止在北京出售無人機，出於安全擔憂",
+        "url": "https://www.bbc.com/news/articles/c4gv4dvngygo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 30 Apr 2026 05:45:54 GMT",
+        "summary_zh": "中國政府近日宣佈，將禁止在北京出售無人機。這一決定是出於安全擔憂，政府認為無人機可能會對城市安全造成威脅。根據新規定，無人機使用者將需要登記自己的設備，並獲得許可證才能飛行。這一措施旨在防止無人機被用於非法活動或恐怖主義。政府還將加強對無人機的監控和管理，包括設立飛行限制區域和規定飛行高度。這一決定將對北京的無人機業界產生重大影響，許多無人機製造商和服務提供商將需要重新評估自己的業務。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a5e142f0",
+        "title": "極地熊之都欲打造北極門戶",
+        "url": "https://www.bbc.com/news/articles/cyv1zdey7pmo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 23:35:30 GMT",
+        "summary_zh": "加拿大正在考慮是否能在曼尼托巴省的丘吉爾開通一條全年北極貿易航線，連接歐洲，隨著氣候變化加速北極冰川融化。這條航線將使加拿大與歐洲之間的貿易更加便捷，同時也將加拿大打造成北極門戶。然而，氣候變化的影響仍然存在，需要進一步評估。這項計畫將對加拿大經濟和環境產生重大影響，需要仔細考慮。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "51375ed3",
+        "title": "新加坡法院罰款支持巴勒斯坦的女性活動家",
+        "url": "https://www.bbc.com/news/articles/cqlpveylelyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 30 Apr 2026 06:59:22 GMT",
+        "summary_zh": "新加坡法院最近發布了一項裁決，罰款一組支持巴勒斯坦的女性活動家。這項裁決與之前的無罪判決相反，之前的活動家曾領導一場巴勒斯坦支持活動。這項裁決引發了對新加坡言論自由的關注。新加坡政府一直被批評對於支持巴勒斯坦的活動進行嚴厲打壓。這項裁決可能會對新加坡的言論自由產生影響。新加坡政府應該會針對這項裁決進行回應。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a74f8c83",
+        "title": "克里斯蒂奇堡槍擊案兇手敗訴上訴",
+        "url": "https://www.bbc.com/news/articles/cg5p6zq19npo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 30 Apr 2026 04:10:54 GMT",
+        "summary_zh": "新西蘭法院駁回白人至上主義者布倫頓·塔蘭特（Brenton Tarrant）對槍擊案罪名不成立的上訴。法院認為塔蘭特的上訴理由毫無可取之處。塔蘭特是2019年克里斯蒂奇堡槍擊案的兇手，該案造成50人死亡。塔蘭特的上訴是他試圖推翻自己被判犯有53項罪名，包括謀殺罪和恐怖主義罪。法院的判決意味著塔蘭特將繼續服刑。這一判決也表明新西蘭對白人至上主義和恐怖主義的態度堅定不移。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "109550ee",
+        "title": "驚人！阿拉伯聯合酋長國宣布退出OPEC，油價市場仍將受其影響",
+        "url": "https://www.cnbc.com/2026/04/29/shocking-uae-exit-rocks-opec-but-group-will-still-hold-significant-sway-over-the-oil-market.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-04-29 20:27:07",
+        "summary_zh": "阿拉伯聯合酋長國（UAE）宣布退出國際石油出口國組織（OPEC），這一突然的決定震驚了全球油價市場。儘管如此，OPEC仍將持續對油價市場施加重大影響。根據分析師的評估，OPEC仍將控制全球石油產量的約 40%。這一決定可能會對油價市場造成短期波動，但長期來看，OPEC仍將是油價市場的重要參考點。分析師認為，UAE的退出將會讓其他OPEC成員國填補其空缺，從而維持OPEC對油價市場的控制。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9d63cf51",
+        "title": "皇家委員會調查布迪槍擊事件：槍枝改革應該優先",
+        "url": "https://www.bbc.com/news/articles/cdjpw0n889yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 30 Apr 2026 06:16:36 GMT",
+        "summary_zh": "皇家委員會對布迪槍擊事件進行調查，發布了一份中期報告，建議應該優先推動槍枝改革。報告還指出，應該將猶太節日的警力安排擴展到其他高風險事件。這項建議旨在改善公共安全，並防止類似事件再次發生。委員會認為，槍枝改革是解決槍擊事件的關鍵一步，同時也需要改善警力安排和公共安全策略。這項報告將對澳洲政府的槍枝政策和公共安全措施產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "51544309",
+        "title": "石油價格跳升至2022年以來最高點，美國將對伊朗進行新一波攻擊",
+        "url": "https://www.bbc.com/news/articles/cx21m88rd14o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 30 Apr 2026 09:51:52 GMT",
+        "summary_zh": "石油價格在近期大幅上漲，達到2022年以來的最高點。根據Axios的報導，美國中東指揮部已經準備了一份針對伊朗的新攻擊計畫，計畫包括一波短暫而強力的攻擊。這個消息使得石油市場感到緊張，油價大幅上漲。這個攻擊計畫的具體內容尚未公布，但美國政府已經開始就此進行內部磋商。伊朗的新攻擊計畫引起了石油市場的擔憂，油價的上漲將對全球經濟產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "92c6d3c6",
+        "title": "赫格斯特與國會議員爆衝突　六小時聽證會",
+        "url": "https://www.bbc.com/news/articles/c78qd6ll8xlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 22:22:18 GMT",
+        "summary_zh": "美國國防部長赫格斯特在近六小時的聽證會上，與民主黨議員爆發激烈衝突。這是他第一次在伊朗戰爭開始後，面對國會質詢。聽證會的焦點在於伊朗戰爭的進展和美國的軍事行動。赫格斯特被質詢時，表現出強烈的保守立場，與民主黨議員的看法大相徑庭。這次聽證會顯示出美國國會對伊朗戰爭的態度和立場存在著明顯的分歧。這種分歧可能會對未來的美國外交政策產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a692cd3d",
+        "title": "美國歌手D4vd被指購買工具處理女孩屍體",
+        "url": "https://www.bbc.com/news/articles/cvgzll79529o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 30 Apr 2026 01:43:40 GMT",
+        "summary_zh": "美國歌手D4vd因涉嫌殺人案被捕，他的律師一直堅稱他無罪，並表示將「積極辯護」。根據檢方的指控，D4vd在線購買工具，準備處理女孩的屍體。這起案件引起了廣泛關注，歌迷和粉絲們都在等待著真相的揭露。檢方的指控對D4vd的聲譽造成了重大影響，將會對他的音樂事業產生什麼影響，還需要等待進一步的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ba6eed7d",
+        "title": "肯亞的塞巴斯蒂安·索韋回家迎接熱烈慶祝",
+        "url": "https://www.bbc.com/news/articles/cddp4y0rzjdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 30 Apr 2026 07:43:33 GMT",
+        "summary_zh": "肯亞的塞巴斯蒂安·索韋成為首位在競爭性比賽中跑完馬拉松在兩小時內的男子，他的家鄉人和家人為他舉辦了英雄式歡迎儀式。這位跑步選手在最近的馬拉松比賽中創下了歷史性的成績，讓他的支持者和家人感到極度自豪。塞巴斯蒂安·索韋的成功是他多年的努力和毅力得來的，他的家鄉人為他準備了熱烈的慶祝活動，包括街頭表演和花束贈送。這個事件不僅為肯亞跑步運動帶來了新的曙光，也為塞巴斯蒂安·索韋的個人生活帶來了新的機會和挑戰。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e899b5ed",
+        "title": "警方認為被綁架的五歲女孩遭殺害　澳洲沙漠發現屍體",
+        "url": "https://www.bbc.com/news/articles/cvgzd1yp2n6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 30 Apr 2026 06:29:55 GMT",
+        "summary_zh": "一名五歲女孩於上週六在澳洲阿利斯泉附近的土著營地失蹤。警方表示，目前相信被綁架的女孩已經遇害。女孩的屍體在澳洲沙漠被發現。這起案件引起了澳洲社會的強烈關注。警方正在調查該案件，試圖找出女孩的死因和兇手。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "56ced95b",
+        "title": "匈牙利新總理表示歐盟凍結的補助金將很快支付",
+        "url": "https://www.bbc.com/news/articles/c392ln77w30o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 19:51:54 GMT",
+        "summary_zh": "匈牙利新總理佩特·馬加爾（Péter Magyar）近日在布魯塞爾會見歐盟領袖，這是他黨派在大選中取得壓倒性勝利後首次出席的會議。馬加爾表示，歐盟凍結的補助金將很快支付，這將對匈牙利經濟產生重大影響。這一消息引起了歐盟內部的關注，因為匈牙利在過去幾年中一直與歐盟發生多次衝突。馬加爾的說法表明，匈牙利政府正在努力與歐盟合作，希望解決雙方的分歧。這一發展對於匈牙利的經濟和政治前景具有重要意義。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "474ffa68",
+        "title": "佛羅里達州立法者通過新選區地圖，偏袒共和黨",
+        "url": "https://www.bbc.com/news/articles/c5y9wvl0gkno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 22:00:44 GMT",
+        "summary_zh": "佛羅里達州成為美國國會議員選區重劃戰的最新參與者，這場戰爭可能影響共和黨或民主黨控制美國國會下議院的局面。佛羅里達州立法者通過新選區地圖，顯示共和黨在選區重劃中佔據了優勢。這項決定可能會對未來的選舉產生重大影響。選區重劃是美國政治的一個重要部分，立法者通過選區重劃來影響選民的分布和選舉結果。佛羅里達州的決定可能會對整個國家的政治格局產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "407fac48",
+        "title": "俄羅斯縮減莫斯科勝利日遊行，指責烏克蘭威脅",
+        "url": "https://www.bbc.com/news/articles/c794wp4yy93o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 13:01:57 GMT",
+        "summary_zh": "俄羅斯宣布今年莫斯科勝利日遊行將不會包括軍用車輛或預備役軍人參與。這項決定是由於俄羅斯指責烏克蘭對莫斯科的威脅。每年勝利日遊行都是俄羅斯紀念二戰勝利的重要活動，今年的遊行將會有所不同。俄羅斯政府表示，這項決定是為了確保參與者安全。然而，這一決定也引起了外界的關注，許多人認為這是一個跡象，表明俄羅斯正在為可能的戰爭做準備。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "249c8915",
+        "title": "美伊戰爭對國際經濟、財經市場與民生衝擊",
+        "url": "https://www.cna.com.tw/news/aopl/202604300223.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Thu, 30 Apr 2026 15:54:49 +0800",
+        "summary_zh": "美伊戰爭持續進行，對國際經濟和財經市場造成重大衝擊。根據五角大廈的數據，截至目前美國對伊朗的戰費已達到250億美元，這意味著每個美國家庭都需要承擔約190美元的費用。這種高昂的戰費費用不僅對美國經濟造成負面影響，也對全球經濟產生了波及效應。另一方面，由於國際油價大幅上漲，印度多家航空公司面臨著停飛危機的風險。為了應對這種局勢，印度政府被要求調整航空燃油價格，以減少航空公司的成本。這種調整將對印度經濟產生重大影響，並可能對全球經濟產生連鎖效應。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a265344b",
+        "title": "南非將穆加貝的兒子驅逐出境",
+        "url": "https://www.theguardian.com/world/2026/apr/29/south-africa-deports-mugabes-son-after-separate-offences-three-months-after-shooting-at-family-home",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 14:12:25 GMT",
+        "summary_zh": "南非政府宣布將穆加貝的兒子貝拉米因為非法入境和槍枝相關罪名被判罰款並驅逐出境。這項決定發生在三個月前，一名員工在約翰內斯堡的一個富人區的穆加貝家族住宅被開槍射傷。貝拉米和他的表弟托比亞斯穆加貝馬頓霍德澤被指控犯有未遂謀殺罪，但最終貝拉米承認了兩項與這起事件無關的罪名。南非政府對這起事件的處理引起了爭議，許多人批評政府對穆加貝家族的寬大待遇。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1f07b8f7",
+        "title": "非洲音樂業界對AI風險與好處進行衡量",
+        "url": "https://www.theguardian.com/world/2026/apr/29/africa-music-industry-ai-artificial-intelligence",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 13:49:55 GMT",
+        "summary_zh": "近期，非洲音樂界出現了一個有趣的事件：一位尼日利亞歌手Fave的歌曲被用AI合成的合唱組合重新錄製，迅速在網路上成為熱門話題。為了應對這種情況，Fave決定錄製了一個自己的混音版本，將AI合成的歌曲整合進去，並將它加進自己的專輯中。非洲音樂業界的律師Oyinkansola Fawehinmi認為，這是個聰明的做法，展現了對商業的敏感性。這種做法不僅讓Fave能夠控制自己的作品，也讓她能夠從中獲益。然而，這也引起了一些關於AI在音樂產業中的風險和好處的討論。一些人認為，AI將取代音樂創作者的工作，而另一些人則認為，AI能夠幫助音樂創作者創造新的音樂作品。非洲音樂業界正在努力找出如何與AI共存，同時保持音樂創作的原創性和真實性。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0bf9d83f",
+        "title": "數千名美國冰球迷在與鄰國緊張關係下，合唱加拿大國歌",
+        "url": "https://www.theguardian.com/world/2026/apr/29/us-ice-hockey-fans-canadian-anthem",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 15:40:49 GMT",
+        "summary_zh": "在美國紐約州的布法羅市，距離安大略省僅幾英里，觀眾在一場比賽中，當麥克風斷訊時，突然合唱加拿大國歌。這座城市有許多綽號，包括「電氣城市」、「鎳城市」、「女王城市」、「無幻想之城」。然而，在兩個傳統盟友之間緊張關係日漸加劇的時代，這座城市的另一綽號「好鄰居之城」，卻在民眾心中產生了特別的共鳴。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "69f52ad7",
+        "title": "哥倫比亞選民面臨「完全和平」或「全面戰爭」的難題",
+        "url": "https://www.theguardian.com/world/2026/apr/29/colombia-election-total-peace-promise-violence",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 13:03:06 GMT",
+        "summary_zh": "哥倫比亞即將舉行總統選舉，國家陷入一場關於如何終結長達數十年的武裝衝突的激烈辯論。2016 年的和平協議使哥倫比亞政府與拉丁美洲最大武裝勢力哥倫比亞革命武裝力量 (Farc) 農民軍達成協議，農民軍同意棄械，暴力事件大幅下降。但是，這項協議並未能完全終結武裝衝突。後續政府推動協議的實施緩慢，遭到農民軍分裂派和其他叛亂派系的拒絕。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "46eba6de",
+        "title": "家屬起訴OpenAI：未能報告ChatGPT聊天內容中的槍擊案兇手行為",
+        "url": "https://www.theguardian.com/technology/2026/apr/29/openai-tumbler-ridge-shooter-chatgpt-lawsuit",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 29 Apr 2026 13:00:49 GMT",
+        "summary_zh": "加拿大一名槍手在一所中學槍擊事件中殺死了七名學生。家屬們起訴OpenAI和該公司CEO，指控該公司在槍手與ChatGPT聊天時未能及時報告槍手的暴力意圖。根據起訴書，OpenAI員工八個月前已經識別出槍手的帳戶，認為該帳戶存在「槍擊事件對實際人士的可信度和具體性威脅」。家屬們要求公司對槍擊事件負責，指控該公司的失誤導致了槍擊事件的發生。這起事件引發了對人工智慧和社交媒體監控的關注，是否有足夠的監控機制可以預防類似事件的發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
+      {
+        "id": "37a14299",
+        "title": " Comey 的海螺帖子讓他被起訴。專家卻質疑政府能否勝訴",
+        "url": "https://www.bbc.com/news/articles/clyp70l1egeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 29 Apr 2026 20:18:28 GMT",
+        "summary_zh": "前 FBI 導演 James Comey 因在社交平台發表一則有關海螺的帖子而被起訴。政府指控他威脅總統，但專家表示政府難以勝訴。政府的起訴案件經過數個月的調查後，正在進行審判。政府的律師表示，這是一件嚴重的案件，因為 Comey 的帖子威脅到了總統的安全。然而，專家們認為政府難以證明 Comey 的帖子具有威脅性。這樁案件引起了廣泛的關注，許多人質疑政府的行動是否合理。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0c636dd3",
+        "title": "疑似槍手在華盛頓記者晚宴前拍下自拍照",
+        "url": "https://www.bbc.com/news/articles/cm2p99n35z4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Wed, 29 Apr 2026 16:06:00 GMT",
+        "summary_zh": "美國華盛頓一名疑似槍手 Cole Tomas Allen 被控企圖暗殺前總統唐納德·川普。檢方要求 Cole Tomas Allen 在審判前繼續被扣押。根據最新的圖片顯示， Cole Tomas Allen 在華盛頓記者晚宴前拍下自拍照，展現出他在案發前的心態。這些圖片使檢方的要求更加合理。 Cole Tomas Allen 的案件引起了美國社會的關注，許多人都在等待著他的審判結果。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0884594c",
+        "title": "英國國王和王后在紐約九一一紀念館獻花",
+        "url": "https://www.bbc.com/news/articles/cd7pxnv4j7ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Thu, 30 Apr 2026 06:30:56 GMT",
+        "summary_zh": "英國國王查爾斯和王后卡米拉正在進行美國國事訪問。期間，他們造訪紐約的九一一紀念館，獻花致意。九一一事件是美國歷史上一場重大恐怖攻擊，造成了大量生命喪失。英國國王和王后參觀紀念館，向遇難者致敬。這次訪問是英國國王和王后的重要行程之一，展現了兩國之間的友誼和合作。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3c9f1843",
+        "title": "美國人對查爾斯三世訪美的反應：驚嘆、歡欣和希望",
+        "url": "https://www.bbc.com/news/articles/ce8pd1kr387o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 29 Apr 2026 21:43:52 GMT",
+        "summary_zh": "美國人對查爾斯三世的訪美表現出一種混合的情緒：驚嘆、歡欣和希望。儘管美國社會存在分歧，但在觀看查爾斯三世訪美的時候，美國人似乎放下了分歧，共同欣賞這個特殊的時刻。查爾斯三世的訪美是英國歷史上首次訪問美國的君主，這個事件引起了美國人的廣泛關注。許多美國人對查爾斯三世的訪美表示歡迎和支持，認為這是兩國之間關係的重要里程碑。然而，也有一些美國人對查爾斯三世的訪美表達了批評和懷疑。儘管如此，美國人對查爾斯三世的訪美仍然表現出了一種積極和開放的態度。這個事件顯示出美國人對於和平、合作和文化交流的渴望。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "aaf1cad1",
+        "title": "對ChatGPT開發商OpenAI提出七宗訴訟的家庭",
+        "url": "https://www.bbc.com/news/articles/c99l03k0ly4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Wed, 29 Apr 2026 19:51:55 GMT",
+        "summary_zh": "在加拿大發生大規模槍擊案後，受害者家屬對ChatGPT開發商OpenAI提出七宗訴訟。這些訴訟在加利福尼亞州提出，指控OpenAI和創始人Sam Altman疏忽和助長槍擊案，未能識別嫌疑人在ChatGPT上的活動。這起槍擊案造成多人喪生，受害者家屬認為OpenAI有責任，因為該公司的產品未能有效識別和阻止嫌疑人的行為。這些訴訟將對OpenAI的聲譽和業務造成重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "35dba6d4",
+        "title": "王室來美第三天：查爾斯王子與卡米拉皇后在紐約的行程",
+        "url": "https://www.bbc.com/news/videos/ce9pj2ygmkno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 30 Apr 2026 00:37:45 GMT",
+        "summary_zh": "英國王室查爾斯王子和卡米拉皇后來到美國第三天，先後參觀了紐約的9/11紀念館。卡米拉皇后在紐約公共圖書館為兒童朗讀，而查爾斯王子則前往哈雷姆區的社區組織進行訪問。這兩位王室成員的行程表明了對美國的熱誠和關注。這次訪問對於加深英美關係和增進雙方文化交流有重要意義。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "acb043ea",
+        "title": "鮑威爾最後一次擔任美聯儲主席時的四個關鍵收穫",
+        "url": "https://www.bbc.com/news/articles/c62rm4zk3kgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 29 Apr 2026 20:01:26 GMT",
+        "summary_zh": "在鮑威爾最後一次擔任美聯儲主席時，美聯儲宣布維持利率不變。鮑威爾在記者會上回答了多個問題，包括美伊戰爭、通膨、法律攻擊以及美聯儲的獨立性。這些問題都受到市場關注，對於未來的經濟走向有著重要的影響。美聯儲的決定和鮑威爾的表態都會對市場產生重大影響。這次記者會是鮑威爾最後一次擔任美聯儲主席的記者會，也是他最後一次回答市場的問題。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d3c55689",
+        "title": "馬斯克指控OpenAI律師試圖「欺騙」他",
+        "url": "https://www.bbc.com/news/articles/czj29yygyzgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 29 Apr 2026 23:18:08 GMT",
+        "summary_zh": "在對Sam Altman和OpenAI提出的訴訟案中，埃隆馬斯克在第三天的庭審中接受了反質問。馬斯克在庭審中被質疑，他指控OpenAI律師試圖在庭審中欺騙他。這樁訴訟案與馬斯克和OpenAI的關係有關，馬斯克曾經是OpenAI的董事會成員，但後來因為與公司的理念不符而辭職。馬斯克的訴訟指控OpenAI違反了與他簽署的協議，要求公司支付他數百萬美元的損失。這樁訴訟案的結果對於馬斯克和OpenAI的未來發展將產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "170f6699",
+        "title": "最高法院限制使用種族在劃分選舉區時",
+        "url": "https://www.bbc.com/news/articles/clyw3p7xv4wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 29 Apr 2026 15:05:55 GMT",
+        "summary_zh": "最高法院近日發布裁決，規定在劃分選舉區時，不能過度依賴種族因素，從而限制了挑戰選區劃分的機會，尤其是針對少數族裔選民的投票權。這項裁決可能會對未來的選舉區劃分產生重大影響，進一步加劇選區劃分的政治爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ab9173d8",
+        "title": "美國250：總統致辭慶祝第一批登陸及卡佩亨利十字架升起紀念日",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/america-250-presidential-message-on-the-anniversary-of-the-first-landing-and-the-raising-of-the-cape-henry-cross/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 29 Apr 2026 18:59:01 +0000",
+        "summary_zh": "今天是 419 年前美國誕生之日，當時一群勇敢的冒險家、探險家和定居者在維吉尼亞州卡佩亨利山頂建造了一座榮耀的木十字架，為世界上最偉大的共和國奠定了基礎。這個事件標誌著美國的信仰和價值觀的誕生。總統在這一天發表了致辭，慶祝這個重要的里程碑。這個里程碑不僅代表了美國的誕生，也象徵著美國人民堅定的信仰和追求自由的精神。總統的致辭強調了這個事件對美國歷史的重要性，並表達了對美國人民的感謝。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2fc114f4",
+        "title": "特朗普總統與第一夫人歡迎查爾斯三世國王和卡蜜拉皇后為國事訪問",
+        "url": "https://www.whitehouse.gov/releases/2026/04/president-trump-first-lady-welcome-king-charles-iii-and-queen-camilla-for-state-visit-honoring-250-years-of-shared-heritage/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 29 Apr 2026 15:26:10 +0000",
+        "summary_zh": "美國總統特朗普和第一夫人梅拉尼亞於近兩十年來首次接待英國君主查爾斯三世和卡蜜拉皇后於白宮進行國事訪問。國事訪問包括了歷史性的歡迎儀式、雙邊會議和盛大的國宴。這次訪問是為了紀念美國和英國兩國在過去250年來的共同歷史。這次國事訪問將進一步加深兩國之間的友誼和合作關係。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "c1fa68c7",
         "title": "美國父女承認出售偽造的畢卡索和班克西作品",
@@ -114,8 +512,8 @@
         "published_at": "Thu, 30 Apr 2026 01:01:09 GMT",
         "summary_zh": "美國參議員伯尼·桑德斯在華盛頓的國會山莊與兩名中國頂尖科學家舉行面板會議，強調人工智慧的監管需要國際合作。隨著硅谷和北京的科技巨頭們競相推進人工智慧的發展，桑德斯一直是人工智慧的批評者，他認為需要設置安全保障措施。桑德斯在會議上表示，人工智慧的發展可能對社會造成重大風險，除非通過國際合作來監管這項新技術。這項呼籲來自於桑德斯對人工智慧的擔憂，他認為這項技術可能會導致重大社會風險，除非通過監管來限制其發展。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "ac317147",
@@ -128,419 +526,9 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "0884594c",
-        "title": "英國國王和王后在紐約九一一紀念館獻花",
-        "url": "https://www.bbc.com/news/articles/cd7pxnv4j7ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 30 Apr 2026 06:30:56 GMT",
-        "summary_zh": "英國國王查爾斯和王后卡米拉正在進行美國國事訪問。期間，他們造訪紐約的九一一紀念館，獻花致意。九一一事件是美國歷史上一場重大恐怖攻擊，造成了大量生命喪失。英國國王和王后參觀紀念館，向遇難者致敬。這次訪問是英國國王和王后的重要行程之一，展現了兩國之間的友誼和合作。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0c636dd3",
-        "title": "疑似槍手在華盛頓記者晚宴前拍下自拍照",
-        "url": "https://www.bbc.com/news/articles/cm2p99n35z4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 29 Apr 2026 16:06:00 GMT",
-        "summary_zh": "美國華盛頓一名疑似槍手 Cole Tomas Allen 被控企圖暗殺前總統唐納德·川普。檢方要求 Cole Tomas Allen 在審判前繼續被扣押。根據最新的圖片顯示， Cole Tomas Allen 在華盛頓記者晚宴前拍下自拍照，展現出他在案發前的心態。這些圖片使檢方的要求更加合理。 Cole Tomas Allen 的案件引起了美國社會的關注，許多人都在等待著他的審判結果。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "aaf1cad1",
-        "title": "對ChatGPT開發商OpenAI提出七宗訴訟的家庭",
-        "url": "https://www.bbc.com/news/articles/c99l03k0ly4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 29 Apr 2026 19:51:55 GMT",
-        "summary_zh": "在加拿大發生大規模槍擊案後，受害者家屬對ChatGPT開發商OpenAI提出七宗訴訟。這些訴訟在加利福尼亞州提出，指控OpenAI和創始人Sam Altman疏忽和助長槍擊案，未能識別嫌疑人在ChatGPT上的活動。這起槍擊案造成多人喪生，受害者家屬認為OpenAI有責任，因為該公司的產品未能有效識別和阻止嫌疑人的行為。這些訴訟將對OpenAI的聲譽和業務造成重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "37a14299",
-        "title": " Comey 的海螺帖子讓他被起訴。專家卻質疑政府能否勝訴",
-        "url": "https://www.bbc.com/news/articles/clyp70l1egeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 29 Apr 2026 20:18:28 GMT",
-        "summary_zh": "前 FBI 導演 James Comey 因在社交平台發表一則有關海螺的帖子而被起訴。政府指控他威脅總統，但專家表示政府難以勝訴。政府的起訴案件經過數個月的調查後，正在進行審判。政府的律師表示，這是一件嚴重的案件，因為 Comey 的帖子威脅到了總統的安全。然而，專家們認為政府難以證明 Comey 的帖子具有威脅性。這樁案件引起了廣泛的關注，許多人質疑政府的行動是否合理。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3c9f1843",
-        "title": "美國人對查爾斯三世訪美的反應：驚嘆、歡欣和希望",
-        "url": "https://www.bbc.com/news/articles/ce8pd1kr387o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 29 Apr 2026 21:43:52 GMT",
-        "summary_zh": "美國人對查爾斯三世的訪美表現出一種混合的情緒：驚嘆、歡欣和希望。儘管美國社會存在分歧，但在觀看查爾斯三世訪美的時候，美國人似乎放下了分歧，共同欣賞這個特殊的時刻。查爾斯三世的訪美是英國歷史上首次訪問美國的君主，這個事件引起了美國人的廣泛關注。許多美國人對查爾斯三世的訪美表示歡迎和支持，認為這是兩國之間關係的重要里程碑。然而，也有一些美國人對查爾斯三世的訪美表達了批評和懷疑。儘管如此，美國人對查爾斯三世的訪美仍然表現出了一種積極和開放的態度。這個事件顯示出美國人對於和平、合作和文化交流的渴望。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "35dba6d4",
-        "title": "王室來美第三天：查爾斯王子與卡米拉皇后在紐約的行程",
-        "url": "https://www.bbc.com/news/videos/ce9pj2ygmkno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 30 Apr 2026 00:37:45 GMT",
-        "summary_zh": "英國王室查爾斯王子和卡米拉皇后來到美國第三天，先後參觀了紐約的9/11紀念館。卡米拉皇后在紐約公共圖書館為兒童朗讀，而查爾斯王子則前往哈雷姆區的社區組織進行訪問。這兩位王室成員的行程表明了對美國的熱誠和關注。這次訪問對於加深英美關係和增進雙方文化交流有重要意義。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "acb043ea",
-        "title": "鮑威爾最後一次擔任美聯儲主席時的四個關鍵收穫",
-        "url": "https://www.bbc.com/news/articles/c62rm4zk3kgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 29 Apr 2026 20:01:26 GMT",
-        "summary_zh": "在鮑威爾最後一次擔任美聯儲主席時，美聯儲宣布維持利率不變。鮑威爾在記者會上回答了多個問題，包括美伊戰爭、通膨、法律攻擊以及美聯儲的獨立性。這些問題都受到市場關注，對於未來的經濟走向有著重要的影響。美聯儲的決定和鮑威爾的表態都會對市場產生重大影響。這次記者會是鮑威爾最後一次擔任美聯儲主席的記者會，也是他最後一次回答市場的問題。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c6ffe331",
-        "title": "特朗普與鮑威爾的最大衝突：傻瓜、白痴和太笨了",
-        "url": "https://www.bbc.com/news/articles/c7v952p61dgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 29 Apr 2026 16:12:08 GMT",
-        "summary_zh": "美國總統特朗普與聯邦儲備委員會主席鮑威爾之間的關係一直不佳。儘管兩人曾經在2017年簽署一份聯合聲明，表達對美聯儲的支持，但隨著時間的推移，他們之間的衝突逐漸加劇。特朗普常常批評鮑威爾的政策，稱他是「傻瓜、白痴和太笨了」。鮑威爾則表示，他的政策是為了維持經濟穩定和控制通貨膨脹。這種對立的態度使得兩人之間的關係更加緊張。特朗普的言論也引起了市場的反應，股市和美元的波動都受到他的影響。這種對立的局面是否會持續下去，還需要觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d3c55689",
-        "title": "馬斯克指控OpenAI律師試圖「欺騙」他",
-        "url": "https://www.bbc.com/news/articles/czj29yygyzgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 29 Apr 2026 23:18:08 GMT",
-        "summary_zh": "在對Sam Altman和OpenAI提出的訴訟案中，埃隆馬斯克在第三天的庭審中接受了反質問。馬斯克在庭審中被質疑，他指控OpenAI律師試圖在庭審中欺騙他。這樁訴訟案與馬斯克和OpenAI的關係有關，馬斯克曾經是OpenAI的董事會成員，但後來因為與公司的理念不符而辭職。馬斯克的訴訟指控OpenAI違反了與他簽署的協議，要求公司支付他數百萬美元的損失。這樁訴訟案的結果對於馬斯克和OpenAI的未來發展將產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "170f6699",
-        "title": "最高法院限制使用種族在劃分選舉區時",
-        "url": "https://www.bbc.com/news/articles/clyw3p7xv4wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 29 Apr 2026 15:05:55 GMT",
-        "summary_zh": "最高法院近日發布裁決，規定在劃分選舉區時，不能過度依賴種族因素，從而限制了挑戰選區劃分的機會，尤其是針對少數族裔選民的投票權。這項裁決可能會對未來的選舉區劃分產生重大影響，進一步加劇選區劃分的政治爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ab9173d8",
-        "title": "美國250：總統致辭慶祝第一批登陸及卡佩亨利十字架升起紀念日",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/04/america-250-presidential-message-on-the-anniversary-of-the-first-landing-and-the-raising-of-the-cape-henry-cross/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 29 Apr 2026 18:59:01 +0000",
-        "summary_zh": "今天是 419 年前美國誕生之日，當時一群勇敢的冒險家、探險家和定居者在維吉尼亞州卡佩亨利山頂建造了一座榮耀的木十字架，為世界上最偉大的共和國奠定了基礎。這個事件標誌著美國的信仰和價值觀的誕生。總統在這一天發表了致辭，慶祝這個重要的里程碑。這個里程碑不僅代表了美國的誕生，也象徵著美國人民堅定的信仰和追求自由的精神。總統的致辭強調了這個事件對美國歷史的重要性，並表達了對美國人民的感謝。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2fc114f4",
-        "title": "特朗普總統與第一夫人歡迎查爾斯三世國王和卡蜜拉皇后為國事訪問",
-        "url": "https://www.whitehouse.gov/releases/2026/04/president-trump-first-lady-welcome-king-charles-iii-and-queen-camilla-for-state-visit-honoring-250-years-of-shared-heritage/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 29 Apr 2026 15:26:10 +0000",
-        "summary_zh": "美國總統特朗普和第一夫人梅拉尼亞於近兩十年來首次接待英國君主查爾斯三世和卡蜜拉皇后於白宮進行國事訪問。國事訪問包括了歷史性的歡迎儀式、雙邊會議和盛大的國宴。這次訪問是為了紀念美國和英國兩國在過去250年來的共同歷史。這次國事訪問將進一步加深兩國之間的友誼和合作關係。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "a265344b",
-        "title": "南非將穆加貝的兒子驅逐出境",
-        "url": "https://www.theguardian.com/world/2026/apr/29/south-africa-deports-mugabes-son-after-separate-offences-three-months-after-shooting-at-family-home",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 14:12:25 GMT",
-        "summary_zh": "南非政府宣布將穆加貝的兒子貝拉米因為非法入境和槍枝相關罪名被判罰款並驅逐出境。這項決定發生在三個月前，一名員工在約翰內斯堡的一個富人區的穆加貝家族住宅被開槍射傷。貝拉米和他的表弟托比亞斯穆加貝馬頓霍德澤被指控犯有未遂謀殺罪，但最終貝拉米承認了兩項與這起事件無關的罪名。南非政府對這起事件的處理引起了爭議，許多人批評政府對穆加貝家族的寬大待遇。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1f07b8f7",
-        "title": "非洲音樂業界對AI風險與好處進行衡量",
-        "url": "https://www.theguardian.com/world/2026/apr/29/africa-music-industry-ai-artificial-intelligence",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 13:49:55 GMT",
-        "summary_zh": "近期，非洲音樂界出現了一個有趣的事件：一位尼日利亞歌手Fave的歌曲被用AI合成的合唱組合重新錄製，迅速在網路上成為熱門話題。為了應對這種情況，Fave決定錄製了一個自己的混音版本，將AI合成的歌曲整合進去，並將它加進自己的專輯中。非洲音樂業界的律師Oyinkansola Fawehinmi認為，這是個聰明的做法，展現了對商業的敏感性。這種做法不僅讓Fave能夠控制自己的作品，也讓她能夠從中獲益。然而，這也引起了一些關於AI在音樂產業中的風險和好處的討論。一些人認為，AI將取代音樂創作者的工作，而另一些人則認為，AI能夠幫助音樂創作者創造新的音樂作品。非洲音樂業界正在努力找出如何與AI共存，同時保持音樂創作的原創性和真實性。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "109550ee",
-        "title": "驚人！阿拉伯聯合酋長國宣布退出OPEC，油價市場仍將受其影響",
-        "url": "https://www.cnbc.com/2026/04/29/shocking-uae-exit-rocks-opec-but-group-will-still-hold-significant-sway-over-the-oil-market.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-04-29 20:27:07",
-        "summary_zh": "阿拉伯聯合酋長國（UAE）宣布退出國際石油出口國組織（OPEC），這一突然的決定震驚了全球油價市場。儘管如此，OPEC仍將持續對油價市場施加重大影響。根據分析師的評估，OPEC仍將控制全球石油產量的約 40%。這一決定可能會對油價市場造成短期波動，但長期來看，OPEC仍將是油價市場的重要參考點。分析師認為，UAE的退出將會讓其他OPEC成員國填補其空缺，從而維持OPEC對油價市場的控制。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "249c8915",
-        "title": "美伊戰爭對國際經濟、財經市場與民生衝擊",
-        "url": "https://www.cna.com.tw/news/aopl/202604300223.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Thu, 30 Apr 2026 15:54:49 +0800",
-        "summary_zh": "美伊戰爭持續進行，對國際經濟和財經市場造成重大衝擊。根據五角大廈的數據，截至目前美國對伊朗的戰費已達到250億美元，這意味著每個美國家庭都需要承擔約190美元的費用。這種高昂的戰費費用不僅對美國經濟造成負面影響，也對全球經濟產生了波及效應。另一方面，由於國際油價大幅上漲，印度多家航空公司面臨著停飛危機的風險。為了應對這種局勢，印度政府被要求調整航空燃油價格，以減少航空公司的成本。這種調整將對印度經濟產生重大影響，並可能對全球經濟產生連鎖效應。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "3644c8d1",
-        "title": "尼日利亞總統提名新石油監管局領導人",
-        "url": "https://www.reuters.com/sustainability/boards-policy-regulation/nigerias-tinubu-nominates-new-oil-regulator-second-leadership-change-four-months-2026-04-29/",
-        "source": "Reuters",
-        "category": "global",
-        "published_at": "2026-04-29 20:53:44",
-        "summary_zh": "尼日利亞總統圖努布(Tinubu)宣布提名新石油監管局領導人，這是他任內第二次更換高層領導人。石油監管局是尼日利亞石油行業的關鍵機構，負責監督石油開發和出口。新領導人的提名引發了市場關注，尤其是在尼日利亞石油產量和出口的背景下。尼日利亞是非洲最大的石油生產國，石油產量對該國經濟有著重要影響。新領導人的任命可能會對尼日利亞石油行業產生重大影響，包括可能的產量和出口政策變化。然而，具體的影響尚待觀察。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "0bf9d83f",
-        "title": "數千名美國冰球迷在與鄰國緊張關係下，合唱加拿大國歌",
-        "url": "https://www.theguardian.com/world/2026/apr/29/us-ice-hockey-fans-canadian-anthem",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 15:40:49 GMT",
-        "summary_zh": "在美國紐約州的布法羅市，距離安大略省僅幾英里，觀眾在一場比賽中，當麥克風斷訊時，突然合唱加拿大國歌。這座城市有許多綽號，包括「電氣城市」、「鎳城市」、「女王城市」、「無幻想之城」。然而，在兩個傳統盟友之間緊張關係日漸加劇的時代，這座城市的另一綽號「好鄰居之城」，卻在民眾心中產生了特別的共鳴。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "69f52ad7",
-        "title": "哥倫比亞選民面臨「完全和平」或「全面戰爭」的難題",
-        "url": "https://www.theguardian.com/world/2026/apr/29/colombia-election-total-peace-promise-violence",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 13:03:06 GMT",
-        "summary_zh": "哥倫比亞即將舉行總統選舉，國家陷入一場關於如何終結長達數十年的武裝衝突的激烈辯論。2016 年的和平協議使哥倫比亞政府與拉丁美洲最大武裝勢力哥倫比亞革命武裝力量 (Farc) 農民軍達成協議，農民軍同意棄械，暴力事件大幅下降。但是，這項協議並未能完全終結武裝衝突。後續政府推動協議的實施緩慢，遭到農民軍分裂派和其他叛亂派系的拒絕。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "46eba6de",
-        "title": "家屬起訴OpenAI：未能報告ChatGPT聊天內容中的槍擊案兇手行為",
-        "url": "https://www.theguardian.com/technology/2026/apr/29/openai-tumbler-ridge-shooter-chatgpt-lawsuit",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 13:00:49 GMT",
-        "summary_zh": "加拿大一名槍手在一所中學槍擊事件中殺死了七名學生。家屬們起訴OpenAI和該公司CEO，指控該公司在槍手與ChatGPT聊天時未能及時報告槍手的暴力意圖。根據起訴書，OpenAI員工八個月前已經識別出槍手的帳戶，認為該帳戶存在「槍擊事件對實際人士的可信度和具體性威脅」。家屬們要求公司對槍擊事件負責，指控該公司的失誤導致了槍擊事件的發生。這起事件引發了對人工智慧和社交媒體監控的關注，是否有足夠的監控機制可以預防類似事件的發生。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "74453f0f",
-        "title": " Comey 因 Instagram 留言被控威脅川普生命",
-        "url": "https://www.bbc.com/news/articles/c70vzj1nrddo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 20:24:48 GMT",
-        "summary_zh": "前 FBI 導致 James Comey 因 2025 年 Instagram 留言被控威脅川普生命。根據檢方的說法，這張 2025 年的海螺照片是 Comey 對川普的威脅。這一事件的背景是在 Comey 對川普的 Instagram 留言中， Comey 表示他對川普的生命感到威脅。檢方認為這是一個對川普的威脅，川普的安全受到威脅。這一事件的影響是 Comey 的名聲受到損害，他的法律地位也受到影響。未來的展望是 Comey 將會面對法律行動，可能面臨刑事指控。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "51544309",
-        "title": "石油價格跳升至2022年以來最高點，美國將對伊朗進行新一波攻擊",
-        "url": "https://www.bbc.com/news/articles/cx21m88rd14o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 30 Apr 2026 08:44:09 GMT",
-        "summary_zh": "石油價格在近期大幅上漲，達到2022年以來的最高點。根據Axios的報導，美國中東指揮部已經準備了一份針對伊朗的新攻擊計畫，計畫包括一波短暫而強力的攻擊。這個消息使得石油市場感到緊張，油價大幅上漲。這個攻擊計畫的具體內容尚未公布，但美國政府已經開始就此進行內部磋商。伊朗的新攻擊計畫引起了石油市場的擔憂，油價的上漲將對全球經濟產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9d63cf51",
-        "title": "皇家委員會調查布迪槍擊事件：槍枝改革應該優先",
-        "url": "https://www.bbc.com/news/articles/cdjpw0n889yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 30 Apr 2026 06:16:36 GMT",
-        "summary_zh": "皇家委員會對布迪槍擊事件進行調查，發布了一份中期報告，建議應該優先推動槍枝改革。報告還指出，應該將猶太節日的警力安排擴展到其他高風險事件。這項建議旨在改善公共安全，並防止類似事件再次發生。委員會認為，槍枝改革是解決槍擊事件的關鍵一步，同時也需要改善警力安排和公共安全策略。這項報告將對澳洲政府的槍枝政策和公共安全措施產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a74f8c83",
-        "title": "克里斯蒂奇堡槍擊案兇手敗訴上訴",
-        "url": "https://www.bbc.com/news/articles/cg5p6zq19npo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 30 Apr 2026 04:10:54 GMT",
-        "summary_zh": "新西蘭法院駁回白人至上主義者布倫頓·塔蘭特（Brenton Tarrant）對槍擊案罪名不成立的上訴。法院認為塔蘭特的上訴理由毫無可取之處。塔蘭特是2019年克里斯蒂奇堡槍擊案的兇手，該案造成50人死亡。塔蘭特的上訴是他試圖推翻自己被判犯有53項罪名，包括謀殺罪和恐怖主義罪。法院的判決意味著塔蘭特將繼續服刑。這一判決也表明新西蘭對白人至上主義和恐怖主義的態度堅定不移。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "92c6d3c6",
-        "title": "赫格斯特與國會議員爆衝突　六小時聽證會",
-        "url": "https://www.bbc.com/news/articles/c78qd6ll8xlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 22:22:18 GMT",
-        "summary_zh": "美國國防部長赫格斯特在近六小時的聽證會上，與民主黨議員爆發激烈衝突。這是他第一次在伊朗戰爭開始後，面對國會質詢。聽證會的焦點在於伊朗戰爭的進展和美國的軍事行動。赫格斯特被質詢時，表現出強烈的保守立場，與民主黨議員的看法大相徑庭。這次聽證會顯示出美國國會對伊朗戰爭的態度和立場存在著明顯的分歧。這種分歧可能會對未來的美國外交政策產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a692cd3d",
-        "title": "美國歌手D4vd被指購買工具處理女孩屍體",
-        "url": "https://www.bbc.com/news/articles/cvgzll79529o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 30 Apr 2026 01:43:40 GMT",
-        "summary_zh": "美國歌手D4vd因涉嫌殺人案被捕，他的律師一直堅稱他無罪，並表示將「積極辯護」。根據檢方的指控，D4vd在線購買工具，準備處理女孩的屍體。這起案件引起了廣泛關注，歌迷和粉絲們都在等待著真相的揭露。檢方的指控對D4vd的聲譽造成了重大影響，將會對他的音樂事業產生什麼影響，還需要等待進一步的發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ba6eed7d",
-        "title": "肯亞的塞巴斯蒂安·索韋回家迎接熱烈慶祝",
-        "url": "https://www.bbc.com/news/articles/cddp4y0rzjdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 30 Apr 2026 07:43:33 GMT",
-        "summary_zh": "肯亞的塞巴斯蒂安·索韋成為首位在競爭性比賽中跑完馬拉松在兩小時內的男子，他的家鄉人和家人為他舉辦了英雄式歡迎儀式。這位跑步選手在最近的馬拉松比賽中創下了歷史性的成績，讓他的支持者和家人感到極度自豪。塞巴斯蒂安·索韋的成功是他多年的努力和毅力得來的，他的家鄉人為他準備了熱烈的慶祝活動，包括街頭表演和花束贈送。這個事件不僅為肯亞跑步運動帶來了新的曙光，也為塞巴斯蒂安·索韋的個人生活帶來了新的機會和挑戰。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e899b5ed",
-        "title": "警方認為被綁架的五歲女孩遭殺害　澳洲沙漠發現屍體",
-        "url": "https://www.bbc.com/news/articles/cvgzd1yp2n6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 30 Apr 2026 06:29:55 GMT",
-        "summary_zh": "一名五歲女孩於上週六在澳洲阿利斯泉附近的土著營地失蹤。警方表示，目前相信被綁架的女孩已經遇害。女孩的屍體在澳洲沙漠被發現。這起案件引起了澳洲社會的強烈關注。警方正在調查該案件，試圖找出女孩的死因和兇手。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a5e142f0",
-        "title": "極地熊之都欲打造北極門戶",
-        "url": "https://www.bbc.com/news/articles/cyv1zdey7pmo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 23:35:30 GMT",
-        "summary_zh": "加拿大正在考慮是否能在曼尼托巴省的丘吉爾開通一條全年北極貿易航線，連接歐洲，隨著氣候變化加速北極冰川融化。這條航線將使加拿大與歐洲之間的貿易更加便捷，同時也將加拿大打造成北極門戶。然而，氣候變化的影響仍然存在，需要進一步評估。這項計畫將對加拿大經濟和環境產生重大影響，需要仔細考慮。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "56ced95b",
-        "title": "匈牙利新總理表示歐盟凍結的補助金將很快支付",
-        "url": "https://www.bbc.com/news/articles/c392ln77w30o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 19:51:54 GMT",
-        "summary_zh": "匈牙利新總理佩特·馬加爾（Péter Magyar）近日在布魯塞爾會見歐盟領袖，這是他黨派在大選中取得壓倒性勝利後首次出席的會議。馬加爾表示，歐盟凍結的補助金將很快支付，這將對匈牙利經濟產生重大影響。這一消息引起了歐盟內部的關注，因為匈牙利在過去幾年中一直與歐盟發生多次衝突。馬加爾的說法表明，匈牙利政府正在努力與歐盟合作，希望解決雙方的分歧。這一發展對於匈牙利的經濟和政治前景具有重要意義。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "474ffa68",
-        "title": "佛羅里達州立法者通過新選區地圖，偏袒共和黨",
-        "url": "https://www.bbc.com/news/articles/c5y9wvl0gkno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 22:00:44 GMT",
-        "summary_zh": "佛羅里達州成為美國國會議員選區重劃戰的最新參與者，這場戰爭可能影響共和黨或民主黨控制美國國會下議院的局面。佛羅里達州立法者通過新選區地圖，顯示共和黨在選區重劃中佔據了優勢。這項決定可能會對未來的選舉產生重大影響。選區重劃是美國政治的一個重要部分，立法者通過選區重劃來影響選民的分布和選舉結果。佛羅里達州的決定可能會對整個國家的政治格局產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "407fac48",
-        "title": "俄羅斯縮減莫斯科勝利日遊行，指責烏克蘭威脅",
-        "url": "https://www.bbc.com/news/articles/c794wp4yy93o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 13:01:57 GMT",
-        "summary_zh": "俄羅斯宣布今年莫斯科勝利日遊行將不會包括軍用車輛或預備役軍人參與。這項決定是由於俄羅斯指責烏克蘭對莫斯科的威脅。每年勝利日遊行都是俄羅斯紀念二戰勝利的重要活動，今年的遊行將會有所不同。俄羅斯政府表示，這項決定是為了確保參與者安全。然而，這一決定也引起了外界的關注，許多人認為這是一個跡象，表明俄羅斯正在為可能的戰爭做準備。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "783dc080",
-        "title": "澳洲機場小型飛機墜毀撞擊維修棚兩人死亡",
-        "url": "https://www.bbc.com/news/articles/ce9pzlvyvejo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 29 Apr 2026 09:08:07 GMT",
-        "summary_zh": "一架小型飛機在澳洲阿德萊德的帕拉菲爾德機場墜毀並撞擊維修棚，造成兩人死亡。飛機在墜毀後爆發大火。事件發生後，當局立即展開調查。帕拉菲爾德機場是一座小型機場，主要用於私人飛機和訓練飛行。這起事故引起了對飛行安全的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "ai": [
-      {
-        "id": "a86f8311",
-        "title": "下載：儲存核廢料和調配代理",
-        "url": "https://www.technologyreview.com/2026/04/29/1136666/the-download-nuclear-waste-orchestrated-ai-agents/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Wed, 29 Apr 2026 12:10:00 +0000",
-        "summary_zh": "今天是《下載》週日版的電子報，為您提供每天的科技新聞摘要。儲存核廢料的時候到了。今天，核能在政治光譜上獲得了罕見的支持。民眾的支持率大幅上升，科技巨頭也在大力投資核能相關項目。儲存核廢料一直是核能發展的瓶頸。美國政府正在研究如何儲存核廢料，包括在核電站附近的地下儲存。這項計畫面臨著多重挑戰，包括安全性、成本和環境影響。另一方面，科技公司正在發展新的技術來儲存核廢料，包括使用基因工程和人工智慧。這些新技術有望改善儲存核廢料的效率和安全性。然而，儲存核廢料仍然是一個複雜的問題，需要長期的研究和投資。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
       {
         "id": "57313785",
         "title": "埃隆·馬斯克在法庭上的最大敵人是埃隆·馬斯克自己",
@@ -662,6 +650,18 @@
         "ai_classified": true
       },
       {
+        "id": "a86f8311",
+        "title": "下載：儲存核廢料和調配代理",
+        "url": "https://www.technologyreview.com/2026/04/29/1136666/the-download-nuclear-waste-orchestrated-ai-agents/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 29 Apr 2026 12:10:00 +0000",
+        "summary_zh": "今天是《下載》週日版的電子報，為您提供每天的科技新聞摘要。儲存核廢料的時候到了。今天，核能在政治光譜上獲得了罕見的支持。民眾的支持率大幅上升，科技巨頭也在大力投資核能相關項目。儲存核廢料一直是核能發展的瓶頸。美國政府正在研究如何儲存核廢料，包括在核電站附近的地下儲存。這項計畫面臨著多重挑戰，包括安全性、成本和環境影響。另一方面，科技公司正在發展新的技術來儲存核廢料，包括使用基因工程和人工智慧。這些新技術有望改善儲存核廢料的效率和安全性。然而，儲存核廢料仍然是一個複雜的問題，需要長期的研究和投資。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "5c4a0571",
         "title": "埃隆·馬斯克與OpenAI的法律糾紛：他們「會想殺了我」",
         "url": "https://www.wired.com/story/model-behavior-elon-musk-cross-examined-sam-altman/",
@@ -708,21 +708,81 @@
         "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "64db57d7",
-        "title": "我已經多年來報導機器人新聞，但這一次卻是不同",
-        "url": "https://www.wired.com/story/when-robots-have-their-chatgpt-moment-remember-these-pincers/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Wed, 29 Apr 2026 10:00:00 +0000",
-        "summary_zh": "近年來，機器人技術取得了重大進展，從自動分類雞塊到替換人工裝卸燈泡，Eka的機械爪讓人感受到物理世界正面臨著ChatGPT時期的轉變。這種機械爪的能力不僅限於重復性工作，還能夠學習並適應新的任務，展現出人工智慧的潛力。這種技術的應用將會改善我們的生活質量，從物流業到醫療領域，機器人將會在各個領域發揮重要作用。然而，仍有許多挑戰需要克服，包括安全性、成本和倫理等問題。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "39820993",
+        "title": "智崴攜手美國連鎖樂園 擴大北美體感設備版圖",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5421364",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 30 Apr 2026 17:56:48 +0800",
+        "summary_zh": "智崴（5263）宣布與美國大型連鎖主題樂園業者簽訂兩座體感模擬遊樂設備合約，進一步拓展北美市場布局。該樂園於全球擁有多個營運據點，此次合作將讓智崴進一步擴大北美市場份額。智崴指出，這次合作將為公司帶來新的業務機會和收入增長。這項合作將讓智崴的體感設備在北美市場更加普遍。這項合作對智崴的市場份額和收入都將帶來正面的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "66c3c667",
+        "title": "DRAM價格飆升！達到1年前的10倍超狂",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5421375",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 30 Apr 2026 17:53:21 +0800",
+        "summary_zh": "記憶體價格在近期大幅上漲，尤其是通用DRAM的價格已經達到過去一年的10倍左右。這種情況與人工智慧的發展有關，許多企業都在大量使用記憶體來訓練和運行AI模型。韓媒最近披露，NAND快閃記憶體的價格已經連續16個月維持堅挺。市場研究公司的數據顯示，記憶體價格的上漲對於許多企業的營運有著重大影響。這種情況可能會持續下去，未來記憶體價格的走勢將受到人工智慧的發展和需求變化的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "46fd578c",
+        "title": "中鋼首季稅前淨損9.66億元 看Q2旺季鋼市動能向上",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5421362",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 30 Apr 2026 17:37:13 +0800",
+        "summary_zh": "中鋼在今年第一季度錄得合併營收791.6億元，合併營業損失6.2億元，合併稅前淨損9.66億元。相較於去年同期，中鋼的損益表顯示了顯著的改善，年減186%。然而，中鋼的財務報告也提到，第二季度是鋼鐵傳統旺季，市場基本面穩健回升。這意味著中鋼在第二季度可能會有所改善。中鋼的財務狀況在第二季度將受到鋼鐵市場的影響，市場預期中鋼在第二季度會有所回升。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b026a837",
+        "title": "一卡通iPASS MONEY與台網公司攜手強化電子支付資安",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5421348",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 30 Apr 2026 17:25:38 +0800",
+        "summary_zh": "台網公司與一卡通公司攜手強化電子支付資安，為一卡通旗下電子支付品牌iPASS MONEY新增行動身分識別服務。這項服務旨在阻絕詐騙，提高電子支付的安全性。行動身分識別服務將使用台網公司的認證技術，為使用者提供更安全的支付體驗。這項合作將大大提高電子支付的安全性，保護使用者的財產安全。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "03a29055",
+        "title": "亞光Q1獲利創新高 續拓人形機器人鏡頭商機",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5421326",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 30 Apr 2026 17:19:40 +0800",
+        "summary_zh": "亞光在今年第一季度的財報中表現亮眼，營收達到62.09億元，年增15%。毛利率為17.3%，稅後淨利2.94億元，季減約3%、年增33%。這表明公司在光學領域的業務持續穩定。亞光正在嘗試拓展人形機器人鏡頭的商機，展現出公司的前瞻性和發展策略。這項發展有望為公司帶來新的收入來源和競爭力。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b3aeaf74",
+        "title": "央行理監事會議曝光！1理事明確表達不同意放鬆房市管制",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5421317",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 30 Apr 2026 17:12:47 +0800",
+        "summary_zh": "中央銀行近期舉行了理監事會議，會議後宣布鬆綁第七波信用管制措施。根據消息，自然人第 2 戶購屋貸款成數上限將從 5 成放寬至 6 成。雖然多數理事認為此舉能夠兼顧自住換屋需求且風險可控，但會議中還有一位理事明確表達了不同意的意見。這一措施的出台將對房市產生影響，市場將密切關注央行的動向。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "e2a83801",
         "title": "主計總處概估第1季經濟成長13.69% 近39年最高",
@@ -732,8 +792,8 @@
         "published_at": "Thu, 30 Apr 2026 16:16:08 +0800",
         "summary_zh": "主計總處近日公布今年第1季經濟成長概估統計，結果為13.69%。這一數字較2月預測值增加2.23個百分點，創下民國76年第3季以來、近39年單季最高水準。根據分析，AI需求的猛烈成長是推動台灣出口、投資的重要因素，同時民間消費表現也優於預期。這一強勁的經濟成長表明台灣的經濟正在快速恢復，並且受到科技業的推動。然而，這一數字也引發了關於經濟過熱的擔憂。未來政府和經濟部門將如何應對這一挑戰，將是關鍵的問題。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "1aa7e58d",
@@ -744,8 +804,8 @@
         "published_at": "Thu, 30 Apr 2026 16:07:04 +0800",
         "summary_zh": "台北外匯市場新台幣兌美元今天收盤收31.648元，相較於昨日貶9.1分。根據市場數據，今天的成交金額達到19.71億美元。這一波貶值的原因尚未明確，市場觀察人士將密切關注後續發展。新台幣貶值對台灣經濟可能會產生一定的影響，尤其是出口業。同時，市場也會關注央行的政策回應。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "4983badb",
@@ -756,94 +816,82 @@
         "published_at": "Thu, 30 Apr 2026 15:56:51 +0800",
         "summary_zh": "研華公布第1季財報，營收達新台幣203.85億元，創單季歷史新高，年增17%。歸屬母公司稅後淨利33.34億元，也創單季新高，年增22%。每股盈餘（EPS）達3.85元。研華的財報表現令人關注，顯示公司在工業電腦領域的競爭力和市場份額的增長。這可能對於研華的股價和未來發展有所影響。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "69c34666",
-        "title": "川普拒絕伊朗提議致油價大漲 日股市場收跌",
-        "url": "https://www.cna.com.tw/news/afe/202604300191.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 30 Apr 2026 14:52:40 +0800",
-        "summary_zh": "美國總統川普在接受美國新聞網站Axios採訪時表示，他已拒絕伊朗提出重新開放荷莫茲海峽的提議，並延後核議題談判。這一決定引發油價進一步大漲，影響全球能源市場。日股市場也因而受到影響，收跌。這一事件的背景是伊朗和美國近期的緊張關係，伊朗試圖重新開放荷莫茲海峽以減輕經濟壓力，而川普的拒絕則使得局勢更加緊張。油價的飆升將對全球經濟產生重大影響，尤其是在能源出口國。日股市場的收跌也表明投資者對未來經濟情況感到擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c407f6e8",
-        "title": "台積電回測10日線支撐 台股跌376點單月飆漲7203點",
-        "url": "https://www.cna.com.tw/news/afe/202604300189.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 30 Apr 2026 14:48:36 +0800",
-        "summary_zh": "台股今天開高震盪翻黑，台積電尾盤走弱，回測10日均線2121元支撐。終場指數收在最低點38926.63點，下跌376.87點，失守39000點。雖然台股今天有所下跌，但在4月份卻創下史上最強月線漲點，飆漲7203.64點。這表明台股在短期內仍然保持著強勁的市場情緒。然而，今天的下跌也讓投資者們開始擔心市場的短期走勢。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d6f71970",
-        "title": "穩懋首季每股盈餘1.26元 大幅成長",
-        "url": "https://www.cna.com.tw/news/afe/202604300186.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 30 Apr 2026 14:41:30 +0800",
-        "summary_zh": "穩懋公布第1季自結合併損益，營收新台幣45.9億元，較去年同期成長78.2%。稅前盈餘5.31億元，較去年同期虧損6089.4萬元轉虧為盈。穩懋首季每股純益1.26元，較去年同期大幅成長。這表明穩懋在砷化鎵大廠領域取得了顯著的成績。然而，營收在季度內仍有4.2%的下滑，可能是由於市場需求或供應鏈問題所導致。穩懋的盈餘轉虧為盈，也表明公司在管理上取得了進步。然而，未來市場的變化和供應鏈的穩定性仍是關鍵問題。",
-        "sentiment": "正面",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f98d029b",
-        "title": "德國捷克拒賴總統過境 台灣總統府指北京施壓",
-        "url": "https://www.cna.com.tw/news/aipl/202604300185.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 30 Apr 2026 14:40:28 +0800",
-        "summary_zh": "台湾總統賴清德原定出訪非洲友邦史瓦帝尼，但因中國的打壓而受阻。外媒報導德國和捷克拒絕賴總統的專機過境申請。總統府發言人郭雅慧今天表示，元首出訪受阻的主因來自北京的施壓，導致原已取得飛航許可的國家臨時取消。台灣總統府感謝友盟國家在交涉過程中提供協助。這一事件顯示中國對台灣的影響力，特別是在國際舞台上。這一發展可能會對台海局勢產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "83da6ded",
-        "title": "EDP 大力投資澳洲 1 億美元亞洲再生能源推動",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-29/edp-bets-big-on-australia-in-1-billion-renewables-push-in-asia",
+        "id": "43512d83",
+        "title": "日本購買歐元債券創歷史新高，顯示資金轉移趨勢",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/japan-s-record-sales-of-euro-bonds-show-historic-funding-shift",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-04-29 21:00:00",
-        "summary_zh": "葡萄牙能源公司 EDP 宣布將在澳洲投資 1 億美元，推動亞洲再生能源發展。這是 EDP 對澳洲市場的重大投資，將幫助澳洲實現零碳排放目標。 EDP 將在澳洲建設新的風力發電場和太陽能發電場，旨在提高澳洲的能源可再生性。這項投資將創造大量就業機會，並幫助澳洲減少對化石燃料的依賴。 EDP 的這一舉動表明了對澳洲市場的信心，並將加速澳洲的能源轉型。",
-        "sentiment": "正面",
+        "published_at": "2026-04-29 22:00:00",
+        "summary_zh": "日本最近購買了歐元區債券的歷史新高，這表明該國正在從美元債券轉向歐元債券，這是一個資金轉移的跡象。這種轉變可能與美元的貶值和歐元的升值有關，同時也可能受到日本央行的購買歐元區債券的政策影響。這種轉變可能會對全球金融市場產生影響，特別是在美元和歐元的兌換率方面。日本央行的購買歐元區債券的政策可能是為了降低美元的貶值和穩定全球金融市場。這種轉變可能會對美元的貶值和歐元的升值產生影響，同時也可能會對全球經濟產生影響。",
+        "sentiment": "中性",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
       {
-        "id": "03287742",
-        "title": "全國安險第一季利潤大幅攀升，風災損失減少",
-        "url": "https://www.reuters.com/legal/litigation/allstate-quarterly-profit-jumps-sharp-drop-catastrophe-losses-2026-04-29/",
-        "source": "Reuters",
+        "id": "a7fc9794",
+        "title": "ANZ的成本削減CEO現在面臨壓力實現增長",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/anz-s-cost-cutting-ceo-now-faces-pressure-to-deliver-growth",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-04-29 20:59:43",
-        "summary_zh": "全國安險週三公布第一季利潤大幅攀升，該公司的財務表現得益於風災損失大幅減少。風災損失是指由於天災、地震、洪水等自然災害引起的損失。全國安險的風險管理能力和風災損失的減少是利潤大幅攀升的關鍵因素。這表明全國安險在風險管理方面取得了顯著進展。然而，未來風災損失的變化將對公司的財務表現產生重大影響。全國安險的股價在市場上受到關注，投資者將密切關注公司未來的財務表現。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "fc40af05",
-        "title": "Meta 選擇提高 2026 年預算，第一季度收入超出預期",
-        "url": "https://www.reuters.com/pt/negocio/57DM5Z4HAVIYNBZSD4QSBM26AE-2026-04-29/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-04-29 20:55:43",
-        "summary_zh": "Meta 公布了 2026 年第一季度財務報告，公司預計 2026 年的營運費用將超過原先預估的 10%。根據公司的財務報告，第一季度的收入已經超出了預期，Meta 的財務團隊表示這是由於公司的廣告業務和社交媒體平台的使用量增加所致。這項預測表明 Meta 將繼續投資在人工智慧、虛擬實境和社交媒體等領域。這項投資將有助於公司在未來的競爭中取得優勢。Meta 的財務報告也表明公司的收入和利潤都在增長，公司的財務狀況穩健。這項預測將對公司未來的發展產生重要影響。",
+        "published_at": "2026-04-29 22:00:00",
+        "summary_zh": "澳洲新銀行集團（ANZ）的新CEO，David Hisco，已經展開大規模的成本削減計畫，目標是提高效率和降低營運成本。然而，這項計畫也引發了投資者對公司未來增長潛力的擔憂。投資者們期望公司能夠在削減成本的同時，也能夠實現新的業務增長和收益。這項壓力將對公司的未來發展產生重要影響。同時，ANZ也面臨著競爭激烈的銀行業環境，需要通過創新和投資來保持競爭力。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
+      },
+      {
+        "id": "d7e939ab",
+        "title": "巴西央行再次降息，關注伊朗衝突",
+        "url": "https://www.reuters.com/world/americas/brazil-central-bank-cuts-interest-rates-by-25-bp-expected-2026-04-29/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-29 21:59:51",
+        "summary_zh": "巴西央行在最新的政策會議中再次降息，降息幅度為 50 個基點，至 13.75%。這是巴西央行繼 3 月份後再次降息，目標是維持經濟穩定和控制通貨膨脹。巴西央行行長卡洛斯·馬里亞·多拉多表示，央行正在密切關注伊朗與西方國家的緊張關係，伊朗衝突可能對全球經濟產生重大影響。巴西央行還表示，將繼續監測經濟情況並調整政策以應對未來挑戰。這次降息將對巴西經濟產生一定影響，可能會刺激消費和投資，但也可能會加劇通貨膨脹風險。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "c7abc86d",
+        "title": "LinkedIn 的 AI 招聘代理預計今年收入 450 億美元",
+        "url": "https://www.reuters.com/business/linkedins-ai-hiring-agents-track-450-million-yearly-revenue-2026-04-29/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-04-29 21:55:36",
+        "summary_zh": "LinkedIn 的 AI 招聘代理業務正按計劃運行，預計今年的收入將達到 45 億美元。這項業務是 LinkedIn 的一部分，旨在幫助企業自動化招聘流程。AI 招聘代理能夠分析求職者資訊、評估其技能和經歷，並推薦最合適的候選人給企業。這項業務的成功表明了企業對 AI 技術的需求正在增加。然而，LinkedIn 尚未公佈更多細節，包括業務的具體運作方式和所使用的 AI 技術。這項業務的發展也引發了對 AI 在招聘業的潛在影響的討論。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "87bdfab2",
+        "title": "巴西央行降息至 14.5% 以應對經濟放緩和通膨加劇",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/brazil-central-bank-trims-interest-rate-to-14-5",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-04-29 21:52:22",
+        "summary_zh": "巴西央行在面對經濟放緩和通膨加劇的情況下，決定降低利率至 14.5%。這一決定意在刺激經濟增長和控制通膨。巴西經濟在近期出現放緩的跡象，出口和投資減少，同時通膨也在加劇。央行認為降低利率可以幫助刺激經濟增長和控制通膨。這一決定可能會對巴西的經濟產生一定的影響，同時也會對外部市場產生一定的波動。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "98153a65",
+        "title": "比爾·阿克曼旗下Pershing Square上市首日滑落",
+        "url": "https://www.ft.com/content/ca9692a5-383c-4eb3-b553-3969f4c69cfc",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-04-29 21:48:05",
+        "summary_zh": "比爾·阿克曼旗下Pershing Square投資公司的首次公開募股(IPO)在紐約證券交易所上市首日出現滑落現象。投資者對這次IPO的需求不夠強勁，使得公司需要縮減發行股票的規模。這是投資界的一個重要事件，許多投資人關注著這次IPO的表現。Pershing Square是一家知名的投資公司，旗下有許多成功的投資案例。公司的首次公開募股是為了籌集資金繼續投資和擴大業務。然而，這次IPO的表現不佳，可能會對公司未來的發展產生影響。投資者需要密切關注這個事件的發展，了解它對市場的影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "1b80bda0",
@@ -860,6 +908,66 @@
     ],
     "stock_us": [
       {
+        "id": "0e71ee69",
+        "title": "高通股價大漲 16%：CEO 表示將提前交付數據中心晶片、稱中國訂單已經見底",
+        "url": "https://www.cnbc.com/2026/04/29/qualcomm-qcom-stock-earnings-china.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-29 21:59:25",
+        "summary_zh": "高通公司 CEO 克里斯蒂安諾·阿蒙（Cristiano Amon）表示，公司將會提前交付數據中心晶片給一家大型超級雲端服務供應商（hyperscaler），並認為中國訂單已經見底。這項消息使高通股價大漲 16%。阿蒙的表述暗示，公司正在積極擴大業務，同時也表明對中國市場的信心。高通公司在數據中心晶片市場的競爭日益激烈，公司的這一決定可能會對其業務產生重大影響。然而，阿蒙的表述也表明，公司正在努力克服中國市場的挑戰，同時也在尋求新的業務機會。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "113a561a",
+        "title": "華爾街人士暗示美聯儲在匯率互換線上權力可能有所變化",
+        "url": "https://www.cnbc.com/2026/04/29/fed-warsh-bessent-uae-swap-lines.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-29 21:26:56",
+        "summary_zh": "美聯儲主席提名人凱文·沃許（Kevin Warsh）在參議院銀行委員會的回應中，表示美聯儲在國際金融事務中並非完全獨立。這番話引發了對美聯儲在匯率互換線上權力的新解讀。匯率互換線是美聯儲與其他央行之間的合作機制，旨在保持全球金融穩定。沃許的言論可能意味著美聯儲在這方面的權力可能會有所變化，從而影響全球金融市場的運作。這一發展可能對美元和其他貨幣的走勢產生影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "ea03164d",
+        "title": "美股尾盤大幅波動股：Alphabet、微軟、亞馬遜、Meta 等",
+        "url": "https://www.cnbc.com/2026/04/29/stocks-making-the-biggest-moves-after-hours-googl-msft-amzn-meta.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-04-29 21:26:34",
+        "summary_zh": "美股尾盤有許多股票出現大幅波動，包括 Alphabet、微軟、亞馬遜和Meta 等公司。這些公司的股價在尾盤出現大幅波動，可能與公司的財務報告、市場預期或其他因素有關。根據目前的資訊，這些公司的股價出現大幅波動，可能對投資者造成影響。投資者應該密切關注這些公司的股價變化，以便做出明智的投資決策。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "fcfe3455",
+        "title": "Chipotle 股價大漲 6.2%：第一季度銷售額超預期",
+        "url": "https://www.marketwatch.com/story/more-diners-are-eating-at-chipotle-despite-higher-prices-bucking-wall-streets-concerns-about-restaurants-7d221685?mod=mw_rss_topstories",
+        "source": "Marketwatch",
+        "category": "stock_us",
+        "published_at": "2026-04-29 21:26:00",
+        "summary_zh": "雖然 Chipotle 因為價格上漲而引起 Wall Street 的擔憂，但最近的數據卻顯示，更多的消費者仍然選擇在 Chipotle 進食。根據最新的數據，Chipotle 在第一季度的同店銷售額出現了意外的增長。這一消息讓股價大漲 6.2%，表明投資者對公司的前景感到樂觀。這一結果也讓人們重新評估了對餐飲業的看法，是否真的需要擔憂因價格上漲而導致的消費者退縮？",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8b4a18eb",
+        "title": "交易日 美聯儲分裂票投票，油價飆升",
+        "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-04-29/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-04-29 21:09:59",
+        "summary_zh": "美國聯邦儲備委員會（Fed）在週三決定維持利率不變，但這一決定掩蓋了自 1992 年以來最大的分裂票投票。油價因深化供應恐懼而大幅上升，達到每桶 120 美元的高點。美國國債收益率大幅上升，股市則出現波動。這一系列的變化令人感到不安，市場對未來的預期也開始變得不確定。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "a011b88c",
         "title": "星巴克客戶回流，利潤仍未追趕",
         "url": "https://www.reuters.com/legal/transactional/starbucks-customers-are-coming-back-profits-havent-caught-up-yet-2026-04-29/",
@@ -868,8 +976,8 @@
         "published_at": "2026-04-29 20:35:35",
         "summary_zh": "星巴克於週二公布了兩年半來最強勁的季度銷售成長，但在 CEO Brian Niccol 的轉型策略下，成本卻在迅速上升。這使得業界對於利潤率能夠快速恢復的問題產生了疑問。星巴克的轉型策略旨在提高效率和降低成本，但目前看來成本的上升速度似乎快於銷售收入的增長。這使得公司的利潤率仍未能完全恢復。儘管如此，星巴克的銷售成長仍然令人鼓舞，表明客戶正在回流至品牌。然而，公司仍需要在成本控制和效率提升上下功夫，以便能夠將利潤率恢復至理想水平。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "99ab44cf",
@@ -880,8 +988,8 @@
         "published_at": "2026-04-29 20:20:17",
         "summary_zh": " Alphabet 的雲端業務在去年第四季度錄得超越市場預期的收入增長，主要是由於企業持續對人工智慧基礎設施的投資。這項業績表現是由於企業對於人工智慧技術的需求持續增加，導致對雲端基礎設施的投資也隨之增加。這項趨勢表明企業正越來越重視人工智慧技術的應用，並且願意為此投資資源。這項業績表現對於 Alphabet 的雲端業務來說是一個積極的信號，表明其業務正處於快速增長的階段。然而，這項趨勢也可能對於競爭對手造成壓力，迫使他們也投資人工智慧基礎設施。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "85982d2e",
@@ -891,30 +999,6 @@
         "category": "stock_us",
         "published_at": "2026-04-29 20:19:52",
         "summary_zh": "Meta 宣布首季財報，Reality Labs 虧損超過 400 億美元，營業額僅 40 億美元。這是 Meta Reality Labs 首次公布虧損數字，表明公司在元宇宙領域的投資仍在持續。 Reality Labs 是 Meta 的元宇宙實驗室，負責開發 VR 和 AR 技術。這項虧損數字可能會對 Meta 的未來發展產生影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "b20d37a9",
-        "title": "Powell時代股市投資者表現出色，債券投資者則不然",
-        "url": "https://www.cnbc.com/2026/04/29/stock-investors-fared-very-well-under-powell-bond-investors-not-so-much.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-04-29 19:56:58",
-        "summary_zh": "在Powell領導下，投資者開始評估他任期對華爾街的影響。 Powell領導下的美聯儲對股市有著顯著的影響，股市投資者在他的任期內表現出色。然而，債券投資者則未能獲得同樣的好處。債券市場的表現不佳，與股市投資者的表現形成鮮明對比。投資者正在努力了解Powell領導下的美聯儲對股市和債券市場的影響。這將對未來的投資策略和決策產生重要影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8a7c7768",
-        "title": "Chipotle 墨西哥餐廳即將公布財報，投資者該如何期待？",
-        "url": "https://www.cnbc.com/2026/04/29/chipotle-mexican-grill-cmg-q1-2026-earnings.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-04-29 19:40:01",
-        "summary_zh": "Chipotle 墨西哥餐廳股價過去一年大跌 35%，投資者對公司未來財報表現充滿疑慮。雖然公司未來財報的具體表現尚未公布，但投資者們對公司未來的前景感到擔憂。公司股價的下跌可能與公司的營運表現、市場競爭力以及經營管理等因素有關。投資者們希望公司能夠恢復其股價的增長趨勢，同時也關注公司是否能夠有效地應對市場挑戰。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
