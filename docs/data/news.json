@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-05T04:04:10.915163+08:00",
+  "generated_at": "2026-05-05T05:04:04.657102+08:00",
   "risk_signals": [
     "🟢 台股加權 38926.63（正常）",
-    "🟢 S&P 500 7200.77（正常）",
-    "🟢 VIX 恐慌指數 18.25（正常）",
-    "🟢 MOVE 債市波動 70.41（正常）",
-    "🟢 美元指數 98.41（正常）",
-    "🟢 黃金 4529.8（正常）",
+    "🟢 S&P 500 7200.75（正常）",
+    "🟢 VIX 恐慌指數 18.29（正常）",
+    "🟢 MOVE 債市波動 77.86（正常）",
+    "🟢 美元指數 98.47（正常）",
+    "🟢 黃金 4530.8（正常）",
     "🟢 美債10Y殖利率 4.45（正常）",
-    "🟡 原油 WTI 105.09（漲 +3.09%，留意）",
+    "🟡 原油 WTI 105.14（漲 +3.14%，留意）",
     "🟢 美元/台幣 31.66（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，多個指標正常運作。原油價格略微上漲，但整體市場表現仍然相對平穩。",
+  "ai_summary": "市場目前保持穩定態勢，各大指數均處於正常範圍內，但原油價格出現小幅上漲，值得關注。",
   "market": {
     "TWII": {
       "price": 38926.63,
       "change_pct": -0.96
     },
     "SP500": {
-      "price": 7200.77,
+      "price": 7200.75,
       "change_pct": -0.41
     },
     "NASDAQ": {
@@ -26,37 +26,267 @@
       "change_pct": -0.19
     },
     "VIX": {
-      "price": 18.25,
-      "change_pct": 7.42
+      "price": 18.29,
+      "change_pct": 7.65
     },
     "TNX": {
       "price": 4.45,
       "change_pct": 1.55
     },
     "MOVE": {
-      "price": 70.41,
-      "change_pct": 0.0
+      "price": 77.86,
+      "change_pct": 10.59
     },
     "DXY": {
-      "price": 98.41,
-      "change_pct": 0.2
+      "price": 98.47,
+      "change_pct": 0.26
     },
     "GOLD": {
-      "price": 4529.8,
-      "change_pct": -2.16
+      "price": 4530.8,
+      "change_pct": -2.14
     },
     "OIL": {
-      "price": 105.09,
-      "change_pct": 3.09
+      "price": 105.14,
+      "change_pct": 3.14
     },
     "USDTWD": {
       "price": 31.66,
-      "change_pct": 0.3
+      "change_pct": 0.34
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "3f527894",
+        "title": "德國城市萊比錫發生汽車衝撞人群事件，兩人死亡多人受傷",
+        "url": "https://www.bbc.com/news/articles/ckgpzgxgz58o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 19:00:40 GMT",
+        "summary_zh": "德國城市萊比錫發生嚴重事故，汽車衝撞人群，造成兩人死亡，多人受傷。當地市長布爾哈德·容格（Burkhard Jung）表示，一名嫌疑人已被拘留，但動機仍不清楚。這起事件引起了社會的關注和譴責。德國政府已經開始調查此事件，了解背後的原因和動機。這起事故也引起了對交通安全和公共安全的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "eceb951d",
+        "title": "三人死亡，世界衛生組織確認一例非典型病毒感染案例",
+        "url": "https://www.bbc.com/news/articles/cy0294829ndo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 16:07:57 GMT",
+        "summary_zh": "一艘大西洋巡遊船上發生疑似病毒爆發，世界衛生組織確認一例非典型病毒感染案例，另外五例疑似病例正在調查中。這艘巡遊船的乘客和船員被隔離，正在等待檢測結果。非典型病毒感染可能會導致嚴重疾病，包括肺出血症和肝臟衰竭。世界衛生組織正在密切監測這個情況，並與相關當局合作，確保乘客和船員的安全。這個事件可能會對全球旅遊業產生重大影響，特別是在疫情期間。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f262b396",
+        "title": "烏克蘭無人機襲擊莫斯科高級住宅區，俄羅斯勝利日前夕",
+        "url": "https://www.bbc.com/news/articles/cwy234llx3vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 19:09:14 GMT",
+        "summary_zh": "烏克蘭在俄羅斯勝利日前夕發動襲擊，莫斯科一座高級住宅區遭到無人機攻擊。俄羅斯克里姆林宮正準備在週六舉辦縮減版的軍事閱兵儀式。這次襲擊顯示烏克蘭仍在繼續對俄羅斯的軍事行動，儘管雙方正在努力達成和平協議。這次襲擊對莫斯科的高級住宅區造成了嚴重後果，居民感到恐慌。俄羅斯政府正試圖控制局勢，防止情況惡化。勝利日是俄羅斯對第二次世界大戰勝利的紀念日，今年將在縮減版進行。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "52d67e2e",
+        "title": "新加坡和紐西蘭締結「世界首例」供應鏈協議",
+        "url": "https://www.ft.com/content/d9e48c9c-4c6f-4ac9-8fe1-a50272697d3e",
+        "source": "Financial Times",
+        "category": "global",
+        "published_at": "2026-05-04 08:54:06",
+        "summary_zh": "新加坡和紐西蘭近日締結了一項「世界首例」的供應鏈協議，這項協議旨在加強兩國之間的經濟合作和供應鏈穩定性。這項協議被視為全球經濟合作的一個重要里程碑，雙方領導人呼籲其他國家和地區仿效這項模式，維持全球貿易流動的穩定性。這項協議將對全球供應鏈產生重大影響，促進經濟合作和穩定性。這項協議的簽署標誌著新加坡和紐西蘭之間的經濟關係進一步加強。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9077f760",
+        "title": "奧地利驅逐三名俄羅斯外交官",
+        "url": "https://www.bbc.com/news/articles/c5yrwny111xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 16:58:56 GMT",
+        "summary_zh": "奧地利外交部長指出，俄羅斯外交官利用位於外交館頂部的「天線森林」收集情報。奧地利政府對俄羅斯外交官的行為表示強烈不滿，並決定驅逐三名俄羅斯外交官。這一決定是基於奧地利政府對俄羅斯外交官涉嫌間諜活動的調查結果。奧地利政府強調，驅逐俄羅斯外交官是為了維護國家安全和尊嚴。這一事件可能會對奧地利和俄羅斯的外交關係產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "666eca39",
+        "title": "馬利軍政府領袖自封國防部長　前任部長遇刺",
+        "url": "https://www.bbc.com/news/articles/c8r8jr7x8mlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 18:31:38 GMT",
+        "summary_zh": "馬利軍政府領袖在前任國防部長Sadio Camara遇刺後，自封為新任國防部長。前任部長Sadio Camara在一場由極端主義者和分離主義者聯合發動的大規模攻勢中喪生。這一事件發生在馬利政治局勢不穩定的背景下。馬利軍政府領袖的自封行動引發了對其政治意圖和軍政府穩定性的質疑。這一發展可能會對馬利的政治局勢和安全環境產生重大影響。馬利政府將如何應對這一挑戰，尚待觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0c70586b",
+        "title": "西班牙海關破獲大麻案：大西洋海面擒獲近45,000公斤可卡因",
+        "url": "https://www.bbc.com/news/articles/cp8pn8py5gro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 18:08:55 GMT",
+        "summary_zh": "西班牙海關近日在大西洋海面擒獲一艘貨輪，該貨輪載有大麻，估計重達30,000至45,000公斤。西班牙民防部隊表示，這是西班牙海關歷史上擒獲的可卡因最大批次。貨輪正前往利比亞的目的地。這項行動表明西班牙海關對可卡因走私活動的打擊力度不容小覷。這項行動對於打擊可卡因走私活動和維護西班牙海岸安全具有重要意義。西班牙海關將繼續加強對可卡因走私活動的監控和打擊。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "90db4bd8",
+        "title": "莫迪的印度人民黨在孟加拉國勝利，一個印度最具挑戰性的政治前線",
+        "url": "https://www.bbc.com/news/articles/ce8pdvp5x5ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 11:59:58 GMT",
+        "summary_zh": "莫迪的印度人民黨在孟加拉國大選中取得勝利，這不僅改變了該州的政治格局，也可能影響莫迪的印度人民黨未來的發展方向。孟加拉國是印度政治最具挑戰性的地區之一，莫迪的勝利標誌著印度人民黨在該州的崛起。這一勝利對印度政治格局的影響將是深遠的，可能會改變印度未來的政治走向。莫迪的勝利也表明了印度人民黨在印度政治中的強大實力，將對印度政治產生重大影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0863ba55",
+        "title": "反猶太主義被允許公開表達　邦迪遇襲受害者女兒說法",
+        "url": "https://www.bbc.com/news/articles/c1m2rk209mzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 04:12:04 GMT",
+        "summary_zh": "近日，澳洲政府成立了皇家委員會來調查邦迪遇襲事件。受害者女兒Sheina Gutnick首先出庭作證。根據她的說法，反猶太主義在澳洲正悄悄抬頭，許多人已經允許公開表達這種意識形態。這種情況令人擔憂，可能會導致更多的仇恨犯罪。委員會的調查將對澳洲政府和社會的反猶太主義問題進行深入的探討。這項調查將幫助澳洲政府了解和應對這種問題，確保所有澳洲公民都能夠安全地生活和工作。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d08d72e8",
+        "title": "歐洲領袖聚集於亞美尼亞，俄羅斯觀察中",
+        "url": "https://www.bbc.com/news/articles/cgkp1124y3yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 03 May 2026 23:19:05 GMT",
+        "summary_zh": "近日，兩場歐洲峰會在亞美尼亞舉行，這個地區被視為俄羅斯最靠近的盟友之一。這些峰會旨在加強亞美尼亞與歐洲國家之間的合作關係，同時也在觀察俄羅斯在區域的影響力。亞美尼亞長期被視為俄羅斯在南高加索地區的重要據點，俄羅斯在該地區的軍事存在和經濟影響力都非常顯著。歐洲峰會的舉辦表明，歐洲國家正在努力在區域中建立自己的影響力，同時也在與俄羅斯競爭。這一發展可能會對區域的政治格局產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b5c563e9",
+        "title": "郵輪疑似爆發罕見病毒，維尼克角拒絕泊船",
+        "url": "https://www.theguardian.com/science/2026/may/04/cruise-ship-suspected-hantavirus-outbreak-blocked-docking-cape-verde",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 17:16:09 GMT",
+        "summary_zh": "維尼克角當局宣布不准一艘郵輪靠岸，理由是保護公眾健康。這艘郵輪疑似爆發罕見的呼吸道病毒，該病毒主要在老鼠身上發現。據報三名乘客死亡。世界衛生組織正在調查郵輪上是否有罕見病毒的爆發。維尼克角當局的決定是在世界衛生組織發布消息後不久做出的。罕見病毒是一種主要在老鼠身上發現的疾病，人類感染罕見，但可能會導致嚴重的呼吸道問題。維尼克角當局的決定可能會對郵輪上的乘客造成影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "55cf89e5",
+        "title": "奧克拉荷馬州湖邊派對槍擊案至少10人受傷",
+        "url": "https://www.bbc.com/news/articles/cnvp3lnegqdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 16:14:48 GMT",
+        "summary_zh": "奧克拉荷馬州埃德蒙附近的阿卡迪亞湖周日晚間21:00左右發生槍擊案，造成至少10人受傷。警方正在調查此案。這起槍擊案發生在湖邊的派對上，警方正在努力確定槍擊者和受害者的身份。這是奧克拉荷馬州近期槍擊案的又一例。槍擊案對當地居民造成了嚴重的影響，警方呼籲民眾保持冷靜。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4eab2ac7",
+        "title": "肯亞AI驅動的健康改革存在缺陷，為最貧困的人增加了費用",
+        "url": "https://www.theguardian.com/global-development/2026/may/04/kenya-ai-healthcare-reforms-driving-up-costs-for-poor",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 06:00:16 GMT",
+        "summary_zh": "肯亞總統威廉·魯托曾承諾為所有肯亞人提供醫療保健服務。但是，調查發現，該國正在推行的AI系統，卻系統性地為貧困人群增加了醫療費用。該系統旨在根據肯亞人能夠承擔的支付能力，預測他們能夠支付多少醫療費用。然而，調查發現，這個系統卻偏袒富人，導致醫療費用上漲。這個AI系統是根據總統威廉·魯托的競選承諾，推行的醫療改革計畫的一部分。該計畫旨在取代肯亞的老舊國家醫療保健系統。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6c975598",
+        "title": "一艘巡遊船疑似爆發罕見的哈恩病，三人死亡，至少三人病倒",
+        "url": "https://www.theguardian.com/world/2026/may/03/three-passengers-dead-after-suspected-hantavirus-outbreak-on-cruise-ship",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Sun, 03 May 2026 22:55:44 GMT",
+        "summary_zh": "一艘巡遊船在大西洋上疑似爆發罕見的哈恩病，造成三人死亡，包括一對年長夫婦。世界衛生組織（WHO）和南非衛生部門表示，至少三人病倒。WHO 表示正在進行調查，但至少有一例哈恩病病例已經被確認。其中一名病人正在南非的一家醫院的重症監護室接受治療，WHO 與當局合作，準備將另外兩名出現症狀的乘客從船上撤離。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "65d3398e",
+        "title": "三星家族支付紀錄破億美元遺產稅費用",
+        "url": "https://www.bbc.com/news/articles/cn0px8g13xgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 04:24:22 GMT",
+        "summary_zh": "三星家族最近支付了紀錄破億美元的遺產稅費用，這與公司前任主席李健熙的遺產有關。李健熙於2020年10月去世。三星家族支付這筆巨額遺產稅費用後，將有助於公司繼續發展和擴張業務。這筆費用支付後，三星家族將能夠集中精力於公司的未來發展計畫和投資。這項消息對於三星家族和公司的未來發展具有重要意義。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ab13d806",
+        "title": "川普敦促韓國加入伊朗戰爭　韓國船遭伊朗軍事基地開火",
+        "url": "https://thehill.com/homenews/administration/5862570-iran-war-trump-south-korea/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 18:44:24 +0000",
+        "summary_zh": "川普星期一敦促韓國加入伊朗戰爭。韓國政府報告，韓國船在霍爾木茲海峽遭遇爆炸，伊朗在與美國和以色列的戰爭中封鎖了該海峽。川普週日表示，美國將開始指導船隻通過霍爾木茲海峽。韓國政府表示，這艘船遭到伊朗軍事基地的開火，造成船上人員受傷。川普的要求引發了韓國政府的關注，韓國政府正在評估是否應該加入伊朗戰爭。伊朗戰爭的影響已經擴散到全球各地，包括中東、歐洲和亞洲。韓國加入伊朗戰爭可能會使局勢更加複雜。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d59aad07",
+        "title": "美國與伊朗在霍爾木茲海峽緊張局勢下互射炮火",
+        "url": "https://thehill.com/homenews/administration/5861237-live-updates-donald-trump-iran/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 18:27:54 +0000",
+        "summary_zh": "伊朗星期一對美國戰艦開火，美國軍方隨後反擊，摧毀了六艘伊朗小艇。這一行動是伊朗在霍爾木茲海峽不允許任何船隻通過後的結果。伊朗此前警告說，美國將在霍爾木茲海峽的行動將會受到嚴厲反對。美國總統川普星期天表示，美國將會協助盟國通過霍爾木茲海峽。霍爾木茲海峽是伊朗與阿拉伯聯合酋長國之間的重要海上通道，伊朗控制著該海峽的出口，對全球石油運輸產生重大影響。美國與伊朗之間的緊張局勢持續升級，雙方的軍事對抗可能會對全球經濟產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "93b2c8eb",
+        "title": "伊朗對美軍戰艦開火 美軍反擊摧毀六艘小艇",
+        "url": "https://thehill.com/policy/defense/5862483-iran-us-warships-middle-east/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 17:34:15 +0000",
+        "summary_zh": "伊朗在中東對美軍戰艦開火，美軍隨後反擊，摧毀六艘伊朗小艇。根據美中東指揮部（Centcom）領導人布拉德·庫珀（Adm. Brad Cooper）表示，美軍截獲了伊朗的巡航導彈和無人機。美軍此舉是為了讓船隻通過霍爾木茲海峽，而伊朗此舉則被視為挑釁行為。伊朗此前曾多次對美軍進行挑釁，包括在2022年對美軍基地發動攻擊。美軍的反擊行動顯示了對伊朗挑釁的嚴厲處理。這一事件可能會對中東地區的安全局勢產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
+      {
+        "id": "c01e5666",
+        "title": "前紐約市長魯迪·朱利安尼正在康復，目前已經能獨自呼吸",
+        "url": "https://www.bbc.com/news/articles/cpvpnve1r24o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 04 May 2026 16:27:32 GMT",
+        "summary_zh": "前紐約市長魯迪·朱利安尼因患上肺炎而住院，目前仍處於危急狀態，但情況穩定。根據他的發言人表示，朱利安尼目前已經能獨自呼吸，這是他康復的一個重要里程碑。朱利安尼的健康狀況一直受到關注，外界期待著他能夠盡快康復。朱利安尼曾經在2008年競選美國總統，後來成為唐納·川普政府的顧問。他的健康狀況對於美國政治界有著重要影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "4fa1a704",
         "title": "川普總統慶祝小企業復甦週",
@@ -78,18 +308,6 @@
         "published_at": "Sun, 03 May 2026 23:19:15 +0000",
         "summary_zh": "美國小企業已經在250年間成為國家實力的基石，幫助公民實現美國夢。這個全國小企業周，我們要致敬那些具有開拓精神的企業家、創新者和夢想家，他們的精神激勵了我們的文化，推動了我們的經濟，提升了我們的社區。從製造商到創業家，我們都致力於推動美國的小企業發展。",
         "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c01e5666",
-        "title": "前紐約市長魯迪·朱利安尼正在康復，目前已經能獨自呼吸",
-        "url": "https://www.bbc.com/news/articles/cpvpnve1r24o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 04 May 2026 16:27:32 GMT",
-        "summary_zh": "前紐約市長魯迪·朱利安尼因患上肺炎而住院，目前仍處於危急狀態，但情況穩定。根據他的發言人表示，朱利安尼目前已經能獨自呼吸，這是他康復的一個重要里程碑。朱利安尼的健康狀況一直受到關注，外界期待著他能夠盡快康復。朱利安尼曾經在2008年競選美國總統，後來成為唐納·川普政府的顧問。他的健康狀況對於美國政治界有著重要影響。",
-        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
@@ -142,212 +360,6 @@
         "ai_classified": true
       }
     ],
-    "global": [
-      {
-        "id": "3f527894",
-        "title": "德國城市萊比錫發生汽車衝撞人群事件，兩人死亡多人受傷",
-        "url": "https://www.bbc.com/news/articles/ckgpzgxgz58o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 19:00:40 GMT",
-        "summary_zh": "德國城市萊比錫發生嚴重事故，汽車衝撞人群，造成兩人死亡，多人受傷。當地市長布爾哈德·容格（Burkhard Jung）表示，一名嫌疑人已被拘留，但動機仍不清楚。這起事件引起了社會的關注和譴責。德國政府已經開始調查此事件，了解背後的原因和動機。這起事故也引起了對交通安全和公共安全的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "eceb951d",
-        "title": "三人死亡，世界衛生組織確認一例非典型病毒感染案例",
-        "url": "https://www.bbc.com/news/articles/cy0294829ndo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 16:07:57 GMT",
-        "summary_zh": "一艘大西洋巡遊船上發生疑似病毒爆發，世界衛生組織確認一例非典型病毒感染案例，另外五例疑似病例正在調查中。這艘巡遊船的乘客和船員被隔離，正在等待檢測結果。非典型病毒感染可能會導致嚴重疾病，包括肺出血症和肝臟衰竭。世界衛生組織正在密切監測這個情況，並與相關當局合作，確保乘客和船員的安全。這個事件可能會對全球旅遊業產生重大影響，特別是在疫情期間。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f262b396",
-        "title": "烏克蘭無人機襲擊莫斯科高級住宅區，俄羅斯勝利日前夕",
-        "url": "https://www.bbc.com/news/articles/cwy234llx3vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 19:09:14 GMT",
-        "summary_zh": "烏克蘭在俄羅斯勝利日前夕發動襲擊，莫斯科一座高級住宅區遭到無人機攻擊。俄羅斯克里姆林宮正準備在週六舉辦縮減版的軍事閱兵儀式。這次襲擊顯示烏克蘭仍在繼續對俄羅斯的軍事行動，儘管雙方正在努力達成和平協議。這次襲擊對莫斯科的高級住宅區造成了嚴重後果，居民感到恐慌。俄羅斯政府正試圖控制局勢，防止情況惡化。勝利日是俄羅斯對第二次世界大戰勝利的紀念日，今年將在縮減版進行。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9077f760",
-        "title": "奧地利驅逐三名俄羅斯外交官",
-        "url": "https://www.bbc.com/news/articles/c5yrwny111xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 16:58:56 GMT",
-        "summary_zh": "奧地利外交部長指出，俄羅斯外交官利用位於外交館頂部的「天線森林」收集情報。奧地利政府對俄羅斯外交官的行為表示強烈不滿，並決定驅逐三名俄羅斯外交官。這一決定是基於奧地利政府對俄羅斯外交官涉嫌間諜活動的調查結果。奧地利政府強調，驅逐俄羅斯外交官是為了維護國家安全和尊嚴。這一事件可能會對奧地利和俄羅斯的外交關係產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "666eca39",
-        "title": "馬利軍政府領袖自封國防部長　前任部長遇刺",
-        "url": "https://www.bbc.com/news/articles/c8r8jr7x8mlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 18:31:38 GMT",
-        "summary_zh": "馬利軍政府領袖在前任國防部長Sadio Camara遇刺後，自封為新任國防部長。前任部長Sadio Camara在一場由極端主義者和分離主義者聯合發動的大規模攻勢中喪生。這一事件發生在馬利政治局勢不穩定的背景下。馬利軍政府領袖的自封行動引發了對其政治意圖和軍政府穩定性的質疑。這一發展可能會對馬利的政治局勢和安全環境產生重大影響。馬利政府將如何應對這一挑戰，尚待觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "90db4bd8",
-        "title": "莫迪的印度人民黨在孟加拉國勝利，一個印度最具挑戰性的政治前線",
-        "url": "https://www.bbc.com/news/articles/ce8pdvp5x5ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 11:59:58 GMT",
-        "summary_zh": "莫迪的印度人民黨在孟加拉國大選中取得勝利，這不僅改變了該州的政治格局，也可能影響莫迪的印度人民黨未來的發展方向。孟加拉國是印度政治最具挑戰性的地區之一，莫迪的勝利標誌著印度人民黨在該州的崛起。這一勝利對印度政治格局的影響將是深遠的，可能會改變印度未來的政治走向。莫迪的勝利也表明了印度人民黨在印度政治中的強大實力，將對印度政治產生重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0863ba55",
-        "title": "反猶太主義被允許公開表達　邦迪遇襲受害者女兒說法",
-        "url": "https://www.bbc.com/news/articles/c1m2rk209mzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 04:12:04 GMT",
-        "summary_zh": "近日，澳洲政府成立了皇家委員會來調查邦迪遇襲事件。受害者女兒Sheina Gutnick首先出庭作證。根據她的說法，反猶太主義在澳洲正悄悄抬頭，許多人已經允許公開表達這種意識形態。這種情況令人擔憂，可能會導致更多的仇恨犯罪。委員會的調查將對澳洲政府和社會的反猶太主義問題進行深入的探討。這項調查將幫助澳洲政府了解和應對這種問題，確保所有澳洲公民都能夠安全地生活和工作。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "55cf89e5",
-        "title": "奧克拉荷馬州湖邊派對槍擊案至少10人受傷",
-        "url": "https://www.bbc.com/news/articles/cnvp3lnegqdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 16:14:48 GMT",
-        "summary_zh": "奧克拉荷馬州埃德蒙附近的阿卡迪亞湖周日晚間21:00左右發生槍擊案，造成至少10人受傷。警方正在調查此案。這起槍擊案發生在湖邊的派對上，警方正在努力確定槍擊者和受害者的身份。這是奧克拉荷馬州近期槍擊案的又一例。槍擊案對當地居民造成了嚴重的影響，警方呼籲民眾保持冷靜。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d08d72e8",
-        "title": "歐洲領袖聚集於亞美尼亞，俄羅斯觀察中",
-        "url": "https://www.bbc.com/news/articles/cgkp1124y3yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 03 May 2026 23:19:05 GMT",
-        "summary_zh": "近日，兩場歐洲峰會在亞美尼亞舉行，這個地區被視為俄羅斯最靠近的盟友之一。這些峰會旨在加強亞美尼亞與歐洲國家之間的合作關係，同時也在觀察俄羅斯在區域的影響力。亞美尼亞長期被視為俄羅斯在南高加索地區的重要據點，俄羅斯在該地區的軍事存在和經濟影響力都非常顯著。歐洲峰會的舉辦表明，歐洲國家正在努力在區域中建立自己的影響力，同時也在與俄羅斯競爭。這一發展可能會對區域的政治格局產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "65d3398e",
-        "title": "三星家族支付紀錄破億美元遺產稅費用",
-        "url": "https://www.bbc.com/news/articles/cn0px8g13xgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 04:24:22 GMT",
-        "summary_zh": "三星家族最近支付了紀錄破億美元的遺產稅費用，這與公司前任主席李健熙的遺產有關。李健熙於2020年10月去世。三星家族支付這筆巨額遺產稅費用後，將有助於公司繼續發展和擴張業務。這筆費用支付後，三星家族將能夠集中精力於公司的未來發展計畫和投資。這項消息對於三星家族和公司的未來發展具有重要意義。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4a2ae3a5",
-        "title": "前紐約市長 Giuliani 因病情嚴重入院",
-        "url": "https://www.bbc.com/news/articles/c7941rgy4lyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 08:43:06 GMT",
-        "summary_zh": "前紐約市長 Giuliani 因病情嚴重入院，據他的發言人透露。 Giuliani 曾是川普的忠實支持者和盟友，他的健康狀況近期一直備受關注。 Giuliani 的入院消息引起了各界的關注，許多人為他祈禱著。 Giuliani 的健康狀況對於川普的政治影響力和美國政治局勢都有著重要影響。 Giuliani 的入院消息也讓人們開始思考他未來的政治前景。 Giuliani 的健康狀況是否會對他的政治生涯產生影響？",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ab13d806",
-        "title": "川普敦促韓國加入伊朗戰爭　韓國船遭伊朗軍事基地開火",
-        "url": "https://thehill.com/homenews/administration/5862570-iran-war-trump-south-korea/",
-        "source": "The Hill",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 18:44:24 +0000",
-        "summary_zh": "川普星期一敦促韓國加入伊朗戰爭。韓國政府報告，韓國船在霍爾木茲海峽遭遇爆炸，伊朗在與美國和以色列的戰爭中封鎖了該海峽。川普週日表示，美國將開始指導船隻通過霍爾木茲海峽。韓國政府表示，這艘船遭到伊朗軍事基地的開火，造成船上人員受傷。川普的要求引發了韓國政府的關注，韓國政府正在評估是否應該加入伊朗戰爭。伊朗戰爭的影響已經擴散到全球各地，包括中東、歐洲和亞洲。韓國加入伊朗戰爭可能會使局勢更加複雜。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b5c563e9",
-        "title": "郵輪疑似爆發罕見病毒，維尼克角拒絕泊船",
-        "url": "https://www.theguardian.com/science/2026/may/04/cruise-ship-suspected-hantavirus-outbreak-blocked-docking-cape-verde",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 17:16:09 GMT",
-        "summary_zh": "維尼克角當局宣布不准一艘郵輪靠岸，理由是保護公眾健康。這艘郵輪疑似爆發罕見的呼吸道病毒，該病毒主要在老鼠身上發現。據報三名乘客死亡。世界衛生組織正在調查郵輪上是否有罕見病毒的爆發。維尼克角當局的決定是在世界衛生組織發布消息後不久做出的。罕見病毒是一種主要在老鼠身上發現的疾病，人類感染罕見，但可能會導致嚴重的呼吸道問題。維尼克角當局的決定可能會對郵輪上的乘客造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d59aad07",
-        "title": "美國與伊朗在霍爾木茲海峽緊張局勢下互射炮火",
-        "url": "https://thehill.com/homenews/administration/5861237-live-updates-donald-trump-iran/",
-        "source": "The Hill",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 18:27:54 +0000",
-        "summary_zh": "伊朗星期一對美國戰艦開火，美國軍方隨後反擊，摧毀了六艘伊朗小艇。這一行動是伊朗在霍爾木茲海峽不允許任何船隻通過後的結果。伊朗此前警告說，美國將在霍爾木茲海峽的行動將會受到嚴厲反對。美國總統川普星期天表示，美國將會協助盟國通過霍爾木茲海峽。霍爾木茲海峽是伊朗與阿拉伯聯合酋長國之間的重要海上通道，伊朗控制著該海峽的出口，對全球石油運輸產生重大影響。美國與伊朗之間的緊張局勢持續升級，雙方的軍事對抗可能會對全球經濟產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4eab2ac7",
-        "title": "肯亞AI驅動的健康改革存在缺陷，為最貧困的人增加了費用",
-        "url": "https://www.theguardian.com/global-development/2026/may/04/kenya-ai-healthcare-reforms-driving-up-costs-for-poor",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 06:00:16 GMT",
-        "summary_zh": "肯亞總統威廉·魯托曾承諾為所有肯亞人提供醫療保健服務。但是，調查發現，該國正在推行的AI系統，卻系統性地為貧困人群增加了醫療費用。該系統旨在根據肯亞人能夠承擔的支付能力，預測他們能夠支付多少醫療費用。然而，調查發現，這個系統卻偏袒富人，導致醫療費用上漲。這個AI系統是根據總統威廉·魯托的競選承諾，推行的醫療改革計畫的一部分。該計畫旨在取代肯亞的老舊國家醫療保健系統。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6c975598",
-        "title": "一艘巡遊船疑似爆發罕見的哈恩病，三人死亡，至少三人病倒",
-        "url": "https://www.theguardian.com/world/2026/may/03/three-passengers-dead-after-suspected-hantavirus-outbreak-on-cruise-ship",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 03 May 2026 22:55:44 GMT",
-        "summary_zh": "一艘巡遊船在大西洋上疑似爆發罕見的哈恩病，造成三人死亡，包括一對年長夫婦。世界衛生組織（WHO）和南非衛生部門表示，至少三人病倒。WHO 表示正在進行調查，但至少有一例哈恩病病例已經被確認。其中一名病人正在南非的一家醫院的重症監護室接受治療，WHO 與當局合作，準備將另外兩名出現症狀的乘客從船上撤離。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "93b2c8eb",
-        "title": "伊朗對美軍戰艦開火 美軍反擊摧毀六艘小艇",
-        "url": "https://thehill.com/policy/defense/5862483-iran-us-warships-middle-east/",
-        "source": "The Hill",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 17:34:15 +0000",
-        "summary_zh": "伊朗在中東對美軍戰艦開火，美軍隨後反擊，摧毀六艘伊朗小艇。根據美中東指揮部（Centcom）領導人布拉德·庫珀（Adm. Brad Cooper）表示，美軍截獲了伊朗的巡航導彈和無人機。美軍此舉是為了讓船隻通過霍爾木茲海峽，而伊朗此舉則被視為挑釁行為。伊朗此前曾多次對美軍進行挑釁，包括在2022年對美軍基地發動攻擊。美軍的反擊行動顯示了對伊朗挑釁的嚴厲處理。這一事件可能會對中東地區的安全局勢產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
     "ai": [
       {
         "id": "fd9f33d9",
@@ -388,88 +400,76 @@
     ],
     "finance": [
       {
-        "id": "eed98b47",
+        "id": "830e36e8",
         "title": "川普揚言調高歐盟汽車關稅 歐洲股市收跌",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5425438",
-        "source": "自由時報財經",
+        "url": "https://www.cna.com.tw/news/afe/202605050004.aspx",
+        "source": "中央社財經",
         "category": "finance",
-        "published_at": "Tue, 05 May 2026 01:06:03 +0800",
-        "summary_zh": "美國總統川普近日揚言要提高對於歐盟的汽車關稅，這項消息傳出後，歐洲股市主要指數今天收盤挫跌。荷莫茲海峽情勢緊張推升國際油價，進一步加劇市場的不確定性。這項政策變化可能會對歐盟的汽車業產生重大影響，同時也會影響到整個歐洲經濟。歐洲股市的下跌反映了投資者對未來政策變化的擔憂。",
+        "published_at": "Tue, 05 May 2026 00:53:18 +0800",
+        "summary_zh": "隨著荷莫茲海峽情勢緊張推升國際油價，美國總統川普近日揚言要提高對於歐盟的汽車關稅，導致歐洲股市主要指數今天收盤挫跌。這一事件的背景是國際油價的上漲，油價的上漲會對汽車業產生重大影響。關鍵細節是川普的揚言和油價的上漲。影響分析是汽車業可能會受到重大影響，進而影響整個經濟。後續展望是未來油價和汽車關稅的變化將對歐洲股市產生重大影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "da90649d",
-        "title": "歐元區通膨率大幅上升被視為暫時性，歐洲央行調查顯示",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-04/euro-zone-inflation-jump-seen-as-temporary-ecb-survey-shows",
+        "id": "77f98dd8",
+        "title": "海茵威夫收購普瑞瑪資產 進一步擴大房地產信託業務",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/hazelview-adds-presima-assets-in-push-to-scale-reit-business",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-04 08:00:00",
-        "summary_zh": "根據歐洲央行的調查結果，歐元區通膨率的上升被視為暫時性。調查顯示，受訪者認為通膨率的上升是由於短期因素所致，例如原材料價格的上升。然而，受訪者也認為，通膨率的上升可能會對經濟產生一定的影響。歐洲央行的調查結果顯示，受訪者對於通膨率的預期仍然是中性的。這意味著，受訪者認為通膨率的上升可能會在短期內得到控制。歐洲央行的調查結果也顯示，受訪者對於經濟的預期是樂觀的。然而，受訪者也認為，通膨率的上升可能會對經濟產生一定的影響。因此，歐洲央行需要繼續監控通膨率的發展情況，以確保經濟的穩定。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "4a332386",
-        "title": "法國製造業生產量和訂單在四月上升，PMI顯示",
-        "url": "https://www.reuters.com/business/french-manufacturing-output-orders-rise-april-inflation-fears-pmi-shows-2026-05-04/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-04 07:57:48",
-        "summary_zh": "法國製造業生產量和訂單在四月上升，雖然這可能與通膨恐懼有關。根據製造業活動指數（PMI），法國製造業生產量和訂單在四月上升，達到 51.5，超過市場預期的 50。這表明法國製造業正在從疫情的影響中恢復。然而，製造業活動指數的上升也可能是由於企業和消費者對未來通膨的恐懼所導致的。這種恐懼可能會導致企業和消費者提前購買材料和產品，從而推動製造業的生產量和訂單的上升。這種情況在過去的經濟衰退中曾經出現過。法國央行和歐洲央行都已經開始提高利率，以控制通膨。這可能會對製造業的生產量和訂單產生負面影響。因此，法國製造業的上升可能是短暫的，長期來看，通膨恐懼可能會導致製造業的下滑。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "834ee41f",
-        "title": "德國製造業景氣首次轉負於今年四月，PMI指數顯示",
-        "url": "https://www.reuters.com/business/german-factory-outlook-turns-negative-first-time-since-2024-pmi-shows-2026-05-04/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-04 07:57:43",
-        "summary_zh": "德國製造業景氣在四月份首次轉為負面，這是自2024年10月以來首次出現負面景氣。雖然整體活動仍在增長，但企業出於擔心價格上漲和供應鏈短缺，正在提前完成訂單。這一趨勢出現在中東戰爭的影響下。根據一項調查，企業正在積極籌措資源，以應對未來的挑戰。這一轉變可能對德國經濟產生重大影響。德國製造業的負面景氣可能是全球經濟增長減緩的徵兆。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "390e3786",
-        "title": "印度Godrej Properties季度利潤增長，受住宅需求推動",
-        "url": "https://www.reuters.com/world/india/indias-godrej-properties-posts-quarterly-profit-rise-housing-demand-2026-05-04/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-04 07:54:07",
-        "summary_zh": "印度Godrej Properties於近期公布季度財報，表明該公司的利潤已經有所增長。根據財報顯示，該公司的利潤主要受住宅需求的推動。住宅需求的增長對於印度房地產市場來說是非常重要的，尤其是在經濟增長的背景下。這表明印度房地產市場正在逐步恢復。然而，該公司的財報也提到，該公司仍然面臨著一定的挑戰，包括物價上漲和資金流動不暢等問題。因此，該公司的未來發展仍然需要密切關注。",
+        "published_at": "2026-05-04 09:00:00",
+        "summary_zh": "海茵威夫（Hazelview）宣布收購普瑞瑪（Presima）的資產，旨在擴大其房地產信託業務。這項收購將幫助海茵威夫進一步鞏固其在房地產投資領域的市場地位。海茵威夫的房地產信託業務已經在加拿大和歐洲取得了成功，該公司希望通過這項收購進一步擴大其業務規模。普瑞瑪的資產將會整合進入海茵威夫的業務架構中，為公司的未來發展提供新的機會。這項收購將對房地產投資市場產生一定的影響，海茵威夫將需要通過這項收購來鞏固其在市場上的競爭力。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "c6d073fa",
-        "title": "意大利製造業成本壓力達4年來新高，PMI報告",
-        "url": "https://www.reuters.com/markets/europe/italian-manufacturing-cost-pressures-4-year-high-april-pmi-shows-2026-05-04/",
-        "source": "Reuters",
+        "id": "ec5f7f08",
+        "title": "歐洲央行維勒洛伊呼籲謹慎和準備就加息",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/ecb-s-villeroy-urges-caution-and-readiness-on-rate-hikes",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-04 07:49:43",
-        "summary_zh": "意大利製造業的成本壓力在4月份達到近4年的新高，受到中東衝突的影響。根據一份報告，意大利製造業的成本壓力在4月份達到4年來的最高點，受到中東衝突的影響。這種壓力主要是由於原材料和能源價格的上漲所致。意大利製造業的成本壓力升高，可能會對該國的經濟產生一定的影響。後續展望，意大利政府可能會採取措施來緩解成本壓力，例如調整稅率或是推動能源轉型。",
-        "sentiment": "負面",
+        "published_at": "2026-05-04 09:00:00",
+        "summary_zh": "歐洲央行維勒洛伊在最近的演講中呼籲各國央行謹慎和準備就加息。維勒洛伊表示，歐洲經濟正面臨著不確定性和挑戰，包括俄羅斯入侵烏克蘭和全球供應鏈的混亂。儘管如此，他仍然認為歐洲央行需要準備就加息，以防止通貨膨脹和金融風險。維勒洛伊強調，任何加息決定都需要謹慎和小心，避免對經濟造成過大的衝擊。同時，他也呼籲各國央行保持合作和溝通，以確保全球經濟的穩定。維勒洛伊的呼籲表明，歐洲央行正在密切關注經濟情況，並準備就加息以維持經濟穩定。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "0a330ecc",
-        "title": "馬來西亞央行將維持利率2.75%至2026年",
-        "url": "https://www.reuters.com/world/asia-pacific/malaysia-central-bank-hold-rates-275-through-2026-2026-05-04/",
+        "id": "acecf85e",
+        "title": "印度Ambuja Cements第四季度利潤增長，受稅收收益和其他收入影響",
+        "url": "https://www.reuters.com/world/india/indias-ambuja-cements-fourth-quarter-profit-rises-tax-gains-2026-05-04/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-05-04 07:48:44",
-        "summary_zh": "馬來西亞央行宣布將維持利率2.75%至2026年。這項決定是為了維持經濟穩定和控制通貨膨脹。馬來西亞央行認為，目前的經濟環境仍然需要央行的支持和監管。這項決定也將對馬來西亞的企業和個人有所影響，可能會影響到企業的融資和個人貸款的利率。馬來西亞央行的決定將會對該國的經濟發展產生一定的影響，需要密切關注。",
+        "published_at": "2026-05-04 08:49:43",
+        "summary_zh": "印度Ambuja Cements於本週一公布第四季度利潤增長，主要受稅收收益和其他收入的影響。根據公司的財務報告，第四季度稅後利潤較去年同期增加了 xx%，這是由於稅收收益和其他收入的增加所致。 Ambuja Cements是一家印度的水泥製造商，該公司的財務表現受到市場的關注。這次的財務報告表明，Ambuja Cements的財務狀況正在改善，公司的稅後利潤增長是市場預期的結果。然而，市場仍然需要觀察公司未來的財務表現，以確定公司的長期發展前景。 Ambuja Cements的財務表現對於印度的水泥製造業具有重要意義，該公司的表現將對市場的投資者和分析師產生影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "cd5bf26e",
+        "title": "MBK考慮出售高級巧克力品牌Pierre Marcolini",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/mbk-is-said-to-mull-sale-of-luxury-chocolatier-pierre-marcolini",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-04 08:43:48",
+        "summary_zh": "MBK集團正在考慮出售高級巧克力品牌Pierre Marcolini。該品牌成立於1995年，總部位於比利時。Pierre Marcolini以其獨特的巧克力風格和高品質的巧克力產品而聞名。MBK集團的出售計畫尚未確認，但市場傳言指出該品牌的價值可能超過1億美元。出售Pierre Marcolini的原因尚未明確，但市場分析師認為該品牌的價值在於其獨特的品牌識別和高端消費者市場的占有率。MBK集團的出售計畫可能將對全球高級巧克力市場產生影響，同時也可能引起業界對品牌價值和市場趨勢的重視。",
         "sentiment": "中性",
         "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false
+      },
+      {
+        "id": "76548a29",
+        "title": "香港「大宗交易王」被控內幕交易罪，辯方不認罪",
+        "url": "https://www.reuters.com/legal/government/hong-kongs-block-trade-king-pleads-not-guilty-segantii-insider-trading-trial-2026-05-04/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-04 08:40:47",
+        "summary_zh": "香港區域法院今天開始審理一宗內幕交易案，涉案的基金公司Segantii Capital Management及其創辦人、前交易員均不認罪。這宗案件被稱為「大宗交易王」的香港交易界人士涉嫌利用內幕情報進行大宗交易，引起市場波動。根據法庭文件，該名交易員在2018年至2020年間，利用內幕情報進行多宗交易，涉及交易金額達數十億港元。這宗案件被視為香港內幕交易案件的重磅案，將對香港金融市場的監管和交易規範產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       }
     ],
     "stock_us": [
@@ -482,8 +482,8 @@
         "published_at": "2026-05-04 07:01:00",
         "summary_zh": "人工智慧領域的發展正是目前美股上漲的主要驅動力，儘管美伊戰事的不確定性仍在影響市場。Amundi 的發言人 Guy Stear 表示，人工智慧的趨勢是一個長期故事，遠遠超越短期內的能源價格波動。根據 Stear 的預測，今年年底美股股價還有 7-8% 的上漲空間。這意味著即使美股今年已經取得了顯著的成長，仍有更多的上漲空間。這種預測對於投資者來說是一個好消息，尤其是在美股已經經歷了長期的牛市之後。然而，投資者仍需要保持謹慎，因為市場的波動永遠不可預測。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "5e99ffc8",
@@ -511,78 +511,6 @@
       }
     ],
     "stock_tw": [
-      {
-        "id": "4c496a15",
-        "title": "輝達跨足實體AI 生產成本90%集中亞洲供應商",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5425424",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 04 May 2026 23:59:59 +0800",
-        "summary_zh": "輝達跨足實體AI領域後，對亞洲供應商的依賴度大幅上升。根據彭博彙編的數據，亞洲供應商目前佔輝達生產成本的90%，比去年65%大幅增加。這意味著輝達對亞洲合作夥伴的依賴進一步加劇。這些業者在輝達的生產鏈中扮演著重要角色，為輝達提供必要的零部件和服務。這種依賴關係可能會對輝達的全球供應鏈產生影響，尤其是在實體AI領域的競爭日益激烈的情況下。輝達的這一決策可能會對亞洲供應商帶來新的商機和機會，但也可能會引發關於供應鏈安全和可靠性的擔憂。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "1c798c42",
-        "title": "威力彩頭獎連18摃 下期獎金上看4.1億",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5425367",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 04 May 2026 22:00:00 +0800",
-        "summary_zh": "威力彩今晚開獎，頭獎仍未開出，連續18期摃龜。台灣彩券公司預估下期威力彩銷售金額約1億元至1.1億元，頭獎累積獎金上看4.1億元。這意味著下期頭獎的中獎率將會非常低。台灣彩券公司表示，會繼續推出各種獎金方案來吸引玩家參與。威力彩的連摃龜，讓許多玩家感到失望，但也有人認為這是機會來臨的時候。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "b95ee5af",
-        "title": "民宿建地停止營業恢復成農業經營使用 5月申請核准可免地價稅",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5425352",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 04 May 2026 21:52:45 +0800",
-        "summary_zh": "新竹縣湖口鄉一名民宿業者，決定停止營業並恢復農業經營使用。該業者向稅務單位詢問是否可以申請免予課徵地價稅。新竹縣政府稅務局建議，業者可向湖口鄉公所申請與農業經營無關的建物使用權，申請核准後可免繳地價稅。這項政策適用於5月申請核准的建物使用權。該業者可透過此政策，減少經營成本並促進農業發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7934ada9",
-        "title": "台積電市值要衝上3兆美元 外媒曝股價漲幅需這麼多",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5425234",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 04 May 2026 21:52:28 +0800",
-        "summary_zh": "台積電和博通的市值目前約為2兆美元，預計明年年底可能會突破3兆美元大關。根據外媒The Motley Fool的報導，這兩家公司股價需要上漲50%才能達到3兆美元的里程碑。這意味著投資者需要耐心等待，才能看到台積電和博通的股價上漲。這兩家公司的股價上漲將對全球半導體市場產生重大影響，同時也會對投資者造成影響。台積電和博通的股價上漲也會對市場的信心產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "440a6f84",
-        "title": "金價空頭目標在4500美元 若再下探則看「這區間」",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5425365",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 04 May 2026 21:45:38 +0800",
-        "summary_zh": "受美元走強和原油價格飆漲的影響，金價持續下跌，徘徊在一個月低點附近。空頭們的目標是上週四的低點，約略高於4500美元。如果金價再下探，則需要關注一個區間。美伊緊張局勢的升高也對金價造成了壓力。這種情況下，投資者需要謹慎觀察金價的走勢，以避免損失。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c999c651",
-        "title": "薺元小館二代程家堯打造寬敞空間與獨門「畫盤」服務",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5425349",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 04 May 2026 21:36:30 +0800",
-        "summary_zh": "薺元小館創立25年，二代掌門人程家堯將台北三民路的小店遷至南京東路黃金店面，打造150坪的寬敞空間。程家堯還利用繪畫長才，提供獨門的「畫盤」服務，讓政商名人驚艷。這項服務讓客人在享用美食的同時，也能欣賞到程家堯的繪畫作品。這項創新服務讓薺元小館成為台北的另一個美食景點。程家堯的繪畫長才和創新服務，使得薺元小館的形象更加出色。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
       {
         "id": "07935cc8",
         "title": "350家興櫃公司2025年營收年增97億,綠能環保業及電子零組件業表現亮眼",
@@ -677,6 +605,78 @@
         "summary_zh": "石油危機席捲歐洲，航空業命運走向兩極。荷莫茲封鎖油井導致油價急劇上升，國際能源總署（IEA）警告歐洲恐在6週內航油告罄。德國漢莎、北歐航空相繼大減航班，試圖應對油價飆升的挑戰。然而，提前採取避險策略的廉航龍頭瑞安（Ryanair）與芬蘭航空（Finnair），目前順利挺過首波衝擊。這兩家航空公司的決策是否正確，將決定其未來的命運。另一方面，北歐航空業的其他公司，則面臨著油價飆升的巨大壓力，是否能夠順利度過這個難關，還有待觀察。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4c496a15",
+        "title": "輝達跨足實體AI 生產成本90%集中亞洲供應商",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5425424",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 04 May 2026 23:59:59 +0800",
+        "summary_zh": "輝達跨足實體AI領域後，對亞洲供應商的依賴度大幅上升。根據彭博彙編的數據，亞洲供應商目前佔輝達生產成本的90%，比去年65%大幅增加。這意味著輝達對亞洲合作夥伴的依賴進一步加劇。這些業者在輝達的生產鏈中扮演著重要角色，為輝達提供必要的零部件和服務。這種依賴關係可能會對輝達的全球供應鏈產生影響，尤其是在實體AI領域的競爭日益激烈的情況下。輝達的這一決策可能會對亞洲供應商帶來新的商機和機會，但也可能會引發關於供應鏈安全和可靠性的擔憂。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1c798c42",
+        "title": "威力彩頭獎連18摃 下期獎金上看4.1億",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5425367",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 04 May 2026 22:00:00 +0800",
+        "summary_zh": "威力彩今晚開獎，頭獎仍未開出，連續18期摃龜。台灣彩券公司預估下期威力彩銷售金額約1億元至1.1億元，頭獎累積獎金上看4.1億元。這意味著下期頭獎的中獎率將會非常低。台灣彩券公司表示，會繼續推出各種獎金方案來吸引玩家參與。威力彩的連摃龜，讓許多玩家感到失望，但也有人認為這是機會來臨的時候。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b95ee5af",
+        "title": "民宿建地停止營業恢復成農業經營使用 5月申請核准可免地價稅",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5425352",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 04 May 2026 21:52:45 +0800",
+        "summary_zh": "新竹縣湖口鄉一名民宿業者，決定停止營業並恢復農業經營使用。該業者向稅務單位詢問是否可以申請免予課徵地價稅。新竹縣政府稅務局建議，業者可向湖口鄉公所申請與農業經營無關的建物使用權，申請核准後可免繳地價稅。這項政策適用於5月申請核准的建物使用權。該業者可透過此政策，減少經營成本並促進農業發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7934ada9",
+        "title": "台積電市值要衝上3兆美元 外媒曝股價漲幅需這麼多",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5425234",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 04 May 2026 21:52:28 +0800",
+        "summary_zh": "台積電和博通的市值目前約為2兆美元，預計明年年底可能會突破3兆美元大關。根據外媒The Motley Fool的報導，這兩家公司股價需要上漲50%才能達到3兆美元的里程碑。這意味著投資者需要耐心等待，才能看到台積電和博通的股價上漲。這兩家公司的股價上漲將對全球半導體市場產生重大影響，同時也會對投資者造成影響。台積電和博通的股價上漲也會對市場的信心產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "440a6f84",
+        "title": "金價空頭目標在4500美元 若再下探則看「這區間」",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5425365",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 04 May 2026 21:45:38 +0800",
+        "summary_zh": "受美元走強和原油價格飆漲的影響，金價持續下跌，徘徊在一個月低點附近。空頭們的目標是上週四的低點，約略高於4500美元。如果金價再下探，則需要關注一個區間。美伊緊張局勢的升高也對金價造成了壓力。這種情況下，投資者需要謹慎觀察金價的走勢，以避免損失。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c999c651",
+        "title": "薺元小館二代程家堯打造寬敞空間與獨門「畫盤」服務",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5425349",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 04 May 2026 21:36:30 +0800",
+        "summary_zh": "薺元小館創立25年，二代掌門人程家堯將台北三民路的小店遷至南京東路黃金店面，打造150坪的寬敞空間。程家堯還利用繪畫長才，提供獨門的「畫盤」服務，讓政商名人驚艷。這項服務讓客人在享用美食的同時，也能欣賞到程家堯的繪畫作品。這項創新服務讓薺元小館成為台北的另一個美食景點。程家堯的繪畫長才和創新服務，使得薺元小館的形象更加出色。",
+        "sentiment": "正面",
+        "is_breaking": false,
         "ai_classified": true
       }
     ]
