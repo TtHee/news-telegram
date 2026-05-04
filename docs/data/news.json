@@ -1,86 +1,334 @@
 {
-  "generated_at": "2026-05-04T22:04:05.289654+08:00",
+  "generated_at": "2026-05-04T23:04:11.616719+08:00",
   "risk_signals": [
     "🟢 台股加權 40705.14（正常）",
-    "🟢 S&P 500 7227.64（正常）",
-    "🟢 VIX 恐慌指數 17.49（正常）",
+    "🟢 S&P 500 7233.72（正常）",
+    "🟢 VIX 恐慌指數 17.33（正常）",
     "🟢 MOVE 債市波動 70.41（正常）",
-    "🟢 美元指數 98.28（正常）",
-    "🟢 黃金 4571.2（正常）",
-    "🟢 美債10Y殖利率 4.42（正常）",
-    "🟢 原油 WTI 102.37（正常）",
-    "🟢 美元/台幣 31.61（正常）"
+    "🟢 美元指數 98.32（正常）",
+    "🟢 黃金 4580.3（正常）",
+    "🟢 美債10Y殖利率 4.41（正常）",
+    "🟢 原油 WTI 102.58（正常）",
+    "🟢 美元/台幣 31.62（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，指標正常運作，投資風險相對較低。近期台股表現亮眼，但美股仍維持穩定態勢。",
+  "ai_summary": "市場指標顯示整體穩定，台股和全球主要股市表現良好，美元指數和美債10Y殖利率維持正常水平，投資風險相對較低。",
   "market": {
     "TWII": {
       "price": 40705.14,
       "change_pct": 4.57
     },
     "SP500": {
-      "price": 7227.64,
-      "change_pct": -0.03
-    },
-    "NASDAQ": {
-      "price": 25125.91,
+      "price": 7233.72,
       "change_pct": 0.05
     },
+    "NASDAQ": {
+      "price": 25170.36,
+      "change_pct": 0.22
+    },
     "VIX": {
-      "price": 17.49,
-      "change_pct": 2.94
+      "price": 17.33,
+      "change_pct": 2.0
     },
     "TNX": {
-      "price": 4.42,
-      "change_pct": 0.91
+      "price": 4.41,
+      "change_pct": 0.82
     },
     "MOVE": {
       "price": 70.41,
       "change_pct": -2.3
     },
     "DXY": {
-      "price": 98.28,
-      "change_pct": 0.07
+      "price": 98.32,
+      "change_pct": 0.11
     },
     "GOLD": {
-      "price": 4571.2,
-      "change_pct": -1.27
+      "price": 4580.3,
+      "change_pct": -1.07
     },
     "OIL": {
-      "price": 102.37,
-      "change_pct": 0.42
+      "price": 102.58,
+      "change_pct": 0.63
     },
     "USDTWD": {
-      "price": 31.61,
-      "change_pct": 0.15
+      "price": 31.62,
+      "change_pct": 0.16
     }
   },
   "macro": {},
   "categories": {
-    "whitehouse": [
+    "global": [
       {
-        "id": "63f0bf81",
-        "title": "總統致詞：全國小企業周",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-national-small-business-week/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Sun, 03 May 2026 23:19:15 +0000",
-        "summary_zh": "美國小企業已經在250年間成為國家實力的基石，幫助公民實現美國夢。這個全國小企業周，我們要致敬那些具有開拓精神的企業家、創新者和夢想家，他們的精神激勵了我們的文化，推動了我們的經濟，提升了我們的社區。從製造商到創業家，我們都致力於推動美國的小企業發展。",
+        "id": "f262b396",
+        "title": "烏克蘭無人機襲擊莫斯科高級住宅區，俄羅斯勝利日前夕",
+        "url": "https://www.bbc.com/news/articles/cwy234llx3vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 09:49:05 GMT",
+        "summary_zh": "烏克蘭在俄羅斯勝利日前夕發動襲擊，莫斯科一座高級住宅區遭到無人機攻擊。俄羅斯克里姆林宮正準備在週六舉辦縮減版的軍事閱兵儀式。這次襲擊顯示烏克蘭仍在繼續對俄羅斯的軍事行動，儘管雙方正在努力達成和平協議。這次襲擊對莫斯科的高級住宅區造成了嚴重後果，居民感到恐慌。俄羅斯政府正試圖控制局勢，防止情況惡化。勝利日是俄羅斯對第二次世界大戰勝利的紀念日，今年將在縮減版進行。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "4a2ae3a5",
+        "title": "前紐約市長 Giuliani 因病情嚴重入院",
+        "url": "https://www.bbc.com/news/articles/c7941rgy4lyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 08:43:06 GMT",
+        "summary_zh": "前紐約市長 Giuliani 因病情嚴重入院，據他的發言人透露。 Giuliani 曾是川普的忠實支持者和盟友，他的健康狀況近期一直備受關注。 Giuliani 的入院消息引起了各界的關注，許多人為他祈禱著。 Giuliani 的健康狀況對於川普的政治影響力和美國政治局勢都有著重要影響。 Giuliani 的入院消息也讓人們開始思考他未來的政治前景。 Giuliani 的健康狀況是否會對他的政治生涯產生影響？",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "eceb951d",
+        "title": "三人死亡，世界衛生組織確認一例非典型病毒感染案例",
+        "url": "https://www.bbc.com/news/articles/cy0294829ndo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 13:29:22 GMT",
+        "summary_zh": "一艘大西洋巡遊船上發生疑似病毒爆發，世界衛生組織確認一例非典型病毒感染案例，另外五例疑似病例正在調查中。這艘巡遊船的乘客和船員被隔離，正在等待檢測結果。非典型病毒感染可能會導致嚴重疾病，包括肺出血症和肝臟衰竭。世界衛生組織正在密切監測這個情況，並與相關當局合作，確保乘客和船員的安全。這個事件可能會對全球旅遊業產生重大影響，特別是在疫情期間。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "90db4bd8",
+        "title": "莫迪的印度人民黨在孟加拉國勝利，一個印度最具挑戰性的政治前線",
+        "url": "https://www.bbc.com/news/articles/ce8pdvp5x5ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 11:59:58 GMT",
+        "summary_zh": "莫迪的印度人民黨在孟加拉國大選中取得勝利，這不僅改變了該州的政治格局，也可能影響莫迪的印度人民黨未來的發展方向。孟加拉國是印度政治最具挑戰性的地區之一，莫迪的勝利標誌著印度人民黨在該州的崛起。這一勝利對印度政治格局的影響將是深遠的，可能會改變印度未來的政治走向。莫迪的勝利也表明了印度人民黨在印度政治中的強大實力，將對印度政治產生重大影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d08d72e8",
+        "title": "歐洲領袖聚集於亞美尼亞，俄羅斯觀察中",
+        "url": "https://www.bbc.com/news/articles/cgkp1124y3yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 03 May 2026 23:19:05 GMT",
+        "summary_zh": "近日，兩場歐洲峰會在亞美尼亞舉行，這個地區被視為俄羅斯最靠近的盟友之一。這些峰會旨在加強亞美尼亞與歐洲國家之間的合作關係，同時也在觀察俄羅斯在區域的影響力。亞美尼亞長期被視為俄羅斯在南高加索地區的重要據點，俄羅斯在該地區的軍事存在和經濟影響力都非常顯著。歐洲峰會的舉辦表明，歐洲國家正在努力在區域中建立自己的影響力，同時也在與俄羅斯競爭。這一發展可能會對區域的政治格局產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "55cf89e5",
+        "title": "奧克拉荷馬州湖邊派對槍擊案至少10人受傷",
+        "url": "https://www.bbc.com/news/articles/cnvp3lnegqdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 12:09:30 GMT",
+        "summary_zh": "奧克拉荷馬州埃德蒙附近的阿卡迪亞湖周日晚間21:00左右發生槍擊案，造成至少10人受傷。警方正在調查此案。這起槍擊案發生在湖邊的派對上，警方正在努力確定槍擊者和受害者的身份。這是奧克拉荷馬州近期槍擊案的又一例。槍擊案對當地居民造成了嚴重的影響，警方呼籲民眾保持冷靜。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "0863ba55",
+        "title": "反猶太主義被允許公開表達　邦迪遇襲受害者女兒說法",
+        "url": "https://www.bbc.com/news/articles/c1m2rk209mzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 04:12:04 GMT",
+        "summary_zh": "近日，澳洲政府成立了皇家委員會來調查邦迪遇襲事件。受害者女兒Sheina Gutnick首先出庭作證。根據她的說法，反猶太主義在澳洲正悄悄抬頭，許多人已經允許公開表達這種意識形態。這種情況令人擔憂，可能會導致更多的仇恨犯罪。委員會的調查將對澳洲政府和社會的反猶太主義問題進行深入的探討。這項調查將幫助澳洲政府了解和應對這種問題，確保所有澳洲公民都能夠安全地生活和工作。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "e614dd95",
+        "title": "警員進入鱷魚棲息地尋找人體遺骸",
+        "url": "https://www.bbc.com/news/articles/cz92gk18xn4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 03 May 2026 15:47:59 GMT",
+        "summary_zh": "警方懷疑遺骸屬於上週因洪水被沖走的商人。警員被降低進入鱷魚棲息地，以便於搜尋人體遺骸。這起事件發生在一條鱷魚棲息地附近的河流中，警方正在努力恢復遺骸。這個行動需要極高的勇氣和專業知識，警員必須小心避免鱷魚的攻擊。警方正在調查原因，確保這起事件不會再次發生。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "65d3398e",
+        "title": "三星家族支付紀錄破億美元遺產稅費用",
+        "url": "https://www.bbc.com/news/articles/cn0px8g13xgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 04:24:22 GMT",
+        "summary_zh": "三星家族最近支付了紀錄破億美元的遺產稅費用，這與公司前任主席李健熙的遺產有關。李健熙於2020年10月去世。三星家族支付這筆巨額遺產稅費用後，將有助於公司繼續發展和擴張業務。這筆費用支付後，三星家族將能夠集中精力於公司的未來發展計畫和投資。這項消息對於三星家族和公司的未來發展具有重要意義。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b5c563e9",
+        "title": "郵輪疑似爆發罕見病毒，維尼克角拒絕泊船",
+        "url": "https://www.theguardian.com/science/2026/may/04/cruise-ship-suspected-hantavirus-outbreak-blocked-docking-cape-verde",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 13:45:17 GMT",
+        "summary_zh": "維尼克角當局宣布不准一艘郵輪靠岸，理由是保護公眾健康。這艘郵輪疑似爆發罕見的呼吸道病毒，該病毒主要在老鼠身上發現。據報三名乘客死亡。世界衛生組織正在調查郵輪上是否有罕見病毒的爆發。維尼克角當局的決定是在世界衛生組織發布消息後不久做出的。罕見病毒是一種主要在老鼠身上發現的疾病，人類感染罕見，但可能會導致嚴重的呼吸道問題。維尼克角當局的決定可能會對郵輪上的乘客造成影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4eab2ac7",
+        "title": "肯亞AI驅動的健康改革存在缺陷，為最貧困的人增加了費用",
+        "url": "https://www.theguardian.com/global-development/2026/may/04/kenya-ai-healthcare-reforms-driving-up-costs-for-poor",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 06:00:16 GMT",
+        "summary_zh": "肯亞總統威廉·魯托曾承諾為所有肯亞人提供醫療保健服務。但是，調查發現，該國正在推行的AI系統，卻系統性地為貧困人群增加了醫療費用。該系統旨在根據肯亞人能夠承擔的支付能力，預測他們能夠支付多少醫療費用。然而，調查發現，這個系統卻偏袒富人，導致醫療費用上漲。這個AI系統是根據總統威廉·魯托的競選承諾，推行的醫療改革計畫的一部分。該計畫旨在取代肯亞的老舊國家醫療保健系統。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6c975598",
+        "title": "一艘巡遊船疑似爆發罕見的哈恩病，三人死亡，至少三人病倒",
+        "url": "https://www.theguardian.com/world/2026/may/03/three-passengers-dead-after-suspected-hantavirus-outbreak-on-cruise-ship",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Sun, 03 May 2026 22:55:44 GMT",
+        "summary_zh": "一艘巡遊船在大西洋上疑似爆發罕見的哈恩病，造成三人死亡，包括一對年長夫婦。世界衛生組織（WHO）和南非衛生部門表示，至少三人病倒。WHO 表示正在進行調查，但至少有一例哈恩病病例已經被確認。其中一名病人正在南非的一家醫院的重症監護室接受治療，WHO 與當局合作，準備將另外兩名出現症狀的乘客從船上撤離。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "ace87e90",
+        "title": "印度盧比料將短暫反彈，但整體走勢仍悲觀",
+        "url": "https://www.reuters.com/world/india/rupee-find-brief-support-softer-oil-outlook-remains-bearish-2026-05-04/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-04 02:59:44",
+        "summary_zh": "印度盧比料將在周一開盤時略微上漲，受油價回落影響。美國宣布將試圖解困在霍爾木茲海峽的船隻，同時市場關注美伊談判進展。油價下跌對印度盧比的影響有限，但仍能提供短暫支撐。然而，整體來看，市場預期仍是悲觀的。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "537b173e",
+        "title": "比特幣突破 80,000 美元創三個月新高，亞洲股市上漲",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/bitcoin-btc-tops-80-000-for-three-month-high-as-asian-stocks-rise",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-04 02:58:59",
+        "summary_zh": "比特幣價格近期表現強勁，突破 80,000 美元創下三個月新高。這一波上漲與亞洲股市的上漲有關，許多投資者認為亞洲股市的上漲將對全球市場產生正面影響。然而，市場分析師也提醒投資者，市場風險仍然存在，投資者應該保持謹慎。比特幣的上漲也引起了投資者的關注，許多人認為比特幣將成為未來的重要投資工具。儘管如此，市場仍然存在著不確定性，投資者應該保持警惕。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "523347cf",
+        "title": "印度小型股市料將繼續走揚，4月份已上漲18% ",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-05-04/history-shows-90-chance-of-more-upside-for-nifty-small-cap-index",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-04 02:48:13",
+        "summary_zh": "印度小型股市在4月份大幅上漲18%，引起投資者的關注。根據歷史數據，印度的小型股市往往在大型股市下跌時表現出來。這意味著，如果印度的大型股市繼續下跌，印度的小型股市可能會繼續上漲。投資者應該關注印度的小型股市，特別是在大型股市下跌時。這樣可以幫助投資者在市場波動時做出更好的投資決策。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "59b41492",
+        "title": "新興市場股票創下新高，科技業推動",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/em-stocks-rise-to-record-high-on-tech-boost-currencies-gain",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-04 02:45:05",
+        "summary_zh": "新興市場股票在科技業的推動下創下新高。根據最新數據，新興市場股票指數已經達到歷史新高。這種情況與科技業的強勁表現有關，許多新興市場企業都在投資科技領域。科技業的成長帶動了新興市場股票的上漲，投資者對新興市場的信心也在增強。這種情況預示著新興市場的投資潛力正在增強。然而，投資者也需要注意市場的風險和不確定性。新興市場的投資風險通常較高，投資者需要謹慎評估風險和收益。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "177f2793",
+        "title": "OPEC+ 原油產量增加是象徵性的，但仍然重要",
+        "url": "https://www.reuters.com/markets/commodities/opec-crude-output-boost-is-symbolic-it-still-matters-2026-05-04/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-04 01:55:05",
+        "summary_zh": "在全球能源市場面臨供應緊張的背景下，OPEC+ 近期宣布將原油產量增加。雖然這一決定象徵性地表明了石油生產國的意願，但仍然對市場產生了實際影響。分析人士認為，這一決定將進一步增加市場供應，減少價格上漲的壓力。然而，市場仍然面臨著供應緊張的風險，尤其是在美國和中東地區的政治不穩定性下。這一決定對全球經濟和能源市場的影響仍然值得關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "734833c0",
+        "title": "銀行欲擺脫數據中心債務風險　全球銀行探索私人交易和風險轉移",
+        "url": "https://www.ft.com/content/08aba5e4-5834-4e79-a48d-989a2c5bad0f",
+        "source": "FT Tech",
+        "category": "finance",
+        "published_at": "Sun, 03 May 2026 17:00:06 GMT",
+        "summary_zh": "全球銀行業正面臨著數據中心債務風險的挑戰，為了避免因數據中心債務而「窒息」，銀行們正在探索私人交易和風險轉移的方法。這種趨勢與人工智慧（AI）技術的快速發展有關，銀行們為了投資AI相關項目而借貸，導致債務風險增加。銀行們正試圖透過私人交易和風險轉移來減少對這些債務的暴露度，同時也希望能夠繼續投資AI相關項目。這種轉變將對銀行業的風險管理和投資策略產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "ai": [
+      {
+        "id": "ea9ffaad",
+        "title": "Anthropic 即將與華爾街公司合作成立 150 億美元人工智慧合資企業",
+        "url": "https://www.reuters.com/legal/transactional/anthropic-nears-15-billion-ai-joint-venture-with-wall-street-firms-wsj-reports-2026-05-04/",
+        "source": "Reuters",
+        "category": "ai",
+        "published_at": "2026-05-04 02:40:39",
+        "summary_zh": "人工智慧公司 Anthropic 即將與 Blackstone、Goldman Sachs 等華爾街公司合作成立 150 億美元的合資企業，該企業將出售人工智慧工具給私人股東支持的公司。根據《華爾街日報》報導，該消息來自與此事有關的人士。這項合資企業的成立將是人工智慧領域的一大突破，同時也標誌著 Anthropic 在華爾街的進一步拓展。這項合資企業的成立將對人工智慧工具的應用產生重大影響，同時也將對私人股東支持的公司的業務模式產生影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      }
+    ],
+    "stock_us": [
+      {
+        "id": "80a35980",
+        "title": "澳洲Viva Energy預計6月重啟吉朗石化廠",
+        "url": "https://www.reuters.com/business/energy/australias-viva-energy-expects-restart-geelong-refinery-units-june-2026-05-03/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-05-03 23:28:09",
+        "summary_zh": "澳洲Viva Energy表示，該公司預計修復吉朗石化廠的重整單元（RCCU）需要約六週時間，預計於6月重啟。該單元在4月發生火災後停止運作。吉朗石化廠是澳洲最大的石化廠之一，停機時間對澳洲石化業的供應鏈造成了影響。儘管如此，Viva Energy仍然表示有信心重啟單元，並將盡快恢復正常生產。該公司的重啟計畫將受到密切監控，以確保安全和效率。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0e8a837b",
+        "title": "大科技公司財報顯示大規模投資會得到市場的回報",
+        "url": "https://www.cnbc.com/2026/05/03/big-tech-earnings-show-how-big-smart-spending-can-be-rewarded-by-the-market.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-03 19:20:18",
+        "summary_zh": "近期的財報顯示，大科技公司的投資回報率遠遠超出了市場預期。這些公司的財報表明，企業的投資在市場上獲得了豐厚的回報。這種情況表明，市場對大科技公司的投資有著很高的期待。這種投資回報率的提高，也使得市場上對大科技公司的評估更加樂觀。然而，這也使得市場上對未來投資回報的期待更加高漲。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "f2947b27",
-        "title": "特朗普失望率創下新高，最新民調顯示",
-        "url": "https://www.theguardian.com/us-news/2026/may/03/trump-disapproval-rating-poll",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 03 May 2026 17:00:03 GMT",
-        "summary_zh": "六個月之內即將到來的美國中期選舉，特朗普總統的失望率已經達到 62%，這是他任內最差的評價。根據華盛頓郵報、ABC新聞和Ipsos的最新民調顯示，美國總統在生活成本和其他經濟問題上獲得了最差的評價，這是他在 2 月份對伊朗發動戰爭後的局面。這場戰爭導致全球經濟陷入石油危機，汽油價格也創下四年來的新高。這些經濟問題對美國民眾造成了重大影響，特朗普的失望率因此而上升。這一結果對於特朗普的政治前景產生了重大影響，尤其是在即將到來的選舉中。",
-        "sentiment": "負面",
-        "is_breaking": true,
+        "id": "e40df71d",
+        "title": "市場正在享受人工智慧投資熱潮，但什麼能夠打破這場狂潮?",
+        "url": "https://www.marketwatch.com/story/the-market-is-riding-high-on-an-ai-spending-boom-but-what-could-crack-this-rally-531b0854?mod=mw_rss_topstories",
+        "source": "Marketwatch",
+        "category": "stock_us",
+        "published_at": "2026-05-03 16:00:00",
+        "summary_zh": "市場在第一季度表現亮麗，但對 2026 年預期的持續上調卻非常集中。這種情況下，投資人開始擔心市場是否會出現下滑。儘管人工智慧投資熱潮仍在持續，但投資人們開始注意到一些跡象，表明市場可能會出現轉折點。投資人們正在密切關注人工智慧公司的財務報表和預期，希望能夠找到市場的下一步走向。然而，市場的未來仍充滿著不確定性，投資人們需要保持警惕。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
-      },
+      }
+    ],
+    "whitehouse": [
       {
         "id": "73f0c988",
         "title": "新澤西州紐瓦克機場一架波音客機降落時撞上貨車 一人受傷",
@@ -118,186 +366,52 @@
         "ai_classified": true
       },
       {
-        "id": "7e82cedb",
-        "title": "前佛羅里達州國會議員因為委內瑞拉游說案被定罪",
-        "url": "https://www.bbc.com/news/articles/c1524vdn9dqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "id": "63f0bf81",
+        "title": "總統致詞：全國小企業周",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-national-small-business-week/",
+        "source": "White House News",
         "category": "whitehouse",
-        "published_at": "Sun, 03 May 2026 14:36:27 GMT",
-        "summary_zh": "前佛羅里達州國會議員大衛·里維拉(David Rivera)被指控接受委內瑞拉馬杜羅政權的數百萬美元資金來游說美國政治人物。里維拉曾與現任美國參議員馬可·魯比奧(Marco Rubio)同住。這起案件與委內瑞拉的馬杜羅政權有關，里維拉被指控接受這些資金來影響美國政治決策。這一判決對美國政治的影響將是關鍵考量。美國政府一直在努力應對委內瑞拉的政治局勢，並且一直在關注委內瑞拉對美國的影響。這一判決可能會對美國對委內瑞拉的政策產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "b5c563e9",
-        "title": "郵輪疑似爆發罕見病毒，維尼克角拒絕泊船",
-        "url": "https://www.theguardian.com/science/2026/may/04/cruise-ship-suspected-hantavirus-outbreak-blocked-docking-cape-verde",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 13:45:17 GMT",
-        "summary_zh": "維尼克角當局宣布不准一艘郵輪靠岸，理由是保護公眾健康。這艘郵輪疑似爆發罕見的呼吸道病毒，該病毒主要在老鼠身上發現。據報三名乘客死亡。世界衛生組織正在調查郵輪上是否有罕見病毒的爆發。維尼克角當局的決定是在世界衛生組織發布消息後不久做出的。罕見病毒是一種主要在老鼠身上發現的疾病，人類感染罕見，但可能會導致嚴重的呼吸道問題。維尼克角當局的決定可能會對郵輪上的乘客造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4eab2ac7",
-        "title": "肯亞AI驅動的健康改革存在缺陷，為最貧困的人增加了費用",
-        "url": "https://www.theguardian.com/global-development/2026/may/04/kenya-ai-healthcare-reforms-driving-up-costs-for-poor",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 06:00:16 GMT",
-        "summary_zh": "肯亞總統威廉·魯托曾承諾為所有肯亞人提供醫療保健服務。但是，調查發現，該國正在推行的AI系統，卻系統性地為貧困人群增加了醫療費用。該系統旨在根據肯亞人能夠承擔的支付能力，預測他們能夠支付多少醫療費用。然而，調查發現，這個系統卻偏袒富人，導致醫療費用上漲。這個AI系統是根據總統威廉·魯托的競選承諾，推行的醫療改革計畫的一部分。該計畫旨在取代肯亞的老舊國家醫療保健系統。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6c975598",
-        "title": "一艘巡遊船疑似爆發罕見的哈恩病，三人死亡，至少三人病倒",
-        "url": "https://www.theguardian.com/world/2026/may/03/three-passengers-dead-after-suspected-hantavirus-outbreak-on-cruise-ship",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 03 May 2026 22:55:44 GMT",
-        "summary_zh": "一艘巡遊船在大西洋上疑似爆發罕見的哈恩病，造成三人死亡，包括一對年長夫婦。世界衛生組織（WHO）和南非衛生部門表示，至少三人病倒。WHO 表示正在進行調查，但至少有一例哈恩病病例已經被確認。其中一名病人正在南非的一家醫院的重症監護室接受治療，WHO 與當局合作，準備將另外兩名出現症狀的乘客從船上撤離。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b5b486e5",
-        "title": "日本首相高市早苗將與澳洲總理阿爾巴尼斯會談能源安全問題",
-        "url": "https://www.reuters.com/business/energy/japan-pm-takaichi-set-talks-with-australias-albanese-energy-security-2026-05-04/",
-        "source": "Reuters",
-        "category": "global",
-        "published_at": "2026-05-04 01:19:53",
-        "summary_zh": "日本首相高市早苗將於近期與澳洲總理阿爾巴尼斯進行會談，兩國將就能源安全問題進行討論。高市早苗在訪問澳洲之前表示，兩國將就能源安全、經濟合作等問題進行深入討論。澳洲總理阿爾巴尼斯也表示，兩國將就能源安全、經濟合作等問題進行合作。這次會談將是兩國關係的重要里程碑。能源安全問題是全球關注的熱點，兩國的合作將對全球能源市場產生重要影響。高市早苗訪問澳洲的行程將於近期公布。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "4012c6d0",
-        "title": "加拿大首次非歐盟國家出席歐洲政治會議峰會",
-        "url": "https://www.theguardian.com/world/2026/may/03/canada-first-non-european-nation-epc-summit-mark-carney-allies-trump",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 03 May 2026 14:57:14 GMT",
-        "summary_zh": "加拿大總理馬克·卡尼(Mark Carney)將於本月在亞美尼亞的歐洲政治會議峰會上出席，標誌著加拿大嘗試在與美國斷交後建立新的貿易和外交聯盟。這也代表西方對亞美尼亞在與俄羅斯距離化的努力給予支持。加拿大外交官否認了加拿大可能加入歐盟的傳言。",
-        "sentiment": "中性",
+        "published_at": "Sun, 03 May 2026 23:19:15 +0000",
+        "summary_zh": "美國小企業已經在250年間成為國家實力的基石，幫助公民實現美國夢。這個全國小企業周，我們要致敬那些具有開拓精神的企業家、創新者和夢想家，他們的精神激勵了我們的文化，推動了我們的經濟，提升了我們的社區。從製造商到創業家，我們都致力於推動美國的小企業發展。",
+        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "eceb951d",
-        "title": "三人死亡，世界衛生組織確認一例非典型病毒感染案例",
-        "url": "https://www.bbc.com/news/articles/cy0294829ndo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 13:29:22 GMT",
-        "summary_zh": "一艘大西洋巡遊船上發生疑似病毒爆發，世界衛生組織確認一例非典型病毒感染案例，另外五例疑似病例正在調查中。這艘巡遊船的乘客和船員被隔離，正在等待檢測結果。非典型病毒感染可能會導致嚴重疾病，包括肺出血症和肝臟衰竭。世界衛生組織正在密切監測這個情況，並與相關當局合作，確保乘客和船員的安全。這個事件可能會對全球旅遊業產生重大影響，特別是在疫情期間。",
+        "id": "f2947b27",
+        "title": "特朗普失望率創下新高，最新民調顯示",
+        "url": "https://www.theguardian.com/us-news/2026/may/03/trump-disapproval-rating-poll",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 03 May 2026 17:00:03 GMT",
+        "summary_zh": "六個月之內即將到來的美國中期選舉，特朗普總統的失望率已經達到 62%，這是他任內最差的評價。根據華盛頓郵報、ABC新聞和Ipsos的最新民調顯示，美國總統在生活成本和其他經濟問題上獲得了最差的評價，這是他在 2 月份對伊朗發動戰爭後的局面。這場戰爭導致全球經濟陷入石油危機，汽油價格也創下四年來的新高。這些經濟問題對美國民眾造成了重大影響，特朗普的失望率因此而上升。這一結果對於特朗普的政治前景產生了重大影響，尤其是在即將到來的選舉中。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4a2ae3a5",
-        "title": "前紐約市長 Giuliani 因病情嚴重入院",
-        "url": "https://www.bbc.com/news/articles/c7941rgy4lyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 08:43:06 GMT",
-        "summary_zh": "前紐約市長 Giuliani 因病情嚴重入院，據他的發言人透露。 Giuliani 曾是川普的忠實支持者和盟友，他的健康狀況近期一直備受關注。 Giuliani 的入院消息引起了各界的關注，許多人為他祈禱著。 Giuliani 的健康狀況對於川普的政治影響力和美國政治局勢都有著重要影響。 Giuliani 的入院消息也讓人們開始思考他未來的政治前景。 Giuliani 的健康狀況是否會對他的政治生涯產生影響？",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e614dd95",
-        "title": "警員進入鱷魚棲息地尋找人體遺骸",
-        "url": "https://www.bbc.com/news/articles/cz92gk18xn4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 03 May 2026 15:47:59 GMT",
-        "summary_zh": "警方懷疑遺骸屬於上週因洪水被沖走的商人。警員被降低進入鱷魚棲息地，以便於搜尋人體遺骸。這起事件發生在一條鱷魚棲息地附近的河流中，警方正在努力恢復遺骸。這個行動需要極高的勇氣和專業知識，警員必須小心避免鱷魚的攻擊。警方正在調查原因，確保這起事件不會再次發生。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3f25678b",
-        "title": "伊朗囚犯諾貝爾獎得主健康惡化，家人擔心",
-        "url": "https://www.bbc.com/news/articles/c362pd8epw9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 03 May 2026 14:44:04 GMT",
-        "summary_zh": "伊朗囚犯諾貝爾獎得主的健康狀況惡化，據她的家人透露，她被從監獄帶到當地的一家醫院。這名54歲的伊朗女性諾貝爾獎得主因其對人權的捍衛而受到關注。伊朗政府對她的囚禁引起了國際社會的廣泛關注。她的健康狀況惡化，引起了對她的安全和健康的擔憂。伊朗政府的行為被視為對人權的侵犯，引起了國際社會的譴責。這一事件將繼續受到國際社會的關注，展望未來的發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "65d3398e",
-        "title": "三星家族支付紀錄破億美元遺產稅費用",
-        "url": "https://www.bbc.com/news/articles/cn0px8g13xgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 04:24:22 GMT",
-        "summary_zh": "三星家族最近支付了紀錄破億美元的遺產稅費用，這與公司前任主席李健熙的遺產有關。李健熙於2020年10月去世。三星家族支付這筆巨額遺產稅費用後，將有助於公司繼續發展和擴張業務。這筆費用支付後，三星家族將能夠集中精力於公司的未來發展計畫和投資。這項消息對於三星家族和公司的未來發展具有重要意義。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       }
     ],
     "stock_tw": [
       {
-        "id": "b95ee5af",
-        "title": "民宿建地停止營業恢復成農業經營使用 5月申請核准可免地價稅",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5425352",
-        "source": "自由時報財經",
+        "id": "a57dfc5f",
+        "title": "台股首度站上4萬點 千金股10檔收漲停",
+        "url": "https://www.cna.com.tw/news/afe/202605040308.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Mon, 04 May 2026 21:52:45 +0800",
-        "summary_zh": "新竹縣湖口鄉一名民宿業者，決定停止營業並恢復農業經營使用。該業者向稅務單位詢問是否可以申請免予課徵地價稅。新竹縣政府稅務局建議，業者可向湖口鄉公所申請與農業經營無關的建物使用權，申請核准後可免繳地價稅。這項政策適用於5月申請核准的建物使用權。該業者可透過此政策，減少經營成本並促進農業發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "7934ada9",
-        "title": "台積電市值要衝上3兆美元 外媒曝股價漲幅需這麼多",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5425234",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 04 May 2026 21:52:28 +0800",
-        "summary_zh": "台積電和博通的市值目前約為2兆美元，預計明年年底可能會突破3兆美元大關。根據外媒The Motley Fool的報導，這兩家公司股價需要上漲50%才能達到3兆美元的里程碑。這意味著投資者需要耐心等待，才能看到台積電和博通的股價上漲。這兩家公司的股價上漲將對全球半導體市場產生重大影響，同時也會對投資者造成影響。台積電和博通的股價上漲也會對市場的信心產生重大影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "440a6f84",
-        "title": "金價空頭目標在4500美元 若再下探則看「這區間」",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5425365",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 04 May 2026 21:45:38 +0800",
-        "summary_zh": "受美元走強和原油價格飆漲的影響，金價持續下跌，徘徊在一個月低點附近。空頭們的目標是上週四的低點，約略高於4500美元。如果金價再下探，則需要關注一個區間。美伊緊張局勢的升高也對金價造成了壓力。這種情況下，投資者需要謹慎觀察金價的走勢，以避免損失。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "c999c651",
-        "title": "薺元小館二代程家堯打造寬敞空間與獨門「畫盤」服務",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5425349",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 04 May 2026 21:36:30 +0800",
-        "summary_zh": "薺元小館創立25年，二代掌門人程家堯將台北三民路的小店遷至南京東路黃金店面，打造150坪的寬敞空間。程家堯還利用繪畫長才，提供獨門的「畫盤」服務，讓政商名人驚艷。這項服務讓客人在享用美食的同時，也能欣賞到程家堯的繪畫作品。這項創新服務讓薺元小館成為台北的另一個美食景點。程家堯的繪畫長才和創新服務，使得薺元小館的形象更加出色。",
+        "published_at": "Mon, 04 May 2026 20:43:53 +0800",
+        "summary_zh": "台股今天終場收40705.14點，上漲1778.51點，為收盤首度站上40000點，收盤指數、漲點皆創下歷史新高。47檔千金股中有10檔漲停作收，包括股王信驊、聯發科、雍智科技等股價皆創歷史新高。這一波上漲可能與市場對於經濟成長的預期增強有關，投資人對於台股的信心也逐漸增強。然而，市場的波動仍然存在，投資人需要保持警惕。台股的上漲也可能對於相關產業的投資有所影響，投資人需要關注相關產業的發展。",
         "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "0515847c",
+        "title": "華航、長榮與星宇航空5月客運燃油附加費凍漲",
+        "url": "https://www.cna.com.tw/news/afe/202605040300.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 04 May 2026 20:19:36 +0800",
+        "summary_zh": "中華航空、長榮航空、星宇航空近日宣布將客運燃油附加費維持在4月公布的水平，短程航線每航段收取45美元，長程航線每航段收取117美元。這意味著航空公司將繼續自行吸收燃油成本的增加，各業者自行吸收成本占比微幅增加。這一決定可能是因為航空業仍處於疫情後的恢復期，燃油價格的波動對航空公司的營運造成了壓力。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
@@ -360,152 +474,52 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "177f2793",
-        "title": "OPEC+ 原油產量增加是象徵性的，但仍然重要",
-        "url": "https://www.reuters.com/markets/commodities/opec-crude-output-boost-is-symbolic-it-still-matters-2026-05-04/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-04 01:55:05",
-        "summary_zh": "在全球能源市場面臨供應緊張的背景下，OPEC+ 近期宣布將原油產量增加。雖然這一決定象徵性地表明了石油生產國的意願，但仍然對市場產生了實際影響。分析人士認為，這一決定將進一步增加市場供應，減少價格上漲的壓力。然而，市場仍然面臨著供應緊張的風險，尤其是在美國和中東地區的政治不穩定性下。這一決定對全球經濟和能源市場的影響仍然值得關注。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
       },
       {
-        "id": "64f84978",
-        "title": "韓國央行副行長：時候考慮加息",
-        "url": "https://www.reuters.com/world/asia-pacific/bank-korea-deputy-chief-says-time-consider-rate-hikes-2026-05-04/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-04 01:43:46",
-        "summary_zh": "韓國央行副行長表示，下個月的會議將對貨幣政策提供更強硬的指導，表明時候考慮加息。這個決定是基於韓國經濟正在穩步增長，通膨壓力逐漸上升。韓國央行的前瞻性指導是指未來的貨幣政策方向，目前的趨勢表明央行可能會採取更加鹹鹼政策，以控制通膨。這個轉變可能會對韓國股市和金融市場產生影響，投資者應該密切關注央行的動向。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "7785357e",
-        "title": "印度盧比、政府債券料受石油價格波動影響",
-        "url": "https://www.reuters.com/world/india/indian-rupee-bonds-set-sway-oil-prices-us-iran-stalemate-drags-2026-05-04/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-04 01:42:21",
-        "summary_zh": "印度盧比和政府債券將在本週面臨新的壓力。因為美國與伊朗的僵局未能解決，石油價格持續高漲，進而影響印度對能源的進口。印度政府債券的價格將受到石油價格波動的影響，投資者將面臨風險。印度的外匯儲備也將受到石油價格的影響，投資者將密切關注石油價格的變化。印度政府正在努力維持經濟穩定，同時也在努力解決石油價格的問題。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "f479397d",
-        "title": "亞洲股市微幅上漲，中東局勢不穩油價盤整",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-05-04/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-04 00:59:29",
-        "summary_zh": "亞洲股市在中東局勢不穩的背景下微幅上漲，油價則盤整不動。儘管伊朗和沙烏地阿拉伯之間的緊張局勢升高，但亞洲股市仍然保持穩定。日本股市東京股市指數(Topix)上漲0.2%，香港股市恒生指數(Hang Seng Index)上漲0.1%。油價則在不穩定的中東局勢下盤整不動，布倫特原油價格維持在每桶67美元左右。分析師認為，中東局勢的不穩定可能會對全球經濟產生影響，但目前來看，市場仍然保持穩定。",
+        "id": "b95ee5af",
+        "title": "民宿建地停止營業恢復成農業經營使用 5月申請核准可免地價稅",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5425352",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 04 May 2026 21:52:45 +0800",
+        "summary_zh": "新竹縣湖口鄉一名民宿業者，決定停止營業並恢復農業經營使用。該業者向稅務單位詢問是否可以申請免予課徵地價稅。新竹縣政府稅務局建議，業者可向湖口鄉公所申請與農業經營無關的建物使用權，申請核准後可免繳地價稅。這項政策適用於5月申請核准的建物使用權。該業者可透過此政策，減少經營成本並促進農業發展。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "6b04fe65",
-        "title": "日圓穩定但疑似干預陰影仍存",
-        "url": "https://www.reuters.com/world/asia-pacific/yen-steady-intervention-fears-linger-with-japan-shut-holidays-2026-05-04/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-04 00:35:43",
-        "summary_zh": "日圓在亞洲市場開盤後穩定，稍微上漲，前幾天因疑似當局干預而波動不穩。日圓過去一周疑似受到當局干預以加強貨幣，市場一直充滿著干預的陰影。",
+        "id": "7934ada9",
+        "title": "台積電市值要衝上3兆美元 外媒曝股價漲幅需這麼多",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5425234",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 04 May 2026 21:52:28 +0800",
+        "summary_zh": "台積電和博通的市值目前約為2兆美元，預計明年年底可能會突破3兆美元大關。根據外媒The Motley Fool的報導，這兩家公司股價需要上漲50%才能達到3兆美元的里程碑。這意味著投資者需要耐心等待，才能看到台積電和博通的股價上漲。這兩家公司的股價上漲將對全球半導體市場產生重大影響，同時也會對投資者造成影響。台積電和博通的股價上漲也會對市場的信心產生重大影響。",
         "sentiment": "中性",
-        "is_breaking": false,
+        "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "ed644b94",
-        "title": "韓國製造業活動增長逾 4 年來最快，PMI 顯示",
-        "url": "https://www.reuters.com/world/asia-pacific/south-korea-factory-activity-expands-strongest-pace-over-4-years-pmi-shows-2026-05-04/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-04 00:34:09",
-        "summary_zh": "根據韓國製造業活動指數（PMI），韓國的製造業活動在去年 12 月展現出逾 4 年來最強勁的增長。這一指數的升高表明韓國的製造業正在逐步恢復，受到出口需求的推動。韓國的出口需求在去年 12 月錄得了 8.3% 的增長，這是自 2018 年 7 月以來的最高增長率。這一增長主要是由於韓國的電子產品出口需求增加，尤其是半導體和顯示器。韓國的製造業活動增長對於該國的經濟有著重要的影響，韓國的經濟在去年 12 月錄得了 0.6% 的增長，這是自 2020 年 3 月以來的最高增長率。然而，韓國的製造業活動增長也面臨著一些挑戰，例如全球貿易緊張局勢和韓國的經濟不確定性。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e06ba200",
-        "title": "GameStop CEO 瑞安·科漢向eBay提出約56億美元未受邀購買意見",
-        "url": "https://www.reuters.com/business/gamestop-ceo-ryan-cohen-makes-unsolicited-offer-buy-ebay-about-56-bln-wsj-says-2026-05-03/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-03 23:12:10",
-        "summary_zh": "根據《華爾街日報》報導，GameStop CEO 瑞安·科漢向電子商務平台eBay提出了一份未受邀的買賣意見，價值約56億美元。這項消息可能會對電子商務市場產生重大影響，特別是在競爭日益激烈的線上購物領域。瑞安·科漢曾經成功推動GameStop的股價大幅上漲，現在他又將目標轉向eBay。這項交易是否會成功，還需要觀察未來的發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "eaa4a1c3",
-        "title": "澳洲國家銀行第一季度現金盈餘未達預期",
-        "url": "https://www.reuters.com/business/national-australia-banks-first-half-cash-earnings-miss-estimate-2026-05-03/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-03 23:10:07",
-        "summary_zh": "澳洲國家銀行(National Australia Bank)公布第一季度財報，現金盈餘未達市場預期。該銀行的盈餘僅為 2.9 億澳元，低於市場預估的 3.3 億澳元。這使得該銀行的股價下跌 2.5%。澳洲國家銀行的財務表現受到澳元的波動影響，該銀行的外幣收入下降。該銀行的管理層表示，第一季度的財務表現不佳，但仍對未來的發展感到樂觀。澳洲國家銀行將繼續關注澳元的波動和全球經濟的變化。",
+        "id": "440a6f84",
+        "title": "金價空頭目標在4500美元 若再下探則看「這區間」",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5425365",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 04 May 2026 21:45:38 +0800",
+        "summary_zh": "受美元走強和原油價格飆漲的影響，金價持續下跌，徘徊在一個月低點附近。空頭們的目標是上週四的低點，約略高於4500美元。如果金價再下探，則需要關注一個區間。美伊緊張局勢的升高也對金價造成了壓力。這種情況下，投資者需要謹慎觀察金價的走勢，以避免損失。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "734833c0",
-        "title": "銀行欲擺脫數據中心債務風險　全球銀行探索私人交易和風險轉移",
-        "url": "https://www.ft.com/content/08aba5e4-5834-4e79-a48d-989a2c5bad0f",
-        "source": "FT Tech",
-        "category": "finance",
-        "published_at": "Sun, 03 May 2026 17:00:06 GMT",
-        "summary_zh": "全球銀行業正面臨著數據中心債務風險的挑戰，為了避免因數據中心債務而「窒息」，銀行們正在探索私人交易和風險轉移的方法。這種趨勢與人工智慧（AI）技術的快速發展有關，銀行們為了投資AI相關項目而借貸，導致債務風險增加。銀行們正試圖透過私人交易和風險轉移來減少對這些債務的暴露度，同時也希望能夠繼續投資AI相關項目。這種轉變將對銀行業的風險管理和投資策略產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "stock_us": [
-      {
-        "id": "80a35980",
-        "title": "澳洲Viva Energy預計6月重啟吉朗石化廠",
-        "url": "https://www.reuters.com/business/energy/australias-viva-energy-expects-restart-geelong-refinery-units-june-2026-05-03/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-05-03 23:28:09",
-        "summary_zh": "澳洲Viva Energy表示，該公司預計修復吉朗石化廠的重整單元（RCCU）需要約六週時間，預計於6月重啟。該單元在4月發生火災後停止運作。吉朗石化廠是澳洲最大的石化廠之一，停機時間對澳洲石化業的供應鏈造成了影響。儘管如此，Viva Energy仍然表示有信心重啟單元，並將盡快恢復正常生產。該公司的重啟計畫將受到密切監控，以確保安全和效率。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0e8a837b",
-        "title": "大科技公司財報顯示大規模投資會得到市場的回報",
-        "url": "https://www.cnbc.com/2026/05/03/big-tech-earnings-show-how-big-smart-spending-can-be-rewarded-by-the-market.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-03 19:20:18",
-        "summary_zh": "近期的財報顯示，大科技公司的投資回報率遠遠超出了市場預期。這些公司的財報表明，企業的投資在市場上獲得了豐厚的回報。這種情況表明，市場對大科技公司的投資有著很高的期待。這種投資回報率的提高，也使得市場上對大科技公司的評估更加樂觀。然而，這也使得市場上對未來投資回報的期待更加高漲。",
+        "id": "c999c651",
+        "title": "薺元小館二代程家堯打造寬敞空間與獨門「畫盤」服務",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5425349",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 04 May 2026 21:36:30 +0800",
+        "summary_zh": "薺元小館創立25年，二代掌門人程家堯將台北三民路的小店遷至南京東路黃金店面，打造150坪的寬敞空間。程家堯還利用繪畫長才，提供獨門的「畫盤」服務，讓政商名人驚艷。這項服務讓客人在享用美食的同時，也能欣賞到程家堯的繪畫作品。這項創新服務讓薺元小館成為台北的另一個美食景點。程家堯的繪畫長才和創新服務，使得薺元小館的形象更加出色。",
         "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e40df71d",
-        "title": "市場正在享受人工智慧投資熱潮，但什麼能夠打破這場狂潮?",
-        "url": "https://www.marketwatch.com/story/the-market-is-riding-high-on-an-ai-spending-boom-but-what-could-crack-this-rally-531b0854?mod=mw_rss_topstories",
-        "source": "Marketwatch",
-        "category": "stock_us",
-        "published_at": "2026-05-03 16:00:00",
-        "summary_zh": "市場在第一季度表現亮麗，但對 2026 年預期的持續上調卻非常集中。這種情況下，投資人開始擔心市場是否會出現下滑。儘管人工智慧投資熱潮仍在持續，但投資人們開始注意到一些跡象，表明市場可能會出現轉折點。投資人們正在密切關注人工智慧公司的財務報表和預期，希望能夠找到市場的下一步走向。然而，市場的未來仍充滿著不確定性，投資人們需要保持警惕。",
-        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       }
