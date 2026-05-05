@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-05T18:04:01.996439+08:00",
+  "generated_at": "2026-05-05T19:04:13.003953+08:00",
   "risk_signals": [
     "🟢 台股加權 40769.29（正常）",
     "🟢 S&P 500 7200.75（正常）",
-    "🟢 VIX 恐慌指數 17.67（正常）",
+    "🟢 VIX 恐慌指數 17.69（正常）",
     "🟢 MOVE 債市波動 77.86（正常）",
-    "🟢 美元指數 98.49（正常）",
-    "🟢 黃金 4564.1（正常）",
+    "🟢 美元指數 98.5（正常）",
+    "🟢 黃金 4552.3（正常）",
     "🟢 美債10Y殖利率 4.45（正常）",
-    "🟢 原油 WTI 104.23（正常）",
+    "🟢 原油 WTI 104.17（正常）",
     "🟢 美元/台幣 31.59（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，多個指標維持正常水平，表明投資者對全球經濟前景保持著樂觀態度。然而，S&P 500 的小幅下跌可能預示著市場稍有擔憂，但整體來說仍保持著穩定性。",
+  "ai_summary": "市場氛圍穩定，投資者風險偏好正常。",
   "market": {
     "TWII": {
       "price": 40769.29,
@@ -26,8 +26,8 @@
       "change_pct": -0.19
     },
     "VIX": {
-      "price": 17.67,
-      "change_pct": -3.39
+      "price": 17.69,
+      "change_pct": -3.28
     },
     "TNX": {
       "price": 4.45,
@@ -38,290 +38,36 @@
       "change_pct": 10.58
     },
     "DXY": {
-      "price": 98.49,
-      "change_pct": 0.02
+      "price": 98.5,
+      "change_pct": 0.03
     },
     "GOLD": {
-      "price": 4564.1,
-      "change_pct": 0.99
+      "price": 4552.3,
+      "change_pct": 0.73
     },
     "OIL": {
-      "price": 104.23,
-      "change_pct": -2.06
+      "price": 104.17,
+      "change_pct": -2.11
     },
     "USDTWD": {
       "price": 31.59,
-      "change_pct": 0.11
+      "change_pct": 0.13
     }
   },
   "macro": {},
   "categories": {
-    "whitehouse": [
-      {
-        "id": "a1ac5a1c",
-        "title": "二戰美軍空勤人員遺骸終得安葬",
-        "url": "https://www.theguardian.com/us-news/2026/may/05/airman-missing-ww2-florida",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 05 May 2026 09:00:34 GMT",
-        "summary_zh": "二戰期間，美國海軍飛行員羅伯特·西爾·瓊斯（Robert Cyr Jr）於1944年1月22日乘坐水上飛機在南太平洋的瓦努阿圖共和國（現今的塞貢德水道）起飛時與同伴8人一起墜毀失蹤。經過多年的努力，美國海軍飛行員羅伯特·西爾·瓊斯的遺骸終於通過DNA鑑定確認身份，並於近期在佛羅里達州的克萊爾沃特（Clearwater）舉行了安葬儀式。這標誌著一場長達數十年的追尋之旅的結束。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "24c08804",
-        "title": "谷歌深度學習員工在英國投票成立工會　反對與美國軍方合作",
-        "url": "https://www.theguardian.com/us-news/2026/may/04/google-deepmind-uk-workers-union",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 05 May 2026 05:05:42 GMT",
-        "summary_zh": "谷歌深度學習的英國員工投票成立工會，部分原因是對於公司與美國軍方合作的協議表示擔憂。員工在一封信中指出，伊朗戰爭和美國國防部與 Anthropic 的糾紛是公司「不是一個負責任夥伴」的證據。谷歌深度學習的員工正在開發公司的人工智慧產品。這封信將於星期二發給管理層，內容將要求谷歌承認 Communication Workers Union 和 Unite the Union 作為該實驗室英國員工的共同代表。這項決定是出於對谷歌與美國軍方合作的協議感到擔憂。這項協議在上周公布。谷歌深度學習的員工正在開發公司的人工智慧產品。這項決定是出於對谷歌與美國軍方合作的協議感到擔憂。這項協議在上周公布。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "866ee8f3",
-        "title": "民主黨人表示「戰爭才剛剛開始」美國最高法院暫時恢復墮胎藥物存取權 – 直播",
-        "url": "https://www.theguardian.com/us-news/live/2026/may/04/donald-trump-white-house-correspondents-dinner-shooting-cole-allen-rudy-giuliani-hegseth-rubio-iran-us-politics-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 05 May 2026 01:59:36 GMT",
-        "summary_zh": "美國最高法院於週一發出暫時命令，恢復墮胎藥物米非司酮（mifepristone）通過郵寄方式存取。這是因為兩家生產米非司酮的公司於週六向法院提出緊急申請，要求暫停一項法院判決，判決要求在開具藥物前必須進行面對面檢查。美國民主黨人表示，這項暫時命令是「戰爭才剛剛開始」，表明這場爭議仍未結束。米非司酮是一種常見的墮胎藥物，美國最高法院的判決將對許多婦女的存取權造成重大影響。這項暫時命令將暫時恢復米非司酮的郵寄存取權，讓婦女可以繼續存取這種藥物。然而，這項命令仍未結束這場爭議，美國最高法院將繼續審理這項案件。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "871e28e0",
-        "title": "美國最高法院急速審理選舉權法案判決　讓路易斯安那州共和黨重畫選區圖",
-        "url": "https://www.theguardian.com/us-news/2026/may/04/supreme-court-expedites-voting-rights-act-ruling",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 05 May 2026 01:19:12 GMT",
-        "summary_zh": "美國最高法院在週一出手相助，讓路易斯安那州共和黨在今年中期選舉前重畫國會選區圖。這項程序是在法院上週對路易斯安那州國會選區圖進行裁決，同時削弱選舉權法案第 2 條後不久發生的。通常，法院會在 32 天後正式將判決發給下級法院。上週，路易斯安那州要求法院加速這個程序，指出該州需要儘快重畫國會選區圖。週一，法院同意了這項要求。最高法院的這一決定引起了批評，法院大法官凱坦吉·布朗·傑克遜表示，這項決定是有史以來僅有的第三次。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "6dba4f27",
-        "title": "美國國會大廈附近有人被警方開槍射傷",
-        "url": "https://www.theguardian.com/us-news/2026/may/04/person-shot-washington-dc-monument",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 04 May 2026 22:29:37 GMT",
-        "summary_zh": "美國國會大廈附近發生槍擊事件，一名人士被警方開槍射傷，目前該人的狀況和槍擊事件的具體情況尚未公布。事件發生在美國國會大廈附近的15街和獨立大道附近。美國國會大廈附近的安全工作由美國秘書處負責。事件的具體情況和該人的狀況尚待進一步調查和確認。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "fbbfb1c9",
-        "title": "紐約市議員譴責ICE：警察與抗議者在布魯克林爆衝突",
-        "url": "https://www.theguardian.com/us-news/2026/may/04/zohran-mamdani-ice-police-protesters-clash-brooklyn",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 04 May 2026 21:25:40 GMT",
-        "summary_zh": "紐約市議員Zohran Mamdani與其他當地官員於週一譴責移民及海關執法局（ICE），因為聯邦官員在一名被捕者被帶到醫院後，強制拖走一名男子，引發抗議者聚集在醫院外，與警察發生衝突。這起事件也引起了批評者對紐約警察局在現場的回應，與紐約市的庇護城市法令有關，該法令禁止地方警察協助聯邦移民當局執行民事移民執法。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "284e1d29",
-        "title": "國會法案 S. 723 簽署成為法律",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/congressional-bill-s-723-signed-into-law/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 04 May 2026 23:31:22 +0000",
-        "summary_zh": "2026 年 5 月 4 日，總統簽署了 S. 723 法案，即《印地安人信托土地所有權法案 2025 年》，該法案將印地安事務局的信托或受限制印地安土地上的住宅和商業租賃權利持有人貸款的相關規定和截止日期正式化。這項法律旨在促進印地安人在信托土地上擁有房屋和商業資產的權利。這項法律的簽署標誌著對印地安人土地所有權的重大進步，同時也為印地安人提供了更多的經濟和社會機會。這項法律的實施將對印地安人社區產生深遠影響，促進他們的經濟和社會發展。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9d7a782b",
-        "title": "猶太美國人遺產月, 2026",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/jewish-american-heritage-month-2026/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 04 May 2026 23:06:14 +0000",
-        "summary_zh": "猶太美國人遺產月, 2026, 美國總統發表宣言, 表揚猶太美國人在美國250年歷史中所做出的無數貢獻, 并慶祝他們對美國優良價值的堅定承諾, 包括信仰、家庭和自由。 美國第一任總統喬治·華盛頓在1790年致函於羅德島希伯來會議, 表達了對猶太美國人的尊敬和歡迎。 這個月, 美國人將聚集一同, 回顧猶太美國人的歷史, 并慶祝他們對美國社會的貢獻。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cb4eeb1b",
-        "title": "美國250：總統致詞慶祝珊瑚海戰役戰勝紀念日",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/america-250-presidential-message-on-the-anniversary-of-the-battle-of-the-coral-sea/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 04 May 2026 22:23:03 +0000",
-        "summary_zh": "美國今天紀念珊瑚海戰役的84週年，致敬在太平洋戰爭中與法西斯主義作鬥爭的勇敢美國人和澳大利亞人。這場戰役是太平洋戰爭中的一個重要轉折點，美國和澳大利亞人民共同犧牲和勇氣，為兩國人民締造了永恆的友誼。這種友誼已經經歷了許多考驗，但仍然堅強不移。總統致詞慶祝這一重要日子，表達對這場戰役中犧牲的美國人和澳大利亞人的敬意和感謝。這場戰役的勝利標誌著美國和澳大利亞人民的團結和勇氣，為未來的和平和自由奠定了基礎。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4fa1a704",
-        "title": "川普總統慶祝小企業復甦週",
-        "url": "https://www.whitehouse.gov/releases/2026/05/president-trump-celebrates-small-business-revival-during-national-small-business-week/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 04 May 2026 17:35:22 +0000",
-        "summary_zh": "川普總統在美國小企業週期間，慶祝美國的小企業復甦。他表示，美國已經成為一座重建的國度，這是由於川普總統為美國小企業帶來的歷史性勝利。他還提到，美國正在慶祝250週年紀念日，這是自由和自由企業的重要里程碑。川普總統強調，美國政府致力於實現「美國優先」的政策，為美國小企業創造更多機會。這項政策旨在幫助美國小企業快速成長和發展，從而為美國經濟帶來新的活力。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cc818767",
-        "title": "亞伯達分離主義者提交獨立公投請願書",
-        "url": "https://www.bbc.com/news/articles/cx21kdz7wygo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 04 May 2026 23:27:47 GMT",
-        "summary_zh": "亞伯達分離主義者最近提交了一份獨立公投請願書，獲得足夠的簽名，足以觸發公投。然而，仍然存疑，亞伯達人是否會投票支持這個問題。這項請願書是由亞伯達分離主義運動的領導人提出的，他們主張亞伯達應該獨立於加拿大，並成為一個獨立的國家。這項請願書獲得了足夠的簽名，足以觸發公投，但仍然需要加拿大政府批准。加拿大政府是否會批准這項公投，仍然存疑。這項公投將會讓亞伯達人決定是否支持獨立，或者繼續留在加拿大。這項問題將會在未來的公投中被提出。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c01e5666",
-        "title": "前紐約市長魯迪·朱利安尼正在康復，目前已經能獨自呼吸",
-        "url": "https://www.bbc.com/news/articles/cpvpnve1r24o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 04 May 2026 16:27:32 GMT",
-        "summary_zh": "前紐約市長魯迪·朱利安尼因患上肺炎而住院，目前仍處於危急狀態，但情況穩定。根據他的發言人表示，朱利安尼目前已經能獨自呼吸，這是他康復的一個重要里程碑。朱利安尼的健康狀況一直受到關注，外界期待著他能夠盡快康復。朱利安尼曾經在2008年競選美國總統，後來成為唐納·川普政府的顧問。他的健康狀況對於美國政治界有著重要影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
     "global": [
       {
-        "id": "b5c563e9",
-        "title": "郵輪疑似爆發罕見病毒，維尼克角拒絕泊船",
-        "url": "https://www.theguardian.com/science/2026/may/04/cruise-ship-suspected-hantavirus-outbreak-blocked-docking-cape-verde",
-        "source": "Guardian World",
+        "id": "e907029d",
+        "title": "中國火藥工廠爆炸造成26人死亡",
+        "url": "https://www.bbc.com/news/articles/c70vqwengxno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "Tue, 05 May 2026 01:52:50 GMT",
-        "summary_zh": "維尼克角當局宣布不准一艘郵輪靠岸，理由是保護公眾健康。這艘郵輪疑似爆發罕見的呼吸道病毒，該病毒主要在老鼠身上發現。據報三名乘客死亡。世界衛生組織正在調查郵輪上是否有罕見病毒的爆發。維尼克角當局的決定是在世界衛生組織發布消息後不久做出的。罕見病毒是一種主要在老鼠身上發現的疾病，人類感染罕見，但可能會導致嚴重的呼吸道問題。維尼克角當局的決定可能會對郵輪上的乘客造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "adb35182",
-        "title": "尼日利亞石化廠被指炒退工會成員　英國政府視為解決航油短缺的關鍵",
-        "url": "https://www.theguardian.com/business/2026/may/04/nigeria-refinery-dangote-uk-plan-jet-fuel-shortage-strait-of-hormuz",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 15:58:29 GMT",
-        "summary_zh": "英國運輸部長希迪·亞歷山大（Heidi Alexander）表示，解決霍爾木茲海峽危機的一部分是進口更多來自美國和西非的油品。尼日利亞一家石化廠被指炒退工會成員，該廠被視為英國政府解決航油短缺的關鍵。英國政府正面臨著夏季假期的壓力，航油短缺可能會對旅遊業造成重大影響。尼日利亞石化廠被指違反勞工法規，英國政府正在與該廠進行談判，以確保工會成員的權益。這一發展可能會對英國的航油市場產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ebc61e02",
-        "title": "美國軍事打擊殺死兩人　毒品走私船攻擊死亡人數達 188 人",
-        "url": "https://www.theguardian.com/us-news/2026/may/05/us-military-strike-alleged-drugs-boat-caribbean-sea-pacific",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Tue, 05 May 2026 05:02:07 GMT",
-        "summary_zh": "儘管伊朗戰爭，美國軍方在東太平洋近期加強了軍事打擊。美國軍方表示，於本周一在加勒比海炸毀一艘疑似運毒的船隻，造成兩人死亡。自從早前九月初，川普政府對拉丁美洲水域的毒品走私船進行的攻擊行動持續進行，已經造成至少 188 人死亡。其他的軍事打擊還發生在東太平洋洋面。這些行動引起了對美國軍方是否過度使用武力和對民眾生命的影響的爭議。",
+        "published_at": "Tue, 05 May 2026 06:06:42 GMT",
+        "summary_zh": "中國湖南省一家火藥工廠發生爆炸，造成26人死亡，61人受傷。這起事故引起了廣泛關注。根據官方媒體的報導，這起爆炸事故發生在工廠內，原因尚未明確。這是中國近期的一起重大工業事故，引起了對工廠安全和防災措施的關注。政府已經派出調查小組到現場調查事故原因。這起事故對當地居民和工人造成了深遠的影響，引起了對工廠安全和防災措施的重視。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
-      },
-      {
-        "id": "ead39a7b",
-        "title": "加拿大小提琴手起訴Google：AI概覽錯誤指控他性罪犯",
-        "url": "https://www.theguardian.com/music/2026/may/05/canadian-ashley-macisaac-fiddler-musician-singer-songwriter-sues-google-ai-sex-offender-ntwnfb",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 05 May 2026 02:22:38 GMT",
-        "summary_zh": "加拿大小提琴手Ashley MacIsaac因Google的AI概覽錯誤指控他性罪犯而提出1.5萬美元的民事訴訟。據報導，MacIsaac曾三次獲得加拿大音樂獎項（Juno Award），但Google的AI概覽卻錯誤地指控他曾經犯下多宗罪行，包括性侵犯、兒童誘拐和傷害他人。MacIsaac認為Google對這些錯誤的內容負有責任，導致他的音樂會被取消。這起訴訟將對Google的AI概覽功能和其對使用者資料的管理方式產生重要影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "56815ad2",
-        "title": "中國客機墜毀案：報告指燃油切斷為主因",
-        "url": "https://www.bbc.com/news/articles/ckgpy223y9go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 05 May 2026 04:25:49 GMT",
-        "summary_zh": "2022 年，一架波音 737 客機在中國山坡上墜毀，造成 132 人罹難。根據最新的報告，該事故的主要原因是燃油切斷。這項發現可能會對航空業界產生重大影響，引發對安全措施和飛行員訓練的重新評估。中國航空局已經開始調查此事，並將與國際航空組織合作，確保類似事件不再發生。這一事件也會對乘客和飛行員的安全信心產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e379c95c",
-        "title": "澳洲海岸一艘遊艇沉沒三人死亡包括救援人員",
-        "url": "https://www.bbc.com/news/articles/cr5p36v5q79o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 05 May 2026 02:40:24 GMT",
-        "summary_zh": "澳洲海岸發生了一起嚴重的海難事件，一艘遊艇在惡劣的海況下翻覆，造成三人死亡，包括兩名志願救援人員。這兩名救援人員分別年齡為78歲和62歲。這起事件凸顯了澳洲海岸的海況變化，讓人們對海上安全感到擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "eff332a3",
-        "title": "我們不會看到她，因為她是亞洲人：萊莎隆加如何在百老匯打拼",
-        "url": "https://www.bbc.com/news/articles/ckgpnk4kkkro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 22:33:11 GMT",
-        "summary_zh": "百老匯偶像、迪士尼公主萊莎隆加為亞洲演員打開了道路，但這並不容易。萊莎隆加憶述自己在百老匯的經歷，面臨種族歧視和不公平待遇。雖然她成功登上百老匯舞台，但她也遇到許多挑戰。萊莎隆加的故事成為了許多亞洲演員的榜樣，鼓勵他們追求自己的夢想。她的經歷也提醒我們，種族歧視和不公平待遇仍然存在，需要我們共同努力來打破這些壁壘。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "90db4bd8",
-        "title": "莫迪的印度人民黨在孟加拉國勝利，一個印度最具挑戰性的政治前線",
-        "url": "https://www.bbc.com/news/articles/ce8pdvp5x5ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 11:59:58 GMT",
-        "summary_zh": "莫迪的印度人民黨在孟加拉國大選中取得勝利，這不僅改變了該州的政治格局，也可能影響莫迪的印度人民黨未來的發展方向。孟加拉國是印度政治最具挑戰性的地區之一，莫迪的勝利標誌著印度人民黨在該州的崛起。這一勝利對印度政治格局的影響將是深遠的，可能會改變印度未來的政治走向。莫迪的勝利也表明了印度人民黨在印度政治中的強大實力，將對印度政治產生重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "78712dc1",
-        "title": "美國擊沉伊朗快艇 伊朗攻擊阿聯酋石油設施",
-        "url": "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 05 May 2026 04:34:15 GMT",
-        "summary_zh": "伊朗近日在霍爾木茲海峽附近攻擊多艘油輪，導致全球油價大幅上升。美國海軍為一艘美國籍商船提供保護，該船成功通過霍爾木茲海峽。這一事件引發了國際關注，美國和伊朗之間的緊張關係再次升級。伊朗的攻擊行動對全球油價和地區安全造成了重大影響。美國擊沉伊朗快艇的行動被視為對伊朗的強烈回應。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "55cf89e5",
-        "title": "奧克拉荷馬州湖邊派對槍擊案至少10人受傷",
-        "url": "https://www.bbc.com/news/articles/cnvp3lnegqdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 04 May 2026 16:14:48 GMT",
-        "summary_zh": "奧克拉荷馬州埃德蒙附近的阿卡迪亞湖周日晚間21:00左右發生槍擊案，造成至少10人受傷。警方正在調查此案。這起槍擊案發生在湖邊的派對上，警方正在努力確定槍擊者和受害者的身份。這是奧克拉荷馬州近期槍擊案的又一例。槍擊案對當地居民造成了嚴重的影響，警方呼籲民眾保持冷靜。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       },
       {
         "id": "3f527894",
@@ -329,7 +75,7 @@
         "url": "https://www.bbc.com/news/articles/ckgpzgxgz58o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Tue, 05 May 2026 04:27:00 GMT",
+        "published_at": "Tue, 05 May 2026 10:56:53 GMT",
         "summary_zh": "德國城市萊比錫發生嚴重事故，汽車衝撞人群，造成兩人死亡，多人受傷。當地市長布爾哈德·容格（Burkhard Jung）表示，一名嫌疑人已被拘留，但動機仍不清楚。這起事件引起了社會的關注和譴責。德國政府已經開始調查此事件，了解背後的原因和動機。這起事故也引起了對交通安全和公共安全的關注。",
         "sentiment": "負面",
         "is_breaking": true,
@@ -341,8 +87,20 @@
         "url": "https://www.bbc.com/news/articles/cy0294829ndo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Tue, 05 May 2026 01:14:04 GMT",
+        "published_at": "Tue, 05 May 2026 10:07:26 GMT",
         "summary_zh": "近日，一艘名為MV Hondius的郵輪疑似爆發漢坦病毒疫情，已經有三名乘客死亡，包括一對荷蘭夫婦和一名德國籍人士。郵輪營運商宣布，已經確診第二例漢坦病毒病例。事件的背景是，郵輪在南極洲的旅遊途中，乘客和船員都可能受到感染。關鍵細節是，郵輪營運商正在與當地當局合作，進行疫情的追蹤和控制。影響分析是，這起疫情可能對郵輪業和旅遊業造成一定的影響。後續展望是，郵輪營運商將繼續與當地當局合作，確保旅客和船員的安全。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e379c95c",
+        "title": "澳洲海岸一艘遊艇沉沒三人死亡包括救援人員",
+        "url": "https://www.bbc.com/news/articles/cr5p36v5q79o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 05 May 2026 02:40:24 GMT",
+        "summary_zh": "澳洲海岸發生了一起嚴重的海難事件，一艘遊艇在惡劣的海況下翻覆，造成三人死亡，包括兩名志願救援人員。這兩名救援人員分別年齡為78歲和62歲。這起事件凸顯了澳洲海岸的海況變化，讓人們對海上安全感到擔憂。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -357,6 +115,30 @@
         "summary_zh": "印度南部的坦米爾納德邦近期進行了選舉，結果出人意料地由影星維傑領導的政黨大勝，幾乎取得了壓倒性的勝利。這一結果令許多人感到驚訝，因為維傑一直被視為是娛樂圈的明星，而不是政治人物。這一勝利標誌著坦米爾納德邦政治格局的重大變化，可能會對印度整體政治情勢產生影響。維傑的勝利也引起了許多人的關注，他的政黨將如何運用這一勝利來改變坦米爾納德邦的政治和社會環境。",
         "sentiment": "正面",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "bfbb6e5d",
+        "title": "澳大利亞暢銷作家承認涉及兒童色情材料",
+        "url": "https://www.bbc.com/news/articles/cg7pz2xj4l3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 05 May 2026 05:28:28 GMT",
+        "summary_zh": "澳大利亞暢銷作家克里斯托弗·布洛姆菲爾德（Christopher Currie）被捕於今年一月，當時警方在他的珀斯家中進行突擊搜查。布洛姆菲爾德因涉嫌擁有兒童色情材料而被捕，目前他已經承認罪名。這起事件引起了社會的關注，許多人對於布洛姆菲爾德的行為感到震驚和憤怒。這起事件也引發了對於兒童色情材料的嚴重性和保護兒童的重要性的討論。布洛姆菲爾德的案件目前正在進行中，未來將會有更多的發展。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "56815ad2",
+        "title": "中國客機墜毀案：報告指燃油切斷為主因",
+        "url": "https://www.bbc.com/news/articles/ckgpy223y9go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 05 May 2026 04:25:49 GMT",
+        "summary_zh": "2022 年，一架波音 737 客機在中國山坡上墜毀，造成 132 人罹難。根據最新的報告，該事故的主要原因是燃油切斷。這項發現可能會對航空業界產生重大影響，引發對安全措施和飛行員訓練的重新評估。中國航空局已經開始調查此事，並將與國際航空組織合作，確保類似事件不再發生。這一事件也會對乘客和飛行員的安全信心產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -396,6 +178,18 @@
         "ai_classified": true
       },
       {
+        "id": "ebc61e02",
+        "title": "美國軍事打擊殺死兩人　毒品走私船攻擊死亡人數達 188 人",
+        "url": "https://www.theguardian.com/us-news/2026/may/05/us-military-strike-alleged-drugs-boat-caribbean-sea-pacific",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Tue, 05 May 2026 05:02:07 GMT",
+        "summary_zh": "儘管伊朗戰爭，美國軍方在東太平洋近期加強了軍事打擊。美國軍方表示，於本周一在加勒比海炸毀一艘疑似運毒的船隻，造成兩人死亡。自從早前九月初，川普政府對拉丁美洲水域的毒品走私船進行的攻擊行動持續進行，已經造成至少 188 人死亡。其他的軍事打擊還發生在東太平洋洋面。這些行動引起了對美國軍方是否過度使用武力和對民眾生命的影響的爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "0c70586b",
         "title": "西班牙海關破獲大麻案：大西洋海面擒獲近45,000公斤可卡因",
         "url": "https://www.bbc.com/news/articles/cp8pn8py5gro?at_medium=RSS&at_campaign=rss",
@@ -406,20 +200,104 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "90db4bd8",
+        "title": "莫迪的印度人民黨在孟加拉國勝利，一個印度最具挑戰性的政治前線",
+        "url": "https://www.bbc.com/news/articles/ce8pdvp5x5ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 11:59:58 GMT",
+        "summary_zh": "莫迪的印度人民黨在孟加拉國大選中取得勝利，這不僅改變了該州的政治格局，也可能影響莫迪的印度人民黨未來的發展方向。孟加拉國是印度政治最具挑戰性的地區之一，莫迪的勝利標誌著印度人民黨在該州的崛起。這一勝利對印度政治格局的影響將是深遠的，可能會改變印度未來的政治走向。莫迪的勝利也表明了印度人民黨在印度政治中的強大實力，將對印度政治產生重大影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b5c563e9",
+        "title": "郵輪疑似爆發罕見病毒，維尼克角拒絕泊船",
+        "url": "https://www.theguardian.com/science/2026/may/04/cruise-ship-suspected-hantavirus-outbreak-blocked-docking-cape-verde",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 05 May 2026 01:52:50 GMT",
+        "summary_zh": "維尼克角當局宣布不准一艘郵輪靠岸，理由是保護公眾健康。這艘郵輪疑似爆發罕見的呼吸道病毒，該病毒主要在老鼠身上發現。據報三名乘客死亡。世界衛生組織正在調查郵輪上是否有罕見病毒的爆發。維尼克角當局的決定是在世界衛生組織發布消息後不久做出的。罕見病毒是一種主要在老鼠身上發現的疾病，人類感染罕見，但可能會導致嚴重的呼吸道問題。維尼克角當局的決定可能會對郵輪上的乘客造成影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "adb35182",
+        "title": "尼日利亞石化廠被指炒退工會成員　英國政府視為解決航油短缺的關鍵",
+        "url": "https://www.theguardian.com/business/2026/may/04/nigeria-refinery-dangote-uk-plan-jet-fuel-shortage-strait-of-hormuz",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 15:58:29 GMT",
+        "summary_zh": "英國運輸部長希迪·亞歷山大（Heidi Alexander）表示，解決霍爾木茲海峽危機的一部分是進口更多來自美國和西非的油品。尼日利亞一家石化廠被指炒退工會成員，該廠被視為英國政府解決航油短缺的關鍵。英國政府正面臨著夏季假期的壓力，航油短缺可能會對旅遊業造成重大影響。尼日利亞石化廠被指違反勞工法規，英國政府正在與該廠進行談判，以確保工會成員的權益。這一發展可能會對英國的航油市場產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ead39a7b",
+        "title": "加拿大小提琴手起訴Google：AI概覽錯誤指控他性罪犯",
+        "url": "https://www.theguardian.com/music/2026/may/05/canadian-ashley-macisaac-fiddler-musician-singer-songwriter-sues-google-ai-sex-offender-ntwnfb",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 05 May 2026 02:22:38 GMT",
+        "summary_zh": "加拿大小提琴手Ashley MacIsaac因Google的AI概覽錯誤指控他性罪犯而提出1.5萬美元的民事訴訟。據報導，MacIsaac曾三次獲得加拿大音樂獎項（Juno Award），但Google的AI概覽卻錯誤地指控他曾經犯下多宗罪行，包括性侵犯、兒童誘拐和傷害他人。MacIsaac認為Google對這些錯誤的內容負有責任，導致他的音樂會被取消。這起訴訟將對Google的AI概覽功能和其對使用者資料的管理方式產生重要影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "78712dc1",
+        "title": "美國擊沉伊朗快艇 伊朗攻擊阿聯酋石油設施",
+        "url": "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 05 May 2026 04:34:15 GMT",
+        "summary_zh": "伊朗近日在霍爾木茲海峽附近攻擊多艘油輪，導致全球油價大幅上升。美國海軍為一艘美國籍商船提供保護，該船成功通過霍爾木茲海峽。這一事件引發了國際關注，美國和伊朗之間的緊張關係再次升級。伊朗的攻擊行動對全球油價和地區安全造成了重大影響。美國擊沉伊朗快艇的行動被視為對伊朗的強烈回應。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "55cf89e5",
+        "title": "奧克拉荷馬州湖邊派對槍擊案至少10人受傷",
+        "url": "https://www.bbc.com/news/articles/cnvp3lnegqdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 16:14:48 GMT",
+        "summary_zh": "奧克拉荷馬州埃德蒙附近的阿卡迪亞湖周日晚間21:00左右發生槍擊案，造成至少10人受傷。警方正在調查此案。這起槍擊案發生在湖邊的派對上，警方正在努力確定槍擊者和受害者的身份。這是奧克拉荷馬州近期槍擊案的又一例。槍擊案對當地居民造成了嚴重的影響，警方呼籲民眾保持冷靜。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "eff332a3",
+        "title": "我們不會看到她，因為她是亞洲人：萊莎隆加如何在百老匯打拼",
+        "url": "https://www.bbc.com/news/articles/ckgpnk4kkkro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 04 May 2026 22:33:11 GMT",
+        "summary_zh": "百老匯偶像、迪士尼公主萊莎隆加為亞洲演員打開了道路，但這並不容易。萊莎隆加憶述自己在百老匯的經歷，面臨種族歧視和不公平待遇。雖然她成功登上百老匯舞台，但她也遇到許多挑戰。萊莎隆加的故事成為了許多亞洲演員的榜樣，鼓勵他們追求自己的夢想。她的經歷也提醒我們，種族歧視和不公平待遇仍然存在，需要我們共同努力來打破這些壁壘。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "ai": [
       {
-        "id": "0c634296",
-        "title": "Greg Brockman 辯護 30 億美元 OpenAI 股權：‘血汗錢’",
-        "url": "https://www.wired.com/story/greg-brockman-testifies-musk-v-altman-trial/",
-        "source": "Wired AI",
+        "id": "89ef9563",
+        "title": "谷歌深度學習員工成立工會抗議軍方AI合同",
+        "url": "https://www.theverge.com/tech/923918/google-deepmind-union-bid-ai-military-israel",
+        "source": "The Verge AI",
         "category": "ai",
-        "published_at": "Mon, 04 May 2026 23:19:52 +0000",
-        "summary_zh": "OpenAI 的共同創辦人兼總裁 Greg Brockman 在聯邦法院透露，他是該人工智慧實驗室最大的個人股東之一。這項信息出現在一項與 OpenAI 有關的訴訟中。雖然 Greg Brockman 沒有披露具體的股權比例，但他堅稱這些投資是他『血汗錢』的結果。這項投資的價值達 30 億美元，展現了 Greg Brockman 對 OpenAI 的信心。這項資訊也讓人們對 OpenAI 未來發展的前景產生了興趣。",
-        "sentiment": "中性",
+        "published_at": "2026-05-05T06:08:33-04:00",
+        "summary_zh": "谷歌深度學習的員工們在公司總部投票成立工會，試圖防止該公司的AI技術被以色列和美國軍方使用。周二，員工們發出信函給谷歌管理層，要求承認通訊工會（CWU）和工會聯合體（Unite the Union）作為聯合代表，投票結果達98%。員工們擔心AI技術可能被用於軍事目的，從而侵犯人權。這項決定是谷歌員工對公司政策的最新反彈，之前已經有許多員工表達對軍方合同的擔憂。工會成立後，員工們將會與谷歌管理層進行談判，要求公司拒絕與軍方合作。這項行動可能會對谷歌的商業運作產生影響，公司可能會面臨外界的壓力和批評。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
       {
         "id": "8794ac3c",
@@ -480,56 +358,68 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "0c634296",
+        "title": "Greg Brockman 辯護 30 億美元 OpenAI 股權：‘血汗錢’",
+        "url": "https://www.wired.com/story/greg-brockman-testifies-musk-v-altman-trial/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Mon, 04 May 2026 23:19:52 +0000",
+        "summary_zh": "OpenAI 的共同創辦人兼總裁 Greg Brockman 在聯邦法院透露，他是該人工智慧實驗室最大的個人股東之一。這項信息出現在一項與 OpenAI 有關的訴訟中。雖然 Greg Brockman 沒有披露具體的股權比例，但他堅稱這些投資是他『血汗錢』的結果。這項投資的價值達 30 億美元，展現了 Greg Brockman 對 OpenAI 的信心。這項資訊也讓人們對 OpenAI 未來發展的前景產生了興趣。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "fa92af16",
-        "title": "馬斯克和SEC提議以 1.5 億美元和解推特訴訟",
-        "url": "https://www.ft.com/content/a760cb3e-b949-4120-b637-32e7464227cb",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-05-04 21:53:33",
-        "summary_zh": "馬斯克和美國證券交易委員會 (SEC) 提議和解因推特收購案而引發的訴訟，要求支付 1.5 億美元。這筆金額遠低於原先SEC要求的數字，該數字尚未披露。馬斯克在去年 10 月收購推特後，SEC 對推特收購案進行了調查，認為馬斯克未盡到披露義務。SEC 將會在未來幾天內對這項提議進行投票。這項和解將結束對馬斯克和推特的法律糾紛，讓馬斯克能夠專注於推特的運營和未來發展。這項和解對馬斯克和推特都有利，馬斯克將能夠避免長期的法律糾紛和法律費用，而推特將能夠專注於業務運營。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "0c98a19a",
-        "title": "南方航空考慮僱用Spirit航空維修工人 預計波音MAX 7抵達",
-        "url": "https://www.reuters.com/business/world-at-work/southwest-weighs-hiring-spirit-airlines-mechanics-ahead-boeing-max-7-arrival-2026-05-04/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-04 21:53:27",
-        "summary_zh": "南方航空正在考慮僱用Spirit航空的維修工人，以便於波音MAX 7的到來。這項決定是為了應對波音MAX 7的到來，南方航空需要額外的維修人員來維護新飛機。南方航空的這一舉動也表明了航空業對波音MAX 7的期待。波音MAX 7是一款新型的短程飛機，預計將大大提高航空業的效率和效能。南方航空的這一決定將對航空業的發展產生重要影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "3bc7d20a",
-        "title": "西太平洋銀行盈利低於預期，CEO警告中東風險",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-04/westpac-profit-misses-estimates-as-ceo-flags-mideast-risks",
+        "id": "3bbb1259",
+        "title": "Meta 選擇 Morgan Stanley 和 JPMorgan 為 El Paso 資料中心交易",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/meta-taps-morgan-stanley-jpmorgan-for-el-paso-data-center-deal",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-04 21:51:11",
-        "summary_zh": "西太平洋銀行最新財報顯示，該銀行的盈利低於投資者預期。根據財報數據，該銀行的盈利在三個月內下滑了 17%，遠低於投資者預期的 2.5%。此外，西太平洋銀行的CEO 表示，該銀行面臨著中東風險，包括伊朗和敘利亞等地區的不穩定情況。這些風險可能會對銀行的盈利造成影響。投資者對此感到擔憂，認為銀行的盈利將會繼續下滑。西太平洋銀行的股價也因此下跌了 2%。這表明投資者對銀行的盈利前景感到悲觀。",
-        "sentiment": "負面",
+        "published_at": "2026-05-04 22:56:00",
+        "summary_zh": "Meta 宣布與 Morgan Stanley 和 JPMorgan 合作，為 El Paso 資料中心交易提供金融服務。這項交易將為 Meta 的資料中心業務提供資金支持。Morgan Stanley 和 JPMorgan 將負責籌集資金和協調交易過程。這項交易將對 Meta 的資料中心業務產生重大影響，同時也將為 Morgan Stanley 和 JPMorgan 帶來新的業務機會。這項交易的具體細節尚未公開，但預計將在未來幾天內公佈。",
+        "sentiment": "中性",
         "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false
       },
       {
-        "id": "a7f4838f",
-        "title": "西敏集團推出新獎勵結構為銀行和財富業務推薦人員",
-        "url": "https://www.ft.com/content/bc930825-6d58-4794-b4a2-dc5e2439e330",
-        "source": "Financial Times",
+        "id": "c0fa51b2",
+        "title": "Grab 盈利超越預期，乘車和送餐需求堅韌",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/grab-earnings-top-estimates-on-resilient-ride-delivery-demand",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-04 21:47:16",
-        "summary_zh": "西敏集團近日宣布推出新獎勵結構，為銀行和財富業務推薦人員直接支付獎勵，而不是像以前一樣分享收入。這項改變旨在鼓勵員工為銀行和財富業務創造更多業務。根據新結構，員工將直接從銀行和財富業務的收入中獲得獎勵，而不是像以前一樣分享收入。這項改變將對銀行和財富業務的發展產生重大影響，預計將提高員工的工作效率和業務創造力。西敏集團的這一決定表明了對員工獎勵和激勵的重視，同時也展現了銀行和財富業務的發展前景。",
+        "published_at": "2026-05-04 22:40:37",
+        "summary_zh": "Grab 這家東南亞的超級應用程式公司，近期公布了其財務報告。根據報告，Grab 的盈利超越了投資者的預期，主要是因為乘車和送餐需求的堅韌。該公司的收入和盈利都遠遠超越了市場的預期，投資者對此感到滿意。 Grab 的財務報告顯示，該公司的收入和盈利都在增長，乘車和送餐業務的需求也在增加。該公司的管理層表示，未來將繼續投資於乘車和送餐業務的發展，期望未來業務能夠繼續茁壯。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
+      },
+      {
+        "id": "5cfc6d61",
+        "title": "ServiceNow 預計 2030 年達到 3000 億美元收入，AI 技術成長助力",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/servicenow-projects-sales-to-hit-30-billion-on-ai-now-assist-uplift",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-04 23:00:00",
+        "summary_zh": "ServiceNow 預計 2030 年達到 3000 億美元收入，主要是由於 AI 技術的提升。公司透露，AI 技術已經對業務產生了顯著的影響，幫助客戶提高效率和改善服務質量。這項預測表明，ServiceNow 正在利用 AI 技術來推動業務成長，同時也展現出公司對未來發展的信心。然而，這項預測也引發了對公司未來競爭力的關注，是否能夠在 AI 技術競爭激烈的市場中保持領先地位。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "0587e2b6",
+        "title": "亞洲股市料跌幅擴大　中東緊張局勢影響市場",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/asian-stocks-set-to-fall-as-gulf-tensions-lift-oil-markets-wrap",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-04 22:59:03",
+        "summary_zh": "亞洲股市料在中東緊張局勢的影響下，出現跌幅。近日，伊朗與沙烏地阿拉伯之間的緊張局勢持續升高，市場預期這將對全球能源市場產生重大影響。同時，美國與伊朗的關係也在惡化，美國對伊朗的制裁措施也在加強。這些因素都將對亞洲股市產生重大影響。分析師預測，亞洲股市將出現跌幅，尤其是能源股和金融股。這是因為中東緊張局勢將對全球能源市場產生重大影響，同時也將對金融市場產生影響。市場預期，亞洲股市將出現跌幅，尤其是在能源股和金融股方面。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "3d677e76",
@@ -540,8 +430,20 @@
         "published_at": "Tue, 05 May 2026 17:32:09 +0800",
         "summary_zh": "全球經濟正面臨嚴重衰退的風險，能源顧問公司Energy Aspect創辦人兼市場情報首長森恩警告說，投資人低估了油價上漲的影響。油價的飆漲可能會對全球經濟造成重大打擊，導致供應鏈混亂、企業營收下滑和失業率上升。森恩認為，投資人應該重新評估全球經濟的風險，並準備面對可能的衰退。這一警告來自於能源市場的波動，油價的飆漲可能會對全球經濟造成連鎖反應。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "fa92af16",
+        "title": "馬斯克和SEC提議以 1.5 億美元和解推特訴訟",
+        "url": "https://www.ft.com/content/a760cb3e-b949-4120-b637-32e7464227cb",
+        "source": "FT Tech",
+        "category": "finance",
+        "published_at": "Tue, 05 May 2026 01:03:44 GMT",
+        "summary_zh": "馬斯克和美國證券交易委員會 (SEC) 提議和解因推特收購案而引發的訴訟，要求支付 1.5 億美元。這筆金額遠低於原先SEC要求的數字，該數字尚未披露。馬斯克在去年 10 月收購推特後，SEC 對推特收購案進行了調查，認為馬斯克未盡到披露義務。SEC 將會在未來幾天內對這項提議進行投票。這項和解將結束對馬斯克和推特的法律糾紛，讓馬斯克能夠專注於推特的運營和未來發展。這項和解對馬斯克和推特都有利，馬斯克將能夠避免長期的法律糾紛和法律費用，而推特將能夠專注於業務運營。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "6ac32b11",
@@ -558,6 +460,66 @@
     ],
     "stock_tw": [
       {
+        "id": "5c5f8dcf",
+        "title": "SelectUSA新創競賽 台灣奪1金3銀1銅居全球之首",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5426533",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 05 May 2026 18:27:57 +0800",
+        "summary_zh": "經濟部中小及新創企業署宣布，中企署與技術司帶領37家台灣新創企業赴美參加2026年「選擇美國投資高峰會」新創競賽（SelectUSA Tech），獲得了傲人成績。根據競賽結果，台灣新創企業奪得1金3銀1銅的佳績，居全球之首。這項成績表明台灣新創企業在全球新創競賽中占有重要地位。經濟部中小及新創企業署表示，這項成績是台灣新創企業的光榮，也是台灣政府支持新創企業發展的成果。這項成績將為台灣新創企業帶來新的機會和挑戰，同時也將促進台灣與美國的經濟合作。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9e31c290",
+        "title": "新普四月營收年月雙增 MSCI ESG評級躍升至AA級",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5426532",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 05 May 2026 18:25:20 +0800",
+        "summary_zh": "新普電池模組大廠今日公告四月營收69.09億元，月增0.6%、年增4.4%。前四月累計營收為253.78億元，年增1.53%。公司表示，受惠筆電業務增溫，第二季度預期仍將保持穩健的營收成長。MSCI ESG評級最近躍升至AA級，表明公司在環境、社會和治理方面的表現得到國際認可。這項評級提升對新普的品牌形象和投資吸引力有著重要的影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b2c502dd",
+        "title": "聯邦銀認購逾4萬株康乃馨 母親節前力挺花農、送愛心",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5426520",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 05 May 2026 18:24:51 +0800",
+        "summary_zh": "母親節將至，今年暖冬氣候助攻，康乃馨植株生長穩定。為實踐企業的社會責任，聯邦銀行連續多年認購在地花卉，今年採購康乃馨逾4萬株，以實際行動力挺彰化花農。這項行動不僅支持當地農民的生計，也促進了環境保護和可持續發展。聯邦銀行的這一舉動被視為企業社會責任的典範，值得肯定。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2543f0d1",
+        "title": "藥華藥4月營收首破20億 ET藥證倒數計時",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5426530",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 05 May 2026 18:24:44 +0800",
+        "summary_zh": "藥華藥（6446）在5月公布4月合併營收達20.6億元，較去年同期增長68.35%，月增6.39%。這是藥華藥單月營收首度突破20億元，公司表示將持續改寫營運新里程碑。藥華藥自去年開始積極推動新藥開發，目前正處於快速成長階段。公司的營收增長主要是由於新藥的銷售收入增加。然而，藥華藥也面臨著競爭對手的挑戰，公司需要持續投資研發和市場推廣來維持競爭優勢。根據市場分析，藥華藥的未來發展前景仍然看好，公司的營收和股價都有望持續上升。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "489d7459",
+        "title": "保瑞子公司晨暉收購美國運動保健品公司WGN 躍升台灣前三大保健品公司",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5426504",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 05 May 2026 18:16:26 +0800",
+        "summary_zh": "保瑞藥業旗下子公司晨暉生技宣布收購美國運動保健品領導品牌Weider Global Nutrition（WGN），這一交易將大幅提升晨暉生技在全球保健品市場的競爭力。WGN是一家創立於美國亞利桑那州的公司，專門生產運動保健品，產品銷售遍及全球。晨暉生技董事會通過了100%收購WGN的決議，交易完成後，晨暉生技將成為全球保健品市場的一大力量。這一收購將使得保瑞藥業旗下子公司晨暉生技躍升為全球前三大保健品公司。這一交易對於晨暉生技和保瑞藥業來說都是重大突破，將為公司帶來新的發展機遇。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "c3e98180",
         "title": "友華生技攜手日商推動急性白血病創新療法上市",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5426461",
@@ -566,8 +528,8 @@
         "published_at": "Tue, 05 May 2026 17:54:04 +0800",
         "summary_zh": "友華生技宣布與日商橘生藥品工業公司正式簽署授權合約，取得用於治療急性骨髓性白血病的藥物。這項合作將推動創新療法的上市，為患者提供新的治療選擇。友華生技的這一舉動表明了公司的承諾於醫療領域的研發和推廣。這項合作將對於急性白血病的治療帶來新的希望。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "45b0e9bc",
@@ -578,8 +540,8 @@
         "published_at": "Tue, 05 May 2026 17:40:15 +0800",
         "summary_zh": "蘋果正在就與英特爾公司和三星電子合作生產處理器進行討論，目的是為公司提供長期合作夥伴台積電之外的第二個選擇。這一舉動將有助於蘋果減少對台積電供應鏈的依賴。這一變化將對全球晶片代工格局產生重大影響，可能會打破目前的市場格局。蘋果的這一決定可能會讓台積電面臨新的競爭壓力，同時也會給其他晶片製造商帶來新的商機。這一發展將對全球晶片產業產生重要影響，需要密切關注。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "e8799c24",
@@ -590,8 +552,8 @@
         "published_at": "Tue, 05 May 2026 17:32:57 +0800",
         "summary_zh": "羅麗芬-KY（6666）在中國消費市場低迷及營業天數不足的影響下，逐漸恢復。3月營收回升，表明公司正在走出困境。4月21日，羅麗芬-KY舉辦了全國性招商大會，疫情期間創下新高的參與人數，展現出公司的市場吸引力。這次招商大會不僅為公司帶來新的商機，也為投資者提供了可期望的業績預測。根據公司的表現，第2、3季的業績可期望改善。這一消息對羅麗芬-KY的股價可能會有正面的影響，投資者應該密切關注公司的發展。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "641d224a",
@@ -632,6 +594,18 @@
     ],
     "stock_us": [
       {
+        "id": "daa0b327",
+        "title": "華爾街觀望中東局勢最新發展 股市未見明顯波動",
+        "url": "https://www.cnbc.com/2026/05/04/stock-market-today-live-updates.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-04 22:04:28",
+        "summary_zh": "中東局勢緊張，美國與伊朗之間的暫時停火狀態受到了威脅，三大股指在週一下滑。美國股市三大股指在週一下滑，表明投資者對中東局勢的不確定性。美國與伊朗之間的停火狀態是由於伊朗擊落一架無人機後才達成的。投資者們關注中東局勢的發展，同時也關注石油價格的波動。石油價格的波動對全球經濟有著重要影響，因此投資者們對中東局勢的發展感到關注。目前，投資者們仍然觀望中東局勢的發展，未見明顯的波動。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "a764d953",
         "title": "盤後大幅波動股：帕拉提爾、Pinterest、杜林戈、Paramount Skydance 等",
         "url": "https://www.cnbc.com/2026/05/04/stocks-making-the-biggest-moves-after-hours-pltr-pins-duol-psky.html",
@@ -640,8 +614,8 @@
         "published_at": "2026-05-04 21:22:34",
         "summary_zh": "盤後股市大幅波動，帕拉提爾、Pinterest、杜林戈、Paramount Skydance 等股價出現明顯變動。帕拉提爾的股價在盤後大幅上漲，Pinterest 的股價則出現下跌。杜林戈的股價也出現波動，Paramount Skydance 的股價則在盤後大幅上漲。這些股價變動可能與公司的財務報告、業務發展或投資者對公司的看法有關。投資者應該密切關注這些股價變動，並根據自己的投資策略進行適當的調整。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "fd3ab6b7",
@@ -738,17 +712,163 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      }
+    ],
+    "whitehouse": [
+      {
+        "id": "c01e5666",
+        "title": "前紐約市長魯迪·朱利安尼正在康復，目前已經能獨自呼吸",
+        "url": "https://www.bbc.com/news/articles/cpvpnve1r24o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 04 May 2026 16:27:32 GMT",
+        "summary_zh": "前紐約市長魯迪·朱利安尼因患上肺炎而住院，目前仍處於危急狀態，但情況穩定。根據他的發言人表示，朱利安尼目前已經能獨自呼吸，這是他康復的一個重要里程碑。朱利安尼的健康狀況一直受到關注，外界期待著他能夠盡快康復。朱利安尼曾經在2008年競選美國總統，後來成為唐納·川普政府的顧問。他的健康狀況對於美國政治界有著重要影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
-        "id": "3b9ea76c",
-        "title": "伯克希爾分析師仍對公司股票持觀望態度，阿貝爾能如何改變他們的看法？",
-        "url": "https://www.cnbc.com/2026/05/04/berkshire-analysts-were-tepid-after-annual-meeting-what-abel-can-do-to-win-them.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-04 17:33:28",
-        "summary_zh": "在伯克希爾年度大會後，分析師對公司股票仍持觀望態度。CFRA分析師Catherine Seifert表示，投資者希望公司採取更積極的回購股票立場。這意味著阿貝爾需要做出一些改變，以滿足投資者的期望。分析師們對公司未來發展的看法將對公司股票價格產生重大影響。阿貝爾需要考慮如何增加回購股票的幅度，或者採取其他措施來滿足投資者的需求。這將是一個挑戰，但阿貝爾有機會改變分析師的看法並提高公司股票價格。",
+        "id": "0cbeed77",
+        "title": "俄亥俄州選民出動　拉馬斯瓦米爭取共和黨州長候選人提名",
+        "url": "https://www.theguardian.com/us-news/live/2026/may/05/donald-trump-iran-ohio-primary-vivek-ramaswamy-casey-putsch-marco-rubio-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 05 May 2026 10:43:59 GMT",
+        "summary_zh": "俄亥俄州州長選舉正熱鬧進行中，前共和黨總統候選人拉馬斯瓦米正努力鞏固自己的候選人地位。美國總統川普曾經支持拉馬斯瓦米，但他現在面臨著一場長途挑戰——由車輛設計師兼YouTube爆料人楓斯圖奇率領的對手。同時，美國總統川普威脅說，如果伊朗攻擊美國試圖重啟霍爾木茲海峽航道的船隻，伊朗將被「從地球上抹去」。美國軍方聲稱已經摧毀六艘伊朗小艇，拦截了伊朗的巡航導彈和無人機，但伊朗否認了這一點。美國軍方正在幫助數百艘被困在波斯灣的船隻和船員，同時把該地區推向了全面戰爭的邊緣。美國最高法院出手幫助路易斯安那州共和黨重畫國會選區圖，為今年的中期選舉做準備。這一程序出現的時間點剛好是在上週法院對路易斯安那州選區圖的審議結束不久後。美國司法部已經向美國最高法院提交了關於堪薩斯州選區圖的申請，要求最高法院暫時暫停堪薩斯州的選區圖重畫程序。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "984dbff2",
+        "title": "俄亥俄州選民前往投票選擇中期選舉候選人",
+        "url": "https://www.theguardian.com/us-news/2026/may/05/ohio-primary-elections",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 05 May 2026 10:30:26 GMT",
+        "summary_zh": "俄亥俄州將在今年11月中期選舉前選出候選人。該州被視為共和黨在總統唐納德·川普最後兩年的國會控制權是否能維持的關鍵州。俄亥俄州參議院特別選舉是這次選舉中最具國家影響力的選舉之一，民主黨候選人謝羅德·布朗與共和黨現任參議員瓊·休斯汀競選。謝羅德·布朗曾在2024年失落連任參議員，現在要爭取重回參議院。選舉結果將決定誰將擔任2022年由JD·范斯勝出的參議員職位的最後兩年任期。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "1e86d260",
+        "title": "第一時間：特朗普威脅要將伊朗「吹到地球上面」，霍爾木茲海峽緊張升級",
+        "url": "https://www.theguardian.com/us-news/2026/may/05/first-thing-tensions-rise-over-hormuz-as-trump-threatens-to-blow-iran-off-the-face-of-the-earth",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 05 May 2026 10:25:01 GMT",
+        "summary_zh": "霍爾木茲海峽的『自由計畫』啟動，將該地區推向全面戰爭的邊緣。同時，美國總統特朗普再次在波斯灣地區升高了牌面，宣布啟動『自由計畫』以打開霍爾木茲海峽的航道。目前超過800艘船隻和約20,000名船員仍然被困在該地區。美國中央司令部（Centcom）表示，兩艘美國旗幟的商船成功通過了海峽，但伊朗否認了這一說法。海運業專家對於特朗普的計畫是否能夠讓船隻安全地進出波斯灣表現出懷疑。這是一個正在發展中的故事，請參考我們的實時直播。這個計畫如何影響國會選舉的整體戰略？紅色州，包括阿拉巴馬州和田納西州，正在修改他們的國會選區地圖。週一，佛羅里達州州長羅恩·德桑蒂斯（Ron DeSantis）簽署了一個操縱選區地圖法案，為共和黨在11月的中期選舉中贏得四個額外的選區提供了選舉優勢。民主黨如何反擊？八名候選人已經加入了他們的名單，爭取在11月的中期選舉中重奪民主黨在眾議院多數席位。選民何時會前往投票？",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a1ac5a1c",
+        "title": "二戰美軍空勤人員遺骸終得安葬",
+        "url": "https://www.theguardian.com/us-news/2026/may/05/airman-missing-ww2-florida",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 05 May 2026 09:00:34 GMT",
+        "summary_zh": "二戰期間，美國海軍飛行員羅伯特·西爾·瓊斯（Robert Cyr Jr）於1944年1月22日乘坐水上飛機在南太平洋的瓦努阿圖共和國（現今的塞貢德水道）起飛時與同伴8人一起墜毀失蹤。經過多年的努力，美國海軍飛行員羅伯特·西爾·瓊斯的遺骸終於通過DNA鑑定確認身份，並於近期在佛羅里達州的克萊爾沃特（Clearwater）舉行了安葬儀式。這標誌著一場長達數十年的追尋之旅的結束。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "24c08804",
+        "title": "谷歌深度學習員工在英國投票成立工會　反對與美國軍方合作",
+        "url": "https://www.theguardian.com/us-news/2026/may/04/google-deepmind-uk-workers-union",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 05 May 2026 05:05:42 GMT",
+        "summary_zh": "谷歌深度學習的英國員工投票成立工會，部分原因是對於公司與美國軍方合作的協議表示擔憂。員工在一封信中指出，伊朗戰爭和美國國防部與 Anthropic 的糾紛是公司「不是一個負責任夥伴」的證據。谷歌深度學習的員工正在開發公司的人工智慧產品。這封信將於星期二發給管理層，內容將要求谷歌承認 Communication Workers Union 和 Unite the Union 作為該實驗室英國員工的共同代表。這項決定是出於對谷歌與美國軍方合作的協議感到擔憂。這項協議在上周公布。谷歌深度學習的員工正在開發公司的人工智慧產品。這項決定是出於對谷歌與美國軍方合作的協議感到擔憂。這項協議在上周公布。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "866ee8f3",
+        "title": "民主黨人表示「戰爭才剛剛開始」美國最高法院暫時恢復墮胎藥物存取權 – 直播",
+        "url": "https://www.theguardian.com/us-news/live/2026/may/04/donald-trump-white-house-correspondents-dinner-shooting-cole-allen-rudy-giuliani-hegseth-rubio-iran-us-politics-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 05 May 2026 01:59:36 GMT",
+        "summary_zh": "美國最高法院於週一發出暫時命令，恢復墮胎藥物米非司酮（mifepristone）通過郵寄方式存取。這是因為兩家生產米非司酮的公司於週六向法院提出緊急申請，要求暫停一項法院判決，判決要求在開具藥物前必須進行面對面檢查。美國民主黨人表示，這項暫時命令是「戰爭才剛剛開始」，表明這場爭議仍未結束。米非司酮是一種常見的墮胎藥物，美國最高法院的判決將對許多婦女的存取權造成重大影響。這項暫時命令將暫時恢復米非司酮的郵寄存取權，讓婦女可以繼續存取這種藥物。然而，這項命令仍未結束這場爭議，美國最高法院將繼續審理這項案件。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "871e28e0",
+        "title": "美國最高法院急速審理選舉權法案判決　讓路易斯安那州共和黨重畫選區圖",
+        "url": "https://www.theguardian.com/us-news/2026/may/04/supreme-court-expedites-voting-rights-act-ruling",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 05 May 2026 01:19:12 GMT",
+        "summary_zh": "美國最高法院在週一出手相助，讓路易斯安那州共和黨在今年中期選舉前重畫國會選區圖。這項程序是在法院上週對路易斯安那州國會選區圖進行裁決，同時削弱選舉權法案第 2 條後不久發生的。通常，法院會在 32 天後正式將判決發給下級法院。上週，路易斯安那州要求法院加速這個程序，指出該州需要儘快重畫國會選區圖。週一，法院同意了這項要求。最高法院的這一決定引起了批評，法院大法官凱坦吉·布朗·傑克遜表示，這項決定是有史以來僅有的第三次。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "284e1d29",
+        "title": "國會法案 S. 723 簽署成為法律",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/congressional-bill-s-723-signed-into-law/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 04 May 2026 23:31:22 +0000",
+        "summary_zh": "2026 年 5 月 4 日，總統簽署了 S. 723 法案，即《印地安人信托土地所有權法案 2025 年》，該法案將印地安事務局的信托或受限制印地安土地上的住宅和商業租賃權利持有人貸款的相關規定和截止日期正式化。這項法律旨在促進印地安人在信托土地上擁有房屋和商業資產的權利。這項法律的簽署標誌著對印地安人土地所有權的重大進步，同時也為印地安人提供了更多的經濟和社會機會。這項法律的實施將對印地安人社區產生深遠影響，促進他們的經濟和社會發展。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9d7a782b",
+        "title": "猶太美國人遺產月, 2026",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/jewish-american-heritage-month-2026/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 04 May 2026 23:06:14 +0000",
+        "summary_zh": "猶太美國人遺產月, 2026, 美國總統發表宣言, 表揚猶太美國人在美國250年歷史中所做出的無數貢獻, 并慶祝他們對美國優良價值的堅定承諾, 包括信仰、家庭和自由。 美國第一任總統喬治·華盛頓在1790年致函於羅德島希伯來會議, 表達了對猶太美國人的尊敬和歡迎。 這個月, 美國人將聚集一同, 回顧猶太美國人的歷史, 并慶祝他們對美國社會的貢獻。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cb4eeb1b",
+        "title": "美國250：總統致詞慶祝珊瑚海戰役戰勝紀念日",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/america-250-presidential-message-on-the-anniversary-of-the-battle-of-the-coral-sea/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 04 May 2026 22:23:03 +0000",
+        "summary_zh": "美國今天紀念珊瑚海戰役的84週年，致敬在太平洋戰爭中與法西斯主義作鬥爭的勇敢美國人和澳大利亞人。這場戰役是太平洋戰爭中的一個重要轉折點，美國和澳大利亞人民共同犧牲和勇氣，為兩國人民締造了永恆的友誼。這種友誼已經經歷了許多考驗，但仍然堅強不移。總統致詞慶祝這一重要日子，表達對這場戰役中犧牲的美國人和澳大利亞人的敬意和感謝。這場戰役的勝利標誌著美國和澳大利亞人民的團結和勇氣，為未來的和平和自由奠定了基礎。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4fa1a704",
+        "title": "川普總統慶祝小企業復甦週",
+        "url": "https://www.whitehouse.gov/releases/2026/05/president-trump-celebrates-small-business-revival-during-national-small-business-week/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 04 May 2026 17:35:22 +0000",
+        "summary_zh": "川普總統在美國小企業週期間，慶祝美國的小企業復甦。他表示，美國已經成為一座重建的國度，這是由於川普總統為美國小企業帶來的歷史性勝利。他還提到，美國正在慶祝250週年紀念日，這是自由和自由企業的重要里程碑。川普總統強調，美國政府致力於實現「美國優先」的政策，為美國小企業創造更多機會。這項政策旨在幫助美國小企業快速成長和發展，從而為美國經濟帶來新的活力。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cc818767",
+        "title": "亞伯達分離主義者提交獨立公投請願書",
+        "url": "https://www.bbc.com/news/articles/cx21kdz7wygo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 04 May 2026 23:27:47 GMT",
+        "summary_zh": "亞伯達分離主義者最近提交了一份獨立公投請願書，獲得足夠的簽名，足以觸發公投。然而，仍然存疑，亞伯達人是否會投票支持這個問題。這項請願書是由亞伯達分離主義運動的領導人提出的，他們主張亞伯達應該獨立於加拿大，並成為一個獨立的國家。這項請願書獲得了足夠的簽名，足以觸發公投，但仍然需要加拿大政府批准。加拿大政府是否會批准這項公投，仍然存疑。這項公投將會讓亞伯達人決定是否支持獨立，或者繼續留在加拿大。這項問題將會在未來的公投中被提出。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       }
     ]
