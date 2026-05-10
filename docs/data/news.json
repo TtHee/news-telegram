@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-11T06:14:18.497759+08:00",
+  "generated_at": "2026-05-11T07:12:51.975069+08:00",
   "risk_signals": [
     "🟢 台股加權 41603.94（正常）",
     "🟢 S&P 500 7398.93（正常）",
     "🟢 VIX 恐慌指數 17.19（正常）",
     "🟢 MOVE 債市波動 67.25（正常）",
-    "🟢 美元指數 98.07（正常）",
-    "🟢 黃金 4730.7（正常）",
+    "🟢 美元指數 98.03（正常）",
+    "🟢 黃金 4702.4（正常）",
     "🟢 美債10Y殖利率 4.36（正常）",
-    "🟢 原油 WTI 95.42（正常）",
+    "🟡 原油 WTI 98.39（漲 +3.11%，留意）",
     "🟢 美元/台幣 31.3（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，多個指標維持正常水平，股市表現一般，美元指數略微下跌，但整體來說仍然保持穩定態勢。",
+  "ai_summary": "市場氛圍穩定，多個指標維持正常水平，原油價格小幅上漲，留意市場對能源的反應。",
   "market": {
     "TWII": {
       "price": 41603.94,
@@ -38,16 +38,16 @@
       "change_pct": -6.91
     },
     "DXY": {
-      "price": 98.07,
-      "change_pct": 0.24
+      "price": 98.03,
+      "change_pct": 0.2
     },
     "GOLD": {
-      "price": 4730.7,
-      "change_pct": 0.22
+      "price": 4702.4,
+      "change_pct": -0.38
     },
     "OIL": {
-      "price": 95.42,
-      "change_pct": 0.0
+      "price": 98.39,
+      "change_pct": 3.11
     },
     "USDTWD": {
       "price": 31.3,
@@ -78,20 +78,8 @@
         "published_at": "Sun, 10 May 2026 19:56:45 GMT",
         "summary_zh": "在西岸，聯合國人權辦公室譴責一宗事件，稱其為「令人髮指且象徵著巴勒斯坦人被人道主義剝奪的典型案例」。事件發生在一名巴勒斯坦男子，他的父親剛剛下葬，卻被西岸定居者強迫挖掘屍體。這種行為被視為對巴勒斯坦人的不尊嚴和不人道的對待。聯合國人權辦公室強調，這種行為是對巴勒斯坦人權利的嚴重侵犯，需要受到懲罰和懲戒。事件的發生引起了國際社會的關注和譴責，各界呼籲應該保護巴勒斯坦人的權利和尊嚴。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "224a6b5a",
-        "title": "全球週報：原油外交陰影籠罩特朗普-習近平峰會",
-        "url": "https://www.cnbc.com/2026/05/10/global-week-ahead-crude-diplomacy-casts-shadow-over-trump-xi-summit.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-05-10 09:07:12",
-        "summary_zh": "在五月份的北京峰會前夕，中國和美國之間的能源動態發生了變化。中國正在悄悄地進行一場力量博弈，積極儲備戰略石油儲備。這種行動可能會對特朗普-習近平峰會產生重大影響。這種動態變化可能會使美國感到不安，進一步加劇兩國之間的緊張關係。這種情況下，美國可能會採取更為強硬的態度，試圖與中國競爭石油儲備。這種競爭可能會對全球能源市場產生重大影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "377be99f",
@@ -103,6 +91,18 @@
         "summary_zh": "一艘船在佛羅里達州南部的著名海港發生爆炸，造成11人受傷。當局正在調查爆炸的原因。這起事故發生在一座著名的海港，該海港吸引了許多游客。爆炸發生後，當局立即展開救援工作，將受傷人員送往醫院。目前尚未公布爆炸的原因，但當局已經展開調查，試圖找出事故的根源。這起事故對當地的游客和居民造成了影響，當局正在盡力降低風險，確保安全。",
         "sentiment": "中性",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "224a6b5a",
+        "title": "全球週報：原油外交陰影籠罩特朗普-習近平峰會",
+        "url": "https://www.cnbc.com/2026/05/10/global-week-ahead-crude-diplomacy-casts-shadow-over-trump-xi-summit.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-05-10 09:07:12",
+        "summary_zh": "在五月份的北京峰會前夕，中國和美國之間的能源動態發生了變化。中國正在悄悄地進行一場力量博弈，積極儲備戰略石油儲備。這種行動可能會對特朗普-習近平峰會產生重大影響。這種動態變化可能會使美國感到不安，進一步加劇兩國之間的緊張關係。這種情況下，美國可能會採取更為強硬的態度，試圖與中國競爭石油儲備。這種競爭可能會對全球能源市場產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -126,8 +126,20 @@
         "published_at": "Sun, 10 May 2026 21:01:17 GMT",
         "summary_zh": "伊朗反對派人士在德黑蘭表示，她們感到無助和壓力山大。伊朗反對派人士面臨著嚴厲的鎮壓，許多人被捕、被拘留或被驅逐出境。伊朗政府對反對派的鎮壓已經持續了數十年，導致許多人受到心理創傷。近年來，伊朗政府與美國的緊張關係加劇，戰爭威脅日益升高，對伊朗反對派人士的壓力更加加劇。伊朗反對派人士認為，伊朗政府的鎮壓和戰爭威脅是對其人權的嚴重侵犯。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a16b5e78",
+        "title": "史達康抗議十年後：南達科他州新石油管線面臨新爭議",
+        "url": "https://www.theguardian.com/us-news/2026/may/10/south-dakota-sioux-oil-pipeline",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 10 May 2026 16:00:29 GMT",
+        "summary_zh": "近十年前，史達康抗議運動在南達科他州達科他油管線事件中引起了全國和國際的關注。最近，一個環境組織和一個美洲原住民促進組織向美國林務局提起訴訟，指控一項探勘石墨鑽探項目在國家森林土地上威脅了一個認可的儀式場所——佩斯拉山草原，也就是雷諾茲草原。這些抗議者認為，這項鑽探項目對當地原住民權益構成威脅。這項訴訟標誌著南達科他州原住民權益的新爭議，與十年前的史達康抗議運動有相似之處。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "d39d55b4",
@@ -178,16 +190,16 @@
         "ai_classified": true
       },
       {
-        "id": "a16b5e78",
-        "title": "史達康抗議十年後：南達科他州新石油管線面臨新爭議",
-        "url": "https://www.theguardian.com/us-news/2026/may/10/south-dakota-sioux-oil-pipeline",
-        "source": "Guardian US",
+        "id": "5931d1cf",
+        "title": "澳洲右翼政黨「一國黨」歷史性勝選",
+        "url": "https://www.bbc.com/news/articles/cwy2e4z4npro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "global",
-        "published_at": "Sun, 10 May 2026 16:00:29 GMT",
-        "summary_zh": "近十年前，史達康抗議運動在南達科他州達科他油管線事件中引起了全國和國際的關注。最近，一個環境組織和一個美洲原住民促進組織向美國林務局提起訴訟，指控一項探勘石墨鑽探項目在國家森林土地上威脅了一個認可的儀式場所——佩斯拉山草原，也就是雷諾茲草原。這些抗議者認為，這項鑽探項目對當地原住民權益構成威脅。這項訴訟標誌著南達科他州原住民權益的新爭議，與十年前的史達康抗議運動有相似之處。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "published_at": "Sun, 10 May 2026 14:37:16 GMT",
+        "summary_zh": "澳洲右翼政黨「一國黨」在一次補選中贏得了下議院的第一個席位，這被視為民粹主義政黨的關鍵考驗。這次補選被視為對澳洲政治格局的重大影響，可能會對該國政治走向產生重大變化。雖然「一國黨」在過去的選舉中一直未能取得重大成就，但這次補選的勝利卻表明該黨在澳洲政治舞台上逐漸崛起。這可能會對澳洲政府的政策和決策產生重大影響，特別是在經濟、移民和安全等領域。然而，這也引發了對該黨極端立場和種族主義言論的擔憂。澳洲人民將密切關注「一國黨」的未來發展和對該國政治的影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "14e70459",
@@ -199,30 +211,6 @@
         "summary_zh": "一部名為《維多利亞·雷吉亞》的電影，描繪了一個2025年的巴西，右派政變成功，美國幫助下，巴西民主制度被摧毀，總統被暗殺，國會被關閉，雨林和其豐富資源被美國佔領。電影中，北美士兵帶領記者們參觀一座油 refinery，宣傳美國對巴西雨林的統治。附近，美國自由女神像的複製品被刻在荒野上，象徵著美國對巴西半數領土的領導。這部電影也強調了印地安人面臨的威脅，包括土地被佔領、文化被破壞和生態系統被破壞。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a86c559e",
-        "title": "加拿大三十年來軍隊招募人數最大增長",
-        "url": "https://www.bbc.com/news/articles/crrpd1pvgkzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Sat, 09 May 2026 23:00:55 GMT",
-        "summary_zh": "加拿大近年來一直面臨軍事能力落後的問題，但近期卻出現了軍隊招募人數的最大增長，超過三十年來的任何時期。這種轉變令人關注，軍方正在努力吸引更多人才加入軍隊。根據最新數據，軍隊招募人數已經超過了預期，軍方正在努力滿足需求。這種增長對加拿大的軍事能力和安全形勢都有重要影響。軍方正在努力吸引更多年輕人加入軍隊，為國家提供更好的安全保障。這種轉變也反映了加拿大民眾對軍事能力的重視。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "831af036",
-        "title": "印度模特兒在梅特加拉大典的低調亮相再度引發文化代表性爭議",
-        "url": "https://www.bbc.com/news/articles/cre13zeql51o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Sat, 09 May 2026 23:08:35 GMT",
-        "summary_zh": "印度模特兒Bhavitha Mandava在梅特加拉大典的低調亮相，引發了對她的關注，也再度引發了文化代表性的爭議。梅特加拉大典是一個全球頂級時尚盛事，吸引了各界名流參與。Bhavitha Mandava的亮相被視為一個重要的里程碑，展現了印度文化在全球時尚界的重要性。然而，這也引發了對文化代表性的爭議，許多人認為梅特加拉大典仍然缺乏代表性，尤其是在亞洲和非洲文化方面。這次的亮相再度提醒我們，文化代表性仍然是一個重要的議題，需要持續關注和推動。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       }
     ],
@@ -413,7 +401,7 @@
         "url": "https://ec.ltn.com.tw/article/breakingnews/5432391",
         "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Sun, 10 May 2026 22:37:04 +0800",
+        "published_at": "Mon, 11 May 2026 06:31:04 +0800",
         "summary_zh": "日本長者在經歷泡沫經濟破裂、亞洲金融風暴和雷曼兄弟倒閉後，仍有25%擁有2000萬日圓（約台幣600萬）的資產。曾任職日本金融機構的椿慧理指出，這些長者在工作時期的積蓄和投資策略是他們能夠撐過經濟風暴的關鍵原因。椿慧理表示，日本長者在工作時期的積蓄通常來自於固定收入的儲蓄，例如退休金和年金。同時，他們也會投資於低風險的資產，如政府債券和股票。這些長者在經歷經濟風暴後，仍然能夠保持穩定的收入和資產，讓他們能夠在晚年生活得更舒適。",
         "sentiment": "正面",
         "is_breaking": true,
@@ -466,32 +454,20 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "fd5be9e0",
-        "title": "2026年最耀眼明星不是輝達、英特爾 外媒指出",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5432260",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 10 May 2026 18:42:54 +0800",
-        "summary_zh": "在人工智慧熱潮中，各大晶片巨頭股價表現備受矚目。輝達和英特爾在近期都表現出色，但外媒The Motley Fool指出，2026年最耀眼的明星可能不是這兩家公司。台積電的股價漲勢凌厲，外媒認為它可能是未來晶片領域的領導者。台積電的強大財力和技術優勢使得它能夠在全球市場上佔據重要地位。外媒還提到，台積電的業務範圍不僅限於晶片生產，它還在人工智慧、5G等領域有著重要的布局。這使得它成為未來晶片領域的重要參與者。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "e95195c8",
-        "title": "阿曼尼可能分拆股份出售，為威爾而行，共和派報紙說",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/armani-may-split-stake-for-sale-to-follow-will-repubblica-says",
-        "source": "Bloomberg",
+        "id": "f93ba392",
+        "title": "英國工黨領袖斯塔默稱政府是十年計畫，儘管有人要求他辭職",
+        "url": "https://www.reuters.com/world/uk/uks-starmer-says-his-government-is-ten-year-project-despite-calls-quit-2026-05-10/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-05-10 08:07:19",
-        "summary_zh": "意大利時尚品牌阿曼尼可能會分拆股份出售，為其創辦人威爾·阿曼尼的兒子繼承權做準備。根據共和派報紙的報導，阿曼尼家族正在考慮出售公司的一部分股份，以便讓威爾·阿曼尼的兒子能夠繼承公司的控制權。這一消息可能會對阿曼尼品牌的未來發展產生重大影響。阿曼尼品牌是全球知名的時尚品牌，擁有豐富的歷史和文化遺產。威爾·阿曼尼的兒子繼承公司的控制權後，可能會對公司的發展方向和策略產生重大影響。這一消息也可能會對阿曼尼品牌的股價產生影響。",
+        "published_at": "2026-05-10 10:51:12",
+        "summary_zh": "英國工黨領袖基思·斯塔默（Keir Starmer）表示，他領導的政府是十年計畫，需要時間來實現。儘管面臨著不斷的批評和要求辭職的壓力，但斯塔默堅持自己的立場。他認為，政府需要時間來處理經濟、教育和健康等問題。斯塔默的十年計畫包括推動經濟發展、改善教育質量和提高健康水平。他還表示，政府需要與民眾合作，聽取他們的意見和建議。斯塔默的計畫受到一些人的支持，但也有很多人質疑政府的表現。這些批評者認為，政府應該更快地實現承諾。斯塔默的政府面臨著挑戰，但他仍然堅持自己的路線。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "a3dbf6e9",
@@ -503,6 +479,18 @@
         "summary_zh": "中東戰爭引發原油價格大幅上漲，沙烏地阿拉伯國營石油公司沙烏地阿美（Saudi Aramco）在原油銷售增加和價格上漲的帶動下，今年第1季淨利較去年同期增長逾25%。這是由於戰事的爆發，導致原油需求增加，從而推升油價。沙烏地阿美的這一成績表明，公司在戰爭背景下仍然能夠保持穩定的財務表現。然而，這也意味著戰爭對全球經濟的影響可能會更加深遠。未來，油價的波動將是關注的焦點。",
         "sentiment": "中性",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e95195c8",
+        "title": "阿曼尼可能分拆股份出售，為威爾而行，共和派報紙說",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/armani-may-split-stake-for-sale-to-follow-will-repubblica-says",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-10 08:07:19",
+        "summary_zh": "意大利時尚品牌阿曼尼可能會分拆股份出售，為其創辦人威爾·阿曼尼的兒子繼承權做準備。根據共和派報紙的報導，阿曼尼家族正在考慮出售公司的一部分股份，以便讓威爾·阿曼尼的兒子能夠繼承公司的控制權。這一消息可能會對阿曼尼品牌的未來發展產生重大影響。阿曼尼品牌是全球知名的時尚品牌，擁有豐富的歷史和文化遺產。威爾·阿曼尼的兒子繼承公司的控制權後，可能會對公司的發展方向和策略產生重大影響。這一消息也可能會對阿曼尼品牌的股價產生影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -590,18 +578,6 @@
         "ai_classified": true
       },
       {
-        "id": "5f5a8b45",
-        "title": "非洲首富丹戎眼中肯雅為新煉油廠",
-        "url": "https://www.reuters.com/world/africa/africas-richest-man-dangote-eyes-kenya-new-refinery-ft-reports-2026-05-10/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-10 04:21:35",
-        "summary_zh": "非洲首富丹戎計劃在肯雅建立新的煉油廠，該消息由金融時報報導。丹戎的企業阿拉伯石油公司（Arabian Oil Company）已經在肯雅投資了多年，該公司的業務範圍包括石油和天然氣的開發、生產和銷售。新煉油廠的建設將會讓肯雅的石油產業獲得重大提升，同時也會為肯雅帶來新的就業機會。這項投資將會對肯雅的經濟發展產生重要影響，同時也會增強肯雅與其他國家的經濟合作。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "aae0e08e",
         "title": "銀行與加密貨幣支持者爭執 美國參議員將推動數位資產法案",
         "url": "https://www.bloomberg.com/news/articles/2026-05-09/banks-and-crypto-backers-tussle-as-senators-eye-stablecoin-bill",
@@ -616,40 +592,16 @@
     ],
     "whitehouse": [
       {
-        "id": "3c379570",
-        "title": "美國士兵失蹤身體在摩洛哥海岸被發現",
-        "url": "https://www.theguardian.com/us-news/2026/may/10/missing-soldier-body-recovered-morocco",
+        "id": "15eaa45e",
+        "title": "美國交通安全機構考慮調查前線航空致命事故",
+        "url": "https://www.theguardian.com/us-news/2026/may/10/frontier-airlines-denver-transportation-safety",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Sun, 10 May 2026 20:44:36 GMT",
-        "summary_zh": "美國士兵1st Lt Kendrick Lamont Key Jr 在摩洛哥參與美軍與北約盟國及非洲國家的大規模軍事演習中失蹤。美國軍方於週日宣布，摩洛哥搜索隊在2日失蹤士兵下落不明的海岸附近發現了他的遺體。遺體被發現在2日士兵失蹤的海岸附近約1英里處的水中。這名士兵是在5月2日參與軍事演習時失蹤的。",
+        "published_at": "Sun, 10 May 2026 17:47:51 GMT",
+        "summary_zh": "美國交通安全機構（NTSB）正在收集資料關於前線航空一架飛機在離開丹佛國際機場時擊毀跑道上的一人致死的事件。該飛機從丹佛飛往洛杉磯國際機場，飛機在啟動起飛時報告擊毀了一名行人，事件發生在周五晚上約 11:19 pm。受影響者的身份尚未公開。NTSB 表示正在收集資料，了解該事件的具體情況。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
-      },
-      {
-        "id": "b25edd82",
-        "title": "總統致母親節賀詞",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-mothers-day/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Sun, 10 May 2026 14:35:53 +0000",
-        "summary_zh": "今天是母親節，美國總統致賀詞表示，250年來，美國的母親們一直是家庭的力量，培養了無數忠誠的美國人，並傳承了推動國家走向偉大的事業。這些母親們的無條件愛，讓我們在人生各個階段都能夠找到依靠。許多人成長的經歷都是從母親的榜樣開始的。總統在賀詞中表達了對母親們的感謝和敬意。母親節是為了慶祝這些對我們的愛和付出。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "acc1e2cc",
-        "title": "美國250：總統對於拿下提康德羅加堡的周年紀念致辭",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/america-250-presidential-message-on-the-anniversary-of-the-capture-of-fort-ticonderoga/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Sun, 10 May 2026 14:33:45 +0000",
-        "summary_zh": "美國250周年紀念日，總統發表致辭，紀念1775年5月10日美國民兵突襲拿下提康德羅加堡，取得美國獨立戰爭的首場勝利。這次勝利證明了自由的力量可以戰勝最強大的帝國。這標誌著美國獨立戰爭的開始，展現了美國民兵的勇氣和決心。這次勝利對美國獨立戰爭的發展產生了重大影響，為美國未來的獨立奠定了基礎。今天，美國仍然致力於捍衛自由和民主的價值，繼承了這段歷史的精神。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
       },
       {
         "id": "14106804",
@@ -696,6 +648,54 @@
         "published_at": "Sun, 10 May 2026 13:00:27 GMT",
         "summary_zh": "美國政府宣布數百個嬰兒配方樣本經過毒性化學物質檢測後，達到高安全標準。但健康倡導者卻警告這個主張與數據相矛盾。根據獨立科學家對結果的評估，大多數樣本都被發現含有有害物質，如PFAS或苯甲酸酯。這些科學家表示，數據缺口和污染問題引起了關注，但同時也讚揚了美國食品藥物管理局擴大檢測計劃並公開結果。",
         "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d3bbb7a5",
+        "title": "川普政府在預防過量中自相矛盾",
+        "url": "https://www.theguardian.com/us-news/2026/may/10/trump-administration-overdose-prevention-policies",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 10 May 2026 12:00:25 GMT",
+        "summary_zh": "川普政府近期提出多項與預防過量相關的政策，卻又互相矛盾。有些政策可能有助於挽救生命，而其他政策則可能會使健康資源更加緊張，甚至使人們更容易出現過量。這些政策包括禁止購買芬太尼檢測條的新規定、削減預算以削弱國家的過量預防努力，以及一項雄心勃勃的藥物控制策略。如果前述削減預算通過，這項策略將難以實施。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "3c379570",
+        "title": "美國士兵失蹤身體在摩洛哥海岸被發現",
+        "url": "https://www.theguardian.com/us-news/2026/may/10/missing-soldier-body-recovered-morocco",
+        "source": "Guardian World",
+        "category": "whitehouse",
+        "published_at": "Sun, 10 May 2026 20:44:36 GMT",
+        "summary_zh": "美國士兵1st Lt Kendrick Lamont Key Jr 在摩洛哥參與美軍與北約盟國及非洲國家的大規模軍事演習中失蹤。美國軍方於週日宣布，摩洛哥搜索隊在2日失蹤士兵下落不明的海岸附近發現了他的遺體。遺體被發現在2日士兵失蹤的海岸附近約1英里處的水中。這名士兵是在5月2日參與軍事演習時失蹤的。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b25edd82",
+        "title": "總統致母親節賀詞",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-mothers-day/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Sun, 10 May 2026 14:35:53 +0000",
+        "summary_zh": "今天是母親節，美國總統致賀詞表示，250年來，美國的母親們一直是家庭的力量，培養了無數忠誠的美國人，並傳承了推動國家走向偉大的事業。這些母親們的無條件愛，讓我們在人生各個階段都能夠找到依靠。許多人成長的經歷都是從母親的榜樣開始的。總統在賀詞中表達了對母親們的感謝和敬意。母親節是為了慶祝這些對我們的愛和付出。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "acc1e2cc",
+        "title": "美國250：總統對於拿下提康德羅加堡的周年紀念致辭",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/america-250-presidential-message-on-the-anniversary-of-the-capture-of-fort-ticonderoga/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Sun, 10 May 2026 14:33:45 +0000",
+        "summary_zh": "美國250周年紀念日，總統發表致辭，紀念1775年5月10日美國民兵突襲拿下提康德羅加堡，取得美國獨立戰爭的首場勝利。這次勝利證明了自由的力量可以戰勝最強大的帝國。這標誌著美國獨立戰爭的開始，展現了美國民兵的勇氣和決心。這次勝利對美國獨立戰爭的發展產生了重大影響，為美國未來的獨立奠定了基礎。今天，美國仍然致力於捍衛自由和民主的價值，繼承了這段歷史的精神。",
+        "sentiment": "正面",
         "is_breaking": true,
         "ai_classified": true
       }
