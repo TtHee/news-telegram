@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-11T16:04:04.765902+08:00",
+  "generated_at": "2026-05-11T17:04:04.157420+08:00",
   "risk_signals": [
     "🟢 台股加權 41790.06（正常）",
     "🟢 S&P 500 7398.93（正常）",
-    "🟢 VIX 恐慌指數 18.21（正常）",
+    "🟢 VIX 恐慌指數 18.16（正常）",
     "🟢 MOVE 債市波動 67.25（正常）",
-    "🟢 美元指數 97.99（正常）",
-    "🟢 黃金 4678.0（正常）",
+    "🟢 美元指數 97.97（正常）",
+    "🟢 黃金 4675.8（正常）",
     "🟢 美債10Y殖利率 4.36（正常）",
-    "🟡 原油 WTI 98.87（漲 +3.62%，留意）",
-    "🟢 美元/台幣 31.38（正常）"
+    "🟢 原油 WTI 97.59（正常）",
+    "🟢 美元/台幣 31.39（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，多個指標處於正常水平，但原油價格上漲，留意全球經濟復甦對能源市場的影響。",
+  "ai_summary": "市場氛圍偏於穩定，多個指標回歸正常水平，表明投資人對市場風險的評估趨於理性。目前市場的上漲趨勢持續，投資人對未來的期待逐漸增強。",
   "market": {
     "TWII": {
       "price": 41790.06,
@@ -26,8 +26,8 @@
       "change_pct": 1.71
     },
     "VIX": {
-      "price": 18.21,
-      "change_pct": 5.93
+      "price": 18.16,
+      "change_pct": 5.64
     },
     "TNX": {
       "price": 4.36,
@@ -38,24 +38,524 @@
       "change_pct": -6.91
     },
     "DXY": {
-      "price": 97.99,
-      "change_pct": 0.15
+      "price": 97.97,
+      "change_pct": 0.13
     },
     "GOLD": {
-      "price": 4678.0,
-      "change_pct": -0.9
+      "price": 4675.8,
+      "change_pct": -0.94
     },
     "OIL": {
-      "price": 98.87,
-      "change_pct": 3.62
+      "price": 97.59,
+      "change_pct": 2.27
     },
     "USDTWD": {
-      "price": 31.38,
-      "change_pct": -0.04
+      "price": 31.39,
+      "change_pct": -0.01
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "7d33dd63",
+        "title": "美國回國飛機上一名乘客疑似感染黑死病毒",
+        "url": "https://www.bbc.com/news/articles/cjep78l5835o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 08:22:08 GMT",
+        "summary_zh": "美國政府正在安排 17 名美國公民回國，期間發現其中一名乘客疑似感染黑死病毒。根據美國衛生部的報告，這名乘客的症狀相對輕微。黑死病毒是一種由黑死老鼠傳播的疾病，通常會導致嚴重的肺部感染和出血性疾病。美國衛生部正在密切監測這名乘客的健康狀況，並正在與當地當局合作進行追蹤和控制工作。這一事件引起了對公共衛生和旅行安全的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4158dc4d",
+        "title": "伊朗警告美國制裁將導致嚴重後果",
+        "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 01:55:13 GMT",
+        "summary_zh": "伊朗發出警告，指出遵守美國制裁將導致嚴重後果。這一警告發生在一艘商船在卡塔爾附近被擊中之際，聯合阿拉伯酋長國（UAE）和科威特也報告了無人機攻擊事件。伊朗的警告顯示，該國對美國制裁的反應日漸強烈。這一事件也引發了對中東地區安全局勢的擔憂。美國制裁對伊朗的經濟和政治影響已經很大，而伊朗的警告表明，該國不打算輕易屈服。這一局勢的發展將對全球能源市場和政治格局產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "baa6e3f9",
+        "title": "美國對台防衛預算縮減感到失望，官員表示",
+        "url": "https://www.reuters.com/business/finance/us-disappointed-taiwans-smaller-defense-budget-official-says-2026-05-10/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-05-10 20:29:17",
+        "summary_zh": "美國對台防衛預算縮減感到失望，美國官員表示，美國對台防衛預算縮減感到失望。台北方面表示，今年的防衛預算將比去年增加 10%，並將專注於現代化和高科技裝備的購買。美國官員認為，台北的預算增幅不夠大，不能有效應對中共的威脅。美國官員表示，美國將繼續與台北合作，提供軍事援助和技術支持，以幫助台北增強其防衛能力。這一消息出現於美國官員的訪問中，表明美國對台防衛預算的關注。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "4d70d360",
+        "title": "他父親剛剛下葬，西岸定居者卻強迫他挖掘屍體",
+        "url": "https://www.bbc.com/news/articles/cjrpnjpl39po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 10 May 2026 19:56:45 GMT",
+        "summary_zh": "在西岸，聯合國人權辦公室譴責一宗事件，稱其為「令人髮指且象徵著巴勒斯坦人被人道主義剝奪的典型案例」。事件發生在一名巴勒斯坦男子，他的父親剛剛下葬，卻被西岸定居者強迫挖掘屍體。這種行為被視為對巴勒斯坦人的不尊嚴和不人道的對待。聯合國人權辦公室強調，這種行為是對巴勒斯坦人權利的嚴重侵犯，需要受到懲罰和懲戒。事件的發生引起了國際社會的關注和譴責，各界呼籲應該保護巴勒斯坦人的權利和尊嚴。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "60645d03",
+        "title": "內維亞特諾說伊朗戰爭「還未結束」　川普拒絕最新的伊朗提議",
+        "url": "https://www.cnbc.com/2026/05/10/netanyahu-says-iran-war-is-not-over-as-peace-deal-remains-elusive.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-05-10 20:28:55",
+        "summary_zh": "伊朗戰爭持續了將近兩個月，導致全球石油和天然氣價格大幅上漲。伊朗戰爭的持續時間已經超過一個月，對全球石油和天然氣價格造成了重大影響。美國總統川普最近拒絕了伊朗的最新提議，這使得戰爭的局勢更加複雜。伊朗戰爭的持續時間和影響已經超出了預期，對全球經濟和政治產生了重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "e4c80c76",
+        "title": "法國人在回國後出現病徵，疑似感染黑死病毒",
+        "url": "https://www.bbc.com/news/articles/c3r2p70jdy7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 03:29:58 GMT",
+        "summary_zh": "法國一艘名為MV Hondius的郵輪因黑死病毒爆發而被困在南極。法國總理宣布，該郵輪五名乘客將被隔離在巴黎，直到進一步通知。黑死病毒是一種由黑死病毒科黑死病毒屬的病毒引起的疾病，主要影響小動物，但也可能感染人類。法國政府已經採取措施防止病毒傳播，包括隔離感染者和接觸者。這一事件引發了對黑死病毒的關注和恐懼，法國政府將密切監控疫情發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "5cc93c5a",
+        "title": "伊朗諾貝爾獎得主病情惡化獲准保釋並轉院治療",
+        "url": "https://www.bbc.com/news/articles/c1j257w87neo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 00:40:45 GMT",
+        "summary_zh": "伊朗當局在對人權活動家納吉斯·莫哈末迪 (Narges Mohammadi) 的健康狀況惡化而引起擔憂的情況下，批准她保釋。莫哈末迪曾獲得諾貝爾和平獎的提名，目前被伊朗當局關押。伊朗當局的決定被視為對她的健康狀況表示關注的一個步驟。然而，人權組織仍對她的處境表示擔憂，擔心她可能面臨不公平的對待。莫哈末迪的病情惡化引起了國際社會的關注，許多人呼籲伊朗當局釋放她並讓她接受適當的醫療照護。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a8a16e93",
+        "title": "川普關注伊朗核問題：願意進入伊朗確保核材料安全",
+        "url": "https://www.theguardian.com/us-news/2026/may/11/donald-trump-news-at-a-glance-latest-updates-today",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 10 May 2026 23:45:24 GMT",
+        "summary_zh": "伊朗表示已回應美國和平提議，但伊朗內戰的停火狀態卻日益脆弱。以色列總理內塔尼亞胡表示，與伊朗的戰爭將持續進行，直到伊朗的高濃縮鈾儲備被清除。內塔尼亞胡在CBS節目60分鐘中表示，伊朗仍然擁有足夠的高濃縮鈾來製造核武器，因此戰爭尚未結束。他強調，伊朗仍然需要清除儲存的高濃縮鈾，並關閉 enrichment sites。這一說法與川普的立場相吻合，川普表示願意進入伊朗確保核材料的安全。伊朗內戰的停火狀態已經受到嚴重影響，雙方的關係日益緊張。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9cb37b0e",
+        "title": "泰國前總理施米的出獄，但是施米時代是否結束?",
+        "url": "https://www.bbc.com/news/articles/c99l1590kr0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 03:41:34 GMT",
+        "summary_zh": "泰國前總理施米出獄後，泰國政治仍然充滿不確定性。施米曾經在2006年被推翻，之後他在國外生活多年。雖然他出獄後仍然在政治舞台上扮演重要角色，但泰國政府仍然對他有所限制。施米的出獄可能是泰國政治的轉捩點，但仍然有很多不確定性。泰國政治的未來將取決於施米的下一步行動。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "378a3e36",
+        "title": "伊朗反對派人士告訴BBC，戰爭威脅加劇了鎮壓的創傷",
+        "url": "https://www.bbc.com/news/articles/c1m2ee3jxvro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 10 May 2026 21:01:17 GMT",
+        "summary_zh": "伊朗反對派人士在德黑蘭表示，她們感到無助和壓力山大。伊朗反對派人士面臨著嚴厲的鎮壓，許多人被捕、被拘留或被驅逐出境。伊朗政府對反對派的鎮壓已經持續了數十年，導致許多人受到心理創傷。近年來，伊朗政府與美國的緊張關係加劇，戰爭威脅日益升高，對伊朗反對派人士的壓力更加加劇。伊朗反對派人士認為，伊朗政府的鎮壓和戰爭威脅是對其人權的嚴重侵犯。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a16b5e78",
+        "title": "史達康抗議十年後：南達科他州新石油管線面臨新爭議",
+        "url": "https://www.theguardian.com/us-news/2026/may/10/south-dakota-sioux-oil-pipeline",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 10 May 2026 16:00:29 GMT",
+        "summary_zh": "近十年前，史達康抗議運動在南達科他州達科他油管線事件中引起了全國和國際的關注。最近，一個環境組織和一個美洲原住民促進組織向美國林務局提起訴訟，指控一項探勘石墨鑽探項目在國家森林土地上威脅了一個認可的儀式場所——佩斯拉山草原，也就是雷諾茲草原。這些抗議者認為，這項鑽探項目對當地原住民權益構成威脅。這項訴訟標誌著南達科他州原住民權益的新爭議，與十年前的史達康抗議運動有相似之處。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1cc59c8a",
+        "title": "石油價格大幅上升　特朗普拒絕伊朗和平提議",
+        "url": "https://www.bbc.com/news/articles/ckgp4ev4yg4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 01:12:30 GMT",
+        "summary_zh": "伊朗與美國的戰爭仍在繼續，霍爾木茲海峽水道基本封鎖，嚴重干擾全球能源運輸。伊朗曾提出和平提議，但特朗普政府拒絕接納，導致石油價格大幅上升。這種局勢不僅影響伊朗和美國，還會對全球能源市場產生重大影響。目前，全球能源供應仍面臨嚴重挑戰，石油價格的上升將對消費者和企業造成重大壓力。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5931d1cf",
+        "title": "澳洲右翼政黨「一國黨」歷史性勝選",
+        "url": "https://www.bbc.com/news/articles/cwy2e4z4npro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 10 May 2026 14:37:16 GMT",
+        "summary_zh": "澳洲右翼政黨「一國黨」在一次補選中贏得了下議院的第一個席位，這被視為民粹主義政黨的關鍵考驗。這次補選被視為對澳洲政治格局的重大影響，可能會對該國政治走向產生重大變化。雖然「一國黨」在過去的選舉中一直未能取得重大成就，但這次補選的勝利卻表明該黨在澳洲政治舞台上逐漸崛起。這可能會對澳洲政府的政策和決策產生重大影響，特別是在經濟、移民和安全等領域。然而，這也引發了對該黨極端立場和種族主義言論的擔憂。澳洲人民將密切關注「一國黨」的未來發展和對該國政治的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d39d55b4",
+        "title": "非洲電影獎大秀：500塊麵包做成的服裝震撼觀眾",
+        "url": "https://www.bbc.com/news/articles/c4g0d3d5zn4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 10 May 2026 14:29:45 GMT",
+        "summary_zh": "非洲最大的電影和時尚盛典上，名人、電影製片人和創作者們表演出色。這次的非洲電影獎大秀中，出現了一件震撼觀眾的服裝——它是由 500塊麵包做成的。這件特殊的服裝在非洲的時尚界引起了巨大的反響，許多人都對這種創新的設計感到驚嘆。雖然這件服裝的製作過程可能需要很長的時間和許多麵包，但它的獨特性和創新性卻讓人們對它感到非常興奮。這件服裝的出現也讓人們對非洲的時尚設計有了新的認識和期待。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "17512eda",
+        "title": "普京表示他認為烏克蘭衝突「即將結束」",
+        "url": "https://www.bbc.com/news/articles/cn8p4j2jzwwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 10 May 2026 13:56:43 GMT",
+        "summary_zh": "俄羅斯領袖普京認為烏克蘭談判有可能進行，但譴責西方支持烏克蘭總統澤連斯基。普京的話語出自於他與法國總統馬克宏的會面之後。儘管如此，烏克蘭方面仍表達了對俄羅斯的懷疑，認為俄羅斯的言論與行動不符。烏克蘭總統澤連斯基在社交媒體上表示，烏克蘭將繼續堅持自己的立場，並不會被俄羅斯的話語所左右。西方國家對普京的言論表示了懷疑，認為俄羅斯的動機仍然不明朗。烏克蘭衝突的結束仍然遙遙無期，雙方的對立仍然存在。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "73fba7dd",
+        "title": "英軍空降小島幫助英國人疑似感染漢坦病毒",
+        "url": "https://www.bbc.com/news/articles/cvgzv77ldpdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 10 May 2026 15:02:51 GMT",
+        "summary_zh": "英軍於英國海外領土小島特拉斯坦達昆塔（Tristan da Cunha）空降一支專家小組，為一名英國人提供治療。該名英國人疑似感染了漢坦病毒，英軍小組的到來是為了幫助他及時治療。這座小島因其地理位置偏遠，醫療資源有限，英軍的空降行動顯示了對病人的關心和關注。這項行動也展現了英軍的專業和應急能力。目前尚未有更多資訊透露，該名英國人的病情如何仍待觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "10ccf81c",
+        "title": "特朗普和習近平即將會面，中美貿易戰的關鍵點在哪裡？",
+        "url": "https://www.bbc.com/news/articles/c3rz75rgn8zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 05:39:27 GMT",
+        "summary_zh": "近10年來首次的美國總統訪問中國將考驗脆弱的貿易戰和緩和協議。美國總統特朗普和中國國家主席習近平即將在北京會面，這將是兩國近10年來首次的最高級別會面。這次會面將考驗兩國在貿易戰和緩和協議上的關係。美國和中國近年來一直在貿易戰中互相施壓，雙方都對對方的貿易政策感到不滿。然而，近期雙方都表明願意對貿易戰進行緩和，特朗普和習近平的會面將是這一努力的關鍵點。會面將對中美貿易戰的未來發展產生重大影響，將會影響兩國的經濟和貿易政策。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7492c6c5",
+        "title": "社交媒體如何將印度電影巨星維傑轉變為政治力量",
+        "url": "https://www.bbc.com/news/articles/cj4pn1z8x45o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Sun, 10 May 2026 23:34:47 GMT",
+        "summary_zh": "印度電影巨星維傑在選舉期間只短暫參與競選活動，但他的粉絲俱樂部轉變為線上「戰士」們，持續不斷地在社交媒體上為他發聲。這些粉絲俱樂部的成員們不僅僅是普通粉絲，他們也是一群充滿激情和熱情的支持者，他們通過社交媒體平台，為維傑的競選活動進行宣傳和推廣。這種現象在印度政治中並不陌生，許多政治人物都會利用社交媒體來吸引支持者和影響選民的意見。然而，維傑的粉絲俱樂部卻展現出了特別的活躍和積極性，他們不僅僅是為維傑競選活動發聲，也在推動印度政治的變革。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9574234b",
+        "title": "美國士兵在摩洛哥失蹤的屍體已經被發現並確認身份",
+        "url": "https://www.bbc.com/news/articles/cvgz7p5ggg7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Sun, 10 May 2026 20:07:30 GMT",
+        "summary_zh": "摩洛哥發生了美國士兵失蹤的事件，當地正在進行搜索行動。根據最新消息，美國士兵的屍體已經被發現並確認身份。這一事件發生在一場多國軍事訓練演習中，目前仍然有第二名美國士兵失蹤，搜索行動仍在進行中。這一事件引起了美國政府的關注，正在積極調查和追蹤進展。美國士兵的失蹤和被發現的事件，顯示了摩洛哥當地的軍事訓練活動的風險和挑戰。美國政府將繼續關注和支持正在進行的搜索行動，盼望能夠找到第二名失蹤的士兵。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "14e70459",
+        "title": "‘美國的亞馬遜’：電影描繪了美國幫助下，右派政變成功的巴西放棄雨林的景象",
+        "url": "https://www.theguardian.com/world/2026/may/10/amazon-of-america-vitoria-regia-film-brazil-rainforest",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Sun, 10 May 2026 12:00:25 GMT",
+        "summary_zh": "一部名為《維多利亞·雷吉亞》的電影，描繪了一個2025年的巴西，右派政變成功，美國幫助下，巴西民主制度被摧毀，總統被暗殺，國會被關閉，雨林和其豐富資源被美國佔領。電影中，北美士兵帶領記者們參觀一座油 refinery，宣傳美國對巴西雨林的統治。附近，美國自由女神像的複製品被刻在荒野上，象徵著美國對巴西半數領土的領導。這部電影也強調了印地安人面臨的威脅，包括土地被佔領、文化被破壞和生態系統被破壞。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "stock_tw": [
+      {
+        "id": "9e4d07fd",
+        "title": "振大環球首季每股賺4.81元 竣邦4月營收創新高",
+        "url": "https://www.cna.com.tw/news/afe/202605110183.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 11 May 2026 15:44:05 +0800",
+        "summary_zh": "振大環球今天公布第1季財報，營收新台幣18.89億元，年增25.2%，季增5.2%。歸屬母公司淨利3.29億元，年增15.4%，季增4成，單季每股純益達4.81元。這是振大環球連續兩季營收創下新高。今年4月，振大環球的營收創下新高，達5.43億元，較去年同期增長21.1%。公司的財務表現表明，振大環球在服裝產業中處於領先地位。然而，未來市場的不確定性仍然存在，公司的財務表現將受到市場變化的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d3c66f81",
+        "title": "微型發光二極體光收發模組產值預估2030年達8億美元",
+        "url": "https://www.cna.com.tw/news/afe/202605110180.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 11 May 2026 15:31:58 +0800",
+        "summary_zh": "近日，集邦科技釋出了對微型發光二極體（Micro LED）產業的研究報告，預測由於高速光通訊需求的急速攀升，微型發光二極體共封裝光學收發模組（CPO）市場的產值將在2030年達到8.48億美元。這項研究顯示，生成式AI驅動的高速光通訊需求正在快速增長，對於微型發光二極體產業的影響將更加顯著。微型發光二極體的應用範圍包括顯示屏、光通信等領域，市場預期將持續擴大。這項預測對於微型發光二極體產業的發展提供了重要的參考資料，同時也表明了市場對於高速光通訊的需求正在快速增長。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "43d6df7c",
+        "title": "國家融保機制啟動 15家國銀響應 不吃大鍋飯",
+        "url": "https://www.cna.com.tw/news/afe/202605110177.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 11 May 2026 15:27:52 +0800",
+        "summary_zh": "近日，國發會主委葉俊顯表示，國家融資保證機制預計5月底啟動。這項機制旨在支持企業赴美投資，並已吸引15家國銀參與。與過去不同的是，這次機制採取「自己做、自己負擔」的做法，不再讓銀行共享損失。目前，8家公股銀行已加入，另外還有7家民營銀行如中信銀行等也表態參與。這項改變意在讓銀行更積極地參與企業的海外投資，並減少風險。這項機制的啟動將對企業的海外投資提供更大的支持和保障，同時也將促進銀行的創新和發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "11213e76",
+        "title": "威剛攜手巴拉圭商 啟動100公頃造林、復林計畫",
+        "url": "https://www.cna.com.tw/news/afe/202605110176.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 11 May 2026 15:24:49 +0800",
+        "summary_zh": "威剛與巴拉圭Atenil S.A.簽署100公頃造林、復林及植被復育計畫，同時攜手研發生物炭技術。這項計畫旨在保護環境、改善生態系統，並促進可持續發展。威剛的這一舉動不僅展現了公司對環境保護的承諾，也標誌著公司在巴拉圭的投資和發展步伐。這項計畫將對巴拉圭的環境和生態系統產生正面影響，同時也將為威剛帶來新的商業機會和發展空間。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "35f70b74",
+        "title": "外資大買台股 1803億元買超今年第2大單週",
+        "url": "https://www.cna.com.tw/news/afe/202605110175.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 11 May 2026 15:22:47 +0800",
+        "summary_zh": "台股近期一直在走紅火，AI熱潮持續發燒，台股上週大漲2677.31點或6.88%，週五指數收在41603.94點。根據台灣證券交易所統計，外資上週在集中市場買超新台幣1803.98億元，為今年以來第2大單週買超金額。這表明外資對台股的信心正在增強，買超金額的增加也反映了外資對台股未來發展的樂觀態度。然而，市場仍然需要觀察台股的走勢，是否能夠持續保持這種增長態勢。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b4ed3e5d",
+        "title": "日經指數創新高後走跌收黑",
+        "url": "https://www.cna.com.tw/news/afe/202605110174.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 11 May 2026 15:19:45 +0800",
+        "summary_zh": "日經225指數在東京股市今天早盤創下盤中歷史新高，但隨後因投資人開始獲利了結，市場情緒轉趨疲弱，指數終場收跌。這次的走跌可能是由於投資人在市場上取得的收益感到滿意，決定將部分資金抽出，導致市場價格下跌。這種情況在股市中並不罕見，投資人在市場上取得收益後，往往會將部分資金抽出，獲利了結。這次的走跌可能對市場的短期走勢有所影響，但長期來看，市場仍然有望繼續上漲。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "04c7108c",
+        "title": "三大法人買超台股49.34億元",
+        "url": "https://www.cna.com.tw/news/afe/202605110171.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 11 May 2026 15:12:39 +0800",
+        "summary_zh": "台股今天大幅上漲，收在41790.06點，成交值達新台幣1兆1135.27億元。三大法人投信、自營商買超，外資及陸資賣超，總計買超49.34億元。這表明三大法人對台股仍有信心，買超台股的動作顯示市場對未來仍有樂觀預期。然而，外資及陸資賣超的行為，也表明投資者對市場的風險評估仍存在分歧。這一買超賣超的結果，將會對市場的走勢產生影響，投資者應該密切關注市場的變化。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2112c6a7",
+        "title": "揭露保險黃牛套路 台產：保險理賠無須支付額外抽成",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5433112",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 11 May 2026 15:50:27 +0800",
+        "summary_zh": "台灣步入高齡化社會，產險業者觀察到愈來愈多的「保險黃牛」出現在醫院或事故現場。這些人利用長者的慌亂心理，誘騙他們簽下不必要的合約或支付額外費用。台產指出，保險理賠不需要支付額外的抽成，鼓勵長者謹慎處理這類事件。政府也應該加強對保險業者的監管，防止這類不法行為。這種行為不僅對長者造成經濟上的損失，也影響了社會的信任。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "stock_us": [
+      {
+        "id": "07aa3295",
+        "title": "還不是太遲買入數據中心的勝利者！這是為什麼",
+        "url": "https://www.cnbc.com/2026/05/10/jim-cramer-why-its-not-too-late-to-start-buying-red-hot-ai-stocks.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-10 17:15:20",
+        "summary_zh": "知名投資家Jim Cramer在最近的投資俱樂部文章中，反駁了大家的觀點認為買入人工智慧領域的公司已經太遲。根據Cramer的看法，人工智慧領域的公司仍有很大的發展空間，投資者仍然可以買入這些公司的股票。Cramer認為，數據中心是人工智慧的基石，投資者可以買入提供數據中心服務的公司股票。這些公司的股票價格可能會因為市場的波動而波動，但Cramer認為投資者仍然可以從中獲利。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "35163458",
+        "title": "我們在未來的一周內關注的兩大股市事件",
+        "url": "https://www.cnbc.com/2026/05/10/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-10 15:46:51",
+        "summary_zh": "本週股市關注的兩大事件包括：Qnity Electronics 公布財報，以及 4 月通膨數據的公布。這兩個事件將對股市產生重要影響，投資者將密切關注財報的表現和通膨數據的變化，以判斷市場的走向。財報的表現將影響公司的股價，而通膨數據的變化將對央行的貨幣政策產生影響。投資者需要密切關注這兩個事件，以做出明智的投資決策。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4fdea850",
+        "title": "證券交易委員會延遲預測市場ETF審批　回顧比特幣基金長期爭議",
+        "url": "https://www.cnbc.com/2026/05/10/sec-prediction-markets-etfs-trading-launch-delay.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-10 12:22:02",
+        "summary_zh": "證券交易委員會（SEC）延遲審批預測市場ETF，讓人回憶起比特幣基金長期的爭議。預測市場ETF是一種投資工具，允許投資者參與市場預測的活動。SEC的延遲審批引發了投資者和業界的關注，許多人認為這是對市場預測的限制。這種延遲審批與過去對比特幣基金的審批爭議有相似之處。比特幣基金的審批爭議始於2013年，當時SEC拒絕批准比特幣基金的上市。這引發了投資者和業界的強烈反彈。最終，SEC在2019年批准了比特幣基金的上市。預測市場ETF的延遲審批可能會對投資者和業界造成影響，許多人認為這是對市場預測的限制。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b6b6c697",
+        "title": "Alphabet 160% 年內大漲反映了擁有「整個堆疊」在 AI 中的價值",
+        "url": "https://www.cnbc.com/2026/05/10/alphabet-160percent-rally-in-year-reflects-value-of-owning-most-of-ai-stack.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-10 12:00:01",
+        "summary_zh": "在人工智慧大爆發的早期，Google 被視為 AI 落後者。但投資者現在正在押注，搜尋巨頭將會是明顯的勝利者。 Alphabet 的股價在一年內大幅上漲 160%，這反映了投資者對擁有整個 AI 堆疊的價值。Google 的 AI 技術和業務正在快速發展，投資者認為這將帶來長期的收益。 Alphabet 的成功也使得其他科技公司的股價上漲，投資者正在尋找下一個 Google。然而，投資者也需要注意風險，AI 業界的競爭和政策變化可能會影響公司的股價。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "bdaccbf9",
+        "title": "華爾街頂尖分析師建議這三隻股息股票為穩定收入",
+        "url": "https://www.cnbc.com/2026/05/10/top-wall-street-analysts-recommend-these-stocks-for-stable-income.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-10 11:27:26",
+        "summary_zh": "股息支付股票可以幫助減少下行風險，提供穩定的回報。華爾街頂尖分析師建議投資者購買這三隻股息股票，包括 [股票名稱 1]、[股票名稱 2] 和 [股票名稱 3]。這些股票的股息支付率高於市場平均水平，提供穩定的收入來源。投資者可以通過購買這些股票來獲得穩定的收入和長期投資回報。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "447eeaf6",
+        "title": "評估傑羅姆鮑威爾的聯邦儲備理事會主席任期",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/federal-reserve-chair-jerome-powell-s-term-ends-examining-his-legacy",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-10 20:08:05",
+        "summary_zh": "傑羅姆鮑威爾的聯邦儲備理事會主席任期將於今年底結束。鮑威爾在 2018 年 2 月 5 日就任聯邦儲備理事會主席，期間面臨了 2020 年初爆發的 COVID-19 大流行、2022 年俄羅斯入侵烏克蘭等重大挑戰。儘管面臨這些挑戰，鮑威爾仍然堅持維持低利率政策，促進經濟復甦。然而，鮑威爾的任期也面臨著批評和爭議，包括對利率政策的批評和對央行行為的監管。隨著鮑威爾的任期即將結束，市場和政策制定者都在等待下一任聯邦儲備理事會主席的任命。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "f47f8bc4",
+        "title": "CFO薪酬提高、任期縮短：財務長的難題",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-05-10/cfo-pay-surges-even-as-job-security-declines",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-10 20:00:01",
+        "summary_zh": "近年來，企業的財務長（CFO）人選面臨著一個困境：薪酬提高與任期縮短。根據最近的一項研究發現，越來越多的企業開始提供高薪酬給 CFO，然而，這也導致 CFO 的任期縮短。研究人員認為，這是因為企業希望 CFO 能夠快速地帶領企業走向成功，同時又不願意承擔長期的薪酬負擔。這種情況下，CFO 的職位變得更加不穩定，企業需要時刻準備好面對 CFO 的離職風險。這項研究的發現對於企業的財務管理和人力資源管理都有重要的啟示，企業需要重新評估 CFO 的薪酬和任期的關係，確保企業的財務管理能夠保持穩定和有效。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ff2bd311",
+        "title": "商學院教授的投資選擇",
+        "url": "https://www.ft.com/content/0739f497-352c-423e-85e6-44776a17cd1c",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-10 19:18:31",
+        "summary_zh": "商學院教授們每年都會公布他們的投資選擇，提供投資者參考。今年的選擇中，教授們傾向於投資於科技和健康領域的公司。這些公司的業務模式和成長潛力都受到高度評價。投資者可以根據教授們的選擇來做出自己的投資決策。然而，投資市場的風險和不確定性仍然存在，投資者需要謹慎評估風險和收益。根據教授們的選擇，投資者可以獲得更好的投資回報。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d6064bb0",
+        "title": "債券交易員準備迎接通膨數據，聯邦儲備理事會 Powell 時代結束",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/bond-traders-brace-for-inflation-data-as-fed-s-powell-era-ends",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-10 19:00:00",
+        "summary_zh": "聯邦儲備理事會主席 Powell 的任期即將結束，債券交易員正在密切關注即將公佈的通膨數據。這些數據將對未來的利率決策產生重大影響。市場預期通膨數據將顯示物價上升速度加快，從而促使聯邦儲備理事會採取措施控制通膨。債券交易員正在密切關注 Powell 的最後一場演講，了解他對未來經濟情況的看法。 Powell 的任期結束將標誌著聯邦儲備理事會政策的重大轉變。市場預期未來將出現利率上升，債券交易員正在準備迎接這種情況。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cd5f1a6a",
+        "title": "莫迪呼籲印度人節約燃料，減少昂貴的石油進口",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/modi-urges-indians-to-conserve-fuel-curb-costly-oil-imports",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-10 17:15:03",
+        "summary_zh": "印度總理莫迪在最近的演講中呼籲印度人節約燃料，減少昂貴的石油進口。莫迪表示，印度每年花費大量金額購買外國石油，導致國內經濟負擔加重。為了減少這種情況，他呼籲民眾使用節能車輛、提高汽車燃油效率等措施。莫迪還表示，政府將繼續推動節能政策和投資清潔能源領域。這些措施的目的是減少印度對外國石油的依賴，同時也能夠減少國內的污染問題。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "77e5e6eb",
+        "title": "莫迪要求印度節約燃料，全球油價上漲",
+        "url": "https://www.reuters.com/pt/negocio/J2R54BIHWZLQBJGDJ5PHVJDABA-2026-05-10/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-10 17:08:11",
+        "summary_zh": "印度總理莫迪要求印度政府和民間企業共同努力節約燃料，減少對外國進口的依賴。這是因為全球油價持續上漲，對印度經濟造成了重大影響。莫迪認為，節約燃料不僅可以減少進口成本，也可以降低對外國的依賴。印度政府已經開始實施一系列措施，包括提高汽油稅和鼓勵使用電動車輛。同時，印度企業也被要求節約燃料和提高能源效率。這些措施旨在幫助印度減少對外國進口的依賴，並降低對全球油價的脆弱性。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2eab3829",
+        "title": "莫迪呼籲印度節約燃料　全球油價大幅上漲",
+        "url": "https://www.reuters.com/business/energy/modi-urges-india-conserve-fuel-global-price-surges-2026-05-10/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-10 16:43:43",
+        "summary_zh": "印度總理莫迪近日呼籲民眾節約燃料，隨著全球油價大幅上漲，印度正面臨著嚴重的能源危機。莫迪表示，節約燃料對於印度的經濟和環境都有重要意義。印度政府已經開始採取措施，鼓勵民眾使用節能汽車和公共交通工具。同時，政府也在推動清潔能源的發展，包括太陽能和風能。然而，印度的能源需求卻在持續上升，政府面臨著如何滿足民眾需求的挑戰。這項措施的影響尚待觀察，印度將如何應對能源危機仍存疑問。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6c3e3794",
+        "title": "沙烏地阿拉伯石油公司CEO警告：石油市場回暖可能受阻",
+        "url": "https://www.reuters.com/pt/negocio/HBLPFUMA3ZKE7EJDY76RBB74JU-2026-05-10/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-10 16:00:50",
+        "summary_zh": "沙烏地阿拉伯石油公司的CEO最近發表了警告，指出石油市場的回暖可能會受到石油儲備的減少影響。根據他的說法，石油儲備的減少將導致石油市場的供給不足，從而影響石油價格的下降。這項警告是基於沙烏地阿拉伯石油公司的最新數據顯示，該公司的石油儲備已經減少了1億桶。這項減少將會對石油市場的供應造成重大影響，從而影響石油價格的下降。沙烏地阿拉伯石油公司的CEO認為，石油市場的回暖需要時間和努力，需要石油儲備的恢復才能實現。因此，他呼籲石油生產商和消費者共同努力，恢復石油儲備，讓石油市場能夠回暖。這項警告對石油市場的影響將是重大且持久的，需要各方的共同努力才能實現石油市場的回暖。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
       {
         "id": "14106804",
@@ -65,18 +565,6 @@
         "category": "whitehouse",
         "published_at": "Mon, 11 May 2026 03:16:46 GMT",
         "summary_zh": "美國公民在郵輪 M/V Hondius 上遭遇鼠疫病毒爆發，該郵輪在西班牙的特內里費島靠岸後，所有乘客都被疏散。美國疾病控制與預防中心（CDC）派遣醫療團隊到西班牙與乘客進行面談，了解他們在郵輪上的接觸情況。17名美國乘客將被轉移到內布拉斯加州的特殊隔離中心進行評估，以判斷是否有感染風險。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3c379570",
-        "title": "美國士兵失蹤身體在摩洛哥海岸被發現",
-        "url": "https://www.theguardian.com/us-news/2026/may/10/missing-soldier-body-recovered-morocco",
-        "source": "Guardian World",
-        "category": "whitehouse",
-        "published_at": "Sun, 10 May 2026 20:44:36 GMT",
-        "summary_zh": "美國士兵1st Lt Kendrick Lamont Key Jr 在摩洛哥參與美軍與北約盟國及非洲國家的大規模軍事演習中失蹤。美國軍方於週日宣布，摩洛哥搜索隊在2日失蹤士兵下落不明的海岸附近發現了他的遺體。遺體被發現在2日士兵失蹤的海岸附近約1英里處的水中。這名士兵是在5月2日參與軍事演習時失蹤的。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -142,18 +630,6 @@
         "ai_classified": true
       },
       {
-        "id": "232c4182",
-        "title": "美國乘客撤離出疫情船後下一步",
-        "url": "https://www.bbc.com/news/articles/cn4pq1y1zjgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 10 May 2026 21:29:56 GMT",
-        "summary_zh": "美國一艘郵輪遭遇非洲斑疹熱病毒疫情，多名乘客被緊急撤離。撤離後，部分乘客將被允許在家鄉自我隔離。這些乘客將被送往內布拉斯加州的一家醫療中心進行檢查和隔離。醫療中心將根據個別情況決定是否允許乘客在家鄉自我隔離。這項決定取決於乘客的健康狀況和檢查結果。美國衛生部長表示，這項措施是為了保護乘客和社區免受疫情影響。這項疫情事件引起了廣泛關注，美國政府正在密切關注疫情的發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "7b39adee",
         "title": "川普推介「美國旗幟藍」塗漆方案，林肯紀念館反映池將改造",
         "url": "https://www.bbc.com/news/articles/c2l2kpyk717o?at_medium=RSS&at_campaign=rss",
@@ -161,6 +637,18 @@
         "category": "whitehouse",
         "published_at": "Sun, 10 May 2026 17:45:28 GMT",
         "summary_zh": "美國總統川普為了慶祝美國250週年誕辰，正在推動將首都華盛頓DC的林肯紀念館反映池進行改造。這項改造計畫包括塗上「美國旗幟藍」色彩的塗漆工作。這項改造是川普總統為了美化首都的努力之一。然而，目前尚未有更多細節公佈，包括改造的具體時間表和預算。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3c379570",
+        "title": "美國士兵失蹤身體在摩洛哥海岸被發現",
+        "url": "https://www.theguardian.com/us-news/2026/may/10/missing-soldier-body-recovered-morocco",
+        "source": "Guardian World",
+        "category": "whitehouse",
+        "published_at": "Sun, 10 May 2026 20:44:36 GMT",
+        "summary_zh": "美國士兵1st Lt Kendrick Lamont Key Jr 在摩洛哥參與美軍與北約盟國及非洲國家的大規模軍事演習中失蹤。美國軍方於週日宣布，摩洛哥搜索隊在2日失蹤士兵下落不明的海岸附近發現了他的遺體。遺體被發現在2日士兵失蹤的海岸附近約1英里處的水中。這名士兵是在5月2日參與軍事演習時失蹤的。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -187,530 +675,6 @@
         "summary_zh": "美國250周年紀念日，總統發表致辭，紀念1775年5月10日美國民兵突襲拿下提康德羅加堡，取得美國獨立戰爭的首場勝利。這次勝利證明了自由的力量可以戰勝最強大的帝國。這標誌著美國獨立戰爭的開始，展現了美國民兵的勇氣和決心。這次勝利對美國獨立戰爭的發展產生了重大影響，為美國未來的獨立奠定了基礎。今天，美國仍然致力於捍衛自由和民主的價值，繼承了這段歷史的精神。",
         "sentiment": "正面",
         "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "stock_tw": [
-      {
-        "id": "2112c6a7",
-        "title": "揭露保險黃牛套路 台產：保險理賠無須支付額外抽成",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5433112",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 11 May 2026 15:50:27 +0800",
-        "summary_zh": "台灣步入高齡化社會，產險業者觀察到愈來愈多的「保險黃牛」出現在醫院或事故現場。這些人利用長者的慌亂心理，誘騙他們簽下不必要的合約或支付額外費用。台產指出，保險理賠不需要支付額外的抽成，鼓勵長者謹慎處理這類事件。政府也應該加強對保險業者的監管，防止這類不法行為。這種行為不僅對長者造成經濟上的損失，也影響了社會的信任。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "0b1faf48",
-        "title": "莫迪呼籲印度民眾保護外匯存底，避免購買黃金珠寶",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5433090",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 11 May 2026 15:34:00 +0800",
-        "summary_zh": "印度總理莫迪週日呼籲民眾，未來至少1年內避免購買黃金珠寶，希望藉此降低黃金進口支出、維持外匯存底。莫迪表示，1年之內，不論任意原因購買黃金珠寶，都會被視為非法活動。這項措施旨在節省外匯，減少黃金進口支出，同時也希望民眾能夠節約購買黃金珠寶的金額。這項政策對印度的外匯存底和黃金市場都會產生重大影響。印度政府的這項措施也引起了民眾的關注和討論。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "f4483df0",
-        "title": "即將退休的人應考慮出售的3種物品 省大錢減負擔！",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5433016",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 11 May 2026 15:33:07 +0800",
-        "summary_zh": "在當前經濟不明朗的情況下，許多人難以存夠退休金。那些即將退休的人，可能會感到震驚和恐懼，查看自己的退休帳戶和儲蓄帳戶餘額時。理財網站Gobankin建議，退休前出售一些不必要的物品，可以幫助減輕負擔。三種物品包括不再使用的房屋、過時的投資工具和不再需要的車輛。出售這些物品，不僅可以獲得現金，還可以減少未來的負擔和風險。這樣可以幫助退休人們更好地安排自己的生活和財務。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "c8ddc974",
-        "title": "韓股創3高！SK海力士、三星同步創新猷 指數收7822點",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5432501",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 11 May 2026 15:17:39 +0800",
-        "summary_zh": "韓股在週一大幅走揚，南韓綜合指數創下新高，受到費半指數上週五飆漲逾5.5%的激勵。三星和SK海力士同步創下新高，盤中指收漲逾5%，登上7891點。這一波漲勢被視為對抗美伊緊張局勢的表現。分析師表示，這一波漲勢可能是由於投資者對亞洲經濟的樂觀情緒。然而，投資者也需要注意美伊緊張局勢的發展，避免過度樂觀。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "be04681e",
-        "title": "破產不是意外！理財專家勸你千萬別踩這10大錯誤",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5433072",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 11 May 2026 15:13:59 +0800",
-        "summary_zh": "美國知名理財專家Dave Ramsey認為，許多人始終擺脫不了「月光族」生活，不一定是因為收入太低，而是因為長期錯誤的金錢習慣。他強調，理財的核心不是投資技巧，而是建立正確的金錢習慣。 Ramsey 指出，許多人會犯下10大錯誤，導致財務困境。首先，他們會花費太多的金錢在不必要的東西上，導致債務累積。其次，他們會缺乏儲蓄和投資的習慣。再者，他們會忽視債務的負債率，導致債務雪球越滾越大。最後，他們會缺乏財務規劃和預算的能力。 Ramsey 提醒，正確的金錢習慣可以幫助人們避免財務困境，並創造出美好的未來。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "839177e1",
-        "title": "大同4月營收41.39億元 年月雙減",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5433050",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 11 May 2026 15:04:10 +0800",
-        "summary_zh": "大同在4月公布營收，總計41.39億元，較去年同期月減2.87%、年減3.5%。前4個月的營收累計為156.27億元，較去年同期年增5.34%。大同表示，4月營收衰退的主要原因是電力成本增加。這意味著大同在面臨電力成本上漲的壓力下，仍然試圖維持營收的穩定性。然而，營收的下滑跡象可能會對公司未來的財務表現產生影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "ee435b31",
-        "title": "房子增值900萬卻成甜蜜惡果！他親揭1殘酷現實",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5432749",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 11 May 2026 14:57:35 +0800",
-        "summary_zh": "在房地產價格飛漲的時代，日本一對夫妻因為房價上漲導致成本支出大增，考慮賣掉換到維護成本較低的地區。然而，7年後房子增值900萬，成為他們的甜蜜惡果。這對夫妻不得不面對房價上漲帶來的殘酷現實。房價上漲使得他們的生活成本大幅增加，原本可以用來享受生活的錢都被房貸和維護費用占據。這對夫妻的故事成為房地產市場的警示，提醒大家房價上漲的風險和後果。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "af39da94",
-        "title": "竣邦-KY 4月營收創單月新高",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5433046",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 11 May 2026 14:54:18 +0800",
-        "summary_zh": "竣邦-KY（4442）在4月出貨冬衣密集，營收達2.14億元，月增29.6%、年增4.2％，創歷年單月新高水準。今年前4個月營收6.5億元，年增5.8％，同樣創歷年新高。竣邦-KY的冬衣業務在4月取得了顯著成長，公司的營收表現令人鼓舞。然而，未來公司的營收仍將受到市場變化和競爭的影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fc243921",
-        "title": "點名台積電！外媒喊5月最值得買入「這3檔」 理由全說了",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5432857",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 11 May 2026 14:53:21 +0800",
-        "summary_zh": "隨著AI熱潮持續推升科技股表現，不少人工智慧相關企業近期繳出亮眼成績單，也讓市場信心再度升溫。投資媒體《The Motley Fool》報導，如果你正在尋找值得在5月布局的股票，台積電應該是你的首選之一。台積電是全球最大的晶圓代工廠，為全球多家晶片製造商提供服務，包括高通、聯發科等。根據《The Motley Fool》的分析，台積電的業務持續擴張，尤其是在AI和5G領域，市場預期公司未來成長潛力巨大。另外兩檔股票是英特爾和微軟，兩家公司都在人工智慧領域有著重要的布局。英特爾正在投資人工智慧硬件和軟件，微軟則在雲計算和人工智慧領域有著重要的業務。這三檔股票都有著良好的財務表現和未來成長潛力，值得投資者在5月布局。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "979a8f41",
-        "title": "是方結盟日本綠能資料中心 跨國佈局AIDC",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5433031",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 11 May 2026 14:48:03 +0800",
-        "summary_zh": "是方電訊近日宣佈與日本北海道的石狩再生能源資料中心正式簽署合作備忘錄。這項合作將結合是方的機房維運與全球聯外頻寬技術，與石狩綠能中心的優勢「100% 區域再生能源」進行整合。這項合作將有助於打造出更為可靠、可持續的資料中心。石狩綠能中心的再生能源優勢將為是方的業務提供穩定的電力來源，同時也是推動綠能發展的重要一步。這項合作不僅有助於是方在日本市場的發展，也將為兩家公司的業務創造新的機會。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "91a86106",
-        "title": "台電帳單「由藍轉綠」？台電釋疑：適逢80週年紀念版",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5433023",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 11 May 2026 14:45:32 +0800",
-        "summary_zh": "近日，有網友發現台電電費帳單顏色由原本的藍色變成綠色，引發網路熱議，質疑是否為政治操作。台電則澄清，實際上台電原本就有綠色等不同顏色帳單版本，藍色為一般民生用戶，而綠色是欠繳帳戶的用戶。台電表示，這是為了方便用戶識別欠繳帳戶，無任何政治意圖。這起事件也引發了對台電帳單設計的討論，是否應該有更明確的區分欠繳帳戶的方式。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ae3e9afe",
-        "title": "旅展熱搜暴增22％！暑假不只東京大阪 \"這些城市\" 意外爆紅",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5433014",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 11 May 2026 14:43:31 +0800",
-        "summary_zh": "隨著國際油價與燃油附加費攀升，出國旅遊成本居高不下，不少精打細算的旅客已提前鎖定旅展優惠。根據Klook的數據，今年3月的Google搜尋趨勢顯示，旅展熱搜暴增22％。除了東京大阪以外，還有哪些城市意外爆紅？Klook表示，旅展熱搜的增長主要集中在亞洲地區，尤其是日本、韓國和泰國等國家。這些城市的旅展優惠吸引了許多旅客的注意。旅展的熱搜增長也反映了旅客對出國旅遊的需求仍然很高，尤其是在油價和燃油附加費攀升的背景下。旅展的優惠和促銷活動成為旅客鎖定出國旅遊的重要選擇。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "ff2bd311",
-        "title": "商學院教授的投資選擇",
-        "url": "https://www.ft.com/content/0739f497-352c-423e-85e6-44776a17cd1c",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-05-10 19:18:31",
-        "summary_zh": "商學院教授們每年都會公布他們的投資選擇，提供投資者參考。今年的選擇中，教授們傾向於投資於科技和健康領域的公司。這些公司的業務模式和成長潛力都受到高度評價。投資者可以根據教授們的選擇來做出自己的投資決策。然而，投資市場的風險和不確定性仍然存在，投資者需要謹慎評估風險和收益。根據教授們的選擇，投資者可以獲得更好的投資回報。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "d6064bb0",
-        "title": "債券交易員準備迎接通膨數據，聯邦儲備理事會 Powell 時代結束",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/bond-traders-brace-for-inflation-data-as-fed-s-powell-era-ends",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-10 19:00:00",
-        "summary_zh": "聯邦儲備理事會主席 Powell 的任期即將結束，債券交易員正在密切關注即將公佈的通膨數據。這些數據將對未來的利率決策產生重大影響。市場預期通膨數據將顯示物價上升速度加快，從而促使聯邦儲備理事會採取措施控制通膨。債券交易員正在密切關注 Powell 的最後一場演講，了解他對未來經濟情況的看法。 Powell 的任期結束將標誌著聯邦儲備理事會政策的重大轉變。市場預期未來將出現利率上升，債券交易員正在準備迎接這種情況。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cd5f1a6a",
-        "title": "莫迪呼籲印度人節約燃料，減少昂貴的石油進口",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/modi-urges-indians-to-conserve-fuel-curb-costly-oil-imports",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-10 17:15:03",
-        "summary_zh": "印度總理莫迪在最近的演講中呼籲印度人節約燃料，減少昂貴的石油進口。莫迪表示，印度每年花費大量金額購買外國石油，導致國內經濟負擔加重。為了減少這種情況，他呼籲民眾使用節能車輛、提高汽車燃油效率等措施。莫迪還表示，政府將繼續推動節能政策和投資清潔能源領域。這些措施的目的是減少印度對外國石油的依賴，同時也能夠減少國內的污染問題。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "77e5e6eb",
-        "title": "莫迪要求印度節約燃料，全球油價上漲",
-        "url": "https://www.reuters.com/pt/negocio/J2R54BIHWZLQBJGDJ5PHVJDABA-2026-05-10/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-10 17:08:11",
-        "summary_zh": "印度總理莫迪要求印度政府和民間企業共同努力節約燃料，減少對外國進口的依賴。這是因為全球油價持續上漲，對印度經濟造成了重大影響。莫迪認為，節約燃料不僅可以減少進口成本，也可以降低對外國的依賴。印度政府已經開始實施一系列措施，包括提高汽油稅和鼓勵使用電動車輛。同時，印度企業也被要求節約燃料和提高能源效率。這些措施旨在幫助印度減少對外國進口的依賴，並降低對全球油價的脆弱性。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2eab3829",
-        "title": "莫迪呼籲印度節約燃料　全球油價大幅上漲",
-        "url": "https://www.reuters.com/business/energy/modi-urges-india-conserve-fuel-global-price-surges-2026-05-10/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-10 16:43:43",
-        "summary_zh": "印度總理莫迪近日呼籲民眾節約燃料，隨著全球油價大幅上漲，印度正面臨著嚴重的能源危機。莫迪表示，節約燃料對於印度的經濟和環境都有重要意義。印度政府已經開始採取措施，鼓勵民眾使用節能汽車和公共交通工具。同時，政府也在推動清潔能源的發展，包括太陽能和風能。然而，印度的能源需求卻在持續上升，政府面臨著如何滿足民眾需求的挑戰。這項措施的影響尚待觀察，印度將如何應對能源危機仍存疑問。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6c3e3794",
-        "title": "沙烏地阿拉伯石油公司CEO警告：石油市場回暖可能受阻",
-        "url": "https://www.reuters.com/pt/negocio/HBLPFUMA3ZKE7EJDY76RBB74JU-2026-05-10/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-10 16:00:50",
-        "summary_zh": "沙烏地阿拉伯石油公司的CEO最近發表了警告，指出石油市場的回暖可能會受到石油儲備的減少影響。根據他的說法，石油儲備的減少將導致石油市場的供給不足，從而影響石油價格的下降。這項警告是基於沙烏地阿拉伯石油公司的最新數據顯示，該公司的石油儲備已經減少了1億桶。這項減少將會對石油市場的供應造成重大影響，從而影響石油價格的下降。沙烏地阿拉伯石油公司的CEO認為，石油市場的回暖需要時間和努力，需要石油儲備的恢復才能實現。因此，他呼籲石油生產商和消費者共同努力，恢復石油儲備，讓石油市場能夠回暖。這項警告對石油市場的影響將是重大且持久的，需要各方的共同努力才能實現石油市場的回暖。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "861881ab",
-        "title": "波斯灣股市下滑　新一輪無人機活動挫軍議希望",
-        "url": "https://www.reuters.com/world/middle-east/gulf-stocks-slip-fresh-drone-activity-clouds-peace-hopes-2026-05-10/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-10 13:14:11",
-        "summary_zh": "波斯灣地區股市近日出現下滑趨勢，主要受到新一輪無人機活動影響。這些無人機活動在敘利亞和伊拉克的邊境地區出現，引發關注。軍事行動的升級可能會對地區的和平進程造成負面影響。投資者對地區的投資意願下降，股市下滑是這一趨勢的反映。波斯灣地區的股市一直是全球股市的重要組成部分，股市下滑對全球股市的影響不容忽視。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "stock_us": [
-      {
-        "id": "07aa3295",
-        "title": "還不是太遲買入數據中心的勝利者！這是為什麼",
-        "url": "https://www.cnbc.com/2026/05/10/jim-cramer-why-its-not-too-late-to-start-buying-red-hot-ai-stocks.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-10 17:15:20",
-        "summary_zh": "知名投資家Jim Cramer在最近的投資俱樂部文章中，反駁了大家的觀點認為買入人工智慧領域的公司已經太遲。根據Cramer的看法，人工智慧領域的公司仍有很大的發展空間，投資者仍然可以買入這些公司的股票。Cramer認為，數據中心是人工智慧的基石，投資者可以買入提供數據中心服務的公司股票。這些公司的股票價格可能會因為市場的波動而波動，但Cramer認為投資者仍然可以從中獲利。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "35163458",
-        "title": "我們在未來的一周內關注的兩大股市事件",
-        "url": "https://www.cnbc.com/2026/05/10/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-10 15:46:51",
-        "summary_zh": "本週股市關注的兩大事件包括：Qnity Electronics 公布財報，以及 4 月通膨數據的公布。這兩個事件將對股市產生重要影響，投資者將密切關注財報的表現和通膨數據的變化，以判斷市場的走向。財報的表現將影響公司的股價，而通膨數據的變化將對央行的貨幣政策產生影響。投資者需要密切關注這兩個事件，以做出明智的投資決策。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4fdea850",
-        "title": "證券交易委員會延遲預測市場ETF審批　回顧比特幣基金長期爭議",
-        "url": "https://www.cnbc.com/2026/05/10/sec-prediction-markets-etfs-trading-launch-delay.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-10 12:22:02",
-        "summary_zh": "證券交易委員會（SEC）延遲審批預測市場ETF，讓人回憶起比特幣基金長期的爭議。預測市場ETF是一種投資工具，允許投資者參與市場預測的活動。SEC的延遲審批引發了投資者和業界的關注，許多人認為這是對市場預測的限制。這種延遲審批與過去對比特幣基金的審批爭議有相似之處。比特幣基金的審批爭議始於2013年，當時SEC拒絕批准比特幣基金的上市。這引發了投資者和業界的強烈反彈。最終，SEC在2019年批准了比特幣基金的上市。預測市場ETF的延遲審批可能會對投資者和業界造成影響，許多人認為這是對市場預測的限制。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b6b6c697",
-        "title": "Alphabet 160% 年內大漲反映了擁有「整個堆疊」在 AI 中的價值",
-        "url": "https://www.cnbc.com/2026/05/10/alphabet-160percent-rally-in-year-reflects-value-of-owning-most-of-ai-stack.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-10 12:00:01",
-        "summary_zh": "在人工智慧大爆發的早期，Google 被視為 AI 落後者。但投資者現在正在押注，搜尋巨頭將會是明顯的勝利者。 Alphabet 的股價在一年內大幅上漲 160%，這反映了投資者對擁有整個 AI 堆疊的價值。Google 的 AI 技術和業務正在快速發展，投資者認為這將帶來長期的收益。 Alphabet 的成功也使得其他科技公司的股價上漲，投資者正在尋找下一個 Google。然而，投資者也需要注意風險，AI 業界的競爭和政策變化可能會影響公司的股價。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ae1ee042",
-        "title": "AI下一波飆股在哪？華爾街揭：誰卡住這關鍵、誰就會暴漲",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5432917",
-        "source": "自由時報財經",
-        "category": "stock_us",
-        "published_at": "Mon, 11 May 2026 15:15:31 +0800",
-        "summary_zh": "近期，AI熱潮持續點燃美股行情，標普500與那斯達克不斷刷新歷史新高。然而，華爾街最近開始發現一件事：這波漲最兇的公司，其實都有同一個共同點，即卡在AI產業鏈最關鍵的「瓶頸」——人工智慧模型訓練。這些公司正試圖突破這個瓶頸，從而引發市場的關注。其中，某些公司正致力於開發新的AI模型訓練技術，例如使用特殊的計算硬件或是創新的人工智慧算法。這些公司的股價已經開始上漲，市場預期他們將會是下一波AI熱潮的領軍者。然而，這也引發了投資者的關注：誰能夠成功突破這個瓶頸、誰就會成為下一波AI熱潮的最大贏家？",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "bdaccbf9",
-        "title": "華爾街頂尖分析師建議這三隻股息股票為穩定收入",
-        "url": "https://www.cnbc.com/2026/05/10/top-wall-street-analysts-recommend-these-stocks-for-stable-income.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-10 11:27:26",
-        "summary_zh": "股息支付股票可以幫助減少下行風險，提供穩定的回報。華爾街頂尖分析師建議投資者購買這三隻股息股票，包括 [股票名稱 1]、[股票名稱 2] 和 [股票名稱 3]。這些股票的股息支付率高於市場平均水平，提供穩定的收入來源。投資者可以通過購買這些股票來獲得穩定的收入和長期投資回報。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "a8a16e93",
-        "title": "川普關注伊朗核問題：願意進入伊朗確保核材料安全",
-        "url": "https://www.theguardian.com/us-news/2026/may/11/donald-trump-news-at-a-glance-latest-updates-today",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 10 May 2026 23:45:24 GMT",
-        "summary_zh": "伊朗表示已回應美國和平提議，但伊朗內戰的停火狀態卻日益脆弱。以色列總理內塔尼亞胡表示，與伊朗的戰爭將持續進行，直到伊朗的高濃縮鈾儲備被清除。內塔尼亞胡在CBS節目60分鐘中表示，伊朗仍然擁有足夠的高濃縮鈾來製造核武器，因此戰爭尚未結束。他強調，伊朗仍然需要清除儲存的高濃縮鈾，並關閉 enrichment sites。這一說法與川普的立場相吻合，川普表示願意進入伊朗確保核材料的安全。伊朗內戰的停火狀態已經受到嚴重影響，雙方的關係日益緊張。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7d33dd63",
-        "title": "美國回國飛機上一名乘客疑似感染黑死病毒",
-        "url": "https://www.bbc.com/news/articles/cjep78l5835o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 07:30:06 GMT",
-        "summary_zh": "美國政府正在安排 17 名美國公民回國，期間發現其中一名乘客疑似感染黑死病毒。根據美國衛生部的報告，這名乘客的症狀相對輕微。黑死病毒是一種由黑死老鼠傳播的疾病，通常會導致嚴重的肺部感染和出血性疾病。美國衛生部正在密切監測這名乘客的健康狀況，並正在與當地當局合作進行追蹤和控制工作。這一事件引起了對公共衛生和旅行安全的關注。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "4d70d360",
-        "title": "他父親剛剛下葬，西岸定居者卻強迫他挖掘屍體",
-        "url": "https://www.bbc.com/news/articles/cjrpnjpl39po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 10 May 2026 19:56:45 GMT",
-        "summary_zh": "在西岸，聯合國人權辦公室譴責一宗事件，稱其為「令人髮指且象徵著巴勒斯坦人被人道主義剝奪的典型案例」。事件發生在一名巴勒斯坦男子，他的父親剛剛下葬，卻被西岸定居者強迫挖掘屍體。這種行為被視為對巴勒斯坦人的不尊嚴和不人道的對待。聯合國人權辦公室強調，這種行為是對巴勒斯坦人權利的嚴重侵犯，需要受到懲罰和懲戒。事件的發生引起了國際社會的關注和譴責，各界呼籲應該保護巴勒斯坦人的權利和尊嚴。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a16b5e78",
-        "title": "史達康抗議十年後：南達科他州新石油管線面臨新爭議",
-        "url": "https://www.theguardian.com/us-news/2026/may/10/south-dakota-sioux-oil-pipeline",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 10 May 2026 16:00:29 GMT",
-        "summary_zh": "近十年前，史達康抗議運動在南達科他州達科他油管線事件中引起了全國和國際的關注。最近，一個環境組織和一個美洲原住民促進組織向美國林務局提起訴訟，指控一項探勘石墨鑽探項目在國家森林土地上威脅了一個認可的儀式場所——佩斯拉山草原，也就是雷諾茲草原。這些抗議者認為，這項鑽探項目對當地原住民權益構成威脅。這項訴訟標誌著南達科他州原住民權益的新爭議，與十年前的史達康抗議運動有相似之處。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e4c80c76",
-        "title": "法國人在回國後出現病徵，疑似感染黑死病毒",
-        "url": "https://www.bbc.com/news/articles/c3r2p70jdy7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 03:29:58 GMT",
-        "summary_zh": "法國一艘名為MV Hondius的郵輪因黑死病毒爆發而被困在南極。法國總理宣布，該郵輪五名乘客將被隔離在巴黎，直到進一步通知。黑死病毒是一種由黑死病毒科黑死病毒屬的病毒引起的疾病，主要影響小動物，但也可能感染人類。法國政府已經採取措施防止病毒傳播，包括隔離感染者和接觸者。這一事件引發了對黑死病毒的關注和恐懼，法國政府將密切監控疫情發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5cc93c5a",
-        "title": "伊朗諾貝爾獎得主病情惡化獲准保釋並轉院治療",
-        "url": "https://www.bbc.com/news/articles/c1j257w87neo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 00:40:45 GMT",
-        "summary_zh": "伊朗當局在對人權活動家納吉斯·莫哈末迪 (Narges Mohammadi) 的健康狀況惡化而引起擔憂的情況下，批准她保釋。莫哈末迪曾獲得諾貝爾和平獎的提名，目前被伊朗當局關押。伊朗當局的決定被視為對她的健康狀況表示關注的一個步驟。然而，人權組織仍對她的處境表示擔憂，擔心她可能面臨不公平的對待。莫哈末迪的病情惡化引起了國際社會的關注，許多人呼籲伊朗當局釋放她並讓她接受適當的醫療照護。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9cb37b0e",
-        "title": "泰國前總理施米的出獄，但是施米時代是否結束?",
-        "url": "https://www.bbc.com/news/articles/c99l1590kr0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 03:41:34 GMT",
-        "summary_zh": "泰國前總理施米出獄後，泰國政治仍然充滿不確定性。施米曾經在2006年被推翻，之後他在國外生活多年。雖然他出獄後仍然在政治舞台上扮演重要角色，但泰國政府仍然對他有所限制。施米的出獄可能是泰國政治的轉捩點，但仍然有很多不確定性。泰國政治的未來將取決於施米的下一步行動。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "378a3e36",
-        "title": "伊朗反對派人士告訴BBC，戰爭威脅加劇了鎮壓的創傷",
-        "url": "https://www.bbc.com/news/articles/c1m2ee3jxvro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 10 May 2026 21:01:17 GMT",
-        "summary_zh": "伊朗反對派人士在德黑蘭表示，她們感到無助和壓力山大。伊朗反對派人士面臨著嚴厲的鎮壓，許多人被捕、被拘留或被驅逐出境。伊朗政府對反對派的鎮壓已經持續了數十年，導致許多人受到心理創傷。近年來，伊朗政府與美國的緊張關係加劇，戰爭威脅日益升高，對伊朗反對派人士的壓力更加加劇。伊朗反對派人士認為，伊朗政府的鎮壓和戰爭威脅是對其人權的嚴重侵犯。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1cc59c8a",
-        "title": "石油價格大幅上升　特朗普拒絕伊朗和平提議",
-        "url": "https://www.bbc.com/news/articles/ckgp4ev4yg4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 01:12:30 GMT",
-        "summary_zh": "伊朗與美國的戰爭仍在繼續，霍爾木茲海峽水道基本封鎖，嚴重干擾全球能源運輸。伊朗曾提出和平提議，但特朗普政府拒絕接納，導致石油價格大幅上升。這種局勢不僅影響伊朗和美國，還會對全球能源市場產生重大影響。目前，全球能源供應仍面臨嚴重挑戰，石油價格的上升將對消費者和企業造成重大壓力。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5931d1cf",
-        "title": "澳洲右翼政黨「一國黨」歷史性勝選",
-        "url": "https://www.bbc.com/news/articles/cwy2e4z4npro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 10 May 2026 14:37:16 GMT",
-        "summary_zh": "澳洲右翼政黨「一國黨」在一次補選中贏得了下議院的第一個席位，這被視為民粹主義政黨的關鍵考驗。這次補選被視為對澳洲政治格局的重大影響，可能會對該國政治走向產生重大變化。雖然「一國黨」在過去的選舉中一直未能取得重大成就，但這次補選的勝利卻表明該黨在澳洲政治舞台上逐漸崛起。這可能會對澳洲政府的政策和決策產生重大影響，特別是在經濟、移民和安全等領域。然而，這也引發了對該黨極端立場和種族主義言論的擔憂。澳洲人民將密切關注「一國黨」的未來發展和對該國政治的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d39d55b4",
-        "title": "非洲電影獎大秀：500塊麵包做成的服裝震撼觀眾",
-        "url": "https://www.bbc.com/news/articles/c4g0d3d5zn4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 10 May 2026 14:29:45 GMT",
-        "summary_zh": "非洲最大的電影和時尚盛典上，名人、電影製片人和創作者們表演出色。這次的非洲電影獎大秀中，出現了一件震撼觀眾的服裝——它是由 500塊麵包做成的。這件特殊的服裝在非洲的時尚界引起了巨大的反響，許多人都對這種創新的設計感到驚嘆。雖然這件服裝的製作過程可能需要很長的時間和許多麵包，但它的獨特性和創新性卻讓人們對它感到非常興奮。這件服裝的出現也讓人們對非洲的時尚設計有了新的認識和期待。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "17512eda",
-        "title": "普京表示他認為烏克蘭衝突「即將結束」",
-        "url": "https://www.bbc.com/news/articles/cn8p4j2jzwwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 10 May 2026 13:56:43 GMT",
-        "summary_zh": "俄羅斯領袖普京認為烏克蘭談判有可能進行，但譴責西方支持烏克蘭總統澤連斯基。普京的話語出自於他與法國總統馬克宏的會面之後。儘管如此，烏克蘭方面仍表達了對俄羅斯的懷疑，認為俄羅斯的言論與行動不符。烏克蘭總統澤連斯基在社交媒體上表示，烏克蘭將繼續堅持自己的立場，並不會被俄羅斯的話語所左右。西方國家對普京的言論表示了懷疑，認為俄羅斯的動機仍然不明朗。烏克蘭衝突的結束仍然遙遙無期，雙方的對立仍然存在。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "73fba7dd",
-        "title": "英軍空降小島幫助英國人疑似感染漢坦病毒",
-        "url": "https://www.bbc.com/news/articles/cvgzv77ldpdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 10 May 2026 15:02:51 GMT",
-        "summary_zh": "英軍於英國海外領土小島特拉斯坦達昆塔（Tristan da Cunha）空降一支專家小組，為一名英國人提供治療。該名英國人疑似感染了漢坦病毒，英軍小組的到來是為了幫助他及時治療。這座小島因其地理位置偏遠，醫療資源有限，英軍的空降行動顯示了對病人的關心和關注。這項行動也展現了英軍的專業和應急能力。目前尚未有更多資訊透露，該名英國人的病情如何仍待觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4158dc4d",
-        "title": "伊朗警告美國制裁將導致嚴重後果",
-        "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 01:55:13 GMT",
-        "summary_zh": "伊朗發出警告，指出遵守美國制裁將導致嚴重後果。這一警告發生在一艘商船在卡塔爾附近被擊中之際，聯合阿拉伯酋長國（UAE）和科威特也報告了無人機攻擊事件。伊朗的警告顯示，該國對美國制裁的反應日漸強烈。這一事件也引發了對中東地區安全局勢的擔憂。美國制裁對伊朗的經濟和政治影響已經很大，而伊朗的警告表明，該國不打算輕易屈服。這一局勢的發展將對全球能源市場和政治格局產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9574234b",
-        "title": "美國士兵在摩洛哥失蹤的屍體已經被發現並確認身份",
-        "url": "https://www.bbc.com/news/articles/cvgz7p5ggg7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Sun, 10 May 2026 20:07:30 GMT",
-        "summary_zh": "摩洛哥發生了美國士兵失蹤的事件，當地正在進行搜索行動。根據最新消息，美國士兵的屍體已經被發現並確認身份。這一事件發生在一場多國軍事訓練演習中，目前仍然有第二名美國士兵失蹤，搜索行動仍在進行中。這一事件引起了美國政府的關注，正在積極調查和追蹤進展。美國士兵的失蹤和被發現的事件，顯示了摩洛哥當地的軍事訓練活動的風險和挑戰。美國政府將繼續關注和支持正在進行的搜索行動，盼望能夠找到第二名失蹤的士兵。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "14e70459",
-        "title": "‘美國的亞馬遜’：電影描繪了美國幫助下，右派政變成功的巴西放棄雨林的景象",
-        "url": "https://www.theguardian.com/world/2026/may/10/amazon-of-america-vitoria-regia-film-brazil-rainforest",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 10 May 2026 12:00:25 GMT",
-        "summary_zh": "一部名為《維多利亞·雷吉亞》的電影，描繪了一個2025年的巴西，右派政變成功，美國幫助下，巴西民主制度被摧毀，總統被暗殺，國會被關閉，雨林和其豐富資源被美國佔領。電影中，北美士兵帶領記者們參觀一座油 refinery，宣傳美國對巴西雨林的統治。附近，美國自由女神像的複製品被刻在荒野上，象徵著美國對巴西半數領土的領導。這部電影也強調了印地安人面臨的威脅，包括土地被佔領、文化被破壞和生態系統被破壞。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "10ccf81c",
-        "title": "特朗普和習近平即將會面，中美貿易戰的關鍵點在哪裡？",
-        "url": "https://www.bbc.com/news/articles/c3rz75rgn8zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 05:39:27 GMT",
-        "summary_zh": "近10年來首次的美國總統訪問中國將考驗脆弱的貿易戰和緩和協議。美國總統特朗普和中國國家主席習近平即將在北京會面，這將是兩國近10年來首次的最高級別會面。這次會面將考驗兩國在貿易戰和緩和協議上的關係。美國和中國近年來一直在貿易戰中互相施壓，雙方都對對方的貿易政策感到不滿。然而，近期雙方都表明願意對貿易戰進行緩和，特朗普和習近平的會面將是這一努力的關鍵點。會面將對中美貿易戰的未來發展產生重大影響，將會影響兩國的經濟和貿易政策。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7492c6c5",
-        "title": "社交媒體如何將印度電影巨星維傑轉變為政治力量",
-        "url": "https://www.bbc.com/news/articles/cj4pn1z8x45o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Sun, 10 May 2026 23:34:47 GMT",
-        "summary_zh": "印度電影巨星維傑在選舉期間只短暫參與競選活動，但他的粉絲俱樂部轉變為線上「戰士」們，持續不斷地在社交媒體上為他發聲。這些粉絲俱樂部的成員們不僅僅是普通粉絲，他們也是一群充滿激情和熱情的支持者，他們通過社交媒體平台，為維傑的競選活動進行宣傳和推廣。這種現象在印度政治中並不陌生，許多政治人物都會利用社交媒體來吸引支持者和影響選民的意見。然而，維傑的粉絲俱樂部卻展現出了特別的活躍和積極性，他們不僅僅是為維傑競選活動發聲，也在推動印度政治的變革。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       }
     ]
