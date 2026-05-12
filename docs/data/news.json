@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-12T08:07:10.772725+08:00",
+  "generated_at": "2026-05-12T09:10:38.238619+08:00",
   "risk_signals": [
     "🟢 台股加權 41603.94（正常）",
     "🟢 S&P 500 7412.84（正常）",
     "🟢 VIX 恐慌指數 18.38（正常）",
     "🟢 MOVE 債市波動 70.74（正常）",
-    "🟢 美元指數 97.96（正常）",
-    "🟢 黃金 4775.8（正常）",
+    "🟢 美元指數 98.06（正常）",
+    "🟢 黃金 4764.0（正常）",
     "🟢 美債10Y殖利率 4.41（正常）",
-    "🟢 原油 WTI 98.11（正常）",
-    "🟢 美元/台幣 31.35（正常）"
+    "🟡 原油 WTI 98.6（漲 +3.33%，留意）",
+    "🟢 美元/台幣 31.43（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，各指標正常運作，投資者仍保持樂觀態度。美元指數和美元/台幣匯率維持穩定，表明市場對全球經濟前景保持樂觀。",
+  "ai_summary": "市場氛圍保持穩定，多個指標維持正常水平，但原油價格小幅上升，值得關注。",
   "market": {
     "TWII": {
       "price": 41603.94,
@@ -38,25 +38,49 @@
       "change_pct": 5.18
     },
     "DXY": {
-      "price": 97.96,
-      "change_pct": 0.12
+      "price": 98.06,
+      "change_pct": 0.23
     },
     "GOLD": {
-      "price": 4775.8,
-      "change_pct": 1.17
+      "price": 4764.0,
+      "change_pct": 0.92
     },
     "OIL": {
-      "price": 98.11,
-      "change_pct": 2.82
+      "price": 98.6,
+      "change_pct": 3.33
     },
     "USDTWD": {
-      "price": 31.35,
-      "change_pct": 0.16
+      "price": 31.43,
+      "change_pct": 0.42
     }
   },
   "macro": {},
   "categories": {
     "whitehouse": [
+      {
+        "id": "063c0001",
+        "title": "川普稱伊朗停火是「生死關頭」",
+        "url": "https://www.bbc.com/news/articles/cvgznxn18zgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 12 May 2026 00:59:12 GMT",
+        "summary_zh": "美國總統川普批評伊朗對於結束戰爭的反應計畫，稱這個月長的停火是「令人難以置信地軟弱」。伊朗的計畫被視為對美國提出的停火建議的回應，但川普認為這個計畫是不夠強力的。川普的評論表明美國對伊朗的停火計畫有著嚴重的懷疑。伊朗的計畫將會對地區的和平產生重大影響，川普的評論可能會加劇地區的緊張局勢。美國和伊朗之間的關係一直處於緊張狀態，川普的評論可能會進一步加劇這種緊張局勢。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "52da981d",
+        "title": "華盛頓晚宴槍擊案嫌犯認罪",
+        "url": "https://www.bbc.com/news/articles/c4g48ewgz8mo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 11 May 2026 14:52:12 GMT",
+        "summary_zh": "華盛頓晚宴槍擊案的嫌犯 Cole Tomas Allen（31歲）被控企圖暗殺美國總統唐納德·川普。這起槍擊案發生在一場晚宴上，嫌犯被控使用槍枝企圖對總統發動攻擊。這起事件引起了美國政治界的關注，許多人對總統安全的問題表示擔憂。目前，嫌犯已被控犯有企圖暗殺總統的罪行，案件正在進行中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "7a3bdb4d",
         "title": "總統致詞：全國救世軍週",
@@ -66,8 +90,8 @@
         "published_at": "Mon, 11 May 2026 23:37:46 +0000",
         "summary_zh": "本週，全國致敬那些透過救世軍的工作為同胞服務的男人和女人。這些志願者體現了美國精神的最佳面貌，並通過他們的同情和關懷增豐了我們國家的生活。自 1865 年以來，救世軍一直為疲憊的靈魂提供信仰，為饑餓的人提供食物……",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "8d155fd9",
@@ -118,12 +142,24 @@
         "ai_classified": true
       },
       {
+        "id": "66c9a7f9",
+        "title": "BBC探訪英格蘭和阿根廷世界盃培訓基地",
+        "url": "https://www.bbc.com/news/videos/clypw107dqzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 11 May 2026 07:53:53 GMT",
+        "summary_zh": "英格蘭足球代表隊將在美國堪薩斯城進行世界盃培訓。BBC記者威爾·格蘭特（Will Grant）前往堪薩斯城一探究竟，了解英格蘭隊的培訓情況。他們將在這裡進行練習，準備面對世界盃的挑戰。這次培訓將對英格蘭隊的表現有所影響，球員們將透過這些練習來提高自己的實力。堪薩斯城的氣候和場地將對英格蘭隊的培訓產生影響。這次培訓將是英格蘭隊的重要一步，球員們將透過這些練習來準備面對世界盃的挑戰。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "e25e732e",
         "title": "川普本周將訪問中國會見習近平，伊朗戰爭和貿易糾紛籠罩峰會",
         "url": "https://www.theguardian.com/us-news/live/2026/may/11/trump-china-iran-trade-warsh-politics-live",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Mon, 11 May 2026 23:36:59 GMT",
+        "published_at": "Tue, 12 May 2026 00:39:30 GMT",
         "summary_zh": "川普總統將於本周訪問中國會見習近平，這將是近十年來第一位訪問中國的美國總統，川普在2017年曾訪問中國。然而，考慮到川普第二任期的發展情況，包括貿易戰和與伊朗的戰爭，這次會面的氣氛將大不相同。伊朗戰爭導致全球石油和天然氣價格大幅上升，貿易糾紛則使得兩國關係緊張。川普訪問中國的時機選擇頗為敏感，許多人關注這次會議將如何影響兩國的關係和全球政治格局。",
         "sentiment": "中性",
         "is_breaking": true,
@@ -140,68 +176,44 @@
         "sentiment": "正面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "ac461571",
-        "title": "赫格斯特稱五角大樓將審查凱利的美國武器儲備言論",
-        "url": "https://www.theguardian.com/us-news/2026/may/11/pentagon-hegseth-mark-kelly-investigation",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 11 May 2026 14:57:52 GMT",
-        "summary_zh": "美國國防部長赫格斯特指控參議員凱利泄露機密情報，但凱利表示這些信息並非機密，而是來自國防部長赫格斯特的公開言論。赫格斯特稱已將凱利轉介給五角大樓律師，懷疑凱利在公開場合下，口頭承諾下泄露了關於美國武器儲備的機密情報。參議員凱利在CBS新聞的《面對面》節目中表示，美國的戰斧巡航導彈、陸軍戰術導彈系統、SM-3拦截器、泰達炮彈和霹靂炮彈儲備在伊朗衝突期間大幅減少，警告說補充這些武器可能需要數年時間，並可能在未來與中國的任何衝突中使美國暴露無補。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "66c9a7f9",
-        "title": "BBC探訪英格蘭和阿根廷世界盃培訓基地",
-        "url": "https://www.bbc.com/news/videos/clypw107dqzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 11 May 2026 07:53:53 GMT",
-        "summary_zh": "英格蘭足球代表隊將在美國堪薩斯城進行世界盃培訓。BBC記者威爾·格蘭特（Will Grant）前往堪薩斯城一探究竟，了解英格蘭隊的培訓情況。他們將在這裡進行練習，準備面對世界盃的挑戰。這次培訓將對英格蘭隊的表現有所影響，球員們將透過這些練習來提高自己的實力。堪薩斯城的氣候和場地將對英格蘭隊的培訓產生影響。這次培訓將是英格蘭隊的重要一步，球員們將透過這些練習來準備面對世界盃的挑戰。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "063c0001",
-        "title": "川普稱伊朗停火是「生死關頭」",
-        "url": "https://www.bbc.com/news/articles/cvgznxn18zgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 11 May 2026 18:17:34 GMT",
-        "summary_zh": "美國總統川普批評伊朗對於結束戰爭的反應計畫，稱這個月長的停火是「令人難以置信地軟弱」。伊朗的計畫被視為對美國提出的停火建議的回應，但川普認為這個計畫是不夠強力的。川普的評論表明美國對伊朗的停火計畫有著嚴重的懷疑。伊朗的計畫將會對地區的和平產生重大影響，川普的評論可能會加劇地區的緊張局勢。美國和伊朗之間的關係一直處於緊張狀態，川普的評論可能會進一步加劇這種緊張局勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "52da981d",
-        "title": "華盛頓晚宴槍擊案嫌犯認罪",
-        "url": "https://www.bbc.com/news/articles/c4g48ewgz8mo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 11 May 2026 14:52:12 GMT",
-        "summary_zh": "華盛頓晚宴槍擊案的嫌犯 Cole Tomas Allen（31歲）被控企圖暗殺美國總統唐納德·川普。這起槍擊案發生在一場晚宴上，嫌犯被控使用槍枝企圖對總統發動攻擊。這起事件引起了美國政治界的關注，許多人對總統安全的問題表示擔憂。目前，嫌犯已被控犯有企圖暗殺總統的罪行，案件正在進行中。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "global": [
       {
-        "id": "6d3de632",
-        "title": "美國和墨西哥準備迎接高溫潮 南非遭遇致命洪水",
-        "url": "https://www.theguardian.com/environment/2026/may/11/weather-tracker-us-mexico-heatwave-floods-south-africa",
-        "source": "Guardian World",
+        "id": "f0cfc56a",
+        "title": "特朗普與習近平峰會將為超級大國關係定下多年格局",
+        "url": "https://www.bbc.com/news/articles/ceqprgen1nyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "Mon, 11 May 2026 08:18:29 GMT",
-        "summary_zh": "近日，美國和墨西哥正面臨著嚴重的高溫潮。根據預測，西部地區的氣壓高峰將導致氣溫遠超季節平均值，預計日間最高氣溫將超過正常值 10-15 度。美國國家氣象局已發布高溫警報，對加利福尼亞州和亞利桑那州的部分地區發出極端高溫警告，預計溫度將達到 40-43 度（104-110 度）。此外，氣溫預計將升至高 30 度的區域，隨後將東移至中西部地區。南非西北部和北部的西開普省和北開普省正遭受嚴重的洪水，造成人命和財產損失。",
+        "published_at": "Mon, 11 May 2026 23:20:53 GMT",
+        "summary_zh": "特朗普對中國的訪問是近年來最具重要性的外交行程，但這次峰會是否能夠帶來實際成果仍存疑。特朗普與習近平的會面將為兩國關係定下多年格局，影響到全球政治經濟格局。這次會面將針對貿易、軍事、氣候等多個領域進行協商，兩國領導人將就如何合作、競爭等問題達成共識。然而，兩國之間的關係複雜多變，外界對會面的成果存疑。特朗普的訪問將為兩國關係帶來新的變數，影響到全球政治經濟格局。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7d33dd63",
+        "title": "美國回國飛機上一名乘客疑似感染黑死病毒",
+        "url": "https://www.bbc.com/news/articles/cjep78l5835o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 20:49:14 GMT",
+        "summary_zh": "美國政府正在安排 17 名美國公民回國，期間發現其中一名乘客疑似感染黑死病毒。根據美國衛生部的報告，這名乘客的症狀相對輕微。黑死病毒是一種由黑死老鼠傳播的疾病，通常會導致嚴重的肺部感染和出血性疾病。美國衛生部正在密切監測這名乘客的健康狀況，並正在與當地當局合作進行追蹤和控制工作。這一事件引起了對公共衛生和旅行安全的關注。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "1816d361",
+        "title": "美國密切磋商開設格陵蘭新軍事基地",
+        "url": "https://www.bbc.com/news/articles/cx21669452lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 23:56:11 GMT",
+        "summary_zh": "格陵蘭位於北極圈南部，是一塊冰雪覆蓋的島嶼。美國政府正在與格陵蘭當局密切磋商，希望在該島南部開設三座新的軍事基地。根據多位與談判有關的官員透露，這一計畫正在進行中。這一發展引起了國際關注，許多人認為這可能是美國在北極圈的軍事存在加強的一部分。格陵蘭的位置使得它成為北極圈的重要據點，美國政府可能希望在該島建立軍事據點以應對北極圈的安全挑戰。然而，這一計畫也引起了格陵蘭當局和國際社會的擔憂，是否美國的軍事存在會對該島的環境和文化產生負面影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "55af72b3",
@@ -212,8 +224,44 @@
         "published_at": "Tue, 12 May 2026 04:59:12 +0800",
         "summary_zh": "美國總統川普聲稱，美國與伊朗的停火岌岌可危，這代表荷莫茲海峽航運受阻狀況可能持續下去。受此消息影響，國際油價今天攀漲。荷莫茲海峽是伊朗與阿拉伯聯合大公國之間的海峽，為全球重要的石油運輸通道。川普的聲明使得市場擔心，伊朗可能會繼續干擾航運，導致油價上漲。這項消息也使得投資者對全球經濟的前景感到擔憂。",
         "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e754a4b5",
+        "title": "美國乘客被隔離檢疫 美國官員稱公共風險極低",
+        "url": "https://www.bbc.com/news/articles/cwy2e9e1g0wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 23:31:37 GMT",
+        "summary_zh": "一艘船上的美國乘客被檢測出患有安地斯病毒（Andes virus），這是一種罕見的罕天病毒。另外一名乘客出現輕微症狀。美國官員表示，公共風險極低。這名受感染者被隔離檢疫，其他乘客則被要求進行自我隔離。官員們正在密切監測病毒的傳播情況。安地斯病毒是一種罕見的病毒，主要影響南美洲的山區地區。美國官員們正在與南美洲國家合作，共同應對這次疫情。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b74b43ff",
+        "title": "歐盟同意對以色列西岸定居點實施制裁",
+        "url": "https://www.bbc.com/news/articles/c202wp2rl09o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 19:37:17 GMT",
+        "summary_zh": "歐盟外交政策高級代表表示「極端主義和暴力會有後果」, 而以色列政府則批評這項決定是「任意的」。這項制裁是針對近期西岸定居點的暴力事件，歐盟希望通過這項措施來促進和平。然而, 以色列政府認為這項決定是對其主權的侵犯, 並表示將會對此進行反應。這項事件的影響可能會延伸到整個中東地區, 因為它涉及到兩個重要的政治實體之間的緊張關係。未來, 歐盟和以色列政府可能會繼續進行對話, 以尋求解決方案, 並確保這項制裁不會對和平進程造成不必要的干擾。",
+        "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
+      },
+      {
+        "id": "738d34aa",
+        "title": "英國重回歐洲核心？史達默的計畫如何在歐盟受到反應？",
+        "url": "https://www.bbc.com/news/articles/cwy2k7re9jdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 17:15:52 GMT",
+        "summary_zh": "英國工黨領袖史達默在星期一發表堅定的演說，承諾重建英國與歐洲的關係。這一計畫引起了歐盟的關注，歐盟成員國對英國的態度逐漸轉變。史達默的計畫將如何影響英國與歐洲的關係，還有未來的發展方向，目前仍在觀察中。這一變化將對英國的政治格局產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "2d0c031f",
@@ -224,31 +272,79 @@
         "published_at": "Tue, 12 May 2026 01:45:00 +0800",
         "summary_zh": "中東情勢再陷僵局，伊朗提出結束中東地區戰爭的相關條件遭到美國總統川普拒絕。這一事件導致歐洲股市主要指數今天收盤走勢分歧。伊朗的條件包括美國撤出伊拉克、停止對伊朗的經濟制裁等。然而，美國總統川普拒絕這一要求，表示美國不會讓步。這一僵局導致歐洲股市的投資者感到擔憂，導致股市的走勢分歧。歐洲股市主要指數今天收盤漲跌互見，投資者需要密切關注這一情勢的發展。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
-        "id": "9759f769",
-        "title": "墨西哥毒品幫攻擊逼迫數百名原住民家庭流離失所",
-        "url": "https://www.theguardian.com/world/2026/may/11/drug-gang-attacks-force-hundreds-of-indigenous-families-to-flee-in-mexico",
-        "source": "Guardian World",
+        "id": "b86fdfd1",
+        "title": "觀看: 阿拉斯加小鎮將無日落直到八月",
+        "url": "https://www.bbc.com/news/videos/cgjpg20xgy5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Mon, 11 May 2026 18:15:20 GMT",
-        "summary_zh": "墨西哥中部山區的原住民家庭因為毒品幫的攻擊而被迫流離失所，包括無人機轟炸。根據一間原住民權益組織的說法，近期來自洛斯阿迪略斯幫的攻擊在過去一個星期內達到了高峰，導致800至1000間家庭被迫逃離家園。這間組織表示，洛斯阿迪略斯幫在過去多年來一直在瓜達拉哈拉州進行攻擊，但近期的攻擊更加頻繁。周六，該幫的攻擊持續了八個小時，迫使數百名原住民家庭逃往附近的城市。這種暴力行為對當地原住民社區造成了嚴重影響，許多家庭被迫流離失所，失去家園和生計。墨西哥政府應該採取措施保護這些脆弱的社區，防止這種暴力行為繼續發生。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "published_at": "Mon, 11 May 2026 21:05:29 GMT",
+        "summary_zh": "阿拉斯加的尤提克維克（Utqiagvik）是美國最北端的城市，居民將要經歷 84 天的極夜，白天不會有日落。尤提克維克位於北極圈內，當地居民在夏季會經歷極夜，白天不會有日落。這種現象是由於地球的軌道使得太陽在夏季時不會下沉到地平線以下。居民們會在這段時間內享受長達 24 小時的白天，同時也會面臨極夜的挑戰。尤提克維克的居民們會如何應對這種特殊的天氣情況？",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
-        "id": "ca4cc166",
-        "title": "六人在德克薩斯-墨西哥邊境附近的鐵路貨場內被發現死亡",
-        "url": "https://www.theguardian.com/us-news/2026/may/11/six-people-found-dead-train-car-texas-mexico-border",
-        "source": "Guardian World",
+        "id": "d7a5974c",
+        "title": "南非總統拒絕下台　面對彈劾要求",
+        "url": "https://www.bbc.com/news/articles/c9369q3g7w7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "global",
-        "published_at": "Mon, 11 May 2026 14:27:01 GMT",
-        "summary_zh": "德克薩斯州的鐵路工人在週日下午在墨西哥邊境附近的鐵路貨場內發現六名人士死亡。事件發生在拉雷多的聯合太平洋鐵路貨場內，當地警方表示，聯合太平洋鐵路公司的一名員工在檢查停靠的火車時發現了這六名死亡人士。警方表示，這六名人士是在火車車廂內被發現的。這起事件的原因尚未明確，當地警方正在調查中。這起事件的發生對當地鐵路業和社區都造成了影響，當地警方正在努力解決這起事件。",
+        "published_at": "Mon, 11 May 2026 21:44:20 GMT",
+        "summary_zh": "南非總統西里爾·拉馬福薩（Cyril Ramaphosa）週一晚間表示，他不會辭職，儘管近日有彈劾他的呼聲不斷升高。拉馬福薩的說法，結束了對他的未來的猜測。南非議會的議員們，近日一直在討論是否要彈劾拉馬福薩。拉馬福薩的辭職，將會讓副總統帕西瓦·莫托拉（David Mabuza）接任總統職位。然而，拉馬福薩的決定，意味著他將會繼續擔任總統職位，直到他的任期結束。南非的政治情勢，近日一直處於動盪之中，拉馬福薩的決定，可能會影響到未來的政治發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0366927e",
+        "title": "南非海域船隻避開中東衝突　可能威脅鯨魚",
+        "url": "https://www.bbc.com/news/articles/cz02dkkd9j9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 14:22:07 GMT",
+        "summary_zh": "近年來，由於中東地區的衝突，許多船隻改道繞過好望角（Cape of Good Hope），避免與中東地區的船隻碰撞。然而，這些船隻的新航線可能會威脅到南非海域的鯨魚。根據最新的研究結果顯示，鯨魚可能會因為船隻的噪音和排放物而受到影響。研究人員認為，鯨魚的數量和分布可能會受到這些船隻的新航線的影響。南非政府正在考慮如何保護鯨魚的生態環境。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "68634312",
+        "title": "前世界銀行行長稱中國應停止囤積糧食和肥料",
+        "url": "https://www.bbc.com/news/articles/cwy2rnyg50zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 12 May 2026 00:02:58 GMT",
+        "summary_zh": "前世界銀行行長大衛·馬爾帕斯（David Malpass）在美國總統唐納德·川普（Donald Trump）和中國國家主席習近平（Xi Jinping）即將在北京會面的背景下，發表了這番意見。他認為中國應該停止囤積糧食和肥料，讓全球糧食市場恢復正常流通。馬爾帕斯的意見是基於他對全球糧食安全的擔憂，他認為中國的囤積行為可能會導致糧食短缺和價格上漲。這一問題對於全球糧食安全和穩定有重要影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "6c8c8634",
+        "title": "納粹盜劫的肖像畫被發現在荷蘭SS領袖後代家中",
+        "url": "https://www.bbc.com/news/articles/cgmpj0p9k08o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 18:27:21 GMT",
+        "summary_zh": "二戰期間，高級納粹赫爾曼·戈林盜劫了一幅肖像畫。這幅畫被認為是在二戰期間被高級納粹赫爾曼·戈林盜劫的。該畫目前被發現在荷蘭SS領袖後代家中。這幅畫的身份仍未被確認，但已經被送往專家進行鑑定。這一發現引發了關於戰爭盜竊的爭議，許多人正在呼籲將這幅畫歸還給原主人或其家屬。這一事件也提醒了我們戰爭盜竊的嚴重性和對歷史遺產的破壞。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "fb2d78f0",
+        "title": "馬斯克與庫克等企業家將隨同川普訪華",
+        "url": "https://www.bbc.com/news/articles/c5yx757w048o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 18:26:20 GMT",
+        "summary_zh": "美國總統川普將於訪華期間會見中國國家主席習近平。根據消息，川普將攜帶 17 位美國企業家前往中國，包括特斯拉創辦人馬斯克和蘋果執行長庫克等。這次訪問將是川普與習近平會面後的首次會晤，雙方將就經濟、貿易等問題進行溝通。這次會晤對於中美關係的發展將具有重要影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -264,13 +360,13 @@
         "ai_classified": true
       },
       {
-        "id": "e6acc966",
-        "title": "18歲芝加哥少年為父母爭取ICE釋放權，身患末期癌症去世",
-        "url": "https://www.theguardian.com/us-news/2026/may/11/chicago-teen-kevin-gonzalez-ice-cancer",
-        "source": "Guardian World",
+        "id": "867f061d",
+        "title": "尼日利亞漁民遭查德空襲恐逝世四十餘人",
+        "url": "https://www.bbc.com/news/articles/cr5p85v446ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "global",
-        "published_at": "Mon, 11 May 2026 14:01:59 GMT",
-        "summary_zh": "芝加哥出生的18歲少年凱文·岡薩雷茲（Kevin González）在與父母團聚數天後因末期結腸癌去世。他在去年四月份的時候，因為父母被美國移民和海關執法局（ICE）扣押，為了能與兒子團聚，他們從墨西哥越境進入美國。凱文在這段期間內，身體狀況惡化，父母被ICE扣押的消息傳出後，凱文開始為父母呼籲釋放，希望能與父母在一起度過生命的最後時光。最後，凱文成功與父母團聚在墨西哥，但不幸在短暫的團聚後，凱文因癌症去世。",
+        "published_at": "Mon, 11 May 2026 16:30:04 GMT",
+        "summary_zh": "查德空襲尼日利亞境內的博科哈蘭（Boko Haram）據稱造成四十餘名尼日利亞漁民死亡。漁民領袖向BBC表示，這些人在空襲中喪生，或是在逃跑時溺水身亡。這次空襲是查德政府對博科哈蘭的反恐行動的一部分。博科哈蘭是一個伊斯蘭極端組織，已經造成了尼日利亞和周邊地區的嚴重安全問題。這次空襲的影響還不清楚，但它可能會加劇當地的安全緊張局勢。尼日利亞政府和查德政府都沒有立即發表評論。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -288,27 +384,51 @@
         "ai_classified": true
       },
       {
-        "id": "5c4508b7",
-        "title": "伊朗稱絕不屈服，特朗普拒絕和平對等方案，延長中東衝突",
-        "url": "https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html",
-        "source": "Cnbc",
+        "id": "10ccf81c",
+        "title": "特朗普和習近平即將會面，中美貿易戰的關鍵點在哪裡？",
+        "url": "https://www.bbc.com/news/articles/c3rz75rgn8zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "2026-05-11 02:21:44",
-        "summary_zh": "伊朗政府最近表示，將不會屈服於外部壓力，繼續堅持自己的立場。這一表態出現在美國總統特朗普拒絕伊朗的和平對等方案之後。伊朗政府表示，將不會讓步，將繼續堅持自己的主張。這一表態顯示，伊朗仍然堅持自己的立場，拒絕接受外部壓力。伊朗的這一表態也表明，中東地區的衝突仍然沒有解決的跡象。美國政府試圖通過與北京的合作，來壓力伊朗重新開放霍爾木茲海峽，但中國是否願意扮演壓力機制的角色，仍然存在疑問。",
+        "published_at": "Mon, 11 May 2026 09:26:33 GMT",
+        "summary_zh": "近10年來首次的美國總統訪問中國將考驗脆弱的貿易戰和緩和協議。美國總統特朗普和中國國家主席習近平即將在北京會面，這將是兩國近10年來首次的最高級別會面。這次會面將考驗兩國在貿易戰和緩和協議上的關係。美國和中國近年來一直在貿易戰中互相施壓，雙方都對對方的貿易政策感到不滿。然而，近期雙方都表明願意對貿易戰進行緩和，特朗普和習近平的會面將是這一努力的關鍵點。會面將對中美貿易戰的未來發展產生重大影響，將會影響兩國的經濟和貿易政策。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "61f0d19d",
+        "title": "警方發現疑似逃犯澳洲槍手屍體",
+        "url": "https://www.bbc.com/news/articles/cdjp9vzxlz7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 09:44:29 GMT",
+        "summary_zh": "一名男子在新南威爾士州被發現身亡，警方懷疑他是因 triple murder 逃亡的嫌犯。這名男子被警方追捕多日，相關的 triple murder 案件引起了社會的關注。警方正在進行調查，確認死者身份後將會對其進行處理。這個案件的發生，讓當地居民感到不安，同時也引起了社會對安全的關注。目前，警方仍在調查中，尚未公布死者的身份。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4158dc4d",
+        "title": "伊朗警告美國制裁將導致嚴重後果",
+        "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 01:55:13 GMT",
+        "summary_zh": "伊朗發出警告，指出遵守美國制裁將導致嚴重後果。這一警告發生在一艘商船在卡塔爾附近被擊中之際，聯合阿拉伯酋長國（UAE）和科威特也報告了無人機攻擊事件。伊朗的警告顯示，該國對美國制裁的反應日漸強烈。這一事件也引發了對中東地區安全局勢的擔憂。美國制裁對伊朗的經濟和政治影響已經很大，而伊朗的警告表明，該國不打算輕易屈服。這一局勢的發展將對全球能源市場和政治格局產生重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "665e1399",
-        "title": "CNBC 日誌開放: 伊朗建議、川普反對、習近平觀察",
-        "url": "https://www.cnbc.com/2026/05/11/cnbc-daily-open-iran-proposes-trump-opposes-xi-watches.html",
-        "source": "Cnbc",
+        "id": "9cb37b0e",
+        "title": "泰國前總理施米的出獄，但是施米時代是否結束?",
+        "url": "https://www.bbc.com/news/articles/c99l1590kr0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "2026-05-11 01:17:36",
-        "summary_zh": "伊朗戰爭焦點將在會談中佔據中心地位，這可能會減少解決關稅和稀土供應等問題的空間。伊朗戰爭的焦點將在會談中佔據中心地位，這可能會減少解決關稅和稀土供應等問題的空間。這意味著美國和伊朗之間的談判可能會更加困難。美國和伊朗之間的談判可能會更加困難，因為伊朗的戰爭焦點會佔據中心地位。這可能會影響到兩國之間的貿易和經濟關係。伊朗戰爭的影響將會在未來的會談中被觀察到。",
+        "published_at": "Mon, 11 May 2026 03:41:34 GMT",
+        "summary_zh": "泰國前總理施米出獄後，泰國政治仍然充滿不確定性。施米曾經在2006年被推翻，之後他在國外生活多年。雖然他出獄後仍然在政治舞台上扮演重要角色，但泰國政府仍然對他有所限制。施米的出獄可能是泰國政治的轉捩點，但仍然有很多不確定性。泰國政治的未來將取決於施米的下一步行動。",
         "sentiment": "中性",
-        "is_breaking": true,
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -336,171 +456,51 @@
         "ai_classified": true
       },
       {
-        "id": "e754a4b5",
-        "title": "美國乘客被隔離檢疫 美國官員稱公共風險極低",
-        "url": "https://www.bbc.com/news/articles/cwy2e9e1g0wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "6d3de632",
+        "title": "美國和墨西哥準備迎接高溫潮 南非遭遇致命洪水",
+        "url": "https://www.theguardian.com/environment/2026/may/11/weather-tracker-us-mexico-heatwave-floods-south-africa",
+        "source": "Guardian World",
         "category": "global",
-        "published_at": "Mon, 11 May 2026 23:31:37 GMT",
-        "summary_zh": "一艘船上的美國乘客被檢測出患有安地斯病毒（Andes virus），這是一種罕見的罕天病毒。另外一名乘客出現輕微症狀。美國官員表示，公共風險極低。這名受感染者被隔離檢疫，其他乘客則被要求進行自我隔離。官員們正在密切監測病毒的傳播情況。安地斯病毒是一種罕見的病毒，主要影響南美洲的山區地區。美國官員們正在與南美洲國家合作，共同應對這次疫情。",
+        "published_at": "Mon, 11 May 2026 08:18:29 GMT",
+        "summary_zh": "近日，美國和墨西哥正面臨著嚴重的高溫潮。根據預測，西部地區的氣壓高峰將導致氣溫遠超季節平均值，預計日間最高氣溫將超過正常值 10-15 度。美國國家氣象局已發布高溫警報，對加利福尼亞州和亞利桑那州的部分地區發出極端高溫警告，預計溫度將達到 40-43 度（104-110 度）。此外，氣溫預計將升至高 30 度的區域，隨後將東移至中西部地區。南非西北部和北部的西開普省和北開普省正遭受嚴重的洪水，造成人命和財產損失。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "fb2d78f0",
-        "title": "馬斯克與庫克等企業家將隨同川普訪華",
-        "url": "https://www.bbc.com/news/articles/c5yx757w048o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "9759f769",
+        "title": "墨西哥毒品幫攻擊逼迫數百名原住民家庭流離失所",
+        "url": "https://www.theguardian.com/world/2026/may/11/drug-gang-attacks-force-hundreds-of-indigenous-families-to-flee-in-mexico",
+        "source": "Guardian World",
         "category": "global",
-        "published_at": "Mon, 11 May 2026 18:26:20 GMT",
-        "summary_zh": "美國總統川普將於訪華期間會見中國國家主席習近平。根據消息，川普將攜帶 17 位美國企業家前往中國，包括特斯拉創辦人馬斯克和蘋果執行長庫克等。這次訪問將是川普與習近平會面後的首次會晤，雙方將就經濟、貿易等問題進行溝通。這次會晤對於中美關係的發展將具有重要影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b86fdfd1",
-        "title": "觀看: 阿拉斯加小鎮將無日落直到八月",
-        "url": "https://www.bbc.com/news/videos/cgjpg20xgy5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 21:05:29 GMT",
-        "summary_zh": "阿拉斯加的尤提克維克（Utqiagvik）是美國最北端的城市，居民將要經歷 84 天的極夜，白天不會有日落。尤提克維克位於北極圈內，當地居民在夏季會經歷極夜，白天不會有日落。這種現象是由於地球的軌道使得太陽在夏季時不會下沉到地平線以下。居民們會在這段時間內享受長達 24 小時的白天，同時也會面臨極夜的挑戰。尤提克維克的居民們會如何應對這種特殊的天氣情況？",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "10ccf81c",
-        "title": "特朗普和習近平即將會面，中美貿易戰的關鍵點在哪裡？",
-        "url": "https://www.bbc.com/news/articles/c3rz75rgn8zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 09:26:33 GMT",
-        "summary_zh": "近10年來首次的美國總統訪問中國將考驗脆弱的貿易戰和緩和協議。美國總統特朗普和中國國家主席習近平即將在北京會面，這將是兩國近10年來首次的最高級別會面。這次會面將考驗兩國在貿易戰和緩和協議上的關係。美國和中國近年來一直在貿易戰中互相施壓，雙方都對對方的貿易政策感到不滿。然而，近期雙方都表明願意對貿易戰進行緩和，特朗普和習近平的會面將是這一努力的關鍵點。會面將對中美貿易戰的未來發展產生重大影響，將會影響兩國的經濟和貿易政策。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7d33dd63",
-        "title": "美國回國飛機上一名乘客疑似感染黑死病毒",
-        "url": "https://www.bbc.com/news/articles/cjep78l5835o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 20:49:14 GMT",
-        "summary_zh": "美國政府正在安排 17 名美國公民回國，期間發現其中一名乘客疑似感染黑死病毒。根據美國衛生部的報告，這名乘客的症狀相對輕微。黑死病毒是一種由黑死老鼠傳播的疾病，通常會導致嚴重的肺部感染和出血性疾病。美國衛生部正在密切監測這名乘客的健康狀況，並正在與當地當局合作進行追蹤和控制工作。這一事件引起了對公共衛生和旅行安全的關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4158dc4d",
-        "title": "伊朗警告美國制裁將導致嚴重後果",
-        "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 01:55:13 GMT",
-        "summary_zh": "伊朗發出警告，指出遵守美國制裁將導致嚴重後果。這一警告發生在一艘商船在卡塔爾附近被擊中之際，聯合阿拉伯酋長國（UAE）和科威特也報告了無人機攻擊事件。伊朗的警告顯示，該國對美國制裁的反應日漸強烈。這一事件也引發了對中東地區安全局勢的擔憂。美國制裁對伊朗的經濟和政治影響已經很大，而伊朗的警告表明，該國不打算輕易屈服。這一局勢的發展將對全球能源市場和政治格局產生重大影響。",
+        "published_at": "Mon, 11 May 2026 18:15:20 GMT",
+        "summary_zh": "墨西哥中部山區的原住民家庭因為毒品幫的攻擊而被迫流離失所，包括無人機轟炸。根據一間原住民權益組織的說法，近期來自洛斯阿迪略斯幫的攻擊在過去一個星期內達到了高峰，導致800至1000間家庭被迫逃離家園。這間組織表示，洛斯阿迪略斯幫在過去多年來一直在瓜達拉哈拉州進行攻擊，但近期的攻擊更加頻繁。周六，該幫的攻擊持續了八個小時，迫使數百名原住民家庭逃往附近的城市。這種暴力行為對當地原住民社區造成了嚴重影響，許多家庭被迫流離失所，失去家園和生計。墨西哥政府應該採取措施保護這些脆弱的社區，防止這種暴力行為繼續發生。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "61f0d19d",
-        "title": "警方發現疑似逃犯澳洲槍手屍體",
-        "url": "https://www.bbc.com/news/articles/cdjp9vzxlz7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "id": "ca4cc166",
+        "title": "六人在德克薩斯-墨西哥邊境附近的鐵路貨場內被發現死亡",
+        "url": "https://www.theguardian.com/us-news/2026/may/11/six-people-found-dead-train-car-texas-mexico-border",
+        "source": "Guardian World",
         "category": "global",
-        "published_at": "Mon, 11 May 2026 09:44:29 GMT",
-        "summary_zh": "一名男子在新南威爾士州被發現身亡，警方懷疑他是因 triple murder 逃亡的嫌犯。這名男子被警方追捕多日，相關的 triple murder 案件引起了社會的關注。警方正在進行調查，確認死者身份後將會對其進行處理。這個案件的發生，讓當地居民感到不安，同時也引起了社會對安全的關注。目前，警方仍在調查中，尚未公布死者的身份。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9cb37b0e",
-        "title": "泰國前總理施米的出獄，但是施米時代是否結束?",
-        "url": "https://www.bbc.com/news/articles/c99l1590kr0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 03:41:34 GMT",
-        "summary_zh": "泰國前總理施米出獄後，泰國政治仍然充滿不確定性。施米曾經在2006年被推翻，之後他在國外生活多年。雖然他出獄後仍然在政治舞台上扮演重要角色，但泰國政府仍然對他有所限制。施米的出獄可能是泰國政治的轉捩點，但仍然有很多不確定性。泰國政治的未來將取決於施米的下一步行動。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d7a5974c",
-        "title": "南非總統拒絕下台　面對彈劾要求",
-        "url": "https://www.bbc.com/news/articles/c9369q3g7w7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 21:44:20 GMT",
-        "summary_zh": "南非總統西里爾·拉馬福薩（Cyril Ramaphosa）週一晚間表示，他不會辭職，儘管近日有彈劾他的呼聲不斷升高。拉馬福薩的說法，結束了對他的未來的猜測。南非議會的議員們，近日一直在討論是否要彈劾拉馬福薩。拉馬福薩的辭職，將會讓副總統帕西瓦·莫托拉（David Mabuza）接任總統職位。然而，拉馬福薩的決定，意味著他將會繼續擔任總統職位，直到他的任期結束。南非的政治情勢，近日一直處於動盪之中，拉馬福薩的決定，可能會影響到未來的政治發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6c8c8634",
-        "title": "納粹盜劫的肖像畫被發現在荷蘭SS領袖後代家中",
-        "url": "https://www.bbc.com/news/articles/cgmpj0p9k08o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 18:27:21 GMT",
-        "summary_zh": "二戰期間，高級納粹赫爾曼·戈林盜劫了一幅肖像畫。這幅畫被認為是在二戰期間被高級納粹赫爾曼·戈林盜劫的。該畫目前被發現在荷蘭SS領袖後代家中。這幅畫的身份仍未被確認，但已經被送往專家進行鑑定。這一發現引發了關於戰爭盜竊的爭議，許多人正在呼籲將這幅畫歸還給原主人或其家屬。這一事件也提醒了我們戰爭盜竊的嚴重性和對歷史遺產的破壞。",
+        "published_at": "Mon, 11 May 2026 14:27:01 GMT",
+        "summary_zh": "德克薩斯州的鐵路工人在週日下午在墨西哥邊境附近的鐵路貨場內發現六名人士死亡。事件發生在拉雷多的聯合太平洋鐵路貨場內，當地警方表示，聯合太平洋鐵路公司的一名員工在檢查停靠的火車時發現了這六名死亡人士。警方表示，這六名人士是在火車車廂內被發現的。這起事件的原因尚未明確，當地警方正在調查中。這起事件的發生對當地鐵路業和社區都造成了影響，當地警方正在努力解決這起事件。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "0366927e",
-        "title": "南非海域船隻避開中東衝突　可能威脅鯨魚",
-        "url": "https://www.bbc.com/news/articles/cz02dkkd9j9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "e6acc966",
+        "title": "18歲芝加哥少年為父母爭取ICE釋放權，身患末期癌症去世",
+        "url": "https://www.theguardian.com/us-news/2026/may/11/chicago-teen-kevin-gonzalez-ice-cancer",
+        "source": "Guardian World",
         "category": "global",
-        "published_at": "Mon, 11 May 2026 14:22:07 GMT",
-        "summary_zh": "近年來，由於中東地區的衝突，許多船隻改道繞過好望角（Cape of Good Hope），避免與中東地區的船隻碰撞。然而，這些船隻的新航線可能會威脅到南非海域的鯨魚。根據最新的研究結果顯示，鯨魚可能會因為船隻的噪音和排放物而受到影響。研究人員認為，鯨魚的數量和分布可能會受到這些船隻的新航線的影響。南非政府正在考慮如何保護鯨魚的生態環境。",
+        "published_at": "Mon, 11 May 2026 14:01:59 GMT",
+        "summary_zh": "芝加哥出生的18歲少年凱文·岡薩雷茲（Kevin González）在與父母團聚數天後因末期結腸癌去世。他在去年四月份的時候，因為父母被美國移民和海關執法局（ICE）扣押，為了能與兒子團聚，他們從墨西哥越境進入美國。凱文在這段期間內，身體狀況惡化，父母被ICE扣押的消息傳出後，凱文開始為父母呼籲釋放，希望能與父母在一起度過生命的最後時光。最後，凱文成功與父母團聚在墨西哥，但不幸在短暫的團聚後，凱文因癌症去世。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "867f061d",
-        "title": "尼日利亞漁民遭查德空襲恐逝世四十餘人",
-        "url": "https://www.bbc.com/news/articles/cr5p85v446ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 16:30:04 GMT",
-        "summary_zh": "查德空襲尼日利亞境內的博科哈蘭（Boko Haram）據稱造成四十餘名尼日利亞漁民死亡。漁民領袖向BBC表示，這些人在空襲中喪生，或是在逃跑時溺水身亡。這次空襲是查德政府對博科哈蘭的反恐行動的一部分。博科哈蘭是一個伊斯蘭極端組織，已經造成了尼日利亞和周邊地區的嚴重安全問題。這次空襲的影響還不清楚，但它可能會加劇當地的安全緊張局勢。尼日利亞政府和查德政府都沒有立即發表評論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0f17dd19",
-        "title": "波斯尼亞和黑塞哥維那和平大使突然辭職，美國支持意見不明朗",
-        "url": "https://www.bbc.com/news/articles/cg5pvj5pg51o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 13:14:30 GMT",
-        "summary_zh": "波斯尼亞和黑塞哥維那和平大使克里斯蒂安·施密特（Christian Schmidt）自2021年起擔任此職，近日突然辭職。據了解，他的辭職與美國對他的支持意見不明朗有關。施密特的辭職將對波斯尼亞和黑塞哥維那的和平過程產生重大影響。波斯尼亞和黑塞哥維那的政治局勢一直處於不穩定狀態，美國的支持對於地區和平至關重要。美國的態度變化可能會影響波斯尼亞和黑塞哥維那的政治格局。波斯尼亞和黑塞哥維那的未來發展將受到美國的支持意見影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5cc93c5a",
-        "title": "伊朗諾貝爾獎得主病情惡化獲准保釋並轉院治療",
-        "url": "https://www.bbc.com/news/articles/c1j257w87neo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 10:16:50 GMT",
-        "summary_zh": "伊朗當局在對人權活動家納吉斯·莫哈末迪 (Narges Mohammadi) 的健康狀況惡化而引起擔憂的情況下，批准她保釋。莫哈末迪曾獲得諾貝爾和平獎的提名，目前被伊朗當局關押。伊朗當局的決定被視為對她的健康狀況表示關注的一個步驟。然而，人權組織仍對她的處境表示擔憂，擔心她可能面臨不公平的對待。莫哈末迪的病情惡化引起了國際社會的關注，許多人呼籲伊朗當局釋放她並讓她接受適當的醫療照護。",
-        "sentiment": "正面",
-        "is_breaking": false,
         "ai_classified": true
       }
     ],
@@ -566,6 +566,30 @@
         "ai_classified": true
       },
       {
+        "id": "0bfc24c7",
+        "title": "Nvidia證明自己是一家軟體公司：CUDA的深淵",
+        "url": "https://www.wired.com/story/cuda-proves-nvidia-is-a-software-company/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Mon, 11 May 2026 10:00:00 +0000",
+        "summary_zh": "近年來，Nvidia在硬體領域的成功讓人們誤以為這家公司只是專注於半導體製造。然而，Nvidia的實力遠不止於此。CUDA是一個開放原始碼的程式庫，能夠讓程式設計師在GPU上執行高效的運算。這使得Nvidia能夠在軟體領域佔據重要地位。事實上，CUDA的深淵已經成為業界的一道屏障，讓競爭者難以跨越。Nvidia的成功不僅僅是因為硬體的優勢，而是因為它的軟體能力。這使得Nvidia能夠在AI、深度學習等領域佔據領先地位。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7e09d054",
+        "title": "好萊塢業界人士：以前的電視劇編劇現在都在暗地裡訓練AI",
+        "url": "https://www.wired.com/story/i-work-in-hollywood-everyone-who-used-to-make-tv-now-training-ai/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Mon, 11 May 2026 10:00:00 +0000",
+        "summary_zh": "好萊塢的編劇們，包括我在內，都在秘密地訓練AI。這種情況在全球各地的求職者中都很常見。過去八個月，我已經完成了20個這種令人心碎的合約，為五個不同的平台工作。這種情況令人擔憂。這種AI工作已經成為了好萊塢業界人士的新一種「等待桌遊」的工作方式。這種情況對於好萊塢的創作人才和未來的工作前景都構成了重大挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "8be16819",
         "title": "Google首次阻止使用人工智慧開發的零日漏洞攻擊",
         "url": "https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped",
@@ -600,30 +624,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "0bfc24c7",
-        "title": "Nvidia證明自己是一家軟體公司：CUDA的深淵",
-        "url": "https://www.wired.com/story/cuda-proves-nvidia-is-a-software-company/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Mon, 11 May 2026 10:00:00 +0000",
-        "summary_zh": "近年來，Nvidia在硬體領域的成功讓人們誤以為這家公司只是專注於半導體製造。然而，Nvidia的實力遠不止於此。CUDA是一個開放原始碼的程式庫，能夠讓程式設計師在GPU上執行高效的運算。這使得Nvidia能夠在軟體領域佔據重要地位。事實上，CUDA的深淵已經成為業界的一道屏障，讓競爭者難以跨越。Nvidia的成功不僅僅是因為硬體的優勢，而是因為它的軟體能力。這使得Nvidia能夠在AI、深度學習等領域佔據領先地位。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7e09d054",
-        "title": "好萊塢業界人士：以前的電視劇編劇現在都在暗地裡訓練AI",
-        "url": "https://www.wired.com/story/i-work-in-hollywood-everyone-who-used-to-make-tv-now-training-ai/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Mon, 11 May 2026 10:00:00 +0000",
-        "summary_zh": "好萊塢的編劇們，包括我在內，都在秘密地訓練AI。這種情況在全球各地的求職者中都很常見。過去八個月，我已經完成了20個這種令人心碎的合約，為五個不同的平台工作。這種情況令人擔憂。這種AI工作已經成為了好萊塢業界人士的新一種「等待桌遊」的工作方式。這種情況對於好萊塢的創作人才和未來的工作前景都構成了重大挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "stock_us": [
@@ -636,8 +636,32 @@
         "published_at": "Tue, 12 May 2026 06:12:18 +0800",
         "summary_zh": "中東戰爭的僵局似乎對美國投資人沒有造成太大的影響，華爾街股市今天擺脫早上的疲弱走勢，終場收漲。標普、那斯達克、費半等指數再創收盤新高紀錄。投資人似乎對中東戰爭的消息不以為意，繼續關注美國經濟的發展和企業的財務表現。這表明投資人對美國經濟的信心仍然很高，對未來的前景充滿希望。然而，中東戰爭的僵局仍然存在，可能會對全球經濟產生影響，投資人需要繼續關注這個問題。",
         "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1846c728",
+        "title": "買後付款股票仍可持續上升，銀行美聯社表示",
+        "url": "https://www.cnbc.com/2026/05/11/bnpl-stock-has-room-to-run-after-friday-air-pocket-bank-of-america-says.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-11 12:32:48",
+        "summary_zh": "買後付款服務Affirm近期財報出爐，股價在上週五下跌5%，但銀行美聯社認為這只是短暫的波動， shouldn't prevent further gains, per Bank of America. 並表示Affirm的財報表現亮眼，股價仍有持續上升的空間。這意味著投資者不需要擔心短期波動，仍可持續投資於Affirm。",
+        "sentiment": "正面",
         "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false
+      },
+      {
+        "id": "e571c5b1",
+        "title": "Constellation Energy 獲利超越市場預期，強勁電力需求與 Calpine 收購帶來利益增長",
+        "url": "https://www.reuters.com/legal/litigation/constellation-energy-tops-profit-estimates-strong-power-demand-calpine-boost-2026-05-11/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-05-11 12:19:38",
+        "summary_zh": "美國電力公司 Constellation Energy 在本季度的調整後利潤中超越了華爾街的預期，主要原因是電力需求的增長以及來自 Calpine 資產收購的貢獻。這家公司的業績表現令人滿意，電力需求的增長是市場上的一個重要趨勢，同時 Calpine 資產的收購也為公司帶來了新的發展機遇。然而，未來市場的變化和競爭環境的變化仍然需要關注。根據這次的業績表現，Constellation Energy 的股價可能會受到提振。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "b315f2c2",
@@ -648,8 +672,8 @@
         "published_at": "2026-05-11 11:47:16",
         "summary_zh": "美國經濟日曆預測數據顯示，今日房屋銷售數據將公布。接下來本周還將公布通膨和製造業數據。這些數據將對美國經濟發展有重要影響。房屋銷售數據可能會反映房屋市場的狀況，而通膨和製造業數據則會影響美國的經濟成長。這些數據的公布將對投資者和經濟分析師產生重要影響。投資者應密切關注這些數據，以便做出明智的投資決策。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "a9efa18b",
@@ -660,8 +684,8 @@
         "published_at": "2026-05-11 11:23:21",
         "summary_zh": "本週市場將受到多個重要因素的影響，包括川普總統與習近平主席在中國的會議，以及核心通膨率（CPI）和製品通膨率（PPI）的數據公布。這些事件將對市場產生重大影響，投資者需要密切關注。川普-習近平會議將是本週的焦點，市場將密切關注兩國領導人在經濟、貿易和安全等領域的協商結果。同時，核心通膨率和製品通膨率的數據公布將對市場的預期產生重大影響，投資者需要準備好面對市場的波動。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "abba24f4",
@@ -672,8 +696,8 @@
         "published_at": "2026-05-11 11:18:44",
         "summary_zh": "戴爾今年股價大幅上漲，超過了過去的一年。但是，UBS認為，與人工智慧相關的需求大幅增長，已經被股價所反映在內。UBS表示，這種需求增長已經被市場所預期，未來的成長潛力不再被市場所認可。戴爾股價今年大幅上漲，達到過去的一年。UBS認為，這種需求增長已經被市場所預期，未來的成長潛力不再被市場所認可。戴爾的股價大幅上漲，超過了過去的一年。UBS認為，這種需求增長已經被市場所預期，未來的成長潛力不再被市場所認可。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "2178bacc",
@@ -714,26 +738,50 @@
     ],
     "finance": [
       {
-        "id": "3509f6a3",
-        "title": "法米公司獲得主要股東支持　與前CEO鬥爭持續",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/fermi-wins-support-of-major-shareholder-amid-fight-with-ex-ceo",
+        "id": "529e47e0",
+        "title": "印度考慮實施緊急措施挽救外匯",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/india-considering-emergency-measures-to-save-foreign-exchange",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-11 12:00:00",
-        "summary_zh": "法米公司（Fermi）正與前CEO發生鬥爭，公司的主要股東最近表示支持公司的管理層。這一發展出現於公司的財務報告中，顯示出股東對公司的信心。然而，前CEO仍然堅持自己的主張，並表示將繼續與公司鬥爭。這一鬥爭的原因尚不清楚，但似乎與公司的管理權和財務決策有關。法米公司的股價在近期曾經出現波動，但目前仍然保持穩定。這一發展可能會對公司的未來影響，投資者應該密切關注公司的進展。",
+        "published_at": "2026-05-11 12:58:39",
+        "summary_zh": "印度政府正在考慮實施緊急措施來挽救外匯儲備。根據消息，印度央行正在與政府協商，探討如何應對外匯儲備的下降。這一措施可能包括限制外匯兌換、提高利率和限制企業進行外匯購買等。外匯儲備的下降是由於印度的貿易逆差和投資外流所致。印度政府正在努力維持外匯儲備的穩定，以避免外匯危機的爆發。這一措施可能會對印度的經濟產生重大影響，包括可能的通貨膨脹和失業率上升。印度政府正在密切關注外匯儲備的變化，準備應對任何可能的風險。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "89a923c2",
+        "title": "歐洲人面對高油價仍不改用公交車",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/europeans-shrug-off-high-oil-prices-and-keep-burning-fuel",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-11 12:56:44",
+        "summary_zh": "高油價已經成為全球的頭痛，但是歐洲人似乎對此不太在乎。根據最新的數據，儘管油價達到歷史新高，歐洲人仍然繼續使用汽油車。這種現象讓人感到疑惑，因為高油價不僅對個人財務有著直接影響，也對環境有著嚴重的影響。分析師認為，這種行為可能是由於歐洲人對環境問題的認知不足，或者是因為汽油車的便捷性和舒適性。另一方面，高油價也讓一些企業受益，例如石油公司和汽車製造商。這種矛盾的結果讓人感到困惑，到底是誰在真正受益？這種情況是否會持續下去？",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "00098de2",
-        "title": "盤前最大漲幅股：Moderna、Lumentum、Intel、monday.com 等",
-        "url": "https://www.cnbc.com/2026/05/11/stocks-making-the-biggest-moves-premarket-mrna-lite-intc.html",
+        "id": "700d5abb",
+        "title": "匈牙利爭取歐盟10.4億歐元資金的競賽有可能成功 - 官員",
+        "url": "https://www.reuters.com/world/hungarys-race-access-eus-104-billion-euros-is-ambitious-possible-officials-2026-05-11/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-11 12:53:44",
+        "summary_zh": "匈牙利政府正在爭取歐盟的10.4億歐元資金，以幫助該國經濟重建。這項資金將用於支持匈牙利的產業發展、創新和就業。官員表示，匈牙利的競賽有可能成功，因為該國有競爭力的計畫和團隊。然而，這項資金的競爭非常激烈，其他歐盟成員國也在爭取相同的資金。匈牙利政府需要展示其計畫的可行性和實際成果，以增加競爭力。這項資金將對匈牙利的經濟發展有重要影響，因此政府需要盡一切努力來爭取資金。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "af616a5a",
+        "title": "『恨者恨』：丹尼爾·艾夫斯預測納斯達克指數將達30,000 美元，人工智慧熱潮擴大",
+        "url": "https://www.cnbc.com/2026/05/11/the-haters-will-hate-dan-ives-predicts-nasdaq-rally.html",
         "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-05-11 11:59:44",
-        "summary_zh": "盤前市場中，Moderna、Lumentum、Intel、monday.com 等股價出現了最大幅度的變化。這些公司的股價在盤前市場中出現了明顯的波動，投資者應該密切關注這些股價的變化。根據市場消息，Moderna 的股價因為公司的業務發展而出現了上漲趨勢，而 Lumentum 的股價則因為公司的財務報告而出現了下跌趨勢。Intel 的股價則因為公司的技術發展而出現了上漲趨勢，而 monday.com 的股價則因為公司的業務發展而出現了上漲趨勢。投資者應該注意到這些公司的業務發展和財務報告對股價的影響。",
-        "sentiment": "中性",
+        "published_at": "2026-05-11 12:53:03",
+        "summary_zh": "近期的科技業財報表現良好，早前今年投資者出現的緊張情緒已經消失。投資銀行家丹尼爾·艾夫斯預測，納斯達克指數將在未來的時間內達到30,000美元。這種預測與人工智慧領域的快速發展有關。人工智慧領域的公司表現出色，投資者對這個領域的投資熱情不減。這種情況下，投資者對未來的市場前景感到樂觀。然而，投資者也應該注意到市場的波動和風險。人工智慧領域的快速發展可能會帶來新的挑戰和風險。投資者需要保持警醒和謹慎的態度。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
@@ -746,44 +794,44 @@
         "published_at": "2026-05-11 11:28:00",
         "summary_zh": "霍爾木茲海峽封鎖的風險升高，摩根士丹利預測，今年夏天，布倫特原油價格可能會攀升至150美元。根據摩根士丹利的分析，霍爾木茲海峽封鎖可能會導致原油供應鏈受阻，進而推油價升高。這項預測與市場預期相反，目前原油價格正在上漲，但摩根士丹利認為，霍爾木茲海峽封鎖的風險仍在增加。這項預測可能會對全球能源市場產生重大影響，投資者應該密切關注霍爾木茲海峽封鎖的風險。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
-        "id": "73677722",
-        "title": "BP 恢復投資人信心 股價買入評級翻倍",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/bp-is-winning-back-stock-analysts-as-buy-ratings-double",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-11 11:47:57",
-        "summary_zh": "英國石油公司 (BP) 在最近的財務報告中表現亮眼，股價買入評級也大幅增加。根據最新的數據，BP 的買入評級已經翻倍，表明投資人對公司未來發展的信心正在恢復。這一轉變與公司在能源轉型和減碳方面的努力有關，BP 正在努力成為能源業的領先者。投資人認為，BP 的這一轉變將對公司未來的財務表現產生積極影響。然而，仍有許多挑戰需要面對，包括能源市場的不確定性和減碳的壓力。總體而言，BP 的恢復信心是投資人關注的焦點，投資人將密切關注公司未來的發展。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "77528648",
-        "title": "英國碳收益增加，斯塔默演講提振歐盟聯盟前景",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/uk-carbon-gains-as-starmer-speech-boosts-outlook-for-eu-linking",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-11 11:46:46",
-        "summary_zh": "英國政府近期推出一系列政策以減少碳排放，包括提高電動車購買補貼和推動綠色建築發展。這些政策措施不僅能夠減少英國的碳排放，也能夠帶動經濟增長。斯塔默在最近的演講中強調了英國與歐盟的聯盟對於減少碳排放和促進經濟增長的重要性。這一聯盟將使英國能夠與歐盟合作，共同推動綠色能源發展和減少碳排放。這一聯盟將對英國的經濟和環境產生積極的影響，帶動經濟增長和碳排放減少。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "fa459915",
-        "title": "倫敦股市靜默，投資人考慮中東風險與星默爾承諾",
-        "url": "https://www.reuters.com/world/uk/london-stocks-muted-investors-weigh-middle-east-risks-starmer-pledge-2026-05-11/",
+        "id": "23574bc5",
+        "title": "摩根士丹利印度分支機構與市場監管機構達成和解，涉嫌違反內幕交易規範",
+        "url": "https://www.reuters.com/legal/government/bofa-securities-india-settles-with-markets-regulator-alleged-violation-insider-2026-05-11/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-05-11 11:46:09",
-        "summary_zh": "倫敦股市出現靜默狀態，投資人正在考慮中東局勢的風險。同時，英國工黨領袖星默爾發表承諾，表示將對經濟發展進行投資。這些因素都對倫敦股市的走勢產生了影響。投資人正在密切關注中東局勢的發展，同時也關注英國政府的政策變化。倫敦股市的靜默狀態可能是投資人對未來不確定的反應。",
+        "published_at": "2026-05-11 12:51:17",
+        "summary_zh": "摩根士丹利印度分支機構（BofA Securities India）最近與印度市場監管機構（SEBI）達成和解，涉嫌違反內幕交易規範。根據消息，摩根士丹利印度分支機構被指控在 2020 年涉嫌違反內幕交易規範，該公司被要求支付 1 億 5,000 萬印度盧比（約 1.7 億美元）罰款。摩根士丹利印度分支機構的這一行動被視為對市場監管機構的合作和承諾，該公司將繼續在印度市場中運營。這一事件對印度金融市場的影響不大，但也表明市場監管機構將嚴格執行內幕交易規範。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
+      },
+      {
+        "id": "e8efeb7e",
+        "title": "索尼將購買黑石集團音樂版權組合逾 4 億美元",
+        "url": "https://www.ft.com/content/0640f6f8-f7d0-405c-9372-a6dbfe44523c",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-11 12:45:30",
+        "summary_zh": "索尼公司宣布將購買黑石集團旗下的音樂版權組合，該組合包括 45,000 首歌曲，包括經典歌曲《哈利路亞》。這筆交易價值約 4 億美元，是索尼公司近年來最大的一筆音樂版權收購。這項收購將使索尼公司擁有更豐富的音樂版權庫，為公司未來的音樂業務提供更多的發展空間。這項交易對於索尼公司的音樂事業發展具有重要意義，將使公司在音樂產業中占有一席之地。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c402e793",
+        "title": "霍爾木茲海峽封鎖，阿拉伯石油公司CEO警告油價將大幅上漲",
+        "url": "https://www.reuters.com/business/energy/oil-market-will-lose-around-100-million-barrels-every-week-if-strait-hormuz-2026-05-11/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-11 12:40:57",
+        "summary_zh": "霍爾木茲海峽是全球石油運輸的重要通道，阿拉伯石油公司CEO阿敏·納塞爾(Amin Nasser)表示，如果霍爾木茲海峽繼續封鎖，全球油價將大幅上漲。根據阿敏·納塞爾的估計，每週石油市場將損失約100萬桶石油。霍爾木茲海峽的封鎖對全球石油供應將造成重大影響，進而導致油價上漲。阿敏·納塞爾的警告表明，石油市場將面臨嚴重的挑戰，油價的波動將對全球經濟產生重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "9086fe9b",
@@ -808,8 +856,8 @@
         "published_at": "Tue, 12 May 2026 02:05:03 +0800",
         "summary_zh": "美國總統川普預計本周訪問中國，這是他首次訪問中國。白宮官員透露，隨行名單包括特斯拉執行長馬斯克、蘋果執行長庫克、奇異航太執行長卡普以及波音執行長歐特柏格等人。這次訪問的背景是美中關係的改善，川普政府試圖與中國加深合作。隨行的商界領袖將與中國領導人會面，探討雙方在科技、能源等領域的合作機會。這次訪問對於美中關係的未來發展有重要影響，可能會帶來新的商業合作機會和投資。然而，美中關係的複雜性和競爭性仍然存在，需要雙方共同努力來推動合作。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "9d9f1b35",
@@ -834,6 +882,18 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "909e749a",
+        "title": "聯邦銀欲入股MaiCoin 金管會未同意",
+        "url": "https://www.cna.com.tw/news/afe/202605110328.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 11 May 2026 22:06:20 +0800",
+        "summary_zh": "聯邦銀行原擬投資虛擬資產業者MaiCoin境外控股母公司現代財富控股有限公司，但因金管會認為其非屬金融相關事業，因此投資案不予執行。這意味著聯邦銀行將無法入股MaiCoin。金管會的決定可能是出於對虛擬資產業的監管考量。這一決定可能會對MaiCoin的未來發展造成影響。目前尚未清楚金管會的具體理由和未來的監管政策。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "513bea64",
@@ -903,18 +963,6 @@
         "category": "stock_tw",
         "published_at": "Tue, 12 May 2026 05:30:00 +0800",
         "summary_zh": "台美協議中，政府信用擔保的規劃已經進展到實施階段。國發會規劃了「支持企業投資美國融資保證機制」，預計五月底啟動。這項機制的目的是為台商赴美投資提供融資保證，減少風險。目前已有十五家銀行表達參與意願，包括八大公股銀行及中信銀行等。根據經濟部掌握的資料，目前有意赴美投資的廠商申請總額初估約三五〇億美元。這項協議將有助於台商在美國的投資活動，同時也會增加台美經濟往來。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0ef66a9a",
-        "title": "友達ADR11日上漲0.20美元漲幅3.48%折台股18.69元",
-        "url": "https://tw.stock.yahoo.com/news/%E5%8F%8B%E9%81%94adr11%E6%97%A5%E4%B8%8A%E6%BC%B20-20%E7%BE%8E%E5%85%83%E6%BC%B2%E5%B9%853-48-%E6%8A%98%E5%8F%B0%E8%82%A118-69%E5%85%83-214616941.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Mon, 11 May 2026 21:46:16 GMT",
-        "summary_zh": "友達光電在OTC US掛牌的ADR（外國公司在美國交易所掛牌的股票）於5月11日上漲0.20美元，漲幅達3.48%。根據匯率折算，台股每股友達普通股相當於1單位友達ADR，故該日台股每股友達普通股折算為18.69元。這項上漲表現可能受到市場對友達光電業務發展的期待或投資者的買盤影響。然而，投資者應注意市場風險和投資策略，確保投資決策的合理性。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
