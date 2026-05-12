@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-12T14:15:04.377842+08:00",
+  "generated_at": "2026-05-12T15:20:05.427730+08:00",
   "risk_signals": [
     "🟢 台股加權 41898.32（正常）",
     "🟢 S&P 500 7412.84（正常）",
     "🟢 VIX 恐慌指數 18.38（正常）",
     "🟢 MOVE 債市波動 70.74（正常）",
-    "🟢 美元指數 98.09（正常）",
-    "🟢 黃金 4714.2（正常）",
+    "🟢 美元指數 98.23（正常）",
+    "🟢 黃金 4703.2（正常）",
     "🟢 美債10Y殖利率 4.41（正常）",
-    "🟢 原油 WTI 99.42（正常）",
-    "🟡 美元/台幣 31.47（漲 +0.55%，留意）"
+    "🟢 原油 WTI 100.46（正常）",
+    "🟡 美元/台幣 31.54（漲 +0.76%，留意）"
   ],
-  "ai_summary": "市場氛圍穩定，多個指標維持正常水平，但美元/台幣升值和台股輕微上漲，留意美元對台股的影響。",
+  "ai_summary": "市場氛圍保持穩定，各大指數表現平穩，美元指數和台幣兌美元升值持續。",
   "market": {
     "TWII": {
       "price": 41898.32,
@@ -38,25 +38,85 @@
       "change_pct": 5.19
     },
     "DXY": {
-      "price": 98.09,
-      "change_pct": 0.15
+      "price": 98.23,
+      "change_pct": 0.3
     },
     "GOLD": {
-      "price": 4714.2,
-      "change_pct": -0.1
+      "price": 4703.2,
+      "change_pct": -0.33
     },
     "OIL": {
-      "price": 99.42,
-      "change_pct": 1.38
+      "price": 100.46,
+      "change_pct": 2.44
     },
     "USDTWD": {
-      "price": 31.47,
-      "change_pct": 0.55
+      "price": 31.54,
+      "change_pct": 0.76
     }
   },
   "macro": {},
   "categories": {
     "whitehouse": [
+      {
+        "id": "7a3bdb4d",
+        "title": "總統致詞：全國救世軍週",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-national-salvation-army-week/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 11 May 2026 23:37:46 +0000",
+        "summary_zh": "本週，全國致敬那些透過救世軍的工作為同胞服務的男人和女人。這些志願者體現了美國精神的最佳面貌，並通過他們的同情和關懷增豐了我們國家的生活。自 1865 年以來，救世軍一直為疲憊的靈魂提供信仰，為饑餓的人提供食物……",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8d155fd9",
+        "title": "美國總統頒布和平警察紀念日和警察週2026",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/peace-officers-memorial-day-and-police-week-2026/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 11 May 2026 20:42:27 +0000",
+        "summary_zh": "美國總統在和平警察紀念日和警察週期間，向捨身保護美國家庭和社區的警察致敬。這一時期，美國人民表達對警察的感激之情，紀念那些犧牲的警察。警察週是一個特別的時期，美國人民將警察的貢獻和犧牲記在心中。美國總統頒布和平警察紀念日和警察週2026，表達對警察的尊敬和感謝。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6ec5e914",
+        "title": "美國國會兩項法案通過並被總統簽署",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/congressional-bills-s-98-and-s-1020-signed-into-law/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 11 May 2026 20:39:19 +0000",
+        "summary_zh": "美國總統於 2026 年 5 月 11 日簽署了兩項法案：S. 98 美國農村寬頻保護法案，要求聯邦通信委員會開展規則制定程序，為農村地區寬頻網絡建設提供資金；S. 1020 法案授權 [內容省略] 這兩項法案的通過將對美國農村地區的寬頻網絡建設產生重要影響，同時也體現了美國政府對於農村地區發展的重視。這些法案的實施將進一步推動美國農村地區的經濟發展和社會進步。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0496b35a",
+        "title": "提名與撤回送交參議院",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/nominations-and-withdrawal-sent-to-the-senate-c6ad/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 11 May 2026 19:16:33 +0000",
+        "summary_zh": "白宮宣布將 Francis Brooke 提名為財政部副部長。同時，白宮也提名 Cameron Hamilton 為聯邦緊急管理局局長。另外，白宮還提名 Brendan Hanrahan 為國務院歐洲及俄羅斯事務助卿。這些提名將送交參議院進行審議。這些人選的任命將對美國政府的運作產生重大影響。參議院將會審視這些提名，並決定是否通過。這些提名的結果將對美國政府的政策和運作產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1f71f302",
+        "title": "川普總統為美國媽媽們獻禮：推出新政策支持家庭",
+        "url": "https://www.whitehouse.gov/releases/2026/05/president-trump-honors-americas-moms-with-new-support-for-families/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 11 May 2026 17:46:32 +0000",
+        "summary_zh": "川普總統宣布推出一系列新政策，旨在降低家庭的開支、擴大生育保健的接觸和為美國媽媽們提供意義的支持。這些行動包括發布新的聯邦指導方針，鼓勵企業提供生育津貼，以及啟動Moms.gov——一個易用的數字平台，為新生和正在懷孕的媽媽提供資源和服務。這些政策旨在幫助家庭節省金錢、擁有更好的生育保健和更好的照顧。這些措施將對美國家庭和社會產生重大影響，展現了川普政府對家庭支持的承諾。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "063c0001",
         "title": "川普稱伊朗停火是「生死關頭」",
@@ -152,66 +212,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "7a3bdb4d",
-        "title": "總統致詞：全國救世軍週",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-national-salvation-army-week/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 11 May 2026 23:37:46 +0000",
-        "summary_zh": "本週，全國致敬那些透過救世軍的工作為同胞服務的男人和女人。這些志願者體現了美國精神的最佳面貌，並通過他們的同情和關懷增豐了我們國家的生活。自 1865 年以來，救世軍一直為疲憊的靈魂提供信仰，為饑餓的人提供食物……",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8d155fd9",
-        "title": "美國總統頒布和平警察紀念日和警察週2026",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/peace-officers-memorial-day-and-police-week-2026/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 11 May 2026 20:42:27 +0000",
-        "summary_zh": "美國總統在和平警察紀念日和警察週期間，向捨身保護美國家庭和社區的警察致敬。這一時期，美國人民表達對警察的感激之情，紀念那些犧牲的警察。警察週是一個特別的時期，美國人民將警察的貢獻和犧牲記在心中。美國總統頒布和平警察紀念日和警察週2026，表達對警察的尊敬和感謝。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6ec5e914",
-        "title": "美國國會兩項法案通過並被總統簽署",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/congressional-bills-s-98-and-s-1020-signed-into-law/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 11 May 2026 20:39:19 +0000",
-        "summary_zh": "美國總統於 2026 年 5 月 11 日簽署了兩項法案：S. 98 美國農村寬頻保護法案，要求聯邦通信委員會開展規則制定程序，為農村地區寬頻網絡建設提供資金；S. 1020 法案授權 [內容省略] 這兩項法案的通過將對美國農村地區的寬頻網絡建設產生重要影響，同時也體現了美國政府對於農村地區發展的重視。這些法案的實施將進一步推動美國農村地區的經濟發展和社會進步。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0496b35a",
-        "title": "提名與撤回送交參議院",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/nominations-and-withdrawal-sent-to-the-senate-c6ad/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 11 May 2026 19:16:33 +0000",
-        "summary_zh": "白宮宣布將 Francis Brooke 提名為財政部副部長。同時，白宮也提名 Cameron Hamilton 為聯邦緊急管理局局長。另外，白宮還提名 Brendan Hanrahan 為國務院歐洲及俄羅斯事務助卿。這些提名將送交參議院進行審議。這些人選的任命將對美國政府的運作產生重大影響。參議院將會審視這些提名，並決定是否通過。這些提名的結果將對美國政府的政策和運作產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1f71f302",
-        "title": "川普總統為美國媽媽們獻禮：推出新政策支持家庭",
-        "url": "https://www.whitehouse.gov/releases/2026/05/president-trump-honors-americas-moms-with-new-support-for-families/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 11 May 2026 17:46:32 +0000",
-        "summary_zh": "川普總統宣布推出一系列新政策，旨在降低家庭的開支、擴大生育保健的接觸和為美國媽媽們提供意義的支持。這些行動包括發布新的聯邦指導方針，鼓勵企業提供生育津貼，以及啟動Moms.gov——一個易用的數字平台，為新生和正在懷孕的媽媽提供資源和服務。這些政策旨在幫助家庭節省金錢、擁有更好的生育保健和更好的照顧。這些措施將對美國家庭和社會產生重大影響，展現了川普政府對家庭支持的承諾。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "global": [
@@ -228,18 +228,6 @@
         "ai_classified": true
       },
       {
-        "id": "7d33dd63",
-        "title": "美國回國飛機上一名乘客疑似感染黑死病毒",
-        "url": "https://www.bbc.com/news/articles/cjep78l5835o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 12 May 2026 05:40:53 GMT",
-        "summary_zh": "美國政府正在安排 17 名美國公民回國，期間發現其中一名乘客疑似感染黑死病毒。根據美國衛生部的報告，這名乘客的症狀相對輕微。黑死病毒是一種由黑死老鼠傳播的疾病，通常會導致嚴重的肺部感染和出血性疾病。美國衛生部正在密切監測這名乘客的健康狀況，並正在與當地當局合作進行追蹤和控制工作。這一事件引起了對公共衛生和旅行安全的關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "b09c8246",
         "title": "以色列通過法律允許死刑和公開審判對7月10日事件相關者",
         "url": "https://www.bbc.com/news/articles/c202ngg45x8o?at_medium=RSS&at_campaign=rss",
@@ -248,19 +236,7 @@
         "published_at": "Tue, 12 May 2026 04:11:42 GMT",
         "summary_zh": "以色列議會通過了一項法律，允許對參與由哈馬斯領導的前所未有的攻擊事件的個人施加死刑和公開審判。這項法律的通過是對於最近的攻擊事件的回應，該事件造成了多人死亡和受傷。這項法律的通過也引發了爭議，許多人認為這會損害人權和司法公正。以色列政府堅稱這項法律是必要的，以維護國家安全和防止未來的攻擊事件。然而，許多人擔心這項法律會被濫用，對於那些參與攻擊事件的個人施加政治迫害。這項法律的通過也會對以色列的國際形象產生影響，可能會進一步惡化與其他國家的關係。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "e754a4b5",
-        "title": "美國乘客被隔離檢疫 美國官員稱公共風險極低",
-        "url": "https://www.bbc.com/news/articles/cwy2e9e1g0wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 23:31:37 GMT",
-        "summary_zh": "一艘船上的美國乘客被檢測出患有安地斯病毒（Andes virus），這是一種罕見的罕天病毒。另外一名乘客出現輕微症狀。美國官員表示，公共風險極低。這名受感染者被隔離檢疫，其他乘客則被要求進行自我隔離。官員們正在密切監測病毒的傳播情況。安地斯病毒是一種罕見的病毒，主要影響南美洲的山區地區。美國官員們正在與南美洲國家合作，共同應對這次疫情。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -271,18 +247,6 @@
         "category": "global",
         "published_at": "Mon, 11 May 2026 17:15:52 GMT",
         "summary_zh": "英國工黨領袖史達默在星期一發表堅定的演說，承諾重建英國與歐洲的關係。這一計畫引起了歐盟的關注，歐盟成員國對英國的態度逐漸轉變。史達默的計畫將如何影響英國與歐洲的關係，還有未來的發展方向，目前仍在觀察中。這一變化將對英國的政治格局產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b86fdfd1",
-        "title": "觀看: 阿拉斯加小鎮將無日落直到八月",
-        "url": "https://www.bbc.com/news/videos/cgjpg20xgy5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 21:05:29 GMT",
-        "summary_zh": "阿拉斯加的尤提克維克（Utqiagvik）是美國最北端的城市，居民將要經歷 84 天的極夜，白天不會有日落。尤提克維克位於北極圈內，當地居民在夏季會經歷極夜，白天不會有日落。這種現象是由於地球的軌道使得太陽在夏季時不會下沉到地平線以下。居民們會在這段時間內享受長達 24 小時的白天，同時也會面臨極夜的挑戰。尤提克維克的居民們會如何應對這種特殊的天氣情況？",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -372,6 +336,18 @@
         "ai_classified": true
       },
       {
+        "id": "7d33dd63",
+        "title": "美國回國飛機上一名乘客疑似感染黑死病毒",
+        "url": "https://www.bbc.com/news/articles/cjep78l5835o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 12 May 2026 05:40:53 GMT",
+        "summary_zh": "美國政府正在安排 17 名美國公民回國，期間發現其中一名乘客疑似感染黑死病毒。根據美國衛生部的報告，這名乘客的症狀相對輕微。黑死病毒是一種由黑死老鼠傳播的疾病，通常會導致嚴重的肺部感染和出血性疾病。美國衛生部正在密切監測這名乘客的健康狀況，並正在與當地當局合作進行追蹤和控制工作。這一事件引起了對公共衛生和旅行安全的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "10ccf81c",
         "title": "特朗普和習近平即將會面，中美貿易戰的關鍵點在哪裡？",
         "url": "https://www.bbc.com/news/articles/c3rz75rgn8zo?at_medium=RSS&at_campaign=rss",
@@ -379,6 +355,54 @@
         "category": "global",
         "published_at": "Mon, 11 May 2026 09:26:33 GMT",
         "summary_zh": "近10年來首次的美國總統訪問中國將考驗脆弱的貿易戰和緩和協議。美國總統特朗普和中國國家主席習近平即將在北京會面，這將是兩國近10年來首次的最高級別會面。這次會面將考驗兩國在貿易戰和緩和協議上的關係。美國和中國近年來一直在貿易戰中互相施壓，雙方都對對方的貿易政策感到不滿。然而，近期雙方都表明願意對貿易戰進行緩和，特朗普和習近平的會面將是這一努力的關鍵點。會面將對中美貿易戰的未來發展產生重大影響，將會影響兩國的經濟和貿易政策。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e754a4b5",
+        "title": "美國乘客被隔離檢疫 美國官員稱公共風險極低",
+        "url": "https://www.bbc.com/news/articles/cwy2e9e1g0wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 23:31:37 GMT",
+        "summary_zh": "一艘船上的美國乘客被檢測出患有安地斯病毒（Andes virus），這是一種罕見的罕天病毒。另外一名乘客出現輕微症狀。美國官員表示，公共風險極低。這名受感染者被隔離檢疫，其他乘客則被要求進行自我隔離。官員們正在密切監測病毒的傳播情況。安地斯病毒是一種罕見的病毒，主要影響南美洲的山區地區。美國官員們正在與南美洲國家合作，共同應對這次疫情。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0ee1fca3",
+        "title": "我帶領登山者登上印尼火山，然後它爆發了",
+        "url": "https://www.bbc.com/news/articles/cz623qjqjd6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 22:10:48 GMT",
+        "summary_zh": "印尼一名導遊在上週五的火山爆發中，帶領登山者登上印尼杜科諾火山。導遊描述了那一刻的場景：當他們正在攀登時，火山突然爆發，三名登山者喪生。這次火山爆發是印尼杜科諾火山近期的第三次爆發。導遊表示，當時他們正在登山的路上，突然聽到一聲巨響，然後看到火山噴出大量火山灰和岩石。導遊試圖幫助登山者逃離，但三名登山者仍然喪生。這次火山爆發對當地居民和登山者都造成了嚴重影響。印尼政府正在調查這次火山爆發的原因。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "61f0d19d",
+        "title": "警方發現疑似逃犯澳洲槍手屍體",
+        "url": "https://www.bbc.com/news/articles/cdjp9vzxlz7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 09:44:29 GMT",
+        "summary_zh": "一名男子在新南威爾士州被發現身亡，警方懷疑他是因 triple murder 逃亡的嫌犯。這名男子被警方追捕多日，相關的 triple murder 案件引起了社會的關注。警方正在進行調查，確認死者身份後將會對其進行處理。這個案件的發生，讓當地居民感到不安，同時也引起了社會對安全的關注。目前，警方仍在調查中，尚未公布死者的身份。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b86fdfd1",
+        "title": "觀看: 阿拉斯加小鎮將無日落直到八月",
+        "url": "https://www.bbc.com/news/videos/cgjpg20xgy5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 11 May 2026 21:05:29 GMT",
+        "summary_zh": "阿拉斯加的尤提克維克（Utqiagvik）是美國最北端的城市，居民將要經歷 84 天的極夜，白天不會有日落。尤提克維克位於北極圈內，當地居民在夏季會經歷極夜，白天不會有日落。這種現象是由於地球的軌道使得太陽在夏季時不會下沉到地平線以下。居民們會在這段時間內享受長達 24 小時的白天，同時也會面臨極夜的挑戰。尤提克維克的居民們會如何應對這種特殊的天氣情況？",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -429,30 +453,6 @@
         "summary_zh": "芝加哥出生的18歲少年凱文·岡薩雷茲（Kevin González）在與父母團聚數天後因末期結腸癌去世。他在去年四月份的時候，因為父母被美國移民和海關執法局（ICE）扣押，為了能與兒子團聚，他們從墨西哥越境進入美國。凱文在這段期間內，身體狀況惡化，父母被ICE扣押的消息傳出後，凱文開始為父母呼籲釋放，希望能與父母在一起度過生命的最後時光。最後，凱文成功與父母團聚在墨西哥，但不幸在短暫的團聚後，凱文因癌症去世。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0ee1fca3",
-        "title": "我帶領登山者登上印尼火山，然後它爆發了",
-        "url": "https://www.bbc.com/news/articles/cz623qjqjd6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 22:10:48 GMT",
-        "summary_zh": "印尼一名導遊在上週五的火山爆發中，帶領登山者登上印尼杜科諾火山。導遊描述了那一刻的場景：當他們正在攀登時，火山突然爆發，三名登山者喪生。這次火山爆發是印尼杜科諾火山近期的第三次爆發。導遊表示，當時他們正在登山的路上，突然聽到一聲巨響，然後看到火山噴出大量火山灰和岩石。導遊試圖幫助登山者逃離，但三名登山者仍然喪生。這次火山爆發對當地居民和登山者都造成了嚴重影響。印尼政府正在調查這次火山爆發的原因。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "61f0d19d",
-        "title": "警方發現疑似逃犯澳洲槍手屍體",
-        "url": "https://www.bbc.com/news/articles/cdjp9vzxlz7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 11 May 2026 09:44:29 GMT",
-        "summary_zh": "一名男子在新南威爾士州被發現身亡，警方懷疑他是因 triple murder 逃亡的嫌犯。這名男子被警方追捕多日，相關的 triple murder 案件引起了社會的關注。警方正在進行調查，確認死者身份後將會對其進行處理。這個案件的發生，讓當地居民感到不安，同時也引起了社會對安全的關注。目前，警方仍在調查中，尚未公布死者的身份。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       }
     ],
@@ -526,43 +526,7 @@
         "published_at": "Tue, 12 May 2026 12:54:59 +0800",
         "summary_zh": "根據群智諮詢的預測數據，2026年全球AI伺服器出貨量將達到370萬台，較去年成長51.3%。這意味著全球對AI技術的需求持續增加。2027年至2028年，AI伺服器的出貨量仍將維持兩位數的成長率，預計2028年全球AI伺服器出貨量將近500萬台。這一趨勢表明，AI技術在未來幾年將持續受到重視和投資。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "d32232dc",
-        "title": "伊利亞·蘇茨克夫堅持自己在Sam Altman離開OpenAI的角色：‘我不想讓它被毀滅’",
-        "url": "https://www.wired.com/story/ilya-sutskever-testifies-musk-v-altman-trial/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Mon, 11 May 2026 23:51:35 +0000",
-        "summary_zh": "伊利亞·蘇茨克夫前任OpenAI首席科學家雖然與公司關係疏離，但仍在星期一的聽證會上為公司辯護。他堅持自己在Sam Altman離開OpenAI的角色，並表明自己不想讓公司被毀滅。雖然蘇茨克夫與Altman的關係不佳，但他仍堅持自己在公司的重要性。他認為Altman的離開是公司內部問題，而不是他個人問題。這一事件可能會對OpenAI的未來發展產生重大影響。",
-        "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0bfc24c7",
-        "title": "Nvidia證明自己是一家軟體公司：CUDA的深淵",
-        "url": "https://www.wired.com/story/cuda-proves-nvidia-is-a-software-company/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Mon, 11 May 2026 10:00:00 +0000",
-        "summary_zh": "近年來，Nvidia在硬體領域的成功讓人們誤以為這家公司只是專注於半導體製造。然而，Nvidia的實力遠不止於此。CUDA是一個開放原始碼的程式庫，能夠讓程式設計師在GPU上執行高效的運算。這使得Nvidia能夠在軟體領域佔據重要地位。事實上，CUDA的深淵已經成為業界的一道屏障，讓競爭者難以跨越。Nvidia的成功不僅僅是因為硬體的優勢，而是因為它的軟體能力。這使得Nvidia能夠在AI、深度學習等領域佔據領先地位。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7e09d054",
-        "title": "好萊塢業界人士：以前的電視劇編劇現在都在暗地裡訓練AI",
-        "url": "https://www.wired.com/story/i-work-in-hollywood-everyone-who-used-to-make-tv-now-training-ai/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Mon, 11 May 2026 10:00:00 +0000",
-        "summary_zh": "好萊塢的編劇們，包括我在內，都在秘密地訓練AI。這種情況在全球各地的求職者中都很常見。過去八個月，我已經完成了20個這種令人心碎的合約，為五個不同的平台工作。這種情況令人擔憂。這種AI工作已經成為了好萊塢業界人士的新一種「等待桌遊」的工作方式。這種情況對於好萊塢的創作人才和未來的工作前景都構成了重大挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -624,6 +588,42 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "d32232dc",
+        "title": "伊利亞·蘇茨克夫堅持自己在Sam Altman離開OpenAI的角色：‘我不想讓它被毀滅’",
+        "url": "https://www.wired.com/story/ilya-sutskever-testifies-musk-v-altman-trial/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Mon, 11 May 2026 23:51:35 +0000",
+        "summary_zh": "伊利亞·蘇茨克夫前任OpenAI首席科學家雖然與公司關係疏離，但仍在星期一的聽證會上為公司辯護。他堅持自己在Sam Altman離開OpenAI的角色，並表明自己不想讓公司被毀滅。雖然蘇茨克夫與Altman的關係不佳，但他仍堅持自己在公司的重要性。他認為Altman的離開是公司內部問題，而不是他個人問題。這一事件可能會對OpenAI的未來發展產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0bfc24c7",
+        "title": "Nvidia證明自己是一家軟體公司：CUDA的深淵",
+        "url": "https://www.wired.com/story/cuda-proves-nvidia-is-a-software-company/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Mon, 11 May 2026 10:00:00 +0000",
+        "summary_zh": "近年來，Nvidia在硬體領域的成功讓人們誤以為這家公司只是專注於半導體製造。然而，Nvidia的實力遠不止於此。CUDA是一個開放原始碼的程式庫，能夠讓程式設計師在GPU上執行高效的運算。這使得Nvidia能夠在軟體領域佔據重要地位。事實上，CUDA的深淵已經成為業界的一道屏障，讓競爭者難以跨越。Nvidia的成功不僅僅是因為硬體的優勢，而是因為它的軟體能力。這使得Nvidia能夠在AI、深度學習等領域佔據領先地位。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7e09d054",
+        "title": "好萊塢業界人士：以前的電視劇編劇現在都在暗地裡訓練AI",
+        "url": "https://www.wired.com/story/i-work-in-hollywood-everyone-who-used-to-make-tv-now-training-ai/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Mon, 11 May 2026 10:00:00 +0000",
+        "summary_zh": "好萊塢的編劇們，包括我在內，都在秘密地訓練AI。這種情況在全球各地的求職者中都很常見。過去八個月，我已經完成了20個這種令人心碎的合約，為五個不同的平台工作。這種情況令人擔憂。這種AI工作已經成為了好萊塢業界人士的新一種「等待桌遊」的工作方式。這種情況對於好萊塢的創作人才和未來的工作前景都構成了重大挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
@@ -636,8 +636,8 @@
         "published_at": "Tue, 12 May 2026 13:37:33 +0800",
         "summary_zh": "記憶體廠鈺創董事長盧超群表示，今年半導體業產值可望挑戰1.4兆美元，動態隨機存取記憶體（DRAM）與儲存型快閃記憶體（NAND Flash）將貢獻一半產值。記憶體熱況應可延續到明年中，鈺創訂單能見度已達明年上半年。這表明台灣半導體業在全球市場中仍然扮演重要角色，產值的挑戰目標也令人期待。然而，隨著市場競爭的加劇，企業仍需保持競爭力和創新能力，以維持產值的成長。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "9d6f4e1c",
@@ -648,8 +648,8 @@
         "published_at": "Tue, 12 May 2026 13:12:14 +0800",
         "summary_zh": "台股頻創新高，投資人採取定期定額方式投資股市。元大投信宣布，旗下旗艦台股ETF元大台灣50的定期定額戶數，首度突破百萬戶。這項成績遠超居次的ETF元大高股息的27.4萬戶，以及定期定額人數最多的上市公司台積電的20.2萬戶。這表明投資人對台股的信心正在增強。然而，這也意味著投資人可能會面臨市場波動的風險。未來，台股的走勢將受到多種因素的影響，包括經濟指標、政策變化和全球市場趨勢等。投資人需要保持警惕和謹慎的投資策略。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "fbcb8f18",
@@ -660,8 +660,8 @@
         "published_at": "Tue, 12 May 2026 13:06:07 +0800",
         "summary_zh": "法巴人壽近日宣布，正式獲金管會關核准辦理財富管理業務，這被視為拓展高資產金融服務領域的重要里程碑。這項核准將使法巴人壽能夠提供更豐富的金融服務給高資產客群，推出全新投資型保單。同時，法巴人壽也表達了對台灣高資產商機的看好，未來是否進一步申請進駐高雄專區，目前正在內部討論中。這項發展將對台灣的金融服務產業帶來新的競爭力和機會。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "3b913a06",
@@ -672,6 +672,18 @@
         "published_at": "Tue, 12 May 2026 12:59:01 +0800",
         "summary_zh": "林明昕在2026網路週的發言中強調，AI發展與地緣政治變化正重塑全球風險，這不僅僅是科技問題，也關乎國家韌性與社會信任的治理課題。台灣身為資通訊產業鏈與民主陣營的重要成員，將持續與理念相近夥伴深化合作，共同探索兼顧自由與安全的治理模式。這表明台灣將在國際舞台上扮演更重要的角色，與其他國家和組織合作，共同應對全球風險。林明昕的發言也意味著，台灣將更加積極地參與國際合作，推動兼顧自由與安全的治理模式。",
         "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "34898a66",
+        "title": "光通訊族群點火 大立光盤中飆漲停",
+        "url": "https://www.cna.com.tw/news/afe/202605120105.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 12 May 2026 12:39:48 +0800",
+        "summary_zh": "光通訊族群近日受AI資料中心與矽光子題材的影響而走強，眾多公司的股價都有所上漲。其中，聯鈞、IET-KY等公司的股價都亮燈。另外，大立光也積極布局共同封裝光學（CPO）領域，盤中股價因此而飆漲停。這一系列的走強，顯示光通訊族群正在受到新的投資熱潮的影響。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
@@ -746,101 +758,89 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "b9f22bf1",
-        "title": "台灣人最愛買這牌車！各國冠軍一次看",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5433750",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 12 May 2026 12:08:00 +0800",
-        "summary_zh": "豐田汽車在全球市場領先，排名第1的國家包括北美、中東、東南亞、歐洲和非洲部分地區的25個國家，包括台灣。豐田汽車的銷售數據顯示，其在全球市場的市場佔有率非常高。這項數據表明，豐田汽車在全球各地都有很好的市場份額。雖然豐田汽車的銷售數據很好，但這也意味著市場競爭日趨激烈，其他汽車品牌也需要努力提升自己的市場份額。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "51365b39",
-        "title": "埃梅拉爾欲出售軍用飛機C-390給哥倫比亞和智利，CEO表示",
-        "url": "https://www.reuters.com/es/negocio/LJFQGLAXPFIJVNNMMOR4FJ7WNA-2026-05-11/",
-        "source": "Reuters",
+        "id": "5757b024",
+        "title": "高盛和摩根士丹利延後預測美聯儲降息計畫",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/goldman-y-bofa-retrasan-recortes-de-la-fed-por-inflacion-y-empleo",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-11 17:58:51",
-        "summary_zh": "埃梅拉爾公司的CEO表示，該公司正在努力出售軍用飛機C-390給哥倫比亞和智利。這項出售是為了填補公司在全球市場上的空缺，同時也希望能夠增加公司的收入。哥倫比亞和智利是南美洲兩個重要的軍事力量，出售軍用飛機給這兩個國家將會大大提升埃梅拉爾公司的全球影響力。然而，出售軍用飛機的過程也會面臨到許多挑戰，包括政府的審批和國際關係的考量。埃梅拉爾公司的CEO表示，公司正在努力克服這些挑戰，希望能夠成功出售軍用飛機。這項出售將會對埃梅拉爾公司的業務和收入產生重大影響，同時也會對哥倫比亞和智利的軍事力量產生影響。",
+        "published_at": "2026-05-11 18:58:29",
+        "summary_zh": "美聯儲近期公布的經濟數據表明經濟仍在穩定發展，高盛和摩根士丹利等銀行重新評估美聯儲降息的可能性。根據最新的預測，美聯儲今年下半年降息的機會降低。這一轉變是由於美聯儲近期公布的經濟數據表明經濟仍在穩定發展，且通膨率不再是主要關注點。這意味著美聯儲可能會延後降息的時間表，讓市場有更多時間觀察經濟的發展。這一轉變對市場有著重要影響，投資者需要密切關注美聯儲的動向以做出明智的投資決策。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "e5596ffd",
-        "title": "埃梅拉爾預計將C-390軍用飛機出售給哥倫比亞、智利，CEO表示",
-        "url": "https://www.reuters.com/business/aerospace-defense/embraer-aims-sell-c-390-military-plane-colombia-chile-ceo-says-2026-05-11/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-11 17:56:41",
-        "summary_zh": "埃梅拉爾航空公司的CEO表示，公司正在努力將C-390軍用飛機出售給哥倫比亞和智利。這款飛機是埃梅拉爾的最新產品，具有高性能和多用途性。哥倫比亞和智利政府正在考慮購買這款飛機，作為其軍事力量的增強。埃梅拉爾的這一努力是為了擴大公司在拉丁美洲的市場份額，並且進一步鞏固公司在全球軍用飛機市場的競爭力。這一發展可能會對哥倫比亞和智利的軍事力量產生重大影響，並且可能會對拉丁美洲地區的安全局勢產生影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "aff3511c",
-        "title": "西班牙TSK在強烈需求下以最高價位完成IPO",
-        "url": "https://www.reuters.com/business/spains-tsk-prices-ipo-top-range-strong-demand-2026-05-11/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-11 17:56:12",
-        "summary_zh": "西班牙TSK公司在股市上市的首日，成功以最高價位完成IPO。公司的股價受到強烈需求，遠超預期。這次IPO的成功表明投資者對西班牙經濟的信心正在增強。TSK公司是西班牙的一家重要企業，主要從事能源和資源開發業務。公司的上市將為西班牙的經濟增添新的動力。投資者對公司未來發展的前景感到樂觀，認為公司的股價將會持續上升。然而，市場也存在一定的風險，投資者需要謹慎評估風險和收益。西班牙的經濟環境正在改善，企業的上市將為該國的經濟增添新的動力。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "e1486bc8",
-        "title": "美國環保署加快發放電力廠清潔空氣許可證",
-        "url": "https://www.reuters.com/legal/litigation/us-epa-moves-speed-clean-air-permits-power-plants-industry-2026-05-11/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-11 17:54:09",
-        "summary_zh": "美國環保署 (EPA) 表示，將加速大型污染源取得清潔空氣許可證的程序，這是川普政府最新的措施，旨在減輕美國電力廠和工業的監管負擔。這一措施將對環境和公眾健康產生重大影響。根據美國環保署的說法，這一變革將使許多企業能夠更快速地取得許可證，從而減少成本和提高效率。然而，這一變革也引發了對環境和公眾健康的擔憂。許多環保團體和專家認為，這一變革將導致空氣污染問題惡化，進而對人類健康造成嚴重後果。",
-        "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "05253220",
-        "title": "川普將於星期一簽署命令以降低牛肉價格",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/trump-to-sign-orders-monday-aimed-at-lowering-beef-prices",
+        "id": "fc5d2812",
+        "title": "Telus 26 年 CEO 勸新任領導者勇於冒險、信任團隊",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/telus-ceo-darren-entwistle-urges-successor-to-take-risks-trust-team",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-11 17:50:44",
-        "summary_zh": "美國前總統川普即將簽署一系列命令，旨在降低牛肉價格。根據消息來源，川普將在星期一簽署這些命令，目的是為消費者降低牛肉的購買成本。這一措施被視為對農業業界的一個重大影響。川普的命令將針對美國牛肉的生產和出口進行調整，希望能夠降低牛肉的價格。這一措施的影響將延伸到美國農業業界和消費者。然而，詳細的具體措施尚未公佈。",
+        "published_at": "2026-05-11 18:58:00",
+        "summary_zh": "Telus 26 年 CEO Darren Entwistle 在退休前發表了最後一次演講，他呼籲新任領導者勇於冒險、信任團隊。Entwistle 表示，企業的成功與否取決於領導者的決策，新任 CEO 應該信任自己的團隊，並採取積極的風險管理策略。這是因為風險是企業成長的必然部分，而害怕風險反而會導致企業停滯不前。Entwistle 的這番話是他退休前的最後一次演講，他將在今年 6 月結束 26 年的任期。新任 CEO Tarron Looman 將在 6 月 1 日就職，他將面臨著挑戰性的任務，包括在競爭激烈的市場中保持企業的競爭力。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "c682d8e4",
-        "title": "策略今年來達新高，是否該買回比特幣股票?",
-        "url": "https://www.cnbc.com/2026/05/11/strategy-just-hit-a-new-high-for-the-year-should-you-buy-the-comeback-in-bitcoin-stocks.html",
+        "id": "27bb2676",
+        "title": "卡萊爾 BDC 將分紅率降低，同時預示著信貸市場的改善",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/carlyle-bdc-cuts-dividend-even-as-it-flags-better-credit-market",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-11 18:54:08",
+        "summary_zh": "卡萊爾 BDC 進行了分紅率降低的決定，儘管公司旗幟鮮明地預示著信貸市場的改善。這一決定對投資者造成了影響，投資者需要重新評估投資策略。卡萊爾 BDC 的這一決定與市場情況的變化有關，公司認為信貸市場的風險正在降低。投資者需要密切關注卡萊爾 BDC 的動態，以便及時做出投資決策。這一決定對投資市場產生了影響，投資者需要保持警惕。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "fff46adf",
+        "title": "Onex尋求10億美元持續擁有OneDigital股份",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/onex-seeks-1-billion-to-hang-onto-onedigital-stake-for-longer",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-11 18:52:26",
+        "summary_zh": "加拿大私募股權公司Onex正在尋求10億美元的資金，以延長持有美國人壽保險公司OneDigital的股份。這項交易將使Onex成為OneDigital的最大股東。Onex於2019年以22億美元收購OneDigital，當時OneDigital的財務狀況不佳，Onex的投資被視為一項高風險投資。然而，OneDigital在近年來表現出色，財務狀況改善，股價上升。Onex的投資回報率高達幾十倍，證明了Onex的投資決策是正確的。這項交易將使Onex持續擁有OneDigital的股份，同時也將使Onex的投資回報率繼續增長。這項交易的影響將是Onex持續擁有OneDigital的股份，同時也將使OneDigital的財務狀況繼續改善。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e9fb1ba3",
+        "title": "自由港：格拉斯伯格礦業恢復預期未延遲至 2028 年，仍堅持 2027 年預測",
+        "url": "https://www.reuters.com/world/asia-pacific/freeport-says-grasberg-recovery-not-delayed-until-2028-stands-by-2027-forecast-2026-05-11/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-11 18:52:06",
+        "summary_zh": "自由港礦業公司 (Freeport-McMoRan) 表示，仍預期印尼格拉斯伯格銅金礦業在 2027 年底恢復正常生產，確認上月公布的計畫，並反駁有關礦業恢復可能延遲至 2028 年的報導。自由港礦業公司上月公布，格拉斯伯格礦業將在 2027 年恢復正常生產，目前正在進行恢復工作。自由港礦業公司強調，礦業恢復計劃仍在按時進行，沒有延遲。印尼政府和自由港礦業公司上月簽署協議，同意礦業恢復計劃。協議中規定，礦業恢復工作將在 2027 年完成。自由港礦業公司表示，礦業恢復計劃的完成對於印尼經濟和全球銅市場都具有重要意義。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ac25a376",
+        "title": "彈道式 AI 繁榮，投資者看好這個曾經的網路流行金屬交易回歸",
+        "url": "https://www.cnbc.com/2026/05/11/parabolic-ai-rally-has-bulls-eyeing-a-comeback-for-this-one-time-meme-metal-trade.html",
         "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-05-11 17:30:01",
-        "summary_zh": "近日，Fairlead Strategies 的 Katie Stockton 分析了比特幣相關股票的走勢圖表。根據她的觀察，目前的市場走勢表明比特幣相關股票正在展現出復甦跡象。然而，這是否代表著買入的機會呢？Stockton 提供了她的分析，讓投資者們能夠更好地了解市場的走向。她的分析表明，目前的市場走勢與過去的類似模式有所相似，投資者們應該保持警惕。同時，她也提到，投資者們應該關注比特幣的價格走勢，盡量避免在市場波動時買入股票。",
+        "published_at": "2026-05-11 18:49:52",
+        "summary_zh": "近日，白銀價格大幅上漲 7%，創下自 3 月以來的最高價格。這一波上漲使得投資者開始看好白銀的前景，認為這可能是彈道式 AI 繁榮的下一個重點。雖然 AI 繁榮的概念最初是用來描述市場的快速上漲，但現在投資者開始將這個術語用於白銀的價格行情。白銀的上漲被認為是市場對於經濟增長和通脹的預期增強所致。投資者們認為，白銀的價格可能會繼續上漲，成為市場的重點。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "f3939d83",
-        "title": "聯合公園損失擴大，地緣政治影響遊客人數",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/united-parks-loss-widens-as-geopolitics-weigh-on-visitor-numbers",
-        "source": "Bloomberg",
+        "id": "709f043e",
+        "title": "巴西2025/26年糧食出口預期下調9%：Itau BBA",
+        "url": "https://www.reuters.com/es/negocio/CTF4DIOJ65OYPIZN7UVJMVRUTI-2026-05-11/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-05-11 17:28:42",
-        "summary_zh": "聯合公園的財務損失持續擴大，主要原因是地緣政治不穩定對遊客人數產生了重大影響。根據最新的財務報告，公司的營業收入下滑了 10%，而且預計今年的營業收入將會繼續下滑。公司的管理層表示，地緣政治不穩定使得遊客人數大幅下滑，導致公司的財務損失擴大。同時，公司也面臨著與競爭對手的競爭壓力，公司的管理層表示，將會採取措施來提高公司的競爭力。預計未來幾個月，公司的財務狀況將會持續受到地緣政治不穩定的影響。",
+        "published_at": "2026-05-11 18:39:00",
+        "summary_zh": "巴西糧食出口預期下調9%，這是由於糧食生產預期下降。根據Itau BBA的報告，2025/26年的糧食出口預期從原來的2.8億噸下調至2.55億噸。這是因為糧食生產預期下降，尤其是小麥和大麥的生產預期下降。這個預期下調將對巴西糧食出口業有重大影響。巴西是全球糧食出口大國之一，糧食出口業對巴西經濟有重要影響。預期下調將對巴西經濟有所影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
@@ -860,6 +860,42 @@
     ],
     "stock_us": [
       {
+        "id": "454168b8",
+        "title": "川普將簽署命令，鼓勵進口牛肉，重建美國牛隻群體",
+        "url": "https://www.reuters.com/world/us/trump-sign-orders-boost-beef-imports-rebuild-cattle-herd-white-house-says-2026-05-11/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-05-11 18:27:43",
+        "summary_zh": "美國總統川普將於星期一簽署行政命令，允許進口更多的牛肉進入美國，並支持美國牛隻群體的恢復。這是為了應對牛肉價格居高不下，白宮官員表示。美國牛肉價格居高不下，白宮官員表示，川普政府打算通過進口更多的牛肉來降低價格，並支持美國牛隻群體的恢復。這些措施將有助於美國牛肉業的發展，並為消費者提供更多選擇。美國牛肉業的發展對於美國農業產業具有重要意義，白宮官員表示，川普政府將繼續支持美國農業產業的發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "64da2090",
+        "title": "Qnity 的勝利關鍵 — 並且，特朗普中國行的高壓之下，CEO 的高風險之旅",
+        "url": "https://www.cnbc.com/2026/05/11/a-beat-and-raise-is-key-for-qnity-plus-ceos-on-trump-china-trip.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-11 18:22:50",
+        "summary_zh": "每個工作日，投資俱樂部都會發布《Homestretch》— 這是一份可行動的下午更新，正好在交易最後一小時的時候發出。這份更新內容豐富，包含了市場趨勢、投資機會等信息，幫助投資者做出明智的決策。然而，這次特朗普總統的中國行卻引起了市場的高度關注，CEO 的高風險之旅也引發了投資者的擔憂。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "39d93cd5",
+        "title": "華爾街最大的Micron支持者們現在更有信心了！這是為什麼",
+        "url": "https://www.cnbc.com/2026/05/11/multiple-firms-have-1000-price-target-on-micron.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-11 18:03:24",
+        "summary_zh": "在華爾街，對於半導體製造商Micron的看法很不一致。有些分析師對Micron非常樂觀，認為公司未來前景很好，而其他人則不那麼有信心。最近，Micron的股價大幅上漲，讓一些投資者感到驚訝。這些樂觀的分析師認為，Micron的業務正在快速擴張，公司的收入和利潤都在上升。Micron的業務範圍包括記憶體晶片、存儲設備和計算機芯片等。分析師們認為，Micron的業務正在受益於全球半導體需求的增加。然而，其他分析師則認為，Micron的股價已經過高，未來面臨著挑戰。Micron的股價大幅上漲，讓一些投資者感到驚訝。這些樂觀的分析師認為，Micron的業務正在快速擴張，公司的收入和利潤都在上升。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "694d1596",
         "title": "華爾街老將堅信標普500指數將突破 8000 點",
         "url": "https://www.bloomberg.com/news/articles/2026-05-11/wall-street-veteran-yardeni-confident-in-s-p-500-eclipsing-8-000",
@@ -868,8 +904,8 @@
         "published_at": "2026-05-11 17:20:00",
         "summary_zh": "華爾街老將 Yardeni 表示，他對於標普500指數將突破 8000 點充滿信心。他認為，美國經濟正在經歷一場強勁的復甦，企業盈餘將持續增長，股市將繼續上揚。 Yardeni 的預測基於他對美國經濟和企業盈餘的深入分析，他認為，美國的經濟復甦將持續下去，股市將繼續上揚。這一預測將對投資者產生重大影響，投資者將需要重新評估他們的投資組合和風險管理策略。 Yardeni 的預測也將對美國經濟和股市產生重大影響，投資者將需要密切關注經濟數據和企業盈餘的變化。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "a35d241c",
@@ -880,8 +916,8 @@
         "published_at": "2026-05-11 17:00:09",
         "summary_zh": "股市的窄幅走勢引起了投資者的擔憂，與 90 年代末的市場走勢有相似之處。這種情況自海灣戰爭以來只出現過三次，投資者對此感到不太樂觀。這種窄幅走勢通常與市場的疲勞和投資者的悲觀情緒相關。投資者們擔心，這種情況可能會對股市造成不利影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "454b36f9",
@@ -941,42 +977,6 @@
         "summary_zh": "麥哲倫（Michael Burry）最近表示，投資者應該「拒絕貪婪」，因為人工智慧和動量交易的熱潮正在使股價快速上漲。麥哲倫是一位投資家和醫生，他曾在2008年預測房市泡沫破裂。這次，他警告投資者不要貪婪，當股價暴漲時應該減少持股。麥哲倫認為，投資者應該保持冷靜和理智，避免被市場情緒所左右。這是因為當股價快速上漲時，投資者容易受到貪婪的影響，過度買新股票，最終可能會導致投資失敗。麥哲倫的警告值得投資者注意，尤其是在人工智慧和動量交易的熱潮下。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6570e2d8",
-        "title": "美國人檢測出漢坦病毒：了解相關內容",
-        "url": "https://www.cnbc.com/video/2026/05/11/american-tests-positive-for-hantavirus-heres-what-to-know.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-11 15:08:57",
-        "summary_zh": "美國最近有個案出現漢坦病毒感染，引起美國民眾擔憂。漢坦病毒是一種自然存在於動物體內的病毒，主要通過野生動物的糞便、尿液等傳播給人類。根據美國疾病控制與預防中心（CDC）的資料，漢坦病毒主要影響美國西部地區，尤其是在夏季和秋季。美國疾病控制與預防中心（CDC）建議，當出現症狀時，應儘快就醫，並進行檢測。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d3d5cd4d",
-        "title": "華爾街對這家航太公司感到欣欣向榮。高盛預測股價將上漲 50%。",
-        "url": "https://www.cnbc.com/2026/05/11/wall-street-loves-this-aerospace-play-goldman-sees-50percent-gain-ahead.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-11 14:54:17",
-        "summary_zh": "航太公司 Arxis 因其歷史上的收購活動、多元化投資組合以及對國防開支週期的暴露而受到分析師的好評。分析師認為，Arxis 的股價將因為這些因素而上漲。高盛預測 Arxis 股價將在未來上漲 50%。這一預測是基於 Arxis 的 M&A 活動、多元化投資組合以及對國防開支週期的暴露。這些因素將幫助 Arxis 突破市場的預期，實現股價上漲。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "844be125",
-        "title": "Melius研究院 Ben Reitzes:芯片股的動能將持續數年",
-        "url": "https://www.cnbc.com/video/2026/05/11/meliusa-ben-reitzes-on-chip-stocks-momentum-i-dont-see-it-stopping-for-multiple-years.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-11 14:49:10",
-        "summary_zh": "Melius研究院的Ben Reitzes表示，他對於芯片股的動能感到樂觀。他認為，芯片股的成長不僅僅是短期的趨勢，而是長期的趨勢。他指出，芯片的需求持續增加，尤其是在人工智慧、雲計算和5G等領域。這些領域的需求將持續推動芯片股的成長。Reitzes認為，芯片股的動能將持續數年，甚至可能持續十年以上。他還提到，芯片股的成長將受到供應鏈的影響，供應鏈的問題可能會影響芯片股的價格。然而，他仍然樂觀地看待芯片股的前景。他認為，芯片股的成長將是未來十年中的一個重要趨勢。",
-        "sentiment": "正面",
-        "is_breaking": false,
         "ai_classified": true
       }
     ]
