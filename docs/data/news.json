@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-13T15:13:02.213437+08:00",
+  "generated_at": "2026-05-13T16:11:58.598507+08:00",
   "risk_signals": [
     "🟢 台股加權 41374.5（正常）",
     "🟢 S&P 500 7400.96（正常）",
-    "🟢 VIX 恐慌指數 17.99（正常）",
+    "🟢 VIX 恐慌指數 17.93（正常）",
     "🟢 MOVE 債市波動 71.68（正常）",
-    "🟢 美元指數 98.42（正常）",
+    "🟢 美元指數 98.5（正常）",
     "🟢 黃金 4709.5（正常）",
     "🟢 美債10Y殖利率 4.46（正常）",
-    "🟢 原油 WTI 101.0（正常）",
-    "🟡 美元/台幣 31.51（漲 +0.5%，留意）"
+    "🟢 原油 WTI 101.17（正常）",
+    "🟡 美元/台幣 31.52（漲 +0.53%，留意）"
   ],
-  "ai_summary": "市場氛圍穩定，主要指標維持正常水平，但美元兌台幣升值跡象出現，台股表現疲弱。",
+  "ai_summary": "市場氛圍相對穩定，但美元對台幣升值可能會對台股帶來壓力。",
   "market": {
     "TWII": {
       "price": 41374.5,
@@ -26,8 +26,8 @@
       "change_pct": -0.71
     },
     "VIX": {
-      "price": 17.99,
-      "change_pct": -2.12
+      "price": 17.93,
+      "change_pct": -0.33
     },
     "TNX": {
       "price": 4.46,
@@ -38,90 +38,248 @@
       "change_pct": 1.33
     },
     "DXY": {
-      "price": 98.42,
-      "change_pct": 0.14
+      "price": 98.5,
+      "change_pct": 0.21
     },
     "GOLD": {
       "price": 4709.5,
       "change_pct": 0.68
     },
     "OIL": {
-      "price": 101.0,
-      "change_pct": -1.15
+      "price": 101.17,
+      "change_pct": -0.99
     },
     "USDTWD": {
-      "price": 31.51,
-      "change_pct": 0.5
+      "price": 31.52,
+      "change_pct": 0.53
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "ca5a2a50",
+        "title": "提名送交參議院",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/nominations-sent-to-the-senate-3857/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 12 May 2026 19:21:49 +0000",
+        "summary_zh": "白宮宣布，提名三名人選送交參議院審核。其中包括Angela Veronica Colmenero、Daniel Desmond Domenico和Michael C. Martin。Angela Veronica Colmenero被提名為美國南德克薩斯地區聯邦法院法官，Daniel Desmond Domenico被提名為第十巡迴聯邦上訴法院法官，Michael C. Martin被提名為美國東密歇根地區聯邦法院法官。這些提名將由參議院進行審核和確認。這些提名的目的是為美國司法系統補充新的力量，同時也展現了政府對司法系統的重視。然而，這些提名也可能引發爭議和討論，尤其是在政治立場和司法理念上。總體而言，這些提名將對美國司法系統產生重要影響，值得關注和觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "135d9641",
+        "title": "第一夫人梅拉尼婭川普自簽署《未來的關懷》行政命令180天來的10項成就",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/first-lady-melania-trumps-10-achievements-transforming-outcomes-for-foster-youth-since-the-signing-the-fostering-the-future-executive-order-180-days-ago/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 12 May 2026 19:00:14 +0000",
+        "summary_zh": "第一夫人梅拉尼婭川普在《未來的關懷》行政命令簽署180天之際，宣布了10項成就，旨在擴大機會、增強公私部門支持和改善遭受收養照護的年輕人生活。美國在此時期紀念《國家收養照護月》，白宮辦公室發表聲明，強調這些成就對於改善年輕人的生活具有重要意義。梅拉尼婭川普的努力不僅僅是為了改善收養照護的年輕人生活，也是為了促進美國社會的整體發展。這些成就包括擴大機會、增強公私部門支持和改善生活質量等方面的改善。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "10117366",
+        "title": "特朗普林肯紀念館反映池修繕工程遭遇訴訟及13億美元的花費",
+        "url": "https://www.bbc.com/news/articles/c202nj46p7wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 13 May 2026 02:55:02 GMT",
+        "summary_zh": "特朗普總統計劃對林肯紀念館反映池進行翻新工程，最初估計花費30億美元，耗時數年。但他卻宣稱找到了一個更好的方法，僅需1.5億至2億美元。然而，這個計畫卻遭遇了一個訴訟，訴訟方認為這個工程的成本已經超過預估，達到13億美元。這個訴訟可能會對特朗普的計畫造成重大影響，讓人們對這個工程的可行性產生懷疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cd3c573f",
+        "title": "美國人對川普改造的反射池有何反應？",
+        "url": "https://www.bbc.com/news/videos/cp8pmgmpgj3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 13 May 2026 01:22:18 GMT",
+        "summary_zh": "美國總統川普持續推動將華盛頓DC打造為「安全又美麗」的計畫，引發了遊客和當地民眾的爭議。川普政府耗資13億美元改造反射池，引起了許多人的關注。許多人認為這項改造是浪費了公帑，反映了川普政府對美化城市的重視，但也有不少人批評這項改造是毫無意義的。這項改造是否能夠實現川普政府的目標，還有待觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f3b7d099",
+        "title": "美國人分享在漢坦病毒隔離單位內的視頻",
+        "url": "https://www.bbc.com/news/videos/cy82kzzlrz5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 13 May 2026 00:28:30 GMT",
+        "summary_zh": "美國一名乘客曾在MV Hondius郵輪上航行，目前正在內布拉斯加州奧馬哈的隔離單位內接受檢疫。該郵輪曾前往南極洲，船上有乘客感染了漢坦病毒。美國人在社交媒體上分享了自己在隔離單位內的視頻，內容包括醫護人員的工作、隔離單位的環境等。這些視頻讓外界對隔離單位的生活有了一個了解。雖然隔離單位內的生活可能不舒適，但醫護人員的工作卻是非常重要的。這些視頻也讓外界對漢坦病毒的感染有了一個更深入的了解。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "bc437ae4",
+        "title": "美國食品藥物管理局局長馬提·馬卡里被撤換",
+        "url": "https://www.bbc.com/news/articles/ce8pg3kr3pxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 12 May 2026 22:45:28 GMT",
+        "summary_zh": "美國食品藥物管理局局長馬提·馬卡里（Marty Makary）已被撤換。這是美國健康部長羅伯特·F·肯尼迪（Robert F Kennedy Jr.）下台的最新一位高級衛生官員。馬卡里曾在川普政府任職，並在拜登政府中繼續擔任食品藥物管理局局長一職。他的離職引起了對美國食品藥物管理局未來方向的關注。馬卡里曾在川普政府任職，並在拜登政府中繼續擔任食品藥物管理局局長一職。他的離職可能會對美國食品藥物管理局的政策和決策產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4bef3827",
+        "title": "埃隆·馬斯克建議將OpenAI控制權交給兒子，薩姆·阿爾特曼在法庭上表示埃隆·馬斯克多次試圖取得OpenAI的完全控制權",
+        "url": "https://www.bbc.com/news/articles/czj2k2exdzlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 12 May 2026 18:51:56 GMT",
+        "summary_zh": "美國企業家埃隆·馬斯克在OpenAI事件中，與該公司的創始人之一薩姆·阿爾特曼發生糾紛。根據最新消息，埃隆·馬斯克建議將OpenAI的控制權交給自己的孩子。然而，薩姆·阿爾特曼在法庭上表示，埃隆·馬斯克多次試圖取得OpenAI的完全控制權，甚至曾試圖將該公司的控制權轉移給自己。這一事件引發了對OpenAI未來發展方向的關注。埃隆·馬斯克的建議是否會被接受，仍待觀察。薩姆·阿爾特曼的訴訟可能會對OpenAI的未來發展產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0f95e600",
+        "title": "加州城市市長因中國間諜罪名辭職",
+        "url": "https://www.bbc.com/news/articles/cvgz87vmj65o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 12 May 2026 11:03:52 GMT",
+        "summary_zh": "加州一城市市長Eileen Wang因美國司法部指控她涉嫌作為中國間諜而辭職。根據指控，Eileen Wang可能面臨最高10年的監禁。事件背景是美國政府近期加強針對中國間諜活動的打擊。這一指控對於美國與中國的關係產生了重大影響，影響了兩國之間的政治和外交關係。這一事件也引發了對於美國政府對於中國間諜活動的處理方式的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b3b9f543",
+        "title": "內布拉斯加民主黨參議院初選勝者表示將退出競選以支持獨立候選人",
+        "url": "https://www.theguardian.com/us-news/2026/may/12/nebraska-demoratic-house-primary-winner-cindy-burbank",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 13 May 2026 06:00:16 GMT",
+        "summary_zh": "內布拉斯加州民主黨參議院初選的勝者辛迪布蘭克（Cindy Burbank）表示，她將在總統選舉中退出競選，以便讓獨立候選人丹奧斯本（Dan Osborn）有機會勝選。辛迪布蘭克在初選中擊敗了民主黨人威廉福布斯（William Forbes），後者被指控是共和黨的代理人。威廉福布斯是一名牧師，他曾支持川普，並反對墮胎權。這位牧師目前仍然註冊為民主黨成員。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4466c03b",
+        "title": "特朗普中國行：梅拉尼婭總統紀錄片導演布萊特·拉特納加入行列",
+        "url": "https://www.theguardian.com/us-news/2026/may/13/brett-ratner-joins-trump-china-trip-rush-hour-melania-director",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 13 May 2026 05:45:39 GMT",
+        "summary_zh": "美國總統特朗普將與中國領導人習近平舉行峰會，期間將討論包括伊朗和台灣在內的重要經濟和地緣政治問題。特朗普在前往中國的途中，與多家美國科技和金融公司的高層一起乘坐空軍一號。其中包括蘋果公司的蒂姆·庫克、特斯拉的埃隆·穆斯克和黑石集團的拉里·芬克。布萊特·拉特納，曾導演《衝鋒車》系列電影和梅拉尼婭總統紀錄片，也加入了這次行程。他將負責在中國尋找《衝鋒車4》的拍攝地點。拉特納曾因為性別歧視指控而在好萊塢遭到孤立。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d6563d2a",
+        "title": "川普任命第四位臨時FEMA局長",
+        "url": "https://thehill.com/policy/energy-environment/5875022-trump-fema-cameron-hamilton-robert-fenton/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Tue, 12 May 2026 22:05:07 +0000",
+        "summary_zh": "美國聯邦緊急事務管理局（FEMA）局長Karen Evans已經離職，引發局長人事變動風波。根據Politico的E&amp;E News，川普政府在周二發出一份備忘錄，宣布Evans離職。Evans自12月以來一直擔任FEMA局長，接替前任David Richardson。這是FEMA局長人事變動的又一次例子，川普政府一直面臨著領導層的不穩定。這種變動可能會影響FEMA的工作效率和應對災害的能力。目前尚未公布接替Evans的新局長人選。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4000a8a1",
+        "title": "FDA 主席馬基利任期結束，面臨困難",
+        "url": "https://thehill.com/policy/healthcare/5875030-marty-makarys-tenure-as-head-of-fda-ends-with-difficulty/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Tue, 12 May 2026 22:03:46 +0000",
+        "summary_zh": "美國食品藥物管理局 (FDA) 主席馬基利 (Marty Makary) 週二正式辭職，結束了他在該職位的任期。這一決定與近期對他的工作表現產生壓力和流言有關。根據白宮的消息，該局的食品監管首長戴曼塔斯 (Kyle Diamantas) 將接替馬基利。美國總統川普在社交媒體上表示，馬基利在任職期間遇到了困難。川普在前往中國之前對記者表示，馬基利在 FDA 的工作表現不佳，導致他在該職位遇到困難。這一事件表明 FDA 面臨著挑戰，需要一個新的領導人來帶領該局前進。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8f5aab00",
+        "title": "南卡羅來納州共和黨人拒絕考慮重新劃分選區，打擊川普",
+        "url": "https://thehill.com/homenews/campaign/5875039-south-carolina-senate-redistricting/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Tue, 12 May 2026 21:59:38 +0000",
+        "summary_zh": "南卡羅來納州參議院週一拒絕延長立法日程，考慮重新劃分共和黨有利的國會選區，這對川普總統在今年秋季的中期選舉造成了打擊。這項措施在川普的敦促下，經過29比17票的投票被否決。川普在週一呼籲共和黨人支持延長立法日程，說明南卡羅來納州共和黨人應該像……",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3cf73874",
+        "title": "密蘇里州最高法院維持共和黨友好的國會選區圖",
+        "url": "https://thehill.com/regulation/court-battles/5875009-missouri-supreme-court-redistricting/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Tue, 12 May 2026 21:45:31 +0000",
+        "summary_zh": "密蘇里州最高法院以一致票數駁回挑戰共和黨友好的國會選區圖案，該圖案預計將讓共和黨在中期選舉中獲得額外的眾議院席位。這一判決發生在法院聽取了三起訴訟的口頭辯論後不久，這些訴訟試圖阻止新的選區線。密蘇里州最高法院的審查範圍僅限於判斷該選區圖的合法性，而非其合理性。該選區圖的設計被認為有利於共和黨，將使該黨在眾議院中獲得額外的席位。這一判決將對未來的選舉產生重大影響，共和黨將有更多機會在密蘇里州的眾議院選舉中勝出。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "global": [
       {
-        "id": "adc8c467",
-        "title": "十年後川普回歸：中國變得更加強大和自信",
-        "url": "https://www.bbc.com/news/articles/cm2py6l78dxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "1f6b2c98",
+        "title": "加彭社交媒體封鎖引關注：人權組織批評政府濫用法律",
+        "url": "https://www.theguardian.com/world/2026/may/13/concern-gabon-social-media-clampdown-human-rights",
+        "source": "Guardian World",
         "category": "global",
-        "published_at": "Tue, 12 May 2026 22:07:51 GMT",
-        "summary_zh": "十年前，川普上任時，中國正處於快速崛起的階段。十年後，中國已經成為美國最強大的競爭對手之一。分析師表示，中國的崛起是美國歷史上最大的挑戰。中國的經濟、軍事和科技實力都在快速增強，讓美國感到越來越不安。川普的回歸標誌著美國對中國的競爭將更加激烈。分析師預測，未來十年將是美國和中國的關係最緊張的時期。川普的回歸也意味著美國將更加積極地對抗中國的崛起。美國將會採取更多的措施來限制中國的經濟和科技發展。這將是美國和中國關係的重大轉捩點。",
+        "published_at": "Wed, 13 May 2026 04:00:20 GMT",
+        "summary_zh": "加彭政府近期封鎖了多個社交媒體平台，理由是為了維持安全，防止抗政府抗議活動的擴散。然而，人權組織指責政府濫用法律，限制網路自由。根據人權組織的報導，當地網民使用虛擬私人網路（VPN）來繞過封鎖，政府則開始在路口檢查手機，若發現有VPN的話，就會扣押手機或拘留使用者。政府還封鎖了反對派和人權組織的社交媒體帳戶。這種行為引起了國際社會的關注，人權組織批評政府的做法是對人權的侵犯。",
         "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "235d8717",
+        "title": "巴哈馬選舉熱度高達三方之爭，移民問題成為關鍵議題",
+        "url": "https://www.theguardian.com/world/2026/may/12/bahamas-goes-to-polls-caribbean-election-battle",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 12 May 2026 09:00:43 GMT",
+        "summary_zh": "巴哈馬選民於週二投票，選舉競爭激烈，包括前籃球巨星瑞克·福克斯在內的高調候選人參與。選民們對移民問題感到擔憂，尤其是來自鄰國海地的移民問題，以及生活成本的上升，包括因為中東戰爭導致的汽油價格大幅上漲。巴哈馬選舉將創下有史以來的投票人數記錄。",
+        "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "f0cfc56a",
-        "title": "特朗普與習近平峰會將為超級大國關係定下多年格局",
-        "url": "https://www.bbc.com/news/articles/ceqprgen1nyo?at_medium=RSS&at_campaign=rss",
+        "id": "1816d361",
+        "title": "美國密切磋商開設格陵蘭新軍事基地",
+        "url": "https://www.bbc.com/news/articles/cx21669452lo?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "global",
-        "published_at": "Tue, 12 May 2026 20:11:11 GMT",
-        "summary_zh": "特朗普對中國的訪問是近年來最具重要性的外交行程，但這次峰會是否能夠帶來實際成果仍存疑。特朗普與習近平的會面將為兩國關係定下多年格局，影響到全球政治經濟格局。這次會面將針對貿易、軍事、氣候等多個領域進行協商，兩國領導人將就如何合作、競爭等問題達成共識。然而，兩國之間的關係複雜多變，外界對會面的成果存疑。特朗普的訪問將為兩國關係帶來新的變數，影響到全球政治經濟格局。",
+        "published_at": "Tue, 12 May 2026 11:44:16 GMT",
+        "summary_zh": "格陵蘭位於北極圈南部，是一塊冰雪覆蓋的島嶼。美國政府正在與格陵蘭當局密切磋商，希望在該島南部開設三座新的軍事基地。根據多位與談判有關的官員透露，這一計畫正在進行中。這一發展引起了國際關注，許多人認為這可能是美國在北極圈的軍事存在加強的一部分。格陵蘭的位置使得它成為北極圈的重要據點，美國政府可能希望在該島建立軍事據點以應對北極圈的安全挑戰。然而，這一計畫也引起了格陵蘭當局和國際社會的擔憂，是否美國的軍事存在會對該島的環境和文化產生負面影響。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "2a63a48e",
-        "title": "印度航空危機加劇，阿拉哈巴德墜機報告即將公佈",
-        "url": "https://www.bbc.com/news/articles/c775vvz0kydo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 12 May 2026 22:15:50 GMT",
-        "summary_zh": "印度航空正面臨領導層空缺和持續增加的財務損失，該公司試圖從墜機事故中恢復。印度航空的危機加劇，該公司的財務狀況惡化，公司的未來前景存疑。印度航空的領導層空缺，可能會延遲公司的復原計畫。印度航空的財務損失可能會影響公司的股價和投資者信心。印度航空的危機加劇，可能會影響印度航空業的整體發展。印度航空的未來前景存疑，需要關注和監控。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a2aeef90",
-        "title": "NBA首位公開同性戀球員 Jason Collins 逝世，享年 47 歲",
-        "url": "https://www.bbc.com/news/articles/clyp8rdldk1o?at_medium=RSS&at_campaign=rss",
+        "id": "57ca0782",
+        "title": "美國通貨膨脹率跳升至 3.8% 因伊朗戰爭導致能源成本大幅上漲",
+        "url": "https://www.bbc.com/news/articles/c202pgxx89lo?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "global",
-        "published_at": "Wed, 13 May 2026 00:40:54 GMT",
-        "summary_zh": "NBA前球員 Jason Collins 因為腦癌去世，享年 47 歲。去年他透露自己被診斷出患有惡性腦癌。Jason Collins 是NBA歷史上第一位公開同性戀球員，他在 2013 年 4 月宣布自己是同性戀者。這項宣布在當時引起了廣泛的關注和支持。雖然他在球場上表現出色，但他在退休後仍然面臨著挑戰。他的去世對於NBA球迷和同性戀社群來說是一個沉重的打擊。",
+        "published_at": "Tue, 12 May 2026 18:36:58 GMT",
+        "summary_zh": "美國通貨膨脹率在 4 月份升至 3.8%，創 2023 年 5 月以來最高水平。這主要是因為伊朗戰爭導致能源成本大幅上漲，對消費者造成了重大影響。能源成本的上漲使得美國的生活費用增加，對於美國的經濟發展造成了挑戰。美國政府需要採取措施來控制通貨膨脹率，防止它對經濟造成更大的影響。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "77bdf0f3",
-        "title": "澳洲房屋價格居全球之冠，政府是否會廢除稅收優惠?",
-        "url": "https://www.bbc.com/news/articles/cd7p88j84j3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 12 May 2026 20:28:03 GMT",
-        "summary_zh": "澳洲房屋價格居全球之冠，政府正在考慮廢除房屋稅收優惠，以幫助年輕人進入房屋市場。然而，批評者認為，這樣做將會限制房屋供應。政府的改革目標是幫助年輕人購買房屋，但批評者擔心這將會導致房屋價格上升。房屋供應的限制將會對年輕人購買房屋的能力造成重大影響。這項改革的結果尚未可知，需要觀察其實施後的影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
         "id": "ae1b2cfe",
         "title": "川普的「金頂」防禦系統將耗資 1.2 萬億美元，可能無法防止全面的導彈攻擊",
         "url": "https://www.bbc.com/news/articles/cqxp27j1xyjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "source": "BBC World",
         "category": "global",
         "published_at": "Wed, 13 May 2026 01:59:53 GMT",
         "summary_zh": "川普政府的「金頂」防禦系統預計耗資 1.2 萬億美元，這個數字遠遠超過川普最初的估計。根據獨立預算辦公室的報告，這個系統可能無法防止全面的導彈攻擊。這個系統的成本遠遠超過美國的年度國防預算，引起了外界對其有效性和必要性的質疑。這個系統的建設將對美國的財政造成重大影響，可能會導致政府財政赤字加劇。",
@@ -130,13 +288,13 @@
         "ai_classified": true
       },
       {
-        "id": "6d834e04",
-        "title": "巴基斯坦空襲阿富汗康復中心，269人喪生，家屬要求調查",
-        "url": "https://www.bbc.com/news/articles/c202xrd9gn7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "id": "a2aeef90",
+        "title": "NBA首位公開同性戀球員 Jason Collins 逝世，享年 47 歲",
+        "url": "https://www.bbc.com/news/articles/clyp8rdldk1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "global",
-        "published_at": "Tue, 12 May 2026 07:31:14 GMT",
-        "summary_zh": "巴基斯坦近日發動空襲，攻擊阿富汗一家康復中心，造成269名阿富汗人喪生。聯合國估計，空襲可能造成更多傷亡。事件引發國際關注，許多人呼籲調查這次空襲是否構成了戰爭罪行。阿富汗政府和家屬要求巴基斯坦政府解釋這次空襲的原因。事件的背景是阿富汗和巴基斯坦之間長期的緊張關係和邊境衝突。這次空襲可能會加劇地區的緊張局勢。",
+        "published_at": "Wed, 13 May 2026 00:40:54 GMT",
+        "summary_zh": "NBA前球員 Jason Collins 因為腦癌去世，享年 47 歲。去年他透露自己被診斷出患有惡性腦癌。Jason Collins 是NBA歷史上第一位公開同性戀球員，他在 2013 年 4 月宣布自己是同性戀者。這項宣布在當時引起了廣泛的關注和支持。雖然他在球場上表現出色，但他在退休後仍然面臨著挑戰。他的去世對於NBA球迷和同性戀社群來說是一個沉重的打擊。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -145,7 +303,7 @@
         "id": "4de5c3ea",
         "title": "盜竊未發行的碧昂絲音樂　男子被判入獄",
         "url": "https://www.bbc.com/news/articles/cx213vnvxvwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "source": "BBC World",
         "category": "global",
         "published_at": "Wed, 13 May 2026 00:01:04 GMT",
         "summary_zh": "一名男子在撞毀一輛車後，偷竊了行李箱內的硬碟，硬碟上儲存著碧昂絲未發行的音樂。這名男子的行為引起了廣泛的關注，許多人對他的判決表示支持。這起事件也讓人們思考了音樂竊盜的嚴重性和法律的嚴厲性。根據目前的消息，這名男子將面臨入獄的判決。這起事件也讓人們對碧昂絲的音樂作品更加感興趣。",
@@ -154,22 +312,22 @@
         "ai_classified": true
       },
       {
-        "id": "d0b2bb8f",
-        "title": "澳大利亞原住民勝訴，億萬富翁被判賠償 1.5 億澳元",
-        "url": "https://www.bbc.com/news/articles/cgkp3z1p7zdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "id": "0b807fdb",
+        "title": "德克薩斯州控告Netflix監視使用者，包括兒童",
+        "url": "https://www.bbc.com/news/articles/c072dvv1rmro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Tue, 12 May 2026 09:07:54 GMT",
-        "summary_zh": "澳大利亞原住民部落 Yindjibarndi 人在訴訟中要求賠償 18 億澳元，以補償文化損害和經濟損失。最終法院判決富翁須賠償 15 億澳元，創下澳大利亞原住民訴訟中最高賠償記錄。這一判決被視為對澳大利亞原住民權益的重大勝利，同時也引發對澳大利亞土地開發和原住民權益保護的關注。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "published_at": "Tue, 12 May 2026 10:01:54 GMT",
+        "summary_zh": "德克薩斯州近日對Netflix提出訴訟，指控該公司監視使用者，包括兒童。這起訴訟發生在平台功能如自動播放等面臨加強監控的時候。自動播放功能會不斷向使用者傳遞內容，引發了對這些功能的關注。德克薩斯州的訴訟表明，該州對保護兒童隱私和安全感到擔憂。這起事件可能會對Netflix的品牌形象和業務造成影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "2b8e02b9",
         "title": "達利船公司運營商因巴爾的摩橋樑倒塌案被起訴",
         "url": "https://www.bbc.com/news/articles/cnvpm67ner6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "source": "BBC World",
         "category": "global",
         "published_at": "Tue, 12 May 2026 18:03:54 GMT",
         "summary_zh": "巴爾的摩一座橋樑於某日發生倒塌事故，造成六名工人死亡，多輛車輛掉入河中。根據調查結果，達利船公司運營商被指責違反安全規範，導致此次悲劇發生。該公司被控違反《海事安全法》，面臨嚴厲的法律懲罰。事故的發生對當地交通和經濟造成了重大影響，當地政府正在努力恢復橋樑和重建受影響的地區。",
@@ -178,27 +336,51 @@
         "ai_classified": true
       },
       {
-        "id": "78c8994e",
-        "title": "印度BJP領袖再次領導阿薩姆邦",
-        "url": "https://www.bbc.com/news/articles/c8xwvv21edeo?at_medium=RSS&at_campaign=rss",
+        "id": "f0cfc56a",
+        "title": "特朗普與習近平峰會將為超級大國關係定下多年格局",
+        "url": "https://www.bbc.com/news/articles/ceqprgen1nyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Asia",
         "category": "global",
-        "published_at": "Tue, 12 May 2026 07:26:17 GMT",
-        "summary_zh": "印度人民黨(BJP)領袖 Himanta Biswa Sarma 將再次領導阿薩姆邦。根據評估，他是印度東北部BJP快速成長的重要人物之一。這次他將第二次連任阿薩姆邦首席部長，展現了他在印度政壇的影響力。然而，阿薩姆邦的政治局勢仍然充滿挑戰，包括對抗內部派系和維持經濟發展的壓力。隨著Sarma領導的阿薩姆邦進入新的任期，他將面臨著如何平衡政治和經濟需求的考驗。同時，印度東北部地區的政治情勢將受到他的領導風格和政策的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "fb2d78f0",
-        "title": "馬斯克與庫克等企業家將隨同川普訪華",
-        "url": "https://www.bbc.com/news/articles/c5yx757w048o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 13 May 2026 06:15:13 GMT",
-        "summary_zh": "美國總統川普將於訪華期間會見中國國家主席習近平。根據消息，川普將攜帶 17 位美國企業家前往中國，包括特斯拉創辦人馬斯克和蘋果執行長庫克等。這次訪問將是川普與習近平會面後的首次會晤，雙方將就經濟、貿易等問題進行溝通。這次會晤對於中美關係的發展將具有重要影響。",
+        "published_at": "Tue, 12 May 2026 20:11:11 GMT",
+        "summary_zh": "特朗普對中國的訪問是近年來最具重要性的外交行程，但這次峰會是否能夠帶來實際成果仍存疑。特朗普與習近平的會面將為兩國關係定下多年格局，影響到全球政治經濟格局。這次會面將針對貿易、軍事、氣候等多個領域進行協商，兩國領導人將就如何合作、競爭等問題達成共識。然而，兩國之間的關係複雜多變，外界對會面的成果存疑。特朗普的訪問將為兩國關係帶來新的變數，影響到全球政治經濟格局。",
         "sentiment": "中性",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "adc8c467",
+        "title": "十年後川普回歸：中國變得更加強大和自信",
+        "url": "https://www.bbc.com/news/articles/cm2py6l78dxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 12 May 2026 22:07:51 GMT",
+        "summary_zh": "十年前，川普上任時，中國正處於快速崛起的階段。十年後，中國已經成為美國最強大的競爭對手之一。分析師表示，中國的崛起是美國歷史上最大的挑戰。中國的經濟、軍事和科技實力都在快速增強，讓美國感到越來越不安。川普的回歸標誌著美國對中國的競爭將更加激烈。分析師預測，未來十年將是美國和中國的關係最緊張的時期。川普的回歸也意味著美國將更加積極地對抗中國的崛起。美國將會採取更多的措施來限制中國的經濟和科技發展。這將是美國和中國關係的重大轉捩點。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "77bdf0f3",
+        "title": "澳洲房屋價格居全球之冠，政府是否會廢除稅收優惠?",
+        "url": "https://www.bbc.com/news/articles/cd7p88j84j3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 12 May 2026 20:28:03 GMT",
+        "summary_zh": "澳洲房屋價格居全球之冠，政府正在考慮廢除房屋稅收優惠，以幫助年輕人進入房屋市場。然而，批評者認為，這樣做將會限制房屋供應。政府的改革目標是幫助年輕人購買房屋，但批評者擔心這將會導致房屋價格上升。房屋供應的限制將會對年輕人購買房屋的能力造成重大影響。這項改革的結果尚未可知，需要觀察其實施後的影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2a63a48e",
+        "title": "印度航空危機加劇，阿拉哈巴德墜機報告即將公佈",
+        "url": "https://www.bbc.com/news/articles/c775vvz0kydo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 12 May 2026 22:15:50 GMT",
+        "summary_zh": "印度航空正面臨領導層空缺和持續增加的財務損失，該公司試圖從墜機事故中恢復。印度航空的危機加劇，該公司的財務狀況惡化，公司的未來前景存疑。印度航空的領導層空缺，可能會延遲公司的復原計畫。印度航空的財務損失可能會影響公司的股價和投資者信心。印度航空的危機加劇，可能會影響印度航空業的整體發展。印度航空的未來前景存疑，需要關注和監控。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -298,75 +480,27 @@
         "ai_classified": true
       },
       {
-        "id": "25719251",
-        "title": "衝突或暴力導致內部遷徙人數創歷史新高",
-        "url": "https://www.theguardian.com/world/2026/may/12/internal-displacements-violence-conflict-record-high-2025",
-        "source": "Guardian World",
+        "id": "d0b2bb8f",
+        "title": "澳大利亞原住民勝訴，億萬富翁被判賠償 1.5 億澳元",
+        "url": "https://www.bbc.com/news/articles/cgkp3z1p7zdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "Tue, 12 May 2026 08:01:28 GMT",
-        "summary_zh": "根據內部遷徙監測中心（IDMC）發布的報告，2025 年內部遷徙人數因為衝突或暴力而達到歷史新高，超過由自然災害導致的內部遷徙人數。報告顯示，2025 年年底，全球因為衝突或暴力導致的內部遷徙人數達到 3.23 億，較前一年增長 60%。這是自 2008 年開始收集數據以來第一次，內部遷徙人數因為衝突或暴力而超過自然災害導致的內部遷徙人數，後者在 2025 年達到 2.99 億。這意味著全球內部遷徙人數的總數達到 82.2 億，創下新高。這種趨勢表明，世界上仍然存在著嚴重的安全問題和衝突，對於各國政府和國際組織來說，應對這種局勢的挑戰將更加艱鉅。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ea1e1950",
-        "title": "加博羅內金牌狂潮：博茨瓦納男子短跑選手崛起的背後故事",
-        "url": "https://www.theguardian.com/world/2026/may/12/gaborone-gold-rush-botswana-sprinting-athletics",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 12 May 2026 07:17:30 GMT",
-        "summary_zh": "博茨瓦納人口只有 250 萬人，但該國卻投資大量資源培養年輕運動員，讓該國的短跑選手在世界運動場上嶄露頭角。然而，這種進步卻面臨著威脅。近日，博茨瓦納在加博羅內世界田徑錦標賽中奪得男子 4x400 米接力賽金牌，當地觀眾熱情洋溢。博茨瓦納 22 歲的短跑選手 Tebogo Letsile 表示，這項勝利對於該國的運動員和球迷都具有重要意義。博茨瓦納的投資在年輕運動員身上似乎是有效的，該國的短跑選手在世界運動場上取得了顯著的進步。然而，這種進步卻面臨著資金短缺和人才流失的威脅。博茨瓦納政府需要繼續投資在年輕運動員身上，讓該國的短跑選手繼續在世界運動場上發光發熱。",
+        "published_at": "Tue, 12 May 2026 09:07:54 GMT",
+        "summary_zh": "澳大利亞原住民部落 Yindjibarndi 人在訴訟中要求賠償 18 億澳元，以補償文化損害和經濟損失。最終法院判決富翁須賠償 15 億澳元，創下澳大利亞原住民訴訟中最高賠償記錄。這一判決被視為對澳大利亞原住民權益的重大勝利，同時也引發對澳大利亞土地開發和原住民權益保護的關注。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "1816d361",
-        "title": "美國密切磋商開設格陵蘭新軍事基地",
-        "url": "https://www.bbc.com/news/articles/cx21669452lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "id": "fb2d78f0",
+        "title": "馬斯克與庫克等企業家將隨同川普訪華",
+        "url": "https://www.bbc.com/news/articles/c5yx757w048o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "Tue, 12 May 2026 11:44:16 GMT",
-        "summary_zh": "格陵蘭位於北極圈南部，是一塊冰雪覆蓋的島嶼。美國政府正在與格陵蘭當局密切磋商，希望在該島南部開設三座新的軍事基地。根據多位與談判有關的官員透露，這一計畫正在進行中。這一發展引起了國際關注，許多人認為這可能是美國在北極圈的軍事存在加強的一部分。格陵蘭的位置使得它成為北極圈的重要據點，美國政府可能希望在該島建立軍事據點以應對北極圈的安全挑戰。然而，這一計畫也引起了格陵蘭當局和國際社會的擔憂，是否美國的軍事存在會對該島的環境和文化產生負面影響。",
+        "published_at": "Wed, 13 May 2026 07:10:29 GMT",
+        "summary_zh": "美國總統川普將於訪華期間會見中國國家主席習近平。根據消息，川普將攜帶 17 位美國企業家前往中國，包括特斯拉創辦人馬斯克和蘋果執行長庫克等。這次訪問將是川普與習近平會面後的首次會晤，雙方將就經濟、貿易等問題進行溝通。這次會晤對於中美關係的發展將具有重要影響。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "57ca0782",
-        "title": "美國通貨膨脹率跳升至 3.8% 因伊朗戰爭導致能源成本大幅上漲",
-        "url": "https://www.bbc.com/news/articles/c202pgxx89lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 12 May 2026 18:36:58 GMT",
-        "summary_zh": "美國通貨膨脹率在 4 月份升至 3.8%，創 2023 年 5 月以來最高水平。這主要是因為伊朗戰爭導致能源成本大幅上漲，對消費者造成了重大影響。能源成本的上漲使得美國的生活費用增加，對於美國的經濟發展造成了挑戰。美國政府需要採取措施來控制通貨膨脹率，防止它對經濟造成更大的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "235d8717",
-        "title": "巴哈馬選舉熱度高達三方之爭，移民問題成為關鍵議題",
-        "url": "https://www.theguardian.com/world/2026/may/12/bahamas-goes-to-polls-caribbean-election-battle",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 12 May 2026 09:00:43 GMT",
-        "summary_zh": "巴哈馬選民於週二投票，選舉競爭激烈，包括前籃球巨星瑞克·福克斯在內的高調候選人參與。選民們對移民問題感到擔憂，尤其是來自鄰國海地的移民問題，以及生活成本的上升，包括因為中東戰爭導致的汽油價格大幅上漲。巴哈馬選舉將創下有史以來的投票人數記錄。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0b807fdb",
-        "title": "德克薩斯州控告Netflix監視使用者，包括兒童",
-        "url": "https://www.bbc.com/news/articles/c072dvv1rmro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 12 May 2026 10:01:54 GMT",
-        "summary_zh": "德克薩斯州近日對Netflix提出訴訟，指控該公司監視使用者，包括兒童。這起訴訟發生在平台功能如自動播放等面臨加強監控的時候。自動播放功能會不斷向使用者傳遞內容，引發了對這些功能的關注。德克薩斯州的訴訟表明，該州對保護兒童隱私和安全感到擔憂。這起事件可能會對Netflix的品牌形象和業務造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ],
@@ -396,6 +530,18 @@
         "ai_classified": true
       },
       {
+        "id": "359bab2c",
+        "title": "谷歌急速將Gemini置於Android核心，搶先蘋果AI重啟",
+        "url": "https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html",
+        "source": "Cnbc",
+        "category": "ai",
+        "published_at": "2026-05-12 19:22:28",
+        "summary_zh": "谷歌正在利用最新版Android的推出，將Gemini作為人工智慧層面，整合到手機、Chrome、筆記本電腦和汽車等平台。這一舉動被視為谷歌搶先一步，將人工智慧整合到各個產品中，與蘋果即將推出的AI重啟計畫相比。這一轉變將大大改善使用者在各個平台上的體驗，同時也將谷歌的競爭優勢提升。然而，蘋果的AI重啟計畫仍舊令人期待，將會如何影響谷歌的計畫，還需要觀察。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "802244a1",
         "title": "Sam Altman指責Elon Musk對OpenAI造成嚴重傷害",
         "url": "https://www.theverge.com/ai-artificial-intelligence/928861/openai-sam-altman-elon-musk-damage",
@@ -404,8 +550,8 @@
         "published_at": "2026-05-12T13:34:09-04:00",
         "summary_zh": "OpenAI CEO Sam Altman在Elon Musk對OpenAI提起訴訟的聽證會上表示，Elon Musk對OpenAI造成了嚴重傷害。Altman指出，Musk要求OpenAI總裁Greg Brockman和前首席科學家Ilya Sutskever將研究人員根據成就排名，並要求他們「砍掉一大堆」。Altman承認這種做法對OpenAI的文化造成了嚴重傷害。這種做法被視為對研究人員的壓力和競爭，可能會導致人才流失。Altman的說法可能會對Musk的訴訟產生影響，展現出OpenAI的文化和管理風格。這種爭議可能會對AI產業的發展產生影響，展現出公司文化和管理風格的重要性。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "2f5933b6",
@@ -418,6 +564,18 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "bee9f4bb",
+        "title": "新型半導體未來市場出現，人工智慧驅動成本上升",
+        "url": "https://www.cnbc.com/2026/05/12/new-futures-market-for-semiconductors-comes-as-ai-drives-costs-skyward.html",
+        "source": "Cnbc",
+        "category": "ai",
+        "published_at": "2026-05-12 19:21:05",
+        "summary_zh": "近日，一個新型半導體未來市場出現，旨在幫助企業應對人工智慧驅動的成本上升。這個市場允許企業使用合約來對抗GPU租賃費用和其他營運成本的上升。這種新型市場的出現是因為人工智慧的需求持續上升，導致半導體成本大幅上升。企業面臨著挑戰，需要找到方法來控制成本和確保營運的穩定性。這個新型市場的出現可能會幫助企業更好地應對這些挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "a0104da4",
@@ -506,6 +664,66 @@
     ],
     "stock_tw": [
       {
+        "id": "5d0d11ac",
+        "title": "台積電發行184億元綠債 用於綠建築及環保支出",
+        "url": "https://www.cna.com.tw/news/afe/202605130198.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 13 May 2026 15:35:17 +0800",
+        "summary_zh": "台積電近日宣布發行新台幣184億元無擔保普通公司債，該債券被認定為綠色債券。這筆資金將被用於支持綠建築及綠色環保相關項目。綠色債券是一種環境友善的融資工具，旨在促進企業在環境保護方面的投資。台積電的這一舉措不僅有助於公司的環境責任感，也為台灣的綠色發展提供了新的資金來源。這一決定也受到業界的關注，許多人認為這是一個積極的步伐，將推動更多企業加入綠色融資的行列。綠色債券的發行將對台灣的環境保護和綠色發展產生重要影響，值得關注。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "66db2c69",
+        "title": "研揚：訂單能見度達6個月 全年營收拚增兩位數",
+        "url": "https://www.cna.com.tw/news/afe/202605130191.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 13 May 2026 15:23:02 +0800",
+        "summary_zh": "工業電腦廠研揚近日舉行法人說明會，總經理林建宏表示，目前訂單能見度已達6個月，今年第2季營收有望再創歷史新高。根據他的預估，全年營收將達到兩位數成長，遠超過過去的成績。另外，人工智慧（AI）相關營收占比也將達到25%，顯示研揚正在朝著這個領域發展。這些消息對於研揚的未來發展具有重要意義，同時也對於整個工業電腦市場的發展提供了新的觀察點。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "5749f74d",
+        "title": "三大法人賣超台股480.5億元",
+        "url": "https://www.cna.com.tw/news/afe/202605130187.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 13 May 2026 15:11:54 +0800",
+        "summary_zh": "台股今天跌523.82點，收在41374.50點，成交值新台幣1兆2038.12億元。外資及陸資賣超，投信買超，自營商賣超，合計賣超480.5億元。這表明三大法人在今天的交易中，賣出股票的金額遠超買入的金額，造成市場的下跌。這種情況可能是由於投資者對市場的預期不佳，或者是外資的賣壓導致市場的下跌。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "39498534",
+        "title": "銀行與保險類股領漲帶動日經翻紅 日股收高",
+        "url": "https://www.cna.com.tw/news/afe/202605130180.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 13 May 2026 14:58:39 +0800",
+        "summary_zh": "日股今天收高，受債券殖利率跳升的影響，投資人積極敲進銀行與保險類股。同時，高油價也吸引資金流入貿易商。日經225指數雖一度走跌，但隨後翻紅上揚。這些因素共同作用，推動日股走向收高。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d2449fa1",
+        "title": "財政部預告電動車具結免稅新規 減輕先徵後退壓力",
+        "url": "https://www.cna.com.tw/news/afe/202605130179.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 13 May 2026 14:55:36 +0800",
+        "summary_zh": "為減輕電動車業者面臨的「先徵後退」資金壓力，財政部預告新規，增訂廠商得申請具結免稅出廠或進口放行。這意味著電動車業者可以在完成申領牌照登記後，才需要辦理銷案手續。這項新規自116年起施行，延續電動車減免貨物稅優惠的政策。這項政策的目的是為了鼓勵電動車的發展，並減少對業者的財務負擔。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "3c04e44e",
         "title": "2025年全球半導體材料產值創新高 台灣蟬聯第一",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5435614",
@@ -514,8 +732,8 @@
         "published_at": "Wed, 13 May 2026 14:52:51 +0800",
         "summary_zh": "根據國際半導體產業協會（SEMI）最新報告，2025年全球半導體材料市場營收達到732億美元，創下歷史新高。其中，台灣的半導體材料產值達到217億美元，連續第16年蟬聯全球第一。這表明台灣在半導體產業中仍然佔有一席之地。然而，全球半導體材料市場的增長率為6.8%，這意味著市場的競爭日益激烈。台灣企業需要繼續投資研發和提升生產效率，以保持競爭優勢。這項報告也顯示，全球半導體材料市場的未來發展趨勢，將受到技術革新和市場需求的影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "7a8eadb9",
@@ -526,8 +744,8 @@
         "published_at": "Wed, 13 May 2026 14:39:04 +0800",
         "summary_zh": "美國知名財經專家Dave Ramsey指出，許多人在50歲後仍持續保有錯誤金錢習慣，導致退休生活陷入巨大風險。這些錯誤習慣包括過度消費、欠債、投資風險過高、缺乏儲蓄、不合理的支出、投資不當、不懂得分配資產、缺乏財務規劃和不了解退休基金。這些習慣不僅會影響退休生活的穩定性，也可能導致年薪再高都可能翻車。專家建議在50歲後應該開始重視財務規劃，避免這些錯誤習慣，確保退休生活的穩定和富足。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "81d370ee",
@@ -538,8 +756,8 @@
         "published_at": "Wed, 13 May 2026 14:38:49 +0800",
         "summary_zh": "台灣人對日本的旅遊熱情不斷升溫，2004年首度突破100萬人次，2024年達到600萬人次，近年創下歷史新高。日媒分析，台灣人赴日旅遊的原因包括：日本的文化和歷史吸引力強大，台灣人對日本的文化和歷史有濃厚的興趣；日本的觀光設施和服務品質高，讓旅客感到舒適和滿意；日本的美食和飲料也受到台灣人喜愛。另外，日媒還提到，台灣人對日本的安全感和信任度也很高，讓他們感到放心地前往日本旅遊。這些原因都使得台灣人對日本的旅遊熱情不斷升溫。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "96665919",
@@ -550,8 +768,8 @@
         "published_at": "Wed, 13 May 2026 14:38:23 +0800",
         "summary_zh": "美國總統川普即將前往北京與中共中央總書記習近平舉行峰會。中國近期出現稀土供應緊縮的局面，影響全球企業。商用客機、晶片設備和軍事硬體等都面臨稀土短缺的問題。部分關鍵金屬的價格在一年內暴漲達100倍，稀土價差達250倍。這些問題將是川習會的重要議題。中國收緊稀土出口的原因尚不清楚，但這可能是為了保護國內的產業和稀土資源。這種情況可能會對全球企業和經濟產生重大影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "d94ed123",
@@ -562,8 +780,8 @@
         "published_at": "Wed, 13 May 2026 14:37:59 +0800",
         "summary_zh": "一名81歲的老婦人和子，平時對兒子佐藤哲也說道自己有200萬日圓的存款，每月領取4萬日圓的養老金足夠花費。然而，當佐藤哲也在母親住院時，突然發現母親的存摺數字只有1000萬日圓（約新台幣200萬），而非原先所說的200萬。這個意外的發現嚇壞了佐藤哲也，讓他開始思考父母的財務狀況和未來的安排。這個事件也引起了佐藤哲也對父母的關心和擔憂，讓他開始思考如何幫助父母管理財務和安排未來。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "0d83db1a",
@@ -574,8 +792,8 @@
         "published_at": "Wed, 13 May 2026 14:21:58 +0800",
         "summary_zh": "宜特公司一名女經理涉及採購弊案，檢調單位指控她利用客戶委託宜特驗證高速訊號機會，拿3家公司假發票灌水報價，浮報上千萬元牟利。宜特公司發表聲明，強調公司未涉入此案，檢調單位已依違反證交法以100萬元拘留女經理。這起事件可能對宜特公司的聲譽和財務造成影響。宜特公司未來將如何處理這起事件，還需要觀察。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "0e7502f1",
@@ -588,140 +806,68 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "5d501f92",
-        "title": "68歲婦人退休生活衣食無缺，卻因女兒一決定陷入崩潰背後真相",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5435377",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 13 May 2026 13:48:27 +0800",
-        "summary_zh": "一名68歲的日本婦人擁有超過5000萬日圓的存款，退休生活衣食無缺，似乎人生早已安穩定局。但是，女兒的一個決定，卻讓她瞬間跌入崩潰深淵。婦人驚覺，支撐她退休生活的財富，竟是她長期為女兒支付教育費用的積累。婦人為了讓女兒有更好的教育機會，花費了大量的金錢，卻忽略了自己的未來。這個真相，讓婦人感到深深的後悔和絕望。這個故事，提醒我們要珍惜自己的金錢和時間，不能忽略自己的未來。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "587bb5bb",
-        "title": "找工作還可領10.8萬獎勵金！失業勞工善用資源加速重返職場",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5435503",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 13 May 2026 13:36:21 +0800",
-        "summary_zh": "近日，台灣普利司通新竹湖口廠宣布正式關閉，預計7月上旬展開第一波裁員，影響360名本國勞工。為協助失業勞工快速轉職並補實產業人力缺口，勞動部推動「勞動力發展署」提供失業勞工獎勵金，最高可領取10.8萬元。失業勞工可以善用資源，透過勞動部提供的培訓課程和就業服務，來加速重返職場。這項措施旨在幫助失業勞工快速適應市場需求，重新找到工作機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5f23f3c7",
-        "title": "繼承房子就能退休財富自由？他「算錯這一筆」後下場曝光",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5435080",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 13 May 2026 13:30:37 +0800",
-        "summary_zh": "日本一名66歲男子佐藤正人在退休後因為房貸還沒繳完，還得去超商打工。父親過世後，他繼承了父親留下的出租公寓，原以為每月可穩定領取約50萬日圓（約10.17萬元新台幣），但事實上房貸和稅款卻吃掉了大部分收入。佐藤正人不得不重新計算他的財富，才發現自己「算錯這一筆」。他還得繼續工作來支付房貸和稅款，財富自由的夢想就此破滅。這個故事警示我們，繼承房子並不一定能帶來財富自由，還需要考慮到房貸和稅款的負擔。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "87edd28d",
-        "title": "波音4月訂單強勁成長 新機型進展同步推進",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5435407",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 13 May 2026 13:17:26 +0800",
-        "summary_zh": "波音公司在4月迎來顯著的訂單回升，單月新增135筆淨訂單，幾乎與今年前3個月的總量相當。截至今年前4個月，波音在扣除取消與機型變更的訂單後，仍然擁有超過1,200筆淨訂單。波音的訂單強勁成長與新機型的進展同步推進，公司正在積極推進新機型的開發，包括737 MAX和787 Dreamliner等。這些新機型的推出將為波音帶來新的收入來源，並有助於公司在競爭激烈的航空業中保持競爭力。波音的訂單強勁成長也表明航空業正在逐步恢復，公司的業務也在逐步恢復。然而，波音仍然面臨著許多挑戰，包括737 MAX的安全問題和全球航空業的不確定性。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e76469dc",
-        "title": "泓德能源聚焦AI算力用電商機 打造亞洲第一大電力交易平台",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5435474",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 13 May 2026 13:16:46 +0800",
-        "summary_zh": "泓德能源近日舉行十周年紀念展覽，董事長謝源一表示，隨著AI長期需求看漲，算力中心建置成為產業剛需。泓德能源將以台灣、日本與澳洲市場布局為基礎，打造亞洲第一大電力交易平台。公司目標是為企業提供高效、穩定的電力用電服務，滿足AI算力的需求。這項計畫將對台灣的電力市場產生重大影響，同時也將推動亞洲的能源轉型。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "d282229d",
-        "title": "PayPal同意免費 3,000 萬美元費用以解決司法部調查少數民族企業計畫",
-        "url": "https://www.reuters.com/world/paypal-pays-30-million-settle-doj-probe-over-dei-investment-program-2026-05-12/",
-        "source": "Reuters",
+        "id": "f3639027",
+        "title": "家族辦公室投資小型礦業公司股價飆升 900% 後",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/family-offices-build-stake-in-niche-miner-after-stock-soars-900",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-12 18:55:26",
-        "summary_zh": "美國支付公司 PayPal 宣布將免除 3,000 萬美元的費用，以解決司法部對其少數民族企業計畫的調查。根據調查，PayPal 的計畫未能有效幫助少數民族企業獲得資金和機會。這項措施是 PayPal 對其計畫缺陷的承認，並且將有助於改善公司對少數民族企業的支持。這項事件也引發了對公司社會責任的關注。PayPal 的行動將對公司的聲譽和信譽產生重大影響。",
+        "published_at": "2026-05-12 20:00:00",
+        "summary_zh": "家族辦公室投資小型礦業公司的消息傳出，該公司的股價近期大幅上漲，達到 900% 的增長。這些家族辦公室投資者似乎對該公司的未來前景感到樂觀。家族辦公室投資者通常是富有的家族或企業家，負責管理家族的財富和投資。這些投資者往往會投資於高成長潛力的公司或項目。小型礦業公司的股價飆升可能是由於市場對該公司未來發展的樂觀預期，或是該公司的新發現或技術突破。然而，股價的快速上漲也可能帶來風險，投資者需要謹慎評估投資的風險和收益。這項投資的影響可能會對該公司的股價和未來發展產生重大影響。投資者需要密切關注該公司的發展和市場趨勢，以便做出明智的投資決策。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "f1a774bd",
-        "title": "美國四月預算盈餘縮小，稅收收入下降",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-12/us-records-smaller-april-budget-surplus-on-lower-tax-receipts",
+        "id": "9fad4b15",
+        "title": "投資者在四月份將 1,500 億美元投入更風險的債券市場，尋找收益",
+        "url": "https://www.cnbc.com/2026/05/12/investors-poured-15-billion-into-more-risky-corners-of-the-bond-market-in-april.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-05-12 19:33:58",
+        "summary_zh": "四月份，投資者將 1,500 億美元投入債券市場的風險較高部分。固定收益 ETF（交易所交易基金）是投資者在上個月特別受歡迎的選擇。這些基金繼續提供吸引人的收益率，使投資者對其產生了興趣。債券市場的風險較高部分包括那些投資者需要承擔較高風險以獲得較高收益的債券。這些債券的收益率較高，但風險也相對較高。投資者在四月份對這些債券的需求增加，表明他們正在尋找更高收益的投資機會。這種趨勢可能是由於投資者對傳統債券市場的收益率感到不滿意，尋求更高收益的投資機會。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "203b234f",
+        "title": "GameStop能否購買eBay？",
+        "url": "https://www.ft.com/content/050e68b0-cca3-4d07-9c66-fedd22fd4cdd",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-12 20:00:00",
+        "summary_zh": "在現代商業世界中，買賣公司的交易已經成為了一種常見的現象。然而，當一家小公司試圖購買一家大公司時，事情就變得更加複雜。GameStop是一家零售公司，主要從事電子遊戲和相關產品的銷售。eBay則是一家全球領先的電子商務平台。GameStop的CEO，丹尼爾·西蒙（Daniel Simons），最近表示公司正在考慮購買eBay。這項交易將會是一個史無前例的事件，將會對電子商務業界造成重大影響。然而，購買一家大公司的挑戰何在？首先，需要考慮到融資問題。GameStop需要籌集大量資金來支付購買eBay的費用。其次，需要考慮到文化和管理問題。GameStop和eBay的文化和管理模式可能會有很大的差異，需要進行大量的調整。最後，需要考慮到競爭對手的反應。其他公司可能會試圖阻止這項交易，或者甚至試圖購買eBay。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "12fe0045",
+        "title": "反對派 5% 的 10 年期國債投資正獲得認可",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/contrarian-5-bet-on-10-year-treasuries-is-gaining-credibility",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-12 18:52:10",
-        "summary_zh": "美國政府四月預算盈餘比預期的小幅縮小，主要原因是稅收收入下降。根據財政部的數據，美國政府四月預算盈餘為 222 億美元，低於市場預期的 235 億美元。稅收收入下降是主要原因，政府的收入比預期少了 15 億美元。政府的支出也比預期少了 5 億美元。這意味著美國政府的財政狀況比預期更為嚴峻。美國政府的財政狀況受到稅收收入下降和支出增加的影響。稅收收入下降意味著政府的收入減少，支出增加則意味著政府的支出增加。這將對美國政府的財政狀況產生重大影響。美國政府的財政狀況對於美國經濟的發展有重要影響。政府的財政狀況會影響到投資者的信心和投資的方向。因此，美國政府的財政狀況需要得到關注和監控。",
+        "published_at": "2026-05-12 19:55:33",
+        "summary_zh": "近期，一些投資者開始對 10 年期國債進行反對派投資，投資比例達 5%。這種投資策略在市場上引起了關注，許多人認為這是一種有趣的投資選擇。根據市場分析，10 年期國債的收益率已經降低到歷史最低水平，這使得投資者有機會獲得高回報。然而，投資者也需要考慮到市場風險和經濟變化的影響。這種投資策略的背後理念是，當市場上投資者普遍避開某種投資時，反對派投資者可以從中獲利。這種投資策略需要投資者有足夠的耐心和風險承受能力。市場分析師認為，這種投資策略可能會繼續受到市場的關注和追逐。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9374875e",
+        "title": "小型企業表示招聘仍然很艱難",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-05-12/small-businesses-say-hiring-is-still-brutal",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-12 19:53:43",
+        "summary_zh": "小型企業面臨著嚴峻的招聘挑戰。雖然美國經濟正在恢復，但許多小型企業仍然難以找到合適的員工。根據最近的一項調查，近四分之一的小型企業表示招聘仍然很艱難。這些企業面臨著競爭激烈的勞動市場，難以吸引和留住人才。調查結果表明，企業面臨的最大挑戰是競爭對手的薪水和福利。許多企業也表達了對政府政策的不滿，認為政策對小型企業的幫助不夠。這項調查的結果對於了解小型企業的招聘挑戰提供了重要的見解。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
-      },
-      {
-        "id": "275fa767",
-        "title": "歐洲仍是美國遊客的熱門目的地，Mastercard Michelle Meyer表示",
-        "url": "https://www.cnbc.com/video/2026/05/12/europe-is-still-a-hot-destination-for-u-s-tourists-says-mastercards-michelle-meyer.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-05-12 18:48:34",
-        "summary_zh": "Mastercard Economics Institute 首席經濟學家 Michelle Meyer 表示，歐洲仍然是美國遊客的熱門目的地。根據她的分析，歐洲的旅遊業正經歷著變化，遊客的行為和預算也在改變。 Michelle Meyer 表示，美國遊客對於歐洲的需求仍然很高，尤其是在餐飲和購物方面。然而，她也提到，遊客的行為正在趨向於更加個人化和自助式的旅遊體驗。這種變化對於旅遊業的影響是多方面的，包括了酒店業、餐飲業和購物業等。 Michelle Meyer 的分析提供了對於旅遊業未來發展趨勢的重要見解，幫助業界和投資者做出更準確的決策。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "784bcd1c",
-        "title": "布萊克斯通準備第三個長期收購基金",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-12/blackstone-lays-groundwork-for-third-long-term-buyout-fund",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-12 18:42:33",
-        "summary_zh": "布萊克斯通旗下私募基金巨頭正在籌備第三個長期收購基金。該基金預計將聚焦於全球企業收購業務，將於未來數年內實現投資回報。布萊克斯通的前兩個長期收購基金已經取得了成功，投資回報遠超市場平均水平。該公司的這一最新動作表明其對全球收購市場的信心仍然堅定。布萊克斯通的收購基金將會針對全球企業進行投資，包括美國、歐洲和亞洲等地。該公司的投資策略將會聚焦於企業的長期發展潛力和成長前景。布萊克斯通的收購基金將會成為全球收購市場的一大力量。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "18f4519b",
-        "title": "2026-27學年聯邦學生貸款利率將上升：專家分析",
-        "url": "https://www.cnbc.com/2026/05/12/student-loan-interest-rates.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-05-12 18:41:11",
-        "summary_zh": "美國聯邦政府宣布，2026-27學年聯邦學生貸款利率將上升。這項消息引起了學生和家長的關注。根據 CNBC 的專家分析，利率上升將對學生貸款負擔產生重大影響。學生貸款利率的上升將使學生貸款的總成本增加，尤其是那些長期貸款的學生。這項政策變化將對學生貸款市場產生重大影響，可能會影響學生貸款的可得性和利率。學生貸款利率的上升將是學生貸款市場的一個重要變化，需要學生和家長密切關注。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "3ad36db5",
-        "title": "美國電力價格飆升61%超越通膨需求激增",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-12/us-power-prices-climb-61-faster-than-inflation-as-demand-surges",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-12 18:21:32",
-        "summary_zh": "美國電力價格持續上漲，超越通膨率61%，這種情況與需求激增有直接關係。根據最新數據，美國電力價格已經連續多個月保持上漲趨勢，尤其是在夏季和冬季，這些時期電力需求通常會大幅增加。這種上漲趨勢不僅影響到美國的民生，也對企業和政府的經濟決策產生了重大影響。分析人士認為，這種情況可能是由於美國的能源政策和供應鏈問題所導致。美國政府正在努力解決這個問題，同時也在推動能源轉型和節能政策。然而，這種情況也引發了對未來能源政策和供應鏈的關注。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
       },
       {
         "id": "51e9a6ef",
@@ -738,13 +884,13 @@
     ],
     "stock_us": [
       {
-        "id": "65986f1e",
-        "title": "交易員認為今年通膨率可能達5%以上",
-        "url": "https://www.cnbc.com/2026/05/12/traders-believe-inflation-could-near-5percent-this-year.html",
-        "source": "Cnbc",
+        "id": "01e3baf2",
+        "title": "納斯達克、標普500指數縮減跌幅 美股市場對美國通膨指數大幅上升做出反應",
+        "url": "https://www.marketwatch.com/bulletins/redirect/go?g=22ed9d99-680b-4af0-b5bd-862df412fbc1&mod=mw_rss_bulletins",
+        "source": "Marketwatch",
         "category": "stock_us",
-        "published_at": "2026-05-12 18:21:50",
-        "summary_zh": "近期，預測市場交易員對今年通膨率的預測出現了變化。根據最新的數據，兩成三的機率通膨率將超過4.5%，而超過5%的機率則達到近40%。這意味著今年通膨率有可能達到5%以上。這種情況下，央行可能會採取措施來控制通膨率。然而，目前尚未有明確的證據表明通膨率會達到5%以上。",
+        "published_at": "2026-05-12 19:44:18",
+        "summary_zh": "美國股市在週二收盤下跌，投資者正試圖消化最新的通膨數據，並關注伊朗戰爭的最新發展。市場上觀察到，美國通膨指數大幅上升，達到 8.5%，超過市場預期。投資者對於美聯儲可能會在未來幾個月內提高利率的可能性感到擔憂。同時，伊朗戰爭的風險也使投資者感到不確定。儘管如此，納斯達克和標普500指數仍然縮減了跌幅，表明市場仍然有韌性。投資者正在等待美聯儲主席鮑威爾的發言，了解美聯儲的下一步行動。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
@@ -758,8 +904,20 @@
         "published_at": "2026-05-12 18:40:42",
         "summary_zh": "Waymo 宣布自願回收約 3,800 台自駕車，以修正可能導致車輛駛入淹水路段的軟體問題。這項回收行動是為了確保乘客和行人安全。根據 Waymo 的說法，軟體問題可能會導致車輛在遇到淹水的情況下，繼續駛入淹水路段。這項回收行動是 Waymo 對軟體安全問題的最新回應，表明公司致力於確保自駕車的安全性和可靠性。 Waymo 的自駕車已經在多個城市運行，包括美國西岸的城市。這項回收行動將會對 Waymo 的自駕車業務產生影響，但公司仍然致力於推進自駕車技術的發展。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "65986f1e",
+        "title": "交易員認為今年通膨率可能達5%以上",
+        "url": "https://www.cnbc.com/2026/05/12/traders-believe-inflation-could-near-5percent-this-year.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-12 18:21:50",
+        "summary_zh": "近期，預測市場交易員對今年通膨率的預測出現了變化。根據最新的數據，兩成三的機率通膨率將超過4.5%，而超過5%的機率則達到近40%。這意味著今年通膨率有可能達到5%以上。這種情況下，央行可能會採取措施來控制通膨率。然而，目前尚未有明確的證據表明通膨率會達到5%以上。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "c3142b77",
@@ -795,236 +953,6 @@
         "summary_zh": "市場預期美聯儲在未來兩年內不會降息。根據最新的通膨數據，市場預期美聯儲在未來兩年內不會降息，反而會加息。這是因為美聯儲的政策制定者認為，目前的經濟環境需要加息來控制通膨。美聯儲的政策制定者正在密切關注通膨數據，以確保經濟保持穩定。市場預期美聯儲的加息將對股市和房市產生重大影響。投資者正在密切關注美聯儲的政策變化，以確保投資的安全和收益。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "24a8abff",
-        "title": "這家GLP-1藥物公司正在狂飆，UBS預估未來50%的漲幅",
-        "url": "https://www.cnbc.com/2026/05/12/this-new-glp-1-play-is-on-a-tear-ubs-sees-nearly-a-50percent-gain-from-here-.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-12 17:07:42",
-        "summary_zh": "MBX Biosciences在過去的一年內股價大幅上漲超過230%，但UBS分析師認為，從目前的價格來看，仍有更多的上漲空間。這家公司正在開發一種GLP-1類藥物，這類藥物被用於治療2型糖尿病等疾病。UBS的分析師預估，MBX Biosciences的股價在未來將會上漲近50%，這將使該公司的股價達到目前的價格的兩倍。這項預測是基於UBS對公司未來發展前景的樂觀評估。然而，投資者應該注意到，股市的風險永遠存在，任何投資都可能面臨風險。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "20ff4bf1",
-        "title": "五個原因：為什麼石油價格未能因伊朗戰爭而大幅上漲",
-        "url": "https://www.cnbc.com/2026/05/12/five-reasons-why-oil-prices-havent-surged-higher-despite-the-iran-war.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-12 16:29:57",
-        "summary_zh": "石油市場面臨歷史上最大規模的供應中斷，然而與過往相比，石油價格並未大幅上漲。華爾街分析師指出，以下五個原因是石油價格未能大幅上漲的原因之一：首先，全球石油儲備水平仍然相對充足，儲備量的增加使得市場對供應中斷的恐懼降低。其次，美國石油生產量持續增加，填補了部分供應短缺的空缺。第三，石油需求量的下降對價格的影響有限，尤其是在疫情期間。第四，石油生產商的供應能力仍然相對強大，能夠應對部分供應中斷的挑戰。最後，投資者對石油價格的預期已經被過度樂觀化，市場對價格的上漲已經被過度預期。這些因素共同作用，使得石油價格未能因伊朗戰爭而大幅上漲。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2781597a",
-        "title": "選擇權行動：零售風險偏好大幅上升",
-        "url": "https://www.cnbc.com/video/2026/05/12/options-action-retail-risk-appetite-surges.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-12 14:57:51",
-        "summary_zh": "CNBC的Oliver Renick在節目《Squawk on the Street》中報導了最新的選擇權趨勢。零售風險偏好近期大幅上升，投資者對市場的風險評估正在改變。這種趨勢可能與投資者對市場前景的改善以及對風險投資的需求增加有關。投資者正在購買更多的選擇權合約，以保護自己免受市場下跌的影響。這種風險偏好的上升可能會對市場的波動產生影響，投資者需要密切關注市場的發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c396a5fd",
-        "title": "穆迪分析師：通膨高企，聯邦儲備局面臨挑戰",
-        "url": "https://www.cnbc.com/video/2026/05/12/moodyas-analytics-mark-zandi-inflation-is-high-and-the-direction-of-travel-feels-disconcerting.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-12 14:55:32",
-        "summary_zh": "穆迪分析師Mark Zandi表示，目前的通膨率很高，聯邦儲備局將如何解讀通膨數據仍存疑慮。根據Zandi的分析，消費者因為通膨而感到壓力倍增，聯邦儲備局將如何對應通膨率仍存未知。這意味著未來的經濟走向將如何發展，仍存許多不確定性。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b0adc843",
-        "title": "Jensen Huang 不需要總統川普到中國，達維森的Gil Luria 表示",
-        "url": "https://www.cnbc.com/video/2026/05/12/jensen-huang-doesnt-need-president-trump-to-go-to-china-says-d-a-davidsonas-gil-luria.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-12 14:38:22",
-        "summary_zh": "達維森公司的管理董事Gil Luria 表示，任天堂的執行長Jensen Huang 不需要總統川普到中國。根據Luria 的說法，中國對於像蘋果這樣的大型科技公司來說非常重要。然而，Jensen Huang 沒有參加川普總統的訪問行程。Luria 表示，這是因為大型科技公司已經在中國建立了自己的據點，無需總統的幫助就能與中國進行業務往來。這表明，中國對於科技公司的重要性不僅僅在於市場規模，也在於其對全球供應鏈的影響。這一發展對於全球經濟和科技業的未來發展具有重要的意義。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "b3b9f543",
-        "title": "內布拉斯加民主黨參議院初選勝者表示將退出競選以支持獨立候選人",
-        "url": "https://www.theguardian.com/us-news/2026/may/12/nebraska-demoratic-house-primary-winner-cindy-burbank",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 13 May 2026 06:00:16 GMT",
-        "summary_zh": "內布拉斯加州民主黨參議院初選的勝者辛迪布蘭克（Cindy Burbank）表示，她將在總統選舉中退出競選，以便讓獨立候選人丹奧斯本（Dan Osborn）有機會勝選。辛迪布蘭克在初選中擊敗了民主黨人威廉福布斯（William Forbes），後者被指控是共和黨的代理人。威廉福布斯是一名牧師，他曾支持川普，並反對墮胎權。這位牧師目前仍然註冊為民主黨成員。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "4466c03b",
-        "title": "特朗普中國行：梅拉尼婭總統紀錄片導演布萊特·拉特納加入行列",
-        "url": "https://www.theguardian.com/us-news/2026/may/13/brett-ratner-joins-trump-china-trip-rush-hour-melania-director",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 13 May 2026 05:45:39 GMT",
-        "summary_zh": "美國總統特朗普將與中國領導人習近平舉行峰會，期間將討論包括伊朗和台灣在內的重要經濟和地緣政治問題。特朗普在前往中國的途中，與多家美國科技和金融公司的高層一起乘坐空軍一號。其中包括蘋果公司的蒂姆·庫克、特斯拉的埃隆·穆斯克和黑石集團的拉里·芬克。布萊特·拉特納，曾導演《衝鋒車》系列電影和梅拉尼婭總統紀錄片，也加入了這次行程。他將負責在中國尋找《衝鋒車4》的拍攝地點。拉特納曾因為性別歧視指控而在好萊塢遭到孤立。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "10117366",
-        "title": "特朗普林肯紀念館反映池修繕工程遭遇訴訟及13億美元的花費",
-        "url": "https://www.bbc.com/news/articles/c202nj46p7wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 13 May 2026 02:55:02 GMT",
-        "summary_zh": "特朗普總統計劃對林肯紀念館反映池進行翻新工程，最初估計花費30億美元，耗時數年。但他卻宣稱找到了一個更好的方法，僅需1.5億至2億美元。然而，這個計畫卻遭遇了一個訴訟，訴訟方認為這個工程的成本已經超過預估，達到13億美元。這個訴訟可能會對特朗普的計畫造成重大影響，讓人們對這個工程的可行性產生懷疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cd3c573f",
-        "title": "美國人對川普改造的反射池有何反應？",
-        "url": "https://www.bbc.com/news/videos/cp8pmgmpgj3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 13 May 2026 01:22:18 GMT",
-        "summary_zh": "美國總統川普持續推動將華盛頓DC打造為「安全又美麗」的計畫，引發了遊客和當地民眾的爭議。川普政府耗資13億美元改造反射池，引起了許多人的關注。許多人認為這項改造是浪費了公帑，反映了川普政府對美化城市的重視，但也有不少人批評這項改造是毫無意義的。這項改造是否能夠實現川普政府的目標，還有待觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f3b7d099",
-        "title": "美國人分享在漢坦病毒隔離單位內的視頻",
-        "url": "https://www.bbc.com/news/videos/cy82kzzlrz5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 13 May 2026 00:28:30 GMT",
-        "summary_zh": "美國一名乘客曾在MV Hondius郵輪上航行，目前正在內布拉斯加州奧馬哈的隔離單位內接受檢疫。該郵輪曾前往南極洲，船上有乘客感染了漢坦病毒。美國人在社交媒體上分享了自己在隔離單位內的視頻，內容包括醫護人員的工作、隔離單位的環境等。這些視頻讓外界對隔離單位的生活有了一個了解。雖然隔離單位內的生活可能不舒適，但醫護人員的工作卻是非常重要的。這些視頻也讓外界對漢坦病毒的感染有了一個更深入的了解。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "bc437ae4",
-        "title": "美國食品藥物管理局局長馬提·馬卡里被撤換",
-        "url": "https://www.bbc.com/news/articles/ce8pg3kr3pxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 12 May 2026 22:45:28 GMT",
-        "summary_zh": "美國食品藥物管理局局長馬提·馬卡里（Marty Makary）已被撤換。這是美國健康部長羅伯特·F·肯尼迪（Robert F Kennedy Jr.）下台的最新一位高級衛生官員。馬卡里曾在川普政府任職，並在拜登政府中繼續擔任食品藥物管理局局長一職。他的離職引起了對美國食品藥物管理局未來方向的關注。馬卡里曾在川普政府任職，並在拜登政府中繼續擔任食品藥物管理局局長一職。他的離職可能會對美國食品藥物管理局的政策和決策產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4bef3827",
-        "title": "埃隆·馬斯克建議將OpenAI控制權交給兒子，薩姆·阿爾特曼在法庭上表示埃隆·馬斯克多次試圖取得OpenAI的完全控制權",
-        "url": "https://www.bbc.com/news/articles/czj2k2exdzlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 12 May 2026 18:51:56 GMT",
-        "summary_zh": "美國企業家埃隆·馬斯克在OpenAI事件中，與該公司的創始人之一薩姆·阿爾特曼發生糾紛。根據最新消息，埃隆·馬斯克建議將OpenAI的控制權交給自己的孩子。然而，薩姆·阿爾特曼在法庭上表示，埃隆·馬斯克多次試圖取得OpenAI的完全控制權，甚至曾試圖將該公司的控制權轉移給自己。這一事件引發了對OpenAI未來發展方向的關注。埃隆·馬斯克的建議是否會被接受，仍待觀察。薩姆·阿爾特曼的訴訟可能會對OpenAI的未來發展產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0f95e600",
-        "title": "加州城市市長因中國間諜罪名辭職",
-        "url": "https://www.bbc.com/news/articles/cvgz87vmj65o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 12 May 2026 11:03:52 GMT",
-        "summary_zh": "加州一城市市長Eileen Wang因美國司法部指控她涉嫌作為中國間諜而辭職。根據指控，Eileen Wang可能面臨最高10年的監禁。事件背景是美國政府近期加強針對中國間諜活動的打擊。這一指控對於美國與中國的關係產生了重大影響，影響了兩國之間的政治和外交關係。這一事件也引發了對於美國政府對於中國間諜活動的處理方式的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d6563d2a",
-        "title": "川普任命第四位臨時FEMA局長",
-        "url": "https://thehill.com/policy/energy-environment/5875022-trump-fema-cameron-hamilton-robert-fenton/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Tue, 12 May 2026 22:05:07 +0000",
-        "summary_zh": "美國聯邦緊急事務管理局（FEMA）局長Karen Evans已經離職，引發局長人事變動風波。根據Politico的E&amp;E News，川普政府在周二發出一份備忘錄，宣布Evans離職。Evans自12月以來一直擔任FEMA局長，接替前任David Richardson。這是FEMA局長人事變動的又一次例子，川普政府一直面臨著領導層的不穩定。這種變動可能會影響FEMA的工作效率和應對災害的能力。目前尚未公布接替Evans的新局長人選。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4000a8a1",
-        "title": "FDA 主席馬基利任期結束，面臨困難",
-        "url": "https://thehill.com/policy/healthcare/5875030-marty-makarys-tenure-as-head-of-fda-ends-with-difficulty/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Tue, 12 May 2026 22:03:46 +0000",
-        "summary_zh": "美國食品藥物管理局 (FDA) 主席馬基利 (Marty Makary) 週二正式辭職，結束了他在該職位的任期。這一決定與近期對他的工作表現產生壓力和流言有關。根據白宮的消息，該局的食品監管首長戴曼塔斯 (Kyle Diamantas) 將接替馬基利。美國總統川普在社交媒體上表示，馬基利在任職期間遇到了困難。川普在前往中國之前對記者表示，馬基利在 FDA 的工作表現不佳，導致他在該職位遇到困難。這一事件表明 FDA 面臨著挑戰，需要一個新的領導人來帶領該局前進。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8f5aab00",
-        "title": "南卡羅來納州共和黨人拒絕考慮重新劃分選區，打擊川普",
-        "url": "https://thehill.com/homenews/campaign/5875039-south-carolina-senate-redistricting/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Tue, 12 May 2026 21:59:38 +0000",
-        "summary_zh": "南卡羅來納州參議院週一拒絕延長立法日程，考慮重新劃分共和黨有利的國會選區，這對川普總統在今年秋季的中期選舉造成了打擊。這項措施在川普的敦促下，經過29比17票的投票被否決。川普在週一呼籲共和黨人支持延長立法日程，說明南卡羅來納州共和黨人應該像……",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3cf73874",
-        "title": "密蘇里州最高法院維持共和黨友好的國會選區圖",
-        "url": "https://thehill.com/regulation/court-battles/5875009-missouri-supreme-court-redistricting/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Tue, 12 May 2026 21:45:31 +0000",
-        "summary_zh": "密蘇里州最高法院以一致票數駁回挑戰共和黨友好的國會選區圖案，該圖案預計將讓共和黨在中期選舉中獲得額外的眾議院席位。這一判決發生在法院聽取了三起訴訟的口頭辯論後不久，這些訴訟試圖阻止新的選區線。密蘇里州最高法院的審查範圍僅限於判斷該選區圖的合法性，而非其合理性。該選區圖的設計被認為有利於共和黨，將使該黨在眾議院中獲得額外的席位。這一判決將對未來的選舉產生重大影響，共和黨將有更多機會在密蘇里州的眾議院選舉中勝出。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ca5a2a50",
-        "title": "提名送交參議院",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/nominations-sent-to-the-senate-3857/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 12 May 2026 19:21:49 +0000",
-        "summary_zh": "白宮宣布，提名三名人選送交參議院審核。其中包括Angela Veronica Colmenero、Daniel Desmond Domenico和Michael C. Martin。Angela Veronica Colmenero被提名為美國南德克薩斯地區聯邦法院法官，Daniel Desmond Domenico被提名為第十巡迴聯邦上訴法院法官，Michael C. Martin被提名為美國東密歇根地區聯邦法院法官。這些提名將由參議院進行審核和確認。這些提名的目的是為美國司法系統補充新的力量，同時也展現了政府對司法系統的重視。然而，這些提名也可能引發爭議和討論，尤其是在政治立場和司法理念上。總體而言，這些提名將對美國司法系統產生重要影響，值得關注和觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "135d9641",
-        "title": "第一夫人梅拉尼婭川普自簽署《未來的關懷》行政命令180天來的10項成就",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/first-lady-melania-trumps-10-achievements-transforming-outcomes-for-foster-youth-since-the-signing-the-fostering-the-future-executive-order-180-days-ago/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 12 May 2026 19:00:14 +0000",
-        "summary_zh": "第一夫人梅拉尼婭川普在《未來的關懷》行政命令簽署180天之際，宣布了10項成就，旨在擴大機會、增強公私部門支持和改善遭受收養照護的年輕人生活。美國在此時期紀念《國家收養照護月》，白宮辦公室發表聲明，強調這些成就對於改善年輕人的生活具有重要意義。梅拉尼婭川普的努力不僅僅是為了改善收養照護的年輕人生活，也是為了促進美國社會的整體發展。這些成就包括擴大機會、增強公私部門支持和改善生活質量等方面的改善。",
-        "sentiment": "正面",
-        "is_breaking": false,
         "ai_classified": true
       }
     ]
