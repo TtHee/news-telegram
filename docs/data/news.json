@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-18T07:03:57.268151+08:00",
+  "generated_at": "2026-05-18T08:04:06.147649+08:00",
   "risk_signals": [
     "🟢 台股加權 41172.36（正常）",
     "🟢 S&P 500 7408.5（正常）",
     "🟢 VIX 恐慌指數 18.43（正常）",
     "🟢 MOVE 債市波動 79.87（正常）",
-    "🟢 美元指數 99.28（正常）",
-    "🟢 黃金 4552.2（正常）",
+    "🟢 美元指數 99.36（正常）",
+    "🟢 黃金 4547.4（正常）",
     "🟡 美債10Y殖利率 4.59（留意）",
-    "🟢 原油 WTI 102.45（正常）",
-    "🟢 美元/台幣 31.57（正常）"
+    "🟢 原油 WTI 102.57（正常）",
+    "🟢 美元/台幣 31.59（正常）"
   ],
-  "ai_summary": "市場氛圍偏於平穩，指標基本正常，但美債10Y殖利率稍微上升，值得留意。",
+  "ai_summary": "市場指標整體正常，但美債10Y殖利率略升，值得留意。整體而言，市場氣氛相對穩定，但仍須關注利率趨勢。",
   "market": {
     "TWII": {
       "price": 41172.36,
@@ -38,24 +38,268 @@
       "change_pct": 14.71
     },
     "DXY": {
-      "price": 99.28,
-      "change_pct": 0.01
+      "price": 99.36,
+      "change_pct": 0.09
     },
     "GOLD": {
-      "price": 4552.2,
-      "change_pct": -0.08
+      "price": 4547.4,
+      "change_pct": -0.18
     },
     "OIL": {
-      "price": 102.45,
-      "change_pct": -2.82
+      "price": 102.57,
+      "change_pct": -2.7
     },
     "USDTWD": {
-      "price": 31.57,
-      "change_pct": 0.02
+      "price": 31.59,
+      "change_pct": 0.07
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "dece57dc",
+        "title": "川普警告伊朗時間緊迫，和平進展陷入僵局",
+        "url": "https://www.bbc.com/news/articles/cd0p4y9y48xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 19:23:20 GMT",
+        "summary_zh": "伊朗媒體報導，美國對伊朗最新提出的方案未有實質讓步。伊朗和美國近期曾展開和平談判，但目前進展陷入僵局。伊朗方面認為美國未能做出實質的讓步，伊朗的和平提議遭到美國的冷遇。伊朗和美國的關係一直處於緊張狀態，伊朗的核計畫和恐怖主義行為一直是美國的關注點。伊朗的和平提議包括放寬對伊朗的制裁和恢復伊朗與國際社會的合作關係。美國政府對伊朗的回應表明，美國仍然堅持對伊朗的制裁和壓力政策。伊朗的和平提議遭到美國的冷遇，伊朗的和平進展陷入僵局。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "d28f7abf",
+        "title": "世衛組織宣布剛果民主共和國埃博拉爆發為全球衛生緊急事件",
+        "url": "https://www.bbc.com/news/articles/c2l2p0wwzzdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 21:14:27 GMT",
+        "summary_zh": "剛果民主共和國近日爆發埃博拉疫情，世衛組織宣布該疫情為全球衛生緊急事件。根據世衛組織的數據，該疫情已經導致 246 起病例和 80 名死亡。雖然世衛組織認為該疫情嚴重，但仍未達到流行病學緊急事件的標準。世衛組織強調，該疫情仍處於監控階段，需要繼續關注和應對。該疫情的爆發對當地的醫療系統和社會造成了重大影響，世衛組織呼籲各國提供援助和支持。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "bcecf0b6",
+        "title": "加拿大人從罹患漢坦病毒的郵輪上測出陽性",
+        "url": "https://www.bbc.com/news/articles/c2k2p057ezno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 12:07:54 GMT",
+        "summary_zh": "一名來自加拿大的男子從罹患漢坦病毒的郵輪上測出陽性，該男子是四名曾在溫哥華島（Vancouver Island）隔離的前郵輪乘客之一。漢坦病毒是一種由老鼠傳播的病毒，主要影響人類的肺部和腎臟。該郵輪的乘客們在返回加拿大後出現了症狀，當局已經開始追蹤和隔離相關個案。目前尚不清楚該郵輪上是否有更多人感染了漢坦病毒。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7508884c",
+        "title": "剛果民主共和國埃博拉爆發：該國宣布衛生緊急狀態",
+        "url": "https://www.bbc.com/news/articles/c9q311nj5r3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 18:06:31 GMT",
+        "summary_zh": "剛果民主共和國近日爆發埃博拉疫情，該國衛生部已宣布該疫情已達到衛生緊急狀態。根據最新數據，該國已經有近 250 起疑似埃博拉病例被報導。這種疾病具有高度傳染性，對人類生命造成嚴重威脅。衛生部官員表示，政府正在采取一切必要措施來控制疫情的蔓延。這項宣布是為了提高警覺性並促進國際合作以應對這種危機。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "77345dd4",
+        "title": "這可能是你再也聽不到我的聲音：伊朗政治處決激增",
+        "url": "https://www.bbc.com/news/articles/cn8p392nl7yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 23:02:56 GMT",
+        "summary_zh": "伊朗自美國和以色列於2月28日攻擊伊朗後，聯合國確認至少有32名政治犯遭到處決。伊朗政府自從伊拉克入侵伊朗以來，對政治犯的處決已經大幅增加。這些處決的背景是伊朗對抗美國和以色列的軍事行動。聯合國人權事務高級專員辦公室表示，這些處決是對伊朗人權的嚴重侵犯。伊朗政府的行動引起了國際社會的關注和譴責。這些處決的影響是對伊朗人權的損害和對伊朗政府的國際形象的損害。未來，伊朗政府的處決政策可能會繼續受到國際社會的關注和壓力。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "51f333f1",
+        "title": "俄羅斯稱莫斯科地區遭烏克蘭無人機攻擊致三人死亡",
+        "url": "https://www.bbc.com/news/articles/c5ye480kxpmo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 14:18:23 GMT",
+        "summary_zh": "烏克蘭局部官員報導，俄羅斯在當地時間凌晨發動無人機攻擊和炮火轟炸，造成八人受傷。俄羅斯方面則宣布，莫斯科地區遭到烏克蘭無人機攻擊，造成三人死亡。這是近期烏俄戰爭中，雙方對彼此領土進行攻擊的最新事件。這種攻擊對烏克蘭和俄羅斯都造成了重大影響，可能會進一步升級戰爭局勢。烏克蘭和俄羅斯的戰爭已經持續了數月，雙方都在努力爭取優勢。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cbc21997",
+        "title": "阿拉伯聯合酋長國報告阿布扎比核電廠附近遭襲擊事件",
+        "url": "https://www.bbc.com/news/articles/cwy27pkj1l1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 20:53:45 GMT",
+        "summary_zh": "阿拉伯聯合酋長國近日報告了一次襲擊事件，目標是阿布扎比的核電廠。該國正在調查襲擊的來源，稱這是一次「危險的升級」。阿布扎比核電廠是該國的重要能源基礎設施之一，該事件引起了國際社會的關注。阿拉伯聯合酋長國政府已經對此事件進行了初步評估，正在與國際合作伙伴合作，確保核電廠的安全。這次襲擊事件可能對該國的能源安全和國際關係產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a7cc115d",
+        "title": "意大利男子駕車衝向行人，傷八人",
+        "url": "https://www.bbc.com/news/articles/cyv28pd4n22o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 13:57:56 GMT",
+        "summary_zh": "意大利發生了一起駕車衝向行人的事件，造成八人受傷，其中兩人受傷嚴重。事發地附近的行人趕來阻止男子，最終成功將其逮捕。事件的背景是意大利最近出現了多起駕車衝向行人的案件，引起了社會的關注。這起事件的關鍵細節是，男子駕車衝向行人後，附近的行人趕來阻止他，展現了民間的勇氣和關心。這起事件的影響分析是，意大利政府可能會對此事件進行調查和處理，並可能會對駕車安全和行人保護進行改革。後續展望是，意大利社會可能會繼續關注駕車安全和行人保護問題，並可能會出現更多的民間行動和政府政策的改變。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5c82b6e4",
+        "title": "5月17日 美伊戰爭對國際經濟、財經市場與民生衝擊",
+        "url": "https://www.cna.com.tw/news/aopl/202605170132.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 15:57:39 +0800",
+        "summary_zh": "中東戰事持續打亂貨物運輸，導致全球能源成本大幅上升。印度在4月的貿易逆差也因而擴大。油價的飆漲影響美國總統川普的支持率下滑。然而，部分科羅拉多州的民眾仍然支持川普，寧願忍受短期的高油價，也不願意讓伊朗擁有核武。這種情況下，民眾的意見分歧與政治情勢的變化緊密相關。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c85032d7",
+        "title": "歐盟計劃大幅減少鋼鐵進口 將對烏克蘭造成重創",
+        "url": "https://www.ft.com/content/501e3207-4a9e-4edb-9a80-812cbfbd4f46",
+        "source": "Financial Times",
+        "category": "global",
+        "published_at": "2026-05-17 04:00:12",
+        "summary_zh": "歐盟正在考慮大幅減少鋼鐵進口，烏克蘭官員警告，這將對烏克蘭造成重大的經濟損失。根據預測，烏克蘭的鋼鐵出口收入將減少€1億歐元。烏克蘭的鋼鐵產業是該國重要的出口商品之一，出口收入對烏克蘭經濟的貢獻不可忽視。歐盟的這一決定可能會對烏克蘭的出口業造成重大影響，進而影響烏克蘭的經濟發展。烏克蘭政府正在努力爭取歐盟的支持，希望能夠在鋼鐵出口方面取得一定的優惠。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "460ef22a",
+        "title": "美洲石油時代即將崩潰，未來將是多麼的殘酷 | Jonathan Watts",
+        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/may/17/america-china-energy-oil-renewables",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 13:00:41 GMT",
+        "summary_zh": "中國正在領導能源轉型，取得了令人驚嘆的成績，而在美國，石油極端主義者卻試圖倒轉時鐘。美國總統唐納德·川普在北京與習近平會面後，走在紅毯上回到空軍一號時，中國孩子們揮舞著國旗，高呼「再見」。川普聲稱他離開後帶回了一批「極好的」貿易協議，將美國石油、戰機和豆類出售給中國。然而，這些協議是否得到中國主持人的確認仍待確認。然而，從兩天的會面中可以看出，全球權力平衡正在從西方的石油國家轉向東方的電氣國家。中國正在領導能源轉型，取得了令人驚嘆的成績，而美國卻試圖倒轉時鐘。美國石油產業的衰落已經開始，中國的電力產業正迅速崛起。美國的石油極端主義者試圖阻止能源轉型，但中國的領導力正在推動世界向更清潔、更可持續的能源未來邁進。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f381201b",
+        "title": "中歐官員爆發口角衝突！貿易問題激烈爭論火花四射",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5440367",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Mon, 18 May 2026 06:37:07 +0800",
+        "summary_zh": "近日，歐洲和中國的外交官、官員和專家在北京的一間會議室裡，針對貿易問題發生激烈爭論。這場歐盟主辦的會議充滿火藥味，恐爆發貿易戰。雙方在會議中互相轟炸對話，全曝光。這次會議的出現，顯示中歐關係緊張，貿易問題成為兩國關係的重要焦點。中國和歐盟的貿易關係已經存在許多爭議，包括貿易平衡、關稅和投資限制等。這次會議的發生，可能會加劇這些爭議，導致貿易戰的爆發。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c9384a0a",
+        "title": "全球石油庫存暴跌！夏季油價大幅上漲預警，第三季經濟恐陷嚴重衰退",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5440354",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 21:29:26 +0800",
+        "summary_zh": "全球石油庫存因伊朗戰爭導致的中東地區嚴重供應中斷而急劇下降，創下歷史新低。國際能源總署預測，如果荷姆茲海峽無法重新開放，全球石油庫存將逼近臨界水準，夏季油價大幅上漲的風險也因此增高。這將對全球經濟產生重大影響，特別是在第三季，全球經濟恐陷入嚴重衰退。石油供應的中斷將導致油價上漲，進而影響全球經濟的復甦，特別是在第三季，全球經濟的衰退將更加嚴重。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "18be7c9c",
+        "title": "美國列出伊朗協議五項條件 德黑蘭挨了一記悶棍",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5440300",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 20:57:51 +0800",
+        "summary_zh": "美國與伊朗核協議的談判近日再度加溫。根據伊朗半官方法爾斯通訊社（Fars news agency）週日（17日）報導，美國提出了與德黑蘭達成協議的五個關鍵條件。其中包括只允許一座核設施運作、伊朗核物質的減少、國際原子能機構（IAEA）對伊朗核設施的監控、伊朗對伊斯蘭堡地區的恐怖主義組織的打擊，以及德黑蘭與美國對伊斯蘭堡地區恐怖主義組織的合作。這五項條件被視為美國政府對伊朗協議的基本要求。伊朗政府對美國提出的條件尚未做出正式回應。這項協議的達成將對全球能源市場和地區安全產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3e1c47dd",
+        "title": "‘像幻影一樣’：川普奪取馬杜羅後，委內瑞拉幾乎沒有改變",
+        "url": "https://www.theguardian.com/world/ng-interactive/2026/may/17/feels-like-an-illusion-how-trump-seizing-maduro-has-changed-little-in-venezuela",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 05:00:29 GMT",
+        "summary_zh": "委內瑞拉的變化似乎不大，許多人仍然對胡戈·查維茲的運動保持著熱情。當安赫爾·利納雷斯聽到一陣奇怪的嗡嗡聲後，隨即爆炸，他第一個想法是鄰居在慶祝新年時放了鞭炮。然而，他的窗戶碎裂，建築物的牆壁搖晃，建築物的外牆被撕裂，讓他從窗口飛下，摔在地上。他的85歲的母親，赫蘇西塔，擔心委內瑞拉北部海岸被地震摧毀，像她在1967年記得的那樣。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "whitehouse": [
+      {
+        "id": "5c611a43",
+        "title": "特朗普支持的挑戰者擊敗投票支持彈劾總統的共和黨參議員",
+        "url": "https://www.bbc.com/news/articles/cx21d4pxq23o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Sun, 17 May 2026 16:25:28 GMT",
+        "summary_zh": "在路易斯安那州的高壓選舉中，特朗普全力支持朱莉亞·萊特洛（Julia Letlow），並將現任參議員譏為「不忠」。朱莉亞·萊特洛最終擊敗投票支持彈劾特朗普的共和黨參議員。這次選舉的結果顯示，特朗普的影響力仍然在共和黨內部具有重要作用。這也表明，共和黨內部對於特朗普的支持度仍然存在較高的分裂。路易斯安那州的選舉結果將對未來的美國政治格局產生重要影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a166635f",
+        "title": "白宮發布: 川普總統與習近平達成歷史性協議, 為美國工人、農民和產業帶來成果",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/05/fact-sheet-president-donald-j-trump-secures-historic-deals-with-china-delivering-for-american-workers-farmers-and-industry/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Sun, 17 May 2026 17:15:13 +0000",
+        "summary_zh": "川普總統在2017年以來首次訪問中國, 與習近平達成多項協議, 使全球企業和消費者感到更加穩定和自信。這些協議將為美國工人、農民和產業帶來重大成果, 並為全球和平和繁榮做出貢獻。協議的具體內容包括建立美國-中國貿易委員會等, 但具體細節尚未披露。這項協議的達成將為美國經濟帶來新的機遇, 並加強美國與中國的經濟合作。然而, 仍需觀察這項協議的具體實施情況, 以確保其對美國經濟的正面影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6f4c8886",
+        "title": "特朗普攻擊馬西：共和黨批評家形容他「絕望」試圖將他踢出初選",
+        "url": "https://www.theguardian.com/us-news/2026/may/17/trump-thomas-massie-primary",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 17 May 2026 17:27:19 GMT",
+        "summary_zh": "美國總統特朗普在社交媒體上對肯塔基州國會議員馬西進行攻擊，稱他是「美國歷史上最差和最不可靠的共和黨國會議員」。馬西是少數敢於與特朗普對抗的共和黨人之一，他正面臨著週二共和黨初選的艱難挑戰。特朗普在社交媒體上呼籲肯塔基州選民「週二投票將他踢出」。這是特朗普對馬西的最新攻擊，兩天後將是共和黨黨員對他的控制力進行的下一個考驗。馬西是少數敢於與特朗普對抗的共和黨人之一，他正面臨著週二共和黨初選的艱難挑戰。特朗普的攻擊表明他仍然控制著共和黨，並且會對任何敢於反對他的黨員進行報復。馬西的選情不穩定，特朗普的攻擊可能會對他的競選造成重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "12d726af",
+        "title": "美國最大的通勤鐵路系統進入第二天停擺，罷工持續",
+        "url": "https://www.theguardian.com/us-news/2026/may/17/new-york-lirr-shutdown-strike",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 17 May 2026 16:50:34 GMT",
+        "summary_zh": "美國最大的通勤鐵路系統長島鐵路（Long Island Rail Road）進入第二天停擺，原因是員工罷工。員工罷工是三十年來第一次，長島鐵路於週五深夜停運，服務範圍包括紐約市和東部郊區。五個工會代表約半數員工的罷工，導致鐵路系統全面停擺。這項罷工對於通勤者造成嚴重影響，特別是在週一早上繁忙時間到來時。長島鐵路是北美最大的通勤鐵路系統，員工罷工的影響將持續下去。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1a95a842",
+        "title": "億萬富翁候選人提倡稅富濟貧　民主黨人士感興趣",
+        "url": "https://www.theguardian.com/us-news/2026/may/17/tom-steyer-billionaire-candidate-democrats",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 17 May 2026 15:06:55 GMT",
+        "summary_zh": "億萬富翁湯姆·史達爾（Tom Steyer）以房價和生活費用便宜為競選焦點，他的選舉策略引起了民主黨人士的關注。史達爾是一名前投資基金創始人、氣候變化活動家和大型捐贈者，他的競選訴求是稅富濟貧，讓像他這樣的億萬富翁支付更多稅款。這種競選策略在一個億萬富翁候選人身上可能令人感到陌生，但史達爾試圖呈現自己為一個願意為富有者承擔更多稅負的不同類型億萬富翁。這種競選策略可能會影響民主黨的選舉方向，讓人們關注富有者是否應該承擔更多稅負。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "ai": [
       {
         "id": "df560ca4",
@@ -82,6 +326,18 @@
         "ai_classified": true
       },
       {
+        "id": "615b1335",
+        "title": "人工智慧股：這些被低估的勝利者還能提供穩定的收入",
+        "url": "https://www.cnbc.com/2026/05/17/these-underappreciated-winners-of-ai-also-pay-solid-income.html",
+        "source": "Cnbc",
+        "category": "ai",
+        "published_at": "2026-05-17 11:25:05",
+        "summary_zh": "人工智慧技術正在迅速發展，投資人開始關注這一領域的投資機會。其中，房地產投資信託（REIT）是人工智慧投資的一個受歡迎選擇。這些REIT不僅能夠提供穩定的收入，還能夠讓投資人參與人工智慧的投資市場。根據市場分析師的預測，人工智慧領域的投資潛力仍然很大，未來將會有更多投資機會。投資人可以通過購買這些REIT的股票來參與人工智慧投資市場，同時獲得穩定的收入。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "3859474e",
         "title": "自助餐廳的聊天機器人只是開始",
         "url": "https://www.theverge.com/column/928096/chatbots-ai-drive-thru-mcdonalds-wendys",
@@ -95,42 +351,6 @@
       }
     ],
     "stock_tw": [
-      {
-        "id": "5d8da7b3",
-        "title": "女性健身風氣持續升溫！可爾姿女神賽近9千人完賽 65歲一樣能「增肌減脂」",
-        "url": "https://money.udn.com/money/story/5637/9500610",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sun, 14 Jun 2026 19:22:44 +0800",
-        "summary_zh": "近年來，台灣女性健身風氣持續升溫。可爾姿女神增肌減脂賽是今年最受注目的健身賽事，全台共有11,217位會員參賽，完賽人數達8,944人，完賽率高達近8成。這項賽事的挑戰期間橫跨農曆春節，考驗了參賽者的堅持力和自律性。數據顯示，本屆完賽會員平均減脂0.7公斤，同時增加肌肉0.2公斤，成功達成「減脂不減肌」。不同年齡層的參賽者也展現出不同的成果，44歲以下族群平均減脂0.9公斤，45至59歲族群減脂0.7公斤，而60歲以上族群仍能達到平均減脂0.5公斤。這項賽事的成功表明，女性已經從想運動走向了持續運動，展現出對健康和身體的關注。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "04874366",
-        "title": "虎科大與國家運動科學中心合作推動精準訓練",
-        "url": "https://money.udn.com/money/story/5723/9503761",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Sat, 13 Jun 2026 00:56:43 +0800",
-        "summary_zh": "國立虎尾科技大學與國家運動科學中心於5月13日簽署合作意向書，展開為期3年的合作。雙方將以運動科學研究與人才培育為主軸，透過數據分析與實證研究方法，推動運動訓練朝向數據化、精準化與科學化發展。虎科大以工程專業深耕運動科技領域逾20年，近年進一步推動運動科學結合競技訓練，整合運動生物力學、人工智慧演算法及跨域工程技術，投入運動數據分析、訓練模式驗證與系統應用開發。這次合作將對接運科中心串聯運動科學研究、競技訓練需求與人才培育資源，促進研究成果與第一線訓練現場接軌。虎科大校長張信良表示，這次合作將有助於把科技研發成果更有效地對接到運動員與第一線訓練現場。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3176652b",
-        "title": "本周開盤前 五件國際事不可不知",
-        "url": "https://money.udn.com/money/story/5599/9508965",
-        "source": "經濟日報",
-        "category": "stock_tw",
-        "published_at": "Mon, 18 May 2026 06:57:55 +0800",
-        "summary_zh": "美國總統川普再次提到台灣偷了美國晶片產業，並希望看到所有在台灣製造晶片的人都進到美國。他也強調不想看到台獨。這些話語引發了兩岸關係的關注。同時，市場也關注著美中貿易戰的發展，尤其是美國對華為的制裁。另外，歐盟也在考慮對華為的限制政策。這些事件將對全球經濟和兩岸關係產生重大影響。市場投資者應該關注這些發展，並做好準備應對未來的風險和機會。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
       {
         "id": "38dc0269",
         "title": "AI熱潮帶動 韓國科技大廠平均月薪將達到20萬元",
@@ -264,6 +484,42 @@
         "ai_classified": true
       },
       {
+        "id": "5d8da7b3",
+        "title": "女性健身風氣持續升溫！可爾姿女神賽近9千人完賽 65歲一樣能「增肌減脂」",
+        "url": "https://money.udn.com/money/story/5637/9500610",
+        "source": "經濟日報",
+        "category": "stock_tw",
+        "published_at": "Sun, 14 Jun 2026 19:22:44 +0800",
+        "summary_zh": "近年來，台灣女性健身風氣持續升溫。可爾姿女神增肌減脂賽是今年最受注目的健身賽事，全台共有11,217位會員參賽，完賽人數達8,944人，完賽率高達近8成。這項賽事的挑戰期間橫跨農曆春節，考驗了參賽者的堅持力和自律性。數據顯示，本屆完賽會員平均減脂0.7公斤，同時增加肌肉0.2公斤，成功達成「減脂不減肌」。不同年齡層的參賽者也展現出不同的成果，44歲以下族群平均減脂0.9公斤，45至59歲族群減脂0.7公斤，而60歲以上族群仍能達到平均減脂0.5公斤。這項賽事的成功表明，女性已經從想運動走向了持續運動，展現出對健康和身體的關注。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "04874366",
+        "title": "虎科大與國家運動科學中心合作推動精準訓練",
+        "url": "https://money.udn.com/money/story/5723/9503761",
+        "source": "經濟日報",
+        "category": "stock_tw",
+        "published_at": "Sat, 13 Jun 2026 00:56:43 +0800",
+        "summary_zh": "國立虎尾科技大學與國家運動科學中心於5月13日簽署合作意向書，展開為期3年的合作。雙方將以運動科學研究與人才培育為主軸，透過數據分析與實證研究方法，推動運動訓練朝向數據化、精準化與科學化發展。虎科大以工程專業深耕運動科技領域逾20年，近年進一步推動運動科學結合競技訓練，整合運動生物力學、人工智慧演算法及跨域工程技術，投入運動數據分析、訓練模式驗證與系統應用開發。這次合作將對接運科中心串聯運動科學研究、競技訓練需求與人才培育資源，促進研究成果與第一線訓練現場接軌。虎科大校長張信良表示，這次合作將有助於把科技研發成果更有效地對接到運動員與第一線訓練現場。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3176652b",
+        "title": "本周開盤前 五件國際事不可不知",
+        "url": "https://money.udn.com/money/story/5599/9508965",
+        "source": "經濟日報",
+        "category": "stock_tw",
+        "published_at": "Mon, 18 May 2026 06:57:55 +0800",
+        "summary_zh": "美國總統川普再次提到台灣偷了美國晶片產業，並希望看到所有在台灣製造晶片的人都進到美國。他也強調不想看到台獨。這些話語引發了兩岸關係的關注。同時，市場也關注著美中貿易戰的發展，尤其是美國對華為的制裁。另外，歐盟也在考慮對華為的限制政策。這些事件將對全球經濟和兩岸關係產生重大影響。市場投資者應該關注這些發展，並做好準備應對未來的風險和機會。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "1ccafb2a",
         "title": "比爾蓋茲賣掉所有微軟股票！外媒曝原因",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5440378",
@@ -334,21 +590,33 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "053ad675",
-        "title": "這檔記憶體大廠今年暴漲494％ 董事開始悄悄賣股了",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5440293",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 17 May 2026 20:31:12 +0800",
-        "summary_zh": "在人工智慧（AI）需求帶動下，記憶體產品需求大增。美國記憶體大廠晟碟（SanDisk）今年股價已暴漲494%，成為今年全球股市最大的漲幅之一。晟碟的董事們也開始趁這波漲勢獲利了結，悄悄賣出部分股份。這種情況表明投資者對於記憶體產品的需求持續樂觀，同時也反映出董事們對於公司未來發展的信心。然而，這也引發了投資者對於公司股價是否會持續上漲的疑慮。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "finance": [
+      {
+        "id": "f9bea71c",
+        "title": "唐納德·川普·青年在VC公司1789資本中炫耀政治優勢",
+        "url": "https://www.ft.com/content/712a6afa-23e3-480c-a530-6b79cd08a17c",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-17 11:00:05",
+        "summary_zh": "唐納德·川普·青年旗下VC公司1789資本正積極推動投資，目標是將資產規模擴大到1000億美元。該公司在人工智慧領域積累了豐富的投資經驗，已經構建起一支龐大的AI投資組合。川普青年透露，1789資本將繼續在AI領域投資，並將政治優勢作為競爭力的一部分。這一投資策略引起了市場的關注，許多人認為這將是未來投資趨勢之一。然而，仍有許多人對川普青年在政治和投資領域的行為表示質疑。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "973f31a4",
+        "title": "聯邦儲備委員會是否轉向鹹鷹政策?",
+        "url": "https://www.ft.com/content/e92afb1c-6abc-4883-b268-98b91c1a9679",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-17 11:00:05",
+        "summary_zh": "聯邦儲備委員會（Fed）近日表明可能會採取鹹鷹政策，來應對通膨擔憂。根據市場預期，Fed 有可能會在未來幾個月內提高利率，以控制通膨。這一轉變可能會對全球金融市場產生重大影響。市場預期 Fed 將在未來幾個月內進行三次加息，利率將從目前的 0.25% 提高到 1.5%。這一轉變可能會對股票市場和房地產市場產生重大影響。投資者應該密切關注 Fed 的動向，以便做出準備。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "6511b69c",
         "title": "雷維斯準備棄置燃油稅上漲計畫，日報報導",
@@ -358,8 +626,8 @@
         "published_at": "2026-05-17 10:46:07",
         "summary_zh": "英國財政大臣雷維斯考慮放棄原定的燃油稅上漲計畫，據《太陽報》報導。這一決定是為了減少民眾的生活成本，尤其是在汽油價格上漲的背景下。雷維斯的決定可能會對汽油價格產生一定的影響，但具體的影響力尚待觀察。這一發展也可能會對英國的經濟政策產生一定的影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "2e8aa418",
@@ -370,8 +638,8 @@
         "published_at": "2026-05-17 10:04:23",
         "summary_zh": "以色列經濟在第一季度出現更惡化的衰退，遠超預期。根據最近公布的數據，該國的 GDP 增長率下滑至 0.6%，遠低於市場預期的 1.5%。這一惡化的經濟情況主要是由於俄羅斯入侵烏克蘭導致的全球經濟不穩定和能源價格上升所致。這一衰退對以色列的出口業和製造業產生了重大影響，出口量下滑了 10.5%，製造業生產量下滑了 3.5%。此外，消費者物價指數也上升了 1.2%，這使得以色列的通貨膨脹率達到 4.5%。這一惡化的經濟情況對以色列的經濟發展產生了重大影響，政府和央行將需要採取措施來穩定經濟並促進經濟復甦。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "2159ad82",
@@ -382,8 +650,8 @@
         "published_at": "2026-05-17 10:00:04",
         "summary_zh": "美國風力和太陽能項目發展商面臨著勞工和設備供應鏈短缺的困境，同時也受到了川普政府的不利政策影響。這些項目的稅收抵免期限即將到期，將對美國的可再生能源發展造成重大影響。美國政府的政策轉變，包括稅收抵免期限的縮短，正在對風力和太陽能項目的發展造成不利影響。發展商正在努力應對勞工和設備供應鏈的短缺，同時也在爭取政府的支持。美國的可再生能源發展面臨著多重挑戰，包括政策不確定性和資源短缺。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "a955e9d8",
@@ -432,298 +700,20 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "b63303f2",
-        "title": "波斯灣貨運費用大幅上升，運輸公司轉向卡車運送貨物",
-        "url": "https://www.ft.com/content/0c2adc44-5dcf-4273-943e-9899a1ce44ff",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-05-17 04:00:12",
-        "summary_zh": "由於全球貨運市場供不應求，波斯灣地區的貨運費用大幅上升。為了減少成本，運輸公司開始轉向卡車運送貨物，但卡車只能運送貨物的一小部分。這將對企業造成數千美元的額外費用。根據估計，卡車每天只能運送約 5% 的貨物。這使得企業面臨著艱難的選擇：支付高昂的貨運費用或延遲交貨。這種情況可能會對全球供應鏈造成重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "98e56fd5",
-        "title": "英國如何處理欠繳的能源費用",
-        "url": "https://www.ft.com/content/f687a5b7-bc66-44a7-887a-a8c8877c4457",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-05-17 04:00:12",
-        "summary_zh": "英國面臨著大量欠繳的能源費用問題，政府正在尋找長期解決方案。其中一個提案是推出社區補貼計劃（social tariff），以幫助脆弱的家庭避免繳不出能源費用而陷入債務。這項計劃的目標是通過長期的補貼和支持，幫助家庭節省能源費用，避免債務累積。政府還計劃增加對能源公司的監管，確保他們能夠提供合理的價格和服務。這項措施的影響將是降低家庭的能源費用，減少債務累積，同時也會對能源公司的營運模式產生影響。未來政府將如何實施這項計劃，還需要進一步的討論和協商。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
-    "whitehouse": [
+    "stock_us": [
       {
-        "id": "a166635f",
-        "title": "白宮發布: 川普總統與習近平達成歷史性協議, 為美國工人、農民和產業帶來成果",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/05/fact-sheet-president-donald-j-trump-secures-historic-deals-with-china-delivering-for-american-workers-farmers-and-industry/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Sun, 17 May 2026 17:15:13 +0000",
-        "summary_zh": "川普總統在2017年以來首次訪問中國, 與習近平達成多項協議, 使全球企業和消費者感到更加穩定和自信。這些協議將為美國工人、農民和產業帶來重大成果, 並為全球和平和繁榮做出貢獻。協議的具體內容包括建立美國-中國貿易委員會等, 但具體細節尚未披露。這項協議的達成將為美國經濟帶來新的機遇, 並加強美國與中國的經濟合作。然而, 仍需觀察這項協議的具體實施情況, 以確保其對美國經濟的正面影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5c611a43",
-        "title": "特朗普支持的挑戰者擊敗投票支持彈劾總統的共和黨參議員",
-        "url": "https://www.bbc.com/news/articles/cx21d4pxq23o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 17 May 2026 16:25:28 GMT",
-        "summary_zh": "在路易斯安那州的高壓選舉中，特朗普全力支持朱莉亞·萊特洛（Julia Letlow），並將現任參議員譏為「不忠」。朱莉亞·萊特洛最終擊敗投票支持彈劾特朗普的共和黨參議員。這次選舉的結果顯示，特朗普的影響力仍然在共和黨內部具有重要作用。這也表明，共和黨內部對於特朗普的支持度仍然存在較高的分裂。路易斯安那州的選舉結果將對未來的美國政治格局產生重要影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6f4c8886",
-        "title": "特朗普攻擊馬西：共和黨批評家形容他「絕望」試圖將他踢出初選",
-        "url": "https://www.theguardian.com/us-news/2026/may/17/trump-thomas-massie-primary",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 17 May 2026 17:27:19 GMT",
-        "summary_zh": "美國總統特朗普在社交媒體上對肯塔基州國會議員馬西進行攻擊，稱他是「美國歷史上最差和最不可靠的共和黨國會議員」。馬西是少數敢於與特朗普對抗的共和黨人之一，他正面臨著週二共和黨初選的艱難挑戰。特朗普在社交媒體上呼籲肯塔基州選民「週二投票將他踢出」。這是特朗普對馬西的最新攻擊，兩天後將是共和黨黨員對他的控制力進行的下一個考驗。馬西是少數敢於與特朗普對抗的共和黨人之一，他正面臨著週二共和黨初選的艱難挑戰。特朗普的攻擊表明他仍然控制著共和黨，並且會對任何敢於反對他的黨員進行報復。馬西的選情不穩定，特朗普的攻擊可能會對他的競選造成重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "12d726af",
-        "title": "美國最大的通勤鐵路系統進入第二天停擺，罷工持續",
-        "url": "https://www.theguardian.com/us-news/2026/may/17/new-york-lirr-shutdown-strike",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 17 May 2026 16:50:34 GMT",
-        "summary_zh": "美國最大的通勤鐵路系統長島鐵路（Long Island Rail Road）進入第二天停擺，原因是員工罷工。員工罷工是三十年來第一次，長島鐵路於週五深夜停運，服務範圍包括紐約市和東部郊區。五個工會代表約半數員工的罷工，導致鐵路系統全面停擺。這項罷工對於通勤者造成嚴重影響，特別是在週一早上繁忙時間到來時。長島鐵路是北美最大的通勤鐵路系統，員工罷工的影響將持續下去。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1a95a842",
-        "title": "億萬富翁候選人提倡稅富濟貧　民主黨人士感興趣",
-        "url": "https://www.theguardian.com/us-news/2026/may/17/tom-steyer-billionaire-candidate-democrats",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 17 May 2026 15:06:55 GMT",
-        "summary_zh": "億萬富翁湯姆·史達爾（Tom Steyer）以房價和生活費用便宜為競選焦點，他的選舉策略引起了民主黨人士的關注。史達爾是一名前投資基金創始人、氣候變化活動家和大型捐贈者，他的競選訴求是稅富濟貧，讓像他這樣的億萬富翁支付更多稅款。這種競選策略在一個億萬富翁候選人身上可能令人感到陌生，但史達爾試圖呈現自己為一個願意為富有者承擔更多稅負的不同類型億萬富翁。這種競選策略可能會影響民主黨的選舉方向，讓人們關注富有者是否應該承擔更多稅負。",
+        "id": "f9ae1206",
+        "title": "華爾街頂尖分析師建議這三隻股票長期前景佳",
+        "url": "https://www.cnbc.com/2026/05/17/top-analysts-suggest-these-3-stocks-for-their-long-term-prospects.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-17 11:43:53",
+        "summary_zh": "近期的財報季節，強勁的消費支出和人工智慧基礎設施需求的增強，使得華爾街頂尖分析師對多家公司的信心大增。根據分析師的建議，這三隻股票展現出長期前景佳的特徵。分析師認為，這些公司的財務表現和未來成長潛力使得投資者有理由樂觀。然而，投資市場的波動使得投資者需要謹慎評估風險。分析師的建議並不代表投資者的決策，投資者應該根據自己的判斷進行投資決策。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d897fb51",
-        "title": "堪薩斯州法官暫時阻止禁止未成年人性別轉換治療的法律",
-        "url": "https://www.theguardian.com/us-news/2026/may/16/kansas-judge-blocks-law-banning-gender-transition-treatments-for-minors",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sat, 16 May 2026 23:43:56 GMT",
-        "summary_zh": "堪薩斯州一名法官暫時阻止了一項禁止未成年人進行性別轉換治療的法律。該法官根據兩名父母的訴訟，判決暫時禁止執行該法律。這兩名父母希望讓他們的兩名未成年子女繼續使用藥物進行性別轉換治療。該法律最近被州議會通過，禁止未成年人進行性別轉換治療。這項裁決意味著該法律暫時無效，未成年人仍可繼續進行性別轉換治療。這項裁決可能會對未來的法律訴訟產生影響，堪薩斯州政府可能會對此提出上訴。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "61a8d9da",
-        "title": "千人集會：南方人不怕有色人種歧視法案被廢除",
-        "url": "https://www.theguardian.com/us-news/2026/may/16/alabama-black-voting-rights-protest",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sat, 16 May 2026 23:29:30 GMT",
-        "summary_zh": "近千名來自全美的民眾於上週六抵達阿拉巴馬州首府蒙哥馬利市，為有色人種投票權的集會。這次集會是由各地的公民參與組織推動，目的在於抗議上月最高法院對路易斯安那州案件的裁決，該裁決大幅削弱了投票權保護法，嚴重限制了反對投票歧視的措施。集會地點位於阿拉巴馬州州議會大樓外，該地點曾是1965年塞爾馬至蒙哥馬利的投票權大遊行的起點。這些遊行是為了支持黑人投票權的三次非暴力抗議活動。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "ee5437ec",
-        "title": "金正恩訓示全軍指揮官 要求強化南韓邊界前線部隊",
-        "url": "https://money.udn.com/money/story/5599/9508954",
-        "source": "經濟日報",
-        "category": "global",
-        "published_at": "Mon, 18 May 2026 06:30:16 +0800",
-        "summary_zh": "北韓領導人金正恩近日對全軍指揮官進行訓示，強調需要強化與南韓邊界的前線部隊以及其他重要部隊。金正恩認為，這是「更徹底嚇阻戰爭」的關鍵。這一訓示表明北韓對南韓邊界的安全情況感到關注，並可能意圖通過軍事力量來維持控制。這一發展可能會對東亞地區的政治局勢產生影響，特別是在南韓和美國的關係中。南韓政府和美國政府可能會對這一發展進行回應和評估，考慮如何應對北韓的軍事行動。這一事件也可能會影響到南韓和北韓之間的和平談判進程。",
-        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "c85032d7",
-        "title": "歐盟計劃大幅減少鋼鐵進口 將對烏克蘭造成重創",
-        "url": "https://www.ft.com/content/501e3207-4a9e-4edb-9a80-812cbfbd4f46",
-        "source": "Financial Times",
-        "category": "global",
-        "published_at": "2026-05-17 04:00:12",
-        "summary_zh": "歐盟正在考慮大幅減少鋼鐵進口，烏克蘭官員警告，這將對烏克蘭造成重大的經濟損失。根據預測，烏克蘭的鋼鐵出口收入將減少€1億歐元。烏克蘭的鋼鐵產業是該國重要的出口商品之一，出口收入對烏克蘭經濟的貢獻不可忽視。歐盟的這一決定可能會對烏克蘭的出口業造成重大影響，進而影響烏克蘭的經濟發展。烏克蘭政府正在努力爭取歐盟的支持，希望能夠在鋼鐵出口方面取得一定的優惠。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bcecf0b6",
-        "title": "加拿大人從罹患漢坦病毒的郵輪上測出陽性",
-        "url": "https://www.bbc.com/news/articles/c2k2p057ezno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Sun, 17 May 2026 12:07:54 GMT",
-        "summary_zh": "一名來自加拿大的男子從罹患漢坦病毒的郵輪上測出陽性，該男子是四名曾在溫哥華島（Vancouver Island）隔離的前郵輪乘客之一。漢坦病毒是一種由老鼠傳播的病毒，主要影響人類的肺部和腎臟。該郵輪的乘客們在返回加拿大後出現了症狀，當局已經開始追蹤和隔離相關個案。目前尚不清楚該郵輪上是否有更多人感染了漢坦病毒。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d28f7abf",
-        "title": "世衛組織宣布剛果民主共和國埃博拉爆發為全球衛生緊急事件",
-        "url": "https://www.bbc.com/news/articles/c2l2p0wwzzdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 17 May 2026 21:14:27 GMT",
-        "summary_zh": "剛果民主共和國近日爆發埃博拉疫情，世衛組織宣布該疫情為全球衛生緊急事件。根據世衛組織的數據，該疫情已經導致 246 起病例和 80 名死亡。雖然世衛組織認為該疫情嚴重，但仍未達到流行病學緊急事件的標準。世衛組織強調，該疫情仍處於監控階段，需要繼續關注和應對。該疫情的爆發對當地的醫療系統和社會造成了重大影響，世衛組織呼籲各國提供援助和支持。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7508884c",
-        "title": "剛果民主共和國埃博拉爆發：該國宣布衛生緊急狀態",
-        "url": "https://www.bbc.com/news/articles/c9q311nj5r3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 17 May 2026 18:06:31 GMT",
-        "summary_zh": "剛果民主共和國近日爆發埃博拉疫情，該國衛生部已宣布該疫情已達到衛生緊急狀態。根據最新數據，該國已經有近 250 起疑似埃博拉病例被報導。這種疾病具有高度傳染性，對人類生命造成嚴重威脅。衛生部官員表示，政府正在采取一切必要措施來控制疫情的蔓延。這項宣布是為了提高警覺性並促進國際合作以應對這種危機。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "51f333f1",
-        "title": "俄羅斯稱莫斯科地區遭烏克蘭無人機攻擊致三人死亡",
-        "url": "https://www.bbc.com/news/articles/c5ye480kxpmo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 17 May 2026 14:18:23 GMT",
-        "summary_zh": "烏克蘭局部官員報導，俄羅斯在當地時間凌晨發動無人機攻擊和炮火轟炸，造成八人受傷。俄羅斯方面則宣布，莫斯科地區遭到烏克蘭無人機攻擊，造成三人死亡。這是近期烏俄戰爭中，雙方對彼此領土進行攻擊的最新事件。這種攻擊對烏克蘭和俄羅斯都造成了重大影響，可能會進一步升級戰爭局勢。烏克蘭和俄羅斯的戰爭已經持續了數月，雙方都在努力爭取優勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cbc21997",
-        "title": "阿拉伯聯合酋長國報告阿布扎比核電廠附近遭襲擊事件",
-        "url": "https://www.bbc.com/news/articles/cwy27pkj1l1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 17 May 2026 20:53:45 GMT",
-        "summary_zh": "阿拉伯聯合酋長國近日報告了一次襲擊事件，目標是阿布扎比的核電廠。該國正在調查襲擊的來源，稱這是一次「危險的升級」。阿布扎比核電廠是該國的重要能源基礎設施之一，該事件引起了國際社會的關注。阿拉伯聯合酋長國政府已經對此事件進行了初步評估，正在與國際合作伙伴合作，確保核電廠的安全。這次襲擊事件可能對該國的能源安全和國際關係產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a7cc115d",
-        "title": "意大利男子駕車衝向行人，傷八人",
-        "url": "https://www.bbc.com/news/articles/cyv28pd4n22o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 17 May 2026 13:57:56 GMT",
-        "summary_zh": "意大利發生了一起駕車衝向行人的事件，造成八人受傷，其中兩人受傷嚴重。事發地附近的行人趕來阻止男子，最終成功將其逮捕。事件的背景是意大利最近出現了多起駕車衝向行人的案件，引起了社會的關注。這起事件的關鍵細節是，男子駕車衝向行人後，附近的行人趕來阻止他，展現了民間的勇氣和關心。這起事件的影響分析是，意大利政府可能會對此事件進行調查和處理，並可能會對駕車安全和行人保護進行改革。後續展望是，意大利社會可能會繼續關注駕車安全和行人保護問題，並可能會出現更多的民間行動和政府政策的改變。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0ae8c7e7",
-        "title": "真主黨無人機空襲以色列影片顯示戰術演變",
-        "url": "https://www.bbc.com/news/articles/c1j2zwe9g5no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sat, 16 May 2026 23:10:19 GMT",
-        "summary_zh": "近日，BBC Verify 進行調查，檢視了數十個真主黨所執行的光纖無人機空襲以色列的影片。根據調查結果，真主黨的空襲戰術正在逐步演變。這些影片顯示，真主黨正在嘗試使用更先進的無人機技術和戰術，來對抗以色列的防空系統。這種戰術變化可能會對以色列的國防部署造成挑戰。真主黨的行動可能會對中東地區的安全局勢產生重大影響。這些影片也顯示，真主黨正在努力提高其空襲能力，來對抗以色列的空防系統。這種努力可能會使得以色列的防空系統面臨更大的挑戰。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "460ef22a",
-        "title": "美洲石油時代即將崩潰，未來將是多麼的殘酷 | Jonathan Watts",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/may/17/america-china-energy-oil-renewables",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 17 May 2026 13:00:41 GMT",
-        "summary_zh": "中國正在領導能源轉型，取得了令人驚嘆的成績，而在美國，石油極端主義者卻試圖倒轉時鐘。美國總統唐納德·川普在北京與習近平會面後，走在紅毯上回到空軍一號時，中國孩子們揮舞著國旗，高呼「再見」。川普聲稱他離開後帶回了一批「極好的」貿易協議，將美國石油、戰機和豆類出售給中國。然而，這些協議是否得到中國主持人的確認仍待確認。然而，從兩天的會面中可以看出，全球權力平衡正在從西方的石油國家轉向東方的電氣國家。中國正在領導能源轉型，取得了令人驚嘆的成績，而美國卻試圖倒轉時鐘。美國石油產業的衰落已經開始，中國的電力產業正迅速崛起。美國的石油極端主義者試圖阻止能源轉型，但中國的領導力正在推動世界向更清潔、更可持續的能源未來邁進。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5c82b6e4",
-        "title": "5月17日 美伊戰爭對國際經濟、財經市場與民生衝擊",
-        "url": "https://www.cna.com.tw/news/aopl/202605170132.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Sun, 17 May 2026 15:57:39 +0800",
-        "summary_zh": "中東戰事持續打亂貨物運輸，導致全球能源成本大幅上升。印度在4月的貿易逆差也因而擴大。油價的飆漲影響美國總統川普的支持率下滑。然而，部分科羅拉多州的民眾仍然支持川普，寧願忍受短期的高油價，也不願意讓伊朗擁有核武。這種情況下，民眾的意見分歧與政治情勢的變化緊密相關。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3e1c47dd",
-        "title": "‘像幻影一樣’：川普奪取馬杜羅後，委內瑞拉幾乎沒有改變",
-        "url": "https://www.theguardian.com/world/ng-interactive/2026/may/17/feels-like-an-illusion-how-trump-seizing-maduro-has-changed-little-in-venezuela",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 17 May 2026 05:00:29 GMT",
-        "summary_zh": "委內瑞拉的變化似乎不大，許多人仍然對胡戈·查維茲的運動保持著熱情。當安赫爾·利納雷斯聽到一陣奇怪的嗡嗡聲後，隨即爆炸，他第一個想法是鄰居在慶祝新年時放了鞭炮。然而，他的窗戶碎裂，建築物的牆壁搖晃，建築物的外牆被撕裂，讓他從窗口飛下，摔在地上。他的85歲的母親，赫蘇西塔，擔心委內瑞拉北部海岸被地震摧毀，像她在1967年記得的那樣。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f381201b",
-        "title": "中歐官員爆發口角衝突！貿易問題激烈爭論火花四射",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5440367",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Mon, 18 May 2026 06:37:07 +0800",
-        "summary_zh": "近日，歐洲和中國的外交官、官員和專家在北京的一間會議室裡，針對貿易問題發生激烈爭論。這場歐盟主辦的會議充滿火藥味，恐爆發貿易戰。雙方在會議中互相轟炸對話，全曝光。這次會議的出現，顯示中歐關係緊張，貿易問題成為兩國關係的重要焦點。中國和歐盟的貿易關係已經存在許多爭議，包括貿易平衡、關稅和投資限制等。這次會議的發生，可能會加劇這些爭議，導致貿易戰的爆發。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c9384a0a",
-        "title": "全球石油庫存暴跌！夏季油價大幅上漲預警，第三季經濟恐陷嚴重衰退",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5440354",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Sun, 17 May 2026 21:29:26 +0800",
-        "summary_zh": "全球石油庫存因伊朗戰爭導致的中東地區嚴重供應中斷而急劇下降，創下歷史新低。國際能源總署預測，如果荷姆茲海峽無法重新開放，全球石油庫存將逼近臨界水準，夏季油價大幅上漲的風險也因此增高。這將對全球經濟產生重大影響，特別是在第三季，全球經濟恐陷入嚴重衰退。石油供應的中斷將導致油價上漲，進而影響全球經濟的復甦，特別是在第三季，全球經濟的衰退將更加嚴重。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "18be7c9c",
-        "title": "美國列出伊朗協議五項條件 德黑蘭挨了一記悶棍",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5440300",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Sun, 17 May 2026 20:57:51 +0800",
-        "summary_zh": "美國與伊朗核協議的談判近日再度加溫。根據伊朗半官方法爾斯通訊社（Fars news agency）週日（17日）報導，美國提出了與德黑蘭達成協議的五個關鍵條件。其中包括只允許一座核設施運作、伊朗核物質的減少、國際原子能機構（IAEA）對伊朗核設施的監控、伊朗對伊斯蘭堡地區的恐怖主義組織的打擊，以及德黑蘭與美國對伊斯蘭堡地區恐怖主義組織的合作。這五項條件被視為美國政府對伊朗協議的基本要求。伊朗政府對美國提出的條件尚未做出正式回應。這項協議的達成將對全球能源市場和地區安全產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
+        "is_breaking": false
       }
     ]
   },
