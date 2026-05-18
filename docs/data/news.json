@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-19T04:24:47.579918+08:00",
+  "generated_at": "2026-05-19T05:19:09.777685+08:00",
   "risk_signals": [
     "🟢 台股加權 41172.36（正常）",
     "🟢 S&P 500 7403.05（正常）",
-    "🟢 VIX 恐慌指數 17.84（正常）",
-    "🟢 MOVE 債市波動 79.87（正常）",
-    "🟢 美元指數 98.97（正常）",
-    "🟢 黃金 4567.4（正常）",
+    "🟢 VIX 恐慌指數 17.82（正常）",
+    "🟢 MOVE 債市波動 86.07（正常）",
+    "🟢 美元指數 99.0（正常）",
+    "🟢 黃金 4570.8（正常）",
     "🟡 美債10Y殖利率 4.62（留意）",
-    "🟢 原油 WTI 101.47（正常）",
+    "🟢 原油 WTI 102.49（正常）",
     "🟢 美元/台幣 31.53（正常）"
   ],
-  "ai_summary": "市場呈穩定氛圍，多個指標維持正常水平，但美債10年殖利率的微升值需要關注，可能預示著未來市場的風險偏好可能會有所轉變。",
+  "ai_summary": "市場氛圍保持穩定，但美債10年殖利率略微上升，需要留意。",
   "market": {
     "TWII": {
       "price": 41172.36,
@@ -26,72 +26,158 @@
       "change_pct": -0.51
     },
     "VIX": {
-      "price": 17.84,
-      "change_pct": -3.2
+      "price": 17.82,
+      "change_pct": -3.31
     },
     "TNX": {
       "price": 4.62,
       "change_pct": 0.61
     },
     "MOVE": {
-      "price": 79.87,
-      "change_pct": 0.0
+      "price": 86.07,
+      "change_pct": 7.77
     },
     "DXY": {
-      "price": 98.97,
-      "change_pct": -0.3
+      "price": 99.0,
+      "change_pct": -0.27
     },
     "GOLD": {
-      "price": 4567.4,
-      "change_pct": 0.25
+      "price": 4570.8,
+      "change_pct": 0.33
     },
     "OIL": {
-      "price": 101.47,
-      "change_pct": -3.75
+      "price": 102.49,
+      "change_pct": -2.78
     },
     "USDTWD": {
       "price": 31.53,
-      "change_pct": -0.17
+      "change_pct": -0.19
     }
   },
   "macro": {},
   "categories": {
-    "global": [
+    "whitehouse": [
       {
-        "id": "cf51d221",
-        "title": "至少六名美國人暴露於剛果民主共和國埃博拉爆發",
-        "url": "https://www.bbc.com/news/articles/cq6pz60p996o?at_medium=RSS&at_campaign=rss",
+        "id": "5446aa30",
+        "title": "川普稱因海灣國家要求暫緩對伊朗的新攻擊",
+        "url": "https://www.bbc.com/news/articles/c7079e55zjro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 20:25:42 GMT",
+        "summary_zh": "美國總統川普宣布暫緩美國對伊朗的新攻擊行動，原因是「正進行嚴肅的談判」。這項決定出於海灣國家的要求，川普表示這些國家的要求對美國的決策產生了重大影響。美國原先計畫在週二對伊朗進行攻擊，但隨著談判的進行，川普決定暫緩這項行動。這項決定可能會對伊朗和美國之間的關係產生重大影響，同時也會對全球政治局勢產生影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "05dcf053",
+        "title": "紐約繁忙時段出現大混亂，地鐵系統全面停駛",
+        "url": "https://www.bbc.com/news/articles/cdjp839lxzvo?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 18 May 2026 19:31:18 GMT",
-        "summary_zh": "剛果民主共和國埃博拉爆發引起全球關注，至少六名美國人被曝露於該疫情。根據媒體報導，至少有一名美國人已經出現病症。這次疫情的爆發令全球各國政府和衛生組織提高警覺，採取措施防止疫情擴散。美國政府已經對該地區實施旅行禁令，試圖防止病毒傳播。這次疫情的影響不僅限於剛果民主共和國，全球各國都在密切關注疫情的發展。",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 15:06:10 GMT",
+        "summary_zh": "紐約市近百萬市民遭遇了難以忍受的通勤之苦。地鐵工人繼續進行罷工，要求更好的薪水和工作規則。這次罷工導致紐約市的繁忙時段出現大混亂，市民被迫改乘巴士或其他交通工具。這種情況對紐約市的交通和經濟造成了重大影響。市民們紛紛批評政府應該儘快解決這個問題，確保市民的生活不受影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "d1802567",
-        "title": "美籍醫生在剛果民主共和國感染埃博拉，CDC確認",
-        "url": "https://www.bbc.com/news/articles/cjwpy2qww5do?at_medium=RSS&at_campaign=rss",
+        "id": "902b7180",
+        "title": "法官判決：路易吉·曼戈尼的槍枝和筆記可在紐約謀殺案審判中呈堂",
+        "url": "https://www.bbc.com/news/articles/cx21g6qz45xo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 18 May 2026 19:53:33 GMT",
-        "summary_zh": "剛果民主共和國出現埃博拉爆發，美籍醫生在當地醫院工作時被感染。根據美國疾病控制與預防中心（CDC）的消息，美籍醫生在接觸病人後被檢測出埃博拉病毒陽性。這名醫生目前正在接受治療。埃博拉爆發在剛果民主共和國已經持續數月，該國政府和國際組織正在努力控制疫情。這次事件再次提醒了全球對埃博拉爆發的關注和警惕。",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 16:00:17 GMT",
+        "summary_zh": "路易吉·曼戈尼謀殺案正在紐約進行審判。法官判決，曼戈尼在賓夕法尼亞的一家麥當勞被查獲的槍枝和筆記可在審判中呈堂。然而，法官也判決，其他與曼戈尼在該處被查獲的物品不允許在審判中呈堂。這項判決可能對曼戈尼的審判產生重大影響。曼戈尼謀殺案的背景是，曼戈尼被指控謀殺某人。這項判決可能會讓檢方有更多的證據來支持指控。曼戈尼的律師可能會爭辯這些證據不夠可靠或不相關。最終，法官的判決將決定曼戈尼的審判結果。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "350596c2",
+        "title": "特朗普政府公佈 17 億美元基金，為其盟友提供賠償，同時放棄稅務訴訟",
+        "url": "https://www.bbc.com/news/articles/cvgzr7vr203o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 19:53:31 GMT",
+        "summary_zh": "特朗普政府宣佈了一項 17 億美元的基金，旨在為那些主張自己遭受不公平調查的個人提供賠償。這項基金的建立是為了結束特朗普對聯邦稅務局的訴訟。這項訴訟是由特朗普及其盟友發起的，指控聯邦稅務局對其進行不公平的調查。這項基金的建立被視為是一項政治交易，將為特朗普及其盟友帶來財務上的好處。這項交易的影響可能會延伸到美國政治的未來發展。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "7c206a7d",
-        "title": "以色列對黎巴嫩空襲死亡人數超過3,000名，官員表示",
-        "url": "https://www.bbc.com/news/articles/cqjpglyjwjeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 18 May 2026 16:16:38 GMT",
-        "summary_zh": "黎巴嫩和以色列之間的衝突自3月份開始，儘管有暫時停火協議，但雙方的對峙仍持續不斷。根據官員的說法，以色列對黎巴嫩的空襲導致死亡人數超過3,000名，這標誌著這場衝突的悲慘里程碑。這種局勢的持續不斷，對於黎巴嫩和以色列的民眾都造成了沉重的影響。黎巴嫩的武裝組織真主黨和以色列之間的對峙，已經持續了數個月，雙方都有大量的傷亡。這種局勢的持續不斷，對於地區的和平與穩定造成了嚴重的威脅。",
+        "id": "6a428e53",
+        "title": "戰鬥機飛行員在美國空中表演中坠毁後安全跳傘",
+        "url": "https://www.bbc.com/news/articles/c62x01n0dl5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 00:19:05 GMT",
+        "summary_zh": "美國一場空中表演中，兩架戰鬥機在空中碰撞坠毁。幸運地，飛行員們在坠毁前成功跳傘逃生，目前處於穩定的狀態。這次空中表演事故發生在美國，相關細節正在調查中。飛行員們的安全是首要考量，政府機構正在對此事件進行調查和評估。這次事故的影響尚未完全明朗，但飛行員們的安全是最重要的。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "46441bfa",
+        "title": "川普將撤回對美國稅務局的10億美元訴訟，與談判中達成協議，為盟友提供1.7億美元補償",
+        "url": "https://www.theguardian.com/us-news/live/2026/may/18/donald-trump-redistricting-south-carolina-iran-healthcare-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 20:37:47 GMT",
+        "summary_zh": "川普決定撤回對美國稅務局的10億美元訴訟，這一決定出現於美國政治新聞中。根據報導，川普可能會在與稅務局達成協議後撤回訴訟，協議將提供1.7億美元用於補償他聲稱遭到錯誤針對的個人。這一決定出現在訴訟案件的20日截止日期前兩天，法官要求雙方提交書面文件，確認訴訟案件是否存在合理爭議。川普控制美國稅務局，因此這一要求非常重要。川普的律師在一份簡短的申請中表示，於訴訟案件撤回後，法官不需要進行任何司法分析。這一決定可能意味著川普正在與稅務局進行談判，以達成協議並補償他所聲稱的受害者。然而，具體的協議內容尚未公布。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "009511ee",
+        "title": "川普否認10億美元訴訟並創建1.7億美元反對政府滲透基金",
+        "url": "https://www.theguardian.com/us-news/2026/may/18/trump-dismiss-10-billion-dollar-irs-lawsuit",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 20:15:57 GMT",
+        "summary_zh": "川普政府於週一否認10億美元訴訟對於美國稅務局（IRS），並創建1.776億美元「反對政府滲透」基金，以補償受政府迫害的盟友。這項基金將由五名委員會負責管理，四名委員由美國律政部長任命，另外一名委員將與國會領袖協商任命。基金還有權發出正式道歉，並將每季向美國律政部長提交報告，列出從基金中支付的對象。民主黨人批評這項交易是一個「懷孕基金」，將稅款分配給川普的政治盟友。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "9e0505db",
+        "title": "特朗普第二任期最低評分：37% 美國民眾對他與伊朗戰爭的決定不滿",
+        "url": "https://www.theguardian.com/us-news/2026/may/18/donald-trump-second-term-approval-rating-drops",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 14:44:27 GMT",
+        "summary_zh": "美國總統特朗普的評分跌至第二任期最低點，民眾對於生活成本和美國對伊朗戰爭的不滿日漸增加。根據最近公佈的民調數據，美國選民在即將到來的中期選舉前，多數人認為特朗普對伊朗宣戰的決定是錯誤的。這一數字出現於本週一公佈的民調結果中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "global": [
+      {
+        "id": "d1802567",
+        "title": "美籍醫生在剛果民主共和國感染埃博拉，CDC確認",
+        "url": "https://www.bbc.com/news/articles/cjwpy2qww5do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 18 May 2026 19:53:33 GMT",
+        "summary_zh": "剛果民主共和國出現埃博拉爆發，美籍醫生在當地醫院工作時被感染。根據美國疾病控制與預防中心（CDC）的消息，美籍醫生在接觸病人後被檢測出埃博拉病毒陽性。這名醫生目前正在接受治療。埃博拉爆發在剛果民主共和國已經持續數月，該國政府和國際組織正在努力控制疫情。這次事件再次提醒了全球對埃博拉爆發的關注和警惕。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "dc409c14",
+        "title": "馬斯克在法庭上輸掉了對OpenAI的訴訟案件，陪審團認為他等待太久才起訴",
+        "url": "https://www.bbc.com/news/articles/cewpyv79pw1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 18 May 2026 20:59:57 GMT",
+        "summary_zh": "馬斯克與OpenAI的訴訟案件在法庭上進行了數周，最終陪審團認為馬斯克等待太久才起訴。這起訴訟案件與馬斯克指控Altman偷竊慈善捐款有關。馬斯克曾經在2023年8月宣布購買OpenAI，但後來因為財務問題而放棄。馬斯克認為Altman在這段時間內違反了與他簽署的協議。然而，陪審團認為馬斯克等待太久才起訴，導致訴訟案件被駁回。這一裁決對馬斯克的聲譽和財務狀況都有重大影響。馬斯克的律師已經表示將會上訴。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "ba8b923f",
@@ -106,46 +192,22 @@
         "ai_classified": true
       },
       {
-        "id": "07b0d4df",
-        "title": "肯雅燃油價格上漲引發罷工，交通癱瘓",
-        "url": "https://www.bbc.com/news/articles/cm2p0n44drvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "26ed166b",
+        "title": "古巴指控美國蓄意製造「虛假案件」為入侵理由",
+        "url": "https://www.bbc.com/news/articles/ckgpyg9peq9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Mon, 18 May 2026 16:49:45 GMT",
-        "summary_zh": "肯雅燃油價格上漲引發罷工，該國的交通運輸系統陷入癱瘓。多條主要道路幾乎空無一人，部分學校要求學生停課。這次罷工是由於肯雅政府未能降低燃油價格，罷工者要求政府採取措施應對高油價。肯雅政府面臨著嚴重的財政困難，燃油價格上漲是該國經濟的一個重大挑戰。這次罷工的影響將對肯雅的經濟和社會產生重大影響。",
+        "published_at": "Mon, 18 May 2026 20:41:34 GMT",
+        "summary_zh": "古巴外交部長表示，古巴購買攻擊無人機的報告是美國「侵略」理由的一部分。這項指控出自古巴政府對美國軍事行動的回應。古巴政府認為，美國正在試圖為入侵古巴做出正當理由。美國政府否認了這項指控。古巴外交部長強調，古巴有權購買任何軍事設備，包括攻擊無人機。這項爭議可能會對古巴和美國之間的關係產生影響。古巴政府已經與俄羅斯和中國建立了密切的關係，這些國家也對美國的軍事行動表示了關注。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "10518681",
-        "title": "兩名男子被捕涉嫌在聞名的猴子圍欄上表演壯舉",
-        "url": "https://www.bbc.com/news/articles/cr5pz4jvlp5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 18 May 2026 14:51:53 GMT",
-        "summary_zh": "美國兩名男子因涉嫌在聞名的猴子圍欄上表演壯舉被捕。根據警方的說法，這兩名男子涉嫌跳過圍欄進入該猴子的圍欄。這名猴子曾在網路上走紅。警方沒有透露更多細節。這起事件的背景是該猴子在網路上走紅後，引起了許多網友的關注。關鍵細節是兩名男子涉嫌跳過圍欄進入該猴子的圍欄。影響分析是這起事件可能會對該猴子的安全造成影響。後續展望是警方會進一步調查這起事件。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "41f9bd00",
-        "title": "夏奇拉勝訴 英國媒體稱她從西班牙政府拿到5000萬英鎊的稅款退稅",
-        "url": "https://www.bbc.com/news/articles/cd9pzd14vj5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 18 May 2026 15:08:40 GMT",
-        "summary_zh": "夏奇拉在西班牙法院獲得勝訴，獲得5000萬英鎊的稅款退稅。根據媒體報導，夏奇拉表示，這個法庭判決意味著之前她有罪的「故事」現在「崩潰了」。夏奇拉曾因為涉嫌逃稅而面臨法律行動，現在她獲得了勝訴，證明了她的清白。這個判決對於夏奇拉來說是一個重大勝利，同時也證明了她對於自己的法律權益的堅持。夏奇拉的勝訴案件將會對於未來的稅務爭議案件產生重要影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
         "id": "9daddfed",
         "title": "意大利潛水員遺體在馬爾地夫找到",
         "url": "https://www.bbc.com/news/articles/c332mngz25vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "source": "BBC World",
         "category": "global",
         "published_at": "Mon, 18 May 2026 16:51:09 GMT",
         "summary_zh": "馬爾地夫當局宣布，意大利五名潛水員去年最後一週在該國遇難的遺體已經全部找到。這五名意大利潛水員是在去年最後一週在馬爾地夫進行潛水活動時失蹤的。馬爾地夫當局表示，已經找到這五名潛水員的遺體，事件的原因仍在調查中。意大利政府已經派出專家團隊到馬爾地夫協助調查。這起事件引起了意大利和馬爾地夫政府的關注。馬爾地夫當局已經承諾會透露更多資訊。",
@@ -154,37 +216,13 @@
         "ai_classified": true
       },
       {
-        "id": "26ed166b",
-        "title": "古巴指控美國蓄意製造「虛假案件」為入侵理由",
-        "url": "https://www.bbc.com/news/articles/ckgpyg9peq9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 18 May 2026 10:55:04 GMT",
-        "summary_zh": "古巴外交部長表示，古巴購買攻擊無人機的報告是美國「侵略」理由的一部分。這項指控出自古巴政府對美國軍事行動的回應。古巴政府認為，美國正在試圖為入侵古巴做出正當理由。美國政府否認了這項指控。古巴外交部長強調，古巴有權購買任何軍事設備，包括攻擊無人機。這項爭議可能會對古巴和美國之間的關係產生影響。古巴政府已經與俄羅斯和中國建立了密切的關係，這些國家也對美國的軍事行動表示了關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f4194a9f",
-        "title": "以色列軍隊登上前往加沙的船隊近希臘海域",
-        "url": "https://www.bbc.com/news/articles/c142vz80553o?at_medium=RSS&at_campaign=rss",
+        "id": "10518681",
+        "title": "兩名男子被捕涉嫌在聞名的猴子圍欄上表演壯舉",
+        "url": "https://www.bbc.com/news/articles/cr5pz4jvlp5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Mon, 18 May 2026 15:30:30 GMT",
-        "summary_zh": "近日，以色列軍隊已經登上一批試圖突破加沙海上封鎖的船隻。根據活躍分子的直播報導，Global Sumud船隊的船隻正在希臘海域被以色列軍方的突擊隊員登上。這批船隻試圖挑戰以色列對加沙的海上封鎖，該封鎖已經存在多年。事件的背景是以色列和巴勒斯坦之間的長期衝突。這次行動的影響將會對兩國關係產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dece57dc",
-        "title": "川普警告伊朗時間緊迫，和平進展陷入僵局",
-        "url": "https://www.bbc.com/news/articles/cd0p4y9y48xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 18 May 2026 09:58:35 GMT",
-        "summary_zh": "伊朗媒體報導，美國對伊朗最新提出的方案未有實質讓步。伊朗和美國近期曾展開和平談判，但目前進展陷入僵局。伊朗方面認為美國未能做出實質的讓步，伊朗的和平提議遭到美國的冷遇。伊朗和美國的關係一直處於緊張狀態，伊朗的核計畫和恐怖主義行為一直是美國的關注點。伊朗的和平提議包括放寬對伊朗的制裁和恢復伊朗與國際社會的合作關係。美國政府對伊朗的回應表明，美國仍然堅持對伊朗的制裁和壓力政策。伊朗的和平提議遭到美國的冷遇，伊朗的和平進展陷入僵局。",
+        "published_at": "Mon, 18 May 2026 14:51:53 GMT",
+        "summary_zh": "美國兩名男子因涉嫌在聞名的猴子圍欄上表演壯舉被捕。根據警方的說法，這兩名男子涉嫌跳過圍欄進入該猴子的圍欄。這名猴子曾在網路上走紅。警方沒有透露更多細節。這起事件的背景是該猴子在網路上走紅後，引起了許多網友的關注。關鍵細節是兩名男子涉嫌跳過圍欄進入該猴子的圍欄。影響分析是這起事件可能會對該猴子的安全造成影響。後續展望是警方會進一步調查這起事件。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -193,22 +231,10 @@
         "id": "2b52f644",
         "title": "貨車與巴士相撞致八死數十傷　泰國警方發現司機服用毒品",
         "url": "https://www.bbc.com/news/articles/c3v2ngnpgl9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "source": "BBC World",
         "category": "global",
         "published_at": "Mon, 18 May 2026 07:03:56 GMT",
         "summary_zh": "泰國一列貨車與巴士在曼谷相撞，造成八人死亡、數十人受傷。泰國警方調查後發現，貨車司機在事故發生前曾服用毒品。這起事故引起了泰國社會的廣泛關注，許多人對於司機的行為感到震驚和憤怒。泰國政府也已經開始調查此事，並將對司機進行嚴厲的處罰。這起事故也提醒了泰國社會對於交通安全的重要性，需要提高警覺性和嚴格執法。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "77345dd4",
-        "title": "這可能是你再也聽不到我的聲音：伊朗政治處決激增",
-        "url": "https://www.bbc.com/news/articles/cn8p392nl7yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 17 May 2026 23:02:56 GMT",
-        "summary_zh": "伊朗自美國和以色列於2月28日攻擊伊朗後，聯合國確認至少有32名政治犯遭到處決。伊朗政府自從伊拉克入侵伊朗以來，對政治犯的處決已經大幅增加。這些處決的背景是伊朗對抗美國和以色列的軍事行動。聯合國人權事務高級專員辦公室表示，這些處決是對伊朗人權的嚴重侵犯。伊朗政府的行動引起了國際社會的關注和譴責。這些處決的影響是對伊朗人權的損害和對伊朗政府的國際形象的損害。未來，伊朗政府的處決政策可能會繼續受到國際社會的關注和壓力。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -247,6 +273,90 @@
         "summary_zh": "美國海軍兩架戰鬥機在空軍表演中碰撞，四名機組人員安全跳傘逃生，目前處於穩定狀態。這起意外發生在美國空軍表演中，幸好沒有造成人員傷亡。這次碰撞的原因尚未明朗，但美國海軍已經展開調查。這起事件引起了關注，美國海軍正在努力確保空中表演的安全。",
         "sentiment": "中性",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cf51d221",
+        "title": "至少六名美國人暴露於剛果民主共和國埃博拉爆發",
+        "url": "https://www.bbc.com/news/articles/cq6pz60p996o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 18 May 2026 19:31:18 GMT",
+        "summary_zh": "剛果民主共和國埃博拉爆發引起全球關注，至少六名美國人被曝露於該疫情。根據媒體報導，至少有一名美國人已經出現病症。這次疫情的爆發令全球各國政府和衛生組織提高警覺，採取措施防止疫情擴散。美國政府已經對該地區實施旅行禁令，試圖防止病毒傳播。這次疫情的影響不僅限於剛果民主共和國，全球各國都在密切關注疫情的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7c206a7d",
+        "title": "以色列對黎巴嫩空襲死亡人數超過3,000名，官員表示",
+        "url": "https://www.bbc.com/news/articles/cqjpglyjwjeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 18 May 2026 16:16:38 GMT",
+        "summary_zh": "黎巴嫩和以色列之間的衝突自3月份開始，儘管有暫時停火協議，但雙方的對峙仍持續不斷。根據官員的說法，以色列對黎巴嫩的空襲導致死亡人數超過3,000名，這標誌著這場衝突的悲慘里程碑。這種局勢的持續不斷，對於黎巴嫩和以色列的民眾都造成了沉重的影響。黎巴嫩的武裝組織真主黨和以色列之間的對峙，已經持續了數個月，雙方都有大量的傷亡。這種局勢的持續不斷，對於地區的和平與穩定造成了嚴重的威脅。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "07b0d4df",
+        "title": "肯雅燃油價格上漲引發罷工，交通癱瘓",
+        "url": "https://www.bbc.com/news/articles/cm2p0n44drvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 18 May 2026 16:49:45 GMT",
+        "summary_zh": "肯雅燃油價格上漲引發罷工，該國的交通運輸系統陷入癱瘓。多條主要道路幾乎空無一人，部分學校要求學生停課。這次罷工是由於肯雅政府未能降低燃油價格，罷工者要求政府採取措施應對高油價。肯雅政府面臨著嚴重的財政困難，燃油價格上漲是該國經濟的一個重大挑戰。這次罷工的影響將對肯雅的經濟和社會產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "41f9bd00",
+        "title": "夏奇拉勝訴 英國媒體稱她從西班牙政府拿到5000萬英鎊的稅款退稅",
+        "url": "https://www.bbc.com/news/articles/cd9pzd14vj5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 18 May 2026 15:08:40 GMT",
+        "summary_zh": "夏奇拉在西班牙法院獲得勝訴，獲得5000萬英鎊的稅款退稅。根據媒體報導，夏奇拉表示，這個法庭判決意味著之前她有罪的「故事」現在「崩潰了」。夏奇拉曾因為涉嫌逃稅而面臨法律行動，現在她獲得了勝訴，證明了她的清白。這個判決對於夏奇拉來說是一個重大勝利，同時也證明了她對於自己的法律權益的堅持。夏奇拉的勝訴案件將會對於未來的稅務爭議案件產生重要影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f4194a9f",
+        "title": "以色列軍隊登上前往加沙的船隊近希臘海域",
+        "url": "https://www.bbc.com/news/articles/c142vz80553o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 18 May 2026 15:30:30 GMT",
+        "summary_zh": "近日，以色列軍隊已經登上一批試圖突破加沙海上封鎖的船隻。根據活躍分子的直播報導，Global Sumud船隊的船隻正在希臘海域被以色列軍方的突擊隊員登上。這批船隻試圖挑戰以色列對加沙的海上封鎖，該封鎖已經存在多年。事件的背景是以色列和巴勒斯坦之間的長期衝突。這次行動的影響將會對兩國關係產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "dece57dc",
+        "title": "川普警告伊朗時間緊迫，和平進展陷入僵局",
+        "url": "https://www.bbc.com/news/articles/cd0p4y9y48xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 18 May 2026 09:58:35 GMT",
+        "summary_zh": "伊朗媒體報導，美國對伊朗最新提出的方案未有實質讓步。伊朗和美國近期曾展開和平談判，但目前進展陷入僵局。伊朗方面認為美國未能做出實質的讓步，伊朗的和平提議遭到美國的冷遇。伊朗和美國的關係一直處於緊張狀態，伊朗的核計畫和恐怖主義行為一直是美國的關注點。伊朗的和平提議包括放寬對伊朗的制裁和恢復伊朗與國際社會的合作關係。美國政府對伊朗的回應表明，美國仍然堅持對伊朗的制裁和壓力政策。伊朗的和平提議遭到美國的冷遇，伊朗的和平進展陷入僵局。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "77345dd4",
+        "title": "這可能是你再也聽不到我的聲音：伊朗政治處決激增",
+        "url": "https://www.bbc.com/news/articles/cn8p392nl7yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 17 May 2026 23:02:56 GMT",
+        "summary_zh": "伊朗自美國和以色列於2月28日攻擊伊朗後，聯合國確認至少有32名政治犯遭到處決。伊朗政府自從伊拉克入侵伊朗以來，對政治犯的處決已經大幅增加。這些處決的背景是伊朗對抗美國和以色列的軍事行動。聯合國人權事務高級專員辦公室表示，這些處決是對伊朗人權的嚴重侵犯。伊朗政府的行動引起了國際社會的關注和譴責。這些處決的影響是對伊朗人權的損害和對伊朗政府的國際形象的損害。未來，伊朗政府的處決政策可能會繼續受到國際社會的關注和壓力。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -315,7 +425,7 @@
         "id": "a50e7ab7",
         "title": "前Google CEO Eric Schmidt 因提及人工智慧遭學生喝倒采",
         "url": "https://www.bbc.com/news/articles/ce8pqd54qneo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "source": "BBC World",
         "category": "ai",
         "published_at": "Mon, 18 May 2026 15:16:00 GMT",
         "summary_zh": "近日，一場大學畢業典禮上，前Google CEO Eric Schmidt 在演講中提及人工智慧（AI）時遭到學生喝倒采。這一事件表明學生對AI對工作和未來職業生涯的影響感到日益擔憂。這種擔憂是由於人工智慧的快速發展和廣泛應用，正在改變許多傳統職業，甚至威脅到一些人的工作崗位。學生們對此感到擔憂的原因之一是，人工智慧的進步可能會取代一些人類的工作，從而導致就業市場的不穩定。另一方面，人工智慧也帶來了許多新的就業機會和創造力，這使得學生們對未來感到充滿希望。然而，學生們對AI的擔憂也表明了對未來的不確定性和無法預測的變化。這種不確定性使得學生們感到焦慮和擔憂。",
@@ -362,6 +472,78 @@
     ],
     "stock_tw": [
       {
+        "id": "3d0ac6b5",
+        "title": "美國考慮暫時豁免伊朗石油制裁 歐洲股市收高",
+        "url": "https://www.cna.com.tw/news/afe/202605190002.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 19 May 2026 01:12:44 +0800",
+        "summary_zh": "近日有傳聞指出，美國政府考慮暫時豁免對伊朗石油的制裁，這一消息使投資人對於中東緊張情勢緩和的期望心理受到提振。這一消息對於投資人來說是一個積極的信號，認為美國政府可能會採取措施來緩解中東地區的緊張情勢。這一消息使得投資人對於石油市場的預期變得更加樂觀，進而影響到股市的走勢。今日，歐洲股市主要指數收盤走揚，表明投資人對於經濟前景的信心增強。這一消息也使得投資人對於未來的經濟發展感到更加樂觀。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "beed288f",
+        "title": "華爾街日報揭蘋果獲利技巧 善用分級晶片推低價品搶市",
+        "url": "https://www.cna.com.tw/news/aopl/202605180316.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 18 May 2026 23:54:37 +0800",
+        "summary_zh": "美國蘋果公司在電子裝置製造商面臨成本升高的時候，卻能夠推出低價新品搶市。根據華爾街日報的報導，蘋果公司的這一獲利技巧是靠著行之多年的瑕疵晶片再利用。這一做法使得蘋果公司能夠降低成本，推出更便宜的產品，從而搶占市場份額。這一策略在市場上引起了廣泛的關注，許多人認為這是蘋果公司在面臨成本壓力時的一個聰明做法。然而，也有許多人對此表示擔憂，擔心這一做法可能會影響到產品的質量和安全性。總的來說，這一事件顯示出蘋果公司在面臨市場挑戰時的韌性和創造力。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "77f5be28",
+        "title": "今彩539第115121期頭獎2注中獎",
+        "url": "https://www.cna.com.tw/news/ahel/202605180307.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 18 May 2026 22:07:13 +0800",
+        "summary_zh": "今彩539第115121期開獎，中獎號碼為20、15、32、33、08。頭獎共有2注中獎，每注獎金高達新台幣800萬元。這意味著2位幸運者將獲得豐厚的獎金。根據統計，今彩539的頭獎獎金通常很高，因此這次的中獎率相當低。這也表明今彩539的獎金設計是有效的，吸引了更多的人參與遊戲。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "fb737eea",
+        "title": "檳城半導體聚落外溢效應 台灣扮演關鍵串聯角色",
+        "url": "https://www.cna.com.tw/news/afe/202605180303.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 18 May 2026 22:00:05 +0800",
+        "summary_zh": "近年來，全球半導體供應鏈受地緣政治影響加速重組，馬來西亞檳城成為台商布局東南亞的重要據點。除了晶片與電子製造業加速聚集外，金屬材料、精密加工等周邊產業也同步擴張，形成分工緊密的產業聚落。這種外溢效應對台灣產業發展有著重要的影響，台灣企業扮演關鍵的串聯角色，協助將東南亞的產業鏈與全球市場連接起來。這種合作關係不僅促進了雙方的經濟發展，也增強了地區的競爭力。然而，這種外溢效應也引發了對產業鏈安全性的擔憂，台灣企業需要繼續投資於產業鏈的安全性和穩定性，以確保其在全球市場中的競爭力。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ed7f8260",
+        "title": "中華電信推出行動工商憑證系統 突破傳統IC卡限制",
+        "url": "https://www.cna.com.tw/news/afe/202605180291.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 18 May 2026 21:00:34 +0800",
+        "summary_zh": "中華電信近日宣布完成行動工商憑證系統的建置，並上線提供服務。這項系統允許企業透過行動裝置隨時隨地完成各項商務驗證作業，從而突破傳統IC卡場域限制。這項新系統將大大提高企業的便捷性和效率，讓企業可以更輕鬆地進行商務活動。這項系統的推出也標誌著中華電信在行動工商憑證領域的進一步發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7e92205d",
+        "title": "印度自金磚國家進口飆升 貿易逆差持續擴大",
+        "url": "https://www.cna.com.tw/news/aopl/202605180289.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 18 May 2026 20:55:29 +0800",
+        "summary_zh": "印度近5年與金磚國家的貿易額快速成長，其中進口額增加近1倍，導致貿易逆差快速擴大。這表明印度對自金磚國家進口商品的依賴程度正大幅增加。印度政府需要關注這一趨勢，考慮如何平衡貿易逆差和維持經濟穩定。印度的經濟發展與全球貿易格局密切相關，需要適應變化的全球市場環境。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "5d8da7b3",
         "title": "女性健身風氣持續升溫！可爾姿女神賽近9千人完賽 65歲一樣能「增肌減脂」",
         "url": "https://money.udn.com/money/story/5637/9500610",
@@ -406,8 +588,8 @@
         "published_at": "Sun, 14 Jun 2026 19:22:44 +0800",
         "summary_zh": "李先生今年夏天推出「Summer Escape With Lee」台北限定快閃活動，將經典輪廓注入當代視角，展現品牌多變的風格語彙。與現代茶意空間MUSHIN NOSHIN無心之心合作推出兩款限定飲品：藍柑橘拿鐵與蝶豆花檸檬香草氣泡。購買聯名飲品可獲贈限定聯名貼紙包。活動將於即日起至5月31日舉行，李先生亞太區代言人張凌赫形象照與JadeFusion全新系列商品將於現場完整呈現。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c90c6236",
@@ -418,8 +600,8 @@
         "published_at": "Sun, 14 Jun 2026 19:22:44 +0800",
         "summary_zh": "李奧國際精準健康 (LIPH) 作為一家致力於打造全球整合型 AI 驅動醫療健康生態系的控股公司，宣布計畫收購九項新增投資組合資產。這是亞洲醫療健康產業與歐洲資本市場之間日益深化的連結，同時凸顯亞洲醫療健康平台在全球醫療服務與健康科技價值鏈中的重要性持續提升。LIPH 於法蘭克福證券交易所上市，並不僅是資本市場上的重要里程碑。此上市地位為公司提供了一個歐洲上市平台，使其得以在國際市場中整合、整併並擴大醫療健康相關資產。隨著全球投資人對醫療服務、醫療科技、健康科技、生物科技及 AI 賦能醫療解決方案的關注日益升高，LIPH 正定位為連結亞洲醫療健康成長機會與歐洲成熟資本市場基礎建設之間的重要橋樑。公司的策略奠基於一項核心信念：未來醫療健康產業將由臨床服務、數據、人工智慧等技術驅動。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "04874366",
@@ -431,42 +613,6 @@
         "summary_zh": "國立虎尾科技大學與國家運動科學中心於5月13日簽署合作意向書，展開為期3年的合作。雙方將以運動科學研究與人才培育為主軸，透過數據分析與實證研究方法，推動運動訓練朝向數據化、精準化與科學化發展。虎科大以工程專業深耕運動科技領域逾20年，近年進一步推動運動科學結合競技訓練，整合運動生物力學、人工智慧演算法及跨域工程技術，投入運動數據分析、訓練模式驗證與系統應用開發。這次合作將對接運科中心串聯運動科學研究、競技訓練需求與人才培育資源，促進研究成果與第一線訓練現場接軌。虎科大校長張信良表示，這次合作將有助於把科技研發成果更有效地對接到運動員與第一線訓練現場。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "beed288f",
-        "title": "華爾街日報揭蘋果獲利技巧 善用分級晶片推低價品搶市",
-        "url": "https://www.cna.com.tw/news/aopl/202605180316.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 18 May 2026 23:54:37 +0800",
-        "summary_zh": "美國蘋果公司在電子裝置製造商面臨成本升高的時候，卻能夠推出低價新品搶市。根據華爾街日報的報導，蘋果公司的這一獲利技巧是靠著行之多年的瑕疵晶片再利用。這一做法使得蘋果公司能夠降低成本，推出更便宜的產品，從而搶占市場份額。這一策略在市場上引起了廣泛的關注，許多人認為這是蘋果公司在面臨成本壓力時的一個聰明做法。然而，也有許多人對此表示擔憂，擔心這一做法可能會影響到產品的質量和安全性。總的來說，這一事件顯示出蘋果公司在面臨市場挑戰時的韌性和創造力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ed7f8260",
-        "title": "中華電信推出行動工商憑證系統 突破傳統IC卡限制",
-        "url": "https://www.cna.com.tw/news/afe/202605180291.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 18 May 2026 21:00:34 +0800",
-        "summary_zh": "中華電信近日宣布完成行動工商憑證系統的建置，並上線提供服務。這項系統允許企業透過行動裝置隨時隨地完成各項商務驗證作業，從而突破傳統IC卡場域限制。這項新系統將大大提高企業的便捷性和效率，讓企業可以更輕鬆地進行商務活動。這項系統的推出也標誌著中華電信在行動工商憑證領域的進一步發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7e92205d",
-        "title": "印度自金磚國家進口飆升 貿易逆差持續擴大",
-        "url": "https://www.cna.com.tw/news/aopl/202605180289.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 18 May 2026 20:55:29 +0800",
-        "summary_zh": "印度近5年與金磚國家的貿易額快速成長，其中進口額增加近1倍，導致貿易逆差快速擴大。這表明印度對自金磚國家進口商品的依賴程度正大幅增加。印度政府需要關注這一趨勢，考慮如何平衡貿易逆差和維持經濟穩定。印度的經濟發展與全球貿易格局密切相關，需要適應變化的全球市場環境。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -640,76 +786,76 @@
     ],
     "finance": [
       {
-        "id": "9f421798",
-        "title": "印度主要電力公司支持本地核反應堆達成2047年核能目標",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-18/top-india-utility-backs-local-reactors-to-meet-2047-nuclear-goal",
+        "id": "bcc051e9",
+        "title": "標準銀行準備收購Zodia子公司的加密貨幣儲存業務",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-18/stanchart-to-absorb-zodia-subsidiary-s-crypto-custody-business",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-18 07:35:16",
-        "summary_zh": "印度主要電力公司尼爾雷電力公司(NTPC)宣布支持使用本地製造的核反應堆來達成印度政府的2047年核能目標。印度政府計劃在2047年將核能產量增加到1000億千瓦時，目前產量為70億千瓦時。尼爾雷電力公司表示，使用本地製造的核反應堆可以節省外匯和提高能源安全。印度政府也計劃投資大量資金來發展本地核工業。這一決定將對印度的能源安全和經濟發展產生重大影響。",
+        "published_at": "2026-05-18 09:00:00",
+        "summary_zh": "標準銀行宣布將收購Zodia子公司的加密貨幣儲存業務。這是標準銀行進入加密貨幣市場的最新一步，該銀行希望利用其財富管理業務和全球網絡來擴大其加密貨幣業務。 Zodia子公司的加密貨幣儲存業務提供安全的儲存和交易環境，讓投資者可以輕鬆地管理其加密貨幣投資。這項收購將使標準銀行能夠提供更完整的加密貨幣服務，包括儲存、交易和投資等。這項收購對於標準銀行和加密貨幣市場都有重要意義，將有助於推動加密貨幣的普及和發展。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "851f648c",
-        "title": "激進投資基金促使英超級旅館母公司出售自己",
-        "url": "https://www.ft.com/content/5f1a43f1-8aac-44f8-b0c2-62ed3acf58ca",
+        "id": "4478a0b2",
+        "title": "韓國Homeplus與Meritz爭奪67萬美元貸款條款",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-18/korea-s-homeplus-meritz-tussle-over-67-million-loan-terms",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-18 08:48:51",
+        "summary_zh": "韓國Homeplus與Meritz銀行因67萬美元貸款條款發生爭端。根據消息，Homeplus要求Meritz銀行修改貸款條款，但Meritz銀行拒絕了這個要求。這次爭端可能會對韓國企業的貸款市場造成影響。Homeplus是韓國的一家大型超市連鎖店，Meritz銀行是韓國的一家大型銀行。貸款條款的爭端可能會導致Homeplus的財務狀況出現變化。這次事件也會關注韓國企業的貸款市場是否會出現新的趨勢。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c4428b3c",
+        "title": "英美集團斥3.9億美元出售澳洲煤炭業務",
+        "url": "https://www.ft.com/content/fd0b01f6-7f7f-4560-8f07-778d49902796",
         "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-05-18 07:29:21",
-        "summary_zh": "激進投資基金Corvex Management發表聲明，指出英超級旅館母公司Whitbread無法有效逆轉過去一年股價下跌18%的局面。該基金認為，Whitbread的策略不夠清晰，無法讓股價回升。Corvex Management建議Whitbread應該出售自己，以便讓股東能夠從中受益。這項建議引發了市場的關注，股價出現波動。Whitbread的未來發展方向仍存不明朗，投資者需要密切關注公司的動態。",
+        "published_at": "2026-05-18 08:45:00",
+        "summary_zh": "英美集團宣布出售其澳洲煤炭業務給私人公司Dhilmar，交易價格為3.9億美元。這項交易將有助於英美集團推進其重組計畫。英美集團是一家英國上市公司，近年來一直在努力重組其業務，以應對全球能源市場的變化。出售澳洲煤炭業務是英美集團的一部分，目的是減少其業務的複雜性和風險。這項交易將使英美集團能夠專注於其核心業務，並提高其財務效率。然而，這項交易也可能會對澳洲煤炭產業造成影響，可能會導致工作崗位減少和產業整合。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e0de3796",
+        "title": "摩根士丹利威爾遜警告股市狂奔風險因債券暴跌",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-18/morgan-stanley-s-wilson-warns-stock-rally-at-risk-from-bond-rout",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-18 08:37:20",
+        "summary_zh": "摩根士丹利的威爾遜表示，債券市場的暴跌可能會對股市狂奔造成風險。債券市場的暴跌可能會導致股市的波動，威爾遜認為股市狂奔的風險增加了。這是因為債券市場的暴跌可能會導致投資人對股市的信心下降，從而導致股市的下跌。威爾遜認為，投資人應該保持謹慎，避免過度投資於股市。這是因為股市的波動可能會導致投資人遭受重大損失。威爾遜的警告是基於他對債券市場的觀察，他認為債券市場的暴跌可能會對股市狂奔造成風險。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "a5cad357",
-        "title": "卡塔爾億萬富翁家族競投埃塞俄比亞機場及剛果公路",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-18/billionaire-qatari-family-bids-for-ethiopian-airport-congo-road",
+        "id": "42d30327",
+        "title": "瑞士腕錶Swatch-Audemars Piguet售價高達$2,800",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-18/resellers-flip-swatch-audemars-piguet-watches-for-1-500-or-more",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-18 07:18:45",
-        "summary_zh": "卡塔爾億萬富翁家族正在競投埃塞俄比亞的一座機場和剛果的一條公路。這項交易涉及埃塞俄比亞政府出售機場和公路的控股權。卡塔爾家族的投資將幫助埃塞俄比亞政府改善交通基礎設施和航空業。這項投資也將促進卡塔爾與埃塞俄比亞和剛果之間的經濟合作。卡塔爾家族的投資將對埃塞俄比亞和剛果的經濟發展產生積極影響。然而，交易的具體細節尚未公布，投資的具體規模和投資時間表尚未確定。",
+        "published_at": "2026-05-18 08:34:07",
+        "summary_zh": "瑞士腕錶品牌Swatch和Audemars Piguet近期出現了翻轉的市場行情。根據市場分析，Swatch-Audemars Piguet腕錶的售價已經達到高達$2,800。這種翻轉的市場行情可能與時尚趨勢和消費者對高端腕錶的需求增加有關。分析人士認為，這種市場行情可能會持續一段時間，因為消費者對高端腕錶的需求仍在增加。然而，這種市場行情也可能會受到全球經濟的影響，例如通膨和經濟衰退等因素。因此，投資者需要密切關注市場行情的變化，以便做出適當的投資決策。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "4d89fed6",
-        "title": "英國公司澳洲煤礦出售將可收穫至 388 億美元",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-05-18/miner-anglo-american-sells-australia-coal-mines-in-restructure",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-18 07:15:30",
-        "summary_zh": "英國公司英國礦業公司 (Anglo) 宣布出售其澳洲煤礦事業，預計可收穫至 388 億美元。這項交易將是澳洲煤礦業近年來最大的出售之一。英國礦業公司表示，出售的煤礦事業包括其在澳洲的煤礦開采權以及相關的基礎設施。交易的具體細節尚未公開，但英國礦業公司表示，出售將對公司的財務狀況產生正面影響。這項出售將是英國礦業公司在澳洲煤礦業的退出，公司將將其業務轉移至其他地區。澳洲煤礦業近年來面臨著市場下滑和環境保護的壓力，許多公司正在出售其煤礦事業以轉型為可再生能源公司。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "1d29f052",
-        "title": "瑞士經濟超出預期增長，法郎和能源價格飆升",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-18/switzerland-grows-more-than-expected-despite-franc-energy-spike",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-18 07:00:00",
-        "summary_zh": "瑞士經濟在去年第四季度和今年第一季度超出預期增長，儘管法郎升值和能源價格飆升對經濟產生了壓力。根據瑞士國家統計局的數據，瑞士 GDP 在去年第四季度增長 0.5%，超出預期增長 0.2%。今年第一季度，瑞士 GDP 增長 0.8%，超出預期增長 0.4%。瑞士央行認為，經濟增長的強勁表現是由於出口和投資的增長，而不是消費的增長。瑞士央行也表示，經濟增長的表現是暫時的，並且仍面臨著法郎升值和能源價格飆升的壓力。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4a78f571",
-        "title": "瑞安航空暫停財務指引，受燃油價格大幅上漲影響",
-        "url": "https://www.ft.com/content/e95fecf1-d161-4e99-aec5-b7b30f0c3379",
+        "id": "315bc8d2",
+        "title": "安迪·伯恩汉姆的曼徹斯特主義版本是什麼?",
+        "url": "https://www.ft.com/content/66aa99a3-5978-458c-93a9-3a916440a841",
         "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-05-18 06:58:57",
-        "summary_zh": "瑞安航空最新財報顯示，該公司今年的年度利潤增長了三分之一，達到 1.1 億歐元。然而，隨著全球燃油價格大幅上漲，瑞安航空宣布暫停財務指引，表明未來財務業績將面臨不確定性。公司還確認與首席執行官麥可·奧利里 (Michael O'Leary) 進行新的合同談判。燃油價格的上漲對航空業影響深遠，瑞安航空將需要適應這種變化，尋找新的經營策略來應對挑戰。",
+        "published_at": "2026-05-18 08:33:16",
+        "summary_zh": "安迪·伯恩汉姆在曼徹斯特擔任商業友好的城市長官，卻與他在工黨的立場產生了矛盾。伯恩汉姆的成功在於他能夠在商業和政治兩方面取得平衡，但這也引發了對他的政治立場的質疑。曼徹斯特的經濟發展受到商業和政治因素的影響，伯恩汉姆的決策將對城市的未來產生重大影響。然而，伯恩漢姆的政治立場仍然受到工黨的影響，他需要在商業和政治之間取得平衡，以確保曼徹斯特的發展。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "45f7020d",
@@ -759,116 +905,6 @@
         "summary_zh": "Jane Street 這間知名的量化交易公司，近期宣布在新加坡的辦事處擴大能力達倍數。這項擴大行動是該公司在亞洲地區的業務擴展的一部分。新加坡辦事處的擴大將會提高該公司在區域的交易能力和服務質量。這項擴展行動將會為該公司帶來新的機會和挑戰，同時也會提高該公司在區域的競爭力。 Jane Street 的這項擴大行動是該公司業務擴展的一部分，該公司正在努力在全球各地建立自己的據點。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "5446aa30",
-        "title": "川普稱因海灣國家要求暫緩對伊朗的新攻擊",
-        "url": "https://www.bbc.com/news/articles/c7079e55zjro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 19:43:45 GMT",
-        "summary_zh": "美國總統川普宣布暫緩美國對伊朗的新攻擊行動，原因是「正進行嚴肅的談判」。這項決定出於海灣國家的要求，川普表示這些國家的要求對美國的決策產生了重大影響。美國原先計畫在週二對伊朗進行攻擊，但隨著談判的進行，川普決定暫緩這項行動。這項決定可能會對伊朗和美國之間的關係產生重大影響，同時也會對全球政治局勢產生影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "902b7180",
-        "title": "法官判決：路易吉·曼戈尼的槍枝和筆記可在紐約謀殺案審判中呈堂",
-        "url": "https://www.bbc.com/news/articles/cx21g6qz45xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 16:00:17 GMT",
-        "summary_zh": "路易吉·曼戈尼謀殺案正在紐約進行審判。法官判決，曼戈尼在賓夕法尼亞的一家麥當勞被查獲的槍枝和筆記可在審判中呈堂。然而，法官也判決，其他與曼戈尼在該處被查獲的物品不允許在審判中呈堂。這項判決可能對曼戈尼的審判產生重大影響。曼戈尼謀殺案的背景是，曼戈尼被指控謀殺某人。這項判決可能會讓檢方有更多的證據來支持指控。曼戈尼的律師可能會爭辯這些證據不夠可靠或不相關。最終，法官的判決將決定曼戈尼的審判結果。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "05dcf053",
-        "title": "紐約繁忙時段出現大混亂，地鐵系統全面停駛",
-        "url": "https://www.bbc.com/news/articles/cdjp839lxzvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 15:06:10 GMT",
-        "summary_zh": "紐約市近百萬市民遭遇了難以忍受的通勤之苦。地鐵工人繼續進行罷工，要求更好的薪水和工作規則。這次罷工導致紐約市的繁忙時段出現大混亂，市民被迫改乘巴士或其他交通工具。這種情況對紐約市的交通和經濟造成了重大影響。市民們紛紛批評政府應該儘快解決這個問題，確保市民的生活不受影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6a428e53",
-        "title": "戰鬥機飛行員在美國空中表演中坠毁後安全跳傘",
-        "url": "https://www.bbc.com/news/articles/c62x01n0dl5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 00:19:05 GMT",
-        "summary_zh": "美國一場空中表演中，兩架戰鬥機在空中碰撞坠毁。幸運地，飛行員們在坠毁前成功跳傘逃生，目前處於穩定的狀態。這次空中表演事故發生在美國，相關細節正在調查中。飛行員們的安全是首要考量，政府機構正在對此事件進行調查和評估。這次事故的影響尚未完全明朗，但飛行員們的安全是最重要的。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "46441bfa",
-        "title": "川普將撤回對美國稅務局的10億美元訴訟，與談判中達成協議，為盟友提供1.7億美元補償",
-        "url": "https://www.theguardian.com/us-news/live/2026/may/18/donald-trump-redistricting-south-carolina-iran-healthcare-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 19:47:11 GMT",
-        "summary_zh": "川普決定撤回對美國稅務局的10億美元訴訟，這一決定出現於美國政治新聞中。根據報導，川普可能會在與稅務局達成協議後撤回訴訟，協議將提供1.7億美元用於補償他聲稱遭到錯誤針對的個人。這一決定出現在訴訟案件的20日截止日期前兩天，法官要求雙方提交書面文件，確認訴訟案件是否存在合理爭議。川普控制美國稅務局，因此這一要求非常重要。川普的律師在一份簡短的申請中表示，於訴訟案件撤回後，法官不需要進行任何司法分析。這一決定可能意味著川普正在與稅務局進行談判，以達成協議並補償他所聲稱的受害者。然而，具體的協議內容尚未公布。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "009511ee",
-        "title": "川普否認10億美元訴訟並創建1.7億美元反對政府滲透基金",
-        "url": "https://www.theguardian.com/us-news/2026/may/18/trump-dismiss-10-billion-dollar-irs-lawsuit",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 19:07:01 GMT",
-        "summary_zh": "川普政府於週一否認10億美元訴訟對於美國稅務局（IRS），並創建1.776億美元「反對政府滲透」基金，以補償受政府迫害的盟友。這項基金將由五名委員會負責管理，四名委員由美國律政部長任命，另外一名委員將與國會領袖協商任命。基金還有權發出正式道歉，並將每季向美國律政部長提交報告，列出從基金中支付的對象。民主黨人批評這項交易是一個「懷孕基金」，將稅款分配給川普的政治盟友。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "76fffe95",
-        "title": "南卡羅來納律師亞歷克斯·穆達赫重審案件裁決出現意外轉折",
-        "url": "https://www.theguardian.com/us-news/2026/may/18/alex-murdaugh-retrial-ruling-south-carolina",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 15:10:11 GMT",
-        "summary_zh": "南卡羅來納州律師亞歷克斯·穆達赫因謀殺妻子和兒子被定罪，但其定罪被撤銷。這是南卡羅來納州上訴法院在最新的一個驚人的轉折中，對這個充滿南方哥特式謀殺、背叛和財務詐騙的法律醜聞的判決。穆達赫在上週三沒有出席法院，當時南卡羅來納州上訴法院撤銷了他2023年的雙重謀殺定罪。監獄規則禁止他在高安全級別的麥考米克監獄觀看直播。也沒有他的親戚出席，包括兒子巴斯達，是他親密家庭中唯一存活下來的成員。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8ab06b01",
-        "title": "法官判決：某些證據將不被用於 Luigi Mangione 的審判",
-        "url": "https://www.theguardian.com/us-news/2026/may/18/luigi-mangione-trial-new-york-united-healthcare-ceo",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 14:58:59 GMT",
-        "summary_zh": "路易吉·曼戈尼 (Luigi Mangione) 的曼哈頓州法院審判由法官格雷戈里·卡羅 (Judge Gregory Carro) 主持。法官判決某些在曼戈尼被捕時搜查背包所獲得的證據將被禁止在庭上使用。法官指出，曼戈尼被捕時遭警察逮捕的過程中，警察未告知他他的權利。曼戈尼被控犯下謀殺罪，受害者是聯合保險公司 (United Healthcare) 的 CEO。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9e0505db",
-        "title": "特朗普第二任期最低評分：37% 美國民眾對他與伊朗戰爭的決定不滿",
-        "url": "https://www.theguardian.com/us-news/2026/may/18/donald-trump-second-term-approval-rating-drops",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 14:44:27 GMT",
-        "summary_zh": "美國總統特朗普的評分跌至第二任期最低點，民眾對於生活成本和美國對伊朗戰爭的不滿日漸增加。根據最近公佈的民調數據，美國選民在即將到來的中期選舉前，多數人認為特朗普對伊朗宣戰的決定是錯誤的。這一數字出現於本週一公佈的民調結果中。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ]
