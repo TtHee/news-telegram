@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-19T15:19:55.236639+08:00",
+  "generated_at": "2026-05-19T16:12:19.061940+08:00",
   "risk_signals": [
     "🟢 台股加權 40175.56（正常）",
     "🟢 S&P 500 7403.05（正常）",
-    "🟢 VIX 恐慌指數 17.82（正常）",
+    "🟢 VIX 恐慌指數 17.88（正常）",
     "🟢 MOVE 債市波動 86.07（正常）",
-    "🟢 美元指數 99.18（正常）",
-    "🟢 黃金 4556.4（正常）",
+    "🟢 美元指數 99.15（正常）",
+    "🟢 黃金 4558.9（正常）",
     "🟡 美債10Y殖利率 4.62（留意）",
-    "🟢 原油 WTI 103.71（正常）",
-    "🟢 美元/台幣 31.69（正常）"
+    "🟢 原油 WTI 103.27（正常）",
+    "🟢 美元/台幣 31.65（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，多個指標維持在正常範圍，表明投資者對市場風險的評估相對樂觀，但美債10年殖利率持續上升，需要留意。",
+  "ai_summary": "市場氛圍保持穩定，但美債10Y殖利率稍有上升，可能表明投資者對經濟成長的預期稍微降低。整體來說，市場仍然處於相對穩定的狀態，但投資者應保持警覺。",
   "market": {
     "TWII": {
       "price": 40175.56,
@@ -26,8 +26,8 @@
       "change_pct": -0.51
     },
     "VIX": {
-      "price": 17.82,
-      "change_pct": -3.31
+      "price": 17.88,
+      "change_pct": 0.34
     },
     "TNX": {
       "price": 4.62,
@@ -38,73 +38,159 @@
       "change_pct": 7.76
     },
     "DXY": {
-      "price": 99.18,
-      "change_pct": 0.21
+      "price": 99.15,
+      "change_pct": 0.19
     },
     "GOLD": {
-      "price": 4556.4,
-      "change_pct": 0.09
+      "price": 4558.9,
+      "change_pct": 0.14
     },
     "OIL": {
-      "price": 103.71,
-      "change_pct": -4.56
+      "price": 103.27,
+      "change_pct": -4.96
     },
     "USDTWD": {
-      "price": 31.69,
-      "change_pct": 0.33
+      "price": 31.65,
+      "change_pct": 0.19
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "5446aa30",
+        "title": "川普稱因海灣國家要求暫緩對伊朗的新攻擊",
+        "url": "https://www.bbc.com/news/articles/c7079e55zjro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 22:30:58 GMT",
+        "summary_zh": "美國總統川普宣布暫緩美國對伊朗的新攻擊行動，原因是「正進行嚴肅的談判」。這項決定出於海灣國家的要求，川普表示這些國家的要求對美國的決策產生了重大影響。美國原先計畫在週二對伊朗進行攻擊，但隨著談判的進行，川普決定暫緩這項行動。這項決定可能會對伊朗和美國之間的關係產生重大影響，同時也會對全球政治局勢產生影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "61af27af",
+        "title": "川普與馬西之間的戰鬥：共和黨內的政敵能否抵禦20萬美元的攻擊?",
+        "url": "https://www.bbc.com/news/articles/cz924g45530o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 21:39:45 GMT",
+        "summary_zh": "美國總統川普的共和黨政敵馬西將於週二面對共和黨選民。馬西與川普在聯邦開支和埃普斯坦檔案上有分歧。共和黨內部的競爭可能會對馬西的政治前景產生重大影響。馬西能否抵禦川普對他的攻擊，將在未來的選舉中展現。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "350596c2",
+        "title": "特朗普政府公佈 17 億美元基金，為其盟友提供賠償，同時放棄稅務訴訟",
+        "url": "https://www.bbc.com/news/articles/cvgzr7vr203o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 19:53:31 GMT",
+        "summary_zh": "特朗普政府宣佈了一項 17 億美元的基金，旨在為那些主張自己遭受不公平調查的個人提供賠償。這項基金的建立是為了結束特朗普對聯邦稅務局的訴訟。這項訴訟是由特朗普及其盟友發起的，指控聯邦稅務局對其進行不公平的調查。這項基金的建立被視為是一項政治交易，將為特朗普及其盟友帶來財務上的好處。這項交易的影響可能會延伸到美國政治的未來發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "46441bfa",
+        "title": "川普將撤回對美國稅務局的10億美元訴訟，與談判中達成協議，為盟友提供1.7億美元補償",
+        "url": "https://www.theguardian.com/us-news/live/2026/may/18/donald-trump-redistricting-south-carolina-iran-healthcare-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 19 May 2026 01:44:29 GMT",
+        "summary_zh": "川普決定撤回對美國稅務局的10億美元訴訟，這一決定出現於美國政治新聞中。根據報導，川普可能會在與稅務局達成協議後撤回訴訟，協議將提供1.7億美元用於補償他聲稱遭到錯誤針對的個人。這一決定出現在訴訟案件的20日截止日期前兩天，法官要求雙方提交書面文件，確認訴訟案件是否存在合理爭議。川普控制美國稅務局，因此這一要求非常重要。川普的律師在一份簡短的申請中表示，於訴訟案件撤回後，法官不需要進行任何司法分析。這一決定可能意味著川普正在與稅務局進行談判，以達成協議並補償他所聲稱的受害者。然而，具體的協議內容尚未公布。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f53f87ac",
+        "title": "美國延長對俄羅斯石油的豁免令，布倫特原油價格再上升",
+        "url": "https://www.theguardian.com/us-news/2026/may/19/us-extends-sanctions-waiver-russian-oil-second-time",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 19 May 2026 01:14:38 GMT",
+        "summary_zh": "美國民主黨參議員批評延長豁免令是對普京的「無法辯護的禮物」。由於供應緊張，布倫特原油價格已經超過每桶 110 美元。美國財政部長斯科特·貝森特表示，財政部將發布 30 天的普通許可證，允許暫時訪問俄羅斯石油和石油產品，避免違反對俄羅斯石油公司的嚴厲制裁。這項措施旨在幫助因伊朗戰爭而受影響的「能源脆弱國家」。這項延長豁免令將於 30 天後到期。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "009511ee",
+        "title": "特朗普放棄10億美元訴訟，創設17億美元「反軍事化」基金",
+        "url": "https://www.theguardian.com/us-news/2026/may/18/trump-dismiss-10-billion-dollar-irs-lawsuit",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 19 May 2026 01:09:15 GMT",
+        "summary_zh": "民主黨批評這項協議是一個「垃圾桶基金」，將稅款轉移到總統的政治盟友身上。美國司法部於週一宣佈，將成立一個不受嚴格控制的秘密基金，總額達17.76億美元，用於補償特朗普的盟友。這項基金是特朗普和他的兒子放棄對美國稅務局的10億美元訴訟的一部分。這項基金將由五名委員會負責管理，其中四名委員由司法部長任命，並由特朗普撤換；另外一名委員將與國會領袖協商任命。這項基金還有權發表「正式道歉」，並每季度向美國總檢察長提交一份機密報告，列明誰從這項基金領取了款項。基金的工作不需要公開。民主黨批評這項協議是一個「垃圾桶基金」，將稅款轉移到總統的政治盟友身上。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e1fcfb5b",
+        "title": "佩洛西首度發聲，支持選擇接班人：康妮陳是最佳人選",
+        "url": "https://www.theguardian.com/us-news/2026/may/18/nancy-pelosi-endorses-connie-chan-congress",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 19 May 2026 00:37:47 GMT",
+        "summary_zh": "前眾議院議長佩洛西在選前首度發聲，支持選擇接班人康妮陳。佩洛西表示，康妮陳是最適合擔任代表舊金山的候選人，稱她「站在眾人之上」。佩洛西將於本屆任期結束退休，近40年來一直擔任舊金山選區的代表。她在選前競爭激烈的初選中，首度發聲支持康妮陳。佩洛西表示，康妮陳是最具備領導能力的候選人，能夠繼續為舊金山在國會爭取利益。選舉將於6月2日舉行，康妮陳將面臨激烈競爭。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "63c99ce8",
+        "title": "特朗普宣布擴大TrumpRx.gov，為美國民眾提供藥物價格透明度和選擇權",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/05/fact-sheet-president-donald-j-trump-announces-expansion-of-trumprx-gov-to-bring-americans-transparency-and-choice-on-everyday-medicines/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 21:35:41 +0000",
+        "summary_zh": "美國總統特朗普宣布擴大TrumpRx.gov，為美國民眾提供藥物價格透明度和選擇權。這項措施旨在降低美國民眾的藥物費用，讓更多人能夠獲得便宜的藥物。特朗普政府認為，這項措施將推動藥物購買過程的革新，促進藥物價格的競爭和透明度。這項政策的推出將為美國民眾提供更好的藥物選擇權和更低的藥物費用。這項措施將對美國民眾的健康和財政有重大影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f83e5d62",
+        "title": "川普總統的智慧財產交易和市場大漲證明美國優先政策有效",
+        "url": "https://www.whitehouse.gov/releases/2026/05/president-trumps-intel-deal-and-soaring-markets-prove-america-first-works/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 19:00:31 +0000",
+        "summary_zh": "川普總統的美國優先政策正在為美國人民帶來豐厚回報，將戰略政府行動轉化為巨額稅款收益，同時推動股市大幅上漲。川普總統在最新的福布斯訪談中，突出了他去年取得的英特爾協議為例，證明市場復甦的成果。這項協議對美國的經濟發展產生了重大影響，同時也對全球市場產生了深遠的影響。這項成就證明了川普總統的美國優先政策正在有效推動美國經濟的發展。然而，這項政策也引發了許多爭議和批評，許多人認為這項政策會導致保護主義和貿易戰的升級。總的來說，這項成就證明了川普總統的政策正在為美國人民帶來好處，但也引發了許多關注和疑慮。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "902b7180",
+        "title": "法官判決：路易吉·曼戈尼的槍枝和筆記可在紐約謀殺案審判中呈堂",
+        "url": "https://www.bbc.com/news/articles/cx21g6qz45xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 18 May 2026 16:00:17 GMT",
+        "summary_zh": "路易吉·曼戈尼謀殺案正在紐約進行審判。法官判決，曼戈尼在賓夕法尼亞的一家麥當勞被查獲的槍枝和筆記可在審判中呈堂。然而，法官也判決，其他與曼戈尼在該處被查獲的物品不允許在審判中呈堂。這項判決可能對曼戈尼的審判產生重大影響。曼戈尼謀殺案的背景是，曼戈尼被指控謀殺某人。這項判決可能會讓檢方有更多的證據來支持指控。曼戈尼的律師可能會爭辯這些證據不夠可靠或不相關。最終，法官的判決將決定曼戈尼的審判結果。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "05dcf053",
+        "title": "紐約繁忙時段出現大混亂，地鐵系統全面停駛",
+        "url": "https://www.bbc.com/news/articles/cdjp839lxzvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 19 May 2026 02:04:25 GMT",
+        "summary_zh": "紐約市近百萬市民遭遇了難以忍受的通勤之苦。地鐵工人繼續進行罷工，要求更好的薪水和工作規則。這次罷工導致紐約市的繁忙時段出現大混亂，市民被迫改乘巴士或其他交通工具。這種情況對紐約市的交通和經濟造成了重大影響。市民們紛紛批評政府應該儘快解決這個問題，確保市民的生活不受影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "global": [
-      {
-        "id": "f9a1126f",
-        "title": "三人遇害疑似仇恨犯罪案發於聖地亞哥清真寺",
-        "url": "https://www.bbc.com/news/articles/c5y7q66gq56o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 19 May 2026 01:35:30 GMT",
-        "summary_zh": "一宗疑似仇恨犯罪案發於美國加州聖地亞哥，當地一間清真寺遭到襲擊，三人遇害。調查人員發現其中一名涉案青少年留下的便條中含有仇恨言論。這宗案件引起了全球各界的關注和譴責。仇恨犯罪對社會的影響深遠，尤其是在多元文化的城市，需要加強溝通和理解以防止類似事件再次發生。美國政府和社會各界應該共同努力，打擊仇恨犯罪，保護宗教自由和人權。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d1802567",
-        "title": "美籍醫生在剛果民主共和國感染埃博拉，CDC確認",
-        "url": "https://www.bbc.com/news/articles/cjwpy2qww5do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 19 May 2026 05:42:20 GMT",
-        "summary_zh": "剛果民主共和國出現埃博拉爆發，美籍醫生在當地醫院工作時被感染。根據美國疾病控制與預防中心（CDC）的消息，美籍醫生在接觸病人後被檢測出埃博拉病毒陽性。這名醫生目前正在接受治療。埃博拉爆發在剛果民主共和國已經持續數月，該國政府和國際組織正在努力控制疫情。這次事件再次提醒了全球對埃博拉爆發的關注和警惕。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dc409c14",
-        "title": "馬斯克在法庭上輸掉了對OpenAI的訴訟案件，陪審團認為他等待太久才起訴",
-        "url": "https://www.bbc.com/news/articles/cewpyv79pw1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 18 May 2026 22:08:37 GMT",
-        "summary_zh": "馬斯克與OpenAI的訴訟案件在法庭上進行了數周，最終陪審團認為馬斯克等待太久才起訴。這起訴訟案件與馬斯克指控Altman偷竊慈善捐款有關。馬斯克曾經在2023年8月宣布購買OpenAI，但後來因為財務問題而放棄。馬斯克認為Altman在這段時間內違反了與他簽署的協議。然而，陪審團認為馬斯克等待太久才起訴，導致訴訟案件被駁回。這一裁決對馬斯克的聲譽和財務狀況都有重大影響。馬斯克的律師已經表示將會上訴。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "26ed166b",
-        "title": "古巴指控美國蓄意製造「虛假案件」為入侵理由",
-        "url": "https://www.bbc.com/news/articles/ckgpyg9peq9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 18 May 2026 20:41:34 GMT",
-        "summary_zh": "古巴外交部長表示，古巴購買攻擊無人機的報告是美國「侵略」理由的一部分。這項指控出自古巴政府對美國軍事行動的回應。古巴政府認為，美國正在試圖為入侵古巴做出正當理由。美國政府否認了這項指控。古巴外交部長強調，古巴有權購買任何軍事設備，包括攻擊無人機。這項爭議可能會對古巴和美國之間的關係產生影響。古巴政府已經與俄羅斯和中國建立了密切的關係，這些國家也對美國的軍事行動表示了關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
       {
         "id": "cf51d221",
         "title": "至少六名美國人暴露於剛果民主共和國埃博拉爆發",
@@ -113,6 +199,18 @@
         "category": "global",
         "published_at": "Tue, 19 May 2026 05:23:57 GMT",
         "summary_zh": "剛果民主共和國埃博拉爆發引起全球關注，至少六名美國人被曝露於該疫情。根據媒體報導，至少有一名美國人已經出現病症。這次疫情的爆發令全球各國政府和衛生組織提高警覺，採取措施防止疫情擴散。美國政府已經對該地區實施旅行禁令，試圖防止病毒傳播。這次疫情的影響不僅限於剛果民主共和國，全球各國都在密切關注疫情的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f9a1126f",
+        "title": "三人遇害疑似仇恨犯罪案發於聖地亞哥清真寺",
+        "url": "https://www.bbc.com/news/articles/c5y7q66gq56o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 19 May 2026 07:07:55 GMT",
+        "summary_zh": "一宗疑似仇恨犯罪案發於美國加州聖地亞哥，當地一間清真寺遭到襲擊，三人遇害。調查人員發現其中一名涉案青少年留下的便條中含有仇恨言論。這宗案件引起了全球各界的關注和譴責。仇恨犯罪對社會的影響深遠，尤其是在多元文化的城市，需要加強溝通和理解以防止類似事件再次發生。美國政府和社會各界應該共同努力，打擊仇恨犯罪，保護宗教自由和人權。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -130,6 +228,18 @@
         "ai_classified": true
       },
       {
+        "id": "3102d7c5",
+        "title": "西班牙槍擊案：2死，嬰兒疑受傷",
+        "url": "https://www.bbc.com/news/articles/cdrpnzv84gro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 19 May 2026 07:17:15 GMT",
+        "summary_zh": "西班牙南部發生槍擊案，警方表示，一名25歲男子疑似殺害父母，另外四人受傷，其中包括嬰兒。警方正在調查案件的原因。這起槍擊案的影響將會對當地居民造成心理上的震撼，同時也會引起社會上的關注。目前，警方正在努力追捕嫌疑人並確保案件的安全。這起槍擊案的後續展望尚未明確，但警方已經開始調查嫌疑人的背景和動機。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "a689edee",
         "title": "塔斯曼尼亞政府道歉：人體標本竊盜醜聞",
         "url": "https://www.bbc.com/news/articles/c0q25lneg9vo?at_medium=RSS&at_campaign=rss",
@@ -137,6 +247,18 @@
         "category": "global",
         "published_at": "Tue, 19 May 2026 04:19:37 GMT",
         "summary_zh": "塔斯曼尼亞政府近日對於人體標本竊盜醜聞發表道歉聲明。調查發現，該州一間博物館秘密保存了數十具屍體的 177 個人體標本。這一醜聞引起了社會廣泛關注，許多人對於博物館的行為感到震驚和憤怒。政府的道歉表明了對此事的認真對待，並表明將會進行進一步的調查和懲處。這一事件也引起了對於人體標本收藏和使用的倫理問題的討論。塔斯曼尼亞政府的道歉聲明強調了對於受影響者的尊嚴和權益的重視。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "dc409c14",
+        "title": "馬斯克在法庭上輸掉了對OpenAI的訴訟案件，陪審團認為他等待太久才起訴",
+        "url": "https://www.bbc.com/news/articles/cewpyv79pw1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 18 May 2026 22:08:37 GMT",
+        "summary_zh": "馬斯克與OpenAI的訴訟案件在法庭上進行了數周，最終陪審團認為馬斯克等待太久才起訴。這起訴訟案件與馬斯克指控Altman偷竊慈善捐款有關。馬斯克曾經在2023年8月宣布購買OpenAI，但後來因為財務問題而放棄。馬斯克認為Altman在這段時間內違反了與他簽署的協議。然而，陪審團認為馬斯克等待太久才起訴，導致訴訟案件被駁回。這一裁決對馬斯克的聲譽和財務狀況都有重大影響。馬斯克的律師已經表示將會上訴。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -274,6 +396,30 @@
         "ai_classified": true
       },
       {
+        "id": "d1802567",
+        "title": "美籍醫生在剛果民主共和國感染埃博拉，CDC確認",
+        "url": "https://www.bbc.com/news/articles/cjwpy2qww5do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 19 May 2026 05:42:20 GMT",
+        "summary_zh": "剛果民主共和國出現埃博拉爆發，美籍醫生在當地醫院工作時被感染。根據美國疾病控制與預防中心（CDC）的消息，美籍醫生在接觸病人後被檢測出埃博拉病毒陽性。這名醫生目前正在接受治療。埃博拉爆發在剛果民主共和國已經持續數月，該國政府和國際組織正在努力控制疫情。這次事件再次提醒了全球對埃博拉爆發的關注和警惕。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "26ed166b",
+        "title": "古巴指控美國蓄意製造「虛假案件」為入侵理由",
+        "url": "https://www.bbc.com/news/articles/ckgpyg9peq9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 18 May 2026 20:41:34 GMT",
+        "summary_zh": "古巴外交部長表示，古巴購買攻擊無人機的報告是美國「侵略」理由的一部分。這項指控出自古巴政府對美國軍事行動的回應。古巴政府認為，美國正在試圖為入侵古巴做出正當理由。美國政府否認了這項指控。古巴外交部長強調，古巴有權購買任何軍事設備，包括攻擊無人機。這項爭議可能會對古巴和美國之間的關係產生影響。古巴政府已經與俄羅斯和中國建立了密切的關係，這些國家也對美國的軍事行動表示了關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "e1e59aad",
         "title": "特朗普與習近平的會面：華盛頓與北京的權力平衡",
         "url": "https://foreignpolicy.com/2026/05/18/trump-xi-rana-mitter-united-states-china-taiwan-trade-economics-fp-live/",
@@ -324,102 +470,6 @@
     ],
     "ai": [
       {
-        "id": "a8b53438",
-        "title": "埃隆·馬斯克又輸了一場官司。還會繼續打下去嗎？",
-        "url": "https://www.bbc.com/news/articles/cqlpz4w6v13o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "ai",
-        "published_at": "Tue, 19 May 2026 06:46:46 GMT",
-        "summary_zh": "埃隆·馬斯克近日在對開放式人工智慧（OpenAI）公司的訴訟中敗訴，這是他一連串法庭敗仗中的最新一案。馬斯克的律師團隊一直在為他辯護，但這次敗訴可能會對他的聲譽造成一定影響。馬斯克的財富和影響力在近年來一直在增長，但他也面臨著多起訴訟和爭議事件。這次敗訴可能會讓馬斯克重新評估他的訴訟策略和風險承受能力。馬斯克是否會繼續打下去，還有待觀察，但這次敗訴可能會對他的形象造成一定影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "447d22f8",
-        "title": "埃隆·穆斯克對OpenAI的訴訟告敗：為什麼他失去了這場官司?",
-        "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Tue, 19 May 2026 00:53:10 +0000",
-        "summary_zh": "埃隆·穆斯克在與OpenAI的官司中遭遇重大打擊。美國一名陪審員出示了一致意見書，認為穆斯克對OpenAI的訴訟提起太晚，根據相關的法律時效，穆斯克的訴訟遭到否決。美國聯邦地區法院法官Yvonne Gonzalez Rogers 立即接受了這一意見書。穆斯克在社交平台X上宣布，他將會對這一裁決提出上訴。這一裁決對穆斯克來說是一個重大打擊，尤其是在他與OpenAI的關係緊張的背景下。穆斯克曾經在2023年5月宣布，他將會對OpenAI進行收購，但遭到OpenAI的拒絕。穆斯克的收購意圖被認為是對OpenAI的競爭對手，導致OpenAI拒絕收購。這一裁決可能會對穆斯克的未來行動產生影響，尤其是在他與OpenAI的關係中。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a2739142",
-        "title": "谷歌本週預期",
-        "url": "https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Mon, 18 May 2026 17:35:43 +0000",
-        "summary_zh": "谷歌即將於明日開啟其年度開發者研討會I/O，然而在基於模型的競賽中，谷歌將處於第三名的位置。去年谷歌I/O的時候，谷歌仍然被視為人工智慧領域的領導者，但如今已經被微軟和Meta超越。谷歌將會透露其新一代基於模型的技術，包括語言模型和視覺模型等。這些新技術將會被應用在谷歌的各個業務領域，包括搜索、廣告和語言翻譯等。谷歌的競爭對手們將會密切關注谷歌的新技術，為了保持競爭力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "49b9a824",
-        "title": "MIT內部專家小組的關鍵訊息",
-        "url": "https://www.technologyreview.com/2026/05/18/1137430/the-signals-that-matter-mit-insiders-panel/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Mon, 18 May 2026 16:57:44 +0000",
-        "summary_zh": "MIT內部專家小組的「The Signals That Matter」是一個關於訊息和趨勢的討論平台。這個平台邀請了MIT的專家和學者來分享他們對於當前的趨勢和未來發展的看法。這些專家將分享他們對於人工智慧、機器學習、資料科學和其他相關領域的最新研究和發現。通過這個平台，參與者將能夠了解最新的趨勢和發展，並且與其他專家和學者進行交流和討論。這將對於了解未來的發展趨勢和趨勢分析具有重要意義。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a50e7ab7",
-        "title": "前Google CEO Eric Schmidt 因提及人工智慧遭學生喝倒采",
-        "url": "https://www.bbc.com/news/articles/ce8pqd54qneo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "ai",
-        "published_at": "Mon, 18 May 2026 15:16:00 GMT",
-        "summary_zh": "近日，一場大學畢業典禮上，前Google CEO Eric Schmidt 在演講中提及人工智慧（AI）時遭到學生喝倒采。這一事件表明學生對AI對工作和未來職業生涯的影響感到日益擔憂。這種擔憂是由於人工智慧的快速發展和廣泛應用，正在改變許多傳統職業，甚至威脅到一些人的工作崗位。學生們對此感到擔憂的原因之一是，人工智慧的進步可能會取代一些人類的工作，從而導致就業市場的不穩定。另一方面，人工智慧也帶來了許多新的就業機會和創造力，這使得學生們對未來感到充滿希望。然而，學生們對AI的擔憂也表明了對未來的不確定性和無法預測的變化。這種不確定性使得學生們感到焦慮和擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2a9530d6",
-        "title": "安德里爾與元宇宙合作開發軍用智能眼鏡",
-        "url": "https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Mon, 18 May 2026 16:01:39 +0000",
-        "summary_zh": "安德里爾是一家防禦科技公司，與元宇宙合作開發了一款軍用智能眼鏡。這款眼鏡的設計包括使用眼動追蹤和語音指令來下令無人機攻擊。安德里爾副總裁凱文·巴內特（Quay Barnett）表示，他的核心目標是創造一個能夠與現代戰爭環境相適應的系統。這款眼鏡將能夠提供實時戰場資訊、協助軍事人員進行戰術決策，並且能夠與其他裝置進行無線連接。這項合作項目的最終目標是為軍隊提供更有效的戰鬥工具。然而，這項技術的發展也引發了對隱私和安全性的擔憂。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cd0f35b4",
-        "title": "馬斯克與阿爾曼周三：馬斯克與阿爾曼互相攻擊對方的可信度，現在陪審團將做出判決",
-        "url": "https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Mon, 18 May 2026 12:10:00 +0000",
-        "summary_zh": "馬斯克與阿爾曼在法庭上互相攻擊對方的可信度，現在陪審團將做出判決。馬斯克與阿爾曼的爭議在法庭上展開了三周，現在在最後一周的審判中，陪審團將做出判斷。馬斯克與阿爾曼的爭議涉及可信度、誠實和誠實性等問題。馬斯克與阿爾曼的爭議對於科技業的發展和未來的影響將是關鍵的。馬斯克與阿爾曼的爭議將在法庭上展開最後的審判，陪審團將做出最終的判斷。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0e90bbc1",
-        "title": "陪審團裁定埃隆·馬斯克在與Sam Altman、OpenAI的法庭爭議中失利",
-        "url": "https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html",
-        "source": "Cnbc",
-        "category": "ai",
-        "published_at": "2026-05-18 17:32:39",
-        "summary_zh": "埃隆·馬斯克與Sam Altman、OpenAI在人工智慧領域的法庭爭議已經結束。陪審團在三周內完成了審判，裁定馬斯克在這場爭議中失利。這場爭議涉及兩位人工智慧領域的重量級人物，展現了人工智慧領域的法律爭議日益增多的趨勢。這項裁定對人工智慧領域的發展可能會產生重大影響，可能會影響未來的人工智慧研究和應用。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "36b60c44",
         "title": "馬斯克與阿爾特曼之爭：AI 未來的領導者是錯誤的人",
         "url": "https://www.theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people",
@@ -468,6 +518,78 @@
         "ai_classified": true
       },
       {
+        "id": "0e90bbc1",
+        "title": "陪審團裁定埃隆·馬斯克在與Sam Altman、OpenAI的法庭爭議中失利",
+        "url": "https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html",
+        "source": "Cnbc",
+        "category": "ai",
+        "published_at": "2026-05-18 17:32:39",
+        "summary_zh": "埃隆·馬斯克與Sam Altman、OpenAI在人工智慧領域的法庭爭議已經結束。陪審團在三周內完成了審判，裁定馬斯克在這場爭議中失利。這場爭議涉及兩位人工智慧領域的重量級人物，展現了人工智慧領域的法律爭議日益增多的趨勢。這項裁定對人工智慧領域的發展可能會產生重大影響，可能會影響未來的人工智慧研究和應用。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "447d22f8",
+        "title": "埃隆·穆斯克對OpenAI的訴訟告敗：為什麼他失去了這場官司?",
+        "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Tue, 19 May 2026 00:53:10 +0000",
+        "summary_zh": "埃隆·穆斯克在與OpenAI的官司中遭遇重大打擊。美國一名陪審員出示了一致意見書，認為穆斯克對OpenAI的訴訟提起太晚，根據相關的法律時效，穆斯克的訴訟遭到否決。美國聯邦地區法院法官Yvonne Gonzalez Rogers 立即接受了這一意見書。穆斯克在社交平台X上宣布，他將會對這一裁決提出上訴。這一裁決對穆斯克來說是一個重大打擊，尤其是在他與OpenAI的關係緊張的背景下。穆斯克曾經在2023年5月宣布，他將會對OpenAI進行收購，但遭到OpenAI的拒絕。穆斯克的收購意圖被認為是對OpenAI的競爭對手，導致OpenAI拒絕收購。這一裁決可能會對穆斯克的未來行動產生影響，尤其是在他與OpenAI的關係中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a2739142",
+        "title": "谷歌本週預期",
+        "url": "https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Mon, 18 May 2026 17:35:43 +0000",
+        "summary_zh": "谷歌即將於明日開啟其年度開發者研討會I/O，然而在基於模型的競賽中，谷歌將處於第三名的位置。去年谷歌I/O的時候，谷歌仍然被視為人工智慧領域的領導者，但如今已經被微軟和Meta超越。谷歌將會透露其新一代基於模型的技術，包括語言模型和視覺模型等。這些新技術將會被應用在谷歌的各個業務領域，包括搜索、廣告和語言翻譯等。谷歌的競爭對手們將會密切關注谷歌的新技術，為了保持競爭力。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "49b9a824",
+        "title": "MIT內部專家小組的關鍵訊息",
+        "url": "https://www.technologyreview.com/2026/05/18/1137430/the-signals-that-matter-mit-insiders-panel/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Mon, 18 May 2026 16:57:44 +0000",
+        "summary_zh": "MIT內部專家小組的「The Signals That Matter」是一個關於訊息和趨勢的討論平台。這個平台邀請了MIT的專家和學者來分享他們對於當前的趨勢和未來發展的看法。這些專家將分享他們對於人工智慧、機器學習、資料科學和其他相關領域的最新研究和發現。通過這個平台，參與者將能夠了解最新的趨勢和發展，並且與其他專家和學者進行交流和討論。這將對於了解未來的發展趨勢和趨勢分析具有重要意義。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2a9530d6",
+        "title": "安德里爾與元宇宙合作開發軍用智能眼鏡",
+        "url": "https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Mon, 18 May 2026 16:01:39 +0000",
+        "summary_zh": "安德里爾是一家防禦科技公司，與元宇宙合作開發了一款軍用智能眼鏡。這款眼鏡的設計包括使用眼動追蹤和語音指令來下令無人機攻擊。安德里爾副總裁凱文·巴內特（Quay Barnett）表示，他的核心目標是創造一個能夠與現代戰爭環境相適應的系統。這款眼鏡將能夠提供實時戰場資訊、協助軍事人員進行戰術決策，並且能夠與其他裝置進行無線連接。這項合作項目的最終目標是為軍隊提供更有效的戰鬥工具。然而，這項技術的發展也引發了對隱私和安全性的擔憂。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cd0f35b4",
+        "title": "馬斯克與阿爾曼周三：馬斯克與阿爾曼互相攻擊對方的可信度，現在陪審團將做出判決",
+        "url": "https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Mon, 18 May 2026 12:10:00 +0000",
+        "summary_zh": "馬斯克與阿爾曼在法庭上互相攻擊對方的可信度，現在陪審團將做出判決。馬斯克與阿爾曼的爭議在法庭上展開了三周，現在在最後一周的審判中，陪審團將做出判斷。馬斯克與阿爾曼的爭議涉及可信度、誠實和誠實性等問題。馬斯克與阿爾曼的爭議對於科技業的發展和未來的影響將是關鍵的。馬斯克與阿爾曼的爭議將在法庭上展開最後的審判，陪審團將做出最終的判斷。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "1a8984cc",
         "title": "埃隆·馬斯克在對OpenAI的訴訟中失利",
         "url": "https://www.wired.com/story/musk-v-altman-jury-verdict/",
@@ -490,9 +612,129 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "a8b53438",
+        "title": "埃隆·馬斯克又輸了一場官司。還會繼續打下去嗎？",
+        "url": "https://www.bbc.com/news/articles/cqlpz4w6v13o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "ai",
+        "published_at": "Tue, 19 May 2026 06:46:46 GMT",
+        "summary_zh": "埃隆·馬斯克近日在對開放式人工智慧（OpenAI）公司的訴訟中敗訴，這是他一連串法庭敗仗中的最新一案。馬斯克的律師團隊一直在為他辯護，但這次敗訴可能會對他的聲譽造成一定影響。馬斯克的財富和影響力在近年來一直在增長，但他也面臨著多起訴訟和爭議事件。這次敗訴可能會讓馬斯克重新評估他的訴訟策略和風險承受能力。馬斯克是否會繼續打下去，還有待觀察，但這次敗訴可能會對他的形象造成一定影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a50e7ab7",
+        "title": "前Google CEO Eric Schmidt 因提及人工智慧遭學生喝倒采",
+        "url": "https://www.bbc.com/news/articles/ce8pqd54qneo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "ai",
+        "published_at": "Mon, 18 May 2026 15:16:00 GMT",
+        "summary_zh": "近日，一場大學畢業典禮上，前Google CEO Eric Schmidt 在演講中提及人工智慧（AI）時遭到學生喝倒采。這一事件表明學生對AI對工作和未來職業生涯的影響感到日益擔憂。這種擔憂是由於人工智慧的快速發展和廣泛應用，正在改變許多傳統職業，甚至威脅到一些人的工作崗位。學生們對此感到擔憂的原因之一是，人工智慧的進步可能會取代一些人類的工作，從而導致就業市場的不穩定。另一方面，人工智慧也帶來了許多新的就業機會和創造力，這使得學生們對未來感到充滿希望。然而，學生們對AI的擔憂也表明了對未來的不確定性和無法預測的變化。這種不確定性使得學生們感到焦慮和擔憂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "66a6e135",
+        "title": "聯發科啟動高階主管到職發展計畫 獲國際人才協會獎",
+        "url": "https://www.cna.com.tw/news/afe/202605190195.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 19 May 2026 15:06:53 +0800",
+        "summary_zh": "聯發科最近啟動了一個高階主管到職發展計畫，目的是幫助新任主管快速融入企業文化並加速人才價值的發揮。這個計畫的目標是為企業帶來實質效益。聯發科獲得了國際人才發展協會（ATD）的卓越實務獎，表彰其人才發展的卓越成績。這個獎項是由國際人才協會頒發的，旨在表彰企業在人才發展方面的卓越成績。聯發科的這個計畫是為了應對人才競爭日益激烈的市場環境，通過提供高質量的培訓和發展機會來吸引和留住人才。這個計畫的成功是聯發科在人才發展方面的一大突破，將為企業帶來長期的競爭優勢。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "0647c9fb",
+        "title": "日股收盤東證反彈 AI概念股走跌拖累日經",
+        "url": "https://www.cna.com.tw/news/afe/202605190193.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 19 May 2026 15:03:48 +0800",
+        "summary_zh": "日股收盤東證股價指數今天由銀行類股領軍衝鋒，終場反彈收高。投資人因擔憂估值過高而將資金輪動至其他板塊，導致人工智慧（AI）相關概念股紛紛走跌，拖累日經225指數表現。這一波資金輪動使得銀行類股的表現相對較好，而AI概念股則受到影響。投資人對AI概念股的估值感到擔憂，導致這些股價下跌。這一波市場變化使得日經225指數表現不佳。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "ae7a1f32",
+        "title": "權值股記憶體族群賣壓重 台股跌716點失守月線",
+        "url": "https://www.cna.com.tw/news/afe/202605190188.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 19 May 2026 14:56:38 +0800",
+        "summary_zh": "台股今天在台積電、聯發科等權值股走弱，以及記憶體族群重挫下，開低震盪走低。這些權值股的走弱導致整體市場氣氛不佳，資金轉移至低基期股。台股終場下跌716.26點，收在40175.56點，失守40235點月線關卡。分析師認為，台股漲多後拉回，資金轉移至低基期股，這是市場的一個正常過程。另外，後續觀察輝達財報，6月電腦展將支撐AI題材。這些因素將對市場產生一定的影響，投資者需要密切關注市場的變化。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "5026630f",
+        "title": "Meta啟動全球裁員 AI組織調整引員工反彈",
+        "url": "https://www.cna.com.tw/news/aopl/202605190184.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 19 May 2026 14:42:29 +0800",
+        "summary_zh": "臉書母公司Meta近日向員工發送備忘錄，宣布將在全球進行裁員計畫。這次裁員的原因是為了配合新一波的組織架構調整，目的是改善人工智慧（AI）工作流程。這項調整將對全球員工產生影響，引起了員工的反彈。Meta的裁員計畫將在本週實施，公司正在努力將人力資源調整到合適的位置，以應對未來的競爭。這項變革將對公司的運作產生重大影響，員工將需要適應新的工作環境和流程。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "ba37e146",
+        "title": "5月電子期跌 金融期漲",
+        "url": "https://www.cna.com.tw/news/afe/202605190170.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 19 May 2026 13:57:58 +0800",
+        "summary_zh": "台北股市今天下跌716.26點，收40175.56點。電子期商品市場也出現下跌，5月電子期收2604.05點，下跌47.05點。然而，金融期商品市場則出現上漲，5月金融期收2542.60點，上漲27.60點。這些變化可能與市場對經濟情勢的預期和投資者對不同行業的信心有關。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "fe1fb436",
+        "title": "台股跌716點失守月線 權值股疲軟記憶體族群重挫",
+        "url": "https://www.cna.com.tw/news/afe/202605190169.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 19 May 2026 13:56:56 +0800",
+        "summary_zh": "台股今天開低震盪，終場下跌716.26點，收在40175.56點，失守40235點月線關卡。權值股台積電終場下跌35元，收2205元，聯發科跌逾7%。記憶體族群也重挫，台股今天的下跌主要是由於這些族群的疲軟。這次的下跌可能會對市場造成一定的影響，投資者需要密切關注市場的變化。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "99fb841d",
+        "title": "5月台股期指跌549點",
+        "url": "https://www.cna.com.tw/news/afe/202605190168.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 19 May 2026 13:55:54 +0800",
+        "summary_zh": "台北股市今天終場跌716.26點，收40175.56點。5月台指期以40248點作收，下跌549點，與現貨相較，正價差72.44點。這意味著投資者對台股未來趨勢有著相對樂觀的預期。然而，市場的波動仍然存在，投資者需要密切關注市場動態。根據市場分析師的評估，台股未來仍將面臨挑戰，投資者需要謹慎評估風險並制定合理的投資策略。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "067c7594",
+        "title": "台股跌716.26點",
+        "url": "https://www.cna.com.tw/news/afe/202605190163.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 19 May 2026 13:46:43 +0800",
+        "summary_zh": "台北股市今天開低走低，收盤跌716.26點，為40175.56點，跌幅1.75%，成交金額新台幣1兆880.73億元。這次市場下跌的原因尚未明朗，但市場分析師認為，外資賣壓和投資人對未來市場趨勢的不確定性可能是主要原因。台股的跌幅雖然不大，但仍然引起市場關注。投資人需要密切關注市場變化，準備好面對未來的風險和機會。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "4e6b0593",
         "title": "2026年全球新創生態系指數 台灣首度進入全球前20",
@@ -574,91 +816,7 @@
         "published_at": "Tue, 19 May 2026 12:15:06 +0800",
         "summary_zh": "日本今年首季經濟成長達0.5%，超越市場預期的0.4%。這項數字表明日本經濟在今年初期仍然保持著相對穩定的趨勢。然而，值得注意的是，這項數字尚未反映中東戰爭對能源價格的影響。中東戰爭的爆發已經導致全球能源價格大幅上升，對於日本的經濟發展可能會產生重大影響。日本政府和經濟學家都在關注這項問題，預計能源價格的上升將會對日本的經濟產生不利影響。因此，這項數字的優於預期並不代表日本經濟的長期趨勢。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "b9ae5a71",
-        "title": "新台幣午盤重貶1角 暫收31.645元",
-        "url": "https://www.cna.com.tw/news/afe/202605190115.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 19 May 2026 12:05:57 +0800",
-        "summary_zh": "台北外匯市場新台幣兌美元今天中午暫收31.645元，重貶1角。這是因為市場對台幣的需求下降，導致新台幣兌美元的匯率下滑。根據市場消息，成交金額達11.98億美元，表明市場交易活躍度不低。然而，新台幣的貶值可能會對台灣的出口業有所影響，進而影響整體經濟。市場觀察人士預計，未來新台幣的匯率會持續波動，投資者需要密切關注市場變化。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "d22cf5c8",
-        "title": "台股盤中下跌近600點測試月線支撐 記憶體族群重挫",
-        "url": "https://www.cna.com.tw/news/afe/202605190105.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 19 May 2026 11:42:36 +0800",
-        "summary_zh": "台股今天盤中下跌近600點，測試月線約40250點的支撐，力守4萬點關卡。台積電等權值股疲軟，記憶體族群則重挫，股后穎崴跌約6%，盤中失守萬元關卡。這使得獨留的股王信驊力守，打破了「雙萬金」局面。記憶體族群的下跌可能與全球記憶體市場的需求減少有關。這次的台股下跌可能是由於市場對全球經濟的不確定性和美股的下跌所致。市場將密切關注台股的走勢和全球經濟的發展。",
-        "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "25edafcd",
-        "title": "徐旭東未出席股東會 關稅戰爭衝擊東聯盼第2季轉盈",
-        "url": "https://www.cna.com.tw/news/afe/202605190069.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 19 May 2026 11:09:19 +0800",
-        "summary_zh": "東聯化學今天舉行股東會，董事長徐旭東因身體不適未出席，由副董事長席家宜主持。席家宜表示，美國總統川普實施對等關稅，造成全球市場波動，今年又有美伊戰爭，促使原料上漲，石化業供應鏈不穩。儘管如此，東聯化學營運還算順利，首季虧損不大，公司期盼第2季可以轉虧為盈。這是因為公司認為，市場情況會在未來有所改善，原料價格也會下降。東聯化學的股東會上，席家宜還提到，公司正在努力減少成本和提高效率，以應對市場挑戰。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "833b0953",
-        "title": "澳媒肯定台灣推動非紅供應鏈",
-        "url": "https://www.cna.com.tw/news/aopl/202605190066.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 19 May 2026 11:02:13 +0800",
-        "summary_zh": "在澳洲財政部下令中資股東出售澳洲稀土開發商「北方礦業」股權之際，台灣經濟部的一個代表團正在澳洲展開訪問行程。澳洲媒體認為，這是台灣向澳洲及國際社會推動「非紅供應鏈」的良好時機。這項政策旨在減少對中國的依賴，改善供應鏈的安全性和可靠性。台灣政府正致力於推動非紅供應鏈，減少對中國的依賴，同時也希望與澳洲等國家加強經濟合作。這項政策對於台灣的經濟發展和安全性有重要影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a0329f26",
-        "title": "和大沈國榮擬入主格斯科技 布局電池儲能櫃軍工無人機",
-        "url": "https://www.cna.com.tw/news/afe/202605190061.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 19 May 2026 10:51:02 +0800",
-        "summary_zh": "和大總裁沈國榮宣布，和大已參與格斯科技私募，取得15%的股權。這意味著和大集團將進一步強化關鍵電池和儲能櫃的版圖。同時，沈國榮表示，和大集團計畫布局馬達及底盤產品，完善車用關鍵零配件的拼圖。這一系列的行動，顯示和大集團正在積極擴展其業務範圍，進入軍工無人機領域。這一發展可能會對電池和儲能櫃的市場產生重大影響，同時也會對軍工無人機的發展帶來新的競爭者。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "57e2edcf",
-        "title": "群聯完成首次海外可轉債 籌8億美元布局AI儲存平台",
-        "url": "https://www.cna.com.tw/news/afe/202605190039.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 19 May 2026 09:48:15 +0800",
-        "summary_zh": "群聯完成首次海外無擔保可轉換公司債（ECB）定價，募集8億美元。這筆資金將全數用於外幣購料，支持群聯持續拓展全球儲存控制晶片與儲存解決方案業務需求。這項融資將有助於群聯在全球市場上擴大業務，特別是在人工智慧（AI）儲存平台的領域。群聯的這項舉措表明了該公司對未來發展的信心和願景。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5499225b",
-        "title": "新台幣開盤貶2.5分為31.57元",
-        "url": "https://www.cna.com.tw/news/afe/202605190027.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 19 May 2026 09:04:48 +0800",
-        "summary_zh": "台北外匯市場新台幣兌美元匯率今天以31.57元開盤，貶2.5分。這意味著新台幣相對美元的價值下跌。根據市場分析，新台幣貶值主要是由於美元的強勢以及台幣供求不平衡所導致。這種情況可能會對台湾的出口業界造成一定的影響，尤其是那些依賴美元收入的企業。然而，目前尚未有明確的跡象表明這種情況會對整體經濟產生重大影響。市場觀察人士預計，新台幣的匯率可能會在未來的幾天內出現一定的波動，但仍需要密切關注美元的走勢。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -700,6 +858,18 @@
         "ai_classified": true
       },
       {
+        "id": "b9879fde",
+        "title": "美國CDC確認非洲一名美國人確診埃博拉病毒，美國風險仍低",
+        "url": "https://www.cnbc.com/2026/05/18/ebola-outbreak-american-tests-positive-in-congo.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-05-18 19:42:11",
+        "summary_zh": "美國疾病控制與預防中心（CDC）宣布，一名美國公民在非洲確診埃博拉病毒。儘管如此，美國疾病控制與預防中心表示，目前尚未在美國確認與埃博拉爆發相關的病例。美國公民的風險仍然很低，美國疾病控制與預防中心強調，美國公民前往非洲的風險也很低。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "8d5e8843",
         "title": "我們提高了2家網路安全公司的股價目標",
         "url": "https://www.cnbc.com/2026/05/18/were-raising-price-targets-on-two-cyber-stocks-after-their-hard-fought-recovery.html",
@@ -708,8 +878,8 @@
         "published_at": "2026-05-18 18:57:30",
         "summary_zh": "投資俱樂部每個工作日都會發布《終點站》(Homestretch)，這是一份具體行動的下午更新，正好在交易最後一小時發布。根據這份更新，投資俱樂部決定提高了2家網路安全公司的股價目標。這兩家公司在最近的反彈中取得了顯著的成績，投資俱樂部認為這些公司的價格仍有上升空間。投資俱樂部的分析師們認為，這些公司的技術和市場地位使得它們具有競爭力，並且有望繼續成長。這個決定將對投資者產生重大影響，投資者應該密切關注這些公司的發展。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "e5675463",
@@ -720,8 +890,8 @@
         "published_at": "2026-05-18 18:41:22",
         "summary_zh": "梅麗莎·門塔（Melissa Menta）曾擔任國家美式足球聯盟（NFL）的球員運營部經理，這是她夢寐以求的職位。但她卻突然決定放棄這份工作，開始攻讀法律博士。梅麗莎表示，她的決定是基於對未來的不安和對自己能力的信心。她認為，自己已經達到 NFL 的頂峰，但仍然有很多未知的領域需要她去探索。梅麗莎的轉行決定讓她得以重新定義自己，追求新的挑戰和機會。這個故事告訴我們，當我們感到不安和不滿時，冒險和轉行可能是解決問題的關鍵。梅麗莎的經歷也讓我們看到，轉行不一定是失敗，而是重新定義自己和追求新機會的機會。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "d035e070",
@@ -794,18 +964,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "e2708407",
-        "title": "午市最大漲跌股票：Regeneron、Dominion、Mobileye、Viking 等",
-        "url": "https://www.cnbc.com/2026/05/18/stocks-making-the-biggest-moves-midday-regn-d-mbly-vik.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-05-18 15:52:10",
-        "summary_zh": "午市交易中出現最大幅度波動的股票包括Regeneron、Dominion、Mobileye、Viking等。這些股票的股價變化引起了投資者的關注。根據目前的資料，Regeneron的股價上漲了 5%，而Dominion的股價則下跌了 3%。Mobileye的股價上漲了 2%，Viking的股價下跌了 1%。這些股價變化可能與公司的財務表現、市場趨勢或其他因素有關。投資者應該密切關注這些股票的發展，以便做出明智的投資決策。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "stock_us": [
@@ -818,8 +976,8 @@
         "published_at": "2026-05-18 18:35:59",
         "summary_zh": "在馬斯克與OpenAI的法庭戰役中失利後，CNBC的Kelly Evans與Wall Street Journal的Tim Higgins進行了討論。 Higgins 表示，馬斯克案件讓他認識了OpenAI的創始人Sam Altman是一個說謊者。 Higgins 說，Altman 在法庭上對馬斯克的言論進行了反駁，顯示出他是一個善於說話的人，但 Higgins 仍然認為 Altman 是一個說謊者。 這樁事件讓 Higgins 對 Altman 有了新的看法，他認為 Altman 的說話是有意隱瞞事實的。 Higgins 的看法引起了爭議，許多人認為他對 Altman 的評價過於嚴厲。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "70bc1040",
@@ -830,8 +988,8 @@
         "published_at": "2026-05-18 18:33:36",
         "summary_zh": "美國財經科技公司Clear Street的CEO突然離職，公司也宣布裁員。根據消息，公司原計劃上市，但最後決定取消上市計畫。這次裁員是公司調整後續發展計畫的一部分。分析人士認為，取消上市計畫可能是因為市場環境不佳，公司難以吸引投資者。這次裁員對公司未來發展可能會產生一定的影響。目前尚未知曉公司將如何繼續發展，是否會尋找新的CEO。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "d0d01522",
@@ -914,116 +1072,6 @@
         "published_at": "2026-05-18 15:39:27",
         "summary_zh": "美國聯邦通信委員會(FCC)主席 Brendan Carr 近日接受節目 'Squawk on the Street' 訪問，討論了委員會對 EchoStar 的 40 億美元出售無線頻譜給 AT&T 和 SpaceX 的批准。這項交易將對美國的無線通信產業產生重大影響。委員會也在與迪士尼的爭議中發表了意見。根據 FCC 的批准，EchoStar 將出售其無線頻譜給 AT&T 和 SpaceX，交易總額達 40 億美元。這項交易將使 AT&T 和 SpaceX 擁有更多的無線頻譜資源，從而提高其無線通信服務的質量和覆蓋範圍。委員會的批准也表明了對於推動無線通信產業發展的支持。另一方面，委員會也在與迪士尼的爭議中發表了意見，表明了對於保護消費者權益的關注。委員會的決定將對美國的無線通信產業產生重大影響，將進一步推動產業的發展。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "61af27af",
-        "title": "川普與馬西之間的戰鬥：共和黨內的政敵能否抵禦20萬美元的攻擊?",
-        "url": "https://www.bbc.com/news/articles/cz924g45530o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 21:39:45 GMT",
-        "summary_zh": "美國總統川普的共和黨政敵馬西將於週二面對共和黨選民。馬西與川普在聯邦開支和埃普斯坦檔案上有分歧。共和黨內部的競爭可能會對馬西的政治前景產生重大影響。馬西能否抵禦川普對他的攻擊，將在未來的選舉中展現。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5446aa30",
-        "title": "川普稱因海灣國家要求暫緩對伊朗的新攻擊",
-        "url": "https://www.bbc.com/news/articles/c7079e55zjro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 22:30:58 GMT",
-        "summary_zh": "美國總統川普宣布暫緩美國對伊朗的新攻擊行動，原因是「正進行嚴肅的談判」。這項決定出於海灣國家的要求，川普表示這些國家的要求對美國的決策產生了重大影響。美國原先計畫在週二對伊朗進行攻擊，但隨著談判的進行，川普決定暫緩這項行動。這項決定可能會對伊朗和美國之間的關係產生重大影響，同時也會對全球政治局勢產生影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "05dcf053",
-        "title": "紐約繁忙時段出現大混亂，地鐵系統全面停駛",
-        "url": "https://www.bbc.com/news/articles/cdjp839lxzvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 19 May 2026 02:04:25 GMT",
-        "summary_zh": "紐約市近百萬市民遭遇了難以忍受的通勤之苦。地鐵工人繼續進行罷工，要求更好的薪水和工作規則。這次罷工導致紐約市的繁忙時段出現大混亂，市民被迫改乘巴士或其他交通工具。這種情況對紐約市的交通和經濟造成了重大影響。市民們紛紛批評政府應該儘快解決這個問題，確保市民的生活不受影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "902b7180",
-        "title": "法官判決：路易吉·曼戈尼的槍枝和筆記可在紐約謀殺案審判中呈堂",
-        "url": "https://www.bbc.com/news/articles/cx21g6qz45xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 16:00:17 GMT",
-        "summary_zh": "路易吉·曼戈尼謀殺案正在紐約進行審判。法官判決，曼戈尼在賓夕法尼亞的一家麥當勞被查獲的槍枝和筆記可在審判中呈堂。然而，法官也判決，其他與曼戈尼在該處被查獲的物品不允許在審判中呈堂。這項判決可能對曼戈尼的審判產生重大影響。曼戈尼謀殺案的背景是，曼戈尼被指控謀殺某人。這項判決可能會讓檢方有更多的證據來支持指控。曼戈尼的律師可能會爭辯這些證據不夠可靠或不相關。最終，法官的判決將決定曼戈尼的審判結果。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "350596c2",
-        "title": "特朗普政府公佈 17 億美元基金，為其盟友提供賠償，同時放棄稅務訴訟",
-        "url": "https://www.bbc.com/news/articles/cvgzr7vr203o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 19:53:31 GMT",
-        "summary_zh": "特朗普政府宣佈了一項 17 億美元的基金，旨在為那些主張自己遭受不公平調查的個人提供賠償。這項基金的建立是為了結束特朗普對聯邦稅務局的訴訟。這項訴訟是由特朗普及其盟友發起的，指控聯邦稅務局對其進行不公平的調查。這項基金的建立被視為是一項政治交易，將為特朗普及其盟友帶來財務上的好處。這項交易的影響可能會延伸到美國政治的未來發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "46441bfa",
-        "title": "川普將撤回對美國稅務局的10億美元訴訟，與談判中達成協議，為盟友提供1.7億美元補償",
-        "url": "https://www.theguardian.com/us-news/live/2026/may/18/donald-trump-redistricting-south-carolina-iran-healthcare-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 19 May 2026 01:44:29 GMT",
-        "summary_zh": "川普決定撤回對美國稅務局的10億美元訴訟，這一決定出現於美國政治新聞中。根據報導，川普可能會在與稅務局達成協議後撤回訴訟，協議將提供1.7億美元用於補償他聲稱遭到錯誤針對的個人。這一決定出現在訴訟案件的20日截止日期前兩天，法官要求雙方提交書面文件，確認訴訟案件是否存在合理爭議。川普控制美國稅務局，因此這一要求非常重要。川普的律師在一份簡短的申請中表示，於訴訟案件撤回後，法官不需要進行任何司法分析。這一決定可能意味著川普正在與稅務局進行談判，以達成協議並補償他所聲稱的受害者。然而，具體的協議內容尚未公布。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "009511ee",
-        "title": "特朗普放棄10億美元訴訟，創設17億美元「反軍事化」基金",
-        "url": "https://www.theguardian.com/us-news/2026/may/18/trump-dismiss-10-billion-dollar-irs-lawsuit",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 19 May 2026 01:09:15 GMT",
-        "summary_zh": "民主黨批評這項協議是一個「垃圾桶基金」，將稅款轉移到總統的政治盟友身上。美國司法部於週一宣佈，將成立一個不受嚴格控制的秘密基金，總額達17.76億美元，用於補償特朗普的盟友。這項基金是特朗普和他的兒子放棄對美國稅務局的10億美元訴訟的一部分。這項基金將由五名委員會負責管理，其中四名委員由司法部長任命，並由特朗普撤換；另外一名委員將與國會領袖協商任命。這項基金還有權發表「正式道歉」，並每季度向美國總檢察長提交一份機密報告，列明誰從這項基金領取了款項。基金的工作不需要公開。民主黨批評這項協議是一個「垃圾桶基金」，將稅款轉移到總統的政治盟友身上。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "63c99ce8",
-        "title": "特朗普宣布擴大TrumpRx.gov，為美國民眾提供藥物價格透明度和選擇權",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/05/fact-sheet-president-donald-j-trump-announces-expansion-of-trumprx-gov-to-bring-americans-transparency-and-choice-on-everyday-medicines/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 21:35:41 +0000",
-        "summary_zh": "美國總統特朗普宣布擴大TrumpRx.gov，為美國民眾提供藥物價格透明度和選擇權。這項措施旨在降低美國民眾的藥物費用，讓更多人能夠獲得便宜的藥物。特朗普政府認為，這項措施將推動藥物購買過程的革新，促進藥物價格的競爭和透明度。這項政策的推出將為美國民眾提供更好的藥物選擇權和更低的藥物費用。這項措施將對美國民眾的健康和財政有重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f83e5d62",
-        "title": "川普總統的智慧財產交易和市場大漲證明美國優先政策有效",
-        "url": "https://www.whitehouse.gov/releases/2026/05/president-trumps-intel-deal-and-soaring-markets-prove-america-first-works/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 18 May 2026 19:00:31 +0000",
-        "summary_zh": "川普總統的美國優先政策正在為美國人民帶來豐厚回報，將戰略政府行動轉化為巨額稅款收益，同時推動股市大幅上漲。川普總統在最新的福布斯訪談中，突出了他去年取得的英特爾協議為例，證明市場復甦的成果。這項協議對美國的經濟發展產生了重大影響，同時也對全球市場產生了深遠的影響。這項成就證明了川普總統的美國優先政策正在有效推動美國經濟的發展。然而，這項政策也引發了許多爭議和批評，許多人認為這項政策會導致保護主義和貿易戰的升級。總的來說，這項成就證明了川普總統的政策正在為美國人民帶來好處，但也引發了許多關注和疑慮。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       }
