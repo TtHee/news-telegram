@@ -1,62 +1,778 @@
 {
-  "generated_at": "2026-05-21T01:17:58.430495+08:00",
+  "generated_at": "2026-05-21T02:15:31.020100+08:00",
   "risk_signals": [
     "🟢 台股加權 40175.56（正常）",
-    "🟢 S&P 500 7415.84（正常）",
-    "🟢 VIX 恐慌指數 17.69（正常）",
+    "🟢 S&P 500 7420.26（正常）",
+    "🟢 VIX 恐慌指數 17.59（正常）",
     "🟢 MOVE 債市波動 85.32（正常）",
-    "🟢 美元指數 99.13（正常）",
-    "🟢 黃金 4537.0（正常）",
-    "🟡 美債10Y殖利率 4.58（留意）",
-    "🟢 原油 WTI 97.82（正常）",
+    "🟢 美元指數 99.17（正常）",
+    "🟢 黃金 4535.6（正常）",
+    "🟡 美債10Y殖利率 4.59（留意）",
+    "🟢 原油 WTI 98.2（正常）",
     "🟢 美元/台幣 31.57（正常）"
   ],
-  "ai_summary": "市場指標顯示市場整體趨於穩定，但美債10年殖利率略有上升，需要留意。目前市場風險偏好保持穩定，投資者可持續觀望市場發展。",
+  "ai_summary": "市場氛圍保持穩定，多個指標處於正常水平。然而，美債10年殖利率偏高，值得關注。",
   "market": {
     "TWII": {
       "price": 40175.56,
       "change_pct": -1.75
     },
     "SP500": {
-      "price": 7415.84,
-      "change_pct": 0.85
+      "price": 7420.26,
+      "change_pct": 0.91
     },
     "NASDAQ": {
-      "price": 26177.57,
-      "change_pct": 1.19
+      "price": 26212.16,
+      "change_pct": 1.32
     },
     "VIX": {
-      "price": 17.69,
-      "change_pct": -2.05
+      "price": 17.59,
+      "change_pct": -2.6
     },
     "TNX": {
-      "price": 4.58,
-      "change_pct": -1.82
+      "price": 4.59,
+      "change_pct": -1.63
     },
     "MOVE": {
       "price": 85.32,
       "change_pct": -0.87
     },
     "DXY": {
-      "price": 99.13,
-      "change_pct": -0.17
+      "price": 99.17,
+      "change_pct": -0.14
     },
     "GOLD": {
-      "price": 4537.0,
-      "change_pct": 0.68
+      "price": 4535.6,
+      "change_pct": 0.65
     },
     "OIL": {
-      "price": 97.82,
-      "change_pct": -9.23
+      "price": 98.2,
+      "change_pct": -8.88
     },
     "USDTWD": {
       "price": 31.57,
-      "change_pct": 0.04
+      "change_pct": 0.06
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "8c4aff48",
+        "title": "羅森堡：普京在習近平的中國歡迎中感到滿意，但沒有達成天然氣管道協議回國",
+        "url": "https://www.bbc.com/news/articles/c8r8me3nlllo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 16:34:40 GMT",
+        "summary_zh": "在習近平的中國歡迎下，普京似乎感到滿意，但他最終沒有與中國達成天然氣管道協議回國。BBC俄羅斯編輯羅森堡表示，俄羅斯和中國在全球舞台上表現出肩並肩的姿態，但也顯示出有界限。這次會面被視為兩國關係的重要里程碑，雙方在能源、安全和經濟等領域達成了一些共識，但天然氣管道協議的落空顯示出仍有許多挑戰。這次會面對俄羅斯和中國關係的未來影響有著重大意義，將會對全球能源市場和地緣政治產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a6d84473",
+        "title": "美國軍機和無人機在古巴附近被跟蹤",
+        "url": "https://www.bbc.com/news/articles/cjep1wx7w0ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 15:36:03 GMT",
+        "summary_zh": "近日，古巴附近出現美國海軍偵察機和無人機的飛行活動。根據追蹤資料顯示，美國海軍偵察機和無人機在過去一周內進行了數次飛行。這一事件引發了對美古關係的關注，古巴政府已經對此表示了不滿。美國軍方的行動被視為對古巴的軍事威脅，古巴政府可能會對此做出回應。這一事件也引發了對美古關係的緊張情緒，可能會對兩國的關係產生重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "bfc86ab2",
+        "title": "極右翼以色列部長遭譴責　在港口拘留的加沙船隊活動家遭他嘲諷",
+        "url": "https://www.bbc.com/news/articles/clyp32weyn8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 17:58:07 GMT",
+        "summary_zh": "近日，一段視頻引起了國際社會的關注，內容是以色列極右翼部長伊特馬爾·本·古維爾（Itamar Ben-Gvir）在港口拘留的加沙船隊活動家面前嘲諷他們。法國和義大利等國都對此表達了批評。根據視頻顯示，伊特馬爾·本·古維爾在拘留活動家時，對他們進行了嘲諷和侮辱。這一事件引起了國際社會的廣泛關注，許多人對以色列政府的行為表達了強烈的不滿。這一事件也引發了關於以色列對加沙船隊活動家的處理方式的爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ff647adf",
+        "title": "世衛組織警告，埃博拉病毒病例數將不斷上升",
+        "url": "https://www.bbc.com/news/articles/cwy2g197dp8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 15:18:12 GMT",
+        "summary_zh": "根據世界衛生組織的最新報告，埃博拉病毒已經導致 139 人死亡，共有 600 起病例。世衛組織警告，這些數字將不斷上升。埃博拉病毒的爆發已經成為全球的關注焦點，各國政府和衛生機構正在努力控制疫情。這次疫情的爆發地點尚未明確，但已經有多個國家報導了相關病例。世衛組織呼籲各國政府和民眾提高警覺，防止疫情擴散。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3a958e05",
+        "title": "香蕉王子之死：謀殺還是意外？",
+        "url": "https://www.bbc.com/news/articles/cwy2g09yvgmo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 15:44:41 GMT",
+        "summary_zh": "瑞典富商伊薩克·安迪克（Isak Andic）在去年夏天去世，死因被懷疑是謀殺。他的兒子約翰遜（Jonathan）否認涉及父親的死亡。伊薩克·安迪克是瑞典最大的服裝帝國之一的創始人，他的家族企業在全球有大量業務。約翰遜被捕後，警方開始調查伊薩克·安迪克的死因。目前尚未有任何證據表明約翰遜涉及父親的死亡。伊薩克·安迪克的死因仍然是一個謎團，需要進一步調查和證據來解決。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e79ef0e1",
+        "title": "丹麥島上的鯨魚將被移除",
+        "url": "https://www.bbc.com/news/articles/c62xrkre9vzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 16:07:24 GMT",
+        "summary_zh": "丹麥官員將對鯨魚進行驗屍檢查，鯨魚在超過兩週前從一艘貨船上被釋放入海中。這起事件是由於德國的救援行動失敗所導致。鯨魚的健康狀況在釋放後迅速惡化，最終導致死亡。這起事件引起了國際社會的關注，許多人對德國的救援行動表示不滿。丹麥官員將對鯨魚的死亡原因進行調查，並將采取措施防止類似事件再次發生。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "84f31e24",
+        "title": "立陶宛領導人在無人機警報期間避難",
+        "url": "https://www.bbc.com/news/articles/c9d3vpqqqpeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 10:53:19 GMT",
+        "summary_zh": "立陶宛領導人在無人機警報期間避難。該國領導人在懷疑無人機出現在白俄羅斯邊境後，下令暫停飛機航班，並要求民眾避難。這一事件發生在立陶宛與白俄羅斯邊境附近。立陶宛領導人在無人機警報期間避難，表明該國對安全威脅的關注。這一事件可能與白俄羅斯與立陶宛之間的緊張關係有關。立陶宛領導人在無人機警報期間避難，顯示該國對安全威脅的重視。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6ce98320",
+        "title": "馬爾地夫洞穴發現最後兩具意大利失蹤者遺體",
+        "url": "https://www.bbc.com/news/articles/cpdp6y37zn6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 17:33:33 GMT",
+        "summary_zh": "馬爾地夫近日發生一次潛水事故，五名意大利國籍潛水員在事故中喪生。當地工作人員在洞穴內發現了最後兩具遺體，結束了對失蹤者的搜尋。這起事故引起了國際社會的關注，許多人對此表達了深切的哀悼。馬爾地夫政府已經展開調查，確保類似事件不再發生。這起事故對當地的潛水業界造成了沉重的打擊，許多業界人士呼籲提高安全措施，防止類似事件再次發生。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "74c95e04",
+        "title": "德州暴雨導致航班取消 東北部熱浪結束",
+        "url": "https://www.theguardian.com/us-news/2026/may/20/texas-storms-canceled-flights-north-east-heatwave",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 13:57:43 GMT",
+        "summary_zh": "德州暴雨導致數百架航班取消或延誤，同時德州發出洪水警報和學校停課。與此同時，東北部地區的高溫破了多個紀錄，隨後將會迎來一場大降溫。據Flightaware統計，周三在達拉斯福特沃思國際機場取消或延誤的航班達到近150架，周二則達到近700架。美國聯邦航空管理局（FAA）在達拉斯和洛夫菲爾德發出地面停航指令。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a41af025",
+        "title": "巴基斯坦殺害TikTok明星的男子被判死刑",
+        "url": "https://www.bbc.com/news/articles/cvgzrgm0rgvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 01:52:24 GMT",
+        "summary_zh": "巴基斯坦一名年輕的TikTok明星Sana Yousaf遭到殺害，事件暴露了巴基斯坦對女性的暴力行為的模式。據說，殺害Sana Yousaf的男子被判處死刑。這起案件引起了社會的關注，許多人認為這是對女性暴力的一個典型案例。巴基斯坦的女性權益活動家表示，這起案件是暴力對女性的又一次表現。根據統計，巴基斯坦女性遭到殺害的案件數量在增加。這些案件的背後，都是社會對女性的不公正待遇和缺乏法律保護。這些案件的出現，讓人感到非常擔憂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6193a1a9",
+        "title": "特朗普的格陵蘭特使面臨重重困難：試圖與格陵蘭建立友好關係",
+        "url": "https://www.bbc.com/news/articles/cze28ex3lexo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 03:49:24 GMT",
+        "summary_zh": "格陵蘭是丹麥的一個半自治領土，特朗普政府派遣的格陵蘭特使傑夫·蘭德瑞（Jeff Landry）訪問格陵蘭，卻引起一些格陵蘭人的不滿。這次訪問顯然觸碰了格陵蘭人的神經，格陵蘭人對於美國政府的意圖感到疑慮。格陵蘭的半自治地位使得格陵蘭人對於丹麥政府的控制感到不滿，美國政府的介入似乎使得格陵蘭人的不滿加深。這次訪問的結果尚未可知，但它已經引起了格陵蘭人的關注和不滿。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b562583b",
+        "title": "尼日利亞逮捕前能源部長，該名部長被判處無期徒刑並逃亡",
+        "url": "https://www.bbc.com/news/articles/cdjpn378mvvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 08:04:03 GMT",
+        "summary_zh": "尼日利亞當局最近逮捕了一名前能源部長，這名部長因涉嫌腐敗罪名被判處無期徒刑，該判決在本月早些時候宣布。該前部長在判決宣布後逃亡，直到現在才被捕。這一事件顯示尼日利亞政府對腐敗的打擊行動正在加強。該前部長的逮捕將對尼日利亞政治產生重大影響，可能會引發更多的腐敗案件被揭露。尼日利亞政府的行動將對該國的政治和社會產生深遠的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3b005be6",
+        "title": "習近平與普丁會晤，緊接美國總統特朗普訪問，習近平欲以此展現全球領袖形象",
+        "url": "https://www.bbc.com/news/articles/cjep12qx3xjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 11:42:44 GMT",
+        "summary_zh": "習近平近日與俄羅斯總統普丁進行會晤，這是他在美國總統特朗普訪問中國後不久的行動。這種安排讓人聯想到習近平希望呈現出一個與世界各國溝通的領袖形象，而不是與任何一個國家有特別的聯繫。這種姿態可能是習近平試圖在國際舞台上展示自己的影響力和地位。然而，這種行為也可能被視為是一種政治姿態，試圖展示自己的強大和獨立。習近平的這種行動可能會對中俄關係產生一定的影響，同時也會受到國際社會的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c59ddcf0",
+        "title": "美國醫生在剛果出現愛滋病症，與家人一起飛往德國接受治療",
+        "url": "https://www.theguardian.com/world/2026/may/20/ebola-outbreak-us-doctor-germany",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 12:28:43 GMT",
+        "summary_zh": "剛果民主共和國出現愛滋病症爆發，美國醫生彼得·史達福（Dr. Peter Stafford）在該國感染愛滋病症，隨後被運往德國接受治療。他的妻子和四個孩子也被監測，因為他們可能會出現症狀。世界衛生組織（WHO）警告說，愛滋病症爆發的規模和速度令人擔憂。根據當地當局的報告，至少有134人疑似死亡，超過500人感染了血液出血病毒（Bundibugyo virus），該病毒沒有批准的治療方法或疫苗。愛滋病症爆發已經蔓延到城市地區，已經宣布為公共衛生緊急事件，需要國際合作來應對。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "11dcc46e",
+        "title": "羅比奧批評世衛組織對埃博拉疫情反應遲緩 美國持續大幅削減公共衛生預算",
+        "url": "https://www.theguardian.com/us-news/2026/may/19/marco-rubio-who-ebola",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 19 May 2026 18:44:54 GMT",
+        "summary_zh": "美國國務卿羅比奧（Marco Rubio）表示，世界衛生組織（WHO）在識別剛果民主共和國和烏干達的埃博拉疫情時有些遲緩。羅比奧在星期二表示，CDC（美國疾病控制與預防中心）和WHO將負責領導反應工作，但WHO在識別疫情方面有些遲緩。這些批評發生在美國持續大幅削減公共衛生預算之時。羅比奧的評論引發了對美國公共衛生政策的關注。美國政府的公共衛生預算削減可能會對全球公共衛生工作造成影響。羅比奧的評論也提醒了世衛組織在應對公共衛生危機方面的重要性。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a768d4b4",
+        "title": "玻利維亞爆發抗議 美國警告「政變風險升高」",
+        "url": "https://www.theguardian.com/world/2026/may/20/bolivia-protests-coup-paz-pereira",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 16:23:25 GMT",
+        "summary_zh": "玻利維亞爆發抗議活動，抗議者與警方在拉巴斯發生衝突，抗議活動已經持續了兩周。這是玻利維亞中右派總統羅德里戈·帕斯·佩雷拉（Rodrigo Paz Pereira）上任六個月以來最為動盪的時刻。帕斯·佩雷拉在去年底結束了左派政黨Movimiento al Socialismo（Mas）近二十年的統治。抗議活動正在拉巴斯的主要道路上進行，將城市中心變成了抗議者與警方之間的戰場。美國政府已經對玻利維亞的局勢表達了關切，警告說這可能是「政變風險升高」。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "76a2419a",
+        "title": "哥倫比亞音樂傳奇Totó la Momposina去世，享年85歲",
+        "url": "https://www.theguardian.com/music/2026/may/20/toto-la-momposina-vocalist-and-colombian-music-legend-dies-aged-85",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 11:39:49 GMT",
+        "summary_zh": "哥倫比亞音樂傳奇Totó la Momposina在85歲高齡去世。她是一位享譽全球的歌手，曾經以她的聲音和對傳統音樂的堅持，將哥倫比亞文化和歷史帶到世界各地。她的兒女在Instagram宣布了她的去世，表示她是一位通過她的聲音和對音樂的奉獻，將哥倫比亞人民的文化和記憶帶到世界各地的女性。Totó la Momposina是一位對哥倫比亞音樂產業有著深遠影響的歌手，她的去世將使得哥倫比亞音樂界失去了一位重要的文化象徵。她的作品將繼續被人們所喜愛和尊敬。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c236b424",
+        "title": "特朗普是否真的拯救委內瑞拉？ - 電台節目",
+        "url": "https://www.theguardian.com/news/audio/2026/may/20/did-trump-really-rescue-venezuela-podcast",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 02:00:19 GMT",
+        "summary_zh": "委內瑞拉前總統尼古拉斯·馬杜羅被美國拘捕四個月後，該國的生活情況如何？衛報拉丁美洲記者湯姆·菲利普斯（Tom Phillips）在訪問中表示，他上一次從委內瑞拉飛出國是在八月初，剛好是在有爭議的總統選舉之後。當時委內瑞拉處於極度動盪之中，馬杜羅試圖壓制任何異議聲音，結果導致數千人被捕，許多人隱姓埋名，記者們則趁機逃離該國。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3fc0ab93",
+        "title": "8個孩子的父親被譽為英雄，為聖地亞哥清真寺槍擊案中受害者拯救生命",
+        "url": "https://www.bbc.com/news/articles/clyp3gkrwg9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 19 May 2026 23:26:13 GMT",
+        "summary_zh": "近日，聖地亞哥發生槍擊案，清真寺內的三名男子遇害，其中一名男子Amin Abdullah被指在槍擊案中拯救了多條生命。據報導，Amin Abdullah是一名8個孩子的父親，當時他正在清真寺內進行祈禱。槍手攻擊清真寺時，Amin Abdullah立即採取行動，保護其他人，最終他犧牲了自己。這起槍擊案引起了美國社會的關注，很多人紛紛表達對Amin Abdullah的敬意和感謝。這起事件也引發了對美國槍枝管制的討論。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "66d42eb3",
+        "title": "紐約市女性墜入未封的水箱亡",
+        "url": "https://www.bbc.com/news/articles/cy02pzxejyno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 00:11:27 GMT",
+        "summary_zh": "一名56歲的女性在星期一晚上步出車輛時不慎墜入紐約市第五大道的未封水箱，警方在發現她昏迷不醒後將她送醫，但最終無法挽救生命。這起意外發生在紐約市的第五大道，警方正在調查事件的具體原因。這種意外事故令人感到震驚，提醒市民注意安全，特別是在夜間行走時要小心觀察周圍環境。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6c2be141",
+        "title": "威靈頓面臨六個月等待，終止污水泄漏，修復費用達 53.5 億新西蘭元",
+        "url": "https://www.theguardian.com/world/2026/may/20/wellington-sewage-spill-moa-point-update-six-month-wait",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 03:44:43 GMT",
+        "summary_zh": "新西蘭首都威靈頓自二月份以來，已經有數百萬升的污水進入該市的水域。威靈頓的污水處理廠在 2 月 4 日發生嚴重故障，導致污水直接排入太平洋。至今已經超過 100 天，污水仍然在直接排入太平洋。官員表示，修復污水處理廠將在 11 月前完成，並將耗資 53.5 億新西蘭元。預計到明年年底，污水處理廠將恢復正常運作。威靈頓市民對此感到擔憂，質疑政府能否有效解決這個問題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b15c93b2",
+        "title": "泰國嚴格控制外國遊客簽證規則",
+        "url": "https://www.theguardian.com/world/2026/may/20/thailand-cuts-visa-free-stays-tourists",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 00:58:39 GMT",
+        "summary_zh": "泰國政府宣布將縮短外國遊客免簽證的停留時間，目前已與93個國家簽署免簽證協議，包括英國、美國和大部分歐洲國家。泰國官員表示，這是為了應對外國人犯罪率升高的措施。泰國的觀光業是重要的就業來源，該國一直努力恢復疫情前的外國遊客數量。然而，出現了外國遊客違法的問題，導致有人呼籲加強移民規則。泰國政府的新政策將對觀光業產生重大影響，可能會影響外國遊客的流入量。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "ai": [
+      {
+        "id": "4e981024",
+        "title": "你的手機即將獲得 Vibe coding 功能",
+        "url": "https://www.theverge.com/tech/934628/google-io-2026-android-ai-studio-widgets-shortcuts",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-20T13:40:00-04:00",
+        "summary_zh": "近年來，手機應用程式已經成為我們日常生活的重要部分。從購物到社交，手機應用程式都能夠幫助我們完成各種任務。但是，是否有個應用程式能夠讓你的手機做出你想要它做的事情？根據最近的消息，Vibe coding 將會來到你的手機。雖然這個消息還在發展中，但它可能會改變我們對手機應用程式的看法。這將會是什麼樣的影響？我們需要更多的資訊才能夠了解這個新功能的具體內容和影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "decb0744",
+        "title": "你現在可以使用 AI 重混他人 YouTube 短片",
+        "url": "https://www.theverge.com/tech/934704/google-gemini-omni-youtub-shorts-remix-ai",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-20T12:41:40-04:00",
+        "summary_zh": "Google 宣佈推出 YouTube Shorts Remix 功能，讓用戶可以重新排版或插入自己到他人的影片中。這項功能使用 Gemini Omni，當你點擊 YouTube 短片底部的重混按鈕時，會出現一個「重新想像」的選項。用戶可以在這裡要求 Gemini 將影片轉換成不同的形式。這項功能的推出，讓用戶可以更創造性地使用 YouTube 短片，並且可以與他人分享自己的創意作品。這項功能的推出，也標誌著人工智慧在視頻創作中的應用。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4a714333",
+        "title": "谷歌搜索的 AI 演進包括更多廣告",
+        "url": "https://www.theverge.com/tech/934585/google-ai-shopping-ads-search",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-20T12:00:00-04:00",
+        "summary_zh": "谷歌的 AI 助力搜索時代似乎也延伸到了廣告上。現在，當你搜尋產品時，谷歌的 Gemini AI 聊天機器人將會顯示相關商品，並生成一個「自訂解釋」，告訴你為什麼該購買特定的一個產品。這項更新剛剛發布，僅僅一天前，谷歌就揭露了一個新的搜索框，為更大的、更具對話性的 [&#8230;] 這項更新將會對谷歌的廣告業務產生重大影響，可能會讓使用者更容易被廣告吸引。然而，谷歌仍然沒有公佈這項更新的具體時間表。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9d23be9d",
+        "title": "AI 標籤系統的成敗時刻",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/934521/google-synthid-c2pa-content-credentials-ai-labelling-efforts",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-20T10:12:54-04:00",
+        "summary_zh": "近期，SynthID 和 C2PA Content Credentials 兩個技術將在全球範圍內進行大規模推廣，這兩個技術能夠隱藏地將圖片、視頻和音頻檔案標籤為其來源。這意味著，將要展開對這些系統的檢驗，檢驗其是否能夠有效地辨別深偽造和 AI 產生的內容。這是 AI 標籤系統的關鍵時刻，將會展現出這些系統的實際能力。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e4b2e17a",
+        "title": "如果谷歌無法讓 AI 代理人有用，可能沒有人能做到",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/934478/if-google-cant-make-ai-agents-useful-maybe-no-one-can",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-20T09:24:22-04:00",
+        "summary_zh": "近年來，科技公司一直宣稱 AI 將給每個人一個能夠擔任個人助理的能力，但實際上卻只能提供像個無腦實習生的東西。過去六個月，開源 AI 代理人平台 OpenClaw 的流行已經開始改變這種狀況。目前，各大 AI 研究機構都在追求類似的成功，其中一個似乎特別值得關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "780c1164",
+        "title": "美國最大數據中心在猶他州引發爭議",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/933687/utah-stratos-project-data-center-kevin-oleary",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-20T09:00:00-04:00",
+        "summary_zh": "猶他州可能成為全球最大的數據中心之一，儘管專家和公眾都對此表示強烈反對。前幾天，盒爾德縣委員會批准了 Stratos 項目：一個跨越縣內 Hansel Valley 的 40,000 英畝數據中心。這個計畫旨在建立美國在人工智慧領域的領先地位，但同時也引發了對環境和資源的擔憂。該計畫的批准引發了強烈的公眾反應，許多人擔心這個數據中心會對當地的水源和空氣質量造成嚴重影響。專家也警告說，這個計畫可能會對當地的生態系統造成不可逆轉的傷害。猶他州的居民對這個計畫的反應是強烈的，許多人參與了抗議活動，表達對這個計畫的不滿。這個事件也引發了對政府和企業在環境保護和資源管理上的責任的討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1bab959f",
+        "title": "德米斯·哈薩比斯說這可能是人工智慧奇點的『山腳下』。什麼意思？",
+        "url": "https://www.theverge.com/tech/934260/google-io-ai-singularity-demis-hassabis",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-19T18:16:02-04:00",
+        "summary_zh": "德米斯·哈薩比斯在Google I/O的關鍵演講中表示，這是人類歷史上一個深刻的時刻。他認為，Google DeepMind的前沿研究和產品將幫助解放人工智慧（AGI）的巨大潛力，造福整個世界。哈薩比斯表示，這可能是人工智慧奇點的『山腳下』，暗示著人工智慧的發展正處於一個重要的轉折點。這意味著，人工智慧的技術將在未來幾年內取得重大突破，對於人類社會和經濟產生深遠的影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "059628e9",
+        "title": "谷歌未來的關鍵在於一盒搜索工具",
+        "url": "https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-19T17:24:14-04:00",
+        "summary_zh": "去年，我們觀看了谷歌的I/O主題演講後，我寫道谷歌未來的關鍵在於谷歌自己搜索。今年，我們觀看了谷歌I/O主題演講，發現谷歌不僅僅想為你搜索資料，還想為你做好所有事情，從一盒搜索工具開始。谷歌的信任度已經達到一個新的高度，谷歌的搜索工具不僅能夠提供信息，還能夠幫助你完成各種任務，像是設定智能家居、控制汽車等。谷歌的目標是通過一盒搜索工具，讓使用者能夠輕鬆地完成各種工作，提高生活效率。這個理念可能會對我們的生活產生重大影響，讓我們的生活更加便捷、智能化。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "524918d6",
+        "title": "谷歌的 AI 未來需要信任 — 和你的個人資料",
+        "url": "https://www.theverge.com/tech/934172/google-io-gemini-ai-trust-personal-data",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-19T17:00:00-04:00",
+        "summary_zh": "谷歌對其 AI 領域的未來抱持著巨大的期望，然而這一切都取決於你對谷歌的信任。谷歌在 2026 年的 I/O 大會上介紹了一系列新的工具，宣稱這些工具將能夠簡化你的生活。Gemini Spark 是谷歌一直在線的 AI 代理，它能夠幫助你組織即將到來的活動，而 Daily Brief 則能夠提供一份簡要的摘要。谷歌還聲稱，這些工具將能夠幫助你管理時間表、提醒你重要的事件，並且能夠提供個人化的建議。然而，這些工具的運作都需要你的個人資料，這使得信任成為了關鍵問題。谷歌需要你信任它，以便它能夠收集和使用你的資料來提供更好的服務。然而，這也引發了對隱私和安全性的擔憂。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3a7abe70",
+        "title": "麥克思訴阿爾曼案庭審內幕：梅斯克失訴",
+        "url": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Tue, 19 May 2026 20:15:18 +0000",
+        "summary_zh": "梅斯克在訴訟中指控阿爾曼和布洛克曼在公司非營利地位上欺瞞他。阿爾曼和布洛克曼否認這一指控。梅斯克在訴訟中聲稱，他在投資OpenAI時被阿爾曼和布洛克曼欺瞞。梅斯克認為，阿爾曼和布洛克曼沒有誠實地告知他公司的非營利地位，導致他投資的損失。阿爾曼和布洛克曼否認這一指控，聲稱他們一直誠實地與梅斯克溝通。庭審最後，梅斯克的訴訟被駁回。這一裁決對梅斯克和OpenAI的未來發展將產生重大影響。梅斯克的失訴可能會影響他未來的投資決策，同時也會影響OpenAI的發展方向。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c5149855",
+        "title": "文學獎得主面臨AI指控，似乎已經成為新常態",
+        "url": "https://www.wired.com/story/commonwealth-short-story-prize-ai-allegations/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Tue, 19 May 2026 22:53:04 +0000",
+        "summary_zh": "文學界最近出現了一個令人費解的現象：一些文學獎得主被指控使用AI工具來創作作品。根據最新消息，共wealth Commonwealth Short Story Prize 的五個地區得主中，有三人被懷疑使用聊天機器人來撰寫故事。這種情況並非孤立，許多文學家都在使用AI工具來幫助創作。這種趨勢是否會影響文學界的誠信和真實性？這是目前的關注點。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "fbda5c8a",
+        "title": "Google I/O 2026：Gemini、搜尋、智慧眼鏡全新發表",
+        "url": "https://www.wired.com/story/everything-google-announced-at-google-io-2026/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Tue, 19 May 2026 20:00:48 +0000",
+        "summary_zh": "Google I/O 2026 大會上，Google 宣佈了 Gemini 模型的全面升級、搜尋功能的重磅改版以及在各個領域內啟用人工智慧代理。另外，智慧眼鏡將於今年秋季推出。這些新功能和產品將大大改善人們的生活質量。Google Gemini 模型的升級將帶來更強大的計算能力和更好的語言理解能力。新版的搜尋功能將能夠更快速地找到所需的信息，並且能夠提供更精確的結果。人工智慧代理將能夠在各個領域內提供智能化服務，改善人們的生活質量。智慧眼鏡的推出將帶來新的視覺體驗，讓人們能夠更方便地獲得信息。這些新功能和產品將對未來的科技發展產生重大影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "527e137b",
+        "title": "元宇宙公司面臨大幅裁員，員工亟欲使用剩餘福利",
+        "url": "https://www.wired.com/story/meta-employees-scramble-benefits-layoffs-ai/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Tue, 19 May 2026 19:00:46 +0000",
+        "summary_zh": "在即將裁員約 8,000 人的前夕，公司員工紛紛趁機利用剩餘福利，包括耳機補助和其他優惠。這些福利可能在裁員後即時失效，員工們為了避免浪費，趁機使用剩餘福利。這種情況在企業裁員時不鮮見，員工們為了最大限度地利用福利，展開了一場「福利大掃貨」的行動。這一系列的事件也讓人們對未來的裁員感到緊張和焦慮。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "45410f8f",
+        "title": "非洲最大基金經理與巴爾文公司談判購買股份",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-20/africa-s-biggest-fund-manager-in-talks-to-buy-stake-in-balwin",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-20 06:00:00",
+        "summary_zh": "非洲最大基金經理正在與巴爾文公司進行談判，欲購買該公司的股份。巴爾文公司是一家南非房地產開發商，業務遍及南非各地。這項交易將對巴爾文公司的未來發展產生重大影響。基金經理的購買股份將使巴爾文公司獲得額外的資金和資源，進而加強公司的競爭力和市場占有率。然而，交易的具體細節尚未公佈，投資者仍需密切關注此事的進展。這項交易也可能對南非房地產市場產生影響，投資者應該注意市場的變化。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "6c724831",
+        "title": "CNBC 日報：股市屈服於債券市場壓力",
+        "url": "https://www.cnbc.com/2026/05/20/daily-open-stocks-yield-to-bond-market-pressure.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-05-20 05:57:06",
+        "summary_zh": "近日，市場評論員表示擔憂股市可能難以抵禦債券市場的風暴，尤其是在收益率水平達到目前的水準。債券市場的壓力對股市產生了重大影響，市場評論員認為股市可能會出現下滑趨勢。這種情況下，投資者需要謹慎評估投資策略，以避免未來的風險。分析師們預測，股市可能會繼續下滑，直到債券市場的壓力得到緩解。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "daf7be81",
+        "title": "英國航空, IAG, 延遲東南亞航班復航至8月1日",
+        "url": "https://www.reuters.com/es/negocio/OTEZMZNKDNPNZOQM4NL7AA75ZM-2026-05-20/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-20 05:56:56",
+        "summary_zh": "英國航空和其母公司IAG宣布, 將延遲東南亞航班復航至8月1日。這項決定是由於疫情和地緣政治的不確定性。英國航空的航班曾於2022年5月恢復部分航線, 但由於疫情和地緣政治的變化, 企業決定暫時延遲復航。這項決定將對旅客和航空業造成影響, 旅客將需要重新安排行程, 而航空業者將需要重新評估營運策略。疫情和地緣政治的不確定性將繼續影響航空業, 企業將需要密切關注這些變化, 以確保航班的安全和順暢運行。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "869f5723",
+        "title": "英鎊維持在每美元1.34附近，通膨數據即將公布",
+        "url": "https://www.bloomberg.com/news/live-blog/2026-05-20/ftse-100-live-uk-cpi-inflation-pound-bonds-gilts-starmer-burnham-oil-prices-what-s-moving-uk-markets-right-now-markets-today",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-20 05:45:48",
+        "summary_zh": "英鎊近日維持在每美元1.34附近，市場關注即將公布的英國通膨數據。英國央行在去年宣布實施緊縮貨幣政策，對英鎊造成了重大影響。市場預期英國通膨率將在未來幾個月內繼續上升，英鎊可能會受到影響。英鎊的波動對英國出口業有著重要影響，出口業的業主正在密切關注英鎊的走勢。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "8cc006db",
+        "title": "股市承壓為全球經濟恐慌增長擔憂",
+        "url": "https://www.cnbc.com/2026/05/20/market-correction-equities-stocks-bonds-iran-inflation.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-05-20 05:33:30",
+        "summary_zh": "全球股市近期出現一連串的波動，市場分析師警告股市可能即將轉向正面反彈。儘管全球政治局勢不穩定，但股市仍在持續上揚，創下新高。然而，這也引發了市場投資者的擔憂，是否股市的上揚只是暫時的？市場分析師認為，股市可能會在短期內出現反彈，投資者應該保持警覺。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "da4f19bf",
+        "title": "全球基金準備迎接印度盧比進一步貶值，目標是100盧比/美元",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-20/global-funds-ready-for-further-rupee-weakness-with-100-in-sight",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-20 05:31:51",
+        "summary_zh": "印度盧比近期貶值已經對全球市場產生重大影響。根據市場分析師的預測，盧比將進一步貶值，可能會跌破100盧比/美元的關口。這將對印度出口業和外匯儲備造成重大影響。印度政府正在努力穩定盧比，但市場預期仍然是盧比將進一步貶值。全球基金正在準備迎接這種情況，希望盧比貶值能夠帶來投資收益。然而，這也可能對印度經濟造成負面影響。印度政府需要採取積極措施來穩定盧比和控制貶值的速度。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "eb56282f",
+        "title": "FTAV進一步閱讀",
+        "url": "https://www.ft.com/content/1e082551-7145-4c71-8c65-dd67632e9ace",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-20 05:30:01",
+        "summary_zh": "FTAV進一步閱讀內容包括了多個金融相關主題，包括長期債券、Business Development Companies（BDCs）、退休基金、哥倫比亞、拉丁美洲、生物技術、信貸評級和Alpha效應等。這些主題可能與投資策略、經濟分析和金融市場趨勢有關。投資者和金融專家可以從這些進一步閱讀中獲得有用的資訊和洞察力。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      }
+    ],
+    "stock_us": [
+      {
+        "id": "079da762",
+        "title": "Target 預計公布第一季財報，提供消費者購買趨勢讀數",
+        "url": "https://www.cnbc.com/2026/05/20/target-tgt-q1-2026-earnings.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-20 04:01:01",
+        "summary_zh": "Target 進入財報季，公司近期一直面臨銷售下滑和客流量減少的問題，雖然 CEO Michael Fiddelke 表示公司正處於轉變的關鍵時期，但仍需要觀察公司的財報結果。這次財報將對消費者購買趨勢提供重要的讀數，同時也會展現公司的營運狀況。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "bdadf9e9",
+        "title": "亞洲市場預期混亂開盤，美債殖利率大幅上升、伊朗緊張局勢升級",
+        "url": "https://www.cnbc.com/2026/05/20/asia-pacific-markets-today-live-updates-treasury-yields-nikkei-225-kospi-hang-seng-nifty.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-19 23:46:14",
+        "summary_zh": "亞太地區市場預計周三開盤時將呈現出來回波動的態勢。投資者們正面臨著美債殖利率大幅上升的壓力，同時也要考慮到伊朗的局勢緊張。這些因素都會對市場造成一定的影響。投資者們需要在美債殖利率的上升和伊朗局勢的不確定性之間尋找平衡。這種情況下，市場可能會呈現出來回波動的態勢，投資者需要保持警覺。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2310f787",
+        "title": "特斯拉 Cybertruck 車主被捕，涉嫌駕駛車輛進入湖泊使用「淺灘模式」",
+        "url": "https://www.bbc.com/news/articles/c072x1kml44o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "stock_us",
+        "published_at": "Wed, 20 May 2026 16:46:33 GMT",
+        "summary_zh": "一名特斯拉 Cybertruck 車主在北德克薩斯州的 Grapevine 湖邊駕駛車輛進入湖泊，引發警方關注。警方表示，車主在車輛進入水中後立即棄車離去。這一事件引發了對車主行為的質疑，同時也讓人們對特斯拉 Cybertruck 的「淺灘模式」功能產生了疑慮。這一事件可能會對特斯拉品牌造成影響，同時也會引起對車輛安全性的關注。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "93bbd441",
+        "title": "OpenAI 宣布新 Guaranteed Capacity 服務，讓客戶可確保計算資源",
+        "url": "https://www.cnbc.com/2026/05/19/openai-announces-new-guaranteed-capacity-offering-for-customers-to-secure-compute.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-19 21:56:12",
+        "summary_zh": "OpenAI 宣布推出新服務 Guaranteed Capacity，讓客戶可預先購買計算資源，確保使用 OpenAI 的產品如 ChatGPT 和 Codex 時不會遇到計算資源不足的問題。這項服務的推出是為了確保 OpenAI 的產品能夠順暢運作，同時也讓客戶能夠更好地規劃和預算計算資源。Altman 表示，OpenAI 會確保留下足夠的計算資源供客戶使用。這項服務的推出對於 OpenAI 的客戶來說是一個好消息，讓他們能夠更好地使用 OpenAI 的產品。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d4769377",
+        "title": "Alphabet未能達成華爾街預期，股價在Google I/O活動期間下滑",
+        "url": "https://www.cnbc.com/video/2026/05/19/alphabet-falls-short-of-wall-street-expectations-stock-slides-during-google-io-event.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-19 20:51:38",
+        "summary_zh": "在Google I/O活動期間，Alphabet的股價下滑。根據CNBC的報導，Alphabet未能達成華爾街的預期。雖然Google I/O是一個關鍵的科技活動，但Alphabet的股價仍未能得到提升。分析師預期Alphabet的財務表現會好於市場預期，但實際表現卻未能達成。這可能是由於市場對科技股的預期過高，或者是Alphabet的財務表現並未如預期般好。這個事件可能會對Alphabet的股價產生一定的影響，投資者需要密切關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "36c668ed",
+        "title": "Citi稱該金屬買入最佳布局50年來首見",
+        "url": "https://www.cnbc.com/2026/05/19/citi-says-its-the-best-buying-set-up-in-this-metal-in-50-years.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-19 20:01:46",
+        "summary_zh": "美國銀行Citi預測，2026年下半年鋁價料將大幅上漲，平均每公噸達到4,000美元。這是Citi50年來對該金屬買入布局的最樂觀評估。鋁價的上漲將受到供需矛盾的推動，尤其是中國的需求增長和全球供應鏈的不穩定性。這將對鋁的價格造成重大影響，投資者應該考慮購買鋁相關資產。Citi的預測表明，鋁將成為未來投資的關鍵金屬之一。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c4a78fe1",
+        "title": "在市場下跌時，轉向股息增長股來擋風，Trivariate Research建議",
+        "url": "https://www.cnbc.com/2026/05/19/dividend-growth-stocks-for-down-markets-per-trivariate-research.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-19 19:58:57",
+        "summary_zh": "在市場下跌的背景下，投資者正在尋找防禦性投資機會。根據Trivariate Research的研究，股息增長股是投資者可以考慮的選擇。這些股息增長股不僅能夠提供穩定的股息收入，而且還能夠在市場下跌時保持穩定。研究公司認為，這些股息增長股的股價在市場下跌時會受到較少影響，能夠為投資者的投資組合提供一定的保護。 Trivariate Research指出，這些股息增長股的股息增長率遠超市場平均水平，表明這些公司的財務狀況良好，能夠持續提供股息收入。投資者可以考慮這些股息增長股來擋風，減少投資組合的風險。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1dcaa9d3",
+        "title": "華爾街監管機構暫停部分網絡安全考試",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-19/anthropic-mythos-ai-model-prompts-regulators-to-delay-us-bank-cyberattack-tests",
+        "source": "Bloomberg",
+        "category": "stock_us",
+        "published_at": "2026-05-19 19:03:40",
+        "summary_zh": "華爾街監管機構暫時暫停了一些網絡安全考試，原因是Mythos事件的影響。這些考試是為了考察金融機構的網絡安全能力，目的是防止未來的網絡攻擊和安全風險。暫停考試的決定是為了讓金融機構有足夠的時間來修復和強化其網絡安全措施，同時也讓監管機構有時間來評估和改善考試內容。這一決定將對金融機構的網絡安全能力和監管機構的工作產生影響。目前尚未清楚暫停考試的時間長短和考試恢復的具體安排。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e47b5078",
+        "title": "新數據增強了利立愛的肥胖藥片信心。還有，谷歌的新人工智慧功能",
+        "url": "https://www.cnbc.com/2026/05/19/new-data-boosts-our-confidence-in-lillys-obesity-pill-plus-googles-new-ai-.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-19 18:38:37",
+        "summary_zh": "每個工作日，投資俱樂部都會發布《Homestretch》，這是一份針對最後一小時交易時間的實際操作午後更新。這份更新提供投資者在最後一小時交易時間的投資建議和市場分析。這樣的更新幫助投資者在市場變化不明時，做出明智的投資決策。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
+      {
+        "id": "313c9bf2",
+        "title": "美國前國會議員巴尼·弗蘭克去世，享年86歲",
+        "url": "https://www.bbc.com/news/articles/ckgpy2ze3q1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 20 May 2026 15:33:12 GMT",
+        "summary_zh": "美國前國會議員巴尼·弗蘭克在梅內去世，享年86歲。他是一位公開出櫃的同性戀者，也是美國國會的第一位公開出櫃的同性戀議員。巴尼·弗蘭克在國會任職多年，直到他去世前一段時間一直居住在梅內的家中，接受終身照護。他的去世對美國政治界和同性戀社群造成了深遠的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d0dc9afc",
+        "title": "特朗普遭兩名警察起訴：$1.8億基金涉違法賞賜1月6日暴徒與同黨",
+        "url": "https://www.theguardian.com/us-news/2026/may/20/jan-6-police-sue-trump-anti-weaponization-fund",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 20 May 2026 16:18:43 GMT",
+        "summary_zh": "兩名曾與暴徒交火的國會警察和華盛頓特區警察，對特朗普提出訴訟，指控他打算建立的$1.776億美元「反軍事化」基金違法賞賜1月6日暴動事件的同黨。這項基金被批評是「黑箱基金」，旨在補償特朗普所謂的被檢察官濫權的盟友。根據訴訟，特朗普的基金將會給予那些被指控參與暴動事件的個人和組織補償。這項訴訟的出現，意味著特朗普的行為可能會受到法律制裁。這項事件也引發了對特朗普行為的關注，是否他在利用這項基金來保護自己的盟友。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b504fa76",
+        "title": "進步派Chris Rabb勝選賓夕法尼亞州民主黨初選：『我們是無敵的』",
+        "url": "https://www.theguardian.com/us-news/2026/may/20/progressive-chris-rabb-wins-pennsylvania",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 20 May 2026 16:00:36 GMT",
+        "summary_zh": "賓夕法尼亞州第三國會選區民主黨初選中，進步派立法議員Chris Rabb以近45%的選票率勝出，超越早期領先者州參議員Sharif Street和外科醫生Ala Stanford。這場選舉被視為美國民主黨左翼的關鍵試金石，對民主黨未來走向產生重要影響。Chris Rabb在勝選宣布時表示，他的競選運動是『無敵的』，這一勝利對民主黨左翼的增強有著重要意義。這一結果被視為民主黨左翼在美國政治舞台上的增強，對未來的影響值得關注。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8f50035e",
+        "title": "「他犧牲生命」: 美國加州清真寺槍擊案保安被殺被譽為英雄",
+        "url": "https://www.theguardian.com/us-news/2026/may/20/security-guard-san-diego-mosque-attack",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 20 May 2026 14:20:05 GMT",
+        "summary_zh": "美國加州聖地亞哥清真寺槍擊案中，51歲的保安阿敏·阿卜杜拉（Amin Abdullah）在槍擊案中喪生，被譽為英雄。警方表示，他的行動「毫無疑問地」挽救了生命。槍擊案發生在清真寺內，兩名17歲和18歲的少年開火，殺死了三名男子。兩名攻擊者被發現死在數個街區外，官員表示是由於自殺。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "32c48d9c",
+        "title": "小巨人對抗巨人：20歲氣候行動主義者挑戰特朗普和化石燃料業界",
+        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/may/20/eva-lighthiser-trump-climate",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 20 May 2026 13:00:42 GMT",
+        "summary_zh": "美國年輕人正在訴諸總統，指控他違反人權，透過行政命令加劇氣候危機。20歲的氣候行動主義者Eva Lighthiser，曾在科羅拉多州的一所大學宿舍聚會上，提早離開，因為她將要飛往波特蘭。這位年輕人正在挑戰總統特朗普和化石燃料業界，訴諸人權，指控行政命令加劇氣候危機。這是一個小巨人對抗巨人的故事，年輕人們正在努力保護地球的未來。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "42ef4ffd",
+        "title": "特朗普盟友在肯塔基初選中面臨失望的危險",
+        "url": "https://www.theguardian.com/us-news/2026/may/20/trump-thomas-massie-kentucky-maga",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 20 May 2026 11:34:42 GMT",
+        "summary_zh": "美國總統特朗普像一個宗教教主，領導著一個越來越小的信徒群體，仍然能夠從他們身上得到堅定的忠誠。肯塔基州共和黨議員托馬斯·馬西（Thomas Massie）在初選中敗給了由唐納德·特朗普支持的農民和前美國海軍陸戰隊員愛德·加勒林（Ed Gallrein）。這次選舉是美國眾議院史上最昂貴的初選之一。特朗普的支持者在社交媒體上發布了一則假新聞，指控馬西與民主黨議員奧卡西奧-科爾特茲和伊蘭·奧馬爾共進晚餐，並在酒店裡與兩人共度夜晚。這則攻擊性廣告雖然粗俗，但有效。馬西在北肯塔基州的選區敗選，成為特朗普支持者中又一位失望的盟友。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cf75d7d5",
+        "title": "喬治亞州共和黨總統和參議員選舉進入六月補選",
+        "url": "https://www.theguardian.com/us-news/2026/may/19/georgia-governor-senate-primary-election",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 20 May 2026 11:21:23 GMT",
+        "summary_zh": "喬治亞州共和黨總統候選人選舉將於六月進行補選，立法院議長布特瓊斯將對壹億美元醫療財富的里克傑克森展開競爭，同時將排除前任國務卿布萊德拉芬斯佩格，後者曾是唐納德川普的政治死敵，預計將以第三名完成。共和黨挑戰美國參議員瓊奧索夫的競選也仍未有結果，而前亞特蘭大市長基希拉蘭斯波姆則贏得民主黨總統候選人選舉。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7427a4cd",
+        "title": "佐治亞州小鎮長因家人健康問題辭職，避談鎮上警隊解散事件",
+        "url": "https://www.theguardian.com/us-news/2026/may/20/georgia-mayor-who-fired-entire-police-force-resigns",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 20 May 2026 09:00:33 GMT",
+        "summary_zh": "佐治亞州的一個小鎮長，羅恩·辛尼克（Ron Shinnick），因家人健康問題辭職，避談鎮上警隊解散事件。辛尼克在辭職信中表示，他自2014年起擔任鎮長，現在因家人面臨的健康問題而辭職。然而，辛尼克在去年曾試圖解散鎮上的警察部門，這一事件引起了國際媒體的關注。鎮上的議會最終還是恢復了警隊的工作，但辛尼克仍然選擇辭職。這一事件與辛尼克和他的妻子對警隊成員的政治鬥爭有關。辛尼克的辭職信沒有提及解散警隊的事件，但鎮上的居民可能會對他的決定感到疑惑。這一事件可能會對鎮上的政治局勢產生影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "dcf5aa2b",
         "title": "總統對古巴獨立日的致辭",
@@ -166,114 +882,6 @@
         "ai_classified": true
       },
       {
-        "id": "e00e6933",
-        "title": "川普在肯塔基州初選中取得勝利，鞏固共和黨控制權",
-        "url": "https://www.theguardian.com/us-news/live/2026/may/20/donald-trump-republicans-midterms-primaries-kentucky-redistricting-raul-castro-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 16:53:18 GMT",
-        "summary_zh": "川普支持的挑戰者在肯塔基州的共和黨初選中擊敗了共和黨國會議員馬西（Massie），這是美國歷史上最昂貴的眾議院初選。根據AdImpact的追蹤數據，共和黨候選人總共花費超過10億美元。另一方面，喬治亞州的共和黨州長初選將於6月進行 runoff，州長副手伯特·瓊斯（Burt Jones）將與保健億萬富翁和政治新人瑞克·傑克森（Rick Jackson）競選，將排除喬治亞州州長秘書布拉德·拉芬斯珀格（Brad Raffensperger）和川普的長期政治對手。傑克森在州內相對不為人知，但他通過在競選廣告上投入近5億美元，成功逆轉了選情。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d0dc9afc",
-        "title": "特朗普遭兩名警察起訴：$1.8億基金涉違法賞賜1月6日暴徒與同黨",
-        "url": "https://www.theguardian.com/us-news/2026/may/20/jan-6-police-sue-trump-anti-weaponization-fund",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 16:18:43 GMT",
-        "summary_zh": "兩名曾與暴徒交火的國會警察和華盛頓特區警察，對特朗普提出訴訟，指控他打算建立的$1.776億美元「反軍事化」基金違法賞賜1月6日暴動事件的同黨。這項基金被批評是「黑箱基金」，旨在補償特朗普所謂的被檢察官濫權的盟友。根據訴訟，特朗普的基金將會給予那些被指控參與暴動事件的個人和組織補償。這項訴訟的出現，意味著特朗普的行為可能會受到法律制裁。這項事件也引發了對特朗普行為的關注，是否他在利用這項基金來保護自己的盟友。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8f50035e",
-        "title": "「他犧牲生命」: 美國加州清真寺槍擊案保安被殺被譽為英雄",
-        "url": "https://www.theguardian.com/us-news/2026/may/20/security-guard-san-diego-mosque-attack",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 14:20:05 GMT",
-        "summary_zh": "美國加州聖地亞哥清真寺槍擊案中，51歲的保安阿敏·阿卜杜拉（Amin Abdullah）在槍擊案中喪生，被譽為英雄。警方表示，他的行動「毫無疑問地」挽救了生命。槍擊案發生在清真寺內，兩名17歲和18歲的少年開火，殺死了三名男子。兩名攻擊者被發現死在數個街區外，官員表示是由於自殺。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "313c9bf2",
-        "title": "美國前國會議員巴尼·弗蘭克去世，享年86歲",
-        "url": "https://www.bbc.com/news/articles/ckgpy2ze3q1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 15:33:12 GMT",
-        "summary_zh": "美國前國會議員巴尼·弗蘭克在梅內去世，享年86歲。他是一位公開出櫃的同性戀者，也是美國國會的第一位公開出櫃的同性戀議員。巴尼·弗蘭克在國會任職多年，直到他去世前一段時間一直居住在梅內的家中，接受終身照護。他的去世對美國政治界和同性戀社群造成了深遠的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "32c48d9c",
-        "title": "小巨人對抗巨人：20歲氣候行動主義者挑戰特朗普和化石燃料業界",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/may/20/eva-lighthiser-trump-climate",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 13:00:42 GMT",
-        "summary_zh": "美國年輕人正在訴諸總統，指控他違反人權，透過行政命令加劇氣候危機。20歲的氣候行動主義者Eva Lighthiser，曾在科羅拉多州的一所大學宿舍聚會上，提早離開，因為她將要飛往波特蘭。這位年輕人正在挑戰總統特朗普和化石燃料業界，訴諸人權，指控行政命令加劇氣候危機。這是一個小巨人對抗巨人的故事，年輕人們正在努力保護地球的未來。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "42ef4ffd",
-        "title": "特朗普盟友在肯塔基初選中面臨失望的危險",
-        "url": "https://www.theguardian.com/us-news/2026/may/20/trump-thomas-massie-kentucky-maga",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 11:34:42 GMT",
-        "summary_zh": "美國總統特朗普像一個宗教教主，領導著一個越來越小的信徒群體，仍然能夠從他們身上得到堅定的忠誠。肯塔基州共和黨議員托馬斯·馬西（Thomas Massie）在初選中敗給了由唐納德·特朗普支持的農民和前美國海軍陸戰隊員愛德·加勒林（Ed Gallrein）。這次選舉是美國眾議院史上最昂貴的初選之一。特朗普的支持者在社交媒體上發布了一則假新聞，指控馬西與民主黨議員奧卡西奧-科爾特茲和伊蘭·奧馬爾共進晚餐，並在酒店裡與兩人共度夜晚。這則攻擊性廣告雖然粗俗，但有效。馬西在北肯塔基州的選區敗選，成為特朗普支持者中又一位失望的盟友。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cf75d7d5",
-        "title": "喬治亞州共和黨總統和參議員選舉進入六月補選",
-        "url": "https://www.theguardian.com/us-news/2026/may/19/georgia-governor-senate-primary-election",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 11:21:23 GMT",
-        "summary_zh": "喬治亞州共和黨總統候選人選舉將於六月進行補選，立法院議長布特瓊斯將對壹億美元醫療財富的里克傑克森展開競爭，同時將排除前任國務卿布萊德拉芬斯佩格，後者曾是唐納德川普的政治死敵，預計將以第三名完成。共和黨挑戰美國參議員瓊奧索夫的競選也仍未有結果，而前亞特蘭大市長基希拉蘭斯波姆則贏得民主黨總統候選人選舉。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ecc70aea",
-        "title": "川普支持德克薩斯州檢察長帕克遜，押注一位有包袱的挑戰者",
-        "url": "https://www.bbc.com/news/articles/cy72v488g4go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 00:03:04 GMT",
-        "summary_zh": "川普在德克薩斯州的一個關鍵選區，支持檢察長帕克遜參選。這一決定讓參議院共和黨人感到失望，因為許多人與德克薩斯州的帕克遜有著數十年的合作關係。川普的決定可能會對德克薩斯州的選情產生重大影響。帕克遜在過去曾經面臨多起醜聞和爭議事件，包括性侵犯指控和腐敗指控。川普的支持可能會幫助帕克遜在選情中取得優勢，但也可能會對共和黨的形象造成負面影響。這一決定也可能會對德克薩斯州的政治格局產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7427a4cd",
-        "title": "佐治亞州小鎮長因家人健康問題辭職，避談鎮上警隊解散事件",
-        "url": "https://www.theguardian.com/us-news/2026/may/20/georgia-mayor-who-fired-entire-police-force-resigns",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 09:00:33 GMT",
-        "summary_zh": "佐治亞州的一個小鎮長，羅恩·辛尼克（Ron Shinnick），因家人健康問題辭職，避談鎮上警隊解散事件。辛尼克在辭職信中表示，他自2014年起擔任鎮長，現在因家人面臨的健康問題而辭職。然而，辛尼克在去年曾試圖解散鎮上的警察部門，這一事件引起了國際媒體的關注。鎮上的議會最終還是恢復了警隊的工作，但辛尼克仍然選擇辭職。這一事件與辛尼克和他的妻子對警隊成員的政治鬥爭有關。辛尼克的辭職信沒有提及解散警隊的事件，但鎮上的居民可能會對他的決定感到疑惑。這一事件可能會對鎮上的政治局勢產生影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "39767c59",
         "title": "川普鞏固共和黨控制力，共和黨叛逆者落敗",
         "url": "https://www.bbc.com/news/articles/cdjpng88d2vo?at_medium=RSS&at_campaign=rss",
@@ -282,6 +890,18 @@
         "published_at": "Wed, 20 May 2026 09:49:33 GMT",
         "summary_zh": "美國共和黨內部的鬥爭仍在繼續。近日，肯塔基州的一名共和黨叛逆者被川普支持的挑戰者擊敗，這表明了川普總統在共和黨內的強大影響力。這名叛逆者曾多次與川普總統發生衝突，對於川普的政策表達了強烈的反對意見。然而，川普支持的挑戰者最終獲得了選民的支持，取代了叛逆者，進一步鞏固了川普在共和黨內的控制力。這一事件表明，川普總統仍然是共和黨內的一股重要力量，將對未來的黨內選舉產生重大影響。",
         "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ecc70aea",
+        "title": "川普支持德克薩斯州檢察長帕克遜，押注一位有包袱的挑戰者",
+        "url": "https://www.bbc.com/news/articles/cy72v488g4go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 20 May 2026 00:03:04 GMT",
+        "summary_zh": "川普在德克薩斯州的一個關鍵選區，支持檢察長帕克遜參選。這一決定讓參議院共和黨人感到失望，因為許多人與德克薩斯州的帕克遜有著數十年的合作關係。川普的決定可能會對德克薩斯州的選情產生重大影響。帕克遜在過去曾經面臨多起醜聞和爭議事件，包括性侵犯指控和腐敗指控。川普的支持可能會幫助帕克遜在選情中取得優勢，但也可能會對共和黨的形象造成負面影響。這一決定也可能會對德克薩斯州的政治格局產生重大影響。",
+        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
@@ -295,638 +915,6 @@
         "summary_zh": "美國共和黨籍參議員湯恩 (Thune) 近日表達對川普政府的1.8億美元補償基金的批評，認為這筆款項是「腐敗」的行為。湯恩的批評發生在民主黨議員在國會大廈質問代理檢察總長的時候。民主黨議員將補償基金視為「腐敗」的行為，展現出對川普政府的強烈不滿。湯恩的批評表明共和黨內部對川普政府的政策有所分歧，可能會對未來的政治格局產生影響。這筆補償基金的背後原因是什麼？它是否真的有助於美國的發展？湯恩的批評也引發了對川普政府的政策的關注，讓人們開始思考這些政策是否真正有益於美國的發展。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "c59ddcf0",
-        "title": "美國醫生在剛果出現愛滋病症，與家人一起飛往德國接受治療",
-        "url": "https://www.theguardian.com/world/2026/may/20/ebola-outbreak-us-doctor-germany",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 12:28:43 GMT",
-        "summary_zh": "剛果民主共和國出現愛滋病症爆發，美國醫生彼得·史達福（Dr. Peter Stafford）在該國感染愛滋病症，隨後被運往德國接受治療。他的妻子和四個孩子也被監測，因為他們可能會出現症狀。世界衛生組織（WHO）警告說，愛滋病症爆發的規模和速度令人擔憂。根據當地當局的報告，至少有134人疑似死亡，超過500人感染了血液出血病毒（Bundibugyo virus），該病毒沒有批准的治療方法或疫苗。愛滋病症爆發已經蔓延到城市地區，已經宣布為公共衛生緊急事件，需要國際合作來應對。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "11dcc46e",
-        "title": "羅比奧批評世衛組織對埃博拉疫情反應遲緩 美國持續大幅削減公共衛生預算",
-        "url": "https://www.theguardian.com/us-news/2026/may/19/marco-rubio-who-ebola",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 19 May 2026 18:44:54 GMT",
-        "summary_zh": "美國國務卿羅比奧（Marco Rubio）表示，世界衛生組織（WHO）在識別剛果民主共和國和烏干達的埃博拉疫情時有些遲緩。羅比奧在星期二表示，CDC（美國疾病控制與預防中心）和WHO將負責領導反應工作，但WHO在識別疫情方面有些遲緩。這些批評發生在美國持續大幅削減公共衛生預算之時。羅比奧的評論引發了對美國公共衛生政策的關注。美國政府的公共衛生預算削減可能會對全球公共衛生工作造成影響。羅比奧的評論也提醒了世衛組織在應對公共衛生危機方面的重要性。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a768d4b4",
-        "title": "玻利維亞爆發抗議 美國警告「政變風險升高」",
-        "url": "https://www.theguardian.com/world/2026/may/20/bolivia-protests-coup-paz-pereira",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 16:23:25 GMT",
-        "summary_zh": "玻利維亞爆發抗議活動，抗議者與警方在拉巴斯發生衝突，抗議活動已經持續了兩周。這是玻利維亞中右派總統羅德里戈·帕斯·佩雷拉（Rodrigo Paz Pereira）上任六個月以來最為動盪的時刻。帕斯·佩雷拉在去年底結束了左派政黨Movimiento al Socialismo（Mas）近二十年的統治。抗議活動正在拉巴斯的主要道路上進行，將城市中心變成了抗議者與警方之間的戰場。美國政府已經對玻利維亞的局勢表達了關切，警告說這可能是「政變風險升高」。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "76a2419a",
-        "title": "哥倫比亞音樂傳奇Totó la Momposina去世，享年85歲",
-        "url": "https://www.theguardian.com/music/2026/may/20/toto-la-momposina-vocalist-and-colombian-music-legend-dies-aged-85",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 11:39:49 GMT",
-        "summary_zh": "哥倫比亞音樂傳奇Totó la Momposina在85歲高齡去世。她是一位享譽全球的歌手，曾經以她的聲音和對傳統音樂的堅持，將哥倫比亞文化和歷史帶到世界各地。她的兒女在Instagram宣布了她的去世，表示她是一位通過她的聲音和對音樂的奉獻，將哥倫比亞人民的文化和記憶帶到世界各地的女性。Totó la Momposina是一位對哥倫比亞音樂產業有著深遠影響的歌手，她的去世將使得哥倫比亞音樂界失去了一位重要的文化象徵。她的作品將繼續被人們所喜愛和尊敬。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c236b424",
-        "title": "特朗普是否真的拯救委內瑞拉？ - 電台節目",
-        "url": "https://www.theguardian.com/news/audio/2026/may/20/did-trump-really-rescue-venezuela-podcast",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 02:00:19 GMT",
-        "summary_zh": "委內瑞拉前總統尼古拉斯·馬杜羅被美國拘捕四個月後，該國的生活情況如何？衛報拉丁美洲記者湯姆·菲利普斯（Tom Phillips）在訪問中表示，他上一次從委內瑞拉飛出國是在八月初，剛好是在有爭議的總統選舉之後。當時委內瑞拉處於極度動盪之中，馬杜羅試圖壓制任何異議聲音，結果導致數千人被捕，許多人隱姓埋名，記者們則趁機逃離該國。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6c2be141",
-        "title": "威靈頓面臨六個月等待，終止污水泄漏，修復費用達 53.5 億新西蘭元",
-        "url": "https://www.theguardian.com/world/2026/may/20/wellington-sewage-spill-moa-point-update-six-month-wait",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 03:44:43 GMT",
-        "summary_zh": "新西蘭首都威靈頓自二月份以來，已經有數百萬升的污水進入該市的水域。威靈頓的污水處理廠在 2 月 4 日發生嚴重故障，導致污水直接排入太平洋。至今已經超過 100 天，污水仍然在直接排入太平洋。官員表示，修復污水處理廠將在 11 月前完成，並將耗資 53.5 億新西蘭元。預計到明年年底，污水處理廠將恢復正常運作。威靈頓市民對此感到擔憂，質疑政府能否有效解決這個問題。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b15c93b2",
-        "title": "泰國嚴格控制外國遊客簽證規則",
-        "url": "https://www.theguardian.com/world/2026/may/20/thailand-cuts-visa-free-stays-tourists",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 00:58:39 GMT",
-        "summary_zh": "泰國政府宣布將縮短外國遊客免簽證的停留時間，目前已與93個國家簽署免簽證協議，包括英國、美國和大部分歐洲國家。泰國官員表示，這是為了應對外國人犯罪率升高的措施。泰國的觀光業是重要的就業來源，該國一直努力恢復疫情前的外國遊客數量。然而，出現了外國遊客違法的問題，導致有人呼籲加強移民規則。泰國政府的新政策將對觀光業產生重大影響，可能會影響外國遊客的流入量。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bfc86ab2",
-        "title": "極右翼以色列部長遭譴責　在港口拘留的加沙船隊活動家遭他嘲諷",
-        "url": "https://www.bbc.com/news/articles/clyp32weyn8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 16:02:37 GMT",
-        "summary_zh": "近日，一段視頻引起了國際社會的關注，內容是以色列極右翼部長伊特馬爾·本·古維爾（Itamar Ben-Gvir）在港口拘留的加沙船隊活動家面前嘲諷他們。法國和義大利等國都對此表達了批評。根據視頻顯示，伊特馬爾·本·古維爾在拘留活動家時，對他們進行了嘲諷和侮辱。這一事件引起了國際社會的廣泛關注，許多人對以色列政府的行為表達了強烈的不滿。這一事件也引發了關於以色列對加沙船隊活動家的處理方式的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ff647adf",
-        "title": "世衛組織警告，埃博拉病毒病例數將不斷上升",
-        "url": "https://www.bbc.com/news/articles/cwy2g197dp8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 15:18:12 GMT",
-        "summary_zh": "根據世界衛生組織的最新報告，埃博拉病毒已經導致 139 人死亡，共有 600 起病例。世衛組織警告，這些數字將不斷上升。埃博拉病毒的爆發已經成為全球的關注焦點，各國政府和衛生機構正在努力控制疫情。這次疫情的爆發地點尚未明確，但已經有多個國家報導了相關病例。世衛組織呼籲各國政府和民眾提高警覺，防止疫情擴散。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "84f31e24",
-        "title": "立陶宛領導人在無人機警報期間避難",
-        "url": "https://www.bbc.com/news/articles/c9d3vpqqqpeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 10:53:19 GMT",
-        "summary_zh": "立陶宛領導人在無人機警報期間避難。該國領導人在懷疑無人機出現在白俄羅斯邊境後，下令暫停飛機航班，並要求民眾避難。這一事件發生在立陶宛與白俄羅斯邊境附近。立陶宛領導人在無人機警報期間避難，表明該國對安全威脅的關注。這一事件可能與白俄羅斯與立陶宛之間的緊張關係有關。立陶宛領導人在無人機警報期間避難，顯示該國對安全威脅的重視。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a41af025",
-        "title": "巴基斯坦殺害TikTok明星的男子被判死刑",
-        "url": "https://www.bbc.com/news/articles/cvgzrgm0rgvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 01:52:24 GMT",
-        "summary_zh": "巴基斯坦一名年輕的TikTok明星Sana Yousaf遭到殺害，事件暴露了巴基斯坦對女性的暴力行為的模式。據說，殺害Sana Yousaf的男子被判處死刑。這起案件引起了社會的關注，許多人認為這是對女性暴力的一個典型案例。巴基斯坦的女性權益活動家表示，這起案件是暴力對女性的又一次表現。根據統計，巴基斯坦女性遭到殺害的案件數量在增加。這些案件的背後，都是社會對女性的不公正待遇和缺乏法律保護。這些案件的出現，讓人感到非常擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6193a1a9",
-        "title": "特朗普的格陵蘭特使面臨重重困難：試圖與格陵蘭建立友好關係",
-        "url": "https://www.bbc.com/news/articles/cze28ex3lexo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 03:49:24 GMT",
-        "summary_zh": "格陵蘭是丹麥的一個半自治領土，特朗普政府派遣的格陵蘭特使傑夫·蘭德瑞（Jeff Landry）訪問格陵蘭，卻引起一些格陵蘭人的不滿。這次訪問顯然觸碰了格陵蘭人的神經，格陵蘭人對於美國政府的意圖感到疑慮。格陵蘭的半自治地位使得格陵蘭人對於丹麥政府的控制感到不滿，美國政府的介入似乎使得格陵蘭人的不滿加深。這次訪問的結果尚未可知，但它已經引起了格陵蘭人的關注和不滿。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3fc0ab93",
-        "title": "8個孩子的父親被譽為英雄，為聖地亞哥清真寺槍擊案中受害者拯救生命",
-        "url": "https://www.bbc.com/news/articles/clyp3gkrwg9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 19 May 2026 23:26:13 GMT",
-        "summary_zh": "近日，聖地亞哥發生槍擊案，清真寺內的三名男子遇害，其中一名男子Amin Abdullah被指在槍擊案中拯救了多條生命。據報導，Amin Abdullah是一名8個孩子的父親，當時他正在清真寺內進行祈禱。槍手攻擊清真寺時，Amin Abdullah立即採取行動，保護其他人，最終他犧牲了自己。這起槍擊案引起了美國社會的關注，很多人紛紛表達對Amin Abdullah的敬意和感謝。這起事件也引發了對美國槍枝管制的討論。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b562583b",
-        "title": "尼日利亞逮捕前能源部長，該名部長被判處無期徒刑並逃亡",
-        "url": "https://www.bbc.com/news/articles/cdjpn378mvvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 08:04:03 GMT",
-        "summary_zh": "尼日利亞當局最近逮捕了一名前能源部長，這名部長因涉嫌腐敗罪名被判處無期徒刑，該判決在本月早些時候宣布。該前部長在判決宣布後逃亡，直到現在才被捕。這一事件顯示尼日利亞政府對腐敗的打擊行動正在加強。該前部長的逮捕將對尼日利亞政治產生重大影響，可能會引發更多的腐敗案件被揭露。尼日利亞政府的行動將對該國的政治和社會產生深遠的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "66d42eb3",
-        "title": "紐約市女性墜入未封的水箱亡",
-        "url": "https://www.bbc.com/news/articles/cy02pzxejyno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 00:11:27 GMT",
-        "summary_zh": "一名56歲的女性在星期一晚上步出車輛時不慎墜入紐約市第五大道的未封水箱，警方在發現她昏迷不醒後將她送醫，但最終無法挽救生命。這起意外發生在紐約市的第五大道，警方正在調查事件的具體原因。這種意外事故令人感到震驚，提醒市民注意安全，特別是在夜間行走時要小心觀察周圍環境。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3b005be6",
-        "title": "習近平與普丁會晤，緊接美國總統特朗普訪問，習近平欲以此展現全球領袖形象",
-        "url": "https://www.bbc.com/news/articles/cjep12qx3xjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 11:42:44 GMT",
-        "summary_zh": "習近平近日與俄羅斯總統普丁進行會晤，這是他在美國總統特朗普訪問中國後不久的行動。這種安排讓人聯想到習近平希望呈現出一個與世界各國溝通的領袖形象，而不是與任何一個國家有特別的聯繫。這種姿態可能是習近平試圖在國際舞台上展示自己的影響力和地位。然而，這種行為也可能被視為是一種政治姿態，試圖展示自己的強大和獨立。習近平的這種行動可能會對中俄關係產生一定的影響，同時也會受到國際社會的關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "ai": [
-      {
-        "id": "decb0744",
-        "title": "你現在可以使用 AI 重混他人 YouTube 短片",
-        "url": "https://www.theverge.com/tech/934704/google-gemini-omni-youtub-shorts-remix-ai",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-20T12:41:40-04:00",
-        "summary_zh": "Google 宣佈推出 YouTube Shorts Remix 功能，讓用戶可以重新排版或插入自己到他人的影片中。這項功能使用 Gemini Omni，當你點擊 YouTube 短片底部的重混按鈕時，會出現一個「重新想像」的選項。用戶可以在這裡要求 Gemini 將影片轉換成不同的形式。這項功能的推出，讓用戶可以更創造性地使用 YouTube 短片，並且可以與他人分享自己的創意作品。這項功能的推出，也標誌著人工智慧在視頻創作中的應用。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "4a714333",
-        "title": "谷歌搜索的 AI 演進包括更多廣告",
-        "url": "https://www.theverge.com/tech/934585/google-ai-shopping-ads-search",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-20T12:00:00-04:00",
-        "summary_zh": "谷歌的 AI 助力搜索時代似乎也延伸到了廣告上。現在，當你搜尋產品時，谷歌的 Gemini AI 聊天機器人將會顯示相關商品，並生成一個「自訂解釋」，告訴你為什麼該購買特定的一個產品。這項更新剛剛發布，僅僅一天前，谷歌就揭露了一個新的搜索框，為更大的、更具對話性的 [&#8230;] 這項更新將會對谷歌的廣告業務產生重大影響，可能會讓使用者更容易被廣告吸引。然而，谷歌仍然沒有公佈這項更新的具體時間表。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "9d23be9d",
-        "title": "AI 標籤系統的成敗時刻",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/934521/google-synthid-c2pa-content-credentials-ai-labelling-efforts",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-20T10:12:54-04:00",
-        "summary_zh": "近期，SynthID 和 C2PA Content Credentials 兩個技術將在全球範圍內進行大規模推廣，這兩個技術能夠隱藏地將圖片、視頻和音頻檔案標籤為其來源。這意味著，將要展開對這些系統的檢驗，檢驗其是否能夠有效地辨別深偽造和 AI 產生的內容。這是 AI 標籤系統的關鍵時刻，將會展現出這些系統的實際能力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e4b2e17a",
-        "title": "如果谷歌無法讓 AI 代理人有用，可能沒有人能做到",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/934478/if-google-cant-make-ai-agents-useful-maybe-no-one-can",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-20T09:24:22-04:00",
-        "summary_zh": "近年來，科技公司一直宣稱 AI 將給每個人一個能夠擔任個人助理的能力，但實際上卻只能提供像個無腦實習生的東西。過去六個月，開源 AI 代理人平台 OpenClaw 的流行已經開始改變這種狀況。目前，各大 AI 研究機構都在追求類似的成功，其中一個似乎特別值得關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "780c1164",
-        "title": "美國最大數據中心在猶他州引發爭議",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/933687/utah-stratos-project-data-center-kevin-oleary",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-20T09:00:00-04:00",
-        "summary_zh": "猶他州可能成為全球最大的數據中心之一，儘管專家和公眾都對此表示強烈反對。前幾天，盒爾德縣委員會批准了 Stratos 項目：一個跨越縣內 Hansel Valley 的 40,000 英畝數據中心。這個計畫旨在建立美國在人工智慧領域的領先地位，但同時也引發了對環境和資源的擔憂。該計畫的批准引發了強烈的公眾反應，許多人擔心這個數據中心會對當地的水源和空氣質量造成嚴重影響。專家也警告說，這個計畫可能會對當地的生態系統造成不可逆轉的傷害。猶他州的居民對這個計畫的反應是強烈的，許多人參與了抗議活動，表達對這個計畫的不滿。這個事件也引發了對政府和企業在環境保護和資源管理上的責任的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1bab959f",
-        "title": "德米斯·哈薩比斯說這可能是人工智慧奇點的『山腳下』。什麼意思？",
-        "url": "https://www.theverge.com/tech/934260/google-io-ai-singularity-demis-hassabis",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-19T18:16:02-04:00",
-        "summary_zh": "德米斯·哈薩比斯在Google I/O的關鍵演講中表示，這是人類歷史上一個深刻的時刻。他認為，Google DeepMind的前沿研究和產品將幫助解放人工智慧（AGI）的巨大潛力，造福整個世界。哈薩比斯表示，這可能是人工智慧奇點的『山腳下』，暗示著人工智慧的發展正處於一個重要的轉折點。這意味著，人工智慧的技術將在未來幾年內取得重大突破，對於人類社會和經濟產生深遠的影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "059628e9",
-        "title": "谷歌未來的關鍵在於一盒搜索工具",
-        "url": "https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-19T17:24:14-04:00",
-        "summary_zh": "去年，我們觀看了谷歌的I/O主題演講後，我寫道谷歌未來的關鍵在於谷歌自己搜索。今年，我們觀看了谷歌I/O主題演講，發現谷歌不僅僅想為你搜索資料，還想為你做好所有事情，從一盒搜索工具開始。谷歌的信任度已經達到一個新的高度，谷歌的搜索工具不僅能夠提供信息，還能夠幫助你完成各種任務，像是設定智能家居、控制汽車等。谷歌的目標是通過一盒搜索工具，讓使用者能夠輕鬆地完成各種工作，提高生活效率。這個理念可能會對我們的生活產生重大影響，讓我們的生活更加便捷、智能化。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "524918d6",
-        "title": "谷歌的 AI 未來需要信任 — 和你的個人資料",
-        "url": "https://www.theverge.com/tech/934172/google-io-gemini-ai-trust-personal-data",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-19T17:00:00-04:00",
-        "summary_zh": "谷歌對其 AI 領域的未來抱持著巨大的期望，然而這一切都取決於你對谷歌的信任。谷歌在 2026 年的 I/O 大會上介紹了一系列新的工具，宣稱這些工具將能夠簡化你的生活。Gemini Spark 是谷歌一直在線的 AI 代理，它能夠幫助你組織即將到來的活動，而 Daily Brief 則能夠提供一份簡要的摘要。谷歌還聲稱，這些工具將能夠幫助你管理時間表、提醒你重要的事件，並且能夠提供個人化的建議。然而，這些工具的運作都需要你的個人資料，這使得信任成為了關鍵問題。谷歌需要你信任它，以便它能夠收集和使用你的資料來提供更好的服務。然而，這也引發了對隱私和安全性的擔憂。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0c26b94b",
-        "title": "吉尼米將利用沃爾沃外部攝影機來解釋停車標誌",
-        "url": "https://www.theverge.com/transportation/933556/google-io-gemini-volvo-ex60-camera-ai-parking",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-19T14:00:00-04:00",
-        "summary_zh": "吉尼米正獲得視覺和行動力的能力。今天在I/O會議上，谷歌和沃爾沃宣布，人工智慧助手將能夠訪問即將推出的EX60 SUV的外部攝影機，幫助解釋和詮釋車輛所有者的周圍環境。這項升級是由於沃爾沃使用谷歌的嵌入式技術所實現的。這項技術將使吉尼米能夠更好地了解停車標誌、路口和其他環境資訊，從而為車主提供更安全和更便捷的駕駛體驗。這項合作將為汽車行業帶來新的可能性和創新，讓車主能夠更好地與車輛互動。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5ecfa573",
-        "title": "Google 發布新一代人工智慧模型，個人 AI 代理工具，試圖與 OpenAI 和 Anthropic 持續競爭",
-        "url": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html",
-        "source": "Cnbc",
-        "category": "ai",
-        "published_at": "2026-05-19 17:47:26",
-        "summary_zh": "Google 在其年度開發者會議上宣布了一系列人工智慧的新消息，推出更先進的模型和代理工具，為其龐大用戶群帶來新功能。這些新功能包括更先進的 AI 模型和個人 AI 代理工具，旨在與 OpenAI 和 Anthropic 等競爭對手保持競爭力。這些新功能將為開發者提供更強大的工具和資源，幫助他們創造更智能和更具人性化的 AI 應用程式。Google 的這一舉動表明公司致力於在人工智慧領域保持領先地位，並為未來的 AI 發展提供更多可能性。然而，與 OpenAI 和 Anthropic 的競爭將會持續激烈，Google 必須繼續推出創新的 AI 技術來保持競爭力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4b3e2bcf",
-        "title": "2026 年 Google I/O 大會：13 個重點宣布",
-        "url": "https://www.theverge.com/tech/933415/google-io-2026-biggest-announcements-ai-gemini",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-19T13:54:33-04:00",
-        "summary_zh": "Google I/O 2026 大會今天再次充滿了與 AI 相關的宣布，包括一家新型 Gemini 3.5 AI 模型的推出、Search 和 Gmail 的新功能，以及 Project Aura 智慧眼鏡的更新。如未能在線上直播或跟隨我們的實時博客，以下是大會的重點宣布： \n \n Google 宣布推出一家新型 Gemini 3.5 AI 模型，這將進一步提高 AI 的效能和準確性。\n \n Search 和 Gmail 將獲得新的功能，包括更好的語意理解和更智能的回覆。\n \n Project Aura 智慧眼鏡將獲得更新，包括更好的視覺和聽覺體驗。\n \n 這些宣布將對 Google 的 AI 技術和產品產生重大影響，同時也將為未來的發展提供新的方向。\n \n 對於科技業界的發展，Google 的這些宣布將是一個重要的里程碑，同時也將為未來的發展提供新的方向。\n \n",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3a7abe70",
-        "title": "麥克思訴阿爾曼案庭審內幕：梅斯克失訴",
-        "url": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Tue, 19 May 2026 20:15:18 +0000",
-        "summary_zh": "梅斯克在訴訟中指控阿爾曼和布洛克曼在公司非營利地位上欺瞞他。阿爾曼和布洛克曼否認這一指控。梅斯克在訴訟中聲稱，他在投資OpenAI時被阿爾曼和布洛克曼欺瞞。梅斯克認為，阿爾曼和布洛克曼沒有誠實地告知他公司的非營利地位，導致他投資的損失。阿爾曼和布洛克曼否認這一指控，聲稱他們一直誠實地與梅斯克溝通。庭審最後，梅斯克的訴訟被駁回。這一裁決對梅斯克和OpenAI的未來發展將產生重大影響。梅斯克的失訴可能會影響他未來的投資決策，同時也會影響OpenAI的發展方向。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c5149855",
-        "title": "文學獎得主面臨AI指控，似乎已經成為新常態",
-        "url": "https://www.wired.com/story/commonwealth-short-story-prize-ai-allegations/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Tue, 19 May 2026 22:53:04 +0000",
-        "summary_zh": "文學界最近出現了一個令人費解的現象：一些文學獎得主被指控使用AI工具來創作作品。根據最新消息，共wealth Commonwealth Short Story Prize 的五個地區得主中，有三人被懷疑使用聊天機器人來撰寫故事。這種情況並非孤立，許多文學家都在使用AI工具來幫助創作。這種趨勢是否會影響文學界的誠信和真實性？這是目前的關注點。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "fbda5c8a",
-        "title": "Google I/O 2026：Gemini、搜尋、智慧眼鏡全新發表",
-        "url": "https://www.wired.com/story/everything-google-announced-at-google-io-2026/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Tue, 19 May 2026 20:00:48 +0000",
-        "summary_zh": "Google I/O 2026 大會上，Google 宣佈了 Gemini 模型的全面升級、搜尋功能的重磅改版以及在各個領域內啟用人工智慧代理。另外，智慧眼鏡將於今年秋季推出。這些新功能和產品將大大改善人們的生活質量。Google Gemini 模型的升級將帶來更強大的計算能力和更好的語言理解能力。新版的搜尋功能將能夠更快速地找到所需的信息，並且能夠提供更精確的結果。人工智慧代理將能夠在各個領域內提供智能化服務，改善人們的生活質量。智慧眼鏡的推出將帶來新的視覺體驗，讓人們能夠更方便地獲得信息。這些新功能和產品將對未來的科技發展產生重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "527e137b",
-        "title": "元宇宙公司面臨大幅裁員，員工亟欲使用剩餘福利",
-        "url": "https://www.wired.com/story/meta-employees-scramble-benefits-layoffs-ai/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Tue, 19 May 2026 19:00:46 +0000",
-        "summary_zh": "在即將裁員約 8,000 人的前夕，公司員工紛紛趁機利用剩餘福利，包括耳機補助和其他優惠。這些福利可能在裁員後即時失效，員工們為了避免浪費，趁機使用剩餘福利。這種情況在企業裁員時不鮮見，員工們為了最大限度地利用福利，展開了一場「福利大掃貨」的行動。這一系列的事件也讓人們對未來的裁員感到緊張和焦慮。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7c2e58bf",
-        "title": "德米斯哈薩比斯認為AI裁員是愚蠢",
-        "url": "https://www.wired.com/story/demis-hassabis-ai-layoffs-deepmind-google-io/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Tue, 19 May 2026 17:45:00 +0000",
-        "summary_zh": "德米斯哈薩比斯，Google DeepMind 的 CEO， recently 表示他認為企業應該利用 AI 的生產力增長來做更多事情，而不是裁員。這一觀點是基於他對 AI 的看法，即它能夠幫助企業提高效率和創造價值。哈薩比斯認為，企業應該將 AI 的生產力增長轉化為創造更多工作機會和投資於員工培訓，而不是將員工裁員。這一觀點得到了一些人工智能專家的支持，他們認為 AI 的應用應該是為了幫助人類，而不是取代人類。然而，這一觀點也引起了一些爭議，認為企業應該優先考慮自己的利益和成本效益。綜上所述，哈薩比斯的觀點表明了他對 AI 的正面看法和他對企業應該如何應用 AI 的期望。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7ce09446",
-        "title": "谷歌簡化深度造假技術，讓你輕鬆變身自己",
-        "url": "https://www.wired.com/story/google-makes-it-easy-to-make-a-deepfake-of-yourself/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Tue, 19 May 2026 17:45:00 +0000",
-        "summary_zh": "谷歌最新的 AI 創作軟體 Flow 過haul 包括一款新型的視頻模型和一款名為 avatars 的 selfie 視頻生成工具。這意味著使用者可以輕鬆地創造出自己深度造假的視頻。這項技術可能會被用於多種應用，包括娛樂、教育和社交媒體。然而，也存在著對於這項技術的安全性和道德問題的擔憂。例如，深度造假的視頻可能會被用於散布假消息或進行身份欺騙。谷歌的這項新功能可能會帶來新的挑戰和機會，需要仔細考慮其應用和後果。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "bbf917f7",
-        "title": "Google 搜尋變成「智能助手」，不再需要你的參與",
-        "url": "https://www.wired.com/story/google-search-goes-agentic-and-doesnt-need-you-anymore/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Tue, 19 May 2026 17:45:00 +0000",
-        "summary_zh": "Google 近期推出了一個嶄新的搜尋系統，該系統將搜尋結果與使用者的個人偏好進行匹配，提供超過人性化的服務。這個系統還將使用 AI 技術來自動化搜尋過程，減少人工介入。這意味著，未來的 Google 搜尋將更加智能、自動化，甚至不再需要使用者的參與。這個系統的推出，將會對搜尋行業產生重大影響，並且可能會改變我們對搜尋的方式。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4c3074e0",
-        "title": "蓋門尼史帕克是谷歌對開爪機器人 24/7 AI 代理的回應",
-        "url": "https://www.wired.com/story/googles-response-to-openclaws-24-7-ai-agent/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Tue, 19 May 2026 17:45:00 +0000",
-        "summary_zh": "谷歌推出名為蓋門尼史帕克的 AI 代理，旨在持續運行並處理大量數據。蓋門尼史帕克的設計目標是自動化各種任務，包括花錢和發送郵件等。這項技術可能會對人們的生活產生重大影響，例如自動化購物和支付等。然而，仍需觀察其實際運用和對社會的影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ab519d28",
-        "title": "谷歌將推出自Google Glass失敗後的第一款智能眼鏡",
-        "url": "https://www.bbc.com/news/articles/cvgz1ynq1nqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "ai",
-        "published_at": "Tue, 19 May 2026 21:00:12 GMT",
-        "summary_zh": "谷歌即將推出新款智能眼鏡，這是自Google Glass失敗後的第一款產品。新款眼鏡預計將在秋季上市，將允許谷歌的人工智慧產品與用戶互動。這是谷歌繼續嘗試在智能眼鏡市場上取得成功的又一嘗試。谷歌曾經在2013年推出Google Glass，但因為設計和功能問題而失敗。新款眼鏡的推出將會受到關注，是否能夠改善谷歌在智能眼鏡市場上的形象。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "10abdfeb",
-        "title": "印度央行干預為印度盧比貶值創下新低",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-20/inr-usd-indian-central-bank-intervenes-as-rupee-drops-to-record-low",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-20 04:57:27",
-        "summary_zh": "印度央行出手干預市場，試圖穩定貶值的印度盧比。盧比在近期已經貶值至新低，引起市場關注。印度央行的干預措施包括購買盧比，試圖提高其價值。這一措施旨在防止盧比貶值過度，對印度經濟造成不利影響。印度央行的行動受到市場的關注，市場人士正在觀察央行的下一步措施。盧比的貶值對印度出口業和外匯儲備造成了影響，印度央行的干預措施旨在穩定市場和防止經濟不穩定。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "9f1f4a17",
-        "title": "外資企業看中香港上市，IPO反彈擴大",
-        "url": "https://www.reuters.com/business/finance/foreign-firms-eye-hong-kong-listings-ipo-rebound-broadens-2026-05-19/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-20 04:52:31",
-        "summary_zh": "香港上市市場正在經歷一波反彈，外資企業開始看中香港作為上市的選擇。根據最新的數據，今年上半年香港的IPO市場已經完成了近200個新上市公司的募資，總募資額達到逾300億美元。這是自2010年以來香港IPO市場最繁忙的一年。外資企業正在利用香港作為上市的選擇，來籌集資金和擴大業務。這一趨勢的背後是香港的經濟環境正在改善，投資者對香港市場的信心正在增強。然而，分析師也指出，香港的IPO市場仍然面臨著挑戰，包括市場競爭和監管要求的增加。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "177abb48",
-        "title": "全球長期債券收益率攀升至近二十年來最高點",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-20/global-long-bond-yields-climb-to-highest-in-almost-two-decades",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-20 04:49:21",
-        "summary_zh": "全球長期債券收益率近期大幅攀升，達到近二十年來的最高點。這一趨勢主要是由於市場對未來通膨率的預期增加所致。根據數據顯示，全球長期債券收益率已經超過了 4% 的關口，遠超過了過去十年的平均值。這一趨勢對於全球經濟和金融市場都有著重要的影響，投資者需要密切關注債券市場的變化。債券收益率的攀升也意味著投資者的風險承受能力正在增加，這將對於全球經濟的發展產生重要影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "147dcd17",
-        "title": "普拉博沃計劃加強對印尼商品出口的控制",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-20/prabowo-to-tighten-controls-of-indonesia-s-commodity-exports",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-20 04:37:40",
-        "summary_zh": "印尼總統普拉博沃·蘇比安托宣布計劃加強國家對商品出口的控制，政府正面臨著日益加劇的財政壓力和印尼盧比亞的貶值。這一措施旨在鞏固國家對國家資源的控制權，同時也會對出口商和外國投資者產生影響。印尼政府的這一決定將如何影響該國的經濟和出口業，還需要觀察和監測。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "6963aa16",
-        "title": "印度太陽能業者要求提高電力價格 面對歷史新高的需求",
-        "url": "https://www.reuters.com/business/energy/india-solar-industry-seeks-higher-power-prices-amid-record-demand-2026-05-20/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-20 04:35:43",
-        "summary_zh": "印度太陽能業者面臨著史上最高的需求，要求政府提高電力價格，以便他們能夠維持生產和投資。太陽能產業的需求在過去幾年內快速增長，印度政府已經推出多項政策以促進可再生能源的發展。然而，業者認為目前的電力價格仍然太低，無法cover生產成本。政府正在考慮業者的要求，同時也關注到提高電力價格可能對民眾的影響。這一事件可能對印度的能源政策和可再生能源的發展產生重要影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "0cc3533a",
-        "title": "哥倫比亞石油公司 Ecopetrol 購買 49% 的兩個風電集群項目 Jemeiwaa Ka'I",
-        "url": "https://www.reuters.com/es/mundo/U7TXLPHTPRITRD47EEETX5BA4I-2026-05-20/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-20 04:35:35",
-        "summary_zh": "哥倫比亞石油公司 Ecopetrol 宣佈購買 49% 的權益於兩個風電集群項目 Jemeiwaa Ka'I。這兩個項目位於墨西哥，總共投資 1.5 億美元。Ecopetrol 表示，這項投資將幫助公司遷就氣候變化的挑戰，並增加可再生能源的比例。墨西哥政府也對此項投資表示歡迎，認為這將促進該國的能源轉型。這項交易預計將於今年底完成。哥倫比亞石油公司 Ecopetrol 的這項投資將對墨西哥的能源市場產生重大影響，同時也表明公司致力於發展可再生能源。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "cfc431f6",
-        "title": "日本20年期國債收益率上升　短期內售出帶來緩解",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-20/japan-20-year-bond-sale-sees-firmer-demand-than-12-month-average-mpdilxr6",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-20 04:25:55",
-        "summary_zh": "日本政府近日出售20年期國債，市場反應積極。這次出售帶來短期內的緩解，收益率上升。分析師認為，這是市場對日本經濟前景的反應，表明投資者對未來的信心。然而，這也可能是短期內的市場調整，未來收益率的走向仍有未知數。日本政府出售國債的目的是為了籌措資金，支持經濟發展。市場對這次出售的反應是積極的，表明投資者對日本經濟的信心。然而，這也可能是市場對未來的預期，未來收益率的走向仍有未知數。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "21afcf1b",
-        "title": "斯里蘭卡盧比兌換率下滑加劇，官員指責投機行為",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-20/lkr-usd-sri-lankan-rupee-weakness-due-to-speculation-official-says",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-20 04:13:45",
-        "summary_zh": "斯里蘭卡盧比兌換率近期出現下滑趨勢，該國官員指責投機行為加劇了這一情況。斯里蘭卡央行官員表示，投機者對盧比兌換率的投機行為，正在加劇該國的經濟不穩定。斯里蘭卡央行官員呼籲投資者保持冷靜，避免過度投機。斯里蘭卡央行官員表示，該國正在採取措施來穩定經濟和控制盧比兌換率。斯里蘭卡央行官員表示，該國正在與國際機構合作，來尋求經濟援助和穩定經濟。斯里蘭卡央行官員表示，該國正在採取措施來提高經濟競爭力和吸引外資。斯里蘭卡央行官員表示，該國正在與其他國家合作，來建立經濟合作夥伴關係。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      }
-    ],
-    "stock_us": [
-      {
-        "id": "079da762",
-        "title": "Target 預計公布第一季財報，提供消費者購買趨勢讀數",
-        "url": "https://www.cnbc.com/2026/05/20/target-tgt-q1-2026-earnings.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-20 04:01:01",
-        "summary_zh": "Target 進入財報季，公司近期一直面臨銷售下滑和客流量減少的問題，雖然 CEO Michael Fiddelke 表示公司正處於轉變的關鍵時期，但仍需要觀察公司的財報結果。這次財報將對消費者購買趨勢提供重要的讀數，同時也會展現公司的營運狀況。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "bdadf9e9",
-        "title": "亞洲市場預期混亂開盤，美債殖利率大幅上升、伊朗緊張局勢升級",
-        "url": "https://www.cnbc.com/2026/05/20/asia-pacific-markets-today-live-updates-treasury-yields-nikkei-225-kospi-hang-seng-nifty.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-19 23:46:14",
-        "summary_zh": "亞太地區市場預計周三開盤時將呈現出來回波動的態勢。投資者們正面臨著美債殖利率大幅上升的壓力，同時也要考慮到伊朗的局勢緊張。這些因素都會對市場造成一定的影響。投資者們需要在美債殖利率的上升和伊朗局勢的不確定性之間尋找平衡。這種情況下，市場可能會呈現出來回波動的態勢，投資者需要保持警覺。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "93bbd441",
-        "title": "OpenAI 宣布新 Guaranteed Capacity 服務，讓客戶可確保計算資源",
-        "url": "https://www.cnbc.com/2026/05/19/openai-announces-new-guaranteed-capacity-offering-for-customers-to-secure-compute.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-19 21:56:12",
-        "summary_zh": "OpenAI 宣布推出新服務 Guaranteed Capacity，讓客戶可預先購買計算資源，確保使用 OpenAI 的產品如 ChatGPT 和 Codex 時不會遇到計算資源不足的問題。這項服務的推出是為了確保 OpenAI 的產品能夠順暢運作，同時也讓客戶能夠更好地規劃和預算計算資源。Altman 表示，OpenAI 會確保留下足夠的計算資源供客戶使用。這項服務的推出對於 OpenAI 的客戶來說是一個好消息，讓他們能夠更好地使用 OpenAI 的產品。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d4769377",
-        "title": "Alphabet未能達成華爾街預期，股價在Google I/O活動期間下滑",
-        "url": "https://www.cnbc.com/video/2026/05/19/alphabet-falls-short-of-wall-street-expectations-stock-slides-during-google-io-event.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-19 20:51:38",
-        "summary_zh": "在Google I/O活動期間，Alphabet的股價下滑。根據CNBC的報導，Alphabet未能達成華爾街的預期。雖然Google I/O是一個關鍵的科技活動，但Alphabet的股價仍未能得到提升。分析師預期Alphabet的財務表現會好於市場預期，但實際表現卻未能達成。這可能是由於市場對科技股的預期過高，或者是Alphabet的財務表現並未如預期般好。這個事件可能會對Alphabet的股價產生一定的影響，投資者需要密切關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "36c668ed",
-        "title": "Citi稱該金屬買入最佳布局50年來首見",
-        "url": "https://www.cnbc.com/2026/05/19/citi-says-its-the-best-buying-set-up-in-this-metal-in-50-years.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-19 20:01:46",
-        "summary_zh": "美國銀行Citi預測，2026年下半年鋁價料將大幅上漲，平均每公噸達到4,000美元。這是Citi50年來對該金屬買入布局的最樂觀評估。鋁價的上漲將受到供需矛盾的推動，尤其是中國的需求增長和全球供應鏈的不穩定性。這將對鋁的價格造成重大影響，投資者應該考慮購買鋁相關資產。Citi的預測表明，鋁將成為未來投資的關鍵金屬之一。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c4a78fe1",
-        "title": "在市場下跌時，轉向股息增長股來擋風，Trivariate Research建議",
-        "url": "https://www.cnbc.com/2026/05/19/dividend-growth-stocks-for-down-markets-per-trivariate-research.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-19 19:58:57",
-        "summary_zh": "在市場下跌的背景下，投資者正在尋找防禦性投資機會。根據Trivariate Research的研究，股息增長股是投資者可以考慮的選擇。這些股息增長股不僅能夠提供穩定的股息收入，而且還能夠在市場下跌時保持穩定。研究公司認為，這些股息增長股的股價在市場下跌時會受到較少影響，能夠為投資者的投資組合提供一定的保護。 Trivariate Research指出，這些股息增長股的股息增長率遠超市場平均水平，表明這些公司的財務狀況良好，能夠持續提供股息收入。投資者可以考慮這些股息增長股來擋風，減少投資組合的風險。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1dcaa9d3",
-        "title": "華爾街監管機構暫停部分網絡安全考試",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-19/anthropic-mythos-ai-model-prompts-regulators-to-delay-us-bank-cyberattack-tests",
-        "source": "Bloomberg",
-        "category": "stock_us",
-        "published_at": "2026-05-19 19:03:40",
-        "summary_zh": "華爾街監管機構暫時暫停了一些網絡安全考試，原因是Mythos事件的影響。這些考試是為了考察金融機構的網絡安全能力，目的是防止未來的網絡攻擊和安全風險。暫停考試的決定是為了讓金融機構有足夠的時間來修復和強化其網絡安全措施，同時也讓監管機構有時間來評估和改善考試內容。這一決定將對金融機構的網絡安全能力和監管機構的工作產生影響。目前尚未清楚暫停考試的時間長短和考試恢復的具體安排。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e47b5078",
-        "title": "新數據增強了利立愛的肥胖藥片信心。還有，谷歌的新人工智慧功能",
-        "url": "https://www.cnbc.com/2026/05/19/new-data-boosts-our-confidence-in-lillys-obesity-pill-plus-googles-new-ai-.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-19 18:38:37",
-        "summary_zh": "每個工作日，投資俱樂部都會發布《Homestretch》，這是一份針對最後一小時交易時間的實際操作午後更新。這份更新提供投資者在最後一小時交易時間的投資建議和市場分析。這樣的更新幫助投資者在市場變化不明時，做出明智的投資決策。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       }
     ],
@@ -1190,227 +1178,6 @@
       "type": "price",
       "warn": 400,
       "danger": 500
-    }
-  },
-  "daily_digest": {
-    "key_themes": [
-      {
-        "title": "中東戰爭對全球經濟的影響",
-        "background": "中東戰爭持續對全球市場和經濟產生重大影響",
-        "development": "近期，中東戰爭的持續升級對全球能源市場產生了重大影響，導致油價上漲和投資者避險情緒加劇，VIX 恐慌指數下降 2.05%。",
-        "impact": "這一趨勢對全球經濟和金融市場都有著重要的影響，投資者需要密切關注債券市場的變化和全球經濟的走勢。",
-        "conclusion": "短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈。",
-        "region": "global"
-      },
-      {
-        "title": "人工智慧產業的快速發展",
-        "background": "人工智慧產業的快速發展推動各個行業的變革",
-        "development": "近期，人工智慧產業的快速發展推動各個行業的變革，尤其是在科技和金融領域。OpenAI 的新服務 Guaranteed Capacity 讓客戶可預先購買計算資源，確保使用 OpenAI 的產品如 ChatGPT 和 Codex 時不會遇到計算資源不足的問題。",
-        "impact": "這一趨勢對全球經濟和金融市場都有著重要的影響，投資者需要密切關注人工智慧產業的發展和其對各個行業的影響。",
-        "conclusion": "人工智慧產業的快速發展將繼續推動各個行業的變革，投資者需要關注其對全球經濟和金融市場的影響。",
-        "region": "global"
-      },
-      {
-        "title": "全球金融市場的變化",
-        "background": "全球金融市場的變化需要密切關注",
-        "development": "近期，全球金融市場的變化需要密切關注，尤其是在債券市場和股票市場。全球長期債券收益率攀升至近二十年來最高點，對全球經濟和金融市場都有著重要的影響。",
-        "impact": "這一趨勢對全球經濟和金融市場都有著重要的影響，投資者需要密切關注債券市場的變化和全球經濟的走勢。",
-        "conclusion": "投資者需要密切關注全球金融市場的變化，尤其是在債券市場和股票市場，短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈。",
-        "region": "global"
-      }
-    ],
-    "sector_analysis": [
-      {
-        "sector": "科技",
-        "direction": "看多",
-        "reasoning": "人工智慧產業的快速發展推動各個行業的變革，尤其是在科技和金融領域。",
-        "key_ticker": "GOOGL"
-      },
-      {
-        "sector": "能源",
-        "direction": "看空",
-        "reasoning": "中東戰爭的持續升級對全球能源市場產生了重大影響，導致油價上漲和投資者避險情緒加劇。",
-        "key_ticker": "XOM"
-      },
-      {
-        "sector": "金融",
-        "direction": "中性",
-        "reasoning": "全球金融市場的變化需要密切關注，尤其是在債券市場和股票市場。",
-        "key_ticker": "JPM"
-      }
-    ],
-    "action_signals": [
-      {
-        "asset": "S&P 500",
-        "signal": "短多",
-        "reasoning": "短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈。",
-        "confidence": "中高"
-      },
-      {
-        "asset": "GOOGL",
-        "signal": "短多",
-        "reasoning": "人工智慧產業的快速發展推動各個行業的變革，尤其是在科技和金融領域。",
-        "confidence": "高"
-      },
-      {
-        "asset": "XOM",
-        "signal": "短空",
-        "reasoning": "中東戰爭的持續升級對全球能源市場產生了重大影響，導致油價上漲和投資者避險情緒加劇。",
-        "confidence": "中"
-      }
-    ],
-    "risk_radar": [
-      {
-        "event": "中東戰爭升級",
-        "probability": "高",
-        "impact": "高",
-        "timeframe": "本週",
-        "description": "中東戰爭的持續升級對全球能源市場產生了重大影響，導致油價上漲和投資者避險情緒加劇。"
-      },
-      {
-        "event": "全球金融市場波動",
-        "probability": "中",
-        "impact": "中",
-        "timeframe": "下週",
-        "description": "全球金融市場的變化需要密切關注，尤其是在債券市場和股票市場。"
-      },
-      {
-        "event": "人工智慧產業發展",
-        "probability": "低",
-        "impact": "低",
-        "timeframe": "本月",
-        "description": "人工智慧產業的快速發展推動各個行業的變革，尤其是在科技和金融領域。"
-      }
-    ],
-    "narrative_shift": {
-      "new_themes": [
-        "中東戰爭升級",
-        "全球金融市場波動"
-      ],
-      "escalated": [
-        "人工智慧產業發展"
-      ],
-      "cooled": [
-        "全球經濟走勢"
-      ],
-      "disappeared": []
-    },
-    "watch_next": [
-      {
-        "topic": "中東戰爭升級",
-        "reason": "對全球能源市場產生重大影響",
-        "timeframe": "本週"
-      },
-      {
-        "topic": "全球金融市場波動",
-        "reason": "需要密切關注",
-        "timeframe": "下週"
-      },
-      {
-        "topic": "人工智慧產業發展",
-        "reason": "推動各個行業的變革",
-        "timeframe": "本月"
-      }
-    ],
-    "cross_links": [
-      {
-        "themes": [
-          "中東戰爭升級",
-          "全球能源市場"
-        ],
-        "chain": "中東戰爭升級 → 全球能源市場 → 油價上漲"
-      },
-      {
-        "themes": [
-          "人工智慧產業發展",
-          "科技領域"
-        ],
-        "chain": "人工智慧產業發展 → 科技領域 → 各個行業的變革"
-      },
-      {
-        "themes": [
-          "全球金融市場波動",
-          "債券市場"
-        ],
-        "chain": "全球金融市場波動 → 債券市場 → 投資者避險情緒加劇"
-      }
-    ],
-    "market_snapshot": {
-      "mood": "觀望",
-      "key_moves": "VIX 恐慌指數下降 2.05%，原油 WTI 下降 9.23%，黃金上漲 0.68%。"
-    },
-    "data_table": {
-      "indices": [
-        {
-          "key": "SP500",
-          "name": "S&P 500",
-          "price": 7415.84,
-          "change_pct": 0.85,
-          "status": "danger"
-        },
-        {
-          "key": "NASDAQ",
-          "name": "那斯達克",
-          "price": 26177.57,
-          "change_pct": 1.19,
-          "status": "normal"
-        },
-        {
-          "key": "TWII",
-          "name": "台股加權",
-          "price": 40175.56,
-          "change_pct": -1.75,
-          "status": "danger"
-        }
-      ],
-      "commodities": [
-        {
-          "key": "GOLD",
-          "name": "黃金",
-          "price": 4537.0,
-          "change_pct": 0.68,
-          "status": "normal"
-        },
-        {
-          "key": "OIL",
-          "name": "原油 WTI",
-          "price": 97.82,
-          "change_pct": -9.23,
-          "status": "normal"
-        }
-      ],
-      "forex": [
-        {
-          "key": "DXY",
-          "name": "美元指數",
-          "price": 99.13,
-          "change_pct": -0.17,
-          "status": "normal"
-        },
-        {
-          "key": "USDTWD",
-          "name": "美元/台幣",
-          "price": 31.57,
-          "change_pct": 0.04,
-          "status": "normal"
-        }
-      ],
-      "bonds_volatility": [
-        {
-          "key": "TNX",
-          "name": "美債10Y殖利率",
-          "price": 4.58,
-          "change_pct": -1.82,
-          "status": "warn"
-        },
-        {
-          "key": "VIX",
-          "name": "VIX 恐慌指數",
-          "price": 17.69,
-          "change_pct": -2.05,
-          "status": "normal"
-        }
-      ]
     }
   }
 }
