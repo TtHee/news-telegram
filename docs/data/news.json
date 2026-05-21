@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-21T18:13:43.092203+08:00",
+  "generated_at": "2026-05-21T19:09:30.699194+08:00",
   "risk_signals": [
     "🟢 台股加權 41368.21（正常）",
     "🟢 S&P 500 7432.97（正常）",
-    "🟢 VIX 恐慌指數 17.2（正常）",
+    "🟢 VIX 恐慌指數 17.81（正常）",
     "🟢 MOVE 債市波動 81.53（正常）",
-    "🟢 美元指數 99.12（正常）",
-    "🟢 黃金 4533.7（正常）",
+    "🟢 美元指數 99.27（正常）",
+    "🟢 黃金 4514.0（正常）",
     "🟡 美債10Y殖利率 4.57（留意）",
-    "🟢 原油 WTI 97.55（正常）",
-    "🟢 美元/台幣 31.53（正常）"
+    "🟢 原油 WTI 101.05（正常）",
+    "🟢 美元/台幣 31.55（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，投資者對風險的接受度提高，台股和美股均錄得小幅上漲。美債10年殖利率略有上升，需要密切關注。",
+  "ai_summary": "市場指標表現穩健，台股和美股均上漲，恐慌指數維持在正常水平。然而，美債10年殖利率略有上升，值得關注。整體市場氛圍保持穩定，但投資者應該注意債券市場的變化。",
   "market": {
     "TWII": {
       "price": 41368.21,
@@ -26,8 +26,8 @@
       "change_pct": 1.54
     },
     "VIX": {
-      "price": 17.2,
-      "change_pct": -1.38
+      "price": 17.81,
+      "change_pct": 2.12
     },
     "TNX": {
       "price": 4.57,
@@ -38,25 +38,73 @@
       "change_pct": -4.44
     },
     "DXY": {
-      "price": 99.12,
-      "change_pct": 0.01
+      "price": 99.27,
+      "change_pct": 0.16
     },
     "GOLD": {
-      "price": 4533.7,
-      "change_pct": 0.05
+      "price": 4514.0,
+      "change_pct": -0.38
     },
     "OIL": {
-      "price": 97.55,
-      "change_pct": -0.72
+      "price": 101.05,
+      "change_pct": 2.84
     },
     "USDTWD": {
-      "price": 31.53,
-      "change_pct": -0.62
+      "price": 31.55,
+      "change_pct": -0.56
     }
   },
   "macro": {},
   "categories": {
     "whitehouse": [
+      {
+        "id": "b1d84f01",
+        "title": "美國250：總統致詞慶祝愛荷華女士橫跨大西洋的飛行",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/america-250-presidential-message-on-amelia-earharts-flight-across-the-atlantic/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 20 May 2026 23:28:13 +0000",
+        "summary_zh": "美國總統在慶祝愛荷華女士橫跨大西洋的94周年紀念日時，表達了對她的讚賞。愛荷華女士的飛行表現了美國人的膽識、創新精神和不屈不撓的精神。她的生平充滿著挑戰和突破，成為美國人的楷模。總統在致詞中強調，愛荷華女士的精神是美國人的精神，她的飛行是美國人的飛行。這個紀念日不僅是對愛荷華女士的致敬，也是對美國人的精神的致敬。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "04d3c886",
+        "title": "提名送交參議院",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/nominations-sent-to-the-senate-22d2/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 20 May 2026 20:07:10 +0000",
+        "summary_zh": "美國白宮宣布將提名查爾斯·巴爾迪斯（Charles Baldis）擔任五年期的特別顧問，負責監督特別顧問辦公室。同時，白宮也提名朱爾斯·哈斯特三世（Jules Hurst III）擔任國防部財務長。這兩項提名將送交參議院審議。查爾斯·巴爾迪斯擔任特別顧問的任期將長達五年，這項任命將對特別顧問辦公室的運作產生重大影響。朱爾斯·哈斯特三世擔任國防部財務長的任命，將對國防部的財務管理產生重大影響。這兩項提名將受到參議院的審議和確認，最終決定將取決於參議院的投票結果。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fc24e7cd",
+        "title": "梅拉尼婭·川普第一夫人倡導四大社區中心扶養兒童柱石",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/first-lady-melania-trumps-4-community-centric-pillars-of-foster-care/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 20 May 2026 16:57:01 +0000",
+        "summary_zh": "美國第一夫人梅拉尼婭·川普在華盛頓特區舉行的2026年美國參議院配偶午餐會上發表演說，she 介紹了四個社區中心的扶養兒童柱石，並呼籲參與者幫助推動保護在美國各地社區經歷過扶養兒童的年輕人的措施。美國眾議院通過一致投票後，第一夫人梅拉尼婭·川普呼籲美國各地的社區、企業和個人共同努力，為那些在社區中經歷過扶養兒童的年輕人提供支持和保護。這四個柱石包括: 提供給年輕人與家人關係的培養機會、幫助年輕人在教育和就業方面取得成功、提供給年輕人與社區關係的培養機會、幫助年輕人在身心健康方面取得成功。第一夫人梅拉尼婭·川普強調，扶養兒童的問題需要美國社會的共同努力和關注。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "dcf5aa2b",
+        "title": "總統對古巴獨立日的致辭",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-cuban-independence-day/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 20 May 2026 14:45:09 +0000",
+        "summary_zh": "今天，我們紀念古巴獨立日——古巴獨立 124 年的生日，這一天是由犧牲、勇氣和對自由的不斷追求而形成的。古巴的創建世代與 250 年前美國的愛國者一樣，對抗西班牙帝國的壓迫，爭取同樣的生存權利：自由。這一生日的紀念，是對古巴人民對自由的堅定追求的致敬。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "3b735417",
         "title": "前美國司法部檢察官被指控傳送密封的史密斯報告至個人電子郵件",
@@ -66,8 +114,8 @@
         "published_at": "Thu, 21 May 2026 01:58:18 GMT",
         "summary_zh": "前美國司法部檢察官卡門梅爾塞德斯林伯格(Carmen Mercedes Lineberger)因傳送密封的拜登時期調查報告至個人電子郵件並試圖隱藏文件而面臨刑事指控。根據聯邦當局的說法，林伯格在試圖隱藏文件時將文件改寫成蛋糕食譜。林伯格曾擔任佛羅里達州的管理助理美國檢察官。聯邦當局指控她涉嫌竊取政府財物或財產，並對她涉嫌修改文件的行為提出指控。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "6fc09ba7",
@@ -78,8 +126,8 @@
         "published_at": "Thu, 21 May 2026 01:00:00 GMT",
         "summary_zh": "美國政府對古巴前總統拉烏爾卡斯特發出聯邦刑事起訴書，對其與五名其他人士進行指控。拉烏爾卡斯特被控與殺害美國公民共四宗，另外還涉及破壞飛機等重罪。這是川普政府對古巴六十多年來共產政權的另一次打擊行動。拉烏爾卡斯特今年94歲，指控涉及於美國佛羅里達州的案件。美國政府的行動顯示對古巴政權施壓的決心。這一行動對古巴政權的影響有多大？美國政府的行動是否會對拉烏爾卡斯特的前後產生影響？美國政府的行動是否會對古巴人民的生活產生影響？",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "4a81feef",
@@ -138,18 +186,6 @@
         "published_at": "Wed, 20 May 2026 18:14:38 GMT",
         "summary_zh": "美國前國會議員巴尼·弗蘭克於週二晚間去世，享年86歲。他曾在美國國會歷史上成為第一位公開出櫃的同性戀議員。前總統奧巴馬讚揚弗蘭克為「一位獨一無二的」LGBTQ+倡議者，並稱他是金融改革的關鍵建築者。弗蘭克的妹妹多麗絲·布雷伊表示，「他是個最棒的哥哥，我很幸運能擁有他為姐妹」。弗蘭克在美國政治界有著深遠的影響，尤其是在金融改革方面。他曾參與推動多項重要立法，包括2008年金融危機後的金融改革法案。弗蘭克的去世對美國政治界和LGBTQ+社群造成了深深的影響，他的遺產將永遠在美國政治史上留下深刻的印記。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "d0dc9afc",
-        "title": "特朗普遭兩名警察起訴：$1.8億基金涉違法賞賜1月6日暴徒與同黨",
-        "url": "https://www.theguardian.com/us-news/2026/may/20/jan-6-police-sue-trump-anti-weaponization-fund",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 16:18:43 GMT",
-        "summary_zh": "兩名曾與暴徒交火的國會警察和華盛頓特區警察，對特朗普提出訴訟，指控他打算建立的$1.776億美元「反軍事化」基金違法賞賜1月6日暴動事件的同黨。這項基金被批評是「黑箱基金」，旨在補償特朗普所謂的被檢察官濫權的盟友。根據訴訟，特朗普的基金將會給予那些被指控參與暴動事件的個人和組織補償。這項訴訟的出現，意味著特朗普的行為可能會受到法律制裁。這項事件也引發了對特朗普行為的關注，是否他在利用這項基金來保護自己的盟友。",
-        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
@@ -178,54 +214,6 @@
         "ai_classified": true
       },
       {
-        "id": "b1d84f01",
-        "title": "美國250：總統致詞慶祝愛荷華女士橫跨大西洋的飛行",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/america-250-presidential-message-on-amelia-earharts-flight-across-the-atlantic/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 23:28:13 +0000",
-        "summary_zh": "美國總統在慶祝愛荷華女士橫跨大西洋的94周年紀念日時，表達了對她的讚賞。愛荷華女士的飛行表現了美國人的膽識、創新精神和不屈不撓的精神。她的生平充滿著挑戰和突破，成為美國人的楷模。總統在致詞中強調，愛荷華女士的精神是美國人的精神，她的飛行是美國人的飛行。這個紀念日不僅是對愛荷華女士的致敬，也是對美國人的精神的致敬。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "04d3c886",
-        "title": "提名送交參議院",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/nominations-sent-to-the-senate-22d2/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 20:07:10 +0000",
-        "summary_zh": "美國白宮宣布將提名查爾斯·巴爾迪斯（Charles Baldis）擔任五年期的特別顧問，負責監督特別顧問辦公室。同時，白宮也提名朱爾斯·哈斯特三世（Jules Hurst III）擔任國防部財務長。這兩項提名將送交參議院審議。查爾斯·巴爾迪斯擔任特別顧問的任期將長達五年，這項任命將對特別顧問辦公室的運作產生重大影響。朱爾斯·哈斯特三世擔任國防部財務長的任命，將對國防部的財務管理產生重大影響。這兩項提名將受到參議院的審議和確認，最終決定將取決於參議院的投票結果。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fc24e7cd",
-        "title": "梅拉尼婭·川普第一夫人倡導四大社區中心扶養兒童柱石",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/first-lady-melania-trumps-4-community-centric-pillars-of-foster-care/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 16:57:01 +0000",
-        "summary_zh": "美國第一夫人梅拉尼婭·川普在華盛頓特區舉行的2026年美國參議院配偶午餐會上發表演說，she 介紹了四個社區中心的扶養兒童柱石，並呼籲參與者幫助推動保護在美國各地社區經歷過扶養兒童的年輕人的措施。美國眾議院通過一致投票後，第一夫人梅拉尼婭·川普呼籲美國各地的社區、企業和個人共同努力，為那些在社區中經歷過扶養兒童的年輕人提供支持和保護。這四個柱石包括: 提供給年輕人與家人關係的培養機會、幫助年輕人在教育和就業方面取得成功、提供給年輕人與社區關係的培養機會、幫助年輕人在身心健康方面取得成功。第一夫人梅拉尼婭·川普強調，扶養兒童的問題需要美國社會的共同努力和關注。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "dcf5aa2b",
-        "title": "總統對古巴獨立日的致辭",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-cuban-independence-day/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 14:45:09 +0000",
-        "summary_zh": "今天，我們紀念古巴獨立日——古巴獨立 124 年的生日，這一天是由犧牲、勇氣和對自由的不斷追求而形成的。古巴的創建世代與 250 年前美國的愛國者一樣，對抗西班牙帝國的壓迫，爭取同樣的生存權利：自由。這一生日的紀念，是對古巴人民對自由的堅定追求的致敬。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "19310b58",
         "title": "卡斯特羅被起訴的死傷飛機攻擊事件",
         "url": "https://www.bbc.com/news/articles/cp3pz43k99xo?at_medium=RSS&at_campaign=rss",
@@ -245,18 +233,6 @@
         "category": "whitehouse",
         "published_at": "Wed, 20 May 2026 18:27:37 GMT",
         "summary_zh": "近日，美國官員釋出了對於14人喪生的貨機墜毀事故的調查視頻。視頻顯示，在起飛過程中發動機突然脫落，導致飛機墜毀。這一事件引起了廣泛關注，當局正進行調查以確定事故的原因。這一事件對於民航安全的影響將是關鍵問題。官員們正在努力確定發動機脫落的原因，並且正在調查飛機的維護和操作過程。這一事件也引起了對於民航安全規範和監管的重視。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "bf763f8f",
-        "title": "美國團體要求調查兒童安全與Roblox開支",
-        "url": "https://www.bbc.com/news/articles/cgqpz809e7lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 20 May 2026 10:27:50 GMT",
-        "summary_zh": "美國多個團體最近要求調查Roblox兒童安全問題與公司開支。Roblox是一款受歡迎的線上遊戲平台，許多兒童都在這裡玩耍。然而，美國團體表示，Roblox存在一些安全問題，例如未成年人在平台上進行賭博等有害行為。Roblox回應表示，公司有明確的政策禁止實際和模擬賭博，以及規範付費隨機項目的規則。美國團體要求調查Roblox的安全措施和公司開支，以確保兒童在線上遊戲的安全。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -300,10 +276,34 @@
     ],
     "global": [
       {
+        "id": "2e747dee",
+        "title": "印度有了新政治明星——一隻蟑螂",
+        "url": "https://www.bbc.com/news/articles/cz72y11jjq1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 21 May 2026 08:52:06 GMT",
+        "summary_zh": "印度最近出現了一個新政治運動，這個運動的起源是有人對一名政治人物的侮辱。這些人在網路上表達了對這名政治人物的不滿，甚至有人自願穿上蟑螂裝扮，表達對政治的不滿。這種抗議行動在印度社會引起了廣泛的關注和討論。政治人物的侮辱引發了對政治腐敗和不公正的批評。這種抗議行動可能會對印度政治產生重大影響，甚至可能會推動政治變革。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a96cbd0b",
+        "title": "川普表示將與台北總統通話，違反外交慣例",
+        "url": "https://www.bbc.com/news/articles/c78qv3w4xzqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 21 May 2026 07:35:49 GMT",
+        "summary_zh": "美國總統川普宣布將與台北總統通話，這一決定引發了關注，因為美國正考慮是否繼續向台灣出售14億美元的軍備。這一決定違反了美國對台政策的慣例，中國認為台灣是其一部分。這一事件可能會對中美關係造成影響，美國政府正在評估是否繼續向台灣出售軍備。這一決定可能會引發中國的反應，進一步加劇中美關係的緊張。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "8c4aff48",
         "title": "羅森堡：普京在習近平的中國歡迎中感到滿意，但沒有達成天然氣管道協議回國",
         "url": "https://www.bbc.com/news/articles/c8r8me3nlllo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "source": "BBC World",
         "category": "global",
         "published_at": "Wed, 20 May 2026 16:34:40 GMT",
         "summary_zh": "在習近平的中國歡迎下，普京似乎感到滿意，但他最終沒有與中國達成天然氣管道協議回國。BBC俄羅斯編輯羅森堡表示，俄羅斯和中國在全球舞台上表現出肩並肩的姿態，但也顯示出有界限。這次會面被視為兩國關係的重要里程碑，雙方在能源、安全和經濟等領域達成了一些共識，但天然氣管道協議的落空顯示出仍有許多挑戰。這次會面對俄羅斯和中國關係的未來影響有著重大意義，將會對全球能源市場和地緣政治產生重大影響。",
@@ -312,16 +312,88 @@
         "ai_classified": true
       },
       {
+        "id": "ceec5c83",
+        "title": "雷射毛髮除去器引發墨爾本機場炸彈恐慌",
+        "url": "https://www.bbc.com/news/articles/c9q3p50d14jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 21 May 2026 05:36:41 GMT",
+        "summary_zh": "墨爾本阿瓦隆機場的國內航站樓於週四被迫關閉數小時，原因是發現了一個可疑物品。根據消息，該物品是雷射毛髮除去器，引發了炸彈恐慌。警方在調查後證實該物品並非真炸彈，機場航站樓已經恢復正常運作。這起事件讓旅客感到驚訝和擔憂。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a613de78",
+        "title": "埃隆·馬斯克的X遭澳洲罰款",
+        "url": "https://www.bbc.com/news/articles/c626njg32n5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 21 May 2026 06:04:48 GMT",
+        "summary_zh": "埃隆·馬斯克的社交媒體巨頭X因未遵守澳洲兒童保護法規被罰款A$650,000（約新台幣2.1億元），結束了三年來的法律糾紛。這項罰款是對X未能有效遵守澳洲兒童保護法規的處罰，包括未能有效遵守兒童隱私保護和未能對兒童內容進行適當審查等。這項罰款將對X的營運和品牌形象產生一定影響，同時也會促使X提高遵守兒童保護法規的執行力。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "3b005be6",
+        "title": "習近平與普丁會晤，緊接美國總統特朗普訪問，習近平欲以此展現全球領袖形象",
+        "url": "https://www.bbc.com/news/articles/cjep12qx3xjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 11:42:44 GMT",
+        "summary_zh": "習近平近日與俄羅斯總統普丁進行會晤，這是他在美國總統特朗普訪問中國後不久的行動。這種安排讓人聯想到習近平希望呈現出一個與世界各國溝通的領袖形象，而不是與任何一個國家有特別的聯繫。這種姿態可能是習近平試圖在國際舞台上展示自己的影響力和地位。然而，這種行為也可能被視為是一種政治姿態，試圖展示自己的強大和獨立。習近平的這種行動可能會對中俄關係產生一定的影響，同時也會受到國際社會的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2313d47d",
+        "title": "觀看: 川普和普京在中國是否得到相同的對待?",
+        "url": "https://www.bbc.com/news/videos/ce8prm60yx0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 12:44:56 GMT",
+        "summary_zh": "中國國家主席習近平近日在北京為俄羅斯總統普京舉行了一個與川普去年在中國舉行的歡迎儀式非常相似的儀式。這一舉動引發了外界對習近平是否將普京視為同等重要夥伴的猜測。習近平在歡迎儀式上與普京進行了近2小時的會面，兩人還一起觀看了中國的軍事演習。這一舉動被視為中國在與俄羅斯的關係中採取了更加積極的態度。同時，外界也對習近平是否將普京視為同等重要的夥伴感到好奇。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6ce98320",
+        "title": "馬爾地夫洞穴發現最後兩具意大利失蹤者遺體",
+        "url": "https://www.bbc.com/news/articles/cpdp6y37zn6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 17:33:33 GMT",
+        "summary_zh": "馬爾地夫近日發生一次潛水事故，五名意大利國籍潛水員在事故中喪生。當地工作人員在洞穴內發現了最後兩具遺體，結束了對失蹤者的搜尋。這起事故引起了國際社會的關注，許多人對此表達了深切的哀悼。馬爾地夫政府已經展開調查，確保類似事件不再發生。這起事故對當地的潛水業界造成了沉重的打擊，許多業界人士呼籲提高安全措施，防止類似事件再次發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7310f9d9",
+        "title": "印度有食品安全法，為何還是無法保證食品安全？",
+        "url": "https://www.bbc.com/news/articles/c232mjxpx8no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 20 May 2026 22:17:12 GMT",
+        "summary_zh": "印度食品安全問題日益嚴重，網路上傳播的病毒視頻和檢測結果不合格的食品深深影響了民眾對食品安全的信任。印度政府頒布了食品安全法，但執行效果仍存疑。食品安全問題不僅影響民眾的健康，也對印度的經濟和國際形象造成了不利影響。印度政府需要加強食品安全監管和教育，提高食品安全意識，才能真正保證食品安全。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "4c857cf8",
         "title": "剛果民主共和國取消世界盃培訓營因埃博拉爆發",
         "url": "https://www.bbc.com/news/articles/c8d80856q2go?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Thu, 21 May 2026 09:56:24 GMT",
+        "published_at": "Thu, 21 May 2026 10:41:09 GMT",
         "summary_zh": "剛果民主共和國因埃博拉爆發，決定取消預計在該國舉行的世界盃足球培訓營。根據最新數據，埃博拉病毒已導致139人死亡。這次埃博拉爆發是由罕見的埃博拉病毒株引起的。剛果民主共和國政府出於安全考量，決定取消培訓營，以防止疫情擴散。這一決定將對球隊和球員造成重大影響，可能會影響球隊的世界盃參賽資格。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "3071d40e",
@@ -396,25 +468,13 @@
         "ai_classified": true
       },
       {
-        "id": "84f31e24",
-        "title": "立陶宛領導人在無人機警報期間避難",
-        "url": "https://www.bbc.com/news/articles/c9d3vpqqqpeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "a6d84473",
+        "title": "美國軍機和無人機在古巴附近被跟蹤",
+        "url": "https://www.bbc.com/news/articles/cjep1wx7w0ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Wed, 20 May 2026 10:53:19 GMT",
-        "summary_zh": "立陶宛領導人在無人機警報期間避難。該國領導人在懷疑無人機出現在白俄羅斯邊境後，下令暫停飛機航班，並要求民眾避難。這一事件發生在立陶宛與白俄羅斯邊境附近。立陶宛領導人在無人機警報期間避難，表明該國對安全威脅的關注。這一事件可能與白俄羅斯與立陶宛之間的緊張關係有關。立陶宛領導人在無人機警報期間避難，顯示該國對安全威脅的重視。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6ce98320",
-        "title": "馬爾地夫洞穴發現最後兩具意大利失蹤者遺體",
-        "url": "https://www.bbc.com/news/articles/cpdp6y37zn6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 17:33:33 GMT",
-        "summary_zh": "馬爾地夫近日發生一次潛水事故，五名意大利國籍潛水員在事故中喪生。當地工作人員在洞穴內發現了最後兩具遺體，結束了對失蹤者的搜尋。這起事故引起了國際社會的關注，許多人對此表達了深切的哀悼。馬爾地夫政府已經展開調查，確保類似事件不再發生。這起事故對當地的潛水業界造成了沉重的打擊，許多業界人士呼籲提高安全措施，防止類似事件再次發生。",
+        "published_at": "Wed, 20 May 2026 15:36:03 GMT",
+        "summary_zh": "近日，古巴附近出現美國海軍偵察機和無人機的飛行活動。根據追蹤資料顯示，美國海軍偵察機和無人機在過去一周內進行了數次飛行。這一事件引發了對美古關係的關注，古巴政府已經對此表示了不滿。美國軍方的行動被視為對古巴的軍事威脅，古巴政府可能會對此做出回應。這一事件也引發了對美古關係的緊張情緒，可能會對兩國的關係產生重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -456,18 +516,6 @@
         "ai_classified": true
       },
       {
-        "id": "a6d84473",
-        "title": "美國軍機和無人機在古巴附近被跟蹤",
-        "url": "https://www.bbc.com/news/articles/cjep1wx7w0ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 15:36:03 GMT",
-        "summary_zh": "近日，古巴附近出現美國海軍偵察機和無人機的飛行活動。根據追蹤資料顯示，美國海軍偵察機和無人機在過去一周內進行了數次飛行。這一事件引發了對美古關係的關注，古巴政府已經對此表示了不滿。美國軍方的行動被視為對古巴的軍事威脅，古巴政府可能會對此做出回應。這一事件也引發了對美古關係的緊張情緒，可能會對兩國的關係產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "76a2419a",
         "title": "哥倫比亞音樂傳奇Totó la Momposina去世，享年85歲",
         "url": "https://www.theguardian.com/music/2026/may/20/toto-la-momposina-vocalist-and-colombian-music-legend-dies-aged-85",
@@ -475,42 +523,6 @@
         "category": "global",
         "published_at": "Wed, 20 May 2026 11:39:49 GMT",
         "summary_zh": "哥倫比亞音樂傳奇Totó la Momposina在85歲高齡去世。她是一位享譽全球的歌手，曾經以她的聲音和對傳統音樂的堅持，將哥倫比亞文化和歷史帶到世界各地。她的兒女在Instagram宣布了她的去世，表示她是一位通過她的聲音和對音樂的奉獻，將哥倫比亞人民的文化和記憶帶到世界各地的女性。Totó la Momposina是一位對哥倫比亞音樂產業有著深遠影響的歌手，她的去世將使得哥倫比亞音樂界失去了一位重要的文化象徵。她的作品將繼續被人們所喜愛和尊敬。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3b005be6",
-        "title": "習近平與普丁會晤，緊接美國總統特朗普訪問，習近平欲以此展現全球領袖形象",
-        "url": "https://www.bbc.com/news/articles/cjep12qx3xjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 11:42:44 GMT",
-        "summary_zh": "習近平近日與俄羅斯總統普丁進行會晤，這是他在美國總統特朗普訪問中國後不久的行動。這種安排讓人聯想到習近平希望呈現出一個與世界各國溝通的領袖形象，而不是與任何一個國家有特別的聯繫。這種姿態可能是習近平試圖在國際舞台上展示自己的影響力和地位。然而，這種行為也可能被視為是一種政治姿態，試圖展示自己的強大和獨立。習近平的這種行動可能會對中俄關係產生一定的影響，同時也會受到國際社會的關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2313d47d",
-        "title": "觀看: 川普和普京在中國是否得到相同的對待?",
-        "url": "https://www.bbc.com/news/videos/ce8prm60yx0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 12:44:56 GMT",
-        "summary_zh": "中國國家主席習近平近日在北京為俄羅斯總統普京舉行了一個與川普去年在中國舉行的歡迎儀式非常相似的儀式。這一舉動引發了外界對習近平是否將普京視為同等重要夥伴的猜測。習近平在歡迎儀式上與普京進行了近2小時的會面，兩人還一起觀看了中國的軍事演習。這一舉動被視為中國在與俄羅斯的關係中採取了更加積極的態度。同時，外界也對習近平是否將普京視為同等重要的夥伴感到好奇。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7310f9d9",
-        "title": "印度有食品安全法，為何還是無法保證食品安全？",
-        "url": "https://www.bbc.com/news/articles/c232mjxpx8no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 20 May 2026 22:17:12 GMT",
-        "summary_zh": "印度食品安全問題日益嚴重，網路上傳播的病毒視頻和檢測結果不合格的食品深深影響了民眾對食品安全的信任。印度政府頒布了食品安全法，但執行效果仍存疑。食品安全問題不僅影響民眾的健康，也對印度的經濟和國際形象造成了不利影響。印度政府需要加強食品安全監管和教育，提高食品安全意識，才能真正保證食品安全。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -526,8 +538,8 @@
         "published_at": "2026-05-21T05:20:46-04:00",
         "summary_zh": "據報導，Meta公司已經通知數千名員工他們被裁員。公司試圖為其龐大的AI投資買單。公司高層發出的電子郵件中提到，這項裁員計畫是公司「持續努力提高公司運營效率的一部分」。這項裁員將會對公司的AI研究和發展造成重大影響。Meta的裁員計畫將會對員工造成重大影響，許多員工將會失去工作。這項裁員計畫將會對公司的未來發展造成重大影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "25b4e229",
@@ -664,73 +676,73 @@
     ],
     "stock_tw": [
       {
-        "id": "db6b48a0",
-        "title": "南寶半導體用膠開始出貨 今年營收續拚新高",
-        "url": "https://www.cna.com.tw/news/afe/202605210233.aspx",
-        "source": "中央社財經",
+        "id": "da9f8434",
+        "title": "曾破產無家可歸！印度企業家靠回收事業翻身成富翁",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5445154",
+        "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Thu, 21 May 2026 16:25:40 +0800",
-        "summary_zh": "南寶半導體近日表示，半導體用膠已開始出貨給合資公司新寳紘，這將帶進營收貢獻。隨著認證進度推進，今年相關營收將逐步提升。儘管全球政經情勢充滿不確定性，南寶執行長許明現仍表示，今年營收目標仍然是續拚新高。這表明南寶對未來市場仍然有信心，相信其半導體用膠的出貨將為公司帶來新的收入來源。然而，全球政經情勢的不確定性也可能對公司的營收產生影響，南寶將需要密切關注市場變化，以確保達成營收目標。",
+        "published_at": "Thu, 21 May 2026 18:55:51 +0800",
+        "summary_zh": "印度一名企業家曾因創業失敗破產，連房子都賣掉，陷入無家可歸的人生低谷。但他沒有放棄，最終靠著「把垃圾變黃金」的回收事業東山再起。這名企業家通過收集、處理垃圾，創造出高價值的產品，從而取得成功。他的事業如今已經市值超過1200億，成為印度的一個成功案例。這個故事表明，即使面臨著困難和失敗，也可以通過堅持和創新的思維來翻轉人生的命運。企業家之所以能夠成功，主要是因為他有著堅定的信念和願望，願意冒險嘗試新的想法和方法。他的成功也給予了其他人以啟發和鼓舞，證明了人生中的每個階段都有機會改變自己的人生。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "dd8b35dc",
+        "title": "全球AI支出衝2.59兆美元 AI伺服器成最大贏家",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5445137",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 21 May 2026 18:49:42 +0800",
+        "summary_zh": "全球AI軍備競賽持續升溫，根據顧能(Gartner)最新報告，2026年全球人工智慧(AI)支出預計將達2.59兆美元，年增47%。這意味著全球AI市場將繼續快速擴張，各國企業和政府將持續投資於AI技術。其中，AI基礎設施將成市場主戰場，AI伺服器將是最大贏家。這一趨勢將對全球經濟和技術產生重大影響，企業和政府將需要適應和應對這一變化。預計2026年全球AI市場將繼續呈現出快速增長的態勢，各國企業和政府將需要加強投資和研發，以保持競爭力。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "baad2cd9",
+        "title": "量縮價不跌！4月五大銀行房貸降至533億，大台北房價逆勢創新高",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5445125",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 21 May 2026 18:44:43 +0800",
+        "summary_zh": "在中央銀行持續實施選擇性信用管制下，房市交易動能持續降溫。4月五大銀行新新承作購屋貸款降至533.36億元，較3月減少56.88億元。這反映了六都買賣移轉交易量減少的趨勢。同時，大台北地區房價逆勢創下新高，表明市場仍然對房地產有需求。這種局面可能是由於買家對房價的預期升值，或者是買家對房產的需求超出了預期。總體而言，這些數據表明房市交易動能仍然在降溫，但市場仍然有需求。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "d8debe31",
-        "title": "藍質疑補助傾斜綠友友廠商 經部：公開透明無差別待遇",
-        "url": "https://www.cna.com.tw/news/aipl/202605210232.aspx",
-        "source": "中央社財經",
+        "id": "68bb1ff4",
+        "title": "1.1萬起家拚出超狂副業 月入47萬辭職不幹了",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5444979",
+        "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Thu, 21 May 2026 16:24:37 +0800",
-        "summary_zh": "國民黨最近質疑政府對無人機廠商的補助政策，認為政府傾斜綠營友好廠商。經濟部今天發布聲明澄清，政府的政策推行基於公開透明的原則，所有補助申請都公開歡迎任何台灣廠商投件，不看政黨色彩。經部強調，只要符合政策方向，任何廠商都可以申請補助，並無差別對待。這意味著政府不會因為政黨關係而對友好廠商給予優惠。經部的聲明試圖澄清政府的政策是公平公正的，並且歡迎所有符合條件的廠商申請補助。",
+        "published_at": "Thu, 21 May 2026 18:22:42 +0800",
+        "summary_zh": "澳洲一位名叫辛迪的女性因為工作需要經常出差，為了方便帶著必要物品，決定設計一款專用背包。這款背包不僅能夠容納筆電、化妝品，還能夠帶著午餐。辛迪的背包設計在社群媒體上引起了很大的反響，甚至被一些公司邀請合作。由於辛迪的背包設計事業越來越成功，她最終決定辭去原有的工作，專心發展這個副業。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "4ea6e582",
+        "title": "金管會：國外ETF期貨、選擇權 7月起改採三階段漲跌幅機制",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5445101",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 21 May 2026 18:20:22 +0800",
+        "summary_zh": "為降低國際金融市場劇烈波動對國外成分證券ETF衍生性商品交易的衝擊，金管會宣布，已督導臺灣期貨交易所調整國外成分證券ETF期貨及選擇權的漲跌幅機制。從7月起，這些商品將採用三階段漲跌幅機制，預期能夠更好地控制風險。這項變革旨在降低市場波動對投資者的影響，同時也將提高市場的穩定性。金管會的決定將對國外ETF衍生性商品交易產生重大影響，投資者需要適應新的市場規則。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "8bb777c9",
-        "title": "AMD投資台灣產業體系逾100億美元 加速AI基礎設施",
-        "url": "https://www.cna.com.tw/news/afe/202605210227.aspx",
-        "source": "中央社財經",
+        "id": "05bf6e7d",
+        "title": "工研院辦藥物供應鏈產業推動交流會 17業者洽談技術合作或技轉",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5445100",
+        "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Thu, 21 May 2026 16:11:26 +0800",
-        "summary_zh": "美國晶片廠超微（AMD）宣布投資台灣產業體系超過100億美元，滿足日益增長的AI基礎設施需求。這項投資將擴大策略合作夥伴關係，並提升下一代AI基礎設施的先進封裝製造產能。這一舉動將為台灣的AI產業帶來重大推動力，同時也將加速台灣與全球AI領域的整合。這項投資將對台灣的經濟和產業產生深遠影響，同時也將為台灣的企業和人才提供更多的發展機會。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "2882ddbe",
-        "title": "新台幣升4.8分 收31.595元",
-        "url": "https://www.cna.com.tw/news/afe/202605210223.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 21 May 2026 16:06:18 +0800",
-        "summary_zh": "台北外匯市場新台幣兌美元今天收盤收31.595元，升4.8分。這意味著新台幣在今天的交易中有所上升，成交金額達到15.6億美元。這種市場趨勢可能是由於投資者對台幣的投資意願增加所致。然而，市場的波動仍然存在，投資者需要密切關注市場的變化。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "f0f62139",
-        "title": "崇越高階石英布打入CCL供應鏈 拉第2成長曲線",
-        "url": "https://www.cna.com.tw/news/afe/202605210221.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 21 May 2026 15:57:13 +0800",
-        "summary_zh": "崇越旗下高階石英布已成功導入台灣多家銅箔基板領導大廠供應鏈，目前出貨維持滿載。這項成就被視為崇越第二個成長曲線。石英布是電子元件的重要材料，具有低介電損耗特性，對於高頻電子元件的性能有重要影響。崇越的這項成就將有助於台灣電子業的發展，同時也將拉動崇越的成長。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "f2f4769a",
-        "title": "中工推舉鄭斯聰任董事長 馮敦承接總經理",
-        "url": "https://www.cna.com.tw/news/afe/202605210220.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 21 May 2026 15:56:11 +0800",
-        "summary_zh": "中華工程在今天股東會落幕後，依法召開董事會，推舉寶佳陣營的大華建設董事長鄭斯聰出任中工新任董事長。中工表示，此次推舉凝聚新任董事會共識，象徵邁入由全新團隊帶領的新階段。新任董事長鄭斯聰將領導中工進入未來的發展階段，帶領公司走向新的成長。馮敦承則接任總經理職位，將負責公司的日常運作和管理。這項變動將對中工的未來發展產生重大影響，投資者和業界人士將密切關注中工的發展方向和成績。",
+        "published_at": "Thu, 21 May 2026 18:18:29 +0800",
+        "summary_zh": "為強化我國藥物供應鏈的韌性，工研院近日舉辦了「藥物供應鏈產業推動交流會」。會中，工研院、醫藥工業技術發展中心、生物技術開發中心等跨法人研發單位與17家業者進行了技術合作或技轉洽談。這項交流會旨在整合各方的研發能量，促成高技術門檻的合作項目。通過這些合作，預期能夠提高藥物供應鏈的穩定性和效率，進而提升我國的藥物供應能力。這項措施將對於強化我國藥物供應鏈的韌性和競爭力具有重要的意義。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -760,90 +772,102 @@
         "ai_classified": true
       },
       {
-        "id": "5e140bd2",
-        "title": "藍營批碳基董座是「綠友友」拿補助 經部駁斥",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5444937",
-        "source": "自由時報財經",
+        "id": "db6b48a0",
+        "title": "南寶半導體用膠開始出貨 今年營收續拚新高",
+        "url": "https://www.cna.com.tw/news/afe/202605210233.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Thu, 21 May 2026 16:48:32 +0800",
-        "summary_zh": "國民黨黨團在國防特別條例中刪除無人機產業發展等預算，今日針對無人機召開記者會，質疑政府圖利「綠友友」。經濟部表示，碳基科技董事長陳文宏曾任小英之友會總會長，但其公司並未獲得任何政府補助。經部強調，政府補助政策均透過公開徵件程序進行，公司申請補助時需提供相關資料，經部會依據申請資料進行審核。經部表示，碳基科技並未申請任何政府補助，因此質疑政府圖利「綠友友」毫無依據。國民黨黨團的行動被視為對政府的政治攻勢，經部則強調政府補助政策的公正性和透明度。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0e91c848",
-        "title": "台股史上第5大漲點！投信前10大賣超 這檔電子爆砍2.5萬張最慘",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5444951",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 21 May 2026 16:48:30 +0800",
-        "summary_zh": "台股週四報復性大反攻，聯發科領導市場漲停，指數開高走高，終場收漲1347點，創史上第5大。雖然投信續買超51.14億元，但卻大砍聯電，出手就砍逾2.59萬張。這表明投信對電子股的信心有所動搖。聯電的股價大幅下跌，可能會對整體電子股市場產生影響。這也讓投資者開始擔心電子股的未來走勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5bf7466f",
-        "title": "台股大反攻!聯發科領軍投信猛敲逾3萬張",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5444934",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 21 May 2026 16:38:23 +0800",
-        "summary_zh": "台股週四報復性大反攻，指數開高走高，終場收漲1347點，創史上第5大。投信則續買超51.14億元，其中又以00940這檔「金融新兵」最搶手，投信猛敲逾3萬張。00940的股價大幅上漲，成為市場關注的焦點。這次的大反攻，有助於台股重拾市場的信心。然而，市場仍需密切關注國際形勢的變化，以確保市場的穩定。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5b7c8ad7",
-        "title": "吳宗憲轟無人機產業污染宜科翻車了 經部：並無在宜科生產",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5444914",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 21 May 2026 16:35:40 +0800",
-        "summary_zh": "國民黨縣長參選人吳宗憲競選總部指出，無人機產業進駐宜蘭科學園區（宜科），部分無人機零件可能導致PFAS汙染。經濟部產業局今天回應，無人機零件並無在宜科生產。吳宗憲競選總部的指控被認為是誤導民眾。經濟部強調，宜科園區的廠商主要從事半導體、光電和生物科技等產業，並無相關無人機零件生產。這一事件可能會影響到吳宗憲的競選形象。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "badc826e",
-        "title": "記憶體漲價帶動提前拉貨 Q1全球電視出貨創疫情後新高",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5444899",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 21 May 2026 16:23:47 +0800",
-        "summary_zh": "根據TrendForce最新調查，2026年第一季全球電視品牌出貨量達4712萬台，年增3.3%，創COVID-19疫情後同期新高，仍較上一季衰退12.7%。這種成績與前幾個月記憶體價格的快速上漲有關，許多電視製造商為了避免未來供應鏈受阻，提前拉貨以確保材料供應。這種行為也導致電視出貨量在第一季度達到疫情後的新高。雖然第一季度出貨量較上一季衰退，但整體來說，電視產業仍在恢復中。",
+        "published_at": "Thu, 21 May 2026 16:25:40 +0800",
+        "summary_zh": "南寶半導體近日表示，半導體用膠已開始出貨給合資公司新寳紘，這將帶進營收貢獻。隨著認證進度推進，今年相關營收將逐步提升。儘管全球政經情勢充滿不確定性，南寶執行長許明現仍表示，今年營收目標仍然是續拚新高。這表明南寶對未來市場仍然有信心，相信其半導體用膠的出貨將為公司帶來新的收入來源。然而，全球政經情勢的不確定性也可能對公司的營收產生影響，南寶將需要密切關注市場變化，以確保達成營收目標。",
         "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d8debe31",
+        "title": "藍質疑補助傾斜綠友友廠商 經部：公開透明無差別待遇",
+        "url": "https://www.cna.com.tw/news/aipl/202605210232.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 21 May 2026 16:24:37 +0800",
+        "summary_zh": "國民黨最近質疑政府對無人機廠商的補助政策，認為政府傾斜綠營友好廠商。經濟部今天發布聲明澄清，政府的政策推行基於公開透明的原則，所有補助申請都公開歡迎任何台灣廠商投件，不看政黨色彩。經部強調，只要符合政策方向，任何廠商都可以申請補助，並無差別對待。這意味著政府不會因為政黨關係而對友好廠商給予優惠。經部的聲明試圖澄清政府的政策是公平公正的，並且歡迎所有符合條件的廠商申請補助。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8bb777c9",
+        "title": "AMD投資台灣產業體系逾100億美元 加速AI基礎設施",
+        "url": "https://www.cna.com.tw/news/afe/202605210227.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 21 May 2026 16:11:26 +0800",
+        "summary_zh": "美國晶片廠超微（AMD）宣布投資台灣產業體系超過100億美元，滿足日益增長的AI基礎設施需求。這項投資將擴大策略合作夥伴關係，並提升下一代AI基礎設施的先進封裝製造產能。這一舉動將為台灣的AI產業帶來重大推動力，同時也將加速台灣與全球AI領域的整合。這項投資將對台灣的經濟和產業產生深遠影響，同時也將為台灣的企業和人才提供更多的發展機會。",
+        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "1b70d97e",
-        "title": "SpaceX 和 OpenAI 準備熱炫的 IPO 季節",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-05-20/spacex-files-openai-gets-set-for-ipo-summer-evening-briefing-americas",
+        "id": "4097e98a",
+        "title": "中國人民幣政策面臨挑戰：出口壓力上升",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-20/mounting-exporter-strain-risks-complicating-china-s-yuan-policy",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-20 21:54:02",
-        "summary_zh": "SpaceX 和 OpenAI 將於今年夏季進行熱炽的首次公開募股 (IPO)。SpaceX 是一家領先的太空探索公司，已經獲得了許多重要的合同，包括 NASA 的星際探索任務。OpenAI 是一家人工智慧公司，已經取得了突破性的進展，包括開發出強大的語言模型。這兩家公司的 IPO 將為投資者提供了一個機會來投資這些前沿的科技公司。然而，投資者也需要小心，因為 IPO 的風險是很高的。今年夏季將是 IPO 季節的開始，投資者需要準備好面對這些挑戰。",
+        "published_at": "2026-05-20 23:00:00",
+        "summary_zh": "中國出口壓力上升，可能會對人民幣政策造成困擾。根據最新數據，中國出口商面臨的困難正在加劇，出口量下降和貿易順差縮小，可能會對中國的經濟和貨幣政策造成影響。中國央行正在努力維持人民幣的穩定，同時也面臨著出口商的壓力。出口商的困難可能會導致中國出口量下降，進而影響中國的經濟和人民幣政策。中國央行需要採取措施來維持出口商的信心和穩定人民幣的價格。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "972fe11f",
+        "title": "悉尼房屋拍賣荒象：房市放緩已經開始影響",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-05-20/sydney-house-prices-spacex-ipo-james-murdoch-vox-investment",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-20 22:54:45",
+        "summary_zh": "悉尼房屋拍賣荒象出現，表明房市放緩的影響正在出現。根據悉尼房產經紀人協會的數據，今年上半年房屋拍賣的數量已經下降了 30%。這一趨勢與澳洲央行在 2022 年底推出的利率上升政策有關，該政策旨在控制房價的上漲。房產經紀人認為，房屋拍賣荒象的出現是房市放緩的跡象，可能會對房地產市場造成持續的影響。房東們正在面臨房屋難以賣出的困境，導致房屋價格下跌。房產經紀人也提到，房屋拍賣荒象可能會對房屋租賃市場造成影響，租金可能會上漲。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "5638fd99",
+        "title": "Baillie Gifford 和 Layer Global 增加 20 億美元資金投入 Kalshi",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-20/baillie-gifford-layer-global-add-200-million-to-kalshi-s-haul",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-20 22:47:47",
+        "summary_zh": "投資管理公司 Baillie Gifford 和 Layer Global 宣布將額外投資 20 億美元進入 Kalshi。這家公司是一家知名的 Prediction Market Platform，允許使用者在線上進行預測交易。Baillie Gifford 和 Layer Global 的投資將幫助 Kalshi 突破新的里程碑，進一步發展其業務。這項投資也表明了投資者的對 Prediction Market Platform 的信心和熱情。預測市場平台正逐漸受到關注，許多投資者正在關注這個領域的發展。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "05d6f06b",
+        "title": "AvalonBay 和 Equity Residential 正在籌劃大型房地產信託合併",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-20/avalonbay-equity-residential-said-to-near-mega-reit-tie-up",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-20 22:39:36",
+        "summary_zh": "根據市場消息，AvalonBay 和 Equity Residential 正在籌劃一項大型房地產信託合併。這項交易將創造出全球房地產市場中規模最大的房地產信託公司。 AvalonBay 和 Equity Residential 均為房地產信託公司，主要從事房地產投資和管理。這項合併交易將使兩家公司的房產投資組合和管理能力大幅增強，進而為投資者提供更好的投資選擇。市場分析師預計，這項交易將對房地產市場產生重大影響，可能會導致房地產價格上漲和投資熱潮。然而，交易尚未正式公布，相關細節尚待確認。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "b93f98f6",
-        "title": "重新劃分選區競選的意義在於地方經濟",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-20/how-redistricting-impacts-midterms-and-the-economy-big-take-podcast",
+        "id": "3e5cae24",
+        "title": "萊森競逐債權人支持，債權人拒絕和解",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-20/raizen-races-to-win-creditor-support-as-bondholders-hold-out",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-20 21:36:43",
-        "summary_zh": "重新劃分選區競選是一個複雜的政治過程，涉及到美國國會選區的重新劃分。這個過程對於地方經濟有著重要的影響。重新劃分選區競選的結果可能會影響到選區的邊界、人口分布和政治影響力。這些變化可能會對當地的經濟發展、商業活動和投資環境產生重大影響。一些地方經濟可能會受益於重新劃分選區競選的結果，而其他地方可能會受到負面影響。政府和企業需要密切關注這個過程，以便在地方經濟發展中取得優勢。重新劃分選區競選的結果可能會延續數年甚至數十年，因此需要長期的策略和投資來應對這個變化。",
-        "sentiment": "中性",
+        "published_at": "2026-05-20 22:38:49",
+        "summary_zh": "萊森能源正在努力爭取債權人的支持，為了避免債務違約。公司正在與債權人進行談判，試圖達成和解協議。然而，債權人仍然拒絕和解，萊森能源的債務違約風險仍然存在。這一發展對於萊森能源的未來前景產生了重大影響。公司的債務違約將對股價和投資者造成嚴重影響。萊森能源需要在短期內找到解決方案，避免債務違約的風險。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
       {
         "id": "847da2c7",
@@ -854,55 +878,7 @@
         "published_at": "Thu, 21 May 2026 16:23:35 +0800",
         "summary_zh": "美伊戰爭引發全球燃料價格高漲，對國際經濟和財經市場造成重大影響。歐洲電動車需求大幅增加，扭轉去年的疲弱表現。英國首相施凱爾放寬對俄羅斯航空燃油與柴油進口制裁，試圖應對油價飆漲的問題。這些變化預示著全球能源市場的重大轉變，對各國經濟和民生都會產生深遠影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "e2e25078",
-        "title": "SEC 主席阿特金斯：預測市場基金需謹慎審查",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-20/sec-chief-atkins-pumps-the-brakes-on-prediction-market-funds",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-20 21:36:42",
-        "summary_zh": "美國證券交易委員會（SEC）主席阿特金斯（Gary Gensler）在最近的演講中提到，預測市場基金需要謹慎審查。這類型的基金允許投資者購買與特定事件相關的代幣，例如股價或政治結果。阿特金斯表示，這些基金存在風險，可能會導致投資者損失。預測市場基金的風險包括市場操縱、資金流失和投資者不當行為。阿特金斯強調，SEC 將繼續監控這類型的基金，以確保投資者安全。這一措施是為了保護投資者免受未經審查的風險性產品的傷害。預測市場基金的發展正在迅速擴張，SEC 將密切關注這一趨勢，以確保投資者權益得到保護。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "28460982",
-        "title": "Nvidia 突破預期，但投資者仍然想要更多",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-05-20/nvidia-beats-estimates-but-investors-want-more",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-20 21:31:38",
-        "summary_zh": "Nvidia 在最新的財報中表現出色，超越了投資者的預期。公司的收入和利潤都遠超預期，但投資者仍然對未來的發展感到擔憂。分析師認為，Nvidia 的強大競爭對手和市場的不確定性是投資者的關注點。儘管如此，Nvidia 的股價仍然上漲了 5%，表明投資者對公司的未來前景仍然樂觀。然而，投資者仍然想要更多的證據來證明公司的持續成長。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "c6accc67",
-        "title": "雷維斯將公布英國生活費用計劃以緩和伊朗戰爭衝擊",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-20/reeves-to-set-out-uk-cost-of-living-plan-to-cushion-iran-war-hit",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-20 21:30:00",
-        "summary_zh": "英國財政大臣雷維斯將公布一項生活費用計劃，以幫助英國民眾在伊朗戰爭的影響下度過難關。根據消息，雷維斯將提出一系列措施，包括增加最低工資、提高退休金和提供更多的救濟金。這些措施旨在幫助英國民眾在物價上漲和收入下降的困難時期。雷維斯的計劃將在未來幾周內公布。這項措施是英國政府對伊朗戰爭的影響進行回應的一部分。伊朗戰爭的影響已經開始出現，英國民眾正面臨著物價上漲和收入下降的困難。雷維斯的計劃將會對英國民眾造成重大影響，因此將密切關注其公布和實施情況。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "5511b297",
-        "title": "如何解決擔心金錢的壓力",
-        "url": "https://www.marketwatch.com/bulletins/redirect/go?g=f378edbf-4ed5-4751-b247-207263304b7e&mod=mw_rss_bulletins",
-        "source": "Marketwatch",
-        "category": "finance",
-        "published_at": "2026-05-20 17:16:45",
-        "summary_zh": "金錢壓力不僅影響你的銀行帳戶，還會影響你的關係、自信心和日常決策。有過感到財務上落後、避免談論金錢或讓它影響與朋友或伴侶的互動的人，絕不是孤單一人。在這集《不短賣自己》節目中，MarketWatch的Aditi Shrikant與Haley Sacks (aka Mrs. Dow Jones)討論了你的金錢關係如何影響你的生活，以及你可以做些什麼來感到更加掌控。節目中將會探討金錢壓力在實際生活中如何表現、為什麼它會影響關係和自我價值，以及簡單的方法來重置你的心態和習慣。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -932,13 +908,25 @@
     ],
     "stock_us": [
       {
-        "id": "d1fc34ca",
-        "title": "高盛在SpaceX歷史性IPO中的領導角色意味著什麼樣的投資機會",
-        "url": "https://www.cnbc.com/2026/05/20/what-goldmans-lead-role-in-spacexs-ipo-means-for-investors.html",
+        "id": "a930d94f",
+        "title": "SpaceX即將成為史上最大規模的IPO，來看看美國歷史上最大的IPO案例",
+        "url": "https://www.cnbc.com/2026/05/20/spacex-is-the-biggest-ipo-ever-these-debuts-also-set-records.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-05-20 21:30:33",
-        "summary_zh": "SpaceX近日完成了歷史性的IPO，高盛在其中扮演了重要角色。這標誌著高盛的交易部門取得了重大勝利。SpaceX的IPO是一個重大的金融事件，吸引了全球投資者的關注。高盛的領導角色意味著該公司在未來的投資機會中將扮演重要角色。投資者應該關注高盛在未來的投資策略和交易活動中可能扮演的角色。這將對投資市場產生重大影響，投資者應該密切關注相關發展。",
+        "published_at": "2026-05-20 22:58:32",
+        "summary_zh": "SpaceX即將舉行IPO，預計創下歷史新高，但在此之前，阿里巴巴、Facebook和Visa等公司也曾在美國舉行過規模龐大的IPO。阿里巴巴在2014年舉行的IPO中，籌集了逾130億美元，成為當時全球最大的IPO。Facebook在2012年舉行的IPO中，籌集了逾100億美元。Visa在2008年舉行的IPO中，籌集了逾17億美元。這些公司的成功IPO表明了美國的股市對科技和金融公司的吸引力。SpaceX的IPO將是這些公司之後的又一項重要里程碑，預計將創下新的歷史紀錄。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7404a55e",
+        "title": "克拉默表示科技投資的世界已經改變了，絕不會回頭",
+        "url": "https://www.cnbc.com/2026/05/20/jim-cramer-says-the-world-of-tech-investing-has-changed-and-its-not-going-back.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-20 22:41:07",
+        "summary_zh": "CNBC的克拉默表示，半導體和人工智慧基礎設施股權已經取代軟體成為市場的科技領導者。這意味著投資者需要重新評估投資策略，將目光轉移到這些新興領域。克拉默的觀點表明，科技投資的格局已經發生了重大變化，投資者需要適應新的市場趨勢。這將對投資者造成重大影響，需要重新調整投資組合。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -952,8 +940,20 @@
         "published_at": "2026-05-20 21:50:00",
         "summary_zh": "近日，一個快速成長的離岸市場讓全球投資者有機會在未來的IPO前就能交易太空探索技術公司的股票，完全避開華爾街。這家公司的IPO預計將成為歷史上最大的一次IPO。投資者透過這個離岸市場可以提前交易這家公司的股票，享受潛在的投資收益。這種機會讓投資者感到興奮，並且有望避免華爾街的市場波動。然而，投資者也需要注意這種交易的風險和挑戰。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d1fc34ca",
+        "title": "高盛在SpaceX歷史性IPO中的領導角色意味著什麼樣的投資機會",
+        "url": "https://www.cnbc.com/2026/05/20/what-goldmans-lead-role-in-spacexs-ipo-means-for-investors.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-20 21:30:33",
+        "summary_zh": "SpaceX近日完成了歷史性的IPO，高盛在其中扮演了重要角色。這標誌著高盛的交易部門取得了重大勝利。SpaceX的IPO是一個重大的金融事件，吸引了全球投資者的關注。高盛的領導角色意味著該公司在未來的投資機會中將扮演重要角色。投資者應該關注高盛在未來的投資策略和交易活動中可能扮演的角色。這將對投資市場產生重大影響，投資者應該密切關注相關發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "07cca692",
@@ -1023,18 +1023,6 @@
         "category": "stock_us",
         "published_at": "2026-05-20 18:13:12",
         "summary_zh": "每個工作日，投資俱樂部都會釋出《Homestretch》——一個在交易最後一小時發佈的可行午後更新。這個更新內容包括股市的最新動態、油價變化等資訊。另外，三星公司近期避免了工人罷工的風險，這也引起了市場的關注。三星公司的這一舉動意味著公司與工人之間的關係得到改善，公司的經營環境也會因此而改善。這一發展對於投資者來說是有利的，因為公司的財務狀況會更加穩定。然而，這也意味著公司的成本會增加，可能會對公司的盈利能力產生影響。投資者需要密切關注三星公司的發展，以便在適當時機進行投資。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cc833cb5",
-        "title": "OpenAI 將於週五前私下提交IPO申請：消息人士",
-        "url": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-20 17:00:56",
-        "summary_zh": "據消息人士透露，人工智慧公司OpenAI正與金門沙士和摩根士丹利等銀行合作，準備私下提交IPO申請。這項消息可能意味著OpenAI即將進入上市程序，展開一項重大融資行動。OpenAI 的IPO申請將會在未來幾天內提交給美國證券交易委員會（SEC），這將是該公司歷史上的一個重要里程碑。OpenAI 的IPO申請將會對該公司未來的發展方向產生重大影響，這也將是全球人工智慧領域的一個重要事件。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
