@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-23T04:11:16.678228+08:00",
+  "generated_at": "2026-05-23T05:09:59.978907+08:00",
   "risk_signals": [
     "🟢 台股加權 41368.21（正常）",
     "🟢 S&P 500 7473.47（正常）",
-    "🟢 VIX 恐慌指數 16.78（正常）",
-    "🟢 MOVE 債市波動 79.72（正常）",
-    "🟢 美元指數 99.29（正常）",
-    "🟢 黃金 4508.2（正常）",
+    "🟢 VIX 恐慌指數 16.7（正常）",
+    "🟢 MOVE 債市波動 78.43（正常）",
+    "🟢 美元指數 99.32（正常）",
+    "🟢 黃金 4510.4（正常）",
     "🟡 美債10Y殖利率 4.56（留意）",
-    "🟢 原油 WTI 96.24（正常）",
-    "🟢 美元/台幣 31.43（正常）"
+    "🟢 原油 WTI 97.09（正常）",
+    "🟢 美元/台幣 31.45（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，多個指標維持正常水平，但美債10年殖利率略有上升，值得關注。",
+  "ai_summary": "市場氛圍保持穩定，投資人仍然對市場有信心，台股和美股均有微幅上漲，美元指數和黃金價格則保持正常。然而，美債10年殖利率稍有上升，需要留意。",
   "market": {
     "TWII": {
       "price": 41368.21,
@@ -26,267 +26,181 @@
       "change_pct": 0.19
     },
     "VIX": {
-      "price": 16.78,
-      "change_pct": 0.12
+      "price": 16.7,
+      "change_pct": -0.36
     },
     "TNX": {
       "price": 4.56,
       "change_pct": -0.61
     },
     "MOVE": {
-      "price": 79.72,
-      "change_pct": -0.0
+      "price": 78.43,
+      "change_pct": -1.62
     },
     "DXY": {
-      "price": 99.29,
-      "change_pct": 0.1
+      "price": 99.32,
+      "change_pct": 0.13
     },
     "GOLD": {
-      "price": 4508.2,
-      "change_pct": -0.7
+      "price": 4510.4,
+      "change_pct": -0.65
     },
     "OIL": {
-      "price": 96.24,
-      "change_pct": -0.11
+      "price": 97.09,
+      "change_pct": 0.77
     },
     "USDTWD": {
-      "price": 31.43,
-      "change_pct": -0.49
+      "price": 31.45,
+      "change_pct": -0.32
     }
   },
   "macro": {},
   "categories": {
-    "whitehouse": [
-      {
-        "id": "81439b35",
-        "title": "美國海軍參謀長稱因伊朗戰爭暫停向台北出售 140 億美元軍備",
-        "url": "https://www.bbc.com/news/articles/c232z4yk437o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 08:12:47 GMT",
-        "summary_zh": "美國海軍參謀長 Hung Cao 在參議院聽證會上表示，美國正在暫停向台北出售 140 億美元的軍備，以確保有足夠的彈藥供應給伊朗戰爭。這項交易曾引起伊朗的關注，美國政府決定暫停交易以避免加劇伊朗對台北的壓力。這一決定可能會對台北的國防能力產生影響，同時也會對美國與伊朗的關係產生影響。美國政府的決定可能會被視為對伊朗的姿態，同時也會被視為對台北的支持。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "47a48987",
-        "title": "『蠢材』在高台上 - 川普調查補償基金惹怒共和黨人",
-        "url": "https://www.bbc.com/news/articles/cx21d41p6dzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 18:55:49 GMT",
-        "summary_zh": "川普政府推出一項 1.8 億美元的補償基金，旨在幫助那些在前任總統任內被「不公平」調查的個人。這項基金引起共和黨人的不滿，認為這是一種政治操作。根據目前的規定，補償基金將幫助那些被前任總統調查的個人，包括那些被川普政府認為是「不公平」被調查的。然而，這項基金的成立也引起了民主黨人的質疑，認為這是一種政治操作，旨在幫助川普政府的盟友。這項基金的成立將會對美國政治產生重大影響，展現了川普政府對政治操作的堅定態度。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "05ad8daa",
-        "title": "川普盼華許獨立行事、推動經濟繁榮",
-        "url": "https://money.udn.com/money/story/5599/9520515",
-        "source": "經濟日報",
-        "category": "whitehouse",
-        "published_at": "Sat, 23 May 2026 03:30:22 +0800",
-        "summary_zh": "美國總統川普今天指出，希望新任聯邦準備理事會（Fed）主席華許能夠完全獨立行事，但隨後在宣誓就任儀式上，川普卻對華許的言論表示不滿。華許在就任儀式上表示，將會堅持獨立性，但也會與總統保持密切溝通。川普對此表示不滿，認為華許的言論與他之前的期待不符。這一事件引起了市場的關注，投資者們擔心Fed的政策可能會受到影響。華許的就任對美國經濟的影響仍待觀察。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "f59563ee",
-        "title": "誰符合「反軍事化基金」的資格？川普批評者認為可能是這些人",
-        "url": "https://www.bbc.com/news/articles/c1m2j8lnnm5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 19:12:58 GMT",
-        "summary_zh": "美國總統川普的反軍事化基金引起了各界的關注，許多人質疑基金的資格標準是否太寬泛。共和黨和民主黨的政治人物都要求政府提供更多資訊和限制條款，以確保基金的資金安全和有效使用。根據目前的資訊，基金的資格標準似乎很寬泛，讓人們擔心資金可能會流向不受控的目的。政府需要提供更多資訊和限制條款，以確保基金的資金安全和有效使用。這項基金的成立是為了防止武器被濫用，但如果資格標準太寬泛，可能會造成意想不到的後果。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "1dd9aa8d",
-        "title": "戰鬥機擊落不明飛行物 UFO 新解密視頻",
-        "url": "https://www.bbc.com/news/videos/cp3p2dkqxd0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 16:50:56 GMT",
-        "summary_zh": "美國政府公佈的視頻並未提供任何外星技術或外星生命的證據。這些視頻是由美國政府釋放的，涉及一架戰鬥機擊落一架不明飛行物。專家表示，這些視頻並未提供任何外星技術或外星生命的證據。這些視頻是由美國政府釋放的，涉及一架戰鬥機擊落一架不明飛行物。這些視頻的釋放是美國政府對 UFO 問題的一個新的發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "98f3eafe",
-        "title": "川普要求新美聯儲主席完全獨立",
-        "url": "https://www.bbc.com/news/articles/cvgz311dq3ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 18:16:58 GMT",
-        "summary_zh": "美國總統川普對前美聯儲主席的繼任者施加了巨大的壓力，要求降低利率。川普一直在推動降低利率的政策，希望能夠刺激美國經濟的增長。然而，這也引起了市場的擔憂，因為過度降低利率可能會導致通貨膨脹和金融風險的增加。市場觀察人士認為，川普的要求可能會對美聯儲的政策產生重大影響，甚至可能會導致美聯儲的獨立性受到損害。這一事件的影響將是美國經濟政策的重大轉折點，市場將密切關注美聯儲的下一步行動。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "1f9bfb0d",
-        "title": "華許宣誓就任聯準會主席 將領導改革為導向美國央行",
-        "url": "https://money.udn.com/money/story/5599/9520499",
-        "source": "經濟日報",
-        "category": "whitehouse",
-        "published_at": "Sat, 23 May 2026 02:30:21 +0800",
-        "summary_zh": "聯邦準備理事會（Fed）新任主席華許（Kevin Warsh）今天在白宮宣誓就任，他表示將領導一個「改革為導向」的美國央行。華許在就任宣言中強調，將致力於推動央行改革，提高透明度和可控性，促進經濟穩定和可持續發展。他還表示，將與美國政府和其他央行合作，推動全球經濟改革和穩定。華許的就任標誌著聯準會的新一輪領導人，他的政策方向將對美國經濟和全球經濟產生重要影響。華許的就任也引起了市場的關注，投資者將密切關注他的政策決定和行為。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "d1ba5cb3",
-        "title": "為什麼千萬筆與特朗普有關的股票交易引起了關注",
-        "url": "https://www.bbc.com/news/videos/cd6pzg7z319o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 10:45:38 GMT",
-        "summary_zh": "特朗普總統的財務披露文件顯示，他與數千筆股票交易有關。根據披露文件，特朗普在 2020 年和 2021 年進行了大量股票交易，其中包括買賣美國最大銀行之一的摩根大通股票。這些交易引起了關注，因為它們涉及到特朗普在政府任職期間進行的交易。分析人士表示，這些交易可能違反了政府內部交易規則。特朗普的財務披露文件還顯示，他在 2020 年和 2021 年購買了大量的蘋果股票。這些交易引起了關注，因為它們涉及到特朗普在政府任職期間進行的交易。分析人士表示，這些交易可能違反了政府內部交易規則。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ada2671f",
-        "title": "美國國家情報總監加巴德辭職 因丈夫罹癌將於6月底卸任",
-        "url": "https://money.udn.com/money/story/5599/9520497",
-        "source": "經濟日報",
-        "category": "whitehouse",
-        "published_at": "Sat, 23 May 2026 02:11:10 +0800",
-        "summary_zh": "美國國家情報總監加巴德（Tulsi Gabbard）宣布辭職，原因是丈夫罹癌。加巴德將於6月30日卸任國家情報總監一職。川普總統在社群網路上證實了加巴德的辭職，表明了對她的支持。這項消息在美國國安界引起了關注，許多人對加巴德的決定表示理解和同情。加巴德的丈夫罹癌，需要加巴德的照顧和支持，讓她決定辭職以照顧家人。這項決定也讓人們思考了國家安全和家人照顧的平衡。加巴德的卸任將於6月底完成，讓人們期待著未來的發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "25a5b4b4",
-        "title": "為什麼英國難以改善？",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-21/why-britain-s-economic-problems-are-so-hard-to-fix-video",
-        "source": "Bloomberg",
-        "category": "whitehouse",
-        "published_at": "2026-05-21 21:24:04",
-        "summary_zh": "英國正面臨著嚴峻的經濟挑戰，首相基爾·史達默（Keir Starmer）可能成為市場的下一個受害者。英國的財政市場對政治領導人的耐受度非常低，任何小小的錯誤都可能導致市場大幅波動。這使得英國的政治領導人難以在財政市場上取得穩定的支持。英國的經濟挑戰包括高通脹、失業率上升和財政赤字等問題。市場對英國的財政政策感到不滿，導致英國的債券收益率大幅上升。這使得英國的經濟面臨著嚴重的挑戰。英國的政治領導人必須找到有效的方法來應對這些挑戰，才能夠穩定財政市場並改善經濟。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "fc983fe7",
-        "title": "古巴裔美國人對拉爾·卡斯特羅起訴的看法",
-        "url": "https://www.bbc.com/news/videos/cy92ge22298o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 20:52:52 GMT",
-        "summary_zh": "美國司法部對古巴前領導人拉爾·卡斯特羅提起指控，指控他涉及1996年兩架民用飛機墜毀的案件。這起指控涉及謀殺和其他罪行。古巴裔美國人對此事件的反應各異，有些人認為這是對卡斯特羅的正義，有些人則認為這是政治操弄。這起指控可能會對古巴與美國的關係產生影響。美國政府的行動可能會受到各方的批評和支持。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4656253a",
-        "title": "美國政府與瑞典政府關於科技繁榮協議的諒解備忘錄",
-        "url": "https://www.whitehouse.gov/releases/2026/05/technology-prosperity-deal-between-the-united-states-and-sweden/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 17:09:20 +0000",
-        "summary_zh": "美國政府與瑞典政府簽署了科技繁榮協議諒解備忘錄，表達雙方對科學和技術能力和標準的共同興趣，期望通過這種合作推動新一代的創新，為未來的自由和繁榮奠定基礎。這項協議強調了雙邊科學和技術合作的重要性，將有助於增進兩國之間的關係和共同利益。美國總統和瑞典政府官員表示，該協議將促進兩國在科學和技術領域的合作和交流，為雙方帶來新的機會和發展潛力。這項協議的簽署標誌著美國和瑞典在科技領域的合作關係進一步加深和加強。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b76da35c",
-        "title": "加布拉德宣布辭去美國國家情報總監一職",
-        "url": "https://www.bbc.com/news/articles/cvgj2gkv1x1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 19:50:27 GMT",
-        "summary_zh": "美國前代表議員加布拉德宣布辭去美國國家情報總監一職，據了解，她在近期美國軍事行動期間幾乎不露面，原因是丈夫的健康狀況不佳。加布拉德的離職將對美國國家安全局產生重大影響，未來將如何運作，還需要觀察。這一事件也引發了對美國政府內部人事安排的關注。加布拉德的離職將會給美國國家安全局帶來新的挑戰和機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "30ae3ba5",
-        "title": "Waymo暫停五個美國城市的自駕車服務，車輛駛入水浸道路",
-        "url": "https://www.bbc.com/news/articles/ckgplyxxl75o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 16:10:21 GMT",
-        "summary_zh": "Waymo宣布暫停自駕車服務，原因是車輛駛入水浸道路。公司表示，由於安全考量，決定暫停服務，目前正在評估恢復時間。這項措施主要針對五個美國城市的自駕車服務，包括某些水浸路段。Waymo強調，暫停服務是出於對乘客安全的關心。這項消息對於發展自駕車技術的相關企業來說，意味著安全問題仍是關鍵考量。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f7742155",
-        "title": "阿爾伯塔省將舉行獨立公投",
-        "url": "https://www.bbc.com/news/articles/cvgze8n5dxko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 02:40:58 GMT",
-        "summary_zh": "阿爾伯塔省西部的獨立運動已經推動了一項公投，探討阿爾伯塔省是否應該脫離加拿大剩餘地區。阿爾伯塔省的獨立運動已經存在多年，但最近的發展表明該運動正在獲得越來越多的支持。公投的舉行將是加拿大歷史上的一個重要里程碑，可能對加拿大聯邦的未來產生重大影響。阿爾伯塔省的獨立運動主要是由於該省對加拿大聯邦的財政分配不平等感到不滿。阿爾伯塔省的資源豐富，但該省的財政收入卻遠遠低於其他加拿大省份。公投的結果將對阿爾伯塔省和加拿大聯邦的未來產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6162738f",
-        "title": "川普再次威脅對古巴採取軍事行動， Rubio 表示不相信與古巴的外交談判",
-        "url": "https://www.theguardian.com/us-news/2026/may/22/marco-rubio-doubtful-diplomacy-cuba-trump-renews-threat-military-action",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 09:29:02 GMT",
-        "summary_zh": "美國總統川普再次表明願意採取軍事行動對付古巴，美國國務卿馬可·魯比奧表示川普總統願意與古巴進行外交談判，但成功的機會「不高」。這一表態出現於川普政府宣布對古巴前領導人拉烏爾·卡斯特羅提出刑事指控之後的第二天。川普總統表示，美國前總統多次考慮干預古巴，但「看起來我將是第一個實現這一點的人」。川普政府的這一表態加重了對古巴的軍事干預的威脅，古巴前領導人拉烏爾·卡斯特羅的刑事指控也使得局勢更加緊張。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f14bcfcd",
-        "title": "川普延後發布人工智慧行政令 因為中國關切 – 美國政治直播",
-        "url": "https://www.theguardian.com/us-news/live/2026/may/22/donald-trump-ai-china-iran-war-powers-hormuz-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 19:54:57 GMT",
-        "summary_zh": "美國總統川普表示，他不想阻礙科技公司與中國競爭。近日，千百名古巴人聚集在哈瓦那美國大使館前，抗議美國對前領導人拉烏爾·卡斯特羅的起訴。美國共和黨議員取消了對伊朗戰爭權限的投票，該投票可能會讓美國與伊朗的戰爭結束。川普宣布將部署另外 5,000 名美軍到波蘭，僅僅是在美軍暫停長期規劃的部署到波蘭後不久。北約秘書長馬克·魯特表示，北約的路線是優先強化歐洲，「不再依賴美國」。川普表示，他可能會錯過兒子唐納德·川普·青年在巴哈馬的婚禮，理由是他有「這個叫伊朗的東西」。美國對台軍售暫停，以確保美軍有足夠的彈藥進行伊朗行動。川普和國務卿馬可·魯比奧再次提起對古巴的軍事干預，昨天他們就這個話題進行了辯論。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9889415d",
-        "title": "芝加哥抗議者全部控罪被撤銷，美國檢方面臨紀律處分風險",
-        "url": "https://www.theguardian.com/us-news/2026/may/22/chicago-ice-protesters-charges-dropped-broadview-six",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 13:19:43 GMT",
-        "summary_zh": "美國檢方決定撤銷對四名在芝加哥郊區一間移民拘留中心抗議的男子的所有刑事控罪。這是對川普政府的最新一宗案件被揭露。檢方人員在呈交前述抗議者案件的陪審團記錄時，進行了刪除，可能觸犯紀律。美國檢方官員安德魯·布托斯（Andrew Boutros）週四宣布撤銷控罪，並表示檢方人員在三周前已經知道這一情況。布托斯向美國地區法院法官艾普里爾·佩里（April Perry）作出這一聲明。這一事件可能對美國檢方造成嚴重影響，特別是在川普政府的移民政策面臨著廣泛批評時。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ed19ae7c",
-        "title": "實時更新：川普宣誓就職Warsh，辯護「反軍事化」基金，抗議國會離開華盛頓",
-        "url": "https://thehill.com/homenews/administration/5890579-live-updates-donald-trump-reconciliation-compensation-fund/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 17:33:25 +0000",
-        "summary_zh": "川普總統周五在面對許多立法者，包括共和黨人對「反軍事化」基金的不滿之際，仍然大力支持這項基金。他在Truth Social發布了一則帖子，表示自己為了讓這項基金通過，犧牲了許多金錢，並表示自己正在幫助他人。這項基金的宣布引起了國會的不滿，許多人認為這項基金是對政府權力的濫用。川普的說法引起了爭議，許多人質疑他是否真正理解這項基金的意義。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
     "global": [
+      {
+        "id": "2d821915",
+        "title": "普京承諾報復：俄羅斯指控烏克蘭攻擊學生宿舍",
+        "url": "https://www.bbc.com/news/articles/c5y74lwx395o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 22 May 2026 19:40:14 GMT",
+        "summary_zh": "俄羅斯總統普京對烏克蘭攻擊俄羅斯東部被俄羅斯佔領的地區的學生宿舍表示不滿，承諾會採取報復行動。烏克蘭方面則表示，自己已經擊中俄羅斯精英無人機部隊的基地。這一事件發生在俄羅斯佔領的東烏克蘭地區。這一事件的背景是俄羅斯與烏克蘭之間的長期衝突。烏克蘭的攻擊行動對俄羅斯的影響可能會導致俄羅斯對烏克蘭的報復行動加劇。這一事件的發展仍在繼續中，未來可能會有更多的動作和回應。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5269284e",
+        "title": "美國將派遣 5,000 名士兵到波蘭，川普表示",
+        "url": "https://www.bbc.com/news/articles/cedpz9669deo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Fri, 22 May 2026 15:18:30 GMT",
+        "summary_zh": "美國總統川普宣布將派遣 5,000 名士兵到波蘭，這項決定在去週美國國防部取消了原本計劃派遣 4,000 名士兵的行動後發生。這項決定可能與近期美國對烏克蘭的支持有關，美國一直在努力為烏克蘭提供軍事援助。波蘭是北約的一個重要成員國，位於東歐邊緣，近年來一直面臨俄羅斯的威脅。這項決定可能會對波蘭和北約的安全形勢產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "26bedbc5",
+        "title": "剛果民主共和國埃博拉風險升級至「極高」",
+        "url": "https://www.bbc.com/news/articles/cr7p30m1dn1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 22 May 2026 16:23:08 GMT",
+        "summary_zh": "剛果民主共和國內部埃博拉疫情風險被升級至「極高」。世界衛生組織（WHO）表示，該地區風險為「高」，但全球風險仍維持在「低」水平。WHO 將該地區列為「非常高風險」區域，呼籲外國人避免前往該地區。該地區的埃博拉疫情已經持續了幾個月，WHO 表示該地區的醫療系統面臨嚴重挑戰。該組織強調，埃博拉疫情的風險仍在升高，呼籲各國政府和民間組織提供援助和支持。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "930ea15c",
+        "title": "川普對古巴施壓：為何如此？目標何在？",
+        "url": "https://www.bbc.com/news/articles/c5yrkl96xwvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Fri, 22 May 2026 18:33:36 GMT",
+        "summary_zh": "美國政府近日發出警告，表示古巴與美國達成和平協議的可能性不大。古巴政府則斷言，這是美國政府為了正當化軍事干涉而製造的「虛假案件」。美國政府的動機和目標，引起了外界的關注和懷疑。古巴政府堅持自己的立場，表明將不會被美國政府的威脅所動搖。這一事件的發展，將對兩國關係產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1e9fd50d",
+        "title": "加沙船隊活動家指控以色列軍隊在拘留期間虐待",
+        "url": "https://www.bbc.com/news/articles/cglp5z63k9no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 22 May 2026 20:52:35 GMT",
+        "summary_zh": "加沙船隊活動家指控以色列軍隊在拘留期間對他們進行了Physical 和心理上的虐待，包括被打、被毆、被侮辱和遭受性暴力等。然而，以色列的監獄服務機構否認了這些指控。這起事件的背景是，今年早些時候，一支由加沙組織的船隊試圖突破以色列海軍的封鎖，運送援助物資到加沙，但被以色列軍隊攔截並拘留。這次事件引發了國際社會的關注，許多人譴責以色列的行為。這些活動家的指控如果被證實，將對以色列的國際形象造成重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "9dc36e16",
+        "title": "意大利潛水員遇難　拯救者指裝備不全",
+        "url": "https://www.bbc.com/news/articles/c0l2j723nrxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 22 May 2026 17:54:11 GMT",
+        "summary_zh": "意大利四名潛水員在洞穴中遇難，拯救者表示，當時拯救工作面臨了極大的困難，原因是潛水員的裝備不全。這些照片顯示，洞穴內的環境非常險惡，拯救者必須小心地將潛水員的屍體帶出洞穴。這次事件的發生，讓人們對潛水員的安全問題感到擔憂。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "f1260b91",
+        "title": "薩巴倫卡斬短媒體訪問 法國網球選手抗議獎金",
+        "url": "https://www.bbc.com/sport/tennis/articles/ce3pg95djdeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 22 May 2026 14:59:34 GMT",
+        "summary_zh": "法國網球公開賽期間，多位頂級選手，包括薩巴倫卡、科科·加芙和賈尼克·辛納，聯合抗議獎金問題。選手們決定縮短媒體訪問時間，僅允許15分鐘一次。這一行動是對於獎金問題的抗議，選手們希望能夠獲得更公平的獎金分配。這一事件引起了廣泛的關注，網球界的選手和觀眾都在關注這一問題。選手們的行動表明了他們對於獎金問題的關注和不滿。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "4c4dd20a",
+        "title": "警方指控YouTuber用AI偽造證據陷害韓國男星",
+        "url": "https://www.bbc.com/news/articles/c0r2j18k2vxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 22 May 2026 10:50:24 GMT",
+        "summary_zh": "近日，韓國警方正在追捕一名YouTuber，他被指控用人工智慧（AI）偽造證據陷害韓國男星金秀賢（Kim Soo-hyun）。根據警方的調查，該YouTuber利用AI技術製造假證據，試圖證明金秀賢涉嫌性侵犯。這起事件引起了韓國娛樂圈的震動，警方表示將徹底調查此案，並懲罰有罪者。金秀賢的經歷被認為是這種行為的典型案例，警方呼籲公眾提高警惕，防止此類事件再次發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "99e12f95",
+        "title": "慢食運動創始人卡羅·佩特里尼去世，享年76歲",
+        "url": "https://www.bbc.com/news/articles/cn9pe1py9zwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 22 May 2026 10:22:21 GMT",
+        "summary_zh": "卡羅·佩特里尼是慢食運動的創始人，他的運動反對快餐文化，推崇可持續的農業生產和傳統烹飪方法。佩特里尼的理念受到全球各地的追捧，他的工作對於推動可持續發展和保護文化遺產有著重要的影響。佩特里尼的去世，讓全球慢食運動的追隨者感到哀悼，他的貢獻將永遠被記住。佩特里尼的生平和事業受到各界的肯定，他的工作對於推動可持續發展和保護文化遺產有著重要的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6ff999af",
+        "title": "古巴人面臨燃料短缺和停電潮 美國加強壓力",
+        "url": "https://www.bbc.com/news/articles/c3e2w43lkvzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 22 May 2026 09:32:42 GMT",
+        "summary_zh": "古巴正面臨嚴重的燃料短缺和停電潮。美國政府近日對古巴前領導人拉爾·卡斯特羅(Raúl Castro)提出謀殺指控。這一事件發生在美國加強對古巴的經濟制裁之際。古巴人面臨燃料短缺和停電潮的困境，影響了日常生活。燃料短缺導致交通不便，停電潮使得電力供應不穩定。這一局面加劇了古巴人的生活困難。美國政府的制裁措施對古巴經濟造成了重大影響。古巴政府正努力應對這一挑戰。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "e7ed97b3",
+        "title": "「長命久遠的拉烏爾！」-古巴政府支持者為卡斯特羅集會抗議",
+        "url": "https://www.bbc.com/news/videos/cr5pl7jevyro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Fri, 22 May 2026 20:49:25 GMT",
+        "summary_zh": "古巴政府支持者在美國對前總統卡斯特羅的起訴後舉行集會，表達對他的支持。這次集會是對美國政府的抗議，古巴政府支持者認為美國政府的行動是對古巴的干涉。集會上有許多人高呼「長命久遠的拉烏爾！」，表達對卡斯特羅的支持。這次集會的舉辦是古巴政府試圖展示其內部的支持力，同時也表達對美國政府的不滿。美國政府的起訴是對卡斯特羅的政治行動的批評，古巴政府認為這是對其政治制度的干涉。這次集會的結果仍待觀察，但古巴政府的支持者表達了對卡斯特羅的堅定支持。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d37ac42b",
+        "title": "印度新娘死亡，謀殺與自殺之間的爭議引發媒體瘋狂",
+        "url": "https://www.bbc.com/news/articles/czd2q140my1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 22 May 2026 11:41:23 GMT",
+        "summary_zh": "印度一名名模和演員Twisha Sharma，結婚不足五個月便去世。她的死亡引發了謀殺與自殺之間的爭議，媒體瘋狂報導。這起案件的背景是，Twisha Sharma 的丈夫和她父親之間存在著嚴重的不和，許多人懷疑丈夫可能涉及謀殺。然而，警方初步調查指出，Twisha Sharma 的死亡可能是自殺。這起案件的影響是，媒體對於謀殺與自殺之間的爭議進行了廣泛的報導，許多人對於丈夫的嫌疑感到懷疑。後續展望是，警方將繼續調查，希望能夠揭露真相。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "2746db35",
         "title": "古巴對美國構成國家安全威脅，魯比奧表示",
@@ -295,18 +209,6 @@
         "category": "global",
         "published_at": "Fri, 22 May 2026 08:13:13 GMT",
         "summary_zh": "古巴外長批評魯比奧試圖「煽動軍事侵略」。這是古巴外長對於美國參議員馬可·魯比奧 (Marco Rubio) 的回應。魯比奧在一場聽證會上表示，古巴對美國構成國家安全威脅。古巴外長認為魯比奧的言論是試圖破壞古巴與美國的關係。古巴外長的回應表明兩國之間的緊張關係仍在持續。這種緊張關係可能會對兩國的外交關係產生不利影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4c4dd20a",
-        "title": "警方指控YouTuber用AI偽造證據陷害韓國男星",
-        "url": "https://www.bbc.com/news/articles/c0r2j18k2vxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 22 May 2026 10:50:24 GMT",
-        "summary_zh": "近日，韓國警方正在追捕一名YouTuber，他被指控用人工智慧（AI）偽造證據陷害韓國男星金秀賢（Kim Soo-hyun）。根據警方的調查，該YouTuber利用AI技術製造假證據，試圖證明金秀賢涉嫌性侵犯。這起事件引起了韓國娛樂圈的震動，警方表示將徹底調查此案，並懲罰有罪者。金秀賢的經歷被認為是這種行為的典型案例，警方呼籲公眾提高警惕，防止此類事件再次發生。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -324,18 +226,6 @@
         "ai_classified": true
       },
       {
-        "id": "d37ac42b",
-        "title": "印度新娘死亡，謀殺與自殺之間的爭議引發媒體瘋狂",
-        "url": "https://www.bbc.com/news/articles/czd2q140my1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 22 May 2026 11:41:23 GMT",
-        "summary_zh": "印度一名名模和演員Twisha Sharma，結婚不足五個月便去世。她的死亡引發了謀殺與自殺之間的爭議，媒體瘋狂報導。這起案件的背景是，Twisha Sharma 的丈夫和她父親之間存在著嚴重的不和，許多人懷疑丈夫可能涉及謀殺。然而，警方初步調查指出，Twisha Sharma 的死亡可能是自殺。這起案件的影響是，媒體對於謀殺與自殺之間的爭議進行了廣泛的報導，許多人對於丈夫的嫌疑感到懷疑。後續展望是，警方將繼續調查，希望能夠揭露真相。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "0e6bb588",
         "title": "越南囚犯億萬富豪的百利康包出售超過 55 萬美元",
         "url": "https://www.bbc.com/news/articles/cdrp2lyx75mo?at_medium=RSS&at_campaign=rss",
@@ -343,66 +233,6 @@
         "category": "global",
         "published_at": "Thu, 21 May 2026 21:27:10 GMT",
         "summary_zh": "越南億萬富豪因為挪用銀行資金而被判終身監禁。儘管如此，他的百利康包仍然能夠在拍賣會上賣出超過 55 萬美元。這些包包曾經是他妻子的收藏，現在將會被用來支付他的監獄費用。這個事件顯示出，即使是最富有的富豪也不能逃避法律的懲罰。這個案件也引起了對越南腐敗問題的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5269284e",
-        "title": "美國將派遣 5,000 名士兵到波蘭，川普表示",
-        "url": "https://www.bbc.com/news/articles/cedpz9669deo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 22 May 2026 15:18:30 GMT",
-        "summary_zh": "美國總統川普宣布將派遣 5,000 名士兵到波蘭，這項決定在去週美國國防部取消了原本計劃派遣 4,000 名士兵的行動後發生。這項決定可能與近期美國對烏克蘭的支持有關，美國一直在努力為烏克蘭提供軍事援助。波蘭是北約的一個重要成員國，位於東歐邊緣，近年來一直面臨俄羅斯的威脅。這項決定可能會對波蘭和北約的安全形勢產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "930ea15c",
-        "title": "川普對古巴施壓：為何如此？目標何在？",
-        "url": "https://www.bbc.com/news/articles/c5yrkl96xwvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 22 May 2026 18:33:36 GMT",
-        "summary_zh": "美國政府近日發出警告，表示古巴與美國達成和平協議的可能性不大。古巴政府則斷言，這是美國政府為了正當化軍事干涉而製造的「虛假案件」。美國政府的動機和目標，引起了外界的關注和懷疑。古巴政府堅持自己的立場，表明將不會被美國政府的威脅所動搖。這一事件的發展，將對兩國關係產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2d821915",
-        "title": "普京承諾報復：俄羅斯指控烏克蘭攻擊學生宿舍",
-        "url": "https://www.bbc.com/news/articles/c5y74lwx395o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 22 May 2026 19:40:14 GMT",
-        "summary_zh": "俄羅斯總統普京對烏克蘭攻擊俄羅斯東部被俄羅斯佔領的地區的學生宿舍表示不滿，承諾會採取報復行動。烏克蘭方面則表示，自己已經擊中俄羅斯精英無人機部隊的基地。這一事件發生在俄羅斯佔領的東烏克蘭地區。這一事件的背景是俄羅斯與烏克蘭之間的長期衝突。烏克蘭的攻擊行動對俄羅斯的影響可能會導致俄羅斯對烏克蘭的報復行動加劇。這一事件的發展仍在繼續中，未來可能會有更多的動作和回應。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "26bedbc5",
-        "title": "剛果民主共和國埃博拉風險升級至「極高」",
-        "url": "https://www.bbc.com/news/articles/cr7p30m1dn1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 22 May 2026 16:23:08 GMT",
-        "summary_zh": "剛果民主共和國內部埃博拉疫情風險被升級至「極高」。世界衛生組織（WHO）表示，該地區風險為「高」，但全球風險仍維持在「低」水平。WHO 將該地區列為「非常高風險」區域，呼籲外國人避免前往該地區。該地區的埃博拉疫情已經持續了幾個月，WHO 表示該地區的醫療系統面臨嚴重挑戰。該組織強調，埃博拉疫情的風險仍在升高，呼籲各國政府和民間組織提供援助和支持。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "99e12f95",
-        "title": "慢食運動創始人卡羅·佩特里尼去世，享年76歲",
-        "url": "https://www.bbc.com/news/articles/cn9pe1py9zwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 22 May 2026 10:22:21 GMT",
-        "summary_zh": "卡羅·佩特里尼是慢食運動的創始人，他的運動反對快餐文化，推崇可持續的農業生產和傳統烹飪方法。佩特里尼的理念受到全球各地的追捧，他的工作對於推動可持續發展和保護文化遺產有著重要的影響。佩特里尼的去世，讓全球慢食運動的追隨者感到哀悼，他的貢獻將永遠被記住。佩特里尼的生平和事業受到各界的肯定，他的工作對於推動可持續發展和保護文化遺產有著重要的影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -422,6 +252,18 @@
     ],
     "ai": [
       {
+        "id": "c99a5124",
+        "title": "谷歌 AI 搜尋功能出現問題，忽略使用者查詢內容",
+        "url": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-22T16:39:54-04:00",
+        "summary_zh": "谷歌的 AI 概覽功能目前遇到一個有趣的問題。根據目前的狀況，如果你搜尋關鍵字「忽略」，通常會顯示 AI 生成的搜尋結果摘要。但是，這次谷歌的 AI 概覽功能卻顯示了一個與傳統 AI 聊天機器人類似的回應。這個問題被 [某人] 所發現並指出。這個問題可能與谷歌的 AI 搜尋功能有關，谷格的 AI 搜尋功能一直在改進中。這個問題可能會影響使用者對谷歌搜尋功能的信任度。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "495c12e9",
         "title": "艾倫·麥斯克，別再試圖讓 Grok 成功",
         "url": "https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen",
@@ -429,18 +271,6 @@
         "category": "ai",
         "published_at": "2026-05-22T13:17:06-04:00",
         "summary_zh": "艾倫·麥斯克的「真相追尋」AI 聊天機 Grok 面臨嚴峻的挑戰：它的表現不佳，使用率也不高。根據路透社的最新報告，Grok 在美國政府去年使用 AI 的記錄中幾乎不被提及。這不是唯一的跡象，指出 xAI 的 Grok 在實踐中遇到的困難。路透社的調查發現，Grok 的使用率遠低於其他 AI 聊天機。這可能是因為 Grok 的設計目標過於寬泛，導致它無法有效地回答使用者的問題。另一方面，Grok 的開發商 xAI 表示，Grok 的表現會隨著時間的推移而改善。然而，目前來看，Grok 的未來仍存疑。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "c99a5124",
-        "title": "谷歌 AI 搜尋功能出現問題，忽略使用者查詢內容",
-        "url": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-22T12:01:17-04:00",
-        "summary_zh": "谷歌的 AI 概覽功能目前遇到一個有趣的問題。根據目前的狀況，如果你搜尋關鍵字「忽略」，通常會顯示 AI 生成的搜尋結果摘要。但是，這次谷歌的 AI 概覽功能卻顯示了一個與傳統 AI 聊天機器人類似的回應。這個問題被 [某人] 所發現並指出。這個問題可能與谷歌的 AI 搜尋功能有關，谷格的 AI 搜尋功能一直在改進中。這個問題可能會影響使用者對谷歌搜尋功能的信任度。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -482,13 +312,25 @@
         "ai_classified": true
       },
       {
-        "id": "41c83ec2",
-        "title": "埃隆·馬斯克與Sam Altman之間的對決：對OpenAI未來的影響",
-        "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-        "source": "The Verge AI",
+        "id": "429cb575",
+        "title": "下載：程式設計的未來、\"肌肉注射奧林匹克\"、人工智慧驅動科學",
+        "url": "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science/",
+        "source": "MIT Tech Review",
         "category": "ai",
-        "published_at": "2026-05-21T16:15:18-04:00",
-        "summary_zh": "埃隆·馬斯克與Sam Altman正面臨著一場高風險的訴訟，可能會改變OpenAI和ChatGPT未來的走向。2024年，馬斯克控訴OpenAI棄置了其創始使命，將開發人類受益的AI技術轉變為為了獲利而發展。這場訴訟持續了近一個月，兩人在未來OpenAI的方向和發展策略上存在著激烈的爭議。馬斯克認為OpenAI應該更加關注人類的福祉，而不是僅僅為了獲利。另一方面，Altman則認為OpenAI的發展方向是正確的，並且已經取得了顯著的成果。這場訴訟的結果將對OpenAI和ChatGPT的未來產生重大影響，可能會改變人們對於AI發展的看法和態度。",
+        "published_at": "Fri, 22 May 2026 12:10:00 +0000",
+        "summary_zh": "程式設計的未來正在逐步展現，無論你喜不喜歡。Anthropic 近日在倫敦舉辦的開發者活動中，Code with Claude 展示了程式設計未來的樣貌。活動中，參與者被問及他們是否已經將程式碼發佈。這個問題讓人們不得不面對程式設計未來的現實。另一方面，人工智慧驅動科學的發展也在快速推進。AI 驅動科學的應用將會改變科學研究的面貌，讓科學家能夠更有效地進行研究。然而，這也引發了對 AI 驅動科學的倫理問題。究竟人工智慧驅動科學的發展會對科學研究和社會帶來什麼影響？這是值得關注的問題。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "905c6b13",
+        "title": "Google I/O 展示了人工智慧驅動科學的新方向",
+        "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Fri, 22 May 2026 10:00:00 +0000",
+        "summary_zh": "在 Google I/O 的開幕式上，Google DeepMind 的 CEO Demis Hassabis 表示，我們現在正在「站在奇點的山腳下」。奇點是指人工智慧在未來迅速超越人類智慧，對世界產生深遠影響的理論時刻。但是，在聽到這番話的時候，我注意到了一個問題：人工智慧驅動科學的道路正在經歷著什麼樣的變化？Google I/O 展示了人工智慧在科學領域的應用，從藥物設計到天文學，人工智慧的潛力在各個領域都在被發現。這些應用不僅僅是技術上的突破，也是科學研究的新方向。人工智慧驅動科學的變化將會對科學研究和科學界產生什麼樣的影響？這將是未來科學發展的關鍵問題。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -516,54 +358,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "8db2c598",
-        "title": "Meta陷入危機、Google Search大改版，AI遭學生罵倒",
-        "url": "https://www.wired.com/story/uncanny-valley-podcast-meta-in-crisis-google-search-makeover-ai-booed-by-graduates/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 21 May 2026 20:44:53 +0000",
-        "summary_zh": "近日，Meta遭遇大規模裁員潮，引發廣泛關注。Google I/O 大會上，Google 宣布了 Search 大改版，帶來了許多新功能。另一方面，人工智慧(AI) 在最新的學生調查中遭到罵倒。這些事件都表明了科技業正處於一個動蕩的時期。Meta 的裁員潮可能是由於公司未能適應快速變化的市場環境，而 Google 的 Search 大改版則是為了競爭社交媒體巨頭。另一方面，AI 的背後是人們對於科技進步的擔憂。學生們對於 AI 的反應可能是由於對於未來工作機會的擔憂。這些事件都表明了科技業的未來將會更加複雜。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "429cb575",
-        "title": "下載：程式設計的未來、\"肌肉注射奧林匹克\"、人工智慧驅動科學",
-        "url": "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Fri, 22 May 2026 12:10:00 +0000",
-        "summary_zh": "程式設計的未來正在逐步展現，無論你喜不喜歡。Anthropic 近日在倫敦舉辦的開發者活動中，Code with Claude 展示了程式設計未來的樣貌。活動中，參與者被問及他們是否已經將程式碼發佈。這個問題讓人們不得不面對程式設計未來的現實。另一方面，人工智慧驅動科學的發展也在快速推進。AI 驅動科學的應用將會改變科學研究的面貌，讓科學家能夠更有效地進行研究。然而，這也引發了對 AI 驅動科學的倫理問題。究竟人工智慧驅動科學的發展會對科學研究和社會帶來什麼影響？這是值得關注的問題。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "905c6b13",
-        "title": "Google I/O 展示了人工智慧驅動科學的新方向",
-        "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Fri, 22 May 2026 10:00:00 +0000",
-        "summary_zh": "在 Google I/O 的開幕式上，Google DeepMind 的 CEO Demis Hassabis 表示，我們現在正在「站在奇點的山腳下」。奇點是指人工智慧在未來迅速超越人類智慧，對世界產生深遠影響的理論時刻。但是，在聽到這番話的時候，我注意到了一個問題：人工智慧驅動科學的道路正在經歷著什麼樣的變化？Google I/O 展示了人工智慧在科學領域的應用，從藥物設計到天文學，人工智慧的潛力在各個領域都在被發現。這些應用不僅僅是技術上的突破，也是科學研究的新方向。人工智慧驅動科學的變化將會對科學研究和科學界產生什麼樣的影響？這將是未來科學發展的關鍵問題。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fbd9a4ba",
-        "title": "會議: 人工智慧能夠學習理解世界嗎?",
-        "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 21 May 2026 20:41:05 +0000",
-        "summary_zh": "近期，人工智慧領域出現了一個新的熱點——世界模型。世界模型的出現，讓人們開始思考人工智慧是否能夠學習理解外部世界。這種能力將能夠超越目前的LLM（大型語言模型）的限制。人工智慧公司正在努力打造能夠理解外部世界的系統。編輯長Mat Honan、資深人工智慧編輯Will Douglas Heaven和人工智慧記者等人在會議中進行了深入的討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "stock_tw": [
@@ -575,6 +369,30 @@
         "category": "stock_tw",
         "published_at": "Sat, 26 Dec 2026 19:30:59 +0800",
         "summary_zh": "台北大直高端餐飲最密集的地帶之一，迎來一間以傳統粵菜乾貨料理為核心的新餐廳—玉天璽。由吳俊璋與蘇雲嶢共同打造，透過直採選材逾四十年優勢，選擇珍稀乾貨食材為菜單重心。知名港籍主廚陳國華與傳奇人物主廚黎有甜、魏禧合作，讓玉天璽建立了與眾不同的粵菜新盛宴。玉天璽於2026年5月1日隆重開幕，推出四款套餐，每位NT$2,680起，另有主食、乾貨單品等餐點。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e4e44941",
+        "title": "香港救助兒童會發表調查報告 《聽見孩子：家庭互動如何影響青少年心理健康》",
+        "url": "https://money.udn.com/money/story/12987/9520522",
+        "source": "經濟日報",
+        "category": "stock_tw",
+        "published_at": "Sat, 23 May 2026 04:00:35 +0800",
+        "summary_zh": "香港救助兒童會發布《聽見孩子：家庭互動如何影響青少年的心理健康》研究報告，調查發現逾半青少年因受家長貶斥而自感較他人差劣，長遠可能影響情緒，或增加患抑鬱等風險。報告指出，絕大部分家長均關愛子女，但在管教、溝通模式以及表達對子女期望的方式上，可能在「言者無心」下，對子女造成情緒傷害。香港救助兒童會建議家長實踐「正向管教」，改善親子間的非暴力溝通，並呼籲政府增加對兒童及青少年的心理支援。報告的發布，也提醒社會應該重視心理虐待的問題，並加強識別和防治。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "8968a426",
+        "title": "範式公佈2026年首季業績 收入同比增長35.4% Token調用量激增近六倍",
+        "url": "https://money.udn.com/money/story/12987/9520521",
+        "source": "經濟日報",
+        "category": "stock_tw",
+        "published_at": "Sat, 23 May 2026 04:00:25 +0800",
+        "summary_zh": "範式智能技術集團股份有限公司今日公佈截至2026年3月31日第一季度之未經審核綜合業績。報告期內，範式收入約人民幣 14.58 億元，同比增加35.4%，毛利率 35.1%。範式憑藉在全棧AI雲服務平台的深厚積累，把握算力國產化普及及企業AI部署需求爆發的行業機遇，核心業務高速增長，技術產品迭代加快，重大合作順利落地。2026年第一季度，API token 調用量按年激增近六倍，已超過 2025年全年調用量。範式企業級AI平台採用統一核心架構，可同時支援 API 調用場景與企業專屬 AI 私有化部署，大幅提升AI應用效率與資源利用率。範式可支配算力資源超過200%，有效支撐 token 需求快速增長，持續為客戶提供穩定及高品質的AI服務。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
@@ -588,8 +406,8 @@
         "published_at": "Sat, 23 May 2026 02:51:12 +0800",
         "summary_zh": "吳盈安是一位P型人，隨興而行且從不訂定讀書計畫。但她有一個特殊的學習方法，叫做「適應考試時程」。她會根據考試時間表，提前熟悉考試的時間安排，讓自己提早適應考試的節奏。例如，如果早上九點考的是國文，她就會在早上九點抓起國文教材念書。這種方法幫助她順利考取公職，連過兩榜，考上普考與地方特考的人事行政組。吳盈安的學習方法值得注意，尤其是對於那些缺乏規律學習計畫的學生。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "6db93fe8",
@@ -600,8 +418,8 @@
         "published_at": "Sat, 23 May 2026 02:44:23 +0800",
         "summary_zh": "美國公民暨移民服務局（USCIS）最近發布新聞稿，重申移民尋求「身分調整」（AOS）應在國外的領事館處理。暫時身在美國，且希望取得綠卡的移民必須回到他們的母國來申請。這一決定可能會對許多移民造成影響，尤其是那些已經在美國生活和工作的移民。根據USCIS的說法，這一決定是為了確保移民程序的正確性和效率。然而，這一決定也可能會導致許多移民面臨困難和延遲。因此，移民們應該仔細考慮這一決定，並且準備好面對可能的挑戰和影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "9564df97",
@@ -786,76 +604,100 @@
     ],
     "finance": [
       {
-        "id": "bc1ed24e",
-        "title": "短線賣空大師「刺客」轉變為買入韓國股市",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-22/short-seller-dubbed-the-assassin-is-going-long-korea-stocks",
+        "id": "a75e7e8f",
+        "title": "倫敦交易員陷入超長期債券賭注失利",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-22/london-traders-are-stuck-with-an-ultra-long-bond-bet-gone-bad",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-22 08:00:00",
-        "summary_zh": "短線賣空大師吉米·韓（Jimmy Heung）被稱為「刺客」，因其對韓國股市的短線賣空分析。他先前一直以賣空韓國股市聞名，但近期卻突然轉變為買入韓國股市。根據市場消息，韓國股市近期出現了許多買入韓國股市的跡象，包括股價上漲和投資人增加買入韓國股市的意願。分析師認為，這可能是因為韓國政府正在推動經濟改革和投資環境改善。然而，仍有許多投資人對韓國股市的未來前景存疑。韓國股市的短線波動仍然很大，投資人需要保持謹慎。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "e811525a",
-        "title": "標準銀行CEO為「低價值」言論道歉",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-22/stanchart-ceo-apologizes-for-lower-value-comments-after-outcry",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-22 07:55:09",
-        "summary_zh": "標準銀行CEO道歉言論引發爭議。標準銀行CEO在最近的演講中表示，銀行業的某些業務是「低價值」的。這番言論引起業界人士的不滿。標準銀行CEO表示，他的意圖是要提醒銀行業要關注核心業務，並且要提高效率。然而，這番言論被認為是對銀行業的貶低。標準銀行CEO在最近的新聞發布會上表示，他為自己的言論道歉，並且表示他會繼續關注銀行業的核心業務。這一事件顯示，銀行業的競爭力和效率是關鍵的問題。標準銀行CEO的言論也引發了對銀行業未來發展的討論。",
+        "published_at": "2026-05-22 09:00:00",
+        "summary_zh": "倫敦交易員陷入困境，因為他們的超長期債券投資失利。倫敦交易員曾經押注超長期債券的價格會上升，但現在面臨著巨大的虧損。這種情況是由於市場情況的變化，導致超長期債券的價格下跌。倫敦交易員的投資失利，可能會對整個市場產生影響。市場分析師預測，倫敦交易員會試圖出售超長期債券，來減少損失。然而，這種行動可能會加劇市場的波動。倫敦交易員的超長期債券投資失利，顯示出市場的不確定性。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "9f1d80bb",
-        "title": "中國六月燃料出口料微增，限制措施仍在執行，來源稱",
-        "url": "https://www.reuters.com/business/energy/china-june-fuel-exports-set-slight-increase-restrictions-hold-sources-say-2026-05-22/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-22 07:53:44",
-        "summary_zh": "根據來源，中國六月燃料出口料微增，但限制措施仍在執行。中國政府對燃料出口的限制措施，包括出口許可證的審批程序，仍然存在。這些限制措施導致了中國燃料出口的下滑。儘管如此，來源表示，六月的燃料出口料微增，可能是因為出口商正在努力爭取更多的出口許可證。這些限制措施的影響，將對全球燃料市場產生影響。中國是全球第二大的燃料出口國，出口商的行動將對全球燃料價格和供應產生影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "0d7ebe65",
-        "title": "印度 RBI 持續維護盧比防禦，周四至少介入 2 億美元，銀行家表示",
-        "url": "https://www.reuters.com/world/india/india-rbis-rupee-defence-persists-after-least-2-bln-intervention-thursday-2026-05-22/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-22 07:45:43",
-        "summary_zh": "印度中央銀行 RBI 對盧比進行防禦，周四至少介入 2 億美元。銀行家表示， RBI 將盧比掛鉤在 82 美元以下，並且在市場上購買盧比，以維持其穩定。這是 RBI 對盧比進行防禦的最新行動，目的是防止盧比貶值。 RBI 的行動受到市場的關注，市場人士正在密切關注 RBI 對盧比的政策走向。盧比貶值將對印度的出口業和外匯儲備造成嚴重影響，因此 RBI 的行動是必要的。然而，市場人士也認為， RBI 的行動可能會導致盧比貶值的風險增加。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "65b7a937",
-        "title": "斯里蘭卡盧比兌換率三年來最大升幅，領先亞洲貨幣市場",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-22/sri-lankan-rupee-rallies-most-in-three-years-leads-asia-fx",
+        "id": "7b358856",
+        "title": "歐洲央行可能於六月加息表明對 2% 的承諾",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-22/ecb-hike-likely-in-june-to-signal-commitment-to-2-demarco-says",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-22 07:37:40",
-        "summary_zh": "斯里蘭卡盧比兌換率在近期經歷了三年的最大升幅，超越了亞洲其他貨幣市場。這種改善的表現與斯里蘭卡政府的經濟政策和央行的調節措施有關。央行在去年推出了一系列措施，包括提高利率和出售外匯儲備，以穩定盧比兌換率。這些措施似乎已經開始發揮作用，盧比兌換率在近期的升幅表明了斯里蘭卡經濟的改善。這種改善將對斯里蘭卡的出口業和外匯儲備有所影響。然而，仍然存在著外部風險，包括全球經濟的不確定性和美元兌換率的波動。",
+        "published_at": "2026-05-22 08:56:48",
+        "summary_zh": "歐洲央行 (ECB) 可能於六月加息，表明對於 2% 的物價膨脹率目標的承諾。根據德國央行總裁德馬可 (Pierre Wunsch) 的說法，ECB 可能會在六月份的會議上決定加息。德馬可 表示，ECB 將會繼續努力達到 2% 的物價膨脹率目標，同時也會考慮到經濟的整體情況。這一決定可能會對歐洲的金融市場產生重大影響。德馬可 的說法表明，ECB 將會堅持其對 2% 的物價膨脹率目標的承諾，同時也會考慮到經濟的變化。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "a67d45ca",
-        "title": "南非蘭特大致穩定，交易商期待下週利率決定",
-        "url": "https://www.reuters.com/world/africa/south-african-rand-largely-steady-traders-await-rate-decision-next-week-2026-05-22/",
+        "id": "fd40f668",
+        "title": "肯亞政府降低柴油價格，公交車營運商取消罷工",
+        "url": "https://www.reuters.com/world/africa/kenya-cut-diesel-price-after-protests-against-soaring-energy-costs-2026-05-22/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-05-22 07:27:57",
-        "summary_zh": "南非蘭特大致穩定，交易商期待下週南非央行的利率決定。南非央行將在下週進行一次會議，討論是否需要調整利率以應對通脹和經濟增長的挑戰。南非蘭特的穩定表明投資者對央行的政策有信心。南非央行的決定將對南非經濟和蘭特的價格有重大影響。投資者將密切關注央行的決定，了解是否會有任何變化。南非蘭特的穩定表明投資者對央行的政策有信心，但投資者也會關注央行的決定是否能夠有效應對經濟挑戰。",
+        "published_at": "2026-05-22 08:45:57",
+        "summary_zh": "肯亞政府近日宣布降低柴油價格，公交車營運商出於對此的滿意，決定取消罷工行動。這一決定對於肯亞的交通運輸業界具有重大影響，公交車營運商的罷工行動曾經對肯亞的經濟產生了不小的影響。政府降低柴油價格的決定被視為對公交車營運商的妥協，同時也表明政府願意聽取民間的意見。這一事件的影響不僅僅局限於肯亞的交通運輸業界，還會對肯亞的整體經濟產生一定的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c3d84ec3",
+        "title": "日本四月通膨率意外放緩",
+        "url": "https://www.ft.com/content/b1d1cbab-1457-4df1-ad74-95036634eb6c",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-22 08:28:41",
+        "summary_zh": "日本四月通膨率出乎意料地放緩，年率為2.1%，低於市場預期的2.3%。這一結果表明日本經濟正在經歷一波通膨率的放緩趨勢。根據日本統計局的數據，四月食品價格下降了0.8%，而非市場預期的上漲。這一結果對於日本央行的政策決策具有重要意義，央行一直在努力控制通膨率。日本央行的目標是維持通膨率在2%左右，目前的結果表明央行的政策正在發揮作用。然而，通膨率的放緩也可能對日本的經濟產生負面影響，例如對出口業的影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": true
+      },
+      {
+        "id": "11884e00",
+        "title": "摩爾股份股價下跌：匈牙利化學工廠爆炸事件",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-22/mol-shares-drop-after-petrochemicals-plant-explosion-in-hungary",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-22 08:22:05",
+        "summary_zh": "匈牙利發生化學工廠爆炸事件，造成多人受傷，工廠屬於摩爾股份公司旗下。事件發生後，摩爾股份股價下跌，市場分析師認為事件對公司財務影響不大，但短期內股價可能會受到波動。摩爾股份公司表示，正在與當地當局合作，進行事故調查和善後工作。公司也承諾會盡快恢復工廠生產，減少對供應鏈的影響。事件對全球化學品市場的影響尚待觀察，但目前看起來不會對公司的長期發展造成重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "6e4a06fc",
+        "title": "瑞士高級珠寶行Richemont大放異彩，高端珠寶需求大增",
+        "url": "https://www.ft.com/content/7ab3df1e-7537-4b97-951f-5fa151ff4e47",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-22 08:21:47",
+        "summary_zh": "瑞士高級珠寶集團Richemont近期表現亮眼，該公司的珠寶銷售額遠超預期，高端珠寶需求大增。雖然中東和非洲地區的銷售額有所下滑，但這些收益仍然遠遠超過預期。富時高級珠寶指數升幅達 4%，表明高端珠寶市場正處於復甦之中。分析師認為，這是因為富人階層的消費需求正在增加，高端珠寶市場正逐漸恢復元氣。然而，該公司仍然面臨著競爭激烈的市場環境，需要持續努力以保持領先地位。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c54bef3a",
+        "title": "星巴克在南韓遭遇反彈：因「坦克日」宣傳失誤遭到抗議",
+        "url": "https://www.ft.com/content/bc1aedcc-e917-4a34-8691-905c8f3d3e19",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-22 08:13:05",
+        "summary_zh": "星巴克在南韓遭遇反彈，原因是公司在5月18日推出一項促銷活動，該日是1980年光州事件的周年紀念日。光州事件是韓國民主運動的一個重要里程碑，當時政府軍隊在光州市對抗民眾，造成大量平民傷亡。星巴克的促銷活動被視為對光州事件的不恰當紀念。南韓民眾對星巴克的做法感到不滿，認為公司沒有考慮到這個日期的歷史意義。星巴克的行為被視為對南韓民主運動的不尊重。這個事件引起了南韓社會的廣泛關注，許多人呼籲星巴克道歉並撤回促銷活動。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "55adb655",
+        "title": "肯亞總統否決進一步減稅汽油稅方案　抗議活動持續",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-22/kenyan-president-rules-out-further-fuel-tax-cuts-after-protests",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-22 08:12:44",
+        "summary_zh": "肯亞總統烏胡魯·肯雅塔 (Uhuru Kenyatta) 表示，政府將不會再進行進一步的汽油稅減稅方案。這一決定是由於近期的抗議活動，抗議者認為政府的汽油稅政策對民眾造成了沉重的負擔。肯亞政府早前曾經減稅汽油稅，但這一決定引起了民眾的不滿。烏胡魯總統表示，政府將會繼續努力降低民眾的生活成本，但不會再進行進一步的汽油稅減稅。這一決定可能會對肯亞的經濟產生一定的影響，同時也會對民眾的生活成本產生一定的影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       }
     ],
     "stock_us": [
@@ -954,15 +796,221 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      }
+    ],
+    "whitehouse": [
+      {
+        "id": "b76da35c",
+        "title": "加布拉德宣布辭去美國國家情報總監一職",
+        "url": "https://www.bbc.com/news/articles/cvgj2gkv1x1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 20:30:26 GMT",
+        "summary_zh": "美國前代表議員加布拉德宣布辭去美國國家情報總監一職，據了解，她在近期美國軍事行動期間幾乎不露面，原因是丈夫的健康狀況不佳。加布拉德的離職將對美國國家安全局產生重大影響，未來將如何運作，還需要觀察。這一事件也引發了對美國政府內部人事安排的關注。加布拉德的離職將會給美國國家安全局帶來新的挑戰和機會。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
-        "id": "e1a76331",
-        "title": "盤後大幅波動股票：Workday、Estee Lauder、Zoom、Take-Two等",
-        "url": "https://www.cnbc.com/2026/05/21/stocks-making-the-biggest-moves-after-hours-wday-zm-ttwo.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-21 20:47:33",
-        "summary_zh": "盤後大幅波動股票的清單出爐。Workday、Estee Lauder、Zoom、Take-Two等公司的股價在盤後出現大幅波動，投資者關注這些公司的股價走勢。Workday的股價在盤後上漲了 5.5%，而Estee Lauder的股價則下跌了 4.5%。Zoom的股價在盤後上漲了 3.5%，而Take-Two的股價則下跌了 2.5%。這些公司的股價波動可能與市場情緒、經濟指標或公司財務表現等因素有關。投資者需要密切關注這些公司的股價走勢，以便做出明智的投資決策。",
+        "id": "30ae3ba5",
+        "title": "Waymo暫停五個美國城市的自駕車服務，車輛駛入水浸道路",
+        "url": "https://www.bbc.com/news/articles/ckgplyxxl75o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 16:10:21 GMT",
+        "summary_zh": "Waymo宣布暫停自駕車服務，原因是車輛駛入水浸道路。公司表示，由於安全考量，決定暫停服務，目前正在評估恢復時間。這項措施主要針對五個美國城市的自駕車服務，包括某些水浸路段。Waymo強調，暫停服務是出於對乘客安全的關心。這項消息對於發展自駕車技術的相關企業來說，意味著安全問題仍是關鍵考量。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "05ad8daa",
+        "title": "川普盼華許獨立行事、推動經濟繁榮",
+        "url": "https://money.udn.com/money/story/5599/9520515",
+        "source": "經濟日報",
+        "category": "whitehouse",
+        "published_at": "Sat, 23 May 2026 03:30:22 +0800",
+        "summary_zh": "美國總統川普今天指出，希望新任聯邦準備理事會（Fed）主席華許能夠完全獨立行事，但隨後在宣誓就任儀式上，川普卻對華許的言論表示不滿。華許在就任儀式上表示，將會堅持獨立性，但也會與總統保持密切溝通。川普對此表示不滿，認為華許的言論與他之前的期待不符。這一事件引起了市場的關注，投資者們擔心Fed的政策可能會受到影響。華許的就任對美國經濟的影響仍待觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f7742155",
+        "title": "阿爾伯塔省將舉行獨立公投",
+        "url": "https://www.bbc.com/news/articles/cvgze8n5dxko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 02:40:58 GMT",
+        "summary_zh": "阿爾伯塔省西部的獨立運動已經推動了一項公投，探討阿爾伯塔省是否應該脫離加拿大剩餘地區。阿爾伯塔省的獨立運動已經存在多年，但最近的發展表明該運動正在獲得越來越多的支持。公投的舉行將是加拿大歷史上的一個重要里程碑，可能對加拿大聯邦的未來產生重大影響。阿爾伯塔省的獨立運動主要是由於該省對加拿大聯邦的財政分配不平等感到不滿。阿爾伯塔省的資源豐富，但該省的財政收入卻遠遠低於其他加拿大省份。公投的結果將對阿爾伯塔省和加拿大聯邦的未來產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "15ecb6d3",
+        "title": "法官撤銷對 Kilmar Abrego Garcia 的刑事案件",
+        "url": "https://www.bbc.com/news/articles/cx21r04wg8qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 20:50:15 GMT",
+        "summary_zh": "一名聯邦法官指出，去年被錯誤驅逐出境的馬里蘭州男子 Kilmar Abrego Garcia 正在因政治原因面臨起訴。這名男子在 2022 年被錯誤地認定為非法入境者，並被送回墨西哥。然而，後來發現他是美國公民。法官認為 Kilmar Abrego Garcia 的起訴是政治動機所致，故決定撤銷刑事案件。這一決定可能會對 Kilmar Abrego Garcia 的生活產生重大影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "47a48987",
+        "title": "『蠢材』在高台上 - 川普調查補償基金惹怒共和黨人",
+        "url": "https://www.bbc.com/news/articles/cx21d41p6dzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 18:55:49 GMT",
+        "summary_zh": "川普政府推出一項 1.8 億美元的補償基金，旨在幫助那些在前任總統任內被「不公平」調查的個人。這項基金引起共和黨人的不滿，認為這是一種政治操作。根據目前的規定，補償基金將幫助那些被前任總統調查的個人，包括那些被川普政府認為是「不公平」被調查的。然而，這項基金的成立也引起了民主黨人的質疑，認為這是一種政治操作，旨在幫助川普政府的盟友。這項基金的成立將會對美國政治產生重大影響，展現了川普政府對政治操作的堅定態度。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f59563ee",
+        "title": "誰符合「反軍事化基金」的資格？川普批評者認為可能是這些人",
+        "url": "https://www.bbc.com/news/articles/c1m2j8lnnm5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 19:12:58 GMT",
+        "summary_zh": "美國總統川普的反軍事化基金引起了各界的關注，許多人質疑基金的資格標準是否太寬泛。共和黨和民主黨的政治人物都要求政府提供更多資訊和限制條款，以確保基金的資金安全和有效使用。根據目前的資訊，基金的資格標準似乎很寬泛，讓人們擔心資金可能會流向不受控的目的。政府需要提供更多資訊和限制條款，以確保基金的資金安全和有效使用。這項基金的成立是為了防止武器被濫用，但如果資格標準太寬泛，可能會造成意想不到的後果。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1f9bfb0d",
+        "title": "華許宣誓就任聯準會主席 將領導改革為導向美國央行",
+        "url": "https://money.udn.com/money/story/5599/9520499",
+        "source": "經濟日報",
+        "category": "whitehouse",
+        "published_at": "Sat, 23 May 2026 02:30:21 +0800",
+        "summary_zh": "聯邦準備理事會（Fed）新任主席華許（Kevin Warsh）今天在白宮宣誓就任，他表示將領導一個「改革為導向」的美國央行。華許在就任宣言中強調，將致力於推動央行改革，提高透明度和可控性，促進經濟穩定和可持續發展。他還表示，將與美國政府和其他央行合作，推動全球經濟改革和穩定。華許的就任標誌著聯準會的新一輪領導人，他的政策方向將對美國經濟和全球經濟產生重要影響。華許的就任也引起了市場的關注，投資者將密切關注他的政策決定和行為。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1dd9aa8d",
+        "title": "戰鬥機擊落不明飛行物 UFO 新解密視頻",
+        "url": "https://www.bbc.com/news/videos/cp3p2dkqxd0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 16:50:56 GMT",
+        "summary_zh": "美國政府公佈的視頻並未提供任何外星技術或外星生命的證據。這些視頻是由美國政府釋放的，涉及一架戰鬥機擊落一架不明飛行物。專家表示，這些視頻並未提供任何外星技術或外星生命的證據。這些視頻是由美國政府釋放的，涉及一架戰鬥機擊落一架不明飛行物。這些視頻的釋放是美國政府對 UFO 問題的一個新的發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ada2671f",
+        "title": "美國國家情報總監加巴德辭職 因丈夫罹癌將於6月底卸任",
+        "url": "https://money.udn.com/money/story/5599/9520497",
+        "source": "經濟日報",
+        "category": "whitehouse",
+        "published_at": "Sat, 23 May 2026 02:11:10 +0800",
+        "summary_zh": "美國國家情報總監加巴德（Tulsi Gabbard）宣布辭職，原因是丈夫罹癌。加巴德將於6月30日卸任國家情報總監一職。川普總統在社群網路上證實了加巴德的辭職，表明了對她的支持。這項消息在美國國安界引起了關注，許多人對加巴德的決定表示理解和同情。加巴德的丈夫罹癌，需要加巴德的照顧和支持，讓她決定辭職以照顧家人。這項決定也讓人們思考了國家安全和家人照顧的平衡。加巴德的卸任將於6月底完成，讓人們期待著未來的發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "25a5b4b4",
+        "title": "為什麼英國難以改善？",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-21/why-britain-s-economic-problems-are-so-hard-to-fix-video",
+        "source": "Bloomberg",
+        "category": "whitehouse",
+        "published_at": "2026-05-21 21:24:04",
+        "summary_zh": "英國正面臨著嚴峻的經濟挑戰，首相基爾·史達默（Keir Starmer）可能成為市場的下一個受害者。英國的財政市場對政治領導人的耐受度非常低，任何小小的錯誤都可能導致市場大幅波動。這使得英國的政治領導人難以在財政市場上取得穩定的支持。英國的經濟挑戰包括高通脹、失業率上升和財政赤字等問題。市場對英國的財政政策感到不滿，導致英國的債券收益率大幅上升。這使得英國的經濟面臨著嚴重的挑戰。英國的政治領導人必須找到有效的方法來應對這些挑戰，才能夠穩定財政市場並改善經濟。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "98f3eafe",
+        "title": "川普要求新美聯儲主席完全獨立",
+        "url": "https://www.bbc.com/news/articles/cvgz311dq3ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 18:16:58 GMT",
+        "summary_zh": "美國總統川普對前美聯儲主席的繼任者施加了巨大的壓力，要求降低利率。川普一直在推動降低利率的政策，希望能夠刺激美國經濟的增長。然而，這也引起了市場的擔憂，因為過度降低利率可能會導致通貨膨脹和金融風險的增加。市場觀察人士認為，川普的要求可能會對美聯儲的政策產生重大影響，甚至可能會導致美聯儲的獨立性受到損害。這一事件的影響將是美國經濟政策的重大轉折點，市場將密切關注美聯儲的下一步行動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "81439b35",
+        "title": "美國海軍參謀長稱因伊朗戰爭暫停向台北出售 140 億美元軍備",
+        "url": "https://www.bbc.com/news/articles/c232z4yk437o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 08:12:47 GMT",
+        "summary_zh": "美國海軍參謀長 Hung Cao 在參議院聽證會上表示，美國正在暫停向台北出售 140 億美元的軍備，以確保有足夠的彈藥供應給伊朗戰爭。這項交易曾引起伊朗的關注，美國政府決定暫停交易以避免加劇伊朗對台北的壓力。這一決定可能會對台北的國防能力產生影響，同時也會對美國與伊朗的關係產生影響。美國政府的決定可能會被視為對伊朗的姿態，同時也會被視為對台北的支持。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d1ba5cb3",
+        "title": "為什麼千萬筆與特朗普有關的股票交易引起了關注",
+        "url": "https://www.bbc.com/news/videos/cd6pzg7z319o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 10:45:38 GMT",
+        "summary_zh": "特朗普總統的財務披露文件顯示，他與數千筆股票交易有關。根據披露文件，特朗普在 2020 年和 2021 年進行了大量股票交易，其中包括買賣美國最大銀行之一的摩根大通股票。這些交易引起了關注，因為它們涉及到特朗普在政府任職期間進行的交易。分析人士表示，這些交易可能違反了政府內部交易規則。特朗普的財務披露文件還顯示，他在 2020 年和 2021 年購買了大量的蘋果股票。這些交易引起了關注，因為它們涉及到特朗普在政府任職期間進行的交易。分析人士表示，這些交易可能違反了政府內部交易規則。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4656253a",
+        "title": "美國政府與瑞典政府關於科技繁榮協議的諒解備忘錄",
+        "url": "https://www.whitehouse.gov/releases/2026/05/technology-prosperity-deal-between-the-united-states-and-sweden/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 17:09:20 +0000",
+        "summary_zh": "美國政府與瑞典政府簽署了科技繁榮協議諒解備忘錄，表達雙方對科學和技術能力和標準的共同興趣，期望通過這種合作推動新一代的創新，為未來的自由和繁榮奠定基礎。這項協議強調了雙邊科學和技術合作的重要性，將有助於增進兩國之間的關係和共同利益。美國總統和瑞典政府官員表示，該協議將促進兩國在科學和技術領域的合作和交流，為雙方帶來新的機會和發展潛力。這項協議的簽署標誌著美國和瑞典在科技領域的合作關係進一步加深和加強。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6162738f",
+        "title": "川普再次威脅對古巴採取軍事行動， Rubio 表示不相信與古巴的外交談判",
+        "url": "https://www.theguardian.com/us-news/2026/may/22/marco-rubio-doubtful-diplomacy-cuba-trump-renews-threat-military-action",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 09:29:02 GMT",
+        "summary_zh": "美國總統川普再次表明願意採取軍事行動對付古巴，美國國務卿馬可·魯比奧表示川普總統願意與古巴進行外交談判，但成功的機會「不高」。這一表態出現於川普政府宣布對古巴前領導人拉烏爾·卡斯特羅提出刑事指控之後的第二天。川普總統表示，美國前總統多次考慮干預古巴，但「看起來我將是第一個實現這一點的人」。川普政府的這一表態加重了對古巴的軍事干預的威脅，古巴前領導人拉烏爾·卡斯特羅的刑事指控也使得局勢更加緊張。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f14bcfcd",
+        "title": "川普延後發布人工智慧行政令 因為中國關切 – 美國政治直播",
+        "url": "https://www.theguardian.com/us-news/live/2026/may/22/donald-trump-ai-china-iran-war-powers-hormuz-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 20:54:08 GMT",
+        "summary_zh": "美國總統川普表示，他不想阻礙科技公司與中國競爭。近日，千百名古巴人聚集在哈瓦那美國大使館前，抗議美國對前領導人拉烏爾·卡斯特羅的起訴。美國共和黨議員取消了對伊朗戰爭權限的投票，該投票可能會讓美國與伊朗的戰爭結束。川普宣布將部署另外 5,000 名美軍到波蘭，僅僅是在美軍暫停長期規劃的部署到波蘭後不久。北約秘書長馬克·魯特表示，北約的路線是優先強化歐洲，「不再依賴美國」。川普表示，他可能會錯過兒子唐納德·川普·青年在巴哈馬的婚禮，理由是他有「這個叫伊朗的東西」。美國對台軍售暫停，以確保美軍有足夠的彈藥進行伊朗行動。川普和國務卿馬可·魯比奧再次提起對古巴的軍事干預，昨天他們就這個話題進行了辯論。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9889415d",
+        "title": "芝加哥抗議者全部控罪被撤銷，美國檢方面臨紀律處分風險",
+        "url": "https://www.theguardian.com/us-news/2026/may/22/chicago-ice-protesters-charges-dropped-broadview-six",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 13:19:43 GMT",
+        "summary_zh": "美國檢方決定撤銷對四名在芝加哥郊區一間移民拘留中心抗議的男子的所有刑事控罪。這是對川普政府的最新一宗案件被揭露。檢方人員在呈交前述抗議者案件的陪審團記錄時，進行了刪除，可能觸犯紀律。美國檢方官員安德魯·布托斯（Andrew Boutros）週四宣布撤銷控罪，並表示檢方人員在三周前已經知道這一情況。布托斯向美國地區法院法官艾普里爾·佩里（April Perry）作出這一聲明。這一事件可能對美國檢方造成嚴重影響，特別是在川普政府的移民政策面臨著廣泛批評時。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
