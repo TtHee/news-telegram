@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-22T13:04:07.111797+08:00",
+  "generated_at": "2026-05-22T14:04:13.739124+08:00",
   "risk_signals": [
-    "🟢 台股加權 42228.07（正常）",
+    "🟢 台股加權 42267.97（正常）",
     "🟢 S&P 500 7445.72（正常）",
     "🟢 VIX 恐慌指數 16.76（正常）",
     "🟢 MOVE 債市波動 79.72（正常）",
     "🟢 美元指數 99.22（正常）",
-    "🟢 黃金 4530.3（正常）",
+    "🟢 黃金 4531.5（正常）",
     "🟡 美債10Y殖利率 4.59（留意）",
-    "🟢 原油 WTI 97.33（正常）",
-    "🟢 美元/台幣 31.52（正常）"
+    "🟢 原油 WTI 97.95（正常）",
+    "🟢 美元/台幣 31.51（正常）"
   ],
-  "ai_summary": "市場指標表現穩定，短期風險偏好正常，但需要關注美債10年殖利率略微上升，可能預示著市場對經濟成長的擔憂。",
+  "ai_summary": "市場指標顯示整體趨於穩定，缺乏明顯的恐慌跡象，但美債10年殖利率持續上升，值得關注。",
   "market": {
     "TWII": {
-      "price": 42228.07,
-      "change_pct": 2.08
+      "price": 42267.97,
+      "change_pct": 2.17
     },
     "SP500": {
       "price": 7445.72,
@@ -42,33 +42,299 @@
       "change_pct": 0.03
     },
     "GOLD": {
-      "price": 4530.3,
-      "change_pct": -0.21
+      "price": 4531.5,
+      "change_pct": -0.18
     },
     "OIL": {
-      "price": 97.33,
-      "change_pct": 1.02
+      "price": 97.95,
+      "change_pct": 1.66
     },
     "USDTWD": {
-      "price": 31.52,
-      "change_pct": -0.24
+      "price": 31.51,
+      "change_pct": -0.25
     }
   },
   "macro": {},
   "categories": {
-    "global": [
+    "whitehouse": [
       {
-        "id": "2746db35",
-        "title": "古巴對美國構成國家安全威脅，魯比奧表示",
-        "url": "https://www.bbc.com/news/articles/ckgpzwkn5jko?at_medium=RSS&at_campaign=rss",
+        "id": "c10fe802",
+        "title": "白宮發布白皮書：川普政府終止拜登政府制冷劑規範",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/05/fact-sheet-president-donald-j-trump-reverses-biden-era-refrigerant-rules/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 21 May 2026 15:54:38 +0000",
+        "summary_zh": "美國總統川普宣布終止拜登政府制定的一系列制冷劑規範，該規範對冰箱和空調產生了嚴重影響。這些規範不僅增加了制冷劑的成本，也使得運輸和儲存冷凍貨物的成本大幅增加，從而使得食物和其他商品的價格上漲。這一決定被視為對美國家庭的幫助，同時也降低了生活成本。這一行動被認為是對拜登政府的反制，川普政府試圖減少對美國家庭的負擔。這一決定將對美國的冷鏈業界產生重大影響，可能會導致制冷劑的需求增加，從而影響到全球的制冷劑市場。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "dc5670cb",
+        "title": "共和黨僵局：川普大廳資金爭議、武器化基金",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-21/gop-stalemates-on-trump-ballroom-funding-weaponization-fund",
+        "source": "Bloomberg",
+        "category": "whitehouse",
+        "published_at": "2026-05-21 17:43:38",
+        "summary_zh": "美國共和黨人士對於川普大廳的資金爭議和武器化基金的議題陷入僵局。根據最新的消息，共和黨人士仍然無法就這些議題達成共識。川普大廳的資金爭議是由於共和黨人士對於如何分配資金的不同意見所導致的，而武器化基金的議題則是由於共和黨人士對於如何處理這些基金的不同意見所導致的。這些議題的僵局可能會對美國政治產生重大影響。分析人士認為，這些議題的僵局可能會導致美國政治的不穩定和不確定性。共和黨人士仍然在努力就這些議題達成共識，但目前尚未取得進展。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "f7742155",
+        "title": "阿爾伯塔省將舉行獨立公投",
+        "url": "https://www.bbc.com/news/articles/cvgze8n5dxko?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
-        "category": "global",
-        "published_at": "Fri, 22 May 2026 00:10:44 GMT",
-        "summary_zh": "古巴外長批評魯比奧試圖「煽動軍事侵略」。這是古巴外長對於美國參議員馬可·魯比奧 (Marco Rubio) 的回應。魯比奧在一場聽證會上表示，古巴對美國構成國家安全威脅。古巴外長認為魯比奧的言論是試圖破壞古巴與美國的關係。古巴外長的回應表明兩國之間的緊張關係仍在持續。這種緊張關係可能會對兩國的外交關係產生不利影響。",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 02:40:58 GMT",
+        "summary_zh": "阿爾伯塔省西部的獨立運動已經推動了一項公投，探討阿爾伯塔省是否應該脫離加拿大剩餘地區。阿爾伯塔省的獨立運動已經存在多年，但最近的發展表明該運動正在獲得越來越多的支持。公投的舉行將是加拿大歷史上的一個重要里程碑，可能對加拿大聯邦的未來產生重大影響。阿爾伯塔省的獨立運動主要是由於該省對加拿大聯邦的財政分配不平等感到不滿。阿爾伯塔省的資源豐富，但該省的財政收入卻遠遠低於其他加拿大省份。公投的結果將對阿爾伯塔省和加拿大聯邦的未來產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1d7a7ae7",
+        "title": "田納西州執行死刑被叫停",
+        "url": "https://www.bbc.com/news/articles/c93xj503kg9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 21 May 2026 22:45:20 GMT",
+        "summary_zh": "田納西州一名囚犯Tony Carruthers因為執行死刑的毒劑注射失敗，被判定暫時停止執行死刑，暫緩一年。根據最新消息，執行死刑的官員們在注射毒劑時無法找到Tony Carruthers的靜脈，導致執行死刑的程序被迫暫停。這一事件引起了廣泛的關注和爭議，許多人質疑田納西州的死刑制度是否合理和公平。田納西州政府尚未對此事件發表正式聲明，但預計將在未來的一年內重新審視Tony Carruthers的案件。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2bf4dc09",
+        "title": "共和黨人有可能放棄1億美元的方案，為川普的舞廳提供資金 – 美國政治直播",
+        "url": "https://www.theguardian.com/us-news/live/2026/may/21/donald-trump-ballroom-reconciliation-bill-republicans-democrats-war-powers-iran-epa-ai-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 02:00:51 GMT",
+        "summary_zh": "共和黨參議員對於秘密服務的提議，加入國土安全部門法案的時機和細節表示質疑。除了前古巴領導人拉烏爾·卡斯特羅被起訴外，美國國務卿馬可·魯比奧在西班牙語中向古巴人民發表了直接視訊演講。魯比奧表示，古巴人民沒有電力、燃料和食物的真正原因是，因為控制古巴的那些人掠奪了數十億美元，但這些資金並沒有用於幫助人民。這些發言在政治圈引起了關注，共和黨參議員對於秘密服務的提議表示質疑，是否該在國土安全部門法案中增加資金。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "534804c3",
+        "title": "川普支持實境劇星在洛杉磯市長選舉，可能是一顆毒藥",
+        "url": "https://www.theguardian.com/us-news/2026/may/21/spencer-pratt-los-angeles-mayor-trump",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 01:10:51 GMT",
+        "summary_zh": "川普總統在洛杉磯市長選舉前幾周的評論，將對民主黨有所幫助。川普總統對實境劇星史派瑞（Spencer Pratt）表示讚賞，他是洛杉磯市長選舉中的第二名候選人。川普總統稱史派瑞是一名「大粉紅人」（Maga 人），但這可能會使史派瑞在深藍色城市的選舉中遇到困難。川普總統的支持通常對候選人有所幫助，但在這次選舉中，可能會成為一顆毒藥。洛杉磯市長選舉的結果將在未來幾周內揭曉。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
+      {
+        "id": "e214abde",
+        "title": "美國共和黨議員取消對伊朗戰爭權限決議投票",
+        "url": "https://www.theguardian.com/us-news/2026/may/21/republicans-cancel-vote-war-powers-iran",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 00:34:59 GMT",
+        "summary_zh": "美國共和黨議員取消對伊朗戰爭權限決議投票，避免了對特朗普的政治尷尬。這是美國國會對伊朗戰爭的支持逐漸減少的最新跡象。美國共和黨議員原本計畫在週四舉行投票，通過決議終止美國對伊朗的戰爭，但最終決定取消投票。這一決定避免了對特朗普的政治尷尬，同時也表明國會對伊朗戰爭的支持正在減少。這一發展對美國對伊朗的戰爭政策產生了重要影響，可能會導致美國政府的戰爭策略變化。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1d94a16b",
+        "title": "美國檢方指控明尼蘇達州15人涉嫌90億美元醫療詐騙案",
+        "url": "https://www.theguardian.com/us-news/2026/may/21/minnesota-healthcare-fraud",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 21 May 2026 21:00:56 GMT",
+        "summary_zh": "美國檢方指控明尼蘇達州15人涉嫌詐騙政府醫療計劃90億美元。美國檢方助理總檢察長柯林麥克唐納在明尼蘇達州的新聞發布會上表示，該州的服務受到了「令人震驚」的詐騙水平，稱之為「危機」。這是川普政府對明尼蘇達州社會服務的詐騙問題的最新行動。根據檢方的調查，15人涉嫌詐騙政府醫療計劃，造成了重大財務損失。這項行動表明川普政府對詐騙問題的嚴厲態度。明尼蘇達州民主黨州長提姆沃茲對此表示關注，並承諾會繼續努力防止詐騙。這項行動將對明尼蘇達州的社會服務產生重大影響，並可能引起更多的檢查和調查。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f9d708ce",
+        "title": "川普承諾會「試著參與」兒子婚禮，但時間不適合他出席",
+        "url": "https://www.theguardian.com/us-news/2026/may/21/trump-son-wedding-invite",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 21 May 2026 20:22:33 GMT",
+        "summary_zh": "美國總統川普承諾會參與兒子唐納德·川普三世的婚禮，但表示時間不適合他出席。川普在星期四表示，他有「伊朗這種事情」和其他事情要處理，可能無法參加兒子的婚禮。唐納德·川普三世的婚禮預計在美軍紀念日週末在巴哈馬舉行。川普的表態引起了關注，是否他會缺席兒子的婚禮。川普的行程表已經很繁忙，包括處理伊朗問題和其他國家事務。這使得他是否能夠參加兒子的婚禮成為一個疑問。川普的決定可能會對他的家庭和政治形象產生影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2d3dcbe8",
+        "title": "民主黨2024年選舉自我檢視報告：花費、媒體策略和組織失誤的真相",
+        "url": "https://www.theguardian.com/us-news/2026/may/21/democrats-2024-election-autopsy-report-key-takeaways",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 21 May 2026 19:51:33 GMT",
+        "summary_zh": "民主黨近200頁的自我檢視報告披露了2024年選舉失敗的原因，包括花費失誤、媒體策略失誤和組織失誤等。報告指出，民主黨在近20年來在各級政府中都失去了地位。報告的出現引發了對民主黨未來發展的關注。民主黨在2024年選舉中失敗的原因包括花費失誤、媒體策略失誤和組織失誤等。報告指出，民主黨在選舉中花費過多，卻沒有取得相應的成果。同時，民主黨的媒體策略也被指出存在問題，未能有效地傳達黨的訊息。組織失誤也是民主黨選舉失敗的重要原因，報告指出，民主黨的組織能力不足，未能有效地組織支持者和資源。這些失誤導致民主黨在2024年選舉中失敗，失去白宮和各級政府的控制權。報告的出現將對民主黨未來發展產生重大影響，黨內將會進行改革和重建以求在未來選舉中取得勝利。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "979b9e57",
+        "title": "田納西州長暫停執行死刑，官員無法找到靜脈",
+        "url": "https://www.theguardian.com/us-news/2026/may/21/tennessee-execution-tony-carruthers",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 21 May 2026 19:49:28 GMT",
+        "summary_zh": "田納西州長比爾·李 (Bill Lee) 對 57 歲的托尼·卡魯瑟斯 (Tony Carruthers) 頒布了一年暫停執行死刑令。卡魯瑟斯被判死刑，因為他被認為犯下了 1994 年在田納西州孟菲斯市殺害三人的罪行，包括 21 歲的馬塞洛斯·安德森 (Marcellos Anderson)、43 歲的德洛伊斯·安德森 (Delois Anderson) 母親和 17 歲的弗雷德里克·圖克 (Frederick Tucker)。卡魯瑟斯的律師表示，沒有任何證據能夠證明他犯下了這些罪行，而且他精神狀況不穩定。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9bb497bd",
+        "title": "2026年大西洋颶風季預測將較正常年份溫和",
+        "url": "https://www.theguardian.com/us-news/2026/may/21/hurricane-season-2026-noaa",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 21 May 2026 19:40:38 GMT",
+        "summary_zh": "美國聯邦政府科學家於週四宣布，2026年大西洋颶風季預計將較正常年份溫和，預計將有8到14個風速超過63公里/小時的颶風。這個預測是由於中南美洲出現的El Niño天氣模式。這個預測出現於美國政府對颶風的準備工作仍未完成之時，美國政府在川普政府時期曾經進行人手減少。預計颶風季將於6月1日開始，持續至11月30日。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "df6b91f9",
+        "title": "卡斯達批評美國司法部「反濫權」基金：我該不該領補償？",
+        "url": "https://thehill.com/media/5890632-acosta-doj-anti-weaponization-fund/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 02:27:27 +0000",
+        "summary_zh": "前CNN白宮記者卡斯達（Jim Acosta）週四質疑美國司法部「反濫權」基金是否應該給予他補償。他在社交媒體上寫道，川普總統在2018年就曾經奪走他的白宮記者證，違反了他的第一和第五修正案權利，這是政府長期努力摧毀他的職業生涯的一部分。卡斯達在2018年被川普總統的記者證被撤銷後，曾經提起訴訟，最後獲得了勝訴。卡斯達認為，這項補償是他應該得到的，因為他遭受了政府的濫權。這項補償將來自於司法部的「反濫權」基金，這項基金是為了幫助那些遭受政府濫權的人士。卡斯達的言論引發了對政府濫權和新聞自由的討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4dc23559",
+        "title": "川普譴責南卡羅來納州AG候選人：你是個完全的騙子！",
+        "url": "https://thehill.com/homenews/campaign/5890652-sc-gop-ag-primary-trump-pascoe/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 02:07:29 +0000",
+        "summary_zh": "川普總統在南卡羅來納州共和黨人士面前，呼籲他們在即將到來的黨內初選中不要支持州檢察長候選人戴維·帕斯科。川普稱帕斯科是一個「完全的騙子」，因為他在去年改黨，從民主黨轉到共和黨。川普還批評帕斯科在過去曾支持拜登，並將他描述為一名「共和黨內的民主黨人」。川普的譴責是針對帕斯科在去年改黨的決定，川普認為這是帕斯科試圖利用共和黨的名義來進入政治圈。川普的呼籲可能會對帕斯科的競選造成影響，特別是在南卡羅來納州共和黨人士中。川普的譴責也可能會加深南卡羅來納州共和黨人士對帕斯科的不信任感。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f27b9047",
+        "title": "川普總統讚揚立法案將日光節約時間永久化",
+        "url": "https://thehill.com/homenews/administration/5890568-trump-praises-daylight-saving-bill/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 01:21:50 +0000",
+        "summary_zh": "川普總統在週四表揚美國眾議院能源委員會通過一項立法案，將日光節約時間永久化。該委員會以 48:1 的投票結果通過了《陽光保護法案》，該法案由佛羅里達州共和黨參議員里克·史考特和眾議員文·布坎南提出，該法案包含在更大的交通基建方案中。該法案的通過意味著美國將不再需要每年更改時間，讓美國人可以享受永久的夏令時間。這項立法案的通過受到美國總統川普的讚揚，他認為這將對美國經濟和生活方式產生積極影響。然而，這項立法案的未來發展仍存疑問，需要等待美國國會的通過。該法案的通過也引發了對美國時間制度的討論，許多人認為這將對美國人的生活方式產生重大影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "073640e1",
+        "title": "共和黨議員對參議院推遲移民經費案表達不滿",
+        "url": "https://thehill.com/homenews/house/5890546-immigration-reconciliation-bill-delay-frustration/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 00:01:36 +0000",
+        "summary_zh": "美國共和黨議員對參議院推遲移民經費案的投票感到不滿，參議院將移民經費案的投票推遲到下個月，違反了特朗普總統自我設定的6月1日截止日期。共和黨人希望通過這個案子不需要民主黨的投票，但參議院的決定卻讓這個計畫無法如期完成。這項移民經費案的推遲將對美國的移民政策產生重大影響，共和黨人認為這是參議院對總統的不尊重。這項案子的推遲將使得移民政策的未來變得更加不確定。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2296208f",
+        "title": "美國民主黨第一位要求黨主席馬丁辭職的國會議員出爐",
+        "url": "https://thehill.com/homenews/campaign/5890506-rep-veasey-calls-dnc-chair-ken-martin-resignation/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Thu, 21 May 2026 23:29:17 +0000",
+        "summary_zh": "美國民主黨國會議員馬克·韋塞 (Marc Veasey) 表示，他認為民主黨全國委員會 (DNC) 主席肯·馬丁 (Ken Martin) 應該「走人」。這是因為黨內對於 2024 年選舉失利的自我檢視報告遭到批評。馬克·韋塞說，「似乎沒有計畫來改善局面，時間正在流逝」。這位國會議員的表態是對黨內領導的批評。民主黨在 2024 年選舉中失利的原因尚未明確，但黨內領導人正在努力找出原因並制定改善計畫。馬丁的領導是否會受到影響，尚待觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8b891f6d",
+        "title": "我們堅韌：在聖地牙哥清真寺槍擊事件後，穆斯林社區拒絕被嚇倒",
+        "url": "https://www.bbc.com/news/articles/clypx2pr52qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 22 May 2026 01:49:43 GMT",
+        "summary_zh": "聖地牙哥清真寺槍擊事件造成三人喪生，當地穆斯林社區舉行了為三名遇難者進行的葬禮祈禱，數千人參與。這次槍擊事件讓聖地牙哥的穆斯林社區受到重創，但社區成員堅持不被嚇倒。這次槍擊事件的影響不僅限於當地，還引起了全球穆斯林社區的關注。美國總統和其他政府官員也對此事件表示了關注和支持。這次槍擊事件的後續展望尚不清楚，但聖地牙哥的穆斯林社區已經開始了復原和團結的工作。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "fc983fe7",
+        "title": "古巴裔美國人對拉爾·卡斯特羅起訴的看法",
+        "url": "https://www.bbc.com/news/videos/cy92ge22298o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 21 May 2026 20:52:52 GMT",
+        "summary_zh": "美國司法部對古巴前領導人拉爾·卡斯特羅提起指控，指控他涉及1996年兩架民用飛機墜毀的案件。這起指控涉及謀殺和其他罪行。古巴裔美國人對此事件的反應各異，有些人認為這是對卡斯特羅的正義，有些人則認為這是政治操弄。這起指控可能會對古巴與美國的關係產生影響。美國政府的行動可能會受到各方的批評和支持。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c2fdeef7",
+        "title": "美國航班因誤登乘客從埃博拉疫區飛往加拿大",
+        "url": "https://www.bbc.com/news/articles/c0m2k79mv2ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 21 May 2026 22:28:39 GMT",
+        "summary_zh": "一架美國航班因誤登乘客從埃博拉疫區飛往加拿大。該乘客來自剛果民主共和國，當局尚未確認該乘客是否出現埃博拉病毒症狀。這起事件發生在美國航班準備飛往美國時，機組人員發現該乘客誤登機上。為了確保乘客和機組人員的安全，機組人員決定將航班改道飛往加拿大進行檢查。加拿大當局已經接管該乘客，並正在進行檢查。美國和加拿大當局正在合作處理這起事件。這起事件提醒了我們對埃博拉疫區乘客的安全檢查的重要性。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "219ef086",
+        "title": "六歲男孩向教師開槍案官員罪名被撤銷",
+        "url": "https://www.bbc.com/news/articles/cy82y34y101o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 21 May 2026 16:20:36 GMT",
+        "summary_zh": "一名六歲男孩在 2023 年向一名教師開槍，教師在事件中須接受手術。近期，該事件相關的官員罪名被撤銷。這一事件發生在一所學校內，教師在受傷後仍能夠康復。事件的背景是該男孩的行為被視為兒童行為失常，相關的法律和社會問題引起了廣泛的關注。官員罪名被撤銷後，社會上對兒童行為失常和教育系統的責任問題引起了新的爭議。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e1a3fe55",
+        "title": "唐納德·川普·小兒前妻范妮莎·川普診斷出乳腺癌",
+        "url": "https://www.bbc.com/news/articles/c93xve8w4yyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 21 May 2026 16:52:20 GMT",
+        "summary_zh": "范妮莎·川普宣布自己接受了醫療程序，並要求公眾給予她隱私，讓她能夠專心於健康。根據了解，范妮莎·川普是唐納德·川普·小兒的前妻，兩人曾在2018年離婚。范妮莎·川普在離婚後仍然與唐納德·川普·小兒的孩子們保持良好關係。范妮莎·川普的健康狀況目前尚未公布詳細內容，唐納德·川普·小兒也沒有對此做出任何回應。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4cb0392a",
+        "title": "川普 IRS 和解可能阻止他、家人和企業的稅務稽查",
+        "url": "https://www.bbc.com/news/articles/cn0pk2e22jro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 21 May 2026 22:31:00 GMT",
+        "summary_zh": "美國總統川普與美國稅務局 (IRS) 農曆前年達成和解協議，涉及他、家人和企業的稅務稽查。然而，有些立法者和法律專家認為，美國稅務局違反了聯邦法律，將這個和解協議的附件作為阻止稅務稽查的理由。這些法律專家指出，這個和解協議的附件可能違反了稅務法規，讓川普及其家人和企業免於受稅務稽查的影響。這引發了對川普和他的家族企業是否違反稅法的爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "global": [
       {
         "id": "003ae3b5",
         "title": "「不行，行」：格陵蘭人抗議川普在新美領館外",
@@ -77,18 +343,6 @@
         "category": "global",
         "published_at": "Fri, 22 May 2026 01:37:02 GMT",
         "summary_zh": "格陵蘭島近日新落成一座美領館，但這項建設卻引發了格陵蘭人強烈的抗議。根據外媒報導，格陵蘭人抗議川普政府試圖擴大對該島的控制權。格陵蘭島是北極圈內一個獨立的自治領土，擁有豐富的自然資源。然而，美國政府近年來一直試圖在該島設立軍事基地和進行石油勘探。格陵蘭人認為，這些行動會對該島的環境和文化造成嚴重的傷害。抗議活動中，格陵蘭人高舉標語，表達對川普政府的不滿。這項抗議活動是格陵蘭人對美國政府的控制權擴大的一種表達。格陵蘭島的自治領土地位已經存在了數十年，但美國政府的行動卻引發了格陵蘭人對未來的擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b9fa4252",
-        "title": "三種可能的發展：美國對卡斯特羅的起訴可能如何影響古巴危機",
-        "url": "https://www.bbc.com/news/articles/ckgplwg3xk3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 21 May 2026 18:40:12 GMT",
-        "summary_zh": "古巴危機近日再度升級，美國政府對卡斯特羅進行起訴。這一行動是川普政府對古巴共產政府施壓的一部分，古巴政府一直面臨著嚴重的經濟困難。目前，古巴正面臨著嚴重的糧食短缺和醫療資源不足等問題。美國對卡斯特羅的起訴可能會使古巴政府更加孤立，進一步加劇經濟困難。另一方面，古巴政府也可能會採取更加激進的措施來應對美國的壓力。這可能包括與其他國家建立更密切的關係，或者採取更多的軍事行動。最終，古巴危機的發展取決於古巴政府的回應和美國政府的下一步行動。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -135,11 +389,11 @@
         "url": "https://www.bbc.com/news/articles/c202z3yz9p5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Fri, 22 May 2026 04:48:58 GMT",
+        "published_at": "Fri, 22 May 2026 05:59:24 GMT",
         "summary_zh": "一名53歲的澳洲男子在前往秘魯著名景點馬丘比丘的遠足途中不幸墜崖身亡。事發地點位於秘魯境內，男子墜落約300米深的峽谷內。該男子的遺體於週四被發現，當地警方正在調查事件。遠足活動是秘魯的常見旅遊活動，但也存在一定的風險。這起事件提醒了遠足愛好者們在進行高風險活動時需要謹慎小心。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "92c7380a",
@@ -238,14 +492,14 @@
         "ai_classified": true
       },
       {
-        "id": "fd6795b6",
-        "title": "日本4月核心通膨降至1.4% 日府擬增預算抑能源價",
-        "url": "https://www.cna.com.tw/news/aopl/202605220037.aspx",
-        "source": "中央社財經",
+        "id": "2746db35",
+        "title": "古巴對美國構成國家安全威脅，魯比奧表示",
+        "url": "https://www.bbc.com/news/articles/ckgpzwkn5jko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Fri, 22 May 2026 09:52:08 +0800",
-        "summary_zh": "日本4月核心消費者物價（Core CPI）年增率降至1.4%，首相高市早苗正考慮採取進一步措施，以減低中東戰爭帶來的成本壓力。根據官方數據，日本4月核心消費者物價的降幅，讓日方擔心通膨將會持續下降，進而影響經濟成長。為了應對這種情況，日本政府正準備增強預算，以幫助企業和家庭承受能源價格的上升。這項措施將會針對能源價格的上升，提供補助金或減免，以幫助企業和家庭度過難關。這項政策的目標是，通過控制能源價格的上升，來幫助日本經濟在中東戰爭的影響下，保持穩定。",
-        "sentiment": "中性",
+        "published_at": "Fri, 22 May 2026 00:10:44 GMT",
+        "summary_zh": "古巴外長批評魯比奧試圖「煽動軍事侵略」。這是古巴外長對於美國參議員馬可·魯比奧 (Marco Rubio) 的回應。魯比奧在一場聽證會上表示，古巴對美國構成國家安全威脅。古巴外長認為魯比奧的言論是試圖破壞古巴與美國的關係。古巴外長的回應表明兩國之間的緊張關係仍在持續。這種緊張關係可能會對兩國的外交關係產生不利影響。",
+        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
@@ -257,6 +511,18 @@
         "category": "global",
         "published_at": "Thu, 21 May 2026 16:15:51 GMT",
         "summary_zh": "古巴近日出現了緊張的氣氛，尤其是在對古巴高級官員和軍方高層的鄰居們。美國對古巴前總統拉爾卡斯特羅提起刑事指控後，古巴人開始問一個問題：你住在哪裡？如果你居住在古巴政府或軍方高層的鄰近地區，其他人會對你表示同情和關心。美國對古巴的軍事攻擊的風險日漸升高，成為一個嚴肅的可能性。這種局勢下，古巴人感到不安和恐懼。古巴政府和軍方的高層人物的住所都被密切關注，美國的行動可能會對古巴造成重大影響。這種局勢下的古巴人感到無所適從，對未來的前景感到茫然。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b9fa4252",
+        "title": "三種可能的發展：美國對卡斯特羅的起訴可能如何影響古巴危機",
+        "url": "https://www.bbc.com/news/articles/ckgplwg3xk3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 21 May 2026 18:40:12 GMT",
+        "summary_zh": "古巴危機近日再度升級，美國政府對卡斯特羅進行起訴。這一行動是川普政府對古巴共產政府施壓的一部分，古巴政府一直面臨著嚴重的經濟困難。目前，古巴正面臨著嚴重的糧食短缺和醫療資源不足等問題。美國對卡斯特羅的起訴可能會使古巴政府更加孤立，進一步加劇經濟困難。另一方面，古巴政府也可能會採取更加激進的措施來應對美國的壓力。這可能包括與其他國家建立更密切的關係，或者採取更多的軍事行動。最終，古巴危機的發展取決於古巴政府的回應和美國政府的下一步行動。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -281,18 +547,6 @@
         "category": "global",
         "published_at": "Thu, 21 May 2026 10:41:10 GMT",
         "summary_zh": "哥倫比亞是全球氣候行動的領導者，但美國的影響力可能會將該國拖向採礦和 fracking 的未來。哥倫比亞的環境活動家們在一片寂靜的加勒比海邊區域聚集在一起，聽聽世界上最受尊敬的社會環境運動家 Susana Muhamad 的演講。這是哥倫比亞歷史上的一個重要時刻。哥倫比亞政府正在努力應對氣候變化的挑戰，但美國的川普主義可能會對該國的氣候政策產生重大影響。哥倫比亞的選民正在努力決定該國的未來，選擇是否應該繼續推動氣候行動或轉向採礦和 fracking 的路線。這是一個關鍵的時刻，哥倫比亞的選民將決定該國的氣候政策將如何發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5c5cdc76",
-        "title": "2026 年颶風季預測：下降的颶風數量，但仍需小心",
-        "url": "https://www.bbc.com/weather/articles/cg5pg9prp3go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 21 May 2026 17:08:07 GMT",
-        "summary_zh": "美國氣象預報中心預測2026 年颶風季將產生較正常年份少的颶風，但警告指出，只要有颶風就會造成嚴重的災害。預測結果顯示，2026 年的颶風季將比正常年份少，但仍需小心，因為只要有一個颶風就會造成嚴重的災害。氣象預報中心強調，雖然預測結果表明2026 年的颶風季將較正常年份少，但仍需小心，因為颶風的風速和降雨量都會對沿海地區造成嚴重的影響。預測結果顯示，2026 年的颶風季將產生 9 到 15 個颶風，其中 4 到 8 個將達到颶風強度。氣象預報中心還預測，2026 年的颶風季將有 2 到 4 個大型颶風，其中 1 到 2 個將達到超級颶風強度。預測結果顯示，2026 年的颶風季將對沿海地區造成嚴重的影響，因此氣象預報中心強調，需要小心和準備好應對颶風的風險。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -334,18 +588,6 @@
         "ai_classified": true
       },
       {
-        "id": "ceec5c83",
-        "title": "雷射毛髮除去器引發墨爾本機場炸彈恐慌",
-        "url": "https://www.bbc.com/news/articles/c9q3p50d14jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 21 May 2026 05:36:41 GMT",
-        "summary_zh": "墨爾本阿瓦隆機場的國內航站樓於週四被迫關閉數小時，原因是發現了一個可疑物品。根據消息，該物品是雷射毛髮除去器，引發了炸彈恐慌。警方在調查後證實該物品並非真炸彈，機場航站樓已經恢復正常運作。這起事件讓旅客感到驚訝和擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "a613de78",
         "title": "埃隆·馬斯克的X遭澳洲罰款",
         "url": "https://www.bbc.com/news/articles/c626njg32n5o?at_medium=RSS&at_campaign=rss",
@@ -368,81 +610,21 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "5c5cdc76",
+        "title": "2026 年颶風季預測：下降的颶風數量，但仍需小心",
+        "url": "https://www.bbc.com/weather/articles/cg5pg9prp3go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 21 May 2026 17:08:07 GMT",
+        "summary_zh": "美國氣象預報中心預測2026 年颶風季將產生較正常年份少的颶風，但警告指出，只要有颶風就會造成嚴重的災害。預測結果顯示，2026 年的颶風季將比正常年份少，但仍需小心，因為只要有一個颶風就會造成嚴重的災害。氣象預報中心強調，雖然預測結果表明2026 年的颶風季將較正常年份少，但仍需小心，因為颶風的風速和降雨量都會對沿海地區造成嚴重的影響。預測結果顯示，2026 年的颶風季將產生 9 到 15 個颶風，其中 4 到 8 個將達到颶風強度。氣象預報中心還預測，2026 年的颶風季將有 2 到 4 個大型颶風，其中 1 到 2 個將達到超級颶風強度。預測結果顯示，2026 年的颶風季將對沿海地區造成嚴重的影響，因此氣象預報中心強調，需要小心和準備好應對颶風的風險。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "ai": [
-      {
-        "id": "fbd9a4ba",
-        "title": "會議: 人工智慧能夠學習理解世界嗎?",
-        "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 21 May 2026 20:41:05 +0000",
-        "summary_zh": "近期，人工智慧領域出現了一個新的熱點——世界模型。世界模型的出現，讓人們開始思考人工智慧是否能夠學習理解外部世界。這種能力將能夠超越目前的LLM（大型語言模型）的限制。人工智慧公司正在努力打造能夠理解外部世界的系統。編輯長Mat Honan、資深人工智慧編輯Will Douglas Heaven和人工智慧記者等人在會議中進行了深入的討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "06d06f39",
-        "title": "在 AI 時代中推動創造力",
-        "url": "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 21 May 2026 19:16:43 +0000",
-        "summary_zh": "故事敘事是人類的基石之一，源於我們表達理想、警告、希望和經驗的本能。科技一直與媒介和分佈有關：從早期人類對石油和木炭的創新應用到攝影的出現。故事敘事的風景在持續變化下，人類的創造力也在被挑戰。目前，人工智慧技術正在改變我們的敘事方式，從創作到分佈，AI 都在參與其中。然而，人類的創造力仍然是不可或缺的，AI 只是工具，而不是替代品。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "60d606dd",
-        "title": "Anthropic 的 Code with Claude 活動展現了未來的程式設計趨勢——你喜歡還是討厭都好",
-        "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 21 May 2026 14:30:45 +0000",
-        "summary_zh": "Anthropic 在倫敦舉辦了兩天的軟體開發者活動 Code with Claude，活動於 5 月 19 日開幕，這天也是 Google 在帕洛阿爾托舉辦的 I/O 活動的當天。 Anthropic 的工作人員告訴我，這是一個巧合，而不是炫耀。活動中， Anthropic 的 Claude AI 系統展現了其程式設計能力，讓參與者體驗未來程式設計的趨勢。這項活動不僅讓開發者們看到 AI 在程式設計中的潛力，還讓他們體驗到未來程式設計的可能。然而，這項趨勢是否能夠被廣泛接受，還有待觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c5165ab2",
-        "title": "下載：網路安全的未來和氣候科技的大轉變",
-        "url": "https://www.technologyreview.com/2026/05/21/1137733/the-download-online-safety-climate-tech-pivot/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 21 May 2026 12:10:00 +0000",
-        "summary_zh": "近日，美國科技研究人員對川普政府提出訴訟，爭取網路安全研究的未來。川普政府多個月來一直針對研究網路暴力言論和試圖抵制它的研究人員進行攻擊。這些研究人員認為，政府的行動違反了美國的自由言論原則。研究人員還指出，政府的行動可能會導致網路安全研究的進步受到阻礙。這些訴訟也引發了對於網路安全研究的重要性和政府對其的干預的討論。氣候科技的轉變是另一項重要議題。氣候科技公司正在努力應對氣候變化的挑戰，並尋找新的經濟模式。這些公司正在投資於風力發電、太陽能和其他可再生能源。氣候科技的轉變也會對全球經濟和環境產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "76746374",
-        "title": "氣候科技公司轉向關鍵礦物資源",
-        "url": "https://www.technologyreview.com/2026/05/21/1137622/climate-tech-pivot-critical-minerals/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 21 May 2026 10:00:00 +0000",
-        "summary_zh": "隨著第二任川普政府在美國的推動，氣候議題的支持度不高。但氣候科技公司仍在尋找生存和茁壯的途徑，包括著重於減碳之外的潛在利益。最近，似乎每家氣候科技公司都有自己的故事。氣候科技公司正在轉向關鍵礦物資源，例如鈷、鎳、鈷、鈦等，為電池、太陽能板和其他清潔能源技術提供關鍵材料。這些礦物資源的需求正在迅速增加，氣候科技公司正試圖填補這個市場空白。這項轉變對於氣候科技公司的生存和發展具有重要意義，同時也為清潔能源技術的發展提供了新的機遇。然而，這項轉變也引發了關於環境影響和資源競爭的擔憂。氣候科技公司需要找到平衡生產和保護環境的方法，以確保這項轉變的可持續性。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "755e6a33",
-        "title": "川普政府遭研究員起訴　網路安全未來存疑",
-        "url": "https://www.technologyreview.com/2026/05/21/1137632/lawsuit-trump-administration-online-safety-coalition-for-independent-technology-research/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 21 May 2026 09:00:00 +0000",
-        "summary_zh": "川普政府自上任以來一直針對研究員，後者試圖對抗網路上的仇恨言論、騷擾、宣傳和誤導。然而，這些研究員現在正在反擊。上週他們提出的訴訟案在法庭上首次登場，這可能對網路安全和自由言論產生全球性的影響。這些研究員認為，川普政府的行動違反了他們的研究自由和言論自由。訴訟中提到，川普政府試圖壓制研究員的工作，限制他們對網路安全的研究。這些研究員希望通過訴訟來保護他們的研究自由和網路安全。這項訴訟可能對未來的網路安全和自由言論產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
       {
         "id": "41c83ec2",
         "title": "埃隆·馬斯克與Sam Altman之間的對決：對OpenAI未來的影響",
@@ -598,9 +780,141 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "fbd9a4ba",
+        "title": "會議: 人工智慧能夠學習理解世界嗎?",
+        "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 21 May 2026 20:41:05 +0000",
+        "summary_zh": "近期，人工智慧領域出現了一個新的熱點——世界模型。世界模型的出現，讓人們開始思考人工智慧是否能夠學習理解外部世界。這種能力將能夠超越目前的LLM（大型語言模型）的限制。人工智慧公司正在努力打造能夠理解外部世界的系統。編輯長Mat Honan、資深人工智慧編輯Will Douglas Heaven和人工智慧記者等人在會議中進行了深入的討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "06d06f39",
+        "title": "在 AI 時代中推動創造力",
+        "url": "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 21 May 2026 19:16:43 +0000",
+        "summary_zh": "故事敘事是人類的基石之一，源於我們表達理想、警告、希望和經驗的本能。科技一直與媒介和分佈有關：從早期人類對石油和木炭的創新應用到攝影的出現。故事敘事的風景在持續變化下，人類的創造力也在被挑戰。目前，人工智慧技術正在改變我們的敘事方式，從創作到分佈，AI 都在參與其中。然而，人類的創造力仍然是不可或缺的，AI 只是工具，而不是替代品。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "60d606dd",
+        "title": "Anthropic 的 Code with Claude 活動展現了未來的程式設計趨勢——你喜歡還是討厭都好",
+        "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 21 May 2026 14:30:45 +0000",
+        "summary_zh": "Anthropic 在倫敦舉辦了兩天的軟體開發者活動 Code with Claude，活動於 5 月 19 日開幕，這天也是 Google 在帕洛阿爾托舉辦的 I/O 活動的當天。 Anthropic 的工作人員告訴我，這是一個巧合，而不是炫耀。活動中， Anthropic 的 Claude AI 系統展現了其程式設計能力，讓參與者體驗未來程式設計的趨勢。這項活動不僅讓開發者們看到 AI 在程式設計中的潛力，還讓他們體驗到未來程式設計的可能。然而，這項趨勢是否能夠被廣泛接受，還有待觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c5165ab2",
+        "title": "下載：網路安全的未來和氣候科技的大轉變",
+        "url": "https://www.technologyreview.com/2026/05/21/1137733/the-download-online-safety-climate-tech-pivot/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 21 May 2026 12:10:00 +0000",
+        "summary_zh": "近日，美國科技研究人員對川普政府提出訴訟，爭取網路安全研究的未來。川普政府多個月來一直針對研究網路暴力言論和試圖抵制它的研究人員進行攻擊。這些研究人員認為，政府的行動違反了美國的自由言論原則。研究人員還指出，政府的行動可能會導致網路安全研究的進步受到阻礙。這些訴訟也引發了對於網路安全研究的重要性和政府對其的干預的討論。氣候科技的轉變是另一項重要議題。氣候科技公司正在努力應對氣候變化的挑戰，並尋找新的經濟模式。這些公司正在投資於風力發電、太陽能和其他可再生能源。氣候科技的轉變也會對全球經濟和環境產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "76746374",
+        "title": "氣候科技公司轉向關鍵礦物資源",
+        "url": "https://www.technologyreview.com/2026/05/21/1137622/climate-tech-pivot-critical-minerals/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 21 May 2026 10:00:00 +0000",
+        "summary_zh": "隨著第二任川普政府在美國的推動，氣候議題的支持度不高。但氣候科技公司仍在尋找生存和茁壯的途徑，包括著重於減碳之外的潛在利益。最近，似乎每家氣候科技公司都有自己的故事。氣候科技公司正在轉向關鍵礦物資源，例如鈷、鎳、鈷、鈦等，為電池、太陽能板和其他清潔能源技術提供關鍵材料。這些礦物資源的需求正在迅速增加，氣候科技公司正試圖填補這個市場空白。這項轉變對於氣候科技公司的生存和發展具有重要意義，同時也為清潔能源技術的發展提供了新的機遇。然而，這項轉變也引發了關於環境影響和資源競爭的擔憂。氣候科技公司需要找到平衡生產和保護環境的方法，以確保這項轉變的可持續性。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "755e6a33",
+        "title": "川普政府遭研究員起訴　網路安全未來存疑",
+        "url": "https://www.technologyreview.com/2026/05/21/1137632/lawsuit-trump-administration-online-safety-coalition-for-independent-technology-research/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 21 May 2026 09:00:00 +0000",
+        "summary_zh": "川普政府自上任以來一直針對研究員，後者試圖對抗網路上的仇恨言論、騷擾、宣傳和誤導。然而，這些研究員現在正在反擊。上週他們提出的訴訟案在法庭上首次登場，這可能對網路安全和自由言論產生全球性的影響。這些研究員認為，川普政府的行動違反了他們的研究自由和言論自由。訴訟中提到，川普政府試圖壓制研究員的工作，限制他們對網路安全的研究。這些研究員希望通過訴訟來保護他們的研究自由和網路安全。這項訴訟可能對未來的網路安全和自由言論產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "6fdfa9df",
+        "title": "台股創42267點新高！聯發科領跑指數收漲899點",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5445523",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 22 May 2026 13:54:41 +0800",
+        "summary_zh": "台股在週五大幅上漲，創下42267點的新高，聯發科領跑指數收漲899點。投資人對美國和伊朗達成中東和平協議的外交努力感到樂觀，導致全球股市大幅上漲。亞股在週四狂飆後，週五續開派對，日經和韓股也大幅上漲。這次上漲被視為市場對美伊和平協議的積極反應，也表明投資人對全球經濟的樂觀態度。然而，仍然需要觀察市場的發展情況，以確保這次上漲的持續性。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "b1c8d6fd",
+        "title": "日本全家便利商店「Convenience Wear」商品掃貨熱潮！外國觀光客瘋搶便宜條紋襪",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5445639",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 22 May 2026 13:50:16 +0800",
+        "summary_zh": "近年來，日本連鎖便利商店「全家便利商店」（FamilyMart）推出了自有服飾品牌「Convenience Wear」。其中以條紋襪為主的商品，在海外旅客之間意外爆紅。外國觀光客在購物時，整批掃貨便宜又超有日本味的條紋襪，讓日本全家便利商店的「Convenience Wear」品牌，成為當地旅客的熱門購物目標。這種熱潮，讓日本全家便利商店的銷售額大幅增加，同時也讓外國觀光客對日本的服飾文化產生了新的認識。這種現象，也讓日本全家便利商店的品牌形象大幅提升，成為當地旅客的信任品牌。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "71eae9ed",
+        "title": "民眾控報稅系統漏列補充保費？財政部：可列舉扣除但未必划算",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5445874",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 22 May 2026 13:46:59 +0800",
+        "summary_zh": "今年報稅季進入尾聲，許多民眾領到可觀股利收入。然而，若單筆股利超過2萬元，將被扣取2.11％健保補充保費。財政部表示，這筆費用可在報稅時列舉扣除，但是否划算則取決於個人的情況。這項規定引發民眾質疑，是否漏列了補充保費的扣除。財政部則表示，已經在系統中加入相關扣除項目，民眾可以在報稅時自行查詢和列舉扣除。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2e92135e",
+        "title": "緯穎洪麗寗：新品首發生產根留台灣 電力規劃納入長期藍圖",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5445842",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 22 May 2026 13:13:14 +0800",
+        "summary_zh": "緯穎董事長洪麗寗表示，公司仍將核心研發與新產品導入首發生產留在台灣。這意味著緯穎將繼續在台灣投資研發和生產新產品。另外，洪麗寗也表示，公司將電力規劃納入至2028年長期發展藍圖，這表明公司對未來的發展有著明確的計畫。這項決定對於台灣的電子產業發展具有重要意義，同時也表明緯穎對台灣的承諾。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "0b1d077a",
+        "title": "遠東商銀副董徐旭東首度缺席股東會 遠銀董座這麼說",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5445835",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 22 May 2026 13:10:25 +0800",
+        "summary_zh": "遠東商銀22日召開股東常會，遠東集團董事長、遠銀副董事長徐旭東今年首度缺席，引發外界關注。遠銀董事長周添財表示，副董缺席對銀行運作「沒有影響」。他強調，遠銀的管理團隊非常穩定，各部門的運作正常進行。周添財還表示，遠銀將繼續致力於業務發展和盈利增長。遠銀股東會上，股東們對銀行的財務報表進行了審查，並通過了相關決議。遠銀的股價在股東會前已經有所上漲，股東們對銀行的未來發展感到樂觀。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "5d6bfb2a",
         "title": "輝達獨強局面鬆動？蘇姿丰：AI推論需求促CPU重返關鍵",
@@ -610,8 +924,8 @@
         "published_at": "Fri, 22 May 2026 12:24:24 +0800",
         "summary_zh": "美國晶片廠超微（AMD）董事長暨執行長蘇姿丰表示，人工智慧（AI）基礎設施市場的成長速度極其驚人，需要不同類型的解決方案。隨著推論（inference）需求增加，中央處理器（CPU）已回到關鍵核心地位。這是AMD非常強大的領域，表明輝達獨強局面可能鬆動。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "04d2f570",
@@ -622,8 +936,8 @@
         "published_at": "Fri, 22 May 2026 12:24:22 +0800",
         "summary_zh": "慧洋-KY今天舉行股東會，董事長藍俊昇宣布祭出每月補助新台幣1萬元育兒津貼，適用於從0歲到小學畢業的兒童。藍俊昇表示，這項措施是希望讓更多企業跟進，鼓勵企業提供優厚的育兒津貼，以利於員工的家庭生活。這項措施的推出，將會對慧洋-KY的員工和員工的家庭生活產生重大影響。然而，該公司未披露此措施的具體成本和影響。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "562d8113",
@@ -634,8 +948,8 @@
         "published_at": "Fri, 22 May 2026 12:07:00 +0800",
         "summary_zh": "台北外匯市場新台幣兌美元今日中午出現升值趨勢，暫收31.529元，相較昨日升6.6分。成交金額達7.67億美元，表明市場交易活躍。這一升值趨勢可能與市場對經濟前景的改善或外匯政策的調整有關。然而，市場的情緒仍然不穩定，投資人應繼續密切關注市場動態。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "76c6c016",
@@ -646,8 +960,8 @@
         "published_at": "Fri, 22 May 2026 12:06:58 +0800",
         "summary_zh": "美國晶片廠超微（AMD）董事長暨執行長蘇姿丰在天下45週年旗艦論壇表示，人們有時會談論人工智慧（AI）泡沫，質疑是否該大量投資。蘇姿丰強調，這絕對是真的，但如果把這看作一場棒球賽，我們可能才打到第3局。這意味著還有大量創新即將發生，整個生態系也有非常多的機會。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c2aea828",
@@ -658,8 +972,8 @@
         "published_at": "Fri, 22 May 2026 12:04:52 +0800",
         "summary_zh": "經濟部商業署今天舉辦「2026集品生活遊食購」開幕式，目的是透過活動推廣地方商圈。經濟部次長江文若致詞時表示，希望藉由車站人潮推廣美食，並透過「數位福袋」等活動吸引人潮，期盼經濟動能注入商圈。這項活動旨在鼓勵民眾到商圈消費，同時也希望能夠幫助地方商家增加銷售額。經濟部的目標是透過這項活動，幫助地方商圈恢復活力，並且促進地方經濟的發展。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "cbedbe09",
@@ -670,8 +984,8 @@
         "published_at": "Fri, 22 May 2026 11:51:34 +0800",
         "summary_zh": "中石化今天舉行股東常會，通過不分派股利。這意味著中石化將不會向股東發放股利。另外，中石化也通過重要子公司鼎越開發處分土地案，正式啟動京華廣場土地出售計畫。京華廣場土地出售計畫的啟動，將對中石化的財務狀況產生重大影響。中石化的股東會通過不發股利的決定，可能是為了籌措資金用於土地出售計畫。京華廣場土地出售計畫的成功，將對中石化的未來發展產生重要影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "8ba4b00c",
@@ -710,30 +1024,6 @@
         "ai_classified": true
       },
       {
-        "id": "88e7758a",
-        "title": "台股早盤漲逾600點 站上42000點",
-        "url": "https://www.cna.com.tw/news/afe/202605220031.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 22 May 2026 09:17:54 +0800",
-        "summary_zh": "台股今天在油價回落和美股收紅的激勵下，展現出強勁的市場氣氛，早盤上漲逾600點，站上42000點。市場分析師認為，這是由於投資人對市場前景的樂觀情緒所致。台積電作為市場的領頭羊，今日股價最高達2250元，上漲20元，但隨後股價拉回至2230元附近。這一波上漲有助於市場的整體氣氛，投資人對台股的信心也逐漸增強。然而，市場仍然需要密切關注全球經濟的變化和其他市場風險因素。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5943e374",
-        "title": "新台幣開盤升3.5分，達31.56元",
-        "url": "https://www.cna.com.tw/news/afe/202605220029.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 22 May 2026 09:03:50 +0800",
-        "summary_zh": "今天台北外匯市場新台幣兌美元匯率開盤升3.5分，達31.56元。這是近期新台幣升值的趨勢，市場觀察人士認為是由於外資流入和經濟成長的預期所致。新台幣升值對於出口企業和旅遊業有利，但也可能使進口商品更貴。市場預期今後新台幣會繼續升值，但升值幅度會受到多種因素的影響，包括經濟成長、通膨和外匯政策等。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "c90c6236",
         "title": "李奧國際精準健康完成歐洲資本市場主板上市",
         "url": "https://money.udn.com/money/story/5635/9505684",
@@ -746,30 +1036,152 @@
         "ai_classified": true
       }
     ],
+    "stock_us": [
+      {
+        "id": "03d2d5c8",
+        "title": "兩年內 AI 投資將超過 1 萬億美元，Nvidia CEO 承諾將超越預估",
+        "url": "https://www.cnbc.com/2026/05/21/ai-spending-expected-to-top-1-trillion-in-2-years-why-that-estimate-may-be-too-low.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-21 17:40:13",
+        "summary_zh": "Nvidia CEO 杰森·黃 (Jensen Huang) 表示，公司的投資開支已經達到 1 萬億美元，並預計將繼續增長，甚至可能超過 3 到 4 萬億美元的預估。這意味著，未來兩年內的 AI 投資將遠超過目前的預估，達到 1 萬億美元以上。這項預測對於 AI 行業的發展和未來投資趨勢具有重要意義。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9e32fa10",
+        "title": "債券市場突然翻轉投資者預期——華爾街如若無事",
+        "url": "https://www.marketwatch.com/story/the-bond-market-just-flipped-the-script-on-investors-wall-street-is-acting-like-nothings-wrong-f321cc5b?mod=mw_rss_topstories",
+        "source": "Marketwatch",
+        "category": "stock_us",
+        "published_at": "2026-05-21 17:41:00",
+        "summary_zh": "近日，債券市場出現了意想不到的變化，投資者預期被打破。一般來說，當債券市場與股票市場出現分歧時，債券市場往往是更準確的指標。債券市場的變化可能是由於投資者對未來經濟情況的預期出現了變化，或者是市場對風險的評估出現了調整。這種變化可能會對投資者的投資決策產生影響，投資者需要密切關注債券市場的動態，以便做出適當的投資決策。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "500c385c",
+        "title": "華倫巴菲特經典股：銀行美聯的分析認為這隻股現在是買入的好時機，將來多年內股價將大幅上漲",
+        "url": "https://www.cnbc.com/2026/05/21/this-warren-buffett-classic-stock-is-a-great-buy-bank-of-america-says.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-21 17:21:38",
+        "summary_zh": "銀行美聯最新分析指出，可口可樂是一家全球性消費品企業，具有「顯著的發展空間」。該公司的分析師認為，可口可樂的股價將在未來多年內大幅上漲。根據銀行美聯的分析，這家公司的發展空間非常廣闊，股價將會因為這種發展而大幅上漲。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9d60c95c",
+        "title": "SEC 副主席佩斯離職，將赴法律學院任教",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-21/sec-s-peirce-to-depart-wall-street-regulator-for-law-school-job",
+        "source": "Bloomberg",
+        "category": "stock_us",
+        "published_at": "2026-05-21 17:16:30",
+        "summary_zh": "美國證券交易委員會 (SEC) 副主席佩斯 (Hester Peirce) 將於未來離職，轉往哈佛大學法學院任教。佩斯自 2018 年加入 SEC，曾在多個重要委員會任職，包括金融科技委員會。她在 SEC 的任期內，曾對於數位資產和區塊鏈等新興科技產業發揮重要作用。佩斯的離職將對 SEC 的領導層產生影響，未來將由新人接任。佩斯的離職也引發了對於 SEC 未來發展方向的關注，特別是在數位資產和區塊鏈領域。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "bf9ef396",
+        "title": "Infleqtion CEO Matt Kinsella 表示量子計算是計算的 '下一個大地質變動'",
+        "url": "https://www.cnbc.com/video/2026/05/21/infleqtion-ceo-matt-kinsella-says-quantum-is-the-anext-tectonic-shift-in-compute.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-21 16:21:30",
+        "summary_zh": "Infleqtion CEO Matt Kinsella 在 CNBC 的節目 'Squawk on the Street' 中談論量子計算的狀況。美國政府在這個領域獎勵了包括 Infleqtion 在內的九家公司，總共撥款 200 億美元。量子計算是一種新興的技術，具有巨大的潛力，可以大幅改善計算效率。Infleqtion 是一家領先的量子計算公司，正在推動這個領域的發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9bb924e8",
+        "title": "SpaceX 不是火箭公司，早期投資人彼得·迪亞曼迪斯說",
+        "url": "https://www.cnbc.com/video/2026/05/21/spacex-is-not-a-rocket-company-says-early-investor-peter-diamandis.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-21 16:07:17",
+        "summary_zh": "彼得·迪亞曼迪斯是XPRIZE基金會的創始人，最近他在節目『Squawk on the Street』中與主持人討論了SpaceX IPO申報的關鍵點、對公司的期望等。迪亞曼迪斯認為SpaceX不僅僅是一家火箭公司，它還是一個具有革命性創新的公司，能夠將人類帶到月球、火星和其他星球。根據SpaceX IPO申報，公司的收入在2020年達到10.4億美元，2021年達到14.3億美元，2022年達到18.1億美元。迪亞曼迪斯認為，這些數字表明SpaceX的業務正在快速發展，公司的市場價值將會繼續上升。然而，他也提到，SpaceX仍然面臨著許多挑戰，包括競爭對手的進攻、政府的監管等。因此，迪亞曼迪斯認為，投資者需要保持謹慎的態度，關注公司的長期發展前景。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "bc9c5b21",
+        "title": "午市最大漲跌股票：Rigetti Computing、Deere、Bloom Energy、Spotify 等",
+        "url": "https://www.cnbc.com/2026/05/21/stocks-making-the-biggest-moves-midday-rgti-de-be-spot.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-21 16:05:32",
+        "summary_zh": "午市交易期間，市場出現了許多股票的大幅波動。其中，Rigetti Computing、Deere、Bloom Energy 和 Spotify 等股票表現尤為突出。這些股票的股價變化對市場有著重要的影響，投資者需要密切關注這些股票的動態，以便做出明智的投資決策。然而，市場的波動也可能導致投資者的風險增加，因此投資者需要謹慎評估風險並做好準備。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "finance": [
       {
-        "id": "fad603e7",
-        "title": "澳洲監管機構起訴 EQT Holdings 的退休基金單位，因為 First Guardian 違規",
-        "url": "https://www.reuters.com/legal/government/australian-regulator-sues-eqt-holdings-superannuation-unit-over-first-guardian-2026-05-21/",
+        "id": "7f5026ca",
+        "title": "LIV 高爾夫球聯賽尋求 35 億美元融資，失去沙地阿拉伯財富基金支持",
+        "url": "https://www.reuters.com/sports/golf/liv-golf-seeking-350-million-funding-after-losing-saudi-pif-backing-say-sources-2026-05-21/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-05-21 16:58:54",
-        "summary_zh": "澳洲監管機構對 EQT Holdings 的退休基金單位提起訴訟，指控該單位因為 First Guardian 違規而導致損失。根據調查，該單位未能有效監控 First Guardian 的投資，導致投資額度超出規定。這一事件可能對 EQT Holdings 的聲譽和財務狀況造成影響。監管機構將會進一步調查該事件，以確保相關單位遵守規定。這一事件也會引起投資者對退休基金管理的關注。",
+        "published_at": "2026-05-21 17:41:44",
+        "summary_zh": "LIV 高爾夫球聯賽因失去沙地阿拉伯財富投資基金（Saudi PIF）的支持，正在尋求 35 億美元的融資。根據消息來源，LIV 高爾夫球聯賽的創始人格雷格·諾曼（Greg Norman）和其他高管正在與投資者會面，尋求額外的資金來支持聯賽的運營。LIV 高爾夫球聯賽自 2022 年成立以來，已經獲得了大量的投資，但沙地阿拉伯財富投資基金的退出可能會對聯賽的未來造成重大影響。消息來源表示，LIV 高爾夫球聯賽的融資需求是由於聯賽的運營成本高昂，包括選手薪水、場地租用和廣告費等。同時，LIV 高爾夫球聯賽也面臨著與傳統高爾夫球組織的競爭，這可能會對聯賽的收入和影響力造成影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "3765f011",
-        "title": "SpaceX IPO 分析：馬斯克雄心勃勃的火箭與人工智慧願景",
-        "url": "https://www.reuters.com/pt/tecnologia/C3XQ57NWBJMRZBGD2F7SAFWE6M-2026-05-21/",
-        "source": "Reuters",
+        "id": "6a20cf1c",
+        "title": "什麼在背後推動了債券市場的危險變化？",
+        "url": "https://www.cnbc.com/video/2026/05/21/whats-behind-the-dangerous-brew-for-bonds-wsjs-ip.html",
+        "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-05-21 16:56:09",
-        "summary_zh": "SpaceX 即將進行 IPO，估值達 2 萬億美元。這項舉措被視為馬斯克對未來火箭和人工智慧技術的雄心壯志。SpaceX 的火箭技術已經在太空探索和衛星發射領域取得了重大突破，同時也在發展人工智慧技術，包括自動駕駛系統和機器學習。馬斯克的願景是將火箭和人工智慧技術結合，創造出更高效、更安全的太空運輸系統。這項願景有望帶來重大變革，改善太空探索和衛星發射的效率和安全性。然而，SpaceX 的 IPO 也引發了投資者對公司未來發展方向和估值的擔憂。投資者需要密切關注公司的財務報表和業務發展情況，以評估其投資價值。",
+        "published_at": "2026-05-21 17:46:06",
+        "summary_zh": "債券市場近期出現了危險的變化，根據《華爾街日報》的經濟評論員Greg Ip的分析，這可能是由於債券市場的基礎變化。債券市場的波動對於全球經濟的影響非常大，尤其是在利率和通膨率的變化下。債券市場的變化可能會對投資者造成重大影響，投資者需要謹慎評估債券市場的風險。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "47877754",
+        "title": "SpaceX、OpenAI 和 Anthropic IPO 啟動華爾街交易狂潮",
+        "url": "https://www.ft.com/content/970b1bab-ca00-4ea1-8964-a59ea431de6e",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-21 17:41:43",
+        "summary_zh": "華爾街即將迎來一波 IPO 潮，SpaceX、OpenAI 和 Anthropic 等知名公司將上市引爆交易狂潮。市場預期，過去的被動投資者將出售數十億股股票，以讓新股票上市。這一波 IPO 潮將為華爾街帶來新的投資機會和挑戰。市場分析師預計，新股票的上市將帶來市場波動和投資風險。然而，亦有市場人士認為，這一波 IPO 潮將為投資者帶來新的投資機會和收益。最終，市場將如何應對這一波 IPO 潮，仍待觀察。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
+      },
+      {
+        "id": "b281e217",
+        "title": "美國政府投資 2000 億美元在 IBM 和其他量子計算企業",
+        "url": "https://www.reuters.com/pt/negocio/56NHLXNNJNP3POIUXDIRJL7LNI-2026-05-21/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-21 17:39:44",
+        "summary_zh": "美國政府宣布將投資 2000 億美元在 IBM 和其他量子計算企業，以推進量子計算技術的發展。這項投資將幫助美國在量子計算領域取得領先地位，同時也將創造新的就業機會。IBM 是全球領先的量子計算企業之一，已經在量子計算領域取得了重要的突破。這項投資將對美國的科技業和經濟產生重大影響。美國政府的這項決定是為了應對中國在量子計算領域的快速發展，同時也希望通過投資量子計算技術來推進美國的經濟競爭力。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f375e725",
+        "title": "加拿大元五周低位，中東情勢樂觀情緒消退",
+        "url": "https://www.reuters.com/business/canadian-dollar-hits-five-week-low-mideast-optimism-fades-2026-05-21/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-21 17:34:07",
+        "summary_zh": "加拿大元在中東情勢樂觀情緒消退後，走勢下跌至五周低位。這一波下跌主要是因為投資者對中東局勢的樂觀情緒消退，導致對加拿大石油出口的需求下降。加拿大石油出口對該國經濟有著重要影響，因此投資者對加拿大元的需求下降也導致加元走勢下跌。這一波下跌也反映了投資者對全球經濟的不確定性和中東局勢的不穩定性。加拿大央行在近期的發言中表明，將密切關注經濟情勢並採取適當措施維持經濟穩定。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "6d7ce1c5",
@@ -780,56 +1192,8 @@
         "published_at": "2026-05-21 16:14:05",
         "summary_zh": "在利率大幅上升的背景下，私人貸款違約達到歷史新高。投資基金正在努力重構貸款，同時也對貸款資產進行估值下調。這種情況對投資者和貸款機構都造成了重大影響。投資者正在面臨著貸款違約風險的增加，而貸款機構則需要重新評估其投資組合和貸款政策。這種情況可能會導致貸款市場的不穩定和風險增加。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "7dcbea65",
-        "title": "美國房屋市場的高期望正在追趕人。這是你該做的",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-05-21/should-i-buy-a-house-now-what-experts-say-about-real-estate-today",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-21 16:54:43",
-        "summary_zh": "美國房屋市場的高期望正在成為一個重大的挑戰。根據市場分析，房屋價格正在迅速上升，導致買家和賣家都感到焦慮。買家們擔心房屋價格會繼續上升，賣家們則擔心房屋難以賣出。為了應對這種情況，專家建議買家們應該儘早購買房屋，賣家們則應該考慮降低房屋價格。同時，政府也應該出台政策來控制房屋市場的波動。這樣才能讓房屋市場恢復穩定。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "ea7fe65a",
-        "title": "歐洲股市收盤平穩，投資者關注中東和平消息",
-        "url": "https://www.reuters.com/pt/negocio/K4BPDJNQHJLSFDJ5NGV5BNX6RY-2026-05-21/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-21 16:53:44",
-        "summary_zh": "歐洲股市近日收盤平穩，投資者關注中東和平消息的影響。儘管市場上有許多不確定性，但投資者仍然對未來保持著樂觀態度。中東和平的消息可能會對全球經濟產生重大影響，因此投資者正在密切關注這一發展。同時，投資者也關注全球經濟的其他動向，包括美國的經濟政策和歐洲的經濟數據。儘管市場上有許多挑戰，但投資者仍然對未來保持著信心。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "e084a23d",
-        "title": "摩根大通投資銀行全球推出人工智慧工具",
-        "url": "https://www.reuters.com/world/asia-pacific/jpmorgan-rolls-out-ai-tools-investment-banking-globally-senior-banker-says-2026-05-21/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-21 16:49:43",
-        "summary_zh": "摩根大通投資銀行正在全球推出人工智慧工具，以改善其投資銀行業務。摩根大通一位高級銀行家表示，該公司正在投資大量資源於人工智慧技術，旨在提高效率和精確度。這些工具將幫助銀行家進行更準確的風險評估、交易分析和投資建議。摩根大通的這一舉動表明，人工智慧技術正在逐漸成為投資銀行的重要工具。這將對投資銀行業務產生重大影響，銀行家將能夠更快速地進行決策和執行交易。摩根大通的這一決定也表明，該公司正在致力於投資銀行業務的數字化轉型。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "869d1674",
-        "title": "德意志銀行自行報案關俄羅斯客戶",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-17/deutsche-bank-reports-itself-to-regulator-over-russia-clients",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-21 16:41:29",
-        "summary_zh": "德意志銀行近日宣布自行報案關俄羅斯客戶，該行表示將與美國政府合作，對俄羅斯客戶進行審查。德意志銀行的這一決定是為了遵守美國對俄羅斯的制裁措施。該行表示，將對俄羅斯客戶進行嚴格審查，並將與美國政府合作，確保遵守相關規定。德意志銀行的這一決定可能會對該行的業務產生影響，同時也會對俄羅斯客戶造成影響。這一事件也會對全球金融市場產生影響，可能會出現市場波動。德意志銀行的這一決定是為了維護該行的聲譽和合規性，同時也會對該行的未來發展產生影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "ffa88ad4",
@@ -888,370 +1252,6 @@
         "published_at": "Thu, 21 May 2026 15:45:07 GMT",
         "summary_zh": "史派菲特與環球音樂集團簽下授權協議，為史派菲特應用程式推出一項付費增值工具。這項工具將利用人工智慧技術為使用者生成音樂，針對高消費超級粉絲進行定制。這項合作將為史派菲特帶來新的收入來源，並加強其在音樂產業的競爭力。然而，對於音樂創作者的影響仍待觀察，是否會導致音樂創作者的收入減少。這項合作也引發了對音樂產業未來發展方向的討論。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "stock_us": [
-      {
-        "id": "bf9ef396",
-        "title": "Infleqtion CEO Matt Kinsella 表示量子計算是計算的 '下一個大地質變動'",
-        "url": "https://www.cnbc.com/video/2026/05/21/infleqtion-ceo-matt-kinsella-says-quantum-is-the-anext-tectonic-shift-in-compute.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-21 16:21:30",
-        "summary_zh": "Infleqtion CEO Matt Kinsella 在 CNBC 的節目 'Squawk on the Street' 中談論量子計算的狀況。美國政府在這個領域獎勵了包括 Infleqtion 在內的九家公司，總共撥款 200 億美元。量子計算是一種新興的技術，具有巨大的潛力，可以大幅改善計算效率。Infleqtion 是一家領先的量子計算公司，正在推動這個領域的發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "9bb924e8",
-        "title": "SpaceX 不是火箭公司，早期投資人彼得·迪亞曼迪斯說",
-        "url": "https://www.cnbc.com/video/2026/05/21/spacex-is-not-a-rocket-company-says-early-investor-peter-diamandis.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-21 16:07:17",
-        "summary_zh": "彼得·迪亞曼迪斯是XPRIZE基金會的創始人，最近他在節目『Squawk on the Street』中與主持人討論了SpaceX IPO申報的關鍵點、對公司的期望等。迪亞曼迪斯認為SpaceX不僅僅是一家火箭公司，它還是一個具有革命性創新的公司，能夠將人類帶到月球、火星和其他星球。根據SpaceX IPO申報，公司的收入在2020年達到10.4億美元，2021年達到14.3億美元，2022年達到18.1億美元。迪亞曼迪斯認為，這些數字表明SpaceX的業務正在快速發展，公司的市場價值將會繼續上升。然而，他也提到，SpaceX仍然面臨著許多挑戰，包括競爭對手的進攻、政府的監管等。因此，迪亞曼迪斯認為，投資者需要保持謹慎的態度，關注公司的長期發展前景。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "bc9c5b21",
-        "title": "午市最大漲跌股票：Rigetti Computing、Deere、Bloom Energy、Spotify 等",
-        "url": "https://www.cnbc.com/2026/05/21/stocks-making-the-biggest-moves-midday-rgti-de-be-spot.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-21 16:05:32",
-        "summary_zh": "午市交易期間，市場出現了許多股票的大幅波動。其中，Rigetti Computing、Deere、Bloom Energy 和 Spotify 等股票表現尤為突出。這些股票的股價變化對市場有著重要的影響，投資者需要密切關注這些股票的動態，以便做出明智的投資決策。然而，市場的波動也可能導致投資者的風險增加，因此投資者需要謹慎評估風險並做好準備。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "4737c3fd",
-        "title": "OpenAI vs. Anthropic：IPO 競賽加溫",
-        "url": "https://www.cnbc.com/video/2026/05/21/openai-vs-anthropic-the-ipo-race.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-21 15:48:05",
-        "summary_zh": "在人工智慧競賽加溫的背景下，OpenAI 和 Anthropic 正在準備一場轟動的首次公開募股(IPO)。根據 CNBC 的報導，人工智慧領域的競爭加劇，企業正在爭相籌措資金以夥伴這一趨勢。OpenAI 和 Anthropic 的 IPO 將是人工智慧領域的重要里程碑，展現了這兩家公司在該領域的領導地位。這場 IPO 競賽將對人工智慧領域的發展產生重大影響，投資者將密切關注這兩家公司的表現。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "78798606",
-        "title": "Nvidia 股價下跌：UBS 的 Alli McCartney 解釋原因",
-        "url": "https://www.cnbc.com/video/2026/05/21/nvidia-falls-post-earnings-ubsa-alli-mccartney-explains-why.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-21 15:46:02",
-        "summary_zh": "UBS Alignment Partners 的管理總監 Alli McCartney 在節目 'Squawk on the Street' 中討論了最新的市場趨勢，是否 Nvidia 是人工智慧交易的關鍵股，等等。 Nvidia 股價在近期的財報公布後下跌，Alli McCartney 將解釋這些原因。 Nvidia 作為人工智慧領域的領導者，其股價受到市場的密切關注。市場分析師和投資者都在等待 Nvidia 的財報公布，以判斷公司的財務狀況和未來發展方向。 Nvidia 的財報公布後，股價下跌可能是由於市場對公司未來發展的不確定性或財務狀況的不佳。 Alli McCartney 將在節目中提供更多的分析和見解，以幫助投資者了解 Nvidia 股價的變化。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "64506445",
-        "title": "這家大銀行超越金融巨頭 Chase，入選 Josh Brown 最佳股票名單",
-        "url": "https://www.cnbc.com/2026/05/21/this-big-bank-thats-beating-out-jpmorgan-chase-just-made-josh-browns-best-stocks-list.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-21 15:17:52",
-        "summary_zh": "在美國股市中，某家大銀行因其業績表現而受到注目。該銀行的股價已經超越了金融巨頭 Chase。Josh Brown 和 Sean Russo 分析了這家銀行背後的驅動力。根據他們的研究，這家銀行的成功歸因於其優異的盈利能力和強大的資金流動能力。這些因素使得該銀行能夠在競爭激烈的銀行業中保持領先地位。這家銀行的股價表現令人印象深刻，Josh Brown 的最佳股票名單中也入選了該銀行。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ae7dfb10",
-        "title": "選擇權交易者跳過量子級別",
-        "url": "https://www.cnbc.com/video/2026/05/21/options-traders-take-quantum-leap.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-21 15:06:26",
-        "summary_zh": "在CNBC的節目「Squawk on the Street」中，Oliver Renick介紹了最新的選擇權趨勢。選擇權交易者正在積極購買和出售相關的合約，表明市場對未來趨勢的預期正在發生變化。這些交易者的動作可能與市場對未來經濟和股市趨勢的預期有關。分析師認為，這些選擇權交易者的行為可能是市場對未來經濟和股市趨勢的預期正在發生變化的跡象。然而，市場的變化是多種因素的結果，包括經濟數據、政治事件和全球經濟情況等。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "780198dd",
-        "title": "Jefferies Sheila Kahyaoglu 就 SpaceX IPO 檢視發表意見",
-        "url": "https://www.cnbc.com/video/2026/05/21/jefferiesa-sheila-kahyaoglu-on-spacex-ipo-filing.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-21 14:43:46",
-        "summary_zh": "Jefferies 的航空航天及國防分析師 Sheila Kahyaoglu 在節目 'Squawk on the Street' 中就 SpaceX 的大型公開發行、公司的數據中心計畫等進行討論。SpaceX 的公開發行被認為是今年最大的 IPO 案例之一，該公司的財務狀況和未來發展前景引起了投資者的高度關注。Kahyaoglu 表示，SpaceX 的數據中心計畫將對公司的收入產生重大影響，並預測該公司將在未來幾年內實現快速增長。這一消息對於投資者和業界人士來說都是重大的財務和戰略意義。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "f7742155",
-        "title": "阿爾伯塔省將舉行獨立公投",
-        "url": "https://www.bbc.com/news/articles/cvgze8n5dxko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 02:40:58 GMT",
-        "summary_zh": "阿爾伯塔省西部的獨立運動已經推動了一項公投，探討阿爾伯塔省是否應該脫離加拿大剩餘地區。阿爾伯塔省的獨立運動已經存在多年，但最近的發展表明該運動正在獲得越來越多的支持。公投的舉行將是加拿大歷史上的一個重要里程碑，可能對加拿大聯邦的未來產生重大影響。阿爾伯塔省的獨立運動主要是由於該省對加拿大聯邦的財政分配不平等感到不滿。阿爾伯塔省的資源豐富，但該省的財政收入卻遠遠低於其他加拿大省份。公投的結果將對阿爾伯塔省和加拿大聯邦的未來產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1d7a7ae7",
-        "title": "田納西州執行死刑被叫停",
-        "url": "https://www.bbc.com/news/articles/c93xj503kg9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 22:45:20 GMT",
-        "summary_zh": "田納西州一名囚犯Tony Carruthers因為執行死刑的毒劑注射失敗，被判定暫時停止執行死刑，暫緩一年。根據最新消息，執行死刑的官員們在注射毒劑時無法找到Tony Carruthers的靜脈，導致執行死刑的程序被迫暫停。這一事件引起了廣泛的關注和爭議，許多人質疑田納西州的死刑制度是否合理和公平。田納西州政府尚未對此事件發表正式聲明，但預計將在未來的一年內重新審視Tony Carruthers的案件。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2bf4dc09",
-        "title": "共和黨人有可能放棄1億美元的方案，為川普的舞廳提供資金 – 美國政治直播",
-        "url": "https://www.theguardian.com/us-news/live/2026/may/21/donald-trump-ballroom-reconciliation-bill-republicans-democrats-war-powers-iran-epa-ai-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 02:00:51 GMT",
-        "summary_zh": "共和黨參議員對於秘密服務的提議，加入國土安全部門法案的時機和細節表示質疑。除了前古巴領導人拉烏爾·卡斯特羅被起訴外，美國國務卿馬可·魯比奧在西班牙語中向古巴人民發表了直接視訊演講。魯比奧表示，古巴人民沒有電力、燃料和食物的真正原因是，因為控制古巴的那些人掠奪了數十億美元，但這些資金並沒有用於幫助人民。這些發言在政治圈引起了關注，共和黨參議員對於秘密服務的提議表示質疑，是否該在國土安全部門法案中增加資金。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "534804c3",
-        "title": "川普支持實境劇星在洛杉磯市長選舉，可能是一顆毒藥",
-        "url": "https://www.theguardian.com/us-news/2026/may/21/spencer-pratt-los-angeles-mayor-trump",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 01:10:51 GMT",
-        "summary_zh": "川普總統在洛杉磯市長選舉前幾周的評論，將對民主黨有所幫助。川普總統對實境劇星史派瑞（Spencer Pratt）表示讚賞，他是洛杉磯市長選舉中的第二名候選人。川普總統稱史派瑞是一名「大粉紅人」（Maga 人），但這可能會使史派瑞在深藍色城市的選舉中遇到困難。川普總統的支持通常對候選人有所幫助，但在這次選舉中，可能會成為一顆毒藥。洛杉磯市長選舉的結果將在未來幾周內揭曉。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e214abde",
-        "title": "美國共和黨議員取消對伊朗戰爭權限決議投票",
-        "url": "https://www.theguardian.com/us-news/2026/may/21/republicans-cancel-vote-war-powers-iran",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 00:34:59 GMT",
-        "summary_zh": "美國共和黨議員取消對伊朗戰爭權限決議投票，避免了對特朗普的政治尷尬。這是美國國會對伊朗戰爭的支持逐漸減少的最新跡象。美國共和黨議員原本計畫在週四舉行投票，通過決議終止美國對伊朗的戰爭，但最終決定取消投票。這一決定避免了對特朗普的政治尷尬，同時也表明國會對伊朗戰爭的支持正在減少。這一發展對美國對伊朗的戰爭政策產生了重要影響，可能會導致美國政府的戰爭策略變化。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1d94a16b",
-        "title": "美國檢方指控明尼蘇達州15人涉嫌90億美元醫療詐騙案",
-        "url": "https://www.theguardian.com/us-news/2026/may/21/minnesota-healthcare-fraud",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 21:00:56 GMT",
-        "summary_zh": "美國檢方指控明尼蘇達州15人涉嫌詐騙政府醫療計劃90億美元。美國檢方助理總檢察長柯林麥克唐納在明尼蘇達州的新聞發布會上表示，該州的服務受到了「令人震驚」的詐騙水平，稱之為「危機」。這是川普政府對明尼蘇達州社會服務的詐騙問題的最新行動。根據檢方的調查，15人涉嫌詐騙政府醫療計劃，造成了重大財務損失。這項行動表明川普政府對詐騙問題的嚴厲態度。明尼蘇達州民主黨州長提姆沃茲對此表示關注，並承諾會繼續努力防止詐騙。這項行動將對明尼蘇達州的社會服務產生重大影響，並可能引起更多的檢查和調查。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f9d708ce",
-        "title": "川普承諾會「試著參與」兒子婚禮，但時間不適合他出席",
-        "url": "https://www.theguardian.com/us-news/2026/may/21/trump-son-wedding-invite",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 20:22:33 GMT",
-        "summary_zh": "美國總統川普承諾會參與兒子唐納德·川普三世的婚禮，但表示時間不適合他出席。川普在星期四表示，他有「伊朗這種事情」和其他事情要處理，可能無法參加兒子的婚禮。唐納德·川普三世的婚禮預計在美軍紀念日週末在巴哈馬舉行。川普的表態引起了關注，是否他會缺席兒子的婚禮。川普的行程表已經很繁忙，包括處理伊朗問題和其他國家事務。這使得他是否能夠參加兒子的婚禮成為一個疑問。川普的決定可能會對他的家庭和政治形象產生影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2d3dcbe8",
-        "title": "民主黨2024年選舉自我檢視報告：花費、媒體策略和組織失誤的真相",
-        "url": "https://www.theguardian.com/us-news/2026/may/21/democrats-2024-election-autopsy-report-key-takeaways",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 19:51:33 GMT",
-        "summary_zh": "民主黨近200頁的自我檢視報告披露了2024年選舉失敗的原因，包括花費失誤、媒體策略失誤和組織失誤等。報告指出，民主黨在近20年來在各級政府中都失去了地位。報告的出現引發了對民主黨未來發展的關注。民主黨在2024年選舉中失敗的原因包括花費失誤、媒體策略失誤和組織失誤等。報告指出，民主黨在選舉中花費過多，卻沒有取得相應的成果。同時，民主黨的媒體策略也被指出存在問題，未能有效地傳達黨的訊息。組織失誤也是民主黨選舉失敗的重要原因，報告指出，民主黨的組織能力不足，未能有效地組織支持者和資源。這些失誤導致民主黨在2024年選舉中失敗，失去白宮和各級政府的控制權。報告的出現將對民主黨未來發展產生重大影響，黨內將會進行改革和重建以求在未來選舉中取得勝利。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "979b9e57",
-        "title": "田納西州長暫停執行死刑，官員無法找到靜脈",
-        "url": "https://www.theguardian.com/us-news/2026/may/21/tennessee-execution-tony-carruthers",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 19:49:28 GMT",
-        "summary_zh": "田納西州長比爾·李 (Bill Lee) 對 57 歲的托尼·卡魯瑟斯 (Tony Carruthers) 頒布了一年暫停執行死刑令。卡魯瑟斯被判死刑，因為他被認為犯下了 1994 年在田納西州孟菲斯市殺害三人的罪行，包括 21 歲的馬塞洛斯·安德森 (Marcellos Anderson)、43 歲的德洛伊斯·安德森 (Delois Anderson) 母親和 17 歲的弗雷德里克·圖克 (Frederick Tucker)。卡魯瑟斯的律師表示，沒有任何證據能夠證明他犯下了這些罪行，而且他精神狀況不穩定。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9bb497bd",
-        "title": "2026年大西洋颶風季預測將較正常年份溫和",
-        "url": "https://www.theguardian.com/us-news/2026/may/21/hurricane-season-2026-noaa",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 19:40:38 GMT",
-        "summary_zh": "美國聯邦政府科學家於週四宣布，2026年大西洋颶風季預計將較正常年份溫和，預計將有8到14個風速超過63公里/小時的颶風。這個預測是由於中南美洲出現的El Niño天氣模式。這個預測出現於美國政府對颶風的準備工作仍未完成之時，美國政府在川普政府時期曾經進行人手減少。預計颶風季將於6月1日開始，持續至11月30日。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8b891f6d",
-        "title": "我們堅韌：在聖地牙哥清真寺槍擊事件後，穆斯林社區拒絕被嚇倒",
-        "url": "https://www.bbc.com/news/articles/clypx2pr52qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 01:49:43 GMT",
-        "summary_zh": "聖地牙哥清真寺槍擊事件造成三人喪生，當地穆斯林社區舉行了為三名遇難者進行的葬禮祈禱，數千人參與。這次槍擊事件讓聖地牙哥的穆斯林社區受到重創，但社區成員堅持不被嚇倒。這次槍擊事件的影響不僅限於當地，還引起了全球穆斯林社區的關注。美國總統和其他政府官員也對此事件表示了關注和支持。這次槍擊事件的後續展望尚不清楚，但聖地牙哥的穆斯林社區已經開始了復原和團結的工作。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "fc983fe7",
-        "title": "古巴裔美國人對拉爾·卡斯特羅起訴的看法",
-        "url": "https://www.bbc.com/news/videos/cy92ge22298o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 20:52:52 GMT",
-        "summary_zh": "美國司法部對古巴前領導人拉爾·卡斯特羅提起指控，指控他涉及1996年兩架民用飛機墜毀的案件。這起指控涉及謀殺和其他罪行。古巴裔美國人對此事件的反應各異，有些人認為這是對卡斯特羅的正義，有些人則認為這是政治操弄。這起指控可能會對古巴與美國的關係產生影響。美國政府的行動可能會受到各方的批評和支持。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c2fdeef7",
-        "title": "美國航班因誤登乘客從埃博拉疫區飛往加拿大",
-        "url": "https://www.bbc.com/news/articles/c0m2k79mv2ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 22:28:39 GMT",
-        "summary_zh": "一架美國航班因誤登乘客從埃博拉疫區飛往加拿大。該乘客來自剛果民主共和國，當局尚未確認該乘客是否出現埃博拉病毒症狀。這起事件發生在美國航班準備飛往美國時，機組人員發現該乘客誤登機上。為了確保乘客和機組人員的安全，機組人員決定將航班改道飛往加拿大進行檢查。加拿大當局已經接管該乘客，並正在進行檢查。美國和加拿大當局正在合作處理這起事件。這起事件提醒了我們對埃博拉疫區乘客的安全檢查的重要性。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "219ef086",
-        "title": "六歲男孩向教師開槍案官員罪名被撤銷",
-        "url": "https://www.bbc.com/news/articles/cy82y34y101o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 16:20:36 GMT",
-        "summary_zh": "一名六歲男孩在 2023 年向一名教師開槍，教師在事件中須接受手術。近期，該事件相關的官員罪名被撤銷。這一事件發生在一所學校內，教師在受傷後仍能夠康復。事件的背景是該男孩的行為被視為兒童行為失常，相關的法律和社會問題引起了廣泛的關注。官員罪名被撤銷後，社會上對兒童行為失常和教育系統的責任問題引起了新的爭議。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e1a3fe55",
-        "title": "唐納德·川普·小兒前妻范妮莎·川普診斷出乳腺癌",
-        "url": "https://www.bbc.com/news/articles/c93xve8w4yyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 16:52:20 GMT",
-        "summary_zh": "范妮莎·川普宣布自己接受了醫療程序，並要求公眾給予她隱私，讓她能夠專心於健康。根據了解，范妮莎·川普是唐納德·川普·小兒的前妻，兩人曾在2018年離婚。范妮莎·川普在離婚後仍然與唐納德·川普·小兒的孩子們保持良好關係。范妮莎·川普的健康狀況目前尚未公布詳細內容，唐納德·川普·小兒也沒有對此做出任何回應。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4cb0392a",
-        "title": "川普 IRS 和解可能阻止他、家人和企業的稅務稽查",
-        "url": "https://www.bbc.com/news/articles/cn0pk2e22jro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 22:31:00 GMT",
-        "summary_zh": "美國總統川普與美國稅務局 (IRS) 農曆前年達成和解協議，涉及他、家人和企業的稅務稽查。然而，有些立法者和法律專家認為，美國稅務局違反了聯邦法律，將這個和解協議的附件作為阻止稅務稽查的理由。這些法律專家指出，這個和解協議的附件可能違反了稅務法規，讓川普及其家人和企業免於受稅務稽查的影響。這引發了對川普和他的家族企業是否違反稅法的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "df6b91f9",
-        "title": "卡斯達批評美國司法部「反濫權」基金：我該不該領補償？",
-        "url": "https://thehill.com/media/5890632-acosta-doj-anti-weaponization-fund/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 02:27:27 +0000",
-        "summary_zh": "前CNN白宮記者卡斯達（Jim Acosta）週四質疑美國司法部「反濫權」基金是否應該給予他補償。他在社交媒體上寫道，川普總統在2018年就曾經奪走他的白宮記者證，違反了他的第一和第五修正案權利，這是政府長期努力摧毀他的職業生涯的一部分。卡斯達在2018年被川普總統的記者證被撤銷後，曾經提起訴訟，最後獲得了勝訴。卡斯達認為，這項補償是他應該得到的，因為他遭受了政府的濫權。這項補償將來自於司法部的「反濫權」基金，這項基金是為了幫助那些遭受政府濫權的人士。卡斯達的言論引發了對政府濫權和新聞自由的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4dc23559",
-        "title": "川普譴責南卡羅來納州AG候選人：你是個完全的騙子！",
-        "url": "https://thehill.com/homenews/campaign/5890652-sc-gop-ag-primary-trump-pascoe/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 02:07:29 +0000",
-        "summary_zh": "川普總統在南卡羅來納州共和黨人士面前，呼籲他們在即將到來的黨內初選中不要支持州檢察長候選人戴維·帕斯科。川普稱帕斯科是一個「完全的騙子」，因為他在去年改黨，從民主黨轉到共和黨。川普還批評帕斯科在過去曾支持拜登，並將他描述為一名「共和黨內的民主黨人」。川普的譴責是針對帕斯科在去年改黨的決定，川普認為這是帕斯科試圖利用共和黨的名義來進入政治圈。川普的呼籲可能會對帕斯科的競選造成影響，特別是在南卡羅來納州共和黨人士中。川普的譴責也可能會加深南卡羅來納州共和黨人士對帕斯科的不信任感。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f27b9047",
-        "title": "川普總統讚揚立法案將日光節約時間永久化",
-        "url": "https://thehill.com/homenews/administration/5890568-trump-praises-daylight-saving-bill/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 01:21:50 +0000",
-        "summary_zh": "川普總統在週四表揚美國眾議院能源委員會通過一項立法案，將日光節約時間永久化。該委員會以 48:1 的投票結果通過了《陽光保護法案》，該法案由佛羅里達州共和黨參議員里克·史考特和眾議員文·布坎南提出，該法案包含在更大的交通基建方案中。該法案的通過意味著美國將不再需要每年更改時間，讓美國人可以享受永久的夏令時間。這項立法案的通過受到美國總統川普的讚揚，他認為這將對美國經濟和生活方式產生積極影響。然而，這項立法案的未來發展仍存疑問，需要等待美國國會的通過。該法案的通過也引發了對美國時間制度的討論，許多人認為這將對美國人的生活方式產生重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "073640e1",
-        "title": "共和黨議員對參議院推遲移民經費案表達不滿",
-        "url": "https://thehill.com/homenews/house/5890546-immigration-reconciliation-bill-delay-frustration/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Fri, 22 May 2026 00:01:36 +0000",
-        "summary_zh": "美國共和黨議員對參議院推遲移民經費案的投票感到不滿，參議院將移民經費案的投票推遲到下個月，違反了特朗普總統自我設定的6月1日截止日期。共和黨人希望通過這個案子不需要民主黨的投票，但參議院的決定卻讓這個計畫無法如期完成。這項移民經費案的推遲將對美國的移民政策產生重大影響，共和黨人認為這是參議院對總統的不尊重。這項案子的推遲將使得移民政策的未來變得更加不確定。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2296208f",
-        "title": "美國民主黨第一位要求黨主席馬丁辭職的國會議員出爐",
-        "url": "https://thehill.com/homenews/campaign/5890506-rep-veasey-calls-dnc-chair-ken-martin-resignation/",
-        "source": "The Hill",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 23:29:17 +0000",
-        "summary_zh": "美國民主黨國會議員馬克·韋塞 (Marc Veasey) 表示，他認為民主黨全國委員會 (DNC) 主席肯·馬丁 (Ken Martin) 應該「走人」。這是因為黨內對於 2024 年選舉失利的自我檢視報告遭到批評。馬克·韋塞說，「似乎沒有計畫來改善局面，時間正在流逝」。這位國會議員的表態是對黨內領導的批評。民主黨在 2024 年選舉中失利的原因尚未明確，但黨內領導人正在努力找出原因並制定改善計畫。馬丁的領導是否會受到影響，尚待觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c10fe802",
-        "title": "白宮發布白皮書：川普政府終止拜登政府制冷劑規範",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/05/fact-sheet-president-donald-j-trump-reverses-biden-era-refrigerant-rules/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 21 May 2026 15:54:38 +0000",
-        "summary_zh": "美國總統川普宣布終止拜登政府制定的一系列制冷劑規範，該規範對冰箱和空調產生了嚴重影響。這些規範不僅增加了制冷劑的成本，也使得運輸和儲存冷凍貨物的成本大幅增加，從而使得食物和其他商品的價格上漲。這一決定被視為對美國家庭的幫助，同時也降低了生活成本。這一行動被認為是對拜登政府的反制，川普政府試圖減少對美國家庭的負擔。這一決定將對美國的冷鏈業界產生重大影響，可能會導致制冷劑的需求增加，從而影響到全球的制冷劑市場。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       }
