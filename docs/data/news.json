@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-25T19:04:04.542581+08:00",
+  "generated_at": "2026-05-25T20:04:09.346168+08:00",
   "risk_signals": [
     "🟢 台股加權 43644.4（正常）",
     "🟢 S&P 500 7473.47（正常）",
-    "🟢 VIX 恐慌指數 16.64（正常）",
+    "🟢 VIX 恐慌指數 16.65（正常）",
     "🟢 MOVE 債市波動 78.43（正常）",
-    "🟢 美元指數 98.99（正常）",
+    "🟢 美元指數 98.94（正常）",
     "🟢 黃金 4523.2（正常）",
     "🟡 美債10Y殖利率 4.56（留意）",
     "🟢 原油 WTI 96.6（正常）",
-    "🟢 美元/台幣 31.41（正常）"
+    "🟢 美元/台幣 31.38（正常）"
   ],
-  "ai_summary": "市場目前處於穩定狀態，多個指標均在正常範圍內。然而，美債10年殖利率略微上升，值得關注。整體來說，市場仍然保持著相對穩定的氣氛。",
+  "ai_summary": "市場氛圍穩定，多個指標回歸正常水平，表明投資者情緒恢復樂觀。美元指數和美債10Y殖利率的走勢需要密切關注。",
   "market": {
     "TWII": {
       "price": 43644.4,
@@ -26,8 +26,8 @@
       "change_pct": 0.19
     },
     "VIX": {
-      "price": 16.64,
-      "change_pct": -0.36
+      "price": 16.65,
+      "change_pct": -0.3
     },
     "TNX": {
       "price": 4.56,
@@ -38,8 +38,8 @@
       "change_pct": -1.62
     },
     "DXY": {
-      "price": 98.99,
-      "change_pct": -0.33
+      "price": 98.94,
+      "change_pct": -0.38
     },
     "GOLD": {
       "price": 4523.2,
@@ -50,30 +50,128 @@
       "change_pct": 0.0
     },
     "USDTWD": {
-      "price": 31.41,
-      "change_pct": -0.45
+      "price": 31.38,
+      "change_pct": -0.56
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "e3cb8790",
+        "title": "總統對五旬節的致辭",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-pentecost/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Sun, 24 May 2026 20:26:47 +0000",
+        "summary_zh": "美國總統與夫人梅拉尼亞在全國各地以及全球各地的基督徒們一起慶祝五旬節的奇蹟，並誕生了基督教會。五旬節的前五十天是復活節後的奇蹟，聖經中記載聖靈降臨在耶路撒冷的使徒們身上，帶著火舌的語言，勝利地完成了基督的承諾，並給了他們勇氣和神聖的權威，宣揚上帝的信息給每一個民族和人民。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9c060e7d",
+        "title": "石油價格下跌 美伊和解希望升溫",
+        "url": "https://www.bbc.com/news/articles/c809m7g29r7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Mon, 25 May 2026 10:39:18 GMT",
+        "summary_zh": "美國總統川普週六表示，美伊和解協議將包括重新開放霍爾木茲海峽，但未提供進一步細節。石油價格因美伊關係改善的希望而下跌。霍爾木茲海峽是全球石油運輸的重要通道，美伊關係緊張曾導致該海峽封鎖，對全球石油供應造成重大影響。美伊關係改善的希望使投資者對全球石油供應感到更為樂觀，進而導致石油價格下跌。然而，美伊和解協議的具體內容尚未明確，投資者仍需密切關注該海峽的開放狀況。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cb876b57",
+        "title": "白宮附近發生槍擊案，嫌犯被擊斃",
+        "url": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Sun, 24 May 2026 15:24:11 GMT",
+        "summary_zh": "近日，白宮附近發生槍擊案，嫌犯向秘密服務局人員開火，造成一名路人受傷。根據官員的說法，嫌犯在白宮附近的檢查點附近出現並開火，導致一名路人受傷。事件發生後，嫌犯被擊斃。這起槍擊案的原因尚未明確，但官員表示正在調查中。這起事件再次提醒了美國國內的安全問題，白宮附近的安全措施將會受到關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4cc6540c",
+        "title": "川普在伊朗問題上與共和黨人發生分歧：總統堅稱「我不會簽署壞約」",
+        "url": "https://www.theguardian.com/us-news/2026/may/25/trump-news-at-a-glance-latest-updates-today",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 25 May 2026 02:00:13 GMT",
+        "summary_zh": "川普總統在社交媒體上堅稱，他的與伊朗達成的協議將是「與奧巴馬政府簽署的協議完全相反」。這一聲明出現於共和黨內部對於川普與伊朗達成協議的批評之際。共和黨內部的鹹鷹們認為，該協議將是一個災難，並質疑川普為什麼要發動對伊朗的戰爭。川普總統在2018年曾經退出奧巴馬政府與伊朗簽署的協議。目前尚未清楚，川普與伊朗的協議具體內容為何。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bb1e9535",
+        "title": "加州南部化學罐車超熱「將會失效」 美國環保署長警告",
+        "url": "https://www.theguardian.com/us-news/2026/may/24/chemical-tank-california-epa-lee-zeldin",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 24 May 2026 19:36:14 GMT",
+        "summary_zh": "美國環保署署長李察·澤爾丁（Lee Zeldin）在接受CNN採訪時表示，加州橙縣的一個化學罐車因超熱而有可能失效，引發化學爆炸風險。政府官員警告，該罐車失效後可能會釋放可燃化學品，造成爆炸風險。澤爾丁表示，罐車失效的可能性已經被確認，但還沒有確定失效後會發生什麼樣的情況。該化學罐車位於迪士尼樂園附近，引發了當地居民的擔憂。美國環保署署長澤爾丁是一位前共和黨國會議員，沒有任何環保政策經驗，但由川普總統任命為環保署長。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9798cc35",
+        "title": "特朗普在中期選舉前，已經令選民感到失望，共和黨人士警告",
+        "url": "https://www.theguardian.com/us-news/2026/may/24/thomas-massie-trump-republican-voters-midterms",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 24 May 2026 16:49:48 GMT",
+        "summary_zh": "共和黨的美國國會議員托馬斯·馬西 (Thomas Massie) 表示，共和黨在今年 11 月的中期選舉中，將會面臨嚴重的選民失望反彈。托馬斯·馬西是肯塔基州的共和黨人士，於本週的黨內初選中被挑選的對手擊敗。托馬斯·馬西在過去一直與特朗普有所分歧，包括對伊朗的軍事行動、政府開支和Jeffrey Epstein 案的文件釋放。托馬斯·馬西的敗選是共和黨內對特朗普的失望之聲的最新表現。共和黨人士認為，特朗普的行為已經令選民感到失望，可能會影響共和黨在中期選舉中的表現。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "84d45800",
+        "title": "白宮外槍擊案嫌犯曾被秘密警察識別",
+        "url": "https://www.theguardian.com/us-news/2026/may/24/white-house-shooting-gunman-suspect",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 24 May 2026 16:46:38 GMT",
+        "summary_zh": "近日，一名21歲男子在白宮外開槍射擊，遭到聯邦特工擊斃。根據法院文件顯示，這名男子在去年夏天曾試圖闖入白宮，並被秘密警察識別。事件發生後，男子被送往附近醫院，後被宣告死亡。該男子的行為引起了警方的關注，當地法院於2025年發布了一份訴訟文件，披露了這名男子的前科。這起槍擊案的原因尚不明朗，但已經引起了對白宮安全的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "global": [
       {
         "id": "4d1a42e6",
         "title": "與美國達成協議不近期內發生，伊朗外長表示",
         "url": "https://www.bbc.com/news/articles/cglpp2yk336o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "source": "BBC World",
         "category": "global",
-        "published_at": "Mon, 25 May 2026 09:39:15 GMT",
+        "published_at": "Mon, 25 May 2026 11:17:49 GMT",
         "summary_zh": "伊朗外長在美國國務卿表示可能在星期一公布協議後表示，與美國達成協議不近期內發生。伊朗外長的這番話是針對美國國務卿的最新發言作出的回應。美國國務卿之前表示，可能在星期一公布與伊朗的協議。伊朗外長的表態表明，伊朗對於與美國達成協議仍然存在著一定的疑慮和不確定性。這一發展可能會對中東地區的局勢產生一定的影響。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
+        "id": "784365d6",
+        "title": "中國近年來最慘重的煤礦災難引發民怨",
+        "url": "https://www.bbc.com/news/articles/c893543gn20o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 25 May 2026 08:00:35 GMT",
+        "summary_zh": "中國近日發生了一場煤礦災難，造成至少 21 人死亡，成為近年來最慘重的煤礦災難。這起事故引發了民眾的強烈不滿和質疑，網路上有人呼籲追究責任，另有人質疑政府如何防止這種悲劇發生。中國的煤礦業一直是安全問題嚴重的領域，多年來有過多起重大事故。這次的災難再次引起了對政府和煤礦業主的關注和批評。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "59c7f737",
         "title": "她被告知要嫁給一個禁止女孩受教育的國家的男人。於是她登上計程車逃離",
         "url": "https://www.bbc.com/news/articles/ce3pgn48wnqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "source": "BBC World",
         "category": "global",
         "published_at": "Sun, 24 May 2026 21:02:08 GMT",
         "summary_zh": "近五年來，該國禁止女孩上學的政策實施，年輕女性表示他們已經放棄了自己的夢想。這些年輕女性面臨著嚴重的教育限制，許多人被迫結婚，放棄自己的教育和理想。許多人選擇逃離家鄉，尋求更好的生活機會。這些女性的故事揭露了該國對女性教育的限制和對女性的壓迫。這些年輕女性的決定表明了對教育和自由的渴望。",
@@ -82,46 +180,10 @@
         "ai_classified": true
       },
       {
-        "id": "470d4960",
-        "title": "俄羅斯對烏克蘭發動大規模攻擊，烏克蘭多人受傷",
-        "url": "https://www.bbc.com/news/articles/clyp6831yp5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 25 May 2026 04:45:13 GMT",
-        "summary_zh": "烏克蘭發生大規模攻擊事件，俄羅斯對烏克蘭發動一波攻擊，造成烏克蘭多人受傷，包括一名15歲的男孩。受影響的區域包括烏克蘭首都基輔的所有區域。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6329d610",
-        "title": "土耳其警方衝入反對黨總部",
-        "url": "https://www.bbc.com/news/articles/c87qwrqre83o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 24 May 2026 19:49:39 GMT",
-        "summary_zh": "土耳其警方近日衝入反對黨總部，事件發生在反對黨領導人被法院罷免後不久。該黨領導人在被罷免後表示會拒絕法院的判決。警方的行動引發了對土耳其民主和人權的擔憂。這一事件可能會對土耳其政治局勢產生重大影響。土耳其政府的行動被視為對反對黨的鎮壓。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c3346465",
-        "title": "加州超過4萬人撤離因化學罐漏",
-        "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Sun, 24 May 2026 18:51:00 GMT",
-        "summary_zh": "加州近日發生化學罐漏事件，超過4萬名居民被迫撤離。官員警告，這個罐子裡面含有「極度易爆」物質，可能引發爆炸。事件發生在加州南部，附近的居民被要求立即撤離，官員正在努力控制局勢。這次事件的影響仍在評估中，但已經有多家企業因為事件而暫停運作。官員表示，正在盡一切努力確保居民的安全。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "5dbd215a",
         "title": "巴基斯坦火車爆炸案至少20人喪生",
         "url": "https://www.bbc.com/news/articles/cm2pkd58xldo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "source": "BBC World",
         "category": "global",
         "published_at": "Sun, 24 May 2026 22:11:51 GMT",
         "summary_zh": "巴基斯坦發生火車爆炸案，至少20人喪生。當地官員表示，該火車正在運送軍事人員回家過節時，被武裝分子襲擊。火車爆炸案發生在巴基斯坦西北部的克拉利區。這起事件引起了國際社會的關注和譴責。巴基斯坦政府已經展開了調查和應對措施。這起事件的影響還不清楚，但已經引起了對巴基斯坦安全局勢的擔憂。",
@@ -130,46 +192,10 @@
         "ai_classified": true
       },
       {
-        "id": "ae132843",
-        "title": "英國防長專機在俄羅斯邊境附近遭信號干擾",
-        "url": "https://www.bbc.com/news/articles/clyp0jrxv7ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 24 May 2026 21:30:13 GMT",
-        "summary_zh": "英國皇家空軍一架運載防長的戰機，在靠近俄羅斯邊境時遭到信號干擾，導致GPS系統失效。飛行員們不得不使用備用導航系統繼續飛行。這一事件的具體原因尚未明確，但英國政府已經對此進行調查。這一事件可能與俄羅斯近期的軍事活動有關，俄羅斯近期一直在邊境附近進行軍事演習。這一事件可能對英國和俄羅斯的關係產生影響，英國政府可能會對此進行更多的評估和回應。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4a040c69",
-        "title": "埃博拉疫情擔憂巨大，護士發出警告",
-        "url": "https://www.bbc.com/news/articles/cy421wgr2mpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 24 May 2026 17:46:14 GMT",
-        "summary_zh": "埃博拉疫情在剛果民主共和國持續惡化，護士凱特·懷特（Kate White）表示，她對於無法獲得足夠的資源來應對疫情感到非常擔憂。疫情的爆發對當地居民和醫護人員造成了巨大的挑戰。根據最新的數據，疫情已經導致數百人死亡。醫護人員面臨著資源短缺和人員不足的困境，無法提供充分的醫療服務。這種情況下，疫情的控制和防止擴散變得更加困難。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ed111cc0",
-        "title": "澳洲東北海岸一名男子在游泳時遭白鯊攻擊身亡",
-        "url": "https://www.bbc.com/news/articles/cn9pq5l2d14o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 24 May 2026 15:29:08 GMT",
-        "summary_zh": "一名39歲男子在昆士蘭州卡索威海岸（Cassowary Coast）的一個礁盤游泳時遭白鯊攻擊，嚴重受傷不治。這是澳洲近年來的第三起白鯊攻擊事件。白鯊攻擊事件在澳洲相對罕見，但近年來卻有所增加。許多專家認為，這可能與氣候變化和海洋生態系統的改變有關。這起事件也引起了對白鯊行為和保護措施的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "a445b20f",
         "title": "菲律賓建築物倒塌事件：24人獲救無人死亡",
         "url": "https://www.bbc.com/news/articles/cgqpklv42jeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "source": "BBC World",
         "category": "global",
         "published_at": "Sun, 24 May 2026 14:25:00 GMT",
         "summary_zh": "菲律賓近日發生建築物倒塌事件，救援人員展開緊急搜索與營救行動。截至目前，已經成功救出24名受困者，報告中未提及任何死亡案例。這起事故發生在首都馬尼拉附近的城市。事件的具體原因尚待調查。菲律賓政府正在與救援人員合作，確保受影響地區的安全。這起事故對當地居民造成了嚴重影響，政府正在提供援助與支持。",
@@ -178,25 +204,13 @@
         "ai_classified": true
       },
       {
-        "id": "174d3d10",
-        "title": "玻利維亞部長巡視道路封鎖時遭遇襲擊",
-        "url": "https://www.bbc.com/news/articles/ce3pdw1z59do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "c3346465",
+        "title": "加州超過4萬人撤離因化學罐漏",
+        "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Sun, 24 May 2026 11:42:48 GMT",
-        "summary_zh": "玻利維亞內部出現嚴重動盪，政府的經濟政策引發民眾不滿，當地部長的巡視車隊遭遇襲擊。安全部隊試圖清除公路障礙，但遭到民眾的抵抗。這場抗議活動是對政府經濟政策的反彈，民眾要求政府改善經濟狀況和生活質量。政府的應對措施仍未見明顯效果，動盪情況仍在持續。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0e741dbb",
-        "title": "紅十字會志願者在剛果民主共和國疑似死於埃博拉",
-        "url": "https://www.bbc.com/news/articles/c759knxln0wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 24 May 2026 11:09:54 GMT",
-        "summary_zh": "剛果民主共和國埃博拉爆發的背景是，紅十字會志願者在該國疑似死於埃博拉病毒。根據紅十字會的說法，這些志願者可能是在爆發前就感染了病毒。紅十字會表示，這些志願者在爆發前就接觸了病毒，導致他們的死亡。這一事件凸顯了埃博拉爆發的嚴重性和紅十字會志願者的風險。紅十字會將繼續在該國進行救援工作，盡力降低志願者的風險。",
+        "published_at": "Mon, 25 May 2026 11:15:29 GMT",
+        "summary_zh": "加州近日發生化學罐漏事件，超過4萬名居民被迫撤離。官員警告，這個罐子裡面含有「極度易爆」物質，可能引發爆炸。事件發生在加州南部，附近的居民被要求立即撤離，官員正在努力控制局勢。這次事件的影響仍在評估中，但已經有多家企業因為事件而暫停運作。官員表示，正在盡一切努力確保居民的安全。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -236,9 +250,105 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "470d4960",
+        "title": "俄羅斯對烏克蘭發動大規模攻擊，烏克蘭多人受傷",
+        "url": "https://www.bbc.com/news/articles/clyp6831yp5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 25 May 2026 04:45:13 GMT",
+        "summary_zh": "烏克蘭發生大規模攻擊事件，俄羅斯對烏克蘭發動一波攻擊，造成烏克蘭多人受傷，包括一名15歲的男孩。受影響的區域包括烏克蘭首都基輔的所有區域。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6329d610",
+        "title": "土耳其警方衝入反對黨總部",
+        "url": "https://www.bbc.com/news/articles/c87qwrqre83o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 24 May 2026 19:49:39 GMT",
+        "summary_zh": "土耳其警方近日衝入反對黨總部，事件發生在反對黨領導人被法院罷免後不久。該黨領導人在被罷免後表示會拒絕法院的判決。警方的行動引發了對土耳其民主和人權的擔憂。這一事件可能會對土耳其政治局勢產生重大影響。土耳其政府的行動被視為對反對黨的鎮壓。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ed111cc0",
+        "title": "澳洲東北海岸一名男子在游泳時遭白鯊攻擊身亡",
+        "url": "https://www.bbc.com/news/articles/cn9pq5l2d14o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 24 May 2026 15:29:08 GMT",
+        "summary_zh": "一名39歲男子在昆士蘭州卡索威海岸（Cassowary Coast）的一個礁盤游泳時遭白鯊攻擊，嚴重受傷不治。這是澳洲近年來的第三起白鯊攻擊事件。白鯊攻擊事件在澳洲相對罕見，但近年來卻有所增加。許多專家認為，這可能與氣候變化和海洋生態系統的改變有關。這起事件也引起了對白鯊行為和保護措施的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4a040c69",
+        "title": "埃博拉疫情擔憂巨大，護士發出警告",
+        "url": "https://www.bbc.com/news/articles/cy421wgr2mpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 24 May 2026 17:46:14 GMT",
+        "summary_zh": "埃博拉疫情在剛果民主共和國持續惡化，護士凱特·懷特（Kate White）表示，她對於無法獲得足夠的資源來應對疫情感到非常擔憂。疫情的爆發對當地居民和醫護人員造成了巨大的挑戰。根據最新的數據，疫情已經導致數百人死亡。醫護人員面臨著資源短缺和人員不足的困境，無法提供充分的醫療服務。這種情況下，疫情的控制和防止擴散變得更加困難。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "c935c02e",
+        "title": "竣邦-KY啟動越南織染一貫廠 布局全球機能布料供應鏈",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5449225",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 25 May 2026 19:46:39 +0800",
+        "summary_zh": "竣邦-KY（4442）今日召開股東常會，通過2025年度盈餘分配案，決議配發每股現金股利3.5元，創歷年新高。公司表示，這是為了回饋股東的信任和支持，並且是公司全球布局的一部分。竣邦-KY正在越南設立一貫廠，將擴大公司的織染能力，進一步強化全球機能布料供應鏈。公司預計通過這項投資，能夠提高生產效率和降低成本，從而帶來更好的業績。這項投資將對公司的競爭力和市場占有率產生積極影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8dcfc7b2",
+        "title": "華新將再賣華邦電1萬4145張 估約套現18.18億元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5449223",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 25 May 2026 19:44:28 +0800",
+        "summary_zh": "華邦電大股東華新宣布將轉讓1萬4145張華邦電股票，預計5月28日至6月27日進行一般交易。根據目前的收盤價，華新可套現約18.18億元。這是華新持有華邦電股份的又一次出售行動，華新持有華邦電約6.5%的股份。華新出售的股份將對華邦電的股價產生影響，投資者應密切關注華邦電的股價變動。華新出售股份的動機尚未明確，投資者需要考慮華新出售股份的原因和對華邦電的影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c8f5e478",
+        "title": "AI長照機器人來了！臺東大學推「智慧陪伴員」會聊天還懂情緒",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5449211",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 25 May 2026 19:30:56 +0800",
+        "summary_zh": "數位發展部積極推動「AI花園：科技共榮×教育扎根」計畫，與國立臺東大學、國立雲林科技大學及佛光大學等3所大學合作，媒合50家在地產業。這項計畫旨在結合科技和教育，推動在地產業的發展。今年，計畫將進一步擴大規模，與更多大學和產業合作。其中，臺東大學推出「智慧陪伴員」，是一款AI長照機器人，可以與老人聊天，並了解他們的情緒需求。這項技術有望改善老年人的生活質量和心理健康。計畫的成功將對在地產業和老年人的生活帶來重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7505ffff",
+        "title": "富邦金首季獲利亮眼 北富銀評估進軍美韓市場",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5449183",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 25 May 2026 19:02:51 +0800",
+        "summary_zh": "富邦金控在2026年第1季法說會上公布了亮眼的財務數據，稅後盈餘達335.5億元，EPS為2.40元，均位居業界第一。總經理韓蔚廷表示，子公司的獲利動能強勁是主要原因。富邦金控的這一成績表明公司在金融服務領域的競爭力和穩定性。然而，富銀評估進軍美韓市場的可能性，表明公司正在擴張業務。這一發展可能會對公司的未來財務表現產生重大影響。總體來說，富邦金控的財務表現令人鼓舞，但進軍美韓市場的風險也值得關注。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "9188eb5d",
         "title": "28歲工程師靠「幫忙遛狗」每月多賺19萬元",
@@ -248,8 +358,8 @@
         "published_at": "Mon, 25 May 2026 18:55:14 +0800",
         "summary_zh": "一名28歲的美國紐約工程師，利用空餘時間替人遛狗，成功打造出月收6千美元（約新台幣19萬元）的副業。他在白天照常上班，利用凌晨、午休、下班後的時間替人遛狗，為自己創造了額外的收入。這名工程師的副業生意迅速發展，讓他能夠在短時間內達到如此高的收入。這個案例表明，人們可以通過創造副業來增加收入，甚至達到月收十幾萬元的水平。然而，這名工程師的副業生意也需要他花費大量時間和精力，包括早上6點起床遛狗、下班後再遛狗等。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "9c376877",
@@ -260,8 +370,8 @@
         "published_at": "Mon, 25 May 2026 18:52:56 +0800",
         "summary_zh": "房市持續量縮盤整，中央銀行公布4月本國銀行房貸與建築貸款統計。儘管房貸餘額創歷史新高，但年增率仍低於5%，是8年來最低。建築貸款餘額連兩月下滑，顯示建商需求減弱。這些數據表明房市正進入盤整期，房貸增速的下滑可能是市場的警訊。房貸餘額的歷史新高雖然令人驚訝，但年增率的下滑卻是房市的負面信號。建築貸款的連續下滑則意味著建商的需求正在減弱，房市的量縮可能會持續。房市的盤整期可能會持續一段時間，投資者需要謹慎觀察市場的變化。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "110c182c",
@@ -272,8 +382,8 @@
         "published_at": "Mon, 25 May 2026 18:40:50 +0800",
         "summary_zh": "台經院今天公布4月製造業、服務業、營造業營業氣候測驗點皆呈現上揚。這是連續兩個月止跌。台經院景氣預測中心主任孫明德表示，資通視聽與電子商品的業績佳，主要是因為AI技術的加持，預計這個趨勢將持續到年底。另一方面，傳產部分，因為中東戰爭的影響，石油價格上升，導致相關產業的營業氣候也有所改善。台經院認為，這些跡象表明今年不僅AI產業有成長，傳產業也開始有起色。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "4c3a9bc5",
@@ -284,8 +394,8 @@
         "published_at": "Mon, 25 May 2026 18:37:55 +0800",
         "summary_zh": "中國近期升高資金外流管制，進一步打擊跨境股票交易的措施，可能對2500億港元（約1.0029兆台幣）的資產造成影響。中信證券分析師表示，這些措施可能會對富途控股等公司造成影響。富途控股是一家提供跨境股票交易服務的公司，中國的管制措施可能會限制其業務發展。分析師估計，這些措施可能會對香港資產造成重大影響，甚至可能導致資產流失。這些措施的出台，可能會對香港的金融市場造成重大影響，投資者應該密切關注這些發展。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "dcde999c",
@@ -296,11 +406,59 @@
         "published_at": "Mon, 25 May 2026 18:26:58 +0800",
         "summary_zh": "市場對美伊協議達成抱有期待，美元回落，加上AI雙巨頭執行長抵台，AI概念股持續發威，台股狂噴上千點，大盤指數飛越4萬3再度創下歷史新高。這些因素合力推動熱錢回流，新台幣兌美元匯率盤中一度升至31.3，連續四天走紅。這種市場情緒的變化，顯示投資人對台股和新台幣的信心正在增強。然而，市場的波動性仍然很高，投資人需要保持謹慎的態度。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "finance": [
+      {
+        "id": "6ddc4c09",
+        "title": "新加坡GDP增長超預期，AI業的爆發抵消了中東戰爭的影響",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-25/singapore-gdp-grows-faster-than-expected-as-ai-boom-counters-war",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-25 00:00:00",
+        "summary_zh": "新加坡政府最新公布的數據顯示，該國今年第一季度的經濟增長超出了預期，達到3.8%。然而，新加坡政府同時也表示，該國今年的經濟增長前景已經因為中東戰爭導致的能源短缺而受到了影響。該國經濟部長表示，全球經濟增長受到的威脅正在增加，儘管AI業的快速發展帶來了新的機會。新加坡政府正在密切關注全球經濟的變化，準備應對未來的挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "f8f9a965",
+        "title": "日本國債收益率大幅上升　區域銀行股價分化加劇",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-24/japan-bond-yield-surge-deepens-regional-bank-stock-divide",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-24 23:37:45",
+        "summary_zh": "日本國債收益率大幅上升，對區域銀行股價造成重大影響。根據最新數據，日本國債收益率已經超過 2%，這使得區域銀行的股價分化加劇。一些分析師認為，這種情況可能會導致區域銀行的股價下跌，而其他人則認為這是一個購買機會。日本央行的政策也受到關注，因為它可能會影響區域銀行的股價。區域銀行的股價分化加劇，可能會對整個金融市場產生重大影響。分析師們正在密切關注這種情況的發展，為投資者提供最新的市場趨勢。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "cfaa67d8",
+        "title": "英國大學裁員、減少研究與教學　因外國學生數量大幅下降",
+        "url": "https://www.ft.com/content/ded7dfbd-de0d-477d-8d0c-b2a6d8acc5c2",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-24 23:01:01",
+        "summary_zh": "英國大學因外國學生數量大幅下降，導致收入減少，許多大學決定裁員、減少研究與教學。這種情況對英國的經濟創新和學術人才培育產生了重大影響。英國大學聯合會表示，這種情況是「非常銳利的下降」，將對英國的學術人才培育產生長期影響。英國政府應該採取措施支持大學，幫助他們應對這種挑戰。這種情況也會對英國的經濟創新產生影響，因為大學是創新和技術發展的重要推動者。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "dd1fa751",
+        "title": "看似精明其實浪費人生？7種錯誤省錢法快點停止",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5449124",
+        "source": "自由時報財經",
+        "category": "finance",
+        "published_at": "Mon, 25 May 2026 19:27:06 +0800",
+        "summary_zh": "減少浪費固然重要，但有些省錢習慣帶來的麻煩，遠遠超過它們能幫你省下的那點小錢。專家指出，為了省一點油錢，繞遠路行走，買了不用的東西，為了節省電費，關掉所有的電器，甚至為了省錢，拒絕接受升薪等，都被視為不值得堅持的節儉習慣。這些習慣不僅浪費時間和精力，還可能對健康和關係造成負面影響。專家建議，應該找出真正有用的省錢方法，例如合理分配預算，控制消費習慣等。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "585a152c",
         "title": "印度尼西亞籌劃在未來幾周內公布商品出口政策細則",
@@ -310,8 +468,8 @@
         "published_at": "2026-05-24 23:00:00",
         "summary_zh": "印度尼西亞政府正在籌劃在未來幾周內公布商品出口政策細則。根據消息，該政策將針對礦物、農產品和能源等商品進行規範。印度尼西亞是全球重要的礦物和能源出口國，該政策的出台將對該國出口業有重大影響。政府官員表示，政策細則將在未來幾周內公布，並將針對出口業的需求和挑戰進行調整。這一政策出台的背景是，印度尼西亞政府希望通過出口業促進經濟成長和就業。然而，這一政策的具體內容和影響尚未明確。印度尼西亞出口業的發展將受到政策的影響，出口業者應該密切關注政策的進展。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "4c3d5514",
@@ -322,8 +480,8 @@
         "published_at": "2026-05-24 23:00:00",
         "summary_zh": "台積會近期呼籲全球資產管理業發展，指出目前全球資產管理業規模達到 6300 億美元，仍有很大的發展空間。台積會認為，資產管理業的發展對於促進全球經濟穩定和可持續性發展具有重要作用。台積會還提到，資產管理業的發展也能夠創造就業機會和刺激經濟增長。根據台積會的數據，全球資產管理業的規模在過去十年內增長了近 50%。台積會呼籲資產管理業的企業和機構應該繼續投資和發展，為全球經濟提供穩定和可持續的金融服務。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "03212ceb",
@@ -334,8 +492,8 @@
         "published_at": "2026-05-24 22:53:34",
         "summary_zh": "黃金價格近日上漲，因為市場預期伊朗核協議的達成機會降低，從而減少了通膨擔憂。這一趨勢與美元的下跌有關，美元的下跌通常會推動投資者將資金轉移到黃金上。市場分析師表示，伊朗核協議的不確定性使得投資者對美元的信心下降，從而導致美元的下跌。同時，美聯儲的政策也對黃金價格有所影響。美聯儲的政策決定會對美元的走勢有所影響，而美元的走勢又會對黃金價格有所影響。因此，市場分析師認為，美聯儲的政策決定對黃金價格有著重要的影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "eca0a1b6",
@@ -346,8 +504,8 @@
         "published_at": "2026-05-24 22:07:57",
         "summary_zh": "石油價格和美元下跌，美伊和解的樂觀情緒支撐市場。美伊和解的消息引發市場的樂觀情緒，石油價格和美元下跌。石油價格下跌是因為市場認為美伊和解會減少對石油的需求。美元下跌是因為市場認為美伊和解會減少美元的流通量。市場分析師認為，美伊和解會對全球經濟產生重大影響。美伊和解可能會減少對石油的需求，從而減少石油價格。美元下跌也可能會對全球經濟產生重大影響。市場分析師認為，美元下跌會增加對美元的需求，從而增加美元的流通量。美伊和解的影響還不清楚，但市場分析師認為，美伊和解會對全球經濟產生重大影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "b456306c",
@@ -362,18 +520,6 @@
         "ai_classified": true
       },
       {
-        "id": "955742d5",
-        "title": "黃金將衝上1萬美元！華爾街大咖震撼預測",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5449023",
-        "source": "自由時報財經",
-        "category": "finance",
-        "published_at": "Mon, 25 May 2026 18:26:12 +0800",
-        "summary_zh": "近日，華爾街資深商品策略師柯里表示，黃金短期內可能面臨進一步回跌，但長期來看，他仍看好金價未來有機會衝上每盎司1萬美元。這個預測震撼了金融界，許多人都在關注黃金的走勢。柯里認為，黃金的價格受到多種因素的影響，包括經濟情況、政治風險和投資需求等。雖然短期內可能有波動，但他仍相信黃金的價格會在未來上升。這個預測對於投資者來說是一個重要的訊息，許多人都在思考如何利用黃金的價格變化來獲利。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
         "id": "97a18430",
         "title": "日本監管機構敦促企業以盈餘購買成長，而非股息",
         "url": "https://www.bloomberg.com/news/articles/2026-05-24/japan-regulator-urges-firms-to-use-cash-for-growth-not-returns",
@@ -386,27 +532,15 @@
         "ai_classified": true
       },
       {
-        "id": "a9d6d761",
-        "title": "貝寧新總統任命前任IMF經濟學家為財政部長",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-24/benin-s-wadagni-names-former-imf-economist-as-finance-minister",
-        "source": "Bloomberg",
+        "id": "955742d5",
+        "title": "黃金將衝上1萬美元！華爾街大咖震撼預測",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5449023",
+        "source": "自由時報財經",
         "category": "finance",
-        "published_at": "2026-05-24 20:41:21",
-        "summary_zh": "貝寧新總統羅馬爾·瓦達尼（Romuald Wadagni）宣布任命一位財政部門資深官員和前任國際貨幣基金組織（IMF）經濟學家為該國新財政部長。這位新任財政部長擁有豐富的經濟政策經驗和國際組織工作背景。貝寧政府對此表示歡迎，認為這將有助於國家財政政策的穩定和可持續性。然而，仍有許多人對新任財政部長的表現和政策方向表達了關切和期待。",
+        "published_at": "Mon, 25 May 2026 18:26:12 +0800",
+        "summary_zh": "近日，華爾街資深商品策略師柯里表示，黃金短期內可能面臨進一步回跌，但長期來看，他仍看好金價未來有機會衝上每盎司1萬美元。這個預測震撼了金融界，許多人都在關注黃金的走勢。柯里認為，黃金的價格受到多種因素的影響，包括經濟情況、政治風險和投資需求等。雖然短期內可能有波動，但他仍相信黃金的價格會在未來上升。這個預測對於投資者來說是一個重要的訊息，許多人都在思考如何利用黃金的價格變化來獲利。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7ec8a29a",
-        "title": "歐洲央行可能在六月份修正通膨預期，拉加德表示",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-24/ecb-likely-to-revise-its-inflation-outlook-in-june-lagarde-says",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-24 20:40:56",
-        "summary_zh": "歐洲央行主席拉加德表示，央行可能在六月份修正通膨預期。拉加德在最近的一次演講中表示，歐洲央行正在密切關注通膨情況，並且會根據最新的數據進行調整。目前，歐洲央行的通膨預期仍然偏低，拉加德表示，央行需要根據實際情況進行調整，以確保通膨率能夠達到目標。這一調整可能會對歐洲央行未來的貨幣政策產生影響。同時，拉加德也強調，央行需要保持耐心和穩健的貨幣政策，以確保經濟的穩定發展。",
-        "sentiment": "中性",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -505,130 +639,6 @@
         "summary_zh": "洛杉磯以名牌博物館如 Getty 和 Lacma 而聞名，但可能較少人知道，這座城市的中心隱藏著一個博物館，內藏世界上最為出色的化石遺址之一。拉布雷塔沼澤和博物館擁有超過 200 萬年的冰河時代植物和動物遺骸，包括長毛象和獵隼，當時被困在仍在今天冒泡的油膠池中。這座博物館最近進行了近 50 年來的第一次翻新工程，為這個冰河時代的化石遺址注入新生血液。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "9c060e7d",
-        "title": "石油價格下跌 美伊和解希望升溫",
-        "url": "https://www.bbc.com/news/articles/c809m7g29r7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 25 May 2026 10:39:18 GMT",
-        "summary_zh": "美國總統川普週六表示，美伊和解協議將包括重新開放霍爾木茲海峽，但未提供進一步細節。石油價格因美伊關係改善的希望而下跌。霍爾木茲海峽是全球石油運輸的重要通道，美伊關係緊張曾導致該海峽封鎖，對全球石油供應造成重大影響。美伊關係改善的希望使投資者對全球石油供應感到更為樂觀，進而導致石油價格下跌。然而，美伊和解協議的具體內容尚未明確，投資者仍需密切關注該海峽的開放狀況。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cb876b57",
-        "title": "白宮附近發生槍擊案，嫌犯被擊斃",
-        "url": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 24 May 2026 15:24:11 GMT",
-        "summary_zh": "近日，白宮附近發生槍擊案，嫌犯向秘密服務局人員開火，造成一名路人受傷。根據官員的說法，嫌犯在白宮附近的檢查點附近出現並開火，導致一名路人受傷。事件發生後，嫌犯被擊斃。這起槍擊案的原因尚未明確，但官員表示正在調查中。這起事件再次提醒了美國國內的安全問題，白宮附近的安全措施將會受到關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e3cb8790",
-        "title": "總統對五旬節的致辭",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-pentecost/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Sun, 24 May 2026 20:26:47 +0000",
-        "summary_zh": "美國總統與夫人梅拉尼亞在全國各地以及全球各地的基督徒們一起慶祝五旬節的奇蹟，並誕生了基督教會。五旬節的前五十天是復活節後的奇蹟，聖經中記載聖靈降臨在耶路撒冷的使徒們身上，帶著火舌的語言，勝利地完成了基督的承諾，並給了他們勇氣和神聖的權威，宣揚上帝的信息給每一個民族和人民。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4cc6540c",
-        "title": "川普在伊朗問題上與共和黨人發生分歧：總統堅稱「我不會簽署壞約」",
-        "url": "https://www.theguardian.com/us-news/2026/may/25/trump-news-at-a-glance-latest-updates-today",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 25 May 2026 02:00:13 GMT",
-        "summary_zh": "川普總統在社交媒體上堅稱，他的與伊朗達成的協議將是「與奧巴馬政府簽署的協議完全相反」。這一聲明出現於共和黨內部對於川普與伊朗達成協議的批評之際。共和黨內部的鹹鷹們認為，該協議將是一個災難，並質疑川普為什麼要發動對伊朗的戰爭。川普總統在2018年曾經退出奧巴馬政府與伊朗簽署的協議。目前尚未清楚，川普與伊朗的協議具體內容為何。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bb1e9535",
-        "title": "加州南部化學罐車超熱「將會失效」 美國環保署長警告",
-        "url": "https://www.theguardian.com/us-news/2026/may/24/chemical-tank-california-epa-lee-zeldin",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 24 May 2026 19:36:14 GMT",
-        "summary_zh": "美國環保署署長李察·澤爾丁（Lee Zeldin）在接受CNN採訪時表示，加州橙縣的一個化學罐車因超熱而有可能失效，引發化學爆炸風險。政府官員警告，該罐車失效後可能會釋放可燃化學品，造成爆炸風險。澤爾丁表示，罐車失效的可能性已經被確認，但還沒有確定失效後會發生什麼樣的情況。該化學罐車位於迪士尼樂園附近，引發了當地居民的擔憂。美國環保署署長澤爾丁是一位前共和黨國會議員，沒有任何環保政策經驗，但由川普總統任命為環保署長。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9798cc35",
-        "title": "特朗普在中期選舉前，已經令選民感到失望，共和黨人士警告",
-        "url": "https://www.theguardian.com/us-news/2026/may/24/thomas-massie-trump-republican-voters-midterms",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 24 May 2026 16:49:48 GMT",
-        "summary_zh": "共和黨的美國國會議員托馬斯·馬西 (Thomas Massie) 表示，共和黨在今年 11 月的中期選舉中，將會面臨嚴重的選民失望反彈。托馬斯·馬西是肯塔基州的共和黨人士，於本週的黨內初選中被挑選的對手擊敗。托馬斯·馬西在過去一直與特朗普有所分歧，包括對伊朗的軍事行動、政府開支和Jeffrey Epstein 案的文件釋放。托馬斯·馬西的敗選是共和黨內對特朗普的失望之聲的最新表現。共和黨人士認為，特朗普的行為已經令選民感到失望，可能會影響共和黨在中期選舉中的表現。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "84d45800",
-        "title": "白宮外槍擊案嫌犯曾被秘密警察識別",
-        "url": "https://www.theguardian.com/us-news/2026/may/24/white-house-shooting-gunman-suspect",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 24 May 2026 16:46:38 GMT",
-        "summary_zh": "近日，一名21歲男子在白宮外開槍射擊，遭到聯邦特工擊斃。根據法院文件顯示，這名男子在去年夏天曾試圖闖入白宮，並被秘密警察識別。事件發生後，男子被送往附近醫院，後被宣告死亡。該男子的行為引起了警方的關注，當地法院於2025年發布了一份訴訟文件，披露了這名男子的前科。這起槍擊案的原因尚不明朗，但已經引起了對白宮安全的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "eb633ad3",
-        "title": "俄亥俄州立大學面臨多宗醜聞風暴",
-        "url": "https://www.theguardian.com/us-news/2026/may/24/ohio-state-university-scandals",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 24 May 2026 12:00:56 GMT",
-        "summary_zh": "俄亥俄州立大學正處於性侵害指控和捐贈者影響力問題的風暴之中，當時期的性侵害事件始於 1990 年代初期，當時一名大學體育部醫療人員的高級醫生理查德史萊特斯（Richard Strauss）被懷疑性侵害數百名學生運動員，期間他自殺身亡。該事件引發了更廣泛的高等教育危機，大學面臨著財務壓力。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "fccbc16c",
-        "title": "美國選民支持抗艾滋病援助 – 川普削減預算是否會在中期選舉反彈?",
-        "url": "https://www.theguardian.com/us-news/2026/may/24/hiv-aids-trump-midterms",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 24 May 2026 12:00:55 GMT",
-        "summary_zh": "美國總統艾滋病急救計畫（Pepfar）在全球範圍內獲得共和黨領導和跨黨派支持，但該計畫卻受到川普政府的批評。根據最近的一項民調，美國中期選舉的選民中，有七成四（74%）的人支持繼續資助Pepfar計畫，選民更傾向於支持支持Pepfar的候選人。四成五（80%）的選民認為，無論個人選擇如何，為有艾滋病風險或正在患有艾滋病的人提供救命治療，是道德上的理由。這項民調表明，川普政府削減Pepfar預算的決定可能會在中期選舉反彈。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "ai": [
-      {
-        "id": "b72ccf8d",
-        "title": "黑客正在學習如何利用聊天機器人『個性』",
-        "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-24T08:00:00-04:00",
-        "summary_zh": "近年來，黑客們開始學習如何利用聊天機器人的『個性』進行攻擊。早期的聊天機器人很容易被駭客攻破，然而隨著技術的進步，聊天機器人也越來越複雜，難以被攻破。黑客們必須學習如何利用聊天機器人的『個性』來進行攻擊，這使得聊天機器人的安全性面臨新的挑戰。聊天機器人的『個性』是指它們的語言、行為和互動方式，這些特徵使得聊天機器人看起來更像人類，但也使得它們更容易被駭客攻破。黑客們正在學習如何利用這些『個性』來進行攻擊，例如通過模仿人類的語言和行為來欺騙聊天機器人。這使得聊天機器人的安全性面臨新的挑戰，需要更進一步的保護措施來防止駭客攻破。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ]
