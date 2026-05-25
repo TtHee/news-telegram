@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-25T15:04:06.239835+08:00",
+  "generated_at": "2026-05-25T16:04:02.097705+08:00",
   "risk_signals": [
     "🟢 台股加權 43644.4（正常）",
     "🟢 S&P 500 7473.47（正常）",
-    "🟢 VIX 恐慌指數 16.7（正常）",
+    "🟢 VIX 恐慌指數 16.73（正常）",
     "🟢 MOVE 債市波動 78.43（正常）",
-    "🟢 美元指數 98.99（正常）",
+    "🟢 美元指數 99.06（正常）",
     "🟢 黃金 4523.2（正常）",
     "🟡 美債10Y殖利率 4.56（留意）",
     "🟢 原油 WTI 96.6（正常）",
-    "🟢 美元/台幣 31.42（正常）"
+    "🟢 美元/台幣 31.43（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，多個指標顯示正常走向。然而，美債10年殖利率微升至4.56%，值得關注。",
+  "ai_summary": "市場指標顯示整體穩定，台股和美股均有小幅上漲，但美債10年殖利率略微升高，需要留意。",
   "market": {
     "TWII": {
       "price": 43644.4,
@@ -26,8 +26,8 @@
       "change_pct": 0.19
     },
     "VIX": {
-      "price": 16.7,
-      "change_pct": -0.36
+      "price": 16.73,
+      "change_pct": 0.18
     },
     "TNX": {
       "price": 4.56,
@@ -38,8 +38,8 @@
       "change_pct": -1.62
     },
     "DXY": {
-      "price": 98.99,
-      "change_pct": -0.33
+      "price": 99.06,
+      "change_pct": -0.26
     },
     "GOLD": {
       "price": 4523.2,
@@ -50,13 +50,25 @@
       "change_pct": 0.0
     },
     "USDTWD": {
-      "price": 31.42,
-      "change_pct": -0.41
+      "price": 31.43,
+      "change_pct": -0.39
     }
   },
   "macro": {},
   "categories": {
     "whitehouse": [
+      {
+        "id": "e3cb8790",
+        "title": "總統對五旬節的致辭",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-pentecost/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Sun, 24 May 2026 20:26:47 +0000",
+        "summary_zh": "美國總統與夫人梅拉尼亞在全國各地以及全球各地的基督徒們一起慶祝五旬節的奇蹟，並誕生了基督教會。五旬節的前五十天是復活節後的奇蹟，聖經中記載聖靈降臨在耶路撒冷的使徒們身上，帶著火舌的語言，勝利地完成了基督的承諾，並給了他們勇氣和神聖的權威，宣揚上帝的信息給每一個民族和人民。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "4cc6540c",
         "title": "川普在伊朗問題上與共和黨人發生分歧：總統堅稱「我不會簽署壞約」",
@@ -70,6 +82,18 @@
         "ai_classified": true
       },
       {
+        "id": "9c060e7d",
+        "title": "石油價格下跌 美伊和解希望升溫",
+        "url": "https://www.bbc.com/news/articles/c809m7g29r7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Mon, 25 May 2026 07:16:37 GMT",
+        "summary_zh": "美國總統川普週六表示，美伊和解協議將包括重新開放霍爾木茲海峽，但未提供進一步細節。石油價格因美伊關係改善的希望而下跌。霍爾木茲海峽是全球石油運輸的重要通道，美伊關係緊張曾導致該海峽封鎖，對全球石油供應造成重大影響。美伊關係改善的希望使投資者對全球石油供應感到更為樂觀，進而導致石油價格下跌。然而，美伊和解協議的具體內容尚未明確，投資者仍需密切關注該海峽的開放狀況。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "bb1e9535",
         "title": "加州南部化學罐車超熱「將會失效」 美國環保署長警告",
         "url": "https://www.theguardian.com/us-news/2026/may/24/chemical-tank-california-epa-lee-zeldin",
@@ -77,6 +101,18 @@
         "category": "whitehouse",
         "published_at": "Sun, 24 May 2026 19:36:14 GMT",
         "summary_zh": "美國環保署署長李察·澤爾丁（Lee Zeldin）在接受CNN採訪時表示，加州橙縣的一個化學罐車因超熱而有可能失效，引發化學爆炸風險。政府官員警告，該罐車失效後可能會釋放可燃化學品，造成爆炸風險。澤爾丁表示，罐車失效的可能性已經被確認，但還沒有確定失效後會發生什麼樣的情況。該化學罐車位於迪士尼樂園附近，引發了當地居民的擔憂。美國環保署署長澤爾丁是一位前共和黨國會議員，沒有任何環保政策經驗，但由川普總統任命為環保署長。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cb876b57",
+        "title": "白宮附近發生槍擊案，嫌犯被擊斃",
+        "url": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Sun, 24 May 2026 15:24:11 GMT",
+        "summary_zh": "近日，白宮附近發生槍擊案，嫌犯向秘密服務局人員開火，造成一名路人受傷。根據官員的說法，嫌犯在白宮附近的檢查點附近出現並開火，導致一名路人受傷。事件發生後，嫌犯被擊斃。這起槍擊案的原因尚未明確，但官員表示正在調查中。這起事件再次提醒了美國國內的安全問題，白宮附近的安全措施將會受到關注。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -142,30 +178,6 @@
         "ai_classified": true
       },
       {
-        "id": "9c060e7d",
-        "title": "石油價格下跌 美伊和解希望升溫",
-        "url": "https://www.bbc.com/news/articles/c809m7g29r7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 25 May 2026 06:01:59 GMT",
-        "summary_zh": "美國總統川普週六表示，美伊和解協議將包括重新開放霍爾木茲海峽，但未提供進一步細節。石油價格因美伊關係改善的希望而下跌。霍爾木茲海峽是全球石油運輸的重要通道，美伊關係緊張曾導致該海峽封鎖，對全球石油供應造成重大影響。美伊關係改善的希望使投資者對全球石油供應感到更為樂觀，進而導致石油價格下跌。然而，美伊和解協議的具體內容尚未明確，投資者仍需密切關注該海峽的開放狀況。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cb876b57",
-        "title": "白宮附近發生槍擊案，嫌犯被擊斃",
-        "url": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 24 May 2026 15:24:11 GMT",
-        "summary_zh": "近日，白宮附近發生槍擊案，嫌犯向秘密服務局人員開火，造成一名路人受傷。根據官員的說法，嫌犯在白宮附近的檢查點附近出現並開火，導致一名路人受傷。事件發生後，嫌犯被擊斃。這起槍擊案的原因尚未明確，但官員表示正在調查中。這起事件再次提醒了美國國內的安全問題，白宮附近的安全措施將會受到關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "848c4aab",
         "title": "川普告訴美國談判代表『不要急著』與伊朗簽署協議",
         "url": "https://www.bbc.com/news/articles/clyp0040x7po?at_medium=RSS&at_campaign=rss",
@@ -174,18 +186,6 @@
         "published_at": "Mon, 25 May 2026 04:16:33 GMT",
         "summary_zh": "伊朗問題仍未解決，美國總統川普對於與伊朗簽署協議的談判表示謹慎。根據美國媒體報導，正在討論的協議將涉及延長60天的停火期，期間霍爾木茲海峽將重新開放。這一協議的具體細節尚未明確，但美國政府已經開始與伊朗進行談判。美國的目標是確保伊朗不會發展核武，並且停止支持恐怖主義活動。霍爾木茲海峽是伊朗和阿拉伯聯合大公國之間的重要海上通道，如果停火期延長，將對全球油價產生重大影響。美國政府對於與伊朗簽署協議的態度仍然謹慎，川普總統的指示使得美國談判代表不敢過於急切地簽署協議。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e3cb8790",
-        "title": "總統對五旬節的致辭",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-pentecost/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Sun, 24 May 2026 20:26:47 +0000",
-        "summary_zh": "美國總統與夫人梅拉尼亞在全國各地以及全球各地的基督徒們一起慶祝五旬節的奇蹟，並誕生了基督教會。五旬節的前五十天是復活節後的奇蹟，聖經中記載聖靈降臨在耶路撒冷的使徒們身上，帶著火舌的語言，勝利地完成了基督的承諾，並給了他們勇氣和神聖的權威，宣揚上帝的信息給每一個民族和人民。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       }
@@ -224,14 +224,26 @@
         "published_at": "Mon, 25 May 2026 06:20:46 GMT",
         "summary_zh": "委內瑞拉西部巴里納斯監獄的囚犯於週日佔領牆頂，堆疊著點燃的床墊，要求監獄的管理者下台，並指控他監督守衛開火射擊無武器的囚犯。囚犯們聲稱自己是和平抗議，但監獄人員卻開火，造成一些囚犯受傷。監獄內的囚犯們要求正義，指控守衛和監獄管理者對他們開火。委內瑞拉監獄觀察委員會（Venezuelan Observatory of Prisons）的一名囚犯在社交媒體平台X上分享的一段視頻中，一名男子被子彈擊中胸部。這種情況在委內瑞拉監獄中屢見不鮮。委內瑞拉監獄觀察委員會表示，這種情況是由於監獄管理者的失職所導致。委內瑞拉監獄的狀況一直受到關注，囚犯們的權益受到了侵犯。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c3346465",
+        "title": "加州超過4萬人撤離因化學罐漏",
+        "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 24 May 2026 18:51:00 GMT",
+        "summary_zh": "加州近日發生化學罐漏事件，超過4萬名居民被迫撤離。官員警告，這個罐子裡面含有「極度易爆」物質，可能引發爆炸。事件發生在加州南部，附近的居民被要求立即撤離，官員正在努力控制局勢。這次事件的影響仍在評估中，但已經有多家企業因為事件而暫停運作。官員表示，正在盡一切努力確保居民的安全。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "59c7f737",
         "title": "她被告知要嫁給一個禁止女孩受教育的國家的男人。於是她登上計程車逃離",
         "url": "https://www.bbc.com/news/articles/ce3pgn48wnqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "source": "BBC World",
         "category": "global",
         "published_at": "Sun, 24 May 2026 21:02:08 GMT",
         "summary_zh": "近五年來，該國禁止女孩上學的政策實施，年輕女性表示他們已經放棄了自己的夢想。這些年輕女性面臨著嚴重的教育限制，許多人被迫結婚，放棄自己的教育和理想。許多人選擇逃離家鄉，尋求更好的生活機會。這些女性的故事揭露了該國對女性教育的限制和對女性的壓迫。這些年輕女性的決定表明了對教育和自由的渴望。",
@@ -240,13 +252,49 @@
         "ai_classified": true
       },
       {
-        "id": "c3346465",
-        "title": "加州超過4萬人撤離因化學罐漏",
-        "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss",
+        "id": "5dbd215a",
+        "title": "巴基斯坦火車爆炸案至少20人喪生",
+        "url": "https://www.bbc.com/news/articles/cm2pkd58xldo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 24 May 2026 22:11:51 GMT",
+        "summary_zh": "巴基斯坦發生火車爆炸案，至少20人喪生。當地官員表示，該火車正在運送軍事人員回家過節時，被武裝分子襲擊。火車爆炸案發生在巴基斯坦西北部的克拉利區。這起事件引起了國際社會的關注和譴責。巴基斯坦政府已經展開了調查和應對措施。這起事件的影響還不清楚，但已經引起了對巴基斯坦安全局勢的擔憂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a445b20f",
+        "title": "菲律賓建築物倒塌事件：24人獲救無人死亡",
+        "url": "https://www.bbc.com/news/articles/cgqpklv42jeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 24 May 2026 14:25:00 GMT",
+        "summary_zh": "菲律賓近日發生建築物倒塌事件，救援人員展開緊急搜索與營救行動。截至目前，已經成功救出24名受困者，報告中未提及任何死亡案例。這起事故發生在首都馬尼拉附近的城市。事件的具體原因尚待調查。菲律賓政府正在與救援人員合作，確保受影響地區的安全。這起事故對當地居民造成了嚴重影響，政府正在提供援助與支持。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "5e094410",
+        "title": "伊朗宣布世界盃訓練基地從美國轉移至墨西哥",
+        "url": "https://www.bbc.com/sport/football/articles/cx21e47e214o?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "global",
-        "published_at": "Sun, 24 May 2026 18:51:00 GMT",
-        "summary_zh": "加州近日發生化學罐漏事件，超過4萬名居民被迫撤離。官員警告，這個罐子裡面含有「極度易爆」物質，可能引發爆炸。事件發生在加州南部，附近的居民被要求立即撤離，官員正在努力控制局勢。這次事件的影響仍在評估中，但已經有多家企業因為事件而暫停運作。官員表示，正在盡一切努力確保居民的安全。",
+        "published_at": "Sun, 24 May 2026 09:51:42 GMT",
+        "summary_zh": "伊朗政府宣布，世界盃訓練基地將由美國轉移到墨西哥。這一決定是由國際足協(Fifa)批准的。伊朗政府沒有提供具體的理由或解釋為什麼選擇墨西哥作為新的訓練基地。這一轉移可能會對伊朗足球隊的訓練和競爭狀況產生影響。伊朗政府的決定也可能會引起美國的關注和反應。墨西哥的選擇可能是由於該國的氣候和地理條件更適合足球訓練。這一轉移也可能會影響到伊朗和美國之間的關係。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cb6cb77d",
+        "title": "NASCAR 冠軍 Kyle Busch 因肺炎和敗血症去世",
+        "url": "https://www.bbc.com/news/articles/ceqpwx5741no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Sun, 24 May 2026 14:10:12 GMT",
+        "summary_zh": "NASCAR 車手 Kyle Busch 因肺炎和敗血症引起的併發症於週四去世，享年 41 歲。他的家人表示，他在去世前遭遇了「嚴重的併發症」。Kyle Busch 是一位資深的NASCAR 車手，曾贏得多個冠軍獎項。他的去世對NASCAR 車手界和球迷們造成了深深的衝擊。這項消息也引起了對於車手健康和安全的關注。Kyle Busch 的去世也讓人們思考車手的生活和競賽的風險。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -276,30 +324,6 @@
         "ai_classified": true
       },
       {
-        "id": "5dbd215a",
-        "title": "巴基斯坦火車爆炸案至少20人喪生",
-        "url": "https://www.bbc.com/news/articles/cm2pkd58xldo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Sun, 24 May 2026 22:11:51 GMT",
-        "summary_zh": "巴基斯坦發生火車爆炸案，至少20人喪生。當地官員表示，該火車正在運送軍事人員回家過節時，被武裝分子襲擊。火車爆炸案發生在巴基斯坦西北部的克拉利區。這起事件引起了國際社會的關注和譴責。巴基斯坦政府已經展開了調查和應對措施。這起事件的影響還不清楚，但已經引起了對巴基斯坦安全局勢的擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5e094410",
-        "title": "伊朗宣布世界盃訓練基地從美國轉移至墨西哥",
-        "url": "https://www.bbc.com/sport/football/articles/cx21e47e214o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Sun, 24 May 2026 09:51:42 GMT",
-        "summary_zh": "伊朗政府宣布，世界盃訓練基地將由美國轉移到墨西哥。這一決定是由國際足協(Fifa)批准的。伊朗政府沒有提供具體的理由或解釋為什麼選擇墨西哥作為新的訓練基地。這一轉移可能會對伊朗足球隊的訓練和競爭狀況產生影響。伊朗政府的決定也可能會引起美國的關注和反應。墨西哥的選擇可能是由於該國的氣候和地理條件更適合足球訓練。這一轉移也可能會影響到伊朗和美國之間的關係。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "ae132843",
         "title": "英國防長專機在俄羅斯邊境附近遭信號干擾",
         "url": "https://www.bbc.com/news/articles/clyp0jrxv7ro?at_medium=RSS&at_campaign=rss",
@@ -309,18 +333,6 @@
         "summary_zh": "英國皇家空軍一架運載防長的戰機，在靠近俄羅斯邊境時遭到信號干擾，導致GPS系統失效。飛行員們不得不使用備用導航系統繼續飛行。這一事件的具體原因尚未明確，但英國政府已經對此進行調查。這一事件可能與俄羅斯近期的軍事活動有關，俄羅斯近期一直在邊境附近進行軍事演習。這一事件可能對英國和俄羅斯的關係產生影響，英國政府可能會對此進行更多的評估和回應。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cb6cb77d",
-        "title": "NASCAR 冠軍 Kyle Busch 因肺炎和敗血症去世",
-        "url": "https://www.bbc.com/news/articles/ceqpwx5741no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Sun, 24 May 2026 14:10:12 GMT",
-        "summary_zh": "NASCAR 車手 Kyle Busch 因肺炎和敗血症引起的併發症於週四去世，享年 41 歲。他的家人表示，他在去世前遭遇了「嚴重的併發症」。Kyle Busch 是一位資深的NASCAR 車手，曾贏得多個冠軍獎項。他的去世對NASCAR 車手界和球迷們造成了深深的衝擊。這項消息也引起了對於車手健康和安全的關注。Kyle Busch 的去世也讓人們思考車手的生活和競賽的風險。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -348,18 +360,6 @@
         "ai_classified": true
       },
       {
-        "id": "a445b20f",
-        "title": "菲律賓建築物倒塌事件：24人獲救無人死亡",
-        "url": "https://www.bbc.com/news/articles/cgqpklv42jeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Sun, 24 May 2026 14:25:00 GMT",
-        "summary_zh": "菲律賓近日發生建築物倒塌事件，救援人員展開緊急搜索與營救行動。截至目前，已經成功救出24名受困者，報告中未提及任何死亡案例。這起事故發生在首都馬尼拉附近的城市。事件的具體原因尚待調查。菲律賓政府正在與救援人員合作，確保受影響地區的安全。這起事故對當地居民造成了嚴重影響，政府正在提供援助與支持。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "174d3d10",
         "title": "玻利維亞部長巡視道路封鎖時遭遇襲擊",
         "url": "https://www.bbc.com/news/articles/ce3pdw1z59do?at_medium=RSS&at_campaign=rss",
@@ -384,7 +384,93 @@
         "ai_classified": true
       }
     ],
+    "ai": [
+      {
+        "id": "b72ccf8d",
+        "title": "黑客正在學習如何利用聊天機器人『個性』",
+        "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-24T08:00:00-04:00",
+        "summary_zh": "近年來，黑客們開始學習如何利用聊天機器人的『個性』進行攻擊。早期的聊天機器人很容易被駭客攻破，然而隨著技術的進步，聊天機器人也越來越複雜，難以被攻破。黑客們必須學習如何利用聊天機器人的『個性』來進行攻擊，這使得聊天機器人的安全性面臨新的挑戰。聊天機器人的『個性』是指它們的語言、行為和互動方式，這些特徵使得聊天機器人看起來更像人類，但也使得它們更容易被駭客攻破。黑客們正在學習如何利用這些『個性』來進行攻擊，例如通過模仿人類的語言和行為來欺騙聊天機器人。這使得聊天機器人的安全性面臨新的挑戰，需要更進一步的保護措施來防止駭客攻破。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d7986e1d",
+        "title": "這些機器人正在為舊金山的特倫洛因區非營利組織準備餐食",
+        "url": "https://www.wired.com/story/these-robots-are-making-meals-for-a-nonprofit-in-san-franciscos-tenderloin/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Sun, 24 May 2026 10:30:00 +0000",
+        "summary_zh": "舊金山特倫洛因區最為困擾的地區內，一家非營利組織因為缺乏人手而轉而使用機器人餐食準備技術。這些機器人能夠準備餐食，填補人手短缺的空缺。這項技術的引入，旨在為當地的弱勢群體提供更好的餐食服務。這項措施不僅能夠提高餐食的質量，也能夠減少人手短缺的問題。然而，這項技術的引入也引發了對於人工智能取代人類工作的擔憂。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "stock_tw": [
+      {
+        "id": "bf6e5e9f",
+        "title": "萊爾富40元買飲料 中千萬獎金",
+        "url": "https://www.cna.com.tw/news/ahel/202605250163.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 25 May 2026 15:26:22 +0800",
+        "summary_zh": "台北25日，115年3、4月期統一發票千萬元特別獎獎號出爐。其中，萊爾富本期特別獎1000萬元開出1組，頭獎20萬元開出2組。令人驚訝的是，一名民眾僅消費新台幣40元買2罐飲料，就幸運抱回1000萬元獎金。這名民眾的運氣讓人羨慕，令人想知道他是如何在如此簡單的消費中獲得如此巨額獎金的。這個故事也讓人們對於中獎的可能性感到更有信心。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "213949b1",
+        "title": "數產署擴大AI花園計畫 陸續6校推動多元智慧應用",
+        "url": "https://www.cna.com.tw/news/afe/202605250162.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 25 May 2026 15:25:20 +0800",
+        "summary_zh": "數發部數產署推動「AI花園」計畫，旨在培育人才並加速人工智慧（AI）應用落地。該計畫已經取得了智慧長者陪伴機器人和畜牧產業AI化的成果。今年，數產署將擴大計畫，與6所學校合作，推動AI在長照、農業、物流等領域的應用。這項計畫的目標是加速多元AI應用的轉化。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "413305d2",
+        "title": "三大法人買超台股642.88億元",
+        "url": "https://www.cna.com.tw/news/afe/202605250157.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 25 May 2026 15:06:09 +0800",
+        "summary_zh": "台股今天大幅上漲，收市點數為43644.40點，成交值達1兆3013.25億元。三大法人包括外資、陸資、投信和自營商都出現買超現象，合計買超642.88億元。這表明市場投資者對台股仍然有信心，買超數字也顯示市場對台股的看好態度。然而，市場投資者也應該注意到市場的波動性，避免過度投入。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7914de6c",
+        "title": "美伊協議前景與半導體類股助攻 日股收漲",
+        "url": "https://www.cna.com.tw/news/afe/202605250156.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 25 May 2026 15:05:07 +0800",
+        "summary_zh": "日股今天收高，日經225指數首度站上6萬5000點大關。市場分析指出，這是因為市場對美伊協議有望緩解能源供應疑慮的看好，以及半導體類股走強。半導體類股的強勁表現，帶動日股的收高。這種情況下，日股的走勢受到兩大因素的影響：美伊協議的前景和半導體類股的表現。市場預期美伊協議能夠緩解能源供應的問題，這使得投資者對日股的投資意欲增加。另一方面，半導體類股的強勁表現，也使得投資者對日股的投資意欲增加。這兩個因素的結合，使得日股今天收高。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "0a3b4141",
+        "title": "ASML擴大在台徵才1000人 因應客戶需求成長",
+        "url": "https://www.cna.com.tw/news/afe/202605250149.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 25 May 2026 14:43:52 +0800",
+        "summary_zh": "半導體設備廠艾司摩爾（ASML）宣布今年在台灣擴大招募規模，規劃招募約1000名新進人才。這項舉措是為了因應未來成長與客戶需求。目前，ASML在台灣的員工人數已經將近5000人。這項擴大招募將幫助公司更好地滿足客戶需求，並為未來的發展奠定基礎。這一舉措也表明了ASML對台灣市場的重視和信心。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "25adb4ac",
         "title": "緯穎董事長洪麗寗：AI市場不增溫沒有泡沫疑慮",
@@ -394,8 +480,8 @@
         "published_at": "Mon, 25 May 2026 13:55:17 +0800",
         "summary_zh": "緯穎董事長洪麗寗今天表示，目前的AI市場不斷增溫，沒有泡沫的疑慮。為了因應需求增加，今年除了配發股利之外，還會保留現金配發股票股利。雖然這樣會導致股價除權息後剩下1/3，但洪麗寗仍希望股東的權益報酬率（ROE）和獲利水準能夠維持。這意味著緯穎將會盡量保留資金，來維持公司的財務穩定性和盈利能力。這是因為緯穎是一家伺服器大廠，需要大量資金來投資研發和生產新產品。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "8e24d0be",
@@ -406,8 +492,8 @@
         "published_at": "Mon, 25 May 2026 13:51:13 +0800",
         "summary_zh": "台股今天盤中衝上43645.78點創歷史新高，盤中漲點1377.81點為史上第8大。終場收在43644.40點寫收盤新高，漲點1376.43點為收盤第5大。這次台股的上漲有兩個主要原因：一是人工智慧（AI）熱潮的加持，AI概念股及電子族群全面噴發；二是地緣政治風險的降溫。這兩個因素共同作用下，台股的成交值達到新台幣1兆3013.25億元，漲幅達3.26%。這次的台股大漲將對市場有所影響，投資者需要注意市場的變化和風險。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "b6e1565c",
@@ -418,8 +504,8 @@
         "published_at": "Mon, 25 May 2026 13:49:11 +0800",
         "summary_zh": "禾伸堂董事長唐錦榮表示，輝達人工智慧平台帶動積層陶瓷電容等被動元件需求強勁，禾伸堂今年和2027年將持續擴充產能。若AI需求強勁態勢未變，預估2027年被動元件缺貨狀況將更明顯。禾伸堂將增加AI應用等高階元件的比重，以應對未來的市場需求。這表明禾伸堂正積極準備面對未來的人工智慧時代的挑戰。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "b0fadd04",
@@ -430,8 +516,8 @@
         "published_at": "Mon, 25 May 2026 13:45:04 +0800",
         "summary_zh": "台北股市今天展現強勁的市場氣氛，開盤即高走高，最終收盤價大幅上漲1376.43點，達到43644.40點。這意味著台股的漲幅達到3.26%，成交金額也創下新台幣1兆3013.25億元的新高。市場分析師認為，這是由於投資人對市場的信心增強，對未來經濟成長的預期也越來越樂觀。這一波上漲也引起了市場的關注，投資人們紛紛關注台股的走勢，預測未來市場的發展方向。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "afe091db",
@@ -442,95 +528,23 @@
         "published_at": "Mon, 25 May 2026 13:24:51 +0800",
         "summary_zh": "近日，核安會在恆春舉辦了核三廠運轉執照換發案地方說明會，但立委表示，這次說明會可能流於形式，因為民眾提出的問題未能在現場獲得回覆。核安會表示，會將民眾的意見彙整後交由相關單位回應，並將答覆公布在官網，以確保有效溝通。這次說明會的目的在於讓民眾了解核三廠的安全情況和運轉執照換發的相關事宜，但如果民眾的問題未能得到及時回覆，可能會導致民眾對核三廠的安全問題產生更多的疑慮。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "e4a2c150",
-        "title": "台積電：盈餘分配將加大社會永續投入 員工分紅會增",
-        "url": "https://www.cna.com.tw/news/afe/202605250119.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 25 May 2026 13:18:45 +0800",
-        "summary_zh": "台積電近期傳出將大砍15%員工分紅，部分員工不滿，揚言罷工爭取權益。然而，台積電今天表示，隨著企業社會責任的增強，公司將進一步增加社會永續資源投入的比重，回饋台灣社會。雖然員工分紅將被砍，但台積電仍表示會持續增加員工分紅，讓員工分享公司的成果。這一決定可能會受到員工和社會的關注，展現台積電如何平衡企業利益和社會責任。台積電的這一決定可能會對公司的形象和員工的工作環境產生影響，值得關注。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "0fb5e7a8",
-        "title": "竣邦-KY通過配息3.5元創新高 看今年營運穩步增強",
-        "url": "https://www.cna.com.tw/news/afe/202605250100.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 25 May 2026 12:24:04 +0800",
-        "summary_zh": "竣邦-KY近日舉行股東常會，公司去年歸屬母公司淨利達新台幣1.52億元，年增72.7%，每股稅後盈餘5.23元，創歷史新高。今天股東會決議每股配發現金股利3.5元，同創新高。這表明公司營運穩步增強，股東也受惠於公司的良好業績。今年公司的營運預期穩步增強，股東們對公司未來發展充滿信心。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2d6428b4",
-        "title": "中東局勢惡化後 首見航經荷莫茲海峽油輪抵日本",
-        "url": "https://www.cna.com.tw/news/aopl/202605250099.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 25 May 2026 12:23:01 +0800",
-        "summary_zh": "中東局勢惡化後，今天首見有日企管理的油輪航經荷莫茲海峽，並順利抵達日本。這艘船載運的原油量不及日本國內單日消費量。消息人士透露，這艘船未向伊朗方面支付過路費。荷莫茲海峽是伊朗與伊拉克之間的海峽，該地區的安全風險一直較高。這艘油輪的航行表明，日本企業仍然在努力維持其在該地區的業務運作。這一發展可能會對全球能源市場產生影響，特別是在中東局勢不穩定的情況下。日本政府和企業可能會繼續密切關注該地區的安全情況，以確保其能源供應安全。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7595380e",
-        "title": "中興電：GIS設備第4季出貨晶圓大廠 攻AIDC統包工程",
-        "url": "https://www.cna.com.tw/news/afe/202605250097.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 25 May 2026 12:14:57 +0800",
-        "summary_zh": "中興電工董事長江馥年表示，預估今年營運目標雙位數百分比成長，主要由人工智慧（AI）算力和綠能轉型帶動。其中，GIS重電設備已獲得半導體晶圓大廠的認證，預計第4季開始逐步出貨給國內新廠區。另外，中興電今年也將跨入AI資料中心的工程統包與建置項目。這些發展將幫助中興電擴大業務規模和市場份額。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "71c57338",
-        "title": "新台幣午盤大漲1.52角 暫收31.416元",
-        "url": "https://www.cna.com.tw/news/afe/202605250093.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 25 May 2026 12:05:48 +0800",
-        "summary_zh": "台北外匯市場新台幣兌美元今天中午暫收31.416元，相較於昨日大幅上漲1.52角。這次的上漲可能與市場對台經濟的信心增強有關，投資者對台幣的需求增加。然而，美元的走勢仍然不穩定，市場仍需密切關注美元的變化。根據市場分析師的看法，新台幣的走勢將繼續受到美元的影響，投資者應該保持警惕。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0435e449",
-        "title": "00988A盤中漲逾1成溢價擴大 統一投信示警",
-        "url": "https://www.cna.com.tw/news/afe/202605250092.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 25 May 2026 12:01:46 +0800",
-        "summary_zh": "台股發燙，AI帶動全球相關科技股投資火熱。統一投信今天示警，旗下鎖定的全球科技投資ETF主動統一全球創新（00988A）溢價幅度擴大，盤中逾5%。統一投信提醒投資人，交易前先查詢溢價狀況，留意短線追價風險。這意味著投資人需要謹慎評估投資風險，避免因追求短線利益而遭受損失。統一投信的警告也表明，市場投資環境正在變化，投資人需要更加謹慎的態度。",
-        "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e4062908",
-        "title": "核安會：核三廠室內乾貯案得標商產品經美核管會審定",
-        "url": "https://www.cna.com.tw/news/afe/202605250090.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 25 May 2026 11:44:42 +0800",
-        "summary_zh": "近日，立委關切，投標商合泰質疑核三廠室內乾貯案得標商NAC的硼酸濃度未達標等瑕疵。對此，核安會核物料管制組長陳文泉表示，NAC產品經美國核管會審定。根據陳文泉的說法，乾式貯存有安全審查標準，台電招標時已將安全導則納入規範。這意味著，NAC的產品已經通過了美國核管會的審查，符合安全標準。然而，仍有立委對此表示質疑，要求核安會進一步澄清。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       }
     ],
     "finance": [
+      {
+        "id": "3e913915",
+        "title": "Uber考慮提高收購Delivery Hero的價格，前 €11.5億美元的收購方案遭拒絕",
+        "url": "https://www.ft.com/content/04f5d191-f5d9-4221-bf62-c34c879ab81b",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-24 19:29:04",
+        "summary_zh": "Uber公司考慮提高收購德國食品公司Delivery Hero的價格，前 €11.5億美元的收購方案遭拒絕。Uber公司已經與德國食品公司的主要股東接觸，希望能夠達成收購協議。這項收購將使Uber公司進一步擴展其在全球食品配送市場的業務。然而，收購方案遭到拒絕，Uber公司仍然需要努力爭取德國食品公司的同意。這項收購將對Uber公司的業務和財務產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "64491a25",
         "title": "歐洲央行要求銀行儘快糾正由最新人工智慧模型暴露出的缺陷",
@@ -552,8 +566,8 @@
         "published_at": "2026-05-24 19:00:00",
         "summary_zh": "紐西蘭央行（RBNZ）近期加息幅度預期曾一度升高，但投資基金最近開始減少這種預期。這種變化與紐西蘭經濟放緩有關。根據市場預測，紐西蘭央行今年剩餘的加息次數預計為三次至四次。投資基金的預期調整表明市場對紐西蘭經濟前景的看法正在改變。紐西蘭央行的加息政策旨在控制通膨，但經濟放緩可能會影響央行的決策。投資基金的預期變化可能會對紐西蘭股市和匯率產生影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "c20dbba4",
@@ -564,8 +578,8 @@
         "published_at": "2026-05-24 19:00:00",
         "summary_zh": "財政部市場正在迎來沃許時期，投資者開始押注 2026 年加息。根據市場流言，沃許將會對財政部市場採取更加積極的政策，投資者預計將會出現加息潮。這一轉變將會對財政部市場產生重大影響，投資者將會重新評估投資策略。沃許的政策將會對全球經濟產生重大影響，投資者將會密切關注他的政策走向。市場預期沃許將會採取更加積極的政策，投資者將會押注加息潮。這一轉變將會對全球經濟產生重大影響，投資者將會密切關注沃許的政策走向。沃許的政策將會對財政部市場產生重大影響，投資者將會重新評估投資策略。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "87020a58",
@@ -575,18 +589,6 @@
         "category": "finance",
         "published_at": "2026-05-24 17:00:09",
         "summary_zh": "近期，美國的預測市場熱潮和英國的稅收上漲使得線上賭博公司受到了壓力。短暫投機者正是抓住這個機會，從這些公司身上賺取了超過 23 億美元的利潤。這些短暫投機者通過出售賭博公司的股票，從而實現了高額的利潤。這種情況在美國和英國的線上賭博公司中都有所出現。短暫投機者的利潤來自於他們對賭博公司未來業績的悲觀預測。隨著預測市場的熱潮和稅收上漲，短暫投機者的利潤也在增加。這種情況對於線上賭博公司來說是一個挑戰，需要他們通過改善業績和降低稅負來應對。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e4ae0e03",
-        "title": "汽車站裡的「瘋狂」汽油價格，長途司機和商家都在抱怨",
-        "url": "https://www.theguardian.com/us-news/2026/may/24/iowa-truck-stop-gas-prices",
-        "source": "Guardian US",
-        "category": "finance",
-        "published_at": "Sun, 24 May 2026 15:16:44 GMT",
-        "summary_zh": "在美國愛荷華州的世界最大汽車站，長途司機可以找到各種休息設施，包括牙醫、理髮店、按摩治療、健身房、24小時餐廳和電影院等。但是，汽油價格卻成為這裡的最大問題。自美國與以色列聯合攻擊伊朗後，全球能源危機爆發，汽油價格急劇上升。最近一天，愛荷華州東部的這座汽車站內，汽油價格高達每加侖 4.26 美元，柴油價格更高達每加侖 5.72 美元。這種高昂的汽油價格對長途司機和商家都造成了沉重的負擔。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -652,13 +654,13 @@
         "ai_classified": true
       },
       {
-        "id": "52956f29",
-        "title": "國際學生面臨美國就業難：美國夢逐漸破碎",
-        "url": "https://www.cnbc.com/2026/05/24/for-international-students-seeking-us-jobs-the-american-dream-is-collapsing.html",
-        "source": "Cnbc",
+        "id": "e4ae0e03",
+        "title": "汽車站裡的「瘋狂」汽油價格，長途司機和商家都在抱怨",
+        "url": "https://www.theguardian.com/us-news/2026/may/24/iowa-truck-stop-gas-prices",
+        "source": "Guardian US",
         "category": "finance",
-        "published_at": "2026-05-24 14:15:01",
-        "summary_zh": "國際學生在美國求學後，往往抱著一顆美夢，希望能夠在美國找到工作。然而，近年來美國就業市場出現下滑，同時美國政府也對移民政策進行了改變，使得國際學生面臨著越來越多的就業困難。許多國際學生表示，美國政府的政策變化和就業市場的不振，使得他們的美夢逐漸破碎。根據最新的數據，美國就業市場的競爭力正在下降，國際學生面臨著越來越多的挑戰。這些變化對於國際學生來說是一個嚴重的打擊，許多人感到失望和挫折。美國政府的政策變化和就業市場的不振，對於國際學生來說是一個雙重打擊。",
+        "published_at": "Sun, 24 May 2026 15:16:44 GMT",
+        "summary_zh": "在美國愛荷華州的世界最大汽車站，長途司機可以找到各種休息設施，包括牙醫、理髮店、按摩治療、健身房、24小時餐廳和電影院等。但是，汽油價格卻成為這裡的最大問題。自美國與以色列聯合攻擊伊朗後，全球能源危機爆發，汽油價格急劇上升。最近一天，愛荷華州東部的這座汽車站內，汽油價格高達每加侖 4.26 美元，柴油價格更高達每加侖 5.72 美元。這種高昂的汽油價格對長途司機和商家都造成了沉重的負擔。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -723,32 +725,6 @@
         "summary_zh": "洛杉磯以名牌博物館如 Getty 和 Lacma 而聞名，但可能較少人知道，這座城市的中心隱藏著一個博物館，內藏世界上最為出色的化石遺址之一。拉布雷塔沼澤和博物館擁有超過 200 萬年的冰河時代植物和動物遺骸，包括長毛象和獵隼，當時被困在仍在今天冒泡的油膠池中。這座博物館最近進行了近 50 年來的第一次翻新工程，為這個冰河時代的化石遺址注入新生血液。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "ai": [
-      {
-        "id": "d7986e1d",
-        "title": "這些機器人正在為舊金山的特倫洛因區非營利組織準備餐食",
-        "url": "https://www.wired.com/story/these-robots-are-making-meals-for-a-nonprofit-in-san-franciscos-tenderloin/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Sun, 24 May 2026 10:30:00 +0000",
-        "summary_zh": "舊金山特倫洛因區最為困擾的地區內，一家非營利組織因為缺乏人手而轉而使用機器人餐食準備技術。這些機器人能夠準備餐食，填補人手短缺的空缺。這項技術的引入，旨在為當地的弱勢群體提供更好的餐食服務。這項措施不僅能夠提高餐食的質量，也能夠減少人手短缺的問題。然而，這項技術的引入也引發了對於人工智能取代人類工作的擔憂。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b72ccf8d",
-        "title": "黑客正在學習如何利用聊天機器人『個性』",
-        "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-24T08:00:00-04:00",
-        "summary_zh": "近年來，黑客們開始學習如何利用聊天機器人的『個性』進行攻擊。早期的聊天機器人很容易被駭客攻破，然而隨著技術的進步，聊天機器人也越來越複雜，難以被攻破。黑客們必須學習如何利用聊天機器人的『個性』來進行攻擊，這使得聊天機器人的安全性面臨新的挑戰。聊天機器人的『個性』是指它們的語言、行為和互動方式，這些特徵使得聊天機器人看起來更像人類，但也使得它們更容易被駭客攻破。黑客們正在學習如何利用這些『個性』來進行攻擊，例如通過模仿人類的語言和行為來欺騙聊天機器人。這使得聊天機器人的安全性面臨新的挑戰，需要更進一步的保護措施來防止駭客攻破。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ]
