@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-25T23:04:11.058816+08:00",
+  "generated_at": "2026-05-26T00:04:15.828106+08:00",
   "risk_signals": [
-    "🟢 台股加權 43644.4（正常）",
+    "🟢 台股加權 42267.97（正常）",
     "🟢 S&P 500 7473.47（正常）",
-    "🟢 VIX 恐慌指數 16.68（正常）",
+    "🟢 VIX 恐慌指數 16.59（正常）",
     "🟢 MOVE 債市波動 78.43（正常）",
     "🟢 美元指數 98.97（正常）",
     "🟢 黃金 4523.2（正常）",
     "🟡 美債10Y殖利率 4.56（留意）",
     "🟢 原油 WTI 96.6（正常）",
-    "🟢 美元/台幣 31.4（正常）"
+    "🟢 美元/台幣 31.41（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，指標正常，但美債10Y殖利率微升，留意美元指數和台股近期大幅上漲，表明投資人對市場情緒有所改善。",
+  "ai_summary": "目前市場氛圍穩定，指標正常，但美債10Y殖利率略微升高，需要留意。",
   "market": {
     "TWII": {
-      "price": 43644.4,
-      "change_pct": 3.26
+      "price": 42267.97,
+      "change_pct": 2.17
     },
     "SP500": {
       "price": 7473.47,
@@ -26,8 +26,8 @@
       "change_pct": 0.19
     },
     "VIX": {
-      "price": 16.68,
-      "change_pct": -0.12
+      "price": 16.59,
+      "change_pct": -0.66
     },
     "TNX": {
       "price": 4.56,
@@ -50,25 +50,75 @@
       "change_pct": 0.0
     },
     "USDTWD": {
-      "price": 31.4,
-      "change_pct": -0.49
+      "price": 31.41,
+      "change_pct": -0.46
     }
   },
   "macro": {},
   "categories": {
-    "global": [
+    "whitehouse": [
       {
-        "id": "4d1a42e6",
-        "title": "與美國達成協議不近期內發生，伊朗外長表示",
-        "url": "https://www.bbc.com/news/articles/cglpp2yk336o?at_medium=RSS&at_campaign=rss",
+        "id": "e3cb8790",
+        "title": "總統對五旬節的致辭",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-pentecost/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Sun, 24 May 2026 20:26:47 +0000",
+        "summary_zh": "美國總統與夫人梅拉尼亞在全國各地以及全球各地的基督徒們一起慶祝五旬節的奇蹟，並誕生了基督教會。五旬節的前五十天是復活節後的奇蹟，聖經中記載聖靈降臨在耶路撒冷的使徒們身上，帶著火舌的語言，勝利地完成了基督的承諾，並給了他們勇氣和神聖的權威，宣揚上帝的信息給每一個民族和人民。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9c060e7d",
+        "title": "石油價格下跌 美伊和解希望升溫",
+        "url": "https://www.bbc.com/news/articles/c809m7g29r7o?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 25 May 2026 11:17:49 GMT",
-        "summary_zh": "伊朗外長在美國國務卿表示可能在星期一公布協議後表示，與美國達成協議不近期內發生。伊朗外長的這番話是針對美國國務卿的最新發言作出的回應。美國國務卿之前表示，可能在星期一公布與伊朗的協議。伊朗外長的表態表明，伊朗對於與美國達成協議仍然存在著一定的疑慮和不確定性。這一發展可能會對中東地區的局勢產生一定的影響。",
+        "category": "whitehouse",
+        "published_at": "Mon, 25 May 2026 13:05:56 GMT",
+        "summary_zh": "美國總統川普週六表示，美伊和解協議將包括重新開放霍爾木茲海峽，但未提供進一步細節。石油價格因美伊關係改善的希望而下跌。霍爾木茲海峽是全球石油運輸的重要通道，美伊關係緊張曾導致該海峽封鎖，對全球石油供應造成重大影響。美伊關係改善的希望使投資者對全球石油供應感到更為樂觀，進而導致石油價格下跌。然而，美伊和解協議的具體內容尚未明確，投資者仍需密切關注該海峽的開放狀況。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
+      {
+        "id": "cb876b57",
+        "title": "白宮附近發生槍擊案，嫌犯被擊斃",
+        "url": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 25 May 2026 13:40:28 GMT",
+        "summary_zh": "近日，白宮附近發生槍擊案，嫌犯向秘密服務局人員開火，造成一名路人受傷。根據官員的說法，嫌犯在白宮附近的檢查點附近出現並開火，導致一名路人受傷。事件發生後，嫌犯被擊斃。這起槍擊案的原因尚未明確，但官員表示正在調查中。這起事件再次提醒了美國國內的安全問題，白宮附近的安全措施將會受到關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4cc6540c",
+        "title": "川普在伊朗問題上與共和黨人發生分歧：總統堅稱「我不會簽署壞約」",
+        "url": "https://www.theguardian.com/us-news/2026/may/25/trump-news-at-a-glance-latest-updates-today",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 25 May 2026 02:00:13 GMT",
+        "summary_zh": "川普總統在社交媒體上堅稱，他的與伊朗達成的協議將是「與奧巴馬政府簽署的協議完全相反」。這一聲明出現於共和黨內部對於川普與伊朗達成協議的批評之際。共和黨內部的鹹鷹們認為，該協議將是一個災難，並質疑川普為什麼要發動對伊朗的戰爭。川普總統在2018年曾經退出奧巴馬政府與伊朗簽署的協議。目前尚未清楚，川普與伊朗的協議具體內容為何。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bb1e9535",
+        "title": "加州南部化學罐車超熱「將會失效」 美國環保署長警告",
+        "url": "https://www.theguardian.com/us-news/2026/may/24/chemical-tank-california-epa-lee-zeldin",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 24 May 2026 19:36:14 GMT",
+        "summary_zh": "美國環保署署長李察·澤爾丁（Lee Zeldin）在接受CNN採訪時表示，加州橙縣的一個化學罐車因超熱而有可能失效，引發化學爆炸風險。政府官員警告，該罐車失效後可能會釋放可燃化學品，造成爆炸風險。澤爾丁表示，罐車失效的可能性已經被確認，但還沒有確定失效後會發生什麼樣的情況。該化學罐車位於迪士尼樂園附近，引發了當地居民的擔憂。美國環保署署長澤爾丁是一位前共和黨國會議員，沒有任何環保政策經驗，但由川普總統任命為環保署長。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "global": [
       {
         "id": "59c7f737",
         "title": "她被告知要嫁給一個禁止女孩受教育的國家的男人。於是她登上計程車逃離",
@@ -106,18 +156,6 @@
         "ai_classified": true
       },
       {
-        "id": "c3346465",
-        "title": "加州超過4萬人撤離因化學罐漏",
-        "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 25 May 2026 11:15:29 GMT",
-        "summary_zh": "加州近日發生化學罐漏事件，超過4萬名居民被迫撤離。官員警告，這個罐子裡面含有「極度易爆」物質，可能引發爆炸。事件發生在加州南部，附近的居民被要求立即撤離，官員正在努力控制局勢。這次事件的影響仍在評估中，但已經有多家企業因為事件而暫停運作。官員表示，正在盡一切努力確保居民的安全。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "cb8c5ce5",
         "title": "至少 19 人被送醫　東京商場發生強烈氣味事件",
         "url": "https://www.bbc.com/news/articles/cevpp983kmzo?at_medium=RSS&at_campaign=rss",
@@ -128,18 +166,6 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "1808a73f",
-        "title": "希臘游泳選手在爭議的增強運動會中打破50米自由泳世界紀錄",
-        "url": "https://www.bbc.com/sport/articles/cx211xyd298o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 25 May 2026 07:49:56 GMT",
-        "summary_zh": "在美國拉斯維加斯舉行的增強運動會上，希臘游泳選手克里斯蒂安·格科洛梅夫(Kristian Gkolomeev)以驚人的表現，打破了50米自由泳世界紀錄。這項比賽引發了爭議，許多人質疑增強運動會的公平性和合法性。格科洛梅夫的成績雖然令人印象深刻，但卻無法掩蓋增強運動會的爭議。這項事件可能會對國際游泳界造成影響，甚至可能會影響未來的奧運會。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
       },
       {
         "id": "d0e512f5",
@@ -161,18 +187,6 @@
         "category": "global",
         "published_at": "Sun, 24 May 2026 19:49:39 GMT",
         "summary_zh": "土耳其警方近日衝入反對黨總部，事件發生在反對黨領導人被法院罷免後不久。該黨領導人在被罷免後表示會拒絕法院的判決。警方的行動引發了對土耳其民主和人權的擔憂。這一事件可能會對土耳其政治局勢產生重大影響。土耳其政府的行動被視為對反對黨的鎮壓。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ed111cc0",
-        "title": "澳洲東北海岸一名男子在游泳時遭白鯊攻擊身亡",
-        "url": "https://www.bbc.com/news/articles/cn9pq5l2d14o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 24 May 2026 15:29:08 GMT",
-        "summary_zh": "一名39歲男子在昆士蘭州卡索威海岸（Cassowary Coast）的一個礁盤游泳時遭白鯊攻擊，嚴重受傷不治。這是澳洲近年來的第三起白鯊攻擊事件。白鯊攻擊事件在澳洲相對罕見，但近年來卻有所增加。許多專家認為，這可能與氣候變化和海洋生態系統的改變有關。這起事件也引起了對白鯊行為和保護措施的關注。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -214,6 +228,18 @@
         "ai_classified": true
       },
       {
+        "id": "4d1a42e6",
+        "title": "與美國達成協議不近期內發生，伊朗外長表示",
+        "url": "https://www.bbc.com/news/articles/cglpp2yk336o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 25 May 2026 11:17:49 GMT",
+        "summary_zh": "伊朗外長在美國國務卿表示可能在星期一公布協議後表示，與美國達成協議不近期內發生。伊朗外長的這番話是針對美國國務卿的最新發言作出的回應。美國國務卿之前表示，可能在星期一公布與伊朗的協議。伊朗外長的表態表明，伊朗對於與美國達成協議仍然存在著一定的疑慮和不確定性。這一發展可能會對中東地區的局勢產生一定的影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "cc5b41de",
         "title": "她不退縮：在博茨瓦納爭取同性婚姻合法化的夫妻",
         "url": "https://www.theguardian.com/world/2026/may/25/same-sex-marriage-botswana-couple-court",
@@ -248,9 +274,71 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "c3346465",
+        "title": "加州超過4萬人撤離因化學罐漏",
+        "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 25 May 2026 11:15:29 GMT",
+        "summary_zh": "加州近日發生化學罐漏事件，超過4萬名居民被迫撤離。官員警告，這個罐子裡面含有「極度易爆」物質，可能引發爆炸。事件發生在加州南部，附近的居民被要求立即撤離，官員正在努力控制局勢。這次事件的影響仍在評估中，但已經有多家企業因為事件而暫停運作。官員表示，正在盡一切努力確保居民的安全。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1808a73f",
+        "title": "希臘游泳選手在爭議的增強運動會中打破50米自由泳世界紀錄",
+        "url": "https://www.bbc.com/sport/articles/cx211xyd298o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 25 May 2026 07:49:56 GMT",
+        "summary_zh": "在美國拉斯維加斯舉行的增強運動會上，希臘游泳選手克里斯蒂安·格科洛梅夫(Kristian Gkolomeev)以驚人的表現，打破了50米自由泳世界紀錄。這項比賽引發了爭議，許多人質疑增強運動會的公平性和合法性。格科洛梅夫的成績雖然令人印象深刻，但卻無法掩蓋增強運動會的爭議。這項事件可能會對國際游泳界造成影響，甚至可能會影響未來的奧運會。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "ai": [
+      {
+        "id": "04ae3b22",
+        "title": "教皇利奧十四世呼籲在人工智慧時代保持「深刻的人性」",
+        "url": "https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-25T11:05:07-04:00",
+        "summary_zh": "教皇利奧十四世在最新的重要教令中警告人工智慧和無限制的科技力量的風險。教令《深刻的人性》強調了在人工智慧時代保護人性重要性，內容包括了人工智慧導致的戰爭風險、人工智慧對勞動的影響等。教皇認為，人工智慧的發展應該以人性為中心，避免對人性的傷害。這份教令標誌著教皇對人工智慧發展的關注和反思。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "5206c892",
+        "title": "外資連3天買超494億元 台股創收盤新高",
+        "url": "https://www.cna.com.tw/news/afe/202605250335.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 25 May 2026 22:12:38 +0800",
+        "summary_zh": "台股今天收盤創下新高，漲點1376.43點為收盤第5大。外資及陸資買超新台幣494.59億元，連續3個交易日買超，累計買超逾1859億元。外資今天加碼買入主動式及高股息ETF，尤其是主動統一升級50（00403A），買入逾9萬張。這表明外資對台股的信心正在增強。然而，市場仍需密切關注台股的走勢，是否能持續創下新高。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "26932e7a",
+        "title": "今彩539第115127期頭獎1注中獎",
+        "url": "https://www.cna.com.tw/news/ahel/202605250333.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 25 May 2026 22:07:34 +0800",
+        "summary_zh": "今彩539第115127期開獎，中獎號碼為12、36、06、05、37。根據派彩結果，頭獎有1注中獎，獎金高達新台幣800萬元。這次中獎的號碼將會受到各界關注，許多彩民也會仔細檢視自己的彩票，看看是否中了獎。這是今彩539的最新消息，彩民們應該會非常關心這個結果。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "20b38377",
         "title": "國銀新南向授信前4月大增2301億 達標率衝287%",
@@ -260,8 +348,8 @@
         "published_at": "Mon, 25 May 2026 21:21:06 +0800",
         "summary_zh": "金管會統計顯示，本國銀行截至今年4月底對新南向國家授信餘額為新台幣2兆2295億元，月增477億元。這意味著今年前4個月，國銀對新南向國家的授信額度已經超過了全年目標值800億元，達標率高達287%。這表明國銀對新南向國家的信心和投資意欲正在持續增強。這項政策的目標是鼓勵國銀向新南向國家提供更多的貸款和投資，以幫助這些國家發展經濟。然而，這也引發了對於貸款風險和資金流向的擔憂。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "6e271e8a",
@@ -272,8 +360,8 @@
         "published_at": "Mon, 25 May 2026 21:06:59 +0800",
         "summary_zh": "雷虎科技與義隆電子簽署策略合作備忘錄，雷虎將從無人載具系統整合商，躍升為關鍵技術共同開發者。這項合作將深化民主聯盟供應鏈核心地位，推動台灣自主無人機AI核心技術平台的發展。雷虎科技的這一轉變，意味著該公司將在無人機領域扮演更重要的角色，提供更具競爭力的技術解決方案。這項合作的影響將不僅限於雷虎科技和義隆電子兩家公司，還將對整個台灣的無人機產業產生深遠影響。未來，雷虎科技和義隆電子將共同開發更多的無人機AI核心技術，推動台灣的無人機產業發展，進一步鞏固台灣在全球無人機市場的競爭力。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "de5423b6",
@@ -284,8 +372,8 @@
         "published_at": "Mon, 25 May 2026 20:57:55 +0800",
         "summary_zh": "富邦金總經理韓蔚廷表示，未來幾年以現金股利為主，但不代表沒有發放股票股利的空間。台北富邦銀行響應參與「支持企業投資美國融資保證機制」專案，若客戶反應熱烈，不排除日後增加參與額度，也評估到美國設立分行。這項專案旨在幫助企業投資美國市場，減少風險。富邦金的這一舉動表明了對美國市場的信心和投資意愿。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "395942b6",
@@ -296,8 +384,8 @@
         "published_at": "Mon, 25 May 2026 20:49:48 +0800",
         "summary_zh": "北極星藥業宣布將調整重要研發產品線，暫緩治療平滑肌肉瘤新藥的人體臨床試驗後續推進，並撤回向美國FDA提出的惡性胸膜間皮瘤生物製劑上市許可證申請案。這項決定將對公司的研發計畫產生重大影響。同時，公司也將對美國子公司進行人力調整，具體原因尚未明確。這項變動可能會對公司的股價和未來發展產生影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "d55d2e05",
@@ -382,33 +470,69 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "8dcfc7b2",
-        "title": "華新將再賣華邦電1萬4145張 估約套現18.18億元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5449223",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 25 May 2026 19:44:28 +0800",
-        "summary_zh": "華邦電大股東華新宣布將轉讓1萬4145張華邦電股票，預計5月28日至6月27日進行一般交易。根據目前的收盤價，華新可套現約18.18億元。這是華新持有華邦電股份的又一次出售行動，華新持有華邦電約6.5%的股份。華新出售的股份將對華邦電的股價產生影響，投資者應密切關注華邦電的股價變動。華新出售股份的動機尚未明確，投資者需要考慮華新出售股份的原因和對華邦電的影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c8f5e478",
-        "title": "AI長照機器人來了！臺東大學推「智慧陪伴員」會聊天還懂情緒",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5449211",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 25 May 2026 19:30:56 +0800",
-        "summary_zh": "數位發展部積極推動「AI花園：科技共榮×教育扎根」計畫，與國立臺東大學、國立雲林科技大學及佛光大學等3所大學合作，媒合50家在地產業。這項計畫旨在結合科技和教育，推動在地產業的發展。今年，計畫將進一步擴大規模，與更多大學和產業合作。其中，臺東大學推出「智慧陪伴員」，是一款AI長照機器人，可以與老人聊天，並了解他們的情緒需求。這項技術有望改善老年人的生活質量和心理健康。計畫的成功將對在地產業和老年人的生活帶來重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "finance": [
+      {
+        "id": "cdfb955a",
+        "title": "從「什麼下一步？ 」：如何讓「富人繳稅」成為主流",
+        "url": "https://www.ft.com/content/e54d436f-bd54-4257-80ca-801083697129",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-25 04:00:00",
+        "summary_zh": "近年來，美國富豪們對於稅收的不滿達到頂峰，許多人威脅要離開紐約和加州。然而，是否真的會有富豪離開這些州，取而代之的是什麼呢？這些富豪的威脅是否只是口惠而實不至？在這個問題上，答案似乎不太明確。根據最近的調查，紐約州和加州的富豪們仍然對稅收感到不滿，但並非所有人都會離開這些州。事實上，許多富豪仍然選擇留在這些州，繼續投資和工作。這些富豪的決定可能與稅收政策有關，但也可能與其他因素有關，如生活質量、教育資源和工作機會等。因此，是否真的會有富豪離開紐約和加州取而代之的，仍然是一個未知數。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "490da88e",
+        "title": "新加坡央行與業界團體合作簡化私人銀行帳戶申請程序",
+        "url": "https://www.reuters.com/world/asia-pacific/singapore-central-bank-working-with-industry-group-streamline-private-bank-2026-05-25/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-25 03:38:09",
+        "summary_zh": "新加坡央行正在與業界團體合作，推動私人銀行帳戶申請程序的簡化。這項合作是為了減少申請程序的複雜性和時間，讓客戶更容易地開立私人銀行帳戶。新加坡央行表示，這項合作將會幫助私人銀行業界提高效率和透明度。業界團體表示，這項合作將會讓客戶的申請程序更容易和快速。這項合作將會對新加坡的金融業界產生重要影響，讓客戶更容易地使用私人銀行服務。新加坡央行和業界團體將會繼續合作，推動私人銀行帳戶申請程序的簡化和改善。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "8f224b77",
+        "title": "印度盧比升值，受石油減免和央行評估影響",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-25/india-rupee-climbs-on-oil-relief-central-bank-valuation-comment",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-25 03:35:54",
+        "summary_zh": "印度盧比近日出現升值趨勢，主要受石油價格減免的影響。根據市場報告，石油價格的下跌對印度的貿易帳戶有著積極的影響，進而推動盧比的升值。同時，印度央行對盧比的評估也對市場產生了影響。央行的評估表明，盧比的升值是市場對印度經濟前景的反映。市場分析師認為，盧比的升值將對印度的出口業有所幫助，進而促進經濟的發展。然而，市場也存在一定的不確定性，盧比的升值是否能持續下去，尚待觀察。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "b4555adb",
+        "title": "英超指數下跌影響印尼富豪家族旗下股票",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-25/ftse-cut-hits-stock-tied-to-one-of-indonesia-s-richest-families",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-25 03:29:15",
+        "summary_zh": "印尼富豪家族旗下的一家公司因英超指數下跌而受影響。英超指數下跌對該公司的影響是由於該公司與英超指數相關聯的股票。英超指數下跌對印尼股市有著重要影響，印尼股市的下跌可能會對該公司的股票價格產生負面影響。該公司的股票價格可能會下跌，從而對印尼富豪家族的財富產生影響。英超指數下跌對印尼股市的影響可能會持續存在，直到英超指數的走勢改變。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "b0c95d95",
+        "title": "日本便利商店之父鈴木敏夫去世，享壽93歲",
+        "url": "https://www.reuters.com/world/asia-pacific/seven-i-says-former-chairman-toshifumi-suzuki-dies-age-93-2026-05-25/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-25 03:07:47",
+        "summary_zh": "日本便利商店之父鈴木敏夫於2023年12月去世，享壽93歲。他是日本七十一公司的創辦人，開創了日本便利商店的概念。鈴木敏夫在1950年代初期創辦了第一家便利商店，開創了日本便利商店的先河。隨著日本經濟的快速發展，鈴木敏夫的便利商店迅速擴展，成為日本的重要零售商。鈴木敏夫的去世被視為日本便利商店業界的一大損失，他的貢獻將永遠被記住。他的去世對日本的零售業界和社會都有深遠的影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "d098c648",
         "title": "中方貿易限制或影響港股 320 億元資產，中信指出",
@@ -418,8 +542,8 @@
         "published_at": "2026-05-25 02:56:21",
         "summary_zh": "中信指出，中國政府對香港的貿易限制可能對港股產生重大影響，影響港股資產達 320 億元。根據中信的估計，中國政府的貿易限制可能會影響香港的金融市場，進而影響港股的價格。這些限制可能包括限制對香港的出口、限制對香港的投資等。中信的分析師表示，這些限制可能會對香港的經濟產生重大影響，進而影響港股的價格。同時，中信也提到，香港的金融市場可能會受到其他因素的影響，例如美國對中國的貿易限制等。因此，中信建議投資者應該保持謹慎的態度，密切關注香港的經濟和金融市場的變化。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "dec606bd",
@@ -430,8 +554,8 @@
         "published_at": "2026-05-25 02:55:25",
         "summary_zh": "新加坡經濟在第一季度出現 6% 的年增率，超越預期。這是由於出口和投資的增長，尤其是電子和化學製品的出口。然而，新加坡政府仍然關注一些風險，包括全球經濟的不確定性和新冠疫情的持續影響。政府也提到，新加坡的經濟仍然面臨著一些挑戰，例如貿易戰和供應鏈的不穩定性。儘管如此，新加坡的經濟仍然表現出韌性和抵抗力。新加坡政府將繼續密切關注經濟的發展，並採取適當的措施來應對風險和挑戰。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "ba11262a",
@@ -442,8 +566,8 @@
         "published_at": "2026-05-25 02:51:18",
         "summary_zh": "新加坡金融監管機構正在與私人銀行合作，透過「風險適當」方法縮短超高網路戶口開戶時間。新加坡在財富管理中心的重要性日漸提升。根據目前的規定，超高網路戶口開戶時間至少需三個月。新加坡金融管理局表示，透過這項合作，將能夠為客戶提供更快速、更便捷的服務。這項措施將有助於新加坡在財富管理中心的競爭力。新加坡的財富管理中心日漸受到全球富人和企業的注目。新加坡政府正在努力打造一個友善財富管理的環境，吸引更多的財富管理公司和客戶。這項措施將是新加坡財富管理中心的一大進步。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "36b9b614",
@@ -454,8 +578,8 @@
         "published_at": "2026-05-25 02:46:47",
         "summary_zh": "印度國有銀行的收益率因伊朗戰爭而大幅上升，達到2年新高。這一發展與全球經濟的變化有關，伊朗戰爭使得油價大幅上升，進而抬升了收益率。印度國有銀行的收益率上升，意味著投資者對這些銀行的信心增強。然而，這一發展也可能對印度經濟產生負面影響，例如加劇通膨。投資者應該密切關注印度國有銀行的收益率變化，以了解這一發展對全球經濟的影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "d1ecbfa4",
@@ -466,8 +590,8 @@
         "published_at": "2026-05-25 02:25:13",
         "summary_zh": "印度央行總裁表示，央行將採取一切必要措施保證外匯市場有序運作。這是因為印度外匯儲備近期出現了下滑趨勢。印度央行總裁表示，央行將密切監測外匯市場的變化，並採取適當措施維持市場穩定。這些措施包括調整利率、限制外匯流出等。印度央行總裁的表態表明，央行將採取積極措施保證外匯市場的穩定，避免市場出現大幅波動。這將對印度經濟產生重要影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "3e913915",
@@ -504,80 +628,6 @@
         "published_at": "2026-05-24 20:00:01",
         "summary_zh": "美國AA是一間以軍人家庭為優先的保險公司。該公司的財務長表示，公司的共同擁有結構使得公司的理念與傳統企業不同，優先考慮軍人家庭的需求。這種理念影響了公司的財務管理，避免過度賺取利益。美國AA的財務長認為，這種哲學使得公司能夠更好地服務軍人家庭。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "9c060e7d",
-        "title": "石油價格下跌 美伊和解希望升溫",
-        "url": "https://www.bbc.com/news/articles/c809m7g29r7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 25 May 2026 13:05:56 GMT",
-        "summary_zh": "美國總統川普週六表示，美伊和解協議將包括重新開放霍爾木茲海峽，但未提供進一步細節。石油價格因美伊關係改善的希望而下跌。霍爾木茲海峽是全球石油運輸的重要通道，美伊關係緊張曾導致該海峽封鎖，對全球石油供應造成重大影響。美伊關係改善的希望使投資者對全球石油供應感到更為樂觀，進而導致石油價格下跌。然而，美伊和解協議的具體內容尚未明確，投資者仍需密切關注該海峽的開放狀況。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cb876b57",
-        "title": "白宮附近發生槍擊案，嫌犯被擊斃",
-        "url": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 25 May 2026 13:40:28 GMT",
-        "summary_zh": "近日，白宮附近發生槍擊案，嫌犯向秘密服務局人員開火，造成一名路人受傷。根據官員的說法，嫌犯在白宮附近的檢查點附近出現並開火，導致一名路人受傷。事件發生後，嫌犯被擊斃。這起槍擊案的原因尚未明確，但官員表示正在調查中。這起事件再次提醒了美國國內的安全問題，白宮附近的安全措施將會受到關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4cc6540c",
-        "title": "川普在伊朗問題上與共和黨人發生分歧：總統堅稱「我不會簽署壞約」",
-        "url": "https://www.theguardian.com/us-news/2026/may/25/trump-news-at-a-glance-latest-updates-today",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 25 May 2026 02:00:13 GMT",
-        "summary_zh": "川普總統在社交媒體上堅稱，他的與伊朗達成的協議將是「與奧巴馬政府簽署的協議完全相反」。這一聲明出現於共和黨內部對於川普與伊朗達成協議的批評之際。共和黨內部的鹹鷹們認為，該協議將是一個災難，並質疑川普為什麼要發動對伊朗的戰爭。川普總統在2018年曾經退出奧巴馬政府與伊朗簽署的協議。目前尚未清楚，川普與伊朗的協議具體內容為何。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bb1e9535",
-        "title": "加州南部化學罐車超熱「將會失效」 美國環保署長警告",
-        "url": "https://www.theguardian.com/us-news/2026/may/24/chemical-tank-california-epa-lee-zeldin",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 24 May 2026 19:36:14 GMT",
-        "summary_zh": "美國環保署署長李察·澤爾丁（Lee Zeldin）在接受CNN採訪時表示，加州橙縣的一個化學罐車因超熱而有可能失效，引發化學爆炸風險。政府官員警告，該罐車失效後可能會釋放可燃化學品，造成爆炸風險。澤爾丁表示，罐車失效的可能性已經被確認，但還沒有確定失效後會發生什麼樣的情況。該化學罐車位於迪士尼樂園附近，引發了當地居民的擔憂。美國環保署署長澤爾丁是一位前共和黨國會議員，沒有任何環保政策經驗，但由川普總統任命為環保署長。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9798cc35",
-        "title": "特朗普在中期選舉前，已經令選民感到失望，共和黨人士警告",
-        "url": "https://www.theguardian.com/us-news/2026/may/24/thomas-massie-trump-republican-voters-midterms",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 24 May 2026 16:49:48 GMT",
-        "summary_zh": "共和黨的美國國會議員托馬斯·馬西 (Thomas Massie) 表示，共和黨在今年 11 月的中期選舉中，將會面臨嚴重的選民失望反彈。托馬斯·馬西是肯塔基州的共和黨人士，於本週的黨內初選中被挑選的對手擊敗。托馬斯·馬西在過去一直與特朗普有所分歧，包括對伊朗的軍事行動、政府開支和Jeffrey Epstein 案的文件釋放。托馬斯·馬西的敗選是共和黨內對特朗普的失望之聲的最新表現。共和黨人士認為，特朗普的行為已經令選民感到失望，可能會影響共和黨在中期選舉中的表現。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e3cb8790",
-        "title": "總統對五旬節的致辭",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/05/presidential-message-on-pentecost/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Sun, 24 May 2026 20:26:47 +0000",
-        "summary_zh": "美國總統與夫人梅拉尼亞在全國各地以及全球各地的基督徒們一起慶祝五旬節的奇蹟，並誕生了基督教會。五旬節的前五十天是復活節後的奇蹟，聖經中記載聖靈降臨在耶路撒冷的使徒們身上，帶著火舌的語言，勝利地完成了基督的承諾，並給了他們勇氣和神聖的權威，宣揚上帝的信息給每一個民族和人民。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       }
@@ -648,226 +698,6 @@
       "type": "price",
       "warn": 400,
       "danger": 500
-    }
-  },
-  "daily_digest": {
-    "key_themes": [
-      {
-        "title": "中東局勢對全球經濟的影響",
-        "background": "中東戰爭持續升溫，伊朗外長表示與美國達成協議不近期內發生。",
-        "development": "伊朗外長的表態引發了對中東地區局勢的擔憂，投資者對全球經濟的預期也變得更加悲觀。石油價格下跌，美伊和解協議的希望升溫，但具體內容尚未明確。",
-        "impact": "中東局勢的變化對全球經濟產生了重大影響，投資者需要密切關注中東地區的發展。",
-        "conclusion": "短線避險情緒將持續壓低美股，但若週末停火談判有進展，週一可能出現技術反彈。",
-        "region": "global"
-      },
-      {
-        "title": "全球能源市場的變化",
-        "background": "全球能源市場的變化對各個行業的發展產生重大影響。",
-        "development": "印度國有銀行的收益率因伊朗戰爭而大幅上升，達到2年新高。這一發展與全球經濟的變化有關，伊朗戰爭使得油價大幅上升，進而抬升了收益率。",
-        "impact": "全球能源市場的變化對各個行業的發展產生重大影響，投資者需要密切關注能源市場的變化。",
-        "conclusion": "能源市場的變化對全球經濟產生了重大影響，投資者需要密切關注能源市場的發展。",
-        "region": "global"
-      },
-      {
-        "title": "美國國內的安全問題",
-        "background": "美國國內的安全問題將會對美國的政治和經濟產生重大影響。",
-        "development": "白宮附近發生槍擊案，嫌犯被擊斃。這起事件再次提醒了美國國內的安全問題，白宮附近的安全措施將會受到關注。",
-        "impact": "美國國內的安全問題對美國的政治和經濟產生了重大影響，投資者需要密切關注美國國內的安全局勢。",
-        "conclusion": "美國國內的安全問題將會對美國的政治和經濟產生重大影響，投資者需要密切關注美國國內的安全局勢。",
-        "region": "americas"
-      }
-    ],
-    "sector_analysis": [
-      {
-        "sector": "能源",
-        "direction": "看多",
-        "reasoning": "全球能源市場的變化對各個行業的發展產生重大影響，投資者需要密切關注能源市場的變化。",
-        "key_ticker": "油價"
-      },
-      {
-        "sector": "金融",
-        "direction": "中性",
-        "reasoning": "印度國有銀行的收益率因伊朗戰爭而大幅上升，達到2年新高。",
-        "key_ticker": "印度國有銀行"
-      },
-      {
-        "sector": "科技",
-        "direction": "看空",
-        "reasoning": "北極星藥業撤惡性間皮瘤藥證申請，調整美子公司人力。",
-        "key_ticker": "北極星藥業"
-      }
-    ],
-    "action_signals": [
-      {
-        "asset": "油價",
-        "signal": "短多",
-        "reasoning": "美伊和解協議的希望升溫，石油價格下跌。",
-        "confidence": "高"
-      },
-      {
-        "asset": "印度國有銀行",
-        "signal": "觀望",
-        "reasoning": "印度國有銀行的收益率因伊朗戰爭而大幅上升，達到2年新高。",
-        "confidence": "中高"
-      },
-      {
-        "asset": "北極星藥業",
-        "signal": "短空",
-        "reasoning": "北極星藥業撤惡性間皮瘤藥證申請，調整美子公司人力。",
-        "confidence": "中"
-      }
-    ],
-    "risk_radar": [
-      {
-        "event": "中東局勢升級",
-        "probability": "高",
-        "impact": "高",
-        "timeframe": "本週",
-        "description": "中東局勢的變化對全球經濟產生了重大影響，投資者需要密切關注中東地區的發展。"
-      },
-      {
-        "event": "美國國內安全問題",
-        "probability": "中",
-        "impact": "中",
-        "timeframe": "下週",
-        "description": "美國國內的安全問題對美國的政治和經濟產生了重大影響，投資者需要密切關注美國國內的安全局勢。"
-      },
-      {
-        "event": "全球能源市場變化",
-        "probability": "中",
-        "impact": "中",
-        "timeframe": "本月",
-        "description": "全球能源市場的變化對各個行業的發展產生重大影響，投資者需要密切關注能源市場的變化。"
-      }
-    ],
-    "narrative_shift": {
-      "new_themes": [
-        "全球能源市場的變化"
-      ],
-      "escalated": [
-        "中東局勢對全球經濟的影響"
-      ],
-      "cooled": [
-        "美國國內的安全問題"
-      ],
-      "disappeared": []
-    },
-    "watch_next": [
-      {
-        "topic": "中東局勢",
-        "reason": "中東局勢的變化對全球經濟產生了重大影響",
-        "timeframe": "本週"
-      },
-      {
-        "topic": "全球能源市場",
-        "reason": "全球能源市場的變化對各個行業的發展產生重大影響",
-        "timeframe": "本月"
-      },
-      {
-        "topic": "美國國內安全問題",
-        "reason": "美國國內的安全問題對美國的政治和經濟產生了重大影響",
-        "timeframe": "下週"
-      }
-    ],
-    "cross_links": [
-      {
-        "themes": [
-          "中東局勢",
-          "全球能源市場"
-        ],
-        "chain": "中東局勢的變化對全球能源市場產生了重大影響"
-      },
-      {
-        "themes": [
-          "美國國內安全問題",
-          "中東局勢"
-        ],
-        "chain": "美國國內的安全問題對中東局勢產生了重大影響"
-      },
-      {
-        "themes": [
-          "全球能源市場",
-          "美國國內安全問題"
-        ],
-        "chain": "全球能源市場的變化對美國國內的安全問題產生了重大影響"
-      }
-    ],
-    "market_snapshot": {
-      "mood": "觀望",
-      "key_moves": "油價下跌，美伊和解協議的希望升溫。印度國有銀行的收益率因伊朗戰爭而大幅上升，達到2年新高。"
-    },
-    "data_table": {
-      "indices": [
-        {
-          "key": "SP500",
-          "name": "S&P 500",
-          "price": 7473.47,
-          "change_pct": 0.37,
-          "status": "danger"
-        },
-        {
-          "key": "NASDAQ",
-          "name": "那斯達克",
-          "price": 26343.97,
-          "change_pct": 0.19,
-          "status": "normal"
-        },
-        {
-          "key": "TWII",
-          "name": "台股加權",
-          "price": 43644.4,
-          "change_pct": 3.26,
-          "status": "normal"
-        }
-      ],
-      "commodities": [
-        {
-          "key": "GOLD",
-          "name": "黃金",
-          "price": 4523.2,
-          "change_pct": 0.05,
-          "status": "normal"
-        },
-        {
-          "key": "OIL",
-          "name": "原油 WTI",
-          "price": 96.6,
-          "change_pct": 0.0,
-          "status": "normal"
-        }
-      ],
-      "forex": [
-        {
-          "key": "DXY",
-          "name": "美元指數",
-          "price": 98.97,
-          "change_pct": -0.35,
-          "status": "normal"
-        },
-        {
-          "key": "USDTWD",
-          "name": "美元/台幣",
-          "price": 31.4,
-          "change_pct": -0.49,
-          "status": "normal"
-        }
-      ],
-      "bonds_volatility": [
-        {
-          "key": "TNX",
-          "name": "美債10Y殖利率",
-          "price": 4.56,
-          "change_pct": -0.61,
-          "status": "warn"
-        },
-        {
-          "key": "VIX",
-          "name": "VIX 恐慌指數",
-          "price": 16.68,
-          "change_pct": -0.12,
-          "status": "normal"
-        }
-      ]
     }
   }
 }
