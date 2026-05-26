@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-26T15:04:20.526888+08:00",
+  "generated_at": "2026-05-26T16:04:07.066395+08:00",
   "risk_signals": [
     "🟢 台股加權 43525.37（正常）",
     "🟢 S&P 500 7473.47（正常）",
-    "🟢 VIX 恐慌指數 16.59（正常）",
+    "🟢 VIX 恐慌指數 16.81（正常）",
     "🟢 MOVE 債市波動 78.43（正常）",
     "🟢 美元指數 99.07（正常）",
-    "🟢 黃金 4531.5（正常）",
+    "🟢 黃金 4532.5（正常）",
     "🟡 美債10Y殖利率 4.56（留意）",
-    "🟢 原油 WTI 91.45（正常）",
-    "🟢 美元/台幣 31.46（正常）"
+    "🟢 原油 WTI 92.56（正常）",
+    "🟢 美元/台幣 31.47（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，投資者仍然對全球經濟展望有信心，股市指數繼續上漲。然而，美債10年殖利率略為上升，可能是市場對未來經濟增長的預期有所調整。",
+  "ai_summary": "市場氛圍穩定，多個指標正常運作，但美債10年殖利率略升，需要留意。",
   "market": {
     "TWII": {
       "price": 43525.37,
@@ -26,8 +26,8 @@
       "change_pct": 0.19
     },
     "VIX": {
-      "price": 16.59,
-      "change_pct": -0.66
+      "price": 16.81,
+      "change_pct": 1.33
     },
     "TNX": {
       "price": 4.56,
@@ -42,16 +42,16 @@
       "change_pct": -0.25
     },
     "GOLD": {
-      "price": 4531.5,
-      "change_pct": 0.23
+      "price": 4532.5,
+      "change_pct": 0.25
     },
     "OIL": {
-      "price": 91.45,
-      "change_pct": -5.33
+      "price": 92.56,
+      "change_pct": -4.18
     },
     "USDTWD": {
-      "price": 31.46,
-      "change_pct": 0.07
+      "price": 31.47,
+      "change_pct": 0.08
     }
   },
   "macro": {},
@@ -82,18 +82,6 @@
         "ai_classified": true
       },
       {
-        "id": "4d1a42e6",
-        "title": "與美國達成協議不近期內發生，伊朗外長表示",
-        "url": "https://www.bbc.com/news/articles/cglpp2yk336o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 25 May 2026 22:05:29 GMT",
-        "summary_zh": "伊朗外長在美國國務卿表示可能在星期一公布協議後表示，與美國達成協議不近期內發生。伊朗外長的這番話是針對美國國務卿的最新發言作出的回應。美國國務卿之前表示，可能在星期一公布與伊朗的協議。伊朗外長的表態表明，伊朗對於與美國達成協議仍然存在著一定的疑慮和不確定性。這一發展可能會對中東地區的局勢產生一定的影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "f3917e49",
         "title": "俄羅斯威脅再次攻擊基輔，告知外國人立即離境",
         "url": "https://www.bbc.com/news/articles/c1e22n55zn4o?at_medium=RSS&at_campaign=rss",
@@ -106,6 +94,18 @@
         "ai_classified": true
       },
       {
+        "id": "a8ddd5db",
+        "title": "澳洲確認首例破傷風死亡病例　數十年來最嚴重爆發",
+        "url": "https://www.bbc.com/news/articles/c759q6y26w3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 26 May 2026 07:09:38 GMT",
+        "summary_zh": "澳洲最近爆發了數十年來最嚴重的破傷風疫情，首例死亡病例已經確認。該疫情主要集中在北領地，還有部分病例出現在西澳、南澳和昆士蘭。破傷風是一種由破傷風桿菌引起的嚴重感染，主要通過密切接觸傳播。澳洲政府正採取措施控制疫情，包括接種疫苗和加強公共衛生措施。這次疫情的原因尚未明確，但已經有跡象表明，疫苗接種率低是其中一個因素。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "d76a49f2",
         "title": "巴黎學校掀起兒童虐待案件潮",
         "url": "https://www.bbc.com/news/articles/c8e8gx2d7j4o?at_medium=RSS&at_campaign=rss",
@@ -114,8 +114,8 @@
         "published_at": "Mon, 25 May 2026 23:01:57 GMT",
         "summary_zh": "巴黎學校掀起一股兒童虐待案件潮。最近一宗案件中，一名學校助教被指控在照顧學生期間對兒童進行性虐待。這宗案件是巴黎學校系統最近遭遇的一宗震撼案件。根據調查，助教被指控對多名學生進行性虐待，造成嚴重後果。這宗案件引起了社會大眾的關注和譴責。巴黎市政府已經對此進行了調查，並且正在採取措施防止類似案件再次發生。這宗案件也引起了對巴黎學校系統管理和安全的質疑。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "2f8b6532",
@@ -126,20 +126,32 @@
         "published_at": "Tue, 26 May 2026 01:48:34 GMT",
         "summary_zh": "在老撾發生山洞內水浸事件，七名人士被困在山洞中。這次救援行動引起了國際關注，包括曾經營救泰國少年足球隊的專家團隊。這些專家在 2018 年成功營救泰國少年足球隊，現在他們再次被派往老撾山洞，與其他救援人員一起競速營救被困者。這次事件的影響可能會很大，尤其是考慮到老撾的自然環境和山洞的複雜性。目前尚未有明確的後續展望，但救援人員正在努力營救被困者。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "d5e9cdbd",
-        "title": "加州官員稱化學儲槽爆炸風險已消除，但仍有十萬人受影響",
-        "url": "https://www.bbc.com/news/articles/cx2119er9glo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 26 May 2026 01:43:06 GMT",
-        "summary_zh": "加州南部的化學儲槽因故障而引發擔憂，當地官員表示已經排除了大規模爆炸的風險。但儘管如此，仍有數十萬人被迫撤離。儲槽故障導致附近地區出現危險情況，官員正在努力修復儲槽。這起事件的影響範圍非常廣泛，仍有許多人受困於撤離令下。官員們正在密切監控儲槽的狀況，確保安全。",
-        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "3f4f7ecd",
+        "title": "德克薩斯州警員救出嬰兒　車輛陷入洪水中",
+        "url": "https://www.theguardian.com/us-news/2026/may/25/texas-baby-rescue-car-floodwaters",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Mon, 25 May 2026 17:24:47 GMT",
+        "summary_zh": "德克薩斯州警方和消防員在週六救出一名嬰兒，車輛陷入洪水中。根據德克薩斯州貝維爾警局星期日發布的視頻顯示，警員和消防員圍繞著一輛半沉入洪水中的白色車輛。當一名救援人員靠近車輛時，車內的男子表達了緊急情況，說：“你能救出我的孩子嗎？”",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "25a7a332",
+        "title": "數十架無人機墜入悉尼港，光影秀技術故障導致",
+        "url": "https://www.bbc.com/news/articles/c9d330wqq2zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 26 May 2026 03:44:12 GMT",
+        "summary_zh": "悉尼光影節（Vivid Sydney）一場無人機表演因技術故障而出現意外，數十架無人機墜入悉尼港。節目組織者和負責無人機表演的英國公司表示，這是由於技術問題引起的。這次意外發生在悉尼港的光影秀表演中，無人機飛行時出現問題，導致數十架無人機墜入港水。幸好沒有人員受傷。這次意外的原因尚未完全清楚，但節目組織者和英國公司正在調查中。這次光影秀表演是悉尼光影節的一部分，該節目每年吸引大量觀眾。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "ab9563bd",
@@ -150,8 +162,20 @@
         "published_at": "Tue, 26 May 2026 05:13:27 GMT",
         "summary_zh": "索尼·羅林斯（Sonny Rollins）是一位爵士樂界的傳奇人物，他以「薩克斯風巨星」而聞名。他的一生中有著數十年的卓越演奏生涯。羅林斯的音樂風格多樣，從爵士到節奏藍調，他的薩克斯風演奏技巧深受讚賞。他的影響力不僅限於爵士樂界，他的音樂也對其他音樂類型產生了深遠的影響。羅林斯的去世，讓爵士樂界失去了另一位偉大的藝術家。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "94df1664",
+        "title": "超過 150 萬外國朝聖者參與哈吉節，儘管伊朗戰爭恐懼",
+        "url": "https://www.bbc.com/news/articles/cwy22jx03ryo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 25 May 2026 20:11:59 GMT",
+        "summary_zh": "今年哈吉節，超過 150 萬外國朝聖者抵達沙特阿拉伯。根據沙特官方數據，這是去年參與哈吉節的穆斯林人數的 11,000 人之多。儘管伊朗戰爭的風險仍在繼續升高，沙特阿拉伯仍然對外國朝聖者提供安全保障。這項措施被視為沙特阿拉伯在宗教和政治領域的重要一步。然而，伊朗的軍事行動和恐怖主義威脅仍然對哈吉節的安全構成威脅。沙特阿拉伯政府正密切關注這些風險，並採取措施應對。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "37ab6105",
@@ -161,6 +185,18 @@
         "category": "global",
         "published_at": "Mon, 25 May 2026 11:54:07 GMT",
         "summary_zh": "烏干達的穆奇森瀑布國家公園內發生了一起車禍事故，四人受傷，三人不幸喪生。根據官員的說法，這起事故發生在國家公園內。這起事件的詳細情況尚未公布，但已經引起了關注。烏干達的國家公園內有許多野生動物，包括大象，這些動物的出現增加了道路安全的風險。這起事故的影響尚未完全清楚，但它可能會引起對國家公園內道路安全的重視。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cb8c5ce5",
+        "title": "至少 19 人被送醫　東京商場發生強烈氣味事件",
+        "url": "https://www.bbc.com/news/articles/cevpp983kmzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 25 May 2026 11:08:05 GMT",
+        "summary_zh": "東京市內發生一起強烈氣味事件，警方表示一名男子在高級商場 Ginza 6 的自動櫃員機處噴灑了一種物質。事件發生後，至少 19 人被送往醫院接受治療。警方正在調查事件的原因和影響。這起事件引起了公眾的關注和恐懼，商場內的消防和醫療人員迅速趨近並提供幫助。事件的影響尚待觀察，但目前已經造成了對公眾的影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -178,54 +214,6 @@
         "ai_classified": true
       },
       {
-        "id": "94df1664",
-        "title": "超過 150 萬外國朝聖者參與哈吉節，儘管伊朗戰爭恐懼",
-        "url": "https://www.bbc.com/news/articles/cwy22jx03ryo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 25 May 2026 20:11:59 GMT",
-        "summary_zh": "今年哈吉節，超過 150 萬外國朝聖者抵達沙特阿拉伯。根據沙特官方數據，這是去年參與哈吉節的穆斯林人數的 11,000 人之多。儘管伊朗戰爭的風險仍在繼續升高，沙特阿拉伯仍然對外國朝聖者提供安全保障。這項措施被視為沙特阿拉伯在宗教和政治領域的重要一步。然而，伊朗的軍事行動和恐怖主義威脅仍然對哈吉節的安全構成威脅。沙特阿拉伯政府正密切關注這些風險，並採取措施應對。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1808a73f",
-        "title": "希臘游泳選手在爭議的增強運動會中打破50米自由泳世界紀錄",
-        "url": "https://www.bbc.com/sport/articles/cx211xyd298o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 25 May 2026 07:49:56 GMT",
-        "summary_zh": "在美國拉斯維加斯舉行的增強運動會上，希臘游泳選手克里斯蒂安·格科洛梅夫(Kristian Gkolomeev)以驚人的表現，打破了50米自由泳世界紀錄。這項比賽引發了爭議，許多人質疑增強運動會的公平性和合法性。格科洛梅夫的成績雖然令人印象深刻，但卻無法掩蓋增強運動會的爭議。這項事件可能會對國際游泳界造成影響，甚至可能會影響未來的奧運會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cb8c5ce5",
-        "title": "至少 19 人被送醫　東京商場發生強烈氣味事件",
-        "url": "https://www.bbc.com/news/articles/cevpp983kmzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 25 May 2026 11:08:05 GMT",
-        "summary_zh": "東京市內發生一起強烈氣味事件，警方表示一名男子在高級商場 Ginza 6 的自動櫃員機處噴灑了一種物質。事件發生後，至少 19 人被送往醫院接受治療。警方正在調查事件的原因和影響。這起事件引起了公眾的關注和恐懼，商場內的消防和醫療人員迅速趨近並提供幫助。事件的影響尚待觀察，但目前已經造成了對公眾的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "784365d6",
-        "title": "中國近年來最慘重的煤礦災難引發民怨",
-        "url": "https://www.bbc.com/news/articles/c893543gn20o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 25 May 2026 08:00:35 GMT",
-        "summary_zh": "中國近日發生了一場煤礦災難，造成至少 21 人死亡，成為近年來最慘重的煤礦災難。這起事故引發了民眾的強烈不滿和質疑，網路上有人呼籲追究責任，另有人質疑政府如何防止這種悲劇發生。中國的煤礦業一直是安全問題嚴重的領域，多年來有過多起重大事故。這次的災難再次引起了對政府和煤礦業主的關注和批評。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "94abde7c",
         "title": "委內瑞拉囚犯抗議遭警方開火",
         "url": "https://www.bbc.com/news/articles/c0l22wrx44po?at_medium=RSS&at_campaign=rss",
@@ -238,30 +226,6 @@
         "ai_classified": true
       },
       {
-        "id": "a2522e0e",
-        "title": "中國北部煤礦瓦斯爆炸事故造成82人死亡",
-        "url": "https://www.bbc.com/news/videos/cedpp9ldnl9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 25 May 2026 10:20:57 GMT",
-        "summary_zh": "中國北部煤礦發生瓦斯爆炸事故，至少82人死亡，2人失蹤。這起事故發生在週日，當地官員表示。煤礦瓦斯爆炸是中國煤礦安全問題的一個嚴重問題，多年來已經造成許多生命損失。這次事故的原因尚未明朗，但煤礦安全問題一直是中國政府關注的議題。中國政府將對這起事故進行調查，並對相關責任人進行追究。這起事故對中國煤礦安全問題的影響將是長期的，將對中國的煤炭產業造成重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3f4f7ecd",
-        "title": "德克薩斯州警員救出嬰兒　車輛陷入洪水中",
-        "url": "https://www.theguardian.com/us-news/2026/may/25/texas-baby-rescue-car-floodwaters",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Mon, 25 May 2026 17:24:47 GMT",
-        "summary_zh": "德克薩斯州警方和消防員在週六救出一名嬰兒，車輛陷入洪水中。根據德克薩斯州貝維爾警局星期日發布的視頻顯示，警員和消防員圍繞著一輛半沉入洪水中的白色車輛。當一名救援人員靠近車輛時，車內的男子表達了緊急情況，說：“你能救出我的孩子嗎？”",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "d685e73c",
         "title": "WHO警告：剛果民主共和國埃博拉爆發超越應對力度，鄰國需立即行動",
         "url": "https://www.theguardian.com/world/2026/may/25/spread-of-ebola-in-drc-outpacing-response-efforts-warns-who",
@@ -269,6 +233,42 @@
         "category": "global",
         "published_at": "Mon, 25 May 2026 17:00:30 GMT",
         "summary_zh": "世界衛生組織（WHO）發布警告，指出剛果民主共和國（DRC）埃博拉爆發正超越應對力度。WHO總幹事德德羅斯（Dr Tedros Adhanom Ghebreyesus）表示，組織正緊急擴大應對行動，但目前疫情仍在超越應對力度。他呼籲鄰國立即採取行動以防止疫情擴散。根據WHO的估計，DRC的埃博拉爆發已經造成逾1,000宗病例和近600宗死亡。WHO認為，鄰國的風險非常高，因此應該採取積極的措施以防止疫情擴散。這項警告表明，WHO正在密切關注疫情的發展，並正在與各國合作以應對疫情。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d5e9cdbd",
+        "title": "加州官員稱化學儲槽爆炸風險已消除，但仍有十萬人受影響",
+        "url": "https://www.bbc.com/news/articles/cx2119er9glo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 26 May 2026 01:43:06 GMT",
+        "summary_zh": "加州南部的化學儲槽因故障而引發擔憂，當地官員表示已經排除了大規模爆炸的風險。但儘管如此，仍有數十萬人被迫撤離。儲槽故障導致附近地區出現危險情況，官員正在努力修復儲槽。這起事件的影響範圍非常廣泛，仍有許多人受困於撤離令下。官員們正在密切監控儲槽的狀況，確保安全。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4d1a42e6",
+        "title": "與美國達成協議不近期內發生，伊朗外長表示",
+        "url": "https://www.bbc.com/news/articles/cglpp2yk336o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 25 May 2026 22:05:29 GMT",
+        "summary_zh": "伊朗外長在美國國務卿表示可能在星期一公布協議後表示，與美國達成協議不近期內發生。伊朗外長的這番話是針對美國國務卿的最新發言作出的回應。美國國務卿之前表示，可能在星期一公布與伊朗的協議。伊朗外長的表態表明，伊朗對於與美國達成協議仍然存在著一定的疑慮和不確定性。這一發展可能會對中東地區的局勢產生一定的影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a2522e0e",
+        "title": "中國北部煤礦瓦斯爆炸事故造成82人死亡",
+        "url": "https://www.bbc.com/news/videos/cedpp9ldnl9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 25 May 2026 10:20:57 GMT",
+        "summary_zh": "中國北部煤礦發生瓦斯爆炸事故，至少82人死亡，2人失蹤。這起事故發生在週日，當地官員表示。煤礦瓦斯爆炸是中國煤礦安全問題的一個嚴重問題，多年來已經造成許多生命損失。這次事故的原因尚未明朗，但煤礦安全問題一直是中國政府關注的議題。中國政府將對這起事故進行調查，並對相關責任人進行追究。這起事故對中國煤礦安全問題的影響將是長期的，將對中國的煤炭產業造成重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -326,112 +326,64 @@
     ],
     "stock_tw": [
       {
-        "id": "9d509699",
-        "title": "高管創業復仇！誇海口「1年內絕對獲利」 親揭驚人現況",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5449446",
-        "source": "自由時報財經",
+        "id": "7beee541",
+        "title": "台積電下跌40元 台股創高震盪壓回44000點得而復失",
+        "url": "https://www.cna.com.tw/news/afe/202605260152.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 26 May 2026 14:52:33 +0800",
-        "summary_zh": "一名60歲的高管曾是某中型機械製造企業的董事，前半生以工作狂的形象聞名。他在宮鬥與專案中取得了無往不利的成績，但卻因為一場高層人事地震而被迫離職。這名高管在離職後決定創業，誇海口要在一年內「絕對獲利」。他在接受訪問時表示，自己在創業初期遇到了許多挑戰，但他堅信自己有能力克服這些困難。他還揭露了自己在企業內的驚人現況，包括公司內的政治鬥爭和專案的失敗。他希望透過自己的創業故事，讓更多的人了解創業的風險和挑戰，並鼓勵大家勇敢地追求自己的夢想。",
-        "sentiment": "正面",
+        "published_at": "Tue, 26 May 2026 13:57:40 +0800",
+        "summary_zh": "台股今天早盤衝高越過44000點，創下44097.63點新高，隨後獲利了結賣壓出籠，指數震盪翻黑呈現狹幅整理。終場台積電下跌40元，台股以43525.37點作收，44000點得而復失。這次台股的震盪表明市場仍然存在一定的不確定性，投資者需要保持謹慎的態度。台積電的下跌也可能影響整體市場的走勢，投資者需要密切關注市場的變化。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "8a6f16d9",
+        "title": "6月電子期跌 金融期漲",
+        "url": "https://www.cna.com.tw/news/afe/202605260148.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 26 May 2026 13:56:31 +0800",
+        "summary_zh": "台北股市今天下跌119.03點，收43525.37點。電子期商品期貨市場今天出現下跌，6月電子期收2872.45點，下跌16.65點，正價差26.75點。另一方面，金融期商品期貨市場今天出現上漲，6月金融期收2596.20點，上漲39.60點，正價差15.61點。這些數據表明，電子產業的市場情緒出現下滑，而金融產業的市場情緒則出現上升。這可能與全球經濟的變化和產業趨勢有關。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "284d5aa7",
-        "title": "元大台灣50正2增持台積電現貨占比達43.7％",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5450056",
-        "source": "自由時報財經",
+        "id": "06c2769b",
+        "title": "6月台股期指漲23點",
+        "url": "https://www.cna.com.tw/news/afe/202605260146.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 26 May 2026 14:50:03 +0800",
-        "summary_zh": "近兩個禮拜，元大台灣50正2（00631L）透過股票搭配期貨的方式，持股台積電（2330）現貨達39.63%。這項投資策略的目標是持續貼近臺灣50指數單日正向2倍報酬。然而，這項舉動引發了不少散戶的高度關注。投資人們開始質疑，是否這項策略會導致投資風險的增加。同時，投資人們也開始關注，是否這項策略會對市場的波動產生影響。",
+        "published_at": "Tue, 26 May 2026 13:55:27 +0800",
+        "summary_zh": "台北股市今天終場跌119.03點，收43525.37點。6月台指期以43893點作收，上漲23點。與現貨相較，正價差367.63點。這意味著投資者對未來台股市場有著相對樂觀的預期。然而，市場的波動仍是不可預測的，投資者需要保持謹慎的態度。這一波上漲可能是市場對經濟復甦的反應，但也可能是短期的市場調整。投資者需要密切關注市場的發展，準備面對未來的挑戰。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "2f1c090a",
-        "title": "台股成為全球第五大 印媒：得益台積電等科技硬體公司集中放大招",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5450054",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 26 May 2026 14:46:03 +0800",
-        "summary_zh": "台灣股市近期超越印度成為全球第五大股市，印度媒體指出，這主要是由於台積電股價大漲推升台股總市值。除了台積電，台灣科技硬體公司的集中成長也對台股的不斷成長有重大影響。這些公司的股價上漲，使得台股總市值快速增加，進而將台股推上全球第五大股市的位置。這個發展也反映出台灣科技業的強勁成長和競爭力。然而，市場也存在著對台股過度依賴台積電的風險，這可能會對台股的穩定性產生影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "2e1645d0",
-        "title": "感念捐助醫學教育資源 陽明交大發聲哀悼尹衍樑",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5450032",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 26 May 2026 14:42:22 +0800",
-        "summary_zh": "陽明交大發聲哀悼尹衍樑，稱其對醫學教育具有熱忱。尹衍樑生前不僅捐助相關獎學金，也協助空間與資源建設。校長林奇宏、醫學院全體師生與校友聞訊深感哀痛。尹衍樑的捐助對於醫學教育的發展產生了重要影響。陽明交大將繼續努力推動醫學教育的發展，感念尹衍樑的貢獻。尹衍樑的去世對於醫學教育界造成了沉重的打擊。陽明交大將繼續努力為醫學教育的發展做出貢獻。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "83ee15f7",
-        "title": "黃仁勳台北美食地圖來了！ 今晚和魏哲家吃這家餐廳",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5450027",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 26 May 2026 14:35:42 +0800",
-        "summary_zh": "黃仁勳台積電董事長魏哲家今晚將在台北師大路的私廚「三六食府」共進晚餐。據了解，這不是黃仁勳第一次光臨「三六食府」，他已經三度回訪這家餐廳。黃仁勳來台後的行程十分繁忙，今晚的餐敘將是他休息的一刻。魏哲家與黃仁勳的關係密切，兩人在商業和科技領域有著深厚的合作。這次的餐敘將是雙方加深友誼的機會。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "14d0428b",
-        "title": "政大人要永記尹學長的好！謝金河曝尹衍樑為政大默默奉獻事蹟",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5450000",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 26 May 2026 14:35:33 +0800",
-        "summary_zh": "尹衍樑今凌晨辭世，享壽76歲，各界哀弔。財信傳媒集團董事長謝金河緬懷尹衍樑，表示只要遇到政大的事，尹總是特別用心。謝金河列舉尹衍樑為政大做的種種事蹟，包括捐款、提供資源、支持校友活動等。謝金河直呼「政大人要永記尹學長的好！謝金河的言論表達了對尹衍樑的深深敬意和感謝。尹衍樑的默默奉獻對政大有著重要影響，留下了深刻的記憶。",
-        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "217fb779",
-        "title": "台積電股價大幅下跌 指數震盪收跌119點",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5449493",
-        "source": "自由時報財經",
+        "id": "28dc5322",
+        "title": "印尼國家投資機構推3大合作計畫 開拓社會永續發展",
+        "url": "https://www.cna.com.tw/news/aopl/202605260142.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 26 May 2026 13:56:54 +0800",
-        "summary_zh": "市場對美伊和平談判的希望重燃，週二亞洲盤美期指走揚，韓股則展開補漲，飆漲逾3.6%來到8131.15點歷史新高。然而，台積電股價卻出現大幅下跌，市場震盪，指數收跌119點。台積電的股價下跌可能是市場對公司未來發展的不確定性或是其他市場因素的影響。這一事件對整體市場的影響需要進一步觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
+        "published_at": "Tue, 26 May 2026 13:48:18 +0800",
+        "summary_zh": "印尼國家投資管理機構「達南塔拉」旗下達南塔拉信託宣布推出首波3大戰略合作計畫，橫跨醫療、教育與文化領域。這些計畫旨在開拓國家資產管理以外的社會永續發展。達南塔拉信託透過這些合作計畫，希望能夠帶來更大的社會影響力和永續發展。這些計畫的推出也標誌著印尼國家投資機構進一步轉型為一個更具社會責任的投資機構。印尼政府一直在努力推動社會永續發展，透過投資和合作計畫來改善國民的生活質量和社會福祉。這些計畫的成功將對印尼的社會和經濟發展產生重要影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
-        "id": "23e264cb",
-        "title": "聯發科與元太科技深化合作 介入彩色電子紙技術升級閱讀體驗",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5449948",
-        "source": "自由時報財經",
+        "id": "ac374bd0",
+        "title": "台股跌119.03點",
+        "url": "https://www.cna.com.tw/news/afe/202605260141.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 26 May 2026 13:56:36 +0800",
-        "summary_zh": "聯發科與全球電子紙領導廠商元太科技宣布深化合作，透過整合聯發科全球首款專為生成式AI電子閱讀器打造的系統單晶片（SoC）與內容管理系統，提升閱讀體驗。這項合作將結合聯發科的AI技術與元太科技的電子紙技術，創造出更高效率、更便捷的閱讀體驗。聯發科的SoC能夠有效地處理大量的數據，提高閱讀速度和品質，而元太科技的電子紙技術能夠提供更高的顯示品質和更長的閱讀時間。這項合作將對電子閱讀器產業帶來重大影響，讓使用者能夠享受更優秀的閱讀體驗。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d22f2609",
-        "title": "星宇航空蟬聯SKYTRAX五星航空 亮相地面到高空服務細節",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5449955",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 26 May 2026 13:54:50 +0800",
-        "summary_zh": "星宇航空連續兩年獲得航空業最高榮譽SKYTRAX五星航空認證。為了感謝每一位星宇人的全力付出，該航空公司今天透過官方社群平台發布了一支影片。影片不僅展現了從地面到高空的每一個服務細節，也讓觀眾感受到星宇航空的專業和熱情。這項榮譽是航空業的最高認證，表明星宇航空的服務質量和安全標準達到了世界級的標準。這項榮譽不僅對星宇航空的員工和客戶來說是一個榮譽，也是對航空業的推動和發展的一個重要里程碑。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
+        "published_at": "Tue, 26 May 2026 13:46:16 +0800",
+        "summary_zh": "台北股市今天開高走低，收盤跌119.03點，為43525.37點，跌幅0.27%。這意味著台股在短期內出現了小幅波動。市場分析師認為，這可能是由於投資者對市場前景的不確定性所導致。同時，成交金額新台幣1兆4732.23億元，也表明市場仍然活躍。然而，市場仍然需要觀察台股的走勢，是否會持續下跌或是反彈。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "237f0e82",
@@ -456,9 +408,93 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "9d509699",
+        "title": "高管創業復仇！誇海口「1年內絕對獲利」 親揭驚人現況",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5449446",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 26 May 2026 14:52:33 +0800",
+        "summary_zh": "一名60歲的高管曾是某中型機械製造企業的董事，前半生以工作狂的形象聞名。他在宮鬥與專案中取得了無往不利的成績，但卻因為一場高層人事地震而被迫離職。這名高管在離職後決定創業，誇海口要在一年內「絕對獲利」。他在接受訪問時表示，自己在創業初期遇到了許多挑戰，但他堅信自己有能力克服這些困難。他還揭露了自己在企業內的驚人現況，包括公司內的政治鬥爭和專案的失敗。他希望透過自己的創業故事，讓更多的人了解創業的風險和挑戰，並鼓勵大家勇敢地追求自己的夢想。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "284d5aa7",
+        "title": "元大台灣50正2增持台積電現貨占比達43.7％",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5450056",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 26 May 2026 14:50:03 +0800",
+        "summary_zh": "近兩個禮拜，元大台灣50正2（00631L）透過股票搭配期貨的方式，持股台積電（2330）現貨達39.63%。這項投資策略的目標是持續貼近臺灣50指數單日正向2倍報酬。然而，這項舉動引發了不少散戶的高度關注。投資人們開始質疑，是否這項策略會導致投資風險的增加。同時，投資人們也開始關注，是否這項策略會對市場的波動產生影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2f1c090a",
+        "title": "台股成為全球第五大 印媒：得益台積電等科技硬體公司集中放大招",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5450054",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 26 May 2026 14:46:03 +0800",
+        "summary_zh": "台灣股市近期超越印度成為全球第五大股市，印度媒體指出，這主要是由於台積電股價大漲推升台股總市值。除了台積電，台灣科技硬體公司的集中成長也對台股的不斷成長有重大影響。這些公司的股價上漲，使得台股總市值快速增加，進而將台股推上全球第五大股市的位置。這個發展也反映出台灣科技業的強勁成長和競爭力。然而，市場也存在著對台股過度依賴台積電的風險，這可能會對台股的穩定性產生影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2e1645d0",
+        "title": "感念捐助醫學教育資源 陽明交大發聲哀悼尹衍樑",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5450032",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 26 May 2026 14:42:22 +0800",
+        "summary_zh": "陽明交大發聲哀悼尹衍樑，稱其對醫學教育具有熱忱。尹衍樑生前不僅捐助相關獎學金，也協助空間與資源建設。校長林奇宏、醫學院全體師生與校友聞訊深感哀痛。尹衍樑的捐助對於醫學教育的發展產生了重要影響。陽明交大將繼續努力推動醫學教育的發展，感念尹衍樑的貢獻。尹衍樑的去世對於醫學教育界造成了沉重的打擊。陽明交大將繼續努力為醫學教育的發展做出貢獻。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "83ee15f7",
+        "title": "黃仁勳台北美食地圖來了！ 今晚和魏哲家吃這家餐廳",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5450027",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 26 May 2026 14:35:42 +0800",
+        "summary_zh": "黃仁勳台積電董事長魏哲家今晚將在台北師大路的私廚「三六食府」共進晚餐。據了解，這不是黃仁勳第一次光臨「三六食府」，他已經三度回訪這家餐廳。黃仁勳來台後的行程十分繁忙，今晚的餐敘將是他休息的一刻。魏哲家與黃仁勳的關係密切，兩人在商業和科技領域有著深厚的合作。這次的餐敘將是雙方加深友誼的機會。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "14d0428b",
+        "title": "政大人要永記尹學長的好！謝金河曝尹衍樑為政大默默奉獻事蹟",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5450000",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 26 May 2026 14:35:33 +0800",
+        "summary_zh": "尹衍樑今凌晨辭世，享壽76歲，各界哀弔。財信傳媒集團董事長謝金河緬懷尹衍樑，表示只要遇到政大的事，尹總是特別用心。謝金河列舉尹衍樑為政大做的種種事蹟，包括捐款、提供資源、支持校友活動等。謝金河直呼「政大人要永記尹學長的好！謝金河的言論表達了對尹衍樑的深深敬意和感謝。尹衍樑的默默奉獻對政大有著重要影響，留下了深刻的記憶。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "finance": [
+      {
+        "id": "f2560a68",
+        "title": "巴基斯坦正在挑戰投資界的一些長期迷思",
+        "url": "https://www.bloomberg.com/opinion/articles/2026-05-25/pakistan-is-defying-some-long-held-investing-myths",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-25 19:00:02",
+        "summary_zh": "巴基斯坦正在挑戰投資界的一些長期迷思，例如該國的經濟不穩定、政治不穩定和投資環境不佳。根據最新的數據，巴基斯坦的經濟正逐步改善，投資環境也在改善。巴基斯坦政府正在推動投資政策改革，旨在吸引外資和創造就業機會。投資者正在開始關注巴基斯坦的經濟前景，該國的股票市場也正在上漲。然而，仍有許多挑戰需要被克服，包括腐敗和安全問題。投資巴基斯坦需要謹慎評估風險和機會，同時也需要政府和企業的合作。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "29fc25a4",
         "title": "紐西蘭央行料維持利率不變，持續觀望",
@@ -468,6 +504,18 @@
         "published_at": "2026-05-25 19:00:00",
         "summary_zh": "紐西蘭央行預計將維持利率不變，繼續採取觀望態度。根據最新的市場預測，紐西蘭央行將在未來的幾個月內保持穩定的利率政策。這一決定是基於央行對經濟前景的評估，目前紐西蘭經濟正處於一個相對穩定的狀態。然而，央行也提到，將密切關注全球經濟的變化，特別是美國的利率政策變化。這一觀望態度意味著央行將繼續觀察經濟的發展，等待適當的時機進行調整。這一決定對紐西蘭的經濟有著重要的影響，將對企業和投資者產生影響。",
         "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ad8e443b",
+        "title": "加拿大元升值 因投資人對中東和平協議前景感到樂觀",
+        "url": "https://www.reuters.com/business/canadian-dollar-strengthens-investors-weigh-peace-deal-prospects-2026-05-25/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-25 18:18:29",
+        "summary_zh": "加拿大元在周一升值，與美元相比，投資人對中東和平協議的前景感到樂觀，同時也關注著加拿大銀行行長即將發表的演講，該演講可能會提供關於加息方向的線索。加拿大銀行行長的演講可能會對加息方向產生影響，投資人正在密切關注中東和平協議的進展，希望能夠結束中東戰爭。加拿大元的升值表明投資人對加拿大經濟的信心正在增強。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": true
       },
@@ -532,30 +580,6 @@
         "ai_classified": true
       },
       {
-        "id": "b0b35086",
-        "title": "Cox集團為購買Iberdrola墨西哥業務借出54%的橋貸",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/cox-group-took-54-bridge-loan-for-deal-to-buy-iberdrola-mexico",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-25 16:11:53",
-        "summary_zh": "Cox集團為購買Iberdrola墨西哥業務借出54%的橋貸，該交易涉及Iberdrola墨西哥業務的出售。Cox集團是一家能源公司，該集團通過這次交易增強其在墨西哥市場的競爭力。這項交易的細節尚未公開，投資者應密切關注該集團未來的發展。這項交易對墨西哥能源市場的影響可能會很大，投資者應該做好準備。這項交易的結果尚未可知，投資者應該保持謹慎的態度。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "45ad1289",
-        "title": "歐洲股市上漲，伊朗和解希望升溫；德國外賣巨頭Delivery Hero大幅躍升",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/european-stocks-advance-on-iran-deal-hopes-delivery-hero-jumps",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-25 16:10:08",
-        "summary_zh": "伊朗和解的希望再次升溫，歐洲股市因此上漲。德國外賣巨頭Delivery Hero的股價大幅躍升，成為今日股市的焦點。伊朗和解的希望使投資者對全球經濟的前景感到更為樂觀。雖然全球經濟仍面臨許多挑戰，但投資者們認為伊朗和解將帶來新的商機和投資機會。這一發展使得歐洲股市的投資者感到樂觀，股市因此上漲。然而，投資者們也需要注意全球經濟的其他風險因素，例如通膨和貿易戰等。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "2ab143fa",
         "title": "普羅素斯要求歐盟取消強制出售送餐英雄股份",
         "url": "https://www.bloomberg.com/news/articles/2026-05-25/prosus-asks-eu-to-end-forced-sale-of-delivery-hero-stake",
@@ -580,20 +604,6 @@
         "ai_classified": true
       }
     ],
-    "stock_us": [
-      {
-        "id": "b98bf884",
-        "title": "想跳出人工智慧投資？高盛建議買這些與其無關的股票",
-        "url": "https://www.cnbc.com/2026/05/25/want-to-hop-off-the-ai-trade-goldman-says-buy-these-stocks-that-have-nothing-to-do-with-it.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-05-25 11:30:01",
-        "summary_zh": "高盛發表報告指出，人工智慧熱潮下，某些股票的波動與其無關。其中包括藥品公司埃利利利和網路安全公司Fortinet。這些公司的業務與人工智慧無直接關係，因此投資者可以考慮將資金投入這些股票。高盛的分析顯示，這些股票的波動與人工智慧相關股票的波動相比，具有較低的相關性。這意味著投資者可以在人工智慧市場的波動中找到相對穩定的投資機會。然而，投資市場的風險永遠存在，投資者應謹慎評估風險並做出明智的決策。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
     "whitehouse": [
       {
         "id": "a260fba3",
@@ -603,6 +613,66 @@
         "category": "whitehouse",
         "published_at": "Mon, 25 May 2026 15:45:27 GMT",
         "summary_zh": "一名槍手在2025年6月曾經阻塞白宮入口通道，並聲稱自己是耶穌基督。這名槍手在近期的事件中，對白宮造成了威脅。這些信息透露在庭審文件中，表明這名槍手與國安局有過多次接觸。這些事件引發了關於槍手的背景和動機的問題。這些問題將在未來的庭審中被進一步探討。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9335919f",
+        "title": "川普新聞速報：伊朗指美方發表矛盾言論阻礙協商",
+        "url": "https://www.theguardian.com/us-news/2026/may/26/trump-news-at-a-glance-latest-updates-today",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 26 May 2026 05:48:47 GMT",
+        "summary_zh": "伊朗表示美方的協商立場不一致，導致協商難以取得進展。伊朗外交部發言人Esmail Baghaei在週一的記者會上表示，美方的協商立場不一致，包括美方對霍爾木茲海峽未來管理的態度，以及美方對伊朗的干預，都是協商難以取得進展的原因之一。伊朗還表示，未來霍爾木茲海峽的管理應由伊朗和阿曼共同協商決定，而非美方的干預。伊朗外交部發言人強調，美方提出的對霍爾木茲海峽的收費，並非實際收取的費用，而是對航行服務的收費。伊朗的這番表態，顯示美伊雙方在協商上仍存在著嚴重的分歧。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "fa6b1023",
+        "title": "加州南部化學罐車爆炸風險消除，消防員表示",
+        "url": "https://www.theguardian.com/us-news/2026/may/25/chemical-tank-crack-california",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 25 May 2026 22:46:05 GMT",
+        "summary_zh": "美國官員表示，過夜降溫和監測協助穩定化學罐車，儘管周末有化學罐車破裂的風險，引發大規模撤離。加州南部的消防員表示，過夜的行動成功消除了化學罐車爆炸的風險。官員表示，化學罐車的破裂可能會減少壓力和爆炸風險。這起事件引發了大規模撤離，但現在風險已經被消除。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "afa19d72",
+        "title": "新澤西州移民拘留中心外抗議者與ICE官員衝突",
+        "url": "https://www.theguardian.com/us-news/2026/may/25/new-jersey-ice-immigration-protest",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 25 May 2026 18:25:00 GMT",
+        "summary_zh": "近日，新澤西州的一個移民拘留中心外發生衝突。抗議者指控ICE官員使用胡椒噴劑和警棍對付他們。這起衝突發生在一場正在進行的絕食罷工中。抗議者試圖阻止ICE將領導絕食罷工的馬丁·索托（Martin Soto）轉移至另一間拘留中心，但官員表示他們成功將他轉移至伊麗莎白合同拘留中心。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3627fdd9",
+        "title": "二戰美軍士兵遺骸在德國戰場發現，80年後返回美國家鄉",
+        "url": "https://www.theguardian.com/us-news/2026/may/25/wwii-soldiers-return-pennsylvania",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 25 May 2026 15:09:08 GMT",
+        "summary_zh": "二戰期間在德國戰場陣亡的美軍士兵約翰·A·沃爾科（John A Walko）遺骸經DNA鑑定後，80年後返回美國賓夕法尼亞州家鄉。沃爾科於1944年10月20日在德國阿亨戰役中陣亡，曾經服役於美國陸軍第71步兵團。近期，賓夕法尼亞州的退伍軍人摩托車團將沃爾科的遺骸從匹茲堡機場運送到他的家鄉康莫多爾（Commodore）。這一舉動表明，美國政府仍然致力於尋回和歸還二戰期間陣亡的美軍士兵遺骸，為他們的家人和國家帶來了新的希望。這一事件也引發了對二戰史的重視和紀念的呼聲。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e9160320",
+        "title": "埃博拉和漢坦病毒爆發引發美國分裂的陰謀論",
+        "url": "https://www.theguardian.com/us-news/2026/may/25/ebola-hantavirus-conspiracy-theories",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 25 May 2026 12:00:25 GMT",
+        "summary_zh": "美國正在經歷埃博拉和漢坦病毒爆發，同時也伴隨著極端的陰謀論。隨著社交媒體和人工智慧的影響力增強，陰謀論的傳播速度比以往任何時候都要快。埃博拉病毒在剛果民主共和國迅速傳播，世界衛生組織警告稱其對美國的風險非常高。陰謀論者認為埃博拉病毒可能是生物武器、財務陰謀或是搶奪國家資源的陰謀。這些陰謀論不僅影響美國的選舉，也影響了疫苗接種的風險。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -668,54 +738,6 @@
         "ai_classified": true
       },
       {
-        "id": "fa6b1023",
-        "title": "加州南部化學罐車爆炸風險消除，消防員表示",
-        "url": "https://www.theguardian.com/us-news/2026/may/25/chemical-tank-crack-california",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 25 May 2026 22:46:05 GMT",
-        "summary_zh": "美國官員表示，過夜降溫和監測協助穩定化學罐車，儘管周末有化學罐車破裂的風險，引發大規模撤離。加州南部的消防員表示，過夜的行動成功消除了化學罐車爆炸的風險。官員表示，化學罐車的破裂可能會減少壓力和爆炸風險。這起事件引發了大規模撤離，但現在風險已經被消除。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "afa19d72",
-        "title": "新澤西州移民拘留中心外抗議者與ICE官員衝突",
-        "url": "https://www.theguardian.com/us-news/2026/may/25/new-jersey-ice-immigration-protest",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 25 May 2026 18:25:00 GMT",
-        "summary_zh": "近日，新澤西州的一個移民拘留中心外發生衝突。抗議者指控ICE官員使用胡椒噴劑和警棍對付他們。這起衝突發生在一場正在進行的絕食罷工中。抗議者試圖阻止ICE將領導絕食罷工的馬丁·索托（Martin Soto）轉移至另一間拘留中心，但官員表示他們成功將他轉移至伊麗莎白合同拘留中心。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3627fdd9",
-        "title": "二戰美軍士兵遺骸在德國戰場發現，80年後返回美國家鄉",
-        "url": "https://www.theguardian.com/us-news/2026/may/25/wwii-soldiers-return-pennsylvania",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 25 May 2026 15:09:08 GMT",
-        "summary_zh": "二戰期間在德國戰場陣亡的美軍士兵約翰·A·沃爾科（John A Walko）遺骸經DNA鑑定後，80年後返回美國賓夕法尼亞州家鄉。沃爾科於1944年10月20日在德國阿亨戰役中陣亡，曾經服役於美國陸軍第71步兵團。近期，賓夕法尼亞州的退伍軍人摩托車團將沃爾科的遺骸從匹茲堡機場運送到他的家鄉康莫多爾（Commodore）。這一舉動表明，美國政府仍然致力於尋回和歸還二戰期間陣亡的美軍士兵遺骸，為他們的家人和國家帶來了新的希望。這一事件也引發了對二戰史的重視和紀念的呼聲。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e9160320",
-        "title": "埃博拉和漢坦病毒爆發引發美國分裂的陰謀論",
-        "url": "https://www.theguardian.com/us-news/2026/may/25/ebola-hantavirus-conspiracy-theories",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 25 May 2026 12:00:25 GMT",
-        "summary_zh": "美國正在經歷埃博拉和漢坦病毒爆發，同時也伴隨著極端的陰謀論。隨著社交媒體和人工智慧的影響力增強，陰謀論的傳播速度比以往任何時候都要快。埃博拉病毒在剛果民主共和國迅速傳播，世界衛生組織警告稱其對美國的風險非常高。陰謀論者認為埃博拉病毒可能是生物武器、財務陰謀或是搶奪國家資源的陰謀。這些陰謀論不僅影響美國的選舉，也影響了疫苗接種的風險。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "9fa2d481",
         "title": "紐澤西州參議員遭ICE人員噴胡椒噴劑",
         "url": "https://thehill.com/homenews/senate/5894457-andy-kim-pepper-sprayed-delaney-hall/",
@@ -747,6 +769,20 @@
         "category": "whitehouse",
         "published_at": "Mon, 25 May 2026 21:00:00 +0000",
         "summary_zh": "德州共和黨參議員初選 runoff 即將展開，科尼恩將與德州州務卿帕克遜競逐勝利。川普總統在選情緊張的關頭對帕克遜表示支持，這將是川普在共和黨初選中的又一次試金石。川普在之前的選舉中已經成功擊敗了多名共和黨人選，現在他是否能夠在德州共和黨參議員初選 runoff 中再次取得勝利，將是關鍵。這場選舉將對德州共和黨未來的走向產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "stock_us": [
+      {
+        "id": "b98bf884",
+        "title": "想跳出人工智慧投資？高盛建議買這些與其無關的股票",
+        "url": "https://www.cnbc.com/2026/05/25/want-to-hop-off-the-ai-trade-goldman-says-buy-these-stocks-that-have-nothing-to-do-with-it.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-05-25 11:30:01",
+        "summary_zh": "高盛發表報告指出，人工智慧熱潮下，某些股票的波動與其無關。其中包括藥品公司埃利利利和網路安全公司Fortinet。這些公司的業務與人工智慧無直接關係，因此投資者可以考慮將資金投入這些股票。高盛的分析顯示，這些股票的波動與人工智慧相關股票的波動相比，具有較低的相關性。這意味著投資者可以在人工智慧市場的波動中找到相對穩定的投資機會。然而，投資市場的風險永遠存在，投資者應謹慎評估風險並做出明智的決策。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
