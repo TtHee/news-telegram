@@ -1,69 +1,323 @@
 {
-  "generated_at": "2026-05-27T23:04:18.398624+08:00",
+  "generated_at": "2026-05-28T00:04:21.498513+08:00",
   "risk_signals": [
-    "🟢 台股加權 44256.8（正常）",
-    "🟢 S&P 500 7517.01（正常）",
-    "🟢 VIX 恐慌指數 16.94（正常）",
+    "🟢 台股加權 43525.37（正常）",
+    "🟢 S&P 500 7503.51（正常）",
+    "🟢 VIX 恐慌指數 16.99（正常）",
     "🟢 MOVE 債市波動 74.95（正常）",
-    "🟢 美元指數 99.15（正常）",
-    "🟢 黃金 4470.0（正常）",
-    "🟢 美債10Y殖利率 4.47（正常）",
-    "🟢 原油 WTI 90.93（正常）",
-    "🟢 美元/台幣 31.38（正常）"
+    "🟢 美元指數 99.22（正常）",
+    "🟢 黃金 4466.2（正常）",
+    "🟢 美債10Y殖利率 4.48（正常）",
+    "🟢 原油 WTI 90.06（正常）",
+    "🟢 美元/台幣 31.4（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，多個指標回歸正常水平。台股上漲1.68%，表明投資人對市場仍然樂觀。",
+  "ai_summary": "市場指標表明今日台股和美股出現微幅下跌，市場氛圍保持穩定。美元指數和美債10Y殖利率維持正常水準，表明市場對經濟前景的評估沒有重大變化。整體來說，市場表現相對穩健。",
   "market": {
     "TWII": {
-      "price": 44256.8,
-      "change_pct": 1.68
+      "price": 43525.37,
+      "change_pct": -0.27
     },
     "SP500": {
-      "price": 7517.01,
-      "change_pct": -0.03
+      "price": 7503.51,
+      "change_pct": -0.21
     },
     "NASDAQ": {
-      "price": 26602.9,
-      "change_pct": -0.2
+      "price": 26566.56,
+      "change_pct": -0.34
     },
     "VIX": {
-      "price": 16.94,
-      "change_pct": -0.41
+      "price": 16.99,
+      "change_pct": -0.12
     },
     "TNX": {
-      "price": 4.47,
-      "change_pct": -0.45
+      "price": 4.48,
+      "change_pct": -0.22
     },
     "MOVE": {
       "price": 74.95,
       "change_pct": -4.44
     },
     "DXY": {
-      "price": 99.15,
-      "change_pct": 0.01
+      "price": 99.22,
+      "change_pct": 0.07
     },
     "GOLD": {
-      "price": 4470.0,
-      "change_pct": -0.68
+      "price": 4466.2,
+      "change_pct": -0.76
     },
     "OIL": {
-      "price": 90.93,
-      "change_pct": -3.15
+      "price": 90.06,
+      "change_pct": -4.08
     },
     "USDTWD": {
-      "price": 31.38,
-      "change_pct": -0.23
+      "price": 31.4,
+      "change_pct": -0.16
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "20e29d8e",
+        "title": "世衛組織總幹事要求剛果東部立即停火以應對埃博拉疫情",
+        "url": "https://www.theguardian.com/world/2026/may/27/who-chief-tedros-calls-for-drc-ceasefire-ebola",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 27 May 2026 14:53:50 GMT",
+        "summary_zh": "剛果東部民主共和國正面臨埃博拉疫情和衝突的「災難性碰撞」。世衛組織總幹事特德羅斯·阿達諾姆·蓋布雷西斯（Tedros Adhanom Ghebreyesus）呼籲立即停火，以便更好地應對疫情。根據世衛組織的數據，伊圖里省的埃博拉疫情已經超出了應對的能力。特德羅斯總幹事表示，當前的疫情情況令人擔憂，需要立即採取行動。世衛組織正在與當地政府和其他相關機構合作，試圖控制疫情。然而，衝突和安全問題仍然是應對疫情的主要障礙。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a1f15178",
+        "title": "亞洲市場預期混亂開盤，投資者持續評估美伊停火協議的脆弱性",
+        "url": "https://www.cnbc.com/2026/05/27/asia-markets-live-updates-nikkei-225-hang-seng-index-kospi-csi-nifty-hari-raya-haji.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-05-26 23:47:42",
+        "summary_zh": "美伊停火協議的脆弱性仍然是投資者關注的焦點。雖然美伊停火協議暫時維持，但投資者仍然對其持續性感到擔憂。美伊停火協議的脆弱性使得亞洲市場預期開盤將呈現出混亂的局面。投資者正在密切關注美伊停火協議的進展，並對其對亞洲市場的影響進行評估。美伊停火協議的脆弱性可能會導致市場波動，投資者需要保持警惕。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b99c1f78",
+        "title": "以色列空襲加沙市三人死亡數十人受傷",
+        "url": "https://www.bbc.com/news/articles/cjwppj1yn7go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 27 May 2026 13:15:26 GMT",
+        "summary_zh": "近日，以色列軍隊對加沙市進行了空襲，造成三人死亡、數十人受傷。根據醫療人員和目擊者的說法，這次空襲針對的是一名哈馬斯高級指揮官。值得注意的是，這名指揮官的前任在今年五月早些時候也遭遇了類似的空襲。這次事件的背景是近期以色列和哈馬斯之間的緊張關係加劇。這種局勢可能會對當地民眾造成嚴重影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2e515bed",
+        "title": "五人在老撾水洞困難達一周後獲救",
+        "url": "https://www.bbc.com/news/articles/crkpvxrxgp6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 27 May 2026 11:52:46 GMT",
+        "summary_zh": "近日，一個老撾水洞發生嚴重淹水，導致多名村民被困。經過一周的搜索後，已經發現五名村民倖存。然而，仍有兩名村民仍然失蹤，救援人員表示正在繼續搜索。這次事件的發生，引起了當地居民的擔憂和關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8eb4ebd7",
+        "title": "三十年逃亡的女性被捕後被判處搶劫罪",
+        "url": "https://www.bbc.com/news/articles/cx21dr3lekpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 27 May 2026 12:42:43 GMT",
+        "summary_zh": "一名女性被捕後被判處搶劫罪。該名女性在2024年在柏林被捕，三十多年來一直在逃亡。該名女性在2023年被起訴。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "df2549f8",
+        "title": "酒店拒絕給客人自來水被意大利最高法院判決合法",
+        "url": "https://www.bbc.com/news/articles/c4g4yd8q0j7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 27 May 2026 12:25:31 GMT",
+        "summary_zh": "意大利最高法院駁回了一名遊客的訴訟，她指控酒店侵犯了她的消費者權益，因為酒店只提供€7的瓶裝礦泉水。這名遊客曾經要求酒店提供自來水，但酒店拒絕了她的要求。意大利最高法院認為酒店沒有侵犯遊客的消費者權益，因為酒店提供的礦泉水符合法律規定。這一判決可能會對意大利酒店業的行為產生影響，酒店可能會更加謹慎地處理客人的要求。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a4a38041",
+        "title": "韓國拘捕逃往中國的異議人士",
+        "url": "https://www.bbc.com/news/articles/c87q2pdwpw3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 27 May 2026 11:12:33 GMT",
+        "summary_zh": "近日，韓國當局拘捕了一名名叫董光平（Dong Guangping）的異議人士。董光平是一名曾經是中國警察的活動家，於前不久從中國逃亡至韓國。據報導，他在逃亡途中乘坐橡膠船數小時後，終於抵達韓國水域。董光平的逃亡事件引起了國際社會的關注，許多人對於中國政府對於異議人士的打壓感到擔憂。韓國政府的拘捕行動也引發了爭議，許多人認為這是對於政治迫害的回應。董光平的案件目前仍在調查中，未來的發展仍不明朗。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ffedb993",
+        "title": "YouTuber 因涉嫌使用 AI 批評韓星被捕",
+        "url": "https://www.bbc.com/news/articles/c759y6pvezgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 27 May 2026 02:54:19 GMT",
+        "summary_zh": "韓國一名YouTuber因涉嫌使用人工智慧（AI）發布虛假資訊，導致韓星金秀賢（Kim Soo-hyun）遭遇職業生涯結束的醜聞。根據報導，這名YouTuber被指控散播對金秀賢的虛假指控，造成對其名譽的嚴重損害。這一事件引發了對網路輿論和人工智慧的使用的關注。金秀賢的經紀公司已經對這一事件表示了強烈抗議，要求對方停止散播虛假資訊。這一事件也引發了對韓國網路輿論治理的討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "df4e4362",
+        "title": "首批加納人將被遣返南非，抗議非法移民導致恐懼復興",
+        "url": "https://www.bbc.com/news/articles/cy0269pwxg3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 27 May 2026 14:14:22 GMT",
+        "summary_zh": "近期南非出現了對非法移民的抗議，導致恐懼復興。南非政府決定將首批加納人遣返，加納人是南非的主要來源國之一。這一決定是由於南非政府試圖應對最近的抗議活動，抗議活動的主要目的是針對非法移民。然而，這一決定也引發了對加納人和其他非洲移民的關注。南非政府的決定可能會對加納人和其他非洲移民造成影響，可能會導致更多的恐懼和不確定性。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f3b09431",
+        "title": "孟加拉國百萬兒童中招麻疹　近兩個月超過六萬宗疑似病例",
+        "url": "https://www.bbc.com/news/articles/cwy2d5d7wn5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 27 May 2026 01:34:42 GMT",
+        "summary_zh": "孟加拉國近期爆發嚴重的麻疹疫情，根據官方數據，該國在僅僅兩個月內錄得超過六萬宗疑似麻疹病例。這種情況對兒童來說尤為嚴重，據報導，百餘名兒童在感染麻疹後不久便病逝。孟加拉政府已經展開大規模的疫苗接種活動，試圖控制疫情的蔓延。然而，該國的醫療系統仍然面臨著嚴重挑戰，許多兒童因為缺乏足夠的醫療資源而無法獲得及時的治療。這種情況不僅影響到孟加拉國的兒童健康，也對該國的整體社會發展造成了重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4de3565d",
+        "title": "印度共產黨曾經統治數百萬人。它們現在怎麼了?",
+        "url": "https://www.bbc.com/news/articles/cwy2gr1rpnqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 26 May 2026 23:12:59 GMT",
+        "summary_zh": "印度共產黨曾經在印度各地的政治舞台上佔有一席之地，甚至在某些州實施了共產主義理念。然而，近年來，印度共產黨的影響力逐漸下降，許多黨員和支持者都在尋找新的政治途徑。根據最近的調查，印度共產黨的黨員人數已經下降了近 40%。這種情況與印度經濟的快速增長和人民的生活水平提高有關。許多印度人認為，共產主義理念不再符合他們的需求和期望。印度共產黨的領導人也在努力適應新的政治環境，嘗試找到新的路徑來重新獲得人民的信任。然而，仍然有許多人對印度共產黨的未來感到懷疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
+      {
+        "id": "a188021d",
+        "title": "美國紙廠化學爆炸造成多人死亡、失蹤",
+        "url": "https://www.bbc.com/news/articles/cj9ppm94xw9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 03:02:27 GMT",
+        "summary_zh": "美國華盛頓州長뷰市的一家紙廠發生化學爆炸事故，造成十人受傷，數名人員失蹤。事件發生在紙廠的儲存槽破裂後，當局正在進行搜救工作。紙廠爆炸事故造成的傷亡人數尚未公布。美國當局正在調查事故原因，確保紙廠的安全措施得到落實。紙廠爆炸事故對當地居民和紙廠員工造成了嚴重影響，當局正在提供援助和支持。紙廠爆炸事故的影響尚未完全評估，當局正在密切監控情況。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "98592c87",
+        "title": "德克薩斯州參議院初選：總檢察長肯帕克遙遙領先老將科尼恩",
+        "url": "https://www.bbc.com/news/articles/clypprglrlyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 11:53:06 GMT",
+        "summary_zh": "德克薩斯州參議院初選展開激烈競逐，總檢察長肯帕克（Ken Paxton）在初選中取得壓倒性勝利，擊敗了長期在位的參議員科尼恩（John Cornyn）。這場選舉將對於民主黨能否在特朗普總統第二個任期剩下的時間內重新奪回美國參議院控制權有重要影響。肯帕克的勝利被視為共和黨內強硬派勢力的勝利，科尼恩被認為是共和黨內較為溫和派的代表。這場選舉結果將對於未來的美國政治格局產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "81e6daa1",
+        "title": "NASA揭露永久月球基地建設計畫",
+        "url": "https://www.bbc.com/news/articles/c39228nxyr4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 26 May 2026 20:25:50 GMT",
+        "summary_zh": "NASA正在籌劃建設永久月球基地，計畫包括派遣跳躍式無人機和行走式車輛到月球。這些無人機和車輛將負責在月球表面進行探測和測量工作，為未來的永久基地建設提供重要的資料和基礎。NASA的目標是建立一個能夠長期支持人類生活和工作的月球基地，同時也將成為未來深空探索的重要據點。這項計畫將大大提升NASA的月球探索能力和深空探索的前景。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "93eb24bf",
+        "title": "南卡羅來納共和黨人違背川普的意願，拒絕修改選區地圖",
+        "url": "https://www.bbc.com/news/articles/cgkppvl4e3ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 00:08:34 GMT",
+        "summary_zh": "南卡羅來納州即將迎來中期選舉，選區地圖重劃的爭議已經展開。南卡羅來納州共和黨人在選區地圖重劃的問題上，違背了前總統川普的意願，拒絕修改選區地圖。這一決定可能會對共和黨在州內的競選結果產生影響。南卡羅來納州共和黨人認為，選區地圖應該保持現狀，而不是作出重大變化。這一決定可能會對共和黨在州內的競選結果產生影響。選區地圖重劃的爭議會持續下去，南卡羅來納州共和黨人將繼續堅持自己的立場。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b8d9cd8a",
+        "title": "拜登起訴美國司法部阻止發佈錄音檔案",
+        "url": "https://www.bbc.com/news/articles/cvgzd4zvnl2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 15:21:40 GMT",
+        "summary_zh": "美國總統拜登因涉及機密情報而被指控在採訪中提及相關內容，但他表示政府欲發佈錄音檔案的原因並非出於這一點。這一事件的背景是拜登在採訪中提及了一些敏感信息，引發了對他的安全評估的爭議。關鍵細節是拜登的律師已經向美國司法部提出訴訟，要求阻止發佈這些錄音檔案。影響分析是這一事件可能會對拜登的形象產生影響，特別是在他正在面臨的安全評估中。後續展望是司法部將會對這一訴訟進行審理，並可能會發佈錄音檔案的決定。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a331213e",
+        "title": "綠灣包裝員星級跑步員Jacobs遭家暴指控逮捕",
+        "url": "https://www.bbc.com/sport/american-football/articles/cp3pxjyxk02o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 06:52:31 GMT",
+        "summary_zh": "綠灣包裝員的跑步員Josh Jacobs遭逮捕，控告他涉及五宗家暴案。事件的背景是，Jacobs涉嫌對其配偶或伴侶施加暴力，導致受害者受傷。根據警方的調查，Jacobs被控告五宗家暴罪，包括毆打、威脅和其他相關罪行。這項事件對Jacobs的職業生涯和個人形象都造成了嚴重影響。許多人對Jacobs的行為表示譴責，同時也關注他是否能夠繼續在球隊中發揮作用。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "205f5bb3",
+        "title": "川普如何改造華盛頓 - 通過把自己的臉掛遍各處",
+        "url": "https://www.bbc.com/news/videos/ce8pp9r03z7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 09:17:42 GMT",
+        "summary_zh": "在美國首都華盛頓的各個地方，川普總統都把自己的臉掛遍了。記者莎拉史密斯（Sarah Smith）走遍了這座城市，去看了川普總統掛的標誌、改名的景點或是正在重建的建築。這些改變讓華盛頓的景色變得越來越像川普總統的個人廣告。這些改變也引起了華盛頓居民的反彈。有些人認為這些改變是對城市的破壞，而其他人則認為這些改變是對城市的改造。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "88efd4cc",
+        "title": "白宮為慶祝美國250週年設置UFC擂台",
+        "url": "https://www.bbc.com/news/articles/cz622647eg3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 00:17:31 GMT",
+        "summary_zh": "美國白宮為慶祝美國250週年而準備一場盛大的活動。近日，工人在南草坪上架設了半球形的拱門和舞台區域。據悉，這場活動將在下個月舉行。這項措施引起了許多人的關注，許多人對於白宮為慶祝美國250週年而設置UFC擂台的決定表示意見。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e9e29578",
+        "title": "川普政府要求聯邦政府僱員簽署保密協議",
+        "url": "https://www.bbc.com/news/articles/c62dd22906qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 00:27:22 GMT",
+        "summary_zh": "川普政府近期要求聯邦政府僱員簽署保密協議，政府人員官員表示，這是為了防止資訊泄露給媒體。這一舉動引起了輿論的關注，許多人質疑政府的動機和保密協議的合理性。政府官員稱，這是為了維護政府機密和保證信息安全，但批評者認為，這可能會限制政府僱員的言論自由。這一事件也引發了對政府透明度和資訊自由的討論。目前，尚未有更多資訊顯示保密協議的具體內容和影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ca564354",
+        "title": "亞當斯與羅賓遜入選美國世界盃名單",
+        "url": "https://www.bbc.com/sport/football/articles/c77552k60jno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 26 May 2026 21:02:53 GMT",
+        "summary_zh": "美國國家足球隊教練馬烏里西奧·波切蒂諾宣布入選名單，包括中場球員亞當斯（Tyler Adams）和左後衛羅賓遜（Antonee Robinson）。這兩名球員分別效力於伯恩茅斯和富咸。美國國家足球隊將參加即將到來的世界盃。這是波切蒂諾首次擔任美國國家足球隊教練，他將帶領球隊進入世界盃的競爭。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "531669d5",
         "title": "帕克遜稱川普背書為政治上最強大的力量，贏得德州參議員初選",
         "url": "https://www.theguardian.com/us-news/live/2026/may/27/donald-trump-republicans-texas-primary-midterms-iran-redistricting-latest-news-updates",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 14:22:28 GMT",
+        "published_at": "Wed, 27 May 2026 15:35:54 GMT",
         "summary_zh": "帕克遜在德州參議員初選中勝出，贏得共和黨提名。他在勝選後表示，川普的背書是政治上最強大的力量。這次初選是由川普支持的帕克遜與現任參議員科尼恩競爭。帕克遜的勝選將對未來的政治局勢產生重大影響。這次選舉結果表明，川普的影響力仍然很強。然而，對於德州的政治局勢，帕克遜的勝選將意味著什麼樣的變化？",
         "sentiment": "正面",
         "is_breaking": false,
@@ -78,8 +332,8 @@
         "published_at": "Wed, 27 May 2026 13:52:51 GMT",
         "summary_zh": "近日，華盛頓州發生了一起跳傘事故，造成一人死亡、一人受傷。事件發生在西部平原跳傘場（West Plains Skydiving），當地警方表示，星期日晚間接獲報告，兩名跳傘者需要醫療幫助。警方調查發現，兩名跳傘者在空中碰撞，造成一人死亡、一人受傷。警方正在調查事故原因。跳傘事故在全球各地都有發生，安全措施和訓練是預防事故的關鍵。這起事故讓人們再次提醒，跳傘是一種高風險的活動，需要嚴格的安全措施和訓練。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "9d74d670",
@@ -89,18 +343,6 @@
         "category": "whitehouse",
         "published_at": "Wed, 27 May 2026 13:49:07 GMT",
         "summary_zh": "民主黨州檢察長指控白宮在打擊詐騙問題上政治化。三名民主黨州檢察長，包括紐約州的Letitia James、加州的Rob Bonta和新澤西州的Jennifer Davenport，表示他們的代表團曾經收到最後一刻的邀請參與與共和黨州檢察長共同舉行的會議，但遭白宮拒絕參與。這樁事件引發了對白宮打擊詐騙問題的政治化的質疑。白宮之前宣稱打擊詐騙問題是一個跨黨派的努力，但這樁事件卻表明白宮可能在政治化詐騒問題上下手。這樁事件可能會對白宮的形象造成影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "3495141a",
-        "title": "拜登要求司法部阻止釋放與胡睿訪談錄音",
-        "url": "https://www.theguardian.com/us-news/2026/may/27/biden-sues-justice-department-robert-hur",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 13:19:37 GMT",
-        "summary_zh": "前總統拜登因為懼怕訪談錄音會被用來證明他曾經處理過機密文件而向司法部提出訴訟。拜登的律師表示，釋放這些訪談錄音會侵犯他的隱私權。這些訪談錄音是拜登與他的傳記作者進行的，內容中有關拜登的記憶力問題，曾經對他的2024年競選造成影響。拜登的競選活動因為這些訪談錄音而告吹。拜登的律師表示，這些訪談錄音是十年前進行的，現在被司法部的特別檢察官羅伯特·哈爾 (Robert Hur) 取得。哈爾正在調查拜登是否違反了機密文件的處理規定。拜登的律師認為，釋放這些訪談錄音會對拜登造成不必要的傷害。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -142,18 +384,6 @@
         "ai_classified": true
       },
       {
-        "id": "872b8b1c",
-        "title": "川普將白宮內會議取代原定在卡姆戴維德會議",
-        "url": "https://www.theguardian.com/us-news/2026/may/27/trump-cabinet-camp-david-washington-iran",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 10:00:25 GMT",
-        "summary_zh": "由於近期的伊朗戰事達到關鍵階段，川普總統將會在星期三主持第 12 次內閣會議。原本原定在卡姆戴維德會議中心舉行的會議，因為近期的暴雨而被迫延期。卡姆戴維德會議中心是總統休假的秘密據點，曾經是中東敏感談判的場地，包括以色列和埃及的和平協議。伊朗戰事已經持續了近 3 個月，雙方的談判進展不明朗，目前尚未達成任何協議。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "d6baddd4",
         "title": "美國軍方最新一次針對太平洋地區懷疑運毒船的空襲造成一人死亡",
         "url": "https://www.theguardian.com/us-news/2026/may/26/us-military-strike-pacific-drug-boat",
@@ -164,117 +394,21 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "98592c87",
-        "title": "德克薩斯州參議院初選：總檢察長肯帕克遙遙領先老將科尼恩",
-        "url": "https://www.bbc.com/news/articles/clypprglrlyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 11:53:06 GMT",
-        "summary_zh": "德克薩斯州參議院初選展開激烈競逐，總檢察長肯帕克（Ken Paxton）在初選中取得壓倒性勝利，擊敗了長期在位的參議員科尼恩（John Cornyn）。這場選舉將對於民主黨能否在特朗普總統第二個任期剩下的時間內重新奪回美國參議院控制權有重要影響。肯帕克的勝利被視為共和黨內強硬派勢力的勝利，科尼恩被認為是共和黨內較為溫和派的代表。這場選舉結果將對於未來的美國政治格局產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "81e6daa1",
-        "title": "NASA揭露永久月球基地建設計畫",
-        "url": "https://www.bbc.com/news/articles/c39228nxyr4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Tue, 26 May 2026 20:25:50 GMT",
-        "summary_zh": "NASA正在籌劃建設永久月球基地，計畫包括派遣跳躍式無人機和行走式車輛到月球。這些無人機和車輛將負責在月球表面進行探測和測量工作，為未來的永久基地建設提供重要的資料和基礎。NASA的目標是建立一個能夠長期支持人類生活和工作的月球基地，同時也將成為未來深空探索的重要據點。這項計畫將大大提升NASA的月球探索能力和深空探索的前景。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a188021d",
-        "title": "美國紙廠化學爆炸造成多人死亡、失蹤",
-        "url": "https://www.bbc.com/news/articles/cj9ppm94xw9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 03:02:27 GMT",
-        "summary_zh": "美國華盛頓州長뷰市的一家紙廠發生化學爆炸事故，造成十人受傷，數名人員失蹤。事件發生在紙廠的儲存槽破裂後，當局正在進行搜救工作。紙廠爆炸事故造成的傷亡人數尚未公布。美國當局正在調查事故原因，確保紙廠的安全措施得到落實。紙廠爆炸事故對當地居民和紙廠員工造成了嚴重影響，當局正在提供援助和支持。紙廠爆炸事故的影響尚未完全評估，當局正在密切監控情況。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "93eb24bf",
-        "title": "南卡羅來納共和黨人違背川普的意願，拒絕修改選區地圖",
-        "url": "https://www.bbc.com/news/articles/cgkppvl4e3ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 00:08:34 GMT",
-        "summary_zh": "南卡羅來納州即將迎來中期選舉，選區地圖重劃的爭議已經展開。南卡羅來納州共和黨人在選區地圖重劃的問題上，違背了前總統川普的意願，拒絕修改選區地圖。這一決定可能會對共和黨在州內的競選結果產生影響。南卡羅來納州共和黨人認為，選區地圖應該保持現狀，而不是作出重大變化。這一決定可能會對共和黨在州內的競選結果產生影響。選區地圖重劃的爭議會持續下去，南卡羅來納州共和黨人將繼續堅持自己的立場。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a331213e",
-        "title": "綠灣包裝員星級跑步員Jacobs遭家暴指控逮捕",
-        "url": "https://www.bbc.com/sport/american-football/articles/cp3pxjyxk02o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 06:52:31 GMT",
-        "summary_zh": "綠灣包裝員的跑步員Josh Jacobs遭逮捕，控告他涉及五宗家暴案。事件的背景是，Jacobs涉嫌對其配偶或伴侶施加暴力，導致受害者受傷。根據警方的調查，Jacobs被控告五宗家暴罪，包括毆打、威脅和其他相關罪行。這項事件對Jacobs的職業生涯和個人形象都造成了嚴重影響。許多人對Jacobs的行為表示譴責，同時也關注他是否能夠繼續在球隊中發揮作用。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "88efd4cc",
-        "title": "白宮為慶祝美國250週年設置UFC擂台",
-        "url": "https://www.bbc.com/news/articles/cz622647eg3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 00:17:31 GMT",
-        "summary_zh": "美國白宮為慶祝美國250週年而準備一場盛大的活動。近日，工人在南草坪上架設了半球形的拱門和舞台區域。據悉，這場活動將在下個月舉行。這項措施引起了許多人的關注，許多人對於白宮為慶祝美國250週年而設置UFC擂台的決定表示意見。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "205f5bb3",
-        "title": "川普如何改造華盛頓 - 通過把自己的臉掛遍各處",
-        "url": "https://www.bbc.com/news/videos/ce8pp9r03z7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 09:17:42 GMT",
-        "summary_zh": "在美國首都華盛頓的各個地方，川普總統都把自己的臉掛遍了。記者莎拉史密斯（Sarah Smith）走遍了這座城市，去看了川普總統掛的標誌、改名的景點或是正在重建的建築。這些改變讓華盛頓的景色變得越來越像川普總統的個人廣告。這些改變也引起了華盛頓居民的反彈。有些人認為這些改變是對城市的破壞，而其他人則認為這些改變是對城市的改造。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e9e29578",
-        "title": "川普政府要求聯邦政府僱員簽署保密協議",
-        "url": "https://www.bbc.com/news/articles/c62dd22906qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 00:27:22 GMT",
-        "summary_zh": "川普政府近期要求聯邦政府僱員簽署保密協議，政府人員官員表示，這是為了防止資訊泄露給媒體。這一舉動引起了輿論的關注，許多人質疑政府的動機和保密協議的合理性。政府官員稱，這是為了維護政府機密和保證信息安全，但批評者認為，這可能會限制政府僱員的言論自由。這一事件也引發了對政府透明度和資訊自由的討論。目前，尚未有更多資訊顯示保密協議的具體內容和影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ca564354",
-        "title": "亞當斯與羅賓遜入選美國世界盃名單",
-        "url": "https://www.bbc.com/sport/football/articles/c77552k60jno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 26 May 2026 21:02:53 GMT",
-        "summary_zh": "美國國家足球隊教練馬烏里西奧·波切蒂諾宣布入選名單，包括中場球員亞當斯（Tyler Adams）和左後衛羅賓遜（Antonee Robinson）。這兩名球員分別效力於伯恩茅斯和富咸。美國國家足球隊將參加即將到來的世界盃。這是波切蒂諾首次擔任美國國家足球隊教練，他將帶領球隊進入世界盃的競爭。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "ai": [
+      {
+        "id": "2d887235",
+        "title": "AI 將政治人物埋葬 — 現在大家都聽說過他了",
+        "url": "https://www.theverge.com/policy/937650/ai-alex-bores-openai-anthropic-ny12",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-27T11:40:00-04:00",
+        "summary_zh": "紐約第 12 區民主初選將於六月結束，Anthropic 和 OpenAI 將在爭奪 AI 政治未來的權力上花費數百萬美元。爭論焦點在於誰有權規管 AI，還是誰將被懲罰因為試圖規管它。但是，Anthropic 和 OpenAI 的鬥爭中真正的勝者是……一位政治人物。他的名字叫做 Robert Zimmerman，他是一位民主黨人，競選紐約第 12 區的國會議員。在 Anthropic 和 OpenAI 的鬥爭中，他的名字被提及了數次。雖然 Anthropic 和 OpenAI 的鬥爭是為了爭奪 AI 政治未來的權力，但是它們的鬥爭卻讓 Zimmerman 的名字被更多人知道。這是因為 Anthropic 和 OpenAI 的鬥爭是公開的，而且它們的鬥爭是為了爭奪 AI 政治未來的權力，而不是為了 Zimmerman 本身。然而，Zimmerman 的名字被提及了數次，讓他在民主初選中獲得了更多的關注。這是因為 Anthropic 和 OpenAI 的鬥爭讓 Zimmerman 的名字被更多人知道，而不是因為 Zimmerman 本身的能力或政策。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "58247ef2",
         "title": "Robinhood 開放 AI 代理商交易平台，讓 AI 代理商買賣股票",
@@ -284,8 +418,8 @@
         "published_at": "2026-05-27T10:36:10-04:00",
         "summary_zh": "美國交易平台 Robinhood 宣佈開放 AI 代理商交易平台，讓使用者可以創建一個專門的帳戶給 AI 代理商，設定一定的金額讓 AI 代理商可以在市場上買賣股票。這項功能被公司描述為讓交易者可以讓 AI 代理商進行交易，從而實現收益或損失。這項功能的推出可能會對股票市場產生重大影響，讓 AI 代理商可以在市場上進行交易，從而增加市場的不確定性。然而，仍有待觀察 AI 代理商的交易行為是否會對市場造成負面影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "f0da43bc",
@@ -336,125 +470,27 @@
         "ai_classified": true
       }
     ],
-    "finance": [
-      {
-        "id": "e6f64563",
-        "title": "三星工人將獲得 40 萬美元獎金，與工會達成共享人工智慧利益的協議",
-        "url": "https://www.ft.com/content/1b7625e7-e9ab-4660-aff5-c1e333c31a5c",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-05-27 02:09:35",
-        "summary_zh": "三星公司與工會達成協議，結束了圍繞如何分享記憶體晶片製造商在人工智慧領域的繁榮之下的糾紛。根據協議，三星工人將獲得 40 萬美元的獎金。這一協議標誌著三星公司與工會之間的和解，結束了長期的僵局。這一發展對三星公司的員工和工會都有重大影響，將為員工帶來額外的收入，並且為工會提供了與公司共享利益的機會。然而，這一協議的具體細節尚未公布，仍待進一步確認。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "02cbc2e9",
-        "title": "阿達尼電力帶動集團股價反彈，印度熱浪增強能源需求",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-05-27/adani-power-leads-rebound-in-group-shares-as-mercury-soars",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-27 02:46:20",
-        "summary_zh": "印度正面臨嚴重的熱浪，導致能源需求大幅增加。阿達尼集團旗下公司的股價在此背景下大幅反彈。阿達尼集團的公司市場價值正在快速接近 2,000 億美元。這種情況下，阿達尼集團的能源業務正受到市場的關注。熱浪對印度能源需求的影響是顯而易見的，阿達尼集團的股價反彈也表明投資者對該集團的看法正在改善。然而，市場仍然需要觀察阿達尼集團未來的發展，包括其能源業務的成長和競爭力。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "cac44703",
-        "title": "日本電力價格連續上漲　戰爭和高溫加劇供應緊張",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-27/japan-power-price-extends-gains-as-war-and-heat-strain-supply",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-27 02:35:51",
-        "summary_zh": "日本當日電力價格持續上漲，達到一個多月以來的最高水準。這主要是由於預測將出現異常高溫的天氣，導致電力需求增加，而伊朗戰爭則使燃料供應緊張。這種情況對日本的電力市場造成了重大影響，可能會導致電力價格持續上漲。日本政府和電力公司正在努力應對這種情況，尋找解決方案以穩定電力供應。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "e064187b",
-        "title": "紐西蘭央行在分裂票決下維持基準利率，暗示未來將有升息",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-27/new-zealand-holds-key-rate-to-assess-fallout-from-energy-shock",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-27 02:27:32",
-        "summary_zh": "紐西蘭央行在最新的會議中維持基準利率不變，然而這次的決策是由於政策制定者在是否應該升息以防止中期通膨的問題上出現了分裂。這是紐西蘭央行第三次維持基準利率不變。雖然央行沒有立即升息，但這也暗示未來可能會有升息的機會。這種升息的跡象將對紐西蘭的經濟產生重要影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "0c231b39",
-        "title": "香港機場啟用新航站樓，競爭中東和新加坡",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-27/hong-kong-airport-opens-new-terminal-to-catch-singapore-dubai",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-05-27 02:19:09",
-        "summary_zh": "香港國際機場近日啟用新航站樓，旨在擴大客流量並競爭亞洲其他重要航空樞紐，包括新加坡和杜拜。新航站樓的啟用將為乘客提供更舒適和高效的旅遊體驗。新航站樓的設計以旅客需求為導向，提供更多的餐飲選擇和休息區域。這項投資將有助於香港機場提高其競爭力，並吸引更多的旅客。然而，新航站樓的啟用也引發了對成本和效率的擔憂。香港機場管理局表示，新航站樓的啟用將創造大量就業機會，並帶來經濟效益。這項投資將對香港的旅遊業和經濟產生重大影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a2f26886",
-        "title": "日本企業服務價格在四月上升 3% ",
-        "url": "https://www.reuters.com/world/asia-pacific/japans-corporate-service-prices-rise-3-april-2026-05-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-27 02:16:19",
-        "summary_zh": "日本企業服務價格在四月份上升 3%。根據日本統計局的數據，企業服務價格在四月份同比上升 3%。這是自 2022 年 10 月以來企業服務價格首次上升。日本企業服務價格的上升主要是由於能源和原材料價格的上升。能源和原材料價格的上升對企業的成本構成重大壓力，企業可能會將成本轉嫁給客戶。這可能會對日本的經濟產生一定的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "6a114fd4",
-        "title": "中國工業利潤四月份增長24.7%，創逾兩年來最大增幅，儘管面臨風險挑戰",
-        "url": "https://www.cnbc.com/2026/05/27/china-april-industrial-profits-growth.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-05-27 01:53:07",
-        "summary_zh": "中國工業利潤在四月份出現24.7%的增長，創逾兩年來最大增幅。儘管中國經濟面臨著多重風險挑戰，包括貿易戰、疫情和供應鏈問題等，但工業利潤的增長表明中國企業正在努力適應新的經濟環境。分析師認為，這是由於中國政府的政策支持和企業的調整努力所致。儘管如此，中國工業利潤的增長仍面臨著多重風險，包括美國對中國的貿易限制和中國的經濟下行風險等。中國政府正在努力維持經濟穩定，包括通過貨幣政策和財政政策等手段。然而，中國經濟的未來仍存有不確定性，需要密切關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6b326c98",
-        "title": "英國律師事務所因 AI 錯誤被法院嚴厲批評",
-        "url": "https://www.ft.com/content/5ba4690b-8b98-43b3-ba0b-f2ec5591a572",
-        "source": "FT Tech",
-        "category": "finance",
-        "published_at": "Tue, 26 May 2026 15:17:14 GMT",
-        "summary_zh": "英國律師事務所Pinsent Masons因在法庭上使用 AI 時出現錯誤而被法院嚴厲批評。法官Mark Mullen警告律師事務所不要將法律研究或推理工作外包給 AI系統。這起事件表明，英國法院對 AI 在法律領域的使用有著嚴格的要求。Pinsent Masons被指責在法庭上使用 AI 時沒有充分檢查結果，導致錯誤的法律推論。法官Mark Mullen認為，這種行為對法律系統的完整性和公正性構成了威脅。這起事件也引發了對 AI 在法律領域的使用和監管的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
     "stock_tw": [
       {
-        "id": "248b6bd7",
-        "title": "國泰世華攜手全家 小樹點一鍵折抵消費",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5452009",
+        "id": "88a599f0",
+        "title": "掀開潘朵拉盒子！三星勞資薪酬協議開惡例 南韓其他工會跟進喊價",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5452017",
         "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Wed, 27 May 2026 22:01:34 +0800",
-        "summary_zh": "國泰世華銀行與全家便利商店合作啟動「小樹點消費折抵功能」。卡友可以在全台逾4400間全家店舖，使用全家My FamiPay與全盈+PAY付款時，輕鬆一鍵折抵小樹點進行購物。這項合作將為消費者帶來更方便、更便捷的購物體驗。",
+        "published_at": "Wed, 27 May 2026 23:55:22 +0800",
+        "summary_zh": "近日，三星電子工會成員投票通過與資方的臨時薪酬協議，晶片部門員工可分得平均34萬美元的績效獎金。這項協議被視為南韓勞資關係的重要轉捩點，三星電子是該國指標企業之一。工會壓力下，三星電子發放令人瞠目結舌的薪酬，引發南韓其他工會跟進喊價的風潮。這項協議的影響不僅限於三星電子，還將對南韓整體勞動市場產生重大影響。南韓政府將如何應對這種情況，還需要觀察。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "88c16b4b",
-        "title": "創業大聯盟決賽9團隊脫穎而出",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5452008",
+        "id": "3d424ea0",
+        "title": "香港超越瑞士登全球最大跨境財富管理中心寶座",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5451938",
         "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Wed, 27 May 2026 21:57:48 +0800",
-        "summary_zh": "國發會舉辦創業綻放—創業大聯盟競賽決賽暨頒獎典禮，共有2805組創業團隊參與。最終，9組新創團隊脫穎而出，行政院院長卓榮泰親自頒發獎項。這些團隊將獲得「總統獎1000萬元」等獎項。創業大聯盟競賽旨在支持新創企業的發展，鼓勵創業精神。這項活動將為台灣的創業生態圈帶來新的動力。",
+        "published_at": "Wed, 27 May 2026 23:41:16 +0800",
+        "summary_zh": "根據波士頓顧問公司最新財富報告，香港跨境財富規模已達2.95兆美元，微幅領先瑞士的2.94兆美元，首度奪下全球最大跨境財富管理中心的寶座。這一變化標誌著香港在全球財富管理領域的崛起。香港的財富管理業已經成為一個重要的金融中心，吸引了大量的外資和高端客戶。這一成就也反映了香港政府的政策和投資環境的優勢。然而，瑞士仍然是全球財富管理的傳統領域，未來兩地的競爭將是有趣的。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
@@ -465,10 +501,34 @@
         "url": "https://ec.ltn.com.tw/article/breakingnews/5451991",
         "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Wed, 27 May 2026 21:27:56 +0800",
+        "published_at": "Wed, 27 May 2026 23:01:56 +0800",
         "summary_zh": "近期網路傳出台積電員工分紅將被大砍，引起員工憤慨。台積電董事長魏哲家今（27日）上午親上火線，召開面對面溝通，解釋員工今年績效考核與去年相同，全年分紅仍會持續成長，甚至有機會超過去年增幅。魏董強調，員工的分紅將根據績效考核結果進行調整，若員工績效考核出色，分紅將增加。這一說明讓員工感到放心，避免了因為分紅被砍而引起的憤慨。這一事件表明，台積電正面臨最大危機，但魏董的說明讓員工感到有希望。",
         "sentiment": "中性",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "248b6bd7",
+        "title": "國泰世華攜手全家 小樹點一鍵折抵消費",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5452009",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 27 May 2026 22:01:34 +0800",
+        "summary_zh": "國泰世華銀行與全家便利商店合作啟動「小樹點消費折抵功能」。卡友可以在全台逾4400間全家店舖，使用全家My FamiPay與全盈+PAY付款時，輕鬆一鍵折抵小樹點進行購物。這項合作將為消費者帶來更方便、更便捷的購物體驗。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "88c16b4b",
+        "title": "創業大聯盟決賽9團隊脫穎而出",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5452008",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 27 May 2026 21:57:48 +0800",
+        "summary_zh": "國發會舉辦創業綻放—創業大聯盟競賽決賽暨頒獎典禮，共有2805組創業團隊參與。最終，9組新創團隊脫穎而出，行政院院長卓榮泰親自頒發獎項。這些團隊將獲得「總統獎1000萬元」等獎項。創業大聯盟競賽旨在支持新創企業的發展，鼓勵創業精神。這項活動將為台灣的創業生態圈帶來新的動力。",
+        "sentiment": "正面",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -580,18 +640,6 @@
         "ai_classified": true
       },
       {
-        "id": "5a840252",
-        "title": "財部:身障購買或租用輔具支出可列報醫藥費",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5451844",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 27 May 2026 18:51:00 +0800",
-        "summary_zh": "財政部近日發布解釋令，規定納稅義務人、配偶或受扶養親屬因身心障礙而購買或租賃具醫療性質的輔具支出，可以在報稅時列報醫藥費。這些輔具包括身體、生理與生化試驗設備及材料、身體、肌力及平衡訓練輔具、視覺輔具、聽力輔具、語言輔具等。這項政策的目的在於幫助身心障礙者減輕經濟負擔，提高生活品質。根據財政部的說法，這項政策將對身心障礙者有所幫助，讓他們能夠更好地融入社會。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "debdfc6a",
         "title": "foodpanda母公司暫拒Uber出價 工會盼勿一家獨大",
         "url": "https://www.cna.com.tw/news/afe/202605270365.aspx",
@@ -652,161 +700,137 @@
         "ai_classified": true
       }
     ],
-    "global": [
+    "finance": [
       {
-        "id": "a1f15178",
-        "title": "亞洲市場預期混亂開盤，投資者持續評估美伊停火協議的脆弱性",
-        "url": "https://www.cnbc.com/2026/05/27/asia-markets-live-updates-nikkei-225-hang-seng-index-kospi-csi-nifty-hari-raya-haji.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-05-26 23:47:42",
-        "summary_zh": "美伊停火協議的脆弱性仍然是投資者關注的焦點。雖然美伊停火協議暫時維持，但投資者仍然對其持續性感到擔憂。美伊停火協議的脆弱性使得亞洲市場預期開盤將呈現出混亂的局面。投資者正在密切關注美伊停火協議的進展，並對其對亞洲市場的影響進行評估。美伊停火協議的脆弱性可能會導致市場波動，投資者需要保持警惕。",
+        "id": "7fd2143c",
+        "title": "曼徹斯特的繁榮與被遺忘的區域",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-27/andy-burnham-s-boom-in-manchester-and-the-areas-it-left-behind",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-27 04:00:00",
+        "summary_zh": "曼徹斯特市長安迪·伯恩漢姆帶領城市經歷了快速發展，但這個繁榮卻並未惠及整個城市，某些區域仍然被遺忘。根據數據，曼徹斯特的經濟增長率遠高於英國其他城市，但這種繁榮卻導致了區域之間的收入差距擴大。伯恩漢姆表示，他的政府致力於將這些被遺忘的區域帶入繁榮的行列，並透過投資和創新帶動經濟發展。然而，仍有許多挑戰需要克服，包括交通不便、教育資源不足等。曼徹斯特的繁榮與被遺忘的區域問題，引起了關注和討論。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9f956a6e",
+        "title": "18世紀的女性，她讓貧困人群擁有儲蓄的可能",
+        "url": "https://www.ft.com/content/b8ef4d81-d3b7-452e-a8dd-6a33b6af050b",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-05-27 04:00:00",
+        "summary_zh": "18世紀英格蘭出現了一位女性，她開創了英格蘭第一間「便士銀行」，這是一個早期的金融包容實驗。這位女性通過創設便士銀行，讓貧困人群可以儲蓄，並且為他們提供了一種新的財務工具。這種金融服務不僅幫助了貧困人群，也促進了金融包容的發展。這位女性的創舉對於當時的社會和經濟有著重要的影響，展現了對金融包容的關注和承諾。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d031c348",
+        "title": "全球鋁材價格大幅上漲 中國出口量料創新高",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-27/global-aluminum-rally-could-draw-record-exports-from-china",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-27 03:39:28",
+        "summary_zh": "全球鋁材價格大幅上漲，市場預期中國將增加出口量以滿足需求。根據市場分析，中國的鋁材出口量可能會創下新高，來應對全球市場的需求。鋁材價格的上漲是由於需求增加和供應不足所致。市場分析師預測，中國的鋁材出口量將在今年下半年達到新高，來滿足全球市場的需求。這將對全球鋁材市場產生重大影響，可能會導致價格上漲和供應緊張。然而，中國政府也會關注出口量的增加，是否會對國內鋁材市場造成負面影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "6cd73a11",
+        "title": "日本 40 年期公債發行需求強勁超越 12 個月平均值",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-27/japan-40-year-bond-sale-sees-firmer-demand-than-12-month-average-mpnilz4i",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-27 03:39:07",
+        "summary_zh": "日本最近發行的 40 年期公債引起了投資者的強烈關注。根據最新的數據，該發行的需求強勁，超越了過去 12 個月的平均值。這表明投資者對日本政府債券的需求正在增加。分析師認為，這是由於投資者對日本經濟的信心增強，以及對政府債券收益率的追求。然而，這也可能是投資者對市場風險的擔憂所致。日本政府債券的需求變化將對市場有所影響。投資者需要密切關注市場發展，以便做出明智的決策。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "1c44f380",
+        "title": "歐洲企業越來越認為中國市場不再難以操作",
+        "url": "https://www.reuters.com/world/china/more-european-firms-find-china-be-less-difficult-operate-survey-shows-2026-05-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-27 03:06:12",
+        "summary_zh": "根據最新的一項調查，越來越多的歐洲企業認為中國市場變得更加容易操作。這項調查發現，近三分之一的受訪企業表示，中國市場的難度下降，讓他們能夠更好地在市場上生存。這項趨勢與中國政府在近年來推動的市場開放政策有關。中國政府正在努力改善商業環境，吸引外資和推動經濟發展。然而，這項調查也指出，仍有許多企業面臨著中國市場的挑戰，包括嚴格的規管和競爭激烈的市場環境。因此，企業需要繼續努力適應中國市場的變化，才能在市場上取得成功。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "02cbc2e9",
+        "title": "阿達尼電力帶動集團股價反彈，印度熱浪增強能源需求",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-05-27/adani-power-leads-rebound-in-group-shares-as-mercury-soars",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-27 02:46:20",
+        "summary_zh": "印度正面臨嚴重的熱浪，導致能源需求大幅增加。阿達尼集團旗下公司的股價在此背景下大幅反彈。阿達尼集團的公司市場價值正在快速接近 2,000 億美元。這種情況下，阿達尼集團的能源業務正受到市場的關注。熱浪對印度能源需求的影響是顯而易見的，阿達尼集團的股價反彈也表明投資者對該集團的看法正在改善。然而，市場仍然需要觀察阿達尼集團未來的發展，包括其能源業務的成長和競爭力。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cac44703",
+        "title": "日本電力價格連續上漲　戰爭和高溫加劇供應緊張",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-27/japan-power-price-extends-gains-as-war-and-heat-strain-supply",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-27 02:35:51",
+        "summary_zh": "日本當日電力價格持續上漲，達到一個多月以來的最高水準。這主要是由於預測將出現異常高溫的天氣，導致電力需求增加，而伊朗戰爭則使燃料供應緊張。這種情況對日本的電力市場造成了重大影響，可能會導致電力價格持續上漲。日本政府和電力公司正在努力應對這種情況，尋找解決方案以穩定電力供應。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e064187b",
+        "title": "紐西蘭央行在分裂票決下維持基準利率，暗示未來將有升息",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-27/new-zealand-holds-key-rate-to-assess-fallout-from-energy-shock",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-27 02:27:32",
+        "summary_zh": "紐西蘭央行在最新的會議中維持基準利率不變，然而這次的決策是由於政策制定者在是否應該升息以防止中期通膨的問題上出現了分裂。這是紐西蘭央行第三次維持基準利率不變。雖然央行沒有立即升息，但這也暗示未來可能會有升息的機會。這種升息的跡象將對紐西蘭的經濟產生重要影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0c231b39",
+        "title": "香港機場啟用新航站樓，競爭中東和新加坡",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-27/hong-kong-airport-opens-new-terminal-to-catch-singapore-dubai",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-05-27 02:19:09",
+        "summary_zh": "香港國際機場近日啟用新航站樓，旨在擴大客流量並競爭亞洲其他重要航空樞紐，包括新加坡和杜拜。新航站樓的啟用將為乘客提供更舒適和高效的旅遊體驗。新航站樓的設計以旅客需求為導向，提供更多的餐飲選擇和休息區域。這項投資將有助於香港機場提高其競爭力，並吸引更多的旅客。然而，新航站樓的啟用也引發了對成本和效率的擔憂。香港機場管理局表示，新航站樓的啟用將創造大量就業機會，並帶來經濟效益。這項投資將對香港的旅遊業和經濟產生重大影響。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "16a77fde",
-        "title": "紐約知名食物合作社投票通過抵制以色列產品",
-        "url": "https://www.theguardian.com/us-news/2026/may/27/park-slope-food-coop-israel-boycott",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Wed, 27 May 2026 02:28:41 GMT",
-        "summary_zh": "紐約布鲁克林知名食物合作社公園坡食物合作社（Park Slope Food Coop）近日投票通過抵制以色列和以色列定居點的約十二種產品。這一決定是多年來對以色列和巴勒斯坦衝突的爭論的結果，該爭論已經威脅到這個為自由派紐約人而聞名的合作社的團結。該投票在星期二晚上進行，共有約七千名成員參與，占共計十七千名成員的四分之一。這一決定是多個月來的爭論的結果，當地一名反對抵制的拉比形容這是一場「代理戰爭」。抵制將影響一些品牌的塔希尼、辣椒和枳實等產品。投票結果中，有六十七分之一的參與者贊成抵制。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b99c1f78",
-        "title": "以色列空襲加沙市三人死亡數十人受傷",
-        "url": "https://www.bbc.com/news/articles/cjwppj1yn7go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 27 May 2026 13:15:26 GMT",
-        "summary_zh": "近日，以色列軍隊對加沙市進行了空襲，造成三人死亡、數十人受傷。根據醫療人員和目擊者的說法，這次空襲針對的是一名哈馬斯高級指揮官。值得注意的是，這名指揮官的前任在今年五月早些時候也遭遇了類似的空襲。這次事件的背景是近期以色列和哈馬斯之間的緊張關係加劇。這種局勢可能會對當地民眾造成嚴重影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2e515bed",
-        "title": "五人在老撾水洞困難達一周後獲救",
-        "url": "https://www.bbc.com/news/articles/crkpvxrxgp6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 27 May 2026 11:52:46 GMT",
-        "summary_zh": "近日，一個老撾水洞發生嚴重淹水，導致多名村民被困。經過一周的搜索後，已經發現五名村民倖存。然而，仍有兩名村民仍然失蹤，救援人員表示正在繼續搜索。這次事件的發生，引起了當地居民的擔憂和關注。",
+        "id": "a2f26886",
+        "title": "日本企業服務價格在四月上升 3% ",
+        "url": "https://www.reuters.com/world/asia-pacific/japans-corporate-service-prices-rise-3-april-2026-05-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-27 02:16:19",
+        "summary_zh": "日本企業服務價格在四月份上升 3%。根據日本統計局的數據，企業服務價格在四月份同比上升 3%。這是自 2022 年 10 月以來企業服務價格首次上升。日本企業服務價格的上升主要是由於能源和原材料價格的上升。能源和原材料價格的上升對企業的成本構成重大壓力，企業可能會將成本轉嫁給客戶。這可能會對日本的經濟產生一定的影響。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "51f273f7",
-        "title": "黎巴嫩村11人喪生 以色列加強轟炸",
-        "url": "https://www.bbc.com/news/articles/cx211rgngp0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 27 May 2026 04:07:27 GMT",
-        "summary_zh": "近日，以色列政府表示，已經轟炸了黎巴嫩100處的親伊朗真主黨（Hezbollah）設施和戰士。這一行動是在以色列總理本雅明·內塔尼亞胡（Benjamin Netanyahu）宣布要「徹底摧毀」真主黨之後發生的。這一行動引發了黎巴嫩村民的恐慌，至少11人喪生。這一局勢的升級，引發了國際社會的關注。真主黨是黎巴嫩的一個強大的政治和軍事組織，與以色列有著長期的對立關係。以色列的行動，可能會導致黎巴嫩局勢的進一步惡化。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8eb4ebd7",
-        "title": "三十年逃亡的女性被捕後被判處搶劫罪",
-        "url": "https://www.bbc.com/news/articles/cx21dr3lekpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 27 May 2026 12:42:43 GMT",
-        "summary_zh": "一名女性被捕後被判處搶劫罪。該名女性在2024年在柏林被捕，三十多年來一直在逃亡。該名女性在2023年被起訴。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "df2549f8",
-        "title": "酒店拒絕給客人自來水被意大利最高法院判決合法",
-        "url": "https://www.bbc.com/news/articles/c4g4yd8q0j7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 27 May 2026 12:25:31 GMT",
-        "summary_zh": "意大利最高法院駁回了一名遊客的訴訟，她指控酒店侵犯了她的消費者權益，因為酒店只提供€7的瓶裝礦泉水。這名遊客曾經要求酒店提供自來水，但酒店拒絕了她的要求。意大利最高法院認為酒店沒有侵犯遊客的消費者權益，因為酒店提供的礦泉水符合法律規定。這一判決可能會對意大利酒店業的行為產生影響，酒店可能會更加謹慎地處理客人的要求。",
-        "sentiment": "中性",
+        "id": "e6f64563",
+        "title": "三星工人將獲得 40 萬美元獎金，與工會達成共享人工智慧利益的協議",
+        "url": "https://www.ft.com/content/1b7625e7-e9ab-4660-aff5-c1e333c31a5c",
+        "source": "FT Tech",
+        "category": "finance",
+        "published_at": "Wed, 27 May 2026 07:02:49 GMT",
+        "summary_zh": "三星公司與工會達成協議，結束了圍繞如何分享記憶體晶片製造商在人工智慧領域的繁榮之下的糾紛。根據協議，三星工人將獲得 40 萬美元的獎金。這一協議標誌著三星公司與工會之間的和解，結束了長期的僵局。這一發展對三星公司的員工和工會都有重大影響，將為員工帶來額外的收入，並且為工會提供了與公司共享利益的機會。然而，這一協議的具體細節尚未公布，仍待進一步確認。",
+        "sentiment": "正面",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a4a38041",
-        "title": "韓國拘捕逃往中國的異議人士",
-        "url": "https://www.bbc.com/news/articles/c87q2pdwpw3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 27 May 2026 11:12:33 GMT",
-        "summary_zh": "近日，韓國當局拘捕了一名名叫董光平（Dong Guangping）的異議人士。董光平是一名曾經是中國警察的活動家，於前不久從中國逃亡至韓國。據報導，他在逃亡途中乘坐橡膠船數小時後，終於抵達韓國水域。董光平的逃亡事件引起了國際社會的關注，許多人對於中國政府對於異議人士的打壓感到擔憂。韓國政府的拘捕行動也引發了爭議，許多人認為這是對於政治迫害的回應。董光平的案件目前仍在調查中，未來的發展仍不明朗。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ffedb993",
-        "title": "YouTuber 因涉嫌使用 AI 批評韓星被捕",
-        "url": "https://www.bbc.com/news/articles/c759y6pvezgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 27 May 2026 02:54:19 GMT",
-        "summary_zh": "韓國一名YouTuber因涉嫌使用人工智慧（AI）發布虛假資訊，導致韓星金秀賢（Kim Soo-hyun）遭遇職業生涯結束的醜聞。根據報導，這名YouTuber被指控散播對金秀賢的虛假指控，造成對其名譽的嚴重損害。這一事件引發了對網路輿論和人工智慧的使用的關注。金秀賢的經紀公司已經對這一事件表示了強烈抗議，要求對方停止散播虛假資訊。這一事件也引發了對韓國網路輿論治理的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b5576ee0",
-        "title": "伊朗譴責美軍襲擊為「嚴重違反」休戰協議",
-        "url": "https://www.bbc.com/news/articles/c4g44yl7q70o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 26 May 2026 15:15:29 GMT",
-        "summary_zh": "伊朗政府對美國最近的軍事襲擊表示譴責，將其視為對休戰協議的嚴重違反。這次襲擊發生在伊朗和卡塔爾的和平談判正在進行的時候。伊朗政府強調，美國的行動將會對地區的和平造成嚴重影響。伊朗的譴責表明，伊朗對美國的行動感到不滿，並將會採取措施來保護自己的利益。這次事件可能會對地區的政治局勢產生重大影響，需要密切關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "df4e4362",
-        "title": "首批加納人將被遣返南非，抗議非法移民導致恐懼復興",
-        "url": "https://www.bbc.com/news/articles/cy0269pwxg3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 27 May 2026 14:14:22 GMT",
-        "summary_zh": "近期南非出現了對非法移民的抗議，導致恐懼復興。南非政府決定將首批加納人遣返，加納人是南非的主要來源國之一。這一決定是由於南非政府試圖應對最近的抗議活動，抗議活動的主要目的是針對非法移民。然而，這一決定也引發了對加納人和其他非洲移民的關注。南非政府的決定可能會對加納人和其他非洲移民造成影響，可能會導致更多的恐懼和不確定性。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f3b09431",
-        "title": "孟加拉國百萬兒童中招麻疹　近兩個月超過六萬宗疑似病例",
-        "url": "https://www.bbc.com/news/articles/cwy2d5d7wn5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 27 May 2026 01:34:42 GMT",
-        "summary_zh": "孟加拉國近期爆發嚴重的麻疹疫情，根據官方數據，該國在僅僅兩個月內錄得超過六萬宗疑似麻疹病例。這種情況對兒童來說尤為嚴重，據報導，百餘名兒童在感染麻疹後不久便病逝。孟加拉政府已經展開大規模的疫苗接種活動，試圖控制疫情的蔓延。然而，該國的醫療系統仍然面臨著嚴重挑戰，許多兒童因為缺乏足夠的醫療資源而無法獲得及時的治療。這種情況不僅影響到孟加拉國的兒童健康，也對該國的整體社會發展造成了重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4de3565d",
-        "title": "印度共產黨曾經統治數百萬人。它們現在怎麼了?",
-        "url": "https://www.bbc.com/news/articles/cwy2gr1rpnqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 26 May 2026 23:12:59 GMT",
-        "summary_zh": "印度共產黨曾經在印度各地的政治舞台上佔有一席之地，甚至在某些州實施了共產主義理念。然而，近年來，印度共產黨的影響力逐漸下降，許多黨員和支持者都在尋找新的政治途徑。根據最近的調查，印度共產黨的黨員人數已經下降了近 40%。這種情況與印度經濟的快速增長和人民的生活水平提高有關。許多印度人認為，共產主義理念不再符合他們的需求和期望。印度共產黨的領導人也在努力適應新的政治環境，嘗試找到新的路徑來重新獲得人民的信任。然而，仍然有許多人對印度共產黨的未來感到懷疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ],
