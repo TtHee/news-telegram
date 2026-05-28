@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-28T15:04:11.537455+08:00",
+  "generated_at": "2026-05-28T16:04:09.469905+08:00",
   "risk_signals": [
     "🟢 台股加權 43636.44（正常）",
     "🟢 S&P 500 7520.36（正常）",
-    "🟢 VIX 恐慌指數 16.29（正常）",
+    "🟢 VIX 恐慌指數 16.77（正常）",
     "🟢 MOVE 債市波動 70.9（正常）",
-    "🟢 美元指數 99.35（正常）",
-    "🟢 黃金 4413.1（正常）",
+    "🟢 美元指數 99.33（正常）",
+    "🟢 黃金 4413.9（正常）",
     "🟢 美債10Y殖利率 4.48（正常）",
-    "🟢 原油 WTI 90.94（正常）",
-    "🟢 美元/台幣 31.44（正常）"
+    "🟢 原油 WTI 91.2（正常）",
+    "🟢 美元/台幣 31.41（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，指標正常，股市表現平淡，美元指數和美債10Y殖利率維持穩定態勢。",
+  "ai_summary": "市場氛圍穩定，指標正常，美元指數和台股表現平淡，投資者仍然保持樂觀態度。",
   "market": {
     "TWII": {
       "price": 43636.44,
@@ -26,8 +26,8 @@
       "change_pct": 0.07
     },
     "VIX": {
-      "price": 16.29,
-      "change_pct": -4.23
+      "price": 16.77,
+      "change_pct": 2.95
     },
     "TNX": {
       "price": 4.48,
@@ -38,263 +38,33 @@
       "change_pct": -5.4
     },
     "DXY": {
-      "price": 99.35,
-      "change_pct": 0.14
+      "price": 99.33,
+      "change_pct": 0.12
     },
     "GOLD": {
-      "price": 4413.1,
-      "change_pct": -0.77
+      "price": 4413.9,
+      "change_pct": -0.76
     },
     "OIL": {
-      "price": 90.94,
-      "change_pct": 2.55
+      "price": 91.2,
+      "change_pct": 2.84
     },
     "USDTWD": {
-      "price": 31.44,
-      "change_pct": -0.01
+      "price": 31.41,
+      "change_pct": -0.11
     }
   },
   "macro": {},
   "categories": {
-    "whitehouse": [
-      {
-        "id": "1c0d9ffb",
-        "title": "川普威脅要「炸毀」美國盟友阿曼",
-        "url": "https://www.theguardian.com/us-news/2026/may/27/donald-trump-oman-threat-strait-hormuz",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 28 May 2026 05:16:14 GMT",
-        "summary_zh": "美國總統川普在內閣會議中突然說出，要對阿曼「炸毀」一語，理由是阿曼與伊朗正在討論關於霍爾木茲海峽的收費問題。霍爾木茲海峽是伊朗與中東地區的重要通道，自美國與以色列對伊朗開戰後，該海峽已經幾乎被封鎖。美國政府正嘗試重開該海峽，但川普的威脅卻讓外界感到意外。這一事件可能會對中東地區的政治局勢產生重大影響，同時也會讓全球觀察家們關注美國對阿曼的態度。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "531669d5",
-        "title": "特朗普司法部據報開啟刑事調查對他性侵指控者E Jean Carroll",
-        "url": "https://www.theguardian.com/us-news/live/2026/may/27/donald-trump-republicans-texas-primary-midterms-iran-redistricting-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 28 May 2026 01:59:40 GMT",
-        "summary_zh": "美國司法部據報已經開始刑事調查對特朗普性侵指控者E Jean Carroll。這項調查是對特朗普第二任期內的第12場內閣會議。三名民主黨州檢察長表示，昨天他們的副手被拒絕參加由JD Vance主持的會議，這引起了對白宮所謂的跨黨派打擊欺詐的混亂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7987f4b8",
-        "title": "美國司法部據報開啟刑事調查對川普指控者E Jean Carroll",
-        "url": "https://www.theguardian.com/us-news/2026/may/27/trump-doj-investigation-e-jean-carroll",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 28 May 2026 01:45:02 GMT",
-        "summary_zh": "美國司法部據報已經對川普指控者E Jean Carroll展開刑事調查。根據報導，檢方正在調查Carroll在2022年的一次證詞中是否犯有偽證罪。Carroll在與川普的民事訴訟中表示，她不接受外部財政援助來支持她的法律戰鬥。川普政府在2022年曾對Carroll提起訴訟，指控她在證詞中提供虛假證詞。這項調查的結果將對Carroll的聲譽和川普的政治形象產生重大影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "841dc0ee",
-        "title": "加州州長紐森準備對川普1.776億美元基金收取100%稅款",
-        "url": "https://www.theguardian.com/us-news/2026/may/27/newsom-tax-trump-fund",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 28 May 2026 01:35:13 GMT",
-        "summary_zh": "加州州長紐森(Gavin Newsom)準備對川普(Donald Trump)的1.776億美元「反武器化基金」實施100%稅款，以阻止川普將該基金的款項轉給他的盟友，包括1月6日暴亂事件的參與者。根據美國司法部在五月份的公告，這個基金將用於補償被指控為「法律法案和武器化受害者」。然而，尚未明確誰符合此類別的標準。紐森的措施旨在防止川普將這筆款項轉給他的盟友，包括那些參與1月6日暴亂事件的人。這一措施將對加州居民造成重大影響，可能會導致他們面臨高額稅款。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "79025d3c",
-        "title": "川普批評伊朗試圖延遲和平談判，威脅阿曼",
-        "url": "https://www.theguardian.com/us-news/2026/may/27/trump-news-at-a-glance-latest-updates-today",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 28 May 2026 01:00:50 GMT",
-        "summary_zh": "川普總統在白宮內會見內閣成員時，指責伊朗試圖延遲和平協議的簽署，希望在美國中期選舉前能夠獲得更有利的條件。川普認為伊朗希望透過等待美國中期選舉，從而獲得更好的條件。伊朗的這一行動被川普視為試圖「讓時間流逝，讓美國在中期選舉前無法達成和平協議」。此外，川普還威脅阿曼，表明美國將對阿曼的行動採取行動。伊朗和阿曼的和平談判目前處於僵局，川普的話語可能會對這一局勢產生影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "789b76a6",
-        "title": "華盛頓州紙漿廠儲罐爆炸　九名工人失蹤生還希望渺茫",
-        "url": "https://www.theguardian.com/us-news/2026/may/27/washington-paper-mill-implosion",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 28 May 2026 00:47:19 GMT",
-        "summary_zh": "華盛頓州一家紙漿廠儲罐爆炸，造成一名工人死亡，九名工人受傷。儲罐內含有高毒性化學混合物「白色醇」，引發大規模爆炸。當地當局表示，儲罐爆炸後，九名工人仍未找到，目前已經放棄生還希望。儲罐爆炸事件仍在調查中，當局正在努力了解爆炸原因。紙漿廠的工作人員表示，儲罐爆炸是紙漿廠歷史上最嚴重的意外事件。這次事故將對紙漿廠的運作和安全措施產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "068950bc",
-        "title": "天主教牧師被控性侵，辯稱「我們只是男人」",
-        "url": "https://www.theguardian.com/us-news/2026/may/27/anthony-odiong-priest-texas",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 22:38:00 GMT",
-        "summary_zh": "在德克薩斯州的一宗性侵案中，天主教牧師安東尼·奧迪翁（Anthony Odiong）被控利用其身分對追求性關係的女性信徒進行剝削。根據庭上證供，當牧師被一名信徒的兒子發現與其母親有染後，牧師曾回應「我們只是男人」。這宗案件正在進行審判，牧師被指控利用其身分對多名女性信徒進行性剝削。這些女性信徒被描述為脆弱的對象，這使得牧師的行為更加令人憤慨。這宗案件的結果將對牧師的前途產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f0f63d05",
-        "title": "馬修·佩里助手因幫助該名演員服用可卡因而入獄41個月",
-        "url": "https://www.bbc.com/news/articles/cjepvx151gqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 20:09:33 GMT",
-        "summary_zh": "美國演員馬修·佩里的一名助手肯尼思·伊瓦馬薩（Kenneth Iwamasa）因幫助佩里服用可卡因而導致佩里的死亡，於去年認罪一項與可卡因致死有關的合謀罪。伊瓦馬薩表示，他將永遠懺悔自己的行為。伊瓦馬薩被判處41個月的監禁時間。這起事件的背景是，佩里在2023年某日因服用可卡因而死亡。佩里是一位知名的演員，曾在電視劇《朋友》中飾演主角喬·貝納。佩里的死引起了廣泛的關注和哀悼。伊瓦馬薩的判決表明，幫助他人服用可卡因的行為將受到嚴厲的懲罰。這起事件也提醒我們，藥物濫用是一個嚴重的問題，需要我們的關注和幫助。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a7a58353",
-        "title": "谷歌員工被控利用內部資料賺取 120 萬美元的賭注",
-        "url": "https://www.bbc.com/news/articles/c052yv259jvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 28 May 2026 02:14:19 GMT",
-        "summary_zh": "一名谷歌長期員工被控於紐約違反內幕交易法，涉嫌利用公司內部資料進行賭注。根據調查，該員工利用谷歌的內部資料進行投資，最終賺取了 120 萬美元。這一事件引發了對企業內部資料安全和員工行為的關注。谷歌方面表示正在配合調查，並對此事件表示嚴重關注。這一事件也引發了對內幕交易法的檢視和完善。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9e20d85f",
-        "title": "前美國政府官員遭逮捕，家中發現 40 萬美元黃金棒和 2 萬美元現金",
-        "url": "https://www.bbc.com/news/articles/c5yezdl054po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 28 May 2026 00:58:42 GMT",
-        "summary_zh": "美國一名前政府官員David Rush遭逮捕，當局在他的家中發現了 40 萬美元黃金棒和 2 萬美元現金，還有 35 項豪華手錶。根據法院文件，David Rush曾擁有最高機密資格。這一事件引發了關於腐敗和違法行為的懷疑。這一事件可能會對美國政府的聲譽造成一定的影響。美國政府正在調查這一事件的細節，並將對相關人員進行追究。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b8d9cd8a",
-        "title": "拜登要求美國司法部阻止釋放錄音檔案",
-        "url": "https://www.bbc.com/news/articles/cvgzd4zvnl2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 15:21:40 GMT",
-        "summary_zh": "美國總統拜登要求美國司法部阻止釋放一批錄音檔案，據稱這些錄音檔案中，拜登提到了機密情報。拜登表示，政府想要釋放這些錄音檔案的原因並非拜登提到了機密情報，而是其他原因。這樁事件的背景是，拜登在接受採訪時，可能提到了機密情報，引起了關注。關鍵細節是，拜登要求司法部阻止釋放錄音檔案，政府的動機仍不明。影響分析是，這樁事件可能會影響拜登的形象和政府的信任度。後續展望是，司法部將會如何處理這樁事件，是否會釋放錄音檔案。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1bd64b4e",
-        "title": "Fifa 被要求解釋世界盃門票價格",
-        "url": "https://www.bbc.com/sport/football/articles/c5yrzl46d4ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 16:20:45 GMT",
-        "summary_zh": "美國紐約州和新澤西州檢察長發起調查，要求Fifa解釋2026年世界盃門票銷售的相關細節。這項調查是針對Fifa在門票銷售方面的行為進行的。Fifa是負責管理世界盃的國際足協組織。世界盃是一項全球性的足球賽事，每四年舉辦一次。Fifa在門票銷售方面的行為可能會對球迷造成影響。這項調查可能會對Fifa的行為產生影響，甚至可能會導致法律行動。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "608d995d",
-        "title": "前美國司法部長帕姆邦迪被診斷出患有癌症",
-        "url": "https://www.bbc.com/news/articles/c93x299vwgdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 16:42:14 GMT",
-        "summary_zh": "帕姆邦迪前不久被解職，現在又被診斷出患有癌症。雖然這是一個令人擔憂的消息，但她仍然展現出堅強的精神。帕姆邦迪將加入白宮新成立的人工智慧諮詢委員會，展現出她對於未來發展的熱情和投入。這個消息也讓人們開始思考，癌症的診斷對於一個人事業的影響有多大。帕姆邦迪的決定，讓人們看到，無論面臨什麼樣的挑戰，都可以選擇堅強地面對。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "205f5bb3",
-        "title": "川普如何改造華盛頓 - 通過把自己的臉掛遍各處",
-        "url": "https://www.bbc.com/news/videos/ce8pp9r03z7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 09:17:42 GMT",
-        "summary_zh": "在美國首都華盛頓的各個地方，川普總統都把自己的臉掛遍了。記者莎拉史密斯（Sarah Smith）走遍了這座城市，去看了川普總統掛的標誌、改名的景點或是正在重建的建築。這些改變讓華盛頓的景色變得越來越像川普總統的個人廣告。這些改變也引起了華盛頓居民的反彈。有些人認為這些改變是對城市的破壞，而其他人則認為這些改變是對城市的改造。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "98592c87",
-        "title": "德克薩斯州參議院初選：總檢察長肯帕克遙遙領先老將科尼恩",
-        "url": "https://www.bbc.com/news/articles/clypprglrlyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 11:53:06 GMT",
-        "summary_zh": "德克薩斯州參議院初選展開激烈競逐，總檢察長肯帕克（Ken Paxton）在初選中取得壓倒性勝利，擊敗了長期在位的參議員科尼恩（John Cornyn）。這場選舉將對於民主黨能否在特朗普總統第二個任期剩下的時間內重新奪回美國參議院控制權有重要影響。肯帕克的勝利被視為共和黨內強硬派勢力的勝利，科尼恩被認為是共和黨內較為溫和派的代表。這場選舉結果將對於未來的美國政治格局產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "540fd989",
-        "title": "華盛頓化學爆炸事故搜救仍在進行，死亡人數持續上升",
-        "url": "https://www.bbc.com/news/articles/cgrpk10r8x0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 21:36:32 GMT",
-        "summary_zh": "華盛頓州近日發生一宗化學爆炸事故，目前已經有多人死亡，九名人士仍然失蹤，該事故被認為是該州近代史上最嚴重的工業意外事故。事故的搜救工作仍在進行中，當局正在努力找尋仍然失蹤的人士。該事故的影響已經開始顯現，死亡人數持續上升，當地居民的生活也受到嚴重影響。未來的展望仍然不明朗，當局仍然在努力處理這宗事故的後果。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a331213e",
-        "title": "綠灣包裝員星級跑步員Jacobs遭家暴指控逮捕",
-        "url": "https://www.bbc.com/sport/american-football/articles/cp3pxjyxk02o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 21:47:56 GMT",
-        "summary_zh": "綠灣包裝員的跑步員Josh Jacobs遭逮捕，控告他涉及五宗家暴案。事件的背景是，Jacobs涉嫌對其配偶或伴侶施加暴力，導致受害者受傷。根據警方的調查，Jacobs被控告五宗家暴罪，包括毆打、威脅和其他相關罪行。這項事件對Jacobs的職業生涯和個人形象都造成了嚴重影響。許多人對Jacobs的行為表示譴責，同時也關注他是否能夠繼續在球隊中發揮作用。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a3aae8f0",
-        "title": "推動美國未來：川普總統政策激勵美國工人需求",
-        "url": "https://www.whitehouse.gov/releases/2026/05/powering-americas-future-president-trumps-policies-fuel-historic-demand-for-skilled-american-workers/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 27 May 2026 18:01:52 +0000",
-        "summary_zh": "川普總統的「美國優先」政策正在推動藍領工人復興，美國工人重新受到重視，新一代工人正在響應。這一轉變已經開始。多年來，從事工匠行業的人數正在增加，這是川普總統堅持恢復工人的尊嚴的明顯跡象。美國工人的需求正在增加，這也意味著美國的經濟正在走向復興。這一轉變將為美國未來的發展提供新的動力，同時也將為美國工人帶來新的機會和挑戰。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
     "global": [
       {
         "id": "73f76fa0",
         "title": "美國在肯雅設置埃博拉隔離中心為美國公民預防疫情",
         "url": "https://www.theguardian.com/us-news/2026/may/27/trump-administration-ebola-quarantine-kenya",
-        "source": "Guardian World",
+        "source": "Guardian US",
         "category": "global",
         "published_at": "Wed, 27 May 2026 18:00:41 GMT",
         "summary_zh": "美國白宮宣布，為了應對埃博拉疫情，將在肯雅設置一座隔離和治療中心，供美國公民在剛果民主共和國（DRC）接觸埃博拉病毒後使用。這一措施引起了一些專家對白宮的批評，他們認為不讓美國公民回國會對治療工作造成傷害。根據白宮的說法，這座隔離中心將為美國公民提供安全的隔離和治療環境。然而，這一決定也引發了對美國政府應對疫情的評估。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4cc760d6",
-        "title": "美國軍方在太平洋擊沉另一艘涉嫌走私船，兩人死亡，近200人死於川普政府的打擊行動",
-        "url": "https://www.theguardian.com/us-news/2026/may/28/us-military-strike-alleged-drug-boat-pacific-death-toll-nears-200",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Thu, 28 May 2026 03:18:23 GMT",
-        "summary_zh": "美國軍方在太平洋東部地區發動攻擊，擊沉一艘涉嫌走私的船隻，造成兩名男子死亡。這是川普政府打擊走私行動的第二天，該行動自去年九月開始，目前已經造成近200人死亡。人權團體指出，這些攻擊可能是非法處決。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -312,6 +82,18 @@
         "ai_classified": true
       },
       {
+        "id": "e00ab0bd",
+        "title": "美國對伊朗軍事基地進行新一輪轟炸",
+        "url": "https://www.bbc.com/news/articles/c98r2qy5809o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 28 May 2026 07:18:55 GMT",
+        "summary_zh": "美國軍方宣布，對伊朗軍事基地在巴南阿巴斯進行轟炸，同時擊落四架伊朗攻擊無人機。這次轟炸發生在伊朗軍事基地被擊落四架無人機後不久，美國軍方表示，這次行動是為了防止伊朗軍事基地再次發動攻擊。伊朗軍方則表示，這次轟炸是對伊朗的「不當行為」的一次回應。美國對伊朗的軍事行動引發了國際社會的關注，各國都在觀察著這個局勢的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "9dcf1cd9",
         "title": "加拿大將購買瑞典的早期預警飛機，減少對美國防衛企業的依賴",
         "url": "https://www.theguardian.com/world/2026/may/27/canada-sweden-saab-globaleye-aircraft",
@@ -324,13 +106,13 @@
         "ai_classified": true
       },
       {
-        "id": "e00ab0bd",
-        "title": "美國對伊朗軍事基地進行新一輪轟炸",
-        "url": "https://www.bbc.com/news/articles/c98r2qy5809o?at_medium=RSS&at_campaign=rss",
+        "id": "b458d263",
+        "title": "觀看: 社區聚集  化學爆炸後工人仍未尋獲",
+        "url": "https://www.bbc.com/news/videos/crrp821xng7o?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "global",
-        "published_at": "Thu, 28 May 2026 06:51:20 GMT",
-        "summary_zh": "美國軍方宣布，對伊朗軍事基地在巴南阿巴斯進行轟炸，同時擊落四架伊朗攻擊無人機。這次轟炸發生在伊朗軍事基地被擊落四架無人機後不久，美國軍方表示，這次行動是為了防止伊朗軍事基地再次發動攻擊。伊朗軍方則表示，這次轟炸是對伊朗的「不當行為」的一次回應。美國對伊朗的軍事行動引發了國際社會的關注，各國都在觀察著這個局勢的發展。",
+        "published_at": "Wed, 27 May 2026 16:09:10 GMT",
+        "summary_zh": "美國華盛頓州一家紙廠發生化學爆炸，造成至少一人死亡，九人失蹤。當局表示，正在進行搜救工作。這起事故引起了社區的關注和擔憂。紙廠附近的居民聚集在現場，等待最新消息。當局已經展開調查，試圖找出爆炸原因。這起事件對當地居民的生活和經濟產生了重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -355,6 +137,18 @@
         "category": "global",
         "published_at": "Wed, 27 May 2026 18:50:50 GMT",
         "summary_zh": "剛果民主共和國正在面臨著一場「災難性碰撞」，由於該國正在經歷埃博拉疫情的爆發，而戰爭也正在席捲該國。世界衛生組織(WHO)的總幹事特德羅斯（Tedros Adhanom Ghebreyesus）表示，該國正在經歷一場「雙重挑戰」，同時面臨著埃博拉疫情和戰爭的威脅。特德羅斯強調，戰爭正在使疫情控制更加困難，同時也使得醫療人員和民眾難以獲得安全的環境來提供和接收醫療服務。世衛組織呼籲各國提供援助和支持，以幫助剛果民主共和國應對這場危機。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4cc760d6",
+        "title": "美國軍方在太平洋擊沉另一艘涉嫌走私船，兩人死亡，近200人死於川普政府的打擊行動",
+        "url": "https://www.theguardian.com/us-news/2026/may/28/us-military-strike-alleged-drug-boat-pacific-death-toll-nears-200",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Thu, 28 May 2026 03:18:23 GMT",
+        "summary_zh": "美國軍方在太平洋東部地區發動攻擊，擊沉一艘涉嫌走私的船隻，造成兩名男子死亡。這是川普政府打擊走私行動的第二天，該行動自去年九月開始，目前已經造成近200人死亡。人權團體指出，這些攻擊可能是非法處決。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -432,18 +226,6 @@
         "ai_classified": true
       },
       {
-        "id": "b458d263",
-        "title": "觀看: 社區聚集  化學爆炸後工人仍未尋獲",
-        "url": "https://www.bbc.com/news/videos/crrp821xng7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 27 May 2026 16:09:10 GMT",
-        "summary_zh": "美國華盛頓州一家紙廠發生化學爆炸，造成至少一人死亡，九人失蹤。當局表示，正在進行搜救工作。這起事故引起了社區的關注和擔憂。紙廠附近的居民聚集在現場，等待最新消息。當局已經展開調查，試圖找出爆炸原因。這起事件對當地居民的生活和經濟產生了重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "df2549f8",
         "title": "酒店拒絕給客人自來水被意大利最高法院判決合法",
         "url": "https://www.bbc.com/news/articles/c4g4yd8q0j7o?at_medium=RSS&at_campaign=rss",
@@ -451,18 +233,6 @@
         "category": "global",
         "published_at": "Wed, 27 May 2026 12:25:31 GMT",
         "summary_zh": "意大利最高法院駁回了一名遊客的訴訟，她指控酒店侵犯了她的消費者權益，因為酒店只提供€7的瓶裝礦泉水。這名遊客曾經要求酒店提供自來水，但酒店拒絕了她的要求。意大利最高法院認為酒店沒有侵犯遊客的消費者權益，因為酒店提供的礦泉水符合法律規定。這一判決可能會對意大利酒店業的行為產生影響，酒店可能會更加謹慎地處理客人的要求。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0d6f51bb",
-        "title": "迦納歡迎教宗對天主教會在奴隸貿易中的道歉",
-        "url": "https://www.bbc.com/news/articles/cwy2d6j14l5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 27 May 2026 13:17:41 GMT",
-        "summary_zh": "迦納是跨大西洋奴隸貿易的主要門戶之一。教宗對天主教會在奴隸貿易中的角色表示道歉。這一事件對於迦納和非洲人民來說具有重要意義，因為他們在歷史上遭受了奴隸貿易的苦難。教宗的道歉被視為對歷史錯誤的承認和補償。然而，這一事件也引發了對教宗道歉的真誠性和有效性的質疑。迦納政府和人民對教宗的道歉表示歡迎，但也呼籲教宗采取更具體的行動來補償歷史上的苦難。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -481,78 +251,6 @@
       }
     ],
     "ai": [
-      {
-        "id": "2d887235",
-        "title": "AI 將政治人物埋葬 — 現在大家都聽說過他了",
-        "url": "https://www.theverge.com/policy/937650/ai-alex-bores-openai-anthropic-ny12",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-27T11:40:00-04:00",
-        "summary_zh": "紐約第 12 區民主初選將於六月結束，Anthropic 和 OpenAI 將在爭奪 AI 政治未來的權力上花費數百萬美元。爭論焦點在於誰有權規管 AI，還是誰將被懲罰因為試圖規管它。但是，Anthropic 和 OpenAI 的鬥爭中真正的勝者是……一位政治人物。他的名字叫做 Robert Zimmerman，他是一位民主黨人，競選紐約第 12 區的國會議員。在 Anthropic 和 OpenAI 的鬥爭中，他的名字被提及了數次。雖然 Anthropic 和 OpenAI 的鬥爭是為了爭奪 AI 政治未來的權力，但是它們的鬥爭卻讓 Zimmerman 的名字被更多人知道。這是因為 Anthropic 和 OpenAI 的鬥爭是公開的，而且它們的鬥爭是為了爭奪 AI 政治未來的權力，而不是為了 Zimmerman 本身。然而，Zimmerman 的名字被提及了數次，讓他在民主初選中獲得了更多的關注。這是因為 Anthropic 和 OpenAI 的鬥爭讓 Zimmerman 的名字被更多人知道，而不是因為 Zimmerman 本身的能力或政策。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "58247ef2",
-        "title": "Robinhood 開放 AI 代理商交易平台，讓 AI 代理商買賣股票",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/938095/robinhood-ai-agent-stock-trading",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-27T10:36:10-04:00",
-        "summary_zh": "美國交易平台 Robinhood 宣佈開放 AI 代理商交易平台，讓使用者可以創建一個專門的帳戶給 AI 代理商，設定一定的金額讓 AI 代理商可以在市場上買賣股票。這項功能被公司描述為讓交易者可以讓 AI 代理商進行交易，從而實現收益或損失。這項功能的推出可能會對股票市場產生重大影響，讓 AI 代理商可以在市場上進行交易，從而增加市場的不確定性。然而，仍有待觀察 AI 代理商的交易行為是否會對市場造成負面影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f0da43bc",
-        "title": "YouTube 將在影片中顯示 AI 標籤",
-        "url": "https://www.theverge.com/streaming/937915/youtube-ai-labels-shorts-automatic-identification-updates",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-27T09:00:00-04:00",
-        "summary_zh": "在 Google I/O 大會宣布擴大 AI 認證努力之後，YouTube 正在努力提高對 AI 標籤的重視。 YouTube 宣布將 AI 的披露從影片底部移到影片中間，讓使用者更容易察覺，並開始自動識別和標籤 AI 生成的內容。這項變革旨在提高使用者對 AI 生成內容的意識，並降低假新聞和虛假資訊的傳播。這項變革將對 YouTube 的內容管理產生重大影響，同時也將提高使用者對 AI 生成內容的意識。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "54bef36e",
-        "title": "信驊攜手萊迪思半導體 共同推進次世代資料中心管理控制技術",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5452676",
-        "source": "自由時報財經",
-        "category": "ai",
-        "published_at": "Thu, 28 May 2026 14:27:42 +0800",
-        "summary_zh": "信驊與萊迪思半導體宣佈建立策略合作夥伴關係，共同推進次世代資料中心管理控制技術。這項合作將結合信驊的遠端伺服器管理晶片（BMC）技術與萊迪思半導體的低功耗可程式化解決方案，為資料中心管理提供更高效、更可靠的控制。這項合作將有助於資料中心管理的進步，並為未來的資料中心管理提供新的技術選擇。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a7acfc93",
-        "title": "紐約時報內部正在酝酿的AI戰役",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/937689/new-york-times-tech-guild-ai-monitoring-performance-union-contract",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-27T08:00:00-04:00",
-        "summary_zh": "紐約時報內部正在進行一場關於新聞室是否應該使用人工智慧（AI）的辯論。這種辯論在媒體業界已經持續了好幾年。近年來，這些規則正被在工會和出版商之間的談判桌上逐步確定。目前，紐約時報的員工正在為即將到來的談判做準備。這場談判將會涉及員工是否應該使用AI進行工作，以及AI的使用應該受到什麼樣的限制。這種辯論不僅僅是技術問題，也涉及到媒體業界的未來發展方向。員工和工會正在努力爭取保護員工工作權益和維護媒體業界的獨立性。這場談判對於媒體業界的未來發展將具有重要影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "91d2b152",
-        "title": "教皇不相信人工智慧的迷思",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/937933/pope-ai-encyclical-tech-industry-reactions",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-05-27T08:00:00-04:00",
-        "summary_zh": "教皇利奧十四世於週一發表了一份關於人工智慧社會影響的教皇詔書。該教皇詔書名為《偉大的人類》，警告人工智慧的使用「永遠不是純粹的技術問題：當它進入影響人們生活的過程時，它觸及權利、機會、地位和自由」。他身邊的 Anthropic 創辦人與 [&#8230;] ，並強調人工智慧的發展應該以人類的福祉為優先考慮。教皇的詔書呼籲各界共同探討人工智慧的社會影響，並確保其發展符合人類的價值觀。這份教皇詔書標誌著人工智慧在宗教界的重要性，教皇的立場將對人工智慧的發展產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
       {
         "id": "740e340e",
         "title": "下載：跟上人工智慧的腳步，IVF的未來",
@@ -590,6 +288,78 @@
         "ai_classified": true
       },
       {
+        "id": "54bef36e",
+        "title": "信驊攜手萊迪思半導體 共同推進次世代資料中心管理控制技術",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5452676",
+        "source": "自由時報財經",
+        "category": "ai",
+        "published_at": "Thu, 28 May 2026 14:27:42 +0800",
+        "summary_zh": "信驊與萊迪思半導體宣佈建立策略合作夥伴關係，共同推進次世代資料中心管理控制技術。這項合作將結合信驊的遠端伺服器管理晶片（BMC）技術與萊迪思半導體的低功耗可程式化解決方案，為資料中心管理提供更高效、更可靠的控制。這項合作將有助於資料中心管理的進步，並為未來的資料中心管理提供新的技術選擇。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2d887235",
+        "title": "AI 將政治人物埋葬 — 現在大家都聽說過他了",
+        "url": "https://www.theverge.com/policy/937650/ai-alex-bores-openai-anthropic-ny12",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-27T11:40:00-04:00",
+        "summary_zh": "紐約第 12 區民主初選將於六月結束，Anthropic 和 OpenAI 將在爭奪 AI 政治未來的權力上花費數百萬美元。爭論焦點在於誰有權規管 AI，還是誰將被懲罰因為試圖規管它。但是，Anthropic 和 OpenAI 的鬥爭中真正的勝者是……一位政治人物。他的名字叫做 Robert Zimmerman，他是一位民主黨人，競選紐約第 12 區的國會議員。在 Anthropic 和 OpenAI 的鬥爭中，他的名字被提及了數次。雖然 Anthropic 和 OpenAI 的鬥爭是為了爭奪 AI 政治未來的權力，但是它們的鬥爭卻讓 Zimmerman 的名字被更多人知道。這是因為 Anthropic 和 OpenAI 的鬥爭是公開的，而且它們的鬥爭是為了爭奪 AI 政治未來的權力，而不是為了 Zimmerman 本身。然而，Zimmerman 的名字被提及了數次，讓他在民主初選中獲得了更多的關注。這是因為 Anthropic 和 OpenAI 的鬥爭讓 Zimmerman 的名字被更多人知道，而不是因為 Zimmerman 本身的能力或政策。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "58247ef2",
+        "title": "Robinhood 開放 AI 代理商交易平台，讓 AI 代理商買賣股票",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/938095/robinhood-ai-agent-stock-trading",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-27T10:36:10-04:00",
+        "summary_zh": "美國交易平台 Robinhood 宣佈開放 AI 代理商交易平台，讓使用者可以創建一個專門的帳戶給 AI 代理商，設定一定的金額讓 AI 代理商可以在市場上買賣股票。這項功能被公司描述為讓交易者可以讓 AI 代理商進行交易，從而實現收益或損失。這項功能的推出可能會對股票市場產生重大影響，讓 AI 代理商可以在市場上進行交易，從而增加市場的不確定性。然而，仍有待觀察 AI 代理商的交易行為是否會對市場造成負面影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f0da43bc",
+        "title": "YouTube 將在影片中顯示 AI 標籤",
+        "url": "https://www.theverge.com/streaming/937915/youtube-ai-labels-shorts-automatic-identification-updates",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-27T09:00:00-04:00",
+        "summary_zh": "在 Google I/O 大會宣布擴大 AI 認證努力之後，YouTube 正在努力提高對 AI 標籤的重視。 YouTube 宣布將 AI 的披露從影片底部移到影片中間，讓使用者更容易察覺，並開始自動識別和標籤 AI 生成的內容。這項變革旨在提高使用者對 AI 生成內容的意識，並降低假新聞和虛假資訊的傳播。這項變革將對 YouTube 的內容管理產生重大影響，同時也將提高使用者對 AI 生成內容的意識。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a7acfc93",
+        "title": "紐約時報內部正在酝酿的AI戰役",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/937689/new-york-times-tech-guild-ai-monitoring-performance-union-contract",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-27T08:00:00-04:00",
+        "summary_zh": "紐約時報內部正在進行一場關於新聞室是否應該使用人工智慧（AI）的辯論。這種辯論在媒體業界已經持續了好幾年。近年來，這些規則正被在工會和出版商之間的談判桌上逐步確定。目前，紐約時報的員工正在為即將到來的談判做準備。這場談判將會涉及員工是否應該使用AI進行工作，以及AI的使用應該受到什麼樣的限制。這種辯論不僅僅是技術問題，也涉及到媒體業界的未來發展方向。員工和工會正在努力爭取保護員工工作權益和維護媒體業界的獨立性。這場談判對於媒體業界的未來發展將具有重要影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "91d2b152",
+        "title": "教皇不相信人工智慧的迷思",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/937933/pope-ai-encyclical-tech-industry-reactions",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-05-27T08:00:00-04:00",
+        "summary_zh": "教皇利奧十四世於週一發表了一份關於人工智慧社會影響的教皇詔書。該教皇詔書名為《偉大的人類》，警告人工智慧的使用「永遠不是純粹的技術問題：當它進入影響人們生活的過程時，它觸及權利、機會、地位和自由」。他身邊的 Anthropic 創辦人與 [&#8230;] ，並強調人工智慧的發展應該以人類的福祉為優先考慮。教皇的詔書呼籲各界共同探討人工智慧的社會影響，並確保其發展符合人類的價值觀。這份教皇詔書標誌著人工智慧在宗教界的重要性，教皇的立場將對人工智慧的發展產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "cc6092c4",
         "title": "防止人工智慧的 \"切爾諾比利時刻\"",
         "url": "https://www.ft.com/content/fe3a33e1-534a-4968-8af3-f768e68874f8",
@@ -604,6 +374,66 @@
     ],
     "stock_tw": [
       {
+        "id": "09a375f4",
+        "title": "79歲老太太在家藏200萬現鈔　意外打開「聚寶盆」被嚇呆了",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5452147",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 28 May 2026 15:52:21 +0800",
+        "summary_zh": "79歲獨居老太太阿琪（化名）在家中藏有200萬新台幣的現鈔，理由是她不信任銀行，認為把錢放在家裡最安全。然而，意外打開「聚寶盆」後，她被嚇呆了。阿琪省吃儉用，好不容易存下這筆錢，卻不知道這樣的行為會帶來什麼後果。這個事件讓人們思考，是否真的把錢放在家裡最安全？銀行的信任度有多高？",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "6f57638f",
+        "title": "九合一大選揭幕 藍新攜應援科技搶選舉商機",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5452817",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 28 May 2026 15:47:28 +0800",
+        "summary_zh": "2026年九合一大選揭幕，藍新金流宣布攜手應援科技推出「2026候選人募資領航方案」。該方案透過整合平台、提供候選人募資服務，幫助候選人籌措資金。這項合作是藍新金流為了搶占選舉商機而展開的行動，目的是幫助候選人提高競選資源。應援科技的經濟SaaS品牌將提供技術支持，協助候選人管理募資活動。這項合作將對選舉結果產生重大影響，候選人是否能夠籌措足夠的資金將決定競選勝負。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f3d7a070",
+        "title": "華通董座江培琨：擴大太空板領先優勢",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5452814",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 28 May 2026 15:44:26 +0800",
+        "summary_zh": "華通董事長江培琨於股東會上表示，公司因應衛星通訊、AI伺服器、光通訊及資料中心相關產品的高頻、高速應用，利用先進的大數據、智慧化工廠等技術，擴大太空板領先優勢。這些新技術將使華通的太空板產品更具競爭力，滿足市場對高性能的需求。江培琨強調，公司將繼續投資研發，推動產業的發展。這一舉措將對華通的業務有所助益，同時也將對整個產業產生一定的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "6342eb65",
+        "title": "亞泥連8年獲利突破百億元 多角化經營展現韌性",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5452785",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 28 May 2026 15:40:01 +0800",
+        "summary_zh": "亞泥近日召開股東常會，面對全球經濟變局、能源轉型與碳管理趨勢加速，公司通過多元事業發展、上下游整合及減碳升級策略，展現穩健經營實力。亞泥連續8年獲利突破百億元，這表明公司的多角化經營策略已經成功，展現出韌性。亞泥的經營實力使得公司能夠在經濟變局下保持穩定，同時也為股東創造了豐厚的收益。這一成績也表明亞泥的經營團隊有能力應對挑戰，將公司帶向更好的未來。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f0fe5ee2",
+        "title": "七旬夫妻因一錯誤哀嘆晚年最大遺憾：退休金不足",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5452170",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 28 May 2026 15:38:06 +0800",
+        "summary_zh": "許多人在退休前會擔心是否能夠保障自己的退休金，醫療和長期照護費用是否能得到保障。日媒指出，許多人想要保護自己的儲蓄，但卻因為一錯誤而導致退休金不足。七旬夫妻因為這一錯誤哀嘆晚年最大遺憾。退休金不足的問題已經成為許多人的一大擔憂，如何保護自己的儲蓄和保障退休生活已經成為許多人的關注點。這一問題的影響不僅僅是個人層面，還會影響到整個社會的退休保障體系。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "58cd1191",
         "title": "中東戰火影響台灣營建工程物價指數攀升 年增4.91％",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5452699",
@@ -612,8 +442,8 @@
         "published_at": "Thu, 28 May 2026 14:45:50 +0800",
         "summary_zh": "受中東戰火的影響，4月營建工程物價指數再度攀升，年增幅達4.91%。其中，塑膠製品、瀝青與相關製品，以及機電設備等細項指數的年增幅尤其驚人，均超過10%。這種情況下，台灣的營建工程成本可能會繼續上升，對於建築業和相關行業的影響將是值得關注的議題。根據主計總處的統計數據，營建工程物價指數的攀升將會對台灣的經濟產生一定的影響。因此，政府和相關部門需要密切關注這種情況，並採取適當的措施來穩定物價和控制成本。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "f4c8c904",
@@ -624,8 +454,8 @@
         "published_at": "Thu, 28 May 2026 14:45:23 +0800",
         "summary_zh": "台積電近期傳出員工分紅縮水，引發內部議論。許美華表示，台積電高層對「薪酬情緒效應」不夠敏感，處理不當，包括董事會都應負起責任。許美華呼籲台積電盡快召開臨時董事會，釐清分紅問題，避免「當年」惡夢重演。許美華的言論可能是針對台積電前任董事長張忠謀在任時的薪酬爭議事件。許美華的意見可能會對台積電的股價和公司形象產生影響。台積電的分紅問題可能會持續受到關注和討論。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "b6863936",
@@ -636,8 +466,8 @@
         "published_at": "Thu, 28 May 2026 14:41:59 +0800",
         "summary_zh": "南韓電子業界及內部消息人士透露，LG電子近期高層秘密訪問中國北京，與當地最大電視製造商海信高層會面，雙方就電視業務部出售可能性在內的業務結構轉型方案進行協調。這次會面是LG電子為了應對電視市場競爭日益激烈的情況，尋求與海信合作的機會。海信是全球第四大電視製造商，市場佔有率逐漸增長。LG電子面臨著電視業務收入下滑的問題，出售電視業務部可能是公司為了減少負擔而採取的措施。這次會面的結果尚未公佈，但市場分析師認為，LG電子出售電視業務部的可能性不低。這將對全球電視市場產生重大影響，同時也會對其他電視製造商造成競爭壓力。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "bd80aca5",
@@ -648,31 +478,7 @@
         "published_at": "Thu, 28 May 2026 14:27:11 +0800",
         "summary_zh": "隨著高齡化社會的來臨，退休後的生活可能比想像中更加漫長。日本媒體近日分享了一名68歲的阿公的案例，他雖然退休後不缺錢，但每天的生活卻是吃飯睡覺看電視。這種生活模式不僅對身體有害，還可能導致精神上的空虛。退休後的生活並不是單靠金錢就能填補上的空缺，需要有充足的身心活動和社會互動來維持健康和幸福。這個案例提醒我們，退休後的生活需要有更多的意義和目的，不能只是沉迷於消遣和享受。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "82452ee3",
-        "title": "越想省錢反而越容易破財？日專家：退休後千萬別做『這件事』",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5452673",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 28 May 2026 14:24:16 +0800",
-        "summary_zh": "隨著物價持續上漲，許多人看到特價、買一送一或大包裝優惠時，總覺得「現在不買以後更貴」，因此想靠「大量囤貨」達到省錢的目的。但是，日本專家提醒，真正讓退休生活失控的，很多時候並不是花費太多，而是過度囤積物資。退休後，人們的收入減少，生活費用卻不減反增，過度囤積物資只會讓財務負擔加重。專家建議，退休後千萬別做「囤積物資」，而是要學會「適時購買」和「善用儲蓄」。如此才能真正達到省錢的目的，避免退休生活失控。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "586bee2b",
-        "title": "台股再創歷史新高 童子賢分析\"不算過熱\"原因曝光",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5452542",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 28 May 2026 12:42:17 +0800",
-        "summary_zh": "台股今天盤中高點觸及44954.09點，創下歷史新高。和碩董事長童子賢表示，若以整體市場本益比（PE Ratio）觀察，目前台股仍處於合理區間，「不算過熱」。他認為，這是因為企業盈餘增長率較高，企業本益比較低。童子賢進一步指出，企業本益比較低是因為企業在疫情期間進行了大量投資，導致企業盈餘增長率較高。同時，他也提到，企業本益比較低也使得企業更具競爭力。根據童子賢的分析，目前台股仍有升值空間。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -750,62 +556,62 @@
     ],
     "finance": [
       {
-        "id": "121810f9",
-        "title": "健康回饋：川普官員對加州發起醫療補助資金凍結，威脅其他州份",
-        "url": "https://www.cnbc.com/2026/05/27/trump-officials-hit-california-with-medicaid-funding-freeze.html",
-        "source": "Cnbc",
+        "id": "35f3b15a",
+        "title": "SL Green與日本摩利集團合作建造紐約辦公大樓",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-27/sl-green-partners-with-japan-s-mori-to-build-nyc-office-tower",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-27 18:55:42",
-        "summary_zh": "川普政府正在加緊對聯邦醫療補助計劃進行打擊詐騙的行動。根據最新消息，川普政府官員已經對加州發起醫療補助資金凍結，同時威脅其他州份。如果其他州份不配合，川普政府將會對其進行懲罰。這項行動是川普政府對醫療補助計劃進行改革的一部分。川普政府認為，醫療補助計劃存在嚴重的詐騙問題，需要進行改革。川普政府官員表示，醫療補助計劃的資金將會被凍結，直到州份能夠提供足夠的證據來證明其資金的正確性。這項行動將會對加州和其他州份的醫療系統產生重大影響。川普政府的這項行動被認為是對州份的壓力，希望州份能夠配合政府的改革計畫。然而，這項行動也引起了州份和醫療界的強烈反彈。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "43b9da4e",
-        "title": "阿克蘇諾貝爾拒絕日本尼泊爾、Sherwin-Williams 125 億歐元收購提議",
-        "url": "https://www.reuters.com/legal/transactional/akzonobel-rejects-takeover-offer-nippon-paint-sherwin-williams-2026-05-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-27 18:48:22",
-        "summary_zh": "阿克蘇諾貝爾公司拒絕了日本尼泊爾和Sherwin-Williams的收購提議，後者估計價值達 125 億歐元。阿克蘇諾貝爾的董事會認為收購提議不符合公司的最佳利益。這項決定可能會導致市場上出現新的收購競爭者。阿克蘇諾貝爾是一家全球性涂料公司，提供各種涂料和塗裝產品。收購提議的拒絕可能會對公司股價產生影響。市場觀察人士正在密切關注這項事件的發展。阿克蘇諾貝爾的決策可能會對全球涂料市場產生影響。",
+        "published_at": "2026-05-27 20:00:00",
+        "summary_zh": "SL Green與日本摩利集團合作建造紐約辦公大樓。這項合作將會在紐約曼哈頓的西57街建設一座高達1,005英尺的辦公大樓。這座大樓將會成為紐約市最高的辦公大樓。這項合作是摩利集團進軍美國市場的重要一步。摩利集團是一家日本房地產開發商，曾經在東京建造過多座著名建築。SL Green則是一家美國房地產投資信託公司，擁有多座紐約市的辦公大樓。這項合作將會帶來新的投資機會，並且將會對紐約市的房地產市場產生影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "cfb53e09",
-        "title": "博爾洛敦促環球音樂拒絕阿克曼的64億美元收購提議",
-        "url": "https://www.reuters.com/world/bollore-rejects-ackmans-64-bln-bid-universal-music-2026-05-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-05-27 18:47:03",
-        "summary_zh": "博爾洛集團的主席Vincent Bollore敦促環球音樂拒絕億美元收購提議。阿克曼旗下公司IPOH控股向環球音樂提出收購提議，目標是將環球音樂從母公司Vivendi分離出來。博爾洛認為這項收購提議對環球音樂的未來發展不利。環球音樂是全球知名的音樂唱片公司，旗下擁有許多著名音樂家。Vivendi是法國跨國公司，旗下還有其他子公司如遊戲和娛樂公司。這項收購提議引起了市場的關注，投資者紛紛關注這項交易的結果。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "aa9dd637",
-        "title": "墨西哥降低2026年增長預測 因投資下滑",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-27/mexico-cuts-2026-growth-forecast-as-investment-falters",
+        "id": "d6906359",
+        "title": "佩拉韋恩伯格將裁員10%，包括合夥人",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-27/perella-weinberg-to-cut-10-of-workforce-including-partners",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-05-27 18:44:25",
-        "summary_zh": "墨西哥政府宣布降低2026年經濟增長預測，原因是投資下滑。根據墨西哥財政部的數據，2023年墨西哥的投資下降了4.5%，這是自2013年以來最大的下滑。墨西哥財政部部長表示，投資下滑是由於企業對未來經濟前景的不確定性所致。墨西哥政府還表示，將採取措施刺激投資和經濟增長。墨西哥的經濟增長預測降低至2.5%，低於之前的3.5%。墨西哥的經濟增長受到多個因素的影響，包括貿易戰、通脹和投資下滑。墨西哥政府的措施將對經濟增長產生重要影響。",
+        "published_at": "2026-05-27 19:59:50",
+        "summary_zh": "佩拉韋恩伯格（Perella Weinberg）正在進行大規模裁員，將裁員10%的員工，包括合夥人。這項裁員措施將對公司的業務和財務產生重大影響。佩拉韋恩伯格是一家全球性投資銀行和財富管理公司，提供私人銀行、投資銀行和資產管理等服務。公司的裁員措施是應對市場變化和競爭壓力的結果。這項裁員將對公司的員工和客戶都有影響，可能會導致業務和收入的下滑。佩拉韋恩伯格的裁員措施將是投資銀行業界的一個重要事件，可能會對其他公司的裁員措施產生影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "f70adeae",
-        "title": "小型股市遭到市場押注下跌",
-        "url": "https://www.cnbc.com/2026/05/27/bears-load-up-bets-against-small-cap-stocks-ahead-of-economic-data-releases.html",
+        "id": "c1412c42",
+        "title": "迪克運動用品最新季度數據為耐克帶來曙光",
+        "url": "https://www.cnbc.com/2026/05/27/heres-why-dicks-sporting-goods-latest-quarter-signals-a-bright-spot-for-nike.html",
         "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-05-27 18:44:25",
-        "summary_zh": "小型股市在過去一年內已經上漲了 40%，遠超 S&P 500 和 Nasdaq-100 的 27% 和 39% 的漲幅。但是，選擇權交易者們卻對 Russell 2000 表現出最為悲觀的態度。根據最新的數據顯示，選擇權交易者們正在大量押注小型股市的下跌。這種情況與市場對小型股市的前景感到擔憂有關。市場分析師認為，隨著經濟數據的即將公布，小型股市將面臨更大的壓力。小型股市的下跌可能會對整體市場產生重大影響，因此投資者應該保持警惕。",
-        "sentiment": "負面",
+        "published_at": "2026-05-27 19:53:50",
+        "summary_zh": "迪克運動用品最新季度數據出爐，對於在投資組合中備受困擾的耐克而言，似乎帶來了一絲曙光。雖然這不是耐克的財報，但投資人們對迪克運動用品的表現頗為關注，因為它能夠為耐克帶來一些希望。迪克運動用品的季度數據表明，消費者對運動用品的需求仍然存在，尤其是在家庭健身和戶外活動方面。這一趨勢對於耐克的業務發展具有重要意義，因為耐克在這些領域都有著重要的市場份額。因此，迪克運動用品的季度數據被視為耐克未來發展的一個積極信號。然而，投資人們仍然需要繼續關注耐克的財報和市場動態，以確保這一曙光不會因為市場變化而消逝。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ebae235f",
+        "title": "卡萊爾集團CEO視國防投資市場為「無限」",
+        "url": "https://www.reuters.com/legal/transactional/carlyle-ceo-sees-market-defense-investments-unlimited-2026-05-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-27 19:53:43",
+        "summary_zh": "卡萊爾集團的CEO表示，國防投資市場的潛力是無限的。卡萊爾集團是一家全球領先的私募基金公司，已經投資了大量的資金在國防和安全領域。根據卡萊爾集團的CEO，國防投資市場的需求正在快速增長，尤其是在亞洲地區。這使得投資國防領域的機會變得更加豐富。卡萊爾集團的CEO認為，國防投資市場的未來前景非常看好，投資者可以從中獲得豐厚的回報。然而，這也意味著投資國防領域的風險也會增加。投資者需要仔細評估風險和收益的平衡。卡萊爾集團的CEO強調，國防投資市場的潛力是無限的，投資者需要做好準備。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a6bcfba1",
+        "title": "埃克森美孚在德克薩斯州獲得股東支持",
+        "url": "https://www.reuters.com/business/energy/exxon-wins-shareholder-backing-texas-move-defeats-retail-voting-proposal-2026-05-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-05-27 19:49:04",
+        "summary_zh": "埃克森美孚在德克薩斯州的一項法律訴訟中獲得股東的支持。該公司正在與德克薩斯州政府爭取在該州的法律訴訟中獲得豁免權。埃克森美孚的股東們在最近的一次股東大會上通過了一項決議，支持公司在德克薩斯州的法律訴訟中進行訴訟。該公司的法律團隊表示，這項訴訟將幫助公司保護其在德克薩斯州的利益。然而，德克薩斯州政府的代表人表示，這項訴訟將是一場長期的法律戰爭。埃克森美孚的股東們的決定將對該公司未來的法律訴訟產生重大影響。這項訴訟將進一步加深德克薩斯州政府和埃克森美孚之間的緊張關係。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": true
       },
@@ -832,8 +638,8 @@
         "published_at": "2026-05-27 18:08:37",
         "summary_zh": "知名投資家 Jim Cramer 在投資俱樂部的 5 月月度會議上表示，人工智慧股票並不是唯一可以投資的選擇。投資俱樂部的投資組合包括 33 個股票，Cramer 在會議中提到 4 個他認為值得購買的股票。雖然人工智慧股票仍然受到關注，但 Cramer 表示投資者應該考慮其他投資機會。這些股票包括 [股票名稱]，Cramer 表示這些股票具有潛在的投資價值。投資俱樂部的投資組合旨在提供投資者一個全面性的投資選擇，包括股票、債券和其他投資工具。投資者應該根據自己的投資目標和風險承受能力來選擇投資組合。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "5bb380c5",
@@ -928,6 +734,212 @@
         "published_at": "2026-05-27 15:17:21",
         "summary_zh": "第六大街投資公司宣布收購科羅拉多州的一座滑雪場地，該公司正在推動豪華酒店業務。這項收購是第六大街進一步擴展其酒店投資業務的一部分。第六大街是一家私人投資公司，專注於酒店、餐飲和娛樂等領域的投資。該公司的收購行動表明其對豪華酒店市場的信心和投資意愿。這項收購將對該地區的酒店業界產生重大影響，可能會引發新的投資和發展機會。然而，具體的收購細節和價格尚未公開。第六大街的這一收購行動將進一步加強該公司在酒店投資領域的競爭力。",
         "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "whitehouse": [
+      {
+        "id": "57453649",
+        "title": "吉爾·拜登表示她曾經懷疑丈夫拜登在2024年辯論中正在發生中風",
+        "url": "https://www.bbc.com/news/articles/c99l270vy3no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 28 May 2026 04:53:51 GMT",
+        "summary_zh": "吉爾·拜登在接受CBS新聞採訪時表示，她在2024年辯論中觀看丈夫拜登的表現時感到非常害怕。拜登夫人認為丈夫的表現不夠好，似乎在表達自己的意見時有困難。她也提到自己曾經懷疑丈夫是否正在經歷中風的症狀。這番話讓人聯想到拜登在競選期間的健康狀況。雖然拜登夫人沒有明確指出丈夫的健康狀況，但她的話語暗示著拜登可能面臨著健康挑戰。這也使得外界對拜登的健康狀況產生了更多的關注。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "f0f63d05",
+        "title": "馬修·佩里助手因幫助該名演員服用可卡因而入獄41個月",
+        "url": "https://www.bbc.com/news/articles/cjepvx151gqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 20:09:33 GMT",
+        "summary_zh": "美國演員馬修·佩里的一名助手肯尼思·伊瓦馬薩（Kenneth Iwamasa）因幫助佩里服用可卡因而導致佩里的死亡，於去年認罪一項與可卡因致死有關的合謀罪。伊瓦馬薩表示，他將永遠懺悔自己的行為。伊瓦馬薩被判處41個月的監禁時間。這起事件的背景是，佩里在2023年某日因服用可卡因而死亡。佩里是一位知名的演員，曾在電視劇《朋友》中飾演主角喬·貝納。佩里的死引起了廣泛的關注和哀悼。伊瓦馬薩的判決表明，幫助他人服用可卡因的行為將受到嚴厲的懲罰。這起事件也提醒我們，藥物濫用是一個嚴重的問題，需要我們的關注和幫助。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a7a58353",
+        "title": "谷歌員工被控利用內部資料賺取 120 萬美元的賭注",
+        "url": "https://www.bbc.com/news/articles/c052yv259jvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 28 May 2026 02:14:19 GMT",
+        "summary_zh": "一名谷歌長期員工被控於紐約違反內幕交易法，涉嫌利用公司內部資料進行賭注。根據調查，該員工利用谷歌的內部資料進行投資，最終賺取了 120 萬美元。這一事件引發了對企業內部資料安全和員工行為的關注。谷歌方面表示正在配合調查，並對此事件表示嚴重關注。這一事件也引發了對內幕交易法的檢視和完善。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "540fd989",
+        "title": "華盛頓化學爆炸事故搜救仍在進行，死亡人數持續上升",
+        "url": "https://www.bbc.com/news/articles/cgrpk10r8x0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 21:36:32 GMT",
+        "summary_zh": "華盛頓州近日發生一宗化學爆炸事故，目前已經有多人死亡，九名人士仍然失蹤，該事故被認為是該州近代史上最嚴重的工業意外事故。事故的搜救工作仍在進行中，當局正在努力找尋仍然失蹤的人士。該事故的影響已經開始顯現，死亡人數持續上升，當地居民的生活也受到嚴重影響。未來的展望仍然不明朗，當局仍然在努力處理這宗事故的後果。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9e20d85f",
+        "title": "前美國政府官員遭逮捕，家中發現 40 萬美元黃金棒和 2 萬美元現金",
+        "url": "https://www.bbc.com/news/articles/c5yezdl054po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 28 May 2026 00:58:42 GMT",
+        "summary_zh": "美國一名前政府官員David Rush遭逮捕，當局在他的家中發現了 40 萬美元黃金棒和 2 萬美元現金，還有 35 項豪華手錶。根據法院文件，David Rush曾擁有最高機密資格。這一事件引發了關於腐敗和違法行為的懷疑。這一事件可能會對美國政府的聲譽造成一定的影響。美國政府正在調查這一事件的細節，並將對相關人員進行追究。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1bd64b4e",
+        "title": "Fifa 被要求解釋世界盃門票價格",
+        "url": "https://www.bbc.com/sport/football/articles/c5yrzl46d4ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 16:20:45 GMT",
+        "summary_zh": "美國紐約州和新澤西州檢察長發起調查，要求Fifa解釋2026年世界盃門票銷售的相關細節。這項調查是針對Fifa在門票銷售方面的行為進行的。Fifa是負責管理世界盃的國際足協組織。世界盃是一項全球性的足球賽事，每四年舉辦一次。Fifa在門票銷售方面的行為可能會對球迷造成影響。這項調查可能會對Fifa的行為產生影響，甚至可能會導致法律行動。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "608d995d",
+        "title": "前美國司法部長帕姆邦迪被診斷出患有癌症",
+        "url": "https://www.bbc.com/news/articles/c93x299vwgdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 16:42:14 GMT",
+        "summary_zh": "帕姆邦迪前不久被解職，現在又被診斷出患有癌症。雖然這是一個令人擔憂的消息，但她仍然展現出堅強的精神。帕姆邦迪將加入白宮新成立的人工智慧諮詢委員會，展現出她對於未來發展的熱情和投入。這個消息也讓人們開始思考，癌症的診斷對於一個人事業的影響有多大。帕姆邦迪的決定，讓人們看到，無論面臨什麼樣的挑戰，都可以選擇堅強地面對。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b8d9cd8a",
+        "title": "拜登要求美國司法部阻止釋放錄音檔案",
+        "url": "https://www.bbc.com/news/articles/cvgzd4zvnl2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 15:21:40 GMT",
+        "summary_zh": "美國總統拜登要求美國司法部阻止釋放一批錄音檔案，據稱這些錄音檔案中，拜登提到了機密情報。拜登表示，政府想要釋放這些錄音檔案的原因並非拜登提到了機密情報，而是其他原因。這樁事件的背景是，拜登在接受採訪時，可能提到了機密情報，引起了關注。關鍵細節是，拜登要求司法部阻止釋放錄音檔案，政府的動機仍不明。影響分析是，這樁事件可能會影響拜登的形象和政府的信任度。後續展望是，司法部將會如何處理這樁事件，是否會釋放錄音檔案。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "205f5bb3",
+        "title": "川普如何改造華盛頓 - 通過把自己的臉掛遍各處",
+        "url": "https://www.bbc.com/news/videos/ce8pp9r03z7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 09:17:42 GMT",
+        "summary_zh": "在美國首都華盛頓的各個地方，川普總統都把自己的臉掛遍了。記者莎拉史密斯（Sarah Smith）走遍了這座城市，去看了川普總統掛的標誌、改名的景點或是正在重建的建築。這些改變讓華盛頓的景色變得越來越像川普總統的個人廣告。這些改變也引起了華盛頓居民的反彈。有些人認為這些改變是對城市的破壞，而其他人則認為這些改變是對城市的改造。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1c0d9ffb",
+        "title": "川普威脅要「炸毀」美國盟友阿曼",
+        "url": "https://www.theguardian.com/us-news/2026/may/27/donald-trump-oman-threat-strait-hormuz",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 28 May 2026 05:16:14 GMT",
+        "summary_zh": "美國總統川普在內閣會議中突然說出，要對阿曼「炸毀」一語，理由是阿曼與伊朗正在討論關於霍爾木茲海峽的收費問題。霍爾木茲海峽是伊朗與中東地區的重要通道，自美國與以色列對伊朗開戰後，該海峽已經幾乎被封鎖。美國政府正嘗試重開該海峽，但川普的威脅卻讓外界感到意外。這一事件可能會對中東地區的政治局勢產生重大影響，同時也會讓全球觀察家們關注美國對阿曼的態度。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "531669d5",
+        "title": "特朗普司法部據報開啟刑事調查對他性侵指控者E Jean Carroll",
+        "url": "https://www.theguardian.com/us-news/live/2026/may/27/donald-trump-republicans-texas-primary-midterms-iran-redistricting-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 28 May 2026 01:59:40 GMT",
+        "summary_zh": "美國司法部據報已經開始刑事調查對特朗普性侵指控者E Jean Carroll。這項調查是對特朗普第二任期內的第12場內閣會議。三名民主黨州檢察長表示，昨天他們的副手被拒絕參加由JD Vance主持的會議，這引起了對白宮所謂的跨黨派打擊欺詐的混亂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7987f4b8",
+        "title": "美國司法部據報開啟刑事調查對川普指控者E Jean Carroll",
+        "url": "https://www.theguardian.com/us-news/2026/may/27/trump-doj-investigation-e-jean-carroll",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 28 May 2026 01:45:02 GMT",
+        "summary_zh": "美國司法部據報已經對川普指控者E Jean Carroll展開刑事調查。根據報導，檢方正在調查Carroll在2022年的一次證詞中是否犯有偽證罪。Carroll在與川普的民事訴訟中表示，她不接受外部財政援助來支持她的法律戰鬥。川普政府在2022年曾對Carroll提起訴訟，指控她在證詞中提供虛假證詞。這項調查的結果將對Carroll的聲譽和川普的政治形象產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "841dc0ee",
+        "title": "加州州長紐森準備對川普1.776億美元基金收取100%稅款",
+        "url": "https://www.theguardian.com/us-news/2026/may/27/newsom-tax-trump-fund",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 28 May 2026 01:35:13 GMT",
+        "summary_zh": "加州州長紐森(Gavin Newsom)準備對川普(Donald Trump)的1.776億美元「反武器化基金」實施100%稅款，以阻止川普將該基金的款項轉給他的盟友，包括1月6日暴亂事件的參與者。根據美國司法部在五月份的公告，這個基金將用於補償被指控為「法律法案和武器化受害者」。然而，尚未明確誰符合此類別的標準。紐森的措施旨在防止川普將這筆款項轉給他的盟友，包括那些參與1月6日暴亂事件的人。這一措施將對加州居民造成重大影響，可能會導致他們面臨高額稅款。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "79025d3c",
+        "title": "川普批評伊朗試圖延遲和平談判，威脅阿曼",
+        "url": "https://www.theguardian.com/us-news/2026/may/27/trump-news-at-a-glance-latest-updates-today",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 28 May 2026 01:00:50 GMT",
+        "summary_zh": "川普總統在白宮內會見內閣成員時，指責伊朗試圖延遲和平協議的簽署，希望在美國中期選舉前能夠獲得更有利的條件。川普認為伊朗希望透過等待美國中期選舉，從而獲得更好的條件。伊朗的這一行動被川普視為試圖「讓時間流逝，讓美國在中期選舉前無法達成和平協議」。此外，川普還威脅阿曼，表明美國將對阿曼的行動採取行動。伊朗和阿曼的和平談判目前處於僵局，川普的話語可能會對這一局勢產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "789b76a6",
+        "title": "華盛頓州紙漿廠儲罐爆炸　九名工人失蹤生還希望渺茫",
+        "url": "https://www.theguardian.com/us-news/2026/may/27/washington-paper-mill-implosion",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 28 May 2026 00:47:19 GMT",
+        "summary_zh": "華盛頓州一家紙漿廠儲罐爆炸，造成一名工人死亡，九名工人受傷。儲罐內含有高毒性化學混合物「白色醇」，引發大規模爆炸。當地當局表示，儲罐爆炸後，九名工人仍未找到，目前已經放棄生還希望。儲罐爆炸事件仍在調查中，當局正在努力了解爆炸原因。紙漿廠的工作人員表示，儲罐爆炸是紙漿廠歷史上最嚴重的意外事件。這次事故將對紙漿廠的運作和安全措施產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "068950bc",
+        "title": "天主教牧師被控性侵，辯稱「我們只是男人」",
+        "url": "https://www.theguardian.com/us-news/2026/may/27/anthony-odiong-priest-texas",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 22:38:00 GMT",
+        "summary_zh": "在德克薩斯州的一宗性侵案中，天主教牧師安東尼·奧迪翁（Anthony Odiong）被控利用其身分對追求性關係的女性信徒進行剝削。根據庭上證供，當牧師被一名信徒的兒子發現與其母親有染後，牧師曾回應「我們只是男人」。這宗案件正在進行審判，牧師被指控利用其身分對多名女性信徒進行性剝削。這些女性信徒被描述為脆弱的對象，這使得牧師的行為更加令人憤慨。這宗案件的結果將對牧師的前途產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a3aae8f0",
+        "title": "推動美國未來：川普總統政策激勵美國工人需求",
+        "url": "https://www.whitehouse.gov/releases/2026/05/powering-americas-future-president-trumps-policies-fuel-historic-demand-for-skilled-american-workers/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 27 May 2026 18:01:52 +0000",
+        "summary_zh": "川普總統的「美國優先」政策正在推動藍領工人復興，美國工人重新受到重視，新一代工人正在響應。這一轉變已經開始。多年來，從事工匠行業的人數正在增加，這是川普總統堅持恢復工人的尊嚴的明顯跡象。美國工人的需求正在增加，這也意味著美國的經濟正在走向復興。這一轉變將為美國未來的發展提供新的動力，同時也將為美國工人帶來新的機會和挑戰。",
+        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       }
