@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-06-02T03:04:30.272649+08:00",
+  "generated_at": "2026-06-02T04:04:14.492148+08:00",
   "risk_signals": [
     "🟢 台股加權 44732.94（正常）",
-    "🟢 S&P 500 7613.28（正常）",
-    "🟢 VIX 恐慌指數 15.75（正常）",
+    "🟢 S&P 500 7599.96（正常）",
+    "🟢 VIX 恐慌指數 16.02（正常）",
     "🟢 MOVE 債市波動 70.22（正常）",
-    "🟢 美元指數 99.18（正常）",
-    "🟢 黃金 4517.6（正常）",
+    "🟢 美元指數 99.21（正常）",
+    "🟢 黃金 4510.3（正常）",
     "🟢 美債10Y殖利率 4.47（正常）",
-    "🔴 原油 WTI 92.58（急漲 +5.98%，市場避險）",
-    "🟢 美元/台幣 31.28（正常）"
+    "🔴 原油 WTI 92.46（急漲 +5.84%，市場避險）",
+    "🟢 美元/台幣 31.31（正常）"
   ],
-  "ai_summary": "市場呈現穩定氛圍，多個指標維持正常水平。原油急漲引發市場避險情緒，但整體市場仍未表現出明顯恐慌跡象。",
+  "ai_summary": "市場呈現穩定氛圍，各個指標均處於正常範圍。原油價格急漲，可能是市場避險情緒的表現，但整體來說仍然保持穩定。",
   "market": {
     "TWII": {
       "price": 44732.94,
       "change_pct": 2.51
     },
     "SP500": {
-      "price": 7613.28,
-      "change_pct": 0.44
+      "price": 7599.96,
+      "change_pct": 0.26
     },
     "NASDAQ": {
-      "price": 27163.67,
-      "change_pct": 0.71
+      "price": 27086.81,
+      "change_pct": 0.42
     },
     "VIX": {
-      "price": 15.75,
-      "change_pct": 2.81
+      "price": 16.02,
+      "change_pct": 4.57
     },
     "TNX": {
       "price": 4.47,
@@ -35,28 +35,270 @@
     },
     "MOVE": {
       "price": 70.22,
-      "change_pct": 0.69
+      "change_pct": 0.0
     },
     "DXY": {
-      "price": 99.18,
-      "change_pct": 0.28
+      "price": 99.21,
+      "change_pct": 0.31
     },
     "GOLD": {
-      "price": 4517.6,
-      "change_pct": -0.94
+      "price": 4510.3,
+      "change_pct": -1.1
     },
     "OIL": {
-      "price": 92.58,
-      "change_pct": 5.98
+      "price": 92.46,
+      "change_pct": 5.84
     },
     "USDTWD": {
-      "price": 31.28,
-      "change_pct": -0.46
+      "price": 31.31,
+      "change_pct": -0.38
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "f573b97d",
+        "title": "跨性別士兵可繼續服役 美軍招募仍可拒絕",
+        "url": "https://www.theguardian.com/us-news/2026/jun/01/transgender-troops-military-enlistment-ruling",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 19:26:05 GMT",
+        "summary_zh": "美國最高法院對跨性別士兵服役問題做出判決，認為跨性別士兵可繼續服役，但美軍可繼續拒絕招募跨性別新兵。這項判決對川普政府的反多元化政策造成了沉重的打擊，法院認為美軍跨性別士兵服役禁令是「隨意且出於偏見』的。這項判決將會對川普政府的政策產生重大影響，並可能最終來到美國最高法院審理。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "fd94b955",
+        "title": "民主黨人在以色列遊行中出現分歧，舒默出席，曼達尼缺席",
+        "url": "https://www.theguardian.com/us-news/2026/jun/01/democrats-israel-parade-new-york",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 18:06:03 GMT",
+        "summary_zh": "民主黨人在紐約市的以色列日遊行中出現分歧。紐約市長曼達尼因反對以色列政府的行為，拒絕出席遊行。舒默參加了遊行，但其他民主黨人因與以色列遠右財政部長一起遊行而遭到批評。民主黨人在以色列問題上出現分歧，表明黨內的分裂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6f669d91",
+        "title": "紐墨西哥州發現核實驗室員工遺骸",
+        "url": "https://www.theguardian.com/us-news/2026/jun/01/melissa-casias-remains-found-new-mexico",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 17:57:06 GMT",
+        "summary_zh": "紐墨西哥州警方宣布，近日發現的人員遺骸已經確認為洛斯阿拉莫斯國家實驗室（Los Alamos National Laboratory）員工梅麗莎·卡西亞斯（Melissa Casias）。梅麗莎·卡西亞斯於2025年6月26日被視為失蹤，警方發現遺骸時還有一把手槍。警方表示，這起案件曾引起網路上的各種猜測，但目前仍未公布任何有關她失蹤原因的資訊。梅麗莎·卡西亞斯的家人已經被告知了這個消息。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4a672616",
+        "title": "明尼蘇達共和黨遭批評：在會議上為喬治佛洛伊德殺手默哀",
+        "url": "https://www.theguardian.com/us-news/2026/jun/01/minnesota-republicans-derek-chauvin-moment-of-silence",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 16:24:29 GMT",
+        "summary_zh": "明尼蘇達州共和黨在會議上為前警察喬治佛洛伊德殺手德里克·查維恩默哀，引起該州檢察總長基思·艾倫森的不滿。艾倫森是佛洛伊德殺害案的首席檢察官，他批評共和黨的行動是對佛洛伊德家人的「深刻的殘酷行為」，並對明尼蘇達州的警察人員感到不敬。艾倫森的批評是針對共和黨在週六在杜魯斯舉行的年度會議上進行的默哀儀式。該會議引起了明尼蘇達州各界的關注，許多人批評共和黨的行動是對佛洛伊德家人的不尊重。這一事件也引起了對明尼蘇達州政治氛圍的關注，許多人認為共和黨的行動是對法治和人權的挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b994fb5b",
+        "title": "科羅拉多州選舉主任蒂娜·彼得斯獲刑期減刑出獄",
+        "url": "https://www.theguardian.com/us-news/2026/jun/01/tina-peters-colorado-election-released-prison",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 16:02:36 GMT",
+        "summary_zh": "科羅拉多州前選舉主任蒂娜·彼得斯因參與推廣唐納德·川普的選舉陰謀論而被判刑。川普成功說服科羅拉多州民主黨州長減刑她的刑期。根據科羅拉多州矯正部門的確認，彼得斯於週一出獄。該州機構表示，將不再提供更多關於 70 歲的彼得斯的資訊。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c7f4b577",
+        "title": "民主黨承諾挑戰川普1.8億美元「MAGA 救援基金」在美國參議院",
+        "url": "https://www.theguardian.com/us-news/2026/jun/01/senate-democrats-challenge-trump-slush-fund",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 15:27:23 GMT",
+        "summary_zh": "美國民主黨參議員承諾將迫使共和黨參議員投票通過1.8億美元的「MAGA 救援基金」。這筆基金是由川普對內部稅務稽查局訴訟的部分，該訴訟被視為川普的長途賭注。川普稱這筆基金是用於支付受政治迫害的受害者的補償金。然而，共和黨的黨員們也對這筆基金表示擔憂。民主黨領袖查克舒默表示，這筆基金實際上是川普的「貪污基金」。他還表示，將會迫使共和黨參議員投票表明他們是否支持這筆基金。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "2ad73db1",
+        "title": "迈阿密纳税人可能要為豪宅地產付出 40 億美元的帳單",
+        "url": "https://www.theguardian.com/us-news/2026/jun/01/miami-dade-fisher-island-dispute",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 15:00:21 GMT",
+        "summary_zh": "迈阿密-戴德縣官員同意為 HRP 集團支付超過兩倍的價格購買費雪島的土地，以保護游輪業用於燃料儲存的設施。近期來，費雪島（Fisher Island）土地的擁有權引發三方爭奪戰。該島是美國最富有的郵遞區之一，位於迈阿密市的對岸。 Denver-based 全球能源公司 TransMontaigne Partners 在 2024 年 5 月將該地段掛牌出售，引起了高昂的興趣，因為這塊土地是該島上最後可供開發的土地。最後贏得競標戰的是一家來自芝加哥的開發商 HRP 集團，該公司在去年 9 月購買該地段的價格為 18 億美元。開發商隨後宣布將在該地段興建公寓大樓，預計耗資 200 億美元。迈阿密-戴德縣官員的決定可能會讓納稅人面臨 40 億美元的帳單。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "944bfc58",
+        "title": "新澤西州ICE設施抗議者遭逮捕，衝突仍在繼續",
+        "url": "https://www.theguardian.com/us-news/2026/jun/01/new-jersey-ice-detention-center-protests",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 14:14:50 GMT",
+        "summary_zh": "新澤西州的官方宣布，數十名抗議者因違反禁令在紐瓦克的Delaney Hall ICE設施遭逮捕。該設施近一個星期來一直出現混亂和暴力事件。新澤西州民主黨律政長官Jennifer Davenport在社交媒體上表示，一群人帶著頭盔、盾牌或氣炸面罩，故意不遵守多次離開該區域的命令，導致他們被逮捕。這些抗議者正在為設施內的罷工和餓餓罷工表達抗議。這些事件可能會對設施內的生活和安全造成影響，同時也引起了社會的關注和討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c62cc432",
+        "title": "加州選舉中科技巨頭花天送地 預言這只是冰山一角",
+        "url": "https://www.theguardian.com/us-news/2026/jun/01/tech-billionaires-california-elections",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 14:00:18 GMT",
+        "summary_zh": "加州即將舉行6月2日的初選選舉，科技巨頭們已經花費數百萬美元來影響選區的結果。這些科技公司採取了全面性的策略，資助各級候選人和提案，預計將是加州歷史上最昂貴的初選選舉。專家們認為，這些科技巨頭的目標是爭取政治和監管權力，以確保在商業領域的主導地位。谷歌共同創始人布林已經花費66億美元，反對一個億萬富翁稅的提案，這項提案將在11月投票。民主黨州長候選人馬漢已經收到超過其他候選人更多的捐款，包括谷歌、亞馬遜、Snap、連結、Reddit和Palantir的高管。加密貨幣大亨克里斯拉森已經資助了三個超級政治行動委員會（Super Pac），花費26億美元來影響加州各地的選舉，包括贊助州保險委員會的一名初選候選人。谷歌和Meta已經合資資助一個超級政治行動委員會，花費10億美元來支持州議會和參議會候選人。科技巨頭的資金不僅流向州級選舉，也流向城市選舉，科技背後的超級政治行動委員會贊助了各級候選人。這些行動表明，科技巨頭正在為自己爭取政治和監管權力，以確保在商業領域的主導地位。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e1b2c27d",
+        "title": "鮑文：川普需要這場戰爭結束，但伊朗不願妥協",
+        "url": "https://www.bbc.com/news/articles/cedp3lee059o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 15:25:54 GMT",
+        "summary_zh": "由於民意壓力和海灣盟友的壓力，白宮正努力推動和平方案，但伊朗卻要求取得讓步。伊朗的堅決態度使得戰爭持續下去的可能性增加。這種局勢下，美國總統川普面臨著難以達成和平方案的挑戰。伊朗的堅決態度也使得美國國內的反戰聲浪更加高漲。目前，美國和伊朗之間的對立仍在持續升級，未來的發展方向仍存不明朗。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "global": [
+      {
+        "id": "4bcbfea7",
+        "title": "迦納通過嚴厲反同法案　同志社群恐失家、失業、失醫療保障",
+        "url": "https://www.theguardian.com/global-development/2026/jun/01/ghana-new-law-criminalising-lgbtq-activity",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 11:59:11 GMT",
+        "summary_zh": "迦納國會近日通過一項嚴厲反同法案，該法案規定同志社群活動的推廣和同志身份認同將被視為犯罪，違者將面臨3至10年的監禁。同志社群組織表示，該法案通過後，同志社群成員恐怕將失去家園、失業和醫療保障。該法案尚待總統John Dramani Mahama簽署生效。迦納的同志社群目前處於極度恐懼之中，擔心自己的生活將受到嚴重影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1bf567b4",
+        "title": "中東和談再陷僵局 歐洲股市收低",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5457307",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Tue, 02 Jun 2026 01:36:03 +0800",
+        "summary_zh": "中東和平談判再度陷入僵局，美國與伊朗之間的緊張局勢升溫，導致歐洲股市主要指數今天收盤挫跌。倫敦FTSE 100指數下跌70.33點或0.68%，收10338.95點。法蘭克福DAX指數下跌24.51點或0.16%，收15244.41點。這種局勢升溫使得投資者感到不確定，導致股市下跌。中東和平談判的僵局可能會對全球經濟產生影響，投資者需要密切關注這種局勢的發展。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "ccc5d9d6",
+        "title": "英國不必支付羅旺達1000萬英鎊，英國法院裁定",
+        "url": "https://www.theguardian.com/uk-news/2026/jun/01/uk-will-not-pay-rwanda-over-failed-asylum-scheme",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 10:50:51 GMT",
+        "summary_zh": "英國政府在前任總理約翰遜的任期下，推出一項對非法移民進行驅逐的計畫，但由於該計畫遭到工黨政府在上任第一天就取消，因此羅旺達政府對英國政府提出訴訟，要求英國政府支付超過1000萬英鎊的賠償金。英國政府否認違反協議，最終由國際法院裁定英國政府不必支付羅旺達政府的賠償金。這項裁定對英國政府和羅旺達政府都有重大影響，可能會影響兩國之間的關係和未來的合作。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "571487bf",
+        "title": "伊朗揚言闢新戰線 美油價飆漲近8％",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5457286",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 23:53:02 +0800",
+        "summary_zh": "伊朗國營媒體報導，德黑蘭將停止與美國的談判，並完全封鎖荷姆茲海峽，以報復以色列攻擊黎巴嫩。這一行動引發了全球油價大幅上漲，美國西德州中級原油價格飆破8%。此外，伊朗的這一行動可能會導致全球油價持續上漲，對全球經濟產生重大影響。伊朗的這一行動也引發了國際社會的關注，各國政府和國際組織正在密切關注這一情況的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0e31ef2d",
+        "title": "全球大火災面積減少，富裕地區受災惡劣",
+        "url": "https://www.theguardian.com/world/2026/jun/01/wildfires-devastating-richer-areas-but-fewer-hectares-burned-globally-study",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 06:00:09 GMT",
+        "summary_zh": "根據最新研究，2025年全球大火災面積減少至 335 萬公頃，僅次於 2002 年的最低紀錄。然而，這些大火災主要發生在富裕國家，如加拿大、歐洲、南韓和加利福尼亞州。研究人員指出，這些大火災造成了大量生命、房屋和工作崗位的喪失。但是，非洲農業的擴張，分割了原本的草原，減慢了大型草原火災的蔓延。這種現象在非洲部分地區出現，幫助減少了全球大火災的面積。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7a382699",
+        "title": "亞太市場周一開盤混亂，投資人關注美伊談判不確定性",
+        "url": "https://www.cnbc.com/2026/06/01/asia-markets-nikkei-225-kospi-hang-seng-index.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-05-31 23:46:43",
+        "summary_zh": "亞太市場周一預計開盤混亂，投資人關注美伊談判不確定性。美國總統川普表示不急於簽署伊朗協議，投資人對未來市場走向感到擔憂。美伊談判的不確定性使得投資人難以確定市場的方向，亞太市場因此預計開盤混亂。投資人將密切關注美伊談判的進展，同時觀察全球經濟的變化。美伊談判的結果將對全球市場產生重大影響，投資人需要準備面對未來的風險和機會。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fcbcec48",
+        "title": "極右派候選人意外勝出　為哥倫比亞傳統保守派帶來重挫",
+        "url": "https://www.theguardian.com/world/2026/jun/01/trump-admirer-abelardo-de-la-espriella-election-win-blow-to-colombia-conservatives",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 14:44:45 GMT",
+        "summary_zh": "哥倫比亞最近舉行了總統選舉，極右派律師阿貝拉多德拉埃斯皮里耶拉(Abelardo de la Espriella)意外勝出，領先左派參議員伊凡塞佩達(Iván Cepeda)約670,000票。這些未投票給兩人選民的數字不少，約3.6萬人。這些選民可能感到對政治感到疲勞，選擇了極右派候選人。這次選舉結果對哥倫比亞傳統保守派造成了重大的影響。阿貝拉多德拉埃斯皮里耶拉和伊凡塞佩達將在未投票給兩人選民的選民中競選，選舉將在三周內舉行。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "0ca76825",
+        "title": "哥倫比亞右派總統候選人 Espriella 在初選中勝出，將與 Cepeda 進入決選",
+        "url": "https://www.theguardian.com/world/2026/jun/01/colombia-far-right-presidential-candidate-espriella-wins-first-round-of-vote-ahead-of-election-runoff",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 10:35:40 GMT",
+        "summary_zh": "哥倫比亞剛舉行的總統初選結果出爐，右派律師 Espriella 以 43.7% 的選票率勝出，將與左派總統 Petro 支持的參議員 Cepeda 進入決選。 Espriella 是一位律師和川普的支持者，他在最近的民調中快速上升。根據目前的數據， Espriella 获得了 10.3 萬多票，而 Cepeda 則獲得了 9.6 萬多票。 Espriella 和 Cepeda 將在三周後進行決選。哥倫比亞總統選舉的結果將對該國政治產生重大影響。 Espriella 的勝利表明了哥倫比亞人民對右派政策的支持，而 Cepeda 的參選則代表了左派的反對意見。這次選舉將是哥倫比亞政治史上的重要事件。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "31d1e163",
+        "title": "摩洛哥超越南非成為非洲工業經濟第一",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-01/morocco-pips-south-africa-as-continent-s-top-industrial-economy",
+        "source": "Bloomberg",
+        "category": "global",
+        "published_at": "2026-06-01 07:06:03",
+        "summary_zh": "摩洛哥已經超越南非成為非洲工業經濟第一。根據最新的數據，摩洛哥的工業生產值已經超過南非，成為非洲最大的工業經濟體。這一轉變是由於摩洛哥政府的投資和政策改善，促進了該國的工業發展。摩洛哥的工業生產值增長了 5.5%，而南非的工業生產值則下降了 1.4%。摩洛哥的這一成就將對該國的經濟發展產生重大影響，同時也將使該國在非洲經濟領域的影響力增強。摩洛哥政府正在努力鞏固這一成就，繼續推動該國的工業發展。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d296410c",
+        "title": "伊朗暫停與美國交涉 國際油價應聲飆漲",
+        "url": "https://www.cna.com.tw/news/aopl/202606010343.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 22:52:51 +0800",
+        "summary_zh": "伊朗與美國的交涉近日陷入僵局，連日終戰會談無果，美伊再度交火後，伊朗宣布暫停與美國交涉。這一消息引發了國際油價的大幅上揚，市場擔心伊朗的石油出口可能受到影響，進而導致全球油價上漲。伊朗的石油出口是全球重要的石油供應來源之一，暫停與美國交涉可能會導致石油出口受阻，進而影響全球油價。這一消息也引發了市場對於全球經濟的擔憂，市場人士擔心伊朗與美國的緊張關係可能會導致全球經濟的不穩定。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "eab6f657",
         "title": "一年來的哀傷：空中巴士墜機後，什麼樣的遺留?",
@@ -82,18 +324,6 @@
         "ai_classified": true
       },
       {
-        "id": "d296410c",
-        "title": "伊朗暫停與美國交涉 國際油價應聲飆漲",
-        "url": "https://www.cna.com.tw/news/aopl/202606010343.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 22:52:51 +0800",
-        "summary_zh": "伊朗與美國的交涉近日陷入僵局，連日終戰會談無果，美伊再度交火後，伊朗宣布暫停與美國交涉。這一消息引發了國際油價的大幅上揚，市場擔心伊朗的石油出口可能受到影響，進而導致全球油價上漲。伊朗的石油出口是全球重要的石油供應來源之一，暫停與美國交涉可能會導致石油出口受阻，進而影響全球油價。這一消息也引發了市場對於全球經濟的擔憂，市場人士擔心伊朗與美國的緊張關係可能會導致全球經濟的不穩定。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "5a38be8d",
         "title": "東京觀光熱點芝加谷區今起查緝亂丟垃圾　違者即時罰款",
         "url": "https://www.bbc.com/news/articles/cr7py513njmo?at_medium=RSS&at_campaign=rss",
@@ -101,18 +331,6 @@
         "category": "global",
         "published_at": "Mon, 01 Jun 2026 06:52:40 GMT",
         "summary_zh": "日本政府為應對觀光客增多對城市造成的影響，決定在世界聞名的芝加谷區實施查緝亂丟垃圾的行動。 dozens 位官員將在該區巡邏，負責查緝亂丟垃圾的行為，並對違者徵收罰款。這項措施旨在維護城市環境的清潔和整潔，並減少觀光客對城市造成的負面影響。 Shibuya 是東京的一個著名觀光區，吸引了大量的遊客，每年都有成千上萬的觀光客到訪該區。日本政府認為，觀光客增多對城市的環境和基礎設施造成了重大影響，因此決定採取措施來控制觀光客的行為。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7a382699",
-        "title": "亞太市場周一開盤混亂，投資人關注美伊談判不確定性",
-        "url": "https://www.cnbc.com/2026/06/01/asia-markets-nikkei-225-kospi-hang-seng-index.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-05-31 23:46:43",
-        "summary_zh": "亞太市場周一預計開盤混亂，投資人關注美伊談判不確定性。美國總統川普表示不急於簽署伊朗協議，投資人對未來市場走向感到擔憂。美伊談判的不確定性使得投資人難以確定市場的方向，亞太市場因此預計開盤混亂。投資人將密切關注美伊談判的進展，同時觀察全球經濟的變化。美伊談判的結果將對全球市場產生重大影響，投資人需要準備面對未來的風險和機會。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -127,6 +345,30 @@
         "summary_zh": "中國近15年來最嚴重的煤礦災難發生在中國政府正努力推動綠色能源轉型的時候。這次災難引發了對隱藏的隧道和未登記工人的關注。根據官方數據，中國煤礦每年平均有數百名工人喪生。這種悲劇的發生，讓人們不得不思考中國的煤礦安全問題。中國政府正試圖通過綠色能源轉型來減少對煤炭的依賴，但這種轉型過程中，仍然存在著許多挑戰和風險。這次災難是中國煤礦安全問題的一個警訊，讓人們關注未來的發展方向。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "06f726b4",
+        "title": "伊朗和美國報告海灣空襲新浪潮",
+        "url": "https://www.bbc.com/news/articles/crlpy8n7pr6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 13:12:26 GMT",
+        "summary_zh": "伊朗和美國近日發生新一波空襲事件，雙方針對對方的軍事設施進行攻擊。事件發生在霍爾木茲海峽附近，這個海峽是全球石油輸送的重要通道。伊朗和美國的軍事對峙已經持續了數月，雙方都有多次發射導彈和空襲。這次新的空襲事件引發了國際社會的關注，各國都在密切關注這個局勢的發展。伊朗和美國的軍事對峙對全球石油市場和地區安全都有重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7ee4ed9d",
+        "title": "視頻：隕石在麻薩諸塞州引起超音速爆炸",
+        "url": "https://www.bbc.com/news/videos/c1m24g0n40ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 14:56:37 GMT",
+        "summary_zh": "一隕石在美國麻薩諸塞州空中爆炸，引起超音速爆炸。根據美國國家航空暨太空總署（NASA）的資料，這隻隕石在爆炸時釋放出約300噸的三硝基甲烷（TNT）等效能量。這種超音速爆炸的聲音可能會在數百英里範圍內傳播，對周圍的居民造成巨大震撼。這種天文現象對於科學家來說是一個重要的研究機會，可以幫助我們更深入地了解隕石的形成和爆炸過程。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -147,7 +389,7 @@
         "url": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Mon, 01 Jun 2026 18:34:14 GMT",
+        "published_at": "Mon, 01 Jun 2026 19:58:36 GMT",
         "summary_zh": "伊朗發出警告，指出以色列在黎巴嫩的攻擊行動可能會威脅美國與伊朗的停火協議。這一事件發生在以色列總理下令對黎巴嫩南部郊區進行轟炸的同時，這是對於海珊派對以色列北部發動火箭和無人機攻擊的回應。伊朗的警告表明，這一局勢正在迅速惡化，可能會對中東地區造成重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
@@ -178,18 +420,6 @@
         "ai_classified": true
       },
       {
-        "id": "06f726b4",
-        "title": "伊朗和美國報告海灣空襲新浪潮",
-        "url": "https://www.bbc.com/news/articles/crlpy8n7pr6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 13:12:26 GMT",
-        "summary_zh": "伊朗和美國近日發生新一波空襲事件，雙方針對對方的軍事設施進行攻擊。事件發生在霍爾木茲海峽附近，這個海峽是全球石油輸送的重要通道。伊朗和美國的軍事對峙已經持續了數月，雙方都有多次發射導彈和空襲。這次新的空襲事件引發了國際社會的關注，各國都在密切關注這個局勢的發展。伊朗和美國的軍事對峙對全球石油市場和地區安全都有重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "288f2799",
         "title": "尼日利亞警方警告南非人士避免報復攻擊",
         "url": "https://www.bbc.com/news/articles/ce8prypdpz6o?at_medium=RSS&at_campaign=rss",
@@ -200,93 +430,45 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "7ee4ed9d",
-        "title": "視頻：隕石在麻薩諸塞州引起超音速爆炸",
-        "url": "https://www.bbc.com/news/videos/c1m24g0n40ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 14:56:37 GMT",
-        "summary_zh": "一隕石在美國麻薩諸塞州空中爆炸，引起超音速爆炸。根據美國國家航空暨太空總署（NASA）的資料，這隻隕石在爆炸時釋放出約300噸的三硝基甲烷（TNT）等效能量。這種超音速爆炸的聲音可能會在數百英里範圍內傳播，對周圍的居民造成巨大震撼。這種天文現象對於科學家來說是一個重要的研究機會，可以幫助我們更深入地了解隕石的形成和爆炸過程。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "87afac38",
-        "title": "哥倫比亞總統選舉第二輪將對決左派參議員與川普支持者",
-        "url": "https://www.bbc.com/news/articles/c1w2xvwq8g9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 01:53:03 GMT",
-        "summary_zh": "哥倫比亞將於6月21日舉行總統選舉第二輪投票。左派參議員伊萬·塞佩達(Iván Cepeda)將與川普支持者阿貝拉多·德拉·埃斯皮里拉(Abelardo de la Espriella)競選總統。伊萬·塞佩達是一位左派參議員，曾經多次推動哥倫比亞社會改革的法案。阿貝拉多·德拉·埃斯皮里拉則是一位支持川普的候選人，他的政策主張與伊萬·塞佩達大相徑庭。哥倫比亞總統選舉第二輪投票的結果將對該國政治產生重大影響。選舉結果可能會影響哥倫比亞未來的政治走向和社會發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4bcbfea7",
-        "title": "迦納通過嚴厲反同法案　同志社群恐失家、失業、失醫療保障",
-        "url": "https://www.theguardian.com/global-development/2026/jun/01/ghana-new-law-criminalising-lgbtq-activity",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 11:59:11 GMT",
-        "summary_zh": "迦納國會近日通過一項嚴厲反同法案，該法案規定同志社群活動的推廣和同志身份認同將被視為犯罪，違者將面臨3至10年的監禁。同志社群組織表示，該法案通過後，同志社群成員恐怕將失去家園、失業和醫療保障。該法案尚待總統John Dramani Mahama簽署生效。迦納的同志社群目前處於極度恐懼之中，擔心自己的生活將受到嚴重影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ccc5d9d6",
-        "title": "英國不必支付羅旺達1000萬英鎊，英國法院裁定",
-        "url": "https://www.theguardian.com/uk-news/2026/jun/01/uk-will-not-pay-rwanda-over-failed-asylum-scheme",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 10:50:51 GMT",
-        "summary_zh": "英國政府在前任總理約翰遜的任期下，推出一項對非法移民進行驅逐的計畫，但由於該計畫遭到工黨政府在上任第一天就取消，因此羅旺達政府對英國政府提出訴訟，要求英國政府支付超過1000萬英鎊的賠償金。英國政府否認違反協議，最終由國際法院裁定英國政府不必支付羅旺達政府的賠償金。這項裁定對英國政府和羅旺達政府都有重大影響，可能會影響兩國之間的關係和未來的合作。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0e31ef2d",
-        "title": "全球大火災面積減少，富裕地區受災惡劣",
-        "url": "https://www.theguardian.com/world/2026/jun/01/wildfires-devastating-richer-areas-but-fewer-hectares-burned-globally-study",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 06:00:09 GMT",
-        "summary_zh": "根據最新研究，2025年全球大火災面積減少至 335 萬公頃，僅次於 2002 年的最低紀錄。然而，這些大火災主要發生在富裕國家，如加拿大、歐洲、南韓和加利福尼亞州。研究人員指出，這些大火災造成了大量生命、房屋和工作崗位的喪失。但是，非洲農業的擴張，分割了原本的草原，減慢了大型草原火災的蔓延。這種現象在非洲部分地區出現，幫助減少了全球大火災的面積。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0ca76825",
-        "title": "哥倫比亞右派總統候選人 Espriella 在初選中勝出，將與 Cepeda 進入決選",
-        "url": "https://www.theguardian.com/world/2026/jun/01/colombia-far-right-presidential-candidate-espriella-wins-first-round-of-vote-ahead-of-election-runoff",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 10:35:40 GMT",
-        "summary_zh": "哥倫比亞剛舉行的總統初選結果出爐，右派律師 Espriella 以 43.7% 的選票率勝出，將與左派總統 Petro 支持的參議員 Cepeda 進入決選。 Espriella 是一位律師和川普的支持者，他在最近的民調中快速上升。根據目前的數據， Espriella 获得了 10.3 萬多票，而 Cepeda 則獲得了 9.6 萬多票。 Espriella 和 Cepeda 將在三周後進行決選。哥倫比亞總統選舉的結果將對該國政治產生重大影響。 Espriella 的勝利表明了哥倫比亞人民對右派政策的支持，而 Cepeda 的參選則代表了左派的反對意見。這次選舉將是哥倫比亞政治史上的重要事件。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "571487bf",
-        "title": "伊朗揚言闢新戰線 美油價飆漲近8％",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5457286",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 23:53:02 +0800",
-        "summary_zh": "伊朗國營媒體報導，德黑蘭將停止與美國的談判，並完全封鎖荷姆茲海峽，以報復以色列攻擊黎巴嫩。這一行動引發了全球油價大幅上漲，美國西德州中級原油價格飆破8%。此外，伊朗的這一行動可能會導致全球油價持續上漲，對全球經濟產生重大影響。伊朗的這一行動也引發了國際社會的關注，各國政府和國際組織正在密切關注這一情況的發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "ai": [
+      {
+        "id": "c988336c",
+        "title": "吉米尼新AI代理人與谷歌示範相若",
+        "url": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-01T16:00:00-04:00",
+        "summary_zh": "谷歌最新推出的「24/7」AI代理人吉米尼火花（Gemini Spark），在完成任務上表現出色。但我對其財務成本和隱私風險感到疑慮。谷歌宣稱吉米尼火花是一個可以完成任務並持續工作的AI代理人。該公司在上週給我提供了對吉米尼火花的訪問權。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f4463e41",
+        "title": "CNBC每日開盤：Softbank和Nvidia的PC推動",
+        "url": "https://www.cnbc.com/2026/06/01/cnbc-daily-open-softbank-nvidias-pc-push.html",
+        "source": "Cnbc",
+        "category": "ai",
+        "published_at": "2026-06-01 06:02:01",
+        "summary_zh": "軟銀集團宣布將向法國投資 750 億歐元，同時推動 PC 市場。Nvidia 也在推動 PC 市場的同時，引起了人工智慧領域的關注。這些發展在六月初引起了市場的關注。軟銀集團的這一投資將對法國經濟產生重大影響。這一發展也表明了軟銀集團對人工智慧領域的重視。Nvidia 的 PC 推動也將對全球 PC 市場產生重大影響。這一發展也引起了市場對人工智慧領域未來發展的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "24835f1e",
+        "title": "Meta 自家 AI 被駭客利用，盜取 Instagram 帳戶",
+        "url": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-01T15:20:47-04:00",
+        "summary_zh": "近日，駭客利用 Meta 的 AI 支援聊天機器人，盜取 Instagram 帳戶。根據 404 Media 的報導，駭客透過 Telegram 分享的一段視頻，展示了如何利用 Meta 的聊天機器人，將他人 Instagram 帳戶的電子郵件地址改為自己的，並重置密碼，從而盜取帳戶。Meta 表示，這個問題已經被他們所知，正在進行處理。這個漏洞可能讓駭客輕易地盜取 Instagram 帳戶，對使用者造成嚴重的影響。Meta 尚未公佈任何解決方案或修復措施。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "89a2bc26",
         "title": "Anthropic 正式申請上市",
@@ -298,18 +480,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "f4463e41",
-        "title": "CNBC每日開盤：Softbank和Nvidia的PC推動",
-        "url": "https://www.cnbc.com/2026/06/01/cnbc-daily-open-softbank-nvidias-pc-push.html",
-        "source": "Cnbc",
-        "category": "ai",
-        "published_at": "2026-06-01 06:02:01",
-        "summary_zh": "軟銀集團宣布將向法國投資 750 億歐元，同時推動 PC 市場。Nvidia 也在推動 PC 市場的同時，引起了人工智慧領域的關注。這些發展在六月初引起了市場的關注。軟銀集團的這一投資將對法國經濟產生重大影響。這一發展也表明了軟銀集團對人工智慧領域的重視。Nvidia 的 PC 推動也將對全球 PC 市場產生重大影響。這一發展也引起了市場對人工智慧領域未來發展的關注。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
       },
       {
         "id": "926e47e2",
@@ -336,18 +506,6 @@
         "ai_classified": true
       },
       {
-        "id": "1a730214",
-        "title": "人工智慧巨頭 Anthropic 宣布計劃在美國股市上市",
-        "url": "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "ai",
-        "published_at": "Mon, 01 Jun 2026 18:50:13 GMT",
-        "summary_zh": "人工智慧公司 Anthropic，背後推動著 Claude 的開發，計劃在今年內向公眾發行股份。這項消息表明 Anthropic 正朝著一家公開上市公司的道路邁進，展現出其快速成長和發展的勢頭。這項變化將為 Anthropic 提供更多資金來源，幫助公司繼續推動人工智慧技術的發展。然而， Anthropic 的上市計畫尚未具體時間表，公司仍在籌備中。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "64de68ca",
         "title": "Strava 因為零碼 AI 應用程式和爬蟲而限制 API存取",
         "url": "https://www.theverge.com/gadgets/940854/strava-restricts-api-access-ai-apps",
@@ -356,18 +514,6 @@
         "published_at": "2026-06-01T10:06:44-04:00",
         "summary_zh": "知名運動追蹤平台 Strava 宣布限制 API 存取，旨在打擊 AI 爬蟲。根據 TechCrunch 的報導，想要使用 Strava 資料開發應用程式的開發者現在需要支付每月 $11.99 的固定費用。 Strava 在其開發者中心發布了更新，強調這一措施是為了防止未經授權的資料使用。 Strava 表示，該公司將繼續維護其 API，讓合法的開發者繼續使用 Strava 資料。這一變化將對使用 Strava API 的開發者產生重大影響。 Strava 的這一措施可能會對 AI 爬蟲的發展產生影響，同時也會影響開發者對 Strava 資料的存取權。 Strava 將繼續監控 API 存取情況，確保其資料不被未經授權使用。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3b9843c3",
-        "title": "Nvidia 宣布新一代人工智慧晶片",
-        "url": "https://www.bbc.com/news/articles/crmp9mppvzro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "ai",
-        "published_at": "Mon, 01 Jun 2026 11:14:13 GMT",
-        "summary_zh": "Nvidia 最近宣布推出一款新一代的人工智慧晶片，該晶片將於個人電腦中使用。Nvidia 的 CEO 杰森·胡安格（Jensen Huang）稱，這一舉動是「電腦的重生」。這款新晶片將能夠更好地處理人工智慧相關的計算任務，從而使個人電腦的運算能力大幅提升。這一發展將對於人工智慧的應用和發展產生重大影響，同時也將對於個人電腦的市場需求和供應產生新的變化。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
@@ -394,190 +540,80 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      }
-    ],
-    "stock_tw": [
-      {
-        "id": "09b0b2a3",
-        "title": "AI需求衝擊晶片供應 今年全球智慧手機出貨量恐創空前跌幅",
-        "url": "https://www.cna.com.tw/news/aopl/202606010346.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 23:11:59 +0800",
-        "summary_zh": "市場研究公司Counterpoint近日下調今年全球智慧手機出貨量預估，預計出貨量將萎縮13.9%至10億8000萬支，創有紀錄以來最大降幅。原因是記憶體晶片短缺惡化，對於全球智慧手機產業造成重大影響。這項預估比2月份的預估更為悲觀，表明智慧手機產業正面臨著嚴重的供應鏈挑戰。晶片短缺將對於全球手機市場造成重大影響，可能導致手機出貨量大幅下降。這項預估也表明，智慧手機產業正面臨著重大轉變，需要適應新的供應鏈和市場趨勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       },
       {
-        "id": "762ba972",
-        "title": "日月光投控員工平均年薪628萬元上市之冠 台積電第七",
-        "url": "https://www.cna.com.tw/news/afe/202606010342.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 22:39:48 +0800",
-        "summary_zh": "台灣證券交易所今天公布2025年台灣上市公司全體員工薪酬資訊，日月光投控平均員工薪資新台幣628.2萬元，勇奪冠軍，較2024年大幅成長4成。這項數據顯示，日月光投控的員工薪資遠超過其他上市公司，甚至超過許多知名企業。根據資料，台積電的員工平均薪資為新台幣456.8萬元，排名第七。這項數據表明，日月光投控的員工薪資水準非常高，可能與公司的業務成長和財務狀況有關。然而，這項數據也引發了關於薪資差距和勞動權益的討論。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "90920cc1",
-        "title": "今彩539第115133期頭獎2注中獎",
-        "url": "https://www.cna.com.tw/news/ahel/202606010338.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 22:04:39 +0800",
-        "summary_zh": "今彩539第115133期開獎，中獎號碼為14、05、19、20、28。派彩結果顯示，頭獎有2注中獎，各得獎金新台幣800萬元。這次的中獎結果將對中獎者帶來豐厚的獎金，同時也會為彩民們帶來新的中獎希望。然而，這也意味著許多彩民的夢想未能實現。",
+        "id": "1a730214",
+        "title": "人工智慧巨頭 Anthropic 宣布計劃在美國股市上市",
+        "url": "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "ai",
+        "published_at": "Mon, 01 Jun 2026 18:50:13 GMT",
+        "summary_zh": "人工智慧公司 Anthropic，背後推動著 Claude 的開發，計劃在今年內向公眾發行股份。這項消息表明 Anthropic 正朝著一家公開上市公司的道路邁進，展現出其快速成長和發展的勢頭。這項變化將為 Anthropic 提供更多資金來源，幫助公司繼續推動人工智慧技術的發展。然而， Anthropic 的上市計畫尚未具體時間表，公司仍在籌備中。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "7219258c",
-        "title": "OECD：中國大舉補貼中企 對外企構成不當競爭優勢",
-        "url": "https://www.cna.com.tw/news/aopl/202606010332.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 21:53:26 +0800",
-        "summary_zh": "經濟合作暨發展組織（OECD）最新報告指出，中國在2005年至2024年間對15個關鍵產業領域提供了大量的國家補貼，遠高於外國競爭對手。這些補貼對外國企業構成了不公平競爭優勢，使得中國企業在這些領域取得了顯著的競爭優勢。OECD的報告認為，這些補貼違反了世界貿易組織（WTO）的規定，對全球貿易造成了不利影響。這一發現引發了對中國補貼政策的關注，許多人認為這些補貼是中國政府為了促進國內企業發展而採取的措施，但也引起了外國企業的不滿和抗議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b7c9d12b",
-        "title": "迎超高齡社會挑戰 金管會擬放寬保險商品定價限制",
-        "url": "https://www.cna.com.tw/news/afe/202606010329.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 21:37:20 +0800",
-        "summary_zh": "面對超高齡社會的挑戰，金管會決定透過法規調適提升保險商品定價的彈性。根據目前的規定，保險商品的費率需要基於3至5年的經驗資料來釐訂。金管會希望通過這項變革，讓保險業者能夠以創新思維或科技技術來精進商品及服務內容，並鼓勵業者提出業務試辦計畫。這項變革的目標是打造一個全齡金融生態圈，讓更多人能夠享受到適合自己的金融服務。這項變革將對保險業的發展產生重大影響，讓業者能夠更好地應對超高齡社會的挑戰。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "aaee1ae1",
-        "title": "福島啟動第20批核處理水排放 預計19天排7800噸",
-        "url": "https://www.cna.com.tw/news/afe/202606010311.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 20:15:36 +0800",
-        "summary_zh": "福島第一核電廠於今天開始啟動第20批次含氚廢水排放作業，預計19天內排放7800噸。根據核安會的估計，氚總活度約為1.3兆貝克。這批次的排放作業將持續19天，期間將釋放大量含氚廢水。這項措施旨在降低核電廠內的輻射水平，減少對環境和人類健康的風險。然而，這也引發了對輻射安全性的擔憂。福島核電廠的核廢水處理問題一直是國際關注的焦點，各國政府和環保組織一直在追蹤這項問題的進展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "381d6ad6",
-        "title": "AI記憶體利台廠 Q1銷售年增152.4％",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5457272",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 23:28:31 +0800",
-        "summary_zh": "近期，韓國《BusinessKorea》報導，三星電子與SK海力士加強與輝達等科技巨頭的合作，以鞏固人工智慧（AI）記憶體市場的主導地位。然而，這一發展意外地帶動了台灣記憶體業者的利益。根據數據，台灣記憶體業者的 Q1 銷售額年增 152.4%，遠超市場預期。這一增長主要歸因於韓國企業的合作加強，進而增加了對台灣記憶體業者的需求。這一事件標誌著台灣記憶體業者的崛起，同時也凸顯了人工智慧記憶體市場的重要性。然而，未來市場的發展仍將受到多種因素的影響，包括市場競爭、技術進步等。",
+        "id": "3b9843c3",
+        "title": "Nvidia 宣布新一代人工智慧晶片",
+        "url": "https://www.bbc.com/news/articles/crmp9mppvzro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "ai",
+        "published_at": "Mon, 01 Jun 2026 11:14:13 GMT",
+        "summary_zh": "Nvidia 最近宣布推出一款新一代的人工智慧晶片，該晶片將於個人電腦中使用。Nvidia 的 CEO 杰森·胡安格（Jensen Huang）稱，這一舉動是「電腦的重生」。這款新晶片將能夠更好地處理人工智慧相關的計算任務，從而使個人電腦的運算能力大幅提升。這一發展將對於人工智慧的應用和發展產生重大影響，同時也將對於個人電腦的市場需求和供應產生新的變化。",
         "sentiment": "正面",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "938da7df",
-        "title": "AI 加速普及！外媒點名台積電等4檔股票 還有大漲空間",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5457246",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 22:45:33 +0800",
-        "summary_zh": "受益於人工智慧（AI）的普及，晶片股目前正為投資人帶來豐厚的回報。美國投資媒體《The Motley Fool》專欄作家德魯利點名台積電等4檔股票，包括台積電、聯電、台積電全球服務台及台積電全球服務台的子公司台積電中國。德魯利認為，這些公司的業務正快速擴張，並且有著大好的未來發展前景。晶片股的上漲空間仍然很大，投資人可以考慮買入這些股票並長期持有。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a18c6abe",
-        "title": "香蕉絕症擴散至亞洲2國 台灣是全球救星?",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5457209",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 22:10:54 +0800",
-        "summary_zh": "近日，外媒驚爆「黃葉病TR4」已蔓延到菲律賓和中國。這種真菌病毒被稱為香蕉植株絕症，會導致香蕉園枯死，甚至廢耕。黃葉病的真菌可以在土壤中潛伏數十年，對香蕉產業造成重大威脅。台灣被視為全球香蕉產業的救星，因為該國擁有豐富的香蕉品種資源和優秀的農業技術。台灣的農業部門正積極研發新品種和防治方法，試圖阻止黃葉病的蔓延。這項工作不僅對台灣的香蕉產業有重要意義，也對全球香蕉供應有著重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dee0c2fc",
-        "title": "威力彩頭獎連26期未開出 今彩539頭獎2注中獎",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5457230",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 22:00:00 +0800",
-        "summary_zh": "今晚開獎的威力彩，頭獎仍未開出，連續26期未中獎。根據台灣彩券公司的預估，下期威力彩的銷售金額約1.8億至2億元，頭獎累積獎金將上看7.7億元。另一方面，今彩539的頭獎則有2注中獎。這意味著許多彩民仍然對頭獎保持著希望。台灣彩券公司將繼續推動彩券業務，盼望更多彩民參與。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2c1e93dc",
-        "title": "國票證遭檢調搜索 國票金發重訊：配合調查",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5457225",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 21:52:26 +0800",
-        "summary_zh": "國票金控位於內湖中山區的總部，今天遭檢調搜索。晚間，國票金控代子公司國票證券發布重大訊息表示，臺灣新北地方檢察署至該公司進行搜索，將配合調查。國票金控上市公司股東會議將於下周舉行，目前尚未知情國票金控是否會因檢調搜索而影響股東會議的進行。檢調搜索的原因尚未明朗，國票金控將配合調查，提供相關資料。國票金控的股價今天下跌了 3.5%，股東會議將是關鍵時刻，股東們將密切關注國票金控的發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "ca1d49d8",
-        "title": "瑞士經濟增長低於預估",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-01/swiss-economy-grew-less-than-estimated-at-start-of-the-year",
+        "id": "58027c11",
+        "title": "BP減持澳洲Browse項目，將5%股份出售給GS Energy",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-01/bp-dilutes-stake-in-australia-s-browse-with-5-sale-to-gs-energy",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-01 07:00:41",
-        "summary_zh": "瑞士經濟在今年初的增長率低於預期，根據瑞士國家統計局的數據，瑞士 GDP 增長率為 0.3%，低於市場預估的 0.5%。瑞士經濟增長的放緩主要是由於出口的下滑，出口額減少了 3.4%，而內需則是穩定增長。瑞士央行預計，瑞士經濟增長率將在今年下半年有所改善。瑞士經濟增長的放緩對瑞士央行的貨幣政策有所影響，瑞士央行可能會繼續維持低利率政策以刺激經濟增長。瑞士經濟增長的放緩也對瑞士的出口企業造成了挑戰，出口企業需要適應新的經濟環境並尋找新的市場機會。",
+        "published_at": "2026-06-01 07:54:08",
+        "summary_zh": "英國石油公司BP宣布減持澳洲Browse項目的股份，將5%的股份出售給韓國能源公司GS Energy。這項交易將使BP的持股比例從原來的100%降低至95%。此次出售的股份價值約為10億美元。BP表示，這項出售是為了實現公司的財務目標和投資策略。GS Energy將在未來的發展階段中與BP合作，共同推進Browse項目的發展。這項交易將對澳洲能源市場產生一定的影響，同時也將考慮到公司的長期發展戰略。",
         "sentiment": "中性",
         "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false
       },
       {
-        "id": "0e25df2a",
-        "title": "法國銀行預期2026年增長率將降低，維勒洛伊表示",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-01/bank-of-france-to-cut-2026-growth-forecast-villeroy-says",
+        "id": "219b9dc3",
+        "title": "Adcock 面臨南非反壟斷指控",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-01/adcock-faces-possible-antitrust-charges-in-south-africa",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-01 06:57:17",
-        "summary_zh": "法國銀行預期2026年增長率將降低。法國銀行總裁維勒洛伊表示，受全球經濟下滑影響，法國的經濟增長率將降低。根據法國銀行的預測，2026年法國的經濟增長率將降低至3.5%，低於之前的預測。維勒洛伊表示，這是因為全球經濟下滑，尤其是歐洲地區的經濟增長率下滑。法國銀行還預測，2026年法國的失業率將降低至8.5%。維勒洛伊表示，法國銀行將繼續密切監測全球經濟情況，確保法國的經濟政策適應全球經濟的變化。這項預測將對法國的經濟政策和投資者有所影響。",
+        "published_at": "2026-06-01 07:52:51",
+        "summary_zh": "南非政府正在調查 Adcock 公司是否違反反壟斷法規，可能面臨反壟斷指控。 Adcock 是一家全球性醫藥公司，業務遍及南非和其他國家。調查的原因是 Adcock 的市場份額過高，可能對競爭造成不利影響。南非政府正在評估 Adcock 的行為是否違反反壟斷法規，可能會對公司提出指控。這一事件可能對 Adcock 的業務和股價產生影響。 Adcock 尚未對指控做出回應。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "400036c0",
+        "title": "高盛：日本股市仍有升值空間",
+        "url": "https://www.cnbc.com/2026/06/01/japan-stocks-topix-goldman-sachs-target-4400-earnings-foreign-inflows.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-06-01 07:48:29",
+        "summary_zh": "日本股市今年的強勁反彈仍未結束，高盛表示日本股市仍有升值空間。日本股市今年的表現亮眼，Topix指數創下新高。高盛分析指出，日本股市仍有升值空間，投資者不應該錯過這個機會。日本股市的強勁反彈受到多個因素的推動，包括經濟復甦、企業盈利改善和政府政策的支持。高盛認為，日本股市的升值空間仍然存在，投資者應該繼續關注日本股市的發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e3b8178a",
+        "title": "西班牙製造業生產率增速放緩，供應延遲加劇，PMI指數顯示",
+        "url": "https://www.reuters.com/business/spains-manufacturing-growth-slows-supply-delays-intensify-pmi-shows-2026-06-01/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-01 07:25:11",
+        "summary_zh": "西班牙的製造業生產率增速放緩，供應延遲加劇，根據PMI指數顯示。這一趨勢與全球經濟環境變化有關，包括供應鏈延遲、材料短缺等問題。西班牙的製造業是該國經濟的重要支柱，生產率增速放緩將對該國經濟產生一定影響。分析師預測，西班牙的製造業將繼續面臨供應延遲和材料短缺等挑戰，生產率增速可能會繼續放緩。這一趨勢也會對西班牙的出口業和就業市場產生影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
-      },
-      {
-        "id": "f0e990e6",
-        "title": "高盛升級歐洲股市目標價格",
-        "url": "https://www.reuters.com/business/finance/goldman-sachs-lifts-12-month-stoxx-600-target-resilient-earnings-2026-06-01/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-01 06:53:48",
-        "summary_zh": "高盛最近對歐洲股市的預測出現變化。根據最新的報告，高盛升級了對 STOXX 600 的 12 個月目標價格。這是因為歐洲企業的財務表現相當堅韌。高盛的分析師認為，企業的盈利能力在面臨市場挑戰時仍然保持穩定。這一升級預測將對投資者產生重要影響，投資者可能會對歐洲股市的投資趨向進行調整。然而，投資市場仍然充滿不確定性，投資者需要繼續關注市場變化。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "07f892db",
-        "title": "中國銀行的淨借款跡象表明流動性過剩正在緩解",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-01/chinese-banks-net-borrowing-signals-liquidity-glut-is-easing",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-01 06:49:58",
-        "summary_zh": "中國銀行的淨借款量在近期出現下降，表明流動性過剩的問題正在緩解。根據最近的數據，中國銀行的淨借款量已經連續四個月下降，從去年四月的 1.1 萬億元降至今年四月的 0.7 萬億元。這表明中國銀行正在減少對市場的借款需求，從而減少流動性過剩的問題。這種趨勢可能是由於中國政府的政策調整和經濟的恢復所致。中國政府近期推出了一系列政策措施，旨在促進經濟恢復和控制流動性過剩。這些政策措施包括降低銀行的借款成本、增加企業貸款和降低企業的營業稅。這些政策措施的效果正在逐步顯現，中國銀行的淨借款量的下降是其中一個跡象。這種趨勢對中國經濟的影響將是關鍵的，可能會影響到經濟的恢復和流動性過剩的問題。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
       },
       {
         "id": "a5d8b359",
@@ -592,40 +628,40 @@
         "ai_classified": true
       },
       {
-        "id": "bfb935f2",
-        "title": "英國月度房屋價格首次自伊朗戰爭爆發以來下跌，國民銀行表示",
-        "url": "https://www.reuters.com/world/uk/uk-house-prices-fell-by-06-may-nationwide-says-2026-06-01/",
-        "source": "Reuters",
+        "id": "c819b5eb",
+        "title": "易捷航空對收購意願表示疑慮，批評時間選擇『機會主義』",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-06-01/easyjet-casts-doubt-on-castlelake-interest-says-timing-highly-opportunistic",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-01 06:33:32",
-        "summary_zh": "英國房屋價格自伊朗戰爭爆發以來首次下跌。根據國民銀行的數據，英國月度房屋價格下跌了 0.1%。這是自 2022 年 9 月伊朗與以色列發生軍事衝突以來，房屋價格首次下跌。房屋價格下跌的原因包括高利率、經濟衰退和房屋供應增加。這一發展對於英國房屋市場的未來前景產生了重大影響。房屋價格下跌可能會影響房屋銷售和房屋價格的穩定性。房屋市場的變化可能會對英國經濟產生重大影響。",
+        "published_at": "2026-06-01 07:16:50",
+        "summary_zh": "易捷航空在最新的財務報告中表達了對收購意願的疑慮，指出某些投資者對收購的時間選擇是『機會主義』的。這一表述引發了市場的關注，投資者對易捷航空未來走向的預期變得更加不確定。易捷航空的財務報告顯示，公司在去年第四季度錄得了約 1.1 億英鎊的虧損，這一表現遠遠超出了市場預期。投資者對公司未來的財務表現感到擔憂，易捷航空的股價因此下跌了約 4%。易捷航空的收購意願表達出來的時間點被視為『機會主義』，因為公司在去年第四季度錄得了重大虧損，這使得投資者對公司未來的財務表現感到更加不確定。這一事件可能會對易捷航空的股價造成持續的影響，投資者需要密切關注公司的財務表現和未來的發展方向。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "d98eb2e9",
-        "title": "德國零售商銷售額四月份跌幅不如預期",
-        "url": "https://www.reuters.com/business/retail-consumer/german-retail-sales-fall-less-than-expected-april-2026-06-01/",
+        "id": "27e2a641",
+        "title": "土耳其製造業接近穩定，PMI創自2024年3月以來新高",
+        "url": "https://www.reuters.com/world/middle-east/turkeys-manufacturing-nears-stabilisation-pmi-hits-highest-since-march-2024-2026-06-01/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-01 06:16:50",
-        "summary_zh": "德國零售商銷售額在四月份出現下滑，但跌幅不如預期。根據德國統計局的數據，德國零售商銷售額在四月份下滑了 3.1%，這個數字低於市場預期。市場預期德國零售商銷售額會下滑 4.5%。這個結果表明德國經濟在疫情後仍然有韌性。然而，這也意味著德國經濟仍然面臨著挑戰。德國政府和央行仍然需要採取措施來刺激經濟。德國零售商銷售額的下滑也影響了德國的出口業。出口業是德國經濟的重要部分。出口業的下滑可能會對德國經濟造成長期影響。德國政府和央行需要密切關注出口業的發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "9c1fa6f3",
-        "title": "易捷航空董事會表示尚未與買家談判，對於策略堅定不移",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-01/easyjet-board-says-no-talks-yet-on-offer-confident-in-strategy",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-01 06:15:02",
-        "summary_zh": "易捷航空因財務困難而面臨重組風險。公司董事會表示，尚未與任何買家進行談判，對於目前的策略堅定不移。易捷航空的財務困難主要是由於疫情對航空業的影響。公司的負債和流動性問題也加劇了財務困難。易捷航空的董事會表示，正在努力解決財務困難，並且對於未來的發展感到樂觀。然而，公司的財務狀況仍然不穩定，未來的發展仍然面臨著挑戰。",
+        "published_at": "2026-06-01 07:10:10",
+        "summary_zh": "根據最新數據，土耳其製造業的活動水平接近穩定，PMI指數創自2024年3月以來新高。這表明土耳其經濟正在從2024年初的衰退中恢復。然而，仍有許多挑戰需要面對，包括通脹和匯率的不穩定。土耳其政府正在努力維持經濟穩定，同時也在努力降低通脹率。這項努力可能會對經濟產生積極的影響，但仍需要時間和政策的持續支持。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
+      },
+      {
+        "id": "ca1d49d8",
+        "title": "瑞士經濟增長低於預估",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-01/swiss-economy-grew-less-than-estimated-at-start-of-the-year",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-01 07:00:41",
+        "summary_zh": "瑞士經濟在今年初的增長率低於預期，根據瑞士國家統計局的數據，瑞士 GDP 增長率為 0.3%，低於市場預估的 0.5%。瑞士經濟增長的放緩主要是由於出口的下滑，出口額減少了 3.4%，而內需則是穩定增長。瑞士央行預計，瑞士經濟增長率將在今年下半年有所改善。瑞士經濟增長的放緩對瑞士央行的貨幣政策有所影響，瑞士央行可能會繼續維持低利率政策以刺激經濟增長。瑞士經濟增長的放緩也對瑞士的出口企業造成了挑戰，出口企業需要適應新的經濟環境並尋找新的市場機會。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "cc90ab3d",
@@ -700,115 +736,151 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
+      }
+    ],
+    "stock_tw": [
+      {
+        "id": "381d6ad6",
+        "title": "AI記憶體利台廠 Q1銷售年增152.4％",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5457272",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 01 Jun 2026 23:28:31 +0800",
+        "summary_zh": "近期，韓國《BusinessKorea》報導，三星電子與SK海力士加強與輝達等科技巨頭的合作，以鞏固人工智慧（AI）記憶體市場的主導地位。然而，這一發展意外地帶動了台灣記憶體業者的利益。根據數據，台灣記憶體業者的 Q1 銷售額年增 152.4%，遠超市場預期。這一增長主要歸因於韓國企業的合作加強，進而增加了對台灣記憶體業者的需求。這一事件標誌著台灣記憶體業者的崛起，同時也凸顯了人工智慧記憶體市場的重要性。然而，未來市場的發展仍將受到多種因素的影響，包括市場競爭、技術進步等。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
-        "id": "312dd6b6",
-        "title": "華爾街風險牛市衝破戰爭僵局",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-31/wall-street-risk-rally-powers-past-war-stalemate-markets-wrap",
-        "source": "Bloomberg",
-        "category": "stock_us",
-        "published_at": "2026-05-31 19:29:04",
-        "summary_zh": "華爾街風險牛市繼續推動，儘管全球戰爭僵局持續不斷。市場分析師認為，投資者對未來的信心仍然存在，導致股市繼續上漲。儘管戰爭的不確定性可能會對股市產生影響，但投資者們仍然對市場的前景感到樂觀。這種情況下，股市的風險牛市可能會繼續推動。然而，投資者們也應該注意到，戰爭的不確定性可能會對股市產生不利影響。因此，投資者們需要保持謹慎的態度。",
+        "id": "938da7df",
+        "title": "AI 加速普及！外媒點名台積電等4檔股票 還有大漲空間",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5457246",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 01 Jun 2026 22:45:33 +0800",
+        "summary_zh": "受益於人工智慧（AI）的普及，晶片股目前正為投資人帶來豐厚的回報。美國投資媒體《The Motley Fool》專欄作家德魯利點名台積電等4檔股票，包括台積電、聯電、台積電全球服務台及台積電全球服務台的子公司台積電中國。德魯利認為，這些公司的業務正快速擴張，並且有著大好的未來發展前景。晶片股的上漲空間仍然很大，投資人可以考慮買入這些股票並長期持有。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ec840d85",
+        "title": "台股飆破4萬5 中經院長連賢明提醒修正風險",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5457257",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 01 Jun 2026 22:40:27 +0800",
+        "summary_zh": "今年的COMPUTEX即將登場，人工智慧（AI）話題助勢下，台股今天衝破4萬5，創下歷史新高。中經院長連賢明表示，任何金融市場的過熱都是一種風險，台股是否過熱的問題需要進一步評估。連賢明提醒投資者應該修正風險，避免過度投入市場。這次台股的飆升與AI話題有關，投資者應該注意風險並做好準備。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a18c6abe",
+        "title": "香蕉絕症擴散至亞洲2國 台灣是全球救星?",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5457209",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 01 Jun 2026 22:10:54 +0800",
+        "summary_zh": "近日，外媒驚爆「黃葉病TR4」已蔓延到菲律賓和中國。這種真菌病毒被稱為香蕉植株絕症，會導致香蕉園枯死，甚至廢耕。黃葉病的真菌可以在土壤中潛伏數十年，對香蕉產業造成重大威脅。台灣被視為全球香蕉產業的救星，因為該國擁有豐富的香蕉品種資源和優秀的農業技術。台灣的農業部門正積極研發新品種和防治方法，試圖阻止黃葉病的蔓延。這項工作不僅對台灣的香蕉產業有重要意義，也對全球香蕉供應有著重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0da4fc0d",
+        "title": "台股衝破4萬5創新高 貿協黃志芳：台灣領銜全球產業轉型",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5457229",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 01 Jun 2026 22:00:40 +0800",
+        "summary_zh": "台股在COMPUTEX年度科技盛事登場之際，今日衝破4萬5，創下歷史新高。外貿協會董事長黃志芳表示，台灣正在領銜全球產業轉型的浪潮。COMPUTEX是一個重要的科技展覽會，今年的活動將助力台灣科技業的發展。台股的突破是市場對台灣科技業前景的信心增強的體現。然而，市場仍然需要關注全球經濟的變化和產業結構的轉型。黃志芳的表述強調了台灣在全球產業轉型中的重要角色，展現了對未來的樂觀態度。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "dee0c2fc",
+        "title": "威力彩頭獎連26期未開出 今彩539頭獎2注中獎",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5457230",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 01 Jun 2026 22:00:00 +0800",
+        "summary_zh": "今晚開獎的威力彩，頭獎仍未開出，連續26期未中獎。根據台灣彩券公司的預估，下期威力彩的銷售金額約1.8億至2億元，頭獎累積獎金將上看7.7億元。另一方面，今彩539的頭獎則有2注中獎。這意味著許多彩民仍然對頭獎保持著希望。台灣彩券公司將繼續推動彩券業務，盼望更多彩民參與。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2c1e93dc",
+        "title": "國票證遭檢調搜索 國票金發重訊：配合調查",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5457225",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 01 Jun 2026 21:52:26 +0800",
+        "summary_zh": "國票金控位於內湖中山區的總部，今天遭檢調搜索。晚間，國票金控代子公司國票證券發布重大訊息表示，臺灣新北地方檢察署至該公司進行搜索，將配合調查。國票金控上市公司股東會議將於下周舉行，目前尚未知情國票金控是否會因檢調搜索而影響股東會議的進行。檢調搜索的原因尚未明朗，國票金控將配合調查，提供相關資料。國票金控的股價今天下跌了 3.5%，股東會議將是關鍵時刻，股東們將密切關注國票金控的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "09b0b2a3",
+        "title": "AI需求衝擊晶片供應 今年全球智慧手機出貨量恐創空前跌幅",
+        "url": "https://www.cna.com.tw/news/aopl/202606010346.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 01 Jun 2026 23:11:59 +0800",
+        "summary_zh": "市場研究公司Counterpoint近日下調今年全球智慧手機出貨量預估，預計出貨量將萎縮13.9%至10億8000萬支，創有紀錄以來最大降幅。原因是記憶體晶片短缺惡化，對於全球智慧手機產業造成重大影響。這項預估比2月份的預估更為悲觀，表明智慧手機產業正面臨著嚴重的供應鏈挑戰。晶片短缺將對於全球手機市場造成重大影響，可能導致手機出貨量大幅下降。這項預估也表明，智慧手機產業正面臨著重大轉變，需要適應新的供應鏈和市場趨勢。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "762ba972",
+        "title": "日月光投控員工平均年薪628萬元上市之冠 台積電第七",
+        "url": "https://www.cna.com.tw/news/afe/202606010342.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 01 Jun 2026 22:39:48 +0800",
+        "summary_zh": "台灣證券交易所今天公布2025年台灣上市公司全體員工薪酬資訊，日月光投控平均員工薪資新台幣628.2萬元，勇奪冠軍，較2024年大幅成長4成。這項數據顯示，日月光投控的員工薪資遠超過其他上市公司，甚至超過許多知名企業。根據資料，台積電的員工平均薪資為新台幣456.8萬元，排名第七。這項數據表明，日月光投控的員工薪資水準非常高，可能與公司的業務成長和財務狀況有關。然而，這項數據也引發了關於薪資差距和勞動權益的討論。",
         "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
-      }
-    ],
-    "whitehouse": [
+      },
       {
-        "id": "e1b2c27d",
-        "title": "鮑文：川普需要這場戰爭結束，但伊朗不願妥協",
-        "url": "https://www.bbc.com/news/articles/cedp3lee059o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 01 Jun 2026 15:25:54 GMT",
-        "summary_zh": "由於民意壓力和海灣盟友的壓力，白宮正努力推動和平方案，但伊朗卻要求取得讓步。伊朗的堅決態度使得戰爭持續下去的可能性增加。這種局勢下，美國總統川普面臨著難以達成和平方案的挑戰。伊朗的堅決態度也使得美國國內的反戰聲浪更加高漲。目前，美國和伊朗之間的對立仍在持續升級，未來的發展方向仍存不明朗。",
+        "id": "90920cc1",
+        "title": "今彩539第115133期頭獎2注中獎",
+        "url": "https://www.cna.com.tw/news/ahel/202606010338.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 01 Jun 2026 22:04:39 +0800",
+        "summary_zh": "今彩539第115133期開獎，中獎號碼為14、05、19、20、28。派彩結果顯示，頭獎有2注中獎，各得獎金新台幣800萬元。這次的中獎結果將對中獎者帶來豐厚的獎金，同時也會為彩民們帶來新的中獎希望。然而，這也意味著許多彩民的夢想未能實現。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7219258c",
+        "title": "OECD：中國大舉補貼中企 對外企構成不當競爭優勢",
+        "url": "https://www.cna.com.tw/news/aopl/202606010332.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 01 Jun 2026 21:53:26 +0800",
+        "summary_zh": "經濟合作暨發展組織（OECD）最新報告指出，中國在2005年至2024年間對15個關鍵產業領域提供了大量的國家補貼，遠高於外國競爭對手。這些補貼對外國企業構成了不公平競爭優勢，使得中國企業在這些領域取得了顯著的競爭優勢。OECD的報告認為，這些補貼違反了世界貿易組織（WTO）的規定，對全球貿易造成了不利影響。這一發現引發了對中國補貼政策的關注，許多人認為這些補貼是中國政府為了促進國內企業發展而採取的措施，但也引起了外國企業的不滿和抗議。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "fd94b955",
-        "title": "民主黨人在以色列遊行中出現分歧，舒默出席，曼達尼缺席",
-        "url": "https://www.theguardian.com/us-news/2026/jun/01/democrats-israel-parade-new-york",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 01 Jun 2026 18:06:03 GMT",
-        "summary_zh": "民主黨人在紐約市的以色列日遊行中出現分歧。紐約市長曼達尼因反對以色列政府的行為，拒絕出席遊行。舒默參加了遊行，但其他民主黨人因與以色列遠右財政部長一起遊行而遭到批評。民主黨人在以色列問題上出現分歧，表明黨內的分裂。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "6f669d91",
-        "title": "紐墨西哥州發現核實驗室員工遺骸",
-        "url": "https://www.theguardian.com/us-news/2026/jun/01/melissa-casias-remains-found-new-mexico",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 01 Jun 2026 17:57:06 GMT",
-        "summary_zh": "紐墨西哥州警方宣布，近日發現的人員遺骸已經確認為洛斯阿拉莫斯國家實驗室（Los Alamos National Laboratory）員工梅麗莎·卡西亞斯（Melissa Casias）。梅麗莎·卡西亞斯於2025年6月26日被視為失蹤，警方發現遺骸時還有一把手槍。警方表示，這起案件曾引起網路上的各種猜測，但目前仍未公布任何有關她失蹤原因的資訊。梅麗莎·卡西亞斯的家人已經被告知了這個消息。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "4a672616",
-        "title": "明尼蘇達共和黨遭批評：在會議上為喬治佛洛伊德殺手默哀",
-        "url": "https://www.theguardian.com/us-news/2026/jun/01/minnesota-republicans-derek-chauvin-moment-of-silence",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 01 Jun 2026 16:24:29 GMT",
-        "summary_zh": "明尼蘇達州共和黨在會議上為前警察喬治佛洛伊德殺手德里克·查維恩默哀，引起該州檢察總長基思·艾倫森的不滿。艾倫森是佛洛伊德殺害案的首席檢察官，他批評共和黨的行動是對佛洛伊德家人的「深刻的殘酷行為」，並對明尼蘇達州的警察人員感到不敬。艾倫森的批評是針對共和黨在週六在杜魯斯舉行的年度會議上進行的默哀儀式。該會議引起了明尼蘇達州各界的關注，許多人批評共和黨的行動是對佛洛伊德家人的不尊重。這一事件也引起了對明尼蘇達州政治氛圍的關注，許多人認為共和黨的行動是對法治和人權的挑戰。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "944bfc58",
-        "title": "新澤西州ICE設施抗議者遭逮捕，衝突仍在繼續",
-        "url": "https://www.theguardian.com/us-news/2026/jun/01/new-jersey-ice-detention-center-protests",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 01 Jun 2026 14:14:50 GMT",
-        "summary_zh": "新澤西州的官方宣布，數十名抗議者因違反禁令在紐瓦克的Delaney Hall ICE設施遭逮捕。該設施近一個星期來一直出現混亂和暴力事件。新澤西州民主黨律政長官Jennifer Davenport在社交媒體上表示，一群人帶著頭盔、盾牌或氣炸面罩，故意不遵守多次離開該區域的命令，導致他們被逮捕。這些抗議者正在為設施內的罷工和餓餓罷工表達抗議。這些事件可能會對設施內的生活和安全造成影響，同時也引起了社會的關注和討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c62cc432",
-        "title": "加州選舉中科技巨頭花天送地 預言這只是冰山一角",
-        "url": "https://www.theguardian.com/us-news/2026/jun/01/tech-billionaires-california-elections",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 01 Jun 2026 14:00:18 GMT",
-        "summary_zh": "加州即將舉行6月2日的初選選舉，科技巨頭們已經花費數百萬美元來影響選區的結果。這些科技公司採取了全面性的策略，資助各級候選人和提案，預計將是加州歷史上最昂貴的初選選舉。專家們認為，這些科技巨頭的目標是爭取政治和監管權力，以確保在商業領域的主導地位。谷歌共同創始人布林已經花費66億美元，反對一個億萬富翁稅的提案，這項提案將在11月投票。民主黨州長候選人馬漢已經收到超過其他候選人更多的捐款，包括谷歌、亞馬遜、Snap、連結、Reddit和Palantir的高管。加密貨幣大亨克里斯拉森已經資助了三個超級政治行動委員會（Super Pac），花費26億美元來影響加州各地的選舉，包括贊助州保險委員會的一名初選候選人。谷歌和Meta已經合資資助一個超級政治行動委員會，花費10億美元來支持州議會和參議會候選人。科技巨頭的資金不僅流向州級選舉，也流向城市選舉，科技背後的超級政治行動委員會贊助了各級候選人。這些行動表明，科技巨頭正在為自己爭取政治和監管權力，以確保在商業領域的主導地位。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6ab481ea",
-        "title": "洛杉磯時尚區陷入低谷：奧運會能否帶來轉機?",
-        "url": "https://www.theguardian.com/us-news/2026/jun/01/los-angeles-fashion-district",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 01 Jun 2026 13:00:17 GMT",
-        "summary_zh": "洛杉磯時尚區，美國服裝製造業的最大樞紐，近年來遭遇了ICE查緝和疫情後的問題，然而領導人表示，希望正在出現。洛杉磯市中心的時尚區，美國服裝製造業的最大樞紐，目前處於衰退狀態。雖然美國83%的服裝裁剪和縫製都在這裡進行，但該區域近年來訪客人數和銷售額大幅下滑。時尚區的商家面臨著嚴重的經濟困難，例如AP Design by Rocca的負責人Fernando Carmona表示，他的日收入從原本的2,000美元下降到現在的500美元至700美元。他還表示，他的店舖租金高達每月8,250美元。這些問題的背後原因包括ICE查緝和疫情後的經濟不振。然而，領導人表示，希望正在出現，例如洛杉磯奧運會的舉辦可能會帶來新的商機和投資。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3a3871ef",
-        "title": "彭斯批評川普的補償基金是「深深冒犯」並應該棄置",
-        "url": "https://www.bbc.com/news/articles/ce8p7mg30dyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 31 May 2026 20:00:08 GMT",
-        "summary_zh": "前副總統彭斯批評川普的補償基金是「深深冒犯」並應該棄置。彭斯在去年1月6日的暴動事件中遭到暴徒攻擊。他表示這個基金可能會補償那些參與暴動的人，認為這是一個「壞主意」。這個基金是由川普發起，目的是為那些因為參與暴動而遭到法律追究的人提供補償。彭斯的批評表明，他與川普的立場有所分歧。這個事件可能會對川普的政治影響力產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
+        "id": "b7c9d12b",
+        "title": "迎超高齡社會挑戰 金管會擬放寬保險商品定價限制",
+        "url": "https://www.cna.com.tw/news/afe/202606010329.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 01 Jun 2026 21:37:20 +0800",
+        "summary_zh": "面對超高齡社會的挑戰，金管會決定透過法規調適提升保險商品定價的彈性。根據目前的規定，保險商品的費率需要基於3至5年的經驗資料來釐訂。金管會希望通過這項變革，讓保險業者能夠以創新思維或科技技術來精進商品及服務內容，並鼓勵業者提出業務試辦計畫。這項變革的目標是打造一個全齡金融生態圈，讓更多人能夠享受到適合自己的金融服務。這項變革將對保險業的發展產生重大影響，讓業者能夠更好地應對超高齡社會的挑戰。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       }
     ]
