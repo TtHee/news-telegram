@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-02T04:04:14.492148+08:00",
+  "generated_at": "2026-06-02T05:04:08.874582+08:00",
   "risk_signals": [
     "🟢 台股加權 44732.94（正常）",
     "🟢 S&P 500 7599.96（正常）",
-    "🟢 VIX 恐慌指數 16.02（正常）",
-    "🟢 MOVE 債市波動 70.22（正常）",
-    "🟢 美元指數 99.21（正常）",
-    "🟢 黃金 4510.3（正常）",
+    "🟢 VIX 恐慌指數 16.05（正常）",
+    "🟢 MOVE 債市波動 73.33（正常）",
+    "🟢 美元指數 99.19（正常）",
+    "🟢 黃金 4512.8（正常）",
     "🟢 美債10Y殖利率 4.47（正常）",
-    "🔴 原油 WTI 92.46（急漲 +5.84%，市場避險）",
-    "🟢 美元/台幣 31.31（正常）"
+    "🔴 原油 WTI 92.5（急漲 +5.88%，市場避險）",
+    "🟢 美元/台幣 31.3（正常）"
   ],
-  "ai_summary": "市場呈現穩定氛圍，各個指標均處於正常範圍。原油價格急漲，可能是市場避險情緒的表現，但整體來說仍然保持穩定。",
+  "ai_summary": "市場表現穩定，指數上漲，但原油價格急漲，表明市場避險意圖增強。",
   "market": {
     "TWII": {
       "price": 44732.94,
@@ -26,37 +26,375 @@
       "change_pct": 0.42
     },
     "VIX": {
-      "price": 16.02,
-      "change_pct": 4.57
+      "price": 16.05,
+      "change_pct": 4.77
     },
     "TNX": {
       "price": 4.47,
       "change_pct": 0.49
     },
     "MOVE": {
-      "price": 70.22,
-      "change_pct": 0.0
+      "price": 73.33,
+      "change_pct": 4.43
     },
     "DXY": {
-      "price": 99.21,
-      "change_pct": 0.31
+      "price": 99.19,
+      "change_pct": 0.29
     },
     "GOLD": {
-      "price": 4510.3,
-      "change_pct": -1.1
+      "price": 4512.8,
+      "change_pct": -1.05
     },
     "OIL": {
-      "price": 92.46,
-      "change_pct": 5.84
+      "price": 92.5,
+      "change_pct": 5.88
     },
     "USDTWD": {
-      "price": 31.31,
-      "change_pct": -0.38
+      "price": 31.3,
+      "change_pct": -0.36
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "49791b31",
+        "title": "伊朗警告以色列在黎巴嫩的攻擊威脅美國與伊朗的停火協議",
+        "url": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 19:58:36 GMT",
+        "summary_zh": "伊朗發出警告，指出以色列在黎巴嫩的攻擊行動可能會威脅美國與伊朗的停火協議。這一事件發生在以色列總理下令對黎巴嫩南部郊區進行轟炸的同時，這是對於海珊派對以色列北部發動火箭和無人機攻擊的回應。伊朗的警告表明，這一局勢正在迅速惡化，可能會對中東地區造成重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1bf567b4",
+        "title": "中東和談再陷僵局 歐洲股市收低",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5457307",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Tue, 02 Jun 2026 01:36:03 +0800",
+        "summary_zh": "中東和平談判再度陷入僵局，美國與伊朗之間的緊張局勢升溫，導致歐洲股市主要指數今天收盤挫跌。倫敦FTSE 100指數下跌70.33點或0.68%，收10338.95點。法蘭克福DAX指數下跌24.51點或0.16%，收15244.41點。這種局勢升溫使得投資者感到不確定，導致股市下跌。中東和平談判的僵局可能會對全球經濟產生影響，投資者需要密切關注這種局勢的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "193cb428",
+        "title": "三種埃博拉疫苗正在研發中，面對疫情擴散的擔憂",
+        "url": "https://www.bbc.com/news/articles/cn8pw93929wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 14:30:39 GMT",
+        "summary_zh": "隨著埃博拉疫情的擴散，世界衛生組織正在關注疫情的發展。三家組織，包括IAVI、Moderna和牛津大學，都正在研發新型疫苗，以防止疫情的擴散。這些疫苗的研發是為了應對埃博拉疫情的快速擴散，同時也為未來的疫情防控提供了新的希望。雖然疫情的發展仍然不明朗，但這些疫苗的研發是為了預防疫情的擴散，保護人們的生命安全。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "571487bf",
+        "title": "伊朗揚言闢新戰線 美油價飆漲近8％",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5457286",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 23:53:02 +0800",
+        "summary_zh": "伊朗國營媒體報導，德黑蘭將停止與美國的談判，並完全封鎖荷姆茲海峽，以報復以色列攻擊黎巴嫩。這一行動引發了全球油價大幅上漲，美國西德州中級原油價格飆破8%。此外，伊朗的這一行動可能會導致全球油價持續上漲，對全球經濟產生重大影響。伊朗的這一行動也引發了國際社會的關注，各國政府和國際組織正在密切關注這一情況的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e6e0fc32",
+        "title": "匈牙利總理威脅將總統趕下台",
+        "url": "https://www.bbc.com/news/articles/c3w2vdd6jj3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 16:54:28 GMT",
+        "summary_zh": "匈牙利總理佩特·馬加爾（Péter Magyar）要求總統拒絕退位，引發憲法衝突。這一事件與前總理奧班（Orbán）時代有關。馬加爾政府要求總統退位，但總統拒絕，造成兩者之間的緊張關係。這一事件可能會對匈牙利政治產生重大影響。馬加爾政府的行動被視為對奧班時代的挑戰。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "7a382699",
+        "title": "亞太市場周一開盤混亂，投資人關注美伊談判不確定性",
+        "url": "https://www.cnbc.com/2026/06/01/asia-markets-nikkei-225-kospi-hang-seng-index.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-05-31 23:46:43",
+        "summary_zh": "亞太市場周一預計開盤混亂，投資人關注美伊談判不確定性。美國總統川普表示不急於簽署伊朗協議，投資人對未來市場走向感到擔憂。美伊談判的不確定性使得投資人難以確定市場的方向，亞太市場因此預計開盤混亂。投資人將密切關注美伊談判的進展，同時觀察全球經濟的變化。美伊談判的結果將對全球市場產生重大影響，投資人需要準備面對未來的風險和機會。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "edf4ec24",
+        "title": "意大利人困惑於米蘭牛雕像修復",
+        "url": "https://www.bbc.com/news/articles/ckgp72v8q0wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 18:18:06 GMT",
+        "summary_zh": "意大利米蘭市中心的一個古老牛雕像最近進行了修復。這座牛雕像原本是由一塊大理石製成的，於19世紀末期被安裝在米蘭市中心的廣場上。然而，修復過程中，雕像的某些部分被移除或更換，引起了許多意大利人對於這座牛雕像的變化感到困惑。其中一個令人困惑的細節是，牛雕像原本擁有兩個大理石製成的睾丸，但是在修復過程中，這兩個部分被移除，引起了許多人對於這座雕像的變化感到困惑。這座牛雕像被視為米蘭市中心的象徵之一，因此許多人對於它的修復感到關注。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "69b479df",
+        "title": "巴基斯坦通脹攀升 伊朗戰爭推升能源成本",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-01/pakistan-inflation-climbs-as-iran-war-drives-energy-costs",
+        "source": "Bloomberg",
+        "category": "global",
+        "published_at": "2026-06-01 08:42:52",
+        "summary_zh": "巴基斯坦通脹率不斷攀升，根據最新數據，巴基斯坦的通脹率已經達到 24.2%，遠高於政府預期的 14.5%。這一增幅主要是由於伊朗戰爭對能源成本的影響。伊朗戰爭導致能源供應受限，進而推升了能源成本，對巴基斯坦的經濟造成重大影響。巴基斯坦政府正在努力控制通脹率，但面臨著嚴重的挑戰。通脹率的上升將對巴基斯坦的民生產生重大影響，政府必須采取有效措施來控制通脹率，保護民眾的生活質量。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a3347720",
+        "title": "美國政治評論員被英國入境局拒絕入境",
+        "url": "https://www.bbc.com/news/articles/cwy2rxyvvl1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 15:40:58 GMT",
+        "summary_zh": "美國政治評論員和左翼內容創作者因為有龐大的線上追隨者，被英國入境局拒絕入境。這些評論員原本預定在倫敦的SXSW節目和牛津大學進行演講。這一事件引起了美國政治界的關注和批評。英國入境局的決定被認為是對言論自由的侵犯。這一事件可能會對英美關係產生影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "0253919b",
+        "title": "法國與英國合作扣押俄羅斯油輪",
+        "url": "https://www.bbc.com/news/articles/cn8pwgej1gxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 11:53:26 GMT",
+        "summary_zh": "法國海軍在週日與英國等盟國的支持下，扣押了一艘受到制裁的俄羅斯油輪。這次行動是對俄羅斯入侵烏克蘭的最新反應。法國總統馬克宏表示，這次行動表明法國和英國將繼續與俄羅斯對抗，維護國際法和領土完整。這次扣押行動對俄羅斯的經濟和國際形象都造成了重大影響。法國和英國的合作也表明了兩國在對抗俄羅斯入侵烏克蘭方面的共同意愿。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a9a76ed7",
+        "title": "緬甸叛軍控制村庄遭大爆炸，數十人喪生",
+        "url": "https://www.bbc.com/news/articles/cglp7p787njo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 06:23:59 GMT",
+        "summary_zh": "緬甸叛軍控制的村庄遭到大爆炸，造成數十人喪生。叛軍指出，這次爆炸是由於附近中國邊境的採礦活動使用的爆炸物引起的。這次爆炸發生在緬甸東北部的克欽邦省，該地區長期受到叛軍活動的影響。爆炸的影響尚未完全清楚，但已知有多人受傷。這次爆炸的原因尚未完全確定，但叛軍的說法引起了關注。緬甸政府和中國政府都沒有對這次爆炸發表評論。這次爆炸可能會對緬甸的安全局勢造成影響，尤其是在克欽邦省。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "41ce3f5d",
+        "title": "埃塞俄比亞部分地區投票延遲 因安全擔憂",
+        "url": "https://www.bbc.com/news/articles/cn0pngz2rego?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 14:35:36 GMT",
+        "summary_zh": "埃塞俄比亞總理阿比·艾哈邁德的黨派預計將在選舉中佔據優勢，但衝突卻使選舉投票陷入混亂。選舉投票在部分地區因安全擔憂而被暫時延遲。這一選舉的結果將對埃塞俄比亞政治產生重大影響。選舉投票的延遲將使選舉結果的公平性受到質疑。埃塞俄比亞政府應該盡快恢復選舉投票，確保選舉的順利進行。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "b35a2cc6",
+        "title": "波蘭爭議性「地獄公路」666 公交車復活",
+        "url": "https://www.bbc.com/news/articles/c1d2ld91635o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 03:19:57 GMT",
+        "summary_zh": "波蘭海濱度假勝地海爾（Hel）將恢復666號公交車服務，儘管早前遭到基督教團體反對。海爾是波蘭最北端的海濱城市，該城市的居民和觀光客將能夠利用這條公交線路來前往附近的景點。這項決定引起了爭議，因為基督教團體認為666號公交車的編號具有惡魔的象徵意義。儘管如此，波蘭交通部仍決定恢復這條公交線路，為居民和觀光客提供更好的交通服務。這項決定可能會引起更多爭議和討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "288f2799",
+        "title": "尼日利亞警方警告南非人士避免報復攻擊",
+        "url": "https://www.bbc.com/news/articles/ce8prypdpz6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 10:02:49 GMT",
+        "summary_zh": "近期南非出現多場反移民抗議活動，導致南非與尼日利亞之間的緊張情緒日漸升高。尼日利亞警方已經發出警告，呼籲南非人士避免對尼日利亞公民進行報復攻擊。這一事件的背景是南非政府對非洲移民的態度日漸嚴厲，尼日利亞政府也對南非政府的政策表達了不滿。尼日利亞警方的警告表明，兩國之間的緊張情緒可能會進一步升級。這一事件可能會對兩國之間的關係產生重大影響，甚至可能引發衝突。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5a38be8d",
+        "title": "東京觀光熱點芝加谷區今起查緝亂丟垃圾　違者即時罰款",
+        "url": "https://www.bbc.com/news/articles/cr7py513njmo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 06:52:40 GMT",
+        "summary_zh": "日本政府為應對觀光客增多對城市造成的影響，決定在世界聞名的芝加谷區實施查緝亂丟垃圾的行動。 dozens 位官員將在該區巡邏，負責查緝亂丟垃圾的行為，並對違者徵收罰款。這項措施旨在維護城市環境的清潔和整潔，並減少觀光客對城市造成的負面影響。 Shibuya 是東京的一個著名觀光區，吸引了大量的遊客，每年都有成千上萬的觀光客到訪該區。日本政府認為，觀光客增多對城市的環境和基礎設施造成了重大影響，因此決定採取措施來控制觀光客的行為。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "eab6f657",
+        "title": "一年來的哀傷：空中巴士墜機後，什麼樣的遺留?",
+        "url": "https://www.bbc.com/news/articles/ce9pp53ky42o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 00:24:47 GMT",
+        "summary_zh": "一年前，空中巴士墜機事件發生在印度，造成了慘重的傷亡。這個悲慘的事件還留下了許多遺留的問題，包括對於死難者家屬的幫助和對於事故原因的調查。許多死難者家屬仍然在等待著答案和幫助。這個事件也引發了對於航空安全的關注和討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "aad0ad2d",
+        "title": "觀眾破碎玻璃門試圖看Netflix明星",
+        "url": "https://www.bbc.com/news/videos/cr7pye93n1ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 11:34:19 GMT",
+        "summary_zh": "近日，中國一間購物中心外出現大批觀眾，為的是看Netflix劇集《玉嬌梨》的演員張凌赫。這些觀眾為了看張凌赫，甚至破碎了購物中心的玻璃門。這種情況引發了對於中國網路紅人和明星的追捧程度的關注。根據觀察，這些觀眾的行為可能是由於對於張凌赫的粉絲身份感受到的壓力所導致。這種情況也引發了對於中國網路文化和社會的討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2d1452b7",
+        "title": "中國煤礦災難：隱藏的隧道和未登記工人",
+        "url": "https://www.bbc.com/news/articles/cpwpeg57777o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Sun, 31 May 2026 23:32:04 GMT",
+        "summary_zh": "中國近15年來最嚴重的煤礦災難發生在中國政府正努力推動綠色能源轉型的時候。這次災難引發了對隱藏的隧道和未登記工人的關注。根據官方數據，中國煤礦每年平均有數百名工人喪生。這種悲劇的發生，讓人們不得不思考中國的煤礦安全問題。中國政府正試圖通過綠色能源轉型來減少對煤炭的依賴，但這種轉型過程中，仍然存在著許多挑戰和風險。這次災難是中國煤礦安全問題的一個警訊，讓人們關注未來的發展方向。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d296410c",
+        "title": "伊朗暫停與美國交涉 國際油價應聲飆漲",
+        "url": "https://www.cna.com.tw/news/aopl/202606010343.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 22:52:51 +0800",
+        "summary_zh": "伊朗與美國的交涉近日陷入僵局，連日終戰會談無果，美伊再度交火後，伊朗宣布暫停與美國交涉。這一消息引發了國際油價的大幅上揚，市場擔心伊朗的石油出口可能受到影響，進而導致全球油價上漲。伊朗的石油出口是全球重要的石油供應來源之一，暫停與美國交涉可能會導致石油出口受阻，進而影響全球油價。這一消息也引發了市場對於全球經濟的擔憂，市場人士擔心伊朗與美國的緊張關係可能會導致全球經濟的不穩定。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "06f726b4",
+        "title": "伊朗和美國報告海灣空襲新浪潮",
+        "url": "https://www.bbc.com/news/articles/crlpy8n7pr6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 13:12:26 GMT",
+        "summary_zh": "伊朗和美國近日發生新一波空襲事件，雙方針對對方的軍事設施進行攻擊。事件發生在霍爾木茲海峽附近，這個海峽是全球石油輸送的重要通道。伊朗和美國的軍事對峙已經持續了數月，雙方都有多次發射導彈和空襲。這次新的空襲事件引發了國際社會的關注，各國都在密切關注這個局勢的發展。伊朗和美國的軍事對峙對全球石油市場和地區安全都有重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4bcbfea7",
+        "title": "迦納通過嚴厲反同法案　同志社群恐失家、失業、失醫療保障",
+        "url": "https://www.theguardian.com/global-development/2026/jun/01/ghana-new-law-criminalising-lgbtq-activity",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 11:59:11 GMT",
+        "summary_zh": "迦納國會近日通過一項嚴厲反同法案，該法案規定同志社群活動的推廣和同志身份認同將被視為犯罪，違者將面臨3至10年的監禁。同志社群組織表示，該法案通過後，同志社群成員恐怕將失去家園、失業和醫療保障。該法案尚待總統John Dramani Mahama簽署生效。迦納的同志社群目前處於極度恐懼之中，擔心自己的生活將受到嚴重影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7ee4ed9d",
+        "title": "視頻：隕石在麻薩諸塞州引起超音速爆炸",
+        "url": "https://www.bbc.com/news/videos/c1m24g0n40ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 14:56:37 GMT",
+        "summary_zh": "一隕石在美國麻薩諸塞州空中爆炸，引起超音速爆炸。根據美國國家航空暨太空總署（NASA）的資料，這隻隕石在爆炸時釋放出約300噸的三硝基甲烷（TNT）等效能量。這種超音速爆炸的聲音可能會在數百英里範圍內傳播，對周圍的居民造成巨大震撼。這種天文現象對於科學家來說是一個重要的研究機會，可以幫助我們更深入地了解隕石的形成和爆炸過程。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ccc5d9d6",
+        "title": "英國不必支付羅旺達1000萬英鎊，英國法院裁定",
+        "url": "https://www.theguardian.com/uk-news/2026/jun/01/uk-will-not-pay-rwanda-over-failed-asylum-scheme",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 10:50:51 GMT",
+        "summary_zh": "英國政府在前任總理約翰遜的任期下，推出一項對非法移民進行驅逐的計畫，但由於該計畫遭到工黨政府在上任第一天就取消，因此羅旺達政府對英國政府提出訴訟，要求英國政府支付超過1000萬英鎊的賠償金。英國政府否認違反協議，最終由國際法院裁定英國政府不必支付羅旺達政府的賠償金。這項裁定對英國政府和羅旺達政府都有重大影響，可能會影響兩國之間的關係和未來的合作。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0e31ef2d",
+        "title": "全球大火災面積減少，富裕地區受災惡劣",
+        "url": "https://www.theguardian.com/world/2026/jun/01/wildfires-devastating-richer-areas-but-fewer-hectares-burned-globally-study",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 06:00:09 GMT",
+        "summary_zh": "根據最新研究，2025年全球大火災面積減少至 335 萬公頃，僅次於 2002 年的最低紀錄。然而，這些大火災主要發生在富裕國家，如加拿大、歐洲、南韓和加利福尼亞州。研究人員指出，這些大火災造成了大量生命、房屋和工作崗位的喪失。但是，非洲農業的擴張，分割了原本的草原，減慢了大型草原火災的蔓延。這種現象在非洲部分地區出現，幫助減少了全球大火災的面積。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fcbcec48",
+        "title": "極右派候選人意外勝出　為哥倫比亞傳統保守派帶來重挫",
+        "url": "https://www.theguardian.com/world/2026/jun/01/trump-admirer-abelardo-de-la-espriella-election-win-blow-to-colombia-conservatives",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 14:44:45 GMT",
+        "summary_zh": "哥倫比亞最近舉行了總統選舉，極右派律師阿貝拉多德拉埃斯皮里耶拉(Abelardo de la Espriella)意外勝出，領先左派參議員伊凡塞佩達(Iván Cepeda)約670,000票。這些未投票給兩人選民的數字不少，約3.6萬人。這些選民可能感到對政治感到疲勞，選擇了極右派候選人。這次選舉結果對哥倫比亞傳統保守派造成了重大的影響。阿貝拉多德拉埃斯皮里耶拉和伊凡塞佩達將在未投票給兩人選民的選民中競選，選舉將在三周內舉行。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0ca76825",
+        "title": "哥倫比亞右派總統候選人 Espriella 在初選中勝出，將與 Cepeda 進入決選",
+        "url": "https://www.theguardian.com/world/2026/jun/01/colombia-far-right-presidential-candidate-espriella-wins-first-round-of-vote-ahead-of-election-runoff",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 10:35:40 GMT",
+        "summary_zh": "哥倫比亞剛舉行的總統初選結果出爐，右派律師 Espriella 以 43.7% 的選票率勝出，將與左派總統 Petro 支持的參議員 Cepeda 進入決選。 Espriella 是一位律師和川普的支持者，他在最近的民調中快速上升。根據目前的數據， Espriella 获得了 10.3 萬多票，而 Cepeda 則獲得了 9.6 萬多票。 Espriella 和 Cepeda 將在三周後進行決選。哥倫比亞總統選舉的結果將對該國政治產生重大影響。 Espriella 的勝利表明了哥倫比亞人民對右派政策的支持，而 Cepeda 的參選則代表了左派的反對意見。這次選舉將是哥倫比亞政治史上的重要事件。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
+      {
+        "id": "e1b2c27d",
+        "title": "鮑文：川普需要這場戰爭結束，但伊朗不願妥協",
+        "url": "https://www.bbc.com/news/articles/cedp3lee059o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 15:25:54 GMT",
+        "summary_zh": "由於民意壓力和海灣盟友的壓力，白宮正努力推動和平方案，但伊朗卻要求取得讓步。伊朗的堅決態度使得戰爭持續下去的可能性增加。這種局勢下，美國總統川普面臨著難以達成和平方案的挑戰。伊朗的堅決態度也使得美國國內的反戰聲浪更加高漲。目前，美國和伊朗之間的對立仍在持續升級，未來的發展方向仍存不明朗。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "35e68999",
+        "title": "佛州檢察長指控 OpenAI 師徒俱樂部幫助槍手",
+        "url": "https://www.bbc.com/news/articles/czx2j0v8d2xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 18:58:26 GMT",
+        "summary_zh": "佛羅里達州檢察長詹姆斯·烏斯梅爾 (James Uthmeier) 指控 OpenAI 和總裁 Sam Altman 建立了一個 '欺詐網絡'。他認為 OpenAI 的 ChatGPT 平台幫助槍手和兇手進行策劃和溝通。這項指控出現在一份訴訟中，訴訟指控 OpenAI 和其高管違反了佛羅里達州的法律。檢察長表示，該公司的行為是 '危險和有害的'。他還指控 OpenAI 沒有采取足夠的措施來防止其平台被用於有害目的。這項訴訟是對 OpenAI 的 ChatGPT 平台的最新批評。該平台已經受到關注，因為它允許用戶創建自定義的對話和對象。檢察長表示，該公司的行為將對佛羅里達州的公民造成嚴重的風險。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "f573b97d",
         "title": "跨性別士兵可繼續服役 美軍招募仍可拒絕",
@@ -66,8 +404,8 @@
         "published_at": "Mon, 01 Jun 2026 19:26:05 GMT",
         "summary_zh": "美國最高法院對跨性別士兵服役問題做出判決，認為跨性別士兵可繼續服役，但美軍可繼續拒絕招募跨性別新兵。這項判決對川普政府的反多元化政策造成了沉重的打擊，法院認為美軍跨性別士兵服役禁令是「隨意且出於偏見』的。這項判決將會對川普政府的政策產生重大影響，並可能最終來到美國最高法院審理。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "fd94b955",
@@ -80,6 +418,18 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "09d2e0e2",
+        "title": "Powell警告白宮壓力會破壞美聯儲公眾信任",
+        "url": "https://www.cnbc.com/2026/06/01/federal-reserve-trump-political-pressure-powell-stress-test.html",
+        "source": "Cnbc",
+        "category": "whitehouse",
+        "published_at": "2026-06-01 08:40:34",
+        "summary_zh": "美聯儲主席Jerome Powell在最近的發言中表示，白宮對美聯儲的壓力會對公眾對美聯儲的信任產生嚴重影響。這種壓力可能會破壞美聯儲的獨立性和公正性，進而影響美聯儲的政策執行和決策。 Powell的言論表明，他對白宮對美聯儲的干涉感到擔憂，並呼籲白宮應該尊重美聯儲的獨立性。這種事件可能會對美聯儲的形象和公眾信任產生重大影響。 Powell的言論也引起了市場的關注，市場人士對於美聯儲的政策和決策感到擔憂。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "6f669d91",
@@ -114,8 +464,8 @@
         "published_at": "Mon, 01 Jun 2026 16:02:36 GMT",
         "summary_zh": "科羅拉多州前選舉主任蒂娜·彼得斯因參與推廣唐納德·川普的選舉陰謀論而被判刑。川普成功說服科羅拉多州民主黨州長減刑她的刑期。根據科羅拉多州矯正部門的確認，彼得斯於週一出獄。該州機構表示，將不再提供更多關於 70 歲的彼得斯的資訊。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c7f4b577",
@@ -126,8 +476,8 @@
         "published_at": "Mon, 01 Jun 2026 15:27:23 GMT",
         "summary_zh": "美國民主黨參議員承諾將迫使共和黨參議員投票通過1.8億美元的「MAGA 救援基金」。這筆基金是由川普對內部稅務稽查局訴訟的部分，該訴訟被視為川普的長途賭注。川普稱這筆基金是用於支付受政治迫害的受害者的補償金。然而，共和黨的黨員們也對這筆基金表示擔憂。民主黨領袖查克舒默表示，這筆基金實際上是川普的「貪污基金」。他還表示，將會迫使共和黨參議員投票表明他們是否支持這筆基金。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "2ad73db1",
@@ -138,8 +488,8 @@
         "published_at": "Mon, 01 Jun 2026 15:00:21 GMT",
         "summary_zh": "迈阿密-戴德縣官員同意為 HRP 集團支付超過兩倍的價格購買費雪島的土地，以保護游輪業用於燃料儲存的設施。近期來，費雪島（Fisher Island）土地的擁有權引發三方爭奪戰。該島是美國最富有的郵遞區之一，位於迈阿密市的對岸。 Denver-based 全球能源公司 TransMontaigne Partners 在 2024 年 5 月將該地段掛牌出售，引起了高昂的興趣，因為這塊土地是該島上最後可供開發的土地。最後贏得競標戰的是一家來自芝加哥的開發商 HRP 集團，該公司在去年 9 月購買該地段的價格為 18 億美元。開發商隨後宣布將在該地段興建公寓大樓，預計耗資 200 億美元。迈阿密-戴德縣官員的決定可能會讓納稅人面臨 40 億美元的帳單。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "944bfc58",
@@ -164,283 +514,17 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "e1b2c27d",
-        "title": "鮑文：川普需要這場戰爭結束，但伊朗不願妥協",
-        "url": "https://www.bbc.com/news/articles/cedp3lee059o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 01 Jun 2026 15:25:54 GMT",
-        "summary_zh": "由於民意壓力和海灣盟友的壓力，白宮正努力推動和平方案，但伊朗卻要求取得讓步。伊朗的堅決態度使得戰爭持續下去的可能性增加。這種局勢下，美國總統川普面臨著難以達成和平方案的挑戰。伊朗的堅決態度也使得美國國內的反戰聲浪更加高漲。目前，美國和伊朗之間的對立仍在持續升級，未來的發展方向仍存不明朗。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "4bcbfea7",
-        "title": "迦納通過嚴厲反同法案　同志社群恐失家、失業、失醫療保障",
-        "url": "https://www.theguardian.com/global-development/2026/jun/01/ghana-new-law-criminalising-lgbtq-activity",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 11:59:11 GMT",
-        "summary_zh": "迦納國會近日通過一項嚴厲反同法案，該法案規定同志社群活動的推廣和同志身份認同將被視為犯罪，違者將面臨3至10年的監禁。同志社群組織表示，該法案通過後，同志社群成員恐怕將失去家園、失業和醫療保障。該法案尚待總統John Dramani Mahama簽署生效。迦納的同志社群目前處於極度恐懼之中，擔心自己的生活將受到嚴重影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1bf567b4",
-        "title": "中東和談再陷僵局 歐洲股市收低",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5457307",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Tue, 02 Jun 2026 01:36:03 +0800",
-        "summary_zh": "中東和平談判再度陷入僵局，美國與伊朗之間的緊張局勢升溫，導致歐洲股市主要指數今天收盤挫跌。倫敦FTSE 100指數下跌70.33點或0.68%，收10338.95點。法蘭克福DAX指數下跌24.51點或0.16%，收15244.41點。這種局勢升溫使得投資者感到不確定，導致股市下跌。中東和平談判的僵局可能會對全球經濟產生影響，投資者需要密切關注這種局勢的發展。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "ccc5d9d6",
-        "title": "英國不必支付羅旺達1000萬英鎊，英國法院裁定",
-        "url": "https://www.theguardian.com/uk-news/2026/jun/01/uk-will-not-pay-rwanda-over-failed-asylum-scheme",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 10:50:51 GMT",
-        "summary_zh": "英國政府在前任總理約翰遜的任期下，推出一項對非法移民進行驅逐的計畫，但由於該計畫遭到工黨政府在上任第一天就取消，因此羅旺達政府對英國政府提出訴訟，要求英國政府支付超過1000萬英鎊的賠償金。英國政府否認違反協議，最終由國際法院裁定英國政府不必支付羅旺達政府的賠償金。這項裁定對英國政府和羅旺達政府都有重大影響，可能會影響兩國之間的關係和未來的合作。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "571487bf",
-        "title": "伊朗揚言闢新戰線 美油價飆漲近8％",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5457286",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 23:53:02 +0800",
-        "summary_zh": "伊朗國營媒體報導，德黑蘭將停止與美國的談判，並完全封鎖荷姆茲海峽，以報復以色列攻擊黎巴嫩。這一行動引發了全球油價大幅上漲，美國西德州中級原油價格飆破8%。此外，伊朗的這一行動可能會導致全球油價持續上漲，對全球經濟產生重大影響。伊朗的這一行動也引發了國際社會的關注，各國政府和國際組織正在密切關注這一情況的發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0e31ef2d",
-        "title": "全球大火災面積減少，富裕地區受災惡劣",
-        "url": "https://www.theguardian.com/world/2026/jun/01/wildfires-devastating-richer-areas-but-fewer-hectares-burned-globally-study",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 06:00:09 GMT",
-        "summary_zh": "根據最新研究，2025年全球大火災面積減少至 335 萬公頃，僅次於 2002 年的最低紀錄。然而，這些大火災主要發生在富裕國家，如加拿大、歐洲、南韓和加利福尼亞州。研究人員指出，這些大火災造成了大量生命、房屋和工作崗位的喪失。但是，非洲農業的擴張，分割了原本的草原，減慢了大型草原火災的蔓延。這種現象在非洲部分地區出現，幫助減少了全球大火災的面積。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7a382699",
-        "title": "亞太市場周一開盤混亂，投資人關注美伊談判不確定性",
-        "url": "https://www.cnbc.com/2026/06/01/asia-markets-nikkei-225-kospi-hang-seng-index.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-05-31 23:46:43",
-        "summary_zh": "亞太市場周一預計開盤混亂，投資人關注美伊談判不確定性。美國總統川普表示不急於簽署伊朗協議，投資人對未來市場走向感到擔憂。美伊談判的不確定性使得投資人難以確定市場的方向，亞太市場因此預計開盤混亂。投資人將密切關注美伊談判的進展，同時觀察全球經濟的變化。美伊談判的結果將對全球市場產生重大影響，投資人需要準備面對未來的風險和機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fcbcec48",
-        "title": "極右派候選人意外勝出　為哥倫比亞傳統保守派帶來重挫",
-        "url": "https://www.theguardian.com/world/2026/jun/01/trump-admirer-abelardo-de-la-espriella-election-win-blow-to-colombia-conservatives",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 14:44:45 GMT",
-        "summary_zh": "哥倫比亞最近舉行了總統選舉，極右派律師阿貝拉多德拉埃斯皮里耶拉(Abelardo de la Espriella)意外勝出，領先左派參議員伊凡塞佩達(Iván Cepeda)約670,000票。這些未投票給兩人選民的數字不少，約3.6萬人。這些選民可能感到對政治感到疲勞，選擇了極右派候選人。這次選舉結果對哥倫比亞傳統保守派造成了重大的影響。阿貝拉多德拉埃斯皮里耶拉和伊凡塞佩達將在未投票給兩人選民的選民中競選，選舉將在三周內舉行。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "0ca76825",
-        "title": "哥倫比亞右派總統候選人 Espriella 在初選中勝出，將與 Cepeda 進入決選",
-        "url": "https://www.theguardian.com/world/2026/jun/01/colombia-far-right-presidential-candidate-espriella-wins-first-round-of-vote-ahead-of-election-runoff",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 10:35:40 GMT",
-        "summary_zh": "哥倫比亞剛舉行的總統初選結果出爐，右派律師 Espriella 以 43.7% 的選票率勝出，將與左派總統 Petro 支持的參議員 Cepeda 進入決選。 Espriella 是一位律師和川普的支持者，他在最近的民調中快速上升。根據目前的數據， Espriella 获得了 10.3 萬多票，而 Cepeda 則獲得了 9.6 萬多票。 Espriella 和 Cepeda 將在三周後進行決選。哥倫比亞總統選舉的結果將對該國政治產生重大影響。 Espriella 的勝利表明了哥倫比亞人民對右派政策的支持，而 Cepeda 的參選則代表了左派的反對意見。這次選舉將是哥倫比亞政治史上的重要事件。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "31d1e163",
-        "title": "摩洛哥超越南非成為非洲工業經濟第一",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-01/morocco-pips-south-africa-as-continent-s-top-industrial-economy",
-        "source": "Bloomberg",
-        "category": "global",
-        "published_at": "2026-06-01 07:06:03",
-        "summary_zh": "摩洛哥已經超越南非成為非洲工業經濟第一。根據最新的數據，摩洛哥的工業生產值已經超過南非，成為非洲最大的工業經濟體。這一轉變是由於摩洛哥政府的投資和政策改善，促進了該國的工業發展。摩洛哥的工業生產值增長了 5.5%，而南非的工業生產值則下降了 1.4%。摩洛哥的這一成就將對該國的經濟發展產生重大影響，同時也將使該國在非洲經濟領域的影響力增強。摩洛哥政府正在努力鞏固這一成就，繼續推動該國的工業發展。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "d296410c",
-        "title": "伊朗暫停與美國交涉 國際油價應聲飆漲",
-        "url": "https://www.cna.com.tw/news/aopl/202606010343.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 22:52:51 +0800",
-        "summary_zh": "伊朗與美國的交涉近日陷入僵局，連日終戰會談無果，美伊再度交火後，伊朗宣布暫停與美國交涉。這一消息引發了國際油價的大幅上揚，市場擔心伊朗的石油出口可能受到影響，進而導致全球油價上漲。伊朗的石油出口是全球重要的石油供應來源之一，暫停與美國交涉可能會導致石油出口受阻，進而影響全球油價。這一消息也引發了市場對於全球經濟的擔憂，市場人士擔心伊朗與美國的緊張關係可能會導致全球經濟的不穩定。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "eab6f657",
-        "title": "一年來的哀傷：空中巴士墜機後，什麼樣的遺留?",
-        "url": "https://www.bbc.com/news/articles/ce9pp53ky42o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 00:24:47 GMT",
-        "summary_zh": "一年前，空中巴士墜機事件發生在印度，造成了慘重的傷亡。這個悲慘的事件還留下了許多遺留的問題，包括對於死難者家屬的幫助和對於事故原因的調查。許多死難者家屬仍然在等待著答案和幫助。這個事件也引發了對於航空安全的關注和討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "aad0ad2d",
-        "title": "觀眾破碎玻璃門試圖看Netflix明星",
-        "url": "https://www.bbc.com/news/videos/cr7pye93n1ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 11:34:19 GMT",
-        "summary_zh": "近日，中國一間購物中心外出現大批觀眾，為的是看Netflix劇集《玉嬌梨》的演員張凌赫。這些觀眾為了看張凌赫，甚至破碎了購物中心的玻璃門。這種情況引發了對於中國網路紅人和明星的追捧程度的關注。根據觀察，這些觀眾的行為可能是由於對於張凌赫的粉絲身份感受到的壓力所導致。這種情況也引發了對於中國網路文化和社會的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5a38be8d",
-        "title": "東京觀光熱點芝加谷區今起查緝亂丟垃圾　違者即時罰款",
-        "url": "https://www.bbc.com/news/articles/cr7py513njmo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 06:52:40 GMT",
-        "summary_zh": "日本政府為應對觀光客增多對城市造成的影響，決定在世界聞名的芝加谷區實施查緝亂丟垃圾的行動。 dozens 位官員將在該區巡邏，負責查緝亂丟垃圾的行為，並對違者徵收罰款。這項措施旨在維護城市環境的清潔和整潔，並減少觀光客對城市造成的負面影響。 Shibuya 是東京的一個著名觀光區，吸引了大量的遊客，每年都有成千上萬的觀光客到訪該區。日本政府認為，觀光客增多對城市的環境和基礎設施造成了重大影響，因此決定採取措施來控制觀光客的行為。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2d1452b7",
-        "title": "中國煤礦災難：隱藏的隧道和未登記工人",
-        "url": "https://www.bbc.com/news/articles/cpwpeg57777o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Sun, 31 May 2026 23:32:04 GMT",
-        "summary_zh": "中國近15年來最嚴重的煤礦災難發生在中國政府正努力推動綠色能源轉型的時候。這次災難引發了對隱藏的隧道和未登記工人的關注。根據官方數據，中國煤礦每年平均有數百名工人喪生。這種悲劇的發生，讓人們不得不思考中國的煤礦安全問題。中國政府正試圖通過綠色能源轉型來減少對煤炭的依賴，但這種轉型過程中，仍然存在著許多挑戰和風險。這次災難是中國煤礦安全問題的一個警訊，讓人們關注未來的發展方向。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "06f726b4",
-        "title": "伊朗和美國報告海灣空襲新浪潮",
-        "url": "https://www.bbc.com/news/articles/crlpy8n7pr6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 13:12:26 GMT",
-        "summary_zh": "伊朗和美國近日發生新一波空襲事件，雙方針對對方的軍事設施進行攻擊。事件發生在霍爾木茲海峽附近，這個海峽是全球石油輸送的重要通道。伊朗和美國的軍事對峙已經持續了數月，雙方都有多次發射導彈和空襲。這次新的空襲事件引發了國際社會的關注，各國都在密切關注這個局勢的發展。伊朗和美國的軍事對峙對全球石油市場和地區安全都有重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7ee4ed9d",
-        "title": "視頻：隕石在麻薩諸塞州引起超音速爆炸",
-        "url": "https://www.bbc.com/news/videos/c1m24g0n40ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 14:56:37 GMT",
-        "summary_zh": "一隕石在美國麻薩諸塞州空中爆炸，引起超音速爆炸。根據美國國家航空暨太空總署（NASA）的資料，這隻隕石在爆炸時釋放出約300噸的三硝基甲烷（TNT）等效能量。這種超音速爆炸的聲音可能會在數百英里範圍內傳播，對周圍的居民造成巨大震撼。這種天文現象對於科學家來說是一個重要的研究機會，可以幫助我們更深入地了解隕石的形成和爆炸過程。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a9a76ed7",
-        "title": "緬甸叛軍控制村庄遭大爆炸，數十人喪生",
-        "url": "https://www.bbc.com/news/articles/cglp7p787njo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 06:23:59 GMT",
-        "summary_zh": "緬甸叛軍控制的村庄遭到大爆炸，造成數十人喪生。叛軍指出，這次爆炸是由於附近中國邊境的採礦活動使用的爆炸物引起的。這次爆炸發生在緬甸東北部的克欽邦省，該地區長期受到叛軍活動的影響。爆炸的影響尚未完全清楚，但已知有多人受傷。這次爆炸的原因尚未完全確定，但叛軍的說法引起了關注。緬甸政府和中國政府都沒有對這次爆炸發表評論。這次爆炸可能會對緬甸的安全局勢造成影響，尤其是在克欽邦省。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "49791b31",
-        "title": "伊朗警告以色列在黎巴嫩的攻擊威脅美國與伊朗的停火協議",
-        "url": "https://www.bbc.com/news/articles/c202rxp1z15o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 19:58:36 GMT",
-        "summary_zh": "伊朗發出警告，指出以色列在黎巴嫩的攻擊行動可能會威脅美國與伊朗的停火協議。這一事件發生在以色列總理下令對黎巴嫩南部郊區進行轟炸的同時，這是對於海珊派對以色列北部發動火箭和無人機攻擊的回應。伊朗的警告表明，這一局勢正在迅速惡化，可能會對中東地區造成重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0253919b",
-        "title": "法國與英國合作扣押俄羅斯油輪",
-        "url": "https://www.bbc.com/news/articles/cn8pwgej1gxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 11:53:26 GMT",
-        "summary_zh": "法國海軍在週日與英國等盟國的支持下，扣押了一艘受到制裁的俄羅斯油輪。這次行動是對俄羅斯入侵烏克蘭的最新反應。法國總統馬克宏表示，這次行動表明法國和英國將繼續與俄羅斯對抗，維護國際法和領土完整。這次扣押行動對俄羅斯的經濟和國際形象都造成了重大影響。法國和英國的合作也表明了兩國在對抗俄羅斯入侵烏克蘭方面的共同意愿。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b35a2cc6",
-        "title": "波蘭爭議性「地獄公路」666 公交車復活",
-        "url": "https://www.bbc.com/news/articles/c1d2ld91635o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 03:19:57 GMT",
-        "summary_zh": "波蘭海濱度假勝地海爾（Hel）將恢復666號公交車服務，儘管早前遭到基督教團體反對。海爾是波蘭最北端的海濱城市，該城市的居民和觀光客將能夠利用這條公交線路來前往附近的景點。這項決定引起了爭議，因為基督教團體認為666號公交車的編號具有惡魔的象徵意義。儘管如此，波蘭交通部仍決定恢復這條公交線路，為居民和觀光客提供更好的交通服務。這項決定可能會引起更多爭議和討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "288f2799",
-        "title": "尼日利亞警方警告南非人士避免報復攻擊",
-        "url": "https://www.bbc.com/news/articles/ce8prypdpz6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 10:02:49 GMT",
-        "summary_zh": "近期南非出現多場反移民抗議活動，導致南非與尼日利亞之間的緊張情緒日漸升高。尼日利亞警方已經發出警告，呼籲南非人士避免對尼日利亞公民進行報復攻擊。這一事件的背景是南非政府對非洲移民的態度日漸嚴厲，尼日利亞政府也對南非政府的政策表達了不滿。尼日利亞警方的警告表明，兩國之間的緊張情緒可能會進一步升級。這一事件可能會對兩國之間的關係產生重大影響，甚至可能引發衝突。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "ai": [
       {
-        "id": "c988336c",
-        "title": "吉米尼新AI代理人與谷歌示範相若",
-        "url": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on",
+        "id": "fb5ac423",
+        "title": "這可能是 Windows 的 M1 時刻，但你要準備付出巨額成本",
+        "url": "https://www.theverge.com/tech/941215/windows-laptops-nvidia-rtx-spark-apple-m1-arm-price-ram",
         "source": "The Verge AI",
         "category": "ai",
-        "published_at": "2026-06-01T16:00:00-04:00",
-        "summary_zh": "谷歌最新推出的「24/7」AI代理人吉米尼火花（Gemini Spark），在完成任務上表現出色。但我對其財務成本和隱私風險感到疑慮。谷歌宣稱吉米尼火花是一個可以完成任務並持續工作的AI代理人。該公司在上週給我提供了對吉米尼火花的訪問權。",
+        "published_at": "2026-06-01T16:02:31-04:00",
+        "summary_zh": "Nvidia 宣布進入消費級筆記本芯片市場的消息，對於 Windows 使用者來說是非常重要的一步。 Apple 多年來一直證明 Arm 處理器在 Mac 上的表現非常出色，同時也能夠提供長時間的電池壽命。然而，在 Windows 世界中，Qualcomm 處理器的表現尚未能完全匹配。 Nvidia 的 RTX Spark 處理器可能會成為 Windows 使用者選擇的新希望，但它的成本可能會很高。這可能是 Windows 的 M1 時刻，但需要考慮到這項新技術的高昂成本。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -458,6 +542,18 @@
         "ai_classified": true
       },
       {
+        "id": "c988336c",
+        "title": "吉米尼新AI代理人與谷歌示範相若",
+        "url": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-01T16:00:00-04:00",
+        "summary_zh": "谷歌最新推出的「24/7」AI代理人吉米尼火花（Gemini Spark），在完成任務上表現出色。但我對其財務成本和隱私風險感到疑慮。谷歌宣稱吉米尼火花是一個可以完成任務並持續工作的AI代理人。該公司在上週給我提供了對吉米尼火花的訪問權。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "24835f1e",
         "title": "Meta 自家 AI 被駭客利用，盜取 Instagram 帳戶",
         "url": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
@@ -466,8 +562,20 @@
         "published_at": "2026-06-01T15:20:47-04:00",
         "summary_zh": "近日，駭客利用 Meta 的 AI 支援聊天機器人，盜取 Instagram 帳戶。根據 404 Media 的報導，駭客透過 Telegram 分享的一段視頻，展示了如何利用 Meta 的聊天機器人，將他人 Instagram 帳戶的電子郵件地址改為自己的，並重置密碼，從而盜取帳戶。Meta 表示，這個問題已經被他們所知，正在進行處理。這個漏洞可能讓駭客輕易地盜取 Instagram 帳戶，對使用者造成嚴重的影響。Meta 尚未公佈任何解決方案或修復措施。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1a730214",
+        "title": "人工智慧巨頭 Anthropic 宣布計劃在美國股市上市",
+        "url": "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "ai",
+        "published_at": "Mon, 01 Jun 2026 18:50:13 GMT",
+        "summary_zh": "人工智慧公司 Anthropic，背後推動著 Claude 的開發，計劃在今年內向公眾發行股份。這項消息表明 Anthropic 正朝著一家公開上市公司的道路邁進，展現出其快速成長和發展的勢頭。這項變化將為 Anthropic 提供更多資金來源，幫助公司繼續推動人工智慧技術的發展。然而， Anthropic 的上市計畫尚未具體時間表，公司仍在籌備中。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "89a2bc26",
@@ -542,18 +650,6 @@
         "ai_classified": true
       },
       {
-        "id": "1a730214",
-        "title": "人工智慧巨頭 Anthropic 宣布計劃在美國股市上市",
-        "url": "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "ai",
-        "published_at": "Mon, 01 Jun 2026 18:50:13 GMT",
-        "summary_zh": "人工智慧公司 Anthropic，背後推動著 Claude 的開發，計劃在今年內向公眾發行股份。這項消息表明 Anthropic 正朝著一家公開上市公司的道路邁進，展現出其快速成長和發展的勢頭。這項變化將為 Anthropic 提供更多資金來源，幫助公司繼續推動人工智慧技術的發展。然而， Anthropic 的上市計畫尚未具體時間表，公司仍在籌備中。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "3b9843c3",
         "title": "Nvidia 宣布新一代人工智慧晶片",
         "url": "https://www.bbc.com/news/articles/crmp9mppvzro?at_medium=RSS&at_campaign=rss",
@@ -568,52 +664,40 @@
     ],
     "finance": [
       {
-        "id": "58027c11",
-        "title": "BP減持澳洲Browse項目，將5%股份出售給GS Energy",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-01/bp-dilutes-stake-in-australia-s-browse-with-5-sale-to-gs-energy",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-01 07:54:08",
-        "summary_zh": "英國石油公司BP宣布減持澳洲Browse項目的股份，將5%的股份出售給韓國能源公司GS Energy。這項交易將使BP的持股比例從原來的100%降低至95%。此次出售的股份價值約為10億美元。BP表示，這項出售是為了實現公司的財務目標和投資策略。GS Energy將在未來的發展階段中與BP合作，共同推進Browse項目的發展。這項交易將對澳洲能源市場產生一定的影響，同時也將考慮到公司的長期發展戰略。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "219b9dc3",
-        "title": "Adcock 面臨南非反壟斷指控",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-01/adcock-faces-possible-antitrust-charges-in-south-africa",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-01 07:52:51",
-        "summary_zh": "南非政府正在調查 Adcock 公司是否違反反壟斷法規，可能面臨反壟斷指控。 Adcock 是一家全球性醫藥公司，業務遍及南非和其他國家。調查的原因是 Adcock 的市場份額過高，可能對競爭造成不利影響。南非政府正在評估 Adcock 的行為是否違反反壟斷法規，可能會對公司提出指控。這一事件可能對 Adcock 的業務和股價產生影響。 Adcock 尚未對指控做出回應。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "400036c0",
-        "title": "高盛：日本股市仍有升值空間",
-        "url": "https://www.cnbc.com/2026/06/01/japan-stocks-topix-goldman-sachs-target-4400-earnings-foreign-inflows.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-06-01 07:48:29",
-        "summary_zh": "日本股市今年的強勁反彈仍未結束，高盛表示日本股市仍有升值空間。日本股市今年的表現亮眼，Topix指數創下新高。高盛分析指出，日本股市仍有升值空間，投資者不應該錯過這個機會。日本股市的強勁反彈受到多個因素的推動，包括經濟復甦、企業盈利改善和政府政策的支持。高盛認為，日本股市的升值空間仍然存在，投資者應該繼續關注日本股市的發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "e3b8178a",
-        "title": "西班牙製造業生產率增速放緩，供應延遲加劇，PMI指數顯示",
-        "url": "https://www.reuters.com/business/spains-manufacturing-growth-slows-supply-delays-intensify-pmi-shows-2026-06-01/",
+        "id": "f1a4b39d",
+        "title": "英國製造業價格上漲速度達近 4 年來最快，PMI 顯示",
+        "url": "https://www.reuters.com/world/uk/uk-manufacturers-raise-prices-fastest-pace-nearly-4-years-pmi-shows-2026-06-01/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-01 07:25:11",
-        "summary_zh": "西班牙的製造業生產率增速放緩，供應延遲加劇，根據PMI指數顯示。這一趨勢與全球經濟環境變化有關，包括供應鏈延遲、材料短缺等問題。西班牙的製造業是該國經濟的重要支柱，生產率增速放緩將對該國經濟產生一定影響。分析師預測，西班牙的製造業將繼續面臨供應延遲和材料短缺等挑戰，生產率增速可能會繼續放緩。這一趨勢也會對西班牙的出口業和就業市場產生影響。",
+        "published_at": "2026-06-01 08:53:35",
+        "summary_zh": "英國製造業價格上漲速度達近 4 年來最快，根據製造業活動指數（PMI），英國製造業價格上漲速度在 2023 年 5 月達到近 4 年來的最高點。這一趨勢與全球供應鏈緊張、原材料價格上漲以及英國經濟增長放緩有關。英國製造業價格上漲速度的加快可能會對消費者價格有所影響，並可能對英國經濟增長產生負面影響。英國央行可能會因應此一趨勢調整貨幣政策，以控制通貨膨脹。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
+      },
+      {
+        "id": "1d39d8c8",
+        "title": "Camil Alimentos 提議增加資本 139 億雷阿爾",
+        "url": "https://www.reuters.com/pt/negocio/NYUL637KJNMU7GNUVLDT75JBRE-2026-06-01/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-01 08:44:56",
+        "summary_zh": "巴西食品公司 Camil Alimentos 宣布提議增加資本 139 億雷阿爾。該公司表示，這項提議將幫助公司在未來的發展中取得更大的自主權和靈活性。這項提議將在未來的股東大會上進行投票。分析人士認為，這項提議將對公司的未來發展產生積極影響。然而，仍有許多未知數需要等待股東大會的結果。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d2c015e3",
+        "title": "摩根士丹利購買 Recrusul 5.1% 股票",
+        "url": "https://www.reuters.com/pt/negocio/VO254RSWFVP3XFYIJRABS4I42M-2026-06-01/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-01 08:43:05",
+        "summary_zh": "摩根士丹利宣布購買巴西企業 Recrusul 5.1% 的優先股。這項交易將使摩根士丹利成為 Recrusul 的重要股東。根據市場分析，Recrusul 是巴西的一家重要企業，從事能源和資源開發業務。摩根士丹利的投資將對 Recrusul 的業務發展產生重大影響。這項交易也表明摩根士丹利對巴西市場的投資意欲。然而，交易的具體細節尚未公開，投資者需要密切關注以了解更多資訊。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "a5d8b359",
@@ -628,40 +712,40 @@
         "ai_classified": true
       },
       {
-        "id": "c819b5eb",
-        "title": "易捷航空對收購意願表示疑慮，批評時間選擇『機會主義』",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-06-01/easyjet-casts-doubt-on-castlelake-interest-says-timing-highly-opportunistic",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-01 07:16:50",
-        "summary_zh": "易捷航空在最新的財務報告中表達了對收購意願的疑慮，指出某些投資者對收購的時間選擇是『機會主義』的。這一表述引發了市場的關注，投資者對易捷航空未來走向的預期變得更加不確定。易捷航空的財務報告顯示，公司在去年第四季度錄得了約 1.1 億英鎊的虧損，這一表現遠遠超出了市場預期。投資者對公司未來的財務表現感到擔憂，易捷航空的股價因此下跌了約 4%。易捷航空的收購意願表達出來的時間點被視為『機會主義』，因為公司在去年第四季度錄得了重大虧損，這使得投資者對公司未來的財務表現感到更加不確定。這一事件可能會對易捷航空的股價造成持續的影響，投資者需要密切關注公司的財務表現和未來的發展方向。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "27e2a641",
-        "title": "土耳其製造業接近穩定，PMI創自2024年3月以來新高",
-        "url": "https://www.reuters.com/world/middle-east/turkeys-manufacturing-nears-stabilisation-pmi-hits-highest-since-march-2024-2026-06-01/",
+        "id": "ee60a849",
+        "title": "格倫科爾南非冶煉廠取消計劃性裁員，與電力公司達成協議",
+        "url": "https://www.reuters.com/business/energy/glencores-south-african-smelter-cancels-planned-job-cuts-after-electricity-deal-2026-06-01/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-01 07:10:10",
-        "summary_zh": "根據最新數據，土耳其製造業的活動水平接近穩定，PMI指數創自2024年3月以來新高。這表明土耳其經濟正在從2024年初的衰退中恢復。然而，仍有許多挑戰需要面對，包括通脹和匯率的不穩定。土耳其政府正在努力維持經濟穩定，同時也在努力降低通脹率。這項努力可能會對經濟產生積極的影響，但仍需要時間和政策的持續支持。",
+        "published_at": "2026-06-01 08:41:56",
+        "summary_zh": "格倫科爾南非冶煉廠因電力短缺而面臨裁員風波，近日與電力公司達成協議，取消了計劃性裁員。這項協議將幫助冶煉廠節省電力成本，並改善生產效率。這項協議對於南非的金屬業產業具有重要意義，同時也表明了格倫科爾對於員工福利的關注。南非的電力短缺一直是該國經濟發展的重大挑戰，格倫科爾的這項協議將有助於改善該國的經濟環境。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "ca1d49d8",
-        "title": "瑞士經濟增長低於預估",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-01/swiss-economy-grew-less-than-estimated-at-start-of-the-year",
-        "source": "Bloomberg",
+        "id": "eb2240b1",
+        "title": "BP出售澳洲Browse LNG項目5%股份給韓國GS能源",
+        "url": "https://www.reuters.com/business/energy/bp-sells-5-stake-australian-browse-lng-project-south-koreas-gs-energy-2026-06-01/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-01 07:00:41",
-        "summary_zh": "瑞士經濟在今年初的增長率低於預期，根據瑞士國家統計局的數據，瑞士 GDP 增長率為 0.3%，低於市場預估的 0.5%。瑞士經濟增長的放緩主要是由於出口的下滑，出口額減少了 3.4%，而內需則是穩定增長。瑞士央行預計，瑞士經濟增長率將在今年下半年有所改善。瑞士經濟增長的放緩對瑞士央行的貨幣政策有所影響，瑞士央行可能會繼續維持低利率政策以刺激經濟增長。瑞士經濟增長的放緩也對瑞士的出口企業造成了挑戰，出口企業需要適應新的經濟環境並尋找新的市場機會。",
+        "published_at": "2026-06-01 08:40:58",
+        "summary_zh": "英國石油公司BP宣布出售澳洲Browse LNG項目5%股份給韓國能源公司GS能源。這項出售是為了籌措資金用於發展其他項目。Browse LNG項目位於澳洲西部，預計將成為該國最大的天然氣出口項目之一。出售股份後，BP仍將擁有Browse LNG項目的大部分股份。這項出售將對澳洲能源市場產生一定影響，同時也將加強韓國在澳洲能源領域的參與。",
         "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b32df8b9",
+        "title": "印度 GDP 增長率料於一月至三月季度放緩，受外部需求軟化影響 - 路透社調查",
+        "url": "https://www.reuters.com/world/india/india-gdp-growth-likely-eased-january-march-quarter-softer-external-demand-2026-06-01/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-01 08:40:53",
+        "summary_zh": "印度 GDP 增長率在一月至三月季度料於前期的 5.4% 增長後放緩至 4.8%。路透社對 11 家經濟學家的調查顯示，經濟增長放緩的主要原因是外部需求軟化。印度政府近期推出了一系列刺激經濟的政策，包括降低稅率和增加基礎建設投資。然而，這些政策的效果尚未完全顯現。印度央行在去年底宣布降息，試圖刺激經濟增長。經濟學家預測，印度 GDP 增長率在未來幾個季度將繼續放緩，但最終仍會恢復到 5% 以上的增長率。印度政府正在努力刺激經濟增長，同時維持控制通貨膨脹的目標。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "cc90ab3d",
@@ -724,18 +808,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "d0faae54",
-        "title": "SpaceX IPO 讓華爾街重新整合",
-        "url": "https://www.bloomberg.com/news/features/2026-05-31/spacex-s-ipo-led-by-elon-musk-forces-index-funds-and-retail-to-change-the-rules",
-        "source": "Bloomberg",
-        "category": "stock_us",
-        "published_at": "2026-05-31 21:00:09",
-        "summary_zh": "SpaceX 近期的上市(IPO)讓華爾街的投資者和分析師重新評估投資策略。SpaceX 的成功上市證明了公司在太空探索和私人太空飛行領域的領先地位。這也讓投資者開始關注這個領域的發展潛力。華爾街的投資銀行和證券公司開始為 SpaceX 的股票提供服務，包括買賣和評估。這標誌著華爾街對 SpaceX 的重視程度。SpaceX 的上市也引發了對私人太空飛行和太空探索的投資熱潮。投資者開始關注這個領域的發展潛力和投資機會。SpaceX 的成功上市也讓其他私人太空公司的投資者看到了希望。這也讓華爾街的投資者開始為這個領域的發展做好準備。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "stock_tw": [
@@ -772,8 +844,8 @@
         "published_at": "Mon, 01 Jun 2026 22:40:27 +0800",
         "summary_zh": "今年的COMPUTEX即將登場，人工智慧（AI）話題助勢下，台股今天衝破4萬5，創下歷史新高。中經院長連賢明表示，任何金融市場的過熱都是一種風險，台股是否過熱的問題需要進一步評估。連賢明提醒投資者應該修正風險，避免過度投入市場。這次台股的飆升與AI話題有關，投資者應該注意風險並做好準備。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "a18c6abe",
@@ -796,8 +868,8 @@
         "published_at": "Mon, 01 Jun 2026 22:00:40 +0800",
         "summary_zh": "台股在COMPUTEX年度科技盛事登場之際，今日衝破4萬5，創下歷史新高。外貿協會董事長黃志芳表示，台灣正在領銜全球產業轉型的浪潮。COMPUTEX是一個重要的科技展覽會，今年的活動將助力台灣科技業的發展。台股的突破是市場對台灣科技業前景的信心增強的體現。然而，市場仍然需要關注全球經濟的變化和產業結構的轉型。黃志芳的表述強調了台灣在全球產業轉型中的重要角色，展現了對未來的樂觀態度。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "dee0c2fc",
