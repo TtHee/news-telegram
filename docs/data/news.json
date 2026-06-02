@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-02T11:04:03.589674+08:00",
+  "generated_at": "2026-06-02T12:04:11.354730+08:00",
   "risk_signals": [
-    "🟢 台股加權 45558.45（正常）",
+    "🟢 台股加權 45160.44（正常）",
     "🟢 S&P 500 7599.96（正常）",
     "🟢 VIX 恐慌指數 16.05（正常）",
     "🟢 MOVE 債市波動 73.33（正常）",
-    "🟢 美元指數 99.21（正常）",
-    "🟢 黃金 4509.7（正常）",
+    "🟢 美元指數 99.2（正常）",
+    "🟢 黃金 4475.2（正常）",
     "🟢 美債10Y殖利率 4.47（正常）",
-    "🟢 原油 WTI 91.81（正常）",
-    "🟢 美元/台幣 31.43（正常）"
+    "🔴 原油 WTI 92.16（急漲 +5.49%，市場避險）",
+    "🟢 美元/台幣 31.47（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，指標正常，台股和美股均有微幅上漲，表明投資人對市場前景持樂觀態度。",
+  "ai_summary": "市場氛圍保持穩定，投資人對風險的承受度提高，市場避險情緒出現，但仍未對整體市場產生重大影響。",
   "market": {
     "TWII": {
-      "price": 45558.45,
-      "change_pct": 0.49
+      "price": 45160.44,
+      "change_pct": -0.39
     },
     "SP500": {
       "price": 7599.96,
@@ -38,25 +38,73 @@
       "change_pct": 4.43
     },
     "DXY": {
-      "price": 99.21,
-      "change_pct": 0.01
+      "price": 99.2,
+      "change_pct": 0.29
     },
     "GOLD": {
-      "price": 4509.7,
-      "change_pct": 0.77
+      "price": 4475.2,
+      "change_pct": -1.87
     },
     "OIL": {
-      "price": 91.81,
-      "change_pct": -0.38
+      "price": 92.16,
+      "change_pct": 5.49
     },
     "USDTWD": {
-      "price": 31.43,
-      "change_pct": 0.04
+      "price": 31.47,
+      "change_pct": 0.17
     }
   },
   "macro": {},
   "categories": {
     "global": [
+      {
+        "id": "06f726b4",
+        "title": "伊朗和美國報告海灣空襲新浪潮",
+        "url": "https://www.bbc.com/news/articles/crlpy8n7pr6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 13:12:26 GMT",
+        "summary_zh": "伊朗和美國近日發生新一波空襲事件，雙方針對對方的軍事設施進行攻擊。事件發生在霍爾木茲海峽附近，這個海峽是全球石油輸送的重要通道。伊朗和美國的軍事對峙已經持續了數月，雙方都有多次發射導彈和空襲。這次新的空襲事件引發了國際社會的關注，各國都在密切關注這個局勢的發展。伊朗和美國的軍事對峙對全球石油市場和地區安全都有重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "dea830e7",
+        "title": "史蒂芬·柯里與中國品牌李寧簽約，結束與Under Armour的合作關係",
+        "url": "https://www.bbc.com/news/articles/cj9pky3ldddo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 02 Jun 2026 02:44:42 GMT",
+        "summary_zh": "史蒂芬·柯里是一名美國職業籃球運動員，目前效力於國家籃球協會（NBA）的金州勇士。他近期宣布與中國品牌李寧簽約，結束與Under Armour的合作關係。這一轉變是由於中國企業正試圖成為全球品牌，為此他們積極與知名運動員簽下贊助合同。李寧是中國的一家運動品牌，曾經與多位知名運動員簽下贊助合同，包括籃球運動員姚明和田健兒。這一轉變將對柯里和李寧的品牌形象產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7ee4ed9d",
+        "title": "視頻：隕石在麻薩諸塞州引起超音速爆炸",
+        "url": "https://www.bbc.com/news/videos/c1m24g0n40ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 14:56:37 GMT",
+        "summary_zh": "一隕石在美國麻薩諸塞州空中爆炸，引起超音速爆炸。根據美國國家航空暨太空總署（NASA）的資料，這隻隕石在爆炸時釋放出約300噸的三硝基甲烷（TNT）等效能量。這種超音速爆炸的聲音可能會在數百英里範圍內傳播，對周圍的居民造成巨大震撼。這種天文現象對於科學家來說是一個重要的研究機會，可以幫助我們更深入地了解隕石的形成和爆炸過程。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "40800ef4",
+        "title": "威廉姆斯將於皇后盃雙打比賽中重返球場",
+        "url": "https://www.bbc.com/sport/tennis/articles/cx21k06ddvyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 18:39:48 GMT",
+        "summary_zh": "美國名將塞雷娜·威廉姆斯將在近四年後重返職業網球賽場，參加皇后盃雙打比賽。這是她在2019年退役後的首次參賽。威廉姆斯在職業網球生涯中贏得了23個大滿貫冠軍，包括7個女子單打冠軍和14個女子雙打冠軍。她的回歸將對網球界產生重大影響，許多人都在期待著她的表現。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "49791b31",
         "title": "伊朗警告以色列在黎巴嫩的攻擊威脅美國與伊朗的停火協議",
@@ -75,11 +123,11 @@
         "url": "https://www.bbc.com/news/articles/c5y8nq8ljqwo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Tue, 02 Jun 2026 02:36:18 GMT",
+        "published_at": "Tue, 02 Jun 2026 03:40:38 GMT",
         "summary_zh": "烏克蘭基輔市發生大規模夜間空襲，至少五人喪生。基輔市民數千人趁著空襲發生時趕忙躲入防空洞。根據官員的說法，這次空襲是由俄羅斯的彈道飛彈發動。這次空襲對烏克蘭的影響仍在評估中，目前尚無更多情報。烏克蘭政府正在努力應對這次空襲的後果，同時也呼籲民眾保持冷靜。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "193cb428",
@@ -102,8 +150,8 @@
         "published_at": "Tue, 02 Jun 2026 01:19:15 GMT",
         "summary_zh": "丹麥社會民主黨領袖梅特·費德里克斯森將組建中間偏左的少數政府，為她第三度擔任首相。這是丹麥政治人物多月來的談判結果。梅特·費德里克斯森的政府將面臨著多重挑戰，包括經濟復甦、氣候變化和移民政策等問題。這次組建政府的結果表明，丹麥政治人物仍然在努力尋找共識和合作的方法。這將對丹麥政治和社會產生重要影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "edf4ec24",
@@ -125,18 +173,6 @@
         "category": "global",
         "published_at": "Mon, 01 Jun 2026 16:54:28 GMT",
         "summary_zh": "匈牙利總理佩特·馬加爾（Péter Magyar）要求總統拒絕退位，引發憲法衝突。這一事件與前總理奧班（Orbán）時代有關。馬加爾政府要求總統退位，但總統拒絕，造成兩者之間的緊張關係。這一事件可能會對匈牙利政治產生重大影響。馬加爾政府的行動被視為對奧班時代的挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "06f726b4",
-        "title": "伊朗和美國報告海灣空襲新浪潮",
-        "url": "https://www.bbc.com/news/articles/crlpy8n7pr6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 13:12:26 GMT",
-        "summary_zh": "伊朗和美國近日發生新一波空襲事件，雙方針對對方的軍事設施進行攻擊。事件發生在霍爾木茲海峽附近，這個海峽是全球石油輸送的重要通道。伊朗和美國的軍事對峙已經持續了數月，雙方都有多次發射導彈和空襲。這次新的空襲事件引發了國際社會的關注，各國都在密切關注這個局勢的發展。伊朗和美國的軍事對峙對全球石油市場和地區安全都有重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -178,30 +214,6 @@
         "ai_classified": true
       },
       {
-        "id": "a9a76ed7",
-        "title": "緬甸叛軍控制村庄遭大爆炸，數十人喪生",
-        "url": "https://www.bbc.com/news/articles/cglp7p787njo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 06:23:59 GMT",
-        "summary_zh": "緬甸叛軍控制的村庄遭到大爆炸，造成數十人喪生。叛軍指出，這次爆炸是由於附近中國邊境的採礦活動使用的爆炸物引起的。這次爆炸發生在緬甸東北部的克欽邦省，該地區長期受到叛軍活動的影響。爆炸的影響尚未完全清楚，但已知有多人受傷。這次爆炸的原因尚未完全確定，但叛軍的說法引起了關注。緬甸政府和中國政府都沒有對這次爆炸發表評論。這次爆炸可能會對緬甸的安全局勢造成影響，尤其是在克欽邦省。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7ee4ed9d",
-        "title": "視頻：隕石在麻薩諸塞州引起超音速爆炸",
-        "url": "https://www.bbc.com/news/videos/c1m24g0n40ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 14:56:37 GMT",
-        "summary_zh": "一隕石在美國麻薩諸塞州空中爆炸，引起超音速爆炸。根據美國國家航空暨太空總署（NASA）的資料，這隻隕石在爆炸時釋放出約300噸的三硝基甲烷（TNT）等效能量。這種超音速爆炸的聲音可能會在數百英里範圍內傳播，對周圍的居民造成巨大震撼。這種天文現象對於科學家來說是一個重要的研究機會，可以幫助我們更深入地了解隕石的形成和爆炸過程。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "f3652220",
         "title": "中東和談再陷僵局 歐洲股市收低",
         "url": "https://www.cna.com.tw/news/afe/202606020004.aspx",
@@ -214,6 +226,18 @@
         "ai_classified": true
       },
       {
+        "id": "a9a76ed7",
+        "title": "緬甸叛軍控制村庄遭大爆炸，數十人喪生",
+        "url": "https://www.bbc.com/news/articles/cglp7p787njo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 01 Jun 2026 06:23:59 GMT",
+        "summary_zh": "緬甸叛軍控制的村庄遭到大爆炸，造成數十人喪生。叛軍指出，這次爆炸是由於附近中國邊境的採礦活動使用的爆炸物引起的。這次爆炸發生在緬甸東北部的克欽邦省，該地區長期受到叛軍活動的影響。爆炸的影響尚未完全清楚，但已知有多人受傷。這次爆炸的原因尚未完全確定，但叛軍的說法引起了關注。緬甸政府和中國政府都沒有對這次爆炸發表評論。這次爆炸可能會對緬甸的安全局勢造成影響，尤其是在克欽邦省。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "aad0ad2d",
         "title": "觀眾破碎玻璃門試圖看Netflix明星",
         "url": "https://www.bbc.com/news/videos/cr7pye93n1ro?at_medium=RSS&at_campaign=rss",
@@ -221,18 +245,6 @@
         "category": "global",
         "published_at": "Mon, 01 Jun 2026 11:34:19 GMT",
         "summary_zh": "近日，中國一間購物中心外出現大批觀眾，為的是看Netflix劇集《玉嬌梨》的演員張凌赫。這些觀眾為了看張凌赫，甚至破碎了購物中心的玻璃門。這種情況引發了對於中國網路紅人和明星的追捧程度的關注。根據觀察，這些觀眾的行為可能是由於對於張凌赫的粉絲身份感受到的壓力所導致。這種情況也引發了對於中國網路文化和社會的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d296410c",
-        "title": "伊朗暫停與美國交涉 國際油價應聲飆漲",
-        "url": "https://www.cna.com.tw/news/aopl/202606010343.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Mon, 01 Jun 2026 22:52:51 +0800",
-        "summary_zh": "伊朗與美國的交涉近日陷入僵局，連日終戰會談無果，美伊再度交火後，伊朗宣布暫停與美國交涉。這一消息引發了國際油價的大幅上揚，市場擔心伊朗的石油出口可能受到影響，進而導致全球油價上漲。伊朗的石油出口是全球重要的石油供應來源之一，暫停與美國交涉可能會導致石油出口受阻，進而影響全球油價。這一消息也引發了市場對於全球經濟的擔憂，市場人士擔心伊朗與美國的緊張關係可能會導致全球經濟的不穩定。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -298,18 +310,6 @@
         "ai_classified": true
       },
       {
-        "id": "58da8072",
-        "title": "伊朗再狂飆！不只荷姆茲，還要封鎖另一條關鍵航道 國際油價再狂飆",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5457433",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Tue, 02 Jun 2026 09:20:36 +0800",
-        "summary_zh": "伊朗近日宣布停止與美國的間接談判，隨後規劃由伊朗軍隊及其盟友全面封鎖荷姆茲海峽，並可能干擾其他重點海峽。這一行動引發國際社會高度關注，特別是對於全球油價的影響。荷姆茲海峽是全球石油輸送的關鍵航道之一，封鎖這一海峽將對全球油價造成重大影響。伊朗的行動被視為挑戰美國的影響力，並可能導致國際關係的緊張升級。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "fcbcec48",
         "title": "極右派候選人意外勝出　為哥倫比亞傳統保守派帶來重挫",
         "url": "https://www.theguardian.com/world/2026/jun/01/trump-admirer-abelardo-de-la-espriella-election-win-blow-to-colombia-conservatives",
@@ -339,7 +339,7 @@
         "id": "e1b2c27d",
         "title": "鮑文：川普需要這場戰爭結束，但伊朗不願妥協",
         "url": "https://www.bbc.com/news/articles/cedp3lee059o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "source": "BBC World",
         "category": "whitehouse",
         "published_at": "Mon, 01 Jun 2026 21:50:52 GMT",
         "summary_zh": "由於民意壓力和海灣盟友的壓力，白宮正努力推動和平方案，但伊朗卻要求取得讓步。伊朗的堅決態度使得戰爭持續下去的可能性增加。這種局勢下，美國總統川普面臨著難以達成和平方案的挑戰。伊朗的堅決態度也使得美國國內的反戰聲浪更加高漲。目前，美國和伊朗之間的對立仍在持續升級，未來的發展方向仍存不明朗。",
@@ -348,22 +348,10 @@
         "ai_classified": true
       },
       {
-        "id": "35e68999",
-        "title": "佛州檢察長指控 OpenAI 師徒俱樂部幫助槍手",
-        "url": "https://www.bbc.com/news/articles/czx2j0v8d2xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 01 Jun 2026 18:58:26 GMT",
-        "summary_zh": "佛羅里達州檢察長詹姆斯·烏斯梅爾 (James Uthmeier) 指控 OpenAI 和總裁 Sam Altman 建立了一個 '欺詐網絡'。他認為 OpenAI 的 ChatGPT 平台幫助槍手和兇手進行策劃和溝通。這項指控出現在一份訴訟中，訴訟指控 OpenAI 和其高管違反了佛羅里達州的法律。檢察長表示，該公司的行為是 '危險和有害的'。他還指控 OpenAI 沒有采取足夠的措施來防止其平台被用於有害目的。這項訴訟是對 OpenAI 的 ChatGPT 平台的最新批評。該平台已經受到關注，因為它允許用戶創建自定義的對話和對象。檢察長表示，該公司的行為將對佛羅里達州的公民造成嚴重的風險。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "5dd02fa3",
         "title": "川普插足美國250週年慶祝活動",
         "url": "https://www.bbc.com/news/articles/clypkj2e349o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "source": "BBC World",
         "category": "whitehouse",
         "published_at": "Mon, 01 Jun 2026 22:56:39 GMT",
         "summary_zh": "美國獨立日慶祝活動原本應該是一個團結的節日，但卻變成了另一場黨派爭議的舞台。川普總統插足了這場慶祝活動，引發了對他的政治動機的猜測。這種情況在美國政治中並不罕見，黨派之間的分歧和對立已經成為美國政治的常態。這次的獨立日慶祝活動將會是一個關鍵時刻，展示美國政治的分裂和對立。美國人將會在這個節日中展現出對於國家和政治的看法，同時也會展現出對於未來的期望。",
@@ -384,6 +372,18 @@
         "ai_classified": true
       },
       {
+        "id": "35e68999",
+        "title": "佛州檢察長指控 OpenAI 師徒俱樂部幫助槍手",
+        "url": "https://www.bbc.com/news/articles/czx2j0v8d2xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 18:58:26 GMT",
+        "summary_zh": "佛羅里達州檢察長詹姆斯·烏斯梅爾 (James Uthmeier) 指控 OpenAI 和總裁 Sam Altman 建立了一個 '欺詐網絡'。他認為 OpenAI 的 ChatGPT 平台幫助槍手和兇手進行策劃和溝通。這項指控出現在一份訴訟中，訴訟指控 OpenAI 和其高管違反了佛羅里達州的法律。檢察長表示，該公司的行為是 '危險和有害的'。他還指控 OpenAI 沒有采取足夠的措施來防止其平台被用於有害目的。這項訴訟是對 OpenAI 的 ChatGPT 平台的最新批評。該平台已經受到關注，因為它允許用戶創建自定義的對話和對象。檢察長表示，該公司的行為將對佛羅里達州的公民造成嚴重的風險。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "e46d6abb",
         "title": "否，川普的名字還沒有從肯尼迪中心的牌子上移除",
         "url": "https://www.bbc.com/news/videos/c759pqn255zo?at_medium=RSS&at_campaign=rss",
@@ -391,6 +391,66 @@
         "category": "whitehouse",
         "published_at": "Mon, 01 Jun 2026 21:35:30 GMT",
         "summary_zh": "近日，一則人工智慧生成的視頻在網路上引起了轟動，內容是川普總統的名字被從肯尼迪中心的牌子上移除。然而，這則視頻其實是虛構的，沒有實際上移除川普的名字。這則視頻的出現讓許多人感到驚訝，但事實上，這只是人工智慧技術的應用之一。這則視頻的產生是基於人工智慧的深度學習技術，讓人工智慧可以模擬真實的場景。這種技術的應用在未來可能會越來越普遍，讓我們看到更多的虛構視頻。這則視頻的出現也讓人們思考，人工智慧技術的應用會如何影響我們的生活。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ca1f1405",
+        "title": "愛荷華州家暴案六人遇害，警方表示",
+        "url": "https://www.bbc.com/news/articles/cg4p7e6301do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 02 Jun 2026 03:50:34 GMT",
+        "summary_zh": "愛荷華州發生一宗嚴重的家暴案，六人在一場家庭糾紛中喪生。警方表示，疑似兇手在一座橋下被發現，死因是自殺式槍擊。這宗案件引起了當地居民的震驚和憂慮。這個家庭糾紛的原因尚未明朗，但警方已經展開調查。這宗案件對當地社區的影響可能會持續很長時間。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "163e9329",
+        "title": "白宮發表白皮書：川普總統調整鋼、鋁、銅進口稅率",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-updates-tariffs-on-steel-aluminum-and-copper-imports/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 02 Jun 2026 01:10:32 +0000",
+        "summary_zh": "川普總統宣布調整鋼、鋁、銅進口稅率，以加強國內戰略金屬生產，促進美國農業、房屋和製造業投資，並推動美國相關產品的生產。這一措施旨在保護美國關鍵產業，並對抗國家安全威脅。川普總統利用鋼、鋁、銅進口稅率來保護美國的關鍵產業，同時促進美國的農業、房屋和製造業投資。這一措施對美國經濟和國內產業發展有著重要影響。然而，對於進口商和國際貿易的影響仍待觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "85b76d70",
+        "title": "美國總統再次調整進口鋁、鋼、銅關稅制度",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 02 Jun 2026 01:09:17 +0000",
+        "summary_zh": "美國總統宣布調整進口鋁、鋼、銅的關稅制度。這是美國總統對於鋼、鋁、銅進口關稅制度的最新調整，旨在保護美國的鋼、鋁、銅產業。根據美國總統的宣布，新的關稅制度將於 2025 年 7 月 30 日生效。這項調整將對美國鋼、鋁、銅產業產生重大影響，同時也將對進口商和出口商造成影響。美國總統的決策是為了保護美國的鋼、鋁、銅產業，並確保美國的產業競爭力。這項調整將是美國鋼、鋁、銅產業發展的重要里程碑。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0768ab60",
+        "title": "總統發表全球科普特日宣言",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/presidential-message-on-global-coptic-day/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 22:12:24 +0000",
+        "summary_zh": "全球科普特日是為了慶祝科普特東方教會的堅定信仰、豐富的傳統和驚人的韌性。科普特教會是世界上最古老的基督教社區之一。根據傳說，聖母瑪利亞和耶穌一家曾經逃到埃及避難，後來埃及成為了基督教社區的家園。科普特教會的歷史可以追溯到公元前 2,000 年。科普特教會在埃及的發展，受到埃及歷史和文化的深深影響。科普特教會的信徒們在面對迫害和挑戰時，展現出驚人的韌性和堅定不移的信仰。總統在全球科普特日的宣言中，表達了對科普特教會的尊敬和感謝。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "18d2d972",
+        "title": "提名和撤回名單送交參議院",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/nominations-and-withdrawal-sent-to-the-senate-9d32/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 01 Jun 2026 19:45:44 +0000",
+        "summary_zh": "美國白宮宣布，將提名馬克·阿布魯（Mark Abreu）擔任美國駐薩爾瓦多大使，亞歷山大·阿爾登（Alexander Alden）擔任美國駐阿塞拜疆大使，克里斯多福·安德森（Christopher Anderson）擔任美國駐[...]大使。這些提名將送交參議院進行審核。這項行動是白宮對外交政策的一部分，旨在加強美國與中南美洲國家的關係。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -478,117 +538,9 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "163e9329",
-        "title": "白宮發表白皮書：川普總統調整鋼、鋁、銅進口稅率",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-updates-tariffs-on-steel-aluminum-and-copper-imports/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 02 Jun 2026 01:10:32 +0000",
-        "summary_zh": "川普總統宣布調整鋼、鋁、銅進口稅率，以加強國內戰略金屬生產，促進美國農業、房屋和製造業投資，並推動美國相關產品的生產。這一措施旨在保護美國關鍵產業，並對抗國家安全威脅。川普總統利用鋼、鋁、銅進口稅率來保護美國的關鍵產業，同時促進美國的農業、房屋和製造業投資。這一措施對美國經濟和國內產業發展有著重要影響。然而，對於進口商和國際貿易的影響仍待觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "85b76d70",
-        "title": "美國總統再次調整進口鋁、鋼、銅關稅制度",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 02 Jun 2026 01:09:17 +0000",
-        "summary_zh": "美國總統宣布調整進口鋁、鋼、銅的關稅制度。這是美國總統對於鋼、鋁、銅進口關稅制度的最新調整，旨在保護美國的鋼、鋁、銅產業。根據美國總統的宣布，新的關稅制度將於 2025 年 7 月 30 日生效。這項調整將對美國鋼、鋁、銅產業產生重大影響，同時也將對進口商和出口商造成影響。美國總統的決策是為了保護美國的鋼、鋁、銅產業，並確保美國的產業競爭力。這項調整將是美國鋼、鋁、銅產業發展的重要里程碑。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0768ab60",
-        "title": "總統發表全球科普特日宣言",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/presidential-message-on-global-coptic-day/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 01 Jun 2026 22:12:24 +0000",
-        "summary_zh": "全球科普特日是為了慶祝科普特東方教會的堅定信仰、豐富的傳統和驚人的韌性。科普特教會是世界上最古老的基督教社區之一。根據傳說，聖母瑪利亞和耶穌一家曾經逃到埃及避難，後來埃及成為了基督教社區的家園。科普特教會的歷史可以追溯到公元前 2,000 年。科普特教會在埃及的發展，受到埃及歷史和文化的深深影響。科普特教會的信徒們在面對迫害和挑戰時，展現出驚人的韌性和堅定不移的信仰。總統在全球科普特日的宣言中，表達了對科普特教會的尊敬和感謝。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "18d2d972",
-        "title": "提名和撤回名單送交參議院",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/nominations-and-withdrawal-sent-to-the-senate-9d32/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 01 Jun 2026 19:45:44 +0000",
-        "summary_zh": "美國白宮宣布，將提名馬克·阿布魯（Mark Abreu）擔任美國駐薩爾瓦多大使，亞歷山大·阿爾登（Alexander Alden）擔任美國駐阿塞拜疆大使，克里斯多福·安德森（Christopher Anderson）擔任美國駐[...]大使。這些提名將送交參議院進行審核。這項行動是白宮對外交政策的一部分，旨在加強美國與中南美洲國家的關係。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "ai": [
-      {
-        "id": "0116cb08",
-        "title": "人工智慧巨頭 Anthropic 秘密提交 IPO 文件，可能成為史上最大規模的上市案件",
-        "url": "https://www.wired.com/story/anthropic-files-s1-ipo-sec/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Mon, 01 Jun 2026 17:17:58 +0000",
-        "summary_zh": "人工智慧公司 Anthropic 週一提交了 IPO 文件，這是該公司宣布與 Claude 合作後不久。這次提交文件可能將創造出史上最大規模的 IPO 案件。 Anthropic 是一家領先的人工智慧公司，已經與 Claude 合作，為企業提供 AI 解決方案。該公司的 IPO 文件提交後，市場上出現了對 Anthropic 未來發展的關注。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "1a730214",
-        "title": "人工智慧巨頭 Anthropic 宣布計劃在美國股市上市",
-        "url": "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "ai",
-        "published_at": "Mon, 01 Jun 2026 18:50:13 GMT",
-        "summary_zh": "人工智慧公司 Anthropic，背後推動著 Claude 的開發，計劃在今年內向公眾發行股份。這項消息表明 Anthropic 正朝著一家公開上市公司的道路邁進，展現出其快速成長和發展的勢頭。這項變化將為 Anthropic 提供更多資金來源，幫助公司繼續推動人工智慧技術的發展。然而， Anthropic 的上市計畫尚未具體時間表，公司仍在籌備中。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1e42cdfd",
-        "title": "中國腦電腦晶片大計：世界首個腦內植入晶片獲准",
-        "url": "https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Mon, 01 Jun 2026 12:10:00 +0000",
-        "summary_zh": "中國近日批准了世界上第一個腦電腦晶片，這種晶片能夠與人腦連接，讓人們能夠通過腦電信號控制電子設備。這項技術的開發是由中國的一家公司推動的，該公司稱這項技術將能夠幫助治療癱瘓和其他神經系統疾病。然而，這項技術也引發了對隱私和安全性的擔憂。中國政府的批准意味著這項技術將會在中國推廣開來，可能會對全球的腦電腦技術產生重大影響。這項技術的發展也會引發更多的爭議和討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8a41e640",
-        "title": "中國首度批准世界首個腦電腦芯片，未來發展方向何在？",
-        "url": "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Mon, 01 Jun 2026 09:09:00 +0000",
-        "summary_zh": "中國一名39歲的男性董慧（Dong Hui）六年前因車禍受傷，導致頸部以下全身癱瘓。然而，通過中國政府批准的世界首個腦電腦芯片技術，董慧在去年10月的一天，坐在家中的庭院中，決定試圖用手寫字。經過一番努力，他終於成功寫下了字。這項技術開創了一個嶄新的時代，讓身體受損的人們可以通過腦電腦接口來控制外界事物。然而，這項技術的未來發展方向還需要進一步探索。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3b9843c3",
-        "title": "Nvidia 宣布新一代人工智慧晶片",
-        "url": "https://www.bbc.com/news/articles/crmp9mppvzro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "ai",
-        "published_at": "Mon, 01 Jun 2026 11:14:13 GMT",
-        "summary_zh": "Nvidia 最近宣布推出一款新一代的人工智慧晶片，該晶片將於個人電腦中使用。Nvidia 的 CEO 杰森·胡安格（Jensen Huang）稱，這一舉動是「電腦的重生」。這款新晶片將能夠更好地處理人工智慧相關的計算任務，從而使個人電腦的運算能力大幅提升。這一發展將對於人工智慧的應用和發展產生重大影響，同時也將對於個人電腦的市場需求和供應產生新的變化。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
       {
         "id": "fb5ac423",
         "title": "這可能是 Windows 的 M1 時刻，但你要準備付出巨額成本",
@@ -638,6 +590,18 @@
         "ai_classified": true
       },
       {
+        "id": "1a730214",
+        "title": "人工智慧巨頭 Anthropic 宣布計劃在美國股市上市",
+        "url": "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "ai",
+        "published_at": "Mon, 01 Jun 2026 18:50:13 GMT",
+        "summary_zh": "人工智慧公司 Anthropic，背後推動著 Claude 的開發，計劃在今年內向公眾發行股份。這項消息表明 Anthropic 正朝著一家公開上市公司的道路邁進，展現出其快速成長和發展的勢頭。這項變化將為 Anthropic 提供更多資金來源，幫助公司繼續推動人工智慧技術的發展。然而， Anthropic 的上市計畫尚未具體時間表，公司仍在籌備中。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "926e47e2",
         "title": "微軟將於 Build 大會公布新 AI 模型和 Windows 改進",
         "url": "https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect",
@@ -672,9 +636,105 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "1e42cdfd",
+        "title": "中國腦電腦晶片大計：世界首個腦內植入晶片獲准",
+        "url": "https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Mon, 01 Jun 2026 12:10:00 +0000",
+        "summary_zh": "中國近日批准了世界上第一個腦電腦晶片，這種晶片能夠與人腦連接，讓人們能夠通過腦電信號控制電子設備。這項技術的開發是由中國的一家公司推動的，該公司稱這項技術將能夠幫助治療癱瘓和其他神經系統疾病。然而，這項技術也引發了對隱私和安全性的擔憂。中國政府的批准意味著這項技術將會在中國推廣開來，可能會對全球的腦電腦技術產生重大影響。這項技術的發展也會引發更多的爭議和討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8a41e640",
+        "title": "中國首度批准世界首個腦電腦芯片，未來發展方向何在？",
+        "url": "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Mon, 01 Jun 2026 09:09:00 +0000",
+        "summary_zh": "中國一名39歲的男性董慧（Dong Hui）六年前因車禍受傷，導致頸部以下全身癱瘓。然而，通過中國政府批准的世界首個腦電腦芯片技術，董慧在去年10月的一天，坐在家中的庭院中，決定試圖用手寫字。經過一番努力，他終於成功寫下了字。這項技術開創了一個嶄新的時代，讓身體受損的人們可以通過腦電腦接口來控制外界事物。然而，這項技術的未來發展方向還需要進一步探索。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3b9843c3",
+        "title": "Nvidia 宣布新一代人工智慧晶片",
+        "url": "https://www.bbc.com/news/articles/crmp9mppvzro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "ai",
+        "published_at": "Mon, 01 Jun 2026 11:14:13 GMT",
+        "summary_zh": "Nvidia 最近宣布推出一款新一代的人工智慧晶片，該晶片將於個人電腦中使用。Nvidia 的 CEO 杰森·胡安格（Jensen Huang）稱，這一舉動是「電腦的重生」。這款新晶片將能夠更好地處理人工智慧相關的計算任務，從而使個人電腦的運算能力大幅提升。這一發展將對於人工智慧的應用和發展產生重大影響，同時也將對於個人電腦的市場需求和供應產生新的變化。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0116cb08",
+        "title": "人工智慧巨頭 Anthropic 秘密提交 IPO 文件，可能成為史上最大規模的上市案件",
+        "url": "https://www.wired.com/story/anthropic-files-s1-ipo-sec/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Mon, 01 Jun 2026 17:17:58 +0000",
+        "summary_zh": "人工智慧公司 Anthropic 週一提交了 IPO 文件，這是該公司宣布與 Claude 合作後不久。這次提交文件可能將創造出史上最大規模的 IPO 案件。 Anthropic 是一家領先的人工智慧公司，已經與 Claude 合作，為企業提供 AI 解決方案。該公司的 IPO 文件提交後，市場上出現了對 Anthropic 未來發展的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "66259a71",
+        "title": "黃仁勳：輝達是台灣生態系最大買家 可兼顧供應鏈韌性",
+        "url": "https://www.cna.com.tw/news/afe/202606020069.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 02 Jun 2026 11:00:43 +0800",
+        "summary_zh": "中央社報導，輝達執行長黃仁勳表示，投資台灣最直接的方式就是「花錢」，輝達已經成為台灣生態系最大的買家。這樣的投資不僅能夠幫助輝達在台灣建立龐大的供應鏈，也能夠讓供應鏈保持韌性。目前，輝達在台灣已經僱用超過1000名員工，並計劃在未來幾年內招募數千名員工，將成為台灣最大的雇主之一。這項投資將對台灣的經濟和產業發展產生重要影響，同時也將幫助輝達在全球市場上保持競爭力。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "72ec8d49",
+        "title": "統一發票3-4月期千萬獎開出20張 中獎清冊下午揭曉",
+        "url": "https://www.cna.com.tw/news/ahel/202606020050.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 02 Jun 2026 10:38:03 +0800",
+        "summary_zh": "財政部初步統計，115年3、4月統一發票開出20張特別獎（新台幣1000萬元）及19張特獎（200萬元）中獎發票。這意味著共有39名幸運兒將獲得高額獎金。中獎清冊將於今天下午4時30分揭曉，讓大家等待中獎結果。這項活動是每年一次的統一發票抽獎活動，吸引了許多民眾參與。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ffcce383",
+        "title": "台法先進封裝廠搶手 小鎮勒巴普從72提案中脫穎而出",
+        "url": "https://www.cna.com.tw/news/afe/202606020046.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 02 Jun 2026 10:33:55 +0800",
+        "summary_zh": "鴻海科技集團與法商成立的合資公司Tessalia將落腳於法國西南部的小鎮勒巴普。鴻海S事業群總經理陳偉銘表示，勒巴普鄰近「雷射之路」聚落，水電供應穩定，生活品質佳，是理想的半導體產業發展環境。這項投資是台法兩國在半導體產業合作的重要一步，將為兩國的產業發展帶來新的機會。然而，投資環境的競爭激烈，勒巴普從72個提案中脫穎而出，顯示出其吸引力。這項投資將對勒巴普小鎮的經濟發展產生重大影響，同時也將為台法兩國的產業合作帶來新的機會。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8965acaf",
+        "title": "黃仁勳與蔡力行同台談N1X新晶片：將長期擴展此架構",
+        "url": "https://www.cna.com.tw/news/afe/202606020039.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 02 Jun 2026 09:50:39 +0800",
+        "summary_zh": "輝達執行長黃仁勳與聯發科執行長蔡力行今天舉行全球媒體問答，討論雙方合作的Arm架構N1X晶片。黃仁勳表示，N1X名稱的由來是因為有一個較小的版本稱為N1，輝達已經開始規劃N2X和N3X的發展。黃仁勳強調，輝達將在很長一段時間內持續擴展這個架構，展現出對於N1X晶片的長期投資和信心。這一合作將對於Arm架構的發展和未來的應用有重要影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "5e9f3d38",
         "title": "美股創高激勵 台股早盤漲逾400點台積電勁揚30元",
@@ -684,8 +744,8 @@
         "published_at": "Tue, 02 Jun 2026 09:16:19 +0800",
         "summary_zh": "台股今天早盤受到美股主要指數創新高的激勵，指數開高走高，早盤上漲逾400點，來到45805.29點。台積電股價也上漲30元，達2385元。這表明投資者對於科技股的信心正在增強。然而，投資者也需要注意市場的波動和風險，確保投資的安全性。整體來說，今天的台股表現是正面的，投資者可以持續關注市場的發展。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "2445d137",
@@ -696,8 +756,8 @@
         "published_at": "Tue, 02 Jun 2026 09:07:15 +0800",
         "summary_zh": "台北外匯市場新台幣兌美元匯率今天以31.36元開盤，升1.9分。這是近期新台幣匯率的升值趨勢。根據市場分析，新台幣的升值主要是受到外資購買新台幣的影響。外資購買新台幣的動力來自於對台灣經濟的信心增強，以及對美元的贖回需求減少。這使得新台幣的匯率得以升值。然而，市場仍然需要密切關注美元的走勢，以確保新台幣的匯率不會出現過快的波動。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "7a74d4df",
@@ -708,8 +768,8 @@
         "published_at": "Tue, 02 Jun 2026 09:04:11 +0800",
         "summary_zh": "台北股市今天開盤出現了明顯的上漲趨勢，指數上升了51.02點，達到45388.93點。同時，成交金額也達到新台幣191.78億元。這一波上漲可能與市場對經濟前景的改善或是投資者對股市的信心增強有關。然而，投資者仍應保持謹慎，密切關注市場的變化，以避免未來的風險。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "6ad73f15",
@@ -720,8 +780,8 @@
         "published_at": "Tue, 02 Jun 2026 08:38:02 +0800",
         "summary_zh": "Google母公司Alphabet宣布籌募800億美元資金，主要用於AI基礎建設擴張計畫。其中，波克夏海瑟威（Berkshire Hathaway）將入股100億美元。這一籌資行動將幫助Alphabet進一步發展其人工智慧技術，並加強其在全球市場的競爭力。這一消息對於科技業界的發展具有重要意義，同時也反映出巴菲特公司對於AI技術的信心。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "84f36dd8",
@@ -770,125 +830,77 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "09b0b2a3",
-        "title": "AI需求衝擊晶片供應 今年全球智慧手機出貨量恐創空前跌幅",
-        "url": "https://www.cna.com.tw/news/aopl/202606010346.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 23:11:59 +0800",
-        "summary_zh": "市場研究公司Counterpoint近日下調今年全球智慧手機出貨量預估，預計出貨量將萎縮13.9%至10億8000萬支，創有紀錄以來最大降幅。原因是記憶體晶片短缺惡化，對於全球智慧手機產業造成重大影響。這項預估比2月份的預估更為悲觀，表明智慧手機產業正面臨著嚴重的供應鏈挑戰。晶片短缺將對於全球手機市場造成重大影響，可能導致手機出貨量大幅下降。這項預估也表明，智慧手機產業正面臨著重大轉變，需要適應新的供應鏈和市場趨勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "762ba972",
-        "title": "日月光投控員工平均年薪628萬元上市之冠 台積電第七",
-        "url": "https://www.cna.com.tw/news/afe/202606010342.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 22:39:48 +0800",
-        "summary_zh": "台灣證券交易所今天公布2025年台灣上市公司全體員工薪酬資訊，日月光投控平均員工薪資新台幣628.2萬元，勇奪冠軍，較2024年大幅成長4成。這項數據顯示，日月光投控的員工薪資遠超過其他上市公司，甚至超過許多知名企業。根據資料，台積電的員工平均薪資為新台幣456.8萬元，排名第七。這項數據表明，日月光投控的員工薪資水準非常高，可能與公司的業務成長和財務狀況有關。然而，這項數據也引發了關於薪資差距和勞動權益的討論。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "90920cc1",
-        "title": "今彩539第115133期頭獎2注中獎",
-        "url": "https://www.cna.com.tw/news/ahel/202606010338.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 01 Jun 2026 22:04:39 +0800",
-        "summary_zh": "今彩539第115133期開獎，中獎號碼為14、05、19、20、28。派彩結果顯示，頭獎有2注中獎，各得獎金新台幣800萬元。這次的中獎結果將對中獎者帶來豐厚的獎金，同時也會為彩民們帶來新的中獎希望。然而，這也意味著許多彩民的夢想未能實現。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2f1961f2",
-        "title": "輝達啟示錄 陳其邁自豪：高雄是第1個使用代理式AI與物理AI技術的城市",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5457462",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 02 Jun 2026 09:50:48 +0800",
-        "summary_zh": "高雄市長陳其邁表示，高雄市在智慧城市治理方面不僅是最早，還是規模最大。市長陳其邁昨天受邀出席輝達GTC Taipei，今天在市政會議前受訪時表示，高雄市已經成為全球首個使用代理式AI與物理AI技術的城市。這項技術將在城市治理中帶來重大變革，提高效率和服務質量。市長陳其邁強調，高雄市的這一成就是市民和政府的共同努力，將繼續推動智慧城市的發展。這項成就不僅對高雄市有利，也將成為其他城市的典範和指導。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fffd9476",
-        "title": "焦點股》南亞科攻破4百元、華邦電漲停 雙創新高",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5457464",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 02 Jun 2026 09:48:21 +0800",
-        "summary_zh": "記憶體需求因人工智慧（AI）強勁需求而大幅上升，美光科技（Micron）股價飆漲至千元大關，引爆台廠記憶體族群。南亞科（2408）股價水漲船高，攻破4百元關卡，最高達417元。同時，華邦電（2344）股價也漲停，創下新高。這些記憶體廠商的股價上升，主要是因為人工智慧的需求對記憶體的需求帶來了強勁的刺激。這種趨勢可能會持續下去，對相關股票的投資者來說是個有利的時機。然而，投資者也需要注意市場的波動和風險，務必做好風險評估和投資決策。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a5c14226",
-        "title": "買中國電動車竟成「財務陷阱」？歐洲車主崩潰：3年殘值只剩4成",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5457391",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 02 Jun 2026 09:45:27 +0800",
-        "summary_zh": "近年來，中國電動車品牌在歐洲市場快速崛起，吸引了許多消費者。然而，根據最新的數據顯示，中國電動車在歐洲的殘值卻令人震驚。研究發現，3年內，中國電動車的殘值只剩下 4 成，這意味著車主在購買中國電動車後，短短 3 年內就會損失 60% 的購買價格。這種情況引起了許多車主的擔憂，尤其是在財務上。分析指出，這種情況可能是由於中國電動車的質量問題、設計缺陷以及維護成本過高等因素所導致。這種情況對於車主來說是一個重大財務陷阱，需要車主們謹慎考慮購買中國電動車的風險。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "f2af825e",
-        "title": "Ashmore押注墨西哥退休基金的快速增長，推出股權基金",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-01/ashmore-bets-on-mexico-s-booming-pension-funds-with-equity-fund",
-        "source": "Bloomberg",
+        "id": "d9b6e3d0",
+        "title": "CVC、Cinven競投意大利甜點原料製造商IRCA",
+        "url": "https://www.reuters.com/legal/transactional/cvc-cinven-among-bidders-italian-dessert-ingredients-maker-irca-say-sources-2026-06-01/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-01 15:00:00",
-        "summary_zh": "Ashmore投資管理公司正在押注墨西哥退休基金的快速增長，推出一項專門投資墨西哥股市的股權基金。墨西哥的退休基金正快速增長，成為該國投資市場的重要力量。這些基金的資金來源於墨西哥政府對退休者的投資，目前已經超過了 1.5 萬億墨西哥比索。墨西哥政府近期推出了一系列政策，以鼓勵退休基金投資於國內企業和項目。這些政策的目的是為退休基金提供更好的投資機會，同時也希望能夠幫助墨西哥企業的發展。Ashmore的股權基金將投資於墨西哥的股票市場，包括國內企業和外資企業的股票。該公司認為，墨西哥的退休基金將繼續快速增長，成為該國投資市場的重要力量。這項投資將為Ashmore帶來新的業務機會，同時也將幫助墨西哥企業的發展。",
+        "published_at": "2026-06-01 15:55:40",
+        "summary_zh": "意大利甜點原料製造商IRCA正在接受競投。根據來源，私募基金CVC和Cinven已經加入競標。IRCA是意大利知名的甜點原料製造商，提供各種用於製造蛋糕、餅乾等甜點的原料。這次競投有可能會改變IRCA的所有權結構，影響到公司未來的發展方向。私募基金的競投表明對於IRCA的戰略重組和投資機會有興趣。然而，目前尚未公佈任何具體的交易細節或價格。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "f946a36b",
-        "title": "麥克法登表示每次會議都在討論『誰可以徵稅來支付福利』",
-        "url": "https://www.ft.com/content/02472aad-24ef-4051-95cc-3dd27b55899d",
-        "source": "Financial Times",
+        "id": "a140082d",
+        "title": "歐洲垃圾企業尋求減少貸款成本在熱門的信貸市場",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-01/europe-s-junk-firms-look-to-cut-loan-costs-in-hot-credit-market",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-01 14:58:19",
-        "summary_zh": "英國財政大臣麥克法登在一次會議中表示，政府每次會議都在討論如何徵稅來支付福利。這表明政府正在尋找新的稅源來籌措資金。麥克法登的言論引起了輿論的關注，許多人認為政府正在準備徵收新的稅款。這將對英國的中產階級和企業造成重大影響。政府正在努力籌措資金來支付福利和公共服務。然而，徵收新的稅款可能會導致經濟不景氣和失業率上升。",
+        "published_at": "2026-06-01 15:54:32",
+        "summary_zh": "在歐洲的垃圾企業正嘗試在熱門的信貸市場中減少貸款成本。這些企業面臨著高利率和緊縮的貸款市場，迫使他們尋求新的貸款方案。根據最新的數據，歐洲的垃圾企業貸款成本已經上升了 10%。這些企業的貸款成本上升主要是由於銀行和投資者對風險的評估增加所致。銀行和投資者正在提高貸款利率，以保護自己免受風險的損失。這使得垃圾企業面臨著更高的貸款成本和更嚴格的貸款條件。這些企業的貸款成本上升將對整個歐洲經濟產生重大影響。它將使企業面臨著更高的成本和更嚴格的貸款條件，從而影響到企業的運營和投資。因此，垃圾企業需要尋求新的貸款方案和策略，以減少貸款成本和風險。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "cdae1690",
-        "title": "OPEC+可能在7月份提高原油產量目標，儘管霍爾木茲海峽受阻",
-        "url": "https://www.reuters.com/business/energy/opec-likely-raise-july-oil-output-target-despite-hormuz-disruption-sources-say-2026-06-01/",
+        "id": "fc63915d",
+        "title": "美國最高法院拒絕審理德州兩步破產策略案件",
+        "url": "https://www.reuters.com/legal/government/us-supreme-court-declines-case-over-texas-two-step-bankruptcy-tactic-2026-06-01/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-01 14:55:52",
-        "summary_zh": "根據來源，儘管霍爾木茲海峽受到攻擊，OPEC+仍有可能在7月份提高原油產量目標。這一決定將對全球能源市場產生重大影響。霍爾木茲海峽是全球最重要的石油運輸通道之一，近期受到伊朗和沙烏地阿拉伯之間的緊張局勢影響。OPEC+的決定將取決於石油供應和需求的變化。然而，市場預期OPEC+將在7月份提高原油產量目標，儘管霍爾木茲海峽受阻。這一決定將對全球能源市場產生重大影響，可能會導致原油價格下跌。",
+        "published_at": "2026-06-01 15:54:07",
+        "summary_zh": "德州的一家公司利用兩步破產策略逃避債務，引起美國最高法院關注。該公司首先將其資產轉移到一家子公司中，並將該子公司申請破產。這樣一來，債權人無法觸及公司的資產。美國最高法院拒絕審理這起案件，認為德州州法院已經做出了正確的決定。這一裁決可能會影響企業在美國的破產策略。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "28cacdd6",
+        "title": "拉夫勞倫股價在2026年呈現平穩狀態。這樣你還是可以獲利的方法",
+        "url": "https://www.cnbc.com/2026/06/01/ralph-lauren-shares-have-flatlined-in-2026-heres-how-to-profit-anyway.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-06-01 15:52:48",
+        "summary_zh": "在2026年，拉夫勞倫股價呈現平穩狀態。投資者出售空頭套利策略（strangles）時，通常會出售不在合約價格範圍內的看漲期權和看跌期權。這種策略可以讓投資者在股價上升或下跌時都能獲利。然而，這種策略也存在風險，投資者需要仔細評估風險和回報率。投資者可以通過出售空頭套利策略來獲利，但也需要具備足夠的資金和市場知識來進行這種交易。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "31d13ebd",
-        "title": "曼德爾遜與美國商討邊緣化英國貿易大臣",
-        "url": "https://www.ft.com/content/7368877c-41da-40b7-9d15-e6cb7332257a",
-        "source": "Financial Times",
+        "id": "4119ed78",
+        "title": "美國資料中心建設支出超過 50 億美元",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-01/us-construction-spending-on-data-centers-eclipses-50-billion",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-01 14:55:48",
-        "summary_zh": "英國前首相布萊爾的顧問曼德爾遜近日與美國官員會面，討論邊緣化英國貿易大臣的可能性。根據消息來源，曼德爾遜認為，英國貿易大臣的角色已經過時，需要改革。曼德爾遽認為，英國應該將貿易大臣的職責轉移給其他部門，例如財政部或工業部。這一提議引起了美國官員的關注，美國官員認為，這一改革可能會對英美貿易關係產生影響。曼德爾遽表示，英國政府正在考慮這一改革的可能性，希望能夠在未來的會議中討論這一問題。",
+        "published_at": "2026-06-01 15:50:49",
+        "summary_zh": "美國資料中心建設支出已經超過 50 億美元，成為美國建設支出的重要組成部分。根據最近的數據，美國資料中心建設支出在過去的幾年中快速增長，主要是由於雲計算、人工智慧和大數據等技術的發展所帶動。資料中心建設支出的增長對於美國的經濟發展和技術進步具有重要意義。然而，資料中心建設的環境問題和能源消耗也引起了關注。美國政府正在推動資料中心建設的可持續發展和能源效率的提高。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "78de5ee3",
+        "title": "伊朗考慮有限的美方協議緩解經濟壓力和爭取時間",
+        "url": "https://www.reuters.com/world/middle-east/iran-eyes-limited-us-deal-relieve-economic-strain-buy-time-2026-06-01/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-01 15:49:44",
+        "summary_zh": "伊朗正考慮與美國簽署有限的協議，以緩解其經濟壓力和爭取時間。伊朗政府面臨著嚴重的經濟困難，包括高通脹、失業率上升和外匯儲備減少。伊朗官員表示，有限的協議可能包括允許伊朗出口石油和天然氣，同時限制伊朗的核計劃。這一協議可能會讓伊朗獲得一些經濟上的緩解，但也會讓美國政府在核問題上取得一些進展。伊朗的這一動作是為了爭取時間和緩解經濟壓力，而不是為了達成長期的和平協議。伊朗的經濟困難和政治不穩定可能會對地區的安全和穩定產生影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -916,29 +928,77 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "80c7fe26",
-        "title": "黃金價格再跌還能買入？專家分析揭露原因",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5457436",
-        "source": "自由時報財經",
-        "category": "finance",
-        "published_at": "Tue, 02 Jun 2026 09:30:04 +0800",
-        "summary_zh": "黃金價格週一下跌，主要原因是中東局勢緊張升高，引發通膨疑慮。這使得市場預期央行可能維持更長時間的緊縮政策。黃金現貨價格下跌1%，達到每盎司4489.34美元。這次下跌是黃金價格上週五觸及兩個月低點後的繼續下跌。專家們認為，黃金價格的下跌是由於市場對央行政策的預期變化。央行的政策變化對黃金價格的影響是非常重要的。黃金通常被視為避險資產，因此當市場對央行政策的預期變化時，黃金價格就會受到影響。目前，市場預期央行可能維持更長時間的緊縮政策，這使得黃金價格下跌。然而，專家們也認為，黃金價格的下跌可能是短期的，長期來看，黃金價格仍然具有升值潛力。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "stock_us": [
       {
-        "id": "ad16e825",
-        "title": "巴克萊表示 IBM 正模仿 Nvidia 在量子市場的策略。IBM 股價有望上漲 50%？",
-        "url": "https://www.cnbc.com/2026/06/01/barclays-says-ibm-is-mimicking-nvidias-playbook-in-quantum-market.html",
+        "id": "e95a7a0a",
+        "title": "美國工會罷工威脅通用汽車卡車生產",
+        "url": "https://www.cnbc.com/2026/06/01/uaw-strike-union-work-stoppage-threatens-gm-truck-production.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-06-01 14:50:56",
-        "summary_zh": "IBM 宣布將投資超過 1000 億美元於量子計算領域，根據巴克萊的分析，這是模仿 Nvidia 的做法。這一投資計畫可能會對 IBM 股價帶來重大影響。巴克萊預測 IBM 股價有望上漲 50%。這一預測是基於 Nvidia 在量子市場的成功經驗，Nvidia 在這個領域的投資計畫也獲得了成功。IBM 的這一投資計畫將會對量子計算領域的發展產生重大影響。這一投資計畫將會讓 IBM 股價上漲 50%，這將會對 IBM 股東產生重大影響。",
+        "published_at": "2026-06-01 15:51:11",
+        "summary_zh": "美國工會近日發起罷工，影響通用汽車卡車生產。這次罷工涉及一家位於密西根州的供應商工廠，該工廠負責生產通用汽車卡車的零部件。工會約有 1,000 名工人參與罷工，原因是未能達成新的勞動合同。這次罷工可能會對通用汽車的卡車生產造成重大影響。通用汽車的卡車生產是該公司的重要業務之一，任何影響都可能對公司的財務和市場形象產生重大影響。工會和通用汽車的談判仍在進行中，未來的發展仍存不確定性。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "dc12d8f9",
+        "title": "交易員預測：五月份就業報告將超越華爾街預期",
+        "url": "https://www.cnbc.com/2026/06/01/traders-on-kalshi-indicate-that-mays-jobs-report-will-top-wall-street-expectations.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-01 15:40:15",
+        "summary_zh": "根據預測市場的交易員，五月份的就業報告將會超越華爾街的預期。事實上，交易員們認為五月份的就業數字將會比四月份下降。這一預測與道瓊斯公司的估計相符。然而，這一預測與市場的預期相反，市場預期五月份的就業數字將會比四月份上升。這一差異可能是由於市場對經濟情況的不確定性所導致。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2795f65f",
+        "title": "個別交易者推動了Kalshi的上升。現在，它要進入華爾街",
+        "url": "https://www.cnbc.com/2026/06/01/individual-traders-drove-kalshis-rise-now-its-going-for-wall-street.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-01 15:22:09",
+        "summary_zh": "Kalshi是一家美國的預測市場平台。近年來，該平台通過一系列的行動，試圖使其事件合約更吸引力於機構交易。這些行動旨在吸引更多的機構投資者加入，讓Kalshi的產品更受到市場的重視。這也意味著，Kalshi將進一步與華爾街的金融機構合作，從而推動其業務的發展。然而，是否能成功吸引機構投資者，仍是未知數。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "095d534e",
+        "title": "伯克希爾的賭注在泰勒莫里森，可能意味著房地產市場已經觸底",
+        "url": "https://www.cnbc.com/2026/06/01/berkshire-taylor-morrison-bet-housing-market-bottom.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-01 15:20:01",
+        "summary_zh": "伯克希爾哈薩威公司與泰勒莫里森公司的交易，被分析師視為房地產市場可能已經觸底的跡象。這項交易表明，投資人對房地產市場的信心正在恢復。泰勒莫里森公司是一家美國房地產開發商，伯克希爾哈薩威公司則是一家投資公司，旗下擁有多家著名企業。分析師認為，這項交易可能是市場對房地產市場未來前景的看好信號。然而，市場的反應仍然不確定，需要更多的時間來觀察。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "6f54d38d",
+        "title": "觀看CNBC的完整訪談：希爾頓CEO克里斯·納塞塔",
+        "url": "https://www.cnbc.com/video/2026/06/01/watch-cnbcs-full-interview-with-hilton-ceo-chris-nassetta.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-01 15:13:08",
+        "summary_zh": "希爾頓酒店集團CEO克里斯·納塞塔接受CNBC的訪問，討論希爾頓酒店的28個品牌中最新加入的品牌「Undergraduate by Hilton」，酒店業的需求預測以及其他相關話題。希爾頓酒店集團近期推出新品牌，展現出其在酒店業的領先地位。酒店業的需求預測是市場關注的焦點，納塞塔CEO對未來的市場趨勢給出了他的看法。這次訪談提供了對酒店業發展的深入了解，讓觀眾了解酒店業的最新動態。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "23ca8453",
+        "title": "選擇權行動：軟體完成反彈",
+        "url": "https://www.cnbc.com/video/2026/06/01/options-action-software-completes-comeback.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-01 15:12:53",
+        "summary_zh": "軟體公司在選擇權市場上完成了反彈。根據CNBC的報導，軟體公司的選擇權交易正在呈現出來自投資者的積極態度。這種反彈表明投資者對軟體公司的前景感到樂觀。軟體公司的股價在近期的市場波動中受到影響，但選擇權交易的反彈表明投資者仍然對這些公司的未來感到有信心。這種情況可能會對軟體公司的股價產生正面影響。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
@@ -952,54 +1012,18 @@
         "published_at": "2026-06-01 14:52:57",
         "summary_zh": "美國房地產巨頭 Related Companies 首席執行官 Jeff Blau 近日接受訪問，談論公司在密西根州的數據中心項目、人工智慧擴張等相關事宜。這項數據中心項目將成為該州的重要數據中心據點，同時也將推動當地的數據中心業界發展。Jeff Blau 表示，公司正在積極推進人工智慧的應用，希望透過這項技術來提高公司的效率和競爭力。這項訪問也讓人們對 Related Companies 未來發展方向有了更多的了解。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "abc10295",
-        "title": "泰勒莫里森CEO稱伯克希爾哈撒韋交易標誌著公司的‘非常興奮的時刻’",
-        "url": "https://www.cnbc.com/video/2026/06/01/taylor-morrison-ceo-says-berkshire-hathaway-deal-marks-aa-very-exciting-timea-for-the-company.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-01 14:33:46",
-        "summary_zh": "泰勒莫里森CEO雪兒帕爾默接受CNBC的訪問，討論泰勒莫里森與伯克希爾哈撒韋達成6.8億美元的收購協議。這項交易將標誌著泰勒莫里森的重大轉變，公司將成為伯克希爾哈撒韋旗下的成員之一。雪兒帕爾默表示，這項交易將為公司帶來‘非常興奮的時刻’，並強調公司將繼續致力於其業務發展。這項收購協議將對泰勒莫里森的未來發展產生重大影響，公司將需要適應新的母公司和新的營運模式。雪兒帕爾默表示，公司將繼續致力於其業務發展，並與伯克希爾哈撒韋的夥伴合作，共同推進公司的發展。這項交易將為泰勒莫里森帶來新的機會和挑戰，公司將需要適應新的環境和新的營運模式。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "aa46b389",
-        "title": "觀看CNBC對Taylor Morrison CEO Sheryl Palmer的完整專訪",
-        "url": "https://www.cnbc.com/video/2026/06/01/watch-cnbcs-full-interview-with-taylor-morrison-ceo-sheryl-palmer.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-01 14:33:26",
-        "summary_zh": "泰勒莫里森( Taylor Morrison ) CEO 謝瑞爾帕爾默( Sheryl Palmer )接受CNBC的專訪，討論泰勒莫里森與伯克希爾哈薩威( Berkshire Hathaway )的 $6.8 億美元收購協議。這項協議將泰勒莫里森納入伯克希爾哈薩威的旗下公司，標誌著泰勒莫里森的重大轉變。謝瑞爾帕爾默在專訪中表示，這項收購將為泰勒莫里森帶來新的投資機會和業務發展空間。同時，她也強調泰勒莫里森將繼續保持其獨立性和品牌特徵。這項收購將對泰勒莫里森的未來發展產生重大影響，觀察家們將密切關注這項交易的進展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "53dba051",
-        "title": "華爾街一家公司擔心六月市場反轉可能來臨 這是為什麼",
-        "url": "https://www.cnbc.com/2026/06/01/one-wall-street-firm-is-worried-a-june-market-reversal-may-be-in-the-cards-heres-why.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-01 13:26:50",
-        "summary_zh": "市場投資者在上個月強勁表現之後，正進入市場歷史上一個相對弱勢的時期。然而，這些投資者的麻煩可能不僅僅在於這一點。根據市場分析，投資者們正面臨著一連串的挑戰，包括市場反轉的風險。這些挑戰可能會影響投資者的收益，甚至可能導致市場出現波動。投資者們應該密切關注市場的發展，準備好面對未來的挑戰。市場的未來走向將取決於多種因素，包括經濟指標、政策變化和市場情緒等。投資者們需要保持警惕，準備好應對市場的變化。",
-        "sentiment": "負面",
-        "is_breaking": true,
+        "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "4a61e2ab",
-        "title": "孫正義透露下一個十萬億美元機會在哪裡",
-        "url": "https://www.cnbc.com/2026/06/01/masayoshi-son-softbank-ceo-trillion-dollar-opportunity.html",
+        "id": "ad16e825",
+        "title": "巴克萊表示 IBM 正模仿 Nvidia 在量子市場的策略。IBM 股價有望上漲 50%？",
+        "url": "https://www.cnbc.com/2026/06/01/barclays-says-ibm-is-mimicking-nvidias-playbook-in-quantum-market.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-06-01 12:42:54",
-        "summary_zh": "日本跨國公司軟銀的首席執行官孫正義在接受CNBC訪問時，表示軟銀在科技領域投資遍布各個層面。軟銀投資的領域包括人工智慧、雲計算、物聯網等。孫正義認為，軟銀投資的目標是為了創造下一個十萬億美元的機會。軟銀的投資策略是投資那些具有潛力的新興公司，同時也投資那些正在經歷變革的傳統企業。軟銀的投資範圍包括了各個行業，從金融到醫療等。孫正義表示，軟銀的投資目標是為了創造新的機會，而不是為了投資傳統的企業。軟銀的投資策略是為了創造下一個十萬億美元的機會，而不是為了短期的收益。",
-        "sentiment": "中性",
+        "published_at": "2026-06-01 14:50:56",
+        "summary_zh": "IBM 宣布將投資超過 1000 億美元於量子計算領域，根據巴克萊的分析，這是模仿 Nvidia 的做法。這一投資計畫可能會對 IBM 股價帶來重大影響。巴克萊預測 IBM 股價有望上漲 50%。這一預測是基於 Nvidia 在量子市場的成功經驗，Nvidia 在這個領域的投資計畫也獲得了成功。IBM 的這一投資計畫將會對量子計算領域的發展產生重大影響。這一投資計畫將會讓 IBM 股價上漲 50%，這將會對 IBM 股東產生重大影響。",
+        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
@@ -1012,42 +1036,6 @@
         "published_at": "Tue, 02 Jun 2026 06:28:37 +0800",
         "summary_zh": "美國總統川普在最近的聲明中表示，美方與伊朗的和談正以迅速步伐進行。這項消息可能對全球政治格局產生影響。同時，人工智慧（AI）熱潮的重新點燃，也對科技業產生了重大影響。華爾街股市4大指數今天收盤都創下歷史新高紀錄，表明投資者對未來的市場前景感到樂觀。這項發展可能會對全球經濟產生重大影響。",
         "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9551213d",
-        "title": "週一華爾街最大的分析師評論：Nvidia、Apple、Tesla、Broadcom、Microsoft、IBM、Meta、Tyson Foods等",
-        "url": "https://www.cnbc.com/2026/06/01/top-wall-street-stocks-by-analyst-calls-like-nvidia.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-01 12:41:00",
-        "summary_zh": "週一華爾街最大的分析師評論出爐，包括Nvidia、Apple、Tesla、Broadcom、Microsoft、IBM、Meta、Tyson Foods等公司。分析師們對這些公司的預測和評估將對投資者產生重大影響。Nvidia的股票價格預期將上升，Apple的市場份額預期將增長，Tesla的銷售量預期將增加，Broadcom的收入預期將增長，Microsoft的股價預期將上升，IBM的業務預期將增強，Meta的市場份額預期將增長，Tyson Foods的收入預期將增長。這些評論將對投資者產生重大影響，投資者應該密切關注這些公司的發展情況。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7deb1efd",
-        "title": "這家無人機股價今年已經大幅上漲，羅斯卡普ITAL說它還有70%的上漲空間",
-        "url": "https://www.cnbc.com/2026/06/01/this-drone-stock-has-surged-over-the-past-year-roth-capital-says-it-can-rally-another-70percent.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-01 12:25:33",
-        "summary_zh": "無人機股Red Cat Holdings因為美國政府對於無人機和相關防衛技術的投資意願增加而有望見到更多的上漲空間。根據羅斯卡普ITAL的分析，該公司股價今年已經大幅上漲，但仍有70%的上漲空間。這是因為美國政府正在逐步增加對於無人機和相關防衛技術的投資，包括在軍事和民用領域。這種投資將會帶來更多的需求和市場機會，使得Red Cat Holdings的股價有望繼續上漲。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "06362aae",
-        "title": "經濟日曆：本週關注製造業數據和就業情況",
-        "url": "https://www.marketwatch.com/bulletins/redirect/go?g=e85befcc-54d4-4afe-bfdd-b8f8418929c3&mod=mw_rss_bulletins",
-        "source": "Marketwatch",
-        "category": "stock_us",
-        "published_at": "2026-06-01 12:16:37",
-        "summary_zh": "本週美國經濟日曆中，製造業數據和就業情況將成為關注焦點。根據MarketWatch的預測，美國製造業PMI將於本週公布，預期將達到58.5。同時，美國就業市場將公布失業率和就業人數數據，預期失業率將維持在3.6%。這些數據將對美國經濟的未來走向有重要影響。分析師預期，美國經濟將繼續保持穩健的增長，但也面臨著一些挑戰。",
-        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       }
