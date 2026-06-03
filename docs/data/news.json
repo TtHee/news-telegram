@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-03T18:04:13.798601+08:00",
+  "generated_at": "2026-06-03T19:04:14.919164+08:00",
   "risk_signals": [
     "🟢 台股加權 46459.16（正常）",
     "🟢 S&P 500 7609.78（正常）",
-    "🟢 VIX 恐慌指數 16.09（正常）",
+    "🟢 VIX 恐慌指數 16.11（正常）",
     "🟢 MOVE 債市波動 73.43（正常）",
-    "🟢 美元指數 99.35（正常）",
-    "🟢 黃金 4473.7（正常）",
+    "🟢 美元指數 99.33（正常）",
+    "🟢 黃金 4485.4（正常）",
     "🟢 美債10Y殖利率 4.45（正常）",
-    "🟡 原油 WTI 96.73（漲 +3.17%，留意）",
-    "🟢 美元/台幣 31.4（正常）"
+    "🟢 原油 WTI 96.11（正常）",
+    "🟢 美元/台幣 31.37（正常）"
   ],
-  "ai_summary": "市場指標表現穩定，投資風險降低。台股和美股小幅上漲，原油價格也上漲，但幅度不大，整體市場氛圍仍然偏穩定。",
+  "ai_summary": "市場呈現穩定氛圍，多個指標維持在正常水平，投資風險相對較低。預期短期內市場將維持穩健走勢。",
   "market": {
     "TWII": {
       "price": 46459.16,
@@ -26,8 +26,8 @@
       "change_pct": 0.03
     },
     "VIX": {
-      "price": 16.09,
-      "change_pct": 2.03
+      "price": 16.11,
+      "change_pct": 2.16
     },
     "TNX": {
       "price": 4.45,
@@ -38,46 +38,264 @@
       "change_pct": 0.14
     },
     "DXY": {
-      "price": 99.35,
-      "change_pct": 0.13
+      "price": 99.33,
+      "change_pct": 0.12
     },
     "GOLD": {
-      "price": 4473.7,
-      "change_pct": -0.34
+      "price": 4485.4,
+      "change_pct": -0.08
     },
     "OIL": {
-      "price": 96.73,
-      "change_pct": 3.17
+      "price": 96.11,
+      "change_pct": 2.51
     },
     "USDTWD": {
-      "price": 31.4,
-      "change_pct": 0.23
+      "price": 31.37,
+      "change_pct": 0.13
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "ed4eb5b5",
+        "title": "美國民主黨選民選出中期選舉候選人，民主黨嘗試扭轉關鍵席位",
+        "url": "https://www.theguardian.com/us-news/2026/jun/03/primary-elections-midterms-november",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 10:38:20 GMT",
+        "summary_zh": "美國民主黨正嘗試在新澤西州和愛荷華州將共和黨趕下台，而其他主要競選場合仍然令人費解。根據星期三早上的選票計數，美國民主黨在中期選舉中預計將佔優。加州州長選舉仍然僵局不解，共和黨人史蒂夫·希爾頓（Steve Hilton）領先，當選人數達到半數以上。民主黨的候選人是前衛生部長克塞維爾·貝塞拉（Xavier Becerra），他在競選活動中表現出色。加州的選舉制度是，無論黨派如何，獲得最多選票的兩名候選人都將在總選舉中對決。 ",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "22e42681",
+        "title": "加州初選未決 美國選情混亂",
+        "url": "https://www.theguardian.com/us-news/live/2026/jun/03/us-midterm-primaries-politics-donald-trump-california-governor-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 10:29:54 GMT",
+        "summary_zh": "美國民主黨在新澤西州和愛荷華州的選舉中試圖推翻共和黨人，而其他主要競選活動仍未有結果。根據一項新的調查，受川普政府解僱的聯邦政府僱員表示，失去工作後他們經歷了心理健康問題，包括PTSD症狀。超過300名被解僱的試用僱員參與了調查，95%的受訪者表示仍然經歷著心理健康問題。其中近半數的受訪者表示他們正在經歷PTSD症狀，約四分之一的人正在服用新藥來管理症狀。這項調查由27UNIHTED，前美國國家衛生研究所員工所組成的網絡進行。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "348f1e17",
+        "title": "路易斯安那州教堂為性侵犯牧師祈禱，但忽略受害者",
+        "url": "https://www.theguardian.com/us-news/2026/jun/03/priest-anthony-odiong-catholic-new-orleans",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 10:00:19 GMT",
+        "summary_zh": "路易斯安那州一間天主教教堂的牧師安東尼·奧狄翁（Anthony Odiong）在德克薩斯州被判處終身監禁，罪名是性侵犯教友。該教堂在牧師被判有罪後發出祈禱公告，要求教友為牧師祈禱，但卻忽略了受害者。受害者之一的瑪麗·多（Mary Doe）在星期二發表聲明，鼓勵該教堂的會眾也為受害者祈禱。這一事件引起了受害者和他們的支持者的批評。事件背景是奧狄翁在德克薩斯州的罪行，他被判處終身監禁。關鍵細節是該教堂發出祈禱公告，忽略了受害者。影響分析是這一事件引起了對受害者和教會的批評。後續展望是未知的，但受害者和他們的支持者將繼續爭取正義。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "8b81dc9d",
+        "title": "中期選舉初選2026直播：六個州包括加利福尼亞州和愛荷華州投票結果和反應",
+        "url": "https://www.theguardian.com/us-news/live/2026/jun/02/midterm-primary-election-results-california-iowa-montana-new-jersey-south-dakota-new-mexico-latest-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 06:07:43 GMT",
+        "summary_zh": "美國中期選舉初選即將展開，六個州包括加利福尼亞州和愛荷華州投票進行中。除了加利福尼亞州和愛荷華州外，新澤西州、南達科他州、新墨西哥州和蒙大拿州也投票進行中。加利福尼亞州的選舉中，州長、洛杉磯市長和國會議員的席位將在這次選舉中決定。然而，緬因州的選舉初選卻因為參選人格雷厄姆·普拉特納(Graham Platner)的醜聞而受影響。根據紐約時報和華爾街日報的報導，普拉特納在婚姻期間與其他女性交換過色情文本。這項醜聞已經影響了普拉特納的競選活動，他正在爭取民主黨的參議院席位。普拉特納在與民主黨領袖會面後，沒有回應記者的提問，迅速進入等待的汽車中。這次會面持續了一個多小時半，於民主參議院競選委員會(DSCC)總部進行。DSCC的發言人沒有回應記者的要求。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8d0142e4",
+        "title": "加州初選結果：州長選戰仍難分伯仲",
+        "url": "https://www.theguardian.com/us-news/2026/jun/03/california-governor-election",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 05:58:26 GMT",
+        "summary_zh": "加州州長選戰在初選日晚間仍難分伯仲，前三名候選人分別是共和黨的史蒂夫·希爾頓（Steve Hilton）和民主黨的西維爾·貝克拉（Xavier Becerra）和湯姆·史達爾（Tom Steyer）。儘管仍有許多選票未計入，但民主黨的兩名候選人馬特·馬漢（Matt Mahan）和前洛杉磯市長安東尼奧·維拉拉約薩（Antonio Villaraigosa）已經宣布放棄競選。選戰的結果將在未來的選票計票中揭曉。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "af1139f7",
+        "title": "凱倫·巴斯進入洛杉磯市長補選",
+        "url": "https://www.theguardian.com/us-news/2026/jun/02/karen-bass-los-angeles-mayoral-primary",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 05:33:50 GMT",
+        "summary_zh": "洛杉磯市長選舉初選結果出爐，現任市長凱倫·巴斯以不到 50% 的選票率勝出，但仍需在 11 月的總選舉中與挑戰者角逐。凱倫·巴斯將面對 11 月的選舉，對手可能是前真人秀明星史賓塞·普拉特或市議員尼蒂亞·拉曼。截至週二晚上，尚未明確誰將晉級。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "bbe8af22",
+        "title": "川普政府建議對巴西實施 25% 進口稅",
+        "url": "https://www.theguardian.com/business/2026/jun/02/trump-administration-brazil-tariffs",
+        "source": "Guardian World",
+        "category": "whitehouse",
+        "published_at": "Tue, 02 Jun 2026 18:56:55 GMT",
+        "summary_zh": "川普政府指出，世界第十大經濟體巴西的貿易實踐「不合理」，對美國商業造成「負擔或限制」。巴西總統路易斯·伊納西奧·盧拉·達席爾瓦表示，他對川普政府的決定感到「憤怒」。他還指責美國政府的決定是由於他在去年十月的選舉中競選對手弗拉維奧·博爾索納羅所致。弗拉維奧·博爾索納羅是前總統雅伊爾·博爾索納羅的兒子，前總統雅伊爾·博爾索納羅曾被他的盟友稱為「熱帶的川普」。這項決定可能對巴西的出口產生重大影響，巴西是美國的重要貿易夥伴。美國政府的決定可能會引起巴西政府的強烈反應，雙方的貿易關係可能會受到影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e18de5b4",
+        "title": "愛荷華州民主黨候選人Josh Turek將挑戰特朗普支持的共和黨候選人Ashley Hinson",
+        "url": "https://www.theguardian.com/us-news/2026/jun/02/iowa-primary-election-results",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 03:12:26 GMT",
+        "summary_zh": "愛荷華州民主黨人選Josh Turek在黨內初選中勝出，將挑戰共和黨候選人Ashley Hinson。民主黨人認為，愛荷華州在過去十年來一直是共和黨的強權地盤，但他們仍然相信可以在該州的三個議會選區、參議院選舉和州長選舉中取得成功。愛荷華州的選舉結果將對國會的勢力平衡產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "068ef602",
+        "title": "加州選舉：州長、洛杉磯市長和國會議員競選高潮加州準備迎接動盪",
+        "url": "https://www.theguardian.com/us-news/2026/may/30/california-turbulent-elections",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 03:10:15 GMT",
+        "summary_zh": "加州選民在本週二的初選中投票，州長、洛杉磯市長和國會議員競選激烈。選民對這次選舉感到沮喪和失望。州長競選中，投票人將選出兩名候選人進入下一輪競選。洛杉磯市長競選則是一場混亂的戰鬥。國會議員競選則是一系列高風險的選舉。投票結果可能會在幾天內公佈，因為加州的投票計票系統非常慢。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8646ad2b",
+        "title": "川普政府放棄 180 億美元「反軍事化」基金",
+        "url": "https://www.bbc.com/news/articles/crkpyj41m15o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 00:16:09 GMT",
+        "summary_zh": "川普政府宣布放棄 180 億美元的「反軍事化」基金，這項決定出現於共和黨高層立法者反對的背景下。根據目前的資訊，這項基金旨在防止武器被濫用。然而，共和黨立法者對此表示反對，認為這項基金過於昂貴。這項決定可能會對美國的軍事政策產生影響。川普政府的決定可能會引起爭議和討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "87e52cbf",
+        "title": "加拿大正式要求更新北美自由貿易協議",
+        "url": "https://www.bbc.com/news/articles/cn9prr3w9nlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 01:40:44 GMT",
+        "summary_zh": "加拿大貿易部長多米尼克·勒布朗（Dominic LeBlanc）在書面信中向北美三國貿易部長提出，應該更新北美自由貿易協定（USMCA）。這項協定是2018年由美國、加拿大和墨西哥簽署的，旨在促進三國之間的貿易和投資。勒布朗認為，更新協定可以幫助三國在經濟和貿易方面取得進一步合作。這項提議可能會對三國的經濟和貿易產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a4603c27",
+        "title": "白宮發布白皮書：川普總統推動人工智慧創新和安全",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-and-security/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 02 Jun 2026 18:04:20 +0000",
+        "summary_zh": "川普總統今天簽署了一份行政命令，旨在推動美國人工智慧創新，強化美國的網絡安全，保護關鍵基礎設施，並確保美國在人工智慧創新領域保持全球領導地位。川普總統認為，美國必須在創新和安全之間找到恰當的平衡。這項行政命令將促進美國在人工智慧領域的領先地位，並確保美國的網絡安全和基礎設施受到充分保護。這項措施將對美國的經濟和國家安全產生重大影響，同時也將促進美國在全球人工智慧領域的競爭力。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ba817a11",
+        "title": "推動先進人工智慧創新和安全",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 02 Jun 2026 15:34:13 +0000",
+        "summary_zh": "美國總統發布行政命令，旨在推動人工智慧創新和安全。根據美國憲法和法律賦予的權力，總統宣布：第一條目的意義。美國繼續在人工智慧領域領先世界，因為我們的AI行業擁有巨大的人才和創新力，而我們拒絕放棄這一優勢。這項行政命令旨在促進美國在人工智慧領域的領先地位，並確保這一領域的安全。美國政府將繼續投資人工智慧研究和發展，同時也將加強對這一領域的監管和安全措施。這項行政命令將對美國的經濟和國家安全產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "34268cb0",
+        "title": "洛杉磯市長選舉：卡倫·巴斯進入決選",
+        "url": "https://www.bbc.com/news/articles/c74dp1yk51vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 09:17:07 GMT",
+        "summary_zh": "洛杉磯市長選舉正在進行中，現任市長卡倫·巴斯已經進入決選階段。她的對手可能是共和黨新人斯賓塞·普拉特（Spencer Pratt），他是一位知名的實境秀明星，或者是民主黨的同黨議員尼西亞·拉曼（Nithya Raman）。這場選舉將決定洛杉磯市的未來走向。卡倫·巴斯的勝利將意味著她將繼續領導洛杉磯市，推動城市發展和政策改革。另一方面，如果斯賓塞·普拉特或尼西亞·拉曼勝出，將會帶來新的領導風格和政策方向。這場選舉的結果將對洛杉磯市的未來產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3712ce52",
+        "title": "新澤西州指控難民設施環境不衛生，抗議活動持續升級",
+        "url": "https://www.bbc.com/news/articles/czx2l9nn79no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 02 Jun 2026 18:22:31 GMT",
+        "summary_zh": "新澤西州政府指控一間難民設施存在衛生問題，這間設施一直是抗議活動的焦點。政府官員表示，這間設施的衛生條件不符合標準，可能會對難民的健康造成風險。抗議活動持續升級，政府官員呼籲公民保持冷靜，並強調政府正在努力解決這個問題。這個事件引起了廣泛的關注，許多人呼籲政府採取行動來改善難民的生活條件。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cd6a0d9d",
+        "title": "美國宣布新關稅　因為勞工迫害問題",
+        "url": "https://www.bbc.com/news/articles/cq6pe7nvldmo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 10:31:12 GMT",
+        "summary_zh": "美國政府近日宣布新關稅措施，主要是因為勞工迫害問題。這項措施是在美國最高法院在2月份裁定美國前總統唐納德·川普（Donald Trump）之前的關稅措施無效後實施的。美國政府認為某些國家的勞工待遇不佳，導致關稅措施的實施。這項措施將對這些國家的出口產生影響，可能會導致出口商面臨更高的成本。美國政府的動作被視為對勞工權益的保護，但也可能會對某些國家的經濟造成負面影響。未來將觀察美國政府對這項措施的執行情況和對相關國家的出口商的影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3de7f7c4",
+        "title": "川普任命房地產官員比爾·普爾特為美國情報主管",
+        "url": "https://www.bbc.com/news/articles/cyv2dpyz3dpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 02 Jun 2026 20:36:15 GMT",
+        "summary_zh": "美國總統川普宣布任命房地產官員比爾·普爾特為美國情報主管。普爾特目前擔任聯邦住房金融管理局局長，曾經推動對川普政敵提出刑事指控。這項任命將於未來的某個時候生效，取代目前的情報主管。這項任命引起了輿論的關注，許多人對此表示質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "global": [
+      {
+        "id": "b95ba36a",
+        "title": "肯雅人擔心美方在該國設置埃博拉隔離站",
+        "url": "https://www.theguardian.com/world/2026/jun/02/kenyans-fear-us-plan-for-ebola-quarantine-site",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 02 Jun 2026 18:13:20 GMT",
+        "summary_zh": "肯雅政府近日宣布允許美國在該國設置埃博拉隔離站，為美方公民提供隔離治療。然而，該國民眾對此表示強烈反對，擔心這將使他們面臨埃博拉病毒的風險。根據報導，肯雅人認為，這一決定違反了雙重標準原則，美國應該在自己的國家內隔離病毒感染者，而不是將病毒帶入肯雅。肯雅人認為，這一決定將對該國造成不必要的風險，同時也會損害該國的聲譽。肯雅政府應該考慮到民眾的擔憂，並與美國進行溝通，以確保這一決定不會對肯雅造成任何不利影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8e044fc3",
+        "title": "加拿大板球協會被暫停會籍",
+        "url": "https://www.theguardian.com/world/2026/jun/02/cricket-canada-suspension",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 02 Jun 2026 18:10:07 GMT",
+        "summary_zh": "國際板球理事會（ICC）在面對加拿大板球協會受印度一家有名的黑幫影響的指控後，決定暫停加拿大板球協會的會籍。這一決定是因為加拿大板球協會被指違反了會籍義務，受到批評的加拿大板球協會被形容為「笑柄」。此外，ICC還對加拿大板球協會受黑幫影響的指控表示關注，黑幫成員被指在印度監獄的牢房內操控加拿大板球協會。這一事件對加拿大板球協會造成了重大打擊，該組織的未來發展面臨著嚴重挑戰。加拿大板球協會的暫停會籍將對該國的板球運動產生重大影響，未來將需要重新評估該組織的管理和治理。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "84106699",
         "title": "美國稱發射導彈擊中前往伊朗的油輪",
         "url": "https://www.bbc.com/news/articles/c5yx135yg53o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Wed, 03 Jun 2026 06:54:14 GMT",
+        "published_at": "Wed, 03 Jun 2026 10:29:46 GMT",
         "summary_zh": "美國軍方表示，油輪的引擎室遭到擊中，原因是船員「重複忽略警告」。這起事件發生在油輪前往伊朗的途中。美國軍方表示，油輪的船員在多次收到警告後仍未採取行動，導致美國軍方最後不得不採取行動。這一事件引起了國際社會的關注，各國都在等待更多的資訊。美國軍方的行動是否符合國際法，仍待進一步的調查。",
         "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c2997e70",
-        "title": "以色列轟炸南黎巴嫩但與希拉克爾似乎仍維持部分停火",
-        "url": "https://www.bbc.com/news/articles/c936zvne0l6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 02 Jun 2026 21:51:20 GMT",
-        "summary_zh": "以色列繼續在南部的軍事行動，但未對貝魯特發動攻擊，原因是美國宣布了一項協議。這項協議似乎讓以色列與黎巴嫩的希拉克爾組織達成了一定的停火協議，儘管以色列仍在南部進行軍事行動。這項停火協議對於地區的和平發展具有重要意義，但仍需要進一步的確認和落實。以色列的軍事行動對於黎巴嫩人民造成了重大影響，許多人已經在戰爭中喪失了家園和生命。這項停火協議的達成將對於地區的穩定和平發展具有重要的影響。",
-        "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
       },
@@ -94,12 +312,24 @@
         "ai_classified": true
       },
       {
+        "id": "c2997e70",
+        "title": "以色列轟炸南黎巴嫩但與希拉克爾似乎仍維持部分停火",
+        "url": "https://www.bbc.com/news/articles/c936zvne0l6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 02 Jun 2026 21:51:20 GMT",
+        "summary_zh": "以色列繼續在南部的軍事行動，但未對貝魯特發動攻擊，原因是美國宣布了一項協議。這項協議似乎讓以色列與黎巴嫩的希拉克爾組織達成了一定的停火協議，儘管以色列仍在南部進行軍事行動。這項停火協議對於地區的和平發展具有重要意義，但仍需要進一步的確認和落實。以色列的軍事行動對於黎巴嫩人民造成了重大影響，許多人已經在戰爭中喪失了家園和生命。這項停火協議的達成將對於地區的穩定和平發展具有重要的影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "6cf07ecb",
         "title": "俄羅斯控制的烏克蘭領土遭無人機攻擊，至少7人喪生",
         "url": "https://www.bbc.com/news/articles/cp3peyykxd5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Wed, 03 Jun 2026 08:23:55 GMT",
+        "published_at": "Wed, 03 Jun 2026 10:31:50 GMT",
         "summary_zh": "一輛行駛於俄羅斯控制的克里米亞地區的巴士遭無人機攻擊，造成至少7人死亡。根據官方說法，這輛巴士正在行駛於俄羅斯和克里米亞之間的路線。這起事件發生在俄羅斯控制的烏克蘭領土上，引發了對烏克蘭局勢的關注。這次攻擊的原因尚未明確，但有可能與烏克蘭戰爭相關。烏克蘭戰爭已經持續了數年，導致大量人員傷亡和破壞。俄羅斯控制的烏克蘭領土一直是烏克蘭戰爭的焦點，各方都在爭奪控制權。這次攻擊的影響可能會延伸到整個烏克蘭地區，影響到當地居民的生活。",
         "sentiment": "負面",
         "is_breaking": true,
@@ -135,11 +365,11 @@
         "url": "https://www.bbc.com/news/articles/czd29327qzvo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Asia",
         "category": "global",
-        "published_at": "Wed, 03 Jun 2026 09:19:37 GMT",
+        "published_at": "Wed, 03 Jun 2026 10:41:26 GMT",
         "summary_zh": "德里發生大火，造成至少21人死亡，包括來自南亞的外籍人士。這些受害者大多是來到印度接受治療或陪伴親戚的南亞人。這起悲劇發生在印度首都德里，當地政府正努力處理災情。這起火災對外籍人士的影響深遠，許多人在印度的醫療設施或親戚身邊遇難。政府正在調查火災原因，確保類似事件不再發生。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "5abeb4c2",
@@ -166,18 +396,6 @@
         "ai_classified": true
       },
       {
-        "id": "60e5d0d4",
-        "title": "美國墨西哥邊境發現精心打造的毒品走私隧道",
-        "url": "https://www.bbc.com/news/videos/cyv2dy3e32eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 02 Jun 2026 21:23:11 GMT",
-        "summary_zh": "美國墨西哥邊境發現一條精心打造的毒品走私隧道，聯邦官員表示，四名涉案人士已被逮捕並指控販運價值超過4.5億美元的可卡因。這條隧道長達1.5公里，從美國邊境進入墨西哥境內，官員表示，這是近年來墨西哥毒品走私活動中最為精心打造的隧道之一。這起案件的發現，凸顯了美國墨西哥邊境毒品走私活動的嚴重性，聯邦官員將繼續加強邊境安全措施以防止類似案件發生。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "79da40b0",
         "title": "英國夫婦伊朗囚禁判刑上訴遭拒，家人表達憤怒",
         "url": "https://www.bbc.com/news/articles/cjrpwxe82ypo?at_medium=RSS&at_campaign=rss",
@@ -185,18 +403,6 @@
         "category": "global",
         "published_at": "Tue, 02 Jun 2026 16:04:18 GMT",
         "summary_zh": "英國夫婦林賽·福雷曼（Lindsay Foreman）和克雷格·福雷曼（Craig Foreman）在2025年1月被捕，當時他們正在進行全球摩托車之旅。伊朗當局將他們定罪，判處囚禁判刑。夫婦倆上訴被駁回，家人對此感到憤怒和擔憂。伊朗的司法系統一直被批評為不公平和缺乏透明度。這起事件再次引起對伊朗人權狀況的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cc8c19bb",
-        "title": "白宮記者晚宴遭槍擊事件，活動延期舉辦",
-        "url": "https://www.bbc.com/news/articles/clypky99g0vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 02 Jun 2026 19:24:49 GMT",
-        "summary_zh": "白宮記者晚宴是一年一度的盛事，通常在每年四月份舉辦。今年四月，晚宴在進行中時，一名槍手闖入了安全檢查點，造成混亂。這次事件導致晚宴活動被迫延期舉辦，未來的安排尚未公布。這次槍擊事件對於白宮安全措施的考量，引發了許多關注和討論。白宮安全措施的不足，是否需要加強檢查和防範措施，將是未來的關鍵議題。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -226,6 +432,30 @@
         "ai_classified": true
       },
       {
+        "id": "60e5d0d4",
+        "title": "美國墨西哥邊境發現精心打造的毒品走私隧道",
+        "url": "https://www.bbc.com/news/videos/cyv2dy3e32eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 02 Jun 2026 21:23:11 GMT",
+        "summary_zh": "美國墨西哥邊境發現一條精心打造的毒品走私隧道，聯邦官員表示，四名涉案人士已被逮捕並指控販運價值超過4.5億美元的可卡因。這條隧道長達1.5公里，從美國邊境進入墨西哥境內，官員表示，這是近年來墨西哥毒品走私活動中最為精心打造的隧道之一。這起案件的發現，凸顯了美國墨西哥邊境毒品走私活動的嚴重性，聯邦官員將繼續加強邊境安全措施以防止類似案件發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cc8c19bb",
+        "title": "白宮記者晚宴遭槍擊事件，活動延期舉辦",
+        "url": "https://www.bbc.com/news/articles/clypky99g0vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 02 Jun 2026 19:24:49 GMT",
+        "summary_zh": "白宮記者晚宴是一年一度的盛事，通常在每年四月份舉辦。今年四月，晚宴在進行中時，一名槍手闖入了安全檢查點，造成混亂。這次事件導致晚宴活動被迫延期舉辦，未來的安排尚未公布。這次槍擊事件對於白宮安全措施的考量，引發了許多關注和討論。白宮安全措施的不足，是否需要加強檢查和防範措施，將是未來的關鍵議題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "4c56e8c1",
         "title": "視頻：強風驟雨伴隨巨型冰雹轟炸丹佛",
         "url": "https://www.bbc.com/news/videos/cwy244dvxzjo?at_medium=RSS&at_campaign=rss",
@@ -235,200 +465,6 @@
         "summary_zh": "丹佛市周圍地區於星期一遭遇強風驟雨，伴隨著直徑達到高爾夫球大小的冰雹。這場強烈風暴對丹佛市及其周圍地區造成了嚴重影響。丹佛市的居民在社交媒體上分享了許多冰雹的視頻和照片，顯示冰雹的大小和強度。這場風暴對當地的交通和日常生活造成了嚴重影響，當地政府已經發出警告，建議居民避免外出。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6ae57654",
-        "title": "BBC探訪新澤西州ICE拘留中心，當地實施宵禁",
-        "url": "https://www.bbc.com/news/videos/ce3pxqn2200o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 02 Jun 2026 14:06:47 GMT",
-        "summary_zh": "新澤西州的Delaney Hall ICE拘留中心近日引發了持續的抗議活動。BBC記者Nada Tawfik近日探訪了該拘留中心，發現當地警察和當局已經對該區域實施了宵禁，宵禁範圍達半英里。抗議活動持續不斷，當局出動警察和其他力量來維持秩序。這些抗議活動是針對ICE拘留中心的存在和對移民的政策。ICE拘留中心一直是爭議的焦點，許多人批評該中心的條件和對移民的對待。抗議活動的持續和當局的反應，顯示了移民政策和ICE拘留中心的存在引起了廣泛的關注和爭議。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b95ba36a",
-        "title": "肯雅人擔心美方在該國設置埃博拉隔離站",
-        "url": "https://www.theguardian.com/world/2026/jun/02/kenyans-fear-us-plan-for-ebola-quarantine-site",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 02 Jun 2026 18:13:20 GMT",
-        "summary_zh": "肯雅政府近日宣布允許美國在該國設置埃博拉隔離站，為美方公民提供隔離治療。然而，該國民眾對此表示強烈反對，擔心這將使他們面臨埃博拉病毒的風險。根據報導，肯雅人認為，這一決定違反了雙重標準原則，美國應該在自己的國家內隔離病毒感染者，而不是將病毒帶入肯雅。肯雅人認為，這一決定將對該國造成不必要的風險，同時也會損害該國的聲譽。肯雅政府應該考慮到民眾的擔憂，並與美國進行溝通，以確保這一決定不會對肯雅造成任何不利影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8e044fc3",
-        "title": "加拿大板球協會被暫停會籍",
-        "url": "https://www.theguardian.com/world/2026/jun/02/cricket-canada-suspension",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 02 Jun 2026 18:10:07 GMT",
-        "summary_zh": "國際板球理事會（ICC）在面對加拿大板球協會受印度一家有名的黑幫影響的指控後，決定暫停加拿大板球協會的會籍。這一決定是因為加拿大板球協會被指違反了會籍義務，受到批評的加拿大板球協會被形容為「笑柄」。此外，ICC還對加拿大板球協會受黑幫影響的指控表示關注，黑幫成員被指在印度監獄的牢房內操控加拿大板球協會。這一事件對加拿大板球協會造成了重大打擊，該組織的未來發展面臨著嚴重挑戰。加拿大板球協會的暫停會籍將對該國的板球運動產生重大影響，未來將需要重新評估該組織的管理和治理。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "8646ad2b",
-        "title": "川普政府放棄 180 億美元「反軍事化」基金",
-        "url": "https://www.bbc.com/news/articles/crkpyj41m15o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 00:16:09 GMT",
-        "summary_zh": "川普政府宣布放棄 180 億美元的「反軍事化」基金，這項決定出現於共和黨高層立法者反對的背景下。根據目前的資訊，這項基金旨在防止武器被濫用。然而，共和黨立法者對此表示反對，認為這項基金過於昂貴。這項決定可能會對美國的軍事政策產生影響。川普政府的決定可能會引起爭議和討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "87e52cbf",
-        "title": "加拿大正式要求更新北美自由貿易協議",
-        "url": "https://www.bbc.com/news/articles/cn9prr3w9nlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 01:40:44 GMT",
-        "summary_zh": "加拿大貿易部長多米尼克·勒布朗（Dominic LeBlanc）在書面信中向北美三國貿易部長提出，應該更新北美自由貿易協定（USMCA）。這項協定是2018年由美國、加拿大和墨西哥簽署的，旨在促進三國之間的貿易和投資。勒布朗認為，更新協定可以幫助三國在經濟和貿易方面取得進一步合作。這項提議可能會對三國的經濟和貿易產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "34268cb0",
-        "title": "洛杉磯市長選舉：卡倫·巴斯進入決選",
-        "url": "https://www.bbc.com/news/articles/c74dp1yk51vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 09:17:07 GMT",
-        "summary_zh": "洛杉磯市長選舉正在進行中，現任市長卡倫·巴斯已經進入決選階段。她的對手可能是共和黨新人斯賓塞·普拉特（Spencer Pratt），他是一位知名的實境秀明星，或者是民主黨的同黨議員尼西亞·拉曼（Nithya Raman）。這場選舉將決定洛杉磯市的未來走向。卡倫·巴斯的勝利將意味著她將繼續領導洛杉磯市，推動城市發展和政策改革。另一方面，如果斯賓塞·普拉特或尼西亞·拉曼勝出，將會帶來新的領導風格和政策方向。這場選舉的結果將對洛杉磯市的未來產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3712ce52",
-        "title": "新澤西州指控難民設施環境不衛生，抗議活動持續升級",
-        "url": "https://www.bbc.com/news/articles/czx2l9nn79no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 02 Jun 2026 18:22:31 GMT",
-        "summary_zh": "新澤西州政府指控一間難民設施存在衛生問題，這間設施一直是抗議活動的焦點。政府官員表示，這間設施的衛生條件不符合標準，可能會對難民的健康造成風險。抗議活動持續升級，政府官員呼籲公民保持冷靜，並強調政府正在努力解決這個問題。這個事件引起了廣泛的關注，許多人呼籲政府採取行動來改善難民的生活條件。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cd6a0d9d",
-        "title": "美國宣布新關稅　因為勞工迫害問題",
-        "url": "https://www.bbc.com/news/articles/cq6pe7nvldmo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 08:38:36 GMT",
-        "summary_zh": "美國政府近日宣布新關稅措施，主要是因為勞工迫害問題。這項措施是在美國最高法院在2月份裁定美國前總統唐納德·川普（Donald Trump）之前的關稅措施無效後實施的。美國政府認為某些國家的勞工待遇不佳，導致關稅措施的實施。這項措施將對這些國家的出口產生影響，可能會導致出口商面臨更高的成本。美國政府的動作被視為對勞工權益的保護，但也可能會對某些國家的經濟造成負面影響。未來將觀察美國政府對這項措施的執行情況和對相關國家的出口商的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "3de7f7c4",
-        "title": "川普任命房地產官員比爾·普爾特為美國情報主管",
-        "url": "https://www.bbc.com/news/articles/cyv2dpyz3dpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 02 Jun 2026 20:36:15 GMT",
-        "summary_zh": "美國總統川普宣布任命房地產官員比爾·普爾特為美國情報主管。普爾特目前擔任聯邦住房金融管理局局長，曾經推動對川普政敵提出刑事指控。這項任命將於未來的某個時候生效，取代目前的情報主管。這項任命引起了輿論的關注，許多人對此表示質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8b81dc9d",
-        "title": "中期選舉初選2026直播：六個州包括加利福尼亞州和愛荷華州投票結果和反應",
-        "url": "https://www.theguardian.com/us-news/live/2026/jun/02/midterm-primary-election-results-california-iowa-montana-new-jersey-south-dakota-new-mexico-latest-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 06:07:43 GMT",
-        "summary_zh": "美國中期選舉初選即將展開，六個州包括加利福尼亞州和愛荷華州投票進行中。除了加利福尼亞州和愛荷華州外，新澤西州、南達科他州、新墨西哥州和蒙大拿州也投票進行中。加利福尼亞州的選舉中，州長、洛杉磯市長和國會議員的席位將在這次選舉中決定。然而，緬因州的選舉初選卻因為參選人格雷厄姆·普拉特納(Graham Platner)的醜聞而受影響。根據紐約時報和華爾街日報的報導，普拉特納在婚姻期間與其他女性交換過色情文本。這項醜聞已經影響了普拉特納的競選活動，他正在爭取民主黨的參議院席位。普拉特納在與民主黨領袖會面後，沒有回應記者的提問，迅速進入等待的汽車中。這次會面持續了一個多小時半，於民主參議院競選委員會(DSCC)總部進行。DSCC的發言人沒有回應記者的要求。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e18de5b4",
-        "title": "愛荷華州民主黨候選人Josh Turek將挑戰特朗普支持的共和黨候選人Ashley Hinson",
-        "url": "https://www.theguardian.com/us-news/2026/jun/02/iowa-primary-election-results",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 03:12:26 GMT",
-        "summary_zh": "愛荷華州民主黨人選Josh Turek在黨內初選中勝出，將挑戰共和黨候選人Ashley Hinson。民主黨人認為，愛荷華州在過去十年來一直是共和黨的強權地盤，但他們仍然相信可以在該州的三個議會選區、參議院選舉和州長選舉中取得成功。愛荷華州的選舉結果將對國會的勢力平衡產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "068ef602",
-        "title": "加州選舉：州長、洛杉磯市長和國會議員競選高潮加州準備迎接動盪",
-        "url": "https://www.theguardian.com/us-news/2026/may/30/california-turbulent-elections",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 03:10:15 GMT",
-        "summary_zh": "加州選民在本週二的初選中投票，州長、洛杉磯市長和國會議員競選激烈。選民對這次選舉感到沮喪和失望。州長競選中，投票人將選出兩名候選人進入下一輪競選。洛杉磯市長競選則是一場混亂的戰鬥。國會議員競選則是一系列高風險的選舉。投票結果可能會在幾天內公佈，因為加州的投票計票系統非常慢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0dac2552",
-        "title": "「吉莉，我別無選擇」：吉莉·拜登回憶喬·拜登面臨壓力退出2024總統大選",
-        "url": "https://www.theguardian.com/us-news/2026/jun/02/joe-jill-biden-memoir",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 02:43:59 GMT",
-        "summary_zh": "吉莉·拜登在推出新自傳《東翼的視角》之際，於紐約市的92nd街Y舉辦一場書展活動。該活動由喜劇演員兼《視點》主持人Whoopi Goldberg主持。吉莉·拜登在活動中提到，喬·拜登在2024年總統辯論表現不佳後，面臨了巨大的壓力。喬·拜登在退出總統競選後告訴吉莉·拜登：「吉莉，我別無選擇。」",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bbe8af22",
-        "title": "川普政府建議對巴西實施 25% 進口稅",
-        "url": "https://www.theguardian.com/business/2026/jun/02/trump-administration-brazil-tariffs",
-        "source": "Guardian World",
-        "category": "whitehouse",
-        "published_at": "Tue, 02 Jun 2026 18:56:55 GMT",
-        "summary_zh": "川普政府指出，世界第十大經濟體巴西的貿易實踐「不合理」，對美國商業造成「負擔或限制」。巴西總統路易斯·伊納西奧·盧拉·達席爾瓦表示，他對川普政府的決定感到「憤怒」。他還指責美國政府的決定是由於他在去年十月的選舉中競選對手弗拉維奧·博爾索納羅所致。弗拉維奧·博爾索納羅是前總統雅伊爾·博爾索納羅的兒子，前總統雅伊爾·博爾索納羅曾被他的盟友稱為「熱帶的川普」。這項決定可能對巴西的出口產生重大影響，巴西是美國的重要貿易夥伴。美國政府的決定可能會引起巴西政府的強烈反應，雙方的貿易關係可能會受到影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a4603c27",
-        "title": "白宮發布白皮書：川普總統推動人工智慧創新和安全",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-and-security/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 02 Jun 2026 18:04:20 +0000",
-        "summary_zh": "川普總統今天簽署了一份行政命令，旨在推動美國人工智慧創新，強化美國的網絡安全，保護關鍵基礎設施，並確保美國在人工智慧創新領域保持全球領導地位。川普總統認為，美國必須在創新和安全之間找到恰當的平衡。這項行政命令將促進美國在人工智慧領域的領先地位，並確保美國的網絡安全和基礎設施受到充分保護。這項措施將對美國的經濟和國家安全產生重大影響，同時也將促進美國在全球人工智慧領域的競爭力。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ba817a11",
-        "title": "推動先進人工智慧創新和安全",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 02 Jun 2026 15:34:13 +0000",
-        "summary_zh": "美國總統發布行政命令，旨在推動人工智慧創新和安全。根據美國憲法和法律賦予的權力，總統宣布：第一條目的意義。美國繼續在人工智慧領域領先世界，因為我們的AI行業擁有巨大的人才和創新力，而我們拒絕放棄這一優勢。這項行政命令旨在促進美國在人工智慧領域的領先地位，並確保這一領域的安全。美國政府將繼續投資人工智慧研究和發展，同時也將加強對這一領域的監管和安全措施。這項行政命令將對美國的經濟和國家安全產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       }
     ],
@@ -442,8 +478,8 @@
         "published_at": "2026-06-03T05:00:00-04:00",
         "summary_zh": "在美國各地的AI數據中心建設面臨著廣泛的反對聲浪之際，谷歌正在宣傳其努力減少對環境的影響，包括增加供應給當地社區的水資源。公司在星期三發布的一篇新博客文章中，提出了五項關於水資源使用的承諾，包括目標是補充更多的水資源。谷歌承諾在未來五年內，將其數據中心的水耗量降低25%，並且在2025年之前，將其數據中心的水耗量降低到每平方英尺每年不到0.5公斤。谷歌還承諾在2025年之前，將其數據中心的水耗量降低到每平方英尺每年不到0.5公斤，並且將其數據中心的水耗量降低到每平方英尺每年不到0.5公斤。谷歌還表示，將會與當地政府合作，為當地社區提供更多的水資源。這些承諾是谷歌對於減少數據中心對環境的影響的一個重要步驟。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "ac7537a4",
@@ -454,8 +490,8 @@
         "published_at": "2026-06-03T04:45:48-04:00",
         "summary_zh": "英國競爭及市場管理局 (CMA) 最近頒布了一項新的行為規則，要求谷歌讓網站所有者能夠控制自己的內容是否出現在谷歌的 AI 搜尋功能中，例如 AI Overviews 等特徵。根據這項規則，谷歌必須讓網站所有者能夠選擇是否讓自己的內容出現在這些功能中，並且能夠防止內容被用於這些功能。這項規則的目的是讓出版商能夠更好地控制自己的內容，並且能夠保護自己的知識產權。這項規則對於出版商和谷歌都有重要的影響，將會對網路搜尋功能和知識產權保護產生重大影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "af72e1d6",
@@ -554,18 +590,6 @@
         "ai_classified": true
       },
       {
-        "id": "eb898ab4",
-        "title": "微軟宣布新量子晶片可靠度提升 1,000 倍",
-        "url": "https://www.bbc.com/news/articles/cj4p7gyvp52o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "ai",
-        "published_at": "Tue, 02 Jun 2026 19:24:31 GMT",
-        "summary_zh": "微軟宣布最新量子晶片的可靠度已經遠超過前任，達到 1,000 倍。這項突破將有助於微軟開發出能夠解決商業上有用問題的量子電腦。根據微軟的預測，到本世紀末，量子電腦將能夠解決商業上有用問題。這項技術的發展將對未來的計算能力和應用產生重大影響。微軟的這一項突破將為量子計算的發展提供新的動力。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "e712007e",
         "title": "微軟Build 2026：關於Windows、AI、RTX Spark等最新消息",
         "url": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
@@ -573,18 +597,6 @@
         "category": "ai",
         "published_at": "2026-06-02T11:59:58-04:00",
         "summary_zh": "微軟年度開發者會議即將於6月2日在舊金山開幕，主題演講將在12:30PM ET / 9:30AM PT同步直播。根據The Verge的Tom Warren報導，會議中將會宣布新的AI模型和OpenClaw類似的人工智能。這次會議將會聚焦於Windows和人工智能的新發展，包括RTX Spark等新技術。微軟的開發者會議一直是業界關注的焦點，每年都會有許多新技術和產品的宣布。今年的會議將會是微軟繼續推進人工智能和Windows發展的重要里程碑。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "26510a3e",
-        "title": "微軟測試可穿戴人工智慧裝置，瞄準辦公室員工",
-        "url": "https://www.bbc.com/news/articles/cwy25x97wrxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "ai",
-        "published_at": "Tue, 02 Jun 2026 21:47:42 GMT",
-        "summary_zh": "微軟正在測試一款名為「可穿戴存取徽章」的裝置，目標是為辦公室員工提供便捷的存取體驗。這款裝置由公司自己的員工進行測試。除了可穿戴裝置，微軟還在測試一款桌面裝置。這些裝置的詳細功能尚未公開，但微軟正在嘗試將人工智慧技術應用於辦公室環境，提高員工的效率和便捷性。這項測試可能會對未來的辦公室技術產生重大影響，微軟的努力可能會改善員工的工作體驗。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -612,9 +624,105 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "eb898ab4",
+        "title": "微軟宣布新量子晶片可靠度提升 1,000 倍",
+        "url": "https://www.bbc.com/news/articles/cj4p7gyvp52o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "ai",
+        "published_at": "Tue, 02 Jun 2026 19:24:31 GMT",
+        "summary_zh": "微軟宣布最新量子晶片的可靠度已經遠超過前任，達到 1,000 倍。這項突破將有助於微軟開發出能夠解決商業上有用問題的量子電腦。根據微軟的預測，到本世紀末，量子電腦將能夠解決商業上有用問題。這項技術的發展將對未來的計算能力和應用產生重大影響。微軟的這一項突破將為量子計算的發展提供新的動力。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "26510a3e",
+        "title": "微軟測試可穿戴人工智慧裝置，瞄準辦公室員工",
+        "url": "https://www.bbc.com/news/articles/cwy25x97wrxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "ai",
+        "published_at": "Tue, 02 Jun 2026 21:47:42 GMT",
+        "summary_zh": "微軟正在測試一款名為「可穿戴存取徽章」的裝置，目標是為辦公室員工提供便捷的存取體驗。這款裝置由公司自己的員工進行測試。除了可穿戴裝置，微軟還在測試一款桌面裝置。這些裝置的詳細功能尚未公開，但微軟正在嘗試將人工智慧技術應用於辦公室環境，提高員工的效率和便捷性。這項測試可能會對未來的辦公室技術產生重大影響，微軟的努力可能會改善員工的工作體驗。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "1b57bb2b",
+        "title": "金融三業首季對中國曝險7637億 可望再創史上新低",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5459690",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 03 Jun 2026 18:25:09 +0800",
+        "summary_zh": "金管會近日公布金融三業對中國曝險狀況，首季對中國曝險金額為7638.57億元，較去年同期的8945.7億元，年減14.61％。這意味著金融三業對中國的曝險風險正在降低。根據金管會的數據，今年3月底金融三業的對中國曝險金額已經創下史上新低。這一趨勢表明，金融三業正在採取積極措施降低對中國的曝險風險。然而，仍需密切關注中國的經濟情況和政治風險，以確保金融三業的風險控制措施有效。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a7854b5c",
+        "title": "身家狂飆逾3兆元！孫正義睽違26年再登頂「亞洲首富」",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5459657",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 03 Jun 2026 18:23:11 +0800",
+        "summary_zh": "孫正義在AI熱潮的推動下，正式超越印度首富安巴尼，成為亞洲新首富。這是他睽違26年再次登頂亞洲首富的位置。孫正義的身家已經狂飆逾3兆元，成為亞洲最富有的企業家。這個轉變是由於孫正義的投資公司軟銀集團在AI領域的投資取得了成功，推動了市場情緒的上升。孫正義的成功也引起了市場的關注，許多人認為他是當今亞洲最成功的企業家。然而，這也引起了對於市場情緒的關注，是否會出現新的泡沫？",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "bb48eee5",
+        "title": "群創、長科*6/4起打入處置 大立光、南亞科等83檔列注意股",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5459681",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 03 Jun 2026 18:21:36 +0800",
+        "summary_zh": "台股震盪，今日證交所、櫃買中心公告，群創（3481）等9檔上市公司和長科*（6548）等7檔上櫃公司將於6月4日起被列入處置股票。這些公司包括大立光（3008）、南亞科（2408）等83檔股票，將受到監管機構的注意。這項公告可能會對市場造成影響，投資者應該密切關注這些公司的表現。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ae3fb581",
+        "title": "中華汽車J Space COSSI最低入手價62.8萬元起",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5459659",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 03 Jun 2026 18:20:16 +0800",
+        "summary_zh": "中華汽車旗下暢銷輕型商用車J Space推出COSSI 5人座與8人座車型，建議售價為67.8萬元起。政府汰舊換新貨物稅減免政策使得最低入手價降至62.8萬元起。這項政策預計將對輕型商用車市場產生重大影響。根據市場分析，COSSI車型的推出將會增加中華汽車在輕型商用車市場的競爭力。政府的減免政策將會幫助消費者降低購車成本，預計將會刺激市場需求。這項政策的實施將會對中華汽車的營業額產生正面影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f815f2cd",
+        "title": "AI題材點火 台股大漲創歷史新高 新台幣逆勢走升收31.44元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5459650",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 03 Jun 2026 18:17:10 +0800",
+        "summary_zh": "近日，AI題材持續發酵，帶動台股大幅上漲，甚至飛越46000點，再創歷史新高。外資買超和熱錢匯入也推升新台幣兌美元匯率，使其逆勢走升，盤中一度達到31.3字頭。然而，在午後傳出美伊互相空襲的消息後，市場情緒出現波動。儘管如此，新台幣仍然收穫31.44元，展現出強勁的反彈力。這一波台股大漲的背後，還有許多因素在推動，包括市場對AI的投資熱情和外資的買超行為。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "853d112b",
+        "title": "石油和通膨危機讓韓日受苦 韓媒讚台灣一帆風順「致勝點」",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5459679",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 03 Jun 2026 18:16:21 +0800",
+        "summary_zh": "南韓媒體《中央日報》指出，全球各國面對石油危機和通膨，卻有不同的結果。南韓和日本因通膨而受苦，而台灣則一帆風順。雖然許多國家的物價都在上漲，但台灣的通膨率卻遠低於其他國家。韓媒認為，台灣的經濟政策和能源安全措施是其致勝點。台灣的經濟在石油危機和通膨下仍然保持穩定，甚至有所增長。這使得台灣成為全球經濟中的一個亮點。韓媒的評論引起了台灣人對自己經濟的自豪感。然而，台灣的經濟仍然面臨著挑戰，包括國際競爭和資源短缺等問題。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "50b79947",
         "title": "全球AI算力短缺 輝達仰賴台灣生態系擴增產能",
@@ -624,8 +732,8 @@
         "published_at": "Wed, 03 Jun 2026 16:11:11 +0800",
         "summary_zh": "人工智慧（AI）晶片大廠輝達新一代架構Vera Rubin進入全面量產，市場對AI算力的需求已遠遠超過目前能提供的運算總量。輝達需要台灣生態系協助將產能擴增到量產階段，以供應全球的AI工廠。輝達AI與資料中心GPU產品行銷總監納拉辛漢表示，台灣生態系的協助對於輝達的生產能力提升至關重要。這也意味著台灣將成為全球AI產業的重要據點。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "6b1e1539",
@@ -636,8 +744,8 @@
         "published_at": "Wed, 03 Jun 2026 16:06:02 +0800",
         "summary_zh": "台北外匯市場新台幣兌美元今天收盤收31.44元，升0.5分，成交金額17.49億美元。這是近期新台幣升值的趨勢，市場分析師認為是由於外資持續購買台股和台幣，導致新台幣升值。這項升值對於出口業者和外匯儲備持有人來說是有利的，但也可能導致進口成本增加。市場觀察人士預測，新台幣將繼續升值，但升值幅度將受到多種因素的影響，包括經濟成長率、通膨率和外匯政策等。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "542f7dc2",
@@ -648,71 +756,71 @@
         "published_at": "Wed, 03 Jun 2026 15:58:52 +0800",
         "summary_zh": "財金公司宣布將於6月6日及6月13日凌晨4時暫停ATM跨行服務，維持時間約15至30分鐘。這次系統維護的目的是為了進行系統更新和維護。民眾在此期間若需要進行ATM相關服務，建議前往各機構的ATM、網路銀行或行動銀行進行辦理。財金公司已經發布新聞稿，提醒民眾事先安排好相關事宜。這項系統維護將對民眾的日常生活產生一定影響，但財金公司已經做好準備，確保服務的暫停時間盡可能短暫。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "finance": [
       {
-        "id": "1fe30c4c",
-        "title": "中華車攻自駕物流、穩懋布局6G通訊 獲經部A+補助逾億",
-        "url": "https://www.cna.com.tw/news/afe/202606030213.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 03 Jun 2026 15:47:37 +0800",
-        "summary_zh": "經濟部產業技術司今天表示，「A+企業創新研發淬鍊計畫」決審會議通過3項研發計畫，共補助約新台幣2.8億元。其中，中華汽車與穩懋半導體分別申請計畫總經費皆逾新台幣3億元規模，均獲得經濟部核准補助上億元。這些計畫涵蓋自駕物流載具、6G通訊及智慧海事AI技術。這項補助將幫助中華汽車和穩懋半導體在自駕物流和6G通訊領域進一步發展和佈局。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "f687f089",
-        "title": "瑞銀預期美國年底前可能釋降息訊號",
-        "url": "https://www.cna.com.tw/news/afe/202606030211.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 03 Jun 2026 15:45:32 +0800",
-        "summary_zh": "美國聯準會新任主席華許上任後，外界關注美國聯準會後續貨幣政策動向。瑞銀表示，雖然市場預期Fed可能升息，但考量通膨預期、勞動市場狀況，Fed沒有升息理由。瑞銀預期Fed今年底前可能釋出降息訊號，這可能會讓市場轉為預期美國降息。根據瑞銀的分析，如果市場轉為預期美國降息，美元約有3%的貶值空間。這意味著美元可能會在未來的一段時間內出現一定程度的貶值。",
+        "id": "88531461",
+        "title": "台灣央行「大老闆」大力打擊匯率波動",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-02/taiwan-s-big-boss-central-bank-is-stamping-out-currency-swings",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-02 23:00:00",
+        "summary_zh": "台灣央行近期出手打擊匯率波動，透過市場介入和政策工具，試圖穩定匯率。根據市場消息，台灣央行在近期已經多次介入市場，購買美元以穩定匯率。這一措施旨在防止匯率過度波動，維持經濟穩定。分析人士認為，台灣央行的行動是為了應對全球經濟不確定性和匯率波動的風險。這一措施可能會對匯率產生短期影響，但長期來看，台灣央行的政策仍將受到市場和經濟變化的影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "5c2fd814",
-        "title": "房仲：台北購屋屋齡37年居六都之冠",
-        "url": "https://www.cna.com.tw/news/afe/202606030210.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 03 Jun 2026 15:45:30 +0800",
-        "summary_zh": "近年來，台灣房屋價格不斷上漲，導致買家越買越老的房屋。根據內政部不動產資訊平台的統計數據，2025年第4季全台住宅買賣平均屋齡為31.7年，相比2024年同期增加約2年，刷新歷史最高齡紀錄。這意味著越來越多買家選擇購買較老的房屋。台北購屋屋齡最長，達37年，居六都之冠。這種趨勢可能與房屋價格的上漲有關，買家為了節省購房成本，選擇購買較老的房屋。然而，這也可能導致房屋的維護和升級成本增加。整體而言，這種趨勢可能對房地產市場產生一定的影響。",
+        "id": "65601f9e",
+        "title": "克拉默建議投資者購買這5隻股票，避免過度依賴AI行業",
+        "url": "https://www.cnbc.com/2026/06/02/jim-cramer-these-stocks-outside-ai-for-diversification.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-06-02 22:24:15",
+        "summary_zh": "美國財經電視台CNBC的克拉默表示，投資者若開始轉移投資目標，離開高飛的科技股，應該考慮投資那些被市場冷落的行業。克拉默認為，這樣可以增加投資組合的多樣化。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "b7114744",
-        "title": "台化與日本公司合作打入半導體供應鏈 今年底量產",
-        "url": "https://www.cna.com.tw/news/afe/202606030208.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 03 Jun 2026 15:40:26 +0800",
-        "summary_zh": "台化今年首度參加台北國際電腦展，展現其在半導體製程供應鏈的發展潛力。台化與日本聚丙烯公司合作，發展茂金屬PP超潔淨材料，預計今年底開始量產。這項合作將有助於台化打入半導體供應鏈，進一步增強其在全球市場的競爭力。這項合作的成功將對台化的未來發展產生重大影響，同時也將對台灣的半導體產業帶來新的機會。",
-        "sentiment": "正面",
+        "id": "7248553e",
+        "title": "美股期貨未見明顯波動 美國500指數再創歷史新高",
+        "url": "https://www.cnbc.com/2026/06/02/stock-market-today-live-updates.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-06-02 22:11:48",
+        "summary_zh": "美國股市三大指數於週二再創歷史新高。這次的漲幅使得美國500指數再次達到新高，市場投資者對美股的信心持續增強。然而，期貨市場的變化相對平穩，未見明顯波動。投資者仍在觀察美股的發展，等待下一步的動向。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "91404f0e",
-        "title": "遠傳股價寫歷史新高 首度突破百元關卡",
-        "url": "https://www.cna.com.tw/news/afe/202606030204.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 03 Jun 2026 15:32:17 +0800",
-        "summary_zh": "遠傳電信今天股價站上歷史新高，首度突破百元關卡。今年以來，遠傳股價漲幅居電信三雄之冠，反映基本面持續轉強。遠傳的合併亞太電信綜效逐步顯現，股價的上漲是市場對遠傳未來發展前景的肯定。這一波股價上漲也反映了市場對台灣電信業的樂觀態度。然而，股價的波動也可能受到市場情緒和經濟環境的影響。遠傳股價的突破百元關卡，也是市場對台灣股市的信心增強的跡象。",
+        "id": "222384b9",
+        "title": "CopperTech Metals 美國首次公開募股申請報酬大幅上升",
+        "url": "https://www.reuters.com/business/coppertech-metals-files-go-public-us-2026-06-02/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-02 22:10:09",
+        "summary_zh": "CopperTech Metals 進一步透露了美國首次公開募股申請中，公司在去年實現了顯著的收入增長。這一發展與川普政府推動的政策有關，該政策旨在促進美國的礦產自給自足。這一政策推動了礦產需求的增長，對於 CopperTech Metals 這類礦產公司來說是一個有利的趨勢。然而，該公司的收入增長也可能受到市場波動和供應鏈挑戰的影響。對於 CopperTech Metals 的未來發展，投資者將密切關注公司的財務報告和市場趨勢。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "5693ae2d",
+        "title": "亞洲股市料將繼續上揚　人工智慧股市熱潮延續",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-02/asian-stocks-poised-to-gain-as-ai-rally-extends-markets-wrap",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-02 22:08:52",
+        "summary_zh": "亞洲股市預期將繼續上揚，人工智慧股市熱潮延續。根據市場分析，亞洲股市的表現將受到人工智慧領域的影響。人工智慧領域的公司股價已經出現明顯的上漲趨勢，市場預期這種趨勢將繼續延續。同時，市場也關注著全球經濟的發展和政策變化對股市的影響。儘管如此，市場仍然保持著樂觀的態度，預期亞洲股市將繼續上揚。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
-      }
-    ],
-    "finance": [
+      },
       {
         "id": "b1cf2db7",
         "title": "Vision Capital CEO 表示 AI 正在創造商業 REIT 投資機會",
@@ -722,8 +830,8 @@
         "published_at": "2026-06-02 21:59:13",
         "summary_zh": "Vision Capital CEO Jeff Olin 表示，人工智慧 (AI) 正在創造投資機會，特別是在商業房地產信託 (REIT) 領域。Olin 在節目 'Fast Money' 中表示，AI 將會對房地產市場產生重大影響，投資者應該關注這些機會。根據 Olin 的看法，AI 將會幫助房地產公司提高效率，降低成本，並且創造新的投資機會。這些投資機會將會出現在商業 REIT 領域，投資者應該關注這些機會並趁早投資。Olin 的看法表明，AI 將會對房地產市場產生重大影響，並且投資者應該準備好面對這些變化。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "01df56d2",
@@ -734,8 +842,8 @@
         "published_at": "2026-06-02 21:57:25",
         "summary_zh": "委內瑞拉國會近日通過了一項決議，初步批准私人投資電力部門。這項決議的通過意味著委內瑞拉政府將允許私人企業在電力領域投資。這一決定可能會對委內瑞拉的能源市場產生重大影響。委內瑞拉長期以來一直面臨著嚴重的電力短缺問題，私人投資可能會幫助改善這一情況。然而，委內瑞拉政府仍需要對這項決議進行進一步的審議和通過，才能實現私人投資的落地。這項決議的通過也引發了對委內瑞拉未來能源政策的關注。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "481418ee",
@@ -746,56 +854,8 @@
         "published_at": "2026-06-02 21:47:45",
         "summary_zh": "阿根廷政府推出投資收益制度，TGS要求加入該制度。根據了解，TGS將向阿根廷政府提交申請，要求加入該制度。該制度旨在吸引外國投資，促進阿根廷經濟的發展。TGS的加入將使該公司能夠享受投資收益的稅收優惠。這一舉動將對阿根廷經濟產生正面影響，同時也將為TGS帶來新的商業機會。然而，TGS的加入也可能面臨到法律和財務上的挑戰。阿根廷政府的投資收益制度是否能夠有效吸引外國投資，還有待觀察。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "294b3276",
-        "title": "Shopify 擴大股票回購計畫 300 億美元",
-        "url": "https://www.reuters.com/business/shopify-expands-share-buyback-program-by-3-billion-2026-06-02/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-02 21:42:25",
-        "summary_zh": "Shopify 宣布擴大其股票回購計畫，額外投資 300 億美元。這項決定旨在為股東帶來更多價值。Shopify 的股票回購計畫已經存在多年，目的是回購公司的股票並減少流通股數。擴大回購計畫的決定可能會對股東產生正面影響，尤其是在股價下跌時。然而，投資者也需要考慮公司的財務狀況和經營績效。Shopify 的財務狀況良好，公司的收入和利潤都在增長。這項決定可能會對公司的股價產生短期影響，但長期來看，公司的發展方向和財務狀況將是關鍵因素。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "ef886c1a",
-        "title": "全球股市反彈，人工智慧樂觀情緒持續，但伊朗局勢仍引發擔憂",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-02/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-02 21:34:01",
-        "summary_zh": "全球股市在人工智慧領域的樂觀情緒下展現反彈態勢，但伊朗局勢的不確定性仍然引發投資者的擔憂。市場觀察人士指出，人工智慧領域的新技術和應用正在推動全球經濟的發展，從而帶來投資機會。然而，伊朗局勢的不確定性仍然是市場的重要考量因素，投資者們對伊朗的局勢變化有所擔憂。儘管如此，全球股市仍然展現出一定的反彈態勢，表明投資者們對全球經濟的樂觀情緒仍然存在。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "229f969d",
-        "title": "交易日: 新高還是買入?",
-        "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-02/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-02 21:30:44",
-        "summary_zh": "市場正在關注新高的可能性，投資者是否應該買入股票？雖然市場表現良好，但仍有許多不確定性。投資者需要考慮多種因素，包括經濟數據、公司財務、市場趨勢等。儘管如此，市場仍有許多機會，投資者可以通過買入股票來參與市場的成長。然而，投資者也需要謹慎評估風險，避免過度投入。最後，投資者需要根據自己的投資目標和風險承受能力來決定是否買入股票。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "f3d20cbc",
-        "title": "美聯儲的Warsh邀請保守派Winfree和Heil擔任顧問",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-02/fed-s-warsh-taps-conservatives-winfree-heil-as-advisers",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-02 21:25:43",
-        "summary_zh": "美聯儲的Warsh最近邀請了保守派經濟學家Winfree和Heil擔任顧問。這一舉動引起了關注，因為它可能意味著美聯儲正在轉向更保守的政策路線。Winfree和Heil都是知名的保守派思想家，他們的加入可能會對美聯儲的決策產生影響。這一變化可能會影響美聯儲未來的政策方向，包括利率和貨幣政策的變化。美聯儲的這一舉動可能會對全球經濟產生影響，特別是在美聯儲的政策變化對市場的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "79bdf5f1",
@@ -820,8 +880,8 @@
         "published_at": "2026-06-02 21:14:00",
         "summary_zh": "市場預期股市泡沫將在未來某個時點破裂，投資者應該儘早做好準備。投資者可以通過分散投資、降低風險、投資具有穩定性和抗風險能力的股票、避免過度投資個人偏好股市來保護投資組合。投資者也可以考慮投資在不同市場和產業的股票，以減少對單一市場或產業的依賴。同時，投資者也應該保持冷靜和耐心，不要被短期市場波動所左右。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "11241798",
