@@ -1,97 +1,279 @@
 {
-  "generated_at": "2026-06-04T22:04:27.287568+08:00",
+  "generated_at": "2026-06-04T23:04:19.245266+08:00",
   "risk_signals": [
     "🟢 台股加權 45677.46（正常）",
-    "🟢 S&P 500 7541.72（正常）",
-    "🟢 VIX 恐慌指數 16.06（正常）",
+    "🟢 S&P 500 7560.32（正常）",
+    "🟢 VIX 恐慌指數 15.84（正常）",
     "🟢 MOVE 債市波動 73.58（正常）",
-    "🟢 美元指數 99.25（正常）",
-    "🟡 黃金 4527.0（漲 +2.04%，留意）",
-    "🟢 美債10Y殖利率 4.46（正常）",
-    "🟢 原油 WTI 92.53（正常）",
+    "🟢 美元指數 99.31（正常）",
+    "🟢 黃金 4485.5（正常）",
+    "🟢 美債10Y殖利率 4.47（正常）",
+    "🟢 原油 WTI 92.99（正常）",
     "🟢 美元/台幣 31.46（正常）"
   ],
-  "ai_summary": "市場氛圍相對穩定，多個指標處於正常水平，但黃金價格出現小幅漲升，留意投資人對避險需求的變化。",
+  "ai_summary": "市場氛圍保持穩定，各指標正常運作。目前投資者情緒相對平衡，未見明顯的恐慌或極度樂觀。",
   "market": {
     "TWII": {
       "price": 45677.46,
       "change_pct": -1.68
     },
     "SP500": {
-      "price": 7541.72,
-      "change_pct": -0.16
+      "price": 7560.32,
+      "change_pct": 0.09
     },
     "NASDAQ": {
-      "price": 26603.03,
-      "change_pct": -0.93
+      "price": 26730.9,
+      "change_pct": -0.46
     },
     "VIX": {
-      "price": 16.06,
-      "change_pct": 0.0
+      "price": 15.84,
+      "change_pct": -1.37
     },
     "TNX": {
-      "price": 4.46,
-      "change_pct": -0.76
+      "price": 4.47,
+      "change_pct": -0.58
     },
     "MOVE": {
       "price": 73.58,
       "change_pct": 0.2
     },
     "DXY": {
-      "price": 99.25,
-      "change_pct": -0.28
+      "price": 99.31,
+      "change_pct": -0.22
     },
     "GOLD": {
-      "price": 4527.0,
-      "change_pct": 2.04
+      "price": 4485.5,
+      "change_pct": 1.1
     },
     "OIL": {
-      "price": 92.53,
-      "change_pct": -3.63
+      "price": 92.99,
+      "change_pct": -3.16
     },
     "USDTWD": {
       "price": 31.46,
-      "change_pct": -0.05
+      "change_pct": -0.06
     }
   },
   "macro": {},
   "categories": {
-    "global": [
+    "whitehouse": [
       {
-        "id": "d71e2090",
-        "title": "以色列空襲黎巴嫩九人喪生，希伯倫火箭攻擊以色列邊境",
-        "url": "https://www.bbc.com/news/articles/c5y01pdqvkgo?at_medium=RSS&at_campaign=rss",
+        "id": "0b1b7fb4",
+        "title": "國會議員對特朗普任命普爾特為國家情報局代理局長表示強力支持",
+        "url": "https://www.whitehouse.gov/releases/2026/06/strong-support-for-president-trumps-appointment-of-william-j-pulte-as-acting-director-of-national-intelligence/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 13:36:09 +0000",
+        "summary_zh": "美國總統特朗普任命威廉·J·普爾特（William J. Pulte）擔任國家情報局代理局長，獲得國會議員的高度讚賞。普爾特是一位經驗豐富的改革者，擁有深厚的經驗在保護敏感信息和改革龐大的政府機構。他帶來了果斷的領導、堅定的正直和堅定的「美國優先」承諾，為情報界帶來新的希望。這項任命受到國會議員的普遍支持，表明普爾特的領導能力和正直性格得到認可。這項任命對於美國情報界的未來發展具有重要影響，將對國家安全和情報工作產生重大影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "069d66fd",
+        "title": "加強海關執法",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/strengthening-customs-enforcement/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 20:35:52 +0000",
+        "summary_zh": "美國總統根據憲法和美國法律的授權，決定並下令加強海關執法。海關執法對於美國的國家安全、外交政策和經濟至關重要。有效的海關執法能夠防止非法和危險物品進口，確保進口商遵守相關規定。這項措施將對美國產生重大影響，保護美國人民的安全和利益。美國政府將繼續加強海關執法，確保美國的安全和競爭力。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1e736042",
+        "title": "美國眾議院投票暫停伊朗戰爭，對川普發出譴責",
+        "url": "https://www.bbc.com/news/articles/cj6pldg39deo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 04 Jun 2026 07:49:33 GMT",
-        "summary_zh": "近日，黎巴嫩的希伯倫組織與以色列達成了一個暫時的停火協議，但這項協議於昨天被打破。希伯倫組織在黎巴嫩境內發射火箭攻擊以色列邊境，導致以色列軍隊進行報復性空襲，造成黎巴嫩九人喪生。這一系列事件使得暫時的停火協議受到了嚴重挑戰，雙方的緊張關係達到了新的高峰。這一事件的發生，將會對黎巴嫩和以色列地區的安全局勢產生重大影響。",
-        "sentiment": "負面",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 07:23:41 GMT",
+        "summary_zh": "美國眾議院在215-208的投票中，四名共和黨議員與民主黨議員聯合通過了這項措施。這項措施在之前的三次嘗試中都失敗了。這項決議表明美國國會對川普政府的伊朗政策存在著強烈的批判意見。這項決議的通過將暫停美國對伊朗的軍事行動，讓美國政府重新評估與伊朗的關係。這一發展表明美國國會正在試圖限制總統的權力，確保美國的外交政策更具多黨合作精神。",
+        "sentiment": "正面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "2a46a23a",
-        "title": "川普與內塔尼亞胡的「瘋狂」電話交談，複雜化伊朗談判",
-        "url": "https://www.bbc.com/news/articles/cvgz21pq3g6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 03 Jun 2026 20:28:01 GMT",
-        "summary_zh": "伊朗問題一直是中東地區的一個敏感話題，近日，美國前總統川普與以色列總理內塔尼亞胡進行了一次電話交談，這次電話交談被形容為「瘋狂」。雖然內塔尼亞胡否認了這次電話交談中出現的任何摩擦，但他卻曾經在過去的時候，考慮過對美國總統的耐心。這次電話交談的內容，似乎在複雜化了伊朗問題的談判。伊朗問題一直是中東地區的一個敏感話題，各國領導人一直在努力尋找解決方案。",
+        "id": "b4a22d1c",
+        "title": "實施預算政策/除外服務職業生涯",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/implementing-schedule-policy-career-in-the-excepted-service/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 20:34:27 +0000",
+        "summary_zh": "美國總統根據憲法和美國法律，包括第五章第 3301、3302、5595 和 7511 節，授權我以總統的身分發佈命令。根據這些法律，總統依靠行政部門的下屬來幫助他忠實地執行法律。這項命令旨在實施預算政策和除外服務職業生涯。這項政策將對行政部門的下屬產生重大影響，包括影響他們的工作安排和職業發展。這項命令的實施將對美國政府的運作產生重大影響，包括影響預算和人力資源管理。總統的這項命令將對美國政府的未來發展產生重大影響，包括影響政府的預算和人力資源管理。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "1693dd81",
-        "title": "南海新現實：其他國家也開始填海造地來與中國抗衡",
-        "url": "https://www.bbc.com/news/articles/cy823n3ln29o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 03 Jun 2026 22:00:21 GMT",
-        "summary_zh": "南海爭議一直是全球關注的焦點。近年來，中國在南海進行大規模填海造地，擴大其領土主張。然而，其他國家也開始跟進，試圖通過填海造地來抗衡中國的影響。這種新現實使得南海成為一個充滿競爭和對抗的地區。填海造地的行動不僅影響到南海的生態環境，也可能引起地區間的軍事對抗。國際社會正在密切關注南海的發展，希望能夠通過和平的方式解決爭議。然而，南海的未來仍然充滿著不確定性。",
+        "id": "738c7a5a",
+        "title": "白宮發表白皮書：川普總統加強聯邦政府工作人員的責任制",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-increases-accountability-in-the-federal-workforce/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 20:30:33 +0000",
+        "summary_zh": "川普總統簽署行政令，要求聯邦政府高層領導人對政策決策負更多責任。聯邦政府的員工管理規則過於嚴格，難以將不適任的員工開除。這導致了許多負有重大政策決策職責的員工能夠長期留在職位上。川普總統的行政令旨在改善聯邦政府的工作人員管理制度，提高工作效率和透明度。這一措施將對聯邦政府的運作產生重大影響，提高美國人民對聯邦政府的信任度。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e4e7661b",
+        "title": "白宮發布白皮書：川普總統加強海關執法",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-strengthens-customs-enforcement/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 20:29:46 +0000",
+        "summary_zh": "川普總統簽署行政命令，推動海關改革，強化美國海關執法。這項改革旨在促進經濟強盛和國家安全，同時打擊海關欺詐。川普總統認為，海關執法對國家安全至關重要，需要採取行動來解決長期存在的問題。這項行政命令將對美國經濟和國家安全產生重大影響，同時也將加強海關執法的執行力和效率。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4367d5b5",
+        "title": "川普將提名布蘭奇為司法部長",
+        "url": "https://www.bbc.com/news/articles/c4g8nyzl2pno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 08:11:25 GMT",
+        "summary_zh": "美國前總統川普宣布將提名布蘭奇為司法部長，這將使她成為政府的首席檢察官。布蘭奇曾擔任川普的私人律師，若獲得參議院的確認，她將成為政府的最高檢察官。這一任命將對美國司法部的未來產生重大影響，布蘭奇的任命也將受到廣泛關注。川普的這一決定可能會受到政治反彈，布蘭奇的任命也將受到各方的評估。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d23668d8",
+        "title": "參議院共和黨人砍去1億美元預算支持川普新白宮大廳",
+        "url": "https://www.bbc.com/news/articles/c0r2kxrvlgpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 01:18:09 GMT",
+        "summary_zh": "美國參議院共和黨人對川普新白宮大廳的預算提出反對，將原本計畫的1億美元預算砍去。這項預算原本是用於補助移民機構的費用，但由於川普的「反武器化基金」遭到反對，導致該預算延宕。這項行動被視為對川普的政治打擊，顯示共和黨內部對川普的支持度正在下降。川普的新白宮大廳計畫遭到許多批評，認為這項計畫是一個奢侈的花費，尤其是在移民政策改革的背景下。這項事件也顯示出美國國會的分歧正在加深，對於未來的政治發展將會產生重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "8431ee18",
+        "title": "特朗普回擊「不愛國」的投票結果　美國眾議院對他與伊朗的軍事行動表示不滿",
+        "url": "https://www.bbc.com/news/articles/cn0pl0wvvz0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 14:46:36 GMT",
+        "summary_zh": "美國眾議院通過了一項決議，要求暫停對伊朗的軍事行動。這項決議被視為是一項象徵性的投票，顯示了對特朗普政府的不滿。特朗普政府被指責對伊朗採取過激的軍事行動，引起了國內外的批評。這項決議的通過表明，美國國會對政府的軍事政策有所擔憂。然而，這項決議並不具法律約束力，政府仍可繼續採取軍事行動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f8fb44ce",
+        "title": "前英國政治助理和拜登內閣秘書領導加州州長初選票數",
+        "url": "https://www.bbc.com/news/articles/cn8p0yz512no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 15:32:30 GMT",
+        "summary_zh": "加州州長初選正在進行中，前英國政治助理和拜登內閣秘書領導了票數計畫。另一位民主黨人、億萬富翁氣候活動家湯姆·史達爾（Tom Steyer）排名第三。這項選舉將決定加州州長的下任人選。選舉的結果對於加州州政府和美國政治都有重要影響。前英國政治助理和拜登內閣秘書的領導地位表明了他們在選民中的受歡迎程度。然而，選舉仍在進行中，結果尚未確定。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a47d881f",
+        "title": "美國首次在六十年內確認肉食蜂蛔蟲病蟲入侵美國境內",
+        "url": "https://www.bbc.com/news/articles/c936r25grrlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 03:45:20 GMT",
+        "summary_zh": "美國近日確認一頭在美國墨西哥邊境附近的牛犢感染了肉食蜂蛔蟲病蟲，這是美國六十年來首次確認的病蟲入侵。肉食蜂蛔蟲是一種寄生蟲，能夠在牛類中引起嚴重的感染，導致牛犢的肉體開始腐爛。美國農業部已經啟動了應急措施，試圖控制這種病蟲的傳播。這一事件引起了美國農業界的關注，許多人擔心這種病蟲可能會對美國的牛業產生重大影響。美國農業部正在與墨西哥政府合作，試圖根除這種病蟲。這一事件也提醒了美國人對於生物安全的重要性。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c7f8d394",
+        "title": "美國聯邦調查局槍殺人質事件：加州銀行人質事件結束",
+        "url": "https://www.bbc.com/news/articles/cn0pdrgy623o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 16:04:05 GMT",
+        "summary_zh": "一名男子在加州銀行內持槍人質，美國聯邦調查局（FBI）介入並成功解救人質。根據警方的說法，星期二已經釋放了兩名人質，而星期三釋放的剩餘人質均未受傷。這起事件的結束標誌著警方的成功應對，保護了銀行內的人質安全。這項行動也展現了警方的緊急應變能力和對人質事件的處理。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "56984afc",
+        "title": "加州州長選舉仍未有結果，選票計票進度緩慢",
+        "url": "https://www.theguardian.com/us-news/live/2026/jun/04/us-politics-latest-news-midterm-elections-california-governor-results",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 14:52:54 GMT",
+        "summary_zh": "加州州長選舉仍未有結果，選票計票進度緩慢。美國國會議員對伊朗戰爭的擔憂日漸加深，共和黨籍國會議員們開始表達對總統川普的不滿。川普總統批評四名共和黨議員與民主黨人聯合投票，限制他的戰爭權限。川普認為這是「毫無意義」的投票，反映了民主黨人對他的「戰爭權限限制」的支持。川普還批評這四名共和黨議員是「表演家」，應該感到羞愧。民主黨人則被川普稱為「川普症候群患者」，認為他們寧願讓國家失敗也不願讓川普再贏得勝利。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a9136e69",
+        "title": "華盛頓神父被撤換為驅魔師後，指責 UFO 是惡魔的工作",
+        "url": "https://www.theguardian.com/us-news/2026/jun/04/washington-priest-exorcist-ufos-demons",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 11:30:24 GMT",
+        "summary_zh": "華盛頓天主教總主教羅伯特·麥克羅伊 (Robert McElroy) 週三宣布，撤換了當地一名驅魔師神父史蒂芬·羅塞蒂 (Stephen Rossetti)，並與羅塞蒂領導的聖米迦勒精神復興中心 (St Michael Center for Spiritual Renewal) 斷絕關係。羅塞蒂在公開演講中表示，目擊 UFO 的案件可能是惡魔的工作，這被總主教視為對教會教義的嚴重損害。羅塞蒂在華盛頓天主教教區擔任驅魔師已有多年，同時也是該區域的一位知名神父。這一事件引起了教會內外的關注，許多人對羅塞蒂的言論表示擔憂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b4125154",
+        "title": "美國民眾：告訴我們你遇到的難以忍受的消費經驗",
+        "url": "https://www.theguardian.com/us-news/2026/jun/04/consumer-customer-complaints-frustration",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 11:00:06 GMT",
+        "summary_zh": "近期的民調顯示美國消費者感到非常不滿。美國《衛報》欲了解民眾的不滿原因，誠邀讀者分享自己的難以忍受的消費經驗。有沒有你曾花費數小時試圖更換壞品、申請退款或要求公司履行承諾？或是你曾遇到顧客服務死角或陷入無止境的溝通循環？尤其是當涉及日常生活必需品時？《衛報》誠邀讀者分享自己的經驗，並提供具體的日期和金額資訊。有關你的故事，《衛報》記者可能會聯繫你進行進一步的採訪。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6abbc994",
+        "title": "加州州長選舉仍未有結果，投票計票仍在進行中",
+        "url": "https://www.theguardian.com/us-news/2026/jun/04/california-governors-race",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 10:04:57 GMT",
+        "summary_zh": "加州州長選舉仍未有結果，投票計票仍在進行中。根據目前的投票結果，英國出生的保守派評論員史蒂夫·希爾頓（Steve Hilton）領先，但領先幅度微小，前美國人力服務和健康部長凱西·貝塞拉（Xavier Becerra）緊追其後。億萬富翁湯姆·史達爾（Tom Steyer）則落後於兩人。根據加州的投票制度，投票結果前兩名將進入總選舉。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "920e1352",
+        "title": "死者仍被判驅逐：美國移民法官簽署驅逐年輕殺害受害者命令",
+        "url": "https://www.theguardian.com/us-news/2026/jun/03/north-carolina-judge-deport-teen-murder-victim",
+        "source": "Guardian World",
+        "category": "whitehouse",
+        "published_at": "Wed, 03 Jun 2026 18:04:53 GMT",
+        "summary_zh": "一名北卡羅來納州法官聲稱萊維·梅嫩德茲-馬爾多納多（Levi Mendez-Maldonado）未能出席法庭，儘管已知他在2024年去世。萊維是來自宏都拉斯的未成年人，17歲時獨自來到美國。2024年11月，他在槍擊案中遇害。然而，移民法官艾米·李（Amy Lee）仍在5月21日簽署驅逐令，理由是他未能出席法庭。這一決定引起了輿論的關注，許多人認為這是一個令人髮指的錯誤。這一事件暴露了美國移民司法系統的漏洞，讓人們質疑這種系統的公正性。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "global": [
+      {
+        "id": "d32c8cff",
+        "title": "希拉克爾拒絕以色列與黎巴嫩達成的新的停火協議",
+        "url": "https://www.bbc.com/news/articles/c052343r812o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 04 Jun 2026 14:54:22 GMT",
+        "summary_zh": "美國宣布了停火協議的達成，該協議是在近期的談判會議後達成的。然而，黎巴嫩的反以色列組織希拉克爾卻拒絕了這一協議。這一發展對於中東地區的局勢可能會造成重大影響。停火協議的達成意味著以色列和黎巴嫩之間的暴力事件可能會減少，但希拉克爾的拒絕卻可能會導致局勢加劇。美國的宣布表明了該國對於中東地區的和平努力的承諾，但希拉克爾的行動卻可能會破壞這一努力。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "f03c4242",
@@ -101,18 +283,6 @@
         "category": "global",
         "published_at": "Thu, 04 Jun 2026 11:07:12 GMT",
         "summary_zh": "近日，以色列軍隊對加沙市進行空襲，至少四棟住宅樓被擊中，造成至少11人喪生，當中包括婦女和兒童。這次空襲事件引起了國際社會的關注和譴責。根據目擊者和醫療人員的描述，這些住宅樓被以色列軍隊的飛機投放導彈擊中，造成嚴重的破壞和傷亡。這次空襲事件可能會對當地的民眾造成更大的壓力和恐懼。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "87ff5562",
-        "title": "亞太市場預期開盤低迷 受中東緊張局勢影響",
-        "url": "https://www.cnbc.com/2026/06/04/asia-markets-today-asx-nikkei-kospi-hang-seng-csi-300-sensex-oil.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-06-03 23:46:42",
-        "summary_zh": "亞太市場預期開盤低迷，主要受來自伊朗與美國之間的緊張局勢以及擔心衝突可能使通膨率持續高企的影響。這些因素可能會影響亞太地區的股市，導致投資人感到擔憂。投資人正在密切關注中東局勢的發展，以了解其對全球經濟的影響。同時，市場也在關注美聯儲的政策走向，是否會對利率做出調整。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -130,15 +300,15 @@
         "ai_classified": true
       },
       {
-        "id": "d4742b0f",
-        "title": "緊張的鄰居：三個世界盃主辦國能否在一個月內放下分歧?",
-        "url": "https://www.bbc.com/news/articles/cvgz2081y8ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "id": "87ff5562",
+        "title": "亞太市場預期開盤低迷 受中東緊張局勢影響",
+        "url": "https://www.cnbc.com/2026/06/04/asia-markets-today-asx-nikkei-kospi-hang-seng-csi-300-sensex-oil.html",
+        "source": "Cnbc",
         "category": "global",
-        "published_at": "Thu, 04 Jun 2026 08:46:23 GMT",
-        "summary_zh": "世界盃即將於美國、加拿大和墨西哥三國共同主辦。然而，這個賽事出現於這三國之間關係緊張的時期。美國、加拿大和墨西哥之間的關係近年來一直處於緊張狀態，包括貿易和移民等問題。這次世界盃將是這三國之間關係的重要試金石。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "published_at": "2026-06-03 23:46:42",
+        "summary_zh": "亞太市場預期開盤低迷，主要受來自伊朗與美國之間的緊張局勢以及擔心衝突可能使通膨率持續高企的影響。這些因素可能會影響亞太地區的股市，導致投資人感到擔憂。投資人正在密切關注中東局勢的發展，以了解其對全球經濟的影響。同時，市場也在關注美聯儲的政策走向，是否會對利率做出調整。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -150,20 +320,20 @@
         "published_at": "Thu, 04 Jun 2026 11:55:20 GMT",
         "summary_zh": "烏克蘭在克里米亞佔領區發生襲擊事件，至少10人受傷，根據俄羅斯支持的官員表示。這次襲擊事件引發了國際關注，各方都在努力了解真相。克里米亞佔領區是一個敏感的地區，各國都有不同的立場和看法。這次襲擊事件可能會對地區的局勢產生影響，各方都在等待進一步的消息。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "222aa593",
-        "title": "為什麼加拿大可以買到便宜的Ozempic，而美國卻不能？",
-        "url": "https://www.bbc.com/news/articles/c142y4p2eyxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 03 Jun 2026 23:34:48 GMT",
-        "summary_zh": "加拿大成為七國集團中第一個批准使用便宜型減重藥物的國家，該藥物將於本月在藥局推出。這項決定是由於加拿大政府在2022年允許生產和銷售低成本的Ozempic替代品。這些替代品的成本大大降低，讓更多人能夠獲得這種減重藥物。與此同時，美國仍然沒有批准使用這種低成本的替代品，導致美國患者仍然需要支付高昂的價格購買Ozempic。這項差異引起了對於美國藥物政策的關注。",
-        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "dd10ef04",
+        "title": "布達佩斯市長被控組織2025年布達佩斯同性戀驕傲遊行案件罪名被撤回",
+        "url": "https://www.bbc.com/news/articles/cwy255wzdqro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 04 Jun 2026 14:10:31 GMT",
+        "summary_zh": "布達佩斯市長格雷戈里·卡拉松尼（Gergely Karacsony）被控組織2025年布達佩斯同性戀驕傲遊行，該遊行被禁止舉行。卡拉松尼是布達佩斯的自由派市長，他被控幫助組織該遊行。這一事件的背景是布達佩斯當局對同性戀驕傲遊行的限制。卡拉松尼的被控引起了社會的關注和爭議。最終，罪名被撤回，這意味著卡拉松尼不會面臨任何法律後果。這一結果對於支持同性戀權益的人來說是一個正面的發展。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "d152fbc3",
@@ -186,8 +356,8 @@
         "published_at": "Thu, 04 Jun 2026 11:22:18 GMT",
         "summary_zh": "在一宗猶太人聚會槍擊案中，Ahmed al Ahmed成功脫下一名被控槍手的槍枝，拯救了多人生命。然而，近日Ahmed al Ahmed被控涉及家庭暴力案，引起了社會的關注。根據報導，這名英雄在槍擊案發生後不久就被捕，目前正等待審判。這一事件引發了對英雄主義和家庭暴力的討論。許多人認為，Ahmed al Ahmed的英雄行為應該受到肯定和獎勵，而不是被控犯罪。然而，另一方面，也有許多人認為，家庭暴力是一個嚴重的問題，不能被忽視。這一事件也引發了對槍枝管制和安全措施的討論。最終，這一事件將會對Ahmed al Ahmed的生活和社會的整體安全產生影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "cdda1ff8",
@@ -223,6 +393,54 @@
         "summary_zh": "印度汽車市場因高油價而加速轉向電動汽車。高油價使得購買電動汽車變得更加有吸引力。根據預測，印度將在未來幾年內成為全球電動汽車市場的重要玩家。然而，印度仍面臨著電動汽車充電設施不足、電池成本高昂等挑戰。政府和企業正在努力解決這些問題，推動電動汽車的發展。",
         "sentiment": "中性",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1693dd81",
+        "title": "南海新現實：其他國家也開始填海造地來與中國抗衡",
+        "url": "https://www.bbc.com/news/articles/cy823n3ln29o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 03 Jun 2026 22:00:21 GMT",
+        "summary_zh": "南海爭議一直是全球關注的焦點。近年來，中國在南海進行大規模填海造地，擴大其領土主張。然而，其他國家也開始跟進，試圖通過填海造地來抗衡中國的影響。這種新現實使得南海成為一個充滿競爭和對抗的地區。填海造地的行動不僅影響到南海的生態環境，也可能引起地區間的軍事對抗。國際社會正在密切關注南海的發展，希望能夠通過和平的方式解決爭議。然而，南海的未來仍然充滿著不確定性。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2a46a23a",
+        "title": "川普與內塔尼亞胡的「瘋狂」電話交談，複雜化伊朗談判",
+        "url": "https://www.bbc.com/news/articles/cvgz21pq3g6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 03 Jun 2026 20:28:01 GMT",
+        "summary_zh": "伊朗問題一直是中東地區的一個敏感話題，近日，美國前總統川普與以色列總理內塔尼亞胡進行了一次電話交談，這次電話交談被形容為「瘋狂」。雖然內塔尼亞胡否認了這次電話交談中出現的任何摩擦，但他卻曾經在過去的時候，考慮過對美國總統的耐心。這次電話交談的內容，似乎在複雜化了伊朗問題的談判。伊朗問題一直是中東地區的一個敏感話題，各國領導人一直在努力尋找解決方案。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d4742b0f",
+        "title": "緊張的鄰居：三個世界盃主辦國能否在一個月內放下分歧?",
+        "url": "https://www.bbc.com/news/articles/cvgz2081y8ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 04 Jun 2026 08:46:23 GMT",
+        "summary_zh": "世界盃即將於美國、加拿大和墨西哥三國共同主辦。然而，這個賽事出現於這三國之間關係緊張的時期。美國、加拿大和墨西哥之間的關係近年來一直處於緊張狀態，包括貿易和移民等問題。這次世界盃將是這三國之間關係的重要試金石。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "222aa593",
+        "title": "為什麼加拿大可以買到便宜的Ozempic，而美國卻不能？",
+        "url": "https://www.bbc.com/news/articles/c142y4p2eyxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 03 Jun 2026 23:34:48 GMT",
+        "summary_zh": "加拿大成為七國集團中第一個批准使用便宜型減重藥物的國家，該藥物將於本月在藥局推出。這項決定是由於加拿大政府在2022年允許生產和銷售低成本的Ozempic替代品。這些替代品的成本大大降低，讓更多人能夠獲得這種減重藥物。與此同時，美國仍然沒有批准使用這種低成本的替代品，導致美國患者仍然需要支付高昂的價格購買Ozempic。這項差異引起了對於美國藥物政策的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -264,6 +482,42 @@
     ],
     "ai": [
       {
+        "id": "6f619634",
+        "title": "下載：AI 生成的訴訟和數據中心的虛擬發電廠",
+        "url": "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 04 Jun 2026 12:10:00 +0000",
+        "summary_zh": "在科技界的每日新聞，今天的《下載》將為您帶來全球科技的最新動態。法庭如何應對AI 生成的訴訟的潮流？美國科羅拉多州聯邦法官馬里察·布拉斯韋爾（Maritza Braswell）在她的法庭中，大多數日子都在瀏覽由AI 生成的文件。這些文件通常是訴訟文書，包含訴訟的各個方面。然而，法官布拉斯韋爾表示，AI 生成的文件並不完全準確，甚至可能導致誤判。另一方面，數據中心的虛擬發電廠正在成為新的趨勢。這些虛擬發電廠能夠為數據中心提供穩定的電力，同時減少碳排放。這項技術的發展將如何改善數據中心的能源效率？這些虛擬發電廠的運行成本將如何影響企業的財務？這些問題的答案將在未來的發展中逐步揭露。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "4abc5030",
+        "title": "法院如何應對人工智慧生成的訴訟潮",
+        "url": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 04 Jun 2026 10:50:18 +0000",
+        "summary_zh": "在科羅拉多州的聯邦法官馬里察·布拉斯韋爾（Judge Maritza Braswell）每天都會在她的辦公室中審查無律師代表的案件文件。許多人無法僱用律師，而其他人則因案件太弱或太小無法吸引律師的關注。法官布拉斯韋爾會仔細閱讀每一份文件，對於這種令人望而卻步的局面感到擔憂。近年來，人工智慧生成的訴訟已經成為法院的重大挑戰。這些訴訟往往是由人工智慧系統自動產生的，內容可能包含錯誤或不完整的信息。法院必須在快速處理大量訴訟的同時，確保正義得到伸張。法官布拉斯韋爾認為，法院需要採取更有效的方法來處理這種新型態的訴訟。這可能包括使用人工智慧系統來幫助法院進行初步評估，並且提高對於訴訟的篩選能力。同時，法院也需要與律師和其他相關人員合作，共同尋找解決方案以應對這種挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b7ab90f2",
+        "title": "虛擬發電廠如何為數據中心提供能量",
+        "url": "https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 03 Jun 2026 16:51:38 +0000",
+        "summary_zh": "近日，谷歌與電力公司Voltus簽署了一項協議，合作推動美國最大電力網路上的虛擬發電廠(VPP)項目。虛擬發電廠是一種通過智能電網技術，結合各種能源來源，為數據中心等大型消費者提供電力的新型能源模式。根據協議，谷歌將為電力公司Voltus支付費用，以便在電力需求高峰時，降低電力消耗。這種模式不僅可以減少對傳統能源的依賴，也可以降低對環境的影響。這項協議標誌著虛擬發電廠在美國能源市場的重要一步，將來可能會對數據中心等大型消費者的電力供應模式產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "0a8b1f5a",
         "title": "讓我們過濾 AI 垃圾，你們這群膽小鬼!",
         "url": "https://www.theverge.com/ai-artificial-intelligence/942909/let-us-filter-ai-slop-google-youtube-meta-instagram-tiktok",
@@ -274,18 +528,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "fbcb5133",
-        "title": "微軟量子晶片大突破！Majorana 2可靠性提升千倍、目標2029年商用化",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461204",
-        "source": "自由時報財經",
-        "category": "ai",
-        "published_at": "Thu, 04 Jun 2026 21:47:36 +0800",
-        "summary_zh": "微軟最新發表的Majorana 2量子晶片，透過全新材料堆疊設計，成功提升量子位元可靠性至前一代的1,000倍。這項突破對於量子計算的發展具有重要意義。根據微軟的預期，Majorana 2將於2029年商用化，進一步推動量子計算的應用。這項技術的發展將對未來的計算能力和應用領域產生重大影響。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
       },
       {
         "id": "d521073a",
@@ -336,102 +578,102 @@
         "ai_classified": true
       },
       {
-        "id": "b7ab90f2",
-        "title": "虛擬發電廠如何為數據中心提供能量",
-        "url": "https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/",
-        "source": "MIT Tech Review",
+        "id": "fbcb5133",
+        "title": "微軟量子晶片大突破！Majorana 2可靠性提升千倍、目標2029年商用化",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5461204",
+        "source": "自由時報財經",
         "category": "ai",
-        "published_at": "Wed, 03 Jun 2026 16:51:38 +0000",
-        "summary_zh": "近日，谷歌與電力公司Voltus簽署了一項協議，合作推動美國最大電力網路上的虛擬發電廠(VPP)項目。虛擬發電廠是一種通過智能電網技術，結合各種能源來源，為數據中心等大型消費者提供電力的新型能源模式。根據協議，谷歌將為電力公司Voltus支付費用，以便在電力需求高峰時，降低電力消耗。這種模式不僅可以減少對傳統能源的依賴，也可以降低對環境的影響。這項協議標誌著虛擬發電廠在美國能源市場的重要一步，將來可能會對數據中心等大型消費者的電力供應模式產生重大影響。",
-        "sentiment": "中性",
+        "published_at": "Thu, 04 Jun 2026 21:47:36 +0800",
+        "summary_zh": "微軟最新發表的Majorana 2量子晶片，透過全新材料堆疊設計，成功提升量子位元可靠性至前一代的1,000倍。這項突破對於量子計算的發展具有重要意義。根據微軟的預期，Majorana 2將於2029年商用化，進一步推動量子計算的應用。這項技術的發展將對未來的計算能力和應用領域產生重大影響。",
+        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "83bd7d34",
-        "title": "霍尼韋爾的量子計算公司Quantinuum在美國IPO中籌集18億美元",
-        "url": "https://www.cnbc.com/2026/06/04/honeywells-quantinuum-raises-1point68-billion-in-us-ipo-as-quantum-computing-heats-up-reuters-reports.html",
+        "id": "8b92c2f2",
+        "title": "比特幣跌至伊朗衝突前水平，虛擬貨幣下滑延續",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-04/bitcoin-btc-falls-to-pre-iran-conflict-low-as-crypto-slide-extends",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-04 02:23:29",
+        "summary_zh": "比特幣價格因為虛擬貨幣市場持續下滑而跌至伊朗衝突前水平。虛擬貨幣市場的下滑是由於投資者對市場情況的擔憂和全球經濟不確定性。這種情況對投資者造成了重大影響，許多人正在出售虛擬貨幣以避免損失。分析師認為，虛擬貨幣市場的下滑可能是由於投資者對市場情況的擔憂和全球經濟不確定性。投資者正在尋找安全的投資選擇，虛擬貨幣市場的下滑可能會持續下去。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1a951d3d",
+        "title": "股市跌破新高 Broadcom 過關報告，石油跌幅：市場總結",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-03/asian-stocks-set-to-fall-on-fresh-us-iran-clashes-markets-wrap",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-04 02:50:21",
+        "summary_zh": "股市在 Broadcom 過關報告的影響下跌破新高，石油價格也跌幅不小。市場分析認為， Broadcom 過關報告表明公司未來財務表現不佳，對股市造成了負面影響。石油價格的跌幅也可能是由於全球經濟放緩的跡象。市場投資者們對未來的前景感到擔憂，預計股市將繼續下跌。然而，市場也有一些樂觀的聲音認為，股市的跌幅可能是暫時性的，未來將有機會反彈。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "7d2b1358",
+        "title": "Advent、ADIA背後的天然氣發動機製造商Innio在美國IPO中籌集2.43億美元",
+        "url": "https://www.reuters.com/legal/transactional/advent-adia-backed-gas-engine-maker-innio-raises-243-billion-in-us-ipo-2026-06-04/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-04 02:47:44",
+        "summary_zh": "天然氣發動機製造商Innio宣布籌集2.43億美元的資金，該公司獲得Advent和阿拉伯投資局（ADIA）的支持。這次IPO是公司在美國上市的首次融資。Innio的業務主要集中在天然氣發動機的設計、製造和銷售。公司的業務遍及全球各地，包括北美、歐洲和亞洲。這次籌集的資金將用於推進公司的業務發展和擴展。Advent和ADIA的投資將幫助Innio加速業務的發展和擴展。這次IPO的成功表明了投資者對公司未來發展的信心。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "0a987100",
+        "title": "軟銀對OpenAI的投資和債務增長引發流動性危機擔憂",
+        "url": "https://www.cnbc.com/2026/06/04/softbank-openai-liquidity-crunch-arm-son.html",
         "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-06-04 01:59:24",
-        "summary_zh": "霍尼韋爾旗下量子計算公司Quantinuum宣布，該公司在美國首次公開募股(IPO)中籌集18億美元。根據路透社報導，Quantinuum在IPO中定價每股60美元。這項融資活動標誌著量子計算領域的快速發展。量子計算是一種新興技術，能夠處理龐大數據並解決複雜問題。霍尼韋爾旗下Quantinuum的這一項融資活動將有助於推動該領域的進一步發展。這項融資活動的成功也表明了投資者對量子計算領域的信心。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "3f09998c",
-        "title": "韓國、中國同意七年來首次擴展航權",
-        "url": "https://www.reuters.com/world/china/south-korea-china-agree-first-expansion-flight-rights-seven-years-2026-06-04/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-04 01:40:01",
-        "summary_zh": "韓國和中國近日達成協議，同意在七年內首次擴展航權。這項協議將允許兩國航空公司增加航班和航點，促進兩國航空業的發展。根據協議，韓國航空公司將增加往返中國的航班數量，而中國航空公司則將增加往返韓國的航班數量。這項協議將對兩國航空業帶來新的機會和挑戰。韓國和中國的航空業發展將進一步加速。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "ef02559f",
-        "title": "新西蘭住宅建設達10年新低，房屋價格停滯不前",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-04/new-zealand-home-building-hits-10-year-low-as-house-prices-stall",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-04 01:36:07",
-        "summary_zh": "新西蘭住宅建設達10年新低，房屋價格停滯不前。根據最新數據，新西蘭房屋建設的數量已經降至10年來最低點。房屋價格雖然在過去幾年曾經大幅上漲，但近期卻出現停滯的跡象。房屋建設的減少可能是由於房屋價格過高，導致買家購買意願下降。房屋價格的停滯可能會對整個房地產市場產生影響，進而影響整體經濟。政府可能會出台政策來刺激房屋建設和房屋價格的上漲。然而，房屋價格的停滯可能會持續一段時間，直到房屋供應增加或房屋需求增加。",
+        "published_at": "2026-06-04 02:47:13",
+        "summary_zh": "軟銀的投資於OpenAI和債務增長引發了流動性危機的擔憂。分析師警告，市場對軟銀的新一輪樂觀情緒掩蓋了其債務表的日益升高的風險。軟銀的債務表已經達到歷史新高，投資人對其流動性能力的擔憂日漸加劇。軟銀的投資於OpenAI是其債務表增長的重要原因之一，分析師認為這些投資可能會對其未來的財務狀況造成重大影響。軟銀的債務表增長和投資人對其流動性能力的擔憂，可能會對市場的整體情緒產生重大影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "c85b6815",
-        "title": "美國財政部酒業股份大幅上升 美國業務檢視",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-04/treasury-wine-flags-lower-earnings-and-focus-on-luxury-market",
-        "source": "Bloomberg",
+        "id": "8ef70732",
+        "title": "日本電子零售商山田電器、愛迪恩計劃合併成立業界巨頭",
+        "url": "https://www.reuters.com/legal/transactional/japan-electronics-retailers-yamada-edion-plan-merger-create-sector-giant-nikkei-2026-06-03/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-04 01:30:58",
-        "summary_zh": "美國財政部酒業股份因美國業務檢視而大幅上升。該公司正在就美國業務進行全面檢視，包括業務重組、成本控制和業務優化。這項檢視旨在提高公司的效率和競爭力。財政部酒業股份的股價上升是市場對公司未來發展前景的積極評估。市場分析師認為，公司的業務檢視將帶來長期的利益。財政部酒業股份的業務檢視將對公司的未來發展產生重大影響。市場將密切關注公司的業務發展進展。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "8904c462",
-        "title": "新加坡美元利率與美國利率差距創新高，可能進一步擴大",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-03/sgd-usd-record-singapore-us-rate-gap-may-widen-further-on-inflows-fed",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-04 01:25:56",
-        "summary_zh": "新加坡與美國之間的利率差距已經創下新高，根據最新的數據，新加坡的短期利率已經高於美國的短期利率。這種情況可能是由於美元流動的影響，尤其是在美聯儲的政策下。美聯儲的政策可能會導致美元流動進入新加坡市場，從而推高新加坡的利率。這種情況可能會進一步擴大新加坡與美國之間的利率差距。這可能對新加坡的經濟和金融市場產生重大影響。",
+        "published_at": "2026-06-04 02:45:16",
+        "summary_zh": "日本電子零售商山田電器和愛迪恩宣布計劃合併，創造出業界的巨頭。這項合併將使兩家公司的市場份額大幅增加，從而挑戰業界的領導地位。山田電器和愛迪恩都是日本知名的電子零售商，提供各種電子產品，包括智慧手機、電腦和電視等。合併後的公司將擁有龐大的資源和市場份額，從而有能力挑戰業界的領導地位。這項合併將對日本電子零售業產生重大影響，可能會導致業界的結構變化。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "f2905d0d",
-        "title": "特朗普計畫為煤炭業提供 7 億美元新資助，白宮官員表示",
-        "url": "https://www.reuters.com/legal/litigation/trump-plans-700-million-new-coal-support-white-house-official-says-2026-06-04/",
-        "source": "Reuters",
+        "id": "fd9ea447",
+        "title": "鐵礦石價格下跌，市場氣氛轉為悲觀",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-04/iron-ore-falls-as-fundamentals-soften-fueling-bearish-mood",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-04 01:13:54",
-        "summary_zh": "美國前總統特朗普計畫為煤炭業提供 7 億美元新資助，這是白宮官員昨天透露的消息。這項資助將幫助煤炭業在美國的生產和出口。這項資助將對美國的能源安全和就業市場產生重大影響。然而，這項資助也引發了對環境保護和氣候變化的擔憂。許多環保組織和專家認為，煤炭業的資助將加劇氣候變化的問題。美國政府的這項決定也引發了對全球能源政策的關注。這項資助的具體細節尚未公布，但白宮官員表示，將在未來幾天內公布更多資訊。",
+        "published_at": "2026-06-04 02:42:20",
+        "summary_zh": "鐵礦石價格近日出現下跌趨勢，市場分析師認為這是由於鐵礦石的基本面逐漸放鬆所致。鐵礦石的需求減少，供應量增加，導致價格下跌。這種情況下，市場氣氛開始轉為悲觀。投資者開始擔心鐵礦石價格會持續下跌，影響到相關行業的業績。鐵礦石的價格下跌也會影響到鋼鐵產業的運作，可能會導致鋼鐵價格下跌。市場分析師預測，鐵礦石價格下跌可能會持續一段時間，投資者需要謹慎評估風險。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "26376ccf",
-        "title": "巴斯克倫尋求重組，要求降低付款和延長清償期限",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-04/braskem-seeking-restructuring-with-lower-payments-grace-periods",
+        "id": "a302594e",
+        "title": "印度IT股市暴跌　AI恐慌再現",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-06-04/tcs-infosys-plunge-as-ai-fears-return-to-rattle-it-stocks",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-04 01:10:30",
-        "summary_zh": "巴斯克倫是一家巴西的化學公司，目前面臨著財務困難。該公司正在尋求重組，要求降低付款和延長清償期限。根據最新消息，巴斯克倫正在與其債權人進行談判，希望能夠達成一項重組方案。這項重組方案將會對公司的付款和清償期限產生重大影響。分析人士認為，這項重組方案將會對公司的財務狀況產生正面影響，公司將會有更多的時間和資源來處理其財務問題。然而，這項重組方案也可能會對公司的股價產生負面影響，投資者可能會對公司的財務狀況感到擔憂。目前，巴斯克倫的股價仍在波動中，投資者應該密切關注公司的財務狀況和重組方案的進展。",
-        "sentiment": "中性",
+        "published_at": "2026-06-04 02:40:53",
+        "summary_zh": "印度IT業股市近期出現下滑趨勢，原因是AI相關技術的發展引發投資者恐慌。這些公司主要從事軟體開發、資料分析等業務，受益於全球數位化浪潮。然而，隨著AI技術的進步，投資者開始擔心這些公司的業務將會受到影響。印度IT業股市的下滑也引發了市場的關注，投資者開始轉向其他領域的投資。這一事件也提醒投資者應該保持警惕，隨時監控市場的變化。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
       {
         "id": "a6ed19ac",
@@ -441,18 +683,6 @@
         "category": "finance",
         "published_at": "Thu, 04 Jun 2026 07:10:10 GMT",
         "summary_zh": "SpaceX 宣布其市值已達 1.75 萬億美元，這是該公司準備在股市上市之前設定的目標價格。SpaceX 是一家由埃隆·馬斯克創辦的太空探索公司，近年來一直在發展太空技術和航天事業。該公司的市值快速增長，引起了投資者的關注。分析人士認為，SpaceX 的上市將會是一個重要的里程碑，對於該公司未來的發展方向將有重大影響。同時，SpaceX 的上市也將會對全球太空業界產生重大影響，可能會推動太空技術的發展和應用。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "da907f11",
-        "title": "印度盧比支持措施可能讓印度中央銀行暫時有餘地",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-04/rupee-support-measures-likely-to-give-rbi-room-to-hold-for-now",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-04 01:00:00",
-        "summary_zh": "印度政府近期推出了一系列盧比支持措施，包括提高利率和調整貨幣政策，以應對印度經濟的不穩定。這些措施可能會給印度中央銀行留下暫時的餘地，讓它們可以繼續維持目前的貨幣政策。分析師認為，這些措施可能會幫助印度經濟在短期內穩定下來，但長期來看，印度經濟仍然面臨著許多挑戰。印度中央銀行正在密切關注經濟情況，並且可能會繼續調整貨幣政策以應對經濟的變化。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -480,8 +710,8 @@
         "published_at": "2026-06-04 01:59:27",
         "summary_zh": "伊朗局勢升級引發全球市場關注。近日，以色列總理內塔尼亞胡在CNBC表示，若必要， Israel 和美國將再次攻擊伊朗。這項聲明引發油價上漲和股市下跌。市場人士擔憂伊朗局勢升級可能導致全球經濟不穩定。伊朗核問題一直是全球關注的焦點，各國政府和國際組織一直在努力尋求解決方案。然而，伊朗的行動卻引發了新的擔憂。市場人士認為，伊朗局勢升級可能會導致油價上漲和股市下跌。這項擔憂已經暫停了股市的走揚。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "2594f06f",
@@ -516,8 +746,8 @@
         "published_at": "2026-06-03 23:37:30",
         "summary_zh": "華爾街近日收盤低迷，市場分析師認為這是由於中東局勢的緊張升級所致。近日，伊朗和以色列之間的緊張關係再度升級，伊朗的核計劃也引起了國際社會的關注。這使得投資者感到不安，導致股市下跌。市場分析師表示，投資者正在觀察中東局勢的發展，等待更多的資訊來決定下一步的行動。同時，市場也在關注美國政府對中東局勢的回應，希望能夠獲得更多的資訊來幫助投資者做出更好的決策。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "fdbc975a",
@@ -580,333 +810,7 @@
         "ai_classified": true
       }
     ],
-    "whitehouse": [
-      {
-        "id": "1e736042",
-        "title": "美國眾議院投票暫停伊朗戰爭，對川普發出譴責",
-        "url": "https://www.bbc.com/news/articles/cj6pldg39deo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 07:23:41 GMT",
-        "summary_zh": "美國眾議院在215-208的投票中，四名共和黨議員與民主黨議員聯合通過了這項措施。這項措施在之前的三次嘗試中都失敗了。這項決議表明美國國會對川普政府的伊朗政策存在著強烈的批判意見。這項決議的通過將暫停美國對伊朗的軍事行動，讓美國政府重新評估與伊朗的關係。這一發展表明美國國會正在試圖限制總統的權力，確保美國的外交政策更具多黨合作精神。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4367d5b5",
-        "title": "川普將提名布蘭奇為司法部長",
-        "url": "https://www.bbc.com/news/articles/c4g8nyzl2pno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 08:11:25 GMT",
-        "summary_zh": "美國前總統川普宣布將提名布蘭奇為司法部長，這將使她成為政府的首席檢察官。布蘭奇曾擔任川普的私人律師，若獲得參議院的確認，她將成為政府的最高檢察官。這一任命將對美國司法部的未來產生重大影響，布蘭奇的任命也將受到廣泛關注。川普的這一決定可能會受到政治反彈，布蘭奇的任命也將受到各方的評估。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d23668d8",
-        "title": "參議院共和黨人砍去1億美元預算支持川普新白宮大廳",
-        "url": "https://www.bbc.com/news/articles/c0r2kxrvlgpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 01:18:09 GMT",
-        "summary_zh": "美國參議院共和黨人對川普新白宮大廳的預算提出反對，將原本計畫的1億美元預算砍去。這項預算原本是用於補助移民機構的費用，但由於川普的「反武器化基金」遭到反對，導致該預算延宕。這項行動被視為對川普的政治打擊，顯示共和黨內部對川普的支持度正在下降。川普的新白宮大廳計畫遭到許多批評，認為這項計畫是一個奢侈的花費，尤其是在移民政策改革的背景下。這項事件也顯示出美國國會的分歧正在加深，對於未來的政治發展將會產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8431ee18",
-        "title": "特朗普回擊「不愛國」的投票結果　美國眾議院對他與伊朗的軍事行動表示不滿",
-        "url": "https://www.bbc.com/news/articles/cn0pl0wvvz0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 12:06:27 GMT",
-        "summary_zh": "美國眾議院通過了一項決議，要求暫停對伊朗的軍事行動。這項決議被視為是一項象徵性的投票，顯示了對特朗普政府的不滿。特朗普政府被指責對伊朗採取過激的軍事行動，引起了國內外的批評。這項決議的通過表明，美國國會對政府的軍事政策有所擔憂。然而，這項決議並不具法律約束力，政府仍可繼續採取軍事行動。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f8fb44ce",
-        "title": "前英國政治助理和拜登內閣秘書領導加州州長初選票數",
-        "url": "https://www.bbc.com/news/articles/cn8p0yz512no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 15:32:30 GMT",
-        "summary_zh": "加州州長初選正在進行中，前英國政治助理和拜登內閣秘書領導了票數計畫。另一位民主黨人、億萬富翁氣候活動家湯姆·史達爾（Tom Steyer）排名第三。這項選舉將決定加州州長的下任人選。選舉的結果對於加州州政府和美國政治都有重要影響。前英國政治助理和拜登內閣秘書的領導地位表明了他們在選民中的受歡迎程度。然而，選舉仍在進行中，結果尚未確定。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a47d881f",
-        "title": "美國首次在六十年內確認肉食蜂蛔蟲病蟲入侵美國境內",
-        "url": "https://www.bbc.com/news/articles/c936r25grrlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 03:45:20 GMT",
-        "summary_zh": "美國近日確認一頭在美國墨西哥邊境附近的牛犢感染了肉食蜂蛔蟲病蟲，這是美國六十年來首次確認的病蟲入侵。肉食蜂蛔蟲是一種寄生蟲，能夠在牛類中引起嚴重的感染，導致牛犢的肉體開始腐爛。美國農業部已經啟動了應急措施，試圖控制這種病蟲的傳播。這一事件引起了美國農業界的關注，許多人擔心這種病蟲可能會對美國的牛業產生重大影響。美國農業部正在與墨西哥政府合作，試圖根除這種病蟲。這一事件也提醒了美國人對於生物安全的重要性。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c7f8d394",
-        "title": "美國聯邦調查局槍殺人質事件：加州銀行人質事件結束",
-        "url": "https://www.bbc.com/news/articles/cn0pdrgy623o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 16:04:05 GMT",
-        "summary_zh": "一名男子在加州銀行內持槍人質，美國聯邦調查局（FBI）介入並成功解救人質。根據警方的說法，星期二已經釋放了兩名人質，而星期三釋放的剩餘人質均未受傷。這起事件的結束標誌著警方的成功應對，保護了銀行內的人質安全。這項行動也展現了警方的緊急應變能力和對人質事件的處理。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "56984afc",
-        "title": "加州州長選舉仍未有結果，選票計票進度緩慢",
-        "url": "https://www.theguardian.com/us-news/live/2026/jun/04/us-politics-latest-news-midterm-elections-california-governor-results",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 13:30:31 GMT",
-        "summary_zh": "加州州長選舉仍未有結果，選票計票進度緩慢。美國國會議員對伊朗戰爭的擔憂日漸加深，共和黨籍國會議員們開始表達對總統川普的不滿。川普總統批評四名共和黨議員與民主黨人聯合投票，限制他的戰爭權限。川普認為這是「毫無意義」的投票，反映了民主黨人對他的「戰爭權限限制」的支持。川普還批評這四名共和黨議員是「表演家」，應該感到羞愧。民主黨人則被川普稱為「川普症候群患者」，認為他們寧願讓國家失敗也不願讓川普再贏得勝利。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a9136e69",
-        "title": "華盛頓神父被撤換為驅魔師後，指責 UFO 是惡魔的工作",
-        "url": "https://www.theguardian.com/us-news/2026/jun/04/washington-priest-exorcist-ufos-demons",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 11:30:24 GMT",
-        "summary_zh": "華盛頓天主教總主教羅伯特·麥克羅伊 (Robert McElroy) 週三宣布，撤換了當地一名驅魔師神父史蒂芬·羅塞蒂 (Stephen Rossetti)，並與羅塞蒂領導的聖米迦勒精神復興中心 (St Michael Center for Spiritual Renewal) 斷絕關係。羅塞蒂在公開演講中表示，目擊 UFO 的案件可能是惡魔的工作，這被總主教視為對教會教義的嚴重損害。羅塞蒂在華盛頓天主教教區擔任驅魔師已有多年，同時也是該區域的一位知名神父。這一事件引起了教會內外的關注，許多人對羅塞蒂的言論表示擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b4125154",
-        "title": "美國民眾：告訴我們你遇到的難以忍受的消費經驗",
-        "url": "https://www.theguardian.com/us-news/2026/jun/04/consumer-customer-complaints-frustration",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 11:00:06 GMT",
-        "summary_zh": "近期的民調顯示美國消費者感到非常不滿。美國《衛報》欲了解民眾的不滿原因，誠邀讀者分享自己的難以忍受的消費經驗。有沒有你曾花費數小時試圖更換壞品、申請退款或要求公司履行承諾？或是你曾遇到顧客服務死角或陷入無止境的溝通循環？尤其是當涉及日常生活必需品時？《衛報》誠邀讀者分享自己的經驗，並提供具體的日期和金額資訊。有關你的故事，《衛報》記者可能會聯繫你進行進一步的採訪。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6abbc994",
-        "title": "加州州長選舉仍未有結果，投票計票仍在進行中",
-        "url": "https://www.theguardian.com/us-news/2026/jun/04/california-governors-race",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 10:04:57 GMT",
-        "summary_zh": "加州州長選舉仍未有結果，投票計票仍在進行中。根據目前的投票結果，英國出生的保守派評論員史蒂夫·希爾頓（Steve Hilton）領先，但領先幅度微小，前美國人力服務和健康部長凱西·貝塞拉（Xavier Becerra）緊追其後。億萬富翁湯姆·史達爾（Tom Steyer）則落後於兩人。根據加州的投票制度，投票結果前兩名將進入總選舉。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "22e42681",
-        "title": "加州初選未決 美國選情混亂",
-        "url": "https://www.theguardian.com/us-news/live/2026/jun/03/us-midterm-primaries-politics-donald-trump-california-governor-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 02:00:12 GMT",
-        "summary_zh": "美國民主黨在新澤西州和愛荷華州的選舉中試圖推翻共和黨人，而其他主要競選活動仍未有結果。根據一項新的調查，受川普政府解僱的聯邦政府僱員表示，失去工作後他們經歷了心理健康問題，包括PTSD症狀。超過300名被解僱的試用僱員參與了調查，95%的受訪者表示仍然經歷著心理健康問題。其中近半數的受訪者表示他們正在經歷PTSD症狀，約四分之一的人正在服用新藥來管理症狀。這項調查由27UNIHTED，前美國國家衛生研究所員工所組成的網絡進行。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "069d66fd",
-        "title": "加強海關執法",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/strengthening-customs-enforcement/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 20:35:52 +0000",
-        "summary_zh": "美國總統根據憲法和美國法律的授權，決定並下令加強海關執法。海關執法對於美國的國家安全、外交政策和經濟至關重要。有效的海關執法能夠防止非法和危險物品進口，確保進口商遵守相關規定。這項措施將對美國產生重大影響，保護美國人民的安全和利益。美國政府將繼續加強海關執法，確保美國的安全和競爭力。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b4a22d1c",
-        "title": "實施預算政策/除外服務職業生涯",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/implementing-schedule-policy-career-in-the-excepted-service/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 20:34:27 +0000",
-        "summary_zh": "美國總統根據憲法和美國法律，包括第五章第 3301、3302、5595 和 7511 節，授權我以總統的身分發佈命令。根據這些法律，總統依靠行政部門的下屬來幫助他忠實地執行法律。這項命令旨在實施預算政策和除外服務職業生涯。這項政策將對行政部門的下屬產生重大影響，包括影響他們的工作安排和職業發展。這項命令的實施將對美國政府的運作產生重大影響，包括影響預算和人力資源管理。總統的這項命令將對美國政府的未來發展產生重大影響，包括影響政府的預算和人力資源管理。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "738c7a5a",
-        "title": "白宮發表白皮書：川普總統加強聯邦政府工作人員的責任制",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-increases-accountability-in-the-federal-workforce/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 20:30:33 +0000",
-        "summary_zh": "川普總統簽署行政令，要求聯邦政府高層領導人對政策決策負更多責任。聯邦政府的員工管理規則過於嚴格，難以將不適任的員工開除。這導致了許多負有重大政策決策職責的員工能夠長期留在職位上。川普總統的行政令旨在改善聯邦政府的工作人員管理制度，提高工作效率和透明度。這一措施將對聯邦政府的運作產生重大影響，提高美國人民對聯邦政府的信任度。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e4e7661b",
-        "title": "白宮發布白皮書：川普總統加強海關執法",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-strengthens-customs-enforcement/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 20:29:46 +0000",
-        "summary_zh": "川普總統簽署行政命令，推動海關改革，強化美國海關執法。這項改革旨在促進經濟強盛和國家安全，同時打擊海關欺詐。川普總統認為，海關執法對國家安全至關重要，需要採取行動來解決長期存在的問題。這項行政命令將對美國經濟和國家安全產生重大影響，同時也將加強海關執法的執行力和效率。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "920e1352",
-        "title": "死者仍被判驅逐：美國移民法官簽署驅逐年輕殺害受害者命令",
-        "url": "https://www.theguardian.com/us-news/2026/jun/03/north-carolina-judge-deport-teen-murder-victim",
-        "source": "Guardian World",
-        "category": "whitehouse",
-        "published_at": "Wed, 03 Jun 2026 18:04:53 GMT",
-        "summary_zh": "一名北卡羅來納州法官聲稱萊維·梅嫩德茲-馬爾多納多（Levi Mendez-Maldonado）未能出席法庭，儘管已知他在2024年去世。萊維是來自宏都拉斯的未成年人，17歲時獨自來到美國。2024年11月，他在槍擊案中遇害。然而，移民法官艾米·李（Amy Lee）仍在5月21日簽署驅逐令，理由是他未能出席法庭。這一決定引起了輿論的關注，許多人認為這是一個令人髮指的錯誤。這一事件暴露了美國移民司法系統的漏洞，讓人們質疑這種系統的公正性。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
     "stock_tw": [
-      {
-        "id": "968878d7",
-        "title": "55歲上班族發現父親存摺僅剩20萬元當場崩潰",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461200",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 04 Jun 2026 21:42:05 +0800",
-        "summary_zh": "阿北曾從事證券業、開賓士S-Class，退休後仍交遊廣闊，看似財力雄厚。然而，過世後，55歲的兒子一查存摺卻發現存款不到100萬日圓（約台幣20萬）。這個驚人的發現讓兒子當場腦筋一片空白，似乎無法接受父親的財務狀況。這個故事讓人們不得不思考，什麼是真正的財富？是金錢還是人際關係？這個事件也讓我們重新評估自己的財務規劃和人生目標。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "49b0c983",
-        "title": "台灣首款AI合規驗證設備亮相！開機即評估、部署即合規",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461190",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 04 Jun 2026 21:06:22 +0800",
-        "summary_zh": "隨著生成式AI加速從雲端走向邊緣裝置，企業在導入AI時，除了追求即時運算效能與部署效率，也面臨法規遵循、資安風險及資料隱私保護等挑戰。為協助企業兼顧AI創新與治理需要，台灣首款AI合規驗證設備正式亮相。這款設備能夠在開機即評估AI系統的合規性，並在部署時自動確保AI系統符合相關法規和標準。這項技術將大大減少企業在導入AI時的風險和成本，同時也能夠提高企業的透明度和可信度。這款設備的推出將為企業提供一個合規的AI解決方案，幫助企業更好地掌握AI的發展趨勢和風險，進而實現更好的業務成長和發展。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "63d01405",
-        "title": "台新新光銀行合併！分行達204家 衝上民營第一大",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461176",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 04 Jun 2026 20:47:54 +0800",
-        "summary_zh": "台新新光金控旗下二家銀行子公司台新銀行、新光銀行宣布合併。合併後，台新銀行將成為存續公司，新光銀行則會被消滅。這項合併將使得台新銀行的分行數達到204家，進而衝上民營銀行的第一大地位。這項合併的影響將會對台灣的銀行業產生重大影響，包括市場競爭力、資產規模和服務範圍等方面。預計合併後，台新銀行將會擁有更強大的市場競爭力和資源，進而能夠提供更優質的服務給客戶。然而，這項合併也可能會引起一些市場的擔憂，包括合併後的管理架構和資源配置等問題。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "7fa46ec4",
-        "title": "金管會示警 「境外保單」有五大風險 呼籲勿購買",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461146",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 04 Jun 2026 20:26:43 +0800",
-        "summary_zh": "近日，金管會接獲多起民眾陳情，檢舉有透過社交媒體介紹及推薦國人購買香港、新加坡或其他地區發行的保險商品。金管會表示，這些境外保險商品由未經其核准的機構發行，可能存在五大風險：一、未經核准的保險公司；二、缺乏適當的監管；三、保險內容不明確；四、投資風險高；五、難以追索賠償。金管會呼籲民眾勿購買這些境外保險商品，強調購買保險商品前應先詢問金管會是否核准發行。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "6630296c",
-        "title": "清倉貨架成搖錢樹！年輕情侶靠特價商品賺百萬",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461133",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 04 Jun 2026 20:06:21 +0800",
-        "summary_zh": "一對英國年輕情侶發現清倉貨架上的特價商品可以變成商機。他们在藥妝店和超市尋找清倉特價商品，然後轉售至電商平台。這個方法讓他們一年額外創造約2.5萬英鎊（約新台幣105萬元）的收入。這對情侶的做法表明，清倉貨架上的特價商品可以成為一個商機，讓人們可以通過轉售來賺取額外的收入。這個故事也讓人們思考，是否可以通過尋找特價商品來創造額外的收入。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "9f59c06a",
-        "title": "「含積量」ETF入列！這5種超耐震投資標的最適合長線投資",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461068",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 04 Jun 2026 19:51:29 +0800",
-        "summary_zh": "2026 年上半年的全球市場充斥著政治不確定性與通膨壓力，長線投資人更該鎖定具備抗震韌性與穩定成長的標的。外媒建議適合長線投資的標的，包括含積量ETF、低風險債券、穩定股價的公司、可再生能源股及金屬礦業股。這些標的具有穩定的價格和收入流，能夠抵禦市場的波動。投資人可以考慮將資金投入這些標的，以實現長期的投資目標。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fabc4870",
-        "title": "望隼5月營收年增33％ 矽水膠鏡片本季在日本上市",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461091",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 04 Jun 2026 19:45:38 +0800",
-        "summary_zh": "望隼科技今日公告5月合併營收為3.8億元，月減9.3%、年增33.1%，累計前5月營收較去年同期成長32.6%。望隼表示，目前訂單充足，預估6月營收將達4.2億元。公司也宣布，本季將在日本上市推出矽水膠鏡片產品，進一步擴展市場。望隼的軟式隱形眼鏡研發設計製造業務持續成長，營收增長表明公司在市場上的競爭力和影響力。然而，公司在5月的營收中出現月減，可能與市場需求或供應鏈問題有關。望隼的未來發展取決於公司的市場策略和產品的接受度。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "11228a80",
-        "title": "佳世達發表AI機櫃級解決方案",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461079",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 04 Jun 2026 19:43:35 +0800",
-        "summary_zh": "佳世達正在布局「AI基礎設施」，並與旗下公司其陽科技、明泰科技、其曜科技合作，於COMPUTEX 2026 展示機櫃級（Rack-scale）解決方案。這項解決方案聚焦於散熱、算力和能效的優化，旨在提供高效的AI基礎設施。佳世達的這一舉措表明了公司對AI技術的重視和投資，同時也展現了對未來AI應用的前瞻性。這項新解決方案將會對於企業和機構的AI基礎設施建設帶來新的選擇和機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "22c755d1",
-        "title": "矮化台灣也沒用！這國盼北京擴大牛肉進口遭悍拒傻眼了",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5460743",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 04 Jun 2026 19:04:34 +0800",
-        "summary_zh": "巴西駐台辦事處處長桑路易在4月受訪時表示，台灣是中國的一部分，多數國家都不承認台灣是獨立國家。外交部第一時間表達抗議。這意味著，巴西政府的立場與中華民國政府的立場相反。巴西政府的這番表態，也讓台灣的牛肉出口業者感到失望。因為巴西是台灣主要的牛肉出口市場之一。今年，巴西政府曾經表示，希望北京能夠擴大牛肉進口，讓巴西的牛肉出口業者能夠獲得更大的市場份額。然而，北京的回應卻是拒絕。這讓巴西政府感到傻眼，覺得自己的努力白費了。這個事件也讓人們開始思考，是否真的有必要矮化台灣的身份來換取中國市場的准入。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1c00ea45",
-        "title": "台灣大攜手GMI Cloud搶海外AIDC商機",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461009",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 04 Jun 2026 18:50:30 +0800",
-        "summary_zh": "台灣大哥大宣布與全球僅七家的NVIDIA Reference Platform Partner國際算力策略合作夥伴GMI Cloud簽署合作備忘錄。這項合作將使兩家公司攜手搶佔海外AIDC（自動識別與資料收集）商機。GMI Cloud是一家專門提供雲端計算服務的公司，與NVIDIA合作將能夠提供更強大的算力支持。這項合作對於台灣大哥大來說是重要的一步，因為它能夠幫助公司進一步擴展其業務，尤其是在海外市場。同時，這項合作也將能夠幫助GMI Cloud進一步增強其在AIDC領域的競爭力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
       {
         "id": "f46ca518",
         "title": "國研院與成功大學推AI平台助藥物開發",
@@ -977,6 +881,126 @@
         "summary_zh": "中央氣象署今天針對16縣市發布豪、大雨特報，預警範圍包括新北市、台北市、台中市、台南市等。水利署也針對新北2區發布淹水警戒，八里區為一級淹水警戒，林口區列二級淹水警戒。這意味著這兩區可能會出現嚴重的洪水，居民應該儘快做好防洪準備。水利署呼籲居民注意防洪安全，避免進入洪水區域。這次豪雨特報可能會對當地的交通和生活造成影響，居民應該保持警覺，隨時關注最新的天氣預報和洪水情況。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "968878d7",
+        "title": "55歲上班族發現父親存摺僅剩20萬元當場崩潰",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5461200",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 04 Jun 2026 21:42:05 +0800",
+        "summary_zh": "阿北曾從事證券業、開賓士S-Class，退休後仍交遊廣闊，看似財力雄厚。然而，過世後，55歲的兒子一查存摺卻發現存款不到100萬日圓（約台幣20萬）。這個驚人的發現讓兒子當場腦筋一片空白，似乎無法接受父親的財務狀況。這個故事讓人們不得不思考，什麼是真正的財富？是金錢還是人際關係？這個事件也讓我們重新評估自己的財務規劃和人生目標。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "49b0c983",
+        "title": "台灣首款AI合規驗證設備亮相！開機即評估、部署即合規",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5461190",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 04 Jun 2026 21:06:22 +0800",
+        "summary_zh": "隨著生成式AI加速從雲端走向邊緣裝置，企業在導入AI時，除了追求即時運算效能與部署效率，也面臨法規遵循、資安風險及資料隱私保護等挑戰。為協助企業兼顧AI創新與治理需要，台灣首款AI合規驗證設備正式亮相。這款設備能夠在開機即評估AI系統的合規性，並在部署時自動確保AI系統符合相關法規和標準。這項技術將大大減少企業在導入AI時的風險和成本，同時也能夠提高企業的透明度和可信度。這款設備的推出將為企業提供一個合規的AI解決方案，幫助企業更好地掌握AI的發展趨勢和風險，進而實現更好的業務成長和發展。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "63d01405",
+        "title": "台新新光銀行合併！分行達204家 衝上民營第一大",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5461176",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 04 Jun 2026 20:47:54 +0800",
+        "summary_zh": "台新新光金控旗下二家銀行子公司台新銀行、新光銀行宣布合併。合併後，台新銀行將成為存續公司，新光銀行則會被消滅。這項合併將使得台新銀行的分行數達到204家，進而衝上民營銀行的第一大地位。這項合併的影響將會對台灣的銀行業產生重大影響，包括市場競爭力、資產規模和服務範圍等方面。預計合併後，台新銀行將會擁有更強大的市場競爭力和資源，進而能夠提供更優質的服務給客戶。然而，這項合併也可能會引起一些市場的擔憂，包括合併後的管理架構和資源配置等問題。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7fa46ec4",
+        "title": "金管會示警 「境外保單」有五大風險 呼籲勿購買",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5461146",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 04 Jun 2026 20:26:43 +0800",
+        "summary_zh": "近日，金管會接獲多起民眾陳情，檢舉有透過社交媒體介紹及推薦國人購買香港、新加坡或其他地區發行的保險商品。金管會表示，這些境外保險商品由未經其核准的機構發行，可能存在五大風險：一、未經核准的保險公司；二、缺乏適當的監管；三、保險內容不明確；四、投資風險高；五、難以追索賠償。金管會呼籲民眾勿購買這些境外保險商品，強調購買保險商品前應先詢問金管會是否核准發行。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6630296c",
+        "title": "清倉貨架成搖錢樹！年輕情侶靠特價商品賺百萬",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5461133",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 04 Jun 2026 20:06:21 +0800",
+        "summary_zh": "一對英國年輕情侶發現清倉貨架上的特價商品可以變成商機。他们在藥妝店和超市尋找清倉特價商品，然後轉售至電商平台。這個方法讓他們一年額外創造約2.5萬英鎊（約新台幣105萬元）的收入。這對情侶的做法表明，清倉貨架上的特價商品可以成為一個商機，讓人們可以通過轉售來賺取額外的收入。這個故事也讓人們思考，是否可以通過尋找特價商品來創造額外的收入。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9f59c06a",
+        "title": "「含積量」ETF入列！這5種超耐震投資標的最適合長線投資",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5461068",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 04 Jun 2026 19:51:29 +0800",
+        "summary_zh": "2026 年上半年的全球市場充斥著政治不確定性與通膨壓力，長線投資人更該鎖定具備抗震韌性與穩定成長的標的。外媒建議適合長線投資的標的，包括含積量ETF、低風險債券、穩定股價的公司、可再生能源股及金屬礦業股。這些標的具有穩定的價格和收入流，能夠抵禦市場的波動。投資人可以考慮將資金投入這些標的，以實現長期的投資目標。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fabc4870",
+        "title": "望隼5月營收年增33％ 矽水膠鏡片本季在日本上市",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5461091",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 04 Jun 2026 19:45:38 +0800",
+        "summary_zh": "望隼科技今日公告5月合併營收為3.8億元，月減9.3%、年增33.1%，累計前5月營收較去年同期成長32.6%。望隼表示，目前訂單充足，預估6月營收將達4.2億元。公司也宣布，本季將在日本上市推出矽水膠鏡片產品，進一步擴展市場。望隼的軟式隱形眼鏡研發設計製造業務持續成長，營收增長表明公司在市場上的競爭力和影響力。然而，公司在5月的營收中出現月減，可能與市場需求或供應鏈問題有關。望隼的未來發展取決於公司的市場策略和產品的接受度。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "11228a80",
+        "title": "佳世達發表AI機櫃級解決方案",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5461079",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 04 Jun 2026 19:43:35 +0800",
+        "summary_zh": "佳世達正在布局「AI基礎設施」，並與旗下公司其陽科技、明泰科技、其曜科技合作，於COMPUTEX 2026 展示機櫃級（Rack-scale）解決方案。這項解決方案聚焦於散熱、算力和能效的優化，旨在提供高效的AI基礎設施。佳世達的這一舉措表明了公司對AI技術的重視和投資，同時也展現了對未來AI應用的前瞻性。這項新解決方案將會對於企業和機構的AI基礎設施建設帶來新的選擇和機會。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "22c755d1",
+        "title": "矮化台灣也沒用！這國盼北京擴大牛肉進口遭悍拒傻眼了",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5460743",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 04 Jun 2026 19:04:34 +0800",
+        "summary_zh": "巴西駐台辦事處處長桑路易在4月受訪時表示，台灣是中國的一部分，多數國家都不承認台灣是獨立國家。外交部第一時間表達抗議。這意味著，巴西政府的立場與中華民國政府的立場相反。巴西政府的這番表態，也讓台灣的牛肉出口業者感到失望。因為巴西是台灣主要的牛肉出口市場之一。今年，巴西政府曾經表示，希望北京能夠擴大牛肉進口，讓巴西的牛肉出口業者能夠獲得更大的市場份額。然而，北京的回應卻是拒絕。這讓巴西政府感到傻眼，覺得自己的努力白費了。這個事件也讓人們開始思考，是否真的有必要矮化台灣的身份來換取中國市場的准入。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1c00ea45",
+        "title": "台灣大攜手GMI Cloud搶海外AIDC商機",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5461009",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 04 Jun 2026 18:50:30 +0800",
+        "summary_zh": "台灣大哥大宣布與全球僅七家的NVIDIA Reference Platform Partner國際算力策略合作夥伴GMI Cloud簽署合作備忘錄。這項合作將使兩家公司攜手搶佔海外AIDC（自動識別與資料收集）商機。GMI Cloud是一家專門提供雲端計算服務的公司，與NVIDIA合作將能夠提供更強大的算力支持。這項合作對於台灣大哥大來說是重要的一步，因為它能夠幫助公司進一步擴展其業務，尤其是在海外市場。同時，這項合作也將能夠幫助GMI Cloud進一步增強其在AIDC領域的競爭力。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       }
     ]
