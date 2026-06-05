@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-05T13:04:10.130974+08:00",
+  "generated_at": "2026-06-05T14:04:02.656173+08:00",
   "risk_signals": [
-    "🔴 台股加權 44950.3（急跌 -3.25%）",
+    "🟡 台股加權 45070.94（下跌 -2.99%，留意）",
     "🟢 S&P 500 7553.68（正常）",
     "🟢 VIX 恐慌指數 16.06（正常）",
     "🟢 MOVE 債市波動 73.58（正常）",
-    "🟢 美元指數 99.41（正常）",
-    "🟢 黃金 4469.5（正常）",
+    "🟢 美元指數 99.39（正常）",
+    "🟢 黃金 4470.9（正常）",
     "🟢 美債10Y殖利率 4.49（正常）",
-    "🟢 原油 WTI 93.09（正常）",
-    "🟢 美元/台幣 31.51（正常）"
+    "🟢 原油 WTI 93.08（正常）",
+    "🟢 美元/台幣 31.49（正常）"
   ],
-  "ai_summary": "市場氛圍偏於悲觀，台股大幅下挫，美元/台幣趨於穩定，表明投資者對台股未來趨勢感到擔憂。",
+  "ai_summary": "市場氛圍偏於偏憂，台股大幅下跌，台股指數跌幅超過2%，美股也出現小幅下跌，投資人開始擔心全球經濟衰退風險。",
   "market": {
     "TWII": {
-      "price": 44950.3,
-      "change_pct": -3.25
+      "price": 45070.94,
+      "change_pct": -2.99
     },
     "SP500": {
       "price": 7553.68,
@@ -38,25 +38,49 @@
       "change_pct": 0.2
     },
     "DXY": {
-      "price": 99.41,
-      "change_pct": -0.12
-    },
-    "GOLD": {
-      "price": 4469.5,
+      "price": 99.39,
       "change_pct": -0.14
     },
+    "GOLD": {
+      "price": 4470.9,
+      "change_pct": -0.11
+    },
     "OIL": {
-      "price": 93.09,
-      "change_pct": 0.05
+      "price": 93.08,
+      "change_pct": 0.04
     },
     "USDTWD": {
-      "price": 31.51,
-      "change_pct": 0.0
+      "price": 31.49,
+      "change_pct": -0.05
     }
   },
   "macro": {},
   "categories": {
     "whitehouse": [
+      {
+        "id": "7a668ef6",
+        "title": "美國250：總統對中途島戰役紀念日的致辭",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/america-250-presidential-message-on-the-anniversary-of-the-battle-of-midway/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 17:25:26 +0000",
+        "summary_zh": "美國今天紀念中途島戰役，這場空中和海上戰役讓日本帝國失去太平洋海軍優勢，為美國在第二次世界大戰中最終取得勝利打下基礎。在珍珠港事件發生後數月，日本帝國在太平洋地區展開了進攻。然而，中途島戰役的勝利卻讓日本帝國的進攻計畫被打斷。這場戰役標誌著美國在太平洋地區的軍事力量開始增強。美國總統在紀念日致辭中讚揚了中途島戰役的勝利，並表達了對美國軍人和民眾的感謝。這場戰役的勝利對美國在第二次世界大戰中的勝利產生了重大影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0b1b7fb4",
+        "title": "國會議員對特朗普任命普爾特為國家情報局代理局長表示強力支持",
+        "url": "https://www.whitehouse.gov/releases/2026/06/strong-support-for-president-trumps-appointment-of-william-j-pulte-as-acting-director-of-national-intelligence/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 13:36:09 +0000",
+        "summary_zh": "美國總統特朗普任命威廉·J·普爾特（William J. Pulte）擔任國家情報局代理局長，獲得國會議員的高度讚賞。普爾特是一位經驗豐富的改革者，擁有深厚的經驗在保護敏感信息和改革龐大的政府機構。他帶來了果斷的領導、堅定的正直和堅定的「美國優先」承諾，為情報界帶來新的希望。這項任命受到國會議員的普遍支持，表明普爾特的領導能力和正直性格得到認可。這項任命對於美國情報界的未來發展具有重要影響，將對國家安全和情報工作產生重大影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "56984afc",
         "title": "加州州長選舉仍未有結果，選票計票進度緩慢",
@@ -212,40 +236,64 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "7a668ef6",
-        "title": "美國250：總統對中途島戰役紀念日的致辭",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/america-250-presidential-message-on-the-anniversary-of-the-battle-of-midway/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 17:25:26 +0000",
-        "summary_zh": "美國今天紀念中途島戰役，這場空中和海上戰役讓日本帝國失去太平洋海軍優勢，為美國在第二次世界大戰中最終取得勝利打下基礎。在珍珠港事件發生後數月，日本帝國在太平洋地區展開了進攻。然而，中途島戰役的勝利卻讓日本帝國的進攻計畫被打斷。這場戰役標誌著美國在太平洋地區的軍事力量開始增強。美國總統在紀念日致辭中讚揚了中途島戰役的勝利，並表達了對美國軍人和民眾的感謝。這場戰役的勝利對美國在第二次世界大戰中的勝利產生了重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0b1b7fb4",
-        "title": "國會議員對特朗普任命普爾特為國家情報局代理局長表示強力支持",
-        "url": "https://www.whitehouse.gov/releases/2026/06/strong-support-for-president-trumps-appointment-of-william-j-pulte-as-acting-director-of-national-intelligence/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 13:36:09 +0000",
-        "summary_zh": "美國總統特朗普任命威廉·J·普爾特（William J. Pulte）擔任國家情報局代理局長，獲得國會議員的高度讚賞。普爾特是一位經驗豐富的改革者，擁有深厚的經驗在保護敏感信息和改革龐大的政府機構。他帶來了果斷的領導、堅定的正直和堅定的「美國優先」承諾，為情報界帶來新的希望。這項任命受到國會議員的普遍支持，表明普爾特的領導能力和正直性格得到認可。這項任命對於美國情報界的未來發展具有重要影響，將對國家安全和情報工作產生重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "global": [
+      {
+        "id": "62a026c3",
+        "title": "美國專家批評肯尼亞建設美國人專用埃博拉隔離中心計畫",
+        "url": "https://www.theguardian.com/world/2026/jun/04/experts-criticise-plan-for-american-only-ebola-quarantine-centre-in-kenya",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 04 Jun 2026 12:30:06 GMT",
+        "summary_zh": "美國政府計劃在肯尼亞建設埃博拉隔離中心，專門為美國人提供隔離和治療服務。然而，這一計畫卻遭到前美國高官和其他專家們的批評。美國疾病控制與預防中心（CDC）工會要求美國政府將受到埃博拉感染的美國人帶回美國進行治療。肯尼亞法院已經阻止了這一計畫，但美國和肯尼亞政府仍然決定推進這一計畫。目前，美國響應者已經抵達肯尼亞的拉基帕亞空軍基地。這一計畫的批評者認為，這違反了美國政府之前的政策，即將CDC工作人員帶回美國進行治療並提供所有健康工作者的支持。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d9543ee7",
+        "title": "索馬利亞民眾逃離莫加迪沙，政府軍與反對派武裝交火",
+        "url": "https://www.theguardian.com/world/2026/jun/04/civilians-flee-mogadishu-somalia-as-militias-and-troops-trade-fire",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 04 Jun 2026 11:52:13 GMT",
+        "summary_zh": "索馬利亞首都莫加迪沙的政府軍與反對派武裝發生激烈交火，造成民房受損，部分平民被迫逃離。這場衝突發生在反對派領袖與武裝部隊在該市的族裔據點佈署之前。據報，這些領袖在周三下午開始與政府軍交火，引發了這場暴力。這場衝突是因為總統決定延續任期引發的抗議行動。這些抗議行動將於周四展開。目前尚未有關於傷亡人數的消息。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7d1c1166",
+        "title": "美國對古巴總統和卡斯特羅家族成員實施新制裁",
+        "url": "https://www.theguardian.com/world/2026/jun/05/us-sanctions-cuba-president-castro-family",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Fri, 05 Jun 2026 01:07:15 GMT",
+        "summary_zh": "美國對古巴總統和部分家人、卡斯特羅家族成員實施新制裁。美國國務卿馬可·魯比奧表示，任何為列出的實體提供服務的人『都有被制裁的風險』。這是美國對古巴施壓的最新舉措。被制裁的還包括前總統拉烏爾·卡斯特羅的兒子和孫子，他們雖然不再擔任官方職位，但仍對古巴島嶼未來的決定具有重要影響力。美國政府試圖通過制裁來影響古巴的政治局勢。這一舉措將對古巴政府和人民產生重大影響。美國政府的制裁政策將進一步加劇美古關係的緊張局勢。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cb6a80d0",
+        "title": "加拿大批准海洋公園將 30 頭白鯨轉移到西班牙或美國",
+        "url": "https://www.theguardian.com/environment/2026/jun/04/canada-marineland-beluga-whale-deal",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 04 Jun 2026 17:40:41 GMT",
+        "summary_zh": "加拿大海洋公園馬林蘭德 (Marineland) 曾經威脅於 2025 年將 30 頭白鯨殺死，目前該公園與加拿大漁業部已達成協議，將所有白鯨轉移到西班牙或美國的海洋保護區，結束加拿大白鯨的囚禁。這項協議結束了公眾關注和動物權益團體抗議的故事。根據協議，白鯨將被轉移到西班牙或美國的四個地點，結束加拿大白鯨的囚禁。這項決定受到動物權益團體的歡迎，但也有部分人對此表示擔憂。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "a8822714",
         "title": "澤連斯基向普京發公開信，建議面對面會談",
         "url": "https://www.bbc.com/news/articles/cwy2ypyp4x4o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Thu, 04 Jun 2026 23:32:35 GMT",
+        "published_at": "Fri, 05 Jun 2026 05:20:57 GMT",
         "summary_zh": "烏克蘭總統澤連斯基在公開信中向俄羅斯領導人普京建議進行面對面會談。他認為，只有兩國之間的直接溝通才能結束戰爭。這一提議出現於美國對伊朗的關注之際。澤連斯基的建議表明他願意與俄羅斯進行對話，盡量減少衝突。然而，俄羅斯的回應仍未明確。這一發展可能對未來的烏克蘭和俄羅斯關係產生重大影響。",
         "sentiment": "中性",
         "is_breaking": true,
@@ -269,7 +317,7 @@
         "url": "https://www.bbc.com/news/articles/cx2124zylxno?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Thu, 04 Jun 2026 21:34:49 GMT",
+        "published_at": "Fri, 05 Jun 2026 05:44:44 GMT",
         "summary_zh": "據檢方稱，杜拜統治者的表弟前妻澤揚·賈瓦德利（Zeynab Javadli）自星期二以來未與任何朋友聯繫。這一事件的背景是杜拜統治者的家族中出現了一個關鍵人物的前妻遭拘留。關鍵細節是檢方表示澤揚·賈瓦德利自星期二以來未與任何朋友聯繫，這表明她可能遇到了某種困難。影響分析是這一事件可能會對杜拜統治者的家族和政府造成一定的影響。後續展望是目前尚未有更多資訊可知，待有進一步的發展。",
         "sentiment": "中性",
         "is_breaking": false,
@@ -279,23 +327,11 @@
         "id": "c3f295b5",
         "title": "紅樹林正在康復：人類多年來的破壞終於有了轉機",
         "url": "https://www.bbc.com/news/articles/cn4pk07npvvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "source": "BBC Asia",
         "category": "global",
         "published_at": "Thu, 04 Jun 2026 23:11:15 GMT",
         "summary_zh": "近年來，紅樹林在全球各地都出現了令人驚訝的康復現象。這種變化對沿海社區和氣候都有著積極的影響。紅樹林是海岸防波堤的天然屏障，能夠抵禦海嘯和減少海岸侵蝕。同時，它們還能夠捕捉碳 dioxide，幫助減緩氣候變化。紅樹林的康復是由於人們開始重視保護環境和恢復自然生態系統。許多組織和政府正在努力恢復和保護這些重要的生態系統。這種努力不僅有助於紅樹林的康復，也有助於改善沿海社區的生活質量和減少氣候風險。",
         "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9823dc00",
-        "title": "為什麼美國第二大城市的選舉結果如此緩慢",
-        "url": "https://www.bbc.com/news/articles/c2020jrpxz3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 04 Jun 2026 22:20:24 GMT",
-        "summary_zh": "選舉結果的緩慢是由於多個因素所致。首先，選票的計數過程非常耗時，需要花費數周甚至一個月的時間。其次，選票的驗證過程也非常複雜，需要確保每一張選票的正確性。再次，選票的計數過程也需要考慮到選區的不同，各個選區的選票需要分開計數。這些因素都會導致選舉結果的緩慢。影響最大的是選票的計數過程，這個過程需要花費大量的時間和人力。因此，選舉結果的緩慢是不可避免的。",
-        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
@@ -308,8 +344,8 @@
         "published_at": "Fri, 05 Jun 2026 00:56:42 GMT",
         "summary_zh": "美國南部地區出現食肉蠅爆發，該蠅種自1966年來首次出現在美國。美國政府正計劃採取措施來控制這種威脅，包括使用蠅子和狗來捕捉和消滅食肉蠅。食肉蠅是一種寄生蟲，會在動物的傷口或死體上生存並繁殖，對農業和動物健康造成重大威脅。美國政府正在與農業部門和動物控制專家合作，制定計畫來控制食肉蠅的爆發。這種措施將對美國南部地區的農業和動物健康產生重大影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "26abfab7",
@@ -336,6 +372,18 @@
         "ai_classified": true
       },
       {
+        "id": "9823dc00",
+        "title": "為什麼美國第二大城市的選舉結果如此緩慢",
+        "url": "https://www.bbc.com/news/articles/c2020jrpxz3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 04 Jun 2026 22:20:24 GMT",
+        "summary_zh": "選舉結果的緩慢是由於多個因素所致。首先，選票的計數過程非常耗時，需要花費數周甚至一個月的時間。其次，選票的驗證過程也非常複雜，需要確保每一張選票的正確性。再次，選票的計數過程也需要考慮到選區的不同，各個選區的選票需要分開計數。這些因素都會導致選舉結果的緩慢。影響最大的是選票的計數過程，這個過程需要花費大量的時間和人力。因此，選舉結果的緩慢是不可避免的。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "f03c4242",
         "title": "以色列空襲加沙市，至少11人喪生，醫療人員稱",
         "url": "https://www.bbc.com/news/articles/cg5prr9gr1ro?at_medium=RSS&at_campaign=rss",
@@ -357,78 +405,6 @@
         "summary_zh": "阿爾巴尼亞近日爆發抗議浪潮，抗議者認為由特朗普女婿朱許納背後的豪華度假村計畫將會破壞一個受保護的環境。這個計畫獲得了大量資金的支持，包括來自朱許納的投資。抗議者認為這個計畫將會對當地生態系統造成嚴重的影響，破壞當地的自然美景。阿爾巴尼亞政府尚未對抗議做出正式回應。這個事件引發了對朱許納在阿爾巴尼亞的商業活動的關注，許多人質疑他在這個國家的投資是否符合當地人民的利益。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dd10ef04",
-        "title": "布達佩斯市長被控組織2025年布達佩斯同性戀驕傲遊行案件罪名被撤回",
-        "url": "https://www.bbc.com/news/articles/cwy255wzdqro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 04 Jun 2026 14:10:31 GMT",
-        "summary_zh": "布達佩斯市長格雷戈里·卡拉松尼（Gergely Karacsony）被控組織2025年布達佩斯同性戀驕傲遊行，該遊行被禁止舉行。卡拉松尼是布達佩斯的自由派市長，他被控幫助組織該遊行。這一事件的背景是布達佩斯當局對同性戀驕傲遊行的限制。卡拉松尼的被控引起了社會的關注和爭議。最終，罪名被撤回，這意味著卡拉松尼不會面臨任何法律後果。這一結果對於支持同性戀權益的人來說是一個正面的發展。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "62a026c3",
-        "title": "美國專家批評肯尼亞建設美國人專用埃博拉隔離中心計畫",
-        "url": "https://www.theguardian.com/world/2026/jun/04/experts-criticise-plan-for-american-only-ebola-quarantine-centre-in-kenya",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 04 Jun 2026 12:30:06 GMT",
-        "summary_zh": "美國政府計劃在肯尼亞建設埃博拉隔離中心，專門為美國人提供隔離和治療服務。然而，這一計畫卻遭到前美國高官和其他專家們的批評。美國疾病控制與預防中心（CDC）工會要求美國政府將受到埃博拉感染的美國人帶回美國進行治療。肯尼亞法院已經阻止了這一計畫，但美國和肯尼亞政府仍然決定推進這一計畫。目前，美國響應者已經抵達肯尼亞的拉基帕亞空軍基地。這一計畫的批評者認為，這違反了美國政府之前的政策，即將CDC工作人員帶回美國進行治療並提供所有健康工作者的支持。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d9543ee7",
-        "title": "索馬利亞民眾逃離莫加迪沙，政府軍與反對派武裝交火",
-        "url": "https://www.theguardian.com/world/2026/jun/04/civilians-flee-mogadishu-somalia-as-militias-and-troops-trade-fire",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 04 Jun 2026 11:52:13 GMT",
-        "summary_zh": "索馬利亞首都莫加迪沙的政府軍與反對派武裝發生激烈交火，造成民房受損，部分平民被迫逃離。這場衝突發生在反對派領袖與武裝部隊在該市的族裔據點佈署之前。據報，這些領袖在周三下午開始與政府軍交火，引發了這場暴力。這場衝突是因為總統決定延續任期引發的抗議行動。這些抗議行動將於周四展開。目前尚未有關於傷亡人數的消息。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "54d51a4d",
-        "title": "中東局勢未見改善 歐洲股市仍然上漲",
-        "url": "https://www.cna.com.tw/news/afe/202606050002.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Fri, 05 Jun 2026 01:06:21 +0800",
-        "summary_zh": "中東局勢仍然不穩定，美國與伊朗之間的緊張情勢未有改善。儘管如此，歐洲股市今天表現出來，倫敦、巴黎、法蘭克福等主要股市全面收紅。這表明投資者對歐洲經濟的信心仍然存在。然而，中東局勢的不穩定可能會對全球經濟產生影響，因此投資者需要密切關注這些發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7d1c1166",
-        "title": "美國對古巴總統和卡斯特羅家族成員實施新制裁",
-        "url": "https://www.theguardian.com/world/2026/jun/05/us-sanctions-cuba-president-castro-family",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Fri, 05 Jun 2026 01:07:15 GMT",
-        "summary_zh": "美國對古巴總統和部分家人、卡斯特羅家族成員實施新制裁。美國國務卿馬可·魯比奧表示，任何為列出的實體提供服務的人『都有被制裁的風險』。這是美國對古巴施壓的最新舉措。被制裁的還包括前總統拉烏爾·卡斯特羅的兒子和孫子，他們雖然不再擔任官方職位，但仍對古巴島嶼未來的決定具有重要影響力。美國政府試圖通過制裁來影響古巴的政治局勢。這一舉措將對古巴政府和人民產生重大影響。美國政府的制裁政策將進一步加劇美古關係的緊張局勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cb6a80d0",
-        "title": "加拿大批准海洋公園將 30 頭白鯨轉移到西班牙或美國",
-        "url": "https://www.theguardian.com/environment/2026/jun/04/canada-marineland-beluga-whale-deal",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 04 Jun 2026 17:40:41 GMT",
-        "summary_zh": "加拿大海洋公園馬林蘭德 (Marineland) 曾經威脅於 2025 年將 30 頭白鯨殺死，目前該公園與加拿大漁業部已達成協議，將所有白鯨轉移到西班牙或美國的海洋保護區，結束加拿大白鯨的囚禁。這項協議結束了公眾關注和動物權益團體抗議的故事。根據協議，白鯨將被轉移到西班牙或美國的四個地點，結束加拿大白鯨的囚禁。這項決定受到動物權益團體的歡迎，但也有部分人對此表示擔憂。",
-        "sentiment": "正面",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -542,90 +518,6 @@
     ],
     "ai": [
       {
-        "id": "e290c16a",
-        "title": "人工智慧公司 IPO 熱潮升溫，DOGE 爭議人士起訴埃隆·馬斯克，Instagram 遭黑客攻擊",
-        "url": "https://www.wired.com/story/uncanny-valley-podcast-ai-ipo-race-elon-musk-doge-whistleblower-instagram-hacking-incident/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 04 Jun 2026 18:44:49 +0000",
-        "summary_zh": "人工智慧領域的 IPO 熱潮正在升溫，許多頂尖AI公司正在進行上市，甚至一些房地產廣告也開始要求購買者提供人工智慧公司股票作為付款。這種情況表明，投資人對人工智慧領域的投資熱情正在增強。另一方面，狗狗幣（DOGE）的爭議人士起訴埃隆·馬斯克，指控他在狗狗幣的推文中散布謠言。另外，Instagram 遭黑客攻擊，導致大量用戶帳戶被盜用。這些事件都表明了人工智慧、社交媒體和投資市場的複雜性和風險。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "82ca1950",
-        "title": "傑夫·貝佐斯投資 5 億美元，追尋大腦的核心演算法",
-        "url": "https://www.wired.com/story/jeff-bezos-is-funding-a-wild-hunt-for-the-brains-core-algorithm/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 04 Jun 2026 10:30:00 +0000",
-        "summary_zh": "傑夫·貝佐斯旗下的投資公司，Flourish，正在投資 5 億美元來研究人工智慧。Flourish 的目標是透過研究大腦中的神經元，來重新設計人工智慧的演算法。這項研究被視為對人工智慧的重大突破，可能會改變未來的科技發展。Flourish 的估值已達 25 億美元，表明投資人對這項研究的信心。然而，這項研究的結果如何，仍待觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fc750fac",
-        "title": "Alpha 學校的奢華紐約市校區每年花費 65,000 美元，但其實不是一間學校",
-        "url": "https://www.wired.com/story/alpha-schools-new-york-city-campus-isnt-actually-a-school/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 04 Jun 2026 10:00:00 +0000",
-        "summary_zh": "Alpha 學校在紐約市曼哈頓開設了一間家庭教育中心，這是該公司的全國擴張的一部分。公司內部文件揭露了其策略：「開學日期 > 安全性」。這意味著 Alpha 學校將優先考慮開學日期，而不是學生的安全。這種做法引發了對該公司的關注和批評。 Alpha 學校的奢華校區每年花費 65,000 美元，令人感到費解。這種高昂的花費是否值得？這些問題引發了對 Alpha 學校的關注和質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "420175f6",
-        "title": "量子計算正經歷其公眾市場的時刻",
-        "url": "https://www.wired.com/story/quantum-computing-is-having-its-public-market-moment-quantinuum/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 04 Jun 2026 09:34:23 +0000",
-        "summary_zh": "量子計算初創公司Quantinuum正在虧損數百萬美元，但投資者仍渴望進入該市場。這種情況與傳統計算機業的發展相似，早期公司往往需要大量資金來研發新技術。然而，量子計算的複雜性和高昂成本使得投資者面臨著挑戰。儘管如此，Quantinuum仍獲得了大量投資，表明投資者對量子計算的未來前景抱有樂觀態度。這一發展可能標誌著量子計算的公眾市場時刻的開始。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6f619634",
-        "title": "下載：AI 生成的訴訟和數據中心的虛擬發電廠",
-        "url": "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 04 Jun 2026 12:10:00 +0000",
-        "summary_zh": "在科技界的每日新聞，今天的《下載》將為您帶來全球科技的最新動態。法庭如何應對AI 生成的訴訟的潮流？美國科羅拉多州聯邦法官馬里察·布拉斯韋爾（Maritza Braswell）在她的法庭中，大多數日子都在瀏覽由AI 生成的文件。這些文件通常是訴訟文書，包含訴訟的各個方面。然而，法官布拉斯韋爾表示，AI 生成的文件並不完全準確，甚至可能導致誤判。另一方面，數據中心的虛擬發電廠正在成為新的趨勢。這些虛擬發電廠能夠為數據中心提供穩定的電力，同時減少碳排放。這項技術的發展將如何改善數據中心的能源效率？這些虛擬發電廠的運行成本將如何影響企業的財務？這些問題的答案將在未來的發展中逐步揭露。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4abc5030",
-        "title": "法院如何應對人工智慧生成的訴訟潮",
-        "url": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 04 Jun 2026 10:50:18 +0000",
-        "summary_zh": "在科羅拉多州的聯邦法官馬里察·布拉斯韋爾（Judge Maritza Braswell）每天都會在她的辦公室中審查無律師代表的案件文件。許多人無法僱用律師，而其他人則因案件太弱或太小無法吸引律師的關注。法官布拉斯韋爾會仔細閱讀每一份文件，對於這種令人望而卻步的局面感到擔憂。近年來，人工智慧生成的訴訟已經成為法院的重大挑戰。這些訴訟往往是由人工智慧系統自動產生的，內容可能包含錯誤或不完整的信息。法院必須在快速處理大量訴訟的同時，確保正義得到伸張。法官布拉斯韋爾認為，法院需要採取更有效的方法來處理這種新型態的訴訟。這可能包括使用人工智慧系統來幫助法院進行初步評估，並且提高對於訴訟的篩選能力。同時，法院也需要與律師和其他相關人員合作，共同尋找解決方案以應對這種挑戰。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e0c78e97",
-        "title": "五大關鍵點：加拿大新的人工智慧戰略",
-        "url": "https://www.bbc.com/news/articles/c4g7gv8l0xlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "ai",
-        "published_at": "Thu, 04 Jun 2026 17:04:47 GMT",
-        "summary_zh": "加拿大政府近日公布了新的人工智慧戰略，該戰略將於未來十年內推動人工智慧的採用。其中包括大規模的數據中心建設、免費的人工智慧文憑課程以及數十億加元的資金支持。這項戰略旨在加強加拿大的競爭力，同時促進人工智慧的發展和應用。根據此戰略，政府將投資數十億加元，建立大規模的數據中心，從而支持人工智慧的研究和發展。政府還將推出免費的人工智慧文憑課程，幫助加拿大公民提高人工智慧的知識和技能。這項戰略將對加拿大的經濟和社會產生重大影響，同時也將加強加拿大的競爭力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "6e256504",
         "title": "凱文·奧萊利同意縮小巨型猶他數據中心規模",
         "url": "https://www.theverge.com/ai-artificial-intelligence/943234/kevin-oleary-agrees-to-downsize-massive-utah-data-center",
@@ -633,18 +525,6 @@
         "category": "ai",
         "published_at": "2026-06-04T14:38:04-04:00",
         "summary_zh": "凱文·奧萊利同意縮小他在猶他州規劃的 40,000 英畝數據中心規模。這項決定是受到了當地居民和活動家的壓力。奧萊利在周四發送了一封信給猶他州參議院議長 J. Stuart Adams，表示他將從該項目中移除 19,430 英畝土地。這項決定是對於當地居民和活動家的抗議和關注的回應。奧萊利的數據中心計畫曾引起了廣泛的爭議，包括環境和土地使用的擔憂。這項縮小規模的決定可能會減少對當地環境的影響，但仍然會引起許多人的關注和質疑。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "84b0d1bb",
-        "title": "馬斯克的太空探索技術股權出售：四個你需要知道的事",
-        "url": "https://www.bbc.com/news/articles/czx299wpp56o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "ai",
-        "published_at": "Thu, 04 Jun 2026 16:18:37 GMT",
-        "summary_zh": "太空探索技術公司將於下週開始向個人投資者開放股權出售。這是太空探索技術公司的重要里程碑，標誌著該公司進一步向公眾開放。個人投資者將有機會購買太空探索技術公司的股份，進一步投資於該公司的未來發展。這一舉動將使太空探索技術公司的股權更加普遍化，讓更多人能夠參與該公司的成長。太空探索技術公司的股權出售將對該公司的未來發展產生重要影響，將使該公司能夠獲得更多的資金和支持。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -708,9 +588,165 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "6f619634",
+        "title": "下載：AI 生成的訴訟和數據中心的虛擬發電廠",
+        "url": "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 04 Jun 2026 12:10:00 +0000",
+        "summary_zh": "在科技界的每日新聞，今天的《下載》將為您帶來全球科技的最新動態。法庭如何應對AI 生成的訴訟的潮流？美國科羅拉多州聯邦法官馬里察·布拉斯韋爾（Maritza Braswell）在她的法庭中，大多數日子都在瀏覽由AI 生成的文件。這些文件通常是訴訟文書，包含訴訟的各個方面。然而，法官布拉斯韋爾表示，AI 生成的文件並不完全準確，甚至可能導致誤判。另一方面，數據中心的虛擬發電廠正在成為新的趨勢。這些虛擬發電廠能夠為數據中心提供穩定的電力，同時減少碳排放。這項技術的發展將如何改善數據中心的能源效率？這些虛擬發電廠的運行成本將如何影響企業的財務？這些問題的答案將在未來的發展中逐步揭露。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4abc5030",
+        "title": "法院如何應對人工智慧生成的訴訟潮",
+        "url": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 04 Jun 2026 10:50:18 +0000",
+        "summary_zh": "在科羅拉多州的聯邦法官馬里察·布拉斯韋爾（Judge Maritza Braswell）每天都會在她的辦公室中審查無律師代表的案件文件。許多人無法僱用律師，而其他人則因案件太弱或太小無法吸引律師的關注。法官布拉斯韋爾會仔細閱讀每一份文件，對於這種令人望而卻步的局面感到擔憂。近年來，人工智慧生成的訴訟已經成為法院的重大挑戰。這些訴訟往往是由人工智慧系統自動產生的，內容可能包含錯誤或不完整的信息。法院必須在快速處理大量訴訟的同時，確保正義得到伸張。法官布拉斯韋爾認為，法院需要採取更有效的方法來處理這種新型態的訴訟。這可能包括使用人工智慧系統來幫助法院進行初步評估，並且提高對於訴訟的篩選能力。同時，法院也需要與律師和其他相關人員合作，共同尋找解決方案以應對這種挑戰。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e290c16a",
+        "title": "人工智慧公司 IPO 熱潮升溫，DOGE 爭議人士起訴埃隆·馬斯克，Instagram 遭黑客攻擊",
+        "url": "https://www.wired.com/story/uncanny-valley-podcast-ai-ipo-race-elon-musk-doge-whistleblower-instagram-hacking-incident/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Thu, 04 Jun 2026 18:44:49 +0000",
+        "summary_zh": "人工智慧領域的 IPO 熱潮正在升溫，許多頂尖AI公司正在進行上市，甚至一些房地產廣告也開始要求購買者提供人工智慧公司股票作為付款。這種情況表明，投資人對人工智慧領域的投資熱情正在增強。另一方面，狗狗幣（DOGE）的爭議人士起訴埃隆·馬斯克，指控他在狗狗幣的推文中散布謠言。另外，Instagram 遭黑客攻擊，導致大量用戶帳戶被盜用。這些事件都表明了人工智慧、社交媒體和投資市場的複雜性和風險。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "82ca1950",
+        "title": "傑夫·貝佐斯投資 5 億美元，追尋大腦的核心演算法",
+        "url": "https://www.wired.com/story/jeff-bezos-is-funding-a-wild-hunt-for-the-brains-core-algorithm/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Thu, 04 Jun 2026 10:30:00 +0000",
+        "summary_zh": "傑夫·貝佐斯旗下的投資公司，Flourish，正在投資 5 億美元來研究人工智慧。Flourish 的目標是透過研究大腦中的神經元，來重新設計人工智慧的演算法。這項研究被視為對人工智慧的重大突破，可能會改變未來的科技發展。Flourish 的估值已達 25 億美元，表明投資人對這項研究的信心。然而，這項研究的結果如何，仍待觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fc750fac",
+        "title": "Alpha 學校的奢華紐約市校區每年花費 65,000 美元，但其實不是一間學校",
+        "url": "https://www.wired.com/story/alpha-schools-new-york-city-campus-isnt-actually-a-school/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Thu, 04 Jun 2026 10:00:00 +0000",
+        "summary_zh": "Alpha 學校在紐約市曼哈頓開設了一間家庭教育中心，這是該公司的全國擴張的一部分。公司內部文件揭露了其策略：「開學日期 > 安全性」。這意味著 Alpha 學校將優先考慮開學日期，而不是學生的安全。這種做法引發了對該公司的關注和批評。 Alpha 學校的奢華校區每年花費 65,000 美元，令人感到費解。這種高昂的花費是否值得？這些問題引發了對 Alpha 學校的關注和質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "420175f6",
+        "title": "量子計算正經歷其公眾市場的時刻",
+        "url": "https://www.wired.com/story/quantum-computing-is-having-its-public-market-moment-quantinuum/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Thu, 04 Jun 2026 09:34:23 +0000",
+        "summary_zh": "量子計算初創公司Quantinuum正在虧損數百萬美元，但投資者仍渴望進入該市場。這種情況與傳統計算機業的發展相似，早期公司往往需要大量資金來研發新技術。然而，量子計算的複雜性和高昂成本使得投資者面臨著挑戰。儘管如此，Quantinuum仍獲得了大量投資，表明投資者對量子計算的未來前景抱有樂觀態度。這一發展可能標誌著量子計算的公眾市場時刻的開始。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e0c78e97",
+        "title": "五大關鍵點：加拿大新的人工智慧戰略",
+        "url": "https://www.bbc.com/news/articles/c4g7gv8l0xlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "ai",
+        "published_at": "Thu, 04 Jun 2026 17:04:47 GMT",
+        "summary_zh": "加拿大政府近日公布了新的人工智慧戰略，該戰略將於未來十年內推動人工智慧的採用。其中包括大規模的數據中心建設、免費的人工智慧文憑課程以及數十億加元的資金支持。這項戰略旨在加強加拿大的競爭力，同時促進人工智慧的發展和應用。根據此戰略，政府將投資數十億加元，建立大規模的數據中心，從而支持人工智慧的研究和發展。政府還將推出免費的人工智慧文憑課程，幫助加拿大公民提高人工智慧的知識和技能。這項戰略將對加拿大的經濟和社會產生重大影響，同時也將加強加拿大的競爭力。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "84b0d1bb",
+        "title": "馬斯克的太空探索技術股權出售：四個你需要知道的事",
+        "url": "https://www.bbc.com/news/articles/czx299wpp56o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "ai",
+        "published_at": "Thu, 04 Jun 2026 16:18:37 GMT",
+        "summary_zh": "太空探索技術公司將於下週開始向個人投資者開放股權出售。這是太空探索技術公司的重要里程碑，標誌著該公司進一步向公眾開放。個人投資者將有機會購買太空探索技術公司的股份，進一步投資於該公司的未來發展。這一舉動將使太空探索技術公司的股權更加普遍化，讓更多人能夠參與該公司的成長。太空探索技術公司的股權出售將對該公司的未來發展產生重要影響，將使該公司能夠獲得更多的資金和支持。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "784ce283",
+        "title": "金管會釐清CSM計算基礎 請保險業6/11前再填報問卷",
+        "url": "https://www.cna.com.tw/news/afe/202606050130.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 05 Jun 2026 13:19:08 +0800",
+        "summary_zh": "金管會日前發出問卷請各家壽險業者填報保險合約服務邊際（CSM）資料，因業者填表狀況不一，金管會6月3日召開說明會邀全體壽險業者與會，釐清CSM計算基礎。金管會表示，業者申報時，不同商品群組不能因計算人員不同而有差異。為了確保資料準確性，金管會要求各家壽險業者再次填報問卷，截止時間為6月11日。這項措施旨在統一計算基礎，避免業者填表不一致的情況。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a19bbe19",
+        "title": "美官員研議政府入股AI公司 回饋投資收益給全民",
+        "url": "https://www.cna.com.tw/news/afe/202606050122.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 05 Jun 2026 13:01:51 +0800",
+        "summary_zh": "美國高階官員已與主要人工智慧（AI）公司進行初步討論，商討讓政府入股這些企業的可能性。這項議案的目的是讓政府能夠投資AI公司，從而獲得收益，並將這些收益回饋給全民。這項議案的背景是，政府希望通過投資AI公司來推動該領域的發展，並同時為民眾提供更好的服務。然而，這項議案尚未正式公佈，並且尚未有明確的具體計畫。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e1a03911",
+        "title": "經濟部推小水力發電獎勵辦法 最高獎勵500萬元",
+        "url": "https://www.cna.com.tw/news/afe/202606050097.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 05 Jun 2026 12:06:55 +0800",
+        "summary_zh": "為強化再生能源布局，經濟部能源署啟動計劃推動小水力發電開發。經濟部於3日公告實施「小水力發電示範獎勵辦法」，以鼓勵公民參與小水力發電開發。這項獎勵辦法的獎金最高可達新台幣500萬元，旨在加速小水力發電落地。這項政策的推動，將有助於台灣減少對傳統能源的依賴，同時也會促進綠能發展。經濟部的這項獎勵辦法，將對於推動小水力發電的發展，產生重要的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9362ead4",
+        "title": "新台幣午盤貶4分 暫收31.50元",
+        "url": "https://www.cna.com.tw/news/afe/202606050096.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 05 Jun 2026 12:05:53 +0800",
+        "summary_zh": "台北外匯市場新台幣兌美元今天中午暫收31.50元，相較於昨日貶4分。市場成交金額達10.01億美元。這一波貶值的原因尚未明朗，但市場分析師認為，新台幣貶值可能與全球經濟趨勢和美元強勢有關。新台幣貶值對台灣出口業和外商投資可能造成一定影響。市場觀察人士預計，未來新台幣貶值的趨勢將取決於全球經濟情勢和美元走勢。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "3429bd39",
+        "title": "台星新稅約明年起適用 國稅局提醒留意3重點",
+        "url": "https://www.cna.com.tw/news/afe/202606050090.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 05 Jun 2026 11:55:40 +0800",
+        "summary_zh": "台灣與新加坡所得稅協定新約將於明年1月1日起適用。財政部中區國稅局提醒營利事業應注意新約修訂的3大重點，包括調降被動所得上限稅率、修訂常設機構判定門檻，以及提供抵稅優惠3年過渡期。這些變化將對企業的稅務規劃產生影響，營利事業應儘早適應新的稅法規定。這項變化將為企業創造新的商機和挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "6441aed0",
         "title": "黃仁勳離台赴韓 要為下半年到明年成長做準備",
@@ -720,8 +756,8 @@
         "published_at": "Fri, 05 Jun 2026 11:26:14 +0800",
         "summary_zh": "人工智慧（AI）晶片大廠輝達執行長黃仁勳今天結束14天台灣行程，前往韓國。黃仁勳在機場受訪時表示，輝達已將今年下半年產能拉高2倍，目前整體供應鏈產能極度吃緊。為了應對未來的成長需求，黃仁勳呼籲每個人為下半年到明年的成長做好準備。這意味著輝達將在短期內大幅增加產能，以滿足市場的需求。這一措施將對輝達的營運和財務產生重大影響。黃仁勳的表述也顯示出輝達對未來市場趨勢的信心和決心。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c94633e7",
@@ -732,8 +768,8 @@
         "published_at": "Fri, 05 Jun 2026 11:09:45 +0800",
         "summary_zh": "總統賴清德宣布將生醫產業打造為台灣另一座「護國神山」，國發會副主委詹方冠表示未來生醫產業會發展三大方向：一是醫療器材、藥物和生物技術的研發；二是醫療服務的改革和優化；三是醫療數據的分析和應用。詹方冠強調政府鼓勵將AI技術應用於醫療，許多生醫公司正朝此方向發展，目的是提高醫療品質、降低成本和提高醫療效率。這項政策目標旨在將台灣的生醫產業打造為世界領先的產業，同時也會促進醫療服務的革新和改善。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c31e183e",
@@ -744,8 +780,8 @@
         "published_at": "Fri, 05 Jun 2026 10:35:19 +0800",
         "summary_zh": "台股今天早盤震盪下殺，重挫1467.93點，跌至最低44209.53點。電子權值股聯發科、台達電、鴻海、日月光投控等股跌深，惟台積電止穩。盤中反彈，台股跌點收斂，最終收復45000點關卡。這次的反彈表明市場對電子股的需求仍然存在，投資者應該關注台股未來的走向。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "9bb03357",
@@ -756,8 +792,8 @@
         "published_at": "Fri, 05 Jun 2026 10:21:55 +0800",
         "summary_zh": "台積電董事長暨總裁魏哲家在公司股東常會上表示，台積電正在美國和台灣兩地積極擴產，但仍需要很長時間才能滿足客戶需求。這項消息對於相關產業的廠務業者和無塵室業者來說是一個好消息，市場分析師預期他們將受惠於台積電的擴產效益。因此，漢唐等相關公司的股價今天走揚。魏哲家的表述顯示，台積電仍然面臨著嚴重的產能短缺問題，需要持續投資和擴產來滿足市場需求。這項消息對於台積電和相關產業的未來發展方向提供了一些線索。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "7ab64369",
@@ -768,8 +804,8 @@
         "published_at": "Fri, 05 Jun 2026 09:21:27 +0800",
         "summary_zh": "台股早盤走跌近千點，失守45000點關卡。美晶片股下挫，導致台指期下跌超過800點。台股開盤震盪走跌，早盤最低44685點。這次的市場反應可能與美股的下挫有關，美股的下跌可能會對台股產生影響。市場分析師認為，台股的走跌可能是短期的調整，長期來看，台股仍有升值的潛力。然而，短期內，投資者需要保持謹慎的態度，避免過度的買賣。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "2e144e9e",
@@ -780,8 +816,8 @@
         "published_at": "Fri, 05 Jun 2026 09:15:22 +0800",
         "summary_zh": "澳洲礦業因中國官方操縱鐵礦石採購議價而感到困擾，呼籲坎培拉當局鬆綁國內企業競爭法規。這使得澳洲礦業能夠協調產量和定價，以應對中國官方干預市場的行為。中國官方的操縱行為對澳洲礦業造成了重大影響，澳洲政府被要求提供協助。這一事件凸顯了中澳貿易關係的緊張局勢。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "30508009",
@@ -796,37 +832,13 @@
         "ai_classified": true
       },
       {
-        "id": "3cc1ea9b",
-        "title": "美晶片股挫 台積電ADR勁揚 法人：台股高檔震盪",
-        "url": "https://www.cna.com.tw/news/afe/202606050018.aspx",
-        "source": "中央社財經",
+        "id": "e4fd5613",
+        "title": "台股盤中大反彈 盤中重返45000點",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5461421",
+        "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Fri, 05 Jun 2026 08:24:05 +0800",
-        "summary_zh": "市場期待美國與伊朗達成協議，導致美股道瓊收盤創新高，標普指數收漲。然而，費半指數下跌2.15%，晶片股受到影響下挫。相反，台積電的美股ADR卻在此背景下勁揚1.88%。在台股市場方面，台指期夜盤翻紅上漲32點，收盤點為46342點。另外，台積電期貨夜盤也上漲15點，收盤點為2425點。這些數據表明，市場對台積電的看法正逐漸轉變。根據市場分析師的看法，台股的高檔震盪是市場對未來發展的預期。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8c0cb5bb",
-        "title": "投資人對美伊達成協議抱希望 國價油價挫約3%",
-        "url": "https://www.cna.com.tw/news/afe/202606050006.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 05 Jun 2026 03:51:33 +0800",
-        "summary_zh": "近日以色列與黎巴嫩達成停火協議，投資人對美國與伊朗結束戰爭、荷莫茲海峽重新開放抱持希望。由於戰爭的威脅減少，國際油價今天終場下跌約3%。這一發展對於全球能源市場來說是有利的，投資人認為美伊達成協議將會帶來穩定的油價。然而，投資人仍然需要關注美伊兩國之間的關係是否能夠持續穩定，否則油價可能會再次上升。目前，投資人對美伊達成協議的影響仍在觀察中，需要等待更多的消息來確認。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e6bf2ca1",
-        "title": "刷卡點數回饋換虛擬資產 國銀揭用戶樣貌",
-        "url": "https://www.cna.com.tw/news/afe/202606040387.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 04 Jun 2026 22:14:57 +0800",
-        "summary_zh": "近年來各家國銀積極經營信用卡市場，推出創新的產品以吸引消費者。其中，凱基銀行推出「凱基幣享卡」，這是台灣第一張結合加密貨幣回饋的信用卡。根據凱基銀行的統計，主要客群為40歲以下的族群，特別是年輕世代與數位原生族群。這些年輕消費者平均消費金額遠超過其他卡的2倍以上，顯示出他們對於新興的金融服務有很大的需求。這項數據表明，國銀正朝著年輕世代的方向發展，透過創新的產品和服務來吸引他們的消費。",
+        "published_at": "Fri, 05 Jun 2026 13:47:00 +0800",
+        "summary_zh": "台股盤中大幅波動，指數瞬殺超過1000點後出現大反彈，盤中重返45000點。根據最新消息，台股今天下跌57.64點，開盤價為45619.82點。隨後，指數出現大幅波動，瞬殺超過1000點，但隨即出現大反彈，盤中價格重返45000點。這種大幅波動可能是由於市場情緒的變化或是外部因素的影響。投資者應該密切關注市場情況，做好風險評估。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -866,149 +878,65 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "e4fd5613",
-        "title": "台股盤中大反彈 盤中重返45000點",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461421",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 05 Jun 2026 11:23:00 +0800",
-        "summary_zh": "台股盤中大幅波動，指數瞬殺超過1000點後出現大反彈，盤中重返45000點。根據最新消息，台股今天下跌57.64點，開盤價為45619.82點。隨後，指數出現大幅波動，瞬殺超過1000點，但隨即出現大反彈，盤中價格重返45000點。這種大幅波動可能是由於市場情緒的變化或是外部因素的影響。投資者應該密切關注市場情況，做好風險評估。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f6370ac6",
-        "title": "亞股大幅波動！日經指數一度瀉超1500點、韓股崩超6％後有所收斂",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461425",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 05 Jun 2026 10:42:00 +0800",
-        "summary_zh": "亞股今天表現不佳，日經指數早盤一度大跌超過1500點，韓股開盤後狂瀉，一度暴跌超過6％。這種大幅波動的原因是什麼？根據市場分析，美股週四漲跌互現，導致亞股市場出現不穩定的情況。日經指數和韓股的崩盤，也是市場對美股表現的反應。市場分析師認為，亞股市場的波動是短期的，並不代表長期市場趨勢。目前，亞股市場正在努力恢復穩定，投資者需要保持冷靜，避免過度恐慌。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "74f3d7cc",
-        "title": "焦點股》永擎：奪日企B200大單 拉半根漲停",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461495",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 05 Jun 2026 10:28:31 +0800",
-        "summary_zh": "永擎（7711）在今日大盤波動的情況下，奪下日本上市公司Data Section的大單，出售587台搭載輝達（NVIDIA）Blackwell架構B200 GPU的AI伺服器。這項交易顯示永擎在全球的競爭力和市場份額。分析師認為，這項交易對永擎的股價有正面影響，股價因此大幅上漲。然而，市場仍然需要觀察永擎未來的發展和競爭情況。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "36deb146",
-        "title": "黃仁勳訪韓行程曝光！真的要見Faker啦 他有一個願望",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461491",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 05 Jun 2026 10:23:00 +0800",
-        "summary_zh": "黃仁勳將結束台灣行程，下午入境南韓。據傳，他將前往由《英雄聯盟》戰隊T1經營的網咖，與傳奇選手Faker會晤。Faker是韓國電子競技界的偶像，他的實力和風格深受球迷喜愛。黃仁勳的訪問行程曝光，讓球迷們感到興奮和好奇。這次會晤可能是黃仁勳對Faker的崇拜，還是有其他的目的？我們期待著黃仁勳的訪問行程將會帶來什麼樣的驚喜。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "20b15ec0",
-        "title": "強茂：切入AI伺服器供應量 帶量攻波高",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461482",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 05 Jun 2026 10:20:38 +0800",
-        "summary_zh": "強茂（2481）近期看好人工智慧（AI）運算與資料中心建設需求持續成長，故決定切入AI伺服器主板供應鏈。同時，公司也同步布局高階電源與散熱所需高功率元件。這項策略的目標是為了滿足日益增長的AI市場需求。強茂的這一決策，讓股價大幅上漲，今日盤中甚至觸及高點。這一事件表明，強茂正在積極地應對市場變化，並嘗試抓住新的商機。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8e15f653",
-        "title": "記憶體旅群股價重挫 南亞科、華邦電一度跌停",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5461478",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 05 Jun 2026 10:14:03 +0800",
-        "summary_zh": "美光股價周四重挫7.7%，引發市場關注。分析師警告，DRAM與NAND快閃記憶體價格可能在2026年年中見頂，明年初下跌。這一預測比市場普遍預期提早，導致台股記憶體族群股價重挫。南亞科和華邦電一度跌停，市場人士擔心這可能是記憶體市場的轉折點。南亞科股價下跌5.6%，華邦電股價下跌6.2%，其他記憶體公司如聯發科和台積電也受影響。這一事件可能對台股產生重大影響，市場人士將密切關注記憶體市場的發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "b6efe0a7",
-        "title": "動力設備公司 Innio IPO 上市後股價升幅達 15% ，籌集 24.3 億美元",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-04/power-equipment-firm-innio-rises-15-after-2-43-billion-ipo",
+        "id": "4d3098f1",
+        "title": "人工智慧公司 Anthropic 宣布 IPO，總裁稱高運算成本為主要驅動力",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-04/anthropic-president-cites-high-computing-costs-as-driver-for-ipo",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-04 16:41:40",
-        "summary_zh": "德國動力設備公司 Innio 近日在紐約證券交易所上市，籌集了 24.3 億美元，股價在首日上市後迅速升幅達 15%。這家公司主要生產天然氣和生物氣體發動機，業務遍及全球各地。分析師認為，公司的財務表現良好，未來發展前景看好，因此股價上升。然而，市場仍需觀察公司未來的財務表現和營運績效，以確定投資的可行性。",
+        "published_at": "2026-06-04 17:58:46",
+        "summary_zh": "人工智慧公司 Anthropic 宣布即將進行 IPO，總裁 Natasha Vieira 表示高運算成本是公司決定上市的主要驅動力。公司在 2023 年 12 月獲得 5.5 億美元的融資，目前估值達 100 億美元。 Anthropic 的技術被用於開發人工智慧模型，該公司與谷歌和微軟等大型科技公司合作。高運算成本的增加使得 Anthropic 必須尋找新的資金來支撐業務發展。 IPO 的進行將使公司能夠籌集更多資金來應對運算成本的增加。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f7950a47",
+        "title": "這家藥廠正在開發突破性藥物，如心臟病發作的「EpiPen」。市場還未給予它足夠的認可",
+        "url": "https://www.cnbc.com/2026/06/04/the-market-has-yet-to-give-this-drugmaker-credit-for-its-move-beyond-generics.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-06-04 17:54:55",
+        "summary_zh": "這家藥廠正通過開發非鴉片類止痛藥、潛在的巨型狼瘡治療藥物以及被稱為「心臟病發作的 EpiPen」的藥物來實現成長。這些藥物有望在市場上取得巨大的成功，但市場仍未給予這家藥廠足夠的認可。這家藥廠的藥物開發進展迅速，正在取得重要突破。這些藥物的成功將對市場產生重大影響，可能會改變市場格局。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "455bd6b5",
-        "title": "共和黨國會將針對Kalshi和Polymarket進行股票禁令",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-04/republican-seeks-to-add-kalshi-polymarket-rules-to-stock-ban",
+        "id": "009090bd",
+        "title": "伊朗石油出口降至六年來最低水準，數據顯示",
+        "url": "https://www.reuters.com/business/energy/iranian-oil-exports-fall-lowest-level-six-years-data-shows-2026-06-04/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-04 17:53:53",
+        "summary_zh": "伊朗石油出口在六年來降至最低水準，根據最新數據顯示。伊朗石油出口的下滑是由於美國對伊朗石油出口的制裁，同時也受到俄羅斯與沙烏地阿拉伯等國家對石油市場的影響。伊朗石油出口的下滑對全球石油市場造成了影響，油價可能會上漲。伊朗石油出口的下滑也對伊朗國內經濟造成了影響，伊朗政府正在尋找新的出口市場和投資來填補石油出口的空缺。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "e0c2104c",
+        "title": "霍尼韋爾背後的Quantinuum IPO上市後股價大漲13% ",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-04/honeywell-backed-quantinuum-shares-jump-13-after-upsized-ipo",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-04 16:26:29",
-        "summary_zh": "美國共和黨國會正在考慮針對Kalshi和Polymarket等平台進行股票禁令。這些平台允許用戶在市場上交易有關未來事件的未來價值，包括政治和運動事件。共和黨國會成員認為，這些平台可能違反了美國證券交易委員會的規定，可能導致未來事件的價值被操縱。這項提案可能會對這些平台的業務造成重大影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "5b39a00b",
-        "title": "沙地阿拉伯能源部長訪問俄羅斯，呼籲能源業穩定發展",
-        "url": "https://www.reuters.com/business/energy/russias-novak-meets-saudi-oil-minister-says-demand-outlook-is-unclear-2026-06-04/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-04 16:24:37",
-        "summary_zh": "沙地阿拉伯能源部長訪問俄羅斯，與俄羅斯能源部長會面，雙方討論能源市場的穩定發展。沙地阿拉伯能源部長強調，能源業應該是穩定的，避免過度波動。俄羅斯能源部長表示，兩國將繼續合作，促進能源市場的穩定發展。這次訪問是沙地阿拉伯和俄羅斯能源部長會面的第三次。沙地阿拉伯能源部長的訪問表明，兩國在能源領域的合作將繼續深化。這將對全球能源市場產生重要影響，促進能源業的穩定發展。",
-        "sentiment": "中性",
+        "published_at": "2026-06-04 17:52:02",
+        "summary_zh": "Quantinuum是一家量子計算公司，獲得霍尼韋爾的支持。該公司近日發行了上市前擴大募股（IPO），股價大漲13%。這一消息對於量子計算領域的投資者和業界人士來說是重大的好消息。霍尼韋爾的支持使Quantinuum能夠在量子計算領域取得更大的進展。這一事件也表明了投資者對量子計算的信心。然而，仍需要觀察Quantinuum未來的發展和業界的變化。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "5ca8a6d3",
-        "title": "午市最大漲跌股票：Five Below、Broadcom、Blackstone、UnitedHealth 等",
-        "url": "https://www.cnbc.com/2026/06/04/stocks-making-the-biggest-moves-midday-five-avgo-bx-unh.html",
-        "source": "Cnbc",
+        "id": "7c368d55",
+        "title": "HSBC被正式調查：法國檢察官對瑞士分行提出初步指控",
+        "url": "https://www.ft.com/content/2f4c6b4f-c8eb-4be1-b041-22ac2a7b282d",
+        "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-06-04 16:15:01",
-        "summary_zh": "午市交易期間，以下幾家公司引起了市場關注。五下價格大幅上漲，布洛德康公司股價也大幅上漲，黑石集團股價則下跌。聯合保健公司股價上漲。市場分析師表示，這些公司的股價變動可能與市場情緒、經濟數據和公司財務表現等因素有關。投資者應該密切關注這些公司的動態，以便做出明智的投資決策。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "880ab207",
-        "title": "CrowdStrike 股價下跌 因 'Mythos 時刻' 未能讓投資人感到振奮",
-        "url": "https://www.reuters.com/business/crowdstrike-drops-revenue-growth-fails-impress-investors-despite-ai-push-2026-06-04/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-04 16:14:48",
-        "summary_zh": "CrowdStrike 股價下跌，因為公司宣布的 'Mythos 時刻' 未能讓投資人感到振奮。這是因為公司未能達成投資人對於公司未來成長的期望。投資人曾經對於公司的未來成長感到樂觀，但現在卻感到失望。這種情況被稱為 'Mythos 時刻'，是指投資人對於公司未來成長的期望未能達成。CrowdStrike 股價下跌，表明投資人對於公司未來成長的信心下降。這種情況可能會對公司未來的發展造成影響。投資人需要密切關注公司的發展，以了解公司未來的成長情況。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "69de7faa",
-        "title": "美國長期失業率大幅上升，對工人和經濟有隱藏的成本",
-        "url": "https://www.cnbc.com/2026/06/04/long-term-unemployment-economy-jobs.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-06-04 16:13:18",
-        "summary_zh": "美國長期失業率大幅上升，對工人和經濟有深遠的影響。長期失業不僅影響工人的財務狀況，也會對他們的情緒和家庭健康造成不良影響，甚至在重返工作市場後仍然會持續存在。這種情況不僅影響工人本身，也會對整個經濟產生負面影響。政府和社會各界應該關注這個問題，並采取措施幫助長期失業者重返工作市場和改善他們的生活質量。",
+        "published_at": "2026-06-04 17:48:04",
+        "summary_zh": "法國檢察官對HSBC瑞士分行提出初步指控，涉及與黎巴嫩中央銀行前總督里亞德·薩拉梅赫（Riad Salameh）有關的醜聞。這次調查是對HSBC在黎巴嫩的業務進行全面檢視。黎巴嫩中央銀行前總督里亞德·薩拉梅赫被指控涉及洗錢和腐敗行為。法國檢察官認為，HSBC瑞士分行可能有意或無意地協助薩拉梅赫進行洗錢和腐敗行為。HSBC已經表示將配合調查，並將透過調查結果來確定是否有任何不當行為。這次調查可能對HSBC的聲譽和業務造成重大影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
@@ -1052,14 +980,38 @@
     ],
     "stock_us": [
       {
-        "id": "64ac6566",
-        "title": "為什麼我們不會因為CrowdStrike和Broadcom出售而失望？背景是萬能的",
-        "url": "https://www.cnbc.com/2026/06/04/why-were-not-discouraged-by-crowdstrike-and-broadcom-selling-context-is-everything.html",
+        "id": "83ee5455",
+        "title": "量子優務股價開盤$68元，首次公開後上市",
+        "url": "https://www.cnbc.com/2026/06/04/quantinuum-qnt-stock-first-trade-ipo.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-06-04 16:14:42",
-        "summary_zh": "CrowdStrike和Broadcom最近出售股票，許多投資者可能會感到失望。但是，投資分析師認為，這些公司的股價曾經過熱，遠超過市場預期。CrowdStrike和Broadcom的股價曾經大幅上漲，投資者對這些公司的期望也相應提高。然而，當股價達到頂峰時，投資者開始對這些公司的表現感到失望。投資分析師認為，這是市場的正常波動，投資者應該保持冷靜。",
+        "published_at": "2026-06-04 17:43:30",
+        "summary_zh": "量子優務於近日成功進行首次公開（IPO），股價開盤為每股$68元。這次IPO中，霍尼韋爾（Honeywell）將保留對量子優務的大多數股份，並且將繼續成為量子優務的戰略客戶和夥伴。這一合作關係將持續存在，霍尼韋爾將繼續與量子優務合作，推動量子計算技術的發展。這一事件標誌著量子優務進一步走向市場化，同時也展現了霍尼韋爾對量子計算技術的信心和支持。",
         "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f3c995b4",
+        "title": "量子科技公司Quantinuum上市後股價大幅上漲，華爾街投資者熱捧量子革命",
+        "url": "https://www.marketwatch.com/bulletins/redirect/go?g=54c1f34c-5e7b-435e-8839-dc285d582a89&mod=mw_rss_bulletins",
+        "source": "Marketwatch",
+        "category": "stock_us",
+        "published_at": "2026-06-04 17:45:20",
+        "summary_zh": "量子科技公司Quantinuum近日成功上市，股價大幅上漲。這家公司是由IBM和Rigetti Computing合併而成的量子計算公司。Quantinuum的上市標誌著量子科技領域的快速發展。投資者對量子科技的興趣日漸增長，許多華爾街投資者都買入了Quantinuum的股票。這表明投資者對量子科技的前景充滿信心。然而，量子科技仍處於早期發展階段，仍有許多挑戰需要克服。Quantinuum的成功上市將對量子科技領域的發展產生重要影響。投資者將密切關注Quantinuum的發展進展，以期望能夠從量子科技領域中獲取更多收益。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "aa03a9bc",
+        "title": "Jim Cramer看好Broadcom15%大跌的機會，但有個關鍵前提",
+        "url": "https://www.cnbc.com/2026/06/04/cramer-sees-an-opportunity-in-broadcoms-15percent-plunge-with-one-key-caveat.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-04 17:12:54",
+        "summary_zh": "知名投資家Jim Cramer最近發表意見，他認為Broadcom股價的15%大跌是投資機會。他表示，每當股價出現如此巨大的波動時，就要買入。但他也提到，投資者必須小心考慮公司的財務狀況和未來發展前景。Broadcom是一家全球領先的半導體公司，提供各種高科技產品和服務。近期股價大跌可能與公司未來財務表現、競爭壓力或市場預期等因素有關。投資者需要仔細評估公司的財務狀況和未來發展前景，才能做出明智的投資決策。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
@@ -1072,20 +1024,20 @@
         "published_at": "2026-06-04 16:46:00",
         "summary_zh": "美國國債市場近期出現新的擔憂：投資者正在逐漸失去耐心，要求更高的報酬來貸款給美國政府。這種情況可能會導致國債利率上升，對美國經濟發展造成不利影響。美國政府近期因為俄羅斯入侵烏克蘭而出現戰爭疲勞，國債市場也因此出現波動。投資者正在觀察周五的就業報告，該報告可能會對美國經濟發展產生重大影響。美國政府的財政政策和經濟發展緊密相關，投資者對財政政策的看法將對國債市場產生重大影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
-        "id": "e535c0e9",
-        "title": "量子技術公司Quantinuum IPO將引爆股價，估值超過180億美元",
-        "url": "https://www.marketwatch.com/story/quantinuums-stock-set-to-pop-after-ipo-as-wall-street-buys-into-the-quantum-boom-8f2e83b9?mod=mw_rss_topstories",
-        "source": "Marketwatch",
+        "id": "64ac6566",
+        "title": "為什麼我們不會因為CrowdStrike和Broadcom出售而失望？背景是萬能的",
+        "url": "https://www.cnbc.com/2026/06/04/why-were-not-discouraged-by-crowdstrike-and-broadcom-selling-context-is-everything.html",
+        "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-06-04 16:11:00",
-        "summary_zh": "量子技術公司Quantinuum即將在紐約證券交易所上市，預計估值超過180億美元。根據目前的市場情況，Quantinuum的股價預計將在公開發行時上漲。這家公司的量子計算技術已經引起了投資者的關注，許多投資人認為這是一個具有潛力的新興市場。Quantinuum的量子計算技術有望在未來的計算和資料處理領域中佔據重要地位。這家公司的上市將為投資者提供了一個機會來投資這個快速發展的領域。然而，投資者也應該注意到，量子技術仍然是一個相對新的領域，仍然存在著許多風險和挑戰。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "published_at": "2026-06-04 16:14:42",
+        "summary_zh": "CrowdStrike和Broadcom最近出售股票，許多投資者可能會感到失望。但是，投資分析師認為，這些公司的股價曾經過熱，遠超過市場預期。CrowdStrike和Broadcom的股價曾經大幅上漲，投資者對這些公司的期望也相應提高。然而，當股價達到頂峰時，投資者開始對這些公司的表現感到失望。投資分析師認為，這是市場的正常波動，投資者應該保持冷靜。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "0352a914",
@@ -1096,8 +1048,8 @@
         "published_at": "2026-06-04 16:01:03",
         "summary_zh": "布洛德康姆的動作引發了晶片股的大幅下跌。分析師認為，這次下跌可能是由於投資者在極高價位上取利，而不是因為對人工智慧需求的調整。這一觀點得到了一些跡象的支持，例如，布洛德康姆的股價曾經達到歷史新高。這意味著投資者可能是在取利，而不是因為對市場的悲觀情緒。然而，仍然需要觀察市場的發展，以確定這是否是市場的轉變。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "fe561c8c",
@@ -1132,42 +1084,6 @@
         "published_at": "2026-06-04 15:27:45",
         "summary_zh": "SpaceX 即將進行上市，投資分析師尼古拉斯·奧雲斯表示，投資人在 IPO 後幾天或幾周內將獲得更好的風險保障。奧雲斯是 Morningstar 的工業股權分析師，他在 'Squawk on the Street' 中與主持人討論了 SpaceX 的估值、公司的業務優勢等問題。根據奧雲斯的分析，SpaceX 的業務模式和技術優勢使其具有競爭優勢，投資人可以在 IPO 後幾天或幾周內看到更好的風險保障。這是因為 SpaceX 的業務模式和技術優勢使其能夠在市場上保持競爭力，從而使投資人在 IPO 後幾天或幾周內獲得更好的風險保障。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b7256a8a",
-        "title": "Citi 的 Heath Terry 說市場的挫折是來自於牛市的機會",
-        "url": "https://www.cnbc.com/video/2026/06/04/these-market-stumbles-are-opportunities-that-get-created-in-rallies-says-citis-heath-terry.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-04 15:27:36",
-        "summary_zh": "Citi 研究部全球科技與通訊主管 Heath Terry 表示，市場的挫折是來自於牛市的機會。他在 'Squawk on the Street' 討論了 AI 貿易、對客戶的建議等議題。市場的波動是正常的，挫折是來自於牛市的機會。對於 AI 貿易，Terry 表示，投資者應該關注技術領域的發展和企業的財務表現。Citi 的研究報告顯示，AI 貿易的投資機會正在增加。Terry 建議客戶應該保持謹慎，但也不應該錯過這些投資機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "915d45ab",
-        "title": "觀看CNBC對Bullish CEO Tom Farley的完整訪談",
-        "url": "https://www.cnbc.com/video/2026/06/04/watch-cnbcs-full-interview-with-bullish-ceo-tom-farley.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-04 14:33:31",
-        "summary_zh": "Bullish CEO Tom Farley接受CNBC訪問，討論比特幣的價格波動、tokenized 股票和未來的監管。Farley表示，比特幣的價格波動與傳統金融市場相比，具有更高的波動性。同時，他也提到tokenized 股票的潛力，認為這種新型股票形式將會在未來的金融市場中扮演重要角色。Farley還表示，未來監管將對tokenized 股票產生重大影響，政府將會需要制定更明確的規範來規管這種新型股票形式。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c0be3fda",
-        "title": "中東局勢進展提振投資信心 美股道瓊標普500指數收高",
-        "url": "https://www.cna.com.tw/news/afe/202606050009.aspx",
-        "source": "中央社財經",
-        "category": "stock_us",
-        "published_at": "Fri, 05 Jun 2026 05:46:41 +0800",
-        "summary_zh": "近日中東局勢的進展，讓市場對投資的信心大大提昇。美股標普500指數今天收漲，道瓊指數也在醫療保健及金融類股的帶動下，再創歷史新高。雖然晶片股出現賣壓，但整體市場仍然保持著積極的態勢。這種情況下，投資人對未來市場的前景感到更加樂觀。然而，市場的波動仍然存在，投資人需要保持謹慎的態度。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       }
