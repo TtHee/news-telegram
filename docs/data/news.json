@@ -1,57 +1,57 @@
 {
-  "generated_at": "2026-06-06T02:05:30.805979+08:00",
+  "generated_at": "2026-06-06T03:04:06.597456+08:00",
   "risk_signals": [
     "🟢 台股加權 45677.46（正常）",
-    "🟢 S&P 500 7451.05（正常）",
-    "🟢 VIX 恐慌指數 18.12（正常）",
+    "🟡 S&P 500 7406.1（下跌 -2.35%，留意）",
+    "🟡 VIX 恐慌指數 20.07（留意）",
     "🟢 MOVE 債市波動 71.16（正常）",
-    "🟢 美元指數 100.09（正常）",
-    "🟢 黃金 4366.4（正常）",
+    "🟢 美元指數 100.05（正常）",
+    "🟢 黃金 4341.6（正常）",
     "🟡 美債10Y殖利率 4.54（留意）",
-    "🟢 原油 WTI 90.08（正常）",
+    "🟢 原油 WTI 90.52（正常）",
     "🟢 美元/台幣 31.56（正常）"
   ],
-  "ai_summary": "市場目前呈現中性態勢，美元指數和美債10Y殖利率的變化值得關注，但其他市場指標仍在正常範圍內。",
+  "ai_summary": "市場目前呈現中性偏向悲觀的氣氛，主要受美股下跌影響，特別是 Nasdaq 的大幅下跌，同時美債 10 年殖利率也在升高，恐慌指數 VIX 也在升高，表明投資者對市場風險的擔憂在增加。",
   "market": {
     "TWII": {
       "price": 45677.46,
       "change_pct": -1.68
     },
     "SP500": {
-      "price": 7451.05,
-      "change_pct": -1.76
+      "price": 7406.1,
+      "change_pct": -2.35
     },
     "NASDAQ": {
-      "price": 26027.48,
-      "change_pct": -2.99
+      "price": 25825.42,
+      "change_pct": -3.75
     },
     "VIX": {
-      "price": 18.12,
-      "change_pct": 17.66
+      "price": 20.07,
+      "change_pct": 30.32
     },
     "TNX": {
       "price": 4.54,
-      "change_pct": 1.5
+      "change_pct": 1.41
     },
     "MOVE": {
       "price": 71.16,
       "change_pct": -3.29
     },
     "DXY": {
-      "price": 100.09,
-      "change_pct": 0.68
+      "price": 100.05,
+      "change_pct": 0.65
     },
     "GOLD": {
-      "price": 4366.4,
-      "change_pct": -2.44
+      "price": 4341.6,
+      "change_pct": -3.0
     },
     "OIL": {
-      "price": 90.08,
-      "change_pct": -3.18
+      "price": 90.52,
+      "change_pct": -2.71
     },
     "USDTWD": {
       "price": 31.56,
-      "change_pct": 0.17
+      "change_pct": 0.18
     }
   },
   "macro": {},
@@ -63,11 +63,23 @@
         "url": "https://www.theguardian.com/us-news/live/2026/jun/05/us-politics-latest-news-updates-donald-trump-republicans-democrats",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Fri, 05 Jun 2026 17:42:03 GMT",
+        "published_at": "Fri, 05 Jun 2026 18:40:20 GMT",
         "summary_zh": "參議院共和黨議員在星期四通過了一項法案，將 7,000 億美元用於移民執法。共和黨參議員林西·格雷厄姆表示，他對共和黨同事們能夠確保邊境巡邏隊和移民及海關執法局（ICE）獲得充足資金感到自豪。民主黨參議院少數領袖查克·舒默試圖在共和黨支持的法案中插入禁止支付給特朗普盟友的語言，但共和黨議員否決了這一提議。這一事件表明共和黨內部對這一提議的不滿正在擴散。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "11112de7",
+        "title": "白宮大廳案：美國司法部律師認為無法阻止川普大廳建設",
+        "url": "https://www.theguardian.com/us-news/2026/jun/05/doj-trump-white-house-ballroom",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 05 Jun 2026 18:23:24 GMT",
+        "summary_zh": "川普政府要求華盛頓特區上訴法院撤銷一家法院阻止白宮大廳建設的判決。美國司法部律師表示，無法阻止川普大廳建設的法院，僅有美國國會才有權力停止該項目。川普政府要求華盛頓特區上訴法院撤銷一家法院阻止白宮大廳建設的判決。白宮東翼被拆除後，將在該地點建設一座價值 4 億美元的大廳。然而，華盛頓特區的保存主義者與白宮爭論不休。儘管如此，白宮工作人員的地下安全防護設施仍可繼續建設。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "be3682cd",
@@ -102,8 +114,8 @@
         "published_at": "Fri, 05 Jun 2026 16:04:01 GMT",
         "summary_zh": "加州州長選舉三天後仍難以預測結果，專家警告選票計數可能持續數天。州長選舉中，英國出生的保守派評論員史蒂夫·希爾頓（Steve Hilton）以估計 60% 的選票領先，但前美國衛生及人力服務部長約瑟夫·貝塞拉（Xavier Becerra）緊追在後，億萬富翁湯姆·史達爾（Tom Steyer）則落後於前兩名。選舉前兩名得票者將晉級於 11 月的總選舉。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "0b32bf85",
@@ -126,8 +138,8 @@
         "published_at": "Fri, 05 Jun 2026 13:56:37 GMT",
         "summary_zh": "美國總統川普敦促他所任命的首席情报官员比爾·普爾特（Bill Pulte）解雇「很多人」，負責美國聯邦政府的情报工作。這一要求出現於美國國會阻止Fisa延長之際，同時也引發了對普爾特提名的擔憂。川普表示，普爾特因為是臨時任命的首席情报官员，因此「比較不受限制」。然而，普爾特在情报領域缺乏經驗，引發了許多人的擔憂。這一事件也引發了對美國情报機構縮小的議論。美國國會的行動也引發了對Fisa延長的擔憂。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "448731c2",
@@ -137,18 +149,6 @@
         "category": "whitehouse",
         "published_at": "Fri, 05 Jun 2026 13:31:43 GMT",
         "summary_zh": "共和黨領導的州今年在六月份推出新的標籤，包括「核家庭月」或「忠誠月」，這被視為對LGBTQ+社群的最新攻擊。六月份是全球普遍慶祝的LGBTQ+驕傲月，當地社群在這個月份舉辦遊行，抗議歧視和慶祝自己的身份。這個月份也是美國現代同性戀解放運動的誕生地，源於1969年紐約斯通沃爾酒吧起義。然而，在某些共和黨領導的州，這個月份的慶祝活動並不那麼熱鬧。共和黨州長突然提出新的標籤，兩派人士都視為對抗的行動。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "aaa8b74f",
-        "title": "新澤西州長面臨抗議：被指未能解決移民拘留中心的饑餓罷工",
-        "url": "https://www.theguardian.com/us-news/2026/jun/05/new-jersey-delaney-hall-governor",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 05 Jun 2026 13:00:36 GMT",
-        "summary_zh": "近數十名抗議者於週一下午在新澤西州議會大樓外聚集，手持自製標語，抗議新州長米基·雪莉 (Mikie Sherrill) 未能有效解決新澤西州新鴻基 (Newark) 的德萊尼廳 (Delaney Hall) 移民拘留中心的饑餓罷工問題。至少 300 名拘留者正在參與饑餓罷工。抗議者認為州長雪莉未能有效解決這個問題，甚至被指她在說謊。抗議者們的口號是「嘿，米基， WTF？」（Hey, Mikie, WTF?）。這場抗議活動表明了對州長雪莉的不滿和對移民拘留中心的關注。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -216,42 +216,6 @@
     ],
     "global": [
       {
-        "id": "0675d8e2",
-        "title": "非洲家庭價值憲章遭人權團體譴責為落後且有害",
-        "url": "https://www.theguardian.com/global-development/2026/jun/05/ghana-african-charter-family-values-gender-women-sex-lgbtq-reproductive-rights",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Fri, 05 Jun 2026 08:00:29 GMT",
-        "summary_zh": "非洲各國政府近日在加納舉行會議，推動一份名為《非洲家庭、主權和價值憲章》的草案。該憲章認為，非洲的價值觀和文化正受到「外來的理念」威脅，敦促各國政府退出不符合憲章原則的協議，包括2003年的《馬普托議定書》，後者促進性別平等和保護女性和女孩的生殖健康權。人權團體批評這份憲章是落後且有害的，認為它會損害婦女和女孩的權利。這份憲章的通過將對非洲婦女和女孩的福祉產生重大影響，引發了人權團體的關注和批評。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e4b8d801",
-        "title": "CNBC每日開市報導：晶片下跌，但道指卻不倒",
-        "url": "https://www.cnbc.com/2026/06/05/iran-war-trump-ceasefire-chip-selloff-do-record.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-06-05 01:34:34",
-        "summary_zh": "近日，伊朗支持的親伊朗政黨希拉克拉（Hezbollah）拒絕了美國支持的以色列和黎巴嫩達成的停火協議條款，希拉克拉要求以色列先完全撤軍。這一發展可能會對中東局勢產生重大影響。雖然晶片股下跌，但道指仍然保持穩定，表明投資者對市場的信心仍然存在。然而，這一局勢的不確定性可能會持續影響市場的波動。投資者應該保持警惕，密切關注中東局勢的發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7d1c1166",
-        "title": "美國對古巴總統和卡斯特羅家族成員實施新制裁",
-        "url": "https://www.theguardian.com/world/2026/jun/05/us-sanctions-cuba-president-castro-family",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Fri, 05 Jun 2026 01:07:15 GMT",
-        "summary_zh": "美國對古巴總統和部分家人、卡斯特羅家族成員實施新制裁。美國國務卿馬可·魯比奧表示，任何為列出的實體提供服務的人『都有被制裁的風險』。這是美國對古巴施壓的最新舉措。被制裁的還包括前總統拉烏爾·卡斯特羅的兒子和孫子，他們雖然不再擔任官方職位，但仍對古巴島嶼未來的決定具有重要影響力。美國政府試圖通過制裁來影響古巴的政治局勢。這一舉措將對古巴政府和人民產生重大影響。美國政府的制裁政策將進一步加劇美古關係的緊張局勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "d40a9a7f",
         "title": "珠峰登山者憶述失去指導員的那一刻：指導員獨自生存六天",
         "url": "https://www.bbc.com/news/articles/cn9p91295q8o?at_medium=RSS&at_campaign=rss",
@@ -276,18 +240,6 @@
         "ai_classified": true
       },
       {
-        "id": "71d45c64",
-        "title": "美國記者承認為中國代理人工作",
-        "url": "https://www.bbc.com/news/articles/crmpmxg1ym4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Fri, 05 Jun 2026 11:20:30 GMT",
-        "summary_zh": "美國記者托馬斯·韋爾·保肯二世（Thomas Weir Pauken II）承認多年來與中國政府僱員合作。根據調查，保肯二世在美國工作期間，與中國政府僱員有密切聯繫，甚至在某些情況下與他們合作。這一發現引發了對美國記者在中國工作時的安全和隱私問題的擔憂。美國政府正在調查此事件，並正在評估對保肯二世的處理。這一事件也引發了對中國政府在美國的活動和影響力的擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "c3f295b5",
         "title": "紅樹林正在康復：人類多年來的破壞終於有了轉機",
         "url": "https://www.bbc.com/news/articles/cn4pk07npvvo?at_medium=RSS&at_campaign=rss",
@@ -296,6 +248,18 @@
         "published_at": "Thu, 04 Jun 2026 23:11:15 GMT",
         "summary_zh": "近年來，紅樹林在全球各地都出現了令人驚訝的康復現象。這種變化對沿海社區和氣候都有著積極的影響。紅樹林是海岸防波堤的天然屏障，能夠抵禦海嘯和減少海岸侵蝕。同時，它們還能夠捕捉碳 dioxide，幫助減緩氣候變化。紅樹林的康復是由於人們開始重視保護環境和恢復自然生態系統。許多組織和政府正在努力恢復和保護這些重要的生態系統。這種努力不僅有助於紅樹林的康復，也有助於改善沿海社區的生活質量和減少氣候風險。",
         "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e4b8d801",
+        "title": "CNBC每日開市報導：晶片下跌，但道指卻不倒",
+        "url": "https://www.cnbc.com/2026/06/05/iran-war-trump-ceasefire-chip-selloff-do-record.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-06-05 01:34:34",
+        "summary_zh": "近日，伊朗支持的親伊朗政黨希拉克拉（Hezbollah）拒絕了美國支持的以色列和黎巴嫩達成的停火協議條款，希拉克拉要求以色列先完全撤軍。這一發展可能會對中東局勢產生重大影響。雖然晶片股下跌，但道指仍然保持穩定，表明投資者對市場的信心仍然存在。然而，這一局勢的不確定性可能會持續影響市場的波動。投資者應該保持警惕，密切關注中東局勢的發展。",
+        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
@@ -336,16 +300,16 @@
         "ai_classified": true
       },
       {
-        "id": "6f997c53",
-        "title": "美國計劃用蠅子和狗來對抗食肉蠅爆發",
-        "url": "https://www.bbc.com/news/articles/c7v9vz1gd76o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "id": "e6827a73",
+        "title": "英國房屋價格意外下跌，市場感受到伊朗戰爭的影響",
+        "url": "https://www.reuters.com/world/uk/uk-house-prices-fell-unexpectedly-may-halifax-says-2026-06-05/",
+        "source": "Reuters",
         "category": "global",
-        "published_at": "Fri, 05 Jun 2026 00:56:42 GMT",
-        "summary_zh": "美國南部地區出現食肉蠅爆發，該蠅種自1966年來首次出現在美國。美國政府正計劃採取措施來控制這種威脅，包括使用蠅子和狗來捕捉和消滅食肉蠅。食肉蠅是一種寄生蟲，會在動物的傷口或死體上生存並繁殖，對農業和動物健康造成重大威脅。美國政府正在與農業部門和動物控制專家合作，制定計畫來控制食肉蠅的爆發。這種措施將對美國南部地區的農業和動物健康產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "published_at": "2026-06-05 06:36:19",
+        "summary_zh": "英國房屋市場出現意外下跌，市場分析師認為這與伊朗戰爭的影響有關。英國房屋價格在近期出現下跌，市場預期房屋價格會持續上升，但實際上房屋價格卻出現下跌。市場分析師認為這是由於伊朗戰爭的不確定性和全球經濟不穩定所致。房屋價格下跌對於英國房屋業者和購買者都有重大影響，房屋業者可能會面臨房屋未售出的問題，而購買者則可能會面臨房屋價格下跌的風險。英國政府應該會對房屋市場的變化進行監控和調整，以維持房屋市場的穩定。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "c0a2c369",
@@ -406,80 +370,92 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "0675d8e2",
+        "title": "非洲家庭價值憲章遭人權團體譴責為落後且有害",
+        "url": "https://www.theguardian.com/global-development/2026/jun/05/ghana-african-charter-family-values-gender-women-sex-lgbtq-reproductive-rights",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Fri, 05 Jun 2026 08:00:29 GMT",
+        "summary_zh": "非洲各國政府近日在加納舉行會議，推動一份名為《非洲家庭、主權和價值憲章》的草案。該憲章認為，非洲的價值觀和文化正受到「外來的理念」威脅，敦促各國政府退出不符合憲章原則的協議，包括2003年的《馬普托議定書》，後者促進性別平等和保護女性和女孩的生殖健康權。人權團體批評這份憲章是落後且有害的，認為它會損害婦女和女孩的權利。這份憲章的通過將對非洲婦女和女孩的福祉產生重大影響，引發了人權團體的關注和批評。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7d1c1166",
+        "title": "美國對古巴總統和卡斯特羅家族成員實施新制裁",
+        "url": "https://www.theguardian.com/world/2026/jun/05/us-sanctions-cuba-president-castro-family",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Fri, 05 Jun 2026 01:07:15 GMT",
+        "summary_zh": "美國對古巴總統和部分家人、卡斯特羅家族成員實施新制裁。美國國務卿馬可·魯比奧表示，任何為列出的實體提供服務的人『都有被制裁的風險』。這是美國對古巴施壓的最新舉措。被制裁的還包括前總統拉烏爾·卡斯特羅的兒子和孫子，他們雖然不再擔任官方職位，但仍對古巴島嶼未來的決定具有重要影響力。美國政府試圖通過制裁來影響古巴的政治局勢。這一舉措將對古巴政府和人民產生重大影響。美國政府的制裁政策將進一步加劇美古關係的緊張局勢。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "71d45c64",
+        "title": "美國記者承認為中國代理人工作",
+        "url": "https://www.bbc.com/news/articles/crmpmxg1ym4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Fri, 05 Jun 2026 11:20:30 GMT",
+        "summary_zh": "美國記者托馬斯·韋爾·保肯二世（Thomas Weir Pauken II）承認多年來與中國政府僱員合作。根據調查，保肯二世在美國工作期間，與中國政府僱員有密切聯繫，甚至在某些情況下與他們合作。這一發現引發了對美國記者在中國工作時的安全和隱私問題的擔憂。美國政府正在調查此事件，並正在評估對保肯二世的處理。這一事件也引發了對中國政府在美國的活動和影響力的擔憂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6f997c53",
+        "title": "美國計劃用蠅子和狗來對抗食肉蠅爆發",
+        "url": "https://www.bbc.com/news/articles/c7v9vz1gd76o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Fri, 05 Jun 2026 00:56:42 GMT",
+        "summary_zh": "美國南部地區出現食肉蠅爆發，該蠅種自1966年來首次出現在美國。美國政府正計劃採取措施來控制這種威脅，包括使用蠅子和狗來捕捉和消滅食肉蠅。食肉蠅是一種寄生蟲，會在動物的傷口或死體上生存並繁殖，對農業和動物健康造成重大威脅。美國政府正在與農業部門和動物控制專家合作，制定計畫來控制食肉蠅的爆發。這種措施將對美國南部地區的農業和動物健康產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "ai": [
       {
-        "id": "d3e30dff",
-        "title": "微軟是否失去創造力？",
-        "url": "https://www.wired.com/story/has-microsoft-lost-its-mojo-again/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Fri, 05 Jun 2026 15:00:00 +0000",
-        "summary_zh": "微軟的AI產品銷售不佳，Github也面臨著許多問題。WIRED與VP Scott Hanselman進行了採訪，探討公司是否處於落後狀態。根據WIRED的報導，微軟的AI產品銷售不佳，這可能與公司未能有效推廣產品的原因有關。另一方面，Github也面臨著許多問題，包括安全性和可靠性的問題。Scott Hanselman表示，微軟正在努力解決這些問題，並且正在投資於AI研發。然而，仍然存在著對於微軟是否能夠在AI領域取得突破的疑慮。這些問題使得微軟的未來發展成了一個未知數。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "a2be114f",
-        "title": "OpenAI 和 Anthropic 可能是競爭對手，但投資人卻不願意選擇一邊",
-        "url": "https://www.wired.com/story/openai-and-anthropic-may-be-rivals-but-their-investors-arent-choosing-sides/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Fri, 05 Jun 2026 10:30:00 +0000",
-        "summary_zh": "在人工智慧領域，OpenAI 和 Anthropic 是兩個競爭對手，但投資人卻不願意選擇一邊。根據一位風投投資人所說，「你不想在百事可樂和可口可樂中選擇一邊，同樣地，這裡也是如此。」這意味著投資人願意投資這兩家公司，無論哪一家公司的技術和產品更優秀。這種態度表明投資人對於人工智慧領域的發展充滿信心，並願意承擔風險。然而，這也意味著投資人不願意在這兩家公司之間進行激烈的競爭，這可能會影響到這兩家公司的發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "d3382276",
-        "title": "蘋果可能在下一代AirPods中加入攝影功能",
-        "url": "https://www.wired.com/story/why-apple-might-put-cameras-into-its-next-airpods/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Fri, 05 Jun 2026 10:00:00 +0000",
-        "summary_zh": "近日有消息指出，蘋果公司正在考慮在未來的AirPods中加入攝影功能。這項功能將使使用者可以通過AirPods拍攝照片和錄製視頻。然而，這項功能的實現面臨著多個挑戰，包括電池壽命、隱私問題等。目前尚未有具體的時間表或詳細信息。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "2f72c01a",
-        "title": "人工智慧來了，衬線字體也變得流行了",
-        "url": "https://www.wired.com/story/ai-has-come-for-serif-fonts/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Fri, 05 Jun 2026 09:00:00 +0000",
-        "summary_zh": "近年來，人工智慧公司開始使用衬線字體來展現人性化的形象。然而，這一趨勢卻引起了一些批評者對其「品味低俗」的批評。這一趨勢背後的原因是什麼？衬線字體是否真的能夠展現人性化的形象？這一趨勢是否會持續下去？在這個趨勢下，人工智慧公司是否會失去其高科技的形象？這些都是值得探討的問題。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "e290c16a",
-        "title": "人工智慧公司 IPO 熱潮升溫，DOGE 爭議人士起訴埃隆·馬斯克，Instagram 遭黑客攻擊",
-        "url": "https://www.wired.com/story/uncanny-valley-podcast-ai-ipo-race-elon-musk-doge-whistleblower-instagram-hacking-incident/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 04 Jun 2026 18:44:49 +0000",
-        "summary_zh": "人工智慧領域的 IPO 熱潮正在升溫，許多頂尖AI公司正在進行上市，甚至一些房地產廣告也開始要求購買者提供人工智慧公司股票作為付款。這種情況表明，投資人對人工智慧領域的投資熱情正在增強。另一方面，狗狗幣（DOGE）的爭議人士起訴埃隆·馬斯克，指控他在狗狗幣的推文中散布謠言。另外，Instagram 遭黑客攻擊，導致大量用戶帳戶被盜用。這些事件都表明了人工智慧、社交媒體和投資市場的複雜性和風險。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6e256504",
-        "title": "凱文·奧萊利同意縮小巨型猶他數據中心規模",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/943234/kevin-oleary-agrees-to-downsize-massive-utah-data-center",
+        "id": "034fda5f",
+        "title": "這就是你的筆記本電腦… 在 AI 的世界",
+        "url": "https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast",
         "source": "The Verge AI",
         "category": "ai",
-        "published_at": "2026-06-04T14:38:04-04:00",
-        "summary_zh": "凱文·奧萊利同意縮小他在猶他州規劃的 40,000 英畝數據中心規模。這項決定是受到了當地居民和活動家的壓力。奧萊利在周四發送了一封信給猶他州參議院議長 J. Stuart Adams，表示他將從該項目中移除 19,430 英畝土地。這項決定是對於當地居民和活動家的抗議和關注的回應。奧萊利的數據中心計畫曾引起了廣泛的爭議，包括環境和土地使用的擔憂。這項縮小規模的決定可能會減少對當地環境的影響，但仍然會引起許多人的關注和質疑。",
+        "published_at": "2026-06-05T12:39:07-04:00",
+        "summary_zh": "我們已經進入了開發者會議的旺季，目前的主題是大型科技公司對人工智慧（AI）將改變我們做事的方式的堅定信念。Nvidia 的 Jensen Huang 這週更是如此，當他描述了一種完全新的使用筆記本電腦的方法時，證明了這一點。這種新方法將會讓我們的筆記本電腦變得更加智能，能夠進行更複雜的計算和分析，從而改善我們的工作效率和生活質量。然而，這種新技術的發展也引發了對隱私和安全性的擔憂。許多人擔心，AI 的發展將會使我們的個人資料和隱私受到威脅。因此，需要有更好的管控和監管來確保這種新技術的發展不會對我們的生活造成負面影響。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "12eae56e",
+        "title": "紐約州立法機構通過一年暫停大型數據中心建設",
+        "url": "https://www.theverge.com/policy/944041/new-york-data-center-moratorium",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-05T11:25:10-04:00",
+        "summary_zh": "紐約州立法機構通過了一項一年暫停大型數據中心建設的決議，若民主黨州長凱西·霍奇爾(Kathy Hochul)簽署成法，將成為美國首個州級禁止新建大型數據中心的禁令。該法案的背後立法者表示，這項措施旨在給政策制定者時間來了解大型數據中心對環境和能源價格的影響。這項決議的通過引發了業界的關注，許多數據中心公司擔心這將對其業務造成不利影響。然而，支持者則認為這項措施有助於減少數據中心對環境的負面影響。這項一年暫停的禁令將對紐約州的數據中心業界造成重大影響，未來將觀察該州政府如何處理這項問題。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "baae6c32",
+        "title": "這家 AI 公司宣稱可以通過劇本預測電影是否會成功",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/943531/ai-script-quilty-simon-horsman-daniel-wood",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-05T09:57:31-04:00",
+        "summary_zh": "這家名為 Quilty 的 AI 公司早前引起業界關注，宣稱其工具能夠通過閱讀劇本準確預測電影的成功率。然而，當業界人士真正使用 Quilty 的產品時，他們對其效果感到懷疑。即使有了世界上所有可用的數據，Quilty 的工具也預測了不少失敗的電影。這使得人們開始質疑 Quilty 的工具是否真的能夠準確預測電影的成功率。這個問題也引起了業界人士的關注，是否真的有方法可以通過數據預測電影的成功率。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "1f3005a2",
@@ -501,6 +477,298 @@
         "category": "ai",
         "published_at": "Fri, 05 Jun 2026 09:00:00 +0000",
         "summary_zh": "近日，駭客利用Meta的AI客服系統盜取Instagram帳戶，事件發生在6月5日。駭客的方法簡單：他們要求客服系統將帳戶連結至控制的電子郵件地址，客服系統順從地完成了要求。其中一名駭客成功入侵了沉默的奧巴馬白宮帳戶，並發布支持伊朗的內容。這次事件顯示，人工智慧安全性遠超過傳說中的「神話」(Mythos)。這次事件的影響是駭客可以利用客服系統盜取帳戶，造成帳戶安全性受損。未來，Meta可能會加強客服系統的安全性，防止類似事件再次發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d3e30dff",
+        "title": "微軟是否失去創造力？",
+        "url": "https://www.wired.com/story/has-microsoft-lost-its-mojo-again/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Fri, 05 Jun 2026 15:00:00 +0000",
+        "summary_zh": "微軟的AI產品銷售不佳，Github也面臨著許多問題。WIRED與VP Scott Hanselman進行了採訪，探討公司是否處於落後狀態。根據WIRED的報導，微軟的AI產品銷售不佳，這可能與公司未能有效推廣產品的原因有關。另一方面，Github也面臨著許多問題，包括安全性和可靠性的問題。Scott Hanselman表示，微軟正在努力解決這些問題，並且正在投資於AI研發。然而，仍然存在著對於微軟是否能夠在AI領域取得突破的疑慮。這些問題使得微軟的未來發展成了一個未知數。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a2be114f",
+        "title": "OpenAI 和 Anthropic 可能是競爭對手，但投資人卻不願意選擇一邊",
+        "url": "https://www.wired.com/story/openai-and-anthropic-may-be-rivals-but-their-investors-arent-choosing-sides/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Fri, 05 Jun 2026 10:30:00 +0000",
+        "summary_zh": "在人工智慧領域，OpenAI 和 Anthropic 是兩個競爭對手，但投資人卻不願意選擇一邊。根據一位風投投資人所說，「你不想在百事可樂和可口可樂中選擇一邊，同樣地，這裡也是如此。」這意味著投資人願意投資這兩家公司，無論哪一家公司的技術和產品更優秀。這種態度表明投資人對於人工智慧領域的發展充滿信心，並願意承擔風險。然而，這也意味著投資人不願意在這兩家公司之間進行激烈的競爭，這可能會影響到這兩家公司的發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d3382276",
+        "title": "蘋果可能在下一代AirPods中加入攝影功能",
+        "url": "https://www.wired.com/story/why-apple-might-put-cameras-into-its-next-airpods/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Fri, 05 Jun 2026 10:00:00 +0000",
+        "summary_zh": "近日有消息指出，蘋果公司正在考慮在未來的AirPods中加入攝影功能。這項功能將使使用者可以通過AirPods拍攝照片和錄製視頻。然而，這項功能的實現面臨著多個挑戰，包括電池壽命、隱私問題等。目前尚未有具體的時間表或詳細信息。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2f72c01a",
+        "title": "人工智慧來了，衬線字體也變得流行了",
+        "url": "https://www.wired.com/story/ai-has-come-for-serif-fonts/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Fri, 05 Jun 2026 09:00:00 +0000",
+        "summary_zh": "近年來，人工智慧公司開始使用衬線字體來展現人性化的形象。然而，這一趨勢卻引起了一些批評者對其「品味低俗」的批評。這一趨勢背後的原因是什麼？衬線字體是否真的能夠展現人性化的形象？這一趨勢是否會持續下去？在這個趨勢下，人工智慧公司是否會失去其高科技的形象？這些都是值得探討的問題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "a7512b47",
+        "title": "威廉希爾公司擁有人同意£2.43億英鎊的收購意向",
+        "url": "https://www.ft.com/content/2826719d-8e91-48d1-8446-fdb2f0d84bd6",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-06-05 06:54:45",
+        "summary_zh": "威廉希爾公司的擁有人同意接受來自遊戲集團Intralot的收購意向。這筆交易的價格為£2.43億英鎊。威廉希爾公司是一間著名的賭博公司，提供賭博服務給全球各地的客戶。這筆收購意向可能會對公司的未來發展產生重大影響。根據市場分析師的評估，這筆交易可能會帶來新的機會和挑戰。然而，具體的影響還需要進一步的觀察和評估。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "1bdf543c",
+        "title": "阿曼宣布米納·阿爾·法哈爾港口運作正常化",
+        "url": "https://www.reuters.com/business/energy/oman-suspends-oil-loading-mina-al-fahal-terminal-following-explosion-sources-say-2026-06-05/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-05 06:49:29",
+        "summary_zh": "阿曼政府宣布，米納·阿爾·法哈爾港口的運作已經恢復正常。該港口曾因油品出口暫停而引起關注。阿曼政府表示，該港口的運作從 4 月 27 日開始恢復正常。該港口是阿曼重要的油品出口據點。油品出口暫停的原因尚未公佈。阿曼政府的聲明表明，該國的油品出口運作已經恢復正常。這一消息對於阿曼的經濟和全球油品市場都有重要影響。阿曼政府的決定將進一步觀察該港口的運作情況。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "bcc94f40",
+        "title": "印度取消對外國債券投資者資本利得稅以穩定盧比",
+        "url": "https://www.ft.com/content/4a0dc7f4-33e5-4584-a60d-be701a2978ed",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-06-05 06:47:30",
+        "summary_zh": "印度政府近日宣布取消對外國債券投資者實施的資本利得稅，旨在穩定盧比的貶值。這一措施是印度央行在面對外國資金大幅流出和伊朗戰爭的壓力下，保持利率不變的最新舉措。印度央行在最新的政策會議中，決定維持利率不變，儘管盧比在近期受到外國資金流出和伊朗戰爭的影響而貶值。這一決定被視為印度央行試圖穩定盧比的另一個步驟。外國投資者對印度債券市場的需求在近期大幅增加，印度政府通過取消資本利得稅，希望能吸引更多外國投資者進入印度債券市場。這一措施也被視為印度政府試圖穩定盧比的另一個手段。盧比在近期受到外國資金流出和伊朗戰爭的影響而貶值，印度政府通過取消資本利得稅，希望能穩定盧比的貶值。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "989c68d5",
+        "title": "印尼央行準備規範擴大使命",
+        "url": "https://www.reuters.com/world/asia-pacific/indonesias-central-bank-prepare-regulations-reflecting-wider-mandate-2026-06-05/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-05 06:47:30",
+        "summary_zh": "印尼央行宣布將擴大其使命，包括監管金融科技和電子支付等領域。根據印尼央行的說法，這一變化是為了應對金融業的快速發展和新興科技的影響。印尼央行將會制定新的規範，來反映其擴大使命。這一變化將對印尼的金融業和科技業產生重大影響。印尼央行的這一決定將使得該國的金融業更加穩定和透明。印尼央行的新規範將在未來的一段時間內生效。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "9b572981",
+        "title": "三種專業投資者的交易策略，包括為什麼高盛喜歡防衛股",
+        "url": "https://www.cnbc.com/2026/06/05/3-ways-the-pros-are-trading-goldman-on-defense-stocks.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-06-05 06:46:31",
+        "summary_zh": "近日，投資界有三種流行的交易策略浮上檯面。其中，高盛旗下投資者認為，防衛股將是未來的重點投資方向。根據他們的分析，防衛股將受益於政府對國防開支的增加。另一方面，投資者也開始關注科技股的表現，尤其是那些與人工智慧相關的公司。這些公司的股價表現出色，投資者認為這是未來投資的機會。最後，投資者也開始關注能源股的表現，尤其是那些與清潔能源相關的公司。這些公司的股價表現穩定，投資者認為這是未來投資的安全選擇。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f7956144",
+        "title": "美國公司將投資 62 億美元興建萊索托水力發電項目及數據中心",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-05/us-firm-to-build-6-2-billion-lesotho-hydro-project-data-center",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-05 06:40:24",
+        "summary_zh": "美國公司將投資 62 億美元興建萊索托水力發電項目及數據中心。這項水力發電項目將為萊索托帶來新的能源來源，並且還將建造一座大型數據中心。這項投資將對萊索托的經濟和環境產生重大影響。萊索托是一個能源匱乏的國家，水力發電將為該國帶來新的能源來源。這項投資還將創造大量就業機會，促進當地經濟的發展。然而，這項投資也引發了環境保護的擔憂。萊索托的環境保護組織已經表達了對水力發電的擔憂，擔心它們將對當地的生態系統造成傷害。這項投資的成功將取決於如何平衡經濟和環境的需求。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "11b9773f",
+        "title": "大能源越來越大",
+        "url": "https://www.ft.com/content/ab04db62-3a9a-467c-8dd2-fda069906cb2",
+        "source": "FT Tech",
+        "category": "finance",
+        "published_at": "Thu, 04 Jun 2026 20:00:00 GMT",
+        "summary_zh": "近日，能源巨頭的市場份額持續擴大。這些公司的業務範圍不僅限於傳統的能源產業，還涉及新能源、清潔能源等領域。能源巨頭的擴張對於全球能源市場的影響深遠，可能會導致市場結構的變化。投資者應該密切關注這些公司的發展趨勢，以便在適當時機投資入該領域。能源巨頭的擴張也可能會對環境和社會帶來新的挑戰和機會。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "stock_us": [
+      {
+        "id": "5c5a882d",
+        "title": "印度央行維持利率不變，但指導意見傾向鹹鹼",
+        "url": "https://www.cnbc.com/video/2026/06/05/rbi-holds-interest-rates-at-5-point-25-percent.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-05 06:02:57",
+        "summary_zh": "印度央行維持利率不變，但指導意見傾向鹹鹼。印度央行的政策立場仍然中立，但經濟成長預測被降低，通貨膨脹預測被提高，這些跡象表明央行的意見傾向鹹鹼。這意味著未來可能會有更多的利率上調。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "fbc60aae",
+        "title": "華爾街巨頭稱讚SpaceX　馬斯克在IPO前投資者會議上發表演說",
+        "url": "https://www.reuters.com/legal/government/wall-street-banks-ceos-promote-spacex-in-flashy-events-with-bofa-morgan-stanley-2026-06-04/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-06-05 04:46:08",
+        "summary_zh": "華爾街巨頭們在SpaceX即將上市前，對該公司的表現感到滿意。SpaceX的創辦人伊隆馬斯克在一場投資者會議上發表演說，展示了該公司的成就和未來計畫。馬斯克在會議上強調，SpaceX正在努力推動太空探索和星際交通的發展。華爾街投資者對SpaceX的未來前景感到樂觀，認為該公司的成長潛力巨大。這場投資者會議標誌著SpaceX即將上市的重要一步，投資者們將在未來的財務報告中密切關注該公司的表現。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e13b2232",
+        "title": "亞洲科技股下跌，布洛德柯姆的失望財報影響華爾街股價",
+        "url": "https://www.cnbc.com/2026/06/05/asian-technology-stocks-sk-hynix-samsung-tsmc-advantest.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-05 01:40:30",
+        "summary_zh": "亞洲科技股市場出現下跌，跟隨美國半導體股的失利。布洛德柯姆的失望財報引發了對人工智慧相關股的轉換。這些股價下跌影響了華爾街的股市。亞洲科技股市場的下跌是由於布洛德柯姆的財報表現不佳，導致投資者轉向其他領域。這種轉換影響了人工智慧相關股的股價，進而影響了華爾街的股市。這種情況下，投資者需要重新評估他們的投資組合和風險承受能力。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c8c5aece",
+        "title": "美就業強勁市場憂Fed轉鷹 美股開盤多下跌",
+        "url": "https://www.cna.com.tw/news/afe/202606050353.aspx",
+        "source": "中央社財經",
+        "category": "stock_us",
+        "published_at": "Fri, 05 Jun 2026 22:06:16 +0800",
+        "summary_zh": "美國就業報告數據強勁，引發市場對於美國聯邦準備理事會（Fed）恐縮緊貨幣政策的預期。美股主要指數標普與那指今天開盤下跌，晶片股經歷一波漲勢後回檔修正。市場人士認為，強勁的就業數據可能會使Fed在未來的政策決策中更加謹慎，從而影響市場的預期。這一變化可能會導致美股市場下跌。晶片股的波動也可能與市場對Fed政策的變化有關。整體來說，市場對Fed政策的變化和就業數據的影響仍在觀察中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3e3747db",
+        "title": "亞太市場預計開盤低迷，受美股晶片股滑跌影響",
+        "url": "https://www.cnbc.com/2026/06/05/asia-markets-today-nikkei-225-kospi-hang-seng-index-csi-300-nifty50.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-04 23:48:20",
+        "summary_zh": "亞太市場預計周五開盤波動不大，投資人正在評估美股晶片股的轉場。美股晶片股的走勢影響了道瓊工業平均指數的收盤創新高。投資人正在觀察這些變化，準備開盤後的市場反應。這些變化對亞太市場的影響仍不明朗，投資人需要繼續觀察市場動態。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "72f151be",
+        "title": "華爾街股市大幅下跌，道瓊指數創歷史新低",
+        "url": "https://www.reuters.com/fr/affaires/wall-street-en-ordre-dispers-record-du-dow-jones-2026-06-04/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-06-04 23:16:10",
+        "summary_zh": "華爾街股市近日出現大幅下跌的局面，道瓊指數創下歷史新低。這種情況引起了市場的關注，許多投資者開始擔心股市的未來發展。根據市場分析師的評估，道瓊指數的下跌是由於投資者對經濟前景的悲觀情緒，以及對企業盈利的擔憂所致。這種情況對於投資者來說是一個挑戰，需要他們重新評估投資策略和風險承受能力。市場分析師預測，股市可能會繼續波動，投資者需要保持警醒和耐心。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bb9a2b95",
+        "title": "美國5月非農就業新增17.2萬人遠超預期 失業率持平",
+        "url": "https://www.cna.com.tw/news/aopl/202606050347.aspx",
+        "source": "中央社財經",
+        "category": "stock_us",
+        "published_at": "Fri, 05 Jun 2026 21:47:02 +0800",
+        "summary_zh": "美國勞工統計局今天公布，5月非農就業人數新增17萬2000人，遠高於市場預估值。這一結果顯示勞動市場延續今年以來的穩健擴張格局。失業率持平，表明勞動市場的穩定性。這一消息對於美國經濟的發展有重要影響，可能會對股市和美元的走勢產生影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "672c9127",
+        "title": "華爾街預測SpaceX人工智慧部門2030年收入將達100倍",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-04/wall-street-sees-spacex-s-ai-revenue-100-times-higher-by-2030",
+        "source": "Bloomberg",
+        "category": "stock_us",
+        "published_at": "2026-06-04 22:28:16",
+        "summary_zh": "華爾街研究分析師預測SpaceX人工智慧部門將在2030年達到100倍收入增長，從而為SpaceX的IPO提供額外的估值支持，目標估值達到1.8萬億美元。這些分析師認為，SpaceX的AI部門將在未來十年內迅速發展，成為公司的重要收入來源。SpaceX的AI部門正致力於開發新的AI技術和應用，包括自駕車和人工智慧等領域。這些投資人對SpaceX未來發展的信心，將對公司的估值產生重大影響。然而，是否能夠實現這一目標，仍然存在著不少挑戰和風險。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0737524f",
+        "title": "標準普爾 500 指數未來價格下跌，華爾街等待 5 月就業報告",
+        "url": "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-04 22:24:37",
+        "summary_zh": "標準普爾 500 指數即將完成第十週的漲幅，將創下 1985 年以來最長的連續漲幅週期。華爾街對 5 月就業報告的結果感到期待，影響股市走勢。雖然目前指數仍在上漲，但未來的發展仍存不確定性。投資者將密切關注就業報告的結果，以判斷股市的走向。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "736577d2",
+        "title": "收市後最大的市場波動股票：Lululemon Athletica、ServiceTitan、Argan等",
+        "url": "https://www.cnbc.com/2026/06/04/stocks-making-the-biggest-moves-after-hours-lulu-agx-ttan.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-04 21:11:46",
+        "summary_zh": "收市後市場波動的股票包括Lululemon Athletica、ServiceTitan、Argan等。這些股票的價格出現了顯著的變化，引起投資者的關注。Lululemon Athletica的股價在收市後出現了大幅上漲，而ServiceTitan則出現了大幅下跌。Argan的股價也出現了明顯的波動。這些市場波動可能與公司的財務報告、業務發展或市場情緒等因素有關。投資者應該密切關注這些股票的變化，以做出明智的投資決策。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0eb58c9a",
+        "title": "華爾街收盤兩面派，Broadcom拖累科技股，歐洲股市上漲，石油價格跌落",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-04/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-06-04 21:10:05",
+        "summary_zh": "華爾街在昨天的交易中呈現兩面派的情況，科技股受到Broadcom的拖累，而歐洲股市則上漲。石油價格則在昨天下跌。這些變化對全球金融市場的影響值得關注。根據市場分析師的看法，Broadcom的拖累是由於該公司的財務報告出現了意外的虧損。這使得投資者對該公司未來的前景感到擔憂。另一方面，歐洲股市的上漲是由於投資者對該地區經濟的前景感到樂觀。石油價格的下跌則是由於市場對供應的預期增加。這些變化對全球金融市場的影響將是關鍵的。投資者需要密切關注市場的變化，以確保他們的投資策略是合理的。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "85cf7306",
+        "title": "美5月新增就業17.2萬人超強勁 市場預期Fed降息等明年",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5462425",
+        "source": "自由時報財經",
+        "category": "stock_us",
+        "published_at": "Fri, 05 Jun 2026 22:05:20 +0800",
+        "summary_zh": "美國勞工部公佈5月新增17.2萬新增就業人口，遠高於預期的8.5萬人，強勁的就業數據使市場預期美聯儲(Fed)可能在明年降息。這項數據出現於中東衝突推升通膨之際，穩健的就業市場表明美國經濟仍然穩健。然而，這項數據也使市場預期美聯儲可能在明年降息，以應對可能出現的經濟放緩。美聯儲的政策決定將對全球金融市場產生重大影響，因此市場將密切關注美聯儲的下一步動作。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "478a2fed",
+        "title": "涉防衛安全！傳禁中國與香港投資人認購SpaceX IPO",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5462348",
+        "source": "自由時報財經",
+        "category": "stock_us",
+        "published_at": "Fri, 05 Jun 2026 20:31:28 +0800",
+        "summary_zh": "美國SpaceX即將進行750億美元的首度公開募股（IPO），但有傳聞指出，承銷商已被告知不得接受來自香港與中國投資人的認購。原因是美國對關鍵技術出口的限制。這一措施是為了防止敏感技術落入不該手中的地方。SpaceX的技術被認為對於美國的國防安全具有重要意義。這一事件引發了對於美國對外投資限制的討論。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -542,6 +810,18 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "c657f018",
+        "title": "大樂透第115059期 頭獎槓龜",
+        "url": "https://www.cna.com.tw/news/ahel/202606050352.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 05 Jun 2026 22:05:13 +0800",
+        "summary_zh": "大樂透第115059期今晚開獎，中獎號碼為32、12、44、25、14、30，特別號34。結果顯示頭獎槓龜，未有中獎者。這意味著頭獎沒有被中獎，讓許多樂透玩家失望。根據規則，未中頭獎的玩家將會分配下一個階段的獎金。這次的結果可能會影響未來的樂透玩家參與度。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "bafd5543",
@@ -684,250 +964,6 @@
         "published_at": "Fri, 05 Jun 2026 18:25:44 +0800",
         "summary_zh": "近期市場高度關注美元下半年走勢及國內輸入性通膨壓力，央行外匯局局長蔡烱民表示，影響美元後市的關鍵仍在於美國貨幣政策與地緣政治風險兩大因素。但是，這兩個因素都存在高度不確定性，坦言「真的不太容易判斷」。美國貨幣政策的變化將對美元有重大影響，而地緣政治風險則可能導致美元贏利。然而，市場對這兩個因素的預期存在分歧，導致美元後市充滿變數。這使得投資者難以做出準確的判斷，央行也面臨著挑戰。總體而言，美元的走勢將受到多種因素的影響，投資者需要保持謹慎和耐心。",
         "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "53fbae7e",
-        "title": "塞爾維亞與俄羅斯天然氣公司簽署臨時天然氣供應協議",
-        "url": "https://www.reuters.com/business/energy/serbia-secures-three-month-extension-gas-supply-gazprom-says-energy-minister-2026-06-05/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-05 05:55:43",
-        "summary_zh": "塞爾維亞能源部長表示，該國已與俄羅斯天然氣公司簽署了一份臨時協議，延長了天然氣供應的期限。這項協議將天然氣供應期限延長至三個月。塞爾維亞政府一直在努力尋找替代天然氣供應來源，但仍然依賴俄羅斯天然氣公司的供應。這項協議的簽署表明塞爾維亞仍然與俄羅斯保持著密切的能源合作關係。這項協議的延長將對塞爾維亞的能源安全產生一定的影響。塞爾維亞政府將繼續努力尋找長期的天然氣供應來源。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "e2f485bc",
-        "title": "印度盧比大幅升值 印度央行措施吸引外資幫助石油受累貨幣",
-        "url": "https://www.reuters.com/world/india/indian-rupee-rallies-rbi-measures-draw-inflows-help-oil-hit-currency-2026-06-05/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-05 05:42:34",
-        "summary_zh": "印度央行近日宣布了一系列措施，以吸引外資幫助印度盧比大幅貶值。印度央bank 的措施包括允許外資購買印度政府債券、降低外資購買印度股市的限制等。這些措施旨在吸引外資流入印度，幫助印度盧比大幅升值。印度央bank 的措施受到市場的歡迎，印度盧比大幅升值，石油價格上升對印度經濟的影響也得到減輕。印度央bank 的措施將對印度經濟產生持續性的正面影響。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "b8debdca",
-        "title": "自 2022 年 4 月以來印度的儲備存款設施利率變動",
-        "url": "https://www.reuters.com/business/changes-indias-standing-deposit-facility-rate-since-april-2022-2026-06-05/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-05 05:23:14",
-        "summary_zh": "印度自 2022 年 4 月以來對儲備存款設施利率進行了多次調整。儘管央行在 2022 年 4 月宣布降低儲備存款利率，但自 2022 年 5 月以來，印度央行一直在保持儲備存款利率不變。這一決定是為了維持經濟穩定和控制通貨膨脹。儘管如此，印度的經濟仍面臨著挑戰，包括高通貨膨脹率和貿易逆差。印度央行仍將密切關注經濟情況並調整政策以應對挑戰。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "9bfabdec",
-        "title": "印度取消對外國投資者政府債券資本利得稅以支持盧比",
-        "url": "https://www.reuters.com/world/india/india-scraps-capital-gains-tax-foreign-investors-government-debt-2026-06-05/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-05 05:12:29",
-        "summary_zh": "印度政府決定取消對外國投資者購買政府債券的資本利得稅，旨在支持盧比的穩定。這一措施將有助於吸引更多外國投資者購買印度政府債券，從而減少盧比的貶值風險。印度政府此舉意在加強對外國投資者的吸引力，同時也希望通過債券發行來籌集更多資金支持經濟發展。然而，這一措施可能會對印度政府的收入產生一定影響。印度政府此舉的影響力尚待觀察，將會對印度經濟產生什麼樣的影響，還需要時間來觀察。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "70730166",
-        "title": "投資人信心動搖，瑞士私募基金巨頭Partners Group的快速上升被迫中斷",
-        "url": "https://www.reuters.com/legal/transactional/how-investor-doubts-halted-swiss-partners-groups-meteoric-rise-2026-06-05/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-05 05:08:11",
-        "summary_zh": "瑞士私募基金巨頭Partners Group 在近年來經歷了快速的上升，但投資人對其信心動搖。根據最新的數據，Partners Group 的投資績效在 2022 年下半年出現下滑，投資人對其未來前景存疑。分析師認為，這是由於投資人對全球經濟的不確定性以及對私募基金業的監管趨嚴加劇所致。投資人對 Partners Group 的信心動搖也導致其股票價格下跌。目前，Partners Group 正在努力恢復投資人的信心，並透過改善投資績效和增強透明度來應對挑戰。投資人對 Partners Group 的信心動搖對私募基金業的整體形勢產生了重要影響，投資人對私募基金的信心動搖可能會對整個市場產生波及效應。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "9919cfe7",
-        "title": "被動投資者激活市場泡沫",
-        "url": "https://www.reuters.com/commentary/breakingviews/passive-investors-actively-pump-up-market-bubble-2026-06-05/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-05 05:07:02",
-        "summary_zh": "近期市場泡沫的膨脹，部分被動投資者被指在背後推動。根據研究發現，被動投資者在購買股票時，往往會選擇高估值的股票，從而推動市場泡沫的膨脹。這種現象被認為是市場泡沫的重要因素。被動投資者購買高估值股票的原因，可能是因為他們對市場的預期過高，或者是因為他們缺乏足夠的資訊來評估股票的價值。這種情況下，市場泡沫的膨脹將會繼續下去，直到被動投資者開始出售股票為止。市場泡沫的膨脹將會對投資者造成嚴重的影響，投資者需要謹慎評估股票的價值，避免被市場泡沫的膨脹所誤導。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "11b9773f",
-        "title": "大能源越來越大",
-        "url": "https://www.ft.com/content/ab04db62-3a9a-467c-8dd2-fda069906cb2",
-        "source": "FT Tech",
-        "category": "finance",
-        "published_at": "Thu, 04 Jun 2026 20:00:00 GMT",
-        "summary_zh": "近日，能源巨頭的市場份額持續擴大。這些公司的業務範圍不僅限於傳統的能源產業，還涉及新能源、清潔能源等領域。能源巨頭的擴張對於全球能源市場的影響深遠，可能會導致市場結構的變化。投資者應該密切關注這些公司的發展趨勢，以便在適當時機投資入該領域。能源巨頭的擴張也可能會對環境和社會帶來新的挑戰和機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "stock_us": [
-      {
-        "id": "fbc60aae",
-        "title": "華爾街巨頭稱讚SpaceX　馬斯克在IPO前投資者會議上發表演說",
-        "url": "https://www.reuters.com/legal/government/wall-street-banks-ceos-promote-spacex-in-flashy-events-with-bofa-morgan-stanley-2026-06-04/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-06-05 04:46:08",
-        "summary_zh": "華爾街巨頭們在SpaceX即將上市前，對該公司的表現感到滿意。SpaceX的創辦人伊隆馬斯克在一場投資者會議上發表演說，展示了該公司的成就和未來計畫。馬斯克在會議上強調，SpaceX正在努力推動太空探索和星際交通的發展。華爾街投資者對SpaceX的未來前景感到樂觀，認為該公司的成長潛力巨大。這場投資者會議標誌著SpaceX即將上市的重要一步，投資者們將在未來的財務報告中密切關注該公司的表現。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e13b2232",
-        "title": "亞洲科技股下跌，布洛德柯姆的失望財報影響華爾街股價",
-        "url": "https://www.cnbc.com/2026/06/05/asian-technology-stocks-sk-hynix-samsung-tsmc-advantest.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-05 01:40:30",
-        "summary_zh": "亞洲科技股市場出現下跌，跟隨美國半導體股的失利。布洛德柯姆的失望財報引發了對人工智慧相關股的轉換。這些股價下跌影響了華爾街的股市。亞洲科技股市場的下跌是由於布洛德柯姆的財報表現不佳，導致投資者轉向其他領域。這種轉換影響了人工智慧相關股的股價，進而影響了華爾街的股市。這種情況下，投資者需要重新評估他們的投資組合和風險承受能力。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c8c5aece",
-        "title": "美就業強勁市場憂Fed轉鷹 美股開盤多下跌",
-        "url": "https://www.cna.com.tw/news/afe/202606050353.aspx",
-        "source": "中央社財經",
-        "category": "stock_us",
-        "published_at": "Fri, 05 Jun 2026 22:06:16 +0800",
-        "summary_zh": "美國就業報告數據強勁，引發市場對於美國聯邦準備理事會（Fed）恐縮緊貨幣政策的預期。美股主要指數標普與那指今天開盤下跌，晶片股經歷一波漲勢後回檔修正。市場人士認為，強勁的就業數據可能會使Fed在未來的政策決策中更加謹慎，從而影響市場的預期。這一變化可能會導致美股市場下跌。晶片股的波動也可能與市場對Fed政策的變化有關。整體來說，市場對Fed政策的變化和就業數據的影響仍在觀察中。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3e3747db",
-        "title": "亞太市場預計開盤低迷，受美股晶片股滑跌影響",
-        "url": "https://www.cnbc.com/2026/06/05/asia-markets-today-nikkei-225-kospi-hang-seng-index-csi-300-nifty50.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-04 23:48:20",
-        "summary_zh": "亞太市場預計周五開盤波動不大，投資人正在評估美股晶片股的轉場。美股晶片股的走勢影響了道瓊工業平均指數的收盤創新高。投資人正在觀察這些變化，準備開盤後的市場反應。這些變化對亞太市場的影響仍不明朗，投資人需要繼續觀察市場動態。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "72f151be",
-        "title": "華爾街股市大幅下跌，道瓊指數創歷史新低",
-        "url": "https://www.reuters.com/fr/affaires/wall-street-en-ordre-dispers-record-du-dow-jones-2026-06-04/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-06-04 23:16:10",
-        "summary_zh": "華爾街股市近日出現大幅下跌的局面，道瓊指數創下歷史新低。這種情況引起了市場的關注，許多投資者開始擔心股市的未來發展。根據市場分析師的評估，道瓊指數的下跌是由於投資者對經濟前景的悲觀情緒，以及對企業盈利的擔憂所致。這種情況對於投資者來說是一個挑戰，需要他們重新評估投資策略和風險承受能力。市場分析師預測，股市可能會繼續波動，投資者需要保持警醒和耐心。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bb9a2b95",
-        "title": "美國5月非農就業新增17.2萬人遠超預期 失業率持平",
-        "url": "https://www.cna.com.tw/news/aopl/202606050347.aspx",
-        "source": "中央社財經",
-        "category": "stock_us",
-        "published_at": "Fri, 05 Jun 2026 21:47:02 +0800",
-        "summary_zh": "美國勞工統計局今天公布，5月非農就業人數新增17萬2000人，遠高於市場預估值。這一結果顯示勞動市場延續今年以來的穩健擴張格局。失業率持平，表明勞動市場的穩定性。這一消息對於美國經濟的發展有重要影響，可能會對股市和美元的走勢產生影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "672c9127",
-        "title": "華爾街預測SpaceX人工智慧部門2030年收入將達100倍",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-04/wall-street-sees-spacex-s-ai-revenue-100-times-higher-by-2030",
-        "source": "Bloomberg",
-        "category": "stock_us",
-        "published_at": "2026-06-04 22:28:16",
-        "summary_zh": "華爾街研究分析師預測SpaceX人工智慧部門將在2030年達到100倍收入增長，從而為SpaceX的IPO提供額外的估值支持，目標估值達到1.8萬億美元。這些分析師認為，SpaceX的AI部門將在未來十年內迅速發展，成為公司的重要收入來源。SpaceX的AI部門正致力於開發新的AI技術和應用，包括自駕車和人工智慧等領域。這些投資人對SpaceX未來發展的信心，將對公司的估值產生重大影響。然而，是否能夠實現這一目標，仍然存在著不少挑戰和風險。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0737524f",
-        "title": "標準普爾 500 指數未來價格下跌，華爾街等待 5 月就業報告",
-        "url": "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-04 22:24:37",
-        "summary_zh": "標準普爾 500 指數即將完成第十週的漲幅，將創下 1985 年以來最長的連續漲幅週期。華爾街對 5 月就業報告的結果感到期待，影響股市走勢。雖然目前指數仍在上漲，但未來的發展仍存不確定性。投資者將密切關注就業報告的結果，以判斷股市的走向。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "736577d2",
-        "title": "收市後最大的市場波動股票：Lululemon Athletica、ServiceTitan、Argan等",
-        "url": "https://www.cnbc.com/2026/06/04/stocks-making-the-biggest-moves-after-hours-lulu-agx-ttan.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-04 21:11:46",
-        "summary_zh": "收市後市場波動的股票包括Lululemon Athletica、ServiceTitan、Argan等。這些股票的價格出現了顯著的變化，引起投資者的關注。Lululemon Athletica的股價在收市後出現了大幅上漲，而ServiceTitan則出現了大幅下跌。Argan的股價也出現了明顯的波動。這些市場波動可能與公司的財務報告、業務發展或市場情緒等因素有關。投資者應該密切關注這些股票的變化，以做出明智的投資決策。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0eb58c9a",
-        "title": "華爾街收盤兩面派，Broadcom拖累科技股，歐洲股市上漲，石油價格跌落",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-04/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-06-04 21:10:05",
-        "summary_zh": "華爾街在昨天的交易中呈現兩面派的情況，科技股受到Broadcom的拖累，而歐洲股市則上漲。石油價格則在昨天下跌。這些變化對全球金融市場的影響值得關注。根據市場分析師的看法，Broadcom的拖累是由於該公司的財務報告出現了意外的虧損。這使得投資者對該公司未來的前景感到擔憂。另一方面，歐洲股市的上漲是由於投資者對該地區經濟的前景感到樂觀。石油價格的下跌則是由於市場對供應的預期增加。這些變化對全球金融市場的影響將是關鍵的。投資者需要密切關注市場的變化，以確保他們的投資策略是合理的。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3e9b1d94",
-        "title": "霍尼韋爾量子公司上市：投資者應該知道的 IPO 基本資料",
-        "url": "https://www.cnbc.com/2026/06/04/honeywells-quantum-company-goes-public-what-investors-should-know-about-the-ipo.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-04 20:55:03",
-        "summary_zh": "霍尼韋爾量子公司的上市讓投資者能夠為這家業務估值。這對霍尼韋爾來說是一個勝利，因為投資者之前需要猜測這家業務的價值。這次上市讓投資者能夠透過公開募股（IPO）來評估霍尼韋爾的量子公司。這對霍尼韋爾的業務發展和投資者投資決策都有重要的意義。霍尼韋爾的量子公司是一家專門從事量子計算和量子傳感技術的公司。這些技術有潛力改善許多領域的效率和準確性，包括科學研究、醫療和金融等領域。霍尼韋爾的量子公司通過這次上市，希望能夠吸引更多的投資者和合作夥伴，共同推動量子技術的發展和應用。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "85cf7306",
-        "title": "美5月新增就業17.2萬人超強勁 市場預期Fed降息等明年",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5462425",
-        "source": "自由時報財經",
-        "category": "stock_us",
-        "published_at": "Fri, 05 Jun 2026 22:05:20 +0800",
-        "summary_zh": "美國勞工部公佈5月新增17.2萬新增就業人口，遠高於預期的8.5萬人，強勁的就業數據使市場預期美聯儲(Fed)可能在明年降息。這項數據出現於中東衝突推升通膨之際，穩健的就業市場表明美國經濟仍然穩健。然而，這項數據也使市場預期美聯儲可能在明年降息，以應對可能出現的經濟放緩。美聯儲的政策決定將對全球金融市場產生重大影響，因此市場將密切關注美聯儲的下一步動作。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "478a2fed",
-        "title": "涉防衛安全！傳禁中國與香港投資人認購SpaceX IPO",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5462348",
-        "source": "自由時報財經",
-        "category": "stock_us",
-        "published_at": "Fri, 05 Jun 2026 20:31:28 +0800",
-        "summary_zh": "美國SpaceX即將進行750億美元的首度公開募股（IPO），但有傳聞指出，承銷商已被告知不得接受來自香港與中國投資人的認購。原因是美國對關鍵技術出口的限制。這一措施是為了防止敏感技術落入不該手中的地方。SpaceX的技術被認為對於美國的國防安全具有重要意義。這一事件引發了對於美國對外投資限制的討論。",
-        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       }
