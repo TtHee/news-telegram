@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-05T20:04:19.590545+08:00",
+  "generated_at": "2026-06-05T21:04:18.206181+08:00",
   "risk_signals": [
     "🟢 台股加權 45070.94（正常）",
     "🟢 S&P 500 7584.31（正常）",
-    "🟢 VIX 恐慌指數 15.64（正常）",
+    "🟢 VIX 恐慌指數 15.72（正常）",
     "🟢 MOVE 債市波動 73.58（正常）",
-    "🟢 美元指數 99.19（正常）",
-    "🟢 黃金 4497.9（正常）",
-    "🟢 美債10Y殖利率 4.48（正常）",
-    "🟢 原油 WTI 92.82（正常）",
-    "🟢 美元/台幣 31.47（正常）"
+    "🟢 美元指數 99.53（正常）",
+    "🟢 黃金 4446.8（正常）",
+    "🟡 美債10Y殖利率 4.54（留意）",
+    "🟢 原油 WTI 92.6（正常）",
+    "🟢 美元/台幣 31.53（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，投資人仍然對全球經濟表現感到樂觀。美元指數和美債10Y殖利率保持在正常水準，表明市場對美元和美國經濟的信心未受影響。",
+  "ai_summary": "市場氛圍保持穩定，多個指標維持正常水平，但美債10年殖利率略有上升，值得關注。",
   "market": {
     "TWII": {
       "price": 45070.94,
@@ -26,37 +26,49 @@
       "change_pct": -0.09
     },
     "VIX": {
-      "price": 15.64,
-      "change_pct": 1.56
+      "price": 15.72,
+      "change_pct": 2.08
     },
     "TNX": {
-      "price": 4.48,
-      "change_pct": -0.31
+      "price": 4.54,
+      "change_pct": 1.32
     },
     "MOVE": {
       "price": 73.58,
       "change_pct": 0.2
     },
     "DXY": {
-      "price": 99.19,
-      "change_pct": -0.22
+      "price": 99.53,
+      "change_pct": 0.12
     },
     "GOLD": {
-      "price": 4497.9,
-      "change_pct": 0.49
+      "price": 4446.8,
+      "change_pct": -0.65
     },
     "OIL": {
-      "price": 92.82,
-      "change_pct": -0.24
+      "price": 92.6,
+      "change_pct": -0.47
     },
     "USDTWD": {
-      "price": 31.47,
-      "change_pct": -0.11
+      "price": 31.53,
+      "change_pct": 0.07
     }
   },
   "macro": {},
   "categories": {
     "whitehouse": [
+      {
+        "id": "c36032f0",
+        "title": "參議院共和黨通過 7,000 億美元的移民執法法案",
+        "url": "https://www.theguardian.com/us-news/live/2026/jun/05/us-politics-latest-news-updates-donald-trump-republicans-democrats",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 05 Jun 2026 12:26:14 GMT",
+        "summary_zh": "參議院共和黨議員在星期四通過了一項法案，將 7,000 億美元用於移民執法。共和黨參議員林西·格雷厄姆表示，他對共和黨同事們能夠確保邊境巡邏隊和移民及海關執法局（ICE）獲得充足資金感到自豪。民主黨參議院少數領袖查克·舒默試圖在共和黨支持的法案中插入禁止支付給特朗普盟友的語言，但共和黨議員否決了這一提議。這一事件表明共和黨內部對這一提議的不滿正在擴散。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "0b32bf85",
         "title": "美國參議院通過 7,000 億美元移民法案，ICE 和邊境巡邏三年經費保障",
@@ -66,20 +78,20 @@
         "published_at": "Fri, 05 Jun 2026 11:35:47 GMT",
         "summary_zh": "美國參議院在早上通過了 7,000 億美元的移民法案，為移民和海關執法局 (ICE) 和邊境巡邏三年的經費提供保障。這項立法在多周的延遲和對一項 1,776 億美元的和解基金的激烈反彈下通過。參議員以 52-47 的投票結果通過了該法案，將其送交美國眾議院。眾議院預計將在下周審議該法案。這項立法將為 Donald Trump 的移民執法機構提供經費保障，直到他任期結束。民主黨參議員多月來一直阻止該法案的通過。該法案將ICE 和邊境巡邏的經費保障三年，將來自眾議院的反應將對移民政策產生重大影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
-        "id": "c36032f0",
-        "title": "參議院共和黨通過 7,000 億美元的移民執法法案",
-        "url": "https://www.theguardian.com/us-news/live/2026/jun/05/us-politics-latest-news-updates-donald-trump-republicans-democrats",
-        "source": "Guardian US",
+        "id": "8d5bb9cb",
+        "title": "美國演員詹姆斯·漢迪遇刺身亡，女友兒子被捕",
+        "url": "https://www.bbc.com/news/articles/czd2dj24jgdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "whitehouse",
-        "published_at": "Fri, 05 Jun 2026 11:28:48 GMT",
-        "summary_zh": "參議院共和黨議員在星期四通過了一項法案，將 7,000 億美元用於移民執法。共和黨參議員林西·格雷厄姆表示，他對共和黨同事們能夠確保邊境巡邏隊和移民及海關執法局（ICE）獲得充足資金感到自豪。民主黨參議院少數領袖查克·舒默試圖在共和黨支持的法案中插入禁止支付給特朗普盟友的語言，但共和黨議員否決了這一提議。這一事件表明共和黨內部對這一提議的不滿正在擴散。",
+        "published_at": "Fri, 05 Jun 2026 09:40:06 GMT",
+        "summary_zh": "美國演員詹姆斯·漢迪在81歲高齡時遇刺身亡。根據消息，他曾在多部電影中出演，包括《魔域傳說》和《海鷹救地球：重返戰場》。漢迪的遇刺事件引起了廣泛關注，警方已經逮捕了漢迪的女友的兒子。這起事件的詳細情況尚未公布，但已經引起了許多人的關注和懷疑。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "61269b1f",
@@ -90,8 +102,20 @@
         "published_at": "Fri, 05 Jun 2026 11:03:56 GMT",
         "summary_zh": "前美國司法部長邦迪在眾議院監督改革委員會面前表示，將接替她的托德·布蘭奇（Todd Blanche）負責處理美國司法部對史提芬·愛普斯坦案件的處理。邦迪表示，她不確定特朗普是否知道愛普斯坦和吉斯萊恩·馬克斯韋爾的罪行。邦迪在她的開幕陳述中辯護了司法部在她的領導下處理文件的做法，試圖與釋放和檢查文件的事件保持距離。托德·布蘭奇將需要由美國參議院確認，如果特朗普正式提名他為司法部長。美國司法部釋放文件的原因受到關注，多名立法者和愛普斯坦受害者批評了部門的某些行動，關注了某些紅字和敏感個人信息的披露。邦迪承認「有紅字錯誤」在釋放文件中，但表示自從這個過程開始，司法部就致力於追究責任和透明度。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8431ee18",
+        "title": "特朗普回擊「不愛國」的投票結果　美國眾議院對他與伊朗的軍事行動表示不滿",
+        "url": "https://www.bbc.com/news/articles/cn0pl0wvvz0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 14:46:36 GMT",
+        "summary_zh": "美國眾議院通過了一項決議，要求暫停對伊朗的軍事行動。這項決議被視為是一項象徵性的投票，顯示了對特朗普政府的不滿。特朗普政府被指責對伊朗採取過激的軍事行動，引起了國內外的批評。這項決議的通過表明，美國國會對政府的軍事政策有所擔憂。然而，這項決議並不具法律約束力，政府仍可繼續採取軍事行動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "15c6f31f",
@@ -101,6 +125,18 @@
         "category": "whitehouse",
         "published_at": "Fri, 05 Jun 2026 11:00:34 GMT",
         "summary_zh": "芝加哥藝術學院的一名教授因為在課堂上提及對巴勒斯坦人的暴力事件而被停職並調查。該教授是一名藝術治療和輔導課程的教員，負責指導一門關於治療文化的課程。該課程要求學生為一名虛構的同性戀穆斯林女性在美國生活的案例開發一個倫理的治療計畫。然而，一名學生對於這個案例感到不滿，並向學校投訴。學校隨後決定停職該教授並展開調查。這一事件引起了關注和爭議，許多人認為這是一種言論自由的侵犯。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "57b9a3ac",
+        "title": "「鱷魚阿拉卡特拉茲」拘留者指守衛拒絕提供食物和乾淨水，直到他們簽署英文文件",
+        "url": "https://www.theguardian.com/us-news/2026/jun/05/alligator-alcatraz-detainees-denied-food-water",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 05 Jun 2026 11:00:33 GMT",
+        "summary_zh": "佛羅里達州的「鱷魚阿拉卡特拉茲」不良名譽的移民拘留所內，拘留者指控守衛拒絕提供食物和乾淨水，直到他們簽署不理解的英文文件。據《衛報》報導，一名拘留者在與移民倡導組織的電話通話中表示，近三天來提供的水都有蟲卵，味道惡劣。這些拘留者認為，這是守衛試圖逼迫他們簽署文件的方法。這種行為引起了對移民拘留所管理的關注，是否存在著人權侵犯的問題。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
@@ -114,8 +150,8 @@
         "published_at": "Fri, 05 Jun 2026 11:00:33 GMT",
         "summary_zh": "紐約市的新消費者和勞工保護局局長扎爾蘭·曼達尼，正在展開一場「積極」的戰役，打擊垃圾費和欺詐行為。曼達尼的消費者監察局長薩姆·李文表示，他希望紐約市民能夠更多地向他們投訴。李文表示，目前每年只有約30,000個投訴，他希望能夠增加這個數字。李文在曼哈頓下城重新啟動了他在華盛頓DC時期的戰役，該戰役旨在打擊酒店的隱藏費用和詐騙訂閱。自從今年一月以來，他的辦公室已經對自助儲存公司提起訴訟，並從Uber Eats和Amazon獲得了數百萬美元的勝訴。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "56984afc",
@@ -137,18 +173,6 @@
         "category": "whitehouse",
         "published_at": "Fri, 05 Jun 2026 01:42:10 GMT",
         "summary_zh": "洛杉磯區域體育場的工人將在世界盃即將開始前一周投票決定是否罷工。工人們表示，應該獲得更多從即將來臨的超級盛事（如世界盃、超級碗和奧運會）中獲得的風險分紅，並要求保護免受ICE的拘留和侵入性數據收集。體育場營運商Legends Global與工會Unite Here Local 11的談判陷入僵局，工人們認為應該獲得更多的分紅。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8c50b8a9",
-        "title": "梅因州參議院候選人格雷厄姆·普拉特納否認新指控",
-        "url": "https://www.theguardian.com/us-news/2026/jun/04/graham-platner-maine-new-york-times-report",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 05 Jun 2026 01:40:43 GMT",
-        "summary_zh": "梅因州民主黨參議院候選人格雷厄姆·普拉特納拒絕了對他的新指控，堅稱對女性的行為指控是「政治動機」。根據紐約時報的報導，普拉特納被指控有不恰當的行為、身體攻擊和對性侵犯的令人不安的評論。這些指控來自共和黨工作者的採訪。普拉特納堅持這些指控是政治動機，並表示自己是個進步主義者，正在競選梅因州參議院席位。這項指控對他的競選活動產生了重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -178,30 +202,6 @@
         "ai_classified": true
       },
       {
-        "id": "7a668ef6",
-        "title": "美國250：總統對中途島戰役紀念日的致辭",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/america-250-presidential-message-on-the-anniversary-of-the-battle-of-midway/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 17:25:26 +0000",
-        "summary_zh": "美國今天紀念中途島戰役，這場空中和海上戰役讓日本帝國失去太平洋海軍優勢，為美國在第二次世界大戰中最終取得勝利打下基礎。在珍珠港事件發生後數月，日本帝國在太平洋地區展開了進攻。然而，中途島戰役的勝利卻讓日本帝國的進攻計畫被打斷。這場戰役標誌著美國在太平洋地區的軍事力量開始增強。美國總統在紀念日致辭中讚揚了中途島戰役的勝利，並表達了對美國軍人和民眾的感謝。這場戰役的勝利對美國在第二次世界大戰中的勝利產生了重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0b1b7fb4",
-        "title": "國會議員對特朗普任命普爾特為國家情報局代理局長表示強力支持",
-        "url": "https://www.whitehouse.gov/releases/2026/06/strong-support-for-president-trumps-appointment-of-william-j-pulte-as-acting-director-of-national-intelligence/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 13:36:09 +0000",
-        "summary_zh": "美國總統特朗普任命威廉·J·普爾特（William J. Pulte）擔任國家情報局代理局長，獲得國會議員的高度讚賞。普爾特是一位經驗豐富的改革者，擁有深厚的經驗在保護敏感信息和改革龐大的政府機構。他帶來了果斷的領導、堅定的正直和堅定的「美國優先」承諾，為情報界帶來新的希望。這項任命受到國會議員的普遍支持，表明普爾特的領導能力和正直性格得到認可。這項任命對於美國情報界的未來發展具有重要影響，將對國家安全和情報工作產生重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "7064af3e",
         "title": "川普白宮大廳計畫規模和預算雙倍增長一年內",
         "url": "https://www.bbc.com/news/articles/cnvpvd52j95o?at_medium=RSS&at_campaign=rss",
@@ -209,30 +209,6 @@
         "category": "whitehouse",
         "published_at": "Thu, 04 Jun 2026 23:53:19 GMT",
         "summary_zh": "在去年，川普政府宣布對白宮大廳進行重大改建，該計畫預算為 13.6 億美元。然而，在一年後，該計畫的規模和預算都已經雙倍增長。根據BBC Verify的調查，白宮大廳的改建計畫將成為白宮歷史上最大的改建項目。該計畫的規模從最初的 1,300 平方米擴大到 2,700 平方米，預算也從 13.6 億美元增長到 27.2 億美元。改建計畫將包括新建一座 5,000 平方米的球場，還將增加 1,000 平方米的辦公空間。這項改建計畫的目的在於為白宮的活動和接待提供更大的空間。然而，這項計畫的成本和規模的增長引起了關注。許多人批評該計畫的成本過高，同時也對白宮的歷史建築進行了不必要的改建。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8d5bb9cb",
-        "title": "美國演員詹姆斯·漢迪遇刺身亡，女友兒子被捕",
-        "url": "https://www.bbc.com/news/articles/czd2dj24jgdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Fri, 05 Jun 2026 09:40:06 GMT",
-        "summary_zh": "美國演員詹姆斯·漢迪在81歲高齡時遇刺身亡。根據消息，他曾在多部電影中出演，包括《魔域傳說》和《海鷹救地球：重返戰場》。漢迪的遇刺事件引起了廣泛關注，警方已經逮捕了漢迪的女友的兒子。這起事件的詳細情況尚未公布，但已經引起了許多人的關注和懷疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8431ee18",
-        "title": "特朗普回擊「不愛國」的投票結果　美國眾議院對他與伊朗的軍事行動表示不滿",
-        "url": "https://www.bbc.com/news/articles/cn0pl0wvvz0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 04 Jun 2026 14:46:36 GMT",
-        "summary_zh": "美國眾議院通過了一項決議，要求暫停對伊朗的軍事行動。這項決議被視為是一項象徵性的投票，顯示了對特朗普政府的不滿。特朗普政府被指責對伊朗採取過激的軍事行動，引起了國內外的批評。這項決議的通過表明，美國國會對政府的軍事政策有所擔憂。然而，這項決議並不具法律約束力，政府仍可繼續採取軍事行動。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -272,9 +248,69 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "7a668ef6",
+        "title": "美國250：總統對中途島戰役紀念日的致辭",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/america-250-presidential-message-on-the-anniversary-of-the-battle-of-midway/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 17:25:26 +0000",
+        "summary_zh": "美國今天紀念中途島戰役，這場空中和海上戰役讓日本帝國失去太平洋海軍優勢，為美國在第二次世界大戰中最終取得勝利打下基礎。在珍珠港事件發生後數月，日本帝國在太平洋地區展開了進攻。然而，中途島戰役的勝利卻讓日本帝國的進攻計畫被打斷。這場戰役標誌著美國在太平洋地區的軍事力量開始增強。美國總統在紀念日致辭中讚揚了中途島戰役的勝利，並表達了對美國軍人和民眾的感謝。這場戰役的勝利對美國在第二次世界大戰中的勝利產生了重大影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0b1b7fb4",
+        "title": "國會議員對特朗普任命普爾特為國家情報局代理局長表示強力支持",
+        "url": "https://www.whitehouse.gov/releases/2026/06/strong-support-for-president-trumps-appointment-of-william-j-pulte-as-acting-director-of-national-intelligence/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 04 Jun 2026 13:36:09 +0000",
+        "summary_zh": "美國總統特朗普任命威廉·J·普爾特（William J. Pulte）擔任國家情報局代理局長，獲得國會議員的高度讚賞。普爾特是一位經驗豐富的改革者，擁有深厚的經驗在保護敏感信息和改革龐大的政府機構。他帶來了果斷的領導、堅定的正直和堅定的「美國優先」承諾，為情報界帶來新的希望。這項任命受到國會議員的普遍支持，表明普爾特的領導能力和正直性格得到認可。這項任命對於美國情報界的未來發展具有重要影響，將對國家安全和情報工作產生重大影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "global": [
+      {
+        "id": "71d45c64",
+        "title": "美國記者承認為中國代理人工作",
+        "url": "https://www.bbc.com/news/articles/crmpmxg1ym4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 05 Jun 2026 11:20:30 GMT",
+        "summary_zh": "美國記者托馬斯·韋爾·保肯二世（Thomas Weir Pauken II）承認多年來與中國政府僱員合作。根據調查，保肯二世在美國工作期間，與中國政府僱員有密切聯繫，甚至在某些情況下與他們合作。這一發現引發了對美國記者在中國工作時的安全和隱私問題的擔憂。美國政府正在調查此事件，並正在評估對保肯二世的處理。這一事件也引發了對中國政府在美國的活動和影響力的擔憂。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "2993773b",
+        "title": "加州水源中「永恆化學品」超過半數水道受污染",
+        "url": "https://www.theguardian.com/us-news/2026/jun/05/california-pfas-water",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Fri, 05 Jun 2026 12:00:34 GMT",
+        "summary_zh": "加州監管機構檢測的水道中超過半數受到「永恆化學品」的污染，這些化學品與多種健康問題有關，包括癌症。這項分析是首次系統檢測加州水道中這些有害物質的存在，包括飲用水來源。這項研究結果顯示，加州的水源受到「永恆化學品」的污染，引發對這些物質廣泛使用的風險。這些化學品已被證實與多種健康問題有關，包括癌症，對人類健康構成重大威脅。加州政府應該採取措施來減少這些化學品的使用和污染，保護水源和人類健康。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "6f997c53",
+        "title": "美國計劃用蠅子和狗來對抗食肉蠅爆發",
+        "url": "https://www.bbc.com/news/articles/c7v9vz1gd76o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 05 Jun 2026 00:56:42 GMT",
+        "summary_zh": "美國南部地區出現食肉蠅爆發，該蠅種自1966年來首次出現在美國。美國政府正計劃採取措施來控制這種威脅，包括使用蠅子和狗來捕捉和消滅食肉蠅。食肉蠅是一種寄生蟲，會在動物的傷口或死體上生存並繁殖，對農業和動物健康造成重大威脅。美國政府正在與農業部門和動物控制專家合作，制定計畫來控制食肉蠅的爆發。這種措施將對美國南部地區的農業和動物健康產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "0675d8e2",
         "title": "非洲家庭價值憲章遭人權團體譴責為落後且有害",
@@ -283,18 +319,6 @@
         "category": "global",
         "published_at": "Fri, 05 Jun 2026 08:00:29 GMT",
         "summary_zh": "非洲各國政府近日在加納舉行會議，推動一份名為《非洲家庭、主權和價值憲章》的草案。該憲章認為，非洲的價值觀和文化正受到「外來的理念」威脅，敦促各國政府退出不符合憲章原則的協議，包括2003年的《馬普托議定書》，後者促進性別平等和保護女性和女孩的生殖健康權。人權團體批評這份憲章是落後且有害的，認為它會損害婦女和女孩的權利。這份憲章的通過將對非洲婦女和女孩的福祉產生重大影響，引發了人權團體的關注和批評。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "62a026c3",
-        "title": "美國專家批評肯尼亞建設美國人專用埃博拉隔離中心計畫",
-        "url": "https://www.theguardian.com/world/2026/jun/04/experts-criticise-plan-for-american-only-ebola-quarantine-centre-in-kenya",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 04 Jun 2026 12:30:06 GMT",
-        "summary_zh": "美國政府計劃在肯尼亞建設埃博拉隔離中心，專門為美國人提供隔離和治療服務。然而，這一計畫卻遭到前美國高官和其他專家們的批評。美國疾病控制與預防中心（CDC）工會要求美國政府將受到埃博拉感染的美國人帶回美國進行治療。肯尼亞法院已經阻止了這一計畫，但美國和肯尼亞政府仍然決定推進這一計畫。目前，美國響應者已經抵達肯尼亞的拉基帕亞空軍基地。這一計畫的批評者認為，這違反了美國政府之前的政策，即將CDC工作人員帶回美國進行治療並提供所有健康工作者的支持。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -321,6 +345,78 @@
         "summary_zh": "加拿大海洋公園馬林蘭德 (Marineland) 曾經威脅於 2025 年將 30 頭白鯨殺死，目前該公園與加拿大漁業部已達成協議，將所有白鯨轉移到西班牙或美國的海洋保護區，結束加拿大白鯨的囚禁。這項協議結束了公眾關注和動物權益團體抗議的故事。根據協議，白鯨將被轉移到西班牙或美國的四個地點，結束加拿大白鯨的囚禁。這項決定受到動物權益團體的歡迎，但也有部分人對此表示擔憂。",
         "sentiment": "正面",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d40a9a7f",
+        "title": "珠峰登山者憶述失去指導員的那一刻：指導員獨自生存六天",
+        "url": "https://www.bbc.com/news/articles/cn9p91295q8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 05 Jun 2026 02:05:41 GMT",
+        "summary_zh": "珠峰登山者克里斯·思拉爾（Chris Thrall）憶述他最後一次見到達瓦·謝帕（Dawa Sherpa）的那一刻。達瓦·謝帕在登山時失去意識，後來被清潔工人員發現，證實他仍然存活。達瓦·謝帕在珠峰上獨自生存六天，直到被發現。克里斯·思拉爾憶述了他失去達瓦·謝帕的那一刻，感謝幸運的機會讓他能夠活下來。達瓦·謝帕的生存故事引起了全球的關注，許多人對他的勇氣和堅韌感到驚嘆。這個事件也提醒了我們登山的風險和挑戰，需要高度的專業知識和安全措施來確保登山者的安全。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f53c11ce",
+        "title": "習近平將訪問朝鮮 金正恩將與他會面",
+        "url": "https://www.bbc.com/news/articles/clypym3q7p1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 05 Jun 2026 05:17:13 GMT",
+        "summary_zh": "習近平將在6月8日至9日訪問朝鮮，這是朝鮮政權近年來罕見的外訪。習近平的訪問將是中國與朝鮮關係的重要里程碑，展現了兩國在政治和經濟上的合作。然而，這次訪問也引發了外界對朝鮮核問題的擔憂。朝鮮核問題一直是中美關係的敏感話題，習近平的訪問將會對此問題產生重大影響。外界關注習近平與金正恩會面的內容和結果，是否能夠促進朝鮮的核裁軍和對話。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c3f295b5",
+        "title": "紅樹林正在康復：人類多年來的破壞終於有了轉機",
+        "url": "https://www.bbc.com/news/articles/cn4pk07npvvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 04 Jun 2026 23:11:15 GMT",
+        "summary_zh": "近年來，紅樹林在全球各地都出現了令人驚訝的康復現象。這種變化對沿海社區和氣候都有著積極的影響。紅樹林是海岸防波堤的天然屏障，能夠抵禦海嘯和減少海岸侵蝕。同時，它們還能夠捕捉碳 dioxide，幫助減緩氣候變化。紅樹林的康復是由於人們開始重視保護環境和恢復自然生態系統。許多組織和政府正在努力恢復和保護這些重要的生態系統。這種努力不僅有助於紅樹林的康復，也有助於改善沿海社區的生活質量和減少氣候風險。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1b6238ee",
+        "title": "熊在福島工廠打破窗戶逃跑，日本警方表示",
+        "url": "https://www.bbc.com/news/articles/cvgzgq2rzqro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 05 Jun 2026 03:19:44 GMT",
+        "summary_zh": "一頭熊在日本福島北東部工業區攻擊四名工人後，決定打破工廠窗戶逃跑。這次事件發生在日本福島工業區，警方正在調查熊的行為。熊的逃跑方式引起了許多人的關注，許多人對於熊的行為感到驚訝。這次事件也讓人們思考，熊在工業區的出現是否是一個需要關注的問題。日本政府正在研究如何防止熊進入工業區，同時也要保護熊的生存環境。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "23ddc054",
+        "title": "中國嚴打微劇集：打擊色情、暴力和物質主義",
+        "url": "https://www.bbc.com/news/articles/clypy34pj6yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 05 Jun 2026 05:16:54 GMT",
+        "summary_zh": "近年來，微劇集在中國網路平台上大受歡迎，但卻引起了對其內容的批評。許多人認為微劇集的內容過於炫目，甚至包含色情、暴力和物質主義等不良元素。中國政府已經開始對這些微劇集進行嚴格監管，打擊色情、暴力和物質主義等不良內容。這一舉動引起了網路上廣泛的討論和反應。許多人認為這是中國政府對網路內容的監管越來越嚴格的體現。同時，也有許多人認為這一措施將會對中國的創意產業產生負面影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "881c9e51",
+        "title": "澳大利亞查緝 200,000 美元價值非法昆蟲，包括巨型嗜水蟎",
+        "url": "https://www.bbc.com/news/articles/cjwpwv18910o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 05 Jun 2026 01:26:28 GMT",
+        "summary_zh": "澳大利亞當局表示，這些蟎子有可能被用作飼養爬行動物的食物。其中一些蟎子甚至有手掌大小。這些非法昆蟲的價值達到 200,000 美元。這些蟎子被認為是危險的物種，可能會對環境和人類健康造成威脅。這起事件顯示，非法昆蟲交易仍然存在，需要加強監管和防範。這將對昆蟲交易業界和環境保護工作帶來重要影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -360,42 +456,6 @@
         "ai_classified": true
       },
       {
-        "id": "c3f295b5",
-        "title": "紅樹林正在康復：人類多年來的破壞終於有了轉機",
-        "url": "https://www.bbc.com/news/articles/cn4pk07npvvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 04 Jun 2026 23:11:15 GMT",
-        "summary_zh": "近年來，紅樹林在全球各地都出現了令人驚訝的康復現象。這種變化對沿海社區和氣候都有著積極的影響。紅樹林是海岸防波堤的天然屏障，能夠抵禦海嘯和減少海岸侵蝕。同時，它們還能夠捕捉碳 dioxide，幫助減緩氣候變化。紅樹林的康復是由於人們開始重視保護環境和恢復自然生態系統。許多組織和政府正在努力恢復和保護這些重要的生態系統。這種努力不僅有助於紅樹林的康復，也有助於改善沿海社區的生活質量和減少氣候風險。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "23ddc054",
-        "title": "中國嚴打微劇集：打擊色情、暴力和物質主義",
-        "url": "https://www.bbc.com/news/articles/clypy34pj6yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Fri, 05 Jun 2026 05:16:54 GMT",
-        "summary_zh": "近年來，微劇集在中國網路平台上大受歡迎，但卻引起了對其內容的批評。許多人認為微劇集的內容過於炫目，甚至包含色情、暴力和物質主義等不良元素。中國政府已經開始對這些微劇集進行嚴格監管，打擊色情、暴力和物質主義等不良內容。這一舉動引起了網路上廣泛的討論和反應。許多人認為這是中國政府對網路內容的監管越來越嚴格的體現。同時，也有許多人認為這一措施將會對中國的創意產業產生負面影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f53c11ce",
-        "title": "習近平將訪問朝鮮 金正恩將與他會面",
-        "url": "https://www.bbc.com/news/articles/clypym3q7p1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Fri, 05 Jun 2026 05:17:13 GMT",
-        "summary_zh": "習近平將在6月8日至9日訪問朝鮮，這是朝鮮政權近年來罕見的外訪。習近平的訪問將是中國與朝鮮關係的重要里程碑，展現了兩國在政治和經濟上的合作。然而，這次訪問也引發了外界對朝鮮核問題的擔憂。朝鮮核問題一直是中美關係的敏感話題，習近平的訪問將會對此問題產生重大影響。外界關注習近平與金正恩會面的內容和結果，是否能夠促進朝鮮的核裁軍和對話。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "26abfab7",
         "title": "荷蘭警方調查疑似強姦案件",
         "url": "https://www.bbc.com/news/articles/cp8p8e1gnx7o?at_medium=RSS&at_campaign=rss",
@@ -403,54 +463,6 @@
         "category": "global",
         "published_at": "Thu, 04 Jun 2026 17:48:36 GMT",
         "summary_zh": "荷蘭警方正在調查一宗疑似強姦案件，涉及多名女性。根據德國和英國當局的線報，警方已經搜查了疑犯的住所。這宗案件的背景是，多名女性在荷蘭的夜店和酒吧中被強姦。警方正在調查是否有任何人涉嫌使用藥物來強姦女性。這宗案件的影響很大，因為它使得荷蘭的夜生活和酒吧業受到質疑。荷蘭政府正在關注這宗案件，並且正在與德國和英國當局合作來調查這宗案件。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6f997c53",
-        "title": "美國計劃用蠅子和狗來對抗食肉蠅爆發",
-        "url": "https://www.bbc.com/news/articles/c7v9vz1gd76o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Fri, 05 Jun 2026 00:56:42 GMT",
-        "summary_zh": "美國南部地區出現食肉蠅爆發，該蠅種自1966年來首次出現在美國。美國政府正計劃採取措施來控制這種威脅，包括使用蠅子和狗來捕捉和消滅食肉蠅。食肉蠅是一種寄生蟲，會在動物的傷口或死體上生存並繁殖，對農業和動物健康造成重大威脅。美國政府正在與農業部門和動物控制專家合作，制定計畫來控制食肉蠅的爆發。這種措施將對美國南部地區的農業和動物健康產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d40a9a7f",
-        "title": "珠峰登山者憶述失去指導員的那一刻：指導員獨自生存六天",
-        "url": "https://www.bbc.com/news/articles/cn9p91295q8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Fri, 05 Jun 2026 02:05:41 GMT",
-        "summary_zh": "珠峰登山者克里斯·思拉爾（Chris Thrall）憶述他最後一次見到達瓦·謝帕（Dawa Sherpa）的那一刻。達瓦·謝帕在登山時失去意識，後來被清潔工人員發現，證實他仍然存活。達瓦·謝帕在珠峰上獨自生存六天，直到被發現。克里斯·思拉爾憶述了他失去達瓦·謝帕的那一刻，感謝幸運的機會讓他能夠活下來。達瓦·謝帕的生存故事引起了全球的關注，許多人對他的勇氣和堅韌感到驚嘆。這個事件也提醒了我們登山的風險和挑戰，需要高度的專業知識和安全措施來確保登山者的安全。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1b6238ee",
-        "title": "熊在福島工廠打破窗戶逃跑，日本警方表示",
-        "url": "https://www.bbc.com/news/articles/cvgzgq2rzqro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Fri, 05 Jun 2026 03:19:44 GMT",
-        "summary_zh": "一頭熊在日本福島北東部工業區攻擊四名工人後，決定打破工廠窗戶逃跑。這次事件發生在日本福島工業區，警方正在調查熊的行為。熊的逃跑方式引起了許多人的關注，許多人對於熊的行為感到驚訝。這次事件也讓人們思考，熊在工業區的出現是否是一個需要關注的問題。日本政府正在研究如何防止熊進入工業區，同時也要保護熊的生存環境。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "881c9e51",
-        "title": "澳大利亞查緝 200,000 美元價值非法昆蟲，包括巨型嗜水蟎",
-        "url": "https://www.bbc.com/news/articles/cjwpwv18910o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Fri, 05 Jun 2026 01:26:28 GMT",
-        "summary_zh": "澳大利亞當局表示，這些蟎子有可能被用作飼養爬行動物的食物。其中一些蟎子甚至有手掌大小。這些非法昆蟲的價值達到 200,000 美元。這些蟎子被認為是危險的物種，可能會對環境和人類健康造成威脅。這起事件顯示，非法昆蟲交易仍然存在，需要加強監管和防範。這將對昆蟲交易業界和環境保護工作帶來重要影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -494,54 +506,6 @@
         "ai_classified": true
       },
       {
-        "id": "0a8b1f5a",
-        "title": "讓我們過濾 AI 垃圾，你們這群膽小鬼!",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/942909/let-us-filter-ai-slop-google-youtube-meta-instagram-tiktok",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-06-04T08:30:00-04:00",
-        "summary_zh": "近年來，網路上 AI 生成的內容越來越難以避免。但是，這並不需要如此。YouTube、Instagram、TikTok 等平台近年來都在加強內容驗證工作，許多平台現在都會自動將 AI 生成的圖片、視頻和音樂標記為與真實人類創作者所產生的內容區分開來。這些努力正在逐步改善網路環境，使用戶能夠更容易識別真實內容。然而，這仍然是一個複雜的問題，需要持續努力來確保網路上的內容真實性。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d521073a",
-        "title": "AI 領袖呼籲加強對 AI 幫助生物武器的保護",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/942956/ai-biological-weapons-open-letter-congress",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-06-04T08:12:12-04:00",
-        "summary_zh": "近日，AI 行業的頂尖領袖們出面呼籲美國國會立法，關閉他們認為的生物安全漏洞。這些領袖們原本是競爭對手，但在面對共同的威脅時，暫時擱置了競爭意識。根據他們的說法，現有的規範不足以阻止人們利用 AI 技術發展生物武器。這些領袖們認為，需要立法來加強生物安全措施，防止 AI 技術被用於惡意目的。這項呼籲表明，AI 行業的領袖們已經開始關注生物安全問題，並致力於防止 AI 技術被用於危害人類的目的。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6f619634",
-        "title": "下載：AI 生成的訴訟和數據中心的虛擬發電廠",
-        "url": "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 04 Jun 2026 12:10:00 +0000",
-        "summary_zh": "在科技界的每日新聞，今天的《下載》將為您帶來全球科技的最新動態。法庭如何應對AI 生成的訴訟的潮流？美國科羅拉多州聯邦法官馬里察·布拉斯韋爾（Maritza Braswell）在她的法庭中，大多數日子都在瀏覽由AI 生成的文件。這些文件通常是訴訟文書，包含訴訟的各個方面。然而，法官布拉斯韋爾表示，AI 生成的文件並不完全準確，甚至可能導致誤判。另一方面，數據中心的虛擬發電廠正在成為新的趨勢。這些虛擬發電廠能夠為數據中心提供穩定的電力，同時減少碳排放。這項技術的發展將如何改善數據中心的能源效率？這些虛擬發電廠的運行成本將如何影響企業的財務？這些問題的答案將在未來的發展中逐步揭露。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e290c16a",
-        "title": "人工智慧公司 IPO 熱潮升溫，DOGE 爭議人士起訴埃隆·馬斯克，Instagram 遭黑客攻擊",
-        "url": "https://www.wired.com/story/uncanny-valley-podcast-ai-ipo-race-elon-musk-doge-whistleblower-instagram-hacking-incident/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 04 Jun 2026 18:44:49 +0000",
-        "summary_zh": "人工智慧領域的 IPO 熱潮正在升溫，許多頂尖AI公司正在進行上市，甚至一些房地產廣告也開始要求購買者提供人工智慧公司股票作為付款。這種情況表明，投資人對人工智慧領域的投資熱情正在增強。另一方面，狗狗幣（DOGE）的爭議人士起訴埃隆·馬斯克，指控他在狗狗幣的推文中散布謠言。另外，Instagram 遭黑客攻擊，導致大量用戶帳戶被盜用。這些事件都表明了人工智慧、社交媒體和投資市場的複雜性和風險。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "e0c78e97",
         "title": "五大關鍵點：加拿大新的人工智慧戰略",
         "url": "https://www.bbc.com/news/articles/c4g7gv8l0xlo?at_medium=RSS&at_campaign=rss",
@@ -564,9 +528,105 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "e290c16a",
+        "title": "人工智慧公司 IPO 熱潮升溫，DOGE 爭議人士起訴埃隆·馬斯克，Instagram 遭黑客攻擊",
+        "url": "https://www.wired.com/story/uncanny-valley-podcast-ai-ipo-race-elon-musk-doge-whistleblower-instagram-hacking-incident/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Thu, 04 Jun 2026 18:44:49 +0000",
+        "summary_zh": "人工智慧領域的 IPO 熱潮正在升溫，許多頂尖AI公司正在進行上市，甚至一些房地產廣告也開始要求購買者提供人工智慧公司股票作為付款。這種情況表明，投資人對人工智慧領域的投資熱情正在增強。另一方面，狗狗幣（DOGE）的爭議人士起訴埃隆·馬斯克，指控他在狗狗幣的推文中散布謠言。另外，Instagram 遭黑客攻擊，導致大量用戶帳戶被盜用。這些事件都表明了人工智慧、社交媒體和投資市場的複雜性和風險。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "2c3fa321",
+        "title": "經部：南部半導體崛起 資訊電子就業占製造業近3成",
+        "url": "https://www.cna.com.tw/news/afe/202606050301.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 05 Jun 2026 19:10:18 +0800",
+        "summary_zh": "經濟部最新統計顯示，台灣資訊電子產業已經成為製造業的主力。2024年電子零組件業及電腦電子產品與光學製品業的從業人數合計達85萬人，占整體製造業近3成。這意味著製造業中的每3至4人中，就有1人服務於資訊電子相關領域。這一趨勢表明，南部半導體產業的崛起對台灣經濟產生了重大影響。南部地區的企業正在積極投資半導體產業，帶動了當地的就業市場和經濟增長。這一趨勢不僅對台灣經濟有利，也對全球半導體產業的競爭格局產生了重大影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "4d7938b8",
+        "title": "台股熱絡 外資前5月淨匯入651億美元創同期最大",
+        "url": "https://www.cna.com.tw/news/afe/202606050292.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 05 Jun 2026 18:51:58 +0800",
+        "summary_zh": "台股近期表現熱絡，5月更是大幅上漲5806.31點。根據金管會的統計，5月外資淨匯入達208.77億美元，創下歷年同期的新高。今年前5個月的外資淨匯入累計達651.49億美元，也創下史上同期的新高紀錄。這表明外資對台股的信心正在增強，對台股的投資也越來越多。這種趨勢可能會對台股的未來走勢產生積極的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b91c938b",
+        "title": "豪雨來襲落集水區 水利署估全台水庫進帳5400萬噸",
+        "url": "https://www.cna.com.tw/news/afe/202606050288.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 05 Jun 2026 18:32:49 +0800",
+        "summary_zh": "全台多個縣市遭遇豪大雨，水利署表示，本次降雨主要落在水庫集水區。根據統計，自4日上午7時至5日下午3時期間，全台水庫預計可進帳5400萬噸。南部水庫的蓄水量也開始回升，曾文及烏山頭水庫的水量增加約100萬噸，南化水庫的水量增加約60萬噸。這意味著水庫的水位將會有所上升，對於台湾的水資源管理將會有所幫助。水利署的估計表明，豪雨對台湾的水庫有著積極的影響，將會對水資源管理產生正面的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "936595ba",
+        "title": "外匯存底增 外資持有國內資產創新高逼近1.9兆美元",
+        "url": "https://www.cna.com.tw/news/afe/202606050286.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 05 Jun 2026 18:29:45 +0800",
+        "summary_zh": "中央銀行公布5月底外匯存底金額為6050.74億美元，連續兩個月升高，穩居全球第四。值得注意的是，由於台股持續攻高，外資持有國內資產的規模已經逼近1.9兆美元，約當外匯存底占比超過300%，創下歷史新高。這意味著外資對台股的投資力度正在增加，對台股市場的影響可能會更加顯著。這項數據也表明台股的投資吸引力正在增強，外資投資者正在將更多資金投入台股市場。然而，外匯存底的增長也可能對台幣匯率產生影響，可能會導致台幣升值。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "fa001d01",
+        "title": "熱錢出走 新台幣盤中貶破31.5元關卡收31.475元",
+        "url": "https://www.cna.com.tw/news/afe/202606050285.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 05 Jun 2026 18:28:43 +0800",
+        "summary_zh": "台股創高後獲利了結賣壓湧現，連2日收黑，隨著外資啟動獲利了結並匯出，新台幣匯價延續貶勢。今天盤中貶破31.5元關卡，收盤收在31.475元，小貶1.5分。台北及元太外匯市場總成交金額為27.56億美元。這表明外資正在從台股中獲利了結並將資金匯出，導致新台幣匯價貶值。這種情況可能會對台股和新台幣匯價產生持續影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "32c9abc6",
+        "title": "投資人擔憂AI投資過熱 中東和平無進展 亞股大多收低",
+        "url": "https://www.cna.com.tw/news/afe/202606050281.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 05 Jun 2026 18:22:34 +0800",
+        "summary_zh": "近日，美國晶片大廠博通發布的財測令人失望，投資人對人工智慧（AI）題材的投資開始擔憂。同時，中東和平進展一波三折，投資人對未來的前景感到不確定。亞洲股市今天收盤大多下跌，投資人在市場波動中謹慎觀望。中東和平進展的停滯，可能會對全球經濟產生影響，而投資人對AI的投資過熱，也可能會導致市場泡沫。投資人需要在這種不確定的市場環境中謹慎投資，避免過度投資於任何一項題材。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "7025b922",
+        "title": "中東戰火衝擊加劇 台灣5月CPI年增率擴大至2.2%",
+        "url": "https://www.cna.com.tw/news/afe/202606050216.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 05 Jun 2026 16:29:13 +0800",
+        "summary_zh": "中東戰火的爆發，對全球能源供應造成重大影響，國際油價因此而上升。這也使得台灣的物價走勢受到影響。根據主計總處的最新數據，5月的消費者物價指數（CPI）年增率為2.2%，較4月的1.74%有所擴大，並突破了2%的通膨警戒線。其中，油料費的增加尤為明顯，大幅上升20.09%。這意味著台灣的物價將可能繼續上漲，對人民生活造成一定的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "a5968c34",
         "title": "AI晶片教父黃仁勳訪台14天亮點",
@@ -576,8 +636,8 @@
         "published_at": "Fri, 05 Jun 2026 19:20:07 +0800",
         "summary_zh": "黃仁勳訪台14天，宣布輝達海外總部「星群」落腳北士科，定義台灣是「AI革命的震央」。他在COMPUTEX演講、兆元宴及供應鏈高層會談，掀起全球關注。他描繪AI晶片的未來，強調台灣在全球晶片產業中的重要地位。黃仁勳的訪台行程，展現了台灣在AI領域的發展潛力，並吸引了全球關注。這次訪台的亮點，將對台灣的AI產業產生深遠影響。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "3f590470",
@@ -588,8 +648,8 @@
         "published_at": "Fri, 05 Jun 2026 18:44:47 +0800",
         "summary_zh": "台股5月單月成交金額高達25兆元以上，創下單月紀錄，顯示市場熱度居高不下。5月單月有交易戶數高達648.8萬戶，同步創下新高。證交所公布的統計數據也顯示，5月成交量週轉率超過2成，表明市場活躍度高。這些數據都指向台股市場的熱度和活躍度。然而，市場的波動和風險仍然存在，投資者需要保持謹慎和耐心。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "205def77",
@@ -600,8 +660,8 @@
         "published_at": "Fri, 05 Jun 2026 18:43:53 +0800",
         "summary_zh": "國票金在5月自結稅後盈餘達6.14億元，累計1至5月稅後盈餘達20.1億元，較去年同期增加16.58億元，年增470.7%。這意味著國票金的獲利在短短五個月內就突破20億元，年增率達470.7%。這種驚人的增長率是由於國票金的業務在今年展現出強勁的成長。國票金的每股稅後盈餘為0.55元，顯示公司的財務狀況良好。這項公告對於國票金的股價可能會有所影響，投資者應該密切關注公司的未來發展。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "2a30c37d",
@@ -612,8 +672,8 @@
         "published_at": "Fri, 05 Jun 2026 18:28:38 +0800",
         "summary_zh": "近年來，許多勞工在到職後被要求簽署約定，若提前離職，需賠償不小的違約金。為了保護勞工的職業選擇自由，勞動部發布通函，強調最低服務年限約定是攸關勞工權益的重要條款。雇主不得以不合理條款限制勞工的離職自由，違約金不可要求全額。這項政策變化將對勞工帶來更大的保護，讓他們能夠更自如地選擇職業和生活。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "a8075b0c",
@@ -624,19 +684,7 @@
         "published_at": "Fri, 05 Jun 2026 18:25:44 +0800",
         "summary_zh": "近期市場高度關注美元下半年走勢及國內輸入性通膨壓力，央行外匯局局長蔡烱民表示，影響美元後市的關鍵仍在於美國貨幣政策與地緣政治風險兩大因素。但是，這兩個因素都存在高度不確定性，坦言「真的不太容易判斷」。美國貨幣政策的變化將對美元有重大影響，而地緣政治風險則可能導致美元贏利。然而，市場對這兩個因素的預期存在分歧，導致美元後市充滿變數。這使得投資者難以做出準確的判斷，央行也面臨著挑戰。總體而言，美元的走勢將受到多種因素的影響，投資者需要保持謹慎和耐心。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "818dff99",
-        "title": "輝達GTC台北重返PC戰場 黃仁勳4大科技密碼一次看",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5462095",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 05 Jun 2026 17:18:35 +0800",
-        "summary_zh": "輝達執行長黃仁勳近日訪台，結束為期14天的行程後轉往韓國訪問。這次訪台是為了參與台北舉辦的GTC盛會，展現柔軟身段與高規格供應鏈互動。黃仁勳在會上分享了四大科技密碼，展現輝達在人工智慧領域的領先地位。這次盛會的舉辦，掀起了全台人工智慧的旋風，展現了台北在科技領域的活躍。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -662,90 +710,78 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "eb798149",
-        "title": "昇達科五月營收月減15％",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5462012",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 05 Jun 2026 16:56:28 +0800",
-        "summary_zh": "昇達科（3491）於5月營收2.96億元，較去月下降15%。公司表示，5月營收較4月降低，主要原因是客戶端因產品改版調整，臨時通知暫停部分產品出貨，影響單月營收表現。這次調整對公司的影響相對有限，但仍可能對未來營收產生一定影響。昇達科將繼續關注客戶端的需求變化，並適時調整產品策略以維持營收穩定。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7025b922",
-        "title": "中東戰火衝擊加劇 台灣5月CPI年增率擴大至2.2%",
-        "url": "https://www.cna.com.tw/news/afe/202606050216.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 05 Jun 2026 16:29:13 +0800",
-        "summary_zh": "中東戰火的爆發，對全球能源供應造成重大影響，國際油價因此而上升。這也使得台灣的物價走勢受到影響。根據主計總處的最新數據，5月的消費者物價指數（CPI）年增率為2.2%，較4月的1.74%有所擴大，並突破了2%的通膨警戒線。其中，油料費的增加尤為明顯，大幅上升20.09%。這意味著台灣的物價將可能繼續上漲，對人民生活造成一定的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "c8673299",
-        "title": "日本實際工資連續增長，4月消費支出減速",
-        "url": "https://www.reuters.com/world/asia-pacific/japans-real-wages-extend-climb-april-bolster-boj-rate-hike-case-2026-06-04/",
+        "id": "05f42f41",
+        "title": "韓國現金流量盈餘持續接近新高，半導體出口繼續強勁",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-05/korea-s-current-account-surplus-stays-near-record-on-chip-boom",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-05 00:56:46",
+        "summary_zh": "韓國的現金流量盈餘在四月份持續接近新高，表明該國半導體驅動的出口繁榮仍在持續。韓國的出口業在半導體領域取得了顯著成就，半導體是該國出口的重要組成部分。這一趨勢在全球半導體短缺的背景下更加明顯。韓國政府和企業正致力於加強半導體產業的競爭力和出口能力。然而，這一趨勢也引發了對韓國出口過度依賴半導體的擔憂。韓國政府正努力通過多元化出口和投資來減少對半導體的依賴。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "518eece4",
+        "title": "美國最高法院支持FCC與無線運營商的罰款糾紛",
+        "url": "https://www.reuters.com/business/media-telecom/us-supreme-court-sides-with-fcc-clash-with-wireless-carriers-over-fines-2026-06-04/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-04 23:59:35",
-        "summary_zh": "日本實際工資連續第五個月增長，4月消費支出增速減慢。根據日本統計局的數據，4月實際工資比前一年同期增長2.5%，連續第五個月增長。然而，消費支出增速從3月的0.9%降至4月的0.2%，表明消費者支出的增長速度減慢。這可能與政府的消費稅改革和疫情對經濟的影響有關。儘管如此，日本經濟仍在穩步恢復，實際工資的增長表明勞動者在受益中。",
+        "published_at": "2026-06-05 00:55:24",
+        "summary_zh": "美國最高法院最近做出裁決，支持美國聯邦通信委員會（FCC）對無線運營商的罰款。這一裁決是FCC與無線運營商之間的一場長期糾紛的最新發展。FCC曾經對無線運營商發出罰款，理由是他們未能在一定時間內向消費者退回未使用的行動電話費用。無線運營商則認為，這些費用是合理的，並不需要退回。美國最高法院的裁決支持FCC的立場，認為無線運營商有義務退回未使用的費用。這一裁決對於無線運營商的營運模式和消費者權益都有重要影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "be4593aa",
-        "title": "美國國會委員會準備立法建立加密貨幣稅制",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-04/key-us-house-committee-preparing-legislation-to-forge-crypto-tax-structure",
-        "source": "Bloomberg",
+        "id": "a8864f46",
+        "title": "日本外匯儲備可能下降 77 億美元，受大規模干預影響",
+        "url": "https://www.reuters.com/world/asia-pacific/japan-may-foreign-reserves-fall-by-77-billion-after-large-interventions-2026-06-05/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-04 23:58:07",
-        "summary_zh": "美國國會委員會正在籌劃立法，旨在為加密貨幣產業建立一個明確的稅制框架。這項立法將為加密貨幣交易和持有者提供一個清晰的稅收規範，幫助政府監控和稅收。委員會認為，加密貨幣產業的快速發展需要一個適應性的稅制框架，以確保稅收合理和公平。這項立法還將幫助防止稅收逃漏和洗錢。美國政府正逐步增加對加密貨幣產業的監管，旨在確保該產業的合法和安全運營。這項立法將是美國政府對加密貨幣產業監管的一個重要步驟。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "3f8a5ed9",
-        "title": "日本外資股市遭干預後損失 7,600 億美元",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-04/japan-s-foreign-securities-fall-76-billion-after-intervention",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-04 23:55:47",
-        "summary_zh": "日本政府近期進行外匯干預，導致外資股市出現大幅下跌。根據最新數據，日本外資股市的市值已經下跌了 7,600 億美元。這一事件引起了市場的關注，許多分析師認為，這是日本政府試圖穩定匯率的一部分。日本政府的干預措施包括購買日元和出售外幣，試圖將日元的匯率降低。這一措施的效果是，外資股市的市值下跌，日本股市的市值上升。許多投資者認為，這一事件將對日本股市產生長期的影響。日本政府的干預措施也引起了國際社會的關注，許多國家的政府和投資者都在關注這一事件的發展。",
+        "published_at": "2026-06-05 00:50:52",
+        "summary_zh": "日本外匯儲備可能因為大規模干預而下降 77 億美元。根據預測，這將是自 1998 年以來最大的單季度下降。日本央行在去年 10 月至今年 3 月期間進行了大規模干預，以穩定日元的匯率。這些干預行動導致日本外匯儲備下降 77 億美元。預測顯示，日本外匯儲備在今年 4 月將達到 1.23 萬億美元，低於去年 4 月的 1.3 萬億美元。這將是自 1998 年以來最大的單季度下降。日本央行的干預行動是為了應對日元的升值，保護出口業者。然而，這些行動也導致日本外匯儲備的下降。預測顯示，日本外匯儲備的下降將對日本的經濟產生一定影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "5a539f22",
-        "title": "日本實際工資四個月連升，支持BOJ加息",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-04/japan-s-real-wages-rise-for-fourth-month-backing-boj-hike",
-        "source": "Bloomberg",
+        "id": "91304615",
+        "title": "SpaceX被拒絕加入美國主要市場指數",
+        "url": "https://www.cnbc.com/2026/06/05/spacex-blocked-from-early-us-benchmark-index-entry-as-sp-reaffirms-existing-rules.html",
+        "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-06-04 23:42:08",
-        "summary_zh": "日本實際工資在4月連續第四個月上升，達到歷史新高。根據日本統計局的數據，4月日本實際工資同比上升2.5%，高於市場預期。這一數據支持日本央行（BOJ）加息的決策。日本央行在今年3月宣布加息，目的是控制通膨。目前日本的通膨率仍然居高不下，達到6.1%。實際工資的上升表明日本的就業市場正在改善，企業有能力支付更高的工資。這一趨勢可能會繼續下去，對日本的經濟有所幫助。然而，日本央行仍然需要密切關注通膨率的變化，以確保不會出現過度通膨。",
-        "sentiment": "正面",
+        "published_at": "2026-06-05 00:39:34",
+        "summary_zh": "美國財經公司S&P Global 表示，將不會改變其主要市場指數的入場標準，對於SpaceX的首次公開發行(IPO)計畫造成打擊。這意味著SpaceX將無法早早加入美國主要市場指數，包括S&P 500等。SpaceX的首次公開發行(IPO)計畫已經引起了廣泛關注，公司創辦人埃隆·穆斯克(Elon Musk)一直在努力爭取加入美國主要市場指數。然而，S&P Global 的決定意味著SpaceX 尚需滿足更嚴格的入場標準，才能加入美國主要市場指數。這一決定對於SpaceX 的 IPO 計畫造成了重大影響，可能會延遲公司的上市時間。",
+        "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "05087bd4",
-        "title": "中國太陽能巨頭轉型為蓄電池業者　面臨面板銷售下滑",
-        "url": "https://www.reuters.com/business/energy/chinas-solar-majors-charge-into-batteries-panel-sales-falter-2026-06-04/",
-        "source": "Reuters",
+        "id": "e50b8ca5",
+        "title": "信函：內幕交易規則並非安全的賭注",
+        "url": "https://www.ft.com/content/e22ea256-33dd-4cdb-8442-58f7c110321d",
+        "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-06-04 23:32:33",
-        "summary_zh": "中國太陽能產業正面臨銷售下滑，許多巨頭企業開始轉型為蓄電池業者。據報導，中國的太陽能公司正在投資大量資金於蓄電池技術研發，以便於未來的市場需求。這一轉變是由於太陽能面板的需求下滑，導致許多企業需要尋找新的收入來源。中國政府也在推動太陽能轉型，希望能夠增加國家的能源安全。然而，這一轉變也會對太陽能面板產業造成一定的影響。太陽能面板的需求下滑可能會導致許多企業裁員和關閉工廠。綜上所述，中國太陽能產業正面臨著重大轉變，企業需要適應新的市場需求和政府政策。",
-        "sentiment": "中性",
+        "published_at": "2026-06-05 00:31:24",
+        "summary_zh": "一封信件批評內幕交易規則存在漏洞，讓投資者難以保護自己免受違規行為的影響。信件的作者指出，現有的規則無法有效防止內幕交易，投資者在市場上仍然面臨著不公平的競爭。這種情況下，投資者難以獲得公平的交易環境。信件的作者呼籲政府和監管機構應該加強對內幕交易的監管，確保投資者在市場上能夠獲得公平的對待。這樣才能夠真正保護投資者的權益。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "2cd5a89d",
+        "title": "來函：歐盟產品責任規則為所有人帶來了確定性",
+        "url": "https://www.ft.com/content/e5121649-8004-4efd-a943-89bbab3fabce",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-06-05 00:31:05",
+        "summary_zh": "歐盟的產品責任規則已經被批准通過，這一規則將為消費者和企業提供更明確的法律框架，確保產品的安全性和可靠性。這一規則將對於消費者和企業都有重大影響，消費者將有更好的保護，企業將有更明確的指南來確保產品的安全性。這一規則的通過將為歐盟的經濟和社會發展提供一個更穩定的基礎。根據預測，這一規則將對於消費者和企業都有長期的正面影響。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
@@ -808,8 +844,8 @@
         "published_at": "2026-06-04 23:48:20",
         "summary_zh": "亞太市場預計周五開盤波動不大，投資人正在評估美股晶片股的轉場。美股晶片股的走勢影響了道瓊工業平均指數的收盤創新高。投資人正在觀察這些變化，準備開盤後的市場反應。這些變化對亞太市場的影響仍不明朗，投資人需要繼續觀察市場動態。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "72f151be",
@@ -820,8 +856,8 @@
         "published_at": "2026-06-04 23:16:10",
         "summary_zh": "華爾街股市近日出現大幅下跌的局面，道瓊指數創下歷史新低。這種情況引起了市場的關注，許多投資者開始擔心股市的未來發展。根據市場分析師的評估，道瓊指數的下跌是由於投資者對經濟前景的悲觀情緒，以及對企業盈利的擔憂所致。這種情況對於投資者來說是一個挑戰，需要他們重新評估投資策略和風險承受能力。市場分析師預測，股市可能會繼續波動，投資者需要保持警醒和耐心。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "672c9127",
