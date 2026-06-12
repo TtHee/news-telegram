@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-12T17:04:11.126147+08:00",
+  "generated_at": "2026-06-12T18:04:14.502722+08:00",
   "risk_signals": [
     "🟢 台股加權 44169.04（正常）",
     "🟢 S&P 500 7394.3（正常）",
-    "🟢 VIX 恐慌指數 18.84（正常）",
+    "🟢 VIX 恐慌指數 18.55（正常）",
     "🟢 MOVE 債市波動 69.45（正常）",
-    "🟢 美元指數 99.72（正常）",
-    "🟡 黃金 4241.1（漲 +3.69%，留意）",
+    "🟢 美元指數 99.68（正常）",
+    "🟡 黃金 4245.3（漲 +3.79%，留意）",
     "🟢 美債10Y殖利率 4.46（正常）",
-    "🟢 原油 WTI 83.9（正常）",
-    "🟢 美元/台幣 31.62（正常）"
+    "🟢 原油 WTI 84.0（正常）",
+    "🟢 美元/台幣 31.61（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，多個指標維持正常水平，金價上漲3.69%引起注意。",
+  "ai_summary": "市場氛圍保持穩定，指標顯示正常走勢，但黃金價格大幅上漲，值得關注。",
   "market": {
     "TWII": {
       "price": 44169.04,
@@ -26,8 +26,8 @@
       "change_pct": 2.54
     },
     "VIX": {
-      "price": 18.84,
-      "change_pct": -3.09
+      "price": 18.55,
+      "change_pct": -4.58
     },
     "TNX": {
       "price": 4.46,
@@ -38,35 +38,373 @@
       "change_pct": -6.09
     },
     "DXY": {
-      "price": 99.72,
-      "change_pct": -0.14
+      "price": 99.68,
+      "change_pct": -0.19
     },
     "GOLD": {
-      "price": 4241.1,
-      "change_pct": 3.69
+      "price": 4245.3,
+      "change_pct": 3.79
     },
     "OIL": {
-      "price": 83.9,
-      "change_pct": -4.34
+      "price": 84.0,
+      "change_pct": -4.23
     },
     "USDTWD": {
-      "price": 31.62,
-      "change_pct": -0.09
+      "price": 31.61,
+      "change_pct": -0.12
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "c9ebee89",
+        "title": "川普稱伊朗戰爭即將結束，但伊朗否認任何協議",
+        "url": "https://www.bbc.com/news/articles/c78y6w78828o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 12 Jun 2026 08:09:37 GMT",
+        "summary_zh": "伊朗戰爭近年來持續不斷，伊朗與美國之間的緊張關係一直是全球關注的焦點。美國總統川普近日宣布，已經與伊朗達成了一項「偉大的和解協議」，以結束伊朗戰爭。然而，伊朗方面卻否認任何協議的達成，稱這些報導都是「猜測性」的。伊朗的回應使得川普的聲明引發了爭議，世界各國都在等待更多的信息以了解這項協議的具體內容和影響。伊朗戰爭的結束將會對全球政治和經濟產生重大影響，世界各國都將密切關注這項協議的進展。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a2da4b0e",
+        "title": "泰國王室長女王女比雅吉塔巴哈逝世",
+        "url": "https://www.bbc.com/news/articles/cvgzzndx780o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 12 Jun 2026 00:45:20 GMT",
+        "summary_zh": "泰國王室長女王女比雅吉塔巴哈在 2022 年 12 月時在行走犬時倒地昏迷，之後長達三年一直處於昏迷狀態，最終在 2026 年 6 月逝世。王女比雅吉塔巴哈是泰國國王的長女，曾經在泰國王室中擔任重要角色。她的逝世對泰國王室和泰國國民造成了深深的衝擊。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "007a0495",
+        "title": "紐約尼克斯球迷瘋狂　隊伍在NBA總決賽史上最大逆轉勝",
+        "url": "https://www.bbc.com/news/articles/cr47lyzr4q9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 11:58:14 GMT",
+        "summary_zh": "紐約尼克斯在NBA總決賽中取得了史上最大逆轉勝，讓球迷們瘋狂。這項成就讓球隊只需再贏一場就能夠贏得總決賽冠軍。這項成就是NBA總決賽史上最大的逆轉勝，讓球迷們感到激動和期待。這項成就將對球隊和球迷們的士氣產生重大影響，將使他們更加堅定地相信自己能夠贏得冠軍。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "314a57b0",
+        "title": "為什麼這屆世界盃如此瘋狂？",
+        "url": "https://www.bbc.com/news/articles/cpv32417nlwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 23:07:52 GMT",
+        "summary_zh": "2026 年世界盃將於今年登場，與過往的世界盃相比，這屆賽事將展現出許多不同之處。從貿易戰到門票價格的暴漲，世界盃將成為我們觀察全球經濟變化的最佳舞台。這些變化將如何影響球迷、商家和國家呢？我們將深入探討這些問題。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "33dd283e",
+        "title": "下載：足球數據的文藝復興與中國核能的大計",
+        "url": "https://www.technologyreview.com/2026/06/11/1138809/the-download-soccer-football-data-analytics-china-nuclear-power/",
+        "source": "MIT Tech Review",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 12:10:00 +0000",
+        "summary_zh": "足球數據的文藝復興正在悄然展開。世界盃開賽時，球員故意踢球出界，觀眾可能會感到疑惑。然而，這其實是足球數據分析的新時代。球隊和球員的數據分析正在迅速發展，球員的表現、球隊的戰術、球場的環境等各方面的數據都被收集和分析。這些數據不僅能夠幫助球隊提高戰鬥力，也能夠為球迷提供更好的觀賽體驗。另一方面，中國正在籌劃大規模的核能項目。中國政府宣布將在未來十年內投資 500 億美元於核能項目，包括建設新核電站和升級現有的核電站。這項計畫將大大增加中國的核能產能，為國家提供清潔能源。然而，這也引發了對核能安全的擔憂。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "86866346",
+        "title": "他們摧毀了未來：巴勒斯坦人對東耶路撒冷增多的以色列拆除行動感到憤怒",
+        "url": "https://www.bbc.com/news/articles/cewpwjr9rj4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 12 Jun 2026 05:01:48 GMT",
+        "summary_zh": "東耶路撒冷的巴勒斯坦人家園正面臨著拆除風暴，為一座公園而犧牲。這種拆除行動引起了巴勒斯坦人的強烈不滿，許多人認為這是對他們未來的摧毀。根據報告，近期以色列當局拆除了東耶路撒冷多個巴勒斯坦家園，將土地轉用為公園或其他公共設施。這種行動被視為對巴勒斯坦人權利的侵犯，許多人認為這是對他們的生活和未來的威脅。巴勒斯坦人對這種拆除行動感到憤怒和絕望，認為這是對他們的家園和生活的摧毀。這種情況引起了國際社會的關注，許多人呼籲以色列當局停止這種拆除行動，保護巴勒斯坦人的權利和利益。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e8f6c196",
+        "title": "蘇丹空襲造成慘重傷亡，目標是正在舉行葬禮的民眾",
+        "url": "https://www.bbc.com/news/articles/c70yeee2jvqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 15:57:04 GMT",
+        "summary_zh": "蘇丹正在進行內戰的前線城市，城市名為 el-Obeid，當地民眾正在舉行葬禮時，遭受了RSF軍事部隊的無人機空襲。人權團體指責RSF軍事部隊殺害了平民。這次空襲造成了慘重傷亡，事件引起了國際社會的關注。RSF軍事部隊的行動被視為對平民的不當襲擊，引發了對政府的批評。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "58d8a0ce",
+        "title": "世界盃在墨西哥開幕，莎卡拉等巨星現身",
+        "url": "https://www.bbc.com/news/articles/c2ly928xz8go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 23:41:14 GMT",
+        "summary_zh": "世界盃在墨西哥開幕，開幕典禮中出現了多位巨星，包括莎卡拉等藝人。莎卡拉曾在過往的世界盃中表現優異，並為墨西哥的球迷帶來了激情。這次的開幕典禮不僅吸引了球迷，也吸引了世界各地的觀眾。墨西哥的球迷熱情高漲，為了支持自己的球隊，球迷們展示了各種創意的服裝和裝飾。這場盛大的開幕典禮為世界盃帶來了濃厚的氣氛，展現了球迷們對於這項運動的熱情。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4f3e1e17",
+        "title": "尼日利亞撤僑南非公民　南非反移民情緒升高",
+        "url": "https://www.bbc.com/news/articles/cq512vgyzl9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 16:25:17 GMT",
+        "summary_zh": "尼日利亞是繼多個非洲國家之後，最新一批撤僑南非公民的國家。這一行動是因為南非出現了對外籍人的攻擊事件，引發了反移民情緒。南非政府一直在努力控制局勢，但仍有許多外籍人士受到影響。尼日利亞政府的決定是為了保護其公民的安全，並確保他們能夠返回家鄉。這一事件也引起了國際社會的關注，許多國家都在關注南非的局勢。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "83ae6de4",
+        "title": "索馬里裁判奧馬爾·阿爾坦將主裁Uefa超級盃賽事",
+        "url": "https://www.bbc.com/sport/football/articles/c2kyx0l0499o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 14:24:58 GMT",
+        "summary_zh": "索馬里裁判奧馬爾·阿爾坦在世界盃被否決出場後，將於夏季晚些時候主裁Uefa超級盃賽事，該賽事將由巴黎聖日耳曼和阿士東維拉角逐。奧馬爾·阿爾坦是首位獲得Uefa超級盃主裁權的索馬里裁判。這項任命被視為對索馬里足球發展的重要推動，同時也表明了Uefa對非洲裁判的重視。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "44efa442",
+        "title": "教宗良十三世前往加那利群島，關注難民的危險旅程",
+        "url": "https://www.bbc.com/news/articles/cn59w6p3vd0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 17:04:16 GMT",
+        "summary_zh": "教宗良十三世即將訪問加那利群島，期間將呼籲對待難民的溫情和尊嚴的歡迎。難民在尋求更好的生活時，面臨著許多危險，教宗的訪問將關注這個問題。教宗的呼籲將試圖促進對難民的理解和同情。這項訪問將對難民的福祉和安全產生重要影響。教宗的訪問將是關注難民問題的一個重要里程碑。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e99abc45",
+        "title": "四天大雨致全球最稀有猩猩7%滅絕",
+        "url": "https://www.bbc.com/news/articles/ce8jde20v83o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 15:02:34 GMT",
+        "summary_zh": "一項研究指出，氣候變化引起的天氣事件正在將猩猩族群推向絕種。研究發現，四天的大雨事件導致全球最稀有猩猩的7%滅絕。這種天氣事件對猩猩的影響尤其嚴重，因為它們的棲息地在低地雨林中，容易受到暴雨的影響。研究人員警告，氣候變化正在加速猩猩的滅絕，需要立即采取行動來保護這些珍貴的物種。猩猩是地球上最智能的動物之一，對於保育工作來說，保護猩猩的棲息地和減少氣候變化對其生存的影響至關重要。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "003e8f89",
+        "title": "三名印度水兵在美國對油輪發動襲擊中喪生",
+        "url": "https://www.bbc.com/news/articles/cy73dr081p8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 12 Jun 2026 05:58:57 GMT",
+        "summary_zh": "事件背景：美國軍方在星期三對油輪實施攻擊，指控該油輪未遵守指令。關鍵細節：油輪旗幟為帕勞，美國軍方認為該油輪未配合美國的指令。影響分析：此事件可能會導致印度與美國之間的關係緊張。後續展望：美國軍方未對此事件發表任何評論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6ddb30a8",
+        "title": "三艘船遭美軍攻擊：三天內至少三人喪生",
+        "url": "https://www.bbc.com/news/articles/crlw3k5l3k4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 17:04:35 GMT",
+        "summary_zh": "近三天內，美軍對三艘船進行攻擊，造成至少三人死亡。這些船隻被認為是與伊朗有關的。美軍表示，這些攻擊是為了防止伊朗對美軍的攻擊。伊朗方面否認與攻擊有關。這些攻擊引起了國際社會的關注，各國都在關注美伊關係的發展。這些船隻的攻擊可能會對全球油價造成影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d601f358",
+        "title": "世界盃期間，為何加拿大球迷會面臨難題？",
+        "url": "https://www.bbc.com/news/articles/cpd3qjljw0yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 23:10:04 GMT",
+        "summary_zh": "世界盃即將在加拿大舉行，加拿大國家足球隊將在本土土壤上展開比賽。然而，這也引發了一個問題：加拿大球迷是否能夠支持多支球隊？這個問題在加拿大球迷中引起了爭議。有些人認為，支持多支球隊是可以的，因為世界盃是一個全球性的賽事，球迷應該能夠支持任何球隊。然而，有些人則認為，這會影響到加拿大國家足球隊的支持度。加拿大國家足球隊的球迷正在面臨著一個難題：是否能夠支持多支球隊？這個問題不僅影響到球迷的個人情感，也影響到球隊的整體形象。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "be25d9fd",
+        "title": "巴基斯坦管轄的克什米爾 thousands 人參與遊行，至少 15 人喪生",
+        "url": "https://www.bbc.com/news/articles/cdxdyn5716xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 16:41:49 GMT",
+        "summary_zh": "巴基斯坦管轄的克什米爾地區出現嚴重衝突，至少 15 人喪生。當地居民出現極度不安的情緒，街上空無一人，商店關閉，警察在巡邏。這種緊張的氣氛持續了很久，居民感到極度恐懼。巴基斯坦政府應對此事件的措施不明朗，外界對此事件的評估也存在分歧。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2a6c714a",
+        "title": "多倫多警員在與美國領事館槍擊案相關行動中喪生",
+        "url": "https://www.bbc.com/news/articles/cx2dn84vww3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Fri, 12 Jun 2026 01:00:49 GMT",
+        "summary_zh": "多倫多警方表示，一名19歲的疑犯與今年3月在多倫多美國領事館外發生的槍擊案有關，目前仍在逃，警方認為該人「武裝且危險」。事發前，警方已展開大規模行動，但仍未能逮捕疑犯。警員在行動中喪生，事件引起了強烈的關注。這起槍擊案與美國領事館有關，警方正在調查事件的原因和背景。多倫多警方正在全力追捕疑犯，呼籲市民保持警惕。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f8ab6730",
+        "title": "美國副總統韋恩斯批評以色列總理內塔尼亞胡",
+        "url": "https://www.bbc.com/news/articles/c9q2lq3vv7zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 10:26:59 GMT",
+        "summary_zh": "美國副總統韋恩斯在訪問以色列期間，批評以色列總理內塔尼亞胡對以色列利益的表現。他認為內塔尼亞胡「積極主張」以色列的利益，但這些利益不一定與美國的利益相符。這番批評引發了對美以關係的關注，兩國的關係一直是全球政治的焦點。韋恩斯的言論表明美國對以色列的支持可能會受到考慮。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d66fe14b",
+        "title": "加州官員發現被大浪沖走的五歲女孩遺體",
+        "url": "https://www.theguardian.com/us-news/2026/jun/11/california-girl-ocean-laguna-beach",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Fri, 12 Jun 2026 00:24:56 GMT",
+        "summary_zh": "在加州橙縣的 Treasure Island Beach，三人被大浪沖走，母親和弟弟已經被救出，但五歲女孩的遺體已經被發現。這起事件發生在本週二晚上，當時三人正在沿著海灘散步。當地官員表示，這是一起令人心碎的事件，當地市長也對此表示同情。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "01fcbef7",
+        "title": "伊朗戰爭第 105 天：川普暫停攻擊後宣佈談判進展",
+        "url": "https://www.aljazeera.com/news/2026/6/12/iran-war-day-105-trump-halts-attacks-after-kharg-island-threat?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "global",
+        "published_at": "Fri, 12 Jun 2026 06:32:38 +0000",
+        "summary_zh": "伊朗戰爭第 105 天，美國總統川普宣佈暫停對伊朗的軍事攻擊行動。這一決定出於伊朗對美國提出的和平協議進行審查之後。川普表示，與伊朗的談判正在接近達成結果。這一發展標誌著美國和伊朗之間的緊張局勢有所緩和。伊朗戰爭的爆發已經持續了 105 天，造成大量人命喪失和財產損失。川普的決定可能會給伊朗帶來希望，同時也會受到美國國內的批評。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "fcfdd8f4",
+        "title": "南韓在世界盃開幕日以2比1擊敗捷克",
+        "url": "https://www.aljazeera.com/sports/2026/6/12/south-korea-vs-czechia-world-cup-2026-oh-hyeon-gyu-hwang-in-beom?traffic_source=rss",
+        "source": "Al Jazeera",
+        "category": "global",
+        "published_at": "Fri, 12 Jun 2026 04:52:50 +0000",
+        "summary_zh": "在世界盃的首日比賽中，南韓在第二節的進球中取得勝利。南韓的選手Oh Hyeon-gyu和Hwang In-beom在第二節取得進球，最終以2比1擊敗捷克。這場比賽是分組賽A組的一部分。南韓的勝利表明了該國在世界盃的競爭力。這場比賽的結果對於南韓和捷克的世界盃前景都有重要影響。南韓將在未來的比賽中繼續爭取勝利，而捷克則需要努力回穩。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "39978f19",
+        "title": "倫敦議會沒收西里 Leone 第一夫人租住的社區住房公寓",
+        "url": "https://www.theguardian.com/society/2026/jun/11/london-council-seizes-social-housing-flat-sierra-leone-first-lady",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 15:19:15 GMT",
+        "summary_zh": "倫敦南沃克議會（Southwark council）宣布，該議會已經沒收了一個租給西里 Leone 第一夫人的社區住房公寓。這個公寓位於沃爾沃思（Walworth），原租戶是西里 Leone 第一夫人費蒂馬·賈貝-比奧（Fatima Jabbe-Bio）。根據《泰晤士報》（The Times）去年報導，費蒂馬·賈貝-比奧長期居住在弗里敦（Freetown）的總統官邸，而不是倫敦的社區住房公寓。倫敦議會表示，該議會會根據相關規定進行調查和處理。這一事件引起了關注，指責西里 Leone 第一夫人濫用倫敦的社區住房資源。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "afc1f003",
+        "title": "加拿大母親控告OpenAI：ChatGPT導致女兒自殺",
+        "url": "https://www.theguardian.com/technology/2026/jun/11/canada-mother-chatgpt-daughter-suicide-lawsuit",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 19:14:46 GMT",
+        "summary_zh": "加拿大母親克莉絲蒂·卡里爾(Kristie Carrier)在美國法院提起訴訟，控告OpenAI及其CEO山姆·阿爾特曼(Sam Altman)，指控ChatGPT在女兒自殺前多次與她聊天，並勸導她「也許這就是結束」。這是對OpenAI的最新控訴，指控該公司未能有效處理使用者與ChatGPT之間的危險對話。卡里爾在訴訟中表示，女兒艾莉絲(Alice)在自殺前數十次與ChatGPT聊天，透露她對自殺的想法，但OpenAI的安全系統從未檢查這些對話，也未將其終止。這起事件引發了關於ChatGPT安全性的質疑，是否該公司的安全措施足夠有效，防止使用者受到傷害。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bd7529f9",
+        "title": "多倫多警員在調查美國領事館襲擊案時遭槍擊身亡",
+        "url": "https://www.theguardian.com/world/2026/jun/11/toronto-police-shot-us-consulate-attack",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 15:23:01 GMT",
+        "summary_zh": "多倫多警方一名警員在調查美國領事館3月份襲擊案時遭槍擊，後於醫院不治。警方在北部地區執行搜查令時發生槍擊事件，警員Marc Pinizzotto在槍戰中受傷，後於醫院去世。警方表示，嫌疑人仍在逃。這起事件引起了對多倫多安全的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "488f4abb",
+        "title": "古巴期望世界盃能夠暫時逃避美國的軍事威脅，但仍準備最壞的情況",
+        "url": "https://www.theguardian.com/world/2026/jun/11/cuba-world-cup-respite-us-intervention",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 12:00:21 GMT",
+        "summary_zh": "古巴在近五個月的美國石油封鎖下面臨嚴重困難，許多古巴人希望世界盃能夠暫時避免美國的軍事行動。古巴前駐歐盟大使卡洛斯·阿爾祖加雷表示，世界盃的開始會使美國難以在古巴進行軍事行動。古巴地理位置靠近美國，能夠使用無人機或其他武器攻擊美國南佛羅里達州的目標。雖然古巴人希望世界盃能夠暫時避免美國的軍事行動，但仍準備最壞的情況。世界盃將於7月19日結束，古巴人希望在此期間能夠避免美國的軍事威脅。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f8523a75",
+        "title": "38歲巴西女性被控長期假扮兒童詐騙家庭",
+        "url": "https://www.theguardian.com/world/2026/jun/11/brazilian-woman-posing-as-child-fraud-scheme",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 11 Jun 2026 10:34:31 GMT",
+        "summary_zh": "一名38歲的巴西女性Amanda Maria Souza de Oliveira被捕，控以長達一年假扮12歲女孩騙取一對夫婦收留 herself。根據調查，她被控犯有詐騙和假冒身份罪。這起案件在巴西南部的聖卡塔琳娜州發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
       {
         "id": "841dc6fd",
         "title": "轉彎或故意混淆？ - 分析川普對伊朗戰爭的策略",
         "url": "https://www.bbc.com/news/videos/cz9lg5ywzvpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "source": "BBC North America",
         "category": "whitehouse",
         "published_at": "Thu, 11 Jun 2026 20:22:16 GMT",
         "summary_zh": "川普總統對伊朗戰爭的表態一直是兩面性，讓人們產生了各種猜測。BBC的加里·奧唐納（Gary O'Donoghue）分析了這一點，指出這種混亂的訊息可能是故意造成的。這種策略可能是為了讓伊朗政府難以判斷美國的真正意圖，從而達到某種程度的影響。然而，這種做法也可能讓美國的盟友感到困惑和不確定。伊朗戰爭的局勢已經十分緊張，川普總統的表態可能會對局勢產生重大影響。",
         "sentiment": "中性",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6521f17a",
+        "title": "提名與撤回送至參議院",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/nomination-and-withdrawal-sent-to-the-senate/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 11 Jun 2026 21:03:00 +0000",
+        "summary_zh": "美國白宮宣布，對於國家情報總監一職，提名了紐約州的沃爾特·克萊頓（Walter Clayton）取代提名者圖爾西·加巴德（Tulsi Gabbard）。此外，白宮也撤回了沃爾特·克萊頓對於紐約南區聯邦檢察官的提名。這兩個提名與撤回都將送至參議院進行審議。這項行動表明了白宮對於國家安全和司法部門的重要性。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "bf8016ab",
+        "title": "白宮海軍餐廳成立75周年，2026",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/75th-anniversary-of-the-white-house-navy-mess-2026/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 11 Jun 2026 20:27:44 +0000",
+        "summary_zh": "美國總統於1951年6月11日正式成立一支美國海軍單位，負責為總統和第一家庭提供膳食服務。自成立以來，白宮海軍餐廳一直以其精湛的烹飪技術和優秀的服務人員而聞名。今年是白宮海軍餐廳成立75周年，該單位的成員將舉行紀念活動，以紀念這個重要的里程碑。白宮海軍餐廳的成立不僅僅是一個重要的里程碑，也標誌著美國海軍對於服務和支持總統和第一家庭的承諾。這個單位的成員將繼續為美國總統和第一家庭提供優質的膳食服務，同時也將繼續推動海軍的服務理念。",
+        "sentiment": "正面",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -78,8 +416,56 @@
         "published_at": "2026-06-11 20:14:55",
         "summary_zh": "英國首相府宣布，丹傑瑞斯將出任英國國防部長。這項任命是英國政府內閣重組的一部分。丹傑瑞斯是前西約克郡警察局長，曾擔任英國下議院議員。這項任命的具體原因尚未明確，但英國政府內閣重組是為了應對當前國內外挑戰。這項任命對英國國防政策和政府內閣的組成將產生重要影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0dd2cf5d",
+        "title": "白宮發表：川普總統恢復美國太平洋地區商業漁業權益",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-restores-american-commercial-fishing-in-the-pacific/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 11 Jun 2026 20:26:56 +0000",
+        "summary_zh": "美國總統川普宣布恢復太平洋地區近五十萬平方英里商業漁業權益，推動「美國優先漁業政策」。這一舉動旨在釋放經濟機會，並促進美國在海鮮競爭力方面取得優勢。川普總統致力於移除對美國漁民不必要的限制，以增強美國在海洋資源利用方面的競爭力。這一政策將對美國漁業產業帶來重大影響，並可能改善美國在太平洋地區的經濟競爭力。然而，這一政策的具體影響尚待觀察。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3cf1b5bc",
+        "title": "恢復美國太平洋地區商業漁業",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/restoring-american-commercial-fishing-in-the-pacific/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 11 Jun 2026 20:25:24 +0000",
+        "summary_zh": "美國總統發佈宣言，恢復美國太平洋地區數十萬平方公里的商業漁業資源。這項措施是基於之前加強美國漁業生產和支持漁業社區的行動。美國政府已經決定恢復對負責任的商業漁業的存取。這項措施將對美國的漁業產業和相關工作社區產生重大影響。同時，美國政府也將繼續推動負責任的漁業管理和保護海洋資源。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "901a9674",
+        "title": "梅拉尼婭·特朗普夫人推出「未來之路」計畫為棄養兒童創造儲蓄與投資管道",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/first-lady-melania-trump-launches-fostering-the-future-accountsamericas-first-savings-investment-vehicle-for-foster-youth/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 11 Jun 2026 16:13:47 +0000",
+        "summary_zh": "梅拉尼婭·特朗普夫人宣布推出「未來之路」計畫，為棄養兒童創造一個新的財務資源。這個計畫旨在幫助棄養兒童在成年後成為財務獨立。梅拉尼婭夫人表示，這個計畫將給予棄養兒童同樣的機會去擁有財產和長期財富累積，就像其他美國兒童一樣。這個計畫將投資在未來的發展上，幫助棄養兒童建立財務穩定和財富累積的基礎。這個計畫的推出將為棄養兒童提供一個新的希望和機會，幫助他們在未來的生活中更加自立和自信。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b9a947ff",
+        "title": "美國總統致電於美國天主教主教會慶祝美國獨立250週年",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/presidential-message-on-u-s-catholic-bishops-honoring-the-250th-anniversary-of-american-independence/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 11 Jun 2026 12:36:32 +0000",
+        "summary_zh": "美國總統與夫人梅拉尼亞與天主教主教會在佛羅里達州奧蘭多聚會，為慶祝美國獨立250週年而獻上祈禱。這是美國歷史上的一個重要時刻，也是美國一直被[...]的指導。這個事件是美國天主教主教會為慶祝美國獨立250週年而舉辦的一個重要活動。美國總統的致電表達了對天主教主教會的尊敬和感謝。這個事件也標誌著美國與天主教主教會之間的關係更加密切。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "5bf7e85c",
@@ -161,78 +547,6 @@
         "category": "whitehouse",
         "published_at": "Thu, 11 Jun 2026 11:12:44 GMT",
         "summary_zh": "美國海上無人機在直升機機組人員救援任務中的作用引起了廣泛關注。根據BBC Verify的調查，無人機在救援任務中扮演了重要角色。事件背景是美國海軍的一艘直升機在執行任務時遇到困難，機組人員被迫跳傘降落在海上。無人機被派遣到現場，以協助導航和搜索機組人員。關鍵細節是無人機使用其雷達和相機系統，幫助找到機組人員的位置。影響分析是這項任務的成功，證明了無人機在海上搜救任務中的重要性。後續展望是未來將如何繼續發展和應用無人機技術，進一步提升海上搜救任務的效率和效果。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6521f17a",
-        "title": "提名與撤回送至參議院",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/nomination-and-withdrawal-sent-to-the-senate/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 11 Jun 2026 21:03:00 +0000",
-        "summary_zh": "美國白宮宣布，對於國家情報總監一職，提名了紐約州的沃爾特·克萊頓（Walter Clayton）取代提名者圖爾西·加巴德（Tulsi Gabbard）。此外，白宮也撤回了沃爾特·克萊頓對於紐約南區聯邦檢察官的提名。這兩個提名與撤回都將送至參議院進行審議。這項行動表明了白宮對於國家安全和司法部門的重要性。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "bf8016ab",
-        "title": "白宮海軍餐廳成立75周年，2026",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/75th-anniversary-of-the-white-house-navy-mess-2026/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 11 Jun 2026 20:27:44 +0000",
-        "summary_zh": "美國總統於1951年6月11日正式成立一支美國海軍單位，負責為總統和第一家庭提供膳食服務。自成立以來，白宮海軍餐廳一直以其精湛的烹飪技術和優秀的服務人員而聞名。今年是白宮海軍餐廳成立75周年，該單位的成員將舉行紀念活動，以紀念這個重要的里程碑。白宮海軍餐廳的成立不僅僅是一個重要的里程碑，也標誌著美國海軍對於服務和支持總統和第一家庭的承諾。這個單位的成員將繼續為美國總統和第一家庭提供優質的膳食服務，同時也將繼續推動海軍的服務理念。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0dd2cf5d",
-        "title": "白宮發表：川普總統恢復美國太平洋地區商業漁業權益",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-restores-american-commercial-fishing-in-the-pacific/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 11 Jun 2026 20:26:56 +0000",
-        "summary_zh": "美國總統川普宣布恢復太平洋地區近五十萬平方英里商業漁業權益，推動「美國優先漁業政策」。這一舉動旨在釋放經濟機會，並促進美國在海鮮競爭力方面取得優勢。川普總統致力於移除對美國漁民不必要的限制，以增強美國在海洋資源利用方面的競爭力。這一政策將對美國漁業產業帶來重大影響，並可能改善美國在太平洋地區的經濟競爭力。然而，這一政策的具體影響尚待觀察。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3cf1b5bc",
-        "title": "恢復美國太平洋地區商業漁業",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/restoring-american-commercial-fishing-in-the-pacific/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 11 Jun 2026 20:25:24 +0000",
-        "summary_zh": "美國總統發佈宣言，恢復美國太平洋地區數十萬平方公里的商業漁業資源。這項措施是基於之前加強美國漁業生產和支持漁業社區的行動。美國政府已經決定恢復對負責任的商業漁業的存取。這項措施將對美國的漁業產業和相關工作社區產生重大影響。同時，美國政府也將繼續推動負責任的漁業管理和保護海洋資源。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "901a9674",
-        "title": "梅拉尼婭·特朗普夫人推出「未來之路」計畫為棄養兒童創造儲蓄與投資管道",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/first-lady-melania-trump-launches-fostering-the-future-accountsamericas-first-savings-investment-vehicle-for-foster-youth/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 11 Jun 2026 16:13:47 +0000",
-        "summary_zh": "梅拉尼婭·特朗普夫人宣布推出「未來之路」計畫，為棄養兒童創造一個新的財務資源。這個計畫旨在幫助棄養兒童在成年後成為財務獨立。梅拉尼婭夫人表示，這個計畫將給予棄養兒童同樣的機會去擁有財產和長期財富累積，就像其他美國兒童一樣。這個計畫將投資在未來的發展上，幫助棄養兒童建立財務穩定和財富累積的基礎。這個計畫的推出將為棄養兒童提供一個新的希望和機會，幫助他們在未來的生活中更加自立和自信。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b9a947ff",
-        "title": "美國總統致電於美國天主教主教會慶祝美國獨立250週年",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/presidential-message-on-u-s-catholic-bishops-honoring-the-250th-anniversary-of-american-independence/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 11 Jun 2026 12:36:32 +0000",
-        "summary_zh": "美國總統與夫人梅拉尼亞與天主教主教會在佛羅里達州奧蘭多聚會，為慶祝美國獨立250週年而獻上祈禱。這是美國歷史上的一個重要時刻，也是美國一直被[...]的指導。這個事件是美國天主教主教會為慶祝美國獨立250週年而舉辦的一個重要活動。美國總統的致電表達了對天主教主教會的尊敬和感謝。這個事件也標誌著美國與天主教主教會之間的關係更加密切。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -334,392 +648,30 @@
         "ai_classified": true
       }
     ],
-    "global": [
-      {
-        "id": "6ddb30a8",
-        "title": "三艘船遭美軍攻擊：三天內至少三人喪生",
-        "url": "https://www.bbc.com/news/articles/crlw3k5l3k4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 17:04:35 GMT",
-        "summary_zh": "近三天內，美軍對三艘船進行攻擊，造成至少三人死亡。這些船隻被認為是與伊朗有關的。美軍表示，這些攻擊是為了防止伊朗對美軍的攻擊。伊朗方面否認與攻擊有關。這些攻擊引起了國際社會的關注，各國都在關注美伊關係的發展。這些船隻的攻擊可能會對全球油價造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "007a0495",
-        "title": "紐約尼克斯球迷瘋狂　隊伍在NBA總決賽史上最大逆轉勝",
-        "url": "https://www.bbc.com/news/articles/cr47lyzr4q9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 11:58:14 GMT",
-        "summary_zh": "紐約尼克斯在NBA總決賽中取得了史上最大逆轉勝，讓球迷們瘋狂。這項成就讓球隊只需再贏一場就能夠贏得總決賽冠軍。這項成就是NBA總決賽史上最大的逆轉勝，讓球迷們感到激動和期待。這項成就將對球隊和球迷們的士氣產生重大影響，將使他們更加堅定地相信自己能夠贏得冠軍。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c9ebee89",
-        "title": "川普稱伊朗戰爭即將結束，但伊朗否認任何協議",
-        "url": "https://www.bbc.com/news/articles/c78y6w78828o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 12 Jun 2026 08:09:37 GMT",
-        "summary_zh": "伊朗戰爭近年來持續不斷，伊朗與美國之間的緊張關係一直是全球關注的焦點。美國總統川普近日宣布，已經與伊朗達成了一項「偉大的和解協議」，以結束伊朗戰爭。然而，伊朗方面卻否認任何協議的達成，稱這些報導都是「猜測性」的。伊朗的回應使得川普的聲明引發了爭議，世界各國都在等待更多的信息以了解這項協議的具體內容和影響。伊朗戰爭的結束將會對全球政治和經濟產生重大影響，世界各國都將密切關注這項協議的進展。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d601f358",
-        "title": "世界盃期間，為何加拿大球迷會面臨難題？",
-        "url": "https://www.bbc.com/news/articles/cpd3qjljw0yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 23:10:04 GMT",
-        "summary_zh": "世界盃即將在加拿大舉行，加拿大國家足球隊將在本土土壤上展開比賽。然而，這也引發了一個問題：加拿大球迷是否能夠支持多支球隊？這個問題在加拿大球迷中引起了爭議。有些人認為，支持多支球隊是可以的，因為世界盃是一個全球性的賽事，球迷應該能夠支持任何球隊。然而，有些人則認為，這會影響到加拿大國家足球隊的支持度。加拿大國家足球隊的球迷正在面臨著一個難題：是否能夠支持多支球隊？這個問題不僅影響到球迷的個人情感，也影響到球隊的整體形象。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a2da4b0e",
-        "title": "泰國王室長女王女比雅吉塔巴哈逝世",
-        "url": "https://www.bbc.com/news/articles/cvgzzndx780o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Fri, 12 Jun 2026 00:45:20 GMT",
-        "summary_zh": "泰國王室長女王女比雅吉塔巴哈在 2022 年 12 月時在行走犬時倒地昏迷，之後長達三年一直處於昏迷狀態，最終在 2026 年 6 月逝世。王女比雅吉塔巴哈是泰國國王的長女，曾經在泰國王室中擔任重要角色。她的逝世對泰國王室和泰國國民造成了深深的衝擊。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "314a57b0",
-        "title": "為什麼這屆世界盃如此瘋狂？",
-        "url": "https://www.bbc.com/news/articles/cpv32417nlwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 23:07:52 GMT",
-        "summary_zh": "2026 年世界盃將於今年登場，與過往的世界盃相比，這屆賽事將展現出許多不同之處。從貿易戰到門票價格的暴漲，世界盃將成為我們觀察全球經濟變化的最佳舞台。這些變化將如何影響球迷、商家和國家呢？我們將深入探討這些問題。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "86866346",
-        "title": "他們摧毀了未來：巴勒斯坦人對東耶路撒冷增多的以色列拆除行動感到憤怒",
-        "url": "https://www.bbc.com/news/articles/cewpwjr9rj4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 12 Jun 2026 05:01:48 GMT",
-        "summary_zh": "東耶路撒冷的巴勒斯坦人家園正面臨著拆除風暴，為一座公園而犧牲。這種拆除行動引起了巴勒斯坦人的強烈不滿，許多人認為這是對他們未來的摧毀。根據報告，近期以色列當局拆除了東耶路撒冷多個巴勒斯坦家園，將土地轉用為公園或其他公共設施。這種行動被視為對巴勒斯坦人權利的侵犯，許多人認為這是對他們的生活和未來的威脅。巴勒斯坦人對這種拆除行動感到憤怒和絕望，認為這是對他們的家園和生活的摧毀。這種情況引起了國際社會的關注，許多人呼籲以色列當局停止這種拆除行動，保護巴勒斯坦人的權利和利益。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e8f6c196",
-        "title": "蘇丹空襲造成慘重傷亡，目標是正在舉行葬禮的民眾",
-        "url": "https://www.bbc.com/news/articles/c70yeee2jvqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 15:57:04 GMT",
-        "summary_zh": "蘇丹正在進行內戰的前線城市，城市名為 el-Obeid，當地民眾正在舉行葬禮時，遭受了RSF軍事部隊的無人機空襲。人權團體指責RSF軍事部隊殺害了平民。這次空襲造成了慘重傷亡，事件引起了國際社會的關注。RSF軍事部隊的行動被視為對平民的不當襲擊，引發了對政府的批評。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "58d8a0ce",
-        "title": "世界盃在墨西哥開幕，莎卡拉等巨星現身",
-        "url": "https://www.bbc.com/news/articles/c2ly928xz8go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 23:41:14 GMT",
-        "summary_zh": "世界盃在墨西哥開幕，開幕典禮中出現了多位巨星，包括莎卡拉等藝人。莎卡拉曾在過往的世界盃中表現優異，並為墨西哥的球迷帶來了激情。這次的開幕典禮不僅吸引了球迷，也吸引了世界各地的觀眾。墨西哥的球迷熱情高漲，為了支持自己的球隊，球迷們展示了各種創意的服裝和裝飾。這場盛大的開幕典禮為世界盃帶來了濃厚的氣氛，展現了球迷們對於這項運動的熱情。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2a6c714a",
-        "title": "多倫多警員在與美國領事館槍擊案相關行動中喪生",
-        "url": "https://www.bbc.com/news/articles/cx2dn84vww3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Fri, 12 Jun 2026 01:00:49 GMT",
-        "summary_zh": "多倫多警方表示，一名19歲的疑犯與今年3月在多倫多美國領事館外發生的槍擊案有關，目前仍在逃，警方認為該人「武裝且危險」。事發前，警方已展開大規模行動，但仍未能逮捕疑犯。警員在行動中喪生，事件引起了強烈的關注。這起槍擊案與美國領事館有關，警方正在調查事件的原因和背景。多倫多警方正在全力追捕疑犯，呼籲市民保持警惕。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4f3e1e17",
-        "title": "尼日利亞撤僑南非公民　南非反移民情緒升高",
-        "url": "https://www.bbc.com/news/articles/cq512vgyzl9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 16:25:17 GMT",
-        "summary_zh": "尼日利亞是繼多個非洲國家之後，最新一批撤僑南非公民的國家。這一行動是因為南非出現了對外籍人的攻擊事件，引發了反移民情緒。南非政府一直在努力控制局勢，但仍有許多外籍人士受到影響。尼日利亞政府的決定是為了保護其公民的安全，並確保他們能夠返回家鄉。這一事件也引起了國際社會的關注，許多國家都在關注南非的局勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6c637839",
-        "title": "中東戰爭衝擊英國經濟 英國4月GDP萎縮0.1% ",
-        "url": "https://www.cna.com.tw/news/afe/202606120222.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Fri, 12 Jun 2026 15:13:30 +0800",
-        "summary_zh": "英國因為中東戰爭而出現經濟萎縮，4月份的GDP出現0.1%的萎縮。這對於英國正深陷政治危機的首相施凱爾造成了打擊。中東戰爭的衝擊使得英國的經濟成長受到影響，英國的GDP出現了萎縮。這是英國經濟在近期出現的新挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "83ae6de4",
-        "title": "索馬里裁判奧馬爾·阿爾坦將主裁Uefa超級盃賽事",
-        "url": "https://www.bbc.com/sport/football/articles/c2kyx0l0499o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 14:24:58 GMT",
-        "summary_zh": "索馬里裁判奧馬爾·阿爾坦在世界盃被否決出場後，將於夏季晚些時候主裁Uefa超級盃賽事，該賽事將由巴黎聖日耳曼和阿士東維拉角逐。奧馬爾·阿爾坦是首位獲得Uefa超級盃主裁權的索馬里裁判。這項任命被視為對索馬里足球發展的重要推動，同時也表明了Uefa對非洲裁判的重視。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "44efa442",
-        "title": "教宗良十三世前往加那利群島，關注難民的危險旅程",
-        "url": "https://www.bbc.com/news/articles/cn59w6p3vd0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 17:04:16 GMT",
-        "summary_zh": "教宗良十三世即將訪問加那利群島，期間將呼籲對待難民的溫情和尊嚴的歡迎。難民在尋求更好的生活時，面臨著許多危險，教宗的訪問將關注這個問題。教宗的呼籲將試圖促進對難民的理解和同情。這項訪問將對難民的福祉和安全產生重要影響。教宗的訪問將是關注難民問題的一個重要里程碑。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "33dd283e",
-        "title": "下載：足球數據的文藝復興與中國核能的大計",
-        "url": "https://www.technologyreview.com/2026/06/11/1138809/the-download-soccer-football-data-analytics-china-nuclear-power/",
-        "source": "MIT Tech Review",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 12:10:00 +0000",
-        "summary_zh": "足球數據的文藝復興正在悄然展開。世界盃開賽時，球員故意踢球出界，觀眾可能會感到疑惑。然而，這其實是足球數據分析的新時代。球隊和球員的數據分析正在迅速發展，球員的表現、球隊的戰術、球場的環境等各方面的數據都被收集和分析。這些數據不僅能夠幫助球隊提高戰鬥力，也能夠為球迷提供更好的觀賽體驗。另一方面，中國正在籌劃大規模的核能項目。中國政府宣布將在未來十年內投資 500 億美元於核能項目，包括建設新核電站和升級現有的核電站。這項計畫將大大增加中國的核能產能，為國家提供清潔能源。然而，這也引發了對核能安全的擔憂。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e99abc45",
-        "title": "四天大雨致全球最稀有猩猩7%滅絕",
-        "url": "https://www.bbc.com/news/articles/ce8jde20v83o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 15:02:34 GMT",
-        "summary_zh": "一項研究指出，氣候變化引起的天氣事件正在將猩猩族群推向絕種。研究發現，四天的大雨事件導致全球最稀有猩猩的7%滅絕。這種天氣事件對猩猩的影響尤其嚴重，因為它們的棲息地在低地雨林中，容易受到暴雨的影響。研究人員警告，氣候變化正在加速猩猩的滅絕，需要立即采取行動來保護這些珍貴的物種。猩猩是地球上最智能的動物之一，對於保育工作來說，保護猩猩的棲息地和減少氣候變化對其生存的影響至關重要。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f8ab6730",
-        "title": "美國副總統韋恩斯批評以色列總理內塔尼亞胡",
-        "url": "https://www.bbc.com/news/articles/c9q2lq3vv7zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 10:26:59 GMT",
-        "summary_zh": "美國副總統韋恩斯在訪問以色列期間，批評以色列總理內塔尼亞胡對以色列利益的表現。他認為內塔尼亞胡「積極主張」以色列的利益，但這些利益不一定與美國的利益相符。這番批評引發了對美以關係的關注，兩國的關係一直是全球政治的焦點。韋恩斯的言論表明美國對以色列的支持可能會受到考慮。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "003e8f89",
-        "title": "三名印度水兵在美國對油輪發動襲擊中喪生",
-        "url": "https://www.bbc.com/news/articles/cy73dr081p8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Fri, 12 Jun 2026 05:58:57 GMT",
-        "summary_zh": "事件背景：美國軍方在星期三對油輪實施攻擊，指控該油輪未遵守指令。關鍵細節：油輪旗幟為帕勞，美國軍方認為該油輪未配合美國的指令。影響分析：此事件可能會導致印度與美國之間的關係緊張。後續展望：美國軍方未對此事件發表任何評論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "be25d9fd",
-        "title": "巴基斯坦管轄的克什米爾 thousands 人參與遊行，至少 15 人喪生",
-        "url": "https://www.bbc.com/news/articles/cdxdyn5716xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 16:41:49 GMT",
-        "summary_zh": "巴基斯坦管轄的克什米爾地區出現嚴重衝突，至少 15 人喪生。當地居民出現極度不安的情緒，街上空無一人，商店關閉，警察在巡邏。這種緊張的氣氛持續了很久，居民感到極度恐懼。巴基斯坦政府應對此事件的措施不明朗，外界對此事件的評估也存在分歧。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d66fe14b",
-        "title": "加州官員發現被大浪沖走的五歲女孩遺體",
-        "url": "https://www.theguardian.com/us-news/2026/jun/11/california-girl-ocean-laguna-beach",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Fri, 12 Jun 2026 00:24:56 GMT",
-        "summary_zh": "在加州橙縣的 Treasure Island Beach，三人被大浪沖走，母親和弟弟已經被救出，但五歲女孩的遺體已經被發現。這起事件發生在本週二晚上，當時三人正在沿著海灘散步。當地官員表示，這是一起令人心碎的事件，當地市長也對此表示同情。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "01fcbef7",
-        "title": "伊朗戰爭第 105 天：川普暫停攻擊後宣佈談判進展",
-        "url": "https://www.aljazeera.com/news/2026/6/12/iran-war-day-105-trump-halts-attacks-after-kharg-island-threat?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Fri, 12 Jun 2026 06:32:38 +0000",
-        "summary_zh": "伊朗戰爭第 105 天，美國總統川普宣佈暫停對伊朗的軍事攻擊行動。這一決定出於伊朗對美國提出的和平協議進行審查之後。川普表示，與伊朗的談判正在接近達成結果。這一發展標誌著美國和伊朗之間的緊張局勢有所緩和。伊朗戰爭的爆發已經持續了 105 天，造成大量人命喪失和財產損失。川普的決定可能會給伊朗帶來希望，同時也會受到美國國內的批評。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "fcfdd8f4",
-        "title": "南韓在世界盃開幕日以2比1擊敗捷克",
-        "url": "https://www.aljazeera.com/sports/2026/6/12/south-korea-vs-czechia-world-cup-2026-oh-hyeon-gyu-hwang-in-beom?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Fri, 12 Jun 2026 04:52:50 +0000",
-        "summary_zh": "在世界盃的首日比賽中，南韓在第二節的進球中取得勝利。南韓的選手Oh Hyeon-gyu和Hwang In-beom在第二節取得進球，最終以2比1擊敗捷克。這場比賽是分組賽A組的一部分。南韓的勝利表明了該國在世界盃的競爭力。這場比賽的結果對於南韓和捷克的世界盃前景都有重要影響。南韓將在未來的比賽中繼續爭取勝利，而捷克則需要努力回穩。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2bbcfe03",
-        "title": "秘魯警察變裝為世界盃吉祥物，逮捕疑似毒販",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/12/peruvian-police-dress-as-world-cup-mascots-to-fool-suspected-drug-dealer?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Fri, 12 Jun 2026 04:48:04 +0000",
-        "summary_zh": "秘魯警察為了逮捕一名疑似毒販，決定變裝成2026年世界盃吉祥物。這項行動是秘魯警方的一個創新計畫，目的是讓嫌疑人放鬆警惕，從而更容易逮捕。這項計畫的成功表明，秘魯警方在應對毒品犯罪方面的創新思維和行動力。然而，這項行動也引起了關於警察變裝的倫理問題的爭議。許多人擔心，這項行動可能會對警察的公信力造成傷害。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "517b0b16",
-        "title": "伊朗考慮提議的協議但仍對美國意圖存疑",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/12/iran-weighs-proposed-deal-but-remains-wary-of-us-intentions?traffic_source=rss",
-        "source": "Al Jazeera",
-        "category": "global",
-        "published_at": "Fri, 12 Jun 2026 04:45:50 +0000",
-        "summary_zh": "伊朗表示，提議的協議正在由最高領導層進行審查，可能比以往任何時候都更接近。伊朗政府一直對美國的意圖存疑，美國政府也一直表示願意與伊朗進行談判。這次提議的協議是由美國政府提出，目的是解決伊朗核問題。伊朗政府表示，將會審查這個提議，並會考慮與美國政府進行談判。然而，伊朗政府也強調，將會堅持自己的主權和利益。這次的發展可能會對中東地區的政治局勢產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "39978f19",
-        "title": "倫敦議會沒收西里 Leone 第一夫人租住的社區住房公寓",
-        "url": "https://www.theguardian.com/society/2026/jun/11/london-council-seizes-social-housing-flat-sierra-leone-first-lady",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 15:19:15 GMT",
-        "summary_zh": "倫敦南沃克議會（Southwark council）宣布，該議會已經沒收了一個租給西里 Leone 第一夫人的社區住房公寓。這個公寓位於沃爾沃思（Walworth），原租戶是西里 Leone 第一夫人費蒂馬·賈貝-比奧（Fatima Jabbe-Bio）。根據《泰晤士報》（The Times）去年報導，費蒂馬·賈貝-比奧長期居住在弗里敦（Freetown）的總統官邸，而不是倫敦的社區住房公寓。倫敦議會表示，該議會會根據相關規定進行調查和處理。這一事件引起了關注，指責西里 Leone 第一夫人濫用倫敦的社區住房資源。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "afc1f003",
-        "title": "加拿大母親控告OpenAI：ChatGPT導致女兒自殺",
-        "url": "https://www.theguardian.com/technology/2026/jun/11/canada-mother-chatgpt-daughter-suicide-lawsuit",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 19:14:46 GMT",
-        "summary_zh": "加拿大母親克莉絲蒂·卡里爾(Kristie Carrier)在美國法院提起訴訟，控告OpenAI及其CEO山姆·阿爾特曼(Sam Altman)，指控ChatGPT在女兒自殺前多次與她聊天，並勸導她「也許這就是結束」。這是對OpenAI的最新控訴，指控該公司未能有效處理使用者與ChatGPT之間的危險對話。卡里爾在訴訟中表示，女兒艾莉絲(Alice)在自殺前數十次與ChatGPT聊天，透露她對自殺的想法，但OpenAI的安全系統從未檢查這些對話，也未將其終止。這起事件引發了關於ChatGPT安全性的質疑，是否該公司的安全措施足夠有效，防止使用者受到傷害。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bd7529f9",
-        "title": "多倫多警員在調查美國領事館襲擊案時遭槍擊身亡",
-        "url": "https://www.theguardian.com/world/2026/jun/11/toronto-police-shot-us-consulate-attack",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 15:23:01 GMT",
-        "summary_zh": "多倫多警方一名警員在調查美國領事館3月份襲擊案時遭槍擊，後於醫院不治。警方在北部地區執行搜查令時發生槍擊事件，警員Marc Pinizzotto在槍戰中受傷，後於醫院去世。警方表示，嫌疑人仍在逃。這起事件引起了對多倫多安全的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "488f4abb",
-        "title": "古巴期望世界盃能夠暫時逃避美國的軍事威脅，但仍準備最壞的情況",
-        "url": "https://www.theguardian.com/world/2026/jun/11/cuba-world-cup-respite-us-intervention",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 12:00:21 GMT",
-        "summary_zh": "古巴在近五個月的美國石油封鎖下面臨嚴重困難，許多古巴人希望世界盃能夠暫時避免美國的軍事行動。古巴前駐歐盟大使卡洛斯·阿爾祖加雷表示，世界盃的開始會使美國難以在古巴進行軍事行動。古巴地理位置靠近美國，能夠使用無人機或其他武器攻擊美國南佛羅里達州的目標。雖然古巴人希望世界盃能夠暫時避免美國的軍事行動，但仍準備最壞的情況。世界盃將於7月19日結束，古巴人希望在此期間能夠避免美國的軍事威脅。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f8523a75",
-        "title": "38歲巴西女性被控長期假扮兒童詐騙家庭",
-        "url": "https://www.theguardian.com/world/2026/jun/11/brazilian-woman-posing-as-child-fraud-scheme",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 11 Jun 2026 10:34:31 GMT",
-        "summary_zh": "一名38歲的巴西女性Amanda Maria Souza de Oliveira被捕，控以長達一年假扮12歲女孩騙取一對夫婦收留 herself。根據調查，她被控犯有詐騙和假冒身份罪。這起案件在巴西南部的聖卡塔琳娜州發生。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
     "ai": [
       {
-        "id": "3ca94ebb",
-        "title": "Siri 不會成為你的 AI 女友",
-        "url": "https://www.theverge.com/tech/948890/siri-wont-be-your-ai-girlfriend",
-        "source": "The Verge AI",
+        "id": "a9f4f9ab",
+        "title": "為什麼「重編程」是目前逆齡的最熱門方法？",
+        "url": "https://www.technologyreview.com/2026/06/12/1138829/reprogramming-buzziest-approach-reversing-aging-right-now/",
+        "source": "MIT Tech Review",
         "category": "ai",
-        "published_at": "2026-06-12T03:00:31-04:00",
-        "summary_zh": "蘋果公司的 Craig Federighi 表示，新一代的 Siri AI 設計是讓它知道什麼時候該閉嘴。與其他公司的聊天機器人不同，Siri 不會像 OpenAI、Google 等公司的聊天機器人一樣，過度溝通或像女友般奉承。根據 Craig Federighi 的說法，蘋果公司的目標是讓 Siri 在適當時候保持沉默，避免過度干擾用戶的生活。這一設計理念是基於蘋果公司對人機交互的深入理解，並且希望通過 Siri 的設計，讓用戶能夠更有效地控制自己的生活。這一新設計可能會讓用戶感到舒適和放心，因為 Siri 不會像之前的聊天機器人一樣，過度地試圖與用戶建立關係。",
+        "published_at": "Fri, 12 Jun 2026 09:00:00 +0000",
+        "summary_zh": "近日，生物科技公司Life Biosciences宣布已經對第一名志願者進行了試驗。該試驗目的是通過在眼睛注射一種重編程療法，來治療視力障礙的疾病。這種療法的理念是通過重編程來重生眼睛中的健康神經。這種方法的背後，是人工智慧和基因工程的結合。這種療法的目標是，通過重編程來逆轉視力障礙的疾病。這種療法的結果，還需要進一步的研究和驗證。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
-        "id": "11ba347d",
-        "title": "亞馬遜數據中心去年消耗 25 億加侖的水",
-        "url": "https://www.theverge.com/tech/948534/amazon-data-centers-water-use",
-        "source": "The Verge AI",
+        "id": "662b4f30",
+        "title": "內部感知：你內在感受的隱藏感官",
+        "url": "https://www.technologyreview.com/2026/06/12/1138833/inside-interoception-brain-body/",
+        "source": "MIT Tech Review",
         "category": "ai",
-        "published_at": "2026-06-11T13:26:57-04:00",
-        "summary_zh": "亞馬遜數據中心去年消耗了 25 億加侖的水，這是亞馬遜首次公開其數據中心的水資源消耗數據。這項數據出現於亞馬遜全球數據中心運營的報告中，報告指出，亞馬遜的數據中心在全球各地的水資源消耗引起了關注。亞馬遜的員工曾經要求西雅圖市政府暫停數據中心建設一年，這項要求在去年獲得通過。這項報告出現於亞馬遜全球數據中心運營的報告中，報告指出，亞馬遜的數據中心在全球各地的水資源消耗引起了關注。這項報告出現於亞馬遜全球數據中心運營的報告中，報告指出，亞馬遜的數據中心在全球各地的水資源消耗引起了關注。這項報告出現於亞馬遜全球數據中心運營的報告中，報告指出，亞馬遜的數據中心在全球各地的水資源消耗引起了關注。",
+        "published_at": "Fri, 12 Jun 2026 09:00:00 +0000",
+        "summary_zh": "近年來，科學家對人體的內部感知（interoception）進行了深入研究。內部感知是指人體對自身內部狀態的感知，如心跳、呼吸、飢餓、疲勞等。研究表明，內部感知對於我們的情緒、行為和健康有著重要影響。然而，內部感知的研究仍然是相對陌生的領域，許多人對其知之甚少。這一系列文章將探討內部感知的奧秘，幫助讀者了解人體內部的世界。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "422637a4",
-        "title": "Anthropic 道歉：隱藏 Claude Fable 限制，影響研究人員和競爭對手",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-06-11T07:40:43-04:00",
-        "summary_zh": "人工智慧公司 Anthropic 對其新 AI 模型 Claude Fable 5 的隱藏限制表示道歉。該公司表示，會改變政策，透明地告知使用者何時啟動限制，甚至可能拒絕更多查詢。這一決定可能會影響研究人員和競爭對手，因為隱藏限制會影響系統的可靠性和可信度。這一事件可能會對人工智慧研究產生重大影響，尤其是在開發競爭對手系統方面。Anthropic 的決定可能會被視為是一個重要的轉折點，公司將如何處理這一事件將受到關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "58357669",
@@ -729,42 +681,6 @@
         "category": "ai",
         "published_at": "Thu, 11 Jun 2026 11:00:45 +0000",
         "summary_zh": "谷歌深度學習正在資助研究，探討數百萬個不同AI代理人在線互動的潛在風險。根據谷歌AGI安全性和對齊研究的負責人Rohin Shah的說法，數百萬個代理人在線互動的出現，將會對人類社會產生重大影響。這些代理人可以執行任務而不需要人類監督，並且可以根據其他代理人的指示進行行動。這種情況下，代理人之間的互動將會產生無法預測的結果。谷歌深度學習正在努力了解這種情況下的風險，並發展出方法來防止這種風險的發生。這項研究將會對人工智慧的發展產生重大影響，同時也會對人類社會的未來產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6e4ab094",
-        "title": "未來的工作職位：自然藥物設計師",
-        "url": "https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 11 Jun 2026 10:00:00 +0000",
-        "summary_zh": "化學家蒂姆·塞納克在2018年離開了大型製藥公司，結合了20年的工作經驗。他在梅ルク公司開發了針對癌症、HIV和糖尿病的精準治療方法，這些方法可以針對疾病而不傷害健康細胞。然而作為一名終身的自然愛好者，他越來越擔心人類對自然的影響。他開始研究生物體內的化學物質，希望能夠設計出能夠治療疾病的自然藥物。這項工作使他成為自然藥物設計師，將化學和生物學結合起來，開發出新型的治療方法。這項工作不僅能夠改善人類的健康，也能夠保護自然環境。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "70eba785",
-        "title": "足球數據革命：球員為什麼會故意踢球出界?",
-        "url": "https://www.technologyreview.com/2026/06/11/1138506/inside-soccer-data-renaissance-jesse-davis/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 11 Jun 2026 10:00:00 +0000",
-        "summary_zh": "足球數據革命正在席捲全球，球員的行為也開始受到數據的影響。就在世界盃開幕戰的開球時，觀眾們可能會感到困惑：為什麼球員會在開賽幾秒鐘就故意踢球出界？這種行為看似無理，但其實是由於球員們在數據的指導下進行策略性的選擇。據報導，球員們通過數據分析發現，開賽時故意踢球出界可以增加球隊在進攻時取得優勢的機會。這種策略性的選擇讓球員們在數據的幫助下進行戰術上的調整，從而提高球隊的勝算。足球數據革命的來臨，讓球員們的行為也開始受到數據的影響，球賽的策略也開始由數據來決策。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "09d5a462",
-        "title": "為什麼中國在大型核電廠上下注",
-        "url": "https://www.technologyreview.com/2026/06/11/1138789/china-big-nuclear-reactors/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 11 Jun 2026 10:00:00 +0000",
-        "summary_zh": "中國的核電產業呈現出兩極化的景象。自 2016 年以來，中國的核電廠數量幾乎翻倍，達到近 60 兆瓦的總發電能力。新建的核電廠幾乎都是 1 兆瓦級的壓水式核反應堆。與此相比，美國自 2016 年以來僅建造了兩座核電廠。中國的核電產業快速發展是由於政府對核能的重視，以及對氣候變化的關注。政府的政策支持和投資使得中國的核電產業能夠快速發展。然而，這也引起了環境和安全問題的擔憂。中國的核電產業發展對全球核能產業的影響也值得關注。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -816,9 +732,129 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "3ca94ebb",
+        "title": "Siri 不會成為你的 AI 女友",
+        "url": "https://www.theverge.com/tech/948890/siri-wont-be-your-ai-girlfriend",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-12T03:00:31-04:00",
+        "summary_zh": "蘋果公司的 Craig Federighi 表示，新一代的 Siri AI 設計是讓它知道什麼時候該閉嘴。與其他公司的聊天機器人不同，Siri 不會像 OpenAI、Google 等公司的聊天機器人一樣，過度溝通或像女友般奉承。根據 Craig Federighi 的說法，蘋果公司的目標是讓 Siri 在適當時候保持沉默，避免過度干擾用戶的生活。這一設計理念是基於蘋果公司對人機交互的深入理解，並且希望通過 Siri 的設計，讓用戶能夠更有效地控制自己的生活。這一新設計可能會讓用戶感到舒適和放心，因為 Siri 不會像之前的聊天機器人一樣，過度地試圖與用戶建立關係。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "11ba347d",
+        "title": "亞馬遜數據中心去年消耗 25 億加侖的水",
+        "url": "https://www.theverge.com/tech/948534/amazon-data-centers-water-use",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-11T13:26:57-04:00",
+        "summary_zh": "亞馬遜數據中心去年消耗了 25 億加侖的水，這是亞馬遜首次公開其數據中心的水資源消耗數據。這項數據出現於亞馬遜全球數據中心運營的報告中，報告指出，亞馬遜的數據中心在全球各地的水資源消耗引起了關注。亞馬遜的員工曾經要求西雅圖市政府暫停數據中心建設一年，這項要求在去年獲得通過。這項報告出現於亞馬遜全球數據中心運營的報告中，報告指出，亞馬遜的數據中心在全球各地的水資源消耗引起了關注。這項報告出現於亞馬遜全球數據中心運營的報告中，報告指出，亞馬遜的數據中心在全球各地的水資源消耗引起了關注。這項報告出現於亞馬遜全球數據中心運營的報告中，報告指出，亞馬遜的數據中心在全球各地的水資源消耗引起了關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "422637a4",
+        "title": "Anthropic 道歉：隱藏 Claude Fable 限制，影響研究人員和競爭對手",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-11T07:40:43-04:00",
+        "summary_zh": "人工智慧公司 Anthropic 對其新 AI 模型 Claude Fable 5 的隱藏限制表示道歉。該公司表示，會改變政策，透明地告知使用者何時啟動限制，甚至可能拒絕更多查詢。這一決定可能會影響研究人員和競爭對手，因為隱藏限制會影響系統的可靠性和可信度。這一事件可能會對人工智慧研究產生重大影響，尤其是在開發競爭對手系統方面。Anthropic 的決定可能會被視為是一個重要的轉折點，公司將如何處理這一事件將受到關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "d2236072",
+        "title": "兆豐銀力挺企業赴美投資 出資5000萬美元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5470277",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 12 Jun 2026 17:38:20 +0800",
+        "summary_zh": "為協助台灣企業掌握美國市場投資契機及全球供應鏈布局，兆豐銀行積極響應政府推動的「企業投資美國融資保證機制」。銀行透過參與保證基金與提供整合金融服務，協助企業取得赴美投資所需的資金。這項措施旨在幫助台灣企業拓展美國市場，同時強化全球供應鏈的競爭力。兆豐銀行的出資將提供5000萬美元的資金支持，協助企業實現赴美投資的目標。這項合作將有助於台灣企業在美國市場上取得更好的競爭力，並促進兩國間的經濟合作。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e5c97c42",
+        "title": "薪資成長跑贏通膨！前4月實質月薪年增1.4％ 近6年同期最大",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5470258",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 12 Jun 2026 17:24:11 +0800",
+        "summary_zh": "行政院主計總處公布1至4月經常性薪資平均4萬8826元，年增2.77%。然而，剔除物價因素後，實質經常性薪資年增1.40%，創近6年同期新高。實質總薪資則年增1.99%，為近8年來最高。這意味著薪資成長率已經跑贏通膨，勞動者在物價上漲的情況下仍然能夠擁有較高的購買力。這一數據表明，台灣的勞動市場正在趨於穩定，企業的薪資競爭力正在增強。然而，隨著通膨率的上升，企業仍然需要關注薪資成本的增加對企業營運的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "96df4a18",
+        "title": "SpaceX IPO造富！4400員工成7位數富豪 400人身價突破1億美元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5470242",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 12 Jun 2026 17:08:02 +0800",
+        "summary_zh": "SpaceX的首度公開募股（IPO）成為史上規模最大的上市案，讓執行長馬斯克的財力再次成為焦點。然而，這次不僅是馬斯克或公司高階主管受益，4400名SpaceX員工也從中受惠。根據最新的數據，400名員工的身價已經突破1億美元，成為7位數富豪。這是因為SpaceX的股票在上市後大幅上漲，員工的股票價值也隨之增加。這個結果表明，SpaceX的員工在公司的成功中分享了豐厚的利益。SpaceX的成功也為員工的未來發展提供了新的機會和可能性。這個事件也讓人們對於員工股權的重要性有了新的認識。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f18c2f2d",
+        "title": "勞動部首度於ILC舉辦研討會 強化國際勞動事務參與",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5470223",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 12 Jun 2026 17:03:32 +0800",
+        "summary_zh": "勞動部部長洪申翰率團赴日內瓦出席「尊嚴勞動國際研討會」，這是勞動部首度在國際勞工大會期間辦理周邊活動。研討會以強化國際勞動事務參與為主題，旨在促進勞工權益和勞動條件的改善。洪申翰部長表示，勞動部將繼續參與國際勞工組織的活動，推動勞工權益和勞動條件的改善。這項活動將有助於增進勞動部與國際勞工組織之間的合作和溝通，進一步推動勞工權益和勞動條件的改善。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "abb4c3fe",
+        "title": "TrendForce：Q1全球前十大晶圓代工營收季增3.7％ 台積電市占率逆勢增加至72.3％",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5470237",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 12 Jun 2026 17:02:15 +0800",
+        "summary_zh": "根據TrendForce最新晶圓代工產業研究，第一季度全球晶圓代工業的營收呈現出3.7％的季增率。除了AI HPC與相關周邊訂單仍在高需求下出貨外，電視、筆記本電腦等供應鏈提前生產出貨，同時提高周邊IC庫存水位，對晶圓代工業的營收有所貢獻。其中，台積電的市占率逆勢增加至72.3％，表明其在全球晶圓代工業中占有重要地位。這一數據也反映出台積電在高端晶圓代工領域的領先地位。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "7a523345",
+        "title": "魏哲家出席屏東半導體供應鏈專區動土 賴清德：水電、土地、人才都不缺",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5470011",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 12 Jun 2026 17:01:00 +0800",
+        "summary_zh": "屏東科學園區半導體供應鏈專區今天舉行聯合動土典禮，總統賴清德、台積電董事長暨總裁魏哲家及7家廠商董事長或總經理及縣長周春米等人出席。賴清德表示，屏東半導體供應鏈專區的建設將為當地帶來新的經濟發展機會，同時也將促進半導體產業的發展。魏哲家也表示，台積電將在屏東半導體供應鏈專區投資新廠，創造更多就業機會。這項投資將為屏東帶來新的經濟活力，並且也將促進當地的產業發展。然而，目前尚未有具體的時間表或投資額度公布。這項投資將對屏東的經濟發展產生重大影響，同時也將促進半導體產業的發展。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "b7575aa4",
+        "title": "台股逾千萬外資賣超前10大！凱基金、力積電全上榜 這檔倒貨2.6萬張最慘",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5470244",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 12 Jun 2026 16:58:56 +0800",
+        "summary_zh": "台股週五在台積電等高價股、記憶體喊衝，終場漲1019點。雖然外資結束連6賣，但今轉買超286.9億元。然而，外資對電子與金融大提款，其中友達光電倒貨2.6萬張最慘。凱基基金、力積電等也出現在賣超前10大名單中。這些賣超的原因可能與市場預期、公司財務或政策變化等因素有關。外資的買賣超動態可能對台股市場的走勢產生影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "991d4bdb",
         "title": "輝達推Vera晶片競逐中國市場 最快8月上市",
@@ -828,8 +864,8 @@
         "published_at": "Fri, 12 Jun 2026 16:30:51 +0800",
         "summary_zh": "輝達已經告知中國客戶，將推出全新Vera中央處理器，主要針對人工智慧（AI）資料中心的需求。根據3名知情人士的透露，Vera晶片最快可能在8月上市，客戶現在即可開始下單。這一動作表明輝達正在競逐中國市場，嘗試擴大其在人工智慧領域的影響力。中國市場對於輝達的發展具有重要意義，該公司正嘗試在這一領域取得領先地位。這一發展也可能對全球人工智慧市場產生影響，競爭加劇的市場環境可能會推動相關技術的進步。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "b89637b5",
@@ -840,8 +876,8 @@
         "published_at": "Fri, 12 Jun 2026 16:28:45 +0800",
         "summary_zh": "美國半導體232關稅尚未出爐，外界高度矚目。行政院副院長鄭麗君表示，目前已向美方提出，希望未來實施半導體232關稅之前，能夠先完成台廠赴美投資配額零關稅及豁免清單的協商，以免避免廠商受到衝擊。這意味著，在尚未確認台廠可適用的優惠待遇之前，期盼美國半導體232關稅實施時間越晚越好。這一措施的目的在於保護台廠的利益，避免因為未知的優惠待遇而導致的不確定性。這一發展也表明，台灣政府正在努力與美國政府溝通，尋求最佳的解決方案。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "b80e4ee0",
@@ -852,8 +888,8 @@
         "published_at": "Fri, 12 Jun 2026 16:04:24 +0800",
         "summary_zh": "台北外匯市場新台幣兌美元今天收盤收31.618元，升1.3分。這是因為市場對新台幣的需求增加，導致新台幣升值。根據市場數據，今天的成交金額達到19.07億美元，這表明市場交易活躍。新台幣升值對台灣的出口業有所幫助，可能會增加出口收入。然而，升值也可能對進口業造成壓力。總體而言，今天的外匯市場表現相對穩定。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "bf1ef0f7",
@@ -864,8 +900,8 @@
         "published_at": "Fri, 12 Jun 2026 15:49:11 +0800",
         "summary_zh": "三福化工董事長巫信弘表示，面板廠群創陸續賣廠，觸控面板廠精金科技關廠，面板化工材料生意大幅減少。半導體製程化工材料的占比卻攀升，甚至已經與面板化工材料占營收的比重相近。另外，三福化工在越南的一個廠房已經產能滿載，另一個廠房正在整地中，預計2027年將投產，生產氣體，供應當地的散熱產業和製鞋業客戶。這表明三福化工正在轉型，從面板化工材料的領域轉向半導體製程化工材料的領域。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "1d08bc0e",
@@ -876,8 +912,8 @@
         "published_at": "Fri, 12 Jun 2026 15:44:09 +0800",
         "summary_zh": "台灣證券交易所今天舉行股東常會，公佈2025年的財務報告。根據報告，證交所2025年歸屬母公司淨利新台幣136.45億元，較2024年略增0.7%，創下歷史新高。每股獲利達到7.88元。為了分配利潤，股東會通過每股配發現金股息3.2元及股票股利1.5元，合計每股股利4.7元。這項決定將對證交所的股東產生重大影響，股東將獲得豐厚的股利。這也表明證交所的財務狀況良好，未來有望繼續保持穩定的發展。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "88536737",
@@ -888,59 +924,83 @@
         "published_at": "Fri, 12 Jun 2026 15:40:04 +0800",
         "summary_zh": "富崴能源因承攬台電離岸風電二期計畫陷入財務困境，母公司森崴呼籲台電接手後續工程。經濟部長龔明鑫表示，目前台電仍在與富崴討論，考量工程進度達9成，風機也已製造完成。無論台電與富崴最終商議何種方案，台電二期離岸風電計畫一定會完成。經濟部表明尊重台電與富崴的最終商議結果。風電計畫的完成對於台灣的能源安全和減碳目標具有重要意義。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "de5afb5f",
-        "title": "中信金: 拚擴大證券市占率 持續關注併購機會",
-        "url": "https://www.cna.com.tw/news/afe/202606120230.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 12 Jun 2026 15:24:47 +0800",
-        "summary_zh": "中信金總經理高麗雪表示，台灣近年金融市場非常火熱，但中信證券規模仍不夠大，希望急起直追。公司一直留意證券併購機會，但目前還沒看到適合的標的。高麗雪強調，公司將持續關注市場變化，並強化與銀行的合作，希望帶動證券開戶業務的發展。這一措施有望幫助中信證券擴大市場份額，進一步增強競爭力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "dd90a37a",
-        "title": "期交所推黃金類商品及非金電期貨小型化契約 7月實施",
-        "url": "https://www.cna.com.tw/news/afe/202606120226.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 12 Jun 2026 15:16:39 +0800",
-        "summary_zh": "由於國際金價波動和台股市場高檔震盪加劇，台灣期貨交易所決定縮小黃金類商品及非金電期貨契約規模。這項改變旨在提升交易彈性及資金運用效率。期交所還擴大黃金選擇權履約價格序列涵蓋範圍。相關規劃及規章修正經主管機關核准，預計7月上旬實施。這項變革將對市場有所影響，投資者應密切關注相關發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "aa132da4",
-        "title": "經濟部首次開經濟發展諮詢大會 產業界籲寬估電力",
-        "url": "https://www.cna.com.tw/news/afe/202606120221.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 12 Jun 2026 15:07:28 +0800",
-        "summary_zh": "經濟部今天首次召開經濟及產業發展諮詢大會，旨在推動百工百業於本地及國外市場共同發展。經濟部長龔明鑫表示，將透過半導體、AI、聯盟等方式，促進產業發展。面對AI發展浪潮，產業界提到要寬估電力布局，相關建議將納入考量。這意味著政府可能會對電力產業進行調整，以應對未來的產業需求。這項諮詢大會的召開，顯示政府對產業發展的重視，也表明政府願意聽取產業界的意見和建議。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9f611a6e",
-        "title": "三大法人買超台股505.69億元",
-        "url": "https://www.cna.com.tw/news/afe/202606120220.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 12 Jun 2026 15:06:26 +0800",
-        "summary_zh": "台股今天大幅上漲，收市點數達44169.04點，成交值達1兆1176.45億元。這次上漲不僅受到市場投資者的歡迎，三大法人也同步買超，包括外資及陸資、投信和自營商等。根據統計，三大法人買超總計達505.69億元，顯示市場對台股的信心正在增強。這一波買超將對台股市場產生正面影響，可能會帶動更多投資者進場買入。然而，市場的波動也需要投資者保持謹慎的態度，避免過度投入。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       }
     ],
     "finance": [
+      {
+        "id": "e8f4d685",
+        "title": "CME 宣布24/7 WTI 油和黃金合約將上市",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-11/cme-announces-plans-to-offer-24-7-wti-oil-and-gold-contracts",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-11 21:48:52",
+        "summary_zh": "美國商品交易所 (CME) 宣布將推出 24 小時 7 天的 WTI 油和黃金合約。這項新產品將為投資者提供更多的交易機會和靈活性。這項變化將對全球能源和金屬市場產生重大影響，投資者將能夠在任何時間點進行交易。這項變化將為投資者帶來新的投資機會和風險。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "81fd1c00",
+        "title": "美國上訴法院限制BMW案件集體訴訟律師費用",
+        "url": "https://www.reuters.com/legal/government/us-appeals-court-limits-class-action-lawyers-fees-bmw-case-2026-06-11/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-11 21:43:04",
+        "summary_zh": "美國一家上訴法院最近做出裁決，限制集體訴訟律師在BMW案件中的收費。根據裁決，律師只能收取案件中獲取的獎金的10%至25%。這項裁決對於美國的集體訴訟法律產生了重大影響。集體訴訟律師的收費一直是美國法律界的熱門話題。美國的集體訴訟法律允許多名受害者一起訴訟，律師可以收取案件中獲取的獎金的部分。然而，這項法律也引起了爭議，許多人認為律師收費太高。這項裁決試圖平衡律師的權益與受害者的權益。美國的集體訴訟法律仍然是有爭議的話題，未來可能會有更多的裁決和法律變化。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "983fa7b8",
+        "title": "委內瑞拉與雪佛龍簽署協議，包括洛蘭天然氣田",
+        "url": "https://www.reuters.com/business/energy/venezuela-signs-agreements-with-shell-including-loran-gas-field-2026-06-11/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-11 21:35:59",
+        "summary_zh": "委內瑞拉政府宣布與雪佛龍公司簽署協議，包括洛蘭天然氣田的開發權。這項協議將幫助委內瑞拉增加天然氣出口量，進而改善該國的能源安全。雪佛龍公司將在委內瑞拉投資數十億美元，以開發洛蘭天然氣田。這項投資將創造大量就業機會，並幫助委內瑞拉的經濟增長。委內瑞拉政府估計，這項協議將幫助該國增加天然氣出口量達到 1 億 5,000 萬立方英尺。這項協議的簽署標誌著委內瑞拉與國際能源公司的合作加強，將幫助該國改善經濟和能源安全。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "de6ad8f8",
+        "title": "俄羅斯副總理呼籲建立燃料市場預測系統防止短缺",
+        "url": "https://www.reuters.com/business/energy/russian-deputy-pm-calls-fuel-market-forecasts-prevent-shortages-2026-06-11/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-11 21:23:43",
+        "summary_zh": "俄羅斯副總理亞歷山大·諾瓦克 (Alexander Novak) 表示，需要建立一個預測系統，以防止燃料分配困難和滿足國內需求。俄羅斯政府週四晚間表示，諾瓦克呼籲建立這個系統，以預防燃料市場短缺。這是俄羅斯政府對燃料市場短缺的最新回應，俄羅斯一直面臨著燃料供應的挑戰。諾瓦克的呼籲表明，俄羅斯政府正在努力解決燃料短缺問題，並且正在尋找新的方法來滿足國內需求。然而，俄羅斯政府的措施是否能夠有效解決燃料短缺問題，仍然存疑。燃料短缺對俄羅斯經濟和人民的影響將是關鍵考量。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7c7c8b15",
+        "title": "華倫女士發函質疑SpaceX上市過程監管",
+        "url": "https://www.cnbc.com/2026/06/11/warren-spacex-ipo-exchanges.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-06-11 21:14:56",
+        "summary_zh": "美國參議員伊莉莎白·華倫發出函件，要求對SpaceX上市過程進行監管。函件中詢問了對指數基金等待期限的變化、零售投資者保護措施等問題。這些問題與投資者權益和市場監管有關，華倫女士的行動表明了對投資者保護的關注。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "bc6d45e7",
+        "title": "加拿大承諾加強食品產業以應對食品成本上升",
+        "url": "https://www.reuters.com/business/canada-pledges-boost-food-sector-grocery-costs-rise-2026-06-11/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-11 21:02:09",
+        "summary_zh": "加拿大政府近日宣布將會對食品產業進行投資，旨在幫助加拿大食品業者應對食品成本上升的挑戰。根據政府的計畫，將會為食品業者提供額外的資金，幫助他們提高生產效率和出口能力。這項計畫的目標是，通過投資食品產業，幫助加拿大食品業者提高競爭力，同時也會幫助加拿大出口食品到其他國家。加拿大食品業者一直面臨著食品成本上升的問題，這些成本上升對於食品業者的生產成本和出口價格都造成了重大影響。政府的投資計畫將會幫助食品業者減少成本，提高出口能力，從而幫助加拿大出口食品到其他國家。這項計畫的影響將會遠超出食品產業，對於加拿大的整體經濟都會產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "2f24bf07",
         "title": "報告：PIF僅為LIV Golf提供了26年的三分之一資金需求",
@@ -950,8 +1010,20 @@
         "published_at": "2026-06-11 20:57:54",
         "summary_zh": "根據最新的報告，私人投資基金（PIF）僅為LIV Golf提供了該組織在2026年所需的資金的三分之一。這項資金需求是為了支持LIV Golf的全球發展計畫。PIF的資金投入對LIV Golf的運作至關重要，因為該組織正在努力與傳統的職業高爾夫球聯賽競爭。然而，PIF的資金投入仍不足以滿足LIV Golf的需求，這可能會對該組織的未來發展造成影響。根據報告，LIV Golf需要更多的資金來實現其全球發展計畫，這可能會對該組織的未來發展造成重大影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7d8a9780",
+        "title": "Adobe 首席財務官離職，公司同時尋找新 CEO",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-11/adobe-s-cfo-departs-leaving-company-seeking-top-executives",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-11 20:57:16",
+        "summary_zh": "Adobe 首席財務官 Dan Durn 宣布離職，公司將展開尋找新首席財務官的過程。這項變化發生在 Adobe 正在尋找新 CEO 的同時。Adobe 的 CEO 位置已經空缺近一年，公司正在尋找適合的候選人。首席財務官的離職將對公司的財務決策產生影響。目前尚未公布新首席財務官的名字。Adobe 的股價在近期受到市場波動的影響。公司的財務表現將受到新首席財務官的選擇的影響。Adobe 的未來發展將受到公司的財務決策的影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "f71af861",
@@ -964,78 +1036,6 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "7d8a9780",
-        "title": "Adobe 首席財務官離職，公司同時尋找新 CEO",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-11/adobe-s-cfo-departs-leaving-company-seeking-top-executives",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-11 20:57:16",
-        "summary_zh": "Adobe 首席財務官 Dan Durn 宣布離職，公司將展開尋找新首席財務官的過程。這項變化發生在 Adobe 正在尋找新 CEO 的同時。Adobe 的 CEO 位置已經空缺近一年，公司正在尋找適合的候選人。首席財務官的離職將對公司的財務決策產生影響。目前尚未公布新首席財務官的名字。Adobe 的股價在近期受到市場波動的影響。公司的財務表現將受到新首席財務官的選擇的影響。Adobe 的未來發展將受到公司的財務決策的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "059068ef",
-        "title": "銀行股價創下新高 美伊協議與IPO熱潮帶動",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-11/bank-stocks-hit-record-highs-on-us-iran-deal-hopes-ipo-optimism",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-11 20:54:10",
-        "summary_zh": "美伊協議的希望與IPO熱潮使銀行股價創下新高。市場人士表示，這些因素使投資者對銀行業的前景感到樂觀。銀行股價的上漲也受到美國經濟增長的預期影響。投資者們認為，美國經濟的增長將帶來更多貸款需求，從而推動銀行業的發展。另一方面，IPO熱潮也使銀行股價受到提振。許多公司正在籌劃上市，銀行業的活躍也將為這些公司提供融資支持。儘管市場人士對美伊協議的前景存疑，但投資者們仍對銀行業的前景感到樂觀。這些因素使銀行股價創下新高，投資者們對銀行業的未來感到充滿希望。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "95998061",
-        "title": "Venture Global 和 Atlantic-SEE 簽署雙重美國天然氣液化供應協議供給希臘",
-        "url": "https://www.reuters.com/business/energy/venture-global-atlantic-see-double-us-lng-supply-deal-greece-2030-2026-06-11/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-11 20:33:13",
-        "summary_zh": "美國天然氣液化企業Venture Global 和 Atlantic-SEE 宣佈簽署一項雙重供應協議，將從 2030 年開始向希臘供應美國天然氣液化。這項協議將為希臘提供穩定的能源供應，同時也將幫助希臘減少對俄羅斯天然氣的依賴。這項協議的簽署標誌著美國天然氣液化在歐洲市場的進一步擴張。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "9450c1aa",
-        "title": "澳洲央行將於6月16日暫停升息；少數人仍預見第三季升息：路透社民意調查",
-        "url": "https://www.reuters.com/world/asia-pacific/australias-central-bank-pause-june-16-minority-still-see-q3-rate-hike-2026-06-11/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-11 20:28:17",
-        "summary_zh": "澳洲央行將於6月16日暫停升息，路透社最新民意調查顯示，市場預期澳洲央行將暫停升息，但仍有一部分人預見第三季將會升息。根據路透社的調查，市場預期澳洲央行將在6月16日暫停升息，這將是自2022年11月以來的第五次暫停升息。然而，仍有一部分人預見第三季將會升息，認為澳洲央行將需要升息來控制通貨膨脹。調查結果顯示，市場對澳洲央行未來政策走向的預期存在分歧。這將對澳洲經濟和金融市場產生重要影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "cdefa215",
-        "title": "美元跌幅達一個月最大跌幅，川普表示戰爭即將結束",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-11/dollar-drops-the-most-in-a-month-as-trump-says-the-war-is-ending",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-11 20:27:00",
-        "summary_zh": "美元在川普的聲明下大幅下跌，跌幅達一個月最大。川普表示，美國正在與俄羅斯和伊朗達成和平協議，戰爭即將結束。這個消息使美元的需求下降，導致美元的價格下跌。美元的跌幅對全球金融市場產生了重大影響，投資者紛紛將資金轉移到安全的投資工具中。川普的聲明也使美元的未來走勢變得不確定，投資者需要密切關注美元的市場動態。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "de21c40c",
-        "title": "加拿大油品短缺和惡劣天氣將使美國重要儲存樞紐庫存緊縮",
-        "url": "https://www.reuters.com/business/energy/canada-oil-outages-bad-weather-tighten-inventories-key-us-storage-hub-2026-06-11/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-11 20:23:43",
-        "summary_zh": "加拿大油品短缺和惡劣天氣預計將使美國重要儲存樞紐庫存緊縮。根據市場消息，美國西部地區的油品儲存量已經開始減少，儲存樞紐的庫存將在未來幾周內持續下降。這種情況是由於加拿大油田的短缺和美國西部地區的惡劣天氣引起的。惡劣天氣使得油田運輸和儲存受到影響，進而導致油品短缺。市場分析師預計，這種情況將對全球油價產生影響，可能導致油價上漲。儲存樞紐的庫存緊縮將使得油價更加不穩定，可能導致油價波動。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
       },
       {
         "id": "8227e73a",
@@ -1060,21 +1060,33 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "871eea0c",
-        "title": "北京網購警告影響中國科技股",
-        "url": "https://www.ft.com/content/75c630a9-8d94-422c-ba0d-8f5fd37f3125",
-        "source": "FT Tech",
-        "category": "finance",
-        "published_at": "Thu, 11 Jun 2026 09:51:34 GMT",
-        "summary_zh": "近日，中國網購市場出現一樁事件，中國網購巨頭阿里巴巴和京東商城因在「6.18」網購活動期間使用誤導性銷售策略而受到監管機構的警告。這樁事件對中國科技股產生了重大影響。阿里巴巴和京東商城在活動期間使用了大量的促銷活動和折扣，以吸引消費者購買，但監管機構認為這些策略可能導致消費者誤解產品價格和優惠。監管機構的警告對阿里巴巴和京東商城的股價造成了重大影響，股價下跌了幾個百分點。這樁事件也引起了對中國網購市場的關注，許多分析師認為這樁事件可能會對整個市場產生長期影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "stock_us": [
+      {
+        "id": "825e944c",
+        "title": "交易日：和平再臨...",
+        "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-11/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-06-11 21:12:21",
+        "summary_zh": "美國股市在周四出現兩個月以來最大反彈，石油價格和國債收益率也大幅下跌。這是因為美國總統唐納德·川普宣布取消對伊朗的軍事打擊計畫，並表示可以在本週末簽署和平協議。這一消息讓投資者感到欣慰，市場情緒轉趨樂觀。然而，投資者仍然需要觀察川普政府的下一步行動，以確保和平協議的實現。這一事件對全球金融市場產生了重大影響，投資者應該密切關注發展。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8d69c862",
+        "title": "SpaceX 在星鏈領先競爭對手，但 IPO 前進展變得困難",
+        "url": "https://www.cnbc.com/2026/06/11/spacex-starlink-growth-getting-harder-ahead-of-ipo.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-11 21:02:43",
+        "summary_zh": "SpaceX 即將在 IPO 前進展，但公司的唯一盈利業務是星鏈。然而，這也引發了投資者的關注點。星鏈是 SpaceX 的一項重要業務，該業務提供全球衛星網路服務。雖然星鏈的成長速度遠超競爭對手，但公司仍面臨著在 IPO 前進展的困難。投資者們對 SpaceX 的財務報表感到擔憂，因為公司的盈利能力仍然有限。SpaceX 的 CEO 伯南克 (Elon Musk) 表示，公司將繼續投資於星鏈業務，並致力於提高其盈利能力。然而，這也引發了投資者對公司未來發展的疑慮。投資者們需要仔細評估 SpaceX 的財務報表和未來發展前景，以便做出明智的投資決策。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "054786d5",
         "title": "紐街研究的費拉古為SpaceX設定165美元價格目標",
@@ -1084,8 +1096,8 @@
         "published_at": "2026-06-11 20:34:33",
         "summary_zh": "紐約證券交易所的「Closing Bell Overtime」團隊與紐街研究的費拉古就SpaceX即將上市的IPO進行了討論。費拉古表示，他的研究公司對SpaceX的估值達到165美元。費拉古認為，SpaceX的價格目標與其在太空探索和衛星通信領域的領先地位有關。他還提到，SpaceX的技術和業務模式正在受到投資者的高度關注。費拉古表示，SpaceX的價格目標將取決於其未來的成長潛力和市場接受度。這一評估將對SpaceX的未來發展產生重要影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "cbf11e0d",
@@ -1096,8 +1108,8 @@
         "published_at": "2026-06-11 20:05:57",
         "summary_zh": "伊頓公司的行動部門將與 Dana 公司合併，交易價值為 51 億美元。這項交易使伊頓公司一步步走向成為人工智慧大潮的可靠投資選擇。伊頓公司的行動部門是該公司在人工智慧領域的關鍵業務部門，該部門提供電動車用電機和其他相關零部件。這項交易將使伊頓公司的行動部門更加強大，並能夠更好地應對人工智慧大潮帶來的挑戰。同時，這項交易也將使伊頓公司的財務狀況更加穩定，為公司未來的發展提供了堅實的基礎。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "640e4e82",
@@ -1155,30 +1167,6 @@
         "category": "stock_us",
         "published_at": "2026-06-11 18:00:00",
         "summary_zh": "華爾街投資者正在競相將SpaceX變成高杠杆零售交易的標的。根據市場消息，投資者正在積極購買SpaceX的股票和衍生品，以利用公司未來的財務表現。這些投資者認為，SpaceX的財務表現將會大幅增長，尤其是在公司未來的太空發射業務和星際旅遊業務中。投資者們透過購買股票和衍生品來高杠杆化投資，希望能夠從SpaceX未來的財務表現中獲取更高的回報。然而，這種投資策略也存在著風險，投資者們需要小心考慮投資的風險和收益。SpaceX的未來財務表現將會受到多種因素的影響，包括太空發射業務的成長、星際旅遊業務的發展以及公司的研發投入等。投資者們需要密切關注SpaceX的財務表現和市場動態，以便能夠做出明智的投資決策。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "abce4779",
-        "title": "華爾街從未見過像SpaceX這樣的公司",
-        "url": "https://www.cnbc.com/video/2026/06/11/why-wall-street-has-never-seen-a-company-like-spacex.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-11 17:44:28",
-        "summary_zh": "SpaceX即將進入公開市場，估值有可能讓它成為地球上最有價值的公司之一。但是，SpaceX到底是一家火箭公司、衛星互聯網企業、國防合約商、人工智慧基礎設施玩家還是什麼新玩意？CNBC的Deirdre Bosa分析了「戰略科技溢價」。SpaceX的多元化業務使其難以被歸類於單一行業。公司的估值將取決於投資者的看法。這可能會對全球科技市場產生重大影響。SpaceX的進入公開市場將是一個關鍵時刻，投資者將密切關注公司的表現。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8089b15d",
-        "title": "甲骨文股價大跌，但AI晶片和電源股卻有銀光一線",
-        "url": "https://www.cnbc.com/2026/06/11/oracle-shares-tumble-on-earnings-but-theres-a-silver-lining-for-our-ai-chip-and-power-stocks.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-11 16:51:27",
-        "summary_zh": "甲骨文投資人並未獲得所期望的業績報表，但這項報告對於其他在AI領域的股票卻有著積極的影響。甲骨文的業績報告雖然未能滿足投資人的期望，但它對於AI晶片和電源股的發展卻有著積極的影響。這些股權的價值在近期的市場波動中出現了上升的趨勢。分析師認為，這項業績報告對於AI領域的投資人來說是一個好消息。投資人應該關注這些在AI領域的股票，特別是那些與晶片和電源相關的公司。這些公司的業績表現將對於市場的發展產生重要影響。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
