@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-18T15:04:17.297050+08:00",
+  "generated_at": "2026-06-18T16:04:17.516177+08:00",
   "risk_signals": [
     "🟢 台股加權 46465.2（正常）",
     "🟢 S&P 500 7420.1（正常）",
-    "🟢 VIX 恐慌指數 18.44（正常）",
+    "🟢 VIX 恐慌指數 17.12（正常）",
     "🟢 MOVE 債市波動 69.36（正常）",
-    "🟢 美元指數 100.25（正常）",
-    "🟢 黃金 4324.7（正常）",
+    "🟢 美元指數 100.3（正常）",
+    "🟢 黃金 4311.9（正常）",
     "🟢 美債10Y殖利率 4.49（正常）",
-    "🟢 原油 WTI 74.12（正常）",
-    "🟢 美元/台幣 31.55（正常）"
+    "🟢 原油 WTI 74.35（正常）",
+    "🟢 美元/台幣 31.58（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，台股和美股小幅上漲，但美元指數和美債10Y殖利率保持正常水平，表明投資者對經濟前景仍然樂觀。",
+  "ai_summary": "市場氛圍穩定，投資者情緒未見明顯波動，指標正常運作。",
   "market": {
     "TWII": {
       "price": 46465.2,
@@ -26,8 +26,8 @@
       "change_pct": -1.34
     },
     "VIX": {
-      "price": 18.44,
-      "change_pct": 12.37
+      "price": 17.12,
+      "change_pct": -7.16
     },
     "TNX": {
       "price": 4.49,
@@ -38,25 +38,85 @@
       "change_pct": -0.13
     },
     "DXY": {
-      "price": 100.25,
-      "change_pct": 0.16
+      "price": 100.3,
+      "change_pct": 0.21
     },
     "GOLD": {
-      "price": 4324.7,
-      "change_pct": -0.78
+      "price": 4311.9,
+      "change_pct": -1.08
     },
     "OIL": {
-      "price": 74.12,
-      "change_pct": -3.48
+      "price": 74.35,
+      "change_pct": -3.18
     },
     "USDTWD": {
-      "price": 31.55,
-      "change_pct": -0.03
+      "price": 31.58,
+      "change_pct": 0.05
     }
   },
   "macro": {},
   "categories": {
     "whitehouse": [
+      {
+        "id": "460d7fcd",
+        "title": "美國與伊朗協議內容",
+        "url": "https://www.bbc.com/news/articles/cvgmqzr6p9mo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 18 Jun 2026 01:28:02 GMT",
+        "summary_zh": "美國官員將伊朗與美國的備忘錄（MoU）描述為「績效基礎」的協議，伊朗將在履行協議時獲得好處。這項備忘錄是美國與伊朗在最近的會議中達成的協議，具體內容尚未公開。美國官員表示，這項協議將對伊朗產生積極的影響，伊朗將在履行協議時獲得好處。這項協議的具體內容和影響尚待觀察。美國與伊朗的關係一直處於緊張狀態，雙方在多個問題上存在分歧。美國官員表示，這項備忘錄將有助於改善美國與伊朗的關係。然而，伊朗方面尚未對這項協議做出正式回應。美國官員表示，將密切關注伊朗的回應，以確保協議的順利實施。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e66343bc",
+        "title": "法官判決：吉爾戈海灘兇手終身監禁",
+        "url": "https://www.bbc.com/news/articles/clyw29kvlydo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 17 Jun 2026 17:45:54 GMT",
+        "summary_zh": "吉爾戈海灘兇手被判處終身監禁。法官在激烈的辯論中判決他三個終身監禁的刑期，另外四個罪名各判處 25 年至終身監禁的刑期，所有刑期均為連續執行。這名兇手被指控犯下多起兇殺案，法官認為他對社會構成了重大威脅。這項判決將使兇手永遠與外界隔離。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ff50c102",
+        "title": "FBI 阻止針對白宮 UFC 活動的恐怖陰謀",
+        "url": "https://www.bbc.com/news/articles/cqx10xlje1lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 17 Jun 2026 09:46:31 GMT",
+        "summary_zh": "美國媒體報導，該陰謀涉及使用無人機進行攻擊。FBI局長表示，多名嫌疑人已被捕。根據美國媒體的報導，這起恐怖陰謀的目標是針對白宮舉行的 UFC 活動。FBI局長表示，該陰謀已被阻止，並且多名嫌疑人已被捕。這起事件顯示，美國政府和安全機構正在密切關注恐怖主義威脅。這也表明，FBI局長和美國政府正在采取積極措施防止恐怖主義活動。這起事件對美國國內安全和穩定產生了重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5ee31808",
+        "title": "川普政府再次對抗法恐怖組織發出毀滅性打擊",
+        "url": "https://www.whitehouse.gov/releases/2026/06/trump-administration-delivers-another-crushing-blow-to-antifa-terrorist-network/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 17 Jun 2026 15:57:08 +0000",
+        "summary_zh": "川普政府去年將抗法組織定義為內部恐怖組織，並指示聯邦政府全面追捕、打斷和解散暴力無政府主義網絡。這週，司法部部長發起了一項針對抗法組織的重大行動，指控 15 名與抗法組織有關的恐怖分子，涉嫌阻礙合法移民執法。這項行動是川普政府對抗法組織的又一次重大打擊。川普政府對抗法組織的行動受到廣泛批評，但也獲得了部分支持者的讚賞。這項行動的影響將會持續出現，對抗法組織的影響力和活動將會受到嚴重打擊。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9bc9a081",
+        "title": "首席女郎梅拉尼婭·川普推出「未來之路賬戶」助長孤兒養護青少年的財務自主權",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/what-they-are-saying-first-lady-melania-trump-launches-fostering-the-future-accounts/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 17 Jun 2026 13:23:49 +0000",
+        "summary_zh": "美國首席女郎梅拉尼婭·川普近期推出「未來之路賬戶」計畫，旨在幫助孤兒養護青少年擁有長期財務穩定。這項計畫與美國財政部合作，為符合條件的養護青少年提供稅優惠的投資和儲蓄賬戶。這些賬戶將幫助青少年在成年後擁有財務自主權。這項計畫的目標是為養護青少年提供財務教育和技能，幫助他們在未來的生活中更好地管理財務。這項計畫的推出受到各方的關注和支持，許多人認為這是一個重要的步驟，能夠幫助養護青少年擁有更好的未來。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "2a51fd3a",
         "title": "川普在一瞥中：川普將自己投降到伊朗協議中",
@@ -166,18 +226,6 @@
         "ai_classified": true
       },
       {
-        "id": "460d7fcd",
-        "title": "美國與伊朗協議內容",
-        "url": "https://www.bbc.com/news/articles/cvgmqzr6p9mo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Thu, 18 Jun 2026 01:28:02 GMT",
-        "summary_zh": "美國官員將伊朗與美國的備忘錄（MoU）描述為「績效基礎」的協議，伊朗將在履行協議時獲得好處。這項備忘錄是美國與伊朗在最近的會議中達成的協議，具體內容尚未公開。美國官員表示，這項協議將對伊朗產生積極的影響，伊朗將在履行協議時獲得好處。這項協議的具體內容和影響尚待觀察。美國與伊朗的關係一直處於緊張狀態，雙方在多個問題上存在分歧。美國官員表示，這項備忘錄將有助於改善美國與伊朗的關係。然而，伊朗方面尚未對這項協議做出正式回應。美國官員表示，將密切關注伊朗的回應，以確保協議的順利實施。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "d22bb95a",
         "title": "曼吉昂律師計畫在州殺人審判中提出精神病防禦",
         "url": "https://www.bbc.com/news/articles/c1lym76jyymo?at_medium=RSS&at_campaign=rss",
@@ -187,18 +235,6 @@
         "summary_zh": "曼吉昂律師宣布將在州殺人審判中提出精神病防禦。根據消息，曼吉昂律師將會爭辯他在殺死聯合健康CEO布萊恩湯普森時正處於「極度情緒紊亂」的狀態。這一精神病防禦可能會對曼吉昂的案件產生重大影響。曼吉昂的律師將會試圖證明他在殺人時的精神狀態不正常，從而減輕他的責任。這一案件的結果將會受到大家的關注。曼吉昂的精神狀態將會是審判的關鍵焦點。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e66343bc",
-        "title": "法官判決：吉爾戈海灘兇手終身監禁",
-        "url": "https://www.bbc.com/news/articles/clyw29kvlydo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Wed, 17 Jun 2026 17:45:54 GMT",
-        "summary_zh": "吉爾戈海灘兇手被判處終身監禁。法官在激烈的辯論中判決他三個終身監禁的刑期，另外四個罪名各判處 25 年至終身監禁的刑期，所有刑期均為連續執行。這名兇手被指控犯下多起兇殺案，法官認為他對社會構成了重大威脅。這項判決將使兇手永遠與外界隔離。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -236,55 +272,139 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "ff50c102",
-        "title": "FBI 阻止針對白宮 UFC 活動的恐怖陰謀",
-        "url": "https://www.bbc.com/news/articles/cqx10xlje1lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Wed, 17 Jun 2026 09:46:31 GMT",
-        "summary_zh": "美國媒體報導，該陰謀涉及使用無人機進行攻擊。FBI局長表示，多名嫌疑人已被捕。根據美國媒體的報導，這起恐怖陰謀的目標是針對白宮舉行的 UFC 活動。FBI局長表示，該陰謀已被阻止，並且多名嫌疑人已被捕。這起事件顯示，美國政府和安全機構正在密切關注恐怖主義威脅。這也表明，FBI局長和美國政府正在采取積極措施防止恐怖主義活動。這起事件對美國國內安全和穩定產生了重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5ee31808",
-        "title": "川普政府再次對抗法恐怖組織發出毀滅性打擊",
-        "url": "https://www.whitehouse.gov/releases/2026/06/trump-administration-delivers-another-crushing-blow-to-antifa-terrorist-network/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 17 Jun 2026 15:57:08 +0000",
-        "summary_zh": "川普政府去年將抗法組織定義為內部恐怖組織，並指示聯邦政府全面追捕、打斷和解散暴力無政府主義網絡。這週，司法部部長發起了一項針對抗法組織的重大行動，指控 15 名與抗法組織有關的恐怖分子，涉嫌阻礙合法移民執法。這項行動是川普政府對抗法組織的又一次重大打擊。川普政府對抗法組織的行動受到廣泛批評，但也獲得了部分支持者的讚賞。這項行動的影響將會持續出現，對抗法組織的影響力和活動將會受到嚴重打擊。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9bc9a081",
-        "title": "首席女郎梅拉尼婭·川普推出「未來之路賬戶」助長孤兒養護青少年的財務自主權",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/what-they-are-saying-first-lady-melania-trump-launches-fostering-the-future-accounts/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 17 Jun 2026 13:23:49 +0000",
-        "summary_zh": "美國首席女郎梅拉尼婭·川普近期推出「未來之路賬戶」計畫，旨在幫助孤兒養護青少年擁有長期財務穩定。這項計畫與美國財政部合作，為符合條件的養護青少年提供稅優惠的投資和儲蓄賬戶。這些賬戶將幫助青少年在成年後擁有財務自主權。這項計畫的目標是為養護青少年提供財務教育和技能，幫助他們在未來的生活中更好地管理財務。這項計畫的推出受到各方的關注和支持，許多人認為這是一個重要的步驟，能夠幫助養護青少年擁有更好的未來。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "global": [
       {
-        "id": "1483b27b",
-        "title": "七歲兒童因美軍空襲受傷，若無七百五十英鎊手術恐喪失行走能力",
-        "url": "https://www.theguardian.com/global-development/2026/jun/17/boy-injured-us-strike-somalia-ability-walk-operation-abdiqadir-salah-surgery-civilians-november-attack",
-        "source": "Guardian World",
+        "id": "08e76f6e",
+        "title": "伊朗油輪穿越美國軍事封鎖線",
+        "url": "https://www.bbc.com/news/articles/cpq37yxexd9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "global",
-        "published_at": "Wed, 17 Jun 2026 09:00:27 GMT",
-        "summary_zh": "索馬利亞七歲兒童阿卜迪卡迪爾（Abdiqadir Salah）在美軍空襲中受傷，身體被碎片刺穿。美軍否認有平民受傷，導致阿卜迪卡迪爾的家人無法獲得補償。阿卜迪卡迪爾需要進行七百五十英鎊的手術，否則可能喪失行走能力。美軍在六個月前對索馬利亞的空襲中，否認有平民受傷，但事實上有十二人喪生。索馬利亞兒童成為美軍無人機空襲的目標，引發了關注。阿卜迪卡迪爾的家人面臨著無法支付手術費用的困境，美軍的態度使得他們失去了希望。",
+        "published_at": "Wed, 17 Jun 2026 13:27:47 GMT",
+        "summary_zh": "伊朗近日派出三艘油輪，載有原油，通過波斯灣的阿曼灣，穿越美國軍事封鎖線。這些油輪的行蹤被船用追蹤資料顯示。伊朗此舉引起了國際關注，美國對伊朗的制裁仍在繼續。美國軍方的封鎖線是為了限制伊朗的石油出口，伊朗政府認為這是對其經濟的打壓。伊朗的這一行動可能會加劇美伊關係的緊張。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "de95f4a4",
+        "title": "美國與伊朗達成最終協議面臨的挑戰有哪些?",
+        "url": "https://www.reuters.com/world/middle-east/what-challenges-could-stand-way-final-us-iran-deal-2026-06-17/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-06-17 19:24:09",
+        "summary_zh": "美國和伊朗的談判代表將於瑞士會面，近四個月來的戰爭使得雙方面臨著達成全面和平協議的巨大壓力。雖然雙方已經取得了一些進展，但仍然面臨著多個障礙，可能會阻礙達成最終協議。伊朗的核計畫、恐怖主義問題和伊拉克的安全問題等問題仍然是雙方談判的關鍵點。美國方面則擔心伊朗的核計畫可能會導致該國發展核武器。伊朗方面則堅持自己的核計畫是和平用途。這些問題的解決將對雙方的關係產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "92c6bef6",
+        "title": "日本加強軍備防衛是預防戰爭的關鍵，防衛大臣小泉進次郎告訴BBC",
+        "url": "https://www.bbc.com/news/articles/cly8qd4595eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 17 Jun 2026 22:36:13 GMT",
+        "summary_zh": "日本防衛大臣小泉進次郎在接受BBC訪問時表示，日本需要重新評估自第二次世界大戰以來一直堅持的和平主義立場。他認為，加強軍備防衛是預防戰爭的關鍵。他這番話引發了對日本軍事政策的重大的轉變。日本自第二次世界大戰後一直堅持和平主義立場，未曾參與任何軍事行動。然而，小泉進次郎的話表明，日本可能會開始重新評估自己的軍事政策。這一轉變可能會對日本的外交政策和安全環境產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8029005e",
+        "title": "耶路撒冷最聖地狀況不穩，以色列民族主義者違反規則",
+        "url": "https://www.bbc.com/news/articles/cwy0nlv90jno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 17 Jun 2026 09:13:34 GMT",
+        "summary_zh": "耶路撒冷最聖地，阿克薩清真寺聖地，面臨著嚴重的挑戰。以色列民族主義者不斷違反規則，挑戰各個宗教在這裡共享的傳統。這種情況已經持續了許多年，引起了各方的關注。根據規則，各個宗教在這裡的活動應該受到限制，但民族主義者卻不斷違反這些規則，引起了衝突。這種情況不僅影響了宗教和平共處，也影響了地區的穩定。以色列政府應該採取措施，防止這種情況的惡化，維護地區的和平。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f5f1bbc7",
+        "title": "旁觀者趕忙救援火燒的飛機乘客",
+        "url": "https://www.bbc.com/news/articles/cd7wv4144yvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 17 Jun 2026 12:53:27 GMT",
+        "summary_zh": "一架飛機在德克薩斯州墜毀，造成六人受傷，其中一人死亡。五名生還者被送往醫院，目前情況穩定。這起事故的原因尚待調查。飛機墜毀的場景令人震驚，旁觀者迅速趕來救援乘客。這個事件對當地居民造成了深遠的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6eeb9a5c",
+        "title": "查找六歲兒童埃博拉病毒患者　武裝男子衝擊剛果民主共和國醫院",
+        "url": "https://www.bbc.com/news/articles/cvgep4l397eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 17 Jun 2026 16:50:42 GMT",
+        "summary_zh": "剛果民主共和國正在經歷埃博拉疫情，醫療設施遭到攻擊，原因是誤情報和恐懼。六歲的埃博拉病毒患者被帶走後，武裝男子衝擊了一家醫院，導致醫療人員和患者陷入危險。這種攻擊是疫情期間醫療設施遭到攻擊的又一例。政府和醫療人員正在努力尋找六歲的病毒患者，確保他們得到適當的照護。這種攻擊對疫情控制和醫療人員的安全造成了重大威脅。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "61f9029d",
+        "title": "川普宣布將訪問印度 美印關係冰釋",
+        "url": "https://www.bbc.com/news/articles/c621glv9vnqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 17 Jun 2026 16:43:18 GMT",
+        "summary_zh": "川普在一場會晤中宣布將訪問印度，並表示將保護印度。這是美印關係近期冰釋的一個跡象。過去幾年來，美印關係一直處於緊張狀態，兩國領導人之間的關係也一直不和。然而，近期來看，兩國之間的關係似乎開始好轉。川普的訪問將是美印關係冰釋的一個重要里程碑。這將對印度和美國的經濟和政治關係產生重大影響。同時，川普的訪問也將對印度的外交政策產生影響。印度政府將如何應對川普的訪問，將是關注的焦點。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "aa14d758",
+        "title": "聯合國專家要求伊朗釋放福萊曼夫婦",
+        "url": "https://www.bbc.com/news/articles/c9w28e2vn57o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 17 Jun 2026 19:21:36 GMT",
+        "summary_zh": "聯合國專家對伊朗對福萊曼夫婦的審判表示關注，指出審判過程中出現嚴重的不正規情況。聯合國專家要求伊朗政府釋放福萊曼夫婦，讓他們能夠獲得公平的審判。伊朗政府對聯合國的要求沒有做出回應。福萊曼夫婦的案件引起了國際社會的關注，許多人認為他們的被捕是政治迫害。聯合國專家對伊朗政府的行為表達了強烈的不滿，要求伊朗政府尊重人權和法治。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "8bab11ae",
+        "title": "挪威王儲太子妃接受肺移植手術成功",
+        "url": "https://www.bbc.com/news/articles/c1eyg37qyqjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 17 Jun 2026 10:15:08 GMT",
+        "summary_zh": "挪威王儲太子妃梅特-馬利特（Crown Princess Mette-Marit）因肺纖維化（pulmonary fibrosis）而接受肺移植手術，目前正在醫院進行數週的康復。王室方面表示，手術結果成功。王儲太子妃梅特-馬利特在去年因肺纖維化而進行了多次住院，近期情況惡化，最終決定接受肺移植手術。這項手術對於王儲太子妃的健康有著重要意義，王室方面將密切關注她的康復情況。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1eec75ec",
+        "title": "以色列對黎巴嫩發動新一輪空襲　特朗普批評內塔尼亞胡需更負責任",
+        "url": "https://www.bbc.com/news/articles/c7vyn17g832o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 17 Jun 2026 10:01:42 GMT",
+        "summary_zh": "近日，特朗普在談話中批評以色列總理內塔尼亞胡需要對黎巴嫩更負責任。儘管如此，以色列仍繼續對黎巴嫩發動空襲。這次空襲的原因尚未明確，但以色列軍方表示，這是為了應對黎巴嫩對以色列的威脅。這一行動引起了國際社會的關注，各方都在關注這一局勢的發展。黎巴嫩方面則表示，這次空襲是對黎巴嫩人民的不公平待遇。這一事件的影響可能會對黎巴嫩和以色列的關係產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "162019a6",
+        "title": "人工智慧會創造更多人類工作機會，而非取代他們，亞馬遜創辦人貝佐斯說",
+        "url": "https://www.bbc.com/news/articles/ceqdrw2yy3vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 17 Jun 2026 16:37:41 GMT",
+        "summary_zh": "亞馬遜創辦人傑夫·貝佐斯（Jeff Bezos）表示，他相信人工智慧（AI）會創造出人類工作的新機會，而非取代人類工作。貝佐斯認為，AI 將會導致勞動市場的短缺。目前，貝佐斯擁有多家企業，包括人工智能和太空旅行公司。這意味著，他對人工智慧的看法是基於實際經驗和知識。貝佐斯的看法與許多人工智慧的批評者不同，他們認為人工智慧會取代人類工作，導致失業率上升。然而，貝佐斯的看法也受到一些批評，他們認為，人工智慧會取代一些低技能工作，但也會創造新的工作機會。這個問題仍然存在爭議，需要進一步的研究和討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -297,6 +417,18 @@
         "summary_zh": "肯亞電力網大部分是依靠可再生能源。然而，仍有25%的社區沒有中央電力供應，該國正在嘗試透過離網太陽能來達到2030年全民電力普及的目標，而不增加排放。太陽能技術的成本持續下降，幫助了這一努力。幾年前，太陽能板的成本約為……",
         "sentiment": "中性",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1483b27b",
+        "title": "七歲兒童因美軍空襲受傷，若無七百五十英鎊手術恐喪失行走能力",
+        "url": "https://www.theguardian.com/global-development/2026/jun/17/boy-injured-us-strike-somalia-ability-walk-operation-abdiqadir-salah-surgery-civilians-november-attack",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 17 Jun 2026 09:00:27 GMT",
+        "summary_zh": "索馬利亞七歲兒童阿卜迪卡迪爾（Abdiqadir Salah）在美軍空襲中受傷，身體被碎片刺穿。美軍否認有平民受傷，導致阿卜迪卡迪爾的家人無法獲得補償。阿卜迪卡迪爾需要進行七百五十英鎊的手術，否則可能喪失行走能力。美軍在六個月前對索馬利亞的空襲中，否認有平民受傷，但事實上有十二人喪生。索馬利亞兒童成為美軍無人機空襲的目標，引發了關注。阿卜迪卡迪爾的家人面臨著無法支付手術費用的困境，美軍的態度使得他們失去了希望。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -334,165 +466,9 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "f5f1bbc7",
-        "title": "旁觀者趕忙救援火燒的飛機乘客",
-        "url": "https://www.bbc.com/news/articles/cd7wv4144yvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 17 Jun 2026 12:53:27 GMT",
-        "summary_zh": "一架飛機在德克薩斯州墜毀，造成六人受傷，其中一人死亡。五名生還者被送往醫院，目前情況穩定。這起事故的原因尚待調查。飛機墜毀的場景令人震驚，旁觀者迅速趕來救援乘客。這個事件對當地居民造成了深遠的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "92c6bef6",
-        "title": "日本加強軍備防衛是預防戰爭的關鍵，防衛大臣小泉進次郎告訴BBC",
-        "url": "https://www.bbc.com/news/articles/cly8qd4595eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 17 Jun 2026 22:36:13 GMT",
-        "summary_zh": "日本防衛大臣小泉進次郎在接受BBC訪問時表示，日本需要重新評估自第二次世界大戰以來一直堅持的和平主義立場。他認為，加強軍備防衛是預防戰爭的關鍵。他這番話引發了對日本軍事政策的重大的轉變。日本自第二次世界大戰後一直堅持和平主義立場，未曾參與任何軍事行動。然而，小泉進次郎的話表明，日本可能會開始重新評估自己的軍事政策。這一轉變可能會對日本的外交政策和安全環境產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "61f9029d",
-        "title": "川普宣布將訪問印度 美印關係冰釋",
-        "url": "https://www.bbc.com/news/articles/c621glv9vnqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 17 Jun 2026 16:43:18 GMT",
-        "summary_zh": "川普在一場會晤中宣布將訪問印度，並表示將保護印度。這是美印關係近期冰釋的一個跡象。過去幾年來，美印關係一直處於緊張狀態，兩國領導人之間的關係也一直不和。然而，近期來看，兩國之間的關係似乎開始好轉。川普的訪問將是美印關係冰釋的一個重要里程碑。這將對印度和美國的經濟和政治關係產生重大影響。同時，川普的訪問也將對印度的外交政策產生影響。印度政府將如何應對川普的訪問，將是關注的焦點。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ff1f04c9",
-        "title": "日本檢查冰淇淋巨頭涉嫌定價 cartel",
-        "url": "https://www.bbc.com/news/articles/c0ly0k88e61o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 17 Jun 2026 07:33:39 GMT",
-        "summary_zh": "日本檢查冰淇淋巨頭涉嫌定價 cartel 的事件發生在日本面臨歷史最高的夏季溫度時。日本政府正在調查兩家冰淇淋巨頭是否涉嫌在市場上定價 cartel，造成消費者不公平的價格。這項調查是日本政府對於市場不公平行為的最新行動。日本政府正在努力確保消費者能夠獲得公平的價格。這項事件也引起了消費者對於食品安全和價格的關注。日本政府的調查結果將對於冰淇淋業界和消費者都有重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "08e76f6e",
-        "title": "伊朗油輪穿越美國軍事封鎖線",
-        "url": "https://www.bbc.com/news/articles/cpq37yxexd9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 17 Jun 2026 13:27:47 GMT",
-        "summary_zh": "伊朗近日派出三艘油輪，載有原油，通過波斯灣的阿曼灣，穿越美國軍事封鎖線。這些油輪的行蹤被船用追蹤資料顯示。伊朗此舉引起了國際關注，美國對伊朗的制裁仍在繼續。美國軍方的封鎖線是為了限制伊朗的石油出口，伊朗政府認為這是對其經濟的打壓。伊朗的這一行動可能會加劇美伊關係的緊張。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8029005e",
-        "title": "耶路撒冷最聖地狀況不穩，以色列民族主義者違反規則",
-        "url": "https://www.bbc.com/news/articles/cwy0nlv90jno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 17 Jun 2026 09:13:34 GMT",
-        "summary_zh": "耶路撒冷最聖地，阿克薩清真寺聖地，面臨著嚴重的挑戰。以色列民族主義者不斷違反規則，挑戰各個宗教在這裡共享的傳統。這種情況已經持續了許多年，引起了各方的關注。根據規則，各個宗教在這裡的活動應該受到限制，但民族主義者卻不斷違反這些規則，引起了衝突。這種情況不僅影響了宗教和平共處，也影響了地區的穩定。以色列政府應該採取措施，防止這種情況的惡化，維護地區的和平。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6eeb9a5c",
-        "title": "查找六歲兒童埃博拉病毒患者　武裝男子衝擊剛果民主共和國醫院",
-        "url": "https://www.bbc.com/news/articles/cvgep4l397eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 17 Jun 2026 16:50:42 GMT",
-        "summary_zh": "剛果民主共和國正在經歷埃博拉疫情，醫療設施遭到攻擊，原因是誤情報和恐懼。六歲的埃博拉病毒患者被帶走後，武裝男子衝擊了一家醫院，導致醫療人員和患者陷入危險。這種攻擊是疫情期間醫療設施遭到攻擊的又一例。政府和醫療人員正在努力尋找六歲的病毒患者，確保他們得到適當的照護。這種攻擊對疫情控制和醫療人員的安全造成了重大威脅。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8bab11ae",
-        "title": "挪威王儲太子妃接受肺移植手術成功",
-        "url": "https://www.bbc.com/news/articles/c1eyg37qyqjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 17 Jun 2026 10:15:08 GMT",
-        "summary_zh": "挪威王儲太子妃梅特-馬利特（Crown Princess Mette-Marit）因肺纖維化（pulmonary fibrosis）而接受肺移植手術，目前正在醫院進行數週的康復。王室方面表示，手術結果成功。王儲太子妃梅特-馬利特在去年因肺纖維化而進行了多次住院，近期情況惡化，最終決定接受肺移植手術。這項手術對於王儲太子妃的健康有著重要意義，王室方面將密切關注她的康復情況。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1eec75ec",
-        "title": "以色列對黎巴嫩發動新一輪空襲　特朗普批評內塔尼亞胡需更負責任",
-        "url": "https://www.bbc.com/news/articles/c7vyn17g832o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 17 Jun 2026 10:01:42 GMT",
-        "summary_zh": "近日，特朗普在談話中批評以色列總理內塔尼亞胡需要對黎巴嫩更負責任。儘管如此，以色列仍繼續對黎巴嫩發動空襲。這次空襲的原因尚未明確，但以色列軍方表示，這是為了應對黎巴嫩對以色列的威脅。這一行動引起了國際社會的關注，各方都在關注這一局勢的發展。黎巴嫩方面則表示，這次空襲是對黎巴嫩人民的不公平待遇。這一事件的影響可能會對黎巴嫩和以色列的關係產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "162019a6",
-        "title": "人工智慧會創造更多人類工作機會，而非取代他們，亞馬遜創辦人貝佐斯說",
-        "url": "https://www.bbc.com/news/articles/ceqdrw2yy3vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 17 Jun 2026 16:37:41 GMT",
-        "summary_zh": "亞馬遜創辦人傑夫·貝佐斯（Jeff Bezos）表示，他相信人工智慧（AI）會創造出人類工作的新機會，而非取代人類工作。貝佐斯認為，AI 將會導致勞動市場的短缺。目前，貝佐斯擁有多家企業，包括人工智能和太空旅行公司。這意味著，他對人工智慧的看法是基於實際經驗和知識。貝佐斯的看法與許多人工智慧的批評者不同，他們認為人工智慧會取代人類工作，導致失業率上升。然而，貝佐斯的看法也受到一些批評，他們認為，人工智慧會取代一些低技能工作，但也會創造新的工作機會。這個問題仍然存在爭議，需要進一步的研究和討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "ai": [
-      {
-        "id": "e70795c9",
-        "title": "氣候工程的現實檢查：從氣候干預到內在感知的科學",
-        "url": "https://www.technologyreview.com/2026/06/17/1139200/the-download-solar-geoengineering-interoception/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Wed, 17 Jun 2026 12:10:00 +0000",
-        "summary_zh": "氣候工程是一種爭議性的理念，指的是人類通過干預氣候系統來抵消全球暖化的影響。近日，氣候工程的理念已經從電腦模擬階段超越，開始實踐於實際世界。然而，這種干預的可行性和倫理性仍存疑慮。另一方面，科學家正在研究人體內在感知的科學，了解人們如何感知自己的身體狀態。這種研究有助於我們更好地了解人體的自我調節機制和對環境的反應。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2a4f151a",
-        "title": "氣候工程：從科幻到現實",
-        "url": "https://www.technologyreview.com/2026/06/17/1138743/hacking-atmosphere-geoengineering-reality-check/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Wed, 17 Jun 2026 09:00:00 +0000",
-        "summary_zh": "氣候工程是一種試圖通過人工干預大氣層來影響氣候的方法。近年來，氣候工程的研究和實踐日益受到關注。美國一家公司正在開發一種名為「StratoShield」的無人飛機，用於在高空釋放微小的氣溶膠，以反映太陽光並降低地球表面溫度。這種技術被認為是氣候變化的一種潛在解決方案，但也引發了對其安全性和有效性的爭議。氣候工程的發展將如何影響我們的生活？這項技術是否能夠有效地應對氣候變化？這些問題仍待解答。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "35b62084",
-        "title": "人工智慧的日益壯大需要驅動碳價格上升",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-06-17/ai-s-growing-power-needs-are-driving-up-carbon-prices",
-        "source": "Bloomberg",
-        "category": "ai",
-        "published_at": "2026-06-17 18:51:20",
-        "summary_zh": "人工智慧的日益壯大需要驅動碳價格上升。根據最近的研究發現，人工智慧的運算需要大量的電力，從而導致碳排放量的增加。這使得碳價格上升成為了一個迫切的問題。研究人員認為，人工智慧的發展需要更高效的電力來源，才能減少碳排放量。這也意味著，企業和政府需要投資在可再生能源和碳捕捉技術上。同時，人工智慧的發展也需要更高效的電力儲存和傳輸技術。這些技術的發展將對未來的碳價格和能源市場產生重大影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
       {
         "id": "67d0422b",
         "title": "Midjourney Medical 進展：從生成「貓咪圖片」到全身超聲波掃描",
@@ -636,175 +612,211 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "e70795c9",
+        "title": "氣候工程的現實檢查：從氣候干預到內在感知的科學",
+        "url": "https://www.technologyreview.com/2026/06/17/1139200/the-download-solar-geoengineering-interoception/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 17 Jun 2026 12:10:00 +0000",
+        "summary_zh": "氣候工程是一種爭議性的理念，指的是人類通過干預氣候系統來抵消全球暖化的影響。近日，氣候工程的理念已經從電腦模擬階段超越，開始實踐於實際世界。然而，這種干預的可行性和倫理性仍存疑慮。另一方面，科學家正在研究人體內在感知的科學，了解人們如何感知自己的身體狀態。這種研究有助於我們更好地了解人體的自我調節機制和對環境的反應。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2a4f151a",
+        "title": "氣候工程：從科幻到現實",
+        "url": "https://www.technologyreview.com/2026/06/17/1138743/hacking-atmosphere-geoengineering-reality-check/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 17 Jun 2026 09:00:00 +0000",
+        "summary_zh": "氣候工程是一種試圖通過人工干預大氣層來影響氣候的方法。近年來，氣候工程的研究和實踐日益受到關注。美國一家公司正在開發一種名為「StratoShield」的無人飛機，用於在高空釋放微小的氣溶膠，以反映太陽光並降低地球表面溫度。這種技術被認為是氣候變化的一種潛在解決方案，但也引發了對其安全性和有效性的爭議。氣候工程的發展將如何影響我們的生活？這項技術是否能夠有效地應對氣候變化？這些問題仍待解答。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
       {
-        "id": "c5a1e981",
-        "title": "三家業者申請AI算力中心BOO案 台數發部預計7月辦公聽會",
-        "url": "https://www.cna.com.tw/news/afe/202606180149.aspx",
+        "id": "c1967ef0",
+        "title": "面板級封裝題材熱 群創漲停創高、友達勁揚7.24%",
+        "url": "https://www.cna.com.tw/news/afe/202606180210.aspx",
         "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Thu, 18 Jun 2026 13:40:27 +0800",
-        "summary_zh": "台灣積極布局人工智慧發展，政府首宗AI算力中心促參案已有進展。數發部4月公告徵求民間自行規劃申請參與AI算力中心BOO案，共三家台灣業者遞件申請，包含鴻海旗下亞灣超算。數發部表示，六月底將召開可行性評估報告審查會議，預計七月舉行公聽會，目標今年底前完成簽約。這項計畫將推動台灣AI發展，提高計算能力和研究能力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f06c89d8",
-        "title": "兆豐金股東會通過配息1.75元 看合併考量經營效益",
-        "url": "https://www.cna.com.tw/news/afe/202606180143.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 18 Jun 2026 13:27:14 +0800",
-        "summary_zh": "兆豐金昨天召開股東會，通過盈餘分配案，每股配發現金股利新台幣1.75元。兆豐金總經理張傳章表示，未來將以發放現金股利為主，並會依據公司的資本需求進行通盤考量。這意味著兆豐金將會維持相當不錯的配發率，讓股東們能夠分享公司的盈餘。這一決定也表明兆豐金對於未來的經營效益感到有信心，正在考慮與其他公司的合併。這一消息對於兆豐金的股東們來說是一個好消息，將會對公司的股價產生正面影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fca0480d",
-        "title": "第一金鬆口不排斥公民併 公股投信4合1須符合3原則",
-        "url": "https://www.cna.com.tw/news/afe/202606180130.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 18 Jun 2026 13:01:46 +0800",
-        "summary_zh": "第一金股東會今天登場，面對股東關注公股投信4合1議題，總經理方螢基強調，合併得符合遵循法令、提升綜效、保障權益等3原則。這3個原則是第一金對於公股投信4合1的考量，希望能夠在合併的過程中，確保合併的合法性、提高整體效率以及保護股東的權益。另外，副總經理李淑玲表示，第一金已經感受到不整併就會越做越小的壓力，如果有機會，不排斥與民營好對象整併，有利於加速成長。這意味著第一金可能會考慮與其他公司進行整併，從而加強競爭力和發展潛力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "856f2a99",
-        "title": "國科會帶隊參展法國科技創新展覽會 齊攻歐洲市場商機",
-        "url": "https://www.cna.com.tw/news/afe/202606180128.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 18 Jun 2026 12:59:40 +0800",
-        "summary_zh": "國科會今年第8度帶領34家台灣科技新創與61家供應鏈夥伴參展法國科技創新展覽會（VivaTech），以國家隊的形式出席。這次參展的目標是促成更多國際合作與商機。國科會希望透過這次參展，讓台灣的科技新創企業能夠與歐洲的企業建立更多的合作關係，開闢新的商機。這是國科會對於推動台灣科技新創企業國際化的又一重要步驟。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "29d09584",
-        "title": "光罩：大尺寸光罩第4季貢獻營收 下半年優於上半年",
-        "url": "https://www.cna.com.tw/news/afe/202606180119.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 18 Jun 2026 12:35:20 +0800",
-        "summary_zh": "光罩廠台灣光罩近日宣布，大尺寸光罩預計第3季完成裝機，將於第4季開始貢獻營收。根據公司的預估，下半年營收將優於上半年。這項消息對於光罩業的發展具有重要意義，尤其是在大尺寸光罩的產業中。光罩是半導體製造過程中的關鍵元件，對於製造高性能電子產品有著重要的作用。台灣光罩的這一決定將有助於公司的營收增長，並且可能對業界的競爭格局產生影響。然而，公司未對下半年的具體營收數字進行披露，因此仍需要觀察公司的實際表現。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "413b4038",
-        "title": "劉揚偉：AIDC資本支出高用電量大 4類群體帶動需求",
-        "url": "https://www.cna.com.tw/news/afe/202606180108.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 18 Jun 2026 12:14:57 +0800",
-        "summary_zh": "人工智慧資料中心（AIDC）即將成為電力消耗的新熱點，鴻海董事長劉揚偉表示，AIDC的資本密集度高，將耗費巨大電力，電力支出成本高，硬體折舊費用更昂貴。主要使用AIDC的群體包括模型廠商、雲端服務供應商、政府和企業等四大類。這些群體的需求將帶動AIDC的發展，同時也會對電力消耗產生重大影響。劉揚偉的話題引起了關注，許多人開始思考AIDC的發展對環境和能源的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "872d27f0",
-        "title": "新台幣午盤升2.2分 暫收31.553元",
-        "url": "https://www.cna.com.tw/news/afe/202606180103.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 18 Jun 2026 12:04:46 +0800",
-        "summary_zh": "台北外匯市場新台幣兌美元今天中午暫收31.553元，升2.2分。這意味著新台幣在短時間內取得了相對穩定的升值。根據市場分析，今日新台幣的升值與市場對台股的期待有關，投資人對台股的投資意欲增強，導致新台幣的升值。另外，美元的貶值也對新台幣的升值產生了正面影響。市場預期，新台幣在未來的時間內將繼續穩步升值，達到目標的收盤價。",
+        "published_at": "Thu, 18 Jun 2026 15:30:37 +0800",
+        "summary_zh": "近日，扇出型面板級封裝（FOPLP）技術題材熱絡，群創因而受惠。今天，群創收在漲停板64.4元，突破6月初的60.5元高點，再創新高。另一家公司友達也因為這個題材而上漲，收28.15元，勁揚7.24%。這種封裝技術的出現，將會對面板產業帶來新的變革。面板產業的發展，將會受到這種新技術的影響。這種技術的出現，也將會對相關企業的股價帶來新的變動。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "ceb4aeed",
-        "title": "不拚命工作也能收入翻3倍？專家推薦5種收入來源",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5475927",
-        "source": "自由時報財經",
+        "id": "129f5d55",
+        "title": "威盛推出邊緣AI品牌VISVIA 力推實際應用",
+        "url": "https://www.cna.com.tw/news/afe/202606180206.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Thu, 18 Jun 2026 12:35:39 +0800",
-        "summary_zh": "許多上班族都希望收入能翻倍，甚至想讓實際可支配所得變成現在的3倍。但一般人想到的方法，不外乎升職、跳槽、考證照，或在本業投入更多時間換取加薪。然而，日本理財作家大翔卻提出了一些不同於傳統思路的方法。根據大翔的建議，想要收入翻倍的上班族可以考慮以下5種收入來源：第一種是創造額外收入的方法，如開店、開課或是投資；第二種是通過技能提升來提高收入；第三種是通過創業來實現收入翻倍；第四種是通過投資來增加收入；第五種是通過創造自己的品牌來增加收入。這些方法雖然不一定能夠讓收入翻倍，但卻能夠幫助上班族們增加收入並實現財富自由。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "6e113c9c",
-        "title": "美國股市部分回升",
-        "url": "https://www.ft.com/content/159e38a1-9efc-4ad9-90f6-694b27c895c2",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-06-17 18:58:59",
-        "summary_zh": "美國股市在近期的下跌後開始回升。市場分析師認為，股市的回升是由於投資者對經濟前景的改善以及政府的刺激政策。然而，股市的回升也受到一些挑戰，例如通膨和利率的上升。投資者仍然需要保持謹慎，關注全球經濟的發展和政策變化。美國股市的回升也可能受到其他因素的影響，例如企業的財務表現和市場情緒。總的來說，美國股市的回升是個積極的跡象，但投資者需要保持警惕。",
+        "published_at": "Thu, 18 Jun 2026 15:25:28 +0800",
+        "summary_zh": "IC設計廠威盛近日宣布推出邊緣AI解決方案品牌「VISVIA」，以結合電腦視覺與生成式AI技術，將人工智慧（AI）從雲端延伸至實際應用場域。這項新品牌的推出，旨在為企業提供更便捷、更快速的AI應用體驗。VISVIA的技術將能夠在邊緣裝置上運行，無需仰賴雲端資源，從而降低成本、提高效率。威盛表示，VISVIA將在多個領域應用，包括工業自動化、智能城市、醫療等。這項新品牌的推出，將為企業提供更多的選擇和靈活性，讓他們能夠更好地應用AI技術，帶來更大的效益。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "e0242cd7",
-        "title": "聯邦準備委員會維持不變，Warsh首次出席分析師認為政策趨向鹹鹼",
-        "url": "https://www.reuters.com/business/view-fed-holds-steady-warshs-debut-analysts-see-hawkish-shift-2026-06-17/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-17 18:51:55",
-        "summary_zh": "聯邦準備委員會在Warsh的首次出席下維持利率不變。分析師認為，這一決定表明政策趨向鹹鹼。聯邦準備委員會的決策是基於經濟數據的評估，包括就業率和通脹率。分析師預測，未來幾個月內，聯邦準備委員會可能會採取更鹹鹼的政策，以控制通脹和維持經濟穩定。這一趨向可能會對股市和金融市場產生影響。",
-        "sentiment": "中性",
+        "id": "d6735884",
+        "title": "羅正方：第一季無人機外銷產值已超越2025年",
+        "url": "https://www.cna.com.tw/news/afe/202606180202.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 18 Jun 2026 15:23:20 +0800",
+        "summary_zh": "近年來，台灣無人機外銷大幅成長，尤其是在2025年，外銷產值相較於2024年成長了42倍。今年第一季的產值已經超越了去年的整年總和。這表明台灣無人機產業正在快速發展，並且獲得了國際市場的認可。羅正方表示，這是由於台灣的無人機技術和設計優勢，讓台灣的無人機產品在國際市場上有競爭力。這項成績也表明，台灣的創新產業正在取得進展，並且有望在未來的發展中扮演重要角色。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "3eda6a81",
-        "title": "聯邦準備理事會目前的利率政策限制性指標不均衡",
-        "url": "https://www.ft.com/content/2b07baaf-5d3b-4eb1-8842-8190efd0d8db",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-06-17 18:48:28",
-        "summary_zh": "聯邦準備理事會目前的利率政策面臨著不均衡的挑戰。分析指出，目前的利率政策對不同地區的影響不一致，某些地區的經濟活動受到利率政策的嚴重影響，而其他地區則相對較少受到影響。這種不均衡的影響可能會導致經濟不穩定。分析人員認為，聯邦準備理事會需要調整政策以達到更均衡的效果。這種調整可能包括調整利率、釋放貨幣供應量或採取其他措施來平衡經濟活動。最終目標是維持經濟的穩定和可持續發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "be1c0e40",
-        "title": "沃什：任務小組應在 2026 年底完成工作",
-        "url": "https://www.ft.com/content/4a2235f3-0de1-466e-aaa7-1c1c39d06fd8",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-06-17 18:46:27",
-        "summary_zh": "美國聯邦儲備理事會主席沃什表示，應該讓任務小組在 2026 年底前完成工作。他強調，任務小組的目的是為了改善美國經濟的穩定性和可預測性。沃什認為，任務小組的工作對於美國經濟的長期發展具有重要意義。他還表示，任務小組的成果將對美國經濟的未來發展產生重大影響。沃什的說法表明，他對任務小組的工作充滿信心，並希望他們能夠在指定的時間內完成工作。然而，任務小組的進展和成果仍需要受到監控和評估，以確保他們能夠達到既定的目標。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a1c00bc3",
-        "title": "市場對升息預期升高，Warsh發表意見",
-        "url": "https://www.ft.com/content/131441a5-3fb9-45e8-8282-9f6741deccfd",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-06-17 18:45:57",
-        "summary_zh": "市場對升息的預期正在升高，尤其是在Federal Reserve官員Warsh的發表意見後。Warsh在最近的演講中表明，他認為美國經濟仍然處於快速增長的階段，並且升息是必要的。市場分析師認為，這表明Fed可能會在未來幾個月內再次升息。升息的預期升高可能會對股市和美元產生影響，市場投資者需要密切關注這一發展。目前，市場對升息的預期正在升高，投資者需要準備好面對可能的風險和機會。",
-        "sentiment": "中性",
+        "id": "ac480f0b",
+        "title": "美伊簽協議重啟荷莫茲海峽 國際油價重挫逾3%",
+        "url": "https://www.cna.com.tw/news/aopl/202606180201.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 18 Jun 2026 15:21:18 +0800",
+        "summary_zh": "荷莫茲海峽是伊朗與沙烏地阿拉伯之間的一個重要海峽，海峽的關閉曾導致全球油價大幅上漲。美國總統川普與伊朗總統簽署協議，同意結束雙方戰爭並重啟荷莫茲海峽。這一協議的簽署導致國際油價今天暴跌逾3%。這一事件的背景是近期美伊關係緊張，伊朗曾多次威脅關閉荷莫茲海峽，導致油價大幅上漲。協議的簽署意味著荷莫茲海峽將重啟，國際油價將會回落。這一事件對全球經濟有著重要影響，尤其是在能源領域。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "1539d67b",
-        "title": "川普支持伊朗核協議  尽管遭到經濟援助伊朗的批評",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-17/trump-respalda-pacto-de-ee-uu-con-iran-pese-a-criticas-republicanas",
+        "id": "9dfa230f",
+        "title": "美半導體股助攻 日經首站71000點 日韓股市齊揚",
+        "url": "https://www.cna.com.tw/news/afe/202606180198.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 18 Jun 2026 15:12:11 +0800",
+        "summary_zh": "日股今天延續漲勢，日經225指數收盤首度站上71000點、再創歷史新高。這是由於美國半導體類股走揚激勵下所致。同時，韓國綜合股價指數（Kospi）也收漲逾2%。這表明亞洲股市正受到美股半導體類股的影響。這種情況可能是由於美股半導體類股的強勁表現，刺激了投資者的投資意欲，進而推動了亞洲股市的上漲。然而，投資者也應該注意市場的風險和波動，避免過度押注任何一隻股票或市場。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "bc393b03",
+        "title": "巨大機械庫存去化進入尾聲 股東會通過每股配息1.8元",
+        "url": "https://www.cna.com.tw/news/afe/202606180196.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 18 Jun 2026 15:08:07 +0800",
+        "summary_zh": "巨大機械董事長劉湧昌表示，全球自行車市場仍處於需求逐步復甦的階段，面臨關稅政策、地緣政治與匯率變動等不確定因素。儘管如此，巨大集團長期深耕全球市場，建立完善供應鏈與多元製造布局，目前庫存去化已進入尾聲，市場正逐步回歸正常節奏。為了回饋股東，巨大機械股東會通過每股配息1.8元。這一決定表明巨大機械正朝著恢復正常營運的方向前進，同時也展現出對股東的承諾。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9f3a83b0",
+        "title": "三大法人買超台股309.78億元",
+        "url": "https://www.cna.com.tw/news/afe/202606180195.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 18 Jun 2026 15:06:05 +0800",
+        "summary_zh": "台股今天大幅上漲，收市點數達46465.2點，成交值高達1兆5439.24億元。三大法人買賣超數據顯示，外資及陸資買超，投信賣超，自營商買超，合計買超309.78億元。這表明市場對台股仍有信心，三大法人對台股的投資意欲不減。這項數據也可能對未來台股走勢有所影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "cc923c92",
+        "title": "2026年IMD世界競爭力台灣全球第4 史上最佳表現",
+        "url": "https://www.cna.com.tw/news/aopl/202606180192.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 18 Jun 2026 15:00:59 +0800",
+        "summary_zh": "2026年瑞士洛桑管理學院（IMD）公布世界競爭力排名，新加坡居首，香港次之，瑞士第3，台灣則憑藉強勁的GDP及出口成長與近10年的制度穩定優勢，今年排名上升至全球第4名，為納入評比以來最佳表現。這項排名是評估國家競爭力的重要指標，台灣的上升排名表明其經濟和制度的穩定性和競爭力在國際上得到認可。這項成就對於台灣的經濟發展和國際地位具有重要意義，將進一步提升台灣的國際競爭力和吸引外商投資的能力。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      }
+    ],
+    "finance": [
+      {
+        "id": "ccd498e5",
+        "title": "美短期收益率創14個月新高，Warsh發表會後升至新高",
+        "url": "https://www.ft.com/content/5376631a-b1bd-4ba7-a3d4-a11313a203cb",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-06-17 19:57:46",
+        "summary_zh": "美國短期收益率因為Warsh發表會而創下14個月新高。Warsh是美聯儲的前副行長，他在發表會上表示美聯儲可能會在未來幾個月內提高利率。這個消息使得市場預期美聯儲會在未來幾個月內採取更為鹹性的政策，從而使得短期收益率升高。短期收益率的升高意味著市場對未來幾個月內的經濟成長感到悲觀。這也反映了市場對美聯儲可能會採取的鹹性政策感到擔憂。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "f2c8f634",
+        "title": "美元大幅上漲 美聯儲官員開放2026年加息可能性",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-17/dollar-rallies-as-fed-officials-open-door-to-2026-rate-hike",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-17 18:43:49",
-        "summary_zh": "美國前總統川普支持伊朗核協議，儘管這個決定受到美國國會和其他國家的批評。伊朗核協議是2015年達成的，目的在於限制伊朗的核武器發展。川普政府曾在2018年退出這個協議，但現在川普支持重新加入。這個決定可能會對伊朗的經濟產生重大影響，伊朗可能會獲得更多的經濟援助。然而，這個決定也可能會受到美國國會和其他國家的反對。伊朗核協議的重新加入可能會對全球政治和經濟產生重大影響。",
+        "published_at": "2026-06-17 19:49:44",
+        "summary_zh": "近日，美聯儲官員表示，可能在2026年之前再次升息。這項消息使美元大幅上漲，美元兌日元和美元兌英鎊的匯率都達到近期新高。美聯儲官員的言論表明，美聯儲正在考慮升息，以應對通膨和經濟增長的壓力。這項消息對美元的影響是正面的，美元的升值可能會影響到其他國家的經濟和投資市場。然而，美聯儲官員的言論也引發了對未來加息政策的關注，投資者和經濟學家將密切關注美聯儲的下一步行動。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1ff35341",
+        "title": "倫敦法院維持禁令，阻止南蘇丹新油儲備合約",
+        "url": "https://www.reuters.com/business/energy/london-court-upholds-injunction-preventing-new-south-sudan-oil-prepayment-2026-06-17/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-17 19:47:04",
+        "summary_zh": "倫敦高等法院日前維持禁令，阻止南蘇丹共和國與能源貿易公司BB能源簽署新油儲備合約。根據路透社的報導，倫敦高等法院的判決支持BB能源的訴求，禁止南蘇丹共和國簽署新的油儲備合約。這一判決對於南蘇丹共和國的油儲備業務可能會產生重大影響。南蘇丹共和國的油儲備業務一直是該國的重要收入來源。這一禁令的出現可能會使南蘇丹共和國的油儲備業務面臨挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ebc5a27c",
+        "title": "日圓對美元貶值至 2024 年 7 月以來最低水平",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-17/yen-slides-to-weakest-level-versus-dollar-since-july-2024-mqih9kot",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-17 19:42:20",
+        "summary_zh": "日圓對美元貶值至 2024 年 7 月以來最低水平。根據市場消息，日圓的貶值是由於美元的升值和日本的經濟成長放緩所導致。這一趨勢對日本的出口業有著重大影響，許多企業面臨著挑戰。日本政府正在努力維持經濟穩定，同時也在考慮對市場的干預。日圓的貶值對全球經濟的影響也值得關注。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "86517cd2",
+        "title": "未來市場已完全反映出十月份加息",
+        "url": "https://www.ft.com/content/b168494c-873a-4a00-a5cb-1622d1119427",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-06-17 19:25:52",
+        "summary_zh": "根據最新的未來市場數據，市場已經完全反映出十月份加息的可能性。這意味著市場已經預期到未來幾個月內的加息行為。這種情況下，市場對未來加息的預期已經被完全內化在未來市場的價格中。這可能會對未來的經濟政策產生重大影響。市場的預期已經成為了實際的經濟現實。未來市場的數據提供了關於市場對未來經濟政策的預期的重要線索。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a506b98b",
+        "title": "紐約希臘餐廳Kiki's被沒收，因為未能支付100萬美元稅款",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-17/kiki-s-nyc-restaurant-seized-after-failing-to-pay-1-million-tax",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-17 19:24:12",
+        "summary_zh": "紐約市一家希臘餐廳Kiki's遭到沒收，原因是未能支付100萬美元稅款。根據報告，餐廳的負責人未能償付稅款，導致政府出手沒收餐廳的資產。這一事件對餐廳的經營者和員工造成了重大影響。政府的行動表明了對企業支付稅款的嚴格執行。餐廳的未來存疑，未來是否能恢復營業尚未明確。這一事件也引起了對企業稅負的關注。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "6676dff7",
+        "title": "美聯儲監察長報告：重建工程調查報告將在夏季末出爐",
+        "url": "https://www.ft.com/content/2a2bac33-ddf3-4fb7-a88a-dc2bb54a7db7",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-06-17 19:22:29",
+        "summary_zh": "美聯儲監察長將在夏季末發布一份報告，內容將針對美聯儲總部的重建工程進行調查。這項重建工程耗資高達 184 億美元，成為美聯儲歷史上最昂貴的工程之一。報告將對工程的管理、成本控制以及是否符合美聯儲規範進行審視。美聯儲監察長的報告將對美聯儲的透明度和財務管理產生重大影響。這項調查也將對美聯儲的聲譽和信譽產生重要影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -823,6 +835,18 @@
       }
     ],
     "stock_us": [
+      {
+        "id": "03854c57",
+        "title": "我們的投資組合 35 股股票每月更新，包括克拉默最喜歡的買入建議",
+        "url": "https://www.cnbc.com/2026/06/17/heres-our-monthly-update-on-all-35-portfolio-stocks-including-cramers-favorite-name-to-buy.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-17 19:02:50",
+        "summary_zh": "投資俱樂部的吉姆克拉默和傑夫馬克斯在六月月度會議上針對投資俱樂部的所有股票進行了最新的思考。投資俱樂部的 35 股股票包括了各種不同的領域，從科技到金融，從零售到製造。克拉默和馬克斯在會議上分享了他們對這些股票的最新看法和評估。投資俱樂部的成員可以通過會議了解到投資策略和市場趨勢的最新情報。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "b5635254",
         "title": "摩根大通建議客戶應該積極買入這家晶片股",
@@ -880,8 +904,8 @@
         "published_at": "2026-06-17 17:06:00",
         "summary_zh": "Snap 最近推出一款價格高達 2195 美元的智能眼鏡，這一舉動引起了 Wall Street 的批評。這款眼鏡被視為是一款高端產品，可能無法吸引大眾。Snap 的股價正在下滑，市場分析師認為這款眼鏡可能無法取得成功。這一舉動可能會對 Snap 的股價產生負面影響。市場正在密切關注 Snap 的未來發展，是否能夠逆轉目前的下滑趨勢。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "8f8becc0",
@@ -915,30 +939,6 @@
         "category": "stock_us",
         "published_at": "2026-06-17 15:53:43",
         "summary_zh": "BNY Investments 首席經濟學家 Vincent Reinhart 在節目 'Squawk on the Street' 中表示，他預期新任美聯儲主席 Kevin Warsh 將不會改變利率政策。 Reinhart 表示，他對經濟的展望是中性，認為美國經濟在短期內會保持穩定。 他還提到，美聯儲的政策將繼續維持穩定，避免對經濟產生不必要的波動。 Reinhart 的預期表明，他對美聯儲的政策方向感到樂觀，認為這將有助於維持經濟的穩定性。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "67b9c433",
-        "title": "華爾街股市微幅上漲，等待美聯儲首次加息決定",
-        "url": "https://www.reuters.com/it/azienda/borsa-usa-wall-street-lieve-rialzo-attesa-per-prima-decisione-fed-sotto-warsh-2026-06-17/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-06-17 15:48:38",
-        "summary_zh": "華爾街股市在一天內呈現波動情況，主要指數微幅上漲。與此同時，晶片股市場反彈，原因是市場對美聯儲首次加息決定下了注。美聯儲新任主席凱文·沃許（Kevin Warsh）將在這次會議中發表首次加息決定。市場對美聯儲加息的預期已經達到高潮，投資者正在密切關注美聯儲的決定，為未來的經濟走向做準備。美聯儲的決定將對全球經濟產生重大影響，因此市場的反應將是關鍵指標。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9ae8b146",
-        "title": "觀看 CNBC 專訪早期 SpaceX 投資者 Christian Garrett 全程",
-        "url": "https://www.cnbc.com/video/2026/06/17/watch-cnbcs-full-interview-with-early-spacex-investor-christian-garrett.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-17 15:43:07",
-        "summary_zh": "SpaceX 早期投資者 Christian Garrett, 137 Ventures 合夥人, 在 CNBC 的節目 'Squawk on the Street' 中, 分析了 SpaceX IPO 的表現, 他仍然對公司抱持樂觀態度, 并提及更多內容。 Christian Garrett 表示, 他對 SpaceX 的信心源於公司的技術優勢和市場潛力。儘管 SpaceX IPO 的表現不如預期, 但 Christian Garrett vẫn認為公司的未來前景非常光明。 他還提到, SpaceX 的技術和創新能力, 將使公司在未來的競爭中佔據優勢。 Christian Garrett 的見解, 提供了對 SpaceX 未來發展的重要見解。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
