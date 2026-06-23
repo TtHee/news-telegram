@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-23T18:04:25.101039+08:00",
+  "generated_at": "2026-06-23T19:04:20.454061+08:00",
   "risk_signals": [
     "🟢 台股加權 47100.65（正常）",
     "🟢 S&P 500 7472.79（正常）",
-    "🟢 VIX 恐慌指數 19.82（正常）",
+    "🟢 VIX 恐慌指數 19.9（正常）",
     "🟢 MOVE 債市波動 65.39（正常）",
-    "🟢 美元指數 101.14（正常）",
-    "🟢 黃金 4134.5（正常）",
+    "🟢 美元指數 101.24（正常）",
+    "🟢 黃金 4141.5（正常）",
     "🟢 美債10Y殖利率 4.45（正常）",
-    "🟢 原油 WTI 73.45（正常）",
-    "🟢 美元/台幣 31.62（正常）"
+    "🟢 原油 WTI 73.87（正常）",
+    "🟢 美元/台幣 31.63（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，指標正常，但台股和美股出現小幅下跌，表明市場有微小的憂慮跡象。",
+  "ai_summary": "市場表現偏弱，台股和美股下跌，恐慌指數和債市波動處於正常水平，美元指數和美元/台幣匯率也正常，市場風險偏好未受影響。",
   "market": {
     "TWII": {
       "price": 47100.65,
@@ -26,8 +26,8 @@
       "change_pct": -1.32
     },
     "VIX": {
-      "price": 19.82,
-      "change_pct": 14.7
+      "price": 19.9,
+      "change_pct": 15.16
     },
     "TNX": {
       "price": 4.45,
@@ -38,70 +38,252 @@
       "change_pct": -7.46
     },
     "DXY": {
-      "price": 101.14,
-      "change_pct": 0.12
+      "price": 101.24,
+      "change_pct": 0.21
     },
     "GOLD": {
-      "price": 4134.5,
-      "change_pct": -1.13
+      "price": 4141.5,
+      "change_pct": -0.97
     },
     "OIL": {
-      "price": 73.45,
-      "change_pct": -1.83
+      "price": 73.87,
+      "change_pct": -1.27
     },
     "USDTWD": {
-      "price": 31.62,
-      "change_pct": -0.26
+      "price": 31.63,
+      "change_pct": -0.24
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "b85bf0d5",
+        "title": "首席法官阻止川普政府推翻洛杉磯「避免遣返城市」政策",
+        "url": "https://www.theguardian.com/us-news/2026/jun/23/first-thing-judge-thwarts-trump-administration-attempt-to-overthrow-la-sanctuary-city-policy",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 10:39:50 GMT",
+        "summary_zh": "洛杉磯市政府在去年通過了一項「避免遣返城市」政策，限制與聯邦移民局合作。川普政府對此提出訴訟，主張該政策違憲。然而，中部加州聯邦法院的法官Fernando Olguin駁回了川普政府的訴訟，認為該政策合憲。法官允許川普政府重新提交訴訟。洛杉磯市政府表示，這項判決確認了地方政府有權決定如何使用其人員和資源。該政策的目的是鼓勵犯罪受害者和目擊者感到安全地向警方求助，無論其移民身份如何。洛杉磯市政府律師Hydee Feldstein Soto表示，這項政策不會阻礙或妨礙合法的聯邦移民執法行動。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "02e149bd",
+        "title": "紐約民主黨初選投票：左派勢力與老派對抗",
+        "url": "https://www.theguardian.com/us-news/2026/jun/23/new-york-democratic-primaries",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 10:00:27 GMT",
+        "summary_zh": "紐約民主黨的初選投票於週二舉行，將揭示黨內左派勢力的實力，並影響11月美國眾議院控制權的爭奪。同時，馬里蘭州和猶他州也將舉行國會候選人初選，而南卡羅來納州則將進行初選 runoff 選舉。這些選舉將對民主黨的未來走向產生重要影響。左派勢力在黨內的實力將在這些選舉中得到測試，而老派勢力則面臨著一系列挑戰。美國眾議院的控制權將在11月的選舉中決定。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f19dcbe5",
+        "title": "變成2,028呎的諷刺：川普的反映池變成惡心的觀光景點",
+        "url": "https://www.theguardian.com/us-news/2026/jun/23/donald-trump-reflecting-pool-metaphor",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 10:00:26 GMT",
+        "summary_zh": "川普總統試圖改造林肯紀念館的反映池，卻意外變成一個惡心的觀光景點。池水中出現了大量的藻類，變成綠色的汙水，令人作嘔。儘管池水有著難聞的氣味，但仍有許多觀光客前來拍照，電視台也派人採訪，對川普總統的14.7億美元改造計畫進行諷刺。這個惡心的景點已經成為川普總統的批評者們的象徵，讚美了林肯的紀念館中池水的象徵意義。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "9a88450a",
+        "title": "前NFL球員Darren Sharper在弗吉尼亞州登記為性犯罪者",
+        "url": "https://www.theguardian.com/us-news/2026/jun/23/darren-sharper-registers-sex-offender-virginia",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 10:00:26 GMT",
+        "summary_zh": "前NFL球員Darren Sharper因在四個州犯下強姦罪而被判刑。他已經承認犯下罪行，目前正在一間半途出獄機構中服刑。根據官方記錄，Sharper已經在5月27日從俄亥俄州埃爾克頓附近的聯邦矯正機構轉移到弗吉尼亞州的半途出獄機構或家居監禁。今年50歲的Sharper預計2028年將出獄。美國聯邦監獄局（BoP）最近確認，Sharper已經被轉移到巴爾的摩的住宿重返社會管理辦公室負責的半途出獄機構或家居監禁。任何受到強姦或性虐待影響的人都可以從以下組織獲得資訊和支持。在美國，RAINN提供800-656-4673的支持。在英國，Rape Crisis提供0808 500 2222的支持。在澳大利亞，支持電話號碼是1800Respect (1800 737 732)。其他國際熱線可以在ibiblio.org/rcip/internl.html找到。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "f9f384f3",
+        "title": "羅瑞·肯尼迪重返波音公司拍攝新片：『我們必須堅持下去』",
+        "url": "https://www.theguardian.com/us-news/2026/jun/23/boeing-documentary-whistleblower-rory-kennedy-interview",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 10:00:25 GMT",
+        "summary_zh": "羅瑞·肯尼迪在新片中重新探討了波音公司的問題，受到了爆發的事件啟發。事件始於2024年，當時一名波音公司的檢查員約翰·巴尼特（John Barnett）在南卡羅來納州查爾斯頓的一家酒店外被發現身亡。巴尼特因自殺槍擊頭部而死，他被人們暱稱為「沼澤人」（Swampy），因為他來自路易斯安那州。羅瑞·肯尼迪表示，這次事件震撼了她，讓她決定拍攝一部關於巴尼特的紀錄片。羅瑞·肯尼迪的新片將探討波音公司的問題，包括安全問題和企業文化。這部片子將是羅瑞·肯尼迪對於企業責任和安全問題的深入探討。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1fc887a9",
+        "title": "川普官員承諾嚴懲反映池毀壞事件　五人被捕　川普稱修復工作將立即展開",
+        "url": "https://www.theguardian.com/us-news/live/2026/jun/22/trump-reflecting-pool-vandalized-lincoln-memorial-iran-us-politics-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 02:03:32 GMT",
+        "summary_zh": "美國前總統川普近日表示，華盛頓反映池遭到破壞，造成300英尺長的裂痕，非法放置化學物質，毀壞了新草坪，並刻上巨大的86 47字樣。川普官員Jeanine Pirro威脅任何涉嫌破壞反映池的人，將會被起訴。根據CBS新聞報導，五人被捕，聯邦檢察官已發出通緝令。川普表示，修復工作將立即展開。這起事件引起了廣泛關注，川普官員承諾會嚴懲那些涉嫌破壞反映池的人。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "87ba6273",
+        "title": "川普總統的林肯紀念碑池塘工程惡化，指責「惡意破壞者」",
+        "url": "https://www.theguardian.com/us-news/2026/jun/22/trump-administration-news-latest-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 01:00:26 GMT",
+        "summary_zh": "川普總統最近宣稱，林肯紀念碑池塘工程惡化的原因是由於「惡意破壞者」的行為。但是，川普並沒有提供任何證據來支持這一說法。事實上，池塘公司在幾周前進行了14萬美元的翻新工程，但現在池塘卻出現了青藻過度生長和油漆剝落等問題。川普指責五名被捕的嫌疑人和五名正在調查中的嫌疑人，但這些指控似乎並不夠充分。這一事件引起了關注，許多人質疑川普的說法。這一事件也引發了對美國政治的關注，尤其是在關於公共工程管理和資源分配的問題上。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2a3715d8",
+        "title": "美國參議院通過跨黨派法案降低房屋成本",
+        "url": "https://www.theguardian.com/us-news/2026/jun/22/us-senate-housing-bill",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 22 Jun 2026 22:44:07 GMT",
+        "summary_zh": "美國參議院於週一通過一項跨黨派法案，旨在通過簡化建築和許可程序、限制投資者購買房屋等方式降低房屋成本。這項法案，名為《21世紀房屋法案》，旨在增加房屋供應、防止投資者買斷房屋，並推動實驗性計劃，促進房屋改善和規劃合理房屋。該法案在參議院獲得85票贊成、5票反對的壓倒性勝利，現已轉交美國眾議院。這項法案是雙方在11月的中期選舉前達成的重要協議。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a944ce43",
+        "title": "勒索信稱奈恩西·古思里死於綁架後",
+        "url": "https://www.bbc.co.uk/news/articles/cvgm0mgzl33o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 08:10:56 GMT",
+        "summary_zh": "美國一名名叫奈恩西·古思里（Nancy Guthrie）的女性被綁架後，勒索信出現了。據報導，勒索信中提到綁架者並未意欲奈恩西·古思里死亡，並向她的家人致歉。這個事件引起了廣泛關注，許多人都在等待更多的消息。綁架事件的背景和原因仍然不明朗，許多人都在猜測這個事件的真相。奈恩西·古思里被綁架後的影響非常大，許多人都在關注她的安全和福祉。這個事件也引起了對綁架和勒索的關注，許多人都在呼籲提高安全措施和防止綁架的方法。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6536782a",
+        "title": "蒙特婁槍擊案：警察、平民和嫌疑人均喪生",
+        "url": "https://www.bbc.co.uk/news/articles/c5yz3lv015qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 08:36:38 GMT",
+        "summary_zh": "蒙特婁槍擊案發生，造成一名警察、一名平民和一名嫌疑人喪生。這是24年來蒙特婁警方首次有警察在執行職務中遇害。蒙特婁警局局長表示，這是一起極為悲慘的事件。槍擊案的具體情況尚待調查。這起事件將對蒙特婁警局和當地居民產生重大影響。蒙特婁警局將會展開全面調查，確保這種悲劇不再發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "67aff6ef",
+        "title": "WhatsApp 將由印度初創公司創辦人領導，威爾·卡思卡特退下來",
+        "url": "https://www.bbc.co.uk/news/articles/c8e2195k5j2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 22 Jun 2026 15:57:46 GMT",
+        "summary_zh": "WhatsApp 領導層的變動正是因為 Facebook 母公司 Meta 想要加強其在印度市場的影響力。印度市場已經是 WhatsApp 的一個重要市場，Meta 希望通過這次變動來鞏固這一地位。這次變動也意味著 WhatsApp 將更加注重印度市場的需求和發展。印度市場的成長對 WhatsApp 的未來發展具有重要影響，Meta 的這一決策可能會對 WhatsApp 的未來走向產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "05f23b1d",
+        "title": "白宮發表白皮書：川普總統確保國家免受先進加密攻擊威脅",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-secures-the-nation-against-advanced-cryptographic-attacks/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 22 Jun 2026 20:39:42 +0000",
+        "summary_zh": "白宮宣布，川普總統簽署行政命令，為美國最敏感的資料、關鍵基礎設施和數位經濟提供保護。這項措施旨在促進美國在網絡安全方面的領先地位，確保美國在量子時代的系統安全。這項措施將推動美國在網絡安全領域的創新，保護美國的數位經濟和就業機會。川普總統的這一行動將幫助美國在全球網絡安全競爭中保持領先地位。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f5807a64",
+        "title": "白宮發表白皮書：川普總統推動量子創新新時代",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-ushers-in-the-next-frontier-of-quantum-innovation/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 22 Jun 2026 20:39:32 +0000",
+        "summary_zh": "白宮今天發表了川普總統簽署行政命令，旨在加速美國在量子技術方面的創新，並強化國家安全。量子技術正處於商業突破的關鍵時期，川普總統認為需要採取果斷的政策措施，確保美國在這一領域保持領先地位。這項行政命令將推動美國在量子技術方面的創新，同時也會加強國家安全。這項政策變革將幫助美國在量子技術領域保持競爭力，並促進商業和國家安全的發展。川普總統的這項決定將對美國的量子技術領域產生重大影響，推動美國在未來的量子技術領域取得突破。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b4a14f57",
+        "title": "引領量子革命的新前沿",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 22 Jun 2026 20:38:18 +0000",
+        "summary_zh": "美國總統根據憲法和美國法律授予的權力，發布命令：第一條目的意義。美國正站在量子革命的邊緣。量子資訊科學和技術（QIST）將提供轉型能力，推動美國的創新，驅動經濟增長，創造新的就業機會。這項命令旨在推動美國在量子資訊科學和技術方面的領先地位，確保美國在這個新領域的競爭力。美國政府將投資大量資金，推動量子資訊科學和技術的研究和發展，培養人才，建立基礎設施。這項命令將為美國的經濟和安全帶來重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "bf5f88cd",
+        "title": "確保國家抵禦先進加密攻擊",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 22 Jun 2026 20:37:30 +0000",
+        "summary_zh": "美國總統根據憲法和美國法律授權，發佈命令：第一條 背景與政策。隨著大規模量子計算機的出現，尤其是在敵對國家手中，將對廣泛使用的加密安全系統構成重大威脅。目前的網絡活動表明，量子計算機的威脅正在變得越來越迫切。為了應對這種威脅，政府正在採取措施升級國家的加密安全系統。這些措施包括發展新的加密演算法、升級現有的加密系統、以及建立一個國家級的加密安全框架。這些努力將幫助確保美國的網絡安全和敏感資訊的保護。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "global": [
       {
-        "id": "6c32be53",
-        "title": "伊朗否認在瑞士會議後對核檢查站做出新承諾",
-        "url": "https://www.bbc.co.uk/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "id": "88869f38",
+        "title": "法國發生大量溺水死亡案件，歐洲在高溫熱浪中陷入困境",
+        "url": "https://www.bbc.co.uk/news/articles/c79yvw3j114o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "global",
-        "published_at": "Tue, 23 Jun 2026 05:39:17 GMT",
-        "summary_zh": "伊朗外交部發表聲明，表示在瑞士會議後沒有做出任何新的承諾，關於核檢查站的問題。這意味著伊朗仍然堅持不允許國際核檢查機構進入其核設施。這一發展可能會對伊朗與國際社會的關係產生影響。伊朗外交部的聲明顯示，伊朗仍然堅持自己的立場，拒絕讓國際核檢查機構進入其核設施。這一發展可能會加劇伊朗與國際社會的緊張關係。伊朗外交部的聲明也表明，伊朗仍然堅持自己的核計劃，並不會讓步。這一發展可能會對全球安全形勢產生影響。",
+        "published_at": "Tue, 23 Jun 2026 10:53:10 GMT",
+        "summary_zh": "法國自上周四以來，已有40人因高溫熱浪相關原因溺水死亡，法國總理塞巴斯蒂安·勒柯努（Sébastien Lecornu）表示。這一波高溫熱浪席捲了整個歐洲，導致大量民眾受困。法國政府已經部署了大量救援人員和設備，試圖減少溺水死亡人數。然而，高溫熱浪的持續時間和嚴重程度仍然令人擔憂。歐洲的高溫熱浪已經持續了多天，氣溫達到歷史最高點，導致大量民眾感到不適和疲勞。法國政府已經呼籲民眾謹慎使用水源，避免溺水死亡。這一波高溫熱浪對歐洲的影響不僅限於法國，許多國家都受到影響，民眾的健康和安全受到威脅。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "588b12a2",
-        "title": "卡達氣體爆炸至少13人死亡數十人受傷",
-        "url": "https://www.bbc.co.uk/news/articles/cwy05llpjpno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "abbfa217",
+        "title": "大象警報！人工智慧系統試圖避免致命衝突",
+        "url": "https://www.technologyreview.com/2026/06/23/1138562/elephant-alert-ai-warning-systems-avoid-deadly-clashes-india/",
+        "source": "MIT Tech Review",
         "category": "global",
-        "published_at": "Mon, 22 Jun 2026 15:15:42 GMT",
-        "summary_zh": "卡達 Ras Laffan 工業區內的主要液化天然氣處理設施發生了技術事故，造成至少13人死亡，數十人受傷。卡達政府已經啟動緊急應急程序，正在進行搜救和搶救工作。這起事故的原因尚未明確，但卡達政府已經表示將進行徹底調查。卡達政府的緊急應急程序將確保受影響地區的安全和穩定。這起事故對卡達的經濟和社會影響尚待觀察，但卡達政府已經表明將採取一切必要措施來應對這個挑戰。",
-        "sentiment": "負面",
+        "published_at": "Tue, 23 Jun 2026 09:00:00 +0000",
+        "summary_zh": "印度是世界上野生亞洲大象的居住地，約佔全球60%，而大約80%的動物棲息地位於未受保護的地區，根據環境、森林和氣候變化部門的數據。這使得人類和野生動物接觸更加密切，衝突也可能變得致命：有約3000人在過去的衝突中喪生。為了避免這種情況，印度政府正在嘗試使用人工智慧系統來預測和預防大象的行為。這些系統可以分析數據、環境和地理資訊，從而提供警告和建議，以便人們可以安全地與大象共存。這項試驗計畫的目標是減少人類和大象之間的衝突，保護大象的棲息地和減少人類的傷亡。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "53b2291d",
-        "title": "北印度城市大火造成 15 人喪生，調查已經展開",
-        "url": "https://www.bbc.co.uk/news/articles/cwyde73w680o?at_medium=RSS&at_campaign=rss",
+        "id": "16b9f8c8",
+        "title": "川普預期與哥倫比亞新領導人關係改善",
+        "url": "https://www.bbc.co.uk/news/articles/c9v278ny9meo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Tue, 23 Jun 2026 06:37:24 GMT",
-        "summary_zh": "北印度城市發生一場大火，造成至少 15 人死亡。目擊者描述有人從窗口跳下逃生，而救援隊伍則破壞牆壁來救助生還者。這起火災的原因尚未明朗，當地政府已經展開調查。這場火災對當地居民造成了重大影響，許多人受到傷害或喪生。火災的影響範圍還在延伸中，當地政府正在努力應對這場災難。",
-        "sentiment": "負面",
+        "published_at": "Tue, 23 Jun 2026 10:27:04 GMT",
+        "summary_zh": "哥倫比亞即將出現新領導人， Abelardo de la Espriella 預計將成為該國的新總統。根據初步結果，川普已經對 de la Espriella 表示支持。哥倫比亞的選舉結果尚未確定，但 de la Espriella 的勝選似乎已經被視為定局。這一發展可能會對哥倫比亞與美國的關係產生重大影響，特別是在貿易和安全領域。川普的支持可能會幫助 de la Espriella 在與美國的關係上取得進展。然而，哥倫比亞的選舉結果尚未確定，最終結果仍待觀察。",
+        "sentiment": "中性",
         "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false
       },
       {
-        "id": "82fd3995",
-        "title": "緬甸軍方六個月內殺害逾 700 名平民，聯合國報告",
-        "url": "https://www.bbc.co.uk/news/articles/cnv97e42r7yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "ec50a3fb",
+        "title": "美伊首輪談判結束 新興：油輪運價仍高於歷史平均水準",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5481563",
+        "source": "自由時報財經",
         "category": "global",
-        "published_at": "Mon, 22 Jun 2026 15:31:55 GMT",
-        "summary_zh": "緬甸軍方在去年六個月內殺害逾 700 名平民，聯合國最新報告指出，這些平民死亡人數中，包括 153 名兒童。這項報告是根據聯合國人權事務高級專員辦公室收集的資料所做出的結論。聯合國人權事務高級專員辦公室表示，這些平民死亡人數是由於緬甸軍方對平民的攻擊所致。這項報告的發布，凸顯了緬甸軍方對平民的暴力行為，引起了國際社會的關注。",
-        "sentiment": "負面",
+        "published_at": "Tue, 23 Jun 2026 18:37:55 +0800",
+        "summary_zh": "美伊首輪談判結束後，雙方同意在60天內達成結束戰爭的最終協議。這一發展有助於降低荷姆茲海峽封鎖風險，以及戰爭保險成本。油輪市場的短期風險溢價可能逐漸降低，但目前油輪運價仍高於歷史平均水準。這意味著油輪業者仍然面臨著一定的風險和成本。新興指出，美伊停火對油輪市場的影響仍在觀察中，短期內油價可能會因為市場情緒波動而出現波動。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": true
       },
@@ -114,8 +296,44 @@
         "published_at": "Tue, 23 Jun 2026 08:05:07 GMT",
         "summary_zh": "德特羅爾公司在中國發佈了一則廣告，要求女性「不受其他男人汙染」，但這則廣告卻引發了中國網友的批評，指責該公司有性別歧視的意圖。這則廣告的出現，讓人們對於德特羅爾公司的品牌形象產生了質疑。中國政府對於這則廣告的回應仍未明朗。這則廣告的出現，也讓人們開始思考，什麼樣的廣告是適合在中國的市場上推廣的。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "53b2291d",
+        "title": "北印度城市大火造成 15 人喪生，調查已經展開",
+        "url": "https://www.bbc.co.uk/news/articles/cwyde73w680o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 06:37:24 GMT",
+        "summary_zh": "北印度城市發生一場大火，造成至少 15 人死亡。目擊者描述有人從窗口跳下逃生，而救援隊伍則破壞牆壁來救助生還者。這起火災的原因尚未明朗，當地政府已經展開調查。這場火災對當地居民造成了重大影響，許多人受到傷害或喪生。火災的影響範圍還在延伸中，當地政府正在努力應對這場災難。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "82fd3995",
+        "title": "緬甸軍方六個月內殺害逾 700 名平民，聯合國報告",
+        "url": "https://www.bbc.co.uk/news/articles/cnv97e42r7yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 22 Jun 2026 15:31:55 GMT",
+        "summary_zh": "緬甸軍方在去年六個月內殺害逾 700 名平民，聯合國最新報告指出，這些平民死亡人數中，包括 153 名兒童。這項報告是根據聯合國人權事務高級專員辦公室收集的資料所做出的結論。聯合國人權事務高級專員辦公室表示，這些平民死亡人數是由於緬甸軍方對平民的攻擊所致。這項報告的發布，凸顯了緬甸軍方對平民的暴力行為，引起了國際社會的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "588b12a2",
+        "title": "卡達氣體爆炸至少13人死亡數十人受傷",
+        "url": "https://www.bbc.co.uk/news/articles/cwy05llpjpno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 22 Jun 2026 15:15:42 GMT",
+        "summary_zh": "卡達 Ras Laffan 工業區內的主要液化天然氣處理設施發生了技術事故，造成至少13人死亡，數十人受傷。卡達政府已經啟動緊急應急程序，正在進行搜救和搶救工作。這起事故的原因尚未明確，但卡達政府已經表示將進行徹底調查。卡達政府的緊急應急程序將確保受影響地區的安全和穩定。這起事故對卡達的經濟和社會影響尚待觀察，但卡達政府已經表明將採取一切必要措施來應對這個挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "488d93d1",
@@ -127,6 +345,18 @@
         "summary_zh": "墨西哥世界盃的非官方吉祥物——一隻穿著墨西哥球衣的小鴨子，名叫梅林（Merlin），近日在墨西哥總統上任後不久就與墨西哥總統見面。梅林這隻鴨子在社交媒體上引起了轟動，成為了墨西哥球迷的寵物。梅林的出現讓墨西哥球迷感到高興，並且增添了墨西哥在世界盃的競爭力。墨西哥總統與梅林的會面是這個事件的高潮，展現了墨西哥球迷對梅林的喜愛和支持。",
         "sentiment": "正面",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6c32be53",
+        "title": "伊朗否認在瑞士會議後對核檢查站做出新承諾",
+        "url": "https://www.bbc.co.uk/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 05:39:17 GMT",
+        "summary_zh": "伊朗外交部發表聲明，表示在瑞士會議後沒有做出任何新的承諾，關於核檢查站的問題。這意味著伊朗仍然堅持不允許國際核檢查機構進入其核設施。這一發展可能會對伊朗與國際社會的關係產生影響。伊朗外交部的聲明顯示，伊朗仍然堅持自己的立場，拒絕讓國際核檢查機構進入其核設施。這一發展可能會加劇伊朗與國際社會的緊張關係。伊朗外交部的聲明也表明，伊朗仍然堅持自己的核計劃，並不會讓步。這一發展可能會對全球安全形勢產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -142,77 +372,27 @@
         "ai_classified": true
       }
     ],
-    "ai": [
-      {
-        "id": "0844b7af",
-        "title": "Nvidia 表示其 AI 資料中心設計更熱以節省大量水資源",
-        "url": "https://www.theverge.com/tech/954139/nvidia-data-centers-rubin-liquid-cooling",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-06-22T19:24:32-04:00",
-        "summary_zh": "近日，Nvidia 表示其 Rubin 代號的資料中心設計，採用完全液冷系統，能夠大幅減少電力消耗和水資源使用。這項設計被視為對於資料中心的環境問題的一個解決方案。然而，這項設計並不能完全解決所有與 AI 資料中心相關的問題。資料中心的水和能源消耗一直是公眾關注的焦點，Nvidia 的這項設計被視為對於這些問題的一個重要進步。儘管如此，仍有許多人對於 AI 資料中心的長期影響和可持續性表達了擔憂。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d36b8fef",
-        "title": "人工智慧讓租客陷入困境：無法擁有理想的住所",
-        "url": "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-06-22T16:00:00-04:00",
-        "summary_zh": "在紐約市，Joyce是一位年輕的租客，她在尋找自己的第一個單身公寓時遇到了困難。雖然她認為找到公寓會很難，但也沒有想到會變成一場「地獄之旅」。她瀏覽了許多小而昂貴的房子，Joyce將其描述為「垃圾屋」。但最終，她找到了自己的理想公寓：一個在曼哈頓的合理價格的工作室。這個公寓「大而通風，[&#8230;]Joyce認為這是她生活中最棒的經歷之一。然而，這種情況並不是她獨有的。許多人都面臨著尋找合理價格的住所的困難。人工智慧技術的推動下，房屋租賃市場變得更加複雜，導致租客面臨著難以擁有理想的住所的困境。這種情況對於年輕人、家庭和社會整體都有著重要的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c47909c5",
-        "title": "在你再次為別的應用程式進行「心靈編碼」之前，先讀這篇文章",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-06-22T07:00:00-04:00",
-        "summary_zh": "一位名為Bob Starr的網站開發者為他的網站進行了「心靈編碼」，並將其立即上線。然而，在幾個月後，他才發現了隱藏的SQL注入風險，這可能會讓網站遭到攻擊。這個風險是由於Starr在開發程式碼時忽略了安全性檢查。這個事件提醒開發者們在開發程式碼時需要注意安全性，並且進行徹底的測試以避免類似的風險。這個風險不僅影響了Starr的網站，也可能影響到其他網站和應用程式。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "87c28246",
-        "title": "三個關鍵點：Anthropic 與美國政府的最新紛爭",
-        "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Mon, 22 Jun 2026 18:00:00 +0000",
-        "summary_zh": "美國政府與人工智慧公司 Anthropic 的最新紛爭正在引起關注。Anthropic 在四月宣布已經建立了一個名為 Mythos 的人工智慧模型。然而，這個模型引起了美國政府的關注，認為它可能會對國家安全造成威脅。Anthropic 的 CEO Sam Altman 表示，公司正在與政府溝通，以解決這個問題。這場紛爭的影響不僅僅是技術問題，而是涉及到國家安全和監管的問題。Anthropic 的行動將會對人工智慧的發展和監管產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fecab432",
-        "title": "下載：世界最深最長的海底隧道和可調整的數據中心",
-        "url": "https://www.technologyreview.com/2026/06/22/1139385/the-download-rogfast-subsea-tunnel-flexible-data-centers/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Mon, 22 Jun 2026 12:10:00 +0000",
-        "summary_zh": "今天是《下載》週日版的特刊，內容包括了世界上最深最長的海底公路隧道，以及可調整的數據中心。記者尼爾·費斯在北海海底約 1,000 英尺深處，描述了他在這個黑暗潮濕的洞穴中體驗的奇怪氣味和不適感。這個隧道是為了連接挪威和瑞典而建設的，將會讓車輛可以在海底通過。另一方面，數據中心的可調整性使得它可以根據需求進行擴容或縮減，減少能源消耗和降低成本。這些技術革新將會對未來的交通和數據儲存產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
     "stock_tw": [
       {
-        "id": "75453053",
-        "title": "裕民航運與江蘇韓通簽署2艘散裝船合約 運力破千萬噸",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5481498",
+        "id": "3e5aef51",
+        "title": "財政部招商大會釋千億商機 重大公建納入AI算力、調降長照床位比率",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5481572",
         "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 17:42:38 +0800",
-        "summary_zh": "裕民航運持續擴張高標準環保船隊，旗下子公司裕民航運（新加坡）與江蘇韓通船舶重工簽署船舶建造合約，訂造2艘21.1萬載重噸的新型散裝船。這2艘船的建造將大大提升裕民航運的運力，讓公司的運輸能力達到破千萬噸的里程碑。這項合約的簽署是裕民航運持續致力於環保和技術革新的一部分，公司正在努力打造出高效、環保的船隊。這項投資將為公司未來的發展帶來新的機會和挑戰。",
+        "published_at": "Tue, 23 Jun 2026 18:51:09 +0800",
+        "summary_zh": "財政部將於7月24日舉辦「民間參與公共建設招商大會」，釋出千億元商機。招商大會涵蓋社會住宅、長照設施、文教設施、數位建設、再生水廠、本島大型海淡廠等重大公共建設項目。財政部指出，這些項目將納入AI算力和數位化應用，提高建設效率和服務質量。此外，財政部也將調降長照床位比率，促進長照服務的發展。這項政策變革將對民間企業帶來新的商機和發展機會。財政部的招商大會將成為推動公共建設和民間參與的重要平台。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "961428fe",
+        "title": "職場霸凌新制將上路 勞動部: 7/1起新申訴案 \"一律走新制\"舊案 \"對接新制辦到好\"",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5481559",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 23 Jun 2026 18:30:33 +0800",
+        "summary_zh": "根據《職業安全衛生法》，職場霸凌防治新制將於7月1日正式施行。為配合此項新制，勞動部公告了《職場霸凌防治措施準則》及《地方主管機關受理最高負責人職場霸凌事件申訴處理辦法》兩項子法。這意味著從7月1日起，所有新的申訴案件將按照新制進行處理。勞動部強調，舊有的申訴案件也將對接新制，務求將案件處理得妥善。這項新制的推出，旨在加強職場霸凌的防治工作，保護員工的權益。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -223,11 +403,35 @@
         "url": "https://ec.ltn.com.tw/article/breakingnews/5481500",
         "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 17:40:50 +0800",
+        "published_at": "Tue, 23 Jun 2026 18:22:50 +0800",
         "summary_zh": "全球晶片股週二暴跌，科技股全面拋售潮席捲亞洲、歐洲，威脅華爾街開盤走低。原因是人們對人工智慧公司估值過高，以及美國借貸成本上升的恐慌日益加劇。南韓的三星電子和美光科技股價大幅下跌，亞洲市場整體表現不佳。歐洲市場也受到影響，德國的 Infineon 股價下跌 8%。 美國借貸成本上升的恐慌日益加劇，對全球經濟產生重大影響。人們擔心借貸成本上升會影響企業的盈利能力，進而影響股市。全球晶片股暴跌，科技股全面拋售潮，對全球經濟的影響仍在觀察中。",
         "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c88f47b4",
+        "title": "中國內卷拖累 味全董事長徐文芳:下半年營運審慎樂觀",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5481546",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 23 Jun 2026 18:21:29 +0800",
+        "summary_zh": "味全近幾年獲利不如預期，董事長徐文芳表示，中國市場一直面臨內卷問題。然而，味全正積極轉型，希望未來轉型效益顯現。儘管如此，徐文芳仍表示下半年營運將採取審慎樂觀的態度。內卷問題對中國市場造成了重大影響，導致許多企業的營運不佳。味全也受到了影響，但董事長徐文芳仍對未來抱持樂觀態度。轉型是味全的重要策略，希望能夠在未來取得更好的成績。下半年，味全將繼續努力，盼望營運能夠越來越好。",
+        "sentiment": "中性",
         "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false
+      },
+      {
+        "id": "75453053",
+        "title": "裕民航運與江蘇韓通簽署2艘散裝船合約 運力破千萬噸",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5481498",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 23 Jun 2026 17:42:38 +0800",
+        "summary_zh": "裕民航運持續擴張高標準環保船隊，旗下子公司裕民航運（新加坡）與江蘇韓通船舶重工簽署船舶建造合約，訂造2艘21.1萬載重噸的新型散裝船。這2艘船的建造將大大提升裕民航運的運力，讓公司的運輸能力達到破千萬噸的里程碑。這項合約的簽署是裕民航運持續致力於環保和技術革新的一部分，公司正在努力打造出高效、環保的船隊。這項投資將為公司未來的發展帶來新的機會和挑戰。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "69fce8aa",
@@ -238,8 +442,8 @@
         "published_at": "Tue, 23 Jun 2026 17:35:28 +0800",
         "summary_zh": "聯電在5月的營業表出爐，公司的稅後淨利達到84.49億元，相比去年同期的增幅超過兩倍。這使得聯電的單月營收接近去年第二季的水平。聯電的晶圓代工業務持續穩定，公司的財務表現令人鼓舞。這一成績也表明了聯電在全球晶圓代工市場的競爭力。然而，未來市場的變化和競爭對手的反應仍是關鍵的考量。投資人將密切關注聯電的未來發展和市場趨勢。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c78d80d5",
@@ -250,8 +454,8 @@
         "published_at": "Tue, 23 Jun 2026 17:34:14 +0800",
         "summary_zh": "高力熱處理工業股份有限公司投資32.5億元建置高雄橋頭科學園區新廠，今天舉行動土典禮。原預計2028年底完工，但為因應強勁的客戶訂單與市場需求，高力決定提前完成新廠的建設，預計2027年投產。這項投資將大幅提升高力在熱處理領域的產能，同時也會創造更多就業機會。高力表示，新廠的建設將會持續推動公司的成長，同時也會為客戶提供更好的服務。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "2e96147b",
@@ -328,6 +532,54 @@
     ],
     "finance": [
       {
+        "id": "6babd7e1",
+        "title": "參議院通過房屋法案試圖緩解供應短缺和高昂成本",
+        "url": "https://www.reuters.com/legal/government/senate-passes-housing-bill-bid-ease-supply-crunch-high-costs-2026-06-22/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-22 22:48:18",
+        "summary_zh": "美國參議院通過了一項房屋法案，旨在緩解房屋供應短缺和高昂房屋成本的問題。這項法案的通過是對於美國房屋市場的一個重要轉折點，房屋供應短缺一直是美國房屋市場的一個嚴重問題。根據美國房屋市場研究機構的數據，美國房屋供應短缺率已經達到 20 年來的最高點。這項法案的通過將會幫助增加房屋供應，降低房屋成本，讓更多美國家庭能夠擁有自己的房屋。然而，這項法案的具體內容和實施細節仍需要進一步的細化和討論。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e4bd1818",
+        "title": "卡塔爾主權基金將投資 7.5 億美元在 Doncasters 預備 NYSE 上市",
+        "url": "https://www.reuters.com/world/middle-east/qatar-sovereign-wealth-fund-invest-75-million-doncasters-ahead-nyse-debut-2026-06-22/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-22 22:44:31",
+        "summary_zh": "卡塔爾主權基金宣布將投資 7.5 億美元在 Doncasters，該公司即將在紐約證券交易所 (NYSE) 上市。這項投資將幫助 Doncasters 增強其財務穩定性和全球競爭力。 Doncasters 是一家全球領先的航空和工業零件製造商，提供高品質的零件和服務給各行各業。這項投資將對 Doncasters 的未來發展產生重大影響，同時也表明卡塔爾主權基金對全球經濟的信心。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "6e9d6069",
+        "title": "美國稀土公司反駁MP材料訴訟，競爭加劇",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-22/usa-rare-earth-rebuts-mp-materials-lawsuit-as-rivalry-deepens",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-22 22:37:51",
+        "summary_zh": "美國稀土公司（USA Rare Earth）近日發表聲明，反駁MP材料公司對其的訴訟。這一事件標誌著美國稀土公司與MP材料公司之間的競爭加劇。根據了解，MP材料公司控訴美國稀土公司違反了合約條款，美國稀土公司則否認了這一指控。這一訴訟發生在稀土市場正面臨供應鏈緊張和價格波動之際，美國稀土公司與MP材料公司的競爭將對市場產生重大影響。美國稀土公司的反駁聲明表明了該公司的堅定立場，並將進一步加強與MP材料公司的競爭。這一事件將進一步關注稀土市場的發展和競爭格局。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f92666f3",
+        "title": "美國自助儲存公司Public Storage進軍加拿大，斥資12億美元買入公司",
+        "url": "https://www.reuters.com/legal/transactional/public-storage-expands-into-canada-with-12-billion-buy-2026-06-22/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-22 22:29:16",
+        "summary_zh": "美國自助儲存公司Public Storage宣布進軍加拿大市場，斥資12億美元收購加拿大公司。這項收購將使Public Storage進一步擴展其業務，進入北美市場。根據市場分析，自助儲存市場在加拿大仍有很大空間，尤其是在城市地區。Public Storage的收購行動將對加拿大自助儲存市場產生重大影響，可能會推動市場競爭和價格調整。然而，收購的具體影響仍待觀察。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "bf81ac41",
         "title": "紐約市豪宅房地產被視為『低估』，索西比國際房地產CEO表示",
         "url": "https://www.cnbc.com/video/2026/06/22/new-york-city-luxury-real-estate-is-undervalued-says-sothebys-international-realty-ceo.html",
@@ -336,8 +588,8 @@
         "published_at": "2026-06-22 21:59:10",
         "summary_zh": "紐約市豪宅房地產市場狀況備受關注。索西比國際房地產CEO Philip White 表示，紐約市豪宅房地產被視為『低估』。他在節目『Fast Money』中表示，紐約市豪宅房地產市場仍有很大的發展潛力。根據White的分析，紐約市豪宅房地產的價格仍然低於其實際價值。這是由於市場對豪宅房地產的需求仍然很高，而供應卻相對有限。White 表示，紐約市豪宅房地產市場的價格將會繼續上升。這將對房地產投資者和買家帶來新的機會。然而，White 也提醒投資者和買家要謹慎評估市場風險和投資回報。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "40210448",
@@ -348,8 +600,8 @@
         "published_at": "2026-06-22 21:41:31",
         "summary_zh": "英國工黨領袖Keir Starmer宣布辭職，引發了黨內領袖選舉的風暴。根據目前的預測，倫敦市長Sadiq Khan的競選對手，前曼徹斯特市長Andy Burnham有望成為下一任英國工黨領袖。這意味著Burnham有望成為英國下一任首相。然而，黨內的選舉過程還需要經過一系列的程序和投票。這一變化也引發了對英國政治未來走向的關注。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "e68ba5ac",
@@ -360,31 +612,7 @@
         "published_at": "2026-06-22 21:40:10",
         "summary_zh": "Bending Spoons SpA是一家收購軟體企業的公司，而它的部分投資人正籌備發行首次公開募股(IPO)，籌集至多1.62億美元。這家公司透過收購和重組軟體企業，試圖在市場上取得競爭力。投資人透過IPO籌集的資金將用於支持公司的未來發展和收購更多軟體企業。這項IPO將對軟體業界產生一定影響，投資人將密切關注公司未來的發展方向。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "ea7e8389",
-        "title": "美聯儲的Goolsbee表示勞動市場穩定，但通膨走向不正確",
-        "url": "https://www.reuters.com/world/feds-goolsbee-says-labor-market-stable-inflation-going-wrong-way-2026-06-22/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-22 21:33:43",
-        "summary_zh": "美聯儲高級官員Goolsbee recently 表示勞動市場表現穩定，但通膨趨勢卻出現不利變化。根據他所述，美國勞動市場的就業率和失業率均保持在較低水平，表明勞動市場的穩定性。但是，通膨率卻出現上升趨勢，這可能會對經濟造成負面影響。Goolsbee 的這番評論是對美聯儲在未來政策調整的重要線索。美聯儲的政策調整將對全球經濟產生重大影響，因此了解美聯儲的意見和評估是非常重要的。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "e987fe22",
-        "title": "投資人大舉押注油價下跌，美國與伊朗達成協議前夕",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-22/hedge-funds-piled-into-bearish-oil-bets-ahead-of-us-iran-mou",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-22 20:58:51",
-        "summary_zh": "在美國與伊朗即將簽署的和平協議前夕，投資人開始押注油價下跌。根據最新的數據，多家投資公司的投資人大幅增加了對油價下跌的押注。這種押注是基於投資人對美國與伊朗和平協議可能對全球油價市場的影響的預期。投資人認為，如果美國與伊朗達成協議，伊朗的石油出口可能會增加，從而導致全球油價下跌。這種押注也反映在投資人對油價下跌的期貨合約的購買上。投資人購買了更多的期貨合約，以期望在油價下跌時能夠賺取利益。這種押注可能會對油價市場產生重大影響，投資人需要密切關注油價市場的變化。",
-        "sentiment": "負面",
-        "is_breaking": true,
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -402,6 +630,18 @@
     ],
     "stock_us": [
       {
+        "id": "7bb87c02",
+        "title": "雙黨聯合房屋法案是否真的禁止華爾街買房?",
+        "url": "https://www.marketwatch.com/bulletins/redirect/go?g=05328c8e-5588-4697-a942-2d1290803169&mod=mw_rss_bulletins",
+        "source": "Marketwatch",
+        "category": "stock_us",
+        "published_at": "2026-06-22 22:56:24",
+        "summary_zh": "美國政府最近通過了一項雙黨聯合房屋法案，目的是為了解決房屋 affordability 問題。但是，分析師表示，這項法案需要時間才能真正影響房屋 affordability，同時也不能解決選民對房屋 affordability 的不滿。分析師認為，這項法案並不能真正禁止華爾街買房，而是會對房屋市場產生一定的影響。房屋 affordability 問題是美國一個長期存在的問題，政府一直在努力解決。這項法案的通過是政府對房屋 affordability 問題的一個努力，但仍然需要時間和更多的努力才能真正解決這個問題。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "73c4e98b",
         "title": "交易日: 混雜訊息，華爾街搖搖欲墜",
         "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-22/",
@@ -410,8 +650,8 @@
         "published_at": "2026-06-22 21:09:43",
         "summary_zh": "華爾街近日出現了多種信號，投資者感到迷惑不解。市場分析師預測股市將在短期內出現波動，但長期來看，仍有升值的可能。美國聯邦儲備委員會（FED）最近發表了意見書，表明將繼續監控經濟情況，並可能在未來幾個月內再次調整利率。這項消息使得投資者感到不安，股市出現了波動。同時，企業財務報告也表明了市場的不確定性。一些企業的財務表現出色，但其他企業則表現不佳。這些不確定性使得投資者感到迷惑，不知道股市將如何發展。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "13ff43fd",
@@ -496,151 +736,67 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "0d93b78a",
-        "title": "卡特彼勒股價達里程碑，工業股大幅上漲衝擊華爾街",
-        "url": "https://www.marketwatch.com/story/caterpillars-stock-hits-a-milestone-as-roaring-industrials-rally-sweeps-up-wall-street-391057f7?mod=mw_rss_topstories",
-        "source": "Marketwatch",
-        "category": "stock_us",
-        "published_at": "2026-06-22 16:47:00",
-        "summary_zh": "卡特彼勒股價今年來最為人矚目，目前已經成為道瓊指數中僅餘兩支股價超過 1000 美元的股票之一。卡特彼勒的股價上漲是由於工業股大幅上漲的浪潮，該股價今年來已經上漲逾 50%。這種上漲趨勢是由於全球經濟復甦和工業需求增加所帶動。卡特彼勒的股價上漲對於整個工業股市場有著重要的影響，許多分析師預測該股價將繼續上漲。然而，股市投資者也應該注意到市場的風險和不確定性。卡特彼勒的股價上漲是工業股市場的一個里程碑，展現了該股的強大市場吸引力。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
-    "whitehouse": [
+    "ai": [
       {
-        "id": "a944ce43",
-        "title": "勒索信稱奈恩西·古思里死於綁架後",
-        "url": "https://www.bbc.co.uk/news/articles/cvgm0mgzl33o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 08:10:56 GMT",
-        "summary_zh": "美國一名名叫奈恩西·古思里（Nancy Guthrie）的女性被綁架後，勒索信出現了。據報導，勒索信中提到綁架者並未意欲奈恩西·古思里死亡，並向她的家人致歉。這個事件引起了廣泛關注，許多人都在等待更多的消息。綁架事件的背景和原因仍然不明朗，許多人都在猜測這個事件的真相。奈恩西·古思里被綁架後的影響非常大，許多人都在關注她的安全和福祉。這個事件也引起了對綁架和勒索的關注，許多人都在呼籲提高安全措施和防止綁架的方法。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "6536782a",
-        "title": "蒙特婁槍擊案：警察、平民和嫌疑人均喪生",
-        "url": "https://www.bbc.co.uk/news/articles/c5yz3lv015qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 08:36:38 GMT",
-        "summary_zh": "蒙特婁槍擊案發生，造成一名警察、一名平民和一名嫌疑人喪生。這是24年來蒙特婁警方首次有警察在執行職務中遇害。蒙特婁警局局長表示，這是一起極為悲慘的事件。槍擊案的具體情況尚待調查。這起事件將對蒙特婁警局和當地居民產生重大影響。蒙特婁警局將會展開全面調查，確保這種悲劇不再發生。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "67aff6ef",
-        "title": "WhatsApp 將由印度初創公司創辦人領導，威爾·卡思卡特退下來",
-        "url": "https://www.bbc.co.uk/news/articles/c8e2195k5j2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 22 Jun 2026 15:57:46 GMT",
-        "summary_zh": "WhatsApp 領導層的變動正是因為 Facebook 母公司 Meta 想要加強其在印度市場的影響力。印度市場已經是 WhatsApp 的一個重要市場，Meta 希望通過這次變動來鞏固這一地位。這次變動也意味著 WhatsApp 將更加注重印度市場的需求和發展。印度市場的成長對 WhatsApp 的未來發展具有重要影響，Meta 的這一決策可能會對 WhatsApp 的未來走向產生重大影響。",
+        "id": "0b5b6690",
+        "title": "運作4億美元的巨型機器，將晶片製造帶入未來",
+        "url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Tue, 23 Jun 2026 09:00:00 +0000",
+        "summary_zh": "荷蘭公司荷蘭半導體(Netherlands-based ASML)最新的巨型機器，耗資4億美元，高達150噸重，長度與寬度都超過雙層巴士大小。這台機器由精密磨削的鋁合金製成，覆蓋著數千條蜿蜒的管道、彩色電纜和壓力容器。從地面看起來，這台機器似乎像一座小型建築物。荷蘭半導體公司的代表Jos Benschop爬上這台機器，來到頂部。這台機器將為晶片製造業帶來重大變革，能夠製造出更小、更快、更節能的晶片。這台機器的運作將對全球晶片製造業產生重大影響，將為未來的技術發展提供重要基礎。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "1fc887a9",
-        "title": "川普官員承諾嚴懲反映池毀壞事件　五人被捕　川普稱修復工作將立即展開",
-        "url": "https://www.theguardian.com/us-news/live/2026/jun/22/trump-reflecting-pool-vandalized-lincoln-memorial-iran-us-politics-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 02:03:32 GMT",
-        "summary_zh": "美國前總統川普近日表示，華盛頓反映池遭到破壞，造成300英尺長的裂痕，非法放置化學物質，毀壞了新草坪，並刻上巨大的86 47字樣。川普官員Jeanine Pirro威脅任何涉嫌破壞反映池的人，將會被起訴。根據CBS新聞報導，五人被捕，聯邦檢察官已發出通緝令。川普表示，修復工作將立即展開。這起事件引起了廣泛關注，川普官員承諾會嚴懲那些涉嫌破壞反映池的人。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "87ba6273",
-        "title": "川普總統的林肯紀念碑池塘工程惡化，指責「惡意破壞者」",
-        "url": "https://www.theguardian.com/us-news/2026/jun/22/trump-administration-news-latest-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 01:00:26 GMT",
-        "summary_zh": "川普總統最近宣稱，林肯紀念碑池塘工程惡化的原因是由於「惡意破壞者」的行為。但是，川普並沒有提供任何證據來支持這一說法。事實上，池塘公司在幾周前進行了14萬美元的翻新工程，但現在池塘卻出現了青藻過度生長和油漆剝落等問題。川普指責五名被捕的嫌疑人和五名正在調查中的嫌疑人，但這些指控似乎並不夠充分。這一事件引起了關注，許多人質疑川普的說法。這一事件也引發了對美國政治的關注，尤其是在關於公共工程管理和資源分配的問題上。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2a3715d8",
-        "title": "美國參議院通過跨黨派法案降低房屋成本",
-        "url": "https://www.theguardian.com/us-news/2026/jun/22/us-senate-housing-bill",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 22 Jun 2026 22:44:07 GMT",
-        "summary_zh": "美國參議院於週一通過一項跨黨派法案，旨在通過簡化建築和許可程序、限制投資者購買房屋等方式降低房屋成本。這項法案，名為《21世紀房屋法案》，旨在增加房屋供應、防止投資者買斷房屋，並推動實驗性計劃，促進房屋改善和規劃合理房屋。該法案在參議院獲得85票贊成、5票反對的壓倒性勝利，現已轉交美國眾議院。這項法案是雙方在11月的中期選舉前達成的重要協議。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "974441cc",
-        "title": "特朗普稱五人被捕　林肯紀念館反射池將再次排乾",
-        "url": "https://www.theguardian.com/us-news/2026/jun/22/reflecting-pool-trump-drained",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 22 Jun 2026 22:40:40 GMT",
-        "summary_zh": "林肯紀念館的反射池將再次被排乾，原因是由於前總統特朗普的14億美元翻新工程後出現的藻類生長和油漆剝落問題。特朗普在週一表示，沒有提供證據，五名人士因為破壞而被捕，另外五名人士正在調查中。他稱，破壞者使用刀片將油漆剝落，還有人將肥料放入水中，導致藻類生長。然而，特朗普的說法引起了爭議，許多人質疑他的說法是否可信。這次事件的影響不僅僅是財政上的損失，還可能影響到林肯紀念館的形象和公眾對於這個國家象徵的信任。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "05f23b1d",
-        "title": "白宮發表白皮書：川普總統確保國家免受先進加密攻擊威脅",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-secures-the-nation-against-advanced-cryptographic-attacks/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 22 Jun 2026 20:39:42 +0000",
-        "summary_zh": "白宮宣布，川普總統簽署行政命令，為美國最敏感的資料、關鍵基礎設施和數位經濟提供保護。這項措施旨在促進美國在網絡安全方面的領先地位，確保美國在量子時代的系統安全。這項措施將推動美國在網絡安全領域的創新，保護美國的數位經濟和就業機會。川普總統的這一行動將幫助美國在全球網絡安全競爭中保持領先地位。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f5807a64",
-        "title": "白宮發表白皮書：川普總統推動量子創新新時代",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-ushers-in-the-next-frontier-of-quantum-innovation/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 22 Jun 2026 20:39:32 +0000",
-        "summary_zh": "白宮今天發表了川普總統簽署行政命令，旨在加速美國在量子技術方面的創新，並強化國家安全。量子技術正處於商業突破的關鍵時期，川普總統認為需要採取果斷的政策措施，確保美國在這一領域保持領先地位。這項行政命令將推動美國在量子技術方面的創新，同時也會加強國家安全。這項政策變革將幫助美國在量子技術領域保持競爭力，並促進商業和國家安全的發展。川普總統的這項決定將對美國的量子技術領域產生重大影響，推動美國在未來的量子技術領域取得突破。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b4a14f57",
-        "title": "引領量子革命的新前沿",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 22 Jun 2026 20:38:18 +0000",
-        "summary_zh": "美國總統根據憲法和美國法律授予的權力，發布命令：第一條目的意義。美國正站在量子革命的邊緣。量子資訊科學和技術（QIST）將提供轉型能力，推動美國的創新，驅動經濟增長，創造新的就業機會。這項命令旨在推動美國在量子資訊科學和技術方面的領先地位，確保美國在這個新領域的競爭力。美國政府將投資大量資金，推動量子資訊科學和技術的研究和發展，培養人才，建立基礎設施。這項命令將為美國的經濟和安全帶來重大影響。",
+        "id": "87c28246",
+        "title": "三個關鍵點：Anthropic 與美國政府的最新紛爭",
+        "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Mon, 22 Jun 2026 18:00:00 +0000",
+        "summary_zh": "美國政府與人工智慧公司 Anthropic 的最新紛爭正在引起關注。Anthropic 在四月宣布已經建立了一個名為 Mythos 的人工智慧模型。然而，這個模型引起了美國政府的關注，認為它可能會對國家安全造成威脅。Anthropic 的 CEO Sam Altman 表示，公司正在與政府溝通，以解決這個問題。這場紛爭的影響不僅僅是技術問題，而是涉及到國家安全和監管的問題。Anthropic 的行動將會對人工智慧的發展和監管產生重大影響。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "bf5f88cd",
-        "title": "確保國家抵禦先進加密攻擊",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 22 Jun 2026 20:37:30 +0000",
-        "summary_zh": "美國總統根據憲法和美國法律授權，發佈命令：第一條 背景與政策。隨著大規模量子計算機的出現，尤其是在敵對國家手中，將對廣泛使用的加密安全系統構成重大威脅。目前的網絡活動表明，量子計算機的威脅正在變得越來越迫切。為了應對這種威脅，政府正在採取措施升級國家的加密安全系統。這些措施包括發展新的加密演算法、升級現有的加密系統、以及建立一個國家級的加密安全框架。這些努力將幫助確保美國的網絡安全和敏感資訊的保護。",
+        "id": "fecab432",
+        "title": "下載：世界最深最長的海底隧道和可調整的數據中心",
+        "url": "https://www.technologyreview.com/2026/06/22/1139385/the-download-rogfast-subsea-tunnel-flexible-data-centers/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Mon, 22 Jun 2026 12:10:00 +0000",
+        "summary_zh": "今天是《下載》週日版的特刊，內容包括了世界上最深最長的海底公路隧道，以及可調整的數據中心。記者尼爾·費斯在北海海底約 1,000 英尺深處，描述了他在這個黑暗潮濕的洞穴中體驗的奇怪氣味和不適感。這個隧道是為了連接挪威和瑞典而建設的，將會讓車輛可以在海底通過。另一方面，數據中心的可調整性使得它可以根據需求進行擴容或縮減，減少能源消耗和降低成本。這些技術革新將會對未來的交通和數據儲存產生重大影響。",
         "sentiment": "中性",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0844b7af",
+        "title": "Nvidia 表示其 AI 資料中心設計更熱以節省大量水資源",
+        "url": "https://www.theverge.com/tech/954139/nvidia-data-centers-rubin-liquid-cooling",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-22T19:24:32-04:00",
+        "summary_zh": "近日，Nvidia 表示其 Rubin 代號的資料中心設計，採用完全液冷系統，能夠大幅減少電力消耗和水資源使用。這項設計被視為對於資料中心的環境問題的一個解決方案。然而，這項設計並不能完全解決所有與 AI 資料中心相關的問題。資料中心的水和能源消耗一直是公眾關注的焦點，Nvidia 的這項設計被視為對於這些問題的一個重要進步。儘管如此，仍有許多人對於 AI 資料中心的長期影響和可持續性表達了擔憂。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d36b8fef",
+        "title": "人工智慧讓租客陷入困境：無法擁有理想的住所",
+        "url": "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-22T16:00:00-04:00",
+        "summary_zh": "在紐約市，Joyce是一位年輕的租客，她在尋找自己的第一個單身公寓時遇到了困難。雖然她認為找到公寓會很難，但也沒有想到會變成一場「地獄之旅」。她瀏覽了許多小而昂貴的房子，Joyce將其描述為「垃圾屋」。但最終，她找到了自己的理想公寓：一個在曼哈頓的合理價格的工作室。這個公寓「大而通風，[&#8230;]Joyce認為這是她生活中最棒的經歷之一。然而，這種情況並不是她獨有的。許多人都面臨著尋找合理價格的住所的困難。人工智慧技術的推動下，房屋租賃市場變得更加複雜，導致租客面臨著難以擁有理想的住所的困境。這種情況對於年輕人、家庭和社會整體都有著重要的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       }
     ]
