@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-23T16:04:18.134523+08:00",
+  "generated_at": "2026-06-23T17:04:22.203238+08:00",
   "risk_signals": [
     "🟢 台股加權 47100.65（正常）",
     "🟢 S&P 500 7472.79（正常）",
-    "🟡 VIX 恐慌指數 20.12（留意）",
+    "🟡 VIX 恐慌指數 20.35（留意）",
     "🟢 MOVE 債市波動 65.39（正常）",
-    "🟢 美元指數 101.13（正常）",
-    "🟢 黃金 4116.9（正常）",
+    "🟢 美元指數 101.16（正常）",
+    "🟢 黃金 4124.5（正常）",
     "🟢 美債10Y殖利率 4.45（正常）",
-    "🟢 原油 WTI 73.14（正常）",
-    "🟢 美元/台幣 31.62（正常）"
+    "🟢 原油 WTI 73.43（正常）",
+    "🟢 美元/台幣 31.63（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，但注意恐慌指數持續偏高，可能預示未來風險。",
+  "ai_summary": "市場氛圍保持穩定，但仍需留意恐慌指數持續偏高，表明投資者仍然對未來市場風險感到擔憂。",
   "market": {
     "TWII": {
       "price": 47100.65,
@@ -26,8 +26,8 @@
       "change_pct": -1.32
     },
     "VIX": {
-      "price": 20.12,
-      "change_pct": 16.44
+      "price": 20.35,
+      "change_pct": 17.77
     },
     "TNX": {
       "price": 4.45,
@@ -38,24 +38,218 @@
       "change_pct": -7.46
     },
     "DXY": {
-      "price": 101.13,
-      "change_pct": 0.11
+      "price": 101.16,
+      "change_pct": 0.14
     },
     "GOLD": {
-      "price": 4116.9,
-      "change_pct": -1.55
+      "price": 4124.5,
+      "change_pct": -1.37
     },
     "OIL": {
-      "price": 73.14,
-      "change_pct": -2.25
+      "price": 73.43,
+      "change_pct": -1.86
     },
     "USDTWD": {
-      "price": 31.62,
-      "change_pct": -0.25
+      "price": 31.63,
+      "change_pct": -0.22
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "4078d7bf",
+        "title": "德特爾道歉：廣告被指性別歧視後遭中國網友圍攻",
+        "url": "https://www.bbc.com/news/articles/ced4vq6zylpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 08:05:07 GMT",
+        "summary_zh": "德特爾公司在中國發佈了一則廣告，該廣告中一名男性正在尋找伴侶，條件是該伴侶「不受其他男性汙染」。這則廣告在中國引起了強烈反應，網友們批評該廣告是性別歧視。德特爾公司隨後道歉，承認該廣告的內容有問題。這則廣告被視為是對女性的不尊重，引起了中國社會的廣泛關注。德特爾公司的道歉被視為是一個重要的步驟，希望能夠改善公司的形象。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "bdd94e67",
+        "title": "澳洲煤炭和天然氣出口違反人權，團體在新案件中提出訴訟",
+        "url": "https://www.bbc.com/news/articles/cn8q5nx6jw6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 03:55:00 GMT",
+        "summary_zh": "澳洲一群團體指出，澳洲繼續批准煤炭和天然氣出口而不保護公民，是違法的。這些團體認為，澳洲政府應該為公民的健康和環境安全負責，然而澳洲政府卻繼續批准這些出口，違反了公民的基本權利。這一爭議引發了對澳洲政府能源政策的質疑，是否應該優先考慮公民的福祉和環境保護，而不是追求經濟利益。這一案件將在聯合國人權委員會上進行審理，結果將對澳洲政府的能源政策產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e5c69048",
+        "title": "跟著BTS成員到家門口133次　被判驅逐出境",
+        "url": "https://www.bbc.com/news/articles/c9v2d9edx9wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 03:23:36 GMT",
+        "summary_zh": "一名來自巴西的女性多次造訪BTS成員Jungkook的家門口，共計20次於短短兩個月內。根據報導，她在Jungkook家門口按鈴133次，導致警方介入並將她帶走。該女性被指控違反了美國法律，可能面臨驅逐出境的處罰。這一事件引起了關注，許多人對於她對BTS成員的行為表達了不滿。這一事件也引發了對於個人隱私和安全的討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c6750d51",
+        "title": "印度一宗慘烈強姦案重演2012年新德里案的痛苦回憶",
+        "url": "https://www.bbc.com/news/articles/cewqyn2p1lno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 22 Jun 2026 22:03:54 GMT",
+        "summary_zh": "一宗發生在比哈爾邦貝古薩里(Begusarai)的強姦案，與2012年新德里一宗慘烈強姦案相比之下，同樣令人感到痛苦。這宗案件的暴力程度令人震驚，令人回憶起2012年新德里一宗慘烈強姦案。這宗案件的發生，讓人們再次面臨強姦和性侵犯的問題。這宗案件的影響不僅僅是個案，還會對整個社會產生深遠的影響。政府和社會需要共同努力，來防止這種事情再次發生。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "83d2f29c",
+        "title": "音樂大亨克萊夫·戴維斯去世，曾與惠妮·休斯頓、布魯斯·史普林斯汀合作",
+        "url": "https://www.bbc.com/news/articles/c3vy3e6q90qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 22 Jun 2026 22:04:41 GMT",
+        "summary_zh": "音樂大亨克萊夫·戴維斯於94歲時去世，他曾經在音樂業界有著輝煌的成就，曾與惠妮·休斯頓、布魯斯·史普林斯汀、比利·喬爾、粉紅飛鶴、艾莉西婭·凱斯和紅髮艾德等音樂巨星合作過。戴維斯曾經擔任過哥倫比亞唱片公司和BMG唱片公司的執行長，對於音樂業界有著深遠的影響。他的去世被音樂界的人們所哀悼，他的成就將永遠在音樂史上留下深刻的印記。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "06777d4e",
+        "title": "菲律賓高中槍擊案：三人喪生，涉嫌校園霸凌",
+        "url": "https://www.bbc.com/news/articles/cjegy777xw5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 22 Jun 2026 09:45:52 GMT",
+        "summary_zh": "菲律賓一所高中發生槍擊案，造成三人死亡。警方表示，槍擊案的動機可能是因為校園霸凌的恩怨。這起槍擊案在菲律賓引起了強烈反響，許多人對校園霸凌問題表示關注和憤怒。菲律賓政府也已經開始就此事件展開調查和處理。這起槍擊案凸顯了菲律賓教育系統面臨的嚴重問題，包括校園霸凌和安全問題。菲律賓政府需要採取積極措施來改善教育系統和保護學生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "488d93d1",
+        "title": "墨西哥總統會見世界盃的鴨子",
+        "url": "https://www.reuters.com/sports/soccer/president-will-see-you-now-mexicos-world-cup-duck-meets-sheinbaum-2026-06-22/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-06-22 17:15:31",
+        "summary_zh": "墨西哥世界盃的非官方吉祥物——一隻穿著墨西哥球衣的小鴨子，名叫梅林（Merlin），近日在墨西哥總統上任後不久就與墨西哥總統見面。梅林這隻鴨子在社交媒體上引起了轟動，成為了墨西哥球迷的寵物。梅林的出現讓墨西哥球迷感到高興，並且增添了墨西哥在世界盃的競爭力。墨西哥總統與梅林的會面是這個事件的高潮，展現了墨西哥球迷對梅林的喜愛和支持。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a5b2c900",
+        "title": "已故歌手Oliver Tree的屍體返回美國後遭遇直升機墜毀",
+        "url": "https://www.bbc.com/news/articles/c14ygg6vk3vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 22 Jun 2026 10:19:25 GMT",
+        "summary_zh": "已故歌手Oliver Tree在世界巡迴演唱會期間去世，正要前往巴西的演唱會。根據最新消息，Oliver Tree的屍體已經返回美國。這位32歲的加州人在巡迴演唱會期間遇難，引起了許多歌迷的哀悼。直升機墜毀事件的具體原因尚未公布，正在進行調查。這一事件對於歌迷和音樂界產生了深遠的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b922fb01",
+        "title": "洛杉磯大型倉庫火災持續第五天",
+        "url": "https://www.bbc.com/news/videos/c5yz2dmjdxyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 22 Jun 2026 15:19:38 GMT",
+        "summary_zh": "洛杉磯一座大型倉庫發生嚴重火災，持續第五天。火災產生大量濃煙，影響當地空氣質量，官員因此宣布進入緊急狀態。洛杉磯當局正在努力控制火災，同時關注空氣質量問題。這場大火對當地居民造成了嚴重影響，許多人被迫進入緊急避難。官員正在評估火災的原因和影響，同時籌劃善後措施。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c42b3a29",
+        "title": "卡達氣體爆炸至少13死數十傷",
+        "url": "https://www.bbc.com/news/articles/cwy05llpjpno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 22 Jun 2026 15:15:42 GMT",
+        "summary_zh": "卡達 Ras Laffan 工業區內，主要液化天然氣處理設施發生了技術事故。這起事故造成至少13人死亡，數十人受傷。卡達政府正在調查事故原因。這起爆炸事件對卡達的能源產業和經濟產生了重大影響。卡達政府已經開始應對此次事件的後果，並且正在與國際組織合作，以防止類似事件再次發生。卡達政府的反應和應對措施將對卡達的經濟和能源產業產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3739c693",
+        "title": "北印度城市大火造成15人死亡，調查已經展開",
+        "url": "https://www.bbc.com/news/articles/cwyde73w680o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 06:37:24 GMT",
+        "summary_zh": "一場大火在北印度城市爆發，造成15人死亡。目擊者描述，人們跳出窗戶逃生，而救援隊伍則破壞牆壁來救援生還者。這起火災的原因尚未明確，當地政府已經展開調查。火災的影響受到廣泛關注，許多人對此事件感到震驚和憂慮。北印度的火災頻發，政府正在努力改善安全措施以防止類似事件再次發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a7203a8c",
+        "title": "緬甸軍方六個月內殺害逾 700 名平民，聯合國報告",
+        "url": "https://www.bbc.com/news/articles/cnv97e42r7yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 22 Jun 2026 15:31:55 GMT",
+        "summary_zh": "緬甸軍方在去年六個月內殺害了逾 700 名平民，聯合國最新報告指出，這些平民中包括 153 名兒童。這項報告是聯合國人權事務高級專員辦公室為緬甸軍方的暴行所做的調查。聯合國人權事務高級專員辦公室指出，緬甸軍方的行為違反了人權法，導致大量平民喪生。這項報告的發布，將會對緬甸軍方的行動產生影響，可能會引起國際社會的譴責和壓力。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0da67140",
+        "title": "法國多數地區發出紅色警報　高溫熱浪加劇",
+        "url": "https://www.bbc.com/news/articles/c0jy9g96086o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 22 Jun 2026 16:42:23 GMT",
+        "summary_zh": "法國正遭受嚴重的高溫熱浪，衛生部長警告許多公民將會受到影響。根據預測，高溫將於週一達到峰值。這次熱浪已經影響了法國的大部分地區，紅色警報已經在許多地方發出。衛生部長表示，高溫將對許多人造成嚴重影響，尤其是老年人和兒童。法國政府已經開始採取措施來應對這次熱浪，包括提供更多的空調和水源。然而，預測顯示，高溫將持續到週末。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "20314d3d",
+        "title": "肯雅內閣部長被判違法，違反了美國支持的埃博拉中心建設禁令",
+        "url": "https://www.bbc.com/news/articles/c4gy6vk44pwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 22 Jun 2026 16:34:39 GMT",
+        "summary_zh": "肯雅內閣部長阿登杜阿勒（Aden Duale）被判違反了肯雅高等法院的禁令，禁止在有爭議的美國資助埃博拉中心進行建築工事。這個埃博拉中心是由美國政府資助的，旨在應對肯雅可能的埃博拉疫情。然而，這個計畫引起了肯雅公民的強烈反對，認為這個中心將會對當地環境和人們的健康造成嚴重影響。阿登杜阿勒的行動被視為對法院判決的藐視，肯雅政府可能會面臨嚴厲的處罰。這個事件可能會對肯雅的政治局勢產生重大影響，同時也會關注到美國在肯雅的影響力。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "359699d9",
+        "title": "雙胞胎兄弟與雙胞胎姊妹喜結連理",
+        "url": "https://www.bbc.com/news/articles/cvglvkxwxj8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 22 Jun 2026 16:01:07 GMT",
+        "summary_zh": "在奈及利亞，雙胞胎兄弟台沃(Taiwo)和克亨德(Kehinde) Oguntoye 與雙胞胎姊妹喜結連理。這對雙胞胎兄弟在接受BBC訪問時表示，結婚是他們一生中最幸福的時刻。這對雙胞胎姊妹是奈及利亞伊巴丹州的原住民，雙胞胎兄弟則是來自同一州的另一家。這對雙胞胎夫婦的婚禮在當地引起了轟動，許多朋友和家人都來參加了婚禮。這對雙胞胎夫婦的結婚是奈及利亞的文化傳統中的一部分，雙胞胎兄弟和姊妹的婚姻被視為是吉祥的象徵。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6b283286",
+        "title": "蒙特利爾市長要求終止隨機警察查緝　調查16名警察涉嫌種族偏見",
+        "url": "https://www.theguardian.com/world/2026/jun/22/montreal-mayor-random-police-checks-racism-investigation",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 22 Jun 2026 17:49:55 GMT",
+        "summary_zh": "蒙特利爾市長索拉亞·馬丁內茲·費拉達（Soraya Martinez Ferrada）要求終止隨機警察查緝，原因是市內16名警察涉嫌對黑人和阿拉伯人居民進行不成比例的檢查。市長 herself 曾經提到，她的黑人丈夫曾經多次被警察拦截，而這些事件都沒有任何理由。市內的民眾對這些事件感到憤怒，並要求政府採取行動。這項調查是對蒙特利爾警察局的一個重要檢視，希望能夠改善警察與民眾之間的關係。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
       {
         "id": "df22f2f9",
@@ -75,8 +269,20 @@
         "url": "https://www.bbc.com/news/articles/cvgm0mgzl33o?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 01:59:39 GMT",
+        "published_at": "Tue, 23 Jun 2026 08:10:56 GMT",
         "summary_zh": "美國一名名叫Nancy Guthrie的女孩疑似遭到綁架，綁架犯發出贖金信，內容表達不願意女孩死亡並致歉家人。這起事件的背景是Nancy Guthrie在某個時間點被綁架，綁架犯對家人提出贖金要求。綁架犯在贖金信中表達了不願意女孩死亡的意願，並致歉家人，這表明綁架犯可能對女孩的死亡感到後悔或是試圖減少家人的仇恨。這個事件對Nancy Guthrie的家人和朋友們造成了巨大的痛苦和壓力。綁架犯的行為是非法的，並可能面臨嚴厲的法律懲罰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "84286b30",
+        "title": "蒙特利爾槍擊案：警官、平民和嫌疑人遇害",
+        "url": "https://www.bbc.com/news/articles/c5yz3lv015qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 08:36:38 GMT",
+        "summary_zh": "蒙特利爾槍擊案發生在蒙特利爾，造成一名警官、一名平民和一名嫌疑人死亡。這是蒙特利爾警方24年來首次有警官在執行職務時遇害，蒙特利爾警長表示。槍擊案的具體情況尚未公布，但警方已經展開調查。蒙特利爾市民對槍擊案感到震驚和憂慮，希望警方能夠盡快查明真相並防止類似的事件再次發生。蒙特利爾警方正努力維護市民的安全和安寧。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -94,18 +300,6 @@
         "ai_classified": true
       },
       {
-        "id": "84286b30",
-        "title": "蒙特利爾槍擊案：警官、平民和嫌疑人遇害",
-        "url": "https://www.bbc.com/news/articles/c5yz3lv015qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 03:23:38 GMT",
-        "summary_zh": "蒙特利爾槍擊案發生在蒙特利爾，造成一名警官、一名平民和一名嫌疑人死亡。這是蒙特利爾警方24年來首次有警官在執行職務時遇害，蒙特利爾警長表示。槍擊案的具體情況尚未公布，但警方已經展開調查。蒙特利爾市民對槍擊案感到震驚和憂慮，希望警方能夠盡快查明真相並防止類似的事件再次發生。蒙特利爾警方正努力維護市民的安全和安寧。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "ce6379aa",
         "title": "特朗普再次指責「惡意破壞者」　白宮反映池將被排空",
         "url": "https://www.bbc.com/news/articles/c5yzpjd1njpo?at_medium=RSS&at_campaign=rss",
@@ -114,18 +308,6 @@
         "published_at": "Tue, 23 Jun 2026 03:19:52 GMT",
         "summary_zh": "美國前總統特朗普再次指責有人破壞白宮反映池，稱有人割開長縫，可能將肥料倒入水中。特朗普還威脅要對媒體報導池塘問題的文章提出訴訟。白宮反映池是一個象徵性的水池，位於白宮南側，通常用於國會議員和訪客的拍照。特朗普的指控引起了輿論的關注，許多人質疑他是否有意圖製造假新聞。這次事件可能會對白宮的形象造成影響，同時也會引起對媒體報導的質疑。",
         "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4195ade7",
-        "title": "川普對英國新首相的期望是什麼？",
-        "url": "https://www.bbc.com/news/videos/c2kyz2eqxwvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 22 Jun 2026 21:51:37 GMT",
-        "summary_zh": "美國總統川普曾被視為與英國工黨領袖基爾·斯塔默（Keir Starmer）有密切關係，但伊朗戰爭後這種關係迅速惡化。伊朗戰爭的爆發，似乎是川普與斯塔默關係惡化的轉捩點。雖然兩人曾經有過密切的關係，但現在川普對英國新首相的期望卻不明朗。這種不明朗的局面，可能與英國政治的變化有關。英國的政治環境正在經歷著重大變化，新首相的選舉將對英國政治產生重大影響。川普的期望與英國政治的變化密切相關，將對英國政治產生重大影響。",
-        "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
       },
@@ -142,6 +324,18 @@
         "ai_classified": true
       },
       {
+        "id": "fdcba7c8",
+        "title": "特斯拉車禍致一名女性死亡 美國聯邦調查",
+        "url": "https://www.bbc.com/news/articles/c07yp02mxyjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 22 Jun 2026 22:20:07 GMT",
+        "summary_zh": "一名特斯拉車主週五表示，他當時正在使用「自動駕駛」技術，但車輛卻突然衝入德克薩斯州一棟房屋內。這起車禍造成一名女性死亡，美國聯邦調查局已經展開調查。事件發生在德克薩斯州的一個小鎮，車主表示他當時沒有控制車輛，車輛自行駛入房屋內。這是特斯拉自駕駛技術的又一重大事故，引起了對這項技術的安全性和可靠性的質疑。美國聯邦調查局將會調查車禍的原因和特斯拉自駕駛技術的設計和測試過程。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "9bb39091",
         "title": "英國領袖選舉：史達默的領導地位再度受威脅",
         "url": "https://www.bloomberg.com/news/newsletters/2026-06-22/burnham-emerges-as-the-7th-prime-minister-in-10-years-as-starmer-melts-away",
@@ -154,14 +348,14 @@
         "ai_classified": true
       },
       {
-        "id": "fdcba7c8",
-        "title": "特斯拉車禍致一名女性死亡 美國聯邦調查",
-        "url": "https://www.bbc.com/news/articles/c07yp02mxyjo?at_medium=RSS&at_campaign=rss",
+        "id": "4195ade7",
+        "title": "川普對英國新首相的期望是什麼？",
+        "url": "https://www.bbc.com/news/videos/c2kyz2eqxwvo?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "whitehouse",
-        "published_at": "Mon, 22 Jun 2026 22:20:07 GMT",
-        "summary_zh": "一名特斯拉車主週五表示，他當時正在使用「自動駕駛」技術，但車輛卻突然衝入德克薩斯州一棟房屋內。這起車禍造成一名女性死亡，美國聯邦調查局已經展開調查。事件發生在德克薩斯州的一個小鎮，車主表示他當時沒有控制車輛，車輛自行駛入房屋內。這是特斯拉自駕駛技術的又一重大事故，引起了對這項技術的安全性和可靠性的質疑。美國聯邦調查局將會調查車禍的原因和特斯拉自駕駛技術的設計和測試過程。",
-        "sentiment": "負面",
+        "published_at": "Mon, 22 Jun 2026 21:51:37 GMT",
+        "summary_zh": "美國總統川普曾被視為與英國工黨領袖基爾·斯塔默（Keir Starmer）有密切關係，但伊朗戰爭後這種關係迅速惡化。伊朗戰爭的爆發，似乎是川普與斯塔默關係惡化的轉捩點。雖然兩人曾經有過密切的關係，但現在川普對英國新首相的期望卻不明朗。這種不明朗的局面，可能與英國政治的變化有關。英國的政治環境正在經歷著重大變化，新首相的選舉將對英國政治產生重大影響。川普的期望與英國政治的變化密切相關，將對英國政治產生重大影響。",
+        "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
       },
@@ -262,200 +456,6 @@
         "ai_classified": true
       }
     ],
-    "global": [
-      {
-        "id": "c42b3a29",
-        "title": "卡達氣體爆炸至少13死數十傷",
-        "url": "https://www.bbc.com/news/articles/cwy05llpjpno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 22 Jun 2026 15:15:42 GMT",
-        "summary_zh": "卡達 Ras Laffan 工業區內，主要液化天然氣處理設施發生了技術事故。這起事故造成至少13人死亡，數十人受傷。卡達政府正在調查事故原因。這起爆炸事件對卡達的能源產業和經濟產生了重大影響。卡達政府已經開始應對此次事件的後果，並且正在與國際組織合作，以防止類似事件再次發生。卡達政府的反應和應對措施將對卡達的經濟和能源產業產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3739c693",
-        "title": "北印度城市大火造成15人死亡，調查已經展開",
-        "url": "https://www.bbc.com/news/articles/cwyde73w680o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 06:37:24 GMT",
-        "summary_zh": "一場大火在北印度城市爆發，造成15人死亡。目擊者描述，人們跳出窗戶逃生，而救援隊伍則破壞牆壁來救援生還者。這起火災的原因尚未明確，當地政府已經展開調查。火災的影響受到廣泛關注，許多人對此事件感到震驚和憂慮。北印度的火災頻發，政府正在努力改善安全措施以防止類似事件再次發生。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "a7203a8c",
-        "title": "緬甸軍方六個月內殺害逾 700 名平民，聯合國報告",
-        "url": "https://www.bbc.com/news/articles/cnv97e42r7yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 22 Jun 2026 15:31:55 GMT",
-        "summary_zh": "緬甸軍方在去年六個月內殺害了逾 700 名平民，聯合國最新報告指出，這些平民中包括 153 名兒童。這項報告是聯合國人權事務高級專員辦公室為緬甸軍方的暴行所做的調查。聯合國人權事務高級專員辦公室指出，緬甸軍方的行為違反了人權法，導致大量平民喪生。這項報告的發布，將會對緬甸軍方的行動產生影響，可能會引起國際社會的譴責和壓力。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "83d2f29c",
-        "title": "音樂大亨克萊夫·戴維斯去世，曾與惠妮·休斯頓、布魯斯·史普林斯汀合作",
-        "url": "https://www.bbc.com/news/articles/c3vy3e6q90qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 22 Jun 2026 22:04:41 GMT",
-        "summary_zh": "音樂大亨克萊夫·戴維斯於94歲時去世，他曾經在音樂業界有著輝煌的成就，曾與惠妮·休斯頓、布魯斯·史普林斯汀、比利·喬爾、粉紅飛鶴、艾莉西婭·凱斯和紅髮艾德等音樂巨星合作過。戴維斯曾經擔任過哥倫比亞唱片公司和BMG唱片公司的執行長，對於音樂業界有著深遠的影響。他的去世被音樂界的人們所哀悼，他的成就將永遠在音樂史上留下深刻的印記。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0da67140",
-        "title": "法國多數地區發出紅色警報　高溫熱浪加劇",
-        "url": "https://www.bbc.com/news/articles/c0jy9g96086o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 22 Jun 2026 16:42:23 GMT",
-        "summary_zh": "法國正遭受嚴重的高溫熱浪，衛生部長警告許多公民將會受到影響。根據預測，高溫將於週一達到峰值。這次熱浪已經影響了法國的大部分地區，紅色警報已經在許多地方發出。衛生部長表示，高溫將對許多人造成嚴重影響，尤其是老年人和兒童。法國政府已經開始採取措施來應對這次熱浪，包括提供更多的空調和水源。然而，預測顯示，高溫將持續到週末。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "488d93d1",
-        "title": "墨西哥總統會見世界盃的鴨子",
-        "url": "https://www.reuters.com/sports/soccer/president-will-see-you-now-mexicos-world-cup-duck-meets-sheinbaum-2026-06-22/",
-        "source": "Reuters",
-        "category": "global",
-        "published_at": "2026-06-22 17:15:31",
-        "summary_zh": "墨西哥世界盃的非官方吉祥物——一隻穿著墨西哥球衣的小鴨子，名叫梅林（Merlin），近日在墨西哥總統上任後不久就與墨西哥總統見面。梅林這隻鴨子在社交媒體上引起了轟動，成為了墨西哥球迷的寵物。梅林的出現讓墨西哥球迷感到高興，並且增添了墨西哥在世界盃的競爭力。墨西哥總統與梅林的會面是這個事件的高潮，展現了墨西哥球迷對梅林的喜愛和支持。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "20314d3d",
-        "title": "肯雅內閣部長被判違法，違反了美國支持的埃博拉中心建設禁令",
-        "url": "https://www.bbc.com/news/articles/c4gy6vk44pwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 22 Jun 2026 16:34:39 GMT",
-        "summary_zh": "肯雅內閣部長阿登杜阿勒（Aden Duale）被判違反了肯雅高等法院的禁令，禁止在有爭議的美國資助埃博拉中心進行建築工事。這個埃博拉中心是由美國政府資助的，旨在應對肯雅可能的埃博拉疫情。然而，這個計畫引起了肯雅公民的強烈反對，認為這個中心將會對當地環境和人們的健康造成嚴重影響。阿登杜阿勒的行動被視為對法院判決的藐視，肯雅政府可能會面臨嚴厲的處罰。這個事件可能會對肯雅的政治局勢產生重大影響，同時也會關注到美國在肯雅的影響力。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "359699d9",
-        "title": "雙胞胎兄弟與雙胞胎姊妹喜結連理",
-        "url": "https://www.bbc.com/news/articles/cvglvkxwxj8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 22 Jun 2026 16:01:07 GMT",
-        "summary_zh": "在奈及利亞，雙胞胎兄弟台沃(Taiwo)和克亨德(Kehinde) Oguntoye 與雙胞胎姊妹喜結連理。這對雙胞胎兄弟在接受BBC訪問時表示，結婚是他們一生中最幸福的時刻。這對雙胞胎姊妹是奈及利亞伊巴丹州的原住民，雙胞胎兄弟則是來自同一州的另一家。這對雙胞胎夫婦的婚禮在當地引起了轟動，許多朋友和家人都來參加了婚禮。這對雙胞胎夫婦的結婚是奈及利亞的文化傳統中的一部分，雙胞胎兄弟和姊妹的婚姻被視為是吉祥的象徵。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a5b2c900",
-        "title": "已故歌手Oliver Tree的屍體返回美國後遭遇直升機墜毀",
-        "url": "https://www.bbc.com/news/articles/c14ygg6vk3vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 22 Jun 2026 10:19:25 GMT",
-        "summary_zh": "已故歌手Oliver Tree在世界巡迴演唱會期間去世，正要前往巴西的演唱會。根據最新消息，Oliver Tree的屍體已經返回美國。這位32歲的加州人在巡迴演唱會期間遇難，引起了許多歌迷的哀悼。直升機墜毀事件的具體原因尚未公布，正在進行調查。這一事件對於歌迷和音樂界產生了深遠的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "94820d55",
-        "title": "肯亞前司法部長被拒入境烏干達，律師團體表示",
-        "url": "https://www.bbc.com/news/articles/c0ly6786px4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 22 Jun 2026 17:19:16 GMT",
-        "summary_zh": "肯亞前司法部長馬莎·卡魯亞（Martha Karua）是一名代表被捕烏干達反對派領袖比西吉耶（Kizza Besigye）進行審判的律師。根據律師團體的說法，卡魯亞被拒絕入境烏干達，原因尚不清楚。比西吉耶因叛國罪被捕，卡魯亞正為其辯護。烏干達政府對卡魯亞被拒入境的說法表示否認，稱卡魯亞並未提出入境申請。這一事件引起了關注，許多人質疑烏干達政府的行為。卡魯亞的律師團體表示，卡魯亞的入境被拒絕是對她工作的干擾，會對比西吉耶的審判產生影響。烏干達政府的行為被視為對反對派的鎮壓，會對烏干達的民主發展產生負面影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b922fb01",
-        "title": "洛杉磯大型倉庫火災持續第五天",
-        "url": "https://www.bbc.com/news/videos/c5yz2dmjdxyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 22 Jun 2026 15:19:38 GMT",
-        "summary_zh": "洛杉磯一座大型倉庫發生嚴重火災，持續第五天。火災產生大量濃煙，影響當地空氣質量，官員因此宣布進入緊急狀態。洛杉磯當局正在努力控制火災，同時關注空氣質量問題。這場大火對當地居民造成了嚴重影響，許多人被迫進入緊急避難。官員正在評估火災的原因和影響，同時籌劃善後措施。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bdd94e67",
-        "title": "澳洲煤炭和天然氣出口違反人權，團體在新案件中提出訴訟",
-        "url": "https://www.bbc.com/news/articles/cn8q5nx6jw6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 03:55:00 GMT",
-        "summary_zh": "澳洲一群團體指出，澳洲繼續批准煤炭和天然氣出口而不保護公民，是違法的。這些團體認為，澳洲政府應該為公民的健康和環境安全負責，然而澳洲政府卻繼續批准這些出口，違反了公民的基本權利。這一爭議引發了對澳洲政府能源政策的質疑，是否應該優先考慮公民的福祉和環境保護，而不是追求經濟利益。這一案件將在聯合國人權委員會上進行審理，結果將對澳洲政府的能源政策產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e5c69048",
-        "title": "跟著BTS成員到家門口133次　被判驅逐出境",
-        "url": "https://www.bbc.com/news/articles/c9v2d9edx9wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 03:23:36 GMT",
-        "summary_zh": "一名來自巴西的女性多次造訪BTS成員Jungkook的家門口，共計20次於短短兩個月內。根據報導，她在Jungkook家門口按鈴133次，導致警方介入並將她帶走。該女性被指控違反了美國法律，可能面臨驅逐出境的處罰。這一事件引起了關注，許多人對於她對BTS成員的行為表達了不滿。這一事件也引發了對於個人隱私和安全的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "06777d4e",
-        "title": "菲律賓高中槍擊案：三人喪生，涉嫌校園霸凌",
-        "url": "https://www.bbc.com/news/articles/cjegy777xw5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 22 Jun 2026 09:45:52 GMT",
-        "summary_zh": "菲律賓一所高中發生槍擊案，造成三人死亡。警方表示，槍擊案的動機可能是因為校園霸凌的恩怨。這起槍擊案在菲律賓引起了強烈反響，許多人對校園霸凌問題表示關注和憤怒。菲律賓政府也已經開始就此事件展開調查和處理。這起槍擊案凸顯了菲律賓教育系統面臨的嚴重問題，包括校園霸凌和安全問題。菲律賓政府需要採取積極措施來改善教育系統和保護學生。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a64e7aa9",
-        "title": "印度「蟻蟻黨」領導的抗議活動進入第三天",
-        "url": "https://www.bbc.com/news/articles/cvgqp94ynn0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 22 Jun 2026 08:46:40 GMT",
-        "summary_zh": "印度一群抗議者，自稱為「蟻蟻黨」，正在領導一場抗議活動，抗議教育部長Dharmendra Pradhan下台。抗議活動已經持續了三天，並表明將繼續進行，直到教育部長下台為止。這個抗議活動的背景是教育部長的政策受到批評，抗議者認為教育部長的政策對教育系統造成了負面影響。抗議活動的影響分析顯示，抗議活動已經引起了社會的關注，教育部長的政策也受到質疑。後續展望是，抗議活動是否能夠達到目的，教育部長是否會下台。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6b283286",
-        "title": "蒙特利爾市長要求終止隨機警察查緝　調查16名警察涉嫌種族偏見",
-        "url": "https://www.theguardian.com/world/2026/jun/22/montreal-mayor-random-police-checks-racism-investigation",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 22 Jun 2026 17:49:55 GMT",
-        "summary_zh": "蒙特利爾市長索拉亞·馬丁內茲·費拉達（Soraya Martinez Ferrada）要求終止隨機警察查緝，原因是市內16名警察涉嫌對黑人和阿拉伯人居民進行不成比例的檢查。市長 herself 曾經提到，她的黑人丈夫曾經多次被警察拦截，而這些事件都沒有任何理由。市內的民眾對這些事件感到憤怒，並要求政府採取行動。這項調查是對蒙特利爾警察局的一個重要檢視，希望能夠改善警察與民眾之間的關係。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
     "ai": [
       {
         "id": "0844b7af",
@@ -520,6 +520,78 @@
     ],
     "stock_tw": [
       {
+        "id": "2e96147b",
+        "title": "續升綠能預計6月29日登錄興櫃",
+        "url": "https://www.cna.com.tw/news/afe/202606230220.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 23 Jun 2026 16:13:17 +0800",
+        "summary_zh": "續升綠能預計將於6月29日登錄興櫃，成為上市公司。今年前5個月，公司累計稅後淨利達新台幣2541萬元，每股純益達1.03元。這表明公司在再生能源售電業的業務上取得了良好的成績。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2cf5887c",
+        "title": "5月失業率3.27% 連2月下降",
+        "url": "https://www.cna.com.tw/news/afe/202606230219.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 23 Jun 2026 16:12:15 +0800",
+        "summary_zh": "根據主計總處公布的數據，5月失業率為3.27%，比上月下降0.03個百分點，呈現連續兩個月的下滑趨勢。經過季節調整後的失業率為3.32%，同樣呈現下滑。這意味著台灣的就業市場正在趨於穩定，失業率的下降表明勞動市場的活躍度正在增加。這一趨勢對於台灣的經濟發展具有積極的影響，預計將在未來的經濟報告中體現出來。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ba043706",
+        "title": "5月外銷訂單創單月次高 年增47%連16紅",
+        "url": "https://www.cna.com.tw/news/afe/202606230218.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 23 Jun 2026 16:09:13 +0800",
+        "summary_zh": "根據經濟部的最新數據，5月外銷訂單創下歷年同月新高，達到894.8億美元，單月第2高。這意味著今年的外銷訂單呈現持續增長的趨勢，年增47.2%。這是連續第16個月，外銷訂單呈現正增長的局面。今年前5個月的外銷訂單累計達到4088.3億美元，寫下歷年同期新高，年增49%。這表明台灣的出口業正在取得顯著成績，人工智慧（AI）需求的強勁增長是其中一個重要原因。這項數據的出現，對於台灣的出口業和整體經濟都具有積極的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "efeae59a",
+        "title": "印度塔塔電子遭駭 蘋果與特斯拉機密資料疑外洩",
+        "url": "https://www.cna.com.tw/news/aopl/202606230217.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 23 Jun 2026 16:09:11 +0800",
+        "summary_zh": "印度塔塔電子近期遭遇資安事件，勒索軟體組織World Leaks張貼了據稱是蘋果公司與特斯拉的零組件設計與規格文件資料。這兩家公司都是塔塔電子的客戶，事件的影響尚未明朗。塔塔電子表示正在與相關單位合作，處理此事。這起事件可能會對相關公司造成影響，同時也引起了對資安的關注。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "d7cb77b3",
+        "title": "新台幣升0.6分 收31.625元",
+        "url": "https://www.cna.com.tw/news/afe/202606230214.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 23 Jun 2026 16:04:04 +0800",
+        "summary_zh": "台北外匯市場新台幣兌美元今天收盤收31.625元，升0.6分。這是新台幣在近期的升值趨勢。市場分析認為，這種升值可能是由於投資人對台股的信心增加所致。投資人對台股的信心增加，導致對新台幣的需求增加，從而推動新台幣升值。這種升值對台灣的出口業有所幫助，但也可能對進口業造成一定的壓力。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "84246776",
+        "title": "卓榮泰：中小微企業轉型條例草案盼8月底前完成",
+        "url": "https://www.cna.com.tw/news/afe/202606230208.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 23 Jun 2026 15:49:51 +0800",
+        "summary_zh": "行政院長卓榮泰表示，中小微企業轉型升級發展條例草案預計於今年8月底完成，並將於立法院下個會期送請審議。他強調，條例草案將透過金融支持、租稅優惠、汰舊換新與人才培育等措施，加大對微型企業、新創及商圈的支持。這項條例草案旨在幫助中小微企業在經濟轉型中更好地發展。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "c54c155e",
         "title": "70歲阿公退休後砸400萬買股，結果曝光了！",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5480958",
@@ -528,8 +600,8 @@
         "published_at": "Tue, 23 Jun 2026 15:55:51 +0800",
         "summary_zh": "近年來，許多人在退休後才開始投資股票，但如果沒有充分理解的情況下移動大額資金，可能會導致難以挽回的後悔。日本一名70歲的阿公孝夫在退休後，砸下400萬元買入了一些股票，但他的投資策略卻被揭露了。根據報導，阿公的投資策略是買入一些被市場認為有潛力的股票，但他卻沒有進行充分的研究和分析。結果，他的投資收益並不理想，甚至有可能會導致損失。這個案例提醒我們，投資股票需要充分的了解和研究，否則可能會導致後悔。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "a6860261",
@@ -540,8 +612,8 @@
         "published_at": "Tue, 23 Jun 2026 15:52:05 +0800",
         "summary_zh": "為強化離島地區通訊網路韌性，數位發展部透過前瞻基礎建設預算補助建置的「臺馬四號海纜」以及馬祖東引、北竿、南竿與莒光鄉間微波通訊系統，近期將完工。這些新設施將大大提升馬祖地區的通訊網路韌性，讓當地居民能夠享受更穩定的網路服務。未來，甚至可以在船上暢看串流平台，改善離島地區的生活質量。這項工程的完成將對馬祖地區的發展帶來重要影響，讓該地區的居民能夠更好地與外界連繫。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "3ed67cdb",
@@ -552,8 +624,8 @@
         "published_at": "Tue, 23 Jun 2026 15:42:58 +0800",
         "summary_zh": "小金雞續升綠能今日舉行興櫃前法說會，預計6月29日以每股100元登錄興櫃。中美晶董事長徐秀蘭與CIP台灣區董事總經理許乃文雙雙現身站台，表達對小金雞續升綠能的支持。小金雞續升綠能是一家綠能公司，提供整合創能、售能、儲能與節能服務。該公司的登錄興櫃將為投資者提供新的投資機會。然而，市場對該公司的評估仍有待觀察。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "82093207",
@@ -564,191 +636,83 @@
         "published_at": "Tue, 23 Jun 2026 15:37:29 +0800",
         "summary_zh": "美光科技即將公布最新一季財報，投資人對財報的看法開始出現變化。美光夜盤交易由紅翻黑，跌幅一度超過8%，顯示部分投資人選擇在財報出爐前賣出。這種情況可能是因為投資人對財報的預期不符，或者是因為市場對記憶體行業的看法有所變化。美光是全球最大的記憶體製造商之一，財報的結果對於公司股價和整個記憶體行業都有重要影響。投資人需要密切關注財報的結果和市場反應，以便做出明智的投資決策。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "3a302250",
-        "title": "日本外籍移工人數大增 近4倍於1990年！外國人結構大翻盤",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5480705",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 15:34:42 +0800",
-        "summary_zh": "日本外籍移工人數持續攀升，截至2025年6月，日本在留外國人已達約395萬人，較1990年的108萬人大增近4倍。值得注意的是，日本外國人結構近年出現明顯變化，34個都道府縣第一名都是來自同一個國家。這個國家的外籍移工人數在日本的影響力越來越大，引起了日本政府和社會的關注。日本政府正在努力調整政策，來應對外籍移工人數的快速增長，並確保日本的社會穩定和經濟發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "caafe0f4",
-        "title": "台鎔科技7月掛牌 董事長看好未來營運續向上",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5481265",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 15:33:02 +0800",
-        "summary_zh": "台鎔科技將於7月下旬正式掛牌。董事長陳麗麗表示，台鎔科技長期深耕資源再生與廢棄物能源化技術，憑藉多年半導體產業廢棄物處理經驗及相應的技術，台鎔科技已經成為半導體產業廢棄物處理及再生利用領域的領導者。陳麗麗董事長表示，未來台鎔科技將繼續擴大業務，增加收入和市場份額，董事長看好未來營運的發展前景。台鎔科技的掛牌將帶來新的機會和挑戰，董事長將繼續領導公司，推動業務的發展。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "8f10b907",
-        "title": "台積電覓地擴先進封裝二選一 供應鏈看好這園區",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5481087",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 13:49:24 +0800",
-        "summary_zh": "隨著AI浪潮的推動，先進封裝需求大幅增加，台積電的CoWoS產能已經供不應求。為了滿足市場需求，台積電正在積極覓地擴產。根據供應鏈消息，包括彰化二林園區和嘉義園區的擴增三期，都被台積電評估為擴產的可能地點。這一發展對於台積電的供應鏈來說是有利的，因為它可以幫助公司更好地滿足市場需求。然而，這一發展也可能會對當地的土地市場和房屋市場產生影響。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bd2cb9cf",
-        "title": "Uber董事會遭股東提告：涉嫌違反合規要求及性侵訴訟",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5481049",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 13:47:21 +0800",
-        "summary_zh": "Uber股東週一對公司董事會提起訴訟，指控管理層與董事會長期未盡責任，導致公司面臨大量涉及司機性侵與性騷擾的訴訟。這些訴訟引發多起政府執法行動，對公司造成嚴重影響。股東們認為，董事會應該負責確保公司遵守相關法規，然而董事會卻未能有效執行這一責任。這一事件可能會對Uber的聲譽和股價造成長期影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "34c32a24",
-        "title": "張兆順保持中立未投票！陳冠舟獲2/3董事同意 當選國票金副董事長",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5481080",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 13:46:53 +0800",
-        "summary_zh": "國票金今日上午召開董事會，外界關注的副董事長選舉案引起熱議。耐斯集團大股東、原任國票金總經理陳冠舟獲提名，但有其他股東表達不同意見。最終董事會採取表決，結果顯示陳冠舟獲得2/3董事同意，順利當選國票金副董事長。值得注意的是，董事會主席張兆順保持中立，未投票。這一結果可能會對國票金未來的發展方向產生影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b32fb4db",
-        "title": "台股ETF受益人數終止創新高 週減8.6萬人",
-        "url": "https://www.cna.com.tw/news/afe/202606230140.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 13:36:26 +0800",
-        "summary_zh": "台股ETF受益人數終止創新高，根據集保結算所最新統計資料，截至6月18日，總共91檔台股ETF合計受益人數為1703萬5034人，較前一週減少8萬6441人。這意味著台股ETF受益人數的連續創高終止，投資人陷入觀望。台股高檔震盪加劇，投資人面臨著市場不確定的情況。集保結算所的統計資料顯示，台股ETF受益人數的變化反映了投資人對市場的態度和投資策略的調整。這也意味著市場投資者對台股ETF的信心有所動搖。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "36686694",
-        "title": "PC市場迎漲價風 華碩：第3季價格仍有微調空間",
-        "url": "https://www.cna.com.tw/news/afe/202606230138.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 13:33:20 +0800",
-        "summary_zh": "近期，個人電腦市場出現漲價風，華碩聯合科技系統事業總經理廖逸翔表示，這是今年上半年市場預期漲價心理因素的影響，導致消費者提前進場，整體市場開機量與銷量表現都維持個位數年增率。截至今年5月，市場開機量與銷量都呈現年增率。這種情況可能會持續到今年下半年，尤其是在第三季，華碩仍有微調價格的空間。這意味著，PC市場可能會繼續走高，華碩將會繼續觀察市場情況，調整價格以適應市場需求。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "179b2a5f",
-        "title": "TEL台灣機器人大賽比棒球投擲 獎金與補助金逾百萬",
-        "url": "https://www.cna.com.tw/news/ahel/202606230122.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 12:58:45 +0800",
-        "summary_zh": "TEL台灣機器人大賽今年將於6月26日截止報名，競賽主題為「棒球投擲」。該活動由半導體製造設備商TEL台灣舉辦，總獎金及補助金超過新台幣100萬元。這項比賽旨在鼓勵年輕人對機器人和技術的興趣，同時也為參賽者提供一個展示創新和技能的平台。雖然獎金相當可觀，但這項活動更重要的是為參賽者提供了機會學習和實踐技術知識。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9d81b741",
-        "title": "甲骨文大砍員工 2.1萬人受影響",
-        "url": "https://www.cna.com.tw/news/aopl/202606230117.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 12:48:35 +0800",
-        "summary_zh": "甲骨文（Oracle）正在進行業務重組和全面導入人工智慧（AI）應用，導致2026會計年度的總員工數銳減13%。這意味著公司將精簡約2萬1000名人力。這項變革是甲骨文在應對市場變化和競爭壓力的努力的一部分。公司希望透過AI的導入來提升效率和競爭力，但這也會對員工造成影響。這項變革的影響將會在未來的幾個月內逐步展現。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1ca9d0a1",
-        "title": "新台幣午盤升2.2分 暫收31.609元",
-        "url": "https://www.cna.com.tw/news/afe/202606230102.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 12:06:02 +0800",
-        "summary_zh": "台北外匯市場新台幣兌美元今天中午暫收31.609元，升2.2分。這意味著新台幣在短時間內有所升值，成交金額達到12.44億美元。這種市場趨勢可能與全球經濟情勢或投資者對台幣的看法有關。投資者對新台幣的看法可能受到多種因素的影響，包括台幣的流動性、經濟成長率、通膨率等。這種市場變化對台幣的影響可能會持續觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "19ae0e47",
-        "title": "台股創高後翻黑震盪 盤中跌逾百點",
-        "url": "https://www.cna.com.tw/news/afe/202606230066.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 11:18:46 +0800",
-        "summary_zh": "台股今天開高後震盪走低，雖然早盤一度衝上48218.87點，再創歷史新高，但高檔賣壓出籠，指數由紅翻黑，盤中最低來到47310.75點，下跌逾400點。這種震盪走低的市場情緒可能是由於投資者對市場的預期和實際情況之間的差異所導致。許多投資者可能在早盤買入股票，希望能夠在市場繼續升高時賣出，但高檔賣壓的出現卻使得市場指數下跌。這種情況下，投資者可能會感到失望和擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "28baf13a",
-        "title": "聯覺科技奪VivaTech AI冠軍 台34家新創攻歐市場",
-        "url": "https://www.cna.com.tw/news/afe/202606230063.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 11:14:39 +0800",
-        "summary_zh": "經濟部中小及新創企業署與國科會台灣科技新創基地、經濟部技術司攜手，率領34家台灣新創企業及供應鏈夥伴前往法國巴黎參加歐洲最大新創科技展「VivaTech 2026」。其中，中企署培育的新創團隊聯覺科技，在全球深科技創新競賽中奪下AI領域冠軍，展現台灣新創技術實力。這項成就不僅表明台灣新創企業在國際舞台上的競爭力，也是台灣政府推動新創產業發展的成果之一。聯覺科技的勝利將對台灣新創企業的國際認可度產生正面影響，同時也將促進台灣企業進軍歐洲市場的步伐。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1c3b121c",
-        "title": "南山人壽勞資爭議 尹崇堯：絕對有誠意有決心解決",
-        "url": "https://www.cna.com.tw/news/afe/202606230048.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 10:47:08 +0800",
-        "summary_zh": "台北市南山人壽企業工會於南山人壽股東會場外抗議，要求資方提撥退休金和年資補償。南山人壽董事長尹崇堯表示，公司與工會對於業務性質和解決方式有差異，但他仍有誠意和決心解決勞資爭議。這次抗議是工會對於公司未能滿足勞工要求的反應。南山人壽的勞資關係一直存在爭議，工會要求公司改善勞工待遇和權益。南山人壽董事長的表態可能會影響到未來的勞資談判。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fdb47336",
-        "title": "台股早盤衝破48000點創新高 台積電觸2535元新天價",
-        "url": "https://www.cna.com.tw/news/afe/202606230026.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 09:18:20 +0800",
-        "summary_zh": "台股今天開高上漲，早盤突破48000點大關，最高達48218.87點，上漲477.36點，盤中指數創下歷史新高。這一波上漲是由於投資者對台股的信心增強，市場對台積電的期待也在增加。台積電的股價上漲15元，達到2525元，甚至一度觸及2535元新天價。這一波上漲也使得台股的總市值達到新高。然而，投資者也需要注意市場的波動和風險，保持冷靜的投資態度。台股的上漲也可能受到外部因素的影響，例如全球經濟的變化和美元的波動等。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "38151a7f",
-        "title": "新台幣開盤貶2.9分，為31.66元",
-        "url": "https://www.cna.com.tw/news/afe/202606230024.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 23 Jun 2026 09:09:15 +0800",
-        "summary_zh": "台北外匯市場新台幣兌美元匯率今天以31.66元開盤，貶2.9分。這意味著新台幣的貶值對於外國旅客和企業來說將會有所影響。分析人士認為，這可能是由於市場對於經濟前景的不確定性所導致的。新台幣的貶值將會影響到台灣的出口業和外國投資者的投資意願。政府和央行可能會採取措施來穩定匯率，但目前尚未有具體的措施公布。",
-        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       }
     ],
     "finance": [
+      {
+        "id": "e987fe22",
+        "title": "投資人大舉押注油價下跌，美國與伊朗達成協議前夕",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-22/hedge-funds-piled-into-bearish-oil-bets-ahead-of-us-iran-mou",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-22 20:58:51",
+        "summary_zh": "在美國與伊朗即將簽署的和平協議前夕，投資人開始押注油價下跌。根據最新的數據，多家投資公司的投資人大幅增加了對油價下跌的押注。這種押注是基於投資人對美國與伊朗和平協議可能對全球油價市場的影響的預期。投資人認為，如果美國與伊朗達成協議，伊朗的石油出口可能會增加，從而導致全球油價下跌。這種押注也反映在投資人對油價下跌的期貨合約的購買上。投資人購買了更多的期貨合約，以期望在油價下跌時能夠賺取利益。這種押注可能會對油價市場產生重大影響，投資人需要密切關注油價市場的變化。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "b6fe1bf3",
+        "title": "甲骨文員工人數下降約13% ",
+        "url": "https://www.reuters.com/business/world-at-work/oracle-workforce-shrinks-by-about-13-2026-06-22/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-22 20:56:09",
+        "summary_zh": "甲骨文公司近期發布了員工人數下降的消息，約有13%的員工離職。這項變化出現在公司正在努力適應市場變化和競爭的背景下。分析指出，這可能與公司正在進行的重組和成本控制措施有關。這些措施旨在提高公司的效率和競爭力。然而，這也可能對員工造成影響，可能會導致一些員工感到擔憂。整體來說，這項變化可能會對公司的未來發展產生影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a0f24af1",
+        "title": "阿爾伯塔省與日本談判加強加拿大原油進口",
+        "url": "https://www.reuters.com/business/energy/alberta-talks-with-japan-boosting-canadian-crude-imports-2026-06-22/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-22 20:40:30",
+        "summary_zh": "阿爾伯塔省政府與日本政府正在進行談判，目標是加強加拿大原油進口。這一發展可能會對加拿大能源產業產生重大影響。根據消息，日本政府正考慮增加對加拿大原油的進口量，以減少對中東原油的依賴。這一轉變可能會對全球能源市場產生重大影響。阿爾伯塔省政府表示，該省將繼續與日本政府合作，推動加拿大原油進口的增長。這一發展可能會對加拿大經濟產生正面影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "5b2ada72",
+        "title": "芝加哥糧食市場糧食價格下跌",
+        "url": "https://www.reuters.com/pt/agricultura/SVGAGPZRQBNJLMU3YDSGTXOM4M-2026-06-22/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-22 20:20:09",
+        "summary_zh": "芝加哥糧食市場的糧食價格在本週二下跌，主要受到石油價格下跌和美元升值的影響。糧食市場的分析師表示，芝加哥的糧食價格下跌是由於石油價格下跌和美元升值所導致。另一方面，芝加哥的糧食市場也受到糧食供應的影響，糧食供應的變化會對糧食價格產生重大影響。糧食供應的變化會受到多種因素的影響，包括氣候、農業技術和糧食政策等。糧食供應的變化會對糧食價格產生重大影響，因此糧食供應的變化是糧食市場的關鍵因素。目前，糧食供應的變化仍在持續監測中，糧食市場的分析師將密切關注糧食供應的變化，以確保糧食市場的穩定。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a6d540f0",
+        "title": "Best Buy 財務總監 Matt Bilunas 將離職",
+        "url": "https://www.reuters.com/business/best-buy-finance-chief-matt-bilunas-step-down-2026-06-22/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-22 20:10:09",
+        "summary_zh": "美國電器零售巨頭 Best Buy 宣布財務總監 Matt Bilunas 將於未來某個時間點離職。雖然公司未公布具體原因或接任人選，但市場分析師認為這可能會對公司未來的財務策略產生影響。Best Buy 在過去幾年一直面臨著競爭激烈的市場環境，財務管理是公司生存和發展的關鍵。 Matt Bilunas 的離職可能會讓公司需要重新評估財務策略和管理團隊。市場觀察人士預計，公司將會尋找合適的人選接任財務總監一職。這項變動可能會對 Best Buy 股價產生短期影響，但公司的長期發展方向仍將取決於其財務管理和市場策略。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f5933490",
+        "title": "索尼計劃三十年來首次發行美元公債",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-22/sony-plans-its-first-dollar-bond-sale-in-nearly-three-decades",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-22 20:10:03",
+        "summary_zh": "索尼公司計劃在三十年來首次發行美元公債，該公司將在倫敦發行約 1 億美元的美元公債。這是索尼公司在全球金融市場的最新動作，表明公司正在嘗試籌集資金以應對未來的經濟挑戰。索尼公司的美元公債發行將為公司提供額外的資金來源，幫助公司在未來的經濟環境中保持競爭力。這項動作也表明索尼公司對全球經濟的前景感到樂觀。索尼公司的美元公債發行將在倫敦的金融市場上進行，該市場是全球金融市場的重要組成部分。索尼公司的這一決定將對全球金融市場產生影響，讓投資者更加關注公司的財務狀況和未來發展前景。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "3faf7ac4",
         "title": "與 Wolfe Research 同意：用這些持續買回自己股票的股東紅利股來做防禦策略",
@@ -758,79 +722,7 @@
         "published_at": "2026-06-22 19:56:39",
         "summary_zh": " Wolfe Research 的報告指出，公司至少有 10 年的買回股票記錄的公司是投資的好選擇。這些公司不僅買回股票，還支付股東紅利。這些公司的買回股票記錄表明，公司認為自己的股票價值低於實際價值，因此購買股票以增加股東價值。同時，支付股東紅利也表明公司對股東的回報意愿。這些公司的投資人士可以通過買入這些公司的股票來分享公司的成長和紅利。 Wolfe Research 的報告強調，這些公司的買回股票和支付股東紅利的習慣是投資的重要參考指標。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "27d83475",
-        "title": "CME交易平台受影響：系統出現「斷線」問題",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-22/cme-trading-disrupted-as-platform-faces-disconnects",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-22 19:55:51",
-        "summary_zh": "美國商品期貨交易委員會（CME）交易平台近日出現系統問題，導致交易受影響。根據消息，CME交易平台出現「斷線」問題，影響了許多交易商的業務。這一事件可能會對全球金融市場造成一定的影響。CME交易平台的系統問題可能與最近的軟體更新有關，公司正在努力修復問題。交易商和投資者應該密切關注這一事件的發展，了解系統恢復的進展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "ca1d6a43",
-        "title": "委內瑞拉債券暴跌 投資者準備面對債務評估",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-22/venezuelan-bonds-tumble-as-investors-brace-for-debt-assessment",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-22 19:45:31",
-        "summary_zh": "委內瑞拉債券市場出現大幅下跌，投資者預期即將面臨的債務評估將對該國的經濟造成重大影響。委內瑞拉政府欠下的債務已經超過 1.5 萬億美元，投資者擔心債務評估將導致債務違約，進而加劇經濟困境。投資者正在密切關注國際貨幣基金組織 (IMF) 對委內瑞拉債務的評估結果，該結果將對該國的經濟政策和債務重組產生重大影響。委內瑞拉政府正在努力籌措資金來支付債務，投資者希望看到政府能夠通過債務重組來減輕債務負擔。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "11601efd",
-        "title": "川普CDC提名人施瓦茨同意辭去職務、出售股份若通過確認",
-        "url": "https://www.reuters.com/legal/litigation/trump-cdc-nominee-schwartz-resign-posts-sell-holdings-if-confirmed-2026-06-22/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-22 19:10:04",
-        "summary_zh": "美國前總統川普的CDC提名人施瓦茨（Robert L. Schwartz）宣布同意辭去目前的職務，若獲得確認後將出售其所持有的股份。這項決定出於避免任何可能的利益衝突。施瓦茨目前擔任美國能源部的副助理部長，將會辭去這一職務。這項決定表明施瓦茨致力於維護其提名的透明度和公正性。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "324ecc77",
-        "title": "美國能源部啟動弗吉尼亞礦業租賃程序",
-        "url": "https://www.reuters.com/legal/litigation/boem-initiates-process-toward-potential-virginia-mineral-leases-2026-06-22/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-22 19:05:57",
-        "summary_zh": "美國能源部 (BOEM) 宣布啟動程序，評估在弗吉尼亞州開發礦業資源。這項程序的目標是為未來礦業租賃提供基礎。弗吉尼亞州的礦業資源包括石油、天然氣和礦物資源。能源部表示，這項程序將考慮環境影響、社會影響和經濟效益。能源部還將與當地居民和利益相關者進行溝通和協商。這項程序的結果將對弗吉尼亞州的經濟和環境產生重大影響。能源部的決定將對未來礦業開發和資源管理產生重要影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "99e5eeae",
-        "title": "美國政府建議大幅削減在聯邦土地上的能源開採成本",
-        "url": "https://www.reuters.com/business/energy/us-proposes-slash-costs-energy-drillers-federal-lands-2026-06-22/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-22 18:33:43",
-        "summary_zh": "美國政府近日提出一項建議，旨在大幅削減在聯邦土地上的能源開採成本。根據這項建議，能源開採公司將可在聯邦土地上獲得更便宜的土地租金和許可費。這項建議的目的是鼓勵能源開採公司在聯邦土地上進行開採，從而增加美國的能源生產量。能源開採公司對這項建議表示歡迎，認為這將有助於降低開採成本和提高收益。然而，環境保護團體則擔心這項建議可能會導致聯邦土地上的環境破壞和資源浪費。美國政府的這項建議將在未來幾周內進行公聽會和討論。",
-        "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ad4d18ae",
-        "title": "日圓逼近40年新低 日本財相暗示將干預支撐匯率",
-        "url": "https://www.cna.com.tw/news/aopl/202606230123.aspx",
-        "source": "中央社財經",
-        "category": "finance",
-        "published_at": "Tue, 23 Jun 2026 13:03:47 +0800",
-        "summary_zh": "日圓近期因中東戰爭與美日利率差距擴大而面臨新的貶值壓力。日本財務大臣表示，在日圓兌美元匯率逼近40年來新低之際，已準備採取「果斷措施」。這意味著日本政府可能會干預市場以支撐日圓匯率。日圓的貶值對日本出口業有重大影響，日本政府希望通過干預措施來穩定匯率並保護出口業。這項措施可能會對全球金融市場產生影響，特別是在美日經濟關係緊張的情況下。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -848,13 +740,25 @@
     ],
     "stock_us": [
       {
-        "id": "715209fe",
-        "title": "Nvidia 股票下跌，Kalshi 交易者預測晶片價格將下降",
-        "url": "https://www.cnbc.com/2026/06/22/nvidias-stock-struggles-as-kalshi-traders-bet-chip-prices-are-coming-down.html",
+        "id": "13ff43fd",
+        "title": "亞馬遜Prime Day今年提前到來。華爾街正在密切關注這個消息",
+        "url": "https://www.cnbc.com/2026/06/22/amazon-prime-day-arrives-earlier-this-year-heres-why-wall-street-is-watching-closely.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-06-22 19:08:17",
-        "summary_zh": "近期來看，Nvidia 的股票表現不佳。根據 Kalshi 交易者的預測，Nvidia 可以為晶片收取的價格也在下降。這些交易者通過 Kalshi 進行交易，Kalshi 是一家允許使用者在市場上進行有趣的賭注的平台。根據 Kalshi 的數據，交易者對於 Nvidia 晶片價格下降的預測越來越高。這表明投資者對 Nvidia 的未來表現感到擔憂。Nvidia 是一家領先的半導體公司，專門生產高性能計算晶片。公司的股票價格下跌可能會對整個半導體行業產生影響。投資者正在密切關注 Nvidia 的表現，以了解市場對公司未來發展的看法。",
+        "published_at": "2026-06-22 20:10:29",
+        "summary_zh": "亞馬遜今年的Prime Day購物活動可能會更加注重日常必需品，這是該公司年度購物活動中的一個快速增長的類別。這意味著消費者可能會更加注重購買基本商品，而不是高檔品牌或奢侈品。這也可能會對亞馬遜的銷售業績產生重要影響。華爾街正在密切關注這個消息，因為它可能會影響亞馬遜的股價。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c44370b1",
+        "title": "華爾街曾經對黃金極度樂觀，現在卻改變了主意",
+        "url": "https://www.cnbc.com/2026/06/22/wall-street-was-once-uber-bullish-on-gold-now-its-changing-its-tune.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-22 20:06:56",
+        "summary_zh": "近期的聯邦儲備理事會會議確立了鹹鹼的調調，華爾街多家公司開始質疑黃金是否能夠達到之前樂觀的預期。黃金曾經被視為避險工具和保值資產，華爾街投資者曾經對其寄予厚望。但是，隨著聯邦儲備理事會的鹹鹼政策，投資者開始認為黃金的價格不會如預期般上升。這些變化意味著投資者正在重新評估黃金的價值，可能會對黃金市場產生重大影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
@@ -868,8 +772,20 @@
         "published_at": "2026-06-22 19:53:00",
         "summary_zh": "川普政府可能會宣布禁止華爾街投資公司買房，但這個跨黨派房屋法案到底有什麼影響？根據分析師的評估，這個法案需要時間才能對房屋價格有實質性的影響，並不能解決選民對房屋價格的不滿。這個法案的通過可能會對房屋市場產生一定的影響，但具體影響還需要觀察。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "715209fe",
+        "title": "Nvidia 股票下跌，Kalshi 交易者預測晶片價格將下降",
+        "url": "https://www.cnbc.com/2026/06/22/nvidias-stock-struggles-as-kalshi-traders-bet-chip-prices-are-coming-down.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-22 19:08:17",
+        "summary_zh": "近期來看，Nvidia 的股票表現不佳。根據 Kalshi 交易者的預測，Nvidia 可以為晶片收取的價格也在下降。這些交易者通過 Kalshi 進行交易，Kalshi 是一家允許使用者在市場上進行有趣的賭注的平台。根據 Kalshi 的數據，交易者對於 Nvidia 晶片價格下降的預測越來越高。這表明投資者對 Nvidia 的未來表現感到擔憂。Nvidia 是一家領先的半導體公司，專門生產高性能計算晶片。公司的股票價格下跌可能會對整個半導體行業產生影響。投資者正在密切關注 Nvidia 的表現，以了解市場對公司未來發展的看法。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "579df0fb",
@@ -917,30 +833,6 @@
         "summary_zh": "卡特彼勒股價今年來最為人矚目，目前已經成為道瓊指數中僅餘兩支股價超過 1000 美元的股票之一。卡特彼勒的股價上漲是由於工業股大幅上漲的浪潮，該股價今年來已經上漲逾 50%。這種上漲趨勢是由於全球經濟復甦和工業需求增加所帶動。卡特彼勒的股價上漲對於整個工業股市場有著重要的影響，許多分析師預測該股價將繼續上漲。然而，股市投資者也應該注意到市場的風險和不確定性。卡特彼勒的股價上漲是工業股市場的一個里程碑，展現了該股的強大市場吸引力。",
         "sentiment": "正面",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8be20c14",
-        "title": "參議院準備通過房屋法案限制私人股權對單一家庭房屋的購買",
-        "url": "https://www.cnbc.com/2026/06/22/affordable-housing-bill-private-equity-single-family-homes.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-22 16:19:02",
-        "summary_zh": "美國國會兩院預計本週將推進一項涵蓋面廣泛的房屋法案，旨在增加房屋供應並使房屋更加便宜。這項法案的主要目標是限制私人股權公司購買單一家庭房屋的能力，從而促進房屋供應並降低房屋價格。根據預期，這項法案將在參議院通過後進入下一階段。這項措施將對美國房屋市場產生重大影響，可能會導致房屋供應增加和房屋價格下降。然而，該法案的具體內容和實施細節尚未明確。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "25aa343b",
-        "title": "Alphabet 因 AI 憂慮創下一年來最差一天",
-        "url": "https://www.cnbc.com/2026/06/22/alphabet-goog-stock-ai-departures.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-22 16:17:53",
-        "summary_zh": " Alphabet 的母公司 Google 面臨連續高調離職的 AI 研究人員事件。這些離職事件引發對公司未來 AI 發展方向的關注。分析師認為，這些離職事件可能會對 Alphabet 的股價產生負面影響。 Alphabet 的股價已經下跌了 5%，創下一年來最差的一天。這些離職事件可能是由於公司未能提供足夠的資源和支持給 AI 研究人員，從而導致人才流失。 Alphabet 尚未對這些離職事件做出任何回應。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ]
