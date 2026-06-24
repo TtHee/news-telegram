@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-25T04:24:47.862502+08:00",
+  "generated_at": "2026-06-25T05:25:11.027523+08:00",
   "risk_signals": [
     "🟢 台股加權 47100.65（正常）",
     "🟢 S&P 500 7358.22（正常）",
-    "🟢 VIX 恐慌指數 18.65（正常）",
-    "🟢 MOVE 債市波動 68.78（正常）",
-    "🟢 美元指數 101.62（正常）",
-    "🟢 黃金 4013.0（正常）",
+    "🟢 VIX 恐慌指數 18.63（正常）",
+    "🟢 MOVE 債市波動 69.06（正常）",
+    "🟢 美元指數 101.58（正常）",
+    "🟢 黃金 4016.4（正常）",
     "🟢 美債10Y殖利率 4.4（正常）",
-    "🟢 原油 WTI 69.82（正常）",
-    "🟢 美元/台幣 31.74（正常）"
+    "🟢 原油 WTI 69.87（正常）",
+    "🟢 美元/台幣 31.8（正常）"
   ],
-  "ai_summary": "市場呈現穩定氛圍，多個指標處於正常水平，但台股略見下跌，表明投資者仍保持一定的謹慎態度。",
+  "ai_summary": "市場氛圍保持穩定，指標正常運作。目前台股和美股均出現小幅下跌，但整體情況仍然穩定，沒有顯著的恐慌跡象。",
   "market": {
     "TWII": {
       "price": 47100.65,
@@ -26,37 +26,279 @@
       "change_pct": -0.43
     },
     "VIX": {
-      "price": 18.65,
-      "change_pct": -4.31
+      "price": 18.63,
+      "change_pct": -4.41
     },
     "TNX": {
       "price": 4.4,
       "change_pct": -1.1
     },
     "MOVE": {
-      "price": 68.78,
-      "change_pct": 5.18
+      "price": 69.06,
+      "change_pct": 5.62
     },
     "DXY": {
-      "price": 101.62,
-      "change_pct": 0.21
+      "price": 101.58,
+      "change_pct": 0.17
     },
     "GOLD": {
-      "price": 4013.0,
-      "change_pct": -2.83
+      "price": 4016.4,
+      "change_pct": -2.75
     },
     "OIL": {
-      "price": 69.82,
-      "change_pct": -4.63
+      "price": 69.87,
+      "change_pct": -4.56
     },
     "USDTWD": {
-      "price": 31.74,
-      "change_pct": 0.13
+      "price": 31.8,
+      "change_pct": 0.31
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "aeb5a33a",
+        "title": "法國準備迎接另一天的酷熱天氣，歐洲熱浪蔓延",
+        "url": "https://www.bbc.co.uk/news/articles/c78y4102n1zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 17:29:55 GMT",
+        "summary_zh": "法國正面臨著嚴重的熱浪，氣溫預計將達到歷史新高。歐洲熱浪已經蔓延到西部地區，預計將在週三進一步擴散至其他地區，然後在週末東移。這種天氣可能會對人們的健康造成嚴重影響，特別是老年人和兒童。政府已經啟動應急措施，提供冷氣和水給民眾。這種天氣也可能會對農業產生影響，特別是那些依賴於夏季作物的農民。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "773f5abf",
+        "title": "約翰尼斯堡停辦道路服務　因無法支付燃油費用",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-24/johannesburg-halts-roads-services-as-it-can-t-pay-for-fuel",
+        "source": "Bloomberg",
+        "category": "global",
+        "published_at": "2026-06-24 07:44:16",
+        "summary_zh": "南非最大城市約翰尼斯堡的道路管理局因無法支付燃油費用，暫停所有道路服務。該局負責維護城市的道路網絡，目前因燃油費用問題而陷入困境。這一事件可能會對城市交通造成重大影響，居民和車主將會受到影響。南非政府應該儘快解決燃油費用問題，恢復道路服務。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "db689a2c",
+        "title": "空調引起政治分歧 法國錄得最熱的一天",
+        "url": "https://www.bbc.co.uk/news/articles/c4gyqldl3p5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 13:51:24 GMT",
+        "summary_zh": "法國因為氣溫大幅上升，正在重新思考長期對空調的保留態度。氣溫創下新高，引起了民眾對空調的需求增加。這種需求變化，讓政府和政治領袖面臨新的挑戰，需要重新評估法國對環境和能源的政策。這種變化也引起了政治分歧，部分人認為應該增加空調的使用，另一部分人則認為應該繼續堅持節能政策。這種政治分歧可能會影響法國未來的能源政策和環境保護措施。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3a2a883b",
+        "title": "聯合國核首長稱檢查員將訪問伊朗地點作為戰爭協議的一部分",
+        "url": "https://www.bbc.co.uk/news/articles/cpd395zv81vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 17:31:48 GMT",
+        "summary_zh": "聯合國核能局局長拉斐爾·格羅西表示，國際原子能總署正在與伊朗進行協商，準備派遣檢查員訪問伊朗的核設施。伊朗一位部長表示，這樣的訪問將只在伊朗與美國達成最終協議後才會進行。這一消息出自於伊朗與美國的戰爭協議談判，雙方正在努力達成一項針對伊朗核計畫的協議。伊朗核計畫一直是全球關注的焦點，各國都希望伊朗能夠遵守核不擴散條約的規定。聯合國核能局局長拉斐爾·格羅西表示，檢查員將訪問伊朗的核設施，以確保伊朗的核計畫符合核不擴散條約的規定。伊朗部長表示，這樣的訪問將只在伊朗與美國達成最終協議後才會進行。這一消息引起了全球關注，各國都在關注伊朗與美國的戰爭協議談判的進展。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cb5cde7e",
+        "title": "烏克蘭攻擊打斷克里米亞俄佔區關鍵城市的電力供應",
+        "url": "https://www.bbc.co.uk/news/articles/c3ryv72pjqno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 09:48:24 GMT",
+        "summary_zh": "烏克蘭近日對俄佔克里米亞發動攻擊，影響了該區的電力供應。俄佔克里米亞的關鍵城市塞瓦斯托波爾的莫斯科代理市長警告，某些區域將無法獲得電力直到晚上。這次攻擊是烏克蘭對俄羅斯在克里米亞的軍事佔領的反應。烏克蘭政府一直堅持克里米亞是其領土的一部分，而俄羅斯則將其視為自己的領土。這次攻擊可能會對克里米亞的民眾造成嚴重影響，尤其是在夏季的高溫下。烏克蘭的攻擊行動也可能會對俄羅斯的經濟和政治形勢造成影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "32684d22",
+        "title": "法國確認首例愛滋病病例",
+        "url": "https://www.bbc.co.uk/news/articles/cj9gzr9rdjlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 15:00:52 GMT",
+        "summary_zh": "法國確認了一名醫生在剛果民主共和國工作期間感染愛滋病。該名醫生曾在剛果民主共和國工作超過 260 人已知死亡的愛滋病疫區。法國政府已經開始進行緊急處理，關注疫情可能對法國國民的影響。愛滋病疫情在剛果民主共和國仍然嚴重，法國政府將與世界衛生組織合作，防止疫情傳播。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d709e0d3",
+        "title": "法國婦女被丈夫囚禁 12 年後在巴基斯坦獲救",
+        "url": "https://www.bbc.co.uk/news/articles/cj0g71pnv3no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 08:29:06 GMT",
+        "summary_zh": "一名法國婦女 Yasmina 指控她被丈夫囚禁 12 年，並與五名子女一起被切斷與外界的聯繫。這起事件發生在巴基斯坦，當地警方最終成功營救了 Yasmina 和她的子女。這起案件引起了社會的關注，許多人對於丈夫的行為感到震驚和憤怒。這起事件也引發了對家庭暴力和人權的討論。目前，丈夫已被拘留，並將面臨法律追究。這起事件的後續發展仍在等待著。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "80b334ba",
+        "title": "哥倫比亞左翼總統候選人承認敗選",
+        "url": "https://www.bbc.co.uk/news/articles/cgrkqky5lzpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 15:50:22 GMT",
+        "summary_zh": "哥倫比亞總統選舉結果出爐，左翼候選人伊萬·塞佩達(Iván Cepeda)在競選中敗給右翼企業家阿貝拉多·德拉·埃斯皮里拉(Abelardo de la Espriella)。塞佩達領先的差距僅在百分之幾點。這次選舉結果意味著哥倫比亞將由右翼政府領導。塞佩達在選舉中表現出色，但最終未能取得勝利。這次選舉結果將對哥倫比亞政治產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4dd42c44",
+        "title": "悉尼女性從昏迷中醒來，逾一週前遭遇白鯊攻擊",
+        "url": "https://www.bbc.co.uk/news/articles/cy8drk2dk3no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 01:42:43 GMT",
+        "summary_zh": "悉尼一名34歲女性，萊哈·史都華（Leah Stewart）在科吉海灘（Coogee Beach）游泳時遭白鯊攻擊，導致她失去一臂。事發後，萊哈被送往醫院，入住昏迷室超過一週，最後才甦醒。目前尚無詳細情況披露，醫院正在繼續關注她的病情。白鯊攻擊是一種罕見的事件，通常發生在遠洋地區或是白鯊棲息的海域。這次事件讓人們對白鯊的行為產生了新的疑問。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d1091186",
+        "title": "八人被判刑 450 年 因為反 ICE 暴亂案件",
+        "url": "https://www.bbc.co.uk/news/articles/clyedgnyn4mo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 00:00:06 GMT",
+        "summary_zh": "在德克薩斯州的暴亂中，一名警官在頸部被「反法西斯行動組」成員射傷。根據檢察官的說法，這些人是「反法西斯行動組」的一部分。這起案件引發了對極端主義和暴力行為的關注。這些被告被指控參與了對 ICE 的抗議活動，並導致警官受傷。這起案件的判決結果對於維護社會秩序和防止極端主義行為的努力具有重要意義。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "651f1c9a",
+        "title": "邦迪海灘槍擊事件英雄被控父親毆打罪，否認罪名",
+        "url": "https://www.bbc.co.uk/news/articles/cn8q33gdgjjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 04:06:51 GMT",
+        "summary_zh": "近期，邦迪海灘槍擊事件的一位英雄Ahmed al Ahmed，因涉嫌對其父親施暴，被控告罪。他在去年12月的猶太人聚會中，勇敢地攔截了一名槍手，阻止了該事件造成的15人死亡。目前，Ahmed al Ahmed已否認了這項指控。他在庭上表示，他的父親曾經對他施暴，因此他才會對父親施暴。這一事件引起了社會的關注，許多人都在關注這位英雄的命運。這一事件的結果將會對Ahmed al Ahmed的未來產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "31f4aa3a",
+        "title": "肯雅將控訴學生犯殺人罪嫌於校舍大火",
+        "url": "https://www.bbc.co.uk/news/articles/cwykl517xk7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 14:36:42 GMT",
+        "summary_zh": "肯雅一間女校於上月發生大火，造成 16 名 15 至 18 歲的學生喪生。警方已經展開調查，懷疑學生故意縱火，目前正在準備控訴 16 名學生犯殺人罪嫌。這一事件引起了肯雅社會的強烈反應，許多人批評政府在教育領域的缺失。肯雅政府表示將會對此事件進行徹底調查，並且將會採取措施防止類似事件再次發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "12190d98",
+        "title": "歐洲極端高溫導致發電廠停機",
+        "url": "https://www.technologyreview.com/2026/06/24/1139676/europe-heat-power-plants/",
+        "source": "MIT Tech Review",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 15:25:28 +0000",
+        "summary_zh": "歐洲正經歷一場創紀錄的高溫潮，電網正被推到極限，民眾紛紛使用扇子和空調來試圖保持涼爽。由於高溫，部分發電廠將無法上線幫助處理負載。6月23日，法國錄得自1947年開始記錄以來最熱的一天。高溫導致發電廠的冷卻系統無法正常運作，從而導致停機。這種情況在歐洲各地都在發生，包括德國、義大利和西班牙。高溫對電網造成的影響不僅僅是停機，還包括電網的穩定性和安全性。這種情況對歐洲的經濟和人民的生活都造成了重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "362aed5b",
+        "title": "德國全國鐵路服務暫停 因IT系統故障",
+        "url": "https://www.bbc.co.uk/news/articles/crm0ek4z7ggo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 23:46:01 GMT",
+        "summary_zh": "德國鐵路公司德國鐵路（Deutsche Bahn）因IT系統故障，導致全國鐵路服務暫停超過兩點半小時。這次故障對德國的交通和經濟產生了重大影響。德國鐵路的IT系統負責管理鐵路運輸的時刻表、車票發售和安全監控等功能。故障的原因尚未明朗，但德國鐵路已經開始調查和修復工作。這次事件也引起了對德國鐵路IT系統安全性的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a304962e",
+        "title": "所有挑戰都很大很小",
+        "url": "https://www.technologyreview.com/2026/06/24/1138853/editors-letter-july-2026/",
+        "source": "MIT Tech Review",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 09:00:00 +0000",
+        "summary_zh": "在我 18 歲那年，我決定放棄高中畢業典禮，前往科威特。時為 1991 年，第一次海灣戰爭剛結束，科威特處於極度混亂之中。電力供應極度不足，除了發電機以外幾乎沒有其他來源。路上到處是瓦礫和未爆彈，沙漠中燃燒的巨大石油火焰照亮了夜空……",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f8e6898d",
+        "title": "肯亞劇作《Free Me》點出性別暴力危機",
+        "url": "https://www.theguardian.com/world/2026/jun/24/kenya-play-free-me-gender-based-violence",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 04:00:35 GMT",
+        "summary_zh": "肯亞劇作《Free Me》是由劇作家Gathoni Kimuyu所創作，該劇是基於她自己在婚姻中遭受的暴力體驗。劇中描述了一個丈夫對妻子的暴力行為，令觀眾感到震驚。該劇的目的是鼓勵肯亞女性受害者勇敢地發聲，面對在該國日益升高的對女性的暴力問題。肯亞政府應該採取行動來防止性別暴力，並為受害者提供支持和保護。肯亞女性的安全和尊嚴應該受到重視和保護。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c525de2f",
+        "title": "哥倫比亞左翼候選人承認敗選 給予特朗普支持的億萬富翁",
+        "url": "https://www.theguardian.com/world/2026/jun/24/colombia-presidential-election-abelardo-de-la-espriella",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 15:48:34 GMT",
+        "summary_zh": "哥倫比亞左翼候選人伊萬·塞佩達(Iván Cepeda)承認敗選給予右翼律師阿貝拉多·德拉·埃斯皮里耶拉(Abelardo de la Espriella)。根據初步計票結果，埃斯皮里耶拉以極微弱的差距（不到1%）贏得了哥倫比亞總統選舉的複選。這場選舉的結果引起了各方關注，尤其是左翼候選人塞佩達的支持者。塞佩達在選舉過程中一直表明，他將會尊重選舉結果並承認勝利者。這次選舉的結果可能會對哥倫比亞政治產生重大影響，尤其是在左翼和右翼政治力量之間的關係上。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
+      {
+        "id": "4ad847d9",
+        "title": "曼達尼支持的候選人在紐約民主黨初選中大勝",
+        "url": "https://www.bbc.co.uk/news/articles/clye652m41po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 24 Jun 2026 13:03:35 GMT",
+        "summary_zh": "紐約民主黨初選結果出爐，曼達尼支持的候選人在紐約市的民主黨初選中取得了大勝。這場選舉揭露了紐約市對以色列-加沙戰爭的分歧。其中，布拉德·蘭德爾(Brad Lander)在與丹·戈德曼(Dan Goldman)之間的競選中取得了勝利。這場選舉結果顯示了紐約市的政治格局正在發生變化。曼達尼支持的候選人在這場選舉中取得了勝利，這可能會對紐約市的政治格局產生重大影響。這場選舉結果也表明了紐約市對以色列-加沙戰爭的分歧正在加深。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5453b350",
+        "title": "國會通過戰爭權限措施，罕見反對川普對伊朗戰爭",
+        "url": "https://www.bbc.co.uk/news/articles/ce8j6g3v3r4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 24 Jun 2026 14:57:21 GMT",
+        "summary_zh": "美國國會通過了一項戰爭權限措施，標誌著自 1973 年《戰爭權限決議》通過以來，國會第一次將總統要求結束軍事行動。這項決議是針對川普政府對伊朗的軍事行動，國會通過這項決議表明了對總統的戰爭權限的限制。這項決議的通過意味著國會將在未經其同意的情況下，總統的軍事行動將被視為非法。這項決議的通過對於美國的外交政策和戰爭權限的限制產生了重大影響，將進一步限制總統的戰爭權限。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3c0e92ac",
+        "title": "布倫漢姆路線清晰：競爭對手退讓下院大樓",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-24/burnham-s-route-to-downing-street-clears-as-rival-won-t-stand",
+        "source": "Bloomberg",
+        "category": "whitehouse",
+        "published_at": "2026-06-24 07:30:50",
+        "summary_zh": "英國保守黨內部競選正在進行中，布倫漢姆的競選路線似乎越來越清晰。根據最新消息，布倫漢姆的競爭對手已經宣布退讓，讓布倫漢姆的路線更加明確。這一發展對布倫漢姆的競選前景產生了積極的影響。布倫漢姆的競選團隊正在加緊準備競選活動，布倫漢姆的支持率也在逐漸上升。這一發展表明，布倫漢姆的競選路線越來越明確，布倫漢姆的勝選機會越來越大。然而，仍然需要觀察競選的進展和各方的反應，才能確定最終的結果。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "2deb8655",
         "title": "川普取消簽署降低住房成本的重要跨黨派法案",
@@ -70,18 +312,6 @@
         "ai_classified": true
       },
       {
-        "id": "5453b350",
-        "title": "國會通過戰爭權限措施，罕見反對川普對伊朗戰爭",
-        "url": "https://www.bbc.co.uk/news/articles/ce8j6g3v3r4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Wed, 24 Jun 2026 14:57:21 GMT",
-        "summary_zh": "美國國會通過了一項戰爭權限措施，標誌著自 1973 年《戰爭權限決議》通過以來，國會第一次將總統要求結束軍事行動。這項決議是針對川普政府對伊朗的軍事行動，國會通過這項決議表明了對總統的戰爭權限的限制。這項決議的通過意味著國會將在未經其同意的情況下，總統的軍事行動將被視為非法。這項決議的通過對於美國的外交政策和戰爭權限的限制產生了重大影響，將進一步限制總統的戰爭權限。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "3e759eeb",
         "title": "紐約民主初選顯示曼達尼勝利並非偶然",
         "url": "https://www.bbc.co.uk/news/articles/cly818y4v22o?at_medium=RSS&at_campaign=rss",
@@ -90,32 +320,20 @@
         "published_at": "Wed, 24 Jun 2026 17:40:51 GMT",
         "summary_zh": "紐約民主黨內部出現政治分裂，當地市長支持的候選人在紐約民主初選中取得全面勝利。這一結果顯示曼達尼的勝利並非偶然，而是反映了民主黨內部的政治格局。這一政治分裂將對民主黨的未來發展產生重大影響。曼達尼的勝利也意味著他將繼續在紐約市政中扮演重要角色。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "4ad847d9",
-        "title": "曼達尼支持的候選人在紐約民主黨初選中大勝",
-        "url": "https://www.bbc.co.uk/news/articles/clye652m41po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Wed, 24 Jun 2026 13:03:35 GMT",
-        "summary_zh": "紐約民主黨初選結果出爐，曼達尼支持的候選人在紐約市的民主黨初選中取得了大勝。這場選舉揭露了紐約市對以色列-加沙戰爭的分歧。其中，布拉德·蘭德爾(Brad Lander)在與丹·戈德曼(Dan Goldman)之間的競選中取得了勝利。這場選舉結果顯示了紐約市的政治格局正在發生變化。曼達尼支持的候選人在這場選舉中取得了勝利，這可能會對紐約市的政治格局產生重大影響。這場選舉結果也表明了紐約市對以色列-加沙戰爭的分歧正在加深。",
-        "sentiment": "中性",
-        "is_breaking": true,
+        "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "3c0e92ac",
-        "title": "布倫漢姆路線清晰：競爭對手退讓下院大樓",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-24/burnham-s-route-to-downing-street-clears-as-rival-won-t-stand",
-        "source": "Bloomberg",
+        "id": "fcebd378",
+        "title": "川普將在國家廣場舉辦集會，為美國250週年慶祝活動揭幕",
+        "url": "https://www.bbc.co.uk/news/articles/c5y8nnj33e1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "whitehouse",
-        "published_at": "2026-06-24 07:30:50",
-        "summary_zh": "英國保守黨內部競選正在進行中，布倫漢姆的競選路線似乎越來越清晰。根據最新消息，布倫漢姆的競爭對手已經宣布退讓，讓布倫漢姆的路線更加明確。這一發展對布倫漢姆的競選前景產生了積極的影響。布倫漢姆的競選團隊正在加緊準備競選活動，布倫漢姆的支持率也在逐漸上升。這一發展表明，布倫漢姆的競選路線越來越明確，布倫漢姆的勝選機會越來越大。然而，仍然需要觀察競選的進展和各方的反應，才能確定最終的結果。",
+        "published_at": "Wed, 24 Jun 2026 18:37:53 GMT",
+        "summary_zh": "川普將在美國250週年慶祝活動的開幕式上發表演說，活動包括一架隱形轟炸機的空中表演、美國歌曲《願榮光歸美國》歌手李格林伍德的表演等。這些表演將為慶祝活動的開幕式打下基調，活動將持續數周。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "22575d3c",
@@ -130,18 +348,6 @@
         "ai_classified": true
       },
       {
-        "id": "fcebd378",
-        "title": "川普將在國家廣場舉辦集會，為美國250週年慶祝活動揭幕",
-        "url": "https://www.bbc.co.uk/news/articles/c5y8nnj33e1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 24 Jun 2026 18:37:53 GMT",
-        "summary_zh": "川普將在美國250週年慶祝活動的開幕式上發表演說，活動包括一架隱形轟炸機的空中表演、美國歌曲《願榮光歸美國》歌手李格林伍德的表演等。這些表演將為慶祝活動的開幕式打下基調，活動將持續數周。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
         "id": "0f6739f6",
         "title": "斯坦福大學是他們的黃金門票 - 人工智慧能夠幫助還是阻礙這一點?",
         "url": "https://www.bbc.co.uk/news/articles/c872j82j2qyo?at_medium=RSS&at_campaign=rss",
@@ -151,6 +357,18 @@
         "summary_zh": "BBC 訪問了斯坦福大學畢業生，了解他們對人工智慧的真實看法。斯坦福大學畢業生對人工智慧的看法各不相同，從對其充滿希望到對其感到擔憂。許多畢業生認為，人工智慧將帶來許多好處，例如提高工作效率、創造新的就業機會等。但也有畢業生表示，人工智慧可能會取代人類的工作，導致失業率上升。另一方面，還有一些畢業生認為，人工智慧的發展應該受到更多的監管，以防止其被用於不良目的。總的來說，斯坦福大學畢業生對人工智慧的看法是多元化的，各有不同意見。這些看法反映了人工智慧在未來的發展中將面臨的挑戰和機會。",
         "sentiment": "中性",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b6e6b859",
+        "title": "美國參議院投票要求川普停止伊朗戰事，罕見對總統的批評",
+        "url": "https://www.reuters.com/world/us/us-senate-joins-house-voting-halt-iran-war-rebuking-trump-2026-06-23/",
+        "source": "Reuters",
+        "category": "whitehouse",
+        "published_at": "2026-06-23 22:55:44",
+        "summary_zh": "美國參議院在週二通過了一項立法，要求總統川普暫停對伊朗的軍事行動，這是美國國會對川普政府的罕見批評。這項立法表明美國國會對川普政府的伊朗政策感到擔憂，川普政府的軍事行動引起了國會的強烈反彈。這項立法的通過意味著美國國會正在試圖限制總統的權力，防止未經國會同意的軍事行動。這項立法的通過也表明美國國會對川普政府的政策感到不滿，國會正在試圖通過立法來影響總統的決策。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -178,48 +396,12 @@
         "ai_classified": true
       },
       {
-        "id": "b6e6b859",
-        "title": "美國參議院投票要求川普停止伊朗戰事，罕見對總統的批評",
-        "url": "https://www.reuters.com/world/us/us-senate-joins-house-voting-halt-iran-war-rebuking-trump-2026-06-23/",
-        "source": "Reuters",
-        "category": "whitehouse",
-        "published_at": "2026-06-23 22:55:44",
-        "summary_zh": "美國參議院在週二通過了一項立法，要求總統川普暫停對伊朗的軍事行動，這是美國國會對川普政府的罕見批評。這項立法表明美國國會對川普政府的伊朗政策感到擔憂，川普政府的軍事行動引起了國會的強烈反彈。這項立法的通過意味著美國國會正在試圖限制總統的權力，防止未經國會同意的軍事行動。這項立法的通過也表明美國國會對川普政府的政策感到不滿，國會正在試圖通過立法來影響總統的決策。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "495f2e9c",
-        "title": "提名送交參議院",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/nomination-sent-to-the-senate-648d/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 24 Jun 2026 14:08:26 +0000",
-        "summary_zh": "美國白宮宣布，將提名康斯坦蒂諾斯·利格里斯（Konstantinos Ligris）擔任美國助理檢察長。康斯坦蒂諾斯·利格里斯是佛羅里達州人，白宮將他的提名送交美國參議院審議。這項任命將進一步增強美國司法部的執法能力。美國總統的提名將會在參議院進行審議和確認。這項任命將對美國司法部的執法工作產生重要影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "050ec490",
-        "title": "白宮公布川普總統的「美國優先」抗爭戰略",
-        "url": "https://www.whitehouse.gov/releases/2026/06/white-house-unveils-president-trumps-america-first-resilience-strategy/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 21:28:24 +0000",
-        "summary_zh": "白宮今天發佈了「川普總統的美國優先抗爭戰略」，這是一個大膽的任務，拒絕讓對手影響美國和我們的核心利益。抗爭能力是一種戰略能力，保留我們的行動自由，推進美國利益，促進繁榮，嚇阻對手，通過力量實現和平，減少後果。這項戰略旨在讓美國不再受到威脅，讓我們的利益得到保護。川普總統的美國優先抗爭戰略將成為美國未來的指導方針，將對美國的安全和繁榮產生重大影響。這項戰略的推出，標誌著美國對抗爭能力的重視，將對美國的國際地位和影響力產生重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "9dbfd947",
         "title": "曼達尼支持的候選人在紐約民主初選中大勝 – 美國政治直播",
         "url": "https://www.theguardian.com/us-news/live/2026/jun/24/mamdani-new-york-primaries-midterms-democrats-republicans-trump-250-anniversary-politics-latest-updates",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Wed, 24 Jun 2026 19:44:17 GMT",
+        "published_at": "Wed, 24 Jun 2026 20:43:07 GMT",
         "summary_zh": "紐約市長曼達尼支持的三名國會候選人在紐約民主初選中取得了明顯的勝利，這標誌著曼達尼在紐約政治中的日益影響力。美國參議院通過了一項戰爭權限決議，阻止唐納德·川普總統繼續對伊朗進行軍事行動，這是對總統在伊朗問題上受美國民眾不支持的重大但象徵性的打擊。該決議以50-48票通過，四名共和黨人 – 緬因州的Susan Collins、阿拉斯加州的Lisa Murkowski、路易斯安那州的Bill Cassidy和肯塔基州的Rand Paul – 跟隨黨派投票支持通過。賓夕法尼亞州的John Fetterman是唯一一個投票反對決議的民主黨人。",
         "sentiment": "中性",
         "is_breaking": true,
@@ -298,13 +480,25 @@
         "ai_classified": true
       },
       {
-        "id": "0809d3ab",
-        "title": "美國眾議院通過跨黨派房屋法案，降低房屋成本",
-        "url": "https://www.theguardian.com/us-news/2026/jun/23/housing-bill-bipartisan-house-trump",
-        "source": "Guardian US",
+        "id": "495f2e9c",
+        "title": "提名送交參議院",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/nomination-sent-to-the-senate-648d/",
+        "source": "White House News",
         "category": "whitehouse",
-        "published_at": "Wed, 24 Jun 2026 00:03:44 GMT",
-        "summary_zh": "美國眾議院在本週二以358票贊成、32票反對的投票結果，通過了一項跨黨派房屋法案。這項法案旨在降低房屋成本，讓更多美國人能夠負擔得起購買房屋。這項法案將會送交給唐納德·川普總統簽署，預計將於星期三在國會大廈舉行簽署儀式。這項法案在參議院也獲得了85票贊成、5票反對的通過。這項跨黨派法案的通過，顯示出美國國會對房屋成本問題的關注，特別是在即將到來的中期選舉前。這項法案的通過將會對美國房屋市場產生重要影響，降低房屋成本將會讓更多美國人能夠擁有房屋的機會。",
+        "published_at": "Wed, 24 Jun 2026 14:08:26 +0000",
+        "summary_zh": "美國白宮宣布，將提名康斯坦蒂諾斯·利格里斯（Konstantinos Ligris）擔任美國助理檢察長。康斯坦蒂諾斯·利格里斯是佛羅里達州人，白宮將他的提名送交美國參議院審議。這項任命將進一步增強美國司法部的執法能力。美國總統的提名將會在參議院進行審議和確認。這項任命將對美國司法部的執法工作產生重要影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "050ec490",
+        "title": "白宮公布川普總統的「美國優先」抗爭戰略",
+        "url": "https://www.whitehouse.gov/releases/2026/06/white-house-unveils-president-trumps-america-first-resilience-strategy/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 21:28:24 +0000",
+        "summary_zh": "白宮今天發佈了「川普總統的美國優先抗爭戰略」，這是一個大膽的任務，拒絕讓對手影響美國和我們的核心利益。抗爭能力是一種戰略能力，保留我們的行動自由，推進美國利益，促進繁榮，嚇阻對手，通過力量實現和平，減少後果。這項戰略旨在讓美國不再受到威脅，讓我們的利益得到保護。川普總統的美國優先抗爭戰略將成為美國未來的指導方針，將對美國的安全和繁榮產生重大影響。這項戰略的推出，標誌著美國對抗爭能力的重視，將對美國的國際地位和影響力產生重大影響。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
@@ -320,8 +514,8 @@
         "published_at": "2026-06-24T15:36:46-04:00",
         "summary_zh": "美國國會議員安娜保琳娜·盧娜（Rep. Anna Paulina Luna）否認她的員工使用人工智慧（AI）撰寫一項重大防衛法案的修正案。盧娜表示，員工僅使用 AI 做文法檢查，但否認使用 AI 撰寫修正案內容。她說明，「沒有任何立法案是以 AI 為基礎撰寫的。」這番回應是因為 X 平台上的帳戶開始分享修正案摘要的截圖，引發關注。盧娜的回應引發了對 AI 在立法過程中的使用的爭議。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "5d1ac360",
@@ -396,6 +590,18 @@
         "ai_classified": true
       },
       {
+        "id": "25521db9",
+        "title": "SK Hynix 指定發行 29 兆美元 ADR 股票",
+        "url": "https://www.reuters.com/world/asia-pacific/south-koreas-sk-hynix-says-raise-29-bln-us-adr-listing-2026-06-24/",
+        "source": "Reuters",
+        "category": "ai",
+        "published_at": "2026-06-24 08:25:03",
+        "summary_zh": "SK Hynix 宣布將透過美國存款憑證 (ADR) 上市，籌集 45.45 兆韓元（約 29.43 兆美元），以擴大投資者基礎和製造 AI 芯片的生產能力。這項舉措將幫助公司進一步擴展其在人工智慧領域的業務。SK Hynix 的這一決定是為了應對全球半導體市場的需求增加，同時也為公司未來的發展提供了新的資金來源。這項上市將對公司的全球影響力和投資者參與度產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "14de5b78",
         "title": "這個飛行太陽能平台可能會從空中提供更好的網路服務",
         "url": "https://www.technologyreview.com/2026/06/24/1138771/solar-powered-platform-delivers-better-internet/",
@@ -403,30 +609,6 @@
         "category": "ai",
         "published_at": "Wed, 24 Jun 2026 09:00:00 +0000",
         "summary_zh": "一家來自新墨西哥州的公司Sceye正在研發一款名為Sceye的太陽能飛行平台。這個平台長達200英尺，將於8月份從美國西南部起飛，飛越太平洋，抵達日本海岸。平台將在18公里的海平面上停駐，為地面提供穩定的網路服務。這項技術有望改善遠離城市中心的地區的網路覆蓋率，為農村地區提供更好的網路服務。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "dc23f92a",
-        "title": "超級瑪利歐比你想的更有數學意義",
-        "url": "https://www.technologyreview.com/2026/06/23/1138262/super-mario-is-mathier-than-you-think/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Tue, 23 Jun 2026 21:00:00 +0000",
-        "summary_zh": "超級瑪利歐系列遊戲中，主角瑪利歐在一片充滿管道和怪物的世界中，為了拯救被綁架的女友，展開了一場冒險旅程。這個世界中充滿了數學元素，例如管道的佈局、怪物的行為等。遊戲設計師們在設計這些元素時，需要運用數學知識來創造出一個逼真的世界。這使得超級瑪利歐系列遊戲不僅是一個娛樂的平台遊戲，也是一個充滿數學意義的世界。遊戲中的一些元素，例如管道的佈局和怪物的行為，需要運用幾何學和動力學等數學知識來解釋。這使得玩家不僅可以享受遊戲的娛樂性，也可以學習到一些數學知識。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d53f3b36",
-        "title": "分享對微積分的愛意",
-        "url": "https://www.technologyreview.com/2026/06/23/1138271/sharing-a-love-for-calculus/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Tue, 23 Jun 2026 21:00:00 +0000",
-        "summary_zh": "近年來，人工智慧的風潮席捲全球，教育的價值也成為了一個熱門話題。無論你對於人工智慧的風險和潛力持何種看法，我們都可以確定的是，麻省理工學院也在努力解決一個相對傳統的挑戰：美國高中生的學習資源分配不均。根據麻省理工學院的研究，美國高中生的學習資源分配不均，尤其是在微積分這一領域。這種不均衡的資源分配對於學生的學習成績和未來的就業前景都有著深遠的影響。因此，麻省理工學院正在努力為美國高中生提供更好的學習資源和機會，幫助他們更好地掌握微積分和其他重要的數學知識。這項工作不僅有助於改善學生的學習成績，也有助於培養未來的數學和科學人才。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -442,8 +624,8 @@
         "published_at": "Thu, 25 Jun 2026 02:49:14 +0800",
         "summary_zh": "馬斯克在成為全球首位兆元富豪後，不到兩週時間，隨著SpaceX與特斯拉股票賣壓湧現，其身家如今已跌回1兆美元以下。這使得馬斯克失去了全球首位兆元富豪的頭銜。馬斯克的財富變動與其公司的股票價格波動有直接關係。SpaceX和特斯拉的股票價格下跌，導致馬斯克的身家下降。這也反映出市場對科技公司的投資風險和不確定性。馬斯克的財富變動將會持續受到市場的關注。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "bbd531b0",
@@ -454,8 +636,8 @@
         "published_at": "Thu, 25 Jun 2026 00:23:01 +0800",
         "summary_zh": "市場因為人工智慧（AI）資本支出激增與融資成本攀升，昨天引發科技股拋售潮。然而今天全球股市反彈，歐洲主要股市多收紅。布倫特原油價格也跌破每桶75美元。這種市場情況表明，投資者對未來的市場風險感到擔憂。然而，今天的反彈也表明投資者仍然對市場有信心。這種矛盾的情況下，投資者需要謹慎觀察市場發展，以便做出明智的決策。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "6e8340a1",
@@ -636,41 +818,53 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "a2d12c7b",
-        "title": "台積電副總莊子壽贈與5百張持股給他 市值近12億元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5482916",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 24 Jun 2026 19:35:42 +0800",
-        "summary_zh": "台積電副總經理莊子壽近日申報贈與500張持股給莊士毅，預定轉讓後，莊子壽的持股將從1995張165股降為1495張165股。根據台積電股價，贈與的500張持股市值約為11.9億元。莊子壽的這一行動引起了投資者的關注，許多人在猜測莊子壽贈與的動機。莊子壽的贈與是否與公司未來的發展計畫有關，還是他個人財務安排的結果，目前尚無法得知。投資者們應該密切關注台積電的股價走勢和公司未來的發展方向。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "64fb5964",
-        "title": "荷蘭向美國游說放寬晶片出口限制",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-24/netherlands-lobbies-us-to-drop-chip-curbs-targeting-asml-sales",
+        "id": "0e151b0c",
+        "title": "華爾斯的轉變風險混淆市場和美聯儲",
+        "url": "https://www.bloomberg.com/opinion/articles/2026-06-24/warsh-s-pivot-risks-confusing-the-market-and-the-fed",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-24 07:55:13",
-        "summary_zh": "荷蘭政府正向美國施壓，要求美國不要擴大對半導體設備的出口限制。這一措施將會限制荷蘭公司ASML Holding NV向中國出售晶片設備的能力。荷蘭政府認為，這一限制措施將會對荷蘭的經濟產生不利影響。荷蘭政府正在與美國政府進行磋商，希望能夠找到一個平衡點，既能夠滿足美國對於出口限制的需求，又能夠保護荷蘭的經濟利益。這一事件也反映出全球半導體產業的緊張局勢，各國政府正在競相爭取優勢。",
+        "published_at": "2026-06-24 09:00:18",
+        "summary_zh": "華爾斯（Warsh）是美聯儲的成員，他的轉變可能會對市場和美聯儲造成混淆。華爾斯的轉變可能會影響美聯儲的政策和市場預期。市場和美聯儲需要時間來適應華爾斯的轉變。這可能會導致市場波動和美聯儲政策的變化。華爾斯的轉變風險可能會對市場和美聯儲造成不確定性。市場和美聯儲需要保持耐心和穩定，以應對華爾斯的轉變風險。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "a9f92647",
-        "title": "中國券商限制境外交換為本地基金提供跨境衍生工具，來源稱",
-        "url": "https://www.reuters.com/legal/government/chinese-brokerages-curb-cross-border-swaps-domestic-funds-sources-say-2026-06-24/",
+        "id": "c098bae3",
+        "title": "美國極右派250週年慶典背後的金錢與影響力",
+        "url": "https://www.bloomberg.com/news/features/2026-06-24/how-trump-s-freedom-250-beat-out-america250-to-throw-us-a-birthday-party",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-24 09:00:15",
+        "summary_zh": "美國極右派250週年慶典是一個大規模的政治活動，旨在慶祝美國獨立250週年。然而，這個活動背後的金錢和影響力卻引起了關注。根據調查發現，這個活動的主要贊助者是幾個知名的右派組織和企業，包括一個名為「美國第一共和國」的組織，這個組織的創始人是前白宮顧問史蒂芬·班農。這些贊助者透過捐款和資金支持，幫助這個活動籌集了數百萬美元的資金。這個活動的組織者聲稱，這個活動是為了慶祝美國的獨立和自由，但是許多人認為，這個活動實際上是為了推廣極右派的政治理念和影響力。這個事件引起了對極右派在美國政治中的影響力和金錢的滲透的關注。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "e4c0f557",
+        "title": "英鎊達到 10 個月新高，與歐元相比，交易員正在等待伯恩漢姆的任命",
+        "url": "https://www.reuters.com/world/uk/sterling-hits-10-month-high-versus-euro-traders-await-burnham-picks-2026-06-24/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-24 07:54:54",
-        "summary_zh": "中國券商近日出現了一個新的趨勢：限制境外交換為本地基金提供跨境衍生工具。根據來源，中國券商正在限制境外交換為本地基金提供跨境衍生工具，以防止資金外流。這一措施可能會對中國的金融市場產生重大影響。中國的金融市場一直在努力應對外部壓力，包括美中貿易戰和資金流動的不確定性。這一措施可能會幫助中國券商維持資金穩定性，但也可能會限制投資者對境外市場的投資機會。中國的金融監管機構正在密切關注這一情況，並可能會對相關規定進行調整。",
+        "published_at": "2026-06-24 08:49:19",
+        "summary_zh": "英鎊在近期的市場波動中取得了新的高位，與歐元相比，達到 10 個月的新高。這種情況與英國政府未來的政策方向有關，尤其是對於英國經濟的影響。交易員正在密切關注英國未來政府的組成，尤其是對於英國經濟政策的影響。英國前首相特拉斯的任命被視為對英國經濟政策的重大轉變，交易員正在等待伯恩漢姆的任命，以了解未來政府的政策方向。這種市場情緒的變化對英鎊的走勢產生了重大影響，交易員正在密切關注未來的政策方向。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ab927e3d",
+        "title": "以色列 Ratio Petroleum 將收購 Pharos Energy",
+        "url": "https://www.reuters.com/business/energy/israel-based-ratio-petroleum-acquire-pharos-energy-2026-06-24/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-24 08:47:36",
+        "summary_zh": "以色列 Ratio Petroleum 宣布將收購英國 Pharos Energy。這項交易將使 Ratio Petroleum 擁有 Pharos Energy 的石油和天然氣資產。交易細節尚未公佈，但預計將在未來幾周內完成。這項收購將對 Pharos Energy 的股東產生重大影響，可能會導致股價波動。同時，Ratio Petroleum 的業務也將擴展到新的市場和地區。這項交易的影響尚待觀察，但預計將對兩家公司的未來發展產生重大影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -684,53 +878,41 @@
         "published_at": "Wed, 24 Jun 2026 17:45:13 GMT",
         "summary_zh": "埃隆·穆斯克星期二失去千億富翁地位，全球科技股暴跌使他財富蒸發數十億美元。這次全球科技股暴跌對許多科技巨頭造成了重大的影響，包括SpaceX等公司。SpaceX是埃隆·穆斯克旗下的一家私人太空探索公司，該公司在太空技術和航天業領域取得了重大進展。這次財富蒸發使埃隆·穆斯克的財富下降了數十億美元，失去千億富翁的地位。這次事件對埃隆·穆斯克和SpaceX的影響有待觀察。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
-        "id": "4912fa06",
-        "title": "美國柴油價格首次跌破5美元/加侖，減輕通膨壓力",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-24/us-diesel-prices-fall-under-5-easing-key-inflationary-pressure",
+        "id": "f868c3e3",
+        "title": "SK Hynix 進軍美股，籌集 29 億美元資金應對人工智慧浪潮",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-24/sk-hynix-looks-to-raise-29-4-billion-with-new-us-lising",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-24 07:54:05",
-        "summary_zh": "美國柴油價格近期出現下滑，首次跌破5美元/加侖，為全球經濟中重要的燃料之一帶來了一些減壓。柴油價格的下跌是由於全球供應增加和需求減少所致。這一發展對於美國經濟和全球經濟都有重要影響，特別是在控制通膨方面。然而，仍需要觀察柴油價格的變化，以確保通膨壓力得到有效控制。",
-        "sentiment": "正面",
+        "published_at": "2026-06-24 08:46:13",
+        "summary_zh": "SK Hynix 進軍美股，籌集 29 億美元資金應對人工智慧浪潮。這家韓國半導體巨頭計劃在紐約證券交易所 (NYSE) 上市，籌集資金用於發展人工智慧相關產品。SK Hynix 的業務範圍包括記憶體晶片、固態硬碟和顯示器等。公司表示，這次上市將幫助其加速人工智慧技術的發展，並提高市場競爭力。SK Hynix 的上市計畫受到市場關注，因為這將是韓國企業在美股上市的首例。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "42a7c733",
-        "title": "德國擱置戰艦計畫，防禦股價大跌；雷明頓股價下跌13% ",
-        "url": "https://www.cnbc.com/2026/06/24/rheinmetall-stock-defense-germany-warship-scrap-plans.html",
-        "source": "Cnbc",
+        "id": "69c8310c",
+        "title": "歐元跌至一年來最低點，下降的石油價格減輕了歐洲央行的壓力",
+        "url": "https://www.ft.com/content/b241ba6b-3025-4821-a90c-97bdaccb8fcb",
+        "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-06-24 07:53:25",
-        "summary_zh": "德國政府計劃擱置建造F126巡防艦的多億歐元計畫，根據《金融時報》報導。這項計畫的擱置將對德國國防產業產生重大影響，雷明頓股份股價已經下跌13%。德國政府的決定可能會影響到其他國防公司的股價，包括德國的其他國防公司。這項計畫的擱置也可能會影響到德國的國防產業發展。",
-        "sentiment": "負面",
+        "published_at": "2026-06-24 08:38:49",
+        "summary_zh": "歐元在石油價格下跌後跌至一年來最低點，為歐洲央行帶來減輕壓力的機會。石油價格下跌是因為全球經濟衰退的預期加劇，進而影響到石油需求。這一發展對於歐洲央行來說是有利的，因為它可以減少對經濟的干預。然而，歐元的下跌也可能會對歐洲的出口業帶來負面影響。歐洲央行的下一步行動仍然存疑，市場仍然關注著央行是否會採取新的措施來應對經濟衰退。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "006e3412",
-        "title": "馬來西亞央行罰款 AEON Credit 因違反制裁",
-        "url": "https://www.reuters.com/world/asia-pacific/malaysia-central-bank-fines-aeon-credit-sanctions-breaches-2026-06-24/",
+        "id": "92e8d39f",
+        "title": "角川公司CEO在股東大會中脫險",
+        "url": "https://www.reuters.com/legal/transactional/ceo-kadokawa-japans-elden-ring-powerhouse-survives-shareholder-vote-2026-06-24/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-24 07:51:43",
-        "summary_zh": "馬來西亞央行宣布罰款 AEON Credit 2.5 億令吉（約 8.4 億港元），因為該公司違反制裁令。根據央行的調查，AEON Credit 在 2022 年 4 月至 6 月期間，與一家俄羅斯公司進行業務往來，違反了制裁令。央行認為，AEON Credit 未能有效監控其業務，導致違規行為。這是馬來西亞央行對金融機構違反制裁令的第三次罰款。央行強調，將繼續監控金融機構的業務，確保遵守制裁令。這一事件可能會對 AEON Credit 的信譽和業務造成影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "c1bcb6a6",
-        "title": "晶片初創公司獲得前ASML CEO支持，籌措€200萬歐元資金",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-24/chip-startup-backed-by-ex-asml-ceo-seeks-to-raise-200-million",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-24 07:51:23",
-        "summary_zh": "一家由前ASML CEO支持的晶片初創公司，正在籌措€200萬歐元資金。這家公司的創始人曾在ASML工作多年，擁有豐富的晶片製造經驗。公司的目標是發展出新一代的晶片製造技術，提高製造效率和品質。這項籌措資金的行動，將有助於公司實現這一目標，並進一步推動晶片產業的發展。然而，市場仍然對這家公司的前景存疑，需要更多的資訊來評估其投資價值。",
+        "published_at": "2026-06-24 08:31:26",
+        "summary_zh": "角川公司是日本的知名媒體集團，也是《伊爾登之戒》的發行商。近日，公司CEO在股東大會中面臨著撤換的風險，但最終成功脫險。這一結果對於角川公司的未來發展有著重要的影響。雖然公司表現出色，但股東們仍對公司的未來方向表示了擔憂。角川公司的成功與否將直接影響日本的媒體業和遊戲市場。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -746,6 +928,30 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "a4e48f5d",
+        "title": "阿曼宣布暫時開通霍爾木茲海峽航道，承諾不會徵收通行費",
+        "url": "https://www.reuters.com/world/middle-east/oman-opens-temporary-strait-hormuz-shipping-routes-says-no-tolls-will-be-charged-2026-06-24/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-24 08:27:48",
+        "summary_zh": "阿曼政府宣布暫時開通霍爾木茲海峽航道，以方便油輪和商船通過。這一措施是為了應對伊朗的海上活動限制，同時也希望能夠減少海上交通的風險。阿曼政府表示，暫時開通的航道將不會徵收任何通行費，目的是為了促進海上貿易的流通。這一措施也被視為是阿曼政府對於全球海上貿易的承諾和支持。霍爾木茲海峽是全球重要的海上航道之一，阿曼政府的這一決定將對於全球海上貿易產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a9830444",
+        "title": "對冲基金或將再次獲得歐盟ESG規則豁免",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-24/hedge-funds-look-set-to-win-another-exemption-from-eu-esg-rules",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-24 08:24:56",
+        "summary_zh": "歐盟的環境、社會和治理（ESG）規則對金融機構的影響日益擴大。然而，對冲基金可能將再次獲得豁免。根據最近的報告，歐盟委員會正在考慮對ESG規則進行修訂，以便對冲基金可以繼續投資於傳統的股票和債券市場。這一決定可能會受到投資者和環境團體的反對。對冲基金的豁免可能會使得ESG規則的執行變得更加複雜。這一發展可能會對金融市場產生影響，尤其是在歐盟地區。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "3857d7ba",
@@ -767,200 +973,6 @@
         "category": "finance",
         "published_at": "Wed, 24 Jun 2026 00:15:04 GMT",
         "summary_zh": "中國政府對英偉達的AI晶片實施禁令後，黑市上這些晶片的價格迅速上漲。根據最新的市場調查，英偵達的AI晶片在中國黑市的價格已經翻倍，成為高價商品。這種情況使得中國的科技業者面臨著嚴重的晶片短缺問題。英偵達的AI晶片被禁令後，中國的科技業者必須尋找替代方案，來滿足市場的需求。這種情況也使得中國的黑市市場變得更加活躍。根據市場分析師的評估，英偵達的AI晶片在中國黑市的價格將繼續上漲。這種情況將對中國的科技業者和市場造成重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "773f5abf",
-        "title": "約翰尼斯堡停辦道路服務　因無法支付燃油費用",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-24/johannesburg-halts-roads-services-as-it-can-t-pay-for-fuel",
-        "source": "Bloomberg",
-        "category": "global",
-        "published_at": "2026-06-24 07:44:16",
-        "summary_zh": "南非最大城市約翰尼斯堡的道路管理局因無法支付燃油費用，暫停所有道路服務。該局負責維護城市的道路網絡，目前因燃油費用問題而陷入困境。這一事件可能會對城市交通造成重大影響，居民和車主將會受到影響。南非政府應該儘快解決燃油費用問題，恢復道路服務。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "d709e0d3",
-        "title": "法國婦女被丈夫囚禁 12 年後在巴基斯坦獲救",
-        "url": "https://www.bbc.co.uk/news/articles/cj0g71pnv3no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 08:29:06 GMT",
-        "summary_zh": "一名法國婦女 Yasmina 指控她被丈夫囚禁 12 年，並與五名子女一起被切斷與外界的聯繫。這起事件發生在巴基斯坦，當地警方最終成功營救了 Yasmina 和她的子女。這起案件引起了社會的關注，許多人對於丈夫的行為感到震驚和憤怒。這起事件也引發了對家庭暴力和人權的討論。目前，丈夫已被拘留，並將面臨法律追究。這起事件的後續發展仍在等待著。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4dd42c44",
-        "title": "悉尼女性從昏迷中醒來，逾一週前遭遇白鯊攻擊",
-        "url": "https://www.bbc.co.uk/news/articles/cy8drk2dk3no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 01:42:43 GMT",
-        "summary_zh": "悉尼一名34歲女性，萊哈·史都華（Leah Stewart）在科吉海灘（Coogee Beach）游泳時遭白鯊攻擊，導致她失去一臂。事發後，萊哈被送往醫院，入住昏迷室超過一週，最後才甦醒。目前尚無詳細情況披露，醫院正在繼續關注她的病情。白鯊攻擊是一種罕見的事件，通常發生在遠洋地區或是白鯊棲息的海域。這次事件讓人們對白鯊的行為產生了新的疑問。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "aeb5a33a",
-        "title": "法國準備迎接另一天的酷熱天氣，歐洲熱浪蔓延",
-        "url": "https://www.bbc.co.uk/news/articles/c78y4102n1zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 17:29:55 GMT",
-        "summary_zh": "法國正面臨著嚴重的熱浪，氣溫預計將達到歷史新高。歐洲熱浪已經蔓延到西部地區，預計將在週三進一步擴散至其他地區，然後在週末東移。這種天氣可能會對人們的健康造成嚴重影響，特別是老年人和兒童。政府已經啟動應急措施，提供冷氣和水給民眾。這種天氣也可能會對農業產生影響，特別是那些依賴於夏季作物的農民。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "db689a2c",
-        "title": "空調引起政治分歧 法國錄得最熱的一天",
-        "url": "https://www.bbc.co.uk/news/articles/c4gyqldl3p5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 13:51:24 GMT",
-        "summary_zh": "法國因為氣溫大幅上升，正在重新思考長期對空調的保留態度。氣溫創下新高，引起了民眾對空調的需求增加。這種需求變化，讓政府和政治領袖面臨新的挑戰，需要重新評估法國對環境和能源的政策。這種變化也引起了政治分歧，部分人認為應該增加空調的使用，另一部分人則認為應該繼續堅持節能政策。這種政治分歧可能會影響法國未來的能源政策和環境保護措施。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3a2a883b",
-        "title": "聯合國核首長稱檢查員將訪問伊朗地點作為戰爭協議的一部分",
-        "url": "https://www.bbc.co.uk/news/articles/cpd395zv81vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 17:31:48 GMT",
-        "summary_zh": "聯合國核能局局長拉斐爾·格羅西表示，國際原子能總署正在與伊朗進行協商，準備派遣檢查員訪問伊朗的核設施。伊朗一位部長表示，這樣的訪問將只在伊朗與美國達成最終協議後才會進行。這一消息出自於伊朗與美國的戰爭協議談判，雙方正在努力達成一項針對伊朗核計畫的協議。伊朗核計畫一直是全球關注的焦點，各國都希望伊朗能夠遵守核不擴散條約的規定。聯合國核能局局長拉斐爾·格羅西表示，檢查員將訪問伊朗的核設施，以確保伊朗的核計畫符合核不擴散條約的規定。伊朗部長表示，這樣的訪問將只在伊朗與美國達成最終協議後才會進行。這一消息引起了全球關注，各國都在關注伊朗與美國的戰爭協議談判的進展。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cb5cde7e",
-        "title": "烏克蘭攻擊打斷克里米亞俄佔區關鍵城市的電力供應",
-        "url": "https://www.bbc.co.uk/news/articles/c3ryv72pjqno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 09:48:24 GMT",
-        "summary_zh": "烏克蘭近日對俄佔克里米亞發動攻擊，影響了該區的電力供應。俄佔克里米亞的關鍵城市塞瓦斯托波爾的莫斯科代理市長警告，某些區域將無法獲得電力直到晚上。這次攻擊是烏克蘭對俄羅斯在克里米亞的軍事佔領的反應。烏克蘭政府一直堅持克里米亞是其領土的一部分，而俄羅斯則將其視為自己的領土。這次攻擊可能會對克里米亞的民眾造成嚴重影響，尤其是在夏季的高溫下。烏克蘭的攻擊行動也可能會對俄羅斯的經濟和政治形勢造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "80b334ba",
-        "title": "哥倫比亞左翼總統候選人承認敗選",
-        "url": "https://www.bbc.co.uk/news/articles/cgrkqky5lzpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 15:50:22 GMT",
-        "summary_zh": "哥倫比亞總統選舉結果出爐，左翼候選人伊萬·塞佩達(Iván Cepeda)在競選中敗給右翼企業家阿貝拉多·德拉·埃斯皮里拉(Abelardo de la Espriella)。塞佩達領先的差距僅在百分之幾點。這次選舉結果意味著哥倫比亞將由右翼政府領導。塞佩達在選舉中表現出色，但最終未能取得勝利。這次選舉結果將對哥倫比亞政治產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d1091186",
-        "title": "八人被判刑 450 年 因為反 ICE 暴亂案件",
-        "url": "https://www.bbc.co.uk/news/articles/clyedgnyn4mo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 00:00:06 GMT",
-        "summary_zh": "在德克薩斯州的暴亂中，一名警官在頸部被「反法西斯行動組」成員射傷。根據檢察官的說法，這些人是「反法西斯行動組」的一部分。這起案件引發了對極端主義和暴力行為的關注。這些被告被指控參與了對 ICE 的抗議活動，並導致警官受傷。這起案件的判決結果對於維護社會秩序和防止極端主義行為的努力具有重要意義。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "651f1c9a",
-        "title": "邦迪海灘槍擊事件英雄被控父親毆打罪，否認罪名",
-        "url": "https://www.bbc.co.uk/news/articles/cn8q33gdgjjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 04:06:51 GMT",
-        "summary_zh": "近期，邦迪海灘槍擊事件的一位英雄Ahmed al Ahmed，因涉嫌對其父親施暴，被控告罪。他在去年12月的猶太人聚會中，勇敢地攔截了一名槍手，阻止了該事件造成的15人死亡。目前，Ahmed al Ahmed已否認了這項指控。他在庭上表示，他的父親曾經對他施暴，因此他才會對父親施暴。這一事件引起了社會的關注，許多人都在關注這位英雄的命運。這一事件的結果將會對Ahmed al Ahmed的未來產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "31f4aa3a",
-        "title": "肯雅將控訴學生犯殺人罪嫌於校舍大火",
-        "url": "https://www.bbc.co.uk/news/articles/cwykl517xk7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 14:36:42 GMT",
-        "summary_zh": "肯雅一間女校於上月發生大火，造成 16 名 15 至 18 歲的學生喪生。警方已經展開調查，懷疑學生故意縱火，目前正在準備控訴 16 名學生犯殺人罪嫌。這一事件引起了肯雅社會的強烈反應，許多人批評政府在教育領域的缺失。肯雅政府表示將會對此事件進行徹底調查，並且將會採取措施防止類似事件再次發生。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a304962e",
-        "title": "所有挑戰都很大很小",
-        "url": "https://www.technologyreview.com/2026/06/24/1138853/editors-letter-july-2026/",
-        "source": "MIT Tech Review",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 09:00:00 +0000",
-        "summary_zh": "在我 18 歲那年，我決定放棄高中畢業典禮，前往科威特。時為 1991 年，第一次海灣戰爭剛結束，科威特處於極度混亂之中。電力供應極度不足，除了發電機以外幾乎沒有其他來源。路上到處是瓦礫和未爆彈，沙漠中燃燒的巨大石油火焰照亮了夜空……",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f33746f6",
-        "title": "決賽時刻：梅西與法國的最後一刻",
-        "url": "https://www.technologyreview.com/2026/06/23/1138214/heads-in-the-game/",
-        "source": "MIT Tech Review",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 21:00:00 +0000",
-        "summary_zh": "2022 年男子世界盃決賽在卡塔爾展開，阿根廷與法國的比賽預告將成為足球史上最精彩的一場。當比賽進入加時階段，仍然打成1-1平手，裁判必須在剩下12分鐘內做出關鍵判決。利昂內爾·梅西與法國隊的球員們都在緊張的氣氛中等待裁判的判決。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "362aed5b",
-        "title": "德國全國鐵路服務暫停 因IT系統故障",
-        "url": "https://www.bbc.co.uk/news/articles/crm0ek4z7ggo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 23:46:01 GMT",
-        "summary_zh": "德國鐵路公司德國鐵路（Deutsche Bahn）因IT系統故障，導致全國鐵路服務暫停超過兩點半小時。這次故障對德國的交通和經濟產生了重大影響。德國鐵路的IT系統負責管理鐵路運輸的時刻表、車票發售和安全監控等功能。故障的原因尚未明朗，但德國鐵路已經開始調查和修復工作。這次事件也引起了對德國鐵路IT系統安全性的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f8e6898d",
-        "title": "肯亞劇作《Free Me》點出性別暴力危機",
-        "url": "https://www.theguardian.com/world/2026/jun/24/kenya-play-free-me-gender-based-violence",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 04:00:35 GMT",
-        "summary_zh": "肯亞劇作《Free Me》是由劇作家Gathoni Kimuyu所創作，該劇是基於她自己在婚姻中遭受的暴力體驗。劇中描述了一個丈夫對妻子的暴力行為，令觀眾感到震驚。該劇的目的是鼓勵肯亞女性受害者勇敢地發聲，面對在該國日益升高的對女性的暴力問題。肯亞政府應該採取行動來防止性別暴力，並為受害者提供支持和保護。肯亞女性的安全和尊嚴應該受到重視和保護。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c525de2f",
-        "title": "哥倫比亞左翼候選人承認敗選 給予特朗普支持的億萬富翁",
-        "url": "https://www.theguardian.com/world/2026/jun/24/colombia-presidential-election-abelardo-de-la-espriella",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 15:48:34 GMT",
-        "summary_zh": "哥倫比亞左翼候選人伊萬·塞佩達(Iván Cepeda)承認敗選給予右翼律師阿貝拉多·德拉·埃斯皮里耶拉(Abelardo de la Espriella)。根據初步計票結果，埃斯皮里耶拉以極微弱的差距（不到1%）贏得了哥倫比亞總統選舉的複選。這場選舉的結果引起了各方關注，尤其是左翼候選人塞佩達的支持者。塞佩達在選舉過程中一直表明，他將會尊重選舉結果並承認勝利者。這次選舉的結果可能會對哥倫比亞政治產生重大影響，尤其是在左翼和右翼政治力量之間的關係上。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
