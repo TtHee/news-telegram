@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-24T07:09:15.716371+08:00",
+  "generated_at": "2026-06-24T08:09:32.230150+08:00",
   "risk_signals": [
     "🟢 台股加權 47741.51（正常）",
     "🟢 S&P 500 7365.46（正常）",
     "🟢 VIX 恐慌指數 19.49（正常）",
     "🟢 MOVE 債市波動 68.78（正常）",
     "🟢 美元指數 101.39（正常）",
-    "🟢 黃金 4124.4（正常）",
+    "🟢 黃金 4116.0（正常）",
     "🟢 美債10Y殖利率 4.49（正常）",
-    "🟢 原油 WTI 72.95（正常）",
-    "🟢 美元/台幣 31.69（正常）"
+    "🟢 原油 WTI 72.7（正常）",
+    "🟢 美元/台幣 31.7（正常）"
   ],
-  "ai_summary": "市場指標表現平穩，台股上漲2.75%，但美股下跌，表明投資人仍然對全球經濟前景存疑。",
+  "ai_summary": "市場氛圍穩定，指標正常，但台股大幅上漲，表明投資人對市場有信心。",
   "market": {
     "TWII": {
       "price": 47741.51,
@@ -42,21 +42,419 @@
       "change_pct": 0.37
     },
     "GOLD": {
-      "price": 4124.4,
-      "change_pct": -1.37
+      "price": 4116.0,
+      "change_pct": -1.58
     },
     "OIL": {
-      "price": 72.95,
-      "change_pct": -2.5
+      "price": 72.7,
+      "change_pct": -2.83
     },
     "USDTWD": {
-      "price": 31.69,
-      "change_pct": 0.0
+      "price": 31.7,
+      "change_pct": 0.04
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "88869f38",
+        "title": "法國發生大量溺水死亡案件，歐洲在高溫熱浪中陷入困境",
+        "url": "https://www.bbc.co.uk/news/articles/c79yvw3j114o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 16:27:17 GMT",
+        "summary_zh": "法國自上周四以來，已有40人因高溫熱浪相關原因溺水死亡，法國總理塞巴斯蒂安·勒柯努（Sébastien Lecornu）表示。這一波高溫熱浪席捲了整個歐洲，導致大量民眾受困。法國政府已經部署了大量救援人員和設備，試圖減少溺水死亡人數。然而，高溫熱浪的持續時間和嚴重程度仍然令人擔憂。歐洲的高溫熱浪已經持續了多天，氣溫達到歷史最高點，導致大量民眾感到不適和疲勞。法國政府已經呼籲民眾謹慎使用水源，避免溺水死亡。這一波高溫熱浪對歐洲的影響不僅限於法國，許多國家都受到影響，民眾的健康和安全受到威脅。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f8ad00ef",
+        "title": "以色列軍隊在黎巴嫩南部殺害兩人，當局表示",
+        "url": "https://www.bbc.co.uk/news/articles/c36ykpw0yego?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 16:47:45 GMT",
+        "summary_zh": "黎巴嫩南部近期出現了短暫的停火局面，但近日卻再次爆發了暴力事件。據以色列軍方的說法，兩名男子是親伊朗組織真主黨的成員，但真主黨則指責以色列軍隊違反了停火協議。這一事件的發生，可能會對黎巴嫩局勢的穩定性產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "362aed5b",
+        "title": "德國全國鐵路服務暫停 因IT系統故障",
+        "url": "https://www.bbc.co.uk/news/articles/crm0ek4z7ggo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 23:46:01 GMT",
+        "summary_zh": "德國鐵路公司德國鐵路（Deutsche Bahn）因IT系統故障，導致全國鐵路服務暫停超過兩點半小時。這次故障對德國的交通和經濟產生了重大影響。德國鐵路的IT系統負責管理鐵路運輸的時刻表、車票發售和安全監控等功能。故障的原因尚未明朗，但德國鐵路已經開始調查和修復工作。這次事件也引起了對德國鐵路IT系統安全性的關注。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "2db48584",
+        "title": "油輪公開駛入荷莫茲海峽 國際油價回落",
+        "url": "https://www.cna.com.tw/news/afe/202606240009.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Wed, 24 Jun 2026 04:35:34 +0800",
+        "summary_zh": "荷莫茲海峽是全球重要的海上通道，近日油輪通過該海峽時變得更加公開，顯示原油正在運送途中。這一發展有望緩解史上最嚴重的供應衝擊之一，國際原油價格因此下跌。事件背景是，荷莫茲海峽近期曾出現過多起針對油輪的攻擊事件，導致油價大幅上漲。然而，油輪駛入荷莫茲海峽的公開行為，表明原油的運送仍在繼續，供應鏈的恢復有望緩解油價的上漲。這一發展對於全球經濟和能源市場都有重要影響，國際原油價格的下跌將對相關企業和投資者產生影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "659bf6e1",
+        "title": "數十艘船隻穿越霍爾木茲海峽，美國與伊朗達成和平協議後交通量大增",
+        "url": "https://www.bbc.co.uk/news/articles/cx23rnzdgl8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 14:55:31 GMT",
+        "summary_zh": "霍爾木茲海峽是世界上最重要的海上通道之一，連接印度洋和波斯灣。美國與伊朗簽署了一項協議，旨在結束雙方的戰爭。該協議的簽署後，霍爾木茲海峽的交通量大幅增加，包括上週六的42艘船隻。這表明雙方的緊張關係正在緩和，商船可以安全地通過海峽。這一發展對全球貿易和能源供應具有重要影響。霍爾木茲海峽的安全是全球安全的關鍵部分，因此這一發展的意義不容小覷。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7597430f",
+        "title": "聯合國調查委員會指控以色列在加沙故意針對兒童犯下種族滅絕罪",
+        "url": "https://www.bbc.co.uk/news/articles/c0jy96w6pw2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 11:10:06 GMT",
+        "summary_zh": "聯合國的一個調查委員會發表報告指出，以色列在加沙地區犯下了種族滅絕罪。委員會指出，以色列軍隊故意針對兒童進行攻擊，造成大量兒童喪生。這份報告引起了國際社會的關注和譴責。以色列政府則否認了這份報告的內容，稱其為「誹謗性的詐欺」。這樁事件的發生，凸顯了中東地區的緊張局勢和人權問題。委員會的報告將對以色列政府的形象和國際關係產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6c32be53",
+        "title": "伊朗否認在瑞士會議後對核檢查站做出新承諾",
+        "url": "https://www.bbc.co.uk/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 12:14:58 GMT",
+        "summary_zh": "伊朗外交部發表聲明，表示在瑞士會議後沒有做出任何新的承諾，關於核檢查站的問題。這意味著伊朗仍然堅持不允許國際核檢查機構進入其核設施。這一發展可能會對伊朗與國際社會的關係產生影響。伊朗外交部的聲明顯示，伊朗仍然堅持自己的立場，拒絕讓國際核檢查機構進入其核設施。這一發展可能會加劇伊朗與國際社會的緊張關係。伊朗外交部的聲明也表明，伊朗仍然堅持自己的核計劃，並不會讓步。這一發展可能會對全球安全形勢產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d86f0694",
+        "title": "贊比亞前總統家屬在遺體處理爭議中勝訴",
+        "url": "https://www.bbc.co.uk/news/articles/c8r2yryr5mvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 17:30:44 GMT",
+        "summary_zh": "贊比亞前總統埃德加·倫古 (Edgar Lungu) 逝世已逾 12 個月，政府與家屬仍在爭論他的遺體應如何處理。這場法律戰役持續了很長時間，倫古的家屬最終獲得勝訴。這一事件引起了贊比亞社會的關注，許多人對政府與家屬之間的爭議感到困惑。政府和家屬之間的分歧，反映在了贊比亞社會的政治和社會變化上。這一事件的結果將對贊比亞社會產生重大影響，需要密切關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e5fb6c0b",
+        "title": "阿里巴巴控訴美國政府：被列入防衛黑名單",
+        "url": "https://www.bbc.co.uk/news/articles/ckg0258vpvqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 23:25:07 GMT",
+        "summary_zh": "阿里巴巴控訴美國政府，指自己被錯誤地列入美國防衛部門的黑名單。根據美國防衛部門的資料，阿里巴巴被列入名單是因為與中國軍方有關係。阿里巴巴表示，這項決定是錯誤的，並要求美國政府撤銷黑名單的決定。阿里巴巴的訴訟將進一步影響中美關係，特別是在商業和科技領域。阿里巴巴的黑名單決定可能會影響公司的業務和投資，同時也會對美國公司在中國的業務造成不利影響。阿里巴巴的訴訟是中美關係緊張的最新表現。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9c0c59a9",
+        "title": "澳洲發現一種使用春天陷阱捕食的蜘蛛",
+        "url": "https://www.bbc.co.uk/news/articles/c70y138y995o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 10:05:53 GMT",
+        "summary_zh": "近日，澳洲科學家發現了一種特殊的蜘蛛，它使用春天陷阱的方法捕食獵物。這種蜘蛛的獵食方法是前所未見的，能夠捕食危險的蚂蚁。這種蜘蛛的發現讓科學家感到興趣，希望能夠進一步研究它的行為和習性。這種蜘蛛的存在可能會對我們的理解蜘蛛的行為和習性有所貢獻。目前，科學家正在研究這種蜘蛛的詳細資料，希望能夠了解它的生態和行為。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "85b4fde8",
+        "title": "蒙特利爾槍擊案疑犯身份曝光，25歲男子來自阿爾伯塔省",
+        "url": "https://www.bbc.co.uk/news/articles/cx2w0yezeyxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 19:35:27 GMT",
+        "summary_zh": "蒙特利爾槍擊案發生於上週一，造成一名警察和一名路人死亡。警方尚未釋出槍擊案的動機。根據最新消息，槍擊案的疑犯已經被識別為來自阿爾伯塔省的25歲男子。警方正在進行調查，試圖了解槍擊案的原因和相關細節。這起槍擊案引起了社會的關注和恐懼，警方呼籲民眾保持冷靜和配合調查。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0eae2475",
+        "title": "愛爾蘭政府將撥款 1970 萬英鎊支持跨境鐵路服務",
+        "url": "https://www.bbc.co.uk/news/articles/cd95yd1y050o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 13:39:03 GMT",
+        "summary_zh": "愛爾蘭政府宣佈將從其「共享島嶼基金」（Shared Island Fund）中撥出 1970 萬英鎊，支持跨境鐵路服務。這筆資金將用於改善愛爾蘭與北愛爾蘭之間的鐵路交通，促進兩地之間的經濟和文化交流。這項計畫是愛爾蘭政府為實現其「共享島嶼」願景而采取的重要一步，旨在加強兩地之間的聯繫和合作。這項投資將對兩地的經濟和社會發展產生積極影響，同時也將促進兩地之間的和平與穩定。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "16b9f8c8",
+        "title": "川普預期與哥倫比亞新領導人關係改善",
+        "url": "https://www.bbc.co.uk/news/articles/c9v278ny9meo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 10:27:04 GMT",
+        "summary_zh": "哥倫比亞即將出現新領導人， Abelardo de la Espriella 預計將成為該國的新總統。根據初步結果，川普已經對 de la Espriella 表示支持。哥倫比亞的選舉結果尚未確定，但 de la Espriella 的勝選似乎已經被視為定局。這一發展可能會對哥倫比亞與美國的關係產生重大影響，特別是在貿易和安全領域。川普的支持可能會幫助 de la Espriella 在與美國的關係上取得進展。然而，哥倫比亞的選舉結果尚未確定，最終結果仍待觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cd9246e4",
+        "title": "巴基斯坦人權活動家因在集會上刺殺軍官被判終身監禁",
+        "url": "https://www.bbc.co.uk/news/articles/cpweywvygylo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 14:30:06 GMT",
+        "summary_zh": "巴基斯坦人權活動家馬赫朗·巴洛奇（Mahrang Baloch）被判處終身監禁。馬赫朗·巴洛奇否認在軍官死亡前刺激示威者。這起事件發生在一場集會上，軍官在那裡被刺殺。馬赫朗·巴洛奇被指控在集會上發表煽動性言論，導致軍官死亡。判決結果引發了人權組織和巴基斯坦政府的關注。人權組織批評判決是對人權活動家的打壓，巴基斯坦政府則表示判決是對軍官死亡的正義。這起事件將進一步加劇巴基斯坦的政治緊張局勢。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "dafa71e6",
+        "title": "從波士頓到邁阿密：蘇格蘭足球迷適應世界盃文化震撼",
+        "url": "https://www.bbc.co.uk/news/articles/c9329ekydvdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 06:54:48 GMT",
+        "summary_zh": "世界盃即將到來，蘇格蘭足球迷來到邁阿密觀戰，與來自巴西的球迷共享城市的氣氛。邁阿密著名的海灘路(Ocean Drive)上的酒吧已經開始擠爆，球迷們在這裡分享熱情。這些蘇格蘭球迷來自波士頓，來到邁阿密觀戰，體驗世界盃的文化震撼。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "20f10d86",
+        "title": "德特羅爾道歉：廣告要求女性「不受其他男人汙染」引發中國網友批評",
+        "url": "https://www.bbc.co.uk/news/articles/ced4vq6zylpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 08:05:07 GMT",
+        "summary_zh": "德特羅爾公司在中國發佈了一則廣告，要求女性「不受其他男人汙染」，但這則廣告卻引發了中國網友的批評，指責該公司有性別歧視的意圖。這則廣告的出現，讓人們對於德特羅爾公司的品牌形象產生了質疑。中國政府對於這則廣告的回應仍未明朗。這則廣告的出現，也讓人們開始思考，什麼樣的廣告是適合在中國的市場上推廣的。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f890427f",
+        "title": "歐元區6月PMI升至49.5 商業活動萎縮放緩",
+        "url": "https://www.cna.com.tw/news/aopl/202606230364.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 21:54:34 +0800",
+        "summary_zh": "歐元區商業活動持續萎縮，但速度有所放緩。根據一項重要調查，歐元區6月PMI升至49.5，這是因為中東戰爭引發的價格壓力減弱。這項調查顯示，商業活動的萎縮速度有所放緩，但仍處於萎縮狀態。這可能是因為歐元區經濟仍面臨著挑戰，包括通膨和出口減少。然而，這也表明，歐元區經濟有望在未來幾個月內恢復。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6594f699",
+        "title": "澳洲煤炭和天然氣出口違反人權，組織在新案中指控",
+        "url": "https://www.bbc.co.uk/news/articles/cn8q5nx6jw6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 03:55:00 GMT",
+        "summary_zh": "澳洲的一個組織指控，澳洲繼續批准煤炭和天然氣出口而未保護其公民的做法違反人權。根據組織的說法，澳洲政府有責任保護其公民免受氣候變化的影響，而繼續出口煤炭和天然氣卻違反了這一責任。這一案件將在聯合國人權委員會進行審理。氣候變化已經成為全球的一個重大問題，許多國家正努力減少對氣候的影響。澳洲出口的煤炭和天然氣是全球能源消耗的重要來源之一。組織的訴求引發了關於澳洲能源政策的爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bbd37d5e",
+        "title": "南韓可能將 stalk 嫌疑人驅逐出境",
+        "url": "https://www.bbc.co.uk/news/articles/c9v2d9edx9wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 03:23:36 GMT",
+        "summary_zh": "一名來自巴西的女性在短短兩個月內，多達 20 次造訪 BTS 成員 Jungkook 的家門口。這名女性被指控為 stalk 嫌疑人，南韓當局正在考慮將她驅逐出境。事件的背景是，該名女性在 Jungkook 的家門口敲門 133 次，引起了當地居民的關注。關鍵細節是，她的行為被視為侵犯 Jungkook 的隱私權。影響分析是，這個事件可能會對 Jungkook 和他的粉絲造成心理壓力。後續展望是，南韓當局將會對該名女性的行為進行進一步調查和處理。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "be67d0e0",
+        "title": "肯亞衛生部長下令暫停美國愛滋病隔離設施建設",
+        "url": "https://www.theguardian.com/world/2026/jun/23/kenya-minister-orders-halt-us-ebola-facility",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 13:22:39 GMT",
+        "summary_zh": "肯亞衛生部長阿登杜阿勒 (Aden Duale) 因忽視上訴法院的停止工作令而被判有罪後，決定暫停美國在肯亞建設的愛滋病隔離設施。該設施原本計畫為美國從剛果民主共和國撤離的公民提供隔離服務，但該計畫引起了許多肯亞人強烈反對，自五月份宣布計畫後便有多起致命抗議事件發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c14a6841",
+        "title": "英國政府為了維持與阿拉伯聯合大公國的關係而忽視蘇丹大屠殺風險",
+        "url": "https://www.theguardian.com/global-development/2026/jun/23/uk-ties-uae-mass-atrocities-sudan-mps-select-committee-nathaniel-raymond",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 13:15:28 GMT",
+        "summary_zh": "英國政府在2024年就已經收到情報指出埃塞俄比亞正在支持蘇丹內戰中的殺戮民兵，但英國政府卻未公開這些情報。原因是英國政府不想惹怒阿拉伯聯合大公國（UAE）。英國外交部的官員告訴美國的人權調查員納薩尼爾·雷蒙德（Nathaniel Raymond），由於UAE的私人壓力，英國政府不會公開與埃塞俄比亞和UAE的關聯。這個資訊將在英國的一個議會委員會上被披露。這個事件的背後，涉及到英國政府在蘇丹內戰中的角色，以及英國政府為了維持與UAE的關係而犧牲人權的問題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "673df925",
+        "title": "加拿大警方警告可能的複製型攻擊事件",
+        "url": "https://www.theguardian.com/world/2026/jun/23/canada-police-warn-copycat-attack-montreal-shooting",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 17:34:43 GMT",
+        "summary_zh": "在蒙特利爾發生了一場槍戰，三人死亡，警方懷疑這可能是複製型攻擊事件。槍手的長篇宣言被右派媒體發布，內容包含了反對「無意願性貞操」的言論、種族主義和對女性的仇恨理論。這些言論與「無意願性貞操」運動的典型主張相似。警方正在調查槍手的動機和背景，同時呼籲民眾提高警覺，防止可能的複製型攻擊事件發生。這起槍擊案的影響可能會遠超蒙特利爾本地，警方正在密切關注這種情況。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "066d5a5b",
+        "title": "智利法院判決三名前皮諾切特特工犯下1976年華盛頓汽車炸彈襲擊案",
+        "url": "https://www.theguardian.com/world/2026/jun/23/conviction-chile-washington-dc-car-bomb-attack-1976",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 15:31:01 GMT",
+        "summary_zh": "智利前總統皮諾切特的秘密警察在五十年前在華盛頓DC的市中心引爆了一輛汽車炸彈，殺死了前智利部長兼美國駐智利大使的奧蘭多·列特耶利和他的美國同事羅尼·卡彭·莫菲特。智利一名法官在判決中指出，前特工佩德羅·埃斯皮諾薩、約瑟夫·扎拉和拉烏爾·伊圖里加犯下了莫菲特的謀殺罪。法官帕烏拉·普拉薩判處這三名前特工十五年監禁。這一判決標誌著智利政府對這起恐怖主義事件的第一次正式處理。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8a4fe2e6",
+        "title": "調查厄瓜多爾總統家族商業的爆料人被殺害，活動家指控政府蓄意掩飾真相",
+        "url": "https://www.theguardian.com/world/2026/jun/23/monika-silva-koniuszek-ecuador-president-family-business",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 23 Jun 2026 06:00:33 GMT",
+        "summary_zh": "厄瓜多爾的右翼總統家族商業被指涉及腐敗案件，該國一名反腐敗活動家調查此案遭遇不明原因死亡。根據調查結果，該名活動家死於頭部受傷和窒息，政府最初聲稱她是自殺。活動家認為，政府試圖掩飾真相，壓制調查。這名活動家的女兒只有四歲和九歲，留下了單親母親的遺憾。活動家們呼籲政府調查這起案件，並懷疑政府涉及此案。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
+      {
+        "id": "054c6c7d",
+        "title": "聯合國表示將撤僑在霍爾木茲海峽被困的海員， Rubio 警告不要徵收通行費",
+        "url": "https://www.bbc.co.uk/news/articles/c24yr796emzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 21:04:11 GMT",
+        "summary_zh": "霍爾木茲海峽是全球重要的海上交通要道，近日因為伊朗的海上行動而引起關注。聯合國表示將協助撤僑在該海峽被困的海員。美國國務卿 Marco Rubio 警告伊朗，任何國家都不應該徵收船隻通過海峽的費用。這一警告意在防止伊朗利用海峽的控制權來對外國船隻徵收高額的通行費。霍爾木茲海峽的重要性不僅在於它是石油和天然氣的重要運輸通道，也是全球海上交通的重要節點。伊朗的海上行動引起的關注，也使得該海峽的安全問題再次受到關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "42ea8d44",
+        "title": "美國最高法院裁定拉斯塔法教徒無權起訴剃頭囚警",
+        "url": "https://www.bbc.co.uk/news/articles/cx247v39r1no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 15:57:29 GMT",
+        "summary_zh": "美國最高法院最近裁定，一名拉斯塔法教徒無權起訴囚警，因為囚警曾強制剃掉他的頭髮。這名拉斯塔法教徒曾經是路易斯安那州的囚犯，他認為囚警的行為違反了他的拉斯塔法教信仰。拉斯塔法教是一種非洲裔宗教，強調頭髮的神聖性。這名囚犯認為，強制剃掉他的頭髮是一種對他的宗教信仰的侵犯。然而，美國最高法院裁定，這名囚犯無權起訴囚警，因為囚警的行為是為了維持囚院秩序。這一裁決引起了廣泛的爭議，許多人認為，這是一種對宗教自由的侵犯。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6536782a",
+        "title": "蒙特婁槍擊案：警察、平民和嫌疑人均喪生",
+        "url": "https://www.bbc.co.uk/news/articles/c5yz3lv015qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 08:36:38 GMT",
+        "summary_zh": "蒙特婁槍擊案發生，造成一名警察、一名平民和一名嫌疑人喪生。這是24年來蒙特婁警方首次有警察在執行職務中遇害。蒙特婁警局局長表示，這是一起極為悲慘的事件。槍擊案的具體情況尚待調查。這起事件將對蒙特婁警局和當地居民產生重大影響。蒙特婁警局將會展開全面調查，確保這種悲劇不再發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a944ce43",
+        "title": "勒索信稱奈恩西·古思里死於綁架後",
+        "url": "https://www.bbc.co.uk/news/articles/cvgm0mgzl33o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 17:59:22 GMT",
+        "summary_zh": "美國一名名叫奈恩西·古思里（Nancy Guthrie）的女性被綁架後，勒索信出現了。據報導，勒索信中提到綁架者並未意欲奈恩西·古思里死亡，並向她的家人致歉。這個事件引起了廣泛關注，許多人都在等待更多的消息。綁架事件的背景和原因仍然不明朗，許多人都在猜測這個事件的真相。奈恩西·古思里被綁架後的影響非常大，許多人都在關注她的安全和福祉。這個事件也引起了對綁架和勒索的關注，許多人都在呼籲提高安全措施和防止綁架的方法。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5453b350",
+        "title": "國會通過戰爭權限措施，罕見反對川普對伊朗戰爭",
+        "url": "https://www.bbc.co.uk/news/articles/ce8j6g3v3r4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 23:28:13 GMT",
+        "summary_zh": "美國國會通過了一項戰爭權限措施，標誌著自 1973 年《戰爭權限決議》通過以來，國會第一次將總統要求結束軍事行動。這項決議是針對川普政府對伊朗的軍事行動，國會通過這項決議表明了對總統的戰爭權限的限制。這項決議的通過意味著國會將在未經其同意的情況下，總統的軍事行動將被視為非法。這項決議的通過對於美國的外交政策和戰爭權限的限制產生了重大影響，將進一步限制總統的戰爭權限。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "fa8f5f88",
+        "title": "谷歌YouTube與青少年達成社交媒體成癮案件和解",
+        "url": "https://www.bbc.co.uk/news/articles/cly81g7x73po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 23:39:55 GMT",
+        "summary_zh": "一名15歲的少年因控告三大科技公司涉及社交媒體成癮問題，目前正準備訴訟。谷歌YouTube在此案件中達成了和解，然而這並不代表其他被控告的公司也會跟進。這名少年的訴訟案件將於下個月正式展開。這一事件引發了關於科技公司對兒童社交媒體使用的影響以及保護兒童免受社交媒體成癮的問題的討論。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "64cc21fa",
+        "title": "華盛頓特區的反映池變成全球話題",
+        "url": "https://www.bbc.co.uk/news/videos/cy4ed2dkxv1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 18:39:52 GMT",
+        "summary_zh": "美國總統特朗普表示，反映池很可能再次被排乾，儘管兩週前已經完成了數百萬美元的翻新工程。這個消息引起了全球關注，許多人對於這個決定感到困惑。反映池是華盛頓特區的著名景點之一，曾經在總統就職典禮上被用作背景。特朗普的決定可能會對這個景點的形象和觀光業造成影響。許多人認為，這個決定是為了讓總統的私人活動更加方便，而不是為了景點的整體發展。這個事件也引起了對於總統對於公共設施管理的質疑。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "95b2b2a7",
+        "title": "安迪伯恩漢姆的經濟計畫是什麼？",
+        "url": "https://www.cnbc.com/video/2026/06/23/what-andy-burnham-as-prime-minister-means-for-the-u-k-economy-and-investors.html",
+        "source": "Cnbc",
+        "category": "whitehouse",
+        "published_at": "2026-06-23 08:15:53",
+        "summary_zh": "英國即將上台的總理候選人安迪伯恩漢姆，正在引起投資者和經濟學家的關注，他的經濟議程將如何影響英國經濟、英國企業、金融市場和投資者情緒。英國BRI財富管理公司的CEO丹布曼-韋斯頓和Jefferies的歐洲經濟學家莫杜佩阿德蓋博，與英國廣播公司的Ian King和Ritika Gupta進行了一場關於伯恩漢姆領導的英國經濟未來的討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "690e3542",
+        "title": "北加州圖書館槍擊案：兩人死亡、兒童受傷",
+        "url": "https://www.theguardian.com/us-news/2026/jun/23/chico-library-shooting-northern-california",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 23 Jun 2026 23:20:34 GMT",
+        "summary_zh": "北加州一間圖書館發生槍擊案，造成兩人死亡、兒童受傷。警方表示，案件發生在北加州的查科圖書館分館，已經逮捕了涉案嫌疑人，但目前尚無明確動機。警方正在調查案件，正在努力了解槍擊事件的具體情況。這起槍擊案對當地居民造成了重大影響，當地政府正在提供支持和幫助。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "6347f0b3",
         "title": "美國參議院通過限制川普對伊朗戰爭權力的決議案",
@@ -66,8 +464,8 @@
         "published_at": "Tue, 23 Jun 2026 20:12:41 GMT",
         "summary_zh": "美國參議院通過一項戰爭權力決議案，限制川普總統對伊朗的軍事行動。該決議案由四名共和黨參議員與民主黨參議員聯合通過，川普總統遭到重大但象徵性的譴責。該決議案以50比48的投票結果通過，四名共和黨參議員——梅因州的Susan Collins、阿拉斯加州的Lisa Murkowski、路易斯安那州的Bill Cassidy和肯塔基州的Rand Paul——與民主黨參議員共同支持通過該決議案。賓夕法尼亞州的John Fetterman是唯一一名投票反對該決議案的民主黨參議員。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "555508a8",
@@ -130,30 +528,6 @@
         "ai_classified": true
       },
       {
-        "id": "95b2b2a7",
-        "title": "安迪伯恩漢姆的經濟計畫是什麼？",
-        "url": "https://www.cnbc.com/video/2026/06/23/what-andy-burnham-as-prime-minister-means-for-the-u-k-economy-and-investors.html",
-        "source": "Cnbc",
-        "category": "whitehouse",
-        "published_at": "2026-06-23 08:15:53",
-        "summary_zh": "英國即將上台的總理候選人安迪伯恩漢姆，正在引起投資者和經濟學家的關注，他的經濟議程將如何影響英國經濟、英國企業、金融市場和投資者情緒。英國BRI財富管理公司的CEO丹布曼-韋斯頓和Jefferies的歐洲經濟學家莫杜佩阿德蓋博，與英國廣播公司的Ian King和Ritika Gupta進行了一場關於伯恩漢姆領導的英國經濟未來的討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "690e3542",
-        "title": "北加州圖書館槍擊案：兩人死亡、兒童受傷",
-        "url": "https://www.theguardian.com/us-news/2026/jun/23/chico-library-shooting-northern-california",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 15:41:49 GMT",
-        "summary_zh": "北加州一間圖書館發生槍擊案，造成兩人死亡、兒童受傷。警方表示，案件發生在北加州的查科圖書館分館，已經逮捕了涉案嫌疑人，但目前尚無明確動機。警方正在調查案件，正在努力了解槍擊事件的具體情況。這起槍擊案對當地居民造成了重大影響，當地政府正在提供支持和幫助。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "51e77a09",
         "title": "美國最高法院結束訴訟：Cisco被控協助中國迫害法輪功",
         "url": "https://www.theguardian.com/us-news/2026/jun/23/supreme-court-ruling-cisco-china-falun-gong",
@@ -166,18 +540,6 @@
         "ai_classified": true
       },
       {
-        "id": "0bbddb50",
-        "title": "美國政府終止 42 天隔離令 美國公民被隔離六週",
-        "url": "https://www.theguardian.com/us-news/2026/jun/23/hantavirus-quarantine-ends-nebraska",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 13:34:29 GMT",
-        "summary_zh": "美國政府宣布終止對 42 天隔離令的執行，這項措施旨在保護公眾。六週前，八名美國公民因接觸致命的黑死病毒爆發而被隔離在內布拉斯加州。其中一名女性指控政府扣留她不當。美國衛生和人類服務部（HHS）確認，已經結束對這群人所需的隔離期，她們是當地早在五月初從加那利群島的MV Hondius郵輪撤離的數十人之一。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "fed61943",
         "title": "聯邦上訴法院允許川普政府加快移民遣返程序",
         "url": "https://www.theguardian.com/us-news/2026/jun/23/trump-deportation-fast-track-ruling",
@@ -185,66 +547,6 @@
         "category": "whitehouse",
         "published_at": "Tue, 23 Jun 2026 17:37:59 GMT",
         "summary_zh": "聯邦上訴法院週二裁定，川普政府可以擴大加快移民遣返程序，適用於非公民居住在邊境以外的地區。美國國土安全部長（DHS）在8月2025年試圖擴大加快移民遣返程序的適用對象，但遭到一名法官在8月2025年阻止。這項加快移民遣返程序已經近三十年來被用於快速處理邊境逮捕的移民。聯邦上訴法院的裁定讓川普政府可以擴大這項程序，適用於居住在邊境以外的非公民。這項裁定對於移民政策的影響將是重大。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5453b350",
-        "title": "國會通過戰爭權限措施，罕見反對川普對伊朗戰爭",
-        "url": "https://www.bbc.co.uk/news/articles/ce8j6g3v3r4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 21:44:03 GMT",
-        "summary_zh": "美國國會通過了一項戰爭權限措施，標誌著自 1973 年《戰爭權限決議》通過以來，國會第一次將總統要求結束軍事行動。這項決議是針對川普政府對伊朗的軍事行動，國會通過這項決議表明了對總統的戰爭權限的限制。這項決議的通過意味著國會將在未經其同意的情況下，總統的軍事行動將被視為非法。這項決議的通過對於美國的外交政策和戰爭權限的限制產生了重大影響，將進一步限制總統的戰爭權限。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "054c6c7d",
-        "title": "聯合國表示將撤僑在霍爾木茲海峽被困的海員， Rubio 警告不要徵收通行費",
-        "url": "https://www.bbc.co.uk/news/articles/c24yr796emzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 21:04:11 GMT",
-        "summary_zh": "霍爾木茲海峽是全球重要的海上交通要道，近日因為伊朗的海上行動而引起關注。聯合國表示將協助撤僑在該海峽被困的海員。美國國務卿 Marco Rubio 警告伊朗，任何國家都不應該徵收船隻通過海峽的費用。這一警告意在防止伊朗利用海峽的控制權來對外國船隻徵收高額的通行費。霍爾木茲海峽的重要性不僅在於它是石油和天然氣的重要運輸通道，也是全球海上交通的重要節點。伊朗的海上行動引起的關注，也使得該海峽的安全問題再次受到關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a944ce43",
-        "title": "勒索信稱奈恩西·古思里死於綁架後",
-        "url": "https://www.bbc.co.uk/news/articles/cvgm0mgzl33o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 17:59:22 GMT",
-        "summary_zh": "美國一名名叫奈恩西·古思里（Nancy Guthrie）的女性被綁架後，勒索信出現了。據報導，勒索信中提到綁架者並未意欲奈恩西·古思里死亡，並向她的家人致歉。這個事件引起了廣泛關注，許多人都在等待更多的消息。綁架事件的背景和原因仍然不明朗，許多人都在猜測這個事件的真相。奈恩西·古思里被綁架後的影響非常大，許多人都在關注她的安全和福祉。這個事件也引起了對綁架和勒索的關注，許多人都在呼籲提高安全措施和防止綁架的方法。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "42ea8d44",
-        "title": "美國最高法院裁定拉斯塔法教徒無權起訴剃頭囚警",
-        "url": "https://www.bbc.co.uk/news/articles/cx247v39r1no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 15:57:29 GMT",
-        "summary_zh": "美國最高法院最近裁定，一名拉斯塔法教徒無權起訴囚警，因為囚警曾強制剃掉他的頭髮。這名拉斯塔法教徒曾經是路易斯安那州的囚犯，他認為囚警的行為違反了他的拉斯塔法教信仰。拉斯塔法教是一種非洲裔宗教，強調頭髮的神聖性。這名囚犯認為，強制剃掉他的頭髮是一種對他的宗教信仰的侵犯。然而，美國最高法院裁定，這名囚犯無權起訴囚警，因為囚警的行為是為了維持囚院秩序。這一裁決引起了廣泛的爭議，許多人認為，這是一種對宗教自由的侵犯。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6536782a",
-        "title": "蒙特婁槍擊案：警察、平民和嫌疑人均喪生",
-        "url": "https://www.bbc.co.uk/news/articles/c5yz3lv015qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 08:36:38 GMT",
-        "summary_zh": "蒙特婁槍擊案發生，造成一名警察、一名平民和一名嫌疑人喪生。這是24年來蒙特婁警方首次有警察在執行職務中遇害。蒙特婁警局局長表示，這是一起極為悲慘的事件。槍擊案的具體情況尚待調查。這起事件將對蒙特婁警局和當地居民產生重大影響。蒙特婁警局將會展開全面調查，確保這種悲劇不再發生。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -272,284 +574,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "05d35e62",
-        "title": "美國250：總統在沖繩戰役紀念日發表講話",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/america-250-presidential-message-on-the-anniversary-of-the-battle-of-okinawa/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 23 Jun 2026 00:00:00 +0000",
-        "summary_zh": "今天是沖繩戰役發生81年，美國軍隊在這場艱苦的戰鬥中取得了勝利，展現了美國的力量、意志和犧牲精神。當時日本帝國正在進行最後一次和最激烈的防禦戰，美國軍隊勇敢地在島上戰鬥並打破了日本的防線。這場戰鬥對美國的歷史產生了深遠的影響。美國總統在紀念日發表講話，肯定了美國軍人的勇氣和犧牲精神。這場戰鬥是美國歷史上的一個重要里程碑，展現了美國的力量和意志。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "be67d0e0",
-        "title": "肯亞衛生部長下令暫停美國愛滋病隔離設施建設",
-        "url": "https://www.theguardian.com/world/2026/jun/23/kenya-minister-orders-halt-us-ebola-facility",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 13:22:39 GMT",
-        "summary_zh": "肯亞衛生部長阿登杜阿勒 (Aden Duale) 因忽視上訴法院的停止工作令而被判有罪後，決定暫停美國在肯亞建設的愛滋病隔離設施。該設施原本計畫為美國從剛果民主共和國撤離的公民提供隔離服務，但該計畫引起了許多肯亞人強烈反對，自五月份宣布計畫後便有多起致命抗議事件發生。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c14a6841",
-        "title": "英國政府為了維持與阿拉伯聯合大公國的關係而忽視蘇丹大屠殺風險",
-        "url": "https://www.theguardian.com/global-development/2026/jun/23/uk-ties-uae-mass-atrocities-sudan-mps-select-committee-nathaniel-raymond",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 13:15:28 GMT",
-        "summary_zh": "英國政府在2024年就已經收到情報指出埃塞俄比亞正在支持蘇丹內戰中的殺戮民兵，但英國政府卻未公開這些情報。原因是英國政府不想惹怒阿拉伯聯合大公國（UAE）。英國外交部的官員告訴美國的人權調查員納薩尼爾·雷蒙德（Nathaniel Raymond），由於UAE的私人壓力，英國政府不會公開與埃塞俄比亞和UAE的關聯。這個資訊將在英國的一個議會委員會上被披露。這個事件的背後，涉及到英國政府在蘇丹內戰中的角色，以及英國政府為了維持與UAE的關係而犧牲人權的問題。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2db48584",
-        "title": "油輪公開駛入荷莫茲海峽 國際油價回落",
-        "url": "https://www.cna.com.tw/news/afe/202606240009.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Wed, 24 Jun 2026 04:35:34 +0800",
-        "summary_zh": "荷莫茲海峽是全球重要的海上通道，近日油輪通過該海峽時變得更加公開，顯示原油正在運送途中。這一發展有望緩解史上最嚴重的供應衝擊之一，國際原油價格因此下跌。事件背景是，荷莫茲海峽近期曾出現過多起針對油輪的攻擊事件，導致油價大幅上漲。然而，油輪駛入荷莫茲海峽的公開行為，表明原油的運送仍在繼續，供應鏈的恢復有望緩解油價的上漲。這一發展對於全球經濟和能源市場都有重要影響，國際原油價格的下跌將對相關企業和投資者產生影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "673df925",
-        "title": "加拿大警方警告可能的複製型攻擊事件",
-        "url": "https://www.theguardian.com/world/2026/jun/23/canada-police-warn-copycat-attack-montreal-shooting",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 17:34:43 GMT",
-        "summary_zh": "在蒙特利爾發生了一場槍戰，三人死亡，警方懷疑這可能是複製型攻擊事件。槍手的長篇宣言被右派媒體發布，內容包含了反對「無意願性貞操」的言論、種族主義和對女性的仇恨理論。這些言論與「無意願性貞操」運動的典型主張相似。警方正在調查槍手的動機和背景，同時呼籲民眾提高警覺，防止可能的複製型攻擊事件發生。這起槍擊案的影響可能會遠超蒙特利爾本地，警方正在密切關注這種情況。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "066d5a5b",
-        "title": "智利法院判決三名前皮諾切特特工犯下1976年華盛頓汽車炸彈襲擊案",
-        "url": "https://www.theguardian.com/world/2026/jun/23/conviction-chile-washington-dc-car-bomb-attack-1976",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 15:31:01 GMT",
-        "summary_zh": "智利前總統皮諾切特的秘密警察在五十年前在華盛頓DC的市中心引爆了一輛汽車炸彈，殺死了前智利部長兼美國駐智利大使的奧蘭多·列特耶利和他的美國同事羅尼·卡彭·莫菲特。智利一名法官在判決中指出，前特工佩德羅·埃斯皮諾薩、約瑟夫·扎拉和拉烏爾·伊圖里加犯下了莫菲特的謀殺罪。法官帕烏拉·普拉薩判處這三名前特工十五年監禁。這一判決標誌著智利政府對這起恐怖主義事件的第一次正式處理。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8a4fe2e6",
-        "title": "調查厄瓜多爾總統家族商業的爆料人被殺害，活動家指控政府蓄意掩飾真相",
-        "url": "https://www.theguardian.com/world/2026/jun/23/monika-silva-koniuszek-ecuador-president-family-business",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 06:00:33 GMT",
-        "summary_zh": "厄瓜多爾的右翼總統家族商業被指涉及腐敗案件，該國一名反腐敗活動家調查此案遭遇不明原因死亡。根據調查結果，該名活動家死於頭部受傷和窒息，政府最初聲稱她是自殺。活動家認為，政府試圖掩飾真相，壓制調查。這名活動家的女兒只有四歲和九歲，留下了單親母親的遺憾。活動家們呼籲政府調查這起案件，並懷疑政府涉及此案。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f890427f",
-        "title": "歐元區6月PMI升至49.5 商業活動萎縮放緩",
-        "url": "https://www.cna.com.tw/news/aopl/202606230364.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 21:54:34 +0800",
-        "summary_zh": "歐元區商業活動持續萎縮，但速度有所放緩。根據一項重要調查，歐元區6月PMI升至49.5，這是因為中東戰爭引發的價格壓力減弱。這項調查顯示，商業活動的萎縮速度有所放緩，但仍處於萎縮狀態。這可能是因為歐元區經濟仍面臨著挑戰，包括通膨和出口減少。然而，這也表明，歐元區經濟有望在未來幾個月內恢復。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "85b4fde8",
-        "title": "蒙特利爾槍擊案疑犯身份曝光，25歲男子來自阿爾伯塔省",
-        "url": "https://www.bbc.co.uk/news/articles/cx2w0yezeyxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 19:35:27 GMT",
-        "summary_zh": "蒙特利爾槍擊案發生於上週一，造成一名警察和一名路人死亡。警方尚未釋出槍擊案的動機。根據最新消息，槍擊案的疑犯已經被識別為來自阿爾伯塔省的25歲男子。警方正在進行調查，試圖了解槍擊案的原因和相關細節。這起槍擊案引起了社會的關注和恐懼，警方呼籲民眾保持冷靜和配合調查。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6c32be53",
-        "title": "伊朗否認在瑞士會議後對核檢查站做出新承諾",
-        "url": "https://www.bbc.co.uk/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 12:14:58 GMT",
-        "summary_zh": "伊朗外交部發表聲明，表示在瑞士會議後沒有做出任何新的承諾，關於核檢查站的問題。這意味著伊朗仍然堅持不允許國際核檢查機構進入其核設施。這一發展可能會對伊朗與國際社會的關係產生影響。伊朗外交部的聲明顯示，伊朗仍然堅持自己的立場，拒絕讓國際核檢查機構進入其核設施。這一發展可能會加劇伊朗與國際社會的緊張關係。伊朗外交部的聲明也表明，伊朗仍然堅持自己的核計劃，並不會讓步。這一發展可能會對全球安全形勢產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dafa71e6",
-        "title": "從波士頓到邁阿密：蘇格蘭足球迷適應世界盃文化震撼",
-        "url": "https://www.bbc.co.uk/news/articles/c9329ekydvdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 06:54:48 GMT",
-        "summary_zh": "世界盃即將到來，蘇格蘭足球迷來到邁阿密觀戰，與來自巴西的球迷共享城市的氣氛。邁阿密著名的海灘路(Ocean Drive)上的酒吧已經開始擠爆，球迷們在這裡分享熱情。這些蘇格蘭球迷來自波士頓，來到邁阿密觀戰，體驗世界盃的文化震撼。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "88869f38",
-        "title": "法國發生大量溺水死亡案件，歐洲在高溫熱浪中陷入困境",
-        "url": "https://www.bbc.co.uk/news/articles/c79yvw3j114o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 16:27:17 GMT",
-        "summary_zh": "法國自上周四以來，已有40人因高溫熱浪相關原因溺水死亡，法國總理塞巴斯蒂安·勒柯努（Sébastien Lecornu）表示。這一波高溫熱浪席捲了整個歐洲，導致大量民眾受困。法國政府已經部署了大量救援人員和設備，試圖減少溺水死亡人數。然而，高溫熱浪的持續時間和嚴重程度仍然令人擔憂。歐洲的高溫熱浪已經持續了多天，氣溫達到歷史最高點，導致大量民眾感到不適和疲勞。法國政府已經呼籲民眾謹慎使用水源，避免溺水死亡。這一波高溫熱浪對歐洲的影響不僅限於法國，許多國家都受到影響，民眾的健康和安全受到威脅。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f8ad00ef",
-        "title": "以色列軍隊在黎巴嫩南部殺害兩人，當局表示",
-        "url": "https://www.bbc.co.uk/news/articles/c36ykpw0yego?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 16:47:45 GMT",
-        "summary_zh": "黎巴嫩南部近期出現了短暫的停火局面，但近日卻再次爆發了暴力事件。據以色列軍方的說法，兩名男子是親伊朗組織真主黨的成員，但真主黨則指責以色列軍隊違反了停火協議。這一事件的發生，可能會對黎巴嫩局勢的穩定性產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "659bf6e1",
-        "title": "數十艘船隻穿越霍爾木茲海峽，美國與伊朗達成和平協議後交通量大增",
-        "url": "https://www.bbc.co.uk/news/articles/cx23rnzdgl8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 14:55:31 GMT",
-        "summary_zh": "霍爾木茲海峽是世界上最重要的海上通道之一，連接印度洋和波斯灣。美國與伊朗簽署了一項協議，旨在結束雙方的戰爭。該協議的簽署後，霍爾木茲海峽的交通量大幅增加，包括上週六的42艘船隻。這表明雙方的緊張關係正在緩和，商船可以安全地通過海峽。這一發展對全球貿易和能源供應具有重要影響。霍爾木茲海峽的安全是全球安全的關鍵部分，因此這一發展的意義不容小覷。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7597430f",
-        "title": "聯合國調查委員會指控以色列在加沙故意針對兒童犯下種族滅絕罪",
-        "url": "https://www.bbc.co.uk/news/articles/c0jy96w6pw2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 11:10:06 GMT",
-        "summary_zh": "聯合國的一個調查委員會發表報告指出，以色列在加沙地區犯下了種族滅絕罪。委員會指出，以色列軍隊故意針對兒童進行攻擊，造成大量兒童喪生。這份報告引起了國際社會的關注和譴責。以色列政府則否認了這份報告的內容，稱其為「誹謗性的詐欺」。這樁事件的發生，凸顯了中東地區的緊張局勢和人權問題。委員會的報告將對以色列政府的形象和國際關係產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d86f0694",
-        "title": "贊比亞前總統家屬在遺體處理爭議中勝訴",
-        "url": "https://www.bbc.co.uk/news/articles/c8r2yryr5mvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 17:30:44 GMT",
-        "summary_zh": "贊比亞前總統埃德加·倫古 (Edgar Lungu) 逝世已逾 12 個月，政府與家屬仍在爭論他的遺體應如何處理。這場法律戰役持續了很長時間，倫古的家屬最終獲得勝訴。這一事件引起了贊比亞社會的關注，許多人對政府與家屬之間的爭議感到困惑。政府和家屬之間的分歧，反映在了贊比亞社會的政治和社會變化上。這一事件的結果將對贊比亞社會產生重大影響，需要密切關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9c0c59a9",
-        "title": "澳洲發現一種使用春天陷阱捕食的蜘蛛",
-        "url": "https://www.bbc.co.uk/news/articles/c70y138y995o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 10:05:53 GMT",
-        "summary_zh": "近日，澳洲科學家發現了一種特殊的蜘蛛，它使用春天陷阱的方法捕食獵物。這種蜘蛛的獵食方法是前所未見的，能夠捕食危險的蚂蚁。這種蜘蛛的發現讓科學家感到興趣，希望能夠進一步研究它的行為和習性。這種蜘蛛的存在可能會對我們的理解蜘蛛的行為和習性有所貢獻。目前，科學家正在研究這種蜘蛛的詳細資料，希望能夠了解它的生態和行為。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0eae2475",
-        "title": "愛爾蘭政府將撥款 1970 萬英鎊支持跨境鐵路服務",
-        "url": "https://www.bbc.co.uk/news/articles/cd95yd1y050o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 13:39:03 GMT",
-        "summary_zh": "愛爾蘭政府宣佈將從其「共享島嶼基金」（Shared Island Fund）中撥出 1970 萬英鎊，支持跨境鐵路服務。這筆資金將用於改善愛爾蘭與北愛爾蘭之間的鐵路交通，促進兩地之間的經濟和文化交流。這項計畫是愛爾蘭政府為實現其「共享島嶼」願景而采取的重要一步，旨在加強兩地之間的聯繫和合作。這項投資將對兩地的經濟和社會發展產生積極影響，同時也將促進兩地之間的和平與穩定。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "16b9f8c8",
-        "title": "川普預期與哥倫比亞新領導人關係改善",
-        "url": "https://www.bbc.co.uk/news/articles/c9v278ny9meo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 10:27:04 GMT",
-        "summary_zh": "哥倫比亞即將出現新領導人， Abelardo de la Espriella 預計將成為該國的新總統。根據初步結果，川普已經對 de la Espriella 表示支持。哥倫比亞的選舉結果尚未確定，但 de la Espriella 的勝選似乎已經被視為定局。這一發展可能會對哥倫比亞與美國的關係產生重大影響，特別是在貿易和安全領域。川普的支持可能會幫助 de la Espriella 在與美國的關係上取得進展。然而，哥倫比亞的選舉結果尚未確定，最終結果仍待觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "20f10d86",
-        "title": "德特羅爾道歉：廣告要求女性「不受其他男人汙染」引發中國網友批評",
-        "url": "https://www.bbc.co.uk/news/articles/ced4vq6zylpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 08:05:07 GMT",
-        "summary_zh": "德特羅爾公司在中國發佈了一則廣告，要求女性「不受其他男人汙染」，但這則廣告卻引發了中國網友的批評，指責該公司有性別歧視的意圖。這則廣告的出現，讓人們對於德特羅爾公司的品牌形象產生了質疑。中國政府對於這則廣告的回應仍未明朗。這則廣告的出現，也讓人們開始思考，什麼樣的廣告是適合在中國的市場上推廣的。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cd9246e4",
-        "title": "巴基斯坦人權活動家因在集會上刺殺軍官被判終身監禁",
-        "url": "https://www.bbc.co.uk/news/articles/cpweywvygylo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 14:30:06 GMT",
-        "summary_zh": "巴基斯坦人權活動家馬赫朗·巴洛奇（Mahrang Baloch）被判處終身監禁。馬赫朗·巴洛奇否認在軍官死亡前刺激示威者。這起事件發生在一場集會上，軍官在那裡被刺殺。馬赫朗·巴洛奇被指控在集會上發表煽動性言論，導致軍官死亡。判決結果引發了人權組織和巴基斯坦政府的關注。人權組織批評判決是對人權活動家的打壓，巴基斯坦政府則表示判決是對軍官死亡的正義。這起事件將進一步加劇巴基斯坦的政治緊張局勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6594f699",
-        "title": "澳洲煤炭和天然氣出口違反人權，組織在新案中指控",
-        "url": "https://www.bbc.co.uk/news/articles/cn8q5nx6jw6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 03:55:00 GMT",
-        "summary_zh": "澳洲的一個組織指控，澳洲繼續批准煤炭和天然氣出口而未保護其公民的做法違反人權。根據組織的說法，澳洲政府有責任保護其公民免受氣候變化的影響，而繼續出口煤炭和天然氣卻違反了這一責任。這一案件將在聯合國人權委員會進行審理。氣候變化已經成為全球的一個重大問題，許多國家正努力減少對氣候的影響。澳洲出口的煤炭和天然氣是全球能源消耗的重要來源之一。組織的訴求引發了關於澳洲能源政策的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bbd37d5e",
-        "title": "南韓可能將 stalk 嫌疑人驅逐出境",
-        "url": "https://www.bbc.co.uk/news/articles/c9v2d9edx9wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 23 Jun 2026 03:23:36 GMT",
-        "summary_zh": "一名來自巴西的女性在短短兩個月內，多達 20 次造訪 BTS 成員 Jungkook 的家門口。這名女性被指控為 stalk 嫌疑人，南韓當局正在考慮將她驅逐出境。事件的背景是，該名女性在 Jungkook 的家門口敲門 133 次，引起了當地居民的關注。關鍵細節是，她的行為被視為侵犯 Jungkook 的隱私權。影響分析是，這個事件可能會對 Jungkook 和他的粉絲造成心理壓力。後續展望是，南韓當局將會對該名女性的行為進行進一步調查和處理。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "ai": [
@@ -562,8 +586,8 @@
         "published_at": "2026-06-23T18:28:19-04:00",
         "summary_zh": "Google Home 即將推出更新，改善智能家居攝影機辨識使用者的能力。新功能將允許您標記熟悉臉孔圖庫中的朋友，當他們面朝相機時，系統仍能夠正確辨識。這項功能將於 6 月 23 日開始實施。Google Home 的這項功能將使系統更能夠區分使用者和其他人，尤其是在使用者面朝相機時。這項功能將對於那些經常在家中使用 Google Home 的人來說非常有用。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "111f44f8",
@@ -574,8 +598,8 @@
         "published_at": "2026-06-23T18:03:18-04:00",
         "summary_zh": "近日，Netflix、A24、Focus Features 和 Warner Bros. 的 Clockwork 等公司都已經放棄了對 Luca Guadagnino 執導的新電影《Artificial》進行分銷的合作。該片是以 OpenAI 創辦人兼 CEO Sam Altman 的生平為題材。雖然 Neon 和 Mubi 還在考慮這部電影，但這種情況讓人感覺好萊塢正在屈膝迎接 OpenAI 的影響力。這部電影的放棄導致了對 OpenAI 的關注度大幅增加。許多人認為，這是因為 OpenAI 的技術和影響力正在迅速增長，而好萊塢也在努力跟上這種趨勢。這種情況也引發了對好萊塢和科技業之間關係的討論。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "bf129b61",
@@ -638,18 +662,6 @@
         "ai_classified": true
       },
       {
-        "id": "0844b7af",
-        "title": "Nvidia 表示其 AI 資料中心設計更熱以節省大量水資源",
-        "url": "https://www.theverge.com/tech/954139/nvidia-data-centers-rubin-liquid-cooling",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-06-22T19:24:32-04:00",
-        "summary_zh": "近年來，資料中心的水和能源消耗問題引起了公眾的關注。Nvidia 現在宣稱，其 Rubin 代碼參考設計的完全液冷資料中心設計，已經「消除了大量的電力消耗和幾乎所有的水資源消耗」。儘管如此，這仍然無法解決所有與 AI 資料中心相關的擔憂。資料中心的熱量問題仍然存在，雖然 Nvidia 的設計可以降低熱量，但仍然需要進一步的改進。這項設計的推出也引發了對 AI 資料中心未來發展方向的討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "bb2368a9",
         "title": "科技股大跌　AI投資風險引發擔憂",
         "url": "https://www.bbc.co.uk/news/articles/c802gvxpyxzo?at_medium=RSS&at_campaign=rss",
@@ -676,6 +688,30 @@
     ],
     "stock_us": [
       {
+        "id": "cdc840fd",
+        "title": "韓國記憶體股價暴跌 美晶片股遭拋售波動大",
+        "url": "https://www.cna.com.tw/news/afe/202606240014.aspx",
+        "source": "中央社財經",
+        "category": "stock_us",
+        "published_at": "Wed, 24 Jun 2026 06:29:46 +0800",
+        "summary_zh": "美國晶片類股因韓國記憶體業者大跌而受到衝擊，股價大幅波動，今天收盤多走低。美光與晟碟的跌幅超過13%，英特爾等晶片股也下探。分析師認為，晶片股近期大幅成長，投資人今天雖拋售，但情況仍穩健。這種波動可能是市場對韓國記憶體業者大跌的反應，但投資人仍然對晶片股的長期發展抱持樂觀態度。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b8e42f57",
+        "title": "谷歌在人工智慧時代的霸主地位出現裂縫",
+        "url": "https://www.cnbc.com/2026/06/23/googles-online-dominance-is-showing-signs-of-cracking-in-ai-era.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-23 12:00:01",
+        "summary_zh": "雖然谷歌在華爾街的眼中仍然擁有強大的實力，但人工智慧時代卻使公司的故事變得複雜起來。谷歌的線上霸主地位在人工智慧時代面臨挑戰，其他公司正在努力打破谷歌的壟斷。谷歌的業務面臨著新的競爭對手，包括微軟、亞馬遜和小米等公司。這些公司正在投資人工智慧技術，試圖挑戰谷歌的霸主地位。谷歌的市場份額正在下降，公司的股價也受到影響。這一趨勢可能會持續下去，谷歌的霸主地位可能會出現更大的裂縫。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "7ffd9fda",
         "title": "晶片股下挫 美股收低",
         "url": "https://www.cna.com.tw/news/afe/202606240010.aspx",
@@ -684,6 +720,30 @@
         "published_at": "Wed, 24 Jun 2026 05:21:37 +0800",
         "summary_zh": "美國晶片股近日自歷史高點回落，引起投資人關注。雖然大盤在開盤初期下挫，但吸引逢低買進的投資人進場，進而遏止其他科技公司的跌勢。這些企業近年推動市場上漲，處於人工智慧（AI）基礎設施漲勢的核心。晶片股的下挫可能與市場對於全球經濟下行趨勢的擔憂有關。投資人正在觀察晶片股的表現，以判斷市場的走向。",
         "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c70dc2e4",
+        "title": "耐克試圖透過轉型計畫提升股價，Evercore ISI認為有限的上升空間",
+        "url": "https://www.cnbc.com/2026/06/23/nike-is-trying-to-boost-its-stock-through-a-turnaround-plan-evercore-isi-sees-limited-upside.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-23 11:52:52",
+        "summary_zh": "耐克因為面臨多個挑戰而試圖重整旗鼓，但Evercore ISI對其進行下調評級和價格目標，認為耐克的轉型計畫有限的上升空間。耐克的轉型計畫面臨多個挑戰，包括市場競爭、營運效率和品牌形象等問題。Evercore ISI認為耐克的轉型計畫需要更多時間和資源才能見效。目前，耐克的股價仍然處於下跌趨勢中，投資者對其未來前景存疑。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "e49e5c9a",
+        "title": "摩根士丹利建議投資者買入這家即將反彈的科技股",
+        "url": "https://www.cnbc.com/2026/06/23/morgan-stanley-says-investors-should-scoop-up-this-struggling-tech-stock.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-23 11:10:55",
+        "summary_zh": "摩根士丹利銀行最近對一家硬體和軟體公司進行評級升級，將其評級從「相等重量」提升至「超重量」。這意味著該公司即將反彈，投資者應該趁機買入。摩根士丹利的評級升級是基於該公司的硬體和軟體業務表現良好，市場預期對該公司的估值將上升。然而，投資者應該注意到該公司仍處於困境中，需要密切關注公司的財務狀況和市場趨勢。整體來說，這個評級升級對該公司的股價有著積極的影響，投資者應該趁機買入。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
@@ -696,8 +756,8 @@
         "published_at": "2026-06-23 10:36:27",
         "summary_zh": "投資銀行JPMorgan近日將IBM的評級從中性提升至超重。JPMorgan認為，IBM的軟體業務實力被投資者低估，投資銀行建議投資者買入IBM股票。IBM是一間傳統科技公司，長期以硬體業務為主，但近年來該公司開始轉型為軟體公司，軟體業務的收入佔比逐漸提高。JPMorgan分析師認為，IBM的軟體業務有很大的成長空間，投資者應該重視該公司的軟體業務發展。IBM的股價近期受到市場的關注，投資銀行的評級提升可能會對股價產生正面影響。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c490dcb7",
@@ -708,8 +768,8 @@
         "published_at": "2026-06-23 10:15:44",
         "summary_zh": "美聯儲即將於週三下午4:00（東部時間）公布今年銀行健康檢查的結果。每年一次的銀行健康檢查是美聯儲評估銀行抵禦經濟不確定性風險能力的重要工具。今年的檢查將針對銀行的資本充足度、盈利能力和風險管理等方面進行評估。美聯儲的檢查結果對銀行業的影響非常重要，銀行業的投資者和監管機構都在關注今年的檢查結果。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "22293659",
@@ -736,18 +796,6 @@
         "ai_classified": true
       },
       {
-        "id": "5f30e5f7",
-        "title": "CNBC 日報開市: 技術股大跌或買入機會?",
-        "url": "https://www.cnbc.com/2026/06/23/daily-open-tech-rout-mag7-brexit-anniversary.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-23 06:24:50",
-        "summary_zh": "華爾街交易回歸，與大型科技股大幅下跌同時，全球市場也出現了更廣泛的下跌。這種情況引發了市場的關注，投資者開始思考是否該趁機買入。然而，市場的情緒仍然不穩定，投資者需要謹慎評估風險和機會。這種技術股大跌可能是市場的調整，或者是買入機會的信號。投資者需要密切關注市場的變化，準備好面對未來的挑戰。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "0135159c",
         "title": "科技股與半導體股重挫 美股開跌那斯達克挫2.36%",
         "url": "https://www.cna.com.tw/news/afe/202606230369.aspx",
@@ -760,138 +808,114 @@
         "ai_classified": true
       },
       {
-        "id": "67435026",
-        "title": "早市評論：日元陷入困境",
-        "url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-06-23/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-06-23 04:34:35",
-        "summary_zh": "日元在全球市場中出現了明顯的波動，市場預期美聯儲會在未來幾個月內再次加息，導致美元增強。這使得日元的價值下跌，成為全球市場中最大的贏家。同時，歐洲央行也宣布將在未來幾個月內維持低利率政策，刺激歐洲經濟的復甦。美股市場則預期將在未來幾天內出現波動，受惠於美元增強的公司將受到影響。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e7563515",
-        "title": "CNBC 每日開盤: 美國暫時放寬伊朗石油制裁; 大型科技股轉場",
-        "url": "https://www.cnbc.com/2026/06/23/cnbc-daily-open-us-waives-iran-sanctions-rotation-out-of-megacaps.html",
+        "id": "5f30e5f7",
+        "title": "CNBC 日報開市: 技術股大跌或買入機會?",
+        "url": "https://www.cnbc.com/2026/06/23/daily-open-tech-rout-mag7-brexit-anniversary.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-06-23 01:08:37",
-        "summary_zh": "美國股市昨日出現了一場大型科技股轉場, 這使得標普500指數和納斯達克指數的表現受到影響。雖然美國政府宣布暫時放寬對伊朗石油的制裁, 但這項消息並未能抵消科技股轉場的影響。根據市場分析師的觀察, 美國股市的表現受到科技股轉場的影響, 而這項轉場可能與投資者對於科技股未來成長前景的悲觀情緒有關。投資者正在從大型科技股轉場到其他領域, 這使得市場出現了一定的波動。",
-        "sentiment": "負面",
-        "is_breaking": true,
+        "published_at": "2026-06-23 06:24:50",
+        "summary_zh": "華爾街交易回歸，與大型科技股大幅下跌同時，全球市場也出現了更廣泛的下跌。這種情況引發了市場的關注，投資者開始思考是否該趁機買入。然而，市場的情緒仍然不穩定，投資者需要謹慎評估風險和機會。這種技術股大跌可能是市場的調整，或者是買入機會的信號。投資者需要密切關注市場的變化，準備好面對未來的挑戰。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "b22aa2fa",
-        "title": "能否能源震盪啟動綠色鋼鐵生產?",
-        "url": "https://www.ft.com/content/62426cb8-e60c-462a-b44a-34688f728ee1",
-        "source": "Financial Times",
+        "id": "b616a686",
+        "title": "華倫、凱利兩名民主黨參議員要求川普政府釐清關稅對美國製造業的影響",
+        "url": "https://www.cnbc.com/2026/06/23/trump-tariffs-manufacturing-warren-kelly.html",
+        "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-06-23 11:00:01",
-        "summary_zh": "能源震盪可能會對鋼鐵產業造成重大影響，同時也可能啟動綠色鋼鐵生產的發展。能源成本的提高可能會促使鋼鐵廠家轉向更節能的生產方式，例如使用綠色能源或是采用新的生產技術。這些新技術可能會減少鋼鐵生產過程中的碳排放，從而降低對環境的影響。然而，能源震盪對鋼鐵產業的影響可能會有所不同，取決於各個國家和地區的能源政策和市場情況。綠色鋼鐵生產的發展也可能面臨著許多挑戰，例如高昂的投資成本和技術瓶頸。綠色鋼鐵生產的發展需要政府和企業的共同努力，才能夠實現可持續的鋼鐵生產。",
+        "published_at": "2026-06-23 12:00:01",
+        "summary_zh": "美國民主黨參議員華倫和凱利 Recently, 美國民主黨參議員華倫和凱利發出聲明，要求川普政府釐清關稅對美國製造業的影響。根據華倫和凱利的說法，關稅可能會導致美國製造業的成本上升，進而影響美國的就業市場和經濟增長。華倫和凱利要求川普政府提供關稅對美國製造業的影響分析報告，包括關稅對美國製造業的成本、就業和經濟增長的影響。這項要求是出於對川普政府關稅政策的關注，希望能夠了解關稅對美國經濟的影響。這項事件可能會對美國的經濟政策和製造業發展產生影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "0e9af8ce",
-        "title": "SRL財富歡迎Assetive創始人加入戰略顧問角色",
-        "url": "https://www.reuters.com/press-releases/srl-wealth-welcomes-assetive-founder-alain-van-loo-2026-06-23/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-23 11:00:00",
-        "summary_zh": "SRL財富（SRL Wealth）宣布歡迎Alain Van Loo加入該獨立信託公司，擔任戰略顧問角色。Alain Van Loo是Assetive的創始人，加入SRL財富後將擴展該公司的業務顧問平台，為企業主提供整合性的策略，幫助企業家最大化企業價值並管理財富轉移。這項合作將有助於企業主在財富管理和企業戰略方面取得更好的成果。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "b85e9403",
-        "title": "亞馬遜 Prime Day 購物者計畫等待深度折扣",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-23/amazon-prime-day-shoppers-plan-to-hold-out-for-steep-discounts",
+        "id": "62d05984",
+        "title": "伊朗爭取新油品買家競賽難如登天",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-06-23/iran-s-race-to-secure-new-oil-buyers-won-t-be-easy",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-23 11:00:00",
-        "summary_zh": "亞馬遜 Prime Day 的購物者正在計畫等待深度折扣。根據最新的調查，購物者認為折扣應該至少達到 50% 才會購買。這意味著亞馬遜需要提供更具吸引力的折扣，以滿足消費者的需求。這一趨勢可能會對亞馬遜的銷售和營業額產生重大影響。同時，購物者也越來越重視環境和社會責任，希望企業能夠提供更可持續的產品和服務。亞馬遜需要在折扣和可持續性之間找到平衡，以滿足消費者的需求和期望。",
+        "published_at": "2026-06-23 11:51:42",
+        "summary_zh": "伊朗正面臨著挑戰性的任務，尋求新的油品買家以取代因制裁而失去的市場份額。伊朗的石油產量已經大幅下降，該國的石油出口也因為美國對伊朗的制裁而受到了嚴重影響。伊朗政府正在努力尋找新的買家，以填補因制裁而失去的市場份額。然而，這項任務並不容易，因為伊朗的石油品質不佳，且該國的石油產量也在下降。伊朗需要找到新的買家，並且需要確保這些買家願意購買伊朗的石油。伊朗政府正在與其他國家進行談判，試圖尋找新的買家。然而，這項任務的成功並不確定，伊朗需要面對多種挑戰才能成功。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "edb628aa",
+        "title": "前市開盤最大的股票動態：IBM、Qualcomm、Oracle、Energy Fuels 等",
+        "url": "https://www.cnbc.com/2026/06/23/stocks-making-the-biggest-moves-premarket-ibm-qcom-orcl-uuuu.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-06-23 11:50:14",
+        "summary_zh": "在早盤交易中，IBM、Qualcomm、Oracle、Energy Fuels 等股票表現出來最大的波動。這些股票的價格變動引起了投資者的關注。IBM 的股價在早盤交易中上漲了 2.5%，而 Qualcomm 的股價則下跌了 1.5%。Oracle 的股價在早盤交易中上漲了 1.2%，而 Energy Fuels 的股價則下跌了 4.5%。這些股票的價格變動可能與公司的財務表現、產業趨勢或市場情緒等因素有關。投資者應該密切關注這些股票的動態，以便做出明智的投資決策。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "67f566ff",
-        "title": "英國監管機構對金屬巨頭Sanjeev Gupta旗下GFG聯盟的會計師施加制裁",
-        "url": "https://www.reuters.com/business/uk-regulator-sanctions-auditor-metals-magnate-sanjeev-guptas-gfg-alliance-2026-06-23/",
+        "id": "e6b9df40",
+        "title": "英國人上年度支付 59 億英鎊過少稅款，政府表示",
+        "url": "https://www.reuters.com/world/uk/britons-paid-59-billion-too-little-tax-last-year-government-says-2026-06-23/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-23 10:57:20",
-        "summary_zh": "英國監管機構對金屬巨頭Sanjeev Gupta旗下GFG聯盟的會計師施加制裁。英國監管機構指出，GFG聯盟的會計師未能正確反映公司的財務狀況。這項制裁是對GFG聯盟會計師不當行為的懲罰。GFG聯盟的會計師將面臨嚴厲的懲罰，包括罰款和被禁止從事會計工作。這項制裁將對GFG聯盟的財務狀況產生重大影響。Sanjeev Gupta的GFG聯盟是一家全球性的金屬公司，涉及多個國家的業務。這項制裁將對GFG聯盟的未來發展產生重大影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "50d520e8",
-        "title": "海因肯新任CEO必須讓啤酒銷售再度流暢",
-        "url": "https://www.reuters.com/markets/us/next-heineken-ceo-needs-get-beer-sales-flowing-again-2026-01-13/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-23 10:54:32",
-        "summary_zh": "海因肯啤酒公司新任CEO面臨著挑戰，他必須找到方法讓公司的啤酒銷售再度流暢。海因肯啤酒公司近年來面臨著銷售下滑的問題，市場份額也在減少。新任CEO將會面臨著重振公司形象、改善銷售策略和提升市場競爭力的挑戰。海因肯啤酒公司的銷售下滑是由於多種因素，包括競爭加劇、消費者購買習慣的變化和市場趨勢的變化。新任CEO必須要能夠分析市場趨勢、了解消費者需求和找到適合的銷售策略來讓公司的啤酒銷售再度流暢。這將是一個艱難的任務，但新任CEO必須要能夠成功地完成這個任務來讓公司再度繁榮。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "cca99739",
-        "title": "烏克蘭鐵路費率上漲可能抬高農業成本並將貨物轉移至公路，業界團體表示",
-        "url": "https://www.reuters.com/business/ukraine-rail-tariff-rise-may-lift-farm-costs-shift-cargo-road-lobby-says-2026-06-23/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-23 10:53:43",
-        "summary_zh": "烏克蘭鐵路費率上漲可能對農業產業造成不利影響，農業成本可能上漲。這也可能導致貨物從鐵路轉移到公路，增加公路運輸的負擔。烏克蘭農業產業的代表團體表示，這可能會對農業產業造成長期的負面影響。烏克蘭政府正在考慮鐵路費率上漲的措施，以幫助國家財政。然而，這些措施可能會對農業產業造成不利影響。烏克蘭農業產業的代表團體呼籲政府考慮到農業產業的需求，並採取措施來減少對農業產業的影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "54c40e9b",
-        "title": "加拿大富比士集團購買近 100 億印度債券，來源稱",
-        "url": "https://www.reuters.com/world/india/canadas-fairfax-buys-nearly-1-billion-indian-bonds-rare-move-sources-say-2026-06-23/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-23 10:45:23",
-        "summary_zh": "加拿大富比士集團近日購買了近 100 億印度債券，這是罕見的投資行為。根據來源，富比士集團購買的印度債券總額達到 950 億印度盧比，約合 1.2 億美元。這筆交易表明富比士集團對印度經濟持有樂觀態度。印度政府近期推出了一系列刺激經濟的政策，富比士集團可能是對這些政策有信心的投資者之一。這筆交易也表明印度債券市場正在受到外資的關注。富比士集團的投資行動將對印度債券市場產生影響，可能會帶來新的投資機會。然而，投資者也需要注意風險，印度經濟面臨著多重挑戰，包括通膨和貿易戰等問題。",
+        "published_at": "2026-06-23 11:47:53",
+        "summary_zh": "英國政府最新統計顯示，2022 年英國人支付的稅款少了 59 億英鎊。根據政府的數據，英國人支付的稅款少於預期，政府認為這是因為個人所得稅和公司稅的漏稅。政府表示，這些漏稅主要是由於個人和企業未能正確申報收入和支出。政府還表示，將會採取措施來糾正這些漏稅，並確保稅款的徵收更加公平。這項措施將會對英國的財政產生重大影響，政府將會在未來的財政預算中詳細介紹。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "ff3db8ee",
-        "title": "歐洲央行取得關鍵議會支持推出數位歐元",
-        "url": "https://www.reuters.com/business/finance/ecb-secures-key-parliamentary-backing-digital-euro-2026-06-23/",
-        "source": "Reuters",
+        "id": "76a4f2ae",
+        "title": "特斯拉股東押注太空探索技術合併為實現馬斯克的終極目標",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-23/tesla-stockholders-bet-on-spacex-merger-as-musk-s-real-endgame",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-23 10:27:44",
-        "summary_zh": "歐洲央行週二取得關鍵議會支持，推出數位歐元計畫。數位歐元是一種電子支付手段，旨在減少歐元區對美國信用卡的依賴，尤其是在跨大西洋關係緊張的時候。這項計畫的推出將有助於歐洲央行提高歐元區的支付效率和安全性。然而，仍有許多細節需要進一步討論和落實。歐洲央行的這一步驟表明了對數位支付的承諾和願望，同時也反映了對美國信用卡的依賴的擔憂。",
+        "published_at": "2026-06-23 11:42:35",
+        "summary_zh": "在特斯拉股東的眼中，太空探索技術（SpaceX）可能是馬斯克的終極目標。雖然特斯拉一直是馬斯克的主要財源，但股東們開始懷疑，馬斯克的真正目標是將太空探索技術與特斯拉合併，從而創造出一個龐大的企業集團。這種猜測是基於馬斯克近期對太空探索技術的投資和發展，包括太空探索技術的星際運輸系統和重型火箭的研發。這種合併可能會將太空探索技術的技術和資源與特斯拉的電動汽車和能源業務結合起來，從而創造出一個具有龐大市場潛力的企業集團。然而，這種合併也可能會面臨到許多挑戰和風險，包括資本市場的反應、政府監管和競爭對手的反應。",
         "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "fc9ff9bc",
+        "title": "新興市場股市下跌，韓國股市大幅收跌，貨幣也受影響",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-23/emerging-market-stocks-fall-on-korea-selloff-currencies-weaken",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-23 11:20:58",
+        "summary_zh": "新興市場股市近日出現下跌趨勢，主要原因是韓國股市大幅收跌。韓國股市的下跌影響了整個新興市場股市，導致股價下跌。同時，韓國貨幣也受到了影響，韓元的匯率下跌。這些變化對全球金融市場產生了影響，投資者開始擔心新興市場的未來發展。韓國股市的下跌可能與韓國政府的政策有關，投資者對政府的政策感到擔心。這些變化也使得投資者開始重新評估新興市場的風險和收益。",
+        "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "cdab0821",
-        "title": "歐洲央行數位歐元草案獲歐洲議會委員會通過",
-        "url": "https://www.cna.com.tw/news/aopl/202606230351.aspx",
-        "source": "中央社財經",
+        "id": "e6d2b5b4",
+        "title": "維達納的 CopperTech Metals 預計在美股上市，目標估值達 360 億美元",
+        "url": "https://www.reuters.com/business/finance/vedantas-coppertech-metals-targets-36-billion-valuation-us-ipo-2026-06-23/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "Tue, 23 Jun 2026 21:22:01 +0800",
-        "summary_zh": "歐洲央行的數位歐元草案獲得關鍵性國會支持，目的是降低歐元區對美國信用卡體系的依賴，尤其是在跨大西洋關係日益緊張之際。這項電子支付工具的推出將改善歐元區的支付體系，減少對美國金融系統的依賴。這一發展可能會對歐洲經濟產生一定的影響，尤其是在支付和金融領域。然而，具體的影響還需要進一步觀察和評估。",
+        "published_at": "2026-06-23 11:20:12",
+        "summary_zh": "印度礦業巨頭維達納的 CopperTech Metals 子公司，計劃在美國進行首次公開募股 (IPO)，預計估值達 360 億美元。這家公司專門從事銅和金屬的採礦和加工業務。根據市場傳言，CopperTech Metals 的 IPO 將在今年晚些時候進行，具體時間尚未公布。維達納的 CopperTech Metals 子公司是該公司在印度的重要業務部門之一。這次的 IPO 將為維達納提供額外的資金來加強業務發展和投資。銅價近年來一直保持穩定，銅的需求量也在增加，這使得 CopperTech Metals 的業務發展充滿希望。然而，市場也存在一定的風險和挑戰，包括全球經濟的不確定性和供應鏈的不穩定等。維達納的 CopperTech Metals 子公司將如何應對這些挑戰，將是觀察的焦點。",
         "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "0cbccc8d",
+        "title": "德國基金業界支持梅茲的€30億養老改革",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-23/german-funds-industry-backs-merz-s-30-billion-pension-overhaul",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-23 11:16:19",
+        "summary_zh": "德國基金業界對梅茲的€30億養老改革表示支持。梅茲的改革計畫旨在提高養老金的可投資性，並且將養老金的管理權交給基金管理公司。這項改革計畫將對德國的養老制度產生重大影響。德國基金業界認為，這項改革有助於提高養老金的投資收益，並且能夠更好地應對未來的養老風險。然而，這項改革也面臨著一些挑戰，包括如何平衡養老金的投資收益和風險，以及如何確保基金管理公司的管理能力。德國政府正在積極推動這項改革，並且預計將在未來幾年內實施。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "3440f0aa",
