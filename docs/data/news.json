@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-29T17:06:49.296322+08:00",
+  "generated_at": "2026-06-29T18:04:17.433719+08:00",
   "risk_signals": [
     "🟢 台股加權 44999.9（正常）",
     "🟢 S&P 500 7354.02（正常）",
-    "🟢 VIX 恐慌指數 18.41（正常）",
+    "🟢 VIX 恐慌指數 18.43（正常）",
     "🟢 MOVE 債市波動 66.79（正常）",
-    "🟢 美元指數 101.32（正常）",
-    "🟢 黃金 4066.2（正常）",
+    "🟢 美元指數 101.28（正常）",
+    "🟢 黃金 4047.6（正常）",
     "🟢 美債10Y殖利率 4.37（正常）",
-    "🟢 原油 WTI 70.22（正常）",
-    "🟢 美元/台幣 31.85（正常）"
+    "🟢 原油 WTI 70.61（正常）",
+    "🟢 美元/台幣 31.87（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，各主要指標維持正常水平。目前台股略微上揚，表明投資人對市場仍有信心。",
+  "ai_summary": "市場氛圍穩定，投資風險相對較低，投資人可採取中長線投資策略。",
   "market": {
     "TWII": {
       "price": 44999.9,
@@ -26,8 +26,8 @@
       "change_pct": -0.24
     },
     "VIX": {
-      "price": 18.41,
-      "change_pct": 0.0
+      "price": 18.43,
+      "change_pct": 0.11
     },
     "TNX": {
       "price": 4.37,
@@ -38,209 +38,37 @@
       "change_pct": -0.46
     },
     "DXY": {
-      "price": 101.32,
-      "change_pct": -0.04
+      "price": 101.28,
+      "change_pct": -0.08
     },
     "GOLD": {
-      "price": 4066.2,
-      "change_pct": -0.31
+      "price": 4047.6,
+      "change_pct": -0.76
     },
     "OIL": {
-      "price": 70.22,
-      "change_pct": 1.43
+      "price": 70.61,
+      "change_pct": 1.99
     },
     "USDTWD": {
-      "price": 31.85,
-      "change_pct": -0.04
+      "price": 31.87,
+      "change_pct": 0.03
     }
   },
   "macro": {},
   "categories": {
-    "ai": [
+    "global": [
       {
-        "id": "946d307c",
-        "title": "中國Z.ai宣稱能夠匹敵Mythos在網絡安全領域",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-06-28T17:42:51-04:00",
-        "summary_zh": "中國的智普人工智慧（Z.ai）最近發佈了其開放權重的GLM-5.2模型。一些研究人員宣稱，這個模型在某些漏洞檢測和網絡安全領域能夠匹敵Mythos。雖然GLM在其他更一般性的任務中落後於Anthropic和OpenAI的模型，但似乎中國已經大幅減少了其模型與其他公司模型之間能力的差距。這項發展可能對網絡安全領域產生重大影響。然而，仍需要進一步的研究來確認Z.ai的模型是否真的能夠匹敵Mythos。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "13b10534",
-        "title": "Suno 推出 Spark 設計師培育計劃，為獨立藝術家提供資金、指導和市場推廣支持",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-06-28T16:27:36-04:00",
-        "summary_zh": "Suno recently 宣佈推出 Spark 設計師培育計劃，旨在為獨立藝術家提供資金、指導和市場推廣支持。該計劃將為藝術家提供一系列的資源，包括資金、指導和市場推廣支持。Suno 的目標是成為一個更具價值的平台，不僅僅是為了生產 AI 效果，而是為了幫助新興藝術家。該公司還希望成為一個流媒體目的地，通過 Spark 計劃來實現這一目標。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d51b23ef",
-        "title": "檢方利用ChatGPT記錄作為帕拉迪斯大火審判的證據",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-06-28T10:12:06-04:00",
-        "summary_zh": "帕拉迪斯大火是洛杉磯歷史上最死傷慘重的野火之一，發生於2025年元旦。檢方為了證明Jonathan Rinderknecht犯下縱火罪，除了使用他的iPhone位置資料、安全攝像頭片段和目擊證人證詞外，還利用了他的ChatGPT記錄。檢方表示，Jonathan Rinderknecht在ChatGPT記錄中提到了他在大火發生前幾天曾經在帕拉迪斯地區活動，且他的行為與縱火罪的嫌疑相符。然而，Jonathan Rinderknecht的律師團隊否認檢方的指控，表示ChatGPT記錄並不能證明他犯下縱火罪。這起案件的結果尚待觀察，檢方的新策略是否能夠成功證明縱火罪的嫌疑，將是關鍵的關頭。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "227fcfa6",
-        "title": "人工智慧股是否將進一步波動?",
-        "url": "https://www.ft.com/content/bc8ce24b-b6ed-4e2d-a628-69f30751ce9e",
-        "source": "FT Tech",
-        "category": "ai",
-        "published_at": "Sun, 28 Jun 2026 11:00:10 GMT",
-        "summary_zh": "人工智慧股市場近期出現波動，市場人士對未來發展充滿疑慮。根據市場預測，人工智慧股可能會繼續波動，市場投資者需要謹慎評估風險。人工智慧股的波動可能與多種因素有關，包括政策變化、技術進步和市場需求的變化。投資者需要密切關注人工智慧股市場的發展，準備面對未來的挑戰。人工智慧股的波動可能對投資者造成重大影響，因此需要謹慎投資和風險管理。",
+        "id": "1099b5a9",
+        "title": "巴基斯坦對阿富汗邊境發動猛烈攻擊",
+        "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 08:15:29 GMT",
+        "summary_zh": "巴基斯坦近日對阿富汗邊境發動猛烈攻擊，據巴基斯坦方面表示，這是對「近期針對無辜民眾的恐怖攻擊」的回應。這一行動引發了對巴基斯坦軍事行動的關注，同時也引發了對阿富汗局勢的擔憂。巴基斯坦的軍事行動可能會對阿富汗的安全局勢產生重大影響，同時也可能會對當地的平民造成傷害。這一事件的發展仍在進展中，外界正在密切關注巴基斯坦的行動和阿富汗的反應。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      }
-    ],
-    "stock_tw": [
-      {
-        "id": "fbecb817",
-        "title": "【雁默專欄】台積電將於何時體感「站錯隊」的恐怖？",
-        "url": "https://tw.news.yahoo.com/%E9%9B%81%E9%BB%98%E5%B0%88%E6%AC%84-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%B0%87%E6%96%BC%E4%BD%95%E6%99%82%E9%AB%94%E6%84%9F-%E7%AB%99%E9%8C%AF%E9%9A%8A-%E7%9A%84%E6%81%90%E6%80%96-085340699.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 08:53:40 GMT",
-        "summary_zh": "中國大陸的鎢管制正在悄悄改變全球半導體產業格局。鎢是一種關鍵材料，供應短缺將對台積電產生重大影響。台積電近兩年來的榮景主要來自AI產業，但鎢管制的影響可能會改變這個格局。鎢的供應短缺將導致半導體產業的成本上升，對台積電的影響可能在未來幾年內出現。台積電需要儘快找到替代材料或減少鎢的使用量，以避免未來的風險。這個問題對於全球半導體產業的發展具有重要意義，需要關注和監測。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
       },
-      {
-        "id": "d4d1d910",
-        "title": "台股還會再漲嗎？元大投信董座：高檔震盪更要做好\"1件事\"",
-        "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%82%84%E6%9C%83%E5%86%8D%E6%BC%B2%E5%97%8E%EF%BC%9F%E5%85%83%E5%A4%A7%E6%8A%95%E4%BF%A1%E8%91%A3%E5%BA%A7%EF%BC%9A%E9%AB%98%E6%AA%94%E9%9C%87%E7%9B%AA%E6%9B%B4%E8%A6%81%E5%81%9A%E5%A5%BD%E3%80%8C1%E4%BB%B6%E4%BA%8B%E3%80%8D-085201242.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 08:52:01 GMT",
-        "summary_zh": "台股今（29）日強勢反彈，終場大漲428點，以44,999點作收，距離4萬5千點整數關卡僅一步之遙。元大投信董事長劉宗聖認為，台股歷經這一波大漲後，高檔震盪將是市場的關鍵。劉宗聖強調，投資人在面對高檔震盪時，需要做好「1件事」，那就是要做好風險管理。劉宗聖表示，投資人需要謹慎評估風險，避免過度投入市場，同時也需要保持耐心和冷靜。劉宗聖認為，台股的短期走勢將受到全球經濟和政治環境的影響，投資人需要密切關注國際市場的變化。劉宗聖表示，投資人需要做好準備，面對未來的挑戰和機會。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "aeb3ffcd",
-        "title": "三大法人僅買單31.5億！台股就差0.1點收復4萬5大關 股民：小兒越賣越不對勁",
-        "url": "https://tw.stock.yahoo.com/news/%E4%B8%89%E5%A4%A7%E6%B3%95%E4%BA%BA%E5%83%85%E8%B2%B7%E5%96%AE31-5%E5%84%84-%E5%8F%B0%E8%82%A1%E5%B0%B1%E5%B7%AE0-1%E9%BB%9E%E6%94%B6%E5%BE%A94%E8%90%AC5%E5%A4%A7%E9%97%9C-%E8%82%A1%E6%B0%91-083500424.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 08:35:00 GMT",
-        "summary_zh": "台股加權指數今日（29日）一度衝破4萬5大關，但隨後有所收斂，最終以44999.9點作收，僅差最後一哩路，上漲428.14點。三大法人今日僅買入31.5億元，股民則擔心小兒股票的走勢越來越不穩定。市場分析師表示，台股的上漲主要是由於資金流入和市場情緒的改善。然而，股民仍然擔心市場的波動性，認為小兒股票的價格越來越不穩定。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "cbcf9353",
-        "title": "台積電股價止跌！瑞銀上調最新目標價",
-        "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%82%A1%E5%83%B9%E6%AD%A2%E8%B7%8C-%E7%91%9E%E9%8A%80%E4%B8%8A%E8%AA%BF%E6%9C%80%E6%96%B0%E7%9B%AE%E6%A8%99%E5%83%B9-082156244.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 08:21:56 GMT",
-        "summary_zh": "台積電周一股價略微反彈，結束自2535元高點的跌勢，收盤來到2370元。瑞銀上調了台積電的目標價，由原先的3000元調高至3400元，並給予買入評級。這一調整反映了瑞銀對台積電未來發展的樂觀態度。台積電的股價反彈可能與市場對於全球晶片需求的樂觀預期有關。然而，市場仍然面臨著多種風險，包括全球經濟的不確定性和技術競爭的加劇。瑞銀的上調目標價可能會對台積電的股價帶來正面影響，但投資者仍應該保持謹慎的態度。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "b9049218",
-        "title": "新台幣匯價週一由貶翻升收31.845元，台股走強與亞幣反彈提供支撐",
-        "url": "https://tw.stock.yahoo.com/news/%E6%96%B0%E5%8F%B0%E5%B9%A3%E5%8C%AF%E5%83%B9%E9%80%B1-%E7%94%B1%E8%B2%B6%E7%BF%BB%E5%8D%87%E6%94%B631-845%E5%85%83-%E5%8F%B0%E8%82%A1%E8%B5%B0%E5%BC%B7%E8%88%87%E4%BA%9E%E5%B9%A3%E5%8F%8D%E5%BD%88%E6%8F%90%E4%BE%9B%E6%94%AF%E6%92%90-080913909.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 08:09:13 GMT",
-        "summary_zh": "台北外匯市場週一新台幣兌美元匯價走強，市場對於通膨的憂慮反覆，美元指數上週五下跌後，部分亞洲貨幣週一趁勢走強，台幣也在其列。同時，台股表現穩健，加權指數收漲0.96%，也給予台幣匯價提供支撐。新台幣兌美元匯價週一由31.87元貶到31.845元，表現出來的走強是市場對於美元指數下跌的反應。市場分析師認為，美元指數的下跌是因為市場對於美聯儲加息的預期下降，同時，部分亞洲貨幣也趁勢走強。台幣的走強也給予市場信心，台股的穩健表現也給予台幣匯價提供支撐。市場預期，新台幣兌美元匯價將會繼續走強，同時，市場也會關注美聯儲的政策變化。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a2c47ca2",
-        "title": "永豐銀參與國發會推動的美國投資融資保證計畫",
-        "url": "https://www.cna.com.tw/news/afe/202606290172.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 14:53:39 +0800",
-        "summary_zh": "國發會推動了赴美投資融資保證計畫，永豐銀董事會通過決議，出資2500萬美元參與此計畫。計畫的目標是透過與政府攜手合作，提供最高5成融資保證，幫助台灣企業取得營運資金並拓展海外版圖。這項計畫將利用金融力量，支持台灣企業順利地取得營運資金，進而促進企業的發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "133c491d",
-        "title": "台股高檔震盪 投信推多重資產基金",
-        "url": "https://www.cna.com.tw/news/afe/202606290165.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 14:46:24 +0800",
-        "summary_zh": "台股連3年上漲超過2成，今年氣勢如虹，但創高後震盪加劇。為了讓投資人保有成長潛力同時控管下檔風險，包括元大投信、富邦投信等投信最近密集推出多重資產基金。這些基金主打股、債、ETF平衡配置，將於7月初接力開募。投資人可以透過這些基金來分散風險，同時享受投資的成長潛力。這項措施旨在幫助投資人在市場波動中保持穩定，同時也提供了一種投資平衡配置的選擇。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "29125462",
-        "title": "台股收漲428點 成交值創2個月新低",
-        "url": "https://www.cna.com.tw/news/afe/202606290162.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 14:35:18 +0800",
-        "summary_zh": "台股上週五遭遇重挫，跌破月線，今天台股展現反彈力，盤中漲近千點，高點達45521.63點，超越月線45355點。雖然漲勢在後期收斂，但仍然成功收漲428點，創下近期的新高。然而，今天的成交值卻創下2個月的新低，顯示市場的波動仍然十分劇烈。這次的反彈可能是市場對上週五的重挫感到不滿，希望能夠恢復市場的信心。然而，市場的未來走向仍然充滿不確定性，投資者需要繼續關注市場的動態。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "17aa9152",
-        "title": "外國客來台只玩雙北？賴正鎰：盼設5大度假特區",
-        "url": "https://www.cna.com.tw/news/afe/202606290151.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 14:11:52 +0800",
-        "summary_zh": "賴正鎰表示，國際住宿客近7成集中在雙北地區，希望政府推動5大國際觀光度假特區的計畫。這些特區將由中央地方聯手整合土地、交通、飯店、娛樂、文化與招商，吸引外國遊客來台留宿並持續消費。這項計畫的目標是帶動兆元級的觀光經濟。賴正鎰認為，設立這些度假特區可以幫助台灣吸引更多的外國遊客，增加觀光收入並促進地方經濟的發展。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6bc8c085",
-        "title": "7月電子期金融期齊漲",
-        "url": "https://www.cna.com.tw/news/afe/202606290150.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 14:10:50 +0800",
-        "summary_zh": "台北股市今天上漲428.14點，收44999.9點。電子期金融期也齊漲，7月電子期收2935點，上漲64.9點，正價差46.16點；7月金融期收3097點，上漲3點，逆價差24.88點。這些數據表明，市場對電子和金融領域的投資意欲增強。然而，市場的波動仍然存在，投資者需要保持謹慎的態度。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "83c6e434",
-        "title": "7月台股期指漲1098點",
-        "url": "https://www.cna.com.tw/news/afe/202606290148.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 14:08:45 +0800",
-        "summary_zh": "台北股市今天終場漲428.14點，收44999.9點。7月台指期以45550點作收，上漲1098點，與現貨相較，正價差550.1點。這一波上漲是由於投資者對市場的信心增加，相信未來經濟將會有所改善。然而，市場的波動仍然存在，投資者需要保持謹慎。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "global": [
       {
         "id": "aa82f398",
         "title": "布倫漢承諾大幅度地方自治以爭取英國首相職位",
@@ -250,8 +78,80 @@
         "published_at": "2026-06-28 21:00:00",
         "summary_zh": "英國保守黨領袖布倫漢在競選英國首相時，承諾推動大幅度地方自治。這一措施旨在將權力從倫敦轉移到地方政府，讓地方領導人有更多的自主權。布倫漢認為，這將使地方政府更能夠應對當地的需求和挑戰。這一承諾被視為布倫漢競選策略的一部分，旨在吸引支持者並爭取選民的選票。然而，對於這一措施的具體內容和影響，仍有許多疑問。一些批評者認為，這將導致地方政府的資源分散和效率降低。另一方面，支持者則認為，這將使地方政府更能夠有效地服務於當地居民。整體而言，這一承諾將對英國的政治格局和地方政府的運作產生重大影響。",
         "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cdb72bc0",
+        "title": "印度記者譴責「否認」知名編輯投票和護照權利",
+        "url": "https://www.bbc.co.uk/news/articles/cpv37jwd3zzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 07:58:42 GMT",
+        "summary_zh": "印度記者們譴責政府否認知名編輯拉賈戈帕爾（Rajagopal）投票和護照權利。拉賈戈帕爾指控，政府刪除了他的選民登記資料，導致他無法更新護照。這一事件引發了印度媒體界的強烈譴責，批評政府侵犯了新聞自由和人權。拉賈戈帕爾是一位資深的印度記者和編輯，他曾經在多家媒體工作過。政府的行動被視為對新聞自由的打壓，引發了社會和媒體界的關注。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "577ceb71",
+        "title": "南韓足球教練辭職　總統要求調查世界盃失利",
+        "url": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 07:18:14 GMT",
+        "summary_zh": "南韓足球代表隊在世界盃中未能晉級八強，教練因此辭職。南韓總統要求調查球隊在世界盃的表現，了解失利的原因。南韓在世界盃的表現令人失望，球隊在小組賽中取得兩勝一負的成績，但在淘汰賽中未能取得勝利，最終被淘汰。教練的辭職是球隊失利的直接結果，總統要求調查以確保未來的球隊表現能夠改善。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "65df2495",
+        "title": "美國中東部即將迎來嚴重的熱浪和濕度高漲",
+        "url": "https://www.theguardian.com/us-news/2026/jun/28/heatwave-humidity-fourth-of-july-weather",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 28 Jun 2026 20:53:29 GMT",
+        "summary_zh": "美國國家氣象局預測，近期將出現一波嚴重的熱浪，影響範圍將橫跨中東部和東部地區，高溫將在第四七日假期和世界盃前大幅上升，同時伴隨著高濕度。目前，美國西南部和南部地區已經出現高溫，達到攝氏38度，氣象局警告西部地區將出現嚴重的野火風險。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0ba3bd42",
+        "title": "韓國公布 8800 億美元晶片和 AI 投資計畫",
+        "url": "https://www.bbc.co.uk/news/articles/c9q2pwzngjqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 08:55:29 GMT",
+        "summary_zh": "韓國政府近日公布了一項 8800 億美元的晶片和人工智慧投資計畫。這項計畫旨在加強韓國在全球晶片和 AI 界的競爭力。然而，這項計畫的出現也引發了對韓國是否能夠與其他地區競爭的疑問。根據報告，韓國的競爭對手如台灣、中國和日本都已經在晶片和其他技術領域投入大量資金。韓國政府認為，這項投資計畫將幫助韓國企業在全球市場上佔據重要地位。然而，投資計畫的具體細節尚未公布，投資將如何分配以及投資效益如何仍待觀察。這項計畫的出現也引發了對韓國經濟未來發展的關注。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
+      },
+      {
+        "id": "119e37c6",
+        "title": "澳洲男子被控謀殺罪，泰國發現一名17歲女孩屍體藏在行李箱內",
+        "url": "https://www.bbc.co.uk/news/articles/cd0my5zy821o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 01:58:29 GMT",
+        "summary_zh": "泰國警方表示，17歲少女童Tunchanok Donhomla的屍體被發現，藏在一箱行李箱內，近距離靠近鐵路軌道。警方表示，這名少女童的屍體被發現於週六，相關案件正在調查中。目前，警方已經逮捕了一名澳洲男子，對其提起謀殺罪名。這名男子的身份尚未公開。警方表示，正在調查案件的相關細節，包括案發原因和相關證據。這起案件引起了社會的關注，泰國政府也已經介入調查。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "263a0e79",
+        "title": "三名消防員在烏塔州-科羅拉多州大火中喪生, 兩人受傷",
+        "url": "https://www.theguardian.com/us-news/2026/jun/28/firefighter-deaths-utah-colorado-wildfires",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 28 Jun 2026 16:43:26 GMT",
+        "summary_zh": "美國西部地區正在遭受大規模的野火侵襲, 美國野火服務機構在週日宣布, 三名消防員在烏塔州和科羅拉多州的邊界處應對大火時喪生, 兩名消防員受傷。該機構指出, 這三名消防員是在週六參與聯合應對諾爾斯和戈爾大火的任務。諾爾斯和戈爾大火是西部地區正在進行的兩個大型野火之一, 美國野火服務機構正在與地方政府合作, 對這些大火進行應對和防止。這次事件的發生, 使得美國西部地區的野火防控工作更加困難, 美國政府將會繼續對這些大火進行應對和防止工作。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "fd6dedec",
@@ -290,30 +190,6 @@
         "ai_classified": true
       },
       {
-        "id": "1099b5a9",
-        "title": "巴基斯坦對阿富汗邊境發動猛烈攻擊",
-        "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 08:15:29 GMT",
-        "summary_zh": "巴基斯坦近日對阿富汗邊境發動猛烈攻擊，據巴基斯坦方面表示，這是對「近期針對無辜民眾的恐怖攻擊」的回應。這一行動引發了對巴基斯坦軍事行動的關注，同時也引發了對阿富汗局勢的擔憂。巴基斯坦的軍事行動可能會對阿富汗的安全局勢產生重大影響，同時也可能會對當地的平民造成傷害。這一事件的發展仍在進展中，外界正在密切關注巴基斯坦的行動和阿富汗的反應。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "577ceb71",
-        "title": "南韓足球教練辭職　總統要求調查世界盃失利",
-        "url": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 07:18:14 GMT",
-        "summary_zh": "南韓足球代表隊在世界盃中未能晉級八強，教練因此辭職。南韓總統要求調查球隊在世界盃的表現，了解失利的原因。南韓在世界盃的表現令人失望，球隊在小組賽中取得兩勝一負的成績，但在淘汰賽中未能取得勝利，最終被淘汰。教練的辭職是球隊失利的直接結果，總統要求調查以確保未來的球隊表現能夠改善。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "68b1086f",
         "title": "歐洲高溫熱浪致1,300人喪生，世衛組織警告歐洲未準備好面對高溫",
         "url": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss",
@@ -331,7 +207,7 @@
         "url": "https://www.bbc.co.uk/news/articles/c9v2x700l8vo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Mon, 29 Jun 2026 08:30:24 GMT",
+        "published_at": "Mon, 29 Jun 2026 09:46:08 GMT",
         "summary_zh": "南非一名高級警官，負責犯罪情報的副總監Maj-Gen Feroz Khan，正面臨著警方腐敗醜聞的調查。根據消息，他本週預計出席調查會議。雖然具體的刺殺事件細節尚未公布，但這一事件引發了對南非警方腐敗問題的關注。南非警方腐敗問題已經存在多年，對於國家安全和社會穩定造成了重大影響。這一刺殺事件可能是警方腐敗問題的又一例證。南非政府應該加強對警方腐敗問題的調查和打擊，確保警方的誠信和效率。",
         "sentiment": "負面",
         "is_breaking": true,
@@ -345,18 +221,6 @@
         "category": "global",
         "published_at": "Sun, 28 Jun 2026 15:42:01 GMT",
         "summary_zh": "沙烏地阿拉伯一架屬於國有石油巨頭阿拉伯石油公司 (Aramco) 的直升機在當地墜毀，造成 14 人罹難。事故原因正由當局調查中。這宗意外發生在沙烏地阿拉伯的石油產業中，該國石油業一直是全球重要的能源供應國。該國石油產業的安全問題一直是關注的焦點，尤其是在近年來石油價格波動的背景下。這宗事故的發生可能會對沙烏地阿拉伯的石油產業產生一定的影響，同時也會引起對該國石油業安全問題的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "119e37c6",
-        "title": "澳洲男子被控謀殺罪，泰國發現一名17歲女孩屍體藏在行李箱內",
-        "url": "https://www.bbc.co.uk/news/articles/cd0my5zy821o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 01:58:29 GMT",
-        "summary_zh": "泰國警方表示，17歲少女童Tunchanok Donhomla的屍體被發現，藏在一箱行李箱內，近距離靠近鐵路軌道。警方表示，這名少女童的屍體被發現於週六，相關案件正在調查中。目前，警方已經逮捕了一名澳洲男子，對其提起謀殺罪名。這名男子的身份尚未公開。警方表示，正在調查案件的相關細節，包括案發原因和相關證據。這起案件引起了社會的關注，泰國政府也已經介入調查。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -383,202 +247,6 @@
         "summary_zh": "烏干達當前正處於政治動盪之中。軍方總長最近下令關閉該國兩家主要媒體，包括電視台 NTV 和報紙 Daily Monitor。這兩家媒體表示，軍方已經包圍了他們的總部，限制了他們的活動。這一行動引起了國際社會的關注，許多人擔心這可能是對新聞自由的侵犯。烏干達政府一直被批評為對新聞自由不友好，近年來有多起新聞工作者被拘留或驅逐出境。這一事件可能會對烏干達的民主發展造成重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "65df2495",
-        "title": "美國中東部即將迎來嚴重的熱浪和濕度高漲",
-        "url": "https://www.theguardian.com/us-news/2026/jun/28/heatwave-humidity-fourth-of-july-weather",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 28 Jun 2026 20:53:29 GMT",
-        "summary_zh": "美國國家氣象局預測，近期將出現一波嚴重的熱浪，影響範圍將橫跨中東部和東部地區，高溫將在第四七日假期和世界盃前大幅上升，同時伴隨著高濕度。目前，美國西南部和南部地區已經出現高溫，達到攝氏38度，氣象局警告西部地區將出現嚴重的野火風險。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "263a0e79",
-        "title": "三名消防員在烏塔州-科羅拉多州大火中喪生, 兩人受傷",
-        "url": "https://www.theguardian.com/us-news/2026/jun/28/firefighter-deaths-utah-colorado-wildfires",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 28 Jun 2026 16:43:26 GMT",
-        "summary_zh": "美國西部地區正在遭受大規模的野火侵襲, 美國野火服務機構在週日宣布, 三名消防員在烏塔州和科羅拉多州的邊界處應對大火時喪生, 兩名消防員受傷。該機構指出, 這三名消防員是在週六參與聯合應對諾爾斯和戈爾大火的任務。諾爾斯和戈爾大火是西部地區正在進行的兩個大型野火之一, 美國野火服務機構正在與地方政府合作, 對這些大火進行應對和防止。這次事件的發生, 使得美國西部地區的野火防控工作更加困難, 美國政府將會繼續對這些大火進行應對和防止工作。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7407b267",
-        "title": "特朗普新西半球政策面臨考驗：美軍在委內瑞拉發生地震後提供援助",
-        "url": "https://www.theguardian.com/us-news/2026/jun/28/venezuelan-earthquakes-test-trumps-new-western-hemisphere-policy-after-gutting-of-usaid",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 28 Jun 2026 09:32:47 GMT",
-        "summary_zh": "委內瑞拉近日發生兩次地震，成為美國在西半球實施新政策的考驗。美國政府正努力提供有效的災難應對任務，該任務將由國務卿馬可·魯比奧領導。美國政府在今年一月將委內瑞拉總統馬杜羅推翻後，委內瑞拉成為美國在拉丁美洲的盟友。美國國務院派出三支專門的城市搜救隊伍，並承諾提供 1.5 億美元的援助基金。這是美國政府對委內瑞拉地震的快速和有效的回應。這次地震考驗了美國在西半球的新政策，也考驗了美國政府的應對能力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "stock_us": [
-      {
-        "id": "a66832e4",
-        "title": "我們在未來一周內關注的三大股市事件",
-        "url": "https://www.cnbc.com/2026/06/28/here-are-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead-.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-28 13:30:51",
-        "summary_zh": "即將到來的一周將是就業市場的關鍵週期，Nike 將發布關鍵的財務報告，而一項長期等待的分拆也將完成。就業市場的數據將是投資者關注的焦點，Nike 的財務報告將提供關於該公司財務狀況的重要線索，而分拆事件將對相關公司產生影響。這些事件將對股市產生重要影響，投資者應該密切關注這些發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d90cebbc",
-        "title": "華爾街頂尖分析師看好這 3 股票長期成長潛力",
-        "url": "https://www.cnbc.com/2026/06/28/top-analysts-bullish-on-these-stocks-for-long-term-growth-potential.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-28 12:29:57",
-        "summary_zh": "在全球市場波動的情況下，頂尖分析師可以幫助投資者忽略短期的噪音，選擇具有長期成長潛力的股票。根據最新的研究報告，華爾街頂尖分析師看好三家公司的股票，包括 [公司名 1]、[公司名 2] 和 [公司名 3]。這些公司都有強大的長期成長潛力，分析師們認為投資者應該關注這些股票。雖然短期市場波動可能會影響投資者的投資決策，但頂尖分析師的評估可以幫助投資者看清長期的發展趨勢。這些股票的長期成長潛力使得投資者有機會獲得豐厚的回報。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "aca1daa0",
-        "title": "摩根士丹利稱鹽是新一代石油。這是為什麼，以及如何投資鹽業",
-        "url": "https://www.cnbc.com/2026/06/28/morgan-stanley-says-salt-is-the-new-oil-heres-why-and-how-to-play-it.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-28 12:19:35",
-        "summary_zh": "摩根士丹利最新報告指出，鹽在未來可能會成為如同石油一樣稀缺的資源。原因是，隨著鈉離子電池的需求大幅增加，鹽的需求也會跟著上升。鈉離子電池是一種新型電池技術，正在快速發展中。它們的優點在於成本低廉、性能優良、環境友好等。摩根士丹利認為，鹽的價格可能會因為這種需求增加而上升。投資者可以通過投資鹽礦或鹽生產公司來投資鹽業。這種投資可能會帶來高回報，但也存在風險。投資者需要仔細評估鹽業的發展前景和風險，才能做出明智的投資決策。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "ff8bd0de",
-        "title": "美聯儲官員警告高通膨，但見到減少壓力的跡象",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-28/fed-s-barkin-warns-of-high-inflation-but-sees-signs-of-relief",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-28 20:18:37",
-        "summary_zh": "美聯儲官員 Barkin 警告全球經濟仍面臨高通膨的風險，但同時表示出現一些減少壓力的跡象。根據最近的數據，美國的通膨率雖然仍然高，但已經開始下降。Barkin 表示，美聯儲正在密切關注通膨情況，並將採取適當措施來維持經濟穩定。這一消息對於投資者和企業來說具有重要意義，因為它可能影響未來的經濟政策和投資決策。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "ac5031f5",
-        "title": "如果你認為中國需要推翻美元，代表你對全球貨幣戰爭的理解不足",
-        "url": "https://www.cnbc.com/2026/06/28/china-doesnt-need-to-de-throne-dollar-to-win-global-currency-war.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-06-28 13:25:43",
-        "summary_zh": "近年來，中國一直在努力減少對美元的依賴，轉而發展自己的貨幣體系。這一轉變並不意味著中國要取代美元成為全球的主流貨幣，而是中國正在進行一場貨幣戰爭，試圖打破美元的霸權。中國的這一策略是成功的，已經開始減少對美元的依賴。這一發展對全球金融格局的影響將是深遠的。中國的這一行動也會對美元的價值產生影響，美元的價值可能會下降。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "88430564",
-        "title": "耐克 CFO 選擇揭示財務招聘趨勢",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-06-28/what-nike-s-cfo-pick-says-about-finance-hiring-nke-pfe-amvo",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-28 20:00:02",
-        "summary_zh": "耐克近期宣布任命新財務長，該選擇被視為公司財務招聘趨勢的重要指標。新任財務長的背景和經歷將對公司未來的財務策略和投資方向產生重要影響。該選擇也反映了公司對於財務人才的需求和評估標準。分析人士認為，耐克的財務招聘趨勢可能會對整個產業產生影響。同時，該選擇也會對公司的股價和投資者信心產生影響。整體而言，耐克的財務招聘趨勢將對公司未來的發展產生重要影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "877ab690",
-        "title": "威廉姆斯與Momentum Midstream就$5.5億美元交易展開談判，布隆伯格報導",
-        "url": "https://www.reuters.com/legal/transactional/williams-talks-55-billion-deal-momentum-midstream-bloomberg-news-reports-2026-06-28/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-28 19:19:00",
-        "summary_zh": "美國能源公司威廉姆斯正在與Momentum Midstream進行$5.5億美元的交易談判，布隆伯格報導指出。這項交易將使威廉姆斯擁有Momentum Midstream的管道網絡，進一步鞏固其在美國能源市場的領導地位。Momentum Midstream是一家專門從事管道運輸和儲存的公司，該公司的管道網絡遍佈美國各地。這項交易的完成將對美國能源市場產生重大影響，同時也將對威廉姆斯的業務發展產生重要的推動作用。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fa24c0df",
-        "title": "紐西蘭元面臨第三季度挑戰",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-28/new-zealand-dollar-faces-tough-third-quarter-on-growth-headwinds",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-28 19:00:00",
-        "summary_zh": "紐西蘭元面臨第三季度的挑戰，原因是美元的回升以及伊朗戰爭對能源的影響仍在持續，讓紐西蘭的經濟恢復受到阻礙。這些因素將對紐西蘭的經濟成長造成影響，可能導致紐西蘭元的貶值。紐西蘭的經濟已經在過去的兩個季度經歷了一定的恢復，但第三季度可能會是挑戰的時期。外界預測紐西蘭元將面臨不利的市場情況，可能會導致經濟成長放緩。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1fc47904",
-        "title": "百度子公司 Kunlunxin 計劃在香港上市，目標融資 50 億美元",
-        "url": "https://www.reuters.com/world/asia-pacific/baidus-ai-chip-unit-kunlunxin-targets-50-billion-hong-kong-ipo-information-2026-06-28/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-28 18:19:43",
-        "summary_zh": "百度旗下子公司 Kunlunxin 計劃在香港進行 50 億美元的首次公開募股 (IPO)，這項消息由 The Information 報導。Kunlunxin 是百度的 AI 芯片業務單位，負責開發和生產 AI 芯片。這項 IPO 將是百度在全球範圍內的最大融資活動，展現了其在 AI 芯片領域的雄心和野心。這項融資將幫助 Kunlunxin 繼續發展其 AI 芯片業務，並進一步鞏固其在全球市場的競爭力。這項消息對於 AI 芯片業界的發展和未來走向具有重要影響，值得關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7050710d",
-        "title": "比特幣太無聊了。讓我們來看看人工智慧、太空和JGB代幣！",
-        "url": "https://www.bloomberg.com/opinion/articles/2026-06-28/bitcoin-is-boring-bring-on-ai-space-and-jgb-tokens",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-28 18:00:15",
-        "summary_zh": "近日，一位知名投資者表示，比特幣已經太無聊了。他認為，投資者應該轉向更具潛力的領域，如人工智慧、太空和日本政府公債（JGB）代幣。這位投資者認為，這些領域的發展潛力遠超過比特幣。人工智慧的應用在各行各業越來越廣泛，太空探索的前景也越來越明朗，而JGB代幣則可以提供穩定的投資收益。投資者們正在逐漸轉向這些領域，尋找新的投資機會。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f8453508",
-        "title": "威廉斯即將收購Momentum Midstream 550億美元交易接近完成",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-28/williams-said-to-near-5-5-billion-deal-for-momentum-midstream",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-28 18:00:00",
-        "summary_zh": "據報導，威廉斯公司即將收購Momentum Midstream的資產，交易總額達到550億美元。這項交易將使威廉斯公司進一步擴展其在能源領域的業務。Momentum Midstream是一家中型能源公司，主要從事天然氣和石油的傳輸和儲存業務。這項交易的完成將對能源市場產生重大影響，同時也將為威廉斯公司帶來新的業務機會。然而，交易的具體細節尚未公佈，相關的具體信息將在未來的公告中公佈。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "94521ccb",
-        "title": "尼日利亞反壟斷機構警告燃油價格下降速度不夠快",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-28/nigeria-antitrust-body-warns-fuel-prices-not-falling-fast-enough",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-28 17:42:36",
-        "summary_zh": "尼日利亞反壟斷機構最近發出警告，指出燃油價格下降速度不夠快。根據尼日利亞反壟斷機構的數據，燃油價格自 2022 年 7 月以來一直在上漲。尼日利亞反壟斷機構認為，燃油價格下降速度不夠快，對於消費者來說是一個負面影響。尼日利亞政府在 2022 年 7 月宣布降低燃油價格，但自那以來，燃油價格一直在上漲。尼日利亞反壟斷機構認為，燃油價格下降速度不夠快，對於尼日利亞經濟的發展有著重要影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3b462704",
-        "title": "普京承認俄羅斯燃料短缺，成立任務小組確保供應",
-        "url": "https://www.reuters.com/business/energy/russias-putin-acknowledges-fuel-shortages-task-force-set-up-ensure-supplies-2026-06-28/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-28 17:24:01",
-        "summary_zh": "俄羅斯燃料短缺問題日益嚴重，俄羅斯總統普京最近承認這一問題，並成立了一個任務小組來確保燃料供應。根據俄羅斯政府的說法，這個任務小組將負責調查和解決燃料短缺問題，確保俄羅斯的經濟運作順暢。燃料短缺問題對俄羅斯的經濟和人民生活造成了重大影響，俄羅斯政府正努力解決這一問題。這個任務小組的成立表明俄羅斯政府對燃料短缺問題的重視和對人民生活的關心。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       }
     ],
@@ -665,6 +333,374 @@
         "summary_zh": "美國的創建神話正逐漸崩潰，自由與民主的光環被金錢與權力的污染所取代。隨著第一場世界大戰的爆發，著名思想家Randolph Bourne在戰爭的混亂中寫道，美國革命的遺產是一個醜陋的婚姻，結合了城市資本家和種植園主的權力。自由與民主的光環，被金錢計數者和人頭產業的主人所污染。美國的領導人，像唐納德·川普這樣的腐敗和無能的領導人，似乎證實了這個判斷。250年來，美國獨立宣言的周年紀念日，正是這個時代的象徵。這個時代被市場狂熱、戰爭機器、驅逐移民的瘋狂和本土主義情緒所定義，與Bourne的時代相似，是社會分裂、道德失敗和霸權崩潰的時代，理性被用來為自己的利益服務。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "ai": [
+      {
+        "id": "946d307c",
+        "title": "中國Z.ai宣稱能夠匹敵Mythos在網絡安全領域",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-28T17:42:51-04:00",
+        "summary_zh": "中國的智普人工智慧（Z.ai）最近發佈了其開放權重的GLM-5.2模型。一些研究人員宣稱，這個模型在某些漏洞檢測和網絡安全領域能夠匹敵Mythos。雖然GLM在其他更一般性的任務中落後於Anthropic和OpenAI的模型，但似乎中國已經大幅減少了其模型與其他公司模型之間能力的差距。這項發展可能對網絡安全領域產生重大影響。然而，仍需要進一步的研究來確認Z.ai的模型是否真的能夠匹敵Mythos。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "13b10534",
+        "title": "Suno 推出 Spark 設計師培育計劃，為獨立藝術家提供資金、指導和市場推廣支持",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-28T16:27:36-04:00",
+        "summary_zh": "Suno recently 宣佈推出 Spark 設計師培育計劃，旨在為獨立藝術家提供資金、指導和市場推廣支持。該計劃將為藝術家提供一系列的資源，包括資金、指導和市場推廣支持。Suno 的目標是成為一個更具價值的平台，不僅僅是為了生產 AI 效果，而是為了幫助新興藝術家。該公司還希望成為一個流媒體目的地，通過 Spark 計劃來實現這一目標。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d51b23ef",
+        "title": "檢方利用ChatGPT記錄作為帕拉迪斯大火審判的證據",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-28T10:12:06-04:00",
+        "summary_zh": "帕拉迪斯大火是洛杉磯歷史上最死傷慘重的野火之一，發生於2025年元旦。檢方為了證明Jonathan Rinderknecht犯下縱火罪，除了使用他的iPhone位置資料、安全攝像頭片段和目擊證人證詞外，還利用了他的ChatGPT記錄。檢方表示，Jonathan Rinderknecht在ChatGPT記錄中提到了他在大火發生前幾天曾經在帕拉迪斯地區活動，且他的行為與縱火罪的嫌疑相符。然而，Jonathan Rinderknecht的律師團隊否認檢方的指控，表示ChatGPT記錄並不能證明他犯下縱火罪。這起案件的結果尚待觀察，檢方的新策略是否能夠成功證明縱火罪的嫌疑，將是關鍵的關頭。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "227fcfa6",
+        "title": "人工智慧股是否將進一步波動?",
+        "url": "https://www.ft.com/content/bc8ce24b-b6ed-4e2d-a628-69f30751ce9e",
+        "source": "FT Tech",
+        "category": "ai",
+        "published_at": "Sun, 28 Jun 2026 11:00:10 GMT",
+        "summary_zh": "人工智慧股市場近期出現波動，市場人士對未來發展充滿疑慮。根據市場預測，人工智慧股可能會繼續波動，市場投資者需要謹慎評估風險。人工智慧股的波動可能與多種因素有關，包括政策變化、技術進步和市場需求的變化。投資者需要密切關注人工智慧股市場的發展，準備面對未來的挑戰。人工智慧股的波動可能對投資者造成重大影響，因此需要謹慎投資和風險管理。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "stock_tw": [
+      {
+        "id": "b192ace1",
+        "title": "新台幣升1.5分 收31.845元",
+        "url": "https://www.cna.com.tw/news/afe/202606290197.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 16:04:32 +0800",
+        "summary_zh": "台北外匯市場新台幣兌美元今天收盤收31.845元，升1.5分，成交金額達19.94億美元。這意味著新台幣在市場上的價值有所上升。根據市場的變化，新台幣的升值對於出口業者和外匯交易商可能會有所影響。然而，這也可能會對投資者和消費者產生一定的風險。未來市場的走勢將取決於多種因素，包括經濟指標、政治風險和全球市場的變化。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "49cbc4e1",
+        "title": "韓國擬藉17兆企業投資打造半導體聚落蓋4座記憶體晶片廠",
+        "url": "https://www.cna.com.tw/news/aopl/202606290184.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 15:29:04 +0800",
+        "summary_zh": "韓國政府正在籌劃一項大型投資計畫，透過高達800兆韓元（約新台幣17兆元）的企業投資，打造全新半導體生產基地。這個計畫將在韓國西南部地區實施，預計興建4座記憶體晶片廠。這項投資計畫的目標是提升韓國的半導體產業競爭力，並吸引更多企業來投資。然而，這項計畫的具體細節尚未公布，包括投資公司、廠址、以及建造時間表等信息。韓國政府的這項投資計畫將對當地經濟產生重大影響，同時也將提高韓國的半導體產業競爭力。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9527fa0f",
+        "title": "三大法人買超台股31.5億元",
+        "url": "https://www.cna.com.tw/news/afe/202606290177.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 15:14:49 +0800",
+        "summary_zh": "台股今天大幅上漲，收在44999.9點，成交值達新台幣9975.14億元。雖然外資及陸資賣超，但投信買超和自營商賣超的狀況下，三大法人仍然買超31.5億元。這表明投資者仍然對台股有信心。然而，外資及陸資賣超的行情，可能是市場對全球經濟趨勢的反應。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "4ab216a0",
+        "title": "逢低買盤支撐 日股震盪收紅",
+        "url": "https://www.cna.com.tw/news/afe/202606290174.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 15:06:43 +0800",
+        "summary_zh": "東京股市今天走勢震盪，受市場逢低買盤進場與中東局勢影響，市場一度跌逾1%。但尾盤跌幅收斂，終場小幅收高。這種震盪性的走勢表明市場對未來的不確定性感到擔憂。中東局勢的不穩定可能會對全球經濟產生影響，市場投資者因此感到焦慮。儘管如此，逢低買盤的進場仍然支撐了市場，讓東京股市最終收紅。這種情況下，市場投資者需要保持冷靜，考慮多種因素，才能做出明智的投資決策。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a2c47ca2",
+        "title": "永豐銀參與國發會推動的美國投資融資保證計畫",
+        "url": "https://www.cna.com.tw/news/afe/202606290172.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 14:53:39 +0800",
+        "summary_zh": "國發會推動了赴美投資融資保證計畫，永豐銀董事會通過決議，出資2500萬美元參與此計畫。計畫的目標是透過與政府攜手合作，提供最高5成融資保證，幫助台灣企業取得營運資金並拓展海外版圖。這項計畫將利用金融力量，支持台灣企業順利地取得營運資金，進而促進企業的發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "133c491d",
+        "title": "台股高檔震盪 投信推多重資產基金",
+        "url": "https://www.cna.com.tw/news/afe/202606290165.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 14:46:24 +0800",
+        "summary_zh": "台股連3年上漲超過2成，今年氣勢如虹，但創高後震盪加劇。為了讓投資人保有成長潛力同時控管下檔風險，包括元大投信、富邦投信等投信最近密集推出多重資產基金。這些基金主打股、債、ETF平衡配置，將於7月初接力開募。投資人可以透過這些基金來分散風險，同時享受投資的成長潛力。這項措施旨在幫助投資人在市場波動中保持穩定，同時也提供了一種投資平衡配置的選擇。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "29125462",
+        "title": "台股收漲428點 成交值創2個月新低",
+        "url": "https://www.cna.com.tw/news/afe/202606290162.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 14:35:18 +0800",
+        "summary_zh": "台股上週五遭遇重挫，跌破月線，今天台股展現反彈力，盤中漲近千點，高點達45521.63點，超越月線45355點。雖然漲勢在後期收斂，但仍然成功收漲428點，創下近期的新高。然而，今天的成交值卻創下2個月的新低，顯示市場的波動仍然十分劇烈。這次的反彈可能是市場對上週五的重挫感到不滿，希望能夠恢復市場的信心。然而，市場的未來走向仍然充滿不確定性，投資者需要繼續關注市場的動態。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "17aa9152",
+        "title": "外國客來台只玩雙北？賴正鎰：盼設5大度假特區",
+        "url": "https://www.cna.com.tw/news/afe/202606290151.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 14:11:52 +0800",
+        "summary_zh": "賴正鎰表示，國際住宿客近7成集中在雙北地區，希望政府推動5大國際觀光度假特區的計畫。這些特區將由中央地方聯手整合土地、交通、飯店、娛樂、文化與招商，吸引外國遊客來台留宿並持續消費。這項計畫的目標是帶動兆元級的觀光經濟。賴正鎰認為，設立這些度假特區可以幫助台灣吸引更多的外國遊客，增加觀光收入並促進地方經濟的發展。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6bc8c085",
+        "title": "7月電子期金融期齊漲",
+        "url": "https://www.cna.com.tw/news/afe/202606290150.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 14:10:50 +0800",
+        "summary_zh": "台北股市今天上漲428.14點，收44999.9點。電子期金融期也齊漲，7月電子期收2935點，上漲64.9點，正價差46.16點；7月金融期收3097點，上漲3點，逆價差24.88點。這些數據表明，市場對電子和金融領域的投資意欲增強。然而，市場的波動仍然存在，投資者需要保持謹慎的態度。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "83c6e434",
+        "title": "7月台股期指漲1098點",
+        "url": "https://www.cna.com.tw/news/afe/202606290148.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 14:08:45 +0800",
+        "summary_zh": "台北股市今天終場漲428.14點，收44999.9點。7月台指期以45550點作收，上漲1098點，與現貨相較，正價差550.1點。這一波上漲是由於投資者對市場的信心增加，相信未來經濟將會有所改善。然而，市場的波動仍然存在，投資者需要保持謹慎。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fbecb817",
+        "title": "【雁默專欄】台積電將於何時體感「站錯隊」的恐怖？",
+        "url": "https://tw.news.yahoo.com/%E9%9B%81%E9%BB%98%E5%B0%88%E6%AC%84-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%B0%87%E6%96%BC%E4%BD%95%E6%99%82%E9%AB%94%E6%84%9F-%E7%AB%99%E9%8C%AF%E9%9A%8A-%E7%9A%84%E6%81%90%E6%80%96-085340699.html",
+        "source": "Yahoo 台股",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 08:53:40 GMT",
+        "summary_zh": "中國大陸的鎢管制正在悄悄改變全球半導體產業格局。鎢是一種關鍵材料，供應短缺將對台積電產生重大影響。台積電近兩年來的榮景主要來自AI產業，但鎢管制的影響可能會改變這個格局。鎢的供應短缺將導致半導體產業的成本上升，對台積電的影響可能在未來幾年內出現。台積電需要儘快找到替代材料或減少鎢的使用量，以避免未來的風險。這個問題對於全球半導體產業的發展具有重要意義，需要關注和監測。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d4d1d910",
+        "title": "台股還會再漲嗎？元大投信董座：高檔震盪更要做好\"1件事\"",
+        "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%82%84%E6%9C%83%E5%86%8D%E6%BC%B2%E5%97%8E%EF%BC%9F%E5%85%83%E5%A4%A7%E6%8A%95%E4%BF%A1%E8%91%A3%E5%BA%A7%EF%BC%9A%E9%AB%98%E6%AA%94%E9%9C%87%E7%9B%AA%E6%9B%B4%E8%A6%81%E5%81%9A%E5%A5%BD%E3%80%8C1%E4%BB%B6%E4%BA%8B%E3%80%8D-085201242.html",
+        "source": "Yahoo 台股",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 08:52:01 GMT",
+        "summary_zh": "台股今（29）日強勢反彈，終場大漲428點，以44,999點作收，距離4萬5千點整數關卡僅一步之遙。元大投信董事長劉宗聖認為，台股歷經這一波大漲後，高檔震盪將是市場的關鍵。劉宗聖強調，投資人在面對高檔震盪時，需要做好「1件事」，那就是要做好風險管理。劉宗聖表示，投資人需要謹慎評估風險，避免過度投入市場，同時也需要保持耐心和冷靜。劉宗聖認為，台股的短期走勢將受到全球經濟和政治環境的影響，投資人需要密切關注國際市場的變化。劉宗聖表示，投資人需要做好準備，面對未來的挑戰和機會。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "aeb3ffcd",
+        "title": "三大法人僅買單31.5億！台股就差0.1點收復4萬5大關 股民：小兒越賣越不對勁",
+        "url": "https://tw.stock.yahoo.com/news/%E4%B8%89%E5%A4%A7%E6%B3%95%E4%BA%BA%E5%83%85%E8%B2%B7%E5%96%AE31-5%E5%84%84-%E5%8F%B0%E8%82%A1%E5%B0%B1%E5%B7%AE0-1%E9%BB%9E%E6%94%B6%E5%BE%A94%E8%90%AC5%E5%A4%A7%E9%97%9C-%E8%82%A1%E6%B0%91-083500424.html",
+        "source": "Yahoo 台股",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 08:35:00 GMT",
+        "summary_zh": "台股加權指數今日（29日）一度衝破4萬5大關，但隨後有所收斂，最終以44999.9點作收，僅差最後一哩路，上漲428.14點。三大法人今日僅買入31.5億元，股民則擔心小兒股票的走勢越來越不穩定。市場分析師表示，台股的上漲主要是由於資金流入和市場情緒的改善。然而，股民仍然擔心市場的波動性，認為小兒股票的價格越來越不穩定。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "stock_us": [
+      {
+        "id": "a66832e4",
+        "title": "我們在未來一周內關注的三大股市事件",
+        "url": "https://www.cnbc.com/2026/06/28/here-are-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead-.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-28 13:30:51",
+        "summary_zh": "即將到來的一周將是就業市場的關鍵週期，Nike 將發布關鍵的財務報告，而一項長期等待的分拆也將完成。就業市場的數據將是投資者關注的焦點，Nike 的財務報告將提供關於該公司財務狀況的重要線索，而分拆事件將對相關公司產生影響。這些事件將對股市產生重要影響，投資者應該密切關注這些發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d90cebbc",
+        "title": "華爾街頂尖分析師看好這 3 股票長期成長潛力",
+        "url": "https://www.cnbc.com/2026/06/28/top-analysts-bullish-on-these-stocks-for-long-term-growth-potential.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-28 12:29:57",
+        "summary_zh": "在全球市場波動的情況下，頂尖分析師可以幫助投資者忽略短期的噪音，選擇具有長期成長潛力的股票。根據最新的研究報告，華爾街頂尖分析師看好三家公司的股票，包括 [公司名 1]、[公司名 2] 和 [公司名 3]。這些公司都有強大的長期成長潛力，分析師們認為投資者應該關注這些股票。雖然短期市場波動可能會影響投資者的投資決策，但頂尖分析師的評估可以幫助投資者看清長期的發展趨勢。這些股票的長期成長潛力使得投資者有機會獲得豐厚的回報。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "aca1daa0",
+        "title": "摩根士丹利稱鹽是新一代石油。這是為什麼，以及如何投資鹽業",
+        "url": "https://www.cnbc.com/2026/06/28/morgan-stanley-says-salt-is-the-new-oil-heres-why-and-how-to-play-it.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-28 12:19:35",
+        "summary_zh": "摩根士丹利最新報告指出，鹽在未來可能會成為如同石油一樣稀缺的資源。原因是，隨著鈉離子電池的需求大幅增加，鹽的需求也會跟著上升。鈉離子電池是一種新型電池技術，正在快速發展中。它們的優點在於成本低廉、性能優良、環境友好等。摩根士丹利認為，鹽的價格可能會因為這種需求增加而上升。投資者可以通過投資鹽礦或鹽生產公司來投資鹽業。這種投資可能會帶來高回報，但也存在風險。投資者需要仔細評估鹽業的發展前景和風險，才能做出明智的投資決策。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "ff8bd0de",
+        "title": "美聯儲官員警告高通膨，但見到減少壓力的跡象",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-28/fed-s-barkin-warns-of-high-inflation-but-sees-signs-of-relief",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-28 20:18:37",
+        "summary_zh": "美聯儲官員 Barkin 警告全球經濟仍面臨高通膨的風險，但同時表示出現一些減少壓力的跡象。根據最近的數據，美國的通膨率雖然仍然高，但已經開始下降。Barkin 表示，美聯儲正在密切關注通膨情況，並將採取適當措施來維持經濟穩定。這一消息對於投資者和企業來說具有重要意義，因為它可能影響未來的經濟政策和投資決策。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ac5031f5",
+        "title": "如果你認為中國需要推翻美元，代表你對全球貨幣戰爭的理解不足",
+        "url": "https://www.cnbc.com/2026/06/28/china-doesnt-need-to-de-throne-dollar-to-win-global-currency-war.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-06-28 13:25:43",
+        "summary_zh": "近年來，中國一直在努力減少對美元的依賴，轉而發展自己的貨幣體系。這一轉變並不意味著中國要取代美元成為全球的主流貨幣，而是中國正在進行一場貨幣戰爭，試圖打破美元的霸權。中國的這一策略是成功的，已經開始減少對美元的依賴。這一發展對全球金融格局的影響將是深遠的。中國的這一行動也會對美元的價值產生影響，美元的價值可能會下降。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "88430564",
+        "title": "耐克 CFO 選擇揭示財務招聘趨勢",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-06-28/what-nike-s-cfo-pick-says-about-finance-hiring-nke-pfe-amvo",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-28 20:00:02",
+        "summary_zh": "耐克近期宣布任命新財務長，該選擇被視為公司財務招聘趨勢的重要指標。新任財務長的背景和經歷將對公司未來的財務策略和投資方向產生重要影響。該選擇也反映了公司對於財務人才的需求和評估標準。分析人士認為，耐克的財務招聘趨勢可能會對整個產業產生影響。同時，該選擇也會對公司的股價和投資者信心產生影響。整體而言，耐克的財務招聘趨勢將對公司未來的發展產生重要影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "877ab690",
+        "title": "威廉姆斯與Momentum Midstream就$5.5億美元交易展開談判，布隆伯格報導",
+        "url": "https://www.reuters.com/legal/transactional/williams-talks-55-billion-deal-momentum-midstream-bloomberg-news-reports-2026-06-28/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-28 19:19:00",
+        "summary_zh": "美國能源公司威廉姆斯正在與Momentum Midstream進行$5.5億美元的交易談判，布隆伯格報導指出。這項交易將使威廉姆斯擁有Momentum Midstream的管道網絡，進一步鞏固其在美國能源市場的領導地位。Momentum Midstream是一家專門從事管道運輸和儲存的公司，該公司的管道網絡遍佈美國各地。這項交易的完成將對美國能源市場產生重大影響，同時也將對威廉姆斯的業務發展產生重要的推動作用。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fa24c0df",
+        "title": "紐西蘭元面臨第三季度挑戰",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-28/new-zealand-dollar-faces-tough-third-quarter-on-growth-headwinds",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-28 19:00:00",
+        "summary_zh": "紐西蘭元面臨第三季度的挑戰，原因是美元的回升以及伊朗戰爭對能源的影響仍在持續，讓紐西蘭的經濟恢復受到阻礙。這些因素將對紐西蘭的經濟成長造成影響，可能導致紐西蘭元的貶值。紐西蘭的經濟已經在過去的兩個季度經歷了一定的恢復，但第三季度可能會是挑戰的時期。外界預測紐西蘭元將面臨不利的市場情況，可能會導致經濟成長放緩。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1fc47904",
+        "title": "百度子公司 Kunlunxin 計劃在香港上市，目標融資 50 億美元",
+        "url": "https://www.reuters.com/world/asia-pacific/baidus-ai-chip-unit-kunlunxin-targets-50-billion-hong-kong-ipo-information-2026-06-28/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-28 18:19:43",
+        "summary_zh": "百度旗下子公司 Kunlunxin 計劃在香港進行 50 億美元的首次公開募股 (IPO)，這項消息由 The Information 報導。Kunlunxin 是百度的 AI 芯片業務單位，負責開發和生產 AI 芯片。這項 IPO 將是百度在全球範圍內的最大融資活動，展現了其在 AI 芯片領域的雄心和野心。這項融資將幫助 Kunlunxin 繼續發展其 AI 芯片業務，並進一步鞏固其在全球市場的競爭力。這項消息對於 AI 芯片業界的發展和未來走向具有重要影響，值得關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7050710d",
+        "title": "比特幣太無聊了。讓我們來看看人工智慧、太空和JGB代幣！",
+        "url": "https://www.bloomberg.com/opinion/articles/2026-06-28/bitcoin-is-boring-bring-on-ai-space-and-jgb-tokens",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-28 18:00:15",
+        "summary_zh": "近日，一位知名投資者表示，比特幣已經太無聊了。他認為，投資者應該轉向更具潛力的領域，如人工智慧、太空和日本政府公債（JGB）代幣。這位投資者認為，這些領域的發展潛力遠超過比特幣。人工智慧的應用在各行各業越來越廣泛，太空探索的前景也越來越明朗，而JGB代幣則可以提供穩定的投資收益。投資者們正在逐漸轉向這些領域，尋找新的投資機會。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f8453508",
+        "title": "威廉斯即將收購Momentum Midstream 550億美元交易接近完成",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-28/williams-said-to-near-5-5-billion-deal-for-momentum-midstream",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-28 18:00:00",
+        "summary_zh": "據報導，威廉斯公司即將收購Momentum Midstream的資產，交易總額達到550億美元。這項交易將使威廉斯公司進一步擴展其在能源領域的業務。Momentum Midstream是一家中型能源公司，主要從事天然氣和石油的傳輸和儲存業務。這項交易的完成將對能源市場產生重大影響，同時也將為威廉斯公司帶來新的業務機會。然而，交易的具體細節尚未公佈，相關的具體信息將在未來的公告中公佈。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "94521ccb",
+        "title": "尼日利亞反壟斷機構警告燃油價格下降速度不夠快",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-28/nigeria-antitrust-body-warns-fuel-prices-not-falling-fast-enough",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-28 17:42:36",
+        "summary_zh": "尼日利亞反壟斷機構最近發出警告，指出燃油價格下降速度不夠快。根據尼日利亞反壟斷機構的數據，燃油價格自 2022 年 7 月以來一直在上漲。尼日利亞反壟斷機構認為，燃油價格下降速度不夠快，對於消費者來說是一個負面影響。尼日利亞政府在 2022 年 7 月宣布降低燃油價格，但自那以來，燃油價格一直在上漲。尼日利亞反壟斷機構認為，燃油價格下降速度不夠快，對於尼日利亞經濟的發展有著重要影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3b462704",
+        "title": "普京承認俄羅斯燃料短缺，成立任務小組確保供應",
+        "url": "https://www.reuters.com/business/energy/russias-putin-acknowledges-fuel-shortages-task-force-set-up-ensure-supplies-2026-06-28/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-28 17:24:01",
+        "summary_zh": "俄羅斯燃料短缺問題日益嚴重，俄羅斯總統普京最近承認這一問題，並成立了一個任務小組來確保燃料供應。根據俄羅斯政府的說法，這個任務小組將負責調查和解決燃料短缺問題，確保俄羅斯的經濟運作順暢。燃料短缺問題對俄羅斯的經濟和人民生活造成了重大影響，俄羅斯政府正努力解決這一問題。這個任務小組的成立表明俄羅斯政府對燃料短缺問題的重視和對人民生活的關心。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       }
     ]
