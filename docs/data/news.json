@@ -1,72 +1,278 @@
 {
-  "generated_at": "2026-06-30T02:07:32.835702+08:00",
+  "generated_at": "2026-06-30T03:05:01.135962+08:00",
   "risk_signals": [
     "🔴 台股加權 44571.76（急跌 -3.64%）",
-    "🟢 S&P 500 7436.04（正常）",
-    "🟢 VIX 恐慌指數 17.73（正常）",
+    "🟢 S&P 500 7435.49（正常）",
+    "🟢 VIX 恐慌指數 17.6（正常）",
     "🟢 MOVE 債市波動 66.79（正常）",
-    "🟢 美元指數 101.1（正常）",
-    "🟢 黃金 4035.7（正常）",
-    "🟢 美債10Y殖利率 4.37（正常）",
-    "🟢 原油 WTI 70.88（正常）",
+    "🟢 美元指數 101.09（正常）",
+    "🟢 黃金 4032.0（正常）",
+    "🟢 美債10Y殖利率 4.38（正常）",
+    "🟢 原油 WTI 70.54（正常）",
     "🟢 美元/台幣 31.84（正常）"
   ],
-  "ai_summary": "市場氛圍偏悲觀，台股急跌超過3%，但美股表現相對穩定。",
+  "ai_summary": "市場氛圍緊繃，但未見明顯恐慌跡象。台股急跌，與全球市場出現分歧。",
   "market": {
     "TWII": {
       "price": 44571.76,
       "change_pct": -3.64
     },
     "SP500": {
-      "price": 7436.04,
-      "change_pct": 1.12
+      "price": 7435.49,
+      "change_pct": 1.11
     },
     "NASDAQ": {
-      "price": 25763.79,
-      "change_pct": 1.84
+      "price": 25782.6,
+      "change_pct": 1.92
     },
     "VIX": {
-      "price": 17.73,
-      "change_pct": -3.69
+      "price": 17.6,
+      "change_pct": -4.4
     },
     "TNX": {
-      "price": 4.37,
-      "change_pct": -0.02
+      "price": 4.38,
+      "change_pct": 0.14
     },
     "MOVE": {
       "price": 66.79,
       "change_pct": -0.46
     },
     "DXY": {
-      "price": 101.1,
-      "change_pct": -0.26
+      "price": 101.09,
+      "change_pct": -0.27
     },
     "GOLD": {
-      "price": 4035.7,
-      "change_pct": -1.05
+      "price": 4032.0,
+      "change_pct": -1.14
     },
     "OIL": {
-      "price": 70.88,
-      "change_pct": 2.38
+      "price": 70.54,
+      "change_pct": 1.89
     },
     "USDTWD": {
       "price": 31.84,
-      "change_pct": -0.08
+      "change_pct": -0.06
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "1099b5a9",
+        "title": "巴基斯坦對阿富汗邊境發動猛烈攻擊",
+        "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 15:46:50 GMT",
+        "summary_zh": "巴基斯坦近日對阿富汗邊境發動猛烈攻擊，據巴基斯坦方面表示，這是對「近期針對無辜民眾的恐怖攻擊」的回應。這一行動引發了對巴基斯坦軍事行動的關注，同時也引發了對阿富汗局勢的擔憂。巴基斯坦的軍事行動可能會對阿富汗的安全局勢產生重大影響，同時也可能會對當地的平民造成傷害。這一事件的發展仍在進展中，外界正在密切關注巴基斯坦的行動和阿富汗的反應。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "380ae311",
+        "title": "投資人權衡中東局勢 歐洲股市收盤小跌",
+        "url": "https://www.cna.com.tw/news/afe/202606300003.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Tue, 30 Jun 2026 00:45:52 +0800",
+        "summary_zh": "中東局勢的變化讓投資人感到擔憂。美國與伊朗暫停交火的消息傳出後，投資人開始權衡這個發展對全球經濟的影響。歐洲股市主要指數今天收盤小幅下挫，表明投資人對未來仍存疑慮。這種情況下，投資人可能會選擇謹慎投資或暫時撤資。中東局勢的不確定性可能會持續影響全球股市的波動。投資人需要密切關注這個發展，以便做出明智的投資決策。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "cdb72bc0",
+        "title": "印度記者譴責「否認」知名編輯投票和護照權利",
+        "url": "https://www.bbc.co.uk/news/articles/cpv37jwd3zzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 07:58:42 GMT",
+        "summary_zh": "印度記者們譴責政府否認知名編輯拉賈戈帕爾（Rajagopal）投票和護照權利。拉賈戈帕爾指控，政府刪除了他的選民登記資料，導致他無法更新護照。這一事件引發了印度媒體界的強烈譴責，批評政府侵犯了新聞自由和人權。拉賈戈帕爾是一位資深的印度記者和編輯，他曾經在多家媒體工作過。政府的行動被視為對新聞自由的打壓，引發了社會和媒體界的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "577ceb71",
+        "title": "南韓足球教練辭職　總統要求調查世界盃失利",
+        "url": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 07:18:14 GMT",
+        "summary_zh": "南韓足球代表隊在世界盃中未能晉級八強，教練因此辭職。南韓總統要求調查球隊在世界盃的表現，了解失利的原因。南韓在世界盃的表現令人失望，球隊在小組賽中取得兩勝一負的成績，但在淘汰賽中未能取得勝利，最終被淘汰。教練的辭職是球隊失利的直接結果，總統要求調查以確保未來的球隊表現能夠改善。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "63d6045d",
+        "title": "你們是加拿大英雄！- 被遺忘的主辦國在世界盃歷史上留下了深刻的印記",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cvg4pen8xq7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 00:02:44 GMT",
+        "summary_zh": "加拿大在這次世界盃上正在創造歷史，很可能會改變該國足球的面貌。這次世界盃的加拿大隊正在取得出色的成績，讓人們對加拿大足球未來充滿了希望。這種成績不僅僅是對加拿大足球的肯定，也是對該國足球發展潛力的證明。然而，這也意味著加拿大足球的挑戰和壓力將會增加。加拿大隊的成績將會對該國足球的未來產生重大影響，可能會帶來新的投資和發展機會。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0ba3bd42",
+        "title": "韓國公布 8800 億美元晶片和 AI 投資計畫",
+        "url": "https://www.bbc.co.uk/news/articles/c9q2pwzngjqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 08:55:29 GMT",
+        "summary_zh": "韓國政府近日公布了一項 8800 億美元的晶片和人工智慧投資計畫。這項計畫旨在加強韓國在全球晶片和 AI 界的競爭力。然而，這項計畫的出現也引發了對韓國是否能夠與其他地區競爭的疑問。根據報告，韓國的競爭對手如台灣、中國和日本都已經在晶片和其他技術領域投入大量資金。韓國政府認為，這項投資計畫將幫助韓國企業在全球市場上佔據重要地位。然而，投資計畫的具體細節尚未公布，投資將如何分配以及投資效益如何仍待觀察。這項計畫的出現也引發了對韓國經濟未來發展的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "119e37c6",
+        "title": "澳洲男子被控謀殺罪：泰國發現一名17歲少女屍體",
+        "url": "https://www.bbc.co.uk/news/articles/cd0my5zy821o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 01:58:29 GMT",
+        "summary_zh": "泰國警方表示，17歲少女Tunchanok Donhomla的屍體被發現在鐵路旁的垃圾堆中。警方懷疑少女的屍體是被丟棄在那裡的。警方正在調查少女的死因，並懷疑一名澳洲男子涉及謀殺案。案件正在進行中，警方正在收集證據和證人證詞。泰國警方表示，案件的進展將會透過官方渠道公佈。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "d2adcba9",
+        "title": "肯塔基州遭遇慘重山洪暴發",
+        "url": "https://www.bbc.co.uk/news/videos/c5yzd666r6ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 14:18:11 GMT",
+        "summary_zh": "肯塔基州遭遇慘重山洪暴發，至少有四人死亡，60人進行水上救援和疏散。這場山洪暴發對州內的居民造成嚴重影響，許多人被困在水中，需要緊急救援。根據當地官員的報導，山洪暴發的原因是長時間的雨水和地形的特殊性，導致水快速流入低洼區域。這場災害對肯塔基州的經濟和社會造成了重大影響，當地政府正在努力進行救援和重建工作。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "44854d1b",
+        "title": "新生兒母親在委內瑞拉地震中被救出後說，嬰兒讓她堅持活著",
+        "url": "https://www.bbc.co.uk/news/articles/clyw3rkj2p7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 07:51:05 GMT",
+        "summary_zh": "委內瑞拉近期遭遇嚴重的地震，造成大量傷亡。18天大的新生兒胡安·大衛（Juan David）在瓦礫中被發現，令人感到驚訝的拯救行動，成為委內瑞拉在這場天災中的一線希望。新生兒的母親在被救出後，表達了對兒子的感激之情，並說這個嬰兒讓她堅持活下去。這個事件也讓外界對委內瑞拉政府的救援工作感到關注，希望他們能夠盡快恢復基本服務，幫助受災民眾。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "db8daaf6",
+        "title": "德國北部一青少年中心槍擊案造成五人死亡",
+        "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 18:47:00 GMT",
+        "summary_zh": "德國北部城市斯塔德發生槍擊案，造成五人死亡。警方表示，已經逮捕了兩名嫌疑人，其中一名被認為是兇手。這起槍擊案發生在一所青少年中心，當地居民表示感到震驚和恐懼。警方正在調查案件，試圖找出兇手的動機和背景。這起槍擊案對當地社區造成了深遠的影響，許多人正在等待警方的進一步通報。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6a77f261",
+        "title": "剛果民主共和國禁止首都大型集會以防止埃博拉傳播",
+        "url": "https://www.bbc.co.uk/news/articles/c992k7zk981o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 14:40:58 GMT",
+        "summary_zh": "剛果民主共和國政府為防止埃博拉病毒傳播，禁止首都大型集會。然而，反對派政客指責政府利用疫情來阻止即將舉行的抗議活動。這一措施引發了對政府管控和人權保護的爭議。剛果民主共和國政府面臨著如何平衡防疫措施和維護民主自由的挑戰。疫情的爆發對當地人民的生活造成了重大影響，政府的決定將如何影響到未來的抗議活動和社會穩定，仍待觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f2aa9a89",
+        "title": "美國承認與伊朗交換空襲後同意暫停軍事行動",
+        "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 14:52:10 GMT",
+        "summary_zh": "美國與伊朗近日發生了一系列空襲事件，雙方互指違反停火協議。這些事件發生在週末，美國和伊朗都指責對方違反停火協議。美國的承諾意味著雙方將暫停軍事行動，避免進一步升級。伊朗的行動引發了美國的反應，美國對伊朗的空軍基地發動了空襲。伊朗隨後對美國的軍事基地發動了報復性空襲。這些事件引發了國際社會的關注，各國都在關注美國和伊朗的動向。美國的承諾意味著雙方將暫停軍事行動，避免進一步升級。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "51d47aa9",
+        "title": "健身品牌創辦人及奧運選手 Les Mills 逝世 91 歲",
+        "url": "https://www.bbc.co.uk/news/articles/c5yzxpzy81vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 10:55:41 GMT",
+        "summary_zh": "健身品牌 Les Mills International 的創辦人 Les Mills 逝世，享年 91 歲。該品牌以音樂為背景的舞蹈健身課程如 Body Pump 和 Body Combat 等全球知名。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "68b1086f",
+        "title": "歐洲高溫熱浪致1,300人喪生，世衛組織警告歐洲未準備好面對高溫",
+        "url": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 28 Jun 2026 19:37:07 GMT",
+        "summary_zh": "近期的歐洲高溫熱浪已經造成1,300人喪生，世衛組織表示，這是由於氣候變化導致的極端天氣。世衛組織總幹事Tedros Adhanom Ghebreyesus警告，歐洲並未準備好面對高溫天氣。德國近日錄得41.7攝氏度的最高溫度，成為該國歷史上最高的溫度紀錄。高溫導致的死亡人數不斷增加，世衛組織呼籲各國政府採取措施應對氣候變化。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e513bb44",
+        "title": "中國出口黑名單新增40家日本實體 涵蓋無人機、核能與國防領域",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5488146",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 21:13:02 +0800",
+        "summary_zh": "中國近日鎖定無人機、核能與防衛領域，將40家日本實體列入黑名單。這項措施旨在實施更嚴格的管制，限制日本取得包括稀土礦在內的軍民兩用物資。這一決定進一步加劇了中日關係的緊張局勢。中國商務部表示，這些實體涉及敏感技術和產品的出口，將對日本產業造成重大影響。這一措施也引發了對中日關係未來走向的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
+      {
+        "id": "d69be784",
+        "title": "美國最高法院駁回川普對E Jean Carroll性侵案的上訴",
+        "url": "https://www.bbc.co.uk/news/articles/cn8q2z5wpn2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 29 Jun 2026 15:30:35 GMT",
+        "summary_zh": "美國最高法院駁回川普總統對E Jean Carroll性侵案的上訴，這意味著川普將必須支付她在案件中獲得的5000萬美元（約3600萬鎊）賠償金。這起案件始於2019年，當時E Jean Carroll控訴川普在2005年或2006年在紐約的一家精品店內對她進行性侵犯。川普曾否認這一指控，但法庭最終判決他有罪。川普的律師已經表示將會上訴，但美國最高法院的決定意味著這一路線將會被打斷。這一判決對川普的政治影響可能會很大，尤其是在2024年美國總統選舉前。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "66b8b444",
         "title": "最高法院阻止川普試圖辭退聯邦儲備委員會主席麗莎·庫克",
         "url": "https://www.bbc.co.uk/news/articles/cy4wwy0nkeno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "source": "BBC North America",
         "category": "whitehouse",
         "published_at": "Mon, 29 Jun 2026 16:51:52 GMT",
         "summary_zh": "最高法院的決定被視為中央銀行獨立的勝利，將辭退爭議重新送回下級法院。美國最高法院最近做出一項重要決定，阻止前總統川普試圖辭退聯邦儲備委員會主席麗莎·庫克。這一決定被視為中央銀行獨立的勝利，表明最高法院對中央銀行的獨立性有著堅定的信念。這一決定對美國的經濟政策和中央銀行的運作將產生重大影響。這一爭議的下一步將在下級法院進行，美國人將密切關注這一事件的進展。",
         "sentiment": "正面",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "46bd1274",
+        "title": "拜登批評川普 '自我膨脹計畫', 稱他在籌款活動中是 '輸家'",
+        "url": "https://www.bbc.co.uk/news/articles/cy73mvn607do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 29 Jun 2026 12:04:30 GMT",
+        "summary_zh": "拜登在一次籌款活動中對川普的計畫進行批評，他批評川普的計畫是 '自我膨脹計畫', 並稱川普在籌款活動中是 '輸家'。拜登的批評針對川普在華盛頓特區的計畫，包括了一個新的白宮舞會廳。這是拜登和川普兩人在政治上又一次發生衝突的跡象。拜登的批評表明他對川普的政治計畫感到不滿，並且試圖通過籌款活動來籌集資金來支持自己的政治活動。這也表明拜登和川普之間的政治競爭仍然非常激烈。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -82,36 +288,12 @@
         "ai_classified": true
       },
       {
-        "id": "d69be784",
-        "title": "美國最高法院駁回川普對E Jean Carroll性侵案的上訴",
-        "url": "https://www.bbc.co.uk/news/articles/cn8q2z5wpn2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 29 Jun 2026 15:30:35 GMT",
-        "summary_zh": "美國最高法院駁回川普總統對E Jean Carroll性侵案的上訴，這意味著川普將必須支付她在案件中獲得的5000萬美元（約3600萬鎊）賠償金。這起案件始於2019年，當時E Jean Carroll控訴川普在2005年或2006年在紐約的一家精品店內對她進行性侵犯。川普曾否認這一指控，但法庭最終判決他有罪。川普的律師已經表示將會上訴，但美國最高法院的決定意味著這一路線將會被打斷。這一判決對川普的政治影響可能會很大，尤其是在2024年美國總統選舉前。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "46bd1274",
-        "title": "拜登批評川普 '自我膨脹計畫', 稱他在籌款活動中是 '輸家'",
-        "url": "https://www.bbc.co.uk/news/articles/cy73mvn607do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 29 Jun 2026 12:04:30 GMT",
-        "summary_zh": "拜登在一次籌款活動中對川普的計畫進行批評，他批評川普的計畫是 '自我膨脹計畫', 並稱川普在籌款活動中是 '輸家'。拜登的批評針對川普在華盛頓特區的計畫，包括了一個新的白宮舞會廳。這是拜登和川普兩人在政治上又一次發生衝突的跡象。拜登的批評表明他對川普的政治計畫感到不滿，並且試圖通過籌款活動來籌集資金來支持自己的政治活動。這也表明拜登和川普之間的政治競爭仍然非常激烈。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "a50c6ab9",
         "title": "最高法院裁定川普可以解僱監管機構，但在Fed總督和E Jean Carroll案件中裁定不在他的支持下",
         "url": "https://www.theguardian.com/us-news/live/2026/jun/29/supreme-court-donald-trump-administration-us-politics-latest-news-updates",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Mon, 29 Jun 2026 17:43:22 GMT",
+        "published_at": "Mon, 29 Jun 2026 18:54:45 GMT",
         "summary_zh": "最高法院今天發布了一些最後的判決，包括川普試圖終止出生公民權和解僱聯邦儲備總督的努力。最高法院裁定川普可以解僱聯邦監管機構，但裁定解僱聯邦儲備總督的行動違憲。最高法院還拒絕了川普對E Jean Carroll性侵案的上訴，判決川普需支付5千萬美元的賠償金。這些判決在美國社會引起了強烈反應，許多人批評最高法院的保守派法官推動了白人優越主義的議程。",
         "sentiment": "負面",
         "is_breaking": true,
@@ -128,44 +310,20 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "1ac3d61b",
-        "title": "美國國土安全部長：難民若不申請永久居留權，應該離開美國",
-        "url": "https://www.theguardian.com/us-news/2026/jun/28/markwayne-mullin-migrants-permanent-residence-tps-ruling",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 28 Jun 2026 18:48:40 GMT",
-        "summary_zh": "美國國土安全部長Markwayne Mullin近日表示，美國暫時保護身分（TPS）持有人若不申請永久居留權，應該離開美國。這番言論出現於美國最高法院裁決暫時保護身分從超過35萬人中剝奪的背景下。美國最高法院的裁決可能使得多名來自海地和敘利亞的難民被驅逐回戰爭和貧困的家鄉。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "ai": [
       {
-        "id": "7401eebc",
-        "title": "技術前沿的代理自信",
-        "url": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
-        "source": "MIT Tech Review",
+        "id": "e8846aa4",
+        "title": "OpenAI 預告新硬體… 對 Codex 進行升級",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+        "source": "The Verge AI",
         "category": "ai",
-        "published_at": "Mon, 29 Jun 2026 14:44:01 +0000",
-        "summary_zh": "人工智慧投資正如火如荼。根據Gartner的預測，2026年將是企業為其AI項目與企業戰略目標對齊的關鍵年份。隨著證明回報率的壓力日益增大，執行官和技術領袖正在尋找代理人AI來推動其企業所追求的可衡量的財務結果。人工智慧代理人的最佳機會正在到來。企業正在尋找能夠幫助其企業實現可衡量財務成果的代理人AI。這些代理人AI將能夠幫助企業做出更明智的決策，提高效率並降低成本。然而，企業也面臨著挑戰，包括如何確保代理人AI的可信度和安全性。企業必須小心地選擇代理人AI，確保其能夠幫助企業實現其目標，而不是造成更多的問題。",
+        "published_at": "2026-06-29T14:52:03-04:00",
+        "summary_zh": "OpenAI 將於 7 月 15 日推出與其 AI Coding 工具 Codex 相關的新裝置。近日，OpenAI 在 X 上發佈了一段視頻，展示了一個方形裝置，裝置上有數個按鈕，伴隨著標題「您的 Codex 快捷鍵即將升級」。這項新裝置似乎與 OpenAI 正在開發的神秘 AI 裝置無關。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
-      },
-      {
-        "id": "04fc822f",
-        "title": "下載：指標弱點和 AI 大象警告",
-        "url": "https://www.technologyreview.com/2026/06/29/1139834/the-download-metric-weaknesses-ai-elephant-warnings/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Mon, 29 Jun 2026 12:10:00 +0000",
-        "summary_zh": "在今天的下載新聞中，科技界的每日新聞都會被提及。指標的弱點和限制，許多指標可以揭露有用的資訊，但也可能掩蓋或扭曲事實。許多人都曾被指標的局限性所欺騙。與人工智慧相關的警告也在增加，人工智慧的發展正受到關注。人工智慧的應用和發展正在快速推進，但也引發了許多關注和警告。人工智慧的潛在風險和挑戰正在被研究和討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       },
       {
         "id": "29c605cc",
@@ -176,8 +334,8 @@
         "published_at": "2026-06-29 05:00:01",
         "summary_zh": "近年來，人工智慧（AI）技術的發展迅速，卻面臨新的挑戰——嚴重天氣。全球暖化導致的高溫潮和極端天氣，對人工智慧資料中心造成了威脅，包括電網負荷增加、保險費用上升和修復成本提高等問題。這些風險可能會影響到人工智慧技術的穩定性和可靠性，進而影響到各行各業的運作。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "946d307c",
@@ -214,56 +372,92 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "7401eebc",
+        "title": "技術前沿的代理自信",
+        "url": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Mon, 29 Jun 2026 14:44:01 +0000",
+        "summary_zh": "人工智慧投資正如火如荼。根據Gartner的預測，2026年將是企業為其AI項目與企業戰略目標對齊的關鍵年份。隨著證明回報率的壓力日益增大，執行官和技術領袖正在尋找代理人AI來推動其企業所追求的可衡量的財務結果。人工智慧代理人的最佳機會正在到來。企業正在尋找能夠幫助其企業實現可衡量財務成果的代理人AI。這些代理人AI將能夠幫助企業做出更明智的決策，提高效率並降低成本。然而，企業也面臨著挑戰，包括如何確保代理人AI的可信度和安全性。企業必須小心地選擇代理人AI，確保其能夠幫助企業實現其目標，而不是造成更多的問題。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "04fc822f",
+        "title": "下載：指標弱點和 AI 大象警告",
+        "url": "https://www.technologyreview.com/2026/06/29/1139834/the-download-metric-weaknesses-ai-elephant-warnings/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Mon, 29 Jun 2026 12:10:00 +0000",
+        "summary_zh": "在今天的下載新聞中，科技界的每日新聞都會被提及。指標的弱點和限制，許多指標可以揭露有用的資訊，但也可能掩蓋或扭曲事實。許多人都曾被指標的局限性所欺騙。與人工智慧相關的警告也在增加，人工智慧的發展正受到關注。人工智慧的應用和發展正在快速推進，但也引發了許多關注和警告。人工智慧的潛在風險和挑戰正在被研究和討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "6845beda",
-        "title": "威瑞森、BT allegedly 即將成立合資公司，為全球業務合作",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-29/verizon-bt-are-said-to-near-jv-deal-for-international-business",
-        "source": "Bloomberg",
+        "id": "71b268c0",
+        "title": "可再生能源革命 | FT Rethink",
+        "url": "https://www.ft.com/video/438d4716-f792-4bc6-939a-387ed99039ef",
+        "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-06-29 05:45:00",
-        "summary_zh": "根據最新消息，美國電信巨頭威瑞森和英國電信公司BT即將成立合資公司，為全球業務合作。這項合作將使兩家公司能夠共同發展全球業務，包括通信網絡、數據中心和雲計算等領域。這項協議將使兩家公司能夠分享資源、技術和市場知識，進一步加強全球競爭力。這項合作將對全球通信業界產生重大影響，可能會導致市場格局的變化。目前尚未有更多資訊可供確認，但這項合作被視為是兩家公司在全球業務上的重要合作。",
+        "published_at": "2026-06-29 07:00:00",
+        "summary_zh": "可再生能源正在經歷一場革命，帶動全球能源市場的巨大變化。這場革命的背後，是政府和企業的政策和投資決策。許多國家正致力於發展風能、太陽能和水能等可再生能源，減少對化石燃料的依賴。這些政策和投資不僅有助於減少氣候變化的影響，也為企業創造新的商業機會。然而，這場革命也面臨著挑戰，包括基礎設施建設的成本和技術瓶頸。政府和企業必須共同努力，推動可再生能源的發展，為未來的能源市場打下堅實的基礎。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "7867d30d",
-        "title": "富時100指數未來價格穩定，石油價格持續在72美元附近",
-        "url": "https://www.bloomberg.com/news/live-blog/2026-06-29/ftse-100-live-pound-glits-us-iran-talks-hormuz-oil-prices-gold-what-s-moving-uk-markets-right-now-markets-today",
-        "source": "Bloomberg",
+        "id": "e54c6607",
+        "title": "立法者要求禁止 AI 公司出售健康數據",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
+        "source": "The Verge AI",
         "category": "finance",
-        "published_at": "2026-06-29 05:48:25",
-        "summary_zh": "石油價格持續在72美元附近，對富時100指數未來價格產生穩定的影響。市場觀察人士表示，石油價格的穩定對全球經濟有著重要的影響。石油價格的波動會影響到石油生產國的經濟，同時也會影響到石油消費國的能源成本。富時100指數未來價格的穩定表明市場對石油價格的預期是穩定的。然而，市場仍然面臨著許多不確定性，包括全球經濟的不確定性和地緣政治的不確定性。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "published_at": "2026-06-29T12:00:00-04:00",
+        "summary_zh": "美國立法者 Elizabeth Warren 和 Mary Gay Scanlon 正在籌劃一項新法案，禁止 AI 公司出售美國民眾的健康數據和位置資訊，包括透過聊天機器人如 ChatGPT 或 Claude 等共享的資訊。這項法案將會限制數據經紀人購買這類資訊的權利。立法者認為，這項法案有助於保護民眾的隱私權，並防止數據被滲透或被不當使用。這項法案的具體內容尚未公開，但預計將在未來幾周內提出。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
-        "id": "72822e39",
-        "title": "澳洲建築公司FDC申請IPO估值668億美元",
-        "url": "https://www.reuters.com/business/australian-construction-firm-fdc-files-ipo-668-million-valuation-2026-06-29/",
+        "id": "5c56c7e9",
+        "title": "摩根大通：歐洲可能成為「引人入勝的故事」",
+        "url": "https://www.reuters.com/business/europe-could-be-compelling-story-jp-morgan-says-lifts-equity-index-targets-2026-06-29/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-29 05:41:44",
-        "summary_zh": "澳洲建築公司FDC宣布申請首次公開募股（IPO），估值達668億美元。該公司將在澳洲證券交易所（ASX）上市，預計籌集資金用於擴大業務和支付債務。FDC是澳洲第二大建築公司，業務遍佈澳洲各地，從房屋建造到基礎設施建設。公司的IPO將為投資者提供機會投資澳洲建築業的發展。然而，市場分析師表示，澳洲建築業面臨著不確定的經濟環境和供應鏈挑戰，可能會影響公司的業績。投資者應該謹慎評估公司的財務狀況和未來發展前景。",
+        "published_at": "2026-06-29 06:57:43",
+        "summary_zh": "摩根大通最新報告指出，歐洲市場可能成為未來的投資重點。該公司表示，歐洲的經濟表現正在改善，企業盈利能力正在增強。摩根大通預測，歐洲股市將在未來幾年內錄得良好的表現，並提出了升息指標。該公司認為，投資者應該關注歐洲市場的發展，包括德國、法國和義大利等主要經濟體。摩根大通的報告強調，歐洲市場的改善將對全球經濟產生正面影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "cfb2c01a",
+        "title": "布里奇波因特將以 14 億美元收購凱恩安德森房地產公司",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-29/bridgepoint-to-buy-kayne-anderson-real-estate-for-1-4-billion",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-29 06:55:05",
+        "summary_zh": "布里奇波因特是一家全球性私募股權投資公司，近日宣布將以 14 億美元收購凱恩安德森房地產公司。凱恩安德森房地產公司是一家專注於房地產投資的私募股權公司，旗下管理著 14 億美元的資產。這項交易將使布里奇波因特進一步擴展其房地產投資業務，並增強其在房地產市場的競爭力。這項收購交易預計將在 2024 年第一季度完成。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "486efb09",
-        "title": "酒店房間收費能力「堅韌不斷」：印度酒店業CEO",
-        "url": "https://www.cnbc.com/video/2026/06/29/ability-to-charge-for-hotel-rooms-remains-robust-ihcl-ceo.html",
-        "source": "Cnbc",
+        "id": "4f4820ab",
+        "title": "南非Takealot首次全年盈利，收入超過10億美元",
+        "url": "https://www.reuters.com/world/africa/south-africas-takealot-swings-first-full-year-profit-revenue-tops-1-billion-2026-06-29/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-29 05:31:41",
-        "summary_zh": "印度酒店業領袖Puneet Chhatwal表示，儘管外國遊客人數下降、嚴重熱浪和伊朗戰爭等挑戰，印度酒店業仍堅韌不斷。全球對印度酒店業鏈的需求正在緩慢恢復，印度酒店業的增長受到哪些驅動力，成為關鍵問題。根據Chhatwal的說法，印度酒店業的增長受到國內旅遊需求的驅動，尤其是中產階級的旅遊需求。同時，印度酒店業也在努力改善客房供應鏈和服務質量，以滿足客人的需求。雖然面臨著挑戰，但印度酒店業仍有很大的發展潛力。",
-        "sentiment": "中性",
+        "published_at": "2026-06-29 06:53:47",
+        "summary_zh": "南非電子商務平台Takealot宣布，該公司在2022財年首次實現全年盈利，收入超過10億美元。該公司的收入在2022財年達到10.3億美元，較前一年增長23%。Takealot的盈利能力得益於其在南非電子商務市場的領導地位，以及公司的業務擴張。該公司的盈利能力也受到其在全球電子商務市場的競爭力增強的影響。Takealot的財務報告顯示，該公司的營業利潤率在2022財年達到4.5%，較前一年增長了1.5個百分點。該公司的盈利能力的增強也受到其在南非電子商務市場的業務擴張的影響。",
+        "sentiment": "正面",
         "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false
       },
       {
         "id": "0123bc25",
@@ -278,28 +472,40 @@
         "ai_classified": true
       },
       {
-        "id": "03a665a8",
-        "title": "伊普森將收購美國生物科技公司卡托斯生技",
-        "url": "https://www.reuters.com/fr/affaires/ipsen-va-acqurir-la-biotech-amricaine-kartos-therapeutics-2026-06-29/",
+        "id": "707b9907",
+        "title": "中國對更多日本企業實施出口管制",
+        "url": "https://www.ft.com/content/9ca19c7e-bd25-4518-81e2-0b133e8dbed6",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-06-29 06:48:01",
+        "summary_zh": "中國政府近日宣布對更多日本企業實施出口管制，這是中國對日本出口管制的最新一輪。根據消息，中國將對日本的半導體、汽車零部件等產業實施出口管制。這一措施被視為中國對日本出口管制的升級。日本政府對此表示關注，稱將與中國進行溝通以解決問題。這一事件的背景是中日關係近年來的緊張。中國對日本出口管制的升級將對日本企業造成重大影響，可能會導致日本企業的出口額下降。這一事件的影響分析表明，中國對日本出口管制的升級將對中日關係造成重大影響，可能會導致雙方關係進一步緊張。後續展望是，中日兩國將需要進行溝通以解決問題，尋求雙方都能接受的解決方案。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "b49de7bf",
+        "title": "金融科技公司Plus500在美國推出運動賽事預測合約",
+        "url": "https://www.reuters.com/business/fintech-broker-plus500-starts-sports-events-based-prediction-contracts-us-2026-06-29/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-06-29 05:27:44",
-        "summary_zh": "伊普森公司宣布已與美國生物科技公司卡托斯生技簽署最終合併協議，伊普森將以45億美元收購卡托斯生技。這項收購將使伊普森進一步擴展其生物醫藥業務，進一步鞏固其在全球市場的競爭力。卡托斯生技是一家專注於開發新藥物的生物科技公司，該公司的技術和產品將與伊普森的業務結合，為患者提供更好的治療選擇。這項收購對於伊普森和卡托斯生技都將帶來新的機會和挑戰，將進一步推動生物醫藥業的發展。",
+        "published_at": "2026-06-29 06:47:50",
+        "summary_zh": "金融科技公司Plus500宣布在美國推出運動賽事預測合約服務。這項服務允許用戶在運動賽事中預測結果並賭注。Plus500的這項新服務旨在為用戶提供更具體的投資選擇，並且可能會吸引更多的用戶加入平台。然而，該服務的可用性僅限於付費會員。運動賽事預測合約服務的推出可能會引起市場的關注，尤其是在美國的金融市場。這項服務的影響尚未完全明確，但它可能會為Plus500帶來新的收入來源。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "b6c14919",
-        "title": "中國將領先兩項能源發展：可再生能源和煤炭消耗",
-        "url": "https://www.reuters.com/commentary/reuters-open-interest/china-will-lead-both-renewable-energy-coal-consumption-2026-06-29/",
-        "source": "Reuters",
+        "id": "74355e13",
+        "title": "英國脫歐可能導致通膨加劇，英格蘭銀行經濟學家表示",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-29/brexit-makes-inflation-spirals-more-likely-says-bank-of-england-economist-pill",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-29 05:11:48",
-        "summary_zh": "根據最新的能源預測報告，中國預計將在可再生能源和煤炭消耗兩方面領先全球。這項報告指出，中國的可再生能源產量將在 2025 年達到 1.3 兆瓦時，而煤炭消耗量則將在 2025 年達到 4.8 億噸。這項預測表明，中國正在努力實現既要減少碳排放，又要滿足能源需求的目標。然而，這項報告也引發了關於中國能源政策的爭議，部分人認為中國的能源政策仍然過於依賴煤炭。中國政府正在努力減少對煤炭的依賴，並推動可再生能源的發展。這項努力將對全球能源市場產生重大影響。",
-        "sentiment": "中性",
+        "published_at": "2026-06-29 06:47:30",
+        "summary_zh": "英格蘭銀行的一位經濟學家表示，英國脫歐可能導致通膨加劇。英國脫歐可能導致英鎊貶值，進而導致物價上漲。英格蘭銀行的分析顯示，英國脫歐可能導致通膨率上升至 2.5%。英國政府正在努力與歐盟進行談判，以確保脫歐過程順暢。然而，經濟學家仍然對未來的經濟情況感到擔憂。英國脫歐可能對全球經濟產生重大影響，因此需要關注。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
       {
         "id": "d1dda287",
@@ -314,195 +520,13 @@
         "ai_classified": true
       },
       {
-        "id": "e54c6607",
-        "title": "立法者要求禁止 AI 公司出售健康數據",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
-        "source": "The Verge AI",
+        "id": "6845beda",
+        "title": "威瑞森、BT allegedly 即將成立合資公司，為全球業務合作",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-29/verizon-bt-are-said-to-near-jv-deal-for-international-business",
+        "source": "Bloomberg Tech",
         "category": "finance",
-        "published_at": "2026-06-29T12:00:00-04:00",
-        "summary_zh": "美國立法者 Elizabeth Warren 和 Mary Gay Scanlon 正在籌劃一項新法案，禁止 AI 公司出售美國民眾的健康數據和位置資訊，包括透過聊天機器人如 ChatGPT 或 Claude 等共享的資訊。這項法案將會限制數據經紀人購買這類資訊的權利。立法者認為，這項法案有助於保護民眾的隱私權，並防止數據被滲透或被不當使用。這項法案的具體內容尚未公開，但預計將在未來幾周內提出。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "4d10b869",
-        "title": "投資人權衡中東局勢 歐洲股市收盤小跌",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5488255",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Tue, 30 Jun 2026 00:54:03 +0800",
-        "summary_zh": "投資人在美國與伊朗暫停交火的消息之際，正在衡量中東局勢的影響。就在此時，歐洲股市主要指數今天收盤小幅下挫。倫敦的FTSE 100指數小跌23.80點或0.23%，收10484.22點。法蘭克福的DAX指數下滑44.33點或0.12%，收35951.51點。這些數字表明，投資人對中東局勢的不確定性感到擔憂。這種不確定性可能會影響全球經濟和股市的走勢。投資人正在密切關注中東局勢的發展，以便做出明智的投資決策。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "d2adcba9",
-        "title": "肯塔基州遭遇慘重山洪暴發",
-        "url": "https://www.bbc.co.uk/news/videos/c5yzd666r6ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 14:18:11 GMT",
-        "summary_zh": "肯塔基州遭遇慘重山洪暴發，至少有四人死亡，60人進行水上救援和疏散。這場山洪暴發對州內的居民造成嚴重影響，許多人被困在水中，需要緊急救援。根據當地官員的報導，山洪暴發的原因是長時間的雨水和地形的特殊性，導致水快速流入低洼區域。這場災害對肯塔基州的經濟和社會造成了重大影響，當地政府正在努力進行救援和重建工作。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "63d6045d",
-        "title": "你們是加拿大英雄！- 被遺忘的主辦國在世界盃歷史上留下了深刻的印記",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cvg4pen8xq7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 00:02:44 GMT",
-        "summary_zh": "加拿大在這次世界盃上正在創造歷史，很可能會改變該國足球的面貌。這次世界盃的加拿大隊正在取得出色的成績，讓人們對加拿大足球未來充滿了希望。這種成績不僅僅是對加拿大足球的肯定，也是對該國足球發展潛力的證明。然而，這也意味著加拿大足球的挑戰和壓力將會增加。加拿大隊的成績將會對該國足球的未來產生重大影響，可能會帶來新的投資和發展機會。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "44854d1b",
-        "title": "新生兒母親在委內瑞拉地震中被救出後說，嬰兒讓她堅持活著",
-        "url": "https://www.bbc.co.uk/news/articles/clyw3rkj2p7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 07:51:05 GMT",
-        "summary_zh": "委內瑞拉近期遭遇嚴重的地震，造成大量傷亡。18天大的新生兒胡安·大衛（Juan David）在瓦礫中被發現，令人感到驚訝的拯救行動，成為委內瑞拉在這場天災中的一線希望。新生兒的母親在被救出後，表達了對兒子的感激之情，並說這個嬰兒讓她堅持活下去。這個事件也讓外界對委內瑞拉政府的救援工作感到關注，希望他們能夠盡快恢復基本服務，幫助受災民眾。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "db8daaf6",
-        "title": "德國北部一青少年中心槍擊案造成五人死亡",
-        "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 16:24:07 GMT",
-        "summary_zh": "德國北部城市斯塔德發生槍擊案，造成五人死亡。警方表示，已經逮捕了兩名嫌疑人，其中一名被認為是兇手。這起槍擊案發生在一所青少年中心，當地居民表示感到震驚和恐懼。警方正在調查案件，試圖找出兇手的動機和背景。這起槍擊案對當地社區造成了深遠的影響，許多人正在等待警方的進一步通報。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6a77f261",
-        "title": "剛果民主共和國禁止首都大型集會以防止埃博拉傳播",
-        "url": "https://www.bbc.co.uk/news/articles/c992k7zk981o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 14:40:58 GMT",
-        "summary_zh": "剛果民主共和國政府為防止埃博拉病毒傳播，禁止首都大型集會。然而，反對派政客指責政府利用疫情來阻止即將舉行的抗議活動。這一措施引發了對政府管控和人權保護的爭議。剛果民主共和國政府面臨著如何平衡防疫措施和維護民主自由的挑戰。疫情的爆發對當地人民的生活造成了重大影響，政府的決定將如何影響到未來的抗議活動和社會穩定，仍待觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f2aa9a89",
-        "title": "美國承認與伊朗交換空襲後同意暫停軍事行動",
-        "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 14:52:10 GMT",
-        "summary_zh": "美國與伊朗近日發生了一系列空襲事件，雙方互指違反停火協議。這些事件發生在週末，美國和伊朗都指責對方違反停火協議。美國的承諾意味著雙方將暫停軍事行動，避免進一步升級。伊朗的行動引發了美國的反應，美國對伊朗的空軍基地發動了空襲。伊朗隨後對美國的軍事基地發動了報復性空襲。這些事件引發了國際社會的關注，各國都在關注美國和伊朗的動向。美國的承諾意味著雙方將暫停軍事行動，避免進一步升級。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1099b5a9",
-        "title": "巴基斯坦對阿富汗邊境發動猛烈攻擊",
-        "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 15:46:50 GMT",
-        "summary_zh": "巴基斯坦近日對阿富汗邊境發動猛烈攻擊，據巴基斯坦方面表示，這是對「近期針對無辜民眾的恐怖攻擊」的回應。這一行動引發了對巴基斯坦軍事行動的關注，同時也引發了對阿富汗局勢的擔憂。巴基斯坦的軍事行動可能會對阿富汗的安全局勢產生重大影響，同時也可能會對當地的平民造成傷害。這一事件的發展仍在進展中，外界正在密切關注巴基斯坦的行動和阿富汗的反應。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "577ceb71",
-        "title": "南韓足球教練辭職　總統要求調查世界盃失利",
-        "url": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 07:18:14 GMT",
-        "summary_zh": "南韓足球代表隊在世界盃中未能晉級八強，教練因此辭職。南韓總統要求調查球隊在世界盃的表現，了解失利的原因。南韓在世界盃的表現令人失望，球隊在小組賽中取得兩勝一負的成績，但在淘汰賽中未能取得勝利，最終被淘汰。教練的辭職是球隊失利的直接結果，總統要求調查以確保未來的球隊表現能夠改善。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e513bb44",
-        "title": "中國出口黑名單新增40家日本實體 涵蓋無人機、核能與國防領域",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5488146",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 21:13:02 +0800",
-        "summary_zh": "中國近日鎖定無人機、核能與防衛領域，將40家日本實體列入黑名單。這項措施旨在實施更嚴格的管制，限制日本取得包括稀土礦在內的軍民兩用物資。這一決定進一步加劇了中日關係的緊張局勢。中國商務部表示，這些實體涉及敏感技術和產品的出口，將對日本產業造成重大影響。這一措施也引發了對中日關係未來走向的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "51d47aa9",
-        "title": "健身品牌創辦人及奧運選手 Les Mills 逝世 91 歲",
-        "url": "https://www.bbc.co.uk/news/articles/c5yzxpzy81vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 10:55:41 GMT",
-        "summary_zh": "健身品牌 Les Mills International 的創辦人 Les Mills 逝世，享年 91 歲。該品牌以音樂為背景的舞蹈健身課程如 Body Pump 和 Body Combat 等全球知名。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cdb72bc0",
-        "title": "印度記者譴責「否認」知名編輯投票和護照權利",
-        "url": "https://www.bbc.co.uk/news/articles/cpv37jwd3zzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 07:58:42 GMT",
-        "summary_zh": "印度記者們譴責政府否認知名編輯拉賈戈帕爾（Rajagopal）投票和護照權利。拉賈戈帕爾指控，政府刪除了他的選民登記資料，導致他無法更新護照。這一事件引發了印度媒體界的強烈譴責，批評政府侵犯了新聞自由和人權。拉賈戈帕爾是一位資深的印度記者和編輯，他曾經在多家媒體工作過。政府的行動被視為對新聞自由的打壓，引發了社會和媒體界的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "68b1086f",
-        "title": "歐洲高溫熱浪致1,300人喪生，世衛組織警告歐洲未準備好面對高溫",
-        "url": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 28 Jun 2026 19:37:07 GMT",
-        "summary_zh": "近期的歐洲高溫熱浪已經造成1,300人喪生，世衛組織表示，這是由於氣候變化導致的極端天氣。世衛組織總幹事Tedros Adhanom Ghebreyesus警告，歐洲並未準備好面對高溫天氣。德國近日錄得41.7攝氏度的最高溫度，成為該國歷史上最高的溫度紀錄。高溫導致的死亡人數不斷增加，世衛組織呼籲各國政府採取措施應對氣候變化。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6e384b48",
-        "title": "南非高級警官倖存刺殺案",
-        "url": "https://www.bbc.co.uk/news/articles/c9v2x700l8vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 12:38:19 GMT",
-        "summary_zh": "南非一名高級警官，負責犯罪情報的副總監Maj-Gen Feroz Khan，正面臨著警方腐敗醜聞的調查。根據消息，他本週預計出席調查會議。雖然具體的刺殺事件細節尚未公布，但這一事件引發了對南非警方腐敗問題的關注。南非警方腐敗問題已經存在多年，對於國家安全和社會穩定造成了重大影響。這一刺殺事件可能是警方腐敗問題的又一例證。南非政府應該加強對警方腐敗問題的調查和打擊，確保警方的誠信和效率。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0ba3bd42",
-        "title": "韓國公布 8800 億美元晶片和 AI 投資計畫",
-        "url": "https://www.bbc.co.uk/news/articles/c9q2pwzngjqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 08:55:29 GMT",
-        "summary_zh": "韓國政府近日公布了一項 8800 億美元的晶片和人工智慧投資計畫。這項計畫旨在加強韓國在全球晶片和 AI 界的競爭力。然而，這項計畫的出現也引發了對韓國是否能夠與其他地區競爭的疑問。根據報告，韓國的競爭對手如台灣、中國和日本都已經在晶片和其他技術領域投入大量資金。韓國政府認為，這項投資計畫將幫助韓國企業在全球市場上佔據重要地位。然而，投資計畫的具體細節尚未公布，投資將如何分配以及投資效益如何仍待觀察。這項計畫的出現也引發了對韓國經濟未來發展的關注。",
+        "published_at": "Mon, 29 Jun 2026 05:45:00 GMT",
+        "summary_zh": "根據最新消息，美國電信巨頭威瑞森和英國電信公司BT即將成立合資公司，為全球業務合作。這項合作將使兩家公司能夠共同發展全球業務，包括通信網絡、數據中心和雲計算等領域。這項協議將使兩家公司能夠分享資源、技術和市場知識，進一步加強全球競爭力。這項合作將對全球通信業界產生重大影響，可能會導致市場格局的變化。目前尚未有更多資訊可供確認，但這項合作被視為是兩家公司在全球業務上的重要合作。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -518,19 +542,7 @@
         "published_at": "2026-06-29 05:03:50",
         "summary_zh": "高盛表示，儘管亞洲股票在前六個月的表現亮眼，但仍有升值空間。投資者應該持續將投資分散到商品市場。高盛的這一觀點是基於亞洲市場的持續成長和商品價格的穩定。投資者可以通過投資亞洲的優秀企業來實現這一目標。高盛的建議是投資者應該持續觀察亞洲市場的發展，保持投資的多樣化。這樣可以幫助投資者在市場波動時保持穩定。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "e0d2f6ee",
-        "title": "川普再吞敗！美最高法院判決：庫克暫留任聯準會理事",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5488243",
-        "source": "自由時報財經",
-        "category": "stock_us",
-        "published_at": "Mon, 29 Jun 2026 23:56:32 +0800",
-        "summary_zh": "美國最高法院29日判決，美國總統川普無權開除聯準會理事庫克。這項判決維持了聯準會的獨立性，使其免於白宮的挑戰。庫克是聯準會的首位非裔美國人理事，也是第一位女性理事。她的任命是由前總統拜登所做的。川普政府曾試圖開除她，但最高法院認為這違反了聯準會的獨立性原則。這項判決對於聯準會的運作和美股市場都有重要影響。聯準會的獨立性是其運作的基石，保證了它能夠獨立地做出經濟政策決策。這項判決也表明了最高法院對於聯準會的支持和保護。",
-        "sentiment": "負面",
-        "is_breaking": true,
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -568,9 +580,117 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "e0d2f6ee",
+        "title": "川普再吞敗！美最高法院判決：庫克暫留任聯準會理事",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5488243",
+        "source": "自由時報財經",
+        "category": "stock_us",
+        "published_at": "Mon, 29 Jun 2026 23:56:32 +0800",
+        "summary_zh": "美國最高法院29日判決，美國總統川普無權開除聯準會理事庫克。這項判決維持了聯準會的獨立性，使其免於白宮的挑戰。庫克是聯準會的首位非裔美國人理事，也是第一位女性理事。她的任命是由前總統拜登所做的。川普政府曾試圖開除她，但最高法院認為這違反了聯準會的獨立性原則。這項判決對於聯準會的運作和美股市場都有重要影響。聯準會的獨立性是其運作的基石，保證了它能夠獨立地做出經濟政策決策。這項判決也表明了最高法院對於聯準會的支持和保護。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "ed1a1f44",
+        "title": "科嶠與Brooks技術授權 攻晶圓傳載盒清洗設備",
+        "url": "https://www.cna.com.tw/news/afe/202606290313.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 21:13:45 +0800",
+        "summary_zh": "科嶠工業與國際半導體設備商Brooks Automation簽訂技術授權協議，雙方將結合技術與製造能力，推動半導體晶圓傳載盒（FOUP）清洗設備於全球市場的開發與應用。這項協議將使科嶠的晶圓傳載盒清洗設備技術獲得全球獨家授權，推動全球市場的開發與應用。這項合作將進一步強化科嶠在半導體設備領域的競爭力，同時也將帶來新的商業機會。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "94b2f2b4",
+        "title": "製藥業海外布局報捷 美時攻美、台康拓日市場",
+        "url": "https://www.cna.com.tw/news/afe/202606290311.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 21:03:41 +0800",
+        "summary_zh": "製藥業者海外布局再傳進展，美時取得美國食品藥物管理局（FDA）核准流感藥物Xofluza首款學名藥資格，將搶攻美國市場。這標誌著美時在美國市場的進一步擴張。另一方面，台康生技與日本藥廠簽署乳癌生物相似藥EG1206A日本市場授權合作，擴大亞洲布局。這項合作將使台康生技進一步進入日本市場，拓展其在亞洲的市場份額。這些發展表明，台灣製藥業在全球市場的競爭力正在增強。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3b110610",
+        "title": "英美菸草集團推動AI轉型 9000個職位受影響",
+        "url": "https://www.cna.com.tw/news/aopl/202606290308.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 20:55:35 +0800",
+        "summary_zh": "英國英美菸草集團宣布推動內部人工智慧轉型計畫，以削減成本、提升獲利能力，並因應監管挑戰及新產品上市延宕等情況。為此，集團計劃裁減約20%的員工人數，約9000個職位將受影響。這項轉型計畫旨在利用AI技術來改善業務流程、提高效率，並在競爭激烈的菸草業中保持競爭力。然而，這項裁員措施也引發了對員工權益和未來發展的擔憂。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "0b234537",
+        "title": "台灣前進馬來西亞 深入校園搶人才",
+        "url": "https://www.cna.com.tw/news/afe/202606290275.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 19:05:23 +0800",
+        "summary_zh": "馬來西亞是東南亞半導體產業的重鎮，吸引全球科技業進駐。為了搶佔人才市場，台灣經濟部透過Contact TAIWAN平台深入大學校園攬才。馬來西亞學者認為，台灣擁有完整的半導體與電子產業聚落，未來雙方在人才及產業合作方面有很大的發展潛力。這項合作不僅能夠幫助台灣搶佔人才市場，也能夠促進雙方的經濟合作。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "512e5eb2",
+        "title": "美國連43季居國銀最大曝險國 美中差距再刷新高",
+        "url": "https://www.cna.com.tw/news/afe/202606290269.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 18:52:10 +0800",
+        "summary_zh": "美國連續43季蟬聯國銀最大曝險國，金額續創歷史新高。根據中央銀行公布的3月底國家風險統計，美國在直接交易對手基礎上，仍然是國銀最大曝險國。中國維持第3名，國銀對美中曝險的差距持續擴大，連續12季突破千億美元規模，並再創新高紀錄。這意味著美國對國銀的風險曝露程度遠高於中國。這種差距的擴大，可能會對全球金融市場產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a46178af",
+        "title": "台電防未來一週高溫 強化高負載區設備維護保供電",
+        "url": "https://www.cna.com.tw/news/ahel/202606290265.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 18:50:02 +0800",
+        "summary_zh": "氣象署預測未來一週大台北、中南部及花東地區將防範攝氏36度高溫。為應對高溫帶來的用電量增長，台電已經開始強化高負載區域電力設備的維護工作。除了進行設備檢查外，台電還規劃使用紅外線熱影像儀進行設備檢測，適時進行預防性設備更換，以確保供電穩定。這項措施旨在防止高溫對電力系統的影響，確保民眾的生活需求得到滿足。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "15eba3ac",
+        "title": "外資賣超60億元調節力積電 加碼友達逾17萬張",
+        "url": "https://www.cna.com.tw/news/afe/202606290263.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 18:38:57 +0800",
+        "summary_zh": "台股今天量縮反彈428.14點，外資賣超新台幣60.11億元。調節力積電2萬6786張居冠，成為外資賣超的第一名。另外，元大台灣50（0050）和華邦電也受到外資的關注，分別賣超2萬1649張和2萬610張。這些數據表明，外資仍然對台股有著一定的影響力，尤其是在選股方面。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "38d05b93",
+        "title": "環境雙法啟動 零售業搶攻循環消費商機",
+        "url": "https://www.cna.com.tw/news/afe/202606290257.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 29 Jun 2026 18:26:45 +0800",
+        "summary_zh": "隨著7月1日環境雙法的啟動，台灣零售業者開始加速布局循環經濟與綠色設計。全家便利商店宣布推出自有品牌商品，使用咖啡渣、茶纖維等回收材料製成，並擴大咖啡渣回收店數。另一方面，新光三越則舉辦綠循環生活展，集結60個永續品牌與回收活動，搶攻永續消費商機。這些零售業者的行動，旨在應對環境雙法的新規定，並爭取永續發展的機會。環境雙法的啟動將對台灣零售業帶來重大影響，業者必須迅速適應新的環境規範。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "9ae9f18c",
         "title": "美伊衝突降溫！美股開高 台積電ADR、台指期夜盤全漲了",
@@ -664,90 +784,6 @@
         "published_at": "Mon, 29 Jun 2026 20:46:43 +0800",
         "summary_zh": "科嶠工業宣布與國際半導體設備商Brooks簽訂為期15年的技術授權協議。這項協議將加速科嶠工業的FOUP清洗設備全球化發展。FOUP清洗設備是半導體製造業中的重要設備，能夠有效清洗半導體晶片。這項協議的簽署將有助於科嶠工業在全球市場上擴大業務，進一步鞏固其在半導體製造業中的領導地位。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ed1a1f44",
-        "title": "科嶠與Brooks技術授權 攻晶圓傳載盒清洗設備",
-        "url": "https://www.cna.com.tw/news/afe/202606290313.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 21:13:45 +0800",
-        "summary_zh": "科嶠工業與國際半導體設備商Brooks Automation簽訂技術授權協議，雙方將結合技術與製造能力，推動半導體晶圓傳載盒（FOUP）清洗設備於全球市場的開發與應用。這項協議將使科嶠的晶圓傳載盒清洗設備技術獲得全球獨家授權，推動全球市場的開發與應用。這項合作將進一步強化科嶠在半導體設備領域的競爭力，同時也將帶來新的商業機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "94b2f2b4",
-        "title": "製藥業海外布局報捷 美時攻美、台康拓日市場",
-        "url": "https://www.cna.com.tw/news/afe/202606290311.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 21:03:41 +0800",
-        "summary_zh": "製藥業者海外布局再傳進展，美時取得美國食品藥物管理局（FDA）核准流感藥物Xofluza首款學名藥資格，將搶攻美國市場。這標誌著美時在美國市場的進一步擴張。另一方面，台康生技與日本藥廠簽署乳癌生物相似藥EG1206A日本市場授權合作，擴大亞洲布局。這項合作將使台康生技進一步進入日本市場，拓展其在亞洲的市場份額。這些發展表明，台灣製藥業在全球市場的競爭力正在增強。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0b234537",
-        "title": "台灣前進馬來西亞 深入校園搶人才",
-        "url": "https://www.cna.com.tw/news/afe/202606290275.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 19:05:23 +0800",
-        "summary_zh": "馬來西亞是東南亞半導體產業的重鎮，吸引全球科技業進駐。為了搶佔人才市場，台灣經濟部透過Contact TAIWAN平台深入大學校園攬才。馬來西亞學者認為，台灣擁有完整的半導體與電子產業聚落，未來雙方在人才及產業合作方面有很大的發展潛力。這項合作不僅能夠幫助台灣搶佔人才市場，也能夠促進雙方的經濟合作。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "512e5eb2",
-        "title": "美國連43季居國銀最大曝險國 美中差距再刷新高",
-        "url": "https://www.cna.com.tw/news/afe/202606290269.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 18:52:10 +0800",
-        "summary_zh": "美國連續43季蟬聯國銀最大曝險國，金額續創歷史新高。根據中央銀行公布的3月底國家風險統計，美國在直接交易對手基礎上，仍然是國銀最大曝險國。中國維持第3名，國銀對美中曝險的差距持續擴大，連續12季突破千億美元規模，並再創新高紀錄。這意味著美國對國銀的風險曝露程度遠高於中國。這種差距的擴大，可能會對全球金融市場產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a46178af",
-        "title": "台電防未來一週高溫 強化高負載區設備維護保供電",
-        "url": "https://www.cna.com.tw/news/ahel/202606290265.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 18:50:02 +0800",
-        "summary_zh": "氣象署預測未來一週大台北、中南部及花東地區將防範攝氏36度高溫。為應對高溫帶來的用電量增長，台電已經開始強化高負載區域電力設備的維護工作。除了進行設備檢查外，台電還規劃使用紅外線熱影像儀進行設備檢測，適時進行預防性設備更換，以確保供電穩定。這項措施旨在防止高溫對電力系統的影響，確保民眾的生活需求得到滿足。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "15eba3ac",
-        "title": "外資賣超60億元調節力積電 加碼友達逾17萬張",
-        "url": "https://www.cna.com.tw/news/afe/202606290263.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 18:38:57 +0800",
-        "summary_zh": "台股今天量縮反彈428.14點，外資賣超新台幣60.11億元。調節力積電2萬6786張居冠，成為外資賣超的第一名。另外，元大台灣50（0050）和華邦電也受到外資的關注，分別賣超2萬1649張和2萬610張。這些數據表明，外資仍然對台股有著一定的影響力，尤其是在選股方面。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "38d05b93",
-        "title": "環境雙法啟動 零售業搶攻循環消費商機",
-        "url": "https://www.cna.com.tw/news/afe/202606290257.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 18:26:45 +0800",
-        "summary_zh": "隨著7月1日環境雙法的啟動，台灣零售業者開始加速布局循環經濟與綠色設計。全家便利商店宣布推出自有品牌商品，使用咖啡渣、茶纖維等回收材料製成，並擴大咖啡渣回收店數。另一方面，新光三越則舉辦綠循環生活展，集結60個永續品牌與回收活動，搶攻永續消費商機。這些零售業者的行動，旨在應對環境雙法的新規定，並爭取永續發展的機會。環境雙法的啟動將對台灣零售業帶來重大影響，業者必須迅速適應新的環境規範。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       }
