@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-30T13:04:51.571621+08:00",
+  "generated_at": "2026-06-30T14:04:20.657402+08:00",
   "risk_signals": [
-    "🟢 台股加權 46579.51（正常）",
+    "🟢 台股加權 46125.91（正常）",
     "🟢 S&P 500 7440.43（正常）",
     "🟢 VIX 恐慌指數 17.65（正常）",
     "🟢 MOVE 債市波動 66.79（正常）",
-    "🟢 美元指數 101.32（正常）",
-    "🟢 黃金 4002.7（正常）",
+    "🟢 美元指數 101.37（正常）",
+    "🟢 黃金 3993.4（正常）",
     "🟢 美債10Y殖利率 4.37（正常）",
-    "🟢 原油 WTI 70.23（正常）",
+    "🟢 原油 WTI 70.17（正常）",
     "🟢 美元/台幣 31.91（正常）"
   ],
-  "ai_summary": "市場氛圍偏向樂觀，指標顯示投資者對市場前景持樂觀態度，各大股市均錄得上漲。",
+  "ai_summary": "市場指標表明市場正在穩定回升，投資氣氛逐漸恢復。台股和美股指數上漲，恐慌指數維持在正常水平，表明投資者對市場風險的評估正在趨於理性。整體來說，市場氛圍處於穩定狀態。",
   "market": {
     "TWII": {
-      "price": 46579.51,
-      "change_pct": 3.51
+      "price": 46125.91,
+      "change_pct": 2.5
     },
     "SP500": {
       "price": 7440.43,
@@ -38,35 +38,143 @@
       "change_pct": -0.46
     },
     "DXY": {
-      "price": 101.32,
-      "change_pct": 0.2
+      "price": 101.37,
+      "change_pct": 0.25
     },
     "GOLD": {
-      "price": 4002.7,
-      "change_pct": -0.49
+      "price": 3993.4,
+      "change_pct": -0.72
     },
     "OIL": {
-      "price": 70.23,
-      "change_pct": -0.73
+      "price": 70.17,
+      "change_pct": -0.82
     },
     "USDTWD": {
       "price": 31.91,
-      "change_pct": 0.2
+      "change_pct": 0.18
     }
   },
   "macro": {},
   "categories": {
     "whitehouse": [
       {
+        "id": "a50c6ab9",
+        "title": "最高法院裁定川普可以解僱監管機構，但在Fed總督和E Jean Carroll案件中裁定不在他的支持下",
+        "url": "https://www.theguardian.com/us-news/live/2026/jun/29/supreme-court-donald-trump-administration-us-politics-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 30 Jun 2026 02:07:14 GMT",
+        "summary_zh": "最高法院今天發布了一些最後的判決，包括川普試圖終止出生公民權和解僱聯邦儲備總督的努力。最高法院裁定川普可以解僱聯邦監管機構，但裁定解僱聯邦儲備總督的行動違憲。最高法院還拒絕了川普對E Jean Carroll性侵案的上訴，判決川普需支付5千萬美元的賠償金。這些判決在美國社會引起了強烈反應，許多人批評最高法院的保守派法官推動了白人優越主義的議程。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a0954dd2",
+        "title": "導演被判刑兩年半，詐騙Netflix 11 萬美元",
+        "url": "https://www.theguardian.com/us-news/2026/jun/29/carl-rinsch-47-ronin-netflix-fraud",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 30 Jun 2026 01:25:16 GMT",
+        "summary_zh": "好萊塢導演 Carl Rinsch 因詐騙 Netflix 11 萬美元而被判刑兩年半。根據檢方和庭上證人證詞，他聲稱需要 11 萬美元來完成科幻系列《白馬》但卻將款項轉入個人帳戶，最終用於購買豪車、手錶、衣服和家居用品，包括兩張價值 638 萬美元的床墊。支持他的人包括 Keanu Reeves，他們要求法院對他寬大處理。Rinsch 最知名的作品是 2013 年的武俠奇幻片《47 Ronin》。他在 12 月被判犯有聯邦電信詐騙和其他罪名。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "445aad9c",
+        "title": "川普試圖上訴至最高法院，無效判決仍維持",
+        "url": "https://www.theguardian.com/us-news/2026/jun/29/trump-news-at-a-glance-e-jean-carroll",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 30 Jun 2026 01:03:17 GMT",
+        "summary_zh": "川普在2023年被紐約陪審團裁定有罪，涉及性侵犯作家E Jean Carroll，並對她進行誹謗。川普試圖將此判決上訴至最高法院，但最高法院拒絕審理此案。最高法院沒有提供任何理由或解釋，亦無任何異議聲音。這意味著該判決仍維持，對川普的民事判決仍為5,000萬美元。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "3937b87b",
+        "title": "兩名共和黨丹·史都華可競爭阿拉斯加初選，最高法院裁決",
+        "url": "https://www.theguardian.com/us-news/2026/jun/29/dan-sullivan-alaska-primary",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 30 Jun 2026 00:54:22 GMT",
+        "summary_zh": "阿拉斯加州最高法院昨日裁決，挑戰者丹·史都華可與同名共和黨參議員競爭阿拉斯加州的參議員席位。這項裁決是在州法院法官湯瑪斯·馬修斯（Thomas Matthews）昨日發表的判決後不久宣布的，馬修斯認為阿拉斯加州選舉委員會（Division of Elections）濫用了自己的裁量權，將挑戰者史都華從選票中移除。最高法院在一份簡短的判決中確認了馬修斯的判決，但將挑戰者如何在選票上被列出的問題退回給選舉委員會，要求他們在阿拉斯加州選票設計法的框架內解決。這項裁決對阿拉斯加州的政治格局將產生重大影響，挑戰者史都華將在8月份的初選中與同名共和黨參議員競爭。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7eda894a",
+        "title": "舊金山天主教教區同意支付395億美元和解超過500宗兒童性虐待索賠",
+        "url": "https://www.theguardian.com/us-news/2026/jun/29/san-francisco-archdiocese-settlement-child-sexual-abuse",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 29 Jun 2026 22:30:15 GMT",
+        "summary_zh": "舊金山天主教教區同意支付395億美元和解超過500宗兒童性虐待索賠案件。根據律師的說法，這些索賠案件指控教會官員犯有兒童性虐待罪。教區主教Salvatore Cordileone將被要求為每位受害者寫一封道歉信，並實施兒童保護改革措施。這項和解將對受害者和教區都有重大影響。受害者將獲得補償，而教區將必須改善其保護兒童的措施。這項和解將為教區帶來新的挑戰和責任。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "01e4421d",
+        "title": "美國男子在棄置女友屍體後死於心臟病發",
+        "url": "https://www.theguardian.com/us-news/2026/jun/29/man-dies-heart-attack-discarding-girlfriend-body",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 29 Jun 2026 19:11:47 GMT",
+        "summary_zh": "美國阿拉巴馬州發生了一起極為詭異的案件，44歲男子丹尼爾·羅賓斯(Daniel Robbins)被控殺害47歲女友傑西卡·福爾茲(Jessica Folds)，然後在棄置屍體後死於心臟病發。警方發現羅賓斯的屍體與傑西卡的屍體在一處荒野的木頭區域旁邊的棄車處。根據當地官員的說法，這名男子在殺害女友後，試圖將屍體棄置在荒野中，但最終因心臟病發作而死亡。這起案件引起了當地警方的關注，並正在進行調查中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6cbe1fce",
+        "title": "加州大學終止聘用支持巴勒斯坦的教授，仲裁裁決恢復職位並要求賠償",
+        "url": "https://www.theguardian.com/us-news/2026/jun/29/california-professor-gaza-protest-reinstated",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 29 Jun 2026 19:09:14 GMT",
+        "summary_zh": "加州大學系統終止聘用一名教授，理由是她參與巴勒斯坦抗議活動。該教授 Sang Hea Kil 是加州大學系統內第一位因參與抗議活動而被終止聘用的教授。她被終止聘用後，多次上訴，最後仲裁裁決認為加州大學系統違法，要求恢復她的職位。 Kil 表示，將會對加州大學系統提出訴訟，指控其針對她進行歧視和報復性行動。這一裁決被視為對學術自由和言論自由的重要勝利。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3f3af7d6",
+        "title": "民主黨中心派反彈：民主社會主義候選人大勝初選",
+        "url": "https://www.theguardian.com/us-news/2026/jun/29/centrist-democrats-democratic-socialists-backlash",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 29 Jun 2026 17:25:51 GMT",
+        "summary_zh": "民主黨內部的老派人士開始反彈，對民主社會主義者（DSA）在初選中的勝利感到不滿。近日，民主黨內的重要人物開始放棄「不論紅還是藍都支持民主黨」的口號，開始呼籲黨內正式與進步派分道揚鑣。這些人認為，民主黨可能已經到了該面對自己的左派翼的時候。民主黨的老派人士認為，該黨的進步派翼已經過於左傾，需要進行改革。這種反彈可能會對黨內的政治格局造成重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "952f1517",
         "title": "特朗普在最高法院的戲劇性一天：一勝三負",
         "url": "https://www.bbc.co.uk/news/articles/ceqdzd7zx24o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "source": "BBC North America",
         "category": "whitehouse",
         "published_at": "Mon, 29 Jun 2026 20:34:52 GMT",
         "summary_zh": "特朗普在最高法院的一天是戲劇性的，雖然他在一項判決中獲得了勝利，但另一方面，他也遭遇了三個重大失利。特朗普在一項判決中獲得了勝利，這項判決擴大了總統的權力，允許他更容易地移除和更換監管者。然而，這項勝利並不能抵消他在其他三項判決中的失利。這些判決對於特朗普政府的政策和行動產生了重大影響，特別是在監管和執法方面。這些判決的結果將對美國的政治和社會產生深遠的影響。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "66b8b444",
+        "title": "最高法院阻止川普試圖辭退聯邦儲備委員會主席麗莎·庫克",
+        "url": "https://www.bbc.co.uk/news/articles/cy4wwy0nkeno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 29 Jun 2026 16:51:52 GMT",
+        "summary_zh": "最高法院的決定被視為中央銀行獨立的勝利，將辭退爭議重新送回下級法院。美國最高法院最近做出一項重要決定，阻止前總統川普試圖辭退聯邦儲備委員會主席麗莎·庫克。這一決定被視為中央銀行獨立的勝利，表明最高法院對中央銀行的獨立性有著堅定的信念。這一決定對美國的經濟政策和中央銀行的運作將產生重大影響。這一爭議的下一步將在下級法院進行，美國人將密切關注這一事件的進展。",
+        "sentiment": "正面",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -79,18 +187,6 @@
         "summary_zh": "美國最高法院駁回川普總統對E Jean Carroll性侵案的上訴，這意味著川普將必須支付她在案件中獲得的5000萬美元（約3600萬鎊）賠償金。這起案件始於2019年，當時E Jean Carroll控訴川普在2005年或2006年在紐約的一家精品店內對她進行性侵犯。川普曾否認這一指控，但法庭最終判決他有罪。川普的律師已經表示將會上訴，但美國最高法院的決定意味著這一路線將會被打斷。這一判決對川普的政治影響可能會很大，尤其是在2024年美國總統選舉前。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "66b8b444",
-        "title": "最高法院阻止川普試圖辭退聯邦儲備委員會主席麗莎·庫克",
-        "url": "https://www.bbc.co.uk/news/articles/cy4wwy0nkeno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 29 Jun 2026 16:51:52 GMT",
-        "summary_zh": "最高法院的決定被視為中央銀行獨立的勝利，將辭退爭議重新送回下級法院。美國最高法院最近做出一項重要決定，阻止前總統川普試圖辭退聯邦儲備委員會主席麗莎·庫克。這一決定被視為中央銀行獨立的勝利，表明最高法院對中央銀行的獨立性有著堅定的信念。這一決定對美國的經濟政策和中央銀行的運作將產生重大影響。這一爭議的下一步將在下級法院進行，美國人將密切關注這一事件的進展。",
-        "sentiment": "正面",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -164,93 +260,9 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "a50c6ab9",
-        "title": "最高法院裁定川普可以解僱監管機構，但在Fed總督和E Jean Carroll案件中裁定不在他的支持下",
-        "url": "https://www.theguardian.com/us-news/live/2026/jun/29/supreme-court-donald-trump-administration-us-politics-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 30 Jun 2026 02:07:14 GMT",
-        "summary_zh": "最高法院今天發布了一些最後的判決，包括川普試圖終止出生公民權和解僱聯邦儲備總督的努力。最高法院裁定川普可以解僱聯邦監管機構，但裁定解僱聯邦儲備總督的行動違憲。最高法院還拒絕了川普對E Jean Carroll性侵案的上訴，判決川普需支付5千萬美元的賠償金。這些判決在美國社會引起了強烈反應，許多人批評最高法院的保守派法官推動了白人優越主義的議程。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7eda894a",
-        "title": "舊金山天主教教區同意支付395億美元和解超過500宗兒童性虐待索賠",
-        "url": "https://www.theguardian.com/us-news/2026/jun/29/san-francisco-archdiocese-settlement-child-sexual-abuse",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 29 Jun 2026 22:30:15 GMT",
-        "summary_zh": "舊金山天主教教區同意支付395億美元和解超過500宗兒童性虐待索賠案件。根據律師的說法，這些索賠案件指控教會官員犯有兒童性虐待罪。教區主教Salvatore Cordileone將被要求為每位受害者寫一封道歉信，並實施兒童保護改革措施。這項和解將對受害者和教區都有重大影響。受害者將獲得補償，而教區將必須改善其保護兒童的措施。這項和解將為教區帶來新的挑戰和責任。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "01e4421d",
-        "title": "美國男子在棄置女友屍體後死於心臟病發",
-        "url": "https://www.theguardian.com/us-news/2026/jun/29/man-dies-heart-attack-discarding-girlfriend-body",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 29 Jun 2026 19:11:47 GMT",
-        "summary_zh": "美國阿拉巴馬州發生了一起極為詭異的案件，44歲男子丹尼爾·羅賓斯(Daniel Robbins)被控殺害47歲女友傑西卡·福爾茲(Jessica Folds)，然後在棄置屍體後死於心臟病發。警方發現羅賓斯的屍體與傑西卡的屍體在一處荒野的木頭區域旁邊的棄車處。根據當地官員的說法，這名男子在殺害女友後，試圖將屍體棄置在荒野中，但最終因心臟病發作而死亡。這起案件引起了當地警方的關注，並正在進行調查中。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6cbe1fce",
-        "title": "加州大學終止聘用支持巴勒斯坦的教授，仲裁裁決恢復職位並要求賠償",
-        "url": "https://www.theguardian.com/us-news/2026/jun/29/california-professor-gaza-protest-reinstated",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 29 Jun 2026 19:09:14 GMT",
-        "summary_zh": "加州大學系統終止聘用一名教授，理由是她參與巴勒斯坦抗議活動。該教授 Sang Hea Kil 是加州大學系統內第一位因參與抗議活動而被終止聘用的教授。她被終止聘用後，多次上訴，最後仲裁裁決認為加州大學系統違法，要求恢復她的職位。 Kil 表示，將會對加州大學系統提出訴訟，指控其針對她進行歧視和報復性行動。這一裁決被視為對學術自由和言論自由的重要勝利。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3f3af7d6",
-        "title": "民主黨中心派反彈：民主社會主義候選人大勝初選",
-        "url": "https://www.theguardian.com/us-news/2026/jun/29/centrist-democrats-democratic-socialists-backlash",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 29 Jun 2026 17:25:51 GMT",
-        "summary_zh": "民主黨內部的老派人士開始反彈，對民主社會主義者（DSA）在初選中的勝利感到不滿。近日，民主黨內的重要人物開始放棄「不論紅還是藍都支持民主黨」的口號，開始呼籲黨內正式與進步派分道揚鑣。這些人認為，民主黨可能已經到了該面對自己的左派翼的時候。民主黨的老派人士認為，該黨的進步派翼已經過於左傾，需要進行改革。這種反彈可能會對黨內的政治格局造成重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "ai": [
-      {
-        "id": "572ffbbb",
-        "title": "Meta 合約工人假扮成青少年與對手聊機測試自殺、性、毒品等高風險主題反應",
-        "url": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Mon, 29 Jun 2026 21:49:26 +0000",
-        "summary_zh": "據WIRED調查，Meta一項項目的數百名合約工人假扮成青少年，測試對手聊機如Gemini和ChatGPT對高風險主題的反應。這些合約工人試圖了解這些聊機如何處理自殺、性、毒品等敏感話題。這項行為引發了對人工智慧安全性和隱私保護的關注。這些合約工人是否有權利進行這類測試？這項行為是否違反了任何法律或道德規範？這些問題將引發廣泛的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "09ed58d3",
-        "title": "這個人形機器人令人恐懼的工作效率",
-        "url": "https://www.wired.com/story/this-robot-is-going-to-replace-your-interns-flexion/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Mon, 29 Jun 2026 08:00:00 +0000",
-        "summary_zh": "Flexion Robotics 是一家由前 NVIDIA 工程師創辦的初創公司，該公司有個聰明的方法來訓練機器人做有用的工作。這些機器人通過模擬人類的工作流程和習慣來學習，從而提高工作效率。這種方法讓 Flexion 的機器人在辦公室環境中表現出令人印象深刻的工作能力。然而，這種能力也引發了對於機器人取代人類工作的擔憂。Flexion 的創辦人認為，這些機器人可以幫助人類工作更加高效和有效率，同時也可以減少工作中的錯誤率。這種新技術的出現，讓人們開始思考人類和機器人的工作關係會如何變化。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
       {
         "id": "9058bcd2",
         "title": "AI 工具不是你的「同事」",
@@ -288,6 +300,30 @@
         "ai_classified": true
       },
       {
+        "id": "572ffbbb",
+        "title": "Meta 合約工人假扮成青少年與對手聊機測試自殺、性、毒品等高風險主題反應",
+        "url": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Mon, 29 Jun 2026 21:49:26 +0000",
+        "summary_zh": "據WIRED調查，Meta一項項目的數百名合約工人假扮成青少年，測試對手聊機如Gemini和ChatGPT對高風險主題的反應。這些合約工人試圖了解這些聊機如何處理自殺、性、毒品等敏感話題。這項行為引發了對人工智慧安全性和隱私保護的關注。這些合約工人是否有權利進行這類測試？這項行為是否違反了任何法律或道德規範？這些問題將引發廣泛的討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "09ed58d3",
+        "title": "這個人形機器人令人恐懼的工作效率",
+        "url": "https://www.wired.com/story/this-robot-is-going-to-replace-your-interns-flexion/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Mon, 29 Jun 2026 08:00:00 +0000",
+        "summary_zh": "Flexion Robotics 是一家由前 NVIDIA 工程師創辦的初創公司，該公司有個聰明的方法來訓練機器人做有用的工作。這些機器人通過模擬人類的工作流程和習慣來學習，從而提高工作效率。這種方法讓 Flexion 的機器人在辦公室環境中表現出令人印象深刻的工作能力。然而，這種能力也引發了對於機器人取代人類工作的擔憂。Flexion 的創辦人認為，這些機器人可以幫助人類工作更加高效和有效率，同時也可以減少工作中的錯誤率。這種新技術的出現，讓人們開始思考人類和機器人的工作關係會如何變化。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "024d61b3",
         "title": "Tidal 對 AI 生成音樂的新政策：不禁止但不付版稅",
         "url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
@@ -314,62 +350,50 @@
     ],
     "stock_tw": [
       {
-        "id": "2d4fdf48",
-        "title": "北捷7月1日起全面開通信用卡感應搭乘 萬事達卡攜3銀行最高回饋100％",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5488714",
-        "source": "自由時報財經",
+        "id": "5dd84983",
+        "title": "台積電攜手清洗商導入雷射量測系統 數位檢測減廢",
+        "url": "https://www.cna.com.tw/news/afe/202606300132.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 30 Jun 2026 12:53:35 +0800",
-        "summary_zh": "台北捷運將於7月1日起全面開通信用卡感應支付搭乘，萬事達卡與台北捷運合作，推出「一嗶進站」感應支付系統。這意味著乘客可以使用萬事達卡與合作銀行的卡片，享受最高100%的回饋。這項服務將於7月1日起全面開通，成為全台唯一北中南捷運皆支援的感應支付系統。這項改變將為乘客帶來更方便的支付體驗，並且能夠節省時間。萬事達卡與台北捷運的合作將為乘客提供更多的選擇和便利。",
+        "published_at": "Tue, 30 Jun 2026 12:43:38 +0800",
+        "summary_zh": "台積電攜手零配件清洗商導入雷射定位量測系統，以非接觸式雷射取代實體治具，提升先進製程零配件檢測的精準與潔淨度。這項新系統可減少治具的使用，預計可減少約600個治具。截至今年6月，已有4家供應商導入此系統。這項改進有助於減少廢棄物的產生，同時提高製程效率。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "6091ef7b",
+        "title": "科嶠 PCB 業務受惠 AI 相關需求 預期今年下半年表現更好",
+        "url": "https://www.cna.com.tw/news/afe/202606300124.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 30 Jun 2026 12:35:21 +0800",
+        "summary_zh": "科嶠董事長吳明致表示，受惠人工智慧相關需求，科嶠PCB核心業務已接到許多來自台灣與中國伺服器基板廠的大量訂單。這些訂單的來源包括台灣與中國的伺服器基板廠，預期今年下半年表現將比往年更好。這表明，人工智慧相關需求對於科嶠的業務有著正面影響。然而，具體的數據和預測尚未公開，因此需要進一步的監測和分析來確認科嶠的業務表現是否如預期。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "982673ca",
-        "title": "萬家福量販店品牌重生？ 昔大股東為國民黨最賺錢的黨營事業",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5488726",
-        "source": "自由時報財經",
+        "id": "e61b56a9",
+        "title": "新台幣午盤貶6.6分 暫收31.911元",
+        "url": "https://www.cna.com.tw/news/afe/202606300109.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 30 Jun 2026 12:52:09 +0800",
-        "summary_zh": "萬家福量販店市場消失已經18年，卻意外被統一集團看上，將家樂福的品牌取代。統一集團打算賦予萬家福全新的品牌生命，讓它在量販店市場復活。萬家福曾經是國民黨最賺錢的黨營事業，現在統一集團將其重生。統一集團的目標是讓萬家福在台灣的四、五年內成為量販店市場的領導者。這個計畫將對台灣的零售業產生重大影響。萬家福的重生將會對競爭對手家樂福造成壓力，同時也會創造新的商機。統一集團的投資將會讓萬家福的品牌和營運能力得到提升。這個計畫的成功將取決於統一集團的執行能力和市場反應。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "c852051e",
-        "title": "安永員工涉查澳總理銀行帳戶 澳財長：極度擔憂",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5488575",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 30 Jun 2026 12:28:11 +0800",
-        "summary_zh": "澳洲財政部長查默斯表示，有報導稱安永會計師事務所派駐澳大利亞聯邦銀行的2名員工涉嫌獲取澳洲總理艾班尼斯的個人銀行帳戶訊息。查默斯表示自己極度擔憂這一事件，認為這可能是對澳洲政府和總理的嚴重威脅。安永會計師事務所已經表示將配合調查，並保證會嚴格遵守澳洲的法律和規範。這一事件引發了澳洲社會的廣泛關注和討論，許多人呼籲澳洲政府和安永會計師事務所進行徹底的調查和懲處。",
+        "published_at": "Tue, 30 Jun 2026 12:07:49 +0800",
+        "summary_zh": "台北外匯市場新台幣兌美元今天中午暫收31.911元，貶6.6分。這意味著新台幣的貶值幅度相當明顯，成交金額達8.16億美元。這種市場動態可能與全球經濟趨勢、外匯市場波動或是投資者對台幣的看法有關。外匯市場的變化對於台灣的經濟和投資者都有重要影響，因此需要密切關注。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "946953c2",
-        "title": "7檔台股老牌ETF人數刷新高 3年績效翻倍升",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5488645",
-        "source": "自由時報財經",
+        "id": "dd6677c3",
+        "title": "愛山林祝文宇：今年聚焦自建案 看好由股轉房趨勢",
+        "url": "https://www.cna.com.tw/news/afe/202606300107.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 30 Jun 2026 12:27:14 +0800",
-        "summary_zh": "台股近期表現強勁，根據集保最新一週受益人數統計，截至上周五（6/26）止，台股主被動ETF受益人數高達1,542萬1,689人創新高。其中，有7檔受益人數創新高，表明投資人對台股的信心增強。這7檔ETF的3年績效也翻倍升，顯示其投資策略的有效性。這一波台股的強勁表現，可能與市場對台股未來發展的樂觀預期有關。投資人應該密切關注台股的發展，考慮投資台股相關的ETF。",
+        "published_at": "Tue, 30 Jun 2026 12:01:45 +0800",
+        "summary_zh": "愛山林董事長祝文宇表示，全球通膨壓力未減、台股近期劇烈震盪，認為「由股轉房」趨勢很快到來。原因是房子有剛性需求，又能抗通膨。今年愛山林多個建案陸續取得使用執照並交屋入帳，自建案收入將首度超越代銷。這意味著愛山林將從代銷轉向自建案為主的營運模式。這一轉變將對公司的營運產生重大影響。愛山林的這一決策表明，公司正在積極應對市場變化，轉型為自建案主導的企業。這一趨勢不僅對愛山林而已，也對整個房地產市場有著重要的影響。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "ddc13774",
-        "title": "亞幣走勢分歧！日圓創近40年新低、新台幣力守31字頭",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5488664",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 30 Jun 2026 12:25:42 +0800",
-        "summary_zh": "美國科技股大漲帶動市場投資信心回升，台股今日跳空開高，大盤指數勁揚逾千點，重新站回45000點。然而，新台幣兌美元匯率未能同步走強，盤中再度貶破31.9元關卡。這種走勢分歧可能是由於市場對亞洲經濟的看法不同所致。投資者們正在密切關注這種走勢變化，以了解市場對亞洲經濟未來走向的看法。",
-        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
@@ -420,65 +444,113 @@
         "sentiment": "正面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "2d4fdf48",
+        "title": "北捷7月1日起全面開通信用卡感應搭乘 萬事達卡攜3銀行最高回饋100％",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5488714",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 30 Jun 2026 12:53:35 +0800",
+        "summary_zh": "台北捷運將於7月1日起全面開通信用卡感應支付搭乘，萬事達卡與台北捷運合作，推出「一嗶進站」感應支付系統。這意味著乘客可以使用萬事達卡與合作銀行的卡片，享受最高100%的回饋。這項服務將於7月1日起全面開通，成為全台唯一北中南捷運皆支援的感應支付系統。這項改變將為乘客帶來更方便的支付體驗，並且能夠節省時間。萬事達卡與台北捷運的合作將為乘客提供更多的選擇和便利。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "982673ca",
+        "title": "萬家福量販店品牌重生？ 昔大股東為國民黨最賺錢的黨營事業",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5488726",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 30 Jun 2026 12:52:09 +0800",
+        "summary_zh": "萬家福量販店市場消失已經18年，卻意外被統一集團看上，將家樂福的品牌取代。統一集團打算賦予萬家福全新的品牌生命，讓它在量販店市場復活。萬家福曾經是國民黨最賺錢的黨營事業，現在統一集團將其重生。統一集團的目標是讓萬家福在台灣的四、五年內成為量販店市場的領導者。這個計畫將對台灣的零售業產生重大影響。萬家福的重生將會對競爭對手家樂福造成壓力，同時也會創造新的商機。統一集團的投資將會讓萬家福的品牌和營運能力得到提升。這個計畫的成功將取決於統一集團的執行能力和市場反應。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c852051e",
+        "title": "安永員工涉查澳總理銀行帳戶 澳財長：極度擔憂",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5488575",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 30 Jun 2026 12:28:11 +0800",
+        "summary_zh": "澳洲財政部長查默斯表示，有報導稱安永會計師事務所派駐澳大利亞聯邦銀行的2名員工涉嫌獲取澳洲總理艾班尼斯的個人銀行帳戶訊息。查默斯表示自己極度擔憂這一事件，認為這可能是對澳洲政府和總理的嚴重威脅。安永會計師事務所已經表示將配合調查，並保證會嚴格遵守澳洲的法律和規範。這一事件引發了澳洲社會的廣泛關注和討論，許多人呼籲澳洲政府和安永會計師事務所進行徹底的調查和懲處。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "946953c2",
+        "title": "7檔台股老牌ETF人數刷新高 3年績效翻倍升",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5488645",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 30 Jun 2026 12:27:14 +0800",
+        "summary_zh": "台股近期表現強勁，根據集保最新一週受益人數統計，截至上周五（6/26）止，台股主被動ETF受益人數高達1,542萬1,689人創新高。其中，有7檔受益人數創新高，表明投資人對台股的信心增強。這7檔ETF的3年績效也翻倍升，顯示其投資策略的有效性。這一波台股的強勁表現，可能與市場對台股未來發展的樂觀預期有關。投資人應該密切關注台股的發展，考慮投資台股相關的ETF。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ddc13774",
+        "title": "亞幣走勢分歧！日圓創近40年新低、新台幣力守31字頭",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5488664",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 30 Jun 2026 12:25:42 +0800",
+        "summary_zh": "美國科技股大漲帶動市場投資信心回升，台股今日跳空開高，大盤指數勁揚逾千點，重新站回45000點。然而，新台幣兌美元匯率未能同步走強，盤中再度貶破31.9元關卡。這種走勢分歧可能是由於市場對亞洲經濟的看法不同所致。投資者們正在密切關注這種走勢變化，以了解市場對亞洲經濟未來走向的看法。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "2d9278b8",
-        "title": "布鲁克菲尔德预测能源交易将重点关注电池而非独立太阳能和风能",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-29/brookfield-sees-hybrid-deals-with-batteries-replacing-standalone-solar-wind",
+        "id": "f1cfe940",
+        "title": "摩根大通難以找到需求：石油鑽井公司15%貸款遭冷遇",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-29/jpmorgan-struggles-to-find-demand-for-oil-driller-s-15-loan",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-29 17:00:00",
-        "summary_zh": "布鲁克菲尔德公司预测，未来能源交易将重点关注电池的发展，而非单独太阳能和风能。公司的分析师认为，电池的成本正在下降，成为太阳能和风能的竞争对手。布鲁克菲尔德公司认为，电池将成为能源交易的主要焦点，特别是在电池的成本和效率不断提高的情况下。这种趋势将对能源行业产生重大影响，可能导致太阳能和风能的投资额下降。布鲁克菲尔德公司的分析师还指出，电池的发展将带来新的商业机会和投资机会。因此，投资者需要密切关注电池的发展和能源交易的变化。",
+        "published_at": "2026-06-29 17:57:57",
+        "summary_zh": "摩根大通最近試圖為石油鑽井公司提供15%的貸款，但卻遇到了難以找到需求的困境。石油鑽井公司的業務受到疫情和能源市場的波動影響，貸款需求大幅下降。摩根大通的這項貸款計畫是為了幫助石油鑽井公司度過難關，但卻遭到投資者的冷遇。投資者對石油鑽井公司的未來前景存疑，認為公司的業務將繼續下滑。摩根大通的貸款計畫被認為是試圖為石油鑽井公司提供最後的救援，但投資者對此並不樂觀。這項貸款計畫的失敗可能會對石油鑽井公司的業務造成更大的影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "bdf3fb71",
+        "title": "馬士基升級2026年盈餘預測，受強勁需求支撐",
+        "url": "https://www.reuters.com/business/maersk-upgrades-2026-earnings-guidance-strong-demand-2026-06-29/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-29 17:50:23",
+        "summary_zh": "全球最大海運公司馬士基宣布升級2026年盈餘預測，公司表示受強勁需求支撐。根據馬士基的說法，2026年公司的營業收入將超過預期，盈餘將達到每股1.35美元。這一升級預測是由於全球貿易需求持續增長，尤其是在亞洲市場。馬士基的這一預測升級表明，公司對未來的市場前景感到樂觀。然而，市場仍然需要觀察公司的實際業績是否能夠達到預期。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "84bf369d",
+        "title": "NFL 球隊估值大幅上升將面臨海鷹隊競標考驗",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-29/surge-in-nfl-valuations-to-be-tested-with-seahawks-bids-due",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-29 17:42:34",
+        "summary_zh": "近年來，美國職業足球聯盟 (NFL) 球隊估值大幅上升，許多球隊的估值已經超過 10 億美元。海鷹隊 (Seahawks) 的競標將是這一趨勢的重要測試。海鷹隊的估值預計將達到 20 億美元以上。競標過程將考驗 NFL 球隊估值的真實性，以及球隊的經營能力。NFL 球隊的估值上升主要是由於球隊的收入增長，包括電視轉播權、廣告收入和門票收入。海鷹隊的競標將是這一趨勢的重要案例，將對 NFL 球隊的估值和經營能力產生重要影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "02b027d5",
-        "title": "西班牙的綠色能源大爆發變成投資者的災難",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-06-29/spain-s-solar-and-wind-power-boom-becomes-investor-bust",
-        "source": "Bloomberg",
+        "id": "8b7b6253",
+        "title": "比特幣保值策略公布 200 億美元回購計畫 股價大跌",
+        "url": "https://www.ft.com/content/10b75a43-85ee-4bb8-a728-f7ebc8c5d7cb",
+        "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-06-29 16:54:07",
-        "summary_zh": "西班牙的綠色能源業正在經歷一場大爆發，但投資者卻面臨著嚴重的損失。根據最新的數據，西班牙的風力發電和太陽能發電業已經超過了傳統的煤炭和石油發電業，成為該國的主要能源來源。然而，這種大幅度的轉變卻導致投資者面臨著嚴重的損失。許多投資者曾經投資於這些新興的能源業，但卻沒有獲得預期的收益。事實上，許多投資者甚至遭遇了重大損失。這種情況下，投資者們開始質疑西班牙政府對這些新興能源業的政策支持是否足夠。西班牙政府曾經承諾要大力支持綠色能源業，但投資者們卻感到政府的政策支持不足。這種不確定性使得投資者們感到焦慮和擔憂。西班牙的綠色能源大爆發變成了一個投資者的災難，投資者們正在努力尋找解決方案來挽救損失。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "0da76138",
-        "title": "美國股市融資成本飆升風險傳遞至 repo 利率",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-29/us-equity-soaring-funding-costs-risk-spilling-over-to-repo-rates",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-29 16:50:37",
-        "summary_zh": "美國股市融資成本飆升，風險傳遞至 repo 利率。美國股市融資成本飆升，風險傳遞至 repo 利率。美國股市融資成本飆升，風險傳遞至 repo 利率。根據市場分析師的評估，美國股市融資成本的飆升，可能會對 repo 利率產生影響。 repo 利率是銀行之間的短期貸款利率，對於銀行的流動性和貸款成本有著重要影響。美國股市融資成本的飆升，可能會導致銀行的貸款成本增加，從而影響 repo 利率。市場分析師預計，美國股市融資成本的飆升，將會對 repo 利率產生重大影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "eaeb802c",
-        "title": "墨西哥央行推出新工具購買國債支持流動性",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-29/mexico-central-bank-adds-bond-buying-tool-to-support-liquidity",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-06-29 16:45:14",
-        "summary_zh": "墨西哥央行宣布推出新工具購買國債，以支持該國的流動性。這項措施旨在幫助墨西哥的經濟在面臨流動性短缺時維持穩定。墨西哥央行的這項決定是針對近期墨西哥經濟面臨的挑戰，包括流動性短缺和經濟增長放緩。這項工具將允許央行購買墨西哥國債，以增加流動性並幫助降低國債利率。墨西哥央行的這項措施將對墨西哥的經濟有所影響，包括幫助維持經濟穩定和促進經濟增長。然而，墨西哥央行的這項措施也可能引發投資者對墨西哥經濟未來走向的擔憂。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "8d984260",
-        "title": "加元跌落 美元兌加元升值",
-        "url": "https://www.reuters.com/business/canadian-dollar-dips-speculators-raise-bearish-bets-six-month-high-2026-06-29/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-29 16:43:44",
-        "summary_zh": "加拿大元在週一對美元的兌換率下跌，根據最新數據顯示，市場投機者對加元的負面預期達到今年的最高點。市場分析人士認為，加拿大經濟的不確定性以及美國聯邦儲備委員會（FED）加息的風險，都是加元下跌的重要原因。加拿大央行在近期的政策發言中，表明將繼續關注通貨膨脹情況，從而對加元的影響可能持續。市場觀察人士預測，未來加元的走勢將受到多種因素的影響，包括經濟數據、政策變化以及全球市場的波動。",
+        "published_at": "2026-06-29 17:40:09",
+        "summary_zh": "比特幣保值策略公布了 200 億美元的回購計畫，旨在穩定股價。然而，股價在公布後仍大幅下跌。這一行動引起了投資者的關注，許多人認為這是比特幣保值策略試圖掩蓋其財務問題的跡象。分析師指出，回購計畫可能會暫時提高股價，但最終仍無法改善公司的財務狀況。投資者們仍在觀察比特幣保值策略的財務報告，以了解其真實情況。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
@@ -494,21 +566,21 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "7efcc254",
-        "title": "人工智慧在中期選舉中將會大幅影響",
-        "url": "https://www.ft.com/content/8f872761-76d9-43c7-bbcd-d313c4732e81",
-        "source": "FT Tech",
-        "category": "finance",
-        "published_at": "Mon, 29 Jun 2026 13:00:06 GMT",
-        "summary_zh": "人工智慧在美國中期選舉中將會發揮重要作用。根據最新的預測，人工智慧將會對選舉結果產生重大影響。許多政治分析師認為，人工智慧將會幫助選民更好地了解候選人的政策和立場。同時，人工智慧也會幫助候選人更好地與選民溝通。然而，人工智慧的使用也引發了對隱私和安全的擔憂。許多人擔心，人工智慧將會被用來操縱選民的意見。因此，人工智慧在中期選舉中的作用將會受到關注和討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "stock_us": [
+      {
+        "id": "e35c9b8a",
+        "title": "康卡斯特分拆背後的原因：是否能達到迪士尼的估值?",
+        "url": "https://www.cnbc.com/2026/06/29/whats-behind-the-comcast-break-up-hope-for-a-disney-like-valuation.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-29 17:01:02",
+        "summary_zh": "康卡斯特（Comcast）近日宣布將分拆其 NBCUniversal 子公司。分析師認為，這可能是康卡斯特試圖將 NBCUniversal 的估值提升至與迪士尼（Disney）相近的水準。迪士尼的估值為每股收益 10 倍，而康卡斯特的估值則遠低於此。分拆 NBCUniversal 可能會讓投資者對其估值有更正面的看法，從而提高康卡斯特的整體估值。然而，這一決定也可能會引起投資者的反彈，尤其是如果分拆過程中出現任何問題。最終，康卡斯特的決策將取決於其對未來發展的預期，以及投資者對其估值的看法。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "74a77c20",
         "title": "JPMorgan 領導人交接計畫終於明確",
@@ -517,6 +589,18 @@
         "category": "stock_us",
         "published_at": "2026-06-29 16:58:56",
         "summary_zh": "JPMorgan Chase 的 CEO Jamie Dimon 曾多次提及公司的領導人交接計畫，但一直沒有具體的時間表。根據來源，今年的計畫似乎是真正的安排。這意味著 JPMorgan Chase 將會有新的領導人接手，結束長期的領導。這個轉變可能會對公司的未來方向和策略產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fc80d9ae",
+        "title": "為什麼我們的資安股票正在上漲？大科技公司試圖反彈",
+        "url": "https://www.cnbc.com/2026/06/29/why-our-cybersecurity-stocks-are-soaring-plus-big-tech-tries-to-rebound.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-06-29 16:28:12",
+        "summary_zh": "在投資俱樂部的每周五上午10:20 ET 時間，會舉行名為「晨會」的會議。投資俱樂部的主持人最近提到，資安股票正在上漲，原因是企業對資安的需求正在增加。企業面臨著日益嚴重的資安風險，導致資安股票的投資熱潮。這種趨勢可能會持續下去，因為企業對資安的投資正在增加。另一方面，大科技公司正在試圖反彈，希望能夠恢復其股價。這些公司正在努力改善其財務狀況和業務表現，以便能夠吸引投資者。投資者需要密切關注這些公司的發展，了解其資安投資和財務表現的情況。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -530,8 +614,8 @@
         "published_at": "2026-06-29 16:26:12",
         "summary_zh": "皇家銀行(RBC)最新調整了S&P 500的價格目標，升至新的水平。這一調整部分是因為公司對盈利每股和估值預期的看法更加樂觀。然而，皇家銀行也提醒投資者，市場可能會經歷波動的行情。這一預警是因為市場對未來的預期可能會導致價格波動。投資者需要小心行事，避免在市場波動時過度投資。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "1351f7a4",
@@ -542,8 +626,8 @@
         "published_at": "2026-06-29 16:19:09",
         "summary_zh": "午市期間，市場上出現了多支股價大幅波動的股票。其中，Comcast 和 Charter Communications 的股價出現了顯著的漲幅，Rocket Lab 的股價則出現了大幅下跌。Alphabet 的股價也出現了小幅波動，Verizon 的股價則保持穩定。這些股票的股價變動對市場的影響有待觀察。市場分析師認為，這些股價變動可能與公司的財務表現、業績預測或市場情緒等因素有關。投資者應該密切關注這些股票的發展，以便做出明智的投資決策。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "32a16072",
@@ -556,29 +640,113 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "f2b00cfe",
-        "title": "華爾街準備面對一波可能永遠不來的美聯儲加息浪潮 這些行業將受益",
-        "url": "https://www.marketwatch.com/story/wall-street-is-bracing-for-a-wave-of-fed-rate-hikes-that-may-never-come-these-sectors-stand-to-gain-63229922?mod=mw_rss_topstories",
-        "source": "Marketwatch",
-        "category": "stock_us",
-        "published_at": "2026-06-29 15:34:00",
-        "summary_zh": "近日，美聯儲主席凱文·沃許（Kevin Warsh）表現出來得不如預期的鹹鴨派。這使得市場開始懷疑美聯儲是否真的會進行加息。事實上，美聯儲的加息決定主要取決於通膨率。然而，最新的數據顯示，通膨率並不像預期的那樣高。這使得市場開始擔心美聯儲可能會放棄加息計畫。美聯儲的加息決定對於金融市場有著重要影響。美聯儲的加息通常會使得股市下跌，金價上升。因此，如果美聯儲真的不會進行加息，市場上可能會出現一波買盤。這些行業可能會受益於美聯儲不加息的局面，包括金融股、科技股和消費股等。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "global": [
       {
+        "id": "c8055d0b",
+        "title": "美國內政部公布三名消防員遇難名單",
+        "url": "https://www.theguardian.com/us-news/2026/jun/29/firefighters-killed-colorado-wildfires",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 20:33:56 GMT",
+        "summary_zh": "美國內政部於週一公布三名消防員遇難名單，他們在努力控制烏塔-科羅拉多邊境的野火時喪生。三名消防員的名字分別為Emily Barker、Nick Hutcherson和Sydney Watson。另外兩名消防員受傷，但當局尚未公布其身份。這場野火的原因尚未明朗，但美國內政部已經展開調查。這次事件的發生，令人感到悲傷和震驚。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "470b56f1",
+        "title": "強烈餘震驚嚇委內瑞拉民眾　地震死亡人數超過1700人",
+        "url": "https://www.theguardian.com/world/2026/jun/29/strong-aftershock-terrifies-venezuelans-days-after-devastating-twin-quakes",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 17:37:01 GMT",
+        "summary_zh": "委內瑞拉北部近日發生一系列強烈地震，造成至少 1,719 人死亡，數萬人失蹤。地震引發嚴重的人道主義危機。最近一場餘震發生於本週一早晨，地震規模達 4.6 級，影響首都加拉加斯和受災重創的港口城市拉瓜伊拉。美國地質調查局測量此餘震的規模為 4.6 級，而哥倫比亞地質調查局則測量為 5.1 級。這場餘震令當地居民感到極度恐懼，紛紛逃竄到街上。救援隊伍仍在拉瓜伊拉努力挖掘受困者，希望能夠挽救更多生還者。委內瑞拉的地震災情持續惡化，人道主義危機日益加劇。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d27680a9",
+        "title": "委內瑞拉地震余震近首都發生，人被困 106 小時後獲救",
+        "url": "https://www.theguardian.com/world/live/2026/jun/29/venezuela-earthquakes-search-rescue-latest-updates",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 16:56:14 GMT",
+        "summary_zh": "委內瑞拉近日發生一系列地震，造成至少 1,450 人死亡，數字預計會繼續上升。最新消息指出，近日發生的 4.6 級余震未造成重大損傷。委內瑞拉、墨西哥和薩爾瓦多的救援隊伍共同努力，成功將 21 歲的 Aaron Levi Cantillo Vargas 從瓦拉圭拉的建築物下救出，他被困 106 小時。薩爾瓦多總統 Nayib Bukele 表示，這項救援行動是「奇蹟」，並表示 Aaron 現在正在接受專科醫療治療。這項救援行動是由委內瑞拉、墨西哥和薩爾瓦多的救援隊伍共同努力完成的。委內瑞拉的地震事件仍在持續發生，政府正在努力處理災情。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "57a9f3b9",
+        "title": "美國前國防部長 Esper 說明日伊朗協議仍有許多未解決和未知之處",
+        "url": "https://www.cnbc.com/video/2026/06/29/so-much-unresolved-and-unknown-in-mou-between-u-s-and-iran-says-former-defense-secretary-esper.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-06-29 15:56:07",
+        "summary_zh": "美國前國防部長 Mark Esper 表示，美國和伊朗之間的最新協議仍有許多未解決和未知之處。他在接受 Squawk on the Street 訪問時表示，伊朗與美國之間的談判正在進行中，美國正在試圖解決伊朗核問題。Esper 表示，美國需要確保伊朗不會發展核武器，並且需要確保伊朗的核計畫符合國際協議的要求。他還表示，美國需要與伊朗進行更進一步的談判，以確保雙方的協議能夠達到預期的效果。Esper 的話語表明，美國和伊朗之間的協議仍有許多挑戰和未知之處，需要雙方共同努力來解決。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4f214fe0",
+        "title": "日圓貶破40年新低 日本財相稱準備採取行動",
+        "url": "https://www.cna.com.tw/news/afe/202606300061.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Tue, 30 Jun 2026 10:59:07 +0800",
+        "summary_zh": "日圓兌美元跌至40年新低，日本財務大臣片山皋月表示，當局已準備好採取適當行動來應對這種局面。這是日本經濟面臨的又一挑戰，日圓貶值將對日本出口業影響較大。日本政府可能會採取措施來穩定日圓，例如調整貨幣政策或干預外匯市場。然而，具體的行動方案尚未公布。日圓貶值也會對全球經濟產生影響，特別是在亞洲地區。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cbb921a8",
+        "title": "地震余波使委內瑞拉人感到焦慮，許多人被迫自求多福",
+        "url": "https://www.bbc.co.uk/news/articles/cqj1210rj0yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 30 Jun 2026 04:21:58 GMT",
+        "summary_zh": "委內瑞拉遭遇連環地震，災區民眾使用鐵棍、鑿子和徒手試圖尋找生還者。地震造成嚴重破壞，許多人被困於瓦礫下，無法獲得及時救援。這種情況使許多人感到焦慮和絕望，許多人被迫自求多福，尋找生存的方法。委內瑞拉政府和國際組織正努力提供援助和救援，但面臨著嚴重的挑戰。地震的影響將持續很長時間，許多人將面臨長期的生存困難。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "093e4f78",
         "title": "《利洛與史迪克》女主角戴薇兒因愛滋病去世",
         "url": "https://www.bbc.co.uk/news/articles/cx2xyx1qjnyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "source": "BBC North America",
         "category": "global",
         "published_at": "Mon, 29 Jun 2026 21:21:15 GMT",
         "summary_zh": "美國女演員戴薇兒因愛滋病去世，享年 35 歲。戴薇兒曾在《利洛與史迪克》和恐怖片《死亡之環》中演出。她的死訊在今年 6 月份傳出。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ebac341d",
+        "title": "南非領袖警告反移民抗議者前夕",
+        "url": "https://www.bbc.co.uk/news/articles/cy4eq1l184po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 19:16:34 GMT",
+        "summary_zh": "南非領袖在未來星期二的非官方截止日期前夕，警告反移民抗議者。南非境內有數以萬計來自其他非洲國家的人民已經離開南非。這些抗議者要求南非政府在未來星期二前將非洲移民趕出南非。南非領袖對這些抗議者表示警告，表明政府將採取行動維護南非的安定和安全。這些事件發生在南非境內的緊張局勢加劇之際。南非領袖的警告顯示政府將堅決維護南非的法律和秩序。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f4ec9fcd",
+        "title": "中國富商在美國被判30年監禁",
+        "url": "https://www.bbc.co.uk/news/articles/cjeg15vw3z9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 30 Jun 2026 02:08:21 GMT",
+        "summary_zh": "中國富商郭文貴自稱為中國批評者，獲得了支持他的詐騙計劃的追隨者。郭文貴曾經聲稱自己是揭露中國政府腐敗的英雄，但實際上他涉嫌在美國進行詐騙活動。根據美國檢察官的說法，郭文貴利用他的財富和影響力，騙取了數十億美元的資金。這起案件的判決結果對郭文貴和他的追隨者來說是一個沉重的打擊，同時也表明美國政府對於跨國詐騙活動的嚴厲打擊。郭文貴的判決結果還可能對中國政府的形象產生影響，特別是在中國政府試圖打擊腐敗的同時。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -596,6 +764,18 @@
         "ai_classified": true
       },
       {
+        "id": "f2aa9a89",
+        "title": "美國承認與伊朗交換空襲後同意暫停軍事行動",
+        "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 14:52:10 GMT",
+        "summary_zh": "美國與伊朗近日發生了一系列空襲事件，雙方互指違反停火協議。這些事件發生在週末，美國和伊朗都指責對方違反停火協議。美國的承諾意味著雙方將暫停軍事行動，避免進一步升級。伊朗的行動引發了美國的反應，美國對伊朗的空軍基地發動了空襲。伊朗隨後對美國的軍事基地發動了報復性空襲。這些事件引發了國際社會的關注，各國都在關注美國和伊朗的動向。美國的承諾意味著雙方將暫停軍事行動，避免進一步升級。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "359d3149",
         "title": "這位意外的世界盃明星的歷史進球是數代人努力的結果",
         "url": "https://www.bbc.co.uk/news/articles/cn4r0r0rylzo?at_medium=RSS&at_campaign=rss",
@@ -608,13 +788,13 @@
         "ai_classified": true
       },
       {
-        "id": "cbb921a8",
-        "title": "地震余波使委內瑞拉人感到焦慮，許多人被迫自求多福",
-        "url": "https://www.bbc.co.uk/news/articles/cqj1210rj0yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "1099b5a9",
+        "title": "巴基斯坦對阿富汗邊境發動猛烈攻擊",
+        "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "Tue, 30 Jun 2026 04:21:58 GMT",
-        "summary_zh": "委內瑞拉遭遇連環地震，災區民眾使用鐵棍、鑿子和徒手試圖尋找生還者。地震造成嚴重破壞，許多人被困於瓦礫下，無法獲得及時救援。這種情況使許多人感到焦慮和絕望，許多人被迫自求多福，尋找生存的方法。委內瑞拉政府和國際組織正努力提供援助和救援，但面臨著嚴重的挑戰。地震的影響將持續很長時間，許多人將面臨長期的生存困難。",
+        "published_at": "Mon, 29 Jun 2026 15:46:50 GMT",
+        "summary_zh": "巴基斯坦近日對阿富汗邊境發動猛烈攻擊，據巴基斯坦方面表示，這是對「近期針對無辜民眾的恐怖攻擊」的回應。這一行動引發了對巴基斯坦軍事行動的關注，同時也引發了對阿富汗局勢的擔憂。巴基斯坦的軍事行動可能會對阿富汗的安全局勢產生重大影響，同時也可能會對當地的平民造成傷害。這一事件的發展仍在進展中，外界正在密切關注巴基斯坦的行動和阿富汗的反應。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -632,18 +812,6 @@
         "ai_classified": true
       },
       {
-        "id": "0d286314",
-        "title": "無人動靜！委內瑞拉救援隊在瓦礫下聆聽求生者呼聲",
-        "url": "https://www.bbc.co.uk/news/articles/c78yvq72dg7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 21:19:28 GMT",
-        "summary_zh": "委內瑞拉發生嚴重地震，數萬人仍被困於瓦礫下，救援隊在瓦礫下聆聽求生者的呼聲，希望能夠找到更多的生還者。這場地震造成了重大損失，委內瑞拉政府正在努力進行救援工作。儘管有許多人被困，但救援隊仍然在努力聆聽求生者的呼聲，希望能夠找到更多的生還者。這場地震對委內瑞拉的影響將是長期的，政府和民間組織都將需要共同努力來恢復和重建。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "db8daaf6",
         "title": "德國北部一青少年中心槍擊案造成五人死亡",
         "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo?at_medium=RSS&at_campaign=rss",
@@ -651,42 +819,6 @@
         "category": "global",
         "published_at": "Mon, 29 Jun 2026 19:53:57 GMT",
         "summary_zh": "德國北部城市斯塔德發生槍擊案，造成五人死亡。警方表示，已經逮捕了兩名嫌疑人，其中一名被認為是兇手。這起槍擊案發生在一所青少年中心，當地居民表示感到震驚和恐懼。警方正在調查案件，試圖找出兇手的動機和背景。這起槍擊案對當地社區造成了深遠的影響，許多人正在等待警方的進一步通報。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f2aa9a89",
-        "title": "美國承認與伊朗交換空襲後同意暫停軍事行動",
-        "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 14:52:10 GMT",
-        "summary_zh": "美國與伊朗近日發生了一系列空襲事件，雙方互指違反停火協議。這些事件發生在週末，美國和伊朗都指責對方違反停火協議。美國的承諾意味著雙方將暫停軍事行動，避免進一步升級。伊朗的行動引發了美國的反應，美國對伊朗的空軍基地發動了空襲。伊朗隨後對美國的軍事基地發動了報復性空襲。這些事件引發了國際社會的關注，各國都在關注美國和伊朗的動向。美國的承諾意味著雙方將暫停軍事行動，避免進一步升級。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "57a9f3b9",
-        "title": "美國前國防部長 Esper 說明日伊朗協議仍有許多未解決和未知之處",
-        "url": "https://www.cnbc.com/video/2026/06/29/so-much-unresolved-and-unknown-in-mou-between-u-s-and-iran-says-former-defense-secretary-esper.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-06-29 15:56:07",
-        "summary_zh": "美國前國防部長 Mark Esper 表示，美國和伊朗之間的最新協議仍有許多未解決和未知之處。他在接受 Squawk on the Street 訪問時表示，伊朗與美國之間的談判正在進行中，美國正在試圖解決伊朗核問題。Esper 表示，美國需要確保伊朗不會發展核武器，並且需要確保伊朗的核計畫符合國際協議的要求。他還表示，美國需要與伊朗進行更進一步的談判，以確保雙方的協議能夠達到預期的效果。Esper 的話語表明，美國和伊朗之間的協議仍有許多挑戰和未知之處，需要雙方共同努力來解決。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1099b5a9",
-        "title": "巴基斯坦對阿富汗邊境發動猛烈攻擊",
-        "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 15:46:50 GMT",
-        "summary_zh": "巴基斯坦近日對阿富汗邊境發動猛烈攻擊，據巴基斯坦方面表示，這是對「近期針對無辜民眾的恐怖攻擊」的回應。這一行動引發了對巴基斯坦軍事行動的關注，同時也引發了對阿富汗局勢的擔憂。巴基斯坦的軍事行動可能會對阿富汗的安全局勢產生重大影響，同時也可能會對當地的平民造成傷害。這一事件的發展仍在進展中，外界正在密切關注巴基斯坦的行動和阿富汗的反應。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -701,18 +833,6 @@
         "summary_zh": "俄羅斯總統普京承認烏克蘭攻擊導致俄羅斯燃料短缺，但否認短缺情況是「嚴重的」。烏克蘭近期對俄羅斯的攻擊已經導致俄羅斯燃料供應受影響。普京表示烏克蘭的攻擊「明顯地造成了問題」，但強調俄羅斯仍能夠應對燃料短缺。這一承認是普京罕見的，因為他一直堅持俄羅斯的燃料供應是穩定的。烏克蘭的攻擊對俄羅斯的燃料短缺造成了重大影響，俄羅斯的燃料供應已經受到了嚴重的影響。這一發展可能會對俄羅斯的經濟和政治造成重大影響。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ebac341d",
-        "title": "南非領袖警告反移民抗議者前夕",
-        "url": "https://www.bbc.co.uk/news/articles/cy4eq1l184po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 19:16:34 GMT",
-        "summary_zh": "南非領袖在未來星期二的非官方截止日期前夕，警告反移民抗議者。南非境內有數以萬計來自其他非洲國家的人民已經離開南非。這些抗議者要求南非政府在未來星期二前將非洲移民趕出南非。南非領袖對這些抗議者表示警告，表明政府將採取行動維護南非的安定和安全。這些事件發生在南非境內的緊張局勢加劇之際。南非領袖的警告顯示政府將堅決維護南非的法律和秩序。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -735,42 +855,6 @@
         "category": "global",
         "published_at": "Mon, 29 Jun 2026 07:18:14 GMT",
         "summary_zh": "南韓足球代表隊在世界盃中未能晉級八強，教練因此辭職。南韓總統要求調查球隊在世界盃的表現，了解失利的原因。南韓在世界盃的表現令人失望，球隊在小組賽中取得兩勝一負的成績，但在淘汰賽中未能取得勝利，最終被淘汰。教練的辭職是球隊失利的直接結果，總統要求調查以確保未來的球隊表現能夠改善。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4f214fe0",
-        "title": "日圓貶破40年新低 日本財相稱準備採取行動",
-        "url": "https://www.cna.com.tw/news/afe/202606300061.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Tue, 30 Jun 2026 10:59:07 +0800",
-        "summary_zh": "日圓兌美元跌至40年新低，日本財務大臣片山皋月表示，當局已準備好採取適當行動來應對這種局面。這是日本經濟面臨的又一挑戰，日圓貶值將對日本出口業影響較大。日本政府可能會採取措施來穩定日圓，例如調整貨幣政策或干預外匯市場。然而，具體的行動方案尚未公布。日圓貶值也會對全球經濟產生影響，特別是在亞洲地區。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c8055d0b",
-        "title": "美國內政部公布三名消防員遇難名單",
-        "url": "https://www.theguardian.com/us-news/2026/jun/29/firefighters-killed-colorado-wildfires",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 20:33:56 GMT",
-        "summary_zh": "美國內政部於週一公布三名消防員遇難名單，他們在努力控制烏塔-科羅拉多邊境的野火時喪生。三名消防員的名字分別為Emily Barker、Nick Hutcherson和Sydney Watson。另外兩名消防員受傷，但當局尚未公布其身份。這場野火的原因尚未明朗，但美國內政部已經展開調查。這次事件的發生，令人感到悲傷和震驚。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f4ec9fcd",
-        "title": "中國富商在美國被判30年監禁",
-        "url": "https://www.bbc.co.uk/news/articles/cjeg15vw3z9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 30 Jun 2026 02:08:21 GMT",
-        "summary_zh": "中國富商郭文貴自稱為中國批評者，獲得了支持他的詐騙計劃的追隨者。郭文貴曾經聲稱自己是揭露中國政府腐敗的英雄，但實際上他涉嫌在美國進行詐騙活動。根據美國檢察官的說法，郭文貴利用他的財富和影響力，騙取了數十億美元的資金。這起案件的判決結果對郭文貴和他的追隨者來說是一個沉重的打擊，同時也表明美國政府對於跨國詐騙活動的嚴厲打擊。郭文貴的判決結果還可能對中國政府的形象產生影響，特別是在中國政府試圖打擊腐敗的同時。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -808,30 +892,6 @@
         "published_at": "Mon, 29 Jun 2026 08:55:29 GMT",
         "summary_zh": "韓國政府近日公布了一項 8800 億美元的晶片和人工智慧投資計畫。這項計畫旨在加強韓國在全球晶片和 AI 界的競爭力。然而，這項計畫的出現也引發了對韓國是否能夠與其他地區競爭的疑問。根據報告，韓國的競爭對手如台灣、中國和日本都已經在晶片和其他技術領域投入大量資金。韓國政府認為，這項投資計畫將幫助韓國企業在全球市場上佔據重要地位。然而，投資計畫的具體細節尚未公布，投資將如何分配以及投資效益如何仍待觀察。這項計畫的出現也引發了對韓國經濟未來發展的關注。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "470b56f1",
-        "title": "強烈餘震驚嚇委內瑞拉民眾　地震死亡人數超過1700人",
-        "url": "https://www.theguardian.com/world/2026/jun/29/strong-aftershock-terrifies-venezuelans-days-after-devastating-twin-quakes",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 17:37:01 GMT",
-        "summary_zh": "委內瑞拉北部近日發生一系列強烈地震，造成至少 1,719 人死亡，數萬人失蹤。地震引發嚴重的人道主義危機。最近一場餘震發生於本週一早晨，地震規模達 4.6 級，影響首都加拉加斯和受災重創的港口城市拉瓜伊拉。美國地質調查局測量此餘震的規模為 4.6 級，而哥倫比亞地質調查局則測量為 5.1 級。這場餘震令當地居民感到極度恐懼，紛紛逃竄到街上。救援隊伍仍在拉瓜伊拉努力挖掘受困者，希望能夠挽救更多生還者。委內瑞拉的地震災情持續惡化，人道主義危機日益加劇。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d27680a9",
-        "title": "委內瑞拉地震余震近首都發生，人被困 106 小時後獲救",
-        "url": "https://www.theguardian.com/world/live/2026/jun/29/venezuela-earthquakes-search-rescue-latest-updates",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 16:56:14 GMT",
-        "summary_zh": "委內瑞拉近日發生一系列地震，造成至少 1,450 人死亡，數字預計會繼續上升。最新消息指出，近日發生的 4.6 級余震未造成重大損傷。委內瑞拉、墨西哥和薩爾瓦多的救援隊伍共同努力，成功將 21 歲的 Aaron Levi Cantillo Vargas 從瓦拉圭拉的建築物下救出，他被困 106 小時。薩爾瓦多總統 Nayib Bukele 表示，這項救援行動是「奇蹟」，並表示 Aaron 現在正在接受專科醫療治療。這項救援行動是由委內瑞拉、墨西哥和薩爾瓦多的救援隊伍共同努力完成的。委內瑞拉的地震事件仍在持續發生，政府正在努力處理災情。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       }
