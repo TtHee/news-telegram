@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-30T11:04:49.675883+08:00",
+  "generated_at": "2026-06-30T12:06:44.287156+08:00",
   "risk_signals": [
-    "🟢 台股加權 46486.39（正常）",
+    "🟢 台股加權 46417.72（正常）",
     "🟢 S&P 500 7440.43（正常）",
     "🟢 VIX 恐慌指數 17.65（正常）",
-    "🟢 MOVE 債市波動 68.14（正常）",
-    "🟢 美元指數 101.29（正常）",
-    "🟢 黃金 3980.2（正常）",
+    "🟢 MOVE 債市波動 66.79（正常）",
+    "🟢 美元指數 101.11（正常）",
+    "🟢 黃金 4022.3（正常）",
     "🟢 美債10Y殖利率 4.37（正常）",
-    "🟢 原油 WTI 70.7（正常）",
-    "🟢 美元/台幣 31.92（正常）"
+    "🟢 原油 WTI 70.75（正常）",
+    "🟢 美元/台幣 31.91（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，多個指標回歸正常水平，表明投資者情緒正逐步恢復。目前市場風格偏向穩健，投資者正在尋找穩定的收益機會。",
+  "ai_summary": "市場氛圍保持穩定，多個指標維持正常水平，表明投資人信心正在回升。台股和美股均錄得小幅上漲，顯示市場正處於積極的走勢。",
   "market": {
     "TWII": {
-      "price": 46486.39,
-      "change_pct": 3.3
+      "price": 46417.72,
+      "change_pct": 3.15
     },
     "SP500": {
       "price": 7440.43,
@@ -34,39 +34,353 @@
       "change_pct": 0.05
     },
     "MOVE": {
-      "price": 68.14,
-      "change_pct": 2.02
+      "price": 66.79,
+      "change_pct": -0.46
     },
     "DXY": {
-      "price": 101.29,
-      "change_pct": 0.18
+      "price": 101.11,
+      "change_pct": -0.25
     },
     "GOLD": {
-      "price": 3980.2,
-      "change_pct": -2.41
+      "price": 4022.3,
+      "change_pct": -1.38
     },
     "OIL": {
-      "price": 70.7,
-      "change_pct": 2.12
+      "price": 70.75,
+      "change_pct": 2.2
     },
     "USDTWD": {
-      "price": 31.92,
-      "change_pct": 0.21
+      "price": 31.91,
+      "change_pct": 0.2
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "cbb921a8",
+        "title": "地震余波使委內瑞拉人感到焦慮，許多人被迫自求多福",
+        "url": "https://www.bbc.co.uk/news/articles/cqj1210rj0yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 20:00:44 GMT",
+        "summary_zh": "委內瑞拉遭遇連環地震，災區民眾使用鐵棍、鑿子和徒手試圖尋找生還者。地震造成嚴重破壞，許多人被困於瓦礫下，無法獲得及時救援。這種情況使許多人感到焦慮和絕望，許多人被迫自求多福，尋找生存的方法。委內瑞拉政府和國際組織正努力提供援助和救援，但面臨著嚴重的挑戰。地震的影響將持續很長時間，許多人將面臨長期的生存困難。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "57a9f3b9",
+        "title": "美國前國防部長 Esper 說明日伊朗協議仍有許多未解決和未知之處",
+        "url": "https://www.cnbc.com/video/2026/06/29/so-much-unresolved-and-unknown-in-mou-between-u-s-and-iran-says-former-defense-secretary-esper.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-06-29 15:56:07",
+        "summary_zh": "美國前國防部長 Mark Esper 表示，美國和伊朗之間的最新協議仍有許多未解決和未知之處。他在接受 Squawk on the Street 訪問時表示，伊朗與美國之間的談判正在進行中，美國正在試圖解決伊朗核問題。Esper 表示，美國需要確保伊朗不會發展核武器，並且需要確保伊朗的核計畫符合國際協議的要求。他還表示，美國需要與伊朗進行更進一步的談判，以確保雙方的協議能夠達到預期的效果。Esper 的話語表明，美國和伊朗之間的協議仍有許多挑戰和未知之處，需要雙方共同努力來解決。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "0d286314",
+        "title": "無人動靜！委內瑞拉救援隊在瓦礫下聆聽求生者呼聲",
+        "url": "https://www.bbc.co.uk/news/articles/c78yvq72dg7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 21:19:28 GMT",
+        "summary_zh": "委內瑞拉發生嚴重地震，數萬人仍被困於瓦礫下，救援隊在瓦礫下聆聽求生者的呼聲，希望能夠找到更多的生還者。這場地震造成了重大損失，委內瑞拉政府正在努力進行救援工作。儘管有許多人被困，但救援隊仍然在努力聆聽求生者的呼聲，希望能夠找到更多的生還者。這場地震對委內瑞拉的影響將是長期的，政府和民間組織都將需要共同努力來恢復和重建。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "093e4f78",
+        "title": "《利洛與史迪克》女主角戴薇兒因愛滋病去世",
+        "url": "https://www.bbc.co.uk/news/articles/cx2xyx1qjnyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 21:21:15 GMT",
+        "summary_zh": "美國女演員戴薇兒因愛滋病去世，享年 35 歲。戴薇兒曾在《利洛與史迪克》和恐怖片《死亡之環》中演出。她的死訊在今年 6 月份傳出。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "db8daaf6",
+        "title": "德國北部一青少年中心槍擊案造成五人死亡",
+        "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 19:53:57 GMT",
+        "summary_zh": "德國北部城市斯塔德發生槍擊案，造成五人死亡。警方表示，已經逮捕了兩名嫌疑人，其中一名被認為是兇手。這起槍擊案發生在一所青少年中心，當地居民表示感到震驚和恐懼。警方正在調查案件，試圖找出兇手的動機和背景。這起槍擊案對當地社區造成了深遠的影響，許多人正在等待警方的進一步通報。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f2aa9a89",
+        "title": "美國承認與伊朗交換空襲後同意暫停軍事行動",
+        "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 14:52:10 GMT",
+        "summary_zh": "美國與伊朗近日發生了一系列空襲事件，雙方互指違反停火協議。這些事件發生在週末，美國和伊朗都指責對方違反停火協議。美國的承諾意味著雙方將暫停軍事行動，避免進一步升級。伊朗的行動引發了美國的反應，美國對伊朗的空軍基地發動了空襲。伊朗隨後對美國的軍事基地發動了報復性空襲。這些事件引發了國際社會的關注，各國都在關注美國和伊朗的動向。美國的承諾意味著雙方將暫停軍事行動，避免進一步升級。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "fd784f00",
+        "title": "伊朗石油錢回流，但民間仍需等待",
+        "url": "https://www.wsj.com/world/middle-east/iran-economy-cash-deal-7bff049c",
+        "source": "Wsj",
+        "category": "global",
+        "published_at": "2026-06-29 15:30:00",
+        "summary_zh": "伊朗海灣霍爾木茲海峽的停火仍然脆弱，石油收入的回流將對一般伊朗民眾的生活影響有限。伊朗石油產量的恢復和出口的增加，將會帶來一些經濟上的好處，但這些好處將主要集中在政府和石油產業的利益相關者身上。伊朗民眾的生活苦況仍然嚴重，物價上升和失業率的高企仍然是主要的問題。伊朗政府將需要更多的時間和努力來改善民生的生活質量和經濟發展。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1099b5a9",
+        "title": "巴基斯坦對阿富汗邊境發動猛烈攻擊",
+        "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 15:46:50 GMT",
+        "summary_zh": "巴基斯坦近日對阿富汗邊境發動猛烈攻擊，據巴基斯坦方面表示，這是對「近期針對無辜民眾的恐怖攻擊」的回應。這一行動引發了對巴基斯坦軍事行動的關注，同時也引發了對阿富汗局勢的擔憂。巴基斯坦的軍事行動可能會對阿富汗的安全局勢產生重大影響，同時也可能會對當地的平民造成傷害。這一事件的發展仍在進展中，外界正在密切關注巴基斯坦的行動和阿富汗的反應。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4f214fe0",
+        "title": "日圓貶破40年新低 日本財相稱準備採取行動",
+        "url": "https://www.cna.com.tw/news/afe/202606300061.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Tue, 30 Jun 2026 10:59:07 +0800",
+        "summary_zh": "日圓兌美元跌至40年新低，日本財務大臣片山皋月表示，當局已準備好採取適當行動來應對這種局面。這是日本經濟面臨的又一挑戰，日圓貶值將對日本出口業影響較大。日本政府可能會採取措施來穩定日圓，例如調整貨幣政策或干預外匯市場。然而，具體的行動方案尚未公布。日圓貶值也會對全球經濟產生影響，特別是在亞洲地區。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "fad4da88",
+        "title": "普京承認烏克蘭攻擊導致俄羅斯燃料短缺",
+        "url": "https://www.bbc.co.uk/news/articles/clyw31zvpgmo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 17:28:59 GMT",
+        "summary_zh": "俄羅斯總統普京承認烏克蘭攻擊導致俄羅斯燃料短缺，但否認短缺情況是「嚴重的」。烏克蘭近期對俄羅斯的攻擊已經導致俄羅斯燃料供應受影響。普京表示烏克蘭的攻擊「明顯地造成了問題」，但強調俄羅斯仍能夠應對燃料短缺。這一承認是普京罕見的，因為他一直堅持俄羅斯的燃料供應是穩定的。烏克蘭的攻擊對俄羅斯的燃料短缺造成了重大影響，俄羅斯的燃料供應已經受到了嚴重的影響。這一發展可能會對俄羅斯的經濟和政治造成重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ebac341d",
+        "title": "南非領袖警告反移民抗議者前夕",
+        "url": "https://www.bbc.co.uk/news/articles/cy4eq1l184po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 19:16:34 GMT",
+        "summary_zh": "南非領袖在未來星期二的非官方截止日期前夕，警告反移民抗議者。南非境內有數以萬計來自其他非洲國家的人民已經離開南非。這些抗議者要求南非政府在未來星期二前將非洲移民趕出南非。南非領袖對這些抗議者表示警告，表明政府將採取行動維護南非的安定和安全。這些事件發生在南非境內的緊張局勢加劇之際。南非領袖的警告顯示政府將堅決維護南非的法律和秩序。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d0e8ad27",
+        "title": "查理船沉沒 Vancouver 附近六人失蹤，搜救中斷",
+        "url": "https://www.bbc.co.uk/news/articles/c621r127dqwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 30 Jun 2026 02:40:21 GMT",
+        "summary_zh": "一艘載有 10 人的查理船在 Vancouver 附近沉沒，當局已經救出三名生還者，另有四人被救出。然而，六名乘客仍然失蹤，被認為是溺斃。這起事故引起了當地居民的關注，當局正在進行搜救工作。這起沉船事故可能是由於惡劣的天氣條件或船隻的設計問題所導致。目前，當局正在調查事故的原因。這起事故對當地居民造成了重大影響，當局正在提供援助和支持。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "359d3149",
+        "title": "這位意外的世界盃明星的歷史進球是數代人努力的結果",
+        "url": "https://www.bbc.co.uk/news/articles/cn4r0r0rylzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 22:28:24 GMT",
+        "summary_zh": "加拿大對南非的進球是由來自加拿大的豐富、足球迷的葡萄牙社區的成員史蒂芬·尤斯塔基奧所射入。這位加拿大球星的成長背景是加拿大足球的成功的一部分，他的家族在加拿大定居已經數代，並且對足球有著深厚的熱情。尤斯塔基奧的進球不僅代表了加拿大足球的進步，也是對加拿大足球發展的肯定。這一進球對於加拿大足球的未來發展有著重要的意義，希望這一進球能夠激勵更多的加拿大年輕人追求足球夢想。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6a77f261",
+        "title": "剛果民主共和國禁止首都大型集會以防止埃博拉傳播",
+        "url": "https://www.bbc.co.uk/news/articles/c992k7zk981o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 14:40:58 GMT",
+        "summary_zh": "剛果民主共和國政府為防止埃博拉病毒傳播，禁止首都大型集會。然而，反對派政客指責政府利用疫情來阻止即將舉行的抗議活動。這一措施引發了對政府管控和人權保護的爭議。剛果民主共和國政府面臨著如何平衡防疫措施和維護民主自由的挑戰。疫情的爆發對當地人民的生活造成了重大影響，政府的決定將如何影響到未來的抗議活動和社會穩定，仍待觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d2adcba9",
+        "title": "肯塔基州遭遇慘重山洪暴發",
+        "url": "https://www.bbc.co.uk/news/videos/c5yzd666r6ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 14:18:11 GMT",
+        "summary_zh": "肯塔基州遭遇慘重山洪暴發，至少有四人死亡，60人進行水上救援和疏散。這場山洪暴發對州內的居民造成嚴重影響，許多人被困在水中，需要緊急救援。根據當地官員的報導，山洪暴發的原因是長時間的雨水和地形的特殊性，導致水快速流入低洼區域。這場災害對肯塔基州的經濟和社會造成了重大影響，當地政府正在努力進行救援和重建工作。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "577ceb71",
+        "title": "南韓足球教練辭職　總統要求調查世界盃失利",
+        "url": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 07:18:14 GMT",
+        "summary_zh": "南韓足球代表隊在世界盃中未能晉級八強，教練因此辭職。南韓總統要求調查球隊在世界盃的表現，了解失利的原因。南韓在世界盃的表現令人失望，球隊在小組賽中取得兩勝一負的成績，但在淘汰賽中未能取得勝利，最終被淘汰。教練的辭職是球隊失利的直接結果，總統要求調查以確保未來的球隊表現能夠改善。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f4ec9fcd",
+        "title": "中國富商在美國被判30年監禁",
+        "url": "https://www.bbc.co.uk/news/articles/cjeg15vw3z9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 30 Jun 2026 02:08:21 GMT",
+        "summary_zh": "中國富商郭文貴自稱為中國批評者，獲得了支持他的詐騙計劃的追隨者。郭文貴曾經聲稱自己是揭露中國政府腐敗的英雄，但實際上他涉嫌在美國進行詐騙活動。根據美國檢察官的說法，郭文貴利用他的財富和影響力，騙取了數十億美元的資金。這起案件的判決結果對郭文貴和他的追隨者來說是一個沉重的打擊，同時也表明美國政府對於跨國詐騙活動的嚴厲打擊。郭文貴的判決結果還可能對中國政府的形象產生影響，特別是在中國政府試圖打擊腐敗的同時。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6b7c1013",
+        "title": "美伊停火局勢脆弱 國際油價微漲",
+        "url": "https://www.cna.com.tw/news/afe/202606300010.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Tue, 30 Jun 2026 05:20:12 +0800",
+        "summary_zh": "美伊停火局勢仍然不穩定，儘管雙方達成諒解備忘錄延續停火並展開後續談判，但上週末的空襲事件再度打亂荷莫茲海峽航運，凸顯美伊停火的脆弱。這種不穩定的局勢對國際油價產生了影響，上週跌至接近戰前水準後，今天國際油價小幅回升。這種情況表明，美伊停火的脆弱對全球經濟和能源市場產生了重要影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "dcf1b3d2",
+        "title": "$20 的菸桿水果現在只賣一半價或免費分送",
+        "url": "https://www.bbc.co.uk/news/articles/c8x21yld0yro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 23:17:19 GMT",
+        "summary_zh": "馬來西亞的菸桿水果價格大幅下跌，農民擔心生計受到影響。近日，菸桿水果的價格下跌至一半甚至免費分送。這種情況讓農民感到擔憂，因為他們的收入會受到嚴重影響。菸桿水果的價格下跌是由於供過於求，市場上有太多菸桿水果供應商。這種情況不僅影響農民的收入，也會對整個菸桿水果產業造成影響。農民正在努力尋找解決方案，希望能夠挽救這個產業。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "380ae311",
+        "title": "投資人權衡中東局勢 歐洲股市收盤小跌",
+        "url": "https://www.cna.com.tw/news/afe/202606300003.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Tue, 30 Jun 2026 00:45:52 +0800",
+        "summary_zh": "中東局勢的變化讓投資人感到擔憂。美國與伊朗暫停交火的消息傳出後，投資人開始權衡這個發展對全球經濟的影響。歐洲股市主要指數今天收盤小幅下挫，表明投資人對未來仍存疑慮。這種情況下，投資人可能會選擇謹慎投資或暫時撤資。中東局勢的不確定性可能會持續影響全球股市的波動。投資人需要密切關注這個發展，以便做出明智的投資決策。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cdb72bc0",
+        "title": "印度記者譴責「否認」知名編輯投票和護照權利",
+        "url": "https://www.bbc.co.uk/news/articles/cpv37jwd3zzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 07:58:42 GMT",
+        "summary_zh": "印度記者們譴責政府否認知名編輯拉賈戈帕爾（Rajagopal）投票和護照權利。拉賈戈帕爾指控，政府刪除了他的選民登記資料，導致他無法更新護照。這一事件引發了印度媒體界的強烈譴責，批評政府侵犯了新聞自由和人權。拉賈戈帕爾是一位資深的印度記者和編輯，他曾經在多家媒體工作過。政府的行動被視為對新聞自由的打壓，引發了社會和媒體界的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0ba3bd42",
+        "title": "韓國公布 8800 億美元晶片和 AI 投資計畫",
+        "url": "https://www.bbc.co.uk/news/articles/c9q2pwzngjqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 08:55:29 GMT",
+        "summary_zh": "韓國政府近日公布了一項 8800 億美元的晶片和人工智慧投資計畫。這項計畫旨在加強韓國在全球晶片和 AI 界的競爭力。然而，這項計畫的出現也引發了對韓國是否能夠與其他地區競爭的疑問。根據報告，韓國的競爭對手如台灣、中國和日本都已經在晶片和其他技術領域投入大量資金。韓國政府認為，這項投資計畫將幫助韓國企業在全球市場上佔據重要地位。然而，投資計畫的具體細節尚未公布，投資將如何分配以及投資效益如何仍待觀察。這項計畫的出現也引發了對韓國經濟未來發展的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c8055d0b",
+        "title": "美國內政部公布三名消防員遇難名單",
+        "url": "https://www.theguardian.com/us-news/2026/jun/29/firefighters-killed-colorado-wildfires",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 20:33:56 GMT",
+        "summary_zh": "美國內政部於週一公布三名消防員遇難名單，他們在努力控制烏塔-科羅拉多邊境的野火時喪生。三名消防員的名字分別為Emily Barker、Nick Hutcherson和Sydney Watson。另外兩名消防員受傷，但當局尚未公布其身份。這場野火的原因尚未明朗，但美國內政部已經展開調查。這次事件的發生，令人感到悲傷和震驚。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "470b56f1",
+        "title": "強烈餘震驚嚇委內瑞拉民眾　地震死亡人數超過1700人",
+        "url": "https://www.theguardian.com/world/2026/jun/29/strong-aftershock-terrifies-venezuelans-days-after-devastating-twin-quakes",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 17:37:01 GMT",
+        "summary_zh": "委內瑞拉北部近日發生一系列強烈地震，造成至少 1,719 人死亡，數萬人失蹤。地震引發嚴重的人道主義危機。最近一場餘震發生於本週一早晨，地震規模達 4.6 級，影響首都加拉加斯和受災重創的港口城市拉瓜伊拉。美國地質調查局測量此餘震的規模為 4.6 級，而哥倫比亞地質調查局則測量為 5.1 級。這場餘震令當地居民感到極度恐懼，紛紛逃竄到街上。救援隊伍仍在拉瓜伊拉努力挖掘受困者，希望能夠挽救更多生還者。委內瑞拉的地震災情持續惡化，人道主義危機日益加劇。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d27680a9",
+        "title": "委內瑞拉地震余震近首都發生，人被困 106 小時後獲救",
+        "url": "https://www.theguardian.com/world/live/2026/jun/29/venezuela-earthquakes-search-rescue-latest-updates",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 29 Jun 2026 16:56:14 GMT",
+        "summary_zh": "委內瑞拉近日發生一系列地震，造成至少 1,450 人死亡，數字預計會繼續上升。最新消息指出，近日發生的 4.6 級余震未造成重大損傷。委內瑞拉、墨西哥和薩爾瓦多的救援隊伍共同努力，成功將 21 歲的 Aaron Levi Cantillo Vargas 從瓦拉圭拉的建築物下救出，他被困 106 小時。薩爾瓦多總統 Nayib Bukele 表示，這項救援行動是「奇蹟」，並表示 Aaron 現在正在接受專科醫療治療。這項救援行動是由委內瑞拉、墨西哥和薩爾瓦多的救援隊伍共同努力完成的。委內瑞拉的地震事件仍在持續發生，政府正在努力處理災情。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
       {
         "id": "952f1517",
         "title": "特朗普在最高法院的戲劇性一天：一勝三負",
         "url": "https://www.bbc.co.uk/news/articles/ceqdzd7zx24o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "source": "BBC North America",
         "category": "whitehouse",
         "published_at": "Mon, 29 Jun 2026 20:34:52 GMT",
         "summary_zh": "特朗普在最高法院的一天是戲劇性的，雖然他在一項判決中獲得了勝利，但另一方面，他也遭遇了三個重大失利。特朗普在一項判決中獲得了勝利，這項判決擴大了總統的權力，允許他更容易地移除和更換監管者。然而，這項勝利並不能抵消他在其他三項判決中的失利。這些判決對於特朗普政府的政策和行動產生了重大影響，特別是在監管和執法方面。這些判決的結果將對美國的政治和社會產生深遠的影響。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "66b8b444",
+        "title": "最高法院阻止川普試圖辭退聯邦儲備委員會主席麗莎·庫克",
+        "url": "https://www.bbc.co.uk/news/articles/cy4wwy0nkeno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 29 Jun 2026 16:51:52 GMT",
+        "summary_zh": "最高法院的決定被視為中央銀行獨立的勝利，將辭退爭議重新送回下級法院。美國最高法院最近做出一項重要決定，阻止前總統川普試圖辭退聯邦儲備委員會主席麗莎·庫克。這一決定被視為中央銀行獨立的勝利，表明最高法院對中央銀行的獨立性有著堅定的信念。這一決定對美國的經濟政策和中央銀行的運作將產生重大影響。這一爭議的下一步將在下級法院進行，美國人將密切關注這一事件的進展。",
+        "sentiment": "正面",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -79,18 +393,6 @@
         "summary_zh": "美國最高法院駁回川普總統對E Jean Carroll性侵案的上訴，這意味著川普將必須支付她在案件中獲得的5000萬美元（約3600萬鎊）賠償金。這起案件始於2019年，當時E Jean Carroll控訴川普在2005年或2006年在紐約的一家精品店內對她進行性侵犯。川普曾否認這一指控，但法庭最終判決他有罪。川普的律師已經表示將會上訴，但美國最高法院的決定意味著這一路線將會被打斷。這一判決對川普的政治影響可能會很大，尤其是在2024年美國總統選舉前。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "66b8b444",
-        "title": "最高法院阻止川普試圖辭退聯邦儲備委員會主席麗莎·庫克",
-        "url": "https://www.bbc.co.uk/news/articles/cy4wwy0nkeno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 29 Jun 2026 16:51:52 GMT",
-        "summary_zh": "最高法院的決定被視為中央銀行獨立的勝利，將辭退爭議重新送回下級法院。美國最高法院最近做出一項重要決定，阻止前總統川普試圖辭退聯邦儲備委員會主席麗莎·庫克。這一決定被視為中央銀行獨立的勝利，表明最高法院對中央銀行的獨立性有著堅定的信念。這一決定對美國的經濟政策和中央銀行的運作將產生重大影響。這一爭議的下一步將在下級法院進行，美國人將密切關注這一事件的進展。",
-        "sentiment": "正面",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -228,6 +530,30 @@
     ],
     "ai": [
       {
+        "id": "024d61b3",
+        "title": "Tidal 對 AI 生成音樂的新政策：不禁止但不付版稅",
+        "url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-29T15:47:35-04:00",
+        "summary_zh": "音樂串流平台 Tidal 公布了對 AI 生成音樂的新政策。平台將在 7 月 15 日起標示 100% 由 AI 生成的音樂作品，但目前已經不會付版稅給創作者。這項政策的目的是保護音樂創作者的權益，並讓聽眾了解音樂的真實來源。然而，這項政策也引發了對音樂產業未來發展方向的討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e8846aa4",
+        "title": "OpenAI 預告新硬體… 對 Codex 進行升級",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-06-29T14:52:03-04:00",
+        "summary_zh": "OpenAI 將於 7 月 15 日推出與其 AI Coding 工具 Codex 相關的新裝置。近日，OpenAI 在 X 上發佈了一段視頻，展示了一個方形裝置，裝置上有數個按鈕，伴隨著標題「您的 Codex 快捷鍵即將升級」。這項新裝置似乎與 OpenAI 正在開發的神秘 AI 裝置無關。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "9058bcd2",
         "title": "AI 工具不是你的「同事」",
         "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
@@ -264,42 +590,6 @@
         "ai_classified": true
       },
       {
-        "id": "87c08787",
-        "title": "Elastic CEO Ash Kulkarni: Elastic 將自己定位為 AI 的「上下文層」",
-        "url": "https://www.cnbc.com/video/2026/06/29/ash-kulkarni-elastic-ceo-a-fortt-knox-conversation.html",
-        "source": "Cnbc",
-        "category": "ai",
-        "published_at": "2026-06-29 12:25:59",
-        "summary_zh": "Elastic CEO Ash Kulkarni 在 Fortt Knox 1:1 對話中表示，該公司已經將自己定位為「AI 的上下文層」，通過向量搜索來挖掘無結構化的資料，這些資料遠遠超過結構化資料的數量，對於安全性、可觀察性和企業搜索具有重要意義。 他將人工智慧的時期與早期互聯網相比，認為大型語言模型 (LLMs) 正在成為一個新的作業系統，重塑軟體的開發和安全性。 Elastic 的收入今年將達到約 20 億美元，對於華爾街的影響非常顯著。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "024d61b3",
-        "title": "Tidal 對 AI 生成音樂的新政策：不禁止但不付版稅",
-        "url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-06-29T15:47:35-04:00",
-        "summary_zh": "音樂串流平台 Tidal 公布了對 AI 生成音樂的新政策。平台將在 7 月 15 日起標示 100% 由 AI 生成的音樂作品，但目前已經不會付版稅給創作者。這項政策的目的是保護音樂創作者的權益，並讓聽眾了解音樂的真實來源。然而，這項政策也引發了對音樂產業未來發展方向的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e8846aa4",
-        "title": "OpenAI 預告新硬體… 對 Codex 進行升級",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-06-29T14:52:03-04:00",
-        "summary_zh": "OpenAI 將於 7 月 15 日推出與其 AI Coding 工具 Codex 相關的新裝置。近日，OpenAI 在 X 上發佈了一段視頻，展示了一個方形裝置，裝置上有數個按鈕，伴隨著標題「您的 Codex 快捷鍵即將升級」。這項新裝置似乎與 OpenAI 正在開發的神秘 AI 裝置無關。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "572ffbbb",
         "title": "Meta 合約工人假扮成青少年與對手聊機測試自殺、性、毒品等高風險主題反應",
         "url": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/",
@@ -326,62 +616,50 @@
     ],
     "stock_tw": [
       {
-        "id": "f689800d",
-        "title": "70歲阿公延後領退休金　結果殘酷打擊接踵而來　養老生活更焦慮了",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5488488",
-        "source": "自由時報財經",
+        "id": "f921c75d",
+        "title": "川湖股東會通過配息51元創高 看今年營運欲小不易",
+        "url": "https://www.cna.com.tw/news/afe/202606300088.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 30 Jun 2026 10:55:00 +0800",
-        "summary_zh": "70歲的正夫在65歲退休後，選擇延後5年領取老年年金，以換取更高的月給付。他原本認為，只要靠存款支撐這段空窗期，就能為未來換來更穩定的晚年收入。然而，實際支出卻超出預期，導致他面臨著嚴重的財務壓力。正夫的經歷表明，延後領取退休金並不是一種可靠的策略，反而可能導致更大的風險。這個案例引發了對退休金制度和養老生活的關注，讓人們開始思考如何更好地規劃未來的財務和生活。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "593abcc6",
-        "title": "新北租金溫和上漲 去年下半年新店、三重蘆洲漲幅明顯",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5488466",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 30 Jun 2026 10:49:25 +0800",
-        "summary_zh": "新北市地政局近日發布2025年下半年住宅租金指數，結果顯示各次分區住宅租金指數呈現平穩上升。根據數據，板橋土城地區的租金指數為124.98，中和永和地區為122.79，三重蘆洲地區則達到122.96。相比之下，新莊地區的租金指數為117.22。這意味著新北市的租金市場呈現出溫和的上漲趨勢。分析師認為，這可能是由於新北市的房價上漲和人口增加所致。然而，租金上漲的幅度仍然相對平穩，未來仍需要密切監測。",
+        "published_at": "Tue, 30 Jun 2026 11:24:04 +0800",
+        "summary_zh": "中央社報導，伺服器滑軌大廠川湖去年每股稅後純益高達新台幣103.23元，大賺10個股本。今天，川湖舉行股東會，通過每股配發現金股息51元，創歷史新高。這意味著公司今年的營運預期可能不會太好。川湖的股東會通過這項決議，表明公司認為今年的營運可能會小幅下滑。雖然公司去年的業績非常亮眼，但股東會的決議也讓人感到有些擔憂。川湖的股價可能會受到這項決議的影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "4dd27ce1",
-        "title": "焦點股》台積電：外資調高目標價 大漲至2475元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5488487",
-        "source": "自由時報財經",
+        "id": "06233b6e",
+        "title": "台躍新加坡最大貿易夥伴 精誠資訊設東南亞營運總部",
+        "url": "https://www.cna.com.tw/news/afe/202606300074.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 30 Jun 2026 10:44:40 +0800",
-        "summary_zh": "台積電在美股市場的ADR股價周一大漲5.26%，而外資投資人紛紛調高台積電的目標價，導致台積電股價在台股上漲，早盤最高觸及2475元，市值達新台幣6兆元。這種情況表明外資對台積電的信心正在增強，市場預期台積電的未來表現將會更好。然而，市場也需要注意的是，台積電的股價已經大幅上漲，是否會出現回調的風險。",
+        "published_at": "Tue, 30 Jun 2026 11:17:35 +0800",
+        "summary_zh": "精誠資訊搶攻東南亞市場，於新加坡成立SYSTEX Asia東南亞營運總部。根據預測，2025年台灣將成為新加坡最大貿易夥伴。精誠資訊表示，台灣企業的創新精神和擴大佈局的決心，將與新加坡的經貿和科技合作持續蓬勃。這一舉動標誌著精誠資訊進一步拓展亞洲市場的願景。",
         "sentiment": "正面",
         "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false
       },
       {
-        "id": "3b6dba43",
-        "title": "郭智輝倡台日產業合作 深化半導體、能源等4大領域結盟",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5488493",
-        "source": "自由時報財經",
+        "id": "8058d8ad",
+        "title": "千萬獎4張未領 兌領期限7/6",
+        "url": "https://www.cna.com.tw/news/ahel/202606300066.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 30 Jun 2026 10:44:38 +0800",
-        "summary_zh": "前經濟部長郭智輝近日赴日本東京早稻田大學發表演講，分享自己從年輕時自學日文赴日拓展業務到73歲站上日本大學講台的歷程。郭智輝強調台日產業合作的重要性，並呼籲雙方深化半導體、能源、醫療器材和綠能等四大領域的結盟。郭智輝認為，台日產業合作不僅能夠增進雙方的經濟合作，也能夠促進兩國之間的文化交流和理解。郭智輝的演講受到日本學者和企業家們的高度重視，許多人認為台日產業合作有很大的潛力。郭智輝的演講也引起了台灣產業界的重視，許多企業家認為台日產業合作是增強台灣競爭力的關鍵一步。",
-        "sentiment": "中性",
+        "published_at": "Tue, 30 Jun 2026 11:06:18 +0800",
+        "summary_zh": "財政部表示，今年1、2月期特別獎及特獎中獎發票，目前共有7張未領。其中，4張是千萬大獎，幸運兒花2元在麥當勞加購塑膠袋，兌領期限為今年7月6日。這些未領發票的持有人應儘快前往兌領，以免錯失機會。財政部強調，未領發票的兌領期限將於7月6日截止，屆時將無法兌換獎金。因此，持有未領發票的民眾應儘快前往兌領，避免錯失千萬獎金的機會。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "c3148b9c",
-        "title": "科技股巨震震央曝光！高盛示警：記憶體3大致命風險已上路",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5488322",
-        "source": "自由時報財經",
+        "id": "02e19da6",
+        "title": "台股盤中大漲逾1500點突破46500點！電子權值股領軍",
+        "url": "https://www.cna.com.tw/news/afe/202606300064.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 30 Jun 2026 10:43:39 +0800",
-        "summary_zh": "科技股近期出現斷崖式拋售，高盛交易員Ippei Yamaura指出，韓國儲存晶片股率先引爆這波巨震。高盛認為，記憶體三大風險已經出現，包括供應鏈風險、需求疲軟風險和價格競爭風險。這些風險可能會對科技股產生重大影響，甚至導致科技股多頭派對散場。高盛的分析表明，科技股的表現可能會出現下滑趨勢，投資者需要謹慎評估風險並調整投資策略。",
-        "sentiment": "負面",
+        "published_at": "Tue, 30 Jun 2026 11:00:14 +0800",
+        "summary_zh": "台股今天在美股反彈的影響下，出現大幅上揚。電子權值股如台積電等股價走強，帶動台股指數盤中上揚逾1500點。這一波上揚使得台股指數站上短中期均線，包括5日線及月線，並突破46500點。這一事件的背後，主要是由於美股的反彈，電子股的強勁表現。這一波上揚對於台股市場有著重要的影響，投資者應該密切關注這一發展。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": true
       },
@@ -398,37 +676,61 @@
         "ai_classified": true
       },
       {
-        "id": "ed1a1f44",
-        "title": "科嶠與Brooks技術授權 攻晶圓傳載盒清洗設備",
-        "url": "https://www.cna.com.tw/news/afe/202606290313.aspx",
-        "source": "中央社財經",
+        "id": "f689800d",
+        "title": "70歲阿公延後領退休金　結果殘酷打擊接踵而來　養老生活更焦慮了",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5488488",
+        "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 21:13:45 +0800",
-        "summary_zh": "科嶠工業與國際半導體設備商Brooks Automation簽訂技術授權協議，雙方將結合技術與製造能力，推動半導體晶圓傳載盒（FOUP）清洗設備於全球市場的開發與應用。這項協議將使科嶠的晶圓傳載盒清洗設備技術獲得全球獨家授權，推動全球市場的開發與應用。這項合作將進一步強化科嶠在半導體設備領域的競爭力，同時也將帶來新的商業機會。",
+        "published_at": "Tue, 30 Jun 2026 10:55:00 +0800",
+        "summary_zh": "70歲的正夫在65歲退休後，選擇延後5年領取老年年金，以換取更高的月給付。他原本認為，只要靠存款支撐這段空窗期，就能為未來換來更穩定的晚年收入。然而，實際支出卻超出預期，導致他面臨著嚴重的財務壓力。正夫的經歷表明，延後領取退休金並不是一種可靠的策略，反而可能導致更大的風險。這個案例引發了對退休金制度和養老生活的關注，讓人們開始思考如何更好地規劃未來的財務和生活。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "593abcc6",
+        "title": "新北租金溫和上漲 去年下半年新店、三重蘆洲漲幅明顯",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5488466",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 30 Jun 2026 10:49:25 +0800",
+        "summary_zh": "新北市地政局近日發布2025年下半年住宅租金指數，結果顯示各次分區住宅租金指數呈現平穩上升。根據數據，板橋土城地區的租金指數為124.98，中和永和地區為122.79，三重蘆洲地區則達到122.96。相比之下，新莊地區的租金指數為117.22。這意味著新北市的租金市場呈現出溫和的上漲趨勢。分析師認為，這可能是由於新北市的房價上漲和人口增加所致。然而，租金上漲的幅度仍然相對平穩，未來仍需要密切監測。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "94b2f2b4",
-        "title": "製藥業海外布局報捷 美時攻美、台康拓日市場",
-        "url": "https://www.cna.com.tw/news/afe/202606290311.aspx",
-        "source": "中央社財經",
+        "id": "4dd27ce1",
+        "title": "焦點股》台積電：外資調高目標價 大漲至2475元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5488487",
+        "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 21:03:41 +0800",
-        "summary_zh": "製藥業者海外布局再傳進展，美時取得美國食品藥物管理局（FDA）核准流感藥物Xofluza首款學名藥資格，將搶攻美國市場。這標誌著美時在美國市場的進一步擴張。另一方面，台康生技與日本藥廠簽署乳癌生物相似藥EG1206A日本市場授權合作，擴大亞洲布局。這項合作將使台康生技進一步進入日本市場，拓展其在亞洲的市場份額。這些發展表明，台灣製藥業在全球市場的競爭力正在增強。",
+        "published_at": "Tue, 30 Jun 2026 10:44:40 +0800",
+        "summary_zh": "台積電在美股市場的ADR股價周一大漲5.26%，而外資投資人紛紛調高台積電的目標價，導致台積電股價在台股上漲，早盤最高觸及2475元，市值達新台幣6兆元。這種情況表明外資對台積電的信心正在增強，市場預期台積電的未來表現將會更好。然而，市場也需要注意的是，台積電的股價已經大幅上漲，是否會出現回調的風險。",
         "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3b6dba43",
+        "title": "郭智輝倡台日產業合作 深化半導體、能源等4大領域結盟",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5488493",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 30 Jun 2026 10:44:38 +0800",
+        "summary_zh": "前經濟部長郭智輝近日赴日本東京早稻田大學發表演講，分享自己從年輕時自學日文赴日拓展業務到73歲站上日本大學講台的歷程。郭智輝強調台日產業合作的重要性，並呼籲雙方深化半導體、能源、醫療器材和綠能等四大領域的結盟。郭智輝認為，台日產業合作不僅能夠增進雙方的經濟合作，也能夠促進兩國之間的文化交流和理解。郭智輝的演講受到日本學者和企業家們的高度重視，許多人認為台日產業合作有很大的潛力。郭智輝的演講也引起了台灣產業界的重視，許多企業家認為台日產業合作是增強台灣競爭力的關鍵一步。",
+        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "3b110610",
-        "title": "英美菸草集團推動AI轉型 9000個職位受影響",
-        "url": "https://www.cna.com.tw/news/aopl/202606290308.aspx",
-        "source": "中央社財經",
+        "id": "c3148b9c",
+        "title": "科技股巨震震央曝光！高盛示警：記憶體3大致命風險已上路",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5488322",
+        "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Mon, 29 Jun 2026 20:55:35 +0800",
-        "summary_zh": "英國英美菸草集團宣布推動內部人工智慧轉型計畫，以削減成本、提升獲利能力，並因應監管挑戰及新產品上市延宕等情況。為此，集團計劃裁減約20%的員工人數，約9000個職位將受影響。這項轉型計畫旨在利用AI技術來改善業務流程、提高效率，並在競爭激烈的菸草業中保持競爭力。然而，這項裁員措施也引發了對員工權益和未來發展的擔憂。",
+        "published_at": "Tue, 30 Jun 2026 10:43:39 +0800",
+        "summary_zh": "科技股近期出現斷崖式拋售，高盛交易員Ippei Yamaura指出，韓國儲存晶片股率先引爆這波巨震。高盛認為，記憶體三大風險已經出現，包括供應鏈風險、需求疲軟風險和價格競爭風險。這些風險可能會對科技股產生重大影響，甚至導致科技股多頭派對散場。高盛的分析表明，科技股的表現可能會出現下滑趨勢，投資者需要謹慎評估風險並調整投資策略。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -436,64 +738,28 @@
     ],
     "finance": [
       {
-        "id": "957e2e15",
-        "title": "Ardian計劃投資超過30億歐元在北歐數據中心",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-29/ardian-plans-to-invest-over-3-billion-in-nordic-data-centers",
+        "id": "360b6bb6",
+        "title": "歐洲股市靜默，電信股跌停 因為SpaceX干擾恐懼",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-29/european-stocks-steady-as-us-and-iran-agree-to-halt-hostilities",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-06-29 15:00:44",
-        "summary_zh": "私募基金Ardian宣布計劃投資超過30億歐元在北歐數據中心。這項投資將幫助北歐數據中心的發展，滿足日益增加的數據需求。北歐數據中心的發展受到歐盟的支持，歐盟正在推動數據中心的建設，以減少對美國的依賴。這項投資將對北歐數據中心產生重大影響，幫助北歐國家在數據中心領域競爭。然而，投資的具體細節尚未公布，投資的具體時間表也未明確。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "100cf0b9",
-        "title": "美證會罰波士頓銀行 7.5 億美元，涉嫌違規報告",
-        "url": "https://www.reuters.com/business/finance/us-sec-fines-bofas-merrill-lynch-75-million-over-suspicious-activity-reports-2026-06-29/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-29 14:51:44",
-        "summary_zh": "美國證券交易委員會（SEC）罰波士頓銀行的梅里爾林奇（Merrill Lynch）7.5 億美元，原因是該公司未能及時報告疑似違規活動。根據SEC的調查，梅里爾林奇在2019年至2021年間未能及時提交疑似違規報告，違反了美國證券交易委員會的規定。這一罰款是美證會對金融機構違規報告的最新一例。梅里爾林奇的違規行為可能會對投資者造成損失，SEC的調查將繼續進行，以確保金融機構遵守規定。這一事件也會對金融業的監管帶來影響，投資者需要更加小心地監控金融機構的行為。",
+        "published_at": "2026-06-29 15:56:45",
+        "summary_zh": "歐洲股市今天表現靜默，主要原因是電信股因為SpaceX的干擾恐懼而大幅下跌。SpaceX的星際網路計畫可能會對電信業的業務造成重大影響，導致投資者對電信股的投資意欲大幅下降。這項計畫的推出可能會對電信業的業務模式和收入構成重大挑戰，投資者因此而擔心未來的投資風險。同時，投資者也對全球經濟的不確定性感到擔憂，導致股市整體表現靜默。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "66bc4536",
-        "title": "Citadel Securities 警告 Fed 下的「變化的景象」",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-29/citadel-securities-warns-of-shifting-landscape-under-warsh-fed",
-        "source": "Bloomberg",
+        "id": "212d0f65",
+        "title": "阿根廷對委內瑞拉發出警告：債務重組的風險",
+        "url": "https://www.ft.com/content/9c15e960-a74b-4ac2-8776-29bda8fe5bed",
+        "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-06-29 14:51:28",
-        "summary_zh": " Citadel Securities 的高層表示，美聯儲主席 Warsh 的領導下，美聯儲可能會對市場產生重大影響。 Citadel Securities 的高層認為，美聯儲的政策變化可能會導致市場的不確定性增加，投資者需要謹慎行事。 Citadel Securities 的高層還表示，美聯儲的政策變化可能會影響市場的預期，投資者需要密切關注美聯儲的動向。 美聯儲的政策變化可能會對市場產生重大影響，投資者需要謹慎行事。 美聯儲的政策變化可能會影響市場的預期，投資者需要密切關注美聯儲的動向。 美聯儲的政策變化可能會對市場產生重大影響，投資者需要謹慎行事。 美聯儲的政策變化可能會影響市場的預期，投資者需要密切關注美聯儲的動向。 美聯儲的政策變化可能會對市場產生重大影響，投資者需要謹慎行事。",
+        "published_at": "2026-06-29 15:51:24",
+        "summary_zh": "阿根廷政府最近發出警告，指出委內瑞拉政府可能面臨著債務重組的風險。阿根廷財政部長表示，委內瑞拉政府的債務重組將對全球金融市場造成重大影響。阿根廷政府認為，委內瑞拉政府的債務重組將導致債務人氣泡的爆破，進而觸發全球金融風暴。阿根廷政府呼籲委內瑞拉政府儘快采取措施，避免債務重組的風險。委內瑞拉政府尚未對阿根廷政府的警告做出回應。這一事件可能對全球金融市場造成重大影響，投資者應該密切關注這一發展。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
-      },
-      {
-        "id": "ec2acccc",
-        "title": "黃金通道天然氣接收量近乎停擺，LSEG數據顯示停機",
-        "url": "https://www.reuters.com/business/energy/golden-pass-lng-appears-offline-after-near-halt-gas-intake-lseg-data-show-2026-06-29/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-29 14:49:43",
-        "summary_zh": "根據LSEG數據，黃金通道天然氣接收量近乎停擺。天然氣接收量的減少對全球能源市場產生了重大影響。分析師認為，這可能是由於供應鏈中斷或天然氣需求下降所導致。這一事件對全球能源市場的影響仍在持續評估中。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a69b13ff",
-        "title": "B3 開始談判 IPCA 和 PIB 事件合約",
-        "url": "https://www.reuters.com/pt/negocio/2J7WM3QJOBJS7DOVOQJQEB33A4-2026-06-29/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-06-29 14:45:21",
-        "summary_zh": "巴西證券交易所 (B3) 正在與相關方進行談判，關於 IPCA 和 PIB 事件合約的細節。這些合約對於巴西的經濟和金融市場有重要影響。根據預期，B3 將會與相關銀行和金融機構合作，來確定合約的具體內容。這項談判的結果將對巴西的經濟和金融市場產生重大影響。目前，B3 尚未對這項談判的具體內容進行公開披露。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
       },
       {
         "id": "e54c6607",
@@ -506,6 +772,42 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "65ce980a",
+        "title": "UBS BB 私人抵押貸款新模式收益率「顯著下降」",
+        "url": "https://www.reuters.com/pt/negocio/LWWR64WPLBIPFBVT4S234AW47M-2026-06-29/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-06-29 15:48:23",
+        "summary_zh": "瑞士銀行UBS BB最新推出的私人抵押貸款新模式，收益率大幅下降。根據市場消息，新模式的收益率遠低於舊有的抵押貸款產品。分析師認為，這是UBS BB試圖吸引更多客戶並擴大業務的一種策略。然而，這也可能導致銀行的利潤下降。市場觀察人士表示，銀行業的競爭日趨激烈，各家銀行都在尋找新的業務模式來吸引客戶。UBS BB的這一舉動可能會對銀行業整體產生影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d548379a",
+        "title": "伯恩漢姆的分權計劃符合企業精神時尚",
+        "url": "https://www.ft.com/content/2136eb2e-1518-467b-8af6-b523c433262e",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-06-29 15:48:05",
+        "summary_zh": "英國政治人物伯恩漢姆最近提出了分權計劃，旨在將權力下放給地方政府。這個計劃被認為符合企業精神，強調地方自主權和效率。伯恩漢姆的計劃受到了一些批評，認為它可能會導致地方政府的資源分散和管理不善。然而，支持者認為這個計劃可以提高地方政府的效率和創新力。這個計劃的影響將會在未來幾年內逐步展現。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "1f8c326d",
+        "title": "剛果共和國要求鉭礦企業放棄未使用的出口配額",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-29/congo-orders-cobalt-miners-to-give-up-unused-export-quotas",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-06-29 15:47:36",
+        "summary_zh": "剛果共和國政府近日宣布，要求該國鉭礦企業放棄未使用的出口配額。根據政府的說法，這些配額是為了防止鉭礦價格大幅上漲，從而影響當地經濟。政府表示，未使用的出口配額將被收回，並重新分配給其他企業。這一措施旨在確保鉭礦出口市場的公平性和穩定性。鉭礦是電池生產的重要原材料，全球需求正在快速增加。剛果共和國是全球鉭礦的主要產地，該國政府希望通過這一措施來鞏固其在鉭礦出口市場的領導地位。然而，這一措施也引發了業界的擔憂，擔心這可能會導致鉭礦價格上漲，進而影響電池生產的成本。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "7efcc254",
@@ -522,112 +824,40 @@
     ],
     "stock_us": [
       {
-        "id": "b96550f6",
-        "title": "前美聯儲總裁法律顧問評論最高法院判決涉美聯儲總裁Lisa Cook案",
-        "url": "https://www.cnbc.com/video/2026/06/29/former-fed-board-general-counsel-on-supreme-court-ruling-involving-fed-governor-lisa-cook.html",
+        "id": "32a16072",
+        "title": "霍尼韋爾航空航天部門CEO：投資供應鏈是首要任務",
+        "url": "https://www.cnbc.com/video/2026/06/29/honeywell-aerospace-ceo-top-priority-is-to-invest-in-supply-base-to-unlock-capacity.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-06-29 14:57:24",
-        "summary_zh": "美國最高法院對美聯儲總裁Lisa Cook的判決引發廣泛關注。前美聯儲總裁法律顧問斯科特·艾爾瓦雷茲（Scott Alvarez）和前紐約東南地區聯邦檢察官貝莉特·貝格爾（Berit Berger）在節目《Squawk on the Street》中就最高法院的判決進行了討論。艾爾瓦雷茲表示，最高法院的判決對美聯儲的運作方式產生了重大影響，可能會對未來的政策制定產生影響。貝格爾則表示，判決對於美聯儲的獨立性和自主權的保護具有重要意義。兩位專家都認為，判決對於美聯儲的未來發展和政策制定將產生重大影響。",
+        "published_at": "2026-06-29 15:55:55",
+        "summary_zh": "霍尼韋爾航空航天部門CEO吉姆·柯里爾（Jim Currier）接受《Squawk on the Street》專訪，討論公司從霍尼韋爾分拆出來的過程、公司的收購等。霍尼韋爾航空航天部門正致力於投資供應鏈，以解鎖公司的生產能力。這項投資將幫助公司提高效率、降低成本，並且能夠更好地滿足客戶的需求。霍尼韋爾航空航天部門的這一策略將對公司的未來發展產生重要影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "caebf4d1",
-        "title": "Allianz Mohamed El-Erian: 我會很驚訝如果今年會有加息",
-        "url": "https://www.cnbc.com/video/2026/06/29/allianzs-mohamed-el-erian-i-would-be-surprised-if-we-get-a-rate-hike-this-year.html",
+        "id": "f2b00cfe",
+        "title": "華爾街準備面對一波可能永遠不來的美聯儲加息浪潮 這些行業將受益",
+        "url": "https://www.marketwatch.com/story/wall-street-is-bracing-for-a-wave-of-fed-rate-hikes-that-may-never-come-these-sectors-stand-to-gain-63229922?mod=mw_rss_topstories",
+        "source": "Marketwatch",
+        "category": "stock_us",
+        "published_at": "2026-06-29 15:34:00",
+        "summary_zh": "近日，美聯儲主席凱文·沃許（Kevin Warsh）表現出來得不如預期的鹹鴨派。這使得市場開始懷疑美聯儲是否真的會進行加息。事實上，美聯儲的加息決定主要取決於通膨率。然而，最新的數據顯示，通膨率並不像預期的那樣高。這使得市場開始擔心美聯儲可能會放棄加息計畫。美聯儲的加息決定對於金融市場有著重要影響。美聯儲的加息通常會使得股市下跌，金價上升。因此，如果美聯儲真的不會進行加息，市場上可能會出現一波買盤。這些行業可能會受益於美聯儲不加息的局面，包括金融股、科技股和消費股等。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "52de8153",
+        "title": "卡爾希交易員預期本週就業報告將讓華爾街失望",
+        "url": "https://www.cnbc.com/2026/06/29/kalshi-traders-expect-this-weeks-jobs-report-will-disappoint-wall-street-outlook.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-06-29 14:40:15",
-        "summary_zh": "Allianz首席經濟顧問Mohamed El-Erian在節目'Squawk on the Street'中表示，他對於今年加息感到懷疑。根據他的分析，美國的經濟表現並不理想，且通膨率仍然處於低位。因此，他認為今年加息的機會不大。另外，他也提到關於貿易戰的影響，認為美國政府的貿易政策可能會對經濟產生負面影響。總的來說，El-Erian的看法是今年加息的機會不大，美國經濟仍然面臨著挑戰。",
+        "published_at": "2026-06-29 15:27:40",
+        "summary_zh": "華爾街預期本週將新增超過 118,000 個工作崗位，但卡爾希交易員給出的機率只有不到 60% 會新增超過 100,000 個工作崗位。這表明市場對就業市場的預期與華爾街的預期有所不同。卡爾希交易員的預期可能是基於市場對經濟增長的擔憂，或者是對政府政策的不確定性。這項報告將對市場的預期和投資者的投資決策產生影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
-      },
-      {
-        "id": "572541ed",
-        "title": "觀看CNBC的完整訪談：Allianz的Mohamed El-Erian",
-        "url": "https://www.cnbc.com/video/2026/06/29/watch-cnbcas-full-interview-with-allianzs-mohamed-el-erin.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-06-29 14:21:30",
-        "summary_zh": "Allianz的首席經濟顧問Mohamed El-Erian接受CNBC的訪談，討論利率、關稅等議題。他在訪談中表示，美國的利率可能會繼續上升，直到達到峰值後才會下降。同時，他也提到，美國的關稅政策可能會對全球經濟產生重大影響。El-Erian還表示，投資者應該要保持謹慎的態度，避免過度投資於任何一種資產類型。他認為，投資者應該要將資金分散於多個資產類型，以減少風險。這樣的做法可以幫助投資者在市場波動時保持穩定。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "0fc41003",
-        "title": "美股指數上漲 美國與伊朗緊張局勢緩和",
-        "url": "https://www.reuters.com/pt/negocio/WCMBWBVTIFKITHF74NTTYL2PDU-2026-06-29/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-06-29 14:17:44",
-        "summary_zh": "美股指數上漲是因為美國與伊朗之間的緊張局勢緩和。這使得市場氣氛變得更加樂觀。另外，Comcast公司的股價也上漲，因為該公司計劃將自己分拆成兩家獨立公司。這項消息讓投資者感到樂觀，進而推動了市場的上漲。這項事件對市場的影響是正面的。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "283918cd",
-        "title": "BT與威訊的合併，全球電信業的擴張夢已醒",
-        "url": "https://www.reuters.com/commentary/breakingviews/bt-verizon-deal-puts-global-telco-ghosts-bed-2026-06-29/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-06-29 12:51:01",
-        "summary_zh": "近日，英國和美國的電信公司BT和威訊宣布將合併旗下的國際業務，形成50-50的合資企業，總收入達4億美元。這一舉動顯示，電信業已經放棄了從1990年代開始的擴張計畫，當時業界充滿了成長的希望和高估值。如今，電信業的重心已經轉移到守住本土市場領先地位上。這一變化反映了電信業的市場結構和競爭格局的深刻變化。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d5b22778",
-        "title": "華爾街表現亮眼，歐洲市場仍未確定",
-        "url": "https://www.reuters.com/fr/affaires/wall-street-vue-en-nette-hausse-leurope-indcise-malgr-le-rebond-de-la-tech-2026-06-29/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-06-29 11:31:47",
-        "summary_zh": "華爾街的股市表現亮眼，儘管科技股的反彈，但歐洲市場仍未能確定方向。市場分析師認為，科技股的反彈是市場的一個積極信號，但歐洲市場的不確定性仍然存在。歐洲市場的表現受到多個因素的影響，包括經濟增長率、通膨率和全球貿易局勢。市場分析師預測，歐洲市場在未來幾個月內將會出現更多的波動。儘管如此，華爾街的股市表現仍然令人鼓舞，市場分析師認為，市場的反彈是市場的一個積極信號。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2aa1d80e",
-        "title": "晶片交易已經像白銀一樣——摩根士丹利的威爾遜發出警告",
-        "url": "https://www.marketwatch.com/story/silver-and-the-semiconductor-climax-a-warning-from-morgan-stanleys-wilson-833e06e1?mod=mw_rss_topstories",
-        "source": "Marketwatch",
-        "category": "stock_us",
-        "published_at": "2026-06-29 11:02:00",
-        "summary_zh": "摩根士丹利的資深策略家麥克·威爾遜（Mike Wilson）建議投資者應該轉移投資方向，遠離流行的動量交易。根據他，晶片交易已經像白銀一樣，表現出來的波動太大，投資者需要謹慎。威爾遜認為，投資者應該關注企業的實際業績和財務狀況，而不是單純追隨市場趨勢。這一觀點與投資者在過去幾年中對晶片股的熱情有所不同，投資者們曾經對晶片股寄予厚望，認為它們將會帶來高回報。然而，威爾遜的警告提醒投資者，投資市場的波動性太大，投資者需要謹慎行事。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8fc89e62",
-        "title": "川普貿易戰的保護主義政策並未能挽救惠而浦冰箱工廠的就業崛起",
-        "url": "https://www.reuters.com/business/world-at-work/trumps-tariffs-arent-saving-jobs-whirlpools-iowa-refrigerator-plant-2026-06-29/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-06-29 10:27:46",
-        "summary_zh": "美國總統川普推行的貿易戰政策，原本預期惠而浦公司和在愛荷華州組裝冰箱的工人將受益。但事實上，惠而浦公司的愛荷華州冰箱工廠卻因為這些政策而失去大量工作機會。根據最近的調查，惠而浦公司的愛荷華州工廠今年已經裁員了超過 200 名工人。這些工人被迫接受減薪或轉職到其他工廠。這些政策原本預期能夠保護美國工人和企業，但卻造成了相反的效果。惠而浦公司的這一行動表明，川普貿易戰的保護主義政策並未能挽救惠而浦冰箱工廠的就業崛起。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ec480343",
-        "title": "摩根大通接班人選出現，內部人士說這次是真的",
-        "url": "https://www.reuters.com/business/finance/jpmorgan-succession-takes-shape-insiders-say-this-time-it-is-real-2026-06-29/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-06-29 10:25:13",
-        "summary_zh": "摩根大通CEO賈米·迪蒙多次談論過接班人選，但一直無法確定接班時間。然而，據內部人士透露，這次的接班計畫是真實的。這次的接班計畫將如何實現，仍待觀察。摩根大通的接班人選將會對公司的未來發展產生重大影響。這次的接班計畫是否能夠順利實現，將是投資者關注的焦點。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       },
       {
         "id": "79fc41e8",
@@ -637,272 +867,6 @@
         "category": "stock_us",
         "published_at": "Tue, 30 Jun 2026 05:46:14 +0800",
         "summary_zh": "近期美國股市遭受科技類股重挫，投資人在此時買入科技股，推動股市從跌勢中反彈。4大指數今天收盤全面走高。這種市場反彈可能是由於投資人認為科技股的價格已經低到買入的程度，或者是市場對未來的前景有所改善。然而，市場的反彈也可能是暫時性的，投資人需要密切關注市場的發展。美國股市的走向對全球經濟有著重要影響，因此投資人需要保持警覺。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "093e4f78",
-        "title": "《利洛與史迪克》女主角戴薇兒因愛滋病去世",
-        "url": "https://www.bbc.co.uk/news/articles/cx2xyx1qjnyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 21:21:15 GMT",
-        "summary_zh": "美國女演員戴薇兒因愛滋病去世，享年 35 歲。戴薇兒曾在《利洛與史迪克》和恐怖片《死亡之環》中演出。她的死訊在今年 6 月份傳出。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "d0e8ad27",
-        "title": "查理船沉沒 Vancouver 附近六人失蹤，搜救中斷",
-        "url": "https://www.bbc.co.uk/news/articles/c621r127dqwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 30 Jun 2026 02:40:21 GMT",
-        "summary_zh": "一艘載有 10 人的查理船在 Vancouver 附近沉沒，當局已經救出三名生還者，另有四人被救出。然而，六名乘客仍然失蹤，被認為是溺斃。這起事故引起了當地居民的關注，當局正在進行搜救工作。這起沉船事故可能是由於惡劣的天氣條件或船隻的設計問題所導致。目前，當局正在調查事故的原因。這起事故對當地居民造成了重大影響，當局正在提供援助和支持。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "359d3149",
-        "title": "這位意外的世界盃明星的歷史進球是數代人努力的結果",
-        "url": "https://www.bbc.co.uk/news/articles/cn4r0r0rylzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 22:28:24 GMT",
-        "summary_zh": "加拿大對南非的進球是由來自加拿大的豐富、足球迷的葡萄牙社區的成員史蒂芬·尤斯塔基奧所射入。這位加拿大球星的成長背景是加拿大足球的成功的一部分，他的家族在加拿大定居已經數代，並且對足球有著深厚的熱情。尤斯塔基奧的進球不僅代表了加拿大足球的進步，也是對加拿大足球發展的肯定。這一進球對於加拿大足球的未來發展有著重要的意義，希望這一進球能夠激勵更多的加拿大年輕人追求足球夢想。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "cbb921a8",
-        "title": "地震余波使委內瑞拉人感到焦慮，許多人被迫自求多福",
-        "url": "https://www.bbc.co.uk/news/articles/cqj1210rj0yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 20:00:44 GMT",
-        "summary_zh": "委內瑞拉遭遇連環地震，災區民眾使用鐵棍、鑿子和徒手試圖尋找生還者。地震造成嚴重破壞，許多人被困於瓦礫下，無法獲得及時救援。這種情況使許多人感到焦慮和絕望，許多人被迫自求多福，尋找生存的方法。委內瑞拉政府和國際組織正努力提供援助和救援，但面臨著嚴重的挑戰。地震的影響將持續很長時間，許多人將面臨長期的生存困難。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d2adcba9",
-        "title": "肯塔基州遭遇慘重山洪暴發",
-        "url": "https://www.bbc.co.uk/news/videos/c5yzd666r6ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 14:18:11 GMT",
-        "summary_zh": "肯塔基州遭遇慘重山洪暴發，至少有四人死亡，60人進行水上救援和疏散。這場山洪暴發對州內的居民造成嚴重影響，許多人被困在水中，需要緊急救援。根據當地官員的報導，山洪暴發的原因是長時間的雨水和地形的特殊性，導致水快速流入低洼區域。這場災害對肯塔基州的經濟和社會造成了重大影響，當地政府正在努力進行救援和重建工作。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0d286314",
-        "title": "無人動靜！委內瑞拉救援隊在瓦礫下聆聽求生者呼聲",
-        "url": "https://www.bbc.co.uk/news/articles/c78yvq72dg7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 21:19:28 GMT",
-        "summary_zh": "委內瑞拉發生嚴重地震，數萬人仍被困於瓦礫下，救援隊在瓦礫下聆聽求生者的呼聲，希望能夠找到更多的生還者。這場地震造成了重大損失，委內瑞拉政府正在努力進行救援工作。儘管有許多人被困，但救援隊仍然在努力聆聽求生者的呼聲，希望能夠找到更多的生還者。這場地震對委內瑞拉的影響將是長期的，政府和民間組織都將需要共同努力來恢復和重建。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "db8daaf6",
-        "title": "德國北部一青少年中心槍擊案造成五人死亡",
-        "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 19:53:57 GMT",
-        "summary_zh": "德國北部城市斯塔德發生槍擊案，造成五人死亡。警方表示，已經逮捕了兩名嫌疑人，其中一名被認為是兇手。這起槍擊案發生在一所青少年中心，當地居民表示感到震驚和恐懼。警方正在調查案件，試圖找出兇手的動機和背景。這起槍擊案對當地社區造成了深遠的影響，許多人正在等待警方的進一步通報。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f2aa9a89",
-        "title": "美國承認與伊朗交換空襲後同意暫停軍事行動",
-        "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 14:52:10 GMT",
-        "summary_zh": "美國與伊朗近日發生了一系列空襲事件，雙方互指違反停火協議。這些事件發生在週末，美國和伊朗都指責對方違反停火協議。美國的承諾意味著雙方將暫停軍事行動，避免進一步升級。伊朗的行動引發了美國的反應，美國對伊朗的空軍基地發動了空襲。伊朗隨後對美國的軍事基地發動了報復性空襲。這些事件引發了國際社會的關注，各國都在關注美國和伊朗的動向。美國的承諾意味著雙方將暫停軍事行動，避免進一步升級。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1099b5a9",
-        "title": "巴基斯坦對阿富汗邊境發動猛烈攻擊",
-        "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 15:46:50 GMT",
-        "summary_zh": "巴基斯坦近日對阿富汗邊境發動猛烈攻擊，據巴基斯坦方面表示，這是對「近期針對無辜民眾的恐怖攻擊」的回應。這一行動引發了對巴基斯坦軍事行動的關注，同時也引發了對阿富汗局勢的擔憂。巴基斯坦的軍事行動可能會對阿富汗的安全局勢產生重大影響，同時也可能會對當地的平民造成傷害。這一事件的發展仍在進展中，外界正在密切關注巴基斯坦的行動和阿富汗的反應。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "fad4da88",
-        "title": "普京承認烏克蘭攻擊導致俄羅斯燃料短缺",
-        "url": "https://www.bbc.co.uk/news/articles/clyw31zvpgmo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 17:28:59 GMT",
-        "summary_zh": "俄羅斯總統普京承認烏克蘭攻擊導致俄羅斯燃料短缺，但否認短缺情況是「嚴重的」。烏克蘭近期對俄羅斯的攻擊已經導致俄羅斯燃料供應受影響。普京表示烏克蘭的攻擊「明顯地造成了問題」，但強調俄羅斯仍能夠應對燃料短缺。這一承認是普京罕見的，因為他一直堅持俄羅斯的燃料供應是穩定的。烏克蘭的攻擊對俄羅斯的燃料短缺造成了重大影響，俄羅斯的燃料供應已經受到了嚴重的影響。這一發展可能會對俄羅斯的經濟和政治造成重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ebac341d",
-        "title": "南非領袖警告反移民抗議者前夕",
-        "url": "https://www.bbc.co.uk/news/articles/cy4eq1l184po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 19:16:34 GMT",
-        "summary_zh": "南非領袖在未來星期二的非官方截止日期前夕，警告反移民抗議者。南非境內有數以萬計來自其他非洲國家的人民已經離開南非。這些抗議者要求南非政府在未來星期二前將非洲移民趕出南非。南非領袖對這些抗議者表示警告，表明政府將採取行動維護南非的安定和安全。這些事件發生在南非境內的緊張局勢加劇之際。南非領袖的警告顯示政府將堅決維護南非的法律和秩序。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6a77f261",
-        "title": "剛果民主共和國禁止首都大型集會以防止埃博拉傳播",
-        "url": "https://www.bbc.co.uk/news/articles/c992k7zk981o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 14:40:58 GMT",
-        "summary_zh": "剛果民主共和國政府為防止埃博拉病毒傳播，禁止首都大型集會。然而，反對派政客指責政府利用疫情來阻止即將舉行的抗議活動。這一措施引發了對政府管控和人權保護的爭議。剛果民主共和國政府面臨著如何平衡防疫措施和維護民主自由的挑戰。疫情的爆發對當地人民的生活造成了重大影響，政府的決定將如何影響到未來的抗議活動和社會穩定，仍待觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "577ceb71",
-        "title": "南韓足球教練辭職　總統要求調查世界盃失利",
-        "url": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 07:18:14 GMT",
-        "summary_zh": "南韓足球代表隊在世界盃中未能晉級八強，教練因此辭職。南韓總統要求調查球隊在世界盃的表現，了解失利的原因。南韓在世界盃的表現令人失望，球隊在小組賽中取得兩勝一負的成績，但在淘汰賽中未能取得勝利，最終被淘汰。教練的辭職是球隊失利的直接結果，總統要求調查以確保未來的球隊表現能夠改善。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f4ec9fcd",
-        "title": "中國富商在美國被判30年監禁",
-        "url": "https://www.bbc.co.uk/news/articles/cjeg15vw3z9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 30 Jun 2026 02:08:21 GMT",
-        "summary_zh": "中國富商郭文貴自稱為中國批評者，獲得了支持他的詐騙計劃的追隨者。郭文貴曾經聲稱自己是揭露中國政府腐敗的英雄，但實際上他涉嫌在美國進行詐騙活動。根據美國檢察官的說法，郭文貴利用他的財富和影響力，騙取了數十億美元的資金。這起案件的判決結果對郭文貴和他的追隨者來說是一個沉重的打擊，同時也表明美國政府對於跨國詐騙活動的嚴厲打擊。郭文貴的判決結果還可能對中國政府的形象產生影響，特別是在中國政府試圖打擊腐敗的同時。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dcf1b3d2",
-        "title": "$20 的菸桿水果現在只賣一半價或免費分送",
-        "url": "https://www.bbc.co.uk/news/articles/c8x21yld0yro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 23:17:19 GMT",
-        "summary_zh": "馬來西亞的菸桿水果價格大幅下跌，農民擔心生計受到影響。近日，菸桿水果的價格下跌至一半甚至免費分送。這種情況讓農民感到擔憂，因為他們的收入會受到嚴重影響。菸桿水果的價格下跌是由於供過於求，市場上有太多菸桿水果供應商。這種情況不僅影響農民的收入，也會對整個菸桿水果產業造成影響。農民正在努力尋找解決方案，希望能夠挽救這個產業。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cdb72bc0",
-        "title": "印度記者譴責「否認」知名編輯投票和護照權利",
-        "url": "https://www.bbc.co.uk/news/articles/cpv37jwd3zzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 07:58:42 GMT",
-        "summary_zh": "印度記者們譴責政府否認知名編輯拉賈戈帕爾（Rajagopal）投票和護照權利。拉賈戈帕爾指控，政府刪除了他的選民登記資料，導致他無法更新護照。這一事件引發了印度媒體界的強烈譴責，批評政府侵犯了新聞自由和人權。拉賈戈帕爾是一位資深的印度記者和編輯，他曾經在多家媒體工作過。政府的行動被視為對新聞自由的打壓，引發了社會和媒體界的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0ba3bd42",
-        "title": "韓國公布 8800 億美元晶片和 AI 投資計畫",
-        "url": "https://www.bbc.co.uk/news/articles/c9q2pwzngjqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 08:55:29 GMT",
-        "summary_zh": "韓國政府近日公布了一項 8800 億美元的晶片和人工智慧投資計畫。這項計畫旨在加強韓國在全球晶片和 AI 界的競爭力。然而，這項計畫的出現也引發了對韓國是否能夠與其他地區競爭的疑問。根據報告，韓國的競爭對手如台灣、中國和日本都已經在晶片和其他技術領域投入大量資金。韓國政府認為，這項投資計畫將幫助韓國企業在全球市場上佔據重要地位。然而，投資計畫的具體細節尚未公布，投資將如何分配以及投資效益如何仍待觀察。這項計畫的出現也引發了對韓國經濟未來發展的關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6b7c1013",
-        "title": "美伊停火局勢脆弱 國際油價微漲",
-        "url": "https://www.cna.com.tw/news/afe/202606300010.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Tue, 30 Jun 2026 05:20:12 +0800",
-        "summary_zh": "美伊停火局勢仍然不穩定，儘管雙方達成諒解備忘錄延續停火並展開後續談判，但上週末的空襲事件再度打亂荷莫茲海峽航運，凸顯美伊停火的脆弱。這種不穩定的局勢對國際油價產生了影響，上週跌至接近戰前水準後，今天國際油價小幅回升。這種情況表明，美伊停火的脆弱對全球經濟和能源市場產生了重要影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "380ae311",
-        "title": "投資人權衡中東局勢 歐洲股市收盤小跌",
-        "url": "https://www.cna.com.tw/news/afe/202606300003.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Tue, 30 Jun 2026 00:45:52 +0800",
-        "summary_zh": "中東局勢的變化讓投資人感到擔憂。美國與伊朗暫停交火的消息傳出後，投資人開始權衡這個發展對全球經濟的影響。歐洲股市主要指數今天收盤小幅下挫，表明投資人對未來仍存疑慮。這種情況下，投資人可能會選擇謹慎投資或暫時撤資。中東局勢的不確定性可能會持續影響全球股市的波動。投資人需要密切關注這個發展，以便做出明智的投資決策。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c8055d0b",
-        "title": "美國內政部公布三名消防員遇難名單",
-        "url": "https://www.theguardian.com/us-news/2026/jun/29/firefighters-killed-colorado-wildfires",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 20:33:56 GMT",
-        "summary_zh": "美國內政部於週一公布三名消防員遇難名單，他們在努力控制烏塔-科羅拉多邊境的野火時喪生。三名消防員的名字分別為Emily Barker、Nick Hutcherson和Sydney Watson。另外兩名消防員受傷，但當局尚未公布其身份。這場野火的原因尚未明朗，但美國內政部已經展開調查。這次事件的發生，令人感到悲傷和震驚。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "470b56f1",
-        "title": "強烈餘震驚嚇委內瑞拉民眾　地震死亡人數超過1700人",
-        "url": "https://www.theguardian.com/world/2026/jun/29/strong-aftershock-terrifies-venezuelans-days-after-devastating-twin-quakes",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 17:37:01 GMT",
-        "summary_zh": "委內瑞拉北部近日發生一系列強烈地震，造成至少 1,719 人死亡，數萬人失蹤。地震引發嚴重的人道主義危機。最近一場餘震發生於本週一早晨，地震規模達 4.6 級，影響首都加拉加斯和受災重創的港口城市拉瓜伊拉。美國地質調查局測量此餘震的規模為 4.6 級，而哥倫比亞地質調查局則測量為 5.1 級。這場餘震令當地居民感到極度恐懼，紛紛逃竄到街上。救援隊伍仍在拉瓜伊拉努力挖掘受困者，希望能夠挽救更多生還者。委內瑞拉的地震災情持續惡化，人道主義危機日益加劇。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d27680a9",
-        "title": "委內瑞拉地震余震近首都發生，人被困 106 小時後獲救",
-        "url": "https://www.theguardian.com/world/live/2026/jun/29/venezuela-earthquakes-search-rescue-latest-updates",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 29 Jun 2026 16:56:14 GMT",
-        "summary_zh": "委內瑞拉近日發生一系列地震，造成至少 1,450 人死亡，數字預計會繼續上升。最新消息指出，近日發生的 4.6 級余震未造成重大損傷。委內瑞拉、墨西哥和薩爾瓦多的救援隊伍共同努力，成功將 21 歲的 Aaron Levi Cantillo Vargas 從瓦拉圭拉的建築物下救出，他被困 106 小時。薩爾瓦多總統 Nayib Bukele 表示，這項救援行動是「奇蹟」，並表示 Aaron 現在正在接受專科醫療治療。這項救援行動是由委內瑞拉、墨西哥和薩爾瓦多的救援隊伍共同努力完成的。委內瑞拉的地震事件仍在持續發生，政府正在努力處理災情。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
@@ -974,6 +938,225 @@
       "type": "price",
       "warn": 400,
       "danger": 500
+    }
+  },
+  "daily_digest": {
+    "key_themes": [
+      {
+        "title": "委內瑞拉地震災情持續惡化",
+        "background": "委內瑞拉近日發生連環地震，造成嚴重破壞和人員傷亡",
+        "development": "地震余波使得許多人被困於瓦礫下，無法獲得及時救援，救援隊在瓦礫下聆聽求生者的呼聲，希望能夠找到更多的生還者",
+        "impact": "這場地震對委內瑞拉的影響將是長期的，政府和民間組織都將需要共同努力來恢復和重建",
+        "conclusion": "委內瑞拉地震災情持續惡化，政府和國際組織需要盡快提供援助和救援",
+        "region": "south america"
+      },
+      {
+        "title": "美國和伊朗之間的緊張關係持續",
+        "background": "美國和伊朗近日發生了一系列空襲事件，雙方互指違反停火協議",
+        "development": "美國與伊朗之間的最新協議仍有許多未解決和未知之處，美國需要確保伊朗不會發展核武器",
+        "impact": "這些事件引發了國際社會的關注，各國都在關注美國和伊朗的動向",
+        "conclusion": "美國和伊朗之間的緊張關係持續，需要雙方共同努力來解決",
+        "region": "middle east"
+      },
+      {
+        "title": "日圓貶值對日本經濟的影響",
+        "background": "日圓兌美元跌至40年新低，日本財務大臣片山皋月表示，當局已準備好採取適當行動",
+        "development": "日圓貶值將對日本出口業影響較大，日本政府可能會採取措施來穩定日圓",
+        "impact": "日圓貶值也會對全球經濟產生影響，特別是在亞洲地區",
+        "conclusion": "日圓貶值對日本經濟的影響將是重大，需要日本政府盡快采取措施來穩定日圓",
+        "region": "asia"
+      },
+      {
+        "title": "人工智慧產業的快速發展",
+        "background": "OpenAI 將於 7 月 15 日推出與其 AI Coding 工具 Codex 相關的新裝置",
+        "development": "音樂串流平台 Tidal 公布了對 AI 生成音樂的新政策，將在 7 月 15 日起標示 100% 由 AI 生成的音樂作品",
+        "impact": "這項政策的目的是保護音樂創作者的權益，並讓聽眾了解音樂的真實來源",
+        "conclusion": "人工智慧產業的快速發展將對音樂產業和其他行業產生重大影響",
+        "region": "global"
+      },
+      {
+        "title": "全球金融市場的不確定性",
+        "background": "美聯儲主席凱文·沃許表現出來得不如預期的鹹鴨派",
+        "development": "這使得市場開始懷疑美聯儲是否真的會進行加息，事實上，美聯儲的加息決定主要取決於通膨率",
+        "impact": "美聯儲的加息決定對於金融市場有著重要影響，美聯儲的加息通常會使得股市下跌，金價上升",
+        "conclusion": "全球金融市場的不確定性將持續，需要投資者密切關注市場動向",
+        "region": "global"
+      }
+    ],
+    "sector_analysis": [
+      {
+        "sector": "能源",
+        "direction": "看空",
+        "reasoning": "委內瑞拉地震災情持續惡化，對能源產業的影響將是重大",
+        "key_ticker": "XOM"
+      },
+      {
+        "sector": "科技",
+        "direction": "看多",
+        "reasoning": "人工智慧產業的快速發展將對科技產業產生重大影響",
+        "key_ticker": "GOOGL"
+      },
+      {
+        "sector": "金融",
+        "direction": "中性",
+        "reasoning": "全球金融市場的不確定性將持續，需要投資者密切關注市場動向",
+        "key_ticker": "JPM"
+      }
+    ],
+    "action_signals": [
+      {
+        "asset": "SPY",
+        "signal": "短多",
+        "reasoning": "美股市場可能會出現技術反彈，投資者可以考慮短線多頭策略",
+        "confidence": "中高"
+      },
+      {
+        "asset": "GLD",
+        "signal": "短空",
+        "reasoning": "金價可能會下跌，投資者可以考慮短線空頭策略",
+        "confidence": "中"
+      }
+    ],
+    "risk_radar": [
+      {
+        "event": "委內瑞拉地震災情持續惡化",
+        "probability": "高",
+        "impact": "高",
+        "timeframe": "本週",
+        "description": "委內瑞拉地震災情持續惡化，對能源產業的影響將是重大"
+      },
+      {
+        "event": "美國和伊朗之間的緊張關係持續",
+        "probability": "中",
+        "impact": "中",
+        "timeframe": "下週",
+        "description": "美國和伊朗之間的緊張關係持續，需要雙方共同努力來解決"
+      },
+      {
+        "event": "日圓貶值對日本經濟的影響",
+        "probability": "中",
+        "impact": "中",
+        "timeframe": "本月",
+        "description": "日圓貶值對日本經濟的影響將是重大，需要日本政府盡快采取措施來穩定日圓"
+      }
+    ],
+    "narrative_shift": {
+      "new_themes": [
+        "委內瑞拉地震災情持續惡化",
+        "人工智慧產業的快速發展"
+      ],
+      "escalated": [
+        "美國和伊朗之間的緊張關係持續"
+      ],
+      "cooled": [
+        "全球金融市場的不確定性"
+      ],
+      "disappeared": []
+    },
+    "watch_next": [
+      {
+        "topic": "美聯儲加息決定",
+        "reason": "美聯儲的加息決定對於金融市場有著重要影響",
+        "timeframe": "本週"
+      },
+      {
+        "topic": "日圓貶值對日本經濟的影響",
+        "reason": "日圓貶值對日本經濟的影響將是重大，需要日本政府盡快采取措施來穩定日圓",
+        "timeframe": "本月"
+      }
+    ],
+    "cross_links": [
+      {
+        "themes": [
+          "委內瑞拉地震災情持續惡化",
+          "美國和伊朗之間的緊張關係持續"
+        ],
+        "chain": "委內瑞拉地震災情持續惡化 → 美國和伊朗之間的緊張關係持續 → 全球金融市場的不確定性"
+      },
+      {
+        "themes": [
+          "人工智慧產業的快速發展",
+          "日圓貶值對日本經濟的影響"
+        ],
+        "chain": "人工智慧產業的快速發展 → 日圓貶值對日本經濟的影響 → 日本政府采取措施來穩定日圓"
+      }
+    ],
+    "market_snapshot": {
+      "mood": "觀望",
+      "key_moves": "美股市場可能會出現技術反彈，金價可能會下跌"
+    },
+    "data_table": {
+      "indices": [
+        {
+          "key": "SP500",
+          "name": "S&P 500",
+          "price": 7440.43,
+          "change_pct": 1.18,
+          "status": "danger"
+        },
+        {
+          "key": "NASDAQ",
+          "name": "那斯達克",
+          "price": 25820.14,
+          "change_pct": 2.07,
+          "status": "normal"
+        },
+        {
+          "key": "TWII",
+          "name": "台股加權",
+          "price": 46417.72,
+          "change_pct": 3.15,
+          "status": "normal"
+        }
+      ],
+      "commodities": [
+        {
+          "key": "GOLD",
+          "name": "黃金",
+          "price": 4022.3,
+          "change_pct": -1.38,
+          "status": "normal"
+        },
+        {
+          "key": "OIL",
+          "name": "原油 WTI",
+          "price": 70.75,
+          "change_pct": 2.2,
+          "status": "normal"
+        }
+      ],
+      "forex": [
+        {
+          "key": "DXY",
+          "name": "美元指數",
+          "price": 101.11,
+          "change_pct": -0.25,
+          "status": "normal"
+        },
+        {
+          "key": "USDTWD",
+          "name": "美元/台幣",
+          "price": 31.91,
+          "change_pct": 0.2,
+          "status": "normal"
+        }
+      ],
+      "bonds_volatility": [
+        {
+          "key": "TNX",
+          "name": "美債10Y殖利率",
+          "price": 4.37,
+          "change_pct": 0.05,
+          "status": "normal"
+        },
+        {
+          "key": "VIX",
+          "name": "VIX 恐慌指數",
+          "price": 17.65,
+          "change_pct": -4.13,
+          "status": "normal"
+        }
+      ]
     }
   }
 }
