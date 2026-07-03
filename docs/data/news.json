@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-03T09:04:29.111271+08:00",
+  "generated_at": "2026-07-03T10:04:26.059771+08:00",
   "risk_signals": [
-    "🟢 台股加權 46744.16（正常）",
+    "🟢 台股加權 46325.73（正常）",
     "🟢 S&P 500 7483.24（正常）",
     "🟢 VIX 恐慌指數 16.15（正常）",
     "🟢 MOVE 債市波動 65.4（正常）",
-    "🟢 美元指數 100.93（正常）",
-    "🟡 黃金 4158.8（漲 +2.22%，留意）",
+    "🟢 美元指數 100.84（正常）",
+    "🟡 黃金 4188.9（漲 +2.96%，留意）",
     "🟢 美債10Y殖利率 4.48（正常）",
-    "🟢 原油 WTI 68.44（正常）",
-    "🟢 美元/台幣 31.9（正常）"
+    "🟢 原油 WTI 68.82（正常）",
+    "🟢 美元/台幣 31.91（正常）"
   ],
-  "ai_summary": "市場氛圍相對穩定，美元指數和台股指數均未出現大幅波動，但黃金價格上漲，留意美元指數對黃金的影響。",
+  "ai_summary": "市場氛圍穩定，投資人仍然保持著謹慎態度。黃金價格上漲，表明投資人對風險的擔憂逐漸增加。",
   "market": {
     "TWII": {
-      "price": 46744.16,
-      "change_pct": -0.58
+      "price": 46325.73,
+      "change_pct": -0.9
     },
     "SP500": {
       "price": 7483.24,
@@ -38,25 +38,109 @@
       "change_pct": -2.08
     },
     "DXY": {
-      "price": 100.93,
-      "change_pct": 0.07
+      "price": 100.84,
+      "change_pct": -0.02
     },
     "GOLD": {
-      "price": 4158.8,
-      "change_pct": 2.22
+      "price": 4188.9,
+      "change_pct": 2.96
     },
     "OIL": {
-      "price": 68.44,
-      "change_pct": -0.2
+      "price": 68.82,
+      "change_pct": 0.35
     },
     "USDTWD": {
-      "price": 31.9,
-      "change_pct": 0.02
+      "price": 31.91,
+      "change_pct": 0.04
     }
   },
   "macro": {},
   "categories": {
     "global": [
+      {
+        "id": "ea702234",
+        "title": "印度總理莫迪在國外之旅中收集獎項，各國為他頒發榮譽",
+        "url": "https://www.theguardian.com/world/2026/jul/03/narendra-modi-awards-honours-overseas-trips",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Fri, 03 Jul 2026 00:00:13 GMT",
+        "summary_zh": "印度總理莫迪在最近的國外之旅中再次收集了許多獎項。這次他訪問了塞舌爾，當地政府為他頒發了「藍色地平線守護者」獎項。莫迪在接受這項榮譽時顯得非常高興，並收到了獎項的獎牌和證書。這並不是莫迪第一次收集獎項，他在國外之旅中經常收到各國的榮譽。這些獎項的頒發被視為莫迪在國際舞台上的影響力和地位的象徵。然而，這也引發了對莫迪在國外之旅中收集獎項的批評，認為這些獎項的頒發可能是為了與莫迪建立關係或爭取印度的支持。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7009ca7d",
+        "title": "科特迪瓦洪災造成 59 人死亡，西非地區遭遇連日豪雨",
+        "url": "https://www.theguardian.com/world/2026/jul/02/cote-d-ivoire-floods-dead-west-africa-rains",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 02 Jul 2026 11:01:32 GMT",
+        "summary_zh": "科特迪瓦洪災自五月份開始，截至目前已造成 59 人死亡。該國通訊部長阿馬杜·庫利巴利（Amadou Coulibaly）在阿比讓（Abidjan）的一場內閣會議中表示，當地的洪災正在惡化。西非地區多國遭遇連日豪雨，包括迦納、貝南、多哥和尼日利亞。迦納已經有 13 人死亡。科特迪瓦當局正在努力挽救受洪災影響的人員，同時也擔心死亡人數可能會繼續上升。雨季從五月份至七月份，當地的救援隊伍正在努力尋找遇難者。科特迪瓦洪災的影響正在加劇，西非地區的洪災風險也在增加。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d541ed69",
+        "title": "遊輪在舊金山停泊遭遇諾如病毒爆發",
+        "url": "https://thehill.com/policy/healthcare/5952379-princess-cruises-norovirus-outbreak/",
+        "source": "The Hill",
+        "category": "global",
+        "published_at": "Fri, 03 Jul 2026 00:27:53 +0000",
+        "summary_zh": "一艘遊輪在舊金山停泊期間遭遇諾如病毒爆發，根據美國疾病控制與預防中心（CDC）的報告，受影響的乘客人數超過 100 人，共計 102 人，另有 23 名船員受到影響。這艘遊輪的乘客人數超過 3,000 人，諾如病毒爆發對乘客和船員的健康造成了影響。諾如病毒是一種常見的船上傳染病，通常導致胃腸炎等症狀。CDC 將密切監測這艘遊輪的健康情況，並提供相關指導以防止病毒傳播。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a5106fde",
+        "title": "古巴大膽轉向自由市場仍未能說服美國它已經準備好改變",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-02/cuba-economic-crisis-trump-unconvinced-by-free-market-reforms",
+        "source": "Bloomberg",
+        "category": "global",
+        "published_at": "2026-07-02 14:00:00",
+        "summary_zh": "古巴近年來進行了大膽的轉型，推動自由市場經濟，但美國仍對其是否準備好改變持懷疑態度。古巴政府在2015年推出了一系列自由市場改革，包括允許私人企業成立和外商投資入境。然而，這些改革並未能改善美國對古巴的評估。美國政府仍然認為古巴的政治制度和人權問題需要改善。古巴的轉型雖然取得了一些成果，但仍面臨著許多挑戰。美國對古巴的評估將對古巴未來的發展產生重大影響。古巴需要繼續推動自由市場改革和政治制度的改善，才能說服美國它已經準備好改變。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "e1d5eba0",
+        "title": "了解埃博拉的野生動物起源對防止下一次大爆發至關重要",
+        "url": "https://www.theguardian.com/environment/2026/jul/02/understanding-ebola-wildlife-origins-crucial-preventing-next-big-outbreak",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 02 Jul 2026 09:00:00 GMT",
+        "summary_zh": "埃博拉病毒的爆發正持續在剛果民主共和國，目前已經有超過 1,250 個病例和至少 362 人死亡。埃博拉病毒是一種極具殺傷力的病原體，症狀的發生突然，包括頭痛、腹瀉、腎臟和肝臟功能不全，以及較少見的內部和外部出血。病毒的傳染性在死亡後仍然存在，這意味著病毒的家人和親戚在準備葬禮時洗涤和穿衣時都有被感染的風險。了解埃博拉病毒的野生動物起源對防止下一次大爆發至關重要，否則不僅人類仍然面臨風險，野生動物也會因為報復而遭受不必要的痛苦。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "81879ca4",
+        "title": "委內瑞拉男子在地震後八天被救出購物中心坍塌遺址",
+        "url": "https://www.theguardian.com/world/2026/jul/02/venezuelan-man-pulled-alive-from-collapsed-basement-eight-days-after-earthquakes",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 02 Jul 2026 17:24:06 GMT",
+        "summary_zh": "委內瑞拉一名43歲的安全員赫南·阿爾伯托·吉爾·弗洛雷斯(Hernán Alberto Gil Flores)在8天前發生的大地震中被困在購物中心的地下室中。由於他的工作站內有空氣隔間，他倖存了下來。國際救援隊員在發現他後，為他進行了救援。這名安全員在坍塌的購物中心中被困了8天，直到今天被救出。這名安全員在被救出後，受到國際救援隊員的歡迎。這次地震對委內瑞拉造成了重大影響，許多人在這次地震中失去了生命。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8877fdb5",
+        "title": "加州的碳排放數據計算出問題",
+        "url": "https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/",
+        "source": "MIT Tech Review",
+        "category": "global",
+        "published_at": "Thu, 02 Jul 2026 09:00:00 +0000",
+        "summary_zh": "加州的氣候政策出現問題。數年前，該州建立了一個系統，鼓勵全國各地的牛奶農家將牛糞排放的甲烷轉化為天然氣，從而減少對空氣的污染。這個系統在短時間內就變得非常受歡迎。然而，問題出在於這個系統的數據計算上。根據最新的數據顯示，這個系統所節省的氣候溫室效應氣體（GHG）實際上遠低於預期。這意味著，這個系統的實際效果可能遠遠低於預期。這個問題對於加州的氣候政策以及全球的氣候變化問題都有著重要的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "a383cc4d",
         "title": "委內瑞拉地震倖存者八天後被救出",
@@ -77,18 +161,6 @@
         "category": "global",
         "published_at": "Thu, 02 Jul 2026 20:18:14 GMT",
         "summary_zh": "俄羅斯在基輔發動大規模導彈和無人機攻擊，造成至少8人死亡。這次攻擊發生在烏克蘭總統澤連斯基(Volodymyr Zelensky)說明俄羅斯準備發動一場「大規模」攻擊後不久。這是俄羅斯對基輔的最大攻擊之一，幾周前俄羅斯對烏克蘭發動過一次大規模攻擊。這次攻擊對烏克蘭的影響不大，但仍然造成了人命損失。烏克蘭政府正在調查這次攻擊的原因和責任。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4e11e948",
-        "title": "美國四月七日前夕迎來嚴重高溫潮",
-        "url": "https://www.bbc.co.uk/news/articles/cevlkzer7vdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 02 Jul 2026 20:28:55 GMT",
-        "summary_zh": "美國正遭受嚴重的高溫潮，數百萬人面臨著危險的高溫和濕度，預計接下來幾天都會維持攝氏38度（華氏100度）。這種天氣對人體健康造成了嚴重威脅，尤其是老年人和兒童。美國政府已經發出警告，建議民眾採取措施保護自己免受高溫的影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -130,18 +202,6 @@
         "ai_classified": true
       },
       {
-        "id": "7e542d3b",
-        "title": "美利堅的美麗與恐怖 - 全球對美國的看法",
-        "url": "https://www.bbc.co.uk/news/videos/cvgmv2rmjqno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 02 Jul 2026 04:59:10 GMT",
-        "summary_zh": "在美利堅國慶250週年之際，BBC訪問了世界各地的人民，了解他們對美國的看法。從巴西到印度，從埃及到其他地方，許多人對美國的評價各不相同。有些人認為美國是美麗的，代表著自由和民主的象徵；有些人則認為美國是恐怖的，代表著霸權和不公正。這些看法反映了美國在全球化時代的複雜角色。許多人對美國的政策和行為表示不滿，批評美國在全球治理中的霸權地位。另一方面，許多人也認為美國是世界上最大的民主國家，代表著自由和人權的象徵。這些看法也反映了美國在全球化時代的影響力和地位。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "d3f03f6a",
         "title": "南非和加納之間因移民事件爆發外交風波",
         "url": "https://www.bbc.co.uk/news/articles/c982k1j3d70o?at_medium=RSS&at_campaign=rss",
@@ -163,18 +223,6 @@
         "summary_zh": "根據世界衛生組織的數據，剛果民主共和國已經有 1,406 名確診病例，另外還有 301 名疑似病例，共有 438 人死亡。伊波拉疫苗試驗的開始，旨在尋找有效的治療方法，減少疫情的蔓延。這項試驗將對病毒的傳播和治療方法進行研究，希望能夠找到有效的治療方法，減少病毒的傳播。伊波拉疫苗試驗的開始，將對全球的健康安全產生重大影響。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2aa71af5",
-        "title": "我花了 6,000 美元購買世界盃門票，但最後還是被拒絕入場",
-        "url": "https://www.bbc.co.uk/news/articles/crkvlekgy07o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 02 Jul 2026 04:59:47 GMT",
-        "summary_zh": "近百名球迷在售票網站 StubHub 上購買世界盃門票，但在最後一刻卻收到取消票的通知。這些球迷花了大量金錢購買門票，卻被拒絕入場，造成了極大的失望和不滿。這種情況在世界盃期間屢見不鮮，球迷們被迫面臨著巨大的經濟損失。分析指出，這種情況可能是由於售票網站StubHub的政策問題所導致。球迷們對此表示強烈不滿，要求售票網站提供更好的服務和保障。這一事件也引起了對世界盃售票制度的關注和討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -238,75 +286,135 @@
         "ai_classified": true
       },
       {
-        "id": "8877fdb5",
-        "title": "加州的碳排放數據計算出問題",
-        "url": "https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/",
-        "source": "MIT Tech Review",
+        "id": "4e11e948",
+        "title": "美國四月七日前夕迎來嚴重高溫潮",
+        "url": "https://www.bbc.co.uk/news/articles/cevlkzer7vdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Thu, 02 Jul 2026 09:00:00 +0000",
-        "summary_zh": "加州的氣候政策出現問題。數年前，該州建立了一個系統，鼓勵全國各地的牛奶農家將牛糞排放的甲烷轉化為天然氣，從而減少對空氣的污染。這個系統在短時間內就變得非常受歡迎。然而，問題出在於這個系統的數據計算上。根據最新的數據顯示，這個系統所節省的氣候溫室效應氣體（GHG）實際上遠低於預期。這意味著，這個系統的實際效果可能遠遠低於預期。這個問題對於加州的氣候政策以及全球的氣候變化問題都有著重要的影響。",
+        "published_at": "Thu, 02 Jul 2026 20:28:55 GMT",
+        "summary_zh": "美國正遭受嚴重的高溫潮，數百萬人面臨著危險的高溫和濕度，預計接下來幾天都會維持攝氏38度（華氏100度）。這種天氣對人體健康造成了嚴重威脅，尤其是老年人和兒童。美國政府已經發出警告，建議民眾採取措施保護自己免受高溫的影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "1ea09e96",
-        "title": "這個人工智慧反毒視頻是否讓毒品看起來更吸引人?",
-        "url": "https://www.bbc.co.uk/news/videos/cx2xw52ng5do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "id": "7e542d3b",
+        "title": "美利堅的美麗與恐怖 - 全球對美國的看法",
+        "url": "https://www.bbc.co.uk/news/videos/cvgmv2rmjqno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Thu, 02 Jul 2026 01:54:26 GMT",
-        "summary_zh": "香港懲教署因為一部人工智慧生成的K-pop視頻被指使毒品看起來太吸引人，遭到批評後決定移除。這部視頻原本是用來宣傳反毒教育的，但卻被認為可能會讓年輕人對毒品產生誤解。懲教署表示，該視頻可能會讓觀眾誤解毒品的危害，從而導致毒品問題的加劇。這一事件引起了香港社會的廣泛關注，許多人批評懲教署沒有充分考慮視頻的內容和可能的影響。這一事件也引發了對於人工智慧在反毒教育中的應用和風險的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7009ca7d",
-        "title": "科特迪瓦洪災造成 59 人死亡，西非地區遭遇連日豪雨",
-        "url": "https://www.theguardian.com/world/2026/jul/02/cote-d-ivoire-floods-dead-west-africa-rains",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 02 Jul 2026 11:01:32 GMT",
-        "summary_zh": "科特迪瓦洪災自五月份開始，截至目前已造成 59 人死亡。該國通訊部長阿馬杜·庫利巴利（Amadou Coulibaly）在阿比讓（Abidjan）的一場內閣會議中表示，當地的洪災正在惡化。西非地區多國遭遇連日豪雨，包括迦納、貝南、多哥和尼日利亞。迦納已經有 13 人死亡。科特迪瓦當局正在努力挽救受洪災影響的人員，同時也擔心死亡人數可能會繼續上升。雨季從五月份至七月份，當地的救援隊伍正在努力尋找遇難者。科特迪瓦洪災的影響正在加劇，西非地區的洪災風險也在增加。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e1d5eba0",
-        "title": "了解埃博拉的野生動物起源對防止下一次大爆發至關重要",
-        "url": "https://www.theguardian.com/environment/2026/jul/02/understanding-ebola-wildlife-origins-crucial-preventing-next-big-outbreak",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 02 Jul 2026 09:00:00 GMT",
-        "summary_zh": "埃博拉病毒的爆發正持續在剛果民主共和國，目前已經有超過 1,250 個病例和至少 362 人死亡。埃博拉病毒是一種極具殺傷力的病原體，症狀的發生突然，包括頭痛、腹瀉、腎臟和肝臟功能不全，以及較少見的內部和外部出血。病毒的傳染性在死亡後仍然存在，這意味著病毒的家人和親戚在準備葬禮時洗涤和穿衣時都有被感染的風險。了解埃博拉病毒的野生動物起源對防止下一次大爆發至關重要，否則不僅人類仍然面臨風險，野生動物也會因為報復而遭受不必要的痛苦。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "81879ca4",
-        "title": "委內瑞拉男子在地震後八天被救出購物中心坍塌遺址",
-        "url": "https://www.theguardian.com/world/2026/jul/02/venezuelan-man-pulled-alive-from-collapsed-basement-eight-days-after-earthquakes",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 02 Jul 2026 17:24:06 GMT",
-        "summary_zh": "委內瑞拉一名43歲的安全員赫南·阿爾伯托·吉爾·弗洛雷斯(Hernán Alberto Gil Flores)在8天前發生的大地震中被困在購物中心的地下室中。由於他的工作站內有空氣隔間，他倖存了下來。國際救援隊員在發現他後，為他進行了救援。這名安全員在坍塌的購物中心中被困了8天，直到今天被救出。這名安全員在被救出後，受到國際救援隊員的歡迎。這次地震對委內瑞拉造成了重大影響，許多人在這次地震中失去了生命。",
-        "sentiment": "正面",
+        "published_at": "Thu, 02 Jul 2026 04:59:10 GMT",
+        "summary_zh": "在美利堅國慶250週年之際，BBC訪問了世界各地的人民，了解他們對美國的看法。從巴西到印度，從埃及到其他地方，許多人對美國的評價各不相同。有些人認為美國是美麗的，代表著自由和民主的象徵；有些人則認為美國是恐怖的，代表著霸權和不公正。這些看法反映了美國在全球化時代的複雜角色。許多人對美國的政策和行為表示不滿，批評美國在全球治理中的霸權地位。另一方面，許多人也認為美國是世界上最大的民主國家，代表著自由和人權的象徵。這些看法也反映了美國在全球化時代的影響力和地位。",
+        "sentiment": "中性",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2aa71af5",
+        "title": "我花了 6,000 美元購買世界盃門票，但最後還是被拒絕入場",
+        "url": "https://www.bbc.co.uk/news/articles/crkvlekgy07o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 02 Jul 2026 04:59:47 GMT",
+        "summary_zh": "近百名球迷在售票網站 StubHub 上購買世界盃門票，但在最後一刻卻收到取消票的通知。這些球迷花了大量金錢購買門票，卻被拒絕入場，造成了極大的失望和不滿。這種情況在世界盃期間屢見不鮮，球迷們被迫面臨著巨大的經濟損失。分析指出，這種情況可能是由於售票網站StubHub的政策問題所導致。球迷們對此表示強烈不滿，要求售票網站提供更好的服務和保障。這一事件也引起了對世界盃售票制度的關注和討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       }
     ],
     "whitehouse": [
       {
+        "id": "8f0d7392",
+        "title": "極端高溫警告延遲美國國會山莊七月四日活動",
+        "url": "https://thehill.com/homenews/5952439-extreme-heat-advisory-delays-national-mall-july-4-event-organizers-say/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Fri, 03 Jul 2026 01:25:12 +0000",
+        "summary_zh": "美國國會山莊七月四日慶祝活動因為華盛頓特區面臨極端高溫而延遲開放。活動組織者表示，參加者將面臨嚴重高溫威脅。儘管預測氣溫將達到攝氏 107 度，美國總統川普仍堅持要在「致敬美國 250 年慶典暨煙火表演」活動中發表長篇演說。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "e9f13624",
+        "title": " Rubio 表示美國國家足球隊因紅牌被判罰",
+        "url": "https://thehill.com/policy/sports-gaming/5952374-rubio-usmnt-red-card-controversy/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Thu, 02 Jul 2026 23:33:38 +0000",
+        "summary_zh": "美國國務卿馬可·魯比奧 (Marco Rubio) 表示，美國男子國家足球隊 (USMNT) 在世界盃賽事中，因前鋒法拉林·巴洛根 (Folarin Balogun) 被判紅牌而遭受不公平對待。魯比奧在被問及美國足球隊前一晚的勝利時表示：「很好，」並補充說：「他們因紅牌被判罰，真是不公平。」這番言論引起了關注，許多人認為魯比奧的言論可能會對美國足球隊的形象產生影響。這一事件也引發了對於世界盃賽事判罰制度的討論。美國足球隊的勝利雖然令人高興，但魯比奧的言論卻使得這一勝利的喜悅被掩蓋。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "018d4c93",
+        "title": "路易斯安那州檢察總長被起訴；州長承諾迅速赦免",
+        "url": "https://thehill.com/homenews/state-watch/5952272-louisiana-attorney-general-indicted/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Thu, 02 Jul 2026 22:33:37 +0000",
+        "summary_zh": "路易斯安那州檢察總長利茲·穆里爾（Liz Murrill）被指控涉嫌威脅新奧爾良官員，前法官露里·懷特（Laurie White）確認了這一消息。懷特被任命為該案的特別檢察官。根據懷特的說法，檢察總長被指控在2023年10月向新奧爾良官員發出威脅性電話和電子郵件。懷特表示，這些威脅是針對新奧爾良官員對路易斯安那州檢察總長辦公室的行動。懷特沒有透露檢察總長被指控的具體罪名，但表示這是一個嚴重的案件。路易斯安那州州長約翰·貝爾·愛德華茲（John Bel Edwards）承諾，如果檢察總長被定罪，他將迅速赦免她。愛德華茲表示，這是為了確保檢察總長可以繼續履行職責。懷特表示，這個案件將繼續進行，並將對檢察總長的指控進行審判。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "8ee0510d",
         "title": "前奧運選手被指控破壞華盛頓反射池",
         "url": "https://www.bbc.co.uk/news/articles/c2ky3p9jlveo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "source": "BBC World",
         "category": "whitehouse",
         "published_at": "Thu, 02 Jul 2026 20:34:52 GMT",
         "summary_zh": "美國當局指控前奧運選手破壞華盛頓反射池，原因是由前總統唐納德·川普倡導的修復工程似乎出現問題。事件背景是川普政府推動的修復工程，然而工程似乎並未如期完成。前奧運選手被指控在工程期間破壞了部分設施。美國當局認為這是一起嚴重的破壞事件，對前奧運選手提出指控。這起事件引發了對政府工程管理的關注。影響分析顯示，這起事件可能會對政府工程管理造成影響，同時也會對前奧運選手造成法律後果。後續展望是美國當局將會對前奧運選手進行法律追究。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4e86fb8a",
+        "title": "美國民主黨議員怒斥川普高jack 美國250週年慶典為個人政治利益",
+        "url": "https://www.theguardian.com/us-news/live/2026/jul/02/donald-trump-us-politics-250-anniversary-republicans-democrats-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 03 Jul 2026 01:03:57 GMT",
+        "summary_zh": "美國民主黨議員批評川普總統利用美國250週年慶典為自己的政治利益服務。根據最新報告，川普總統試圖將這個慶典轉變為關於自己的政治理念和私人項目。這項批評來自於負責報告的眾議院委員會的民主黨議員。美國250週年慶典是一個慶祝美國民主制度的重要事件，但川普總統的行為被視為對這個慶典的亂搞。這項報告指出，川普總統的行為違背了美國民主制度的精神，將這個慶典轉變為自己的政治利益服務。這項批評引起了美國民眾的不滿，許多人認為川普總統的行為是不恰當的。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ac8bb4d1",
+        "title": "AOC支持進步民主黨人參選密西根州參議院席位",
+        "url": "https://www.theguardian.com/us-news/2026/jul/02/aoc-endorses-el-sayed-michigan",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 02 Jul 2026 23:05:46 GMT",
+        "summary_zh": "美國眾議員AOC在密西根州參議院選舉中支持醫生和進步民主黨人阿卜杜勒·艾爾-塞伊德。根據紐約時報的報導，AOC表示，儘管黨內有不同意見，但每個人都認為這是一個關鍵時刻。艾爾-塞伊德在民調中領先，競爭對手包括哈利·史蒂文斯和馬洛里·麥克莫羅。這場選舉被視為密西根州參議院席位的關鍵選擇。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4c5dac72",
+        "title": "芬蘭逮捕散戶蜘蛛黑客，將被引渡至美國受審",
+        "url": "https://www.bbc.co.uk/news/articles/cwy0we4yw1lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Thu, 02 Jul 2026 08:02:35 GMT",
+        "summary_zh": "一名19歲的雙國籍美國愛沙尼亞人被芬蘭逮捕，涉嫌散戶蜘蛛黑客行為。該名年輕人將被引渡至美國，面臨聯邦指控。根據了解，這名黑客曾經對多個國家的網站進行攻擊，造成嚴重後果。美國政府對此表示強烈譴責，將會嚴懲此類行為。這一事件也引起了國際間對網絡安全的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a5928833",
+        "title": "川普利用美國250週年慶典為政治利益和私人項目服務，國會報告指控",
+        "url": "https://www.theguardian.com/us-news/2026/jul/02/trump-hijacked-250-anniversary",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 02 Jul 2026 10:00:09 GMT",
+        "summary_zh": "美國國會民主黨小組報告指出，川普在美國250週年慶典上發動了一場對抗性的接管，為政治盟友創造財富、收集選民資料和推廣基督教民族主義理念。報告稱，這些行為涉及一系列的腐敗行為、電匯詐欺和收受回扣的陰謀。這些陰謀透過一個隱藏在國家公園基金會 (NPF) 內的黑箱公司進行。報告的標題是「從自大到瘋狂：白宮如何騙取美國人民的250歲生日」",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -334,66 +442,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "4c5dac72",
-        "title": "芬蘭逮捕散戶蜘蛛黑客，將被引渡至美國受審",
-        "url": "https://www.bbc.co.uk/news/articles/cwy0we4yw1lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Thu, 02 Jul 2026 08:02:35 GMT",
-        "summary_zh": "一名19歲的雙國籍美國愛沙尼亞人被芬蘭逮捕，涉嫌散戶蜘蛛黑客行為。該名年輕人將被引渡至美國，面臨聯邦指控。根據了解，這名黑客曾經對多個國家的網站進行攻擊，造成嚴重後果。美國政府對此表示強烈譴責，將會嚴懲此類行為。這一事件也引起了國際間對網絡安全的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4e86fb8a",
-        "title": "美國民主黨議員怒斥川普高jack 美國250週年慶典為個人政治利益",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/02/donald-trump-us-politics-250-anniversary-republicans-democrats-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 03 Jul 2026 00:11:29 GMT",
-        "summary_zh": "美國民主黨議員批評川普總統利用美國250週年慶典為自己的政治利益服務。根據最新報告，川普總統試圖將這個慶典轉變為關於自己的政治理念和私人項目。這項批評來自於負責報告的眾議院委員會的民主黨議員。美國250週年慶典是一個慶祝美國民主制度的重要事件，但川普總統的行為被視為對這個慶典的亂搞。這項報告指出，川普總統的行為違背了美國民主制度的精神，將這個慶典轉變為自己的政治利益服務。這項批評引起了美國民眾的不滿，許多人認為川普總統的行為是不恰當的。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ac8bb4d1",
-        "title": "AOC支持進步民主黨人參選密西根州參議院席位",
-        "url": "https://www.theguardian.com/us-news/2026/jul/02/aoc-endorses-el-sayed-michigan",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 02 Jul 2026 23:05:46 GMT",
-        "summary_zh": "美國眾議員AOC在密西根州參議院選舉中支持醫生和進步民主黨人阿卜杜勒·艾爾-塞伊德。根據紐約時報的報導，AOC表示，儘管黨內有不同意見，但每個人都認為這是一個關鍵時刻。艾爾-塞伊德在民調中領先，競爭對手包括哈利·史蒂文斯和馬洛里·麥克莫羅。這場選舉被視為密西根州參議院席位的關鍵選擇。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b48a48ca",
-        "title": "美國奧運選手被控破壞DC反映池",
-        "url": "https://www.theguardian.com/us-news/2026/jul/02/us-olympian-indicted-trump-vandalism-reflecting-pool",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 02 Jul 2026 20:04:37 GMT",
-        "summary_zh": "美國三屆奧運選手、划艇運動員大衛·赫恩（David Hearn）因被前總統特朗普指控破壞華盛頓反映池而被控告。事件發生在6月份，當時赫恩在池中進行修復工程時，觸碰了一塊剝落的底材。赫恩的律師否認了這些指控，指控特朗普政府將普通行為視為犯罪行為。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a5928833",
-        "title": "川普利用美國250週年慶典為政治利益和私人項目服務，國會報告指控",
-        "url": "https://www.theguardian.com/us-news/2026/jul/02/trump-hijacked-250-anniversary",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 02 Jul 2026 10:00:09 GMT",
-        "summary_zh": "美國國會民主黨小組報告指出，川普在美國250週年慶典上發動了一場對抗性的接管，為政治盟友創造財富、收集選民資料和推廣基督教民族主義理念。報告稱，這些行為涉及一系列的腐敗行為、電匯詐欺和收受回扣的陰謀。這些陰謀透過一個隱藏在國家公園基金會 (NPF) 內的黑箱公司進行。報告的標題是「從自大到瘋狂：白宮如何騙取美國人民的250歲生日」",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "ai": [
@@ -418,8 +466,8 @@
         "published_at": "2026-07-02 13:00:02",
         "summary_zh": "微軟成為最新一家致力於幫助客戶理解和實踐人工智慧的科技公司。這項新單位將投入 250 億美元和 6,000 名員工，旨在幫助客戶在實際應用中應用人工智慧技術。這項投資表明微軟致力於推動人工智慧的發展和應用。人工智慧的實際應用將對各行各業產生重大影響，微軟的這一舉措將為客戶提供更好的服務和解決方案。然而，人工智慧的發展也將面臨著許多挑戰和風險，微軟需要在此過程中保持警惕和務實。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "66a4e924",
@@ -431,30 +479,6 @@
         "summary_zh": "布魯克菲爾德公司的 CEO 表示，該公司將在倫敦的加尼瑞沃夫區（Canary Wharf）建設資料中心，原因是英國人工智慧基礎設施需求急劇上升。這項計畫是布魯克菲爾德公司在倫敦投資的一部分，該公司正在努力滿足英國對高性能計算和資料儲存的需求。倫敦的加尼瑞沃夫區被視為倫敦金融城的倫敦版，倫敦金融城是倫敦的金融中心。布魯克菲爾德公司的計畫將為倫敦的企業提供更多的資料中心選擇，同時滿足英國對高性能計算和資料儲存的需求。這項計畫對於英國的數據中心產業具有重要意義，同時也表明布魯克菲爾德公司在倫敦的投資意願。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b6e1d000",
-        "title": "光標是否能繼續成為OpenAI和Anthropic的平台？",
-        "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 02 Jul 2026 18:01:20 +0000",
-        "summary_zh": "光標（Cursor）是一家提供第三方人工智慧模型的平台，近日被太空探索技術公司（SpaceX）收購。光標的創辦人表示，希望能繼續提供第三方人工智慧模型，測試前沿人工智慧實驗室之間的關係。這一收購可能會對人工智慧界帶來新的發展機會。然而，光標的未來發展也面臨著挑戰，包括如何保持其獨立性和客觀性。這一事件也引發了對人工智慧發展的關注，包括其應用、安全和倫理問題。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fe20d39b",
-        "title": "元宇宙公司Meta推出智能眼鏡訂閱服務",
-        "url": "https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 02 Jul 2026 09:30:00 +0000",
-        "summary_zh": "近日，Meta宣布推出智能眼鏡訂閱服務。這意味著購買了Meta智能眼鏡的用戶將需要訂閱才能享有更多高級功能。這一變化標誌著消費科技的新時代的到來。這一舉動引發了對未來科技發展方向的討論。許多人認為，這一趨勢可能會延伸到其他領域，例如智能手表和智能耳機。然而，也有批評者認為，這一做法可能會增加用戶的負擔。這一變化將如何影響消費者和科技業的未來？",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -494,6 +518,30 @@
         "ai_classified": true
       },
       {
+        "id": "b6e1d000",
+        "title": "光標是否能繼續成為OpenAI和Anthropic的平台？",
+        "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Thu, 02 Jul 2026 18:01:20 +0000",
+        "summary_zh": "光標（Cursor）是一家提供第三方人工智慧模型的平台，近日被太空探索技術公司（SpaceX）收購。光標的創辦人表示，希望能繼續提供第三方人工智慧模型，測試前沿人工智慧實驗室之間的關係。這一收購可能會對人工智慧界帶來新的發展機會。然而，光標的未來發展也面臨著挑戰，包括如何保持其獨立性和客觀性。這一事件也引發了對人工智慧發展的關注，包括其應用、安全和倫理問題。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fe20d39b",
+        "title": "元宇宙公司Meta推出智能眼鏡訂閱服務",
+        "url": "https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Thu, 02 Jul 2026 09:30:00 +0000",
+        "summary_zh": "近日，Meta宣布推出智能眼鏡訂閱服務。這意味著購買了Meta智能眼鏡的用戶將需要訂閱才能享有更多高級功能。這一變化標誌著消費科技的新時代的到來。這一舉動引發了對未來科技發展方向的討論。許多人認為，這一趨勢可能會延伸到其他領域，例如智能手表和智能耳機。然而，也有批評者認為，這一做法可能會增加用戶的負擔。這一變化將如何影響消費者和科技業的未來？",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "7f6b6345",
         "title": "人工智慧對人類的重大問題和日本創業精神",
         "url": "https://www.ft.com/content/47852145-0002-4b3e-9e11-19efe98a610e",
@@ -508,6 +556,42 @@
     ],
     "stock_tw": [
       {
+        "id": "389ad0c8",
+        "title": "藥華藥新藥Ropeg獲加拿大PV藥證",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5492351",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 03 Jul 2026 09:47:10 +0800",
+        "summary_zh": "藥華藥宣布旗下新藥Ropeg獲加拿大衛生部核准用於治療真性紅血球增多症（PV）。這項核准是藥華藥繼美國後再次取得PV藥證，預計數週內正式在加拿大上市。Ropeg的獲准將為藥華藥帶來新的商機和收入來源，同時也為患者提供了新的治療選擇。這項消息對藥華藥股價可能會有所影響，投資者應密切關注公司未來的發展。藥華藥的這一項突破將進一步鞏固其在新藥領域的領先地位。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e4db7896",
+        "title": "焦點股》台光電：取得更多訂單 超越斗山成為輝達最大供應商",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5492343",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 03 Jul 2026 09:46:17 +0800",
+        "summary_zh": "台光電（2383）近日傳出將超越韓國斗山，成為輝達（Nvidia）供應鏈中出貨金額最大的CCL供應商。這一消息來自於法人圈的傳言，Rubin...…",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9ebea4ab",
+        "title": "國際油價創新低點後急漲！最新預估價出爐",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5492330",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 03 Jul 2026 09:27:20 +0800",
+        "summary_zh": "受美國獨立紀念日長假前市場回補空單，以及部分買盤提前進場布局帶動，國際油價週四盤中一度跌至2月底伊朗衝突爆發前以來最低水準。但隨後跌幅收斂，終場雙雙收高。市場分析師認為，這是市場對美國經濟增長前景的擔憂所致。美國經濟增長前景的不確定性，讓投資者擔心需求將下降，從而導致油價下跌。然而，部分買盤提前進場布局，希望在油價下跌後買入低價油，後來油價急漲，買盤的投資策略獲得成功。這次油價的波動，讓市場投資者們更加關注美國經濟增長前景的變化。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "e38c5bd8",
         "title": "OpenAI提議將5％股權交給川普政府",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5492262",
@@ -516,8 +600,8 @@
         "published_at": "Fri, 03 Jul 2026 08:54:22 +0800",
         "summary_zh": "知情人士表示，OpenAI正在考慮將5％的股權交給美國政府。隨著AI在華府愈來愈受到關注，這家8520億美元的AI新創希望透過川普政府的財政支持，來發展其人工智慧技術。這一舉動被視為是OpenAI試圖與美國政府建立更緊密的關係，同時也希望獲得政府的財政支持。然而，這一決定也引發了對OpenAI控制權的擔憂，特別是在政府持有股份後。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "e7d1bdaf",
@@ -528,8 +612,8 @@
         "published_at": "Fri, 03 Jul 2026 08:48:05 +0800",
         "summary_zh": "摩根士丹利最新全球科技研報對投資人敲響了警鐘，指出記憶體產業正迎來史上最長的儲存上漲週期。然而，這也意味著投資人不再能夠『閉眼買』，買錯直接踢鐵板。摩根士丹利給出的明確指南是投資人需要更加謹慎地評估記憶體產業的風險和機會。這個警鐘敲響的原因是，記憶體產業的漲價普惠已經到了極限，投資人需要更加理性地投資。摩根士丹利的研報還提到，投資人需要關注記憶體產業的供給鏈和需求趨勢，避免投資錯誤。這個警鐘敲響將對投資人造成重大影響，投資人需要更加謹慎地投資記憶體產業。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "e0767c14",
@@ -540,8 +624,8 @@
         "published_at": "Fri, 03 Jul 2026 08:27:40 +0800",
         "summary_zh": "台股延長交易時間的議題近日引起熱議，財信傳媒集團董事長謝金河對此表示，必須深思熟慮。謝金河指出，制度改變將影響許多人的生活、作息及金融從業人員。他強調，一旦要調整，必須先完整評估對各行各業的衝擊。這意味著，延長交易時間可能會對許多人造成不小的影響，甚至可能比想像中更大。謝金河的話語，讓人們開始思考，是否真的需要延長交易時間，以及這個決定會對社會造成什麼樣的影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "9a4c2527",
@@ -552,8 +636,8 @@
         "published_at": "Fri, 03 Jul 2026 08:00:00 +0800",
         "summary_zh": "根據財政部公布的2024年度綜所稅申報資料，共有698.2萬戶申報戶，其中45.3%不用繳稅。這意味著近四分之一的申報戶不需要繳付任何稅款。另一方面，所得淨額500元以上的申報戶有6.8萬戶，占申報戶總數的約1%。這些高收入戶的所得淨額中，約有4成4被用於繳稅。這些數據表明，台灣的稅收制度仍然存在著不平衡的問題。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "96ce168b",
@@ -616,42 +700,6 @@
         "ai_classified": true
       },
       {
-        "id": "e9d3c5e6",
-        "title": "富邦金控首席經濟學家示警：AI從熱潮演變成豪賭",
-        "url": "https://ec.ltn.com.tw/article/paper/1761142",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 03 Jul 2026 05:30:00 +0800",
-        "summary_zh": "富邦金控首席經濟學家羅瑋表示，供給面衝擊、央行貨幣政策及AI資本支出，將是牽動下半年全球政經情勢的三大主軸。羅瑋認為，目前AI產業存在局部泡沫，缺乏核心技術與明確獲利模式的概念股將面臨修正風險。羅瑋指出，當前的AI投資已經從「熱潮」逐漸演變成「豪賭」，投資者需要謹慎評估風險。羅瑋還表示，央行貨幣政策的調整將對全球經濟產生重大影響，供給面衝擊也將對全球經濟造成挑戰。羅瑋呼籲投資者應該謹慎評估風險，避免過度投資。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ee263d60",
-        "title": "逾45%免繳綜所稅 到不1%富人貢獻44%稅額",
-        "url": "https://ec.ltn.com.tw/article/paper/1761133",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 03 Jul 2026 05:30:00 +0800",
-        "summary_zh": "財政部初步統計，二〇二四年度綜所稅申報戶約六九八．二萬戶，其中四十五．三％不用繳稅。所得淨額五百萬元以上的戶數約六．八萬戶，占總申報戶數的〇．九七％。這些高收入戶的應納稅額達二一二五億元，占總稅收的四十四．三六％。這意味著，高收入人群的稅負負擔相對較高。根據財政部的數據，高收入人群的稅收占比遠高於一般人群。這也反映了台灣的稅制對高收入人群的影響力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f4da574a",
-        "title": "緯創董座林憲銘：台灣應成為AI應用大國",
-        "url": "https://ec.ltn.com.tw/article/paper/1761143",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 03 Jul 2026 05:30:00 +0800",
-        "summary_zh": "緯創董事長林憲銘昨表示，台灣不能只是一個製造AI設備的重要基地，應該要真正成為AI應用大國。他表示，集團近年持續推動算力資源，希望協助產業與新創投入相關應用。特別是在少子化趨勢下，AI正是提升人才品質的重要契機。未來經濟發展將不再是比人數，而是比人才品質。這意味著台灣需要投資更多在AI研發和應用上，以便於提升人才競爭力和創造新的經濟成長點。緯創的這一戰略將對台灣的AI產業和經濟發展產生重要影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "d7d1bee6",
         "title": "美國長週末前空頭回補買盤進場 國際油價小漲",
         "url": "https://www.cna.com.tw/news/afe/202607030009.aspx",
@@ -702,76 +750,52 @@
     ],
     "finance": [
       {
-        "id": "b96aa9a5",
-        "title": "唐納·川普的最新財務披露內幕",
-        "url": "https://www.ft.com/content/0caeeae7-8bac-4b57-a13f-a457a61cf5fe",
-        "source": "Financial Times",
+        "id": "e9d87e67",
+        "title": "2025 年全球股市大幅上漲，創下近 10 年來最大增幅，產生近 100 萬新億萬富翁",
+        "url": "https://www.cnbc.com/2026/07/02/stock-market-gains-new-millionaires-ubs.html",
+        "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-07-02 13:00:03",
-        "summary_zh": "美國總統唐納·川普近日公布了最新的財務披露文件，內容包括他個人和家族企業的財務狀況。根據披露文件，川普的財富在過去一年內有所增加，主要是由於他的書籍和講座收入增加。川普的財務披露文件還顯示，他的家族企業在過去一年內有多項投資和交易，包括購買和出售房地產和股票。這些披露文件對於了解川普的財務狀況和他的政策決策有重要意義。同時，美國政府也宣布不再續簽與墨西哥和加拿大的貿易協議，這將對美國的經濟和貿易產生重大影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "85b6a005",
-        "title": "廢除「個人定價」將對消費者造成傷害",
-        "url": "https://www.ft.com/content/e8a52d2a-9b48-45ac-8044-9143a014c3ef",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-07-02 13:00:03",
-        "summary_zh": "英國政府正在推動「公平價格」計畫，旨在讓市場價格更加公平。但是，這一措施可能會對一些特定群體造成不利影響，包括學生、老年人和優惠券使用者。根據研究發現，廢除「個人定價」可能會導致這些群體的購買力下降，甚至可能會對他們的生活造成負面影響。政府正在考慮如何平衡公平價格的需求和消費者權益的保護。這一問題引發了廣泛的討論和爭議，各方都有不同的看法和建議。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "27bf06b9",
-        "title": "布魯塞爾展現規管權力，谷歌輸掉了這場戰役",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-07-02/google-loses-eu-court-battle-amid-tech-powers-battle",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-02 13:00:01",
-        "summary_zh": "布魯塞爾在谷歌的爭議中展現了其規管權力。歐盟委員會最近對谷歌的反托拉斯訴訟做出了裁決，谷歌被要求在歐洲分佈其搜索結果時，將競爭對手的連結顯示在首頁。這一裁決對谷歌的業務有著重大影響，谷歌必須在歐洲改變其搜索結果的排名方式。這一裁決也標誌著歐盟對科技巨頭的規管力度加強。谷歌的這一失敗也引發了對歐盟規管的關注，許多人認為這一裁決將對谷歌的業務造成長期影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "fc9b6be2",
-        "title": "美國股市上漲 美國就業數據降低美聯儲加息風險",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-02/us-stocks-muted-as-traders-wait-on-jobs-data-for-rate-path-clues",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-02 12:59:00",
-        "summary_zh": "美國股市近日表現出強勁上漲，主要原因是美國就業數據出現下滑，降低了美聯儲加息的風險。根據最新的數據，美國就業市場出現了明顯的放緩，非農就業數據出現了下滑，市場預期美聯儲可能會延遲加息。這項消息對於股市來說是一個正面的影響，股價因此而上漲。然而，市場仍然需要密切關注美聯儲的政策變化，以確保未來的市場走勢。",
+        "published_at": "2026-07-02 14:00:01",
+        "summary_zh": "根據瑞銀最新報告，全球個人財富在 2025 年大幅上漲 10.8%，創下 2017 年以來最大增幅。這意味著近 100 萬名新億萬富翁出現。這種增幅與全球股市的強勁表現有直接關係。2025 年全球股市的上漲，讓許多投資者獲得了豐厚的回報，許多人因此成為億萬富翁。這種情況下，全球個人財富的增長速度遠超預期。瑞銀的報告也指出，全球個人財富的增長主要是由於股市的上漲，而非其他因素。這種情況下，投資者們應該保持警惕，避免過度投入股市。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "eaa53199",
-        "title": "Natura 表示 Advent 已經控制了 6.6% 的股權，並透過衍生工具對公司進行了暴露",
-        "url": "https://www.reuters.com/pt/negocio/H7XHNPFB6VIWZIJJJEU6U45MAY-2026-07-02/",
-        "source": "Reuters",
+        "id": "929a9306",
+        "title": "印度計劃擴大石油儲備以防止價格暴漲",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-02/india-plans-to-expand-oil-reserves-to-guard-against-price-spikes",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-07-02 12:58:01",
-        "summary_zh": "Natura 透露，投資公司 Advent 已經控制了公司 6.6% 的股權。同時，Advent 也透過衍生工具對 Natura 進行了暴露，影響了公司的資本結構。這項資訊可能會對 Natura 的股價和公司未來發展產生影響。投資者應該密切關注這項消息並評估其對公司的影響。Natura 的管理層將如何應對這項情況，將是關鍵的問題。",
+        "published_at": "2026-07-02 13:58:23",
+        "summary_zh": "印度政府計劃擴大石油儲備，以防止價格暴漲。根據印度石油部長的說法，印度正在積極籌措資金，以購買更多的石油儲備。印度石油部長表示，印度的石油儲備目前僅能維持兩個月的供應，遠低於其他國家。印度政府認為，擴大石油儲備是為了確保國家的能源安全。印度的石油儲備擴大計劃將涉及購買更多的石油儲備，並建設新的儲備設施。印度政府還計劃與其他國家合作，共同購買石油儲備。印度的石油儲備擴大計劃將對印度的能源安全和經濟發展產生重大影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "1d2d2bf7",
-        "title": "Blue Owl 保持提款限制即使贖回壓力有所緩和",
-        "url": "https://www.reuters.com/legal/transactional/blue-owl-keeps-withdrawal-limits-despite-redemption-pressure-easing-prior-2026-07-02/",
-        "source": "Reuters",
+        "id": "8db700f0",
+        "title": "黃金再度狂飆！專家解釋原因",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5492318",
+        "source": "自由時報財經",
         "category": "finance",
-        "published_at": "2026-07-02 12:56:37",
-        "summary_zh": "Blue Owl Investment Advisers 進一步確認，該公司將繼續維持提款限制，儘管贖回壓力有所減輕。該公司表示，儘管最近贖回壓力有所緩和，但仍有大量投資者要求提款。Blue Owl Investment Advisers 是一家專業的投資顧問公司，提供私人股權投資和其他投資產品。該公司的提款限制是為了確保投資者的資金安全和穩定。儘管贖回壓力有所減輕，但Blue Owl Investment Advisers vẫn會繼續監控投資市場的風險並調整提款限制。這一措施是為了保護投資者的利益和資金安全。",
+        "published_at": "Fri, 03 Jul 2026 09:15:08 +0800",
+        "summary_zh": "週四，黃金價格出現了2%以上的上漲，主要原因是美國6月非農就業報告出現了疲軟的表現。這使得市場對聯準會今年升息的預期降低，從而推動了黃金的漲勢。根據目前的數據，黃金現貨上漲了2.2%，達到每盎司4116.54美元。這一波黃金的上漲可能是由於市場對美元的需求下降，或者是投資者對黃金的投資意願增加。專家們認為，這一波黃金的上漲可能是短期的，市場可能會在未來的時間內恢復到正常狀態。然而，黃金的價格仍然受到市場情緒和經濟數據的影響，因此投資者需要密切關注市場的變化。",
         "sentiment": "中性",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
+      },
+      {
+        "id": "21b3bb11",
+        "title": "美國失業率在六月下降，支持美聯儲鹹鷹轉向",
+        "url": "https://www.ft.com/content/02c0141e-ec8b-4d3e-b764-121834c24ae6",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-07-02 13:54:19",
+        "summary_zh": "美國失業率在六月下降至 3.6%，為近 50 年來的低點。這一數據支持美聯儲可能在未來會採取鹹鷹政策，升息以控制通膨。美聯儲主席鮑威爾在最近的發言中表明，美聯儲可能會在未來會採取鹹鷹政策。這一轉變將對全球金融市場產生重大影響。美國股市和美元可能會受益，而一些經濟指標可能會受到負面影響。這一轉變也可能會對美國的經濟成長產生影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "09cb743a",
@@ -812,6 +836,42 @@
     ],
     "stock_us": [
       {
+        "id": "60dd59a6",
+        "title": "哈塞特：六月就業數據「完全符合我們對強勁經濟的看法」",
+        "url": "https://www.cnbc.com/video/2026/07/02/nec-director-kevin-hassett-jobs-report-is-100-percent-consistent-with-what-we-view-as-a-strong-economy.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-02 13:54:10",
+        "summary_zh": "美國國家經濟委員會主任哈塞特（Kevin Hassett）在接受《Squawk on the Street》訪談時表示，最新的就業數據「完全符合我們對強勁經濟的看法」。他還提到，美國的製造業表現良好，表明經濟正在朝著正確的方向發展。哈塞特的評論是針對最新的就業數據發表的，他認為這些數據表明美國經濟正在保持強勁的增長態勢。然而，哈塞特也提到，美國經濟仍面臨著一些挑戰，例如全球貿易的不確定性。儘管如此，他仍然對美國經濟的前景感到樂觀。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "149ad3e1",
+        "title": "特斯拉第二季度交付480,126輛車，超越市場預期",
+        "url": "https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-02 13:29:00",
+        "summary_zh": "特斯拉正嘗試從連續兩年的銷售下滑中恢復。這些下滑部分是由於消費者對總裁埃隆·穆斯克的反彈所導致。特斯拉在第二季度交付了480,126輛車，遠超市場預期。這一成績表明公司正在努力恢復銷售動力。然而，特斯拉仍面臨著競爭激烈的電動車市場，以及消費者對穆斯克言論的批評。公司的銷售下滑與穆斯克的言論有關，包括他在社交媒體上的言論。這些言論被視為對公司形象的損害。特斯拉的第二季度交付成績表明公司正在努力恢復銷售動力，但仍面臨著挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "0dc6c669",
+        "title": "黑石合夥人Securitize乘浪式登陸華爾街安全化潮流",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-02/blackrock-partner-securitize-rides-wall-street-tokenization-wave",
+        "source": "Bloomberg",
+        "category": "stock_us",
+        "published_at": "2026-07-02 13:03:52",
+        "summary_zh": "黑石投資公司的合夥人Securitize正乘著華爾街安全化潮流的浪潮。安全化是指將非傳統資產轉換成可交易的數字證券。這種趨勢在全球各地都在迅速發展。Securitize的創始人兼執行長Jeffrey Sprecher表示，安全化能夠讓投資者更容易地投資於非傳統資產，例如房地產或藝術品。這種投資方式能夠讓投資者更好地分散風險。黑石投資公司的投資將幫助Securitize擴大其業務並進一步推動安全化的發展。這將是華爾街安全化潮流的又一重大突破。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "c45f4dcb",
         "title": "預測市場合約多數交易量低，使用者易受波動和機器人影響",
         "url": "https://www.cnbc.com/2026/07/02/prediction-markets-mostly-have-thinly-traded-contracts-.html",
@@ -820,8 +880,8 @@
         "published_at": "2026-07-02 12:47:08",
         "summary_zh": "預測市場交易量在近期快速增長，但仍有許多市場交易量不超過 10,000 美元。這使得使用者在市場波動時更容易受到影響，甚至可能被機器人操控。雖然預測市場交易量有所增長，但仍有許多市場交易量不超過 10,000 美元。這使得使用者在市場波動時更容易受到影響，甚至可能被機器人操控。這種情況下，使用者需要謹慎評估交易風險和機會，避免因為交易量低而遭受不必要的損失。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "4c20dfe1",
@@ -868,30 +928,6 @@
         "published_at": "2026-07-02 04:11:06",
         "summary_zh": "香港交易狂潮中，華爾街銀行的業務表現不佳，落後中國的對手。根據近期的數據，中國的銀行在香港的交易量已經超過了華爾街銀行。這種情況引起了業界的關注，許多人認為這是華爾街銀行在亞洲市場的衰退。分析師指出，華爾街銀行在香港的業務表現不佳，主要是因為他們缺乏對當地市場的了解和適應能力。另一方面，中國的銀行則善於利用香港的優勢，將資金引入中國內地的市場。這種情況可能會對華爾街銀行的業務造成長期的影響。",
         "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "83b5ba1f",
-        "title": "美元看似即將突破高位。華爾街正在轉變為樂觀派",
-        "url": "https://www.cnbc.com/2026/07/02/the-dollar-looks-ready-to-break-higher-heres-why-wall-street-is-turning-bullish.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-02 03:43:24",
-        "summary_zh": "美國美元近年來陷入停滯不前，持續約一年。然而，分析師們越來越認為世界儲備貨幣美元正處於更長期的上升趨勢。根據分析師的看法，美元的上升主要是由於美國經濟的強勁表現，以及美元的流動性增強。美元的上升將對全球經濟產生重大影響，特別是對於出口導向的國家。美元的上升也將對投資者產生影響，投資者將需要考慮美元的風險和收益。總體而言，美元的上升趨勢將對全球經濟和投資市場產生重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fde03839",
-        "title": "道瓊指數飆升近600點創歷史新高！台積電ADR走跌",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5492227",
-        "source": "自由時報財經",
-        "category": "stock_us",
-        "published_at": "Fri, 03 Jul 2026 05:45:30 +0800",
-        "summary_zh": "週四美股市場出現大幅波動，道瓊指數上漲594點，創下收盤歷史新高。這一波上漲主要是因為美國公布的就業報告弱於預期，緩解市場對升息的擔憂。然而，晶片類股仍然承壓，包括台積電的ADR走跌。這一波市場變化使得投資者對未來市場走向感到懷疑。市場分析師認為，這一波上漲可能是短暫的，市場仍然面臨著升息的風險。台積電的走跌也使得市場對晶片類股的前景感到擔憂。整體而言，這一波市場變化使得投資者需要謹慎評估市場風險和機會。",
-        "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
       },
