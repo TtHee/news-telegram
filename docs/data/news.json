@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-03T19:04:26.726576+08:00",
+  "generated_at": "2026-07-03T20:04:24.998157+08:00",
   "risk_signals": [
     "🟢 台股加權 46780.62（正常）",
     "🟢 S&P 500 7483.24（正常）",
-    "🟢 VIX 恐慌指數 15.92（正常）",
+    "🟢 VIX 恐慌指數 15.98（正常）",
     "🟢 MOVE 債市波動 66.79（正常）",
-    "🟢 美元指數 100.75（正常）",
-    "🟢 黃金 4188.9（正常）",
+    "🟢 美元指數 100.77（正常）",
+    "🟢 黃金 4194.0（正常）",
     "🟢 美債10Y殖利率 4.37（正常）",
-    "🟢 原油 WTI 68.63（正常）",
-    "🟢 美元/台幣 31.9（正常）"
+    "🟢 原油 WTI 68.45（正常）",
+    "🟢 美元/台幣 31.91（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，多個指標處於正常範圍，但 Nasdaq 下跌 0.8%，可能是市場對未來成長的擔憂。",
+  "ai_summary": "市場指標表現正常，台股輕微上漲，美股表現平穩，但 Nasdaq 表現稍微下滑。整體來看，市場風險偏好和波動度保持在正常水平。",
   "market": {
     "TWII": {
       "price": 46780.62,
@@ -26,8 +26,8 @@
       "change_pct": -0.8
     },
     "VIX": {
-      "price": 15.92,
-      "change_pct": -1.42
+      "price": 15.98,
+      "change_pct": -1.05
     },
     "TNX": {
       "price": 4.37,
@@ -38,25 +38,121 @@
       "change_pct": null
     },
     "DXY": {
-      "price": 100.75,
-      "change_pct": -0.1
-    },
-    "GOLD": {
-      "price": 4188.9,
-      "change_pct": 1.85
-    },
-    "OIL": {
-      "price": 68.63,
+      "price": 100.77,
       "change_pct": -0.09
     },
+    "GOLD": {
+      "price": 4194.0,
+      "change_pct": 1.98
+    },
+    "OIL": {
+      "price": 68.45,
+      "change_pct": -0.35
+    },
     "USDTWD": {
-      "price": 31.9,
-      "change_pct": 0.02
+      "price": 31.91,
+      "change_pct": 0.03
     }
   },
   "macro": {},
   "categories": {
     "global": [
+      {
+        "id": "4e11e948",
+        "title": "美國四月七日前夕迎來嚴重高溫潮",
+        "url": "https://www.bbc.co.uk/news/articles/cevlkzer7vdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Fri, 03 Jul 2026 11:33:32 GMT",
+        "summary_zh": "美國正遭受嚴重的高溫潮，數百萬人面臨著危險的高溫和濕度，預計接下來幾天都會維持攝氏38度（華氏100度）。這種天氣對人體健康造成了嚴重威脅，尤其是老年人和兒童。美國政府已經發出警告，建議民眾採取措施保護自己免受高溫的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "78edd21d",
+        "title": "巴基斯坦黑幫疑似偷運人類胎盤",
+        "url": "https://www.bbc.co.uk/news/articles/c8r2485pngyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 03 Jul 2026 09:39:09 GMT",
+        "summary_zh": "巴基斯坦警方指控一黑幫組織涉嫌偷運人類胎盤，胎盤原意是要出口後用於製造抗衰老注射劑。這起事件引起了對黑幫組織活動的關注，同時也引發了對人類胎盤使用的倫理問題。警方表示，這些胎盤是從巴基斯坦的醫院偷竊的，黑幫組織的成員涉嫌在醫院內進行非法活動。這起事件可能會對巴基斯坦的醫療系統和黑幫組織的活動產生重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "35a766fd",
+        "title": "巴基斯坦客車翻側致32人死亡",
+        "url": "https://www.bbc.co.uk/news/articles/czrxezg60x1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 03 Jul 2026 09:56:57 GMT",
+        "summary_zh": "一輛從奎達開往佩沙瓦的客車，在丹納薩山脈發生嚴重交通事故，客車翻側掉入山谷，造成至少32人死亡。這起事故發生在巴基斯坦西北部的山區，當地警方正在調查事故原因。這是近期巴基斯坦交通事故中又一例嚴重事件，巴基斯坦交通安全一直是嚴重問題。這起事故將對巴基斯坦政府和民眾造成重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "04149223",
+        "title": "美國獨立宣言罕見版本在英國檔案館被志願者發現",
+        "url": "https://www.bbc.co.uk/news/articles/cgrkl104ly5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 02 Jul 2026 23:39:29 GMT",
+        "summary_zh": "美國獨立宣言罕見版本的發現，是一份珍貴的歷史文獻。根據最新的發現，這份文獻是世界上僅有的 11 份之一。這份文獻的發現，將為歷史學家和研究者提供新的線索和資訊，進一步深入了解美國獨立的歷史背景。這份文獻的發現，也將為英國檔案館增添新的價值和重要性。這項發現的影響將不僅限於美國獨立的歷史研究，也將對英國檔案館的研究和收藏有所影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a8fc3611",
+        "title": "印度幼兒園工人被捕　疑將嬰兒扔入洗衣機",
+        "url": "https://www.bbc.co.uk/news/articles/cjeg4j3kjego?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 03 Jul 2026 09:23:10 GMT",
+        "summary_zh": "印度一名幼兒園工人因涉嫌將嬰兒扔入洗衣機而被捕。事件的起因是有視頻流出，顯示幼兒園工人對哭泣的嬰兒施暴。這些視頻在網路上引起了強烈反應，工人隨後被捕。事件的背景是印度近年來對兒童福利的關注加劇。印度政府已經對兒童福利進行了多次改革，但仍然存在著許多問題。這起事件顯示，印度仍然需要進一步改善兒童福利。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "cc70b42d",
+        "title": "菲律賓年輕選手艾拉歷史性晉級溫布頓第三輪",
+        "url": "https://www.bbc.co.uk/news/articles/cpv3x3p7mdvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 03 Jul 2026 08:55:50 GMT",
+        "summary_zh": "菲律賓的 21 歲年輕選手艾拉，成為了菲律賓史上首位在公開年代(Open era)晉級大滿貫第三輪的選手。艾拉的歷史性成就，讓菲律賓的拳擊迷們感到興奮。艾拉的出色表現，證明了菲律賓的運動員在國際舞台上的競爭力。這一成就將對菲律賓的體育界和民眾產生深遠的影響。菲律賓政府和體育界可能會對艾拉的成就給予更多的支持和資源。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e7de7ede",
+        "title": "日本一名女市長宣布懷孕，引起全國關注",
+        "url": "https://www.bbc.co.uk/news/articles/c1mykzj15xno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 02 Jul 2026 22:00:11 GMT",
+        "summary_zh": "日本一名35歲的女市長Shoko Kawata在面對批評時表示，她很愛她的工作，並且為了懷孕而放假感到自豪。這位女市長的決定引起了全國的關注，許多人對她的決定表示支持。這種支持不僅來自一般民眾，也來自一些政治人物。這個事件也讓人們重新思考了女性在工作中的地位和權利。Shoko Kawata的決定被視為是一個積極的步驟，為女性在職場中爭取更多權利。這個事件也讓人們對日本的工作文化和社會觀念有了新的看法。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "0280e145",
+        "title": "BBC發現Instagram在印度推廣兒童性侵犯內容廣告",
+        "url": "https://www.bbc.co.uk/news/articles/cvgm4e0316zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 03 Jul 2026 03:50:18 GMT",
+        "summary_zh": "BBC發現Instagram在印度推廣兒童性侵犯內容的廣告。這些廣告使用包含「強姦」和「兒童視頻」等字眼，並連結至Telegram上面的內容。這一發現引發了對社交媒體平台安全性的擔憂。印度政府已經對這一問題進行調查，並呼籲Instagram採取行動。這一事件也引發了對兒童保護和線上安全性的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "a8bf06a8",
         "title": "法國在熱浪高峰期錄得 2025 人超額死亡數字，歐洲準備面對更極端的天氣",
@@ -65,18 +161,6 @@
         "category": "global",
         "published_at": "Fri, 03 Jul 2026 10:23:32 GMT",
         "summary_zh": "法國在近期的熱浪高峰期，錄得 2025 人超額死亡數字。氣象預報員警告，歐洲在接下來的幾天內將面臨更極端的高溫。法國的熱浪導致大量人們罹難，醫療系統也受到了嚴重影響。這種天氣情況對歐洲的醫療系統和社會帶來了重大挑戰。預計在接下來的幾天內，歐洲將會面臨更嚴重的天氣，氣象預報員正在密切關注這種情況。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "4e11e948",
-        "title": "美國四月七日前夕迎來嚴重高溫潮",
-        "url": "https://www.bbc.co.uk/news/articles/cevlkzer7vdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Fri, 03 Jul 2026 02:24:34 GMT",
-        "summary_zh": "美國正遭受嚴重的高溫潮，數百萬人面臨著危險的高溫和濕度，預計接下來幾天都會維持攝氏38度（華氏100度）。這種天氣對人體健康造成了嚴重威脅，尤其是老年人和兒童。美國政府已經發出警告，建議民眾採取措施保護自己免受高溫的影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -106,18 +190,6 @@
         "ai_classified": true
       },
       {
-        "id": "04149223",
-        "title": "美國獨立宣言罕見版本在英國檔案館被志願者發現",
-        "url": "https://www.bbc.co.uk/news/articles/cgrkl104ly5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 02 Jul 2026 23:39:29 GMT",
-        "summary_zh": "美國獨立宣言罕見版本的發現，是一份珍貴的歷史文獻。根據最新的發現，這份文獻是世界上僅有的 11 份之一。這份文獻的發現，將為歷史學家和研究者提供新的線索和資訊，進一步深入了解美國獨立的歷史背景。這份文獻的發現，也將為英國檔案館增添新的價值和重要性。這項發現的影響將不僅限於美國獨立的歷史研究，也將對英國檔案館的研究和收藏有所影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
         "id": "e26dacbf",
         "title": "NASA發射任務拯救掉落的太空望遠鏡",
         "url": "https://www.bbc.co.uk/news/articles/c0ry4xx7rk8o?at_medium=RSS&at_campaign=rss",
@@ -126,17 +198,17 @@
         "published_at": "Fri, 03 Jul 2026 10:28:17 GMT",
         "summary_zh": "NASA發射了一個由該機構資助的機器人，目的是在太空中拦截掉落的望遠鏡，並將其推回安全區域避免被燃燒。這個任務是為了拯救NASA的James Webb太空望遠鏡，該望遠鏡於2021年發射，預計將在2025年退役。然而，由於其軌道不穩定，NASA認為有必要進行拯救任務，以確保望遠鏡的安全。這個任務將考慮到太空環境的複雜性，包括太空中的空氣阻力和太陽的輻射等因素。NASA的機器人將需要精確地計算其軌道和速度，以成功拦截和拯救望遠鏡。這個任務的成功將為NASA的太空探索提供重要的經驗和知識，同時也將為未來的太空任務提供參考。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
-        "id": "0280e145",
-        "title": "BBC發現Instagram在印度推廣兒童性侵犯內容廣告",
-        "url": "https://www.bbc.co.uk/news/articles/cvgm4e0316zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "id": "e41fb72f",
+        "title": "美國高溫波潮威脅獨立日慶祝活動和世界盃賽事",
+        "url": "https://www.theguardian.com/us-news/2026/jul/03/heatwave-world-cup-250th-anniversary",
+        "source": "Guardian US",
         "category": "global",
-        "published_at": "Fri, 03 Jul 2026 03:50:18 GMT",
-        "summary_zh": "BBC發現Instagram在印度推廣兒童性侵犯內容的廣告。這些廣告使用包含「強姦」和「兒童視頻」等字眼，並連結至Telegram上面的內容。這一發現引發了對社交媒體平台安全性的擔憂。印度政府已經對這一問題進行調查，並呼籲Instagram採取行動。這一事件也引發了對兒童保護和線上安全性的關注。",
+        "published_at": "Fri, 03 Jul 2026 07:01:21 GMT",
+        "summary_zh": "美國近期的高溫波潮被研究人員發現，與氣候危機有直接關係。氣象學家指出，如果沒有氣候危機，美國現在的氣候將不會如此惡劣。這種高溫波潮威脅著美國獨立日的慶祝活動和即將到來的世界盃賽事。研究人員表示，這種氣候變化與美國獨立的歷史背景有直接關係，當年美國的氣候與現在大不相同。氣候危機對美國的影響越來越明顯，研究人員呼籲政府和民眾共同努力應對氣候變化的挑戰。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -190,30 +262,6 @@
         "ai_classified": true
       },
       {
-        "id": "df325114",
-        "title": "泰國9位僧侶遇車禍喪生，11歲司機撞向僧侶行列",
-        "url": "https://www.bbc.co.uk/news/articles/c23y90lygpzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 02 Jul 2026 11:43:40 GMT",
-        "summary_zh": "泰國發生嚴重車禍，9名僧侶在行進中被一輛卡車撞倒，造成9人死亡。這起事故發生在一群35名僧侶和5名俗眾正在路邊行進時，卡車衝入僧侶行列。事故原因尚未明確，正在進行調查。這起悲劇事件引起了泰國社會的震驚和哀悼。僧侶在泰國社會中佔有重要地位，僧侶的喪失對泰國社會造成了深遠的影響。泰國政府已經開始調查此事，並將對事故原因進行深入調查。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e41fb72f",
-        "title": "美國高溫波潮威脅獨立日慶祝活動和世界盃賽事",
-        "url": "https://www.theguardian.com/us-news/2026/jul/03/heatwave-world-cup-250th-anniversary",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Fri, 03 Jul 2026 07:01:21 GMT",
-        "summary_zh": "美國近期的高溫波潮被研究人員發現，與氣候危機有直接關係。氣象學家指出，如果沒有氣候危機，美國現在的氣候將不會如此惡劣。這種高溫波潮威脅著美國獨立日的慶祝活動和即將到來的世界盃賽事。研究人員表示，這種氣候變化與美國獨立的歷史背景有直接關係，當年美國的氣候與現在大不相同。氣候危機對美國的影響越來越明顯，研究人員呼籲政府和民眾共同努力應對氣候變化的挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "ea702234",
         "title": "印度總理莫迪在國外之旅中收集獎項，各國為他頒發榮譽",
         "url": "https://www.theguardian.com/world/2026/jul/03/narendra-modi-awards-honours-overseas-trips",
@@ -250,6 +298,68 @@
         "ai_classified": true
       }
     ],
+    "ai": [
+      {
+        "id": "22b76941",
+        "title": "未解答的問題：Midjourney 未來醫療掃描器背後的真相",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-03T07:49:10-04:00",
+        "summary_zh": "Midjourney 進一步公開了其未來醫療掃描器的內部設計。雖然這項技術聲稱能夠提供便宜、詳細、無輻射的成像，但公司尚未提供足夠的證據來證明其有效性。這項技術計劃在spa中部署，旨在通過創新技術改善醫療服務。然而，公司未能提供足夠的證據來證明其技術的可行性，引發了關於其可靠性的質疑。這項技術是否能夠真正改善醫療服務，還需要進一步的研究和證實。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "df6ee148",
+        "title": "透過人工智慧實現業務卓越",
+        "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 02 Jul 2026 15:37:08 +0000",
+        "summary_zh": "近年來，許多企業開始採用框架式管理，如六西格瑪（Lean Six Sigma）和業務流程管理（Business Process Management, BPM），來提高業務效率。這些框架提供了一種結構化的方法，幫助企業在混亂的業務環境中尋求明確的方向。六西格瑪強調統計嚴謹性和質量控制，而BPM則創建了跨部門工作流程的端到端地圖。這些框架提供了一種可重複的方法，幫助企業優化業務流程、減少浪費和提高效率。然而，隨著業務環境的持續變化，企業需要找到新的方法來保持業務卓越。人工智慧（AI）正成為企業業務卓越的關鍵工具，提供了更精確的預測、更快速的決策和更有效的業務流程。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2e6433c4",
+        "title": "教會 AI 跟著風車跑",
+        "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 02 Jul 2026 12:51:44 +0000",
+        "summary_zh": "人工智慧雖然通過聊天機器人和圖像生成器在公眾中引起了巨大的關注，但它的最具影響力的應用案例正悄悄地在工業領域展開。那些重視物理基礎設施、運營持續性和安全性的地方，人工智慧正逐漸成為核心運營層。風力發電廠、水力發電廠和石油平台等工業設施正是這樣的地方。這些設施的運營需要持續的監控和維護，人工智慧可以幫助提高效率和減少風險。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1f01612a",
+        "title": "下載：一家初創公司為 AI 的集體思維問題找到了解決方案",
+        "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 02 Jul 2026 12:10:00 +0000",
+        "summary_zh": "近日，一家初創公司正在嘗試解決人工智慧（AI）中出現的「集體思維」問題。這種問題是指人工智慧模型在處理複雜問題時，容易陷入一種固定的思維模式，缺乏創新的思考。這家初創公司正在開發一種新型的人工智慧模型，能夠更好地融合不同觀點和經驗，從而避免集體思維的問題。這種新型模型的開發可能會對人工智慧的發展產生重大影響，讓人工智慧模型更具創新性和獨立性。然而，仍需要更多的研究和實驗來驗證這種新型模型的有效性。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b6e1d000",
+        "title": "光標是否能繼續成為OpenAI和Anthropic的平台？",
+        "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Thu, 02 Jul 2026 18:01:20 +0000",
+        "summary_zh": "光標（Cursor）是一家提供第三方人工智慧模型的平台，近日被太空探索技術公司（SpaceX）收購。光標的創辦人表示，希望能繼續提供第三方人工智慧模型，測試前沿人工智慧實驗室之間的關係。這一收購可能會對人工智慧界帶來新的發展機會。然而，光標的未來發展也面臨著挑戰，包括如何保持其獨立性和客觀性。這一事件也引發了對人工智慧發展的關注，包括其應用、安全和倫理問題。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "finance": [
       {
         "id": "4310abf4",
@@ -259,6 +369,54 @@
         "category": "finance",
         "published_at": "2026-07-02 23:00:00",
         "summary_zh": "中國量化基金最近吸引了數十億美元的投資，原因是人工智慧在交易市場的表現優於人類交易員。根據最近的研究，人工智慧在股市交易中取得了驚人的成功，超越了許多頂尖的交易員。這種成績使得投資者對人工智慧的量化基金產生了極大的興趣，導致大量資金湧入。人工智慧的優勢在於它可以快速分析大量數據，做出快速決策，而人類交易員則需要花費更多時間和精力來做出決策。這種差異使得人工智慧在交易市場的表現優於人類交易員。然而，投資者也應該注意到，人工智慧的表現並不總是能夠持續下去，市場的波動和風險仍然存在。因此，投資者需要謹慎評估投資人工智慧量化基金的風險和收益。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b458f0c9",
+        "title": "美國最大電力網 PJM 下令緊急措施避免大規模停電",
+        "url": "https://www.reuters.com/business/energy/grid-operator-pjm-orders-emergency-steps-avoid-large-scale-us-power-outages-2026-07-02/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-02 23:56:43",
+        "summary_zh": "美國最大電力網 PJM 因為高溫導致電力需求大幅增加，面臨著嚴重的電力短缺風險。為了避免大規模停電，PJM 下令發電廠盡快增加產能，將休眠的發電廠立即投入使用。這些緊急措施旨在維持電力供應穩定，確保美國東部地區的電力需求得到滿足。高溫導致的電力需求增加，對於電力網的壓力造成了重大挑戰。PJM 的緊急措施將對美國東部地區的電力市場產生重大影響，可能導致電力價格上升。這些措施的效果如何，還需要觀察和監測。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "50eddbaf",
+        "title": "亞洲市場預計周五將延續跌勢，科技股遭擱置",
+        "url": "https://www.cnbc.com/2026/07/03/stock-market-today-live-updates.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-02 23:53:01",
+        "summary_zh": "亞洲太平洋市場預計將延續周四的跌勢，投資者持續將資金從科技股轉移至其他領域，追蹤美股科技股的下跌。這一趨勢與美國科技股下跌有關，投資者對科技股的信心受損。亞洲市場的下跌也受到晶片業績下滑的影響。投資者對亞洲市場的投資意願下降，市場情緒惡化。分析師預測，亞洲市場將在短期內出現波動，投資者應該保持謹慎的態度。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "f5a1cc3a",
+        "title": "川普堅稱自己在加密貨幣上收益良好",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-02/trump-insists-there-s-nothing-wrong-with-his-big-crypto-gains",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-02 23:29:35",
+        "summary_zh": "川普在最近的采訪中表示，他在加密貨幣投資上收益良好，並堅稱自己沒有做任何錯事。他指出，自己在加密貨幣上投資的收益是非常好的，並且自己沒有違反任何法律規定。這番話引起了許多人的關注，因為川普的加密貨幣投資有時候會被指控違反市場規範。然而，川普堅持自己的投資是合法的，並且自己沒有做任何錯事。這個事件引起了許多人的關注，因為加密貨幣市場的規範和監管正在快速發展。許多人對於川普的加密貨幣投資表達了關注和疑慮，同時也對於川普堅持自己的投資是合法的表示了支持。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b5d6729a",
+        "title": "全球最差表現的交易所 ASX 擬任用外部人士為下任首席",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-07-02/meet-asx-s-next-ceo-housing-slump-podcast-tpg-keeps-on-co-head",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-02 23:10:52",
+        "summary_zh": "澳洲證券交易所 (ASX) 因為表現不佳而面臨重大的挑戰。該交易所的績效在全球排名最後，引起了投資者的關注。為了改善其表現，ASX 正在考慮由外部人士擔任下任首席。這一決定可能會對交易所的未來發展產生重大影響。外部人士的加入可能會帶來新的觀點和經驗，幫助交易所改善其表現。然而，這一決定也可能會引起投資者的疑慮和不確定性。投資者們將密切關注 ASX 的發展，以了解外部人士的加入是否能夠改善交易所的表現。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -272,92 +430,68 @@
         "published_at": "2026-07-02 23:00:20",
         "summary_zh": "中國政府正在推動零碳戰略，但卻依靠大量煤炭來實現。根據最新研究，中國正在投資煤炭生產和輸送的基礎設施，以便在未來的零碳時代仍然能夠維持煤炭的產量。這個計畫的目的是在未來的零碳時代仍然能夠維持煤炭的產量，同時減少對環境的影響。然而，這個計畫的可行性和可持續性仍然存疑。許多專家認為，中國的零碳戰略應該更加注重於清潔能源的發展和推廣。這個計畫的影響將會對全球的氣候變化和環境保護產生重大影響。未來的發展方向將取決於中國政府的決策和政策的改變。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "3aa15040",
-        "title": "石油價格穩定　霍爾木茲海峽供應增加",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-02/latest-oil-market-news-and-analysis-for-july-1",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-02 22:50:27",
-        "summary_zh": "霍爾木茲海峽是世界上最重要的石油運輸通道，近期石油價格出現波動。根據最新消息，霍爾木茲海峽的石油供應正在增加，這使得石油價格穩定。石油供應的增加是由於更多的石油船隻通過霍爾木茲海峽運輸石油，從而增加了石油的供應量。這使得石油價格不再上升。石油價格的穩定對於全球經濟有著重要影響，尤其是在能源消費國。霍爾木茲海峽的石油供應增加將繼續觀察，以確保石油價格的穩定。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a5bcc753",
-        "title": "川普稱房屋法案是「好」的，但仍未簽署",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-02/trump-says-housing-bill-is-fine-but-still-holds-off-on-signing",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-02 22:42:31",
-        "summary_zh": "美國總統川普在記者會上表示，他對於剛剛通過的房屋法案持保留態度，稱之為「好」，但仍未簽署。這項法案旨在幫助美國房屋市場，包括降低房屋購買成本和增加房屋租賃。川普表示，他仍在考慮是否簽署這項法案，同時也對於法案的某些部分有所擔憂。房屋法案的通過是美國國會的一項重要成就，將對美國房屋市場產生重大影響。然而，川普的態度仍然不明朗，仍待觀察。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "cf8d82b2",
-        "title": "首爾時報：中國能源集團今年亞洲最大IPO籌集36億美元",
-        "url": "https://www.ft.com/content/a30da432-910f-4879-ad8f-845970d3cce3",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-07-02 22:00:06",
-        "summary_zh": "中國能源集團近日在亞洲舉行了今年最大規模的首次公開發行(IPO)，籌集了36億美元。這家能源公司的IPO在亞洲市場引起了廣泛關注，許多投資者對其投資前景表示興趣。根據市場消息，這家公司的IPO將為其提供龐大的資金來源，幫助其擴大業務和投資。這項舉動也表明亞洲市場對能源業的投資需求正在增加。能源公司的IPO在全球市場上備受關注，許多投資者正在關注這些公司的投資前景。這項舉動也表明能源業在未來將繼續發揮重要作用。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "is_breaking": true,
         "ai_classified": true
       }
     ],
     "stock_tw": [
       {
-        "id": "b8163942",
-        "title": "慧智攜手美國Baylor Genetics 導入國際級基因檢測與判讀服務",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5493057",
-        "source": "自由時報財經",
+        "id": "57ac774f",
+        "title": "颱風巴威、梅莎接連生成 水利署盤點防汛整備",
+        "url": "https://www.cna.com.tw/news/afe/202607030260.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Fri, 03 Jul 2026 18:39:37 +0800",
-        "summary_zh": "慧智基因與美國Baylor Genetics策略合作，將於7月正式導入多項國際級臨床基因檢測服務與專業判讀資源。這項合作將為台灣的基因檢測領域帶來新的發展機會。慧智基因的這一舉動，顯示出公司對於基因檢測技術的投入和發展。這項合作不僅將提高慧智基因的競爭力，也將為患者提供更好的服務。然而，如何有效地將這些國際級服務導入台灣市場，仍是未知數。",
+        "published_at": "Fri, 03 Jul 2026 18:41:45 +0800",
+        "summary_zh": "水利署因颱風巴威、梅莎的生成，預判下週將威脅台灣。為了應對這種情況，水利署署長林元鵬召開防汛整備視訊會議，盤點0625豪雨災情嚴重的台南、高雄、屏東等地搶修險辦理情況。林元鵬要求地方水利機關加強清理橋孔、水溝等地，以確保水利設施的穩定性。這項措施旨在防止下一場颱風來臨時，水利設施因為積水或淤積而造成的災害。水利署的行動表明，台灣正積極準備面對可能的颱風風暴，保護人民的生命和財產安全。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "394d6537",
-        "title": "人體幹細胞外泌體原料獲衛福部核准為化粧品成分 向榮生技將揮軍高端保養品市場",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5493016",
-        "source": "自由時報財經",
+        "id": "9c5c406d",
+        "title": "外資賣超逾千億元 台股終場翻紅",
+        "url": "https://www.cna.com.tw/news/afe/202607030249.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Fri, 03 Jul 2026 18:31:34 +0800",
-        "summary_zh": "向榮生技自主研發的「源自人體脂肪間質幹細胞外泌體（Exosomes）」原料，獲得衛福部核准可作為化粧品成分。這是台灣首例獲得核准的化粧品成分，外泌體在台灣僅可用於化粧保養品使用。這項成果將使向榮生技在高端保養品市場佔有一席之地。外泌體的應用在化粧品領域有望帶來新一波的發展。這項成果也表明了台灣的生物科技業在化粧品領域的發展前景。",
-        "sentiment": "正面",
+        "published_at": "Fri, 03 Jul 2026 18:04:22 +0800",
+        "summary_zh": "台股今天開低震盪收高，終場由黑翻紅，上漲36.46點，收在46780.62點，成交值新台幣1兆155.7億元。外資賣超777.82億元，賣超群創最多，達5萬7891張。這些數據表明外資投資者在市場上出現了賣壓，然而台股仍然能夠翻紅，表明市場仍然有買氣。這種情況可能是由於投資者對台股未來發展的信心仍然存在，或者是由於市場的短期波動。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "03788b51",
-        "title": "iPhone供應商印度塔塔電子資料外洩 當局首度表態並正著手調查",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5493049",
-        "source": "自由時報財經",
+        "id": "43b34ded",
+        "title": "天豐新能源盼持續投資台灣 審慎評估3-3期",
+        "url": "https://www.cna.com.tw/news/afe/202607030231.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Fri, 03 Jul 2026 18:25:11 +0800",
-        "summary_zh": "印度塔塔電子遭勒索軟體組織World Leaks入侵，導致蘋果iPhone 18 Pro的零組件設計資料外洩。當局首度表態，正著手調查此事件。外洩的資料可能會對蘋果公司和其供應鏈造成影響。這起事件也引起了對印度數字安全的關注。印度政府正積極地處理此事件，盡快恢復數字安全。這項事件也會對印度的數字產業產生影響。",
+        "published_at": "Fri, 03 Jul 2026 17:44:46 +0800",
+        "summary_zh": "天豐新能源執行長拉麥斯表示，台灣是公司重點市場之一，若專案規模、場址等符合公司策略，期盼能獲得更多開發機會。天豐新能源董事長羅富彥則指出，包含3-3期在內的後續投資，將視政策明確度與執行彈性評估。天豐新能源未來也不排除透過併購尋求新契機。這意味著天豐新能源將繼續投資台灣，盡量與政府政策同步發展。這一發展方向將對台灣的新能源產業帶來新的機會和挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d4219213",
+        "title": "外資匯出壓力持續 新台幣收31.93元下週恐測32元大關",
+        "url": "https://www.cna.com.tw/news/afe/202607030227.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 03 Jul 2026 17:40:38 +0800",
+        "summary_zh": "美國就業數據疲軟，拖累美元指數走弱，亞幣得以稍作喘息。不過外資匯出壓力仍在，新台幣難逃貶勢。今天盤中距離32元整數大關僅剩半步之遙，終場收在31.93元，貶值2分，續創近3個月新低。外匯交易員認為，外資匯出壓力不減，下週恐將測試32元。新台幣的貶值趨勢可能與外資匯出壓力和美元指數的走勢有關。外匯市場的變化將對新台幣的價格產生重大影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "0d1f231c",
-        "title": "台北寵物展登場 統一打造毛孩生活館、福壽5大品牌齊亮相",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5492998",
-        "source": "自由時報財經",
+        "id": "3e06f497",
+        "title": "台股本週上漲2208點 上市公司總市值再突破150兆元",
+        "url": "https://www.cna.com.tw/news/afe/202607030223.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Fri, 03 Jul 2026 18:11:40 +0800",
-        "summary_zh": "台北寵物用品展今天起至7月6日於南港展覽館一館登場。統一企業今年打造全新概念展區「Petlife毛孩生活館」，展示寵物用品和生活相關商品。福壽集結5大寵物食品品牌齊亮相，包括福壽、陽明、金典、天然和寵愛。這次展覽不僅提供寵物主人的購物選擇，也讓寵物們可以體驗舒適的生活環境。展覽期間，統一還將舉辦多場活動和工作坊，讓參觀者可以學習如何照顧寵物和創造美好的寵物生活。",
-        "sentiment": "中性",
+        "published_at": "Fri, 03 Jul 2026 17:37:29 +0800",
+        "summary_zh": "台股本週呈現震盪走高的走勢，今天的集中市場指數以46780.62點作收，週漲2208.86點或4.96%。這意味著台股在短期內呈現明顯的上漲趨勢。根據台證統計，上市公司最新總市值達新台幣152兆6612億元，較上週增加7兆2055億元，這個數字再度突破150兆元的關卡。這表明投資人對台股仍然充滿信心，市場的投資熱情仍然持續。然而，市場的波動仍然存在，投資人需要保持謹慎的態度。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
@@ -408,6 +542,54 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "b8163942",
+        "title": "慧智攜手美國Baylor Genetics 導入國際級基因檢測與判讀服務",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5493057",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 03 Jul 2026 18:39:37 +0800",
+        "summary_zh": "慧智基因與美國Baylor Genetics策略合作，將於7月正式導入多項國際級臨床基因檢測服務與專業判讀資源。這項合作將為台灣的基因檢測領域帶來新的發展機會。慧智基因的這一舉動，顯示出公司對於基因檢測技術的投入和發展。這項合作不僅將提高慧智基因的競爭力，也將為患者提供更好的服務。然而，如何有效地將這些國際級服務導入台灣市場，仍是未知數。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "394d6537",
+        "title": "人體幹細胞外泌體原料獲衛福部核准為化粧品成分 向榮生技將揮軍高端保養品市場",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5493016",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 03 Jul 2026 18:31:34 +0800",
+        "summary_zh": "向榮生技自主研發的「源自人體脂肪間質幹細胞外泌體（Exosomes）」原料，獲得衛福部核准可作為化粧品成分。這是台灣首例獲得核准的化粧品成分，外泌體在台灣僅可用於化粧保養品使用。這項成果將使向榮生技在高端保養品市場佔有一席之地。外泌體的應用在化粧品領域有望帶來新一波的發展。這項成果也表明了台灣的生物科技業在化粧品領域的發展前景。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "03788b51",
+        "title": "iPhone供應商印度塔塔電子資料外洩 當局首度表態並正著手調查",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5493049",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 03 Jul 2026 18:25:11 +0800",
+        "summary_zh": "印度塔塔電子遭勒索軟體組織World Leaks入侵，導致蘋果iPhone 18 Pro的零組件設計資料外洩。當局首度表態，正著手調查此事件。外洩的資料可能會對蘋果公司和其供應鏈造成影響。這起事件也引起了對印度數字安全的關注。印度政府正積極地處理此事件，盡快恢復數字安全。這項事件也會對印度的數字產業產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0d1f231c",
+        "title": "台北寵物展登場 統一打造毛孩生活館、福壽5大品牌齊亮相",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5492998",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 03 Jul 2026 18:11:40 +0800",
+        "summary_zh": "台北寵物用品展今天起至7月6日於南港展覽館一館登場。統一企業今年打造全新概念展區「Petlife毛孩生活館」，展示寵物用品和生活相關商品。福壽集結5大寵物食品品牌齊亮相，包括福壽、陽明、金典、天然和寵愛。這次展覽不僅提供寵物主人的購物選擇，也讓寵物們可以體驗舒適的生活環境。展覽期間，統一還將舉辦多場活動和工作坊，讓參觀者可以學習如何照顧寵物和創造美好的寵物生活。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "stock_us": [
@@ -420,8 +602,8 @@
         "published_at": "2026-07-02 22:21:36",
         "summary_zh": "德州一名男子因駕駛特斯拉車輛，使用其自動駕駛輔助系統撞毀休斯敦郊區住宅，造成一名76歲的奶奶喪生，法院文件顯示。該男子被控故意殺人罪。這起事故引發了對自動駕駛系統安全性的關注。自動駕駛輔助系統的設計和使用，是否已經達到安全標準的問題，也引發了爭議。這起案件將進一步檢視自動駕駛系統的安全性和可靠性。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "483fd2cb",
@@ -606,18 +788,6 @@
         "ai_classified": true
       },
       {
-        "id": "48a49207",
-        "title": "FBI要求260名員工前往佐治亞州協助2020年大選調查",
-        "url": "https://www.theguardian.com/us-news/2026/jul/02/fbi-georgia-fulton-county-election-investigation",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 02 Jul 2026 23:21:40 GMT",
-        "summary_zh": "美國聯邦調查局 (FBI) 將其全國各地的辦事處要求派出超過 200 名員工協助調查佐治亞州富爾頓縣 2020 年大選。聯邦調查局的一份備忘錄要求派出 260 名調查分析師和工作運營專家參與調查，將其描述為「優先調查」。這項調查是由聯邦調查局在 1 月份在富爾頓縣發現數百箱選票後啟動的。聯邦調查局正在調查選票的處理和儲存，該選票被認為是 2020 年大選的關鍵證據。這項調查的結果將對美國政治產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "ac8bb4d1",
         "title": "AOC支持進步民主黨人參選密西根州參議院席位",
         "url": "https://www.theguardian.com/us-news/2026/jul/02/aoc-endorses-el-sayed-michigan",
@@ -663,56 +833,6 @@
         "summary_zh": "路易斯安那州檢察總長利茲·穆里爾（Liz Murrill）被指控涉嫌威脅新奧爾良官員，前法官露里·懷特（Laurie White）確認了這一消息。懷特被任命為該案的特別檢察官。根據懷特的說法，檢察總長被指控在2023年10月向新奧爾良官員發出威脅性電話和電子郵件。懷特表示，這些威脅是針對新奧爾良官員對路易斯安那州檢察總長辦公室的行動。懷特沒有透露檢察總長被指控的具體罪名，但表示這是一個嚴重的案件。路易斯安那州州長約翰·貝爾·愛德華茲（John Bel Edwards）承諾，如果檢察總長被定罪，他將迅速赦免她。愛德華茲表示，這是為了確保檢察總長可以繼續履行職責。懷特表示，這個案件將繼續進行，並將對檢察總長的指控進行審判。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "ai": [
-      {
-        "id": "df6ee148",
-        "title": "透過人工智慧實現業務卓越",
-        "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 02 Jul 2026 15:37:08 +0000",
-        "summary_zh": "近年來，許多企業開始採用框架式管理，如六西格瑪（Lean Six Sigma）和業務流程管理（Business Process Management, BPM），來提高業務效率。這些框架提供了一種結構化的方法，幫助企業在混亂的業務環境中尋求明確的方向。六西格瑪強調統計嚴謹性和質量控制，而BPM則創建了跨部門工作流程的端到端地圖。這些框架提供了一種可重複的方法，幫助企業優化業務流程、減少浪費和提高效率。然而，隨著業務環境的持續變化，企業需要找到新的方法來保持業務卓越。人工智慧（AI）正成為企業業務卓越的關鍵工具，提供了更精確的預測、更快速的決策和更有效的業務流程。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2e6433c4",
-        "title": "教會 AI 跟著風車跑",
-        "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 02 Jul 2026 12:51:44 +0000",
-        "summary_zh": "人工智慧雖然通過聊天機器人和圖像生成器在公眾中引起了巨大的關注，但它的最具影響力的應用案例正悄悄地在工業領域展開。那些重視物理基礎設施、運營持續性和安全性的地方，人工智慧正逐漸成為核心運營層。風力發電廠、水力發電廠和石油平台等工業設施正是這樣的地方。這些設施的運營需要持續的監控和維護，人工智慧可以幫助提高效率和減少風險。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1f01612a",
-        "title": "下載：一家初創公司為 AI 的集體思維問題找到了解決方案",
-        "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 02 Jul 2026 12:10:00 +0000",
-        "summary_zh": "近日，一家初創公司正在嘗試解決人工智慧（AI）中出現的「集體思維」問題。這種問題是指人工智慧模型在處理複雜問題時，容易陷入一種固定的思維模式，缺乏創新的思考。這家初創公司正在開發一種新型的人工智慧模型，能夠更好地融合不同觀點和經驗，從而避免集體思維的問題。這種新型模型的開發可能會對人工智慧的發展產生重大影響，讓人工智慧模型更具創新性和獨立性。然而，仍需要更多的研究和實驗來驗證這種新型模型的有效性。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b6e1d000",
-        "title": "光標是否能繼續成為OpenAI和Anthropic的平台？",
-        "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 02 Jul 2026 18:01:20 +0000",
-        "summary_zh": "光標（Cursor）是一家提供第三方人工智慧模型的平台，近日被太空探索技術公司（SpaceX）收購。光標的創辦人表示，希望能繼續提供第三方人工智慧模型，測試前沿人工智慧實驗室之間的關係。這一收購可能會對人工智慧界帶來新的發展機會。然而，光標的未來發展也面臨著挑戰，包括如何保持其獨立性和客觀性。這一事件也引發了對人工智慧發展的關注，包括其應用、安全和倫理問題。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       }
     ]
