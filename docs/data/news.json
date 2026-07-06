@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-06T09:04:36.000027+08:00",
+  "generated_at": "2026-07-06T10:07:30.159625+08:00",
   "risk_signals": [
-    "🟢 台股加權 46780.62（正常）",
+    "🟢 台股加權 47238.19（正常）",
     "🟢 S&P 500 7483.24（正常）",
     "🟢 VIX 恐慌指數 16.15（正常）",
     "🟢 MOVE 債市波動 65.4（正常）",
-    "🟢 美元指數 100.88（正常）",
-    "🟡 黃金 4195.7（漲 +2.02%，留意）",
+    "🟢 美元指數 100.96（正常）",
+    "🟡 黃金 4205.2（漲 +2.25%，留意）",
     "🟢 美債10Y殖利率 4.49（正常）",
-    "🟢 原油 WTI 68.29（正常）",
-    "🟢 美元/台幣 31.92（正常）"
+    "🟢 原油 WTI 68.87（正常）",
+    "🟢 美元/台幣 32.02（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，投資人仍然對風險保持著警惕。黃金價格小幅上漲，表明投資人仍然對不確定性感到擔憂。整體來說，市場預期仍然保持樂觀，但投資人仍然保持著謹慎態度。",
+  "ai_summary": "市場氛圍保持穩定，美元指數和美元/台幣交換率正常運作，美債10Y殖利率也保持穩定。黃金價格略有上漲，留意市場對通膨風險的評估。",
   "market": {
     "TWII": {
-      "price": 46780.62,
-      "change_pct": 0.08
+      "price": 47238.19,
+      "change_pct": 0.98
     },
     "SP500": {
       "price": 7483.24,
@@ -38,25 +38,97 @@
       "change_pct": -4.61
     },
     "DXY": {
-      "price": 100.88,
-      "change_pct": 0.01
+      "price": 100.96,
+      "change_pct": 0.1
     },
     "GOLD": {
-      "price": 4195.7,
-      "change_pct": 2.02
+      "price": 4205.2,
+      "change_pct": 2.25
     },
     "OIL": {
-      "price": 68.29,
-      "change_pct": -0.58
+      "price": 68.87,
+      "change_pct": 0.26
     },
     "USDTWD": {
-      "price": 31.92,
-      "change_pct": -0.02
+      "price": 32.02,
+      "change_pct": 0.27
     }
   },
   "macro": {},
   "categories": {
     "global": [
+      {
+        "id": "d6092622",
+        "title": "越南打擊假冒名牌商品黑市，美國政府施壓",
+        "url": "https://www.bbc.co.uk/news/articles/cdx7zzywz7wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 05 Jul 2026 22:01:43 GMT",
+        "summary_zh": "越南近年來出現了假冒名牌商品的黑市熱潮，美國政府要求越南政府打擊這種行為。然而，越南民眾對此卻有不同的看法。越南政府面臨著如何平衡經濟發展與打擊黑市的難題。越南的黑市市場主要販售假冒的名牌商品，如手錶、包包等。這些商品來自於中國、韓國等地。越南政府已經開始採取措施打擊黑市行為，包括關閉黑市市場和拘捕涉案人員。然而，越南民眾對政府的措施卻有不同的看法。一些人認為政府的措施太過嚴厲，會對經濟發展造成負面影響。另一方面，越南政府也面臨著如何保護本國品牌的挑戰。越南政府正在努力平衡經濟發展與打擊黑市的需求。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b4ee77cd",
+        "title": "澳洲總理為對凱莉米諾格的評論致歉",
+        "url": "https://www.bbc.co.uk/news/articles/cr477en6w3go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 06 Jul 2026 01:46:29 GMT",
+        "summary_zh": "澳洲總理阿蘭巴尼斯（Albanese）為自己對凱莉米諾格（Kylie Minogue）的評論致歉。阿蘭巴尼斯的評論被視為不恰當，引起了強烈的反彈。阿蘭巴尼斯表示，他的評論是「絕對不恰當」的，為此他致歉。這一事件顯示，澳洲總理的言論對於社會的影響力非常大，任何不恰當的評論都可能引起強烈的反彈。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "034f9153",
+        "title": "孟加拉國與中國關係加深，與印度關係逐漸改善",
+        "url": "https://www.bbc.co.uk/news/articles/cy4e1lzwgvxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 06 Jul 2026 00:02:29 GMT",
+        "summary_zh": "孟加拉國與印度的關係在過去的臨時政府時期曾經惡化，但現在兩國關係逐漸改善。與此同時，孟加拉國與中國的關係也在加深。孟加拉國政府正在努力維持與兩國的良好關係，這對於該國的經濟發展具有重要意義。孟加拉國與中國的貿易額日益增加，兩國間的合作在各個領域都在加深。孟加拉國政府也正試圖與印度達成新的協議，以加強兩國的經濟和安全合作。這一發展對於孟加拉國的未來具有重要影響，將會對該國的經濟和政治發展產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "95e5f7d3",
+        "title": "大阪淘汰世界第一塞巴倫卡，進入溫布頓四強",
+        "url": "https://www.bbc.co.uk/sport/tennis/articles/cyv00eegv32o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Sun, 05 Jul 2026 22:14:42 GMT",
+        "summary_zh": "大阪選手在溫布頓公開賽中出現了令人驚艷的回歸表現，擊敗世界第一的塞巴倫卡，取得四強席位。這場比賽中，大阪選手展現出出色的實力，令人印象深刻。大阪選手的勝利對她本人的影響是非常重要的，同時也會對她未來的賽事產生重大影響。大阪選手的勝利也會對世界排名產生影響，塞巴倫卡的排名可能會下降。大阪選手的下一步將是準備參加四強賽事，爭取進入溫布頓決賽。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f8484dd3",
+        "title": "中國地下教會領袖金明利獲釋",
+        "url": "https://www.bbc.co.uk/news/articles/c4gy51ky75vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Sun, 05 Jul 2026 05:58:21 GMT",
+        "summary_zh": "中國地下教會領袖金明利在美國前總統唐納德·川普對習近平的直接呼籲之後獲釋。金明利是錫安教會的創始人，曾因其宗教活動而遭到中國政府的迫害。川普的呼籲被視為對金明利的釋放有所幫助。金明利的釋放對於中國的宗教自由運動和人權活動產生了重大影響。這一事件也引發了對中國政府對宗教自由的態度的關注。金明利的釋放可能會對未來的宗教活動和人權運動產生影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "56f42ee7",
+        "title": "澳洲調查神秘的太空球體出現在海灘",
+        "url": "https://www.bbc.co.uk/news/articles/c1jyydr7jnjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 05 Jul 2026 12:55:58 GMT",
+        "summary_zh": "澳洲官方正在調查位於昆士蘭州的福雷斯特海灘上發現的六塊太空碎片。這些碎片可能是從太空中墜落的，引起了民眾的好奇。澳洲官方正在努力找出這些碎片的來源，了解它們是如何來到地球上的。這一事件引起了許多人對太空探索和碎片的關注。目前，澳洲官方仍在調查中，尚未公布任何具體的發現或結論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "e6e87d4d",
         "title": "伊朗最高領袖缺席，高級官員出席阿亞圖拉葬禮",
@@ -102,20 +174,8 @@
         "published_at": "Sun, 05 Jul 2026 23:31:04 GMT",
         "summary_zh": "法國民族聯盟領袖馬琳·勒庞在2027年總統大選中領先民意調查，她現在將會知道自己能否參選。法國的政治氛圍正處於轉折點，勒庞的上訴判決將對未來的政治格局產生重大影響。勒庞的勝利將意味著她將能夠參加總統大選，挑戰現任總統，進一步加劇法國政治的緊張局勢。另一方面，如果勒庞的上訴被駁回，她將面臨嚴重的政治後果，可能會被禁止參選，從而影響她的政治前途。這一判決將對法國政治產生重大影響，影響法國未來的政治格局。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "d6092622",
-        "title": "越南打擊假冒名牌商品黑市，美國政府施壓",
-        "url": "https://www.bbc.co.uk/news/articles/cdx7zzywz7wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Sun, 05 Jul 2026 22:01:43 GMT",
-        "summary_zh": "越南近年來出現了假冒名牌商品的黑市熱潮，美國政府要求越南政府打擊這種行為。然而，越南民眾對此卻有不同的看法。越南政府面臨著如何平衡經濟發展與打擊黑市的難題。越南的黑市市場主要販售假冒的名牌商品，如手錶、包包等。這些商品來自於中國、韓國等地。越南政府已經開始採取措施打擊黑市行為，包括關閉黑市市場和拘捕涉案人員。然而，越南民眾對政府的措施卻有不同的看法。一些人認為政府的措施太過嚴厲，會對經濟發展造成負面影響。另一方面，越南政府也面臨著如何保護本國品牌的挑戰。越南政府正在努力平衡經濟發展與打擊黑市的需求。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "45c77bdd",
@@ -127,18 +187,6 @@
         "summary_zh": "關島因為超級颱風巴威的接近，政府已經下令疏散居民。預測颱風將於星期一登陸，風速可達每小時 160 公里，海浪高達 11 米。關島政府已經啟動颱風應急預案，居民被要求儘快疏散到安全地點。超級颱風巴威的來臨將會對關島造成嚴重的破壞，政府正在做好應對措施。關島居民應該儘快準備好，避免受到颱風的影響。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "56f42ee7",
-        "title": "澳洲調查神秘的太空球體出現在海灘",
-        "url": "https://www.bbc.co.uk/news/articles/c1jyydr7jnjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Sun, 05 Jul 2026 12:55:58 GMT",
-        "summary_zh": "澳洲官方正在調查位於昆士蘭州的福雷斯特海灘上發現的六塊太空碎片。這些碎片可能是從太空中墜落的，引起了民眾的好奇。澳洲官方正在努力找出這些碎片的來源，了解它們是如何來到地球上的。這一事件引起了許多人對太空探索和碎片的關注。目前，澳洲官方仍在調查中，尚未公布任何具體的發現或結論。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -178,6 +226,18 @@
         "ai_classified": true
       },
       {
+        "id": "cd4757ed",
+        "title": "佛羅里達共和黨議員稱將海地人遣返將是「巨大錯誤」",
+        "url": "https://www.theguardian.com/us-news/2026/jul/05/haitians-tps-republican-carlos-gimenez",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Sun, 05 Jul 2026 19:54:38 GMT",
+        "summary_zh": "佛羅里達州共和黨議員卡洛斯·吉梅內茲（Carlos Giménez）日前表示，將近 35 萬名海地人遣返回海地將是一個巨大錯誤。吉梅內茲是來自佛羅里達州的共和黨議員，也是古巴移民。他在與白宮的爭論中，表達了對海地人遣返的反對意見。根據美國最高法院的判決，美國政府可以終止海地人暫時保護身份（TPS）的法律保護。吉梅內茲認為，這將使 35 萬名海地人面臨危險的回國。吉梅內茲的意見與前總統川普政府的立場相反。吉梅內茲的說法引起了關注，他的意見可能會影響美國政府對海地人遣返的決定。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "c55446be",
         "title": "中東局勢降溫 OPEC+擬再度調升石油產量配額",
         "url": "https://www.cna.com.tw/news/aopl/202607050079.aspx",
@@ -190,18 +250,6 @@
         "ai_classified": true
       },
       {
-        "id": "f8484dd3",
-        "title": "中國地下教會領袖金明利獲釋",
-        "url": "https://www.bbc.co.uk/news/articles/c4gy51ky75vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Sun, 05 Jul 2026 05:58:21 GMT",
-        "summary_zh": "中國地下教會領袖金明利在美國前總統唐納德·川普對習近平的直接呼籲之後獲釋。金明利是錫安教會的創始人，曾因其宗教活動而遭到中國政府的迫害。川普的呼籲被視為對金明利的釋放有所幫助。金明利的釋放對於中國的宗教自由運動和人權活動產生了重大影響。這一事件也引發了對中國政府對宗教自由的態度的關注。金明利的釋放可能會對未來的宗教活動和人權運動產生影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "cf79a81e",
         "title": "美國至少25人死於極度高溫熱浪",
         "url": "https://www.theguardian.com/us-news/2026/jul/05/heatwave-deaths-weather",
@@ -211,6 +259,18 @@
         "summary_zh": "美國多州錄得歷史最高溫度，超過20州溫度超過攝氏38度。美國東部半島被一道高溫空氣盤覆蓋，導致數百萬人在美國獨立日週末和之後遭受極度高溫。截至週日，美國有超過1400萬人仍在受高溫警報影響。美國至少有25人因為高溫而喪生。這次高溫熱浪是氣候危機的又一次惡劣結果。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "059b3c32",
+        "title": "羅德里格斯辯護委內瑞拉地震應變措施　預估死亡人數將大幅上升",
+        "url": "https://www.theguardian.com/world/2026/jul/05/rodriguez-defends-venezuelas-emergency-earthquake-response-as-bodies-expected-to-soar",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Sun, 05 Jul 2026 21:50:42 GMT",
+        "summary_zh": "委內瑞拉臨時總統羅德里格斯（Rodríguez）辯護了該國對6月24日發生的雙重地震的應變措施，她堅稱該國不會陷入社會動盪。儘管許多委內瑞拉公民對美國支持的政府對這場災難的應變措施感到不滿，羅德里格斯仍然堅持該國的應變措施是適當的。目前已知有超過3,000人喪生，預估死亡人數將大幅上升。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -248,33 +308,33 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "cd4757ed",
-        "title": "佛羅里達共和黨議員稱將海地人遣返將是「巨大錯誤」",
-        "url": "https://www.theguardian.com/us-news/2026/jul/05/haitians-tps-republican-carlos-gimenez",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 05 Jul 2026 19:54:38 GMT",
-        "summary_zh": "佛羅里達州共和黨議員卡洛斯·吉梅內茲（Carlos Giménez）日前表示，將近 35 萬名海地人遣返回海地將是一個巨大錯誤。吉梅內茲是來自佛羅里達州的共和黨議員，也是古巴移民。他在與白宮的爭論中，表達了對海地人遣返的反對意見。根據美國最高法院的判決，美國政府可以終止海地人暫時保護身份（TPS）的法律保護。吉梅內茲認為，這將使 35 萬名海地人面臨危險的回國。吉梅內茲的意見與前總統川普政府的立場相反。吉梅內茲的說法引起了關注，他的意見可能會影響美國政府對海地人遣返的決定。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "059b3c32",
-        "title": "羅德里格斯辯護委內瑞拉地震應變措施　預估死亡人數將大幅上升",
-        "url": "https://www.theguardian.com/world/2026/jul/05/rodriguez-defends-venezuelas-emergency-earthquake-response-as-bodies-expected-to-soar",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 05 Jul 2026 21:50:42 GMT",
-        "summary_zh": "委內瑞拉臨時總統羅德里格斯（Rodríguez）辯護了該國對6月24日發生的雙重地震的應變措施，她堅稱該國不會陷入社會動盪。儘管許多委內瑞拉公民對美國支持的政府對這場災難的應變措施感到不滿，羅德里格斯仍然堅持該國的應變措施是適當的。目前已知有超過3,000人喪生，預估死亡人數將大幅上升。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "whitehouse": [
+      {
+        "id": "c021d650",
+        "title": "美國250週年：總統對美軍在奇帕瓦戰役勝利的賀辭",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/07/america-250-presidential-message-on-the-anniversary-of-the-battle-of-chippawa/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Sun, 05 Jul 2026 23:06:52 +0000",
+        "summary_zh": "今天，美國慶祝奇帕瓦戰役的250週年紀念日。1814年7月5日，美軍在奇帕瓦戰役中取得了決定性的勝利，擊敗了英軍。美國的早期共和國時期，美軍士兵在開放戰場上與英軍的老練軍隊交戰，並取得了勝利。隨著戰爭的進行，美國展開了對英國的攻勢，展現了其堅韌不拔的精神。這場勝利對美國的發展產生了深遠的影響，展示了美國人民的堅韌不拔和團結精神。總統在紀念日的賀辭中，讚揚了美軍的勇氣和英勇，表達了對美國人民的感謝。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "6352bc28",
+        "title": "總統對美國國家安全局成立日的賀辭",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-the-anniversary-of-the-united-states-secret-service/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Sun, 05 Jul 2026 23:02:52 +0000",
+        "summary_zh": "美國總統在美國國家安全局成立 161 週年之際，對該機構的員工致賀。美國國家安全局的員工以絕對的無私和低調的工作態度，保護美國領袖和保衛國家最重要的機構。通過他們的專業、堅定的警戒和對職責的堅定奉獻，他們真正證明了自己是「值得信任和信心的」。這些員工的工作對於維護國家安全和領袖安全至關重要。總統對這些員工的貢獻表示感謝和敬佩。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "308d8464",
         "title": "曼哈頓河上小型飛機著陸不順，八人獲救",
@@ -374,141 +434,55 @@
         "ai_classified": true
       }
     ],
-    "finance": [
-      {
-        "id": "b7d4cf88",
-        "title": "韓國考慮從晶片稅收風波中獲得增長基金",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-05/south-korea-eyes-growth-fund-from-chip-tax-windfall-yonhap-says",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-05 11:51:07",
-        "summary_zh": "韓國政府正在考慮利用晶片稅收風波中獲得的收益成立增長基金。根據Yonhap新聞社的報導，韓國政府計劃利用晶片稅收收入來支持國內的半導體產業發展，同時也會考慮成立增長基金來促進經濟增長。這一措施旨在幫助韓國半導體產業繼續保持競爭力，並且也會對韓國經濟產生正面影響。韓國政府的這一決定可能會對全球半導體產業產生影響，特別是對於韓國的競爭對手。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1840fe41",
-        "title": "SK Hynix尋求在29億美元的美國上市中獲得AI投資者的支持",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-05/sk-hynix-seeks-access-to-ai-investors-in-29-billion-us-listing",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-05 13:00:00",
-        "summary_zh": "SK Hynix正在計劃在美國上市，目標是籌集29億美元的資金。該公司計劃在美國證券交易委員會（SEC）提交上市申請，並將與投資者進行會議，包括那些關心人工智慧（AI）領域的投資者。SK Hynix是全球第二大記憶體晶片製造商，業務遍及全球各地。該公司的上市計劃將使它成為全球首家在美國上市的韓國半導體公司。這項計劃將使SK Hynix能夠籌集足夠的資金來發展人工智慧和雲計算等新興技術。然而，這項計劃也面臨著挑戰，包括美國政府對中國企業的制裁和全球半導體產業的競爭。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "65a7aa25",
-        "title": "美國銀行第三季度首選股包括這家串流媒體公司，預期股價上漲40% ",
-        "url": "https://www.cnbc.com/2026/07/05/bank-of-americas-top-picks-include-streaming-stock-with-40percent-upside.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-05 12:30:01",
-        "summary_zh": "美國銀行第三季度首選股包括Visa、沃爾瑪和Spotify。這些公司被認為具有優秀的財務表現和競爭優勢。Visa的業務持續擴張，沃爾瑪的線上業務快速發展，而Spotify的串流媒體服務在全球迅速擴展。這些公司的財務表現和市場前景都令人期待。美國銀行的分析師認為，這些公司的股價有很大的上漲空間，尤其是Spotify，預期股價上漲40%。這些選擇將為投資者提供一個良好的投資機會。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "c814fc10",
-        "title": "高盛指出這些低估的股票『充分準備』超越市場表現",
-        "url": "https://www.cnbc.com/2026/07/05/goldman-sachs-says-these-stocks-are-best-positioned-to-outperform.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-05 12:30:01",
-        "summary_zh": "高盛分析師指出，隨著第三季度展開，這些低估的股票將會取得明顯的收益。這些股票包括...... 但高盛並未披露具體的股票名稱。分析師認為，這些股票的價格低於其實際價值，具有出色的財務表現和強勁的成長潛力。高盛的評估表明，這些股票將會在未來的市場波動中表現出來色。這些股票的出色表現將會對投資者帶來收益。投資者應該密切關注這些股票的發展，為未來的投資做好準備。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "7a7a538f",
-        "title": "美元持久交易者轉向新興市場投資",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-05/carry-traders-shift-away-from-dollar-for-emerging-market-bets",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-05 12:30:00",
-        "summary_zh": "美元持久交易者正在轉向新興市場投資，放棄美元。根據市場分析師的報告，這些交易者正在將資金從美元轉移到新興市場的貨幣中，以投資新興市場的經濟成長。這種轉變是由於美元的疲弱和新興市場的強勁經濟成長引起的。分析師認為，這種轉變將對美元的價格產生重大影響，美元可能會繼續下跌。同時，新興市場的貨幣可能會上漲。這種轉變也將對全球金融市場產生影響，投資者需要密切關注美元和新興市場的動態。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "799a15af",
-        "title": "伯納德·阿諾爾特被判罰 2.25 億歐元稅款",
-        "url": "https://www.ft.com/content/5df9fa06-9719-4de5-b454-53b49346382d",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-07-05 12:28:32",
-        "summary_zh": "法國時尚巨頭路易威登集團主席伯納德·阿諾爾特被法國稅務局要求支付 2.25 億歐元稅款。根據法國稅務局的調查，阿諾爾特在 2001 年至 2007 年間未能正確申報其收入，導致他欠下的稅款。阿諾爾特的律師表示，他將上訴這一判決。這一事件顯示，富豪在稅務方面的隱私不再受到保護。這一判決對於富豪的稅務隱私和稅收透明度具有重要的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "b1fbb37e",
-        "title": "郵寄選票獲勝，但另一樣東西卻失去了",
-        "url": "https://www.bloomberg.com/opinion/articles/2026-07-05/watson-v-rnc-a-bittersweet-supreme-court-win-for-mail-voting",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-05 12:00:20",
-        "summary_zh": "郵寄選票制度在美國的推行已經取得了一定的成果，但在這個過程中，選民的參與和投票意願卻逐漸下降。根據最新的調查數據，選民的參與率已經下降了近 10%，這是自 1992 年以來的最低點。分析師認為，這可能是因為選民對郵寄選票制度的信任度下降，以及選民對政治的不滿情緒加劇。這一趨勢可能對未來的選舉產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8a5c04a5",
-        "title": "富國必須釋放土地、勞動力、能源和資本",
-        "url": "https://www.ft.com/content/33da8720-996b-49e3-a34a-61d33095c541",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-07-05 11:00:03",
-        "summary_zh": "在全球經濟面臨挑戰的時刻，富國被要求釋放土地、勞動力、能源和資本，以幫助發展中國家。這項要求是由於富國持有的資源和資產遠超於發展中國家，卻很少被用於幫助其他國家。釋放土地、勞動力、能源和資本可以幫助發展中國家建設基礎設施、提高生產力和創造就業機會。這項要求也呼籲富國應該改變其經濟政策，將更多資源用於發展中國家。然而，這項要求也引起了爭議，部分人認為富國的資源應該用於其自己的發展，而不是用於幫助其他國家。最終，富國的決定將決定發展中國家的未來。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4d2aa049",
-        "title": "FOMC會議記錄將揭示Warsh在聯邦儲備系統的首次亮相",
-        "url": "https://www.ft.com/content/5f184dec-dd7f-4bb9-acf2-b3e9765b4d99",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-07-05 11:00:03",
-        "summary_zh": "聯邦儲備系統(Fed)的新成員Warsh即將在FOMC會議記錄中登場。Warsh是一位經驗豐富的金融專家，曾擔任美聯儲理事會的成員。他加入Fed後，將會對美聯儲的政策和決策產生重大影響。FOMC會議記錄將會披露Warsh在會議中的表現和意見，讓人們能夠了解他在Fed的角色和影響。這將是Warsh在Fed的首次亮相，也是他在美聯儲政策決策中的重要一步。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "690ad92a",
-        "title": "如何Bending Spoons從衰弱品牌打造出23億美元的科技帝國",
-        "url": "https://www.ft.com/content/040aac86-f458-400b-a353-7ff2ee5aa34f",
-        "source": "FT Tech",
-        "category": "finance",
-        "published_at": "Sun, 05 Jul 2026 04:00:11 GMT",
-        "summary_zh": "Bending Spoons是一家以收購衰弱品牌為主的科技公司，近年來迅速壯大，成立於2015年，目前估值達23億美元。該公司通過收購衰弱品牌，將其轉型為成功企業，同時也推出自己的產品和服務。Bending Spoons的成功秘訣在於其對品牌的重視，以及對市場趨勢的敏感度。該公司的產品和服務包括了多個領域，如教育、遊戲、健康等。然而，Bending Spoons的快速壯大也引起了市場的關注，是否能夠持續發展成為一個長期的成功企業，仍待觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d1d3d488",
-        "title": "Uber暫停歐洲外送業務，轉焦點併購德國外送巨頭Delivery Hero",
-        "url": "https://www.ft.com/content/53f631ef-98e4-4eec-92e4-3dd023ed25f5",
-        "source": "FT Tech",
-        "category": "finance",
-        "published_at": "Sun, 05 Jul 2026 04:00:03 GMT",
-        "summary_zh": "Uber近期宣布暫停在歐洲推動外送業務，轉而將重心放在併購德國外送公司Delivery Hero上。這一決定被視為Uber對於外送市場的重新定位。Uber的外送業務曾經是該公司的重要收入來源，但近年來競爭激烈，Uber開始轉向其他業務。這一併購行動被視為Uber的戰略轉變，試圖在外送市場取得主導地位。然而，這一決定也引發了對Uber未來發展方向的疑慮。Uber的股價在近期曾經出現波動，投資者對於公司未來發展方向的不確定性也引發了關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
     "stock_tw": [
+      {
+        "id": "76164b36",
+        "title": "不要碰變放心摸！ 蘇俊賓：讓孩子用觸覺打開藝術的大門",
+        "url": "https://money.udn.com/money/story/5637/9605522",
+        "source": "經濟日報",
+        "category": "stock_tw",
+        "published_at": "Mon, 06 Jul 2026 10:01:09 +0800",
+        "summary_zh": "桃園市副市長蘇俊賓近日出席桃園市立兒童美術館「一樣不一樣（Same but Different）」特展開幕記者會。他表示，許多美術館典藏珍貴作品，容易讓初次接觸藝術的孩子因此緊張，甚至與藝術產生距離。蘇俊賓指出，桃園市立兒童美術館成立的初衷，就是希望打造一座真正屬於孩子、可以自在親近藝術的美術館，不讓「不要碰」成為孩子接觸藝術的第一道門檻。這次「一樣不一樣」特展，更完整實踐了這樣的理念。蘇俊賓表示，近期桃園兒童美術館推出的多項展覽，都展現藝術並非只為兒童而設計，同樣也能引發大人的共鳴。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9d43ef41",
+        "title": "飛向未來世界！全國兒少陶藝獎101件創作陶博館登場",
+        "url": "https://money.udn.com/money/story/5637/9608421",
+        "source": "經濟日報",
+        "category": "stock_tw",
+        "published_at": "Mon, 06 Jul 2026 10:01:07 +0800",
+        "summary_zh": "「2026全國兒少陶藝獎」以「飛向未來世界」為主題，透過兒童與青少年充滿創意的陶藝創作，描繪對未來生活的無限想像。展覽分為「平面彩繪類」及「立體雕塑類」兩大類組，共精選101件優秀創作展出。作品內容豐富多元，從浩瀚宇宙、未來城市、智慧科技，到環境永續、生態保育等議題皆有精彩詮釋。孩子們透過陶土與彩繪媒材，將想像化為具體作品，展現兼具創意、美感與人文關懷的未來藍圖。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2096c2e4",
+        "title": "創業教練石罡宇送暖臺南佳田 關懷弱勢兒少成長傳遞正能量",
+        "url": "https://money.udn.com/money/story/5637/9608995",
+        "source": "經濟日報",
+        "category": "stock_tw",
+        "published_at": "Mon, 06 Jul 2026 10:01:05 +0800",
+        "summary_zh": "在少子化與城鄉資源落差持續擴大的今日，偏鄉兒童更需要社會各界共同協助。石罡宇近日捐贈羽毛球拍及布袋戲偶予社團法人臺南市佳田社區關懷協會，為自己的家鄉臺南注入溫暖力量。石罡宇表示，自己曾協助過許多創業家，並成功打造自己的品牌與事業，但在社會的另一角落，弱勢團體卻沒有能力這樣做，必須靠個人、企業乃至社會一同協助，才有機會獲得安穩的生活。此次公益希望以自己的一份心意串連起地方的溫暖，同時也落實自己的社會企業責任。位於台南最北端的社團法人臺南市佳田社區關懷協會，長期關注社區人口老化、新住民家庭、單親家庭與身心障礙者家庭逐年增加的現況，故持續推動弱勢家庭兒童社區課後照顧及家庭關懷計畫。目前協會固定服務約36位國中、小學生，提供每日課業輔導、才藝課程、親子活動、寒暑假營隊及晚餐照顧等服務，希望讓孩子在安全且充滿關懷的環境中穩定成長，減輕家庭照顧壓力。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "aec446bf",
+        "title": "重南Fun書假登場 300元書香券200元開賣 邀民眾漫遊百年書街享閱讀時光",
+        "url": "https://money.udn.com/money/story/5637/9608447",
+        "source": "經濟日報",
+        "category": "stock_tw",
+        "published_at": "Mon, 06 Jul 2026 10:01:03 +0800",
+        "summary_zh": "重南書街是北臺灣閱讀重鎮，百年歷史的書街為推廣閱讀文化舉辦「重南Fun書假×拾光書屋」系列活動。活動中最受矚目的「重南書香券」即日起至7月26日止限量開賣，民眾只需200元即可購得價值300元的書香券，使用期限至8月31日。書街店家持續創新轉型，結合文創、咖啡與特色商業元素，打造兼具閱讀、人文與生活美學的文化場域。活動期間還同步推出「印象書街」集章活動，民眾可至各集章點領取空白明信片，走訪書街享受閱讀樂趣。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "eeea2408",
         "title": "AI掀記憶體缺貨潮 三星Q2營業利益增18倍",
@@ -518,8 +492,8 @@
         "published_at": "Mon, 06 Jul 2026 08:08:22 +0800",
         "summary_zh": "人工智慧（AI）需求持續成長，導致記憶體供不應求，進而推升晶片價格走高。三星電子預料，第2季營業利益將大增約18倍，創下歷史新高。這一趨勢可能是由於AI應用在各行各業的廣泛使用，需求量大幅增加，從而導致記憶體短缺。三星電子此前的財報表現亮眼，營業利益的增長將使公司的財務狀況更加強勁。然而，這一趨勢也可能對供應鏈產生壓力，可能導致晶片價格持續上漲。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "140e5308",
@@ -628,114 +602,6 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "7d0b8647",
-        "title": "台積電法說會7月16日登場 聚焦全年成長目標和資本支出",
-        "url": "https://www.cna.com.tw/news/afe/202607050077.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 05 Jul 2026 12:10:42 +0800",
-        "summary_zh": "台積電將於7月16日舉辦法人說明會，市場認為這是下半年景氣的風向球。今年台積電的美元營收成長目標、資本支出，以及先進製程訂價和先進封裝產能擴充等都是市場關注的重點。半導體業專家表示，這些內容對於了解台積電的發展方向和未來的市場趨勢具有重要意義。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e80df920",
-        "title": "台水7年降漏計畫AI助攻 115年底漏水率拚11.19%達成目標",
-        "url": "https://www.cna.com.tw/news/afe/202607050066.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 05 Jul 2026 11:33:19 +0800",
-        "summary_zh": "台水近年來推動為期7年的降低漏水率計畫，目前已經取得了顯著的成果。台水透過雙管齊下策略，首先由技術士初步聽音鎖定漏水點，再透過AI監測判定漏水區域，達到9成的準確率。這種方法不僅提高了查漏效率，也大大減少了人工查找的時間和成本。台水希望透過這種方法，能夠在115年底達成漏水率年度目標11.19%。這項計畫不僅能夠改善台水的漏水率，也能夠節省資源和減少對環境的影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6d9352b9",
-        "title": "大立光6月營收創13個月低 7月拉貨動能可望好一些",
-        "url": "https://www.cna.com.tw/news/afe/202607050065.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 05 Jul 2026 11:30:17 +0800",
-        "summary_zh": "大立光6月營收創13個月低，為新台幣37.12億元。公司表示，觀察7月拉貨動能可望較6月好一些。這意味著大立光可能會在未來幾個月內見到營收的改善。然而，公司沒有提供更多的細節，讓人們對未來的發展感到有些疑惑。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a0035046",
-        "title": "華爾街稱下半年股市有更大上漲空間，提醒不要蜂擁買這類股",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5494845",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 06 Jul 2026 07:09:36 +0800",
-        "summary_zh": "今年第二季美股的表現讓華爾街對下半年股市進一步上漲抱持預期。美國雅虎財經新聞週日（5日）報導，「這是牛市」：下半年股市將有更大上漲空間。貝爾德投資策略師羅斯梅菲爾德指出，股市的上漲與全球經濟復甦有關。全球經濟復甦將帶來投資機會，股市將繼續上漲。羅斯梅菲爾德還提醒投資者不要蜂擁買那些被市場過度炒作的股票，應該選擇那些有實質價值的股票。這樣才能真正享受股市的上漲。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "14eb750c",
-        "title": "錯過就慘了？專家示警50歲前沒做好3件事 恐淪下流老人",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5494872",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 06 Jul 2026 07:07:44 +0800",
-        "summary_zh": "隨著全球人口老化，很多人擔心自己在老年時會淪為下流老人。為了避免這種情況，日本理財專家提醒，50歲正是扭轉未來的關鍵時期。專家強調，這個時期是思考退休生活、重新檢視開銷及建立長期計畫的黃金時機。如果在這個時期沒有做好準備，可能會面臨嚴重的後果。因此，專家建議50歲前就開始規劃退休生活，包括思考退休後的收入來源、醫療保險和生活費用的安排。同時，也需要重新檢視自己的開銷，避免過度浪費和不必要的花費。最後，建立長期計畫是非常重要的，包括投資、儲蓄和財富規劃。這樣才能確保在老年時能夠安穩地生活。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c1c92f07",
-        "title": "南韓今起24小時交易 韓元外匯交易限制終結",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5490372",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 06 Jul 2026 06:53:16 +0800",
-        "summary_zh": "南韓將自7月6日起正式開放韓元24小時交易，終結實施數十年的外匯交易時段限制。這一變革象徵1997年亞洲金融風暴後建立的外匯管理制度正式邁入新階段。這一改變將對南韓的金融市場產生重大影響，可能帶來新的投資機會和風險。南韓政府表示，這一變革將促進金融市場的發展和全球化。然而，外匯市場的波動也可能對南韓的經濟產生影響。總體而言，這一變革將對南韓的金融市場和經濟產生重大影響，需要密切關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "495e97dc",
-        "title": "新建物強制設太陽能 3大疑慮免驚",
-        "url": "https://ec.ltn.com.tw/article/paper/1761509",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 06 Jul 2026 05:30:00 +0800",
-        "summary_zh": "台北市政府即將推出「建築物設置太陽光電發電設備標準」，針對民眾關心的安全、房價轉嫁與維運問題，太陽光電永續協會表示，新制都有相關嚴謹規定，民眾不用過度擔心。協會指出，新制將規定太陽能電廠的設計、材料、安裝和維護等方面，都有嚴格的標準和檢查機制，來確保太陽能電廠的安全和穩定運行。同時，協會也強調，房價轉嫁的問題，也會有相關的規定和檢查機制，來確保房東和租客的權益。目前，政府正在籌備相關法規和標準，預計下半年推出。太陽光電永續協會呼籲民眾不要過度擔心，相信政府會推出合理的標準和規定，來促進太陽能發展和應用。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "aca6ebc6",
-        "title": "金融三業獲利大噴發 年增22.25%創史上同期新高",
-        "url": "https://ec.ltn.com.tw/article/paper/1761485",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 06 Jul 2026 05:30:00 +0800",
-        "summary_zh": "金融三業今年前五月整體稅前盈餘大幅增加，衝上七五六九．三億元，年增22.25%。這一成績不僅創下史上同期新高，預計若無意外，全年獲利將超越2024年歷史高峰一兆五八六億元。根據金管會統計，金融三業的獲利占2024年獲利金額的71.49%。這一波金融三業的獲利大噴發，可能與市場的穩定和投資者的信心增強有關。金融三業的獲利大幅增加，對於整體經濟的影響可能是正面的。然而，未來的市場變化和政策調整將對金融三業的獲利產生影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c57b48ac",
-        "title": "南韓央行點名 個股槓桿ETF風險高",
-        "url": "https://ec.ltn.com.tw/article/paper/1761487",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 06 Jul 2026 05:30:00 +0800",
-        "summary_zh": "南韓央行週日發出警告，指出追蹤三星電子和SK海力士的個股槓桿式ETF風險高，可能加劇股市波動。這是繼南韓金融監督院之後，再有監管機構對這類高風險產品示警。南韓央行的警告，預計將進一步推進監管機構收緊對這類產品的投資要求。這類產品的風險高，可能對股市造成不穩定影響。南韓央行的警告，顯示監管機構正在關注這類產品的風險，並將採取措施來保護投資者。這將進一步加強對這類產品的監管，投資者需要謹慎評估風險並做出明智的投資決策。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "stock_us": [
@@ -748,8 +614,142 @@
         "published_at": "2026-07-05 12:30:01",
         "summary_zh": "在上千家股息支付公司中選擇合適的股票是個挑戰。華爾街分析師透過市場研究和分析，找出了幾家股息股票，能夠幫助投資者提升投資收益。這些分析師認為，這些股息股票的股息率高、公司財務穩定、股價穩定等特點，使得它們成為投資者的首選。投資者可以通過購買這些股息股票來獲得穩定的收入和長期投資收益。然而，投資者也需要注意市場風險和公司財務情況的變化，以確保投資收益的穩定性。",
         "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "b73237e7",
+        "title": "油價上漲，駕駛選擇普通汽油而非高檔汽油",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-05/drivers-shun-premium-gas-in-favor-of-regular-as-prices-bite",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-05 14:00:00",
+        "summary_zh": "隨著汽油價格不斷上漲，許多駕駛選擇使用普通汽油取代高檔汽油。根據最新數據顯示，汽油價格的上漲對駕駛的選擇產生了重大影響。許多駕駛認為，普通汽油的品質已經足以滿足日常行駛需求，因此選擇使用普通汽油以節省費用。這一趨勢的出現也引起了汽油業者的關注，業者認為，汽油價格的上漲將會對汽油需求產生重大影響。汽油業者正在努力尋找方法來應對這一挑戰，包括提高效率和降低成本。然而，這一趨勢的長期影響仍然存疑。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "57c30781",
+        "title": "Macquarie稱現在是買入中國AI晶片股的最佳時機，這一家是它的首選",
+        "url": "https://www.cnbc.com/2026/07/05/macquarie-says-now-is-best-time-to-buy-chinese-ai-chip-stocks-heres-its-favorite.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-05 13:01:38",
+        "summary_zh": "澳洲投資銀行Macquarie最近開始對五家製造人工智慧晶片的中國公司進行研究覆蓋。根據Macquarie的分析，目前是買入中國AI晶片股的最佳時機。其中一家公司被Macquarie評為首選。這些公司的晶片用於人工智慧應用，包括深度學習和自然語言處理等領域。Macquarie認為，這些公司的業務正處於快速增長的階段，投資人可以從中獲取豐厚回報。然而，中國政府對AI產業的政策變化可能會對這些公司的業務產生影響。投資人需要密切關注這些政策變化的發展。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
+      },
+      {
+        "id": "1840fe41",
+        "title": "SK Hynix尋求在29億美元的美國上市中獲得AI投資者的支持",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-05/sk-hynix-seeks-access-to-ai-investors-in-29-billion-us-listing",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-05 13:00:00",
+        "summary_zh": "SK Hynix正在計劃在美國上市，目標是籌集29億美元的資金。該公司計劃在美國證券交易委員會（SEC）提交上市申請，並將與投資者進行會議，包括那些關心人工智慧（AI）領域的投資者。SK Hynix是全球第二大記憶體晶片製造商，業務遍及全球各地。該公司的上市計劃將使它成為全球首家在美國上市的韓國半導體公司。這項計劃將使SK Hynix能夠籌集足夠的資金來發展人工智慧和雲計算等新興技術。然而，這項計劃也面臨著挑戰，包括美國政府對中國企業的制裁和全球半導體產業的競爭。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "65a7aa25",
+        "title": "美國銀行第三季度首選股包括這家串流媒體公司，預期股價上漲40% ",
+        "url": "https://www.cnbc.com/2026/07/05/bank-of-americas-top-picks-include-streaming-stock-with-40percent-upside.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-05 12:30:01",
+        "summary_zh": "美國銀行第三季度首選股包括Visa、沃爾瑪和Spotify。這些公司被認為具有優秀的財務表現和競爭優勢。Visa的業務持續擴張，沃爾瑪的線上業務快速發展，而Spotify的串流媒體服務在全球迅速擴展。這些公司的財務表現和市場前景都令人期待。美國銀行的分析師認為，這些公司的股價有很大的上漲空間，尤其是Spotify，預期股價上漲40%。這些選擇將為投資者提供一個良好的投資機會。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c814fc10",
+        "title": "高盛指出這些低估的股票『充分準備』超越市場表現",
+        "url": "https://www.cnbc.com/2026/07/05/goldman-sachs-says-these-stocks-are-best-positioned-to-outperform.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-05 12:30:01",
+        "summary_zh": "高盛分析師指出，隨著第三季度展開，這些低估的股票將會取得明顯的收益。這些股票包括...... 但高盛並未披露具體的股票名稱。分析師認為，這些股票的價格低於其實際價值，具有出色的財務表現和強勁的成長潛力。高盛的評估表明，這些股票將會在未來的市場波動中表現出來色。這些股票的出色表現將會對投資者帶來收益。投資者應該密切關注這些股票的發展，為未來的投資做好準備。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7a7a538f",
+        "title": "美元持久交易者轉向新興市場投資",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-05/carry-traders-shift-away-from-dollar-for-emerging-market-bets",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-05 12:30:00",
+        "summary_zh": "美元持久交易者正在轉向新興市場投資，放棄美元。根據市場分析師的報告，這些交易者正在將資金從美元轉移到新興市場的貨幣中，以投資新興市場的經濟成長。這種轉變是由於美元的疲弱和新興市場的強勁經濟成長引起的。分析師認為，這種轉變將對美元的價格產生重大影響，美元可能會繼續下跌。同時，新興市場的貨幣可能會上漲。這種轉變也將對全球金融市場產生影響，投資者需要密切關注美元和新興市場的動態。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "799a15af",
+        "title": "伯納德·阿諾爾特被判罰 2.25 億歐元稅款",
+        "url": "https://www.ft.com/content/5df9fa06-9719-4de5-b454-53b49346382d",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-07-05 12:28:32",
+        "summary_zh": "法國時尚巨頭路易威登集團主席伯納德·阿諾爾特被法國稅務局要求支付 2.25 億歐元稅款。根據法國稅務局的調查，阿諾爾特在 2001 年至 2007 年間未能正確申報其收入，導致他欠下的稅款。阿諾爾特的律師表示，他將上訴這一判決。這一事件顯示，富豪在稅務方面的隱私不再受到保護。這一判決對於富豪的稅務隱私和稅收透明度具有重要的影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b1fbb37e",
+        "title": "郵寄選票獲勝，但另一樣東西卻失去了",
+        "url": "https://www.bloomberg.com/opinion/articles/2026-07-05/watson-v-rnc-a-bittersweet-supreme-court-win-for-mail-voting",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-05 12:00:20",
+        "summary_zh": "郵寄選票制度在美國的推行已經取得了一定的成果，但在這個過程中，選民的參與和投票意願卻逐漸下降。根據最新的調查數據，選民的參與率已經下降了近 10%，這是自 1992 年以來的最低點。分析師認為，這可能是因為選民對郵寄選票制度的信任度下降，以及選民對政治的不滿情緒加劇。這一趨勢可能對未來的選舉產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b7d4cf88",
+        "title": "韓國考慮從晶片稅收風波中獲得增長基金",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-05/south-korea-eyes-growth-fund-from-chip-tax-windfall-yonhap-says",
+        "source": "Bloomberg Tech",
+        "category": "finance",
+        "published_at": "Sun, 05 Jul 2026 11:51:07 GMT",
+        "summary_zh": "韓國政府正在考慮利用晶片稅收風波中獲得的收益成立增長基金。根據Yonhap新聞社的報導，韓國政府計劃利用晶片稅收收入來支持國內的半導體產業發展，同時也會考慮成立增長基金來促進經濟增長。這一措施旨在幫助韓國半導體產業繼續保持競爭力，並且也會對韓國經濟產生正面影響。韓國政府的這一決定可能會對全球半導體產業產生影響，特別是對於韓國的競爭對手。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "690ad92a",
+        "title": "如何Bending Spoons從衰弱品牌打造出23億美元的科技帝國",
+        "url": "https://www.ft.com/content/040aac86-f458-400b-a353-7ff2ee5aa34f",
+        "source": "FT Tech",
+        "category": "finance",
+        "published_at": "Sun, 05 Jul 2026 04:00:11 GMT",
+        "summary_zh": "Bending Spoons是一家以收購衰弱品牌為主的科技公司，近年來迅速壯大，成立於2015年，目前估值達23億美元。該公司通過收購衰弱品牌，將其轉型為成功企業，同時也推出自己的產品和服務。Bending Spoons的成功秘訣在於其對品牌的重視，以及對市場趨勢的敏感度。該公司的產品和服務包括了多個領域，如教育、遊戲、健康等。然而，Bending Spoons的快速壯大也引起了市場的關注，是否能夠持續發展成為一個長期的成功企業，仍待觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d1d3d488",
+        "title": "Uber暫停歐洲外送業務，轉焦點併購德國外送巨頭Delivery Hero",
+        "url": "https://www.ft.com/content/53f631ef-98e4-4eec-92e4-3dd023ed25f5",
+        "source": "FT Tech",
+        "category": "finance",
+        "published_at": "Sun, 05 Jul 2026 04:00:03 GMT",
+        "summary_zh": "Uber近期宣布暫停在歐洲推動外送業務，轉而將重心放在併購德國外送公司Delivery Hero上。這一決定被視為Uber對於外送市場的重新定位。Uber的外送業務曾經是該公司的重要收入來源，但近年來競爭激烈，Uber開始轉向其他業務。這一併購行動被視為Uber的戰略轉變，試圖在外送市場取得主導地位。然而，這一決定也引發了對Uber未來發展方向的疑慮。Uber的股價在近期曾經出現波動，投資者對於公司未來發展方向的不確定性也引發了關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ]
   },
