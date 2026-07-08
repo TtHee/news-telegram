@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-09T04:07:44.451003+08:00",
+  "generated_at": "2026-07-09T05:07:55.986319+08:00",
   "risk_signals": [
     "🟡 台股加權 45479.11（下跌 -2.31%，留意）",
     "🟢 S&P 500 7482.71（正常）",
-    "🟢 VIX 恐慌指數 16.8（正常）",
-    "🟢 MOVE 債市波動 70.25（正常）",
-    "🟢 美元指數 100.97（正常）",
-    "🟢 黃金 4091.6（正常）",
+    "🟢 VIX 恐慌指數 16.9（正常）",
+    "🟢 MOVE 債市波動 72.41（正常）",
+    "🟢 美元指數 101.07（正常）",
+    "🟢 黃金 4087.5（正常）",
     "🟡 美債10Y殖利率 4.57（留意）",
-    "🔴 原油 WTI 74.06（急漲 +5.14%，市場避險）",
-    "🟢 美元/台幣 32.04（正常）"
+    "🔴 原油 WTI 74.7（急漲 +6.05%，市場避險）",
+    "🟢 美元/台幣 32.05（正常）"
   ],
-  "ai_summary": "市場氛圍偏向於避險，原油大幅上漲，美元指數和台股下跌，美債10年殖利率也值得留意。",
+  "ai_summary": "市場氛圍偏於偏保守，原油急漲引發市場避險情緒，台股下跌超過2%。美債10年殖利率持續上升，可能影響市場投資氣氛。",
   "market": {
     "TWII": {
       "price": 45479.11,
@@ -26,326 +26,72 @@
       "change_pct": 0.2
     },
     "VIX": {
-      "price": 16.8,
-      "change_pct": 4.15
+      "price": 16.9,
+      "change_pct": 4.77
     },
     "TNX": {
       "price": 4.57,
       "change_pct": 0.88
     },
     "MOVE": {
-      "price": 70.25,
-      "change_pct": 7.42
+      "price": 72.41,
+      "change_pct": 10.72
     },
     "DXY": {
-      "price": 100.97,
-      "change_pct": -0.17
+      "price": 101.07,
+      "change_pct": -0.06
     },
     "GOLD": {
-      "price": 4091.6,
-      "change_pct": -1.3
+      "price": 4087.5,
+      "change_pct": -1.39
     },
     "OIL": {
-      "price": 74.06,
-      "change_pct": 5.14
+      "price": 74.7,
+      "change_pct": 6.05
     },
     "USDTWD": {
-      "price": 32.04,
-      "change_pct": -0.29
+      "price": 32.05,
+      "change_pct": -0.28
     }
   },
   "macro": {},
   "categories": {
-    "global": [
-      {
-        "id": "36492bb6",
-        "title": "印尼垃圾山火災超過一週未熄",
-        "url": "https://www.bbc.co.uk/news/articles/c1ly1vddj6qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 04:22:48 GMT",
-        "summary_zh": "印尼一座垃圾山已經燃燒超過一週，環境活動家表示，這場大火是該國日益惡化的垃圾危機的症狀。印尼政府面臨著嚴重的垃圾問題，許多垃圾被丟棄在山上，導致環境污染和生態破壞。這場大火不僅影響當地的生態系統，也影響當地居民的健康和生活質量。環境活動家呼籲政府應該採取積極措施解決垃圾問題，並提高垃圾處理的標準。印尼政府應該立即採取行動，防止這種情況再次發生，保護環境和居民的健康。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f5d76a94",
-        "title": "CNBC每日開市報導：北約峰會，美軍對伊朗發動新一波攻擊，勒庞再次回歸",
-        "url": "https://www.cnbc.com/2026/07/08/dispatch-from-nato-us-strikes-iran-and-le-pen-is-back.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-07-08 05:34:39",
-        "summary_zh": "北約峰會期間，美軍與盟友之間的緊張關係達到新高。伊朗方面，美軍發動新一波攻擊，威脅著伊朗與伊拉克之間的停火協議。這些事件的背後，顯示出美軍與伊朗之間的緊張關係持續加劇。這種局勢不僅影響伊朗的內部穩定，也對全球安全格局產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "05b30d16",
-        "title": "孟加拉國南部山泥傾瀉事件：8人喪生，多名學生被困",
-        "url": "https://www.bbc.co.uk/news/articles/cx2wkzww20ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 14:02:54 GMT",
-        "summary_zh": "孟加拉國南部遭受暴雨侵襲，山泥傾瀉事件發生在一所女校，造成8人死亡，多名學生被困在泥土中。救援人員正在努力挖掘泥土，尋找生還者。這次山泥傾瀉事件是由於暴雨引起的，南部地區多年來一直面臨著嚴重的洪水和山泥傾瀉問題。這次事件的影響將會對當地居民和學生造成重大打擊。預計救援工作將會持續進行，直到所有生還者被找到。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "67672725",
-        "title": "美國對伊朗軍事船隻和沿岸設施進行空襲",
-        "url": "https://www.bbc.co.uk/news/videos/cn94nqzwpxwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 05:42:37 GMT",
-        "summary_zh": "美國對伊朗發動空襲，原因是伊朗對霍爾木茲海峽三艘油輪發動攻擊。這次空襲針對伊朗的軍事船隻和沿岸設施。美國此舉是為了應對伊朗的攻擊，保護海上交通安全。這次事件可能會引發中東地區的緊張局勢，影響地區的穩定。美國的行動可能會對伊朗產生重大影響，進一步加劇兩國之間的緊張關係。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7a6f9273",
-        "title": "澳大利亞最大電信公司遭遇大規模停機，火車和緊急電話服務受影響",
-        "url": "https://www.bbc.co.uk/news/articles/cgevw0d95pdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 07:53:37 GMT",
-        "summary_zh": "澳大利亞最大電信公司最近遭遇了大規模停機事件，影響了該國的火車和緊急電話服務。事件發生在悉尼和墨爾本的數據中心，目前仍未確定停機的原因。這一事件對澳大利亞的運輸和緊急服務造成了重大影響，當局正在努力恢復服務。停機事件的影響範圍包括了火車和緊急電話服務，許多人被迫暫時停用自己的手機和電腦。澳大利亞政府和電信公司正在共同努力，恢復服務並確定停機原因。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e8a4c865",
-        "title": "亞利桑那州一歲半男嬰在醫院屍房被發現存活",
-        "url": "https://www.bbc.co.uk/news/articles/cvg5x0vvrmro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 16:12:50 GMT",
-        "summary_zh": "一名18個月大的男嬰在亞利桑那州被誤判為溺水死亡，事實上他仍然存活。男嬰被運送至另一家醫院接受治療，並最終存活下來。這一事件引起了關注，醫療機構應該如何避免類似錯誤發生。這一事件也讓人們重新思考醫療人員的判斷和處理程序。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f691c23d",
-        "title": "中東戰火再起 歐股收跌油價升",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5498868",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 00:30:05 +0800",
-        "summary_zh": "中東地區再度爆發戰火，美國總統川普宣布與伊朗的停火協議已經結束。由此引發的國際局勢緊張，導致歐洲主要股市今天收跌。倫敦的FTSE 100指數下跌1.66%，收在10489.04點。法蘭克福的德國DAX指數也下跌2.13%。此外，國際油價因戰火加劇而大幅升高。美國原油價格升至每桶66.27美元，布倫特原油價格則升至每桶64.45美元。這些變化都表明，中東戰火的影響已經開始擴散到全球金融市場。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "b94853c0",
-        "title": "澳洲碼頭工人要求28小時工作週在AI談判中提出",
-        "url": "https://www.bbc.co.uk/news/articles/cd95wendvdeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 06:06:12 GMT",
-        "summary_zh": "澳洲的碼頭工人正在與工會談判，要求工作週縮短至28小時。工會表示，這些工人正面臨機器人自動化的威脅，AI技術正在被測試在各個港口。工會認為，這些工人需要保護，免於被自動化取代。工會正在努力爭取工人的權益和福利，包括工作時間和薪水的改善。這項爭議正在澳洲各個港口引起關注，工會和雇主的談判正在進行中。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8659cc85",
-        "title": "波音737客機失聯　巴基斯坦海岸搜索行動展開",
-        "url": "https://www.bbc.co.uk/news/articles/cn4dn1d55njo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 01:11:50 GMT",
-        "summary_zh": "一架載有五人之波音737客機，據當局稱，該機迅速下降後失聯。巴基斯坦當局已啟動搜索行動，試圖尋找失聯客機的下落。這起事件引起了國際社會的關注，各方都在等待更多的消息。失聯客機的原因尚未明確，但當局已展開調查，試圖找出真相。這起事件可能會對巴基斯坦航空業造成重大影響，同時也會引起全球航空業的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "154aef94",
-        "title": "颱風來臨，中國水灾加劇，罕見的龍捲風襲擊",
-        "url": "https://www.bbc.co.uk/news/articles/c79ygnv9e93o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 00:49:07 GMT",
-        "summary_zh": "中國近日遭遇颱風侵襲，導致水灾加劇，許多村莊被淹沒。受災村民向BBC表示，家人被困在外，難以獲得食物和幫助。這場颱風還引發罕見的龍捲風，造成嚴重破壞。中國政府正在努力應對災情，提供援助和救援。水灾和龍捲風的影響將持續時間不短，受災村民的生活將面臨嚴重挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ed86833c",
-        "title": "從信仰到科技：印度富豪轉向科學捐助",
-        "url": "https://www.bbc.co.uk/news/articles/cvg5388xpv9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 07 Jul 2026 22:07:18 GMT",
-        "summary_zh": "印度富豪開始轉變捐助方向，從傳統的宗教信仰轉向科學研究。這一變化標誌著印度富豪捐助方式的重大轉折。根據最新的數據，印度富豪開始增加對科學研究的捐助，尤其是對純粹科學領域的支持。這一趨勢表明，印度富豪開始重視科學研究的重要性，並願意投資於科學發展。這一變化不僅對科學研究產生了積極的影響，也對印度的整體發展產生了深遠的影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "90e685c0",
-        "title": "烏克蘭將獲得許可生產帕特里奧飛彈，川普表示",
-        "url": "https://www.bbc.co.uk/news/articles/ce8klree690o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 17:18:14 GMT",
-        "summary_zh": "烏克蘭將獲得許可生產帕特里奧飛彈，這是由川普宣布的最新消息。帕特里奧飛彈在對抗俄羅斯的彈道飛彈時表現出色，但生產時間卻相當長久。這一消息對於烏克蘭的軍事能力將產生重大影響，同時也會對俄羅斯的軍事行動產生一定的影響。烏克蘭的軍事力量正在得到增強，這將對地區的安全格局產生重大變化。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "dd466c99",
-        "title": "德國醫生被判刑殺害15名病人",
-        "url": "https://www.bbc.co.uk/news/articles/cq819jyp2g7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 14:25:25 GMT",
-        "summary_zh": "德國一名專門從事終末照護的醫生，於2021年9月至2024年7月間，被判犯有殺害12名女性和3名男性病人的罪行。這名醫生被認為利用其職業權力，對病人施加了不當的影響。這起案件引發了對醫生職業倫理和終末照護的關注。德國政府和醫療界對此事件的反應表明，將加強對醫生的監控和倫理教育，以防止類似事件再次發生。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9bee707f",
-        "title": "13歲女孩遭德國中學攻擊，兩人嚴重受傷，警方展開大規模調查",
-        "url": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 15:09:08 GMT",
-        "summary_zh": "德國巴伐利亞州的史高恩高中的學生遭到攻擊，兩名13歲的女孩受傷。警方表示正在展開大規模調查，目前尚未公布攻擊者的身份或動機。事件發生在巴伐利亞州的史高恩高中，警方已經展開了大規模的行動，正在調查事件的原因和攻擊者的身份。受傷的兩名女孩被送往醫院接受治療，目前狀況嚴重。這起事件引起了社會的關注和恐慌，警方已經開始調查和處理此案件。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "81deefdb",
-        "title": "北約盟友宣布37億英鎊資助新導彈計畫",
-        "url": "https://www.bbc.co.uk/news/articles/ckg4e3lwzqzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 05:57:53 GMT",
-        "summary_zh": "英國首相史提夫·史達默（Sir Keir Starmer）將在安卡拉召開會議，與約有十餘名領導人討論新導彈計畫。這項計畫獲得北約盟友的37億英鎊資助。新導彈計畫將在未來幾年內實施，目標是增強北約的防禦能力。這項資助將幫助北約盟友共同發展和製造新導彈系統。這項計畫的實施將對北約盟友的安全和防禦能力產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2ea5f7d8",
-        "title": "尼日利亞總統要求了解假冒機構在其辦公室的真相",
-        "url": "https://www.bbc.co.uk/news/articles/c621xrrp6jeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 17:31:47 GMT",
-        "summary_zh": "尼日利亞總統要求了解尼日利亞副總統府的一名官員，Adeniyi Adeyemi，是否真的在總統辦公室設立了一個假冒機構。據報導，Adeyemi被指控伪造了一份任命書，並取得了總統辦公室不知情的資金支持。這一事件引發了對總統辦公室管理和財務透明度的質疑。總統要求了解這一事件的真相，並要求相關部門進行調查。這一事件可能會對尼日利亞政府的信譽和效率產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bf73d6ef",
-        "title": "卡梅尼的棺材在伊拉克的什葉派聖地被抬過去，為他舉行五天的葬禮",
-        "url": "https://www.bbc.co.uk/news/articles/cp9le3kjj8eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 14:56:24 GMT",
-        "summary_zh": "伊朗前最高領袖卡梅尼的遺體被運往伊拉克的納傑夫和卡爾巴拉，為他舉行的五天葬禮繼續進行。這些城市都是什葉派穆斯林的聖地。伊拉克政府和伊朗政府都在這些城市的葬禮中發揮了重要作用。卡梅尼的葬禮在伊朗和伊拉克引起了廣泛的關注，許多人參與了葬禮。卡梅尼的葬禮是什葉派穆斯林的重要儀式，也是伊朗和伊拉克的政治和宗教事件。伊朗和伊拉克政府的關係在卡梅尼的葬禮中也受到關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7e993e66",
-        "title": "古巴民眾抗議第三次全國停電",
-        "url": "https://www.bbc.co.uk/news/articles/cm20g0d3ry4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 10:56:55 GMT",
-        "summary_zh": "古巴民眾因為今年第三次全國停電而感到憤怒。古巴官員表示，電力已經基本恢復，但仍有許多人處於黑暗中。這次停電事件引發了民眾的不滿，古巴民眾在社交媒體上表達了對政府的不滿。停電事件也引發了對古巴能源系統的關注，許多人質疑政府的管理能力。這次停電事件是今年第三次，全國停電的影響很大，許多人在社交媒體上分享了停電的照片和故事。古巴政府已經承諾會改善能源系統，但民眾仍對政府的承諾表示質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "30d8137d",
-        "title": "猶他州寄宿學校遭撤牌，巴黎希爾頓指控曾遭虐待",
-        "url": "https://www.bbc.co.uk/news/articles/cjdg4r3k3emo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 01:51:09 GMT",
-        "summary_zh": "猶他州一間寄宿學校因巴黎希爾頓在少年時期遭虐待的指控而被撤牌。巴黎希爾頓表示該學校「對孩子們失敗」，監管機構指出該學校存在忽視和過度限制行為。該學校曾被指控虐待巴黎希爾頓和其他學生，導致多名學生受傷。這一事件引發了對兒童福利和學校管理的關注。監管機構的決定表明，該學校的管理和服務質量不夠，無法提供學生安全和舒適的環境。這一事件也引發了對學校管理和兒童保護的呼籲，要求政府和學校機構提高對兒童福利的關注和保護。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7008381b",
-        "title": "被遺忘的主辦國加拿大，卻留下了難忘的世界盃",
-        "url": "https://www.bbc.co.uk/news/articles/cj4gpx7rlj5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 11:15:31 GMT",
-        "summary_zh": "加拿大與墨西哥共同主辦世界盃，該國的主辦權已經結束，同時也結束了國家隊在這個賽事上的旅程。這個賽事對加拿大國家隊來說是一個充滿事件的旅程。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "14211051",
-        "title": "視頻：紐約高樓建築內觀察到弯曲的支撐梁",
-        "url": "https://www.bbc.co.uk/news/videos/c7vygmmdyr8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 00:11:48 GMT",
-        "summary_zh": "紐約一座正在建設中的高樓建築因報告指出有砖塊坠落而被疏散。周圍的建築物也被疏散。這座建築的支撐梁出現弯曲的情況，引起了關注。建築物的安全性受到質疑。建築物的建設公司和當地政府正在調查此事。這起事件可能會對建築物的安全性和可靠性產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
     "whitehouse": [
-      {
-        "id": "558f4888",
-        "title": "川普稱停火已經結束 美伊兩國互相轟炸",
-        "url": "https://www.bbc.co.uk/news/articles/clyw8w1g409o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 08 Jul 2026 18:05:31 GMT",
-        "summary_zh": "美國總統川普在北約峰會前表示，美國與伊朗之間的停火已經結束。雖然如此，川普仍然表示美國的談判代表可以繼續與伊朗進行溝通，如果伊朗願意。這番話出自川普在北約峰會前發表的演說中。川普的表態顯示，美國政府仍然對伊朗的行動保持著高度警覺，並且準備好應對任何可能的發展。伊朗方面對川普的表態沒有立即回應。這次停火的結束可能會對地區局勢造成重大影響，美國政府仍然需要密切關注伊朗的行動。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8a371815",
-        "title": "新視頻在柯克聽證會上顯示：男子在射擊現場附近的屋頂上",
-        "url": "https://www.bbc.co.uk/news/articles/cr5j983p046o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 08 Jul 2026 02:46:14 GMT",
-        "summary_zh": "本案的預備聽證會將決定是否讓被指控殺害保守派活動家查理·柯克（Charlie Kirk）的泰勒·羅賓遜（Tyler Robinson）接受審判。根據最新的視頻記錄，泰勒·羅賓遜被指控在美國某地的屋頂上觀察射擊現場。這些視頻可能對案件的進展產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
       {
         "id": "05a43ad5",
         "title": "緬因州民主黨指控普拉特納團隊試圖「扳動選票」選出新候選人",
         "url": "https://www.theguardian.com/us-news/live/2026/jul/08/graham-platner-democrats-senate-bernie-sanders-maine-donald-trump-us-politics-live",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Wed, 08 Jul 2026 19:54:05 GMT",
+        "published_at": "Wed, 08 Jul 2026 20:55:17 GMT",
         "summary_zh": "緬因州民主黨指控普拉特納的團隊試圖影響選舉結果，要求他在 13 日前辭去參議員職位。民主黨若要替換普拉特納的候選人，需要在 13 日前完成程序。根據目前的情況，民主黨需要在 13 日前完成程序，才能替換普拉特納的候選人。這項程序需要得到州政府的批准，才能進行。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "1ddd26b7",
+        "title": "第四名人士在川普的反犯罪任務組行動中喪生",
+        "url": "https://www.theguardian.com/us-news/2026/jul/08/memphis-federal-anticrime-agents-kill-man",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 08 Jul 2026 20:00:12 GMT",
+        "summary_zh": "川普在去年通過行政命令成立的聯邦反犯罪任務組自9月份啟動以來，已經有四名人士在任務行動中喪生。其中最近一次發生在一間長住酒店，聯邦執法機構與美孚警察合作進行藥物管制執法行動。這是自任務組成立以來第四次發生涉及執法機構的死亡事件，所有四宗死亡事件發生在過去兩個月內。川普曾經聲稱民主黨控制的城市被犯罪浪潮侵襲，並派遣軍隊和聯邦執法機構增援。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "9cbc0b49",
+        "title": "白宮世界盃任務負責人辯護川普在Fifa上游說美國球員紅牌事件",
+        "url": "https://www.theguardian.com/us-news/2026/jul/08/trump-fifa-red-card",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 08 Jul 2026 19:56:32 GMT",
+        "summary_zh": "白宮世界盃任務負責人安德魯吉利亞尼（Andrew Giuliani）為川普在Fifa上游說美國球員佛拉林巴洛根（Folarin Balogun）紅牌事件辯護。川普指責巴西裁判拉斐爾克勞斯（Raphael Claus）在美國對波士尼亞和赫茲哥維納的比賽中對巴洛根出示紅牌，認為克勞斯有「很,很,很可疑」的行為。川普的言論可能是指巴西參議院在2024年對裁判分配的調查，但沒有指控克勞斯有任何不當行為。這樁事件引發了對川普在Fifa上游說的爭議。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "a17379ac",
@@ -356,8 +102,8 @@
         "published_at": "Wed, 08 Jul 2026 18:41:52 GMT",
         "summary_zh": "美國德克薩斯州，一名墨西哥移民洛倫佐·薩爾加多·阿勞霍 (Lorenzo Salgado Araujo) 在前往工作途中被聯邦移民局員工槍殺。他的家人在得知消息後從新聞報導中得知。洛倫佐的兒子羅納度·薩爾加多 (Ronaldo Salgado) 表示,「他不該死去」。聯合拉丁美洲公民聯盟 (League of United Latin American Citizens, Lulac) 在德克薩斯州休斯頓舉行記者會, 家人要求對洛倫佐的死亡進行獨立調查。聯邦官員的說法和缺乏透明度引發了眾多問題。家人要求對洛倫佐的死亡進行徹底調查, 並呼籲聯邦政府提供更多信息。洛倫佐的家人和支持者認為, 這一事件是移民政策的結果, 並呼籲改善移民政策, 以防止類似事件再次發生。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "6b926a60",
@@ -368,17 +114,17 @@
         "published_at": "Wed, 08 Jul 2026 18:38:24 GMT",
         "summary_zh": "美國總統唐納·川普在北約年度峰會的離開演說，展現出一種令人意想不到的愛恨交織。川普在記者會上，面對烏克蘭總理澤連斯基，突然表達對北約的愛意，這與他昨天的大部分時間都在批評北約的言論相反。川普提到了格陵蘭等問題，展現出他對北約的不滿。這種愛恨交織的表現，讓人們對川普的言論和行為感到困惑。這種情況出現在北約峰會上，讓人們對川普的未來行為感到懷疑。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
-        "id": "b186f49c",
-        "title": "民主黨人指控格雷厄姆·普拉特納試圖影響選舉過程",
-        "url": "https://www.theguardian.com/us-news/2026/jul/08/graham-platner-senate-calls-withdraw",
-        "source": "Guardian US",
+        "id": "8a371815",
+        "title": "新視頻在柯克聽證會上顯示：男子在射擊現場附近的屋頂上",
+        "url": "https://www.bbc.co.uk/news/articles/cr5j983p046o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "whitehouse",
-        "published_at": "Wed, 08 Jul 2026 14:35:54 GMT",
-        "summary_zh": "美國梅內州民主黨參選人格雷厄姆·普拉特納因性侵犯指控而面臨撤退要求。普拉特納否認這一指控，目前正在考慮是否繼續參選。民主黨人批評他試圖影響選舉過程，同時要求他退出競選。這一事件引起了梅內州選舉的關注，選民們正在等待普拉特納的下一步行動。",
+        "published_at": "Wed, 08 Jul 2026 02:46:14 GMT",
+        "summary_zh": "本案的預備聽證會將決定是否讓被指控殺害保守派活動家查理·柯克（Charlie Kirk）的泰勒·羅賓遜（Tyler Robinson）接受審判。根據最新的視頻記錄，泰勒·羅賓遜被指控在美國某地的屋頂上觀察射擊現場。這些視頻可能對案件的進展產生重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -401,7 +147,7 @@
         "url": "https://www.bbc.co.uk/news/articles/c05yq5nmqvno?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "whitehouse",
-        "published_at": "Wed, 08 Jul 2026 18:28:07 GMT",
+        "published_at": "Wed, 08 Jul 2026 20:31:22 GMT",
         "summary_zh": "美國最高法院拒絕聆聽特朗普對案件的上訴，但特朗普仍試圖延遲支付賠償金。這起案件涉及 E Jean Carroll 對特朗普性侵的訴訟，特朗普被判賠償 5 億美元。法官最近下令將這筆賠償金支付給 E Jean Carroll。這個判決對特朗普來說是一個重大打擊，表明他在這起案件中的法律地位正在逐步被削弱。這也可能對特朗普未來的政治前景產生影響。",
         "sentiment": "負面",
         "is_breaking": true,
@@ -458,13 +204,13 @@
         "ai_classified": true
       },
       {
-        "id": "779fe69a",
-        "title": "Meta 的新 Muse 圖像模型可以將其他 Instagram 用戶拉入 AI 圖片",
-        "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
-        "source": "The Verge AI",
+        "id": "5b99821b",
+        "title": "下載：蠕蟲抗污染、地理工程面臨現實",
+        "url": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
+        "source": "MIT Tech Review",
         "category": "ai",
-        "published_at": "2026-07-07T16:31:58-04:00",
-        "summary_zh": "Meta 宣布推出由 Superintelligence Labs 分部開發的首款 AI 圖像生成模型 - Muse 圖像模型。這款模型現在已經在 Meta AI 應用程式、Instagram 和 WhatsApp 上運行，並將於未來推出至 Facebook 和 Messenger。這是 Muse AI 家族的一部分，該家族正在快速擴展。 Muse 圖像模型能夠創造出高度真實的圖像，並且能夠將其他 Instagram 用戶拉入這些圖像中。這意味著用戶可以在照片中看到其他人，甚至能夠與他們互動。這項功能將會對社交媒體平台的互動方式產生重大影響。 Muse 圖像模型的推出標誌著人工智慧在社交媒體上的進一步應用。",
+        "published_at": "Wed, 08 Jul 2026 12:10:00 +0000",
+        "summary_zh": "蠕蟲和微生物正在被用作糞便污染的解決方案。根據報導，第三代加州奶農安東尼·阿古達（Anthony Agueda）正在用蠕蟲來處理糞便污染。他透露，蠕蟲可以在短時間內將糞便轉化為肥料。這項技術已經在加州的農場上試驗成功。另一方面，地理工程的實踐面臨著挑戰。雖然這項技術曾被提議用於減少氣候變化的影響，但它仍然面臨著許多問題，包括成本和效率。這些問題使得地理工程的實際應用變得更加困難。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -494,18 +240,6 @@
         "ai_classified": true
       },
       {
-        "id": "5b99821b",
-        "title": "下載：蠕蟲抗污染、地理工程面臨現實",
-        "url": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Wed, 08 Jul 2026 12:10:00 +0000",
-        "summary_zh": "蠕蟲和微生物正在被用作糞便污染的解決方案。根據報導，第三代加州奶農安東尼·阿古達（Anthony Agueda）正在用蠕蟲來處理糞便污染。他透露，蠕蟲可以在短時間內將糞便轉化為肥料。這項技術已經在加州的農場上試驗成功。另一方面，地理工程的實踐面臨著挑戰。雖然這項技術曾被提議用於減少氣候變化的影響，但它仍然面臨著許多問題，包括成本和效率。這些問題使得地理工程的實際應用變得更加困難。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "0a100d2e",
         "title": "Meta允許用戶從公共Instagram個人資料片生成AI圖像　隱私團體批評「災難的配方」",
         "url": "https://www.bbc.co.uk/news/articles/cp9lee19y1yo?at_medium=RSS&at_campaign=rss",
@@ -520,28 +254,112 @@
     ],
     "stock_tw": [
       {
-        "id": "83082f3a",
+        "id": "fd590329",
         "title": "蘋果與博通達成300億美元協議 響應川普本土製造政策",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5498882",
-        "source": "自由時報財經",
+        "url": "https://www.cna.com.tw/news/aopl/202607090007.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 01:54:03 +0800",
-        "summary_zh": "蘋果公司宣布與晶片公司博通達成300億美元的多年期協議，將在美國設計及生產晶片。這項協議是對川普政府本土製造政策的響應。博通將斥資15億美元擴建美國工廠，為蘋果提供晶片設計和製造服務。這項協議將幫助蘋果滿足川普政府的要求，提高美國晶片產業的競爭力。這項協議對於美國晶片產業的發展具有重要意義，同時也表明了蘋果對於本土製造的承諾。",
+        "published_at": "Thu, 09 Jul 2026 01:44:22 +0800",
+        "summary_zh": "蘋果公司宣布與晶片公司博通達成超過300億美元的多年期協議，將在美國設計及生產晶片。這項協議是對川普政府本土製造政策的回應。根據協議，蘋果將在美國設計及生產晶片，從而增加美國的晶片產業。這項政策將對美國的經濟產生重大影響，同時也將對全球晶片市場造成波瀾。蘋果的這一決定將對美國的晶片產業帶來新的機會和挑戰。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "7cc5cb5f",
-        "title": "中國擬允許頂尖AI公司購買有限輝達H200晶片",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5498876",
-        "source": "自由時報財經",
+        "id": "a064cf0d",
+        "title": "中國擬允許頂尖AI公司購買有限輝達晶片",
+        "url": "https://www.cna.com.tw/news/aopl/202607090005.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 01:06:03 +0800",
-        "summary_zh": "美國科技新聞網站The Information今天引述兩名知情人士報導，中國計畫允許國內頂尖人工智慧（AI）公司購買數量有限的輝達（NVIDIA）H200晶片。這一消息可能會對全球晶片市場產生影響。根據報導，中國政府正在考慮允許國內AI公司購買H200晶片，但這一決定仍未正式公佈。輝達H200晶片是一款高性能的GPU晶片，主要用於人工智慧、雲計算和高性能計算等領域。這一消息可能會對輝達的業務產生影響。",
+        "published_at": "Thu, 09 Jul 2026 00:52:17 +0800",
+        "summary_zh": "中國政府計畫允許國內頂尖人工智慧公司購買數量有限的輝達H200晶片。這項消息由美國科技新聞網站The Information引述兩名知情人士報導。這一決定可能是為了讓中國的AI研究和發展能夠繼續進行，但同時也引發了對美國晶片出口管制的擔憂。中國的AI公司可能會利用這項許可購買少量的輝達晶片，以便進行研究和開發。然而，這一決定也可能會讓美國政府感到擔憂，因為它可能會讓中國的AI能力增強。這一消息可能會對全球晶片市場和AI研究產生影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
+      },
+      {
+        "id": "d6db022e",
+        "title": "昇達科6月營收年增89% 看好上半年獲利優於去年全年",
+        "url": "https://www.cna.com.tw/news/afe/202607080380.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 08 Jul 2026 21:29:06 +0800",
+        "summary_zh": "昇達科技6月營收達新台幣2.57億元，較去年同期年增89%，但月減13%。公司表示，客戶改版遞延出貨導致營收下滑，但客戶也支付了訂單調整變動的補償金額，約等同於正常出貨可認列的獲利。儘管如此，上半年獲利仍有望優於去年全年。昇達科技的低軌衛星與毫米波通訊元件業務持續成長，公司展望上半年獲利的表現將會較去年全年更好。這項公告對於昇達科技的股價和未來發展將會產生重要影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "79bf0367",
+        "title": "人工智慧助選手遠離傷害 楊智偉創新科技公司",
+        "url": "https://www.cna.com.tw/news/aopl/202607080376.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 08 Jul 2026 21:12:57 +0800",
+        "summary_zh": "楊智偉是一位台灣裔美國人，第二代。 他在紐約創立了一家科技新創公司，利用人工智慧（AI）技術來分析運動動態。 透過這項技術，可以幫助運動員遠離傷害，並且根據數據來調整動作，從而提升表現。 這項技術的出現，對於運動員來說是一個重大進步。 因為它可以幫助他們避免受傷，並且提高競爭力。 楊智偉的創新公司，正是在這個領域取得了突破。 他們的技術已經被多個運動項目所採用。 這項技術的發展，將會對運動界造成重大影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c150b942",
+        "title": "群聯6月營收創新高 出貨價量齊揚",
+        "url": "https://www.cna.com.tw/news/afe/202607080370.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 08 Jul 2026 20:37:41 +0800",
+        "summary_zh": "群聯電子在6月營收方面創下歷史新高，達新台幣248.53億元，相較於去年同期增長超過300%。此外，6月出貨量及均價也同步增加，推動營收創高。群聯表示，這是由於市場需求的增加，尤其是在記憶體控制晶片的領域。這項成績也表明，群聯電子在全球市場上取得了良好的競爭力。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "02a07dc4",
+        "title": "中油遭監院糾正：精進廉政治理與內控機制",
+        "url": "https://www.cna.com.tw/news/afe/202607080369.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 08 Jul 2026 20:33:39 +0800",
+        "summary_zh": "監察院針對中油公司前煉製部執行長徐漢涉貪案進行糾正。中油公司表示，對不法行為一貫採取零容忍立場，並已將該案經驗納入公司治理全面檢討。公司將在既有改革基礎上，精進廉政治理與內控機制，以防止類似事件再次發生。這項糾正是中油公司面臨的另一項挑戰，需要公司積極改善其治理結構和內控機制。這項改善將對公司的聲譽和信譽產生重大影響，同時也將提高公司的透明度和責任感。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cbec1d76",
+        "title": "威盛擬買回2萬張庫藏股 每股48.65至90元",
+        "url": "https://www.cna.com.tw/news/afe/202607080364.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 08 Jul 2026 20:15:28 +0800",
+        "summary_zh": "威盛董事會決議，從7月9日起開始買回2萬張庫藏股。這批庫藏股的買回區間價格為每股48.65至90元。這項決定可能是威盛為了調整公司資本結構或是回購股權的一部分。買回庫藏股可能會對公司股價產生一定的影響，投資人應該密切關注這項動態。威盛的這項決定可能會對市場造成一定的波動，投資人應該做好準備。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0ed5efa7",
+        "title": "倍利科6月營收年增5成 千附實業增2倍",
+        "url": "https://www.cna.com.tw/news/afe/202607080363.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 08 Jul 2026 19:54:26 +0800",
+        "summary_zh": "倍利科與千附實業在6月營收方面均呈現亮眼表現。倍利科的營收達到新台幣2.53億元，年增率達50.72%。另一方面，千附實業的營收則達到6.63億元，年增率高達200.07%。這表明兩家公司的業務正逐步恢復和擴張。然而，市場仍需關注公司未來的營收趨勢和業績表現。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8ed17d05",
+        "title": "緯創6月營收創單月次高 英業達首破千億元創新高",
+        "url": "https://www.cna.com.tw/news/afe/202607080362.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 08 Jul 2026 19:45:24 +0800",
+        "summary_zh": "緯創公布6月合併營收約新台幣3218.22億元，月增10.9%、年增53.9%，創單月次高與歷年同期新高。受惠於人工智慧（AI）伺服器強勁需求，緯創的營收呈現快速增長。第2季合併營收8954.43億元，季增5.8%、年增62.4%，改寫單季新高。這表明緯創正在經歷著快速的成長，並且在全球的AI市場中佔有一席之地。然而，未來市場的變化和競爭的加劇將會對緯創的營收和成長產生影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "1517ef76",
@@ -676,90 +494,6 @@
         "ai_classified": true
       },
       {
-        "id": "d6db022e",
-        "title": "昇達科6月營收年增89% 看好上半年獲利優於去年全年",
-        "url": "https://www.cna.com.tw/news/afe/202607080380.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 08 Jul 2026 21:29:06 +0800",
-        "summary_zh": "昇達科技6月營收達新台幣2.57億元，較去年同期年增89%，但月減13%。公司表示，客戶改版遞延出貨導致營收下滑，但客戶也支付了訂單調整變動的補償金額，約等同於正常出貨可認列的獲利。儘管如此，上半年獲利仍有望優於去年全年。昇達科技的低軌衛星與毫米波通訊元件業務持續成長，公司展望上半年獲利的表現將會較去年全年更好。這項公告對於昇達科技的股價和未來發展將會產生重要影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "79bf0367",
-        "title": "人工智慧助選手遠離傷害 楊智偉創新科技公司",
-        "url": "https://www.cna.com.tw/news/aopl/202607080376.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 08 Jul 2026 21:12:57 +0800",
-        "summary_zh": "楊智偉是一位台灣裔美國人，第二代。 他在紐約創立了一家科技新創公司，利用人工智慧（AI）技術來分析運動動態。 透過這項技術，可以幫助運動員遠離傷害，並且根據數據來調整動作，從而提升表現。 這項技術的出現，對於運動員來說是一個重大進步。 因為它可以幫助他們避免受傷，並且提高競爭力。 楊智偉的創新公司，正是在這個領域取得了突破。 他們的技術已經被多個運動項目所採用。 這項技術的發展，將會對運動界造成重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c150b942",
-        "title": "群聯6月營收創新高 出貨價量齊揚",
-        "url": "https://www.cna.com.tw/news/afe/202607080370.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 08 Jul 2026 20:37:41 +0800",
-        "summary_zh": "群聯電子在6月營收方面創下歷史新高，達新台幣248.53億元，相較於去年同期增長超過300%。此外，6月出貨量及均價也同步增加，推動營收創高。群聯表示，這是由於市場需求的增加，尤其是在記憶體控制晶片的領域。這項成績也表明，群聯電子在全球市場上取得了良好的競爭力。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "02a07dc4",
-        "title": "中油遭監院糾正：精進廉政治理與內控機制",
-        "url": "https://www.cna.com.tw/news/afe/202607080369.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 08 Jul 2026 20:33:39 +0800",
-        "summary_zh": "監察院針對中油公司前煉製部執行長徐漢涉貪案進行糾正。中油公司表示，對不法行為一貫採取零容忍立場，並已將該案經驗納入公司治理全面檢討。公司將在既有改革基礎上，精進廉政治理與內控機制，以防止類似事件再次發生。這項糾正是中油公司面臨的另一項挑戰，需要公司積極改善其治理結構和內控機制。這項改善將對公司的聲譽和信譽產生重大影響，同時也將提高公司的透明度和責任感。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cbec1d76",
-        "title": "威盛擬買回2萬張庫藏股 每股48.65至90元",
-        "url": "https://www.cna.com.tw/news/afe/202607080364.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 08 Jul 2026 20:15:28 +0800",
-        "summary_zh": "威盛董事會決議，從7月9日起開始買回2萬張庫藏股。這批庫藏股的買回區間價格為每股48.65至90元。這項決定可能是威盛為了調整公司資本結構或是回購股權的一部分。買回庫藏股可能會對公司股價產生一定的影響，投資人應該密切關注這項動態。威盛的這項決定可能會對市場造成一定的波動，投資人應該做好準備。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0ed5efa7",
-        "title": "倍利科6月營收年增5成 千附實業增2倍",
-        "url": "https://www.cna.com.tw/news/afe/202607080363.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 08 Jul 2026 19:54:26 +0800",
-        "summary_zh": "倍利科與千附實業在6月營收方面均呈現亮眼表現。倍利科的營收達到新台幣2.53億元，年增率達50.72%。另一方面，千附實業的營收則達到6.63億元，年增率高達200.07%。這表明兩家公司的業務正逐步恢復和擴張。然而，市場仍需關注公司未來的營收趨勢和業績表現。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8ed17d05",
-        "title": "緯創6月營收創單月次高 英業達首破千億元創新高",
-        "url": "https://www.cna.com.tw/news/afe/202607080362.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 08 Jul 2026 19:45:24 +0800",
-        "summary_zh": "緯創公布6月合併營收約新台幣3218.22億元，月增10.9%、年增53.9%，創單月次高與歷年同期新高。受惠於人工智慧（AI）伺服器強勁需求，緯創的營收呈現快速增長。第2季合併營收8954.43億元，季增5.8%、年增62.4%，改寫單季新高。這表明緯創正在經歷著快速的成長，並且在全球的AI市場中佔有一席之地。然而，未來市場的變化和競爭的加劇將會對緯創的營收和成長產生影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "95d73cf7",
         "title": "川普狠轟伊朗 道瓊重挫油價飆 台積電ADR逆勢上漲",
         "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%B7%9D%E6%99%AE1%E5%8F%A5%E7%8B%A0%E8%BD%9F%E4%BC%8A%E6%9C%97-%E9%81%93%E7%93%8A%E9%87%8D%E6%8C%AB-%E6%B2%B9%E5%83%B9%E9%A3%86-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E9%80%86%E5%8B%A2%E4%B8%8A%E6%BC%B2-164800185.html",
@@ -846,88 +580,306 @@
     ],
     "finance": [
       {
-        "id": "6a4fc096",
-        "title": "SK Hynix 將於週三關閉 2800 億美元 ADR 預售書後，源料指出已超額申請",
-        "url": "https://www.reuters.com/legal/transactional/sk-hynix-close-28-billion-adr-bookbuild-wednesday-after-oversubscription-source-2026-07-08/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-08 07:57:48",
-        "summary_zh": "SK Hynix 將於週三關閉 2800 億美元 ADR 預售書的活動。根據來源的消息，這次預售書已經超額申請。這意味著 SK Hynix 可能會在市場上籌集到預期的資金。這項消息對於 SK Hynix 的股價可能會產生一定的影響。SK Hynix 是一家韓國的半導體公司，主要從事記憶體芯片的生產。這次的預售書活動是為了籌集資金進行公司的發展計畫。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "bed02529",
-        "title": "瑞安航空公司挑戰義大利航空補貼案在歐盟法院敗訴",
-        "url": "https://www.reuters.com/business/ryanair-loses-appeals-against-italys-covid-aid-airlines-eu-court-2026-07-08/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-08 07:57:46",
-        "summary_zh": "瑞安航空公司因為挑戰義大利政府為航空業提供的COVID-19補貼案而敗訴。義大利政府為航空業提供了數十億歐元的補貼，以幫助業界度過疫情。瑞安航空公司認為這些補貼違反了歐盟的競爭規則。然而，歐盟法院最終判定義大利政府的補貼措施合法。這一裁決對於航空業的未來發展可能有重要影響。瑞安航空公司可能會繼續挑戰這一裁決，或者選擇接受判決。這一事件也會對其他航空公司的補貼政策產生影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "18d85707",
-        "title": "印度拉達公司新CEO承諾加速西班牙防衛物資交付",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-08/indra-s-new-ceo-vows-to-speed-up-spain-defense-deliveries",
+        "id": "05435dbe",
+        "title": "新興市場股票下跌 伊朗局勢升級加劇人工智慧風險",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-08/emerging-market-stocks-drop-as-iran-escalation-adds-to-ai-risks",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-07-08 07:55:56",
-        "summary_zh": "印度拉達公司新CEO阿爾瓦羅·德·馬丁內斯承諾加速西班牙防衛物資交付。該公司是西班牙國防部的主要供應商，負責交付多款軍用設備。新CEO表示，公司將採取措施提高交付效率，盡快完成既定目標。這一承諾對於西班牙國防部來說是好消息，因為它們一直在等待交付的軍用設備。印度拉達公司的業務涉及多個國家，包括西班牙、墨西哥和阿根廷等。該公司的新CEO承諾加速交付將對西班牙國防部的運作產生重大影響。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "2246b333",
-        "title": "印度央行支持加密貨幣禁令，稅務局警告違規風險，文件顯示",
-        "url": "https://www.reuters.com/world/india/india-central-bank-backs-crypto-ban-tax-department-warns-evasion-risks-documents-2026-07-08/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-08 07:55:52",
-        "summary_zh": "印度央行最近支持政府對加密貨幣的禁令，稅務局也警告違規風險。根據文件顯示，印度央行認為加密貨幣交易對國家金融穩定構成風險。印度政府正在考慮對加密貨幣交易徵收稅款，稅務局認為這將使違規交易更加隱密。印度央行和稅務局的立場表明，印度政府正在加強對加密貨幣的監管。這可能對印度的加密貨幣行業造成重大影響。印度政府的決定將對全球加密貨幣市場產生影響。",
+        "published_at": "2026-07-08 09:00:45",
+        "summary_zh": "伊朗局勢升級對全球市場造成震撼，新興市場股票下跌。伊朗的行動加劇了全球對人工智慧風險的擔憂。市場分析師表示，伊朗的行動可能會影響全球經濟，進而影響人工智慧的發展。同時，新興市場股票的下跌也可能會影響全球經濟的穩定。市場投資者正面臨著不確定的情況，需要謹慎評估風險和機會。伊朗局勢的發展將對全球市場產生重大影響，投資者需要密切關注。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "5f743b4f",
-        "title": "UniCredit成功拿下47.6%的Commerzbank股份",
-        "url": "https://www.reuters.com/legal/transactional/unicredit-secures-176-commerzbank-2026-07-08/",
-        "source": "Reuters",
+        "id": "48887770",
+        "title": "美國股市下跌 美國與伊朗關係惡化及利率上升風險",
+        "url": "https://www.theguardian.com/us-news/2026/jul/08/us-stock-markets-iran-interest-rates",
+        "source": "Guardian US",
         "category": "finance",
-        "published_at": "2026-07-08 07:50:57",
-        "summary_zh": "德意志銀行Commerzbank近期面臨著重大的轉變，UniCredit在買下Commerzbank的offer被延長後，成功拿下了47.6%的股份。這一轉變對德國銀行業產生了重大影響，UniCredit的這一舉動被視為是為了鞏固其在歐洲銀行市場的領先地位。這一買下股份的行動對Commerzbank的未來發展產生了深遠的影響，未來將如何發展，還需要觀察。這一事件也引發了對銀行業競爭力的關注，各大銀行將如何應對這一變化，尚待觀察。",
+        "published_at": "Wed, 08 Jul 2026 20:35:20 GMT",
+        "summary_zh": "美國股市於週三下跌，主要原因是唐納德·川普宣布美國與伊朗的停火協議已經結束，聯邦儲備局也表示可能會提高利率。川普在安卡拉的北約峰會上對伊朗與美國的戰爭發表言論，油價大幅上升，布倫特原油價格跳升逾 5%，達到每桶 80 美元。美國股市隨之下跌，道瓊工業指數下跌 1.09%，或 500 點，標準普爾 500 指數小幅下跌，而科技重點的納斯達克指數則微幅上升。全球股市早些時候已經下跌，英國的富時 100 指數下跌 1%，日本的日經平均指數下跌 2.1%。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "99a8cf7f",
+        "title": "預測市場可以不用金錢參與",
+        "url": "https://www.bloomberg.com/opinion/articles/2026-07-08/prediction-markets-can-work-without-money-on-the-line",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-08 09:00:20",
+        "summary_zh": "預測市場是一種允許參與者預測未來事件的市場。雖然金錢通常是預測市場的關鍵成分，但有一些研究表明，金錢並不是必要的。研究人員發現，使用虛擬貨幣或點數等替代方案，可以創造出類似於金錢的激勵機制。這種方法可以讓預測市場更具普遍性和包容性，尤其是在教育和研究領域。然而，仍然需要進一步研究，以確保這種方法的有效性和可靠性。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "567f8a26",
-        "title": " Alphabet 在印度外資投資增長 44%，聯合國發表報告",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-08/alphabet-powers-44-jump-in-india-foreign-investment-un-says",
+        "id": "34e625e7",
+        "title": "奧巴馬醫療保險費用第二年連續大幅上漲",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-08/obamacare-insurance-premiums-poised-for-double-digit-jump-in-2027",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-07-08 07:44:37",
-        "summary_zh": "根據聯合國的最新報告，Alphabet 在印度的外資投資增長了 44%。這項投資主要集中在科技和數據分析領域。這項投資的增長被視為印度的經濟發展的一個重要標誌，表明外國企業對印度市場的信心正在增強。然而，投資增長也引發了對印度政府監管和稅收政策的關注。印度政府需要確保投資的收益能夠惠及國民，而不是只惠及少數企業。這項投資的增長也將對印度的就業市場和經濟發展產生重大影響。",
-        "sentiment": "中性",
+        "published_at": "2026-07-08 09:00:00",
+        "summary_zh": "奧巴馬醫療保險費用預計將在今年第二年連續大幅上漲，達到雙位數的增幅。根據最新的數據，保險費用將會大幅上漲，對於許多家庭而言，這將是一個沉重的負擔。這種情況下，許多人將會面臨著難以承受的醫療費用。這種情況的出現，可能會對美國的醫療系統造成重大影響。政府和保險公司將會面臨著如何應對這種情況的挑戰。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
+      }
+    ],
+    "global": [
+      {
+        "id": "f5d76a94",
+        "title": "CNBC每日開市報導：北約峰會，美軍對伊朗發動新一波攻擊，勒庞再次回歸",
+        "url": "https://www.cnbc.com/2026/07/08/dispatch-from-nato-us-strikes-iran-and-le-pen-is-back.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-07-08 05:34:39",
+        "summary_zh": "北約峰會期間，美軍與盟友之間的緊張關係達到新高。伊朗方面，美軍發動新一波攻擊，威脅著伊朗與伊拉克之間的停火協議。這些事件的背後，顯示出美軍與伊朗之間的緊張關係持續加劇。這種局勢不僅影響伊朗的內部穩定，也對全球安全格局產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
-        "id": "6f640c49",
-        "title": "印度減肥藥銷售放緩，早期 generics 銷售激增",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-08/india-fat-loss-drug-sales-slow-after-early-spike-from-generics",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-08 07:41:49",
-        "summary_zh": "印度的減肥藥銷售在去年初期經歷了一個短暫的激增，但隨後銷售放緩。這種情況與 generics 的出現有關， generics 是指仿製藥品。根據市場研究公司的報告，印度的減肥藥市場在 2022 年的前幾個月經歷了一個短暫的繁榮期，但隨後銷售速度開始放緩。這種情況可能是由於 generics 的出現， generics 的出現使得原本的藥品價格下降，從而影響了原廠藥品的銷售。印度的減肥藥市場在去年初期的激增可能是由於一些新的藥品上市，包括 generics。這些 generics 的出現使得原本的藥品價格下降，從而吸引了更多的消費者。然而，隨著 generics 的出現，原廠藥品的銷售速度開始放緩。這種情況可能會對印度的減肥藥市場產生持續性的影響。",
-        "sentiment": "中性",
+        "id": "7c52554d",
+        "title": "中東戰火再起 歐股收跌油價升",
+        "url": "https://www.cna.com.tw/news/afe/202607090004.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 00:21:14 +0800",
+        "summary_zh": "中東地區再度爆發戰火，美國總統川普宣布與伊朗的停火協議已經結束。這項消息導致歐洲主要股市今天收跌，國際油價也因此大幅上升。這種局勢的出現，將對全球經濟產生重大影響，特別是在能源領域。油價的上升將使得運輸成本增加，進而影響到各行業的成本結構。這項事件也會對投資者造成不確定性，可能會導致市場波動。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
+      },
+      {
+        "id": "67672725",
+        "title": "美國對伊朗軍事船隻和沿岸設施進行空襲",
+        "url": "https://www.bbc.co.uk/news/videos/cn94nqzwpxwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 05:42:37 GMT",
+        "summary_zh": "美國對伊朗發動空襲，原因是伊朗對霍爾木茲海峽三艘油輪發動攻擊。這次空襲針對伊朗的軍事船隻和沿岸設施。美國此舉是為了應對伊朗的攻擊，保護海上交通安全。這次事件可能會引發中東地區的緊張局勢，影響地區的穩定。美國的行動可能會對伊朗產生重大影響，進一步加劇兩國之間的緊張關係。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "90e685c0",
+        "title": "烏克蘭將獲得許可生產帕特里奧飛彈，川普表示",
+        "url": "https://www.bbc.co.uk/news/articles/ce8klree690o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 17:18:14 GMT",
+        "summary_zh": "烏克蘭將獲得許可生產帕特里奧飛彈，這是由川普宣布的最新消息。帕特里奧飛彈在對抗俄羅斯的彈道飛彈時表現出色，但生產時間卻相當長久。這一消息對於烏克蘭的軍事能力將產生重大影響，同時也會對俄羅斯的軍事行動產生一定的影響。烏克蘭的軍事力量正在得到增強，這將對地區的安全格局產生重大變化。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e8a4c865",
+        "title": "亞利桑那州一歲半男嬰在醫院屍房被發現存活",
+        "url": "https://www.bbc.co.uk/news/articles/cvg5x0vvrmro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 20:18:13 GMT",
+        "summary_zh": "一名18個月大的男嬰在亞利桑那州被誤判為溺水死亡，事實上他仍然存活。男嬰被運送至另一家醫院接受治療，並最終存活下來。這一事件引起了關注，醫療機構應該如何避免類似錯誤發生。這一事件也讓人們重新思考醫療人員的判斷和處理程序。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "dd466c99",
+        "title": "德國醫生被判刑殺害15名病人",
+        "url": "https://www.bbc.co.uk/news/articles/cq819jyp2g7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 14:25:25 GMT",
+        "summary_zh": "德國一名專門從事終末照護的醫生，於2021年9月至2024年7月間，被判犯有殺害12名女性和3名男性病人的罪行。這名醫生被認為利用其職業權力，對病人施加了不當的影響。這起案件引發了對醫生職業倫理和終末照護的關注。德國政府和醫療界對此事件的反應表明，將加強對醫生的監控和倫理教育，以防止類似事件再次發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9bee707f",
+        "title": "13歲女孩遭德國中學攻擊，兩人嚴重受傷，警方展開大規模調查",
+        "url": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 15:09:08 GMT",
+        "summary_zh": "德國巴伐利亞州的史高恩高中的學生遭到攻擊，兩名13歲的女孩受傷。警方表示正在展開大規模調查，目前尚未公布攻擊者的身份或動機。事件發生在巴伐利亞州的史高恩高中，警方已經展開了大規模的行動，正在調查事件的原因和攻擊者的身份。受傷的兩名女孩被送往醫院接受治療，目前狀況嚴重。這起事件引起了社會的關注和恐慌，警方已經開始調查和處理此案件。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "81deefdb",
+        "title": "北約盟友宣布37億英鎊資助新導彈計畫",
+        "url": "https://www.bbc.co.uk/news/articles/ckg4e3lwzqzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 05:57:53 GMT",
+        "summary_zh": "英國首相史提夫·史達默（Sir Keir Starmer）將在安卡拉召開會議，與約有十餘名領導人討論新導彈計畫。這項計畫獲得北約盟友的37億英鎊資助。新導彈計畫將在未來幾年內實施，目標是增強北約的防禦能力。這項資助將幫助北約盟友共同發展和製造新導彈系統。這項計畫的實施將對北約盟友的安全和防禦能力產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "05b30d16",
+        "title": "孟加拉國南部山泥傾瀉事件：8人喪生，多名學生被困",
+        "url": "https://www.bbc.co.uk/news/articles/cx2wkzww20ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 14:02:54 GMT",
+        "summary_zh": "孟加拉國南部遭受暴雨侵襲，山泥傾瀉事件發生在一所女校，造成8人死亡，多名學生被困在泥土中。救援人員正在努力挖掘泥土，尋找生還者。這次山泥傾瀉事件是由於暴雨引起的，南部地區多年來一直面臨著嚴重的洪水和山泥傾瀉問題。這次事件的影響將會對當地居民和學生造成重大打擊。預計救援工作將會持續進行，直到所有生還者被找到。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2ea5f7d8",
+        "title": "尼日利亞總統要求了解假冒機構在其辦公室的真相",
+        "url": "https://www.bbc.co.uk/news/articles/c621xrrp6jeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 17:31:47 GMT",
+        "summary_zh": "尼日利亞總統要求了解尼日利亞副總統府的一名官員，Adeniyi Adeyemi，是否真的在總統辦公室設立了一個假冒機構。據報導，Adeyemi被指控伪造了一份任命書，並取得了總統辦公室不知情的資金支持。這一事件引發了對總統辦公室管理和財務透明度的質疑。總統要求了解這一事件的真相，並要求相關部門進行調查。這一事件可能會對尼日利亞政府的信譽和效率產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7a6f9273",
+        "title": "澳大利亞最大電信公司遭遇大規模停機，火車和緊急電話服務受影響",
+        "url": "https://www.bbc.co.uk/news/articles/cgevw0d95pdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 07:53:37 GMT",
+        "summary_zh": "澳大利亞最大電信公司最近遭遇了大規模停機事件，影響了該國的火車和緊急電話服務。事件發生在悉尼和墨爾本的數據中心，目前仍未確定停機的原因。這一事件對澳大利亞的運輸和緊急服務造成了重大影響，當局正在努力恢復服務。停機事件的影響範圍包括了火車和緊急電話服務，許多人被迫暫時停用自己的手機和電腦。澳大利亞政府和電信公司正在共同努力，恢復服務並確定停機原因。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bf73d6ef",
+        "title": "卡梅尼的棺材在伊拉克的什葉派聖地被抬過去，為他舉行五天的葬禮",
+        "url": "https://www.bbc.co.uk/news/articles/cp9le3kjj8eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 14:56:24 GMT",
+        "summary_zh": "伊朗前最高領袖卡梅尼的遺體被運往伊拉克的納傑夫和卡爾巴拉，為他舉行的五天葬禮繼續進行。這些城市都是什葉派穆斯林的聖地。伊拉克政府和伊朗政府都在這些城市的葬禮中發揮了重要作用。卡梅尼的葬禮在伊朗和伊拉克引起了廣泛的關注，許多人參與了葬禮。卡梅尼的葬禮是什葉派穆斯林的重要儀式，也是伊朗和伊拉克的政治和宗教事件。伊朗和伊拉克政府的關係在卡梅尼的葬禮中也受到關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7e993e66",
+        "title": "古巴民眾抗議第三次全國停電",
+        "url": "https://www.bbc.co.uk/news/articles/cm20g0d3ry4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 10:56:55 GMT",
+        "summary_zh": "古巴民眾因為今年第三次全國停電而感到憤怒。古巴官員表示，電力已經基本恢復，但仍有許多人處於黑暗中。這次停電事件引發了民眾的不滿，古巴民眾在社交媒體上表達了對政府的不滿。停電事件也引發了對古巴能源系統的關注，許多人質疑政府的管理能力。這次停電事件是今年第三次，全國停電的影響很大，許多人在社交媒體上分享了停電的照片和故事。古巴政府已經承諾會改善能源系統，但民眾仍對政府的承諾表示質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "30d8137d",
+        "title": "猶他州寄宿學校遭撤牌，巴黎希爾頓指控曾遭虐待",
+        "url": "https://www.bbc.co.uk/news/articles/cjdg4r3k3emo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 01:51:09 GMT",
+        "summary_zh": "猶他州一間寄宿學校因巴黎希爾頓在少年時期遭虐待的指控而被撤牌。巴黎希爾頓表示該學校「對孩子們失敗」，監管機構指出該學校存在忽視和過度限制行為。該學校曾被指控虐待巴黎希爾頓和其他學生，導致多名學生受傷。這一事件引發了對兒童福利和學校管理的關注。監管機構的決定表明，該學校的管理和服務質量不夠，無法提供學生安全和舒適的環境。這一事件也引發了對學校管理和兒童保護的呼籲，要求政府和學校機構提高對兒童福利的關注和保護。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b94853c0",
+        "title": "澳洲碼頭工人要求28小時工作週在AI談判中提出",
+        "url": "https://www.bbc.co.uk/news/articles/cd95wendvdeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 06:06:12 GMT",
+        "summary_zh": "澳洲的碼頭工人正在與工會談判，要求工作週縮短至28小時。工會表示，這些工人正面臨機器人自動化的威脅，AI技術正在被測試在各個港口。工會認為，這些工人需要保護，免於被自動化取代。工會正在努力爭取工人的權益和福利，包括工作時間和薪水的改善。這項爭議正在澳洲各個港口引起關注，工會和雇主的談判正在進行中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "36492bb6",
+        "title": "印尼垃圾山火災超過一週未熄",
+        "url": "https://www.bbc.co.uk/news/articles/c1ly1vddj6qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 04:22:48 GMT",
+        "summary_zh": "印尼一座垃圾山已經燃燒超過一週，環境活動家表示，這場大火是該國日益惡化的垃圾危機的症狀。印尼政府面臨著嚴重的垃圾問題，許多垃圾被丟棄在山上，導致環境污染和生態破壞。這場大火不僅影響當地的生態系統，也影響當地居民的健康和生活質量。環境活動家呼籲政府應該採取積極措施解決垃圾問題，並提高垃圾處理的標準。印尼政府應該立即採取行動，防止這種情況再次發生，保護環境和居民的健康。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8659cc85",
+        "title": "波音737客機失聯　巴基斯坦海岸搜索行動展開",
+        "url": "https://www.bbc.co.uk/news/articles/cn4dn1d55njo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 01:11:50 GMT",
+        "summary_zh": "一架載有五人之波音737客機，據當局稱，該機迅速下降後失聯。巴基斯坦當局已啟動搜索行動，試圖尋找失聯客機的下落。這起事件引起了國際社會的關注，各方都在等待更多的消息。失聯客機的原因尚未明確，但當局已展開調查，試圖找出真相。這起事件可能會對巴基斯坦航空業造成重大影響，同時也會引起全球航空業的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "154aef94",
+        "title": "颱風來臨，中國水灾加劇，罕見的龍捲風襲擊",
+        "url": "https://www.bbc.co.uk/news/articles/c79ygnv9e93o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 00:49:07 GMT",
+        "summary_zh": "中國近日遭遇颱風侵襲，導致水灾加劇，許多村莊被淹沒。受災村民向BBC表示，家人被困在外，難以獲得食物和幫助。這場颱風還引發罕見的龍捲風，造成嚴重破壞。中國政府正在努力應對災情，提供援助和救援。水灾和龍捲風的影響將持續時間不短，受災村民的生活將面臨嚴重挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ed86833c",
+        "title": "從信仰到科技：印度富豪轉向科學捐助",
+        "url": "https://www.bbc.co.uk/news/articles/cvg5388xpv9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 07 Jul 2026 22:07:18 GMT",
+        "summary_zh": "印度富豪開始轉變捐助方向，從傳統的宗教信仰轉向科學研究。這一變化標誌著印度富豪捐助方式的重大轉折。根據最新的數據，印度富豪開始增加對科學研究的捐助，尤其是對純粹科學領域的支持。這一趨勢表明，印度富豪開始重視科學研究的重要性，並願意投資於科學發展。這一變化不僅對科學研究產生了積極的影響，也對印度的整體發展產生了深遠的影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7008381b",
+        "title": "被遺忘的主辦國加拿大，卻留下了難忘的世界盃",
+        "url": "https://www.bbc.co.uk/news/articles/cj4gpx7rlj5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 11:15:31 GMT",
+        "summary_zh": "加拿大與墨西哥共同主辦世界盃，該國的主辦權已經結束，同時也結束了國家隊在這個賽事上的旅程。這個賽事對加拿大國家隊來說是一個充滿事件的旅程。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "14211051",
+        "title": "視頻：紐約高樓建築內觀察到弯曲的支撐梁",
+        "url": "https://www.bbc.co.uk/news/videos/c7vygmmdyr8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 00:11:48 GMT",
+        "summary_zh": "紐約一座正在建設中的高樓建築因報告指出有砖塊坠落而被疏散。周圍的建築物也被疏散。這座建築的支撐梁出現弯曲的情況，引起了關注。建築物的安全性受到質疑。建築物的建設公司和當地政府正在調查此事。這起事件可能會對建築物的安全性和可靠性產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "stock_us": [
@@ -956,18 +908,6 @@
         "ai_classified": true
       },
       {
-        "id": "8125a57c",
-        "title": "蘋果即將超越NVIDIA，重奪美國最大公司寶座",
-        "url": "https://www.marketwatch.com/bulletins/redirect/go?g=a21c80e9-7b14-4b6a-917a-91746a367ed4&mod=mw_rss_bulletins",
-        "source": "Marketwatch",
-        "category": "stock_us",
-        "published_at": "2026-07-07 21:14:03",
-        "summary_zh": "近日，蘋果股價持續上漲，似乎即將超越NVIDIA，重奪美國最大公司寶座。相比之下，NVIDIA的股價卻出現了壓力，目前的估值已經低於2013年以來的水平。這一變化引起了市場的關注，許多投資者開始關注蘋果和NVIDIA的競爭。市場分析師認為，蘋果的股價上漲是由於公司的財務表現和業務拓展，而NVIDIA的壓力則是由於其業務的不確定性和競爭的加劇。這一變化對於投資者和市場都有著重要的影響，投資者需要密切關注這一發展以做出明智的投資決策。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "dfb5af74",
         "title": "川普稱與伊朗停火結束 美股早盤走跌道瓊挫1.0%",
         "url": "https://www.cna.com.tw/news/afe/202607080394.aspx",
@@ -977,6 +917,18 @@
         "summary_zh": "美國總統川普宣布與伊朗的停火協議已經結束，導致華爾街股市今天早盤下跌。道瓊指數跌幅達1.0%。此外，中東地區戰事再起也推升油價大幅上漲。川普的宣布使得投資者感到不確定，導致股市下跌。油價上漲則是因為戰事再起使得投資者擔心供應鏈會受到影響。這些因素都使得股市和油價出現波動。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8125a57c",
+        "title": "蘋果即將超越NVIDIA，重奪美國最大公司寶座",
+        "url": "https://www.marketwatch.com/bulletins/redirect/go?g=a21c80e9-7b14-4b6a-917a-91746a367ed4&mod=mw_rss_bulletins",
+        "source": "Marketwatch",
+        "category": "stock_us",
+        "published_at": "2026-07-07 21:14:03",
+        "summary_zh": "近日，蘋果股價持續上漲，似乎即將超越NVIDIA，重奪美國最大公司寶座。相比之下，NVIDIA的股價卻出現了壓力，目前的估值已經低於2013年以來的水平。這一變化引起了市場的關注，許多投資者開始關注蘋果和NVIDIA的競爭。市場分析師認為，蘋果的股價上漲是由於公司的財務表現和業務拓展，而NVIDIA的壓力則是由於其業務的不確定性和競爭的加劇。這一變化對於投資者和市場都有著重要的影響，投資者需要密切關注這一發展以做出明智的投資決策。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       }
     ]
