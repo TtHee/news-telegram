@@ -1,70 +1,558 @@
 {
-  "generated_at": "2026-07-09T21:07:03.846224+08:00",
+  "generated_at": "2026-07-09T22:06:25.039346+08:00",
   "risk_signals": [
     "🟢 台股加權 45354.61（正常）",
-    "🟢 S&P 500 7482.71（正常）",
-    "🟢 VIX 恐慌指數 16.77（正常）",
+    "🟢 S&P 500 7514.12（正常）",
+    "🟢 VIX 恐慌指數 16.66（正常）",
     "🟢 MOVE 債市波動 65.4（正常）",
-    "🟢 美元指數 100.99（正常）",
-    "🟢 黃金 4121.2（正常）",
-    "🟡 美債10Y殖利率 4.57（留意）",
-    "🟢 原油 WTI 73.9（正常）",
-    "🟢 美元/台幣 32.2（正常）"
+    "🟢 美元指數 100.92（正常）",
+    "🟢 黃金 4129.7（正常）",
+    "🟡 美債10Y殖利率 4.56（留意）",
+    "🟢 原油 WTI 72.76（正常）",
+    "🟢 美元/台幣 32.15（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，但需要注意美債10年殖利率的微升，可能對股市走勢產生影響。",
+  "ai_summary": "市場氛圍穩定，多個指標維持正常水平，但需留意美債10Y殖利率微升，可能對市場造成一定影響。",
   "market": {
     "TWII": {
       "price": 45354.61,
       "change_pct": -0.83
     },
     "SP500": {
-      "price": 7482.71,
-      "change_pct": -0.28
+      "price": 7514.12,
+      "change_pct": 0.42
     },
     "NASDAQ": {
-      "price": 25870.65,
-      "change_pct": 0.2
+      "price": 26030.68,
+      "change_pct": 0.62
     },
     "VIX": {
-      "price": 16.77,
-      "change_pct": -0.77
+      "price": 16.66,
+      "change_pct": -1.42
     },
     "TNX": {
-      "price": 4.57,
-      "change_pct": 0.09
+      "price": 4.56,
+      "change_pct": -0.18
     },
     "MOVE": {
       "price": 65.4,
-      "change_pct": -4.61
+      "change_pct": null
     },
     "DXY": {
-      "price": 100.99,
-      "change_pct": -0.06
+      "price": 100.92,
+      "change_pct": -0.13
     },
     "GOLD": {
-      "price": 4121.2,
-      "change_pct": 1.24
+      "price": 4129.7,
+      "change_pct": 1.44
     },
     "OIL": {
-      "price": 73.9,
-      "change_pct": 0.52
+      "price": 72.76,
+      "change_pct": -1.03
     },
     "USDTWD": {
-      "price": 32.2,
-      "change_pct": 0.19
+      "price": 32.15,
+      "change_pct": 0.05
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "9e00bc29",
+        "title": "美國對伊朗發動新一輪攻擊，南部爆發爆炸",
+        "url": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 13:29:56 GMT",
+        "summary_zh": "美國總統川普表示，這次攻擊是對伊朗昨天炸船事件的報復。伊朗早前已經承諾會實施強烈反擊。伊朗南部的爆炸事件引發了對美伊關係的緊張局勢。這一系列事件表明美伊之間的對立正在加劇。美國的軍事行動將對伊朗的經濟和政治環境產生重大影響。伊朗政府將如何應對這一挑戰，將是未來關鍵的問題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5193fe39",
+        "title": "他們在見到養子後立即愛上他，但後來被告知他可能是被販賣",
+        "url": "https://www.bbc.co.uk/news/articles/czxq4ge246wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 23:31:53 GMT",
+        "summary_zh": "一對夫婦在見到他們的養子後立即愛上他，但後來被告知養子可能是被販賣到來的。這個案例揭露了印尼兒童販賣的問題，並提出了關於新加坡如何未能偵測這種行為的問題。這個案例引起了關注，新加坡政府被要求檢視其對兒童販賣的檢測和防止措施。兒童販賣是印尼的嚴重問題，新加坡政府應該採取更積極的措施來防止這種行為。這個案例也提醒我們，兒童販賣是一個複雜的問題，需要全社會的共同努力來解決。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "15ab4847",
+        "title": "印度IPO風暴：美國終止伊朗停火令，50億美元的首次公開發行計畫受影響",
+        "url": "https://www.cnbc.com/2026/07/09/india-ipo-50-billion-jio-phonepe-nse.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-07-09 00:09:01",
+        "summary_zh": "印度今年初的IPO市場出現了緩慢的起步，但隨著50億美元的首次公開發行計畫即將在印度市場上市，市場預期將出現大幅增長。然而，美國終止伊朗停火令的決定，可能會對印度的IPO市場產生重大影響。這些計畫的未來前景不明朗，投資者將面臨著不確定性的風險。印度政府和企業需要重新評估這些計畫的可行性，並考慮到新的外部環境的變化。這一事件可能會對印度的經濟和金融市場產生重大影響，投資者需要密切關注這一發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1c893c7b",
+        "title": "蜜蜂是否有感覺？研究揭露昆蟲的『內心世界』",
+        "url": "https://www.bbc.co.uk/news/videos/cpq309jrve4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 00:28:16 GMT",
+        "summary_zh": "近期研究發現蜂巢蜂會表現出之前只見於哺乳動物的『情感類行為』。這項研究進一步證明了昆蟲的『內心世界』存在著複雜的感覺體驗。研究人員通過觀察蜂巢蜂的行為，發現它們在面對挑戰或危險時會表現出焦慮、恐懼甚至愉悅的情感。這項研究結果對於我們對昆蟲的認識和理解具有重要意義。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c2d7d518",
+        "title": "國際法院告知BBC：蘇丹戰爭罪案調查取得突破",
+        "url": "https://www.bbc.co.uk/news/articles/c9928zr2m5xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 08:49:45 GMT",
+        "summary_zh": "國際刑事法院（ICC）已經在過去三年內對達爾富爾地區的戰爭罪行展開調查。根據最新消息，ICC已經取得了關鍵性的突破，對於該地區的戰爭罪行進行調查。這項調查的目的是為了懲罰那些在達爾富爾地區犯下戰爭罪行的人。 ICC 的調查結果將對蘇丹政府和相關個人的影響非常大。這項突破將為達爾富爾地區的和平進程提供新的希望。 ICC 的調查將繼續進行，希望能夠為達爾富爾地區的受害者尋求正義。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e8a4c865",
+        "title": "亞利桑那州一歲半男嬰在醫院屍房被發現存活",
+        "url": "https://www.bbc.co.uk/news/articles/cvg5x0vvrmro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 20:18:13 GMT",
+        "summary_zh": "一名18個月大的男嬰在亞利桑那州被誤判為溺水死亡，事實上他仍然存活。男嬰被運送至另一家醫院接受治療，並最終存活下來。這一事件引起了關注，醫療機構應該如何避免類似錯誤發生。這一事件也讓人們重新思考醫療人員的判斷和處理程序。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "90e685c0",
+        "title": "烏克蘭將獲得許可生產帕特里奧飛彈，川普表示",
+        "url": "https://www.bbc.co.uk/news/articles/ce8klree690o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 17:18:14 GMT",
+        "summary_zh": "烏克蘭將獲得許可生產帕特里奧飛彈，這是由川普宣布的最新消息。帕特里奧飛彈在對抗俄羅斯的彈道飛彈時表現出色，但生產時間卻相當長久。這一消息對於烏克蘭的軍事能力將產生重大影響，同時也會對俄羅斯的軍事行動產生一定的影響。烏克蘭的軍事力量正在得到增強，這將對地區的安全格局產生重大變化。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9b45728a",
+        "title": "贏得世界盃決賽半場表演權！贾斯汀比伯將與麥當娜、夏奇拉和BTS同台演出",
+        "url": "https://www.bbc.co.uk/news/articles/c1wyx7g9e1do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 20:58:21 GMT",
+        "summary_zh": "贏得世界盃決賽半場表演權！贾斯汀比伯將與麥當娜、夏奇拉和BTS同台演出。這場表演將成為贾斯汀比伯自從復出後的最新大型演出之一，之前他曾在Coachella表演過。這場超級盃風格的表演將在世界盃決賽中展開。贾斯汀比伯的復出表現獲得了廣泛關注，現在他將與世界頂級歌手們一起在世界盃決賽中表演。這將是贾斯汀比伯在世界盃決賽中的首次表演。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "001fffc5",
+        "title": "星萊默領受土耳其總統贈送的槍支和彈藥",
+        "url": "https://www.bbc.co.uk/news/articles/c0jy3pd2jzqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 20:40:11 GMT",
+        "summary_zh": "英國工黨領袖星萊默在北約會議期間，接受土耳其總統的禮物——一把槍支和彈藥。然而，這把槍支並沒有被帶回英國，而是留在土耳其與英國官員一起。這一事件引發了對槍支管理和安全的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a2b89e28",
+        "title": "富裕AI工作者推動舊金山房價大幅上漲",
+        "url": "https://www.bbc.co.uk/news/articles/c9q29j47v9ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 23:11:35 GMT",
+        "summary_zh": "舊金山房價創下新高，目前的平均房價已經達到1700萬美元。這種趨勢與富裕的AI工作者在該城市的聚集有關。根據最新的數據，富裕的AI工作者的收入和投資對該城市房市的影響越來越大。這種情況不僅影響了普通民眾的購房能力，也對該城市的社會結構產生了深遠的影響。分析人士認為，這種趨勢可能會持續下去，對舊金山的房市產生持久的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9bee707f",
+        "title": "13歲女孩遭德國中學攻擊，兩人嚴重受傷，警方展開大規模調查",
+        "url": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 15:09:08 GMT",
+        "summary_zh": "德國巴伐利亞州的史高恩高中的學生遭到攻擊，兩名13歲的女孩受傷。警方表示正在展開大規模調查，目前尚未公布攻擊者的身份或動機。事件發生在巴伐利亞州的史高恩高中，警方已經展開了大規模的行動，正在調查事件的原因和攻擊者的身份。受傷的兩名女孩被送往醫院接受治療，目前狀況嚴重。這起事件引起了社會的關注和恐慌，警方已經開始調查和處理此案件。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "dd466c99",
+        "title": "德國醫生被判刑殺害15名病人",
+        "url": "https://www.bbc.co.uk/news/articles/cq819jyp2g7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 14:25:25 GMT",
+        "summary_zh": "德國一名專門從事終末照護的醫生，於2021年9月至2024年7月間，被判犯有殺害12名女性和3名男性病人的罪行。這名醫生被認為利用其職業權力，對病人施加了不當的影響。這起案件引發了對醫生職業倫理和終末照護的關注。德國政府和醫療界對此事件的反應表明，將加強對醫生的監控和倫理教育，以防止類似事件再次發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "752c4202",
+        "title": "五名機組人員仍未找到，巴基斯坦發現私人貨運飛機殘骸",
+        "url": "https://www.bbc.co.uk/news/articles/c5yze1vvlzgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 16:39:15 GMT",
+        "summary_zh": "巴基斯坦民用航空總局表示，正在努力尋找私人貨運飛機上的人員。這架飛機在巴基斯坦坠毀，目前已經發現了殘骸。巴基斯坦民用航空總局正在與當地當局合作，進行搜救工作。這起事件的原因尚未明確，但當地當局已經展開調查。這架飛機的乘員人數尚未公布，但已經確認有五名機組人員仍未找到。巴基斯坦民用航空總局呼籲民眾不要擔心安全問題，正在全力以赴地進行搜救工作。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1202d2bb",
+        "title": "印度開始將生物燃料混合進汽油，但許多司機卻不滿意",
+        "url": "https://www.bbc.co.uk/news/articles/crlw74gd6lro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 22:06:00 GMT",
+        "summary_zh": "印度政府近期開始將生物燃料混合進汽油，稱為 E20 燃料混合物。然而，許多司機表示，這種混合物已經降低了汽車的燃油效率，並可能導致維修成本上升。這項政策的目的是減少對石油的依賴，改善空氣質量，但許多司機對此感到不滿。一些司機表示，自從使用 E20 燃料混合物後，汽車的燃油效率已經下降了 10% 至 20%。這意味著，司機需要花更多的錢購買汽油和維修汽車。印度政府正在推動生物燃料的使用，以減少對石油的依賴和改善空氣質量。然而，這項政策是否能夠達到預期的效果，還需要觀察和評估。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4cb8636f",
+        "title": "新影片揭露埃里斯塔克的最後一艘船Quest",
+        "url": "https://www.bbc.co.uk/news/videos/c4gyxgyn174o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 18:42:46 GMT",
+        "summary_zh": "科學家首次拍攝了埃里斯塔克船長的船難遺址，埃里斯塔克是 Heroic Age of Antarctic Exploration 的領導人物，在 1922 年去世。這艘船Quest 是埃里斯塔克的最後一艘船，在 1922 年沉沒於南極海域。這次拍攝的影片為我們提供了關於埃里斯塔克船長的船難事件的新線索。埃里斯塔克船長的船難事件對於南極探險史有著重要的意義，該事件也啟發了許多後來的探險家。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f408e65c",
+        "title": "這些兒童死去，儘管他們的國家在麻疹方面取得了巨大的進步",
+        "url": "https://www.bbc.co.uk/news/articles/cj0gel72mlgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 08 Jul 2026 22:03:05 GMT",
+        "summary_zh": "孟加拉國爆發麻疹疫情，超過12萬宗確診和疑似病例被報導。醫院面臨嚴重的擠迫，無法有效處理病患。這種情況出現在一個曾經取得了很大進步的國家，令人感到困惑和擔憂。麻疹疫苗的接種率曾經達到很高的水平，但現在病例卻大幅增加。這種情況下，醫療系統的負荷非常重，無法有效地提供服務。這一事件讓人們對於孟加拉國的公共衛生系統感到擔憂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "ai": [
+      {
+        "id": "50a84fa6",
+        "title": "下載：核能地標和中國對Nvidia晶片的目光",
+        "url": "https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 09 Jul 2026 12:10:00 +0000",
+        "summary_zh": "今天是《下載》週日版的第一版，為您提供每天的科技新聞摘要。美國四座核電站達到里程碑，中國對Nvidia晶片的興趣引起關注。美國核電站的四座核電站在美國達到里程碑，標誌著核能產業的重大進展。這項成就對於美國的能源安全和減少碳排放有重要意義。另一方面，中國對Nvidia晶片的興趣引起了關注，可能與中國對人工智慧技術的需求有關。這項發展可能對全球晶片市場產生重大影響。總的來說，這些事件都與科技業的發展和全球經濟的變化有關。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e0c66a14",
+        "title": "美國四座核電廠達到里程碑",
+        "url": "https://www.technologyreview.com/2026/07/09/1140235/nuclear-reactor-milestone-criticality/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 09 Jul 2026 08:00:00 +0000",
+        "summary_zh": "美國核電發展達到里程碑，四座新型小型核反應堆在今年七月四日達到臨界點，象徵著美國核能發展取得重大進展。去年川普政府設定目標，希望在今年前三座新型小型核反應堆達到臨界點，但最終四座都達成了這個里程碑。這項成就不僅象徵著美國核能發展的進步，也表明美國政府對於核能發展的重視。這項成就對於美國的能源安全和減少碳排放都有重要意義。美國政府將繼續推動核能發展，希望在未來的幾年內增加核電的產能。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6065cdfd",
+        "title": "EmTech AI 2026：人工智慧平台的崛起",
+        "url": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 08 Jul 2026 16:26:10 +0000",
+        "summary_zh": "近年來，人工智慧技術的發展日趨迅速，各大企業紛紛投入人工智慧領域。EmTech AI 2026 會議將聚集全球頂尖的AI專家和企業代表，探討人工智慧平台的發展趨勢和應用前景。會議將涵蓋人工智慧的各個領域，包括機器學習、自然語言處理、視覺識別等。參與者將有機會與其他專家和企業代表交流，探索人工智慧在各個領域的潛在應用。會議的目標是促進人工智慧的發展和應用，推動人工智慧在各個領域的普及和落地。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1787c2ac",
+        "title": "ChatGPT升級語音模式，能更少打斷對話",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-08T13:00:00-04:00",
+        "summary_zh": "OpenAI正在對ChatGPT的語音模式進行重大升級，新推出的GPT-Live-1模型被描述為更像是在與另一位人士交談。這款新模型旨在減少對話中打斷的次數，並且在對話中暫停時也會等待對方繼續發言。OpenAI研究領導 Kundan Kumar 表示，GPT-Live-1 是公司的重大創新。這項升級將使ChatGPT的語音模式更為自然和舒適。然而，尚未公佈GPT-Live-1的具體發布時間。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "stock_tw": [
+      {
+        "id": "731a2c49",
+        "title": "巴威颱風來襲 金管會要求銀行強化防災、金融服務不中斷",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5500131",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 09 Jul 2026 21:45:29 +0800",
+        "summary_zh": "因應巴威颱風來襲，北北基桃等多個縣市今天宣布停班停課。為了確保金融服務不受影響，金管會要求各銀行注意防颱，並依據《金融機構安全維護管理辦法》維護辦公場所與金融設施安全。銀行應該確保員工安全，同時維持金融服務的正常運行。金管會也要求銀行儘量減少對外營業，避免非必要出行，同時確保金融設施的安全。這些措施旨在確保金融服務不中斷，同時保護員工和公眾的安全。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "498460b6",
+        "title": "雙月超前防颱 全台門市明後兩日暫停營業",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5500127",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 09 Jul 2026 21:27:30 +0800",
+        "summary_zh": "由於巴威颱風來襲，中央氣象署預估明晚至後天風雨將最明顯。雙月食品社決定全台門市除配合政府7月10日暫停營業外，自主於7月11日再店休一天，希望降低風雨對門市的影響。雙月食品社的這一決定是為了保障員工和顧客的安全。政府的預警和雙月食品社的自主決定，共同努力維護全台的安全。這一措施將對全台的生活和經濟產生一定的影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ed93d13e",
+        "title": "巴威強颱來襲 戶外作業與工地防颱措施一次看",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5500115",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 09 Jul 2026 21:25:47 +0800",
+        "summary_zh": "強颱「巴威」即將來襲，預計將帶來強風豪雨，勞動部提醒各事業單位及工地應立即啟動防颱整備措施。戶外工作、搶修及外勤作業應加強安全措施，確保員工安全。天然災害期間，安全第一是雇主應盡的基本責任。工地應進行防風、防水、防雷等措施，同時安排員工進行安全教育訓練。同時，勞動部也提醒，天然災害期間，員工應盡量避免戶外作業，若必須戶外作業，應帶備雨具、充分準備安全措施。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8b6097a5",
+        "title": "神盾將部分芯鼎持股轉讓予祥碩，兩家公司攜手擴大AI影像與車用生態合作",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5500111",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 09 Jul 2026 21:22:47 +0800",
+        "summary_zh": "近日，IC設計公司神盾旗下芯鼎私募案引進祥碩成為最大股東。祥碩以每股50元，斥資2.5億元從神盾取得芯鼎私募股權，持有芯鼎18.13%的股份。這一轉變預示著祥碩和神盾將攜手合作，擴大AI影像與車用生態的業務。這一合作將會對兩家公司的未來發展產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "479ab1b3",
+        "title": "強颱巴威》 石門已啟動調節放水 寶二、鯉魚潭持續溢流中",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5500110",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 09 Jul 2026 21:05:52 +0800",
+        "summary_zh": "強颱巴威的暴風圈持續擴大，預期將會帶來強降雨，北部、中部多個縣市已宣布明（10）日停班停課。北部、中部主要大型水庫多為高水位，除石門水庫今天稍早已啟動排砂隧道調節放水外，寶二水庫和鯉魚潭水庫則持續溢流中。水利署表示，目前水庫的水位仍在監控中，將根據情況進行調整，以確保水庫的安全。強颱巴威的來臨將會對北部、中部地區帶來嚴重的影響，民眾應該保持警覺，避免不必要的外出，確保自身安全。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "c60e0b4c",
+        "title": "美光與環球晶簽10年長約 將提供161億元策略性資金",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5500109",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 09 Jul 2026 21:05:01 +0800",
+        "summary_zh": "環球晶宣布與美光簽訂10年長期供應協議，美光將提供161億元策略性資金。這項協議將為環球晶帶來穩定的資金來源，同時也將加強雙方的合作關係。這項協議的簽署對環球晶的發展將有重要影響，公司將能夠更好地應對市場挑戰和投資於新技術。美光的資金支持將幫助環球晶擴大業務和增強競爭力。這項協議的簽署也表明雙方的合作關係將更加緊密，將為雙方帶來新的發展機會。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e1c099e6",
+        "title": "退休阿嬤仍堅持資助孫子　停止金援卻遭斷聯下場好心酸",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5500010",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 09 Jul 2026 20:45:49 +0800",
+        "summary_zh": "日本一名72歲的阿嬤靠微薄年金生活，仍多年資助孫子，希望減輕家人的經濟負擔。然而，她最終無力再負擔，決定停止金援。結果，她與孫子斷絕了聯繫，留下了好心酸的感受。這個故事讓人們反思，長輩們的愛心和付出，往往被忽視或誤解。阿嬤的經歷也提醒我們，退休後的生活並不容易，許多長輩仍然面臨著經濟壓力和生活困難。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9a9fa6c6",
+        "title": "巴威恐釀緊急停水 台水示警：預先備妥防颱儲水、關閉抽水馬達",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5500080",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 09 Jul 2026 20:39:46 +0800",
+        "summary_zh": "強颱巴威即將襲台，台水公司為了預防停水情況，提醒民眾預先備妥防颱儲水。若遇緊急停水，台水公司要求民眾務必關閉抽水馬達電源，以免空轉過久產生高溫，造成馬達損壞或引起火災。台水公司的提醒是為了確保民眾的安全和供水穩定。巴威的來臨可能會對台北的供水系統造成影響，台水公司的準備工作是為了應對這種情況。民眾應該儘快採取措施，預防停水的可能，並且要小心關閉抽水馬達的電源，以免出現意外事故。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cbb786c9",
+        "title": "通寶6月營收創新高 下半年有望超越上半年",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5500059",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 09 Jul 2026 20:39:45 +0800",
+        "summary_zh": "通寶半導體在6月公告合併營收達到1.32億元，創下歷史新高。與去年同期相比，營收增加了41.07%，而與上個月相比，則是增加了108.5%。截至目前，通寶半導體今年上半年的合併營收已經達到3.2億元，年增91.7%。這表明通寶半導體的業務正如火如荼地發展。分析師預測，下半年通寶半導體有望超越上半年的營收成績。然而，市場仍需要觀察通寶半導體未來的財務報表和營收趨勢，以確定其下半年的實際表現。通寶半導體的成功是由於其在半導體設計領域的領先地位和其在全球市場的廣泛布局。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9f06ac98",
+        "title": "倫飛6月營收創單月新高 第二季表現最強",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5500027",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 09 Jul 2026 20:38:16 +0800",
+        "summary_zh": "倫飛（2364）在6月營收方面取得了亮眼的表現，單月營收達到1.83億元，相較於前一月增加13.2%，同比增幅達60.1%，創下歷史單月新高。這表明倫飛在電腦供應商領域的競爭力正在增強。同時，倫飛第二季的營收也達到5.2億元，相較於前一季增加53.4%，同比增幅達35%，為歷年單季最強表現。這些數據顯示倫飛在今年的營收表現非常出色，企業的發展前景也逐漸明朗。然而，未來市場的變化和競爭的加劇仍然是倫飛需要關注的問題。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "02efb6ef",
+        "title": "Meta自研AI晶片「Iris」9月投產 傳由台積電代工",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5500026",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 09 Jul 2026 20:37:42 +0800",
+        "summary_zh": "Meta公司計畫自9月開始生產一款人工智慧（AI）晶片，代號為「Iris」，這款資料中心晶片預計與博通（Broadcom）合作。根據路透獨家報導，Meta計畫將這款晶片由台積電代工生產。這項消息可能對台積電的業務產生重大影響。Meta的AI晶片將在資料中心中使用，旨在提高計算效能和節能。這項投資可能會對全球AI市場產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "06ee0704",
+        "title": "凱基人壽提供5大保戶關懷服務應對巴威颱風來襲",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5500017",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 09 Jul 2026 20:33:22 +0800",
+        "summary_zh": "因應強烈颱風巴威及其外圍環流可能帶來的強陣風、豪雨等衝擊，凱基人壽推出5大保戶關懷服務。針對停班停課或持有受災證明的災區保戶，3個月內到期的續期保費，可申請延長3個月繳納。另外，凱基人壽也提供免費查詢保戶受災情況、免費提供受災保戶的緊急救援服務、免費提供受災保戶的住宿補助、免費提供受災保戶的醫療費用補助，以及免費提供受災保戶的心理輔導服務。凱基人壽表示，將全力支持受災保戶，幫助他們度過難關。這些關懷服務將於颱風來襲前啟動，直到災區情況恢復正常為止。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "dd93c83a",
+        "title": "越南2026年GDP預估達7.3%，CPI預估達4.8%：調查",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-09/vietnam-2026-gdp-seen-at-7-3-cpi-at-4-8-survey",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-09 02:00:00",
+        "summary_zh": "越南的經濟預估在2026年將繼續保持強勁的增長，預計GDP增長率將達7.3%，通貨膨脹率將達4.8%。經濟學家認為，這是由於電子產品的強勁需求和外國投資的持續增長所致。越南的電子產業已經成為該國經濟的重要支柱，外國投資也在持續增加，為該國的經濟增長提供了強勁的推動力。這些因素將繼續支撐越南的經濟增長，預計2026年將保持穩定的增長態勢。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "49e11c78",
+        "title": "芝普股價大漲22%　4億美元股票發行價格低於預期",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-08/ai-firm-zhipu-prices-4-billion-placement-at-hk-1-588-each-share",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-09 01:59:24",
+        "summary_zh": "芝普公司近日發行4億美元股票，價格低於市場預期，股價大漲22%。這次股票發行是芝普公司籌措資金的重要一步，公司計劃利用這筆資金加強研發和業務擴展。芝普公司是一家領先的科技公司，業務涉及人工智慧、雲計算等領域。市場分析師認為，這次股票發行的成功表明市場對芝普公司的信心正在增強。然而，市場也對芝普公司未來的業務發展表達了關注，尤其是公司的競爭對手是否能夠跟上公司的步伐。芝普公司的股價大漲是市場對公司未來發展的積極評估，同時也表明市場對公司的信心正在增強。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d27fae5d",
+        "title": "中國消費者通膨率放緩，工廠價格表現出峰值跡象",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-09/china-consumer-inflation-surprises-by-slowing-more-than-forecast",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-09 01:55:14",
+        "summary_zh": "中國消費者通膨率在去年底的高點後開始放緩，工廠價格也表現出峰值跡象。根據最近公佈的數據，中國的消費者通膨率在 2023 年 12 月份下降至 2.1%，低於預期。這一降幅是今年以來的第四個月。工廠價格的放緩也表明供應鏈的壓力正在減少。這一發展對中國的經濟有著重要影響，尤其是在出口導向的產業中。然而，中國的央行仍然需要保持警惕，因為通膨率仍然處於較高水平。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "15e0177f",
+        "title": "中國消費者物價增長在六月放緩，生產者通膨則因出口訂單而上升",
+        "url": "https://www.cnbc.com/2026/07/09/china-cpi-ppi-june-inflation-iran-war-.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-09 01:53:20",
+        "summary_zh": "中國的消費者物價增長在六月放緩，然而生產者通膨卻因出口訂單而上升。投資者越來越認為中國的兩速成長（出口強勁、內需疲弱）是中國經濟的長期特徵。中國的出口訂單持續增長，推動了生產者通膨的上升。然而，消費者物價增長的放緩可能是由於內需疲弱所致。中國政府正在努力刺激內需，通過增加公共支出和降低稅收來促進經濟成長。然而，投資者仍對中國經濟的長期前景存疑。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f7fe7c60",
+        "title": "SK Hynix 美股上市超過七倍受熱",
+        "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-us-listing-more-than-seven-times-oversubscribed-source-says-2026-07-09/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-09 01:53:08",
+        "summary_zh": "SK Hynix 近期在美國進行了股票上市，根據一位熟悉該事項的人士透露，該公司的美股上市需求已超過七倍，遠超可供出售的股份。這表明SK Hynix的美股上市獲得了投資者的高度關注和支持。這種熱情可能與公司的財務表現和未來發展前景有關。投資者對SK Hynix的興趣可能會對公司的股價帶來正面影響。然而，投資市場的波動和未來的經濟情況仍將對公司的股價產生影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "59933df2",
+        "title": "亞洲股市上漲，芯片行業大幅攀升，石油價格大幅上漲，因為海灣地區的武裝衝突再次爆發",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-07-09/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-09 01:50:11",
+        "summary_zh": "亞洲股市在芯片行業的強勁反彈下上漲，石油價格也因為海灣地區的武裝衝突再次爆發而大幅上漲。這些事件對全球經濟產生了重大影響。芯片行業的上漲是由於供應鏈的恢復和需求的增加所致。石油價格的上漲則是由於海灣地區的武裝衝突再次爆發，進一步加劇了全球能源市場的緊張情緒。這些事件對全球經濟的影響將持續存在，投資者應該密切關注這些發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "2174bb27",
+        "title": "中國製造業通膨率近4年高點達到6月份",
+        "url": "https://www.reuters.com/world/asia-pacific/chinas-producer-inflation-hits-near-4-year-high-june-2026-07-09/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-09 01:45:41",
+        "summary_zh": "中國製造業通膨率在6月份達到近4年高點，引起市場關注。根據官方數據，中國製造業購買者價格指數（PPI）在6月份上升6.4%，遠超市場預期的3.2%。這是自2018年8月以來，中國製造業通膨率最高的月份。通膨率的上升主要是由於原材料價格的上升，特別是鋼鐵和石油的價格。這將對中國的經濟產生重大影響，特別是在供應鏈和產業結構的穩定性方面。市場分析師預測，中國政府可能會採取措施來控制通膨率，例如提高利率或增加稅收。然而，中國的經濟仍然面臨著許多挑戰，包括貿易戰和人口老齡化等問題。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      }
+    ],
     "whitehouse": [
       {
         "id": "7db18b9f",
         "title": "民主黨人格拉罕普拉特納暫停參選美國緬因州參議院選舉",
         "url": "https://www.bbc.co.uk/news/articles/c9v229434p2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "source": "BBC North America",
         "category": "whitehouse",
         "published_at": "Thu, 09 Jul 2026 02:18:21 GMT",
         "summary_zh": "緬因州參議院選舉的民主黨人格拉罕普拉特納宣布暫停競選。這項決定出現於一名女性指控他性侵犯的事件發生後不久。該名女性指控他性侵犯，格拉罕普拉特納否認這項指控，稱其為「完全不正確」。這項事件對格拉罕普拉特納的競選活動造成了重大影響，暫停競選的決定可能是為了避免對競選活動造成更多傷害。這項事件也引起了對性別暴力的關注和討論。格拉罕普拉特納的暫停競選將對緬因州參議院選舉產生重大影響，未來的發展仍待觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1c756b72",
+        "title": "普拉特納的失敗候選人揭露了可能會降低民主黨參議院希望的裂痕",
+        "url": "https://www.bbc.co.uk/news/articles/c20ylnn8wqgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 06:28:08 GMT",
+        "summary_zh": "民主黨在一場必勝的選舉中引發了動盪，格拉罕普拉特納的退選正在暴露黨內左派和中間派之間的分歧。這種分歧可能會對民主黨參議院的希望產生負面影響。民主黨需要在這場選舉中取得勝利，否則將會對他們的政治地位造成重大影響。左派和中間派之間的分歧可能會導致黨內的分裂和不穩定。這種情況可能會影響民主黨參議院的選舉結果和未來的政治策略。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -79,18 +567,6 @@
         "summary_zh": "BBC國際新聞編輯鮑文撰文表示，與伊朗談判的過程非常脆弱，近期美國的軍事打擊顯示達成協議的困難性。儘管川普總統一直在表達強硬立場，但仍無法找到其他選擇。伊朗問題的談判面臨著多重挑戰，包括美國的軍事行動和伊朗的堅決立場。美國的軍事打擊顯示了達成協議的困難性，鮑文認為，與伊朗談判仍是唯一的選擇。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1c756b72",
-        "title": "普拉特納的失敗候選人揭露了可能會降低民主黨參議院希望的裂痕",
-        "url": "https://www.bbc.co.uk/news/articles/c20ylnn8wqgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 06:28:08 GMT",
-        "summary_zh": "民主黨在一場必勝的選舉中引發了動盪，格拉罕普拉特納的退選正在暴露黨內左派和中間派之間的分歧。這種分歧可能會對民主黨參議院的希望產生負面影響。民主黨需要在這場選舉中取得勝利，否則將會對他們的政治地位造成重大影響。左派和中間派之間的分歧可能會導致黨內的分裂和不穩定。這種情況可能會影響民主黨參議院的選舉結果和未來的政治策略。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -137,446 +613,6 @@
         "category": "whitehouse",
         "published_at": "Thu, 09 Jul 2026 02:47:28 GMT",
         "summary_zh": "一名美國男子被判刑，因為他從加州大學借出珍貴古籍，多數世紀古老的中國文獻，然後將偽造品交回圖書館。這起案件涉及17世紀中國文獻的偽造和盜竊。男子利用圖書館借書卡系統，借出這些古籍，並將其複製為偽造品。這些偽造品看起來與原件相似，但並非真正的古籍。這起案件被視為圖書館盜竊和偽造品的嚴重案件。美國法律對圖書館盜竊和偽造品的處罰非常嚴厲。男子被判刑，將面臨嚴厲的懲罰。這起案件也引起了對圖書館安全和偽造品檢查的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "05a43ad5",
-        "title": "緬因州民主黨指控普拉特納團隊試圖「扳動選票」選出新候選人",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/08/graham-platner-democrats-senate-bernie-sanders-maine-donald-trump-us-politics-live",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 02:03:32 GMT",
-        "summary_zh": "緬因州民主黨指控普拉特納的團隊試圖影響選舉結果，要求他在 13 日前辭去參議員職位。民主黨若要替換普拉特納的候選人，需要在 13 日前完成程序。根據目前的情況，民主黨需要在 13 日前完成程序，才能替換普拉特納的候選人。這項程序需要得到州政府的批准，才能進行。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "ai": [
-      {
-        "id": "1787c2ac",
-        "title": "ChatGPT升級語音模式，能更少打斷對話",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-08T13:00:00-04:00",
-        "summary_zh": "OpenAI正在對ChatGPT的語音模式進行重大升級，新推出的GPT-Live-1模型被描述為更像是在與另一位人士交談。這款新模型旨在減少對話中打斷的次數，並且在對話中暫停時也會等待對方繼續發言。OpenAI研究領導 Kundan Kumar 表示，GPT-Live-1 是公司的重大創新。這項升級將使ChatGPT的語音模式更為自然和舒適。然而，尚未公佈GPT-Live-1的具體發布時間。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e0c66a14",
-        "title": "美國四座核電廠達到里程碑",
-        "url": "https://www.technologyreview.com/2026/07/09/1140235/nuclear-reactor-milestone-criticality/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 09 Jul 2026 08:00:00 +0000",
-        "summary_zh": "美國核電發展達到里程碑，四座新型小型核反應堆在今年七月四日達到臨界點，象徵著美國核能發展取得重大進展。去年川普政府設定目標，希望在今年前三座新型小型核反應堆達到臨界點，但最終四座都達成了這個里程碑。這項成就不僅象徵著美國核能發展的進步，也表明美國政府對於核能發展的重視。這項成就對於美國的能源安全和減少碳排放都有重要意義。美國政府將繼續推動核能發展，希望在未來的幾年內增加核電的產能。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6065cdfd",
-        "title": "EmTech AI 2026：人工智慧平台的崛起",
-        "url": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Wed, 08 Jul 2026 16:26:10 +0000",
-        "summary_zh": "近年來，人工智慧技術的發展日趨迅速，各大企業紛紛投入人工智慧領域。EmTech AI 2026 會議將聚集全球頂尖的AI專家和企業代表，探討人工智慧平台的發展趨勢和應用前景。會議將涵蓋人工智慧的各個領域，包括機器學習、自然語言處理、視覺識別等。參與者將有機會與其他專家和企業代表交流，探索人工智慧在各個領域的潛在應用。會議的目標是促進人工智慧的發展和應用，推動人工智慧在各個領域的普及和落地。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "stock_tw": [
-      {
-        "id": "e1c099e6",
-        "title": "退休阿嬤仍堅持資助孫子　停止金援卻遭斷聯下場好心酸",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5500010",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 20:45:49 +0800",
-        "summary_zh": "日本一名72歲的阿嬤靠微薄年金生活，仍多年資助孫子，希望減輕家人的經濟負擔。然而，她最終無力再負擔，決定停止金援。結果，她與孫子斷絕了聯繫，留下了好心酸的感受。這個故事讓人們反思，長輩們的愛心和付出，往往被忽視或誤解。阿嬤的經歷也提醒我們，退休後的生活並不容易，許多長輩仍然面臨著經濟壓力和生活困難。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "9a9fa6c6",
-        "title": "巴威恐釀緊急停水 台水示警：預先備妥防颱儲水、關閉抽水馬達",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5500080",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 20:39:46 +0800",
-        "summary_zh": "強颱巴威即將襲台，台水公司為了預防停水情況，提醒民眾預先備妥防颱儲水。若遇緊急停水，台水公司要求民眾務必關閉抽水馬達電源，以免空轉過久產生高溫，造成馬達損壞或引起火災。台水公司的提醒是為了確保民眾的安全和供水穩定。巴威的來臨可能會對台北的供水系統造成影響，台水公司的準備工作是為了應對這種情況。民眾應該儘快採取措施，預防停水的可能，並且要小心關閉抽水馬達的電源，以免出現意外事故。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "cbb786c9",
-        "title": "通寶6月營收創新高 下半年有望超越上半年",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5500059",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 20:39:45 +0800",
-        "summary_zh": "通寶半導體在6月公告合併營收達到1.32億元，創下歷史新高。與去年同期相比，營收增加了41.07%，而與上個月相比，則是增加了108.5%。截至目前，通寶半導體今年上半年的合併營收已經達到3.2億元，年增91.7%。這表明通寶半導體的業務正如火如荼地發展。分析師預測，下半年通寶半導體有望超越上半年的營收成績。然而，市場仍需要觀察通寶半導體未來的財務報表和營收趨勢，以確定其下半年的實際表現。通寶半導體的成功是由於其在半導體設計領域的領先地位和其在全球市場的廣泛布局。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "9f06ac98",
-        "title": "倫飛6月營收創單月新高 第二季表現最強",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5500027",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 20:38:16 +0800",
-        "summary_zh": "倫飛（2364）在6月營收方面取得了亮眼的表現，單月營收達到1.83億元，相較於前一月增加13.2%，同比增幅達60.1%，創下歷史單月新高。這表明倫飛在電腦供應商領域的競爭力正在增強。同時，倫飛第二季的營收也達到5.2億元，相較於前一季增加53.4%，同比增幅達35%，為歷年單季最強表現。這些數據顯示倫飛在今年的營收表現非常出色，企業的發展前景也逐漸明朗。然而，未來市場的變化和競爭的加劇仍然是倫飛需要關注的問題。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "02efb6ef",
-        "title": "Meta自研AI晶片「Iris」9月投產 傳由台積電代工",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5500026",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 20:37:42 +0800",
-        "summary_zh": "Meta公司計畫自9月開始生產一款人工智慧（AI）晶片，代號為「Iris」，這款資料中心晶片預計與博通（Broadcom）合作。根據路透獨家報導，Meta計畫將這款晶片由台積電代工生產。這項消息可能對台積電的業務產生重大影響。Meta的AI晶片將在資料中心中使用，旨在提高計算效能和節能。這項投資可能會對全球AI市場產生重大影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "06ee0704",
-        "title": "凱基人壽提供5大保戶關懷服務應對巴威颱風來襲",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5500017",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 20:33:22 +0800",
-        "summary_zh": "因應強烈颱風巴威及其外圍環流可能帶來的強陣風、豪雨等衝擊，凱基人壽推出5大保戶關懷服務。針對停班停課或持有受災證明的災區保戶，3個月內到期的續期保費，可申請延長3個月繳納。另外，凱基人壽也提供免費查詢保戶受災情況、免費提供受災保戶的緊急救援服務、免費提供受災保戶的住宿補助、免費提供受災保戶的醫療費用補助，以及免費提供受災保戶的心理輔導服務。凱基人壽表示，將全力支持受災保戶，幫助他們度過難關。這些關懷服務將於颱風來襲前啟動，直到災區情況恢復正常為止。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "1c7c8277",
-        "title": "晶華上半年營收36.11億創同期新高 暑假動能看旺",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5499985",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 19:47:03 +0800",
-        "summary_zh": "晶華集團在上半年營收方面取得了亮眼的成績，單月營收達5.61億元，同比增長13.94%。這主要是受惠於端午節慶和台北電腦展的餐飲收入，以及國際扶輪社年會所帶來的客房業績。累計1至6月，晶華集團的合併總營收達36.11億元，創下同期新高。暑假期間，晶華集團的動能看似旺盛，預計將繼續保持良好的營收表現。然而，未來的市場變化和競爭環境仍需要關注。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "73851f40",
-        "title": "防颱別只顧備糧 產險公會籲確認有無颱風洪水險保障",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5499980",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 19:44:53 +0800",
-        "summary_zh": "隨著巴威颱風逐漸接近臺灣，中央氣象署預估其外圍環流將為各地帶來降雨及強陣風，部分地區不排除出現豪雨、積淹水等災情。為了提醒民眾應對颱風風災，產險公會發出警訊，提醒民眾確認是否已購買有關颱風及洪水險的保險。住宅火災及地震基本保險已納入「颱風及洪水險」基礎內容，但仍有部分人可能沒有額外購買相關險種。產險公會建議民眾儘早確認是否有相關險種保障，避免在颱風風災時遭遇不必要的損失。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4a6949d3",
-        "title": "漢來美食、乾杯、築間、Q Burger、6月營收創新高",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5499977",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 19:42:55 +0800",
-        "summary_zh": "漢來美食今日公布6月合併營收5.74億元，年增23.43%。累計1~6月合併營收36.76億元，較去年同期成長約16.67%，刷新歷史新高。這表明漢來美食在下半年仍有持續的成長趨勢。然而，未來市場競爭和營收增長的可持續性仍需關注。總體來說，漢來美食的營收表現是令人鼓舞的，展現出其在台灣餐飲市場的領先地位。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d3b4cdd1",
-        "title": "台積電入列！分析師點名下一波股災 \"這3檔\" 必最先買進",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5499758",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 19:37:54 +0800",
-        "summary_zh": "投資媒體《The Motley Fool》提醒投資人為不可避免的熊市做好準備。根據分析師的預測，下一次熊市可能會出現，投資人應該先制定好投資計畫。台積電被點名為其中一檔必買股票，分析師認為它的股票價格相對較低，具有投資價值。另外兩檔股票也被提及，投資人應該注意並做好準備。投資人應該保持冷靜，做好長期投資的準備。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "cdc007c3",
-        "title": "韓國銀行認為需要提高利率以應對通膨和經濟增長",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-09/bank-of-korea-sees-need-to-hike-rate-on-higher-inflation-growth",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-09 01:00:28",
-        "summary_zh": "韓國銀行近日發表報告，指出該國的通膨率和經濟增長率均超出預期。為了應對這種局面，韓國銀行認為需要提高利率，以防止通膨率過高並維持經濟穩定。韓國銀行的報告指出，今年上半年韓國的通膨率達到 6.3%，遠超去年同期的 2.5%。同時，韓國的經濟增長率也達到 3.7%，超出預期。韓國銀行認為，這種局面下需要提高利率，以防止通膨率過高並維持經濟穩定。這一決定將對韓國的金融市場產生重大影響，投資者應該密切關注這一發展。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "1ca05b71",
-        "title": "頂級時尚品牌與高溫鏈條大戰",
-        "url": "https://www.bloomberg.com/news/features/2026-07-09/suppliers-to-fashion-brands-like-uniqlo-ralph-lauren-are-tackling-heat-stress",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-09 01:00:20",
-        "summary_zh": "全球服裝業正開始針對極端高溫的影響進行應對，高溫威脅著數十萬名工人和工廠的生產力。高溫對工人的健康和安全構成重大威脅，同時也影響了全球服裝業的供應鏈。一些頂級時尚品牌已經開始採取措施來應對這種挑戰，包括投資於可持續的供應鏈管理和工人安全措施。然而，仍然存在著許多挑戰，包括如何確保工人在高溫下仍能安全工作，以及如何減少供應鏈中的碳足跡。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "baabfab0",
-        "title": "中國Iluxtar CoreX計劃在香港發行股權，籌集902億港元",
-        "url": "https://www.reuters.com/world/asia-pacific/chinas-iluvatar-corex-seeks-raise-902-million-hong-kong-share-sale-2026-07-09/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-09 00:56:09",
-        "summary_zh": "中國Iluxtar CoreX計劃在香港發行股權，籌集902億港元。這是該公司在香港的首次公開募股。根據消息，Iluxtar CoreX是一家專注於核心計算和人工智慧的公司，該公司的業務包括核心計算、人工智慧、雲計算等。該公司計劃將所籌集的資金用於業務擴展、研究開發和人才培養等方面。這次發行股權將對香港的資本市場產生一定的影響，同時也將為Iluxtar CoreX提供必要的資金來推動業務發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a0ecf438",
-        "title": "日本基準國債殖利率創30年新高，擔憂通膨和財政健康問題",
-        "url": "https://www.reuters.com/world/asia-pacific/japan-benchmark-bond-yield-hits-30-year-high-inflation-fiscal-health-concerns-2026-07-09/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-09 00:45:04",
-        "summary_zh": "日本的基準國債殖利率已經達到30年新高，引起關注。這是由於日本的通膨率正在上升，同時財政健康問題也引起了擔憂。日本政府的財政赤字正在增加，對於國家的負債負擔也在增加。這些問題都會對日本的經濟產生影響，從而影響到全球的經濟。日本政府正在努力降低通膨率和財政赤字，但這個過程可能會很困難。投資者正在密切關注這個情況的發展，希望了解日本政府會採取什麼樣的措施來應對這些問題。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "11f06e3a",
-        "title": "BOJ 可能在本周期將政策利率推至 2% 以上，前官員表示",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-09/boj-may-push-policy-rate-beyond-2-this-cycle-ex-official-says",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-09 00:38:27",
-        "summary_zh": "日本央行（BOJ）可能在本周期內將政策利率推至 2% 以上，前日本央行官員表示。日本央行在 2023 年 4 月宣布將政策利率從 0.1% 提高至 0.5%。這是自 2000 年以來日本央行首次升息。日本央行官員表示，升息是為了控制通膨和防止經濟過熱。然而，前日本央行官員表示，日本央行可能會在本周期內再次升息，將政策利率推至 2% 以上。這將是日本央行自 2000 年以來的最大升息幅度。前日本央行官員表示，這將是日本央行對抗通膨和防止經濟過熱的努力的一部分。然而，這也可能會對日本經濟產生負面影響，例如提高貸款成本和減少消費者支出。日本央行將在未來幾個月內繼續監測經濟情況，並根據需要進行調整。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      }
-    ],
-    "global": [
-      {
-        "id": "15ab4847",
-        "title": "印度IPO風暴：美國終止伊朗停火令，50億美元的首次公開發行計畫受影響",
-        "url": "https://www.cnbc.com/2026/07/09/india-ipo-50-billion-jio-phonepe-nse.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-07-09 00:09:01",
-        "summary_zh": "印度今年初的IPO市場出現了緩慢的起步，但隨著50億美元的首次公開發行計畫即將在印度市場上市，市場預期將出現大幅增長。然而，美國終止伊朗停火令的決定，可能會對印度的IPO市場產生重大影響。這些計畫的未來前景不明朗，投資者將面臨著不確定性的風險。印度政府和企業需要重新評估這些計畫的可行性，並考慮到新的外部環境的變化。這一事件可能會對印度的經濟和金融市場產生重大影響，投資者需要密切關注這一發展。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "9e00bc29",
-        "title": "美國對伊朗發動新一輪攻擊，南部爆發爆炸",
-        "url": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 09:53:21 GMT",
-        "summary_zh": "美國總統川普表示，這次攻擊是對伊朗昨天炸船事件的報復。伊朗早前已經承諾會實施強烈反擊。伊朗南部的爆炸事件引發了對美伊關係的緊張局勢。這一系列事件表明美伊之間的對立正在加劇。美國的軍事行動將對伊朗的經濟和政治環境產生重大影響。伊朗政府將如何應對這一挑戰，將是未來關鍵的問題。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9b45728a",
-        "title": "贏得世界盃決賽半場表演權！贾斯汀比伯將與麥當娜、夏奇拉和BTS同台演出",
-        "url": "https://www.bbc.co.uk/news/articles/c1wyx7g9e1do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 20:58:21 GMT",
-        "summary_zh": "贏得世界盃決賽半場表演權！贾斯汀比伯將與麥當娜、夏奇拉和BTS同台演出。這場表演將成為贾斯汀比伯自從復出後的最新大型演出之一，之前他曾在Coachella表演過。這場超級盃風格的表演將在世界盃決賽中展開。贾斯汀比伯的復出表現獲得了廣泛關注，現在他將與世界頂級歌手們一起在世界盃決賽中表演。這將是贾斯汀比伯在世界盃決賽中的首次表演。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e8a4c865",
-        "title": "亞利桑那州一歲半男嬰在醫院屍房被發現存活",
-        "url": "https://www.bbc.co.uk/news/articles/cvg5x0vvrmro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 20:18:13 GMT",
-        "summary_zh": "一名18個月大的男嬰在亞利桑那州被誤判為溺水死亡，事實上他仍然存活。男嬰被運送至另一家醫院接受治療，並最終存活下來。這一事件引起了關注，醫療機構應該如何避免類似錯誤發生。這一事件也讓人們重新思考醫療人員的判斷和處理程序。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5193fe39",
-        "title": "他們在見到養子後立即愛上他，但後來被告知他可能是被販賣",
-        "url": "https://www.bbc.co.uk/news/articles/czxq4ge246wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 23:31:53 GMT",
-        "summary_zh": "一對夫婦在見到他們的養子後立即愛上他，但後來被告知養子可能是被販賣到來的。這個案例揭露了印尼兒童販賣的問題，並提出了關於新加坡如何未能偵測這種行為的問題。這個案例引起了關注，新加坡政府被要求檢視其對兒童販賣的檢測和防止措施。兒童販賣是印尼的嚴重問題，新加坡政府應該採取更積極的措施來防止這種行為。這個案例也提醒我們，兒童販賣是一個複雜的問題，需要全社會的共同努力來解決。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1c893c7b",
-        "title": "蜜蜂是否有感覺？研究揭露昆蟲的『內心世界』",
-        "url": "https://www.bbc.co.uk/news/videos/cpq309jrve4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 00:28:16 GMT",
-        "summary_zh": "近期研究發現蜂巢蜂會表現出之前只見於哺乳動物的『情感類行為』。這項研究進一步證明了昆蟲的『內心世界』存在著複雜的感覺體驗。研究人員通過觀察蜂巢蜂的行為，發現它們在面對挑戰或危險時會表現出焦慮、恐懼甚至愉悅的情感。這項研究結果對於我們對昆蟲的認識和理解具有重要意義。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c2d7d518",
-        "title": "國際法院告知BBC：蘇丹戰爭罪案調查取得突破",
-        "url": "https://www.bbc.co.uk/news/articles/c9928zr2m5xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 08:49:45 GMT",
-        "summary_zh": "國際刑事法院（ICC）已經在過去三年內對達爾富爾地區的戰爭罪行展開調查。根據最新消息，ICC已經取得了關鍵性的突破，對於該地區的戰爭罪行進行調查。這項調查的目的是為了懲罰那些在達爾富爾地區犯下戰爭罪行的人。 ICC 的調查結果將對蘇丹政府和相關個人的影響非常大。這項突破將為達爾富爾地區的和平進程提供新的希望。 ICC 的調查將繼續進行，希望能夠為達爾富爾地區的受害者尋求正義。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4cb8636f",
-        "title": "新影片揭露埃里斯塔克的最後一艘船Quest",
-        "url": "https://www.bbc.co.uk/news/videos/c4gyxgyn174o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 18:42:46 GMT",
-        "summary_zh": "科學家首次拍攝了埃里斯塔克船長的船難遺址，埃里斯塔克是 Heroic Age of Antarctic Exploration 的領導人物，在 1922 年去世。這艘船Quest 是埃里斯塔克的最後一艘船，在 1922 年沉沒於南極海域。這次拍攝的影片為我們提供了關於埃里斯塔克船長的船難事件的新線索。埃里斯塔克船長的船難事件對於南極探險史有著重要的意義，該事件也啟發了許多後來的探險家。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "90e685c0",
-        "title": "烏克蘭將獲得許可生產帕特里奧飛彈，川普表示",
-        "url": "https://www.bbc.co.uk/news/articles/ce8klree690o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 17:18:14 GMT",
-        "summary_zh": "烏克蘭將獲得許可生產帕特里奧飛彈，這是由川普宣布的最新消息。帕特里奧飛彈在對抗俄羅斯的彈道飛彈時表現出色，但生產時間卻相當長久。這一消息對於烏克蘭的軍事能力將產生重大影響，同時也會對俄羅斯的軍事行動產生一定的影響。烏克蘭的軍事力量正在得到增強，這將對地區的安全格局產生重大變化。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "001fffc5",
-        "title": "星萊默領受土耳其總統贈送的槍支和彈藥",
-        "url": "https://www.bbc.co.uk/news/articles/c0jy3pd2jzqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 20:40:11 GMT",
-        "summary_zh": "英國工黨領袖星萊默在北約會議期間，接受土耳其總統的禮物——一把槍支和彈藥。然而，這把槍支並沒有被帶回英國，而是留在土耳其與英國官員一起。這一事件引發了對槍支管理和安全的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a2b89e28",
-        "title": "富裕AI工作者推動舊金山房價大幅上漲",
-        "url": "https://www.bbc.co.uk/news/articles/c9q29j47v9ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 23:11:35 GMT",
-        "summary_zh": "舊金山房價創下新高，目前的平均房價已經達到1700萬美元。這種趨勢與富裕的AI工作者在該城市的聚集有關。根據最新的數據，富裕的AI工作者的收入和投資對該城市房市的影響越來越大。這種情況不僅影響了普通民眾的購房能力，也對該城市的社會結構產生了深遠的影響。分析人士認為，這種趨勢可能會持續下去，對舊金山的房市產生持久的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9bee707f",
-        "title": "13歲女孩遭德國中學攻擊，兩人嚴重受傷，警方展開大規模調查",
-        "url": "https://www.bbc.co.uk/news/articles/c0qyvkgndzpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 15:09:08 GMT",
-        "summary_zh": "德國巴伐利亞州的史高恩高中的學生遭到攻擊，兩名13歲的女孩受傷。警方表示正在展開大規模調查，目前尚未公布攻擊者的身份或動機。事件發生在巴伐利亞州的史高恩高中，警方已經展開了大規模的行動，正在調查事件的原因和攻擊者的身份。受傷的兩名女孩被送往醫院接受治療，目前狀況嚴重。這起事件引起了社會的關注和恐慌，警方已經開始調查和處理此案件。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "05b30d16",
-        "title": "孟加拉國南部山泥傾瀉事件：8人喪生，多名學生被困",
-        "url": "https://www.bbc.co.uk/news/articles/cx2wkzww20ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 14:02:54 GMT",
-        "summary_zh": "孟加拉國南部遭受暴雨侵襲，山泥傾瀉事件發生在一所女校，造成8人死亡，多名學生被困在泥土中。救援人員正在努力挖掘泥土，尋找生還者。這次山泥傾瀉事件是由於暴雨引起的，南部地區多年來一直面臨著嚴重的洪水和山泥傾瀉問題。這次事件的影響將會對當地居民和學生造成重大打擊。預計救援工作將會持續進行，直到所有生還者被找到。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dd466c99",
-        "title": "德國醫生被判刑殺害15名病人",
-        "url": "https://www.bbc.co.uk/news/articles/cq819jyp2g7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 14:25:25 GMT",
-        "summary_zh": "德國一名專門從事終末照護的醫生，於2021年9月至2024年7月間，被判犯有殺害12名女性和3名男性病人的罪行。這名醫生被認為利用其職業權力，對病人施加了不當的影響。這起案件引發了對醫生職業倫理和終末照護的關注。德國政府和醫療界對此事件的反應表明，將加強對醫生的監控和倫理教育，以防止類似事件再次發生。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "752c4202",
-        "title": "五名機組人員仍未找到，巴基斯坦發現私人貨運飛機殘骸",
-        "url": "https://www.bbc.co.uk/news/articles/c5yze1vvlzgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 16:39:15 GMT",
-        "summary_zh": "巴基斯坦民用航空總局表示，正在努力尋找私人貨運飛機上的人員。這架飛機在巴基斯坦坠毀，目前已經發現了殘骸。巴基斯坦民用航空總局正在與當地當局合作，進行搜救工作。這起事件的原因尚未明確，但當地當局已經展開調查。這架飛機的乘員人數尚未公布，但已經確認有五名機組人員仍未找到。巴基斯坦民用航空總局呼籲民眾不要擔心安全問題，正在全力以赴地進行搜救工作。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1202d2bb",
-        "title": "印度開始將生物燃料混合進汽油，但許多司機卻不滿意",
-        "url": "https://www.bbc.co.uk/news/articles/crlw74gd6lro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 22:06:00 GMT",
-        "summary_zh": "印度政府近期開始將生物燃料混合進汽油，稱為 E20 燃料混合物。然而，許多司機表示，這種混合物已經降低了汽車的燃油效率，並可能導致維修成本上升。這項政策的目的是減少對石油的依賴，改善空氣質量，但許多司機對此感到不滿。一些司機表示，自從使用 E20 燃料混合物後，汽車的燃油效率已經下降了 10% 至 20%。這意味著，司機需要花更多的錢購買汽油和維修汽車。印度政府正在推動生物燃料的使用，以減少對石油的依賴和改善空氣質量。然而，這項政策是否能夠達到預期的效果，還需要觀察和評估。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f408e65c",
-        "title": "這些兒童死去，儘管他們的國家在麻疹方面取得了巨大的進步",
-        "url": "https://www.bbc.co.uk/news/articles/cj0gel72mlgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 22:03:05 GMT",
-        "summary_zh": "孟加拉國爆發麻疹疫情，超過12萬宗確診和疑似病例被報導。醫院面臨嚴重的擠迫，無法有效處理病患。這種情況出現在一個曾經取得了很大進步的國家，令人感到困惑和擔憂。麻疹疫苗的接種率曾經達到很高的水平，但現在病例卻大幅增加。這種情況下，醫療系統的負荷非常重，無法有效地提供服務。這一事件讓人們對於孟加拉國的公共衛生系統感到擔憂。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
