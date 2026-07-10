@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-10T07:04:35.972108+08:00",
+  "generated_at": "2026-07-10T08:04:34.099788+08:00",
   "risk_signals": [
     "🟢 台股加權 45734.41（正常）",
     "🟢 S&P 500 7543.64（正常）",
     "🟢 VIX 恐慌指數 15.84（正常）",
     "🟢 MOVE 債市波動 68.89（正常）",
-    "🟢 美元指數 100.94（正常）",
-    "🟢 黃金 4131.6（正常）",
+    "🟢 美元指數 100.92（正常）",
+    "🟢 黃金 4132.2（正常）",
     "🟡 美債10Y殖利率 4.54（留意）",
-    "🟢 原油 WTI 71.82（正常）",
-    "🟢 美元/台幣 32.11（正常）"
+    "🟢 原油 WTI 71.87（正常）",
+    "🟢 美元/台幣 32.1（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，多個指標維持正常水準，表明投資人對市場風險的評估相對樂觀。然而，美債10Y殖利率略有上升，需要留意市場對利率變化的反應。",
+  "ai_summary": "市場氛圍良好，多個指標維持正常水準，表明投資人信心恢復。美元指數和美債10Y殖利率略有波動，需要留意。",
   "market": {
     "TWII": {
       "price": 45734.41,
@@ -38,83 +38,217 @@
       "change_pct": 5.34
     },
     "DXY": {
-      "price": 100.94,
-      "change_pct": -0.11
+      "price": 100.92,
+      "change_pct": -0.13
     },
     "GOLD": {
-      "price": 4131.6,
-      "change_pct": 1.49
+      "price": 4132.2,
+      "change_pct": 1.51
     },
     "OIL": {
-      "price": 71.82,
-      "change_pct": -2.31
+      "price": 71.87,
+      "change_pct": -2.24
     },
     "USDTWD": {
-      "price": 32.11,
-      "change_pct": 0.0
+      "price": 32.1,
+      "change_pct": -0.04
     }
   },
   "macro": {},
   "categories": {
-    "whitehouse": [
+    "global": [
       {
-        "id": "a3b6bbe2",
-        "title": "白宮發布：川普總統調整美國進口商用飛機、噴射發動機和飛機零件",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-adjusts-imports-of-commercial-aircraft-jet-engines-and-aircraft-and-engine-parts-into-the-united-states/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 20:23:18 +0000",
-        "summary_zh": "川普總統簽署命令，根據《貿易擴張法案》第 232 條，要求美國商務部長和美國貿易代表共同與貿易夥伴談判，解決商用飛機、噴射發動機和飛機零件對美國國防安全的威脅。這項措施旨在支持美國業界，保護國內的工作機會和產業競爭力。川普總統的決定將對美國航空業產生重大影響，可能導致進口商用飛機和零件的限制。這項行動將進一步加強川普政府對美國產業保護的承諾。",
+        "id": "9e00bc29",
+        "title": "美國對伊朗發動新一輪攻擊，南部爆發爆炸",
+        "url": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 23:02:18 GMT",
+        "summary_zh": "美國總統川普表示，這次攻擊是對伊朗昨天炸船事件的報復。伊朗早前已經承諾會實施強烈反擊。伊朗南部的爆炸事件引發了對美伊關係的緊張局勢。這一系列事件表明美伊之間的對立正在加劇。美國的軍事行動將對伊朗的經濟和政治環境產生重大影響。伊朗政府將如何應對這一挑戰，將是未來關鍵的問題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8c0cc066",
+        "title": "美國爆發「爆炸性痢疾」寄生蟲疫情：至少 17 個州受影響",
+        "url": "https://www.bbc.co.uk/news/articles/c621m66qm76o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 23:45:03 GMT",
+        "summary_zh": "美國爆發了一個由「爆炸性痢疾」寄生蟲引起的疫情，該疫情已經在至少 17 個州傳播。目前，疫情的來源仍不清楚。這種寄生蟲會引起腹瀉、腹痛、體重減輕等症狀。美國衛生部門正在努力追蹤疫情的來源和傳播途徑，以防止疫情的擴散。這種疫情對美國的健康和經濟都可能造成重大影響。美國政府正在與各州合作，制定應對措施，保護公民的健康和安全。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "54b0425e",
-        "title": "調整美國進口商用飛機、噴射引擎和飛機零件",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/adjusting-imports-of-commercial-aircraft-jet-engines-and-aircraft-and-engine-parts-into-the-united-states/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 20:21:16 +0000",
-        "summary_zh": "美國總統發佈命令，調整進口商用飛機、噴射引擎和飛機零件的措施。根據《232條例》，美國商務部長在最近的90天內提交了一份調查報告，關於進口商用飛機、噴射引擎和相關零件對美國國安的影響。這項命令旨在保護美國國安，確保美國的航空業不受外國的影響。美國政府將繼續關注這一問題，並將採取必要的措施來保護國安。這項命令將對美國的航空業產生重大影響，可能會導致進口商用飛機、噴射引擎和飛機零件的限制或禁令。",
+        "id": "201526eb",
+        "title": "阿曼在聯合國表明反對在霍爾木茲海峽徵收過境費",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-09/oman-tells-un-it-s-against-imposing-transit-fees-in-hormuz",
+        "source": "Bloomberg",
+        "category": "global",
+        "published_at": "2026-07-09 11:52:14",
+        "summary_zh": "阿曼政府在聯合國發表聲明，表明反對在霍爾木茲海峽徵收過境費。霍爾木茲海峽是世界上最繁忙的海上航道之一，連接印度洋和波斯灣。阿曼政府認為，徵收過境費將會對全球貿易造成重大影響，可能導致油價上漲。阿曼政府還呼籲各國應該通過和平談判來解決霍爾木茲海峽的安全問題。這項聲明是阿曼政府對於美國和伊朗之間的霍爾木茲海峽安全問題的最新回應。美國和伊朗之間的緊張關係已經多年了，最近幾個月來，兩國之間的對峙加劇。阿曼政府的聲明表明，阿曼政府希望通過和平的方式來解決霍爾木茲海峽的安全問題。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "b4bf6293",
-        "title": "白宮環境質量委員會宣布展出許可證創新科技方案",
-        "url": "https://www.whitehouse.gov/releases/2026/07/white-house-ceq-announces-technology-solutions-selected-to-showcase-at-permitting-innovators-expo/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 14:59:39 +0000",
-        "summary_zh": "白宮環境質量委員會宣布，將於7月31日在華盛頓特區舉辦許可證創新者展覽會。該展覽會旨在推動許可證科技的更新，實現21世紀的許可證管理。委員會根據總統特朗普的指示，邀請了多家業界夥伴參與展覽。這些夥伴將展示許多創新的許可證科技方案，以改善許可證流程和環境保護。這項舉措將有助於推動許可證管理的革新和改善。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "id": "0563b424",
+        "title": "烏克蘭攻擊俄羅斯船隻靠近克里米亞，升級對燃料供應的攻擊",
+        "url": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 15:21:17 GMT",
+        "summary_zh": "烏克蘭近日對俄羅斯船隻進行攻擊，攻擊目標位於克里米亞半島附近。這似乎是烏克蘭試圖切斷克里米亞被佔領區的供應線和路線的最新階段。烏克蘭的行動旨在限制俄羅斯對克里米亞的燃料供應，進一步加劇雙方的對峙。這一發展可能會對俄羅斯的經濟和軍事行動產生重大影響。烏克蘭的攻擊行動表明該國將繼續對俄羅斯的行動進行反擊，試圖限制俄羅斯對克里米亞的控制。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
-        "id": "f7da8667",
-        "title": "白宮發布：川普總統在安卡拉峰會上取得史無前例的防衛投資，為美國工業注入新動力",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-secures-historic-defense-investment-from-nato-allies-powering-american-industry/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 00:20:35 +0000",
-        "summary_zh": "本週，川普總統在2026年安卡拉峰會上宣布，北約盟國將大幅增加防衛投資，為美國公司開闢新市場，支持數千個高薪美國製造業工作。這是川普總統領導下的北約產生了一個時代性的轉變，盟國的參與率大幅增加。這項投資將為美國製造業注入新動力，創造更多就業機會，同時也將美國的安全利益放在首位。這項決定將對美國經濟和安全產生重大影響，展現了川普總統對美國利益的堅定承諾。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "id": "5723c985",
+        "title": "烏克蘭情報員被控殺害摩納哥爆炸嫌犯改口",
+        "url": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 20:47:41 GMT",
+        "summary_zh": "摩納哥爆炸案嫌犯安娜斯塔西婭·貝雷佐夫斯卡（Anastasiia Berezovska）被殺害案中，兩名與烏克蘭安全服務有關的男子被指控犯下此案，並將她的屍體棄置在森林中。這兩名男子最初否認犯案，但後來改口承認了自己的罪行。這起案件引發了對烏克蘭安全服務的關注和質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
-        "id": "226d4bcc",
-        "title": "前奧運選手辯護不認罪：涉嫌破壞華盛頓林肯紀念館反映池",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/09/donald-trump-graham-platner-mitch-mcconnell-iran-midterms-latest-news-updates",
+        "id": "15ab4847",
+        "title": "印度IPO風暴：美國終止伊朗停火令，50億美元的首次公開發行計畫受影響",
+        "url": "https://www.cnbc.com/2026/07/09/india-ipo-50-billion-jio-phonepe-nse.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-07-09 00:09:01",
+        "summary_zh": "印度今年初的IPO市場出現了緩慢的起步，但隨著50億美元的首次公開發行計畫即將在印度市場上市，市場預期將出現大幅增長。然而，美國終止伊朗停火令的決定，可能會對印度的IPO市場產生重大影響。這些計畫的未來前景不明朗，投資者將面臨著不確定性的風險。印度政府和企業需要重新評估這些計畫的可行性，並考慮到新的外部環境的變化。這一事件可能會對印度的經濟和金融市場產生重大影響，投資者需要密切關注這一發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "72271fd2",
+        "title": "巴勒斯坦人哀悼加沙世界盃直播組織者在以色列空襲中喪生",
+        "url": "https://www.bbc.co.uk/news/articles/cwylznzjk04o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 21:04:09 GMT",
+        "summary_zh": "在以色列與哈馬斯戰爭期間，援助工作者穆罕默德·阿爾瓦希迪（Mohammed al-Wahidi）成為了突出的人道主義人物。近日，他在一場以色列空襲中喪生。阿爾瓦希迪曾負責在加沙地區直播世界盃比賽，為當地民眾帶來歡樂和精神上的慰藉。他的死引起了巴勒斯坦人對以色列行動的強烈不滿和抗議。這一事件也引發了對人道主義工作者的安全和保護的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b28e4dab",
+        "title": "美國支持的霍爾木茲海峽航線船隻大幅減少",
+        "url": "https://www.bbc.co.uk/news/articles/c621k5r8764o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 14:41:54 GMT",
+        "summary_zh": "霍爾木茲海峽是全球重要的石油和天然氣運輸通道，近日遭受攻擊後，數據顯示船隻通過該水道的數量大幅下降。許多船隻運載石油和天然氣，遭受攻擊後，船隻出於安全考慮，選擇避開霍爾木茲海峽，轉而通過其他航線。這一變化可能會對全球石油和天然氣市場造成影響，進而影響到全球經濟。美國和其他國家已經對霍爾木茲海峽的安全表示關注，並正在努力維持該區域的穩定。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "57e93db4",
+        "title": "希臘戰機在繁忙機場著陸失敗",
+        "url": "https://www.bbc.co.uk/news/articles/czrxz18720eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 16:15:10 GMT",
+        "summary_zh": "希臘一架F-16戰機在扎金索斯機場著陸失敗，機上無人生還。據報導，該機在著陸時未開放降落架，最終引發大火，關閉了整條跑道。扎金索斯機場是希臘一個重要的航空樞紐，該事件對當地的航空運輸產生了重大影響。希臘政府已經展開調查，了解該事件的原因。這一事件也引起了對希臘航空安全的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bb1be083",
+        "title": "中國「鞋都」工廠大火至少殺28人",
+        "url": "https://www.bbc.co.uk/news/articles/cx2vz51v2pjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 15:14:35 GMT",
+        "summary_zh": "中國一場工廠大火造成至少28人死亡，視頻顯示火場上有巨大的火焰和濃煙升空。這起事故發生在中國的「鞋都」-浙江省溫州，這座城市以其豐富的鞋類產業聞名。事件的具體原因尚未公布，但當地政府已經展開調查。這場大火對當地的鞋類產業和居民造成了重大影響，當地政府已經開始為受影響的家庭提供幫助。目前，當地的治安部門正在努力控制火勢，並且正在調查火災的原因。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "41a77ee0",
+        "title": "通膨與經濟隱憂夾擊 國際油價下跌約2%",
+        "url": "https://www.cna.com.tw/news/aopl/202607100011.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Fri, 10 Jul 2026 03:47:23 +0800",
+        "summary_zh": "國際油價今天下跌約2%，主要原因是市場擔憂通膨升溫和其他經濟問題將削弱全球石油需求。儘管美伊衝突延誤荷莫茲海峽的全面重新開放，導致原油供應持續受限。這種情況使得投資者對未來石油需求感到擔憂，從而導致油價下跌。這種下跌可能會對全球經濟產生影響，特別是在能源消費國。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "fb39ecb5",
+        "title": "美國國家氣象局：歷史性厄爾尼諾風暴風險升高，可能持續至 2027 年春季",
+        "url": "https://www.theguardian.com/us-news/2026/jul/09/el-nino-risks-extreme-weather",
         "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 22:20:25 GMT",
-        "summary_zh": "前奧運單板滑雪選手大衛·赫恩（David Hearn）被控單一重罪，涉嫌破壞華盛頓林肯紀念館反映池。赫恩在去月被捕，當時他騎著自行車途經池區。赫恩表示，他被拘留近五個小時，因為他試圖檢查池水中的藍色防水膜，該膜部分脫落。赫恩聲稱，他只是出於好奇，想知道它的觸感。這起案件引起了爭議，前總統川普（Trump）指控赫恩涉嫌破壞池區。赫恩辯護律師表示，他的客戶不認罪。這起案件將進一步審理。",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 21:06:22 GMT",
+        "summary_zh": "美國國家氣象局最新分析顯示，厄爾尼諾風暴正加強，風險升高至 81%，有望在今年年底前形成。這將是自 1950 年以來歷史性的大型厄爾尼諾風暴，對全球天氣產生重大影響。氣象局預測，厄爾尼諾風暴將持續至 2027 年春季，風險達 97%。厄爾尼諾風暴可能導致極端天氣的增強，對全球各地的氣候和天氣產生重大影響。氣象局的預測將對全球各地的氣候和天氣產生重大影響，需要密切關注和準備。",
         "sentiment": "中性",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "080d9a84",
+        "title": "尼日利亞爆發政治風暴：政府總部內成立虛構機構遭受批評",
+        "url": "https://www.theguardian.com/world/2026/jul/09/bola-tinubu-under-pressure-fake-nigerian-government-agency-political-storm",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 16:20:41 GMT",
+        "summary_zh": "尼日利亞總統下令調查，指出一家虛構的聯邦機構在尼日利亞 2026 年預算中獲得 1.3 億奈拉（約 7,000,000 英鎊）的資金，引發了對該國最大民主國家的腐敗指控。這家虛構機構在去年十月被揭露時，尼日利亞總統的首席秘書費米·加巴賈比阿米拉（Femi Gbajabiamila）向警察提交了一份書面材料，指控他的簽名、官方印章和參考編號被阿登尼·阿德耶米·馬修（Adeniyi Adeyemi Matthew）所冒用，後者聲稱自己被總統任命為總統外交干預促進委員會（PFIPC）的負責人。這一事件在尼日利亞即將舉行的總統大選前引發了強烈的反應。尼日利亞政府的腐敗問題一直是該國政治的重要議題。這一事件的發生使得尼日利亞政府的誠信和透明度再次受到質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "543ab63e",
+        "title": "LGBTQ+郵輪遭拒入埃及，僅幾天前被土耳其拒絕",
+        "url": "https://www.theguardian.com/world/2026/jul/09/lgbtq-cruise-ship-refused-entry-egypt-turkey",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 12:59:24 GMT",
+        "summary_zh": "近日，LGBTQ+郵輪「絢麗女王號」（Scarlet Lady）遭到土耳其拒絕入境後，現在又被埃及拒絕入境。該郵輪共有2,000名乘客，包括百老匯演員帕蒂盧波內（Patti LuPone），星期四早上醒來後發現 cabin 門下有張通知紙，通知郵輪急需尋找替代港口。郵輪乘客表示，將會在其他地方「閃閃發光、花錢大方」。這次事件的背景是，埃及和土耳其都對同性戀者有著嚴格的法律限制。埃及的法律禁止同性戀者公開表達自己的性別認同，而土耳其的法律則禁止同性戀者與異性戀者結婚。這些法律限制對同性戀者社群造成了嚴重的影響。該郵輪的乘客們對此感到沮喪和憤怒，認為這些國家的法律限制是對同性戀者社群的歧視。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e5e51600",
+        "title": "物種的聰明生存策略無法抵擋人類的破壞，紅色名單揭露",
+        "url": "https://www.theguardian.com/environment/2026/jul/09/species-ingenious-survival-strategies-no-match-human-destruction-red-list",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 12:20:09 GMT",
+        "summary_zh": "今年的紅色名單揭露，人類活動正在破壞地球上各個角落的生態平衡。許多物種已經適應了極端深海的生活環境，但卻因為深海礦業而面臨絕種的風險。紅色名單指出，深海礦業正在威脅到數百種只生活在深海熱泉的軟體動物物種的生存。這些物種曾經通過演化出聰明的生存策略來適應極端深海的生活環境，但現在卻無法抵擋人類的破壞。紅色名單的發布表明，人類的活動正在對地球的生物多樣性造成重大威脅。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "whitehouse": [
+      {
+        "id": "16dfe10a",
+        "title": "被告Charlie Kirk槍手承認罪行，室友在法庭上播放的視頻中承認",
+        "url": "https://www.bbc.co.uk/news/articles/c621v466y91o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 21:01:35 GMT",
+        "summary_zh": "Charlie Kirk槍擊案的被告，室友Lance Twiggs在法庭上播放的視頻中承認了罪行。根據庭上播放的視頻，Lance Twiggs承認了與被告的聯繫，並透露了兩人之間的對話內容。這些視頻和文本訊息被用作證據，來證明被告的罪行。這起槍擊案引起了廣泛關注，Charlie Kirk是一位知名政治活動家，槍擊案的結果對他和他的支持者造成了重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -130,15 +264,27 @@
         "ai_classified": true
       },
       {
-        "id": "a49e56d1",
-        "title": "艾里卡·柯克要求丈夫被殺案相關證物全部公開",
-        "url": "https://www.theguardian.com/us-news/2026/jul/09/erika-charlie-kirk-transparency-judge",
-        "source": "Guardian US",
+        "id": "9ea9a70d",
+        "title": "觀看：室友稱查理·柯克謀殺案疑兇承認犯案",
+        "url": "https://www.bbc.co.uk/news/videos/cx2kz07k988o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 21:58:27 GMT",
-        "summary_zh": "艾里卡·柯克，右翼活動家查理·柯克的寡婦，要求一名犹他州法官允許公開庭上展示與她丈夫被殺案相關的所有證物。她表示，擔心謀殺案會引發各種陰謀論。這名法官將在犹他州普羅沃的一個初步聽證會上決定是否有足夠的證據來進行對查理·柯克被殺案的嫌疑犯泰勒·羅賓遜的審判。泰勒·羅賓遜被控於去年九月在犹他谷大學發生的一次槍擊案中殺害查理·柯克。艾里卡·柯克認為公開證物可以避免謀殺案的陰謀論傳播。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "published_at": "Thu, 09 Jul 2026 18:37:14 GMT",
+        "summary_zh": "美國查理·柯克謀殺案的嫌疑犯泰勒·羅賓森（Tyler Robinson）在警方的調查中被捕。泰勒的室友在法庭上作證，指出泰勒在警方的採訪中承認犯案。這些錄音在法庭上被播放，作為初步聽證會的一部分。泰勒被指控謀殺查理·柯克（Charlie Kirk），案件正在進行中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1c756b72",
+        "title": "普拉特納的失敗候選人揭露了可能會降低民主黨參議院希望的裂痕",
+        "url": "https://www.bbc.co.uk/news/articles/c20ylnn8wqgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 06:28:08 GMT",
+        "summary_zh": "民主黨在一場必勝的選舉中引發了動盪，格拉罕普拉特納的退選正在暴露黨內左派和中間派之間的分歧。這種分歧可能會對民主黨參議院的希望產生負面影響。民主黨需要在這場選舉中取得勝利，否則將會對他們的政治地位造成重大影響。左派和中間派之間的分歧可能會導致黨內的分裂和不穩定。這種情況可能會影響民主黨參議院的選舉結果和未來的政治策略。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -151,6 +297,102 @@
         "summary_zh": "緬因州參議院選舉的民主黨人格拉罕普拉特納宣布暫停競選。這項決定出現於一名女性指控他性侵犯的事件發生後不久。該名女性指控他性侵犯，格拉罕普拉特納否認這項指控，稱其為「完全不正確」。這項事件對格拉罕普拉特納的競選活動造成了重大影響，暫停競選的決定可能是為了避免對競選活動造成更多傷害。這項事件也引起了對性別暴力的關注和討論。格拉罕普拉特納的暫停競選將對緬因州參議院選舉產生重大影響，未來的發展仍待觀察。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1d1c4dbe",
+        "title": "視頻：休斯頓爆發大規模抗議　美移民局槍殺墨西哥籍男子",
+        "url": "https://www.bbc.co.uk/news/videos/cj3gdzxrry3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 15:02:24 GMT",
+        "summary_zh": "休斯頓市近日爆發大規模抗議，抗議者要求對於一名墨西哥籍男子被美移民局槍殺一事進行獨立調查。52歲的洛倫佐·薩爾加多·阿勞霍（Lorenzo Salgado Araujo）被美移民局槍殺事件引發了民眾的強烈不滿。抗議者認為，美移民局的行動違反了人權原則，要求政府對此事件進行徹底調查。抗議活動持續進行中，民眾的聲音正在被聽見。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c4cc53b0",
+        "title": "佛羅里達州機場更名為川普國際機場，旅客反應熱烈",
+        "url": "https://www.bbc.co.uk/news/videos/cly9r0zwkzko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 13:50:12 GMT",
+        "summary_zh": "佛羅里達州帕爾姆灘國際機場於 7 月 9 日正式更名為川普國際機場。這一決定引起了旅客的強烈反應，許多人對此表示不滿和抗議。這一更名決定是由前總統川普所推動的，他在任內曾多次訪問該機場。然而，許多人認為這一更名決定是對美國民主價值的侵犯，同時也引發了對川普的批評。這一事件也引起了輿論的關注，許多人對此表示了強烈的反對意見。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a3b6bbe2",
+        "title": "白宮發布：川普總統調整美國進口商用飛機、噴射發動機和飛機零件",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-adjusts-imports-of-commercial-aircraft-jet-engines-and-aircraft-and-engine-parts-into-the-united-states/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 20:23:18 +0000",
+        "summary_zh": "川普總統簽署命令，根據《貿易擴張法案》第 232 條，要求美國商務部長和美國貿易代表共同與貿易夥伴談判，解決商用飛機、噴射發動機和飛機零件對美國國防安全的威脅。這項措施旨在支持美國業界，保護國內的工作機會和產業競爭力。川普總統的決定將對美國航空業產生重大影響，可能導致進口商用飛機和零件的限制。這項行動將進一步加強川普政府對美國產業保護的承諾。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "54b0425e",
+        "title": "調整美國進口商用飛機、噴射引擎和飛機零件",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/adjusting-imports-of-commercial-aircraft-jet-engines-and-aircraft-and-engine-parts-into-the-united-states/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 20:21:16 +0000",
+        "summary_zh": "美國總統發佈命令，調整進口商用飛機、噴射引擎和飛機零件的措施。根據《232條例》，美國商務部長在最近的90天內提交了一份調查報告，關於進口商用飛機、噴射引擎和相關零件對美國國安的影響。這項命令旨在保護美國國安，確保美國的航空業不受外國的影響。美國政府將繼續關注這一問題，並將採取必要的措施來保護國安。這項命令將對美國的航空業產生重大影響，可能會導致進口商用飛機、噴射引擎和飛機零件的限制或禁令。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b4bf6293",
+        "title": "白宮環境質量委員會宣布展出許可證創新科技方案",
+        "url": "https://www.whitehouse.gov/releases/2026/07/white-house-ceq-announces-technology-solutions-selected-to-showcase-at-permitting-innovators-expo/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 14:59:39 +0000",
+        "summary_zh": "白宮環境質量委員會宣布，將於7月31日在華盛頓特區舉辦許可證創新者展覽會。該展覽會旨在推動許可證科技的更新，實現21世紀的許可證管理。委員會根據總統特朗普的指示，邀請了多家業界夥伴參與展覽。這些夥伴將展示許多創新的許可證科技方案，以改善許可證流程和環境保護。這項舉措將有助於推動許可證管理的革新和改善。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f7da8667",
+        "title": "白宮發布：川普總統在安卡拉峰會上取得史無前例的防衛投資，為美國工業注入新動力",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-secures-historic-defense-investment-from-nato-allies-powering-american-industry/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 00:20:35 +0000",
+        "summary_zh": "本週，川普總統在2026年安卡拉峰會上宣布，北約盟國將大幅增加防衛投資，為美國公司開闢新市場，支持數千個高薪美國製造業工作。這是川普總統領導下的北約產生了一個時代性的轉變，盟國的參與率大幅增加。這項投資將為美國製造業注入新動力，創造更多就業機會，同時也將美國的安全利益放在首位。這項決定將對美國經濟和安全產生重大影響，展現了川普總統對美國利益的堅定承諾。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a49e56d1",
+        "title": "艾里卡·柯克要求丈夫被殺案相關證物全部公開",
+        "url": "https://www.theguardian.com/us-news/2026/jul/09/erika-charlie-kirk-transparency-judge",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 23:39:12 GMT",
+        "summary_zh": "艾里卡·柯克，右翼活動家查理·柯克的寡婦，要求一名犹他州法官允許公開庭上展示與她丈夫被殺案相關的所有證物。她表示，擔心謀殺案會引發各種陰謀論。這名法官將在犹他州普羅沃的一個初步聽證會上決定是否有足夠的證據來進行對查理·柯克被殺案的嫌疑犯泰勒·羅賓遜的審判。泰勒·羅賓遜被控於去年九月在犹他谷大學發生的一次槍擊案中殺害查理·柯克。艾里卡·柯克認為公開證物可以避免謀殺案的陰謀論傳播。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "226d4bcc",
+        "title": "前奧運選手辯護不認罪：涉嫌破壞華盛頓林肯紀念館反映池",
+        "url": "https://www.theguardian.com/us-news/live/2026/jul/09/donald-trump-graham-platner-mitch-mcconnell-iran-midterms-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 23:27:09 GMT",
+        "summary_zh": "前奧運單板滑雪選手大衛·赫恩（David Hearn）被控單一重罪，涉嫌破壞華盛頓林肯紀念館反映池。赫恩在去月被捕，當時他騎著自行車途經池區。赫恩表示，他被拘留近五個小時，因為他試圖檢查池水中的藍色防水膜，該膜部分脫落。赫恩聲稱，他只是出於好奇，想知道它的觸感。這起案件引起了爭議，前總統川普（Trump）指控赫恩涉嫌破壞池區。赫恩辯護律師表示，他的客戶不認罪。這起案件將進一步審理。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -200,275 +442,9 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "16dfe10a",
-        "title": "被告Charlie Kirk槍手承認罪行，室友在法庭上播放的視頻中承認",
-        "url": "https://www.bbc.co.uk/news/articles/c621v466y91o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 21:01:35 GMT",
-        "summary_zh": "Charlie Kirk槍擊案的被告，室友Lance Twiggs在法庭上播放的視頻中承認了罪行。根據庭上播放的視頻，Lance Twiggs承認了與被告的聯繫，並透露了兩人之間的對話內容。這些視頻和文本訊息被用作證據，來證明被告的罪行。這起槍擊案引起了廣泛關注，Charlie Kirk是一位知名政治活動家，槍擊案的結果對他和他的支持者造成了重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9ea9a70d",
-        "title": "觀看：室友稱查理·柯克謀殺案疑兇承認犯案",
-        "url": "https://www.bbc.co.uk/news/videos/cx2kz07k988o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 18:37:14 GMT",
-        "summary_zh": "美國查理·柯克謀殺案的嫌疑犯泰勒·羅賓森（Tyler Robinson）在警方的調查中被捕。泰勒的室友在法庭上作證，指出泰勒在警方的採訪中承認犯案。這些錄音在法庭上被播放，作為初步聽證會的一部分。泰勒被指控謀殺查理·柯克（Charlie Kirk），案件正在進行中。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1c756b72",
-        "title": "普拉特納的失敗候選人揭露了可能會降低民主黨參議院希望的裂痕",
-        "url": "https://www.bbc.co.uk/news/articles/c20ylnn8wqgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 06:28:08 GMT",
-        "summary_zh": "民主黨在一場必勝的選舉中引發了動盪，格拉罕普拉特納的退選正在暴露黨內左派和中間派之間的分歧。這種分歧可能會對民主黨參議院的希望產生負面影響。民主黨需要在這場選舉中取得勝利，否則將會對他們的政治地位造成重大影響。左派和中間派之間的分歧可能會導致黨內的分裂和不穩定。這種情況可能會影響民主黨參議院的選舉結果和未來的政治策略。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1d1c4dbe",
-        "title": "視頻：休斯頓爆發大規模抗議　美移民局槍殺墨西哥籍男子",
-        "url": "https://www.bbc.co.uk/news/videos/cj3gdzxrry3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 15:02:24 GMT",
-        "summary_zh": "休斯頓市近日爆發大規模抗議，抗議者要求對於一名墨西哥籍男子被美移民局槍殺一事進行獨立調查。52歲的洛倫佐·薩爾加多·阿勞霍（Lorenzo Salgado Araujo）被美移民局槍殺事件引發了民眾的強烈不滿。抗議者認為，美移民局的行動違反了人權原則，要求政府對此事件進行徹底調查。抗議活動持續進行中，民眾的聲音正在被聽見。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4298b78a",
-        "title": "川普要求美國最高法院重新審視出生公民權案",
-        "url": "https://www.bbc.co.uk/news/articles/cx23zk1jp1go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 08 Jul 2026 23:11:16 GMT",
-        "summary_zh": "川普在美國最高法院宣布出生公民權案後，立即要求最高法院重新審視此案。這是川普的一個長途跑步，來自於一周前美國最高法院裁定出生在美國的人有憲法權利獲得公民權。川普的要求引發了對美國公民權的爭議，許多人認為這是對美國憲法的挑戰。美國最高法院的裁定是對於美國公民權的重要保障，川普的要求可能會對美國的政治格局產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "080d9a84",
-        "title": "尼日利亞爆發政治風暴：政府總部內成立虛構機構遭受批評",
-        "url": "https://www.theguardian.com/world/2026/jul/09/bola-tinubu-under-pressure-fake-nigerian-government-agency-political-storm",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 16:20:41 GMT",
-        "summary_zh": "尼日利亞總統下令調查，指出一家虛構的聯邦機構在尼日利亞 2026 年預算中獲得 1.3 億奈拉（約 7,000,000 英鎊）的資金，引發了對該國最大民主國家的腐敗指控。這家虛構機構在去年十月被揭露時，尼日利亞總統的首席秘書費米·加巴賈比阿米拉（Femi Gbajabiamila）向警察提交了一份書面材料，指控他的簽名、官方印章和參考編號被阿登尼·阿德耶米·馬修（Adeniyi Adeyemi Matthew）所冒用，後者聲稱自己被總統任命為總統外交干預促進委員會（PFIPC）的負責人。這一事件在尼日利亞即將舉行的總統大選前引發了強烈的反應。尼日利亞政府的腐敗問題一直是該國政治的重要議題。這一事件的發生使得尼日利亞政府的誠信和透明度再次受到質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "543ab63e",
-        "title": "LGBTQ+郵輪遭拒入埃及，僅幾天前被土耳其拒絕",
-        "url": "https://www.theguardian.com/world/2026/jul/09/lgbtq-cruise-ship-refused-entry-egypt-turkey",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 12:59:24 GMT",
-        "summary_zh": "近日，LGBTQ+郵輪「絢麗女王號」（Scarlet Lady）遭到土耳其拒絕入境後，現在又被埃及拒絕入境。該郵輪共有2,000名乘客，包括百老匯演員帕蒂盧波內（Patti LuPone），星期四早上醒來後發現 cabin 門下有張通知紙，通知郵輪急需尋找替代港口。郵輪乘客表示，將會在其他地方「閃閃發光、花錢大方」。這次事件的背景是，埃及和土耳其都對同性戀者有著嚴格的法律限制。埃及的法律禁止同性戀者公開表達自己的性別認同，而土耳其的法律則禁止同性戀者與異性戀者結婚。這些法律限制對同性戀者社群造成了嚴重的影響。該郵輪的乘客們對此感到沮喪和憤怒，認為這些國家的法律限制是對同性戀者社群的歧視。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e5e51600",
-        "title": "物種的聰明生存策略無法抵擋人類的破壞，紅色名單揭露",
-        "url": "https://www.theguardian.com/environment/2026/jul/09/species-ingenious-survival-strategies-no-match-human-destruction-red-list",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 12:20:09 GMT",
-        "summary_zh": "今年的紅色名單揭露，人類活動正在破壞地球上各個角落的生態平衡。許多物種已經適應了極端深海的生活環境，但卻因為深海礦業而面臨絕種的風險。紅色名單指出，深海礦業正在威脅到數百種只生活在深海熱泉的軟體動物物種的生存。這些物種曾經通過演化出聰明的生存策略來適應極端深海的生活環境，但現在卻無法抵擋人類的破壞。紅色名單的發布表明，人類的活動正在對地球的生物多樣性造成重大威脅。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "15ab4847",
-        "title": "印度IPO風暴：美國終止伊朗停火令，50億美元的首次公開發行計畫受影響",
-        "url": "https://www.cnbc.com/2026/07/09/india-ipo-50-billion-jio-phonepe-nse.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-07-09 00:09:01",
-        "summary_zh": "印度今年初的IPO市場出現了緩慢的起步，但隨著50億美元的首次公開發行計畫即將在印度市場上市，市場預期將出現大幅增長。然而，美國終止伊朗停火令的決定，可能會對印度的IPO市場產生重大影響。這些計畫的未來前景不明朗，投資者將面臨著不確定性的風險。印度政府和企業需要重新評估這些計畫的可行性，並考慮到新的外部環境的變化。這一事件可能會對印度的經濟和金融市場產生重大影響，投資者需要密切關注這一發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9e00bc29",
-        "title": "美國對伊朗發動新一輪攻擊，南部爆發爆炸",
-        "url": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 21:13:49 GMT",
-        "summary_zh": "美國總統川普表示，這次攻擊是對伊朗昨天炸船事件的報復。伊朗早前已經承諾會實施強烈反擊。伊朗南部的爆炸事件引發了對美伊關係的緊張局勢。這一系列事件表明美伊之間的對立正在加劇。美國的軍事行動將對伊朗的經濟和政治環境產生重大影響。伊朗政府將如何應對這一挑戰，將是未來關鍵的問題。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "41a77ee0",
-        "title": "通膨與經濟隱憂夾擊 國際油價下跌約2%",
-        "url": "https://www.cna.com.tw/news/aopl/202607100011.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Fri, 10 Jul 2026 03:47:23 +0800",
-        "summary_zh": "國際油價今天下跌約2%，主要原因是市場擔憂通膨升溫和其他經濟問題將削弱全球石油需求。儘管美伊衝突延誤荷莫茲海峽的全面重新開放，導致原油供應持續受限。這種情況使得投資者對未來石油需求感到擔憂，從而導致油價下跌。這種下跌可能會對全球經濟產生影響，特別是在能源消費國。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a2b89e28",
-        "title": "富裕AI工作者推動舊金山房價大幅上漲",
-        "url": "https://www.bbc.co.uk/news/articles/c9q29j47v9ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 23:11:35 GMT",
-        "summary_zh": "舊金山房價創下新高，目前的平均房價已經達到1700萬美元。這種趨勢與富裕的AI工作者在該城市的聚集有關。根據最新的數據，富裕的AI工作者的收入和投資對該城市房市的影響越來越大。這種情況不僅影響了普通民眾的購房能力，也對該城市的社會結構產生了深遠的影響。分析人士認為，這種趨勢可能會持續下去，對舊金山的房市產生持久的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "fb39ecb5",
-        "title": "美國國家氣象局：歷史性厄爾尼諾風暴風險升高，可能持續至 2027 年春季",
-        "url": "https://www.theguardian.com/us-news/2026/jul/09/el-nino-risks-extreme-weather",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 21:06:22 GMT",
-        "summary_zh": "美國國家氣象局最新分析顯示，厄爾尼諾風暴正加強，風險升高至 81%，有望在今年年底前形成。這將是自 1950 年以來歷史性的大型厄爾尼諾風暴，對全球天氣產生重大影響。氣象局預測，厄爾尼諾風暴將持續至 2027 年春季，風險達 97%。厄爾尼諾風暴可能導致極端天氣的增強，對全球各地的氣候和天氣產生重大影響。氣象局的預測將對全球各地的氣候和天氣產生重大影響，需要密切關注和準備。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b28e4dab",
-        "title": "美國支持的霍爾木茲海峽航線船隻大幅減少",
-        "url": "https://www.bbc.co.uk/news/articles/c621k5r8764o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 14:41:54 GMT",
-        "summary_zh": "霍爾木茲海峽是全球重要的石油和天然氣運輸通道，近日遭受攻擊後，數據顯示船隻通過該水道的數量大幅下降。許多船隻運載石油和天然氣，遭受攻擊後，船隻出於安全考慮，選擇避開霍爾木茲海峽，轉而通過其他航線。這一變化可能會對全球石油和天然氣市場造成影響，進而影響到全球經濟。美國和其他國家已經對霍爾木茲海峽的安全表示關注，並正在努力維持該區域的穩定。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5723c985",
-        "title": "烏克蘭情報員被控殺害摩納哥爆炸嫌犯改口",
-        "url": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 20:47:41 GMT",
-        "summary_zh": "摩納哥爆炸案嫌犯安娜斯塔西婭·貝雷佐夫斯卡（Anastasiia Berezovska）被殺害案中，兩名與烏克蘭安全服務有關的男子被指控犯下此案，並將她的屍體棄置在森林中。這兩名男子最初否認犯案，但後來改口承認了自己的罪行。這起案件引發了對烏克蘭安全服務的關注和質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "72271fd2",
-        "title": "巴勒斯坦人哀悼加沙世界盃直播組織者在以色列空襲中喪生",
-        "url": "https://www.bbc.co.uk/news/articles/cwylznzjk04o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 21:04:09 GMT",
-        "summary_zh": "在以色列與哈馬斯戰爭期間，援助工作者穆罕默德·阿爾瓦希迪（Mohammed al-Wahidi）成為了突出的人道主義人物。近日，他在一場以色列空襲中喪生。阿爾瓦希迪曾負責在加沙地區直播世界盃比賽，為當地民眾帶來歡樂和精神上的慰藉。他的死引起了巴勒斯坦人對以色列行動的強烈不滿和抗議。這一事件也引發了對人道主義工作者的安全和保護的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "57e93db4",
-        "title": "希臘戰機在繁忙機場著陸失敗",
-        "url": "https://www.bbc.co.uk/news/articles/czrxz18720eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 16:15:10 GMT",
-        "summary_zh": "希臘一架F-16戰機在扎金索斯機場著陸失敗，機上無人生還。據報導，該機在著陸時未開放降落架，最終引發大火，關閉了整條跑道。扎金索斯機場是希臘一個重要的航空樞紐，該事件對當地的航空運輸產生了重大影響。希臘政府已經展開調查，了解該事件的原因。這一事件也引起了對希臘航空安全的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0563b424",
-        "title": "烏克蘭攻擊俄羅斯船隻靠近克里米亞，升級對燃料供應的攻擊",
-        "url": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 15:21:17 GMT",
-        "summary_zh": "烏克蘭近日對俄羅斯船隻進行攻擊，攻擊目標位於克里米亞半島附近。這似乎是烏克蘭試圖切斷克里米亞被佔領區的供應線和路線的最新階段。烏克蘭的行動旨在限制俄羅斯對克里米亞的燃料供應，進一步加劇雙方的對峙。這一發展可能會對俄羅斯的經濟和軍事行動產生重大影響。烏克蘭的攻擊行動表明該國將繼續對俄羅斯的行動進行反擊，試圖限制俄羅斯對克里米亞的控制。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bb1be083",
-        "title": "中國「鞋都」工廠大火至少殺28人",
-        "url": "https://www.bbc.co.uk/news/articles/cx2vz51v2pjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 15:14:35 GMT",
-        "summary_zh": "中國一場工廠大火造成至少28人死亡，視頻顯示火場上有巨大的火焰和濃煙升空。這起事故發生在中國的「鞋都」-浙江省溫州，這座城市以其豐富的鞋類產業聞名。事件的具體原因尚未公布，但當地政府已經展開調查。這場大火對當地的鞋類產業和居民造成了重大影響，當地政府已經開始為受影響的家庭提供幫助。目前，當地的治安部門正在努力控制火勢，並且正在調查火災的原因。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c2d7d518",
-        "title": "國際法院告知BBC：蘇丹戰爭罪案調查取得突破",
-        "url": "https://www.bbc.co.uk/news/articles/c9928zr2m5xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 08:49:45 GMT",
-        "summary_zh": "國際刑事法院（ICC）已經在過去三年內對達爾富爾地區的戰爭罪行展開調查。根據最新消息，ICC已經取得了關鍵性的突破，對於該地區的戰爭罪行進行調查。這項調查的目的是為了懲罰那些在達爾富爾地區犯下戰爭罪行的人。 ICC 的調查結果將對蘇丹政府和相關個人的影響非常大。這項突破將為達爾富爾地區的和平進程提供新的希望。 ICC 的調查將繼續進行，希望能夠為達爾富爾地區的受害者尋求正義。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5193fe39",
-        "title": "他們在見到養子後立即愛上他，但後來被告知他可能是被販賣",
-        "url": "https://www.bbc.co.uk/news/articles/czxq4ge246wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 08 Jul 2026 23:31:53 GMT",
-        "summary_zh": "一對夫婦在見到他們的養子後立即愛上他，但後來被告知養子可能是被販賣到來的。這個案例揭露了印尼兒童販賣的問題，並提出了關於新加坡如何未能偵測這種行為的問題。這個案例引起了關注，新加坡政府被要求檢視其對兒童販賣的檢測和防止措施。兒童販賣是印尼的嚴重問題，新加坡政府應該採取更積極的措施來防止這種行為。這個案例也提醒我們，兒童販賣是一個複雜的問題，需要全社會的共同努力來解決。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "ai": [
-      {
-        "id": "c5fb8971",
-        "title": "ChatGPT 網頁瀏覽器已經死亡",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-09T16:34:05-04:00",
-        "summary_zh": "OpenAI 宣佈將會關閉 ChatGPT Atlas 網頁瀏覽器，這款瀏覽器能夠為用戶在背景執行任務。雖然 Atlas 只在去年 10 月份推出，但 OpenAI 已經決定將其關閉。這項決定是與 OpenAI 對 ChatGPT Work 的最新消息相關。根據 OpenAI 的說法，ChatGPT Atlas 將會在未來某個時候停止運作。這項消息對於那些正在使用 ChatGPT Atlas 的用戶來說是一個令人失望的消息。OpenAI 將會繼續發展其其他產品和服務。這項決定可能是由於 ChatGPT Atlas 的使用率不佳或是技術問題導致的。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
       {
         "id": "430f86c0",
         "title": "微軟的 Patch Tuesday 即將變大",
@@ -506,18 +482,6 @@
         "ai_classified": true
       },
       {
-        "id": "064324b0",
-        "title": "一家AI代理公司用AI代理籌集1000萬美元",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-09/a-startup-that-builds-ai-agents-used-one-to-raise-100-million",
-        "source": "Bloomberg",
-        "category": "ai",
-        "published_at": "2026-07-09 11:00:00",
-        "summary_zh": "一家名為「」的初創公司，專門開發人工智慧代理軟體。這家公司使用自己的AI代理軟體，籌集了1000萬美元的投資。這是初創公司使用AI代理軟體籌集資金的另一個例子。這種做法可能會改變未來的融資模式。然而，目前還不清楚這種方法是否會受到監管的限制。投資人們對這種新方法的反應仍然不明朗。這家公司的AI代理軟體是否能夠有效地籌集資金，仍待觀察。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
         "id": "016a0f72",
         "title": "歡迎Claude Wrapped！",
         "url": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
@@ -552,6 +516,18 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "e69cf18a",
+        "title": "Meta 將於 9 月開始生產 AI 芯片，擬增強整體計算能力",
+        "url": "https://www.cnbc.com/2026/07/09/meta-to-put-ai-chip-into-production-in-september-report.html",
+        "source": "Cnbc",
+        "category": "ai",
+        "published_at": "2026-07-09 11:44:40",
+        "summary_zh": "Meta 宣布將於 9 月開始生產一款人工智慧 (AI) 芯片，該計畫旨在提升整體計算能力。這項決定是為了實現 Meta 的目標，即在未來兩年內將計算能力增強一倍。這項新芯片將在 Meta 的資料中心中使用，旨在加速 AI 運算和機器學習。這項計畫對於 Meta 的業務發展具有重要意義，尤其是在人工智慧和機器學習領域。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "98082127",
@@ -616,6 +592,18 @@
     ],
     "stock_tw": [
       {
+        "id": "d0d972b4",
+        "title": "監察院誤會大了！新青安月賺數百萬？ 真相是3年前預售就買進",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5499626",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Jul 2026 07:00:00 +0800",
+        "summary_zh": "監察院日前發布「新青安專案」調查報告，指出有數十筆短期買賣房產得到高額獲利的案例，甚至提到有5筆1個月內買賣、獲利超過500萬元的案例。但經過回頭檢視，這5筆案例的實際情況是，購買的時間點都是3年前預售時，而不是短期買賣。這意味著監察院的調查報告可能存在誤會，錯誤地將短期買賣房產的獲利歸因於新青安專案。這個事件可能會對監察院的聲譽和信任度產生影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "99dc172d",
         "title": "颱巴威逼近！foodpanda、Uber Eats配合停班停課暫停外送",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5500177",
@@ -624,8 +612,8 @@
         "published_at": "Fri, 10 Jul 2026 06:23:44 +0800",
         "summary_zh": "強颱巴威預估將於10日晚間至11日白天影響台灣最劇烈。為應對颱風來襲，外送平台foodpanda和Uber Eats宣布配合停班停課暫停外送服務。這項措施旨在確保騎手和顧客的安全。外送平台呼籲顧客在颱風過後再進行外送訂單。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "68ea2883",
@@ -636,8 +624,8 @@
         "published_at": "Fri, 10 Jul 2026 06:20:16 +0800",
         "summary_zh": "美國西北地區是全美最重要的櫻桃大產區，今年的產季卻令果農大失所望。收購價不佳，令許多農民感到失望。根據消息，今年的收購價比去年下降了近 30%，令許多農民感到困難。一些農民已經決定放棄果園，原因是無法承受這種不確定的收入。這種情況對美國的農業產業有著重大影響。美國農業部長表示，正在努力幫助農民解決這個問題。然而，目前仍然沒有明確的解決方案。這個問題的影響不僅僅是財務上的問題，也是對農民生活和精神的影響。許多農民感到悲傷和絕望，甚至有農民含淚放棄果園。這個問題需要立即解決，以避免對美國農業產業造成更大的損害。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "8cd4a98e",
@@ -648,8 +636,8 @@
         "published_at": "Fri, 10 Jul 2026 06:19:42 +0800",
         "summary_zh": "一名58歲的美國女子強森原本是美國政府高級官員，但因為母親罹病、丈夫心臟病與中風，她放棄高薪工作照顧家人。這期間，她花費了2240萬美元，卻沒有挽救丈夫的生命。強森的血淚告白曝光後，引起了社會的關注。這個故事讓人們思考，高薪工作是否能夠買來健康和幸福？強森的經歷也提醒我們，家庭和關愛的重要性。這個故事也讓人們思考，如何平衡工作和家庭的需求，如何在面對困難時做出正確的選擇。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "edd4b118",
@@ -659,6 +647,18 @@
         "category": "stock_tw",
         "published_at": "Fri, 10 Jul 2026 06:18:08 +0800",
         "summary_zh": "一名創業家在兒子沉迷電玩時，對孩子的行為感到擔憂，但卻意外地受到啟發。穆迪（Craig Moody）在兒子沉迷電玩時，問他為什麼不出去打球，兒子回答說因為他在電玩裡面已經是球星。穆迪聽到這個回答後，突然想到自己也可以在電玩領域創業。因此，他決定轉變自己的行業，從事電玩相關的業務。穆迪的創業之路並不容易，他花了1年時間，最終獲得了6.4億美元的投資。他的成功故事讓人們感到驚訝，同時也讓人們學習到轉變和創新的重要性。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "73976a28",
+        "title": "大立光攻CPO 最快明年中量產",
+        "url": "https://ec.ltn.com.tw/article/paper/1762096",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Jul 2026 05:30:00 +0800",
+        "summary_zh": "大立光積極切入CPO領域，生產FA產品。董事長林恩平表示，大立光主要交貨FA給模組廠客戶，今年底試產線將完成，明年中量產並貢獻營收。近期，7月客戶拉貨動能比6月好一點，8月還會進一步改善。這表明大立光在CPO領域的進展正獲得關鍵客戶的認可。這項進展對於大立光的營收和市場競爭力都將有重要影響。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
@@ -722,119 +722,45 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "c3a2d136",
-        "title": "擺脫黃仁勳掌控？Meta自研AI晶片「Iris」驚傳9月量產 路透：台積電代工",
-        "url": "https://tw.news.yahoo.com/%E6%93%BA%E8%84%AB%E9%BB%83%E4%BB%81%E5%8B%B3%E6%8E%8C%E6%8E%A7-meta%E8%87%AA%E7%A0%94ai%E6%99%B6%E7%89%87-iris-%E9%A9%9A%E5%82%B39%E6%9C%88%E9%87%8F%E7%94%A2-%E8%B7%AF%E9%80%8F-163700960.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 16:37:00 GMT",
-        "summary_zh": "近日，外媒《路透社》發布了一則驚人的消息，科技巨頭Meta將在9月開始量產代號為「Iris」的自研AI晶片。這款晶片的設計與博通（Broadcom）進行合作，並由台積電負責代工製造。這意味著Meta正在擺脫對外部晶片供應商的依賴，進一步推動AI晶片自主化。這一發展對於Meta的競爭力和技術領導地位都具有重要意義。然而，這也引發了對台積電的關注，是否能夠順暢地完成這項大型量產任務？",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "78aa5a90",
-        "title": "第四波科技牛市推動台股新高 永豐00410A精選AI潛力股",
-        "url": "https://tw.stock.yahoo.com/news/%E7%AC%AC%E5%9B%9B%E6%B3%A2%E7%A7%91%E6%8A%80%E7%89%9B%E5%B8%82%E6%8E%A8%E5%8B%95%E5%8F%B0%E8%82%A1%E6%96%B0%E9%AB%98-%E6%B0%B8%E8%B1%9000410a%E7%B2%BE%E9%81%B8ai%E6%BD%9B%E5%8A%9B%E8%82%A1-151939987.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 15:19:39 GMT",
-        "summary_zh": "近期台股氣勢如虹，主計總處調高台灣今 (2026) 年 GDP 成長預估值至 9.64%。這一調整與全球 AI 供應鏈核心的台灣有關，台股結構正在轉型為「AI 產業鏈輪動」。電子零組件與玻璃陶瓷族群在今年五月的表現就很亮眼，許多投資者認為這是第四波科技牛市的開始。永豐證券的研究報告指出，AI 潛力股將是未來投資的重點，永豐00410A 的股票被認為是其中一個精選股。這一調整和投資趨勢都表明，台股將繼續保持強勁的成長趨勢。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7f613a0f",
-        "title": "台股周五休市一日，提前收周線跌3％",
-        "url": "https://tw.news.yahoo.com/%E5%91%A8%E4%BA%94%E9%A2%B1%E9%A2%A8%E4%BC%91%E5%B8%821%E6%97%A5-%E5%8F%B0%E8%82%A1%E6%8F%90%E5%89%8D%E6%94%B6%E5%91%A8%E7%B7%9A%E8%B7%8C3-k%E7%B7%9A%E7%BF%BB%E9%BB%91-142242412.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 14:22:42 GMT",
-        "summary_zh": "由於颱風巴威的威脅，台北市政府宣布10日停止上班上課，證交所也決定休市一天。因此，台股提前在周四收周線，股價指數下跌3％。這意味著股市在周五休市後，將會延遲到下周一才恢復交易。這項決定是為了減少因颱風帶來的風險，確保市場的安全。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8265f529",
-        "title": "颱風攪局 中鋼宣布電子投票股東會紀念品發放日期順延",
-        "url": "https://tw.stock.yahoo.com/news/%E9%A2%B1%E9%A2%A8%E6%94%AA%E5%B1%80-%E4%B8%AD%E9%8B%BC%E5%AE%A3%E5%B8%83%E9%9B%BB%E5%AD%90%E6%8A%95%E7%A5%A8%E8%82%A1%E6%9D%B1%E6%9C%83%E7%B4%80%E5%BF%B5%E5%93%81%E7%99%BC%E6%94%BE%E6%97%A5%E6%9C%9F%E9%A0%86%E5%BB%B6-141120687.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Thu, 09 Jul 2026 14:11:20 GMT",
-        "summary_zh": "中鋼近日宣布因受巴威颱風影響，台北市政府宣布7月10日停止上班上課，故台北7月10日至7月11日的電子投票股東會紀念品發放日期順延至7月12日至7月14日。原訂採電子投票且持股未達1,000股的股東會紀念品發放期間也順延至7月12日至7月14日。這項變更是為了確保股東會紀念品能夠順暢地發放給所有股東。中鋼希望能夠盡快恢復正常運作，感謝股東的理解和支持。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
-    "finance": [
+    "stock_us": [
       {
-        "id": "8967fd77",
-        "title": "歐盟將優先歐洲供應商在公共服務合約",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-09/eu-to-prioritize-european-providers-in-public-service-contracts",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-09 11:00:21",
-        "summary_zh": "歐盟近日宣布將優先歐洲供應商在公共服務合約中。這項政策變化旨在加強歐洲公司在公共服務市場的競爭力，並減少對外國公司的依賴。根據新政策，公共服務合約將優先選擇歐洲供應商，除非外國公司能夠提供更優惠的條件。這項政策變化將對歐洲公司的競爭力和公共服務市場的競爭格局產生重大影響。分析人士認為，這項政策變化將促進歐洲公司的發展，並提高公共服務市場的競爭力。然而，外國公司也可能會對此產生反彈，認為這項政策變化違反了自由貿易原則。",
+        "id": "83139f25",
+        "title": "SK Hynix 首次在美股上市",
+        "url": "https://www.cnbc.com/2026/07/09/meet-sk-hynix-the-trillion-dollar-chipmaker-debuting-on-us-markets-.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-09 12:00:01",
+        "summary_zh": "SK Hynix 這家南韓半導體巨頭近一年股價大漲逾七倍，將於美國納斯達克上市。這家公司以其高性能記憶體晶片出名，供應全球各大電腦製造商。SK Hynix 的上市將使公司成為全球首家以南韓為基地的半導體公司上市於美股。這一舉動被視為南韓半導體業的重大里程碑，展現了該國在全球半導體領域的競爭力。SK Hynix 的上市將為公司帶來新的投資機會，也將使公司更容易與全球企業進行業務合作。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "6de66838",
+        "title": "清潔能源回歸？別低估可再生能源和這一隻股票",
+        "url": "https://www.cnbc.com/2026/07/09/clean-power-comeback-dont-count-out-renewable-energy-and-this-one-stock-in-particular.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-09 11:49:01",
+        "summary_zh": "清潔能源是負責將近 90% 的新電力容量加入電網的主要來源，根據美國清潔能源協會的 CEO 表示。這一趨勢表明，清潔能源正在成為電力產業的主流。可再生能源的發展對於減少碳排放和改善環境有著重要的作用。然而，投資清潔能源的股票也存在風險，投資者需要謹慎評估風險和收益。其中，一隻名為 [股票名稱] 的股票正在受到關注，投資者應該關注其發展趨勢和業績表現。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "28482dc2",
-        "title": "工黨議員推動禁止加密貨幣政治捐款",
-        "url": "https://www.ft.com/content/b6e1ca13-b401-4557-aeef-85527ab0bdd7",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-07-09 11:00:05",
-        "summary_zh": "英國工黨議員最近提出了一項建議，要求禁止加密貨幣的政治捐款。這項建議是由於近年來加密貨幣的使用越來越普遍，議員們擔心這可能會對政治競選過程產生不當影響。根據目前的規定，政治人物可以接受加密貨幣的捐款，但這項建議要求將這項規定永久取消。議員們認為，這樣做可以防止政治人物被加密貨幣的富豪所操控。這項建議還將會對政治競選的透明度和公平性產生影響。目前，英國政府尚未對這項建議做出回應。",
+        "id": "29a18a15",
+        "title": "捷豹母公司股價表現不佳，摩根大通預期未來不會改善",
+        "url": "https://www.cnbc.com/2026/07/09/this-car-manufacturer-is-likely-to-keep-underperforming-jpmorgan-says.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-09 11:03:44",
+        "summary_zh": "摩根大通投資銀行將汽車製造商捷豹母公司的評級從 overweight 下調至 neutral。這意味著投資銀行對該公司未來表現的信心降低。根據摩根大通的分析，捷豹母公司的股價表現不佳，未來也不太可能改善。這項評級下調可能對該公司股價產生一定的影響。投資者應該密切關注該公司未來的發展情況。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
-      {
-        "id": "17e9281d",
-        "title": "深層儲層：美國石油革命的下一個前哨?",
-        "url": "https://www.ft.com/content/387d60c6-43b7-4800-aaa3-853386a87c25",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-07-09 11:00:04",
-        "summary_zh": "美國石油革命的下一個前哨點可能出現在深層儲層。近年來，美國石油產量的增長主要來自於 fracking 技術的應用。然而，隨著 fracking 技術的進一步發展和成本的降低，美國石油公司開始探索深層儲層的潛力。深層儲層的特點是儲存的石油深埋在地層中，需要更高的成本和技術來開發。然而，深層儲層的石油品質通常更高，且儲量更大。美國石油公司正在投資大量資金來開發深層儲層，希望能夠找到下一個石油革命的源頭。這一發展可能會對美國石油產量和全球石油市場產生重大影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "4b090f43",
-        "title": "中國的溫和通膨對國內前景為負，但對全球為贏家",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-07-09/china-s-tame-inflation-is-negative-for-domestic-outlook-but-win-for-world",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-09 11:00:01",
-        "summary_zh": "中國的通膨率保持在較低水平，對於中國國內的經濟前景並不利，但對於全球經濟來說卻是個好消息。中國的低通膨率使得央行有更多的空間來實施寬鬆的貨幣政策，從而刺激全球經濟的復甦。然而，中國的低通膨率也意味著國內的消費者價格穩定，但對於企業的獲利能力和投資意願卻是個挑戰。中國的央行已經表明了對於實施寬鬆貨幣政策的意願，但仍需要觀察其實施的具體措施和效果。全球經濟的復甦將取決於各國央行的政策決策和市場的反應。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "5520cba4",
-        "title": "為什麼人工智慧財務顧問比傳統顧問更有優勢？",
-        "url": "https://www.ft.com/content/b7c098f6-0e95-45b4-be71-9781321b94af",
-        "source": "FT Tech",
-        "category": "finance",
-        "published_at": "Thu, 09 Jul 2026 04:00:23 GMT",
-        "summary_zh": "人工智慧財務顧問正在迅速取代傳統的財務顧問。根據一項研究發現，人工智慧財務顧問比傳統顧問更能有效地為客戶提供投資建議和財務管理。這是因為人工智慧財務顧問可以快速分析大量數據，找出最佳投資機會，並且能夠提供客戶個性化的財務建議。這項研究還發現，人工智慧財務顧問的投資績效比傳統顧問更高。這意味著，客戶可以通過人工智慧財務顧問獲得更好的投資回報和財務管理。然而，這項研究也提醒我們，人工智慧財務顧問仍然需要受到監管和監督，以確保其運作的公平和透明。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "stock_us": [
       {
         "id": "4301e629",
         "title": "百事可樂財報低於預期 美國消費者緊縮開支",
@@ -844,8 +770,8 @@
         "published_at": "2026-07-09 10:29:51",
         "summary_zh": "百事可樂在最新財報中表現不佳，低於預期的業績，儘管全球市場需求仍然強勁。這一結果與美國北美地區消費者因經濟不確定性而緊縮開支有關。百事可樂的財報表現使得該公司股價下跌。這一趨勢與其他大型食品公司的財報表現相似，表明美國消費者正在因經濟不確定性而節省開支。百事可樂的財報結果對該公司未來的發展有著重要影響，公司將需要調整策略以應對美國消費者緊縮開支的趨勢。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "d3cdfc7a",
@@ -868,8 +794,8 @@
         "published_at": "Fri, 10 Jul 2026 05:48:00 +0800",
         "summary_zh": "儘管美伊緊張局勢再升級，美股週四仍然走高。受半導體類股上漲和油價下跌的影響，道瓊工業指數上漲139.02點，0.27%。科技股領先漲幅，費半升逾3%。這一波上漲也使得那斯達克指數和標普500指數上漲1.30%和0.45%。這一波市場反彈可能與投資者對美股未來前景的樂觀情緒有關。然而，市場仍然面臨著多種不確定性，包括美伊緊張局勢和全球經濟的不確定性。投資者需要繼續密切關注市場發展。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "361bb31c",
@@ -891,6 +817,80 @@
         "category": "stock_us",
         "published_at": "Thu, 09 Jul 2026 23:09:51 +0800",
         "summary_zh": "美國勞工部公布，至4日為止的1週內，美國新申請失業給付人數略減2000人至21萬5000人，低於慧甚（FactSet）調查分析師預估的22萬人。這表明美國裁員情況仍處於歷史低點。失業率的降低對美國經濟有著重要影響，同時也反映出美國企業的招聘意願。然而，美國經濟仍面臨著許多挑戰，包括通膨和貿易摩擦等問題。美國政府和企業需要繼續努力，維持經濟的穩定發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "310e702d",
+        "title": "前市最大的股票變動：AstraZeneca、PepsiCo、Salesforce、Levi 等",
+        "url": "https://www.cnbc.com/2026/07/09/stocks-making-the-biggest-moves-premarket-azn-pep-crm-levi.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-09 11:59:47",
+        "summary_zh": "在前市交易中，AstraZeneca、PepsiCo、Salesforce 和 Levi 等股票出現了最大幅度的變動。這些公司的股價在未來的交易中可能會受到市場的關注。然而，目前尚無明確的信息表明這些變動的原因。市場分析師認為，這些變動可能與公司的財務報告、商業策略或市場趨勢有關。投資者應該密切關注這些公司的股價變動，以便在未來的交易中做出明智的投資決策。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "db0941b7",
+        "title": "關於取消汽油補貼的決定將在下週公布",
+        "url": "https://www.reuters.com/pt/negocio/OJST63UVUZOPZOOIZAFKHJDNIE-2026-07-09/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-09 11:56:09",
+        "summary_zh": "巴西政府官員Durigan表示，關於取消汽油補貼的決定將在下週公布。這項決定將對巴西汽油價格產生重大影響。目前，巴西政府正在考慮取消汽油補貼，以減少公共開支並降低通膨。這項決定將對巴西汽車業和消費者產生重大影響。政府官員表示，取消汽油補貼將是減少公共開支的一部分，同時也會對汽油價格產生一定的影響。這項決定將在下週公布，屆時將有更多的細節和具體措施。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2cd82d35",
+        "title": "中國氣候計畫促進工廠、數據中心使用可再生能源",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-09/china-climate-plan-pushes-renewables-in-factories-data-centers",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-09 11:53:26",
+        "summary_zh": "中國政府推出新的氣候計畫，目標是減少碳排放並推動可再生能源的使用。計畫中，工廠和數據中心將被要求使用可再生能源來滿足其電力需求。這一措施旨在減少對傳統能源的依賴，同時降低碳排放。中國政府還將投資於可再生能源的研發和建設，以促進這一轉型。這一計畫的推出將對中國的能源市場和環境產生重大影響。分析人士認為，這一措施將幫助中國實現其減碳目標，並促進可再生能源的發展。然而，實施這一計畫也將面臨挑戰，包括投資成本和基礎設施建設的困難。中國政府將如何實施這一計畫，將是關鍵的關注點。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "12ff9349",
+        "title": "印度尼西亞宣布B50生物柴油計畫，促進棕榈油用途、減少燃油進口",
+        "url": "https://www.reuters.com/business/energy/indonesia-says-b50-biodiesel-plan-boost-palm-oil-use-cut-fuel-imports-2026-07-09/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-09 11:51:43",
+        "summary_zh": "印度尼西亞政府宣布推出B50生物柴油計畫，目的是增加棕榈油的使用量，同時減少燃油進口。這項計畫將要求所有汽油車輛使用含50%生物柴油的燃油。印度尼西亞是全球最大的棕榈油生產國，棕榈油是該國重要的出口商品。政府估計，這項計畫將能夠減少燃油進口量達10%，並創造新的就業機會。然而，這項計畫也引起了環境保護團體的關注，擔心生物柴油的生產可能會導致森林砍伐和水資源污染。印度尼西亞政府表示，將會密切監控生物柴油的生產和使用，以確保計畫的實施不會對環境造成負面影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b18a2524",
+        "title": "百事可樂警告美國消費者面臨「通膨壓力」上升",
+        "url": "https://www.ft.com/content/2c932eab-2743-44c6-8338-6e9df7660ca3",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-07-09 11:48:47",
+        "summary_zh": "百事可樂在第二季度的銷售量恢復出現停滯，受預算壓力影響，零食和汽水分支的銷售下滑。百事可樂表示，美國消費者面臨著「升高的通膨壓力」，這將對公司的業績產生影響。該公司的銷售量在第二季度出現下滑，主要是由於零食和汽水分支的銷售下滑。百事可樂的財務報告顯示，公司的收入和利潤都下滑。該公司的管理層表示，美國的通膨壓力正在升高，對消費者預算造成壓力。這將對公司的業績產生持續影響。百事可樂的業績下滑是由於美國的通膨壓力升高和消費者預算受限。該公司的管理層表示，將采取措施應對這種情況，包括調整產品價格和減少成本。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "5520cba4",
+        "title": "為什麼人工智慧財務顧問比傳統顧問更有優勢？",
+        "url": "https://www.ft.com/content/b7c098f6-0e95-45b4-be71-9781321b94af",
+        "source": "FT Tech",
+        "category": "finance",
+        "published_at": "Thu, 09 Jul 2026 04:00:23 GMT",
+        "summary_zh": "人工智慧財務顧問正在迅速取代傳統的財務顧問。根據一項研究發現，人工智慧財務顧問比傳統顧問更能有效地為客戶提供投資建議和財務管理。這是因為人工智慧財務顧問可以快速分析大量數據，找出最佳投資機會，並且能夠提供客戶個性化的財務建議。這項研究還發現，人工智慧財務顧問的投資績效比傳統顧問更高。這意味著，客戶可以通過人工智慧財務顧問獲得更好的投資回報和財務管理。然而，這項研究也提醒我們，人工智慧財務顧問仍然需要受到監管和監督，以確保其運作的公平和透明。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
