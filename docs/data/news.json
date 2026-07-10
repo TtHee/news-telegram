@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-10T20:04:39.392044+08:00",
+  "generated_at": "2026-07-10T21:04:46.436413+08:00",
   "risk_signals": [
     "🟢 台股加權 45354.61（正常）",
     "🟢 S&P 500 7543.64（正常）",
-    "🟢 VIX 恐慌指數 15.9（正常）",
+    "🟢 VIX 恐慌指數 15.79（正常）",
     "🟢 MOVE 債市波動 65.4（正常）",
-    "🟢 美元指數 100.86（正常）",
-    "🟢 黃金 4114.8（正常）",
-    "🟡 美債10Y殖利率 4.54（留意）",
-    "🟢 原油 WTI 72.76（正常）",
-    "🟢 美元/台幣 32.16（正常）"
+    "🟢 美元指數 100.88（正常）",
+    "🟢 黃金 4108.8（正常）",
+    "🟡 美債10Y殖利率 4.55（留意）",
+    "🟢 原油 WTI 72.12（正常）",
+    "🟢 美元/台幣 32.15（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，投資者仍然對全球經濟展望抱持樂觀態度。美股指數上漲，台股則小幅下跌，市場未見明顯的恐慌跡象。",
+  "ai_summary": "市場氛圍相對穩定，多個指標維持正常水平，但美債10Y殖利率略有上升，需要留意。",
   "market": {
     "TWII": {
       "price": 45354.61,
@@ -26,45 +26,69 @@
       "change_pct": 1.3
     },
     "VIX": {
-      "price": 15.9,
-      "change_pct": 0.38
+      "price": 15.79,
+      "change_pct": -0.32
     },
     "TNX": {
-      "price": 4.54,
-      "change_pct": -0.66
+      "price": 4.55,
+      "change_pct": 0.13
     },
     "MOVE": {
       "price": 65.4,
       "change_pct": null
     },
     "DXY": {
-      "price": 100.86,
-      "change_pct": -0.08
+      "price": 100.88,
+      "change_pct": -0.06
     },
     "GOLD": {
-      "price": 4114.8,
-      "change_pct": -0.38
+      "price": 4108.8,
+      "change_pct": -0.53
     },
     "OIL": {
-      "price": 72.76,
-      "change_pct": 0.94
+      "price": 72.12,
+      "change_pct": 0.06
     },
     "USDTWD": {
-      "price": 32.16,
-      "change_pct": 0.15
+      "price": 32.15,
+      "change_pct": 0.14
     }
   },
   "macro": {},
   "categories": {
     "global": [
       {
-        "id": "832e0594",
-        "title": "東亞準備面對強烈颱風，菲律賓山泥傾瀉事件造成15人喪生",
-        "url": "https://www.bbc.co.uk/news/articles/c04y6wr03gxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "5bb0ed30",
+        "title": "發展中國家用於償還外債的金額超越教育支出，聯合國揭露",
+        "url": "https://www.theguardian.com/global-development/2026/jul/10/developing-countries-spend-more-foreign-debt-education-aid-cuts-unesco",
+        "source": "Guardian World",
         "category": "global",
-        "published_at": "Fri, 10 Jul 2026 10:42:13 GMT",
-        "summary_zh": "強烈颱風Bavi預計將影響台灣和東南中國，風眼直徑達1000公里，預計將是數十年來最強的颱風之一。菲律賓近日發生山泥傾瀉事件，造成15人喪生，政府正在進行救援工作。東亞地區正為即將到來的颱風做好準備，居民被要求避免外出，政府部門正在進行應急工作。這次颱風的來臨將對東亞地區造成重大影響，居民應該保持高度警覺，隨時準備應對颱風帶來的風險。",
+        "published_at": "Fri, 10 Jul 2026 07:00:14 GMT",
+        "summary_zh": "聯合國教育科學及文化組織（Unesco）的一份報告指出，113個發展中國家在2025年用於償還外債的金額超越了教育支出。其中，撒哈拉以南非洲地區的國家，債務償還支出甚至高達教育支出的3.6倍。這一趨勢與全球教育援助預計下降30%不符。發展中國家在教育方面的支出遠低於其他地區，令人擔憂。這一問題的嚴重性不僅影響到兒童的教育權益，也對未來的發展造成了重大挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "080d9a84",
+        "title": "尼日利亞爆發政治風暴：政府總部內成立虛構機構遭受批評",
+        "url": "https://www.theguardian.com/world/2026/jul/09/bola-tinubu-under-pressure-fake-nigerian-government-agency-political-storm",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 16:20:41 GMT",
+        "summary_zh": "尼日利亞總統下令調查，指出一家虛構的聯邦機構在尼日利亞 2026 年預算中獲得 1.3 億奈拉（約 7,000,000 英鎊）的資金，引發了對該國最大民主國家的腐敗指控。這家虛構機構在去年十月被揭露時，尼日利亞總統的首席秘書費米·加巴賈比阿米拉（Femi Gbajabiamila）向警察提交了一份書面材料，指控他的簽名、官方印章和參考編號被阿登尼·阿德耶米·馬修（Adeniyi Adeyemi Matthew）所冒用，後者聲稱自己被總統任命為總統外交干預促進委員會（PFIPC）的負責人。這一事件在尼日利亞即將舉行的總統大選前引發了強烈的反應。尼日利亞政府的腐敗問題一直是該國政治的重要議題。這一事件的發生使得尼日利亞政府的誠信和透明度再次受到質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "636fdcb0",
+        "title": "墨西哥調查美國是否隱瞞涉毒集團首腦逮捕真相",
+        "url": "https://www.theguardian.com/world/2026/jul/09/mexico-drug-lord-arrest-sinaloa-cartel-investigation",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 18:17:49 GMT",
+        "summary_zh": "墨西哥政府正在調查美國是否隱瞞涉毒集團首腦伊斯馬爾‧埃爾‧馬約‧薩姆巴達‧加西亞（Ismael “El Mayo” Zambada García）的逮捕真相。根據墨西哥當地媒體的報導，美國FBI可能參與了薩姆巴達‧加西亞的逮捕。美國政府長期否認自己在逮捕薩姆巴達‧加西亞的行動中扮演了任何角色，然而墨西哥政府卻懷疑美國可能違反了墨西哥的主權。這一事件可能會對墨西哥和美國的關係產生重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -82,15 +106,111 @@
         "ai_classified": true
       },
       {
+        "id": "a09e22b5",
+        "title": "伊朗前最高領袖在伊朗最聖地被安葬",
+        "url": "https://www.bbc.co.uk/news/articles/c5yzm8m4peeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 23:18:18 GMT",
+        "summary_zh": "伊朗前最高領袖阿里·哈梅內伊在伊朗最聖地伊瑪目烈莎聖陵被安葬，結束了六天的公眾哀悼儀式。阿里·哈梅內伊去世後，伊朗爆發了大規模的哀悼活動，各地都有數以萬計的人參與了哀悼活動。伊瑪目烈莎聖陵是伊朗最重要的聖地之一，為數百萬名什葉派穆斯林所尊崇。阿里·哈梅內伊的安葬儀式是伊朗歷史上最大的哀悼活動之一，展現了伊朗人民對其領袖的深深愛戴。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "5723c985",
+        "title": "烏克蘭情報員被控殺害摩納哥爆炸嫌犯改口",
+        "url": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 20:47:41 GMT",
+        "summary_zh": "摩納哥爆炸案嫌犯安娜斯塔西婭·貝雷佐夫斯卡（Anastasiia Berezovska）被殺害案中，兩名與烏克蘭安全服務有關的男子被指控犯下此案，並將她的屍體棄置在森林中。這兩名男子最初否認犯案，但後來改口承認了自己的罪行。這起案件引發了對烏克蘭安全服務的關注和質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "832e0594",
+        "title": "東亞準備面對強烈颱風，菲律賓山泥傾瀉事件造成15人喪生",
+        "url": "https://www.bbc.co.uk/news/articles/c04y6wr03gxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 10 Jul 2026 10:42:13 GMT",
+        "summary_zh": "強烈颱風Bavi預計將影響台灣和東南中國，風眼直徑達1000公里，預計將是數十年來最強的颱風之一。菲律賓近日發生山泥傾瀉事件，造成15人喪生，政府正在進行救援工作。東亞地區正為即將到來的颱風做好準備，居民被要求避免外出，政府部門正在進行應急工作。這次颱風的來臨將對東亞地區造成重大影響，居民應該保持高度警覺，隨時準備應對颱風帶來的風險。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "0622ddbc",
         "title": "中國首次成功回收可重複使用火箭",
         "url": "https://www.bbc.co.uk/news/articles/cm2rmmx86pdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "source": "BBC Asia",
         "category": "global",
         "published_at": "Fri, 10 Jul 2026 06:44:21 GMT",
         "summary_zh": "中國在本月初成功地將一枚可重複使用的火箭降落在中國大陸，這是中國首次實現這項成就。這項成就與美國公司SpaceX和Blue Origin在此方面的先進性相比，標誌著中國在太空技術方面的進步。這項成就對於未來的太空探索和運輸將具有重要的意義。中國的太空計畫正在快速發展，中國正在努力與美國等國家競爭太空領域的領導地位。這項成就將對中國的太空工業和技術發展產生重大影響。",
         "sentiment": "正面",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f19686a1",
+        "title": "SK Hynix 大舉募資26.5億美元 美股上市將創下外資最大首日交易記錄",
+        "url": "https://www.bbc.co.uk/news/articles/c4gym70r0y4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 10 Jul 2026 12:38:38 GMT",
+        "summary_zh": "韓國半導體巨頭SK Hynix近日宣布在美國進行了史上最大規模的外資上市募資，共募集了26.5億美元。這次募資將使SK Hynix成為全球第二大半導體製造商。SK Hynix的股票將於下周五在納斯達克上市交易，創下了外資上市的最大首日交易記錄。這項募資將為SK Hynix提供充足的資金來應對全球半導體市場的競爭和供應鏈挑戰。然而，這也引發了對韓國半導體業的依賴度和安全性的擔憂。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0563b424",
+        "title": "烏克蘭攻擊俄羅斯船隻靠近克里米亞，升級對燃料供應的攻擊",
+        "url": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 15:21:17 GMT",
+        "summary_zh": "烏克蘭近日對俄羅斯船隻進行攻擊，攻擊目標位於克里米亞半島附近。這似乎是烏克蘭試圖切斷克里米亞被佔領區的供應線和路線的最新階段。烏克蘭的行動旨在限制俄羅斯對克里米亞的燃料供應，進一步加劇雙方的對峙。這一發展可能會對俄羅斯的經濟和軍事行動產生重大影響。烏克蘭的攻擊行動表明該國將繼續對俄羅斯的行動進行反擊，試圖限制俄羅斯對克里米亞的控制。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8c0cc066",
+        "title": "美國爆發「爆炸性痢疾」寄生蟲疫情：至少 17 個州受影響",
+        "url": "https://www.bbc.co.uk/news/articles/c621m66qm76o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 23:45:03 GMT",
+        "summary_zh": "美國爆發了一個由「爆炸性痢疾」寄生蟲引起的疫情，該疫情已經在至少 17 個州傳播。目前，疫情的來源仍不清楚。這種寄生蟲會引起腹瀉、腹痛、體重減輕等症狀。美國衛生部門正在努力追蹤疫情的來源和傳播途徑，以防止疫情的擴散。這種疫情對美國的健康和經濟都可能造成重大影響。美國政府正在與各州合作，制定應對措施，保護公民的健康和安全。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "57e93db4",
+        "title": "希臘戰機在繁忙機場著陸失敗",
+        "url": "https://www.bbc.co.uk/news/articles/czrxz18720eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 16:15:10 GMT",
+        "summary_zh": "希臘一架F-16戰機在扎金索斯機場著陸失敗，機上無人生還。據報導，該機在著陸時未開放降落架，最終引發大火，關閉了整條跑道。扎金索斯機場是希臘一個重要的航空樞紐，該事件對當地的航空運輸產生了重大影響。希臘政府已經展開調查，了解該事件的原因。這一事件也引起了對希臘航空安全的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "72271fd2",
+        "title": "巴勒斯坦人哀悼加沙世界盃直播組織者在以色列空襲中喪生",
+        "url": "https://www.bbc.co.uk/news/articles/cwylznzjk04o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 09 Jul 2026 21:04:09 GMT",
+        "summary_zh": "在以色列與哈馬斯戰爭期間，援助工作者穆罕默德·阿爾瓦希迪（Mohammed al-Wahidi）成為了突出的人道主義人物。近日，他在一場以色列空襲中喪生。阿爾瓦希迪曾負責在加沙地區直播世界盃比賽，為當地民眾帶來歡樂和精神上的慰藉。他的死引起了巴勒斯坦人對以色列行動的強烈不滿和抗議。這一事件也引發了對人道主義工作者的安全和保護的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -140,164 +260,56 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "5bb0ed30",
-        "title": "發展中國家用於償還外債的金額超越教育支出，聯合國揭露",
-        "url": "https://www.theguardian.com/global-development/2026/jul/10/developing-countries-spend-more-foreign-debt-education-aid-cuts-unesco",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Fri, 10 Jul 2026 07:00:14 GMT",
-        "summary_zh": "聯合國教育科學及文化組織（Unesco）的一份報告指出，113個發展中國家在2025年用於償還外債的金額超越了教育支出。其中，撒哈拉以南非洲地區的國家，債務償還支出甚至高達教育支出的3.6倍。這一趨勢與全球教育援助預計下降30%不符。發展中國家在教育方面的支出遠低於其他地區，令人擔憂。這一問題的嚴重性不僅影響到兒童的教育權益，也對未來的發展造成了重大挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "080d9a84",
-        "title": "尼日利亞爆發政治風暴：政府總部內成立虛構機構遭受批評",
-        "url": "https://www.theguardian.com/world/2026/jul/09/bola-tinubu-under-pressure-fake-nigerian-government-agency-political-storm",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 16:20:41 GMT",
-        "summary_zh": "尼日利亞總統下令調查，指出一家虛構的聯邦機構在尼日利亞 2026 年預算中獲得 1.3 億奈拉（約 7,000,000 英鎊）的資金，引發了對該國最大民主國家的腐敗指控。這家虛構機構在去年十月被揭露時，尼日利亞總統的首席秘書費米·加巴賈比阿米拉（Femi Gbajabiamila）向警察提交了一份書面材料，指控他的簽名、官方印章和參考編號被阿登尼·阿德耶米·馬修（Adeniyi Adeyemi Matthew）所冒用，後者聲稱自己被總統任命為總統外交干預促進委員會（PFIPC）的負責人。這一事件在尼日利亞即將舉行的總統大選前引發了強烈的反應。尼日利亞政府的腐敗問題一直是該國政治的重要議題。這一事件的發生使得尼日利亞政府的誠信和透明度再次受到質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "543ab63e",
-        "title": "LGBTQ+郵輪遭拒入埃及，僅幾天前被土耳其拒絕",
-        "url": "https://www.theguardian.com/world/2026/jul/09/lgbtq-cruise-ship-refused-entry-egypt-turkey",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 12:59:24 GMT",
-        "summary_zh": "近日，LGBTQ+郵輪「絢麗女王號」（Scarlet Lady）遭到土耳其拒絕入境後，現在又被埃及拒絕入境。該郵輪共有2,000名乘客，包括百老匯演員帕蒂盧波內（Patti LuPone），星期四早上醒來後發現 cabin 門下有張通知紙，通知郵輪急需尋找替代港口。郵輪乘客表示，將會在其他地方「閃閃發光、花錢大方」。這次事件的背景是，埃及和土耳其都對同性戀者有著嚴格的法律限制。埃及的法律禁止同性戀者公開表達自己的性別認同，而土耳其的法律則禁止同性戀者與異性戀者結婚。這些法律限制對同性戀者社群造成了嚴重的影響。該郵輪的乘客們對此感到沮喪和憤怒，認為這些國家的法律限制是對同性戀者社群的歧視。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e5e51600",
-        "title": "物種的聰明生存策略無法抵擋人類的破壞，紅色名單揭露",
-        "url": "https://www.theguardian.com/environment/2026/jul/09/species-ingenious-survival-strategies-no-match-human-destruction-red-list",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 12:20:09 GMT",
-        "summary_zh": "今年的紅色名單揭露，人類活動正在破壞地球上各個角落的生態平衡。許多物種已經適應了極端深海的生活環境，但卻因為深海礦業而面臨絕種的風險。紅色名單指出，深海礦業正在威脅到數百種只生活在深海熱泉的軟體動物物種的生存。這些物種曾經通過演化出聰明的生存策略來適應極端深海的生活環境，但現在卻無法抵擋人類的破壞。紅色名單的發布表明，人類的活動正在對地球的生物多樣性造成重大威脅。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8c0cc066",
-        "title": "美國爆發「爆炸性痢疾」寄生蟲疫情：至少 17 個州受影響",
-        "url": "https://www.bbc.co.uk/news/articles/c621m66qm76o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 23:45:03 GMT",
-        "summary_zh": "美國爆發了一個由「爆炸性痢疾」寄生蟲引起的疫情，該疫情已經在至少 17 個州傳播。目前，疫情的來源仍不清楚。這種寄生蟲會引起腹瀉、腹痛、體重減輕等症狀。美國衛生部門正在努力追蹤疫情的來源和傳播途徑，以防止疫情的擴散。這種疫情對美國的健康和經濟都可能造成重大影響。美國政府正在與各州合作，制定應對措施，保護公民的健康和安全。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "636fdcb0",
-        "title": "墨西哥調查美國是否隱瞞涉毒集團首腦逮捕真相",
-        "url": "https://www.theguardian.com/world/2026/jul/09/mexico-drug-lord-arrest-sinaloa-cartel-investigation",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 18:17:49 GMT",
-        "summary_zh": "墨西哥政府正在調查美國是否隱瞞涉毒集團首腦伊斯馬爾‧埃爾‧馬約‧薩姆巴達‧加西亞（Ismael “El Mayo” Zambada García）的逮捕真相。根據墨西哥當地媒體的報導，美國FBI可能參與了薩姆巴達‧加西亞的逮捕。美國政府長期否認自己在逮捕薩姆巴達‧加西亞的行動中扮演了任何角色，然而墨西哥政府卻懷疑美國可能違反了墨西哥的主權。這一事件可能會對墨西哥和美國的關係產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a09e22b5",
-        "title": "伊朗前最高領袖在伊朗最聖地被安葬",
-        "url": "https://www.bbc.co.uk/news/articles/c5yzm8m4peeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 23:18:18 GMT",
-        "summary_zh": "伊朗前最高領袖阿里·哈梅內伊在伊朗最聖地伊瑪目烈莎聖陵被安葬，結束了六天的公眾哀悼儀式。阿里·哈梅內伊去世後，伊朗爆發了大規模的哀悼活動，各地都有數以萬計的人參與了哀悼活動。伊瑪目烈莎聖陵是伊朗最重要的聖地之一，為數百萬名什葉派穆斯林所尊崇。阿里·哈梅內伊的安葬儀式是伊朗歷史上最大的哀悼活動之一，展現了伊朗人民對其領袖的深深愛戴。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5723c985",
-        "title": "烏克蘭情報員被控殺害摩納哥爆炸嫌犯改口",
-        "url": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 20:47:41 GMT",
-        "summary_zh": "摩納哥爆炸案嫌犯安娜斯塔西婭·貝雷佐夫斯卡（Anastasiia Berezovska）被殺害案中，兩名與烏克蘭安全服務有關的男子被指控犯下此案，並將她的屍體棄置在森林中。這兩名男子最初否認犯案，但後來改口承認了自己的罪行。這起案件引發了對烏克蘭安全服務的關注和質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "72271fd2",
-        "title": "巴勒斯坦人哀悼加沙世界盃直播組織者在以色列空襲中喪生",
-        "url": "https://www.bbc.co.uk/news/articles/cwylznzjk04o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 21:04:09 GMT",
-        "summary_zh": "在以色列與哈馬斯戰爭期間，援助工作者穆罕默德·阿爾瓦希迪（Mohammed al-Wahidi）成為了突出的人道主義人物。近日，他在一場以色列空襲中喪生。阿爾瓦希迪曾負責在加沙地區直播世界盃比賽，為當地民眾帶來歡樂和精神上的慰藉。他的死引起了巴勒斯坦人對以色列行動的強烈不滿和抗議。這一事件也引發了對人道主義工作者的安全和保護的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f19686a1",
-        "title": "SK Hynix 大舉募資26.5億美元 美股上市將創下外資最大首日交易記錄",
-        "url": "https://www.bbc.co.uk/news/articles/c4gym70r0y4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 10 Jul 2026 02:48:18 GMT",
-        "summary_zh": "韓國半導體巨頭SK Hynix近日宣布在美國進行了史上最大規模的外資上市募資，共募集了26.5億美元。這次募資將使SK Hynix成為全球第二大半導體製造商。SK Hynix的股票將於下周五在納斯達克上市交易，創下了外資上市的最大首日交易記錄。這項募資將為SK Hynix提供充足的資金來應對全球半導體市場的競爭和供應鏈挑戰。然而，這也引發了對韓國半導體業的依賴度和安全性的擔憂。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0563b424",
-        "title": "烏克蘭攻擊俄羅斯船隻靠近克里米亞，升級對燃料供應的攻擊",
-        "url": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 15:21:17 GMT",
-        "summary_zh": "烏克蘭近日對俄羅斯船隻進行攻擊，攻擊目標位於克里米亞半島附近。這似乎是烏克蘭試圖切斷克里米亞被佔領區的供應線和路線的最新階段。烏克蘭的行動旨在限制俄羅斯對克里米亞的燃料供應，進一步加劇雙方的對峙。這一發展可能會對俄羅斯的經濟和軍事行動產生重大影響。烏克蘭的攻擊行動表明該國將繼續對俄羅斯的行動進行反擊，試圖限制俄羅斯對克里米亞的控制。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "57e93db4",
-        "title": "希臘戰機在繁忙機場著陸失敗",
-        "url": "https://www.bbc.co.uk/news/articles/czrxz18720eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 09 Jul 2026 16:15:10 GMT",
-        "summary_zh": "希臘一架F-16戰機在扎金索斯機場著陸失敗，機上無人生還。據報導，該機在著陸時未開放降落架，最終引發大火，關閉了整條跑道。扎金索斯機場是希臘一個重要的航空樞紐，該事件對當地的航空運輸產生了重大影響。希臘政府已經展開調查，了解該事件的原因。這一事件也引起了對希臘航空安全的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "whitehouse": [
+      {
+        "id": "73212184",
+        "title": "法官將決定查理·柯克案是否進入謀殺審判",
+        "url": "https://www.theguardian.com/us-news/2026/jul/10/charlie-kirk-shooting-hearing",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 10 Jul 2026 12:46:23 GMT",
+        "summary_zh": "美國一名男子泰勒·羅賓遜被控謀殺右翼活動家查理·柯克，案件將於本周五結束五天的初步聆訊。法官托尼·格拉夫將在接下來的幾周內審視檢方和被告律師提交的證據後，做出是否將案件送上審判的決定。查理·柯克於去年在猶他谷大學遭到槍擊，泰勒·羅賓遜被控謀殺罪。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "bf07db26",
         "title": "川普遭批評「不負責任、危險」　因選舉委員會解散引發選舉混亂憂慮",
         "url": "https://www.theguardian.com/us-news/live/2026/jul/10/donald-trump-election-commission-republicans-midterms-graham-platner-iran-us-politics-latest-news-updates",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Fri, 10 Jul 2026 11:35:40 GMT",
+        "published_at": "Fri, 10 Jul 2026 12:45:14 GMT",
         "summary_zh": "川普政府在選舉委員會解散後引發了各界的關注，政治人物和倡導者認為這是川普總統「不斷干預選舉」的最新舉措。川普政府在推動反風力發電運動的同時，卻將 2.7 億美元的稅款直接花在這上面，並將 1.125 億美元投入煤炭業發展，這些行動引起了批評者對川普政府的質疑。批評者認為，川普政府的行動是為了服務於石油天然氣公司，而不是為了減輕美國民眾的能源費用。川普政府的這些行動被認為是對選舉制度的破壞，引發了選舉混亂的憂慮。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cfc2933f",
+        "title": "德克薩斯州面臨監獄酷熱危機壓力增大",
+        "url": "https://www.theguardian.com/us-news/2026/jul/10/texas-crisis-brutal-heat-prison-cells",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 10 Jul 2026 12:00:20 GMT",
+        "summary_zh": "德克薩斯州因監獄酷熱問題而面臨法律壓力增大。該州監獄人口最多的監獄系統，正在處理酷熱夏季對囚犯的影響。德克薩斯州刑事司法部（TDCJ）已被一家律師事務所提起了一項不當死亡訴訟案件，指控該監獄系統未能提供足夠的冷氣和舒適環境，導致囚犯受苦、生病甚至死亡。該案件涉及一名名叫 Jason Wilson 的囚犯，他在 2024 年 7 月在科菲爾德監獄單人囚房中被發現死亡。德克薩斯州監獄系統面臨著嚴重的酷熱問題，囚犯們在酷熱的監獄環境中受苦，引起了人權組織和律師的關注。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
+      },
+      {
+        "id": "18d2a788",
+        "title": "這個計劃給黑人單親媽媽每月 1,000 美元，結果無可否認",
+        "url": "https://www.theguardian.com/us-news/2026/jul/10/guaranteed-income-black-single-moms-mississippi",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 10 Jul 2026 12:00:20 GMT",
+        "summary_zh": "在密西西比州傑克遜市，成立了一個名為「馬格諾利亞母親信託」的計劃，專門幫助低收入家庭的黑人媽媽。這個計劃由 2018 年開始運行，是美國第一個針對極度低收入家庭的黑人媽媽的保證收入計劃。計劃給每位媽媽 1,000 美元的月度補助，無條件、無附加條件，持續 12 個月。這個計劃的目的是幫助這些家庭渡過難關，改善生活質量。三個月後，Amaya Jones 進入了新公寓，雖然她不知道其他房客，但這是她和兩個孩子的新開始。有一天，她在門上發現了一個通知，她知道了這個名為「馬格諾利亞母親信託」的計劃。這個計劃的成果令人信服，對這些家庭的幫助是不可否認的。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "f1965688",
@@ -308,8 +320,8 @@
         "published_at": "Fri, 10 Jul 2026 11:30:19 GMT",
         "summary_zh": "川普政府直接從稅款中花費 27 億美元來反對風力發電，而將 11.25 億美元投入於推動煤炭生產。批評者認為這些行動是川普政府為了服務於石油天然氣公司，從而逼迫美國民眾付出更高的能源費用。根據記者調查，川普政府的這些行動可能是為了回饋那些在他的競選活動中大量捐款的石油天然氣公司。這些行動被認為是對美國民眾不利，尤其是那些收入較低的家庭。川普政府的這些行動也被視為是對清潔能源的打擊，從而推動美國依賴於煤炭和其他化石燃料。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "3ad9e427",
@@ -320,8 +332,8 @@
         "published_at": "Fri, 10 Jul 2026 11:18:03 GMT",
         "summary_zh": "美國移民及海關執法局（ICE）探員在休斯頓一宗交通阻擋事件中誤殺了一名墨西哥移民洛倫佐·薩爾加多·阿勞霍（Lorenzo Salgado Araujo）。根據美國國土安全部（DHS）表示，探員們當時正在追捕兩名來自瓜地馬拉的嫌疑犯。被害者洛倫佐·薩爾加多·阿勞霍是墨西哥移民，已在美國生活了 35 年。事件發生在他開車去上班的早上，他駕駛一輛白色貨車，載有另外三名男子。事發後，三名男子被捕，其中一名男子被指控為被害者的兄弟維克多·胡戈·薩爾加多·阿勞霍（Victor Hugo Salgado Araujo），目前仍被關押在移民拘留中心。ICE探員稱，洛倫佐·薩爾加多·阿勞霍「武裝化他的車輛，試圖衝向一名ICE執法官員」，並開槍「為自衛」，但沒有提供證據來證實這一說法。ICE探員曾使用類似的辯解在其他高調事件中，包括米尼亞波利斯的雷內·古德（Renee Good）案件，後來視頻證據證實了這一說法的錯誤。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "3bdd4de3",
@@ -332,8 +344,8 @@
         "published_at": "Fri, 10 Jul 2026 11:00:19 GMT",
         "summary_zh": "紐約市正在嘗試實施一項新規則，禁止公司使用欺詐性訂閱來陷害顧客繳費健身會籍、串流服務和其他重複收費。根據市民保護辦公室的說法，這項規則將從10月1日起實施，並對違規公司實施嚴格懲罰。未能提供簡單取消方式的公司將面臨每個用戶訂閱$525的罰款、退費和額外罰款。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "606ab209",
@@ -344,8 +356,8 @@
         "published_at": "Fri, 10 Jul 2026 10:00:18 GMT",
         "summary_zh": "梅內州參議院民主黨候選人格雷厄姆·普拉特納（Graham Platner）在宣布停止參選後，發表了一個充滿怨恨的辭辭。他在辭辭中表示，自己曾經給予了最好的努力，但最終還是被迫放棄參選。他還提到，總統尼克森在1974年因為水門事件被迫辭職時，也曾經說過「別讓別人使你失望，別讓自己變得卑鄙」。格雷厄姆·普拉特納的辭辭被視為一個怨恨的表現，顯示他對於參選失敗感到不滿和憤怒。這個事件表明，政治競選中，候選人的態度和言論對於選民的印象和支持度有著重要的影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "5698b66d",
@@ -357,42 +369,6 @@
         "summary_zh": "美國移民局人員在休斯頓一處交通檢查點誤殺了一名墨西哥籍男子洛倫佐·薩爾加多·阿勞霍（Lorenzo Salgado Araujo）。根據美國國土安全部（DHS）的說法，這名男子並不是該行動的目標。移民和海關執法局（ICE）人員正在追捕來自瓜地馬拉的兩名男子時，誤將薩爾加多·阿勞霍視為目標。薩爾加多·阿勞霍是一名35年來一直居住在美國的墨西哥移民。根據紐約時報的報導，ICE人員正在執行一項行動，目標是逮捕來自瓜地馬拉的兩名男子。然而，人員在執行行動時錯誤地將薩爾加多·阿勞霍視為目標，導致他被誤殺。這一事件引起了對美國移民政策和執法程序的關注。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "226d4bcc",
-        "title": "前奧運選手辯護不認罪：涉嫌破壞華盛頓林肯紀念館反映池",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/09/donald-trump-graham-platner-mitch-mcconnell-iran-midterms-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 10 Jul 2026 01:52:26 GMT",
-        "summary_zh": "前奧運單板滑雪選手大衛·赫恩（David Hearn）被控單一重罪，涉嫌破壞華盛頓林肯紀念館反映池。赫恩在去月被捕，當時他騎著自行車途經池區。赫恩表示，他被拘留近五個小時，因為他試圖檢查池水中的藍色防水膜，該膜部分脫落。赫恩聲稱，他只是出於好奇，想知道它的觸感。這起案件引起了爭議，前總統川普（Trump）指控赫恩涉嫌破壞池區。赫恩辯護律師表示，他的客戶不認罪。這起案件將進一步審理。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d39d5fff",
-        "title": "川普終止選舉委員會最後三名成員，引發中期選舉「混亂」恐懼",
-        "url": "https://www.theguardian.com/us-news/2026/jul/09/trump-fires-election-commissioners",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 10 Jul 2026 01:18:22 GMT",
-        "summary_zh": "川普總統在中期選舉前數月，終止了全國性協助選舉管理官員的獨立聯邦選舉委員會的最後三名成員。根據多家媒體報導，四名委員會成員中，三名成員在星期四被迫離職。其中一名共和黨提名的成員辭職，而另外兩名民主黨提名的成員則通過白宮總統人事辦公室發送的電子郵件收到離職通知。這項行動引發了對中期選舉可能造成的混亂的恐懼。選舉委員會負責協助各州的選舉管理工作，包括郵寄選民登記表格等事務。川普的行動被視為對選舉制度的干預，可能會對選舉結果產生影響。選舉委員會的終止可能會導致選舉管理工作的混亂和不確定性，這將對選民造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a49e56d1",
-        "title": "艾里卡·柯克要求丈夫被殺案相關證物全部公開",
-        "url": "https://www.theguardian.com/us-news/2026/jul/09/erika-charlie-kirk-transparency-judge",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 10 Jul 2026 00:26:31 GMT",
-        "summary_zh": "艾里卡·柯克，右翼活動家查理·柯克的寡婦，要求一名犹他州法官允許公開庭上展示與她丈夫被殺案相關的所有證物。她表示，擔心謀殺案會引發各種陰謀論。這名法官將在犹他州普羅沃的一個初步聽證會上決定是否有足夠的證據來進行對查理·柯克被殺案的嫌疑犯泰勒·羅賓遜的審判。泰勒·羅賓遜被控於去年九月在犹他谷大學發生的一次槍擊案中殺害查理·柯克。艾里卡·柯克認為公開證物可以避免謀殺案的陰謀論傳播。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -408,6 +384,18 @@
         "ai_classified": true
       },
       {
+        "id": "d39d5fff",
+        "title": "川普終止選舉委員會最後三名成員，引發中期選舉「混亂」恐懼",
+        "url": "https://www.theguardian.com/us-news/2026/jul/09/trump-fires-election-commissioners",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 10 Jul 2026 01:18:22 GMT",
+        "summary_zh": "川普總統在中期選舉前數月，終止了全國性協助選舉管理官員的獨立聯邦選舉委員會的最後三名成員。根據多家媒體報導，四名委員會成員中，三名成員在星期四被迫離職。其中一名共和黨提名的成員辭職，而另外兩名民主黨提名的成員則通過白宮總統人事辦公室發送的電子郵件收到離職通知。這項行動引發了對中期選舉可能造成的混亂的恐懼。選舉委員會負責協助各州的選舉管理工作，包括郵寄選民登記表格等事務。川普的行動被視為對選舉制度的干預，可能會對選舉結果產生影響。選舉委員會的終止可能會導致選舉管理工作的混亂和不確定性，這將對選民造成影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "f883abe6",
         "title": "八人被控謀殺罪嫌　涉嫌在白宮UFC比賽時發動槍擊和無人機攻擊",
         "url": "https://www.theguardian.com/us-news/2026/jul/09/white-house-ufc-drone-attack-plot",
@@ -417,6 +405,18 @@
         "summary_zh": "美國檢方指控八名男子涉嫌策劃在六月份白宮舉辦的UFC擂台賽上發動槍擊和無人機攻擊，造成多人傷亡。檢方指控這八名男子參與了兩項陰謀，分別是為恐怖組織提供物質支持和在聯邦政府領土上謀殺聯邦政府官員。這項指控是在俄亥俄州提出的。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0a177a2a",
+        "title": "前奧運選手否認反映池毀壞案",
+        "url": "https://www.bbc.co.uk/news/articles/c78y013ny3eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 17:01:15 GMT",
+        "summary_zh": "前美國奧運水上項目選手被控蓄意損壞林肯紀念館的修復後反映池。該選手否認指控，認為自己是意外造成的。事件發生在美國首都華盛頓特區。這起案件引起了對於公共設施保護和安全的關注。美國國會議員已經開始就此事件展開調查。該選手的律師表示，將會在未來的法庭上為其辯護。事件的結果尚未可知。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -439,6 +439,18 @@
         "category": "whitehouse",
         "published_at": "Thu, 09 Jul 2026 18:37:14 GMT",
         "summary_zh": "美國查理·柯克謀殺案的嫌疑犯泰勒·羅賓森（Tyler Robinson）在警方的調查中被捕。泰勒的室友在法庭上作證，指出泰勒在警方的採訪中承認犯案。這些錄音在法庭上被播放，作為初步聽證會的一部分。泰勒被指控謀殺查理·柯克（Charlie Kirk），案件正在進行中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7db18b9f",
+        "title": "民主黨人格拉罕普拉特納暫停參選美國緬因州參議院選舉",
+        "url": "https://www.bbc.co.uk/news/articles/c9v229434p2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 14:37:19 GMT",
+        "summary_zh": "緬因州參議院選舉的民主黨人格拉罕普拉特納宣布暫停競選。這項決定出現於一名女性指控他性侵犯的事件發生後不久。該名女性指控他性侵犯，格拉罕普拉特納否認這項指控，稱其為「完全不正確」。這項事件對格拉罕普拉特納的競選活動造成了重大影響，暫停競選的決定可能是為了避免對競選活動造成更多傷害。這項事件也引起了對性別暴力的關注和討論。格拉罕普拉特納的暫停競選將對緬因州參議院選舉產生重大影響，未來的發展仍待觀察。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -468,18 +480,6 @@
         "ai_classified": true
       },
       {
-        "id": "1d1c4dbe",
-        "title": "視頻：休斯頓爆發大規模抗議　美移民局槍殺墨西哥籍男子",
-        "url": "https://www.bbc.co.uk/news/videos/cj3gdzxrry3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 15:02:24 GMT",
-        "summary_zh": "休斯頓市近日爆發大規模抗議，抗議者要求對於一名墨西哥籍男子被美移民局槍殺一事進行獨立調查。52歲的洛倫佐·薩爾加多·阿勞霍（Lorenzo Salgado Araujo）被美移民局槍殺事件引發了民眾的強烈不滿。抗議者認為，美移民局的行動違反了人權原則，要求政府對此事件進行徹底調查。抗議活動持續進行中，民眾的聲音正在被聽見。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "c4cc53b0",
         "title": "佛羅里達州機場更名為川普國際機場，旅客反應熱烈",
         "url": "https://www.bbc.co.uk/news/videos/cly9r0zwkzko?at_medium=RSS&at_campaign=rss",
@@ -487,6 +487,18 @@
         "category": "whitehouse",
         "published_at": "Thu, 09 Jul 2026 13:50:12 GMT",
         "summary_zh": "佛羅里達州帕爾姆灘國際機場於 7 月 9 日正式更名為川普國際機場。這一決定引起了旅客的強烈反應，許多人對此表示不滿和抗議。這一更名決定是由前總統川普所推動的，他在任內曾多次訪問該機場。然而，許多人認為這一更名決定是對美國民主價值的侵犯，同時也引發了對川普的批評。這一事件也引起了輿論的關注，許多人對此表示了強烈的反對意見。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1d1c4dbe",
+        "title": "視頻：休斯頓爆發大規模抗議　美移民局槍殺墨西哥籍男子",
+        "url": "https://www.bbc.co.uk/news/videos/cj3gdzxrry3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 09 Jul 2026 15:02:24 GMT",
+        "summary_zh": "休斯頓市近日爆發大規模抗議，抗議者要求對於一名墨西哥籍男子被美移民局槍殺一事進行獨立調查。52歲的洛倫佐·薩爾加多·阿勞霍（Lorenzo Salgado Araujo）被美移民局槍殺事件引發了民眾的強烈不滿。抗議者認為，美移民局的行動違反了人權原則，要求政府對此事件進行徹底調查。抗議活動持續進行中，民眾的聲音正在被聽見。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -516,18 +528,6 @@
         "ai_classified": true
       },
       {
-        "id": "0a177a2a",
-        "title": "前奧運選手否認反映池毀壞案",
-        "url": "https://www.bbc.co.uk/news/articles/c78y013ny3eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 17:01:15 GMT",
-        "summary_zh": "前美國奧運水上項目選手被控蓄意損壞林肯紀念館的修復後反映池。該選手否認指控，認為自己是意外造成的。事件發生在美國首都華盛頓特區。這起案件引起了對於公共設施保護和安全的關注。美國國會議員已經開始就此事件展開調查。該選手的律師表示，將會在未來的法庭上為其辯護。事件的結果尚未可知。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "b4bf6293",
         "title": "白宮環境質量委員會宣布展出許可證創新科技方案",
         "url": "https://www.whitehouse.gov/releases/2026/07/white-house-ceq-announces-technology-solutions-selected-to-showcase-at-permitting-innovators-expo/",
@@ -538,104 +538,226 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
+      }
+    ],
+    "ai": [
       {
-        "id": "7db18b9f",
-        "title": "民主黨人格拉罕普拉特納暫停參選美國緬因州參議院選舉",
-        "url": "https://www.bbc.co.uk/news/articles/c9v229434p2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Thu, 09 Jul 2026 14:37:19 GMT",
-        "summary_zh": "緬因州參議院選舉的民主黨人格拉罕普拉特納宣布暫停競選。這項決定出現於一名女性指控他性侵犯的事件發生後不久。該名女性指控他性侵犯，格拉罕普拉特納否認這項指控，稱其為「完全不正確」。這項事件對格拉罕普拉特納的競選活動造成了重大影響，暫停競選的決定可能是為了避免對競選活動造成更多傷害。這項事件也引起了對性別暴力的關注和討論。格拉罕普拉特納的暫停競選將對緬因州參議院選舉產生重大影響，未來的發展仍待觀察。",
+        "id": "5a913592",
+        "title": "微軟二零二五年碳排放量上升 25% ，超越公司氣候目標",
+        "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-09T20:04:13-04:00",
+        "summary_zh": "微軟在其二零二六年可持續發展報告中表明，公司二零二五年的碳排放量已經超越了公司的氣候目標。根據 GeekWire 報導，報告指出，微軟二零二五年的碳排放量增加了 25%，總計達到 34 萬噸「不計入特定干預措施」。微軟表示，這主要是由於公司業務的擴張所致。這項報告使得微軟再次面臨著與自己的氣候目標不符的問題。雖然微軟在報告中提到了一些減碳措施，但仍然需要進一步的努力來實現公司的氣候目標。這項報告也使得公司的可持續發展努力受到質疑。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8a65c5f7",
+        "title": "Fidji Simo 因健康理由辭去 OpenAI AGI 領導職位",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-09T19:24:04-04:00",
+        "summary_zh": "OpenAI 的 Fidji Simo 將辭去她在公司的 AGI 領導職位，並將轉型為「兼職顧問」。這項消息發生在她原先在 4 月份宣布因為神經免疫疾病而休假不久後。根據 Simo 的說法，她將繼續為 OpenAI 提供幫助，但將不再擔任全職職務。她的辭職是因為她需要更多時間來照顧自己的健康。這項消息對於 OpenAI 的未來發展可能會有所影響。雖然 Simo 將繼續為公司提供幫助，但她的辭職仍然是公司的一個重要變化。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c5fb8971",
+        "title": "ChatGPT瀏覽器已經死亡",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-09T16:34:05-04:00",
+        "summary_zh": "ChatGPT瀏覽器 Atlas 由 OpenAI 推出不足一年即將停止運作。該瀏覽器能夠為用戶自動完成各種任務。OpenAI 近日宣布將 Atlas 停止運作，並將關注 ChatGPT Work 的發展。這項決定可能與 OpenAI 對 ChatGPT Work 的重心轉移有關。ChatGPT Work 是一項為企業提供的工具，能夠自動完成各種任務。OpenAI 的這項決定可能會對企業客戶造成影響。未來 OpenAI 將如何發展 ChatGPT Work 仍待觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e6b8352a",
+        "title": "Google 將告知廣告是否使用人工智慧製作",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-09T16:11:38-04:00",
+        "summary_zh": "Google 宣佈將在其「我的廣告中心」新增功能，讓用戶可以檢視是否使用人工智慧製作或編輯的廣告。這項功能將於 Google 搜尋、Google Discover 和 YouTube 上推出。用戶可以在「如何製作這個廣告」頁面下方找到「使用人工智慧製作或編輯」的標籤。這項功能旨在透過增加透明度，讓用戶更好地了解廣告的來源。這項功能的推出將對於用戶的廣告體驗產生影響，讓他們能夠更好地評估廣告的可信度。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "430f86c0",
+        "title": "微軟的 Patch Tuesday 即將變大",
+        "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-09T13:00:00-04:00",
+        "summary_zh": "微軟近日宣布，將會使用人工智慧（AI）來識別潛在問題，從而讓客戶在每次安全更新中看到更多的安全修復。這一措施是為了應對黑客們，包括業餘黑客，越來越多地使用 AI 進行攻擊。微軟表示，這一變化將會讓 Patch Tuesday 的更新量大幅增加。這一變化將會對客戶和企業造成重大影響，需要及時升級以避免安全風險。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9cf9c4c9",
+        "title": "OpenAI推出GPT-5.6，政府核准後宣布「ChatGPT Work」",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-09T13:00:00-04:00",
+        "summary_zh": "OpenAI近期因GPT-5.6的規管風波而引起關注，該公司只將該模型提供給政府核准的組織進行有限預覽。然而，美國政府已經核准了該模型的公眾推出，OpenAI CEO Sam Altman稱之為「我們生產過的最佳模型」。為慶祝此事，OpenAI宣布推出「ChatGPT Work」，這是一個針對企業用戶的聊天機器人平台。該平台將提供更強大的功能和工具，讓企業能夠更好地與客戶溝通和合作。這一發展將對企業用戶帶來新的機會和挑戰，讓我們期待著未來的發展。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ab490741",
+        "title": "梅塔宣布新 AI 模型已經準備好與程式碼競賽",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-09T10:00:00-04:00",
+        "summary_zh": "梅塔公司在四月份重新進入人工智慧競賽，推出了首款自家開發的 Muse Spark 模型。現在，梅塔又推出了新一代的 Muse Spark 1.1 模型，該模型能夠與程式碼編輯軟體整合，梅塔稱這是一個「重大進步」。梅塔表示，新一代的 Muse Spark 模型比第一代有了顯著的改進，能夠更好地應對程式碼編輯任務。梅塔還推出了 Meta Model API，讓開發者能夠更容易地將新一代的 Muse Spark 模型整合到程式碼編輯軟體中。這意味著，梅塔的新 AI 模型已經準備好與程式碼競賽了。這將對程式碼編輯軟體的發展帶來重大影響，開發者將能夠更好地利用梅塔的新 AI 模型來提升程式碼編輯效率。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "016a0f72",
+        "title": "歡迎Claude Wrapped！",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-09T09:30:00-04:00",
+        "summary_zh": "Spotify Wrapped的流行趨勢已經影響了各個應用程式，從YouTube到Uber都有了年終回顧功能。現在，這種回顧趨勢已經來到人工智慧領域。Anthropic宣布推出了一個名為「reflect」的功能，讓使用者可以看到過去一個月的使用資料分析。這項功能會提供使用者的聊天記錄、使用時間和最常使用的功能等資訊。這項功能的推出，讓使用者可以更深入地了解自己與Claude的互動，並且可以根據這些資訊來改善自己的使用經驗。這項功能的推出，也標誌著人工智慧領域的年終回顧趨勢的開始。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ecdd5635",
+        "title": "Character.AI欲進軍微劇市場",
+        "url": "https://www.theverge.com/entertainment/962897/character-ai-series-microdrama-vertical-video",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-09T09:11:53-04:00",
+        "summary_zh": "Character.AI的計劃已經超越了互動書籍、漫畫和音頻劇的範圍。公司今天宣布推出c.ai Series - 短暫、連續的視頻內容，供用戶在手機上觀看並互動。與傳統的微劇服務相比，c.ai Series的內容將採用更高質量的製作，並且會與用戶進行互動。這項新服務將讓Character.AI進軍微劇市場，挑戰現有的服務提供者。這項變革將如何影響用戶的娛樂體驗？",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c5eec3a9",
+        "title": "Anthropic發現隱藏空間：Claude在思考概念",
+        "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 09 Jul 2026 20:22:28 +0000",
+        "summary_zh": "人工智慧公司Anthropic開發了一種技術，讓它們能夠更深入地了解大型語言模型在回答問題或執行任務的內部運作。研究人員發現了從日常事物到令人不安的東西。公司的研究人員建造了名為Jacobian lens的工具（或…",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "98082127",
+        "title": "Anthropic 要你付費使用 Claude Fable 5",
+        "url": "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Thu, 09 Jul 2026 18:30:00 +0000",
+        "summary_zh": "人工智慧公司 Anthropic 將會要求其訂閱者付費使用其頂級消費者 AI 模型 Claude Fable 5。這標誌著 AI 訂閱服務的黃金時代即將結束。根據目前的規劃，Claude 的訂閱者將需要根據使用量支付費用。這一變化可能會對目前的 AI 訂閱服務產生重大影響。這一轉變可能會讓消費者需要重新評估其 AI 訂閱服務的價值，同時也會對 Anthropic 的業務模式產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "70e368e1",
+        "title": "1X Neo機器人有超快的指頭",
+        "url": "https://www.wired.com/story/the-1x-neo-robot-has-freaky-fast-fingers/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Thu, 09 Jul 2026 16:01:22 +0000",
+        "summary_zh": "近日，1X Neo機器人獲得了非常有觸感的手部設計。這款軟膩的家用清潔機器人，讓人感受到奇怪的親密感。這種設計使得1X Neo機器人能夠更好地完成家居清潔任務，例如擦拭和取物。這種創新設計將如何影響未來的家用機器人市場？將會有更多的機器人企業採用類似的設計，推動家居清潔技術的進步？",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       }
     ],
     "stock_tw": [
       {
-        "id": "d988e66f",
-        "title": "台股衝5萬點只是財富幻覺？唐湘龍點出隱憂：台灣有嚴重的病",
-        "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E8%A1%9D5%E8%90%AC%E9%BB%9E%E5%8F%AA%E6%98%AF%E8%B2%A1%E5%AF%8C%E5%B9%BB%E8%A6%BA-%E5%94%90%E6%B9%98%E9%BE%8D%E9%BB%9E%E5%87%BA-%E5%B0%8Fk%E5%9E%8B%E7%B6%93%E6%BF%9F-%E9%9A%B1%E6%86%82-%E5%8F%B0%E7%81%A3%E6%9C%89%E5%9A%B4%E9%87%8D%E7%9A%84%E7%97%85-112728425.html",
-        "source": "Yahoo 台股",
+        "id": "f6cbf673",
+        "title": "巴威颱風來襲！11日兩大外送平台營運措施一次看",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5501186",
+        "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Fri, 10 Jul 2026 11:27:28 GMT",
-        "summary_zh": "近年來，台灣股市屢創新高點，許多投資人關注何時能衝上5萬點大關，另外人均GDP預估將成長至逼近4.5萬美元，經濟數據亮眼。但是，主計總處近日公布最新數據顯示，台灣6月消費者物價指數（CPI）升至2.6%，這意味著通膨率正在上升。唐湘龍認為，這是台灣經濟面臨的隱憂之一。另外，台灣的出口業也面臨著挑戰，出口量下滑，對經濟的影響不容忽視。根據統計，今年上半年，台灣出口量下滑了5.6%，這使得經濟增長率下滑。唐湘龍認為，這些數據表明，台灣經濟面臨著嚴重的挑戰，需要採取積極的措施來應對。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "c3d929b7",
-        "title": "聯發科6月營收衝580億元創今年單月新高",
-        "url": "https://tw.news.yahoo.com/%E8%81%AF%E7%99%BC%E7%A7%916%E6%9C%88%E7%87%9F%E6%94%B6%E8%A1%9D580%E5%84%84%E5%85%83-%E5%89%B5%E4%BB%8A%E5%B9%B4%E5%96%AE%E6%9C%88%E6%96%B0%E9%AB%98-112315122.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Fri, 10 Jul 2026 11:23:15 GMT",
-        "summary_zh": "聯發科公佈2026年6月份合併營業收入為580.12億元，創今年單月新高。與去年同期相比，營收增加了2.8%。今年上半年，聯發科的合併營收為3013.33億元，較去年同期下跌0.77%。這表明聯發科在今年上半年仍然面臨著一定的營收壓力。然而，6月份的營收增幅顯示出公司的業務仍然有韌性。聯發科的營收增幅主要是由於手機晶片的需求增加所致。手機晶片是聯發科的主要產品，公司的業務主要依靠這一產品來營收。因此，手機晶片的需求增加對聯發科的營收有著直接的影響。聯發科的營收增幅也表明出公司的市場競爭力。聯發科在手機晶片市場上一直是領先者，公司的產品質量和服務水平都受到業界的認可。因此，聯發科的營收增幅也反映出公司的市場競爭力。總體來說，聯發科的6月份營收增幅是個好消息，表明公司的業務仍然有韌性和競爭力。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "04ec333d",
-        "title": "7/16後股價要噴了？ 外媒點名「台積電」：投資首選",
-        "url": "https://tw.stock.yahoo.com/news/7-16%E5%BE%8C%E8%82%A1%E5%83%B9%E8%A6%81%E5%99%B4%E4%BA%86-%E5%A4%96%E5%AA%92%E9%BB%9E%E5%90%8D-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E6%8A%95%E8%B3%87%E9%A6%96%E9%81%B8-111900034.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Fri, 10 Jul 2026 11:19:00 GMT",
-        "summary_zh": "近日台股行情熱，尤其是「護國神山」之稱的台積電股價，引起了眾所注目的關注。外媒指出，台積電是推動AI產業的重要關鍵，擁有領先全球的地位。這使得未來股價的上漲空間值得期待。台積電的成功，與其在AI產業的領先地位有關。公司的技術和產品，對於推動AI產業的發展，具有重要的影響力。外媒的評估表明，台積電的股價，將在未來的市場中，展現出明顯的上漲趨勢。這對於投資者來說，是一個值得關注的訊息。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "0a303551",
-        "title": "聯發科Q2營收1521億元寫5季以來新高 飛越財測高標",
-        "url": "https://tw.stock.yahoo.com/news/%E8%81%AF%E7%99%BC%E7%A7%91q2%E7%87%9F%E6%94%B61521%E5%84%84%E5%85%83%E5%AF%AB5%E5%AD%A3%E4%BB%A5%E4%BE%86%E6%96%B0%E9%AB%98-%E9%A3%9B%E8%B6%8A%E8%B2%A1%E6%B8%AC%E9%AB%98%E6%A8%99-102735313.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Fri, 10 Jul 2026 10:27:35 GMT",
-        "summary_zh": "聯發科今公布 6 月營收 580.12 億元，月增 22.3%，年增 2.8%。第二季營收 1,521.83 億元，季增 2.03%，年增 1.21%。這是聯發科 5 季以來營收最高的季度。聯發科的營收增長主要是由於手機晶片市場的回暖，尤其是在中低階手機的需求增加。這也反映在聯發科的營收中，手機晶片業務的收入占營收的比例增加。聯發科的營收增長對於整個手機產業有著重要影響，將會對業界的競爭格局產生影響。然而，聯發科仍然面臨著強勁的競爭，包括華為、美光等公司的挑戰。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "5495579b",
-        "title": "中鋼公司股東會紀念品發放日期順延",
-        "url": "https://tw.news.yahoo.com/%E4%B8%AD%E9%8B%BC115%E5%B9%B4%E6%8E%A1%E9%9B%BB%E5%AD%90%E6%8A%95%E7%A5%A8%E4%B9%8B%E8%82%A1%E6%9D%B1%E6%9C%83%E7%B4%80%E5%BF%B5%E5%93%81-%E7%99%BC%E6%94%BE%E6%97%A5%E6%9C%9F%E9%A0%86%E5%BB%B6-095518570.html",
-        "source": "Yahoo 台股",
-        "category": "stock_tw",
-        "published_at": "Fri, 10 Jul 2026 09:55:18 GMT",
-        "summary_zh": "中鋼公司原訂在7月8日至10日發放股東會紀念品，但受巴威颱風影響，台北市政府宣布停辦上班上課，中鋼公司決定停止提供股東會紀念品發放服務，發放截止時間將順延至7月未知日期。這項決定是為了確保股東會紀念品發放服務的安全和順暢。中鋼公司將會繼續監控颱風情況，並根據需要進行適當的安排。這項變更將對股東會紀念品的發放有所影響，中鋼公司將會盡快公布新的發放日期和時間。",
+        "published_at": "Fri, 10 Jul 2026 20:55:39 +0800",
+        "summary_zh": "巴威颱風預估週六（11日）將是風雨影響最劇烈的一天。為了配合政府停班停課措施，兩大外送平台foodpanda與Uber Eats宣布營運措施。foodpanda表示，會根據當地情況調整營運時間，確保騎手和顧客的安全。Uber Eats則表示，會暫停部分地區的營運，保護騎手和顧客免受風雨影響。這些措施是為了確保外送平台的營運人員和顧客的安全。政府停班停課措施的宣布，讓外送平台必須採取適當措施，配合政府的指示。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "1505f298",
-        "title": "毛利率衝上79.5%！台積電還賺不到的「記憶體龍頭」缺貨延續數季",
-        "url": "https://tw.stock.yahoo.com/news/%E6%AF%9B%E5%88%A9%E7%8E%87%E8%A1%9D%E4%B8%8A79-5-%E9%80%99%E8%A8%98%E6%86%B6%E9%AB%94%E9%BE%8D%E9%A0%AD-%E6%AF%94%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%82%84%E8%B3%BA-%E7%B8%BD%E7%B6%93%E7%90%86-094500958.html",
-        "source": "Yahoo 台股",
+        "id": "34558d68",
+        "title": "超預期！聯發科6月營收年月雙增 Q2營收飛越財測高標",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5501183",
+        "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Fri, 10 Jul 2026 09:45:00 GMT",
-        "summary_zh": "南亞科今公布最新財報，第二季毛利率一舉衝上79.5%，稅後盈餘501.92億元，遠超市場預期。這家「記憶體龍頭」在缺貨潮下仍能保持高毛利率，總經理表示缺貨還會再延續數季。這意味著南亞科今將繼續受惠於全球記憶體短缺的市場趨勢。南亞科今的財報表現令人印象深刻，表明公司在記憶體市場的領導地位。然而，缺貨的情況可能會對供應鏈和客戶造成壓力。南亞科今的未來發展將受到市場需求和供應鏈的影響。",
+        "published_at": "Fri, 10 Jul 2026 20:54:09 +0800",
+        "summary_zh": "聯發科公布6月合併營收580.12億元，月增22.3%，年增2.8%，超乎市場預期。第二季合併營收1521.82億元，季增2.03%，也遠超預期。這表明聯發科在IC設計領域的競爭力和市場占有率仍然很強。這項成績對於聯發科的股價和市場形象都有正面的影響。然而，隨著市場競爭的加劇，聯發科還需要繼續優化其產品線和業務策略，以保持競爭優勢。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "ae095ffe",
-        "title": "歐盟對中國客車輕型貨車輪胎徵最高45.3%反傾銷稅",
-        "url": "https://www.cna.com.tw/news/acn/202607100075.aspx",
-        "source": "中央社財經",
+        "id": "9b0ffe72",
+        "title": "斷交9年為何巴拿馬議員頻訪台？背後藏台灣經濟實力密碼",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5501118",
+        "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Fri, 10 Jul 2026 12:13:48 +0800",
-        "summary_zh": "歐盟執委會自7月8日起，對自中國進口的客車及輕型貨車輪胎課徵最高45.3%的最終反傾銷稅。這項措施是為了防止中國客車及輕型貨車輪胎進口商利用低價商品在歐盟市場進行競爭，從而對當地生產商造成不公平的影響。根據歐盟執委會的調查結果，中國客車及輕型貨車輪胎進口商的價格已經低於正常市場價格，導致歐盟生產商面臨嚴重的競爭壓力。這項反傾銷稅措施將對中國客車及輕型貨車輪胎進口商造成重大影響，可能會導致進口量大幅減少。",
+        "published_at": "Fri, 10 Jul 2026 20:43:19 +0800",
+        "summary_zh": "巴拿馬與台斷交已9年，近1年巴拿馬國會內第3度籌組跨黨派議員團訪台，特別是在巴拿馬與中國因為運河港口經營權出現爭端之際，備受關注。外交部長林佳龍9日在臉書分享巴拿馬議員團訪台的照片，表示這是巴拿馬國會內第3度籌組跨黨派議員團訪台。巴拿馬議員團訪台的原因，可能與巴拿馬對台灣經濟實力的認知有關。巴拿馬議員團訪台的行程中，包括與台灣企業交流、參觀台灣的產業園區等活動。這次訪台的巴拿馬議員團，可能是為了了解台灣的經濟實力和發展潛力，從而為巴拿馬的經濟發展提供參考。這也可能是巴拿馬試圖與台灣建立更密切的經濟關係，從而為巴拿馬的經濟發展提供新的機會。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8e59025f",
+        "title": "法媒揭「愛麗舍宮效應」！碧姬馬克宏帶動法國小眾品牌身價翻漲",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5501079",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Jul 2026 19:27:01 +0800",
+        "summary_zh": "法國第一夫人碧姬·馬克宏的穿搭和支持法國在地工藝品牌，已經成為法國時尚、美妝與精品市場的關注焦點。她的長期支持，讓不少小眾品牌的身價大幅增加，被稱為「愛麗舍宮效應」。這種效應不僅影響法國的時尚界，也影響了法國的經濟。許多小眾品牌的銷售量大幅增加，讓他們的財務狀況改善。這種影響不僅限於法國本土，也影響了全球市場。碧姬·馬克宏的影響力，讓法國的時尚品牌獲得全球的關注。許多品牌也開始模仿她的風格和支持法國在地工藝品牌的做法。這種效應不僅對法國的經濟有益，也對全球時尚市場有所影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f49ee32f",
+        "title": "京元電拍板赴美投資設廠 預計斥資不超過450億元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5501070",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Jul 2026 19:04:16 +0800",
+        "summary_zh": "京元電董事會通過美國投資設廠案，將在美國設立孫公司並興建新廠，投資金額預計不超過450億元。這是京元電近年來最大規模的海外投資計畫，將於美國設立新的生產基地，為公司的全球化發展提供新的動力。投資金額估14億美元，將為公司帶來新的收入來源。這項投資計畫將對京元電的競爭力和市場份額產生重大影響，公司將在美國市場上擁有新的競爭優勢。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "cc6b02a4",
+        "title": "貿易戰燒向餐桌！中國鴨肉涉低價傾銷 歐盟火大出手了",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5501068",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Jul 2026 19:02:27 +0800",
+        "summary_zh": "歐盟針對中國的反傾銷調查首次擴展到家禽業，決定就北京鴨及其肉鴨生產與出口產業鏈展開反傾銷調查。歐盟宣布即日起，進口到歐洲的北京鴨及其產物將面臨反傾銷稅。這項措施是為了防止中國低價傾銷鴨肉，影響歐洲的家禽業。這一發展可能會對中國的鴨肉出口產生重大影響，同時也會加劇中歐貿易戰的緊張局勢。",
         "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "e191643b",
@@ -746,43 +868,163 @@
         "ai_classified": true
       },
       {
-        "id": "0207e37d",
-        "title": "台積電帶頭漲、三星跟進 韓媒驚爆晶圓代工定價權洗牌了",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5500766",
-        "source": "自由時報財經",
+        "id": "d988e66f",
+        "title": "台股衝5萬點只是財富幻覺？唐湘龍點出隱憂：台灣有嚴重的病",
+        "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E8%A1%9D5%E8%90%AC%E9%BB%9E%E5%8F%AA%E6%98%AF%E8%B2%A1%E5%AF%8C%E5%B9%BB%E8%A6%BA-%E5%94%90%E6%B9%98%E9%BE%8D%E9%BB%9E%E5%87%BA-%E5%B0%8Fk%E5%9E%8B%E7%B6%93%E6%BF%9F-%E9%9A%B1%E6%86%82-%E5%8F%B0%E7%81%A3%E6%9C%89%E5%9A%B4%E9%87%8D%E7%9A%84%E7%97%85-112728425.html",
+        "source": "Yahoo 台股",
         "category": "stock_tw",
-        "published_at": "Fri, 10 Jul 2026 15:44:20 +0800",
-        "summary_zh": "近日，台積電宣布調漲代工價格，隨後三星電子也跟進調高晶圓代工報價。根據韓媒報導，三星電子針對新客戶調高 4 奈米、5 奈米及部分車用 8 奈米製程價格約 15%。這一動作顯示，晶圓代工廠的定價權正在洗牌。台積電和三星電子是全球晶圓代工領域的兩大巨頭，該行業的定價權變化將對全球半導體產業產生重大影響。這一波調整可能是因為全球半導體供應鏈的變化和需求的增加，尤其是 AI 和車用半導體的需求正在快速增長。",
-        "sentiment": "中性",
+        "published_at": "Fri, 10 Jul 2026 11:27:28 GMT",
+        "summary_zh": "近年來，台灣股市屢創新高點，許多投資人關注何時能衝上5萬點大關，另外人均GDP預估將成長至逼近4.5萬美元，經濟數據亮眼。但是，主計總處近日公布最新數據顯示，台灣6月消費者物價指數（CPI）升至2.6%，這意味著通膨率正在上升。唐湘龍認為，這是台灣經濟面臨的隱憂之一。另外，台灣的出口業也面臨著挑戰，出口量下滑，對經濟的影響不容忽視。根據統計，今年上半年，台灣出口量下滑了5.6%，這使得經濟增長率下滑。唐湘龍認為，這些數據表明，台灣經濟面臨著嚴重的挑戰，需要採取積極的措施來應對。",
+        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "56a73195",
-        "title": "58歲大叔坐擁1.7億資產不躺平！砸千萬退休金創業1個月就獲利 \"心法曝光\"",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5500493",
-        "source": "自由時報財經",
+        "id": "c3d929b7",
+        "title": "聯發科6月營收衝580億元創今年單月新高",
+        "url": "https://tw.news.yahoo.com/%E8%81%AF%E7%99%BC%E7%A7%916%E6%9C%88%E7%87%9F%E6%94%B6%E8%A1%9D580%E5%84%84%E5%85%83-%E5%89%B5%E4%BB%8A%E5%B9%B4%E5%96%AE%E6%9C%88%E6%96%B0%E9%AB%98-112315122.html",
+        "source": "Yahoo 台股",
         "category": "stock_tw",
-        "published_at": "Fri, 10 Jul 2026 15:40:18 +0800",
-        "summary_zh": "58歲的德州男史密斯在2024年底盤點資產時，發現自己與妻子擁有550萬美元的淨資產，儘管已經存夠退休金，但他不習慣無所事事的生活。史密斯決定將千萬美元的退休金砸下來創業，僅僅一月時間就獲得了可觀的利益。這個故事引起了許多人的關注，許多人都想知道史密斯的成功秘方。根據史密斯的說法，他的成功秘方在於堅持不懈的努力和對事業的熱情。史密斯表示，他的創業之路並不容易，需要付出很多努力和時間，但最終他獲得了豐厚的回報。這個故事告訴我們，無論年齡或經歷如何，當我們有足夠的資源和決心時，任何人都可以實現自己的夢想。",
+        "published_at": "Fri, 10 Jul 2026 11:23:15 GMT",
+        "summary_zh": "聯發科公佈2026年6月份合併營業收入為580.12億元，創今年單月新高。與去年同期相比，營收增加了2.8%。今年上半年，聯發科的合併營收為3013.33億元，較去年同期下跌0.77%。這表明聯發科在今年上半年仍然面臨著一定的營收壓力。然而，6月份的營收增幅顯示出公司的業務仍然有韌性。聯發科的營收增幅主要是由於手機晶片的需求增加所致。手機晶片是聯發科的主要產品，公司的業務主要依靠這一產品來營收。因此，手機晶片的需求增加對聯發科的營收有著直接的影響。聯發科的營收增幅也表明出公司的市場競爭力。聯發科在手機晶片市場上一直是領先者，公司的產品質量和服務水平都受到業界的認可。因此，聯發科的營收增幅也反映出公司的市場競爭力。總體來說，聯發科的6月份營收增幅是個好消息，表明公司的業務仍然有韌性和競爭力。",
         "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "04ec333d",
+        "title": "7/16後股價要噴了？ 外媒點名「台積電」：投資首選",
+        "url": "https://tw.stock.yahoo.com/news/7-16%E5%BE%8C%E8%82%A1%E5%83%B9%E8%A6%81%E5%99%B4%E4%BA%86-%E5%A4%96%E5%AA%92%E9%BB%9E%E5%90%8D-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E6%8A%95%E8%B3%87%E9%A6%96%E9%81%B8-111900034.html",
+        "source": "Yahoo 台股",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Jul 2026 11:19:00 GMT",
+        "summary_zh": "近日台股行情熱，尤其是「護國神山」之稱的台積電股價，引起了眾所注目的關注。外媒指出，台積電是推動AI產業的重要關鍵，擁有領先全球的地位。這使得未來股價的上漲空間值得期待。台積電的成功，與其在AI產業的領先地位有關。公司的技術和產品，對於推動AI產業的發展，具有重要的影響力。外媒的評估表明，台積電的股價，將在未來的市場中，展現出明顯的上漲趨勢。這對於投資者來說，是一個值得關注的訊息。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0a303551",
+        "title": "聯發科Q2營收1521億元寫5季以來新高 飛越財測高標",
+        "url": "https://tw.stock.yahoo.com/news/%E8%81%AF%E7%99%BC%E7%A7%91q2%E7%87%9F%E6%94%B61521%E5%84%84%E5%85%83%E5%AF%AB5%E5%AD%A3%E4%BB%A5%E4%BE%86%E6%96%B0%E9%AB%98-%E9%A3%9B%E8%B6%8A%E8%B2%A1%E6%B8%AC%E9%AB%98%E6%A8%99-102735313.html",
+        "source": "Yahoo 台股",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Jul 2026 10:27:35 GMT",
+        "summary_zh": "聯發科今公布 6 月營收 580.12 億元，月增 22.3%，年增 2.8%。第二季營收 1,521.83 億元，季增 2.03%，年增 1.21%。這是聯發科 5 季以來營收最高的季度。聯發科的營收增長主要是由於手機晶片市場的回暖，尤其是在中低階手機的需求增加。這也反映在聯發科的營收中，手機晶片業務的收入占營收的比例增加。聯發科的營收增長對於整個手機產業有著重要影響，將會對業界的競爭格局產生影響。然而，聯發科仍然面臨著強勁的競爭，包括華為、美光等公司的挑戰。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5495579b",
+        "title": "中鋼公司股東會紀念品發放日期順延",
+        "url": "https://tw.news.yahoo.com/%E4%B8%AD%E9%8B%BC115%E5%B9%B4%E6%8E%A1%E9%9B%BB%E5%AD%90%E6%8A%95%E7%A5%A8%E4%B9%8B%E8%82%A1%E6%9D%B1%E6%9C%83%E7%B4%80%E5%BF%B5%E5%93%81-%E7%99%BC%E6%94%BE%E6%97%A5%E6%9C%9F%E9%A0%86%E5%BB%B6-095518570.html",
+        "source": "Yahoo 台股",
+        "category": "stock_tw",
+        "published_at": "Fri, 10 Jul 2026 09:55:18 GMT",
+        "summary_zh": "中鋼公司原訂在7月8日至10日發放股東會紀念品，但受巴威颱風影響，台北市政府宣布停辦上班上課，中鋼公司決定停止提供股東會紀念品發放服務，發放截止時間將順延至7月未知日期。這項決定是為了確保股東會紀念品發放服務的安全和順暢。中鋼公司將會繼續監控颱風情況，並根據需要進行適當的安排。這項變更將對股東會紀念品的發放有所影響，中鋼公司將會盡快公布新的發放日期和時間。",
+        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "d0b4b8f5",
-        "title": "巴威颱風來襲 友邦、新光、安聯、保誠等壽險啟動保戶關懷",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5500788",
-        "source": "自由時報財經",
+        "id": "1505f298",
+        "title": "毛利率衝上79.5%！台積電還賺不到的「記憶體龍頭」缺貨延續數季",
+        "url": "https://tw.stock.yahoo.com/news/%E6%AF%9B%E5%88%A9%E7%8E%87%E8%A1%9D%E4%B8%8A79-5-%E9%80%99%E8%A8%98%E6%86%B6%E9%AB%94%E9%BE%8D%E9%A0%AD-%E6%AF%94%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%82%84%E8%B3%BA-%E7%B8%BD%E7%B6%93%E7%90%86-094500958.html",
+        "source": "Yahoo 台股",
         "category": "stock_tw",
-        "published_at": "Fri, 10 Jul 2026 15:08:45 +0800",
-        "summary_zh": "因應巴威颱風來襲，國內多家壽險公司已啟動保戶關懷措施。友邦人壽、新光人壽、安聯人壽、保誠人壽等公司，為了幫助受颱風影響的保戶，提供續期保費緩繳優惠等服務。這些措施旨在減輕受颱風影響的保戶的經濟負擔，讓他們在颱風過後能夠更快地恢復正常生活。這些壽險公司的關懷措施，顯示出他們對於保戶的關心和支持。",
+        "published_at": "Fri, 10 Jul 2026 09:45:00 GMT",
+        "summary_zh": "南亞科今公布最新財報，第二季毛利率一舉衝上79.5%，稅後盈餘501.92億元，遠超市場預期。這家「記憶體龍頭」在缺貨潮下仍能保持高毛利率，總經理表示缺貨還會再延續數季。這意味著南亞科今將繼續受惠於全球記憶體短缺的市場趨勢。南亞科今的財報表現令人印象深刻，表明公司在記憶體市場的領導地位。然而，缺貨的情況可能會對供應鏈和客戶造成壓力。南亞科今的未來發展將受到市場需求和供應鏈的影響。",
         "sentiment": "正面",
-        "is_breaking": false,
+        "is_breaking": true,
         "ai_classified": true
       }
     ],
     "finance": [
+      {
+        "id": "b09a29f0",
+        "title": "印度央行面臨1000億美元挑戰　儘管記錄性貨幣防禦",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-10/rbi-faces-100-billion-challenge-after-record-currency-defense",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-10 01:00:00",
+        "summary_zh": "印度央行面臨著嚴重的挑戰，儘管在記錄性貨幣防禦中取得成功。印度央行在去年 5 月至 6 月期間實施了記錄性貨幣防禦，為了防止印度盧比貶值。這項措施的效果出乎意料地好，印度盧比的貶值被有效控制。然而，這項措施也帶來了嚴重的後果，印度央行的外匯儲備大幅下降，達到 400 億美元。印度央行現在面臨著挑戰，如何償還這筆龐大的外匯儲備。印度央行的財務官員表示，印度央行將採取措施來增加外匯儲備，包括出售政府債券和提高利率。然而，這些措施可能會對印度經濟造成負面影響。印度央行的挑戰不僅僅是償還外匯儲備，而且還包括維持經濟穩定和控制通貨膨脹。印度央行的決定將對印度經濟產生重大影響，將會觀察印度央行的下一步行動。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1f204cc0",
+        "title": "中國MiniMax計劃籌集總額2.05億美元，透過股票發行和債券發行",
+        "url": "https://www.reuters.com/world/asia-pacific/chinas-minimax-seeks-raise-total-205-billion-via-share-sale-bond-issue-2026-07-10/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-10 00:55:13",
+        "summary_zh": "中國MiniMax公司計劃籌集總額2.05億美元，透過股票發行和債券發行。這項計畫將幫助公司擴大業務和加強財務狀況。MiniMax是一家專門從事金融服務的公司，該公司的業務範圍包括投資管理、證券交易等。公司的財務狀況良好，公司的收入和利潤都在持續增長。這項計畫將幫助公司繼續擴大業務和加強財務狀況，進而提高公司的競爭力和市場份額。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c79caadb",
+        "title": "信件：零碳目標的隱藏成本將持續提高電價",
+        "url": "https://www.ft.com/content/bb6eadc4-f4c9-4d77-bd57-aaa24564068b",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-07-10 00:50:53",
+        "summary_zh": "近期，許多國家和企業都宣布了零碳目標，但這些目標的實現可能會帶來隱藏的成本。根據最新的研究，實現零碳目標可能需要大量的投資，從而導致電價上升。這些成本包括了新能源設施的建造、能源儲存和傳輸系統的升級，以及碳捕捉和儲存技術的發展。這些投資將會增加電價，使得零碳目標的實現變得更加昂貴。這些隱藏的成本可能會對普通民眾造成影響，特別是在那些經濟不發達的地區。因此，實現零碳目標的成本不僅僅是環境問題，也是經濟問題。政府和企業需要仔細考慮這些成本，並尋找更有效的方法來實現零碳目標。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "5089609d",
+        "title": "信件：如何使三重鎖可持續發展",
+        "url": "https://www.ft.com/content/c4fb2baf-3867-4050-8755-ba03c9668af4",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-07-10 00:44:49",
+        "summary_zh": "英國政府的三重鎖保障政策面臨著可持續發展的挑戰。該政策確保退休金每年增加3%、國家醫療保健和其他福利的費率不會下降。然而，這項政策的成本正在迅速增加，對於國家財政造成了壓力。為了使三重鎖政策可持續發展，需要進行改革。其中一個可能的方法是將退休金的增加率與通貨膨脹率掛鉤。這樣可以確保退休金的購買力不會下降。另外，政府也可以考慮提高退休年齡或調整福利的費率。這些改革措施可以幫助使三重鎖政策更可持續發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ffada88c",
+        "title": "日圓脆弱，週度下跌風險升高，干預風險增加",
+        "url": "https://www.reuters.com/world/asia-pacific/fragile-yen-set-weekly-decline-intervention-risks-mount-2026-07-10/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-10 00:44:09",
+        "summary_zh": "日圓在近期一直處於脆弱狀態，市場預期本週將出現下跌。日圓的下跌有助於日本出口業的競爭力，但同時也會增加日本政府干預市場的風險。日本政府近期已經表明願意採取行動干預市場，以穩定日圓的匯率。市場分析師認為，日本政府的干預行動可能會對市場造成不確定性，從而加劇日圓的波動。日圓的下跌也會對日本的經濟產生影響，特別是在出口業的競爭力上。然而，市場預期本週將出現下跌，也意味著日圓的下跌可能會被視為市場的正常反應。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f4c09193",
+        "title": "中國人工智慧明星企業 Zhipu 的「低流通股」風險仍存續於股權出售後",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-10/china-ai-star-zhipu-s-low-float-risk-persists-after-share-sale",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-10 00:30:36",
+        "summary_zh": "中國人工智慧領域的明星企業 Zhipu 近期進行了股權出售。雖然這一舉動可能會帶來一定的資金收益，但也引發了投資者關注的「低流通股」風險。低流通股是指公司內部持股者持有的股份比例過高，可能會導致股價波動和投資風險增高。 Zhipu 的股權出售可能會減少公司內部持股者的控制權，進而降低風險。然而，投資者仍需要密切關注公司的財務狀況和業績表現，以評估風險和投資機會。 Zhipu 的股權出售可能會對公司的未來發展產生影響，投資者需要保持警惕和謹慎的投資態度。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "cf2d4de6",
+        "title": "日本七月通膨指數大幅上升，能源成本和日幣貶值為主因",
+        "url": "https://www.reuters.com/world/asia-pacific/japans-wholesale-prices-spike-july-higher-energy-costs-weak-yen-2026-07-10/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-10 00:21:45",
+        "summary_zh": "日本七月通膨指數大幅上升，主要是由於能源成本和日幣貶值所導致。根據日本統計局的數據，七月的通膨指數為2.8%，比前一月的1.8%大幅上升。能源成本的上升是主要原因，日元貶值也使得進口商品的價格上升。這種情況對日本的經濟有著一定的影響，可能會導致物價上升和消費者購買力下降。日本政府和央行可能會採取措施來控制通膨和穩定經濟。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "fd889a6c",
         "title": "普拉博沃對印尼富商的嚴厲打壓加劇資本外流",
@@ -792,8 +1034,8 @@
         "published_at": "2026-07-10 00:00:23",
         "summary_zh": "印尼前總統候選人普拉博沃近期對印尼富商實施嚴厲打壓，包括查封財產、調查財務等措施。這些行動引發了印尼富商的恐懼，許多人選擇將資產轉移到海外，從而加劇資本外流。根據估計，印尼今年的資本外流已經超過了 20 億美元。這些資本外流不僅影響了印尼的經濟，也對印尼的政治情勢產生了影響。普拉博沃的行動被視為對印尼富商的威脅，許多人認為這是他對未來總統選舉的競選策略。然而，這些行動也引發了對印尼經濟未來的擔憂，許多人擔心這些資本外流會對印尼的經濟發展造成長期影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "589e2880",
@@ -803,42 +1045,6 @@
         "category": "finance",
         "published_at": "2026-07-09 23:54:24",
         "summary_zh": "澳洲數據中心公司NEXTDC宣布，已與銀行簽署16億美元的長期債務融資協議。這筆融資將用於籌措公司的擴張計畫，包括投資新數據中心、升級現有設施和購買新設備。這項融資將為NEXTDC提供充足的資金來實現其發展計畫，同時也將公司的財務穩定性提高。這項融資的簽署是NEXTDC的另一項重大進展，表明公司的業務持續擴張和成長。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "bac8156e",
-        "title": "秘魯維持關鍵利率　通膨加速趨緩",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-09/peru-leaves-key-rate-unchanged-as-inflation-spike-seen-fading",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-09 23:27:14",
-        "summary_zh": "秘魯央行在最新一次會議中維持了關鍵利率不變，理由是通膨加速的風險正在趨緩。秘魯央行在一份聲明中表示，該國的通膨率已經達到峰值，並預計在未來幾個月內會逐漸下降。該央行還表示，經濟活動正在恢復，並預計該國的經濟增長率將在今年下半年達到 4%。然而，秘魯央行也提醒，該國仍面臨著通膨和經濟不穩定的風險。秘魯央行的決定是對於該國經濟的重要指標，將對該國的金融市場產生重大影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "d507c5df",
-        "title": "英國購物人次下降 3.4%：熱浪影響消費者外出購物意願",
-        "url": "https://www.reuters.com/business/retail-consumer/uk-shopping-trips-fall-june-heatwave-takes-toll-brc-says-2026-07-09/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-09 23:21:25",
-        "summary_zh": "英國商業研究中心(BRC)最新數據顯示，6 月份英國商店的訪客人數比去年同期下降 3.4%。這一降幅被認為是由於當地出現的熱浪，導致許多人選擇在家中避暑而不是外出購物。這一趨勢對英國零售業的影響可能會持續下去，尤其是在夏季期間。熱浪對消費者的購物行為產生了顯著影響，許多人選擇在家中購買商品，而不是外出購物。這一趨勢可能會對英國零售業的整體業績產生負面影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "618988fd",
-        "title": "Nexchip 將在香港上市，籌資8900萬美元",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-09/nexchip-set-to-debut-in-hong-kong-after-890-million-listing",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-09 23:00:00",
-        "summary_zh": "Nexchip 即將在香港上市，籌資8900萬美元。這家公司是全球領先的半導體製造商之一。Nexchip 的上市將為公司注入新的資金，幫助公司繼續發展和擴張業務。這項上市行動將對公司的未來發展產生重要影響。Nexchip 的上市將在香港進行，並將為公司帶來新的機遇和挑戰。這項上市行動將對公司的未來發展產生重要影響。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -853,18 +1059,6 @@
         "summary_zh": "易捷航空宣布，美國公司阿波羅的收購提議已經超越了之前的 Castlelake 收購案。這項收購案的價格為 5.7 億英鎊。這意味著易捷航空將可能面臨新的所有者。然而，公司尚未披露更多細節。這項收購案對航空業的影響仍待觀察。易捷航空的股價可能會因為收購案而出現波動。這項收購案的結果將對航空業的未來發展產生重大影響。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "51084d11",
-        "title": "比爾蓋茲女兒創辦的購物應用程式被指不實宣傳",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-09/gates-heir-s-shopping-app-took-credit-for-sales-it-didn-t-drive",
-        "source": "Bloomberg Tech",
-        "category": "finance",
-        "published_at": "Thu, 09 Jul 2026 22:01:15 GMT",
-        "summary_zh": "比爾蓋茲女兒菲婭（Phoebe Gates）創辦的廣告公司Phia，宣稱是一個「個人購物助理」，幫助用戶在各種服裝和時尚配件上找到最低價格。然而，近日有消息指出，Phia的購物應用程式聲稱為用戶帶來的銷售額，實際上並不是由Phia所推動。這一指控引起了對Phia誠信和商業行為的質疑。菲婭的父親比爾蓋茲是微軟公司的共同創辦人，Phia的背後有著強大的資金支持。這一事件可能會對Phia的品牌形象和用戶信任造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -902,8 +1096,8 @@
         "published_at": "2026-07-09 23:24:11",
         "summary_zh": "週四股市表現良好，主要指數上漲，主要原因是石油價格下跌和晶片股上漲。納斯達克指數上漲 1.3%。石油價格的下跌對於整體經濟的影響是複雜的，既可能會刺激消費者支出，也可能會對能源公司造成損失。晶片股的上漲則是由於對於半導體產業的投資熱潮。投資者們正在關注著石油價格和晶片股的走勢，以判斷未來市場的走向。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "91af33c5",
@@ -1011,188 +1205,6 @@
         "summary_zh": "SK 休尼克斯即將在美國上市，其ADR（外匯交易式股票）將於周五登場。這項上市將可能對美國記憶體股產生影響，但短期內可能會導致更多的市場調整。美國記憶體股近期已經出現下跌趨勢，SK 休尼克斯的上市可能會加劇這種情況。然而，這也可能是市場對美國記憶體股未來發展的重要指標。市場分析師預測，SK 休尼克斯的上市將對美國記憶體業產生重大影響，可能會導致更多的投資者關注這個領域。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "ai": [
-      {
-        "id": "c5eec3a9",
-        "title": "Anthropic發現隱藏空間：Claude在思考概念",
-        "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 09 Jul 2026 20:22:28 +0000",
-        "summary_zh": "人工智慧公司Anthropic開發了一種技術，讓它們能夠更深入地了解大型語言模型在回答問題或執行任務的內部運作。研究人員發現了從日常事物到令人不安的東西。公司的研究人員建造了名為Jacobian lens的工具（或…",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "50a84fa6",
-        "title": "下載：核能地標和中國對Nvidia晶片的目光",
-        "url": "https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 09 Jul 2026 12:10:00 +0000",
-        "summary_zh": "今天是《下載》週日版的第一版，為您提供每天的科技新聞摘要。美國四座核電站達到里程碑，中國對Nvidia晶片的興趣引起關注。美國核電站的四座核電站在美國達到里程碑，標誌著核能產業的重大進展。這項成就對於美國的能源安全和減少碳排放有重要意義。另一方面，中國對Nvidia晶片的興趣引起了關注，可能與中國對人工智慧技術的需求有關。這項發展可能對全球晶片市場產生重大影響。總的來說，這些事件都與科技業的發展和全球經濟的變化有關。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "07f1f90b",
-        "title": "OpenAI 首席應用程式官 Fidji Simo 宣布離職",
-        "url": "https://www.reuters.com/business/openais-applications-chief-fidji-simo-step-down-2026-07-09/",
-        "source": "Reuters",
-        "category": "ai",
-        "published_at": "2026-07-09 23:24:12",
-        "summary_zh": "OpenAI 宣布首席應用程式官 Fidji Simo 將會離職。Fidji Simo 是 OpenAI 的高管成員，負責開發和推廣公司的應用程式。雖然 OpenAI 沒有提供離職原因，但公司表示將會繼續發展和推進人工智慧領域的應用程式。Fidji Simo 的離職將會對公司的未來發展產生影響，公司將會尋找新的領導人來取代她的職位。這項消息對於 OpenAI 的股價和市場評估產生了影響，投資者將會密切關注公司未來的發展方向。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "5a913592",
-        "title": "微軟二零二五年碳排放量上升 25% ，超越公司氣候目標",
-        "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-09T20:04:13-04:00",
-        "summary_zh": "微軟在其二零二六年可持續發展報告中表明，公司二零二五年的碳排放量已經超越了公司的氣候目標。根據 GeekWire 報導，報告指出，微軟二零二五年的碳排放量增加了 25%，總計達到 34 萬噸「不計入特定干預措施」。微軟表示，這主要是由於公司業務的擴張所致。這項報告使得微軟再次面臨著與自己的氣候目標不符的問題。雖然微軟在報告中提到了一些減碳措施，但仍然需要進一步的努力來實現公司的氣候目標。這項報告也使得公司的可持續發展努力受到質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8a65c5f7",
-        "title": "Fidji Simo 因健康理由辭去 OpenAI AGI 領導職位",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-09T19:24:04-04:00",
-        "summary_zh": "OpenAI 的 Fidji Simo 將辭去她在公司的 AGI 領導職位，並將轉型為「兼職顧問」。這項消息發生在她原先在 4 月份宣布因為神經免疫疾病而休假不久後。根據 Simo 的說法，她將繼續為 OpenAI 提供幫助，但將不再擔任全職職務。她的辭職是因為她需要更多時間來照顧自己的健康。這項消息對於 OpenAI 的未來發展可能會有所影響。雖然 Simo 將繼續為公司提供幫助，但她的辭職仍然是公司的一個重要變化。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c5fb8971",
-        "title": "ChatGPT瀏覽器已經死亡",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-09T16:34:05-04:00",
-        "summary_zh": "ChatGPT瀏覽器 Atlas 由 OpenAI 推出不足一年即將停止運作。該瀏覽器能夠為用戶自動完成各種任務。OpenAI 近日宣布將 Atlas 停止運作，並將關注 ChatGPT Work 的發展。這項決定可能與 OpenAI 對 ChatGPT Work 的重心轉移有關。ChatGPT Work 是一項為企業提供的工具，能夠自動完成各種任務。OpenAI 的這項決定可能會對企業客戶造成影響。未來 OpenAI 將如何發展 ChatGPT Work 仍待觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e6b8352a",
-        "title": "Google 將告知廣告是否使用人工智慧製作",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-09T16:11:38-04:00",
-        "summary_zh": "Google 宣佈將在其「我的廣告中心」新增功能，讓用戶可以檢視是否使用人工智慧製作或編輯的廣告。這項功能將於 Google 搜尋、Google Discover 和 YouTube 上推出。用戶可以在「如何製作這個廣告」頁面下方找到「使用人工智慧製作或編輯」的標籤。這項功能旨在透過增加透明度，讓用戶更好地了解廣告的來源。這項功能的推出將對於用戶的廣告體驗產生影響，讓他們能夠更好地評估廣告的可信度。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "430f86c0",
-        "title": "微軟的 Patch Tuesday 即將變大",
-        "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-09T13:00:00-04:00",
-        "summary_zh": "微軟近日宣布，將會使用人工智慧（AI）來識別潛在問題，從而讓客戶在每次安全更新中看到更多的安全修復。這一措施是為了應對黑客們，包括業餘黑客，越來越多地使用 AI 進行攻擊。微軟表示，這一變化將會讓 Patch Tuesday 的更新量大幅增加。這一變化將會對客戶和企業造成重大影響，需要及時升級以避免安全風險。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9cf9c4c9",
-        "title": "OpenAI推出GPT-5.6，政府核准後宣布「ChatGPT Work」",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-09T13:00:00-04:00",
-        "summary_zh": "OpenAI近期因GPT-5.6的規管風波而引起關注，該公司只將該模型提供給政府核准的組織進行有限預覽。然而，美國政府已經核准了該模型的公眾推出，OpenAI CEO Sam Altman稱之為「我們生產過的最佳模型」。為慶祝此事，OpenAI宣布推出「ChatGPT Work」，這是一個針對企業用戶的聊天機器人平台。該平台將提供更強大的功能和工具，讓企業能夠更好地與客戶溝通和合作。這一發展將對企業用戶帶來新的機會和挑戰，讓我們期待著未來的發展。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ab490741",
-        "title": "梅塔宣布新 AI 模型已經準備好與程式碼競賽",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-09T10:00:00-04:00",
-        "summary_zh": "梅塔公司在四月份重新進入人工智慧競賽，推出了首款自家開發的 Muse Spark 模型。現在，梅塔又推出了新一代的 Muse Spark 1.1 模型，該模型能夠與程式碼編輯軟體整合，梅塔稱這是一個「重大進步」。梅塔表示，新一代的 Muse Spark 模型比第一代有了顯著的改進，能夠更好地應對程式碼編輯任務。梅塔還推出了 Meta Model API，讓開發者能夠更容易地將新一代的 Muse Spark 模型整合到程式碼編輯軟體中。這意味著，梅塔的新 AI 模型已經準備好與程式碼競賽了。這將對程式碼編輯軟體的發展帶來重大影響，開發者將能夠更好地利用梅塔的新 AI 模型來提升程式碼編輯效率。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "016a0f72",
-        "title": "歡迎Claude Wrapped！",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-09T09:30:00-04:00",
-        "summary_zh": "Spotify Wrapped的流行趨勢已經影響了各個應用程式，從YouTube到Uber都有了年終回顧功能。現在，這種回顧趨勢已經來到人工智慧領域。Anthropic宣布推出了一個名為「reflect」的功能，讓使用者可以看到過去一個月的使用資料分析。這項功能會提供使用者的聊天記錄、使用時間和最常使用的功能等資訊。這項功能的推出，讓使用者可以更深入地了解自己與Claude的互動，並且可以根據這些資訊來改善自己的使用經驗。這項功能的推出，也標誌著人工智慧領域的年終回顧趨勢的開始。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ecdd5635",
-        "title": "Character.AI欲進軍微劇市場",
-        "url": "https://www.theverge.com/entertainment/962897/character-ai-series-microdrama-vertical-video",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-09T09:11:53-04:00",
-        "summary_zh": "Character.AI的計劃已經超越了互動書籍、漫畫和音頻劇的範圍。公司今天宣布推出c.ai Series - 短暫、連續的視頻內容，供用戶在手機上觀看並互動。與傳統的微劇服務相比，c.ai Series的內容將採用更高質量的製作，並且會與用戶進行互動。這項新服務將讓Character.AI進軍微劇市場，挑戰現有的服務提供者。這項變革將如何影響用戶的娛樂體驗？",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "189cdf14",
-        "title": "FL Studio 2026：AI 聊天機器人變成你的助理工程師",
-        "url": "https://www.theverge.com/tech/963052/fl-studio-2026-music-daw-ai-chatbot",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-09T09:00:00-04:00",
-        "summary_zh": "FL Studio 2026 的新功能中，Gopher AI 聊天機器人不再只是個指南，變成你的助理工程師。它可以幫助你完成音樂製作的各個步驟，從創作到混音。這意味著你可以更專注於創意方面，而不是花時間學習軟體的操作。這種功能對於那些正在學習音樂製作的新手來說尤其有用，能夠節省他們大量的時間和精力。然而，這也引發了對音樂創作過程中人工智慧的使用是否會取代人類創作者的關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "98082127",
-        "title": "Anthropic 要你付費使用 Claude Fable 5",
-        "url": "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 09 Jul 2026 18:30:00 +0000",
-        "summary_zh": "人工智慧公司 Anthropic 將會要求其訂閱者付費使用其頂級消費者 AI 模型 Claude Fable 5。這標誌著 AI 訂閱服務的黃金時代即將結束。根據目前的規劃，Claude 的訂閱者將需要根據使用量支付費用。這一變化可能會對目前的 AI 訂閱服務產生重大影響。這一轉變可能會讓消費者需要重新評估其 AI 訂閱服務的價值，同時也會對 Anthropic 的業務模式產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "70e368e1",
-        "title": "1X Neo機器人有超快的指頭",
-        "url": "https://www.wired.com/story/the-1x-neo-robot-has-freaky-fast-fingers/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 09 Jul 2026 16:01:22 +0000",
-        "summary_zh": "近日，1X Neo機器人獲得了非常有觸感的手部設計。這款軟膩的家用清潔機器人，讓人感受到奇怪的親密感。這種設計使得1X Neo機器人能夠更好地完成家居清潔任務，例如擦拭和取物。這種創新設計將如何影響未來的家用機器人市場？將會有更多的機器人企業採用類似的設計，推動家居清潔技術的進步？",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       }
     ]
