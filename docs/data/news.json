@@ -1,196 +1,136 @@
 {
-  "generated_at": "2026-07-14T00:10:14.510922+08:00",
+  "generated_at": "2026-07-14T01:12:15.143804+08:00",
   "risk_signals": [
     "🟢 台股加權 45354.61（正常）",
-    "🟢 S&P 500 7540.63（正常）",
-    "🟢 VIX 恐慌指數 16.28（正常）",
+    "🟢 S&P 500 7530.18（正常）",
+    "🟢 VIX 恐慌指數 16.77（正常）",
     "🟢 MOVE 債市波動 69.55（正常）",
-    "🟢 美元指數 101.1（正常）",
-    "🟢 黃金 4020.9（正常）",
-    "🟡 美債10Y殖利率 4.6（留意）",
-    "🟡 原油 WTI 74.79（漲 +4.73%，留意）",
-    "🟢 美元/台幣 32.17（正常）"
+    "🟢 美元指數 101.25（正常）",
+    "🟢 黃金 4002.2（正常）",
+    "🟡 美債10Y殖利率 4.62（留意）",
+    "🔴 原油 WTI 75.69（急漲 +5.99%，市場避險）",
+    "🟢 美元/台幣 32.18（正常）"
   ],
-  "ai_summary": "市場呈現穩定氛圍，各大指數均處於正常區間，然而美債10年殖利率和原油價格上升，需要留意。",
+  "ai_summary": "市場氛圍保持穩定，但美元指數和原油價格的急漲跡象，可能是市場對全球經濟風險的關注。",
   "market": {
     "TWII": {
       "price": 45354.61,
       "change_pct": -0.83
     },
     "SP500": {
-      "price": 7540.63,
-      "change_pct": -0.46
+      "price": 7530.18,
+      "change_pct": -0.6
     },
     "NASDAQ": {
-      "price": 26004.85,
-      "change_pct": -1.05
+      "price": 25966.06,
+      "change_pct": -1.2
     },
     "VIX": {
-      "price": 16.28,
-      "change_pct": 8.32
+      "price": 16.77,
+      "change_pct": 11.58
     },
     "TNX": {
-      "price": 4.6,
-      "change_pct": 0.68
+      "price": 4.62,
+      "change_pct": 1.07
     },
     "MOVE": {
       "price": 69.55,
       "change_pct": 0.96
     },
     "DXY": {
-      "price": 101.1,
-      "change_pct": 0.13
+      "price": 101.25,
+      "change_pct": 0.28
     },
     "GOLD": {
-      "price": 4020.9,
-      "change_pct": -2.03
+      "price": 4002.2,
+      "change_pct": -2.48
     },
     "OIL": {
-      "price": 74.79,
-      "change_pct": 4.73
+      "price": 75.69,
+      "change_pct": 5.99
     },
     "USDTWD": {
-      "price": 32.17,
-      "change_pct": 0.22
+      "price": 32.18,
+      "change_pct": 0.26
     }
   },
   "macro": {},
   "categories": {
-    "global": [
+    "whitehouse": [
       {
-        "id": "6d7b045c",
-        "title": "肯雅德爾蒙特果園殺人案持續發生，家屬指控G4S保安涉案",
-        "url": "https://www.theguardian.com/world/2026/jul/13/del-monte-pineapple-farm-kenya-deaths-g4s",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 14:00:49 GMT",
-        "summary_zh": "肯雅德爾蒙特果園近年來發生三起涉及G4S保安的殺人案，家屬和政治人物對此表示憂慮。德爾蒙特公司在前次事件被揭露後，聘請了G4S來取代原有的保安隊伍。儘管如此，德爾蒙特果園仍然出現殺人案，家屬和政治人物對此感到擔憂。肯雅警方與G4S合作保衛果園。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "9c874374",
-        "title": "曼谷酒吧大火至少27人死亡，22人重傷",
-        "url": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 15:04:36 GMT",
-        "summary_zh": "曼谷一家酒吧發生大火，至少27人死亡，22人重傷。消防隊抵達現場時，發現酒吧內的客人正在逃離火場。這起火災的原因尚未明朗。這家酒吧位於曼谷的Chatuchak區，附近有許多商店和住宅。這起火災對當地居民造成了重大影響。曼谷政府已經派出救援隊伍和醫療人員到現場協助救援。這起火災的影響可能會持續很長時間。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e21ff282",
-        "title": "泰國總理訪問曼谷酒吧大火後果",
-        "url": "https://www.bbc.co.uk/news/videos/c9v2w1eg4jpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 01:16:36 GMT",
-        "summary_zh": "泰國總理近日訪問曼谷一家酒吧大火的受災區域。火災發生在周一深夜，造成多人喪生。視頻顯示，火災後的場景非常慘烈。泰國政府正努力處理這起悲劇事件，並為受災者提供援助。這起火災的原因尚未明朗，但泰國政府已經展開調查。這起事件將對泰國的安全和治理產生重大影響。泰國政府將如何處理這起事件，將是關鍵的問題。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2fb12d1d",
-        "title": "印度科學家正在為腦幹的最後堡壘繪製地圖",
-        "url": "https://www.bbc.co.uk/news/articles/cg53l737v1qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 00:08:11 GMT",
-        "summary_zh": "印度科學家們最新發布的腦幹大地圖，為科學家提供了對腦的一個未知領域的前所未有的地圖。這項研究是為了解腦幹功能和疾病的成因而進行的。腦幹是大腦的一部分，負責控制我們的呼吸、心跳和其他基本生理功能。然而，腦幹的結構和功能仍然不夠清楚，許多疾病的成因仍然不明。這項研究的發現將有助於科學家更深入地了解腦幹的工作原理，並開發新的治療方法。這項研究的結果將對腦科學和醫學研究產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "dfa1670e",
-        "title": "伊朗最高領袖呼籲復仇，稱報仇是「不可避免的」",
-        "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+        "id": "e92ccca0",
+        "title": "從川普批評者到盟友：林賽格拉姆是Maga時代的政治生存者",
+        "url": "https://www.bbc.co.uk/news/articles/clyrdn216k2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
-        "category": "global",
-        "published_at": "Sun, 12 Jul 2026 22:17:40 GMT",
-        "summary_zh": "伊朗最高領袖阿里·哈梅內伊的兒子莫哈巴·哈梅內伊在父親下葬後發表聲明，呼籲復仇。莫哈巴·哈梅內伊強調，對父親的殺戮是「不可避免的」，是美國和以色列對伊朗的戰爭中發生的第一天的事件。伊朗最高領袖的兒子呼籲復仇，表明伊朗對這起事件的回應將是強烈的。這一事件可能會對伊朗和中東地區的局勢產生重大影響。伊朗最高領袖的兒子呼籲復仇，表明伊朗將會採取行動對抗美國和以色列。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "174999ab",
-        "title": "《侏羅紀公園》演員Sam Neill逝世，好友、政客及同行們悼念",
-        "url": "https://www.bbc.co.uk/news/articles/cy06e5e1lygo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 11:52:55 GMT",
-        "summary_zh": "澳洲演員Sam Neill因「突然且意外」去世，好友、政客及同行們紛紛在社交媒體上悼念他。Neill曾在《侏羅紀公園》等多部經典影片中擔任主角，讓他成為全球影壇的一顆明星。Neill的死訊傳出後，好友及同行們紛紛在社交媒體上留言悼念他，稱他為「英雄」、「傳奇」、「甜心」。Neill的死訊也引起了全球影壇的哀悼，許多人紛紛在社交媒體上留言悼念他。Neill的死訊傳出後，許多人都在猜測他去世的原因，但目前尚未有任何官方的說明。Neill的死訊傳出後，也讓許多人回顧他在影壇的成就，他曾在《侏羅紀公園》等多部經典影片中擔任主角，讓他成為全球影壇的一顆明星。Neill的死訊傳出後，許多人都在哀悼他，同時也在懷念他在影壇的成就。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4092452a",
-        "title": "飛機前往扑滅巴黎附近的「異常規模」野火",
-        "url": "https://www.bbc.co.uk/news/articles/clye4z168edo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 10:29:17 GMT",
-        "summary_zh": "近日巴黎地區出現了「異常規模」的野火，為了應對這種情況，法國政府決定從南方調派了消防飛機前往扑滅火勢。這是首次由南方的乾燥和炎熱地區派遣消防飛機前往巴黎地區。這種大規模的火災對當地居民造成了嚴重威脅，法國政府正在全力應對這場災難。",
+        "category": "whitehouse",
+        "published_at": "Sun, 12 Jul 2026 19:42:26 GMT",
+        "summary_zh": "林賽格拉姆是一位美國參議員，他的政治生涯被標誌著對美國政治氣候的適應性。根據BBC北美新聞記者，林賽格拉姆從川普的批評者變成盟友，展現出他在Maga時代的政治生存能力。林賽格拉姆的政治生涯充滿著轉變和適應，從對川普的批評到成為他的盟友，這是他政治生涯中的一個重要轉折點。這種轉變讓人們對林賽格拉姆的政治意圖產生了新的看法。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "f34fbb2c",
-        "title": "男子假扮警察殺害厄瓜多爾毒販大哥",
-        "url": "https://www.bbc.co.uk/news/articles/c20yx84g103o?at_medium=RSS&at_campaign=rss",
+        "id": "f13eccea",
+        "title": "美國參議員麥康奈爾因跌倒和肺炎缺席議會",
+        "url": "https://www.bbc.co.uk/news/articles/cvge2nd611zo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 10:30:51 GMT",
-        "summary_zh": "厄瓜多爾一名毒販大哥的兄弟David Macías遭男子假扮警察殺害。被殺害的David Macías是毒販大哥'El Fito'的兄弟，後者正被美國逮捕並等待審判。這起事件的背景是厄瓜多爾毒品走私的持續問題。殺害的男子假扮警察的行為表明了對毒品走私的恐懼和不滿。這起事件對厄瓜多爾的社會和政治有著重大影響，可能會引起更多的關注和討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ccf9a217",
-        "title": "南非宣布逾53,000外國人被驅逐出境",
-        "url": "https://www.bbc.co.uk/news/articles/cvgj2prd4p8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 12 Jul 2026 18:57:17 GMT",
-        "summary_zh": "南非政府近期展開了一場移民整頓行動，針對非法入境者進行驅逐。根據官方數據，逾53,000名外國人已經被驅逐出境。這一行動是南非政府對抗外國移民的最新舉措，旨在應對民眾對移民的不滿。南非政府表示，這一行動是為了維護國家安全和秩序，並且要確保只有合法入境者才能在南非居住和工作。然而，這一行動也引發了外國移民和人權組織的批評，認為這一行動違反了人權和國際法。南非政府的行動將對外國移民和南非的社會和經濟產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d83161e9",
-        "title": "英國夫婦返回西班牙村莊　遭烈火肆虐　至少13人喪生",
-        "url": "https://www.bbc.co.uk/news/articles/cx24e09x79no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 00:29:21 GMT",
-        "summary_zh": "西班牙阿爾梅里亞省發生一場嚴重的野火，造成至少13人死亡，包括5名英國人。這場火災發生在週四，英國夫婦返回村莊後，才發現這場慘劇。英國政府已經與西班牙當局聯繫，提供援助和支持。這場火災對當地居民造成了重大影響，許多人失去了家園和財產。英國政府已經表示將提供援助和支持，幫助受災區域重建和恢復。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "84ea2719",
-        "title": "卡塔爾前埃米爾哈馬德·本·哈利法·阿爾·薩尼去世，享年74歲",
-        "url": "https://www.bbc.co.uk/news/articles/cql1qdq14xro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 12 Jul 2026 16:35:50 GMT",
-        "summary_zh": "卡塔爾前埃米爾哈馬德·本·哈利法·阿爾·薩尼於1996年通過血腥政變奪取權力，之後將卡塔爾轉變為今日的天然氣豐富國家。哈馬德·本·哈利法·阿爾·薩尼在位期間推動了卡塔爾的經濟發展，將該國打造成中東地區的重要經濟中心。他的去世對卡塔爾的政治和經濟格局將產生重大影響。卡塔爾政府已經發表聲明，表達對前埃米爾的哀悼，並表示將繼續推動該國的發展。",
+        "category": "whitehouse",
+        "published_at": "Sun, 12 Jul 2026 23:41:00 GMT",
+        "summary_zh": "美國共和黨資深參議員麥康奈爾近期因跌倒和肺炎病情引起關注。麥康奈爾在近期的聲明中表示，他將不會在短期內返回工作。這是他在多週的健康謎團後首次發表聲明。麥康奈爾的健康狀況引起了美國政治界的關注，尤其是在民主黨和共和黨的競爭中。麥康奈爾的缺席可能會對美國政治產生重大影響。美國政治觀察家們正在密切關注麥康奈爾的健康狀況和未來的發展。",
         "sentiment": "中性",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cfd34ac2",
+        "title": "參議員林西·格雷厄姆因主動脈撕裂去世，檢驗結果公布",
+        "url": "https://www.bbc.co.uk/news/articles/cn75083d472o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Mon, 13 Jul 2026 10:14:01 GMT",
+        "summary_zh": "美國參議員林西·格雷厄姆（Lindsey Graham）於週六晚間因主動脈撕裂去世，享年 71 歲。林西·格雷厄姆是共和黨的親密盟友，與前總統唐納德·川普（Donald Trump）關係密切。林西·格雷厄姆的去世對美國政治產生了重大影響，許多人紛紛為他表達哀悼之情。然而，林西·格雷厄姆的去世也使得美國政治格局發生了變化，未來的政治發展將取決於各方的反應。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "51ea8065",
+        "title": "美國參議員林賽·格雷厄姆因突然病倒去世",
+        "url": "https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Sun, 12 Jul 2026 22:08:07 GMT",
+        "summary_zh": "美國參議員林賽·格雷厄姆在短暫的病況後不幸去世。根據他的辦公室表示，林賽·格雷厄姆剛剛從基輔回來，與烏克蘭總統澤連斯基會面。林賽·格雷厄姆在美國政治界具有重要影響力，他的去世將對美國政治產生重大影響。林賽·格雷厄姆的死訊將使美國國會的政治格局發生重大變化。美國總統和其他政要將對林賽·格雷厄姆的去世表達哀悼之情。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "42e46244",
+        "title": "唐納德·川普的關鍵盟友林賽·格雷厄姆逝世，享年 71 歲",
+        "url": "https://www.theguardian.com/us-news/2026/jul/12/lindsey-graham-key-ally-of-donald-trump-has-died-after-sudden-illness-his-office-says",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 12 Jul 2026 21:48:38 GMT",
+        "summary_zh": "林賽·格雷厄姆是一位長期的美國參議員和唐納德·川普的關鍵盟友，他因突然的疾病去世，享年 71 歲。格雷厄姆自 2003 年開始在參議院服務，代表南卡羅來納州，並在 11 月份即將參加連任選舉。格雷厄姆在早期曾是川普的批評者，但後來成為他的忠誠支持者。美國政治家和外國領袖紛紛為格雷厄姆致哀。格雷厄姆的突然去世將會在華盛頓和共和黨內引起震撼。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       }
     ],
     "ai": [
+      {
+        "id": "8e99f406",
+        "title": "蘋果控訴OpenAI：6個最瘋狂的指控",
+        "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-13T13:00:00-04:00",
+        "summary_zh": "蘋果公司對OpenAI提出訴訟，指控OpenAI竊取機密文件、竊聽硬體原型、騙取蘋果員工等行為。據稱，OpenAI硬體負責人曾要求蘋果員工在面試時帶來正在開發的元件和未發布的產品樣本。這些指控引發了人們對於科技巨頭之間競爭的關注。蘋果公司的訴訟聲稱，OpenAI的行為違反了公司的知識產權和保密協議。這一事件可能會對科技業的競爭格局產生重大影響。蘋果公司的訴訟可能會進一步揭露OpenAI的行為，讓人們更加了解這一事件的真相。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "49e268ec",
         "title": "Waze 正式加入人工智慧功能，讓用戶更自主地規劃行程",
@@ -213,18 +153,6 @@
         "summary_zh": "新西蘭歌手Lorde在馬德里Real Cool Festival表演時，批評了元宇宙眼鏡的設計。雖然她沒有明確指出任何品牌，但很可能是針對Ray-Ban與Meta合作的AI眼鏡。這對眼鏡被描述為一種智能眼鏡，能夠提供元宇宙體驗。Lorde的批評表明，她對這種新科技的設計感到不滿。這種眼鏡的推出可能會對未來的科技發展產生影響。Lorde的表演和批評都受到關注，展現了她對科技的看法。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8b32daa8",
-        "title": "蘋果的失敗自駕車計畫留下了強大的AI芯片遺產",
-        "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-12T12:27:06-04:00",
-        "summary_zh": "蘋果的自駕車計畫從未真正起飛，但它可能是公司芯片成為強大的AI表現者所致。自駕車平台的早期開發中，蘋果發現需要強大的在車內AI處理能力。雖然車用處理器從未完成，但Mark Gurman詳細描述了蘋果在此期間發展出強大的AI芯片的過程。這些芯片現在被用於各種應用，包括虛擬助手和智能家居系統。蘋果的自駕車計畫雖然失敗，但它留下了強大的AI芯片遺產，對公司未來的發展具有重要意義。這些芯片的發展不僅為蘋果帶來了技術進步，也為公司未來的競爭力增添了新的動力。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       }
     ],
@@ -412,25 +340,61 @@
     ],
     "finance": [
       {
-        "id": "f52be6f6",
-        "title": "投資人減少對亞洲晶片製造商的押注",
-        "url": "https://www.ft.com/content/734c23c8-73ed-4a4a-8150-49d12d891c30",
+        "id": "f5e42f5a",
+        "title": "全球投資者為英國公司爭奪",
+        "url": "https://www.ft.com/content/7a065b4e-64b5-433a-9dc7-1061bb5e0e25",
         "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-07-13 04:00:17",
-        "summary_zh": "近期亞洲晶片製造商出現一波強勁的走勢，但投資人已經開始減少對這些公司的押注。根據MSCI的數據，台積電、SK Hynix和三星電子合計占MSCI的新興市場指數的29%。這一波減少押注的趨勢可能與市場對全球經濟增長的預期下調有關。投資人正在重新評估這些公司的價值，考慮到市場對晶片需求的變化。這一波減少押注的趨勢可能會對這些公司的股價造成影響。",
+        "published_at": "2026-07-13 05:00:04",
+        "summary_zh": "英國公司成為全球投資者的焦點。近期，英國企業面臨著激烈的收購競爭。這些企業包括英國的能源公司、製造業公司和金融服務公司。投資者們為了控制英國企業的經營權和未來發展方向而展開了激烈的爭奪戰。這一波收購潮的背後，可能是英國企業的全球競爭力和經濟地位的提高。然而，這也可能導致英國企業的獨立性和自主權受到威脅。投資者們的收購行動將對英國企業的未來發展方向和經營模式產生重大影響。",
         "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "de537b8d",
+        "title": "比特幣下滑：石油價格大漲復甦通膨擔憂",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-13/bitcoin-weakens-as-oil-price-spike-revives-inflation-concerns",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-13 04:48:09",
+        "summary_zh": "石油價格大漲引發通膨擔憂，比特幣價格因此下滑。石油價格上漲主要是由於俄羅斯入侵烏克蘭導致的供應鏈緊張。油價上漲使得全球經濟面臨新的挑戰，投資者開始擔心通膨。比特幣價格下滑是由於投資者將資金轉移到傳統投資品項，例如黃金和美元。投資者對比特幣的信心受損，導致比特幣價格下滑。石油價格大漲和通膨擔憂將對全球經濟和金融市場產生重大影響。投資者應該密切關注石油價格和通膨情況，以做出明智的投資決策。",
+        "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "91ae0e36",
-        "title": "馬斯特卡德考慮出售英國付款子公司Vocalink",
-        "url": "https://www.ft.com/content/11179162-c279-4775-8bb5-b1dbf805cae0",
-        "source": "Financial Times",
+        "id": "7dc12c7f",
+        "title": "基金屬下跌 美國與伊朗局勢惡化擔憂需求前景",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-13/base-metals-decline-as-us-iran-flare-up-clouds-demand-outlook",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-07-13 04:00:24",
-        "summary_zh": "馬斯特卡德正在考慮出售其英國付款子公司Vocalink。Vocalink是一家英國的支付公司，負責處理大部分英國的銀行轉帳和支付業務。該公司的出售可能會對英國的支付業界產生重大影響。馬斯特卡德的決定可能是因為公司正在努力應對支付業的變革和競爭。該公司的出售可能會讓英國的支付業界更加競爭和多元化。馬斯特卡德的決定也可能會對英國的銀行業和金融業產生影響。目前尚未有任何具體的出售信息或時間表。",
+        "published_at": "2026-07-13 04:31:13",
+        "summary_zh": "基金屬市場近日出現下跌趨勢，主要原因是美國與伊朗的局勢惡化，擔憂對全球需求的影響。美國與伊朗的緊張關係升級，導致油價上漲，進而影響基金屬的需求。同時，美國對伊朗的制裁也對基金屬市場產生影響。市場分析師預測，美國與伊朗的局勢將持續影響基金屬市場，需求前景不明朗。基金屬市場的下跌也受到其他因素的影響，包括全球經濟的放緩和中國的經濟下滑。總體而言，基金屬市場的下跌是由多種因素造成的，包括政治和經濟因素。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "3f68f5b6",
+        "title": "中國債券配額大幅提升仍缺乏釋放力和準確性",
+        "url": "https://www.reuters.com/commentary/breakingviews/china-bond-quota-boost-lacks-punch-precision-2026-07-13/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-13 04:27:04",
+        "summary_zh": "中國政府近日宣布債券配額大幅提升，旨在刺激國內債券市場的發展。但是，分析人士認為，這一措施仍缺乏釋放力和準確性，可能無法有效刺激市場。根據預期，中國債券配額將從原有的 1.25 萬億元增加到 1.5 萬億元，市場對此表示出一定的期待。然而，分析人士認為，這一增幅並不算太大，尤其是在市場對債券需求的增長速度來看。同時，分析人士也指出，市場對這一措施的反應可能會受到多種因素的影響，包括政策的釋放力、市場的反應和經濟的走向。因此，中國債券配額的提升仍需要觀察和監測，才能真正了解其對市場的影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "25da3825",
+        "title": "馬斯特卡德考慮出售英國支付子公司Vocalink",
+        "url": "https://www.reuters.com/business/mastercard-examines-sale-uk-payments-subsidiary-vocalink-ft-reports-2026-07-13/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-13 04:24:09",
+        "summary_zh": "根據《金融時報》報導，馬斯特卡德正在考慮出售其英國支付子公司Vocalink。Vocalink是一家英國的支付公司，負責處理英國的大部分銀行轉帳業務。這一消息可能會對英國的支付業界產生重大影響。馬斯特卡德的決定可能與公司的戰略重組或財務考慮有關。這一交易可能會對英國的支付市場造成重大變化。馬斯特卡德的決定將會受到關注，投資者將密切關注這一消息的發展。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -444,8 +408,8 @@
         "published_at": "2026-07-13 04:00:24",
         "summary_zh": "英國政府正在推動加速數位金融轉型的計畫，這一轉型可能會為英國經濟帶來33億英鎊的增長。根據英國財政部的估計，這一轉型將會創造新的就業機會、刺激企業的競爭力以及提高英國的國際競爭力。這一轉型的關鍵是發展數位支付、電子證券交易和其他數位金融服務。英國政府認為，這一轉型將會幫助英國在全球競爭中取得優勢。然而，這一轉型也面臨著一些挑戰，包括如何確保數位金融服務的安全性和可靠性。英國政府正在與業界合作，發展出適合英國市場的數位金融規範。這一轉型的成功將取決於政府、業界和民間的合作和配合。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "ecd4ace9",
@@ -456,8 +420,20 @@
         "published_at": "2026-07-13 04:00:21",
         "summary_zh": "根據最新研究，西方國家若要減少對中國的依賴，將耗費高達 23 萬億美元的經濟成本。這項研究發現，西方國家對中國的依賴程度遠超過對其他任何國家的依賴。研究人員認為，西方國家若要減少對中國的依賴，需要投資於技術研發、基礎設施建設和人才培養等領域。同時，研究人員也提醒，減少對中國的依賴並不一定能夠解決西方國家的經濟問題，反而可能會導致經濟活動的轉移和產業鏈的斷裂。這項研究的發現有助於西方國家了解減少對中國依賴的經濟成本和挑戰，並制定適當的政策來應對這項挑戰。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f52be6f6",
+        "title": "投資人減少對亞洲晶片製造商的押注",
+        "url": "https://www.ft.com/content/734c23c8-73ed-4a4a-8150-49d12d891c30",
+        "source": "FT Tech",
+        "category": "finance",
+        "published_at": "Mon, 13 Jul 2026 04:00:17 GMT",
+        "summary_zh": "近期亞洲晶片製造商出現一波強勁的走勢，但投資人已經開始減少對這些公司的押注。根據MSCI的數據，台積電、SK Hynix和三星電子合計占MSCI的新興市場指數的29%。這一波減少押注的趨勢可能與市場對全球經濟增長的預期下調有關。投資人正在重新評估這些公司的價值，考慮到市場對晶片需求的變化。這一波減少押注的趨勢可能會對這些公司的股價造成影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "stock_us": [
@@ -486,63 +462,111 @@
         "ai_classified": true
       }
     ],
-    "whitehouse": [
+    "global": [
       {
-        "id": "f13eccea",
-        "title": "美國參議員麥康奈爾因跌倒和肺炎缺席議會",
-        "url": "https://www.bbc.co.uk/news/articles/cvge2nd611zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Sun, 12 Jul 2026 23:41:00 GMT",
-        "summary_zh": "美國共和黨資深參議員麥康奈爾近期因跌倒和肺炎病情引起關注。麥康奈爾在近期的聲明中表示，他將不會在短期內返回工作。這是他在多週的健康謎團後首次發表聲明。麥康奈爾的健康狀況引起了美國政治界的關注，尤其是在民主黨和共和黨的競爭中。麥康奈爾的缺席可能會對美國政治產生重大影響。美國政治觀察家們正在密切關注麥康奈爾的健康狀況和未來的發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "42e46244",
-        "title": "唐納德·川普的關鍵盟友林賽·格雷厄姆逝世，享年 71 歲",
-        "url": "https://www.theguardian.com/us-news/2026/jul/12/lindsey-graham-key-ally-of-donald-trump-has-died-after-sudden-illness-his-office-says",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 12 Jul 2026 21:48:38 GMT",
-        "summary_zh": "林賽·格雷厄姆是一位長期的美國參議員和唐納德·川普的關鍵盟友，他因突然的疾病去世，享年 71 歲。格雷厄姆自 2003 年開始在參議院服務，代表南卡羅來納州，並在 11 月份即將參加連任選舉。格雷厄姆在早期曾是川普的批評者，但後來成為他的忠誠支持者。美國政治家和外國領袖紛紛為格雷厄姆致哀。格雷厄姆的突然去世將會在華盛頓和共和黨內引起震撼。",
+        "id": "dfa1670e",
+        "title": "伊朗最高領袖呼籲復仇，稱報仇是「不可避免的」",
+        "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Sun, 12 Jul 2026 22:17:40 GMT",
+        "summary_zh": "伊朗最高領袖阿里·哈梅內伊的兒子莫哈巴·哈梅內伊在父親下葬後發表聲明，呼籲復仇。莫哈巴·哈梅內伊強調，對父親的殺戮是「不可避免的」，是美國和以色列對伊朗的戰爭中發生的第一天的事件。伊朗最高領袖的兒子呼籲復仇，表明伊朗對這起事件的回應將是強烈的。這一事件可能會對伊朗和中東地區的局勢產生重大影響。伊朗最高領袖的兒子呼籲復仇，表明伊朗將會採取行動對抗美國和以色列。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "e92ccca0",
-        "title": "從川普批評者到盟友：林賽格拉姆是Maga時代的政治生存者",
-        "url": "https://www.bbc.co.uk/news/articles/clyrdn216k2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 12 Jul 2026 19:42:26 GMT",
-        "summary_zh": "林賽格拉姆是一位美國參議員，他的政治生涯被標誌著對美國政治氣候的適應性。根據BBC北美新聞記者，林賽格拉姆從川普的批評者變成盟友，展現出他在Maga時代的政治生存能力。林賽格拉姆的政治生涯充滿著轉變和適應，從對川普的批評到成為他的盟友，這是他政治生涯中的一個重要轉折點。這種轉變讓人們對林賽格拉姆的政治意圖產生了新的看法。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "51ea8065",
-        "title": "美國參議員林賽·格雷厄姆因突然病倒去世",
-        "url": "https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 12 Jul 2026 22:08:07 GMT",
-        "summary_zh": "美國參議員林賽·格雷厄姆在短暫的病況後不幸去世。根據他的辦公室表示，林賽·格雷厄姆剛剛從基輔回來，與烏克蘭總統澤連斯基會面。林賽·格雷厄姆在美國政治界具有重要影響力，他的去世將對美國政治產生重大影響。林賽·格雷厄姆的死訊將使美國國會的政治格局發生重大變化。美國總統和其他政要將對林賽·格雷厄姆的去世表達哀悼之情。",
+        "id": "9c874374",
+        "title": "曼谷酒吧大火至少27人死亡，22人重傷",
+        "url": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 15:04:36 GMT",
+        "summary_zh": "曼谷一家酒吧發生大火，至少27人死亡，22人重傷。消防隊抵達現場時，發現酒吧內的客人正在逃離火場。這起火災的原因尚未明朗。這家酒吧位於曼谷的Chatuchak區，附近有許多商店和住宅。這起火災對當地居民造成了重大影響。曼谷政府已經派出救援隊伍和醫療人員到現場協助救援。這起火災的影響可能會持續很長時間。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "cfd34ac2",
-        "title": "參議員林西·格雷厄姆因主動脈撕裂去世，檢驗結果公布",
-        "url": "https://www.bbc.co.uk/news/articles/cn75083d472o?at_medium=RSS&at_campaign=rss",
+        "id": "174999ab",
+        "title": "《侏羅紀公園》演員Sam Neill逝世，好友、政客及同行們悼念",
+        "url": "https://www.bbc.co.uk/news/articles/cy06e5e1lygo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 13 Jul 2026 10:14:01 GMT",
-        "summary_zh": "美國參議員林西·格雷厄姆（Lindsey Graham）於週六晚間因主動脈撕裂去世，享年 71 歲。林西·格雷厄姆是共和黨的親密盟友，與前總統唐納德·川普（Donald Trump）關係密切。林西·格雷厄姆的去世對美國政治產生了重大影響，許多人紛紛為他表達哀悼之情。然而，林西·格雷厄姆的去世也使得美國政治格局發生了變化，未來的政治發展將取決於各方的反應。",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 11:52:55 GMT",
+        "summary_zh": "澳洲演員Sam Neill因「突然且意外」去世，好友、政客及同行們紛紛在社交媒體上悼念他。Neill曾在《侏羅紀公園》等多部經典影片中擔任主角，讓他成為全球影壇的一顆明星。Neill的死訊傳出後，好友及同行們紛紛在社交媒體上留言悼念他，稱他為「英雄」、「傳奇」、「甜心」。Neill的死訊也引起了全球影壇的哀悼，許多人紛紛在社交媒體上留言悼念他。Neill的死訊傳出後，許多人都在猜測他去世的原因，但目前尚未有任何官方的說明。Neill的死訊傳出後，也讓許多人回顧他在影壇的成就，他曾在《侏羅紀公園》等多部經典影片中擔任主角，讓他成為全球影壇的一顆明星。Neill的死訊傳出後，許多人都在哀悼他，同時也在懷念他在影壇的成就。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4092452a",
+        "title": "飛機前往扑滅巴黎附近的「異常規模」野火",
+        "url": "https://www.bbc.co.uk/news/articles/clye4z168edo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 10:29:17 GMT",
+        "summary_zh": "近日巴黎地區出現了「異常規模」的野火，為了應對這種情況，法國政府決定從南方調派了消防飛機前往扑滅火勢。這是首次由南方的乾燥和炎熱地區派遣消防飛機前往巴黎地區。這種大規模的火災對當地居民造成了嚴重威脅，法國政府正在全力應對這場災難。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f34fbb2c",
+        "title": "男子假扮警察殺害厄瓜多爾毒販大哥",
+        "url": "https://www.bbc.co.uk/news/articles/c20yx84g103o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 10:30:51 GMT",
+        "summary_zh": "厄瓜多爾一名毒販大哥的兄弟David Macías遭男子假扮警察殺害。被殺害的David Macías是毒販大哥'El Fito'的兄弟，後者正被美國逮捕並等待審判。這起事件的背景是厄瓜多爾毒品走私的持續問題。殺害的男子假扮警察的行為表明了對毒品走私的恐懼和不滿。這起事件對厄瓜多爾的社會和政治有著重大影響，可能會引起更多的關注和討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ccf9a217",
+        "title": "南非宣布逾53,000外國人被驅逐出境",
+        "url": "https://www.bbc.co.uk/news/articles/cvgj2prd4p8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 12 Jul 2026 18:57:17 GMT",
+        "summary_zh": "南非政府近期展開了一場移民整頓行動，針對非法入境者進行驅逐。根據官方數據，逾53,000名外國人已經被驅逐出境。這一行動是南非政府對抗外國移民的最新舉措，旨在應對民眾對移民的不滿。南非政府表示，這一行動是為了維護國家安全和秩序，並且要確保只有合法入境者才能在南非居住和工作。然而，這一行動也引發了外國移民和人權組織的批評，認為這一行動違反了人權和國際法。南非政府的行動將對外國移民和南非的社會和經濟產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e21ff282",
+        "title": "泰國總理訪問曼谷酒吧大火後果",
+        "url": "https://www.bbc.co.uk/news/videos/c9v2w1eg4jpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 01:16:36 GMT",
+        "summary_zh": "泰國總理近日訪問曼谷一家酒吧大火的受災區域。火災發生在周一深夜，造成多人喪生。視頻顯示，火災後的場景非常慘烈。泰國政府正努力處理這起悲劇事件，並為受災者提供援助。這起火災的原因尚未明朗，但泰國政府已經展開調查。這起事件將對泰國的安全和治理產生重大影響。泰國政府將如何處理這起事件，將是關鍵的問題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2fb12d1d",
+        "title": "印度科學家正在為腦幹的最後堡壘繪製地圖",
+        "url": "https://www.bbc.co.uk/news/articles/cg53l737v1qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 00:08:11 GMT",
+        "summary_zh": "印度科學家們最新發布的腦幹大地圖，為科學家提供了對腦的一個未知領域的前所未有的地圖。這項研究是為了解腦幹功能和疾病的成因而進行的。腦幹是大腦的一部分，負責控制我們的呼吸、心跳和其他基本生理功能。然而，腦幹的結構和功能仍然不夠清楚，許多疾病的成因仍然不明。這項研究的發現將有助於科學家更深入地了解腦幹的工作原理，並開發新的治療方法。這項研究的結果將對腦科學和醫學研究產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6d7b045c",
+        "title": "肯雅德爾蒙特果園殺人案持續發生，家屬指控G4S保安涉案",
+        "url": "https://www.theguardian.com/world/2026/jul/13/del-monte-pineapple-farm-kenya-deaths-g4s",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 14:00:49 GMT",
+        "summary_zh": "肯雅德爾蒙特果園近年來發生三起涉及G4S保安的殺人案，家屬和政治人物對此表示憂慮。德爾蒙特公司在前次事件被揭露後，聘請了G4S來取代原有的保安隊伍。儘管如此，德爾蒙特果園仍然出現殺人案，家屬和政治人物對此感到擔憂。肯雅警方與G4S合作保衛果園。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
