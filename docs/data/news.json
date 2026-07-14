@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-14T19:04:38.542448+08:00",
+  "generated_at": "2026-07-14T20:04:47.885667+08:00",
   "risk_signals": [
     "🟢 台股加權 44737.95（正常）",
     "🟢 S&P 500 7515.34（正常）",
-    "🟢 VIX 恐慌指數 17.32（正常）",
+    "🟢 VIX 恐慌指數 17.31（正常）",
     "🟢 MOVE 債市波動 69.55（正常）",
-    "🟢 美元指數 101.13（正常）",
-    "🟢 黃金 4026.9（正常）",
+    "🟢 美元指數 101.04（正常）",
+    "🟢 黃金 4036.2（正常）",
     "🟡 美債10Y殖利率 4.61（留意）",
-    "🟡 原油 WTI 80.98（漲 +3.63%，留意）",
-    "🟢 美元/台幣 32.17（正常）"
+    "🟢 原油 WTI 79.76（正常）",
+    "🟢 美元/台幣 32.16（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，投資人應繼續觀望原油和美債殖利率的走勢。",
+  "ai_summary": "市場目前呈現穩定態勢，主要指標均在正常範圍內。然而，美債10年殖利率的稍微上升值得關注，可能反映市場對經濟成長的擔憂。",
   "market": {
     "TWII": {
       "price": 44737.95,
@@ -26,8 +26,8 @@
       "change_pct": -1.55
     },
     "VIX": {
-      "price": 17.32,
-      "change_pct": 0.93
+      "price": 17.31,
+      "change_pct": 0.87
     },
     "TNX": {
       "price": 4.61,
@@ -38,25 +38,291 @@
       "change_pct": 0.96
     },
     "DXY": {
-      "price": 101.13,
-      "change_pct": -0.15
+      "price": 101.04,
+      "change_pct": -0.23
     },
     "GOLD": {
-      "price": 4026.9,
-      "change_pct": 0.75
+      "price": 4036.2,
+      "change_pct": 0.98
     },
     "OIL": {
-      "price": 80.98,
-      "change_pct": 3.63
+      "price": 79.76,
+      "change_pct": 2.07
     },
     "USDTWD": {
-      "price": 32.17,
-      "change_pct": 0.21
+      "price": 32.16,
+      "change_pct": 0.19
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "d03108af",
+        "title": "美國邊境執法局在緬因州發生致命槍擊案，僅僅是在德克薩斯州發生類似事件的幾天後",
+        "url": "https://www.theguardian.com/us-news/live/2026/jul/14/ice-shooting-maine-texas-trump-immigration-politics",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 14 Jul 2026 11:42:43 GMT",
+        "summary_zh": "美國邊境執法局（ICE）在緬因州發生致命槍擊案，該案件發生在 2025 年 1 月以來，至少有七人在移民執法行動中被槍殺。報告指出，ICE 對抗議者使用的群眾控制武器導致失明和創傷性腦損傷。同時，總統拜登在一項訴訟中獲得了 1.7 億美元的懲罰性賠償，該訴訟是由前 Overstock.com CEO Patrick Byrne 提起的。拜登在社交媒體上表示，他感謝法律在該案件中得到了執行。這項判決在加利福尼亞州的一名聯邦法官上週五宣布。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "3a10539d",
+        "title": "川普清洗受害者譴責最高法院判決：是對公務員制度的致命一擊",
+        "url": "https://www.theguardian.com/us-news/2026/jul/14/federal-officials-fired-by-trump-supreme-court-ruling",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 14 Jul 2026 11:00:25 GMT",
+        "summary_zh": "川普政府在2025年再度上台後，已經將超過50名聯邦機構官員辭退。受影響的官員們認為，最高法院最近的判決將使獨立聯邦政府機構面臨著總統隨意操控的風險，從而導致腐敗和操弄。根據這項判決，總統將擁有更大的權力來對獨立機構進行解散或更改其任務。這項判決被視為對公務員制度的重大挑戰，將使總統在任內更容易對機構進行清洗。受影響的官員們認為，這項判決將對聯邦政府的獨立性和公正性造成嚴重影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "9bff1bc6",
+        "title": "ICE抗議者遭受毒氣、橡膠子彈和胡椒噴劑攻擊　報告指造成瞎眼和創傷性腦損傷",
+        "url": "https://www.theguardian.com/us-news/2026/jul/14/misuse-crowd-control-weapons-ice-protesters-blindings-traumatic-brain-injuries-report",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 14 Jul 2026 11:00:24 GMT",
+        "summary_zh": "美國近一年來，當地和聯邦警方在ICE拘留中心外或執法行動中多次使用催淚瓦斯、橡膠子彈和胡椒噴劑控制抗議活動。根據最新報告，自2025年6月至2026年5月間，醫生和人權專家紀錄了數百起事件，估計真實傷亡人數遠遠超出此數字。報告指出，這些催淚瓦斯、橡膠子彈和胡椒噴劑攻擊導致多名抗議者遭受持久和創傷性的傷害，包括失明和創傷性腦損傷。這些攻擊不僅對抗議者造成傷害，還對社會和政治環境產生了深遠的影響。美國政府應該對此事件進行徹底調查，並採取措施防止類似事件再次發生。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "0c2781f6",
+        "title": "林西·格雷厄姆自傳揭露其對種族問題的看法",
+        "url": "https://www.theguardian.com/us-news/2026/jul/14/lindsey-graham-south-carolina-autobiography",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 14 Jul 2026 10:00:57 GMT",
+        "summary_zh": "林西·格雷厄姆在 2015 年出版的自傳《我的故事》揭露了他在南卡羅來納州種族隔離的成長經歷。格雷厄姆出生於 1955 年，在一個小型紡織業小鎮長大，這裡是南卡羅來納州最後一次有記錄的暴力鎮壓事件發生的地點。格雷厄姆曾經否認南卡羅來納州存在系統性種族主義，但他的自傳卻提供了對他政治生涯的見解。這本書是對一個保守派白人對南卡羅來納州持續存在的種族緊張局勢的觀點的窗口。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "7f42ba06",
+        "title": "美國政府退還 81 億美元川普關稅後果",
+        "url": "https://www.theguardian.com/us-news/2026/jul/14/trump-tariffs-us-refunds",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 14 Jul 2026 07:03:02 GMT",
+        "summary_zh": "美國政府已經退還了數十億美元的關稅，根據最近公佈的預算數字。川普政府在上任後推出關稅政策，對進口商品徵收稅項。美國最高法院最近裁定這些關稅違法。政府被迫退還這些稅款給那些被關稅影響的企業。這些企業曾經進口商品到美國。這些退還的關稅金額達到 81 億美元。這些退還的關稅金額將對美國經濟產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "447f40bb",
+        "title": "緬因州抗議ICE行動，抗議者要求ICE離開美國",
+        "url": "https://www.theguardian.com/us-news/live/2026/jul/13/congress-capitol-lindsey-graham-trump-republicans-democrats-us-politics-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 14 Jul 2026 01:59:57 GMT",
+        "summary_zh": "緬因州近日發生了一起與移民相關的事件，一名人士在移民執法行動中喪生，引發了當地居民的強烈抗議。抗議者高呼「驅逐ICE！」並批評共和黨參議員Susan Collins因為她在沒有改革的情況下投票支持ICE而遭到譴責。同時，民主黨的前任參議員Gary Peters宣布支持代表密歇根州的眾議員Haley Stevens競選他的繼任者，超越了Abdul El-Sayed。Peters認為Haley Stevens是一位堅強的鬥士，能夠立即展開工作，而不是需要在任務中學習。這場選舉將於8月4日舉行。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a2dc874b",
+        "title": "馬可·魯比奧發起拆除國際刑事法院運動",
+        "url": "https://www.theguardian.com/us-news/2026/jul/13/marco-rubio-dismantle-international-criminal-court",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 14 Jul 2026 01:39:26 GMT",
+        "summary_zh": "美國國務卿馬可·魯比奧（Marco Rubio）於週一發起拆除國際刑事法院（International Criminal Court, ICC）的運動，指責該法院干涉美國軍事和執法行動，威脅美國主權。魯比奧在《華爾街日報》發表的一篇社論中，形容美國邊境巡邏員和當選領袖被「拖到國際法院」並由全球各地法官審判。美國國務卿的這一聲明引發了對國際刑事法院的批評，許多人認為該法院的存在是為了維護國際法治和追究戰爭罪行。然而，美國政府的反應則引發了對美國主權和國際合作的擔憂。這一事件也引發了對未來國際關係和全球治理的展望。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "066ebdca",
+        "title": "琳西·格雷厄姆的妹妹達林·格雷厄姆·諾多內將擔任臨時美國參議員",
+        "url": "https://www.theguardian.com/us-news/2026/jul/13/who-is-darline-graham-nordone-lindsey-graham",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 14 Jul 2026 01:08:09 GMT",
+        "summary_zh": "琳西·格雷厄姆的妹妹達林·格雷厄姆·諾多內將擔任臨時美國參議員。琳西·格雷厄姆在父母去世後成為了妹妹的法定監護人，並在妹妹13歲時將她收養。達林·格雷厄姆·諾多內將會填補琳西·格雷厄姆去世後的參議員空缺。南卡羅來納州共和黨州長亨利·麥克馬斯特宣布了這項決定。琳西·格雷厄姆在去年夜間猝逝，享年71歲。達林·格雷厄姆·諾多內將會在參議院中扮演關鍵角色，琳西·格雷厄姆的共和黨同僚將會支持她。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cfff0409",
+        "title": "川普呼籲選擇格拉罕姐姐接替參議員職位",
+        "url": "https://www.bbc.co.uk/news/articles/c05y3rlvp20o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Mon, 13 Jul 2026 21:37:02 GMT",
+        "summary_zh": "南卡羅來納州州長將於星期一晚些時候選出格拉罕的替代人選。格拉罕參議員於前一天因主動脈撕裂去世。川普前總統呼籲選擇格拉罕的姐姐接替參議員職位。格拉罕參議員的去世對南卡羅來納州政治產生了重大影響。川普的呼籲可能會對格拉罕的姐姐的政治前景產生影響。南卡羅來納州州長將在未來的幾天內選出格拉罕的替代人選。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "71403ec9",
+        "title": "美國法官宣布Donald Trump與美國稅務局的1.8億美元和解無效",
+        "url": "https://www.bbc.co.uk/news/articles/cn8q0e8d4ego?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Mon, 13 Jul 2026 18:52:46 GMT",
+        "summary_zh": "美國法官宣布，前總統唐納德·川普與美國稅務局的1.8億美元和解無效。法官認為訴訟的目的不當，並將川普律師的行為提交給專門機構調查是否有違反律師紀律的行為。這一裁決可能對川普的財務狀況產生重大影響。川普曾經聲稱這一和解使他免於稅務稽查的風險。然而，法官的裁決可能使川普面臨新的稅務稽查風險。這一事件可能對川普的政治聲譽和財務狀況造成重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9e14a82c",
+        "title": "前加拿大國會議員被捕，警方在其家中發現 439 支槍枝和古炮",
+        "url": "https://www.bbc.co.uk/news/articles/crr8gggwe8zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 13 Jul 2026 21:57:32 GMT",
+        "summary_zh": "加拿大警方近日在前國會議員的家中發現大量槍枝和古炮，包括 439 支槍枝和一尊古炮。警方表示，前議員被控 12 項罪名，並在其家中發現約 C$300,000。這起事件引起了社會關注，許多人對前議員的行為表示譴責。根據警方的調查，前議員的槍枝和古炮可能與非法活動有關。這起事件也引起了對加拿大槍枝管制政策的質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "92744689",
+        "title": "美國聯邦探員在緬因州槍擊案造成一人死亡",
+        "url": "https://www.bbc.co.uk/news/articles/c2ly580kxnko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Tue, 14 Jul 2026 11:09:02 GMT",
+        "summary_zh": "緬因州發生槍擊案，造成一人死亡，事件發生在聯邦探員與嫌疑人交火期間。這是美國聯邦探員槍擊案的最新事件，僅在一周前，美國一名男子在前往工作途中被移民探員槍殺。這類事件引起了美國社會的關注，許多人呼籲提高聯邦探員的訓練和責任制。聯邦探員的行動是否過度使用武力，仍是美國社會爭議的議題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "341daecc",
+        "title": "川普觀看印第安納卡車賽車場維修工作",
+        "url": "https://www.bbc.co.uk/news/videos/cgjx33y16ljo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 13 Jul 2026 19:25:17 GMT",
+        "summary_zh": "美國總統川普在白宮外觀看印第安納卡車賽車場的維修工作。這場活動是川普在1月份簽署行政命令後預告的實際比賽。這項行政命令旨在推動美國的汽車業發展，並將汽車賽車視為國家競技運動的一部分。這項決策受到部分人士的歡迎，但也引起了對於政府干預市場的爭議。川普政府的這一舉動可能會對美國汽車業產生重大影響，同時也會受到國際觀察家的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "45824369",
+        "title": "白宮發表白皮書：川普總統宣布放寬環保限制促進美國安全",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-grants-further-regulatory-relief-from-burdensome-epa-restrictions-to-promote-american-security/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 13 Jul 2026 22:23:56 +0000",
+        "summary_zh": "川普總統宣布放寬兩年環保限制，釋放美國能源產業、經濟活力和國家安全的壓力。這項措施旨在平衡環境標準與美國繁榮。根據白宮的說法，這些過於嚴格的環保規定已經對美國的能源可靠性和經濟活力造成了重大影響。川普總統認為，放寬這些限制可以幫助美國實現能源自給自足和經濟繁榮。這項措施將對美國的能源產業和經濟產生重大影響，同時也會受到環保組織的批評。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "944143e1",
+        "title": "美國總統宣布針對美國化學製造業提供特定穩定性措施",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/regulatory-relief-for-certain-stationary-sources-to-promote-american-chemical-manufacturing-security-be40/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 13 Jul 2026 22:23:12 +0000",
+        "summary_zh": "美國總統宣布針對美國化學製造業提供特定穩定性措施，以支持能源、國防、農業和醫療保健等行業的發展。這些工廠生產了對於國家基礎設施、先進製造、醫療滅菌、半導體和國防系統的關鍵輸入。美國政府認為，維持強勁的國內化學產業對於國家安全和經濟競爭力至關重要。這項措施旨在促進美國化學製造業的穩定性和安全性，同時也鼓勵投資和創新。這項措施對於美國的能源安全、國防能力和經濟競爭力都有重要影響。美國政府將繼續支持和保護國內化學製造業的發展。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "global": [
+      {
+        "id": "6d7b045c",
+        "title": "肯雅德爾蒙特果園殺人案持續發生，家屬指控G4S保安涉案",
+        "url": "https://www.theguardian.com/world/2026/jul/13/del-monte-pineapple-farm-kenya-deaths-g4s",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 14:00:49 GMT",
+        "summary_zh": "肯雅德爾蒙特果園近年來發生三起涉及G4S保安的殺人案，家屬和政治人物對此表示憂慮。德爾蒙特公司在前次事件被揭露後，聘請了G4S來取代原有的保安隊伍。儘管如此，德爾蒙特果園仍然出現殺人案，家屬和政治人物對此感到擔憂。肯雅警方與G4S合作保衛果園。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "239ae683",
+        "title": "委內瑞拉指派美國大使為外交政策、貿易首長",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-13/venezuela-names-us-ambassador-felix-plasencia-head-of-foreign-policy-trade",
+        "source": "Bloomberg",
+        "category": "global",
+        "published_at": "2026-07-13 23:54:24",
+        "summary_zh": "委內瑞拉總統尼古拉斯·馬杜羅宣布，將委內瑞拉在美國的駐館長，指派為新任外交政策和貿易首長。這一任命被視為對美國的回應，試圖改善雙邊關係。委內瑞拉政府希望透過這一措施，能夠更有效地與美國進行貿易和外交談判。然而，這一任命也引發了對委內瑞拉政府的批評，認為這一決定可能會使得委內瑞拉的外交政策更加混亂。委內瑞拉的經濟已經陷入嚴重的困境，外交政策的變化可能會對經濟有所影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "91d6c51f",
+        "title": "川普威脅對霍爾木茲海峽船隻徵收美國海關稅　伊朗遭美軍第三晚轟炸",
+        "url": "https://www.theguardian.com/us-news/2026/jul/14/first-thing-trump-us-tolls-hormuz-iran",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Tue, 14 Jul 2026 10:22:41 GMT",
+        "summary_zh": "美國總統川普宣布將對霍爾木茲海峽徵收海關稅，美國與伊朗的衝突持續升級。伊朗兩艘油輪遭伊朗巡航導彈攻擊，造成一名印度船員死亡，八名船員受傷。美國和伊朗在霍爾木茲海峽的衝突持續升級，美國和伊朗的60天臨時協議即將到期。川普的新政策將徵收霍爾木茲海峽通過的所有貨物20%的海關稅，違反了全球自由航行的規範。伊朗也曾提議徵收海關稅，但美國和伊朗的衝突持續升級，世界領袖擔心戰爭可能全面復活。美國和伊朗的衝突持續升級，霍爾木茲海峽的安全受到威脅。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a24be548",
+        "title": "「上帝懲罰著政治家們」：委內瑞拉地震應對不力引發民怨升高",
+        "url": "https://www.theguardian.com/world/2026/jul/14/anger-earthquake-response-venezuela",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 14 Jul 2026 09:00:26 GMT",
+        "summary_zh": "委內瑞拉政府對近期發生的雙重地震的處理被指不力，引發民眾不滿。地震造成近 4,500 人死亡，許多人認為政府的應對措施不夠有效。近日，一名哀悼的母親在視頻中怒罵前總統尼古拉斯·馬杜羅的兒子。馬杜羅的兒子在訪問一間受地震影響而半毀的社區時，遭到民眾的敵對接待。該社區被命名為前總統胡戈·查韋斯的遺像。委內瑞拉政府的應對措施引發民怨，民眾擔心社會動盪的出現。這次地震發生在委內瑞拉政府面臨著美國軍事干預的時期，民眾的不滿與政府的應對措施不力相結合，引發了更大的社會壓力。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "27499cdd",
+        "title": "墨西哥將對美國移民局人員殺害墨西哥移民提出刑事控訴",
+        "url": "https://www.theguardian.com/world/2026/jul/13/mexico-criminal-complaint-migrant-ice-deaths",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 22:06:01 GMT",
+        "summary_zh": "墨西哥政府宣布將對美國移民局人員殺害的墨西哥移民提出刑事控訴。墨西哥市長克勞迪婭·謝恩鮑姆（Claudia Sheinbaum）表示，墨西哥人對於上週在休斯頓被美國移民局人員殺害的洛倫佐·薩爾加多·阿勞霍（Lorenzo Salgado Araujo）一案感到震驚。謝恩鮑姆表示，薩爾加多·阿勞霍被「實際上殺害」。墨西哥政府將對美國移民局人員殺害的多達十餘名墨西哥移民提出控訴，包括上週在休斯頓被殺害的薩爾加多·阿勞霍在內的移民在移民拘留中心死亡的案件，以及在反移民行動中被殺害的移民。這一決定表明墨西哥政府對美國對待移民的做法感到關注和不滿。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3a3b229d",
+        "title": "川普恢復對伊朗港口的海上封鎖",
+        "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 14 Jul 2026 04:50:48 GMT",
+        "summary_zh": "美國總統川普宣布恢復對伊朗港口的海上封鎖，同時表示華盛頓將對通過霍爾木茲海峽的所有貨物徵收 20% 的費用。這一決定是對伊朗核問題的最新回應，伊朗核問題一直是中東地區的敏感議題。美國此舉旨在壓制伊朗的經濟活動，並進一步加大對伊朗的經濟壓力。然而，這一決定也可能引發伊朗對美國的反應，進一步加劇中東地區的緊張局勢。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e684d002",
+        "title": "野牛衝撞老人，將他撞飛數米高空",
+        "url": "https://www.bbc.co.uk/news/articles/c2dy9krpydlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 17:21:21 GMT",
+        "summary_zh": "在黃石公園，老人和他的孫子似乎已經保持了一個安全距離，遠離野牛。然而，野牛卻突然追趕過來。這次事件的經歷讓老人的生活變得更加危險。這種情況在黃石公園內不斷發生，公園管理人員正努力減少與野生動物的衝突。這些動物的行為變得更加激進，對遊客的安全構成了嚴重威脅。公園管理人員正在研究如何減少這種情況的發生，並保護遊客的安全。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "a7790987",
         "title": "曼谷酒吧大火死亡人數升至30名 警方調查安全疏失",
@@ -78,20 +344,8 @@
         "published_at": "Tue, 14 Jul 2026 09:40:23 GMT",
         "summary_zh": "一架瑞安航空客機近乎空中失事，造成多人受傷。該機由倫敦飛往塞爾維亞的尼什。據塞爾維亞媒體報導，該機上一名乘客被強風吹出機窗，幸好被救回。受影響的乘客的妻子表示，她的丈夫嚴重受傷，還處於驚嚇之中。目前尚未公布受傷乘客的具體數量和傷勢。該事件發生在飛機降落前不久。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "83202f2e",
-        "title": "川普喊收荷姆茲過路費 全球航道恐大洗牌！「台灣海峽」身價曝光",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5505137",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Tue, 14 Jul 2026 18:53:21 +0800",
-        "summary_zh": "美國總統川普宣布重新封鎖伊朗港口，並揚言接管並收取20%過路費。這一措施將改變全球能源運輸模式，影響全球航道的安全。荷姆茲海峽是全球十大戰略水道之一，位於伊朗和阿拉伯聯合酋長國之間。川普的行動將對全球航運業和能源市場產生重大影響。台灣海峽的身價曝光，顯示了全球航道的重要性和競爭。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "ef17e45d",
@@ -102,17 +356,17 @@
         "published_at": "Tue, 14 Jul 2026 10:02:43 GMT",
         "summary_zh": "也門胡提派發射飛彈攻擊沙烏地阿拉伯，胡提派指責沙烏地阿拉伯對也門首都撒那的攻擊，表示這是對阿巴哈機場的反擊。這一事件發生在也門的內戰背景下，胡提派與沙烏地阿拉伯和其他阿拉伯國家有著長期的對立關係。這次飛彈攻擊可能會加劇也門的緊張局勢，並對地區的安全和穩定產生影響。胡提派的行動也可能會引起國際社會的關注和批評。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
-        "id": "e684d002",
-        "title": "野牛衝撞老人，將他撞飛數米高空",
-        "url": "https://www.bbc.co.uk/news/articles/c2dy9krpydlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "id": "83202f2e",
+        "title": "川普喊收荷姆茲過路費 全球航道恐大洗牌！「台灣海峽」身價曝光",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5505137",
+        "source": "自由時報財經",
         "category": "global",
-        "published_at": "Mon, 13 Jul 2026 17:21:21 GMT",
-        "summary_zh": "在黃石公園，老人和他的孫子似乎已經保持了一個安全距離，遠離野牛。然而，野牛卻突然追趕過來。這次事件的經歷讓老人的生活變得更加危險。這種情況在黃石公園內不斷發生，公園管理人員正努力減少與野生動物的衝突。這些動物的行為變得更加激進，對遊客的安全構成了嚴重威脅。公園管理人員正在研究如何減少這種情況的發生，並保護遊客的安全。",
+        "published_at": "Tue, 14 Jul 2026 18:53:21 +0800",
+        "summary_zh": "美國總統川普宣布重新封鎖伊朗港口，並揚言接管並收取20%過路費。這一措施將改變全球能源運輸模式，影響全球航道的安全。荷姆茲海峽是全球十大戰略水道之一，位於伊朗和阿拉伯聯合酋長國之間。川普的行動將對全球航運業和能源市場產生重大影響。台灣海峽的身價曝光，顯示了全球航道的重要性和競爭。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -212,274 +466,20 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "3a3b229d",
-        "title": "川普恢復對伊朗港口的海上封鎖",
-        "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 14 Jul 2026 04:50:48 GMT",
-        "summary_zh": "美國總統川普宣布恢復對伊朗港口的海上封鎖，同時表示華盛頓將對通過霍爾木茲海峽的所有貨物徵收 20% 的費用。這一決定是對伊朗核問題的最新回應，伊朗核問題一直是中東地區的敏感議題。美國此舉旨在壓制伊朗的經濟活動，並進一步加大對伊朗的經濟壓力。然而，這一決定也可能引發伊朗對美國的反應，進一步加劇中東地區的緊張局勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6d7b045c",
-        "title": "肯雅德爾蒙特果園殺人案持續發生，家屬指控G4S保安涉案",
-        "url": "https://www.theguardian.com/world/2026/jul/13/del-monte-pineapple-farm-kenya-deaths-g4s",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 14:00:49 GMT",
-        "summary_zh": "肯雅德爾蒙特果園近年來發生三起涉及G4S保安的殺人案，家屬和政治人物對此表示憂慮。德爾蒙特公司在前次事件被揭露後，聘請了G4S來取代原有的保安隊伍。儘管如此，德爾蒙特果園仍然出現殺人案，家屬和政治人物對此感到擔憂。肯雅警方與G4S合作保衛果園。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a24be548",
-        "title": "「上帝懲罰著政治家們」：委內瑞拉地震應對不力引發民怨升高",
-        "url": "https://www.theguardian.com/world/2026/jul/14/anger-earthquake-response-venezuela",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 14 Jul 2026 09:00:26 GMT",
-        "summary_zh": "委內瑞拉政府對近期發生的雙重地震的處理被指不力，引發民眾不滿。地震造成近 4,500 人死亡，許多人認為政府的應對措施不夠有效。近日，一名哀悼的母親在視頻中怒罵前總統尼古拉斯·馬杜羅的兒子。馬杜羅的兒子在訪問一間受地震影響而半毀的社區時，遭到民眾的敵對接待。該社區被命名為前總統胡戈·查韋斯的遺像。委內瑞拉政府的應對措施引發民怨，民眾擔心社會動盪的出現。這次地震發生在委內瑞拉政府面臨著美國軍事干預的時期，民眾的不滿與政府的應對措施不力相結合，引發了更大的社會壓力。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "27499cdd",
-        "title": "墨西哥將對美國移民局人員殺害墨西哥移民提出刑事控訴",
-        "url": "https://www.theguardian.com/world/2026/jul/13/mexico-criminal-complaint-migrant-ice-deaths",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 22:06:01 GMT",
-        "summary_zh": "墨西哥政府宣布將對美國移民局人員殺害的墨西哥移民提出刑事控訴。墨西哥市長克勞迪婭·謝恩鮑姆（Claudia Sheinbaum）表示，墨西哥人對於上週在休斯頓被美國移民局人員殺害的洛倫佐·薩爾加多·阿勞霍（Lorenzo Salgado Araujo）一案感到震驚。謝恩鮑姆表示，薩爾加多·阿勞霍被「實際上殺害」。墨西哥政府將對美國移民局人員殺害的多達十餘名墨西哥移民提出控訴，包括上週在休斯頓被殺害的薩爾加多·阿勞霍在內的移民在移民拘留中心死亡的案件，以及在反移民行動中被殺害的移民。這一決定表明墨西哥政府對美國對待移民的做法感到關注和不滿。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "71403ec9",
-        "title": "美國法官宣布Donald Trump與美國稅務局的1.8億美元和解無效",
-        "url": "https://www.bbc.co.uk/news/articles/cn8q0e8d4ego?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 13 Jul 2026 18:52:46 GMT",
-        "summary_zh": "美國法官宣布，前總統唐納德·川普與美國稅務局的1.8億美元和解無效。法官認為訴訟的目的不當，並將川普律師的行為提交給專門機構調查是否有違反律師紀律的行為。這一裁決可能對川普的財務狀況產生重大影響。川普曾經聲稱這一和解使他免於稅務稽查的風險。然而，法官的裁決可能使川普面臨新的稅務稽查風險。這一事件可能對川普的政治聲譽和財務狀況造成重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "92744689",
-        "title": "美國聯邦探員在緬因州槍擊案造成一人死亡",
-        "url": "https://www.bbc.co.uk/news/articles/c2ly580kxnko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 14 Jul 2026 01:50:48 GMT",
-        "summary_zh": "緬因州發生槍擊案，造成一人死亡，事件發生在聯邦探員與嫌疑人交火期間。這是美國聯邦探員槍擊案的最新事件，僅在一周前，美國一名男子在前往工作途中被移民探員槍殺。這類事件引起了美國社會的關注，許多人呼籲提高聯邦探員的訓練和責任制。聯邦探員的行動是否過度使用武力，仍是美國社會爭議的議題。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cfff0409",
-        "title": "川普呼籲選擇格拉罕姐姐接替參議員職位",
-        "url": "https://www.bbc.co.uk/news/articles/c05y3rlvp20o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 13 Jul 2026 21:37:02 GMT",
-        "summary_zh": "南卡羅來納州州長將於星期一晚些時候選出格拉罕的替代人選。格拉罕參議員於前一天因主動脈撕裂去世。川普前總統呼籲選擇格拉罕的姐姐接替參議員職位。格拉罕參議員的去世對南卡羅來納州政治產生了重大影響。川普的呼籲可能會對格拉罕的姐姐的政治前景產生影響。南卡羅來納州州長將在未來的幾天內選出格拉罕的替代人選。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "45824369",
-        "title": "白宮發表白皮書：川普總統宣布放寬環保限制促進美國安全",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-grants-further-regulatory-relief-from-burdensome-epa-restrictions-to-promote-american-security/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 13 Jul 2026 22:23:56 +0000",
-        "summary_zh": "川普總統宣布放寬兩年環保限制，釋放美國能源產業、經濟活力和國家安全的壓力。這項措施旨在平衡環境標準與美國繁榮。根據白宮的說法，這些過於嚴格的環保規定已經對美國的能源可靠性和經濟活力造成了重大影響。川普總統認為，放寬這些限制可以幫助美國實現能源自給自足和經濟繁榮。這項措施將對美國的能源產業和經濟產生重大影響，同時也會受到環保組織的批評。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "944143e1",
-        "title": "美國總統宣布針對美國化學製造業提供特定穩定性措施",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/regulatory-relief-for-certain-stationary-sources-to-promote-american-chemical-manufacturing-security-be40/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 13 Jul 2026 22:23:12 +0000",
-        "summary_zh": "美國總統宣布針對美國化學製造業提供特定穩定性措施，以支持能源、國防、農業和醫療保健等行業的發展。這些工廠生產了對於國家基礎設施、先進製造、醫療滅菌、半導體和國防系統的關鍵輸入。美國政府認為，維持強勁的國內化學產業對於國家安全和經濟競爭力至關重要。這項措施旨在促進美國化學製造業的穩定性和安全性，同時也鼓勵投資和創新。這項措施對於美國的能源安全、國防能力和經濟競爭力都有重要影響。美國政府將繼續支持和保護國內化學製造業的發展。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9e14a82c",
-        "title": "前加拿大國會議員被捕，警方在其家中發現 439 支槍枝和古炮",
-        "url": "https://www.bbc.co.uk/news/articles/crr8gggwe8zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 13 Jul 2026 21:57:32 GMT",
-        "summary_zh": "加拿大警方近日在前國會議員的家中發現大量槍枝和古炮，包括 439 支槍枝和一尊古炮。警方表示，前議員被控 12 項罪名，並在其家中發現約 C$300,000。這起事件引起了社會關注，許多人對前議員的行為表示譴責。根據警方的調查，前議員的槍枝和古炮可能與非法活動有關。這起事件也引起了對加拿大槍枝管制政策的質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "341daecc",
-        "title": "川普觀看印第安納卡車賽車場維修工作",
-        "url": "https://www.bbc.co.uk/news/videos/cgjx33y16ljo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 13 Jul 2026 19:25:17 GMT",
-        "summary_zh": "美國總統川普在白宮外觀看印第安納卡車賽車場的維修工作。這場活動是川普在1月份簽署行政命令後預告的實際比賽。這項行政命令旨在推動美國的汽車業發展，並將汽車賽車視為國家競技運動的一部分。這項決策受到部分人士的歡迎，但也引起了對於政府干預市場的爭議。川普政府的這一舉動可能會對美國汽車業產生重大影響，同時也會受到國際觀察家的關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7f42ba06",
-        "title": "美國政府退還 81 億美元川普關稅後果",
-        "url": "https://www.theguardian.com/us-news/2026/jul/14/trump-tariffs-us-refunds",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 14 Jul 2026 07:03:02 GMT",
-        "summary_zh": "美國政府已經退還了數十億美元的關稅，根據最近公佈的預算數字。川普政府在上任後推出關稅政策，對進口商品徵收稅項。美國最高法院最近裁定這些關稅違法。政府被迫退還這些稅款給那些被關稅影響的企業。這些企業曾經進口商品到美國。這些退還的關稅金額達到 81 億美元。這些退還的關稅金額將對美國經濟產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "447f40bb",
-        "title": "緬因州抗議ICE行動，抗議者要求ICE離開美國",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/13/congress-capitol-lindsey-graham-trump-republicans-democrats-us-politics-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 14 Jul 2026 01:59:57 GMT",
-        "summary_zh": "緬因州近日發生了一起與移民相關的事件，一名人士在移民執法行動中喪生，引發了當地居民的強烈抗議。抗議者高呼「驅逐ICE！」並批評共和黨參議員Susan Collins因為她在沒有改革的情況下投票支持ICE而遭到譴責。同時，民主黨的前任參議員Gary Peters宣布支持代表密歇根州的眾議員Haley Stevens競選他的繼任者，超越了Abdul El-Sayed。Peters認為Haley Stevens是一位堅強的鬥士，能夠立即展開工作，而不是需要在任務中學習。這場選舉將於8月4日舉行。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a2dc874b",
-        "title": "馬可·魯比奧發起拆除國際刑事法院運動",
-        "url": "https://www.theguardian.com/us-news/2026/jul/13/marco-rubio-dismantle-international-criminal-court",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 14 Jul 2026 01:39:26 GMT",
-        "summary_zh": "美國國務卿馬可·魯比奧（Marco Rubio）於週一發起拆除國際刑事法院（International Criminal Court, ICC）的運動，指責該法院干涉美國軍事和執法行動，威脅美國主權。魯比奧在《華爾街日報》發表的一篇社論中，形容美國邊境巡邏員和當選領袖被「拖到國際法院」並由全球各地法官審判。美國國務卿的這一聲明引發了對國際刑事法院的批評，許多人認為該法院的存在是為了維護國際法治和追究戰爭罪行。然而，美國政府的反應則引發了對美國主權和國際合作的擔憂。這一事件也引發了對未來國際關係和全球治理的展望。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "066ebdca",
-        "title": "琳西·格雷厄姆的妹妹達林·格雷厄姆·諾多內將擔任臨時美國參議員",
-        "url": "https://www.theguardian.com/us-news/2026/jul/13/who-is-darline-graham-nordone-lindsey-graham",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 14 Jul 2026 01:08:09 GMT",
-        "summary_zh": "琳西·格雷厄姆的妹妹達林·格雷厄姆·諾多內將擔任臨時美國參議員。琳西·格雷厄姆在父母去世後成為了妹妹的法定監護人，並在妹妹13歲時將她收養。達林·格雷厄姆·諾多內將會填補琳西·格雷厄姆去世後的參議員空缺。南卡羅來納州共和黨州長亨利·麥克馬斯特宣布了這項決定。琳西·格雷厄姆在去年夜間猝逝，享年71歲。達林·格雷厄姆·諾多內將會在參議院中扮演關鍵角色，琳西·格雷厄姆的共和黨同僚將會支持她。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "53f37c57",
-        "title": "美國水樣大腸炎病例超過 2,800 起，與川普政府削減衛生部門預算有關",
-        "url": "https://www.theguardian.com/us-news/2026/jul/13/cyclospora-outbreak-parasite-explosive-diarrhea",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 13 Jul 2026 23:55:00 GMT",
-        "summary_zh": "美國水樣大腸炎病例數近年來持續上升，根據密西根州和俄亥俄州衛生部的報告，超過 2,800 人感染了這種寄生蟲感染引起的疾病。水樣大腸炎的症狀包括水樣腹瀉、食欲不振和體重減輕。這次疫情發生在川普政府削減州和地方衛生部門預算以及減少食品中毒情報協調計劃的任務後一年。該計劃負責協調食品中毒情報，包括水樣大腸炎。這種疫情的出現引起了對美國公共衛生系統的擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "722172be",
-        "title": "川普大幅削減兩座美國國立紀念碑的面積",
-        "url": "https://www.theguardian.com/us-news/2026/jul/13/trump-cuts-national-monuments-utah",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 13 Jul 2026 23:45:45 GMT",
-        "summary_zh": "美國總統川普宣布將兩座位於猶他州的國立紀念碑——猶他州的熊耳紀念碑和梯級-埃斯卡蘭特紀念碑——大幅削減面積，將近 1.5 萬公頃土地開放給開發商和石油業。這兩座紀念碑對許多美國原住民來說是神聖的地方，川普的決定引發了強烈反彈。川普在週一的行政命令簽署儀式上表示，這兩座紀念碑的面積將會大幅削減，將近 1.5 萬公頃土地將會被開放。這一決定是對前任總統所設立的保護措施的逆轉。這一決定引發了許多美國原住民和環保組織的反彈，認為這將會對這些神聖的地方造成嚴重的損害。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e637f952",
-        "title": "明尼蘇達州檢察官獲得聯邦當局提供的ICE槍殺案證據",
-        "url": "https://www.theguardian.com/us-news/2026/jul/13/renee-good-alex-pretti-minnesota-evidence",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 13 Jul 2026 23:30:40 GMT",
-        "summary_zh": "明尼蘇達州檢察官已經獲得聯邦當局提供的關於ICE槍殺案的證據。這些證據涉及今年早些時候在反對聯邦移民打擊行動的抗議中發生的兩起致命槍擊案，受害者分別是Renée Good和Alex Pretti。聯邦當局曾經隱瞞這些證據，但現在已經將硬碟提供給明尼蘇達州檢察官。這些證據將幫助州政府了解這些槍擊案的真相。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4c7167c0",
-        "title": "共和黨人重返國會山莊，議程因格雷厄姆逝世而變得複雜",
-        "url": "https://www.theguardian.com/us-news/2026/jul/13/us-congress-reconvenes-trump-legislation",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 13 Jul 2026 19:31:30 GMT",
-        "summary_zh": "共和黨人本週重返國會山莊，面臨著多項任務，包括川普對選舉限制的要求，以及麥康奈爾的缺席和參議員格雷厄姆突然逝世。共和黨人與民主黨人都渴望在11月的中期選舉前，為選民展示國會山莊的立法成就。然而，共和黨參議員已經要面對川普的多項要求，格雷厄姆的逝世使他們的議程更加複雜。格雷厄姆是預算委員會主席，曾在與川普合作時扮演關鍵角色，協助通過一項黨內立場的預算案，提供額外的防衛開支和川普所提出的其他優先事項。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "ai": [
       {
-        "id": "5ff11aca",
-        "title": "紐約州成為第一個實施資料中心禁令的州份",
-        "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
-        "source": "The Verge AI",
+        "id": "b01622ec",
+        "title": "量子計算機PsiQuantum計畫使用光學技術打造巨型量子電腦",
+        "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
+        "source": "MIT Tech Review",
         "category": "ai",
-        "published_at": "2026-07-14T05:00:00-04:00",
-        "summary_zh": "紐約州長凱西·霍奇爾 (Kathy Hochul)簽署了一項國家首例的州級禁令，禁止新建資料中心。這項禁令暫時有效，將會影響到資料中心的環境許可。同時，州議會通過的另一項法案，可能會進一步限制資料中心的發展，目前仍等待州長簽署。這項禁令的出現，對於資料中心的建設和發展，將會產生重大影響。",
+        "published_at": "Tue, 14 Jul 2026 08:00:00 +0000",
+        "summary_zh": "PsiQuantum正在籌劃一款革命性的量子電腦，該機器將被安置在一個看起來像資料中心又像冰淇淋工廠的房間內。房間內將有約100個六英尺高的不鏽鋼柜子，每個柜子都與液氦供應器連接，液氦供應器能夠維持柜子內部幾個絕對零度之上的溫度。這些柜子將是PsiQuantum量子電腦的核心部件，負責運行量子計算。PsiQuantum的計畫旨在打造一款巨型量子電腦，能夠應用於各種領域，包括科學研究、金融和安全領域。這項計畫的成功將對世界產生重大影響，可能會改變我們對計算和信息處理的理解。然而，PsiQuantum仍然面臨著許多技術和財務挑戰，需要克服才能實現這項計畫。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
-      },
-      {
-        "id": "fdf0a55e",
-        "title": "Siri AI 已經改變了我使用 iPhone 的方式",
-        "url": "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-13T16:43:20-04:00",
-        "summary_zh": "iOS 27 公開了第一個公測版本，讓我能夠體驗新功能。自從六月初開始測試 iOS 27，我一直在找尋它的缺點和優點。今年的 iOS 升級被稱為 Snow Leopard，帶來了許多改進，包括 Siri AI 的升級。這個升級讓 Siri 的功能更加強大，能夠更好地理解使用者的需求。然而，這個升級也引發了對隱私的擔憂。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8e99f406",
-        "title": "蘋果控告 OpenAI：6 件最瘋狂的指控",
-        "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-13T13:00:00-04:00",
-        "summary_zh": "蘋果公司對 OpenAI 提出訴訟，指控 OpenAI 窃取機密文件、竊聽硬體原型、騙取蘋果員工等行為。根據訴訟文件，當 OpenAI 招募蘋果員工時，該公司的硬體負責人要求員工帶來正在開發的元件和未發布的產品樣本。這些指控引發了對 OpenAI 行為的關注，同時也揭露了科技公司之間的競爭和合作關係。蘋果公司的訴訟可能會對 OpenAI 的未來發展產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       },
       {
         "id": "083560c5",
@@ -506,6 +506,42 @@
         "ai_classified": true
       },
       {
+        "id": "5ff11aca",
+        "title": "紐約州成為第一個實施資料中心禁令的州份",
+        "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-14T05:00:00-04:00",
+        "summary_zh": "紐約州長凱西·霍奇爾 (Kathy Hochul)簽署了一項國家首例的州級禁令，禁止新建資料中心。這項禁令暫時有效，將會影響到資料中心的環境許可。同時，州議會通過的另一項法案，可能會進一步限制資料中心的發展，目前仍等待州長簽署。這項禁令的出現，對於資料中心的建設和發展，將會產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fdf0a55e",
+        "title": "Siri AI 已經改變了我使用 iPhone 的方式",
+        "url": "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-13T16:43:20-04:00",
+        "summary_zh": "iOS 27 公開了第一個公測版本，讓我能夠體驗新功能。自從六月初開始測試 iOS 27，我一直在找尋它的缺點和優點。今年的 iOS 升級被稱為 Snow Leopard，帶來了許多改進，包括 Siri AI 的升級。這個升級讓 Siri 的功能更加強大，能夠更好地理解使用者的需求。然而，這個升級也引發了對隱私的擔憂。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8e99f406",
+        "title": "蘋果控告 OpenAI：6 件最瘋狂的指控",
+        "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-13T13:00:00-04:00",
+        "summary_zh": "蘋果公司對 OpenAI 提出訴訟，指控 OpenAI 窃取機密文件、竊聽硬體原型、騙取蘋果員工等行為。根據訴訟文件，當 OpenAI 招募蘋果員工時，該公司的硬體負責人要求員工帶來正在開發的元件和未發布的產品樣本。這些指控引發了對 OpenAI 行為的關注，同時也揭露了科技公司之間的競爭和合作關係。蘋果公司的訴訟可能會對 OpenAI 的未來發展產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "9c9ada98",
         "title": "Siri AI 成為蘋果的核心工具",
         "url": "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
@@ -520,61 +556,49 @@
     ],
     "stock_tw": [
       {
-        "id": "3c156a25",
-        "title": "永達推滿貫VIP主題包廂 打造高資產客戶尊榮觀賽體驗",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5505218",
-        "source": "自由時報財經",
+        "id": "c71b5475",
+        "title": "美軍對伊朗空襲油價再度大漲 亞股多收漲",
+        "url": "https://www.cna.com.tw/news/afe/202607140280.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 14 Jul 2026 18:56:44 +0800",
-        "summary_zh": "永達保經近期推出「永達滿貫VIP主題包廂」年度計畫，旨在為高資產客戶提供獨特的觀賽體驗。該計畫融合了傳統風險保障理念與實體運動經濟，為客戶帶來更富有挑戰性的體驗。永達保經的這一舉措，顯示出對於高資產族群的需求轉變有所洞察，並且致力於提供更個人化的服務。這一計畫將為客戶帶來尊榮的觀賽體驗，並且有助於永達保經與高資產客戶建立更深層的關係。",
+        "published_at": "Tue, 14 Jul 2026 18:35:54 +0800",
+        "summary_zh": "美軍對伊朗展開新一輪空襲，原油價格再度大幅上漲，標誌著敵對行動進一步升高。這次空襲引發市場擔憂，脆弱的停火可能再次破裂，進而引發通膨風險再次飆升。面對這種不確定性，投資者紛紛低接買盤進場，亞洲股市主要指數今天因此而大多上揚。這種情況下，投資者需要密切關注國際局勢的發展，避免風險過高的投資。同時，亞洲股市的上漲也可能是投資者對未來經濟前景的樂觀預期。然而，投資者也需要注意，市場的情緒可能會隨著國際局勢的變化而變化，因此需要保持謹慎的態度。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a9ba06f3",
+        "title": "財政部修法防堵私菸詐領 檢舉獎金須按實收罰鍰計算",
+        "url": "https://www.cna.com.tw/news/afe/202607140278.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 14 Jul 2026 18:32:50 +0800",
+        "summary_zh": "為防止私菸集團利用查緝人員的獎金進行詐領，財政部近日發布修正條文，包括檢舉獎金將按實收罰鍰計算。這意味著查緝人員的獎金將與實際收到的罰金相關聯，避免私菸集團利用虛假獎金進行詐領。另外，財政部還要求查緝機關建立內控內稽制度，以防止不法取得的獎金被追繳。這些措施旨在防止私菸集團的詐領行為，並確保查緝人員的獎金公平公正。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "3706f5d9",
-        "title": "雷虎強化無人機布局 成立2家公司",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5505197",
-        "source": "自由時報財經",
+        "id": "ba407258",
+        "title": "彭博披露三星電子評估赴美發行ADR 三星否認",
+        "url": "https://www.cna.com.tw/news/aopl/202607140277.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 14 Jul 2026 18:47:52 +0800",
-        "summary_zh": "雷虎無人機廠強化無人機關鍵動力系統，董事會通過投資設立雷虎精準系統公司和航空引擎合資公司。雷虎總經理蘇聖傑表示，雷虎精準系統公司將初期投資200萬美元，為無人機業界的發展提供強力支持。這兩家公司的成立將幫助雷虎進一步鞏固在無人機領域的競爭優勢。雷虎的這一舉動顯示出對無人機技術的重視和投資，將對未來的無人機發展產生重要影響。雷虎的這一布局將進一步加強無人機的關鍵動力系統，為未來的無人機應用提供更好的基礎。",
+        "published_at": "Tue, 14 Jul 2026 18:30:48 +0800",
+        "summary_zh": "根據彭博新聞的報導，韓國科技巨擘三星電子正在評估赴美發行美國存託憑證（ADR）。這項消息引起市場關注，三星電子隨即否認相關報導。三星電子是否真的考慮赴美發行ADR，將對公司的全球戰略和財務策略產生重大影響。這項消息也可能對韓國股市和全球科技股市產生影響。目前，三星電子仍未對相關報導作出正式回應，市場仍在等待公司的官方公告。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "27eaf340",
-        "title": "Gogolook攜網銀國際攻海外 防詐、金融雙引擎衝成長",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5505207",
-        "source": "自由時報財經",
+        "id": "7fa7f607",
+        "title": "美 CPI 出爐前夕 新台幣貶0.2分收32.172元",
+        "url": "https://www.cna.com.tw/news/afe/202607140275.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 14 Jul 2026 18:45:34 +0800",
-        "summary_zh": "Gogolook（6902）近期獲泛娛樂集團網銀國際策略性投資，取得約13.75%持股，進一步強化股東結構。這次投資將幫助Gogolook進一步發展防詐軟體Whoscall，並在金融領域推動雙引擎成長。網銀國際的投資將為Gogolook提供更多資源和技術支持，幫助公司在海外市場展開新的戰略。這項投資將對Gogolook的未來發展產生重大影響，公司將會繼續推動防詐和金融領域的雙引擎成長。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "d9fabefb",
-        "title": "AI仍為投資核心 亞洲科技股估值比美股更具優勢",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5505206",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 14 Jul 2026 18:44:46 +0800",
-        "summary_zh": "摩根資產管理指出，儘管近期全球股市劇烈波動，AI仍是驅動投資的核心主題。亞太地區在AI供應鏈中扮演關鍵角色，亞洲科技股估值顯著低於美國NASDAQ 100。這使得亞洲科技股成為投資者關注的焦點。摩根資產管理認為，亞洲科技股的估值優勢將持續存在，投資者應該將其視為核心投資主題。這項觀點與投資者對亞洲科技股的興趣相吻合，許多投資者正在尋找投資亞洲科技股的機會。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "20960b1c",
-        "title": "國巨三度爆違約交割 10日累計金額1.07億元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5505195",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 14 Jul 2026 18:43:50 +0800",
-        "summary_zh": "國巨在台股重挫的情況下再度出現違約交割事件。根據證交所公告，凱基林口證券商申報國巨違約交割金額達2651.4萬元。這是國巨第三次違約交割，從6月30日至今僅10個營業日，累計違約交割金額達1.07億元。這些違約事件可能會對國巨的股價和信心產生負面影響。國巨的違約事件也引起了市場的關注，投資者需要密切關注國巨的財務狀況和未來的發展方向。",
+        "published_at": "Tue, 14 Jul 2026 18:26:44 +0800",
+        "summary_zh": "美 CPI 出爐前夕，市場態度保守，外資續採調節策略，賣超台股並匯出，股匯今天同步走跌。新台幣兌美元收盤收32.172元，貶0.2分。台北及元太外匯市場總成交金額21.62億美元。這種市場情況下，新台幣的貶值可能與外資的調節策略有關。外資的賣超可能會對台股產生負面影響，進而影響新台幣的匯率。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
@@ -650,95 +674,119 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "3c156a25",
+        "title": "永達推滿貫VIP主題包廂 打造高資產客戶尊榮觀賽體驗",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5505218",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 14 Jul 2026 18:56:44 +0800",
+        "summary_zh": "永達保經近期推出「永達滿貫VIP主題包廂」年度計畫，旨在為高資產客戶提供獨特的觀賽體驗。該計畫融合了傳統風險保障理念與實體運動經濟，為客戶帶來更富有挑戰性的體驗。永達保經的這一舉措，顯示出對於高資產族群的需求轉變有所洞察，並且致力於提供更個人化的服務。這一計畫將為客戶帶來尊榮的觀賽體驗，並且有助於永達保經與高資產客戶建立更深層的關係。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3706f5d9",
+        "title": "雷虎強化無人機布局 成立2家公司",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5505197",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 14 Jul 2026 18:47:52 +0800",
+        "summary_zh": "雷虎無人機廠強化無人機關鍵動力系統，董事會通過投資設立雷虎精準系統公司和航空引擎合資公司。雷虎總經理蘇聖傑表示，雷虎精準系統公司將初期投資200萬美元，為無人機業界的發展提供強力支持。這兩家公司的成立將幫助雷虎進一步鞏固在無人機領域的競爭優勢。雷虎的這一舉動顯示出對無人機技術的重視和投資，將對未來的無人機發展產生重要影響。雷虎的這一布局將進一步加強無人機的關鍵動力系統，為未來的無人機應用提供更好的基礎。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "27eaf340",
+        "title": "Gogolook攜網銀國際攻海外 防詐、金融雙引擎衝成長",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5505207",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 14 Jul 2026 18:45:34 +0800",
+        "summary_zh": "Gogolook（6902）近期獲泛娛樂集團網銀國際策略性投資，取得約13.75%持股，進一步強化股東結構。這次投資將幫助Gogolook進一步發展防詐軟體Whoscall，並在金融領域推動雙引擎成長。網銀國際的投資將為Gogolook提供更多資源和技術支持，幫助公司在海外市場展開新的戰略。這項投資將對Gogolook的未來發展產生重大影響，公司將會繼續推動防詐和金融領域的雙引擎成長。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d9fabefb",
+        "title": "AI仍為投資核心 亞洲科技股估值比美股更具優勢",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5505206",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 14 Jul 2026 18:44:46 +0800",
+        "summary_zh": "摩根資產管理指出，儘管近期全球股市劇烈波動，AI仍是驅動投資的核心主題。亞太地區在AI供應鏈中扮演關鍵角色，亞洲科技股估值顯著低於美國NASDAQ 100。這使得亞洲科技股成為投資者關注的焦點。摩根資產管理認為，亞洲科技股的估值優勢將持續存在，投資者應該將其視為核心投資主題。這項觀點與投資者對亞洲科技股的興趣相吻合，許多投資者正在尋找投資亞洲科技股的機會。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "20960b1c",
+        "title": "國巨三度爆違約交割 10日累計金額1.07億元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5505195",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 14 Jul 2026 18:43:50 +0800",
+        "summary_zh": "國巨在台股重挫的情況下再度出現違約交割事件。根據證交所公告，凱基林口證券商申報國巨違約交割金額達2651.4萬元。這是國巨第三次違約交割，從6月30日至今僅10個營業日，累計違約交割金額達1.07億元。這些違約事件可能會對國巨的股價和信心產生負面影響。國巨的違約事件也引起了市場的關注，投資者需要密切關注國巨的財務狀況和未來的發展方向。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "50444c85",
-        "title": "雷維斯將在倫敦最後一次出席活動中警告政府開支過度",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-13/reeves-to-use-last-city-of-london-outing-to-warn-on-government-spending",
+        "id": "9ef0460e",
+        "title": "基因西斯和沃爾特合併創造澳洲第三大金礦公司",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-13/genesis-and-vault-to-create-australia-s-third-largest-gold-miner",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-07-13 23:01:00",
-        "summary_zh": "英國財政大臣雷維斯將在倫敦最後一次出席活動中發表演說，警告政府開支過度可能導致經濟衰退。他表示，政府應該盡量節省開支，以避免未來的經濟風險。雷維斯的演說將針對英國政府的財政政策進行評估，強調政府應該更加謹慎地處理財政事務。這次演說被視為雷維斯最後一次在倫敦出席活動，因此他的話語將受到特別關注。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "8bc5cfe2",
-        "title": "Shein 的增長速度放緩，可能影響香港上市價值",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-13/shein-s-slowing-growth-risks-weighing-on-hong-kong-ipo-valuation",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-13 23:00:40",
-        "summary_zh": "中國跨境電商 Shein 的增長速度放緩，可能影響其即將在香港上市的估值。根據市場消息，Shein 的銷售額增長速度已經從去年的 50% 下降到今年的 20%。這種放緩可能是由於全球經濟不確定性和消費者購買意欲下降所致。 Shein 的上市價值估計為 100 億美元，然而這種增長速度放緩可能會影響其估值。 Shein 的管理層正努力透過成本控制和業務優化來改善其財務表現。然而，市場仍然對其未來增長前景存疑。 Shein 的上市將在香港進行，該公司將成為該市首家上市的中國跨境電商。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "62aecb60",
-        "title": "英國產業要求首相將能源稅轉為一般稅收",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-13/uk-industry-tells-pm-to-move-energy-levies-to-general-taxation",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-13 23:00:01",
-        "summary_zh": "英國產業界對於政府的能源稅政策表示不滿，要求首相將能源稅轉為一般稅收。根據英國產業聯盟的報告，能源稅對於企業的成本增加已經達到 10%。產業界認為，這些稅收對於企業的競爭力和生存能力造成了重大影響。英國政府正面臨著能源危機和通膨的挑戰，產業界的要求可能會對政府的政策產生重大影響。政府將如何回應產業界的要求，尚未明確。",
+        "published_at": "2026-07-13 23:55:29",
+        "summary_zh": "基因西斯和沃爾特宣布合併，將創造澳洲第三大金礦公司。這項交易預計於今年晚些時候完成，將基因西斯和沃爾特的資產合併，形成一個強大的金礦公司。基因西斯和沃爾特的合併將使澳洲金礦業迎來新的變革，同時也將加強澳洲對全球金礦市場的競爭力。這項交易的完成將對澳洲經濟和金礦業產生重要影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "3d68e8ec",
-        "title": "印度大型股價下跌股市料將反彈",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-13/india-s-beaten-down-large-caps-set-to-rebound-on-foreign-flows",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-13 23:00:00",
-        "summary_zh": "印度大型股價下跌的股市料將反彈，主要是由於外資流入。根據市場分析師的預測，外資將持續購買印度大型股價，從而推動股市反彈。外資購買的原因包括印度的經濟增長率、企業盈利能力以及政府的財政政策等。印度政府近期推出了一系列的財政政策，包括降低稅率、增加投資等，以刺激經濟增長。這些政策的效果正在逐步顯現，外資也開始注意到印度的經濟增長潛力。市場分析師預測，外資將持續購買印度大型股價，從而推動股市反彈。這將對印度股市產生正面影響，股價料將上漲。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a45e6c22",
-        "title": "億萬富翁比爾拉將購買雪佛蘭印度再生能源業務",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-13/billionaire-birla-agrees-to-buy-shell-s-indian-renewables-unit",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-13 22:42:33",
-        "summary_zh": "印度億萬富翁比爾拉家族的企業，阿迪蒂瓦爾·比爾拉（Aditya Birla Group）宣布將購買英國能源巨頭雪佛蘭（Shell）在印度的再生能源業務。這項交易將使比爾拉家族進一步擴大其在印度的能源領域。雪佛蘭的印度再生能源業務包括太陽能和風能等項目。這項交易的具體細節尚未公佈，但預計將在未來的幾個月內完成。這項交易將對印度的能源市場產生重大影響，尤其是在再生能源領域。比爾拉家族的企業將進一步加強其在印度的競爭力。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "e473e23d",
-        "title": "如何用積分預訂法國機票",
-        "url": "https://www.cnbc.com/select/how-to-use-points-to-book-flights-to-france/",
+        "id": "315f3053",
+        "title": "日本公債市場再次活躍　逾 20 年來首次",
+        "url": "https://www.cnbc.com/2026/07/14/japan-bond-jgb-yields-.html",
         "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-07-13 17:50:05",
-        "summary_zh": "在CNBC Points Pro的指導下，積分專家Jason Stauffer介紹了如何利用積分和里程數預訂前往法國的機票。法國是許多旅行者心目中的理想目的地，尤其是在夏季。然而，預訂機票的成本往往相當高昂。利用積分和里程數可以大大降低成本，讓更多人能夠實現前往法國的夢想。Jason Stauffer在他的指南中提供了詳細的步驟和建議，幫助讀者了解如何將積分和里程數轉換成可用於預訂機票的積分。這樣的指南對於那些想利用積分和里程數預訂前往法國的機票的人來說是非常有用的。",
+        "published_at": "2026-07-13 23:19:08",
+        "summary_zh": "日本公債市場近年來一直處於冷淡狀態，但專家認為投資者應該重新關注日本公債。日本公債市場近年來一直受到政策正常化和東京政府開支計畫的關注，導致公債價格下跌。但是，專家們認為，日本公債仍值得投資者重視。日本政府的財政政策和經濟情況的改善，可能會使日本公債市場再次活躍。投資者應該重新評估日本公債的風險和回報率，考慮是否有機會投資日本公債。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c5610674",
+        "title": "黃金價格暫時止跌，霍爾木茲海峽封鎖和美聯儲加息再次引發關注",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-13/gold-holds-decline-on-renewed-hormuz-blockade-and-hawkish-fed",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-13 23:49:07",
+        "summary_zh": "霍爾木茲海峽封鎖再次引發關注，美聯儲的鹹派政策再次加強，黃金價格暫時止跌。霍爾木茲海峽是世界上最重要的石油輸出通道，封鎖將對全球石油市場造成重大影響。美聯儲的鹹派政策也將對全球經濟產生重大影響，黃金價格可能會因為美元的增強而上升。然而，黃金價格仍然受到市場的波動，投資者應該保持謹慎。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "45a9f397",
+        "title": "紐西蘭央行官員警告通膨可能持續，可能導致更多利率上調",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-13/rbnz-s-conway-warns-of-sticky-inflation-risking-more-rate-hikes",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-13 23:36:28",
+        "summary_zh": "紐西蘭央行官員Conway警告，該國的通膨可能持續存在，可能導致央行需要再次上調利率。這是由於紐西蘭的經濟表現良好，需求旺盛，導致物價上升。Conway表示，央行需要密切監控通膨情況，確保物價不會過快上升。這可能會對紐西蘭的消費者和企業造成影響。目前，紐西蘭的利率已經上調到歷史新高。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       }
     ],
     "stock_us": [
-      {
-        "id": "f6d413c8",
-        "title": "股市未見明顯變化 美中東緊張局勢升高 交易員等待企業財報和通膨數據",
-        "url": "https://www.cnbc.com/2026/07/13/stock-market-today-live-updates.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-13 22:15:04",
-        "summary_zh": "美股期貨未見明顯變化，中東局勢緊張升高。美國總統唐納德·川普宣布重新實施對伊朗海上運輸的封鎖，油價大幅上漲，股市則下滑。市場交易員正等待企業財報和通膨數據的公佈。這些數據將對市場走勢產生重要影響，交易員將根據數據的結果進行交易決策。同時，中東局勢的不穩定也對全球經濟產生了重大影響，市場交易員將密切關注這一發展。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
       {
         "id": "3263dae5",
         "title": "ETF Edge: 小型股ETF的歷史反彈背後的原因",
@@ -748,8 +796,8 @@
         "published_at": "2026-07-13 22:26:36",
         "summary_zh": "小型股ETF今年來表現亮眼，羅素2000指數超越標普500指數。一些專注於小型股的ETF也超越了這個基準。美國世紀投資公司的首席投資策略師Phil McInnis與CNBC的Dominic Chu在節目「ETF Edge」中探討了這次反彈背後的原因。美國國民銀行投資管理全球研究策略師Matt Bartolini也加入了對話。根據目前的表現，羅素2000指數今年來已經超越標普500指數，部分小型股ETF也取得了超出基準的成績。投資策略師Phil McInnis認為，這次反彈背後的原因包括市場對小型股的重估，以及投資者對未來經濟成長的樂觀預期。然而，投資管理公司的研究人員也提醒投資者，市場的波動性仍然很高，投資者需要保持謹慎。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "e1ce7006",
@@ -760,8 +808,20 @@
         "published_at": "2026-07-13 22:19:00",
         "summary_zh": "近期，投資者借貸購買股票的行為日漸增多，這反映了投資者對股市的貪婪心態，他們試圖透過借貸增幅投資收益。借貸金額持續增加，讓一些華爾街人士感到緊張。這種行為可能是股市泡沫的跡象，投資者過度借貸可能導致市場崩盤。投資者借貸購買股票的行為可能與股市泡沫有關，投資者過度借貸可能導致市場崩盤。投資者借貸購買股票的行為可能是股市泡沫的跡象，投資者過度借貸可能導致市場崩盤。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f6d413c8",
+        "title": "股市未見明顯變化 美中東緊張局勢升高 交易員等待企業財報和通膨數據",
+        "url": "https://www.cnbc.com/2026/07/13/stock-market-today-live-updates.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-13 22:15:04",
+        "summary_zh": "美股期貨未見明顯變化，中東局勢緊張升高。美國總統唐納德·川普宣布重新實施對伊朗海上運輸的封鎖，油價大幅上漲，股市則下滑。市場交易員正等待企業財報和通膨數據的公佈。這些數據將對市場走勢產生重要影響，交易員將根據數據的結果進行交易決策。同時，中東局勢的不穩定也對全球經濟產生了重大影響，市場交易員將密切關注這一發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "884fe314",
