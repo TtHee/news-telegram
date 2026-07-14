@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-14T17:04:45.020565+08:00",
+  "generated_at": "2026-07-14T18:04:41.275174+08:00",
   "risk_signals": [
     "🟢 台股加權 44737.95（正常）",
     "🟢 S&P 500 7515.34（正常）",
-    "🟢 VIX 恐慌指數 17.36（正常）",
+    "🟢 VIX 恐慌指數 17.25（正常）",
     "🟢 MOVE 債市波動 69.55（正常）",
-    "🟢 美元指數 101.08（正常）",
-    "🟢 黃金 4026.8（正常）",
+    "🟢 美元指數 101.06（正常）",
+    "🟢 黃金 4028.8（正常）",
     "🟡 美債10Y殖利率 4.61（留意）",
-    "🟢 原油 WTI 80.41（正常）",
+    "🟡 原油 WTI 80.58（漲 +3.12%，留意）",
     "🟢 美元/台幣 32.16（正常）"
   ],
-  "ai_summary": "市場指標顯示整體趨勢穩定，但美債10年殖利率略微升高，值得關注。美元指數和黃金價格保持穩定，其他市場指標也在正常範圍內。整體來說，市場氛圍仍然相對穩定，但需要密切關注美債殖利率的變化。",
+  "ai_summary": "市場氛圍維持穩定，但注意美債10年殖利率和原油價格的漲幅，可能預示著經濟復甦和通膨風險的增加。",
   "market": {
     "TWII": {
       "price": 44737.95,
@@ -26,8 +26,8 @@
       "change_pct": -1.55
     },
     "VIX": {
-      "price": 17.36,
-      "change_pct": 1.17
+      "price": 17.25,
+      "change_pct": 0.52
     },
     "TNX": {
       "price": 4.61,
@@ -38,24 +38,218 @@
       "change_pct": 0.96
     },
     "DXY": {
-      "price": 101.08,
-      "change_pct": -0.2
+      "price": 101.06,
+      "change_pct": -0.22
     },
     "GOLD": {
-      "price": 4026.8,
-      "change_pct": 0.75
+      "price": 4028.8,
+      "change_pct": 0.8
     },
     "OIL": {
-      "price": 80.41,
-      "change_pct": 2.91
+      "price": 80.58,
+      "change_pct": 3.12
     },
     "USDTWD": {
       "price": 32.16,
-      "change_pct": 0.19
+      "change_pct": 0.18
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "6d7b045c",
+        "title": "肯雅德爾蒙特果園殺人案持續發生，家屬指控G4S保安涉案",
+        "url": "https://www.theguardian.com/world/2026/jul/13/del-monte-pineapple-farm-kenya-deaths-g4s",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 14:00:49 GMT",
+        "summary_zh": "肯雅德爾蒙特果園近年來發生三起涉及G4S保安的殺人案，家屬和政治人物對此表示憂慮。德爾蒙特公司在前次事件被揭露後，聘請了G4S來取代原有的保安隊伍。儘管如此，德爾蒙特果園仍然出現殺人案，家屬和政治人物對此感到擔憂。肯雅警方與G4S合作保衛果園。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a24be548",
+        "title": "「上帝懲罰著政治家們」：委內瑞拉地震應對不力引發民怨升高",
+        "url": "https://www.theguardian.com/world/2026/jul/14/anger-earthquake-response-venezuela",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 14 Jul 2026 09:00:26 GMT",
+        "summary_zh": "委內瑞拉政府對近期發生的雙重地震的處理被指不力，引發民眾不滿。地震造成近 4,500 人死亡，許多人認為政府的應對措施不夠有效。近日，一名哀悼的母親在視頻中怒罵前總統尼古拉斯·馬杜羅的兒子。馬杜羅的兒子在訪問一間受地震影響而半毀的社區時，遭到民眾的敵對接待。該社區被命名為前總統胡戈·查韋斯的遺像。委內瑞拉政府的應對措施引發民怨，民眾擔心社會動盪的出現。這次地震發生在委內瑞拉政府面臨著美國軍事干預的時期，民眾的不滿與政府的應對措施不力相結合，引發了更大的社會壓力。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "27499cdd",
+        "title": "墨西哥將對美國移民局人員殺害墨西哥移民提出刑事控訴",
+        "url": "https://www.theguardian.com/world/2026/jul/13/mexico-criminal-complaint-migrant-ice-deaths",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 22:06:01 GMT",
+        "summary_zh": "墨西哥政府宣布將對美國移民局人員殺害的墨西哥移民提出刑事控訴。墨西哥市長克勞迪婭·謝恩鮑姆（Claudia Sheinbaum）表示，墨西哥人對於上週在休斯頓被美國移民局人員殺害的洛倫佐·薩爾加多·阿勞霍（Lorenzo Salgado Araujo）一案感到震驚。謝恩鮑姆表示，薩爾加多·阿勞霍被「實際上殺害」。墨西哥政府將對美國移民局人員殺害的多達十餘名墨西哥移民提出控訴，包括上週在休斯頓被殺害的薩爾加多·阿勞霍在內的移民在移民拘留中心死亡的案件，以及在反移民行動中被殺害的移民。這一決定表明墨西哥政府對美國對待移民的做法感到關注和不滿。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7353e700",
+        "title": "川普稱美國將對伊朗施加重壓力",
+        "url": "https://www.ft.com/content/34f93b7e-b1a7-40c3-8e6e-a5cac7dbaa9c",
+        "source": "Financial Times",
+        "category": "global",
+        "published_at": "2026-07-13 20:31:19",
+        "summary_zh": "伊朗與美國之間的緊張局勢升級，美國總統川普表示美國將對伊朗施加重壓力。這項消息導致全球油價上漲，布倫特原油價格達到一個月來的最高點。油價上漲主要是由於伊朗與美國之間的緊張局勢升級，市場預期美國可能會對伊朗實施新的制裁或軍事行動。這項消息對全球經濟和能源市場造成了重大影響，投資者和企業都在關注這項發展。目前尚未明確美國將對伊朗施加什麼樣的壓力，但市場預期將會有更多的不確定性和風險。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3a3b229d",
+        "title": "川普恢復對伊朗港口的海上封鎖",
+        "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 14 Jul 2026 04:50:48 GMT",
+        "summary_zh": "美國總統川普宣布恢復對伊朗港口的海上封鎖，同時表示華盛頓將對通過霍爾木茲海峽的所有貨物徵收 20% 的費用。這一決定是對伊朗核問題的最新回應，伊朗核問題一直是中東地區的敏感議題。美國此舉旨在壓制伊朗的經濟活動，並進一步加大對伊朗的經濟壓力。然而，這一決定也可能引發伊朗對美國的反應，進一步加劇中東地區的緊張局勢。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e684d002",
+        "title": "野牛衝撞老人，將他撞飛數米高空",
+        "url": "https://www.bbc.co.uk/news/articles/c2dy9krpydlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 17:21:21 GMT",
+        "summary_zh": "在黃石公園，老人和他的孫子似乎已經保持了一個安全距離，遠離野牛。然而，野牛卻突然追趕過來。這次事件的經歷讓老人的生活變得更加危險。這種情況在黃石公園內不斷發生，公園管理人員正努力減少與野生動物的衝突。這些動物的行為變得更加激進，對遊客的安全構成了嚴重威脅。公園管理人員正在研究如何減少這種情況的發生，並保護遊客的安全。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a7790987",
+        "title": "曼谷酒吧大火死亡人數升至30名 警方調查安全疏失",
+        "url": "https://www.bbc.co.uk/news/articles/clyxyzlp9p2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 14 Jul 2026 03:47:41 GMT",
+        "summary_zh": "曼谷一家酒吧發生大火，造成30名死者，警方正在調查事故原因。目擊者和初步調查報告指出，酒吧的門被鎖住，沒有標示逃生出口的指示牌。這些安全疏失可能是導致火災死亡人數上升的原因。曼谷當局已經展開調查，將會對酒吧的安全措施進行檢查。這起火災事件引起了社會的關注，許多人呼籲提高酒吧的安全標準。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bd28040c",
+        "title": "澳洲警方公布25年前英國背包客命案未曝光照片",
+        "url": "https://www.bbc.co.uk/news/articles/crlwln0gkzlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 14 Jul 2026 02:26:45 GMT",
+        "summary_zh": "澳洲警方近日公布25年前英國背包客彼得·法爾康尼（Peter Falconio）命案未曝光照片，希望這些照片能夠觸發目擊者的記憶，幫助警方找到法爾康尼的屍體。法爾康尼於2000年7月7日在澳洲北領地被殺害，警方一直未能找到他的屍體。這些照片是由當時的警方人員拍攝的，顯示了法爾康尼的車輛和周圍的環境。警方認為，這些照片可能是找到法爾康尼的關鍵線索。法爾康尼的妻子布里吉特·麥克金（Brigitte McSweeney）仍然在尋找丈夫的屍體，希望這些照片能夠幫助她找到答案。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e78d57f5",
+        "title": "匈牙利議會投票通過罷免總統",
+        "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 20:39:14 GMT",
+        "summary_zh": "匈牙利議會近日通過罷免總統Tamás Sulyok的決議。Tamás Sulyok被視為前總理Viktor Orbán的忠實支持者，前總理Viktor Orbán在4月份失去權力，結束了16年的統治。這一事件標誌著匈牙利政治格局的重大變化。總統Tamás Sulyok的罷免將對匈牙利政治產生重大影響，可能會導致政府的重組和政策的變化。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a2de0d65",
+        "title": "悉尼幼兒園工作人員遭指控性侵329名兒童　疑犯身份曝光",
+        "url": "https://www.bbc.co.uk/news/articles/c5yzy0lpello?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 14 Jul 2026 01:43:57 GMT",
+        "summary_zh": "一名悉尼幼兒園工作人員Hamish Tait被指控在16年間，對五間幼兒園進行性侵犯，共涉及136名兒童。這名工作人員被控犯下329宗性侵犯罪名，引起社會關注。根據調查，Hamish Tait在多個幼兒園工作，對兒童進行性侵犯，造成嚴重後果。這起事件引起了社會的譴責和關注，呼籲加強對幼兒園工作人員的背景檢查和監管。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "af9c06cf",
+        "title": "美國墨西哥卷餅連鎖Chipotle首次進軍墨西哥市場",
+        "url": "https://www.bbc.co.uk/news/articles/c0ryr89gp09o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 14 Jul 2026 02:42:51 GMT",
+        "summary_zh": "美國墨西哥卷餅連鎖Chipotle宣布將於墨西哥開設首家分店。這是美國快餐業者嘗試進軍墨西哥市場的最新嘗試。然而，其他美國快餐品牌曾經在墨西哥市場遇到困難，難以取得成功。雖然Chipotle有著墨西哥菜的根源，但仍然面臨著挑戰。墨西哥市場的競爭激烈，且消費者對於外來品牌的接受度有限。Chipotle的進軍墨西哥市場將受到關注，觀察者將密切關注這家連鎖店是否能夠在墨西哥市場取得成功。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d23afb3f",
+        "title": "英國男子描述在西班牙大火中逃生經歷，妻子和朋友們在逃跑時遇難",
+        "url": "https://www.bbc.co.uk/news/articles/cp9ld3p324jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 17:31:54 GMT",
+        "summary_zh": "一場席捲西班牙村莊的野火，造成嚴重的傷亡。英國男子馬爾科姆·蒂姆布雷爾（Malcolm Timbrell）在這場大火中倖存下來，他的妻子和朋友們在試圖逃跑時遇難。這場大火的原因尚未明確，但已經引起了當地政府的關注。這種類型的自然災害對當地居民造成了巨大的影響，許多人失去了家園和親人。馬爾科姆·蒂姆布雷爾的經歷是這場災害的見證，他的故事將會讓人們更加關注這種類型的自然災害。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "174999ab",
+        "title": "《侏羅紀公園》演員Sam Neill逝世，好友、政客及同行們悼念",
+        "url": "https://www.bbc.co.uk/news/articles/cy06e5e1lygo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 14 Jul 2026 01:29:58 GMT",
+        "summary_zh": "澳洲演員Sam Neill因「突然且意外」去世，好友、政客及同行們紛紛在社交媒體上悼念他。Neill曾在《侏羅紀公園》等多部經典影片中擔任主角，讓他成為全球影壇的一顆明星。Neill的死訊傳出後，好友及同行們紛紛在社交媒體上留言悼念他，稱他為「英雄」、「傳奇」、「甜心」。Neill的死訊也引起了全球影壇的哀悼，許多人紛紛在社交媒體上留言悼念他。Neill的死訊傳出後，許多人都在猜測他去世的原因，但目前尚未有任何官方的說明。Neill的死訊傳出後，也讓許多人回顧他在影壇的成就，他曾在《侏羅紀公園》等多部經典影片中擔任主角，讓他成為全球影壇的一顆明星。Neill的死訊傳出後，許多人都在哀悼他，同時也在懷念他在影壇的成就。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bec544bf",
+        "title": "英國瑞士簽署協議取消漫遊費、允許英國人使用電子通關",
+        "url": "https://www.bbc.co.uk/news/articles/c621p9yjz1zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 16:05:13 GMT",
+        "summary_zh": "英國政府宣布與瑞士簽署新的服務協議，預計將每年增加出口額 £5.2億英鎊。這項協議將取消漫遊費，讓英國公民在瑞士使用手機和其他數位服務時不再需要額外付費。同時，英國公民也將能夠使用瑞士的電子通關系統，方便出入瑞士。這項協議對於英國出口業有著重要意義，預計將帶來新的商機和機會。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ccc2d68c",
+        "title": "「無法逃生」: 曾在曼谷酒吧演出的音樂家描述火災的恐怖",
+        "url": "https://www.bbc.co.uk/news/articles/crr8gnx01d7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 13:01:33 GMT",
+        "summary_zh": "曼谷一家酒吧發生大火，造成多人死亡。目擊者描述，當時場內一片混亂，人們嘗試逃生，但大火迅速蔓延，無法控制。音樂家表示，他當時正在表演，火災爆發時，他試圖爬向出口，但在爆炸發生前被拋出酒吧。這起火災的原因尚未明朗，但已經引起了廣泛關注。曼谷當局正在調查此事，試圖找出火災的原因和責任人。這起火災對曼谷的夜生活產生了重大影響，許多酒吧和餐廳已經關閉，等待調查結果。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9c874374",
+        "title": "曼谷酒吧大火至少27人死亡，22人重傷",
+        "url": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 13 Jul 2026 15:04:36 GMT",
+        "summary_zh": "曼谷一家酒吧發生大火，至少27人死亡，22人重傷。消防隊抵達現場時，發現酒吧內的客人正在逃離火場。這起火災的原因尚未明朗。這家酒吧位於曼谷的Chatuchak區，附近有許多商店和住宅。這起火災對當地居民造成了重大影響。曼谷政府已經派出救援隊伍和醫療人員到現場協助救援。這起火災的影響可能會持續很長時間。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
       {
         "id": "7f42ba06",
@@ -214,18 +408,6 @@
         "ai_classified": true
       },
       {
-        "id": "9e14a82c",
-        "title": "前加拿大國會議員被捕，警方在其家中發現 439 支槍枝和古炮",
-        "url": "https://www.bbc.co.uk/news/articles/crr8gggwe8zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 13 Jul 2026 21:57:32 GMT",
-        "summary_zh": "加拿大警方近日在前國會議員的家中發現大量槍枝和古炮，包括 439 支槍枝和一尊古炮。警方表示，前議員被控 12 項罪名，並在其家中發現約 C$300,000。這起事件引起了社會關注，許多人對前議員的行為表示譴責。根據警方的調查，前議員的槍枝和古炮可能與非法活動有關。這起事件也引起了對加拿大槍枝管制政策的質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "92744689",
         "title": "美國聯邦探員在緬因州槍擊案造成一人死亡",
         "url": "https://www.bbc.co.uk/news/articles/c2ly580kxnko?at_medium=RSS&at_campaign=rss",
@@ -233,6 +415,18 @@
         "category": "whitehouse",
         "published_at": "Tue, 14 Jul 2026 01:50:48 GMT",
         "summary_zh": "緬因州發生槍擊案，造成一人死亡，事件發生在聯邦探員與嫌疑人交火期間。這是美國聯邦探員槍擊案的最新事件，僅在一周前，美國一名男子在前往工作途中被移民探員槍殺。這類事件引起了美國社會的關注，許多人呼籲提高聯邦探員的訓練和責任制。聯邦探員的行動是否過度使用武力，仍是美國社會爭議的議題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9e14a82c",
+        "title": "前加拿大國會議員被捕，警方在其家中發現 439 支槍枝和古炮",
+        "url": "https://www.bbc.co.uk/news/articles/crr8gggwe8zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 13 Jul 2026 21:57:32 GMT",
+        "summary_zh": "加拿大警方近日在前國會議員的家中發現大量槍枝和古炮，包括 439 支槍枝和一尊古炮。警方表示，前議員被控 12 項罪名，並在其家中發現約 C$300,000。這起事件引起了社會關注，許多人對前議員的行為表示譴責。根據警方的調查，前議員的槍枝和古炮可能與非法活動有關。這起事件也引起了對加拿大槍枝管制政策的質疑。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -271,188 +465,6 @@
         "summary_zh": "美國總統宣布針對美國化學製造業提供特定穩定性措施，以支持能源、國防、農業和醫療保健等行業的發展。這些工廠生產了對於國家基礎設施、先進製造、醫療滅菌、半導體和國防系統的關鍵輸入。美國政府認為，維持強勁的國內化學產業對於國家安全和經濟競爭力至關重要。這項措施旨在促進美國化學製造業的穩定性和安全性，同時也鼓勵投資和創新。這項措施對於美國的能源安全、國防能力和經濟競爭力都有重要影響。美國政府將繼續支持和保護國內化學製造業的發展。",
         "sentiment": "正面",
         "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "6d7b045c",
-        "title": "肯雅德爾蒙特果園殺人案持續發生，家屬指控G4S保安涉案",
-        "url": "https://www.theguardian.com/world/2026/jul/13/del-monte-pineapple-farm-kenya-deaths-g4s",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 14:00:49 GMT",
-        "summary_zh": "肯雅德爾蒙特果園近年來發生三起涉及G4S保安的殺人案，家屬和政治人物對此表示憂慮。德爾蒙特公司在前次事件被揭露後，聘請了G4S來取代原有的保安隊伍。儘管如此，德爾蒙特果園仍然出現殺人案，家屬和政治人物對此感到擔憂。肯雅警方與G4S合作保衛果園。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7353e700",
-        "title": "川普稱美國將對伊朗施加重壓力",
-        "url": "https://www.ft.com/content/34f93b7e-b1a7-40c3-8e6e-a5cac7dbaa9c",
-        "source": "Financial Times",
-        "category": "global",
-        "published_at": "2026-07-13 20:31:19",
-        "summary_zh": "伊朗與美國之間的緊張局勢升級，美國總統川普表示美國將對伊朗施加重壓力。這項消息導致全球油價上漲，布倫特原油價格達到一個月來的最高點。油價上漲主要是由於伊朗與美國之間的緊張局勢升級，市場預期美國可能會對伊朗實施新的制裁或軍事行動。這項消息對全球經濟和能源市場造成了重大影響，投資者和企業都在關注這項發展。目前尚未明確美國將對伊朗施加什麼樣的壓力，但市場預期將會有更多的不確定性和風險。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "27499cdd",
-        "title": "墨西哥將對美國移民局人員殺害墨西哥移民提出刑事控訴",
-        "url": "https://www.theguardian.com/world/2026/jul/13/mexico-criminal-complaint-migrant-ice-deaths",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 22:06:01 GMT",
-        "summary_zh": "墨西哥政府宣布將對美國移民局人員殺害的墨西哥移民提出刑事控訴。墨西哥市長克勞迪婭·謝恩鮑姆（Claudia Sheinbaum）表示，墨西哥人對於上週在休斯頓被美國移民局人員殺害的洛倫佐·薩爾加多·阿勞霍（Lorenzo Salgado Araujo）一案感到震驚。謝恩鮑姆表示，薩爾加多·阿勞霍被「實際上殺害」。墨西哥政府將對美國移民局人員殺害的多達十餘名墨西哥移民提出控訴，包括上週在休斯頓被殺害的薩爾加多·阿勞霍在內的移民在移民拘留中心死亡的案件，以及在反移民行動中被殺害的移民。這一決定表明墨西哥政府對美國對待移民的做法感到關注和不滿。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "3a3b229d",
-        "title": "川普恢復對伊朗港口的海上封鎖",
-        "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 14 Jul 2026 04:50:48 GMT",
-        "summary_zh": "美國總統川普宣布恢復對伊朗港口的海上封鎖，同時表示華盛頓將對通過霍爾木茲海峽的所有貨物徵收 20% 的費用。這一決定是對伊朗核問題的最新回應，伊朗核問題一直是中東地區的敏感議題。美國此舉旨在壓制伊朗的經濟活動，並進一步加大對伊朗的經濟壓力。然而，這一決定也可能引發伊朗對美國的反應，進一步加劇中東地區的緊張局勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e684d002",
-        "title": "野牛衝撞老人，將他撞飛數米高空",
-        "url": "https://www.bbc.co.uk/news/articles/c2dy9krpydlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 17:21:21 GMT",
-        "summary_zh": "在黃石公園，老人和他的孫子似乎已經保持了一個安全距離，遠離野牛。然而，野牛卻突然追趕過來。這次事件的經歷讓老人的生活變得更加危險。這種情況在黃石公園內不斷發生，公園管理人員正努力減少與野生動物的衝突。這些動物的行為變得更加激進，對遊客的安全構成了嚴重威脅。公園管理人員正在研究如何減少這種情況的發生，並保護遊客的安全。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a7790987",
-        "title": "曼谷酒吧大火死亡人數升至30名 警方調查安全疏失",
-        "url": "https://www.bbc.co.uk/news/articles/clyxyzlp9p2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 14 Jul 2026 03:47:41 GMT",
-        "summary_zh": "曼谷一家酒吧發生大火，造成30名死者，警方正在調查事故原因。目擊者和初步調查報告指出，酒吧的門被鎖住，沒有標示逃生出口的指示牌。這些安全疏失可能是導致火災死亡人數上升的原因。曼谷當局已經展開調查，將會對酒吧的安全措施進行檢查。這起火災事件引起了社會的關注，許多人呼籲提高酒吧的安全標準。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bd28040c",
-        "title": "澳洲警方公布25年前英國背包客命案未曝光照片",
-        "url": "https://www.bbc.co.uk/news/articles/crlwln0gkzlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 14 Jul 2026 02:26:45 GMT",
-        "summary_zh": "澳洲警方近日公布25年前英國背包客彼得·法爾康尼（Peter Falconio）命案未曝光照片，希望這些照片能夠觸發目擊者的記憶，幫助警方找到法爾康尼的屍體。法爾康尼於2000年7月7日在澳洲北領地被殺害，警方一直未能找到他的屍體。這些照片是由當時的警方人員拍攝的，顯示了法爾康尼的車輛和周圍的環境。警方認為，這些照片可能是找到法爾康尼的關鍵線索。法爾康尼的妻子布里吉特·麥克金（Brigitte McSweeney）仍然在尋找丈夫的屍體，希望這些照片能夠幫助她找到答案。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e78d57f5",
-        "title": "匈牙利議會投票通過罷免總統",
-        "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 20:39:14 GMT",
-        "summary_zh": "匈牙利議會近日通過罷免總統Tamás Sulyok的決議。Tamás Sulyok被視為前總理Viktor Orbán的忠實支持者，前總理Viktor Orbán在4月份失去權力，結束了16年的統治。這一事件標誌著匈牙利政治格局的重大變化。總統Tamás Sulyok的罷免將對匈牙利政治產生重大影響，可能會導致政府的重組和政策的變化。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a2de0d65",
-        "title": "悉尼幼兒園工作人員遭指控性侵329名兒童　疑犯身份曝光",
-        "url": "https://www.bbc.co.uk/news/articles/c5yzy0lpello?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 14 Jul 2026 01:43:57 GMT",
-        "summary_zh": "一名悉尼幼兒園工作人員Hamish Tait被指控在16年間，對五間幼兒園進行性侵犯，共涉及136名兒童。這名工作人員被控犯下329宗性侵犯罪名，引起社會關注。根據調查，Hamish Tait在多個幼兒園工作，對兒童進行性侵犯，造成嚴重後果。這起事件引起了社會的譴責和關注，呼籲加強對幼兒園工作人員的背景檢查和監管。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "af9c06cf",
-        "title": "美國墨西哥卷餅連鎖Chipotle首次進軍墨西哥市場",
-        "url": "https://www.bbc.co.uk/news/articles/c0ryr89gp09o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 14 Jul 2026 02:42:51 GMT",
-        "summary_zh": "美國墨西哥卷餅連鎖Chipotle宣布將於墨西哥開設首家分店。這是美國快餐業者嘗試進軍墨西哥市場的最新嘗試。然而，其他美國快餐品牌曾經在墨西哥市場遇到困難，難以取得成功。雖然Chipotle有著墨西哥菜的根源，但仍然面臨著挑戰。墨西哥市場的競爭激烈，且消費者對於外來品牌的接受度有限。Chipotle的進軍墨西哥市場將受到關注，觀察者將密切關注這家連鎖店是否能夠在墨西哥市場取得成功。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d23afb3f",
-        "title": "英國男子描述在西班牙大火中逃生經歷，妻子和朋友們在逃跑時遇難",
-        "url": "https://www.bbc.co.uk/news/articles/cp9ld3p324jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 17:31:54 GMT",
-        "summary_zh": "一場席捲西班牙村莊的野火，造成嚴重的傷亡。英國男子馬爾科姆·蒂姆布雷爾（Malcolm Timbrell）在這場大火中倖存下來，他的妻子和朋友們在試圖逃跑時遇難。這場大火的原因尚未明確，但已經引起了當地政府的關注。這種類型的自然災害對當地居民造成了巨大的影響，許多人失去了家園和親人。馬爾科姆·蒂姆布雷爾的經歷是這場災害的見證，他的故事將會讓人們更加關注這種類型的自然災害。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "174999ab",
-        "title": "《侏羅紀公園》演員Sam Neill逝世，好友、政客及同行們悼念",
-        "url": "https://www.bbc.co.uk/news/articles/cy06e5e1lygo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 14 Jul 2026 01:29:58 GMT",
-        "summary_zh": "澳洲演員Sam Neill因「突然且意外」去世，好友、政客及同行們紛紛在社交媒體上悼念他。Neill曾在《侏羅紀公園》等多部經典影片中擔任主角，讓他成為全球影壇的一顆明星。Neill的死訊傳出後，好友及同行們紛紛在社交媒體上留言悼念他，稱他為「英雄」、「傳奇」、「甜心」。Neill的死訊也引起了全球影壇的哀悼，許多人紛紛在社交媒體上留言悼念他。Neill的死訊傳出後，許多人都在猜測他去世的原因，但目前尚未有任何官方的說明。Neill的死訊傳出後，也讓許多人回顧他在影壇的成就，他曾在《侏羅紀公園》等多部經典影片中擔任主角，讓他成為全球影壇的一顆明星。Neill的死訊傳出後，許多人都在哀悼他，同時也在懷念他在影壇的成就。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bec544bf",
-        "title": "英國瑞士簽署協議取消漫遊費、允許英國人使用電子通關",
-        "url": "https://www.bbc.co.uk/news/articles/c621p9yjz1zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 16:05:13 GMT",
-        "summary_zh": "英國政府宣布與瑞士簽署新的服務協議，預計將每年增加出口額 £5.2億英鎊。這項協議將取消漫遊費，讓英國公民在瑞士使用手機和其他數位服務時不再需要額外付費。同時，英國公民也將能夠使用瑞士的電子通關系統，方便出入瑞士。這項協議對於英國出口業有著重要意義，預計將帶來新的商機和機會。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ccc2d68c",
-        "title": "「無法逃生」: 曾在曼谷酒吧演出的音樂家描述火災的恐怖",
-        "url": "https://www.bbc.co.uk/news/articles/crr8gnx01d7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 13:01:33 GMT",
-        "summary_zh": "曼谷一家酒吧發生大火，造成多人死亡。目擊者描述，當時場內一片混亂，人們嘗試逃生，但大火迅速蔓延，無法控制。音樂家表示，他當時正在表演，火災爆發時，他試圖爬向出口，但在爆炸發生前被拋出酒吧。這起火災的原因尚未明朗，但已經引起了廣泛關注。曼谷當局正在調查此事，試圖找出火災的原因和責任人。這起火災對曼谷的夜生活產生了重大影響，許多酒吧和餐廳已經關閉，等待調查結果。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9c874374",
-        "title": "曼谷酒吧大火至少27人死亡，22人重傷",
-        "url": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 13 Jul 2026 15:04:36 GMT",
-        "summary_zh": "曼谷一家酒吧發生大火，至少27人死亡，22人重傷。消防隊抵達現場時，發現酒吧內的客人正在逃離火場。這起火災的原因尚未明朗。這家酒吧位於曼谷的Chatuchak區，附近有許多商店和住宅。這起火災對當地居民造成了重大影響。曼谷政府已經派出救援隊伍和醫療人員到現場協助救援。這起火災的影響可能會持續很長時間。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ],
@@ -520,6 +532,66 @@
     ],
     "stock_tw": [
       {
+        "id": "144820f1",
+        "title": "吳乃仁台糖土地案 吳明昌：雙方律師16日協商",
+        "url": "https://www.cna.com.tw/news/afe/202607140233.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 14 Jul 2026 17:22:12 +0800",
+        "summary_zh": "台糖土地案的主角吳乃仁，因為土地案而須賠償台糖新台幣1.7億元。吳乃仁的代理律師先前承諾將提協商或清償計畫。台糖董事長吳明昌表示，雙方律師將於16日展開協商，試圖通過談判來解決這個案件。這個協商可能會影響到吳乃仁的賠償金額和台糖的利益。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "050ccaae",
+        "title": "DEAT盼滾動檢討外送專法 專家：研議向外送員收媒合費",
+        "url": "https://www.cna.com.tw/news/afe/202607140227.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 14 Jul 2026 17:14:59 +0800",
+        "summary_zh": "外送專法將於21日上路，台灣數位平台經濟協會（DEAT）表示，將重新計算平台成本與配送效率，提出3項建議，包括跨部會滾動檢視法規成效等。專家認為，以平台使用者付費概念，可能會向外送員收取合理的平台接入費（媒合費）。這項建議引發外送員業界的關注，是否會增加外送員的負擔。外送專法的實施將對外送員業界產生重大影響，DEAT的建議可能會影響外送員的收入和工作條件。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "54e4a640",
+        "title": "台糖預防性下架逾2千萬噸油 若24日檢驗合格恢復出貨",
+        "url": "https://www.cna.com.tw/news/afe/202607140205.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 14 Jul 2026 16:34:12 +0800",
+        "summary_zh": "中聯油脂案延燒，台糖預防性下架9項產品，涉及逾2千萬噸油品。台糖董事長吳明昌表示，預防性下架油品達2881萬噸，預估損失新台幣數千萬元。最新抽樣檢驗結果預計於24日出爐，若合格將重新上架。這項措施是為了防止油品質量問題，保護消費者權益。台糖的這一行動也顯示了對油品質量的重視和對消費者權益的保護。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d64b9c9f",
+        "title": "力積電董事長黃崇仁：公司領先晶圓堆疊和矽電容領域  明年將配息",
+        "url": "https://www.cna.com.tw/news/afe/202607140204.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 14 Jul 2026 16:32:10 +0800",
+        "summary_zh": "力積電董事長黃崇仁在新竹表示，公司在晶圓堆疊、矽中介層和矽電容等領域都處於領先地位。今年的營運表現預期可望有不錯的成績。關於明年的股利支付，黃崇仁表示將會給股東分紅，但股利的數額將取決於公司的營運結果。這表明力積電在相關領域的競爭力強勁，同時也給投資人帶來了希望。然而，股利的確切數額仍待觀察。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "155d3d0c",
+        "title": "新台幣貶0.2分 收32.172元",
+        "url": "https://www.cna.com.tw/news/afe/202607140195.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 14 Jul 2026 16:07:50 +0800",
+        "summary_zh": "台北外匯市場新台幣兌美元今天收盤收32.172元，相較於前一交易日貶0.2分。這意味著外匯市場對新台幣的評估有所下調。根據市場數據，今天的成交金額達16.64億美元，表明市場交易活躍度仍然較高。這項變化對於投資者和企業來說可能會有所影響，尤其是那些與外匯市場相關的企業。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "4a9919a3",
         "title": "輝達審核趨嚴阻晶片流入中國 亞洲客戶名單腰斬逾半",
         "url": "https://www.cna.com.tw/news/aopl/202607140187.aspx",
@@ -528,8 +600,8 @@
         "published_at": "Tue, 14 Jul 2026 15:55:33 +0800",
         "summary_zh": "英國《金融時報》披露，人工智慧晶片大廠輝達建立更嚴格的合規審查「白名單」，以防止產品流入中國。輝達的亞洲客戶名單已縮減逾半，顯示公司正在採取措施嚴格控制晶片的出口。這一措施是對於中美關係緊張以及美國政府對於晶片出口管制的回應。輝達的這一決定可能會對亞洲地區的晶片業界產生重大影響，尤其是在中國市場。然而，輝達的這一決定也可能會對公司的營業額產生一定的影響，尤其是在中國市場的銷售額下降。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "d43b7ec8",
@@ -602,53 +674,17 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "d69858ea",
-        "title": "星鏈來台法規解套 中華電爭取合資獨家代理",
-        "url": "https://www.cna.com.tw/news/afe/202607140096.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 14 Jul 2026 12:22:12 +0800",
-        "summary_zh": "電信管理法部分條文修正，市場解讀為星鏈來台解套。中華電信董事長簡志誠表示，公司爭取和星鏈成立合資子公司，並在台灣獨家代理星鏈服務。但是，這項計畫需要星鏈的同意，目前尚未有具體進展。這項變化對於台灣的電信市場可能會帶來新的競爭和合作機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "79865cb5",
-        "title": "中華精測拚明年前碳排零成長 2028年再生能源設備產電應用",
-        "url": "https://www.cna.com.tw/news/afe/202607140090.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 14 Jul 2026 12:15:59 +0800",
-        "summary_zh": "中華精測積極推動能源管理與減碳計畫，目標是短程內將碳排放量控制在零成長，預計2027年前達成。公司還計畫在2028年投入再生能源設備，將其用於產電自發自用。這項計畫將幫助公司減少對傳統能源的依賴，同時也將碳足跡降低。這項努力不僅對公司的環境影響有所改善，也將為未來的可持續發展提供重要的基礎。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "eeeec0c2",
-        "title": "新台幣午盤貶2.2分 暫收32.192元",
-        "url": "https://www.cna.com.tw/news/afe/202607140082.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 14 Jul 2026 12:04:42 +0800",
-        "summary_zh": "台北外匯市場新台幣兌美元今天中午暫收32.192元，貶2.2分。這意味著新台幣相對美元的匯率下跌。成交金額達6.92億美元，顯示市場交易活躍。新台幣貶值對台灣的出口業和外匯儲備都有影響。這一趨勢可能會持續觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "stock_us": [
       {
-        "id": "6413f02e",
-        "title": "佩頓·克雷布斯與雪崩重簽四年1800萬美元合約",
-        "url": "https://www.reuters.com/sports/f-peyton-krebs-re-signs-with-sabres-4-year-18m-deal--flm-2026-07-13/",
-        "source": "Reuters",
+        "id": "884fe314",
+        "title": "SanDisk 股價大跌，但某些分析師卻變得更加樂觀",
+        "url": "https://www.marketwatch.com/story/sandisks-stock-is-plunging-but-some-analysts-are-getting-even-more-bullish-cba3472f?mod=mw_rss_topstories",
+        "source": "Marketwatch",
         "category": "stock_us",
-        "published_at": "2026-07-13 20:59:07",
-        "summary_zh": "雪崩隊前鋒佩頓·克雷布斯近日與球隊簽下四年1800萬美元的新合約。這項交易將使克雷布斯成為球隊的核心球員之一。克雷布斯在前一賽季表現出色，幫助球隊取得不錯的成績。這項新合約將使克雷布斯的薪水增加，同時也給予他更多的機會在球隊中發揮作用。球隊總經理表示，克雷布斯的簽下是球隊的一大勝利，將幫助球隊在未來的賽季中取得更好的成績。",
+        "published_at": "2026-07-13 21:04:00",
+        "summary_zh": "SanDisk 股價近日大幅下跌，但某些分析師卻對該公司未來表現感到樂觀。根據最新的市場預測，SanDisk 股價有望在未來幾個月內大幅上漲，甚至達到近 85% 的上漲幅度。這意味著投資者若能在目前的價格購買 SanDisk 股票，將可獲得豐厚的回報。然而，投資市場的風險永遠存在，投資者應謹慎評估風險並做出明智的決策。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
@@ -662,8 +698,8 @@
         "published_at": "2026-07-13 20:01:16",
         "summary_zh": "美國政府預計6月石油價格大幅下跌，將對通膨率產生正面影響。這項消息料將出現在即將公布的通膨報告中。然而，該報告也將提到其他可能影響通膨的因素。Warsh將前往國會山莊，與國會議員會面，探討通膨和經濟政策等議題。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "f3ced798",
@@ -726,6 +762,18 @@
         "ai_classified": true
       },
       {
+        "id": "6413f02e",
+        "title": "佩頓·克雷布斯與雪崩重簽四年1800萬美元合約",
+        "url": "https://www.reuters.com/sports/f-peyton-krebs-re-signs-with-sabres-4-year-18m-deal--flm-2026-07-13/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-07-13 20:59:07",
+        "summary_zh": "雪崩隊前鋒佩頓·克雷布斯近日與球隊簽下四年1800萬美元的新合約。這項交易將使克雷布斯成為球隊的核心球員之一。克雷布斯在前一賽季表現出色，幫助球隊取得不錯的成績。這項新合約將使克雷布斯的薪水增加，同時也給予他更多的機會在球隊中發揮作用。球隊總經理表示，克雷布斯的簽下是球隊的一大勝利，將幫助球隊在未來的賽季中取得更好的成績。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "69d822ad",
         "title": "川普政府敦促銀行審慎貸款給非法入境者",
         "url": "https://www.cnbc.com/2026/07/13/regulators-urge-banks-to-scrutinize-loans-to-unauthorized-immigrants.html",
@@ -748,68 +796,44 @@
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "cc2bdafa",
-        "title": "北美油輪公司CEO：我們不會將油輪通過霍爾木茲海峽運送",
-        "url": "https://www.cnbc.com/video/2026/07/13/nordic-american-tankers-ceo-we-are-not-sending-any-tankers-back-through-the-strait-of-hormuz.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-13 16:32:49",
-        "summary_zh": "北美油輪公司的創始人、董事長兼CEO Herbjorn Hansson 在接受訪問時表示，公司不會將油輪通過霍爾木茲海峽運送。霍爾木茲海峽是世界上最重要的石油運輸通道，該海峽位於伊朗和阿拉伯聯合酋長國之間。美國總統特朗普近期提議對通過霍爾木茲海峽的貨物徵收 20% 的稅款。該措施旨在應對伊朗對油輪的威脅。北美油輪公司的 CEO 表示，公司將繼續運送油輪，但會避免通過霍爾木茲海峽。這一決定可能會對公司的營運產生影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "2abfd0a5",
-        "title": "紐約市大型電力線路第二次故障，影響市民生活",
-        "url": "https://www.reuters.com/business/energy/major-power-line-new-york-city-trips-offline-second-time-july-2026-07-13/",
+        "id": "bf6caf43",
+        "title": "Shutterstock CEO Hennessy 辭職 週內接近失敗的 Getty 交易",
+        "url": "https://www.reuters.com/business/shutterstock-ceo-hennessy-steps-down-weeks-after-failed-getty-deal-2026-07-13/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-07-13 20:29:42",
-        "summary_zh": "紐約市一條重要的電力線路在7月份第二次故障，影響了數萬名市民的生活。這條線路負責供應紐約市的大部分電力，故障導致了廣泛的停電。市民們在社交媒體上抱怨停電的影響，包括無法使用電梯、無法使用電腦等。市政府已經派出工作人員進行修復工作，希望能夠盡快恢復電力供應。這次故障再次引起了對電力系統安全性的擔憂，市民們希望市政府能夠加強電力系統的維護和檢查，以防止類似事件再次發生。",
+        "published_at": "2026-07-13 21:47:15",
+        "summary_zh": "Shutterstock 的 CEO Hennessy 宣佈辭職，僅僅是在公司與 Getty 的交易失敗後不久。這次交易被視為 Shutterstock 的重大戰略合作，但最終未能成功。Hennessy 的辭職引起了市場的關注，投資者們正在等待公司未來的發展方向。Shutterstock 是一家全球領先的數字媒體公司，提供高品質的圖像、視頻和音樂內容。公司的未來發展將受到 Hennessy 辭職的影響，投資者們將密切關注公司的動向。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "c1bec248",
-        "title": "布朗-福曼 CEO 卢森·怀廷計劃退休，WSJ 報導",
-        "url": "https://www.reuters.com/business/brown-forman-ceo-lawson-whiting-plans-retire-wsj-reports-2026-07-13/",
-        "source": "Reuters",
+        "id": "16325d56",
+        "title": "投資者減少對亞洲晶片製造商的押注",
+        "url": "https://www.ft.com/content/0ba42c5c-c097-4584-9387-a211d5234275",
+        "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-07-13 20:22:04",
-        "summary_zh": "布朗-福曼公司的CEO 卢森·怀廷計劃於未來退休。根據《華爾街日報》的報導，卢森·怀廷將會在未來的某個時候離開公司。然而，具體的退休時間並未公佈。布朗-福曼公司是一家全球知名的酒類製造商，旗下品牌包括詹姆遜酒廠等。卢森·怀廷的退休將會對公司的未來發展產生影響。目前尚未公佈接任CEO的人選。",
+        "published_at": "2026-07-13 21:37:31",
+        "summary_zh": "投資者正在減少對亞洲晶片製造商的押注，原因是全球晶片供應鏈的不確定性和美國對台積電的出口管制。這些變化對於亞洲的晶片製造商和全球的電子產業都有重大影響。投資者正在觀察這些變化的影響，並調整投資策略。這些變化也引起了對全球電子產業未來發展的關注。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "bf1a43cb",
-        "title": "石油交易商對川普的霍爾木茲挑釁持保留態度，冒險將付出代價",
-        "url": "https://www.reuters.com/commentary/reuters-open-interest/oil-traders-call-trumps-hormuz-bluff-their-peril-2026-07-13/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-13 20:21:42",
-        "summary_zh": "霍爾木茲海峽是世界石油運輸的重要通道，川普政府曾威脅要封鎖該海峽以對抗伊朗。石油交易商對川普的這一威脅持保留態度，因為他們知道封鎖霍爾木茲海峽將對全球石油市場造成重大影響。事實上，全球石油需求正在減少，而石油儲備正在增加。因此，石油交易商認為封鎖霍爾木茲海峽將是一種無謂的冒險，可能導致全球石油市場出現大幅波動。這一觀點得到許多分析師的支持，他們認為封鎖霍爾木茲海峽將是一種自殺式的行為，可能導致全球經濟出現重大波動。",
-        "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "d378f6e8",
-        "title": "阿根廷YPF電力公司申請美股IPO",
-        "url": "https://www.reuters.com/business/energy/argentinas-ypf-electric-energy-files-us-ipo-2026-07-13/",
-        "source": "Reuters",
+        "id": "e632f5fe",
+        "title": "川普要求霍爾木茲海峽通行權，意味著每艘超級油輪支付 3,000 萬美元費用",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-13/trump-s-hormuz-demand-implies-fee-of-30-million-per-supertanker",
+        "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-07-13 20:19:01",
-        "summary_zh": "阿根廷能源公司YPF電力公司宣布申請美股IPO，該公司是阿根廷政府控股的能源巨頭YPF集團的一部分。YPF電力公司負責該公司在阿根廷的電力業務，該業務佔該公司總收入的約 30%。此次IPO將為該公司提供資金來支持業務擴張和投資。美國證券交易委員會（SEC）已經收到申請文件，相關文件將在未來幾天內公布。這是阿根廷能源公司在美股市場的首次上市。該公司的業務範圍包括電力發生器、發電廠和電力傳輸網路。該公司的業務目標是為阿根廷提供穩定的電力供應。這項行動將為該公司提供資金來實現業務目標和投資計畫。",
-        "sentiment": "中性",
+        "published_at": "2026-07-13 21:14:11",
+        "summary_zh": "川普政府要求霍爾木茲海峽通行權的條件，意味著每艘超級油輪需要支付 30 萬美元的費用。這個要求是由川普政府提出，旨在對伊朗的石油出口產生影響。霍爾木茲海峽是全球最重要的石油運輸通道之一，通過此海峽的石油運輸量占全球石油運輸量的 20%。川普政府的要求可能會對全球石油市場產生重大影響，可能會導致石油價格上升。這個要求也可能會對伊朗的經濟產生重大影響，可能會加劇伊朗的經濟困難。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
       {
         "id": "e473e23d",
@@ -822,18 +846,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "c670b351",
-        "title": "訴訟指控黑石集團對投資者收取過高費用",
-        "url": "https://www.reuters.com/business/lawsuit-accuses-blackrock-overcharging-mutual-fund-investors-2026-07-13/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-13 20:14:18",
-        "summary_zh": "一項訴訟指控黑石集團（BlackRock）對其共同基金投資者收取過高費用。根據訴訟，黑石集團未能盡到其職責，導致投資者遭受損失。訴訟還指控黑石集團未能透明地披露其收費政策。黑石集團的共同基金投資者可能會受到影響。訴訟的結果將對投資者造成重大影響。黑石集團將會對訴訟做出回應。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
       },
       {
         "id": "3be9f652",
