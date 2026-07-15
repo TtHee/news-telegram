@@ -1,62 +1,74 @@
 {
-  "generated_at": "2026-07-16T00:11:37.028532+08:00",
+  "generated_at": "2026-07-16T01:12:54.044981+08:00",
   "risk_signals": [
     "🟢 台股加權 44737.95（正常）",
-    "🟢 S&P 500 7542.88（正常）",
-    "🟢 VIX 恐慌指數 16.17（正常）",
+    "🟢 S&P 500 7546.64（正常）",
+    "🟢 VIX 恐慌指數 16.31（正常）",
     "🟢 MOVE 債市波動 69.55（正常）",
-    "🟢 美元指數 100.72（正常）",
-    "🟢 黃金 4051.6（正常）",
+    "🟢 美元指數 100.62（正常）",
+    "🟢 黃金 4043.6（正常）",
     "🟡 美債10Y殖利率 4.55（留意）",
-    "🟢 原油 WTI 78.91（正常）",
-    "🟢 美元/台幣 32.18（正常）"
+    "🟢 原油 WTI 79.33（正常）",
+    "🟢 美元/台幣 32.17（正常）"
   ],
-  "ai_summary": "市場目前呈穩定氛圍，各大指數均維持在正常區間，但需留意美債10年殖利率的微幅上升，可能預示市場對經濟增長的預期稍有降低。",
+  "ai_summary": "市場氛圍穩定，多個指標維持正常水平，但美債10年殖利率略升，值得留意。",
   "market": {
     "TWII": {
       "price": 44737.95,
       "change_pct": -1.42
     },
     "SP500": {
-      "price": 7542.88,
-      "change_pct": -0.01
-    },
-    "NASDAQ": {
-      "price": 26117.43,
+      "price": 7546.64,
       "change_pct": 0.04
     },
+    "NASDAQ": {
+      "price": 26142.57,
+      "change_pct": 0.14
+    },
     "VIX": {
-      "price": 16.17,
-      "change_pct": -2.0
+      "price": 16.31,
+      "change_pct": -1.15
     },
     "TNX": {
       "price": 4.55,
-      "change_pct": -0.7
+      "change_pct": -0.65
     },
     "MOVE": {
       "price": 69.55,
       "change_pct": 0.96
     },
     "DXY": {
-      "price": 100.72,
-      "change_pct": -0.22
+      "price": 100.62,
+      "change_pct": -0.31
     },
     "GOLD": {
-      "price": 4051.6,
-      "change_pct": -0.23
+      "price": 4043.6,
+      "change_pct": -0.43
     },
     "OIL": {
-      "price": 78.91,
-      "change_pct": -0.54
+      "price": 79.33,
+      "change_pct": -0.01
     },
     "USDTWD": {
-      "price": 32.18,
-      "change_pct": 0.06
+      "price": 32.17,
+      "change_pct": 0.02
     }
   },
   "macro": {},
   "categories": {
     "global": [
+      {
+        "id": "9ddecd82",
+        "title": "印度航空空難調查報告預計10月完成",
+        "url": "https://www.bbc.co.uk/news/articles/cjrgrgx2d9qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 09:45:21 GMT",
+        "summary_zh": "印度航空空難事件於去年發生，造成260人喪生，包括241名乘客和19名機組人員，僅有一名乘客生還。調查人員表示，對於這起空難的調查報告預計將於10月完成。這起空難事件引起了廣泛關注，調查結果將對於航空業和乘客安全帶來重要影響。調查人員將進一步調查事故原因和責任問題。這項調查將對於印度航空業和政府的安全措施提出新的要求和建議。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "579fb9a1",
         "title": "伊朗威脅封鎖更多貿易路線 美國發動新一輪攻擊",
@@ -65,6 +77,114 @@
         "category": "global",
         "published_at": "Wed, 15 Jul 2026 12:26:38 GMT",
         "summary_zh": "美國總統川普（Donald Trump）承諾，如果伊朗不回歸談判，將在下週攻擊伊朗的橋樑和電力廠。伊朗政府對此作出回應，威脅封鎖更多貿易路線。伊朗的這一行動可能會對全球貿易造成重大影響，特別是在中東地區。美國和伊朗之間的緊張關係持續升級，雙方都在競逐影響力。伊朗的威脅封鎖貿易路線可能會導致全球商品價格上漲，對消費者造成不利影響。美國和伊朗之間的衝突可能會進一步升級，對全球安全和穩定造成威脅。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b9e7ef9c",
+        "title": "美伊衝突再起 歐股多收黑",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506759",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 00:30:03 +0800",
+        "summary_zh": "美伊衝突再次爆發，美國對伊朗發動新一波空襲，導致國際油價大幅上升。這一事件對歐洲股市產生了重大影響，倫敦FTSE 100指數下跌13.47點或0.13%，收10515.92點。法蘭克福DAX指數下挫147.50點或0.58%，收13492.31點。美伊衝突的升級，可能會對全球經濟產生不利影響，尤其是對於依賴進口石油的國家。同時，投資者也開始擔心美伊衝突會對全球股市產生持續影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "37d92202",
+        "title": "中國經濟增長大幅下滑，未達預期目標",
+        "url": "https://www.bbc.co.uk/news/articles/cd959x4edy8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 10:21:48 GMT",
+        "summary_zh": "中國經濟增長率大幅下滑，遠遠未達政府預期的目標。分析人士認為，國內需求疲弱以及伊朗戰爭對石油價格的影響是主要原因。中國的出口業表現相當強勁，但國內需求疲弱使得整體經濟增長率下滑。這一發展對中國的經濟政策和金融市場產生了重要影響。未來中國政府可能會採取措施來刺激國內需求和促進經濟增長。然而，伊朗戰爭對全球經濟的不確定性仍然存在，可能會對中國經濟增長率產生持續影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "794a27fa",
+        "title": "中國拘留美籍科學家 陳有林近兩年未被釋放",
+        "url": "https://www.bbc.co.uk/news/articles/cqx1xdn3g4eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 02:14:37 GMT",
+        "summary_zh": "美籍科學家陳有林近兩年未被釋放，遭中國拘留。他的家人表示，他被錯誤地指控為間諜。陳有林曾研究北韓核試驗，目前的處境引起了國際社會的關注。這一事件可能會對中美關係產生影響，甚至可能導致兩國之間的關係惡化。中國政府尚未對陳有林的拘留做出任何聲明。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c2a28c5a",
+        "title": "火車被火焰包圍，乘組人員險些遇難",
+        "url": "https://www.bbc.co.uk/news/articles/clyjnnrp2k7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 16:52:49 GMT",
+        "summary_zh": "加拿大發生嚴重的森林大火，火勢蔓延至多個城市，包括多倫多。這場大火不僅使多倫多陷入濃煙之中，還將煙霧向多個美國主要城市傳播。這次事件中，一列火車的乘組人員在火車被火焰包圍時被迫緊急撤離，幸好他們全部安全地被救出。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c61c9d81",
+        "title": "一艘船在阿拉卡茲附近沉沒，1人死亡，3人失蹤",
+        "url": "https://www.bbc.co.uk/news/articles/cwylyzvy444o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 13:57:33 GMT",
+        "summary_zh": "一艘船在阿拉卡茲附近的海域發生沉沒事故，當地目擊者表示船在惡劣的海況下開始漏水，最終翻覆沉沒。當局表示，事故中有1人死亡，3人失蹤。這起事故的原因尚未明朗，但當局正在展開調查。阿拉卡茲位於加州聖弗朗西斯科灣，該地以其惡劣的海況和強風聞名。這起事故引發了對海上安全的關注，當局正在努力確保海上交通的安全。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4232d510",
+        "title": "印度電動三輪車爆失靈，疑似與中國製電池管理系統APP有關",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506487",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 19:43:04 +0800",
+        "summary_zh": "印度新德里近日發生多起電動三輪車行駛途中突然停擺事件，引發社會高度關注。經印度政府調查，疑似與多款中國製電池管理系統APP（BMS）有關。相關應用程式可能存在資安漏洞，導致電動三輪車突然停擺。這些事件不僅影響印度的公共交通，也引發對中國製電池管理系統的安全性懷疑。印度政府已經開始調查此事件，並將與中國進行溝通，以確保印度使用的電動三輪車安全。這一事件可能會對印度與中國的關係產生影響，同時也引發了對電動車輛安全性的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "fbe43570",
+        "title": "美國加拿大再度遭遇高溫潮，至少44人喪生",
+        "url": "https://www.bbc.co.uk/news/articles/c5yzyep6z63o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 14 Jul 2026 21:39:06 GMT",
+        "summary_zh": "美國和加拿大近期再度遭遇嚴重的高溫潮，早在7月初就有至少44人因高溫而喪生。這次高溫潮席捲了美國的許多地區，氣溫達到歷史最高點，導致大量人們受困於高溫下。據報導，這次高溫潮的影響範圍廣泛，從東部到西部的各個州都受到了影響。美國政府已經開始就此事件展開調查，並呼籲民眾採取措施保護自己免受高溫的影響。這次高溫潮的出現，讓人們不得不重新評估氣候變化對人類生活的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c94b331e",
+        "title": "爆發性腹瀉疫情仍未解釋原因 官方難以找出源頭",
+        "url": "https://www.bbc.co.uk/news/articles/cm2jl23k2l2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 14 Jul 2026 18:28:44 GMT",
+        "summary_zh": "美國爆發了爆發性腹瀉疫情，專家認為疫情很可能源於多處污染點，進而使調查工作變得更加複雜。這種情況使得官員們難以找出疫情的源頭，仍未能解釋疫情的原因。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4e8f37ae",
+        "title": "美對伊朗發動新一輪空襲，分析家警告稱將演變成「永無止境的戰爭」",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506510",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 19:00:22 +0800",
+        "summary_zh": "美國對伊朗發動新一輪空襲，分析家警告稱，衝突有可能演變成「永無止境的戰爭」。美國於週三早上6點開始，對伊朗發動了空襲，伊朗方面回應稱，將採取「適當措施」應對。這次空襲是美國對伊朗的最新一次軍事行動，分析家認為，這可能是美國對伊朗的「全面戰爭」的開始。伊朗的領導人阿里·哈梅內伊在週三早上發表聲明，稱美國的行動是「侵略性」的，並警告美國不要「犯下錯誤」。美國的軍事行動可能會導致伊朗的反應，進而引發更大的衝突。分析家認為，這可能是「永無止境的戰爭」的開始。美國的空襲對伊朗的經濟和政治會產生什麼影響？伊朗的領導人將如何回應？這次衝突會如何發展？",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -142,18 +262,6 @@
         "ai_classified": true
       },
       {
-        "id": "37d92202",
-        "title": "中國經濟增長大幅下滑，未達預期目標",
-        "url": "https://www.bbc.co.uk/news/articles/cd959x4edy8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 10:21:48 GMT",
-        "summary_zh": "中國經濟增長率大幅下滑，遠遠未達政府預期的目標。分析人士認為，國內需求疲弱以及伊朗戰爭對石油價格的影響是主要原因。中國的出口業表現相當強勁，但國內需求疲弱使得整體經濟增長率下滑。這一發展對中國的經濟政策和金融市場產生了重要影響。未來中國政府可能會採取措施來刺激國內需求和促進經濟增長。然而，伊朗戰爭對全球經濟的不確定性仍然存在，可能會對中國經濟增長率產生持續影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "19fa9260",
         "title": "熱浪導致義大利送貨騎手罷工爭取更多權益",
         "url": "https://www.bbc.co.uk/news/articles/c1dydw0r246o?at_medium=RSS&at_campaign=rss",
@@ -173,18 +281,6 @@
         "category": "global",
         "published_at": "Wed, 15 Jul 2026 11:43:15 GMT",
         "summary_zh": "塞拉利昂政府決定放棄對前總統埃爾南斯·拜·科羅馬 (Ernest Bai Koroma) 的叛國罪指控。這一決定與 2023 年的一次未遂政變有關，當時槍手闖入軍械庫和監獄，釋放了囚犯。科羅馬在 2023 年被捕，當時他被指控涉及這次未遂政變。塞拉利昂政府的決定意味著科羅馬將不會面臨叛國罪的審判。這一發展可能會對塞拉利昂政治局勢產生影響，尤其是在未來的選舉中。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9ddecd82",
-        "title": "印度航空空難調查報告預計10月完成",
-        "url": "https://www.bbc.co.uk/news/articles/cjrgrgx2d9qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 09:45:21 GMT",
-        "summary_zh": "印度航空空難事件於去年發生，造成260人喪生，包括241名乘客和19名機組人員，僅有一名乘客生還。調查人員表示，對於這起空難的調查報告預計將於10月完成。這起空難事件引起了廣泛關注，調查結果將對於航空業和乘客安全帶來重要影響。調查人員將進一步調查事故原因和責任問題。這項調查將對於印度航空業和政府的安全措施提出新的要求和建議。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -214,90 +310,6 @@
         "ai_classified": true
       },
       {
-        "id": "794a27fa",
-        "title": "中國拘留美籍科學家 陳有林近兩年未被釋放",
-        "url": "https://www.bbc.co.uk/news/articles/cqx1xdn3g4eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 02:14:37 GMT",
-        "summary_zh": "美籍科學家陳有林近兩年未被釋放，遭中國拘留。他的家人表示，他被錯誤地指控為間諜。陳有林曾研究北韓核試驗，目前的處境引起了國際社會的關注。這一事件可能會對中美關係產生影響，甚至可能導致兩國之間的關係惡化。中國政府尚未對陳有林的拘留做出任何聲明。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c61c9d81",
-        "title": "一艘船在阿拉卡茲附近沉沒，1人死亡，3人失蹤",
-        "url": "https://www.bbc.co.uk/news/articles/cwylyzvy444o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 13:57:33 GMT",
-        "summary_zh": "一艘船在阿拉卡茲附近的海域發生沉沒事故，當地目擊者表示船在惡劣的海況下開始漏水，最終翻覆沉沒。當局表示，事故中有1人死亡，3人失蹤。這起事故的原因尚未明朗，但當局正在展開調查。阿拉卡茲位於加州聖弗朗西斯科灣，該地以其惡劣的海況和強風聞名。這起事故引發了對海上安全的關注，當局正在努力確保海上交通的安全。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4232d510",
-        "title": "印度電動三輪車爆失靈，疑似與中國製電池管理系統APP有關",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5506487",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 19:43:04 +0800",
-        "summary_zh": "印度新德里近日發生多起電動三輪車行駛途中突然停擺事件，引發社會高度關注。經印度政府調查，疑似與多款中國製電池管理系統APP（BMS）有關。相關應用程式可能存在資安漏洞，導致電動三輪車突然停擺。這些事件不僅影響印度的公共交通，也引發對中國製電池管理系統的安全性懷疑。印度政府已經開始調查此事件，並將與中國進行溝通，以確保印度使用的電動三輪車安全。這一事件可能會對印度與中國的關係產生影響，同時也引發了對電動車輛安全性的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "fbe43570",
-        "title": "美國加拿大再度遭遇高溫潮，至少44人喪生",
-        "url": "https://www.bbc.co.uk/news/articles/c5yzyep6z63o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 14 Jul 2026 21:39:06 GMT",
-        "summary_zh": "美國和加拿大近期再度遭遇嚴重的高溫潮，早在7月初就有至少44人因高溫而喪生。這次高溫潮席捲了美國的許多地區，氣溫達到歷史最高點，導致大量人們受困於高溫下。據報導，這次高溫潮的影響範圍廣泛，從東部到西部的各個州都受到了影響。美國政府已經開始就此事件展開調查，並呼籲民眾採取措施保護自己免受高溫的影響。這次高溫潮的出現，讓人們不得不重新評估氣候變化對人類生活的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3d00916f",
-        "title": "川普向性侵害受害者埃珍卡洛爾支付500萬美元賠償金",
-        "url": "https://www.bbc.co.uk/news/articles/c2dydj1wp93o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 14 Jul 2026 17:07:42 GMT",
-        "summary_zh": "川普總統被指控性侵害和誹謗埃珍卡洛爾（E Jean Carroll）一事，經過多年的法律訴訟，川普最終被判賠償500萬美元。川普曾試圖延遲支付賠償金，並嘗試說服最高法院推翻判決。這一事件是川普性侵害指控的又一案例，展現了川普對性別問題的態度。這一判決對於性侵害受害者權益的保護具有重要意義。川普的行為可能會對他的政治聲譽造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c94b331e",
-        "title": "爆發性腹瀉疫情仍未解釋原因 官方難以找出源頭",
-        "url": "https://www.bbc.co.uk/news/articles/cm2jl23k2l2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 14 Jul 2026 18:28:44 GMT",
-        "summary_zh": "美國爆發了爆發性腹瀉疫情，專家認為疫情很可能源於多處污染點，進而使調查工作變得更加複雜。這種情況使得官員們難以找出疫情的源頭，仍未能解釋疫情的原因。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4e8f37ae",
-        "title": "美對伊朗發動新一輪空襲，分析家警告稱將演變成「永無止境的戰爭」",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5506510",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 19:00:22 +0800",
-        "summary_zh": "美國對伊朗發動新一輪空襲，分析家警告稱，衝突有可能演變成「永無止境的戰爭」。美國於週三早上6點開始，對伊朗發動了空襲，伊朗方面回應稱，將採取「適當措施」應對。這次空襲是美國對伊朗的最新一次軍事行動，分析家認為，這可能是美國對伊朗的「全面戰爭」的開始。伊朗的領導人阿里·哈梅內伊在週三早上發表聲明，稱美國的行動是「侵略性」的，並警告美國不要「犯下錯誤」。美國的軍事行動可能會導致伊朗的反應，進而引發更大的衝突。分析家認為，這可能是「永無止境的戰爭」的開始。美國的空襲對伊朗的經濟和政治會產生什麼影響？伊朗的領導人將如何回應？這次衝突會如何發展？",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "766df829",
         "title": "委內瑞拉臨時政府和反對派將展開正式談判",
         "url": "https://www.theguardian.com/world/2026/jul/15/venezuela-interim-government-opposition-talks-democracy-maria-corina-machado",
@@ -311,6 +323,18 @@
       }
     ],
     "ai": [
+      {
+        "id": "c20f8533",
+        "title": "OpenAI終於推出硬體… 但不是Jony Ive的神秘計畫",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-15T12:00:00-04:00",
+        "summary_zh": "OpenAI終於推出了一些硬體，但不是與前蘋果設計師Jony Ive合作開發的神秘AI裝置。該公司正在開發的硬體是用於其程式設計平台Codex的產品，名為Codex Micro。該裝置是一個方形的按鈕塊，設計用於與Codex平台進行程式設計。這是OpenAI首次推出針對程式設計師的硬體產品，將如何影響程式設計行業，尚待觀察。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "89990dc1",
         "title": "OpenAI 可能於今年宣布 ChatGPT 智慧音箱",
@@ -372,248 +396,6 @@
         "ai_classified": true
       }
     ],
-    "stock_tw": [
-      {
-        "id": "5de6df58",
-        "title": "宏碁創辦人施振榮獲首屆東方領袖人物獎",
-        "url": "https://www.cna.com.tw/news/afe/202607150367.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 22:36:58 +0800",
-        "summary_zh": "施振榮在接受頒獎時表示，當年他創辦宏碁的原因是看好微處理機將帶動第2次工業革命，他也以「微處理機的園丁」自許。施振榮還回憶塑造「人性本善」組織文化的原因，他希望能夠創造一個讓員工感到舒適和尊嚴的工作環境。這種組織文化的建立，讓宏碁能夠在競爭激烈的電子業中茁壯成長。施振榮的領導風格和組織文化的建立，值得其他企業學習和借鏡。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "875a3258",
-        "title": "今彩539第115171期頭獎1注中獎",
-        "url": "https://www.cna.com.tw/news/ahel/202607150359.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 22:04:41 +0800",
-        "summary_zh": "今彩539第115171期開獎，中獎號碼為16、30、21、06、19。根據派彩結果，頭獎有1注中獎，獎金高達新台幣800萬元。這意味著有一位幸運者在這期彩券中獲得了豐厚的獎金。這項消息對於彩券玩家來說是一個好消息，同時也讓人們對於彩券中獎的可能性感到樂觀。然而，中獎的機率相對較低，因此仍需要持續努力和耐心。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "f6bb1503",
-        "title": "印度核准半導體2.0計畫 投入逾4千億元推國產晶片",
-        "url": "https://www.cna.com.tw/news/aopl/202607150357.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 21:49:36 +0800",
-        "summary_zh": "印度政府近日核准新的半導體計畫，將提供超過133億美元的財務支援，來加速本土晶片生產。這項計畫的目標是讓印度成為全球電子業的重鎮。印度政府認為，發展國產晶片產業對於國家的經濟發展和自主性具有重要意義。這項計畫將投資逾4千億元，將推動印度的半導體產業發展，提高本土晶片的自主性和競爭力。這項計畫的成功將對印度的經濟和電子業產生重大影響，讓印度成為全球電子業的重要參與者。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a1953c49",
-        "title": "預估2030年陪伴型人型機器人產值達11億美元",
-        "url": "https://www.cna.com.tw/news/afe/202607150351.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 21:32:24 +0800",
-        "summary_zh": "隨著全球人口結構走向高齡化、少子化，獨居人口持續增加，陪伴型人型機器人需求獲得快速崛起的「陪伴經濟」支撐。根據集邦科技發布的機器人產業研究，預估2030年陪伴型人型機器人產值將達到11億美元。這項研究顯示，陪伴型人型機器人將在未來幾年內成為市場的主力。這項趨勢的出現，與全球人口結構的變化有直接關係。隨著人口老化和少子化，獨居人口的增加，陪伴型人型機器人的需求將會持續增長。這項研究的結果表明，陪伴型人型機器人將成為未來市場的重要部分。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "16944cb7",
-        "title": "禾伸堂、台燿爆違約交割 合計金額5428萬元",
-        "url": "https://www.cna.com.tw/news/afe/202607150342.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 20:58:02 +0800",
-        "summary_zh": "證交所與櫃買中心今天公布投資人違約交割資訊，禾伸堂及台燿達違約資訊揭露標準，違約交割金額分別為新台幣3326.5萬元及2101.5萬元，合計約5428萬元。這些違約事件可能對禾伸堂及台燿達的股價造成影響，投資人應密切關注此事的發展。根據市場分析，違約事件可能導致公司的信心和投資人對公司的信任度下降，進而影響公司的股價。禾伸堂及台燿達需要儘快處理違約事件，恢復投資人的信心，避免進一步的負面影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d3980d25",
-        "title": "吳誠文：規劃成立太空基金 政府主導引入民間投資",
-        "url": "https://www.cna.com.tw/news/afe/202607150339.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 20:49:56 +0800",
-        "summary_zh": "行政院政委兼國科會主委吳誠文表示，政府正在規劃成立太空基金。這項基金將由政府帶頭建立運作及管理機制，引入民間資金投入，以加速太空產業的發展。吳誠文強調，政府將在太空領域競逐，並帶領民間一起推進。這項計畫的目標是促進太空產業的發展，並與國際競爭力相比。政府的主導角色將提供穩定的基礎，讓民間投資者能夠更放心地投入太空產業。這項計畫的影響將不僅限於台灣，還將對全球太空產業產生影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fff016a5",
-        "title": "台灣形象展東京登場 無人機搶攻日本市場",
-        "url": "https://www.cna.com.tw/news/afe/202607150335.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 20:43:47 +0800",
-        "summary_zh": "2026年，日本的東京新宿區舉辦了台灣形象展，展會上，台灣的無人機公司其昜科技展示了自主研發的長航程無人機。這款無人機具備低可偵測性、防水性能和100%的台灣製造，公司希望通過這個展會來拓展日本市場。這是台灣企業進入日本市場的又一努力，展會的開幕標誌著台灣企業在日本的發展步伐。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "98fd2fcc",
-        "title": "房仲業看青安3.0方案 補貼更精準回歸剛性需求",
-        "url": "https://www.cna.com.tw/news/afe/202607150330.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 20:13:36 +0800",
-        "summary_zh": "行政院推動青安3.0方案，房仲業者認為，新方案新增年齡、所得及房屋總價等申貸限制，政策由過去擴大補貼轉向精準補貼。這將有助於將資源聚焦在真正自住首購族身上。然而，這也意味著市場將回歸剛性需求，難再複製2023年新青安帶動房市買氣的效應。房仲業者預測，新政策將對房市產生重大影響，買氣將回歸正常，市場將不再受到補貼的驅動。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1e7c47b7",
-        "title": "金管會上半年裁罰9787萬元 台中銀3200萬最重",
-        "url": "https://www.cna.com.tw/news/afe/202607150325.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 19:55:25 +0800",
-        "summary_zh": "金管會近日公布2026年上半年對金融三業及上市櫃公司的裁罰結果，共開罰133件，裁罰金額為新台幣9787萬元。這個數字與去年同期相比，呈微幅下降2.92%至2.97%。在這些開罰案中，銀行業的台中銀因內控缺失遭罰3200萬元，創下銀行業單一裁罰案的最高紀錄。這表明金管會對銀行業的監管更加嚴格，同時也強調了內控缺失的嚴重性。這項裁罰結果對於金融業的整體形象和信心有著重要影響，同時也引起了業界對於內控缺失的重視。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5e163142",
-        "title": "光罩子公司擬斥資10億日圓 併日半導體設備外包廠",
-        "url": "https://www.cna.com.tw/news/afe/202607150324.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 19:52:23 +0800",
-        "summary_zh": "光罩今天公告，旗下子公司光鉅控股擬參與日本熊本市半導體設備外包服務公司100%股權收購案，交易金額不超過10億日圓。這項收購將讓光鉅控股進一步擴展其在半導體設備外包領域的業務。光鉅控股的這一舉動被視為是光罩在日本市場的進一步投資和擴張。這項收購對於光鉅控股和光罩的未來發展將產生重要影響，同時也將對日本半導體產業產生一定的影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b44c6bb8",
-        "title": "兆豐銀行與高雄市政府續推「雄挺利」 最長享5年利息補貼",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5506654",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 21:45:18 +0800",
-        "summary_zh": "為支持青年實現創業夢想，減輕創業初期資金壓力，兆豐銀行攜手高雄市政府青年局持續推動「雄挺利」青年創業貸款利息補貼計畫。這項計畫已經邁入第四年，透過最高200萬元貸款額，青年創業者可以獲得最長5年的利息補貼，讓他們能夠專心發展事業。這項計畫的目標是幫助青年創業者克服資金困難，實現創業夢想。高雄市政府青年局表示，今年將繼續推動這項計畫，為更多青年創業者提供支持。兆豐銀行也表示，將繼續與高雄市政府合作，為青年創業者提供更多的貸款額度和利息補貼。這項計畫的影響是幫助青年創業者實現創業夢想，減輕創業初期資金壓力。未來，兆豐銀行和高雄市政府將繼續推動這項計畫，為更多青年創業者提供支持。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7411ab7b",
-        "title": "無人機條例若採年度預算 經部: 面臨編列排擠、審查延遲等不確定性",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5506646",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 21:38:44 +0800",
-        "summary_zh": "無人機條例草案將於明日在立法院經濟、外交及國防、財政三委員會聯席會議進行審查。行政院提出的版本面臨編列排擠、審查延遲等不確定性。民進黨籍立委林楚茵等人也提出不同的版本，包括民眾黨版和國民黨版本。這些版本將會在會議中進行比較和討論。無人機的發展對於國防和民用領域都有重要影響，因此這些條例草案的通過將對未來的發展有重要影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7f62f8ec",
-        "title": "金價守住在「這個買入區間」 上升阻力在4100美元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5506632",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 21:16:05 +0800",
-        "summary_zh": "黃金價格週三小幅走低，但仍維持在周二的區間內。金價仍在4000美元關口上方尋找方向，受到伊朗局勢緊張升級和高油價的影響。美國消費者物價指數（CPI）數據雖然出現波動，但高油價仍然是市場的關注點。投資者正在觀察金價是否能夠突破上升阻力在4100美元的關口，進一步上升。目前，金價仍在買入區間內，投資者應該保持警惕並密切關注市場動態。伊朗局勢的發展將對金價產生重要影響，投資者應該密切關注相關消息。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f89e545f",
-        "title": "從客服人員翻身成億萬富翁！他32歲就財富自由卻拒絕提早退休",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5506193",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 20:41:20 +0800",
-        "summary_zh": "許多人認為，財務自由的終點就是提前退休，但加拿大投資人比爾・霍蘭卻選擇走上完全不同的道路。他32歲時，已累積足夠財富，理論上可以過著奢華退休生活，但霍蘭卻選擇繼續工作。他認為，退休只是個概念，真正重要的是做自己喜歡的事情。霍蘭現在仍然在投資業中工作，致力於幫助他人實現財務自由。他的故事成為了許多人追求財富自由的榜樣。霍蘭的經歷也讓人們重新思考財務自由的定義和目的。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c854d873",
-        "title": "台達電斬獲北美AI大單 首波部署100MW固態變壓器",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5506582",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 20:29:25 +0800",
-        "summary_zh": "台達電與能源服務開發商X LABS合作，布局AI資料中心能源即服務。隨著AI資料中心用電需求快速攀升，電力基礎建設成為產業發展關鍵。台達電將首波部署100MW固態變壓器，為北美AI資料中心提供穩定的電力供應。這項合作備忘錄的簽署標誌著台達電進軍北美AI市場的重要一步。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "49ffda9e",
-        "title": "三商美邦人壽上半年獲利51億元 淨值衝破1200億",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5506537",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 19:41:09 +0800",
-        "summary_zh": "三商美邦人壽公布2026年上半年財報，自結稅後盈餘為51億元，較去年同期大幅增加54億元。主要原因是台股大漲1萬7162點，提升投資獲利。這使得三商美邦人壽的淨值衝破1200億元。這項成績表明三商美邦人壽在投資方面取得了顯著的成果。然而，未來市場的波動仍可能對公司的業績產生影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d7c810a0",
-        "title": "13家金控上半年大賺4408億元 創歷史同期新高",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5506529",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 19:30:37 +0800",
-        "summary_zh": "受惠於台股交易熱絡與資本市場蓬勃發展，加上銀行放款、財富管理、證券經紀及壽險投資收益等各項核心業務升溫，台灣13家上市金控在2026年上半年繳出亮眼的獲利成績。合計今年前六個月，13家金控的淨利潤達到4,408億元新台幣，創下歷史同期新高。這些金控的業績表現主要受到台股交易熱絡的影響，許多投資人紛紛將資金投入股市，從而推動銀行放款、財富管理、證券經紀及壽險投資等業務的增長。另外，資本市場的蓬勃發展也對金控的業務產生了正面影響。根據市場分析師的評估，今年下半年金控的業績仍將保持穩定，預計將繼續創下歷史新高。然而，市場也存在一些風險，例如全球經濟的不確定性和台股的波動等，將對金控的業績產生影響。總體而言，台灣13家金控的業績表現令人鼓舞，展現出強勁的競爭力和韌性。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "42dae671",
-        "title": "高端第二代多價型腸病毒疫苗獲CDE/TFDA指標案件",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5506514",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 19:08:23 +0800",
-        "summary_zh": "高端疫苗公司宣布，其第二代多價型腸病毒疫苗開發計畫獲得醫藥品查驗中心（CDE）的認可，成為中心指標案件（IDX）。此外，該公司還獲得衛福部食品藥物管理署（TFDA）藥品專案諮詢輔導資格。這一發展對於高端疫苗公司的業務發展具有重要意義，可能會帶來新的商機和合作機會。高端疫苗公司將會繼續推進疫苗開發計畫，希望能夠提供更好的保護效果和更高的安全性。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1ff80d84",
-        "title": "凃董再出手! 光聚晶電擬斥資2.52億元併購造隆電氣、勤曜電氣",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5506504",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 19:01:39 +0800",
-        "summary_zh": "光聚晶電董事長凃俊光再度出手，擬斥資2.52億元策略性併購造隆電氣工程和勤曜電氣工程兩家公司。這項併購主要目的是提升集團營運競爭力和未來長期發展。光聚晶電是台灣的一家電子業公司，凃俊光的這一行動可能會對公司的未來發展產生重大影響。這項併購將會使光聚晶電擁有更強大的競爭力和市場份額。然而，併購的具體細節和影響尚待觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a126bf22",
-        "title": "美元回落、新台幣仍收貶 央行調節守32.2元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5506499",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 15 Jul 2026 18:54:31 +0800",
-        "summary_zh": "美國6月通膨降溫，市場對聯準會升息的疑慮開始緩解，美股四大指數全面收紅，美元指數同步回落，台股因此一度大漲逾千點。然而，新台幣兌美元匯率呈現先升後貶的走勢，最終在中央銀行的調節下，仍然收貶至32.2元。這種情況可能是由於市場對台幣的需求減少所致。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
     "finance": [
       {
         "id": "512d67fe",
@@ -624,8 +406,8 @@
         "published_at": "2026-07-15 04:00:30",
         "summary_zh": "在美國政府施壓東京加強敏感資料安全性之際，甲骨文集團提出了「空氣隔離網路」方案，競爭供應日本頂級機密雲端服務。這項方案旨在為日本政府提供一個安全的雲端平台，保護敏感資料免受外部威脅。甲骨文集團的方案受到美國政府的支持，美國政府認為這項方案能夠幫助日本政府提高安全性並減少對敏感資料的外部威脅。甲骨文集團的方案將與其他競爭者進行競爭，最終將由日本政府決定哪一個方案最合適。這項新聞顯示出美國政府對日本政府安全性提高的關注，並且也顯示出甲骨文集團在雲端服務市場的競爭力。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "232bf45c",
@@ -636,53 +418,41 @@
         "published_at": "2026-07-15 04:00:30",
         "summary_zh": "身體掃描初創公司由 Spotify 創辦人 Daniel Ek 所創立，最近籌集了 700 萬美元的資金，以推進美國市場。這家公司的技術能夠掃描人體的健康狀態，包括身體組成、肌肉質量等。這項技術有望在美國市場上得到廣泛應用，尤其是在健康保險和運動訓練領域。然而，這項技術也引發了對隱私和安全的擔憂。 Daniel Ek 的公司將如何平衡這些競爭的需求，仍待觀察。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
-        "id": "f77c5948",
-        "title": "派拉蒙和迪士尼追逐的「流媒體夢想」",
-        "url": "https://www.ft.com/content/c0fb2665-91e9-46a1-aa5b-9a2630909c69",
-        "source": "Financial Times",
+        "id": "e52ac04f",
+        "title": "晨間競價：IBM惡夢日子為ASML提高了門檻",
+        "url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-07-15/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-07-15 04:00:22",
-        "summary_zh": "流媒體平台的興起，讓好萊塢的電影公司開始追逐這個「夢想」。許多電影公司相信，建立自己的流媒體平台，能夠與觀眾建立緊密的關係，從而增加收入。然而，這個夢想可能是過時的。許多觀眾已經轉向了社交媒體平台，追逐流媒體內容。這種趨勢可能會對流媒體平台的生存產生重大影響。流媒體平台的成本高昂，需要大量的資金來維持。然而，如果觀眾不再使用這些平台，投資的資金就會白白浪費。這個問題正在困擾著好萊塢的電影公司。",
+        "published_at": "2026-07-15 04:35:00",
+        "summary_zh": "IBM在股市上表現惡劣，引發市場關注。ASML的股價因為IBM的不振而下跌，市場人士認為這是IBM的股價下跌對ASML的影響。IBM是ASML的重要客戶之一，兩家公司之間的合作關係對於ASML的業務發展有著重要影響。市場人士認為，IBM的股價下跌將會對ASML的未來業務發展產生重大影響。IBM的股價下跌也引發市場關注，市場人士認為這將會對整個半導體業界產生重大影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "72b698c4",
-        "title": "美國通膨放緩 6月PPI月減0.3%近1年以來首見",
-        "url": "https://www.cna.com.tw/news/aopl/202607150355.aspx",
-        "source": "中央社財經",
+        "id": "69b082bd",
+        "title": "瑞典Neko Health籌集7億美元，準備進軍美國市場",
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/swedens-neko-health-raises-700-million-ahead-us-launch-2026-07-15/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "Wed, 15 Jul 2026 21:46:32 +0800",
-        "summary_zh": "美國通膨在6月出現放緩趨勢，批發物價指數（PPI）月減0.3%，是近一年來首見。能源成本在中東戰爭有望持久解決的預期之下走跌，對於美國的通膨壓力有所緩和。不過，戰事已經再度爆發，這可能會對能源成本和通膨壓力造成不確定性。美國政府的數據顯示，6月的PPI下降，表明通膨的壓力正在放緩，但仍需要觀察未來的發展。這項數據對於美國的經濟政策和投資者有重要影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "eeef0e54",
-        "title": "銀行業的巔峰嗎？",
-        "url": "https://www.ft.com/content/24138204-9b32-47cb-be1a-e00774999431",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-07-15 04:00:38",
-        "summary_zh": "美國華爾街銀行業近期公布了歷史最高的季度盈利數字，但是在這場勝利背後，仍然存在著不少風險。根據最新的財務報告，美國主要銀行業者如摩根大通、花旗銀行、美銀銀行等都表現出色的業績，盈利遠超過市場預期。然而，這些銀行業者的盈利來自於高利息收入和交易業務的增長，而這些利基業務的風險也隨之而來。市場分析師指出，銀行業者的盈利模式可能會因為利率的下降而受到影響，同時也存在著系統性風險和經濟衰退的風險。因此，雖然銀行業者的盈利表現令人振奮，但仍然需要保持謹慎的態度。",
+        "published_at": "2026-07-15 04:04:36",
+        "summary_zh": "瑞典健康科技公司Neko Health近日宣布籌集了7億美元的資金，這筆資金將幫助該公司進軍美國市場。Neko Health是一家提供個人化健康管理服務的公司，該公司的平台利用人工智慧和數據分析來幫助用戶管理健康和生活習慣。這筆資金將使Neko Health擁有足夠的資源來推廣其服務並進軍美國市場。這是瑞典健康科技公司籌集資金的又一例子，表明這個領域的投資熱潮仍在持續。然而，Neko Health的進軍美國市場也將面臨嚴峻的競爭，美國市場的健康科技領域已經有許多成熟的公司。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "d0482603",
-        "title": "美國還是歐洲更好？",
-        "url": "https://www.ft.com/content/b77cec48-87e2-4bef-b18c-0f9f6718b11c",
+        "id": "4a19996e",
+        "title": "歐盟推動銀行去監管",
+        "url": "https://www.ft.com/content/5586c99d-bcaa-4361-81a9-229ebc56e595",
         "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-07-15 04:00:30",
-        "summary_zh": "美國和歐洲的經濟比較似乎比看起來更困難。美國和歐洲的經濟結構、產業結構、人口結構等各方面都有很大不同。美國的經濟以服務業為主，歐洲的經濟則以工業為主。美國的人口結構較為年輕，歐洲的人口結構則較為老化。這些差異使得美國和歐洲的經濟發展方向和速度也不同。因此，比較美國和歐洲的經濟發展狀況並不容易。",
+        "published_at": "2026-07-15 04:03:37",
+        "summary_zh": "歐盟正在推動銀行去監管政策，目的是增加銀行的競爭力和創新力。這項政策的核心是降低銀行的監管成本和限制，讓銀行有更多的自由來發展業務。歐盟官員表示，這項政策將幫助銀行更好地面對未來的挑戰和風險。然而，監管者也提醒，銀行去監管需要謹慎處理，避免銀行過度風險和不當行為。歐盟的銀行去監管政策將對銀行業和整個金融系統造成重大影響。銀行業界和監管者都在密切關注這項政策的進展。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -700,6 +470,30 @@
         "ai_classified": true
       },
       {
+        "id": "eeef0e54",
+        "title": "銀行業的巔峰嗎？",
+        "url": "https://www.ft.com/content/24138204-9b32-47cb-be1a-e00774999431",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-07-15 04:00:38",
+        "summary_zh": "美國華爾街銀行業近期公布了歷史最高的季度盈利數字，但是在這場勝利背後，仍然存在著不少風險。根據最新的財務報告，美國主要銀行業者如摩根大通、花旗銀行、美銀銀行等都表現出色的業績，盈利遠超過市場預期。然而，這些銀行業者的盈利來自於高利息收入和交易業務的增長，而這些利基業務的風險也隨之而來。市場分析師指出，銀行業者的盈利模式可能會因為利率的下降而受到影響，同時也存在著系統性風險和經濟衰退的風險。因此，雖然銀行業者的盈利表現令人振奮，但仍然需要保持謹慎的態度。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d0482603",
+        "title": "美國還是歐洲更好？",
+        "url": "https://www.ft.com/content/b77cec48-87e2-4bef-b18c-0f9f6718b11c",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-07-15 04:00:30",
+        "summary_zh": "美國和歐洲的經濟比較似乎比看起來更困難。美國和歐洲的經濟結構、產業結構、人口結構等各方面都有很大不同。美國的經濟以服務業為主，歐洲的經濟則以工業為主。美國的人口結構較為年輕，歐洲的人口結構則較為老化。這些差異使得美國和歐洲的經濟發展方向和速度也不同。因此，比較美國和歐洲的經濟發展狀況並不容易。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "6b555351",
         "title": "愛立信非洲公司招募銀行家籌辦倫敦首次公開募股",
         "url": "https://www.ft.com/content/cd9f6a51-5059-4bd5-b35e-55c7acfe6ab2",
@@ -708,8 +502,8 @@
         "published_at": "2026-07-15 04:00:30",
         "summary_zh": "愛立信非洲公司計劃籌辦倫敦首次公開募股，為其手機錢包業務融資。該公司已經招募了更多銀行家幫助籌辦這項業務。這是非洲手機錢包業務的首次倫敦公開募股。愛立信非洲公司的業務包括手機錢包、支付和金融服務。該公司的業務遍布非洲各國。這項公開募股將為公司融資，幫助業務的發展。愛立信非洲公司的業務快速發展，該公司的收入和用戶數均有所增加。這項公開募股將為公司提供更多資金，幫助業務的持續發展。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c63900b5",
@@ -720,8 +514,32 @@
         "published_at": "2026-07-15 04:00:22",
         "summary_zh": "歐洲面臨著一場爭議，關於如何使用碳稅來支持綠色產業。歐洲委員會正在推動一項政策，將碳稅的收入直接撥款給綠色產業，例如太陽能和風力發電。這項政策的目的是鼓勵企業投資在綠色產業上，從而減少碳排放。然而，這項政策也引起了爭議，部分人認為這項政策會對某些產業造成不公平的影響。歐洲委員會正在與各國政府和產業界進行磋商，希望能夠找到一個適合所有人的解決方案。這項政策的影響將會對歐洲的能源政策和經濟產生重大影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "72b698c4",
+        "title": "美國通膨放緩 6月PPI月減0.3%近1年以來首見",
+        "url": "https://www.cna.com.tw/news/aopl/202607150355.aspx",
+        "source": "中央社財經",
+        "category": "finance",
+        "published_at": "Wed, 15 Jul 2026 21:46:32 +0800",
+        "summary_zh": "美國通膨在6月出現放緩趨勢，批發物價指數（PPI）月減0.3%，是近一年來首見。能源成本在中東戰爭有望持久解決的預期之下走跌，對於美國的通膨壓力有所緩和。不過，戰事已經再度爆發，這可能會對能源成本和通膨壓力造成不確定性。美國政府的數據顯示，6月的PPI下降，表明通膨的壓力正在放緩，但仍需要觀察未來的發展。這項數據對於美國的經濟政策和投資者有重要影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f77c5948",
+        "title": "派拉蒙和迪士尼追逐的「流媒體夢想」",
+        "url": "https://www.ft.com/content/c0fb2665-91e9-46a1-aa5b-9a2630909c69",
+        "source": "FT Tech",
+        "category": "finance",
+        "published_at": "Wed, 15 Jul 2026 04:00:22 GMT",
+        "summary_zh": "流媒體平台的興起，讓好萊塢的電影公司開始追逐這個「夢想」。許多電影公司相信，建立自己的流媒體平台，能夠與觀眾建立緊密的關係，從而增加收入。然而，這個夢想可能是過時的。許多觀眾已經轉向了社交媒體平台，追逐流媒體內容。這種趨勢可能會對流媒體平台的生存產生重大影響。流媒體平台的成本高昂，需要大量的資金來維持。然而，如果觀眾不再使用這些平台，投資的資金就會白白浪費。這個問題正在困擾著好萊塢的電影公司。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "stock_us": [
@@ -848,42 +666,6 @@
         "ai_classified": true
       },
       {
-        "id": "031fa20a",
-        "title": "美國各地警方領袖支持唐納德·特朗普提名的總檢察長候選人布蘭奇",
-        "url": "https://www.whitehouse.gov/releases/2026/07/law-enforcement-leaders-across-america-support-todd-blanche-for-attorney-general/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 14 Jul 2026 20:52:20 +0000",
-        "summary_zh": "美國總統唐納德·特朗普提名的總檢察長候選人布蘭奇，獲得了來自美國各地警方組織、州檢察長和公務員的強力支持。布蘭奇是一位資深的檢察官和辯護律師，他在擔任副總檢察長和代理總檢察長時已經取得了明顯的成績。他積極打擊毒品犯罪，展現了堅定的領導力。這些支持布蘭奇的警方領袖認為，他的經驗和能力使他成為理想的總檢察長候選人。布蘭奇的提名將對美國的法律體系產生重大影響，觀察家們將密切關注他的任命過程。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c2983ac7",
-        "title": "白宮發佈金鷹計畫，協調美國人工智慧安全漏洞",
-        "url": "https://www.whitehouse.gov/releases/2026/07/white-house-launches-gold-eagle-initiative-for-unprecedented-cybersecurity-vulnerability-coordination/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 14 Jul 2026 19:50:00 +0000",
-        "summary_zh": "白宮宣布推出「金鷹計畫」（GOLD EAGLE），這是一個協調美國人工智慧安全漏洞的平台。該計畫旨在加速美國人工智慧創新，並為開放原始碼軟體夥伴和美國關鍵基礎設施公司提供一個協調系統，讓他們能夠快速處理和修復安全漏洞。這項計畫的目標是通過合作和協調來提高美國人工智慧的安全性和穩定性。這項計畫的推出是總統川普對於加速美國人工智慧創新的願景的一部分。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a6486f47",
-        "title": "提名與撤回送交參議院",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/nominations-and-withdrawals-sent-to-the-senate-e958/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 14 Jul 2026 19:12:59 +0000",
-        "summary_zh": "白宮宣布將提名馬利亞·達瓦茲諾（Maria D&#39;Avanzo）出任美國總務署檢察長，戴維斯·斯雷德（David Slade）出任美國出口銀行第一副總裁，提名將送交參議院審議。同時，白宮也宣布提名蒂莫西·韋斯特拉克（Timothy Westlake）出任美國精神健康與物質濫用事務助卿。這些提名將對美國政府的運作產生重要影響，參議院將對提名進行審議和確認。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "61bfa25c",
         "title": "ICE被告知暫停大多數車輛檢查行動",
         "url": "https://www.bbc.co.uk/news/articles/cly8yrw597eo?at_medium=RSS&at_campaign=rss",
@@ -944,12 +726,48 @@
         "ai_classified": true
       },
       {
+        "id": "031fa20a",
+        "title": "美國各地警方領袖支持唐納德·特朗普提名的總檢察長候選人布蘭奇",
+        "url": "https://www.whitehouse.gov/releases/2026/07/law-enforcement-leaders-across-america-support-todd-blanche-for-attorney-general/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 14 Jul 2026 20:52:20 +0000",
+        "summary_zh": "美國總統唐納德·特朗普提名的總檢察長候選人布蘭奇，獲得了來自美國各地警方組織、州檢察長和公務員的強力支持。布蘭奇是一位資深的檢察官和辯護律師，他在擔任副總檢察長和代理總檢察長時已經取得了明顯的成績。他積極打擊毒品犯罪，展現了堅定的領導力。這些支持布蘭奇的警方領袖認為，他的經驗和能力使他成為理想的總檢察長候選人。布蘭奇的提名將對美國的法律體系產生重大影響，觀察家們將密切關注他的任命過程。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c2983ac7",
+        "title": "白宮發佈金鷹計畫，協調美國人工智慧安全漏洞",
+        "url": "https://www.whitehouse.gov/releases/2026/07/white-house-launches-gold-eagle-initiative-for-unprecedented-cybersecurity-vulnerability-coordination/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 14 Jul 2026 19:50:00 +0000",
+        "summary_zh": "白宮宣布推出「金鷹計畫」（GOLD EAGLE），這是一個協調美國人工智慧安全漏洞的平台。該計畫旨在加速美國人工智慧創新，並為開放原始碼軟體夥伴和美國關鍵基礎設施公司提供一個協調系統，讓他們能夠快速處理和修復安全漏洞。這項計畫的目標是通過合作和協調來提高美國人工智慧的安全性和穩定性。這項計畫的推出是總統川普對於加速美國人工智慧創新的願景的一部分。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a6486f47",
+        "title": "提名與撤回送交參議院",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/nominations-and-withdrawals-sent-to-the-senate-e958/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 14 Jul 2026 19:12:59 +0000",
+        "summary_zh": "白宮宣布將提名馬利亞·達瓦茲諾（Maria D&#39;Avanzo）出任美國總務署檢察長，戴維斯·斯雷德（David Slade）出任美國出口銀行第一副總裁，提名將送交參議院審議。同時，白宮也宣布提名蒂莫西·韋斯特拉克（Timothy Westlake）出任美國精神健康與物質濫用事務助卿。這些提名將對美國政府的運作產生重要影響，參議院將對提名進行審議和確認。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "677bd481",
         "title": "特朗普提名的司法部長候選人將面臨參議院聽證會",
         "url": "https://www.theguardian.com/us-news/live/2026/jul/15/todd-blanche-attorney-general-senate-donald-trump-ice-darline-graham-lindsey-graham-us-politics-live-news",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Wed, 15 Jul 2026 15:43:42 GMT",
+        "published_at": "Wed, 15 Jul 2026 16:29:56 GMT",
         "summary_zh": "美國政治局勢持續緊張，特朗普的司法部長候選人將面臨參議院聽證會。近日，美國移民及海關執法局（ICE）官員在美國各地發生多起槍擊事件，造成兩名非執法目標的男子死亡。人權團體譴責這些槍擊事件是非法處決。聯邦移民官員已經接到指示暫停拦截車輛的行動，直到另行通知。這是因為近期在德克薩斯州和緬因州發生的槍擊事件中，官員在車輛中射殺了移民。同時，南卡羅來納州州長亨利麥考密克宣布任命共和黨參議員林西·格拉罕的妹妹達琳·格拉罕暫時接替其參議員席位。這是林西·格拉罕去世後三天的決定。另外，佛羅里達州一名移民在與聯邦移民官員的遭遇中死亡，標誌著一週內與移民執法行動相關的第三宗死亡事件。",
         "sentiment": "中性",
         "is_breaking": false,
@@ -965,6 +783,260 @@
         "summary_zh": "美國移民局（ICE）員工近期在美國殺害兩名男子，儘管這兩名男子並非執法行動的目標。美國政府官員面臨著越來越多的壓力，要求移除ICE員工從美國街頭。人權團體，包括國家警察負責人責任項目和人權移民聯盟，將美州的Johan Sebastián Durán Guerrero和德州的Lorenzo Salgado Araujo的死亡定性為非法處決。這兩起事件發生在短短一周內，引發了對ICE員工行為的關注。這些事件引發了對ICE員工行為的關注，許多人認為這些行動違反了美國的法律和道德原則。美國政府應該重新評估ICE員工的角色和責任，確保他們的行動符合美國的價值觀和法律規範。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "stock_tw": [
+      {
+        "id": "9f4edad6",
+        "title": "駁斥延遲傳聞！黃仁勳：Vera Rubin投產 朝大規模量產推進",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506735",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 23:37:11 +0800",
+        "summary_zh": "輝達創辦人黃仁勳近日強調，公司下一代人工智慧（AI）加速器系統Vera Rubin已投入生產，並將依計畫交付客戶。這是對先前有報導稱，製造上的問題恐使輝達延後推出Vera Rubin的駁斥。黃仁勳的表態，應該能夠讓市場上對公司的擔憂有所減輕。然而，市場仍需要更多的證據來證明輝達的投產計畫是可行的。輝達的投產計畫對於公司未來的發展具有重要的意義，尤其是在人工智慧領域的競爭日益激烈的情況下。輝達的成功將對於整個人工智慧產業的發展產生重要的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7f62f8ec",
+        "title": "金價守住在「這個買入區間」 上升阻力在4100美元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506632",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 23:06:05 +0800",
+        "summary_zh": "黃金價格週三小幅走低，但仍維持在周二的區間內。金價仍在4000美元關口上方尋找方向，受到伊朗局勢緊張升級和高油價的影響。美國消費者物價指數（CPI）數據雖然出現波動，但高油價仍然是市場的關注點。投資者正在觀察金價是否能夠突破上升阻力在4100美元的關口，進一步上升。目前，金價仍在買入區間內，投資者應該保持警惕並密切關注市場動態。伊朗局勢的發展將對金價產生重要影響，投資者應該密切關注相關消息。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b44c6bb8",
+        "title": "兆豐銀行與高雄市政府續推「雄挺利」 最長享5年利息補貼",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506654",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 21:45:18 +0800",
+        "summary_zh": "為支持青年實現創業夢想，減輕創業初期資金壓力，兆豐銀行攜手高雄市政府青年局持續推動「雄挺利」青年創業貸款利息補貼計畫。這項計畫已經邁入第四年，透過最高200萬元貸款額，青年創業者可以獲得最長5年的利息補貼，讓他們能夠專心發展事業。這項計畫的目標是幫助青年創業者克服資金困難，實現創業夢想。高雄市政府青年局表示，今年將繼續推動這項計畫，為更多青年創業者提供支持。兆豐銀行也表示，將繼續與高雄市政府合作，為青年創業者提供更多的貸款額度和利息補貼。這項計畫的影響是幫助青年創業者實現創業夢想，減輕創業初期資金壓力。未來，兆豐銀行和高雄市政府將繼續推動這項計畫，為更多青年創業者提供支持。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "7411ab7b",
+        "title": "無人機條例若採年度預算 經部: 面臨編列排擠、審查延遲等不確定性",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506646",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 21:38:44 +0800",
+        "summary_zh": "無人機條例草案將於明日在立法院經濟、外交及國防、財政三委員會聯席會議進行審查。行政院提出的版本面臨編列排擠、審查延遲等不確定性。民進黨籍立委林楚茵等人也提出不同的版本，包括民眾黨版和國民黨版本。這些版本將會在會議中進行比較和討論。無人機的發展對於國防和民用領域都有重要影響，因此這些條例草案的通過將對未來的發展有重要影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f89e545f",
+        "title": "從客服人員翻身成億萬富翁！他32歲就財富自由卻拒絕提早退休",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506193",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 20:41:20 +0800",
+        "summary_zh": "許多人認為，財務自由的終點就是提前退休，但加拿大投資人比爾・霍蘭卻選擇走上完全不同的道路。他32歲時，已累積足夠財富，理論上可以過著奢華退休生活，但霍蘭卻選擇繼續工作。他認為，退休只是個概念，真正重要的是做自己喜歡的事情。霍蘭現在仍然在投資業中工作，致力於幫助他人實現財務自由。他的故事成為了許多人追求財富自由的榜樣。霍蘭的經歷也讓人們重新思考財務自由的定義和目的。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c854d873",
+        "title": "台達電斬獲北美AI大單 首波部署100MW固態變壓器",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506582",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 20:29:25 +0800",
+        "summary_zh": "台達電與能源服務開發商X LABS合作，布局AI資料中心能源即服務。隨著AI資料中心用電需求快速攀升，電力基礎建設成為產業發展關鍵。台達電將首波部署100MW固態變壓器，為北美AI資料中心提供穩定的電力供應。這項合作備忘錄的簽署標誌著台達電進軍北美AI市場的重要一步。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "49ffda9e",
+        "title": "三商美邦人壽上半年獲利51億元 淨值衝破1200億",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506537",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 19:41:09 +0800",
+        "summary_zh": "三商美邦人壽公布2026年上半年財報，自結稅後盈餘為51億元，較去年同期大幅增加54億元。主要原因是台股大漲1萬7162點，提升投資獲利。這使得三商美邦人壽的淨值衝破1200億元。這項成績表明三商美邦人壽在投資方面取得了顯著的成果。然而，未來市場的波動仍可能對公司的業績產生影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d7c810a0",
+        "title": "13家金控上半年大賺4408億元 創歷史同期新高",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506529",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 19:30:37 +0800",
+        "summary_zh": "受惠於台股交易熱絡與資本市場蓬勃發展，加上銀行放款、財富管理、證券經紀及壽險投資收益等各項核心業務升溫，台灣13家上市金控在2026年上半年繳出亮眼的獲利成績。合計今年前六個月，13家金控的淨利潤達到4,408億元新台幣，創下歷史同期新高。這些金控的業績表現主要受到台股交易熱絡的影響，許多投資人紛紛將資金投入股市，從而推動銀行放款、財富管理、證券經紀及壽險投資等業務的增長。另外，資本市場的蓬勃發展也對金控的業務產生了正面影響。根據市場分析師的評估，今年下半年金控的業績仍將保持穩定，預計將繼續創下歷史新高。然而，市場也存在一些風險，例如全球經濟的不確定性和台股的波動等，將對金控的業績產生影響。總體而言，台灣13家金控的業績表現令人鼓舞，展現出強勁的競爭力和韌性。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "42dae671",
+        "title": "高端第二代多價型腸病毒疫苗獲CDE/TFDA指標案件",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506514",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 19:08:23 +0800",
+        "summary_zh": "高端疫苗公司宣布，其第二代多價型腸病毒疫苗開發計畫獲得醫藥品查驗中心（CDE）的認可，成為中心指標案件（IDX）。此外，該公司還獲得衛福部食品藥物管理署（TFDA）藥品專案諮詢輔導資格。這一發展對於高端疫苗公司的業務發展具有重要意義，可能會帶來新的商機和合作機會。高端疫苗公司將會繼續推進疫苗開發計畫，希望能夠提供更好的保護效果和更高的安全性。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1ff80d84",
+        "title": "凃董再出手! 光聚晶電擬斥資2.52億元併購造隆電氣、勤曜電氣",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506504",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 19:01:39 +0800",
+        "summary_zh": "光聚晶電董事長凃俊光再度出手，擬斥資2.52億元策略性併購造隆電氣工程和勤曜電氣工程兩家公司。這項併購主要目的是提升集團營運競爭力和未來長期發展。光聚晶電是台灣的一家電子業公司，凃俊光的這一行動可能會對公司的未來發展產生重大影響。這項併購將會使光聚晶電擁有更強大的競爭力和市場份額。然而，併購的具體細節和影響尚待觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a126bf22",
+        "title": "美元回落、新台幣仍收貶 央行調節守32.2元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506499",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 18:54:31 +0800",
+        "summary_zh": "美國6月通膨降溫，市場對聯準會升息的疑慮開始緩解，美股四大指數全面收紅，美元指數同步回落，台股因此一度大漲逾千點。然而，新台幣兌美元匯率呈現先升後貶的走勢，最終在中央銀行的調節下，仍然收貶至32.2元。這種情況可能是由於市場對台幣的需求減少所致。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5de6df58",
+        "title": "宏碁創辦人施振榮獲首屆東方領袖人物獎",
+        "url": "https://www.cna.com.tw/news/afe/202607150367.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 22:36:58 +0800",
+        "summary_zh": "施振榮在接受頒獎時表示，當年他創辦宏碁的原因是看好微處理機將帶動第2次工業革命，他也以「微處理機的園丁」自許。施振榮還回憶塑造「人性本善」組織文化的原因，他希望能夠創造一個讓員工感到舒適和尊嚴的工作環境。這種組織文化的建立，讓宏碁能夠在競爭激烈的電子業中茁壯成長。施振榮的領導風格和組織文化的建立，值得其他企業學習和借鏡。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "875a3258",
+        "title": "今彩539第115171期頭獎1注中獎",
+        "url": "https://www.cna.com.tw/news/ahel/202607150359.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 22:04:41 +0800",
+        "summary_zh": "今彩539第115171期開獎，中獎號碼為16、30、21、06、19。根據派彩結果，頭獎有1注中獎，獎金高達新台幣800萬元。這意味著有一位幸運者在這期彩券中獲得了豐厚的獎金。這項消息對於彩券玩家來說是一個好消息，同時也讓人們對於彩券中獎的可能性感到樂觀。然而，中獎的機率相對較低，因此仍需要持續努力和耐心。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f6bb1503",
+        "title": "印度核准半導體2.0計畫 投入逾4千億元推國產晶片",
+        "url": "https://www.cna.com.tw/news/aopl/202607150357.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 21:49:36 +0800",
+        "summary_zh": "印度政府近日核准新的半導體計畫，將提供超過133億美元的財務支援，來加速本土晶片生產。這項計畫的目標是讓印度成為全球電子業的重鎮。印度政府認為，發展國產晶片產業對於國家的經濟發展和自主性具有重要意義。這項計畫將投資逾4千億元，將推動印度的半導體產業發展，提高本土晶片的自主性和競爭力。這項計畫的成功將對印度的經濟和電子業產生重大影響，讓印度成為全球電子業的重要參與者。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a1953c49",
+        "title": "預估2030年陪伴型人型機器人產值達11億美元",
+        "url": "https://www.cna.com.tw/news/afe/202607150351.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 21:32:24 +0800",
+        "summary_zh": "隨著全球人口結構走向高齡化、少子化，獨居人口持續增加，陪伴型人型機器人需求獲得快速崛起的「陪伴經濟」支撐。根據集邦科技發布的機器人產業研究，預估2030年陪伴型人型機器人產值將達到11億美元。這項研究顯示，陪伴型人型機器人將在未來幾年內成為市場的主力。這項趨勢的出現，與全球人口結構的變化有直接關係。隨著人口老化和少子化，獨居人口的增加，陪伴型人型機器人的需求將會持續增長。這項研究的結果表明，陪伴型人型機器人將成為未來市場的重要部分。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "16944cb7",
+        "title": "禾伸堂、台燿爆違約交割 合計金額5428萬元",
+        "url": "https://www.cna.com.tw/news/afe/202607150342.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 20:58:02 +0800",
+        "summary_zh": "證交所與櫃買中心今天公布投資人違約交割資訊，禾伸堂及台燿達違約資訊揭露標準，違約交割金額分別為新台幣3326.5萬元及2101.5萬元，合計約5428萬元。這些違約事件可能對禾伸堂及台燿達的股價造成影響，投資人應密切關注此事的發展。根據市場分析，違約事件可能導致公司的信心和投資人對公司的信任度下降，進而影響公司的股價。禾伸堂及台燿達需要儘快處理違約事件，恢復投資人的信心，避免進一步的負面影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d3980d25",
+        "title": "吳誠文：規劃成立太空基金 政府主導引入民間投資",
+        "url": "https://www.cna.com.tw/news/afe/202607150339.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 20:49:56 +0800",
+        "summary_zh": "行政院政委兼國科會主委吳誠文表示，政府正在規劃成立太空基金。這項基金將由政府帶頭建立運作及管理機制，引入民間資金投入，以加速太空產業的發展。吳誠文強調，政府將在太空領域競逐，並帶領民間一起推進。這項計畫的目標是促進太空產業的發展，並與國際競爭力相比。政府的主導角色將提供穩定的基礎，讓民間投資者能夠更放心地投入太空產業。這項計畫的影響將不僅限於台灣，還將對全球太空產業產生影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fff016a5",
+        "title": "台灣形象展東京登場 無人機搶攻日本市場",
+        "url": "https://www.cna.com.tw/news/afe/202607150335.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 20:43:47 +0800",
+        "summary_zh": "2026年，日本的東京新宿區舉辦了台灣形象展，展會上，台灣的無人機公司其昜科技展示了自主研發的長航程無人機。這款無人機具備低可偵測性、防水性能和100%的台灣製造，公司希望通過這個展會來拓展日本市場。這是台灣企業進入日本市場的又一努力，展會的開幕標誌著台灣企業在日本的發展步伐。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "98fd2fcc",
+        "title": "房仲業看青安3.0方案 補貼更精準回歸剛性需求",
+        "url": "https://www.cna.com.tw/news/afe/202607150330.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 20:13:36 +0800",
+        "summary_zh": "行政院推動青安3.0方案，房仲業者認為，新方案新增年齡、所得及房屋總價等申貸限制，政策由過去擴大補貼轉向精準補貼。這將有助於將資源聚焦在真正自住首購族身上。然而，這也意味著市場將回歸剛性需求，難再複製2023年新青安帶動房市買氣的效應。房仲業者預測，新政策將對房市產生重大影響，買氣將回歸正常，市場將不再受到補貼的驅動。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1e7c47b7",
+        "title": "金管會上半年裁罰9787萬元 台中銀3200萬最重",
+        "url": "https://www.cna.com.tw/news/afe/202607150325.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 19:55:25 +0800",
+        "summary_zh": "金管會近日公布2026年上半年對金融三業及上市櫃公司的裁罰結果，共開罰133件，裁罰金額為新台幣9787萬元。這個數字與去年同期相比，呈微幅下降2.92%至2.97%。在這些開罰案中，銀行業的台中銀因內控缺失遭罰3200萬元，創下銀行業單一裁罰案的最高紀錄。這表明金管會對銀行業的監管更加嚴格，同時也強調了內控缺失的嚴重性。這項裁罰結果對於金融業的整體形象和信心有著重要影響，同時也引起了業界對於內控缺失的重視。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5e163142",
+        "title": "光罩子公司擬斥資10億日圓 併日半導體設備外包廠",
+        "url": "https://www.cna.com.tw/news/afe/202607150324.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 15 Jul 2026 19:52:23 +0800",
+        "summary_zh": "光罩今天公告，旗下子公司光鉅控股擬參與日本熊本市半導體設備外包服務公司100%股權收購案，交易金額不超過10億日圓。這項收購將讓光鉅控股進一步擴展其在半導體設備外包領域的業務。光鉅控股的這一舉動被視為是光罩在日本市場的進一步投資和擴張。這項收購對於光鉅控股和光罩的未來發展將產生重要影響，同時也將對日本半導體產業產生一定的影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       }
     ]
