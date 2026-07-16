@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-16T07:16:49.906401+08:00",
+  "generated_at": "2026-07-16T08:14:52.067119+08:00",
   "risk_signals": [
     "🟢 台股加權 44737.95（正常）",
     "🟢 S&P 500 7572.4（正常）",
     "🟢 VIX 恐慌指數 15.67（正常）",
     "🟢 MOVE 債市波動 68.48（正常）",
-    "🟢 美元指數 100.5（正常）",
-    "🟢 黃金 4065.3（正常）",
+    "🟢 美元指數 100.47（正常）",
+    "🟢 黃金 4063.1（正常）",
     "🟡 美債10Y殖利率 4.55（留意）",
-    "🟢 原油 WTI 80.3（正常）",
-    "🟢 美元/台幣 32.19（正常）"
+    "🟢 原油 WTI 80.03（正常）",
+    "🟢 美元/台幣 32.21（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，投資人仍然樂觀，但需留意美債10年殖利率的微升，可能影響全球經濟走向。",
+  "ai_summary": "市場指標顯示整體市場氣氛保持穩定，目前沒有明顯的恐慌跡象。然而，美債10年殖利率略微升高，值得關注。整體而言，市場仍然保持著相對穩定的態勢。",
   "market": {
     "TWII": {
       "price": 44737.95,
@@ -38,25 +38,339 @@
       "change_pct": -1.54
     },
     "DXY": {
-      "price": 100.5,
-      "change_pct": -0.44
+      "price": 100.47,
+      "change_pct": -0.47
     },
     "GOLD": {
-      "price": 4065.3,
-      "change_pct": 0.1
+      "price": 4063.1,
+      "change_pct": 0.05
     },
     "OIL": {
-      "price": 80.3,
-      "change_pct": 1.21
+      "price": 80.03,
+      "change_pct": 0.87
     },
     "USDTWD": {
-      "price": 32.19,
-      "change_pct": 0.17
+      "price": 32.21,
+      "change_pct": 0.23
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "677bd481",
+        "title": "特朗普提名的司法部長候選人將面臨參議院聽證會",
+        "url": "https://www.theguardian.com/us-news/live/2026/jul/15/todd-blanche-attorney-general-senate-donald-trump-ice-darline-graham-lindsey-graham-us-politics-live-news",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Jul 2026 23:49:33 GMT",
+        "summary_zh": "美國政治局勢持續緊張，特朗普的司法部長候選人將面臨參議院聽證會。近日，美國移民及海關執法局（ICE）官員在美國各地發生多起槍擊事件，造成兩名非執法目標的男子死亡。人權團體譴責這些槍擊事件是非法處決。聯邦移民官員已經接到指示暫停拦截車輛的行動，直到另行通知。這是因為近期在德克薩斯州和緬因州發生的槍擊事件中，官員在車輛中射殺了移民。同時，南卡羅來納州州長亨利麥考密克宣布任命共和黨參議員林西·格拉罕的妹妹達琳·格拉罕暫時接替其參議員席位。這是林西·格拉罕去世後三天的決定。另外，佛羅里達州一名移民在與聯邦移民官員的遭遇中死亡，標誌著一週內與移民執法行動相關的第三宗死亡事件。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "24566e6a",
+        "title": "林肯紀念館反映池水變灰：川普曾稱為「美國國旗藍」",
+        "url": "https://www.theguardian.com/us-news/2026/jul/15/dc-reflecting-pool-gray",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Jul 2026 23:28:40 GMT",
+        "summary_zh": "川普政府計劃在林肯紀念館反映池水的修復工程，原本預計在美國獨立日前完成，但延遲了許多天。近日，反映池水被抽乾後，底部表面顯示出明顯的變化。川普曾稱新加的保護層為「美國國旗藍」，但現在看起來更接近灰色。工作人員已經清除了池水中出現的垃圾。這項工程延遲的原因尚未明確。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "16d40afe",
+        "title": "「我們搞砸了溝通」：美國副總統承認對於艾普斯坦文件的處理有錯誤",
+        "url": "https://www.theguardian.com/us-news/2026/jul/15/jd-vance-joe-rogan-epstein-files",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Jul 2026 23:06:14 GMT",
+        "summary_zh": "美國副總統JD Vance最近在訪談節目中承認，美國政府在處理艾普斯坦文件的問題時有所失誤。他認為，政府應該從一開始就公開所有文件，而不是反覆延遲。這些文件與已經被定罪的性侵犯者艾普斯坦有關，曾經引起美國政治界的爭議。這些文件被視為唐納德·川普總統自第二個任期開始以來的最大政治負擔。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "9c8286ac",
+        "title": "奧巴馬前顧問在艾普斯坦聽證會上被質疑不誠實",
+        "url": "https://www.theguardian.com/us-news/2026/jul/15/obama-kathryn-ruemmler-epstein-questions",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Jul 2026 22:43:59 GMT",
+        "summary_zh": "美國民主黨人士對奧巴馬前顧問凱瑟琳·魯姆勒（Kathryn Ruemmler）在艾普斯坦聽證會上的證詞表示懷疑，認為她沒有完全誠實。魯姆勒曾擔任白宮顧問，艾普斯坦的文件中她的名字出現了數千次。她在聽證會上表示，艾普斯坦曾利用她來合法化自己的地位，並表示與他打交道是一個錯誤。然而，她堅稱自己從未目睹任何犯罪行為。民主黨人士對她的說詞表示質疑，認為她沒有完全誠實。這次聽證會是對艾普斯坦受害者調查的一部分。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3cf7a429",
+        "title": "美國眾議院否決終止對以色列軍事援助的提案",
+        "url": "https://www.theguardian.com/us-news/2026/jul/15/house-democrats-israel-aid",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Jul 2026 21:48:30 GMT",
+        "summary_zh": "美國眾議院週三否決了一項提案，該提案旨在砍掉對以色列的3.3億美元軍事援助。雖然提案被否決，但超過100名民主黨議員投票贊成，表明黨內對以色列和內塔尼亞胡政府的態度已經惡化。這一發展是在以色列政府被指允許在加沙實施種族滅絕的指控下，黨內的爭論正在升級。這一事件在美國即將舉行的中期選舉之前，對黨內的政治格局產生了重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a53f1520",
+        "title": "委內瑞拉男子在ICE監禁中死亡，今年已經是第22人",
+        "url": "https://www.theguardian.com/us-news/2026/jul/15/man-dies-georgia-ice-detention",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Jul 2026 21:48:27 GMT",
+        "summary_zh": "美國移民和海關執法局（ICE）宣布，45歲的委內瑞拉男子耶穌曼努爾·阿雷納斯-席爾瓦（Jesús Manuel Arenas-Silva）在佐治亞州的一個監禁中心死亡。阿雷納斯-席爾瓦於上週四被捕，之後被關押在佐治亞州的伊文縣監禁中心（Irwin county detention center），是一間私人經營的監禁中心。當他被轉移到另一間ICE監禁中心時，於星期一早上被發現在運輸巴士中「無反應」。ICE表示，阿雷納斯-席爾瓦的死因被懷疑是心臟病發作。這是今年在ICE監禁中死亡的第22人。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cb1380f1",
+        "title": "CDC提名人艾瑞卡·施瓦茨被問及是否會抵制RFK Jr的疫苗議程",
+        "url": "https://www.theguardian.com/us-news/2026/jul/15/erica-schwartz-cdc-senate-hearing",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Jul 2026 21:24:28 GMT",
+        "summary_zh": "美國疾病控制與預防中心(CDC)的提名人艾瑞卡·施瓦茨，曾在川普政府擔任副外科醫生，出席參議院健康委員會聽證會時被問及是否會抵制健康部長羅伯特·肯尼迪(Robert F Kennedy Jr)的疫苗議程。施瓦茨表示 herself she “會永遠不會背叛科學”，並承諾透過“徹底透明”來重建公眾信任。但是，她反覆避開了如何處理肯尼迪施壓的問題。肯尼迪是一位反疫苗運動領袖，曾在CDC引起數月的混亂，並對美國疫苗政策進行了爭議性的變革。這次聽證會的目的是為了確認施瓦茨是否適合擔任CDC的領導人。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "716350ad",
+        "title": "埃普斯坦事件與川普關係：布蘭奇確認聽證會關鍵點",
+        "url": "https://www.bbc.co.uk/news/articles/c62q3g32204o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Jul 2026 23:45:12 GMT",
+        "summary_zh": "布蘭奇在星期三面臨跨黨派質詢，他正在爭取永久擔任美國總檢察長。布蘭奇的確認聽證會是他能夠正式擔任總檢察長的關鍵一步。然而，布蘭奇的前任在聯邦調查局（FBI）工作期間，曾與埃普斯坦有過接觸，布蘭奇是否能夠有效地處理埃普斯坦事件引發了質詢者們的關注。另外，布蘭奇與川普的關係也引起了議會的關注。川普曾在推特上表示，布蘭奇是他最好的朋友之一。這使得布蘭奇的獨立性和公正性受到質疑。布蘭奇必須證明自己能夠獨立地處理埃普斯坦事件和其他案件，同時維持與川普的關係。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "bb18d8d3",
+        "title": "美國國會通過《陽光保護法》將日光節約時間永久化",
+        "url": "https://www.bbc.co.uk/news/videos/c2lq1nqk2v9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Jul 2026 18:34:00 GMT",
+        "summary_zh": "美國國會日前通過《陽光保護法》，將日光節約時間永久化。這項法案將讓美國不再每年春秋季調整時鐘，讓美國人可以永久享受夏令時間。美國國會通過這項法案後，將需要等待總統簽署後方能實施。美國人對於這項法案的反應各有不同，有人認為這項法案會讓人們的生活更加便利，有人則擔心這項法案會影響健康。美國政府將會對這項法案的影響進行評估，確保其實施後對美國人生活的影響最大化。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "47c6d229",
+        "title": "美國軍方將開始進行睪固素測試，赫格塞斯說",
+        "url": "https://www.bbc.co.uk/news/articles/cn0nlx18rz0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Jul 2026 22:46:02 GMT",
+        "summary_zh": "美國國防部長赫格塞斯表示，美國軍方將開始進行睪固素測試，以提供軍人最好的醫療照護。這項措施是為了確保軍人能夠得到最好的醫療照護，赫格塞斯認為這是對軍人的義務。這項測試將對美國軍方的醫療系統帶來新的變化，同時也會對軍人的生活產生影響。美國軍方的睪固素測試將會是全球軍方中的一項先進措施，同時也會對軍人健康的研究帶來新的進展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "61bfa25c",
+        "title": "ICE被告知暫停大多數車輛檢查行動",
+        "url": "https://www.bbc.co.uk/news/articles/cly8yrw597eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Jul 2026 22:21:40 GMT",
+        "summary_zh": "美國移民執法局（ICE）近日遭到命令，暫停大多數車輛檢查行動。這是該機構近年來面臨過的重大政策轉變之一，主要原因是該機構過去被指控濫用武力。ICE的車輛檢查行動一直是移民政策中的一個爭議議題，許多人批評該機構的行動過於嚴厲，甚至導致生命損失。這項命令的出現，意味著ICE將會暫時停止這些行動，盡量避免類似事件的發生。這項政策轉變將對ICE的執法工作產生重大影響，同時也引起了對移民政策的重新評估。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "325c7dfa",
+        "title": "美國國會通過法案，將日光節約時間永久化",
+        "url": "https://www.bbc.co.uk/news/articles/cz9l9venjd8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Jul 2026 11:30:44 GMT",
+        "summary_zh": "美國國會通過一項法案，將日光節約時間永久化。這項法案由前總統川普支持，旨在終止美國人每年兩次更改時鐘的習慣。這項法案在眾議院通過後，將進一步在參議院進行審議。日光節約時間的永久化將對美國的生活方式產生重大影響，包括工作時間、學校時間和商業活動等。這項變革將為美國帶來新的時間安排，讓美國人能夠享受持續的節約時間。然而，這項變革也引發了對於時間安排的爭議，包括對於夏季時間和冬季時間的安排等問題。美國政府將進一步審議這項法案，最終決定是否通過永久化日光節約時間。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f8c81da8",
+        "title": "衡量外匯儲備赤字",
+        "url": "https://www.whitehouse.gov/research/2026/07/measuring-balance-of-payments-deficits/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 15 Jul 2026 16:12:50 +0000",
+        "summary_zh": "外匯儲備赤字已經成為政策制定者和經濟學家關注的問題數十年來，近期的發展使得如何衡量和何時應該關注外匯儲備赤字的問題再次受到關注。外匯儲備是美國政府用來跟踪美國人與其他國家之間所有經濟交易的會計框架。外匯儲備赤字是指美國人向其他國家支付的金額超過從其他國家收到的金額。這種情況通常表明美國的經濟活動超出了其儲備的能力。美國政府和經濟學家一直在探討如何衡量和應對外匯儲備赤字。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "global": [
+      {
+        "id": "250c965f",
+        "title": "墨西哥要求美國州長檢察官調查移民ICE死亡案件",
+        "url": "https://www.theguardian.com/us-news/2026/jul/15/mexico-investigate-ice-deaths",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 20:58:43 GMT",
+        "summary_zh": "墨西哥政府於週二表示，自唐納·川普總統第二任期開始，共有 17 名墨西哥移民在移民執法過程中死亡，14 人在ICE監禁中死亡，3 人在執法行動中死亡。墨西哥政府正式要求美國各州長檢察官調查這些移民死亡案件，包括在ICE監禁中死亡的 Lorenzo Salgado Araujo，該名移民在休斯頓被ICE人員射殺。墨西哥政府的要求是對於這些移民死亡案件的回應，希望能夠透過調查來確保移民的權益和安全。這一事件的發生也引起了對於美國移民政策的關注和批評。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "da44f562",
+        "title": "調查顯示中國與習近平在全球各國中受歡迎程度超越美國與川普",
+        "url": "https://www.theguardian.com/us-news/2026/jul/16/china-more-positive-view-us-pew-poll-survey",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 23:46:30 GMT",
+        "summary_zh": "根據皮尤研究中心最新的調查結果，全球對美國的看法在今年開始轉變，開始偏向中國。這項調查發現，25個受訪國家和地區中，對中國的看法比對美國更為正面，包括加拿大和墨西哥。這項調查在美國和以色列與伊朗的戰爭期間進行，期間美國與其盟友之間的緊張關係也對美國的形象產生了影響。這項調查結果顯示，全球對美國的看法正在發生重大變化，中國的形象也在全球各國中逐漸升高。這項調查結果對於美國的外交政策和全球影響力有著重要的意義。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "4232d510",
+        "title": "印度電動三輪車突然停擺　引發資安警報",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506487",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 07:00:04 +0800",
+        "summary_zh": "印度新德里近日發生多起電動三輪車行駛途中突然停擺事件，引發社會高度關注。經印度政府調查，發現這些電動三輪車的故障與軟體問題有關。軟體問題導致電動三輪車的控制系統出現故障，影響車輛的正常運行。這些事件引發了資安警報，政府和業界開始關注電動三輪車的安全問題。印度政府已經要求電動三輪車製造商進行檢查和改善，以確保車輛的安全性。這些事件也引發了對電動車輛安全性的關注，政府和業界正在努力解決這個問題。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "4c41418c",
+        "title": "安大略省野火使多倫多空氣質量全球最差",
+        "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 16:08:39 GMT",
+        "summary_zh": "安大略省環境部發布健康警告，指出多倫多空氣質量已經成為全球最差。由於超過 100 個活躍的野火在安大略省北部引起的煙霧，已經使得多倫多的空氣質量成為全球最差，同時也使得美國東北部城市的空氣質量受到影響。安大略省環境部於星期三發布健康警告，指出多倫多的天空已經變成黃色，並根據瑞士科技公司 IQAir 的數據，全球空氣質量排名中，多倫多的空氣質量排名第一。這些野火引起的煙霧已經使得多倫多的空氣質量惡化，對於市民的健康造成了嚴重影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "766df829",
+        "title": "委內瑞拉臨時政府和反對派將展開正式談判",
+        "url": "https://www.theguardian.com/world/2026/jul/15/venezuela-interim-government-opposition-talks-democracy-maria-corina-machado",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 11:46:23 GMT",
+        "summary_zh": "委內瑞拉臨時政府宣布將與反對派展開正式談判，目標是「增強民主」。這一決定獲得美國支持，美國表示希望委內瑞拉能夠實現「民主過渡」。委內瑞拉仍在重建從地震中受創的城市，地震已造成逾4,700人喪生。這一發展被視為委內瑞拉政治局勢的一個重要轉捩點。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8effdbfc",
+        "title": "美國空襲伊朗 國際油價小幅走高",
+        "url": "https://www.cna.com.tw/news/afe/202607160011.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 04:44:53 +0800",
+        "summary_zh": "美國對伊朗發動新一輪空襲，引發國際油價的小幅走高。這次空襲是美國對伊朗的最新回應，伊朗方面也已經對美國發動報復性攻擊。國際油價的走高是因為市場對美伊關係的不確定性以及對伊朗的油產量受影響的擔憂。然而，美國的油儲庫存數據出現了意外的增加，限制了油價的漲幅。這意味著市場對油價的漲幅有所謂疑，油價的走高可能不會持續太久。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c2a28c5a",
+        "title": "火車被火焰包圍，乘組人員險些遇難",
+        "url": "https://www.bbc.co.uk/news/articles/clyjnnrp2k7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 17:44:54 GMT",
+        "summary_zh": "加拿大發生嚴重的森林大火，火勢蔓延至多個城市，包括多倫多。這場大火不僅使多倫多陷入濃煙之中，還將煙霧向多個美國主要城市傳播。這次事件中，一列火車的乘組人員在火車被火焰包圍時被迫緊急撤離，幸好他們全部安全地被救出。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "579fb9a1",
+        "title": "伊朗威脅封鎖更多貿易路線 美國發動新一輪攻擊",
+        "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 21:55:04 GMT",
+        "summary_zh": "美國總統川普（Donald Trump）承諾，如果伊朗不回歸談判，將在下週攻擊伊朗的橋樑和電力廠。伊朗政府對此作出回應，威脅封鎖更多貿易路線。伊朗的這一行動可能會對全球貿易造成重大影響，特別是在中東地區。美國和伊朗之間的緊張關係持續升級，雙方都在競逐影響力。伊朗的威脅封鎖貿易路線可能會導致全球商品價格上漲，對消費者造成不利影響。美國和伊朗之間的衝突可能會進一步升級，對全球安全和穩定造成威脅。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7f7897f0",
+        "title": "香港警方拘捕五人　涉嫌售賣煽動性書籍",
+        "url": "https://www.bbc.co.uk/news/articles/cq61660qpdpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 16:51:07 GMT",
+        "summary_zh": "香港警方近日展開大規模行動，拘捕五名涉嫌售賣煽動性書籍的人士。根據官方聲明，這些書籍被指煽動對政府的仇恨。這次行動引發了對香港言論自由的擔憂。香港自回歸中國後，言論自由一直是敏感話題。這些書籍被認為是挑戰政府的權威，引發了政府的關注。警方的行動被視為對言論自由的限制，引發了社會的反彈。這次事件將對香港的政治局勢產生影響，展望未來將如何發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c61c9d81",
+        "title": "一艘船在阿拉卡茲附近沉沒，1人死亡，3人失蹤",
+        "url": "https://www.bbc.co.uk/news/articles/cwylyzvy444o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 22:36:46 GMT",
+        "summary_zh": "一艘船在阿拉卡茲附近的海域發生沉沒事故，當地目擊者表示船在惡劣的海況下開始漏水，最終翻覆沉沒。當局表示，事故中有1人死亡，3人失蹤。這起事故的原因尚未明朗，但當局正在展開調查。阿拉卡茲位於加州聖弗朗西斯科灣，該地以其惡劣的海況和強風聞名。這起事故引發了對海上安全的關注，當局正在努力確保海上交通的安全。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9ddecd82",
+        "title": "印度航空空難調查報告預計10月完成",
+        "url": "https://www.bbc.co.uk/news/articles/cjrgrgx2d9qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 09:45:21 GMT",
+        "summary_zh": "印度航空空難事件於去年發生，造成260人喪生，包括241名乘客和19名機組人員，僅有一名乘客生還。調查人員表示，對於這起空難的調查報告預計將於10月完成。這起空難事件引起了廣泛關注，調查結果將對於航空業和乘客安全帶來重要影響。調查人員將進一步調查事故原因和責任問題。這項調查將對於印度航空業和政府的安全措施提出新的要求和建議。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "37d92202",
+        "title": "中國經濟增長大幅下滑，未達預期目標",
+        "url": "https://www.bbc.co.uk/news/articles/cd959x4edy8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 10:21:48 GMT",
+        "summary_zh": "中國經濟增長率大幅下滑，遠遠未達政府預期的目標。分析人士認為，國內需求疲弱以及伊朗戰爭對石油價格的影響是主要原因。中國的出口業表現相當強勁，但國內需求疲弱使得整體經濟增長率下滑。這一發展對中國的經濟政策和金融市場產生了重要影響。未來中國政府可能會採取措施來刺激國內需求和促進經濟增長。然而，伊朗戰爭對全球經濟的不確定性仍然存在，可能會對中國經濟增長率產生持續影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "794a27fa",
+        "title": "中國拘留美籍科學家 陳有林近兩年未被釋放",
+        "url": "https://www.bbc.co.uk/news/articles/cqx1xdn3g4eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 15 Jul 2026 02:14:37 GMT",
+        "summary_zh": "美籍科學家陳有林近兩年未被釋放，遭中國拘留。他的家人表示，他被錯誤地指控為間諜。陳有林曾研究北韓核試驗，目前的處境引起了國際社會的關注。這一事件可能會對中美關係產生影響，甚至可能導致兩國之間的關係惡化。中國政府尚未對陳有林的拘留做出任何聲明。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "86f8a4f1",
         "title": "法國議員通過有助自殺法，嚴格規範",
@@ -70,18 +384,6 @@
         "ai_classified": true
       },
       {
-        "id": "579fb9a1",
-        "title": "伊朗威脅封鎖更多貿易路線 美國發動新一輪攻擊",
-        "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 21:55:04 GMT",
-        "summary_zh": "美國總統川普（Donald Trump）承諾，如果伊朗不回歸談判，將在下週攻擊伊朗的橋樑和電力廠。伊朗政府對此作出回應，威脅封鎖更多貿易路線。伊朗的這一行動可能會對全球貿易造成重大影響，特別是在中東地區。美國和伊朗之間的緊張關係持續升級，雙方都在競逐影響力。伊朗的威脅封鎖貿易路線可能會導致全球商品價格上漲，對消費者造成不利影響。美國和伊朗之間的衝突可能會進一步升級，對全球安全和穩定造成威脅。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "8852cb6d",
         "title": "阿根廷可能被罰款 因為在半決賽勝利後展示福克蘭群島旗幟",
         "url": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss",
@@ -90,8 +392,8 @@
         "published_at": "Wed, 15 Jul 2026 22:49:47 GMT",
         "summary_zh": "阿根廷國家足球隊在世界盃半決賽對英格蘭的勝利中，球員們在慶祝時展示了一面旗幟，表達對福克蘭群島主權的支持。這可能會導致阿根廷被國際足協罰款。福克蘭群島是英國的一部分，但阿根廷一直聲稱這些島嶼是自己的領土。這次事件可能會加劇英阿兩國之間的緊張關係。阿根廷的球員們在慶祝時展示的旗幟，可能違反了國際足協的規定，禁止球員在比賽期間展示政治性標誌。阿根廷可能會被罰款，甚至可能會被禁止參加未來的比賽。這次事件可能會對阿根廷國家足球隊造成重大影響，同時也會加劇英阿兩國之間的政治緊張。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "514ea325",
@@ -125,18 +427,6 @@
         "category": "global",
         "published_at": "Wed, 15 Jul 2026 15:33:30 GMT",
         "summary_zh": "南非一名反移民領袖在幾天前遭槍擊受傷後在醫院去世。南非警方已經成立特別調查小組來調查這起事件。這名領袖曾在南非的某一地區領導反移民運動。南非政府對此事件表達了關注和遺憾。南非的反移民運動近年來一直在升溫，南非政府正在努力平息這一局勢。這起事件將對南非的政治局勢產生重大影響。南非警方將會透過調查來確定事件的真相，並將兇手繩之於法。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7f7897f0",
-        "title": "香港警方拘捕五人　涉嫌售賣煽動性書籍",
-        "url": "https://www.bbc.co.uk/news/articles/cq61660qpdpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 16:51:07 GMT",
-        "summary_zh": "香港警方近日展開大規模行動，拘捕五名涉嫌售賣煽動性書籍的人士。根據官方聲明，這些書籍被指煽動對政府的仇恨。這次行動引發了對香港言論自由的擔憂。香港自回歸中國後，言論自由一直是敏感話題。這些書籍被認為是挑戰政府的權威，引發了政府的關注。警方的行動被視為對言論自由的限制，引發了社會的反彈。這次事件將對香港的政治局勢產生影響，展望未來將如何發展。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -178,18 +468,6 @@
         "ai_classified": true
       },
       {
-        "id": "37d92202",
-        "title": "中國經濟增長大幅下滑，未達預期目標",
-        "url": "https://www.bbc.co.uk/news/articles/cd959x4edy8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 10:21:48 GMT",
-        "summary_zh": "中國經濟增長率大幅下滑，遠遠未達政府預期的目標。分析人士認為，國內需求疲弱以及伊朗戰爭對石油價格的影響是主要原因。中國的出口業表現相當強勁，但國內需求疲弱使得整體經濟增長率下滑。這一發展對中國的經濟政策和金融市場產生了重要影響。未來中國政府可能會採取措施來刺激國內需求和促進經濟增長。然而，伊朗戰爭對全球經濟的不確定性仍然存在，可能會對中國經濟增長率產生持續影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "19fa9260",
         "title": "熱浪導致義大利送貨騎手罷工爭取更多權益",
         "url": "https://www.bbc.co.uk/news/articles/c1dydw0r246o?at_medium=RSS&at_campaign=rss",
@@ -200,105 +478,33 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "8919fb68",
-        "title": "塞拉利昂放棄對前總統叛國罪指控",
-        "url": "https://www.bbc.co.uk/news/articles/cx2w2k3vklgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 11:43:15 GMT",
-        "summary_zh": "塞拉利昂政府決定放棄對前總統埃爾南斯·拜·科羅馬 (Ernest Bai Koroma) 的叛國罪指控。這一決定與 2023 年的一次未遂政變有關，當時槍手闖入軍械庫和監獄，釋放了囚犯。科羅馬在 2023 年被捕，當時他被指控涉及這次未遂政變。塞拉利昂政府的決定意味著科羅馬將不會面臨叛國罪的審判。這一發展可能會對塞拉利昂政治局勢產生影響，尤其是在未來的選舉中。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9ddecd82",
-        "title": "印度航空空難調查報告預計10月完成",
-        "url": "https://www.bbc.co.uk/news/articles/cjrgrgx2d9qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 09:45:21 GMT",
-        "summary_zh": "印度航空空難事件於去年發生，造成260人喪生，包括241名乘客和19名機組人員，僅有一名乘客生還。調查人員表示，對於這起空難的調查報告預計將於10月完成。這起空難事件引起了廣泛關注，調查結果將對於航空業和乘客安全帶來重要影響。調查人員將進一步調查事故原因和責任問題。這項調查將對於印度航空業和政府的安全措施提出新的要求和建議。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8effdbfc",
-        "title": "美國空襲伊朗 國際油價小幅走高",
-        "url": "https://www.cna.com.tw/news/afe/202607160011.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 04:44:53 +0800",
-        "summary_zh": "美國對伊朗發動新一輪空襲，引發國際油價的小幅走高。這次空襲是美國對伊朗的最新回應，伊朗方面也已經對美國發動報復性攻擊。國際油價的走高是因為市場對美伊關係的不確定性以及對伊朗的油產量受影響的擔憂。然而，美國的油儲庫存數據出現了意外的增加，限制了油價的漲幅。這意味著市場對油價的漲幅有所謂疑，油價的走高可能不會持續太久。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4c41418c",
-        "title": "安大略省野火使多倫多空氣質量全球最差",
-        "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 16:08:39 GMT",
-        "summary_zh": "安大略省環境部發布健康警告，指出多倫多空氣質量已經成為全球最差。由於超過 100 個活躍的野火在安大略省北部引起的煙霧，已經使得多倫多的空氣質量成為全球最差，同時也使得美國東北部城市的空氣質量受到影響。安大略省環境部於星期三發布健康警告，指出多倫多的天空已經變成黃色，並根據瑞士科技公司 IQAir 的數據，全球空氣質量排名中，多倫多的空氣質量排名第一。這些野火引起的煙霧已經使得多倫多的空氣質量惡化，對於市民的健康造成了嚴重影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "766df829",
-        "title": "委內瑞拉臨時政府和反對派將展開正式談判",
-        "url": "https://www.theguardian.com/world/2026/jul/15/venezuela-interim-government-opposition-talks-democracy-maria-corina-machado",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 11:46:23 GMT",
-        "summary_zh": "委內瑞拉臨時政府宣布將與反對派展開正式談判，目標是「增強民主」。這一決定獲得美國支持，美國表示希望委內瑞拉能夠實現「民主過渡」。委內瑞拉仍在重建從地震中受創的城市，地震已造成逾4,700人喪生。這一發展被視為委內瑞拉政治局勢的一個重要轉捩點。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "794a27fa",
-        "title": "中國拘留美籍科學家 陳有林近兩年未被釋放",
-        "url": "https://www.bbc.co.uk/news/articles/cqx1xdn3g4eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 02:14:37 GMT",
-        "summary_zh": "美籍科學家陳有林近兩年未被釋放，遭中國拘留。他的家人表示，他被錯誤地指控為間諜。陳有林曾研究北韓核試驗，目前的處境引起了國際社會的關注。這一事件可能會對中美關係產生影響，甚至可能導致兩國之間的關係惡化。中國政府尚未對陳有林的拘留做出任何聲明。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c2a28c5a",
-        "title": "火車被火焰包圍，乘組人員險些遇難",
-        "url": "https://www.bbc.co.uk/news/articles/clyjnnrp2k7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 17:44:54 GMT",
-        "summary_zh": "加拿大發生嚴重的森林大火，火勢蔓延至多個城市，包括多倫多。這場大火不僅使多倫多陷入濃煙之中，還將煙霧向多個美國主要城市傳播。這次事件中，一列火車的乘組人員在火車被火焰包圍時被迫緊急撤離，幸好他們全部安全地被救出。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c61c9d81",
-        "title": "一艘船在阿拉卡茲附近沉沒，1人死亡，3人失蹤",
-        "url": "https://www.bbc.co.uk/news/articles/cwylyzvy444o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Wed, 15 Jul 2026 22:36:46 GMT",
-        "summary_zh": "一艘船在阿拉卡茲附近的海域發生沉沒事故，當地目擊者表示船在惡劣的海況下開始漏水，最終翻覆沉沒。當局表示，事故中有1人死亡，3人失蹤。這起事故的原因尚未明朗，但當局正在展開調查。阿拉卡茲位於加州聖弗朗西斯科灣，該地以其惡劣的海況和強風聞名。這起事故引發了對海上安全的關注，當局正在努力確保海上交通的安全。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "ai": [
+      {
+        "id": "dba38c19",
+        "title": "GPT-Red：OpenAI開發的超級黑客，幫助模型提升防禦能力",
+        "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 15 Jul 2026 17:09:37 +0000",
+        "summary_zh": "OpenAI開發了一款名為GPT-Red的LLM超級黑客，用於幫助其它模型提升防禦能力。該公司最近推出了旗艦LLM GPT-5.6的最新版本，OpenAI表示，將GPT-Red用於訓練該模型，使其成為迄今為止最強大的版本。 GPT-Red能夠自動化攻擊和測試，幫助模型提高其防禦能力。這種方法可以幫助模型識別和修復漏洞，使其更加安全。 OpenAI透露，GPT-Red的訓練過程中，該模型已經識別出數千個漏洞，幫助模型提高其安全性。這種方法可以幫助模型在未來的實際應用中更好地抵禦攻擊。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6b7358dc",
+        "title": "下載：量子機器的應用與海底隧道的新紀錄",
+        "url": "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 15 Jul 2026 12:10:00 +0000",
+        "summary_zh": "PsiQuantum公司正在嘗試以光為基礎的量子計算機。這台量子機器將被安置在一間看起來像是一個資料中心的房間中。這台量子機器的規模將是目前已知的最大量子計算機。PsiQuantum的計畫是利用光來實現量子計算，從而創造出一個更大的量子計算機。這項計畫的目標是創造出一個能夠實現量子計算的機器，從而開啟量子計算的新時代。另一方面，英國和法國正在建設一條長達 57 公里海底隧道，將連接兩國。這條隧道將是目前已知的最長海底隧道。這項工程將需要大量的資金和人力，但最終將為兩國帶來重大經濟和交通優勢。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "3d53ce8c",
         "title": "xAI 對一名男子提起訴訟，指控他使用 Grok 生成兒童色情內容",
@@ -348,30 +554,6 @@
         "ai_classified": true
       },
       {
-        "id": "dba38c19",
-        "title": "GPT-Red：OpenAI開發的超級黑客，幫助模型提升防禦能力",
-        "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Wed, 15 Jul 2026 17:09:37 +0000",
-        "summary_zh": "OpenAI開發了一款名為GPT-Red的LLM超級黑客，用於幫助其它模型提升防禦能力。該公司最近推出了旗艦LLM GPT-5.6的最新版本，OpenAI表示，將GPT-Red用於訓練該模型，使其成為迄今為止最強大的版本。 GPT-Red能夠自動化攻擊和測試，幫助模型提高其防禦能力。這種方法可以幫助模型識別和修復漏洞，使其更加安全。 OpenAI透露，GPT-Red的訓練過程中，該模型已經識別出數千個漏洞，幫助模型提高其安全性。這種方法可以幫助模型在未來的實際應用中更好地抵禦攻擊。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6b7358dc",
-        "title": "下載：量子機器的應用與海底隧道的新紀錄",
-        "url": "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Wed, 15 Jul 2026 12:10:00 +0000",
-        "summary_zh": "PsiQuantum公司正在嘗試以光為基礎的量子計算機。這台量子機器將被安置在一間看起來像是一個資料中心的房間中。這台量子機器的規模將是目前已知的最大量子計算機。PsiQuantum的計畫是利用光來實現量子計算，從而創造出一個更大的量子計算機。這項計畫的目標是創造出一個能夠實現量子計算的機器，從而開啟量子計算的新時代。另一方面，英國和法國正在建設一條長達 57 公里海底隧道，將連接兩國。這條隧道將是目前已知的最長海底隧道。這項工程將需要大量的資金和人力，但最終將為兩國帶來重大經濟和交通優勢。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "331878bc",
         "title": "蘋果FaceID發明人創辦新公司，利用AI分析大腦健康狀態",
         "url": "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
@@ -398,6 +580,30 @@
     ],
     "stock_tw": [
       {
+        "id": "8032219d",
+        "title": "中油上半年稅前盈餘仍達133億元，原因曝光！6月財務壓力才開始",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5506812",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 16 Jul 2026 07:44:47 +0800",
+        "summary_zh": "中東戰事再次升溫，美軍對伊朗發動新一波空襲，國際油價出現暴漲。這使得中油公司的盈虧受到影響。但是，中油上半年稅前盈餘仍達133億元。中油解釋，上半年煉油的原油是戰爭前購買的，因此不受戰爭影響。這意味著中油在上半年仍然能夠保持穩定的財務狀況。然而，6月財務壓力才開始，中油的財務狀況可能會在未來受到影響。這項消息對於中油的股價和財務狀況將有重要影響。投資者應該密切關注中油的財務報告和戰爭情勢的發展，以便做出明智的投資決策。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "0bf7c9f7",
+        "title": "無人機催生新行業 高職畢業月領10萬？",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5500601",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 16 Jul 2026 07:00:00 +0800",
+        "summary_zh": "無人機已成為俄烏戰場上用量最大的消耗型裝備之一，烏克蘭在2025年創下無人機產量與交付的新紀錄。高職畢業生可在無人機產業中找到工作，甚至月領10萬元。無人機產業的興起，催生了新的就業機會和商業模式。然而，無人機的使用也引發了安全和倫理問題的關注。無人機的發展勢必會對相關產業和社會產生深遠影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "7f62f8ec",
         "title": "金價守住在「這個買入區間」 上升阻力在4100美元",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5506632",
@@ -406,8 +612,8 @@
         "published_at": "Thu, 16 Jul 2026 06:57:05 +0800",
         "summary_zh": "近日黃金價格走勢維持在周二的區間內，金價仍在4000美元關口上方盤旋。分析師認為，黃金價格仍在買入區間，投資者可考慮進場。然而，上升阻力仍然存在，價格需要突破4100美元的關口，才能進一步上升。目前市場情緒相對穩定，投資者需要密切關注市場動態，做好準備應對未來的風險。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "9f4edad6",
@@ -418,8 +624,8 @@
         "published_at": "Thu, 16 Jul 2026 06:55:11 +0800",
         "summary_zh": "近日有傳聞指出輝達公司的下一代人工智慧（AI）加速器系統延遲投產，然而輝達創辦人黃仁勳駁斥了這一傳聞。他強調該公司的Vera Rubin系統已經投入生產，並且將依計畫大規模量產推進。黃仁勳表示，這一系統將為企業提供更高效的計算能力，幫助他們在人工智慧領域取得競爭優勢。這一消息對於輝達公司和整個人工智慧產業都有重要影響，將進一步推動產業的發展。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "98ab8dfc",
@@ -430,8 +636,8 @@
         "published_at": "Thu, 16 Jul 2026 06:08:29 +0800",
         "summary_zh": "週三，美股市場出現了明顯的反彈，道瓊工業指數上漲150.37點，0.29%。這種反彈主要是由於通膨數據走軟及第二季財報季強勁開局所致。然而，台積電的ADR（美國存托股）卻收黑，表明這家台積電仍然面臨著挑戰。這種市場反彈也提振了其他大型科技股，包括通膨數據走軟及第二季財報季強勁開局等因素。費城半導體指數則下跌2.14%，表明這個市場仍然面臨著不確定性。整體來說，週三的市場反彈是由於多種因素所致，包括通膨數據走軟及第二季財報季強勁開局等。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "ce401fdd",
@@ -442,8 +648,8 @@
         "published_at": "Thu, 16 Jul 2026 05:30:00 +0800",
         "summary_zh": "力積電在14日的法說會上報喜，受惠記憶體漲價效益，股價跳空開高並強攻漲停76.1元。公司總經理朱憲國表示，隨著客戶需求熱絡，7月將啟動新一波漲價，漲幅高達45%。此外，外資中止連4日賣超，回頭大買5.4萬張，成交量爆量超過19萬張。力積電的股價站回5日線與月線，表明市場對公司的前景感到樂觀。這一波漲價將對公司的財務狀況產生重大影響，投資者應密切關注公司的發展情況。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "e7574b16",
@@ -454,8 +660,8 @@
         "published_at": "Thu, 16 Jul 2026 05:30:00 +0800",
         "summary_zh": "昇達科（3491）斥資17億元購入巨頻科技股權，董事長陳淑敏表示，這將有助於強化昇達科在低軌衛星和毫米波通訊市場的產品組合、技術能力及客戶廣度。昇達科董事會昨日通過此項決議，巨頻科技的產品可應用在AI、資料中心等領域。昇達科董事長指出，昇達科90%的產品都是應用在低軌衛星，因此投資巨頻將有助於昇達科在這個市場的競爭力。這項投資將有助於昇達科在未來的發展中取得更大的成就。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "2c68bb67",
@@ -568,52 +774,52 @@
     ],
     "finance": [
       {
-        "id": "c56a862d",
-        "title": "美國國會高層要求英國文化部長就「新聞優先」計畫進行簡報",
-        "url": "https://www.ft.com/content/3155371e-e6b7-4de8-bf19-dcb1af0b6f82",
-        "source": "Financial Times",
+        "id": "f147946d",
+        "title": "德國政府規劃 2027 年 13.3 億歐元能源救助方案",
+        "url": "https://www.reuters.com/business/energy/german-government-plans-133-billion-energy-relief-package-2027-2026-07-15/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-07-15 10:59:04",
-        "summary_zh": "美國國會議員吉姆·瓊斯（Jim Jordan）對英國政府的「新聞優先」計畫表示關注，他要求英國文化部長南迪（Nandy）進行簡報。英國政府計畫強制社交媒體公司提升信任度的新聞在平台上的顯示次序，吉姆·瓊斯認為這項計畫可能會限制言論自由。吉姆·瓊斯是美國眾議院司法委員會主席，他對英國政府的計畫表示批評，認為這項計畫可能會侵犯言論自由。南迪文化部長表示，她將與吉姆·瓊斯進行溝通，以解釋英國政府的計畫。這項計畫可能會對社交媒體公司和新聞業界造成重大影響。",
-        "sentiment": "負面",
+        "published_at": "2026-07-15 11:59:19",
+        "summary_zh": "德國政府計劃為 2027 年推出 13.3 億歐元的能源救助方案。這項方案旨在幫助德國民眾在能源價格上升的情況下度過嚴寒的冬季。德國政府表示，這項方案將提供長達 12 個月的能源補助，幫助民眾節省能源費用。根據預計，德國能源價格將在 2027 年上升至歷史新高。德國政府的能源救助方案將對民眾造成重大影響，尤其是在能源價格上升的情況下。德國政府的這項措施將幫助民眾度過難關，同時也將對能源市場產生一定影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2aa1c3fd",
+        "title": "摩根士丹利利潤增長，交易業務和收購業務成績亮眼",
+        "url": "https://www.reuters.com/business/finance/morgan-stanley-profit-rises-dealmaking-boost-2026-07-15/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-15 11:59:08",
+        "summary_zh": "摩根士丹利近期的利潤增長主要是由於交易業務和收購業務的成績亮眼。根據最新的財務報告，摩根士丹利的交易業務收入達到 14.6 億美元，較去年同期增長 21%。此外，摩根士丹利的收購業務也取得了顯著成績，該公司今年已經完成了 150 多個交易，總交易規模達到 1.2 萬億美元。摩根士丹利的這些成績是由於該公司在金融市場的領導地位和其強大的交易團隊所致。摩根士丹利的這些成績也表明了金融市場的活躍和投資人對交易業務的需求。然而，摩根士丹利的利潤增長也面臨著挑戰，包括市場波動和競爭加劇等因素。因此，摩根士丹利需要繼續鞏固其領導地位和交易團隊的優勢，以維持其利潤增長的勢頭。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b77a8a36",
+        "title": "烏干達財政赤字預計在2031年降至GDP的3%、央行表示",
+        "url": "https://www.reuters.com/world/africa/ugandas-fiscal-deficit-decline-3-gdp-by-2031-central-bank-says-2026-07-15/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-15 11:56:22",
+        "summary_zh": "烏干達央行預計該國的財政赤字將在2031年降至GDP的3%。根據央行的數據，2023年烏干達的財政赤字佔GDP的5.5%。央行表示，該國的財政赤字在2024年將降至4.5%，然後逐步降至2031年的3%。這是由於烏干達政府正在實施一系列財政改革和節流措施，包括提高稅收和降低公共開支。這些措施旨在改善烏干達的財政狀況並促進經濟發展。烏干達的經濟在2023年錄得了4.5%的增長，央行預計2024年將錄得4.8%的增長。烏干達的經濟增長是該國在過去幾年來的穩定增長的一部分，央行表示該國的經濟將繼續穩定增長。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "7c0b2e4b",
-        "title": "布魯塞爾準備對Google再次罰款　大科技企業執行力加強",
-        "url": "https://www.ft.com/content/c5a880f1-aa6a-4336-b499-3ab95cf37857",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-07-15 10:45:03",
-        "summary_zh": "歐盟正在準備對Google再次罰款，這將考驗歐盟能否在不與華盛頓重新激化緊張關係的情況下監管數字市場。歐盟執行機關正在積極執行對大科技企業的監管，包括對Google、Amazon、Facebook和Apple的罰款。這些罰款旨在促進競爭、保護消費者權益和防止大科技企業壟斷市場。然而，這些行動也引發了美國政府的關注，美國政府擔心這些罰款會對美國企業造成不公平的影響。歐盟和美國政府之間的關係正在加緊，雙方正在努力找到平衡監管和保護企業利益的方法。這些罰款將對歐盟的監管能力和對大科技企業的影響力產生重大影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "99b468fa",
-        "title": "能源轉型的最後一哩路",
-        "url": "https://www.ft.com/content/81d7d7a8-25fa-433d-93b4-61b8756e058f",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-07-15 11:00:06",
-        "summary_zh": "能源轉型的最後一哩路，貸款機構和投資者開始為家庭採用可再生能源技術提供資金。能源轉型的進展已經取得了重大突破，但仍有許多家庭未能採用可再生能源技術。貸款機構和投資者開始為這些家庭提供貸款和投資，幫助他們購買太陽能板、風力發電機等可再生能源設備。這項努力將有助於加速能源轉型的進程，減少對傳統能源的依賴。然而，仍有許多挑戰需要克服，包括成本、技術和政策障礙。能源轉型的最後一哩路將需要持續的努力和合作，才能使可再生能源成為主要的能量來源。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "b2c453f6",
-        "title": "房屋貸款利率達近一年最高，購屋買家暫停購買",
-        "url": "https://www.cnbc.com/2026/07/15/mortgage-rates-rise-to-highest-level-in-nearly-a-year.html",
+        "id": "02470f72",
+        "title": "阿里巴巴美國上市股價升4% 因為Qwen AI將整合在蘋果智慧系統",
+        "url": "https://www.cnbc.com/2026/07/15/alibaba-qwen-ai-apple-intelligence.html",
         "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-07-15 11:00:01",
-        "summary_zh": "房屋貸款利率近期上升，導致購屋買家暫停購買，但房屋貸款再融資業務則有小幅增長。房屋貸款利率上升，購屋買家開始謹慎，暫停購屋。房屋貸款利率上升對購屋市場造成影響，購屋買家需要重新評估購屋計劃。房屋貸款利率上升的原因包括經濟環境的變化和市場預期的變化。房屋貸款利率上升對房屋貸款再融資業務也有影響，房屋貸款再融資業務的小幅增長是房屋貸款利率上升的結果。房屋貸款利率的變化對購屋市場和房屋貸款再融資業務都有影響，購屋買家需要密切關注房屋貸款利率的變化。",
-        "sentiment": "負面",
+        "published_at": "2026-07-15 11:55:31",
+        "summary_zh": "阿里巴巴的美國上市股價近日升幅達4%。原因是中國網信辦日前將蘋果的AI服務列入了中國政府核准的AI提供者名單。這一消息對於阿里巴巴來說是一個正面因素，因為蘋果將會使用Qwen AI的技術，這將為阿里巴巴帶來新的商機。然而，中國政府的核准也意味著中國政府對於外國公司的AI技術有了新的監控和管制。這一發展對於阿里巴巴和其他外國公司來說是一個新的挑戰。",
+        "sentiment": "正面",
         "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false
       },
       {
         "id": "72b698c4",
@@ -625,6 +831,30 @@
         "summary_zh": "美國通膨在6月出現放緩趨勢，批發物價指數（PPI）月減0.3%，是近一年來首見。能源成本在中東戰爭有望持久解決的預期之下走跌，對於美國的通膨壓力有所緩和。不過，戰事已經再度爆發，這可能會對能源成本和通膨壓力造成不確定性。美國政府的數據顯示，6月的PPI下降，表明通膨的壓力正在放緩，但仍需要觀察未來的發展。這項數據對於美國的經濟政策和投資者有重要影響。",
         "sentiment": "中性",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c56a862d",
+        "title": "美國國會高層要求英國文化部長就「新聞優先」計畫進行簡報",
+        "url": "https://www.ft.com/content/3155371e-e6b7-4de8-bf19-dcb1af0b6f82",
+        "source": "FT Tech",
+        "category": "finance",
+        "published_at": "Wed, 15 Jul 2026 10:59:04 GMT",
+        "summary_zh": "美國國會議員吉姆·瓊斯（Jim Jordan）對英國政府的「新聞優先」計畫表示關注，他要求英國文化部長南迪（Nandy）進行簡報。英國政府計畫強制社交媒體公司提升信任度的新聞在平台上的顯示次序，吉姆·瓊斯認為這項計畫可能會限制言論自由。吉姆·瓊斯是美國眾議院司法委員會主席，他對英國政府的計畫表示批評，認為這項計畫可能會侵犯言論自由。南迪文化部長表示，她將與吉姆·瓊斯進行溝通，以解釋英國政府的計畫。這項計畫可能會對社交媒體公司和新聞業界造成重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7c0b2e4b",
+        "title": "布魯塞爾準備對Google再次罰款　大科技企業執行力加強",
+        "url": "https://www.ft.com/content/c5a880f1-aa6a-4336-b499-3ab95cf37857",
+        "source": "FT Tech",
+        "category": "finance",
+        "published_at": "Wed, 15 Jul 2026 10:45:03 GMT",
+        "summary_zh": "歐盟正在準備對Google再次罰款，這將考驗歐盟能否在不與華盛頓重新激化緊張關係的情況下監管數字市場。歐盟執行機關正在積極執行對大科技企業的監管，包括對Google、Amazon、Facebook和Apple的罰款。這些罰款旨在促進競爭、保護消費者權益和防止大科技企業壟斷市場。然而，這些行動也引發了美國政府的關注，美國政府擔心這些罰款會對美國企業造成不公平的影響。歐盟和美國政府之間的關係正在加緊，雙方正在努力找到平衡監管和保護企業利益的方法。這些罰款將對歐盟的監管能力和對大科技企業的影響力產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -666,6 +896,42 @@
     ],
     "stock_us": [
       {
+        "id": "a49f77b0",
+        "title": "知名分析師丹艾維斯離開Wedbush後成立Yorkville Ives merchant bank",
+        "url": "https://www.cnbc.com/2026/07/15/star-analyst-dan-ives-forms-yorkville-ives-merchant-bank-after-leaving-wedbush.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-15 11:51:55",
+        "summary_zh": "知名分析師丹艾維斯（Dan Ives）宣布離開Wedbush後，成立了自己的投資銀行公司Yorkville Ives & Co。新公司將提供投資銀行服務、股權研究、機構交易和主動投資等業務。這標誌著艾維斯進一步拓展其在金融界的影響力。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c4a2d146",
+        "title": "前市最大的股票波動：BlackRock、PayPal、ASML、Morgan Stanley等",
+        "url": "https://www.cnbc.com/2026/07/15/stocks-making-the-biggest-moves-premarket-blk-pypl-asml.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-15 11:41:57",
+        "summary_zh": "在美國股市前市交易中，BlackRock、PayPal、ASML和Morgan Stanley等股票出現了最大幅度的波動。這些股票的股價變化將對投資者產生重要影響。投資者應該密切關注這些股票的動態，以便做出明智的投資決策。前市交易的波動可能會對股市整體趨勢產生影響，因此投資者需要保持警惕和謹慎。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7cd6248c",
+        "title": "強生季度盈餘超越華爾街預期，藥品業務強勁",
+        "url": "https://www.cnbc.com/2026/07/15/johnson-johnson-jnj-q2-earnings.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-15 11:35:33",
+        "summary_zh": "強生公司在藥品業務的強勁表現下，季度盈餘超越了華爾街的預期。根據最新的財報數據，強生公司的藥品業務收入大幅增加，公司也同時提高了全年的銷售和利潤預估。這一結果表明，強生公司的藥品業務正在取得持續的成長，並對公司的整體業績產生了積極的影響。分析師認為，這一成績是由於公司的藥品業務在全球市場上取得了突破性的成績，尤其是在疫苗和癌症治療領域。這一結果對於強生公司的未來發展具有重要的意義，公司將繼續投資於藥品業務的研發和拓展，以鞏固其在全球市場上的領導地位。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "03e4a27e",
         "title": "IBM 達到歷史新低，Oppenheimer建議投資者避免購買IBM股票",
         "url": "https://www.cnbc.com/2026/07/15/ibm-just-had-its-worst-day-ever-heres-how-oppenheimer-rates-it.html",
@@ -674,20 +940,8 @@
         "published_at": "2026-07-15 10:49:30",
         "summary_zh": "IBM 達到歷史新低，投資公司Oppenheimer將IBM評級從「買入」降至「持有」。這個降評是因為IBM的股價表現不佳，對於投資者來說，現在不是買入IBM股票的好時機。IBM 的股價表現不佳，對於投資者來說，現在不是買入IBM股票的好時機。投資公司的降評對於IBM的股價會有所影響，投資者需要密切關注IBM的股價變化。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "e8ce43ef",
-        "title": "強勁藥品業務，強勁財報：強生第四季財報超越華爾街預期",
-        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/jj-quarterly-earnings-beat-wall-street-estimates-strength-medicines-unit-2026-07-15/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-07-15 10:27:35",
-        "summary_zh": "強生公司第四季財報出爐，公司的藥品業務表現出色，超越了華爾街的預期。根據財報顯示，公司的藥品業務收入增長了 10.1%，而整體收入增長了 3.5%。藥品業務的強勁表現是公司財報的關鍵因素，藥品業務的收入佔公司整體收入的 58.1%。公司的財務指標也表現出色，公司的營業利潤率為 24.4%，超越了市場預期。公司的管理層表示，藥品業務的強勁表現是公司未來發展的關鍵。這項消息對於投資者來說是一個積極的信號，表明公司的財務健康狀況良好。然而，公司的未來發展仍面臨著挑戰，包括市場競爭和政策變化等。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "d5ab3aaf",
@@ -714,18 +968,6 @@
         "ai_classified": true
       },
       {
-        "id": "c31934b5",
-        "title": "AI雲端公司CoreWeave研究華爾街風格的風險管理策略以應對記憶體晶片價格波動",
-        "url": "https://www.reuters.com/world/ai-cloud-company-coreweave-explores-wall-street-playbook-hedge-memory-chip-price-2026-07-14/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-07-14 23:51:44",
-        "summary_zh": "CoreWeave是一家專注於AI雲端的公司，目前正在研究華爾街風格的風險管理策略，以應對記憶體晶片價格的波動。這些策略包括購買和出售記憶體晶片的選擇權，藉此來減少對記憶體晶片價格波動的風險。這種風險管理策略是由華爾街投資銀行和交易公司所發展出來的，目的是為公司的投資和財務活動提供穩定的基礎。CoreWeave的這一舉動表明該公司正在積極地應對記憶體晶片價格的波動，並且正在尋找新的風險管理策略來維持公司的穩定性。這一發展對於AI雲端公司的風險管理和投資策略有著重要的影響，值得關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "34b05190",
         "title": "通膨降溫加財報利多 美股3大指數收紅",
         "url": "https://www.cna.com.tw/news/afe/202607160010.aspx",
@@ -747,152 +989,6 @@
         "summary_zh": "SpaceX在美股市場的熱情已經開始消退，公司的股價在連續4個交易日的下跌中，首次跌破其首次公開募股的發行價135美元。這是投資人對公司未來成長前景的信心開始動搖的跡象。SpaceX的股價下跌可能會對公司的未來發展造成影響，投資人需要密切關注公司的財務報表和未來的營運表現。SpaceX的股價下跌也可能會對整個科技股市場造成影響，投資人需要保持警覺以避免未來的風險。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "677bd481",
-        "title": "特朗普提名的司法部長候選人將面臨參議院聽證會",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/15/todd-blanche-attorney-general-senate-donald-trump-ice-darline-graham-lindsey-graham-us-politics-live-news",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Jul 2026 22:49:25 GMT",
-        "summary_zh": "美國政治局勢持續緊張，特朗普的司法部長候選人將面臨參議院聽證會。近日，美國移民及海關執法局（ICE）官員在美國各地發生多起槍擊事件，造成兩名非執法目標的男子死亡。人權團體譴責這些槍擊事件是非法處決。聯邦移民官員已經接到指示暫停拦截車輛的行動，直到另行通知。這是因為近期在德克薩斯州和緬因州發生的槍擊事件中，官員在車輛中射殺了移民。同時，南卡羅來納州州長亨利麥考密克宣布任命共和黨參議員林西·格拉罕的妹妹達琳·格拉罕暫時接替其參議員席位。這是林西·格拉罕去世後三天的決定。另外，佛羅里達州一名移民在與聯邦移民官員的遭遇中死亡，標誌著一週內與移民執法行動相關的第三宗死亡事件。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9c8286ac",
-        "title": "奧巴馬前顧問在艾普斯坦聽證會上被質疑不誠實",
-        "url": "https://www.theguardian.com/us-news/2026/jul/15/obama-kathryn-ruemmler-epstein-questions",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Jul 2026 22:43:59 GMT",
-        "summary_zh": "美國民主黨人士對奧巴馬前顧問凱瑟琳·魯姆勒（Kathryn Ruemmler）在艾普斯坦聽證會上的證詞表示懷疑，認為她沒有完全誠實。魯姆勒曾擔任白宮顧問，艾普斯坦的文件中她的名字出現了數千次。她在聽證會上表示，艾普斯坦曾利用她來合法化自己的地位，並表示與他打交道是一個錯誤。然而，她堅稱自己從未目睹任何犯罪行為。民主黨人士對她的說詞表示質疑，認為她沒有完全誠實。這次聽證會是對艾普斯坦受害者調查的一部分。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "47c6d229",
-        "title": "美國軍方將開始進行睪固素測試，赫格塞斯說",
-        "url": "https://www.bbc.co.uk/news/articles/cn0nlx18rz0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Jul 2026 22:46:02 GMT",
-        "summary_zh": "美國國防部長赫格塞斯表示，美國軍方將開始進行睪固素測試，以提供軍人最好的醫療照護。這項措施是為了確保軍人能夠得到最好的醫療照護，赫格塞斯認為這是對軍人的義務。這項測試將對美國軍方的醫療系統帶來新的變化，同時也會對軍人的生活產生影響。美國軍方的睪固素測試將會是全球軍方中的一項先進措施，同時也會對軍人健康的研究帶來新的進展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "3cf7a429",
-        "title": "美國眾議院否決終止對以色列軍事援助的提案",
-        "url": "https://www.theguardian.com/us-news/2026/jul/15/house-democrats-israel-aid",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Jul 2026 21:48:30 GMT",
-        "summary_zh": "美國眾議院週三否決了一項提案，該提案旨在砍掉對以色列的3.3億美元軍事援助。雖然提案被否決，但超過100名民主黨議員投票贊成，表明黨內對以色列和內塔尼亞胡政府的態度已經惡化。這一發展是在以色列政府被指允許在加沙實施種族滅絕的指控下，黨內的爭論正在升級。這一事件在美國即將舉行的中期選舉之前，對黨內的政治格局產生了重大影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "a53f1520",
-        "title": "委內瑞拉男子在ICE監禁中死亡，今年已經是第22人",
-        "url": "https://www.theguardian.com/us-news/2026/jul/15/man-dies-georgia-ice-detention",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Jul 2026 21:48:27 GMT",
-        "summary_zh": "美國移民和海關執法局（ICE）宣布，45歲的委內瑞拉男子耶穌曼努爾·阿雷納斯-席爾瓦（Jesús Manuel Arenas-Silva）在佐治亞州的一個監禁中心死亡。阿雷納斯-席爾瓦於上週四被捕，之後被關押在佐治亞州的伊文縣監禁中心（Irwin county detention center），是一間私人經營的監禁中心。當他被轉移到另一間ICE監禁中心時，於星期一早上被發現在運輸巴士中「無反應」。ICE表示，阿雷納斯-席爾瓦的死因被懷疑是心臟病發作。這是今年在ICE監禁中死亡的第22人。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "cb1380f1",
-        "title": "CDC提名人艾瑞卡·施瓦茨被問及是否會抵制RFK Jr的疫苗議程",
-        "url": "https://www.theguardian.com/us-news/2026/jul/15/erica-schwartz-cdc-senate-hearing",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Jul 2026 21:24:28 GMT",
-        "summary_zh": "美國疾病控制與預防中心(CDC)的提名人艾瑞卡·施瓦茨，曾在川普政府擔任副外科醫生，出席參議院健康委員會聽證會時被問及是否會抵制健康部長羅伯特·肯尼迪(Robert F Kennedy Jr)的疫苗議程。施瓦茨表示 herself she “會永遠不會背叛科學”，並承諾透過“徹底透明”來重建公眾信任。但是，她反覆避開了如何處理肯尼迪施壓的問題。肯尼迪是一位反疫苗運動領袖，曾在CDC引起數月的混亂，並對美國疫苗政策進行了爭議性的變革。這次聽證會的目的是為了確認施瓦茨是否適合擔任CDC的領導人。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "716350ad",
-        "title": "埃普斯坦事件與川普關係：布蘭奇確認聽證會關鍵點",
-        "url": "https://www.bbc.co.uk/news/articles/c62q3g32204o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Jul 2026 19:05:43 GMT",
-        "summary_zh": "布蘭奇在星期三面臨跨黨派質詢，他正在爭取永久擔任美國總檢察長。布蘭奇的確認聽證會是他能夠正式擔任總檢察長的關鍵一步。然而，布蘭奇的前任在聯邦調查局（FBI）工作期間，曾與埃普斯坦有過接觸，布蘭奇是否能夠有效地處理埃普斯坦事件引發了質詢者們的關注。另外，布蘭奇與川普的關係也引起了議會的關注。川普曾在推特上表示，布蘭奇是他最好的朋友之一。這使得布蘭奇的獨立性和公正性受到質疑。布蘭奇必須證明自己能夠獨立地處理埃普斯坦事件和其他案件，同時維持與川普的關係。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b7d977c0",
-        "title": "特朗普突然改變立場，表明他難以結束伊朗戰爭",
-        "url": "https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 14 Jul 2026 23:17:27 GMT",
-        "summary_zh": "美國總統特朗普突然改變立場，放棄對霍爾木茲海峽徵收通行費的計畫，這是伊朗戰爭最新的轉折點。伊朗戰爭已經持續超過四個月，美國總統的突然改變立場，表明他可能難以結束這場戰爭。霍爾木茲海峽是伊朗與阿拉伯半島之間的重要海上通道，徵收通行費的計畫曾被視為美國對伊朗施壓的一種手段。然而，美國總統的突然改變立場，可能意味著美國對伊朗戰爭的策略出現了變化。這一轉折點將對未來的戰爭走向產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bb18d8d3",
-        "title": "美國國會通過《陽光保護法》將日光節約時間永久化",
-        "url": "https://www.bbc.co.uk/news/videos/c2lq1nqk2v9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Jul 2026 18:34:00 GMT",
-        "summary_zh": "美國國會日前通過《陽光保護法》，將日光節約時間永久化。這項法案將讓美國不再每年春秋季調整時鐘，讓美國人可以永久享受夏令時間。美國國會通過這項法案後，將需要等待總統簽署後方能實施。美國人對於這項法案的反應各有不同，有人認為這項法案會讓人們的生活更加便利，有人則擔心這項法案會影響健康。美國政府將會對這項法案的影響進行評估，確保其實施後對美國人生活的影響最大化。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "61bfa25c",
-        "title": "ICE被告知暫停大多數車輛檢查行動",
-        "url": "https://www.bbc.co.uk/news/articles/cly8yrw597eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Jul 2026 22:21:40 GMT",
-        "summary_zh": "美國移民執法局（ICE）近日遭到命令，暫停大多數車輛檢查行動。這是該機構近年來面臨過的重大政策轉變之一，主要原因是該機構過去被指控濫用武力。ICE的車輛檢查行動一直是移民政策中的一個爭議議題，許多人批評該機構的行動過於嚴厲，甚至導致生命損失。這項命令的出現，意味著ICE將會暫時停止這些行動，盡量避免類似事件的發生。這項政策轉變將對ICE的執法工作產生重大影響，同時也引起了對移民政策的重新評估。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "325c7dfa",
-        "title": "美國國會通過法案，將日光節約時間永久化",
-        "url": "https://www.bbc.co.uk/news/articles/cz9l9venjd8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Jul 2026 11:30:44 GMT",
-        "summary_zh": "美國國會通過一項法案，將日光節約時間永久化。這項法案由前總統川普支持，旨在終止美國人每年兩次更改時鐘的習慣。這項法案在眾議院通過後，將進一步在參議院進行審議。日光節約時間的永久化將對美國的生活方式產生重大影響，包括工作時間、學校時間和商業活動等。這項變革將為美國帶來新的時間安排，讓美國人能夠享受持續的節約時間。然而，這項變革也引發了對於時間安排的爭議，包括對於夏季時間和冬季時間的安排等問題。美國政府將進一步審議這項法案，最終決定是否通過永久化日光節約時間。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f8c81da8",
-        "title": "衡量外匯儲備赤字",
-        "url": "https://www.whitehouse.gov/research/2026/07/measuring-balance-of-payments-deficits/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 15 Jul 2026 16:12:50 +0000",
-        "summary_zh": "外匯儲備赤字已經成為政策制定者和經濟學家關注的問題數十年來，近期的發展使得如何衡量和何時應該關注外匯儲備赤字的問題再次受到關注。外匯儲備是美國政府用來跟踪美國人與其他國家之間所有經濟交易的會計框架。外匯儲備赤字是指美國人向其他國家支付的金額超過從其他國家收到的金額。這種情況通常表明美國的經濟活動超出了其儲備的能力。美國政府和經濟學家一直在探討如何衡量和應對外匯儲備赤字。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       }
     ]
