@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-17T14:07:13.268696+08:00",
+  "generated_at": "2026-07-17T15:05:52.620803+08:00",
   "risk_signals": [
     "🔴 台股加權 42671.27（急跌 -6.47%）",
     "🟢 S&P 500 7533.77（正常）",
     "🟢 VIX 恐慌指數 16.73（正常）",
     "🟢 MOVE 債市波動 69.55（正常）",
-    "🟢 美元指數 100.76（正常）",
-    "🟢 黃金 3992.6（正常）",
+    "🟢 美元指數 100.69（正常）",
+    "🟢 黃金 4002.1（正常）",
     "🟡 美債10Y殖利率 4.57（留意）",
-    "🟢 原油 WTI 78.36（正常）",
-    "🟢 美元/台幣 32.37（正常）"
+    "🟢 原油 WTI 78.65（正常）",
+    "🟢 美元/台幣 32.33（正常）"
   ],
-  "ai_summary": "市場氛圍偏悲觀，台股急跌引發投資者擔憂。美元指數和美債10年殖利率的微幅上升，顯示投資者對經濟前景的擔憂持續存在。",
+  "ai_summary": "市場氛圍偏憂慮，台股大幅下挫，美債10年殖利率飆升至4.57%，市場對未來經濟前景出現擔憂。",
   "market": {
     "TWII": {
       "price": 42671.27,
@@ -38,327 +38,25 @@
       "change_pct": null
     },
     "DXY": {
-      "price": 100.76,
-      "change_pct": 0.03
+      "price": 100.69,
+      "change_pct": -0.04
     },
     "GOLD": {
-      "price": 3992.6,
-      "change_pct": 0.18
+      "price": 4002.1,
+      "change_pct": 0.41
     },
     "OIL": {
-      "price": 78.36,
-      "change_pct": -0.75
+      "price": 78.65,
+      "change_pct": -0.38
     },
     "USDTWD": {
-      "price": 32.37,
-      "change_pct": 0.48
+      "price": 32.33,
+      "change_pct": 0.39
     }
   },
   "macro": {},
   "categories": {
-    "global": [
-      {
-        "id": "e6b26d69",
-        "title": "美國發動新一波攻擊 伊朗爆發爆炸",
-        "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 17 Jul 2026 04:42:39 GMT",
-        "summary_zh": "美國對伊朗發動新一波攻擊，美國方面表示這次攻擊的目的是「進一步削弱伊朗軍事能力」。伊朗內部的衝突持續了六天，美國的攻擊引發了伊朗爆炸事件。這次攻擊的背景是伊朗內部的軍事能力和美國對伊朗的制裁。美國的攻擊對伊朗的影響可能會導致伊朗的軍事能力進一步削弱，進而影響伊朗的政治局勢。伊朗的政府可能會對美國的攻擊做出回應，進而引發新的衝突。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4a9979c0",
-        "title": "超過 500 羅興亞人在海上消失了 - 什麼發生了?",
-        "url": "https://www.bbc.co.uk/news/articles/cr59n096mrmo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Fri, 17 Jul 2026 03:07:11 GMT",
-        "summary_zh": "近日，兩艘載有約 530 名羅興亞人的船隻自 29 日從緬甸出發後，已經消失無蹤。這些羅興亞人是為了逃避緬甸政府的迫害而出逃。根據目擊者描述，船隻在出海後不久就消失了，沒有任何跡象。這一事件引起了國際社會的關注，許多人對羅興亞人遭遇的命運感到擔憂。緬甸政府對此事件的回應是，船隻可能因為風浪而沉沒，但缺乏證據支持這一說法。這一事件也引發了對緬甸政府對羅興亞人待遇的批評。許多人認為，緬甸政府應該為羅興亞人提供安全的逃亡途徑，而不是讓他們在海上遇難。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f1b45ba1",
-        "title": "加拿大超過 800 個野火正在燃燒 美國部分地區空氣質量警報延長",
-        "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Fri, 17 Jul 2026 02:15:23 GMT",
-        "summary_zh": "加拿大目前有超過 800 個野火正在燃燒，引起空氣質量警報。美國部分地區，包括密西根州、明尼阿波利斯和明尼蘇達州，空氣質量被認為是「危險」的。這些地區的空氣質量警報已經延長，影響到當地居民的健康。加拿大野火的原因尚未明確，但已經引起了當地政府的關注。美國的空氣質量警報可能會繼續延長，直到野火被控制。這些事件的影響不僅限於當地居民的健康，也會對當地的經濟和環境產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d6e7a489",
-        "title": "日本放寬皇室繼承規則，但仍禁止女性皇帝",
-        "url": "https://www.bbc.co.uk/news/articles/cy07rz79zg9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 17 Jul 2026 05:16:34 GMT",
-        "summary_zh": "日本政府近日通過了一項新法案，放寬了皇室繼承規則。根據新法案，男性皇室成員的遠房親屬，年齡在15歲以上，可以被重新納入皇室。然而，這項新法案並未改變皇室繼承權的性別限制，女性仍然無法成為皇帝。這項變化是日本皇室繼承規則的第一次重大修改，旨在讓皇室繼承權更加寬泛。然而，這項變化也引發了爭議，許多人認為這項新法案仍然存在性別歧視。日本皇室繼承規則的變化將對日本皇室的未來發展產生重大影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "94ad717b",
-        "title": "白宮幕僚被指利用內部情報賺取 10 萬美元的特朗普演講投注",
-        "url": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 18:52:35 GMT",
-        "summary_zh": "白宮幕僚被指利用內部情報，知道特朗普即將發表的演說內容，透過線上投注平台 Kalshi，賺取近 10 萬美元。這名幕僚被指利用其職務上的優勢，獲取有利的資訊，從而進行高賠率的投注。這一事件引發了對白宮工作人員行為的關注，是否存在違規行為，還有未來如何防止此類事件發生的問題。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "873afeb4",
-        "title": "菲律賓譴責中國媒體用AI影片將其比作猴子",
-        "url": "https://www.bbc.co.uk/news/articles/cj632307934o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Fri, 17 Jul 2026 02:37:45 GMT",
-        "summary_zh": "菲律賓政府對中國媒體用AI影片將其比作猴子進行譴責。中國的《中國日報》發布了一段影片，影片中一隻猴子被迫唱出中國對南海的主張。這一行為引起了菲律賓政府的強烈不滿，菲律賓外交部發表聲明譴責這一行為，認為這是對菲律賓的侮辱和嘲笑。菲律賓政府呼籲中國媒體尊重他國的主權和尊嚴，停止這樣的行為。這一事件也引起了國際社會的關注，許多人批評中國的行為是對菲律賓的冒犯和挑釁。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "f391d653",
-        "title": "烏干達校車撞車事故至少20名學生喪生",
-        "url": "https://www.bbc.co.uk/news/articles/c151gegwqv1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 17 Jul 2026 05:36:22 GMT",
-        "summary_zh": "烏干達發生一場校車撞車事故，至少20名學生喪生，多名其他學生和教職員受傷。事故原因懷疑是機械故障導致。這起事故令當地居民感到震驚和哀傷。烏干達政府已經開始調查事故原因，並將對受影響家庭提供幫助。這起事故也引起了對交通安全的關注。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "5ddc6689",
-        "title": "英國政府國有化英國鋼鐵公司遭中國批評",
-        "url": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Fri, 17 Jul 2026 05:35:00 GMT",
-        "summary_zh": "英國政府宣布將英國鋼鐵公司國有化，指這將保證「一項至關重要的國家能力」。這一決定引發了中國的批評。英國政府認為，通過國有化，英國鋼鐵公司將能夠繼續生產鋼鐵，為國家的經濟發展提供重要支撐。然而，中國政府認為，這一決定違反了市場原則，將導致資源的浪費和效率的下降。英國政府的決定也引發了關於國家干預市場的辯論。這一事件顯示出英國政府對於國家能力的重視，以及對於市場原則的不同看法。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "59f527e6",
-        "title": "奧運自行車選手承認駕駛違反禁令後，妻子在事故中喪生",
-        "url": "https://www.bbc.co.uk/news/articles/c62q3ywep1ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 17 Jul 2026 05:09:14 GMT",
-        "summary_zh": "奧運自行車選手羅漢·丹尼斯（Rohan Dennis）承認駕駛違反禁令，原因是他在去年一次事故中，妻子不幸喪生。根據報導，丹尼斯在去年一場自行車事故中，妻子遭遇嚴重受傷後不久，丹尼斯因酒後駕駛被捕。由於他未能服從警方指示，丹尼斯被判禁令。然而，丹尼斯在禁令期間仍駕駛車輛，最終被警方逮捕。丹尼斯承認違反禁令，將面臨法律處罰。這一事件引起了廣泛關注，許多人對丹尼斯的行為感到震驚和失望。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "36d6c079",
-        "title": "澳洲對於老撾甲醇中毒事件表達深度挫折",
-        "url": "https://www.bbc.co.uk/news/articles/cy5d4z343wlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Fri, 17 Jul 2026 02:56:45 GMT",
-        "summary_zh": "澳洲政府對於老撾甲醇中毒事件表達了深度挫折。根據媒體報導，老撾當局將對涉嫌造成甲醇中毒事件的相關人士提出起訴，最高可處以一年監禁。這起事件引發了澳洲政府的關注，澳洲政府認為老撾政府應該對此事件進行徹底調查，並對相關責任人進行嚴厲懲處。澳洲政府也呼籲老撾政府盡快公布調查結果，並對外界透明。這起事件也引發了國際社會的關注，各國政府和國際組織紛紛表達了對老撾政府的關切。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "69d9ef53",
-        "title": "西海岸灘道大水災：百年舊水管爆裂淹沒洛杉磯熱點",
-        "url": "https://www.theguardian.com/us-news/2026/jul/16/los-angeles-sinkhole-flooding",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Fri, 17 Jul 2026 01:53:31 GMT",
-        "summary_zh": "洛杉磯縣西好萊塢區百年舊水管突然爆裂，造成水灘道大水災，多條主要道路封閉，交通大塞。該水管爆裂後，西好萊塢區出現大水災，地面出現凹陷，巴士被淹沒。水管爆裂的原因尚未明朗。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "459690cd",
-        "title": "烏克蘭城市爆發抗議　總統澤連斯基撤換國防部長遭民眾譴責",
-        "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 16:36:21 GMT",
-        "summary_zh": "烏克蘭總統澤連斯基突然撤換國防部長米哈伊洛·費多羅夫（Mykhailo Fedorov），但未對此做出任何解釋。這一行動引起了民間社會和軍方的強烈不滿，各大城市都爆發了抗議活動。這一事件的背後原因尚未明朗，民眾對總統的決定感到困惑和擔憂。烏克蘭的政治局勢再次陷入動盪，未來的發展方向仍存不確定性。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ef234a8b",
-        "title": "環球病毒爆發：美國官員懷疑塔可堡生菜供應商為病毒源頭",
-        "url": "https://www.theguardian.com/us-news/2026/jul/16/taco-bell-lettuce-cyclosporiasis-outbreak",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Fri, 17 Jul 2026 00:23:45 GMT",
-        "summary_zh": "美國環球病毒爆發，目前已知受影響的州有密西根、俄亥俄、西維吉尼亞和肯塔基。環球病毒是一種寄生蟲病，會引起持續的腹瀉。根據媒體報導，美國官員正在調查塔可堡從泰勒農業公司購買的冰 berg 生菜是否為病毒源頭。泰勒農業公司是美國多家餐廳的生菜供應商。官員正在調查泰勒農業公司供應的生菜是否與病毒爆發有關。這項調查仍在進行中，尚未有正式的結論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3082fd00",
-        "title": "義大利官員被判刑關於熱那亞大橋災難的責任",
-        "url": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 17:22:31 GMT",
-        "summary_zh": "義大利官員因2018年熱那亞大橋倒塌事件被判刑。熱那亞大橋倒塌事件於2018年發生，造成43人死亡。義大利官員Giovanni Castellucci被判處12年刑期。他曾擔任義大利高速公路管理機構的負責人。這起事件的判決結果對於義大利政府和交通安全的影響非常重大。官員們將面臨嚴厲的法律追究，同時也將對交通安全政策進行檢視和改革。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "001b3eeb",
-        "title": "美國副總統指責以色列「操弄」美國民眾意見延長伊朗戰爭",
-        "url": "https://www.bbc.co.uk/news/articles/c1m107yj327o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 21:22:09 GMT",
-        "summary_zh": "美國副總統 JD Vance 指責以色列政客試圖操弄美國民眾意見延長伊朗戰爭。根據他的說法，某些以色列政客試圖延長戰爭以便他們可以繼續從中受益。這一指控引起了對以色列的關注，許多人認為以色列的行為可能違反了美國的利益。美國副總統的說法也引起了對美國外交政策的質疑，許多人認為美國應該更積極地推動和平談判。這一事件也引起了對中東地區的關注，許多人認為伊朗戰爭的延長將會對該地區造成更大的不穩定。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3cace427",
-        "title": "英國減少對非洲國家的援助，某些國家援助減少達 90% ",
-        "url": "https://www.theguardian.com/politics/2026/jul/16/uk-aid-cuts-bilateral-support-african-countries",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 15:20:58 GMT",
-        "summary_zh": "英國外交部公布援助預算的年度報告，顯示因為外交部援助預算的減少，英國對某些非洲國家的援助將減少達 90%。這一措施引起了批評，指出這將給英國在國際舞台上的形象帶來負面影響。英國政府的這一決定將對一些非洲國家的發展造成重大影響，同時也會影響英國在國際關係中的地位。根據外交部的數據，英國對一些非洲國家的援助將在接下來的三年內減少。這一措施的影響將是持續性的，將對英國的國際形象和非洲國家的發展造成深遠的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5a34adcf",
-        "title": "烏干達要求取消旅行限制，最後一名埃博拉病人出院",
-        "url": "https://www.theguardian.com/global-development/2026/jul/16/uganda-travel-restrictions-last-ebola-patient-discharged",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 11:33:27 GMT",
-        "summary_zh": "烏干達已經開始要求各國取消與埃博拉相關的旅行限制，原因是該國最後一名確診埃博拉病人已經出院。根據世界衛生組織的規定，烏干達需要在42天內保持無新感染病例，才可宣布該國埃博拉自由。目前，鄰國剛果民主共和國的埃博拉病例數持續上升。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cbfffbbd",
-        "title": "美國20州空氣質量急劇惡化，來自加拿大野火的煙霧席捲美國",
-        "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 22:21:08 GMT",
-        "summary_zh": "美國多州因為來自加拿大南中部野火的煙霧導致空氣質量急劇惡化，當局呼籲民眾避免外出。美國20多個州面臨空氣質量警報，預計有數百萬美國人將面臨不健康的空氣條件。加拿大北安大略省超過180個活躍的野火引起的煙霧，曾經一度將多倫多的空氣質量排在世界第一。煙霧已經席捲了美國多個州，從明尼蘇達州到紐約州，空氣質量惡化，導致視野模糊。當局呼籲民眾盡量避免外出，保持室內空氣質量良好。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "57bf5103",
-        "title": "世界盃冠軍阿根廷在勝利英格蘭後，展示福克蘭群島旗幟",
-        "url": "https://www.theguardian.com/football/2026/jul/15/malvinas-is-argentinian-world-cup-holders-celebrate-win-over-england-with-banner",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 08:13:50 GMT",
-        "summary_zh": "阿根廷在世界盃半決賽對英格蘭的比賽中，領先英格蘭 1-0 的情況下，在最後五分鐘被英格蘭追平，但阿根廷球員在最後一刻發揮出色，兩次進球逆轉勝，取得世界盃決賽門票，將與西班牙對決。阿根廷球員在慶祝勝利時，展示了一面旗幟，上面寫著“Las Malvinas son Argentinas”，這是對1982年福克蘭群島戰爭的回憶。這個旗幟引發了爭議，因為福克蘭群島是英國的領土，而阿根廷政府長期主張福克蘭群島是阿根廷的一部分。這個旗幟的出現，可能會加劇英阿兩國之間的緊張關係。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "330bc8b9",
-        "title": "加拿大和美國大火有多嚴重，空氣質量風險有多大？",
-        "url": "https://www.bbc.co.uk/news/articles/c5ywdl9ne3yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 16:08:40 GMT",
-        "summary_zh": "加拿大安大略省的大火已經將有毒煙霧覆蓋在美國和加拿大城市。這些大火對空氣質量造成了嚴重的風險，尤其是在美國東部和加拿大中部地區。美國和加拿大政府已經發布了空氣質量警告，建議民眾避免外出，特別是在早晨和傍晚時段。這些大火的原因尚未明確，但據信與氣候變化有關。政府正在努力控制大火並改善空氣質量。民眾被要求保持警惕，避免吸入有毒煙霧，特別是在兒童和老年人中。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5705bf7d",
-        "title": "德克薩斯州洪水再次肆虐 同地點去年洪水造成超過130人喪生",
-        "url": "https://www.bbc.co.uk/news/articles/c3v0xe5elzyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 22:08:13 GMT",
-        "summary_zh": "德克薩斯州遭遇洪水災害，同樣是去年洪水肆虐的地區再次受到重創。去年洪水造成超過130人喪生，包括在營地Mystic遇難的遊客。這次洪水造成至少一人死亡，洪水對當地造成嚴重影響。洪水的來源尚未明確，當地居民正努力應對災情。洪水對當地的經濟和生活造成了重大影響，當地政府正在努力提供援助和救援。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "18181da4",
-        "title": "觀看：匹茲堡橋樑在戲劇性爆炸中被拆除",
-        "url": "https://www.bbc.co.uk/news/videos/c87ngl2j29jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 14:09:18 GMT",
-        "summary_zh": "匹茲堡的一座橋樑將被拆除，將被一座新的預製橋樑取代。根據當局的說法，這將是該州最大的一個橫向滑移工程。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5db2d68f",
-        "title": "台積電承諾再投資 1000 億美元擴大美國生產",
-        "url": "https://www.bbc.co.uk/news/articles/c62x8ldxr7eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 10:23:00 GMT",
-        "summary_zh": "台積電宣布將在美國建立新的晶片製造工廠，創造高科技、高薪的就業機會。這是台積電對美國投資的又一次重大承諾，總投資額將達到 2650 億美元。這項投資將幫助美國減少對外國晶片的依賴，同時也將創造大量就業機會。這項投資的影響將不僅限於美國本土，還將對全球晶片業產生重大影響。台積電的這一舉動被視為美國政府對晶片業的支持和鼓勵的一部分。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "eb6ba460",
-        "title": "美伊衝突再升溫 油價漲至近1個月高點後小幅收低",
-        "url": "https://www.cna.com.tw/news/afe/202607170009.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Fri, 17 Jul 2026 04:35:50 +0800",
-        "summary_zh": "美伊衝突再度升溫，引發外界對中東地區石油供應中斷的憂慮。油價本週因美伊緊張關係升高，飆升至近1個月高點，但今天因交易員獲利了結，國際2大原油指標價格均小幅收低。這種局勢使得全球油價持續波動，對全球經濟的影響也逐漸顯現。美國和伊朗之間的緊張關係再度升級，石油供應的不確定性使得油價持續波動。這種情況下，全球經濟將如何應對油價的波動，仍待觀察。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
     "whitehouse": [
-      {
-        "id": "8fae6a31",
-        "title": "特朗普指責中國干預2020年美國大選，稱美國選舉安全存在嚴重漏洞",
-        "url": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Fri, 17 Jul 2026 04:08:27 GMT",
-        "summary_zh": "美國總統特朗普在選舉中期前公開指責中國干預2020年美國大選，與過去美國情報機構的發現相反。特朗普的指控引起了關注，美國選舉安全一直是政治議題之一。特朗普的發言也引發了對選舉安全的質疑，美國情報機構之前曾經發現沒有證據表明中國干預2020年美國大選。這次特朗普的指控可能會對美國選舉安全的形象造成影響。選舉中期將於11月舉行，美國選民將在選舉中表達意見。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
       {
         "id": "106074cc",
         "title": "川普發表演說，試圖破壞美國選舉制度的信心",
@@ -382,6 +80,18 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "7171f684",
+        "title": "布蘭琪確認美國檢察總長可能取決於會見艾普斯坦受害者",
+        "url": "https://www.ft.com/content/51188c2d-a5f3-415d-a668-f3ec7e50c991?syn-25a6b1a6=1",
+        "source": "Financial Times",
+        "category": "whitehouse",
+        "published_at": "2026-07-16 18:25:37",
+        "summary_zh": "美國參議員湯姆·提利斯（Thom Tillis）威脅要阻止布蘭琪（Blanche）確認為美國檢察總長一職。這是因為艾普斯坦（Epstein）性侵案醜聞持續影響布蘭琪的提名。布蘭琪目前擔任美國檢察總長的代理人，然而提利斯認為她應該會見艾普斯坦的受害者，以證明她能夠有效地處理這種類型的案件。這一事件顯示出美國政治人物對於艾普斯坦性侵案的關注正在持續加大。布蘭琪的確認過程可能會受到這一事件的影響，未來將觀察她是否能夠順利通過確認程序。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "9f5ac514",
@@ -408,6 +118,18 @@
         "ai_classified": true
       },
       {
+        "id": "4a48f868",
+        "title": "川普媒體計畫出售Truth Social帖文優先權　批評者譴責為『膽大妄為的腐敗』",
+        "url": "https://www.theguardian.com/us-news/2026/jul/16/trump-media-truth-social-posts",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 17 Jul 2026 00:13:18 GMT",
+        "summary_zh": "川普媒體公司計畫出售Truth Social帖文優先權，讓投資機構和其他機構能夠在毫秒內收到Truth Social頂級贊助者的帖文，從而在股市、債券和利率市場上獲利。這項計畫引起了對國家安全和金融市場的擔憂。批評者認為這是一種『膽大妄為的腐敗』，會讓投資機構在看到川普的帖文之前就能夠獲利。這項計畫可能會對金融市場造成不當影響，讓投資者在不知情的情況下遭受損失。川普媒體公司的這項計畫引起了對其誠信和透明度的質疑。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "2fb1badf",
         "title": "川普將會見格雷厄姆新任參議員於白宮",
         "url": "https://www.theguardian.com/us-news/live/2026/jul/16/donald-trump-darline-graham-bukele-blanche-iran-ice-2020-election-speech-latest-news-updates",
@@ -432,6 +154,30 @@
         "ai_classified": true
       },
       {
+        "id": "8fae6a31",
+        "title": "特朗普指責中國干預2020年美國大選，稱美國選舉安全存在嚴重漏洞",
+        "url": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 17 Jul 2026 04:08:27 GMT",
+        "summary_zh": "美國總統特朗普在選舉中期前公開指責中國干預2020年美國大選，與過去美國情報機構的發現相反。特朗普的指控引起了關注，美國選舉安全一直是政治議題之一。特朗普的發言也引發了對選舉安全的質疑，美國情報機構之前曾經發現沒有證據表明中國干預2020年美國大選。這次特朗普的指控可能會對美國選舉安全的形象造成影響。選舉中期將於11月舉行，美國選民將在選舉中表達意見。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4fbcde74",
+        "title": "川普媒體推出付費社交內容服務",
+        "url": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 17 Jul 2026 06:28:35 GMT",
+        "summary_zh": "川普媒體宣布推出一項快速付費社交內容服務，供華爾街交易員早點看到社交平台上的關鍵內容。這項服務將為交易員提供早點看到川普社交平台上的重要資訊，包括社交媒體帖子、推文等。這項服務的推出，可能會對社交媒體平台的內容傳播模式產生影響。川普媒體的這一舉動，也可能會引起對社交媒體內容的控制和監管的討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "ea0f017c",
         "title": "川普政府加緊外國學生簽證規則",
         "url": "https://www.bbc.co.uk/news/articles/czdmp87rpv1o?at_medium=RSS&at_campaign=rss",
@@ -453,18 +199,6 @@
         "summary_zh": "美國共和黨籍參議員羅比奧最近呼籲全球各國共同打擊極左主義。羅比奧認為極左主義的極端主義正在全球各地蔓延，對社會和民主制度造成嚴重威脅。他提議各國政府應該共同合作，制定政策和法律來打擊極左主義的極端主義行為。然而，民主黨籍議員批評羅比奧的提議是政治偏見的表現，可能會針對政治對手進行打壓。這一事件引發了對極左主義和極右主義的討論，各方都有不同的看法和意見。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4fbcde74",
-        "title": "川普媒體推出付費社交內容服務",
-        "url": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Fri, 17 Jul 2026 04:56:12 GMT",
-        "summary_zh": "川普媒體宣布推出一項快速付費社交內容服務，供華爾街交易員早點看到社交平台上的關鍵內容。這項服務將為交易員提供早點看到川普社交平台上的重要資訊，包括社交媒體帖子、推文等。這項服務的推出，可能會對社交媒體平台的內容傳播模式產生影響。川普媒體的這一舉動，也可能會引起對社交媒體內容的控制和監管的討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -513,6 +247,272 @@
         "summary_zh": "川普政府今天在全球範圍內發動了針對極左恐怖主義的戰役。川普政府認為，極左恐怖主義應該像對待伊斯蘭極端主義一樣嚴肅對待。這項行動將由川普總統領導，各國政府高官將與川普政府合作，共同對抗極左恐怖主義。這項行動的目標是要讓世界各國了解極左恐怖主義的威脅，並共同努力來防止其蔓延。川普政府認為，這項行動將是對抗極左恐怖主義的一個重大突破。",
         "sentiment": "正面",
         "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "global": [
+      {
+        "id": "3cace427",
+        "title": "英國減少對非洲國家的援助，某些國家援助減少達 90% ",
+        "url": "https://www.theguardian.com/politics/2026/jul/16/uk-aid-cuts-bilateral-support-african-countries",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 15:20:58 GMT",
+        "summary_zh": "英國外交部公布援助預算的年度報告，顯示因為外交部援助預算的減少，英國對某些非洲國家的援助將減少達 90%。這一措施引起了批評，指出這將給英國在國際舞台上的形象帶來負面影響。英國政府的這一決定將對一些非洲國家的發展造成重大影響，同時也會影響英國在國際關係中的地位。根據外交部的數據，英國對一些非洲國家的援助將在接下來的三年內減少。這一措施的影響將是持續性的，將對英國的國際形象和非洲國家的發展造成深遠的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5a34adcf",
+        "title": "烏干達要求取消旅行限制，最後一名埃博拉病人出院",
+        "url": "https://www.theguardian.com/global-development/2026/jul/16/uganda-travel-restrictions-last-ebola-patient-discharged",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 11:33:27 GMT",
+        "summary_zh": "烏干達已經開始要求各國取消與埃博拉相關的旅行限制，原因是該國最後一名確診埃博拉病人已經出院。根據世界衛生組織的規定，烏干達需要在42天內保持無新感染病例，才可宣布該國埃博拉自由。目前，鄰國剛果民主共和國的埃博拉病例數持續上升。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "69d9ef53",
+        "title": "西海岸灘道大水災：百年舊水管爆裂淹沒洛杉磯熱點",
+        "url": "https://www.theguardian.com/us-news/2026/jul/16/los-angeles-sinkhole-flooding",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Fri, 17 Jul 2026 01:53:31 GMT",
+        "summary_zh": "洛杉磯縣西好萊塢區百年舊水管突然爆裂，造成水灘道大水災，多條主要道路封閉，交通大塞。該水管爆裂後，西好萊塢區出現大水災，地面出現凹陷，巴士被淹沒。水管爆裂的原因尚未明朗。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ef234a8b",
+        "title": "環球病毒爆發：美國官員懷疑塔可堡生菜供應商為病毒源頭",
+        "url": "https://www.theguardian.com/us-news/2026/jul/16/taco-bell-lettuce-cyclosporiasis-outbreak",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Fri, 17 Jul 2026 00:23:45 GMT",
+        "summary_zh": "美國環球病毒爆發，目前已知受影響的州有密西根、俄亥俄、西維吉尼亞和肯塔基。環球病毒是一種寄生蟲病，會引起持續的腹瀉。根據媒體報導，美國官員正在調查塔可堡從泰勒農業公司購買的冰 berg 生菜是否為病毒源頭。泰勒農業公司是美國多家餐廳的生菜供應商。官員正在調查泰勒農業公司供應的生菜是否與病毒爆發有關。這項調查仍在進行中，尚未有正式的結論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cbfffbbd",
+        "title": "美國20州空氣質量急劇惡化，來自加拿大野火的煙霧席捲美國",
+        "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 22:21:08 GMT",
+        "summary_zh": "美國多州因為來自加拿大南中部野火的煙霧導致空氣質量急劇惡化，當局呼籲民眾避免外出。美國20多個州面臨空氣質量警報，預計有數百萬美國人將面臨不健康的空氣條件。加拿大北安大略省超過180個活躍的野火引起的煙霧，曾經一度將多倫多的空氣質量排在世界第一。煙霧已經席捲了美國多個州，從明尼蘇達州到紐約州，空氣質量惡化，導致視野模糊。當局呼籲民眾盡量避免外出，保持室內空氣質量良好。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "57bf5103",
+        "title": "世界盃冠軍阿根廷在勝利英格蘭後，展示福克蘭群島旗幟",
+        "url": "https://www.theguardian.com/football/2026/jul/15/malvinas-is-argentinian-world-cup-holders-celebrate-win-over-england-with-banner",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 08:13:50 GMT",
+        "summary_zh": "阿根廷在世界盃半決賽對英格蘭的比賽中，領先英格蘭 1-0 的情況下，在最後五分鐘被英格蘭追平，但阿根廷球員在最後一刻發揮出色，兩次進球逆轉勝，取得世界盃決賽門票，將與西班牙對決。阿根廷球員在慶祝勝利時，展示了一面旗幟，上面寫著“Las Malvinas son Argentinas”，這是對1982年福克蘭群島戰爭的回憶。這個旗幟引發了爭議，因為福克蘭群島是英國的領土，而阿根廷政府長期主張福克蘭群島是阿根廷的一部分。這個旗幟的出現，可能會加劇英阿兩國之間的緊張關係。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e6b26d69",
+        "title": "美國發動新一波攻擊 伊朗爆發爆炸",
+        "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 17 Jul 2026 07:00:31 GMT",
+        "summary_zh": "美國對伊朗發動新一波攻擊，美國方面表示這次攻擊的目的是「進一步削弱伊朗軍事能力」。伊朗內部的衝突持續了六天，美國的攻擊引發了伊朗爆炸事件。這次攻擊的背景是伊朗內部的軍事能力和美國對伊朗的制裁。美國的攻擊對伊朗的影響可能會導致伊朗的軍事能力進一步削弱，進而影響伊朗的政治局勢。伊朗的政府可能會對美國的攻擊做出回應，進而引發新的衝突。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4a9979c0",
+        "title": "超過 500 羅興亞人在海上消失了 - 什麼發生了?",
+        "url": "https://www.bbc.co.uk/news/articles/cr59n096mrmo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 17 Jul 2026 03:07:11 GMT",
+        "summary_zh": "近日，兩艘載有約 530 名羅興亞人的船隻自 29 日從緬甸出發後，已經消失無蹤。這些羅興亞人是為了逃避緬甸政府的迫害而出逃。根據目擊者描述，船隻在出海後不久就消失了，沒有任何跡象。這一事件引起了國際社會的關注，許多人對羅興亞人遭遇的命運感到擔憂。緬甸政府對此事件的回應是，船隻可能因為風浪而沉沒，但缺乏證據支持這一說法。這一事件也引發了對緬甸政府對羅興亞人待遇的批評。許多人認為，緬甸政府應該為羅興亞人提供安全的逃亡途徑，而不是讓他們在海上遇難。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f1b45ba1",
+        "title": "加拿大超過 800 個野火正在燃燒 美國部分地區空氣質量警報延長",
+        "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Fri, 17 Jul 2026 02:15:23 GMT",
+        "summary_zh": "加拿大目前有超過 800 個野火正在燃燒，引起空氣質量警報。美國部分地區，包括密西根州、明尼阿波利斯和明尼蘇達州，空氣質量被認為是「危險」的。這些地區的空氣質量警報已經延長，影響到當地居民的健康。加拿大野火的原因尚未明確，但已經引起了當地政府的關注。美國的空氣質量警報可能會繼續延長，直到野火被控制。這些事件的影響不僅限於當地居民的健康，也會對當地的經濟和環境產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d6e7a489",
+        "title": "日本放寬皇室繼承規則，但仍禁止女性皇帝",
+        "url": "https://www.bbc.co.uk/news/articles/cy07rz79zg9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 17 Jul 2026 05:16:34 GMT",
+        "summary_zh": "日本政府近日通過了一項新法案，放寬了皇室繼承規則。根據新法案，男性皇室成員的遠房親屬，年齡在15歲以上，可以被重新納入皇室。然而，這項新法案並未改變皇室繼承權的性別限制，女性仍然無法成為皇帝。這項變化是日本皇室繼承規則的第一次重大修改，旨在讓皇室繼承權更加寬泛。然而，這項變化也引發了爭議，許多人認為這項新法案仍然存在性別歧視。日本皇室繼承規則的變化將對日本皇室的未來發展產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "94ad717b",
+        "title": "白宮幕僚被指利用內部情報賺取 10 萬美元的特朗普演講投注",
+        "url": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 18:52:35 GMT",
+        "summary_zh": "白宮幕僚被指利用內部情報，知道特朗普即將發表的演說內容，透過線上投注平台 Kalshi，賺取近 10 萬美元。這名幕僚被指利用其職務上的優勢，獲取有利的資訊，從而進行高賠率的投注。這一事件引發了對白宮工作人員行為的關注，是否存在違規行為，還有未來如何防止此類事件發生的問題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "873afeb4",
+        "title": "菲律賓譴責中國媒體用AI影片將其比作猴子",
+        "url": "https://www.bbc.co.uk/news/articles/cj632307934o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 17 Jul 2026 02:37:45 GMT",
+        "summary_zh": "菲律賓政府對中國媒體用AI影片將其比作猴子進行譴責。中國的《中國日報》發布了一段影片，影片中一隻猴子被迫唱出中國對南海的主張。這一行為引起了菲律賓政府的強烈不滿，菲律賓外交部發表聲明譴責這一行為，認為這是對菲律賓的侮辱和嘲笑。菲律賓政府呼籲中國媒體尊重他國的主權和尊嚴，停止這樣的行為。這一事件也引起了國際社會的關注，許多人批評中國的行為是對菲律賓的冒犯和挑釁。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "330bc8b9",
+        "title": "加拿大和美國大火有多嚴重，空氣質量風險有多大？",
+        "url": "https://www.bbc.co.uk/news/articles/c5ywdl9ne3yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 16:08:40 GMT",
+        "summary_zh": "加拿大安大略省的大火已經將有毒煙霧覆蓋在美國和加拿大城市。這些大火對空氣質量造成了嚴重的風險，尤其是在美國東部和加拿大中部地區。美國和加拿大政府已經發布了空氣質量警告，建議民眾避免外出，特別是在早晨和傍晚時段。這些大火的原因尚未明確，但據信與氣候變化有關。政府正在努力控制大火並改善空氣質量。民眾被要求保持警惕，避免吸入有毒煙霧，特別是在兒童和老年人中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f391d653",
+        "title": "烏干達校車撞車事故至少20名學生喪生",
+        "url": "https://www.bbc.co.uk/news/articles/c151gegwqv1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 17 Jul 2026 05:36:22 GMT",
+        "summary_zh": "烏干達發生一場校車撞車事故，至少20名學生喪生，多名其他學生和教職員受傷。事故原因懷疑是機械故障導致。這起事故令當地居民感到震驚和哀傷。烏干達政府已經開始調查事故原因，並將對受影響家庭提供幫助。這起事故也引起了對交通安全的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5ddc6689",
+        "title": "英國政府國有化英國鋼鐵公司遭中國批評",
+        "url": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 17 Jul 2026 05:35:00 GMT",
+        "summary_zh": "英國政府宣布將英國鋼鐵公司國有化，指這將保證「一項至關重要的國家能力」。這一決定引發了中國的批評。英國政府認為，通過國有化，英國鋼鐵公司將能夠繼續生產鋼鐵，為國家的經濟發展提供重要支撐。然而，中國政府認為，這一決定違反了市場原則，將導致資源的浪費和效率的下降。英國政府的決定也引發了關於國家干預市場的辯論。這一事件顯示出英國政府對於國家能力的重視，以及對於市場原則的不同看法。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "59f527e6",
+        "title": "奧運自行車選手承認駕駛違反禁令後，妻子在事故中喪生",
+        "url": "https://www.bbc.co.uk/news/articles/c62q3ywep1ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 17 Jul 2026 05:09:14 GMT",
+        "summary_zh": "奧運自行車選手羅漢·丹尼斯（Rohan Dennis）承認駕駛違反禁令，原因是他在去年一次事故中，妻子不幸喪生。根據報導，丹尼斯在去年一場自行車事故中，妻子遭遇嚴重受傷後不久，丹尼斯因酒後駕駛被捕。由於他未能服從警方指示，丹尼斯被判禁令。然而，丹尼斯在禁令期間仍駕駛車輛，最終被警方逮捕。丹尼斯承認違反禁令，將面臨法律處罰。這一事件引起了廣泛關注，許多人對丹尼斯的行為感到震驚和失望。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5705bf7d",
+        "title": "德克薩斯州洪水再次肆虐 同地點去年洪水造成超過130人喪生",
+        "url": "https://www.bbc.co.uk/news/articles/c3v0xe5elzyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 22:08:13 GMT",
+        "summary_zh": "德克薩斯州遭遇洪水災害，同樣是去年洪水肆虐的地區再次受到重創。去年洪水造成超過130人喪生，包括在營地Mystic遇難的遊客。這次洪水造成至少一人死亡，洪水對當地造成嚴重影響。洪水的來源尚未明確，當地居民正努力應對災情。洪水對當地的經濟和生活造成了重大影響，當地政府正在努力提供援助和救援。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "36d6c079",
+        "title": "澳洲對於老撾甲醇中毒事件表達深度挫折",
+        "url": "https://www.bbc.co.uk/news/articles/cy5d4z343wlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 17 Jul 2026 02:56:45 GMT",
+        "summary_zh": "澳洲政府對於老撾甲醇中毒事件表達了深度挫折。根據媒體報導，老撾當局將對涉嫌造成甲醇中毒事件的相關人士提出起訴，最高可處以一年監禁。這起事件引發了澳洲政府的關注，澳洲政府認為老撾政府應該對此事件進行徹底調查，並對相關責任人進行嚴厲懲處。澳洲政府也呼籲老撾政府盡快公布調查結果，並對外界透明。這起事件也引發了國際社會的關注，各國政府和國際組織紛紛表達了對老撾政府的關切。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "18181da4",
+        "title": "觀看：匹茲堡橋樑在戲劇性爆炸中被拆除",
+        "url": "https://www.bbc.co.uk/news/videos/c87ngl2j29jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 14:09:18 GMT",
+        "summary_zh": "匹茲堡的一座橋樑將被拆除，將被一座新的預製橋樑取代。根據當局的說法，這將是該州最大的一個橫向滑移工程。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "459690cd",
+        "title": "烏克蘭城市爆發抗議　總統澤連斯基撤換國防部長遭民眾譴責",
+        "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 16:36:21 GMT",
+        "summary_zh": "烏克蘭總統澤連斯基突然撤換國防部長米哈伊洛·費多羅夫（Mykhailo Fedorov），但未對此做出任何解釋。這一行動引起了民間社會和軍方的強烈不滿，各大城市都爆發了抗議活動。這一事件的背後原因尚未明朗，民眾對總統的決定感到困惑和擔憂。烏克蘭的政治局勢再次陷入動盪，未來的發展方向仍存不確定性。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5db2d68f",
+        "title": "台積電承諾再投資 1000 億美元擴大美國生產",
+        "url": "https://www.bbc.co.uk/news/articles/c62x8ldxr7eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 10:23:00 GMT",
+        "summary_zh": "台積電宣布將在美國建立新的晶片製造工廠，創造高科技、高薪的就業機會。這是台積電對美國投資的又一次重大承諾，總投資額將達到 2650 億美元。這項投資將幫助美國減少對外國晶片的依賴，同時也將創造大量就業機會。這項投資的影響將不僅限於美國本土，還將對全球晶片業產生重大影響。台積電的這一舉動被視為美國政府對晶片業的支持和鼓勵的一部分。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "eb6ba460",
+        "title": "美伊衝突再升溫 油價漲至近1個月高點後小幅收低",
+        "url": "https://www.cna.com.tw/news/afe/202607170009.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Fri, 17 Jul 2026 04:35:50 +0800",
+        "summary_zh": "美伊衝突再度升溫，引發外界對中東地區石油供應中斷的憂慮。油價本週因美伊緊張關係升高，飆升至近1個月高點，但今天因交易員獲利了結，國際2大原油指標價格均小幅收低。這種局勢使得全球油價持續波動，對全球經濟的影響也逐漸顯現。美國和伊朗之間的緊張關係再度升級，石油供應的不確定性使得油價持續波動。這種情況下，全球經濟將如何應對油價的波動，仍待觀察。",
+        "sentiment": "中性",
+        "is_breaking": true,
         "ai_classified": true
       }
     ],
@@ -604,6 +604,54 @@
     ],
     "stock_tw": [
       {
+        "id": "65cbfa2e",
+        "title": "日股暴跌逾4100點！亞股連累台股創史上最慘崩跌2953點",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5508169",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 17 Jul 2026 14:53:57 +0800",
+        "summary_zh": "日股暴跌逾4100點，亞股連累台股創史上最慘崩跌2953點。受AI股走弱，美股週四4大指數全面收黑，海力士ADR慘崩13％，費半重挫逾4%。此波股災持續在亞股延燒，日經一度跌逾4100點，終場收跌2694點。台股也受到影響，崩跌2953點，創史上最慘。這次股災的原因是什麼？AI股走弱對亞股的影響有多大？這次股災對台灣經濟的影響會有多大？",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "71f47f0f",
+        "title": "存400萬卻換來孤獨！6旬翁靠「1個轉變」逆轉晚年寂寞",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5508165",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 17 Jul 2026 14:43:05 +0800",
+        "summary_zh": "一對日本退休夫妻佐佐木洋一和美智子，現年67歲和65歲，住在已有50年歷史的老公寓裡。雖然他們有足夠的積蓄，但卻感到孤獨和寂寞。佐佐木洋一認為，積蓄是幸福的保障，但並非幸福的唯一條件。他們決定進行一個轉變，開始參與社區活動和與鄰居建立關係。這個轉變幫助他們遇見新朋友，建立社交網絡，同時也讓他們感受到幫助他人的快樂。佐佐木洋一認為，晚年不僅要有足夠的積蓄，也需要有社交關係和幫助他人的機會。這個故事告訴我們，幸福的晚年不僅需要金錢的保障，也需要人際關係和社會參與。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e3080b25",
+        "title": "他炒股爆賺4367萬！「1個決定」人生直接崩潰慘賠",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5508426",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 17 Jul 2026 14:12:00 +0800",
+        "summary_zh": "在股市大漲的時期，許多投資人都夢想靠一波行情翻身，但高報酬背後也暗藏巨大風險。有一名南韓男子花了多年投資，終於在去年5月達成15億至20億韓元的資產目標，約等於新台幣3275萬至4367萬元。然而，這名男子的成功並不長久，他在接下來的幾個月內，卻遭遇了慘痛的失敗。根據報導，這名男子的投資策略是持續買進股票，但他卻忽略了市場的波動，導致他的投資資產迅速下滑。最終，他的資產損失達到令人震驚的程度，甚至超過了他之前的成功。這個案例告訴我們，投資市場的風險是無法忽視的，投資人必須謹慎地評估風險並制定合理的投資策略。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "16d7d274",
+        "title": "一銀上半年攔阻219件詐騙案 守住1.9億元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5508592",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 17 Jul 2026 13:59:30 +0800",
+        "summary_zh": "近年來，詐騙手法日新月異，為了守護客戶財產，第一銀行積極強化各項阻詐措施。截至今年上半年，銀行成功攔阻219件詐騙案件，金額達1.9億元，較去年同期成長8％。這表明銀行的阻詐措施逐漸有效，保護了客戶的財產安全。銀行的努力也顯示出對阻詐的重視和堅定的決心。然而，詐騙手法的變化也意味著銀行需要持續更新和強化其阻詐措施，以確保客戶的財產安全。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "3933754e",
         "title": "史上最慘！台積電暴跌180元 指數收跌2953點",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5508227",
@@ -612,8 +660,8 @@
         "published_at": "Fri, 17 Jul 2026 13:47:10 +0800",
         "summary_zh": "台股在晶圓雙雄領跌，指數開盤跌390點，持續下跌至收盤時跌2953點。這次股災受到美股的影響，包括海力士ADR慘崩13％和費半重挫逾4%。亞股也受累，日經週五暴跌逾2700點。台積電股價暴跌180元，成為市場領跌的重心。這次股災對台股的影響非常大，市場投資者應該保持警覺，準備面對未來的挑戰。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "ab73bde9",
@@ -624,8 +672,8 @@
         "published_at": "Fri, 17 Jul 2026 13:19:38 +0800",
         "summary_zh": "巴菲特是一位身價驚人的「股神」，他持有一張極為罕見的「麥當勞金卡」（McGold Card），這張卡可以讓他在奧馬哈地區的麥當勞免費使用。然而，令人驚訝的是，這張卡並不限於奧馬哈地區，巴菲特可以在全球任何麥當勞店點餐。這意味著，巴菲特不僅可以在奧馬哈免費用餐，還可以在全球任何地方享受麥當勞的優惠。這種情況引起了許多人的好奇，究竟是誰能夠持有這張神祕金卡？",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "0639ceb1",
@@ -636,8 +684,8 @@
         "published_at": "Fri, 17 Jul 2026 13:15:56 +0800",
         "summary_zh": "台股今天重挫2800點，台灣大在盤中完成填息，創近年最快紀錄。這意味著電信三雄今天全數完成填息。今年，台灣大每股配發現金股利4.744元。這項配發讓投資人獲得豐厚的回報。然而，台股的重挫也意味著市場的情緒不佳，投資人可能會感到擔憂。台灣大填息的消息可能會對市場產生一定的影響，投資人需要密切關注市場的變化。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "ff69f06a",
@@ -648,8 +696,8 @@
         "published_at": "Fri, 17 Jul 2026 13:06:46 +0800",
         "summary_zh": "台彩表示，大樂透頭獎已連19期未中，今晚頭獎上看7億元，為公益彩券第5屆以來大樂透最高頭獎，若1人獨得，將創下本屆大樂透單注頭獎獎金最高紀錄。另外，大樂透端午加碼10萬元，將在今晚的抽獎中發放。根據台彩的資料，截至目前，大樂透總獎金已達到新台幣1.3億元。這意味著若今晚頭獎中獎，總獎金將會翻倍，達到2.6億元。台彩表示，今晚的大樂透抽獎將是最後一期，屆時將結束本屆的大樂透活動。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "dcc88859",
@@ -709,18 +757,6 @@
         "summary_zh": "美國太空探索科技公司（SpaceX）最新版本的「星艦V3」（Starship V3）原定在德州進行第13次試飛，但在發射前不到1秒觸發自動中止程序，任務被迫延後。這次試飛的取消對於SpaceX的股價造成了重大影響，股價重挫跌停。SpaceX的股價下跌了10%，成為當日跌停的股票之一。這次試飛的取消可能會對SpaceX的未來發展產生影響，投資者們將密切關注公司的下一步動作。SpaceX的星艦V3是公司正在開發的重型火箭，目的是用於將人類送到月球和火星。公司一直在努力推進這項計畫，但面臨著許多挑戰。這次試飛的取消可能會使公司的進度受到影響，投資者們將密切關注公司的下一步動作。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f9985bee",
-        "title": "聯邦美國金融創新ETF今上櫃 佈局新興商機",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5508415",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 17 Jul 2026 11:39:20 +0800",
-        "summary_zh": "聯邦投信旗下首檔聚焦海外主題的ETF「009825聯邦美國金融創新ETF」今日正式掛牌。聯邦投信總經理莊雅晴表示，近年金融產業轉變，如增加了手機、數位資產等新興科技，ETF 的出現為投資者提供了新的投資選擇。這項ETF 將聚焦於美國金融創新的領域，投資者可以透過這項產品來投資美國金融創新的新興商機。聯邦投信透露，這項ETF 的投資組合將包含美國金融創新領域的股票，包括手機支付、數位資產等領域。這項ETF 的掛牌標誌著聯邦投信進一步拓展其ETF 產品線，為投資者提供更多的投資選擇。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -810,6 +846,66 @@
     ],
     "finance": [
       {
+        "id": "300d477f",
+        "title": "投資俱樂部最新股票組合：5隻股票值得買入",
+        "url": "https://www.cnbc.com/2026/07/16/heres-a-rapid-fire-update-on-our-stock-portfolio-including-the-5-names-to-buy.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-16 18:50:06",
+        "summary_zh": "投資俱樂部在7月月度會議上，Jim Cramer和Jeff Marks針對投資俱樂部的股票組合進行了最新的評估。根據他們的意見，投資者可以考慮購買的股票包括......",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ee1588a4",
+        "title": "紐約水力發電線斷線惹怒曾力挺該項目的州長",
+        "url": "https://www.reuters.com/business/energy/new-york-hydropower-lines-outage-rankles-governor-who-championed-project-2026-07-16/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-16 18:22:09",
+        "summary_zh": "紐約州長曾經力挺一項水力發電線項目，但該線路最近出現斷線問題，引起了州長的不滿。該線路是由美國東北部的水力發電站供應電力的重要線路，斷線導致了數百萬美元的損失。州長批評電力公司的管理不善，要求電力公司儘快恢復線路運作。斷線事件也引起了對該線路安全性的擔憂。這一事件對紐約州的電力供應和經濟有著重要影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "8b6f002a",
+        "title": "Citadel Securities 投資 40 億美元於 Crypto.com，估值達 2000 億美元",
+        "url": "https://www.reuters.com/legal/transactional/citadel-securities-invests-400-million-cryptocom-20-billion-valuation-2026-07-16/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-16 18:21:43",
+        "summary_zh": "金融巨頭 Citadel Securities 近日宣布投資 40 億美元於加密貨幣交易平台 Crypto.com。這一投資將使 Crypto.com 的估值達到 2000 億美元。這項投資是 Citadel Securities 對加密貨幣市場的進一步投入，表明該公司對於加密貨幣的發展持有著積極的態度。這項投資將對 Crypto.com 的業務發展產生重大影響，可能使該公司能夠進一步擴大其業務範圍和市場份額。然而，這項投資也引發了關於 Citadel Securities 對加密貨幣市場的控制力增強的擔憂。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "fd354249",
+        "title": "我們正在縮減對低利率的押注，可能需要更長時間才會實現",
+        "url": "https://www.cnbc.com/2026/07/16/were-trimming-our-hedge-on-lower-rates-which-may-take-longer-to-materialize.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-16 18:20:40",
+        "summary_zh": "在我們的分析中，低利率是個很好的投資機會，但我們也認為這個市場仍處於不穩定的狀態。雖然低利率對投資者來說是有利的，但市場的不確定性可能會延遲這個利率下降的實現。投資者需要保持謹慎和耐心，才能在這個市場中取得成功。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c9db2253",
+        "title": "達索系統在談購買藥物試驗軟體公司ArisGlobal約2億美元",
+        "url": "https://www.ft.com/content/72c335dd-11c9-4ba0-bd11-41414df06d97?syn-25a6b1a6=1",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-07-16 18:12:05",
+        "summary_zh": "達索系統正在與瑞典私募基金談判購買藥物試驗軟體公司ArisGlobal，交易估值約2億美元。這將進一步增強法國巨頭在生命科學領域的布局。達索系統是一家全球領先的工業軟體公司，提供設計、工程和生產等領域的軟體解決方案。該公司近年來積極推進生命科學業務，包括藥物開發和臨床試驗等領域。ArisGlobal是一家專門提供藥物試驗軟體的公司，提供藥物開發和臨床試驗的數據管理和分析等服務。該公司的軟體已被多家藥物公司採用。達索系統的購買將進一步增強該公司在生命科學領域的競爭力，為藥物開發和臨床試驗提供更強大的軟體支持。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "191b03d8",
         "title": "核能燃料公司Standard Nuclear市值達217億美元 股票在NYSE首日下跌",
         "url": "https://www.reuters.com/business/energy/nuclear-fuel-firm-standard-nuclear-valued-217-billion-shares-fall-nyse-debut-2026-07-16/",
@@ -818,8 +914,8 @@
         "published_at": "2026-07-16 18:00:59",
         "summary_zh": "核能燃料公司Standard Nuclear在NYSE上市首日，其股價下跌。根據市場資訊，公司市值達到217億美元。這家公司致力於發展核能燃料的生產和銷售業務。Standard Nuclear的上市是近期核能產業的重要事件之一。這家公司的上市表明，投資者對核能產業的投資意願仍然存在。然而，股價下跌可能是市場對公司未來發展前景的質疑。這一事件可能對核能產業的未來發展方向產生影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "11454f24",
@@ -830,8 +926,8 @@
         "published_at": "2026-07-16 18:00:08",
         "summary_zh": "加密貨幣交易平台Crypto.com近日宣布，已經獲得美國投資公司Citadel Securities的投資。據報導，這次投資使Crypto.com的估值達到20億美元。這一消息反映了華爾街對數字資產和區塊鏈技術的投資熱情。Crypto.com是一家來自新加坡的加密貨幣交易平台，該平台提供多種加密貨幣的交易服務。這次投資表明，華爾街對加密貨幣市場的信心正在增強。然而，投資人們也需要注意到，加密貨幣市場仍然存在著不確定性和風險。這次投資對Crypto.com的未來發展將產生什麼影響？這一事件是否標誌著加密貨幣市場的轉折點？",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "9497034b",
@@ -842,44 +938,8 @@
         "published_at": "2026-07-16 18:00:00",
         "summary_zh": "一項新功能只在付費計劃中可用。雖然這項消息並不令人感到驚訝，但它仍然是許多企業和個人關心的議題。這項功能的推出意味著付費計劃的使用者將能夠享受到更完整的功能和服務，而免費計劃的使用者則將面臨功能限制。這項變化將對付費計劃的使用者和企業帶來什麼影響？企業將如何應對這項變化？這項變化將如何影響企業的營運和收入？",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "0db20518",
-        "title": "加拿大元近四周高位盤整，收益率差擴大收窄",
-        "url": "https://www.reuters.com/business/canadian-dollar-holds-near-four-week-high-yield-spreads-narrow-2026-07-16/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-16 17:51:37",
-        "summary_zh": "加拿大元近期表現穩定，近四周高位盤整。根據市場數據顯示，加拿大元與美元的收益率差擴大收窄，對加元的影響逐漸顯現。分析師認為，加拿大央行的政策決定對市場的影響逐漸增強，市場對加元的預期也在逐漸改善。這使得加拿大元的價格穩定在近四周高位，市場對加元的預期也逐漸轉為樂觀。然而，市場仍然存在著許多不確定性，投資者需要繼續關注市場的發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "6e8c9183",
-        "title": "EDP 首席執行官表示歐盟政府而非布魯塞爾阻礙可再生能源投資",
-        "url": "https://www.reuters.com/business/energy/edp-chief-says-eu-governments-not-brussels-slowing-renewable-energy-investment-2026-07-16/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-16 17:49:43",
-        "summary_zh": "歐洲電力公司 (EDP) 首席執行官 João Manso Neto 表示，歐盟政府的政策和法規，反而成為可再生能源投資的瓶頸。根據 EDP 的數據，2022 年歐盟的可再生能源投資額下降了 25%。 Neto 指出，投資額下降的原因是政府政策和法規的不確定性，導致投資者對未來的可再生能源政策感到不確定。這使得投資者難以做出投資決策。 Neto 表示，政府應該提供更明確的政策和法規框架，以便投資者能夠做出明智的投資決策。這樣才能夠促進可再生能源的投資和發展。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "aa843071",
-        "title": "美聯儲施密特：通膨是「令人擔憂」的，目前政策設定的重點",
-        "url": "https://www.reuters.com/business/feds-schmid-inflation-is-concerning-focus-setting-policy-right-now-2026-07-16/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-16 17:31:44",
-        "summary_zh": "美聯儲施密特表示，目前的通膨情況令人擔憂，成為制定政策的重點。施密特強調，美聯儲需要在控制通膨和實現就業率目標之間取得平衡。美聯儲的政策制定者正在密切關注通膨的趨勢，並考慮調整利率以應對通膨的壓力。施密特的表述表明，美聯儲可能會採取更積極的措施來抑制通膨，從而影響經濟的發展。這個消息對於投資者和企業來說具有重要意義，因為它可能影響到未來的經濟政策和利率變動。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "stock_us": [
@@ -892,8 +952,8 @@
         "published_at": "2026-07-16 17:59:16",
         "summary_zh": "這家公司的股價近期交易在歷史倍數的底部附近，儘管公司的基本面和未來催化劑正在改善。公司的基本面正在改善，未來催化劑正在積累，這使得投資者認為這家公司的下一階段成長正逐步展開。投資者可以在公司的基本面和未來催化劑的改善下買入這家公司的股票。這家公司的股價可能會因為公司的基本面和未來催化劑的改善而上漲。投資者需要注意公司的基本面和未來催化劑的改善情況，才能在公司的下一階段成長中獲得收益。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "1a44d8f8",
@@ -904,8 +964,8 @@
         "published_at": "2026-07-16 17:40:19",
         "summary_zh": "我在上週四的CNBC投資俱樂部的每月會議中，從上週日的噩夢開始。這個噩夢源自我在基金業的經歷，影響了我的對市場的看法。雖然我沒有透露具體的內容，但我認為這個噩夢告訴我市場可能會出現意想不到的變化。這種變化可能會對投資者造成重大影響，因此我建議投資者應該保持警惕。市場的不確定性使得投資者需要更加謹慎地評估風險和回報。這種市場環境下，投資者需要更加靈活地應對市場變化。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "d9443f31",
@@ -918,6 +978,18 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "35021231",
+        "title": "美股「去槓桿」仍未完成！摩根大通預測將再震盪3個月",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5508594",
+        "source": "自由時報財經",
+        "category": "stock_us",
+        "published_at": "Fri, 17 Jul 2026 14:03:48 +0800",
+        "summary_zh": "美股去槓桿壓力仍未完全消退。摩根大通全球市場策略團隊發布報告指出，自6月啟動的投資人去槓桿進程仍在持續。槓桿股票ETF、選擇權及保證金帳戶均有進一步降槓桿空間，投資人仍需要繼續去槓桿以降低風險。摩根大通預測美股將再震盪3個月，投資人需要保持謹慎的態度。這項報告強調，投資人需要繼續監控市場情況並適時調整投資策略，以避免未來的風險。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "327beb32",
