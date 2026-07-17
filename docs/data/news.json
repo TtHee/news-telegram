@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-17T09:10:26.107745+08:00",
+  "generated_at": "2026-07-17T10:07:50.568909+08:00",
   "risk_signals": [
-    "🟢 台股加權 45631.59（正常）",
+    "🔴 台股加權 43800.33（急跌 -4.0%）",
     "🟢 S&P 500 7533.77（正常）",
     "🟢 VIX 恐慌指數 16.73（正常）",
     "🟢 MOVE 債市波動 68.16（正常）",
-    "🟢 美元指數 100.7（正常）",
-    "🟢 黃金 3994.9（正常）",
+    "🟢 美元指數 100.78（正常）",
+    "🟢 黃金 3984.8（正常）",
     "🟡 美債10Y殖利率 4.57（留意）",
-    "🟢 原油 WTI 79.1（正常）",
-    "🟢 美元/台幣 32.27（正常）"
+    "🟢 原油 WTI 79.25（正常）",
+    "🟢 美元/台幣 32.29（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，投資人對風險的接受度有所提高，但仍需關注美債10年殖利率的波動，可能對市場情緒產生影響。",
+  "ai_summary": "市場呈現中性氛圍，美元指數和美元/台幣匯率正常運作，表明外匯市場穩定。然而，美債10年殖利率略有上升，可能預示著市場對經濟增長的擔憂。",
   "market": {
     "TWII": {
-      "price": 45631.59,
-      "change_pct": 2.0
+      "price": 43800.33,
+      "change_pct": -4.0
     },
     "SP500": {
       "price": 7533.77,
@@ -38,24 +38,170 @@
       "change_pct": -2.0
     },
     "DXY": {
-      "price": 100.7,
-      "change_pct": 0.2
+      "price": 100.78,
+      "change_pct": 0.05
     },
     "GOLD": {
-      "price": 3994.9,
-      "change_pct": -1.21
+      "price": 3984.8,
+      "change_pct": -1.46
     },
     "OIL": {
-      "price": 79.1,
-      "change_pct": -0.63
+      "price": 79.25,
+      "change_pct": -0.44
     },
     "USDTWD": {
-      "price": 32.27,
-      "change_pct": 0.18
+      "price": 32.29,
+      "change_pct": 0.24
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "e0f6de11",
+        "title": "川普政府發動全球反極左恐怖主義戰役",
+        "url": "https://www.whitehouse.gov/releases/2026/07/trump-administration-unleashes-global-campaign-to-crush-radical-left-terrorism/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Jul 2026 18:55:22 +0000",
+        "summary_zh": "川普政府今天在全球範圍內發動了針對極左恐怖主義的戰役。川普政府認為，極左恐怖主義應該像對待伊斯蘭極端主義一樣嚴肅對待。這項行動將由川普總統領導，各國政府高官將與川普政府合作，共同對抗極左恐怖主義。這項行動的目標是要讓世界各國了解極左恐怖主義的威脅，並共同努力來防止其蔓延。川普政府認為，這項行動將是對抗極左恐怖主義的一個重大突破。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ea0f017c",
+        "title": "川普政府加緊外國學生簽證規則",
+        "url": "https://www.bbc.co.uk/news/articles/czdmp87rpv1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Jul 2026 21:31:51 GMT",
+        "summary_zh": "美國川普政府近日宣布，將對外國學生簽證進行調整。根據新規定，外國學生將需要獲得聯邦政府的許可，才能在美國逗留超過四年。同時，大學將失去延長簽證的權力。這一措施引發外界關注，是否會對外國學生來美就學產生影響。分析指出，這一政策變化可能會導致外國學生減少來美就學的意願。同時，也引發了對美國高等教育的影響。美國高等教育機構表示，將會與政府溝通，希望能夠在政策變化中找到平衡。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c4a045fb",
+        "title": "羅比奧呼籲全球打擊極左主義",
+        "url": "https://www.bbc.co.uk/news/articles/c39ek38le2lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Jul 2026 23:08:38 GMT",
+        "summary_zh": "美國共和黨籍參議員羅比奧最近呼籲全球各國共同打擊極左主義。羅比奧認為極左主義的極端主義正在全球各地蔓延，對社會和民主制度造成嚴重威脅。他提議各國政府應該共同合作，制定政策和法律來打擊極左主義的極端主義行為。然而，民主黨籍議員批評羅比奧的提議是政治偏見的表現，可能會針對政治對手進行打壓。這一事件引發了對極左主義和極右主義的討論，各方都有不同的看法和意見。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4fbcde74",
+        "title": "川普媒體推出付費社交內容服務",
+        "url": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 17 Jul 2026 01:27:36 GMT",
+        "summary_zh": "川普媒體宣布推出一項快速付費社交內容服務，供華爾街交易員早點看到社交平台上的關鍵內容。這項服務將為交易員提供早點看到川普社交平台上的重要資訊，包括社交媒體帖子、推文等。這項服務的推出，可能會對社交媒體平台的內容傳播模式產生影響。川普媒體的這一舉動，也可能會引起對社交媒體內容的控制和監管的討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8c4a1dc5",
+        "title": "德克薩斯州將調查ICE在休斯頓的致命射殺案，州長表示",
+        "url": "https://www.bbc.co.uk/news/articles/cq8924v711lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Jul 2026 22:38:16 GMT",
+        "summary_zh": "德克薩斯州州長宣布將調查ICE在休斯頓的一起致命射殺案。該事件引起了廣泛關注，許多人要求進行獨立調查並對ICE進行更嚴格的監控。美國聯邦政府也已經開始調查此事。該事件發生在休斯頓，造成一名男子死亡。德克薩斯州州長的決定表明了對ICE行動的關注和要求更高的透明度。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "47c6d229",
+        "title": "美國軍方將開始進行睪固素測試，赫格塞斯說",
+        "url": "https://www.bbc.co.uk/news/articles/cn0nlx18rz0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Jul 2026 09:10:38 GMT",
+        "summary_zh": "美國國防部長赫格塞斯表示，美國軍方將開始進行睪固素測試，以提供軍人最好的醫療照護。這項措施是為了確保軍人能夠得到最好的醫療照護，赫格塞斯認為這是對軍人的義務。這項測試將對美國軍方的醫療系統帶來新的變化，同時也會對軍人的生活產生影響。美國軍方的睪固素測試將會是全球軍方中的一項先進措施，同時也會對軍人健康的研究帶來新的進展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c61c9d81",
+        "title": "美國海岸警衛隊暫停搜救三人失蹤的任務",
+        "url": "https://www.bbc.co.uk/news/articles/cwylyzvy444o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Jul 2026 12:11:35 GMT",
+        "summary_zh": "美國海岸警衛隊宣布暫停搜救三名失蹤者，原因是他們的船隻在靠近阿拉卡茲島時沉沒。星期二下午的意外事故造成一人死亡，另外20人獲救。這次事故的原因尚未明朗，美國海岸警衛隊正在進行調查。這次事件的影響不大，僅影響當地的海上交通。美國海岸警衛隊將繼續監控海上情況，確保安全。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e4b62bc6",
+        "title": "巴西譴責美國打算下周對其商品徵收 25%_tariffs",
+        "url": "https://www.theguardian.com/us-news/2026/jul/16/brazil-us-tariffs",
+        "source": "Guardian World",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Jul 2026 05:01:23 GMT",
+        "summary_zh": "巴西政府譴責美國政府決定對其商品徵收 25% 的關稅，理由是美國政府認為巴西有不公平的貿易實踐。巴西總統路易斯·伊納西奧·盧拉·達席爾瓦的辦公室發表聲明，否認巴西參與不公平的貿易實踐。美國參議員馬可·魯比奧表示，盧拉的政策對美國人和巴西人都不好。美國貿易部門指出，正在調查巴西的貿易實踐。這項決定將對巴西的出口產生重大影響，巴西政府正在努力爭取美國政府的支持。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9f5ac514",
+        "title": "川普預告將在演說中透露重大消息，傳言可能涉及選舉或伊朗",
+        "url": "https://www.theguardian.com/us-news/live/2026/jul/16/trump-speech-address-iran-election-latest-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 17 Jul 2026 01:37:03 GMT",
+        "summary_zh": "川普在演說前夕，傳出他將在演說中宣布重大消息，但內容仍未透露。這次演說將在美國對伊朗進行六天連續攻擊後舉行，美國軍方在伊朗附近發動攻擊，伊朗則對美國盟友發射彈道導彈和無人機。伊朗的反擊行動引發了對美國和伊朗關係的擔憂。川普的演說將是關鍵時刻，觀察家們將密切關注他的演說內容。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "2fb1badf",
+        "title": "川普將會見格雷厄姆新任參議員於白宮",
+        "url": "https://www.theguardian.com/us-news/live/2026/jul/16/donald-trump-darline-graham-bukele-blanche-iran-ice-2020-election-speech-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Jul 2026 23:15:47 GMT",
+        "summary_zh": "川普將於今天會見新任共和黨參議員格雷厄姆，格雷厄姆接替其胞兄林賽格雷厄姆去世後的議席。德國總理弗里德里希·梅茲（Friedrich Merz）警告美國政府不要干預德國選舉，美國國務院宣布將向歐洲慈善機構、智庫和個人提供最高3,000萬美元的補助金，支持與Maga運動相關的原因。德國總理梅茲對此表示反對，認為這是一種干預選舉的行為。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6f96de71",
+        "title": "佛羅里達州議會候選人被捕，指控威脅要殺死川普",
+        "url": "https://www.theguardian.com/us-news/2026/jul/16/marine-arrested-charged-allegedly-threatening-to-kill-trump",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Jul 2026 22:47:09 GMT",
+        "summary_zh": "佛羅里達州的一名35歲前海軍陸戰隊員和共和黨的候選人威廉·烏帕姆（William Upham）被捕和控告在聯邦法院威脅要殺死川普。根據美國檢察官的說法，烏帕姆面臨最高五年的聯邦監禁。烏帕姆是佛羅里達州第五國會選區共和黨初選的候選人，他在星期四出現在傑克遜維爾的聯邦法院後被捕。根據公開記錄，烏帕姆是一名候選人，正在參加佛羅里達州第五國會選區共和黨初選。這起事件的背景是美國政治競選的高峰期，各方候選人正在爭取選民的支持。烏帕姆的行為被視為嚴重威脅，可能會對美國政治和社會產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "539f2f55",
+        "title": "『文明的敵人』：特朗普高官發動全面攻擊左派",
+        "url": "https://www.theguardian.com/us-news/2026/jul/16/political-violence-event-trump-marco-rubio",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 16 Jul 2026 21:09:44 GMT",
+        "summary_zh": "美國特朗普政府高官們在與66個國家討論政治暴力威脅的會議上，發動了一系列針對左派激進主義的攻擊。會議由美國國務卿馬可·魯比奧主持，參與者還包括特朗普顧問史蒂芬·米勒和財政部長史考特·貝森特。會議題目為「政治暴力復興的部長級會議」，但實際上卻只針對左派暴力進行討論。這一會議在特朗普政府試圖將政治對手標籤為共產主義者並加緊努力之際舉行。特朗普政府高官們的攻擊被視為對左派激進主義的全面打擊。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "global": [
       {
         "id": "e6b26d69",
@@ -65,18 +211,6 @@
         "category": "global",
         "published_at": "Thu, 16 Jul 2026 23:57:26 GMT",
         "summary_zh": "美國對伊朗發動新一波攻擊，美國方面表示這次攻擊的目的是「進一步削弱伊朗軍事能力」。伊朗內部的衝突持續了六天，美國的攻擊引發了伊朗爆炸事件。這次攻擊的背景是伊朗內部的軍事能力和美國對伊朗的制裁。美國的攻擊對伊朗的影響可能會導致伊朗的軍事能力進一步削弱，進而影響伊朗的政治局勢。伊朗的政府可能會對美國的攻擊做出回應，進而引發新的衝突。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "94ad717b",
-        "title": "白宮幕僚被指利用內部情報賺取 10 萬美元的特朗普演講投注",
-        "url": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 18:52:35 GMT",
-        "summary_zh": "白宮幕僚被指利用內部情報，知道特朗普即將發表的演說內容，透過線上投注平台 Kalshi，賺取近 10 萬美元。這名幕僚被指利用其職務上的優勢，獲取有利的資訊，從而進行高賠率的投注。這一事件引發了對白宮工作人員行為的關注，是否存在違規行為，還有未來如何防止此類事件發生的問題。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -94,18 +228,6 @@
         "ai_classified": true
       },
       {
-        "id": "f1b45ba1",
-        "title": "加拿大超過 800 個野火正在燃燒 美國部分地區空氣質量警報延長",
-        "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 19:58:55 GMT",
-        "summary_zh": "加拿大目前有超過 800 個野火正在燃燒，引起空氣質量警報。美國部分地區，包括密西根州、明尼阿波利斯和明尼蘇達州，空氣質量被認為是「危險」的。這些地區的空氣質量警報已經延長，影響到當地居民的健康。加拿大野火的原因尚未明確，但已經引起了當地政府的關注。美國的空氣質量警報可能會繼續延長，直到野火被控制。這些事件的影響不僅限於當地居民的健康，也會對當地的經濟和環境產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "b3ef1da5",
         "title": "波蘭年輕人被指為俄羅斯在波蘭實施破壞行動",
         "url": "https://www.bbc.co.uk/news/articles/cp305dx493do?at_medium=RSS&at_campaign=rss",
@@ -113,18 +235,6 @@
         "category": "global",
         "published_at": "Thu, 16 Jul 2026 13:08:28 GMT",
         "summary_zh": "波蘭安全服務指出，目的是要煽動波蘭與烏克蘭之間的族群緊張關係。波蘭安全服務透露，該名年輕人被指控在波蘭實施破壞行動，目的是為俄羅斯服務。這些行動被認為是意圖破壞波蘭與烏克蘭之間的關係。波蘭政府對此表示嚴重關注，並將對此進行調查。這一事件可能會對波蘭與烏克蘭的關係產生重大影響。波蘭與烏克蘭之間的關係一直是波蘭安全服務關注的問題。波蘭政府將會密切關注這一事件的發展，並對此進行適當的處理。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5705bf7d",
-        "title": "德克薩斯州洪水再次肆虐 同地點去年洪水造成超過130人喪生",
-        "url": "https://www.bbc.co.uk/news/articles/c3v0xe5elzyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 22:08:13 GMT",
-        "summary_zh": "德克薩斯州遭遇洪水災害，同樣是去年洪水肆虐的地區再次受到重創。去年洪水造成超過130人喪生，包括在營地Mystic遇難的遊客。這次洪水造成至少一人死亡，洪水對當地造成嚴重影響。洪水的來源尚未明確，當地居民正努力應對災情。洪水對當地的經濟和生活造成了重大影響，當地政府正在努力提供援助和救援。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -149,18 +259,6 @@
         "category": "global",
         "published_at": "Thu, 16 Jul 2026 17:22:31 GMT",
         "summary_zh": "義大利官員因2018年熱那亞大橋倒塌事件被判刑。熱那亞大橋倒塌事件於2018年發生，造成43人死亡。義大利官員Giovanni Castellucci被判處12年刑期。他曾擔任義大利高速公路管理機構的負責人。這起事件的判決結果對於義大利政府和交通安全的影響非常重大。官員們將面臨嚴厲的法律追究，同時也將對交通安全政策進行檢視和改革。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "330bc8b9",
-        "title": "加拿大和美國大火有多嚴重，空氣質量風險有多大？",
-        "url": "https://www.bbc.co.uk/news/articles/c5ywdl9ne3yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 16:08:40 GMT",
-        "summary_zh": "加拿大安大略省的大火已經將有毒煙霧覆蓋在美國和加拿大城市。這些大火對空氣質量造成了嚴重的風險，尤其是在美國東部和加拿大中部地區。美國和加拿大政府已經發布了空氣質量警告，建議民眾避免外出，特別是在早晨和傍晚時段。這些大火的原因尚未明確，但據信與氣候變化有關。政府正在努力控制大火並改善空氣質量。民眾被要求保持警惕，避免吸入有毒煙霧，特別是在兒童和老年人中。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -202,18 +300,6 @@
         "ai_classified": true
       },
       {
-        "id": "18181da4",
-        "title": "觀看：匹茲堡橋樑在戲劇性爆炸中被拆除",
-        "url": "https://www.bbc.co.uk/news/videos/c87ngl2j29jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 14:09:18 GMT",
-        "summary_zh": "匹茲堡的一座橋樑將被拆除，將被一座新的預製橋樑取代。根據當局的說法，這將是該州最大的一個橫向滑移工程。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "580808a8",
         "title": "阿爾及利亞托兒所大火造成十一人死亡",
         "url": "https://www.bbc.co.uk/news/articles/cvgwd4nz344o?at_medium=RSS&at_campaign=rss",
@@ -238,14 +324,38 @@
         "ai_classified": true
       },
       {
-        "id": "5db2d68f",
-        "title": "台積電承諾再投資 1000 億美元擴大美國生產",
-        "url": "https://www.bbc.co.uk/news/articles/c62x8ldxr7eo?at_medium=RSS&at_campaign=rss",
+        "id": "94ad717b",
+        "title": "白宮幕僚被指利用內部情報賺取 10 萬美元的特朗普演講投注",
+        "url": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "global",
-        "published_at": "Thu, 16 Jul 2026 10:23:00 GMT",
-        "summary_zh": "台積電宣布將在美國建立新的晶片製造工廠，創造高科技、高薪的就業機會。這是台積電對美國投資的又一次重大承諾，總投資額將達到 2650 億美元。這項投資將幫助美國減少對外國晶片的依賴，同時也將創造大量就業機會。這項投資的影響將不僅限於美國本土，還將對全球晶片業產生重大影響。台積電的這一舉動被視為美國政府對晶片業的支持和鼓勵的一部分。",
-        "sentiment": "正面",
+        "published_at": "Thu, 16 Jul 2026 18:52:35 GMT",
+        "summary_zh": "白宮幕僚被指利用內部情報，知道特朗普即將發表的演說內容，透過線上投注平台 Kalshi，賺取近 10 萬美元。這名幕僚被指利用其職務上的優勢，獲取有利的資訊，從而進行高賠率的投注。這一事件引發了對白宮工作人員行為的關注，是否存在違規行為，還有未來如何防止此類事件發生的問題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f1b45ba1",
+        "title": "加拿大超過 800 個野火正在燃燒 美國部分地區空氣質量警報延長",
+        "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 19:58:55 GMT",
+        "summary_zh": "加拿大目前有超過 800 個野火正在燃燒，引起空氣質量警報。美國部分地區，包括密西根州、明尼阿波利斯和明尼蘇達州，空氣質量被認為是「危險」的。這些地區的空氣質量警報已經延長，影響到當地居民的健康。加拿大野火的原因尚未明確，但已經引起了當地政府的關注。美國的空氣質量警報可能會繼續延長，直到野火被控制。這些事件的影響不僅限於當地居民的健康，也會對當地的經濟和環境產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5705bf7d",
+        "title": "德克薩斯州洪水再次肆虐 同地點去年洪水造成超過130人喪生",
+        "url": "https://www.bbc.co.uk/news/articles/c3v0xe5elzyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 22:08:13 GMT",
+        "summary_zh": "德克薩斯州遭遇洪水災害，同樣是去年洪水肆虐的地區再次受到重創。去年洪水造成超過130人喪生，包括在營地Mystic遇難的遊客。這次洪水造成至少一人死亡，洪水對當地造成嚴重影響。洪水的來源尚未明確，當地居民正努力應對災情。洪水對當地的經濟和生活造成了重大影響，當地政府正在努力提供援助和救援。",
+        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
@@ -257,6 +367,18 @@
         "category": "global",
         "published_at": "Thu, 16 Jul 2026 04:28:22 GMT",
         "summary_zh": "澳洲知名演員Sam Neill因肺炎去世，據他的家人表示，去世的原因是突然且意外。Sam Neill在澳洲悉尼去世，事件發生在週一。這位演員的去世讓許多人感到震驚，他的家人對他的去世感到悲痛。這個消息對於Sam Neill的粉絲和同行們來說是一個沉重的打擊。雖然Sam Neill的去世是突然且意外，但他的作品將永遠留存於我們的心中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "330bc8b9",
+        "title": "加拿大和美國大火有多嚴重，空氣質量風險有多大？",
+        "url": "https://www.bbc.co.uk/news/articles/c5ywdl9ne3yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 16:08:40 GMT",
+        "summary_zh": "加拿大安大略省的大火已經將有毒煙霧覆蓋在美國和加拿大城市。這些大火對空氣質量造成了嚴重的風險，尤其是在美國東部和加拿大中部地區。美國和加拿大政府已經發布了空氣質量警告，建議民眾避免外出，特別是在早晨和傍晚時段。這些大火的原因尚未明確，但據信與氣候變化有關。政府正在努力控制大火並改善空氣質量。民眾被要求保持警惕，避免吸入有毒煙霧，特別是在兒童和老年人中。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -274,38 +396,26 @@
         "ai_classified": true
       },
       {
-        "id": "eb6ba460",
-        "title": "美伊衝突再升溫 油價漲至近1個月高點後小幅收低",
-        "url": "https://www.cna.com.tw/news/afe/202607170009.aspx",
-        "source": "中央社財經",
+        "id": "18181da4",
+        "title": "觀看：匹茲堡橋樑在戲劇性爆炸中被拆除",
+        "url": "https://www.bbc.co.uk/news/videos/c87ngl2j29jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Fri, 17 Jul 2026 04:35:50 +0800",
-        "summary_zh": "美伊衝突再度升溫，引發外界對中東地區石油供應中斷的憂慮。油價本週因美伊緊張關係升高，飆升至近1個月高點，但今天因交易員獲利了結，國際2大原油指標價格均小幅收低。這種局勢使得全球油價持續波動，對全球經濟的影響也逐漸顯現。美國和伊朗之間的緊張關係再度升級，石油供應的不確定性使得油價持續波動。這種情況下，全球經濟將如何應對油價的波動，仍待觀察。",
+        "published_at": "Thu, 16 Jul 2026 14:09:18 GMT",
+        "summary_zh": "匹茲堡的一座橋樑將被拆除，將被一座新的預製橋樑取代。根據當局的說法，這將是該州最大的一個橫向滑移工程。",
         "sentiment": "中性",
-        "is_breaking": true,
+        "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "12179a4d",
-        "title": "美國新關稅衝擊 巴西擬祭經濟互等法反制",
-        "url": "https://www.cna.com.tw/news/aopl/202607160407.aspx",
-        "source": "中央社財經",
+        "id": "5db2d68f",
+        "title": "台積電承諾再投資 1000 億美元擴大美國生產",
+        "url": "https://www.bbc.co.uk/news/articles/c62x8ldxr7eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Thu, 16 Jul 2026 22:07:13 +0800",
-        "summary_zh": "美國政府宣布自7月22日起對部分巴西商品加徵25%關稅，理由是巴西存在不公平貿易行為。巴西總統魯拉強烈譴責此舉，並表示將依據經濟互等法採取反制措施。這一決定引發了兩國之間的貿易衝突，可能對全球貿易產生重大影響。巴西政府將如何應對美國的新關稅，將是關鍵的問題。美國的這一決定可能會導致巴西商品價格上漲，進而影響巴西的經濟發展。這一事件也可能會對兩國之間的關係產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cbfffbbd",
-        "title": "美國20州空氣質量急劇惡化，來自加拿大野火的煙霧席捲美國",
-        "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 16 Jul 2026 22:21:08 GMT",
-        "summary_zh": "美國多州因為來自加拿大南中部野火的煙霧導致空氣質量急劇惡化，當局呼籲民眾避免外出。美國20多個州面臨空氣質量警報，預計有數百萬美國人將面臨不健康的空氣條件。加拿大北安大略省超過180個活躍的野火引起的煙霧，曾經一度將多倫多的空氣質量排在世界第一。煙霧已經席捲了美國多個州，從明尼蘇達州到紐約州，空氣質量惡化，導致視野模糊。當局呼籲民眾盡量避免外出，保持室內空氣質量良好。",
-        "sentiment": "負面",
+        "published_at": "Thu, 16 Jul 2026 10:23:00 GMT",
+        "summary_zh": "台積電宣布將在美國建立新的晶片製造工廠，創造高科技、高薪的就業機會。這是台積電對美國投資的又一次重大承諾，總投資額將達到 2650 億美元。這項投資將幫助美國減少對外國晶片的依賴，同時也將創造大量就業機會。這項投資的影響將不僅限於美國本土，還將對全球晶片業產生重大影響。台積電的這一舉動被視為美國政府對晶片業的支持和鼓勵的一部分。",
+        "sentiment": "正面",
         "is_breaking": true,
         "ai_classified": true
       },
@@ -356,6 +466,42 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "eb6ba460",
+        "title": "美伊衝突再升溫 油價漲至近1個月高點後小幅收低",
+        "url": "https://www.cna.com.tw/news/afe/202607170009.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Fri, 17 Jul 2026 04:35:50 +0800",
+        "summary_zh": "美伊衝突再度升溫，引發外界對中東地區石油供應中斷的憂慮。油價本週因美伊緊張關係升高，飆升至近1個月高點，但今天因交易員獲利了結，國際2大原油指標價格均小幅收低。這種局勢使得全球油價持續波動，對全球經濟的影響也逐漸顯現。美國和伊朗之間的緊張關係再度升級，石油供應的不確定性使得油價持續波動。這種情況下，全球經濟將如何應對油價的波動，仍待觀察。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "12179a4d",
+        "title": "美國新關稅衝擊 巴西擬祭經濟互等法反制",
+        "url": "https://www.cna.com.tw/news/aopl/202607160407.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 22:07:13 +0800",
+        "summary_zh": "美國政府宣布自7月22日起對部分巴西商品加徵25%關稅，理由是巴西存在不公平貿易行為。巴西總統魯拉強烈譴責此舉，並表示將依據經濟互等法採取反制措施。這一決定引發了兩國之間的貿易衝突，可能對全球貿易產生重大影響。巴西政府將如何應對美國的新關稅，將是關鍵的問題。美國的這一決定可能會導致巴西商品價格上漲，進而影響巴西的經濟發展。這一事件也可能會對兩國之間的關係產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cbfffbbd",
+        "title": "美國20州空氣質量急劇惡化，來自加拿大野火的煙霧席捲美國",
+        "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Thu, 16 Jul 2026 22:21:08 GMT",
+        "summary_zh": "美國多州因為來自加拿大南中部野火的煙霧導致空氣質量急劇惡化，當局呼籲民眾避免外出。美國20多個州面臨空氣質量警報，預計有數百萬美國人將面臨不健康的空氣條件。加拿大北安大略省超過180個活躍的野火引起的煙霧，曾經一度將多倫多的空氣質量排在世界第一。煙霧已經席捲了美國多個州，從明尼蘇達州到紐約州，空氣質量惡化，導致視野模糊。當局呼籲民眾盡量避免外出，保持室內空氣質量良好。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "ai": [
@@ -372,18 +518,6 @@
         "ai_classified": true
       },
       {
-        "id": "65317677",
-        "title": "Nvidia背後的Fireworks valuation達到175億美元，公司正在尋找更便宜的AI模型",
-        "url": "https://www.cnbc.com/2026/07/16/fireworks-nvidia-cloud-ai-startup-value.html",
-        "source": "Cnbc",
-        "category": "ai",
-        "published_at": "2026-07-16 13:00:02",
-        "summary_zh": "Fireworks公司曾經主要依靠Coding Startup Cursor的收入，但在過去的一年內，公司開始轉型，為了應對越來越多公司尋求更便宜的AI模型。這些公司正在尋求更便宜的AI模型，Fireworks的valuation因此達到175億美元。Nvidia背後的Fireworks公司正在努力為客戶提供更便宜的AI解決方案。這一趨勢正在改變公司的業務模式，Fireworks正在致力於提供更便宜的AI模型，來滿足越來越多的客戶需求。這一轉變將對公司未來的發展產生重大影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
         "id": "e73c0bbc",
         "title": "Google 將 NotebookLM 重命名為 Gemini Notebook",
         "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
@@ -394,6 +528,18 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "0a9aa8a7",
+        "title": "晶片產業早期財報表現令人震驚，預示今年財報將如何艱難",
+        "url": "https://www.cnbc.com/2026/07/16/early-chip-earnings-reporters-showing-how-high-the-bar-really-is.html",
+        "source": "Cnbc",
+        "category": "ai",
+        "published_at": "2026-07-16 13:32:11",
+        "summary_zh": "近期晶片產業的早期財報表現令人震驚，預示今年財報將如何艱難。根據 Wall Street 的報告，晶片產業的早期財報表現已經開始出現下滑的跡象。這些早期財報的表現令人擔憂，預示今年財報將面臨嚴峻的挑戰。晶片產業的早期財報表現的下滑主要是由於人工智慧（AI）領域的需求下滑所導致。AI 領域的需求下滑對晶片產業的影響非常大，因為晶片是人工智慧系統的基礎元件。晶片產業的早期財報表現的下滑也意味著今年財報將面臨嚴峻的挑戰。晶片產業的早期財報表現的下滑對於投資者和企業來說是一個警訊。投資者和企業需要密切關注晶片產業的財報表現，以便做出準確的投資決策。晶片產業的早期財報表現的下滑也意味著今年財報將面臨嚴峻的挑戰。晶片產業的早期財報表現的下滑對於投資者和企業來說是一個警訊。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "af91bbfb",
@@ -458,6 +604,66 @@
     ],
     "stock_tw": [
       {
+        "id": "ee82d5fe",
+        "title": "黃金大跌！該逃還是加碼？德銀最新預測曝光",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5508242",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 17 Jul 2026 09:41:00 +0800",
+        "summary_zh": "黃金價格週四(16日)一度跌逾2%，主要原因是市場擔憂中東局勢推升油價，可能使美國利率維持高檔，從而削弱不孳息黃金的吸引力。然而，德意志銀行認為，全球央行持續增持黃金的長期趨勢未變，預測黃金價格將在短期內下跌，但在長期內仍有上漲的機會。德銀的分析師表示，黃金的價格波動與美元的走勢有密切關係，美元強升將對黃金價格產生負面影響。因此，投資者應該保持冷靜，避免因短期波動而做出錯誤的投資決策。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a1c5bfc3",
+        "title": "焦點股》仁寶：無畏台積電帶賽 帶量逆勢翻紅",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5508247",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 17 Jul 2026 09:32:44 +0800",
+        "summary_zh": "台積電昨日法說會利多失靈，拖累大盤聯袂下殺，科技股成為重災區。然而，仁寶在營運谷底反轉的題材護體之下，早盤獲得買盤加持，開低走高。截至上午，仁寶股價已經逆勢翻紅，表現出來的韌性令人注目。分析師認為，仁寶的營運反轉是市場關注的焦點，股價的走勢也受到市場對其未來成長前景的期待。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1a45e509",
+        "title": "台版『無人機矽谷』 民雄航太園區9月啟用 國家隊基地邁入新里程碑",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5508235",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 17 Jul 2026 09:30:03 +0800",
+        "summary_zh": "無人機已被視為台灣繼半導體後最具戰略價值的新興產業。由國家中山科學研究院主導興建的民雄航太暨無人機產業園區東側院區，近3年施工後已完工。該園區預計9月啟用，將成為國家隊無人機研發基地，標誌著台灣無人機產業的重大突破。這項投資將幫助台灣在無人機領域取得競爭力，同時也將創造新的就業機會。然而，無人機產業的發展也面臨著挑戰，包括監管、安全和倫理問題等。總體而言，這項投資將對台灣產業發展產生積極影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "0ecd56c5",
+        "title": "黃金還沒跌完！美銀曝光真正買點是「這價格」：別急著抄底",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5508164",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 17 Jul 2026 09:27:50 +0800",
+        "summary_zh": "美國銀行技術分析師認為，黃金可能還有進一步下跌空間，但也認為金價走低將是逢低布局的買進機會。投資人應該避免因恐慌而急著抄底，應該等待黃金價格達到合理的買點後再進行投資。目前，黃金價格仍處於波動之中，投資人需要謹慎觀察市場動態和黃金價格變化，以便在適當時機進行投資。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "753b5ce9",
+        "title": "財富自由》投資大師選股-價值型選股專家股",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5508228",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 17 Jul 2026 09:10:48 +0800",
+        "summary_zh": "自由時報的財富自由頻道與台灣經濟新報合作，推出「大師選股」計畫。這個計畫是根據歐美投資大師的選股邏輯與原則，將其套用於台股。通過這個計畫，投資者可以學習到投資大師的選股技巧，並且篩選出台股中最有價值的股票。這個計畫的目標是幫助投資者達到財富自由。投資大師的選股邏輯與原則包括尋找低市值、高成長潛力的股票，以及分析公司的財務狀況和營運績效等。這些技巧可以幫助投資者在市場波動中保持穩定，並且在長期投資中取得更好的回報。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "bd7d0b90",
         "title": "9大外資同步上修台積電目標價！美系外資：逢低布局",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5508197",
@@ -466,8 +672,8 @@
         "published_at": "Fri, 17 Jul 2026 08:52:16 +0800",
         "summary_zh": "台積電昨日舉行法說會，呈現亮麗的財務報告，進一步提升全年成長目標與資本支出。9大外資分析師同步上修台積電的目標價，3000元以上已經成為共識。然而，第3季的毛利率因2奈米製程的影響而受到挑戰。外資分析師認為，台積電的成長仍然有很大的潛力，適合逢低布局。這些外資分析師的上修目標價，將會對台積電的股價產生正面影響，投資者應該密切關注台積電的發展趨勢。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "267a49ad",
@@ -478,8 +684,8 @@
         "published_at": "Fri, 17 Jul 2026 08:49:26 +0800",
         "summary_zh": "南韓股市近期出現劇烈暴跌，投資人感到心驚膽跳。根據韓國金融監督院的數據，截至7月13日，全市場累計有超過120萬個槓桿散戶帳戶觸及保證金追繳。這意味著每30名韓國成年人中，就有一人面臨斷頭危機。韓國股市的暴跌對投資人造成了巨大的壓力，許多人感到擔憂。韓國政府正在努力穩定股市，但仍然面臨著挑戰。投資人應該謹慎行事，避免過度冒險。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "65cbfa2e",
@@ -490,8 +696,8 @@
         "published_at": "Fri, 17 Jul 2026 08:25:57 +0800",
         "summary_zh": "日股在美股週四大幅下挫後，週五繼續走低，暴跌近2100點，跌破6萬5關口。這次股災的原因是由於AI股走弱，美股四大指數全面收黑，海力士ADR慘崩13％，費半重挫逾4%。此外，韓股也因休市影響而受到波及。日股的下跌將會對全球股市產生重大影響，投資者應該密切關注市場的變化。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "819e300d",
@@ -502,8 +708,8 @@
         "published_at": "Fri, 17 Jul 2026 07:53:53 +0800",
         "summary_zh": "全球科技股正面臨一場前所未有的「信用考驗」。知名科技評論人Ed Zitron發表了1.5萬字的重磅文章，直指當前熱火朝天的生成式AI泡沫本質上就是下一個雷曼兄弟。根據Zitron的分析，AI泡沫的崩潰將會對全球金融市場造成重大影響，甚至可能觸發下一次金融風暴。 Zitron認為，許多投資者對AI的狂熱情緒已經到了瘋狂的程度，忽略了AI的實際應用和潛在風險。同時，他也批評許多科技公司和投資者對AI的宣傳和炒作，將其描繪成一個無限的金礦，而事實上，AI的發展仍然處於初期階段，仍有很多未知數。 Zitron的文章引起了廣泛的關注和討論，許多人認為他的預言值得關注和警惕。然而，也有許多人對他的預言表示質疑和反對。無論如何，這篇文章已經成為了一個重要的參考點，讓我們重新評估AI的發展和風險。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "53d7941f",
@@ -514,8 +720,8 @@
         "published_at": "Fri, 17 Jul 2026 07:29:36 +0800",
         "summary_zh": "台積電在第二季獲利創下歷史新高，昨天的法說會上宣布調高全年成長目標與資本支出。雖然這是好消息，但市場卻擔心台積電決定加碼投資美國將會對毛利率造成影響。台積電的ADR昨天跌了超過2%。財經專家認為，台積電的這一決定可能是為了應對未來的市場需求，但也可能會帶來新的風險。台積電的股價表現將受到這一決定影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "be0b623e",
@@ -526,8 +732,8 @@
         "published_at": "Fri, 17 Jul 2026 07:17:34 +0800",
         "summary_zh": "研華與香港物流集團嘉里物流旗下醫療事業KLN Medical，以及新風天域集團旗下醫療照護品牌YDCare簽署三方合作MoU，推動智慧醫療方案落地香港。這項合作將結合研華的工業電腦技術、KLN Medical的醫療專業知識，以及YDCare的醫療照護品牌，共同發展智慧醫療解決方案。這項合作將為香港醫療業帶來新的機會和挑戰，同時也將推動香港成為亞洲智慧醫療中心。研華此次合作的目標是為香港醫療業提供更高效、更安全的醫療服務，並且促進醫療照護的質量和效率。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c946ced2",
@@ -538,54 +744,6 @@
         "published_at": "Fri, 17 Jul 2026 07:10:12 +0800",
         "summary_zh": "日本一名67歲的婦女，因為媳婦狂討禮物近1年，花掉近20萬元，導致她感到經濟負擔。婦女決定狠心吐出一句話，讓媳婦停止狂討禮物。這個事件引起了許多人的關注，許多人認為婦女的做法是正確的，因為她需要為自己和家人的經濟安全着想。然而，也有許多人認為婦女的做法太過狠心，媳婦的狂討禮物可能是出於對母親的關愛和感謝。這個事件也引起了對於退休生活和家庭經濟責任的討論。婦女的決定可能會對她的家庭關係產生影響，同時也會影響到她的退休生活質量。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "d02a6a9e",
-        "title": "美股收盤：AI股走弱 美股收黑 台積電ADR跌逾2% 海力士ADR慘崩13%",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5508124",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 17 Jul 2026 06:26:04 +0800",
-        "summary_zh": "美國股市因晶片股賣壓沉重，市場擔憂人工智慧（AI）龐大資本支出能否帶來足以支撐高估值的回報。同時，美伊衝突升溫，週四（16日）美國股市主要指數全面收黑。台積電ADR下跌逾2%，海力士ADR慘崩13%。這些因素共同導致美股收盤呈現負面表現。市場分析師認為，晶片股的賣壓和美伊衝突的影響，可能會持續影響美股的走勢。台積電和海力士等晶片股的表現，將受到市場的關注。未來，市場將密切關注美股的變化，評估晶片股和人工智慧領域的投資機會。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1782a7a6",
-        "title": "台積電Q2財報亮眼 美元營收預估再上調逾40% ",
-        "url": "https://ec.ltn.com.tw/article/paper/1763008",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 17 Jul 2026 05:30:00 +0800",
-        "summary_zh": "台積電昨日召開法說會，公布第二季財報成績單。雙率與單季獲利都再創新高，美元營收預估也再上調至超過40%。這意味著台積電的資本支出也會大幅增加，達600億至640億美元。這種情況下，台積電的中位數年增幅將超過5成。這項預估的上調是由於全球對晶片的需求持續增強。台積電的這項預估上調也會對全球晶片產業產生重大影響。這項預估的上調也會對台積電的股價產生重大影響。台積電的股價可能會因為這項預估的上調而上漲。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3e6ef0ef",
-        "title": "熱門股》最壞情況已過？ 巨大攻漲停",
-        "url": "https://ec.ltn.com.tw/article/paper/1763011",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 17 Jul 2026 05:30:00 +0800",
-        "summary_zh": "巨大集團在6月合併營收達57.59億元，較去年同期成長16%，今年首見雙位數成長。股價昨天逆勢攻上漲停88元，成交量3227張。巨大表示，6月自有品牌自行車業務在中國與歐洲市場雙雙成長，且轉換匯率有利之下，營收成長近3成。歐洲市場單月營收表現轉換台幣後亦成長約3成，主要由新品上市帶動。巨大股價的逆勢攻漲停，可能是市場對公司未來發展的信心增加。然而，仍需觀察公司未來的財務報表和市場情況，以確定公司的實際表現。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8bf57a90",
-        "title": "房仲、行庫看青安3.0：精準補貼 房市回歸供需基本面",
-        "url": "https://ec.ltn.com.tw/article/paper/1762920",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 17 Jul 2026 05:30:00 +0800",
-        "summary_zh": "青安三．〇即將上路，公股銀行主管與房地產業界認為，新措施可達到精準補貼目標，聚焦真正有自住需求的首購族。然而，由於央行信用管制，對目前低迷的房市激勵效果有限。現有房市管制下，投資客幾乎銷聲匿跡，市場已經回歸剛性需求。房仲、行庫認為，房市回歸供需基本面，預計房價將不再大幅上漲。",
-        "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
       },
@@ -612,33 +770,107 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
+      }
+    ],
+    "finance": [
       {
-        "id": "31df27dd",
-        "title": "澳洲阻中資插手稀土產業 考驗如何兼顧自由及安全",
-        "url": "https://www.cna.com.tw/news/aopl/202607160400.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 16 Jul 2026 21:39:56 +0800",
-        "summary_zh": "澳洲礦產及能源專家維沃達指出，有關中資控制澳洲稀土開發商「北方礦業」股權爭議，除了牽動全球戰略礦產供應，更是澳方如何兼顧自由開放經濟與供應鏈安全的一次重大試煉。這場爭議不僅影響澳洲稀土產業的未來，也關注澳洲政府如何平衡國內外利益。澳洲政府的決定將對全球稀土市場產生重大影響，同時也會影響中澳關係。這是一個複雜的問題，需要澳洲政府仔細考慮各方面因素，才能做出符合國家利益的決定。",
+        "id": "e9f3e6e5",
+        "title": "星巴克勝訴：股東訴訟因美國、中國銷售下滑被駁回",
+        "url": "https://www.reuters.com/legal/government/starbucks-defeats-shareholder-lawsuit-over-us-china-sales-declines-2026-07-16/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-16 13:50:08",
+        "summary_zh": "星巴克在股東大會上面臨一項訴訟，指控公司在美國和中國的銷售下滑導致股價下跌。然而，法院最終駁回了訴訟，認為公司的財務報告透明且沒有隱瞞任何資訊。這項裁決對於星巴克來說是一個重要勝利，公司可以繼續專注於業務發展。儘管如此，星巴克仍面臨著挑戰，包括中國市場的競爭和美國市場的疲弱。公司必須繼續努力提升銷售和市場份額。這項裁決對於投資者和股東來說是一個重要訊息，表明公司的財務狀況良好。然而，投資者仍需要密切關注公司的業務發展和市場趨勢。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
-        "id": "bf2c37e0",
-        "title": "國銀中小企業放款前5月增2897億 創同期第2高",
-        "url": "https://www.cna.com.tw/news/afe/202607160399.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 16 Jul 2026 21:39:54 +0800",
-        "summary_zh": "金管會統計顯示，截至今年5月底止，本國銀行對中小企業放款餘額達新台幣11兆1781億元，累計前5月增額為2897.1億元，創下歷年同期第2高。這意味著國銀中小企業放款今年目標增加5000億元，換算前5月達成率為57.94%。這項數據表明，國銀對中小企業的支持度正在增加，這將對台灣的經濟發展產生積極影響。然而，仍需關注的是，中小企業的融資需求是否能夠持續增加，以及銀行的放款速度能否保持穩定。",
+        "id": "05adbb47",
+        "title": "莫斯科法院駁回Euroclear上訴，關於凍結資產案件的國家媒體報導",
+        "url": "https://www.reuters.com/business/moscow-court-rejects-euroclear-appeal-frozen-assets-case-state-media-reports-2026-07-16/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-16 13:49:43",
+        "summary_zh": "俄羅斯莫斯科法院駁回了Euroclear的上訴，關於凍結資產案件的國家媒體報導指出，這一決定可能會對歐洲金融市場造成影響。Euroclear是一家負責清算和儲存證券的全球性金融機構。俄羅斯政府在2022年入侵烏克蘭後，對多家歐洲金融機構實施了制裁，包括凍結資產。Euroclear試圖通過法律途徑爭取解凍資產，但莫斯科法院駁回了上訴。這一決定可能會加劇歐洲和俄羅斯之間的金融緊張關係。俄羅斯政府的制裁措施已經對歐洲金融市場造成了影響，企業和投資者正在尋求解決方案以繞過制裁。這一事件可能會進一步加劇歐洲和俄羅斯之間的緊張關係。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "4669124c",
+        "title": "巴西即溶咖啡產業免受新美加稅，保護出口達 250 億美元",
+        "url": "https://www.reuters.com/world/americas/brazil-instant-coffee-sector-exempt-new-us-tariffs-protecting-up-25-bln-exports-2026-07-16/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-16 13:46:48",
+        "summary_zh": "巴西即溶咖啡產業因為美國對巴西的新加稅政策而受到了影響。然而，美國政府宣布即溶咖啡產業將不受新加稅的影響，保護了巴西出口達 250 億美元的利益。這項政策變化對巴西經濟產生了重大影響，巴西政府歡迎這項決定。這項決定也表明美國政府正在考慮巴西的經濟利益。巴西即溶咖啡產業是巴西出口的重要組成部分，保護這項產業對巴西經濟的穩定性有著重要意義。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e3a37c73",
+        "title": "美國天然氣價格穩定，市場等待儲備報告",
+        "url": "https://www.reuters.com/business/energy/us-natgas-prices-steady-market-waits-storage-report-2026-07-16/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-16 13:45:44",
+        "summary_zh": "美國天然氣市場近日出現穩定趨勢，市場參與者正在等待即將公佈的儲備報告。儲備報告將為市場提供關鍵資訊，影響天然氣價格的走勢。儲備報告的結果將對美國天然氣產業產生重大影響，市場參與者將密切關注報告的結果。儲備報告的公佈將為市場提供重要的參考資料，幫助投資者做出明智的決策。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c0171209",
+        "title": "印度Jio財務利潤大幅增長，各業務均呈現成長趨勢",
+        "url": "https://www.reuters.com/world/india/indias-jio-financial-profit-jumps-growth-across-businesses-2026-07-16/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-16 13:29:08",
+        "summary_zh": "印度Jio財務公司近期公布財務報告，顯示該公司的利潤大幅增長。該公司的業務範圍涵蓋了金融服務、保險和投資等領域。根據財務報告，該公司的收入和利潤均呈現快速成長的趨勢。該公司的成長可以歸因於其業務的多元化和市場的需求增加。這一成長趨勢對於印度的金融業界具有重要的意義，預示著該國的金融業將繼續呈現快速發展的態勢。然而，該公司的財務報告並未披露具體的數據，因此仍需要進一步的監測和分析以確定其實際的財務狀況。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "882633c3",
+        "title": "華爾街利潤大增，歐洲銀行規則大改",
+        "url": "https://www.cnbc.com/2026/07/16/wall-street-us-banks-profit-boom-europe-regulation.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-16 10:49:38",
+        "summary_zh": "近年來，華爾街的利潤大幅增加，引發了歐洲銀行業界的重視。為了應對這種情況，歐洲銀行規則可能會進行重大改革。這項改革將對歐洲銀行業帶來新的機會和挑戰。根據預測，這項改革可能會使歐洲銀行業的效率提高，從而帶來更好的服務和投資環境。然而，這項改革也可能會引發新的風險和不確定性。歐洲銀行業界正在密切關注這項改革的進展，準備好應對未來的挑戰和機會。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       }
     ],
     "stock_us": [
+      {
+        "id": "a62de934",
+        "title": "華爾街監管機構建議新電子傳遞方案",
+        "url": "https://www.reuters.com/legal/government/wall-street-regulators-propose-new-e-delivery-investor-disclosures-2026-07-16/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-07-16 13:44:33",
+        "summary_zh": "華爾街監管機構正在考慮推出新電子傳遞方案，讓投資者更容易獲得相關資訊。根據最新的建議，投資者將能夠通過電子郵件或線上平台接收投資者披露文件等相關資料。這項建議旨在提高投資者對投資資訊的透明度和可訪問性。然而，具體的實施細節尚待進一步討論和確定。這項變革可能會對投資者和投資市場產生重大影響，投資者將能夠更輕鬆地獲得投資資訊，從而做出更明智的投資決策。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "25278287",
+        "title": "摩根士丹利：即使貸款需求下降，該房貸股仍可能上漲",
+        "url": "https://www.cnbc.com/2026/07/16/rocket-companies-to-rise-even-as-loan-demand-falls-per-morgan-stanley.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-16 13:04:57",
+        "summary_zh": "根據摩根士丹利的分析，Rocket Companies 的股價可能會上漲，甚至貸款需求下降的情況下。這是因為根據歷史數據，當利率達到峰值時，房貸股的表現往往會改善。摩根士丹利認為，Rocket Companies 的股價會因為利率的變動而受到影響，但最終仍可能上漲。這項分析表明，即使貸款需求下降，房貸股仍可能在市場上表現良好。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "36c30a98",
         "title": "華爾街 Thursday 最大分析師評估：Nvidia、Apple、SpaceX、Blackrock、Cintas、Amazon、JPMorgan 等",
@@ -648,8 +880,8 @@
         "published_at": "2026-07-16 12:32:33",
         "summary_zh": "華爾街 Thursday 最大分析師評估出爐，包括 Nvidia、Apple、SpaceX、Blackrock、Cintas、Amazon、JPMorgan 等公司。這些評估將對這些公司的股價產生重大影響。分析師們對 Nvidia 的評估特別關注，因為該公司的半導體業務正在迅速發展。另一方面，Apple 的評估則關注其在電池和電源領域的發展。SpaceX 的評估則聚焦於其在太空探索領域的進展。Blackrock 的評估則關注其在資產管理領域的業務。Cintas 的評估則關注其在清潔和維護領域的業務。Amazon 的評估則關注其在電商領域的業務。JPMorgan 的評估則關注其在銀行領域的業務。這些評估將對這些公司的股價產生重大影響，投資者應該密切關注這些評估的結果。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "4838f885",
@@ -712,42 +944,6 @@
         "ai_classified": true
       },
       {
-        "id": "c669f234",
-        "title": "為了抓捕歐洲最難以逮捕的罪犯，警察轉向美國的DNA戰術",
-        "url": "https://www.wsj.com/world/to-catch-europes-most-elusive-criminals-police-look-to-u-s-dna-tactics-510052de",
-        "source": "Wsj",
-        "category": "stock_us",
-        "published_at": "2026-07-16 09:50:00",
-        "summary_zh": "近年來，歐洲多個國家面臨著嚴重的犯罪問題，包括搶劫、謀殺和性侵犯等。為了有效打擊這些犯罪，歐洲警察正在研究美國的DNA戰術。美國的DNA戰術已經被證明是有效的，能夠幫助警察快速找到罪犯和解決案件。這些戰術包括使用DNA樣本來追蹤罪犯的足跡，甚至可以追蹤到罪犯的家庭成員。歐洲警察正在努力學習和採用這些戰術，以便能夠有效地打擊犯罪。然而，這也引發了對隱私和人權的擔憂。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d0e680df",
-        "title": "美國國庫收益率上升，華爾街等待關鍵就業數據",
-        "url": "https://www.cnbc.com/2026/07/16/us-treasury-yields-wall-street-inflation-employment-data.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-16 09:21:50",
-        "summary_zh": "美國國庫收益率上升，華爾街等待關鍵就業數據。美國國庫收益率是美國政府借貸的關鍵基準，10年期美國國庫收益率上升超過2個基點，達到4.573%。這表明投資者對美國經濟的看法正在改變，政府借貸成本也隨之上升。這一發展可能對美股市場有所影響，投資者正在密切關注即將公佈的就業數據，以了解美國經濟的走向。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6b46eeba",
-        "title": "CNBC 每日開市：梅西終結英格蘭",
-        "url": "https://www.cnbc.com/2026/07/16/cnbc-daily-open-a-messi-end-for-england.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-16 05:53:54",
-        "summary_zh": "英格蘭半準決賽失利將會讓球迷感到不快，但對市場來說，仍然是芯片領域的波動所致。英格蘭球迷將會感到失望，但這並不會對市場產生任何影響。市場的波動仍然圍繞在芯片領域。英格蘭半準決賽失利對球迷來說是一個沉重的打擊，但對市場來說，這並不是一個重大的事件。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "4d0479e0",
         "title": "AI 股走弱拖累 美股收黑",
         "url": "https://www.cna.com.tw/news/afe/202607170010.aspx",
@@ -755,238 +951,6 @@
         "category": "stock_us",
         "published_at": "Fri, 17 Jul 2026 04:37:52 +0800",
         "summary_zh": "美國股市今天受人工智慧相關企業股價下跌的影響，全面收黑。電腦晶片製造商及其他人工智慧相關企業的股價下跌，拖累全球股市表現。這種情況在全球股市中較為常見，尤其是在科技業的波動會對整體市場造成影響。美國股市的收黑也可能是由於投資者對未來市場趨勢的不確定性。這種情況下，投資者可能會選擇安全性較高的投資品項，避免風險。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8655bc15",
-        "title": "投資人衡量經濟數據 美國股市開盤走勢分歧",
-        "url": "https://www.cna.com.tw/news/afe/202607160404.aspx",
-        "source": "中央社財經",
-        "category": "stock_us",
-        "published_at": "Thu, 16 Jul 2026 21:55:05 +0800",
-        "summary_zh": "美國最新公布失業救濟人數和零售銷售數據，投資人評估經濟狀況穩健的線索。然而，華爾街股市主要指數今天開盤漲跌互見，晶片類股再次走弱。投資人對經濟數據的反應不一，部分人認為數據表明經濟正在恢復，部分人則認為數據仍然不夠理想。這種分歧導致股市開盤走勢不一。晶片類股的走弱可能與供應鏈問題和全球經濟下行趨勢有關。投資人將繼續觀察經濟數據和股市走勢，以評估投資機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0416ec43",
-        "title": "美單週初領失業金人數降至20.8萬 寫10週以來最低",
-        "url": "https://www.cna.com.tw/news/aopl/202607160402.aspx",
-        "source": "中央社財經",
-        "category": "stock_us",
-        "published_at": "Thu, 16 Jul 2026 21:48:00 +0800",
-        "summary_zh": "美國勞工部最新數據顯示，截至7月11日為止的1週內，美國新申請失業給付人數減少8000人至20萬8000人，低於市場預估值。這意味著美國裁員情況仍處於歷史低點。這項數據寫下10週以來最低，表明美國勞動市場正在逐步恢復。雖然失業率仍然較高，但這項數據的下降跡象令人鼓舞。美國政府和經濟學家將密切關注未來勞動市場的發展，以確保經濟持續穩定。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "48a6ccdb",
-        "title": "美國每週失業申報人數下降，勞動市場穩定",
-        "url": "https://www.reuters.com/world/us/us-weekly-jobless-claims-fall-labor-market-remains-stable-2026-07-16/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-16 12:51:43",
-        "summary_zh": "美國勞動市場近期表現穩定，根據最新數據，美國每週失業申報人數下降，顯示勞動市場正在保持穩定。這項數據表明，美國勞動市場正在經歷一個相對穩定的時期，失業率持續下降。這種情況對美國經濟有著積極的影響，表明美國經濟正在逐步恢復。然而，美國勞動市場仍面臨著挑戰，例如勞動力短缺和薪資增長問題。美國政府和企業需要繼續關注這些問題，確保勞動市場持續穩定。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "d27b6799",
-        "title": "美國零售銷售額微升於六月",
-        "url": "https://www.reuters.com/business/us-retail-sales-rise-marginally-june-2026-07-16/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-16 12:48:13",
-        "summary_zh": "美國零售銷售額在六月份微升，表明消費者仍然對經濟持續樂觀。根據美國商務部的數據，美國零售銷售額在六月份增加了 0.1%，超出了市場預期的 0.2% 增長。這一微升反映了消費者對經濟的信心仍然穩定。然而，這一數據也表明美國經濟仍處於脆弱狀態，需要持續的刺激。美國零售銷售額的微升對於全球經濟的影響不大，但仍然是美國經濟的一個重要指標。美國經濟的未來發展仍然受到多種因素的影響，包括通膨率、利率和貿易政策等。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "c7d35d1a",
-        "title": "谷歌被迫開放AI服務，歐盟規定與競爭對手共享資源",
-        "url": "https://www.cnbc.com/2026/07/16/google-required-to-open-up-to-ai-search-engine-rivals-under-eu-mandated-changes.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-16 12:41:41",
-        "summary_zh": "歐盟規定谷歌必須與OpenAI等AI競爭對手共享其服務，讓對手能夠更容易地存取谷歌的AI技術。這項規定是為了限制大科技公司的壟斷權力。谷歌的母公司Alphabet必須遵守這項規定，讓對手能夠更容易地存取谷歌的AI服務。這項規定將對谷歌的業務產生重大影響，讓對手能夠更容易地存取谷歌的AI技術。這項規定將對歐盟的科技業產生重大影響，讓對手能夠更容易地存取谷歌的AI服務。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "bec9f673",
-        "title": "胡蘆海峽危機：路透社調查顯示多個中東國家今年經濟將進一步下滑",
-        "url": "https://www.reuters.com/world/middle-east/most-gulf-area-economies-face-deeper-downturns-this-year-hormuz-disruption-2026-07-16/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-16 12:27:21",
-        "summary_zh": "根據路透社的調查，多個中東國家的經濟今年將面臨更深的下滑。這是由於胡蘆海峽的不穩定局勢對全球能源市場造成的影響。路透社的調查顯示，多個中東國家的經濟預期今年將下滑，包括伊朗、伊拉克、沙烏地阿拉伯和阿拉伯聯合大公國等國家。這些國家的經濟下滑主要是由於能源出口收入的下降，以及對全球經濟的依賴度增強。路透社的調查結果顯示，這些國家的經濟下滑將對全球經濟產生重大影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "c4569312",
-        "title": "超市銷售數據、聯合集團財報、Anthropic IPO 準備等早市要聞",
-        "url": "https://www.cnbc.com/2026/07/16/5-things-to-know-before-the-stock-market-opens.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-16 12:25:39",
-        "summary_zh": "早市要聞中提到五個關鍵事項，投資者需要了解這些信息才能開始交易。其中包括超市銷售數據、聯合集團財報、Anthropic 的 IPO 準備等。這些信息對於投資者做出明智的決策至關重要。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "882633c3",
-        "title": "華爾街利潤大增，歐洲銀行規則大改",
-        "url": "https://www.cnbc.com/2026/07/16/wall-street-us-banks-profit-boom-europe-regulation.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-16 10:49:38",
-        "summary_zh": "近年來，華爾街的利潤大幅增加，引發了歐洲銀行業界的重視。為了應對這種情況，歐洲銀行規則可能會進行重大改革。這項改革將對歐洲銀行業帶來新的機會和挑戰。根據預測，這項改革可能會使歐洲銀行業的效率提高，從而帶來更好的服務和投資環境。然而，這項改革也可能會引發新的風險和不確定性。歐洲銀行業界正在密切關注這項改革的進展，準備好應對未來的挑戰和機會。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "whitehouse": [
-      {
-        "id": "ea0f017c",
-        "title": "川普政府加緊外國學生簽證規則",
-        "url": "https://www.bbc.co.uk/news/articles/czdmp87rpv1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 16 Jul 2026 21:31:51 GMT",
-        "summary_zh": "美國川普政府近日宣布，將對外國學生簽證進行調整。根據新規定，外國學生將需要獲得聯邦政府的許可，才能在美國逗留超過四年。同時，大學將失去延長簽證的權力。這一措施引發外界關注，是否會對外國學生來美就學產生影響。分析指出，這一政策變化可能會導致外國學生減少來美就學的意願。同時，也引發了對美國高等教育的影響。美國高等教育機構表示，將會與政府溝通，希望能夠在政策變化中找到平衡。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c4a045fb",
-        "title": "羅比奧呼籲全球打擊極左主義",
-        "url": "https://www.bbc.co.uk/news/articles/c39ek38le2lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 16 Jul 2026 23:08:38 GMT",
-        "summary_zh": "美國共和黨籍參議員羅比奧最近呼籲全球各國共同打擊極左主義。羅比奧認為極左主義的極端主義正在全球各地蔓延，對社會和民主制度造成嚴重威脅。他提議各國政府應該共同合作，制定政策和法律來打擊極左主義的極端主義行為。然而，民主黨籍議員批評羅比奧的提議是政治偏見的表現，可能會針對政治對手進行打壓。這一事件引發了對極左主義和極右主義的討論，各方都有不同的看法和意見。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "4fbcde74",
-        "title": "川普媒體推出付費社交內容服務",
-        "url": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 16 Jul 2026 22:42:37 GMT",
-        "summary_zh": "川普媒體宣布推出一項快速付費社交內容服務，供華爾街交易員早點看到社交平台上的關鍵內容。這項服務將為交易員提供早點看到川普社交平台上的重要資訊，包括社交媒體帖子、推文等。這項服務的推出，可能會對社交媒體平台的內容傳播模式產生影響。川普媒體的這一舉動，也可能會引起對社交媒體內容的控制和監管的討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8c4a1dc5",
-        "title": "德克薩斯州將調查ICE在休斯頓的致命射殺案，州長表示",
-        "url": "https://www.bbc.co.uk/news/articles/cq8924v711lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 16 Jul 2026 22:38:16 GMT",
-        "summary_zh": "德克薩斯州州長宣布將調查ICE在休斯頓的一起致命射殺案。該事件引起了廣泛關注，許多人要求進行獨立調查並對ICE進行更嚴格的監控。美國聯邦政府也已經開始調查此事。該事件發生在休斯頓，造成一名男子死亡。德克薩斯州州長的決定表明了對ICE行動的關注和要求更高的透明度。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "47c6d229",
-        "title": "美國軍方將開始進行睪固素測試，赫格塞斯說",
-        "url": "https://www.bbc.co.uk/news/articles/cn0nlx18rz0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 16 Jul 2026 09:10:38 GMT",
-        "summary_zh": "美國國防部長赫格塞斯表示，美國軍方將開始進行睪固素測試，以提供軍人最好的醫療照護。這項措施是為了確保軍人能夠得到最好的醫療照護，赫格塞斯認為這是對軍人的義務。這項測試將對美國軍方的醫療系統帶來新的變化，同時也會對軍人的生活產生影響。美國軍方的睪固素測試將會是全球軍方中的一項先進措施，同時也會對軍人健康的研究帶來新的進展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c61c9d81",
-        "title": "美國海岸警衛隊暫停搜救三人失蹤的任務",
-        "url": "https://www.bbc.co.uk/news/articles/cwylyzvy444o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 16 Jul 2026 12:11:35 GMT",
-        "summary_zh": "美國海岸警衛隊宣布暫停搜救三名失蹤者，原因是他們的船隻在靠近阿拉卡茲島時沉沒。星期二下午的意外事故造成一人死亡，另外20人獲救。這次事故的原因尚未明朗，美國海岸警衛隊正在進行調查。這次事件的影響不大，僅影響當地的海上交通。美國海岸警衛隊將繼續監控海上情況，確保安全。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9f5ac514",
-        "title": "川普預告將在演說中透露重大消息，傳言可能涉及選舉或伊朗",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/16/trump-speech-address-iran-election-latest-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 17 Jul 2026 00:48:56 GMT",
-        "summary_zh": "川普在演說前夕，傳出他將在演說中宣布重大消息，但內容仍未透露。這次演說將在美國對伊朗進行六天連續攻擊後舉行，美國軍方在伊朗附近發動攻擊，伊朗則對美國盟友發射彈道導彈和無人機。伊朗的反擊行動引發了對美國和伊朗關係的擔憂。川普的演說將是關鍵時刻，觀察家們將密切關注他的演說內容。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2fb1badf",
-        "title": "川普將會見格雷厄姆新任參議員於白宮",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/16/donald-trump-darline-graham-bukele-blanche-iran-ice-2020-election-speech-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 16 Jul 2026 23:15:47 GMT",
-        "summary_zh": "川普將於今天會見新任共和黨參議員格雷厄姆，格雷厄姆接替其胞兄林賽格雷厄姆去世後的議席。德國總理弗里德里希·梅茲（Friedrich Merz）警告美國政府不要干預德國選舉，美國國務院宣布將向歐洲慈善機構、智庫和個人提供最高3,000萬美元的補助金，支持與Maga運動相關的原因。德國總理梅茲對此表示反對，認為這是一種干預選舉的行為。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6f96de71",
-        "title": "佛羅里達州議會候選人被捕，指控威脅要殺死川普",
-        "url": "https://www.theguardian.com/us-news/2026/jul/16/marine-arrested-charged-allegedly-threatening-to-kill-trump",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 16 Jul 2026 22:47:09 GMT",
-        "summary_zh": "佛羅里達州的一名35歲前海軍陸戰隊員和共和黨的候選人威廉·烏帕姆（William Upham）被捕和控告在聯邦法院威脅要殺死川普。根據美國檢察官的說法，烏帕姆面臨最高五年的聯邦監禁。烏帕姆是佛羅里達州第五國會選區共和黨初選的候選人，他在星期四出現在傑克遜維爾的聯邦法院後被捕。根據公開記錄，烏帕姆是一名候選人，正在參加佛羅里達州第五國會選區共和黨初選。這起事件的背景是美國政治競選的高峰期，各方候選人正在爭取選民的支持。烏帕姆的行為被視為嚴重威脅，可能會對美國政治和社會產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "539f2f55",
-        "title": "『文明的敵人』：特朗普高官發動全面攻擊左派",
-        "url": "https://www.theguardian.com/us-news/2026/jul/16/political-violence-event-trump-marco-rubio",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 16 Jul 2026 21:09:44 GMT",
-        "summary_zh": "美國特朗普政府高官們在與66個國家討論政治暴力威脅的會議上，發動了一系列針對左派激進主義的攻擊。會議由美國國務卿馬可·魯比奧主持，參與者還包括特朗普顧問史蒂芬·米勒和財政部長史考特·貝森特。會議題目為「政治暴力復興的部長級會議」，但實際上卻只針對左派暴力進行討論。這一會議在特朗普政府試圖將政治對手標籤為共產主義者並加緊努力之際舉行。特朗普政府高官們的攻擊被視為對左派激進主義的全面打擊。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e4b62bc6",
-        "title": "巴西譴責美國打算下周對其商品徵收 25%_tariffs",
-        "url": "https://www.theguardian.com/us-news/2026/jul/16/brazil-us-tariffs",
-        "source": "Guardian World",
-        "category": "whitehouse",
-        "published_at": "Thu, 16 Jul 2026 05:01:23 GMT",
-        "summary_zh": "巴西政府譴責美國政府決定對其商品徵收 25% 的關稅，理由是美國政府認為巴西有不公平的貿易實踐。巴西總統路易斯·伊納西奧·盧拉·達席爾瓦的辦公室發表聲明，否認巴西參與不公平的貿易實踐。美國參議員馬可·魯比奧表示，盧拉的政策對美國人和巴西人都不好。美國貿易部門指出，正在調查巴西的貿易實踐。這項決定將對巴西的出口產生重大影響，巴西政府正在努力爭取美國政府的支持。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
