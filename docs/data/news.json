@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-20T11:04:19.013888+08:00",
+  "generated_at": "2026-07-20T12:04:14.736194+08:00",
   "risk_signals": [
-    "🟢 台股加權 42742.56（正常）",
+    "🟢 台股加權 42609.14（正常）",
     "🟢 S&P 500 7457.69（正常）",
     "🟢 VIX 恐慌指數 18.77（正常）",
     "🟢 MOVE 債市波動 70.88（正常）",
-    "🟢 美元指數 100.71（正常）",
-    "🟢 黃金 4029.2（正常）",
+    "🟢 美元指數 100.75（正常）",
+    "🟢 黃金 4012.7（正常）",
     "🟡 美債10Y殖利率 4.54（留意）",
-    "🟢 原油 WTI 83.34（正常）",
-    "🟢 美元/台幣 32.4（正常）"
+    "🟡 原油 WTI 82.49（漲 +4.48%，留意）",
+    "🟢 美元/台幣 32.38（正常）"
   ],
-  "ai_summary": "市場呈現平穩氛圍，多個指標維持正常水平。但美債10年殖利率略有上升，值得留意。",
+  "ai_summary": "市場指標整體呈正常狀態，但美債10年殖利率和原油價格的走勢值得關注，可能預示著全球經濟和能源市場的變化。",
   "market": {
     "TWII": {
-      "price": 42742.56,
-      "change_pct": 0.17
+      "price": 42609.14,
+      "change_pct": -0.15
     },
     "SP500": {
       "price": 7457.69,
@@ -38,131 +38,33 @@
       "change_pct": 3.99
     },
     "DXY": {
-      "price": 100.71,
-      "change_pct": -0.03
+      "price": 100.75,
+      "change_pct": 0.02
     },
     "GOLD": {
-      "price": 4029.2,
-      "change_pct": 0.41
+      "price": 4012.7,
+      "change_pct": 0.68
     },
     "OIL": {
-      "price": 83.34,
-      "change_pct": 1.03
+      "price": 82.49,
+      "change_pct": 4.48
     },
     "USDTWD": {
-      "price": 32.4,
-      "change_pct": 0.42
+      "price": 32.38,
+      "change_pct": 0.36
     }
   },
   "macro": {},
   "categories": {
-    "whitehouse": [
-      {
-        "id": "4c11a4e1",
-        "title": "副總統 JD 甘迺迪和妻子烏莎·凡斯歡迎新生兒男孩",
-        "url": "https://www.theguardian.com/us-news/2026/jul/19/jd-usha-vance-baby-boy-born",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 19 Jul 2026 23:00:08 GMT",
-        "summary_zh": "美國副總統 JD 甘迺迪和妻子烏莎·凡斯宣布了他們第四個孩子的出生，名為艾歷·尼爾·凡斯。這是近 150 年來第一位在任副總統的孩子出生。艾歷·尼爾·凡斯出生於星期日，與哥哥艾文（9 歲）、維維克（6 歲）和米拉貝爾（4 歲）一起，是一家人中又一個新的成員。這項消息在社交媒體上公佈。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b6ccde33",
-        "title": "伊朗戰爭轉變為確保石油供應，川普官員表示",
-        "url": "https://www.theguardian.com/us-news/2026/jul/19/trump-official-iran-war-oil-flow-strait-hormuz",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 19 Jul 2026 18:48:12 GMT",
-        "summary_zh": "伊朗戰爭已經持續了幾個月，美國能源部長克里斯·懷特（Chris Wright）在ABC的節目中辯護川普政府的戰略。他承認自己之前的聲明錯誤，承諾戰爭將在今年初結束。懷特表示，美國的目標已經從打擊伊朗轉變為確保石油供應。這一轉變引起了民主黨人對戰爭的批評，他們稱之為「選擇戰爭」。美國在戰爭中已經有17名軍人喪生，包括最近三名美國士兵的死亡。懷特的辯護無法滿足對戰爭長期進行的批評。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f50b0145",
-        "title": "ICE官員將在車站停止時使用身體攝影機，川普「邊境總監」表示",
-        "url": "https://www.theguardian.com/us-news/2026/jul/19/ice-record-vehicle-stops-body-camera-mandate-homan",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 19 Jul 2026 17:54:50 GMT",
-        "summary_zh": "美國移民及海關執法局（ICE）將要求其官員在車站停止時至少使用一部身體攝影機，川普政府的「邊境總監」湯姆·霍曼（Tom Homan）於週日表示。這項行動出於該局在近期遭到兩名男子在六天內被ICE官員射殺的事件後，面臨新的監督。霍曼在福克斯新聞週末節目中表示，身體攝影機可以幫助證明官員的行為正確，同時讓美國人民看到官員在採取行動時所見的內容。該局在近期遭到關注，包括兩名男子在六天內被ICE官員射殺的事件。霍曼表示，身體攝影機可以幫助證明官員的行為正確，同時讓美國人民看到官員在採取行動時所見的內容。這項行動將對ICE官員的工作產生重大影響，同時也會讓美國人民對ICE官員的行為有更深入的了解。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6d0388b6",
-        "title": "紐約市長：若內塔尼亞胡訪問紐約 可能會被捕",
-        "url": "https://www.theguardian.com/us-news/2026/jul/19/mamdani-netanyahu",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 19 Jul 2026 15:38:11 GMT",
-        "summary_zh": "紐約市長佐哈蘭·馬曼達尼（Zohran Mamdani）表示，他正在檢視是否可以逮捕以色列總理本雅明·內塔尼亞胡（Benjamin Netanyahu），因為預計內塔尼亞胡將在9月訪問紐約參加聯合國大會。佐哈蘭在紐時社論中表示，他正在與紐約市的法律部門進行積極溝通，探討此事。佐哈蘭的這番話是在他去年競選紐約市長時曾經提過的。佐哈蘭的這番表態可能會對內塔尼亞胡的訪問產生影響，內塔尼亞胡可能會面臨逮捕的風險。佐哈蘭的表態也可能會引起國際關注，是否允許逮捕外國領導人。佐哈蘭的決定將會受到各方的關注，包括內塔尼亞胡的支持者和反對者。佐哈蘭的表態也可能會影響內塔尼亞胡的訪問計畫，是否會繼續進行。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ea68b484",
-        "title": "泰特兄弟在美國被捕，英國檢方要求引渡",
-        "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 19 Jul 2026 12:53:20 GMT",
-        "summary_zh": "泰特兄弟在美國被捕，英國檢方宣布將要求將他們引渡回英國。兄弟們的律師否認指控，稱新指控是「誹謗」。泰特兄弟在英國面臨多項指控，包括性侵犯和兒童色情。這些指控在英國引起了廣泛的爭議和譴責。兄弟們的律師表示，這些指控是毫無根據的，並且是為了陷害他們而設的。兄弟們在美國的被捕是英國檢方對他們的追捕行動的一部分。這些事件將對泰特兄弟的未來產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1c820a11",
-        "title": "美國衛生官員確認爆發性腹瀉源頭",
-        "url": "https://www.bbc.co.uk/news/articles/c4gw9n1kx9do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 02:35:04 GMT",
-        "summary_zh": "美國食品藥物管理局宣布，來自Taylor Farms的冰磯生菜，出售於Taco Bell和Walmart店家，是導致美國爆發性腹瀉的原因。這種腹瀉是由於細菌感染引起的。美國衛生官員已經確認了這種感染的來源，並正在努力控制疫情。這種爆發性腹瀉已經影響了許多美國人，導致許多人住院治療。美國政府正在密切監控疫情，並正在與相關企業合作，防止此類事件再次發生。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2a6e815c",
-        "title": "JD Vance宣布與妻子Usha誕下男嬰",
-        "url": "https://www.bbc.co.uk/news/articles/cj63kngxpxpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 19 Jul 2026 23:16:04 GMT",
-        "summary_zh": "美國政治人物JD Vance宣布與妻子Usha誕下第四個孩子，男嬰Eric Neel Vance。這是夫妻倆第四個孩子的誕生，目前沒有更多的資訊。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c5deda83",
-        "title": "82歲奶奶成功爭取法案，讓養老院可以舉辦Happy Hour",
-        "url": "https://www.bbc.co.uk/news/articles/c70gz5y2xpxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Sun, 19 Jul 2026 12:46:47 GMT",
-        "summary_zh": "82歲的安妮塔·勒布朗（Anita Le Brun）是爭取在養老院內提供酒精飲料的法案的代表人物。她一直在努力推動這個法案，最終成功通過。這項法案的通過意味著養老院可以在沒有牌照的情況下提供酒精飲料，讓居民可以在指定時間內享受Happy Hour。這項變革對於養老院的居民來說是一個重要的改善，尤其是對於那些喜歡喝酒的老人。這項法案的通過也表明了對老年人的尊嚴和權利的重視。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
     "global": [
       {
-        "id": "34889b51",
-        "title": "俄羅斯對基輔發動大規模彈道飛彈攻擊",
-        "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "abb5eb36",
+        "title": "美國與伊朗交換攻擊 美軍在約旦兩名士兵遇害",
+        "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Sun, 19 Jul 2026 18:25:40 GMT",
-        "summary_zh": "俄羅斯對烏克蘭首都基輔發動大規模彈道飛彈攻擊，烏克蘭總統澤連斯基形容這是對烏克蘭首都的「最大規模彈道攻擊」。根據最新消息，至少有一人死亡。這次攻擊是俄羅斯對烏克蘭的最新軍事行動，烏克蘭政府正在努力應對這種威脅。這次攻擊對烏克蘭的影響將是重大，烏克蘭人民將面臨嚴重的安全風險。烏克蘭政府正在努力維持秩序和穩定，同時也在與國際社會合作，尋求對俄羅斯的制裁和壓力。",
+        "published_at": "Sun, 19 Jul 2026 19:45:12 GMT",
+        "summary_zh": "近日美國與伊朗之間的緊張局勢再次升級。美國軍方在約旦發生事件後，對伊朗目標進行了第八晚的攻擊。伊朗方面則表示，已經向美國軍方在科威特的基地發射無人機。這一系列事件引發了全球關注，各方都在密切關注美國和伊朗之間的軍事對抗。美國和伊朗之間的緊張關係已經持續了數月，並且一直引起國際社會的關注。伊朗的軍事行動可能會對全球安全造成重大影響。美國和伊朗之間的對抗可能會持續下去，國際社會應該密切關注這一局勢的發展。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -180,16 +82,16 @@
         "ai_classified": true
       },
       {
-        "id": "da4536d9",
-        "title": "挪威為2011年屠殺遇難者揭牌新紀念碑",
-        "url": "https://www.bbc.co.uk/news/articles/c07r9m22gyyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "3a03d878",
+        "title": "幾十人失蹤　 Guyana沿岸客輪沉沒",
+        "url": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana",
+        "source": "Guardian World",
         "category": "global",
-        "published_at": "Mon, 20 Jul 2026 01:11:08 GMT",
-        "summary_zh": "挪威政府為2011年屠殺遇難者揭牌新紀念碑。這座紀念碑位於挪威首都奧斯陸，於週日揭牌，正值屠殺發生15周年。這座紀念碑是為了紀念2011年7月22日發生的屠殺事件，當時一名槍手在奧斯陸的政府大樓和大學校園內開火，造成72人死亡。這座紀念碑將成為挪威人對遇難者的哀悼和紀念的場所。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "published_at": "Mon, 20 Jul 2026 03:54:52 GMT",
+        "summary_zh": " Guyana當局表示，近日一艘客輪在該國沿岸沉沒，造成116名乘客和船員失蹤。截至目前，已經成功救出67人，包括15名兒童。 Guyana當局正在展開大規模的搜救行動，將這次事故描述為該國最嚴重的海上災難之一。該客輪在週六晚間沉沒，目前仍有數十名乘客失蹤，正在進行緊急救援工作。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "691efca9",
@@ -204,13 +106,13 @@
         "ai_classified": true
       },
       {
-        "id": "0bb48e31",
-        "title": "116人在圭亞那海岸遭遇輪船沉沒事故，當局已救出53人",
-        "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "96b58a58",
+        "title": "秘魯地震至少5死，超過20人受傷，300人無家可歸",
+        "url": "https://www.theguardian.com/world/2026/jul/19/55-magnitude-earthquake-hits-perus-andes-region-and-kills-at-least-5-people",
+        "source": "Guardian World",
         "category": "global",
-        "published_at": "Sun, 19 Jul 2026 18:18:05 GMT",
-        "summary_zh": "圭亞那海岸發生了一宗嚴重的輪船沉沒事故，據當局報導，當地一艘輪船在前往Port Kaituma的途中，於途經Georgetown之間沉沒，造成116名乘客受困。截至目前，已經成功救出53名乘客。當局正在進行緊急救援行動，試圖挽救更多生還者。這起事故引起了圭亞那政府的關注，當局已經派出救援隊伍和醫療人員到現場協助救援工作。圭亞那政府已經承諾會盡一切力量幫助受影響的家庭和乘客。這宗事故的影響可能會遠超出圭亞那本身，會對當地的旅游業和經濟造成重大影響。",
+        "published_at": "Sun, 19 Jul 2026 17:12:47 GMT",
+        "summary_zh": "秘魯近日發生5.5級地震，震央位於安地斯山脈地區的胡安卡約省，距離西卡亞市約2公里。地震造成至少5人死亡，超過20人受傷，300人無家可歸。美國地質調查局報告指出，地震發生時間為週六晚上9點24分，震央深度約10公里。地震的影響使當地居民感到驚恐，許多人失去了家園。秘魯當局正在努力幫助受災者，提供援助和救援。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -240,18 +142,6 @@
         "ai_classified": true
       },
       {
-        "id": "1981a020",
-        "title": "古巴異議人士盧伊斯曼努爾·奧特羅·阿爾坎塔拉前往美國避難",
-        "url": "https://www.bbc.co.uk/news/articles/cx2k77p2r1xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 07:47:02 GMT",
-        "summary_zh": "古巴異議人士盧伊斯曼努爾·奧特羅·阿爾坎塔拉（Luis Manuel Otero Alcántara）在2021年古巴反政府大規模抗議期間被捕，五年後出獄。這位抗議者因其對古巴政府的批評和抗議而聞名。他的逃亡可能是由於古巴政府對其的迫害。阿爾坎塔拉的逃亡可能會對古巴政府的形象產生影響，並可能會引發更多的抗議活動。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "ba5572dd",
         "title": "美國拳擊手哈娜·拉普在德克薩斯州被車輛撞死",
         "url": "https://www.theguardian.com/us-news/2026/jul/19/boxer-hannah-rapp-dies-struck-by-car",
@@ -261,18 +151,6 @@
         "summary_zh": "美國拳擊手哈娜·拉普（Hannah Rapp）在德克薩斯州被車輛撞死。拉普在6月份曾為世界拳擊理事會女子羽量級冠軍爭奪賽。警方表示，拉普在騎自行車時被一名司機撞倒，當場死亡。警方已經逮捕了一名31歲男子，名叫查爾斯·梅迪納（Charles Medina），並將他與拉普的死亡案件相關聯。拉普的年齡為26歲。這起事件的影響將對拳擊界造成重大震撼。拉普的死也引起了對公路安全的關注。目前，警方正在調查此案件，正在追蹤查爾斯·梅迪納的下落。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ebfe26a5",
-        "title": "北極點舉辦「世界最酷的馬拉松」活動",
-        "url": "https://www.bbc.co.uk/news/videos/c9q9lw5rql4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 14:06:08 GMT",
-        "summary_zh": "北極點舉辦了一場名為「世界最酷的馬拉松」的活動，23名來自七個國家的跑者參與了這場在北極地理北極點舉行的賽事。這項活動由一家組織主辦，該組織旨在推廣北極地區的觀光業。跑者們在浮冰上進行了賽跑，展現了人類在極端環境下的堅韌精神。這項活動也吸引了許多媒體的關注，讓北極點的美景更加引人注目。然而，環境保護組織也對這項活動提出關注，認為它可能會對北極的生態系統造成影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -288,13 +166,37 @@
         "ai_classified": true
       },
       {
-        "id": "abb5eb36",
-        "title": "美國與伊朗交換攻擊 美軍在約旦兩名士兵遇害",
-        "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "id": "34889b51",
+        "title": "俄羅斯對基輔發動大規模彈道飛彈攻擊",
+        "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "global",
-        "published_at": "Sun, 19 Jul 2026 19:45:12 GMT",
-        "summary_zh": "近日美國與伊朗之間的緊張局勢再次升級。美國軍方在約旦發生事件後，對伊朗目標進行了第八晚的攻擊。伊朗方面則表示，已經向美國軍方在科威特的基地發射無人機。這一系列事件引發了全球關注，各方都在密切關注美國和伊朗之間的軍事對抗。美國和伊朗之間的緊張關係已經持續了數月，並且一直引起國際社會的關注。伊朗的軍事行動可能會對全球安全造成重大影響。美國和伊朗之間的對抗可能會持續下去，國際社會應該密切關注這一局勢的發展。",
+        "published_at": "Sun, 19 Jul 2026 18:25:40 GMT",
+        "summary_zh": "俄羅斯對烏克蘭首都基輔發動大規模彈道飛彈攻擊，烏克蘭總統澤連斯基形容這是對烏克蘭首都的「最大規模彈道攻擊」。根據最新消息，至少有一人死亡。這次攻擊是俄羅斯對烏克蘭的最新軍事行動，烏克蘭政府正在努力應對這種威脅。這次攻擊對烏克蘭的影響將是重大，烏克蘭人民將面臨嚴重的安全風險。烏克蘭政府正在努力維持秩序和穩定，同時也在與國際社會合作，尋求對俄羅斯的制裁和壓力。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "da4536d9",
+        "title": "挪威為2011年屠殺遇難者揭牌新紀念碑",
+        "url": "https://www.bbc.co.uk/news/articles/c07r9m22gyyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 20 Jul 2026 01:11:08 GMT",
+        "summary_zh": "挪威政府為2011年屠殺遇難者揭牌新紀念碑。這座紀念碑位於挪威首都奧斯陸，於週日揭牌，正值屠殺發生15周年。這座紀念碑是為了紀念2011年7月22日發生的屠殺事件，當時一名槍手在奧斯陸的政府大樓和大學校園內開火，造成72人死亡。這座紀念碑將成為挪威人對遇難者的哀悼和紀念的場所。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0bb48e31",
+        "title": "116人在圭亞那海岸遭遇輪船沉沒事故，當局已救出53人",
+        "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 18:18:05 GMT",
+        "summary_zh": "圭亞那海岸發生了一宗嚴重的輪船沉沒事故，據當局報導，當地一艘輪船在前往Port Kaituma的途中，於途經Georgetown之間沉沒，造成116名乘客受困。截至目前，已經成功救出53名乘客。當局正在進行緊急救援行動，試圖挽救更多生還者。這起事故引起了圭亞那政府的關注，當局已經派出救援隊伍和醫療人員到現場協助救援工作。圭亞那政府已經承諾會盡一切力量幫助受影響的家庭和乘客。這宗事故的影響可能會遠超出圭亞那本身，會對當地的旅游業和經濟造成重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -312,6 +214,18 @@
         "ai_classified": true
       },
       {
+        "id": "1981a020",
+        "title": "古巴異議人士盧伊斯曼努爾·奧特羅·阿爾坎塔拉前往美國避難",
+        "url": "https://www.bbc.co.uk/news/articles/cx2k77p2r1xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 07:47:02 GMT",
+        "summary_zh": "古巴異議人士盧伊斯曼努爾·奧特羅·阿爾坎塔拉（Luis Manuel Otero Alcántara）在2021年古巴反政府大規模抗議期間被捕，五年後出獄。這位抗議者因其對古巴政府的批評和抗議而聞名。他的逃亡可能是由於古巴政府對其的迫害。阿爾坎塔拉的逃亡可能會對古巴政府的形象產生影響，並可能會引發更多的抗議活動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "cc2c46f6",
         "title": "視頻：紐約和新澤西州遭遇暴雨引發洪水泛濫",
         "url": "https://www.bbc.co.uk/news/videos/cq89veggnvqo?at_medium=RSS&at_campaign=rss",
@@ -324,43 +238,67 @@
         "ai_classified": true
       },
       {
-        "id": "3a6862a7",
-        "title": "聖多美和普林西比將舉行緊張的總統大選",
-        "url": "https://www.theguardian.com/world/2026/jul/19/sao-tome-and-principe-presidential-election",
-        "source": "Guardian World",
+        "id": "ebfe26a5",
+        "title": "北極點舉辦「世界最酷的馬拉松」活動",
+        "url": "https://www.bbc.co.uk/news/videos/c9q9lw5rql4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "global",
-        "published_at": "Sun, 19 Jul 2026 04:00:16 GMT",
-        "summary_zh": "聖多美和普林西比將於星期日舉行總統大選，該國以民主理念著稱的選舉將展現其民主實力。根據國家選舉委員會的數據，約有 142,000 人登記投票，約有 15% 的選民居住在海外。現任總統卡洛斯·維拉·諾瓦 (Carlos Vila Nova) 希望在本次選舉中擊敗他的前黨派，爭取第二個任期。",
+        "published_at": "Sun, 19 Jul 2026 14:06:08 GMT",
+        "summary_zh": "北極點舉辦了一場名為「世界最酷的馬拉松」的活動，23名來自七個國家的跑者參與了這場在北極地理北極點舉行的賽事。這項活動由一家組織主辦，該組織旨在推廣北極地區的觀光業。跑者們在浮冰上進行了賽跑，展現了人類在極端環境下的堅韌精神。這項活動也吸引了許多媒體的關注，讓北極點的美景更加引人注目。然而，環境保護組織也對這項活動提出關注，認為它可能會對北極的生態系統造成影響。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3a03d878",
-        "title": "幾十人失蹤　 Guyana沿岸客輪沉沒",
-        "url": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 19:39:58 GMT",
-        "summary_zh": " Guyana當局表示，近日一艘客輪在該國沿岸沉沒，造成116名乘客和船員失蹤。截至目前，已經成功救出67人，包括15名兒童。 Guyana當局正在展開大規模的搜救行動，將這次事故描述為該國最嚴重的海上災難之一。該客輪在週六晚間沉沒，目前仍有數十名乘客失蹤，正在進行緊急救援工作。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "96b58a58",
-        "title": "秘魯地震至少5死，超過20人受傷，300人無家可歸",
-        "url": "https://www.theguardian.com/world/2026/jul/19/55-magnitude-earthquake-hits-perus-andes-region-and-kills-at-least-5-people",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 17:12:47 GMT",
-        "summary_zh": "秘魯近日發生5.5級地震，震央位於安地斯山脈地區的胡安卡約省，距離西卡亞市約2公里。地震造成至少5人死亡，超過20人受傷，300人無家可歸。美國地質調查局報告指出，地震發生時間為週六晚上9點24分，震央深度約10公里。地震的影響使當地居民感到驚恐，許多人失去了家園。秘魯當局正在努力幫助受災者，提供援助和救援。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "f4759a83",
+        "title": "上市櫃公司董事會性別多元化仍待加強 玻陶、農業科技表現最差",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5511113",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 20 Jul 2026 11:36:11 +0800",
+        "summary_zh": "證交所旗下臺灣指數公司分析最新一期「TIP台灣永續評鑑」結果，發現超過86%的上市櫃公司董事會已非單一性別，但每一性別董事席次均達三分之一者仍未滿兩成。這意味著企業雖然在性別多元化方面取得進步，但仍有很大的改善空間。玻陶和農業科技業表現最差，兩個行業中只有不到四成的公司達到三分之一的董事席次均為女性。這些數據表明，企業仍需要繼續努力推動董事會的性別多元化，才能真正實現永續發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "493e4352",
+        "title": "台灣散戶急退場！去槓桿速度創15個月最快",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5511056",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 20 Jul 2026 11:12:55 +0800",
+        "summary_zh": "近期，台灣散戶投資人正快速降低股票槓桿部位。根據《彭博》的資料顯示，上周五台股融資餘額大幅下降，減幅創下2025年4月以來最快紀錄。這一趨勢被認為是推動台股進入技術性修正的重要因素之一。這意味著散戶投資人正在減少對市場的杠杆力，降低風險。這一變化可能會對市場造成一定的影響，尤其是在台股的短期走勢上。然而，仍需觀察市場的發展和投資人的行為，以確定這一趨勢的持續性和影響力。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "5f61b0c9",
+        "title": "南亞科出手！長庚大學打造類公費「記憶體碩士專班」搶台積電時代半導體人才",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5511084",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 20 Jul 2026 11:08:31 +0800",
+        "summary_zh": "因應AI、高效能運算與雲端資料中心快速發展，全球半導體產業迎來「記憶體盛世」。南亞科作為國內記憶體龍頭，技術與人才布局備受關注。面對台積電擴廠帶來的人才磁吸效應，長庚大學攜手南亞科打造類公費「記憶體碩士專班」，旨在培養高質量的半導體人才。這項專班將結合南亞科的產業需求與長庚大學的教育資源，提供學生豐富的實踐經驗與就業機會。這項合作將有助於台灣半導體產業的發展，並且與南亞科共同競爭全球市場。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "f28f48ad",
+        "title": "焦點股》高力：短線跌深 賣壓未歇",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5511062",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 20 Jul 2026 10:48:33 +0800",
+        "summary_zh": "近日電池模組族群股價壓抑，高力股價也一路走軟，7月初至今已跌逾4成。今日台股波動，高力股價也在盤下匍匐，一度跌停。高力股價的下跌主要是由於市場對其未來發展的不確定性，投資者對其短線表現感到失望。高力公司的業務發展受到市場的關注，投資者正在等待公司的未來發展方向和策略。短線來看，高力股價的跌勢仍未止歇，市場仍然存在著賣壓。投資者需要保持耐心和謹慎觀察公司的發展情況。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "689b958a",
         "title": "外資匯出潮未歇 新台幣摜破32.4元重貶逾1.4角",
@@ -370,8 +308,8 @@
         "published_at": "Mon, 20 Jul 2026 10:05:50 +0800",
         "summary_zh": "台股上週遭遇「黑色星期五」，重創近3000點，外資賣超1890億創新紀錄。龐大匯出量能仍待消化，導致新台幣兌美元今天開盤後旋即重挫，下殺逾1.4角，跌破32.4元價位。這一波外資匯出潮的影響仍未消失，市場仍在等待外資的動向。新台幣的貶值將對台灣的出口業和經濟產生重大影響。市場觀察人士預測，新台幣可能會繼續貶值，對台灣經濟造成更大的壓力。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "0899085f",
@@ -382,8 +320,8 @@
         "published_at": "Mon, 20 Jul 2026 09:46:45 +0800",
         "summary_zh": "國泰金今天發布7月國民經濟信心調查，結果顯示有57%民眾認為今年下半年台股加權指數高點會落在5萬點以上。這意味著大部分民眾對於台股的預期是積極的。另外，37%民眾預期下半年低點可支撐在4萬4000點以上，這表明民眾對於台股的風險評估相對較低。這項調查結果可能對於投資者和股市的走勢有所影響。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "bc506d91",
@@ -394,8 +332,8 @@
         "published_at": "Mon, 20 Jul 2026 09:29:34 +0800",
         "summary_zh": "台股在17日的暴跌後，今天展開反彈，開高後一度重返43000點，最高點達到43084.51點。然而，隨後反彈減碼賣壓湧現，早盤指數震盪翻黑，低點觸及42188.06點。這次的高低震盪幅度達近900點，市場情緒不穩。這種震盪反映了投資者對市場未來走向的不確定性。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "23293b90",
@@ -406,8 +344,8 @@
         "published_at": "Mon, 20 Jul 2026 09:07:28 +0800",
         "summary_zh": "台北外匯市場新台幣兌美元匯率今天以32.28元開盤，升0.8分。這是台幣升值的最新動態，市場觀察人士將密切關注台幣兌美元匯率的走勢。新台幣升值對於出口業者來說是一個好消息，可能會增加出口競爭力。然而，對於進口業者和外國投資者來說，則可能會導致進口成本增加和投資風險增高。市場預期台幣兌美元匯率會持續波動，投資者應該保持警覺並密切關注市場情況。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c1db8e99",
@@ -418,8 +356,8 @@
         "published_at": "Mon, 20 Jul 2026 09:03:23 +0800",
         "summary_zh": "台北股市今天開盤出現大幅上漲，指數高達42793.15點，成交金額達新台幣155.99億元。這一波上漲可能與市場對經濟前景的樂觀預期或是投資者的買盤有關。然而，市場的波動性仍然很高，投資者需要保持謹慎的態度。台股的上漲也可能對相關產業產生影響，投資者需要密切關注市場的發展。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "49fb1036",
@@ -480,45 +418,33 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "e81df6b2",
-        "title": "台塑石化：汽柴油20日起價格不調整",
-        "url": "https://www.cna.com.tw/news/ahel/202607190089.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 19 Jul 2026 13:49:45 +0800",
-        "summary_zh": "由於美伊衝突升溫，國際油價持續上漲，中油公司宣布汽、柴油價格維持不調整。台塑石化公司今天跟進凍漲，自20日凌晨1時起汽油和柴油批售價格不調整。市場零售價格由加盟加油站自行決定。這意味著汽柴油的價格將不會在短期內有明顯的變化。這項決定可能會對消費者造成影響，尤其是在汽柴油價格持續上漲的情況下。然而，台塑石化公司的決定也可能會幫助平穩物價，避免油價的突然上漲對消費者造成的影響。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9d95587a",
-        "title": "聯電榮譽副董事長宣明智手術完成 轉加護病房靜養",
-        "url": "https://www.cna.com.tw/news/afe/202607190076.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 19 Jul 2026 12:59:17 +0800",
-        "summary_zh": "聯電榮譽副董事長宣明智因腦硬膜外出血緊急開刀救治，手術順利完成，並已移至加護病房。宣明智辦公室表示，接下來將會觀察及細心靜養，等待恢復。宣明智的健康狀況對於聯電以及整個科技業都有重要影響。雖然目前沒有詳細的健康報告，但這項消息已經引起了業界的關注。聯電的股價可能會受到宣明智健康狀況的影響，投資者應該密切關注這項消息的發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cb7616d1",
-        "title": "Meta擴大自研AI晶片 台廠迎客製化新局",
-        "url": "https://www.cna.com.tw/news/afe/202607190045.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 19 Jul 2026 11:23:08 +0800",
-        "summary_zh": "社群龍頭Meta持續擴大人工智慧（AI）基礎設施及自研晶片版圖，引發市場對於繪圖處理器（GPU）需求可能放緩的疑慮。分析師表示，Meta自研特殊應用晶片（ASIC），是設計來「輔助而非取代」輝達（NVIDIA）與超微（AMD）的GPU，降低對單一晶片來源的依賴。這一發展可能對台廠產生重大影響，迎來客製化新局。台廠將如何應對這一變化，尚待觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "finance": [
+      {
+        "id": "c02c251a",
+        "title": "中國國有投資者承諾進一步購買股票",
+        "url": "https://www.reuters.com/world/asia-pacific/china-state-investors-pledge-further-purchases-stocks-2026-07-19/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-19 15:40:44",
+        "summary_zh": "根據最新消息，中國國有投資者承諾進一步購買股票，表明中國政府對股市的支持不斷加強。這一決定是在中國股市近期出現波動之際作出的，目的是穩定市場並促進經濟發展。中國國有投資者將會繼續購買股票，以維持市場穩定並避免股市出現過度波動。這一措施將對中國股市產生積極影響，幫助股市恢復穩定。中國政府對股市的支持不斷加強，表明對經濟發展的信心不減。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "df3f7d2d",
+        "title": "2026年世界盃冠軍將獲得 51 億美元的獎金",
+        "url": "https://www.cnbc.com/2026/07/19/heres-what-to-know-about-the-world-cup-prize-money.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-19 15:36:54",
+        "summary_zh": "2026 年世界盃將於下一屆舉行，FIFA 宣佈擴大獎金，將總獎金提高到 871 億美元，分給 48 支參賽隊伍。這將是世界盃獎金的新紀錄。根據新的獎金規則，冠軍隊伍將獲得 51 億美元的獎金，創下了世界盃獎金的新高。這項改變將對球員和球隊帶來重大影響，讓他們能夠從世界盃中獲得更大的收益。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "59efe270",
         "title": "26歲女孩辭去公司工作，成為黃石國家公園的縫紉工人，時薪19.25美元",
@@ -528,8 +454,8 @@
         "published_at": "2026-07-19 14:30:01",
         "summary_zh": "26歲的佐伊·德拉·帕茲（Zoe De La Paz）決定辭去她的公司工程師工作，開始全職從事縫紉工作。她的夢想是在黃石國家公園工作，她現在已經實現了這個夢想，擁有時薪19.25美元的工作。佐伊表示，她自己創造了自己的機會，從事她熱愛的工作。黃石國家公園的工作環境優美，讓佐伊感到充滿激情和滿足感。佐伊的故事鼓舞人心，讓人們看到，即使在年輕時辭去工作，也可以追求自己的夢想。佐伊的決定也讓人們思考，是否該追求自己的夢想，甚至在年輕時就開始實現。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "5ff72131",
@@ -542,18 +468,6 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "ae75c962",
-        "title": "布倫特原油期貨升破每桶90美元 創6月以來新高",
-        "url": "https://www.cna.com.tw/news/afe/202607200030.aspx",
-        "source": "中央社財經",
-        "category": "finance",
-        "published_at": "Mon, 20 Jul 2026 09:36:37 +0800",
-        "summary_zh": "油價在今天亞洲交易時段開盤上漲，布倫特原油期貨價格升破每桶90美元，創下6月以來新高。這一波上漲的原因是美國連續第9晚對伊朗展開空襲，荷莫茲海峽也有船隻起火，引發了對全球油價供應的擔憂。這一事件加上之前的油價上漲趨勢，油價的上漲是合理的。然而，油價的波動仍然取決於各種因素，包括地緣政治風險、供應和需求的變化等。油價的上漲將對全球經濟和能源市場產生影響，相關企業和投資者應密切關注油價的變化。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
       },
       {
         "id": "1c79d129",
@@ -590,21 +504,21 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "ae75c962",
+        "title": "布倫特原油期貨升破每桶90美元 創6月以來新高",
+        "url": "https://www.cna.com.tw/news/afe/202607200030.aspx",
+        "source": "中央社財經",
+        "category": "finance",
+        "published_at": "Mon, 20 Jul 2026 09:36:37 +0800",
+        "summary_zh": "油價在今天亞洲交易時段開盤上漲，布倫特原油期貨價格升破每桶90美元，創下6月以來新高。這一波上漲的原因是美國連續第9晚對伊朗展開空襲，荷莫茲海峽也有船隻起火，引發了對全球油價供應的擔憂。這一事件加上之前的油價上漲趨勢，油價的上漲是合理的。然而，油價的波動仍然取決於各種因素，包括地緣政治風險、供應和需求的變化等。油價的上漲將對全球經濟和能源市場產生影響，相關企業和投資者應密切關注油價的變化。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "stock_us": [
-      {
-        "id": "f9bd972a",
-        "title": "美國航空公司CEO提出填補超過30億美元虧損的願景",
-        "url": "https://www.cnbc.com/2026/07/19/american-airlines-ceo.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-19 12:00:01",
-        "summary_zh": "美國航空公司正致力於提高可靠性，投資更多的高級座位和候機室，並考慮波音和空中巴士為新寬體客機的訂單。公司CEO表示，目標是填補超過30億美元的利潤差距。美國航空公司正在努力提高客戶滿意度和服務質量，同時也在考慮投資新技術和設備以提高效率。這項計畫將對公司的未來發展和競爭力產生重大影響。然而，該公司仍面臨著嚴峻的競爭環境和成本壓力，需要有效的管理和策略來實現其願景。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
       {
         "id": "98fdbf6b",
         "title": "財報預告：Alphabet 和 Tesla 等大型公司將於本週公布財報",
@@ -628,19 +542,115 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "f9bd972a",
+        "title": "美國航空公司CEO提出填補超過30億美元虧損的願景",
+        "url": "https://www.cnbc.com/2026/07/19/american-airlines-ceo.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-19 12:00:01",
+        "summary_zh": "美國航空公司正致力於提高可靠性，投資更多的高級座位和候機室，並考慮波音和空中巴士為新寬體客機的訂單。公司CEO表示，目標是填補超過30億美元的利潤差距。美國航空公司正在努力提高客戶滿意度和服務質量，同時也在考慮投資新技術和設備以提高效率。這項計畫將對公司的未來發展和競爭力產生重大影響。然而，該公司仍面臨著嚴峻的競爭環境和成本壓力，需要有效的管理和策略來實現其願景。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
-    "ai": [
+    "whitehouse": [
       {
-        "id": "c8c3ec20",
-        "title": "我討厭我不討厭這首由Suno創作的歌曲",
-        "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-19T13:35:54-04:00",
-        "summary_zh": "雖然我不認為人工智慧在音樂中沒有任何用途（我是霍莉·赫德倫的粉絲），但我通常認為使用生成人工智慧創作的音樂令人厭煩，尤其是Suno的作品。因此，我感到困惑的是，該公司最近推出的歌曲竟然如此吸引人，我不禁要問自己：這是否是人工智慧在音樂中的真正潛力？",
+        "id": "ea68b484",
+        "title": "泰特兄弟在美國被捕，英國檢方要求引渡",
+        "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Sun, 19 Jul 2026 12:53:20 GMT",
+        "summary_zh": "泰特兄弟在美國被捕，英國檢方宣布將要求將他們引渡回英國。兄弟們的律師否認指控，稱新指控是「誹謗」。泰特兄弟在英國面臨多項指控，包括性侵犯和兒童色情。這些指控在英國引起了廣泛的爭議和譴責。兄弟們的律師表示，這些指控是毫無根據的，並且是為了陷害他們而設的。兄弟們在美國的被捕是英國檢方對他們的追捕行動的一部分。這些事件將對泰特兄弟的未來產生重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1c820a11",
+        "title": "美國衛生官員確認爆發性腹瀉源頭",
+        "url": "https://www.bbc.co.uk/news/articles/c4gw9n1kx9do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Jul 2026 02:35:04 GMT",
+        "summary_zh": "美國食品藥物管理局宣布，來自Taylor Farms的冰磯生菜，出售於Taco Bell和Walmart店家，是導致美國爆發性腹瀉的原因。這種腹瀉是由於細菌感染引起的。美國衛生官員已經確認了這種感染的來源，並正在努力控制疫情。這種爆發性腹瀉已經影響了許多美國人，導致許多人住院治療。美國政府正在密切監控疫情，並正在與相關企業合作，防止此類事件再次發生。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4c11a4e1",
+        "title": "副總統 JD 甘迺迪和妻子烏莎·凡斯歡迎新生兒男孩",
+        "url": "https://www.theguardian.com/us-news/2026/jul/19/jd-usha-vance-baby-boy-born",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 19 Jul 2026 23:00:08 GMT",
+        "summary_zh": "美國副總統 JD 甘迺迪和妻子烏莎·凡斯宣布了他們第四個孩子的出生，名為艾歷·尼爾·凡斯。這是近 150 年來第一位在任副總統的孩子出生。艾歷·尼爾·凡斯出生於星期日，與哥哥艾文（9 歲）、維維克（6 歲）和米拉貝爾（4 歲）一起，是一家人中又一個新的成員。這項消息在社交媒體上公佈。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b6ccde33",
+        "title": "伊朗戰爭轉變為確保石油供應，川普官員表示",
+        "url": "https://www.theguardian.com/us-news/2026/jul/19/trump-official-iran-war-oil-flow-strait-hormuz",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 19 Jul 2026 18:48:12 GMT",
+        "summary_zh": "伊朗戰爭已經持續了幾個月，美國能源部長克里斯·懷特（Chris Wright）在ABC的節目中辯護川普政府的戰略。他承認自己之前的聲明錯誤，承諾戰爭將在今年初結束。懷特表示，美國的目標已經從打擊伊朗轉變為確保石油供應。這一轉變引起了民主黨人對戰爭的批評，他們稱之為「選擇戰爭」。美國在戰爭中已經有17名軍人喪生，包括最近三名美國士兵的死亡。懷特的辯護無法滿足對戰爭長期進行的批評。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f50b0145",
+        "title": "ICE官員將在車站停止時使用身體攝影機，川普「邊境總監」表示",
+        "url": "https://www.theguardian.com/us-news/2026/jul/19/ice-record-vehicle-stops-body-camera-mandate-homan",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 19 Jul 2026 17:54:50 GMT",
+        "summary_zh": "美國移民及海關執法局（ICE）將要求其官員在車站停止時至少使用一部身體攝影機，川普政府的「邊境總監」湯姆·霍曼（Tom Homan）於週日表示。這項行動出於該局在近期遭到兩名男子在六天內被ICE官員射殺的事件後，面臨新的監督。霍曼在福克斯新聞週末節目中表示，身體攝影機可以幫助證明官員的行為正確，同時讓美國人民看到官員在採取行動時所見的內容。該局在近期遭到關注，包括兩名男子在六天內被ICE官員射殺的事件。霍曼表示，身體攝影機可以幫助證明官員的行為正確，同時讓美國人民看到官員在採取行動時所見的內容。這項行動將對ICE官員的工作產生重大影響，同時也會讓美國人民對ICE官員的行為有更深入的了解。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6d0388b6",
+        "title": "紐約市長：若內塔尼亞胡訪問紐約 可能會被捕",
+        "url": "https://www.theguardian.com/us-news/2026/jul/19/mamdani-netanyahu",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Sun, 19 Jul 2026 15:38:11 GMT",
+        "summary_zh": "紐約市長佐哈蘭·馬曼達尼（Zohran Mamdani）表示，他正在檢視是否可以逮捕以色列總理本雅明·內塔尼亞胡（Benjamin Netanyahu），因為預計內塔尼亞胡將在9月訪問紐約參加聯合國大會。佐哈蘭在紐時社論中表示，他正在與紐約市的法律部門進行積極溝通，探討此事。佐哈蘭的這番話是在他去年競選紐約市長時曾經提過的。佐哈蘭的這番表態可能會對內塔尼亞胡的訪問產生影響，內塔尼亞胡可能會面臨逮捕的風險。佐哈蘭的表態也可能會引起國際關注，是否允許逮捕外國領導人。佐哈蘭的決定將會受到各方的關注，包括內塔尼亞胡的支持者和反對者。佐哈蘭的表態也可能會影響內塔尼亞胡的訪問計畫，是否會繼續進行。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2a6e815c",
+        "title": "JD Vance宣布與妻子Usha誕下男嬰",
+        "url": "https://www.bbc.co.uk/news/articles/cj63kngxpxpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Sun, 19 Jul 2026 23:16:04 GMT",
+        "summary_zh": "美國政治人物JD Vance宣布與妻子Usha誕下第四個孩子，男嬰Eric Neel Vance。這是夫妻倆第四個孩子的誕生，目前沒有更多的資訊。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c5deda83",
+        "title": "82歲奶奶成功爭取法案，讓養老院可以舉辦Happy Hour",
+        "url": "https://www.bbc.co.uk/news/articles/c70gz5y2xpxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Sun, 19 Jul 2026 12:46:47 GMT",
+        "summary_zh": "82歲的安妮塔·勒布朗（Anita Le Brun）是爭取在養老院內提供酒精飲料的法案的代表人物。她一直在努力推動這個法案，最終成功通過。這項法案的通過意味著養老院可以在沒有牌照的情況下提供酒精飲料，讓居民可以在指定時間內享受Happy Hour。這項變革對於養老院的居民來說是一個重要的改善，尤其是對於那些喜歡喝酒的老人。這項法案的通過也表明了對老年人的尊嚴和權利的重視。",
+        "sentiment": "正面",
+        "is_breaking": false,
         "ai_classified": true
       }
     ]
