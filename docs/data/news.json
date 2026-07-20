@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-20T09:04:19.342246+08:00",
+  "generated_at": "2026-07-20T10:04:22.349216+08:00",
   "risk_signals": [
-    "🔴 台股加權 42671.27（急跌 -6.47%）",
+    "🟢 台股加權 42317.46（正常）",
     "🟢 S&P 500 7457.69（正常）",
     "🟢 VIX 恐慌指數 18.77（正常）",
     "🟢 MOVE 債市波動 70.88（正常）",
-    "🟢 美元指數 100.79（正常）",
-    "🟢 黃金 4005.3（正常）",
+    "🟢 美元指數 100.78（正常）",
+    "🟢 黃金 4002.8（正常）",
     "🟡 美債10Y殖利率 4.54（留意）",
-    "🟢 原油 WTI 83.65（正常）",
-    "🟢 美元/台幣 32.36（正常）"
+    "🟢 原油 WTI 83.67（正常）",
+    "🟢 美元/台幣 32.38（正常）"
   ],
-  "ai_summary": "市場氛圍偏悲觀，台股大幅下挫，美股則有所回調，但仍未能挽回市場的悲觀情緒。美元指數保持穩定，美債10年殖利率則有所上升。",
+  "ai_summary": "市場目前處於相對穩定的狀態，但美債10年殖利率升高，需要留意。",
   "market": {
     "TWII": {
-      "price": 42671.27,
-      "change_pct": -6.47
+      "price": 42317.46,
+      "change_pct": -0.83
     },
     "SP500": {
       "price": 7457.69,
@@ -38,24 +38,218 @@
       "change_pct": 3.99
     },
     "DXY": {
-      "price": 100.79,
+      "price": 100.78,
       "change_pct": 0.03
     },
     "GOLD": {
-      "price": 4005.3,
-      "change_pct": -0.18
+      "price": 4002.8,
+      "change_pct": -0.25
     },
     "OIL": {
-      "price": 83.65,
-      "change_pct": 1.41
+      "price": 83.67,
+      "change_pct": 1.43
     },
     "USDTWD": {
-      "price": 32.36,
-      "change_pct": 0.29
+      "price": 32.38,
+      "change_pct": 0.34
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "3a6862a7",
+        "title": "聖多美和普林西比將舉行緊張的總統大選",
+        "url": "https://www.theguardian.com/world/2026/jul/19/sao-tome-and-principe-presidential-election",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 04:00:16 GMT",
+        "summary_zh": "聖多美和普林西比將於星期日舉行總統大選，該國以民主理念著稱的選舉將展現其民主實力。根據國家選舉委員會的數據，約有 142,000 人登記投票，約有 15% 的選民居住在海外。現任總統卡洛斯·維拉·諾瓦 (Carlos Vila Nova) 希望在本次選舉中擊敗他的前黨派，爭取第二個任期。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "11b9390f",
+        "title": "五名家人遇害，死於烏塔州峽谷的暴雨洪水中",
+        "url": "https://www.theguardian.com/us-news/2026/jul/19/utah-flash-flood-deaths-family",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 22:24:04 GMT",
+        "summary_zh": "一家五口人在烏塔州南部的峽谷中遇害，死因是由於暴雨引起的洪水。遇難者包括一名普羅沃消防隊的隊長、他的妻子和三名兒子。幸運地，隊長的女兒並未參與此次行程，得以倖免於難。這起事件發生在週五，當地警方正在調查此事。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "691efca9",
+        "title": "美國稱另一名士兵喪生 以色列警告伊朗攻擊迫在眉睫",
+        "url": "https://www.theguardian.com/us-news/2026/jul/19/military-service-member-death-iran-airstrikes",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 20:16:44 GMT",
+        "summary_zh": "美國軍方宣布一名美軍士兵在伊拉克喪生，這是在美國對伊朗發動更多空襲的同時發生。伊朗向約旦發射了彈道導彈，擔心衝突擴散至伊斯蘭地區。美國軍方表示，該名士兵是在伊拉克的「控制性爆炸」中喪生的，爆炸是針對一架伊朗無人機的。這是美國對伊朗的最新反應，之前伊朗已經殺害了美國士兵。伊朗的攻擊迫在眉睫，美國正在加緊準備應對。伊拉克的局勢日益緊張，美國和伊朗之間的緊張關係也在加劇。這一系列事件可能會導致美伊關係的全面惡化。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ca956a2e",
+        "title": "俄羅斯對基輔發動大規模導彈攻擊",
+        "url": "https://www.cnbc.com/2026/07/19/russia-pounds-kyiv-in-major-ballistic-missile-attack.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-07-19 12:22:20",
+        "summary_zh": "俄羅斯對烏克蘭首都基輔發動大規模導彈攻擊，造成41枚導彈擊中基輔不同區域的建築物，引發強烈爆炸。這次攻擊對基輔造成嚴重影響，居民被迫進入避難所。烏克蘭政府對此表示強烈譴責，將會採取適當措施應對。這次攻擊的影響將會對烏克蘭的經濟和社會產生重大影響。烏克蘭政府將會與國際社會合作，尋求對俄羅斯的制裁和支持。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3a03d878",
+        "title": "幾十人失蹤　 Guyana沿岸客輪沉沒",
+        "url": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 19:39:58 GMT",
+        "summary_zh": " Guyana當局表示，近日一艘客輪在該國沿岸沉沒，造成116名乘客和船員失蹤。截至目前，已經成功救出67人，包括15名兒童。 Guyana當局正在展開大規模的搜救行動，將這次事故描述為該國最嚴重的海上災難之一。該客輪在週六晚間沉沒，目前仍有數十名乘客失蹤，正在進行緊急救援工作。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "7ab26ba7",
+        "title": "紐約市再有一人因百日咳病毒病逝世",
+        "url": "https://www.theguardian.com/us-news/2026/jul/19/legionnaires-disease-deaths-new-york-city",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 16:51:24 GMT",
+        "summary_zh": "紐約市百日咳病毒病爆發已經感染了數十人，市府官員表示，爆發源頭已經被消滅。紐約市衛生局週六宣布，爆發中第二人因百日咳病毒病逝世。官員沒有透露該人的身份、年齡或疾病發生時間。這是該市衛生局週五在曼哈頓上東區宣布的第一宗死亡病例的續篇。百日咳病毒病是一種由細菌引起的疾病，主要通過空氣傳播，通常發生在空調系統或水塔中。市府官員表示，目前已經對相關水塔進行檢測，正在追蹤爆發源頭。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "96b58a58",
+        "title": "秘魯地震至少5死，超過20人受傷，300人無家可歸",
+        "url": "https://www.theguardian.com/world/2026/jul/19/55-magnitude-earthquake-hits-perus-andes-region-and-kills-at-least-5-people",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 17:12:47 GMT",
+        "summary_zh": "秘魯近日發生5.5級地震，震央位於安地斯山脈地區的胡安卡約省，距離西卡亞市約2公里。地震造成至少5人死亡，超過20人受傷，300人無家可歸。美國地質調查局報告指出，地震發生時間為週六晚上9點24分，震央深度約10公里。地震的影響使當地居民感到驚恐，許多人失去了家園。秘魯當局正在努力幫助受災者，提供援助和救援。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ba5572dd",
+        "title": "美國拳擊手哈娜·拉普在德克薩斯州被車輛撞死",
+        "url": "https://www.theguardian.com/us-news/2026/jul/19/boxer-hannah-rapp-dies-struck-by-car",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 16:06:23 GMT",
+        "summary_zh": "美國拳擊手哈娜·拉普（Hannah Rapp）在德克薩斯州被車輛撞死。拉普在6月份曾為世界拳擊理事會女子羽量級冠軍爭奪賽。警方表示，拉普在騎自行車時被一名司機撞倒，當場死亡。警方已經逮捕了一名31歲男子，名叫查爾斯·梅迪納（Charles Medina），並將他與拉普的死亡案件相關聯。拉普的年齡為26歲。這起事件的影響將對拳擊界造成重大震撼。拉普的死也引起了對公路安全的關注。目前，警方正在調查此案件，正在追蹤查爾斯·梅迪納的下落。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f086dcb3",
+        "title": "18歲大學新生諾蘭韋爾斯失蹤案：家人兩週後仍未找到答案",
+        "url": "https://www.theguardian.com/us-news/2026/jul/19/nolan-wells-mississippi-investigation",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 13:00:29 GMT",
+        "summary_zh": "美國密西西比州一名18歲大學新生諾蘭韋爾斯（Nolan Xavier Wells）在4日與朋友們出海玩樂後，於密西西比海岸的霍恩島（Horn Island）被發現身亡。兩週過後，諾蘭的家人仍在努力尋找答案。諾蘭與朋友們在4日出海玩樂後，於當地時間晚上9點左右被發現倒臥在船上。警方初步調查後，懷疑諾蘭可能是在船上意外死亡。然而，家人仍對這起事件感到困惑和擔憂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "34889b51",
+        "title": "俄羅斯對基輔發動大規模彈道飛彈攻擊",
+        "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 18:25:40 GMT",
+        "summary_zh": "俄羅斯對烏克蘭首都基輔發動大規模彈道飛彈攻擊，烏克蘭總統澤連斯基形容這是對烏克蘭首都的「最大規模彈道攻擊」。根據最新消息，至少有一人死亡。這次攻擊是俄羅斯對烏克蘭的最新軍事行動，烏克蘭政府正在努力應對這種威脅。這次攻擊對烏克蘭的影響將是重大，烏克蘭人民將面臨嚴重的安全風險。烏克蘭政府正在努力維持秩序和穩定，同時也在與國際社會合作，尋求對俄羅斯的制裁和壓力。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "abb5eb36",
+        "title": "美國與伊朗交換攻擊 美軍在約旦兩名士兵遇害",
+        "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 19:45:12 GMT",
+        "summary_zh": "近日美國與伊朗之間的緊張局勢再次升級。美國軍方在約旦發生事件後，對伊朗目標進行了第八晚的攻擊。伊朗方面則表示，已經向美國軍方在科威特的基地發射無人機。這一系列事件引發了全球關注，各方都在密切關注美國和伊朗之間的軍事對抗。美國和伊朗之間的緊張關係已經持續了數月，並且一直引起國際社會的關注。伊朗的軍事行動可能會對全球安全造成重大影響。美國和伊朗之間的對抗可能會持續下去，國際社會應該密切關注這一局勢的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "0bb48e31",
+        "title": "116人在圭亞那海岸遭遇輪船沉沒事故，當局已救出53人",
+        "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 18:18:05 GMT",
+        "summary_zh": "圭亞那海岸發生了一宗嚴重的輪船沉沒事故，據當局報導，當地一艘輪船在前往Port Kaituma的途中，於途經Georgetown之間沉沒，造成116名乘客受困。截至目前，已經成功救出53名乘客。當局正在進行緊急救援行動，試圖挽救更多生還者。這起事故引起了圭亞那政府的關注，當局已經派出救援隊伍和醫療人員到現場協助救援工作。圭亞那政府已經承諾會盡一切力量幫助受影響的家庭和乘客。這宗事故的影響可能會遠超出圭亞那本身，會對當地的旅游業和經濟造成重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1981a020",
+        "title": "古巴異議人士盧伊斯曼努爾·奧特羅·阿爾坎塔拉前往美國避難",
+        "url": "https://www.bbc.co.uk/news/articles/cx2k77p2r1xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 07:47:02 GMT",
+        "summary_zh": "古巴異議人士盧伊斯曼努爾·奧特羅·阿爾坎塔拉（Luis Manuel Otero Alcántara）在2021年古巴反政府大規模抗議期間被捕，五年後出獄。這位抗議者因其對古巴政府的批評和抗議而聞名。他的逃亡可能是由於古巴政府對其的迫害。阿爾坎塔拉的逃亡可能會對古巴政府的形象產生影響，並可能會引發更多的抗議活動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ebfe26a5",
+        "title": "北極點舉辦「世界最酷的馬拉松」活動",
+        "url": "https://www.bbc.co.uk/news/videos/c9q9lw5rql4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 14:06:08 GMT",
+        "summary_zh": "北極點舉辦了一場名為「世界最酷的馬拉松」的活動，23名來自七個國家的跑者參與了這場在北極地理北極點舉行的賽事。這項活動由一家組織主辦，該組織旨在推廣北極地區的觀光業。跑者們在浮冰上進行了賽跑，展現了人類在極端環境下的堅韌精神。這項活動也吸引了許多媒體的關注，讓北極點的美景更加引人注目。然而，環境保護組織也對這項活動提出關注，認為它可能會對北極的生態系統造成影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c9fab4c2",
+        "title": "圖片：美國和加拿大球迷聚集觀看世界盃決賽",
+        "url": "https://www.bbc.co.uk/news/articles/cy8e097155vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 22:25:32 GMT",
+        "summary_zh": "儘管三個共同主辦國未能進入世界盃決賽的最後關頭，球迷們仍以高昂的氣氛聚集在美國和加拿大各地觀看比賽。這些球迷們穿著各種彩色球衣和帽子，展現出對足球的熱情和支持。儘管最終沒有美國、加拿大或墨西哥的球隊進入決賽，但球迷們仍然以喜悅的心情觀看比賽，為自己的國家和球隊加油。這種熱情和團結的氣氛是世界盃的重要組成部分，讓觀看比賽的球迷們感到特別特別的愉快。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "cc2c46f6",
+        "title": "視頻：紐約和新澤西州遭遇暴雨引發洪水泛濫",
+        "url": "https://www.bbc.co.uk/news/videos/cq89veggnvqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Sun, 19 Jul 2026 21:43:54 GMT",
+        "summary_zh": "暴雨在紐約和新澤西州造成嚴重洪水泛濫，水灌入地鐵站和街道，人們被迫穿過水中。這次洪水泛濫的原因是由於近期的暴雨，導致水位迅速上升。洪水泛濫對當地居民造成了嚴重影響，許多街道被淹水，地鐵站也被迫暫時關閉。當地政府已經展開救援工作，派出救援隊伍和裝備來幫助受災居民。這次洪水泛濫的影響將持續一段時間，當地居民需要保持警惕和謹慎。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
       {
         "id": "4c11a4e1",
@@ -66,30 +260,6 @@
         "published_at": "Sun, 19 Jul 2026 23:00:08 GMT",
         "summary_zh": "美國副總統 JD 甘迺迪和妻子烏莎·凡斯宣布了他們第四個孩子的出生，名為艾歷·尼爾·凡斯。這是近 150 年來第一位在任副總統的孩子出生。艾歷·尼爾·凡斯出生於星期日，與哥哥艾文（9 歲）、維維克（6 歲）和米拉貝爾（4 歲）一起，是一家人中又一個新的成員。這項消息在社交媒體上公佈。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "ea68b484",
-        "title": "泰特兄弟在美國被捕，英國檢方要求引渡",
-        "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Sun, 19 Jul 2026 12:53:20 GMT",
-        "summary_zh": "泰特兄弟在美國被捕，英國檢方宣布將要求將他們引渡回英國。兄弟們的律師否認指控，稱新指控是「誹謗」。泰特兄弟在英國面臨多項指控，包括性侵犯和兒童色情。這些指控在英國引起了廣泛的爭議和譴責。兄弟們的律師表示，這些指控是毫無根據的，並且是為了陷害他們而設的。兄弟們在美國的被捕是英國檢方對他們的追捕行動的一部分。這些事件將對泰特兄弟的未來產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1c820a11",
-        "title": "美國衛生官員確認爆發性腹瀉源頭",
-        "url": "https://www.bbc.co.uk/news/articles/c4gw9n1kx9do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Sun, 19 Jul 2026 15:17:23 GMT",
-        "summary_zh": "美國食品藥物管理局宣布，來自Taylor Farms的冰磯生菜，出售於Taco Bell和Walmart店家，是導致美國爆發性腹瀉的原因。這種腹瀉是由於細菌感染引起的。美國衛生官員已經確認了這種感染的來源，並正在努力控制疫情。這種爆發性腹瀉已經影響了許多美國人，導致許多人住院治療。美國政府正在密切監控疫情，並正在與相關企業合作，防止此類事件再次發生。",
-        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
@@ -130,6 +300,30 @@
         "ai_classified": true
       },
       {
+        "id": "ea68b484",
+        "title": "泰特兄弟在美國被捕，英國檢方要求引渡",
+        "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Sun, 19 Jul 2026 12:53:20 GMT",
+        "summary_zh": "泰特兄弟在美國被捕，英國檢方宣布將要求將他們引渡回英國。兄弟們的律師否認指控，稱新指控是「誹謗」。泰特兄弟在英國面臨多項指控，包括性侵犯和兒童色情。這些指控在英國引起了廣泛的爭議和譴責。兄弟們的律師表示，這些指控是毫無根據的，並且是為了陷害他們而設的。兄弟們在美國的被捕是英國檢方對他們的追捕行動的一部分。這些事件將對泰特兄弟的未來產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1c820a11",
+        "title": "美國衛生官員確認爆發性腹瀉源頭",
+        "url": "https://www.bbc.co.uk/news/articles/c4gw9n1kx9do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Sun, 19 Jul 2026 15:17:23 GMT",
+        "summary_zh": "美國食品藥物管理局宣布，來自Taylor Farms的冰磯生菜，出售於Taco Bell和Walmart店家，是導致美國爆發性腹瀉的原因。這種腹瀉是由於細菌感染引起的。美國衛生官員已經確認了這種感染的來源，並正在努力控制疫情。這種爆發性腹瀉已經影響了許多美國人，導致許多人住院治療。美國政府正在密切監控疫情，並正在與相關企業合作，防止此類事件再次發生。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "2a6e815c",
         "title": "JD Vance宣布與妻子Usha誕下男嬰",
         "url": "https://www.bbc.co.uk/news/articles/cj63kngxpxpo?at_medium=RSS&at_campaign=rss",
@@ -154,201 +348,69 @@
         "ai_classified": true
       }
     ],
-    "global": [
+    "ai": [
       {
-        "id": "abb5eb36",
-        "title": "美國與伊朗交換攻擊 美軍在約旦兩名士兵遇害",
-        "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 19:45:12 GMT",
-        "summary_zh": "近日美國與伊朗之間的緊張局勢再次升級。美國軍方在約旦發生事件後，對伊朗目標進行了第八晚的攻擊。伊朗方面則表示，已經向美國軍方在科威特的基地發射無人機。這一系列事件引發了全球關注，各方都在密切關注美國和伊朗之間的軍事對抗。美國和伊朗之間的緊張關係已經持續了數月，並且一直引起國際社會的關注。伊朗的軍事行動可能會對全球安全造成重大影響。美國和伊朗之間的對抗可能會持續下去，國際社會應該密切關注這一局勢的發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "11b9390f",
-        "title": "五名家人遇害，死於烏塔州峽谷的暴雨洪水中",
-        "url": "https://www.theguardian.com/us-news/2026/jul/19/utah-flash-flood-deaths-family",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 22:24:04 GMT",
-        "summary_zh": "一家五口人在烏塔州南部的峽谷中遇害，死因是由於暴雨引起的洪水。遇難者包括一名普羅沃消防隊的隊長、他的妻子和三名兒子。幸運地，隊長的女兒並未參與此次行程，得以倖免於難。這起事件發生在週五，當地警方正在調查此事。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "ca956a2e",
-        "title": "俄羅斯對基輔發動大規模導彈攻擊",
-        "url": "https://www.cnbc.com/2026/07/19/russia-pounds-kyiv-in-major-ballistic-missile-attack.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-07-19 12:22:20",
-        "summary_zh": "俄羅斯對烏克蘭首都基輔發動大規模導彈攻擊，造成41枚導彈擊中基輔不同區域的建築物，引發強烈爆炸。這次攻擊對基輔造成嚴重影響，居民被迫進入避難所。烏克蘭政府對此表示強烈譴責，將會採取適當措施應對。這次攻擊的影響將會對烏克蘭的經濟和社會產生重大影響。烏克蘭政府將會與國際社會合作，尋求對俄羅斯的制裁和支持。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "691efca9",
-        "title": "美國稱另一名士兵喪生 以色列警告伊朗攻擊迫在眉睫",
-        "url": "https://www.theguardian.com/us-news/2026/jul/19/military-service-member-death-iran-airstrikes",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 20:16:44 GMT",
-        "summary_zh": "美國軍方宣布一名美軍士兵在伊拉克喪生，這是在美國對伊朗發動更多空襲的同時發生。伊朗向約旦發射了彈道導彈，擔心衝突擴散至伊斯蘭地區。美國軍方表示，該名士兵是在伊拉克的「控制性爆炸」中喪生的，爆炸是針對一架伊朗無人機的。這是美國對伊朗的最新反應，之前伊朗已經殺害了美國士兵。伊朗的攻擊迫在眉睫，美國正在加緊準備應對。伊拉克的局勢日益緊張，美國和伊朗之間的緊張關係也在加劇。這一系列事件可能會導致美伊關係的全面惡化。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "34889b51",
-        "title": "俄羅斯對基輔發動大規模彈道飛彈攻擊",
-        "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 18:25:40 GMT",
-        "summary_zh": "俄羅斯對烏克蘭首都基輔發動大規模彈道飛彈攻擊，烏克蘭總統澤連斯基形容這是對烏克蘭首都的「最大規模彈道攻擊」。根據最新消息，至少有一人死亡。這次攻擊是俄羅斯對烏克蘭的最新軍事行動，烏克蘭政府正在努力應對這種威脅。這次攻擊對烏克蘭的影響將是重大，烏克蘭人民將面臨嚴重的安全風險。烏克蘭政府正在努力維持秩序和穩定，同時也在與國際社會合作，尋求對俄羅斯的制裁和壓力。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7ab26ba7",
-        "title": "紐約市再有一人因百日咳病毒病逝世",
-        "url": "https://www.theguardian.com/us-news/2026/jul/19/legionnaires-disease-deaths-new-york-city",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 16:51:24 GMT",
-        "summary_zh": "紐約市百日咳病毒病爆發已經感染了數十人，市府官員表示，爆發源頭已經被消滅。紐約市衛生局週六宣布，爆發中第二人因百日咳病毒病逝世。官員沒有透露該人的身份、年齡或疾病發生時間。這是該市衛生局週五在曼哈頓上東區宣布的第一宗死亡病例的續篇。百日咳病毒病是一種由細菌引起的疾病，主要通過空氣傳播，通常發生在空調系統或水塔中。市府官員表示，目前已經對相關水塔進行檢測，正在追蹤爆發源頭。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "282a724e",
-        "title": "歐盟邊境新系統三倍化通關時間，機場老闆發聲",
-        "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 01:47:59 GMT",
-        "summary_zh": "近日，歐盟新邊境系統引發關注。根據最新消息，該系統導致通關時間大幅增加。機場管理者表示，新系統將使通關時間增加三倍。同時，廉航公司Ryanair也警告旅客，前往歐洲的旅客應該準備好面對延長的等待時間。這項新系統的推出，可能會對旅客造成不便，尤其是在夏季高峰期。旅客應該提前做好準備，避免因為通關延誤而錯過航班。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ba5572dd",
-        "title": "美國拳擊手哈娜·拉普在德克薩斯州被車輛撞死",
-        "url": "https://www.theguardian.com/us-news/2026/jul/19/boxer-hannah-rapp-dies-struck-by-car",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 16:06:23 GMT",
-        "summary_zh": "美國拳擊手哈娜·拉普（Hannah Rapp）在德克薩斯州被車輛撞死。拉普在6月份曾為世界拳擊理事會女子羽量級冠軍爭奪賽。警方表示，拉普在騎自行車時被一名司機撞倒，當場死亡。警方已經逮捕了一名31歲男子，名叫查爾斯·梅迪納（Charles Medina），並將他與拉普的死亡案件相關聯。拉普的年齡為26歲。這起事件的影響將對拳擊界造成重大震撼。拉普的死也引起了對公路安全的關注。目前，警方正在調查此案件，正在追蹤查爾斯·梅迪納的下落。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0bb48e31",
-        "title": "116人在圭亞那海岸遭遇輪船沉沒事故，當局已救出53人",
-        "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 18:18:05 GMT",
-        "summary_zh": "圭亞那海岸發生了一宗嚴重的輪船沉沒事故，據當局報導，當地一艘輪船在前往Port Kaituma的途中，於途經Georgetown之間沉沒，造成116名乘客受困。截至目前，已經成功救出53名乘客。當局正在進行緊急救援行動，試圖挽救更多生還者。這起事故引起了圭亞那政府的關注，當局已經派出救援隊伍和醫療人員到現場協助救援工作。圭亞那政府已經承諾會盡一切力量幫助受影響的家庭和乘客。這宗事故的影響可能會遠超出圭亞那本身，會對當地的旅游業和經濟造成重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f086dcb3",
-        "title": "18歲大學新生諾蘭韋爾斯失蹤案：家人兩週後仍未找到答案",
-        "url": "https://www.theguardian.com/us-news/2026/jul/19/nolan-wells-mississippi-investigation",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 13:00:29 GMT",
-        "summary_zh": "美國密西西比州一名18歲大學新生諾蘭韋爾斯（Nolan Xavier Wells）在4日與朋友們出海玩樂後，於密西西比海岸的霍恩島（Horn Island）被發現身亡。兩週過後，諾蘭的家人仍在努力尋找答案。諾蘭與朋友們在4日出海玩樂後，於當地時間晚上9點左右被發現倒臥在船上。警方初步調查後，懷疑諾蘭可能是在船上意外死亡。然而，家人仍對這起事件感到困惑和擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1981a020",
-        "title": "古巴異議人士盧伊斯曼努爾·奧特羅·阿爾坎塔拉前往美國避難",
-        "url": "https://www.bbc.co.uk/news/articles/cx2k77p2r1xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 07:47:02 GMT",
-        "summary_zh": "古巴異議人士盧伊斯曼努爾·奧特羅·阿爾坎塔拉（Luis Manuel Otero Alcántara）在2021年古巴反政府大規模抗議期間被捕，五年後出獄。這位抗議者因其對古巴政府的批評和抗議而聞名。他的逃亡可能是由於古巴政府對其的迫害。阿爾坎塔拉的逃亡可能會對古巴政府的形象產生影響，並可能會引發更多的抗議活動。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ebfe26a5",
-        "title": "北極點舉辦「世界最酷的馬拉松」活動",
-        "url": "https://www.bbc.co.uk/news/videos/c9q9lw5rql4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 14:06:08 GMT",
-        "summary_zh": "北極點舉辦了一場名為「世界最酷的馬拉松」的活動，23名來自七個國家的跑者參與了這場在北極地理北極點舉行的賽事。這項活動由一家組織主辦，該組織旨在推廣北極地區的觀光業。跑者們在浮冰上進行了賽跑，展現了人類在極端環境下的堅韌精神。這項活動也吸引了許多媒體的關注，讓北極點的美景更加引人注目。然而，環境保護組織也對這項活動提出關注，認為它可能會對北極的生態系統造成影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3a6862a7",
-        "title": "聖多美和普林西比將舉行緊張的總統大選",
-        "url": "https://www.theguardian.com/world/2026/jul/19/sao-tome-and-principe-presidential-election",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 04:00:16 GMT",
-        "summary_zh": "聖多美和普林西比將於星期日舉行總統大選，該國以民主理念著稱的選舉將展現其民主實力。根據國家選舉委員會的數據，約有 142,000 人登記投票，約有 15% 的選民居住在海外。現任總統卡洛斯·維拉·諾瓦 (Carlos Vila Nova) 希望在本次選舉中擊敗他的前黨派，爭取第二個任期。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c9fab4c2",
-        "title": "圖片：美國和加拿大球迷聚集觀看世界盃決賽",
-        "url": "https://www.bbc.co.uk/news/articles/cy8e097155vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 22:25:32 GMT",
-        "summary_zh": "儘管三個共同主辦國未能進入世界盃決賽的最後關頭，球迷們仍以高昂的氣氛聚集在美國和加拿大各地觀看比賽。這些球迷們穿著各種彩色球衣和帽子，展現出對足球的熱情和支持。儘管最終沒有美國、加拿大或墨西哥的球隊進入決賽，但球迷們仍然以喜悅的心情觀看比賽，為自己的國家和球隊加油。這種熱情和團結的氣氛是世界盃的重要組成部分，讓觀看比賽的球迷們感到特別特別的愉快。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cc2c46f6",
-        "title": "視頻：紐約和新澤西州遭遇暴雨引發洪水泛濫",
-        "url": "https://www.bbc.co.uk/news/videos/cq89veggnvqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 21:43:54 GMT",
-        "summary_zh": "暴雨在紐約和新澤西州造成嚴重洪水泛濫，水灌入地鐵站和街道，人們被迫穿過水中。這次洪水泛濫的原因是由於近期的暴雨，導致水位迅速上升。洪水泛濫對當地居民造成了嚴重影響，許多街道被淹水，地鐵站也被迫暫時關閉。當地政府已經展開救援工作，派出救援隊伍和裝備來幫助受災居民。這次洪水泛濫的影響將持續一段時間，當地居民需要保持警惕和謹慎。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "96b58a58",
-        "title": "秘魯地震至少5死，超過20人受傷，300人無家可歸",
-        "url": "https://www.theguardian.com/world/2026/jul/19/55-magnitude-earthquake-hits-perus-andes-region-and-kills-at-least-5-people",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Sun, 19 Jul 2026 17:12:47 GMT",
-        "summary_zh": "秘魯近日發生5.5級地震，震央位於安地斯山脈地區的胡安卡約省，距離西卡亞市約2公里。地震造成至少5人死亡，超過20人受傷，300人無家可歸。美國地質調查局報告指出，地震發生時間為週六晚上9點24分，震央深度約10公里。地震的影響使當地居民感到驚恐，許多人失去了家園。秘魯當局正在努力幫助受災者，提供援助和救援。",
+        "id": "c8c3ec20",
+        "title": "我討厭我不討厭這首由Suno創作的歌曲",
+        "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-19T13:35:54-04:00",
+        "summary_zh": "雖然我不認為人工智慧在音樂中沒有任何用途（我是霍莉·赫德倫的粉絲），但我通常認為使用生成人工智慧創作的音樂令人厭煩，尤其是Suno的作品。因此，我感到困惑的是，該公司最近推出的歌曲竟然如此吸引人，我不禁要問自己：這是否是人工智慧在音樂中的真正潛力？",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "cf750441",
+        "title": "國產建材實業南港總部上樑 2027年底完工 同步啟動資產活化",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5510969",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 20 Jul 2026 09:37:14 +0800",
+        "summary_zh": "國產建材實業（2504）企業總部近日舉辦上樑典禮，預計2027年底完工。公司董事長徐蘭英表示，集團在全台灣擁有約44.7萬坪的土地資產，包括內湖、南科、北士科的土地。這項新總部的同步啟動資產活化計畫，將帶動南港地區的經濟發展。國產建材實業的這項投資，將為南港地區帶來新的商機和機會。根據公司的計畫，新總部將提供約1,000個工作崗位，為當地居民提供就業機會。這項投資也將帶動南港地區的房屋需求和建設業的發展。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "5b2ce3d9",
+        "title": "台股雲霄飛車再起！台積電難挑大梁指數震盪逾1100點 急殺翻黑跌逾700點",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5510951",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 20 Jul 2026 09:36:08 +0800",
+        "summary_zh": "台股上週五崩跌2953點，創史上最慘紀錄。隨著美期指週一反彈，台股電子股開盤上漲，指數開盤漲121.88點。然而，台股仍然難以穩定，指數震盪逾1100點，急殺翻黑跌逾700點。這種情況下，台股的未來走向仍然存疑。台積電等電子股的表現對台股的影響非常重要，但目前看起來，台股難以依靠這些股東來穩定。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "d874f153",
+        "title": "韓股重挫逾4% SK海力士逆勢翻紅漲1.52% ",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5510957",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 20 Jul 2026 09:23:45 +0800",
+        "summary_zh": "韓股在週一恢復交易後，遭遇重挫逾4%的下滑。然而，南韓半導體巨頭SK海力士卻逆勢翻紅，漲幅達1.52%。根據市場消息，SK海力士在上週五休市期間，美股ADR領漲半導體族群，可能是導致其逆勢翻紅的原因。這一事件表明，韓股仍然受到全球半導體市場的影響。隨著全球半導體需求持續增長，SK海力士的表現值得關注。然而，韓股的下滑也引發了市場的擔憂，是否會對整體市場造成影響？",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "0f166f58",
+        "title": "財富自由》投資大師選股-價值型選股專家",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5510958",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 20 Jul 2026 09:19:46 +0800",
+        "summary_zh": "自由時報與台灣經濟新報合作推出「大師選股」計畫，旨在將歐美投資大師的選股邏輯與原則套用於台股，篩選出最有價值的股票。這項計畫將根據投資大師的選股原則，評估台股的股票，找出最有潛力的股票。投資大師的選股原則包括價值型選股、成長型選股等，將會根據這些原則來評估台股的股票。這項計畫將為投資者提供一個新的選股工具，幫助投資者找到最有價值的股票。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "e236261c",
         "title": "韓股週一開低暴跌逾4％ 迅速拉升",
@@ -358,8 +420,8 @@
         "published_at": "Mon, 20 Jul 2026 08:49:24 +0800",
         "summary_zh": "全球股市在上週五遭遇「黑五」驚魂記，台股崩跌2953點創史上最慘，而日經也一度暴跌逾4100點終場收跌2694點。雖然韓股因休市逃過一劫，但週一卻展開補跌，開低下挫逾4％。韓股的暴跌主要是因為市場對全球經濟的擔憂加劇，尤其是對於美國的經濟衰退風險。韓股的快速拉升則是由於投資者對於韓國政府的刺激政策感到樂觀。然而，這次的市場波動也引起了對於全球經濟未來趨勢的關注。投資者們正在密切關注韓國政府的政策措施以及全球經濟的變化，以便做出明智的投資決策。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "88bebde1",
@@ -370,20 +432,8 @@
         "published_at": "Mon, 20 Jul 2026 08:48:13 +0800",
         "summary_zh": "台積電正以驚人的速度推進美國亞利桑那州晶圓廠的建設，並大舉追加1000億美元投資，使該地總投資額飆升至2650億美元。財務長黃文昭表示，這是台積電為了應對全球晶片短缺和AI技術的發展而做出的重大投資。這項投資將使台積電在亞利桑那州擁有更大的生產能力和更高的技術水平，從而提高公司的競爭力。然而，這項投資也引發了對環境和勞工的擔憂。台積電的決策將對美國的經濟和科技業產生重大影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "aa1b46e7",
-        "title": "30年房貸已成標配！恐一路繳到退休",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5510826",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 20 Jul 2026 08:30:00 +0800",
-        "summary_zh": "近年來，30年期房貸已經成為購屋族的主流選擇，甚至有部分人選擇40年期房貸。這意味著購屋族可能需要一路繳付房貸直到退休。根據馨傳不動產智庫的分析，房貸越揹越久已經成為購屋族的日常。這種情況下，購屋族需要考慮多種因素，包括利率、貸款額度、還款期限等。同時，房貸的負擔也可能影響購屋族的生活質量和退休計畫。因此，購屋族需要謹慎評估自己的財務狀況和購屋計畫，以避免過度負擔和未來的財務困擾。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "17db940d",
@@ -394,8 +444,20 @@
         "published_at": "Mon, 20 Jul 2026 08:30:00 +0800",
         "summary_zh": "財政部為了防止青安貸款政策遭到濫用，推出「一生限貸一次」規定。這項規定將於2024年中生效，目的是防止投機客套利、推升房價。同時，財政部也將推出新版的切結書，讓青年購屋自住的真正需求者能夠順暢地申請青安貸款。這項政策變革的背景是，青安2.0上路初期，政策美意一度遭扭曲，成為投機客套利、推升房價的工具。這項變革將對青年購屋自住的政策產生重大影響，讓真正需要幫助的青年能夠獲得更公平的機會。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "aa1b46e7",
+        "title": "30年房貸已成標配！恐一路繳到退休",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5510826",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 20 Jul 2026 08:30:00 +0800",
+        "summary_zh": "近年來，30年期房貸已經成為購屋族的主流選擇，甚至有部分人選擇40年期房貸。這意味著購屋族可能需要一路繳付房貸直到退休。根據馨傳不動產智庫的分析，房貸越揹越久已經成為購屋族的日常。這種情況下，購屋族需要考慮多種因素，包括利率、貸款額度、還款期限等。同時，房貸的負擔也可能影響購屋族的生活質量和退休計畫。因此，購屋族需要謹慎評估自己的財務狀況和購屋計畫，以避免過度負擔和未來的財務困擾。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "2d7fcbcf",
@@ -430,54 +492,6 @@
         "published_at": "Mon, 20 Jul 2026 05:30:00 +0800",
         "summary_zh": "台股近期受韓股拖累，市場去槓桿情況持續，上週五台股重挫近三千點，一口氣跌破季線。外資連續四週站在賣方，上週更大舉賣超逾三一〇〇億元。投資人感到擔憂，問道：「賠錢賣嗎？」然而，法人建議，過去大盤回檔修正至季線附近或跌破季線，通常是中長期的買機會。法人認為，反彈的關鍵在於兩個指標：AI股帶量齊揚和融資連續大減。如果這兩個指標都出現，修正後將更有支撐。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2d9203ba",
-        "title": "台股暴跌 資金湧美債ETF避險",
-        "url": "https://ec.ltn.com.tw/article/paper/1763276",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 20 Jul 2026 05:30:00 +0800",
-        "summary_zh": "台股上週五遭遇史上最大跌點，面對市場恐慌，散戶開始尋求避險之道。債券ETF成為避險熱點，多支美債ETF收紅，成交量大增。其中，元大美債二十年成交金額高達十一億元，成交量較前一週翻倍。法人的分析認為，美國公布的CPI數據對市場造成震撼，導致資金流向安全性較高的美債ETF。這一趨勢可能持續，投資者應該注意市場變化並調整投資策略。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e2f842bc",
-        "title": "韓股成AI風險指標 大起大落震盪全球晶片股",
-        "url": "https://ec.ltn.com.tw/article/paper/1763278",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 20 Jul 2026 05:30:00 +0800",
-        "summary_zh": "近年來，南韓股市由邊緣市場轉變為全球投資人關注的焦點。根據彭博的報導，南韓兩大記憶體晶片廠三星電子與SK海力士的股價大幅震盪，引發全球晶片股的連鎖反應。南韓股市的市值已經飆升至四兆美元，成為全球投資人衡量風險偏好的重要指標。這場轉變重塑了投資習慣，摩根資產管理公司的執行長表示，南韓股市的表現將對全球投資市場產生重大影響。投資人需要密切關注南韓股市的發展，以便評估風險偏好和投資策略。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "bf0fdb6f",
-        "title": "台積電擴大資本支出 四大設備廠先受惠",
-        "url": "https://ec.ltn.com.tw/article/paper/1763277",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 20 Jul 2026 05:30:00 +0800",
-        "summary_zh": "台積電近期宣布調高今年資本支出，金額約六〇〇億至六四〇億美元，年增四十六％至五十六％。這項決定主要是為了擴大投入三奈米、二奈米、先進封裝CoWoS及海外擴產需求。這些投資將會對台積電的生產能力和全球晶片市場產生重大影響。根據元大投顧的報告，中長期來看，人工智慧和高效能運算的需求將會帶動先進製程的趨勢，各國也開始自建供應鏈以減少對台積電的依賴。這項發展將會對全球晶片市場和供應鏈產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0b78981c",
-        "title": "南韓今年人均GDP大躍進 台灣飆更高",
-        "url": "https://ec.ltn.com.tw/article/paper/1763279",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 20 Jul 2026 05:30:00 +0800",
-        "summary_zh": "南韓政府公布數據顯示，今年人均GDP有望超過三．九萬美元，主要是半導體產品出口的貢獻。然而，台灣同樣依賴半導體等電子產品出口，也將突破四．五萬美元，與南韓的差距進一步擴大。這表明，台灣的經濟在今年有著亮眼的表現。南韓和台灣的經濟發展都受到半導體產業的推動，這也使得兩國之間的經濟差距更加明顯。這一發展勢必會引起各方關注，特別是對於兩國之間的經濟競爭和合作。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
@@ -588,21 +602,21 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "a34a1f69",
-        "title": "AI應用對兒少、人權與性別影響評估 專家示警深偽風險高",
-        "url": "https://www.cna.com.tw/news/afe/202607190021.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Sun, 19 Jul 2026 09:57:16 +0800",
-        "summary_zh": "立法院去年底通過人工智慧基本法，附帶決議要求完成兒少、人權與性別影響評估。根據數發部公告的3份報告，專家評估AI應用發展對兒少、人權與性別等3大領域影響，深偽風險均排在前3名。專家認為，AI應用可能會對兒少造成身心健康風險、人權受到侵犯、性別不平等加劇等問題。因此，專家建議列為優先關注情境，盡快進行評估和監控，以防止AI應用對兒少、人權與性別造成不良影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "finance": [
+      {
+        "id": "5ff72131",
+        "title": "AI 可能讓你在工作中變得「無聊」，哥倫比亞商學院教授說：如何傷害你的職業生涯",
+        "url": "https://www.cnbc.com/2026/07/19/how-using-ai-at-work-can-hurt-your-career.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-19 13:30:01",
+        "summary_zh": "哥倫比亞商學院教授桑德拉·馬茨（Sandra Matz）指出，錯誤使用AI在工作中可能導致你「逐漸落後並變得過於自滿」。她認為，這可能是因為AI取代了許多原本需要人類智慧和創造力的工作，使得員工不再需要努力和學習。這種情況下，員工可能會變得「無聊」和「過於自滿」，最終導致職業生涯受損。桑德拉·馬茨強調，AI的使用應該是有意義的，並且應該與人類的智慧和創造力結合，來創造新的工作機會和挑戰。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "1c79d129",
         "title": "Kalshi 在世界盃期間增加 3,000 萬新用戶",
@@ -612,8 +626,8 @@
         "published_at": "2026-07-19 12:42:30",
         "summary_zh": "預測市場 Kalshi 在世界盃期間的熱潮中取得突破。該公司推出了幾則足球選手的廣告，同時與其他夥伴合作，在比賽期間展示其品牌。這項合作不僅讓 Kalshi 的品牌知名度大幅提升，也為其帶來了 3,000 萬新用戶。這項成就表明，Kalshi 的預測市場模式在世界盃期間的應用是成功的。然而，未來該公司是否能夠維持這種成長，仍待觀察。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "3e6901ff",
@@ -624,8 +638,8 @@
         "published_at": "2026-07-19 12:22:16",
         "summary_zh": "英國能源部長伯恩漢姆宣布維持對北海探勘許可證的禁令。這一決定遭到石油和天然氣產業以及工會的批評。能源部長的決定是為了減少對北海的開發，保護環境。然而，這一決定也引起了產業界的擔憂，認為這會對就業和經濟帶來負面影響。工會也批評這一決定，認為它會對工人造成不利影響。這一事件顯示出能源政策和環境保護之間的緊張關係。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "a45d65d0",
@@ -636,8 +650,8 @@
         "published_at": "2026-07-19 12:07:54",
         "summary_zh": "印度盧比貶值問題一直被視為外匯儲備不足和經濟不振的結果，但最新研究指出，這些因素並不是主要原因。研究人員認為，印度盧比貶值的真正原因是外資大幅撤出印度市場，導致外匯儲備流失。這一轉變使得印度政府面臨著嚴重的經濟挑戰，包括高通脹和失業率上升。印度政府正在努力恢復外匯儲備和穩定經濟，但這一過程將需要時間和努力。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "stock_us": [
@@ -649,6 +663,18 @@
         "category": "stock_us",
         "published_at": "2026-07-19 12:00:01",
         "summary_zh": "美國航空公司正致力於提高可靠性，投資更多的高級座位和候機室，並考慮波音和空中巴士為新寬體客機的訂單。公司CEO表示，目標是填補超過30億美元的利潤差距。美國航空公司正在努力提高客戶滿意度和服務質量，同時也在考慮投資新技術和設備以提高效率。這項計畫將對公司的未來發展和競爭力產生重大影響。然而，該公司仍面臨著嚴峻的競爭環境和成本壓力，需要有效的管理和策略來實現其願景。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "98fdbf6b",
+        "title": "財報預告：Alphabet 和 Tesla 等大型公司將於本週公布財報",
+        "url": "https://www.cnbc.com/2026/07/19/earnings-playbook-alphabet-tesla-headline-this-weeks-big-reports.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-19 13:17:17",
+        "summary_zh": "本週將迎來財報季的高峰，Alphabet 和 Tesla 等兩家巨型公司將公布最新財報結果。這兩家公司的財報結果將對市場產生重要影響，投資者將密切關注財報的表現。Alphabet 的財報將揭示公司在線上廣告業務的表現，而 Tesla 的財報將顯示公司在電動汽車業務的發展情況。投資者將關注這些財報結果對公司未來發展的影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -662,21 +688,7 @@
         "published_at": "2026-07-19 12:46:25",
         "summary_zh": "華爾街頂尖分析師透過TipRanks追蹤的股息股票中，提出了三隻股息股票作為穩定收入來源。這些股息股票包括了可口可樂、康菲石油和聯合石油。這些公司都有穩定的財務表現和高股息收益率。分析師們認為，這些股息股票能夠為投資者提供穩定的收入來源，尤其是在市場波動時。然而，投資者應該注意到，這些股息股票的價格可能會受到市場變化的影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      }
-    ],
-    "ai": [
-      {
-        "id": "c8c3ec20",
-        "title": "我討厭我不討厭這首由Suno創作的歌曲",
-        "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-19T13:35:54-04:00",
-        "summary_zh": "雖然我不認為人工智慧在音樂中沒有任何用途（我是霍莉·赫德倫的粉絲），但我通常認為使用生成人工智慧創作的音樂令人厭煩，尤其是Suno的作品。因此，我感到困惑的是，該公司最近推出的歌曲竟然如此吸引人，我不禁要問自己：這是否是人工智慧在音樂中的真正潛力？",
-        "sentiment": "負面",
-        "is_breaking": true,
+        "is_breaking": false,
         "ai_classified": true
       }
     ]
