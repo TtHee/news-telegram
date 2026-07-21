@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-21T12:04:23.855892+08:00",
+  "generated_at": "2026-07-21T13:04:16.046200+08:00",
   "risk_signals": [
-    "🟢 台股加權 43909.41（正常）",
+    "🟢 台股加權 44100.28（正常）",
     "🟢 S&P 500 7443.28（正常）",
     "🟢 VIX 恐慌指數 18.65（正常）",
     "🟢 MOVE 債市波動 70.88（正常）",
-    "🟢 美元指數 100.99（正常）",
-    "🟢 黃金 4010.3（正常）",
+    "🟢 美元指數 100.94（正常）",
+    "🟢 黃金 4051.5（正常）",
     "🟡 美債10Y殖利率 4.6（留意）",
-    "🟢 原油 WTI 83.23（正常）",
+    "🟢 原油 WTI 82.1（正常）",
     "🟢 美元/台幣 32.26（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，多個指標維持正常水平，表明投資者對市場風險的評估仍然相對樂觀。美債10年殖利率的微升值得留意，可能是市場對經濟增長前景的調整。",
+  "ai_summary": "市場氛圍穩定，指標正常，但需留意美債10年殖利率稍微升高，可能影響投資者風險評估。",
   "market": {
     "TWII": {
-      "price": 43909.41,
-      "change_pct": 3.44
+      "price": 44100.28,
+      "change_pct": 3.89
     },
     "SP500": {
       "price": 7443.28,
@@ -38,25 +38,243 @@
       "change_pct": 3.99
     },
     "DXY": {
-      "price": 100.99,
-      "change_pct": 0.24
+      "price": 100.94,
+      "change_pct": -0.05
     },
     "GOLD": {
-      "price": 4010.3,
-      "change_pct": -0.06
+      "price": 4051.5,
+      "change_pct": 1.03
     },
     "OIL": {
-      "price": 83.23,
-      "change_pct": 0.9
+      "price": 82.1,
+      "change_pct": -1.36
     },
     "USDTWD": {
       "price": 32.26,
-      "change_pct": -0.17
+      "change_pct": -0.16
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "dc0ad76e",
+        "title": "川普宣布對加拿大商品徵收 50% tarif",
+        "url": "https://www.theguardian.com/us-news/2026/jul/20/trump-canada-tariffs",
+        "source": "Guardian World",
+        "category": "whitehouse",
+        "published_at": "Tue, 21 Jul 2026 02:29:47 GMT",
+        "summary_zh": "美國總統川普宣布對加拿大商品徵收 50% tarif，理由是加拿大對美國汽車、酒精和乳製品進行歧視性待遇。美國白宮表示，加拿大對美國汽車、酒精和乳製品進行歧視性待遇，導致美國對加拿大商品徵收 50% tarif。這些tarif將影響各種商品，包括葡萄酒、冰球棒和水泥等。值得注意的是，這些商品曾經在美國墨西哥加拿大協議 (USMCA) 下免除進口稅。這一決定可能會對加拿大經濟造成重大影響。加拿大政府可能會對美國商品進行報復性措施。這一事件將對中美貿易關係產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "81014a5f",
+        "title": "梅內民主黨人圍繞托利·傑克遜，為取代格雷厄姆·普拉特納在關鍵參議院選舉中取得強勢地位 – 美國政治最新消息",
+        "url": "https://www.theguardian.com/us-news/live/2026/jul/20/maine-democrats-troy-jackson-senate-graham-platner-donald-trump-immigration-world-cup-us-politics-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 21 Jul 2026 02:01:31 GMT",
+        "summary_zh": "梅內州民主黨人圍繞托利·傑克遜，為取代格雷厄姆·普拉特納在參議院選舉中取得強勢地位。托利·傑克遜是一位前州立法議員，多個候選人在週末退出競選，使他成為民主黨的熱門人選。另外，川普政府已經向一個成立30年但一直沒有活動的秘密法院提交了首份申請，要求將所謂的「外星恐怖份子」從美國驅逐出境。這個名為外星恐怖份子移除法院（ATRC）的法院成立於1996年，但直到週三才收到第一份申請，美國司法部要求移除一個姓名未公開的個人。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3c1e3113",
+        "title": "聯合航空員工威脅要報警移民署　公司表示正在調查",
+        "url": "https://www.theguardian.com/us-news/2026/jul/20/united-airlines-san-francisco-airport-ice-threat",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Jul 2026 22:40:07 GMT",
+        "summary_zh": "聯合航空一名員工在舊金山國際機場與一名乘客發生爭執，員工威脅要報警移民署。事件的起因是該名乘客因錯誤登記女兒姓名而導致購票延遲。該名乘客 Julio Varela 表示，他與家人因為等待聯合航空工作人員糾正錯誤而感到不耐煩。員工的言論引起爭議，聯合航空公司表示正在調查事件。這個事件已經在社交媒體上引起了廣泛的討論和關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "12e1e7b2",
+        "title": "五人喪生救助 Ohio 河中溺水者",
+        "url": "https://www.theguardian.com/us-news/2026/jul/20/ohio-scioto-river-deaths",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Jul 2026 22:31:53 GMT",
+        "summary_zh": "美國俄亥俄州一名溺水者在河中挣扎，多人跳入河中救援，最終五人喪生。警方表示，一名車主在看到一名害怕的孩子在附近路上奔跑後，拨打了 911。警長 Jeffrey Balzer 表示，這名孩子是與溺水者一同在河中溺水的群體的一員。警方在河中發現了三名男子的屍體，另外兩名女性也被送往醫院後宣告死亡。這起悲劇事件引起了當地居民的震驚和哀悼。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "dafaa2f4",
+        "title": "民主黨呼籲川普停止伊朗戰爭 美軍三名士兵在伊朗軍事打擊中喪生",
+        "url": "https://www.theguardian.com/us-news/2026/jul/20/democrats-trump-iran-war",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Jul 2026 21:45:16 GMT",
+        "summary_zh": "民主黨人士在伊朗軍事打擊中美軍三名士兵喪生的消息下，呼籲川普總統儘速停止與伊朗的戰爭。美國軍方在伊朗的攻擊中再次發動第十波攻擊，但美軍人員的傷亡卻引發了越來越多的擔憂。川普總統上週曾放棄與伊朗在6月簽署的協議，重新點燃了伊朗戰爭的火焰。民主黨人士認為，川普總統已經失去了對這場戰爭的控制。美國國會議員們對川普總統的決定感到擔憂，認為這將導致更多的傷亡和無止境的戰爭。民主黨人士呼籲川普總統儘速停止戰爭，避免更多的傷亡和無止境的戰爭。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c866c261",
+        "title": "觀看CNBC對大西洋會議中心執行長Fred Kempe的完整訪談",
+        "url": "https://www.cnbc.com/video/2026/07/20/watch-cnbcas-full-interview-with-atlantic-council-ceo-fred-kempe.html",
+        "source": "Cnbc",
+        "category": "whitehouse",
+        "published_at": "2026-07-20 14:59:12",
+        "summary_zh": "大西洋會議中心執行長Fred Kempe出席CNBC節目『Squawk on the Street』，與觀眾分享美國與伊朗衝突的最新發展、對總統川普的期待等內容。美國與伊朗的緊張關係持續升級，川普政府的下一步行動將對全球產生重大影響。Fred Kempe表示，他對川普政府的政策感到擔憂，希望能夠透過對話來解決問題。節目中還討論了其他全球問題，包括中東和平進程等。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c8022a5b",
+        "title": "美國對伊朗發動新一輪攻擊，川普警告伊朗將遭報復",
+        "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 21 Jul 2026 02:41:28 GMT",
+        "summary_zh": "美國對伊朗發動新一輪攻擊，主要目標是削弱伊朗對霍爾木茲海峽船隻的攻擊能力。這一行動是美國對伊朗殺害美軍士兵的報復。伊朗的霍爾木茲海峽是全球石油輸送的重要通道，美國軍方認為伊朗的攻擊能力對該地區的安全構成重大威脅。美國總統川普在發言中警告伊朗，美國將採取行動報復伊朗對美軍士兵的殺害。這一行動引發了對美伊關係的擔憂，可能會導致局勢升級。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "16f129ea",
+        "title": "泰特兄弟出席美國法庭，涉嫌引渡",
+        "url": "https://www.bbc.co.uk/news/articles/c6294y87wk6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Jul 2026 19:05:50 GMT",
+        "summary_zh": "泰特兄弟在週六被捕，據英國當局宣布，泰特兄弟面臨數十項新指控，包括強姦和性交易等罪名。泰特兄弟否認所有指控。這些指控出現後，泰特兄弟出席美國法庭進行引渡程序。泰特兄弟的案件引起了廣泛關注，許多人對他們的行為表達了強烈的不滿。這一事件也引發了對性犯罪和引渡程序的討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2a6e815c",
+        "title": "JD Vance宣布與妻子Usha誕下男嬰",
+        "url": "https://www.bbc.co.uk/news/articles/cj63kngxpxpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Jul 2026 11:28:30 GMT",
+        "summary_zh": "美國政治人物JD Vance宣布與妻子Usha誕下第四個孩子，男嬰Eric Neel Vance。這是夫妻倆第四個孩子的誕生，目前沒有更多的資訊。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "011ac955",
+        "title": "曼哈頓聯邦大樓外發生火災，涉嫌嫌犯是退伍軍人",
+        "url": "https://www.bbc.co.uk/news/articles/c1m1rr90dzxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 21 Jul 2026 02:16:05 GMT",
+        "summary_zh": "據FBI介紹，43歲的退伍軍人安德魯·阿拉巴卡（Andrew Arrabaca）被發現攜帶兩把斧頭、一把馬克思刀、三把刀和煙花。這起事件發生在曼哈頓聯邦大樓外，當局表示這名退伍軍人是反對移民及邊境巡邏局（ICE）的激進份子。這位退伍軍人被指控違反了聯邦法規，當局正在調查此事件。這起事件引起了關注，當局正在努力維持社會秩序和安全。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "396c0e81",
+        "title": "加拿大野火肆虐 特朗普再次警告卡尼斯美國空氣被「毒害」",
+        "url": "https://www.bbc.co.uk/news/articles/crl7n6j7gr3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Jul 2026 18:16:51 GMT",
+        "summary_zh": "美國總統特朗普在世界盃決賽期間，與加拿大總理卡尼斯會面時，再次提及加拿大野火對美國空氣的影響。特朗普認為這是加拿大的責任，應該採取措施防止空氣被「毒害」。然而，卡尼斯政府表示，美國也應該承擔部分責任，因為美國的氣候變化對加拿大野火的蔓延有所影響。這樁事件引發了兩國之間的氣候問題爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b0d5f4d7",
+        "title": "世界盃決賽期間關於川普的誤導性帖文被數百萬人瀏覽",
+        "url": "https://www.bbc.co.uk/news/videos/cn5n4rxyz3wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Jul 2026 20:07:15 GMT",
+        "summary_zh": "世界盃決賽期間，社交媒體平台上出現了許多關於美國總統川普和西班牙小將拉米內·雅馬爾的誤導性帖文。這些帖文在社交媒體平台上引起了巨大的反響，吸引了數百萬人瀏覽。這些帖文的內容不斷地變化，但都圍繞著川普和雅馬爾的關係。這些帖文的出現引起了對社交媒體平台管理的關注，許多人認為社交媒體平台應該採取措施來防止這樣的帖文出現。這些帖文的影響不僅僅是社交媒體平台上的話題，也對於川普和雅馬爾的形象產生了影響。這些帖文的出現也引起了對於社交媒體平台的管理和監管的討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b47cc0fb",
+        "title": "泰特兄弟將被引渡至英國？",
+        "url": "https://www.bbc.co.uk/news/articles/cjej0j0lzkno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Jul 2026 23:25:44 GMT",
+        "summary_zh": "泰特兄弟安德魯和特里斯坦面臨引渡程序，英國檢察官對他們提出38項新控罪。泰特兄弟目前在美國被捕，英國檢察官指控他們涉及非法賭博和人肉交易等罪行。這些新控罪將對泰特兄弟的案件產生重大影響，可能使他們面臨更嚴厲的刑罰。泰特兄弟的律師將會對這些新控罪進行辯護，並爭取他們的釋放。這樁案件的結果將對泰特兄弟的未來產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c8af9a44",
+        "title": "白宮發布白皮書：川普總統進一步調整進口鋁材入美",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-takes-further-action-to-adjust-imports-of-aluminum-into-the-united-states/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Jul 2026 19:44:17 +0000",
+        "summary_zh": "川普總統宣布，根據1962年貿易擴張法第232條，對進口鋁材的美國威脅進行調整，並促進美國鋁業投資。這一措施將幫助美國鋁業企業增強競爭力，創造就業機會，並為美國的經濟和國家安全提供強大的支撐。川普總統的決定將對美國鋁業產業產生重大影響，同時也將對全球鋁材市場產生波瀾。美國政府的這一措施旨在保護美國的鋁業產業，同時也將對全球貿易產生影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f2e36dfd",
+        "title": "進一步調整美國進口鋁材的行動",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/further-strengthening-actions-taken-to-adjust-imports-of-aluminum-into-the-united-states/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 20 Jul 2026 19:44:08 +0000",
+        "summary_zh": "美國總統發佈宣言，進一步調整進口鋁材的措施。根據1962年《貿易擴張法》第232條，總統認為鋁材進口對美國產生了重大影響。這項措施旨在保護美國的鋁材產業。美國總統在2018年3月8日發佈了《調整美國進口鋁材的措施》（Proclamation 9704），並對其進行了修訂。這項措施旨在保護美國的鋁材產業。總統認為，進口鋁材對美國產生了重大影響，因此需要進一步調整進口鋁材的措施。這項措施將對美國的鋁材產業產生重大影響。美國政府將進一步調整進口鋁材的措施，以保護美國的鋁材產業。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "global": [
+      {
+        "id": "7beafdff",
+        "title": "熱帶風暴貝爾塔向陸地移動，東太平洋形成颶風法斯托",
+        "url": "https://www.theguardian.com/us-news/2026/jul/20/bertha-tropical-depression-us-gulf-coast",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Tue, 21 Jul 2026 02:05:29 GMT",
+        "summary_zh": "熱帶風暴貝爾塔可能在美國墨西哥灣沿岸帶來大量降雨，其中心位於佛羅里達州帕納馬城南方約110英里。熱帶風暴貝爾塔於週一晚間在墨西哥灣南部形成，向人口密集的沿岸地區移動，威脅著大量降雨、潮汐升高和強風。與此同時，在東太平洋洋面上，颶風法斯托形成，距離墨西哥巴哈卡利福尼亞半島遠處，對陸地沒有威脅。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "072b22dd",
+        "title": "烏克蘭總統澤連斯基會見指揮官，街頭抗議升高",
+        "url": "https://www.reuters.com/world/ukraines-zelenskiy-meets-commanders-street-protests-mount-2026-07-20/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-07-20 16:43:45",
+        "summary_zh": "烏克蘭總統澤連斯基在烏克蘭東部會見軍事指揮官，同時街頭抗議活動持續升高。抗議者要求政府解決能源危機和糧食短缺等問題。烏克蘭政府正在努力應對俄羅斯入侵帶來的挑戰。抗議活動的升高可能會對烏克蘭的政治局勢產生影響。烏克蘭的經濟和安全面臨著嚴重挑戰。烏克蘭政府需要採取有效措施來應對這些挑戰。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "71cf90e3",
+        "title": "紐西蘭Q2通膨率升年增4.1％ 創2年半新高",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5512092",
+        "source": "自由時報財經",
+        "category": "global",
+        "published_at": "Tue, 21 Jul 2026 11:39:03 +0800",
+        "summary_zh": "紐西蘭第2季通膨壓力再度升溫，年度通膨率升至4.1％，達到2年半以來最高水準。根據紐西蘭統計局的資料，第2季通膨率的主要原因是食品和能源價格的上漲。這種情況對於紐西蘭的經濟有著一定的影響，可能會導致央行提高利率以控制通膨。然而，央行也會考慮到經濟的整體情況，避免過度收緊貨幣政策。紐西蘭的經濟在近期一直受到全球經濟的影響，包括通膨率和貨幣政策的變化。這種情況下，央行需要謹慎地處理，以維持經濟的穩定和可持續發展。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "c3cbac71",
         "title": "川普對加拿大進口商品徵收 50% 進口稅",
@@ -130,18 +348,6 @@
         "ai_classified": true
       },
       {
-        "id": "71cf90e3",
-        "title": "紐西蘭Q2通膨率升年增4.1％ 創2年半新高",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5512092",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Tue, 21 Jul 2026 11:39:03 +0800",
-        "summary_zh": "紐西蘭第2季通膨壓力再度升溫，年度通膨率升至4.1％，達到2年半以來最高水準。根據紐西蘭統計局的資料，第2季通膨率的主要原因是食品和能源價格的上漲。這種情況對於紐西蘭的經濟有著一定的影響，可能會導致央行提高利率以控制通膨。然而，央行也會考慮到經濟的整體情況，避免過度收緊貨幣政策。紐西蘭的經濟在近期一直受到全球經濟的影響，包括通膨率和貨幣政策的變化。這種情況下，央行需要謹慎地處理，以維持經濟的穩定和可持續發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
         "id": "981db322",
         "title": "印度警方阻擋數千名抗議者衝擊國會大廈",
         "url": "https://www.bbc.co.uk/news/articles/cvg9w9dxd7lo?at_medium=RSS&at_campaign=rss",
@@ -166,18 +372,6 @@
         "ai_classified": true
       },
       {
-        "id": "a6d1cde2",
-        "title": "大西洋理事會執行長弗雷德·凱姆普（Fred Kempe）評估美伊衝突：『雙方都沒有終極目標』",
-        "url": "https://www.cnbc.com/video/2026/07/20/atlantic-council-ceo-fred-kempe-on-u-s-iran-conflict-neither-side-has-an-end-game-here.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-07-20 14:53:49",
-        "summary_zh": "大西洋理事會執行長弗雷德·凱姆普（Fred Kempe）在節目『Squawk on the Street』中表示，美伊衝突的最新發展令人擔憂。他認為，美國總統川普（Donald Trump）將會繼續採取強硬立場，對伊朗實施新的制裁。他強調，目前雙方都沒有終極目標，衝突可能持續下去。凱姆普表示，美國需要與盟國合作，共同應對伊朗的挑戰。他還提到，美國需要發展出一個長期的戰略，以應對伊朗的威脅。凱姆普的評估表明，美伊衝突的局勢仍然不穩定，雙方都需要找到一個適當的解決方案。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "91f7f5e6",
         "title": "熱帶風暴貝爾莎威脅美國墨西哥灣沿岸",
         "url": "https://www.bbc.co.uk/news/articles/cqjxzzdrl4lo?at_medium=RSS&at_campaign=rss",
@@ -186,8 +380,8 @@
         "published_at": "Tue, 21 Jul 2026 02:42:44 GMT",
         "summary_zh": "熱帶風暴貝爾莎正在威脅美國墨西哥灣沿岸，美國官員表示，路易斯安那州和密西西比州沿岸可能出現4英尺高的海嘯。熱帶風暴貝爾莎的來臨將對沿岸地區造成重大影響，可能導致嚴重的洪水和風暴潮。美國官員正在密切監測風暴的發展，準備應對風暴帶來的風險。熱帶風暴貝爾莎的影響將不僅限於沿岸地區，可能也會影響內陸地區。美國官員呼籲沿岸居民儘快做好準備，避免風暴帶來的風險。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "4575371b",
@@ -250,18 +444,6 @@
         "ai_classified": true
       },
       {
-        "id": "36de0d10",
-        "title": "川普稱美軍轟炸伊朗是為了美國士兵的榮譽",
-        "url": "https://www.bbc.co.uk/news/articles/cly52xzjd3qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 20 Jul 2026 20:14:57 GMT",
-        "summary_zh": "伊朗對美軍轟炸回應，攻擊敘利亞和約旦，海峽之戰中兩艘船隻在霍爾木茲海峽爆炸。伊朗對美軍轟炸的回應引發了地區的緊張局勢，美伊關係進一步惡化。這次美軍轟炸是為了懲罰伊朗對美軍在伊拉克的襲擊，川普總統表示這是為了美國士兵的榮譽。伊朗的回應行動將進一步加劇地區的緊張局勢，可能會導致更多的衝突。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "eb69e4c5",
         "title": "從百人到千人：印度「蟎蟀黨」的抗議運動如何成長",
         "url": "https://www.bbc.co.uk/news/videos/c0qvdywj97ko?at_medium=RSS&at_campaign=rss",
@@ -274,13 +456,13 @@
         "ai_classified": true
       },
       {
-        "id": "9c5d3592",
-        "title": "美國將對部分加拿大商品加徵50%關稅",
-        "url": "https://www.cna.com.tw/news/aopl/202607210012.aspx",
-        "source": "中央社財經",
+        "id": "36de0d10",
+        "title": "川普稱美軍轟炸伊朗是為了美國士兵的榮譽",
+        "url": "https://www.bbc.co.uk/news/articles/cly52xzjd3qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Tue, 21 Jul 2026 06:27:25 +0800",
-        "summary_zh": "美國政府因為加拿大對美國汽車、酒類及乳製品採取所謂「歧視性待遇」而決定對部分加拿大商品加徵50%關稅。這項措施將於30天後生效。美國政府認為，加拿大對美國的商品待遇不公平，因此決定採取反制措施。這項措施可能會對加拿大出口業造成重大影響。美國政府的決定也可能會對兩國的貿易關係產生影響。加拿大政府已經表示將對美國的措施進行評估，並可能採取反制措施。",
+        "published_at": "Mon, 20 Jul 2026 20:14:57 GMT",
+        "summary_zh": "伊朗對美軍轟炸回應，攻擊敘利亞和約旦，海峽之戰中兩艘船隻在霍爾木茲海峽爆炸。伊朗對美軍轟炸的回應引發了地區的緊張局勢，美伊關係進一步惡化。這次美軍轟炸是為了懲罰伊朗對美軍在伊拉克的襲擊，川普總統表示這是為了美國士兵的榮譽。伊朗的回應行動將進一步加劇地區的緊張局勢，可能會導致更多的衝突。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -298,14 +480,14 @@
         "ai_classified": true
       },
       {
-        "id": "8b03e7e6",
-        "title": "中東局勢緊張 歐洲股市收盤走勢分歧",
-        "url": "https://www.cna.com.tw/news/afe/202607210002.aspx",
+        "id": "9c5d3592",
+        "title": "美國將對部分加拿大商品加徵50%關稅",
+        "url": "https://www.cna.com.tw/news/aopl/202607210012.aspx",
         "source": "中央社財經",
         "category": "global",
-        "published_at": "Tue, 21 Jul 2026 01:03:59 +0800",
-        "summary_zh": "中東局勢緊張，投資人努力消化一連串暗示中東地區衝突惡化的新聞。歐洲股市主要指數今天收盤漲跌互見，表明投資人對未來的不確定性感到擔憂。這種不確定性不僅影響中東地區的經濟，也會對全球經濟產生影響。投資人正在密切關注中東局勢的發展，等待更多的資訊來評估風險。目前，歐洲股市的走勢仍然不穩定，投資人需要保持謹慎的態度。",
-        "sentiment": "中性",
+        "published_at": "Tue, 21 Jul 2026 06:27:25 +0800",
+        "summary_zh": "美國政府因為加拿大對美國汽車、酒類及乳製品採取所謂「歧視性待遇」而決定對部分加拿大商品加徵50%關稅。這項措施將於30天後生效。美國政府認為，加拿大對美國的商品待遇不公平，因此決定採取反制措施。這項措施可能會對加拿大出口業造成重大影響。美國政府的決定也可能會對兩國的貿易關係產生影響。加拿大政府已經表示將對美國的措施進行評估，並可能採取反制措施。",
+        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       }
@@ -386,6 +568,78 @@
     ],
     "stock_tw": [
       {
+        "id": "e67b3537",
+        "title": "央行示警比特幣ATM詐騙！美國去年損失近4億美元 高齡族群成重災區",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5512323",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Jul 2026 12:53:09 +0800",
+        "summary_zh": "美國比特幣價格今年6月一度跌破6萬美元，但比特幣ATM詐騙案件卻持續攀升，引起美國司法及監管機關高度關注。根據央行的數據，去年美國因比特幣ATM詐騙案件損失近4億美元。高齡族群成重災區，許多人因為詐騙案件而遭受財務損失。央行呼籲投資者謹慎投資，避免被詐騙。美國監管機關正密切關注這種情況，並正在調查相關詐騙案件。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "107bc3ce",
+        "title": "晶片股大逃殺，只有台積電能撿？外媒曝「值得瘋狂買入」關鍵",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5512056",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Jul 2026 12:51:49 +0800",
+        "summary_zh": "近期半導體股遭到市場大舉拋售，但AI需求基本面並未明顯轉弱。美媒指出，在AI基礎設施快速擴張的關鍵時刻，市場幾乎找不到能夠取代台積電的先進製造選項。這使得台積電在市場地位上佔有絕對優勢。雖然市場對半導體股感到悲觀，但AI需求的持續增長仍然是未來的關鍵。外媒認為，市場應該重新評估對半導體股的看法，並認為台積電是值得投資的關鍵企業。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "973fc19e",
+        "title": "台積電領銜逾1500家公司指數大漲1666點重返4萬4",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5511994",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Jul 2026 12:46:35 +0800",
+        "summary_zh": "美科技股財報週登場，台股在週一科技股回神下，指數收小紅，亞股週二擺脫頹勢，韓股在三星電子領漲，指數漲1.4%，重返6600點，而日經在鎧俠漲逾6%，指數一度漲近千點。台股則在台積電領銜逾1500家公司齊揚，指數大漲1666點，重返4萬4。這一波市場反彈，可能與美股財報週的影響有關。台積電的表現尤其值得注意，該公司的股價大幅上漲，可能是市場對其財報的期待。然而，市場的反彈可能不會持續太久，投資者應該保持謹慎的態度。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "03945371",
+        "title": "惠譽：台灣壽險業外匯錯配風險仍高",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5512307",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Jul 2026 12:45:21 +0800",
+        "summary_zh": "台灣壽險業目前面臨多項結構性壓力，包括會計制度、清償能力監理架構及市場環境的變動。外匯錯配仍是壽險業的關鍵風險之一，惠譽信評亞太區保險評等資深副總經理王長泰表示，壽險業需要提高對外匯錯配風險的警覺性，同時也需要改善會計制度和監理架構，以降低風險。這些壓力可能會影響壽險業的財務穩定性和投資收益，從而對整體經濟產生影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1af59f29",
+        "title": "知名建商砸5億多買在國巨山頂 股民苦笑：不孤單了",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5512120",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Jul 2026 12:36:09 +0800",
+        "summary_zh": "台股近期盤勢劇烈震盪，國巨（2327）股價腰斬。知名建商在本月初以超過5億元買進432張國巨股票，每股高達1186元。這一行動讓專家感到驚訝，認為這是看好未來發展的跡象。國巨曾是被動元件龍頭，但近期股價下跌。這一買進行動可能是建商看好國巨未來的發展前景，或者是看好市場反彈的機會。然而，股民可能會對這一買進行動感到苦笑，因為他們可能會感到被孤立。這一事件可能會對市場產生影響，讓投資者更加小心地觀察市場走勢。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "96935bec",
+        "title": "亞股大反攻！日經飆逾1500點 韓股漲逾3％重返6700點",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5511949",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Jul 2026 11:58:54 +0800",
+        "summary_zh": "近日，亞洲股市出現大幅反彈。韓股在三星電子領導下，指數大幅上漲逾3%，重返6700點。日經指數也出現大幅飆升，漲逾1500點。這種反彈主要是由於科技股財報週的登場，讓投資者對市場感到樂觀。然而，這種反彈是否能持續，還需要觀察市場的發展。同時，投資者也需要注意市場的風險和挑戰。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "fd766da7",
         "title": "一河之隔房租價差大 台北車站房租高出三重站近1倍",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5512233",
@@ -394,8 +648,8 @@
         "published_at": "Tue, 21 Jul 2026 11:55:29 +0800",
         "summary_zh": "雙北市一河之隔，房租價差大。根據房仲業者彙整過去一年雙北市有著一河之隔的捷運站週邊房租實價揭露資訊，發現台北車站與一河之隔的中和新蘆線的三重站房租價差最大，落差超過9成。台北車站房租均價高達每平方公尺 2.3 萬元，相比之下三重站房租均價只有每平方公尺 2.2 萬元。這意味著台北車站房租價格高出三重站近1倍。房仲業者表示，這種房租價差主要是由於台北車站周邊的交通便利性和商業環境優勢所致。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "2bb2c517",
@@ -406,8 +660,8 @@
         "published_at": "Tue, 21 Jul 2026 11:53:37 +0800",
         "summary_zh": "台股今日反彈，散熱族群股價大幅上漲，奇鋐（3017）股價開高走高，最高漲逾8%。市場分析認為，AI散熱需求暢旺是奇鋐股價上漲的主要原因。奇鋐是全球領先的散熱解決方案供應商，公司的產品被廣泛應用於AI和雲計算等領域。隨著AI和雲計算的發展，奇鋐的產品需求日益增加，股價自然而然地上漲。這一波上漲也反映了市場對AI和雲計算未來發展前景的樂觀態度。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "dc484e90",
@@ -418,8 +672,8 @@
         "published_at": "Tue, 21 Jul 2026 11:38:23 +0800",
         "summary_zh": "近期台股大幅拉回，從6月歷史新高狂瀉逾6000點，加權指數摜破季線，櫃買指數回測半年線。雖然市場出現波動，但根據集保戶股權分散7月17日最新統計資料顯示，台股ETF受益人數單週增長達12.6%，達到新高。投資人在市場下跌時購買ETF的行為被稱為\"越跌越買\"，這種投資策略在市場波動時被認為是有效的。然而，市場的反彈是否持續，仍需要觀察。投資人需要謹慎評估市場風險和機會，做出明智的投資決策。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "55ea3f7c",
@@ -429,66 +683,6 @@
         "category": "stock_tw",
         "published_at": "Tue, 21 Jul 2026 11:37:01 +0800",
         "summary_zh": "運動器材大廠喬山近期表現亮眼，6月合併營收51.97億元，較5月成長28%，創下歷年同期新高。這一成長主要歸功於美國政府退關稅的政策，對於運動器材業有著顯著的影響。喬山的股價自6月以來也呈現強勢上漲的趨勢，截至11:05分股暫報1...…",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "96935bec",
-        "title": "亞股大反攻！日經飆逾1500點 韓股漲逾3％重返6700點",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5511949",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 21 Jul 2026 10:55:54 +0800",
-        "summary_zh": "近日，亞洲股市出現大幅反彈。韓股在三星電子領導下，指數大幅上漲逾3%，重返6700點。日經指數也出現大幅飆升，漲逾1500點。這種反彈主要是由於科技股財報週的登場，讓投資者對市場感到樂觀。然而，這種反彈是否能持續，還需要觀察市場的發展。同時，投資者也需要注意市場的風險和挑戰。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9d290c79",
-        "title": "安立璽榮-KY拚登上創新版 聚焦阿茲海默症治療新方向",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5512106",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 21 Jul 2026 10:47:38 +0800",
-        "summary_zh": "安立璽榮-KY（7871）近日在亞洲生技大會發表專題報告，展示其研發的阿茲海默症新藥Enrupatinib（EI-1071）的臨床二期試驗中期數據。這項研究旨在探索新藥對阿茲海默症的治療效果。安立璽榮-KY的這一努力是為了打破傳統的阿茲海默症治療方法，尋求新的治療方向。這項研究的結果將對於阿茲海默症的治療帶來新的希望。然而，仍需等待更多的數據和結果來確認新藥的有效性。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ca557750",
-        "title": "頂級富豪不開法拉利了！日媒曝「新歡車款」",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5511938",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 21 Jul 2026 10:36:52 +0800",
-        "summary_zh": "日媒曝光頂級富豪的消費哲學正發生劇烈轉變，傳統的「炫耀財富象徵」時代逐漸退場，取而代之的是追求低調智慧與車輛背後的技術與品質。日本高端行銷專家西田理一郎指出，真正有錢人不再以開法拉利等豪車來炫耀財富，而是選擇更低調的車款，例如梅賽德斯-賓士的 S-Class 或 BMW 的 7-Series 等高端車款。這種消費哲學的轉變是由於頂級富豪開始重視車輛背後的技術與品質，而不是單純的炫耀財富。這種轉變將對全球高端車市場產生重大影響，讓廠商們必須重新評估自己的產品策略。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e51e6fab",
-        "title": "焦點股》台塑化：外資連十日買超 亮燈漲停",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5512090",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 21 Jul 2026 10:34:14 +0800",
-        "summary_zh": "台塑化（6505）昨日因公告6月小幅虧損，股價收長黑，但今日台股反彈逾千點，加上預期油價續漲，台塑化股價開高走高，亮燈漲停，來到85.4元。外資連續十日買超，顯示市場對台塑化的信心不減。台塑化的股價上漲主要是因為預期油價續漲，對公司的利潤有所帶動。另外，台股的反彈也幫助了台塑化的股價上漲。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3f598a6e",
-        "title": "焦點股》亞電：高階材料卡位半導體 連兩日漲停飆天價",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5512063",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 21 Jul 2026 10:21:40 +0800",
-        "summary_zh": "亞電積極搶攻半導體與AI應用市場，轉型為高階關鍵材料解決方案提供者。為因應半導體封裝朝高精度、薄型化及高溫製程發展，亞電推出抗翹曲平衡材料。這項材料能夠提高半導體封裝的精度和穩定性，為半導體產業的發展提供重要支撐。亞電的這一轉型和產品推出，將對公司的未來發展產生重要影響。目前，亞電的股價已經連續兩日漲停，表明投資者對公司的信心正在增強。然而，公司的未來發展仍面臨著許多挑戰和風險，投資者需要仔細評估公司的財務和營運情況，才能做出明智的投資決策。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
@@ -564,236 +758,42 @@
         "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "5acb9583",
-        "title": "派拉蒙併華納兄弟案遭聯邦法官暫停",
-        "url": "https://www.cna.com.tw/news/aopl/202607210007.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 21 Jul 2026 04:03:12 +0800",
-        "summary_zh": "派拉蒙天舞與華納兄弟探索公司的併購案遭遇阻礙。加州一名聯邦法官下令暫停這項交易。同時，美國12個州也提告尋求阻止這起併購案。這項交易的暫停可能會對兩家公司的未來發展造成影響。美國的媒體市場正面臨著激烈的競爭和變化，派拉蒙和華納兄弟的併購案是這一趨勢的最新表現。這項交易的暫停也可能會對投資者和股東造成影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
-    "whitehouse": [
+    "stock_us": [
       {
-        "id": "68128e47",
-        "title": "川普政府試圖阻止律師事務所Susman Godfrey參與律師團的訴訟",
-        "url": "https://www.reuters.com/legal/government/trump-administration-seeks-bar-law-firm-susman-godfrey-lawyer-groups-lawsuit-2026-07-20/",
-        "source": "Reuters",
-        "category": "whitehouse",
-        "published_at": "2026-07-20 16:00:42",
-        "summary_zh": "川普政府試圖阻止律師事務所Susman Godfrey參與律師團的訴訟。這起訴訟與律師團對川普政府的法律挑戰有關。Susman Godfrey是律師團的主要法律顧問，政府試圖阻止該事務所參與訴訟，理由是該事務所與訴訟相關的公司有業務關係。這一行動被視為對律師團的打壓。律師團的訴訟旨在挑戰川普政府的政策和行動，政府試圖阻止律師事務所參與訴訟，以削弱律師團的力量。這一行動引發了對政府對律師團的打壓和限制言論自由的擔憂。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "c8022a5b",
-        "title": "美國對伊朗發動新一輪攻擊，川普警告伊朗將遭報復",
-        "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 21 Jul 2026 02:41:28 GMT",
-        "summary_zh": "美國對伊朗發動新一輪攻擊，主要目標是削弱伊朗對霍爾木茲海峽船隻的攻擊能力。這一行動是美國對伊朗殺害美軍士兵的報復。伊朗的霍爾木茲海峽是全球石油輸送的重要通道，美國軍方認為伊朗的攻擊能力對該地區的安全構成重大威脅。美國總統川普在發言中警告伊朗，美國將採取行動報復伊朗對美軍士兵的殺害。這一行動引發了對美伊關係的擔憂，可能會導致局勢升級。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "16f129ea",
-        "title": "泰特兄弟出席美國法庭，涉嫌引渡",
-        "url": "https://www.bbc.co.uk/news/articles/c6294y87wk6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 19:05:50 GMT",
-        "summary_zh": "泰特兄弟在週六被捕，據英國當局宣布，泰特兄弟面臨數十項新指控，包括強姦和性交易等罪名。泰特兄弟否認所有指控。這些指控出現後，泰特兄弟出席美國法庭進行引渡程序。泰特兄弟的案件引起了廣泛關注，許多人對他們的行為表達了強烈的不滿。這一事件也引發了對性犯罪和引渡程序的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2a6e815c",
-        "title": "JD Vance宣布與妻子Usha誕下男嬰",
-        "url": "https://www.bbc.co.uk/news/articles/cj63kngxpxpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 11:28:30 GMT",
-        "summary_zh": "美國政治人物JD Vance宣布與妻子Usha誕下第四個孩子，男嬰Eric Neel Vance。這是夫妻倆第四個孩子的誕生，目前沒有更多的資訊。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f5820e0d",
-        "title": "報告：羅傑·古德爾擴展合約即將完成",
-        "url": "https://www.reuters.com/sports/report-owners-finalizing-extension-roger-goodell--flm-2026-07-20/",
-        "source": "Reuters",
-        "category": "whitehouse",
-        "published_at": "2026-07-20 15:47:43",
-        "summary_zh": "美國職業足球聯盟(NFL)委員會正在就總裁羅傑·古德爾(Roger Goodell)擴展合約進行最後的商討。根據最新消息，古德爾的擴展合約將會延長至2027年。這項擴展將會讓古德爾繼續擔任NFL總裁，同時也會增加他的薪水。NFL委員會的決定將會對聯盟的未來發展產生重大影響。古德爾在NFL擔任總裁已經超過15年，期間他帶領聯盟取得了許多成功。然而，古德爾的擴展合約也引起了許多爭議。一些人認為古德爾的薪水太高，而另一些人則認為他對聯盟的貢獻值得他的薪水。最終，NFL委員會的決定將會決定古德爾的未來。",
+        "id": "acf8e713",
+        "title": "紐約證交所內部人Jay Woods關注的三大財報",
+        "url": "https://www.cnbc.com/2026/07/20/what-nyse-insider-jay-woods-is-watching-this-week-including-3-key-earnings-reports.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-20 16:59:59",
+        "summary_zh": "紐約證交所內部人Jay Woods表示，這週將進入財報季，將關注三家公司的財報，他認為這些財報將對市場產生重要影響。這三家公司包括...... Jay Woods認為，這些財報將是市場關注的焦點，將對市場產生重要影響。財報季將為投資者提供重要的資訊，幫助他們做出明智的投資決策。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "c866c261",
-        "title": "觀看CNBC對大西洋會議中心執行長Fred Kempe的完整訪談",
-        "url": "https://www.cnbc.com/video/2026/07/20/watch-cnbcas-full-interview-with-atlantic-council-ceo-fred-kempe.html",
-        "source": "Cnbc",
-        "category": "whitehouse",
-        "published_at": "2026-07-20 14:59:12",
-        "summary_zh": "大西洋會議中心執行長Fred Kempe出席CNBC節目『Squawk on the Street』，與觀眾分享美國與伊朗衝突的最新發展、對總統川普的期待等內容。美國與伊朗的緊張關係持續升級，川普政府的下一步行動將對全球產生重大影響。Fred Kempe表示，他對川普政府的政策感到擔憂，希望能夠透過對話來解決問題。節目中還討論了其他全球問題，包括中東和平進程等。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "011ac955",
-        "title": "曼哈頓聯邦大樓外發生火災，涉嫌嫌犯是退伍軍人",
-        "url": "https://www.bbc.co.uk/news/articles/c1m1rr90dzxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 21 Jul 2026 02:16:05 GMT",
-        "summary_zh": "據FBI介紹，43歲的退伍軍人安德魯·阿拉巴卡（Andrew Arrabaca）被發現攜帶兩把斧頭、一把馬克思刀、三把刀和煙花。這起事件發生在曼哈頓聯邦大樓外，當局表示這名退伍軍人是反對移民及邊境巡邏局（ICE）的激進份子。這位退伍軍人被指控違反了聯邦法規，當局正在調查此事件。這起事件引起了關注，當局正在努力維持社會秩序和安全。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "396c0e81",
-        "title": "加拿大野火肆虐 特朗普再次警告卡尼斯美國空氣被「毒害」",
-        "url": "https://www.bbc.co.uk/news/articles/crl7n6j7gr3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 18:16:51 GMT",
-        "summary_zh": "美國總統特朗普在世界盃決賽期間，與加拿大總理卡尼斯會面時，再次提及加拿大野火對美國空氣的影響。特朗普認為這是加拿大的責任，應該採取措施防止空氣被「毒害」。然而，卡尼斯政府表示，美國也應該承擔部分責任，因為美國的氣候變化對加拿大野火的蔓延有所影響。這樁事件引發了兩國之間的氣候問題爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b0d5f4d7",
-        "title": "世界盃決賽期間關於川普的誤導性帖文被數百萬人瀏覽",
-        "url": "https://www.bbc.co.uk/news/videos/cn5n4rxyz3wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 20:07:15 GMT",
-        "summary_zh": "世界盃決賽期間，社交媒體平台上出現了許多關於美國總統川普和西班牙小將拉米內·雅馬爾的誤導性帖文。這些帖文在社交媒體平台上引起了巨大的反響，吸引了數百萬人瀏覽。這些帖文的內容不斷地變化，但都圍繞著川普和雅馬爾的關係。這些帖文的出現引起了對社交媒體平台管理的關注，許多人認為社交媒體平台應該採取措施來防止這樣的帖文出現。這些帖文的影響不僅僅是社交媒體平台上的話題，也對於川普和雅馬爾的形象產生了影響。這些帖文的出現也引起了對於社交媒體平台的管理和監管的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b47cc0fb",
-        "title": "泰特兄弟將被引渡至英國？",
-        "url": "https://www.bbc.co.uk/news/articles/cjej0j0lzkno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 23:25:44 GMT",
-        "summary_zh": "泰特兄弟安德魯和特里斯坦面臨引渡程序，英國檢察官對他們提出38項新控罪。泰特兄弟目前在美國被捕，英國檢察官指控他們涉及非法賭博和人肉交易等罪行。這些新控罪將對泰特兄弟的案件產生重大影響，可能使他們面臨更嚴厲的刑罰。泰特兄弟的律師將會對這些新控罪進行辯護，並爭取他們的釋放。這樁案件的結果將對泰特兄弟的未來產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dc0ad76e",
-        "title": "川普宣布對加拿大商品徵收 50% tarif",
-        "url": "https://www.theguardian.com/us-news/2026/jul/20/trump-canada-tariffs",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 21 Jul 2026 02:29:47 GMT",
-        "summary_zh": "美國總統川普宣布對加拿大商品徵收 50% tarif，理由是加拿大對美國汽車、酒精和乳製品進行歧視性待遇。美國白宮表示，加拿大對美國汽車、酒精和乳製品進行歧視性待遇，導致美國對加拿大商品徵收 50% tarif。這些tarif將影響各種商品，包括葡萄酒、冰球棒和水泥等。值得注意的是，這些商品曾經在美國墨西哥加拿大協議 (USMCA) 下免除進口稅。這一決定可能會對加拿大經濟造成重大影響。加拿大政府可能會對美國商品進行報復性措施。這一事件將對中美貿易關係產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "81014a5f",
-        "title": "梅內民主黨人圍繞托利·傑克遜，為取代格雷厄姆·普拉特納在關鍵參議院選舉中取得強勢地位 – 美國政治最新消息",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/20/maine-democrats-troy-jackson-senate-graham-platner-donald-trump-immigration-world-cup-us-politics-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 21 Jul 2026 02:01:31 GMT",
-        "summary_zh": "梅內州民主黨人圍繞托利·傑克遜，為取代格雷厄姆·普拉特納在參議院選舉中取得強勢地位。托利·傑克遜是一位前州立法議員，多個候選人在週末退出競選，使他成為民主黨的熱門人選。另外，川普政府已經向一個成立30年但一直沒有活動的秘密法院提交了首份申請，要求將所謂的「外星恐怖份子」從美國驅逐出境。這個名為外星恐怖份子移除法院（ATRC）的法院成立於1996年，但直到週三才收到第一份申請，美國司法部要求移除一個姓名未公開的個人。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3c1e3113",
-        "title": "聯合航空員工威脅要報警移民署　公司表示正在調查",
-        "url": "https://www.theguardian.com/us-news/2026/jul/20/united-airlines-san-francisco-airport-ice-threat",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 22:40:07 GMT",
-        "summary_zh": "聯合航空一名員工在舊金山國際機場與一名乘客發生爭執，員工威脅要報警移民署。事件的起因是該名乘客因錯誤登記女兒姓名而導致購票延遲。該名乘客 Julio Varela 表示，他與家人因為等待聯合航空工作人員糾正錯誤而感到不耐煩。員工的言論引起爭議，聯合航空公司表示正在調查事件。這個事件已經在社交媒體上引起了廣泛的討論和關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "12e1e7b2",
-        "title": "五人喪生救助 Ohio 河中溺水者",
-        "url": "https://www.theguardian.com/us-news/2026/jul/20/ohio-scioto-river-deaths",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 22:31:53 GMT",
-        "summary_zh": "美國俄亥俄州一名溺水者在河中挣扎，多人跳入河中救援，最終五人喪生。警方表示，一名車主在看到一名害怕的孩子在附近路上奔跑後，拨打了 911。警長 Jeffrey Balzer 表示，這名孩子是與溺水者一同在河中溺水的群體的一員。警方在河中發現了三名男子的屍體，另外兩名女性也被送往醫院後宣告死亡。這起悲劇事件引起了當地居民的震驚和哀悼。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dafaa2f4",
-        "title": "民主黨呼籲川普停止伊朗戰爭 美軍三名士兵在伊朗軍事打擊中喪生",
-        "url": "https://www.theguardian.com/us-news/2026/jul/20/democrats-trump-iran-war",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 21:45:16 GMT",
-        "summary_zh": "民主黨人士在伊朗軍事打擊中美軍三名士兵喪生的消息下，呼籲川普總統儘速停止與伊朗的戰爭。美國軍方在伊朗的攻擊中再次發動第十波攻擊，但美軍人員的傷亡卻引發了越來越多的擔憂。川普總統上週曾放棄與伊朗在6月簽署的協議，重新點燃了伊朗戰爭的火焰。民主黨人士認為，川普總統已經失去了對這場戰爭的控制。美國國會議員們對川普總統的決定感到擔憂，認為這將導致更多的傷亡和無止境的戰爭。民主黨人士呼籲川普總統儘速停止戰爭，避免更多的傷亡和無止境的戰爭。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c8af9a44",
-        "title": "白宮發布白皮書：川普總統進一步調整進口鋁材入美",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-takes-further-action-to-adjust-imports-of-aluminum-into-the-united-states/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 19:44:17 +0000",
-        "summary_zh": "川普總統宣布，根據1962年貿易擴張法第232條，對進口鋁材的美國威脅進行調整，並促進美國鋁業投資。這一措施將幫助美國鋁業企業增強競爭力，創造就業機會，並為美國的經濟和國家安全提供強大的支撐。川普總統的決定將對美國鋁業產業產生重大影響，同時也將對全球鋁材市場產生波瀾。美國政府的這一措施旨在保護美國的鋁業產業，同時也將對全球貿易產生影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f2e36dfd",
-        "title": "進一步調整美國進口鋁材的行動",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/further-strengthening-actions-taken-to-adjust-imports-of-aluminum-into-the-united-states/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 19:44:08 +0000",
-        "summary_zh": "美國總統發佈宣言，進一步調整進口鋁材的措施。根據1962年《貿易擴張法》第232條，總統認為鋁材進口對美國產生了重大影響。這項措施旨在保護美國的鋁材產業。美國總統在2018年3月8日發佈了《調整美國進口鋁材的措施》（Proclamation 9704），並對其進行了修訂。這項措施旨在保護美國的鋁材產業。總統認為，進口鋁材對美國產生了重大影響，因此需要進一步調整進口鋁材的措施。這項措施將對美國的鋁材產業產生重大影響。美國政府將進一步調整進口鋁材的措施，以保護美國的鋁材產業。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "stock_us": [
-      {
-        "id": "73d0ab9b",
-        "title": "約書亞布朗的最佳股票名單中有一家保險公司的表現亮眼",
-        "url": "https://www.cnbc.com/2026/07/20/theres-an-insurance-name-on-josh-browns-best-stocks-list-thats-been-a-homerun.html",
+        "id": "30db3f23",
+        "title": "觀看CNBC對SpaceX早期投資者Gavin Baker的完整訪談",
+        "url": "https://www.cnbc.com/video/2026/07/20/watch-cnbcs-full-interview-with-early-spacex-investor-gavin-baker.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-07-20 15:16:06",
-        "summary_zh": "約書亞布朗與肖恩魯索共同探討保險業的發展。根據布朗的最佳股票名單，某家保險公司的表現備受關注。該公司的股價表現出色，投資者對其未來前景感到樂觀。保險業的競爭日趨激烈，公司必須通過創新和優化業務來保持競爭力。布朗認為該公司的策略和管理團隊使其有競爭優勢。投資者應該關注該公司的財務報表和未來發展計畫。",
-        "sentiment": "正面",
+        "published_at": "2026-07-20 16:05:07",
+        "summary_zh": "SpaceX早期投資者Gavin Baker，Atreides Management的執行合夥人兼首席投資官，接受CNBC的訪問，討論SpaceX的表現。SpaceX自其峰值以來已經失去了接近1萬億美元的市值。Gavin Baker表示，SpaceX的失敗是由於市場對其未來前景的悲觀情緒所致。市場對SpaceX的未來前景感到悲觀，導致其股價大幅下跌。SpaceX的失敗對於整個太空行業都有著重要的影響，許多投資者都在等待著SpaceX的反彈。然而，Gavin Baker認為，SpaceX仍然有很大的潛力，仍然值得投資。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b8a3273d",
+        "title": "SpaceX投資人：市場下滑是IPO常見現象，目前不會考慮",
+        "url": "https://www.cnbc.com/video/2026/07/20/early-spacex-investor-baker-drawdown.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-20 16:04:10",
+        "summary_zh": "SpaceX投資人Gavin Baker表示，市場下滑是IPO常見現象，他不會因為市場波動而考慮出售股份。根據 CNBC 報導，SpaceX自股權上市以來，市場資產蒸發逾 1 萬億美元。Gavin Baker 表示，這種市場下滑是 IPO 常見現象，並不代表投資人錯誤。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
@@ -806,8 +806,8 @@
         "published_at": "2026-07-20 15:47:33",
         "summary_zh": "環球金融CEO傑瑞米·奧萊爾（Jeremy Allaire）接受CNBC節目《Squawk on the Street》的訪問，討論公司獲得最終的 OCC 批准，運營為信託銀行，以及 CLARITY Act 未來發展等議題。環球金融獲得 OCC 批准後，將能夠在美國提供信託銀行服務，進一步擴展業務。CLARITY Act 是一項法案，旨在規範美國的穩定幣市場，奧萊爾認為這項法案對於穩定幣市場的發展有重要意義。儘管穩定幣市場仍處於初期階段，但奧萊爾表示，環球金融將繼續推動穩定幣的發展，為消費者提供更安全、更便捷的支付選擇。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "edcaeaed",
@@ -818,8 +818,8 @@
         "published_at": "2026-07-20 15:46:16",
         "summary_zh": "霍莉·紐曼·克羅夫特（Holly Newman Kroft）是Neuberger Berman Private Wealth的管理董事，與CNBC的《Squawk on the Street》節目進行訪談，討論她在今年下半年開始時對客戶的建議、為什麼他們應該檢視他們的資產配置等問題。克羅夫特表示，客戶應該檢視他們的資產配置，確保它們符合他們的風險承受能力和投資目標。同時，她也提到，市場的不確定性將會持續存在，投資者需要保持警惕。克羅夫特的訪談提供了對市場趨勢和投資策略的重要見解，對投資者有所幫助。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "cce89126",
@@ -830,43 +830,19 @@
         "published_at": "2026-07-20 15:45:36",
         "summary_zh": "紐伯格伯曼私人財富部門的霍莉·紐曼·克羅夫特女士在今年下半年開始時，與CNBC的節目「Squawk on the Street」進行了討論。她告訴觀眾，目前市場充滿不確定性，建議投資者檢視他們的資產配置。克羅夫特女士表示，投資者應該保持謹慎，避免過度押注任何一隻股票或市場。同時，她也提到，投資者應該考慮多元化投資組合，以降低風險。克羅夫特女士的建議，旨在幫助投資者在市場不確定性下，保持穩健的投資策略。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
-        "id": "ed47f910",
-        "title": "觀看CNBC的完整訪談：Bessemer的Byron Deeter",
-        "url": "https://www.cnbc.com/video/2026/07/20/watch-cnbcas-full-interview-with-bessemeras-byron-deeter.html",
+        "id": "73d0ab9b",
+        "title": "約書亞布朗的最佳股票名單中有一家保險公司的表現亮眼",
+        "url": "https://www.cnbc.com/2026/07/20/theres-an-insurance-name-on-josh-browns-best-stocks-list-thats-been-a-homerun.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-07-20 14:53:22",
-        "summary_zh": "貝塞默投資夥伴Byron Deeter出席CNBC節目《街頭市場》時，討論了半導體行業的情況，尤其是關注中國在人工智慧領域的進展。他還探討了企業是否會因為中國人工智慧的成本優勢而採用它。半導體行業在全球經濟中的重要性日益凸顯，中國在人工智慧領域的快速發展引起了各界的關注。企業是否會因為成本優勢而採用中國的人工智慧技術，將是未來發展的關鍵。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d671f772",
-        "title": "美國股市華爾街上漲，晶片業績回暖和大型科技股財報吸引投資人關注",
-        "url": "https://www.reuters.com/pt/negocio/XDS2HP4T5RJ57DMSIUERTCL5LQ-2026-07-20/",
-        "source": "Reuters",
-        "category": "stock_us",
-        "published_at": "2026-07-20 14:33:43",
-        "summary_zh": "美國股市近日呈現上漲趨勢，主要受晶片業績回暖和大型科技股財報的影響。晶片業績的回暖是由於全球晶片需求的恢復，尤其是在汽車和工業應用領域。這使得晶片相關股票的股價上漲，例如英特爾和微軟等公司。另一方面，大型科技股的財報也引起了投資人的關注，例如亞馬遜、谷歌和微軟等公司的財報表現良好，股價也上漲。投資人認為，這些公司的財報表現是市場的良好信號，表明經濟正在恢復。然而，投資人也注意到市場的波動性，認為市場可能會在未來面臨挑戰。總體而言，美國股市的上漲趨勢是由於晶片業績回暖和大型科技股財報的影響，投資人需要密切關注市場的發展。",
+        "published_at": "2026-07-20 15:16:06",
+        "summary_zh": "約書亞布朗與肖恩魯索共同探討保險業的發展。根據布朗的最佳股票名單，某家保險公司的表現備受關注。該公司的股價表現出色，投資者對其未來前景感到樂觀。保險業的競爭日趨激烈，公司必須通過創新和優化業務來保持競爭力。布朗認為該公司的策略和管理團隊使其有競爭優勢。投資者應該關注該公司的財務報表和未來發展計畫。",
         "sentiment": "正面",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e64300d9",
-        "title": "中東緊張局勢升溫 美國股市多收跌",
-        "url": "https://www.cna.com.tw/news/afe/202607210011.aspx",
-        "source": "中央社財經",
-        "category": "stock_us",
-        "published_at": "Tue, 21 Jul 2026 06:19:23 +0800",
-        "summary_zh": "中東局勢緊張升溫，美國與伊朗的戰火升溫，同時推高國際油價。這種局勢對全球經濟產生重大影響，特別是對能源市場。美國股市早盤一度漲勢高漲，但隨後收斂，主要指數終場大多轉為下跌。這種市場反應表明投資者對未來的不確定性感到擔憂。中東局勢的發展將持續關注，投資者將密切關注油價的變化和美國股市的走勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ],
@@ -884,13 +860,49 @@
         "ai_classified": true
       },
       {
-        "id": "b3b504c7",
-        "title": "能源觀察：夏日無休息",
-        "url": "https://www.reuters.com/commentary/reuters-open-interest/energy-watch-no-summer-lull-2026-07-20/",
+        "id": "e51db8dd",
+        "title": "英國BT集團大股東出售大量股份逾2.24億美元",
+        "url": "https://www.reuters.com/legal/transactional/uks-bt-group-shareholder-sells-substantial-position-224-million-offering-2026-07-20/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-07-20 16:00:28",
-        "summary_zh": "能源市場在夏季並不會有所放鬆，反而是需求增加的季節。根據最新數據，全球能源需求在夏季會大幅增加，特別是在熱帶地區。這種需求增加會對能源供應產生壓力，從而影響能源價格。能源公司和政府正在努力增加能源供應，包括投資新能源項目和提高能源效率。然而，能源安全仍然是全球關注的問題。能源供應不足可能會導致能源價格上升，對經濟和環境造成負面影響。因此，能源市場在夏季的運作需要密切關注。",
+        "published_at": "2026-07-20 16:45:28",
+        "summary_zh": "英國電信公司BT集團的主要股東出售了大量股份，總價值逾2.24億美元。這項出售是由一家名為「Cinven Partners LLP」的投資公司負責。投資公司出售的股份佔BT集團總股份的約4.5%。這項出售將對BT集團的股價產生影響，投資者應密切關注。這項出售是由於投資公司希望出售部分股份以籌措資金。這項出售將對BT集團的未來發展產生影響，投資者應密切關注。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "1df21dd3",
+        "title": "美國戰略石油儲備石油儲備量降至1983年以來最低點",
+        "url": "https://www.reuters.com/business/energy/oil-stocks-us-strategic-petroleum-reserve-fall-by-51-million-barrels-lowest-2026-07-20/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-20 16:37:45",
+        "summary_zh": "美國戰略石油儲備的石油儲備量已經降至 5.1 萬桶，創下 1983 年以來的新低。根據美國能源部的數據，儲備量的下降是由於政府出售儲備石油所致。這項出售是為了籌集資金，幫助美國應對能源危機。儲備量的下降也引發了關注，美國是否能夠應對未來的能源危機。能源專家認為，儲備量的下降可能會對美國的能源安全造成影響。美國政府正在努力籌集資金，購買更多的石油儲備，以維持儲備量的穩定。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "3c9add30",
+        "title": "斯塔默盟友佔據了布倫漢姆解僱大多數人",
+        "url": "https://www.ft.com/content/551077f6-32a8-4564-a64a-2b123f3356be",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-07-20 16:33:17",
+        "summary_zh": "英國工黨領袖克里斯·斯塔默的盟友在布倫漢姆市長的解僱中佔據了大多數席位。根據最新的消息，布倫漢姆市長安德魯·布倫漢姆被解僱，理由是他對工黨領袖克里斯·斯塔默的支持不夠。這一事件引起了工黨內部的爭議，許多人認為這是一個政治上的政治動作。布倫漢姆市長的解僱將會對工黨的內部政治造成重大影響，可能會導致黨內的分裂。這一事件也會對未來的選舉產生影響，工黨需要重新檢視自己的政治策略和團隊結構。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "bf2b3a7e",
+        "title": "ASML 將為員工提供 20,000 歐元的獎金",
+        "url": "https://www.reuters.com/pt/tecnologia/GFQDHOP5ORLZ5BNRTY2FKLVXJ4-2026-07-20/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-20 16:30:31",
+        "summary_zh": "荷蘭半導體製造商 ASML 宣布，為鼓勵員工留任，將提供 20,000 歐元的獎金給那些在 2027 年至 2030 年間繼續在公司工作的員工。這項獎金政策旨在應對業界的人才短缺問題。 ASML 是全球最大的半導體製造設備製造商之一，供應商包括 Apple、Samsung 等知名企業。該公司的員工福利和留任政策受到業界關注。這項獎金政策的影響尚待觀察，但它可能會對業界的人才競爭和留任率產生影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -904,44 +916,8 @@
         "published_at": "Tue, 21 Jul 2026 11:40:10 +0800",
         "summary_zh": "摩根大通執行長戴蒙表示，投資人忽略了全球經濟面臨的風險。他認為，目前市場的價位過高，自己不會購買股票或美國長期公債。戴蒙的警告是針對目前市場的狀況，他認為投資人需要更加謹慎，考慮風險和回報的平衡。這個消息對市場有著重要影響，投資人需要重新評估投資策略。戴蒙的意見可能會對市場造成一定的波動，投資人需要保持謹慎的態度。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "3cfe396a",
-        "title": "私人投資者必須大量投資國防以填補公共資金缺口，執行官表示",
-        "url": "https://www.reuters.com/legal/transactional/private-investors-must-pile-cash-into-defence-fill-public-funding-gap-executives-2026-07-20/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-20 15:55:21",
-        "summary_zh": "根據最新的報告，私人投資者被要求填補國防資金的缺口，因為公共資金不足以滿足國防需求。這些執行官認為，私人投資者需要大量投資國防，以填補公共資金的缺口。這種情況出現在許多國家，包括美國和英國。私人投資者可以通過投資國防公司或購買國防股票來填補資金缺口。然而，這種投資也帶來風險，因為國防公司的收益可能受到政治和經濟變化的影響。這些執行官認為，私人投資者需要仔細評估投資國防的風險和收益，以確保投資的安全和收益。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "d8672928",
-        "title": "午市最大幅度波動股：AMD、Archer Aviation、SpaceX、Iren 等",
-        "url": "https://www.cnbc.com/2026/07/20/stocks-making-the-biggest-moves-midday-amd-achr-spcx-iren.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-20 15:52:30",
-        "summary_zh": "午市交易中，AMD、Archer Aviation、SpaceX、Iren 等股價出現最大幅度波動。這些公司的股價變化受到市場投資者的關注。AMD 的股價因為市場預期而上漲，而 Archer Aviation 的股價則因為市場預期而下跌。SpaceX 的股價因為市場預期而上漲，而 Iren 的股價則因為市場預期而下跌。這些股價變化對市場投資者產生了影響，需要密切關注。投資者需要考慮這些公司的財務狀況、市場趨勢和競爭環境等因素來做出投資決策。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "db307792",
-        "title": "美國上訴法院撤銷對波音的集體訴訟案件證明書",
-        "url": "https://www.reuters.com/pt/negocio/L2WFFGVQWFJ4TDDBYTAZC75SII-2026-07-20/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-20 15:42:20",
-        "summary_zh": "美國上訴法院最近撤銷了一項對波音的集體訴訟案件證明書，這項證明書是針對波音 MAX 9 飛機的安全事件而起。這項決定可能會對波音的未來營運產生影響。波音 MAX 9 飛機在過去的幾年中因為安全事件而受到廣泛關注，包括一系列的空難事件。波音公司曾經承諾會改善飛機的安全性，並且進行了大量的升級和改善工作。然而，這項撤銷證明書的決定可能會讓波音公司面臨新的挑戰和風險。波音公司的股價可能會受到這項決定的影響，投資者需要密切關注波音公司的未來發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true,
+        "ai_classified": true
       }
     ]
   },
