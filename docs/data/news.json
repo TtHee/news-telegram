@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-21T19:04:32.346038+08:00",
+  "generated_at": "2026-07-21T20:04:29.429139+08:00",
   "risk_signals": [
     "🟢 台股加權 44232.87（正常）",
     "🟢 S&P 500 7443.28（正常）",
-    "🟢 VIX 恐慌指數 17.62（正常）",
+    "🟢 VIX 恐慌指數 17.74（正常）",
     "🟢 MOVE 債市波動 70.88（正常）",
-    "🟢 美元指數 100.94（正常）",
-    "🟢 黃金 4070.1（正常）",
+    "🟢 美元指數 100.99（正常）",
+    "🟢 黃金 4061.1（正常）",
     "🟡 美債10Y殖利率 4.6（留意）",
-    "🟢 原油 WTI 83.19（正常）",
+    "🟢 原油 WTI 83.91（正常）",
     "🟢 美元/台幣 32.31（正常）"
   ],
-  "ai_summary": "市場目前呈穩定的狀態，各大指標均處於正常範圍。然而，美債10年殖利率略有上升，值得關注。整體來說，市場風險似乎在逐漸增加。",
+  "ai_summary": "市場氛圍保持穩定，指數表現良好，美元指數和黃金價格維持正常水準，但美債10年殖利率稍有上升，需要留意。",
   "market": {
     "TWII": {
       "price": 44232.87,
@@ -26,8 +26,8 @@
       "change_pct": -0.05
     },
     "VIX": {
-      "price": 17.62,
-      "change_pct": -5.52
+      "price": 17.74,
+      "change_pct": -4.88
     },
     "TNX": {
       "price": 4.6,
@@ -38,83 +38,95 @@
       "change_pct": 3.99
     },
     "DXY": {
-      "price": 100.94,
-      "change_pct": -0.05
+      "price": 100.99,
+      "change_pct": -0.0
     },
     "GOLD": {
-      "price": 4070.1,
-      "change_pct": 1.49
+      "price": 4061.1,
+      "change_pct": 1.27
     },
     "OIL": {
-      "price": 83.19,
-      "change_pct": -0.05
+      "price": 83.91,
+      "change_pct": 0.82
     },
     "USDTWD": {
       "price": 32.31,
-      "change_pct": -0.02
+      "change_pct": 0.01
     }
   },
   "macro": {},
   "categories": {
     "global": [
       {
+        "id": "28462b53",
+        "title": "印度抗議活動持續一天後，警方強力鎮壓",
+        "url": "https://www.bbc.co.uk/news/articles/c98v349r9lro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 21 Jul 2026 08:44:43 GMT",
+        "summary_zh": "印度首都新德里昨天（星期一）出現了嚴重的暴力事件，至少有60名抗議者受傷。警方表示，至少有118名警員也受傷。這次抗議活動被稱為「蟑螂抗議」，原因尚不清楚。抗議者與警方的衝突持續發生，造成雙方傷亡。這次事件的背景是印度政府的政策變化，引起了民眾的不滿。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "c3cbac71",
         "title": "川普對加拿大進口商品徵收 50% 進口稅",
         "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "global",
-        "published_at": "Tue, 21 Jul 2026 09:16:21 GMT",
+        "published_at": "Tue, 21 Jul 2026 11:42:41 GMT",
         "summary_zh": "美國總統川普宣布對加拿大進口商品徵收 50% 進口稅，這標誌著北美鄰國貿易緊張局勢的重大升級。這一決定可能會對加拿大出口業造成重大影響，同時也會加劇北美貿易關係的緊張。加拿大政府已經表示將對美國商品徵收相應的稅款，以維護國內出口業的利益。這一事件將對北美貿易關係產生重大影響，可能會導致雙方貿易額的減少。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "ea2afd6e",
-        "title": "黎巴嫩軍隊表示部隊部署在「試驗區」後以色列撤軍",
-        "url": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "73613045",
+        "title": "為何千百人在印度要求教育改革?",
+        "url": "https://www.bbc.co.uk/news/articles/cedj9j911p8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "Tue, 21 Jul 2026 10:43:48 GMT",
-        "summary_zh": "黎巴嫩軍隊宣布部署部隊在與以色列達成的美國斡旋協議後，該協議規定以色列軍隊將從該國佔領的區域撤軍。這片區域被稱為「試驗區」，是由於以色列與真主黨組織（Hezbollah）之間的衝突而佔領的。黎巴嫩軍隊的部署是為了維持該區域的穩定，並確保以色列軍隊的撤軍順暢進行。這一發展被視為黎巴嫩與以色列之間關係的改善，同時也表明美國在中東地區的外交努力正在取得成果。然而，黎巴嫩軍隊的部署也引發了對該區域未來控制權的擔憂。",
+        "published_at": "Tue, 21 Jul 2026 10:01:59 GMT",
+        "summary_zh": "近日，印度數千名年輕人聚集在印度國會大廈前，要求教育體系進行改革。這些年輕人認為，印度的教育體系存在著多個問題，包括教材不合理、教師不足、資源分配不均等問題。政府在教育領域的政策也被指責為不合理，導致學生們對教育體系感到失望和不滿。這次示威活動表明，印度的年輕人開始關注教育問題，並要求政府為改善教育體系做出實際行動。這一事件也引起了社會各界的關注，許多人認為，教育改革是印度發展的關鍵問題。",
         "sentiment": "中性",
         "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": false
       },
       {
-        "id": "48855838",
-        "title": "也門胡提派宣布對沙特阿拉伯實施「海上禁運」",
-        "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "54e9ae10",
+        "title": "中國海警與菲律賓海軍船隻發生衝突視頻曝光",
+        "url": "https://www.bbc.co.uk/news/videos/c9w0l50wegzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "Mon, 20 Jul 2026 21:30:19 GMT",
-        "summary_zh": "也門胡提派宣布對沙特阿拉伯實施「海上禁運」，這是對沙特對也門港口和機場實施封鎖的回應。胡提派表示，這項禁運立即生效。胡提派的這一行動是也門內戰的最新發展，胡提派和沙特阿拉伯之間的緊張關係持續加劇。這項禁運對兩國的經濟和政治關係都會產生重大影響。也門內戰已經持續了多年，胡提派和政府軍之間的戰鬥仍在繼續。",
+        "published_at": "Tue, 21 Jul 2026 03:58:21 GMT",
+        "summary_zh": "菲律賓武裝部隊表示，中國海警人員似乎使用木棍敲打菲律賓海軍船隻上的某人。這場衝突發生在南海，該地區存在長期的領土爭議。中國海警船隻和菲律賓海軍船隻在該地區進行巡邏，雙方關係緊張。這次事件可能會加劇兩國之間的緊張關係。菲律賓政府已經對此事件表示關注，並要求中國海警船隻立即離開菲律賓領海。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "0bb48e31",
-        "title": "116人在圭亞那海岸遭遇輪船沉沒事故，當局已救出53人",
-        "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "8ef780d5",
+        "title": "阿富汗洪水至少20人死亡超過100人失蹤",
+        "url": "https://www.bbc.co.uk/news/articles/cj03rr03008o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "Tue, 21 Jul 2026 02:07:48 GMT",
-        "summary_zh": "圭亞那海岸發生了一宗嚴重的輪船沉沒事故，據當局報導，當地一艘輪船在前往Port Kaituma的途中，於途經Georgetown之間沉沒，造成116名乘客受困。截至目前，已經成功救出53名乘客。當局正在進行緊急救援行動，試圖挽救更多生還者。這起事故引起了圭亞那政府的關注，當局已經派出救援隊伍和醫療人員到現場協助救援工作。圭亞那政府已經承諾會盡一切力量幫助受影響的家庭和乘客。這宗事故的影響可能會遠超出圭亞那本身，會對當地的旅游業和經濟造成重大影響。",
+        "published_at": "Tue, 21 Jul 2026 02:20:03 GMT",
+        "summary_zh": "阿富汗因為氣候變化的極端影響而成為最脆弱的國家之一。阿富汗洪水的災情持續惡化，至少20人死亡，超過100人失蹤。洪水造成的破壞令人震驚，許多房屋和建築物被沖毀。阿富汗政府已經派出救援隊伍進行搜救和援助工作。這次洪水的影響將會持續很長時間，阿富汗人民將面臨嚴重的挑戰。氣候變化對阿富汗的影響已經非常明顯，政府和國際社會需要共同努力來應對這種威脅。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "489e85ad",
-        "title": "澳洲出現罕見的四胞胎姐妹",
-        "url": "https://www.bbc.co.uk/news/articles/cx2jnj3428lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "b2fbfe6c",
+        "title": "如果人們知道了蜱蟲的真面目",
+        "url": "https://www.bbc.co.uk/news/articles/cj6g03567edo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "Mon, 20 Jul 2026 12:57:32 GMT",
-        "summary_zh": "澳洲一對夫婦因為懷孕而感到「無比驚訝」。根據醫院的說法，這四個自然懷孕的女嬰是罕見的四胞胎姐妹。這對夫婦的懷孕是意外的，醫院表示這是一個罕見的事件。四胞胎姐妹的出生對於醫療團隊來說是一個挑戰，醫院的醫生和護士都會盡全力照顧這四個嬰兒。這個事件也引起了媒體的關注，許多人都在關注這四個嬰兒的健康和成長。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "published_at": "Mon, 20 Jul 2026 18:01:00 GMT",
+        "summary_zh": "近年來，澳洲東岸出現了一種名為「哺乳動物肉類過敏」的問題，這種過敏是由於蜱蟲叮咬引起的。根據報告，這種過敏正在澳洲東岸迅速擴散，許多人已經受到影響。研究人員正在努力了解這種過敏的成因和影響，並尋找有效的治療方法。這種過敏可能導致嚴重的食物過敏反應，甚至可能威脅生命。因此，了解這種過敏的真面目並採取預防措施非常重要。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -125,18 +137,6 @@
         "category": "global",
         "published_at": "Mon, 20 Jul 2026 21:03:24 GMT",
         "summary_zh": "伊斯梅爾·薩姆巴達（Ismael Zambada）被稱為「埃爾·馬約」（El Mayo），他曾幫助建立墨西哥的辛那羅亞毒品走私集團（Sinaloa Cartel）。薩姆巴達承認將大量的可卡因和其他毒品運送到美國。這項判決標誌著美國對墨西哥毒品走私集團的打擊行動的一個重要成果。薩姆巴達的判決將對墨西哥毒品走私集團的活動產生重大影響。美國政府的打擊行動將繼續針對墨西哥毒品走私集團的領袖和成員。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "00b76858",
-        "title": "俄羅斯在黑海攻擊商船加劇，至少10人喪生",
-        "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 20 Jul 2026 16:10:38 GMT",
-        "summary_zh": "俄羅斯對烏克蘭黑海沿岸地區的攻擊持續加劇，據當地當局稱，7月份已經造成28人喪生。最近一波攻擊針對商船，至少10人喪生。這些攻擊引發了國際社會的關注，烏克蘭政府呼籲國際社會採取行動制止俄羅斯的侵略行為。黑海地區的安全局勢持續惡化，商船和民眾的生命安全受到威脅。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -161,78 +161,6 @@
         "category": "global",
         "published_at": "2026-07-20 16:43:45",
         "summary_zh": "烏克蘭總統澤連斯基在烏克蘭東部會見軍事指揮官，同時街頭抗議活動持續升高。抗議者要求政府解決能源危機和糧食短缺等問題。烏克蘭政府正在努力應對俄羅斯入侵帶來的挑戰。抗議活動的升高可能會對烏克蘭的政治局勢產生影響。烏克蘭的經濟和安全面臨著嚴重挑戰。烏克蘭政府需要採取有效措施來應對這些挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "981db322",
-        "title": "印度警方阻擋數千名抗議者衝擊國會大廈",
-        "url": "https://www.bbc.co.uk/news/articles/cvg9w9dxd7lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 20 Jul 2026 16:26:40 GMT",
-        "summary_zh": "印度近日爆發一場教育改革抗議運動，數千名抗議者試圖衝擊國會大廈，但遭警方阻擋。有抗議者表示，在與警方的衝突中受傷。這場抗議運動的原因是政府未能滿足學生的教育需求，抗議者要求政府改善教育系統。警方的行動引起了爭議，許多人批評警方的過度使用武力。抗議運動的影響尚未完全明朗，但已經引起了社會的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4575371b",
-        "title": "哈馬斯宣布哈利勒·哈雅亞為新總領袖",
-        "url": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 20 Jul 2026 14:02:31 GMT",
-        "summary_zh": "哈馬斯宣布哈利勒·哈雅亞（Khalil al-Hayya）為新總領袖，取代前總領袖哈雅·辛瓦爾（Yahya Sinwar），後者於2024年在加沙被以色列軍隊殺害。哈雅·辛瓦爾曾擔任哈馬斯在加沙的領導人，並負責與以色列進行談判。哈利勒·哈雅亞目前擔任哈馬斯在卡塔爾的首席談判代表。哈馬斯的領導人變動將對中東地區的政治局勢產生重大影響。哈馬斯是一個伊斯蘭主義政黨，與以色列政府有著長期的對立關係。哈馬斯的領導人變動將對地區的安全和穩定度產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7beafdff",
-        "title": "熱帶風暴貝爾塔向陸地移動，東太平洋形成颶風法斯托",
-        "url": "https://www.theguardian.com/us-news/2026/jul/20/bertha-tropical-depression-us-gulf-coast",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Tue, 21 Jul 2026 02:05:29 GMT",
-        "summary_zh": "熱帶風暴貝爾塔可能在美國墨西哥灣沿岸帶來大量降雨，其中心位於佛羅里達州帕納馬城南方約110英里。熱帶風暴貝爾塔於週一晚間在墨西哥灣南部形成，向人口密集的沿岸地區移動，威脅著大量降雨、潮汐升高和強風。與此同時，在東太平洋洋面上，颶風法斯托形成，距離墨西哥巴哈卡利福尼亞半島遠處，對陸地沒有威脅。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a8c5aff9",
-        "title": "美國國務院攻擊美國左派：將多名活動家和組織列為「前線組織和同路人」",
-        "url": "https://www.theguardian.com/world/2026/jul/20/us-state-department-list-leftists-cuba",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 20 Jul 2026 22:50:46 GMT",
-        "summary_zh": "美國國務院最新報告指責古巴政府為「21世紀共產主義的首都」，並稱古巴政府正在美國政府各個層級進行「顛覆運動」，招募和培養了數代美國活動家，並在美國本土推動了左派恐怖主義的前所未有波動。報告還將多名活動家和組織列為古巴的「前線組織和同路人」，包括 Hasan Piker 和 Amazon Labor Union 創辦人 Chris Smalls。這份報告是川普政府對左派團體的持續攻擊的一部分。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5571665c",
-        "title": "尼加拉瓜總統宣布不再舉行選舉",
-        "url": "https://www.theguardian.com/world/2026/jul/20/nicaraguas-president-says-country-will-not-hold-any-more-elections",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 20 Jul 2026 21:36:47 GMT",
-        "summary_zh": "尼加拉瓜長期執政的總統丹尼爾·奧爾特加（Daniel Ortega）宣布，該國不會再舉行選舉，以防止反對派取得權力。奧爾特加自 2007 年上任以來一直掌權，今年 80 歲。奧爾特加還表示，他將與控制國會的自己合作，通過新的法律來阻止反對派。這些法律被稱為「建造一道牆」，以防止反對派取得權力。這一決定引發了對尼加拉瓜民主進程的擔憂。尼加拉瓜的反對派人士批評奧爾特加的決定是對民主的背叛。這一行動可能會加劇尼加拉瓜的政治緊張局勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "87f5e9bf",
-        "title": "美國第十輪攻擊伊朗，伊朗總統稱伊朗處於「全面戰爭」",
-        "url": "https://www.theguardian.com/world/2026/jul/20/us-strikes-iran-strait-of-hormuz-oil-prices",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Mon, 20 Jul 2026 20:19:46 GMT",
-        "summary_zh": "美國第十輪攻擊伊朗，試圖迫使伊朗重新開放霍爾木茲海峽。伊朗總統稱伊朗處於「全面戰爭」狀態，美國和伊朗之間的緊張局勢持續升級。雖然雙方正在進行談判，試圖降低緊張情緒，但美國總統川普仍然表示將對伊朗的攻擊做出回應。美國軍方表示，美國第十輪攻擊伊朗是為了迫使伊朗重新開放霍爾木茲海峽，該海峽是全球石油輸送的重要通道。伊朗總統的話語表明，伊朗願意對美國的攻擊做出回應，美國和伊朗之間的緊張局勢可能會持續升級。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -274,37 +202,133 @@
         "ai_classified": true
       },
       {
-        "id": "54e9ae10",
-        "title": "中國海警與菲律賓海軍船隻發生衝突視頻曝光",
-        "url": "https://www.bbc.co.uk/news/videos/c9w0l50wegzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "id": "ea2afd6e",
+        "title": "黎巴嫩軍隊表示部隊部署在「試驗區」後以色列撤軍",
+        "url": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "global",
-        "published_at": "Tue, 21 Jul 2026 03:58:21 GMT",
-        "summary_zh": "菲律賓武裝部隊表示，中國海警人員似乎使用木棍敲打菲律賓海軍船隻上的某人。這場衝突發生在南海，該地區存在長期的領土爭議。中國海警船隻和菲律賓海軍船隻在該地區進行巡邏，雙方關係緊張。這次事件可能會加劇兩國之間的緊張關係。菲律賓政府已經對此事件表示關注，並要求中國海警船隻立即離開菲律賓領海。",
+        "published_at": "Tue, 21 Jul 2026 10:43:48 GMT",
+        "summary_zh": "黎巴嫩軍隊宣布部署部隊在與以色列達成的美國斡旋協議後，該協議規定以色列軍隊將從該國佔領的區域撤軍。這片區域被稱為「試驗區」，是由於以色列與真主黨組織（Hezbollah）之間的衝突而佔領的。黎巴嫩軍隊的部署是為了維持該區域的穩定，並確保以色列軍隊的撤軍順暢進行。這一發展被視為黎巴嫩與以色列之間關係的改善，同時也表明美國在中東地區的外交努力正在取得成果。然而，黎巴嫩軍隊的部署也引發了對該區域未來控制權的擔憂。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "48855838",
+        "title": "也門胡提派宣布對沙特阿拉伯實施「海上禁運」",
+        "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 20 Jul 2026 21:30:19 GMT",
+        "summary_zh": "也門胡提派宣布對沙特阿拉伯實施「海上禁運」，這是對沙特對也門港口和機場實施封鎖的回應。胡提派表示，這項禁運立即生效。胡提派的這一行動是也門內戰的最新發展，胡提派和沙特阿拉伯之間的緊張關係持續加劇。這項禁運對兩國的經濟和政治關係都會產生重大影響。也門內戰已經持續了多年，胡提派和政府軍之間的戰鬥仍在繼續。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "8ef780d5",
-        "title": "阿富汗洪水至少20人死亡超過100人失蹤",
-        "url": "https://www.bbc.co.uk/news/articles/cj03rr03008o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "id": "0bb48e31",
+        "title": "116人在圭亞那海岸遭遇輪船沉沒事故，當局已救出53人",
+        "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "global",
-        "published_at": "Tue, 21 Jul 2026 02:20:03 GMT",
-        "summary_zh": "阿富汗因為氣候變化的極端影響而成為最脆弱的國家之一。阿富汗洪水的災情持續惡化，至少20人死亡，超過100人失蹤。洪水造成的破壞令人震驚，許多房屋和建築物被沖毀。阿富汗政府已經派出救援隊伍進行搜救和援助工作。這次洪水的影響將會持續很長時間，阿富汗人民將面臨嚴重的挑戰。氣候變化對阿富汗的影響已經非常明顯，政府和國際社會需要共同努力來應對這種威脅。",
+        "published_at": "Tue, 21 Jul 2026 02:07:48 GMT",
+        "summary_zh": "圭亞那海岸發生了一宗嚴重的輪船沉沒事故，據當局報導，當地一艘輪船在前往Port Kaituma的途中，於途經Georgetown之間沉沒，造成116名乘客受困。截至目前，已經成功救出53名乘客。當局正在進行緊急救援行動，試圖挽救更多生還者。這起事故引起了圭亞那政府的關注，當局已經派出救援隊伍和醫療人員到現場協助救援工作。圭亞那政府已經承諾會盡一切力量幫助受影響的家庭和乘客。這宗事故的影響可能會遠超出圭亞那本身，會對當地的旅游業和經濟造成重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "b2fbfe6c",
-        "title": "如果人們知道了蜱蟲的真面目",
-        "url": "https://www.bbc.co.uk/news/articles/cj6g03567edo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "id": "489e85ad",
+        "title": "澳洲出現罕見的四胞胎姐妹",
+        "url": "https://www.bbc.co.uk/news/articles/cx2jnj3428lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
         "category": "global",
-        "published_at": "Mon, 20 Jul 2026 18:01:00 GMT",
-        "summary_zh": "近年來，澳洲東岸出現了一種名為「哺乳動物肉類過敏」的問題，這種過敏是由於蜱蟲叮咬引起的。根據報告，這種過敏正在澳洲東岸迅速擴散，許多人已經受到影響。研究人員正在努力了解這種過敏的成因和影響，並尋找有效的治療方法。這種過敏可能導致嚴重的食物過敏反應，甚至可能威脅生命。因此，了解這種過敏的真面目並採取預防措施非常重要。",
+        "published_at": "Mon, 20 Jul 2026 12:57:32 GMT",
+        "summary_zh": "澳洲一對夫婦因為懷孕而感到「無比驚訝」。根據醫院的說法，這四個自然懷孕的女嬰是罕見的四胞胎姐妹。這對夫婦的懷孕是意外的，醫院表示這是一個罕見的事件。四胞胎姐妹的出生對於醫療團隊來說是一個挑戰，醫院的醫生和護士都會盡全力照顧這四個嬰兒。這個事件也引起了媒體的關注，許多人都在關注這四個嬰兒的健康和成長。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "00b76858",
+        "title": "俄羅斯在黑海攻擊商船加劇，至少10人喪生",
+        "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 20 Jul 2026 16:10:38 GMT",
+        "summary_zh": "俄羅斯對烏克蘭黑海沿岸地區的攻擊持續加劇，據當地當局稱，7月份已經造成28人喪生。最近一波攻擊針對商船，至少10人喪生。這些攻擊引發了國際社會的關注，烏克蘭政府呼籲國際社會採取行動制止俄羅斯的侵略行為。黑海地區的安全局勢持續惡化，商船和民眾的生命安全受到威脅。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7beafdff",
+        "title": "熱帶風暴貝爾塔向陸地移動，東太平洋形成颶風法斯托",
+        "url": "https://www.theguardian.com/us-news/2026/jul/20/bertha-tropical-depression-us-gulf-coast",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Tue, 21 Jul 2026 02:05:29 GMT",
+        "summary_zh": "熱帶風暴貝爾塔可能在美國墨西哥灣沿岸帶來大量降雨，其中心位於佛羅里達州帕納馬城南方約110英里。熱帶風暴貝爾塔於週一晚間在墨西哥灣南部形成，向人口密集的沿岸地區移動，威脅著大量降雨、潮汐升高和強風。與此同時，在東太平洋洋面上，颶風法斯托形成，距離墨西哥巴哈卡利福尼亞半島遠處，對陸地沒有威脅。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "981db322",
+        "title": "印度警方阻擋數千名抗議者衝擊國會大廈",
+        "url": "https://www.bbc.co.uk/news/articles/cvg9w9dxd7lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 20 Jul 2026 16:26:40 GMT",
+        "summary_zh": "印度近日爆發一場教育改革抗議運動，數千名抗議者試圖衝擊國會大廈，但遭警方阻擋。有抗議者表示，在與警方的衝突中受傷。這場抗議運動的原因是政府未能滿足學生的教育需求，抗議者要求政府改善教育系統。警方的行動引起了爭議，許多人批評警方的過度使用武力。抗議運動的影響尚未完全明朗，但已經引起了社會的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4575371b",
+        "title": "哈馬斯宣布哈利勒·哈雅亞為新總領袖",
+        "url": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 20 Jul 2026 14:02:31 GMT",
+        "summary_zh": "哈馬斯宣布哈利勒·哈雅亞（Khalil al-Hayya）為新總領袖，取代前總領袖哈雅·辛瓦爾（Yahya Sinwar），後者於2024年在加沙被以色列軍隊殺害。哈雅·辛瓦爾曾擔任哈馬斯在加沙的領導人，並負責與以色列進行談判。哈利勒·哈雅亞目前擔任哈馬斯在卡塔爾的首席談判代表。哈馬斯的領導人變動將對中東地區的政治局勢產生重大影響。哈馬斯是一個伊斯蘭主義政黨，與以色列政府有著長期的對立關係。哈馬斯的領導人變動將對地區的安全和穩定度產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "87f5e9bf",
+        "title": "美國第十輪攻擊伊朗，伊朗總統稱伊朗處於「全面戰爭」",
+        "url": "https://www.theguardian.com/world/2026/jul/20/us-strikes-iran-strait-of-hormuz-oil-prices",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Mon, 20 Jul 2026 20:19:46 GMT",
+        "summary_zh": "美國第十輪攻擊伊朗，試圖迫使伊朗重新開放霍爾木茲海峽。伊朗總統稱伊朗處於「全面戰爭」狀態，美國和伊朗之間的緊張局勢持續升級。雖然雙方正在進行談判，試圖降低緊張情緒，但美國總統川普仍然表示將對伊朗的攻擊做出回應。美國軍方表示，美國第十輪攻擊伊朗是為了迫使伊朗重新開放霍爾木茲海峽，該海峽是全球石油輸送的重要通道。伊朗總統的話語表明，伊朗願意對美國的攻擊做出回應，美國和伊朗之間的緊張局勢可能會持續升級。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a8c5aff9",
+        "title": "美國國務院攻擊美國左派：將多名活動家和組織列為「前線組織和同路人」",
+        "url": "https://www.theguardian.com/world/2026/jul/20/us-state-department-list-leftists-cuba",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 20 Jul 2026 22:50:46 GMT",
+        "summary_zh": "美國國務院最新報告指責古巴政府為「21世紀共產主義的首都」，並稱古巴政府正在美國政府各個層級進行「顛覆運動」，招募和培養了數代美國活動家，並在美國本土推動了左派恐怖主義的前所未有波動。報告還將多名活動家和組織列為古巴的「前線組織和同路人」，包括 Hasan Piker 和 Amazon Labor Union 創辦人 Chris Smalls。這份報告是川普政府對左派團體的持續攻擊的一部分。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5571665c",
+        "title": "尼加拉瓜總統宣布不再舉行選舉",
+        "url": "https://www.theguardian.com/world/2026/jul/20/nicaraguas-president-says-country-will-not-hold-any-more-elections",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 20 Jul 2026 21:36:47 GMT",
+        "summary_zh": "尼加拉瓜長期執政的總統丹尼爾·奧爾特加（Daniel Ortega）宣布，該國不會再舉行選舉，以防止反對派取得權力。奧爾特加自 2007 年上任以來一直掌權，今年 80 歲。奧爾特加還表示，他將與控制國會的自己合作，通過新的法律來阻止反對派。這些法律被稱為「建造一道牆」，以防止反對派取得權力。這一決定引發了對尼加拉瓜民主進程的擔憂。尼加拉瓜的反對派人士批評奧爾特加的決定是對民主的背叛。這一行動可能會加劇尼加拉瓜的政治緊張局勢。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -312,28 +336,16 @@
     ],
     "ai": [
       {
-        "id": "522573c7",
-        "title": "索尼音樂控告 Udio AI 音樂生成器侵犯 3 萬首歌曲版權",
-        "url": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
-        "source": "The Verge AI",
+        "id": "df45f6b1",
+        "title": "推動下一代人工智慧的材料科學創新",
+        "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
+        "source": "MIT Tech Review",
         "category": "ai",
-        "published_at": "2026-07-20T18:19:12-04:00",
-        "summary_zh": "索尼音樂娛樂公司在紐約法院提出訴訟，指控 Udio 的 AI 音樂生成器侵犯了超過 3 萬首歌曲的版權，包括艾維斯·普雷斯利的《hound dog》、碧昂絲的《say my name》以及哈里·史泰爾斯的《as it was》等。索尼音樂認為 Udio 的 AI 音樂生成器侵犯了其歌曲的版權，並要求法院下令 Udio 停止使用這些歌曲。這項訴訟可能會對 AI 音樂生成器產生重大影響，進一步加劇了音樂產業對 AI 技術的擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d8893f7b",
-        "title": "阿道夫的「自然風格」相機應用程式採用生成式人工智慧",
-        "url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-20T12:00:00-04:00",
-        "summary_zh": "阿道夫的試驗性相機應用程式走向意外的轉變。去年推出的 Project Indigo 將 iPhone 相機的拍攝效果提升至「更自然（SLR-like）風格」，現在 Indigo 相機應用程式正被更新，內建一系列生成式人工智慧工具。這次改動並不依靠阿道夫自己的 Firefly 人工智慧模型。阿道夫形容這次更新將為使用者提供更豐富的創作選擇。這些新工具將能夠幫助使用者在照片中添加或修改元素，例如背景、光線、色彩等。這一變革將使使用者能夠更輕鬆地創作出獨特的照片效果。",
+        "published_at": "Tue, 21 Jul 2026 10:37:34 +0000",
+        "summary_zh": "人工智慧的發展往往聚焦在演算法、計算能力或是對新一代半導體製造廠和超大型資料中心的投資上。但是，所有這些進步背後都有一層創新的材料科學。每一代人工智慧技術都需要更多的處理能力、更多的記憶體、更高的能效和……材料科學的突破是人工智慧發展的關鍵。材料科學的創新可以提供更高的熱導率、更高的導電率和更高的強度等特性，從而使人工智慧系統的能效提高和成本降低。這些材料科學的突破將對人工智慧的發展產生重大影響，將使人工智慧系統更為高效、更為可靠和更為安全。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "8be5752a",
@@ -358,9 +370,117 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "522573c7",
+        "title": "索尼音樂控告 Udio AI 音樂生成器侵犯 3 萬首歌曲版權",
+        "url": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-20T18:19:12-04:00",
+        "summary_zh": "索尼音樂娛樂公司在紐約法院提出訴訟，指控 Udio 的 AI 音樂生成器侵犯了超過 3 萬首歌曲的版權，包括艾維斯·普雷斯利的《hound dog》、碧昂絲的《say my name》以及哈里·史泰爾斯的《as it was》等。索尼音樂認為 Udio 的 AI 音樂生成器侵犯了其歌曲的版權，並要求法院下令 Udio 停止使用這些歌曲。這項訴訟可能會對 AI 音樂生成器產生重大影響，進一步加劇了音樂產業對 AI 技術的擔憂。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d8893f7b",
+        "title": "阿道夫的「自然風格」相機應用程式採用生成式人工智慧",
+        "url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-20T12:00:00-04:00",
+        "summary_zh": "阿道夫的試驗性相機應用程式走向意外的轉變。去年推出的 Project Indigo 將 iPhone 相機的拍攝效果提升至「更自然（SLR-like）風格」，現在 Indigo 相機應用程式正被更新，內建一系列生成式人工智慧工具。這次改動並不依靠阿道夫自己的 Firefly 人工智慧模型。阿道夫形容這次更新將為使用者提供更豐富的創作選擇。這些新工具將能夠幫助使用者在照片中添加或修改元素，例如背景、光線、色彩等。這一變革將使使用者能夠更輕鬆地創作出獨特的照片效果。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "72447bf1",
+        "title": "台新證券遭罰360萬元 金管會限期提改善方案",
+        "url": "https://www.cna.com.tw/news/afe/202607210324.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Jul 2026 18:48:37 +0800",
+        "summary_zh": "台新證券今年4月6日合併元富證券後，電子交易系統頻出錯，顯示台新證券未落實內控。金管會祭出警告並開罰新台幣360萬元，創下券商歷年最高裁罰金額。台新證券將被限制業務3個月，並要求提出具體短、中、長期系統改善方案。金管會要求台新證券全面檢討缺失，並在3個月內提出具體方案。這次事件顯示台新證券的內控制度存在問題，需要進行改善。金管會的處理方式表明對券商的監管更加嚴格。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "274aea7d",
+        "title": "系統出錯遭罰360萬 台新證券致歉：積極檢討改善",
+        "url": "https://www.cna.com.tw/news/afe/202607210322.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Jul 2026 18:45:33 +0800",
+        "summary_zh": "金管會今天對台新證券與元富證券4月6日合併後發生多次系統問題，開罰台新證券新台幣360萬元罰鍰。台新證券表示，將積極檢討改善，以具體作為回應外界期待。這次系統問題對市場造成了不小的影響，台新證券的誠信和可靠性也受到質疑。金管會的開罰是對台新證券的警告和懲罰，同時也希望台新證券能夠積極改善系統問題，恢復市場的信任。台新證券的改善措施將是關鍵，是否能夠有效改善系統問題，還需要觀察其後續的行動。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1b1a3c6d",
+        "title": "台積電2027漲晶片價格 基本漲幅5%至10% ",
+        "url": "https://www.cna.com.tw/news/afe/202607210321.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Jul 2026 18:44:30 +0800",
+        "summary_zh": "台積電預計於2027年調漲先進和成熟製程的晶圓代工服務價格。根據多位消息人士透露，漲幅最高可達10%。這一調整是為了反映材料、製造設備和海外擴廠成本持續上升。這一決定對於全球晶片供應鏈將產生重大影響，尤其是在面臨材料和人力成本上升的背景下。台積電的這一決定可能會對相關產業和企業造成波瀾，包括電子、汽車和通信等領域。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a9ec9a7d",
+        "title": "台股創最大收盤漲點 外資連13賣調節群創逾6萬張",
+        "url": "https://www.cna.com.tw/news/afe/202607210320.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Jul 2026 18:44:28 +0800",
+        "summary_zh": "台股今天大幅上漲，創下單日第2大盤中漲點及最大收盤漲點紀錄，收盤價達44232.87點。成交值達新台幣8356.24億元。雖然外資仍然持續賣超，但調節標的主要集中在面板、塑化及部分電子股。其中，群創賣超逾6.2萬張，成為賣超冠軍。這些數據表明，台股市場仍然活躍，投資人對市場前景抱持著積極態度。然而，外資持續賣超的現象也引起了關注，是否會對市場造成影響，需要密切觀察後續發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b6088b3a",
+        "title": "6月外銷訂單創新高 900億美元月月目標",
+        "url": "https://www.cna.com.tw/news/afe/202607210317.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Jul 2026 18:33:22 +0800",
+        "summary_zh": "經濟部今天公布6月外銷訂單952.6億美元，寫史上新高紀錄，推升上半年達5041億美元，創同期最高。經濟部統計處長黃偉傑表示，在AI熱潮及消費性電子產品旺季帶動下，下半年外銷訂單有望月月穩居900億美元。傳統產業今年以來表現已漸入佳境，包括基本金屬、機械和化學品等皆維持正成長態勢。這表明台灣出口業有望在下半年繼續保持良好的表現。然而，外界也需注意全球經濟的變化和供應鏈的風險，確保出口業能夠順暢運作。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "c4fad970",
+        "title": "財部統計: 前20大出口企業出口占比56% 10年增逾27個百分點",
+        "url": "https://www.cna.com.tw/news/afe/202607210308.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Jul 2026 18:11:03 +0800",
+        "summary_zh": "根據財政部的統計，去年台灣前20大出口企業的出口值占比達到56%，相較於10年前的民國105年，上升了27.4個百分點。這意味著這20家企業在出口市場上的影響力非常大。另外，前1000大出口企業的出口值占比更高達88.4%，這代表著只有1.6%的廠商掌握了絕大多數的出口值。這種情況下，領先企業的作用非常重要，占有絕大多數出口市場份額。這種市場集中度的增加，可能會對競爭企業造成壓力，同時也可能會影響出口市場的競爭格局。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9ac94def",
+        "title": "證交所董事會通過崇舜、稜研與特力屋股票上市案",
+        "url": "https://www.cna.com.tw/news/afe/202607210307.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 21 Jul 2026 18:10:00 +0800",
+        "summary_zh": "台灣證券交易所今天召開董事會，通過崇舜、稜研科技與特力屋3家公司股票上市案。其中稜研科技將在創新板上市，之後將向主管機關提出申請。這項決定意味著這3家公司將能夠在台灣證券市場上公開發行股票，吸引投資人投資。這項決定對於這3家公司的發展和投資人有重要影響。隨著稜研科技的上市，創新板將會有更多的科技公司加入，使得創新板的市場更加多元化。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "452f27a7",
         "title": "年薪從91萬狂飆到807萬！他親揭「1決定」人生翻盤",
@@ -370,8 +490,8 @@
         "published_at": "Tue, 21 Jul 2026 18:37:03 +0800",
         "summary_zh": "一名加拿大男子出身低收入家庭，大學畢業後創業失敗，重返職場時感到落後同齡人兩年，起薪只有 91 萬。然而，他決定攻讀 MBA，人生從此翻盤。經過努力，他的年薪從 91 萬狂飆到 807 萬。這名男子分享他的人生經歷，希望激勵更多人追求自己的夢想。他的故事也讓人們知道，無論來自何種背景，通過努力和自我提升，都可以實現自己的理想。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "04f8d19c",
@@ -382,8 +502,8 @@
         "published_at": "Tue, 21 Jul 2026 18:35:05 +0800",
         "summary_zh": "近日台股震盪，證交所、櫃買中心宣布共計9檔上市櫃股票打入處置股票，包括百容（2483）、禾伸堂（3026）、點晶（3288）、光頡（3624）、德微（3695）、信驊（3696）、金力（3697）、力旺（3698）和永豐金（2886）。此外，43檔股票被列為注意股，包括信驊（3696）、金力（3697）、力旺（3698）、永豐金（2886）等。這些股票的處置原因包括財務問題、營運不佳等。這項公告對市場有重大影響，投資者應密切關注。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "ecfe3549",
@@ -394,8 +514,8 @@
         "published_at": "Tue, 21 Jul 2026 18:29:32 +0800",
         "summary_zh": "近日，投信表示，AI基礎建設正進入超級成長周期，2026-2035年可望帶來合計7.6兆美元投資計畫。其中，電力投資金額每年都在增加，全球AI電力基金的熱度也因此而升高。科技股遭遇市場調整後，投資者開始轉向資金避風港，AI基礎建設正成為投資者們的選擇。這種趨勢預示著未來AI電力基金將會持續夯熱。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "e9acfae8",
@@ -406,8 +526,8 @@
         "published_at": "Tue, 21 Jul 2026 18:20:00 +0800",
         "summary_zh": "隨著企業逐步導入生成式AI，從銀行AI客服、智慧助理，到供員工查詢規章制度的AI問答系統，都被視為降低人力成本、提升營運效率的重要工具。然而，企業積極擁抱AI的同時，AI問答系統的安全漏洞也逐漸浮現。根據專家的指出，許多企業的AI問答系統，可能會將機敏資料如員工薪資、個人資料等，透過語音或文字問答，直接傳遞給外部系統，甚至可能被駭客盜取。這樣的漏洞，可能會導致企業面臨嚴重的資料安全風險。專家建議企業應該盡快檢查和修復AI問答系統的安全漏洞，確保員工資料的安全。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "39c4db79",
@@ -418,8 +538,8 @@
         "published_at": "Tue, 21 Jul 2026 17:59:49 +0800",
         "summary_zh": "隨著旅遊eSIM成為許多人出國上網的選擇，背後隱藏的資安與隱私風險也逐漸浮上檯面。美國東北大學（Northeastern University）研究團隊發現，不少旅遊eSIM的流量可能會繞送至中國，甚至可能被掌握位置和連線紀錄。研究團隊認為，這可能是由於某些eSIM卡的製造商或供應商與中國企業有關聯，導致流量被繞送至中國。這個風險不僅對個人隱私造成威脅，也可能對國家安全造成影響。旅遊eSIM的使用者應該高度重視這個風險，並且選擇信頼的製造商和供應商。政府也應該加強監管，防止這種隱私侵犯的事件發生。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "690ca424",
@@ -430,8 +550,8 @@
         "published_at": "Tue, 21 Jul 2026 17:52:32 +0800",
         "summary_zh": "台睿生技旗下核心抗癌新藥CVM-1118正在中國進行肝癌第二期臨床試驗。公司總經理簡督憲表示，首批6位受試者已完成入組，顯示各試驗中心已準備就緒。這項試驗旨在評估新藥的安全性和有效性。CVM-1118是一種新世代的ADC載體藥物，已經引起國際藥廠的關注。這項試驗的完成將有助於台睿生技推進新藥的開發和商業化。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "af986698",
@@ -442,8 +562,8 @@
         "published_at": "Tue, 21 Jul 2026 17:44:32 +0800",
         "summary_zh": "南亞科的策略規劃及行政管理資深副總經理吳志祥表示，今年記憶體產值有望達到8000億美元，占整體半導體產值的五成以上。這個估計遠高於過去約三成的水準。這種變化與AI推論需求的增加有關，AI系統對記憶體的需求大幅增加。這將對半導體產業產生重大影響。南亞科的估計表明，記憶體產業正經歷著快速增長的時期。這種增長將繼續推動半導體產業的發展。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "2aac13b8",
@@ -454,11 +574,23 @@
         "published_at": "Tue, 21 Jul 2026 17:36:20 +0800",
         "summary_zh": "圓展（3669）今日宣布進軍商用無人機市場，公司憑藉其深厚的AI影像整合實力跨界進入新市場。圓展將鎖定價值鏈最高端的「AI視覺大腦」研發，以增添高成長型的長線發展。這項決定將有助於公司在商用無人機市場佔據領先地位。商用無人機市場正處於快速發展階段，圓展的進軍將為公司帶來新的商機和發展機會。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "finance": [
+      {
+        "id": "0c1fb70f",
+        "title": "被壓制的印尼股市迎來新機會，人工智慧熱潮降溫",
+        "url": "https://www.reuters.com/world/asia-pacific/beaten-down-indonesian-stocks-feel-love-ai-rally-cools-2026-07-20/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-20 23:12:20",
+        "summary_zh": "印尼股市近期受到人工智慧熱潮的影響，許多科技股大幅上漲。但隨著人工智慧股價的降溫，印尼股市的其他領域股價也開始受到關注。分析師認為，印尼股市的投資人正在尋找新的投資機會，人工智慧股價的降溫可能是投資人轉向其他領域的信號。印尼政府也在努力推動經濟發展，包括投資在新能源和基礎設施等領域。這些努力可能會帶來新的投資機會，投資人正在密切關注這些發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "bb0c1f4c",
         "title": "紐西蘭二季度通膨率4.1%年率，高於預期",
@@ -467,18 +599,6 @@
         "category": "finance",
         "published_at": "2026-07-20 22:55:44",
         "summary_zh": "紐西蘭二季度通膨率出爐，年率達4.1%，超出了預期。這一數據表明，紐西蘭經濟正在經歷一波通膨浪潮。根據統計數據，紐西蘭的消費者物價指數（CPI）在二季度上升了4.1%，遠高於市場預期的3.8%。這一數據的出現，將對紐西蘭央行的政策決策產生重大影響。央行可能會考慮提高利率，以控制通膨並維持經濟穩定。這一決定將對紐西蘭的經濟和金融市場產生重大影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "6f787966",
-        "title": "在指數基金中加入SpaceX，解析",
-        "url": "https://www.theverge.com/business/968257/spacex-in-your-index-fund-explained",
-        "source": "The Verge AI",
-        "category": "finance",
-        "published_at": "2026-07-20T17:00:00-04:00",
-        "summary_zh": "指數基金被認為是投資的安全選擇之一。相比於選擇個別股票，指數基金讓你可以投資整個市場。因此，當像SpaceX這樣的公司——一個巨大的賭注，且我認為價格過高——被快速納入納斯達克-100指數時，會發生什麼事？這種情況下，投資者是否會被迫投資SpaceX？這些問題引發了投資界的關注。SpaceX的加入將會對指數基金的組成產生重大影響。這種情況下，投資者是否會被迫投資SpaceX？這些問題引發了投資界的關注。SpaceX的加入將會對指數基金的組成產生重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -492,8 +612,8 @@
         "published_at": "2026-07-20 22:52:09",
         "summary_zh": "美國投資公司Icahn企業宣布將出售汽車服務連鎖店Pep Boys給Mavis Tire。根據《華爾街日報》報導，交易價格為70億美元。Pep Boys是一家提供汽車維修和保養服務的連鎖店，擁有超過1000家門店。Mavis Tire是一家專門提供輪胎和汽車服務的公司，該公司將通過這次交易擴大其業務。這一交易將對汽車服務業產生重大影響，同時也將考驗Mavis Tire的管理能力。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "44f4d774",
@@ -504,8 +624,8 @@
         "published_at": "2026-07-20 22:51:08",
         "summary_zh": "胡塞派紅海封鎖對全球油價可能造成重大影響，但周邊國家可能會找到迂迴路線來繞過封鎖，減少對油價的影響。根據分析，紅海封鎖可能會導致油價上漲，但周邊國家可能會利用其他航道來運輸石油。這可能會限制紅海封鎖對油價的影響。分析師表示，紅海封鎖對油價的影響可能會取決於周邊國家的反應。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "2af3bcd1",
@@ -516,8 +636,8 @@
         "published_at": "2026-07-20 22:44:40",
         "summary_zh": "本周一，全球股市出現跌幅，原油價格上漲，中東局勢緊張持續。投資者轉焦點至企業財報業績，未來將關注各大企業的財報表現。中東局勢緊張對全球經濟產生重大影響，投資者需要密切關注該地區的發展。未來將觀察各大企業的財報表現，以了解全球經濟的走向。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "97898b8c",
@@ -568,15 +688,15 @@
         "ai_classified": true
       },
       {
-        "id": "e5638360",
-        "title": "英國首相布倫漢姆任命雷諾茲為商業部長、雷納為房屋部長",
-        "url": "https://www.reuters.com/world/uk/uk-pm-burnham-names-reynolds-business-minister-rayner-housing-2026-07-20/",
-        "source": "Reuters",
+        "id": "6f787966",
+        "title": "在指數基金中加入SpaceX，解析",
+        "url": "https://www.theverge.com/business/968257/spacex-in-your-index-fund-explained",
+        "source": "The Verge AI",
         "category": "finance",
-        "published_at": "2026-07-20 21:16:31",
-        "summary_zh": "英國新政府成立後，首相布倫漢姆宣布任命雷諾茲為商業部長，雷納為房屋部長。這兩位新任部長將負責推動英國的經濟發展和房屋政策。雷諾茲在商業部長任內將面臨著如何促進英國企業的競爭力和創新力的挑戰，而雷納則將需要解決英國房屋短缺和住房不平等的問題。這兩位新任部長的任命將對英國的經濟和社會發展產生重要影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "published_at": "2026-07-20T17:00:00-04:00",
+        "summary_zh": "指數基金被認為是投資的安全選擇之一。相比於選擇個別股票，指數基金讓你可以投資整個市場。因此，當像SpaceX這樣的公司——一個巨大的賭注，且我認為價格過高——被快速納入納斯達克-100指數時，會發生什麼事？這種情況下，投資者是否會被迫投資SpaceX？這些問題引發了投資界的關注。SpaceX的加入將會對指數基金的組成產生重大影響。這種情況下，投資者是否會被迫投資SpaceX？這些問題引發了投資界的關注。SpaceX的加入將會對指數基金的組成產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       }
     ],
@@ -716,39 +836,27 @@
         "ai_classified": true
       },
       {
-        "id": "2a6e815c",
-        "title": "JD Vance宣布與妻子Usha誕下男嬰",
-        "url": "https://www.bbc.co.uk/news/articles/cj63kngxpxpo?at_medium=RSS&at_campaign=rss",
+        "id": "396c0e81",
+        "title": "加拿大野火肆虐 特朗普再次警告卡尼斯美國空氣被「毒害」",
+        "url": "https://www.bbc.co.uk/news/articles/crl7n6j7gr3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 11:28:30 GMT",
-        "summary_zh": "美國政治人物JD Vance宣布與妻子Usha誕下第四個孩子，男嬰Eric Neel Vance。這是夫妻倆第四個孩子的誕生，目前沒有更多的資訊。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "published_at": "Mon, 20 Jul 2026 18:16:51 GMT",
+        "summary_zh": "美國總統特朗普在世界盃決賽期間，與加拿大總理卡尼斯會面時，再次提及加拿大野火對美國空氣的影響。特朗普認為這是加拿大的責任，應該採取措施防止空氣被「毒害」。然而，卡尼斯政府表示，美國也應該承擔部分責任，因為美國的氣候變化對加拿大野火的蔓延有所影響。這樁事件引發了兩國之間的氣候問題爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "930ee57e",
-        "title": "特朗普命令新關稅，加拿大準備加強貿易談判",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/21/donald-trump-tariffs-canada-mark-carney-lebanon-republicans-gop-spending-bill-latest-news-updates",
-        "source": "Guardian US",
+        "id": "3bff400c",
+        "title": "美國消費者對於神秘「爆炸性痢疾」寄生蟲的反應",
+        "url": "https://www.bbc.co.uk/news/videos/c4g3p74rr6lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "whitehouse",
-        "published_at": "Tue, 21 Jul 2026 10:54:05 GMT",
-        "summary_zh": "美國總統特朗普命令新關稅，對加拿大商品實施新關稅措施。加拿大總理卡恩表示，加拿大已提出解決爭議的建議。美國民主黨人士則利用伊朗攻擊造成三名美軍士兵死亡的事故，要求特朗普儘速撤回與伊朗的戰爭。伊朗攻擊造成美軍士兵死亡，美國軍方對伊朗目標進行第十輪攻擊。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "dc0ad76e",
-        "title": "川普宣布對加拿大商品徵收 50% tarif",
-        "url": "https://www.theguardian.com/us-news/2026/jul/20/trump-canada-tariffs",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 21 Jul 2026 02:29:47 GMT",
-        "summary_zh": "美國總統川普宣布對加拿大商品徵收 50% tarif，理由是加拿大對美國汽車、酒精和乳製品進行歧視性待遇。美國白宮表示，加拿大對美國汽車、酒精和乳製品進行歧視性待遇，導致美國對加拿大商品徵收 50% tarif。這些tarif將影響各種商品，包括葡萄酒、冰球棒和水泥等。值得注意的是，這些商品曾經在美國墨西哥加拿大協議 (USMCA) 下免除進口稅。這一決定可能會對加拿大經濟造成重大影響。加拿大政府可能會對美國商品進行報復性措施。這一事件將對中美貿易關係產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
+        "published_at": "Mon, 20 Jul 2026 23:29:54 GMT",
+        "summary_zh": "美國疾病控制與預防中心（CDC）表示，近 7,000 人可能感染了 Cyclosporiasis。這種寄生蟲可能導致爆炸性痢疾，引起腹瀉、腹痛和體重減輕等症狀。CDC 正在調查這起事件的原因和傳播途徑。美國消費者應該提高警覺，注意食物安全和個人衛生。這起事件可能對美國的健康和經濟產生重大影響。CDC 將繼續追蹤和監測這起事件，提供相關資訊和建議予美國公民。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -788,51 +896,27 @@
         "ai_classified": true
       },
       {
-        "id": "3c1e3113",
-        "title": "聯合航空員工威脅要報警移民署　公司表示正在調查",
-        "url": "https://www.theguardian.com/us-news/2026/jul/20/united-airlines-san-francisco-airport-ice-threat",
-        "source": "Guardian US",
+        "id": "930ee57e",
+        "title": "特朗普命令新關稅，加拿大準備加強貿易談判",
+        "url": "https://www.theguardian.com/us-news/live/2026/jul/21/donald-trump-tariffs-canada-mark-carney-lebanon-republicans-gop-spending-bill-latest-news-updates",
+        "source": "Guardian World",
         "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 22:40:07 GMT",
-        "summary_zh": "聯合航空一名員工在舊金山國際機場與一名乘客發生爭執，員工威脅要報警移民署。事件的起因是該名乘客因錯誤登記女兒姓名而導致購票延遲。該名乘客 Julio Varela 表示，他與家人因為等待聯合航空工作人員糾正錯誤而感到不耐煩。員工的言論引起爭議，聯合航空公司表示正在調查事件。這個事件已經在社交媒體上引起了廣泛的討論和關注。",
+        "published_at": "Tue, 21 Jul 2026 11:31:01 GMT",
+        "summary_zh": "美國總統特朗普命令新關稅，對加拿大商品實施新關稅措施。加拿大總理卡恩表示，加拿大已提出解決爭議的建議。美國民主黨人士則利用伊朗攻擊造成三名美軍士兵死亡的事故，要求特朗普儘速撤回與伊朗的戰爭。伊朗攻擊造成美軍士兵死亡，美國軍方對伊朗目標進行第十輪攻擊。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "12e1e7b2",
-        "title": "五人喪生救助 Ohio 河中溺水者",
-        "url": "https://www.theguardian.com/us-news/2026/jul/20/ohio-scioto-river-deaths",
-        "source": "Guardian US",
+        "id": "dc0ad76e",
+        "title": "川普宣布對加拿大商品徵收 50% tarif",
+        "url": "https://www.theguardian.com/us-news/2026/jul/20/trump-canada-tariffs",
+        "source": "Guardian World",
         "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 22:31:53 GMT",
-        "summary_zh": "美國俄亥俄州一名溺水者在河中挣扎，多人跳入河中救援，最終五人喪生。警方表示，一名車主在看到一名害怕的孩子在附近路上奔跑後，拨打了 911。警長 Jeffrey Balzer 表示，這名孩子是與溺水者一同在河中溺水的群體的一員。警方在河中發現了三名男子的屍體，另外兩名女性也被送往醫院後宣告死亡。這起悲劇事件引起了當地居民的震驚和哀悼。",
+        "published_at": "Tue, 21 Jul 2026 02:29:47 GMT",
+        "summary_zh": "美國總統川普宣布對加拿大商品徵收 50% tarif，理由是加拿大對美國汽車、酒精和乳製品進行歧視性待遇。美國白宮表示，加拿大對美國汽車、酒精和乳製品進行歧視性待遇，導致美國對加拿大商品徵收 50% tarif。這些tarif將影響各種商品，包括葡萄酒、冰球棒和水泥等。值得注意的是，這些商品曾經在美國墨西哥加拿大協議 (USMCA) 下免除進口稅。這一決定可能會對加拿大經濟造成重大影響。加拿大政府可能會對美國商品進行報復性措施。這一事件將對中美貿易關係產生重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "396c0e81",
-        "title": "加拿大野火肆虐 特朗普再次警告卡尼斯美國空氣被「毒害」",
-        "url": "https://www.bbc.co.uk/news/articles/crl7n6j7gr3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 18:16:51 GMT",
-        "summary_zh": "美國總統特朗普在世界盃決賽期間，與加拿大總理卡尼斯會面時，再次提及加拿大野火對美國空氣的影響。特朗普認為這是加拿大的責任，應該採取措施防止空氣被「毒害」。然而，卡尼斯政府表示，美國也應該承擔部分責任，因為美國的氣候變化對加拿大野火的蔓延有所影響。這樁事件引發了兩國之間的氣候問題爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3bff400c",
-        "title": "美國消費者對於神秘「爆炸性痢疾」寄生蟲的反應",
-        "url": "https://www.bbc.co.uk/news/videos/c4g3p74rr6lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 20 Jul 2026 23:29:54 GMT",
-        "summary_zh": "美國疾病控制與預防中心（CDC）表示，近 7,000 人可能感染了 Cyclosporiasis。這種寄生蟲可能導致爆炸性痢疾，引起腹瀉、腹痛和體重減輕等症狀。CDC 正在調查這起事件的原因和傳播途徑。美國消費者應該提高警覺，注意食物安全和個人衛生。這起事件可能對美國的健康和經濟產生重大影響。CDC 將繼續追蹤和監測這起事件，提供相關資訊和建議予美國公民。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
