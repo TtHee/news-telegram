@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-24T05:14:43.854363+08:00",
+  "generated_at": "2026-07-24T06:15:38.203950+08:00",
   "risk_signals": [
     "🟢 台股加權 44825.78（正常）",
     "🟢 S&P 500 7408.3（正常）",
     "🟢 VIX 恐慌指數 18.7（正常）",
     "🟢 MOVE 債市波動 80.08（正常）",
-    "🟢 美元指數 101.45（正常）",
-    "🟢 黃金 4052.3（正常）",
+    "🟢 美元指數 101.44（正常）",
+    "🟢 黃金 4051.0（正常）",
     "🟡 美債10Y殖利率 4.7（留意）",
-    "🔴 原油 WTI 92.36（急漲 +6.37%，市場避險）",
-    "🟢 美元/台幣 32.29（正常）"
+    "🔴 原油 WTI 92.53（急漲 +6.56%，市場避險）",
+    "🟢 美元/台幣 32.3（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，但注意美債10Y殖利率略有上升，可能影響市場預期。原油急漲，市場避險情緒加劇。",
+  "ai_summary": "市場氛圍偏於偏保守，投資者開始轉向避險資產。原油急漲引發市場關注。",
   "market": {
     "TWII": {
       "price": 44825.78,
@@ -38,36 +38,84 @@
       "change_pct": 12.98
     },
     "DXY": {
-      "price": 101.45,
-      "change_pct": 0.31
+      "price": 101.44,
+      "change_pct": 0.29
     },
     "GOLD": {
-      "price": 4052.3,
-      "change_pct": -2.28
+      "price": 4051.0,
+      "change_pct": -2.31
     },
     "OIL": {
-      "price": 92.36,
-      "change_pct": 6.37
+      "price": 92.53,
+      "change_pct": 6.56
     },
     "USDTWD": {
-      "price": 32.29,
-      "change_pct": -0.26
+      "price": 32.3,
+      "change_pct": -0.24
     }
   },
   "macro": {},
   "categories": {
     "whitehouse": [
       {
+        "id": "a147527c",
+        "title": "川普抓住新澤西選舉錯誤，謊言再度升級",
+        "url": "https://www.theguardian.com/us-news/2026/jul/23/new-jersey-noncitizen-republicans-election-fraud",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 23 Jul 2026 21:55:18 GMT",
+        "summary_zh": "川普及其盟友迅速抓住新澤西州州長Mikie Sherrill的聲明，聲稱由於軟體錯誤，6,600名非公民已經登記投票，少於400名投票者。川普利用這個消息，繼續宣傳有數百萬名非公民登記投票的謊言。這些聲明出現在川普在電視上發表的演說後不久，他聲稱美國國土安全局（DHS）發現了新澤西州和另外三個州的278,000名非公民登記投票。但是，根據《衛報》的調查，DHS發給各州的信件顯示，該機構對這個數字的確定性不高，並沒有解釋其方法。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1eb05c18",
+        "title": "D4vd律師質疑警方對歌手家中發現的證據檢測",
+        "url": "https://www.theguardian.com/us-news/2026/jul/23/d4vd-singer-police-evidence-hearing",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 23 Jul 2026 21:51:23 GMT",
+        "summary_zh": "D4vd的律師在殺人和性侵犯案件的聽證會上質疑警方對歌手家中發現的證據檢測。警方指控D4vd，原名David Anthony Burke，去年殺害了14歲的Celeste Rivas Hernandez，以防止她揭露兩人關係的性質。律師們對警方檢測證據的方法提出質疑，爭取為歌手爭取無罪釋放。這是聽證會的第三天，還未決定是否將歌手送上法庭。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "72f484e3",
         "title": "白宮表示若沙地阿拉伯不加入阿伯拉罕協定，核協議「不會實行」– 美國政治直播",
         "url": "https://www.theguardian.com/us-news/live/2026/jul/23/us-house-defense-spending-bill-donald-trump-iran-rubio-latest-news-updates",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Thu, 23 Jul 2026 20:52:11 GMT",
+        "published_at": "Thu, 23 Jul 2026 21:38:57 GMT",
         "summary_zh": "白宮表示，如果沙地阿拉伯不加入阿伯拉罕協定，美國與伊朗的核協議將不會實行。這是由前總統川普在社交媒體上透露的條件。美國國會通過了第二份對抗伊朗的戰爭權限決議案，表達對川普政府軍事行動的限制。國會通過決議案前，美國國會將在8月休會。四名共和黨議員和全部民主黨議員投票贊成決議案。這項決議案將對川普政府的軍事行動產生影響。",
         "sentiment": "中性",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "df3e02f8",
+        "title": "川普政府將公佈最新階段的激進貿易政策",
+        "url": "https://www.theguardian.com/us-news/2026/jul/23/trump-administration-trade-tariffs",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 23 Jul 2026 21:29:51 GMT",
+        "summary_zh": "川普政府將於週四公佈最新階段的激進貿易政策。根據報導，美國總統川普正在準備一波新的全面性關稅政策。川普的關稅政策在2月份遭到美國最高法院裁定許多關稅違法。儘管美國已經將那些關稅替換為對大部分世界的10%關稅，但這些關稅即將於週五到期。這一新政策可能會對全球貿易產生重大影響，尤其是在美國與其主要貿易夥伴之間。這一發展也引發了對未來貿易戰的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "64618f7b",
+        "title": "路易斯安那州眾議員候選人被指控強姦，希望再次獲得川普的支持",
+        "url": "https://www.theguardian.com/us-news/2026/jul/23/blake-miguez-louisiana-house-trump",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Thu, 23 Jul 2026 21:13:24 GMT",
+        "summary_zh": "路易斯安那州共和黨候選人布萊克·米格茲（Blake Miguez）因強姦指控被捕，目前正考慮在紅線重劃後的哪個選區競選。他曾在原有的選區獲得川普的支持，但現在面臨著選區重劃的挑戰。米格茲表示，他希望再次獲得川普的支持，但這也引發了對他的道德品格的質疑。這個事件也引發了對美國政治的關注，特別是在選區重劃和候選人道德標準的問題上。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "39be4c99",
@@ -78,20 +126,8 @@
         "published_at": "Thu, 23 Jul 2026 19:56:50 GMT",
         "summary_zh": "川普宣布逾 200 家企業簽署了他推出的非約束性的「Ratepayer Protection Pledge」，這項自願承諾聲稱將確保美國消費者不必承擔資料中心建設的成本。川普週四在環境保護署總部發表演說，與環境保護署署長李·澤林 (Lee Zeldin) 和能源部長克里斯·懷特 (Chris Wright) 一同出席。其他出席者還包括簽署承諾書的州長，包括喬治亞州的布萊恩·坎普 (Brian Kemp)、俄亥俄州的麥克·德溫 (Mike DeWine)、猶他州的斯賓塞·考克斯 (Spencer Cox) 和路易斯安那州的傑夫·蘭德里 (Jeff Landry)。這項承諾書的實際影響仍存疑，尤其是當川普將其描述為非約束性的時候。美國民眾仍在努力應對電費和其他費用的上漲。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "3f8a8357",
-        "title": "安迪·伯恩漢姆的高風險起步可能幫助他超越政治痛苦",
-        "url": "https://www.ft.com/content/d7bb8df9-f049-4e9b-9556-06fb8251afe5",
-        "source": "Financial Times",
-        "category": "whitehouse",
-        "published_at": "2026-07-23 08:30:11",
-        "summary_zh": "英國曼徹斯特市長安迪·伯恩漢姆在政治生涯的早期就展現出了高風險的決策風格。儘管這種風險可能會帶來政治痛苦，但他也可能因此在未來的競選中取得優勢。伯恩漢姆的決策風格讓人聯想到前英國首相布萊爾，他也曾經以高風險的決策而聞名。然而，伯恩漢姆的風險決策也引起了爭議，許多人認為他過於冒險。儘管如此，伯恩漢姆的高風險起步可能會幫助他在未來的政治生涯中取得成功。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "a667c1ab",
@@ -118,28 +154,16 @@
         "ai_classified": true
       },
       {
-        "id": "7feb9020",
-        "title": "赫格塞特預算: 美國國防部長赫格塞特的 1.5 萬億美元請求揭露軍工產業混亂",
-        "url": "https://www.theguardian.com/us-news/2026/jul/23/hegseth-us-military-budget",
-        "source": "Guardian US",
+        "id": "3f8a8357",
+        "title": "安迪·伯恩漢姆的高風險起步可能幫助他超越政治痛苦",
+        "url": "https://www.ft.com/content/d7bb8df9-f049-4e9b-9556-06fb8251afe5",
+        "source": "Financial Times",
         "category": "whitehouse",
-        "published_at": "Thu, 23 Jul 2026 17:17:46 GMT",
-        "summary_zh": "美國國防部長赫格塞特提出了 44% 的預算增加計畫，達到二戰時期的水準，而同時將「woke」相關計劃砍掉。赫格塞特曾經要求國防部下屬在未來五年內每年砍掉 8% 的預算，總共砍掉 34 億美元的預算。但這個計畫很快就被擱置了。這個預算增加計畫引起了軍工產業股價大幅下跌，包括 Palantir 和其他軍工公司的股價。這個預算增加計畫的背後原因是美國國防部長赫格塞特的意見，他認為美國的軍事力量需要得到增強，以應對當前的安全挑戰。然而，這個預算增加計畫也引起了爭議，許多人批評這個計畫過於昂貴，並且可能會導致軍事浪費。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "df3e02f8",
-        "title": "川普政府將公佈最新階段的激進貿易政策",
-        "url": "https://www.theguardian.com/us-news/2026/jul/23/trump-administration-trade-tariffs",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 23 Jul 2026 16:53:42 GMT",
-        "summary_zh": "川普政府將於週四公佈最新階段的激進貿易政策。根據報導，美國總統川普正在準備一波新的全面性關稅政策。川普的關稅政策在2月份遭到美國最高法院裁定許多關稅違法。儘管美國已經將那些關稅替換為對大部分世界的10%關稅，但這些關稅即將於週五到期。這一新政策可能會對全球貿易產生重大影響，尤其是在美國與其主要貿易夥伴之間。這一發展也引發了對未來貿易戰的關注。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "published_at": "2026-07-23 08:30:11",
+        "summary_zh": "英國曼徹斯特市長安迪·伯恩漢姆在政治生涯的早期就展現出了高風險的決策風格。儘管這種風險可能會帶來政治痛苦，但他也可能因此在未來的競選中取得優勢。伯恩漢姆的決策風格讓人聯想到前英國首相布萊爾，他也曾經以高風險的決策而聞名。然而，伯恩漢姆的風險決策也引起了爭議，許多人認為他過於冒險。儘管如此，伯恩漢姆的高風險起步可能會幫助他在未來的政治生涯中取得成功。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "2413116a",
@@ -166,18 +190,6 @@
         "ai_classified": true
       },
       {
-        "id": "c8941b06",
-        "title": "挪威考慮控訴巴洛古恩禁賽決定",
-        "url": "https://www.bbc.co.uk/sport/football/articles/c1l1vz4n484o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 23 Jul 2026 12:43:30 GMT",
-        "summary_zh": "挪威足球協會正在考慮向國際足協的道德委員會提交正式控訴，針對巴洛古恩禁賽決定。巴洛古恩是一名奈及利亞籍足球員，曾代表挪威國家隊出賽。挪威足球協會認為，巴洛古恩的禁賽決定違反了國際足協的規定。這項決定可能會對巴洛古恩的未來足球生涯產生重大影響。挪威足球協會的決定表明了對巴洛古恩的支持和關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "200d66c4",
         "title": "觀看：美國與沙烏地阿拉伯核協議：我們知道什麼?",
         "url": "https://www.bbc.co.uk/news/videos/cn5n725lkg7o?at_medium=RSS&at_campaign=rss",
@@ -192,174 +204,6 @@
     ],
     "global": [
       {
-        "id": "df260d3f",
-        "title": "川普：沙特必須承認以色列 才能達成核協議",
-        "url": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 23 Jul 2026 17:58:02 GMT",
-        "summary_zh": "美國總統川普表示，協助沙特發展核能的里程碑性協議取決於沙特加入阿巴拉赫協議。阿巴拉赫協議是一項旨在促進中東和平的協議，目前已有多個國家加入，包括以色列、巴林、阿曼、約旦和阿拉伯聯合酋長國。沙特的加入將使該協議更加完整和有效。川普的聲明表明，美國政府將沙特的核能發展與其與以色列的關係掛鉤，這可能會對沙特的外交政策產生重大影響。這項協議的通過將對沙特和以色列的關係產生重要影響，可能會促進兩國之間的合作和和平。然而，這也可能會引起一些國家的反對，例如伊朗和其他反以色列的國家。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5a33c04b",
-        "title": "青年運動襲沙國油輪 國際油價急漲破百美元",
-        "url": "https://www.cna.com.tw/news/afe/202607240010.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Fri, 24 Jul 2026 04:06:46 +0800",
-        "summary_zh": "葉門青年運動在紅海襲擊兩艘沙烏地阿拉伯油輪，造成全球供應危機加劇。荷莫茲海峽貿易幾近停擺，國際油價今天大漲，首度收在每桶100美元以上。這一事件將對全球經濟產生重大影響，油價持續上升可能會導致通膨加劇和經濟衰退。葉門青年運動的行動已經對全球供應鏈造成重大打擊，國際社會正在密切關注此事的發展。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "ac464b19",
-        "title": "石油價格首次突破100美元水準",
-        "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 23 Jul 2026 15:31:00 GMT",
-        "summary_zh": "石油價格因為中東戰爭持續升級而大幅上漲，布倫特原油價格上週四飆升超過6%。這是自5月以來，石油價格首次突破100美元水準。石油價格的上漲主要是由於中東戰爭的持續升級，影響了全球石油供應。這種情況可能會導致全球石油價格持續上漲，對全球經濟產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6bebf99d",
-        "title": "英國首相伯納姆減免酒吧、俱樂部和音樂場館商業稅",
-        "url": "https://www.reuters.com/world/uk/uk-pm-burnham-cuts-business-rates-bills-pubs-clubs-music-venues-2026-07-23/",
-        "source": "Reuters",
-        "category": "global",
-        "published_at": "2026-07-23 05:25:44",
-        "summary_zh": "英國首相安迪·伯納姆宣布減免酒吧、俱樂部和音樂場館的商業稅費。這項措施旨在幫助這些業界在經濟不穩定時度過難關。根據英國政府的說法，這項減免將對這些業界造成重大幫助，幫助他們在面臨經濟挑戰時繼續運營。這項措施將對英國的娛樂業界產生重大影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "32ca1caf",
-        "title": "南加州郊區驚恐：罕見兒童癌症病例連續發生",
-        "url": "https://www.theguardian.com/us-news/2026/jul/23/child-cancer-california-ladera-ranch",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Thu, 23 Jul 2026 19:34:45 GMT",
-        "summary_zh": "南加州橙縣的拉德拉拉欽（Ladera Ranch）一帶，近期出現了六名兒童被診斷出罕見的Ewing肉瘤（Ewing sarcoma），引起了當地居民的擔憂。該區域人口約有2.6萬人，當地議員凱特琳娜·福萊（Katrina Foley）表示，該區域出現了「極為罕見」的癌症病例。這些病例引起了當地居民的關注，希望能夠找到原因和解決方案。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "c0d7b07b",
-        "title": "加拿大乳品產業成為川普貿易焦點",
-        "url": "https://www.bbc.co.uk/news/articles/ce8kvm84lxmo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 23 Jul 2026 00:15:12 GMT",
-        "summary_zh": "加拿大乳品產業的供應管理系統因為川普總統將其列為三大針對點之一，成為美國對加拿大的新關稅的理由。這使得加拿大的乳品產業成為當前貿易談判的焦點。加拿大的供應管理系統是一種保護本國乳品產業的政策，限制進口乳品的進口量。這種政策一直受到美國的批評，美國認為這種政策對美國乳品業造成了不公平的影響。川普總統的言論使得加拿大政府面臨著壓力，必須對這種政策進行改革。加拿大政府正在努力與美國進行談判，希望能夠解決這個問題。這個問題不僅影響加拿大的乳品產業，也影響了加拿大與美國的貿易關係。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d9387131",
-        "title": "紅海局勢升溫 國際油價飆破100美元、歐股收黑",
-        "url": "https://www.cna.com.tw/news/afe/202607240003.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Fri, 24 Jul 2026 00:43:27 +0800",
-        "summary_zh": "紅海局勢升溫，伊朗支持的葉門叛軍青年運動攻擊紅海航運，美國總統川普揚言進行報復性打擊，油價今天漲破每桶100美元。這種局勢升溫導致股市大幅下挫，歐洲3大股市均收黑。油價飆升對全球經濟和能源市場造成重大影響，投資者紛紛擔心未來的發展。紅海局勢的升溫也引發了安全和穩定性的擔憂，各國政府正在密切關注這種局勢的發展。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "660397dc",
-        "title": "小人物只能默默承受?",
-        "url": "https://www.foreignaffairs.com/united-states/small-suffer-what-they-must",
-        "source": "Foreign Affairs",
-        "category": "global",
-        "published_at": "Thu, 23 Jul 2026 00:00:00 -0400",
-        "summary_zh": "在一個混亂的世界中，人們面臨著兩個選擇：團結起來或是孤立地奮鬥。這個問題引發了對於人性的探討和社會的關注。人們是否能夠在困難時期團結起來，共同面對挑戰？還是會因為各自的利益和觀點而分裂？這個問題的答案可能只有在實踐中才能夠找到。然而，無論如何，人們都需要面對現實，找到適合自己的方法來應對困難。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "01668994",
-        "title": "將重塑紐約電網的電力線遇到困難",
-        "url": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",
-        "source": "MIT Tech Review",
-        "category": "global",
-        "published_at": "Thu, 23 Jul 2026 09:00:00 +0000",
-        "summary_zh": "紐約州電網正面臨重大的變革，7月3日，當區域出現嚴重的熱浪時，紐約州的電網從加拿大進口了52億瓦小時的電力，這足夠滿足當天約9%的總電力需求。其中一部分電力通過一條長339英里的電力線從魁北克傳輸到皇后區的查邁蓬-哈德遜電力快線（CHPE）。然而，這條電力線的建設遇到了困難，尚未完成。這條電力線的完成將對紐約州的電力供應產生重大影響，預計將在未來幾年內完成。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "22173687",
-        "title": "中國的脆弱時刻",
-        "url": "https://www.foreignaffairs.com/china/chinas-moment-weakness",
-        "source": "Foreign Affairs",
-        "category": "global",
-        "published_at": "Thu, 23 Jul 2026 00:00:00 -0400",
-        "summary_zh": "中國經濟衰退和美國戰略開放的關係。中國經濟在近年來出現衰退跡象，美國則在此時展開對中國的戰略開放，包括在經濟、政治和軍事等多個領域進行對抗。美國政府認為，中國的經濟衰退是其內部問題的體現，同時也是美國在全球經濟中的競爭優勢的機會。美國的戰略開放包括對中國的經濟制裁、軍事部署和政治對抗等多方面。這些措施旨在限制中國的經濟和軍事發展，同時也希望能夠推動中國的政治改革。然而，中國政府則認為，這些措施是美國對中國的挑戰和威脅。中國的領導人認為，美國的戰略開放是對中國的經濟和政治安全的威脅。中國的政府正在採取措施來應對美國的戰略開放，包括加強經濟自主、軍事建設和政治對抗等。這場對抗將會對全球經濟和政治產生重大影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "d1f9e8b2",
-        "title": "韓國婦女被判無罪殺害新生兒",
-        "url": "https://www.bbc.co.uk/news/articles/cwyrj7ww1gko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 23 Jul 2026 10:04:56 GMT",
-        "summary_zh": "韓國一名婦女因懷孕36週欲終止懷孕，於醫院產下一名嬰兒後，醫生後來殺害嬰兒。這名婦女被控謀殺新生兒，但經過審判後被宣告無罪。這起案件引起了社會上的關注和爭議，許多人質疑醫生的行為是否合理。這名婦女的律師表示，她的客戶一直以為嬰兒已經死亡，並沒有發現醫生殺害嬰兒的事實。這起案件的判決結果可能會對韓國的醫療系統和法律制度產生影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "7bf283de",
-        "title": "被網路審查阻礙，中國愛動物人士將抗議動物虐待帶到線上和海外",
-        "url": "https://www.bbc.co.uk/news/articles/cqx7wd3x420o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 23 Jul 2026 05:46:09 GMT",
-        "summary_zh": "近日，廣東一隻母狗及她的幼崽遭到殺害，引發內地及海外的強烈譴責。這起事件不僅引起了中國內地的關注，也在海外引起了廣泛的反響。愛動物人士透過社交媒體和線上平台，展開了對中國政府的抗議行動。同時，許多外國人士也表達了對中國政府不保護動物權益的不滿。這起事件凸顯了中國政府對動物保護的缺失，愛動物人士將繼續在線上和海外發聲，呼籲政府改善對動物的保護政策。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "425001ed",
-        "title": "一年來，巴基斯坦軍機坠毁在孟加拉國學校，遺族仍未獲得答案",
-        "url": "https://www.bbc.co.uk/news/articles/cx2j7jgg1z1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 22 Jul 2026 22:04:07 GMT",
-        "summary_zh": "一年前，一架軍機在孟加拉國首都達卡的一所學校上空坠毁，造成 36 人死亡，多數是兒童。遺族們一直在追問政府為何沒有釐清事實真相。這一事件的發生讓當地居民深感震驚，並對政府的安全措施提出質疑。政府方面表示正在調查事件，但遺族們仍然對政府的回答感到不滿。這一事件的影響不僅僅是對當地居民的生命安全，還對政府的信任度和民眾對安全措施的信心產生了重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ddde2a20",
-        "title": "中國月球級人工智慧竊取 Anthropic 技術？川普前顧問指控",
-        "url": "https://www.bbc.co.uk/news/articles/c5ye2gyz0x4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 23 Jul 2026 01:52:10 GMT",
-        "summary_zh": "近日，中國人工智慧公司面臨美國政府加強監控。川普前顧問指控，中國一家月球級人工智慧公司竊取了 Anthropic 公司的技術。這一指控出現於中國人工智慧公司面臨美國政府監控的背景下。川普前顧問的指控可能會對中國人工智慧公司的聲譽造成重大影響。美國政府對中國人工智慧公司的監控可能會進一步加強。這一事件可能會對全球人工智慧產業造成重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "48341115",
         "title": "法國大火逾12,000人撤離",
         "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss",
@@ -370,6 +214,30 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "0efe5a9b",
+        "title": "印度活動家結束26天的絕食抗議",
+        "url": "https://www.bbc.co.uk/news/articles/cjwx4x04yqzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 23 Jul 2026 21:27:04 GMT",
+        "summary_zh": "印度活動家孫安旺卓克（Sonam Wangchuk）在支持年輕人領導的抗議運動，要求教育改革後，決定結束26天的絕食抗議。他表示，這樣做是為了避免可能發生的暴力事件。孫安旺卓克是一名教育改革的支持者，他認為，教育系統需要改革，以便能夠提供更好的教育機會給年輕人。這場抗議運動已經持續了幾周，抗議者要求政府改革教育制度，改善教育質量。孫安旺卓克的絕食抗議是為了表達對教育改革的支持，並呼籲政府採取行動。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2acf203d",
+        "title": "克里米亞恢復公眾電話供緊急求助",
+        "url": "https://www.reuters.com/business/media-telecom/crimea-brings-back-public-street-phones-emergency-calls-2026-07-23/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-07-23 09:02:55",
+        "summary_zh": "克里米亞半島最近恢復了公眾電話供民眾在緊急情況下進行電話求助。這項措施是為了應對可能的自然災害或其他緊急事件。公眾電話將會安裝在各個地區，讓民眾可以在需要時快速取得幫助。這項措施受到當地政府的支持，旨在提高民眾的安全感和應對能力。克里米亞半島的公眾電話系統已經多年未有更新，現在的恢復是為了滿足民眾的需求。這項措施將會在未來的幾個月內完成。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "28a24512",
@@ -393,6 +261,18 @@
         "summary_zh": "胡塞派在紅海發動攻擊石油油船，標誌著自伊朗支持的胡塞派宣布對沙烏地阿拉伯實施「海上禁運」後，紅海首次出現的攻擊事件。這一攻擊事件發生在美國對伊朗發動新一輪攻擊的同時，美國對伊朗的攻擊行動引發了地區安全局勢的擴大。胡塞派的攻擊行動可能會對地區的石油運輸產生影響，同時也會使得美國和伊朗之間的緊張關係更加惡化。美國對伊朗的攻擊行動可能會導致伊朗對美國的反擊，從而使得地區的安全局勢更加不穩定。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6bebf99d",
+        "title": "英國首相伯納姆減免酒吧、俱樂部和音樂場館商業稅",
+        "url": "https://www.reuters.com/world/uk/uk-pm-burnham-cuts-business-rates-bills-pubs-clubs-music-venues-2026-07-23/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-07-23 05:25:44",
+        "summary_zh": "英國首相安迪·伯納姆宣布減免酒吧、俱樂部和音樂場館的商業稅費。這項措施旨在幫助這些業界在經濟不穩定時度過難關。根據英國政府的說法，這項減免將對這些業界造成重大幫助，幫助他們在面臨經濟挑戰時繼續運營。這項措施將對英國的娛樂業界產生重大影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -420,6 +300,30 @@
         "ai_classified": true
       },
       {
+        "id": "72d7e771",
+        "title": "烏克蘭攻擊俄羅斯線上零售商Wildberries，另一座倉庫關閉",
+        "url": "https://www.reuters.com/business/retail-consumer/widening-ukrainian-attacks-russian-online-retailer-wildberries-shutter-another-2026-07-23/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-07-23 09:35:43",
+        "summary_zh": "烏克蘭對俄羅斯線上零售商Wildberries的攻擊持續升級，最近又有一座倉庫被關閉。事件的背景是俄羅斯入侵烏克蘭，烏克蘭政府與民間組織正在進行反制俄羅斯的行動。Wildberries 是俄羅斯最大的線上零售商之一，受到烏克蘭攻擊的影響，該公司的運營受到嚴重影響。關鍵細節是，烏克蘭的攻擊不僅僅是對Wildberries的倉庫，還包括對該公司的供應鏈和運輸系統。影響分析表明，這一事件將對俄羅斯的經濟和線上零售業造成重大影響。後續展望是，烏克蘭政府和民間組織將繼續進行反制俄羅斯的行動，Wildberries 將需要找到新的運營模式來應對這一挑戰。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "32ca1caf",
+        "title": "南加州郊區驚恐：罕見兒童癌症病例連續發生",
+        "url": "https://www.theguardian.com/us-news/2026/jul/23/child-cancer-california-ladera-ranch",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Thu, 23 Jul 2026 19:34:45 GMT",
+        "summary_zh": "南加州橙縣的拉德拉拉欽（Ladera Ranch）一帶，近期出現了六名兒童被診斷出罕見的Ewing肉瘤（Ewing sarcoma），引起了當地居民的擔憂。該區域人口約有2.6萬人，當地議員凱特琳娜·福萊（Katrina Foley）表示，該區域出現了「極為罕見」的癌症病例。這些病例引起了當地居民的關注，希望能夠找到原因和解決方案。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "7c810fc4",
         "title": "尼加拉瓜議會辯論禁止反對黨參與選舉",
         "url": "https://www.bbc.co.uk/news/articles/cd694w0l30do?at_medium=RSS&at_campaign=rss",
@@ -441,6 +345,30 @@
         "summary_zh": "肯亞前州長奧科特·奧巴多（Okoth Obado）因殺害與其有染的懷孕學生蕭倫·奧蒂恩（Sharon Otieno）而被判有罪。事件發生在肯亞，奧巴多與蕭倫·奧蒂恩有暫時的關係，但最終被控告謀殺。這宗案件引起了肯亞社會的關注，奧巴多的判決將對肯亞政治產生重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7bf283de",
+        "title": "被網路審查阻礙，中國愛動物人士將抗議動物虐待帶到線上和海外",
+        "url": "https://www.bbc.co.uk/news/articles/cqx7wd3x420o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 23 Jul 2026 05:46:09 GMT",
+        "summary_zh": "近日，廣東一隻母狗及她的幼崽遭到殺害，引發內地及海外的強烈譴責。這起事件不僅引起了中國內地的關注，也在海外引起了廣泛的反響。愛動物人士透過社交媒體和線上平台，展開了對中國政府的抗議行動。同時，許多外國人士也表達了對中國政府不保護動物權益的不滿。這起事件凸顯了中國政府對動物保護的缺失，愛動物人士將繼續在線上和海外發聲，呼籲政府改善對動物的保護政策。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d1f9e8b2",
+        "title": "韓國婦女被判無罪殺害新生兒",
+        "url": "https://www.bbc.co.uk/news/articles/cwyrj7ww1gko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 23 Jul 2026 10:04:56 GMT",
+        "summary_zh": "韓國一名婦女因懷孕36週欲終止懷孕，於醫院產下一名嬰兒後，醫生後來殺害嬰兒。這名婦女被控謀殺新生兒，但經過審判後被宣告無罪。這起案件引起了社會上的關注和爭議，許多人質疑醫生的行為是否合理。這名婦女的律師表示，她的客戶一直以為嬰兒已經死亡，並沒有發現醫生殺害嬰兒的事實。這起案件的判決結果可能會對韓國的醫療系統和法律制度產生影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -492,6 +420,42 @@
         "ai_classified": true
       },
       {
+        "id": "ac464b19",
+        "title": "石油價格首次突破100美元水準",
+        "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 23 Jul 2026 15:31:00 GMT",
+        "summary_zh": "石油價格因為中東戰爭持續升級而大幅上漲，布倫特原油價格上週四飆升超過6%。這是自5月以來，石油價格首次突破100美元水準。石油價格的上漲主要是由於中東戰爭的持續升級，影響了全球石油供應。這種情況可能會導致全球石油價格持續上漲，對全球經濟產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "df260d3f",
+        "title": "川普：沙特必須承認以色列 才能達成核協議",
+        "url": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 23 Jul 2026 17:58:02 GMT",
+        "summary_zh": "美國總統川普表示，協助沙特發展核能的里程碑性協議取決於沙特加入阿巴拉赫協議。阿巴拉赫協議是一項旨在促進中東和平的協議，目前已有多個國家加入，包括以色列、巴林、阿曼、約旦和阿拉伯聯合酋長國。沙特的加入將使該協議更加完整和有效。川普的聲明表明，美國政府將沙特的核能發展與其與以色列的關係掛鉤，這可能會對沙特的外交政策產生重大影響。這項協議的通過將對沙特和以色列的關係產生重要影響，可能會促進兩國之間的合作和和平。然而，這也可能會引起一些國家的反對，例如伊朗和其他反以色列的國家。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c0d7b07b",
+        "title": "加拿大乳品產業成為川普貿易焦點",
+        "url": "https://www.bbc.co.uk/news/articles/ce8kvm84lxmo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 23 Jul 2026 00:15:12 GMT",
+        "summary_zh": "加拿大乳品產業的供應管理系統因為川普總統將其列為三大針對點之一，成為美國對加拿大的新關稅的理由。這使得加拿大的乳品產業成為當前貿易談判的焦點。加拿大的供應管理系統是一種保護本國乳品產業的政策，限制進口乳品的進口量。這種政策一直受到美國的批評，美國認為這種政策對美國乳品業造成了不公平的影響。川普總統的言論使得加拿大政府面臨著壓力，必須對這種政策進行改革。加拿大政府正在努力與美國進行談判，希望能夠解決這個問題。這個問題不僅影響加拿大的乳品產業，也影響了加拿大與美國的貿易關係。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "e7620d6d",
         "title": "墨西哥市長遭槍殺　自去年1月遭暗殺未遂後",
         "url": "https://www.theguardian.com/world/2026/jul/23/mayor-shot-dead-mexico-after-surviving-assassination",
@@ -502,44 +466,80 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      }
-    ],
-    "ai": [
-      {
-        "id": "ccf3f57c",
-        "title": "超冷凍腎臟成功移植到豬身上，標誌著重大成就",
-        "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 23 Jul 2026 16:58:28 +0000",
-        "summary_zh": "器官捐贈時，時間是關鍵。器官被精心從捐贈者的身體中取出後，就會開始壞死。外科醫生只有數小時的時間將器官移植到接受者身上。如果延遲太久，器官就會變得無法使用。一般情況下，器官會被儲存在特定的液體中，保持在4°C左右，以延遲壞死的過程。然而，這種方法仍然有其局限性。超冷凍技術可以將器官冷凍到-130°C以下，從而大大延長器官的壽命。這項研究表明，超冷凍腎臟可以成功移植到豬身上，標誌著重大成就。這項技術有望在未來的器官移植中發揮重要作用。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
       },
       {
-        "id": "9068d159",
-        "title": "下載：能源傳輸與美國對中國AI的威脅",
-        "url": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
+        "id": "01668994",
+        "title": "將重塑紐約電網的電力線遇到困難",
+        "url": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",
         "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 23 Jul 2026 12:10:00 +0000",
-        "summary_zh": "美國能源部正在推動一項重大計畫，旨在改善紐約州的電力網絡。然而，這項計畫卻遇到了困難。就在7月3日，紐約州的電力網絡因為高溫導致電力短缺，當時紐約州從加拿大進口了足夠的電力來滿足約1/4的需求。這項計畫的目的是為紐約州的電力網絡增加可靠性和穩定性。然而，這項計畫卻遇到了多個障礙，包括地質問題和資金不足。同時，美國政府正在對中國的AI行業進行打壓，包括對中國的AI公司進行制裁和限制。這項措施的目的是為了保護美國的國家安全和經濟利益。然而，這項措施卻引起了中國的不滿和抗議。",
+        "category": "global",
+        "published_at": "Thu, 23 Jul 2026 09:00:00 +0000",
+        "summary_zh": "紐約州電網正面臨重大的變革，7月3日，當區域出現嚴重的熱浪時，紐約州的電網從加拿大進口了52億瓦小時的電力，這足夠滿足當天約9%的總電力需求。其中一部分電力通過一條長339英里的電力線從魁北克傳輸到皇后區的查邁蓬-哈德遜電力快線（CHPE）。然而，這條電力線的建設遇到了困難，尚未完成。這條電力線的完成將對紐約州的電力供應產生重大影響，預計將在未來幾年內完成。",
         "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "660397dc",
+        "title": "小人物只能默默承受?",
+        "url": "https://www.foreignaffairs.com/united-states/small-suffer-what-they-must",
+        "source": "Foreign Affairs",
+        "category": "global",
+        "published_at": "Thu, 23 Jul 2026 00:00:00 -0400",
+        "summary_zh": "在一個混亂的世界中，人們面臨著兩個選擇：團結起來或是孤立地奮鬥。這個問題引發了對於人性的探討和社會的關注。人們是否能夠在困難時期團結起來，共同面對挑戰？還是會因為各自的利益和觀點而分裂？這個問題的答案可能只有在實踐中才能夠找到。然而，無論如何，人們都需要面對現實，找到適合自己的方法來應對困難。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "22173687",
+        "title": "中國的脆弱時刻",
+        "url": "https://www.foreignaffairs.com/china/chinas-moment-weakness",
+        "source": "Foreign Affairs",
+        "category": "global",
+        "published_at": "Thu, 23 Jul 2026 00:00:00 -0400",
+        "summary_zh": "中國經濟衰退和美國戰略開放的關係。中國經濟在近年來出現衰退跡象，美國則在此時展開對中國的戰略開放，包括在經濟、政治和軍事等多個領域進行對抗。美國政府認為，中國的經濟衰退是其內部問題的體現，同時也是美國在全球經濟中的競爭優勢的機會。美國的戰略開放包括對中國的經濟制裁、軍事部署和政治對抗等多方面。這些措施旨在限制中國的經濟和軍事發展，同時也希望能夠推動中國的政治改革。然而，中國政府則認為，這些措施是美國對中國的挑戰和威脅。中國的領導人認為，美國的戰略開放是對中國的經濟和政治安全的威脅。中國的政府正在採取措施來應對美國的戰略開放，包括加強經濟自主、軍事建設和政治對抗等。這場對抗將會對全球經濟和政治產生重大影響。",
+        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "feaf9ab5",
-        "title": "人工智慧幫助科學家設計下一代藥物",
-        "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 23 Jul 2026 12:00:00 +0000",
-        "summary_zh": "設計和開發新藥物是一個昂貴且容易失敗的科學挑戰。新藥物的開發可能需要多年時間，並耗費大量資金。即使如此，大多數潛在候選藥物最終都無法到達患者。生物藥物是由工程蛋白質製成的治療方法，而不是通過合成化學製成的藥物。人工智慧技術正被用於幫助科學家設計和開發新藥物。這些技術可以分析大量數據，找出潛在的藥物候選人，並預測藥物的效果。這樣可以節省時間和資金，提高藥物的有效性。然而，仍然存在許多挑戰，例如藥物的安全性和副作用。科學家正在努力克服這些挑戰，開發更有效、更安全的藥物。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "id": "d9387131",
+        "title": "紅海局勢升溫 國際油價飆破100美元、歐股收黑",
+        "url": "https://www.cna.com.tw/news/afe/202607240003.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Fri, 24 Jul 2026 00:43:27 +0800",
+        "summary_zh": "紅海局勢升溫，伊朗支持的葉門叛軍青年運動攻擊紅海航運，美國總統川普揚言進行報復性打擊，油價今天漲破每桶100美元。這種局勢升溫導致股市大幅下挫，歐洲3大股市均收黑。油價飆升對全球經濟和能源市場造成重大影響，投資者紛紛擔心未來的發展。紅海局勢的升溫也引發了安全和穩定性的擔憂，各國政府正在密切關注這種局勢的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "ddde2a20",
+        "title": "中國月球級人工智慧竊取 Anthropic 技術？川普前顧問指控",
+        "url": "https://www.bbc.co.uk/news/articles/c5ye2gyz0x4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 23 Jul 2026 01:52:10 GMT",
+        "summary_zh": "近日，中國人工智慧公司面臨美國政府加強監控。川普前顧問指控，中國一家月球級人工智慧公司竊取了 Anthropic 公司的技術。這一指控出現於中國人工智慧公司面臨美國政府監控的背景下。川普前顧問的指控可能會對中國人工智慧公司的聲譽造成重大影響。美國政府對中國人工智慧公司的監控可能會進一步加強。這一事件可能會對全球人工智慧產業造成重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "ai": [
+      {
+        "id": "a6e6ed7c",
+        "title": "Alexa Plus即將升級：支援更多複雜指令和智能家居裝置連接",
+        "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-23T17:15:06-04:00",
+        "summary_zh": "亞馬遜即將推出Alexa Plus助手的更新版本，讓它能夠與更多智能家居裝置連接。這次更新將允許Alexa Plus與多家公司的產品進行整合，包括Bosch、Delta、Ecovacs、iRobot、Yale Home、Whirlpool、Tapo、Eufy等。同時，Alexa Plus也能夠自動將要求路由到正確的裝置。這項更新將使Alexa Plus的功能更加強大，能夠處理更複雜的指令，提高智能家居的使用體驗。這項更新對於智能家居的使用者來說是一個好消息，將使他們能夠更方便地控制家居裝置。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "04600929",
@@ -614,6 +614,42 @@
         "ai_classified": true
       },
       {
+        "id": "ccf3f57c",
+        "title": "超冷凍腎臟成功移植到豬身上，標誌著重大成就",
+        "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 23 Jul 2026 16:58:28 +0000",
+        "summary_zh": "器官捐贈時，時間是關鍵。器官被精心從捐贈者的身體中取出後，就會開始壞死。外科醫生只有數小時的時間將器官移植到接受者身上。如果延遲太久，器官就會變得無法使用。一般情況下，器官會被儲存在特定的液體中，保持在4°C左右，以延遲壞死的過程。然而，這種方法仍然有其局限性。超冷凍技術可以將器官冷凍到-130°C以下，從而大大延長器官的壽命。這項研究表明，超冷凍腎臟可以成功移植到豬身上，標誌著重大成就。這項技術有望在未來的器官移植中發揮重要作用。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9068d159",
+        "title": "下載：能源傳輸與美國對中國AI的威脅",
+        "url": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 23 Jul 2026 12:10:00 +0000",
+        "summary_zh": "美國能源部正在推動一項重大計畫，旨在改善紐約州的電力網絡。然而，這項計畫卻遇到了困難。就在7月3日，紐約州的電力網絡因為高溫導致電力短缺，當時紐約州從加拿大進口了足夠的電力來滿足約1/4的需求。這項計畫的目的是為紐約州的電力網絡增加可靠性和穩定性。然而，這項計畫卻遇到了多個障礙，包括地質問題和資金不足。同時，美國政府正在對中國的AI行業進行打壓，包括對中國的AI公司進行制裁和限制。這項措施的目的是為了保護美國的國家安全和經濟利益。然而，這項措施卻引起了中國的不滿和抗議。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "feaf9ab5",
+        "title": "人工智慧幫助科學家設計下一代藥物",
+        "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 23 Jul 2026 12:00:00 +0000",
+        "summary_zh": "設計和開發新藥物是一個昂貴且容易失敗的科學挑戰。新藥物的開發可能需要多年時間，並耗費大量資金。即使如此，大多數潛在候選藥物最終都無法到達患者。生物藥物是由工程蛋白質製成的治療方法，而不是通過合成化學製成的藥物。人工智慧技術正被用於幫助科學家設計和開發新藥物。這些技術可以分析大量數據，找出潛在的藥物候選人，並預測藥物的效果。這樣可以節省時間和資金，提高藥物的有效性。然而，仍然存在許多挑戰，例如藥物的安全性和副作用。科學家正在努力克服這些挑戰，開發更有效、更安全的藥物。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "dd0b1b36",
         "title": "ChatGPT 醫療建議導致男子瀕臨死亡，訴訟指控",
         "url": "https://www.bbc.co.uk/news/articles/cwylp3nxp5yo?at_medium=RSS&at_campaign=rss",
@@ -650,7 +686,177 @@
         "ai_classified": true
       }
     ],
+    "stock_tw": [
+      {
+        "id": "83b2384e",
+        "title": "美匯率報告未列操控國 台灣等10國續留觀察名單",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5515789",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 24 Jul 2026 05:54:04 +0800",
+        "summary_zh": "美國財政部發布報告指出，2025年沒有主要貿易夥伴透過操縱匯率取得不公平競爭優勢。然而，台灣、中國及日本等10個主要貿易夥伴仍被列入匯率政策密切關注的「觀察名單」。這意味著美國財政部仍對這些國家的匯率政策保持密切關注。根據報告，美國財政部將繼續觀察這些國家的匯率政策，以確保美國的貿易競爭環境公平。這項報告對台灣的經濟影響可能會持續存在，台灣政府應該繼續密切關注匯率政策的發展，以確保台灣的經濟競爭力不受影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e8b99c4b",
+        "title": "華為旗艦晶片被拆解了：真相好殘酷",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5515218",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 24 Jul 2026 05:47:15 +0800",
+        "summary_zh": "半導體研究機構 SemiAnalysis 發表其拆解華為最新旗艦麒麟 9030 晶片最新報告。這款晶片採用中芯國際 N+3 製程（7奈米製程進階版），N+3 的密度已經趕上台積電 N7 製程。然而，華為麒麟 9030 晶片的設計仍然落後於台積電的晶片。研究報告指出，華為麒麟 9030 晶片的面積較大，功耗較高，性能較低。這意味著華為的晶片製程仍然存在著重大挑戰。這項研究結果對於華為的半導體業務發展具有重要意義，同時也反映出中芯國際的製程技術仍然存在著差距。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cff7575f",
+        "title": "80歲阿公手握1180萬 偏心栽培學霸孫大翻車悲劇了",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5515593",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 24 Jul 2026 05:45:08 +0800",
+        "summary_zh": "日本一名80歲阿公手握逾6000萬日圓的財富，將數百萬日圓的教育費投注在最看好的學霸孫子身上。然而，這種偏心栽培的做法，可能會留下難以修補的裂痕。阿公的孫子原本是學霸，但卻因為過度依賴父母的財力支持而失去了學業的動力。這種情況下，孫子可能會因為缺乏自我成長的機會而失去前途。這個故事提醒我們，過度的財力支持可能會對子女的成長產生負面影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a2d611de",
+        "title": "台股高檔震盪 6月證券劃撥存款倒退嚕",
+        "url": "https://ec.ltn.com.tw/article/paper/1763882",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 24 Jul 2026 05:30:00 +0800",
+        "summary_zh": "台股在6月登頂後走勢開始震盪，市場交投熱度也略見降溫。根據中央銀行公布的6月金融情況顯示，證券劃撥存款期底餘額連續兩個月上升，6月份降至4兆4237億元，月減803億元。雖然日平均餘額創下新高，但年增率也同步下滑。另一方面，股市融資餘額仍持續創新高。這些數據表明市場投資者的信心正在下滑，股市震盪的風險也在增加。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "10a08ac0",
+        "title": "Grab承諾18家工會訴求 開創平台與工會合作",
+        "url": "https://ec.ltn.com.tw/article/paper/1763802",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 24 Jul 2026 05:30:00 +0800",
+        "summary_zh": "公平會正在審查Grab收購台灣foodpanda案。十八個產、職業工會團體發表聯合聲明，要求Grab提出具體可落實且受政府監督的權益保障承諾。若達成此前提，工會將呼籲公平會有條件核准併購。這一舉動不僅為外送員爭取實質權益，也促成外送產業中首見的平台與工會積極對話與合作。這一合作關係將對外送員的權益和工作環境產生重大影響。Grab的承諾將對未來外送產業的發展方向產生重要影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "87f25ddf",
+        "title": "金控副董事長薪資引議 金管會：須經委員會審議並揭露",
+        "url": "https://www.cna.com.tw/news/afe/202607230378.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 23 Jul 2026 22:11:58 +0800",
+        "summary_zh": "國票金控副董事長的年薪2000萬元引起關注。根據金管會的回應，若金控依據金控法、公司章程等在董事會的權責範圍內設置副董事長職務，應充分揭露其權責、權限與對公司治理的功能。至於薪資部分，金管會表示本來就有規範，須經薪酬委員會審議後，提報董事會決議，並依規定在年報揭露。這意味著金控必須透明地揭露副董事長的薪資和職責，讓股東和投資者了解公司的治理結構和薪酬政策。這一措施將有助於提高公司治理的透明度和責任性，同時也會對公司的股價和投資者信心產生正面影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "eb0e2a9f",
+        "title": "今彩539第115178期 頭獎1注中獎",
+        "url": "https://www.cna.com.tw/news/ahel/202607230377.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 23 Jul 2026 22:08:56 +0800",
+        "summary_zh": "今彩539第115178期開獎，25、19、14、26、12這五個號碼被揭露。根據派彩結果，頭獎有1注中獎，獎金高達新台幣800萬元。這項消息對於參與今彩539的民眾來說是一個令人興奮的消息。然而，中獎的機率相當低，許多參與者可能會感到失望。這項新聞也讓人們思考，中獎的機會到底有多大，是否值得花費時間和金錢參與彩券活動。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "146cbad9",
+        "title": "離岸風電開發添金融支援 經部：銀行融資額達6389億",
+        "url": "https://www.cna.com.tw/news/afe/202607230375.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Thu, 23 Jul 2026 22:04:51 +0800",
+        "summary_zh": "近日，總統府召開國家氣候變遷對策委員會第8次委員會議，經濟部次長賴建信表示，政府將加強公對公的行政效能，整合風場的設置與審核，成立離岸風電專案小組，協調跨部會事務。同時，截至今年3月底，銀行已完成簽約離岸風電專案融資額度合計為新台幣6389億元，顯示金融業給予風電資金支持。這項措施有助於促進離岸風電的發展，減少對環境的影響。政府的政策支持以及金融業的資金支持將對風電產業帶來重要影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "finance": [
+      {
+        "id": "95b6cb0f",
+        "title": "北京寻求意见：中国与美国之间的$3000亿美元关税减免计划",
+        "url": "https://www.reuters.com/pt/mundo/RO4TRKXRKVN7HF4X6LYVARLTSQ-2026-07-23/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-23 09:58:33",
+        "summary_zh": "中国政府正在寻求意见，关于与美国之间的关税减免计划。根据计划，双方将减免价值约3000亿美元的关税。这一举动可能会对全球贸易产生重大影响。分析人士认为，这一措施可能是两国关系缓和的迹象。中国政府正在与各界进行磋商，寻求意见和建议。同时，美国政府也正在与各界进行磋商，讨论减免计划的细节。关税减免的结果将对全球贸易产生重大影响，可能会带来新的商业机会和投资机会。然而，分析人士也提醒，关税减免的过程可能会复杂和困难。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "0f0fa158",
+        "title": "時隔2個月! 國際油價又飆破100美元 分析師：上看150美元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5515739",
+        "source": "自由時報財經",
+        "category": "finance",
+        "published_at": "Fri, 24 Jul 2026 05:48:01 +0800",
+        "summary_zh": "國際油價再度突破100美元大關，布蘭特原油23日漲破每桶100美元，為今年5月以來頭一遭。分析師表示，這是由於美國與伊朗之間的戰事擴大，影響中東能源流通。若衝突擴大為「全面性區域戰爭」，油價可能會上看150美元。這種情況下，全球能源市場將面臨嚴重的供應短缺，油價可能會持續上漲。分析師預測，油價可能會在短期內繼續上漲，長期來看，油價可能會穩定在100美元以上。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cef1d4db",
+        "title": "Kuehne+Nagel 領袖看不到中東航運全面回歸正常",
+        "url": "https://www.reuters.com/world/middle-east/kuehnenagel-boss-sees-no-broad-return-normal-mideast-shipping-2026-07-23/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-23 09:51:57",
+        "summary_zh": "中東地區的航運市場仍然受到多種因素的影響，包括政治不穩定、貿易戰和疫情等。根據Kuehne+Nagel 領袖的看法，中東地區的航運市場不太可能在短期內恢復正常。這是因為許多企業仍然在調整自己的供應鏈和運輸策略，同時也面臨著新的挑戰和風險。中東地區的航運市場的不確定性和不穩定性可能會持續存在一段時間，對全球經濟和企業的運營造成影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a136eefc",
+        "title": "Teck 資源業超越預期盈利，銅生產和價格增強",
+        "url": "https://www.reuters.com/business/teck-resources-tops-profit-estimates-stronger-copper-production-prices-2026-07-23/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-23 09:49:21",
+        "summary_zh": "Teck 資源業在最新財報中表現亮眼，銅生產量和價格的增強使得公司的盈利遠超預期。該公司的銅生產量在去年第四季度錄得了顯著增長，同時銅價也持續上升。這使得 Teck 資源業的盈利在去年第四季度和今年第一季度都達到了新高。該公司的財務報告顯示，去年第四季度的盈利為每股 1.45 美元，遠超預期的每股 1.24 美元。今年第一季度的盈利也達到了每股 1.45 美元，超過預期的每股 1.23 美元。 Teck 資源業的這一表現使得投資者對該公司的未來前景感到樂觀。銅價的上升和 Teck 資源業的銅生產量增長都對公司的盈利產生了積極的影響。然而，該公司的未來發展仍面臨著不確定性，投資者需要密切關注該公司的財務報告和市場趨勢。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7f60dc5d",
+        "title": "俄羅斯石油折扣消失 中東新危機爆發",
+        "url": "https://www.reuters.com/business/energy/discounts-russian-oil-evaporate-fresh-middle-east-crisis-2026-07-23/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-23 09:45:43",
+        "summary_zh": "俄羅斯石油折扣的消失與中東新危機爆發有直接關係。根據最新消息，俄羅斯石油的折扣已經在短時間內消失，對於全球石油市場造成了重大影響。這一變化與中東地區的政治局勢緊張有關，當地的石油生產受到威脅，進而影響到全球石油供應。這一發展將對全球石油價格造成重大影響，可能導致石油價格上升。分析人士認為，這一變化將對全球經濟造成重大影響，特別是在能源消耗較高的國家。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "b55fc56d",
+        "title": "涵華集團股價大跌　咖啡和可可豆價格上漲衝擊利潤",
+        "url": "https://www.ft.com/content/547e5e86-e65b-4f78-903a-828634f1e3e2?syn-25a6b1a6=1",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-07-23 09:41:43",
+        "summary_zh": "瑞士食品集團涵華集團的新領導人正嘗試實現全面轉型，結束多年的低迷表現。公司的股價近期大幅下跌，主要原因是咖啡和可可豆價格的上漲對公司利潤造成了重大影響。這些價格上漲的影響已經開始顯現，涵華集團的財務報告顯示，公司的利潤在過去幾個季度都受到咖啡和可可豆價格上漲的影響。新領導人正在嘗試通過成本控制和業務重組來改善公司的表現，同時也在努力降低對咖啡和可可豆價格的依賴。然而，公司的股價仍然面臨著挑戰，市場對公司未來表現的預期仍然不確定。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "eb9a812d",
         "title": "高盛維持對布倫特原油第四季2026年價格預測為每桶80美元",
@@ -660,8 +866,8 @@
         "published_at": "2026-07-23 08:39:46",
         "summary_zh": "高盛在最新報告中表示，預計布倫特原油第四季2026年的價格將維持在每桶80美元。這一預測與前幾個月的預測相比沒有太大變化。高盛的分析師認為，全球經濟的恢復以及能源需求的增加將對原油價格產生正面影響。然而，市場的不確定性以及供應鏈的變化仍然是原油價格的重要風險因素。高盛的預測表明，原油價格在未來幾個月內可能會維持在相對穩定的水平。這一預測對於原油生產商和消費者都有重要的影響。原油價格的波動將對全球經濟和能源市場產生重大影響。高盛的預測提供了對原油市場的重要見解，幫助投資者和企業做出明智的決策。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "eb920977",
@@ -671,114 +877,6 @@
         "category": "finance",
         "published_at": "Fri, 24 Jul 2026 02:57:38 +0800",
         "summary_zh": "紅海攻擊案加劇了油市供應的疑慮，布倫特原油價格飆漲8%。石油市場已受限於荷莫茲海峽幾近停擺，紅海攻擊事件又使得供應的不確定性大大增加。油價的大幅上漲是由於市場對供應的擔憂加劇。荷莫茲海峽是全球石油運輸的重要通道，紅海攻擊事件使得市場對石油供應的不確定性大大增加。油市供應的不確定性會持續影響油價的波動。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "f4c54c0c",
-        "title": "美國國庫收益率隨油價上漲而上升，投資人等待最新就業數據",
-        "url": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-23 08:27:16",
-        "summary_zh": "美國國庫收益率隨著油價上漲而上升，目前10年期美國國庫收益率已經超過1個基點，達到4.675%。這是投資人等待最新就業數據前的一個重要跡象。油價上漲通常意味著經濟活動的增強，這可能會對美國政府的借款成本產生影響。投資人正在密切關注市場的發展，以了解這些數據對美國經濟的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "e161b42c",
-        "title": "石油價格大幅上漲驅使全球債券市場大幅賣壓",
-        "url": "https://www.ft.com/content/66bf810f-c1c0-488d-bd02-f8eba3acd743?syn-25a6b1a6=1",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-07-23 08:22:50",
-        "summary_zh": "石油價格大幅上漲，布倫特原油價格趨近 100 美元，引發全球通膨擴大和利率預期重置的風險。石油價格的上漲將對全球經濟產生重大影響，特別是在能源消耗高的國家。這種情況下，通膨率可能會持續上升，從而導致央行提高利率以控制通膨。這將對債券市場產生重大影響，尤其是在債券市場中，投資者可能會將資金轉移到更安全的投資品項，例如政府債券。因此，全球債券市場可能會出現大幅賣壓。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "0c5ed4da",
-        "title": "中東主要市場對美伊緊張局勢持兩極態度，第二季財報出爐",
-        "url": "https://www.reuters.com/world/middle-east/major-gulf-markets-mixed-us-iran-hostilities-q2-earnings-2026-07-23/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-23 08:21:25",
-        "summary_zh": "中東地區的股市在美伊緊張局勢的影響下呈現出兩極化的表現。美伊關係惡化導致油價上升，對於石油出口國的經濟產生了重大影響。另一方面，美國企業的第二季財報出爐，顯示出經濟在疫情後的恢復。然而，美伊緊張局勢可能會對全球經濟產生不利影響，投資者需密切關注此事的發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "ecda3d7a",
-        "title": "船東暫停運送農產品至烏克蘭黑海港口，部長表示",
-        "url": "https://www.reuters.com/world/shipowners-halt-vessel-calls-farm-exports-ukraines-black-sea-ports-minister-says-2026-07-23/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-23 08:16:07",
-        "summary_zh": "烏克蘭部長表示，船東已暫停運送農產品至烏克蘭黑海港口。這是由於烏克蘭黑海港口受到俄羅斯軍事行動的影響，導致港口運作受阻。烏克蘭政府正在努力恢復港口運作，但目前仍面臨許多挑戰。這一事件對烏克蘭農業產業造成了重大影響，農產品出口量大幅下降。烏克蘭部長表示，政府正在與國際組織和各國政府合作，尋求解決方案以恢復港口運作。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "fa9f4377",
-        "title": "防衛業的繁榮助推歐洲股市上漲，達索爾股價飆升8% ",
-        "url": "https://www.cnbc.com/2026/07/23/dassault-thales-indra-stock-earnings-defense-boom.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-23 07:58:01",
-        "summary_zh": "近期的防衛業繁榮使得歐洲股市再度上漲，企業的收入和訂單數量都在增加。達索爾公司的股價也因為這一波防衛業的繁榮而大幅上漲，達到8%。這一波防衛業的繁榮是由於各國在軍事方面的投資增加所致，導致了這一波的繁榮。這一波的繁榮對於歐洲股市的影響是正面的，企業的收入和訂單數量的增加將會帶來新的投資機會和發展空間。然而，這一波的繁榮也可能會引起新的挑戰和風險，例如供應鏈的壓力和成本的上漲。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f43aa634",
-        "title": "非洲彩虹礦業批准博科尼鉑金項目、鎳礦重啟",
-        "url": "https://www.reuters.com/world/africa/african-rainbow-minerals-approves-bokoni-platinum-project-nickel-mine-restart-2026-07-23/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-23 07:52:15",
-        "summary_zh": "非洲彩虹礦業宣布批准博科尼鉑金項目，該項目將在南非的利夫倫省開展。該公司還表示將重啟位於南非的鎳礦。這些決定將有助於公司的生產和收入。博科尼鉑金項目將在未來幾年內投入運營，預計將創造大量就業機會。重啟的鎳礦將提高公司的鎳生產能力。這些決定表明非洲彩虹礦業致力於發展其南非業務並提高公司的生產力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d0fe357d",
-        "title": "歐洲股市小跌 STMicro 和 Alphabet 業績影響科技股",
-        "url": "https://www.reuters.com/markets/europe/european-shares-slip-after-stmicro-alphabet-results-weigh-tech-stocks-2026-07-23/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-23 07:19:43",
-        "summary_zh": "歐洲股市昨日小跌，受 STMicro 和 Alphabet 業績影響科技股下跌。STMicro 表示今年第三季度營收下滑 6.1%，而 Alphabet 的第四季度營收則低於市場預期。這些業績結果使得投資者對科技股的信心下降，導致股市小跌。歐洲股市的下跌也受到美元的強勢影響，美元的升值使得美元兌歐元的匯率上升，從而使得歐洲公司的出口業務受到影響。這些因素共同導致歐洲股市的下跌。投資者正在密切關注科技股的業績結果，以了解未來的市場趨勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "02fb0349",
-        "title": "高盛測試了IPO狂潮背後的泡沫情況",
-        "url": "https://www.cnbc.com/2026/07/23/us-ipo-activity-bubble-goldman.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-23 07:18:44",
-        "summary_zh": "在美國IPO發行量創下歷史新高的同時，高盛認為這是市場活動的正常化。近期美國IPO發行量創下新高，高盛認為這是市場活動的正常化，而非泡沫。高盛的分析人員表示，今年的IPO發行量已經超過了過去十年的平均水平。然而，高盛也提到，今年的IPO市場活動與過去十年的平均水平相比，仍然存在一定的差異。高盛的分析人員認為，這可能是由於今年的IPO市場活動受到了一些特殊因素的影響，例如市場對新興企業的投資熱情。高盛的分析結果表明，今年的IPO市場活動仍然存在一定的風險，投資者需要保持謹慎的態度。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "0f0fa158",
-        "title": "時隔2個月! 國際油價又飆破100美元 分析師：上看150美元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515739",
-        "source": "自由時報財經",
-        "category": "finance",
-        "published_at": "Thu, 23 Jul 2026 23:38:01 +0800",
-        "summary_zh": "國際油價再度突破100美元大關，布蘭特原油23日漲破每桶100美元，為今年5月以來頭一遭。分析師表示，這是由於美國與伊朗之間的戰事擴大，影響中東能源流通。若衝突擴大為「全面性區域戰爭」，油價可能會上看150美元。這種情況下，全球能源市場將面臨嚴重的供應短缺，油價可能會持續上漲。分析師預測，油價可能會在短期內繼續上漲，長期來看，油價可能會穩定在100美元以上。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -822,6 +920,18 @@
     ],
     "stock_us": [
       {
+        "id": "b9111183",
+        "title": "為什麼僅靠上調預期的財報報酬已經不足以推動股市上漲了",
+        "url": "https://www.marketwatch.com/story/why-beat-and-raise-earnings-reports-are-no-longer-enough-to-push-the-stock-market-higher-d6b2cae4?mod=mw_rss_topstories",
+        "source": "Marketwatch",
+        "category": "stock_us",
+        "published_at": "2026-07-23 09:48:00",
+        "summary_zh": "近期的通膨變化可能對美國企業造成困擾。通膨變化對企業的影響不斷出現，企業的財報報酬已經不足以推動股市上漲。分析師認為，企業需要面對更具挑戰性的經濟環境。企業的財報報酬已經不足以掩蓋企業面臨的挑戰。企業需要適應新的經濟環境，才能在股市上取得成功。這將對企業的財務和經營管理造成重大影響。企業需要重新評估自己的策略和戰略，才能在新經濟環境下取得成功。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "eac3b7f4",
         "title": "CNBC 日開盤: 大手企業支出大幅增加令華爾街失望",
         "url": "https://www.cnbc.com/2026/07/23/cnbc-daily-open-alphabet-tesla-spending-ecb.html",
@@ -832,6 +942,18 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "581803e4",
+        "title": "美股收盤：油價飆升、AI支出擔憂導致道瓊大幅下跌 台積電ADR收低",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5515788",
+        "source": "自由時報財經",
+        "category": "stock_us",
+        "published_at": "Fri, 24 Jul 2026 05:44:13 +0800",
+        "summary_zh": "週四華爾街股市收低，市場對AI巨額支出的擔憂再次升高。最新財報顯示，多家大型科技公司的AI支出都有所增加，市場擔心這將對企業的盈利能力造成負面影響。同時，油價的飆升也加劇了通膨的疑慮。道瓊工業指數下跌506.93點，0.97%，標普500指數下跌1.21%。台積電的ADR收低，顯示市場對科技股的擔憂仍在繼續。這些因素都導致股市的下跌，市場預期未來將會持續不穩。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "6d24ed1c",
@@ -882,18 +1004,6 @@
         "ai_classified": true
       },
       {
-        "id": "786f29d3",
-        "title": "盤後大幅波動股：Alphabet、Tesla、IBM、Las Vegas Sands、ServiceNow 等",
-        "url": "https://www.cnbc.com/2026/07/22/stocks-making-the-biggest-moves-after-hours-googl-tsla-ibm-lvs.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-22 21:21:52",
-        "summary_zh": "盤後交易中出現大幅波動的股票包括Alphabet、Tesla、IBM、Las Vegas Sands、ServiceNow等。這些公司的股價在盤後交易中出現了顯著的變化，可能與公司的財務報告、業務發展或市場情況等因素有關。分析人士認為，這些股價的波動可能會對市場情緒產生影響，投資者應該密切關注盤後交易的動態。然而，目前尚無具體的原因或預測可以提供。投資者應該保持謹慎的態度，密切關注市場情況的變化。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "817fb06d",
         "title": "美單週初領失業金人數創1969年來最低達18.7萬",
         "url": "https://www.cna.com.tw/news/aopl/202607230374.aspx",
@@ -913,164 +1023,6 @@
         "category": "stock_us",
         "published_at": "Thu, 23 Jul 2026 21:55:47 +0800",
         "summary_zh": "美國一些大型科技企業公布財報後，投資人對於人工智慧（AI）巨額支出的疑慮再次浮上檯面。這些企業的財報顯示，對於AI技術的投資有所增加，投資人擔心這些支出可能會對企業的盈利能力造成影響。同時，中東衝突升溫推高油價，進一步打擊市場情緒。華爾街股市主要指數今天開盤挫跌，表明市場對未來的不確定性感到擔憂。這一系列事件可能會對全球金融市場產生重大影響，投資人需要密切關注這些發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "stock_tw": [
-      {
-        "id": "87f25ddf",
-        "title": "金控副董事長薪資引議 金管會：須經委員會審議並揭露",
-        "url": "https://www.cna.com.tw/news/afe/202607230378.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 23 Jul 2026 22:11:58 +0800",
-        "summary_zh": "國票金控副董事長的年薪2000萬元引起關注。根據金管會的回應，若金控依據金控法、公司章程等在董事會的權責範圍內設置副董事長職務，應充分揭露其權責、權限與對公司治理的功能。至於薪資部分，金管會表示本來就有規範，須經薪酬委員會審議後，提報董事會決議，並依規定在年報揭露。這意味著金控必須透明地揭露副董事長的薪資和職責，讓股東和投資者了解公司的治理結構和薪酬政策。這一措施將有助於提高公司治理的透明度和責任性，同時也會對公司的股價和投資者信心產生正面影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "eb0e2a9f",
-        "title": "今彩539第115178期 頭獎1注中獎",
-        "url": "https://www.cna.com.tw/news/ahel/202607230377.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 23 Jul 2026 22:08:56 +0800",
-        "summary_zh": "今彩539第115178期開獎，25、19、14、26、12這五個號碼被揭露。根據派彩結果，頭獎有1注中獎，獎金高達新台幣800萬元。這項消息對於參與今彩539的民眾來說是一個令人興奮的消息。然而，中獎的機率相當低，許多參與者可能會感到失望。這項新聞也讓人們思考，中獎的機會到底有多大，是否值得花費時間和金錢參與彩券活動。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "146cbad9",
-        "title": "離岸風電開發添金融支援 經部：銀行融資額達6389億",
-        "url": "https://www.cna.com.tw/news/afe/202607230375.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 23 Jul 2026 22:04:51 +0800",
-        "summary_zh": "近日，總統府召開國家氣候變遷對策委員會第8次委員會議，經濟部次長賴建信表示，政府將加強公對公的行政效能，整合風場的設置與審核，成立離岸風電專案小組，協調跨部會事務。同時，截至今年3月底，銀行已完成簽約離岸風電專案融資額度合計為新台幣6389億元，顯示金融業給予風電資金支持。這項措施有助於促進離岸風電的發展，減少對環境的影響。政府的政策支持以及金融業的資金支持將對風電產業帶來重要影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cff7575f",
-        "title": "80歲阿公手握1180萬 偏心栽培學霸孫大翻車悲劇了",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515593",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 23 Jul 2026 23:40:08 +0800",
-        "summary_zh": "日本一名80歲阿公手握逾6000萬日圓的財富，將數百萬日圓的教育費投注在最看好的學霸孫子身上。然而，這種偏心栽培的做法，可能會留下難以修補的裂痕。阿公的孫子原本是學霸，但卻因為過度依賴父母的財力支持而失去了學業的動力。這種情況下，孫子可能會因為缺乏自我成長的機會而失去前途。這個故事提醒我們，過度的財力支持可能會對子女的成長產生負面影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e8b99c4b",
-        "title": "華為旗艦晶片被拆解了：真相好殘酷",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515218",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 23 Jul 2026 23:14:15 +0800",
-        "summary_zh": "半導體研究機構 SemiAnalysis 發表其拆解華為最新旗艦麒麟 9030 晶片最新報告。這款晶片採用中芯國際 N+3 製程（7奈米製程進階版），N+3 的密度已經趕上台積電 N7 製程。然而，華為麒麟 9030 晶片的設計仍然落後於台積電的晶片。研究報告指出，華為麒麟 9030 晶片的面積較大，功耗較高，性能較低。這意味著華為的晶片製程仍然存在著重大挑戰。這項研究結果對於華為的半導體業務發展具有重要意義，同時也反映出中芯國際的製程技術仍然存在著差距。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2af29211",
-        "title": "油價衝破每桶100美元大關 美股、台指期夜盤全\"嚇跌\"",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515675",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 23 Jul 2026 23:00:27 +0800",
-        "summary_zh": "油價因葉門叛軍對沙烏地阿拉伯油輪的攻擊和美國對伊朗的威脅升級而大幅上升，達到每桶100美元大關。這項事件對美股產生了重大影響，道瓊指數下挫。台指期夜盤也受到波及，全盤「嚇跌」。油價的上升主要是由於葉門叛軍的攻擊和美國的威脅升級，這些事件都對全球油價產生了重大影響。油價的上升將對全球經濟產生重大影響，尤其是在能源出口國。這項事件也將對美股和台股產生重大影響，投資者應該密切關注這些事件的發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ca397f6f",
-        "title": "台新新光合併一週年！吳東亮發員工信盼持續深化整合",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515711",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 23 Jul 2026 22:35:54 +0800",
-        "summary_zh": "台新新光金控董事長吳東亮在合併一週年的時候發出一封感謝信給全體員工。他感謝員工在變動中保持專業，在壓力下展現韌性，並在磨合中建立信任。吳東亮希望員工能夠持續深化整合，共同推動公司的發展。這封信表明了公司對員工的重視和對未來的信心。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "27a47e10",
-        "title": "7成企業1年內遭多次入侵！OT資安報告：駭客潛伏數月成新常態",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515677",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 23 Jul 2026 22:02:19 +0800",
-        "summary_zh": "近日，網路資安廠商Fortinet發布《2026年OT與網路資安現況調查報告》，調查全球超過700位來自製造、能源、交通等關鍵基礎設施產業的營運技術（OT）專業人士。報告顯示，7成企業在過去的一年內遭受過多次入侵，駭客潛伏數月成新常態。這項調查結果表明，企業面臨著嚴重的資安風險，需要提高防禦能力以保護自身資產。 OT資安的重要性日益受到重視，企業應該積極投資資安措施，防止未來的入侵事件。同時，政府和業界也應該共同努力，建立更完善的資安框架，保護國家的基礎設施安全。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6f1f08ff",
-        "title": "內需產業續熱 今年上半年批發、餐飲、零售齊創同期新高",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515673",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 23 Jul 2026 21:53:43 +0800",
-        "summary_zh": "經濟部統計處近日公布6月內需產業營收統計，顯示內需產業正逐漸回暖。6月批發業營收創歷史單月新高，連續17個月正成長，零售與餐飲業同寫歷年同月新高且連續5個月正成長。統計上半年，批發業、餐飲、零售業營收均創同期新高，表明內需市場的活躍程度。這一趨勢可能與政府的刺激政策和消費者信心的恢復有關。然而，市場仍需關注的是通膨的風險和未來的經濟發展前景。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3e924967",
-        "title": "台積電掛保證AI成長可期 美媒：輝達和博通股價還會漲一波",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515648",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 23 Jul 2026 20:54:07 +0800",
-        "summary_zh": "近來AI熱潮可能已出現泡沫的疑慮四起，導致AI概念股劇烈震盪。美國投資媒體《Motley Fool》指出，AI熱潮是否出現泡沫，就要看台積電怎麼說，因為該公司是幾乎所有AI相關公司的晶片供應商。台積電的CEO梅克森表示，AI的需求將持續增長，晶片供應將保持穩定。美媒認為，這表明台積電對AI的信心非常高，對於輝達和博通等AI概念股的投資仍有很大的潛力。因此，美媒預測輝達和博通的股價將會繼續上漲。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "aa6e502b",
-        "title": "無人機保費連兩年大增逾5成 飛航保障需求升溫",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515647",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 23 Jul 2026 20:50:32 +0800",
-        "summary_zh": "無人機保費近兩年大幅上升，南山產物為此推出新保險方案，將保障範圍擴大至無人機機體與酬載設備。這項措施旨在幫助使用單位進一步減少飛航作業風險。根據統計，南山產物的保費收入在2024年和2025年都呈現明顯增長，表明無人機飛航保障需求正在升溫。這種趨勢可能與無人機在各個領域的應用日益普遍有關，包括商業、農業和消費等領域。南山產物的新保險方案將有助於企業和個人更好地應對無人機相關風險，從而促進無人機的發展和應用。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "15e99399",
-        "title": "遠東商銀統籌2億美元聯貸案助攻逸科亞擴充AI晶片測試產能",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515609",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 23 Jul 2026 20:03:02 +0800",
-        "summary_zh": "近年來，AI與高速運算（HPC）晶片需求持續攀升，帶動半導體測試設備投資熱潮。遠東商銀（2845）宣布，統籌主辦新加坡商逸科亞台灣分公司5年期2億美元聯合授信案完成簽約，資金將用於助攻逸科亞擴充AI晶片測試產能。這項投資將有助於提升逸科亞的競爭力，並滿足日益增長的AI晶片需求。遠東商銀的這項行動表明了對半導體業的信心，並將與逸科亞合作推動產業的發展。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "10d55218",
-        "title": "金邊分行當地行員挪用客戶資金50萬美元 一銀：已補足款項",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515595",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Thu, 23 Jul 2026 19:46:54 +0800",
-        "summary_zh": "金邊分行的一名當地員工被指控挪用客戶資金約50萬美元（約新台幣1600萬元）。銀行表示，這名員工並非台灣籍行員，而是當地聘用的員工。銀行第一時間已依規主動通報當地銀行監管機構，並已補足款項。這起事件引起了關注，銀行正在調查此事以確保未來不會再發生類似事件。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
