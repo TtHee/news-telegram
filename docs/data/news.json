@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-24T11:07:38.380220+08:00",
+  "generated_at": "2026-07-24T12:07:17.804856+08:00",
   "risk_signals": [
-    "🟡 台股加權 43766.11（下跌 -2.42%，留意）",
+    "🟡 台股加權 43785.31（下跌 -2.38%，留意）",
     "🟢 S&P 500 7408.3（正常）",
     "🟢 VIX 恐慌指數 18.7（正常）",
-    "🟢 MOVE 債市波動 80.08（正常）",
-    "🟢 美元指數 101.41（正常）",
-    "🟢 黃金 4028.2（正常）",
+    "🟢 MOVE 債市波動 70.88（正常）",
+    "🟢 美元指數 101.43（正常）",
+    "🟢 黃金 4046.6（正常）",
     "🟡 美債10Y殖利率 4.7（留意）",
-    "🟢 原油 WTI 91.79（正常）",
+    "🔴 原油 WTI 92.19（急漲 +6.17%，市場避險）",
     "🟢 美元/台幣 32.35（正常）"
   ],
-  "ai_summary": "市場氛圍偏於偏憂，台股下跌超過美股，美元指數正常但美債10Y殖利率升高，表明投資者對未來景氣感到擔憂。",
+  "ai_summary": "市場氛圍偏於謹慎，美元指數和原油急漲引發市場避險情緒，台股下跌超過2%，美債10年殖利率略有上升。",
   "market": {
     "TWII": {
-      "price": 43766.11,
-      "change_pct": -2.42
+      "price": 43785.31,
+      "change_pct": -2.38
     },
     "SP500": {
       "price": 7408.3,
@@ -34,20 +34,20 @@
       "change_pct": 0.99
     },
     "MOVE": {
-      "price": 80.08,
-      "change_pct": 12.98
+      "price": 70.88,
+      "change_pct": null
     },
     "DXY": {
-      "price": 101.41,
-      "change_pct": -0.02
+      "price": 101.43,
+      "change_pct": 0.29
     },
     "GOLD": {
-      "price": 4028.2,
-      "change_pct": -0.45
+      "price": 4046.6,
+      "change_pct": -2.42
     },
     "OIL": {
-      "price": 91.79,
-      "change_pct": -0.43
+      "price": 92.19,
+      "change_pct": 6.17
     },
     "USDTWD": {
       "price": 32.35,
@@ -57,18 +57,6 @@
   "macro": {},
   "categories": {
     "whitehouse": [
-      {
-        "id": "6c4a11ee",
-        "title": "美國對多國實施關稅，指控違反勞工權益",
-        "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Fri, 24 Jul 2026 02:10:00 GMT",
-        "summary_zh": "美國政府對全球 60 個國家實施關稅，理由是這些國家未能有效防止勞工受迫害。這項措施旨在懲罰那些未能保護勞工權益的國家，同時也希望能夠促進勞工權益的改善。美國政府認為，這些國家的產品可能涉及勞工受迫害，包括兒童勞動和強迫勞動。這項措施將對全球貿易產生重大影響，可能會導致商品價格上漲。美國政府的這一決定也引發了對勞工權益的關注，許多人認為這項措施是正確的，但也有部分人認為這項措施將會對全球貿易產生負面影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
       {
         "id": "72f484e3",
         "title": "白宮表示若沙地阿拉伯不加入阿伯拉罕協定，核協議「不會實行」– 美國政治直播",
@@ -90,8 +78,8 @@
         "published_at": "Fri, 24 Jul 2026 01:56:13 GMT",
         "summary_zh": "川普政府在周四晚間宣布，將對超過80個國家實施10%至12.5%的關稅，將於周五生效。這是川普總統繼續實施全球關稅政策的最新嘗試，儘管最高法院在2月份裁定，川普總統違法地使用行政權力實施全球貿易政策。川普一直主張美國支付的關稅過高，並認為增加關稅有助於增強美國製造業和就業。這項新關稅政策將對全球貿易產生重大影響，可能導致出口商和消費者面臨新的挑戰。這也引發了對川普政府是否會繼續實施這項政策的疑慮，尤其是在最高法院的裁定下。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "df3e02f8",
@@ -106,6 +94,18 @@
         "ai_classified": true
       },
       {
+        "id": "c9053d90",
+        "title": "五角大樓伊朗戰爭死亡名單刪除最新四名軍人",
+        "url": "https://www.theguardian.com/us-news/2026/jul/23/pentagon-service-members-killed-iran",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 24 Jul 2026 01:49:47 GMT",
+        "summary_zh": "五角大樓近日發布的伊朗戰爭死亡名單，從星期三的18名軍人，變更為星期四的14名軍人。五角大樓的官方網站顯示，儘管名單已經於星期三更新，但仍未包含四名在過去週末戰鬥中喪生的士兵。這四名士兵的名字，早前已經出現在五角大樓新聞發布會的正式移交遺體回美國的檔案中。根據五角大樓的數據，截至星期三，伊朗戰爭中已經有14名美國軍人喪生。這場戰爭由前總統唐納德·川普於2月28日發動，代號為「Operation Epic Fury」。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "1eb05c18",
         "title": "D4vd律師質疑警方對歌手家中發現的證據檢測",
         "url": "https://www.theguardian.com/us-news/2026/jul/23/d4vd-singer-police-evidence-hearing",
@@ -116,6 +116,18 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "c405f3e9",
+        "title": "紐約市發生雙重刺傷案被調查為可能的仇恨犯罪",
+        "url": "https://www.theguardian.com/us-news/2026/jul/23/new-york-city-double-stabbing",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 24 Jul 2026 01:07:42 GMT",
+        "summary_zh": "紐約市警察局正在調查近中央公園發生的雙重刺傷案，懷疑為仇恨犯罪。根據警方 spokesperson 的說法，嫌疑人 Raul Morales 先後刺傷一名 57 歲的亞裔男子和一名 50 歲的猶太男子。刺傷發生在曼哈頓的 Upper West Side 富人區，兩起案件分別發生在兩個街區之間。警方稱，嫌疑人在刺傷前喊了 “Allahu Akbar” 的口號。這起案件引起了廣泛關注，警方正在努力調查背後的原因和動機。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "ffad4deb",
@@ -161,6 +173,18 @@
         "category": "whitehouse",
         "published_at": "Thu, 23 Jul 2026 17:52:02 GMT",
         "summary_zh": "白宮保安官員涉嫌泄密事件發生在美國副總統JD Vance的保安官員身上。根據白宮保安官員的發言人，該官員正在接受行政調查和刑事調查。原因是該官員被指控向媒體透露了副總統的機密行程資訊。根據CNN的報導，該官員涉嫌透露了副總統計劃與兒子一起乘坐海軍陸戰隊直升機去打高爾夫球的行程資訊。這一事件引起了關注，副總統的安全受到威脅。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6c4a11ee",
+        "title": "美國對多國實施關稅，指控違反勞工權益",
+        "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 24 Jul 2026 02:10:00 GMT",
+        "summary_zh": "美國政府對全球 60 個國家實施關稅，理由是這些國家未能有效防止勞工受迫害。這項措施旨在懲罰那些未能保護勞工權益的國家，同時也希望能夠促進勞工權益的改善。美國政府認為，這些國家的產品可能涉及勞工受迫害，包括兒童勞動和強迫勞動。這項措施將對全球貿易產生重大影響，可能會導致商品價格上漲。美國政府的這一決定也引發了對勞工權益的關注，許多人認為這項措施是正確的，但也有部分人認為這項措施將會對全球貿易產生負面影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -228,18 +252,6 @@
         "ai_classified": true
       },
       {
-        "id": "ac464b19",
-        "title": "石油價格首次突破100美元水準",
-        "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 23 Jul 2026 15:31:00 GMT",
-        "summary_zh": "石油價格因為中東戰爭持續升級而大幅上漲，布倫特原油價格上週四飆升超過6%。這是自5月以來，石油價格首次突破100美元水準。石油價格的上漲主要是由於中東戰爭的持續升級，影響了全球石油供應。這種情況可能會導致全球石油價格持續上漲，對全球經濟產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "48341115",
         "title": "法國大火逾12,000人撤離",
         "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss",
@@ -249,30 +261,6 @@
         "summary_zh": "法國目前正面臨嚴重的野火災害，逾12,000人已經被迫撤離。這場災害還導致了一名消防員的死亡，成為歐洲第三名在處理這場大火時喪生的消防員。野火正在席捲法國各地，造成了嚴重的破壞。法國政府正在努力控制火勢，避免更多人受傷或喪生。這場災害的影響還不清楚，但已經引起了歐洲各國的關注。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "839b28fd",
-        "title": "日本6月通膨加速攀升 油價漲與日圓貶影響",
-        "url": "https://www.cna.com.tw/news/aopl/202607240041.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Fri, 24 Jul 2026 09:43:00 +0800",
-        "summary_zh": "日本官方公布數據，6月核心通膨率從上月的1.4%加速升至1.6%。這主要是受到中東戰事油價飆漲及日圓疲軟的影響。通膨率的加速升高可能會對日本的經濟政策產生影響。日本央行可能會考慮調整貨幣政策來應對通膨率的升高。另一方面，日圓的貶值可能會使日本的出口商品更便宜，從而刺激出口業。然而，油價的飆漲可能會增加日本的進口成本，從而對經濟產生負面影響。整體來說，日本的經濟面臨著複雜的挑戰，需要仔細監控通膨率和油價的變化。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "df260d3f",
-        "title": "川普：沙特必須承認以色列 才能達成核協議",
-        "url": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 23 Jul 2026 17:58:02 GMT",
-        "summary_zh": "美國總統川普表示，協助沙特發展核能的里程碑性協議取決於沙特加入阿巴拉赫協議。阿巴拉赫協議是一項旨在促進中東和平的協議，目前已有多個國家加入，包括以色列、巴林、阿曼、約旦和阿拉伯聯合酋長國。沙特的加入將使該協議更加完整和有效。川普的聲明表明，美國政府將沙特的核能發展與其與以色列的關係掛鉤，這可能會對沙特的外交政策產生重大影響。這項協議的通過將對沙特和以色列的關係產生重要影響，可能會促進兩國之間的合作和和平。然而，這也可能會引起一些國家的反對，例如伊朗和其他反以色列的國家。",
-        "sentiment": "中性",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -384,30 +372,6 @@
         "ai_classified": true
       },
       {
-        "id": "ddde2a20",
-        "title": "中國月球級人工智慧竊取 Anthropic 技術？川普前顧問指控",
-        "url": "https://www.bbc.co.uk/news/articles/c5ye2gyz0x4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 23 Jul 2026 23:50:38 GMT",
-        "summary_zh": "近日，中國人工智慧公司面臨美國政府加強監控。川普前顧問指控，中國一家月球級人工智慧公司竊取了 Anthropic 公司的技術。這一指控出現於中國人工智慧公司面臨美國政府監控的背景下。川普前顧問的指控可能會對中國人工智慧公司的聲譽造成重大影響。美國政府對中國人工智慧公司的監控可能會進一步加強。這一事件可能會對全球人工智慧產業造成重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "858991a7",
-        "title": "地緣政治衝突升高 油價與美債殖利率雙漲",
-        "url": "https://www.cna.com.tw/news/aopl/202607240011.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Fri, 24 Jul 2026 04:13:48 +0800",
-        "summary_zh": "中東戰局升高，國際油價再度飆升，影響全球經濟。油價破百美元，長債殖利率也突破5%，高於美伊戰爭期間與去年宣布對等關稅時期。這些變化再度衝擊金融市場，影響全球經濟。地緣政治衝突的升高，將會對全球經濟產生持續影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "26ae3288",
         "title": "兩名俄羅斯男子在安哥拉被判刑為恐怖主義和間諜",
         "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying",
@@ -415,6 +379,18 @@
         "category": "global",
         "published_at": "Thu, 23 Jul 2026 14:24:01 GMT",
         "summary_zh": "近日，安哥拉法院對兩名俄羅斯男子進行審判，判決他們犯有恐怖主義和間諜罪。兩名男子被指控策劃政變和組織針對燃油價格的暴力抗議活動。 Lev Lakshtanov 和 Igor Ratchin 分別被判處 8 年和 11 年有期徒刑。兩名男子否認指控，聲稱他們來安哥拉是為了文化和商業活動。這起案件引起了國際社會的關注，許多人對安哥拉政府對俄羅斯男子的判決表示擔憂。這起事件可能對兩國之間的關係產生影響，同時也引發了對安哥拉政府對恐怖主義和間諜活動的處理方式的質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cc9e759f",
+        "title": "英軍肯亞訓練取消　肯亞政府拒絕簽署防務協議",
+        "url": "https://www.theguardian.com/uk-news/2026/jul/23/british-army-cancel-training-kenya-defence-agreement-dispute",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 23 Jul 2026 14:06:01 GMT",
+        "summary_zh": "英國軍方近日宣布取消在肯亞舉行的軍事訓練，原因是肯亞政府拒絕簽署雙邊防務協議。英國政府希望續簽現有的協議，但肯亞國會議員則要求修改協議，讓當地當局擁有更大的權力來追究英軍士兵在該國犯下的罪行。肯亞政府的決定是由於肯亞國會議員對英軍士兵在該國犯下的罪行缺乏追究權力，導致英軍士兵在該國的行為不受當地法律約束。這一事件表明肯亞政府對英軍士兵在該國的行為有著嚴格的要求，同時也反映了肯亞政府對英國政府的要求有所不滿。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -432,13 +408,13 @@
         "ai_classified": true
       },
       {
-        "id": "cc9e759f",
-        "title": "英軍肯亞訓練取消　肯亞政府拒絕簽署防務協議",
-        "url": "https://www.theguardian.com/uk-news/2026/jul/23/british-army-cancel-training-kenya-defence-agreement-dispute",
-        "source": "Guardian World",
+        "id": "ac464b19",
+        "title": "石油價格首次突破100美元水準",
+        "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Thu, 23 Jul 2026 14:06:01 GMT",
-        "summary_zh": "英國軍方近日宣布取消在肯亞舉行的軍事訓練，原因是肯亞政府拒絕簽署雙邊防務協議。英國政府希望續簽現有的協議，但肯亞國會議員則要求修改協議，讓當地當局擁有更大的權力來追究英軍士兵在該國犯下的罪行。肯亞政府的決定是由於肯亞國會議員對英軍士兵在該國犯下的罪行缺乏追究權力，導致英軍士兵在該國的行為不受當地法律約束。這一事件表明肯亞政府對英軍士兵在該國的行為有著嚴格的要求，同時也反映了肯亞政府對英國政府的要求有所不滿。",
+        "published_at": "Thu, 23 Jul 2026 15:31:00 GMT",
+        "summary_zh": "石油價格因為中東戰爭持續升級而大幅上漲，布倫特原油價格上週四飆升超過6%。這是自5月以來，石油價格首次突破100美元水準。石油價格的上漲主要是由於中東戰爭的持續升級，影響了全球石油供應。這種情況可能會導致全球石油價格持續上漲，對全球經濟產生重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -456,55 +432,43 @@
         "ai_classified": true
       },
       {
-        "id": "660397dc",
-        "title": "小人物只能默默承受?",
-        "url": "https://www.foreignaffairs.com/united-states/small-suffer-what-they-must",
-        "source": "Foreign Affairs",
+        "id": "df260d3f",
+        "title": "川普：沙特必須承認以色列 才能達成核協議",
+        "url": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "global",
-        "published_at": "Thu, 23 Jul 2026 00:00:00 -0400",
-        "summary_zh": "在一個混亂的世界中，人們面臨著兩個選擇：團結起來或是孤立地奮鬥。這個問題引發了對於人性的探討和社會的關注。人們是否能夠在困難時期團結起來，共同面對挑戰？還是會因為各自的利益和觀點而分裂？這個問題的答案可能只有在實踐中才能夠找到。然而，無論如何，人們都需要面對現實，找到適合自己的方法來應對困難。",
+        "published_at": "Thu, 23 Jul 2026 17:58:02 GMT",
+        "summary_zh": "美國總統川普表示，協助沙特發展核能的里程碑性協議取決於沙特加入阿巴拉赫協議。阿巴拉赫協議是一項旨在促進中東和平的協議，目前已有多個國家加入，包括以色列、巴林、阿曼、約旦和阿拉伯聯合酋長國。沙特的加入將使該協議更加完整和有效。川普的聲明表明，美國政府將沙特的核能發展與其與以色列的關係掛鉤，這可能會對沙特的外交政策產生重大影響。這項協議的通過將對沙特和以色列的關係產生重要影響，可能會促進兩國之間的合作和和平。然而，這也可能會引起一些國家的反對，例如伊朗和其他反以色列的國家。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "22173687",
-        "title": "中國的脆弱時刻",
-        "url": "https://www.foreignaffairs.com/china/chinas-moment-weakness",
-        "source": "Foreign Affairs",
+        "id": "839b28fd",
+        "title": "日本6月通膨加速攀升 油價漲與日圓貶影響",
+        "url": "https://www.cna.com.tw/news/aopl/202607240041.aspx",
+        "source": "中央社財經",
         "category": "global",
-        "published_at": "Thu, 23 Jul 2026 00:00:00 -0400",
-        "summary_zh": "中國經濟衰退和美國戰略開放的關係。中國經濟在近年來出現衰退跡象，美國則在此時展開對中國的戰略開放，包括在經濟、政治和軍事等多個領域進行對抗。美國政府認為，中國的經濟衰退是其內部問題的體現，同時也是美國在全球經濟中的競爭優勢的機會。美國的戰略開放包括對中國的經濟制裁、軍事部署和政治對抗等多方面。這些措施旨在限制中國的經濟和軍事發展，同時也希望能夠推動中國的政治改革。然而，中國政府則認為，這些措施是美國對中國的挑戰和威脅。中國的領導人認為，美國的戰略開放是對中國的經濟和政治安全的威脅。中國的政府正在採取措施來應對美國的戰略開放，包括加強經濟自主、軍事建設和政治對抗等。這場對抗將會對全球經濟和政治產生重大影響。",
+        "published_at": "Fri, 24 Jul 2026 09:43:00 +0800",
+        "summary_zh": "日本官方公布數據，6月核心通膨率從上月的1.4%加速升至1.6%。這主要是受到中東戰事油價飆漲及日圓疲軟的影響。通膨率的加速升高可能會對日本的經濟政策產生影響。日本央行可能會考慮調整貨幣政策來應對通膨率的升高。另一方面，日圓的貶值可能會使日本的出口商品更便宜，從而刺激出口業。然而，油價的飆漲可能會增加日本的進口成本，從而對經濟產生負面影響。整體來說，日本的經濟面臨著複雜的挑戰，需要仔細監控通膨率和油價的變化。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "87f016d3",
-        "title": "市場最怕的事發生了...雙海峽淪陷 國際油價衝破100美元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515914",
-        "source": "自由時報財經",
+        "id": "ddde2a20",
+        "title": "中國月球級人工智慧竊取 Anthropic 技術？川普前顧問指控",
+        "url": "https://www.bbc.co.uk/news/articles/c5ye2gyz0x4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "Fri, 24 Jul 2026 09:28:57 +0800",
-        "summary_zh": "在葉門叛軍「青年運動」於紅海攻擊2艘沙烏地阿拉伯油輪後，國際原油供應進一步受到干擾。這次事件加上經由荷姆茲海峽的油輪受阻，造成全球油價大幅上漲。國際油價已經衝破100美元，市場對此感到極度擔憂。這種情況下，全球經濟可能會受到嚴重影響。葉門叛軍的行動已經引起國際社會的關注，各國政府正在努力解決這個問題。市場預期油價將繼續上漲，對全球經濟的影響將更加嚴重。",
+        "published_at": "Thu, 23 Jul 2026 23:50:38 GMT",
+        "summary_zh": "近日，中國人工智慧公司面臨美國政府加強監控。川普前顧問指控，中國一家月球級人工智慧公司竊取了 Anthropic 公司的技術。這一指控出現於中國人工智慧公司面臨美國政府監控的背景下。川普前顧問的指控可能會對中國人工智慧公司的聲譽造成重大影響。美國政府對中國人工智慧公司的監控可能會進一步加強。這一事件可能會對全球人工智慧產業造成重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       }
     ],
     "ai": [
-      {
-        "id": "a6e6ed7c",
-        "title": "Alexa Plus即將升級：支援更多複雜指令和智能家居裝置連接",
-        "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-23T17:15:06-04:00",
-        "summary_zh": "亞馬遜即將推出Alexa Plus助手的更新版本，讓它能夠與更多智能家居裝置連接。這次更新將允許Alexa Plus與多家公司的產品進行整合，包括Bosch、Delta、Ecovacs、iRobot、Yale Home、Whirlpool、Tapo、Eufy等。同時，Alexa Plus也能夠自動將要求路由到正確的裝置。這項更新將使Alexa Plus的功能更加強大，能夠處理更複雜的指令，提高智能家居的使用體驗。這項更新對於智能家居的使用者來說是一個好消息，將使他們能夠更方便地控制家居裝置。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
       {
         "id": "04600929",
         "title": "克勞德語音模式現在可用於Opus和Sonnet",
@@ -554,6 +518,18 @@
         "ai_classified": true
       },
       {
+        "id": "1d989fb5",
+        "title": "ETCHED AI 芯片初創公司籌集 30 億美元，估值達 1030 億美元",
+        "url": "https://www.reuters.com/technology/ai-chip-startup-etched-raises-300-million-103-billion-valuation-2026-07-23/",
+        "source": "Reuters",
+        "category": "ai",
+        "published_at": "2026-07-23 15:50:31",
+        "summary_zh": "ETCHED 是一家專注於 AI 芯片的初創公司，近日宣布籌集 30 億美元的資金，估值達 1030 億美元。這筆融資將幫助公司進一步發展其 AI 芯片技術，並加強在市場上的競爭力。ETCHED 的 AI 芯片主要應用於人工智慧、機器學習和深度學習領域，公司的目標是提供高效、可靠且能夠應用於多種應用場景的 AI 解決方案。這筆融資的成功將為 ETCHED 的未來發展提供重要的資金支持，並有望讓公司在 AI 芯片市場上取得更大的份額。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "58165575",
         "title": "蘋果與 OpenAI 的法律糾紛：誰將定義後智能手機時代？",
         "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
@@ -566,18 +542,6 @@
         "ai_classified": true
       },
       {
-        "id": "6cfe40db",
-        "title": "科技記者Joanna Stern嘗試一年讓AI取代大部分生活——她最喜歡的工具是什麼?",
-        "url": "https://www.cnbc.com/2026/07/23/joanna-stern-used-ai-for-almost-everything-for-a-year-the-no-1-tool-shell-keep-using.html",
-        "source": "Cnbc",
-        "category": "ai",
-        "published_at": "2026-07-23 14:25:01",
-        "summary_zh": "科技記者Joanna Stern在一年內將數十個AI應用程式整合進她的生活中。她表示，這個她會持續使用的工具是什麼？ Joanna Stern是《我不是機器人》一書的作者，她嘗試將AI應用程式融入她的日常生活。她試用了許多AI工具，包括語音助手、照片編輯軟體、寫作工具等。然而，她說有一個工具是她會持續使用的。這個工具能夠幫助她快速整理她的電子郵件和檔案。 Joanna Stern表示，這個工具的效率和方便性是她喜歡的原因。這個工具能夠幫助她節省時間和精力，讓她能夠專注於更重要的事情。 Joanna Stern的試驗結果表明，AI工具可以幫助人們提高效率和生活質量。然而，這也引發了對AI的使用和控制的疑問。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
         "id": "9d4c464f",
         "title": "右派老年人抗議數據中心與左派有許多相似之處",
         "url": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
@@ -585,30 +549,6 @@
         "category": "ai",
         "published_at": "2026-07-23T08:00:00-04:00",
         "summary_zh": "在佛羅里達州中部的一個灰濛濛的星期六早晨，一個不到一打的人聚集在斯普林希爾分館外抗議當地建設的超大型數據中心。事實上，這裡沒有即時的威脅——赫爾南多縣委員會在六月份以一致投票通過了一年的禁令，暫停這類型的開發。然而，這些抗議者卻認為這項禁令不夠嚴格，認為它們仍然會對當地環境和生態系統造成嚴重影響。這些抗議者與左派有許多相似之處，包括對環境保護和社會正義的關注。這些抗議者的行動表明，右派老年人也開始關注環境問題和社會正義，與傳統的左派價值觀有所重疊。這一現象可能是未來政治格局的重要變數。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "856e9b25",
-        "title": "Meta 新廣告使用歌曲描繪世界末日，卻意外變成「感動人心」的AI廣告",
-        "url": "https://www.wired.com/story/meta-david-bowie-apocalypse-ad-is-optimistic-actually/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 23 Jul 2026 18:45:52 +0000",
-        "summary_zh": "Meta 最近推出了一則新的廣告，內容使用 David Bowie 的歌曲「Five Years」作為背景。歌曲的歌詞中提到「地球正在死亡」，讓人感到非常悲傷。但是，這則廣告卻意外地變成了「感動人心」的AI廣告。這則廣告試圖展現人工智慧的能力，讓人們感受到希望和未來的可能性。這則廣告的出現，讓人們開始思考人工智慧的潛力和應用。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "37c40b2d",
-        "title": "回憶 Jibo？它的後繼者是一個可佩戴的裝置，將你的生活變成 AI 垃圾",
-        "url": "https://www.wired.com/story/the-beloved-jibo-robot-is-being-resurrected-as-an-ai-wearable/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 23 Jul 2026 09:15:00 +0000",
-        "summary_zh": "Jibo 的創辦人們給予 iKairos 「祝福」，這款可佩戴或桌面掛掛的「AI 日記本」能夠將家人時光轉變成 AI 生成的圖片和視頻。這款裝置旨在捕捉和記錄家庭生活中的美好時刻，將其轉變成可供回顧的數位紀錄。然而，這也引發了對 AI 生成內容的倫理問題，例如誰擁有這些內容的權利，以及這些內容的使用目的。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -650,6 +590,30 @@
         "ai_classified": true
       },
       {
+        "id": "856e9b25",
+        "title": "Meta 新廣告使用歌曲描繪世界末日，卻意外變成「感動人心」的AI廣告",
+        "url": "https://www.wired.com/story/meta-david-bowie-apocalypse-ad-is-optimistic-actually/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Thu, 23 Jul 2026 18:45:52 +0000",
+        "summary_zh": "Meta 最近推出了一則新的廣告，內容使用 David Bowie 的歌曲「Five Years」作為背景。歌曲的歌詞中提到「地球正在死亡」，讓人感到非常悲傷。但是，這則廣告卻意外地變成了「感動人心」的AI廣告。這則廣告試圖展現人工智慧的能力，讓人們感受到希望和未來的可能性。這則廣告的出現，讓人們開始思考人工智慧的潛力和應用。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "37c40b2d",
+        "title": "回憶 Jibo？它的後繼者是一個可佩戴的裝置，將你的生活變成 AI 垃圾",
+        "url": "https://www.wired.com/story/the-beloved-jibo-robot-is-being-resurrected-as-an-ai-wearable/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Thu, 23 Jul 2026 09:15:00 +0000",
+        "summary_zh": "Jibo 的創辦人們給予 iKairos 「祝福」，這款可佩戴或桌面掛掛的「AI 日記本」能夠將家人時光轉變成 AI 生成的圖片和視頻。這款裝置旨在捕捉和記錄家庭生活中的美好時刻，將其轉變成可供回顧的數位紀錄。然而，這也引發了對 AI 生成內容的倫理問題，例如誰擁有這些內容的權利，以及這些內容的使用目的。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "dd0b1b36",
         "title": "ChatGPT 醫療建議導致男子瀕臨死亡，訴訟指控",
         "url": "https://www.bbc.co.uk/news/articles/cwylp3nxp5yo?at_medium=RSS&at_campaign=rss",
@@ -676,6 +640,78 @@
     ],
     "stock_tw": [
       {
+        "id": "6912fea3",
+        "title": "聯邦銀行第17屆兒童理財營開放報名",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5516100",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 24 Jul 2026 11:48:35 +0800",
+        "summary_zh": "聯邦銀行的兒童理財營即日起開放國小4至6年級學童網路報名。今年的主題是「小小金融家．星際理財營」，課程將結合金融知識、分行探險、防詐騙及ESG觀念。這項活動旨在幫助兒童了解金融知識和理財概念，培養他們的財務素養。聯邦銀行的兒童理財營已經邁入第17年，今年的營隊將提供學童一個豐富的學習體驗。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d820c5d1",
+        "title": "和碩切入超微AI伺服器 鎖定代理式AI商機",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5516103",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 24 Jul 2026 11:47:43 +0800",
+        "summary_zh": "和碩持續擴大AI伺服器布局，最新在超微先進AI大會釋出新一代平台。這個平台將導入第六代超微EPYC伺服器晶片，目標是鎖定企業AI、代理式AI（Agentic AI）和AI 工作負載。這項發展有助於企業更好地應用AI技術，提高效率和競爭力。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7c9c8f18",
+        "title": "焦點股》圓展：無人機新題材續旺 股價走高",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5516073",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 24 Jul 2026 11:32:56 +0800",
+        "summary_zh": "近日，AI影音解決方案品牌圓展（3669）宣布切入商用無人機市場。這項新發展讓股價連日向上，今日也不受大盤賣壓影響，股價開平走高，最高漲逾9%。圓展股價近11時20分上漲3.3元或8.4%，這表明市場對其未來發展充滿期待。無人機市場的崛起，為圓展帶來新的商機和發展機會。市場分析指出，圓展的進軍商用無人機市場，是其業務拓展的一個重要里程碑。這項新發展將幫助圓展進一步鞏固其在AI影音解決方案領域的領導地位。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "450a07ca",
+        "title": "生合生技與台大攜手研發乳牛益生菌 防治乳房炎提升乳量",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5516052",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 24 Jul 2026 11:31:24 +0800",
+        "summary_zh": "近年來，全球乳業業界正朝向「減抗」與「精準飼養」發展。為了應對這個趨勢，生合生物科技（1295）與台灣大學動物科學技術學系教授陳明汝的研究團隊攜手合作，研發乳牛專屬益生菌技術。這項技術成功幫助乳牛乳量的提升，並且可防治乳房炎。這項研究的成功，將對乳業業界帶來重大影響，同時也展現了台灣企業在研發和應用生物科技的能力。根據此研究，生合生物科技的股價可能會受到影響，投資者應該密切關注這項研究的進展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "1ffa8b8d",
+        "title": "AI熱潮帶旺內外需！台經院上修全年GDP至10.38％ 創國內智庫最高",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5516068",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 24 Jul 2026 11:29:56 +0800",
+        "summary_zh": "台經院近日上修對全年GDP預測值，達到10.38%，超越中研院經濟所和中經院的預測值，成為國內經濟智庫中預測值最高。這一預測值的上修主要是因為AI熱潮帶動內外需的增長。內需方面，消費者對AI相關產品的需求增加，導致消費者支出增長。外需方面，台經院預測出口額將繼續增長，主要是因為全球對AI技術的需求增加。這一預測值的上修也反映了台經院對台灣經濟的樂觀態度。然而，消費者物價指數（CPI）仍然受到關注，台經院預測CPI將在今年下半年開始上升。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "58e741a1",
+        "title": "三流只會存錢、二流忙著投資！日媒揭：一流人士在做「這件事」",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5515863",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 24 Jul 2026 11:27:25 +0800",
+        "summary_zh": "日經平均指數在6月中旬首度突破7萬點，但市場前景仍充滿不確定性。許多人面對波動加劇，重新思考資產配置。根據日媒的報導，一流人士在這種情況下，不是存錢，也不是忙著投資，而是做「這件事」。這個「事」到底是什麼？根據暢銷書《THE WEALTH LADDER》的作者，高收入人士在面臨市場波動時，會選擇做好「風險管理」。他們會將資產配置在多個不同的市場上，避免過度集中風險。這樣做的目的，是要在市場波動時，能夠保持穩定的收益。另一方面，二流人士則會忙著投資，希望能夠在市場上取得快速收益。然而，這種做法往往會帶來風險。三流人士則只會存錢，希望能夠避免風險。然而，這種做法往往會讓他們錯過市場上的機會。因此，高收入人士的做法，是一個值得學習的例子。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "4fb060a7",
         "title": "友達全台廠區製程水回收達95% CSR大會聚焦流域守護",
         "url": "https://www.cna.com.tw/news/afe/202607240046.aspx",
@@ -684,8 +720,8 @@
         "published_at": "Fri, 24 Jul 2026 09:57:11 +0800",
         "summary_zh": "友達光電近年來致力於節水和廢水循環再利用，自2008年起持續推動這項工作。公司透過自主研發和精進技術，使得全台廠區的製程水回收率達到95%。這項成就在公司的CSR大會上受到關注和肯定。友達光電的這項努力不僅減少了對水資源的消耗，也有助於保護環境和流域。這項成就也表明了公司對環境保護的承諾和行動。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "d5f21862",
@@ -696,8 +732,8 @@
         "published_at": "Fri, 24 Jul 2026 09:27:56 +0800",
         "summary_zh": "台股今天早盤受到中東衝突升溫和美股下挫的影響，開低並一度失守44000點，下挫874.06點。隨後跌勢收斂至約500點，指數回到44300點附近。這一波市場波動主要是由於投資者對AI巨額支出引發的疑慮所致。台積電也在這一波市場波動中下挫55元，表明市場對科技股的投資意欲下降。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "1add1622",
@@ -708,8 +744,8 @@
         "published_at": "Fri, 24 Jul 2026 09:05:49 +0800",
         "summary_zh": "台北股市今天開盤跌81.42點，市場情緒受到影響。根據台股的開盤數據，加權股價指數為44769.39點，成交金額新台幣67.68億元。市場分析師認為，今天的開盤跌勢可能是由於市場對經濟前景的不確定性所致。同時，投資人也在觀察台股的走勢，等待市場的反彈。台股的開盤跌勢可能會對投資人造成影響，投資人需要密切關注市場的變化。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "5f468801",
@@ -720,8 +756,8 @@
         "published_at": "Fri, 24 Jul 2026 09:03:47 +0800",
         "summary_zh": "台北外匯市場新台幣兌美元匯率今天以32.29元開盤，貶2.4分。這是近期新台幣貶值的最新動態，市場觀察人士表示，這可能與全球經濟形勢和投資者對台幣評估的變化有關。新台幣貶值對台灣的出口業和外匯儲備都可能產生一定的影響。市場預期，未來新台幣的走勢將受到多種因素的影響，包括全球經濟趨勢、美國聯邦儲備局的政策變化和投資者對台幣的評估。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "5ea4e7dc",
@@ -732,156 +768,120 @@
         "published_at": "Fri, 24 Jul 2026 08:56:45 +0800",
         "summary_zh": "超微今天宣布推出Kria AI系統模組，針對機器人和實體AI系統開發。這個系統模組整合了CPU、GPU、NPU等不同運算單元，提供高效的計算能力。硬體合作夥伴包括台灣的磐儀、廣積及威強電等業者。這項新產品有望為台廠帶來新的商機和發展機會。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "dac30380",
-        "title": "亞股狂瀉！日經暴跌1750點 韓股重挫逾3％",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515839",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 24 Jul 2026 10:43:29 +0800",
-        "summary_zh": "亞股週五出現大幅跳水，日經指數暴跌1750點，跌破6萬5，韓股則重挫逾3％。這些動向與布蘭特油價飆破每桶100美元以及美股4大指數週四全面收黑有關。市場人士表示，這些因素都對亞股造成了重大影響。布蘭特油價的飆升使得全球經濟面臨新的挑戰，而美股的下跌則使得投資者對未來的前景感到擔憂。亞股的跳水也使得投資者對亞洲經濟的前景感到擔憂。這些動向都表明，全球經濟正在面臨新的挑戰和不確定性。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5d5c8f6e",
-        "title": "台灣續留美國匯率觀察名單！但未列匯率操縱國 全球10國被點名",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515910",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 24 Jul 2026 09:54:27 +0800",
-        "summary_zh": "美國財政部公布最新半年度匯率報告，指出2025年沒有任何主要貿易夥伴透過操縱匯率取得不公平競爭優勢。然而，台灣、中國、日本等10個主要貿易夥伴，因匯率政策受到密切關注，續留在美國匯率觀察名單中。這10個國家包括台灣、中國、日本、南韓、印度、越南、泰國、印度尼西亞、馬來西亞和菲律賓。美國財政部表示，這些國家的匯率政策可能對美國經濟產生影響。這項報告的發布，意在督促這些國家維持匯率的穩定和透明。美國財政部長曾表示，匯率操縱對全球經濟造成重大風險，因此需要密切監控。這項報告的發布，也表明美國政府對匯率政策的關注，將繼續持續。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "887bbf1f",
-        "title": "焦點股》英業達：填息行情續旺 帶量奮起",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515925",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 24 Jul 2026 09:47:20 +0800",
-        "summary_zh": "英業達昨日完成填息，儘管大盤今日賣壓沉重走弱，英業達仍在行情續旺、老AI族群奮起之下開低走高。截至上午9時35分，英業達暫報64.6元，漲幅2.54%，成交量達1萬79...…",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2d22e7c7",
-        "title": "焦點股》和碩：老AI撐盤 逆風走堅",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5515916",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 24 Jul 2026 09:41:53 +0800",
-        "summary_zh": "和碩（4938）今日在大盤下殺的情況下，股價逆風走堅。早盤買盤點火，股價一度大漲3.66%，但隨之而來的賣壓讓股價下跌。和碩是AI伺服器原廠委託設計製造（ODM）廠的一員，老AI族群今日也無懼大盤下殺，股價逆風走堅。這表明和碩仍然受到市場的關注和信心。然而，股價下跌也可能是市場對和碩未來發展的擔憂。總體來說，和碩的表現是令人關注的，市場需要繼續觀察和碩的發展趨勢。",
-        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "0fdb76c1",
-        "title": "美國司法部簡化合併審查程序",
-        "url": "https://www.reuters.com/legal/litigation/us-justice-department-streamlines-merger-review-process-2026-07-23/",
-        "source": "Reuters",
+        "id": "a2fa7b37",
+        "title": "本田CR-V領先美國銷量 本田汽車預告新款美國製造皮卡車",
+        "url": "https://www.cnbc.com/2026/07/23/honda-american-built-pickup-truck.html",
+        "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-07-23 14:51:56",
-        "summary_zh": "美國司法部近日宣布簡化合併審查程序，旨在提高審查效率和降低審查成本。這項變革將對企業合併審查產生重大影響，企業將能夠更快速地完成審查程序。美國司法部表示，這項變革將使企業能夠更好地預測審查結果，並減少審查程序中的不確定性。這項變革將對美國企業和全球經濟產生重大影響。然而，仍有許多人對此變革的影響和效率表達了疑慮。美國司法部的變革將如何影響企業和全球經濟，仍待觀察。",
+        "published_at": "2026-07-23 16:00:01",
+        "summary_zh": "本田汽車宣布將推出新款美國製造的皮卡車，同時也表示將暫時停產目前的中型皮卡車。這一消息在美國汽車市場中引起了關注，因為中型皮卡車一直是汽車銷量的重要組成部分。根據市場調查，目前本田CR-V領先美國銷量榜單。這一消息也意味著本田汽車將進一步投資美國市場，並且可能會對競爭對手造成壓力。然而，暫時停產的消息也引起了對美國汽車產業的擔憂，尤其是在供應鏈和就業市場的面臨挑戰。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "fb452514",
-        "title": "俄羅斯石油天然氣收入料增 60% 年同比於七月",
-        "url": "https://www.reuters.com/business/energy/russias-oil-gas-revenue-seen-up-60-yy-july-2026-07-23/",
+        "id": "af8cf329",
+        "title": "家樂福銷售額超越預期，法國和巴西帶動成長",
+        "url": "https://www.reuters.com/business/retail-consumer/carrefour-sales-beat-forecasts-france-brazil-drive-growth-2026-07-23/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-07-23 14:43:45",
-        "summary_zh": "根據最新數據，俄羅斯在七月的石油天然氣收入預計將達到 60% 的年同比增長。這一增長主要是由於俄羅斯對歐洲的天然氣出口增加所致。俄羅斯的石油天然氣產量在去年因為烏克蘭戰爭而大幅下降，但今年的產量已經恢復到歷史高位。這一增長對於俄羅斯的財政收入具有重要意義，尤其是在經歷了西方對俄羅斯的制裁後。俄羅斯的石油天然氣產量的增長也對全球能源市場產生了影響，可能會導致油價的波動。",
+        "published_at": "2026-07-23 15:52:13",
+        "summary_zh": "家樂福在法國和巴西的銷售額表現亮眼，超越了市場預期。根據最新的數據，家樂福的銷售額在法國和巴西市場上呈現出快速的成長，遠超過了市場預期。這一成績表明，家樂福在這兩個市場上的業務正在蓬勃發展，公司的市場份額和影響力也在增強。這一發展對於家樂福的未來前景具有重要的意義，公司將繼續鞏固在法國和巴西市場上的領導地位。這一成績也表明，家樂福的經營策略和市場拓展方案正在取得成效，公司的競爭力和市場競爭力也在增強。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "68a20131",
+        "title": "交易者仍堅持歐洲央行加息預期　油價再次突破100美元",
+        "url": "https://www.reuters.com/business/traders-stick-with-ecb-rate-hike-bets-oil-touches-100-once-more-2026-07-23/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-23 15:47:45",
+        "summary_zh": "歐洲央行的加息預期仍然受到市場的重視，儘管油價再次突破100美元。市場分析師認為，歐洲央行的政策仍然對市場有著重大影響，且歐元區經濟仍處於不穩定狀態。油價的波動對全球經濟的影響也越來越大，市場預期油價將繼續波動。歐洲央行的下一步行動將對市場產生重大影響，投資者需要密切關注央行的政策變化。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "773c41eb",
-        "title": "美國國庫票發行增長，提高長期風險",
-        "url": "https://www.reuters.com/legal/transactional/us-treasury-bill-issuance-grows-heightens-long-term-risk-2026-07-23/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-23 14:37:46",
-        "summary_zh": "美國國庫票發行增長，引發投資者關注。根據最新數據，美國國庫票發行量已經超過 1.5 兆美元，創下歷史新高。這種增長被視為美國政府財政政策的一個跡象，可能會提高長期風險。投資者擔心美國政府的財政負擔可能會增加，從而影響美元的流動性和市場的穩定性。美國政府的財政政策受到市場的關注，投資者正在密切關注政府的財政狀況和政策變化。美國國庫票的增長可能會對全球金融市場產生重大影響，投資者需要密切關注這種情況的發展。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "b6d24344",
-        "title": "川普政府與企業交易陷入動盪",
-        "url": "https://www.ft.com/content/fff19dd8-4c7e-4120-a282-0cdf77c56d71",
+        "id": "08215a69",
+        "title": "投機基金歷史上增長最快，AI 領航市場上漲",
+        "url": "https://www.ft.com/content/7b14576c-9ddc-4983-a6d8-78a0c621b3b2?syn-25a6b1a6=1",
         "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-07-23 14:36:00",
-        "summary_zh": "川普政府與企業交易的合法性受到質疑。根據最新的調查，川普政府與數家公司有密切關係，包括能源公司、房地產公司等。這些公司在川普政府的政策下受益颇豐，引起外界對政府與企業交易的關注。調查發現，川普政府官員與這些公司有密切的聯繫，甚至有官員在退休後加入這些公司。這些發現引起輿論的關注，質疑川普政府的誠信和透明度。這一事件可能會對川普政府的聲譽造成重大影響。",
-        "sentiment": "負面",
+        "published_at": "2026-07-23 15:44:44",
+        "summary_zh": "近期全球股市大幅上漲，投機基金的資產管理量大幅增加，超過 4000 億美元。這種情況與機器學習技術的快速發展有關，許多機器學習技術公司的股價大幅上漲，吸引了大量的投資人。投資機構也紛紛將資金投入這些公司，從而推動了投機基金的增長。這種情況對全球金融市場產生了重大影響，投資人和經濟學家都在關注這種趨勢的發展。",
+        "sentiment": "正面",
         "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "cf16fdc6",
-        "title": "日本的AI嘗試與台灣的太空野心",
-        "url": "https://www.ft.com/content/0322acf2-454d-4566-a304-8a0f2aabbd42?syn-25a6b1a6=1",
-        "source": "FT Tech",
-        "category": "finance",
-        "published_at": "Thu, 23 Jul 2026 07:10:45 GMT",
-        "summary_zh": "近期，日本政府正在推動人工智慧（AI）發展，投入大量資金於AI研究與應用。日本政府的目標是，通過AI技術，提升日本的競爭力，並改善國民的生活質量。另一方面，台灣政府也正在推動太空發展，計畫在2025年前發射第一顆太空梭。台灣的太空發展計畫包括建立太空工業園區、開發太空技術與應用。這些計畫將為台灣的太空業帶來新的機會與挑戰。日本與台灣的這些計畫將如何影響亞洲的科技發展？這些計畫的成功將如何改善日本與台灣的競爭力？",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4b5529bb",
-        "title": "買壟主群體搶購軟體低價商品，「SaaS-末日」來臨後",
-        "url": "https://www.ft.com/content/d331c1f5-27c0-4d5a-a4ab-7a52e1119cc5?syn-25a6b1a6=1",
-        "source": "FT Tech",
-        "category": "finance",
-        "published_at": "Thu, 23 Jul 2026 04:00:21 GMT",
-        "summary_zh": "近期，買壟主群體出現了搶購軟體低價商品的趨勢。根據Francisco Partners的合夥人Dipanjan 'DJ' Deb的說法，人工智慧將會幫助某些軟體公司，但也會對整個軟體行業造成影響。這種情況被稱為「SaaS-末日」。買壟主群體認為，軟體行業的變化將會帶來新的投資機會。然而，軟體行業的未來仍然充滿著不確定性，投資者需要謹慎評估風險。根據市場分析，軟體行業的未來發展將取決於人工智慧的進展和企業對其的採用。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "is_breaking": false
       }
     ],
     "stock_us": [
       {
-        "id": "756ac0b7",
-        "title": "Robinhood白金卡正式推出！是否值得等待?",
-        "url": "https://www.cnbc.com/select/is-the-robinhood-platinum-card-worth-it/",
+        "id": "bd9ed42e",
+        "title": "荷里活巨片《奧德賽》在IMAX掃地，投資者預期佳績持續",
+        "url": "https://www.cnbc.com/2026/07/23/the-odyssey-imax-ticket-sales-revenue.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-07-23 14:44:11",
-        "summary_zh": "美國投資應用程式Robinhood宣布推出白金卡，供部分用戶試用。新卡與市場上其他高級卡相比，具體優劣如何？",
-        "sentiment": "中性",
+        "published_at": "2026-07-23 15:32:05",
+        "summary_zh": "荷里活導演奈爾遜的新作《奧德賽》在IMAX上映後，票房收入大幅上升，投資者對IMAX在2026年創下歷史最高票房銷售額的信心大增。這項佳績不僅證明了《奧德賽》的商業潛力，也為IMAX未來的發展帶來了新的動力。投資者們預期這種票房增長的勢頭將持續下去，對IMAX未來的前景充滿信心。",
+        "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "61139a91",
-        "title": "華爾街股市回落：科技業財報引發關注人工智慧開支",
-        "url": "https://www.reuters.com/pt/negocio/OPTCH2M7UZK3ZBFTCGC5JGJPMU-2026-07-23/",
-        "source": "Reuters",
+        "id": "0f7de665",
+        "title": "特斯拉股價暴跌 2000 億美元！投資人批評馬斯克急燥亂投",
+        "url": "https://www.marketwatch.com/story/tesla-sees-a-200-billion-wipeout-as-investors-pan-musks-plan-to-spend-as-fast-as-we-can-6faee365?mod=mw_rss_topstories",
+        "source": "Marketwatch",
         "category": "stock_us",
-        "published_at": "2026-07-23 14:37:53",
-        "summary_zh": "近日，華爾街股市出現回落趨勢，主要原因是科技業的財報結果引發關注人工智慧開支。多家科技公司的財報顯示，人工智慧開支大幅增加，引發投資者對公司未來財務穩定性的擔憂。這些財報結果使得投資者重新評估科技業的投資風險，進而導致股市回落。分析師認為，這些財報結果反映了科技業在人工智慧領域的投資熱情，但也使得投資者對公司未來財務穩定性的擔憂增加。投資者將密切關注科技業未來的財務表現，以評估人工智慧開支對公司的影響。",
+        "published_at": "2026-07-23 15:24:00",
+        "summary_zh": "特斯拉股價預計將跌至今年以來最慘的水平，原因是公司財報會議未能為投資人帶來滿意的答案。馬斯克的急燥亂投計畫引起了投資人的擔憂，投資人認為這個計畫將導致公司資金耗盡。特斯拉的財報會議未能為投資人帶來滿意的答案，投資人對公司未來前景感到擔憂。這將對特斯拉的股價產生重大影響，投資人應該謹慎評估公司未來的發展前景。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
+      },
+      {
+        "id": "276c8b0b",
+        "title": "華爾街股市暴跌　大型科技公司財報出爐　投資者擔心人工智慧研發費用過高",
+        "url": "https://www.reuters.com/es/negocio/FMDAYMAFWVOPRF7H4ZZIW7JYZU-2026-07-23/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-07-23 15:17:44",
+        "summary_zh": "華爾街股市近日出現大幅下跌，主要原因是幾家大型科技公司公布財報，顯示其在人工智慧（AI）研發方面的花費遠超預期。這引發投資者對人工智慧研發費用的擔憂。根據財報數據，某些公司在人工智慧研發方面的費用已經超過了市場預期，甚至超過了其營業收入的一半。這使得投資者對人工智慧研發費用的風險感到擔憂。投資者認為，這些公司的財報表明，人工智慧研發的成本正在迅速增加，可能會對公司的盈利能力造成重大影響。這也使得投資者對人工智慧研發的投資風險感到擔憂。華爾街股市的下跌也使得投資者對未來的市場趨勢感到不確定。投資者認為，人工智慧研發的費用過高可能會對整個科技業造成負面影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "0d6acc2c",
+        "title": "英特爾股價下跌27%：如何逆轉跌勢",
+        "url": "https://www.cnbc.com/2026/07/23/intel-is-down-27percent-from-june-record-highs-how-it-can-reverse-the-slide.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-23 15:16:21",
+        "summary_zh": "英特爾股價自六月創下新高後，已經下跌27%。在此關鍵時刻，投資人們正在關注英特爾如何逆轉跌勢。英特爾的股價下跌是由於市場對公司未來成長前景的擔憂。投資人們認為，英特爾的競爭者正在快速發展，公司的收入和利潤可能會受到影響。英特爾的管理層正試圖通過投資在新技術和業務上來逆轉跌勢。公司正在投資在人工智慧、雲計算和網路安全等領域。英特爾的股價下跌也受到市場對全球經濟的擔憂。投資人們認為，全球經濟可能會進入衰退期，對公司的收入和利潤會造成重大影響。英特爾的股價下跌是市場對公司未來成長前景的擔憂。投資人們正在關注公司的投資計畫和經營管理是否能夠逆轉跌勢。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "224af4ee",
+        "title": "Google Cloud CEO Kurian 表示客戶支出增加 50% 進一步超越市場預期",
+        "url": "https://www.cnbc.com/2026/07/23/google-cloud-kurian-revenue-earnings.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-23 15:03:12",
+        "summary_zh": "Google Cloud CEO 托馬斯·庫里安 (Thomas Kurian) 週四在 CNBC 表示，公司現有客戶的支出已經超過他們已經承諾的 50%。這一數字表明 Google Cloud 的業務正在快速擴張。庫里安表示，這一成長是由於客戶對雲端技術的需求增加。這一趨勢也反映在 Google Cloud 的收入中。根據庫里安的說法，Google Cloud 的收入正在快速增加，超過市場預期。這一成長將對 Google 的整體業績產生重大影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "67ff6227",
@@ -892,8 +892,32 @@
         "published_at": "2026-07-23 14:48:39",
         "summary_zh": "IBM CEO 阿文德克里希納接受CNBC專訪，與觀眾分享公司近期財報成績、人工智慧對企業的影響等內容。IBM 近期財報表現出色，公司的收入和利潤都有所增加。阿文德克里希納表示，人工智慧對企業的影響越來越大，IBM 正在努力應對這個挑戰。同時，他也強調公司的核心業務仍然穩定，未來仍有很大的發展潛力。阿文德克里希納的專訪為觀眾提供了關於IBM 和人工智慧的深入了解。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "756ac0b7",
+        "title": "Robinhood白金卡正式推出！是否值得等待?",
+        "url": "https://www.cnbc.com/select/is-the-robinhood-platinum-card-worth-it/",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-23 14:44:11",
+        "summary_zh": "美國投資應用程式Robinhood宣布推出白金卡，供部分用戶試用。新卡與市場上其他高級卡相比，具體優劣如何？",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "61139a91",
+        "title": "華爾街股市回落：科技業財報引發關注人工智慧開支",
+        "url": "https://www.reuters.com/pt/negocio/OPTCH2M7UZK3ZBFTCGC5JGJPMU-2026-07-23/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-07-23 14:37:53",
+        "summary_zh": "近日，華爾街股市出現回落趨勢，主要原因是科技業的財報結果引發關注人工智慧開支。多家科技公司的財報顯示，人工智慧開支大幅增加，引發投資者對公司未來財務穩定性的擔憂。這些財報結果使得投資者重新評估科技業的投資風險，進而導致股市回落。分析師認為，這些財報結果反映了科技業在人工智慧領域的投資熱情，但也使得投資者對公司未來財務穩定性的擔憂增加。投資者將密切關注科技業未來的財務表現，以評估人工智慧開支對公司的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "fbfc29d2",
@@ -903,54 +927,6 @@
         "category": "stock_us",
         "published_at": "2026-07-23 14:29:52",
         "summary_zh": "IBM CEO 阿文德·克里希納（Arvind Krishna）在CNBC的節目中表示，許多基礎設施元件的價格已經大幅上升。這些基礎設施元件對於IBM的業務發展至關重要。IBM的財務報告顯示，公司的收入和利潤都有所上升，但這些增長也受到基礎設施元件價格上升的影響。克里希納表示，IBM正在努力降低成本和提高效率，以應對這種情況。IBM的業務發展受到AI技術的影響，也是節目中討論的另一個重要議題。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "2b559fbc",
-        "title": "Alphabet 大幅利潤增長只是幻象，SpaceX 和 Anthropic 的幫助掩蓋了歷史性的現金流失",
-        "url": "https://www.marketwatch.com/story/alphabets-massive-profit-growth-is-just-an-illusion-as-spacex-and-anthropic-help-mask-a-historic-cash-drain-ffff172d?mod=mw_rss_topstories",
-        "source": "Marketwatch",
-        "category": "stock_us",
-        "published_at": "2026-07-23 14:28:00",
-        "summary_zh": " Alphabet 近期公布的財報顯示利潤大幅增長，但分析師認為這只是表面上的表現，實際上是由於未實現的股權投資收益所掩蓋。這些未實現的收益來自於 Alphabet 的子公司 SpaceX 和 Anthropic 的投資。這種情況被描述為「虛幻」的表現，掩蓋了 Alphabet 的歷史性現金流失。分析師認為，這種情況可能會在未來的財報中繼續出現。這項消息對 Alphabet 的股價可能會產生一定的影響，但尚未明確。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "335dba99",
-        "title": "特斯拉遭分析師降低價格目標",
-        "url": "https://www.cnbc.com/2026/07/23/tesla-gets-price-target-cuts-from-analysts-on-earnings-miss-what-theyre-saying.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-23 13:52:16",
-        "summary_zh": "特斯拉在最新財務報告中未能滿足華爾街的期待，導致一些分析師降低對該公司股份的價格目標。這一發展出現於特斯拉最近公布的財務報告中，該報告顯示該公司的財務表現未能達到市場預期。分析師們對特斯拉未來的財務表現表示擔憂，認為公司的銷售和收入增長速度可能會放緩。這一降低價格目標的決定可能會對特斯拉的股價產生一定影響，投資者應該密切關注該公司未來的財務表現。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "18ed5f63",
-        "title": "Alphabet 股價下跌，Google 母公司股價跌超過 5%，下跌至 324 美元",
-        "url": "https://www.cnbc.com/2026/07/23/alphabets-decline-happening-at-crucial-time-for-stock-raises-stakes-for-next-megacap-earnings.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-23 13:20:45",
-        "summary_zh": "Alphabet 股價下跌超過 5%，這是 Google 母公司股價下跌的關鍵時期，下跌至 324 美元。這次股價下跌對於未來的大型企業財報將增加風險。Alphabet 股價的下跌可能與市場對於科技股的不確定性和經濟不確定性有關。這次股價下跌對於投資者和企業都將造成重大影響。投資者需要密切關注未來的財報和市場動態，以便做出明智的投資決策。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "94c838be",
-        "title": "特斯拉財報、亞馬遜裁員、凱文沃許最喜歡的短語等晨間市場快訊",
-        "url": "https://www.cnbc.com/2026/07/23/5-things-to-know-before-the-stock-market-opens.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-23 12:40:42",
-        "summary_zh": "特斯拉財報即將公布，市場對公司財務表現充滿期待。另一方面，亞馬遜宣布裁員計畫，影響市場預期。凱文沃許，前美聯儲委員，分享了他最喜歡的短語，為投資者提供市場趨勢的洞察。這些消息將對市場產生重要影響，投資者應密切關注。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
