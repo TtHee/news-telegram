@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-28T05:06:07.736958+08:00",
+  "generated_at": "2026-07-28T06:04:24.421204+08:00",
   "risk_signals": [
     "🟡 台股加權 43654.84（下跌 -2.67%，留意）",
     "🟢 S&P 500 7413.18（正常）",
     "🟢 VIX 恐慌指數 18.67（正常）",
     "🟢 MOVE 債市波動 77.21（正常）",
-    "🟢 美元指數 101.53（正常）",
-    "🟢 黃金 4078.7（正常）",
+    "🟢 美元指數 101.51（正常）",
+    "🟢 黃金 4078.6（正常）",
     "🟡 美債10Y殖利率 4.64（留意）",
-    "🟢 原油 WTI 81.8（正常）",
+    "🟢 原油 WTI 81.91（正常）",
     "🟢 美元/台幣 32.28（正常）"
   ],
-  "ai_summary": "市場氛圍偏保守，台股下跌表明市場疑慮，美債10Y殖利率升高也引發投資者注意。",
+  "ai_summary": "市場目前呈現出中性情緒，台股下跌但仍處於穩定區間，美元指數和黃金維持正常水平，美債10Y殖利率值得關注。",
   "market": {
     "TWII": {
       "price": 43654.84,
@@ -38,16 +38,16 @@
       "change_pct": null
     },
     "DXY": {
-      "price": 101.53,
-      "change_pct": 0.06
+      "price": 101.51,
+      "change_pct": 0.04
     },
     "GOLD": {
-      "price": 4078.7,
+      "price": 4078.6,
       "change_pct": 0.27
     },
     "OIL": {
-      "price": 81.8,
-      "change_pct": -8.41
+      "price": 81.91,
+      "change_pct": -8.29
     },
     "USDTWD": {
       "price": 32.28,
@@ -56,12 +56,242 @@
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "d96ed835",
+        "title": "野火距離法國波爾多市九英里，市長警告",
+        "url": "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 20:34:55 GMT",
+        "summary_zh": "法國波爾多市附近的野火已經距離市中心九英里，市長托馬斯·卡澤納夫（Thomas Cazenave）表示正在準備應對進一步的疏散命令。附近的一個小鎮市長形容局勢「災難性」。波爾多市的市長警告，野火正在快速擴散，距離市中心已經有九英里。市長表示，如果進一步的疏散命令發出，他們將會準備好應對。這場野火已經造成了嚴重的損失，附近的居民正在緊張地等待進一步的指示。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "aee02f62",
+        "title": "美國與伊朗暫停交火 歐洲股市收漲",
+        "url": "https://www.cna.com.tw/news/afe/202607280002.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 01:02:20 +0800",
+        "summary_zh": "美國與伊朗的衝突暫時停止，對於全球油價造成重大影響。油價下跌導致投資人對於歐洲股市的投資意欲增加，從而使得歐洲股市主要指數今天收盤揚升。這一事件的影響不僅僅局限於股市，還可能對於全球經濟產生深遠的影響。投資人正在密切關注這一發展，以了解它對於未來的影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d76604c5",
+        "title": "美國和伊朗暫停攻擊，為和平談判留空間，談判進展情況",
+        "url": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
+        "source": "Cnbc",
+        "category": "global",
+        "published_at": "2026-07-27 07:56:15",
+        "summary_zh": "美國和伊朗的衝突似乎暫時停止，儘管和平談判面臨新的挑戰。周末，兩國的談判進展遇到新的障礙。美國和伊朗的和平談判似乎暫時陷入僵局，但雙方仍在努力尋求解決方案。美國和伊朗的衝突已經持續了數月，雙方都表達了對和平的渴望。目前，雙方正在努力找到一個可行的解決方案，避免進一步的軍事衝突。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3565288f",
+        "title": "川普稱伊朗戰事談判正在進行中，期間美伊空襲暫緩",
+        "url": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 21:10:56 GMT",
+        "summary_zh": "伊朗戰事近期暫緩，美國總統川普表示正在與伊朗進行戰事談判。雖然伊朗方面否認了直接談判的存在，但川普仍表示有很大機會會出現新的發展。伊朗戰事自今年 1 月起爆發，美伊雙方多次進行空襲，造成至少 100 多名平民喪生。近期的暫緩讓外界對戰事的發展感到懷疑。川普的表態顯示美國仍然在與伊朗進行秘密談判，試圖找到解決方案。然而，伊朗方面的否認讓人們對川普的說法產生疑問。伊朗戰事的發展仍然令人關注，外界將密切關注美伊雙方的動態。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "248b2874",
+        "title": "烏克蘭斥責伊朗威脅，海上襲擊事件直接連結兩國戰爭",
+        "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 16:33:05 GMT",
+        "summary_zh": "烏克蘭最近遭到伊朗的威脅，但伊朗外長部長表示，這次襲擊事件「不能不加以回應」。伊朗的反應與烏克蘭遭到襲擊有直接關係，烏克蘭政府對此表示強烈不滿。這次事件可能會使烏克蘭和伊朗之間的關係惡化。烏克蘭政府已經對伊朗的威脅做出回應，表明他們將不會被伊朗的威脅所影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "146320c8",
+        "title": "柏林驕傲遊行襲擊事件：憤怒、震驚和悲痛，疑犯過去的細節仍未明朗",
+        "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 12:33:31 GMT",
+        "summary_zh": "近日，柏林發生了一起驕傲遊行襲擊事件，造成多人受傷。隨著疑犯的過去逐漸揭露，許多人都在問：為什麼他沒有被監禁？這起事件的背後，充滿著憤怒、震驚和悲痛。疑犯的過去似乎充滿著不確定性，許多人都在問：他為什麼能夠逃過法律的懲罰？這個問題的答案似乎只有在調查的過程中才能夠找到。這起事件的影響將會持續很長時間，許多人都在等待著真相的揭露。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "fa4875e4",
+        "title": "美國軍方自伊朗戰爭爆發以來超過 600 名軍人受傷",
+        "url": "https://www.bbc.co.uk/news/articles/c998pzd1e8xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 13:31:57 GMT",
+        "summary_zh": "自 2 月份伊朗戰爭爆發以來，美國軍方已經有超過 600 名軍人受傷。這些傷亡數字包括了「Operation Fury」行動和一個新的「海外行動」類別。伊朗戰爭的傷亡人數持續上升，美國軍方正在努力應對這種局勢。這些受傷的軍人大多來自陸軍、海軍和空軍等部門。美國政府正試圖透過這些數字來表明自己對伊朗戰爭的應對力度。然而，這些數字也引發了關於美國軍方傷亡人數的爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8840149d",
+        "title": "卡莉西蒙公布帕金森病診斷",
+        "url": "https://www.bbc.co.uk/news/articles/c5y3gymn6p6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 14:04:01 GMT",
+        "summary_zh": "美國知名女歌手卡莉西蒙近日宣布 herself 患有帕金森病。除了帕金森病之外，她還透露自己曾經接受皮膚癌治療，但仍堅持繼續歌唱。卡莉西蒙的帕金森病診斷讓她加入了許多著名藝人的行列，包括米蘭達·蘭德伯格和史蒂夫·普里斯頓。雖然帕金森病是一種慢性疾病，但卡莉西蒙仍表達了她對未來的樂觀態度，並表示 herself 將繼續歌唱。這項消息讓卡莉西蒙的粉絲感到擔憂，但也對她堅強的精神感到鼓舞。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a835a8b9",
+        "title": "美國暫停與伊朗戰爭，川普是否真的缺乏武器?",
+        "url": "https://www.bbc.co.uk/news/articles/c0qvnk2ezp7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 21:06:42 GMT",
+        "summary_zh": "美國與伊朗的戰爭已經造成了大量無法替代的導彈被發射。這些導彈被稱為「自由之盾」的軍事儲備是否已經到了危險的邊緣?",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "f2db0475",
+        "title": "大火目擊者描述「火焰牆」、恐懼和壓力",
+        "url": "https://www.bbc.co.uk/news/articles/cly5qwwdvr1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 19:50:35 GMT",
+        "summary_zh": "在大火迫使超過30萬人撤離的情況下，當地居民和遊客向BBC描述了他們的震驚和焦慮。這場大火的目擊者描述了火焰如牆一般的高大，令人難以置信。許多人在大火的威脅下感到恐懼和壓力，無法想像自己會面臨如此危險的情況。這場大火已經迫使超過30萬人撤離，許多人正在努力逃離危險區域。這場大火的影響可能會持續很長時間，許多人仍然處於危險之中。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "64c41227",
+        "title": "智利逮捕涉 Victor Jara 殺人案的逃犯",
+        "url": "https://www.bbc.co.uk/news/articles/c3w0xwj8vzyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 15:49:45 GMT",
+        "summary_zh": "智利政府在近期逮捕了一名逃犯，該名逃犯名叫 Nelson Haase，曾因參與 1973 年智利軍事政變後，民歌手 Victor Jara 的綁架和謀殺而被定罪。 Victor Jara 是一名知名的智利民歌手，在政變後被軍政府抓捕並遭到嚴刑逼供和謀殺。這一事件對智利的民主運動和人權運動產生了重大影響。 Nelson Haase 的逮捕是對這一歷史事件的重要回應，表明智利政府仍然致力於追究政變期間的罪行。這一事件也引起了國際社會的關注，呼籲智利政府繼續追究政變期間的罪行並為受害者伸張正義。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4a9b148c",
+        "title": "巴厘島禁令荷蘭僑民跑步俱樂部成員",
+        "url": "https://www.bbc.co.uk/news/articles/c1l1m6e08e2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 10:59:13 GMT",
+        "summary_zh": "巴厘島當局因荷蘭僑民跑步俱樂部被指在活動中偏袒外籍人士，違反移民法規，下令禁止荷蘭僑民參與該俱樂部活動。該俱樂部涉嫌在組織跑步活動時，對外籍人士給予優惠待遇，引起當地人士不滿。巴厘島當局認為，這違反了當地的法律規定，決定下令禁止荷蘭僑民參與該俱樂部活動。這一決定可能會對荷蘭僑民的生活和社交圈造成影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bb1516d5",
+        "title": "南非調查尼日利亞男子在被捕時昏倒身亡案",
+        "url": "https://www.bbc.co.uk/news/articles/cn7nx3rz16jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 14:26:50 GMT",
+        "summary_zh": "南非當局正在調查一名尼日利亞男子在被捕時昏倒身亡的事件。初步報告指出，該男子在死後的檢屍報告中出現了背部和胸部的擦傷。調查人員表示，這些擦傷可能與男子在被捕時的狀況有關。該男子在被捕後不久便昏倒，隨後死亡。南非當局正在調查該男子的死因，並試圖了解他在被捕時的狀況。這一事件引起了對南非警察行動的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5e78027d",
+        "title": "一座橋樑成為美國加拿大緊張關係的象徵",
+        "url": "https://www.bbc.co.uk/news/videos/cq564e1l6zno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 18:27:12 GMT",
+        "summary_zh": "加拿大和美國之間的貿易糾紛正在加劇，而這種緊張關係在最近一項重大事件中得到了體現。Gordie Howe國際橋樑近日正式對汽車交通開放，而這座橋樑的開通也成為了兩國之間緊張關係的象徵。這座橋樑是連接美國密西根州和加拿大安大略省的重要交通樞紐，同時也是兩國貿易的重要通道。然而，近期加拿大對美國的稅收政策和貿易限制引發了強烈反彈，美國也對加拿大實施了報復性措施。這種緊張關係不僅影響到兩國的經濟，也影響到兩國人民的生活。目前尚未明確的時期，兩國之間的關係是否會逐漸緩和。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "90a57f45",
+        "title": "石油價格大跌 美國和伊朗暫停攻擊",
+        "url": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 15:08:37 GMT",
+        "summary_zh": "美伊衝突似乎有所緩和。美國方面宣布暫停對伊朗的攻擊，以便為談判留下空間。這一決定引起了石油市場的反應，油價大幅下跌。這一發展讓市場上充滿了對和平解決的希望。然而，仍有許多不確定性，未來的走向仍需觀察。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f1b981a5",
+        "title": "Shein 因特朗普關稅陷入 99 億美元虧損",
+        "url": "https://www.bbc.co.uk/news/articles/clyj8v0rek8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 02:08:36 GMT",
+        "summary_zh": "快速時尚巨頭 Shein 宣布因特朗普關稅而陷入 99 億美元虧損，這項消息發生在該公司準備在香港上市的時候。 Shein 是全球最大的線上時尚零售商，主要銷售服裝、鞋類和配飾等商品。公司的虧損主要是由於特朗普政府對中國的關稅措施導致的。 Shein 的虧損也反映了全球貿易緊張局勢對公司業務的影響。 Shein 的股東正在為公司的未來路線做出準備，包括在香港上市，以籌集資金和擴大業務。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c5a16f87",
+        "title": "烏干達發起緊急糧食援助，19人因飢餓喪生",
+        "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 07:00:34 GMT",
+        "summary_zh": "烏干達政府近期發起緊急糧食援助行動，原因是該國東部的卡拉莫賈地區長期旱災導致作物歉收，影響了1.5萬名當地居民的糧食供應。根據官方數據，該地區已經有至少19人因飢餓喪生。烏干達政府表示，這是該地區旱災和作物歉收的結果，導致當地居民面臨嚴重的糧食短缺和營養不良問題。政府正在進行緊急糧食援助行動，試圖幫助受影響的居民度過難關。這一事件也引起了國際社會的關注，各國正在提供援助以幫助烏干達政府應對這一危機。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
+      {
+        "id": "1905111b",
+        "title": "美國歌手D4vd將被起訴謀殺一名青少年",
+        "url": "https://www.bbc.co.uk/news/articles/c70gkg62w0ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 27 Jul 2026 21:37:59 GMT",
+        "summary_zh": "美國歌手D4vd將面臨謀殺罪名，罪名是謀殺一名名為Celeste Rivas Hernandez的青少年。警方發現了Celeste的屍體，屍體是在D4vd的地址登記的特斯拉車內發現的。這起案件引起了廣泛關注，D4vd的歌迷和粉絲們都在等待著真相的揭露。這起案件將在法庭上進行審判，D4vd將面臨嚴厲的法律處罰。這個案件的結果將對D4vd的音樂事業和個人生活產生重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "b3386a41",
+        "title": "多倫多美國領事館再遭槍擊　警方追捕失敗",
+        "url": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 27 Jul 2026 16:56:57 GMT",
+        "summary_zh": "多倫多美國領事館再次遭槍擊，警方發動高速度追捕，但未能逮捕嫌疑犯。今年已經是第二次發生類似事件。6月份，警方曾逮捕三名嫌疑犯。這次的槍擊事件引起了關注，警方正在努力追捕嫌疑犯並確保領事館的安全。這個事件可能會對美國與加拿大的關係產生影響，同時也引起了安全問題的關注。警方正在調查事件的原因和嫌疑犯的動機。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "51e9d596",
         "title": "西雅圖附近的食物節活動遇襲 三人死亡多人受傷",
         "url": "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "source": "BBC North America",
         "category": "whitehouse",
         "published_at": "Mon, 27 Jul 2026 19:23:08 GMT",
         "summary_zh": "近日，西雅圖附近的食物節活動遭遇槍擊事件，造成三人死亡，多人受傷，包括一名兩歲的男孩。西雅圖市長凱蒂·威爾遜(Katie Wilson)表示，嫌疑人已被捕。這起槍擊事件發生在西雅圖的空中花園附近，空中花園是該市的一個著名景點，附近還有著名的太空針。事件的具體原因尚未明朗，警方正在調查中。這起槍擊事件對西雅圖的市民造成了巨大震撼，許多人對此事件感到震驚和憂慮。西雅圖市長已經發表聲明，表達對受害者的哀悼，並承諾會盡快查明事件的原因和嫌疑人。",
@@ -82,6 +312,18 @@
         "ai_classified": true
       },
       {
+        "id": "08999848",
+        "title": "川普在受重創的密西根州為關稅辯護，同時加拿大稅率大幅上升",
+        "url": "https://www.bbc.co.uk/news/articles/cy0jknp3e6yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 27 Jul 2026 20:42:50 GMT",
+        "summary_zh": "川普總統在密西根州發表演說，表示他的經濟政策正在重新活化汽車業，並迫使海外企業遷移到美國。川普的演說是在密西根州的汽車產業重災區進行的，他試圖說服選民相信他的關稅政策對汽車業有益。然而，加拿大政府即將對汽車業實施稅率大幅上升，這可能會對美國汽車業產生重大影響。川普的經濟政策是否能夠實現其承諾，仍待觀察。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "55e6c59a",
         "title": " Savannah Guthrie再次呼籲母親綁架者 '做對的事情'",
         "url": "https://www.bbc.co.uk/news/articles/c5y4grv7pp8o?at_medium=RSS&at_campaign=rss",
@@ -89,18 +331,6 @@
         "category": "whitehouse",
         "published_at": "Mon, 27 Jul 2026 19:54:24 GMT",
         "summary_zh": "美國記者Savannah Guthrie再次在社交媒體上呼籲綁架母親Nancy的兇手們，公開母親的下落。這是她第三次發出這樣的呼籲。Savannah Guthrie的母親Nancy在2022年被綁架，她的下落至今仍然不明。Savannah Guthrie在社交媒體上呼籲綁架者們，做對的事情，公開母親的下落，讓她能夠與家人團聚。這個事件引起了美國社會的廣泛關注，許多人都在呼籲綁架者們，做對的事情。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "b3386a41",
-        "title": "多倫多美國領事館再遭槍擊　警方追捕失敗",
-        "url": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 27 Jul 2026 16:56:57 GMT",
-        "summary_zh": "多倫多美國領事館再次遭槍擊，警方發動高速度追捕，但未能逮捕嫌疑犯。今年已經是第二次發生類似事件。6月份，警方曾逮捕三名嫌疑犯。這次的槍擊事件引起了關注，警方正在努力追捕嫌疑犯並確保領事館的安全。這個事件可能會對美國與加拿大的關係產生影響，同時也引起了安全問題的關注。警方正在調查事件的原因和嫌疑犯的動機。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -114,8 +344,8 @@
         "published_at": "Mon, 27 Jul 2026 20:36:12 GMT",
         "summary_zh": "美國麻薩諸塞州一名母親被指控殺害三個小孩，檢察官稱她「完全知道自己在做什麼」並作出了「謀略性的」決定。前夫表示，母親的精神健康狀況在殺人前幾個月一直惡化。這起案件引起了社會的關注，許多人紛紛表達對受害者及其家人的同情。這起案件的結果將對母親的未來產生重大影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "2e54f7de",
@@ -126,8 +356,8 @@
         "published_at": "Mon, 27 Jul 2026 18:49:54 GMT",
         "summary_zh": "美國餐飲連鎖店 Cracker Barrel 的首席執行官 Julie Masino 將於未來離職。這是因為公司一年前重新設計品牌 logo 引發顧客反彈。新 logo 的設計被認為與公司的傳統品牌形象不符，引起了大量顧客的不滿。雖然公司試圖解釋和辯護新 logo 的設計理念，但最終仍無法挽回顧客的信任。 Julie Masino 的離職表明公司對顧客反彈的回應不夠有效，未來公司將需要重新評估品牌形象和營銷策略。這一事件也讓人們思考企業在品牌重塑時應該如何與顧客溝通和合作。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "cea00e63",
@@ -138,8 +368,8 @@
         "published_at": "Mon, 27 Jul 2026 18:13:37 GMT",
         "summary_zh": "美國佛羅里達州一宗兄弟會霸凌案中，涉嫌霸凌的美國國土安全部人員被控告。根據佛羅里達州當局的調查，霸凌事件涉及多次使用竹竿和木板進行毆打，導致兩人入院接受治療。這宗案件引起了對兄弟會霸凌行為的關注和譴責。美國國土安全部人員的涉嫌霸凌行為不僅違反了兄弟會的規章，也違反了美國法律，可能會面臨嚴厲的法律懲罰。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "fe701453",
@@ -151,18 +381,6 @@
         "summary_zh": "華盛頓特區最近釋放了數千隻蚊子，可能讓人感到驚訝，但這其實是一種控制蚊子叢集的方法。這些釋放的蚊子都是雄蚊，雄蚊通常不會叮咬人類，反而會吸食花粉和其他植物的汁液。這種方法的目的是減少蚊子叢集，從而減少蚊子叮咬人類的機會。這種方法可能會在未來的城市中被廣泛採用，作為控制蚊子叢集的一種創新方法。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c81c46bb",
-        "title": "川普暫停對伊朗的攻擊，讓空間為談判",
-        "url": "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 27 Jul 2026 08:14:46 GMT",
-        "summary_zh": "伊朗戰爭近兩週來一直處於一連串的針對性攻擊中，美國和伊朗都發動了幾次攻擊，似乎要破壞雙方永久結束戰爭的談判。然而，美國駐伊朗大使表示，川普總統在過去兩夜沒有對伊朗發動攻擊，這可能是為了讓雙方有空間進行談判。美國和伊朗近期的攻擊行動似乎在減緩，雙方都沒有發動新的攻擊，這可能是雙方都在等待談判的結果。目前尚不清楚雙方會如何繼續談判，但這一暫停攻擊的動作可能是雙方尋求和平的第一步。",
-        "sentiment": "中性",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -195,7 +413,7 @@
         "url": "https://www.theguardian.com/us-news/live/2026/jul/27/us-senate-spy-jay-clayton-donald-trump-iran-war-saudi-oman-hormuz-pentagon-seattle-latest-news-updates",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Mon, 27 Jul 2026 20:02:36 GMT",
+        "published_at": "Mon, 27 Jul 2026 21:22:57 GMT",
         "summary_zh": "美國總統川普提名的國家情報局長人選即將在參議院投票通過，但是在確認聽證會之前將面臨緊張的聽證會。川普總統將於今日前往郊區底特律，宣傳自己處理經濟的成績，並為在選區中對企業產生傷害的徹底關稅辯護。這一系列事件與川普總統在白宮記者晚宴上提到第三任期的幽默有關。另外，白宮發佈了一段AI生成的視頻，描繪了川普總統作為卡通動畫《理查德與莫蒂》中的理查德桑切斯，與副總統JD范斯跑在白宮的草坪上。該視頻已在社交平台X上獲得6.3萬個點擊。",
         "sentiment": "中性",
         "is_breaking": false,
@@ -215,6 +433,18 @@
       }
     ],
     "ai": [
+      {
+        "id": "511cf38d",
+        "title": "為什麼中國要把最好的AI模型免費給人",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-27T12:51:50-04:00",
+        "summary_zh": "近期，美國硅谷地區出現了對於中國AI模型「Kimi K3」的關注。該模型由中國公司Moonshot AI開發，據稱能夠在成本只有美國公司AI模型的一半的情況下，超越部分美國公司的最佳系統。這種表現足以加劇美國公司與中國公司之間的競爭。中國政府最近宣佈將免費提供Kimi K3等AI模型給其他公司，引起了業界的關注。這種做法是否有利於中國公司的競爭力，還是有其他目的？這些問題都需要進一步的觀察和分析。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "61c01651",
         "title": "Nvidia 和微軟發起開放式 AI 安全聯盟，缺乏 OpenAI、Google 和 Anthropic 參與",
@@ -264,237 +494,79 @@
         "ai_classified": true
       }
     ],
-    "global": [
-      {
-        "id": "aee02f62",
-        "title": "美國與伊朗暫停交火 歐洲股市收漲",
-        "url": "https://www.cna.com.tw/news/afe/202607280002.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Tue, 28 Jul 2026 01:02:20 +0800",
-        "summary_zh": "美國與伊朗的衝突暫時停止，對於全球油價造成重大影響。油價下跌導致投資人對於歐洲股市的投資意欲增加，從而使得歐洲股市主要指數今天收盤揚升。這一事件的影響不僅僅局限於股市，還可能對於全球經濟產生深遠的影響。投資人正在密切關注這一發展，以了解它對於未來的影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "d76604c5",
-        "title": "美國和伊朗暫停攻擊，為和平談判留空間，談判進展情況",
-        "url": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-07-27 07:56:15",
-        "summary_zh": "美國和伊朗的衝突似乎暫時停止，儘管和平談判面臨新的挑戰。周末，兩國的談判進展遇到新的障礙。美國和伊朗的和平談判似乎暫時陷入僵局，但雙方仍在努力尋求解決方案。美國和伊朗的衝突已經持續了數月，雙方都表達了對和平的渴望。目前，雙方正在努力找到一個可行的解決方案，避免進一步的軍事衝突。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "fa4875e4",
-        "title": "美國軍方自伊朗戰爭爆發以來超過 600 名軍人受傷",
-        "url": "https://www.bbc.co.uk/news/articles/c998pzd1e8xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 13:31:57 GMT",
-        "summary_zh": "自 2 月份伊朗戰爭爆發以來，美國軍方已經有超過 600 名軍人受傷。這些傷亡數字包括了「Operation Fury」行動和一個新的「海外行動」類別。伊朗戰爭的傷亡人數持續上升，美國軍方正在努力應對這種局勢。這些受傷的軍人大多來自陸軍、海軍和空軍等部門。美國政府正試圖透過這些數字來表明自己對伊朗戰爭的應對力度。然而，這些數字也引發了關於美國軍方傷亡人數的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d793ac55",
-        "title": "數百萬人看到了《奧德賽》電影的泄露版本",
-        "url": "https://www.bbc.co.uk/news/articles/c1m1ev5j3m2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 09:21:10 GMT",
-        "summary_zh": "美國電影公司環球影業（Universal）發現一部《奧德賽》電影的高品質非法拷貝版本出現在社交平台X上。這部電影的非法拷貝版本迅速在網路上傳播，吸引了數百萬人觀看。環球影業隨後立即下架了這部非法拷貝版本。這一事件顯示了社交平台對電影業的影響，電影業必須適應新媒體的變化，保護自己的作品免受侵權。這一事件也引發了對社交平台管理內容的責任的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5e78027d",
-        "title": "一座橋樑成為美國加拿大緊張關係的象徵",
-        "url": "https://www.bbc.co.uk/news/videos/cq564e1l6zno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 18:27:12 GMT",
-        "summary_zh": "加拿大和美國之間的貿易糾紛正在加劇，而這種緊張關係在最近一項重大事件中得到了體現。Gordie Howe國際橋樑近日正式對汽車交通開放，而這座橋樑的開通也成為了兩國之間緊張關係的象徵。這座橋樑是連接美國密西根州和加拿大安大略省的重要交通樞紐，同時也是兩國貿易的重要通道。然而，近期加拿大對美國的稅收政策和貿易限制引發了強烈反彈，美國也對加拿大實施了報復性措施。這種緊張關係不僅影響到兩國的經濟，也影響到兩國人民的生活。目前尚未明確的時期，兩國之間的關係是否會逐漸緩和。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "d96ed835",
-        "title": "野火距離法國波爾多市九英里，市長警告",
-        "url": "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 20:34:55 GMT",
-        "summary_zh": "法國波爾多市附近的野火已經距離市中心九英里，市長托馬斯·卡澤納夫（Thomas Cazenave）表示正在準備應對進一步的疏散命令。附近的一個小鎮市長形容局勢「災難性」。波爾多市的市長警告，野火正在快速擴散，距離市中心已經有九英里。市長表示，如果進一步的疏散命令發出，他們將會準備好應對。這場野火已經造成了嚴重的損失，附近的居民正在緊張地等待進一步的指示。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "be2d7f67",
-        "title": "歐洲災難性野火地圖 - 如何應對",
-        "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 15:59:27 GMT",
-        "summary_zh": "近日，法國波爾多附近一場野火迅速席捲了超過 162 平方英里（420 平方公里）的土地，僅用了四天時間。同時，西班牙馬德里地區正面臨著歷史上最嚴重的野火災害。這些災難性野火對當地居民造成了嚴重威脅，許多人被迫疏散。政府和消防隊正在全力應對，派遣飛機和直升機進行水灌溉和滅火工作。雖然情況嚴重，但仍有希望，當地居民和政府正在共同努力，盡一切力量應對這場災難。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "248b2874",
-        "title": "烏克蘭斥責伊朗威脅，海上襲擊事件直接連結兩國戰爭",
-        "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 16:33:05 GMT",
-        "summary_zh": "烏克蘭最近遭到伊朗的威脅，但伊朗外長部長表示，這次襲擊事件「不能不加以回應」。伊朗的反應與烏克蘭遭到襲擊有直接關係，烏克蘭政府對此表示強烈不滿。這次事件可能會使烏克蘭和伊朗之間的關係惡化。烏克蘭政府已經對伊朗的威脅做出回應，表明他們將不會被伊朗的威脅所影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "146320c8",
-        "title": "柏林驕傲遊行襲擊事件：憤怒、震驚和悲痛，疑犯過去的細節仍未明朗",
-        "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 12:33:31 GMT",
-        "summary_zh": "近日，柏林發生了一起驕傲遊行襲擊事件，造成多人受傷。隨著疑犯的過去逐漸揭露，許多人都在問：為什麼他沒有被監禁？這起事件的背後，充滿著憤怒、震驚和悲痛。疑犯的過去似乎充滿著不確定性，許多人都在問：他為什麼能夠逃過法律的懲罰？這個問題的答案似乎只有在調查的過程中才能夠找到。這起事件的影響將會持續很長時間，許多人都在等待著真相的揭露。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3571b639",
-        "title": "馬斯克帶領「聖戰」來到歐洲，投資一部阿米·哈默主演的電影",
-        "url": "https://www.bbc.co.uk/news/articles/c5y4w5nwk00o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 09:52:21 GMT",
-        "summary_zh": "馬斯克近期投資了一部名為《公民偵探》的電影，該片講述了一位美國義警在歐洲某國橫行。這部電影由阿米·哈默主演，馬斯克對此表達了支持和熱情。這項投資標誌著馬斯克進一步延伸其在娛樂產業的影響力。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8840149d",
-        "title": "卡莉西蒙公布帕金森病診斷",
-        "url": "https://www.bbc.co.uk/news/articles/c5y3gymn6p6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 14:04:01 GMT",
-        "summary_zh": "美國知名女歌手卡莉西蒙近日宣布 herself 患有帕金森病。除了帕金森病之外，她還透露自己曾經接受皮膚癌治療，但仍堅持繼續歌唱。卡莉西蒙的帕金森病診斷讓她加入了許多著名藝人的行列，包括米蘭達·蘭德伯格和史蒂夫·普里斯頓。雖然帕金森病是一種慢性疾病，但卡莉西蒙仍表達了她對未來的樂觀態度，並表示 herself 將繼續歌唱。這項消息讓卡莉西蒙的粉絲感到擔憂，但也對她堅強的精神感到鼓舞。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "90a57f45",
-        "title": "石油價格大跌 美國和伊朗暫停攻擊",
-        "url": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 15:08:37 GMT",
-        "summary_zh": "美伊衝突似乎有所緩和。美國方面宣布暫停對伊朗的攻擊，以便為談判留下空間。這一決定引起了石油市場的反應，油價大幅下跌。這一發展讓市場上充滿了對和平解決的希望。然而，仍有許多不確定性，未來的走向仍需觀察。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3f0417c4",
-        "title": "法國和西班牙野火迫使超過 30 萬人撤離 馬克宏召開危機會議",
-        "url": "https://www.cnbc.com/2026/07/27/wildfires-spain-france-bordeaux-heatwave.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-07-27 07:20:18",
-        "summary_zh": "法國和西班牙目前正面臨嚴重的野火危機，法國波爾多地區的野火蔓延至西班牙，迫使超過 30 萬人撤離。這是法國歷史上最大規模的撤離行動。法國總統馬克宏已經召開危機會議，應對這場危機。野火已經燒毀大量森林和建築物，造成嚴重的環境和人道主義問題。政府正在努力控制火勢並保護民眾安全。這場危機的影響將持續時間不短，政府和民眾都需要共同努力來應對這個挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "64c41227",
-        "title": "智利逮捕涉 Victor Jara 殺人案的逃犯",
-        "url": "https://www.bbc.co.uk/news/articles/c3w0xwj8vzyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 15:49:45 GMT",
-        "summary_zh": "智利政府在近期逮捕了一名逃犯，該名逃犯名叫 Nelson Haase，曾因參與 1973 年智利軍事政變後，民歌手 Victor Jara 的綁架和謀殺而被定罪。 Victor Jara 是一名知名的智利民歌手，在政變後被軍政府抓捕並遭到嚴刑逼供和謀殺。這一事件對智利的民主運動和人權運動產生了重大影響。 Nelson Haase 的逮捕是對這一歷史事件的重要回應，表明智利政府仍然致力於追究政變期間的罪行。這一事件也引起了國際社會的關注，呼籲智利政府繼續追究政變期間的罪行並為受害者伸張正義。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "bb1516d5",
-        "title": "南非調查尼日利亞男子在被捕時昏倒身亡案",
-        "url": "https://www.bbc.co.uk/news/articles/cn7nx3rz16jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 14:26:50 GMT",
-        "summary_zh": "南非當局正在調查一名尼日利亞男子在被捕時昏倒身亡的事件。初步報告指出，該男子在死後的檢屍報告中出現了背部和胸部的擦傷。調查人員表示，這些擦傷可能與男子在被捕時的狀況有關。該男子在被捕後不久便昏倒，隨後死亡。南非當局正在調查該男子的死因，並試圖了解他在被捕時的狀況。這一事件引起了對南非警察行動的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4a9b148c",
-        "title": "巴厘島禁令荷蘭僑民跑步俱樂部成員",
-        "url": "https://www.bbc.co.uk/news/articles/c1l1m6e08e2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 10:59:13 GMT",
-        "summary_zh": "巴厘島當局因荷蘭僑民跑步俱樂部被指在活動中偏袒外籍人士，違反移民法規，下令禁止荷蘭僑民參與該俱樂部活動。該俱樂部涉嫌在組織跑步活動時，對外籍人士給予優惠待遇，引起當地人士不滿。巴厘島當局認為，這違反了當地的法律規定，決定下令禁止荷蘭僑民參與該俱樂部活動。這一決定可能會對荷蘭僑民的生活和社交圈造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "62fe7dcc",
-        "title": "內維亞特諾尼亞指控紐約市長馬曼達尼「煽動仇恨」",
-        "url": "https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 09:59:15 GMT",
-        "summary_zh": "紐約市長馬曼達尼在上週回應時承認自己缺乏法律權力，無法逮捕內維亞特諾尼亞。馬曼達尼最初威脅逮捕內維亞特諾尼亞，因為他持有國際刑事法院發出的逮捕令。這一事件與內維亞特諾尼亞的政治立場有關，他因為涉嫌在巴勒斯坦領土犯下戰爭罪而被國際刑事法院追究責任。馬曼達尼的行動被視為對內維亞特諾尼亞的支持和抗議。這一事件引發了對政治立場和法律權力的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c5a16f87",
-        "title": "烏干達發起緊急糧食援助，19人因飢餓喪生",
-        "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 07:00:34 GMT",
-        "summary_zh": "烏干達政府近期發起緊急糧食援助行動，原因是該國東部的卡拉莫賈地區長期旱災導致作物歉收，影響了1.5萬名當地居民的糧食供應。根據官方數據，該地區已經有至少19人因飢餓喪生。烏干達政府表示，這是該地區旱災和作物歉收的結果，導致當地居民面臨嚴重的糧食短缺和營養不良問題。政府正在進行緊急糧食援助行動，試圖幫助受影響的居民度過難關。這一事件也引起了國際社會的關注，各國正在提供援助以幫助烏干達政府應對這一危機。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f1b981a5",
-        "title": "Shein 因特朗普關稅陷入 99 億美元虧損",
-        "url": "https://www.bbc.co.uk/news/articles/clyj8v0rek8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 02:08:36 GMT",
-        "summary_zh": "快速時尚巨頭 Shein 宣布因特朗普關稅而陷入 99 億美元虧損，這項消息發生在該公司準備在香港上市的時候。 Shein 是全球最大的線上時尚零售商，主要銷售服裝、鞋類和配飾等商品。公司的虧損主要是由於特朗普政府對中國的關稅措施導致的。 Shein 的虧損也反映了全球貿易緊張局勢對公司業務的影響。 Shein 的股東正在為公司的未來路線做出準備，包括在香港上市，以籌集資金和擴大業務。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
     "finance": [
+      {
+        "id": "ece8b4fb",
+        "title": "福特汽車欲增加客戶自訂車輛以提升利潤",
+        "url": "https://www.cnbc.com/2026/07/27/ford-vehicle-customization-bronco.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-27 10:00:01",
+        "summary_zh": "福特汽車正努力擴大其配件和零件業務，以增強對 53 億美元的美國汽車 aftermarket 行業的掌控。公司希望通過讓客戶能夠自訂車輛來提升利潤，並模仿Nike的「鞋子下降」(Nike shoe drop) 的市場策略。這項策略將讓客戶能夠在線購買和自訂車輛配件，從而增強與客戶的互動。福特汽車的這一舉措將對該公司的利潤和市場競爭力產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "55040134",
+        "title": "哈薩克斯坦日均石油產量減半，原因是出口終端關閉，來源稱",
+        "url": "https://www.reuters.com/business/energy/kazakhstans-daily-oil-output-halves-after-exporting-terminal-closure-source-says-2026-07-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-27 09:54:09",
+        "summary_zh": "哈薩克斯坦因出口終端關閉，導致日均石油產量減半。根據來源，哈薩克斯坦石油產量的減少，主要是由於該國的主要出口終端——阿克套油田——關閉。阿克套油田是哈薩克斯坦最大的石油儲備之一，該油田的關閉對哈薩克斯坦石油產量的影響非常大。這一事件對哈薩克斯坦的經濟產生了重大影響，石油產量的減少會導致國家的出口收入減少。哈薩克斯坦政府正在努力恢復石油產量，但目前尚未有明確的恢復時間表。這一事件也引起了國際市場的關注，石油價格可能會受到影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "7cf40a6f",
+        "title": "印尼面臨央行獨立性考驗：總督突然辭職",
+        "url": "https://www.reuters.com/world/asia-pacific/indonesia-faces-test-central-bank-independence-after-governors-shock-exit-2026-07-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-27 09:53:50",
+        "summary_zh": "印尼央行總督佐哈里·巴克蒂亞里（Perry Warjiyo）突然辭職，引發對印尼央行獨立性和政策穩定性的擔憂。佐哈里·巴克蒂亞里擔任總督近六年，期間印尼央行實施了多項政策以控制通貨膨脹和維持經濟穩定。佐哈里·巴克蒂亞里的辭職可能會影響印尼央行未來的政策方向和經濟發展。印尼政府和央行需要確保央行的獨立性和穩定性，以維持投資者信心和經濟穩定。佐哈里·巴克蒂亞里的辭職也可能會影響印尼的經濟發展和投資環境。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "bf89f904",
+        "title": "倫敦股市上漲 美伊停戰暫停風險偏好 英國企業財報增強收益",
+        "url": "https://www.reuters.com/world/uk/london-stocks-advance-us-iran-pause-lifts-risk-appetite-earnings-add-gains-2026-07-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-27 09:44:41",
+        "summary_zh": "倫敦股市在美伊停戰暫停風險偏好情緒下上漲。英國企業財報出色，收益增強，對股市產生正面影響。投資者對未來市場前景感到樂觀，風險投資者開始回流市場。倫敦股市的上漲表現出市場對停戰的樂觀態度和對英國企業財報的信心。然而，投資者仍需關注市場風險和未來的發展趨勢。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8fd1d52b",
+        "title": "印度工程出口增長21%，中國出口大幅上升74% ",
+        "url": "https://www.reuters.com/world/china/indias-engineering-exports-rise-21-june-china-shipments-jump-74-2026-07-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-27 09:26:09",
+        "summary_zh": "印度工程出口在6月份錄得21%的增長，主要是由於中國的出口大幅上升74%。根據印度工程出口促進會的數據，印度在6月份出口的工程產品總值為17.6億美元，較去年同期增長21%。其中，中國的出口量大幅上升74%，成為印度工程出口的最大市場。這一增長主要是由於中國的需求增加和印度企業的出口能力增強。印度政府也正在努力推動出口增長，通過提供出口補助和優惠政策來支持企業。這一趨勢表明，印度工程出口將繼續增長，成為印度經濟的重要驅動力。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8559a762",
+        "title": "意大利準備新措施應對燃油價格大幅上漲，同時考慮財政問題",
+        "url": "https://www.reuters.com/business/energy/italy-prepares-new-measures-tackle-spiking-fuel-prices-amid-fiscal-concerns-2026-07-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-27 09:02:39",
+        "summary_zh": "意大利政府正面臨著燃油價格大幅上漲的壓力，同時也需要考慮財政問題。為了應對這種局面，政府正在準備新措施，包括調整稅率、提高燃油稅、以及推動節能政策等。這些措施的目的是降低燃油價格、減輕民眾負擔，並且為國家財政提供穩定的收入。政府還計劃與歐盟合作，共同推動能源政策的改革。這些新措施將對意大利的經濟和民眾產生重大影響，政府需要仔細考慮這些措施的可行性和效果。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "eb394efe",
         "title": "印度MRPL尋求避開紅海和霍爾木茲海峽的原油供應",
@@ -504,8 +576,8 @@
         "published_at": "2026-07-27 08:59:43",
         "summary_zh": "印度石油公司MRPL近期發起了一項原油招標，旨在避開紅海和霍爾木茲海峽地區的原油供應。這項招標是由於該地區的安全風險和供應鏈不穩定性，導致原油價格波動。根據文件顯示，MRPL正在尋求從其他地區獲得原油供應，例如印度洋和阿拉伯海的地區。這項招標將對全球原油市場產生影響，特別是在中東地區的原油供應鏈中。分析人士認為，這項招標是印度政府試圖減少對霍爾木茲海峽的依賴，同時增加原油供應鏈的多樣性。然而，這項招標也可能會導致原油價格上升，對全球經濟產生影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c377f8a5",
@@ -516,8 +588,8 @@
         "published_at": "2026-07-27 08:49:14",
         "summary_zh": "美國國庫收益率在本週一下跌，主要因為美國和伊朗暫停了軍事行動，導致石油價格下跌。這種情況下，投資者對美國經濟前景的擔憂減少，從而使得國庫收益率下跌。中東局勢的緩和為全球金融市場帶來了新的希望，投資者開始轉而關注美國經濟的恢復和企業盈利的改善。然而，投資者仍然需要關注美國經濟的長期趨勢和全球經濟的變化。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "d9844e05",
@@ -528,8 +600,8 @@
         "published_at": "2026-07-27 08:30:07",
         "summary_zh": "英國電信巨頭威訊行動通訊(Vodafone)公布了自法國億萬富翁尼爾(Xavier Niel)入股以來的首份財報。公司表示，盈利預期將比原先預期的高出5%。尼爾入股後，威訊行動通訊的股價大幅上升，市場對公司未來發展充滿期待。這一財報結果顯示，公司的業務正在朝著正面的方向發展。然而，市場仍然關注公司的債務問題和競爭環境的變化。尼爾的入股可能會對公司的戰略和管理產生影響，市場將密切關注公司未來的發展方向。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "05efd10a",
@@ -540,66 +612,6 @@
         "published_at": "2026-07-27 08:26:09",
         "summary_zh": "Shein 這家全球知名的電商平台，近日公布了其財務數據和估值在香港上市申請文件中。根據文件顯示，Shein 的財務收入和利潤都呈現了快速增長的趨勢。公司的估值被認為是近年來最大的電商公司之一。這項消息對於 Shein 的未來發展和投資者投資的風險都有重要的影響。 Shein 的上市申請將在香港交易所進行，並將對公司的財務狀況和未來發展方向提供更多的信息。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "52e85dd2",
-        "title": "德國商業意外意見在七月份大幅上升，ifo調查發現",
-        "url": "https://www.reuters.com/business/german-business-sentiment-rises-more-than-expected-july-ifo-survey-finds-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 08:10:41",
-        "summary_zh": "德國商業意外意見在七月份出現了意外的大幅上升，ifo調查發現。ifo商業氣氛指數在七月份升至 88.6，超出了市場預期的 85.5。這一結果表明德國商界對未來的看法有所改善。ifo調查發現，德國企業的出口訂單和生產意見都有所改善，出口訂單指數升至 105.3，生產意見指數升至 90.8。這一結果表明德國企業對未來的出口和生產有了更樂觀的看法。德國商界的改善意見可能與德國政府的財政刺激政策和歐洲央行的貨幣政策有關。德國政府的財政刺激政策幫助了德國企業的出口和生產，而歐洲央行的貨幣政策也幫助了德國企業的融資。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "567a7388",
-        "title": "歐洲央行卡齊米爾：即使預測改善，九月加息仍可能必要",
-        "url": "https://www.reuters.com/business/ecbs-kazimir-september-rate-hike-likely-needed-even-if-outlook-improves-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 08:02:09",
-        "summary_zh": "歐洲央行副行長卡齊米爾表示，即使經濟預測出現改善，九月份仍可能需要進行加息。卡齊米爾表示，歐洲央行將繼續關注通膨情況，並且會根據經濟數據做出適當的決策。目前，歐洲央行面臨著通膨和經濟增長的挑戰，卡齊米爾的表述顯示，央行仍然致力於控制通膨。這一表述也意味著，投資者需要繼續關注歐洲央行的政策決策，尤其是在九月份的加息問題上。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "b25d6f5c",
-        "title": "愛爾蘭大陸的倫敦股份大幅上漲，受益於 137 億美元管理層主導收購",
-        "url": "https://www.reuters.com/world/uk/irish-continentals-london-shares-jump-after-agreeing-137-billion-management-led-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 07:58:56",
-        "summary_zh": "愛爾蘭大陸的倫敦股份大幅上漲，受益於 137 億美元管理層主導收購。根據市場消息，愛爾蘭大陸的倫敦股份在收到收購消息後迅速上漲，收購價格高達 1.37 億美元。這次收購是由公司內部管理層主導，將使公司成為獨立企業。愛爾蘭大陸是一家主要從事客運和貨運業務的公司，業務遍佈歐洲各地。這次收購將對公司未來的發展方向產生重大影響，市場觀察人士將密切關注收購進展的發展。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "956ba20c",
-        "title": "英格蘭銀行維持利率不變，儘管石油天然氣價格反彈",
-        "url": "https://www.reuters.com/world/uk/bank-england-keep-rate-steady-despite-oil-gas-price-rebound-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 07:53:43",
-        "summary_zh": "英格蘭銀行在最新的政策會議中，宣布維持利率不變。儘管石油和天然氣價格在近期反彈，導致能源成本上升，英格蘭銀行仍認為目前的經濟環境不需要提高利率。英格蘭銀行的決定受到市場預期的影響，市場預期英格蘭銀行將維持利率不變。英格蘭銀行的政策決定將對英國的經濟產生重大影響，影響包括利率、通膨率和就業率等。英格蘭銀行的決定也受到全球經濟的影響，包括美國和歐洲的經濟趨勢。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "df9dae13",
-        "title": "沃達豐升高預期後 Safaricom 收購",
-        "url": "https://www.reuters.com/fr/affaires/vodafone-relve-ses-prvisions-aprs-lacquisition-de-safaricom-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 07:21:45",
-        "summary_zh": "沃達豐宣布升高預期，原因是公司近期收購肯亞最大手機營運商 Safaricom。這項收購將使沃達豐進一步擴展其在非洲市場的業務。根據公司的聲明，收購將帶來業務增長和收入的重大提升。沃達豐的財務負責人表示，收購將使公司在非洲市場的業務增強，並帶來新的商業機會。這項收購也將使沃達豐進一步與全球市場接軌。然而，收購的具體影響仍待觀察。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
@@ -711,54 +723,6 @@
         "summary_zh": "美股半導體類股遭到投資人擔憂AI龐大的資本支出而拋售，導致市場出現黑色星期一。AMD的股價在盤中狂殺8%，半導體測試與機器人技術供應商Teradyne的大跌超過7%，記憶體廠商美光暴跌了6.5%。此外，台積電的ADR也受到影響，下跌了4.5%。這些股價的下跌可能是因為投資人對AI的投資風險感到擔憂，導致對半導體股的需求下降。這種情況可能會持續下去，對於投資人來說，需要謹慎評估風險並做出適當的投資決策。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e8adc10d",
-        "title": "她欠129萬卡債悲劇了：一時刷卡一時爽！",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5519692",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 22:28:58 +0800",
-        "summary_zh": "信用卡提供消費便利，但也可能成為壓垮財務的無底洞。美國一名女子在紐約工作15年間，不知不覺累積4萬美元（約新台幣129萬元）信用卡債務。為了還債，她只能在40歲搬回父母家居住，展現了信用卡過度消費的悲劇結果。這名女子的故事提醒我們，過度依賴信用卡可能會導致嚴重的財務問題。美國的財務教育和理財規劃對於預防這種情況至關重要。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e34c5927",
-        "title": "長鑫上市首日衰事多！傳與華為決裂 股價飆漲遭質疑撐不久",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5519678",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 22:17:05 +0800",
-        "summary_zh": "長鑫存儲（CXMT）27日在上海科創板上市，但其股價飆漲卻引起市場關注。根據亞洲金融（Asia Finance ）的報導，長鑫存儲與華為之間出現供貨議價的衝突，可能導致兩家公司之間的關係惡化。這項消息對長鑫存儲的股價造成了影響，股價飆漲後遭到質疑是否能夠維持。長鑫存儲的上市首日股價飆漲，市場對其未來發展充滿了期待，但這項消息可能會影響到市場對其的看法。長鑫存儲的股價飆漲是否能夠維持，還需要觀察其未來的發展情況。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1e0da678",
-        "title": "中國6月工業利潤增速放緩至今年最低 汽車業獲利暴跌20％",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5519664",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 22:00:52 +0800",
-        "summary_zh": "中國6月工業企業利潤增速放緩至今年最低，為連續兩個月放緩，顯示中國企業復甦不平衡。根據中國國家統計局的數據，6月規模以上工業企業利潤增長為今年來最低，僅為1.4%。與此同時，中國汽車業的利潤則暴跌20%，這是中國汽車業今年來的最大跌幅。這些數據表明，中國企業面臨著不少挑戰，包括全球經濟下行、貿易摩擦等。中國政府正試圖通過政策措施來刺激經濟復甦，但效果尚未明顯。這些數據也使得投資者對中國經濟前景感到擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8395d658",
-        "title": "顧能：AI基建推升需求 今年全球IT支出估衝6.37兆美元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5519667",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 21:54:22 +0800",
-        "summary_zh": "顧能最新預估，2026年全球資訊科技（IT）支出將達6.37兆美元，年增14.2%，高於2025年的10.7%。這種成長動能主要來自AI基礎建設持續推升的需求。AI基礎建設的發展對全球IT市場產生了重大影響，企業和政府正在投資更多資源於AI技術的發展。這種趨勢預示著未來全球IT支出的持續增長。",
-        "sentiment": "正面",
-        "is_breaking": false,
         "ai_classified": true
       }
     ],
