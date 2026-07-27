@@ -1,442 +1,134 @@
 {
-  "generated_at": "2026-07-27T17:04:30.323005+08:00",
+  "generated_at": "2026-07-27T18:08:06.962861+08:00",
   "risk_signals": [
-    "🟢 台股加權 43634.19（正常）",
-    "🟢 S&P 500 7411.98（正常）",
-    "🟢 VIX 恐慌指數 17.63（正常）",
+    "🟡 台股加權 43634.19（下跌 -2.71%，留意）",
+    "🟢 S&P 500 7408.3（正常）",
+    "🟢 VIX 恐慌指數 17.55（正常）",
     "🟢 MOVE 債市波動 76.82（正常）",
-    "🟢 美元指數 101.26（正常）",
-    "🟢 黃金 4095.6（正常）",
-    "🟡 美債10Y殖利率 4.68（留意）",
-    "🟢 原油 WTI 83.13（正常）",
-    "🟢 美元/台幣 32.31（正常）"
+    "🟢 美元指數 101.27（正常）",
+    "🟢 黃金 4100.4（正常）",
+    "🟡 美債10Y殖利率 4.7（留意）",
+    "🟢 原油 WTI 82.24（正常）",
+    "🟢 美元/台幣 32.3（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，指標正常，但美債 10 年殖利率略有上升，需要留意。",
+  "ai_summary": "市場呈現偏弱氛圍，台股大幅下跌，美股也出現小幅回落，美元指數和美債10年殖利率上升。",
   "market": {
     "TWII": {
       "price": 43634.19,
-      "change_pct": -0.05
+      "change_pct": -2.71
     },
     "SP500": {
-      "price": 7411.98,
-      "change_pct": 0.05
+      "price": 7408.3,
+      "change_pct": -1.21
     },
     "NASDAQ": {
-      "price": 24975.82,
-      "change_pct": -0.64
+      "price": 25137.69,
+      "change_pct": -2.15
     },
     "VIX": {
-      "price": 17.63,
-      "change_pct": -5.11
+      "price": 17.55,
+      "change_pct": -6.15
     },
     "TNX": {
-      "price": 4.68,
-      "change_pct": -0.51
+      "price": 4.7,
+      "change_pct": 0.99
     },
     "MOVE": {
       "price": 76.82,
       "change_pct": null
     },
     "DXY": {
-      "price": 101.26,
-      "change_pct": -0.21
+      "price": 101.27,
+      "change_pct": -0.16
     },
     "GOLD": {
-      "price": 4095.6,
-      "change_pct": 0.69
+      "price": 4100.4,
+      "change_pct": 0.81
     },
     "OIL": {
-      "price": 83.13,
-      "change_pct": -6.92
+      "price": 82.24,
+      "change_pct": -7.92
     },
     "USDTWD": {
-      "price": 32.31,
-      "change_pct": 0.02
+      "price": 32.3,
+      "change_pct": 0.0
     }
   },
   "macro": {},
   "categories": {
-    "global": [
-      {
-        "id": "2667184f",
-        "title": "美國熱浪持續，四十萬萬人受影響",
-        "url": "https://www.theguardian.com/us-news/2026/jul/26/us-heat-wave-dome-weather",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 00:04:47 GMT",
-        "summary_zh": "美國南部和中部各州從加利福尼亞州到密西西比州面臨著百度以上的熱指數，高溫和嚴重濕度持續影響美國大片地區。美國國家氣象局預測，南西部地區將達到49攝氏度的高溫。美國氣象局發出極端熱浪警報，影響四十萬萬人。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "c5a16f87",
-        "title": "烏干達發起緊急糧食援助，19人因飢餓喪生",
-        "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 07:00:34 GMT",
-        "summary_zh": "烏干達政府近期發起緊急糧食援助行動，原因是該國東部的卡拉莫賈地區長期旱災導致作物歉收，影響了1.5萬名當地居民的糧食供應。根據官方數據，該地區已經有至少19人因飢餓喪生。烏干達政府表示，這是該地區旱災和作物歉收的結果，導致當地居民面臨嚴重的糧食短缺和營養不良問題。政府正在進行緊急糧食援助行動，試圖幫助受影響的居民度過難關。這一事件也引起了國際社會的關注，各國正在提供援助以幫助烏干達政府應對這一危機。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "f1b981a5",
-        "title": "Shein 因特朗普關稅陷入 99 億美元虧損",
-        "url": "https://www.bbc.co.uk/news/articles/clyj8v0rek8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 02:08:36 GMT",
-        "summary_zh": "快速時尚巨頭 Shein 宣布因特朗普關稅而陷入 99 億美元虧損，這項消息發生在該公司準備在香港上市的時候。 Shein 是全球最大的線上時尚零售商，主要銷售服裝、鞋類和配飾等商品。公司的虧損主要是由於特朗普政府對中國的關稅措施導致的。 Shein 的虧損也反映了全球貿易緊張局勢對公司業務的影響。 Shein 的股東正在為公司的未來路線做出準備，包括在香港上市，以籌集資金和擴大業務。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "62fe7dcc",
-        "title": "內維亞特諾尼亞指控紐約市長馬曼達尼「煽動仇恨」",
-        "url": "https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 00:27:58 GMT",
-        "summary_zh": "紐約市長馬曼達尼在上週回應時承認自己缺乏法律權力，無法逮捕內維亞特諾尼亞。馬曼達尼最初威脅逮捕內維亞特諾尼亞，因為他持有國際刑事法院發出的逮捕令。這一事件與內維亞特諾尼亞的政治立場有關，他因為涉嫌在巴勒斯坦領土犯下戰爭罪而被國際刑事法院追究責任。馬曼達尼的行動被視為對內維亞特諾尼亞的支持和抗議。這一事件引發了對政治立場和法律權力的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "77176196",
-        "title": "柏林驕傲遊行襲擊案疑犯在警方行動中被槍殺",
-        "url": "https://www.bbc.co.uk/news/articles/c62eg899l99o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 26 Jul 2026 19:21:26 GMT",
-        "summary_zh": "柏林警方表示，阿卜杜勒·巴路特（Abdul Ballout）在西部郊區的一次警方行動中被槍殺。據稱，巴路特持刀衝向警員。這起事件發生在柏林驕傲遊行襲擊案的背景下。該案件引起了社會的關注和討論。警方的行動目的是確保公眾安全和維持秩序。然而，這起事件也引發了對警方使用武力的手段的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "41b707c2",
-        "title": "以色列定居點居民在西岸點火燒毀清真寺、汽車和農地，巴勒斯坦人表示",
-        "url": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Sun, 26 Jul 2026 21:23:53 GMT",
-        "summary_zh": "近日，西岸的以色列定居點居民發動了一連串攻擊，點火燒毀了多處清真寺、汽車和農地。這一系列攻擊發生在兩天前以色列定居點居民和巴勒斯坦人在Tell村附近發生衝突後，該衝突造成四名巴勒斯坦人和兩名以色列人喪生。這一系列攻擊引起了巴勒斯坦人的強烈抗議，巴勒斯坦人認為這是對他們的宗教和生活方式的嚴重侵犯。這一事件也引起了國際社會的關注，各國政府和人權組織正在關注這一事件的發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "aa8b9b3e",
-        "title": "阿根廷領袖稱巴西總統為「小偷」和「囚犯」",
-        "url": "https://www.bbc.co.uk/news/articles/cvgx91vdedno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 01:35:51 GMT",
-        "summary_zh": "阿根廷領袖 Javier Milei 在巴西發表演說，批評巴西總統，稱他為「小偷」和「囚犯」。這些言論出現在 Javier Milei 在巴西參與右翼總統候選人 Flávio Bolsonaro 競選活動的時候。 Javier Milei 的言論引起了關注，巴西總統是否會對此作出回應仍待觀察。這一事件可能會對巴西阿根廷兩國的關係產生影響。 Javier Milei 的言論表明他對巴西總統的批評態度非常強烈。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "be6e0c0f",
-        "title": "英國首相承諾持續支持烏克蘭 預計澤倫斯基訪英",
-        "url": "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 06:48:02 GMT",
-        "summary_zh": "烏克蘭總統澤倫斯基將於未來訪問英國，這將是英國新任內閣首相安迪·伯南姆（Andy Burnham）首位國際訪客。英國政府承諾持續支持烏克蘭，尤其是在烏俄戰爭的背景下。這一承諾表明英國將繼續與烏克蘭站在一起，提供必要的援助和支持。然而，值得注意的是，安迪·伯南姆並非英國的首相，而是曼徹斯特市長，英國的首相是利澤·特拉斯（Liz Truss）。這一事件的背景是烏俄戰爭的持續進行，烏克蘭需要國際社會的支持和援助。英國的承諾將對烏克蘭的戰爭努力產生重要影響，同時也表明英國的外交政策立場。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6ea83562",
-        "title": "饒舌歌手Yung Filly在澳洲法庭上否認強姦罪",
-        "url": "https://www.bbc.co.uk/news/articles/cm2g044ydl4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 07:37:11 GMT",
-        "summary_zh": "饒舌歌手Yung Filly在澳洲法庭上出庭作證，他否認在酒店房間強姦一名粉絲。案件的背景是，Yung Filly被控犯下強姦罪，目前正在澳洲法庭上進行審判。根據目前的資訊，Yung Filly在法庭上表示，他與被控告的女性在酒店房間的氣氛非常好，似乎沒有任何不適。這一說法與被控告的女性的版本有所不同，她指控Yung Filly在酒店房間強姦了她。這一案件的結果尚未確定，目前正在進行審判。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "02ceba35",
-        "title": "澳洲法院維持反種族歧視判決　保琳漢森領導人敗訴",
-        "url": "https://www.bbc.co.uk/news/articles/cx2k5v9202wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 06:14:06 GMT",
-        "summary_zh": "澳洲保琳漢森領導人保琳漢森（Pauline Hanson）最近在法院上敗訴。法庭裁定她對參議員梅赫倫法魯基（Senator Mehreen Faruqi）進行了種族歧視。保琳漢森領導的澳洲一國黨（One Nation）試圖推翻這個判決，但法院最終維持了原判。這個判決對於澳洲的多元文化社會和反種族歧視運動有重要意義。保琳漢森的言論和行為一直受到爭議，許多人批評她對少數族裔的言論和行為。這個判決表明澳洲法律對於反種族歧視有著堅定的立場。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "stock_tw": [
-      {
-        "id": "1e30ca95",
-        "title": "AI掀半導體大洗牌！南韓甩開中國依賴 台灣躍升第2大出口市場",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5519354",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 16:56:15 +0800",
-        "summary_zh": "南韓半導體產業正面臨著全球布局的變化，受到AI浪潮的影響。根據南韓央行的最新報告，南韓的半導體出口重心正逐漸從中國轉向台灣。這種變化背後的關鍵原因是高頻寬記憶體（HBM）的需求增加。HBM是一種高性能的記憶體技術，主要用於AI應用和雲計算等領域。南韓的半導體公司正致力於發展這種技術，從而減少對中國的依賴。這種轉變對台灣的半導體產業來說是一個重大機會，台灣躍升為南韓的第二大出口市場。這種變化將對全球半導體產業產生重大影響，包括供應鏈的重組和市場競爭的變化。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "e4d92f12",
-        "title": "別亂接刀！聯電瀉不停 幕後大魔王是『它』",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5519378",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 16:47:25 +0800",
-        "summary_zh": "台股週一（27日）虛驚一場，記憶體、金融股挑大梁，而台積電也力守平盤下，指數急拉近700點，終場收跌20點，投信也由買轉賣超2.79億。其中，聯電最慘，股價大幅下跌，市場人士認為，聯電的困境是由於全球晶片短缺導致的需求下滑。聯電的業務受到影響，股價也因此受累。這種情況下，聯電的股價下跌是合理的。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "ff861b8b",
-        "title": "長鑫存儲IPO掛牌開盤暴漲 市值短暫攀上3.3兆元人民幣",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5519357",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 16:46:34 +0800",
-        "summary_zh": "長鑫存儲近日在上海掛牌上市，開盤一度暴漲472%，市值短暫攀上約3.3兆元人民幣，成為中國市值最高的境內上市公司。然而，這家中國記憶體晶片廠的IPO資金布局，卻被韓媒揭露。根據公開說明書的內容，長鑫存儲的IPO資金布局，似乎與韓國廠商有關。韓媒指出，長鑫存儲盯上了韓國廠商「這缺口」，並透露了公司的未來發展計畫。這項資訊引起了市場的關注，投資者正在密切關注長鑫存儲的未來發展。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "ae6dbecd",
-        "title": "雅特力：Q2獲利年增629％ 每股盈餘2.79元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5519363",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 16:42:57 +0800",
-        "summary_zh": "雅特力在第二季度公布財務報表，營收達9.63億元，季增47%，年增102%。毛利率也大幅提升，營業毛利為3.85億元，季增68%，年增142%。此外，每股盈餘也達到2.79元，年增629%。雅特力的強勁業績表明公司在微控制器市場的競爭力和市場占有率都在增強。這也使得投資者對公司未來發展充滿信心。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "d93c71f7",
-        "title": "輝達砍半Vera Rubin 記憶體容量，貴到撐不住？",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5519277",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 16:30:03 +0800",
-        "summary_zh": "輝達正面臨著嚴重的財務壓力，導致其Vera Rubin NVL72機櫃平台AI系統所需的記憶體容量大幅縮減。根據廣發證券的分析報告，輝達的這一決定可能是為了降低成本和增加利潤。然而，這一措施也可能對輝達的業務造成一定的影響，特別是在競爭激烈的AI市場中。輝達的這一決定也引發了對其財務狀況和未來發展方向的關注。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "8fb452dc",
-        "title": "美伊暫停交火 日股收紅",
-        "url": "https://www.cna.com.tw/news/afe/202607270162.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 15:20:30 +0800",
-        "summary_zh": "日股市場今天收紅，主要原因是美國與伊朗暫停報復性攻擊，讓市場對於雙方恢復停火並談判重啟荷莫茲海峽燃起希望。這項發展緩解了市場對於通膨再起及新一輪升息的疑慮。市場認為，雙方暫停交火可能會讓荷莫茲海峽的局勢得到改善，從而降低對全球經濟的影響。這項發展也讓投資者對於未來的市場趨勢感到更有信心。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "255c9a4e",
-        "title": "三大法人賣超台股0.96億元",
-        "url": "https://www.cna.com.tw/news/afe/202607270155.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 15:02:15 +0800",
-        "summary_zh": "台股今天跌20.65點，收在43634.19點，成交值新台幣7176.86億元。雖然外資及陸資買超，但投信和自營商卻賣超，合計賣超0.96億元。這表明市場投資者對台股的信心有所動搖。外資及陸資的買超可能是因為對台股未來發展的看好，但投信和自營商的賣超則可能是因為對市場的前景感到悲觀。這種矛盾的市場情緒可能會對台股的未來走勢產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "35dfb935",
-        "title": "金管會研議擴充跨業資料交換防四貸同堂信用風險",
-        "url": "https://www.cna.com.tw/news/afe/202607270148.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 14:44:59 +0800",
-        "summary_zh": "近日，外界關注「四貸同堂」可能衍生信用風險與監理缺口。為了降低風險，金管會表示，正在研議擴充跨業資料交換，讓銀行、保險業、證券業等金融機構能夠共享信用資料。目前，聯徵中心信用資料主要以銀行業務資訊為主，未包含保險業、證券業融資狀況。金管會表示，資料用途仍待進一步討論，尚無具體時間表。這項措施旨在加強金融監理，防止四貸同堂風險的出現。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "47ee7b6f",
-        "title": "外資連5週賣超470億元 台股指數週五收盤43654.84點",
-        "url": "https://www.cna.com.tw/news/afe/202607270147.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 14:42:57 +0800",
-        "summary_zh": "台股上週震盪劇烈，週五集中市場指數以43654.84點作收，週漲983.57點或2.3%。根據台灣證券交易所統計，上週外資賣超新台幣470.64億元，為連續第5週賣超，但比起前幾週賣超金額破千億，上週賣超力道收斂。外資賣超的主要原因是減碼力積電10萬張居首，其他原因包括減碼聯電、台積電等。這些賣超行動對台股的影響仍在觀察中，投資人需要密切關注市場的變化。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c6655b59",
-        "title": "記憶體光通訊反彈 台股量縮下跌20點留616點下影線",
-        "url": "https://www.cna.com.tw/news/afe/202607270145.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 14:35:53 +0800",
-        "summary_zh": "台股今天受到美伊衝突有和緩跡象的影響，國際油價回落，日韓股市翻紅。盤中台股一度挫跌逾680點，但最終守穩43000點關卡。台積電、記憶體、光通訊族群低檔反彈，金融、生技族群則勁揚。最終，台股下跌20點，拉出616.44點長下影線，暫現支撐力道。這表明市場仍然有反彈的可能，但投資者仍需保持謹慎的態度。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a37b7e80",
-        "title": "8月電子期金融期齊漲",
-        "url": "https://www.cna.com.tw/news/afe/202607270133.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Mon, 27 Jul 2026 13:59:27 +0800",
-        "summary_zh": "台北股市今天下跌20.65點，收於43634.19點。電子期金融期在8月份則呈現上漲趨勢，電子期收2826.4點，上漲13.65點，正價差24.14點；金融期收3136.4點，上漲47.8點，逆價差21.1點。這些數據表明，市場對電子和金融領域的預期正在增強。然而，台北股市整體仍然下跌，顯示市場的情緒仍然波動不定。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "stock_us": [
-      {
-        "id": "e055dddc",
-        "title": "我們在未來的一周中會關注這三大事項",
-        "url": "https://www.cnbc.com/2026/07/26/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-26 20:50:54",
-        "summary_zh": "在未來的一周中，股市將迎來一連串的重要事件。首先，科技巨擘的財報將在這一周公布，這將對市場產生重大影響。同時，聯邦儲備委員會將召開會議，討論貨幣政策。最後，這一周還將公布通貨膨脹數據，這將對市場的預期產生重大影響。這些事件將對市場產生重大影響，投資者應該密切關注。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "68596595",
-        "title": "S&P 500 AI 波動下工業股也發財，PE 比率接近科技股水平",
-        "url": "https://www.cnbc.com/2026/07/26/best-ai-stocks-market-sp500.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-26 14:12:20",
-        "summary_zh": "近年來，人工智慧（AI）基礎設施的發展帶動了整個股市，工業股也開始分享這波紅利。根據數據顯示，工業股的市盈率（PE）已經接近科技股的水平，投資人流入工業股的熱情也非常高。這種情況下，工業股的表現與科技股相比已經非常接近。投資人認為，這種趨勢可能持續下去，因此工業股的投資人流入仍在持續增加。這也使得投資人對於工業股的看法更加正面。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "afcc5f68",
-        "title": "4 代人，6 個不同美國夢的願景：『因為我們的韌性，我們是樂觀的』",
-        "url": "https://www.cnbc.com/2026/07/26/how-different-generations-are-rewriting-the-american-dream-today.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-26 13:30:02",
-        "summary_zh": "近日，CNBC Make It 進行了一項調查，訪問了政治、財經和關係領域的知名人士，詢問他們在當今美國，如何實現幸福和成功。這些受訪者來自不同世代，代表了不同的美國夢願景。其中，年輕一代的代表認為，美國夢應該是『自由、平等、無限可能』，而老一輩的代表則認為，美國夢應該是『家庭、傳統、穩定』。這些不同願景的出現，反映了美國社會的多元化和變化。同時，這些受訪者也提到了美國社會面臨的挑戰，例如收入不平等和社會不公。然而，儘管面臨著這些挑戰，美國社會仍然充滿著韌性和希望。因此，受訪者們都表達了對美國未來的樂觀態度。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b25a9ea9",
-        "title": "財政部市場發出對美聯儲主席Kevin Warsh的明確警告",
-        "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
-        "source": "Marketwatch",
-        "category": "stock_us",
-        "published_at": "2026-07-26 12:30:00",
-        "summary_zh": "財政部市場的收益率上升，表明市場對通貨膨脹感到極度擔憂，同時也關注美聯儲是否會實際行動。美聯儲主席Kevin Warsh近期表達了對通貨膨脹的堅定立場，但市場仍然對美聯儲的行動感到懷疑。市場的擔憂不僅僅是美聯儲的言論，還是實際行動的缺乏。這種擔憂可能會對市場造成重大影響，尤其是在美聯儲未來的政策決策中。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2ba0e4ab",
-        "title": "華爾街頂尖分析師推薦這三檔股票長期成長潛力",
-        "url": "https://www.cnbc.com/2026/07/26/top-analysts-back-these-3-stocks-for-their-long-term-growth-potential.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-26 11:33:11",
-        "summary_zh": "投資者若有長期投資視角，應該忽略短期市場波動，關注那些有潛力長期回報的股票。根據華爾街頂尖分析師的評估，以下三檔股票被認為具有長期成長潛力，投資者可考慮加入投資組合。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "fd383c3e",
-        "title": "中央銀行家掌握主導權",
-        "url": "https://www.ft.com/content/865fd421-2953-4429-9297-c4dcf3a26d33?syn-25a6b1a6=1",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-07-26 17:15:10",
-        "summary_zh": "美國聯邦儲備局（Fed）、英國銀行（BoE）和日本銀行（BoJ）將會在近期內決定利率。這些央行的決定將對全球金融市場產生重大影響。同時，英國的曼徹斯特地區將選出一位新的市長。另外，企業季度財報將進入高峰期，投資者將密切關注企業的財務表現。這些事件將對市場產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ba263027",
-        "title": "格特威克機場道歉，水源短缺影響廁所",
-        "url": "https://www.ft.com/content/c6c745fc-58d6-4a31-9410-ce4e8f5bcfcf?syn-25a6b1a6=1",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-07-26 17:06:01",
-        "summary_zh": "格特威克機場因水源短缺問題，導致機場內的廁所出現問題。多間酒吧和餐廳也被迫關閉，但機場的航班仍然正常運行。格特威克機場是英國第二繁忙的機場。水源短缺的原因尚未明朗，機場正在努力解決問題。這一事件對機場的運作和旅客的舒適度都造成了影響。機場的管理人員正在與相關部門合作，盡快恢復正常運行。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ee8cec15",
-        "title": "Gen X 投資者擔憂泡沫破裂：退休前股市暴跌將如何影響401(k)和IRA?",
-        "url": "https://www.cnbc.com/2026/07/26/gen-x-investors-dotcom-bubble-retirement-portfolio.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-26 14:44:29",
-        "summary_zh": "美國50-55歲的Gen X投資者正面臨著退休前股市的風險。根據預估，這些人還有10到15年的工作年資，意味著他們的401(k)和IRA將繼續成長。然而，投資者們卻擔心泡沫破裂可能導致股市暴跌，從而影響他們的退休金。這些投資者們正試圖平衡風險和收益，避免在退休前遭遇股市大崩盤。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7abcccad",
-        "title": "Shein 公布 IPO 前關鍵財務數據",
-        "url": "https://www.cnbc.com/2026/07/26/shein-reveals-key-financials-ahead-of-hong-kong-ipo.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-26 13:51:15",
-        "summary_zh": "中國服裝零售商Shein已獲得中國政府的批准，將在香港上市。這標誌著該公司在香港上市的最後階段，之前曾嘗試在紐約和倫敦上市，但都未成功。 Shein 的財務數據顯示該公司在 2022 年實現了 100 億美元的收入，利潤達到 10 億美元。該公司的財務表現表明其在全球服裝零售市場上的競爭力。 Shein 的上市將對全球服裝零售業產生重大影響，投資者將密切關注該公司的財務表現。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c196f6b0",
-        "title": "某些高收入投資者將面臨延遲收益稅的問題",
-        "url": "https://www.cnbc.com/2026/07/26/opportunity-zone-investors-face-deferred-capital-gains-tax-bill.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-26 13:30:02",
-        "summary_zh": "美國政府將於12月31日取消一項投資機會區（Opportunity Zone）投資者的優惠政策，該政策允許投資者延遲稅務繳付。這項政策曾經是吸引投資者的重要動力，但現在將會結束。受影響的投資者將需要繳付多年來延遲的資本收益稅款。這項政策的結束將對投資者造成重大影響，投資者需要準備好面對新的稅務規範。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
     "whitehouse": [
+      {
+        "id": "415e269c",
+        "title": "普爾特稱其國安局完成第四輪裁員",
+        "url": "https://thehill.com/homenews/administration/5991559-odni-releases-election-threat-docs/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Mon, 27 Jul 2026 02:51:37 +0000",
+        "summary_zh": "美國臨時國家情報總監普爾特宣布，自6月19日接任後，國安局已經完成第四輪裁員。普爾特表示，自接任後，國安局團隊正在聰明地和謹慎地縮小國安局規模，重新聚焦於國家安全的核心任務。這四輪裁員的結果是，國安局員工人數已經減少了約25%。普爾特認為，這些裁員措施將幫助國安局更有效地應對未來的挑戰。然而，這些裁員措施也引起了關注，許多人擔心這將會影響國家安全工作的質量。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "297e2637",
+        "title": "格雷厄姆將川普和內塔尼亞胡與羅斯福和丘吉爾相提並論",
+        "url": "https://thehill.com/homenews/senate/5991541-lindsey-graham-trump-netanyahu/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Mon, 27 Jul 2026 02:07:08 +0000",
+        "summary_zh": "新紀錄片片段顯示，已故參議員林西·格雷厄姆（R-南卡州）堅定地支持伊朗戰爭，甚至將美國總統川普和以色列總理內塔尼亞胡與富蘭克林·D·羅斯福和溫斯頓·丘吉爾相提並論。這些片段由攝影師亞歷克斯·霍爾德拍攝，他花了數百小時跟隨格雷厄姆拍攝，追蹤從2019年到2020年美國總統選舉期間的行程。格雷厄姆在紀錄片中表達了對川普的支持，並將他與羅斯福相提並論，認為兩人都擁有領導國家的才能。另一方面，格雷厄姆對內塔尼亞胡的評價則更加褒揚，認為他是「以色列最偉大的領袖之一」。格雷厄姆的言論在紀錄片中展現出對兩位領袖的堅定支持，並將他們與歷史上兩位偉大的領袖相提並論。這些片段對於了解格雷厄姆的政治立場和對兩位領袖的看法提供了重要的線索。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a65a0ecc",
+        "title": "哈基姆·傑弗里斯再次強調民主黨的價格負擔和可負擔性問題，迎接中期選舉",
+        "url": "https://thehill.com/homenews/campaign/5991507-jeffries-target-gop-control/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Mon, 27 Jul 2026 01:30:04 +0000",
+        "summary_zh": "美國民主黨領袖哈基姆·傑弗里斯（Hakeem Jeffries）在中期選舉前100天的關鍵時刻，強調民主黨將會處理生活成本問題。傑弗里斯表示，如果民主黨能夠重奪國會控制權，100天內選民就能選擇一個可負擔的美國，降低食品、汽油和房屋的成本。這是民主黨在選舉前的一個關鍵宣言，表明他們將會關注民眾的生活成本問題。傑弗里斯的發言也顯示，民主黨將會繼續推動價格控制和可負擔性政策。這些政策將會對選民的生活產生重大影響，特別是在食品、汽油和房屋成本上。民主黨的這一宣言也表明，選舉將會是價格控制和可負擔性問題的關鍵焦點。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2823f3e9",
+        "title": "前FDA主管：水樣病原體爆發仍未得到控制",
+        "url": "https://thehill.com/policy/healthcare/5991428-gottlieb-fda-cyclospaoriasis-outbreak/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Sun, 26 Jul 2026 22:51:16 +0000",
+        "summary_zh": "前美國食品藥物管理局（FDA）主管斯科特·戈特利布（Scott Gottlieb）週日表示，該機構尚未能夠控制水樣病原體（cyclosporiasis）的爆發。他表示，FDA已經做了很好的工作，成功地將病原體的來源限制在墨西哥的中部地區和某些特定的農場。然而，他認為，該機構仍然需要進一步努力，以確保該地區的水源安全。水樣病原體爆發已經導致數百人在美國和加拿大罹患疾病，造成多人住院。斯科特·戈特利布認為，政府應該與墨西哥合作，共同應對這場公共衛生危機。同時，他也呼籲消費者應該小心食用生食和未經處理的水果和蔬菜，以防止感染。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1edbda0c",
+        "title": "DSA 党内高官：民主黨內部派系應該擔心選民的選擇",
+        "url": "https://thehill.com/homenews/campaign/5991320-dsa-warns-democrats-voter-discontent/",
+        "source": "The Hill",
+        "category": "whitehouse",
+        "published_at": "Sun, 26 Jul 2026 21:40:01 +0000",
+        "summary_zh": "民主社會黨（DSA）全國副主席 Megan Romer 在週日接受福克斯新聞節目訪問時表示，民主黨內部派系應該擔心選民的選擇。根據節目主持人 Shannon Bream 的提問，民主黨是否應該擔心 DSA 的計畫。 Romer 表示，民主黨內部派系應該擔心選民的選擇，因為選民正在轉向支持更加進步的政黨。 這表明選民正在尋求更大的變革和更進步的政策。 這一轉變對民主黨內部派系的影響將是什麼？ 將會如何影響未來的選舉結果？ DSA 的計畫將如何影響民主黨的未來？ 這些都是值得關注的問題。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "51e9d596",
+        "title": "西雅圖附近的食物節活動遇襲 三人死亡多人受傷",
+        "url": "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Mon, 27 Jul 2026 06:11:20 GMT",
+        "summary_zh": "近日，西雅圖附近的食物節活動遭遇槍擊事件，造成三人死亡，多人受傷，包括一名兩歲的男孩。西雅圖市長凱蒂·威爾遜(Katie Wilson)表示，嫌疑人已被捕。這起槍擊事件發生在西雅圖的空中花園附近，空中花園是該市的一個著名景點，附近還有著名的太空針。事件的具體原因尚未明朗，警方正在調查中。這起槍擊事件對西雅圖的市民造成了巨大震撼，許多人對此事件感到震驚和憂慮。西雅圖市長已經發表聲明，表達對受害者的哀悼，並承諾會盡快查明事件的原因和嫌疑人。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "3550687a",
         "title": "五角大樓公佈伊朗戰爭傷亡數字超過600人",
@@ -446,8 +138,8 @@
         "published_at": "Sun, 26 Jul 2026 22:55:06 GMT",
         "summary_zh": "五角大樓近期更新了其官方戰爭傷亡數據庫，新增超過140名受傷軍人。該數據庫還引入了一個新的傷亡類別，標籤為「海外行動」，用於記錄自7月7日起受傷或喪生的軍人。根據更新的數據庫，美國與伊朗戰爭的早期階段，代號為「Operation Epic Fury」，目前的傷亡總數已經達到14名軍人喪生和超過400名軍人受傷。這些數字引發了爭議，因為美國國防部前幾天才將記錄的傷亡數字降低。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "ce6d2cae",
@@ -510,30 +202,6 @@
         "ai_classified": true
       },
       {
-        "id": "7f68cc71",
-        "title": "奧克拉荷馬社區影響力人物被丈夫槍殺，疑似自殺",
-        "url": "https://www.theguardian.com/us-news/2026/jul/26/oklahoma-influencer-killed-apparent-murder-suicide",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Sun, 26 Jul 2026 14:38:46 GMT",
-        "summary_zh": "奧克拉荷馬州一名社交媒體上知名的母親博主，名為莎拉·吉爾森（Sara Gilson），在她在社交媒體上指控丈夫犯有性侵幼童罪後，遭丈夫槍殺。警方表示，莎拉·吉爾森在不到兩週前就發布了一段影片，指控丈夫犯有性侵幼童罪。警方和法庭記錄顯示，莎拉·吉爾森和她的丈夫傑瑞米亞·肖恩·杜費（Jeremiah Shawn Duffey）在週四在郊區圖斯拉的一棟房子內被發現，雙方都遭到槍傷。警方懷疑傑瑞米亞·杜費先射殺了莎拉·吉爾森，然後自殺。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "51e9d596",
-        "title": "西雅圖附近的食物節活動遇襲 三人死亡多人受傷",
-        "url": "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 27 Jul 2026 06:11:20 GMT",
-        "summary_zh": "近日，西雅圖附近的食物節活動遭遇槍擊事件，造成三人死亡，多人受傷，包括一名兩歲的男孩。西雅圖市長凱蒂·威爾遜(Katie Wilson)表示，嫌疑人已被捕。這起槍擊事件發生在西雅圖的空中花園附近，空中花園是該市的一個著名景點，附近還有著名的太空針。事件的具體原因尚未明朗，警方正在調查中。這起槍擊事件對西雅圖的市民造成了巨大震撼，許多人對此事件感到震驚和憂慮。西雅圖市長已經發表聲明，表達對受害者的哀悼，並承諾會盡快查明事件的原因和嫌疑人。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "c81c46bb",
         "title": "川普暫停對伊朗的攻擊，讓空間為談判",
         "url": "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss",
@@ -546,19 +214,471 @@
         "ai_classified": true
       }
     ],
-    "ai": [
+    "global": [
       {
-        "id": "b1219ffd",
-        "title": "人工智慧財富如何分配給所有美國人",
-        "url": "https://www.cnbc.com/2026/07/26/how-can-ai-wealth-be-shared-with-all-americans.html",
-        "source": "Cnbc",
-        "category": "ai",
-        "published_at": "2026-07-26 14:06:53",
-        "summary_zh": "人工智慧財富已經集中在少數幾家強大的公司手中，但有許多新想法，甚至是激進的想法，關於如何分配這些財富。這些想法包括通過創建公共財富基金、實施進一步的稅收改革、推動企業社會責任等方式來分配人工智慧財富。這些想法的目標是減少財富不平等，促進社會公平。然而，實現這些想法的具體步驟和具體措施仍待商榷。",
+        "id": "77176196",
+        "title": "柏林驕傲遊行襲擊案疑犯在警方行動中被槍殺",
+        "url": "https://www.bbc.co.uk/news/articles/c62eg899l99o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 26 Jul 2026 19:21:26 GMT",
+        "summary_zh": "柏林警方表示，阿卜杜勒·巴路特（Abdul Ballout）在西部郊區的一次警方行動中被槍殺。據稱，巴路特持刀衝向警員。這起事件發生在柏林驕傲遊行襲擊案的背景下。該案件引起了社會的關注和討論。警方的行動目的是確保公眾安全和維持秩序。然而，這起事件也引發了對警方使用武力的手段的爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "be6e0c0f",
+        "title": "英國首相承諾持續支持烏克蘭 預計澤倫斯基訪英",
+        "url": "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 06:48:02 GMT",
+        "summary_zh": "烏克蘭總統澤倫斯基將於未來訪問英國，這將是英國新任內閣首相安迪·伯南姆（Andy Burnham）首位國際訪客。英國政府承諾持續支持烏克蘭，尤其是在烏俄戰爭的背景下。這一承諾表明英國將繼續與烏克蘭站在一起，提供必要的援助和支持。然而，值得注意的是，安迪·伯南姆並非英國的首相，而是曼徹斯特市長，英國的首相是利澤·特拉斯（Liz Truss）。這一事件的背景是烏俄戰爭的持續進行，烏克蘭需要國際社會的支持和援助。英國的承諾將對烏克蘭的戰爭努力產生重要影響，同時也表明英國的外交政策立場。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2a24ec8a",
+        "title": "印度年輕世代抗議挑戰莫迪領導地位",
+        "url": "https://www.ft.com/content/cb0f0e8b-cb17-4a7b-9875-d34da635cb88?syn-25a6b1a6=1",
+        "source": "Financial Times",
+        "category": "global",
+        "published_at": "2026-07-26 21:16:57",
+        "summary_zh": "印度年輕世代抗議活動正在挑戰印度總理莫迪的領導地位。這些抗議活動表明，莫迪的領導地位不再是無可挑戰的。根據最新的調查數據，印度年輕世代對莫迪政府的不滿正在增加。這些抗議活動的背後，還有許多年輕人對莫迪政府的政策感到不滿。莫迪政府的政策，包括經濟政策和社會政策，正在受到年輕世代的批評。這些抗議活動可能會對印度的政治局勢產生重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "41b707c2",
+        "title": "以色列定居點居民在西岸點火燒毀清真寺、汽車和農地，巴勒斯坦人表示",
+        "url": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Sun, 26 Jul 2026 21:23:53 GMT",
+        "summary_zh": "近日，西岸的以色列定居點居民發動了一連串攻擊，點火燒毀了多處清真寺、汽車和農地。這一系列攻擊發生在兩天前以色列定居點居民和巴勒斯坦人在Tell村附近發生衝突後，該衝突造成四名巴勒斯坦人和兩名以色列人喪生。這一系列攻擊引起了巴勒斯坦人的強烈抗議，巴勒斯坦人認為這是對他們的宗教和生活方式的嚴重侵犯。這一事件也引起了國際社會的關注，各國政府和人權組織正在關注這一事件的發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d793ac55",
+        "title": "數百萬人看到了《奧德賽》電影的泄露版本",
+        "url": "https://www.bbc.co.uk/news/articles/c1m1ev5j3m2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 09:21:10 GMT",
+        "summary_zh": "美國電影公司環球影業（Universal）發現一部《奧德賽》電影的高品質非法拷貝版本出現在社交平台X上。這部電影的非法拷貝版本迅速在網路上傳播，吸引了數百萬人觀看。環球影業隨後立即下架了這部非法拷貝版本。這一事件顯示了社交平台對電影業的影響，電影業必須適應新媒體的變化，保護自己的作品免受侵權。這一事件也引發了對社交平台管理內容的責任的討論。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "aa090059",
+        "title": " Infantino 告訴 Fifa 批評者：靜心禱告或觀看足球比散播仇恨和假消息更好",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cz0515973gpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 08:07:28 GMT",
+        "summary_zh": "國際足協主席吉尼·伊南迪諾 (Gianni Infantino) 對批評者說，何不靜心禱告或觀看一場足球比賽，而不是散播仇恨和假消息？伊南迪諾的這番話是針對對他的批評和世界盃的批評而發表的。他在接受採訪時表示，批評者應該靜心禱告或觀看一場足球比賽，來平息自己的情緒和心情。伊南迪諾的這番話引起了廣泛的迴響，許多人認為這是他對批評者的回應。然而，也有許多人批評伊南迪諾的話是輕蔑的和不恰當的。伊南迪諾的話也引起了對世界盃的關注，許多人對世界盃的準備和執行表達了關切。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "aa8b9b3e",
+        "title": "阿根廷領袖稱巴西總統為「小偷」和「囚犯」",
+        "url": "https://www.bbc.co.uk/news/articles/cvgx91vdedno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 01:35:51 GMT",
+        "summary_zh": "阿根廷領袖 Javier Milei 在巴西發表演說，批評巴西總統，稱他為「小偷」和「囚犯」。這些言論出現在 Javier Milei 在巴西參與右翼總統候選人 Flávio Bolsonaro 競選活動的時候。 Javier Milei 的言論引起了關注，巴西總統是否會對此作出回應仍待觀察。這一事件可能會對巴西阿根廷兩國的關係產生影響。 Javier Milei 的言論表明他對巴西總統的批評態度非常強烈。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6ea83562",
+        "title": "饒舌歌手Yung Filly在澳洲法庭上否認強姦罪",
+        "url": "https://www.bbc.co.uk/news/articles/cm2g044ydl4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 07:37:11 GMT",
+        "summary_zh": "饒舌歌手Yung Filly在澳洲法庭上出庭作證，他否認在酒店房間強姦一名粉絲。案件的背景是，Yung Filly被控犯下強姦罪，目前正在澳洲法庭上進行審判。根據目前的資訊，Yung Filly在法庭上表示，他與被控告的女性在酒店房間的氣氛非常好，似乎沒有任何不適。這一說法與被控告的女性的版本有所不同，她指控Yung Filly在酒店房間強姦了她。這一案件的結果尚未確定，目前正在進行審判。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
+      {
+        "id": "02ceba35",
+        "title": "澳洲法院維持反種族歧視判決　保琳漢森領導人敗訴",
+        "url": "https://www.bbc.co.uk/news/articles/cx2k5v9202wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 06:14:06 GMT",
+        "summary_zh": "澳洲保琳漢森領導人保琳漢森（Pauline Hanson）最近在法院上敗訴。法庭裁定她對參議員梅赫倫法魯基（Senator Mehreen Faruqi）進行了種族歧視。保琳漢森領導的澳洲一國黨（One Nation）試圖推翻這個判決，但法院最終維持了原判。這個判決對於澳洲的多元文化社會和反種族歧視運動有重要意義。保琳漢森的言論和行為一直受到爭議，許多人批評她對少數族裔的言論和行為。這個判決表明澳洲法律對於反種族歧視有著堅定的立場。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f1b981a5",
+        "title": "Shein 因特朗普關稅陷入 99 億美元虧損",
+        "url": "https://www.bbc.co.uk/news/articles/clyj8v0rek8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 02:08:36 GMT",
+        "summary_zh": "快速時尚巨頭 Shein 宣布因特朗普關稅而陷入 99 億美元虧損，這項消息發生在該公司準備在香港上市的時候。 Shein 是全球最大的線上時尚零售商，主要銷售服裝、鞋類和配飾等商品。公司的虧損主要是由於特朗普政府對中國的關稅措施導致的。 Shein 的虧損也反映了全球貿易緊張局勢對公司業務的影響。 Shein 的股東正在為公司的未來路線做出準備，包括在香港上市，以籌集資金和擴大業務。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c5a16f87",
+        "title": "烏干達發起緊急糧食援助，19人因飢餓喪生",
+        "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 07:00:34 GMT",
+        "summary_zh": "烏干達政府近期發起緊急糧食援助行動，原因是該國東部的卡拉莫賈地區長期旱災導致作物歉收，影響了1.5萬名當地居民的糧食供應。根據官方數據，該地區已經有至少19人因飢餓喪生。烏干達政府表示，這是該地區旱災和作物歉收的結果，導致當地居民面臨嚴重的糧食短缺和營養不良問題。政府正在進行緊急糧食援助行動，試圖幫助受影響的居民度過難關。這一事件也引起了國際社會的關注，各國正在提供援助以幫助烏干達政府應對這一危機。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "62fe7dcc",
+        "title": "內維亞特諾尼亞指控紐約市長馬曼達尼「煽動仇恨」",
+        "url": "https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 09:59:15 GMT",
+        "summary_zh": "紐約市長馬曼達尼在上週回應時承認自己缺乏法律權力，無法逮捕內維亞特諾尼亞。馬曼達尼最初威脅逮捕內維亞特諾尼亞，因為他持有國際刑事法院發出的逮捕令。這一事件與內維亞特諾尼亞的政治立場有關，他因為涉嫌在巴勒斯坦領土犯下戰爭罪而被國際刑事法院追究責任。馬曼達尼的行動被視為對內維亞特諾尼亞的支持和抗議。這一事件引發了對政治立場和法律權力的爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2667184f",
+        "title": "美國熱浪持續，四十萬萬人受影響",
+        "url": "https://www.theguardian.com/us-news/2026/jul/26/us-heat-wave-dome-weather",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 00:04:47 GMT",
+        "summary_zh": "美國南部和中部各州從加利福尼亞州到密西西比州面臨著百度以上的熱指數，高溫和嚴重濕度持續影響美國大片地區。美國國家氣象局預測，南西部地區將達到49攝氏度的高溫。美國氣象局發出極端熱浪警報，影響四十萬萬人。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "stock_tw": [
+      {
+        "id": "0f370e62",
+        "title": "財報亮眼卻不買單！華爾街拋售台積電 外媒直指\"真正原因\"",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5519408",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 17:55:37 +0800",
+        "summary_zh": "台積電日前公布2026年第二季財報，營收和獲利都創下歷史新高，甚至上調全年營收成長預測至40%以上，但華爾街卻仍拋售股票。外媒指出，這可能是因為投資者對台積電的價格估值過高，導致買賣力不足。台積電的財報亮眼，但股價未能跟上，這可能是因為投資者對公司未來成長的預期已經過高，導致買賣力不足。這也可能是因為市場對台積電的競爭環境和供應鏈風險的擔憂。台積電的財報亮眼，但股價未能跟上，這可能會影響公司未來的發展。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "b78e92eb",
+        "title": "台灣景氣續熱 景氣連7紅創史上次高",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5519436",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 17:48:10 +0800",
+        "summary_zh": "根據國發會的數據，6月景氣對策信號綜合判斷分數為41分，較上月增加2分，燈號續呈紅燈。這意味著台灣景氣已經連續7個月呈現熱絡的狀況，創下史上第二高的紀錄。這一趨勢距離最高紀錄連續9個月僅差兩個月。景氣連續紅燈的表現，意味著台灣經濟正在快速增長，企業的投資和消費者支出都在增加。然而，這也引發了對於泡沫化的擔憂。政府和經濟學家將密切關注景氣的發展，評估是否需要採取措施來防止經濟過熱。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "4a1dd9a4",
+        "title": "韓晶片出口台灣躍居第2 韓銀：鞏固美台韓AI供應鏈鐵三角",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5519410",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 17:41:52 +0800",
+        "summary_zh": "近年來，人工智慧（AI）熱潮已改變南韓半導體的出口格局。雖然中國仍是最大出口國，但出口額與佔比皆下滑。根據最新數據，台灣已經超越越南，躍居第二大出口國。韓國銀行（BOK）指出，這是由於美台韓三國之間的AI供應鏈緊密合作所致。韓銀表示，鞏固美台韓AI供應鏈鐵三角的關係，將對全球AI產業產生重大影響。這一發展將促進三國之間的經濟合作和互利關係，同時也將加強三國之間的戰略合作。韓銀預測，未來美台韓AI供應鏈鐵三角將繼續鞏固和發展，對全球AI產業產生持續的影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "42d29dd9",
+        "title": "午後急拉逾1角！新台幣由貶轉升 收32.305元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5519416",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 17:34:46 +0800",
+        "summary_zh": "美國總統川普宣布停止對伊朗發動攻擊，市場避險情緒降溫，國際油價應聲回跌，美元指數也自一個月高點拉回。然而，新台幣兌美元匯率今日上午仍持續消化上週外資賣超後的匯出壓力，一度跌至32.38元。隨著市場情緒轉趨穩定，新台幣匯率開始反彈，午後急拉逾1角，收盤價達32.305元。這一波反彈被視為市場對美國總統川普的政策轉變感到放心，進而對新台幣匯率產生正面影響。然而，市場仍需密切關注外資的動向和美元指數的變化，以確保新台幣匯率的穩定。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "92e72d95",
+        "title": "巧新科技辦理現金減資 退還股東每股2.5元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5519409",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 17:21:05 +0800",
+        "summary_zh": "巧新科技宣布辦理現金減資換發股票計畫，預計退還股東每股2.5元現金，減資後每股淨值將由38.02元提升至47.25元。這項措施將對公司股東帶來正面影響，股東可獲得更多的現金回報。然而，減資的影響還需觀察公司未來的財務表現，才能更全面評估其效果。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "1e30ca95",
+        "title": "AI掀半導體大洗牌！南韓甩開中國依賴 台灣躍升第2大出口市場",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5519354",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 16:56:15 +0800",
+        "summary_zh": "南韓半導體產業正面臨著全球布局的變化，受到AI浪潮的影響。根據南韓央行的最新報告，南韓的半導體出口重心正逐漸從中國轉向台灣。這種變化背後的關鍵原因是高頻寬記憶體（HBM）的需求增加。HBM是一種高性能的記憶體技術，主要用於AI應用和雲計算等領域。南韓的半導體公司正致力於發展這種技術，從而減少對中國的依賴。這種轉變對台灣的半導體產業來說是一個重大機會，台灣躍升為南韓的第二大出口市場。這種變化將對全球半導體產業產生重大影響，包括供應鏈的重組和市場競爭的變化。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e4d92f12",
+        "title": "別亂接刀！聯電瀉不停 幕後大魔王是『它』",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5519378",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 16:47:25 +0800",
+        "summary_zh": "台股週一（27日）虛驚一場，記憶體、金融股挑大梁，而台積電也力守平盤下，指數急拉近700點，終場收跌20點，投信也由買轉賣超2.79億。其中，聯電最慘，股價大幅下跌，市場人士認為，聯電的困境是由於全球晶片短缺導致的需求下滑。聯電的業務受到影響，股價也因此受累。這種情況下，聯電的股價下跌是合理的。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ff861b8b",
+        "title": "長鑫存儲IPO掛牌開盤暴漲 市值短暫攀上3.3兆元人民幣",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5519357",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 16:46:34 +0800",
+        "summary_zh": "長鑫存儲近日在上海掛牌上市，開盤一度暴漲472%，市值短暫攀上約3.3兆元人民幣，成為中國市值最高的境內上市公司。然而，這家中國記憶體晶片廠的IPO資金布局，卻被韓媒揭露。根據公開說明書的內容，長鑫存儲的IPO資金布局，似乎與韓國廠商有關。韓媒指出，長鑫存儲盯上了韓國廠商「這缺口」，並透露了公司的未來發展計畫。這項資訊引起了市場的關注，投資者正在密切關注長鑫存儲的未來發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ae6dbecd",
+        "title": "雅特力：Q2獲利年增629％ 每股盈餘2.79元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5519363",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 16:42:57 +0800",
+        "summary_zh": "雅特力在第二季度公布財務報表，營收達9.63億元，季增47%，年增102%。毛利率也大幅提升，營業毛利為3.85億元，季增68%，年增142%。此外，每股盈餘也達到2.79元，年增629%。雅特力的強勁業績表明公司在微控制器市場的競爭力和市場占有率都在增強。這也使得投資者對公司未來發展充滿信心。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d93c71f7",
+        "title": "輝達砍半Vera Rubin 記憶體容量，貴到撐不住？",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5519277",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 16:30:03 +0800",
+        "summary_zh": "輝達正面臨著嚴重的財務壓力，導致其Vera Rubin NVL72機櫃平台AI系統所需的記憶體容量大幅縮減。根據廣發證券的分析報告，輝達的這一決定可能是為了降低成本和增加利潤。然而，這一措施也可能對輝達的業務造成一定的影響，特別是在競爭激烈的AI市場中。輝達的這一決定也引發了對其財務狀況和未來發展方向的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8fb452dc",
+        "title": "美伊暫停交火 日股收紅",
+        "url": "https://www.cna.com.tw/news/afe/202607270162.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 15:20:30 +0800",
+        "summary_zh": "日股市場今天收紅，主要原因是美國與伊朗暫停報復性攻擊，讓市場對於雙方恢復停火並談判重啟荷莫茲海峽燃起希望。這項發展緩解了市場對於通膨再起及新一輪升息的疑慮。市場認為，雙方暫停交火可能會讓荷莫茲海峽的局勢得到改善，從而降低對全球經濟的影響。這項發展也讓投資者對於未來的市場趨勢感到更有信心。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "255c9a4e",
+        "title": "三大法人賣超台股0.96億元",
+        "url": "https://www.cna.com.tw/news/afe/202607270155.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 15:02:15 +0800",
+        "summary_zh": "台股今天跌20.65點，收在43634.19點，成交值新台幣7176.86億元。雖然外資及陸資買超，但投信和自營商卻賣超，合計賣超0.96億元。這表明市場投資者對台股的信心有所動搖。外資及陸資的買超可能是因為對台股未來發展的看好，但投信和自營商的賣超則可能是因為對市場的前景感到悲觀。這種矛盾的市場情緒可能會對台股的未來走勢產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "35dfb935",
+        "title": "金管會研議擴充跨業資料交換防四貸同堂信用風險",
+        "url": "https://www.cna.com.tw/news/afe/202607270148.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 14:44:59 +0800",
+        "summary_zh": "近日，外界關注「四貸同堂」可能衍生信用風險與監理缺口。為了降低風險，金管會表示，正在研議擴充跨業資料交換，讓銀行、保險業、證券業等金融機構能夠共享信用資料。目前，聯徵中心信用資料主要以銀行業務資訊為主，未包含保險業、證券業融資狀況。金管會表示，資料用途仍待進一步討論，尚無具體時間表。這項措施旨在加強金融監理，防止四貸同堂風險的出現。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "47ee7b6f",
+        "title": "外資連5週賣超470億元 台股指數週五收盤43654.84點",
+        "url": "https://www.cna.com.tw/news/afe/202607270147.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 14:42:57 +0800",
+        "summary_zh": "台股上週震盪劇烈，週五集中市場指數以43654.84點作收，週漲983.57點或2.3%。根據台灣證券交易所統計，上週外資賣超新台幣470.64億元，為連續第5週賣超，但比起前幾週賣超金額破千億，上週賣超力道收斂。外資賣超的主要原因是減碼力積電10萬張居首，其他原因包括減碼聯電、台積電等。這些賣超行動對台股的影響仍在觀察中，投資人需要密切關注市場的變化。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c6655b59",
+        "title": "記憶體光通訊反彈 台股量縮下跌20點留616點下影線",
+        "url": "https://www.cna.com.tw/news/afe/202607270145.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Mon, 27 Jul 2026 14:35:53 +0800",
+        "summary_zh": "台股今天受到美伊衝突有和緩跡象的影響，國際油價回落，日韓股市翻紅。盤中台股一度挫跌逾680點，但最終守穩43000點關卡。台積電、記憶體、光通訊族群低檔反彈，金融、生技族群則勁揚。最終，台股下跌20點，拉出616.44點長下影線，暫現支撐力道。這表明市場仍然有反彈的可能，但投資者仍需保持謹慎的態度。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "4f32e11d",
+        "title": "石油服務供應商Baker Hughes第二季度利潤超出預期",
+        "url": "https://www.reuters.com/business/energy/oilfield-services-provider-baker-hughes-beats-q2-profit-estimates-2026-07-26/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-26 21:23:03",
+        "summary_zh": "石油服務供應商Baker Hughes公布第二季度財報，公司的利潤超出投資者預期。根據財報顯示，Baker Hughes的第二季度營業收入達到 5.86 億美元，遠超市場預期的 5.43 億美元。公司的利潤也超出預期，達到 1.04 億美元。這表明Baker Hughes在石油服務業中仍然保持著競爭力。然而，公司的營業收入與去年同期相比有所下降，這可能是由於全球石油需求下降所致。投資者對於Baker Hughes未來的表現感到樂觀，公司的股價也隨之上升。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "fd383c3e",
+        "title": "中央銀行家掌握主導權",
+        "url": "https://www.ft.com/content/865fd421-2953-4429-9297-c4dcf3a26d33?syn-25a6b1a6=1",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-07-26 17:15:10",
+        "summary_zh": "美國聯邦儲備局（Fed）、英國銀行（BoE）和日本銀行（BoJ）將會在近期內決定利率。這些央行的決定將對全球金融市場產生重大影響。同時，英國的曼徹斯特地區將選出一位新的市長。另外，企業季度財報將進入高峰期，投資者將密切關注企業的財務表現。這些事件將對市場產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ba263027",
+        "title": "格特威克機場道歉，水源短缺影響廁所",
+        "url": "https://www.ft.com/content/c6c745fc-58d6-4a31-9410-ce4e8f5bcfcf?syn-25a6b1a6=1",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-07-26 17:06:01",
+        "summary_zh": "格特威克機場因水源短缺問題，導致機場內的廁所出現問題。多間酒吧和餐廳也被迫關閉，但機場的航班仍然正常運行。格特威克機場是英國第二繁忙的機場。水源短缺的原因尚未明朗，機場正在努力解決問題。這一事件對機場的運作和旅客的舒適度都造成了影響。機場的管理人員正在與相關部門合作，盡快恢復正常運行。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ee8cec15",
+        "title": "Gen X 投資者擔憂泡沫破裂：退休前股市暴跌將如何影響401(k)和IRA?",
+        "url": "https://www.cnbc.com/2026/07/26/gen-x-investors-dotcom-bubble-retirement-portfolio.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-26 14:44:29",
+        "summary_zh": "美國50-55歲的Gen X投資者正面臨著退休前股市的風險。根據預估，這些人還有10到15年的工作年資，意味著他們的401(k)和IRA將繼續成長。然而，投資者們卻擔心泡沫破裂可能導致股市暴跌，從而影響他們的退休金。這些投資者們正試圖平衡風險和收益，避免在退休前遭遇股市大崩盤。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7abcccad",
+        "title": "Shein 公布 IPO 前關鍵財務數據",
+        "url": "https://www.cnbc.com/2026/07/26/shein-reveals-key-financials-ahead-of-hong-kong-ipo.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-26 13:51:15",
+        "summary_zh": "中國服裝零售商Shein已獲得中國政府的批准，將在香港上市。這標誌著該公司在香港上市的最後階段，之前曾嘗試在紐約和倫敦上市，但都未成功。 Shein 的財務數據顯示該公司在 2022 年實現了 100 億美元的收入，利潤達到 10 億美元。該公司的財務表現表明其在全球服裝零售市場上的競爭力。 Shein 的上市將對全球服裝零售業產生重大影響，投資者將密切關注該公司的財務表現。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "stock_us": [
+      {
+        "id": "e055dddc",
+        "title": "我們在未來的一周中會關注這三大事項",
+        "url": "https://www.cnbc.com/2026/07/26/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-26 20:50:54",
+        "summary_zh": "在未來的一周中，股市將迎來一連串的重要事件。首先，科技巨擘的財報將在這一周公布，這將對市場產生重大影響。同時，聯邦儲備委員會將召開會議，討論貨幣政策。最後，這一周還將公布通貨膨脹數據，這將對市場的預期產生重大影響。這些事件將對市場產生重大影響，投資者應該密切關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "68596595",
+        "title": "S&P 500 AI 波動下工業股也發財，PE 比率接近科技股水平",
+        "url": "https://www.cnbc.com/2026/07/26/best-ai-stocks-market-sp500.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-26 14:12:20",
+        "summary_zh": "近年來，人工智慧（AI）基礎設施的發展帶動了整個股市，工業股也開始分享這波紅利。根據數據顯示，工業股的市盈率（PE）已經接近科技股的水平，投資人流入工業股的熱情也非常高。這種情況下，工業股的表現與科技股相比已經非常接近。投資人認為，這種趨勢可能持續下去，因此工業股的投資人流入仍在持續增加。這也使得投資人對於工業股的看法更加正面。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "afcc5f68",
+        "title": "4 代人，6 個不同美國夢的願景：『因為我們的韌性，我們是樂觀的』",
+        "url": "https://www.cnbc.com/2026/07/26/how-different-generations-are-rewriting-the-american-dream-today.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-26 13:30:02",
+        "summary_zh": "近日，CNBC Make It 進行了一項調查，訪問了政治、財經和關係領域的知名人士，詢問他們在當今美國，如何實現幸福和成功。這些受訪者來自不同世代，代表了不同的美國夢願景。其中，年輕一代的代表認為，美國夢應該是『自由、平等、無限可能』，而老一輩的代表則認為，美國夢應該是『家庭、傳統、穩定』。這些不同願景的出現，反映了美國社會的多元化和變化。同時，這些受訪者也提到了美國社會面臨的挑戰，例如收入不平等和社會不公。然而，儘管面臨著這些挑戰，美國社會仍然充滿著韌性和希望。因此，受訪者們都表達了對美國未來的樂觀態度。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b25a9ea9",
+        "title": "財政部市場發出對美聯儲主席Kevin Warsh的明確警告",
+        "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
+        "source": "Marketwatch",
+        "category": "stock_us",
+        "published_at": "2026-07-26 12:30:00",
+        "summary_zh": "財政部市場的收益率上升，表明市場對通貨膨脹感到極度擔憂，同時也關注美聯儲是否會實際行動。美聯儲主席Kevin Warsh近期表達了對通貨膨脹的堅定立場，但市場仍然對美聯儲的行動感到懷疑。市場的擔憂不僅僅是美聯儲的言論，還是實際行動的缺乏。這種擔憂可能會對市場造成重大影響，尤其是在美聯儲未來的政策決策中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2ba0e4ab",
+        "title": "華爾街頂尖分析師推薦這三檔股票長期成長潛力",
+        "url": "https://www.cnbc.com/2026/07/26/top-analysts-back-these-3-stocks-for-their-long-term-growth-potential.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-26 11:33:11",
+        "summary_zh": "投資者若有長期投資視角，應該忽略短期市場波動，關注那些有潛力長期回報的股票。根據華爾街頂尖分析師的評估，以下三檔股票被認為具有長期成長潛力，投資者可考慮加入投資組合。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "ai": [
       {
         "id": "80f05ecc",
         "title": "更昂貴的企業債務：對人工智慧建設的影響",
@@ -572,10 +692,22 @@
         "ai_classified": true
       },
       {
+        "id": "b1219ffd",
+        "title": "人工智慧財富如何分配給所有美國人",
+        "url": "https://www.cnbc.com/2026/07/26/how-can-ai-wealth-be-shared-with-all-americans.html",
+        "source": "Cnbc",
+        "category": "ai",
+        "published_at": "2026-07-26 14:06:53",
+        "summary_zh": "人工智慧財富已經集中在少數幾家強大的公司手中，但有許多新想法，甚至是激進的想法，關於如何分配這些財富。這些想法包括通過創建公共財富基金、實施進一步的稅收改革、推動企業社會責任等方式來分配人工智慧財富。這些想法的目標是減少財富不平等，促進社會公平。然而，實現這些想法的具體步驟和具體措施仍待商榷。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "fc705d76",
         "title": "晶圓製造商CXMT成為大陸最值得一提的上市公司",
         "url": "https://www.bbc.co.uk/news/articles/c9q9w3x9qn2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "source": "BBC Asia",
         "category": "ai",
         "published_at": "Mon, 27 Jul 2026 07:34:59 GMT",
         "summary_zh": "晶圓製造商CXMT在上市首日股價暴漲470%，這種情況與人工智慧的熱潮引發的晶片需求增加有關。CXMT的快速上升使其成為大陸最值得一提的上市公司。這種情況表明，人工智慧的發展正在推動晶片需求的增長。CXMT的成功上市也表明，中國的晶片產業正逐步崛起。然而，未來仍然存在著許多挑戰和風險，包括全球晶片產業的競爭激烈、技術的快速變化等。",
