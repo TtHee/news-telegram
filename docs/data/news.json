@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-28T20:04:27.026775+08:00",
+  "generated_at": "2026-07-28T21:04:29.588247+08:00",
   "risk_signals": [
     "🔴 台股加權 41603.36（急跌 -4.65%）",
     "🟢 S&P 500 7413.18（正常）",
-    "🟢 VIX 恐慌指數 18.87（正常）",
+    "🟢 VIX 恐慌指數 18.59（正常）",
     "🟢 MOVE 債市波動 77.21（正常）",
-    "🟢 美元指數 101.58（正常）",
-    "🟢 黃金 4024.1（正常）",
-    "🟡 美債10Y殖利率 4.64（留意）",
-    "🟢 原油 WTI 81.78（正常）",
-    "🟢 美元/台幣 32.39（正常）"
+    "🟢 美元指數 101.55（正常）",
+    "🟢 黃金 4031.7（正常）",
+    "🟡 美債10Y殖利率 4.63（留意）",
+    "🟢 原油 WTI 80.92（正常）",
+    "🟢 美元/台幣 32.38（正常）"
   ],
-  "ai_summary": "市場氛圍偏於悲觀，台股大幅下挫，美債10年殖利率升高，指示投資者對未來經濟情勢的擔憂。",
+  "ai_summary": "市場氛圍偏悲觀，台股大幅下跌，美債10年殖利率上升至4.63%，顯示投資者對未來經濟前景有所擔憂。",
   "market": {
     "TWII": {
       "price": 41603.36,
@@ -26,45 +26,335 @@
       "change_pct": -0.18
     },
     "VIX": {
-      "price": 18.87,
-      "change_pct": 1.07
+      "price": 18.59,
+      "change_pct": -0.43
     },
     "TNX": {
-      "price": 4.64,
-      "change_pct": -0.81
+      "price": 4.63,
+      "change_pct": -0.32
     },
     "MOVE": {
       "price": 77.21,
       "change_pct": null
     },
     "DXY": {
-      "price": 101.58,
-      "change_pct": 0.07
+      "price": 101.55,
+      "change_pct": 0.08
     },
     "GOLD": {
-      "price": 4024.1,
-      "change_pct": -1.24
+      "price": 4031.7,
+      "change_pct": -1.05
     },
     "OIL": {
-      "price": 81.78,
-      "change_pct": -1.0
+      "price": 80.92,
+      "change_pct": -2.05
     },
     "USDTWD": {
-      "price": 32.39,
-      "change_pct": 0.22
+      "price": 32.38,
+      "change_pct": 0.18
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "345a4c23",
+        "title": "澤倫斯基將在華盛頓與川普會面，討論空防系統",
+        "url": "https://www.bbc.co.uk/news/articles/c9v4g7e047zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 10:41:41 GMT",
+        "summary_zh": "烏克蘭總統澤倫斯基將訪問華盛頓，與美國總統川普會面。澤倫斯基希望能夠確保美國在加強烏克蘭空防系統方面的承諾。這是因為俄羅斯近期加劇了對烏克蘭的攻擊，導致大量人員傷亡。烏克蘭政府認為，美國的空防系統援助對於防禦俄羅斯的攻擊至關重要。澤倫斯基將在會面中與川普討論這一問題，希望能夠取得美國的支持。這一會面對烏克蘭的安全情勢有著重要的影響，烏克蘭政府將密切關注會面的結果。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "dc5e605a",
+        "title": "厄瓜多爾毒品戰爭第一線：警察與黑幫、槍炮和腐敗搏鬥",
+        "url": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 05:01:19 GMT",
+        "summary_zh": "厄瓜多爾正面臨著嚴重的毒品犯罪問題，BBC跟隨當地警察進行巡邏，了解他們在對抗黑幫、槍炮和腐敗的斗爭中所面臨的挑戰。厄瓜多爾警察面臨著巨大的壓力，試圖控制毒品犯罪的蔓延，同時也要應對黑幫的暴力行為和腐敗的問題。這場戰爭對厄瓜多爾的社會和經濟造成了深遠的影響，政府和警察必須團結一致，共同對抗毒品犯罪。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1f26250e",
+        "title": "強生公司願意支付 55 億美元和解美國嬰兒粉碎粉訴訟",
+        "url": "https://www.bbc.co.uk/news/articles/clyqnz52rp6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 01:53:58 GMT",
+        "summary_zh": "強生公司近日提出一項和解方案，旨在結束多年來圍繞其嬰兒粉碎粉（含有礦物粉末）引起癌症的法律爭議。根據這項方案，公司願意支付最高 55 億美元來和解與其嬰兒粉碎粉相關的訴訟。這項和解方案是針對多起訴訟案件，包括那些聲稱強生公司的嬰兒粉碎粉導致了癌症的病人。強生公司在過去幾年一直面臨著這些訴訟案件的壓力，公司必須為自己的嬰兒粉碎粉產品的安全性承擔責任。這項和解方案將為公司帶來一種解決方案，讓公司可以結束這些訴訟案件並專注於未來的業務發展。然而，這項和解方案也引發了對公司是否已經為其嬰兒粉碎粉產品的安全性做出足夠努力的質疑。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "be6d0189",
+        "title": "美國在聯合國安理會會議中離席，抗議法國發言",
+        "url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 09:32:25 GMT",
+        "summary_zh": "美國在聯合國安理會會議中因為與法國發言不合而離席。這起事件源於美國與北韓、俄羅斯一起投票反對延長聯合國人權高級專員的任期。這一行動引起了聯合國安理會的爭議，美國的做法被視為對法國的挑釁。這一事件可能會對美國在聯合國的形象造成影響，進一步加深與其他國家的分歧。目前尚未有明確的後續發展，但這一事件可能會對國際關係產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "60e1bf2b",
+        "title": "巴西向世貿組織要求與美國就關稅進行磋商",
+        "url": "https://www.reuters.com/world/americas/brazil-requests-wto-consultations-over-us-tariffs-2026-07-28/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-07-28 00:55:20",
+        "summary_zh": "巴西政府已經向世界貿易組織 (WTO) 提出要求，要求與美國進行磋商，關於美國對巴西商品的關稅。根據世貿組織的規則，巴西有權要求進行磋商，以解決雙方關於關稅的爭議。這一要求是由於美國對巴西的關稅政策，巴西認為這些政策違反了世貿組織的規範。巴西政府希望通過磋商，能夠解決這一問題，保護巴西出口商品的利益。這一事件可能會對巴西和美國的貿易關係產生影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "5387a9ba",
+        "title": "齊達內確認為法國國家隊主教練",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cpd741qn2y9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 09:03:49 GMT",
+        "summary_zh": "法國國家足球隊宣布，前皇家馬德里主教練齊達內（Zinedine Zidane）將擔任法國國家隊的新主教練。齊達內曾在 2016 年至 2018 年間領導皇家馬德里贏得三個冠軍頭銜，包括 2016-17 年球季的歐冠冠軍。齊達內的任命被視為法國足球界的一大轉折點，將對法國國家隊的未來發展產生重大影響。齊達內的任命也引起了球迷的熱烈反應，許多人對他的領導風格和戰術能力表示期待。齊達內將面臨著挑戰性的任務，需要帶領法國國家隊在未來的國際賽事中取得佳績。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "47fc7c61",
+        "title": "奧德賽翻譯家罵聲連連批評諾蘭電影改編",
+        "url": "https://www.bbc.co.uk/news/articles/cd692n215ndo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 09:45:10 GMT",
+        "summary_zh": "奧德賽翻譯家對諾蘭電影改編表達極度不滿。雖然這部電影獲得了影評人的普遍好評，但這位奧德賽翻譯家卻對其評價不高。這位翻譯家認為，諾蘭的電影改編忽略了原著的核心內容，導致電影的意義和深度大打折扣。這種批評引起了許多人對電影改編的爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5ace0ee0",
+        "title": "亞莉安娜·格蘭德起訴泄露音樂和影片的黑客",
+        "url": "https://www.bbc.co.uk/news/articles/c1l1de9gjj6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 08:37:12 GMT",
+        "summary_zh": "亞莉安娜·格蘭德因為黑客泄露未發佈的照片和歌曲而起訴黑客。黑客在網路上公佈了這些未發佈的內容，引起了歌迷的關注。亞莉安娜·格蘭德的團隊正努力找出黑客的身份，以便採取法律行動。這個事件顯示了黑客對藝人的影響力和隱私的侵犯。亞莉安娜·格蘭德的歌迷們正在關注這個事件的發展，希望能夠保護歌星的隱私。這個事件也引起了對網路安全和隱私保護的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d813eb9e",
+        "title": "英國允許香港活動家留下　香港活動家在倫敦機場被拒入境",
+        "url": "https://www.bbc.co.uk/news/articles/cpd74e0yy12o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 04:59:36 GMT",
+        "summary_zh": "香港活動家吳被英國拒絕入境，遭扣留數小時後，英國政府最終允許他留下。這一事件發生在上週，吳向BBC表示。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "27bda256",
+        "title": "動物園員工救援濒臨絕種的岩螺",
+        "url": "https://www.bbc.co.uk/news/articles/cwyq7e5d1gko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 08:50:20 GMT",
+        "summary_zh": "近日，葡萄牙的Bugio島發現僅餘21隻的馬德拉岩螺，該物種被列為濒臨絕種。動物園員工趕赴現場，成功救援這些岩螺。這次發現使得科學家們對這些岩螺的存活狀況有了新的瞭解。馬德拉岩螺的數量已經大幅減少，主要原因是環境污染和人類活動的干擾。這次救援行動將有助於保護這些濒臨絕種的岩螺，並為未來的研究提供新的機會。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f746daae",
+        "title": "美國官員公佈對科羅拉多河水的聯邦削減計劃，涉及亞利桑那州、加利福尼亞州和內華達州",
+        "url": "https://www.reuters.com/legal/litigation/state-official-outlines-proposed-federal-cuts-colorado-river-water-arizona-2026-07-27/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-07-27 23:50:15",
+        "summary_zh": "美國政府正在考慮對科羅拉多河水的聯邦分配進行削減，影響將波及亞利桑那州、加利福尼亞州和內華達州。根據美國內政部的計劃，聯邦政府將從這三個州的水分配中減少 2.8 萬英畝呎的水量。這項計劃的目的是為了應對科羅拉多河水資源的減少，並確保這些州的水資源能夠持續供應。然而，這項計劃的通過將會對這些州的農業、工業和民生用水產生重大影響。科羅拉多河是美國西部重要的水源之一，供應了大量的農業用水、工業用水和民生用水。美國內政部的計劃將會對這些州的經濟和環境產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "1ef447ba",
+        "title": "西班牙面臨嚴重森林大火，政府擔心新一波熱浪將來臨",
+        "url": "https://www.bbc.co.uk/news/articles/c235m71mrreo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 12:03:50 GMT",
+        "summary_zh": "西班牙目前正面臨嚴重的森林大火，三場大火在馬德里地區引起了特別的關注。根據預測，從星期三開始，西班牙將會迎來新一波的熱浪。這種情況對當地居民和消防隊員造成了極大的壓力。西班牙政府正在努力應對這種危機，同時也呼籲民眾保持警惕。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "3e52cbcd",
+        "title": "智利前軍官被判刑殺害民歌手維克多·哈拉 53 年前",
+        "url": "https://www.theguardian.com/world/2026/jul/27/pinochet-era-soldier-jailed-for-killing-folk-singer-victor-jara-chile",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 16:27:44 GMT",
+        "summary_zh": "智利民歌手維克多·哈拉 53 年前遇害，最後一名涉案的前軍官已被逮捕。退役上校 Nelson Haase Mazzei 在 2023 年被判刑，但他逃離了智利當局。根據調查，維克多·哈拉於 1973 年被殺害，當時智利正處於皮諾切特政權。退役上校 Haase Mazzei 和六名退役軍官被判刑，但他逃離了智利。這一判決標誌著一個重要的里程碑，終於有人被追究維克多·哈拉遇害的責任。這一事件對於智利人民來說是個重要的回憶，同時也讓人們對於過去的不公義感到憤怒。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a835a8b9",
+        "title": "美國暫停與伊朗戰爭，川普是否真的缺乏武器?",
+        "url": "https://www.bbc.co.uk/news/articles/c0qvnk2ezp7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 21:06:42 GMT",
+        "summary_zh": "美國與伊朗的戰爭已經造成了大量無法替代的導彈被發射。這些導彈被稱為「自由之盾」的軍事儲備是否已經到了危險的邊緣?",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3565288f",
+        "title": "川普稱伊朗戰事談判正在進行中，期間美伊空襲暫緩",
+        "url": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 21:10:56 GMT",
+        "summary_zh": "伊朗戰事近期暫緩，美國總統川普表示正在與伊朗進行戰事談判。雖然伊朗方面否認了直接談判的存在，但川普仍表示有很大機會會出現新的發展。伊朗戰事自今年 1 月起爆發，美伊雙方多次進行空襲，造成至少 100 多名平民喪生。近期的暫緩讓外界對戰事的發展感到懷疑。川普的表態顯示美國仍然在與伊朗進行秘密談判，試圖找到解決方案。然而，伊朗方面的否認讓人們對川普的說法產生疑問。伊朗戰事的發展仍然令人關注，外界將密切關注美伊雙方的動態。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "5e78027d",
+        "title": "一座橋樑成為美國加拿大緊張關係的象徵",
+        "url": "https://www.bbc.co.uk/news/videos/cq564e1l6zno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 18:27:12 GMT",
+        "summary_zh": "加拿大和美國之間的貿易糾紛正在加劇，而這種緊張關係在最近一項重大事件中得到了體現。Gordie Howe國際橋樑近日正式對汽車交通開放，而這座橋樑的開通也成為了兩國之間緊張關係的象徵。這座橋樑是連接美國密西根州和加拿大安大略省的重要交通樞紐，同時也是兩國貿易的重要通道。然而，近期加拿大對美國的稅收政策和貿易限制引發了強烈反彈，美國也對加拿大實施了報復性措施。這種緊張關係不僅影響到兩國的經濟，也影響到兩國人民的生活。目前尚未明確的時期，兩國之間的關係是否會逐漸緩和。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2c6be100",
+        "title": "日本地震後人質事件：人困於購物中心",
+        "url": "https://www.bbc.co.uk/news/articles/cgewg24qgnjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 10:44:50 GMT",
+        "summary_zh": "一場規模 7.1 的地震在日本發生，據報導，在購物中心 Aeon Mall 的 Kumamoto 地區發生爆炸事件。許多人被困於購物中心內，情況惡化。地震引起了嚴重的破壞，許多建築物受損，造成人員傷亡。日本政府正在盡快派遣救援隊伍，試圖營救被困的人員。這起事件引起了國際社會的關注，許多國家正在提供援助。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6b181e22",
+        "title": "中國面臨新挑戰：人工智慧虛假視頻泛濫",
+        "url": "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 22:07:23 GMT",
+        "summary_zh": "近期中國遭受多次天災，社交媒體上出現大量虛假人工智慧視頻。這些假視頻主要是針對最近幾個月的暴風雨和洪水事件。這種情況引起了中國政府的關注，同時也讓社會民眾感到擔憂。政府正在努力應對這種新挑戰，同時也呼籲民眾提高警惕，避免被假視頻所誤導。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1f4edda1",
+        "title": "印度阿薩姆州面臨歷年最嚴重的洪水災害",
+        "url": "https://www.bbc.co.uk/news/articles/cqlx61p3wz0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 22:50:21 GMT",
+        "summary_zh": "印度阿薩姆州每年都會發生洪水災害，但今年州內的一名部長形容今年的情況為六十年來最為嚴重。阿薩姆州的洪水災害每年都會對當地居民造成重大影響，今年的情況更是如此。州內的河流水位已經超出了警戒線，許多村莊被洪水淹沒，居民被迫撤離。洪水還導致了大量的房屋被毀壞，農田被淹沒，許多人失去了家園。阿薩姆州的政府正在努力應對這場災害，提供援助和救援。然而，許多居民仍然擔心未來的前景，擔心洪水會再次來襲。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7445c1bc",
+        "title": "日本小鎮與伊斯蘭教堂的爭議：身份認同的挑戰",
+        "url": "https://www.bbc.co.uk/news/articles/c36d79nd5w8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 22:08:21 GMT",
+        "summary_zh": "日本正面臨著外籍工人的增加和文化宗教融合的挑戰。近年來，日本政府一直在努力吸引外籍工人來到該國工作，同時也引發了對於如何融合新文化和宗教的爭議。最近，一座日本小鎮的居民們發起了抗議，反對在該鎮興建第一座伊斯蘭教堂。這一事件引發了對於日本身份認同的討論，是否該容忍和接受外來文化和宗教？這一問題將會對日本的社會和文化產生深遠的影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
+      {
+        "id": "e3c76350",
+        "title": "為遇刺事件遇難者致哀 美國西雅圖市民悼念",
+        "url": "https://www.bbc.co.uk/news/articles/cvgv7m5z4n0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Jul 2026 11:50:59 GMT",
+        "summary_zh": "美國西雅圖市近日發生一宗食展遇刺事件，造成三人喪生。星期一，遇難者家屬在悼念會上表達了深切的哀痛。這次遇刺事件對該市的食品節造成了沉重的打擊，市民們紛紛表達了對遇難者及其家屬的深切哀悼。市民們通過悼念會和其他形式的表達，向遇難者致敬並向其家屬表達了支持。這次事件也引起了對該市食品安全和治安的關注。市民們呼籲政府和當局採取措施改善食品安全和治安，防止類似事件再次發生。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1905111b",
+        "title": "美國歌手D4vd將被起訴謀殺一名青少年",
+        "url": "https://www.bbc.co.uk/news/articles/c70gkg62w0ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Jul 2026 12:31:45 GMT",
+        "summary_zh": "美國歌手D4vd將面臨謀殺罪名，罪名是謀殺一名名為Celeste Rivas Hernandez的青少年。警方發現了Celeste的屍體，屍體是在D4vd的地址登記的特斯拉車內發現的。這起案件引起了廣泛關注，D4vd的歌迷和粉絲們都在等待著真相的揭露。這起案件將在法庭上進行審判，D4vd將面臨嚴厲的法律處罰。這個案件的結果將對D4vd的音樂事業和個人生活產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b3386a41",
+        "title": "多倫多美國領事館再遭槍擊　警方追捕失敗",
+        "url": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Jul 2026 00:36:16 GMT",
+        "summary_zh": "多倫多美國領事館再次遭槍擊，警方發動高速度追捕，但未能逮捕嫌疑犯。今年已經是第二次發生類似事件。6月份，警方曾逮捕三名嫌疑犯。這次的槍擊事件引起了關注，警方正在努力追捕嫌疑犯並確保領事館的安全。這個事件可能會對美國與加拿大的關係產生影響，同時也引起了安全問題的關注。警方正在調查事件的原因和嫌疑犯的動機。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "1f76db9a",
         "title": "特朗普將為格雷厄姆的葬禮致哀 – 美國政治即時新聞",
         "url": "https://www.theguardian.com/us-news/live/2026/jul/28/lindsey-graham-funeral-donald-trump-benjamin-netanyahu-volodymyr-zelenskyy-iran-israel-hormuz-ukraine-russia-latest-news-updates",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Tue, 28 Jul 2026 11:35:13 GMT",
+        "published_at": "Tue, 28 Jul 2026 12:28:43 GMT",
         "summary_zh": "美國前總統特朗普將為前參議員林賽·格雷厄姆的葬禮致哀。根據消息，以色列總理內塔尼亞胡和烏克蘭總統澤連斯基將與美國總統會面後參加葬禮。同時，美國政府在移民拘留所中對至少一名進行絕食抗議的移民進行強制醫療處理，這被認為是酷刑行為。根據移民及海關執法局（ICE）的健康服務機構文件，特朗普政府自從他開始第二個任期後，首次使用強制醫療處理對絕食抗議者進行處理。這一行為引起了美國醫療協會和國際人權組織的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "65c21ce7",
+        "title": "白宮被指輕視戰死者　特朗普威脅恢復伊朗戰爭",
+        "url": "https://www.theguardian.com/us-news/2026/jul/28/first-thing-pentagon-accused-of-disrespecting-war-dead-as-trump-threatens-to-resume-iran-war",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Jul 2026 12:15:18 GMT",
+        "summary_zh": "美國國防部對伊朗戰爭的傷亡人數進行重新分類，將傷亡人員歸類為「海外行動」被美國退伍軍人視為對戰死者的不尊重。退伍軍人米高·史密斯表示，這是對於戰死者家屬的巨大不尊重。美國國防部將傷亡人員歸類為「海外行動」，並將伊朗戰爭的傷亡人數分成兩個不同的戰役。這一變更引發了爭議，美國退伍軍人認為這是對戰死者的不尊重。美國總統特朗普威脅恢復伊朗戰爭，引發了對戰爭的擔憂。美國國會尚未批准軍事行動的延長，美國總統特朗普將伊朗戰爭的傷亡人數分成兩個不同的戰役，引發了爭議。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
@@ -78,8 +368,8 @@
         "published_at": "2026-07-27 23:57:37",
         "summary_zh": "川普總統正試圖在美國工業重鎮中重新拉近與藍領美國人的關係，為即將到來的11月中期選舉做準備。川普的支持率在最近的民調中出現下滑，顯示他正面臨著挑戰。川普的團隊認為，重振與藍領美國人的關係是重奪選民信任的關鍵一步。川普將在工業重鎮進行一系列的演講和活動，希望能夠重新拉近與這些選民的距離。然而，這一努力是否能夠成功，仍然存疑。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "12b860e0",
@@ -90,8 +380,8 @@
         "published_at": "Tue, 28 Jul 2026 11:00:03 GMT",
         "summary_zh": "根據《衛報》報導，美國移民和海關執法局（ICE）的一份文件顯示，川普政府曾經強制治療一名在移民拘留中心進行絕食抗議的囚犯。該文件披露，該名囚犯於去年10月至12月期間開始絕食抗議，之後被強制餵食、補水或強制插入尿管，或進行非自願的血液抽取。這些行為被醫療機構和國際人權組織譴責為酷刑。這是川普政府第二任期內第一次被證實使用強制治療的案例。這一事件引發了對政府對待囚犯的關注和爭議。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "42314330",
@@ -102,8 +392,20 @@
         "published_at": "Tue, 28 Jul 2026 10:00:02 GMT",
         "summary_zh": "美國與以色列對伊朗的戰爭持續進行五個月，卻無法取得勝利、失敗或和平的結果。伊朗最高領袖在開戰初期被擊斃，停火協議破裂，霍爾木茲海峽多次被關閉。美國民眾不論支持或反對這場戰爭，都必須承受戰爭的後果。許多美國人在加油站、超市購物時都感受到戰爭的影響，甚至還有軍人被徵召入伍。美國仍在處理以色列對加沙的戰爭後果，而伊朗戰爭又使得美國民眾對美國力量的目的產生了新的爭議。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "51e9d596",
+        "title": "西雅圖附近的食物節活動遇襲 三人死亡多人受傷",
+        "url": "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Mon, 27 Jul 2026 23:36:31 GMT",
+        "summary_zh": "近日，西雅圖附近的食物節活動遭遇槍擊事件，造成三人死亡，多人受傷，包括一名兩歲的男孩。西雅圖市長凱蒂·威爾遜(Katie Wilson)表示，嫌疑人已被捕。這起槍擊事件發生在西雅圖的空中花園附近，空中花園是該市的一個著名景點，附近還有著名的太空針。事件的具體原因尚未明朗，警方正在調查中。這起槍擊事件對西雅圖的市民造成了巨大震撼，許多人對此事件感到震驚和憂慮。西雅圖市長已經發表聲明，表達對受害者的哀悼，並承諾會盡快查明事件的原因和嫌疑人。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "65c75935",
@@ -114,8 +416,8 @@
         "published_at": "Tue, 28 Jul 2026 10:00:01 GMT",
         "summary_zh": "肯塔基州洛厄維爾市最近遭遇了一件令人震驚的事件，一名15歲的少年因為防止12歲女孩遭到45歲男子的性騷擾而獲得市政府的表彰。然而就在幾個月前，這名少年又因為阻止同樣的性騷擾被刺傷。週六晚上，這名少年在洛厄維爾市的沙威尼區被一名14歲的少年槍殺，後來被證實死亡。警方已經將14歲的少年拘留並控告謀殺。這一事件在肯塔基州的洛厄維爾市引起了強烈的反響，市民們對這名少年的犧牲感到哀痛。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "0b6cbaf8",
@@ -126,8 +428,8 @@
         "published_at": "Tue, 28 Jul 2026 10:00:00 GMT",
         "summary_zh": "美國南卡羅來納州共和黨參議員格雷厄姆去世後，將在華盛頓的國會大廈舉行兩天的喪禮儀式。出席喪禮的將包括以色列總理內特亞尼胡和烏克蘭總統澤倫斯基。這兩位領袖還將會見美國前總統川普。這兩天的喪禮將在美國國會大廈開始，包括內特亞尼胡和澤倫斯基在內的各界人士將參與悼念。這一系列活動將為格雷厄姆的生平和政治生涯致敬。格雷厄姆在美國政治界有着深遠的影響力，對於美國國會的發展有着重要的貢獻。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "1f0881f3",
@@ -154,30 +456,6 @@
         "ai_classified": true
       },
       {
-        "id": "f91f3cc8",
-        "title": "密西根進步派人士艾爾-塞伊德否認對競爭對手的攻擊言論",
-        "url": "https://www.theguardian.com/us-news/2026/jul/27/michigan-abdul-el-sayed-debate-ogre",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Jul 2026 00:54:46 GMT",
-        "summary_zh": "密西根民主黨參議員候選人艾爾-塞伊德（Abdul El-Sayed）在電視辯論中表示，他的「把一個巨人放在尖刺上」(把一個巨人放在尖刺上) 的言論並非針對競爭對手史蒂芬斯（Haley Stevens），而是針對美國參議員費特曼（John Fetterman）。在密西根州4日的民主黨初選前夕的電視辯論中，主持人問艾爾-塞伊德是否後悔他在視訊會議上的言論，其中他在會議上表示，如果「把一個巨人放在尖刺上，其他人就會明白了」。這番言論引起了爭議，艾爾-塞伊德表示，這番言論是針對費特曼的，並非針對史蒂芬斯。這是密西根州民主黨參議員候選人競選活動中的最後一場頭對頭辯論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1905111b",
-        "title": "美國歌手D4vd將被起訴謀殺一名青少年",
-        "url": "https://www.bbc.co.uk/news/articles/c70gkg62w0ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Jul 2026 01:39:50 GMT",
-        "summary_zh": "美國歌手D4vd將面臨謀殺罪名，罪名是謀殺一名名為Celeste Rivas Hernandez的青少年。警方發現了Celeste的屍體，屍體是在D4vd的地址登記的特斯拉車內發現的。這起案件引起了廣泛關注，D4vd的歌迷和粉絲們都在等待著真相的揭露。這起案件將在法庭上進行審判，D4vd將面臨嚴厲的法律處罰。這個案件的結果將對D4vd的音樂事業和個人生活產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "0c08eaa3",
         "title": "澤倫斯基和內塔尼亞胡將訪問華盛頓，與白宮會面",
         "url": "https://www.bbc.co.uk/news/videos/cd0xlnz2yk1o?at_medium=RSS&at_campaign=rss",
@@ -186,18 +464,6 @@
         "published_at": "Tue, 28 Jul 2026 00:30:11 GMT",
         "summary_zh": "烏克蘭總統澤倫斯基和以色列總理內塔尼亞胡將於共和黨參議員林賽·格雷厄姆的葬禮中會面，之後分別前往白宮與美國官員討論各自地區的戰爭。這次會面將是兩國領導人在近期內的首次會面。澤倫斯基和內塔尼亞胡將與美國官員討論烏克蘭與俄羅斯的戰爭，以及以色列與巴勒斯坦的衝突。這次會面將對兩國的關係產生重要影響。目前尚未披露會面具體內容，但預計將在葬禮後進行。",
         "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b3386a41",
-        "title": "多倫多美國領事館再遭槍擊　警方追捕失敗",
-        "url": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Jul 2026 00:36:16 GMT",
-        "summary_zh": "多倫多美國領事館再次遭槍擊，警方發動高速度追捕，但未能逮捕嫌疑犯。今年已經是第二次發生類似事件。6月份，警方曾逮捕三名嫌疑犯。這次的槍擊事件引起了關注，警方正在努力追捕嫌疑犯並確保領事館的安全。這個事件可能會對美國與加拿大的關係產生影響，同時也引起了安全問題的關注。警方正在調查事件的原因和嫌疑犯的動機。",
-        "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
@@ -233,30 +499,6 @@
         "category": "whitehouse",
         "published_at": "Mon, 27 Jul 2026 20:36:12 GMT",
         "summary_zh": "美國麻薩諸塞州一名母親被指控殺害三個小孩，檢察官稱她「完全知道自己在做什麼」並作出了「謀略性的」決定。前夫表示，母親的精神健康狀況在殺人前幾個月一直惡化。這起案件引起了社會的關注，許多人紛紛表達對受害者及其家人的同情。這起案件的結果將對母親的未來產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "847617e6",
-        "title": "麥康奈爾出院但未獲准返回工作",
-        "url": "https://www.bbc.co.uk/news/articles/c5yd8k3rgj7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Mon, 27 Jul 2026 17:25:29 GMT",
-        "summary_zh": "美國共和黨籍參議員麥康奈爾因健康問題已經缺席工作數週，醫生表示他出院了，但尚未獲准返回工作。麥康奈爾的健康狀況一直是議會的關注點，許多人對他的健康狀況感到擔憂。雖然他出院了，但仍然需要更多時間恢復健康，才能返回工作。這一消息可能會對美國政治產生影響，尤其是在議會的投票和決策過程中。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "51e9d596",
-        "title": "西雅圖附近的食物節活動遇襲 三人死亡多人受傷",
-        "url": "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 27 Jul 2026 23:36:31 GMT",
-        "summary_zh": "近日，西雅圖附近的食物節活動遭遇槍擊事件，造成三人死亡，多人受傷，包括一名兩歲的男孩。西雅圖市長凱蒂·威爾遜(Katie Wilson)表示，嫌疑人已被捕。這起槍擊事件發生在西雅圖的空中花園附近，空中花園是該市的一個著名景點，附近還有著名的太空針。事件的具體原因尚未明朗，警方正在調查中。這起槍擊事件對西雅圖的市民造成了巨大震撼，許多人對此事件感到震驚和憂慮。西雅圖市長已經發表聲明，表達對受害者的哀悼，並承諾會盡快查明事件的原因和嫌疑人。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -324,52 +566,28 @@
     ],
     "ai": [
       {
-        "id": "21326661",
-        "title": "智慧戒指：我對人工智慧的新興消費品",
-        "url": "https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
-        "source": "The Verge AI",
+        "id": "ae2fe667",
+        "title": "下載：OpenAI 預測性的黑客攻擊，AI 股票大跌",
+        "url": "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/",
+        "source": "MIT Tech Review",
         "category": "ai",
-        "published_at": "2026-07-28T08:00:00-04:00",
-        "summary_zh": "近來，我花了不少時間與電腦溝通。語言模型革命的其中一個被低估的功能，是語音辨識技術的驚人進步，連最快、最便宜的模型也能夠很好地理解和處理語音。這些語音辨識應用程式，我都試過不少。其中一款叫做「Smart ring」的智慧戒指，讓我對人工智慧的新興消費品產生了興趣。這款戒指能夠辨識手勢、監測身體健康指標等功能，讓我認為它是人工智慧的新興消費品中的亮點。然而，我仍然需要更多時間來評估這款產品的實際用途和價值。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "0e94d08d",
-        "title": "Hugging Face 被用於輕鬆裸露女性和兒童的圖像",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-28T05:07:14-04:00",
-        "summary_zh": "Hugging Face 這個流行的開源 AI 模型倉庫，正在被用於創造非自願的深偽造圖像。根據歐洲非營利組織 AI 前線的新報告發現，Hugging Face 主機的前九名圖像編輯模型中，有七個模型容易被用於裸露女性和兒童的圖像。這些模型被用於創造出看似真實的裸露圖像，嚴重侵犯了人權。這項報告強調了 Hugging Face 對此問題的缺乏應對措施，讓這類非自願的深偽造圖像得以繼續存在。這項問題引起了關注，呼籲 Hugging Face 和其他相關組織採取行動，防止這類非自願的深偽造圖像的出現。",
+        "published_at": "Tue, 28 Jul 2026 12:10:00 +0000",
+        "summary_zh": "近日，OpenAI 公布了一則黑客攻擊事件，稱其為前所未有的，但事實上，這並非首次發生。OpenAI 的高級 AI 編輯威爾·道格拉斯·海文（Will Douglas Heaven）表示，這種情況早就有過。該公司指出，某些模型在 Hugging Face 的攻擊下出現問題，但這並非首次發生。這種預測性的黑客攻擊可能是由於模型的設計或訓練過程中存在缺陷。這種情況可能會對 AI 股票產生影響，甚至導致大跌。OpenAI 的黑客攻擊事件可能會對整個 AI 行業產生影響，甚至影響投資者對 AI 股票的投資意願。",
         "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
-        "id": "511cf38d",
-        "title": "為什麼中國要把最好的AI模型免費給人",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
-        "source": "The Verge AI",
+        "id": "8980e8ef",
+        "title": "三星晶片工人跳槽到SK Hynix",
+        "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
+        "source": "MIT Tech Review",
         "category": "ai",
-        "published_at": "2026-07-27T12:51:50-04:00",
-        "summary_zh": "近期，美國硅谷地區出現了對於中國AI模型「Kimi K3」的關注。該模型由中國公司Moonshot AI開發，據稱能夠在成本只有美國公司AI模型的一半的情況下，超越部分美國公司的最佳系統。這種表現足以加劇美國公司與中國公司之間的競爭。中國政府最近宣佈將免費提供Kimi K3等AI模型給其他公司，引起了業界的關注。這種做法是否有利於中國公司的競爭力，還是有其他目的？這些問題都需要進一步的觀察和分析。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "61c01651",
-        "title": "Nvidia 和微軟發起開放式 AI 安全聯盟，缺乏 OpenAI、Google 和 Anthropic 參與",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-27T08:06:22-04:00",
-        "summary_zh": "Nvidia 宣布與微軟、SpaceX、IBM 等科技公司合作，建立並共享開源 AI 安全工具。新成立的 Open Secure AI Alliance 表示，開源工具是有效防禦前沿模型攻擊的關鍵。這項倡議是對安全性日益擔憂的直接回應。聯盟成員認為，開源工具可以促進安全性、透明度和可靠性，並且可以讓更多人參與 AI 安全研究。然而，這項聯盟的缺乏 OpenAI、Google 和 Anthropic 參與引起了關注。這些公司是 AI 研究領域的重要參與者，是否缺乏參與會對聯盟的影響力和有效性產生影響？聯盟的成立將如何改變 AI 安全的未來？",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "published_at": "Tue, 28 Jul 2026 09:18:57 +0000",
+        "summary_zh": "在三星半導體部門工作的李先生，當他的工作時間結束時，就會趕緊下班。他以前會加班加點，為了完成項目而努力。但近期，他開始直接回家，準備投履歷到三星的南韓競爭對手SK Hynix。李先生還會與同事分享工作上的建議和技巧。這種現象在三星的晶片工人中並不少見。根據業內人士透露，近期有許多三星晶片工人跳槽到SK Hynix。這些工人被吸引到SK Hynix的高薪福利和更好的工作環境。這種趨勢可能會對三星的晶片事業造成影響。三星的晶片業務是公司的關鍵業務之一，而工人的離職可能會影響公司的生產能力和市場競爭力。這種情況可能會引起三星的管理層關注。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "79cfa967",
@@ -396,13 +614,37 @@
         "ai_classified": true
       },
       {
-        "id": "3c45661b",
-        "title": "激光幫助核能燃料,器官保存技術進展",
-        "url": "https://www.technologyreview.com/2026/07/27/1140833/the-download-lasers-nuclear-organ-preservation/",
-        "source": "MIT Tech Review",
+        "id": "21326661",
+        "title": "智慧戒指：我對人工智慧的新興消費品",
+        "url": "https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+        "source": "The Verge AI",
         "category": "ai",
-        "published_at": "Mon, 27 Jul 2026 12:10:00 +0000",
-        "summary_zh": "核能目前提供全球電力的 9%。隨著各國興建新核電站，核能的比例可能會增加。激光技術可能會幫助提供核能燃料。同時，器官保存技術也取得進展。激光技術可以幫助提純核能燃料，提高其效率。這項技術可能會改善核能的可靠性和安全性。器官保存技術的進展可以幫助提高器官移植的成功率。這些技術的發展可能會對人類生活和醫療產生重大影響。",
+        "published_at": "2026-07-28T08:00:00-04:00",
+        "summary_zh": "近來，我花了不少時間與電腦溝通。語言模型革命的其中一個被低估的功能，是語音辨識技術的驚人進步，連最快、最便宜的模型也能夠很好地理解和處理語音。這些語音辨識應用程式，我都試過不少。其中一款叫做「Smart ring」的智慧戒指，讓我對人工智慧的新興消費品產生了興趣。這款戒指能夠辨識手勢、監測身體健康指標等功能，讓我認為它是人工智慧的新興消費品中的亮點。然而，我仍然需要更多時間來評估這款產品的實際用途和價值。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0e94d08d",
+        "title": "Hugging Face 被用於輕鬆裸露女性和兒童的圖像",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-28T05:07:14-04:00",
+        "summary_zh": "Hugging Face 這個流行的開源 AI 模型倉庫，正在被用於創造非自願的深偽造圖像。根據歐洲非營利組織 AI 前線的新報告發現，Hugging Face 主機的前九名圖像編輯模型中，有七個模型容易被用於裸露女性和兒童的圖像。這些模型被用於創造出看似真實的裸露圖像，嚴重侵犯了人權。這項報告強調了 Hugging Face 對此問題的缺乏應對措施，讓這類非自願的深偽造圖像得以繼續存在。這項問題引起了關注，呼籲 Hugging Face 和其他相關組織採取行動，防止這類非自願的深偽造圖像的出現。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "511cf38d",
+        "title": "為什麼中國要把最好的AI模型免費給人",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-27T12:51:50-04:00",
+        "summary_zh": "近期，美國硅谷地區出現了對於中國AI模型「Kimi K3」的關注。該模型由中國公司Moonshot AI開發，據稱能夠在成本只有美國公司AI模型的一半的情況下，超越部分美國公司的最佳系統。這種表現足以加劇美國公司與中國公司之間的競爭。中國政府最近宣佈將免費提供Kimi K3等AI模型給其他公司，引起了業界的關注。這種做法是否有利於中國公司的競爭力，還是有其他目的？這些問題都需要進一步的觀察和分析。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -421,54 +663,6 @@
       }
     ],
     "stock_tw": [
-      {
-        "id": "44689874",
-        "title": "平凡薪水竟滾出1.5億資產！77歲阿嬤親曝致富秘訣",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5520789",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 28 Jul 2026 19:56:41 +0800",
-        "summary_zh": "一名77歲英國婦人靠著數十年來持續投資與節儉生活，成功累積價值約新台幣1.5億元資產。儘管她不是高收入族群，但她通過長期投資、股息再投入以及節儉的生活方式，實現了驚人的財富累積。她的致富秘訣值得我們注意，尤其是在面對日益增長的財務壓力時。她的一個重要建議是，投資應該是長期的，而不是短期的。這樣才能夠在市場波動中保持穩定，並且能夠從股息中獲取穩定的收入。另外，她也強調了節儉的重要性，建議大家應該盡量節省，並且不該過度消費。她的故事告訴我們，平凡的生活也能夠帶來驚人的財富累積，唯一的關鍵是長期的投資和節儉的生活方式。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "a071a745",
-        "title": "獨家》財稅人事大搬風！李雅晶掌台北國稅局、翁培祐接北區國稅局",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5520867",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 28 Jul 2026 19:54:09 +0800",
-        "summary_zh": "近日，行政院發生財稅人事大搬風。據了解，台北國稅局長一職由北區國稅局長李雅晶接任，北區國稅局長則由中區國稅局長翁培祐調任。這些調動將對財稅局的運作產生重大影響。李雅晶的接任，意味著台北國稅局將迎來新的領導，可能會帶來新的政策和方向。翁培祐的調任，也意味著北區國稅局將有新的領導，可能會對該區的財稅政策產生影響。倪麗心接任中區國稅局長，也將對該區的財稅工作產生重大影響。這些調動表明，財政部正在進行人事重組，可能是為了應對未來的財稅挑戰。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "9773a037",
-        "title": "易威整併健亞換股完成 台美整合型製藥平台正式啟動",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5520857",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 28 Jul 2026 19:50:28 +0800",
-        "summary_zh": "易威生醫與健亞生技之股份轉換合併案，28日正式完成，健亞成為易威生醫100%子公司。這代表台美整合型製藥平台正式啟動，將結合台灣和美國的藥物研發、生產和銷售能力，打造全球製藥領域的競爭力。這項整合將帶來多方面的好處，包括提高研發效率、擴大市場份額、降低成本等。然而，也存在一定的風險，例如整合過程中的挑戰和市場競爭的加劇。整合後，易威生醫將擁有更強大的研發能力和市場影響力，進一步鞏固其在全球製藥領域的地位。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "fe691b02",
-        "title": "證交所澄清信用交易整戶維持率約175％ 市場風險仍在安全範圍",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5520843",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 28 Jul 2026 19:47:51 +0800",
-        "summary_zh": "證交所近日表示，信用交易之全市場擔保維持率係採整戶（融資+融券）合併計算，涵蓋上市、上櫃標的。截至7月27日，全市場之信用交易整戶擔保維持率約為175%。這一數字遠高於現行最低要求，表明市場風險仍在安全範圍內。證交所的澄清意在於，為了避免市場誤解，強調整戶維持率的計算方法和涵蓋範圍。這一措施有助於維持市場穩定和透明度。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
       {
         "id": "c0d6e061",
         "title": "製造業表現分歧 央行：傳產受中國低價傾銷與美關稅夾擊",
@@ -542,6 +736,42 @@
         "ai_classified": true
       },
       {
+        "id": "90d4263a",
+        "title": "亞股倒地熱錢流出 新台幣盤中重貶1.5角收32.384元",
+        "url": "https://www.cna.com.tw/news/afe/202607280254.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 28 Jul 2026 17:57:39 +0800",
+        "summary_zh": "亞股今天再度出現恐慌性賣壓，台股重挫2030點，創下歷史第3大跌點。外資大幅砍台股並匯出，導致新台幣匯率大幅貶值，盤中一度大跌1.5角。出口商積極拋匯及央行進場調節後，跌幅得以收斂，終場收盤價為32.384元，較前一天貶值7.9分。台北及元太外匯市場的總成交金額達到25.265億美元。這次的市場動蕩可能是由於投資者對亞洲經濟的不確定性以及美元的升值所致。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "e04bcabc",
+        "title": "財政部預告增訂全時監管保稅卡車規定 合規保證金減半",
+        "url": "https://www.cna.com.tw/news/afe/202607280239.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 28 Jul 2026 17:29:07 +0800",
+        "summary_zh": "為配合關稅法規定並強化監管安全，財政部關務署預告修正保稅運貨工具相關規定，增訂「全時監管保稅卡車」相關規範。這項規定旨在強化對保稅卡車的監管，確保運貨工具合法合規。另外，符合條件的保稅卡車業者可將保證金從原來的新台幣5萬元減半至2萬5000元。這項變更將於未來實施，屆時將對保稅卡車業者產生影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "3c25dc40",
+        "title": "財政部邀中部地區企業提供貨倉作緝毒犬訓練場地",
+        "url": "https://www.cna.com.tw/news/afe/202607280220.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 28 Jul 2026 17:14:27 +0800",
+        "summary_zh": "為提升緝毒犬搜查品質，財政部關務署邀請中部地區企業廠商提供貨物倉儲等實體場地，作為緝毒犬進行進階訓練。緝毒犬在培訓中心完成基礎訓練後，需要移地至民間廠商的實體倉儲場所進行進階訓練。這項舉措旨在共同構築堅實的反毒防線。中部地區企業的參與將大大提升緝毒犬的搜查能力，有效地打擊毒品犯罪。這項合作不僅有助於提升緝毒犬的訓練質量，也有助於加強中部地區的安全防線。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "0bcaf8a7",
         "title": "亞德客上調今年業績成長，電子電池車用拉貨看佳",
         "url": "https://www.cna.com.tw/news/afe/202607280216.aspx",
@@ -597,6 +827,140 @@
         "category": "stock_tw",
         "published_at": "Tue, 28 Jul 2026 16:12:24 +0800",
         "summary_zh": "韓國股市今天收挫逾10%，投資人對於企業大規模投資人工智慧（AI）基礎設施的前景產生愈來愈多疑慮，導致科技股遭到大幅拋售。這種情況下，投資人開始擔心企業投資AI的風險和回報率是否能夠滿足預期。這種疑慮導致投資人對科技股的信心下降，從而造成股市的重挫。這種情況對於韓國股市的整體表現有著重要影響，投資人需要重新評估投資AI的風險和回報率。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "44689874",
+        "title": "平凡薪水竟滾出1.5億資產！77歲阿嬤親曝致富秘訣",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5520789",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 28 Jul 2026 19:56:41 +0800",
+        "summary_zh": "一名77歲英國婦人靠著數十年來持續投資與節儉生活，成功累積價值約新台幣1.5億元資產。儘管她不是高收入族群，但她通過長期投資、股息再投入以及節儉的生活方式，實現了驚人的財富累積。她的致富秘訣值得我們注意，尤其是在面對日益增長的財務壓力時。她的一個重要建議是，投資應該是長期的，而不是短期的。這樣才能夠在市場波動中保持穩定，並且能夠從股息中獲取穩定的收入。另外，她也強調了節儉的重要性，建議大家應該盡量節省，並且不該過度消費。她的故事告訴我們，平凡的生活也能夠帶來驚人的財富累積，唯一的關鍵是長期的投資和節儉的生活方式。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a071a745",
+        "title": "獨家》財稅人事大搬風！李雅晶掌台北國稅局、翁培祐接北區國稅局",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5520867",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 28 Jul 2026 19:54:09 +0800",
+        "summary_zh": "近日，行政院發生財稅人事大搬風。據了解，台北國稅局長一職由北區國稅局長李雅晶接任，北區國稅局長則由中區國稅局長翁培祐調任。這些調動將對財稅局的運作產生重大影響。李雅晶的接任，意味著台北國稅局將迎來新的領導，可能會帶來新的政策和方向。翁培祐的調任，也意味著北區國稅局將有新的領導，可能會對該區的財稅政策產生影響。倪麗心接任中區國稅局長，也將對該區的財稅工作產生重大影響。這些調動表明，財政部正在進行人事重組，可能是為了應對未來的財稅挑戰。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "9773a037",
+        "title": "易威整併健亞換股完成 台美整合型製藥平台正式啟動",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5520857",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 28 Jul 2026 19:50:28 +0800",
+        "summary_zh": "易威生醫與健亞生技之股份轉換合併案，28日正式完成，健亞成為易威生醫100%子公司。這代表台美整合型製藥平台正式啟動，將結合台灣和美國的藥物研發、生產和銷售能力，打造全球製藥領域的競爭力。這項整合將帶來多方面的好處，包括提高研發效率、擴大市場份額、降低成本等。然而，也存在一定的風險，例如整合過程中的挑戰和市場競爭的加劇。整合後，易威生醫將擁有更強大的研發能力和市場影響力，進一步鞏固其在全球製藥領域的地位。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "fe691b02",
+        "title": "證交所澄清信用交易整戶維持率約175％ 市場風險仍在安全範圍",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5520843",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 28 Jul 2026 19:47:51 +0800",
+        "summary_zh": "證交所近日表示，信用交易之全市場擔保維持率係採整戶（融資+融券）合併計算，涵蓋上市、上櫃標的。截至7月27日，全市場之信用交易整戶擔保維持率約為175%。這一數字遠高於現行最低要求，表明市場風險仍在安全範圍內。證交所的澄清意在於，為了避免市場誤解，強調整戶維持率的計算方法和涵蓋範圍。這一措施有助於維持市場穩定和透明度。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "d07743af",
+        "title": "三星、SK Hynix滑落　Nvidia融資擔憂、中國競爭加劇",
+        "url": "https://www.reuters.com/world/china/samsung-sk-hynix-slide-amid-nvidia-financing-worries-china-competition-2026-07-28/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-28 00:59:19",
+        "summary_zh": "三星電子和SK Hynix因Nvidia融資擔憂和中國競爭加劇而出現滑落。Nvidia是一家領先的半導體公司，專門生產高性能計算和人工智慧晶片。近期，Nvidia的融資擔憂引起市場關注，影響了相關公司的股價。同時，中國競爭加劇也成為市場關注的焦點。三星電子和SK Hynix是韓國兩大半導體公司，與Nvidia競爭激烈。市場分析師認為，三星電子和SK Hynix的股價下跌是因為Nvidia的融資擔憂和中國競爭加劇所致。這些因素將對韓國半導體業產生重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "23c6d92e",
+        "title": "韓國股市指數 KOSPI 跌 7% 全球晶片股大幅賣壓",
+        "url": "https://www.reuters.com/world/asia-pacific/south-koreas-kospi-drops-7-global-chipmaker-selloff-deepens-2026-07-28/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-28 00:56:39",
+        "summary_zh": "韓國股市指數 KOSPI 因全球晶片股大幅賣壓而下跌 7%。這是由於全球晶片股大幅賣壓，包括韓國晶片巨頭三星電子和SK海力士。三星電子股價下跌 6.5%，SK海力士股價下跌 8.5%。韓國央行表示，將密切關注全球經濟情勢並採取適當措施應對。這次賣壓可能是由於全球晶片供應鏈的不穩定性和美國對中國的晶片出口管制政策。韓國政府和央行正在努力維持股市穩定和經濟發展。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "521c324d",
+        "title": "CNBC 每日開盤: Apple 重奪王座，SpaceX 回歸地球",
+        "url": "https://www.cnbc.com/2026/07/28/cnbc-daily-open-apple-spacex-trump-oil.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-28 00:54:02",
+        "summary_zh": "近日，Apple 的市值已經突破 4.95 萬億美元，超越 Nvidia，重新奪回了全球最大企業的頭銜。這一轉變標誌著 Apple 在全球企業中的領導地位。然而，這一變化對於 Nvidia 的影響如何？這一轉變是否會對全球科技業產生重大影響？",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8f5d163d",
+        "title": "美元創一月新高 美聯儲加息機會持續升溫",
+        "url": "https://www.reuters.com/world/china/dollar-hits-one-month-high-lingering-chances-fed-hike-2026-07-28/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-28 00:39:38",
+        "summary_zh": "美元近日創下一月新高，市場分析師認為美聯儲可能在未來會加息。根據市場預期，美聯儲在未來幾個月內將會提高利率，以控制通膨。美元升值的原因是市場對美聯儲加息的預期升溫，投資者認為美元將會是受益的標的。這一發展對全球金融市場有著重要影響，美元的升值將會影響到其他貨幣的價值。市場分析師預測，美元將會繼續升值，直到美聯儲確定加息的時間表。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "cf4eeb89",
+        "title": "澳洲考慮建造60年來首座國內石油煉油廠",
+        "url": "https://www.reuters.com/business/energy/australia-considers-first-domestic-oil-refinery-60-years-2026-07-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-27 23:52:10",
+        "summary_zh": "澳洲政府考慮建造一座國內石油煉油廠，終結60年來的進口石油循環。根據澳洲能源部長的說法，這座煉油廠將能夠處理每年100萬噸的石油，減少對進口石油的依賴。這項計畫將會對澳洲的能源安全和環境影響產生重大影響。澳洲政府正在研究多種方案，包括私人企業和公共投資的合作模式。這項計畫的成功將會取決於多個因素，包括建設成本、技術挑戰和市場需求。澳洲政府的目標是建造一座能夠滿足國內需求的煉油廠，從而減少對進口石油的依賴。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "70ed7ba0",
+        "title": "USTR Greer 表示川普最新關稅不會對經濟產生影響",
+        "url": "https://www.reuters.com/business/ustrs-greer-says-trumps-latest-tariffs-wont-have-an-economic-impact-2026-07-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-27 23:38:59",
+        "summary_zh": "美國貿易代表辦公室 (USTR) 的 Greer 表示，川普政府最新的關稅措施不會對經濟產生重大影響。根據 USTR 的說法，這些關稅措施主要是針對中國的出口產品，並且是為了保護美國的產業。然而，這些措施可能會對某些美國企業造成影響，尤其是那些與中國有密切貿易關係的企業。 Greer 表示，美國政府正在密切監測經濟情況，並且會根據情況進行調整。這些關稅措施的實施將會對全球經濟產生影響，特別是在中國和美國之間的貿易關係方面。根據預測，這些措施可能會導致全球貿易減少，並對某些產業造成影響。然而，美國政府堅持這些措施是必要的，以保護美國的產業和工作機會。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "00353477",
+        "title": "晶片股在美洲市場下滑，AI 憂慮使投資者心懷恐懼",
+        "url": "https://www.bbc.co.uk/news/articles/cly8zng43npo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "finance",
+        "published_at": "Tue, 28 Jul 2026 10:15:47 GMT",
+        "summary_zh": "近日，全球晶片股市場出現大幅波動，美洲和亞洲市場的晶片股價格下滑。根據最新消息，韓國股市的交易暫時中斷，市場指數下滑8%。這種市場波動主要是由於人工智慧（AI）技術的發展對晶片產業的影響。投資者對未來晶片需求和供應的不確定性感到擔憂，導致市場恐慌。這種情況可能會對晶片供應商和相關產業造成重大影響。市場分析師預測，未來幾天將會觀察市場的反應和趨勢。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -719,334 +1083,6 @@
         "category": "stock_us",
         "published_at": "2026-07-27 17:32:53",
         "summary_zh": "根據消息，Nvidia 和 OpenAI 正在洽談一項規模達 2,500 億美元的背書計劃。這項背書將允許 OpenAI 以 Nvidia 的信貸為基礎，籌集資金用於在俄亥俄州皮克縣建設一座資料中心大樓。這項計劃將對 OpenAI 的 AI 基礎設施投資產生重大影響，同時也將考慮到 Nvidia 的財務狀況。這項背書將為 OpenAI 提供財政支持，讓公司能夠籌集資金用於建設資料中心大樓，從而推動 AI 基礎設施的發展。這項計劃的成功將取決於 Nvidia 的財務狀況以及 OpenAI 對 AI 基礎設施投資的需求。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "finance": [
-      {
-        "id": "cf4eeb89",
-        "title": "澳洲考慮建造60年來首座國內石油煉油廠",
-        "url": "https://www.reuters.com/business/energy/australia-considers-first-domestic-oil-refinery-60-years-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 23:52:10",
-        "summary_zh": "澳洲政府考慮建造一座國內石油煉油廠，終結60年來的進口石油循環。根據澳洲能源部長的說法，這座煉油廠將能夠處理每年100萬噸的石油，減少對進口石油的依賴。這項計畫將會對澳洲的能源安全和環境影響產生重大影響。澳洲政府正在研究多種方案，包括私人企業和公共投資的合作模式。這項計畫的成功將會取決於多個因素，包括建設成本、技術挑戰和市場需求。澳洲政府的目標是建造一座能夠滿足國內需求的煉油廠，從而減少對進口石油的依賴。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "70ed7ba0",
-        "title": "USTR Greer 表示川普最新關稅不會對經濟產生影響",
-        "url": "https://www.reuters.com/business/ustrs-greer-says-trumps-latest-tariffs-wont-have-an-economic-impact-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 23:38:59",
-        "summary_zh": "美國貿易代表辦公室 (USTR) 的 Greer 表示，川普政府最新的關稅措施不會對經濟產生重大影響。根據 USTR 的說法，這些關稅措施主要是針對中國的出口產品，並且是為了保護美國的產業。然而，這些措施可能會對某些美國企業造成影響，尤其是那些與中國有密切貿易關係的企業。 Greer 表示，美國政府正在密切監測經濟情況，並且會根據情況進行調整。這些關稅措施的實施將會對全球經濟產生影響，特別是在中國和美國之間的貿易關係方面。根據預測，這些措施可能會導致全球貿易減少，並對某些產業造成影響。然而，美國政府堅持這些措施是必要的，以保護美國的產業和工作機會。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "b81a0c37",
-        "title": "強生公司宣布粉黛訴訟案5.5億美元和解",
-        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/johnson-johnson-announces-55-billion-settlement-talc-lawsuits-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 22:57:40",
-        "summary_zh": "強生公司近日宣布與粉黛訴訟案相關的和解方案，總額達5.5億美元。這些訴訟主要涉及強生公司的粉黛產品可能引起的健康問題。根據報導，強生公司將支付這筆和解金，來結束這些訴訟案。這項和解將對公司的財務狀況產生重大影響。分析人士認為，這項和解將有助於公司減少未來的法律風險。然而，這項和解也可能對公司的品牌形象產生一定的影響。強生公司將如何應對這項和解的影響，仍待觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "50247de0",
-        "title": "TIM 獲利 200 億雷亞爾",
-        "url": "https://www.reuters.com/pt/negocio/EGYNJXKIBFK7NLHOK5R6F6SBRQ-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 22:56:31",
-        "summary_zh": "TIM 這家巴西的電信公司在最近的財務報告中表現亮眼，公司的收入達到 200 億雷亞爾，這是公司歷史上首次達到如此高的收入。公司的財務報告顯示，公司的收入在過去的幾年中持續增長，今年的收入達到 200 億雷亞爾，遠超過過去幾年的收入。這表明公司的業務在巴西市場上取得了成功。然而，公司的財務報告也顯示，公司的利潤率在過去的幾年中有所下降，今年的利潤率為 15%，低於過去幾年的利潤率。這可能是由於公司在巴西市場上的競爭加劇所致。總的來說，TIM 的財務報告表明公司在巴西市場上取得了成功，但也面臨著挑戰。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1fd58865",
-        "title": "中智創新光價格香港上市低於最大限額，籌集 681 億港元",
-        "url": "https://www.reuters.com/world/asia-pacific/zhongji-innolight-prices-hong-kong-listing-below-maximum-limit-raising-681-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 22:29:43",
-        "summary_zh": "中智創新光（Zhongji Innolight）近日在香港進行了上市活動，籌集了 681 億港元。根據最新消息，這家公司的上市價格低於預期的最大限額。這一消息對於投資者和市場觀察者來說都是好消息。中智創新光是一家專門從事光學元件和光纖技術的公司，該公司的產品在全球各地都有應用。這次上市活動將為公司提供更多資金來實現未來的發展計畫。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "dd23d96c",
-        "title": "IMF完成對加納貸款計畫的最後審核，釋放 3.71 億美元貸款",
-        "url": "https://www.reuters.com/world/africa/imf-completes-final-review-ghana-lending-program-unlocks-371-million-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 22:26:18",
-        "summary_zh": "國際貨幣基金組織 (IMF) 對加納的貸款計畫進行最後審核，結果順利通過。這意味著 IMF 將釋放 3.71 億美元貸款予加納政府。這筆貸款將幫助加納政府實現經濟穩定和發展的目標。加納政府表示，將會善用這筆貸款，推動經濟發展和改善民生。這項貸款將對加納經濟產生積極影響，幫助加納政府實現經濟增長和就業創造的目標。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "00353477",
-        "title": "晶片股在美洲市場下滑，AI 憂慮使投資者心懷恐懼",
-        "url": "https://www.bbc.co.uk/news/articles/cly8zng43npo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "finance",
-        "published_at": "Tue, 28 Jul 2026 10:15:47 GMT",
-        "summary_zh": "近日，全球晶片股市場出現大幅波動，美洲和亞洲市場的晶片股價格下滑。根據最新消息，韓國股市的交易暫時中斷，市場指數下滑8%。這種市場波動主要是由於人工智慧（AI）技術的發展對晶片產業的影響。投資者對未來晶片需求和供應的不確定性感到擔憂，導致市場恐慌。這種情況可能會對晶片供應商和相關產業造成重大影響。市場分析師預測，未來幾天將會觀察市場的反應和趨勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "f746daae",
-        "title": "美國官員公佈對科羅拉多河水的聯邦削減計劃，涉及亞利桑那州、加利福尼亞州和內華達州",
-        "url": "https://www.reuters.com/legal/litigation/state-official-outlines-proposed-federal-cuts-colorado-river-water-arizona-2026-07-27/",
-        "source": "Reuters",
-        "category": "global",
-        "published_at": "2026-07-27 23:50:15",
-        "summary_zh": "美國政府正在考慮對科羅拉多河水的聯邦分配進行削減，影響將波及亞利桑那州、加利福尼亞州和內華達州。根據美國內政部的計劃，聯邦政府將從這三個州的水分配中減少 2.8 萬英畝呎的水量。這項計劃的目的是為了應對科羅拉多河水資源的減少，並確保這些州的水資源能夠持續供應。然而，這項計劃的通過將會對這些州的農業、工業和民生用水產生重大影響。科羅拉多河是美國西部重要的水源之一，供應了大量的農業用水、工業用水和民生用水。美國內政部的計劃將會對這些州的經濟和環境產生重大影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "3e52cbcd",
-        "title": "智利前軍官被判刑殺害民歌手維克多·哈拉 53 年前",
-        "url": "https://www.theguardian.com/world/2026/jul/27/pinochet-era-soldier-jailed-for-killing-folk-singer-victor-jara-chile",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 16:27:44 GMT",
-        "summary_zh": "智利民歌手維克多·哈拉 53 年前遇害，最後一名涉案的前軍官已被逮捕。退役上校 Nelson Haase Mazzei 在 2023 年被判刑，但他逃離了智利當局。根據調查，維克多·哈拉於 1973 年被殺害，當時智利正處於皮諾切特政權。退役上校 Haase Mazzei 和六名退役軍官被判刑，但他逃離了智利。這一判決標誌著一個重要的里程碑，終於有人被追究維克多·哈拉遇害的責任。這一事件對於智利人民來說是個重要的回憶，同時也讓人們對於過去的不公義感到憤怒。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a835a8b9",
-        "title": "美國暫停與伊朗戰爭，川普是否真的缺乏武器?",
-        "url": "https://www.bbc.co.uk/news/articles/c0qvnk2ezp7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 21:06:42 GMT",
-        "summary_zh": "美國與伊朗的戰爭已經造成了大量無法替代的導彈被發射。這些導彈被稱為「自由之盾」的軍事儲備是否已經到了危險的邊緣?",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1f26250e",
-        "title": "強生公司願意支付 55 億美元和解美國嬰兒粉碎粉訴訟",
-        "url": "https://www.bbc.co.uk/news/articles/clyqnz52rp6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 28 Jul 2026 01:53:58 GMT",
-        "summary_zh": "強生公司近日提出一項和解方案，旨在結束多年來圍繞其嬰兒粉碎粉（含有礦物粉末）引起癌症的法律爭議。根據這項方案，公司願意支付最高 55 億美元來和解與其嬰兒粉碎粉相關的訴訟。這項和解方案是針對多起訴訟案件，包括那些聲稱強生公司的嬰兒粉碎粉導致了癌症的病人。強生公司在過去幾年一直面臨著這些訴訟案件的壓力，公司必須為自己的嬰兒粉碎粉產品的安全性承擔責任。這項和解方案將為公司帶來一種解決方案，讓公司可以結束這些訴訟案件並專注於未來的業務發展。然而，這項和解方案也引發了對公司是否已經為其嬰兒粉碎粉產品的安全性做出足夠努力的質疑。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "345a4c23",
-        "title": "澤倫斯基將在華盛頓與川普會面，討論空防系統",
-        "url": "https://www.bbc.co.uk/news/articles/c9v4g7e047zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 28 Jul 2026 10:41:41 GMT",
-        "summary_zh": "烏克蘭總統澤倫斯基將訪問華盛頓，與美國總統川普會面。澤倫斯基希望能夠確保美國在加強烏克蘭空防系統方面的承諾。這是因為俄羅斯近期加劇了對烏克蘭的攻擊，導致大量人員傷亡。烏克蘭政府認為，美國的空防系統援助對於防禦俄羅斯的攻擊至關重要。澤倫斯基將在會面中與川普討論這一問題，希望能夠取得美國的支持。這一會面對烏克蘭的安全情勢有著重要的影響，烏克蘭政府將密切關注會面的結果。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "dc5e605a",
-        "title": "厄瓜多爾毒品戰爭第一線：警察與黑幫、槍炮和腐敗搏鬥",
-        "url": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 28 Jul 2026 05:01:19 GMT",
-        "summary_zh": "厄瓜多爾正面臨著嚴重的毒品犯罪問題，BBC跟隨當地警察進行巡邏，了解他們在對抗黑幫、槍炮和腐敗的斗爭中所面臨的挑戰。厄瓜多爾警察面臨著巨大的壓力，試圖控制毒品犯罪的蔓延，同時也要應對黑幫的暴力行為和腐敗的問題。這場戰爭對厄瓜多爾的社會和經濟造成了深遠的影響，政府和警察必須團結一致，共同對抗毒品犯罪。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "be6d0189",
-        "title": "美國在聯合國安理會會議中離席，抗議法國發言",
-        "url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 28 Jul 2026 09:32:25 GMT",
-        "summary_zh": "美國在聯合國安理會會議中因為與法國發言不合而離席。這起事件源於美國與北韓、俄羅斯一起投票反對延長聯合國人權高級專員的任期。這一行動引起了聯合國安理會的爭議，美國的做法被視為對法國的挑釁。這一事件可能會對美國在聯合國的形象造成影響，進一步加深與其他國家的分歧。目前尚未有明確的後續發展，但這一事件可能會對國際關係產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3565288f",
-        "title": "川普稱伊朗戰事談判正在進行中，期間美伊空襲暫緩",
-        "url": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 21:10:56 GMT",
-        "summary_zh": "伊朗戰事近期暫緩，美國總統川普表示正在與伊朗進行戰事談判。雖然伊朗方面否認了直接談判的存在，但川普仍表示有很大機會會出現新的發展。伊朗戰事自今年 1 月起爆發，美伊雙方多次進行空襲，造成至少 100 多名平民喪生。近期的暫緩讓外界對戰事的發展感到懷疑。川普的表態顯示美國仍然在與伊朗進行秘密談判，試圖找到解決方案。然而，伊朗方面的否認讓人們對川普的說法產生疑問。伊朗戰事的發展仍然令人關注，外界將密切關注美伊雙方的動態。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5387a9ba",
-        "title": "齊達內確認為法國國家隊主教練",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cpd741qn2y9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 28 Jul 2026 09:03:49 GMT",
-        "summary_zh": "法國國家足球隊宣布，前皇家馬德里主教練齊達內（Zinedine Zidane）將擔任法國國家隊的新主教練。齊達內曾在 2016 年至 2018 年間領導皇家馬德里贏得三個冠軍頭銜，包括 2016-17 年球季的歐冠冠軍。齊達內的任命被視為法國足球界的一大轉折點，將對法國國家隊的未來發展產生重大影響。齊達內的任命也引起了球迷的熱烈反應，許多人對他的領導風格和戰術能力表示期待。齊達內將面臨著挑戰性的任務，需要帶領法國國家隊在未來的國際賽事中取得佳績。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "47fc7c61",
-        "title": "奧德賽翻譯家罵聲連連批評諾蘭電影改編",
-        "url": "https://www.bbc.co.uk/news/articles/cd692n215ndo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 28 Jul 2026 09:45:10 GMT",
-        "summary_zh": "奧德賽翻譯家對諾蘭電影改編表達極度不滿。雖然這部電影獲得了影評人的普遍好評，但這位奧德賽翻譯家卻對其評價不高。這位翻譯家認為，諾蘭的電影改編忽略了原著的核心內容，導致電影的意義和深度大打折扣。這種批評引起了許多人對電影改編的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5ace0ee0",
-        "title": "亞莉安娜·格蘭德起訴泄露音樂和影片的黑客",
-        "url": "https://www.bbc.co.uk/news/articles/c1l1de9gjj6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 28 Jul 2026 08:37:12 GMT",
-        "summary_zh": "亞莉安娜·格蘭德因為黑客泄露未發佈的照片和歌曲而起訴黑客。黑客在網路上公佈了這些未發佈的內容，引起了歌迷的關注。亞莉安娜·格蘭德的團隊正努力找出黑客的身份，以便採取法律行動。這個事件顯示了黑客對藝人的影響力和隱私的侵犯。亞莉安娜·格蘭德的歌迷們正在關注這個事件的發展，希望能夠保護歌星的隱私。這個事件也引起了對網路安全和隱私保護的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "fa4875e4",
-        "title": "美國軍方自伊朗戰爭爆發以來超過 600 名軍人受傷",
-        "url": "https://www.bbc.co.uk/news/articles/c998pzd1e8xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 13:31:57 GMT",
-        "summary_zh": "自 2 月份伊朗戰爭爆發以來，美國軍方已經有超過 600 名軍人受傷。這些傷亡數字包括了「Operation Fury」行動和一個新的「海外行動」類別。伊朗戰爭的傷亡人數持續上升，美國軍方正在努力應對這種局勢。這些受傷的軍人大多來自陸軍、海軍和空軍等部門。美國政府正試圖透過這些數字來表明自己對伊朗戰爭的應對力度。然而，這些數字也引發了關於美國軍方傷亡人數的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d813eb9e",
-        "title": "英國允許香港活動家留下　香港活動家在倫敦機場被拒入境",
-        "url": "https://www.bbc.co.uk/news/articles/cpd74e0yy12o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 28 Jul 2026 04:59:36 GMT",
-        "summary_zh": "香港活動家吳被英國拒絕入境，遭扣留數小時後，英國政府最終允許他留下。這一事件發生在上週，吳向BBC表示。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5e78027d",
-        "title": "一座橋樑成為美國加拿大緊張關係的象徵",
-        "url": "https://www.bbc.co.uk/news/videos/cq564e1l6zno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 18:27:12 GMT",
-        "summary_zh": "加拿大和美國之間的貿易糾紛正在加劇，而這種緊張關係在最近一項重大事件中得到了體現。Gordie Howe國際橋樑近日正式對汽車交通開放，而這座橋樑的開通也成為了兩國之間緊張關係的象徵。這座橋樑是連接美國密西根州和加拿大安大略省的重要交通樞紐，同時也是兩國貿易的重要通道。然而，近期加拿大對美國的稅收政策和貿易限制引發了強烈反彈，美國也對加拿大實施了報復性措施。這種緊張關係不僅影響到兩國的經濟，也影響到兩國人民的生活。目前尚未明確的時期，兩國之間的關係是否會逐漸緩和。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "146320c8",
-        "title": "柏林驕傲遊行襲擊事件：憤怒、震驚和悲痛，疑犯過去的細節仍未明朗",
-        "url": "https://www.bbc.co.uk/news/articles/cy9wv74qje9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 12:33:31 GMT",
-        "summary_zh": "近日，柏林發生了一起驕傲遊行襲擊事件，造成多人受傷。隨著疑犯的過去逐漸揭露，許多人都在問：為什麼他沒有被監禁？這起事件的背後，充滿著憤怒、震驚和悲痛。疑犯的過去似乎充滿著不確定性，許多人都在問：他為什麼能夠逃過法律的懲罰？這個問題的答案似乎只有在調查的過程中才能夠找到。這起事件的影響將會持續很長時間，許多人都在等待著真相的揭露。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "248b2874",
-        "title": "烏克蘭斥責伊朗威脅，海上襲擊事件直接連結兩國戰爭",
-        "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 16:33:05 GMT",
-        "summary_zh": "烏克蘭最近遭到伊朗的威脅，但伊朗外長部長表示，這次襲擊事件「不能不加以回應」。伊朗的反應與烏克蘭遭到襲擊有直接關係，烏克蘭政府對此表示強烈不滿。這次事件可能會使烏克蘭和伊朗之間的關係惡化。烏克蘭政府已經對伊朗的威脅做出回應，表明他們將不會被伊朗的威脅所影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2c6be100",
-        "title": "日本地震後人質事件：人困於購物中心",
-        "url": "https://www.bbc.co.uk/news/articles/cgewg24qgnjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 28 Jul 2026 10:44:50 GMT",
-        "summary_zh": "一場規模 7.1 的地震在日本發生，據報導，在購物中心 Aeon Mall 的 Kumamoto 地區發生爆炸事件。許多人被困於購物中心內，情況惡化。地震引起了嚴重的破壞，許多建築物受損，造成人員傷亡。日本政府正在盡快派遣救援隊伍，試圖營救被困的人員。這起事件引起了國際社會的關注，許多國家正在提供援助。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6b181e22",
-        "title": "中國面臨新挑戰：人工智慧虛假視頻泛濫",
-        "url": "https://www.bbc.co.uk/news/articles/cx27mjvxgg1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 22:07:23 GMT",
-        "summary_zh": "近期中國遭受多次天災，社交媒體上出現大量虛假人工智慧視頻。這些假視頻主要是針對最近幾個月的暴風雨和洪水事件。這種情況引起了中國政府的關注，同時也讓社會民眾感到擔憂。政府正在努力應對這種新挑戰，同時也呼籲民眾提高警惕，避免被假視頻所誤導。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1f4edda1",
-        "title": "印度阿薩姆州面臨歷年最嚴重的洪水災害",
-        "url": "https://www.bbc.co.uk/news/articles/cqlx61p3wz0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 22:50:21 GMT",
-        "summary_zh": "印度阿薩姆州每年都會發生洪水災害，但今年州內的一名部長形容今年的情況為六十年來最為嚴重。阿薩姆州的洪水災害每年都會對當地居民造成重大影響，今年的情況更是如此。州內的河流水位已經超出了警戒線，許多村莊被洪水淹沒，居民被迫撤離。洪水還導致了大量的房屋被毀壞，農田被淹沒，許多人失去了家園。阿薩姆州的政府正在努力應對這場災害，提供援助和救援。然而，許多居民仍然擔心未來的前景，擔心洪水會再次來襲。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7445c1bc",
-        "title": "日本小鎮與伊斯蘭教堂的爭議：身份認同的挑戰",
-        "url": "https://www.bbc.co.uk/news/articles/c36d79nd5w8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 22:08:21 GMT",
-        "summary_zh": "日本正面臨著外籍工人的增加和文化宗教融合的挑戰。近年來，日本政府一直在努力吸引外籍工人來到該國工作，同時也引發了對於如何融合新文化和宗教的爭議。最近，一座日本小鎮的居民們發起了抗議，反對在該鎮興建第一座伊斯蘭教堂。這一事件引發了對於日本身份認同的討論，是否該容忍和接受外來文化和宗教？這一問題將會對日本的社會和文化產生深遠的影響。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
