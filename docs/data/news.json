@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-28T17:04:19.505629+08:00",
+  "generated_at": "2026-07-28T18:04:34.449030+08:00",
   "risk_signals": [
     "🔴 台股加權 41603.36（急跌 -4.65%）",
     "🟢 S&P 500 7413.18（正常）",
-    "🟢 VIX 恐慌指數 18.77（正常）",
+    "🟢 VIX 恐慌指數 18.87（正常）",
     "🟢 MOVE 債市波動 77.21（正常）",
-    "🟢 美元指數 101.51（正常）",
-    "🟢 黃金 4043.4（正常）",
+    "🟢 美元指數 101.6（正常）",
+    "🟢 黃金 4030.5（正常）",
     "🟡 美債10Y殖利率 4.64（留意）",
-    "🟢 原油 WTI 80.12（正常）",
-    "🟢 美元/台幣 32.39（正常）"
+    "🟢 原油 WTI 80.55（正常）",
+    "🟢 美元/台幣 32.4（正常）"
   ],
-  "ai_summary": "市場氛圍緊繃，台股大幅下挫，美元指數和原油價格保持穩定，但美債10年殖利率升高，表明投資者對經濟趨勢的擔憂正在增加。",
+  "ai_summary": "市場氛圍偏悲觀，台股大幅下挫，美股表現平淡。美元指數和美債10Y殖利率表現正常，但留意美債殖利率可能對市場造成影響。",
   "market": {
     "TWII": {
       "price": 41603.36,
@@ -23,11 +23,11 @@
     },
     "NASDAQ": {
       "price": 24932.08,
-      "change_pct": -0.82
+      "change_pct": -0.18
     },
     "VIX": {
-      "price": 18.77,
-      "change_pct": 0.54
+      "price": 18.87,
+      "change_pct": 1.07
     },
     "TNX": {
       "price": 4.64,
@@ -38,25 +38,37 @@
       "change_pct": null
     },
     "DXY": {
-      "price": 101.51,
-      "change_pct": 0.04
+      "price": 101.6,
+      "change_pct": 0.13
     },
     "GOLD": {
-      "price": 4043.4,
-      "change_pct": -0.76
+      "price": 4030.5,
+      "change_pct": -1.08
     },
     "OIL": {
-      "price": 80.12,
-      "change_pct": -3.01
+      "price": 80.55,
+      "change_pct": -2.49
     },
     "USDTWD": {
-      "price": 32.39,
-      "change_pct": 0.2
+      "price": 32.4,
+      "change_pct": 0.23
     }
   },
   "macro": {},
   "categories": {
     "global": [
+      {
+        "id": "dc5e605a",
+        "title": "厄瓜多爾毒品戰爭第一線：警察與黑幫、槍炮和腐敗搏鬥",
+        "url": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 05:01:19 GMT",
+        "summary_zh": "厄瓜多爾正面臨著嚴重的毒品犯罪問題，BBC跟隨當地警察進行巡邏，了解他們在對抗黑幫、槍炮和腐敗的斗爭中所面臨的挑戰。厄瓜多爾警察面臨著巨大的壓力，試圖控制毒品犯罪的蔓延，同時也要應對黑幫的暴力行為和腐敗的問題。這場戰爭對厄瓜多爾的社會和經濟造成了深遠的影響，政府和警察必須團結一致，共同對抗毒品犯罪。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "3565288f",
         "title": "川普稱伊朗戰事談判正在進行中，期間美伊空襲暫緩",
@@ -68,6 +80,18 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "be6d0189",
+        "title": "美國在聯合國安理會會議中離席，抗議法國發言",
+        "url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 09:32:25 GMT",
+        "summary_zh": "美國在聯合國安理會會議中因為與法國發言不合而離席。這起事件源於美國與北韓、俄羅斯一起投票反對延長聯合國人權高級專員的任期。這一行動引起了聯合國安理會的爭議，美國的做法被視為對法國的挑釁。這一事件可能會對美國在聯合國的形象造成影響，進一步加深與其他國家的分歧。目前尚未有明確的後續發展，但這一事件可能會對國際關係產生重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "1f26250e",
@@ -82,28 +106,16 @@
         "ai_classified": true
       },
       {
-        "id": "3e52cbcd",
-        "title": "智利前軍官被判刑殺害民歌手維克多·哈拉 53 年前",
-        "url": "https://www.theguardian.com/world/2026/jul/27/pinochet-era-soldier-jailed-for-killing-folk-singer-victor-jara-chile",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 16:27:44 GMT",
-        "summary_zh": "智利民歌手維克多·哈拉 53 年前遇害，最後一名涉案的前軍官已被逮捕。退役上校 Nelson Haase Mazzei 在 2023 年被判刑，但他逃離了智利當局。根據調查，維克多·哈拉於 1973 年被殺害，當時智利正處於皮諾切特政權。退役上校 Haase Mazzei 和六名退役軍官被判刑，但他逃離了智利。這一判決標誌著一個重要的里程碑，終於有人被追究維克多·哈拉遇害的責任。這一事件對於智利人民來說是個重要的回憶，同時也讓人們對於過去的不公義感到憤怒。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "dc5e605a",
-        "title": "厄瓜多爾毒品戰爭第一線：警察與黑幫、槍炮和腐敗搏鬥",
-        "url": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
+        "id": "5387a9ba",
+        "title": "齊達內確認為法國國家隊主教練",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cpd741qn2y9o?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Tue, 28 Jul 2026 05:01:19 GMT",
-        "summary_zh": "厄瓜多爾正面臨著嚴重的毒品犯罪問題，BBC跟隨當地警察進行巡邏，了解他們在對抗黑幫、槍炮和腐敗的斗爭中所面臨的挑戰。厄瓜多爾警察面臨著巨大的壓力，試圖控制毒品犯罪的蔓延，同時也要應對黑幫的暴力行為和腐敗的問題。這場戰爭對厄瓜多爾的社會和經濟造成了深遠的影響，政府和警察必須團結一致，共同對抗毒品犯罪。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
+        "published_at": "Tue, 28 Jul 2026 09:03:49 GMT",
+        "summary_zh": "法國國家足球隊宣布，前皇家馬德里主教練齊達內（Zinedine Zidane）將擔任法國國家隊的新主教練。齊達內曾在 2016 年至 2018 年間領導皇家馬德里贏得三個冠軍頭銜，包括 2016-17 年球季的歐冠冠軍。齊達內的任命被視為法國足球界的一大轉折點，將對法國國家隊的未來發展產生重大影響。齊達內的任命也引起了球迷的熱烈反應，許多人對他的領導風格和戰術能力表示期待。齊達內將面臨著挑戰性的任務，需要帶領法國國家隊在未來的國際賽事中取得佳績。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "7445c1bc",
@@ -118,6 +130,18 @@
         "ai_classified": true
       },
       {
+        "id": "47fc7c61",
+        "title": "奧德賽翻譯家罵聲連連批評諾蘭電影改編",
+        "url": "https://www.bbc.co.uk/news/articles/cd692n215ndo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 09:45:10 GMT",
+        "summary_zh": "奧德賽翻譯家對諾蘭電影改編表達極度不滿。雖然這部電影獲得了影評人的普遍好評，但這位奧德賽翻譯家卻對其評價不高。這位翻譯家認為，諾蘭的電影改編忽略了原著的核心內容，導致電影的意義和深度大打折扣。這種批評引起了許多人對電影改編的爭議。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "a835a8b9",
         "title": "美國暫停與伊朗戰爭，川普是否真的缺乏武器?",
         "url": "https://www.bbc.co.uk/news/articles/c0qvnk2ezp7o?at_medium=RSS&at_campaign=rss",
@@ -130,6 +154,18 @@
         "ai_classified": true
       },
       {
+        "id": "5ace0ee0",
+        "title": "亞莉安娜·格蘭德起訴泄露音樂和影片的黑客",
+        "url": "https://www.bbc.co.uk/news/articles/c1l1de9gjj6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 28 Jul 2026 08:37:12 GMT",
+        "summary_zh": "亞莉安娜·格蘭德因為黑客泄露未發佈的照片和歌曲而起訴黑客。黑客在網路上公佈了這些未發佈的內容，引起了歌迷的關注。亞莉安娜·格蘭德的團隊正努力找出黑客的身份，以便採取法律行動。這個事件顯示了黑客對藝人的影響力和隱私的侵犯。亞莉安娜·格蘭德的歌迷們正在關注這個事件的發展，希望能夠保護歌星的隱私。這個事件也引起了對網路安全和隱私保護的關注。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "d813eb9e",
         "title": "英國允許香港活動家留下　香港活動家在倫敦機場被拒入境",
         "url": "https://www.bbc.co.uk/news/articles/cpd74e0yy12o?at_medium=RSS&at_campaign=rss",
@@ -139,18 +175,6 @@
         "summary_zh": "香港活動家吳被英國拒絕入境，遭扣留數小時後，英國政府最終允許他留下。這一事件發生在上週，吳向BBC表示。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "248b2874",
-        "title": "烏克蘭斥責伊朗威脅，海上襲擊事件直接連結兩國戰爭",
-        "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Mon, 27 Jul 2026 16:33:05 GMT",
-        "summary_zh": "烏克蘭最近遭到伊朗的威脅，但伊朗外長部長表示，這次襲擊事件「不能不加以回應」。伊朗的反應與烏克蘭遭到襲擊有直接關係，烏克蘭政府對此表示強烈不滿。這次事件可能會使烏克蘭和伊朗之間的關係惡化。烏克蘭政府已經對伊朗的威脅做出回應，表明他們將不會被伊朗的威脅所影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -166,15 +190,15 @@
         "ai_classified": true
       },
       {
-        "id": "64c41227",
-        "title": "智利逮捕涉 Victor Jara 殺人案的逃犯",
-        "url": "https://www.bbc.co.uk/news/articles/c3w0xwj8vzyo?at_medium=RSS&at_campaign=rss",
+        "id": "248b2874",
+        "title": "烏克蘭斥責伊朗威脅，海上襲擊事件直接連結兩國戰爭",
+        "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "category": "global",
-        "published_at": "Mon, 27 Jul 2026 15:49:45 GMT",
-        "summary_zh": "智利政府在近期逮捕了一名逃犯，該名逃犯名叫 Nelson Haase，曾因參與 1973 年智利軍事政變後，民歌手 Victor Jara 的綁架和謀殺而被定罪。 Victor Jara 是一名知名的智利民歌手，在政變後被軍政府抓捕並遭到嚴刑逼供和謀殺。這一事件對智利的民主運動和人權運動產生了重大影響。 Nelson Haase 的逮捕是對這一歷史事件的重要回應，表明智利政府仍然致力於追究政變期間的罪行。這一事件也引起了國際社會的關注，呼籲智利政府繼續追究政變期間的罪行並為受害者伸張正義。",
-        "sentiment": "正面",
-        "is_breaking": false,
+        "published_at": "Mon, 27 Jul 2026 16:33:05 GMT",
+        "summary_zh": "烏克蘭最近遭到伊朗的威脅，但伊朗外長部長表示，這次襲擊事件「不能不加以回應」。伊朗的反應與烏克蘭遭到襲擊有直接關係，烏克蘭政府對此表示強烈不滿。這次事件可能會使烏克蘭和伊朗之間的關係惡化。烏克蘭政府已經對伊朗的威脅做出回應，表明他們將不會被伊朗的威脅所影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -236,9 +260,33 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "3e52cbcd",
+        "title": "智利前軍官被判刑殺害民歌手維克多·哈拉 53 年前",
+        "url": "https://www.theguardian.com/world/2026/jul/27/pinochet-era-soldier-jailed-for-killing-folk-singer-victor-jara-chile",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Mon, 27 Jul 2026 16:27:44 GMT",
+        "summary_zh": "智利民歌手維克多·哈拉 53 年前遇害，最後一名涉案的前軍官已被逮捕。退役上校 Nelson Haase Mazzei 在 2023 年被判刑，但他逃離了智利當局。根據調查，維克多·哈拉於 1973 年被殺害，當時智利正處於皮諾切特政權。退役上校 Haase Mazzei 和六名退役軍官被判刑，但他逃離了智利。這一判決標誌著一個重要的里程碑，終於有人被追究維克多·哈拉遇害的責任。這一事件對於智利人民來說是個重要的回憶，同時也讓人們對於過去的不公義感到憤怒。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
       }
     ],
     "ai": [
+      {
+        "id": "0e94d08d",
+        "title": "Hugging Face 被用於輕鬆裸露女性和兒童的圖像",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-28T05:07:14-04:00",
+        "summary_zh": "Hugging Face 這個流行的開源 AI 模型倉庫，正在被用於創造非自願的深偽造圖像。根據歐洲非營利組織 AI 前線的新報告發現，Hugging Face 主機的前九名圖像編輯模型中，有七個模型容易被用於裸露女性和兒童的圖像。這些模型被用於創造出看似真實的裸露圖像，嚴重侵犯了人權。這項報告強調了 Hugging Face 對此問題的缺乏應對措施，讓這類非自願的深偽造圖像得以繼續存在。這項問題引起了關注，呼籲 Hugging Face 和其他相關組織採取行動，防止這類非自願的深偽造圖像的出現。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "511cf38d",
         "title": "為什麼中國要把最好的AI模型免費給人",
@@ -260,6 +308,30 @@
         "published_at": "2026-07-27T08:06:22-04:00",
         "summary_zh": "Nvidia 宣布與微軟、SpaceX、IBM 等科技公司合作，建立並共享開源 AI 安全工具。新成立的 Open Secure AI Alliance 表示，開源工具是有效防禦前沿模型攻擊的關鍵。這項倡議是對安全性日益擔憂的直接回應。聯盟成員認為，開源工具可以促進安全性、透明度和可靠性，並且可以讓更多人參與 AI 安全研究。然而，這項聯盟的缺乏 OpenAI、Google 和 Anthropic 參與引起了關注。這些公司是 AI 研究領域的重要參與者，是否缺乏參與會對聯盟的影響力和有效性產生影響？聯盟的成立將如何改變 AI 安全的未來？",
         "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b83823a0",
+        "title": "谷歌和必應搜尋結果中揭露私人對話",
+        "url": "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Mon, 27 Jul 2026 20:08:00 +0000",
+        "summary_zh": "近日發現，私人對話在谷歌和必應搜尋結果中被公開。這一事件顯示，阻止網路爬蟲將私人與人工智慧聊天機器人進行的對話公開是多麼困難。私人對話被公開的原因是由於聊天機器人未能正確識別對話的私人性質，而將其公開在搜尋結果中。這一事件引發了對人工智慧聊天機器人安全性的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "fc705d76",
+        "title": "晶圓製造商CXMT成為大陸最值得一提的上市公司",
+        "url": "https://www.bbc.co.uk/news/articles/c9q9w3x9qn2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "ai",
+        "published_at": "Mon, 27 Jul 2026 10:19:36 GMT",
+        "summary_zh": "晶圓製造商CXMT在上市首日股價暴漲470%，這種情況與人工智慧的熱潮引發的晶片需求增加有關。CXMT的快速上升使其成為大陸最值得一提的上市公司。這種情況表明，人工智慧的發展正在推動晶片需求的增長。CXMT的成功上市也表明，中國的晶片產業正逐步崛起。然而，未來仍然存在著許多挑戰和風險，包括全球晶片產業的競爭激烈、技術的快速變化等。",
+        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
@@ -334,107 +406,131 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "b83823a0",
-        "title": "谷歌和必應搜尋結果中揭露私人對話",
-        "url": "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Mon, 27 Jul 2026 20:08:00 +0000",
-        "summary_zh": "近日發現，私人對話在谷歌和必應搜尋結果中被公開。這一事件顯示，阻止網路爬蟲將私人與人工智慧聊天機器人進行的對話公開是多麼困難。私人對話被公開的原因是由於聊天機器人未能正確識別對話的私人性質，而將其公開在搜尋結果中。這一事件引發了對人工智慧聊天機器人安全性的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f347cf51",
-        "title": "這是唐納德·川普的AI智囊團",
-        "url": "https://www.wired.com/story/this-is-donald-trumps-ai-brain-trust/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Mon, 27 Jul 2026 10:00:00 +0000",
-        "summary_zh": "美國政府對於人工智慧政策的制定，正在由一群智囊團成員來推動。根據WIRED的報導，這些智囊團成員不僅僅是兩派對立的觀點，而是十多種不同的意見。這些智囊團成員的存在，意味著美國政府對於人工智慧政策的制定，將會更加複雜和具爭議性。這些智囊團成員的意見，將會對美國政府對於人工智慧政策的制定產生重大影響。美國政府對於人工智慧政策的制定，將會是一場複雜和具爭議性的戰役。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fc705d76",
-        "title": "晶圓製造商CXMT成為大陸最值得一提的上市公司",
-        "url": "https://www.bbc.co.uk/news/articles/c9q9w3x9qn2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "ai",
-        "published_at": "Mon, 27 Jul 2026 10:19:36 GMT",
-        "summary_zh": "晶圓製造商CXMT在上市首日股價暴漲470%，這種情況與人工智慧的熱潮引發的晶片需求增加有關。CXMT的快速上升使其成為大陸最值得一提的上市公司。這種情況表明，人工智慧的發展正在推動晶片需求的增長。CXMT的成功上市也表明，中國的晶片產業正逐步崛起。然而，未來仍然存在著許多挑戰和風險，包括全球晶片產業的競爭激烈、技術的快速變化等。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "stock_tw": [
       {
-        "id": "2ee7117d",
-        "title": "華邦電跌勢才開始？聯手倒貨55萬股東屍橫遍野",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5520575",
-        "source": "自由時報財經",
+        "id": "0bcaf8a7",
+        "title": "亞德客上調今年業績成長，電子電池車用拉貨看佳",
+        "url": "https://www.cna.com.tw/news/afe/202607280216.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Tue, 28 Jul 2026 16:51:43 +0800",
-        "summary_zh": "亞洲股市週二大幅下挫，韓股暴跌逾10%，日經收跌2566點。台股也在聯電、國巨等97家鎖跌停，終場指數跌2030點。投信雖然持續買超，但仍無法挽回市場的悲觀情緒。市場分析師認為，華邦電的跌勢才剛剛開始，55萬股東將面臨重大的損失。華邦電的財務狀況不穩定，公司的營收和利潤都在下滑。市場預期華邦電將繼續下滑，股價將繼續跌落。投資者應該謹慎評估華邦電的風險，並考慮出售股票以避免損失。",
+        "published_at": "Tue, 28 Jul 2026 17:09:18 +0800",
+        "summary_zh": "亞德客-KY 在外資舉辦的法人說明會中預期今年業績成長目標上調至超過20%，以人民幣計價。公司表示，今年在電子設備、電池、車用、機械設備等應用持續成長，預期7月業績可呈現年增。這表明亞德客-KY 的電子電池車用產品需求正在增加，拉動公司業績的成長。這項消息對於投資者來說是積極的，可能會對公司股價產生正面影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "929445da",
+        "title": "外交部宣布停止進口巴紐現貨天然氣",
+        "url": "https://www.cna.com.tw/news/aipl/202607280210.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 28 Jul 2026 16:54:03 +0800",
+        "summary_zh": "巴布亞紐幾內亞突然宣布關閉台灣駐處，外交部立即做出回應。根據外交部的說法，接收到巴紐政府的通知後，台灣已經在一週內停止進口巴紐的液態天然氣。經濟部表示，將與中油合作，配合外交部的政策，同時考慮能源安全和供氣穩定的問題，並會分散來源，以確保天然氣的穩定供應。這一措施表明台灣對巴紐政府的行動做出回應，並試圖維持對天然氣的穩定供應。這一事件可能會對台灣的能源安全和經濟產生一定的影響，需要密切關注。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "78e78cd3",
+        "title": "仁寶啟動員工持股信託 提存等額獎勵金留才",
+        "url": "https://www.cna.com.tw/news/afe/202607280202.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 28 Jul 2026 16:31:46 +0800",
+        "summary_zh": "仁寶近日宣布啟動「員工福利持股信託制度」，旨在鼓勵員工參與企業長期發展並共享經營成果。這項制度將自2026年7月啟動，採取自願參與方式，員工每月可定期提撥資金，並由公司同步提存等額獎勵金。這項舉措旨在留住人才，面對全球人才競爭激烈的現況，仁寶希望通過這種方式來吸引和留住優秀員工。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e0db51cf",
+        "title": "日本熊本地震 台積電：JASM廠區啟動人員疏散",
+        "url": "https://www.cna.com.tw/news/afe/202607280201.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 28 Jul 2026 16:31:44 +0800",
+        "summary_zh": "日本熊本地震發生後，台積電表示位於熊本的JASM廠區達到疏散標準，啟動緊急應變程序進行人員室內及室外疏散與清點。這次地震規模達到7.1強震，對於台積電的生產和員工安全造成了重大影響。台積電的迅速應對和疏散措施可能會減少人員受傷的風險，但也可能會對生產線造成影響，進而影響全球晶片供應。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "9396f0f0",
+        "title": "AI疑慮引發科技股賣壓 韓股收盤重挫逾10%",
+        "url": "https://www.cna.com.tw/news/afe/202607280192.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Tue, 28 Jul 2026 16:12:24 +0800",
+        "summary_zh": "韓國股市今天收挫逾10%，投資人對於企業大規模投資人工智慧（AI）基礎設施的前景產生愈來愈多疑慮，導致科技股遭到大幅拋售。這種情況下，投資人開始擔心企業投資AI的風險和回報率是否能夠滿足預期。這種疑慮導致投資人對科技股的信心下降，從而造成股市的重挫。這種情況對於韓國股市的整體表現有著重要影響，投資人需要重新評估投資AI的風險和回報率。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      }
+    ],
+    "finance": [
+      {
+        "id": "9df958c2",
+        "title": "中國肌肉展示讓鐵礦石礦業者挺身而出",
+        "url": "https://www.reuters.com/commentary/breakingviews/china-muscle-flex-is-iron-ore-miners-call-arms-2026-07-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-27 22:00:35",
+        "summary_zh": "中國近期出現了對鐵礦石的肌肉展示，讓全球鐵礦石礦業者感到緊張。中國政府對鐵礦石進口的限制措施，讓外國礦業公司感到擔憂。這些限制措施可能會影響全球鐵礦石市場的供給和需求。中國的行動可能是為了保護本國的鋼鐵業，同時也可能是為了應對全球經濟的不確定性。這些措施的影響可能會延伸到全球各地的鐵礦石礦業者。中國的行動可能會引發全球鐵礦石市場的波動，讓投資者和礦業者都需要密切關注。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "6f36fe47",
+        "title": "川普政府的預測市場規則草案面臨公眾反彈",
+        "url": "https://www.reuters.com/legal/government/trump-admins-proposed-prediction-market-rule-faces-public-pushback-2026-07-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-27 21:55:56",
+        "summary_zh": "川普政府近期提出了一項預測市場規則草案，旨在促進市場預測和分析，但這項規則草案卻面臨著公眾的強烈反彈。根據目前的規劃，預測市場將允許投資者在未來市場趨勢上下注，這些市場將由政府監管。然而，許多人擔心這項規則草案可能會導致市場不穩定和操縱。公眾對這項規則草案的反彈聲音越來越大，政府正在就此進行溝通和調整。這項規則草案的影響將會如何？將會如何影響投資者和市場？政府將如何做出最終決定？",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "d66a1210",
-        "title": "力成董事長蔡篤恭：明年中量產FOPLP AI應用公司",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5520561",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 28 Jul 2026 16:46:49 +0800",
-        "summary_zh": "台灣封測大廠力成今日召開法說會，董事長蔡篤恭表示，公司將與超微合作的FOPLP專案照既定時程進行，預計明年年中前量產。這將使力成成為全球首家量產FOPLP AI應用公司。蔡篤恭強調，力成持續積極布局AI先進封裝，與超微合作的FOPLP專案是公司的重要戰略。這項合作將使力成能夠提供更先進的封裝服務，進一步強化公司在全球市場的競爭力。",
+        "id": "82820298",
+        "title": "塞蘭特CEO：美國房市已不復存在",
+        "url": "https://www.cnbc.com/video/2026/07/27/serhant-ceo-on-why-there-is-no-longer-a-housing-market-in-america.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-27 21:54:04",
+        "summary_zh": "塞蘭特公司創辦人兼CEO瑞恩·塞蘭特（Ryan Serhant）在節目《快速財富》中談論了豪宅房地產市場、美國整體房地產市場的狀況、買家購買的地區等。塞蘭特表示，美國房市已經不復存在，因為房價已經超出了許多人的購買能力。美國房地產市場正處於一個轉折點，買家正在轉向更便宜的地區，例如田納西州和佛羅里達州。塞蘭特預測，未來房地產市場將更加競爭，買家將需要更具競爭力的策略才能在市場中立足。這個轉折點對美國整體經濟也有著重要影響，可能會導致房屋價格下跌和經濟活動減少。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "ce792e0b",
+        "title": "努克爾季度業績超出市場預期，價格和需求強勁",
+        "url": "https://www.reuters.com/business/nucor-beats-quarterly-results-strong-pricing-demand-2026-07-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-27 21:27:44",
+        "summary_zh": "美國鋼鐵巨頭努克爾(Nucor)公布季度業績，表現超出市場預期。公司的鋼鐵價格和需求持續強勁，導致營業收入和利潤大幅增長。這是鋼鐵行業近期的一個亮點，市場對於鋼鐵需求的增長感到樂觀。然而，鋼鐵行業仍面臨著供應鏈的挑戰和環保政策的影響。努克爾的業績表現將對整個鋼鐵行業產生影響，市場將密切關注公司未來的發展。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "47bb6252",
-        "title": "桃園捷運綠線首個土開案 G15a站千坪基地啟動招商",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5520497",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 28 Jul 2026 16:45:07 +0800",
-        "summary_zh": "桃園捷運綠線第1階段北段7站預計今年底通車，桃園市政府舉辦G15a菓林站土地開發案招商說明會。這是綠線首個啟動招商的土開案。捷運工程局表示，G15a站基地面積約千坪，規劃為商業區及住宅區。招商說明會上，市府強調，將會透過公開招商的方式選出合適的開發商。桃園市政府希望透過這項招商活動，能夠吸引更多的投資，推動桃園地區的經濟發展。",
-        "sentiment": "中性",
+        "id": "8722cc91",
+        "title": "辛辛那提金融公司季度盈利下滑，受天災損失影響",
+        "url": "https://www.reuters.com/legal/litigation/cincinnati-financials-quarterly-profit-falls-higher-catastrophe-losses-2026-07-27/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-27 21:25:19",
+        "summary_zh": "辛辛那提金融公司近期公布季度財報，表現不佳。公司的季度盈利下滑，主要是由於天災損失的增加。這些損失包括自然災害和人為意外等。公司的財務報告顯示，天災損失佔公司總損失的比例大幅增加，從前期的 10% 上升到 25%。此外，公司的保單銷售額也下滑，從前期的 1.4% 上升到 2.3%。這些不利因素導致公司的盈利下滑，公司的股價也受到影響。分析師預測，公司的盈利將在未來幾個季度繼續下滑。這些消息對公司的未來發展產生了重大影響，投資者應該密切關注公司的財務報告和股價變動。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
-      {
-        "id": "29d03a4f",
-        "title": "英業達斥資181億元 台美泰三地同步擴產",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5520537",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 28 Jul 2026 16:43:32 +0800",
-        "summary_zh": "英業達（2356）因應AI伺服器需求持續成長，決定在桃園、泰國、美國德州三地同步擴產。桃園新建廠房預算88億元，泰國新廠預算不超過61億泰銖（約新台幣58.7億元）。這些新廠房將會生產英業達的AI伺服器相關產品。這項投資將會幫助英業達提升生產能力，滿足全球對AI伺服器的需求。這項決定也表明英業達正在積極地發展其在AI領域的業務。桃園新廠房預計將於2025年底完工，而泰國新廠預計將於2026年底完工。美國德州新廠的具體時間表尚未公布。這項投資將會對英業達的財務表現產生正面影響，同時也將會促進台美泰三地的經濟發展。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "f2c459e6",
-        "title": "史上第3慘！投信資金轉往8金融避險 買超第1是這檔電子",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5520551",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 28 Jul 2026 16:39:30 +0800",
-        "summary_zh": "亞股週二大屠殺，韓股暴跌逾10%，日經收跌2566點，台股在聯電、國巨等97家鎖跌停，終場指數跌2030點。投信在這片慘綠下仍挺台股，買超23.53億元，轉往8檔金融避險，買超第一名是電子股。這次投信的買超行動，顯示投資人對台股仍有信心，雖然短期內股市可能會出現波動，但長期來看，台股仍有發展空間。投信的買超行動也會對股市產生一定的影響，可能會帶動其他投資人跟進買超，從而推升股市。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      }
-    ],
-    "finance": [
       {
         "id": "9653324d",
         "title": "飛利浦第二季利潤超越預期，受關稅退稅支撐",
@@ -444,78 +540,6 @@
         "published_at": "2026-07-27 20:38:09",
         "summary_zh": "飛利浦在第二季度的財務報告中表現出色，利潤超越了投資者的預期。公司的收益主要得益於關稅退稅的回饋。這一發展對於飛利浦來說是一個積極的跡象，表明公司正在從全球貿易政策的變化中獲取益。然而，投資者也需要關注公司未來的營運情況以及市場的變化。飛利浦的財務報告顯示，公司的收入和利潤都有所增加，表明公司的業務正在穩步發展。這一發展對於投資者來說是一個積極的跡象，表明公司的財務狀況正在改善。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "edd23de2",
-        "title": "學貸欠債率上升：3種方法讓你在緊縮預算下還款",
-        "url": "https://www.cnbc.com/select/smart-ways-to-chip-away-at-student-loan-balance/",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-27 20:34:39",
-        "summary_zh": "近年來，學貸欠債率不斷上升，許多學生面臨著沉重的負債壓力。然而，仍有方法可以幫助學生還款。首先，學生可以透過銀行戶口獎金、最大化信用卡獎勵和與供應商談判降低月付款額來增加還款金額。這些方法雖然不會立即消除債務，但可以幫助學生逐步還款。同時，學生也應該考慮申請貸款豁免或減免計劃，以減輕債務負擔。儘管還款路途漫長，但持續努力和規劃，學生可以在未來的日子裡擁有更好的財務狀況。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "34845189",
-        "title": "FAT Brands 得到法院批准的清算計畫",
-        "url": "https://www.reuters.com/legal/litigation/fat-brands-gets-court-go-ahead-liquidation-plan-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 20:27:44",
-        "summary_zh": "美國餐飲公司FAT Brands因財務困難，向法院申請清算計畫。法院批准後，公司將進行清算程序，包括債務清償和資產出售。這項決定可能會對公司的股東和員工產生重大影響。FAT Brands 的財務狀況惡化，公司的負債和應收帳款都在增長。公司的管理層認為，清算計畫是公司存活下來的最佳選擇。然而，這項決定也可能會引起股東和員工的不滿和抗議。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "687a9684",
-        "title": "律師事務所 Milbank 職員將獲得額外獎金",
-        "url": "https://www.reuters.com/legal/litigation/associates-law-firm-milbank-get-special-bonuses-top-salary-hike-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 19:00:53",
-        "summary_zh": "律師事務所 Milbank 宣佈將為員工提供額外獎金，除了之前的薪水調整。這項政策將對於律師事務所的員工產生重大影響，特別是在競爭激烈的法律行業中。這項政策的推出，可能會對員工的工作動力和滿意度產生正面影響。然而，律師事務所的財務狀況和這項政策的實施細節，仍待觀察。這項政策的推出，也可能會對其他律師事務所產生競爭壓力。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c74e5cb3",
-        "title": "Chobani未能終止Dannon母公司Danone的冷泡咖啡訴訟",
-        "url": "https://www.reuters.com/legal/litigation/chobani-fails-end-dannon-parent-danones-cold-brew-coffee-lawsuit-2026-07-27/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-07-27 18:58:58",
-        "summary_zh": "美國乳製品公司Chobani未能終止Dannon母公司Danone的冷泡咖啡訴訟。這起訴訟始於2020年，Danone控訴Chobani侵犯了其冷泡咖啡專利。雖然Chobani聲稱自己是第一家推出冷泡咖啡的公司，但法庭最終仍支持Danone的訴訟。這一裁決可能會對冷泡咖啡市場產生重大影響，許多公司可能會面臨類似的訴訟。Chobani的未來發展可能會受到這一裁決的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "75034df5",
-        "title": "從「油價」到「震驚」，卡爾希交易員預期Fed主席凱文沃許將說什麼",
-        "url": "https://www.cnbc.com/2026/07/27/from-oil-to-shock-heres-what-kalshi-traders-expect-warsh-to-say.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-27 18:58:23",
-        "summary_zh": "卡爾希交易員預測，Fed主席凱文沃許將在本週的聯邦儲備銀行新聞發布會中提及上週的供應震驚事件。這項預測源於市場對沃許的期待，他將在會上回答市場關注的問題。卡爾希交易員認為，沃許將強調供應震驚對美國經濟的影響，並可能提及未來的政策調整。這項預測可能會對市場造成影響，投資者應該密切關注沃許的發言。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "b41061ec",
-        "title": "加密股市大幅上漲，來自 AI 基礎設施轉換的原因被認為是主要原因；比特幣礦工卻落後於市場趨勢",
-        "url": "https://www.cnbc.com/2026/07/27/crypto-stocks-rally-thanks-to-rotation-from-ai-infrastructure-bitcoin-miners-lag.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-27 18:54:17",
-        "summary_zh": "近日，全球股市出現波動，許多股價下跌。但是，加密股市卻出現了相當大的上漲。分析師認為，這是由於投資者將資金轉換自 AI 基礎設施股市而來。然而，比特幣礦工股價卻未能跟上市場的趨勢，表明這些公司仍面臨著嚴重的挑戰。這一轉變可能是由於投資者對 AI 基礎設施的需求下降，轉而投資於加密股市。這一轉變對於加密股市的未來發展可能有著重要的影響。投資者應該密切關注這一轉變，並準備好應對未來的市場變化。",
-        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
@@ -530,9 +554,45 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "edd23de2",
+        "title": "學貸欠債率上升：3種方法讓你在緊縮預算下還款",
+        "url": "https://www.cnbc.com/select/smart-ways-to-chip-away-at-student-loan-balance/",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-07-27 20:34:39",
+        "summary_zh": "近年來，學貸欠債率不斷上升，許多學生面臨著沉重的負債壓力。然而，仍有方法可以幫助學生還款。首先，學生可以透過銀行戶口獎金、最大化信用卡獎勵和與供應商談判降低月付款額來增加還款金額。這些方法雖然不會立即消除債務，但可以幫助學生逐步還款。同時，學生也應該考慮申請貸款豁免或減免計劃，以減輕債務負擔。儘管還款路途漫長，但持續努力和規劃，學生可以在未來的日子裡擁有更好的財務狀況。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "stock_us": [
+      {
+        "id": "0563a97b",
+        "title": "SpaceX 現已喪失超過 1.2 萬億美元市值",
+        "url": "https://www.cnbc.com/2026/07/27/spacex-has-now-lost-the-equivalent-of-a-full-tesla-in-market-capitalization.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-07-27 21:26:03",
+        "summary_zh": "SpaceX 因為股價大跌，自今年 6 月份的最高點 $225.64 美元/股後，已經喪失超過 1.2 萬億美元的市值。這種情況下，SpaceX 的市值已經低於 6 月份的最高點，表明公司的財務狀況正在惡化。市場分析師認為，這種情況可能與公司未來的財務表現有關。SpaceX 的股價大跌可能會對公司的未來發展造成影響，投資者也應該關注公司的財務狀況。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "5a084ff8",
+        "title": "Nvidia 可能與 OpenAI 簽署新協議，分析師警告這將復甦一種令人不安的科技泡沫習慣",
+        "url": "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
+        "source": "Marketwatch",
+        "category": "stock_us",
+        "published_at": "2026-07-27 21:46:00",
+        "summary_zh": "投資人對於一份報導中提到的 Nvidia 可能為 OpenAI 購買數據中心租約感到擔憂，這將是迄今為止最大的租約。這項協議的報導引起了投資人對 Nvidia 股價的擔憂，尤其是在該公司已經在股價上升的背景下。分析師警告，這項協議可能會復甦一種令人不安的科技泡沫習慣，該習慣是投資人過度關注科技公司的股價，而忽略其實際業績。 Nvidia 股價近期已經上升，該公司的業務表現也很好，但投資人仍然對於該公司的未來前景感到擔憂。這項協議的報導也引起了對於科技泡沫的擔憂，投資人擔憂科技公司的股價可能會過度膨脹。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "a2333206",
         "title": "紐約證交所內幕人 Jay Woods: 週末關注美聯儲會議與企業財報",
@@ -542,8 +602,8 @@
         "published_at": "2026-07-27 20:04:53",
         "summary_zh": "本週是華爾街的一個重要週期，美聯儲會議與一系列企業財報將在短時間內公布，這些事件都可能對股市產生重大影響，紐約證交所內幕人 Jay Woods 表示。 美聯儲會議將是本週的關鍵焦點，市場將密切關注美聯儲對利率的決策，同時企業財報的公布將為投資者提供重要的財務資訊。 Jay Woods 表示，企業財報將對股市產生重大影響，投資者應該密切關注企業的財務表現。 美聯儲會議與企業財報的公布將對股市產生重大影響，投資者應該保持警覺，密切關注市場的變化。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "449d3d9d",
@@ -628,30 +688,6 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "10f44e3e",
-        "title": "BNY的Vincent Reinhart分析美聯儲需要保持耐心的兩個原因",
-        "url": "https://www.cnbc.com/video/2026/07/27/bnys-vincent-reinhart-breaks-down-two-reasons-the-fed-needs-to-be-patient.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-27 16:26:02",
-        "summary_zh": "美聯儲的首席經濟學家Vincent Reinhart表示，美聯儲需要保持耐心。根據他對美聯儲主席Kevin Warsh的預期，美聯儲將在本週三做出關於利率的決定。Vincent Reinhart認為，美聯儲需要考慮兩個重要因素：一是經濟增長的速度，二是通膨的壓力。Vincent Reinhart表示，美聯儲需要保持耐心，因為經濟增長的速度可能會因為疫情的影響而受到影響。同時，通膨的壓力也可能會因為供應鏈的問題而增加。Vincent Reinhart認為，美聯儲需要考慮這些因素，以確保經濟的穩定發展。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "77daea14",
-        "title": "丹尼爾·尼爾斯關注蘋果最大問題",
-        "url": "https://www.cnbc.com/video/2026/07/27/dan-niles-on-apple.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-27 16:15:15",
-        "summary_zh": "丹尼爾·尼爾斯是Niles Investment Management的創始人和投資組合經理。他在節目『Squawk on the Street』中表示，他對當前財務季的預期以及超大型科技公司的財務表現感到關注。他認為，蘋果公司面臨著最大問題，需要關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "whitehouse": [
@@ -680,63 +716,15 @@
         "ai_classified": true
       },
       {
-        "id": "492cb382",
-        "title": "川普政府要求最高法院介入允許郵寄選票限制",
-        "url": "https://www.cnbc.com/2026/07/27/trump-supreme-court-mail-in-voting-restrictions.html",
-        "source": "Cnbc",
+        "id": "0c08eaa3",
+        "title": "澤倫斯基和內塔尼亞胡將訪問華盛頓，與白宮會面",
+        "url": "https://www.bbc.co.uk/news/videos/cd0xlnz2yk1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
         "category": "whitehouse",
-        "published_at": "2026-07-27 19:46:04",
-        "summary_zh": "美國聯邦上訴法院週六維持了23個州對郵寄選票限制的訴訟，裁定各州必須準備應對選舉變化的潛在影響。川普政府已經要求最高法院介入，允許這些郵寄選票限制。這些限制在多個州引起了爭議，部分州認為這些限制會對選民造成不公平的影響。最高法院的介入可能會改變這些州的選舉規則，對選民和政黨產生重大影響。這一事件的背景是在美國各州的選舉規則中郵寄選票的使用權利引起的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3668011c",
-        "title": "總統對父親史丹利羅瑟烈士45週年紀念的致詞",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-the-45th-anniversary-of-the-martyrdom-of-father-stanley-rother/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Jul 2026 04:30:00 +0000",
-        "summary_zh": "今天，梅拉尼婭和我與全美天主教徒和全球各地的信徒們一起，致敬父親史丹利羅瑟的偉大遺產。他是一名來自奧克拉荷馬的農場男孩，是天主教會第一位被封聖的美國出生的烈士，也是一位為人權而戰的勇士。他勇敢地犧牲生命，為宣揚耶穌的光明而努力。這位偉大的牧師的精神和遺產將永遠在我們的心中留下深刻的印象。他對人類的愛和關懷，對信仰的堅定和對神的信任，都是我們所能學習和效仿的榜樣。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "e00976bc",
-        "title": "總統致詞：慶祝韓戰停戰日",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-national-korean-war-veterans-armistice-day-3cd7/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 27 Jul 2026 22:51:46 +0000",
-        "summary_zh": "今天，美國國民紀念82周年美國解放關島的日子，這一天美國打破了殘酷的佔領，將自由帶回了曾經遭受超過2年的苦難的島嶼。 在我們的國家紀念韓戰停戰日的同時，我們致敬那些在韓戰中展現出非凡勇氣和奉獻精神的退伍軍人。這些退伍軍人的行動，讓我們的國家能夠享受今天的自由和安全。 我們將永遠懷念這些退伍軍人的貢獻，並感謝他們的犧牲。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "3d2c5fb5",
-        "title": "密西根再起：特朗普貿易政策助美車產業大躍進",
-        "url": "https://www.whitehouse.gov/releases/2026/07/made-in-michigan-again-president-trumps-trade-agenda-is-supercharging-american-auto-manufacturing/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 27 Jul 2026 16:02:58 +0000",
-        "summary_zh": "美國總統唐納德·特朗普今日將訪問密西根州的通用汽車試驗場，來慶祝美國汽車產業在他的領導下取得的偉大復興。自從上任以來，特朗普總統已經點燃了汽車產業的新時代——將生產線轉移回國內，恢復工廠就業，讓密西根再次成為汽車製造中心。這期間，汽車產業的投資和銷售都創下了新高。特朗普的貿易政策正助力美國汽車產業大躍進。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a9111155",
-        "title": "梅拉尼婭夫人宣布白宮聖誕節志願者及表演者徵選開放",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/07/first-lady-melania-trump-announces-opening-of-christmas-volunteer-performer-applications-be30/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Mon, 27 Jul 2026 13:04:29 +0000",
-        "summary_zh": "白宮正籌備聖誕節活動，美國總統唐納德·川普和第一夫人梅拉尼婭·川普表示期待繼續承傳歡迎志願者於聖誕節的傳統。自今日起，2026年白宮聖誕節志願者及表演者徵選正式開放。志願者將有機會參與白宮聖誕節活動，包括與總統夫婦合照、參與節慶活動等。白宮聖誕節活動將於今年冬季舉行，具體日期待定。",
+        "published_at": "Tue, 28 Jul 2026 00:30:11 GMT",
+        "summary_zh": "烏克蘭總統澤倫斯基和以色列總理內塔尼亞胡將於共和黨參議員林賽·格雷厄姆的葬禮中會面，之後分別前往白宮與美國官員討論各自地區的戰爭。這次會面將是兩國領導人在近期內的首次會面。澤倫斯基和內塔尼亞胡將與美國官員討論烏克蘭與俄羅斯的戰爭，以及以色列與巴勒斯坦的衝突。這次會面將對兩國的關係產生重要影響。目前尚未披露會面具體內容，但預計將在葬禮後進行。",
         "sentiment": "中性",
-        "is_breaking": false,
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -764,18 +752,6 @@
         "ai_classified": true
       },
       {
-        "id": "0c08eaa3",
-        "title": "澤倫斯基和內塔尼亞胡將訪問華盛頓，與白宮會面",
-        "url": "https://www.bbc.co.uk/news/videos/cd0xlnz2yk1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 28 Jul 2026 00:30:11 GMT",
-        "summary_zh": "烏克蘭總統澤倫斯基和以色列總理內塔尼亞胡將於共和黨參議員林賽·格雷厄姆的葬禮中會面，之後分別前往白宮與美國官員討論各自地區的戰爭。這次會面將是兩國領導人在近期內的首次會面。澤倫斯基和內塔尼亞胡將與美國官員討論烏克蘭與俄羅斯的戰爭，以及以色列與巴勒斯坦的衝突。這次會面將對兩國的關係產生重要影響。目前尚未披露會面具體內容，但預計將在葬禮後進行。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "08999848",
         "title": "川普在受重創的密西根州為關稅辯護，同時加拿大稅率大幅上升",
         "url": "https://www.bbc.co.uk/news/articles/cy0jknp3e6yo?at_medium=RSS&at_campaign=rss",
@@ -785,18 +761,6 @@
         "summary_zh": "川普總統在密西根州發表演說，表示他的經濟政策正在重新活化汽車業，並迫使海外企業遷移到美國。川普的演說是在密西根州的汽車產業重災區進行的，他試圖說服選民相信他的關稅政策對汽車業有益。然而，加拿大政府即將對汽車業實施稅率大幅上升，這可能會對美國汽車業產生重大影響。川普的經濟政策是否能夠實現其承諾，仍待觀察。",
         "sentiment": "正面",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "55e6c59a",
-        "title": " Savannah Guthrie再次呼籲母親綁架者 '做對的事情'",
-        "url": "https://www.bbc.co.uk/news/articles/c5y4grv7pp8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Mon, 27 Jul 2026 19:54:24 GMT",
-        "summary_zh": "美國記者Savannah Guthrie再次在社交媒體上呼籲綁架母親Nancy的兇手們，公開母親的下落。這是她第三次發出這樣的呼籲。Savannah Guthrie的母親Nancy在2022年被綁架，她的下落至今仍然不明。Savannah Guthrie在社交媒體上呼籲綁架者們，做對的事情，公開母親的下落，讓她能夠與家人團聚。這個事件引起了美國社會的廣泛關注，許多人都在呼籲綁架者們，做對的事情。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -833,6 +797,54 @@
         "summary_zh": "14歲的Celeste Rivas Hernandez女孩在去年九月被發現在歌手D4vd註冊的特斯拉車廂內死亡。這起案件引起了廣泛關注，歌手D4vd將面臨謀殺案審判。法庭的判決結果對於歌手D4vd和他的團隊來說具有重大影響。這起案件的背後原因和真相仍然不清楚，法庭的判決結果將為案件的進一步調查提供關鍵線索。",
         "sentiment": "負面",
         "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3668011c",
+        "title": "總統對父親史丹利羅瑟烈士45週年紀念的致詞",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-the-45th-anniversary-of-the-martyrdom-of-father-stanley-rother/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 28 Jul 2026 04:30:00 +0000",
+        "summary_zh": "今天，梅拉尼婭和我與全美天主教徒和全球各地的信徒們一起，致敬父親史丹利羅瑟的偉大遺產。他是一名來自奧克拉荷馬的農場男孩，是天主教會第一位被封聖的美國出生的烈士，也是一位為人權而戰的勇士。他勇敢地犧牲生命，為宣揚耶穌的光明而努力。這位偉大的牧師的精神和遺產將永遠在我們的心中留下深刻的印象。他對人類的愛和關懷，對信仰的堅定和對神的信任，都是我們所能學習和效仿的榜樣。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e00976bc",
+        "title": "總統致詞：慶祝韓戰停戰日",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-national-korean-war-veterans-armistice-day-3cd7/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 27 Jul 2026 22:51:46 +0000",
+        "summary_zh": "今天，美國國民紀念82周年美國解放關島的日子，這一天美國打破了殘酷的佔領，將自由帶回了曾經遭受超過2年的苦難的島嶼。 在我們的國家紀念韓戰停戰日的同時，我們致敬那些在韓戰中展現出非凡勇氣和奉獻精神的退伍軍人。這些退伍軍人的行動，讓我們的國家能夠享受今天的自由和安全。 我們將永遠懷念這些退伍軍人的貢獻，並感謝他們的犧牲。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3d2c5fb5",
+        "title": "密西根再起：特朗普貿易政策助美車產業大躍進",
+        "url": "https://www.whitehouse.gov/releases/2026/07/made-in-michigan-again-president-trumps-trade-agenda-is-supercharging-american-auto-manufacturing/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 27 Jul 2026 16:02:58 +0000",
+        "summary_zh": "美國總統唐納德·特朗普今日將訪問密西根州的通用汽車試驗場，來慶祝美國汽車產業在他的領導下取得的偉大復興。自從上任以來，特朗普總統已經點燃了汽車產業的新時代——將生產線轉移回國內，恢復工廠就業，讓密西根再次成為汽車製造中心。這期間，汽車產業的投資和銷售都創下了新高。特朗普的貿易政策正助力美國汽車產業大躍進。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a9111155",
+        "title": "梅拉尼婭夫人宣布白宮聖誕節志願者及表演者徵選開放",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/07/first-lady-melania-trump-announces-opening-of-christmas-volunteer-performer-applications-be30/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Mon, 27 Jul 2026 13:04:29 +0000",
+        "summary_zh": "白宮正籌備聖誕節活動，美國總統唐納德·川普和第一夫人梅拉尼婭·川普表示期待繼續承傳歡迎志願者於聖誕節的傳統。自今日起，2026年白宮聖誕節志願者及表演者徵選正式開放。志願者將有機會參與白宮聖誕節活動，包括與總統夫婦合照、參與節慶活動等。白宮聖誕節活動將於今年冬季舉行，具體日期待定。",
+        "sentiment": "中性",
+        "is_breaking": false,
         "ai_classified": true
       },
       {
