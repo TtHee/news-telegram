@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-01T04:11:20.679882+08:00",
+  "generated_at": "2026-08-01T05:16:34.292263+08:00",
   "risk_signals": [
     "🟢 台股加權 39933.3（正常）",
     "🟢 S&P 500 7489.72（正常）",
-    "🟢 VIX 恐慌指數 15.91（正常）",
-    "🟢 MOVE 債市波動 77.09（正常）",
-    "🟢 美元指數 99.95（正常）",
-    "🟢 黃金 4108.1（正常）",
+    "🟢 VIX 恐慌指數 15.99（正常）",
+    "🟢 MOVE 債市波動 83.02（正常）",
+    "🟢 美元指數 99.8（正常）",
+    "🟢 黃金 4098.6（正常）",
     "🟡 美債10Y殖利率 4.74（留意）",
-    "🟢 原油 WTI 84.71（正常）",
+    "🟡 原油 WTI 86.8（漲 +3.84%，留意）",
     "🟢 美元/台幣 32.29（正常）"
   ],
-  "ai_summary": "市場氛圍偏於穩定，短期風險相對較低，但美元殖利率持續上升，需留意美元走強對台股的潛在影響。",
+  "ai_summary": "市場氛圍保持穩定，各大指數表現良好，美元指數和原油價格的小幅波動值得留意。",
   "market": {
     "TWII": {
       "price": 39933.3,
@@ -26,45 +26,215 @@
       "change_pct": 1.0
     },
     "VIX": {
-      "price": 15.91,
-      "change_pct": -6.9
+      "price": 15.99,
+      "change_pct": -6.44
     },
     "TNX": {
       "price": 4.74,
       "change_pct": 1.76
     },
     "MOVE": {
-      "price": 77.09,
+      "price": 83.02,
       "change_pct": null
     },
     "DXY": {
-      "price": 99.95,
-      "change_pct": -0.06
+      "price": 99.8,
+      "change_pct": -0.21
     },
     "GOLD": {
-      "price": 4108.1,
-      "change_pct": 0.2
+      "price": 4098.6,
+      "change_pct": -0.04
     },
     "OIL": {
-      "price": 84.71,
-      "change_pct": 1.34
+      "price": 86.8,
+      "change_pct": 3.84
     },
     "USDTWD": {
       "price": 32.29,
-      "change_pct": -0.32
+      "change_pct": -0.31
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "ea6aad81",
+        "title": "川普將與內閣會面，為伊朗戰事尋求解決方案",
+        "url": "https://www.theguardian.com/us-news/live/2026/jul/31/donald-trump-cabinet-camp-david-iran-midterms-gaza-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 31 Jul 2026 20:36:29 GMT",
+        "summary_zh": "美國總統川普正努力尋求伊朗戰事的解決方案，這場戰事已經使汽油價格大幅上漲，影響了即將到來的中期選舉。根據Working Families Party的一項最新調查，選民，尤其是獨立選民，希望挑戰現有的政治體系。調查發現，80%的選民認為選舉官員更關心富裕捐贈者和強大利益團體，而不是普通人。當被要求選擇一位來自既定團體和黨派捐贈者的經驗豐富的官員，或者一位「政治異見者」時，後者贏得了14分的差距，包括獨立和中間選民。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "76c484ec",
+        "title": "陪審團探訪莉莎黛兒殺兒案的犯罪現場",
+        "url": "https://www.theguardian.com/us-news/2026/jul/31/lindsay-clancy-murder-trial-jurors",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 31 Jul 2026 19:50:38 GMT",
+        "summary_zh": "莉莎黛兒殺害三個孩子的案件正在進行審判，陪審團於去年1月的案發地點進行了探訪。根據莉莎黛兒的辯護律師，當時她患有產後精神分裂症，導致她殺害了三個孩子。陪審團在參觀案發地點時，看到了一個普通的家庭生活如何變得悲劇性的地方。這次探訪讓陪審團能夠親眼看到案發地點，包括孩子們死去的地下室。這次事件的悲劇性令人深感哀傷，讓人們不得不思考，如何預防和處理產後精神健康問題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "dbf0ea93",
+        "title": "布倫漢姆將給英格蘭市長收入稅份",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-30/burnham-to-give-mayors-share-of-income-tax-in-uk-devolution-push",
+        "source": "Bloomberg",
+        "category": "whitehouse",
+        "published_at": "2026-07-31 08:14:24",
+        "summary_zh": "英國新首相推動地方政權移轉，倫敦市長布倫漢姆表示將給英格蘭各地市長一部分地區所產生的收入稅份。這是英國政府試圖將政治和經濟權力從白金漢宮轉移到地方的努力的一部分。這項政策改變將使市長有更多的財政自主權，能夠根據地區的需求分配稅收。然而，這項政策的具體細節尚未明確，還需要進一步的討論和協商。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d1100b8f",
+        "title": "加文·紐森公開2022-2024年稅單，年收入達1700萬至2000萬美元",
+        "url": "https://www.theguardian.com/us-news/2026/jul/31/gavin-newsom-california-tax-release",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 31 Jul 2026 18:22:33 GMT",
+        "summary_zh": "加州州長加文·紐森和他的妻子珍妮弗·西卜爾·紐森在特朗普調查期間公開了2022-2024年的稅單。根據紐森的辦公室公佈的稅單，紐森夫婦在2022年至2024年間每年收入約1700萬至2000萬美元，支付約500萬美元的聯邦和州稅。紐森的辦公室公佈了超過700頁稅單，涵蓋了四年的稅務資料，為記者提供了進一步瞭解紐森財務的機會。紐森的辦公室沒有公佈2025年的稅單，因為夫婦申請了延期，並將在10月完成那些稅單。這些稅單的公佈，為紐森即將離任和考慮2028年總統競選提供了更多信息。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "af914832",
+        "title": "川普反悔承諾讓烏克蘭生產彈道導彈系統",
+        "url": "https://www.theguardian.com/us-news/2026/jul/31/trump-cabinet-camp-david-ukraine",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 31 Jul 2026 17:58:56 GMT",
+        "summary_zh": "美國總統川普在卡姆帕大衛會議上表示，讓烏克蘭生產自己的彈道導彈系統技術是一件「難以捨棄的事」。這是川普第二任期內首次在總統別墅舉行內閣會議。川普此前曾承諾讓烏克蘭生產自己的彈道導彈系統，但現在卻改口表示這是一個困難的問題。烏克蘭一直在努力擴大自己的防空能力，包括購買美國製的彈道導彈系統。川普的反悔可能會對烏克蘭的防空能力造成影響，同時也可能會對美國與烏克蘭的關係產生影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ac75f27e",
+        "title": "美國政府公布長期等待的科羅拉多河危機應對方案",
+        "url": "https://www.theguardian.com/us-news/2026/jul/31/colorado-river-water-cuts",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 31 Jul 2026 17:38:28 GMT",
+        "summary_zh": "美國政府近日公布了對科羅拉多河危機的應對方案，方案中規定將水資源減少供應給加利福尼亞州、亞利桑那州和內華達州。美國水力發電局提出的方案暫時避免了科羅拉多州、猶他州、紐墨西哥州和懷俄明州必須面對強制性水資源減少的局面。但是，這個方案只是暫時的解決方案，因為仍然需要對科羅拉多河的長期管理方案進行協商。科羅拉多河是美國西部地區的一個重要水資源，供應了大量地區的水資源。美國政府的方案將如何影響這些地區的水資源供應，仍然需要進一步觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "669ea133",
+        "title": "川普挺身而出：1.8億美元「灰色基金」不該阻礙布蘭奇出任檢察總長",
+        "url": "https://www.theguardian.com/us-news/2026/jul/31/trump-slush-fund-todd-blanche",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 31 Jul 2026 16:56:53 GMT",
+        "summary_zh": "川普總統在其社交平台上發表聲明，要求美國參議院立即通過布蘭奇的任命，布蘭奇曾擔任川普的私人法律顧問。然而，這一任命卻因為川普官員在司法部提出的1.8億美元「灰色基金」方案而受阻。川普官員的這一方案引起了爭議，許多人認為這是一個不當的行為。川普總統堅稱這個方案是合理的，並要求參議院立即通過布蘭奇的任命。這一事件引起了許多關注，許多人認為這是一個政治權力鬥爭的結果。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f7ca27b5",
+        "title": "這雙靴子是美國野外消防員最安全的選擇。然而越來越多人無法負擔這項費用",
+        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/jul/31/pacific-north-west-wildfires-firefighting-boots",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 31 Jul 2026 15:00:17 GMT",
+        "summary_zh": "美國野外消防員的工作環境非常危險，需要穿著特定的靴子以保護自己。這雙手工製的皮靴是百年傳統，但隨著經費緊縮，價格高達 800 美元的成本越來越難以承受。Luke Mayfield 是一名熱門消防員，他在野外消防任務中穿著這雙靴子，行走 1000 英里，工作 16 小時一天，並在任務期間睡在靴子旁邊。消防員們需要經常維護靴子，例如潤滑、縫合和在季前進行適應性穿著，以避免在工作期間出現水泡。然而，隨著經費緊縮，越來越多消防員無法負擔這雙靴子的成本，這對於保護自己和他人安全造成了重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7ed500d0",
+        "title": "聖保羅市警官指控市長性騷擾",
+        "url": "https://www.theguardian.com/us-news/2026/jul/31/st-paul-mayor-alleged-sexual-harassment",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 31 Jul 2026 14:08:15 GMT",
+        "summary_zh": "聖保羅市警長阿塞爾·亨利（Axel Henry）之前已經指控市長凱奧利·赫（Kaohly Her）性騷擾，現在又有另一名警官指控市長性騷擾。根據明尼蘇達星報（Minnesota Star Tribune）報導，新的指控是由另一名警官提出，指控市長赫在工作環境中創造了「性化工作環境」。明尼蘇達市長赫是民主黨成員，目前正在面臨性騷擾指控的調查。這些指控對於赫的政治前景和市長職位的穩定性產生了重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "880cbf4f",
+        "title": "民主黨議員批評共和黨議員在伊朗戰爭上變得「軟弱無骨」",
+        "url": "https://www.theguardian.com/us-news/2026/jul/31/republicans-gelatinous-blobs-iran-war",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Fri, 31 Jul 2026 09:00:09 GMT",
+        "summary_zh": "美國民主黨議員 Elizabeth Warren 和 Chris Van Hollen 對共和黨議員在伊朗戰爭問題上表現感到失望，指責共和黨議員在國會變得「軟弱無骨」，不敢對總統 Donald Trump 提出反對。 Warren 和 Van Hollen 表示，共和黨控制的國會已經將其憲法權力讓給總統。這些批評出自於 Warren 和 Van Hollen 對共和黨議員在伊朗戰爭問題上缺乏反對聲音的擔憂。伊朗戰爭問題已經成為美國國會的焦點，民主黨議員希望共和黨議員能夠站出來反對總統的戰爭政策。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "98f0715a",
+        "title": "美國國防機構警告水務系統遭遇電腦攻擊，明尼蘇達州受影響",
+        "url": "https://www.bbc.co.uk/news/articles/cvgwe2qpgq1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 31 Jul 2026 19:03:28 GMT",
+        "summary_zh": "美國國防機構發出警告，指出美國明尼蘇達州的水務系統遭遇電腦攻擊，超過 30 個水系統受到影響。美國媒體指出，伊朗可能是背後的主使。這次攻擊的影響尚未完全清楚，但美國政府已經開始就此事件展開調查。這次事件的發生引起了對美國水務系統安全性的擔憂，美國政府將會繼續關注這一問題並採取措施加強水務系統的防禦能力。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "151647f7",
+        "title": "法西接連續拒絕答覆國會議員關於疫情問題　將面臨藐視國會投票",
+        "url": "https://www.bbc.co.uk/news/articles/czdmv0vyv4zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Fri, 31 Jul 2026 08:06:57 GMT",
+        "summary_zh": "美國國會議員蘭德·保羅（Rand Paul）表示，法西（Fauci）拒絕回答疫情問題，可能會面臨藐視國會的指控。法西曾經擔任美國國家過敏和傳染病研究所所長，曾在疫情期間多次出席國會聽證會。然而，這次他拒絕回答一些疫情相關的問題，引起了議員們的不滿。蘭德·保羅表示，法西的行為可能會被視為藐視國會，甚至可能面臨刑事指控。這一事件引起了美國政治界的關注，許多人正在關注法西的行為是否違反了國會的權力。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "global": [
       {
-        "id": "b08c1f70",
-        "title": "約4.9萬名移民進入西班牙領土塞烏塔",
-        "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "9110a585",
+        "title": "至少18人喪生，49,000名移民衝入西班牙領土塞烏塔",
+        "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths",
+        "source": "Guardian World",
         "category": "global",
-        "published_at": "Fri, 31 Jul 2026 17:03:47 GMT",
-        "summary_zh": "西班牙領土塞烏塔近日迎來了約4.9萬名移民，其中超過半數是來自非洲的難民。根據官方數據，這些移民的到來使得塞烏塔的人口達到約83,600人。塞烏塔是西班牙與非洲之間的一個重要的邊境城市，移民的到來對當地的社會和經濟產生了重大影響。西班牙政府正在努力處理這個難民潮，同時也面臨著挑戰和風險。塞烏塔的移民潮可能會對西班牙整體的政治和社會格局產生重大影響。",
+        "published_at": "Fri, 31 Jul 2026 17:52:11 GMT",
+        "summary_zh": "近49,000名移民突破摩洛哥與西班牙塞烏塔邊境，衝入這個小型領土。西班牙派遣軍隊和警察增援塞烏塔，西班牙總理佩德羅·桑切斯預計於星期五早上與內政部長費爾南多·格蘭德-馬拉斯卡（Fernando Grande-Marlaska）前往塞烏塔視察。事件中至少18人喪生，部分人溺水，部分人在人群擠逼中受傷。許多移民在街頭或公園露宿。西班牙政府正面臨著難民入境的挑戰，塞烏塔的資源和設施已經到達極限。這次事件的影響將對西班牙的移民政策和邊境安全產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a4d88e40",
+        "title": "坎特伯雷總主教承諾支持1000萬英鎊的籌款幫助因奴役受影響的社區",
+        "url": "https://www.theguardian.com/news/2026/jul/31/archbishop-of-canterbury-support-pledge-helping-communities-enslavement",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Fri, 31 Jul 2026 11:38:46 GMT",
+        "summary_zh": "坎特伯雷總主教莎拉·穆拉利（Dame Sarah Mullally）在訪問迦納期間，表達了對英國教會在大西洋奴隸貿易中的參與感到遺憾，並再次確認了她對籌款1000萬英鎊幫助受奴役社區的承諾。這項籌款被視為象徵著基督教的悔罪信念。莎拉·穆拉利在一座曾經用來囚禁數千名非洲奴隸的前英國城堡中發表了這番話，該城堡後來被運往大西洋。這座城堡是瑞典商人在17世紀建造的，但後來被丹麥人和荷蘭人佔據，最後被英國人佔據。莎拉·穆拉利的訪問是她首次訪問迦納。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "776e48bf",
+        "title": "剛果民主共和國出現史上最快增長的埃博拉疫情",
+        "url": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Fri, 31 Jul 2026 08:00:08 GMT",
+        "summary_zh": "剛果民主共和國的埃博拉疫情持續惡化，死亡人數已經達到近 1,500 人，疫苗還需要數月時間才會出現。當前，該國東部五個省份共有 3,360 名確診病例，1,487 人死亡，病死率約為 45%。然而，由於疫區內多處爆發衝突，醫療人員難以有效應對疫情。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -77,6 +247,66 @@
         "category": "global",
         "published_at": "2026-07-31 04:00:05",
         "summary_zh": "近年來，氣候變遷導致法國和西班牙出現大規模旱火，成為歐洲經濟面臨的重大挑戰。氣候變遷使得這種類型的旱火變得越來越常見，對歐洲經濟的影響可能非常嚴重。法國和西班牙的旱火不僅損害了農業和林業，也對觀光業和其他相關行業造成了重大影響。氣候變遷的影響不僅限於這兩個國家，歐洲整體都面臨著旱火的風險。因此，歐洲國家需要共同努力來應對氣候變遷的挑戰，保護環境和經濟。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c5c05b6e",
+        "title": "美國政府在全球會議上發佈的非洲地圖錯誤標示每個國家",
+        "url": "https://www.theguardian.com/us-news/2026/jul/30/government-map-mislabels-african-countries",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 30 Jul 2026 22:48:02 GMT",
+        "summary_zh": "美國國務院在巴西的愛滋病防治會議上展示了一個錯誤的非洲地圖。該地圖錯誤標示了每個非洲國家，引起了會議參與者的關注。根據路透社的報導，這張錯誤地圖是在國務院發表新衛生協議的演講中展示的。這個事件引起了輿論的關注，國務院已承認錯誤並對此表示歉意。這個事件表明美國政府在全球會議上的表現存在問題，需要進一步檢視和改善。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f9aa732f",
+        "title": "HIV 預防藥物可能大幅減少全球新病例，但美國外援削減使得需要它的人無法接觸",
+        "url": "https://www.theguardian.com/society/2026/jul/31/hiv-aids-medication-usaid-cuts",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Fri, 31 Jul 2026 16:29:14 GMT",
+        "summary_zh": "全球新HIV病例可能大幅減少，但美國外援削減使得需要它的人無法接觸。世界衛生組織一年前建議各國政府優先擴大對lenacapavir的接觸，lenacapavir是一種可供每年兩次注射的HIV預防藥物。該藥物的效果達到99%，對於那些堅持每日服用口服藥物或每兩個月注射藥物的人而言，能夠有效預防性交傳播的HIV。然而，美國外援削減使得那些需要這種藥物的人無法接觸到它。美國外援削減對於全球HIV預防工作的影響將是深遠的。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "264d671d",
+        "title": "佛羅里達州女性屍檢報告揭露鱷魚攻擊的慘烈程度",
+        "url": "https://www.theguardian.com/us-news/2026/jul/31/brittany-clark-florida-alligator-attack-autopsy",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Fri, 31 Jul 2026 16:45:31 GMT",
+        "summary_zh": "佛羅里達州一名女性Brittany Clark在與男友在佛羅里達州的Little Big Econ州森林游泳時遭鱷魚攻擊身亡。屍檢報告顯示，Brittany Clark在遭鱷魚攻擊後奮鬥了好一段時間，最終因受傷過重而喪生。報告還披露了6月28日鱷魚攻擊的具體情況。這是佛羅里達州近年來罕見的鱷魚攻擊案例。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "277599f0",
+        "title": "蒙大拿州新「試用權」法令來得及時",
+        "url": "https://www.technologyreview.com/2026/07/31/1140945/montanas-new-right-to-try-law-cant-come-soon-enough-for-some/",
+        "source": "MIT Tech Review",
+        "category": "global",
+        "published_at": "Fri, 31 Jul 2026 09:00:00 +0000",
+        "summary_zh": "蒙大拿州的 Kris DeVault 家庭陷入絕望，他的兒子 Brody 在 2023 年 3 月出生後不久就出現發育遲緩的跡象。隨著時間的推移，Brody 遺失了重要的語言、運動和協調能力。當 Brody 大約兩歲半時，進行了基因檢測，結果顯示他患有罕見的遺傳病。醫生建議 Brody 進行一項試驗性治療，但這項治療並未獲得美國食品藥物管理局 (FDA) 的批准。蒙大拿州新通過的「試用權」法令允許 Brody 的父母嘗試這項治療，儘管它尚未通過 FDA 的審核。這項法令對 Brody 和他的家人來說是一個希望的光芒，讓他們能夠嘗試任何可能的治療方法，盼望兒子的健康能夠改善。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b08c1f70",
+        "title": "約4.9萬名移民進入西班牙領土塞烏塔",
+        "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 31 Jul 2026 17:03:47 GMT",
+        "summary_zh": "西班牙領土塞烏塔近日迎來了約4.9萬名移民，其中超過半數是來自非洲的難民。根據官方數據，這些移民的到來使得塞烏塔的人口達到約83,600人。塞烏塔是西班牙與非洲之間的一個重要的邊境城市，移民的到來對當地的社會和經濟產生了重大影響。西班牙政府正在努力處理這個難民潮，同時也面臨著挑戰和風險。塞烏塔的移民潮可能會對西班牙整體的政治和社會格局產生重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -99,7 +329,7 @@
         "url": "https://www.bbc.co.uk/news/articles/cddjz1r01l8o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Asia",
         "category": "global",
-        "published_at": "Fri, 31 Jul 2026 16:41:59 GMT",
+        "published_at": "Fri, 31 Jul 2026 20:22:46 GMT",
         "summary_zh": "一場雪崩事件在巴基斯坦發生，尼泊爾籍登山家尼爾馬爾·普爾賈（Nirmal Purja）等10名登山者被懷疑失蹤。受影響的登山者包括一名美國人、一名中國公民、一名阿曼人和五名尼泊爾籍登山者。這起事件的具體情況尚未明確，正在進行搜救工作。尼爾馬爾·普爾賈是一名世界著名的登山家，他曾經成功登頂過世界七大高峰。這次失蹤事件引起了全球登山界的關注和擔憂。",
         "sentiment": "負面",
         "is_breaking": true,
@@ -161,90 +391,6 @@
         "category": "global",
         "published_at": "Fri, 31 Jul 2026 08:09:17 GMT",
         "summary_zh": "近日，數百名移民從摩洛哥游泳穿越到西班牙的塞烏塔領土。塞烏塔領導人表示，移民潮已經超出了該領土的資源，呼籲西班牙政府干預。塞烏塔是一個位於北非的西班牙領土，位於摩洛哥和西班牙之間。近年來，該領土出現了大量非法移民的問題，西班牙政府一直在努力解決這個問題。塞烏塔領導人表示，移民潮對該領土的社會和經濟造成了重大壓力，呼籲西班牙政府提供更多幫助。西班牙政府已經承諾會增加對塞烏塔的資源和援助，但移民潮仍然持續。這個問題已經成為西班牙政治的熱門話題，各方都在爭論如何解決這個問題。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "264d671d",
-        "title": "佛羅里達州女性屍檢報告揭露鱷魚攻擊的慘烈程度",
-        "url": "https://www.theguardian.com/us-news/2026/jul/31/brittany-clark-florida-alligator-attack-autopsy",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Fri, 31 Jul 2026 16:45:31 GMT",
-        "summary_zh": "佛羅里達州一名女性Brittany Clark在與男友在佛羅里達州的Little Big Econ州森林游泳時遭鱷魚攻擊身亡。屍檢報告顯示，Brittany Clark在遭鱷魚攻擊後奮鬥了好一段時間，最終因受傷過重而喪生。報告還披露了6月28日鱷魚攻擊的具體情況。這是佛羅里達州近年來罕見的鱷魚攻擊案例。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "277599f0",
-        "title": "蒙大拿州新「試用權」法令來得及時",
-        "url": "https://www.technologyreview.com/2026/07/31/1140945/montanas-new-right-to-try-law-cant-come-soon-enough-for-some/",
-        "source": "MIT Tech Review",
-        "category": "global",
-        "published_at": "Fri, 31 Jul 2026 09:00:00 +0000",
-        "summary_zh": "蒙大拿州的 Kris DeVault 家庭陷入絕望，他的兒子 Brody 在 2023 年 3 月出生後不久就出現發育遲緩的跡象。隨著時間的推移，Brody 遺失了重要的語言、運動和協調能力。當 Brody 大約兩歲半時，進行了基因檢測，結果顯示他患有罕見的遺傳病。醫生建議 Brody 進行一項試驗性治療，但這項治療並未獲得美國食品藥物管理局 (FDA) 的批准。蒙大拿州新通過的「試用權」法令允許 Brody 的父母嘗試這項治療，儘管它尚未通過 FDA 的審核。這項法令對 Brody 和他的家人來說是一個希望的光芒，讓他們能夠嘗試任何可能的治療方法，盼望兒子的健康能夠改善。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9110a585",
-        "title": "至少18人喪生，49,000名移民衝入西班牙領土塞烏塔",
-        "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Fri, 31 Jul 2026 17:52:11 GMT",
-        "summary_zh": "近49,000名移民突破摩洛哥與西班牙塞烏塔邊境，衝入這個小型領土。西班牙派遣軍隊和警察增援塞烏塔，西班牙總理佩德羅·桑切斯預計於星期五早上與內政部長費爾南多·格蘭德-馬拉斯卡（Fernando Grande-Marlaska）前往塞烏塔視察。事件中至少18人喪生，部分人溺水，部分人在人群擠逼中受傷。許多移民在街頭或公園露宿。西班牙政府正面臨著難民入境的挑戰，塞烏塔的資源和設施已經到達極限。這次事件的影響將對西班牙的移民政策和邊境安全產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a4d88e40",
-        "title": "坎特伯雷總主教承諾支持1000萬英鎊的籌款幫助因奴役受影響的社區",
-        "url": "https://www.theguardian.com/news/2026/jul/31/archbishop-of-canterbury-support-pledge-helping-communities-enslavement",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Fri, 31 Jul 2026 11:38:46 GMT",
-        "summary_zh": "坎特伯雷總主教莎拉·穆拉利（Dame Sarah Mullally）在訪問迦納期間，表達了對英國教會在大西洋奴隸貿易中的參與感到遺憾，並再次確認了她對籌款1000萬英鎊幫助受奴役社區的承諾。這項籌款被視為象徵著基督教的悔罪信念。莎拉·穆拉利在一座曾經用來囚禁數千名非洲奴隸的前英國城堡中發表了這番話，該城堡後來被運往大西洋。這座城堡是瑞典商人在17世紀建造的，但後來被丹麥人和荷蘭人佔據，最後被英國人佔據。莎拉·穆拉利的訪問是她首次訪問迦納。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "776e48bf",
-        "title": "剛果民主共和國出現史上最快增長的埃博拉疫情",
-        "url": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Fri, 31 Jul 2026 08:00:08 GMT",
-        "summary_zh": "剛果民主共和國的埃博拉疫情持續惡化，死亡人數已經達到近 1,500 人，疫苗還需要數月時間才會出現。當前，該國東部五個省份共有 3,360 名確診病例，1,487 人死亡，病死率約為 45%。然而，由於疫區內多處爆發衝突，醫療人員難以有效應對疫情。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c5c05b6e",
-        "title": "美國政府在全球會議上發佈的非洲地圖錯誤標示每個國家",
-        "url": "https://www.theguardian.com/us-news/2026/jul/30/government-map-mislabels-african-countries",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 30 Jul 2026 22:48:02 GMT",
-        "summary_zh": "美國國務院在巴西的愛滋病防治會議上展示了一個錯誤的非洲地圖。該地圖錯誤標示了每個非洲國家，引起了會議參與者的關注。根據路透社的報導，這張錯誤地圖是在國務院發表新衛生協議的演講中展示的。這個事件引起了輿論的關注，國務院已承認錯誤並對此表示歉意。這個事件表明美國政府在全球會議上的表現存在問題，需要進一步檢視和改善。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f9aa732f",
-        "title": "HIV 預防藥物可能大幅減少全球新病例，但美國外援削減使得需要它的人無法接觸",
-        "url": "https://www.theguardian.com/society/2026/jul/31/hiv-aids-medication-usaid-cuts",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Fri, 31 Jul 2026 16:29:14 GMT",
-        "summary_zh": "全球新HIV病例可能大幅減少，但美國外援削減使得需要它的人無法接觸。世界衛生組織一年前建議各國政府優先擴大對lenacapavir的接觸，lenacapavir是一種可供每年兩次注射的HIV預防藥物。該藥物的效果達到99%，對於那些堅持每日服用口服藥物或每兩個月注射藥物的人而言，能夠有效預防性交傳播的HIV。然而，美國外援削減使得那些需要這種藥物的人無法接觸到它。美國外援削減對於全球HIV預防工作的影響將是深遠的。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -312,6 +458,18 @@
     ],
     "ai": [
       {
+        "id": "a503f2e2",
+        "title": "Google 地球的 AI 偽造工具只活了一天",
+        "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-07-31T15:13:29-04:00",
+        "summary_zh": "Google 宣佈關閉了它們新推出的 Google 地球功能，這項功能允許用戶使用 AI 編輯衛星圖像，並透過文字提示生成真實世界的 AI 偽造圖像。這項功能在推出後僅一天便被關閉，原因尚未明朗。這項功能的出現引起了廣泛關注，因為它讓用戶可以在衛星圖像中添加任何東西，例如在墨西哥邊境附近添加難民。這項功能的關閉可能是因為它被用於生成不實的圖像，或者是由於它引起了太多的關注。Google 尚未對關閉這項功能的原因做出任何聲明。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "a251e57a",
         "title": "Google Earth 問題：AI 生成器在 Google Earth 中的應用",
         "url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
@@ -372,18 +530,6 @@
         "ai_classified": true
       },
       {
-        "id": "cc7448ef",
-        "title": "失去情境意識",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-07-30T16:46:25-04:00",
-        "summary_zh": "近日，一位非金融專家在網路上分享了他對金融行業的一些建議。建議中提到，投資人應避免在基金名稱中加入可能在未來會引起笑點的內容。這是因為，如果基金出現問題，該名稱可能會被用來嘲笑它。例如，長期資本管理公司（Long-Term Capital Management）和阿馬蘭特投資顧問公司（Amaranth Advisors）就是這樣的例子。這些公司在過去曾經出現重大問題，導致投資人損失慘重。因此，投資人應該選擇一個中立且不會引起笑點的名稱，以避免在未來面臨不必要的負面評價。這樣的建議值得金融專家們注意，希望能夠避免類似的悲劇發生。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "75f986bb",
         "title": "蒙大拿州新藥試驗規則出台",
         "url": "https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/",
@@ -391,18 +537,6 @@
         "category": "ai",
         "published_at": "Fri, 31 Jul 2026 12:16:00 +0000",
         "summary_zh": "蒙大拿州近日推出新規範，允許生物技術公司在藥物進行初步測試後，即可在該州進行臨床試驗。根據新規範，藥物不需要經過完整的安全評估，僅需通過初步測試即可進行試驗。這一舉動被視為蒙大拿州打造為藥物試驗中心的重要一步。然而，這一決定也引發了關於藥物安全性的擔憂。一些批評者認為，這一規範可能會導致藥物安全性問題。蒙大拿州政府表示，這一規範旨在促進生物技術公司在該州進行試驗，從而帶來經濟利益。然而，這一決定也引發了對藥物安全性的擔憂。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1fd4e792",
-        "title": "人人都在焦慮 OpenAI 和 Anthropic 的霸權競賽",
-        "url": "https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Thu, 30 Jul 2026 20:12:57 +0000",
-        "summary_zh": "人工智慧研究人員擔心 AI 的發展速度太快，而馬克·祖克柏則擔心誰擁有這項技術。另外，黑森林實驗室正推動人工智慧在機器人領域的應用。這項競賽的結果將對未來的人工智慧發展產生重大影響。研究人員們擔心，人工智慧的快速發展可能會導致未來的技術失控。馬克·祖克柏則表示，他關心的是誰擁有這項技術，是否會被用於壟斷市場或侵犯個人的隱私權。黑森林實驗室的推動，將人工智慧應用於機器人領域，可能會帶來新的商機和創新。然而，這項競賽的結果也可能會對社會產生負面影響，例如失業率的增加或是人工智慧的滲透。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -442,8 +576,8 @@
         "published_at": "Sat, 01 Aug 2026 01:21:03 +0800",
         "summary_zh": "近日，科技股出現強勁反彈，然而油價上漲和部分獲利回吐導致漲勢逐漸消退。歐洲股市今天呈現漲跌互見的局面。倫敦股市FTSE 100指數成分股未涵蓋科技公司，盤中再度創下歷史新高，首度逼近1萬1000點大關。這種局面表明，投資者對科技股的熱情正在逐漸降低。同時，油價上漲也對整體市場產生了影響。投資者需要密切關注市場的變化，以便做出明智的決策。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "151bdfc8",
@@ -480,6 +614,18 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
+      },
+      {
+        "id": "45a4d0e4",
+        "title": "台湾经济半年增长最快自1976年以来",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-31/taiwan-s-growth-tops-forecasts-even-as-ai-buildout-worries-mount",
+        "source": "Bloomberg",
+        "category": "stock_tw",
+        "published_at": "2026-07-31 08:57:47",
+        "summary_zh": "台湾经济在今年上半年实现了自1976年以来最快的增长，经济学家认为这是由于台湾政府实施的刺激政策和全球供应链的重新配置。台湾经济在今年上半年增长了7.3%，这是自1976年以来最快的增长速度。经济学家认为，这是由于台湾政府实施的刺激政策和全球供应链的重新配置。台湾政府推出了一系列政策来刺激经济增长，包括降低企业税率和增加投资。同时，全球供应链的重新配置也使得台湾的出口增长了。台湾经济的增长对全球经济有着重要影响，尤其是在供应链方面。台湾的经济增长也为该国的出口业带来了新的机会。然而，经济学家也提醒，台湾经济的增长速度可能会在未来减慢。因此，台湾政府需要继续实施政策来维持经济增长。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "06bd4924",
@@ -640,112 +786,100 @@
     ],
     "finance": [
       {
-        "id": "54381813",
-        "title": "德國七月失業率比預期稍微升高",
-        "url": "https://www.reuters.com/business/german-unemployment-rises-slightly-more-than-expected-july-2026-07-31/",
+        "id": "2ea3c050",
+        "title": "英吉利能源優勢競標德國、荷蘭、西班牙天然氣廠",
+        "url": "https://www.reuters.com/business/energy/engie-well-positioned-bid-gas-plant-tenders-germany-netherlands-spain-ceo-says-2026-07-31/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-07-31 08:00:34",
-        "summary_zh": "德國七月失業率比預期稍微升高，雖然仍處於低位，但這一數字卻超出了市場預期。根據德國統計局的數據，德國七月失業率為 3.1%，比六月的 3% 高出 0.1 個百分點。這一數字雖然仍然低於德國政府的目標，但卻引發了關注。市場預期德國七月失業率將維持在 3% 左右，但實際數字卻超出了預期。這一升高可能與德國經濟增長放緩以及外部市場風險增大的關係。德國政府將密切關注失業率的變化，以確保經濟穩定。",
+        "published_at": "2026-07-31 09:00:10",
+        "summary_zh": "英吉利能源CEO表示，該公司已經準備好競標德國、荷蘭和西班牙的天然氣廠建設項目。這些國家正在尋求替代俄羅斯天然氣的供應來源，英吉利能源正是其中一個競爭者。該公司已經在德國和荷蘭投資了大量資金，擁有豐富的經驗和技術。英吉利能源的競標將對這些國家的能源市場產生重大影響，可能會改變供應鏈和價格格局。這項競標也會考驗英吉利能源的財務能力和管理能力。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "957e7ce7",
-        "title": "為什麼私人貸款與保險產業紐結",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-31/why-private-credit-got-entangled-with-insurance",
+        "id": "42961dd2",
+        "title": "Macquarie Capital 投資意大利可再生能源開發商 Chiron Energy",
+        "url": "https://www.reuters.com/business/energy/macquarie-capital-invests-italian-renewable-developer-chiron-energy-2026-07-31/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-31 09:00:10",
+        "summary_zh": "澳洲投資銀行 Macquarie Capital 宣布投資意大利可再生能源開發商 Chiron Energy。這項投資將幫助 Chiron Energy 繼續發展可再生能源項目，包括風力發電和太陽能發電。 Chiron Energy 的項目遍布意大利各地，總發電容量達到幾百兆瓦。這項投資表明 Macquarie Capital 對可再生能源的發展有著積極的態度。可再生能源的發展對於減少氣候變化和改善環境有著重要的作用。這項投資也將幫助意大利的能源安全和可靠性。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ca158584",
+        "title": "哥倫比亞將在佩特羅時期最後一次會議中提高利率",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-31/colombia-to-hike-interest-rate-in-last-petro-era-meeting",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-07-31 08:00:05",
-        "summary_zh": "私人貸款市場近年來快速擴張，許多投資人開始將目光投向這個領域。然而，私人貸款與保險產業之間的關聯逐漸明朗。根據最新的研究，許多私人貸款公司與保險公司有著密切的關係，甚至有些公司的股權持有人同時也是保險公司的股權持有人。這種紐結使得私人貸款市場面臨著新的風險和挑戰。投資人需要謹慎評估私人貸款公司的財務狀況和風險評估，避免因為保險公司的影響而導致的風險。同時，監管機構也需要加強對私人貸款市場的監管，防止不當的行為和風險。",
+        "published_at": "2026-07-31 09:00:00",
+        "summary_zh": "哥倫比亞央行將在佩特羅時期最後一次會議中宣布提高利率。哥倫比亞央行主席阿爾韋托·卡爾德隆表示，該國經濟正面臨著挑戰，包括通貨膨脹和貿易逆差。哥倫比亞央行將在會議中討論提高利率的可能性，以控制通貨膨脹和穩定經濟。這一決定將對哥倫比亞的經濟和金融市場產生重大影響。哥倫比亞央行的決定將在會議後的幾天內公佈。哥倫比亞總統佩特羅·加斯塔韋爾將在會議後發表演說，對哥倫比亞的經濟和政治局勢進行評估。哥倫比亞的經濟正面臨著挑戰，包括通貨膨脹和貿易逆差。哥倫比亞央行的決定將對哥倫比亞的經濟和金融市場產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "391a54e6",
+        "title": "香港經濟增長速度低於預期，AI業界仍在蓬勃發展",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-31/hong-kong-s-economy-slows-more-than-forecast-despite-export-boom",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-07-31 08:52:47",
+        "summary_zh": "香港經濟增長速度低於預期，雖然AI業界仍在蓬勃發展，但仍然影響了整體經濟的增長。根據最新的數據顯示，香港的經濟增長速度低於預期，僅為2.7%，低於預期的3.5%。這是香港經濟增長速度低於預期的第三個季度。分析師認為，這是由於香港的出口和製造業受到全球貿易緊縮的影響。另一方面，AI業界仍在蓬勃發展，香港的AI產業正在快速擴張，吸引了大量的投資。然而，這些投資並沒有能夠抵消香港經濟增長速度的低迷。分析師認為，香港需要採取更多措施來刺激經濟增長，例如增加投資和創新。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "6a8eccc0",
-        "title": "普馬公司第二季度虧損減少 進一步努力恢復成長",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-31/puma-shows-progress-on-turnaround-with-running-training-demand",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-31 07:46:07",
-        "summary_zh": "德國運動品牌普馬公司在第二季度發布虧損報告，表明該公司正努力恢復成長。根據報告，普馬公司第二季度虧損較去年同期減少。這是該公司努力恢復成長的又一重要里程碑，該公司計劃在明年恢復成長。普馬公司的努力受到市場的關注，市場預期該公司的業績將在未來幾年內改善。然而，該公司仍面臨著競爭激烈的市場環境和經濟不確定性等挑戰。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "9667a159",
-        "title": "七星集團與SoftBank、PayPay、SMFG簽署180億美元合作協議",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-31/seven-i-forges-1-8-billion-pact-with-softbank-paypay-smfg",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-31 07:45:04",
-        "summary_zh": "七星集團宣布與SoftBank、PayPay和三菱日聯金融集團（SMFG）簽署180億美元的合作協議。這項協議將使七星集團進一步擴大其在日本的業務，並加強與SoftBank的合作關係。七星集團是世界上最大的連鎖超市集團，旗下品牌包括7-Eleven、Ito Yokado和Sogo等。這項協議將為七星集團提供資金支持，幫助其在日本市場的競爭力。同時，SoftBank和PayPay也將與七星集團合作，共同推動日本的電子支付和金融服務發展。這項協議對於七星集團和SoftBank的業務發展都具有重要意義。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "7e6150d0",
-        "title": "英國房地產網站Rightmove降低今年年底收入成長預測",
-        "url": "https://www.reuters.com/world/uk/uks-rightmove-cuts-annual-revenue-growth-forecast-weaker-new-home-building-2026-07-31/",
+        "id": "1c08f872",
+        "title": "中東歐經濟：波蘭 CPI 突破 3.0% 連續兩個月，預示未來利率維持",
+        "url": "https://www.reuters.com/business/cee-economy-polish-cpi-accelerates-30-july-fuelling-rate-hold-expectations-2026-07-31/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-07-31 07:27:43",
-        "summary_zh": "英國房地產網站Rightmove宣布，因為新建房屋數量減少，公司降低了今年年底收入成長預測。根據公司最新的財務報告，Rightmove的收入預計將在今年年底達到 2.9 億英鎊，較之前預計的 3.1 億英鎊少 1.6%。這是因為新建房屋數量減少，導致房屋出售數量下降。Rightmove 的業務主要來自房屋出售廣告收入。公司的財務報告還顯示，房屋出售廣告收入在今年上半年下降了 4.5%。這是因為房屋市場需求減少，導致房屋出售數量下降。Rightmove 的管理層表示，公司正在採取措施應對市場變化，包括減少營運成本和提高效率。",
-        "sentiment": "負面",
+        "published_at": "2026-07-31 08:51:44",
+        "summary_zh": "中東歐地區的經濟表現持續改善，波蘭的消費者物價指數 (CPI) 在 7 月份再次上升，達到 3.0% 的高點。這一數據表明，波蘭央行可能會繼續維持利率不變，避免市場過度波動。波蘭的經濟表現在近期受到外部因素的影響，包括俄烏戰爭對歐洲能源市場的衝擊，以及全球經濟下行的風險。然而，波蘭的經濟仍然保持著相對穩定的表現，尤其是在製造業和服務業方面。波蘭央行的政策決策將對整個中東歐地區產生重要影響，同時也會對歐洲央行的政策決策產生一定的影響。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "1f2b43bd",
-        "title": "石油巨頭BP棄北海油田開採，出售業務",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-07-31/oil-major-bp-bails-from-north-sea-amid-calls-for-more-drilling",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-07-31 07:26:16",
-        "summary_zh": "石油巨頭BP宣布放棄北海油田的開採業務，並出售該區域的資產。這一決定是在英國政府呼籲增加油田開採的背景下發生。BP的北海業務曾經是該公司的重要收入來源，但近年來該區域的油田儲量已經逐漸枯竭。該公司的決定可能會對英國的能源安全產生影響。同時，超市連鎖店Sainsbury's也宣布出售其門店連鎖品牌Argos。這一系列的出售行動可能會對英國的經濟產生影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "2991c0ea",
-        "title": "IMF完成埃及評估，釋放 18 億美元貸款",
-        "url": "https://www.reuters.com/world/africa/imf-completes-egypt-reviews-unlocks-18-billion-2026-07-31/",
+        "id": "e7ee25f3",
+        "title": "Tereos 首季業績惡化，仍維持預期",
+        "url": "https://www.reuters.com/business/tereos-posts-wider-loss-first-quarter-keeps-outlook-2026-07-31/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-07-31 07:19:40",
-        "summary_zh": "國際貨幣基金組織 (IMF) 對埃及進行評估後，決定釋放 18 億美元貸款。這項貸款將幫助埃及政府解決經濟困境，同時促進該國的經濟發展。埃及政府面臨著嚴重的財政問題，包括高通脹率和經濟衰退。IMF 的貸款將提供埃及政府必要的資金來實施經濟改革措施，包括提高稅收和削減公共開支。這項貸款的釋放將對埃及經濟產生積極影響，幫助該國恢復經濟穩定和發展。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "f5a7c4a4",
-        "title": "投資者轉向海外市場　七大巨擘股權集中擔憂再起　投資經理推薦的股票和行業",
-        "url": "https://www.cnbc.com/2026/07/31/janus-henderson-overseas-stocks.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-07-31 07:16:47",
-        "summary_zh": "投資經理朱利安·麥曼斯（Julian McManus）表示，投資者正在轉向海外市場，因為七大巨擘股權集中擔憂再次浮現，投資者正在尋求多元化。麥曼斯是Janus Henderson的一員，他認為投資者應該關注那些在海外市場上表現良好的股票和行業。根據他的意見，投資者應該關注那些在海外市場上表現良好的股票和行業，包括科技、健康和消費品等領域。這些行業在全球市場上都有很大的潛力，投資者可以通過投資這些行業來實現多元化和風險分散。麥曼斯的意見是投資者應該轉向海外市場，尋求多元化和風險分散，同時關注那些在海外市場上表現良好的股票和行業。",
+        "published_at": "2026-07-31 08:36:16",
+        "summary_zh": "法國糖業公司Tereos 在首季業績中，錄得更寬的虧損。儘管如此，該公司仍維持其對未來業績的預期。根據Tereos 的公告，首季虧損較去年同期擴大。公司的財務報告顯示，該公司面臨著糖價下跌、生產成本上升等挑戰。儘管如此，Tereos 的管理層仍對未來業績感到樂觀，認為公司的業務仍處於穩定狀態。該公司的預期表明，儘管面臨挑戰，但仍有機會取得改善。然而，市場仍需要觀察公司的實際業績表現，以確認其預期是否可行。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "c521f276",
-        "title": " Citadel 在出售私人股份前考慮情勢警覺",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-07-31/situational-awareness-weighed-private-stake-sales-before-citadel",
+        "id": "0b98083a",
+        "title": "超級財富轉移將包括 1 萬億美元的藝術品",
+        "url": "https://www.bloomberg.com/news/features/2026-07-31/the-great-wealth-transfer-includes-1-trillion-in-art",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-07-31 07:11:32",
-        "summary_zh": " Citadel 在出售私人股份前考慮情勢警覺，該公司的私人股東出售股份的決定可能與 Citadel 在市場上出售股份的計畫有關。 Citadel 的私人股東出售股份的動機可能與 Citadel 在市場上出售股份的計畫有關，該計畫可能會對 Citadel 的股價產生影響。 Citadel 的私人股東出售股份的決定可能會影響 Citadel 的股價，同時也會影響 Citadel 的市場地位。 Citadel 的私人股東出售股份的動機可能與 Citadel 在市場上出售股份的計畫有關，該計畫可能會對 Citadel 的股價產生重大影響。 Citadel 的私人股東出售股份的決定可能會對 Citadel 的股價產生重大影響，同時也會影響 Citadel 的市場地位。",
+        "published_at": "2026-07-31 08:30:03",
+        "summary_zh": "預計未來十年將有近 1 萬億美元的藝術品交易。然而，買家和博物館可能無法吸收如此龐大的藝術品市場。這項轉移將對藝術市場和相關產業產生重大影響。買家和賣家將需要重新評估藝術品的價值和投資策略。博物館也將面臨挑戰，需要找到適合的藝術品來吸收市場供應過剩的情況。這項轉移將是藝術市場的重要里程碑，展現了全球財富的轉移和藝術品的投資潛力。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
+      },
+      {
+        "id": "ca7634b3",
+        "title": "南非蘭特在貿易平衡數據公布前穩定",
+        "url": "https://www.reuters.com/world/africa/south-african-rand-holds-steady-before-trade-balance-data-2026-07-31/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-07-31 08:27:43",
+        "summary_zh": "南非蘭特在貿易平衡數據公布前穩定。南非央行在近期發布的數據顯示，該國貿易平衡在 2023 年第一季度出現了改善。南非蘭特的穩定表現可能與此有關。然而，市場仍然關注南非政府對經濟的政策措施，包括對外資的限制。這些政策措施可能會對南非蘭特的表現產生影響。南非蘭特的穩定表現也可能與南非央行的貨幣政策有關。央行在近期一直維持穩定的貨幣政策，避免對經濟產生過大的影響。總體而言，南非蘭特的穩定表現是市場關注的焦點。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "77b24d8e",
@@ -772,177 +906,19 @@
         "ai_classified": true
       }
     ],
-    "whitehouse": [
-      {
-        "id": "76c484ec",
-        "title": "陪審團探訪莉莎黛兒殺兒案的犯罪現場",
-        "url": "https://www.theguardian.com/us-news/2026/jul/31/lindsay-clancy-murder-trial-jurors",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 31 Jul 2026 19:50:38 GMT",
-        "summary_zh": "莉莎黛兒殺害三個孩子的案件正在進行審判，陪審團於去年1月的案發地點進行了探訪。根據莉莎黛兒的辯護律師，當時她患有產後精神分裂症，導致她殺害了三個孩子。陪審團在參觀案發地點時，看到了一個普通的家庭生活如何變得悲劇性的地方。這次探訪讓陪審團能夠親眼看到案發地點，包括孩子們死去的地下室。這次事件的悲劇性令人深感哀傷，讓人們不得不思考，如何預防和處理產後精神健康問題。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "ea6aad81",
-        "title": "川普將與內閣會面，為伊朗戰事尋求解決方案",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/31/donald-trump-cabinet-camp-david-iran-midterms-gaza-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 31 Jul 2026 19:43:13 GMT",
-        "summary_zh": "美國總統川普正努力尋求伊朗戰事的解決方案，這場戰事已經使汽油價格大幅上漲，影響了即將到來的中期選舉。根據Working Families Party的一項最新調查，選民，尤其是獨立選民，希望挑戰現有的政治體系。調查發現，80%的選民認為選舉官員更關心富裕捐贈者和強大利益團體，而不是普通人。當被要求選擇一位來自既定團體和黨派捐贈者的經驗豐富的官員，或者一位「政治異見者」時，後者贏得了14分的差距，包括獨立和中間選民。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d1100b8f",
-        "title": "加文·紐森公開2022-2024年稅單，年收入達1700萬至2000萬美元",
-        "url": "https://www.theguardian.com/us-news/2026/jul/31/gavin-newsom-california-tax-release",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 31 Jul 2026 18:22:33 GMT",
-        "summary_zh": "加州州長加文·紐森和他的妻子珍妮弗·西卜爾·紐森在特朗普調查期間公開了2022-2024年的稅單。根據紐森的辦公室公佈的稅單，紐森夫婦在2022年至2024年間每年收入約1700萬至2000萬美元，支付約500萬美元的聯邦和州稅。紐森的辦公室公佈了超過700頁稅單，涵蓋了四年的稅務資料，為記者提供了進一步瞭解紐森財務的機會。紐森的辦公室沒有公佈2025年的稅單，因為夫婦申請了延期，並將在10月完成那些稅單。這些稅單的公佈，為紐森即將離任和考慮2028年總統競選提供了更多信息。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "af914832",
-        "title": "川普反悔承諾讓烏克蘭生產彈道導彈系統",
-        "url": "https://www.theguardian.com/us-news/2026/jul/31/trump-cabinet-camp-david-ukraine",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 31 Jul 2026 17:58:56 GMT",
-        "summary_zh": "美國總統川普在卡姆帕大衛會議上表示，讓烏克蘭生產自己的彈道導彈系統技術是一件「難以捨棄的事」。這是川普第二任期內首次在總統別墅舉行內閣會議。川普此前曾承諾讓烏克蘭生產自己的彈道導彈系統，但現在卻改口表示這是一個困難的問題。烏克蘭一直在努力擴大自己的防空能力，包括購買美國製的彈道導彈系統。川普的反悔可能會對烏克蘭的防空能力造成影響，同時也可能會對美國與烏克蘭的關係產生影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "ac75f27e",
-        "title": "美國政府公布長期等待的科羅拉多河危機應對方案",
-        "url": "https://www.theguardian.com/us-news/2026/jul/31/colorado-river-water-cuts",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 31 Jul 2026 17:38:28 GMT",
-        "summary_zh": "美國政府近日公布了對科羅拉多河危機的應對方案，方案中規定將水資源減少供應給加利福尼亞州、亞利桑那州和內華達州。美國水力發電局提出的方案暫時避免了科羅拉多州、猶他州、紐墨西哥州和懷俄明州必須面對強制性水資源減少的局面。但是，這個方案只是暫時的解決方案，因為仍然需要對科羅拉多河的長期管理方案進行協商。科羅拉多河是美國西部地區的一個重要水資源，供應了大量地區的水資源。美國政府的方案將如何影響這些地區的水資源供應，仍然需要進一步觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "669ea133",
-        "title": "川普挺身而出：1.8億美元「灰色基金」不該阻礙布蘭奇出任檢察總長",
-        "url": "https://www.theguardian.com/us-news/2026/jul/31/trump-slush-fund-todd-blanche",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 31 Jul 2026 16:56:53 GMT",
-        "summary_zh": "川普總統在其社交平台上發表聲明，要求美國參議院立即通過布蘭奇的任命，布蘭奇曾擔任川普的私人法律顧問。然而，這一任命卻因為川普官員在司法部提出的1.8億美元「灰色基金」方案而受阻。川普官員的這一方案引起了爭議，許多人認為這是一個不當的行為。川普總統堅稱這個方案是合理的，並要求參議院立即通過布蘭奇的任命。這一事件引起了許多關注，許多人認為這是一個政治權力鬥爭的結果。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f7ca27b5",
-        "title": "這雙靴子是美國野外消防員最安全的選擇。然而越來越多人無法負擔這項費用",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/jul/31/pacific-north-west-wildfires-firefighting-boots",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 31 Jul 2026 15:00:17 GMT",
-        "summary_zh": "美國野外消防員的工作環境非常危險，需要穿著特定的靴子以保護自己。這雙手工製的皮靴是百年傳統，但隨著經費緊縮，價格高達 800 美元的成本越來越難以承受。Luke Mayfield 是一名熱門消防員，他在野外消防任務中穿著這雙靴子，行走 1000 英里，工作 16 小時一天，並在任務期間睡在靴子旁邊。消防員們需要經常維護靴子，例如潤滑、縫合和在季前進行適應性穿著，以避免在工作期間出現水泡。然而，隨著經費緊縮，越來越多消防員無法負擔這雙靴子的成本，這對於保護自己和他人安全造成了重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7ed500d0",
-        "title": "聖保羅市警官指控市長性騷擾",
-        "url": "https://www.theguardian.com/us-news/2026/jul/31/st-paul-mayor-alleged-sexual-harassment",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 31 Jul 2026 14:08:15 GMT",
-        "summary_zh": "聖保羅市警長阿塞爾·亨利（Axel Henry）之前已經指控市長凱奧利·赫（Kaohly Her）性騷擾，現在又有另一名警官指控市長性騷擾。根據明尼蘇達星報（Minnesota Star Tribune）報導，新的指控是由另一名警官提出，指控市長赫在工作環境中創造了「性化工作環境」。明尼蘇達市長赫是民主黨成員，目前正在面臨性騷擾指控的調查。這些指控對於赫的政治前景和市長職位的穩定性產生了重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "880cbf4f",
-        "title": "民主黨議員批評共和黨議員在伊朗戰爭上變得「軟弱無骨」",
-        "url": "https://www.theguardian.com/us-news/2026/jul/31/republicans-gelatinous-blobs-iran-war",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Fri, 31 Jul 2026 09:00:09 GMT",
-        "summary_zh": "美國民主黨議員 Elizabeth Warren 和 Chris Van Hollen 對共和黨議員在伊朗戰爭問題上表現感到失望，指責共和黨議員在國會變得「軟弱無骨」，不敢對總統 Donald Trump 提出反對。 Warren 和 Van Hollen 表示，共和黨控制的國會已經將其憲法權力讓給總統。這些批評出自於 Warren 和 Van Hollen 對共和黨議員在伊朗戰爭問題上缺乏反對聲音的擔憂。伊朗戰爭問題已經成為美國國會的焦點，民主黨議員希望共和黨議員能夠站出來反對總統的戰爭政策。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "98f0715a",
-        "title": "美國國防機構警告水務系統遭遇電腦攻擊，明尼蘇達州受影響",
-        "url": "https://www.bbc.co.uk/news/articles/cvgwe2qpgq1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Fri, 31 Jul 2026 19:03:28 GMT",
-        "summary_zh": "美國國防機構發出警告，指出美國明尼蘇達州的水務系統遭遇電腦攻擊，超過 30 個水系統受到影響。美國媒體指出，伊朗可能是背後的主使。這次攻擊的影響尚未完全清楚，但美國政府已經開始就此事件展開調查。這次事件的發生引起了對美國水務系統安全性的擔憂，美國政府將會繼續關注這一問題並採取措施加強水務系統的防禦能力。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "151647f7",
-        "title": "法西接連續拒絕答覆國會議員關於疫情問題　將面臨藐視國會投票",
-        "url": "https://www.bbc.co.uk/news/articles/czdmv0vyv4zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Fri, 31 Jul 2026 08:06:57 GMT",
-        "summary_zh": "美國國會議員蘭德·保羅（Rand Paul）表示，法西（Fauci）拒絕回答疫情問題，可能會面臨藐視國會的指控。法西曾經擔任美國國家過敏和傳染病研究所所長，曾在疫情期間多次出席國會聽證會。然而，這次他拒絕回答一些疫情相關的問題，引起了議員們的不滿。蘭德·保羅表示，法西的行為可能會被視為藐視國會，甚至可能面臨刑事指控。這一事件引起了美國政治界的關注，許多人正在關注法西的行為是否違反了國會的權力。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4d6925c8",
-        "title": "白宮發表白皮書：川普總統授權國防生產法案對於美國國防必需的可回收關鍵礦物和材料",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-delegates-defense-production-act-authority-with-respect-to-recoverable-critical-minerals-and-materials-that-are-essential-to-our-national-defense/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 30 Jul 2026 20:34:56 +0000",
-        "summary_zh": "美國總統川普今日簽署了一份總統決定，授權國防生產法案對於可回收關鍵礦物和材料實施出口限制。這項決定旨在確保美國有足夠的工業資源來保障國防和安全。這些關鍵礦物和材料對於美國的國防生產和工業發展至關重要。川普總統的這一決定將有助於確保美國不再依賴於外國的礦物和材料來滿足國防需求。這項決定將對美國的國防和安全產生重大影響，同時也將促進美國的工業發展和自給自足。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9beb9bf8",
-        "title": "總統許可證：授權德克薩斯州坎農縣擁有、營運和維護布朗斯維爾和馬塔莫羅斯橋樑",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/presidential-permit-authorizing-cameron-county-texas-to-own-operate-and-maintain-the-brownsville-and-matamoros-bridge-in-brownsville-texas/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 30 Jul 2026 20:34:13 +0000",
-        "summary_zh": "美國總統根據憲法賦予的權力，授予德克薩斯州坎農縣許可證，允許該縣擁有、營運和維護布朗斯維爾和馬塔莫羅斯橋樑（B&M橋樑）。該許可證的條件包括……許可證的發放將對該地區交通和經濟發展產生重大影響。這項許可證將為該地區提供新的經濟機會，同時也會增加該地區的交通便利性。總統的許可證將為坎農縣帶來新的發展機會，但也會引起一些關注和討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "cc0468fa",
-        "title": "美國總統決定關於可回收戰略礦物資的決定",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/presidential-determination-pursuant-to-section-101-of-the-defense-production-act-of-1950-as-amended-on-recoverable-critical-minerals-and-materials/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 30 Jul 2026 20:33:26 +0000",
-        "summary_zh": "美國總統發布決定書，根據《國防生產法》第 101 條，關於可回收戰略礦物資的決定。決定書指出，戰略礦物資對於促進國家防衛至關重要。然而，美國的戰略礦物資儲備不足，對於國家安全造成威脅。美國政府將采取措施，增加對戰略礦物資的開發和儲備。這項決定將對美國的國防產業和經濟產生重大影響。美國政府將繼續努力，確保國家對戰略礦物資的需求得到滿足。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
     "stock_us": [
+      {
+        "id": "752d8807",
+        "title": "為什麼華爾街開始不滿",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-31/why-why-wall-street-is-getting-angry",
+        "source": "Bloomberg",
+        "category": "stock_us",
+        "published_at": "2026-07-31 09:00:04",
+        "summary_zh": "華爾街近期出現不滿的情緒，原因不僅僅是新任美聯儲主席的沉默策略。 Magnificent 7 的表現、消費者信心和美國經濟都似乎在朝著錯誤的方向發展。這些跡象都表明美國經濟可能面臨著挑戰，華爾街的投資者和分析師都在關注這個趨勢。雖然新任美聯儲主席的策略尚未明朗，但市場的反應卻已經開始出現。投資者們正試圖評估這些跡象對美國經濟未來走向的影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "7a0816b5",
         "title": "特斯拉考慮將中國業務獨立出來，為與SpaceX合併做準備",
@@ -1023,30 +999,6 @@
         "category": "stock_us",
         "published_at": "2026-07-30 23:27:04",
         "summary_zh": "亞馬遜股價在收盤後大幅上升約 10%，達到 $258，創下自 6 月初以來的新高。這一波上漲是由於公司CEO 賈西斯在致力於人工智慧投資的辯護發言中，為公司的這一戰略做出了強有力的說明。人工智慧投資一直是亞馬遜的關鍵戰略之一，公司一直在努力將人工智慧技術應用於各個業務領域。賈西斯的辯護發言強調了人工智慧投資的重要性，並指出這一戰略將為公司帶來長期的競爭優勢。這一消息的傳出，讓投資者對亞馬遜的未來前景充滿了信心，股價因此而大幅上升。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "326e9cad",
-        "title": "Reddit CEO 表示 Google 的 AI 概要無法取代 '10 蓝鏈' 導致參考流量下降",
-        "url": "https://www.cnbc.com/2026/07/30/reddit-ceo-says-googles-ai-overviews-cant-replace-10-blue-links-.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-30 22:53:05",
-        "summary_zh": "Reddit CEO Steve Huffman 表示，Reddit 必須找到方法來應對 Google 的變化，Google 的 AI 概要導致參考流量下降。Google 近期推出 AI 概要，取代傳統的搜尋結果列表 '10 蓮鏈'，這些變化對 Reddit 的參考流量造成了重大影響。Huffman 表示，Reddit 必須找到方法來適應這些變化，否則參考流量會繼續下降。這些變化對 Reddit 的業務有著重大影響，公司必須找到方法來適應這些變化。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5787908a",
-        "title": "納斯達克未來價格上漲，華爾街強勁反彈，亞馬遜股價大漲",
-        "url": "https://www.cnbc.com/2026/07/30/stock-market-today-live-updates.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-07-30 22:08:51",
-        "summary_zh": "近日華爾街股市出現強勁反彈，納斯達克未來價格也隨之上漲。其中，微軟股價領軍，帶動整個市場走向上漲。另外，亞馬遜股價也在發布財報後大漲，市場對其表現感到滿意。這些跡象表明投資者對市場前景感到樂觀，股市可能會繼續上漲。然而，投資者也應該注意市場的波動性，防止過度樂觀。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
