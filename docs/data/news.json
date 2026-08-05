@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-05T17:09:32.956553+08:00",
+  "generated_at": "2026-08-05T18:10:45.134323+08:00",
   "risk_signals": [
     "🟢 台股加權 44611.6（正常）",
     "🟢 S&P 500 7736.52（正常）",
-    "🟢 VIX 恐慌指數 16.14（正常）",
+    "🟢 VIX 恐慌指數 16.31（正常）",
     "🟢 MOVE 債市波動 77.56（正常）",
-    "🟢 美元指數 99.86（正常）",
-    "🟡 黃金 4220.0（漲 +3.04%，留意）",
+    "🟢 美元指數 99.82（正常）",
+    "🟡 黃金 4217.4（漲 +2.98%，留意）",
     "🟡 美債10Y殖利率 4.63（留意）",
-    "🟢 原油 WTI 76.3（正常）",
-    "🟢 美元/台幣 32.32（正常）"
+    "🟢 原油 WTI 76.51（正常）",
+    "🟢 美元/台幣 32.33（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，多個指標正常運作，美元指數和美債10Y殖利率值得關注。",
+  "ai_summary": "市場氛圍呈穩定走勢，美元指數和美債10Y殖利率值得關注。黃金價格持續上漲，表明投資者對風險的擔憂在增加。",
   "market": {
     "TWII": {
       "price": 44611.6,
@@ -26,8 +26,8 @@
       "change_pct": 2.59
     },
     "VIX": {
-      "price": 16.14,
-      "change_pct": -2.18
+      "price": 16.31,
+      "change_pct": -1.15
     },
     "TNX": {
       "price": 4.63,
@@ -38,33 +38,299 @@
       "change_pct": null
     },
     "DXY": {
-      "price": 99.86,
-      "change_pct": -0.03
+      "price": 99.82,
+      "change_pct": -0.08
     },
     "GOLD": {
-      "price": 4220.0,
-      "change_pct": 3.04
+      "price": 4217.4,
+      "change_pct": 2.98
     },
     "OIL": {
-      "price": 76.3,
-      "change_pct": 0.7
+      "price": 76.51,
+      "change_pct": 0.98
     },
     "USDTWD": {
-      "price": 32.32,
-      "change_pct": -0.23
+      "price": 32.33,
+      "change_pct": -0.22
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "b3aee12a",
+        "title": "俄羅斯導彈襲擊基輔造成一人死亡、多人受傷",
+        "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 09:54:20 GMT",
+        "summary_zh": "俄羅斯對基輔發動大規模攻擊，俄羅斯軍方釋放導彈，擊中民居。基輔軍方行政長官表示，俄羅斯再次大規模攻擊，導致一人死亡、多人受傷。這次襲擊顯示俄羅斯對烏克蘭的軍事行動仍在持續進行，對烏克蘭民眾造成嚴重影響。烏克蘭政府將繼續努力應對俄羅斯的軍事攻勢，保護國民安全。這次襲擊也引起國際社會的關注，各國領袖紛紛譴責俄羅斯的行動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1053d182",
+        "title": "石油價格下跌 因霍爾木茲海峽可能重新開放",
+        "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 03:44:30 GMT",
+        "summary_zh": "霍爾木茲海峽是世界上最重要的石油運輸通道，近期因為軍事衝突而被封鎖，導致石油價格大幅上漲。美國國務卿馬可·魯比奧和財政部長史考特·貝森特宣布，談判進展順利，可能會允許石油船隻重新開放通過霍爾木茲海峽。這項消息使得石油市場感到樂觀，石油價格因此下跌。然而，仍有許多不確定性，霍爾木茲海峽是否能夠重新開放，還需要進一步的談判和確認。石油價格的下跌可能會對全球經濟產生一定的影響，特別是對於石油出口國和石油消費國。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4956d248",
+        "title": "韓國警方突擊搜查星巴克總部　因「坦克節」事件引發爭議",
+        "url": "https://www.bbc.co.uk/news/articles/c0kmd4xpr46o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 07:04:45 GMT",
+        "summary_zh": "近日，韓國警方對星巴克韓國總部進行突擊搜查，原因是公司被指在社交媒體上對於「坦克節」事件作出不當表現。坦克節是韓國的一個節日，紀念1980年光州民主運動。然而，星巴克在社交媒體上發佈了一則與坦克節無關的內容，引起了民眾的不滿。這一事件引發了對於公司對於文化敏感性的質疑。韓國政府和民眾對於公司的表現感到不滿，要求公司道歉並改善其文化敏感性。這一事件也引發了對於公司全球化的挑戰和文化差異的討論。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "c8dde13c",
+        "title": "阿富汗拳擊手出庭受審 涉嫌與蘇格蘭女性死亡案有關",
+        "url": "https://www.bbc.co.uk/news/articles/cq56qejll6vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 09:22:52 GMT",
+        "summary_zh": "阿富汗拳擊手沙里夫·阿哈德扎伊（Sharif Ahmadzai）因涉嫌與蘇格蘭女性艾莉莎貝斯·瓊·羅斯（Elisabeth Jane Ross）死亡案有關，目前被拘留。艾莉莎貝斯·瓊·羅斯是一位來自愛丁堡的女性。事件的具體細節尚未披露。這一案件的影響尚待觀察，目前尚無明確的後續展望。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "1a61cd9a",
+        "title": "『火焰就在那裡』- 華盛頓州大火逃難者述情",
+        "url": "https://www.bbc.co.uk/news/articles/c8xn1nlpd7xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 21:48:39 GMT",
+        "summary_zh": "華盛頓州近期爆發嚴重的大火，許多家庭被迫逃離家園。有些人返回家園時發現，家園已被大火燒成灰燼，只剩下焦黑的樹木屍體從熾熱的地面冒出。這場大火對當地居民造成了深重的傷害，許多人失去了家園，生活陷入困境。政府正在努力應對這場災難，提供援助和支持給受影響的家庭。這場大火也引起了對森林管理和防火措施的關注，許多人呼籲政府採取更積極的措施來防止類似的災難發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "7c45e9d2",
+        "title": "歐盟讚揚西班牙對塞烏塔移民危機的「迅速反應」",
+        "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 21:45:20 GMT",
+        "summary_zh": "西班牙宣布，近 70,000 名來自塞烏塔非法入境的 72,000 人已經被遣返到摩洛哥。這次移民危機發生在上週，西班牙政府對此做出的迅速反應受到歐盟的讚揚。塞烏塔是西班牙在非洲北部的一個自治區，近期來自摩洛哥的移民潮引起了西班牙政府的關注。西班牙政府表示，對於這次移民危機的處理，將繼續與摩洛哥政府合作。這一事件也引起了歐盟內部對移民政策的討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f159d3f1",
+        "title": "莫斯科地區五人喪生 烏克蘭繼續攻擊俄羅斯儲存倉庫",
+        "url": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 11:19:01 GMT",
+        "summary_zh": "烏克蘭繼續對俄羅斯的儲存倉庫發動攻擊，莫斯科地區至少有五人喪生。除了莫斯科地區外，聖彼得堡和特維爾地區的儲存倉庫也遭到攻擊。同時，俄羅斯對烏克蘭的攻擊也導致至少一人喪生。這些攻擊的影響不僅僅是軍事上的損失，也對兩國的民眾造成了重大影響。烏克蘭的攻擊行動可能會持續下去，對俄羅斯的經濟和社會造成持續的壓力。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "098e9ec7",
+        "title": "埃及逮捕涉嫌冒充法官的人士",
+        "url": "https://www.bbc.co.uk/news/articles/cn0n9wpvlwpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 19:25:00 GMT",
+        "summary_zh": "埃及當局表示，這起案件涉及一項詐騙計劃，涉嫌者在法庭上製造虛假庭審場景，目的是騙取人們的財物。根據埃及當局的說法，這些涉嫌者冒充法官，製造虛假庭審場景，甚至還涉及到詐騙人民的財物。這起案件的發生，引起了埃及社會的關注。埃及當局已經展開調查，並且逮捕了相關涉嫌者。這起案件的影響，可能會對埃及的司法體系和社會信任產生影響。未來，埃及當局將如何處理這起案件，還需要觀察。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e8f4dca9",
+        "title": "加沙舉行大規模葬禮悼念2023年以色列轟炸中遇難的112名巴勒斯坦人",
+        "url": "https://www.bbc.co.uk/news/articles/cn0n99npjejo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 15:07:52 GMT",
+        "summary_zh": "近日，位於加沙市的兩個家庭成員共112人遇難的屍體，才剛被從瓦礫下挖掘出來。這些遇難者是在2023年以色列轟炸中喪生。這次葬禮的舉行，表明了對遇難者及其家人的哀悼和支持。這次事件的發生，凸顯了加沙地區長期以來的安全和政治不穩定問題。這些遇難者都是平民，沒有參與任何武裝活動。這次轟炸事件，引起了國際社會的關注和譴責。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8230a34f",
+        "title": "炮彈擊沉印度旗下船隻　印度外交部：14人全數獲救",
+        "url": "https://www.bbc.co.uk/news/articles/cly84we1y37o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 21:24:50 GMT",
+        "summary_zh": "一艘印度旗下的船隻在也門海岸遭炮彈擊沉，印度外交部表示，船上14名乘客均已獲救。這起事件發生在也門內戰期間，印度政府一直在努力維持該地區的和平。也門內戰已經持續了多年，各國船隻在該地區航行時面臨著安全風險。印度政府將會對此事件進行調查，以確保船隻的安全。這起事件也引起了國際社會的關注，各國政府將會密切關注也門地區的安全情況。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f7d8a4fd",
+        "title": "意大利熱浪的避免之道：從超市到夜間遊覽",
+        "url": "https://www.bbc.co.uk/news/articles/c05q1gz0p1yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 18:21:00 GMT",
+        "summary_zh": "意大利正遭受嚴重的熱浪，超市、博物館、景點等地都採取了措施來保護顧客。專家建議游客在白天避免外出，晚上則可以參加夜間遊覽活動。同時，游客也可以在家中享受冷氣舒適的生活。這些措施有助於游客在熱浪中安全度過。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "60d6ca93",
+        "title": "英法海峽至少150名移民在船隻起火後獲救",
+        "url": "https://www.bbc.co.uk/news/articles/c4gkpeppjyqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 19:45:58 GMT",
+        "summary_zh": "英法海峽一艘船隻在試圖前往英國時，發生引擎起火。法國當局表示，船上至少有150名移民獲救。這起事件發生在英法海峽，移民們試圖從法國前往英國。船隻的引擎起火後，移民們被迫跳入海中。法國海岸警衛隊及其他救援人員迅速趕赴現場，進行救援工作。這起事件再次引起關注，移民在英法海峽的安全問題。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "900dadb5",
+        "title": "一場山崩摧毀了登山傳奇和一代登山指導的生涯",
+        "url": "https://www.bbc.co.uk/news/articles/cm2ge4dnj80o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 22:09:50 GMT",
+        "summary_zh": "在巴基斯坦發生的山崩事件，摧毀了尼泊爾登山界的一代登山指導。這些指導員的同事表示，這場山崩對尼泊爾登山界造成了毀滅性的打擊。這些指導員在尼泊爾登山界享有崇高的聲譽，曾多次締造登山紀錄。這場山崩不僅摧毀了這些指導員的生涯，也摧毀了尼泊爾登山界的一代領導者。尼泊爾登山界的同事們對這場山崩感到震驚和難過，認為這是一個沉重的打擊。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b6a30e81",
+        "title": "我像是在挖自己的坟墓：人工智慧時代下的外包工人",
+        "url": "https://www.bbc.co.uk/news/articles/cgr7nxve05go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 22:10:00 GMT",
+        "summary_zh": "人工智慧技術正在改變菲律賓的外包產業，引發對產業未來的疑問。菲律賓外包產業長期以來一直是全球外包的重要據點，許多外資公司將其視為重要的成本中心。但是，隨著人工智慧技術的發展，許多外包工作正逐漸被取代。這些工人面臨著失業的風險，許多人感受到人工智慧技術對其工作的威脅。菲律賓政府正試圖通過培訓和教育來幫助工人適應人工智慧時代，但仍有許多挑戰需要克服。菲律賓外包產業的未來存疑，工人和政府都在等待著人工智慧技術的下一步發展。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "541c406e",
+        "title": "捷星航空引入行李托運費用",
+        "url": "https://www.bbc.co.uk/news/articles/c4gdkn2d0vjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 02:29:55 GMT",
+        "summary_zh": "澳洲航空公司捷星航空近日宣布，將引入行李托運費用，乘客將需要為大型行李支付額外費用。這一決定引起了澳洲民眾的強烈反應，有些人感到不滿，而其他人則認為這是「該時候」讓乘客為大型行李支付費用。這一變化將對乘客的行李規定產生重大影響，乘客將需要仔細檢查自己的行李大小和重量，以避免額外費用。這一變化將對航空業的發展產生重要影響，航空公司將需要重新評估自己的行李政策。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d8da9015",
+        "title": "像炸彈一樣 - 斯波坎居民反應，數百間房屋被大火燒毀",
+        "url": "https://www.bbc.co.uk/news/videos/c3v0nyyeg3wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 19:25:46 GMT",
+        "summary_zh": "美國華盛頓州斯波坎發生嚴重大火，超過 700 處房屋被燒毀。警方已經逮捕了一名涉嫌縱火的嫌疑人，並將其控告為一級縱火罪。這場大火對當地居民造成了嚴重的影響，許多人喪失了家園。政府正在協助災民重建房屋，並提供援助。這場大火的原因尚未明朗，但警方正在調查中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4261a0fd",
+        "title": "美國疾病控制與預防中心擴大查緝環狀體病爆發範圍至15州",
+        "url": "https://www.theguardian.com/us-news/2026/aug/04/cyclosporiasis-outbreak-15-states-cdc",
+        "source": "Guardian US",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 01:29:10 GMT",
+        "summary_zh": "美國疾病控制與預防中心（CDC）已經擴大了環狀體病爆發的範圍，目前已經涉及15個州。根據華盛頓郵報的報導，CDC已經將六個新州加入調查範圍，這些州包括阿肯色州、愛荷華州、密蘇里州、內布拉斯加州、新罕布什爾州和北卡羅來納州。這次爆發與環狀體病相關的死亡病例已經在密西根州出現。CDC正在努力了解這次爆發的原因和影響範圍。這次爆發對於美國的公共衛生安全和健康安全有著重要的影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "61fcd3ef",
+        "title": "美國撤銷巴西駐美大使的簽證，巴拉圭外交紛爭升級",
+        "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 01:41:07 GMT",
+        "summary_zh": "美國政府在巴西總統盧拉(Luiz Inácio Lula da Silva)政府拒絕批准特朗普(Donald Trump)的駐巴西大使提名後，對巴西駐美大使瑪麗亞·路易莎·里貝羅·維奧蒂(Maria Luiza Ribeiro Viotti)的簽證進行了撤銷。美國國務院表示，這是對巴西拒絕批准特朗普的駐巴西大使提名以及去月拒絕簽發簽證予兩名美國外交官的回應。這一行動標誌著美巴外交紛爭的升級。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "613b076e",
+        "title": "星期三簡報：如何誤導信息和硬化移民政策讓塞烏塔成為歐洲最新的焦點地帶",
+        "url": "https://www.theguardian.com/world/2026/aug/05/wednesday-briefing-how-misinformation-and-a-hardened-immigration-policy-turned-ceuta-into-europes-latest-flashpoint",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 05:54:54 GMT",
+        "summary_zh": "塞烏塔是西班牙在摩洛哥北部的一個小型自治區，過去一周內，約有 72,000 名移民進入該區，24 小時內大部分都返回了家鄉。根據當地官員的報告，至少有 88 人在嘗試越境時喪生。這並不是塞烏塔過去一周內發生的全部故事，但這些事實是值得回憶的。昨天，歐洲內政部長們在緊急會議上試圖在塞烏塔問題上畫下句號，堅稱在這次大規模移民來臨下，歐洲的護照免簽區域從未受到威脅。儘管如此，許多媒體的報導卻使人感覺塞烏塔事件代表著對歐洲領土的威脅，引發了對該地區邊境安全的呼聲。塞烏塔事件的背後，還有許多其他故事。其中一個故事是，全球八大石油公司在過去三個月內共賺取了超過 90 億美元（約 67 億英鎊）的利潤，這是因為伊朗衝突導致能源價格大幅上升，以及氣候危機導致致命的熱浪。另一方面，英國的婦女健康問題也引起了關注。新任衛生部長葉特·柯珀（Yvette Cooper）表示，婦女不應該被迫體驗一個「理想的分娩」，她承諾將對產科標準進行徹底改革，尤其是在幾起有爭議的產科醜聞後。中東地區也出現了新的緊張局勢。約旦正在召開緊急會議，關注以色列可能對耶路撒冷最重要的穆斯林聖地進行佔領的威脅。這些事件都與塞烏塔事件有著什麼樣的關聯？",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d070ce6c",
+        "title": "摩洛哥人聚集在西班牙邊境等待失蹤親人",
+        "url": "https://www.theguardian.com/world/2026/aug/05/hundreds-in-morocco-gather-near-ceuta-border-in-anxious-wait-for-missing-loved-ones",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 04:00:08 GMT",
+        "summary_zh": "摩洛哥北部的芬迪克鎮（Fnideq）有數百人聚集在西班牙的塞烏塔（Ceuta）邊境，希望能夠在眾多回國者中找到朋友或親人。根據目前的死亡人數，近百人仍然失蹤。這些人在邊境小片土地上展示著失蹤親人的照片，希望能夠通過這種方式找到他們。這一事件的場景在上週成為全球關注的焦點，當時有約72,000人試圖越過邊境進入塞烏塔，這是一個位於北非的西班牙小島。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ea57ebd7",
+        "title": "危機來臨！危險的火山爆發：幾百人疏散，危險警報升級",
+        "url": "https://www.theguardian.com/world/2026/aug/04/guatemala-volcano-eruption-prompts-evacuation-of-hundreds-of-people",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 17:31:37 GMT",
+        "summary_zh": "危險的火山爆發在危地馬拉的富戈火山發生，數百名居民被迫疏散。這座火山是中美洲最活躍的火山，星期一早上爆發，到了晚上情況更加惡化，當局因此發出第二級危險警報。火山爆發的火焰和灰塵高達四英里，危地馬拉政府已經宣布危機狀態。這次爆發對當地居民造成了重大威脅，當局正在努力疏散居民並提供援助。這座火山的爆發將對當地經濟和環境造成長期影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
       {
         "id": "0011cbc9",
         "title": "美國總統特朗普將訪問加州高爾夫球場，附近遭槍手被捕",
         "url": "https://www.bbc.co.uk/news/articles/c20jp3mp7lyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "source": "BBC North America",
         "category": "whitehouse",
         "published_at": "Wed, 05 Aug 2026 00:19:04 GMT",
         "summary_zh": "美國總統特朗普即將訪問加州一間高爾夫球場，準備在該地舉辦籌款晚宴。然而就在此時，警方在球場附近逮捕了一名攜帶槍枝的男子。事件發生在總統抵達前不久，警方表示該男子的動機尚未明確。這起事件引發了關注，是否與總統的訪問有關。總統特朗普的安全措施一直受到關注，近日有多起槍擊事件發生在美國各地。這次事件也引發了對總統安全措施的質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1ecd18b3",
+        "title": "川普媒體為華爾街公司提供社交媒體內容快速訪問服務引發爭議",
+        "url": "https://www.bbc.co.uk/news/articles/c4gdkl9zn8wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Tue, 04 Aug 2026 13:53:41 GMT",
+        "summary_zh": "川普媒體與科技集團 (TMTG) 透過付費服務，向華爾街公司提供 Truth Social 最具影響力的帳戶內容。這項服務引發了爭議，因為它可能使投資者在市場上取得不公平的優勢。這項服務的推出，可能會使一些投資者在市場上取得不公平的優勢，從而影響市場的公平性。許多人認為，這項服務違反了市場的公平原則。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -82,18 +348,6 @@
         "ai_classified": true
       },
       {
-        "id": "1ecd18b3",
-        "title": "川普媒體為華爾街公司提供社交媒體內容快速訪問服務引發爭議",
-        "url": "https://www.bbc.co.uk/news/articles/c4gdkl9zn8wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "whitehouse",
-        "published_at": "Tue, 04 Aug 2026 13:53:41 GMT",
-        "summary_zh": "川普媒體與科技集團 (TMTG) 透過付費服務，向華爾街公司提供 Truth Social 最具影響力的帳戶內容。這項服務引發了爭議，因為它可能使投資者在市場上取得不公平的優勢。這項服務的推出，可能會使一些投資者在市場上取得不公平的優勢，從而影響市場的公平性。許多人認為，這項服務違反了市場的公平原則。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "3fc8c955",
         "title": "美國國會議員拒絕放棄競選連任　前妻控告他家暴",
         "url": "https://www.bbc.co.uk/news/articles/czrj1751r02o?at_medium=RSS&at_campaign=rss",
@@ -101,18 +355,6 @@
         "category": "whitehouse",
         "published_at": "Wed, 05 Aug 2026 00:05:47 GMT",
         "summary_zh": "美國俄亥俄州共和黨議員馬克斯·米勒（Max Miller）因前妻控告他家暴而引起爭議。米勒的前岳父是一名美國參議員，要求米勒辭去國會議員職位。儘管如此，米勒仍堅持競選連任。這一事件引發了對米勒的評判與爭議。米勒的前妻控告他家暴，要求米勒辭去國會議員職位。米勒的前岳父是一名美國參議員，加入了對米勒的批評。米勒的決定引發了對他的評判與爭議。這一事件對米勒的政治前景產生了重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "52e3b01d",
-        "title": "分析：川普面臨盟友強烈反彈",
-        "url": "https://www.bbc.co.uk/news/articles/cgjed2q2l0xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 04 Aug 2026 09:11:39 GMT",
-        "summary_zh": "美國前總統川普一直以自己的意志力左右美國政治局勢，但最近卻遭遇了兩次重大挫折。根據BBC的報導，川普在短短幾天內遭遇了兩次重大挫折，這些挫折來自於他原本的盟友。這些挫折不僅僅是政治上的失敗，更是對川普的影響力和實力的一個挑戰。川普的盟友們開始質疑他的決策和領導能力，這使得川普面臨著前所未有的挑戰。這些挑戰不僅影響川普本人的政治前景，也對美國政治局勢產生了重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -126,30 +368,6 @@
         "published_at": "Wed, 05 Aug 2026 08:29:26 GMT",
         "summary_zh": "密西根州民主黨參議員初選將在黨派分裂中產生結果。中間派國會議員海莉史蒂文斯(Haley Stevens)面臨著左派外圍人士阿卜杜勒·艾爾-賽義德(Abdul El-Sayed)的挑戰。這場初選將考驗著民主黨在黨派分裂中的凝聚力。海莉史蒂文斯被視為一名溫和派候選人，她的競選平台注重於中間路線政策。另一方面，阿卜杜勒·艾爾-賽義德被視為左派候選人，他的競選平台注重於社會主義政策。這場初選將對民主黨的未來產生重要影響，將考驗著黨派分裂的能力。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a52da63e",
-        "title": "美國總統賀詞：美國海岸警衛隊成立236周年",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/08/presidential-message-on-the-birthday-of-the-united-states-coast-guard/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 00:47:48 +0000",
-        "summary_zh": "今天，美國慶祝了美國海岸警衛隊成立236周年。美國海岸警衛隊是一支美國執法專業人員和海岸警衛隊員的力量，他們堅守在我們的海岸、水域和我們榮譽的生活方式。自美國共和國的早期日子起，海岸警衛隊員就一直在每次呼籲中回答著，展現著他們的警醒和…… 美國總統發表賀詞，表達對美國海岸警衛隊的敬意和感謝。美國海岸警衛隊的成立對於國家安全和民生安全有著重要的意義。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "5050b5c1",
-        "title": "美國製造業活躍 美國總統川普經濟政策帶來新機會",
-        "url": "https://www.whitehouse.gov/releases/2026/08/manufacturing-jobs-flock-to-the-u-s-thanks-to-president-trumps-america-first-economic-agenda/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 04 Aug 2026 21:33:29 +0000",
-        "summary_zh": "美國總統川普的經濟政策正在實施，美國製造業正在經歷著一場經濟復甦。7月份，美國製造業活動增長達到四年來最強勁的水平，連續七個月保持增長。這些數字表明，川普總統的《工作家庭稅減免法》和《美國優先》政策正在帶來新的機會。美國製造業的活躍不僅創造了新的就業機會，也提高了出口量和競爭力。這一趨勢對美國經濟的整體發展具有重要意義。然而，仍需要觀察美國經濟政策的進一步發展和影響。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
@@ -248,6 +466,30 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      },
+      {
+        "id": "a52da63e",
+        "title": "美國總統賀詞：美國海岸警衛隊成立236周年",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/08/presidential-message-on-the-birthday-of-the-united-states-coast-guard/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 00:47:48 +0000",
+        "summary_zh": "今天，美國慶祝了美國海岸警衛隊成立236周年。美國海岸警衛隊是一支美國執法專業人員和海岸警衛隊員的力量，他們堅守在我們的海岸、水域和我們榮譽的生活方式。自美國共和國的早期日子起，海岸警衛隊員就一直在每次呼籲中回答著，展現著他們的警醒和…… 美國總統發表賀詞，表達對美國海岸警衛隊的敬意和感謝。美國海岸警衛隊的成立對於國家安全和民生安全有著重要的意義。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "5050b5c1",
+        "title": "美國製造業活躍 美國總統川普經濟政策帶來新機會",
+        "url": "https://www.whitehouse.gov/releases/2026/08/manufacturing-jobs-flock-to-the-u-s-thanks-to-president-trumps-america-first-economic-agenda/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 04 Aug 2026 21:33:29 +0000",
+        "summary_zh": "美國總統川普的經濟政策正在實施，美國製造業正在經歷著一場經濟復甦。7月份，美國製造業活動增長達到四年來最強勁的水平，連續七個月保持增長。這些數字表明，川普總統的《工作家庭稅減免法》和《美國優先》政策正在帶來新的機會。美國製造業的活躍不僅創造了新的就業機會，也提高了出口量和競爭力。這一趨勢對美國經濟的整體發展具有重要意義。然而，仍需要觀察美國經濟政策的進一步發展和影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "ai": [
@@ -260,8 +502,8 @@
         "published_at": "2026-08-04T16:57:49-04:00",
         "summary_zh": "AMD 的數據中心業務在最新財報中大幅增長，達到 67 億美元，超過去年同期的 32 億美元，增長 107%。這主要是由於人工智慧 (AI) 需求的增加所致。根據 AMD 的財報，AI 需求對數據中心業務的增長貢獻了很大力量。AMD CEO Lisa Su 表示，公司正在積極發展數據中心業務，為客戶提供更好的服務。這一趨勢預示著未來數據中心業務將繼續茁壯，而遊戲業務則可能會受到影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "30d8d654",
@@ -272,8 +514,8 @@
         "published_at": "2026-08-04T16:47:55-04:00",
         "summary_zh": "SpaceX 的 AI 收入今年比去年增長了三倍，達到 26 億美元。這主要是因為公司與其他 AI 公司簽訂了大量計算資源供應合同。根據 SpaceX 的季度財報，該公司的 AI 业务已經成為主要收入來源。這一轉變表明，SpaceX 正在從傳統的太空業務轉向 AI 企業。這一轉變對 SpaceX 的未來發展將有重大影響。SpaceX 的 AI 业务正在迅速擴張，公司正在投資大量資源來發展這一領域。這一轉變也反映了人工智慧在未來科技發展中的重要性。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "8a853907",
@@ -284,8 +526,8 @@
         "published_at": "2026-08-04T13:46:41-04:00",
         "summary_zh": "影響力行程是影響者的一個里程碑，表明贊助商願意邀請他們參加免費的奢華之旅。然而，這種行程也可能引起未受邀請的影響者不滿，觸發公眾的批評，並讓品牌表現出浮躁的形象。通常，這些行程會迅速被揭露，引起爭議。最近，OpenAI的一場影響力行程卻意外地引發了爭議。這次行程原本是為了宣傳新產品，但卻被指責是對影響者的贅飾。這種反彈效應讓品牌和影響者都感到困惑。影響者們開始質疑這種行程的目的和價值，是否真的能夠為品牌帶來正面的影響。這個事件也讓人們開始思考，影響力行程是否真的能夠達到宣傳的目的，還是只是為了炫耀品牌的財富。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "4bfbf864",
@@ -296,8 +538,8 @@
         "published_at": "2026-08-04T13:33:46-04:00",
         "summary_zh": "知名YouTuber和科學傳播者Hank Green宣布暫時停止製作節目，原因是他使用人工智慧(AI)引發了強烈的批評。Green承認自己使用AI是「不健康的行為」，但強調他使用AI主要是用於找尋研究資料，而不是用於撰寫劇本。這次事件引發了許多爭議，許多人批評Green使用AI的行為不道德。Green的這番言論引發了對AI使用的爭議，許多人開始質疑使用AI的合理性和道德性。這次事件也引發了對科學傳播者的責任和道德的討論。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "bb7cbbef",
@@ -308,20 +550,20 @@
         "published_at": "2026-08-04T11:33:21-04:00",
         "summary_zh": "德州州長格雷格·阿布特 (Greg Abbott) 透過一份公告，指示德州公共用力委員會 (Public Utility Commission of Texas) 和德州電力可靠性理事會 (Electric Reliability Council of Texas) 對新建資料中心進行審核。這項規定可能會延遲新資料中心接入德州電網的時間。資料中心需要通過審核後才能獲得接入德州電網的許可。這項措施的目的是確保德州電網的穩定性和可靠性。德州的電網在過去曾經面臨過數次大規模停電事件，因此州政府希望通過這項措施來提高電網的可靠性。這項規定可能會對新建資料中心的投資者造成影響，可能會增加投資者的風險和成本。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
-        "id": "3b3e807c",
-        "title": "美國機器人限制令，ICE 的 DNA 抓捕行動",
-        "url": "https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/",
-        "source": "MIT Tech Review",
+        "id": "0849e185",
+        "title": "OpenAI 對 Apple 的訴訟變得更加複雜",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+        "source": "The Verge AI",
         "category": "ai",
-        "published_at": "Tue, 04 Aug 2026 12:14:00 +0000",
-        "summary_zh": "美國總統川普的AI保護主義政策已經影響了機器人領域。美國政府最近宣布限制美國公司出口機器人技術到中國。這一政策被視為對中國AI發展的限制。另一方面，美國移民和邊境安全局（ICE）最近開始使用DNA技術來識別非法移民。這一技術被用來識別移民的身分，並且可以幫助ICE追蹤和逮捕非法移民。這一政策引起了人權組織和民間團體的關注。許多人認為這一政策侵犯了移民的權利，並且可能導致更多的非法移民被逮捕和驅逐。這一事件也引起了對美國政府對AI和生物技術的使用的關注。許多人擔心這一政策可能會導致更多的監控和侵犯人權。",
+        "published_at": "2026-08-04T07:27:55-04:00",
+        "summary_zh": "OpenAI 對 Apple 的訴訟變得更加複雜，因為 OpenAI 公開了與 Apple 的溝通內容，來反駁 Apple 的訴訟版本。OpenAI 在一篇名為「Apple 是錯誤的」的博客文章中表示，Apple 對 OpenAI 的訴訟是「粗心、激進且奇怪地個人化」，並分享了 iMessage 和電子郵件內容。這些內容顯示 Apple 對 OpenAI 的要求過於嚴格，甚至要求 OpenAI 將其員工的個人資料披露。OpenAI 的行動被視為是一種公眾輿論攻勢，試圖影響 Apple 對其訴訟的態度。這一事件的影響將會對兩家公司的關係產生重大影響，可能會導致 Apple 對 OpenAI 的訴訟進一步升級。",
         "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "4be10482",
@@ -384,31 +626,91 @@
         "ai_classified": true
       },
       {
-        "id": "44a64d0e",
-        "title": "數據中心如何改變美國政治",
-        "url": "https://www.wired.com/story/how-data-centers-broke-american-politics/",
-        "source": "Wired AI",
+        "id": "3b3e807c",
+        "title": "美國機器人限制令，ICE 的 DNA 抓捕行動",
+        "url": "https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/",
+        "source": "MIT Tech Review",
         "category": "ai",
-        "published_at": "Tue, 04 Aug 2026 10:00:00 +0000",
-        "summary_zh": "近年來，數據中心的興起已經改變了美國政治格局。這些巨型數據中心不僅影響了美國的能源消耗和環境問題，也引發了對數據隱私和安全的關注。根據最近的調查，數據中心的能源消耗已經超過了美國的航空業和鐵路業。這些數據中心的興起也引發了對數據隱私和安全的爭議，許多人擔心這些數據中心可能會被用來監控和操控美國公民。這些問題已經引起了美國政治家的關注，包括前總統的競選人伯尼·桑德斯，他曾經批評數據中心的興起對美國的民主制度構成威脅。另一方面，前白宮顧問史蒂夫·班農的科技顧問也認為數據中心的興起是美國政治格局的一個重要轉折點。這些事件和人物的出現，已經改變了美國政治的格局，讓我們思考數據中心的興起對美國政治和社會的影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "800386c7",
-        "title": "Mistral恰逢其時",
-        "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Tue, 04 Aug 2026 09:21:11 +0000",
-        "summary_zh": "近期美國科技巨頭出現動盪，開放權重的AI模型突然受到關注。這對法國AI實驗室Mistral來說是最好的時機。雖然Mistral並非新成立的實驗室，但在這個時候，它的技術和人才卻成為了許多公司的關注點。這種轉變讓Mistral能夠在全球AI市場中佔據重要地位。然而，仍有許多人對Mistral的未來發展充滿了疑問。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "published_at": "Tue, 04 Aug 2026 12:14:00 +0000",
+        "summary_zh": "美國總統川普的AI保護主義政策已經影響了機器人領域。美國政府最近宣布限制美國公司出口機器人技術到中國。這一政策被視為對中國AI發展的限制。另一方面，美國移民和邊境安全局（ICE）最近開始使用DNA技術來識別非法移民。這一技術被用來識別移民的身分，並且可以幫助ICE追蹤和逮捕非法移民。這一政策引起了人權組織和民間團體的關注。許多人認為這一政策侵犯了移民的權利，並且可能導致更多的非法移民被逮捕和驅逐。這一事件也引起了對美國政府對AI和生物技術的使用的關注。許多人擔心這一政策可能會導致更多的監控和侵犯人權。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "9eb16560",
+        "title": "外資買超台股903億創史上第3大 台指期淨空單8.7萬口",
+        "url": "https://www.cna.com.tw/news/afe/202608050254.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 17:29:36 +0800",
+        "summary_zh": "台股今天大幅上漲，收盤點達44611點，是歷史收盤第11大漲點。三大法人今天買超台股達新台幣1004.06億元，其中外資及陸資買超903.08億元，創歷史單日買超金額第3大。這一波買超表明外資對台股有著強烈的信心。然而，台指期淨空單仍然達8.7萬口，表明市場仍然存在一定的風險。這一波買超和市場上漲的關聯性值得關注。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7d3779f1",
+        "title": "貿聯7月營收96.3億元 年增近6成 連2月創新高",
+        "url": "https://www.cna.com.tw/news/afe/202608050253.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 17:28:34 +0800",
+        "summary_zh": "貿聯-KY是一家連接器線廠，其7月營收達到新台幣96.3億元，相較於去年同期的營收，今年的營收增加了近6成。這也意味著今年7月的營收比6月增加了13%，連續第2個月創下單月營收新高。這項成績表明貿聯-KY的業務正在快速擴張，營收的增長率遠超市場預期。這種增長可能是由於貿聯-KY在市場上占據了一定的份額，同時也受到全球電子產業的需求增加所帶動。然而，未來貿聯-KY的營收仍將受到市場變化、全球經濟趨勢等多種因素的影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "83076c8c",
+        "title": "財政部：去年公益彩券大獎領獎人男性占比逾6成創新低",
+        "url": "https://www.cna.com.tw/news/afe/202608050248.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 17:17:21 +0800",
+        "summary_zh": "財政部統計顯示，去年全台共有421人抱回新台幣500萬元以上公益彩券大獎，領獎人性別比例男多於女，男性占比62.2%，創下105年來的新低。這意味著女性領獎人比例只有約37.8%。根據財政部的統計，這種情況與過往的趨勢相反，過往女性領獎人比例一直較高。這個變化可能與男性購買彩券的比例增高有關。這項統計結果對於彩券業界和政府有重要的意義，可能會影響未來的彩券政策和營運策略。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b7d27e64",
+        "title": "美日罕見共護日圓 專家：防市場添亂、非干預常態化",
+        "url": "https://www.cna.com.tw/news/afe/202608050241.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 17:06:06 +0800",
+        "summary_zh": "近日，美日政府罕見聯手干預日圓匯率，震撼國際金融市場。然而，專家學者均認為這是單一事件，並非政府干預市場的開端。國泰世華銀行首席經濟學家林啟超分析，美方決定主動「拆彈」，避免日圓太弱勢造成金融風險外溢。這次的行動被視為美日政府共同維護金融穩定，防止市場添亂。然而，這也引發了關於政府干預市場的議題。專家們認為，政府干預市場應該是極為慎重的，並非常態化的行為。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "42299a93",
+        "title": "集邦估8月電視面板報價小跌 顯示器及NB面板持平",
+        "url": "https://www.cna.com.tw/news/afe/202608050238.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 16:59:59 +0800",
+        "summary_zh": "產業研究機構TrendForce（集邦科技）今天公布8月上旬面板價格預測。根據預測，電視面板進入8月後需求動能逐漸回溫，預估從32吋至65吋電視面板，8月每片價格皆下跌1美元，跌幅較先前收斂。這意味著電視面板的價格將在8月有所調整。另一方面，顯示器及筆電（NB）面板的價格則預計將持平。這個預測可能會對相關產業產生一定的影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "392b26d4",
+        "title": "龔明鑫籲百強企業帶動中小微廠商升級 擴大贏者圈",
+        "url": "https://www.cna.com.tw/news/afe/202608050235.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 16:55:53 +0800",
+        "summary_zh": "經濟部長龔明鑫在2026哈佛商業評論「台灣企業領袖100強」贈獎典禮上表示，近年台灣經濟成長及高科技產業表現亮眼。政府希望將「贏者圈」進一步擴大，除了協助中小微企業導入AI轉型外，也希望百強企業領袖透過供應鏈合作及AI工具分享，帶動更多中小微企業升級。這樣可以共同提升台灣整體競爭力。龔明鑫籲百強企業帶動中小微廠商升級，擴大贏者圈，促進台灣經濟的持續成長。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "dd01d6b8",
         "title": "同欣電光通訊需求旺 Q3毛利率朝30％至35％邁進",
@@ -418,103 +720,79 @@
         "published_at": "Wed, 05 Aug 2026 16:54:28 +0800",
         "summary_zh": "泛國巨集團旗下同欣電（6271）近日召開法說會，總經理呂紹萍表示，受惠AI資料中心帶動的高速光通訊需求，同欣電的光通訊產品將持續扮演主要成長動能。根據同欣電的預測，第三季度（Q3）毛利率將達到30％至35％。這是因為同欣電的光通訊產品需求正在快速增長，尤其是在AI資料中心和5G網路建設等領域。這項成長將帶動同欣電的營收和利潤都有所上升。同欣電的這項預測表明，公司正處於高速成長的階段，光通訊產品將繼續成為公司的主要收入來源。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "ac7ba7df",
-        "title": "群創股價大暴跌！台股週三報復性彈升，外資買超逾900億元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5529600",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 16:48:12 +0800",
-        "summary_zh": "台股週三（5日）報復性強彈，終場指數上漲1250點，重返4萬4。雖然外資反手買超903.08億元，但卻對擁有近百萬股東的群創大開殺戒。群創股價連續6天下跌，股東白忙一場。台積電領導台股彈升，1270家公司同樂。市場分析認為，台股週三的報復性彈升是因為市場對前幾天的下跌感到不滿，欲將損失挽回。然而，群創的股價大幅下跌，讓許多股東感到失望。市場預期未來台股將繼續波動，投資者應該保持謹慎的態度。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "8947fa2f",
-        "title": "組織精簡認列一次性費用 遊戲橘子上半年轉虧",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5529562",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 16:37:28 +0800",
-        "summary_zh": "遊戲橘子（6180）在第二季進行了大幅度組織精簡與資源整併，為了重塑集團的長期發展策略。這項組織變革導致遊戲橘子在第二季出現一次性人事結構調整費用。根據最新的財報顯示，遊戲橘子的第二季營收為18.3億元，同比減少1%。營業毛利率也出現下滑。這項變革對於遊戲橘子的未來發展可能會產生重大影響。遊戲橘子將如何在未來的競爭中站穩腳步，仍待觀察。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "4aa330a9",
-        "title": "台股暴漲投信狂掃記憶體！華邦電、南亞科上榜 「它」敲逾萬張最搶手",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5529577",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 16:35:02 +0800",
-        "summary_zh": "台股週三報復性強彈，終場指數上漲1250點，重返4萬4。投信續買超86.41億元，銀彈撒向電子股。其中，旺宏電腦因為投資人熱捧，出手就敲逾萬張。華邦電、南亞科也上榜，投資人對電子股的熱情不減。這次台股的暴漲，可能是因為市場對未來的預期增加，投資人對電子股的信心增強。然而，投資人也應該注意市場的波動，避免過度投入。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "2cc1dbd8",
-        "title": "揚秦第二季每股賺1.58元 將發行員工認股權憑證",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5529557",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 16:34:33 +0800",
-        "summary_zh": "揚秦國際今日公告第二季合併營收為8.82億元，年增17.64%，季增7.01%，稅後淨利0.74億元，年增37.17%。這意味著揚秦第二季每股賺1.58元，營收與獲利均創新高。為了鼓勵員工的努力，揚秦決定發行員工認股權憑證，讓員工分享公司的成長。這項措施將有助於員工的士氣和忠誠度，同時也會促進公司的發展。揚秦的這一舉措表明公司對員工的重視和對未來的展望。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "ea08c560",
-        "title": "印度向海外印度人籌集 4000 億美元支持貶值盧比",
-        "url": "https://www.ft.com/content/7dc728e5-74d3-45e9-bae8-c2cd6284e136?syn-25a6b1a6=1",
-        "source": "Financial Times",
+        "id": "ecdfc01f",
+        "title": "伊塔烏聯邦銀行第二季利潤達12.4兆雷阿爾,ROE達24.3%",
+        "url": "https://www.reuters.com/pt/negocio/IBZCSHGBF5OPBGAIE7NXA3AYZM-2026-08-04/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-08-04 21:00:04",
-        "summary_zh": "印度央行推動海外印度人回流資金的行動獲得了超出預期的成功。印度央行推動海外印度人回流資金的行動旨在支持貶值的印度盧比。這項行動獲得了超出預期的成功，印度央行籌集了 40 億美元。這項行動是印度央bank 最近的一個罕見的努力。印度央bank 將資金回流的目標設定為 25 億美元，但最終籌集了 40 億美元。這項行動對印度的經濟影響深遠。印度央bank 的行動旨在穩定印度盧比的貶值。印度央bank 的行動獲得了超出預期的成功，印度央bank 籌集了 40 億美元。這項行動將對印度的經濟產生持續性的影響。",
+        "published_at": "2026-08-04 21:45:44",
+        "summary_zh": "伊塔烏聯邦銀行在最近公布的財報中，顯示該銀行在第二季度的利潤達到了12.4兆雷阿爾，相比去年同期的利潤，增加了7.8%。這表明銀行的財務狀況在持續改善。伊塔烏聯邦銀行的ROE（股東權益報酬率）達到24.3%，這是銀行業績的重要指標，表明銀行的經營效率高。這項成績將對銀行的股東和投資者產生正面影響，可能促進銀行股價的上漲。",
         "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "73be2ce4",
+        "title": "石油價格大跌 因霍爾木茲海峽重開談判進展",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-08-04/oil-slumps-on-prospects-for-hormuz-reopening-deal",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-08-04 21:32:15",
+        "summary_zh": "石油價格近日大幅下跌，主要原因是霍爾木茲海峽重開談判進展。霍爾木茲海峽是世界上最重要的石油運輸通道，該地區的石油出口占全球石油出口的20%。如果霍爾木茲海峽重開，將會對全球石油市場產生重大影響。目前，伊朗和沙烏地阿拉伯等國正在就霍爾木茲海峽重開進行談判。雖然談判進展順利，但仍存在許多挑戰和風險。石油價格的下跌將對石油產業和相關企業造成重大影響。",
+        "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "19ee59ce",
-        "title": "BitMEX 3 億美元基金何去何從？交易所關閉後的未來",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-08-04/what-happens-to-bitmex-s-3-billion-fund-once-the-exchange-sunsets",
+        "id": "76b62d93",
+        "title": "鯨魚岩資本管理旗艦基金下跌22% 因AI賣壓重創投資收益",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-04/whale-rock-sank-22-as-ai-selloff-crippled-hedge-fund-returns",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-08-04 21:00:02",
-        "summary_zh": "BitMEX 的 3 億美元基金曾經作為自動清算的最後防線。該基金的存在幫助防止交易者因為虧損而被自動清算。然而，BitMEX 的交易所即將關閉，這使得基金的未來存疑。基金的運作機制和使用目的尚未明確，引發了市場的關注。市場人士對於基金的未來走向感到懷疑，是否會被用於其他目的或是被分配給投資者。這一問題的答案將在 BitMEX 的交易所關閉後逐步明朗。",
-        "sentiment": "中性",
+        "published_at": "2026-08-04 21:26:16",
+        "summary_zh": "鯨魚岩資本管理旗艦基金在上個月的AI賣壓中成為最大受害者，7月份下跌21.7%，使今年的收益大約減半。這家基金曾在今年早些時候表現出色的投資績效，但最近的AI賣壓卻使其收益大幅下滑。這種情況對於投資者來說是一個關鍵時刻，需要重新評估投資策略和風險管理。鯨魚岩資本管理的旗艦基金在過去幾年來一直是投資界的焦點，今年早些時候的表現尤其引人注目，但最近的下滑卻使投資者感到擔憂。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
       {
-        "id": "37c689c3",
-        "title": "普瑞德森利超越預期，資產管理業務收入大幅上升",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-04/prudential-tops-estimates-as-revenue-from-asset-manager-soars",
-        "source": "Bloomberg",
+        "id": "30614765",
+        "title": "Suncor 能源第二季利潤超越預期",
+        "url": "https://www.reuters.com/business/suncor-energy-beats-second-quarter-profit-estimates-2026-08-04/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-08-04 20:57:21",
-        "summary_zh": "普瑞德森利在最新財報中表現出色，公司的資產管理業務收入遠超預期。根據財報數據，普瑞德森利的資產管理業務收入在今年第一季度大幅上升，達到 1.5 億美元。這一成績遠超市場預期，表明公司的業務運作順暢。普瑞德森利的這一成績也受到市場的關注，股價在財報公布後大幅上升。分析師認為，普瑞德森利的資產管理業務收入上升是公司業務運作的關鍵指標。這一成績也表明公司在資產管理領域的競爭力增強。然而，公司的其他業務收入也受到市場的關注，分析師將密切關注公司未來的業務發展。",
+        "published_at": "2026-08-04 21:24:07",
+        "summary_zh": "Suncor 能源宣布其第二季利潤達到 4.44 億加元，遠超市場預期的 3.73 億加元。公司的石油生產和銷售收入也遠超市場預期。這一成績表明 Suncor 能源在石油市場的競爭中取得了優勢。然而，公司的天然氣生產收入略低於市場預期。這一結果可能會對公司未來的發展產生影響。分析師認為，Suncor 能源的這一成績表明其在石油市場的競爭力和穩定性。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "8e9997c9",
-        "title": "加拿大企業要求政府獲得先發制人權力",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-08-04/canadian-employers-push-ottawa-for-pre-emptive-strike-powers",
-        "source": "Bloomberg",
+        "id": "286edae4",
+        "title": "堪薩斯州延長球員時代與球隊關係至2030-31年",
+        "url": "https://www.reuters.com/sports/kansas-extends-players-era-relationship-thru-2030-31--flm-2026-08-04/",
+        "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-08-04 20:53:24",
-        "summary_zh": "加拿大企業要求政府獲得先發制人權力。這項要求是由於近期加拿大經歷了一系列的工會罷工和示威活動，企業感到無法應對。政府正在考慮是否應該給予企業先發制人權力，以便能夠在工會罷工或示威活動前採取措施。這項權力將允許企業在工會罷工或示威活動前採取措施，例如解僱工人或關閉工廠。然而，這項權力也引發了對企業權力過大的擔憂。工會和人權組織認為，這項權力將會損害工人權利和工會運動。政府正在與企業和工會進行磋商，以尋找一個平衡點。最終結果尚未明朗。",
+        "published_at": "2026-08-04 21:15:53",
+        "summary_zh": "堪薩斯州籃球隊宣布與球員時代延長合約至2030-31年。這項協議將為球隊帶來穩定的球員陣容，同時也為球員時代提供長期的經濟保障。這項延長合約將對球隊的競爭力和財務狀況產生重大影響。堪薩斯州球隊的球迷們將會對這項決定感到高興，希望球隊能夠在未來的賽季中取得更好的成績。這項協議的簽署也將為球隊的未來發展提供穩定的基礎。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "77b04f94",
+        "title": "Sysco停止購買冰 berg 冷凍萵苣，原因是美國出現周期性痢疾爆發，CEO表示",
+        "url": "https://www.reuters.com/es/negocio/XZRRFY3E7FIULOMJK7SCBTCQVI-2026-08-04/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-08-04 21:14:16",
+        "summary_zh": "Sysco公司宣布停止購買來自墨西哥的冰 berg 冷凍萵苣，原因是美國出現了周期性痢疾爆發。公司的 CEO 表示，這是為了確保客戶的健康安全。冰 berg 冷凍萵苣是由墨西哥的 Taylor Farms 公司供應。該公司的產品曾經在美國出現過多起食物中毒案例。Sysco 的決定可能會對墨西哥的農業產業造成影響。墨西哥政府可能會需要採取措施來防止未來的食物中毒案例。這個事件也會對美國的食物安全政策產生影響。 Sysco 的決定可能會成為一個案例，讓美國政府檢視其食物安全政策。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
@@ -546,6 +824,18 @@
     ],
     "stock_us": [
       {
+        "id": "a89bb52b",
+        "title": "SpaceX 超越華爾街預期：美國晚間簡報",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-08-04/spacex-beats-wall-street-expectations-evening-briefing-americas",
+        "source": "Bloomberg",
+        "category": "stock_us",
+        "published_at": "2026-08-04 21:18:13",
+        "summary_zh": "SpaceX 在近期的財務報告中表現出色，超越了華爾街的預期。雖然原文內容未提供具體數據，但這一消息對於投資者和業界人士來說都是一個重要的指標。SpaceX 的成功表現可能與其在太空探索和衛星通信等領域的投資有關。這一消息也可能對於未來的太空行業發展和投資趨勢產生一定的影響。然而，具體的影響分析和後續展望仍需要更多的數據和信息。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "df756215",
         "title": "下班後股市最大漲跌股票：SpaceX、AMD、Pinterest、Arista Networks、Wynn Resorts 等",
         "url": "https://www.cnbc.com/2026/08/04/stocks-making-the-biggest-moves-after-the-bell-spcx-amd-pins-anet-wynn.html",
@@ -554,8 +844,8 @@
         "published_at": "2026-08-04 20:55:35",
         "summary_zh": "在下班後，市場出現了許多股票的大幅波動。SpaceX、AMD、Pinterest、Arista Networks 和 Wynn Resorts 等公司的股價出現了顯著的變化。這些公司的股價變化對市場有何影響？這些公司的未來發展方向將如何？目前市場對這些公司的評估如何？這些公司的股價變化可能會對投資者造成什麼影響？投資者應該如何應對這些公司的股價變化？",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "e4b21640",
@@ -566,8 +856,8 @@
         "published_at": "2026-08-04 20:53:06",
         "summary_zh": "美國參議員羅恩·威登（Ron Wyden）近日呼籲監管機構調查華爾街銀行與前富豪傑夫·愛泼斯坦（Jeffrey Epstein）帳戶的關係。威登表示，愛泼斯坦的帳戶存在於多家華爾街銀行，包括摩根大通、花旗銀行和銀行集團等。威登認為，銀行業者應該對愛泼斯坦的帳戶進行徹底調查，以確保銀行業者沒有為非法活動提供幫助。愛泼斯坦曾被指控性侵犯多名未成年人，後來在2019年自殺身亡。威登的呼籲是對銀行業者隱瞞或配合愛泼斯坦非法活動的懷疑。這一事件也引起了對銀行業者監管的關注。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "cde8e0d7",
@@ -578,8 +868,8 @@
         "published_at": "2026-08-04 20:31:41",
         "summary_zh": "股市近期呈現強勁上升，道瓊指數在近兩個月內取得最佳單日成績，而標普 500 指數則創下新高。這些表現背後，市場分析師認為有五大原因。首先，美國經濟正在經歷一波強勁的復甦，企業的盈利能力正逐步恢復。其次，美國聯邦儲備委員會（Fed）在近期的政策調整，讓市場對未來的預期更加樂觀。第三，全球經濟正在逐步恢復，尤其是歐洲和亞洲的經濟增長率正在升高。第四，企業的財務狀況正在改善，企業的債務水平降低，股價上升的動力增強。最後，投資者對未來的預期更加樂觀，投資氣氛更加積極。這些因素共同作用，讓股市呈現強勁上升的趨勢。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "7724965b",
@@ -590,8 +880,8 @@
         "published_at": "2026-08-04 20:13:31",
         "summary_zh": "SpaceX 首次公布財報後，公司表現出色，超越了華爾街的預期。這是自SpaceX在今年 11 月上市以來的首次財報公布。公司的收入和盈利都遠遠超越了投資者的預期。這表明SpaceX的業務在快速發展，公司的財務狀況也越來越穩定。這項成績也使得SpaceX的股價大幅上漲，投資者對公司未來的前景感到樂觀。然而，公司的財務報表也顯示出一些挑戰和風險，包括對競爭對手的依賴和未來的營運成本。總體來說，SpaceX的首次財報表現出色，投資者對公司未來的前景感到樂觀。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "468f33de",
@@ -614,284 +904,6 @@
         "published_at": "2026-08-04 18:46:49",
         "summary_zh": "杜邦公司的財報結果和預測並不如市場最初的反應所示那樣糟糕。雖然上季業績出現波動，但公司的核心業務仍然穩定。分析師認為，市場對公司業績的反應過度敏感，實際上公司的財務狀況並不那麼差。因此，投資者應該保持樂觀，繼續與杜邦合作。",
         "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "46cefc5c",
-        "title": "這些圖表表明 S&P 500 價格已經便宜了？但要謹慎對待",
-        "url": "https://www.marketwatch.com/story/these-charts-suggest-the-s-p-500-is-looking-like-a-bargain-take-them-with-a-grain-of-salt-f109548f?mod=mw_rss_topstories",
-        "source": "Marketwatch",
-        "category": "stock_us",
-        "published_at": "2026-08-04 18:36:00",
-        "summary_zh": "在市場上，S&P 500 的價格既被認為是昂貴的，也被認為是便宜的。這種矛盾的狀況讓 S&P 500 在市場上佔據了特殊的地位。雖然 S&P 500 在周二達到新的歷史高點，但通常會發出警訊的估值指標卻出現了綠燈。這使得投資者們感到困惑。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "399553d1",
-        "title": "太空探索公司火箭與月球相撞：科學家認為這將是一次意外的好機會",
-        "url": "https://www.bbc.co.uk/news/articles/cx25yn22l97o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 09:13:37 GMT",
-        "summary_zh": "太空探索公司的火箭預計將在未來與月球相撞。雖然這可能看起來像是一個壞消息，但科學家認為這將是一次意外的好機會。根據科學家的計算，這次撞擊將會在月球表面留下一個約 20 公尺的坑洞，並且會將月球的岩石帶回地球。這將是一個極為有價值的科學收穫，科學家將能夠研究月球的內部結構和成分。這次撞擊也將為科學家提供一個研究月球地質演化的機會。雖然這次撞擊可能會對月球造成一些傷害，但科學家認為這將是一個有價值的科學收穫。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1a61cd9a",
-        "title": "『火焰就在那裡』- 華盛頓州大火逃難者述情",
-        "url": "https://www.bbc.co.uk/news/articles/c8xn1nlpd7xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 21:48:39 GMT",
-        "summary_zh": "華盛頓州近期爆發嚴重的大火，許多家庭被迫逃離家園。有些人返回家園時發現，家園已被大火燒成灰燼，只剩下焦黑的樹木屍體從熾熱的地面冒出。這場大火對當地居民造成了深重的傷害，許多人失去了家園，生活陷入困境。政府正在努力應對這場災難，提供援助和支持給受影響的家庭。這場大火也引起了對森林管理和防火措施的關注，許多人呼籲政府採取更積極的措施來防止類似的災難發生。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1053d182",
-        "title": "石油價格下跌 因霍爾木茲海峽可能重新開放",
-        "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 03:44:30 GMT",
-        "summary_zh": "霍爾木茲海峽是世界上最重要的石油運輸通道，近期因為軍事衝突而被封鎖，導致石油價格大幅上漲。美國國務卿馬可·魯比奧和財政部長史考特·貝森特宣布，談判進展順利，可能會允許石油船隻重新開放通過霍爾木茲海峽。這項消息使得石油市場感到樂觀，石油價格因此下跌。然而，仍有許多不確定性，霍爾木茲海峽是否能夠重新開放，還需要進一步的談判和確認。石油價格的下跌可能會對全球經濟產生一定的影響，特別是對於石油出口國和石油消費國。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b3aee12a",
-        "title": "俄羅斯導彈襲擊基輔造成一人死亡、多人受傷",
-        "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 08:29:40 GMT",
-        "summary_zh": "俄羅斯對基輔發動大規模攻擊，俄羅斯軍方釋放導彈，擊中民居。基輔軍方行政長官表示，俄羅斯再次大規模攻擊，導致一人死亡、多人受傷。這次襲擊顯示俄羅斯對烏克蘭的軍事行動仍在持續進行，對烏克蘭民眾造成嚴重影響。烏克蘭政府將繼續努力應對俄羅斯的軍事攻勢，保護國民安全。這次襲擊也引起國際社會的關注，各國領袖紛紛譴責俄羅斯的行動。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "7c45e9d2",
-        "title": "歐盟讚揚西班牙對塞烏塔移民危機的「迅速反應」",
-        "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 21:45:20 GMT",
-        "summary_zh": "西班牙宣布，近 70,000 名來自塞烏塔非法入境的 72,000 人已經被遣返到摩洛哥。這次移民危機發生在上週，西班牙政府對此做出的迅速反應受到歐盟的讚揚。塞烏塔是西班牙在非洲北部的一個自治區，近期來自摩洛哥的移民潮引起了西班牙政府的關注。西班牙政府表示，對於這次移民危機的處理，將繼續與摩洛哥政府合作。這一事件也引起了歐盟內部對移民政策的討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f159d3f1",
-        "title": "莫斯科地區五人喪生 烏克蘭繼續攻擊俄羅斯儲存倉庫",
-        "url": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 11:19:01 GMT",
-        "summary_zh": "烏克蘭繼續對俄羅斯的儲存倉庫發動攻擊，莫斯科地區至少有五人喪生。除了莫斯科地區外，聖彼得堡和特維爾地區的儲存倉庫也遭到攻擊。同時，俄羅斯對烏克蘭的攻擊也導致至少一人喪生。這些攻擊的影響不僅僅是軍事上的損失，也對兩國的民眾造成了重大影響。烏克蘭的攻擊行動可能會持續下去，對俄羅斯的經濟和社會造成持續的壓力。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "098e9ec7",
-        "title": "埃及逮捕涉嫌冒充法官的人士",
-        "url": "https://www.bbc.co.uk/news/articles/cn0n9wpvlwpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 19:25:00 GMT",
-        "summary_zh": "埃及當局表示，這起案件涉及一項詐騙計劃，涉嫌者在法庭上製造虛假庭審場景，目的是騙取人們的財物。根據埃及當局的說法，這些涉嫌者冒充法官，製造虛假庭審場景，甚至還涉及到詐騙人民的財物。這起案件的發生，引起了埃及社會的關注。埃及當局已經展開調查，並且逮捕了相關涉嫌者。這起案件的影響，可能會對埃及的司法體系和社會信任產生影響。未來，埃及當局將如何處理這起案件，還需要觀察。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "e8f4dca9",
-        "title": "加沙舉行大規模葬禮悼念2023年以色列轟炸中遇難的112名巴勒斯坦人",
-        "url": "https://www.bbc.co.uk/news/articles/cn0n99npjejo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 15:07:52 GMT",
-        "summary_zh": "近日，位於加沙市的兩個家庭成員共112人遇難的屍體，才剛被從瓦礫下挖掘出來。這些遇難者是在2023年以色列轟炸中喪生。這次葬禮的舉行，表明了對遇難者及其家人的哀悼和支持。這次事件的發生，凸顯了加沙地區長期以來的安全和政治不穩定問題。這些遇難者都是平民，沒有參與任何武裝活動。這次轟炸事件，引起了國際社會的關注和譴責。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d8da9015",
-        "title": "像炸彈一樣 - 斯波坎居民反應，數百間房屋被大火燒毀",
-        "url": "https://www.bbc.co.uk/news/videos/c3v0nyyeg3wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 19:25:46 GMT",
-        "summary_zh": "美國華盛頓州斯波坎發生嚴重大火，超過 700 處房屋被燒毀。警方已經逮捕了一名涉嫌縱火的嫌疑人，並將其控告為一級縱火罪。這場大火對當地居民造成了嚴重的影響，許多人喪失了家園。政府正在協助災民重建房屋，並提供援助。這場大火的原因尚未明朗，但警方正在調查中。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8230a34f",
-        "title": "炮彈擊沉印度旗下船隻　印度外交部：14人全數獲救",
-        "url": "https://www.bbc.co.uk/news/articles/cly84we1y37o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 21:24:50 GMT",
-        "summary_zh": "一艘印度旗下的船隻在也門海岸遭炮彈擊沉，印度外交部表示，船上14名乘客均已獲救。這起事件發生在也門內戰期間，印度政府一直在努力維持該地區的和平。也門內戰已經持續了多年，各國船隻在該地區航行時面臨著安全風險。印度政府將會對此事件進行調查，以確保船隻的安全。這起事件也引起了國際社會的關注，各國政府將會密切關注也門地區的安全情況。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f7d8a4fd",
-        "title": "意大利熱浪的避免之道：從超市到夜間遊覽",
-        "url": "https://www.bbc.co.uk/news/articles/c05q1gz0p1yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 18:21:00 GMT",
-        "summary_zh": "意大利正遭受嚴重的熱浪，超市、博物館、景點等地都採取了措施來保護顧客。專家建議游客在白天避免外出，晚上則可以參加夜間遊覽活動。同時，游客也可以在家中享受冷氣舒適的生活。這些措施有助於游客在熱浪中安全度過。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "60d6ca93",
-        "title": "英法海峽至少150名移民在船隻起火後獲救",
-        "url": "https://www.bbc.co.uk/news/articles/c4gkpeppjyqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 19:45:58 GMT",
-        "summary_zh": "英法海峽一艘船隻在試圖前往英國時，發生引擎起火。法國當局表示，船上至少有150名移民獲救。這起事件發生在英法海峽，移民們試圖從法國前往英國。船隻的引擎起火後，移民們被迫跳入海中。法國海岸警衛隊及其他救援人員迅速趕赴現場，進行救援工作。這起事件再次引起關注，移民在英法海峽的安全問題。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "61fcd3ef",
-        "title": "美國撤銷巴西駐美大使的簽證，巴拉圭外交紛爭升級",
-        "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 01:41:07 GMT",
-        "summary_zh": "美國政府在巴西總統盧拉(Luiz Inácio Lula da Silva)政府拒絕批准特朗普(Donald Trump)的駐巴西大使提名後，對巴西駐美大使瑪麗亞·路易莎·里貝羅·維奧蒂(Maria Luiza Ribeiro Viotti)的簽證進行了撤銷。美國國務院表示，這是對巴西拒絕批准特朗普的駐巴西大使提名以及去月拒絕簽發簽證予兩名美國外交官的回應。這一行動標誌著美巴外交紛爭的升級。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "900dadb5",
-        "title": "一場山崩摧毀了登山傳奇和一代登山指導的生涯",
-        "url": "https://www.bbc.co.uk/news/articles/cm2ge4dnj80o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 22:09:50 GMT",
-        "summary_zh": "在巴基斯坦發生的山崩事件，摧毀了尼泊爾登山界的一代登山指導。這些指導員的同事表示，這場山崩對尼泊爾登山界造成了毀滅性的打擊。這些指導員在尼泊爾登山界享有崇高的聲譽，曾多次締造登山紀錄。這場山崩不僅摧毀了這些指導員的生涯，也摧毀了尼泊爾登山界的一代領導者。尼泊爾登山界的同事們對這場山崩感到震驚和難過，認為這是一個沉重的打擊。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "b6a30e81",
-        "title": "我像是在挖自己的坟墓：人工智慧時代下的外包工人",
-        "url": "https://www.bbc.co.uk/news/articles/cgr7nxve05go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 22:10:00 GMT",
-        "summary_zh": "人工智慧技術正在改變菲律賓的外包產業，引發對產業未來的疑問。菲律賓外包產業長期以來一直是全球外包的重要據點，許多外資公司將其視為重要的成本中心。但是，隨著人工智慧技術的發展，許多外包工作正逐漸被取代。這些工人面臨著失業的風險，許多人感受到人工智慧技術對其工作的威脅。菲律賓政府正試圖通過培訓和教育來幫助工人適應人工智慧時代，但仍有許多挑戰需要克服。菲律賓外包產業的未來存疑，工人和政府都在等待著人工智慧技術的下一步發展。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "541c406e",
-        "title": "捷星航空引入行李托運費用",
-        "url": "https://www.bbc.co.uk/news/articles/c4gdkn2d0vjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 02:29:55 GMT",
-        "summary_zh": "澳洲航空公司捷星航空近日宣布，將引入行李托運費用，乘客將需要為大型行李支付額外費用。這一決定引起了澳洲民眾的強烈反應，有些人感到不滿，而其他人則認為這是「該時候」讓乘客為大型行李支付費用。這一變化將對乘客的行李規定產生重大影響，乘客將需要仔細檢查自己的行李大小和重量，以避免額外費用。這一變化將對航空業的發展產生重要影響，航空公司將需要重新評估自己的行李政策。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ecfb9124",
-        "title": "馬來西亞飛行員在印尼機場被捕藏有 70,000 個魔幻藥片",
-        "url": "https://www.bbc.co.uk/news/videos/c9d8662gyx5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 09:18:03 GMT",
-        "summary_zh": "一名馬來西亞飛行員在印尼雅加達機場被捕，警方在他的行李中發現約 26 公斤的毒品，估計有 70,000 個魔幻藥片。這起事件引起了關注，飛行員的身份和毒品來源仍在調查中。這一事件可能會對印尼航空業和國際航空業造成影響，同時也會引起對飛行員安全和毒品走私的關注。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4261a0fd",
-        "title": "美國疾病控制與預防中心擴大查緝環狀體病爆發範圍至15州",
-        "url": "https://www.theguardian.com/us-news/2026/aug/04/cyclosporiasis-outbreak-15-states-cdc",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 01:29:10 GMT",
-        "summary_zh": "美國疾病控制與預防中心（CDC）已經擴大了環狀體病爆發的範圍，目前已經涉及15個州。根據華盛頓郵報的報導，CDC已經將六個新州加入調查範圍，這些州包括阿肯色州、愛荷華州、密蘇里州、內布拉斯加州、新罕布什爾州和北卡羅來納州。這次爆發與環狀體病相關的死亡病例已經在密西根州出現。CDC正在努力了解這次爆發的原因和影響範圍。這次爆發對於美國的公共衛生安全和健康安全有著重要的影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "613b076e",
-        "title": "星期三簡報：如何誤導信息和硬化移民政策讓塞烏塔成為歐洲最新的焦點地帶",
-        "url": "https://www.theguardian.com/world/2026/aug/05/wednesday-briefing-how-misinformation-and-a-hardened-immigration-policy-turned-ceuta-into-europes-latest-flashpoint",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 05:54:54 GMT",
-        "summary_zh": "塞烏塔是西班牙在摩洛哥北部的一個小型自治區，過去一周內，約有 72,000 名移民進入該區，24 小時內大部分都返回了家鄉。根據當地官員的報告，至少有 88 人在嘗試越境時喪生。這並不是塞烏塔過去一周內發生的全部故事，但這些事實是值得回憶的。昨天，歐洲內政部長們在緊急會議上試圖在塞烏塔問題上畫下句號，堅稱在這次大規模移民來臨下，歐洲的護照免簽區域從未受到威脅。儘管如此，許多媒體的報導卻使人感覺塞烏塔事件代表著對歐洲領土的威脅，引發了對該地區邊境安全的呼聲。塞烏塔事件的背後，還有許多其他故事。其中一個故事是，全球八大石油公司在過去三個月內共賺取了超過 90 億美元（約 67 億英鎊）的利潤，這是因為伊朗衝突導致能源價格大幅上升，以及氣候危機導致致命的熱浪。另一方面，英國的婦女健康問題也引起了關注。新任衛生部長葉特·柯珀（Yvette Cooper）表示，婦女不應該被迫體驗一個「理想的分娩」，她承諾將對產科標準進行徹底改革，尤其是在幾起有爭議的產科醜聞後。中東地區也出現了新的緊張局勢。約旦正在召開緊急會議，關注以色列可能對耶路撒冷最重要的穆斯林聖地進行佔領的威脅。這些事件都與塞烏塔事件有著什麼樣的關聯？",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d070ce6c",
-        "title": "摩洛哥人聚集在西班牙邊境等待失蹤親人",
-        "url": "https://www.theguardian.com/world/2026/aug/05/hundreds-in-morocco-gather-near-ceuta-border-in-anxious-wait-for-missing-loved-ones",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 04:00:08 GMT",
-        "summary_zh": "摩洛哥北部的芬迪克鎮（Fnideq）有數百人聚集在西班牙的塞烏塔（Ceuta）邊境，希望能夠在眾多回國者中找到朋友或親人。根據目前的死亡人數，近百人仍然失蹤。這些人在邊境小片土地上展示著失蹤親人的照片，希望能夠通過這種方式找到他們。這一事件的場景在上週成為全球關注的焦點，當時有約72,000人試圖越過邊境進入塞烏塔，這是一個位於北非的西班牙小島。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ea57ebd7",
-        "title": "危機來臨！危險的火山爆發：幾百人疏散，危險警報升級",
-        "url": "https://www.theguardian.com/world/2026/aug/04/guatemala-volcano-eruption-prompts-evacuation-of-hundreds-of-people",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 17:31:37 GMT",
-        "summary_zh": "危險的火山爆發在危地馬拉的富戈火山發生，數百名居民被迫疏散。這座火山是中美洲最活躍的火山，星期一早上爆發，到了晚上情況更加惡化，當局因此發出第二級危險警報。火山爆發的火焰和灰塵高達四英里，危地馬拉政府已經宣布危機狀態。這次爆發對當地居民造成了重大威脅，當局正在努力疏散居民並提供援助。這座火山的爆發將對當地經濟和環境造成長期影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "47781384",
-        "title": "白色大象出現國會：哥倫比亞選民選出身穿白色大象服裝的反腐敗運動家為參議員",
-        "url": "https://www.theguardian.com/world/2026/aug/04/white-elephant-colombia-anti-corruption-activist-senator-luis-carlos-rua",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 10:00:47 GMT",
-        "summary_zh": "哥倫比亞近期舉行了新一屆國會選舉，總共102名參議員就職，其中包括32名女性、69名男性和一名身穿白色大象服裝的參議員。這名參議員名叫路易斯·卡洛斯·魯亞（Luis Carlos Rúa），他在選舉前三天才公開自己的身份，並聲稱是為了安全理由。路易斯·卡洛斯·魯亞是反腐敗運動家，他以「白色大象」（Elefante blanco）身份活躍於社會。他在國會大會上穿著一身白色大象服裝，與身穿西裝的其他參議員形成強烈對比。路易斯·卡洛斯·魯亞的出現引起了許多人的關注，他將如何在國會中推動反腐敗運動，改善哥倫比亞的政治環境？",
-        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       }
