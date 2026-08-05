@@ -1,62 +1,400 @@
 {
-  "generated_at": "2026-08-05T22:14:57.671010+08:00",
+  "generated_at": "2026-08-05T23:09:39.772798+08:00",
   "risk_signals": [
     "🟢 台股加權 44611.6（正常）",
-    "🟢 S&P 500 7786.26（正常）",
-    "🟢 VIX 恐慌指數 17.08（正常）",
+    "🟢 S&P 500 7759.7（正常）",
+    "🟢 VIX 恐慌指數 16.32（正常）",
     "🟢 MOVE 債市波動 77.56（正常）",
-    "🟢 美元指數 99.72（正常）",
-    "🟡 黃金 4270.0（漲 +4.26%，留意）",
+    "🟢 美元指數 99.66（正常）",
+    "🔴 黃金 4303.5（急漲 +5.08%，市場避險）",
     "🟡 美債10Y殖利率 4.63（留意）",
-    "🟢 原油 WTI 75.38（正常）",
-    "🟢 美元/台幣 32.26（正常）"
+    "🟢 原油 WTI 75.03（正常）",
+    "🟢 美元/台幣 32.28（正常）"
   ],
-  "ai_summary": "市場氛圍穩定，美元指數和台股表現良好，但留意黃金和美債10Y殖利率的波動。",
+  "ai_summary": "市場表現穩定，避險情緒稍微升溫，黃金急漲。美元指數和台股表現良好，但美債殖利率值得關注。",
   "market": {
     "TWII": {
       "price": 44611.6,
       "change_pct": 2.88
     },
     "SP500": {
-      "price": 7786.26,
-      "change_pct": 0.64
+      "price": 7759.7,
+      "change_pct": 0.3
     },
     "NASDAQ": {
-      "price": 26708.79,
-      "change_pct": 0.47
+      "price": 26620.38,
+      "change_pct": 0.13
     },
     "VIX": {
-      "price": 17.08,
-      "change_pct": 3.52
+      "price": 16.32,
+      "change_pct": -1.09
     },
     "TNX": {
       "price": 4.63,
-      "change_pct": 0.17
+      "change_pct": 0.04
     },
     "MOVE": {
       "price": 77.56,
       "change_pct": null
     },
     "DXY": {
-      "price": 99.72,
-      "change_pct": -0.17
+      "price": 99.66,
+      "change_pct": -0.23
     },
     "GOLD": {
-      "price": 4270.0,
-      "change_pct": 4.26
+      "price": 4303.5,
+      "change_pct": 5.08
     },
     "OIL": {
-      "price": 75.38,
-      "change_pct": -0.51
+      "price": 75.03,
+      "change_pct": -0.98
     },
     "USDTWD": {
-      "price": 32.26,
-      "change_pct": -0.42
+      "price": 32.28,
+      "change_pct": -0.36
     }
   },
   "macro": {},
   "categories": {
+    "whitehouse": [
+      {
+        "id": "443475fe",
+        "title": "左翼新星誕生：密西根州參議院選舉產生新左翼戰士",
+        "url": "https://www.bbc.co.uk/news/articles/cp309ng0xq1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 14:54:07 GMT",
+        "summary_zh": "密西根州參議院選舉結果出爐，左翼候選人艾爾-塞伊德（El-Sayed）勝出，將在11月份的選舉中與對手展開高壓對決。這場選舉將考驗左翼候選人的人氣，在一個左右兩端均有支持者且選情不明朗的州份中，艾爾-塞伊德的勝利將對未來的選情產生重大影響。密西根州一直被視為一個競爭性州份，選民的選擇將決定未來的政治走向。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f41d566d",
+        "title": "華盛頓州最大野火案發生人被捕",
+        "url": "https://www.bbc.co.uk/news/articles/c5y3ppmmev1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 00:40:23 GMT",
+        "summary_zh": "華盛頓州斯波坎地區出現三場大火，迫使 60,000 人離開家園。警方已經逮捕了一名涉嫌縱火的嫌疑人。這場大火對當地居民造成了重大影響，許多人被迫暫時離開家園。警方正在調查火災原因，確保未來不再發生類似的事件。這次大火的影響將持續數天，居民應該保持警惕。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "0011cbc9",
+        "title": "美國總統特朗普將訪問加州高爾夫球場，附近遭槍手被捕",
+        "url": "https://www.bbc.co.uk/news/articles/c20jp3mp7lyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 13:58:01 GMT",
+        "summary_zh": "美國總統特朗普即將訪問加州一間高爾夫球場，準備在該地舉辦籌款晚宴。然而就在此時，警方在球場附近逮捕了一名攜帶槍枝的男子。事件發生在總統抵達前不久，警方表示該男子的動機尚未明確。這起事件引發了關注，是否與總統的訪問有關。總統特朗普的安全措施一直受到關注，近日有多起槍擊事件發生在美國各地。這次事件也引發了對總統安全措施的質疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3fc8c955",
+        "title": "美國國會議員拒絕放棄競選連任　前妻控告他家暴",
+        "url": "https://www.bbc.co.uk/news/articles/czrj1751r02o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 00:05:47 GMT",
+        "summary_zh": "美國俄亥俄州共和黨議員馬克斯·米勒（Max Miller）因前妻控告他家暴而引起爭議。米勒的前岳父是一名美國參議員，要求米勒辭去國會議員職位。儘管如此，米勒仍堅持競選連任。這一事件引發了對米勒的評判與爭議。米勒的前妻控告他家暴，要求米勒辭去國會議員職位。米勒的前岳父是一名美國參議員，加入了對米勒的批評。米勒的決定引發了對他的評判與爭議。這一事件對米勒的政治前景產生了重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3bedd830",
+        "title": "美國撤銷巴西大使館的護照，巴西外交緊張升級",
+        "url": "https://www.bbc.co.uk/news/articles/cy9wpww7dyro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 00:16:02 GMT",
+        "summary_zh": "美國和巴西之間的外交緊張局勢正在升級。美國政府宣布撤銷巴西駐美國大使館的護照，這是巴西政府拒絕為兩名美國國務院官員發出簽證後的回應。這兩名官員是美國國務院派往巴西的代表，負責處理雙方關係。巴西政府的決定被視為對美國的不信任和挑釁行為。美國政府的回應表明，雙方關係正在惡化，可能會導致更大的衝突。這種外交緊張局勢可能會對兩國的經濟和政治關係造成重大影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "e0462d33",
+        "title": "密西根州參議院民主初選競選仍未有結果，埃爾-賽義德領先，但領先幅度微小 – 美國政治實時新聞",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/05/michigan-primary-race-democrats-midterms-senate-el-sayed-haley-stevens-donald-trump-republicans-us-politics-latest-news-updates",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 14:36:23 GMT",
+        "summary_zh": "密西根州參議院民主初選競選仍未有結果，前公共衛生官員埃爾-賽義德領先美國國會議員海莉史蒂文斯，但領先幅度微小。選票計數仍在進行中，可能會持續到今天。另外，美國共和黨代表馬克斯米勒因家暴指控而面臨黨內退黨壓力，他已經承諾會抵抗這些指控。馬克斯米勒的前岳父伯尼莫雷諾是一名共和黨參議員，他認為馬克斯米勒不適合擔任國會議員。馬克斯米勒被指控曾經用槍指向他的前妻艾米莉，並將她燙傷。他的女兒也遭受了他的虐待，包括一次骨折。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "69f2dadc",
+        "title": "美國聯邦航空局調查特朗普的海軍一號機安全事故",
+        "url": "https://www.theguardian.com/us-news/2026/aug/05/trump-faa-marine-one-air-safety-incident",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 12:58:05 GMT",
+        "summary_zh": "美國聯邦航空局正在調查一宗涉及前總統特朗普的海軍一號機安全事故。事件發生在特朗普從白宮出發的時候，空中交通管制員誤將商業航班誤導至與海軍一號機失去安全距離。根據調查，管制員錯誤地未能暫停位於弗吉尼亞州北部的羅納德·里根國家機場的商業航班，導致海軍一號機與一架正在起飛的客機失去安全距離。這宗事故引起了對空中交通安全的關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "817b44bf",
+        "title": "美國父母：您有類似曼達尼2-K推出的計劃嗎？",
+        "url": "https://www.theguardian.com/us-news/2026/aug/05/mamdani-ny-parents-2-k-program",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 12:38:22 GMT",
+        "summary_zh": "美國父母對於曼達尼市長推出的2-K計劃表示高度需求，該計劃為兩歲小孩提供免費早期照護和學習。美國父母們是否有類似的計劃？如果有，該計劃如何幫助或改變您的生活？美國父母們的回應將有助於了解類似計劃的需求和效果。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "06f6f8b8",
+        "title": "共和黨人Chuck Edwards放棄競選連任，受指控性騷擾員工",
+        "url": "https://www.theguardian.com/us-news/2026/aug/05/chuck-edwards-sexual-harassment-reelection",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 12:34:24 GMT",
+        "summary_zh": "美國共和黨北卡羅來納州議員Chuck Edwards宣布不再競選連任。他被美國眾議院倫理委員會指控在工作環境中營造出性騷擾行為，包括送禮物和對兩名年輕女員工的過度關注。倫理委員會建議對Edwards進行譴責。Edwards表示，他將完成目前任期，直到下月底結束。這一事件發生在美國政治新聞中，議員的行為被指違反了倫理標準。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4094ca11",
+        "title": "密西根州民主黨參選人競選過關，埃爾-賽伊德領先",
+        "url": "https://www.theguardian.com/us-news/2026/aug/05/first-thing-michigan-democratic-primary-too-close-to-call-el-sayed-narrow-lead",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 11:38:14 GMT",
+        "summary_zh": "密西根州民主黨參選人競選過關，埃爾-賽伊德領先。埃爾-賽伊德是前公共衛生官員，目前領先眾議員海利·史蒂文斯。這場選舉對民主黨奪回參議院控制權至關重要。另一方面，華盛頓州民主黨代表瑪麗·格魯森坎普·佩雷茲贏得了參選人選舉，將與共和黨州參議員約翰·布朗競選。密西根州選舉過後，埃爾-賽伊德領先史蒂文斯，但結果仍未確定。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e2606b8a",
+        "title": "「他們在賣掉機場旅客的安全」：TSA員工譴責川普政府私有化計畫",
+        "url": "https://www.theguardian.com/us-news/2026/aug/05/tsa-trump-privatization-push",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 11:00:18 GMT",
+        "summary_zh": "美國交通安全管理局（TSA）工會正在探索反對私有化安全檢查點的計畫。該工會代表美國交通安全管理局的員工，對於將安全檢查點移交給私人承包商的計畫感到擔憂。美國交通安全管理局計劃在坦帕、查爾斯頓和德梅恩三個機場推出「TSA Gold+」計畫，將安全檢查和控制移交給私人承包商。員工們預計會失去工會合同和福利。這項計畫引起了工會的強烈反對，工會正在探索各種方式來反對這項計畫。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6dc130b9",
+        "title": "Wesley Bell勝選密蘇里州議會初選，Cori Bush復出競選失利",
+        "url": "https://www.theguardian.com/us-news/2026/aug/04/wesley-bell-missouri-democratic-primary-congress",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 02:02:08 GMT",
+        "summary_zh": "密蘇里州議會初選中，民主黨議員Wesley Bell在聖路易斯地區贏得選舉，結束進步派前議員Cori Bush的復出競選。這次選舉的焦點在於以色列-巴勒斯坦問題。兩年前，Bell以以色列利益團體的支持，擊敗了民主社會主義的Bush。今年的選舉中，Bell再次擊敗了Bush，同時也削弱了近期選舉中，支持巴勒斯坦的候選人所展現的動力。這次選舉是民主黨議員在選舉初選中敗給進步派候選人的又一例子。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8f1d1a06",
+        "title": "密蘇里州否決民眾提案對特朗普支持的重劃選區方案進行公投",
+        "url": "https://www.theguardian.com/us-news/2026/aug/04/missouri-redistricting-plan-vote",
+        "source": "Guardian US",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 01:47:33 GMT",
+        "summary_zh": "密蘇里州的最高選舉官員否決了一項公民提案，要求對州議會通過的新國會選區方案進行全州公投。該提案得到前總統特朗普的支持，支持者提交了數十萬份簽名，以強制在11月進行公投，決定是否使用共和黨主導的州議會通過的新國會選區圖。但是，共和黨的州長助理，丹尼·霍斯金斯（Denny Hoskins），於星期二表示，該提案無效，因為國會重劃選區方案不能由選民公投。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a52da63e",
+        "title": "美國總統賀詞：美國海岸警衛隊成立236周年",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/08/presidential-message-on-the-birthday-of-the-united-states-coast-guard/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Wed, 05 Aug 2026 00:47:48 +0000",
+        "summary_zh": "今天，美國慶祝了美國海岸警衛隊成立236周年。美國海岸警衛隊是一支美國執法專業人員和海岸警衛隊員的力量，他們堅守在我們的海岸、水域和我們榮譽的生活方式。自美國共和國的早期日子起，海岸警衛隊員就一直在每次呼籲中回答著，展現著他們的警醒和…… 美國總統發表賀詞，表達對美國海岸警衛隊的敬意和感謝。美國海岸警衛隊的成立對於國家安全和民生安全有著重要的意義。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "5050b5c1",
+        "title": "美國製造業活躍 美國總統川普經濟政策帶來新機會",
+        "url": "https://www.whitehouse.gov/releases/2026/08/manufacturing-jobs-flock-to-the-u-s-thanks-to-president-trumps-america-first-economic-agenda/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Tue, 04 Aug 2026 21:33:29 +0000",
+        "summary_zh": "美國總統川普的經濟政策正在實施，美國製造業正在經歷著一場經濟復甦。7月份，美國製造業活動增長達到四年來最強勁的水平，連續七個月保持增長。這些數字表明，川普總統的《工作家庭稅減免法》和《美國優先》政策正在帶來新的機會。美國製造業的活躍不僅創造了新的就業機會，也提高了出口量和競爭力。這一趨勢對美國經濟的整體發展具有重要意義。然而，仍需要觀察美國經濟政策的進一步發展和影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "global": [
+      {
+        "id": "ce4a2e59",
+        "title": "左翼政治新人在密西根州贏得民主黨參議員初選",
+        "url": "https://www.bbc.co.uk/news/articles/ckgdkpz07kvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 14:39:45 GMT",
+        "summary_zh": "密西根州民主黨參議員初選結果出爐，左翼政治新人阿卜杜勒·艾爾-塞伊德 (Abdul El-Sayed) 進入決選戰。阿卜杜勒·艾爾-塞伊德是埃及移民的兒子，如果在11月的選舉中當選，將成為美國第一位穆斯林參議員。這位年輕候選人以挑戰傳統政治格局和提倡社會主義政策而聞名。他的勝利被視為對民主黨內左翼力量的勝利。然而，仍有許多挑戰等待他，包括在11月的選舉中擊敗共和黨候選人。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ff05f731",
+        "title": "科學家從 SpaceX 遺棄火箭撞月球中能學到什麼?",
+        "url": "https://www.bbc.co.uk/news/articles/c62q0xerzrno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 11:19:24 GMT",
+        "summary_zh": "雖然這次撞月是意外事件，但對於行星地質學家來說卻是一份珍貴的科學禮物。這次撞月可能為未來的太空任務提供重要的資料。科學家可以從這次事件中學到月球表面的物理性質、地質結構以及撞擊的影響。這些資訊將有助於科學家更好地了解月球的歷史和演化。這次事件也可能為科學家提供了研究月球表面和內部結構的機會。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "1a61cd9a",
+        "title": "『火焰就在那裡』- 華盛頓州大火逃難者述情",
+        "url": "https://www.bbc.co.uk/news/articles/c8xn1nlpd7xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 21:48:39 GMT",
+        "summary_zh": "華盛頓州近期爆發嚴重的大火，許多家庭被迫逃離家園。有些人返回家園時發現，家園已被大火燒成灰燼，只剩下焦黑的樹木屍體從熾熱的地面冒出。這場大火對當地居民造成了深重的傷害，許多人失去了家園，生活陷入困境。政府正在努力應對這場災難，提供援助和支持給受影響的家庭。這場大火也引起了對森林管理和防火措施的關注，許多人呼籲政府採取更積極的措施來防止類似的災難發生。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "b3aee12a",
+        "title": "俄羅斯導彈襲擊基輔造成一人死亡、多人受傷",
+        "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 12:26:26 GMT",
+        "summary_zh": "俄羅斯對基輔發動大規模攻擊，俄羅斯軍方釋放導彈，擊中民居。基輔軍方行政長官表示，俄羅斯再次大規模攻擊，導致一人死亡、多人受傷。這次襲擊顯示俄羅斯對烏克蘭的軍事行動仍在持續進行，對烏克蘭民眾造成嚴重影響。烏克蘭政府將繼續努力應對俄羅斯的軍事攻勢，保護國民安全。這次襲擊也引起國際社會的關注，各國領袖紛紛譴責俄羅斯的行動。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ce64c258",
+        "title": "德國機場發現載有炸藥的無人機",
+        "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 14:32:27 GMT",
+        "summary_zh": "德國機場發現一架載有炸藥的無人機，該無人機被發現在烏克蘭貨機附近，事後還有一個物體與貨機在空中碰撞。這個事件引起了關注，德國警察正在調查此事。這個事件可能會對德國機場的安全造成影響，德國政府可能會採取措施來防止類似事件的發生。目前，德國警察仍在調查中，尚未公佈更多資訊。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "693e00a1",
+        "title": "人權高級專員對伊朗自三月來執行死刑人數急升感到擔憂",
+        "url": "https://www.bbc.co.uk/news/articles/c75gvzxrz49o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 14:04:09 GMT",
+        "summary_zh": "人權高級專員沃克·特克 (Volker Türk) 表示，自三月以來，伊朗已執行 56 人，罪名與國家安全相關，包括 27 人與今年一月的抗議活動有關。伊朗政府近期對於抗議活動的處理引起了國際社會的關注。自三月以來，伊朗執行死刑人數的急升，引起了人權組織和國際社會的擔憂。這些執行多是與國家安全相關的罪名，包括與抗議活動有關的案件。人權高級專員沃克·特克強調，伊朗政府應該確保執行死刑的程序公正合理，並且應該對抗議活動的處理進行透明度。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "83cb35fc",
+        "title": "意大利垃圾工人幫助找回被丟棄的€1,000,000彩券",
+        "url": "https://www.bbc.co.uk/news/articles/c62qvll0z94o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 12:33:43 GMT",
+        "summary_zh": "意大利一名玩家在發現他曾經錯過了中獎的彩券後，才意識到他早前把€1,000,000的彩券丟棄在垃圾中。這名玩家一直以來都在玩同一組號碼，直到家人告訴他這組號碼已經中獎。隨後，垃圾工人在清掃垃圾時發現了這張彩券，幫助玩家找回了他錯過的中獎機會。這個事件讓人們感受到幸運和意外的巧合。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "db5ace73",
+        "title": "墨西哥網紅在直播中被槍殺",
+        "url": "https://www.bbc.co.uk/news/articles/cx2kg709qd9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 11:00:47 GMT",
+        "summary_zh": "墨西哥一名網紅César Gastélum在直播中被一名男子開著摩托車從近距離內槍殺。César Gastélum以喜劇和生活風格的帖子聞名。這起事件發生在墨西哥的某個地方，當地警方正在調查此案。這種槍擊事件對墨西哥的網紅社群造成了沉重的打擊，許多人對此感到震驚和憤怒。網紅的死亡可能會對墨西哥的社會和網路產生深遠的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "144be210",
+        "title": "巴基斯坦限制外國媒體報導",
+        "url": "https://www.bbc.co.uk/news/articles/cn0n9w95n70o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 11:19:42 GMT",
+        "summary_zh": "巴基斯坦政府近日宣布，任何為外國媒體工作的人員，包括巴基斯坦公民，將需要獲得許可才能在巴基斯坦境外的任何地方進行報導。這項新規定將限制外國媒體在巴基斯坦境外的報導自由。根據新規定，外國媒體人員需要在三個主要城市外獲得許可才能進行報導。這項措施引發外界關注，擔心這可能會限制新聞自由和外國媒體的工作。巴基斯坦政府稱，這項措施是為了維護國家安全和穩定。然而，許多人認為，這項措施將會對巴基斯坦的新聞自由和外國媒體的工作造成嚴重影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1053d182",
+        "title": "石油價格下跌 因霍爾木茲海峽可能重新開放",
+        "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 03:44:30 GMT",
+        "summary_zh": "霍爾木茲海峽是世界上最重要的石油運輸通道，近期因為軍事衝突而被封鎖，導致石油價格大幅上漲。美國國務卿馬可·魯比奧和財政部長史考特·貝森特宣布，談判進展順利，可能會允許石油船隻重新開放通過霍爾木茲海峽。這項消息使得石油市場感到樂觀，石油價格因此下跌。然而，仍有許多不確定性，霍爾木茲海峽是否能夠重新開放，還需要進一步的談判和確認。石油價格的下跌可能會對全球經濟產生一定的影響，特別是對於石油出口國和石油消費國。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d8da9015",
+        "title": "像炸彈一樣 - 斯波坎居民反應，數百間房屋被大火燒毀",
+        "url": "https://www.bbc.co.uk/news/videos/c3v0nyyeg3wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 04 Aug 2026 19:25:46 GMT",
+        "summary_zh": "美國華盛頓州斯波坎發生嚴重大火，超過 700 處房屋被燒毀。警方已經逮捕了一名涉嫌縱火的嫌疑人，並將其控告為一級縱火罪。這場大火對當地居民造成了嚴重的影響，許多人喪失了家園。政府正在協助災民重建房屋，並提供援助。這場大火的原因尚未明朗，但警方正在調查中。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "4956d248",
+        "title": "韓國警方突擊搜查星巴克總部　因「坦克節」事件引發爭議",
+        "url": "https://www.bbc.co.uk/news/articles/c0kmd4xpr46o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 07:04:45 GMT",
+        "summary_zh": "近日，韓國警方對星巴克韓國總部進行突擊搜查，原因是公司被指在社交媒體上對於「坦克節」事件作出不當表現。坦克節是韓國的一個節日，紀念1980年光州民主運動。然而，星巴克在社交媒體上發佈了一則與坦克節無關的內容，引起了民眾的不滿。這一事件引發了對於公司對於文化敏感性的質疑。韓國政府和民眾對於公司的表現感到不滿，要求公司道歉並改善其文化敏感性。這一事件也引發了對於公司全球化的挑戰和文化差異的討論。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c8dde13c",
+        "title": "阿富汗拳擊手出庭受審 涉嫌與蘇格蘭女性死亡案有關",
+        "url": "https://www.bbc.co.uk/news/articles/cq56qejll6vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Wed, 05 Aug 2026 09:22:52 GMT",
+        "summary_zh": "阿富汗拳擊手沙里夫·阿哈德扎伊（Sharif Ahmadzai）因涉嫌與蘇格蘭女性艾莉莎貝斯·瓊·羅斯（Elisabeth Jane Ross）死亡案有關，目前被拘留。艾莉莎貝斯·瓊·羅斯是一位來自愛丁堡的女性。事件的具體細節尚未披露。這一案件的影響尚待觀察，目前尚無明確的後續展望。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "bf548c14",
         "title": "厄爾尼諾可能將50萬人推入嚴重飢餓前景惡化",
@@ -94,18 +432,6 @@
         "ai_classified": true
       },
       {
-        "id": "dcd7272e",
-        "title": "美國稱霍爾木茲海峽是「自由和開放的」",
-        "url": "https://www.cnbc.com/2026/08/05/us-iran-war-trump-hormuz-bessent-iran-deal-close.html",
-        "source": "Cnbc",
-        "category": "global",
-        "published_at": "2026-08-05 01:26:27",
-        "summary_zh": "美國中東指揮部表示，霍爾木茲海峽的「南路」仍然是「自由和開放的」。美國官員表示，與伊朗達成協議的進展接近。霍爾木茲海峽是世界上最重要的石油運輸通道，伊朗和美國在該區域的緊張關係已經數月不斷升級。美國官員的聲明表明，美國仍然致力於確保該海峽的安全和自由。這一發展可能對全球石油市場和地區政治產生重大影響。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
         "id": "e9a15d37",
         "title": "秘魯教宗稱$150億美元鉛中毒和解為「歷史里程碑」",
         "url": "https://www.theguardian.com/global-development/2026/aug/05/peruvian-cardinal-historic-milestone-150m-lead-poisoning-settlement-1300-children",
@@ -114,8 +440,8 @@
         "published_at": "Wed, 05 Aug 2026 10:40:03 GMT",
         "summary_zh": "秘魯教宗佩德羅·巴雷托（Pedro Barreto）近20年來一直挑戰美國礦業公司在安第斯山脈的營運，期間曾收到死亡威脅和騷擾。他在6月時在羅馬會見教皇雷奧十四世（Pope Leo XIV）和其他教宗時，得知該公司Doe Run Company（Renco Group的子公司）將支付$150億美元給1,373名因為在童年時期接觸鉛中毒而受影響的秘魯人。這筆和解金額達到$150億美元，對於受影響的秘魯人來說是一個重大勝利。然而，這也是一個令人遺憾的事件，因為這些人在童年時期就已經遭受鉛中毒的影響。秘魯政府和美國公司的和解將為受影響的秘魯人帶來希望和救助。這個事件也提醒我們，環境保護和人權的重要性。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "8430d2dc",
@@ -154,114 +480,6 @@
         "ai_classified": true
       },
       {
-        "id": "b3aee12a",
-        "title": "俄羅斯導彈襲擊基輔造成一人死亡、多人受傷",
-        "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 12:26:26 GMT",
-        "summary_zh": "俄羅斯對基輔發動大規模攻擊，俄羅斯軍方釋放導彈，擊中民居。基輔軍方行政長官表示，俄羅斯再次大規模攻擊，導致一人死亡、多人受傷。這次襲擊顯示俄羅斯對烏克蘭的軍事行動仍在持續進行，對烏克蘭民眾造成嚴重影響。烏克蘭政府將繼續努力應對俄羅斯的軍事攻勢，保護國民安全。這次襲擊也引起國際社會的關注，各國領袖紛紛譴責俄羅斯的行動。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "144be210",
-        "title": "巴基斯坦限制外國媒體報導",
-        "url": "https://www.bbc.co.uk/news/articles/cn0n9w95n70o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 11:19:42 GMT",
-        "summary_zh": "巴基斯坦政府近日宣布，任何為外國媒體工作的人員，包括巴基斯坦公民，將需要獲得許可才能在巴基斯坦境外的任何地方進行報導。這項新規定將限制外國媒體在巴基斯坦境外的報導自由。根據新規定，外國媒體人員需要在三個主要城市外獲得許可才能進行報導。這項措施引發外界關注，擔心這可能會限制新聞自由和外國媒體的工作。巴基斯坦政府稱，這項措施是為了維護國家安全和穩定。然而，許多人認為，這項措施將會對巴基斯坦的新聞自由和外國媒體的工作造成嚴重影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "83cb35fc",
-        "title": "意大利垃圾工人幫助找回被丟棄的€1,000,000彩券",
-        "url": "https://www.bbc.co.uk/news/articles/c62qvll0z94o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 12:33:43 GMT",
-        "summary_zh": "意大利一名玩家在發現他曾經錯過了中獎的彩券後，才意識到他早前把€1,000,000的彩券丟棄在垃圾中。這名玩家一直以來都在玩同一組號碼，直到家人告訴他這組號碼已經中獎。隨後，垃圾工人在清掃垃圾時發現了這張彩券，幫助玩家找回了他錯過的中獎機會。這個事件讓人們感受到幸運和意外的巧合。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1a61cd9a",
-        "title": "『火焰就在那裡』- 華盛頓州大火逃難者述情",
-        "url": "https://www.bbc.co.uk/news/articles/c8xn1nlpd7xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 21:48:39 GMT",
-        "summary_zh": "華盛頓州近期爆發嚴重的大火，許多家庭被迫逃離家園。有些人返回家園時發現，家園已被大火燒成灰燼，只剩下焦黑的樹木屍體從熾熱的地面冒出。這場大火對當地居民造成了深重的傷害，許多人失去了家園，生活陷入困境。政府正在努力應對這場災難，提供援助和支持給受影響的家庭。這場大火也引起了對森林管理和防火措施的關注，許多人呼籲政府採取更積極的措施來防止類似的災難發生。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "db5ace73",
-        "title": "墨西哥網紅在直播中被槍殺",
-        "url": "https://www.bbc.co.uk/news/articles/cx2kg709qd9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 11:00:47 GMT",
-        "summary_zh": "墨西哥一名網紅César Gastélum在直播中被一名男子開著摩托車從近距離內槍殺。César Gastélum以喜劇和生活風格的帖子聞名。這起事件發生在墨西哥的某個地方，當地警方正在調查此案。這種槍擊事件對墨西哥的網紅社群造成了沉重的打擊，許多人對此感到震驚和憤怒。網紅的死亡可能會對墨西哥的社會和網路產生深遠的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "16714ffa",
-        "title": "南韓氣溫創新高達42.5℃，至少19人因熱浪死亡",
-        "url": "https://www.bbc.co.uk/news/videos/c935ng9n2klo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 11:30:39 GMT",
-        "summary_zh": "南韓正遭受嚴重的熱浪，氣溫創下新高達42.5℃，超越歷史紀錄。這場熱浪導致至少19人死亡，南韓政府已經出動各種措施來應對這場天災。熱浪的影響不僅限於南韓，整個東亞地區都在經歷著異常高的氣溫。南韓政府已經發布警告，建議民眾盡量避免外出，特別是在白天。政府還出動了救援隊伍，提供給民眾水和食物。熱浪的原因是氣候變化的結果，南韓政府已經承諾會採取措施來減少氣候變化的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1053d182",
-        "title": "石油價格下跌 因霍爾木茲海峽可能重新開放",
-        "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 03:44:30 GMT",
-        "summary_zh": "霍爾木茲海峽是世界上最重要的石油運輸通道，近期因為軍事衝突而被封鎖，導致石油價格大幅上漲。美國國務卿馬可·魯比奧和財政部長史考特·貝森特宣布，談判進展順利，可能會允許石油船隻重新開放通過霍爾木茲海峽。這項消息使得石油市場感到樂觀，石油價格因此下跌。然而，仍有許多不確定性，霍爾木茲海峽是否能夠重新開放，還需要進一步的談判和確認。石油價格的下跌可能會對全球經濟產生一定的影響，特別是對於石油出口國和石油消費國。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4956d248",
-        "title": "韓國警方突擊搜查星巴克總部　因「坦克節」事件引發爭議",
-        "url": "https://www.bbc.co.uk/news/articles/c0kmd4xpr46o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 07:04:45 GMT",
-        "summary_zh": "近日，韓國警方對星巴克韓國總部進行突擊搜查，原因是公司被指在社交媒體上對於「坦克節」事件作出不當表現。坦克節是韓國的一個節日，紀念1980年光州民主運動。然而，星巴克在社交媒體上發佈了一則與坦克節無關的內容，引起了民眾的不滿。這一事件引發了對於公司對於文化敏感性的質疑。韓國政府和民眾對於公司的表現感到不滿，要求公司道歉並改善其文化敏感性。這一事件也引發了對於公司全球化的挑戰和文化差異的討論。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c8dde13c",
-        "title": "阿富汗拳擊手出庭受審 涉嫌與蘇格蘭女性死亡案有關",
-        "url": "https://www.bbc.co.uk/news/articles/cq56qejll6vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Wed, 05 Aug 2026 09:22:52 GMT",
-        "summary_zh": "阿富汗拳擊手沙里夫·阿哈德扎伊（Sharif Ahmadzai）因涉嫌與蘇格蘭女性艾莉莎貝斯·瓊·羅斯（Elisabeth Jane Ross）死亡案有關，目前被拘留。艾莉莎貝斯·瓊·羅斯是一位來自愛丁堡的女性。事件的具體細節尚未披露。這一案件的影響尚待觀察，目前尚無明確的後續展望。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "900dadb5",
         "title": "一場山崩摧毀了登山傳奇和一代登山指導的生涯",
         "url": "https://www.bbc.co.uk/news/articles/cm2ge4dnj80o?at_medium=RSS&at_campaign=rss",
@@ -269,18 +487,6 @@
         "category": "global",
         "published_at": "Tue, 04 Aug 2026 22:09:50 GMT",
         "summary_zh": "在巴基斯坦發生的山崩事件，摧毀了尼泊爾登山界的一代登山指導。這些指導員的同事表示，這場山崩對尼泊爾登山界造成了毀滅性的打擊。這些指導員在尼泊爾登山界享有崇高的聲譽，曾多次締造登山紀錄。這場山崩不僅摧毀了這些指導員的生涯，也摧毀了尼泊爾登山界的一代領導者。尼泊爾登山界的同事們對這場山崩感到震驚和難過，認為這是一個沉重的打擊。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d8da9015",
-        "title": "像炸彈一樣 - 斯波坎居民反應，數百間房屋被大火燒毀",
-        "url": "https://www.bbc.co.uk/news/videos/c3v0nyyeg3wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 04 Aug 2026 19:25:46 GMT",
-        "summary_zh": "美國華盛頓州斯波坎發生嚴重大火，超過 700 處房屋被燒毀。警方已經逮捕了一名涉嫌縱火的嫌疑人，並將其控告為一級縱火罪。這場大火對當地居民造成了嚴重的影響，許多人喪失了家園。政府正在協助災民重建房屋，並提供援助。這場大火的原因尚未明朗，但警方正在調查中。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -323,6 +529,30 @@
       }
     ],
     "ai": [
+      {
+        "id": "582b089a",
+        "title": "谷歌助手將於下月消失於你的手機",
+        "url": "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-08-05T07:12:50-04:00",
+        "summary_zh": "谷歌助手自 Gemini 的出現後就面臨著被淘汰的命運，現在它的時候終於到了。谷歌宣布將於 9 月 4 日停止 Android 手機和平板電腦上的谷歌助手服務，同時也將停止對智能手錶、耳機等配對裝置的支持。這項消息透過一封郵件傳達給了相關用戶。谷歌助手的消失將對使用者造成影響，尤其是那些習慣使用助手功能的用戶。這也意味著 Google 將更加聚焦於 Gemini 的發展。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "ffc93980",
+        "title": "川普政府的 AI 測試計畫有限且模糊",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-08-05T06:29:47-04:00",
+        "summary_zh": "川普政府針對先進 AI 項目可能造成的網路安全風險所制定的框架，據Axios報導，該框架明顯排除對開放模型進行測試。這意味著任何人都可以下載這些模型並檢視其核心元件。這些框架還明確指出，不能使用它來評估開放模型。這個框架的限制和模糊性引起了關注，因為它可能會限制開放模型的發展和應用。這可能會對 AI 研究和發展造成負面影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "9be0fafa",
         "title": "AMD 數據中心業務興旺，遊戲業務則步履艱難",
@@ -408,177 +638,79 @@
         "ai_classified": true
       }
     ],
-    "stock_tw": [
-      {
-        "id": "36c017c4",
-        "title": "藍天第二季每股賺3.44元 明年推RTX Spark機種",
-        "url": "https://www.cna.com.tw/news/afe/202608050311.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 19:38:38 +0800",
-        "summary_zh": "台北-筆電製造商藍天電腦今天公布2026年第二季財報，顯示業績大幅增長。受惠於本業營運穩定成長和業外獲利，藍天電腦的合併營收達新台幣65.3億元，季增32%。歸屬母公司業主淨利約19.89億元，季增逾4.6倍，每股盈餘3.44元創單季歷史新高。這表明藍天電腦在市場上的競爭力和財務狀況都在改善。明年，藍天電腦將推出RTX Spark機種，這可能會對市場產生新的影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "eafaf445",
-        "title": "台股震盪外資7月轉淨匯出仍創同期最大累計淨匯入",
-        "url": "https://www.cna.com.tw/news/afe/202608050309.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 19:26:34 +0800",
-        "summary_zh": "台股在7月下旬出現連日震盪，但月底展開大反攻，帶動跌幅收斂。根據金管會統計，7月外陸資轉呈淨匯出29.26億美元，創近5年同期第4大淨匯出。雖然如此，今年以來截至7月底，台股仍創下累計淨匯入738.55億美元的新高。這表明外資投資者仍對台股有信心，儘管短期內出現波動。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6ebd7297",
-        "title": "簡立忠遭冒名製作詐騙影片 櫃買中心籲提高警覺",
-        "url": "https://www.cna.com.tw/news/afe/202608050308.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 19:20:32 +0800",
-        "summary_zh": "近期台股劇烈震盪，為了趁機詐騙投資者，不法人士開始冒用櫃買中心董事長簡立忠的影像，利用AI深度偽造音訊影片，於社群媒體散布投資詐騙訊息。櫃買中心提醒民眾務必提高警覺，以免上當。這種詐騙手法非常危險，投資者需要謹慎處理社群媒體上的訊息，避免被騙。櫃買中心也呼籲投資者不要輕易相信未經核實的訊息，應該先查證後行動。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0b678935",
-        "title": "超商雙雄上半年本業穩健 獲利與EPS皆創同期次高",
-        "url": "https://www.cna.com.tw/news/afe/202608050303.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 18:58:21 +0800",
-        "summary_zh": "全家公布今年上半年財報，營收達新台幣569.9億元，年增8.09%，創同期新高。歸屬母公司業主淨利8.25億元，年增7.22%，每股盈餘3.69元，獲利與每股盈餘雙創同期次高。受惠便利商店本業穩健、既存店日均銷售成長。這表明全家在便利商店業務上取得了良好的成績，營收和獲利都達到了同期的新高。這對於全家未來的發展前景是有利的。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "90915189",
-        "title": "桃園市建築師公會阻礙協審競爭 公平會開罰50萬",
-        "url": "https://www.cna.com.tw/news/afe/202608050301.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 18:55:16 +0800",
-        "summary_zh": "桃園市建築師公會因為杯葵其他團體擔任建築執照協審單位，違反了公平交易法。公平會今天委員會議決議開罰，除了令桃園市建築師公會立即停止違法行為外，還處以新台幣50萬元罰鍰。這項罰款是公平會對於桃園市建築師公會違反公平交易法的處理結果。桃園市建築師公會的這種行為不僅違反了法律規定，也影響了其他團體的競爭公平性。這項罰款將對桃園市建築師公會造成一定的影響，可能會讓他們重新檢視自己的行為，並改善未來的競爭環境。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a4ca1fb3",
-        "title": "台糖首度參展文博會 方糖變身IP「角糖」搶攻文創",
-        "url": "https://www.cna.com.tw/news/afe/202608050300.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 18:53:14 +0800",
-        "summary_zh": "台糖將於2026年台灣文博會品牌商展區登場，首度參展並推出首款IP「角糖」。這個品牌角色以昔日經典方糖為靈感，台糖開發了13項文創商品，包括限量公仔、車用擴香石等。台糖希望通過「角糖」建立與新世代的連結，讓更多人認識糖業文化。這項嘗試表明台糖正嘗試將其品牌延伸到文創領域，與年輕消費者建立更密切的關係。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "4de08ef6",
-        "title": "英業達7月營收創單月次高 人工智慧伺服器需求強勁",
-        "url": "https://www.cna.com.tw/news/afe/202608050296.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 18:42:06 +0800",
-        "summary_zh": "英業達公布7月合併營收約新台幣901.9億元，雖然比6月減少11.8%，但仍創單月歷史次高。這主要是受惠於人工智慧（AI）伺服器的強勁需求。今年7月的營收年增65.7%，表明英業達在伺服器產業上取得了顯著的成長。經營團隊預期，第3季伺服器出貨將較第2季成長，這表明英業達將繼續受惠於人工智慧伺服器的需求。這項消息對於英業達的股價和未來發展都有重要的影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "13084dd0",
-        "title": "AI需求推升動能 研華估第3季營收雙增、毛利率持穩",
-        "url": "https://www.cna.com.tw/news/afe/202608050294.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 18:33:01 +0800",
-        "summary_zh": "工業電腦廠研華預估第3季營收將雙增，毛利率及營業利益率將維持第2季水準。受惠於人工智慧（AI）相關應用需求，研華經營團隊看好整體接單動能維持高檔水準。這意味著研華將繼續受益於AI需求的推升，營收和利潤都將保持穩定。然而，未來仍然存在市場變化的風險，研華需要繼續監測市場趨勢並做好準備。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "87407612",
-        "title": "NCC：無委員在任 無法辦理藍牙器材等進口核准函",
-        "url": "https://www.cna.com.tw/news/afe/202608050292.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 18:26:57 +0800",
-        "summary_zh": "近日，有民眾在社群發文指出，在日本購買音響寄回台灣卻被告知NCC沒有委員可過證。NCC今天表示，除個人自用特定數量與條件外，藍牙器材、4G及5G手機等各類射頻管制器材自海外進口，須先向NCC辦理進口核准函。但由於8月1日起無委員在任，目前無法辦理。這項政策變化對於台灣的電子產品進口業界可能造成影響。目前，NCC尚未公布恢復辦理進口核准函的時間表。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "8f5b0a8d",
-        "title": "台南市率團訪波蘭 拓展智慧製造與無人機市場",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5529763",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 19:48:51 +0800",
-        "summary_zh": "為協助在地企業拓展歐洲市場，台南市政府籌組智慧機器人、無人載具、精密製造及關鍵零組件等產業交流團前往波蘭。這次訪問的目的是促進台波產業合作，讓台南市的企業能夠與波蘭的企業建立關係，拓展雙方的合作機會。台南市政府認為，這次訪問將能夠幫助在地企業進軍歐洲市場，增加出口額和創造就業機會。同時，台南市政府也希望能夠與波蘭的政府和企業建立更密切的合作關係，促進雙方的經濟發展。這次訪問的成果將對台南市的經濟發展有重要影響，讓我們期待著這次訪問的成功。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e046029e",
-        "title": "雙月食品社祭出百萬介紹獎搶人 員工推薦最高分可抱回100萬元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5529851",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 19:39:33 +0800",
-        "summary_zh": "雙月食品社因應缺工潮，推出「百萬介紹王」專案，鼓勵員工推薦優質人才加入團隊。員工可通過積分累積系統，推薦親朋好友加入公司，最高可獲得100萬元獎金。這項措施旨在拓寬多元人才招募管道，吸引更多優秀人才加入公司。雙月食品社的這一舉動，表明公司對人才的重視和對未來發展的信心。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "664fa5c5",
-        "title": "熱錢回來了！新台幣勁揚1.32角 收復32.3元關卡",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5529850",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 19:33:53 +0800",
-        "summary_zh": "台股今日大漲逾千點，新台幣兌美元匯率也在外資熱錢回流及美元走弱帶動下強勢走升1.32角，收復32.3元關卡。市場預期美國與伊朗可望達成協議，恢復荷姆茲海峽通行，國際油價將回落，激勵美股四大指數全面收紅。外資熱錢回流對台股的影響顯著，市場預期台股將持續走強。然而，投資者仍需關注全球經濟的變化和政治風險，避免過度樂觀。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "87580f63",
-        "title": "藍天第二季每股賺3.44元 創單季最強紀錄",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5529847",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 19:31:52 +0800",
-        "summary_zh": "藍天在第二季取得傲人業績，稅後淨利達到19.89億元，每股盈餘高達3.44元，創下歷史單季新高。這種成績主要是由於公司的營運穩健成長和匯兌利益的貢獻。藍天的這種表現令人印象深刻，展望下半年，公司將持續優化產品組合，加大投資和研發力度，以保持競爭力和穩定成長。這種積極的策略將對公司未來的發展產生積極影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f85a19ae",
-        "title": "這國千萬富翁總數相當台灣總人口 每天新增超過1千名！",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5529856",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 05 Aug 2026 19:31:37 +0800",
-        "summary_zh": "在當今經濟情勢下，擁有七位數淨資產已不再像過去那麼罕見。根據最新數據，美國有超過1000人每天成為百萬美元富翁，總數已經達到相當於台灣總人口的水平。這表明美國的財富分配正在快速改變。七位數淨資產的增加不僅僅是個人財富的增長，也是經濟結構和社會結構的變化。這種變化可能會對美國的社會和經濟產生深遠的影響。美國政府和政策制定者需要關注這種趨勢並采取適當的措施來調整經濟和社會結構。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
     "finance": [
+      {
+        "id": "05b66f4a",
+        "title": "印度盧比將再次受益於原油價格下跌， RBI 決策待續",
+        "url": "https://www.reuters.com/world/india/rupee-get-fresh-boost-further-drop-crude-rbi-decision-awaited-2026-08-05/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-08-05 02:57:44",
+        "summary_zh": "印度盧比近期受原油價格上升的影響，但隨著原油價格再次下跌，印度盧比有望再次獲得提振。印度中央銀行（RBI）將於近期內宣布貨幣政策決策，這將對印度盧比的走勢產生重大影響。分析師預測，RBI 將採取措施降低利率以刺激經濟增長，從而對印度盧比產生正面影響。印度政府正在努力控制通貨膨脹，同時保持經濟增長的平衡。印度盧比的走勢將受到 RBI 決策、原油價格和經濟增長率等多個因素的影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "4a98f4b0",
+        "title": "日本執政黨支持高達 10% 的食品稅減免計畫，儘管財政憂慮",
+        "url": "https://www.reuters.com/legal/transactional/japans-ruling-party-backs-takaichis-costly-food-tax-cut-plan-despite-fiscal-2026-08-05/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-08-05 02:39:43",
+        "summary_zh": "日本執政黨自民黨日前表態支持內閣官房長官西村明宏的食品稅減免計畫，該計畫將降低食品稅至 10%，但此舉引發了財政部門的憂慮。西村明宏表示，這項措施將幫助消費者節省 1 萬日元左右的費用，同時也會刺激經濟。然而，財政部長松野博一則表示，這項措施將會使財政赤字增加 1.2 萬億日元。自民黨的支持意味著該計畫將很可能通過，儘管財政部門對此表示擔憂。這項措施的通過將對日本的財政產生重大影響，同時也會對消費者和經濟產生影響。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "d2581ee3",
+        "title": "印度大型保險公司 LIC 大規模發行股票吸引投資人，儘管印度IPO市場陷入停滯",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-08-05/lic-s-big-share-sale-draws-investors-even-as-india-s-ipo-market-stalls",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-08-05 02:36:36",
+        "summary_zh": "印度最大的保險公司 Life Insurance Corporation (LIC) 進行大規模發行股票，吸引了大量投資人參與。儘管印度的IPO市場近期陷入停滯，LIC 的發行仍然引起了市場的關注。這次發行的目標是籌集 21,000 億盧比（約 240 億美元），將成為印度史上最大規模的股票發行。投資人對 LIC 的財務表現感到樂觀，認為公司的業務持續穩定，盈利能力強勁。然而，市場分析師也提醒，印度的經濟環境和政策變化可能會對公司的未來表現產生影響。LIC 的發行將對印度的股市產生重大影響，投資人將密切關注公司的表現。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2f0a5e35",
+        "title": "通用汽車與中國汽車公司延長20年合作關係，儘管美中地緣政治緊張",
+        "url": "https://www.cnbc.com/2026/08/04/gm-chinese-automaker-extend-tie-up-amid-geopolitical-tensions-with-us.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-08-05 02:30:01",
+        "summary_zh": "通用汽車（GM）宣布與中國汽車公司延長20年的合作關係，這項協議將專注於中國內地銷售雪佛蘭（Buick）和凱迪拉克（Cadillac）車款，以及將在中國生產的雪佛蘭車款出口至非美洲市場。這項協議的簽署，儘管美中地緣政治關係緊張，但仍表明雙方對於中國市場的重要性持續關注。這項合作關係的延長將對中國汽車市場產生重要影響，同時也將考慮到美中地緣政治關係的變化。未來，雙方將需要密切監測中國市場的變化，並適應新的商業環境。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b06d225e",
+        "title": "泰馬塞克、摩根士丹利被指正在考慮Adtek前IPO投資",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-05/temasek-morgan-stanley-are-said-to-eye-adtek-pre-ipo-investment",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-08-05 02:27:13",
+        "summary_zh": "泰馬塞克和摩根士丹利被指正在考慮對Adtek進行前IPO投資。這家公司正在籌措資金，以便在未來的IPO中進行融資。泰馬塞克和摩根士丹利的投資將有助於Adtek在未來的發展中取得更大的成長。這項投資將對Adtek的未來業務發展產生重大影響。然而，目前尚未有任何官方確認。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "8777a71d",
+        "title": "SpaceX 首次財報顯示虧損和巨額開支",
+        "url": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "finance",
+        "published_at": "Wed, 05 Aug 2026 14:04:43 GMT",
+        "summary_zh": "SpaceX 首次公布財報，表明該公司在市場上仍然面臨挑戰。儘管公司在上市時獲得了投資者的熱情，但目前仍然難以維持這種情況。SpaceX 的財報顯示公司在去年虧損了數億美元，同時公司的開支也達到了前所未有的水平。這表明公司在發展新技術和推進太空探索的過程中，仍然面臨著巨額的資金需求。投資者對 SpaceX 的投資前景仍然存疑，未來公司的發展方向和財務狀況將值得關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
       {
         "id": "69fb2138",
         "title": "Manipal Health 首次公開募股在孟買市集平穩登場",
@@ -588,8 +720,8 @@
         "published_at": "2026-08-05 02:00:00",
         "summary_zh": "Manipal Health Enterprises Ltd. 將在孟買股市平穩登場，該公司的 960 億美元首次公開募股預計將在市場上引起冷淡反應。市場上灰色市場交易的跡象表明投資者情緒正在降低。Manipal Health 的首次公開募股是孟買股市近期的一個重大事件，該公司將在市場上推出 960 億美元的股票。然而，市場上灰色市場交易的跡象表明投資者對該公司的反應不熱烈。這可能是由於投資者對市場情況的不確定性或投資者對該公司的評估不佳。Manipal Health 的首次公開募股將對孟買股市產生影響，投資者將密切關注該公司的表現。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "aff48834",
@@ -600,8 +732,8 @@
         "published_at": "2026-08-05 01:54:18",
         "summary_zh": "日圓在日本央行的干預後穩定下來，美元則因為中東局勢的改善而跌至近六周低點。市場人士認為，美國和伊朗的談判進展正給美元帶來壓力。儘管美國聯邦儲備委員會（FED）在最近的會議中表明將繼續提高利率，但市場仍對美元的下跌感到意外。分析師表示，美元的下跌是由於市場對美元的需求減少，而不是因為美元本身的弱點。另一方面，日圓的穩定是由於日本央行的干預和市場對日圓的需求增加。市場人士預測，美元的下跌將繼續下去，日圓將繼續穩定。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "1ecde24f",
@@ -611,54 +743,6 @@
         "category": "finance",
         "published_at": "2026-08-05 01:53:44",
         "summary_zh": "中國服務業增長速度出現下滑，私營 PMI 指數顯示，中國服務業增長速度已經達到 2024 年 9 月以來的最低點。這一趨勢與全球經濟下行和中國內部政策調整有關。私營 PMI 顯示，中國服務業的新訂單和生產量都出現下滑，表明企業面臨著嚴重的挑戰。這一趨勢對中國經濟的影響將是持續性的，可能會導致更多的就業和經濟活動下滑。中國政府可能會採取措施來刺激經濟增長，但這一趨勢仍然令人擔憂。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "22cccd9a",
-        "title": "石油價格穩定，投資人關注霍爾木茲海峽交通",
-        "url": "https://www.reuters.com/business/energy/oil-steadies-after-two-day-slump-investors-eye-hormuz-traffic-2026-08-05/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-08-05 01:27:43",
-        "summary_zh": "石油價格近日出現兩天的下跌，但隨後穩定。投資人關注霍爾木茲海峽交通情況，該海峽是世界上最重要的石油運輸通道之一。霍爾木茲海峽的交通情況對全球石油市場有重要影響。投資人正在密切關注霍爾木茲海峽的交通情況，以了解石油價格的走勢。石油價格的穩定表明投資人對霍爾木茲海峽的交通情況感到相對樂觀。然而，投資人仍然需要密切關注霍爾木茲海峽的交通情況，以了解石油市場的變化。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "79ddad12",
-        "title": "美聯儲的施密德表示 AI 建設周圍的財務情況值得關注",
-        "url": "https://www.reuters.com/business/feds-schmid-says-finances-around-ai-buildout-merit-watching-2026-08-05/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-08-05 01:23:43",
-        "summary_zh": "美聯儲的施密德表示，與人工智慧相關的財務情況值得關注。這些財務情況包括了投資、融資和出口等方面。他認為，這些財務情況對於了解人工智慧的發展和應用具有重要意義。施密德的聲明表明，美聯儲正在關注人工智慧對全球經濟的影響。人工智慧的發展和應用可能會對全球經濟產生重大影響，包括創造新的就業機會和改變產業結構。美聯儲的關注表明，該機構正在密切關注人工智慧對經濟的影響，並且正在積極研究和監測相關情況。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "b317462b",
-        "title": "菲律賓通膨率第三個月放緩，減輕加息壓力",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-05/philippine-inflation-slows-a-third-month-easing-pressure-for-rate-hike",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-08-05 01:19:07",
-        "summary_zh": "菲律賓通膨率第三個月放緩，降至 6.3%，這是自 2022 年 8 月以來最低點。這項數據表明，菲律賓央行可能會放鬆貨幣政策，減輕加息壓力。菲律賓央行在 2022 年 9 月宣布加息 75 個基點，以控制通膨。自那以來，通膨率一直在上升。然而，最新的數據表明，通膨率正在放緩，這可能會減輕央行的加息壓力。這項數據對菲律賓經濟有重要影響，可能會影響投資者對菲律賓經濟的看法。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "8777a71d",
-        "title": "SpaceX 首次財報顯示虧損和巨額開支",
-        "url": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "finance",
-        "published_at": "Wed, 05 Aug 2026 08:53:40 GMT",
-        "summary_zh": "SpaceX 首次公布財報，表明該公司在市場上仍然面臨挑戰。儘管公司在上市時獲得了投資者的熱情，但目前仍然難以維持這種情況。SpaceX 的財報顯示公司在去年虧損了數億美元，同時公司的開支也達到了前所未有的水平。這表明公司在發展新技術和推進太空探索的過程中，仍然面臨著巨額的資金需求。投資者對 SpaceX 的投資前景仍然存疑，未來公司的發展方向和財務狀況將值得關注。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -686,8 +770,8 @@
         "published_at": "2026-08-05 01:43:06",
         "summary_zh": "SpaceX 首次在 IPO 後面對華爾街，執行官們試圖說服投資者，公司對人工智慧的投資在短期內已經開始帶來回報。儘管如此，投資者仍對公司的 AI 投資感到擔憂。SpaceX 的 AI 投資已經超過 10 億美元，投資者們擔心這些投資是否能夠帶來長期的收益。SpaceX 的執行官們試圖透過數據來證明，公司的 AI 投資已經開始帶來回報，包括提高生產率和降低成本。然而，投資者們仍然對公司未來的發展感到懷疑。這一事件表明，投資者對公司的 AI 投資是否能夠帶來長期收益感到擔憂，這是人工智慧技術在企業中的應用的一個重要問題。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "b5cfa13b",
@@ -786,195 +870,219 @@
         "ai_classified": true
       }
     ],
-    "whitehouse": [
+    "stock_tw": [
       {
-        "id": "e0462d33",
-        "title": "密西根州參議院民主初選競選仍未有結果，埃爾-賽義德領先，但領先幅度微小 – 美國政治實時新聞",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/05/michigan-primary-race-democrats-midterms-senate-el-sayed-haley-stevens-donald-trump-republicans-us-politics-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 13:31:02 GMT",
-        "summary_zh": "密西根州參議院民主初選競選仍未有結果，前公共衛生官員埃爾-賽義德領先美國國會議員海莉史蒂文斯，但領先幅度微小。選票計數仍在進行中，可能會持續到今天。另外，美國共和黨代表馬克斯米勒因家暴指控而面臨黨內退黨壓力，他已經承諾會抵抗這些指控。馬克斯米勒的前岳父伯尼莫雷諾是一名共和黨參議員，他認為馬克斯米勒不適合擔任國會議員。馬克斯米勒被指控曾經用槍指向他的前妻艾米莉，並將她燙傷。他的女兒也遭受了他的虐待，包括一次骨折。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
+        "id": "68d4193e",
+        "title": "中華資安：AI驅動需求下今年成長達雙位數",
+        "url": "https://www.cna.com.tw/news/afe/202608050331.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 20:48:22 +0800",
+        "summary_zh": "中華資安在上半年營收和獲利均創歷年同期新高，每股稅後盈餘（EPS）達6.16元。總經理洪進福表示，受惠於AI驅動資安需求，以及持續性營收穩定成長，對於今年達到雙位數以上成長感到非常有信心。中華資安的成長可以說是市場預期的反饋，AI的發展對資安產生了重大影響，企業和政府都開始重視資安的問題。今年的成長預期值得關注，是否能夠實現雙位數的成長，將是市場的關注點。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
-        "id": "69f2dadc",
-        "title": "美國聯邦航空局調查特朗普的海軍一號機安全事故",
-        "url": "https://www.theguardian.com/us-news/2026/aug/05/trump-faa-marine-one-air-safety-incident",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 12:58:05 GMT",
-        "summary_zh": "美國聯邦航空局正在調查一宗涉及前總統特朗普的海軍一號機安全事故。事件發生在特朗普從白宮出發的時候，空中交通管制員誤將商業航班誤導至與海軍一號機失去安全距離。根據調查，管制員錯誤地未能暫停位於弗吉尼亞州北部的羅納德·里根國家機場的商業航班，導致海軍一號機與一架正在起飛的客機失去安全距離。這宗事故引起了對空中交通安全的關注。",
+        "id": "073b6024",
+        "title": "遠傳娛樂事業營運長首度獲邀國際艾美獎評審",
+        "url": "https://www.cna.com.tw/news/afe/202608050329.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 20:32:18 +0800",
+        "summary_zh": "遠傳電信今天宣布，遠傳娛樂事業營運長蔡俊榮獲國際艾美獎邀請，擔任2026年準決賽評審。這是台灣本土串流影音平台首次獲邀參與國際艾美獎評審工作。蔡俊榮將與全球頂尖媒體業界專家一同評選出今年最佳電視節目。這項榮譽不僅代表遠傳娛樂事業在業界的影響力，也是台灣媒體產業的重要里程碑。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d9cdda0c",
+        "title": "國銀五大信賴產業放款續超標 軍工產業6月增額居冠",
+        "url": "https://www.cna.com.tw/news/afe/202608050319.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 20:00:56 +0800",
+        "summary_zh": "金管會統計顯示，本國銀行對五大信賴產業截至6月底放款餘額達新台幣4兆6452億元，單月增加約2100億元。這意味著本國銀行已經超過了今年3月底累計增加4108億元，達成首期1200億元放款成長目標的342.37%。軍工產業在6月的放款增幅尤其顯著，達2066億元，居冠。這表明國銀對軍工產業的信心和投資意願正在增加。這一發展可能對軍工產業的發展和台灣經濟有所幫助，但也可能引發對銀行風險的關注。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "7929e15a",
+        "title": "台糖：中聯粗油案損失2.43億元 擬向福懋油提告求償",
+        "url": "https://www.cna.com.tw/news/afe/202608050315.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 19:50:47 +0800",
+        "summary_zh": "中聯粗油案再度引發關注，台糖今天宣布，今年5月福懋油脂提供的中聯粗油油源導致台糖商譽受損，同時也導致沙拉油商品損失至少新台幣2.43億元。台糖表示，這些損失是由於外界對油品質量的污指所致。為了追究責任，台糖將會研議向福懋油脂提告求償。這一事件可能會對台糖的商譽和財務造成持續影響。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "817b44bf",
-        "title": "美國父母：您有類似曼達尼2-K推出的計劃嗎？",
-        "url": "https://www.theguardian.com/us-news/2026/aug/05/mamdani-ny-parents-2-k-program",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 12:38:22 GMT",
-        "summary_zh": "美國父母對於曼達尼市長推出的2-K計劃表示高度需求，該計劃為兩歲小孩提供免費早期照護和學習。美國父母們是否有類似的計劃？如果有，該計劃如何幫助或改變您的生活？美國父母們的回應將有助於了解類似計劃的需求和效果。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "06f6f8b8",
-        "title": "共和黨人Chuck Edwards放棄競選連任，受指控性騷擾員工",
-        "url": "https://www.theguardian.com/us-news/2026/aug/05/chuck-edwards-sexual-harassment-reelection",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 12:34:24 GMT",
-        "summary_zh": "美國共和黨北卡羅來納州議員Chuck Edwards宣布不再競選連任。他被美國眾議院倫理委員會指控在工作環境中營造出性騷擾行為，包括送禮物和對兩名年輕女員工的過度關注。倫理委員會建議對Edwards進行譴責。Edwards表示，他將完成目前任期，直到下月底結束。這一事件發生在美國政治新聞中，議員的行為被指違反了倫理標準。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "4094ca11",
-        "title": "密西根州民主黨參選人競選過關，埃爾-賽伊德領先",
-        "url": "https://www.theguardian.com/us-news/2026/aug/05/first-thing-michigan-democratic-primary-too-close-to-call-el-sayed-narrow-lead",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 11:38:14 GMT",
-        "summary_zh": "密西根州民主黨參選人競選過關，埃爾-賽伊德領先。埃爾-賽伊德是前公共衛生官員，目前領先眾議員海利·史蒂文斯。這場選舉對民主黨奪回參議院控制權至關重要。另一方面，華盛頓州民主黨代表瑪麗·格魯森坎普·佩雷茲贏得了參選人選舉，將與共和黨州參議員約翰·布朗競選。密西根州選舉過後，埃爾-賽伊德領先史蒂文斯，但結果仍未確定。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e2606b8a",
-        "title": "「他們在賣掉機場旅客的安全」：TSA員工譴責川普政府私有化計畫",
-        "url": "https://www.theguardian.com/us-news/2026/aug/05/tsa-trump-privatization-push",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 11:00:18 GMT",
-        "summary_zh": "美國交通安全管理局（TSA）工會正在探索反對私有化安全檢查點的計畫。該工會代表美國交通安全管理局的員工，對於將安全檢查點移交給私人承包商的計畫感到擔憂。美國交通安全管理局計劃在坦帕、查爾斯頓和德梅恩三個機場推出「TSA Gold+」計畫，將安全檢查和控制移交給私人承包商。員工們預計會失去工會合同和福利。這項計畫引起了工會的強烈反對，工會正在探索各種方式來反對這項計畫。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bc374a12",
-        "title": "美國退還 1000 億美元的川普「解放日」關稅收入",
-        "url": "https://www.theguardian.com/us-news/2026/aug/05/trump-administration-has-paid-back-100bn-of-165bn-tariff-refunds",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 10:43:44 GMT",
-        "summary_zh": "美國最高法院裁定川普政府的「解放日」關稅違法後，美國政府已退還約 1000 億美元的關稅收入，占總收入的 60%。根據財經時報的報導，美國海關官員於週二向美國國際貿易法院提交了一份報告，顯示退還的金額約為 1000 億美元，總共收取的關稅收入達 1650 億美元。這些關稅收入源於川普政府於 2018 年實施的「解放日」關稅政策，旨在對美國對外貿易進行重大改革。",
+        "id": "36c017c4",
+        "title": "藍天第二季每股賺3.44元 明年推RTX Spark機種",
+        "url": "https://www.cna.com.tw/news/afe/202608050311.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 19:38:38 +0800",
+        "summary_zh": "台北-筆電製造商藍天電腦今天公布2026年第二季財報，顯示業績大幅增長。受惠於本業營運穩定成長和業外獲利，藍天電腦的合併營收達新台幣65.3億元，季增32%。歸屬母公司業主淨利約19.89億元，季增逾4.6倍，每股盈餘3.44元創單季歷史新高。這表明藍天電腦在市場上的競爭力和財務狀況都在改善。明年，藍天電腦將推出RTX Spark機種，這可能會對市場產生新的影響。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "52f5bc56",
-        "title": "ICE強制餵食被指為酷刑：新細節揭露",
-        "url": "https://www.theguardian.com/us-news/2026/aug/05/ice-force-feeding-hunger-strike",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 10:00:17 GMT",
-        "summary_zh": "美國移民局（ICE）強制餵食被指為酷刑，新細節顯示一名阿富汗男子、一名烏克蘭男子和一名沙烏地阿拉伯女子遭受反覆的鼻胃管插入，並缺乏法律代表。據報導，一名在移民拘留中心進行絕食抗議的移民被強制餵食近六個月。一名患有精神健康問題的被拘留者即將被強制餵食，但他的律師介入並停止了這個過程。這些案例引發了對ICE強制餵食實踐的關注，質疑其是否違反人權。ICE強制餵食的做法是否符合人道主義原則？這些案例是否表明ICE對待移民的方式存在問題？",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6dc130b9",
-        "title": "Wesley Bell勝選密蘇里州議會初選，Cori Bush復出競選失利",
-        "url": "https://www.theguardian.com/us-news/2026/aug/04/wesley-bell-missouri-democratic-primary-congress",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 02:02:08 GMT",
-        "summary_zh": "密蘇里州議會初選中，民主黨議員Wesley Bell在聖路易斯地區贏得選舉，結束進步派前議員Cori Bush的復出競選。這次選舉的焦點在於以色列-巴勒斯坦問題。兩年前，Bell以以色列利益團體的支持，擊敗了民主社會主義的Bush。今年的選舉中，Bell再次擊敗了Bush，同時也削弱了近期選舉中，支持巴勒斯坦的候選人所展現的動力。這次選舉是民主黨議員在選舉初選中敗給進步派候選人的又一例子。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8f1d1a06",
-        "title": "密蘇里州否決民眾提案對特朗普支持的重劃選區方案進行公投",
-        "url": "https://www.theguardian.com/us-news/2026/aug/04/missouri-redistricting-plan-vote",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 01:47:33 GMT",
-        "summary_zh": "密蘇里州的最高選舉官員否決了一項公民提案，要求對州議會通過的新國會選區方案進行全州公投。該提案得到前總統特朗普的支持，支持者提交了數十萬份簽名，以強制在11月進行公投，決定是否使用共和黨主導的州議會通過的新國會選區圖。但是，共和黨的州長助理，丹尼·霍斯金斯（Denny Hoskins），於星期二表示，該提案無效，因為國會重劃選區方案不能由選民公投。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "0011cbc9",
-        "title": "美國總統特朗普將訪問加州高爾夫球場，附近遭槍手被捕",
-        "url": "https://www.bbc.co.uk/news/articles/c20jp3mp7lyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 13:58:01 GMT",
-        "summary_zh": "美國總統特朗普即將訪問加州一間高爾夫球場，準備在該地舉辦籌款晚宴。然而就在此時，警方在球場附近逮捕了一名攜帶槍枝的男子。事件發生在總統抵達前不久，警方表示該男子的動機尚未明確。這起事件引發了關注，是否與總統的訪問有關。總統特朗普的安全措施一直受到關注，近日有多起槍擊事件發生在美國各地。這次事件也引發了對總統安全措施的質疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "767677e5",
-        "title": "密西根州民主黨參議員初選將在黨派分裂中產生結果",
-        "url": "https://www.bbc.co.uk/news/articles/c62q0kkr6k2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 12:46:02 GMT",
-        "summary_zh": "密西根州民主黨參議員初選將在黨派分裂中產生結果。中間派國會議員海莉史蒂文斯(Haley Stevens)面臨著左派外圍人士阿卜杜勒·艾爾-賽義德(Abdul El-Sayed)的挑戰。這場初選將考驗著民主黨在黨派分裂中的凝聚力。海莉史蒂文斯被視為一名溫和派候選人，她的競選平台注重於中間路線政策。另一方面，阿卜杜勒·艾爾-賽義德被視為左派候選人，他的競選平台注重於社會主義政策。這場初選將對民主黨的未來產生重要影響，將考驗著黨派分裂的能力。",
+        "id": "eafaf445",
+        "title": "台股震盪外資7月轉淨匯出仍創同期最大累計淨匯入",
+        "url": "https://www.cna.com.tw/news/afe/202608050309.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 19:26:34 +0800",
+        "summary_zh": "台股在7月下旬出現連日震盪，但月底展開大反攻，帶動跌幅收斂。根據金管會統計，7月外陸資轉呈淨匯出29.26億美元，創近5年同期第4大淨匯出。雖然如此，今年以來截至7月底，台股仍創下累計淨匯入738.55億美元的新高。這表明外資投資者仍對台股有信心，儘管短期內出現波動。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "f41d566d",
-        "title": "華盛頓州最大野火案發生人被捕",
-        "url": "https://www.bbc.co.uk/news/articles/c5y3ppmmev1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 00:40:23 GMT",
-        "summary_zh": "華盛頓州斯波坎地區出現三場大火，迫使 60,000 人離開家園。警方已經逮捕了一名涉嫌縱火的嫌疑人。這場大火對當地居民造成了重大影響，許多人被迫暫時離開家園。警方正在調查火災原因，確保未來不再發生類似的事件。這次大火的影響將持續數天，居民應該保持警惕。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3fc8c955",
-        "title": "美國國會議員拒絕放棄競選連任　前妻控告他家暴",
-        "url": "https://www.bbc.co.uk/news/articles/czrj1751r02o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 00:05:47 GMT",
-        "summary_zh": "美國俄亥俄州共和黨議員馬克斯·米勒（Max Miller）因前妻控告他家暴而引起爭議。米勒的前岳父是一名美國參議員，要求米勒辭去國會議員職位。儘管如此，米勒仍堅持競選連任。這一事件引發了對米勒的評判與爭議。米勒的前妻控告他家暴，要求米勒辭去國會議員職位。米勒的前岳父是一名美國參議員，加入了對米勒的批評。米勒的決定引發了對他的評判與爭議。這一事件對米勒的政治前景產生了重大影響。",
+        "id": "6ebd7297",
+        "title": "簡立忠遭冒名製作詐騙影片 櫃買中心籲提高警覺",
+        "url": "https://www.cna.com.tw/news/afe/202608050308.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 19:20:32 +0800",
+        "summary_zh": "近期台股劇烈震盪，為了趁機詐騙投資者，不法人士開始冒用櫃買中心董事長簡立忠的影像，利用AI深度偽造音訊影片，於社群媒體散布投資詐騙訊息。櫃買中心提醒民眾務必提高警覺，以免上當。這種詐騙手法非常危險，投資者需要謹慎處理社群媒體上的訊息，避免被騙。櫃買中心也呼籲投資者不要輕易相信未經核實的訊息，應該先查證後行動。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
       },
       {
-        "id": "a52da63e",
-        "title": "美國總統賀詞：美國海岸警衛隊成立236周年",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/08/presidential-message-on-the-birthday-of-the-united-states-coast-guard/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Wed, 05 Aug 2026 00:47:48 +0000",
-        "summary_zh": "今天，美國慶祝了美國海岸警衛隊成立236周年。美國海岸警衛隊是一支美國執法專業人員和海岸警衛隊員的力量，他們堅守在我們的海岸、水域和我們榮譽的生活方式。自美國共和國的早期日子起，海岸警衛隊員就一直在每次呼籲中回答著，展現著他們的警醒和…… 美國總統發表賀詞，表達對美國海岸警衛隊的敬意和感謝。美國海岸警衛隊的成立對於國家安全和民生安全有著重要的意義。",
+        "id": "0b678935",
+        "title": "超商雙雄上半年本業穩健 獲利與EPS皆創同期次高",
+        "url": "https://www.cna.com.tw/news/afe/202608050303.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 18:58:21 +0800",
+        "summary_zh": "全家公布今年上半年財報，營收達新台幣569.9億元，年增8.09%，創同期新高。歸屬母公司業主淨利8.25億元，年增7.22%，每股盈餘3.69元，獲利與每股盈餘雙創同期次高。受惠便利商店本業穩健、既存店日均銷售成長。這表明全家在便利商店業務上取得了良好的成績，營收和獲利都達到了同期的新高。這對於全家未來的發展前景是有利的。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "5050b5c1",
-        "title": "美國製造業活躍 美國總統川普經濟政策帶來新機會",
-        "url": "https://www.whitehouse.gov/releases/2026/08/manufacturing-jobs-flock-to-the-u-s-thanks-to-president-trumps-america-first-economic-agenda/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 04 Aug 2026 21:33:29 +0000",
-        "summary_zh": "美國總統川普的經濟政策正在實施，美國製造業正在經歷著一場經濟復甦。7月份，美國製造業活動增長達到四年來最強勁的水平，連續七個月保持增長。這些數字表明，川普總統的《工作家庭稅減免法》和《美國優先》政策正在帶來新的機會。美國製造業的活躍不僅創造了新的就業機會，也提高了出口量和競爭力。這一趨勢對美國經濟的整體發展具有重要意義。然而，仍需要觀察美國經濟政策的進一步發展和影響。",
+        "id": "90915189",
+        "title": "桃園市建築師公會阻礙協審競爭 公平會開罰50萬",
+        "url": "https://www.cna.com.tw/news/afe/202608050301.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 18:55:16 +0800",
+        "summary_zh": "桃園市建築師公會因為杯葵其他團體擔任建築執照協審單位，違反了公平交易法。公平會今天委員會議決議開罰，除了令桃園市建築師公會立即停止違法行為外，還處以新台幣50萬元罰鍰。這項罰款是公平會對於桃園市建築師公會違反公平交易法的處理結果。桃園市建築師公會的這種行為不僅違反了法律規定，也影響了其他團體的競爭公平性。這項罰款將對桃園市建築師公會造成一定的影響，可能會讓他們重新檢視自己的行為，並改善未來的競爭環境。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "a4ca1fb3",
+        "title": "台糖首度參展文博會 方糖變身IP「角糖」搶攻文創",
+        "url": "https://www.cna.com.tw/news/afe/202608050300.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 18:53:14 +0800",
+        "summary_zh": "台糖將於2026年台灣文博會品牌商展區登場，首度參展並推出首款IP「角糖」。這個品牌角色以昔日經典方糖為靈感，台糖開發了13項文創商品，包括限量公仔、車用擴香石等。台糖希望通過「角糖」建立與新世代的連結，讓更多人認識糖業文化。這項嘗試表明台糖正嘗試將其品牌延伸到文創領域，與年輕消費者建立更密切的關係。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "4de08ef6",
+        "title": "英業達7月營收創單月次高 人工智慧伺服器需求強勁",
+        "url": "https://www.cna.com.tw/news/afe/202608050296.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 18:42:06 +0800",
+        "summary_zh": "英業達公布7月合併營收約新台幣901.9億元，雖然比6月減少11.8%，但仍創單月歷史次高。這主要是受惠於人工智慧（AI）伺服器的強勁需求。今年7月的營收年增65.7%，表明英業達在伺服器產業上取得了顯著的成長。經營團隊預期，第3季伺服器出貨將較第2季成長，這表明英業達將繼續受惠於人工智慧伺服器的需求。這項消息對於英業達的股價和未來發展都有重要的影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "13084dd0",
+        "title": "AI需求推升動能 研華估第3季營收雙增、毛利率持穩",
+        "url": "https://www.cna.com.tw/news/afe/202608050294.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 18:33:01 +0800",
+        "summary_zh": "工業電腦廠研華預估第3季營收將雙增，毛利率及營業利益率將維持第2季水準。受惠於人工智慧（AI）相關應用需求，研華經營團隊看好整體接單動能維持高檔水準。這意味著研華將繼續受益於AI需求的推升，營收和利潤都將保持穩定。然而，未來仍然存在市場變化的風險，研華需要繼續監測市場趨勢並做好準備。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "87407612",
+        "title": "NCC：無委員在任 無法辦理藍牙器材等進口核准函",
+        "url": "https://www.cna.com.tw/news/afe/202608050292.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 18:26:57 +0800",
+        "summary_zh": "近日，有民眾在社群發文指出，在日本購買音響寄回台灣卻被告知NCC沒有委員可過證。NCC今天表示，除個人自用特定數量與條件外，藍牙器材、4G及5G手機等各類射頻管制器材自海外進口，須先向NCC辦理進口核准函。但由於8月1日起無委員在任，目前無法辦理。這項政策變化對於台灣的電子產品進口業界可能造成影響。目前，NCC尚未公布恢復辦理進口核准函的時間表。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "8f5b0a8d",
+        "title": "台南市率團訪波蘭 拓展智慧製造與無人機市場",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5529763",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 19:48:51 +0800",
+        "summary_zh": "為協助在地企業拓展歐洲市場，台南市政府籌組智慧機器人、無人載具、精密製造及關鍵零組件等產業交流團前往波蘭。這次訪問的目的是促進台波產業合作，讓台南市的企業能夠與波蘭的企業建立關係，拓展雙方的合作機會。台南市政府認為，這次訪問將能夠幫助在地企業進軍歐洲市場，增加出口額和創造就業機會。同時，台南市政府也希望能夠與波蘭的政府和企業建立更密切的合作關係，促進雙方的經濟發展。這次訪問的成果將對台南市的經濟發展有重要影響，讓我們期待著這次訪問的成功。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e046029e",
+        "title": "雙月食品社祭出百萬介紹獎搶人 員工推薦最高分可抱回100萬元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5529851",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 19:39:33 +0800",
+        "summary_zh": "雙月食品社因應缺工潮，推出「百萬介紹王」專案，鼓勵員工推薦優質人才加入團隊。員工可通過積分累積系統，推薦親朋好友加入公司，最高可獲得100萬元獎金。這項措施旨在拓寬多元人才招募管道，吸引更多優秀人才加入公司。雙月食品社的這一舉動，表明公司對人才的重視和對未來發展的信心。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "664fa5c5",
+        "title": "熱錢回來了！新台幣勁揚1.32角 收復32.3元關卡",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5529850",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 19:33:53 +0800",
+        "summary_zh": "台股今日大漲逾千點，新台幣兌美元匯率也在外資熱錢回流及美元走弱帶動下強勢走升1.32角，收復32.3元關卡。市場預期美國與伊朗可望達成協議，恢復荷姆茲海峽通行，國際油價將回落，激勵美股四大指數全面收紅。外資熱錢回流對台股的影響顯著，市場預期台股將持續走強。然而，投資者仍需關注全球經濟的變化和政治風險，避免過度樂觀。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "87580f63",
+        "title": "藍天第二季每股賺3.44元 創單季最強紀錄",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5529847",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 19:31:52 +0800",
+        "summary_zh": "藍天在第二季取得傲人業績，稅後淨利達到19.89億元，每股盈餘高達3.44元，創下歷史單季新高。這種成績主要是由於公司的營運穩健成長和匯兌利益的貢獻。藍天的這種表現令人印象深刻，展望下半年，公司將持續優化產品組合，加大投資和研發力度，以保持競爭力和穩定成長。這種積極的策略將對公司未來的發展產生積極影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f85a19ae",
+        "title": "這國千萬富翁總數相當台灣總人口 每天新增超過1千名！",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5529856",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 05 Aug 2026 19:31:37 +0800",
+        "summary_zh": "在當今經濟情勢下，擁有七位數淨資產已不再像過去那麼罕見。根據最新數據，美國有超過1000人每天成為百萬美元富翁，總數已經達到相當於台灣總人口的水平。這表明美國的財富分配正在快速改變。七位數淨資產的增加不僅僅是個人財富的增長，也是經濟結構和社會結構的變化。這種變化可能會對美國的社會和經濟產生深遠的影響。美國政府和政策制定者需要關注這種趨勢並采取適當的措施來調整經濟和社會結構。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
