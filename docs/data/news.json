@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-07T15:04:38.092814+08:00",
+  "generated_at": "2026-08-07T16:04:12.006469+08:00",
   "risk_signals": [
     "🟢 台股加權 44225.91（正常）",
     "🟢 S&P 500 7709.96（正常）",
-    "🟢 VIX 恐慌指數 15.15（正常）",
+    "🟢 VIX 恐慌指數 15.28（正常）",
     "🟢 MOVE 債市波動 76.12（正常）",
-    "🟢 美元指數 99.93（正常）",
-    "🟡 黃金 4353.2（漲 +2.62%，留意）",
+    "🟢 美元指數 99.96（正常）",
+    "🟡 黃金 4345.1（漲 +2.43%，留意）",
     "🟡 美債10Y殖利率 4.67（留意）",
-    "🟢 原油 WTI 77.96（正常）",
-    "🟢 美元/台幣 32.33（正常）"
+    "🟢 原油 WTI 77.93（正常）",
+    "🟢 美元/台幣 32.28（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，目前沒有顯著的恐慌跡象。黃金價格稍微上漲，但仍未達到關注的程度。美元指數和台股指數均維持正常狀態，美債殖利率則值得關注。",
+  "ai_summary": "市場氛圍保持穩定，多個指標保持正常水平。黃金價格升幅引人關注，美債10Y殖利率也值得留意。",
   "market": {
     "TWII": {
       "price": 44225.91,
@@ -26,8 +26,8 @@
       "change_pct": -0.06
     },
     "VIX": {
-      "price": 15.15,
-      "change_pct": -4.17
+      "price": 15.28,
+      "change_pct": 0.86
     },
     "TNX": {
       "price": 4.67,
@@ -38,25 +38,61 @@
       "change_pct": null
     },
     "DXY": {
-      "price": 99.93,
-      "change_pct": -0.04
+      "price": 99.96,
+      "change_pct": -0.01
     },
     "GOLD": {
-      "price": 4353.2,
-      "change_pct": 2.62
+      "price": 4345.1,
+      "change_pct": 2.43
     },
     "OIL": {
-      "price": 77.96,
-      "change_pct": 0.87
+      "price": 77.93,
+      "change_pct": 0.83
     },
     "USDTWD": {
-      "price": 32.33,
-      "change_pct": 0.2
+      "price": 32.28,
+      "change_pct": 0.06
     }
   },
   "macro": {},
   "categories": {
     "global": [
+      {
+        "id": "0f50e249",
+        "title": "日本醫院手術室遭遇強震，醫生緊急保護病人",
+        "url": "https://www.bbc.co.uk/news/videos/c1j1eg31y6no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 07 Aug 2026 06:46:34 GMT",
+        "summary_zh": "近日，日本熊本縣的一間醫院遭遇6.8級地震，醫生在手術室內緊急保護病人。安全監控攝影機拍攝到醫生緊緊抱著手術台上的病人，保護他們免受地震的影響。這次地震發生在上個月，醫院的建築物在震後仍然保持穩定。醫生們的迅速行動避免了更嚴重的傷害。這次地震對醫院和病人的影響仍在調查中。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "a0530ffa",
+        "title": "韓國太空總署公佈月球照片，拍攝了SpaceX火箭碎片撞擊月球的前後景象",
+        "url": "https://www.bbc.co.uk/news/articles/cqjxgx5y51lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 06 Aug 2026 17:38:51 GMT",
+        "summary_zh": "韓國太空總署宣布，該國的月球軌道器在本週三，SpaceX火箭碎片撞擊月球之前和之後拍攝了月球的照片。這些照片顯示了月球表面的細節，包括火箭碎片的撞擊點。這一事件是由於SpaceX的火箭在發射時發生了故障，導致碎片墜落到月球表面。韓國太空總署的月球軌道器正在繼續觀察月球，並將繼續收集資料。這一事件也引起了科學界對月球表面的研究的興趣。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "249e7156",
+        "title": "為什麼台灣總統在半夜被撤離?",
+        "url": "https://www.bbc.co.uk/news/videos/cly83vm923go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 07 Aug 2026 04:52:19 GMT",
+        "summary_zh": "台灣總統賴清德參與了一場緊急撤離演習，這是為了應對中國可能入侵的軍事演習的一部分。這次演習是為了測試台灣軍方在面對中國入侵時的應變能力。演習中，總統賴清德與其他高級官員一起被撤離到安全地點，這是為了模擬在戰爭情況下如何保護總統安全。這次演習的目的是為了提高台灣軍方對於中國入侵的應對能力，並且確保總統和其他高級官員的安全。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "55ffdfe3",
         "title": "Meta被罰5.67億美元：美國法官判定社交媒體巨頭對兒童安全不當",
@@ -70,16 +106,16 @@
         "ai_classified": true
       },
       {
-        "id": "68c68f7c",
-        "title": "歐洲足協：英格蘭足協退出 Infantino 支持，歐洲杯杯決賽仍有可能被抵制",
-        "url": "https://www.bbc.co.uk/sport/football/articles/c2k74yevgzwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
+        "id": "eca5be91",
+        "title": "南韓爆發歷史性熱浪，總統宣布為「國家災難」",
+        "url": "https://www.bbc.co.uk/news/articles/cr597m1vm96o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
         "category": "global",
-        "published_at": "Fri, 07 Aug 2026 01:57:02 GMT",
-        "summary_zh": "英格蘭足協宣布退出支持 Fifa 主席 Gianni Infantino，歐洲足協(Uefa) 表示，這項行動並不影響他們抵制 2024 年歐洲杯杯決賽的決定。歐洲足協認為，Fifa 在會議上的支持 Infantino，仍然沒有改善他們對於 Infantino 的信任。英格蘭足協的退出是因為 Infantino 的行為被指違反倫理規範，歐洲足協也表示，如果其他國家足協也退出支持 Infantino，則抵制的可能性會增加。這項抵制行動的目的是要迫使 Infantino 辦理更為透明的選舉程序。",
+        "published_at": "Fri, 07 Aug 2026 04:49:18 GMT",
+        "summary_zh": "南韓正面臨歷史性熱浪，總統宣布為「國家災難」，並下令各機構動員所有資源應對。南韓的氣溫已經達到歷史高溫，導致大量人們在機場避難。政府已經發出無人機警告，呼籲民眾小心飛行器的飛行。南韓的熱浪已經造成多人受傷和死亡，政府正在努力應對這場災難。南韓的總統已經下令各機構動員所有資源，包括軍隊和政府機構，來應對這場災難。政府正在努力提供幫助和援助給受影響的民眾。",
         "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "86596478",
@@ -94,10 +130,22 @@
         "ai_classified": true
       },
       {
+        "id": "5df1316c",
+        "title": "川普否認美國武器短缺，稱情報洩漏者正在被追緝",
+        "url": "https://www.bbc.co.uk/news/articles/cy8mjd19xm7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 06 Aug 2026 18:53:51 GMT",
+        "summary_zh": "美國總統川普否認美國武器短缺的消息，但指出情報洩漏者正在被追緝。雖然具體數據被視為機密，但公開可用的資訊表明美國已經耗盡了許多難以製造的武器。這些武器的短缺可能對美國的軍事行動造成影響。川普的說法引起了關注，許多人質疑美國的軍事實力是否足以應對未來的挑戰。美國的武器短缺問題是否真的存在，仍待進一步調查。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "fb4a3745",
         "title": "澳洲航空組在極寒的南極進行了英勇的救援任務",
         "url": "https://www.bbc.co.uk/news/articles/c89nqlz5p4qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "source": "BBC World",
         "category": "global",
         "published_at": "Fri, 07 Aug 2026 05:44:29 GMT",
         "summary_zh": "在極寒的南極，澳洲航空組展現了驚人的勇氣和專業，成功救援了一名病人。這次救援任務發生在極地站麥克默多（McMurdo Station）附近，當地的氣溫已經降至攝氏-43°C，天空也徹底被黑暗籠罩。澳洲航空組的飛行員在這種極端環境下，仍然能夠準確地降落飛機，並將病人安全地運送到醫院進行治療。這次救援任務不僅展現了澳洲航空組的專業水平，也表明了他們對生命的珍視和對危險的承受能力。",
@@ -106,13 +154,73 @@
         "ai_classified": true
       },
       {
-        "id": "5df1316c",
-        "title": "川普否認美國武器短缺，稱情報洩漏者正在被追緝",
-        "url": "https://www.bbc.co.uk/news/articles/cy8mjd19xm7o?at_medium=RSS&at_campaign=rss",
+        "id": "72f25c4d",
+        "title": "狗狗聲稱為美國節省 1100 億美元，監察機構發現其計算有誤",
+        "url": "https://www.bbc.co.uk/news/articles/cvg0rg9wmvlo?at_medium=RSS&at_campaign=rss",
         "source": "BBC North America",
         "category": "global",
-        "published_at": "Thu, 06 Aug 2026 18:53:51 GMT",
-        "summary_zh": "美國總統川普否認美國武器短缺的消息，但指出情報洩漏者正在被追緝。雖然具體數據被視為機密，但公開可用的資訊表明美國已經耗盡了許多難以製造的武器。這些武器的短缺可能對美國的軍事行動造成影響。川普的說法引起了關注，許多人質疑美國的軍事實力是否足以應對未來的挑戰。美國的武器短缺問題是否真的存在，仍待進一步調查。",
+        "published_at": "Thu, 06 Aug 2026 23:55:35 GMT",
+        "summary_zh": "美國政府曾成立一個機構負責減少公共開支，然而近期的一份檢視報告發現該機構的計算有多個問題。該機構曾聲稱通過某些措施為美國節省了 1100 億美元，但監察機構的調查發現這些數字可能過於樂觀。這些問題可能會對政府的財政政策產生影響，監察機構正在努力糾正這些錯誤並確保未來的計算更為準確。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e33cfbc5",
+        "title": "印度是一個步行國家，但它的城市卻忘記了步行者",
+        "url": "https://www.bbc.co.uk/news/articles/ce3e4enkrqro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 06 Aug 2026 22:39:46 GMT",
+        "summary_zh": "印度最高法院最近關注了印度城市的步道安全問題，指出許多城市的步道不安全，甚至根本沒有步道，對於步行者造成了很大的困擾。這些問題不僅影響到步行者的安全，也影響到城市的整體環境和交通秩序。印度政府應該積極改善城市的步道設施，確保步行者能夠安全地行走。同時，城市規劃和交通管理也需要重視步行者的需求和權益。只有通過改善步道設施和交通管理，才能真正實現印度城市的步行友好城市目標。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "75165998",
+        "title": "TikTok明星悉尼·托爾，分享癌症旅程的她，去世於26歲",
+        "url": "https://www.bbc.co.uk/news/articles/cn4n1eyze05o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 06 Aug 2026 19:17:39 GMT",
+        "summary_zh": "悉尼·托爾是一位知名的TikTok明星，她以分享自己的癌症旅程而聞名。托爾在線上分享了她對癌症的希望和挫折，成為許多年輕人面對癌症的榜樣。她的故事感動了無數人，許多人在社交媒體上留言致意和悼念。托爾的去世震驚了網友，許多人對她的逝世感到難過和不解。托爾的死也引起了對癌症的關注和討論，許多人呼籲支持癌症患者和他們的家人。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2c6e1f51",
+        "title": "印度記者Tarun Tejpal被判犯有強姦罪",
+        "url": "https://www.bbc.co.uk/news/articles/cx2v551w9v8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 06 Aug 2026 09:49:24 GMT",
+        "summary_zh": "印度記者Tarun Tejpal因強姦罪被判有罪。2021年的一審法院判決Tarun Tejpal無罪，但印度高院 Goa 分院今日判決覆核了一審法院的判決，判決Tarun Tejpal有罪。這一判決對Tarun Tejpal的政治生涯和印度媒體界造成了重大影響。Tarun Tejpal 曾經是知名印度新聞雜誌 Tehelka 的主編，曾經多次揭露印度政界和商界的腐敗案件。這一判決也引發了對印度司法制度的質疑和關注。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9c9c3a96",
+        "title": "前囚犯團隊在斯波坎大火前線奮戰",
+        "url": "https://www.bbc.co.uk/news/videos/c4gv412z85lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 06 Aug 2026 16:56:34 GMT",
+        "summary_zh": "近日，斯波坎地區爆發了一場大火，威脅著當地居民的安全。前囚犯團隊 Arcadia 20 在火災防控方面發揮了關鍵作用，努力防止大火蔓延到斯波坎地區。這批前囚犯團隊的努力不僅為當地居民帶來了希望，也展現了人們在困難時刻的團結精神。雖然大火仍在持續威脅著斯波坎地區，但前囚犯團隊的努力已經取得了一定的成果，讓居民們感到有所安慰。然而，仍需要持續努力以防止大火蔓延，保護斯波坎地區的居民安全。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "68c68f7c",
+        "title": "歐洲足協：英格蘭足協退出 Infantino 支持，歐洲杯杯決賽仍有可能被抵制",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c2k74yevgzwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 07 Aug 2026 01:57:02 GMT",
+        "summary_zh": "英格蘭足協宣布退出支持 Fifa 主席 Gianni Infantino，歐洲足協(Uefa) 表示，這項行動並不影響他們抵制 2024 年歐洲杯杯決賽的決定。歐洲足協認為，Fifa 在會議上的支持 Infantino，仍然沒有改善他們對於 Infantino 的信任。英格蘭足協的退出是因為 Infantino 的行為被指違反倫理規範，歐洲足協也表示，如果其他國家足協也退出支持 Infantino，則抵制的可能性會增加。這項抵制行動的目的是要迫使 Infantino 辦理更為透明的選舉程序。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -130,18 +238,6 @@
         "ai_classified": true
       },
       {
-        "id": "a0530ffa",
-        "title": "韓國太空總署公佈月球照片，拍攝了SpaceX火箭碎片撞擊月球的前後景象",
-        "url": "https://www.bbc.co.uk/news/articles/cqjxgx5y51lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 06 Aug 2026 17:38:51 GMT",
-        "summary_zh": "韓國太空總署宣布，該國的月球軌道器在本週三，SpaceX火箭碎片撞擊月球之前和之後拍攝了月球的照片。這些照片顯示了月球表面的細節，包括火箭碎片的撞擊點。這一事件是由於SpaceX的火箭在發射時發生了故障，導致碎片墜落到月球表面。韓國太空總署的月球軌道器正在繼續觀察月球，並將繼續收集資料。這一事件也引起了科學界對月球表面的研究的興趣。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "304158bb",
         "title": "兩人被判刑與法國直播主死亡案有關",
         "url": "https://www.bbc.co.uk/news/articles/c8rnmdy4enpo?at_medium=RSS&at_campaign=rss",
@@ -154,30 +250,6 @@
         "ai_classified": true
       },
       {
-        "id": "489bb26e",
-        "title": "美國對古巴軍方和軍火購買企業施加制裁",
-        "url": "https://www.reuters.com/pt/mundo/646QIM446VK4DDQTEOAO2FHENA-2026-08-06/",
-        "source": "Reuters",
-        "category": "global",
-        "published_at": "2026-08-06 18:34:34",
-        "summary_zh": "美國政府對古巴軍方和與軍火購買有關的企業施加制裁。這項措施是針對古巴政府的軍事行動和人權問題。美國政府認為古巴軍方對民間的鎮壓和侵犯人權行為有所參與。制裁將對古巴軍方和相關企業造成重大影響。這項措施是美國對古巴政策的一部分，旨在促進古巴的民主和人權。然而，這項措施也可能引起古巴政府的不滿和反應。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "72f25c4d",
-        "title": "狗狗聲稱為美國節省 1100 億美元，監察機構發現其計算有誤",
-        "url": "https://www.bbc.co.uk/news/articles/cvg0rg9wmvlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 06 Aug 2026 23:55:35 GMT",
-        "summary_zh": "美國政府曾成立一個機構負責減少公共開支，然而近期的一份檢視報告發現該機構的計算有多個問題。該機構曾聲稱通過某些措施為美國節省了 1100 億美元，但監察機構的調查發現這些數字可能過於樂觀。這些問題可能會對政府的財政政策產生影響，監察機構正在努力糾正這些錯誤並確保未來的計算更為準確。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "0633b205",
         "title": "以色列指控定居點居民殺害與奧斯卡得獎片《西岸》有關的巴勒斯坦人",
         "url": "https://www.bbc.co.uk/news/articles/cn4n1e8159yo?at_medium=RSS&at_campaign=rss",
@@ -185,18 +257,6 @@
         "category": "global",
         "published_at": "Thu, 06 Aug 2026 18:37:12 GMT",
         "summary_zh": "以色列警方對於殺害巴勒斯坦人Odeh Hathaleen一案，指控定居點居民Yinon Levy犯有過失殺人罪。事件發生於2025年7月，當時Odeh Hathaleen涉及奧斯卡得獎片《西岸》的拍攝工作。這起事件引發了國際關注，許多人對於以色列對巴勒斯坦人的處理方式表達了擔憂。以色列政府的行動將會對巴勒斯坦人和定居點居民的關係產生重大影響。這起案件的結果將會對以色列和巴勒斯坦的關係產生重要影響，同時也會對國際社會的看法產生影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "75165998",
-        "title": "TikTok明星悉尼·托爾，分享癌症旅程的她，去世於26歲",
-        "url": "https://www.bbc.co.uk/news/articles/cn4n1eyze05o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 06 Aug 2026 19:17:39 GMT",
-        "summary_zh": "悉尼·托爾是一位知名的TikTok明星，她以分享自己的癌症旅程而聞名。托爾在線上分享了她對癌症的希望和挫折，成為許多年輕人面對癌症的榜樣。她的故事感動了無數人，許多人在社交媒體上留言致意和悼念。托爾的去世震驚了網友，許多人對她的逝世感到難過和不解。托爾的死也引起了對癌症的關注和討論，許多人呼籲支持癌症患者和他們的家人。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -238,13 +298,13 @@
         "ai_classified": true
       },
       {
-        "id": "2c6e1f51",
-        "title": "印度記者Tarun Tejpal被判犯有強姦罪",
-        "url": "https://www.bbc.co.uk/news/articles/cx2v551w9v8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
+        "id": "257208d7",
+        "title": "美國太平洋西北地區被濃煙籠罩　消防員努力扑滅大火",
+        "url": "https://www.theguardian.com/us-news/2026/aug/06/washington-state-wildfires",
+        "source": "Guardian US",
         "category": "global",
-        "published_at": "Thu, 06 Aug 2026 09:49:24 GMT",
-        "summary_zh": "印度記者Tarun Tejpal因強姦罪被判有罪。2021年的一審法院判決Tarun Tejpal無罪，但印度高院 Goa 分院今日判決覆核了一審法院的判決，判決Tarun Tejpal有罪。這一判決對Tarun Tejpal的政治生涯和印度媒體界造成了重大影響。Tarun Tejpal 曾經是知名印度新聞雜誌 Tehelka 的主編，曾經多次揭露印度政界和商界的腐敗案件。這一判決也引發了對印度司法制度的質疑和關注。",
+        "published_at": "Thu, 06 Aug 2026 21:24:02 GMT",
+        "summary_zh": "美國太平洋西北地區因為野火而出現嚴重濃煙，影響空氣質量。根據瑞士公司IQAir的排名，華盛頓州的西雅圖和俄勒岡州的波特蘭市空氣質量達到全球最差的水平。儘管消防員在華盛頓州的火災中取得進展，但仍然面臨著嚴重的空氣污染問題。這些地區的空氣質量指數持續惡化，對當地居民的健康造成嚴重影響。消防員正努力扑滅大火，盼望能夠在短期內改善空氣質量。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -259,18 +319,6 @@
         "summary_zh": "剛果民主共和國正在經歷一場大規模的埃博拉疫情，確診病例已經超過 4,000 個。根據公衛組織的報告，這種病毒可能正在突變。為了應對疫情，公衛組織決定全面升級應對措施，並計劃從門到門地搜索病人。這一決定表明了對疫情的嚴重性，公衛組織認為時候不再是採取逐步行動，而是需要全面應對。這一大規模的疫情已經對當地的醫療系統造成了重大挑戰，公衛組織的行動將是關鍵性的。",
         "sentiment": "負面",
         "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9c9c3a96",
-        "title": "前囚犯團隊在斯波坎大火前線奮戰",
-        "url": "https://www.bbc.co.uk/news/videos/c4gv412z85lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 06 Aug 2026 16:56:34 GMT",
-        "summary_zh": "近日，斯波坎地區爆發了一場大火，威脅著當地居民的安全。前囚犯團隊 Arcadia 20 在火災防控方面發揮了關鍵作用，努力防止大火蔓延到斯波坎地區。這批前囚犯團隊的努力不僅為當地居民帶來了希望，也展現了人們在困難時刻的團結精神。雖然大火仍在持續威脅著斯波坎地區，但前囚犯團隊的努力已經取得了一定的成果，讓居民們感到有所安慰。然而，仍需要持續努力以防止大火蔓延，保護斯波坎地區的居民安全。",
-        "sentiment": "正面",
-        "is_breaking": false,
         "ai_classified": true
       },
       {
@@ -319,18 +367,6 @@
         "summary_zh": "任天堂近期公布財報，表現出色的利潤增長，達到53.5%。這主要是由於美國政府對特朗普關稅的退稅所致。根據任天堂的說法，這筆退稅對於公司的財務有著重大影響。儘管如此，任天堂在本季度的銷售額仍然下滑。這個結果超出了專家們的預期，預計的利潤只有¥77.8億日元。這表明任天堂在全球市場的競爭力仍然很強。",
         "sentiment": "正面",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "257208d7",
-        "title": "美國太平洋西北地區被濃煙籠罩　消防員努力扑滅大火",
-        "url": "https://www.theguardian.com/us-news/2026/aug/06/washington-state-wildfires",
-        "source": "Guardian US",
-        "category": "global",
-        "published_at": "Thu, 06 Aug 2026 21:24:02 GMT",
-        "summary_zh": "美國太平洋西北地區因為野火而出現嚴重濃煙，影響空氣質量。根據瑞士公司IQAir的排名，華盛頓州的西雅圖和俄勒岡州的波特蘭市空氣質量達到全球最差的水平。儘管消防員在華盛頓州的火災中取得進展，但仍然面臨著嚴重的空氣污染問題。這些地區的空氣質量指數持續惡化，對當地居民的健康造成嚴重影響。消防員正努力扑滅大火，盼望能夠在短期內改善空氣質量。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ],
@@ -434,172 +470,64 @@
     ],
     "stock_tw": [
       {
-        "id": "b718f6f1",
-        "title": "全球半導體展高鐵推彩繪列車 全車隊同步換裝專屬頭靠墊",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531922",
-        "source": "自由時報財經",
+        "id": "17c18e90",
+        "title": "台股終場跌170點收44225點 量縮失守季線",
+        "url": "https://www.cna.com.tw/news/afe/202608070123.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 14:50:08 +0800",
-        "summary_zh": "全球半導體產業注目的年度大展「SEMICON Taiwan 2026 國際半導體展」，即將在9月2日到4日在台灣舉辦。為了迎接這個重要的展會，台灣高鐵公司今天宣布推出彩繪列車，同時全車隊同步換裝專屬頭靠墊。這項新措施旨在提升乘客的乘車體驗，並將高鐵列車與展會的主題結合起來。彩繪列車的設計將會與展會的主題相呼應，展現出台灣高鐵公司對於半導體產業的支持和參與。這項活動不僅會吸引更多的觀光客到台北，也將成為展會的重要宣傳工具。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "15f94bd3",
-        "title": "旺宏7月營收77億元月增11％ 續飆新高",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531955",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 14:49:27 +0800",
-        "summary_zh": "旺宏在7月錄得77.25億元營收，較去年同期增長180.5%，月增11%。這是旺宏單月營收首度突破70億元大關，並再度創下單月新高。旺宏的營收增長主要是受惠於記憶體價格的持續上漲。旺宏的這一成績表明，記憶體市場仍然保持著強勁的需求，旺宏的營收增長將對市場產生一定的影響。未來旺宏是否能夠繼續保持這一成績，將取決於記憶體市場的發展情況。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "253854cf",
-        "title": "竹市公辦都更2.0首案 復國社區通過75％受理門檻",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531948",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 14:46:41 +0800",
-        "summary_zh": "新竹市府都發處表示，東區復國社區今年6月底向市府提出公辦都市更新2.0專案計畫申請，是竹市首件由社區自主整合、跨越受理門檻並提出申請的案件。復國社區以跨越75%受理門檻而受到關注，展現住戶對都更2.0的支持。這項申請將會進一步審核，屆時將會對社區的發展產生重大影響。這項都更2.0專案計畫的通過，將會對新竹市的都市發展產生重要影響，同時也會對社區的生活質量產生影響。市府都發處將會進一步跟進此案件的審核進程，確保一切按照規定進行。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "753297f2",
-        "title": "出門要關冷氣？這樣做省錢又省電，但有個陷阱",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531653",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 14:36:00 +0800",
-        "summary_zh": "炎炎夏日或寒冬，用電量暴增，電費帳單往往也跟著翻倍甚至暴增。為了省錢，很多人習慣在出門或外出旅行時關掉冷氣或暖氣。不過，暖通空調專家提醒，這樣做未必最省錢或省電。事實上，暖通空調系統如果關掉，會導致室內空氣不流通，導致空氣污染加劇。另外，關掉暖通空調系統後，室內溫度可能會因為陽光照射而迅速升高，導致空氣流通更加不佳。因此，專家建議在出門前先調整暖通空調系統的模式，讓系統在你不在家時，自動關閉暖通功能，但仍保留空氣流通功能。這樣既能夠節省電費，又能夠保持室內空氣質量。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "94012dcc",
-        "title": "81歲老婦將1800萬日圓託兒子管理　屋頂遭颱風吹壞　瞬間崩潰",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531412",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 14:35:05 +0800",
-        "summary_zh": "81歲的獨居老婦小林明子因關節炎行動不便，將1800萬日圓（約新台幣360萬）積蓄的存摺與印章全權交給54歲兒子小林健太代為管理。不過，颱風吹過後，小林健太卻因為屋頂損壞而向母親要錢，甚至威脅要賣掉母親的房子。小林明子在看到存摺上的驚人數字後，瞬間崩潰。這個事件引起了對於老年人財產安全的關注。小林健太的行為被視為對母親的背叛，引起了社會的譴責。這個事件也提醒我們，老年人在托付財產給子女時，應該小心選擇托付對象，並且要有足夠的保障措施。",
+        "published_at": "Fri, 07 Aug 2026 13:52:29 +0800",
+        "summary_zh": "台股今天開高走低，指數盤中翻黑回測44000點，高低震盪逾880點。終場收在44225.91點，下跌170.79點，跌幅0.38%。此外，台股失守季線約44278點，成交值降至新台幣8192.04億元。這次的市場波動可能與季線的失守有關，投資者需要密切關注市場的變化。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "e4789f28",
-        "title": "科技業大老面見賴清德 產業人士：多溝通是好事",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531889",
-        "source": "自由時報財經",
+        "id": "2ce2cacb",
+        "title": "高齡博覽會登場 經長：2年助開發279項高齡科技產品",
+        "url": "https://www.cna.com.tw/news/afe/202608070107.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 14:12:51 +0800",
-        "summary_zh": "總統賴清德近日在總統府會見科技業大老，與會人士表示，這次會面是好事，可以讓國家領導人直接了解產業工作者的意見。會見的科技業大老包括半導體協會理事長侯永清、電電公會理事長劉揚偉等人。這次會面可能是為了讓政府更了解科技業的需求和挑戰，從而制定更有針對性的政策。這樣的溝通可以幫助政府和產業工作者更好地合作，促進產業的發展。然而，具體會面內容和產生了什麼效果，還需要進一步的確認。",
+        "published_at": "Fri, 07 Aug 2026 13:05:52 +0800",
+        "summary_zh": "第3屆高齡健康產業博覽會今天登場，經濟部長龔明鑫表示，經濟部近2年已協助業者開發279項高齡科技產品，並導入174個應用場域，累積創造逾新台幣28億元營收。這些高齡科技產品旨在改善長者的生活品質，讓他們能夠更便利、更健康地生活。經濟部還培育了110家新創企業，以促進高齡產業的發展。龔明鑫表示，透過創新科技導入高齡生活，將讓長者生活更加富有品質。這項努力不僅改善了長者的生活，也促進了產業的發展，創造了新的就業機會。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "4244b287",
+        "title": "陳時中：高齡勞參率若升至25% 可增70萬勞動人口",
+        "url": "https://www.cna.com.tw/news/afe/202608070100.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 07 Aug 2026 12:51:37 +0800",
+        "summary_zh": "行政院政務委員陳時中表示，台灣高齡勞參率約10%，若提高至25%，將會增加約70萬名勞動人口。這個預估是根據470萬名65歲以上高齡人口的估算。面對超高齡社會的挑戰，讓高齡者健康、自主並持續參與工作，是一個重要的課題。政府需要找到方法來轉化高齡人力，將其變成國家的戰力。這個問題不僅影響到個人的生活質量，也會對國家的經濟和社會發展產生重大影響。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "fc3a908f",
-        "title": "台股大幅下挫！記憶體、半導體股熄火 指數跌逾200點失守季線",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531479",
-        "source": "自由時報財經",
+        "id": "6654752c",
+        "title": "楊泮池促健康投資發展長壽新經濟 應對超高齡國安危機",
+        "url": "https://www.cna.com.tw/news/afe/202608070093.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 13:55:25 +0800",
-        "summary_zh": "台股在週五大幅下挫，指數跌逾200點失守季線。市場關注財報和中東局勢的影響，美股4大指數也跌多漲少。亞洲股市週五的情況各異，韓股在週四重挫逾4%後展開反彈，但早盤漲幅不持久，最終賣單殺出，指數一度翻黑。日經早盤跌逾5%。台股的下挫主要是由於記憶體和半導體股的熄火，影響整體市場氣氛。這次的下挫可能是市場對財報和中東局勢的預期過高所致。市場分析師預測，未來市場可能會繼續波動，投資者需要保持謹慎。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "dc1f9c78",
-        "title": "銅價狂飆創新高，專家指出原因不止經濟復甦！",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531632",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 13:53:34 +0800",
-        "summary_zh": "銅價再創歷史新高，引起市場關注。然而，專家分析指出，這一次的漲勢恐怕不能單純解讀為全球經濟景氣轉強。美國銅期貨週四一度漲至每磅約6.90美元，創下新紀錄，但隨後就從高檔回落。分析人士認為，銅價的漲勢可能與供應鏈緊張、電動車產業的需求增加、以及投資者對銅價的投機行為有關。銅價的波動可能會對相關產業和投資者造成影響。",
+        "published_at": "Fri, 07 Aug 2026 12:18:22 +0800",
+        "summary_zh": "楊泮池表示，台灣65歲以上人口超過20%，但不健康餘命約8年，加上少子化，人口老化已是國安危機。為了應對超高齡社會，他提議擴大健康投資、發展長壽新經濟。今年起，他希望讓保險業加入，透過外溢保單等提供誘因，鼓勵民眾維持健康。這項計畫不僅能夠提高民眾的健康水平，也能夠帶動勞動參與及生產力。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
-        "id": "c555512e",
-        "title": "快評》 2021年疫苗財報3個疑點 敦請慈濟說清楚一點",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531855",
-        "source": "自由時報財經",
+        "id": "774d48c2",
+        "title": "台新、新光銀行明年元旦合併 林維俊：業務發展更均衡",
+        "url": "https://www.cna.com.tw/news/afe/202608070092.aspx",
+        "source": "中央社財經",
         "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 13:44:11 +0800",
-        "summary_zh": "近期檢調起訴一樁高達新台幣10億元疫苗採購詐騙案，被害者正是慈濟。這筆龐大的資金遭無良掮客設局騙走，隨後被洗錢、購買百公斤黃金與豪車。儘管檢調已成功查扣逾10.8億元資產，慈濟仍未對疫苗採購詐騙案的真相做出明確回應。這引發了民眾對慈濟疫苗財報的質疑。有關慈濟疫苗採購詐騙案的真相，慈濟應該儘快說清楚。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "11fd9924",
-        "title": "緯創沈慶堯：AI資料中心建置電力設備是關鍵",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531814",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 13:08:32 +0800",
-        "summary_zh": "緯創技術長沈慶堯表示，隨著AI算力需求持續攀升，伺服器及資料中心供應鏈加速建置。目前，GPU交付時間已縮短，提前約6個月下單即可。然而，沈慶堯強調，AI資料中心的建置中，最大的瓶頸在於電力設備的供應。為了滿足日益增加的電力需求，企業需要投資在電力設備的研發和建設上。這將對電力業帶來新的機會和挑戰。沈慶堯預測，未來AI資料中心的發展將會更加快速和廣泛，企業需要早早準備好電力設備的供應，以避免未來的瓶頸。",
+        "published_at": "Fri, 07 Aug 2026 12:18:20 +0800",
+        "summary_zh": "台新銀行與新光銀行將於明年1月1日合併，結合兩家銀行的資源和能力，成立規模更大、業務發展更均衡的金融集團。台新新光金控總經理林維俊表示，這次合併將為客戶提供更全面的金融服務。合併後的金控將能夠更好地應對市場挑戰和機會，進一步鞏固在金融業的領導地位。這次合併對於台股市場和金融業的影響將是值得關注的議題。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "f9ae6076",
-        "title": "科技新貴在郊區買透天厝　僅5年後「超後悔」代價曝光",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531645",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 13:06:04 +0800",
-        "summary_zh": "翔太與綾美夫婦原本是日本東京IT公司的員工，雙薪家庭年收入高達1100萬日圓（約新台幣220萬）。為了照顧剛出生的二兒子與3歲的大兒子，兩人在5年前購買了一棟透天厝，房價約為1100萬日圓（約新台幣220萬）。然而，僅5年後，夫婦倆已經感到後悔。因為房價上漲，透天厝的價值已經超過了他們的購買價格，甚至超過了他們的家具和裝潢費用的總和。這個故事讓人們思考，購買房屋的決策是否過於草率，是否忽略了房價的上漲趨勢。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "933965ea",
-        "title": "台新ETF00989B二次配息 年化配息率衝破10％",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531777",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 12:37:59 +0800",
-        "summary_zh": "台新美國非投等ETF（00989B）將迎來第二次配息，預估每單位配發0.088元。這次配息金額比首次配息金額0.082更高。根據計算，00989B的年化配息率將達到10.13％，衝破10％的門檻。這項消息對投資者來說是一個重要的資訊，需要密切關注。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c0491115",
-        "title": "靜待非農數據！新台幣小升、日圓失守158",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531754",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 12:24:01 +0800",
-        "summary_zh": "近日，伊朗可能禁止美國、以色列及敵對陣營的船隻通過荷姆茲海峽，這可能會推升國際油價反彈。美股今天漲跌互見，而台股則在開高後震盪走低，目前下跌約200點。新台幣兌美元匯率則在32.23元附近整理。這些事件都對市場造成了影響，投資者正在靜待非農數據的發布，以瞭解市場的走向。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "fc4bffce",
-        "title": "大亞23.3MW光儲系統震後穩供電 史瓦帝尼表達合作意願",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531751",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 07 Aug 2026 12:22:09 +0800",
-        "summary_zh": "史瓦帝尼王國總理戴羅素率團訪台期間，前往台南參訪大亞集團旗下志光能源漁電共生案場，深入了解台灣綠能發展成果。訪團對台灣推動能源轉型、漁電共生等政策表達高度讚賞。史瓦帝尼王國總理戴羅素表示，史瓦帝尼王國對大亞集團旗下23.3MW光儲系統震後穩供電表達合作意願。這項合作將有助於史瓦帝尼王國實現能源自給自足的目標。訪團的參訪和合作意願，標誌著兩國在綠能領域的合作關係將進一步加深。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "36f7810d",
@@ -652,49 +580,61 @@
     ],
     "finance": [
       {
-        "id": "a7832c13",
-        "title": "CAMP4 進展 SYNGAP1 罕見疾病治療進入人體試驗",
-        "url": "https://www.cnbc.com/2026/08/06/camp4-advances-rare-disease-treatment-for-syngap1-into-human-trials.html",
-        "source": "Cnbc",
+        "id": "2731a2d9",
+        "title": "經濟學節目：中國想要西方科技，現在局面卻突然逆轉了",
+        "url": "https://www.ft.com/content/82a178f5-810d-45a4-a47a-f15b2faf4c7b",
+        "source": "Financial Times",
         "category": "finance",
-        "published_at": "2026-08-06 18:52:12",
-        "summary_zh": "CAMP4 正在準備一項 Phase 1/2 試驗的實驗性 SYNGAP1 治療方案，這標誌著罕見疾病患者的重大里程碑。 SYNGAP1 是一種罕見的神經退行性疾病，影響大腦功能。 CAMP4 的這項試驗將試圖開發出有效的治療方案，幫助患者改善症狀。 這項試驗的成功將對患者和醫療界帶來重大影響，為罕見疾病的治療帶來新的希望。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "ca23df31",
-        "title": "安哥拉努力解決因補貼導致的燃油危機，RNA表示",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-06/angola-works-to-resolve-fuel-crisis-tied-to-subsidies-rna-says",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-08-06 18:43:40",
-        "summary_zh": "安哥拉政府正努力解決因燃油補貼導致的燃油危機。根據RNA（安哥拉國家石油公司），燃油補貼導致了燃油價格下跌，進而導致燃油供應不足。安哥拉政府試圖通過調整燃油價格和增加燃油生產來解決燃油危機。燃油危機對安哥拉的經濟和民生造成了重大影響，政府正在努力找到解決方案。燃油危機的原因包括燃油補貼、燃油供應不足和燃油價格下跌。安哥拉政府正在努力調整燃油價格和增加燃油生產來解決燃油危機。",
+        "published_at": "2026-08-06 20:00:00",
+        "summary_zh": "近年來，中國一直在努力爭取西方國家的先進科技。然而，隨著中國的經濟和科技實力增強，中國開始轉變其戰略，開始出口自己的科技產品。這一變化令西方國家感到困惑和擔憂。中國的這一新戰略可能會對全球經濟和科技產業造成重大影響。西方國家是否能夠適應這一變化，或者中國的這一新戰略會對全球經濟造成什麼樣的影響，都是未來需要關注的問題。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "5aa4f5cf",
-        "title": "阿根廷分析師降低2026年增長預測，通膨預測下跌",
-        "url": "https://www.reuters.com/world/americas/argentina-analysts-cut-2026-growth-forecast-inflation-outlook-dips-2026-08-06/",
-        "source": "Reuters",
+        "id": "1291d970",
+        "title": "2026年8月最佳3年定期存款利率：最高4.50%年利率",
+        "url": "https://www.cnbc.com/select/best-3-year-cd-rates/",
+        "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-08-06 18:35:54",
-        "summary_zh": "阿根廷經濟面臨著嚴重挑戰，分析師們降低了2026年增長預測。根據最新的數據，阿根廷的通膨率正在上升，生活成本也在增加。政府正在努力控制通膨，但效果不明顯。分析師們認為，阿根廷的經濟增長將受到通膨和生活成本上升的影響。阿根廷的經濟情況令人擔憂，政府需要採取積極措施來穩定經濟。通膨率的上升將對阿根廷的民生造成重大影響，政府需要儘快控制通膨率。",
+        "published_at": "2026-08-06 19:57:48",
+        "summary_zh": "如果您想在未來幾年內增加現金儲備，三年的定期存款可以提供可預測的回報率和競爭性收益。根據市場趨勢，目前的最佳三年定期存款利率最高可達4.50%年利率。這些定期存款提供了一個安全的投資選擇，能夠幫助您在未來幾年內累積財富。然而，需要注意的是，定期存款的利率可能會隨著時間的推移而變化，因此投資者需要保持警醒並定期檢視投資組合。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "033c3021",
+        "title": "美國航空將停止將高級會員從經濟艙升級到商務艙",
+        "url": "https://www.cnbc.com/2026/08/06/american-airlines-flight-upgrades-become-harder-to-get.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-08-06 19:56:57",
+        "summary_zh": "美國航空公司宣布將不再為其長途國內航線的高級會員提供免費升級服務，讓他們從經濟艙升級到商務艙。這項變化將對高級會員造成影響，因為他們將需要購買升級票或使用其他升級機會。美國航空公司表示，這項變化是為了讓更多乘客享受升級服務，同時也為公司帶來額外收入。這項變化將於今年下半年實施。美國航空公司的高級會員將需要重新評估他們的升級策略，以便在未來的航程中獲得最佳升級機會。這項變化也可能對航空業的發展產生影響，讓航空公司重新思考他們的升級政策和收入模式。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "69ce88e2",
-        "title": "康柯石油CEO萊恩·蘭斯退休 企業今年盈利創2022年以來新高",
-        "url": "https://www.cnbc.com/2026/08/06/conocophillips-ceo-ryan-lance-departs-as-oil-producer-posts-best-profit-since-2022.html",
+        "id": "6a02fafe",
+        "title": "銅價衝破歷史新高，什麼訊息銅在傳達給我們？",
+        "url": "https://www.cnbc.com/2026/08/06/copper-jumps-to-its-highest-level-ever-what-the-metal-is-telling-us-.html",
         "source": "Cnbc",
         "category": "finance",
-        "published_at": "2026-08-06 18:27:25",
-        "summary_zh": "康柯石油公司宣布，CEO萊恩·蘭斯將在14年任內退休，財務長安迪·奧布萊恩將於9月1日接任。這項決定是在公司公佈了季度盈利超出市場預期之際發表的。康柯石油今年的盈利創下自2022年以來的新高，表明石油行業正逐步恢復。萊恩·蘭斯的退休將標誌著公司管理層的一次重大變化，同時也展現出公司對未來發展的信心。",
+        "published_at": "2026-08-06 19:51:27",
+        "summary_zh": "銅曾經是衡量經濟健康狀態的可靠指標，但今年銅價的變化卻讓人感到困惑。銅價在今年達到歷史新高，這意味著市場對未來經濟前景的預期正在上升。然而，銅價的波動也可能是市場對全球經濟未來前景的不確定性的一個反映。這種不確定性可能是由於多種因素引起的，包括全球經濟復甦的速度、中國的經濟政策以及供應鏈的變化等。銅價的變化也可能對相關行業和企業產生影響，例如礦業公司、製造業公司以及相關的投資者。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ac49c1df",
+        "title": "永續性永久性碳抵消風險減少方法的演進",
+        "url": "https://www.reuters.com/legal/legalindustry/evolving-permanence-approach-mitigate-carbon-offset-reversal-risk--pracin-2026-08-06/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-08-06 19:50:17",
+        "summary_zh": "碳抵消市場正面臨著一個挑戰：抵消的碳排放可能會在未來被逆轉，導致原本的減碳努力變得無效。為了應對這個風險，許多公司正在探索新的永續性永久性碳抵消方法。這些方法的目標是確保抵消的碳排放永遠不會被逆轉，從而維護減碳的成果。其中一個方法是通過投資在碳捕捉和儲存技術上，例如生態系統碳捕捉和地質碳儲存。這些技術可以永久性地儲存碳，從而減少逆轉風險。另一種方法是通過建立碳抵消市場的標準化框架，來確保抵消的碳排放是永久性的。這樣可以幫助投資者和企業更好地評估和管理碳抵消風險。總的來說，永續性永久性碳抵消方法的演進是碳抵消市場的一個重要發展趨勢。它有助於減少碳抵消風險，從而促進減碳的努力。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -714,16 +654,16 @@
     ],
     "stock_us": [
       {
-        "id": "185c8135",
-        "title": "這家建材股票的配置看起來不錯，圖表顯示可能會有突破",
-        "url": "https://www.cnbc.com/2026/08/06/this-building-materials-stock-has-a-favorable-setup-charts-show.html",
+        "id": "1b5b125e",
+        "title": "分析：川普視美聯儲主席凱文·沃許為盟友。這會帶來經濟風險",
+        "url": "https://www.cnbc.com/2026/08/06/trump-fed-chairman-kevin-warsh-relationship.html",
         "source": "Cnbc",
         "category": "stock_us",
-        "published_at": "2026-08-06 18:38:13",
-        "summary_zh": "建材公司Owens Corning的股票不像科技股一樣波動，但它的風險回報比率卻很有吸引力。投資者如果能夠耐心等待，可能會獲得不錯的收益。公司的股票配置看起來很有利可圖，圖表顯示可能會有突破。投資者應該關注這家公司的發展前景和市場趨勢。",
-        "sentiment": "正面",
+        "published_at": "2026-08-06 19:38:44",
+        "summary_zh": "川普與美聯儲主席凱文·沃許的電話交談會使他難以證明自己在通貨膨脹和利率方面會獨立行事。這種行為可能會對經濟產生風險。美聯儲主席沃許被視為保守派人士，他的意見與川普的經濟政策可能會有所不同。川普的電話交談可能會使他與沃許的關係緊張，從而影響美聯儲的決策。這種情況可能會對市場造成不確定性，從而導致經濟風險。川普的經濟政策可能會受到沃許的影響，從而導致經濟不穩定。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
       {
         "id": "5090abcc",
@@ -734,8 +674,20 @@
         "published_at": "2026-08-06 18:59:00",
         "summary_zh": "奇波克的股價繼續下跌，但分析師認為這種情況通常對餐廳的銷售影響不大。事實上，歷史上多次證明，食物中毒對餐廳的影響往往是暫時的。分析師指出，這種情況通常會在短時間內獲得糾正。奇波克的股價下跌是因為最近的一次食物中毒事件，但分析師認為這種情況對公司的長期發展影響不大。事實上，奇波克的股價在過去的幾年中一直保持穩定，公司的銷售額也在持續增長。因此，分析師認為奇波克的股價下跌是短期的波動，對公司的長期發展影響不大。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "185c8135",
+        "title": "這家建材股票的配置看起來不錯，圖表顯示可能會有突破",
+        "url": "https://www.cnbc.com/2026/08/06/this-building-materials-stock-has-a-favorable-setup-charts-show.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-08-06 18:38:13",
+        "summary_zh": "建材公司Owens Corning的股票不像科技股一樣波動，但它的風險回報比率卻很有吸引力。投資者如果能夠耐心等待，可能會獲得不錯的收益。公司的股票配置看起來很有利可圖，圖表顯示可能會有突破。投資者應該關注這家公司的發展前景和市場趨勢。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c1ee9fc0",
@@ -746,8 +698,8 @@
         "published_at": "2026-08-06 18:12:17",
         "summary_zh": "Hypatia Women CEO ETF 這周四再創新高。創辦人解釋了它的成功秘訣。今年，Hypatia Women CEO ETF 的表現遠超 S&P 500。它的成功秘訣在於選擇優秀的女性 CEO 領導的公司。創辦人表示，這些女性 CEO 領導的公司更注重員工福祉、社會責任和長期發展。這些公司的績效也比平均值高出 10%。Hypatia Women CEO ETF 的創辦人認為，這些女性 CEO 領導的公司更注重團隊合作和創新力。這些公司的員工更忠誠，也更願意為公司奉獻。這些公司的績效不僅高出平均值，還能夠保持穩定。Hypatia Women CEO ETF 的成功表明，女性 CEO 領導的公司更注重長期發展和社會責任。這些公司的績效不僅高出平均值，還能夠保持穩定。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "958ddaf8",
@@ -758,8 +710,8 @@
         "published_at": "2026-08-06 18:01:10",
         "summary_zh": "CFRA在最新的報告中表明，公司對市場的預期再度升級。根據CFRA的分析，這是由於市場的基本面、技術面和歷史面都出現了積極的跡象。CFRA認為，這些因素都表明市場正在朝著一個更高的方向發展。CFRA的這一預期升級將對市場的投資者產生重要影響，投資者需要密切關注市場的發展情況。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "d875e4af",
@@ -820,33 +772,9 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "711d6815",
-        "title": "美元日圓：美元套保成本大幅上升，華爾街猜測美聯儲下一步動作",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-06/usd-jpy-dollar-hedging-costs-jump-as-warsh-ditches-fed-rate-guidance",
-        "source": "Bloomberg",
-        "category": "stock_us",
-        "published_at": "2026-08-06 16:20:17",
-        "summary_zh": "在即將公佈的就業數據前夕，交易員們紛紛對美元進行套保，以防美元價格大幅波動。美聯儲主席凱文·華爾什（Kevin Warsh）宣布不再提供美聯儲利率指導，讓華爾街人士感到困惑。美聯儲的不確定性使美元套保成本大幅上升，交易員們預測美元日圓將在未來幾天內出現大幅波動。這種情況下，美元套保成本的上升將對美元日圓的波動產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
       }
     ],
     "whitehouse": [
-      {
-        "id": "5b8bd87a",
-        "title": "軟銀捐贈5000萬美元給川普圖書館，與聯邦資料中心合約有關",
-        "url": "https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio",
-        "source": "The Verge AI",
-        "category": "whitehouse",
-        "published_at": "2026-08-06T10:30:00-04:00",
-        "summary_zh": "軟銀公司在今年1月份捐贈5000萬美元給川普總統圖書館，與此同時，該公司也宣布將與聯邦政府簽署協議，租用俄亥俄州土地，建設一座大型資料中心。軟銀公司在6月份收到來自參議員伊莉莎白·沃倫、理查德·布倫南和梅蘭妮·史密斯的書信後，才披露了這一資訊。這些政治人物質疑軟銀公司與川普政府的關係是否存在利益衝突。軟銀公司的這一捐贈與其與聯邦政府簽署的資料中心合約有關，引發了關於利益衝突和政治影響力的爭議。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
       {
         "id": "da75e886",
         "title": "美國參議員麥康奈爾出院康復中心，返回家中",
@@ -857,18 +785,6 @@
         "summary_zh": "美國參議院多數黨領袖麥康奈爾近期因健康問題入住康復中心進行治療。近日，他出院並宣布將繼續進行康復治療，包括在家中進行嚴格的物理治療計畫。麥康奈爾表示，這樣的安排將在州會期內實施。這項消息對於美國政治界的影響仍在觀察中。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2834438a",
-        "title": "美國將關閉五個領事館，中國擔憂填補外交真空",
-        "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures",
-        "source": "Guardian World",
-        "category": "whitehouse",
-        "published_at": "Thu, 06 Aug 2026 15:41:29 GMT",
-        "summary_zh": "美國國務院宣布關閉五個駐外領事館和使館，分別位於加拿大、格林納達、日本、印度尼西亞和喀麥隆。這一決定引發了關注，擔心中國可能填補外交真空。美國國會已經收到關閉通知，國務院表示這是為了節省成本，並根據自2025年1月唐納德·川普返回白宮後對美國與多國關係的重新評估。這一決定引發了關注，擔心中國可能填補外交真空。美國國務院表示，這些關閉是為了節省成本，並根據自2025年1月唐納德·川普返回白宮後對美國與多國關係的重新評估。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -905,6 +821,18 @@
         "summary_zh": "美國總統特朗普正在訴訟BBC，因為2024年播出的《Panorama》節目引起了爭議。特朗普要求延遲交出財務記錄給BBC，法官批准了這個要求。這個決定可能會影響BBC對特朗普財務記錄的調查。BBC的調查可能會揭露特朗普的財務隱私，特朗普可能會試圖阻止這個調查。這個訴訟可能會持續很久，影響美國政治和媒體界。",
         "sentiment": "中性",
         "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "5b8bd87a",
+        "title": "軟銀捐贈5000萬美元給川普圖書館，與聯邦資料中心合約有關",
+        "url": "https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio",
+        "source": "The Verge AI",
+        "category": "whitehouse",
+        "published_at": "2026-08-06T10:30:00-04:00",
+        "summary_zh": "軟銀公司在今年1月份捐贈5000萬美元給川普總統圖書館，與此同時，該公司也宣布將與聯邦政府簽署協議，租用俄亥俄州土地，建設一座大型資料中心。軟銀公司在6月份收到來自參議員伊莉莎白·沃倫、理查德·布倫南和梅蘭妮·史密斯的書信後，才披露了這一資訊。這些政治人物質疑軟銀公司與川普政府的關係是否存在利益衝突。軟銀公司的這一捐贈與其與聯邦政府簽署的資料中心合約有關，引發了關於利益衝突和政治影響力的爭議。",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -1011,6 +939,18 @@
         "category": "whitehouse",
         "published_at": "Fri, 07 Aug 2026 00:40:22 GMT",
         "summary_zh": "美國總統川普週四簽署兩項行政令，旨在限制出生公民權的資格和禁止「出生觀光」。這兩項令是在美國最高法院拒絕川普限制出生公民權的第一個嘗試後不久簽署的。出生公民權是美國憲法的一部分，最高法院的決定意味著川普的第一個嘗試失敗了。行政令的具體內容尚未披露，但白宮表示，這些措施旨在防止外國公民利用出生公民權來取得美國公民身份。這些措施也被視為針對「出生觀光」的努力的一部分，這是一種行為，其中外國公民在懷孕期間移民到美國，為了能夠在出生後獲得美國公民身份。川普的這一措施引發了爭議，許多人擔心這將會對移民家庭造成不利影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2834438a",
+        "title": "美國將關閉五個領事館，中國擔憂填補外交真空",
+        "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures",
+        "source": "Guardian World",
+        "category": "whitehouse",
+        "published_at": "Thu, 06 Aug 2026 15:41:29 GMT",
+        "summary_zh": "美國國務院宣布關閉五個駐外領事館和使館，分別位於加拿大、格林納達、日本、印度尼西亞和喀麥隆。這一決定引發了關注，擔心中國可能填補外交真空。美國國會已經收到關閉通知，國務院表示這是為了節省成本，並根據自2025年1月唐納德·川普返回白宮後對美國與多國關係的重新評估。這一決定引發了關注，擔心中國可能填補外交真空。美國國務院表示，這些關閉是為了節省成本，並根據自2025年1月唐納德·川普返回白宮後對美國與多國關係的重新評估。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
