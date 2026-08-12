@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-12T19:04:46.245885+08:00",
+  "generated_at": "2026-08-12T20:04:19.344697+08:00",
   "risk_signals": [
     "🟢 台股加權 45518.07（正常）",
     "🟢 S&P 500 7728.2（正常）",
-    "🟢 VIX 恐慌指數 15.42（正常）",
+    "🟢 VIX 恐慌指數 15.37（正常）",
     "🟢 MOVE 債市波動 77.92（正常）",
-    "🟢 美元指數 99.86（正常）",
-    "🟢 黃金 4469.8（正常）",
+    "🟢 美元指數 99.79（正常）",
+    "🟡 黃金 4473.4（漲 +2.06%，留意）",
     "🟡 美債10Y殖利率 4.68（留意）",
-    "🟢 原油 WTI 83.46（正常）",
-    "🟢 美元/台幣 32.2（正常）"
+    "🟢 原油 WTI 83.6（正常）",
+    "🟢 美元/台幣 32.19（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，投資者情緒未受重大影響。美元指數和黃金價格保持正常，美債10Y殖利率略有上升，需要關注。",
+  "ai_summary": "市場氛圍保持穩定，美元指數和台股指數均未出現重大波動，黃金價格上漲2.06%值得留意。",
   "market": {
     "TWII": {
       "price": 45518.07,
@@ -26,8 +26,8 @@
       "change_pct": -0.6
     },
     "VIX": {
-      "price": 15.42,
-      "change_pct": 0.92
+      "price": 15.37,
+      "change_pct": 0.59
     },
     "TNX": {
       "price": 4.68,
@@ -38,25 +38,61 @@
       "change_pct": null
     },
     "DXY": {
-      "price": 99.86,
-      "change_pct": 0.04
+      "price": 99.79,
+      "change_pct": -0.04
     },
     "GOLD": {
-      "price": 4469.8,
-      "change_pct": 1.98
+      "price": 4473.4,
+      "change_pct": 2.06
     },
     "OIL": {
-      "price": 83.46,
-      "change_pct": 0.31
+      "price": 83.6,
+      "change_pct": 0.48
     },
     "USDTWD": {
-      "price": 32.2,
-      "change_pct": -0.09
+      "price": 32.19,
+      "change_pct": -0.11
     }
   },
   "macro": {},
   "categories": {
     "global": [
+      {
+        "id": "1cef82c4",
+        "title": "終結非洲軍毛蟲的征途：南非科學家發現的真菌帶來希望給非洲農民",
+        "url": "https://www.theguardian.com/global-development/2026/aug/12/african-armyworm-crop-pest-discovery-fungus-science-hope-farmers",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 12 Aug 2026 11:00:27 GMT",
+        "summary_zh": "南非科學家Letodi Luki Mathulwe的突破性研究表明，土壤真菌可能會用於對抗非洲軍毛蟲的攻勢。非洲軍毛蟲是東南非洲農民的噩夢，南非科學家Letodi Luki Mathulwe聽聞田裡滿是死去的毛蟲，周圍被一層白色的物質所圍繞，感到很奇怪。這種白色的物質是一種自然產生的真菌，它正在消滅這種毛蟲。非洲軍毛蟲以其在作物田裡快速前進的方式而得名。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ec7f71be",
+        "title": "茅利西亞湖船難至少15死27人失蹤",
+        "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Wed, 12 Aug 2026 10:34:40 GMT",
+        "summary_zh": "茅利西亞湖船難事件發生在茅利西亞湖，該湖是世界上最大的人工湖。根據茅利西亞湖的民防單位（CPU）的說法，該船原本可容納90人，但實際上載有114名成人、5名船員和未知數量的兒童。船難造成至少15人死亡，27人失蹤。救援工作正在進行中。茅利西亞湖船難事件的原因尚未明確，但已知該船被大浪翻覆。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a65eee4f",
+        "title": "加拿大航空公司取消航班，因兒童拒絕戴安全帶",
+        "url": "https://www.theguardian.com/business/2026/aug/11/canadian-airline-cancels-flight-after-child-refuses-to-wear-seatbelt",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 14:03:28 GMT",
+        "summary_zh": "加拿大航空公司 Porter Airlines 一架從維多利亞飛往多倫多的航班，因兒童拒絕戴安全帶而被迫返航。根據航空公司的說法，兒童在 6 日的航班準備起飛時，仍然站在椅子上。乘機父母和機組人員多次嘗試讓兒童戴上安全帶，但都失敗了。因此，機組人員決定返航讓兩名乘客下機，表示「飛機無法在這種不安全狀態下起飛」。這個事件表明航空公司對乘客安全的重視，同時也提醒父母和照顧者要注意兒童的安全。這個事件也引發了對兒童安全帶使用的重視。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "85ba4ff1",
         "title": "哥倫比亞地震：救援人員瘋狂搶救生還者，已有 180 人遇難",
@@ -102,8 +138,8 @@
         "published_at": "Wed, 12 Aug 2026 08:50:52 GMT",
         "summary_zh": "塔塔集團主席N.查拉塞卡蘭宣布將在二月份卸任。他表示，由於塔塔孫公司董事會缺乏支持，他將不會尋求連任。查拉塞卡蘭自2017年起擔任塔塔集團主席，期間領導公司進行了多項重大的變革。他在一份聲明中表示，該公司的未來發展將繼續由董事會領導。塔塔集團是印度的一家跨國企業，業務涉及汽車、鋼鐵、航空等領域。查拉塞卡蘭的離任將對公司未來發展產生重要影響。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "19e70b42",
@@ -248,56 +284,32 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "a65eee4f",
-        "title": "加拿大航空公司取消航班，因兒童拒絕戴安全帶",
-        "url": "https://www.theguardian.com/business/2026/aug/11/canadian-airline-cancels-flight-after-child-refuses-to-wear-seatbelt",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 14:03:28 GMT",
-        "summary_zh": "加拿大航空公司 Porter Airlines 一架從維多利亞飛往多倫多的航班，因兒童拒絕戴安全帶而被迫返航。根據航空公司的說法，兒童在 6 日的航班準備起飛時，仍然站在椅子上。乘機父母和機組人員多次嘗試讓兒童戴上安全帶，但都失敗了。因此，機組人員決定返航讓兩名乘客下機，表示「飛機無法在這種不安全狀態下起飛」。這個事件表明航空公司對乘客安全的重視，同時也提醒父母和照顧者要注意兒童的安全。這個事件也引發了對兒童安全帶使用的重視。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "whitehouse": [
       {
-        "id": "a8454b5b",
-        "title": "川普稱因可能威脅而更換飛機",
-        "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "id": "77a29ed4",
+        "title": "美國優先意味著俄亥俄州優先：總統川普、共和黨為俄亥俄州兌現承諾",
+        "url": "https://www.whitehouse.gov/releases/2026/08/america-first-means-ohio-first-president-trump-republicans-deliver-for-ohio/",
+        "source": "White House News",
         "category": "whitehouse",
-        "published_at": "Wed, 12 Aug 2026 03:44:55 GMT",
-        "summary_zh": "川普在土耳其參加北約峰會後，表示美國秘書處要求他改乘另一架飛機。根據川普的說法，這是因為有可能存在威脅。這一事件的背景是在北約峰會期間，川普與土耳其總統埃爾多安會面，雙方關係緊張。關鍵細節是川普沒有具體說明威脅的來源或性質。影響分析，這一事件可能會使川普的安全措施更加嚴格，同時也會加深與土耳其的緊張關係。後續展望，未來川普的安全措施可能會更加謹慎，同時也會關注與土耳其的關係發展。",
-        "sentiment": "中性",
+        "published_at": "Tue, 11 Aug 2026 20:45:20 +0000",
+        "summary_zh": "總統川普今天重返俄亥俄州參加愛國運動會決賽，為慶祝美國獨立 250 週年而榮譽美國青年在卓越、堅韌和競爭精神方面的成就。總統川普此行俄亥俄州時，毫無疑問的是：在總統川普和共和黨領導下，俄亥俄州正在茁壯成長。自總統川普回任後，俄亥俄州的經濟表現出色，創下了新高。俄亥俄州的就業率和經濟增長率遠超國家平均值。共和黨的政策為俄亥俄州帶來了新的投資和創業機會。總統川普的政策為俄亥俄州的農業、製造業和能源業帶來了新的機會。總統川普的訪問表明，他將繼續為俄亥俄州兌現承諾，為州的經濟和人民帶來更好的未來。",
+        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "c0b3ca3b",
-        "title": "川普的戲劇性飛機交換暗示伊朗戰爭的個人利益",
-        "url": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
+        "id": "853b4f9b",
+        "title": "ICYMI: 美國大城市暴力犯罪持續下降",
+        "url": "https://www.whitehouse.gov/releases/2026/08/icymi-violent-crime-keeps-falling-in-biggest-u-s-cities/",
+        "source": "White House News",
         "category": "whitehouse",
-        "published_at": "Wed, 12 Aug 2026 00:14:42 GMT",
-        "summary_zh": "川普與伊朗的關係一直充滿變數，最近一次戲劇性的飛機交換事件再次展現出這種關係的複雜性。根據Anthony Zurcher的描述，這是川普與伊朗關係的又一樁轟動事件。",
-        "sentiment": "中性",
-        "is_breaking": true,
+        "published_at": "Tue, 11 Aug 2026 17:38:27 +0000",
+        "summary_zh": "美國總統唐納德·川普的治安政策正在有效地打擊美國各大城市的暴力犯罪。根據大城市警長協會的最新犯罪報告，美國最大的城市的謀殺案件比去年同期下降了17.2%，同時也出現了搶劫、強姦、激烈襲擊等暴力犯罪的下降。這些數據表明，川普的治安政策正在取得成效。這項報告將對美國的治安政策和犯罪率有重要的影響。",
+        "sentiment": "正面",
+        "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "e5b623b3",
-        "title": "威斯康辛州選舉結果終止民主黨左翼連勝",
-        "url": "https://www.bbc.co.uk/news/articles/c9347ezzwljo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 12 Aug 2026 09:55:40 GMT",
-        "summary_zh": "在美國威斯康辛州舉行的州議會選舉中，中間派候選人戴維德·克洛伊 (David Crowley) 預計擊敗民主社會主義候選人弗朗西絲卡·洪 (Francesca Hong)，終止了民主黨左翼在全國各地連續勝出的局面。這一結果顯示，民主黨內部的分裂正在加劇，中間派力量正在逐漸抬頭。這一趨勢可能會對未來的民主黨選舉產生重大影響。戴維德·克洛伊的勝利也表明，民主黨左翼的勝利並不是一成不變的，而是有可能被中間派力量所挑戰的。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
       },
       {
         "id": "0943545f",
@@ -305,22 +317,10 @@
         "url": "https://www.theguardian.com/us-news/live/2026/aug/12/donald-trump-air-force-one-switch-politics-primaries-midterm-elections-results-latest-updates",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Wed, 12 Aug 2026 10:35:11 GMT",
+        "published_at": "Wed, 12 Aug 2026 11:45:03 GMT",
         "summary_zh": "川普總統在7月份因伊朗暗殺威脅而採取安全措施，隱藏在餐車內並秘密更換飛機。根據《衛報》報導，當天川普總統在電視鏡頭前登上舊型空軍一號巨型客機後，幾分鐘內被秘密轉移到一架小型飛機上。民主黨人士批評川普的行為，要求國會進行緊急會議。川普總統稱，秘密服務局希望他乘坐不同的飛機，因為有威脅存在。這一事件引發了對川普安全措施的批評和質疑。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "09e01fd5",
-        "title": "進步派和民主黨內部派系在威斯康星州和明尼蘇達州初選中展開激烈爭奪",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/11/donald-trump-democrats-primaries-wisconsin-minnesota-south-carolina-vaccines-max-miller-latest-news-updates",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Wed, 12 Aug 2026 04:08:07 GMT",
-        "summary_zh": "美國民主黨內部派系爭奪之戰將在威斯康星州和明尼蘇達州初選中展開。這些州的選民將在本週的選舉中決定黨內的方向和競選勝算。進步派候選人佩吉·弗拉南（Peggy Flanagan）將與民主黨議員安吉·克萊格（Angie Craig）競爭威斯康星州參議院席位。這場選戰將圍繞著移民執法在該州的角色展開，該州在過去的冬季移民暴力事件中有兩名居民被移民官員殺害。這場選戰將是民主黨內部派系爭奪之戰的最新一環，包括密歇根州的選舉，進步派候選人阿卜杜勒·艾爾-賽德（Abdul El-Sayed）在那裡取得了勝利。",
-        "sentiment": "中性",
-        "is_breaking": false,
+        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -360,6 +360,42 @@
         "ai_classified": true
       },
       {
+        "id": "a8454b5b",
+        "title": "川普稱因可能威脅而更換飛機",
+        "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 12 Aug 2026 03:44:55 GMT",
+        "summary_zh": "川普在土耳其參加北約峰會後，表示美國秘書處要求他改乘另一架飛機。根據川普的說法，這是因為有可能存在威脅。這一事件的背景是在北約峰會期間，川普與土耳其總統埃爾多安會面，雙方關係緊張。關鍵細節是川普沒有具體說明威脅的來源或性質。影響分析，這一事件可能會使川普的安全措施更加嚴格，同時也會加深與土耳其的緊張關係。後續展望，未來川普的安全措施可能會更加謹慎，同時也會關注與土耳其的關係發展。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c0b3ca3b",
+        "title": "川普的戲劇性飛機交換暗示伊朗戰爭的個人利益",
+        "url": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 12 Aug 2026 00:14:42 GMT",
+        "summary_zh": "川普與伊朗的關係一直充滿變數，最近一次戲劇性的飛機交換事件再次展現出這種關係的複雜性。根據Anthony Zurcher的描述，這是川普與伊朗關係的又一樁轟動事件。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "e5b623b3",
+        "title": "威斯康辛州選舉結果終止民主黨左翼連勝",
+        "url": "https://www.bbc.co.uk/news/articles/c9347ezzwljo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 12 Aug 2026 11:32:17 GMT",
+        "summary_zh": "在美國威斯康辛州舉行的州議會選舉中，中間派候選人戴維德·克洛伊 (David Crowley) 預計擊敗民主社會主義候選人弗朗西絲卡·洪 (Francesca Hong)，終止了民主黨左翼在全國各地連續勝出的局面。這一結果顯示，民主黨內部的分裂正在加劇，中間派力量正在逐漸抬頭。這一趨勢可能會對未來的民主黨選舉產生重大影響。戴維德·克洛伊的勝利也表明，民主黨左翼的勝利並不是一成不變的，而是有可能被中間派力量所挑戰的。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
         "id": "6c6c2d83",
         "title": "白宮保齡球計畫：美國總統隱身在平常人中",
         "url": "https://www.bbc.co.uk/news/articles/c9d84874dzjo?at_medium=RSS&at_campaign=rss",
@@ -384,18 +420,6 @@
         "ai_classified": true
       },
       {
-        "id": "395d10c5",
-        "title": "事實查核川普對疫苗的說法：他正在撤回一些建議的疫苗",
-        "url": "https://www.bbc.co.uk/news/articles/c9q9dzp97l4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 11 Aug 2026 23:16:38 GMT",
-        "summary_zh": "美國總統川普多次對兒童疫苗的安全性提出質疑，提出多個誤導性的說法。川普的說法引起了醫學界和公共衛生專家的關注，他們強調疫苗的安全性和重要性。事實查核人員指出，川普的說法與科學證據不符，可能會導致公眾對疫苗的誤解。川普的決定可能會影響兒童的健康和公共衛生政策。這一事件也引起了政治界的關注，許多人批評川普的說法是有害的。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "fbeef973",
         "title": "盧吉·曼瓊尼再度出庭，謀殺案審判前仍有關鍵問題未解",
         "url": "https://www.bbc.co.uk/news/articles/cgje05wd1v4o?at_medium=RSS&at_campaign=rss",
@@ -406,45 +430,57 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
+      }
+    ],
+    "ai": [
+      {
+        "id": "e945ed42",
+        "title": "MIT Technology Review 選出 35 名全球頂尖年輕科學家與工程師",
+        "url": "https://www.technologyreview.com/2026/08/12/1141605/2026-innovators-under-35-top-young-scientists-engineers/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Wed, 12 Aug 2026 09:08:40 +0000",
+        "summary_zh": "MIT Technology Review 將於下月 9 月 8 日公佈 2026 年的「年輕創新者」名單，表彰全球 35 名年輕人，他們在科學領域做出了突破性的工作，並開發了創新的技術解決方案來解決複雜問題。通過發現全球頂尖年輕創新者並了解他們的工作重點，MIT Technology Review 希望能夠提供關鍵的見解和洞察力，幫助企業和投資者瞭解未來的科技趨勢和發展方向。這項活動旨在鼓勵年輕科學家和工程師繼續創新和改進，並為未來的科技發展提供動力。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
-        "id": "6982748b",
-        "title": "川普在伊朗威脅下秘密換機，據報曾躲在餐車內",
-        "url": "https://www.bbc.co.uk/news/articles/cm2g90vvy62o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 11 Aug 2026 23:04:06 GMT",
-        "summary_zh": "據美國媒體報導，美國總統川普在去月在土耳其參加北約峰會後，從舊版空軍一號被轉移到一架軍用飛機上。這次轉機的動作被視為對伊朗威脅的應對措施。這種秘密換機的做法讓人聯想到川普曾在過去的任期中多次展示其對安全的重視。然而，這種做法也引發了對總統安全的關注。",
+        "id": "c6a6a1a9",
+        "title": "「審查產業複合體」如何改變網路和美國政策",
+        "url": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Tue, 11 Aug 2026 17:58:57 +0000",
+        "summary_zh": "近日，我第一次聽到「審查產業複合體」的概念是在2025年4月15日。當時，我收到消息指出，負責監控和反制俄羅斯、伊朗和中國等國外散布假訊息的小型美國國務院辦公室，將於隔日關閉。原因是該辦公室被指涉嫌審查言論。這一事件引發了對美國網路政策的重考慮。審查產業複合體的興起，意味著政府和私人企業共同合作，監控和審查網路內容。這種合作模式可能會對網路自由和言論自由造成威脅。美國政府的政策變化，將如何影響網路的未來？這一事件的影響將如何延伸到全球？",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "77a29ed4",
-        "title": "美國優先意味著俄亥俄州優先：總統川普、共和黨為俄亥俄州兌現承諾",
-        "url": "https://www.whitehouse.gov/releases/2026/08/america-first-means-ohio-first-president-trump-republicans-deliver-for-ohio/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 11 Aug 2026 20:45:20 +0000",
-        "summary_zh": "總統川普今天重返俄亥俄州參加愛國運動會決賽，為慶祝美國獨立 250 週年而榮譽美國青年在卓越、堅韌和競爭精神方面的成就。總統川普此行俄亥俄州時，毫無疑問的是：在總統川普和共和黨領導下，俄亥俄州正在茁壯成長。自總統川普回任後，俄亥俄州的經濟表現出色，創下了新高。俄亥俄州的就業率和經濟增長率遠超國家平均值。共和黨的政策為俄亥俄州帶來了新的投資和創業機會。總統川普的政策為俄亥俄州的農業、製造業和能源業帶來了新的機會。總統川普的訪問表明，他將繼續為俄亥俄州兌現承諾，為州的經濟和人民帶來更好的未來。",
-        "sentiment": "正面",
+        "id": "36d15d70",
+        "title": "下一代LLMs大趨勢：AI學術研究的轉變",
+        "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Tue, 11 Aug 2026 12:10:00 +0000",
+        "summary_zh": "近年來，人工智慧領域的研究熱度不斷升高，尤其是對於大型語言模型（LLMs）的研究。九年前，Google的研究人員首次提出轉換器（transformer）架構，這種神經網路家族已經成為各大科技公司的核心技術。目前，許多初創公司正在競逐下一代LLMs的領先地位。這些公司正在嘗試創造更強大的語言模型，能夠更好地理解人類語言，並提供更好的服務。然而，這些公司也面臨著挑戰，包括資源的限制、技術的複雜性以及倫理的考慮。同時，AI學術研究也在快速發展，新的理論和方法正在被提出，以應對這些挑戰。這些發展將對未來的AI技術產生重大影響，可能帶來新的商業機會和社會變革。",
+        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       },
       {
-        "id": "853b4f9b",
-        "title": "ICYMI: 美國大城市暴力犯罪持續下降",
-        "url": "https://www.whitehouse.gov/releases/2026/08/icymi-violent-crime-keeps-falling-in-biggest-u-s-cities/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Tue, 11 Aug 2026 17:38:27 +0000",
-        "summary_zh": "美國總統唐納德·川普的治安政策正在有效地打擊美國各大城市的暴力犯罪。根據大城市警長協會的最新犯罪報告，美國最大的城市的謀殺案件比去年同期下降了17.2%，同時也出現了搶劫、強姦、激烈襲擊等暴力犯罪的下降。這些數據表明，川普的治安政策正在取得成效。這項報告將對美國的治安政策和犯罪率有重要的影響。",
-        "sentiment": "正面",
-        "is_breaking": false,
+        "id": "3ca22065",
+        "title": "Zoom 線上會議共用螢幕BUG：外部人士可輕易接管同組會議參與者設備",
+        "url": "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/",
+        "source": "Wired AI",
+        "category": "ai",
+        "published_at": "Tue, 11 Aug 2026 12:37:12 +0000",
+        "summary_zh": "近日研究人員發現 Zoom 線上會議共用螢幕功能存在嚴重漏洞，外部人士可輕易接管同組會議參與者的設備。根據研究人員的說法，這個漏洞已經被修復，但這也讓人們對 Zoom 的安全性產生了疑慮。這個漏洞的存在，讓任何人在 Zoom 線上會議中，輕易地接管其他參與者的設備，包括取控螢幕、鍵盤和鼠標等。研究人員使用一款公眾 AI 工具，僅需 20 次提示就能發現這個漏洞。這個事件也讓人們對 Zoom 的安全性產生了新的疑慮，是否 Zoom 的安全措施仍然足夠堅固？",
+        "sentiment": "負面",
+        "is_breaking": true,
         "ai_classified": true
-      }
-    ],
-    "ai": [
+      },
       {
         "id": "2d93b9c8",
         "title": "Saber否認取代遊戲《Rideshare Stimulator》編劇團隊用ChatGPT",
@@ -552,90 +588,54 @@
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
-      },
-      {
-        "id": "3ca22065",
-        "title": "Zoom 線上會議共用螢幕BUG：外部人士可輕易接管同組會議參與者設備",
-        "url": "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/",
-        "source": "Wired AI",
-        "category": "ai",
-        "published_at": "Tue, 11 Aug 2026 12:37:12 +0000",
-        "summary_zh": "近日研究人員發現 Zoom 線上會議共用螢幕功能存在嚴重漏洞，外部人士可輕易接管同組會議參與者的設備。根據研究人員的說法，這個漏洞已經被修復，但這也讓人們對 Zoom 的安全性產生了疑慮。這個漏洞的存在，讓任何人在 Zoom 線上會議中，輕易地接管其他參與者的設備，包括取控螢幕、鍵盤和鼠標等。研究人員使用一款公眾 AI 工具，僅需 20 次提示就能發現這個漏洞。這個事件也讓人們對 Zoom 的安全性產生了新的疑慮，是否 Zoom 的安全措施仍然足夠堅固？",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c6a6a1a9",
-        "title": "「審查產業複合體」如何改變網路和美國政策",
-        "url": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Tue, 11 Aug 2026 17:58:57 +0000",
-        "summary_zh": "近日，我第一次聽到「審查產業複合體」的概念是在2025年4月15日。當時，我收到消息指出，負責監控和反制俄羅斯、伊朗和中國等國外散布假訊息的小型美國國務院辦公室，將於隔日關閉。原因是該辦公室被指涉嫌審查言論。這一事件引發了對美國網路政策的重考慮。審查產業複合體的興起，意味著政府和私人企業共同合作，監控和審查網路內容。這種合作模式可能會對網路自由和言論自由造成威脅。美國政府的政策變化，將如何影響網路的未來？這一事件的影響將如何延伸到全球？",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "36d15d70",
-        "title": "下一代LLMs大趨勢：AI學術研究的轉變",
-        "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Tue, 11 Aug 2026 12:10:00 +0000",
-        "summary_zh": "近年來，人工智慧領域的研究熱度不斷升高，尤其是對於大型語言模型（LLMs）的研究。九年前，Google的研究人員首次提出轉換器（transformer）架構，這種神經網路家族已經成為各大科技公司的核心技術。目前，許多初創公司正在競逐下一代LLMs的領先地位。這些公司正在嘗試創造更強大的語言模型，能夠更好地理解人類語言，並提供更好的服務。然而，這些公司也面臨著挑戰，包括資源的限制、技術的複雜性以及倫理的考慮。同時，AI學術研究也在快速發展，新的理論和方法正在被提出，以應對這些挑戰。這些發展將對未來的AI技術產生重大影響，可能帶來新的商業機會和社會變革。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "stock_tw": [
       {
-        "id": "52a86b18",
-        "title": "標準局強化玩具檢驗把關 籲消費者認明安全標章",
-        "url": "https://www.cna.com.tw/news/afe/202608120284.aspx",
-        "source": "中央社財經",
+        "id": "65fa31c1",
+        "title": "台積電與索尼合作是高招！外媒點出挫敗三星競爭力",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5537797",
+        "source": "自由時報財經",
         "category": "stock_tw",
-        "published_at": "Wed, 12 Aug 2026 18:44:01 +0800",
-        "summary_zh": "為確保玩具安全，經濟部標準檢驗局強化了玩具檢驗把關。所有供14歲以下兒童使用的玩具都須完成檢驗、貼附商品安全標章才能上市。近年，標準局也因應新型玩具的出現，增修了檢驗項目。消費者應該認明安全標章及完整中文標示，避免購買未經檢驗或仿冒商品。這項措施旨在保護兒童的安全，同時也呼籲消費者提高對玩具安全的意識。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "b4aef5b2",
-        "title": "市場靜待美國CPI 新台幣升3.2分收32.246元",
-        "url": "https://www.cna.com.tw/news/afe/202608120283.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 12 Aug 2026 18:42:59 +0800",
-        "summary_zh": "美國7月消費者物價指數（CPI）即將公布，市場氣氛充滿了觀望。由於熱錢匯入，台灣股匯市場今天同步上漲。新台幣最高達到32.2元，最終收盤價為32.246元，升幅達3.2分。台北及元太外匯市場的總成交金額也達到19.55億美元。這種市場情況表明，投資者對美國CPI的預期仍然不明朗，同時也對熱錢匯入的影響感到關注。隨著美國CPI的公布，市場將進一步觀察美元的走勢，並對新台幣的影響進行評估。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "591671a5",
-        "title": "IKKA擬投資毅金精密強攻日本人形機器人國家隊商機",
-        "url": "https://www.cna.com.tw/news/afe/202608120281.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 12 Aug 2026 18:36:55 +0800",
-        "summary_zh": "中央社報導，能率集團旗下第一化成控股IKKA-KY宣布投資機器人手臂及粉末金屬廠商毅金精密，計劃取得近20%股權。IKKA-KY表示，將結合毅金精密在精密齒輪及機器手臂生產能力，進而強攻日本人形機器人國家隊商機。這項投資預示IKKA-KY將進一步拓展在人工智慧和機器人領域的業務，展望其在全球市場的競爭力。然而，投資的具體細節尚待進一步確認。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "6a055fa7",
-        "title": "矽光產品出貨量續增 聯亞估2027年產能為今年2.5倍",
-        "url": "https://www.cna.com.tw/news/afe/202608120279.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 12 Aug 2026 18:33:50 +0800",
-        "summary_zh": "聯亞光電表示，矽光產品出貨量持續增加，第2季營收達到新台幣12.2億元，季增約35%。毛利率也升至57.45%。聯亞預測，第3季營收季增幅將與去年第2季的22%季增率相當，甚至有可能更好。聯亞在過去3季度累計已公告資本支出近60億元，預計2027年產能將是2026年的2.5倍。這表明聯亞正在積極擴大生產能力，以滿足市場需求。這項消息對於投資者而言是積極的，預示著聯亞的未來發展前景良好。",
+        "published_at": "Wed, 12 Aug 2026 19:51:17 +0800",
+        "summary_zh": "台積電與索尼宣布成立價值47億美元的合資企業，旨在抵禦三星等競爭對手在蘋果智慧型手機使用的影像感測器領域取得的進展。分析師認為，這是台積電高招，挫敗三星在智慧型手機影像感測器領域的競爭力。這項合作將使台積電能夠提供更好的影像感測器技術給索尼，進而提高其在智慧型手機市場的競爭力。這項合作也將使台積電能夠進一步擴大其在全球市場的影響力。然而，三星仍然是智慧型手機市場的佔有率領導者，台積電和索尼的合作是否能夠有效挫敗三星的競爭力，還需要觀察其實施情況。",
         "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "1dceb32a",
+        "title": "台泥上半年淨利年增241% 每股盈餘0.38元",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5537782",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 12 Aug 2026 19:29:30 +0800",
+        "summary_zh": "台泥近日公布上半年財報，營收達712.9億元，較去年同期成長1%。稅後淨利達32.8億元，年增241%，每股盈餘為0.38元。台泥的多元事業布局及國際化經營，展現出韌性。這表明台泥在經濟不確定的環境下，仍能保持穩定的財務表現。然而，未來台泥的發展方向和挑戰，仍需要密切關注。台泥的財報表現，對於投資者和業界來說，都是值得關注的資訊。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "6c647650",
+        "title": "AI帶旺測試量測需求 半導體產業喊話政府聚焦三大政策",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5537769",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 12 Aug 2026 19:24:08 +0800",
+        "summary_zh": "近年來，人工智慧（AI）浪潮推升了半導體測試與量測的重要性。為了應對這種趨勢，SEMI國際半導體產業協會昨天舉辦了首次的「AI時代半導體測試與量測產業洞察暨倡議記者會」。會上，SEMI公布了產業問卷調查結果，顯示業界對於政府政策的期望。根據調查結果，業界呼籲政府聚焦於三大政策：一是加強半導體產業人才培育；二是增加對半導體產業的投資；三是推動半導體產業的國際合作。這三大政策將有助於半導體產業的發展，並且能夠應對未來的挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "16e58755",
+        "title": "泰山驚爆明天暫停交易 有重大訊息公布",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5537766",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 12 Aug 2026 19:20:24 +0800",
+        "summary_zh": "泰山公司因重大訊息待公布，獲得證交所同意暫停交易一天。公司將於公布重大訊息後，再申請恢復交易。這項決定可能是因為公司正在處理某些重大事件，例如財務報告、業務重組或其他重要資訊。暫停交易的目的是讓公司有時間處理這些重大訊息，避免市場誤解或過度反應。這項決定對公司股價可能會有短期的影響，投資者應該注意公司的公告並做出適當的投資決策。",
+        "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
@@ -648,8 +648,56 @@
         "published_at": "2026-08-11 23:00:00",
         "summary_zh": "在人工智慧股價大跌後，全球投資者開始轉向台灣股市。根據最新的市場數據顯示，全球投資者對韓國股市的投資意欲大幅下降，而對台灣股市的投資意欲則大幅上升。這一轉變被認為是由於韓國股市受到人工智慧股價大跌的影響，而台灣股市則被視為相對穩定的投資選擇。分析師表示，台灣股市的穩定性和成長潛力使得它成為全球投資者的首選。然而，這一轉變也引發了對韓國股市未來走勢的擔憂。韓國政府和企業正在努力恢復投資者的信心，並確保股市的穩定性。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "52a86b18",
+        "title": "標準局強化玩具檢驗把關 籲消費者認明安全標章",
+        "url": "https://www.cna.com.tw/news/afe/202608120284.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 12 Aug 2026 18:44:01 +0800",
+        "summary_zh": "為確保玩具安全，經濟部標準檢驗局強化了玩具檢驗把關。所有供14歲以下兒童使用的玩具都須完成檢驗、貼附商品安全標章才能上市。近年，標準局也因應新型玩具的出現，增修了檢驗項目。消費者應該認明安全標章及完整中文標示，避免購買未經檢驗或仿冒商品。這項措施旨在保護兒童的安全，同時也呼籲消費者提高對玩具安全的意識。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "b4aef5b2",
+        "title": "市場靜待美國CPI 新台幣升3.2分收32.246元",
+        "url": "https://www.cna.com.tw/news/afe/202608120283.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 12 Aug 2026 18:42:59 +0800",
+        "summary_zh": "美國7月消費者物價指數（CPI）即將公布，市場氣氛充滿了觀望。由於熱錢匯入，台灣股匯市場今天同步上漲。新台幣最高達到32.2元，最終收盤價為32.246元，升幅達3.2分。台北及元太外匯市場的總成交金額也達到19.55億美元。這種市場情況表明，投資者對美國CPI的預期仍然不明朗，同時也對熱錢匯入的影響感到關注。隨著美國CPI的公布，市場將進一步觀察美元的走勢，並對新台幣的影響進行評估。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "591671a5",
+        "title": "IKKA擬投資毅金精密強攻日本人形機器人國家隊商機",
+        "url": "https://www.cna.com.tw/news/afe/202608120281.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 12 Aug 2026 18:36:55 +0800",
+        "summary_zh": "中央社報導，能率集團旗下第一化成控股IKKA-KY宣布投資機器人手臂及粉末金屬廠商毅金精密，計劃取得近20%股權。IKKA-KY表示，將結合毅金精密在精密齒輪及機器手臂生產能力，進而強攻日本人形機器人國家隊商機。這項投資預示IKKA-KY將進一步拓展在人工智慧和機器人領域的業務，展望其在全球市場的競爭力。然而，投資的具體細節尚待進一步確認。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6a055fa7",
+        "title": "矽光產品出貨量續增 聯亞估2027年產能為今年2.5倍",
+        "url": "https://www.cna.com.tw/news/afe/202608120279.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 12 Aug 2026 18:33:50 +0800",
+        "summary_zh": "聯亞光電表示，矽光產品出貨量持續增加，第2季營收達到新台幣12.2億元，季增約35%。毛利率也升至57.45%。聯亞預測，第3季營收季增幅將與去年第2季的22%季增率相當，甚至有可能更好。聯亞在過去3季度累計已公告資本支出近60億元，預計2027年產能將是2026年的2.5倍。這表明聯亞正在積極擴大生產能力，以滿足市場需求。這項消息對於投資者而言是積極的，預示著聯亞的未來發展前景良好。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "b1dd63ef",
@@ -660,8 +708,8 @@
         "published_at": "Wed, 12 Aug 2026 18:26:46 +0800",
         "summary_zh": "南俊國際近日公布上半年財報，顯示公司營收和淨利都有顯著成長。根據財報數據，上半年營收達到新台幣17.13億元，較去年同期增長55.7%。同時，歸屬母公司淨利也大幅成長5.2倍，達到4.54億元。更值得注意的是，每股稅後純益達到6.47元，已經超越了去年全年的每股獲利5.59元。這表明南俊國際在上半年取得了顯著的成長，展現出公司業務的強勁發展。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "b5ffef73",
@@ -672,22 +720,58 @@
         "published_at": "Wed, 12 Aug 2026 18:24:44 +0800",
         "summary_zh": "高端疫苗總經理李思賢表示，隨著腸病毒疫苗於8月初出貨越南，預計今年9月底或10月初開始施打，有望自第3季開始挹注營收。高端疫苗計畫透過東南亞市場的拓展，衝刺今年全年轉虧為盈。這項計畫將為公司帶來新的收入來源，進一步鞏固高端疫苗在市場上的地位。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "bd1d3a04",
-        "title": "記憶體晶片產業焦點轉往Samsung和SK Hynix的股東回報",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-11/peak-memory-fears-put-focus-on-samsung-sk-hynix-cash-returns",
+        "id": "10ddeda4",
+        "title": "中國企業盈餘將測試從AI到互聯網股的轉換",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-11/china-earnings-to-test-rotation-from-ai-to-internet-stocks",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-08-11 23:00:00",
-        "summary_zh": "記憶體晶片產業近期受困於產能過剩和需求下滑的問題。為了應對這種情況，Samsung和SK Hynix等大型記憶體晶片製造商正在考慮將更多的資金回饋給股東。這種做法可能會讓股東感到高興，但也可能會對公司的長期發展造成負面影響。 Samsung和SK Hynix的股東回報將成為市場關注的焦點，投資者將密切關注這些公司的財務狀況和未來發展方向。目前，市場對於記憶體晶片產業的未來發展感到擔憂，是否能夠找到新的生產方向和需求來源，將成為未來的關鍵問題。",
+        "published_at": "2026-08-11 23:30:00",
+        "summary_zh": "中國企業即將公布盈餘，市場將關注這些企業是否會從人工智慧股轉向互聯網股。過去幾年，中國的AI股表現出色，但近期互聯網股開始走強。這些企業的盈餘將對市場的轉向趨勢提供重要指標。市場分析師預測，中國企業的盈餘將會表現出來，展現出人工智慧和互聯網股的競爭格局。這將對投資者有重要的影響，投資者將需要評估這些企業的盈餘和未來發展前景。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
+      },
+      {
+        "id": "28d9df0b",
+        "title": "石油漲幅與伊朗在焦點，CoreWeave大幅上漲：市場總結",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-11/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-08-11 23:28:21",
+        "summary_zh": "石油價格在伊朗問題的影響下小幅上漲，市場對美國通膨數據的關注仍未消失。科技股的氣氛仍然樂觀，CoreWeave公司的股價大幅上漲，公司在財務預測方面做出積極的表態。伊朗問題的不確定性仍然是市場的關注點，美國通膨數據的出現將對市場造成重大影響。市場仍然對未來的發展感到謹慎，投資者需要密切關注市場的變化。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "2a347235",
+        "title": "美國貨運鐵路公司挑戰新規定失敗，至少須有兩名車組人員",
+        "url": "https://www.reuters.com/legal/litigation/us-freight-railroads-lose-appeal-challenging-new-rule-requiring-least-two-person-2026-08-11/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-08-11 23:25:42",
+        "summary_zh": "美國貨運鐵路公司近日挑戰聯邦政府新規定的失敗，該規定要求至少有兩名車組人員在貨運列車上工作。這項規定旨在提高鐵路安全性，特別是在貨物運輸方面。聯邦政府在去年通過了這項規定，要求所有貨運鐵路公司至少配備兩名車組人員，以減少意外事故的風險。美國鐵路協會表示，這項規定將對鐵路業造成重大影響，會增加運輸成本和減少運輸效率。然而，聯邦政府堅持這項規定是必要的，以確保鐵路安全。這項規定將於今年年底實施，貨運鐵路公司必須遵守。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "472c267d",
+        "title": "加拿大航空降低全年盈餘預期，受伊朗戰爭推油價格大幅上漲影響",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-11/air-canada-cuts-outlook-after-jet-fuel-cost-soars-nearly-50",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-08-11 23:07:47",
+        "summary_zh": "加拿大航空公司近日宣布全年盈餘預期降低，原因是受伊朗戰爭影響，推油價格大幅上漲近 50%。這使得航空公司的營運成本大幅增加，對公司的盈餘造成重大影響。該公司表示，目前正在努力應對這一挑戰，盡量降低營運成本。然而，這一事件對航空業的影響可能會持續存在，對未來的航空業發展造成不確定性。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
       },
       {
         "id": "56a22423",
@@ -698,8 +782,8 @@
         "published_at": "2026-08-11 23:00:17",
         "summary_zh": "中國政府正嘗試解決房地產市場長期面臨的問題。根據估計，中國房地產市場的呆滯資產已達到 1.48 萬億元人民幣，約合 1.85 萬億美元。這些呆滯資產包括未售出的房屋、未完成的建設項目等。政府官員正在努力解決這個問題，以防止房地產市場的崩潰。中國房地產市場的崩潰將對整個經濟產生重大影響。政府的努力正在試圖防止這種情況發生。然而，市場仍然充滿著不確定性。中國政府正嘗試通過多種手段來解決房地產市場的問題，包括增加銀行貸款、降低利率等措施。然而，市場仍然擔心政府的措施是否足夠有效。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "14fa5e2e",
@@ -710,35 +794,35 @@
         "published_at": "2026-08-11 23:00:00",
         "summary_zh": "新加坡交易所有限公司正在探索推出更豐富的交易所交易基金（ETF）產品和加強跨市場夥伴關係，以鞏固其在東南亞地區的多元資產交易所地位。新加坡交易所正致力於發展其業務，包括推出單股 ETF，讓投資者能夠投資於單一股票，而不是整個股票市場。這項新產品將使投資者能夠更靈活地配置投資組合，並且能夠更好地應對市場波動。同時，新加坡交易所也將加強與其他市場的夥伴關係，包括與其他交易所、證券公司和投資銀行的合作。這項合作將使新加坡交易所能夠提供更豐富的產品和服務給投資者，從而鞏固其在東南亞地區的領導地位。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
-        "id": "5d269d98",
-        "title": "澳大利亞AGL能源年度利潤近2%下滑",
-        "url": "https://www.reuters.com/business/energy/australias-agl-energy-logs-nearly-2-fall-annual-profit-2026-08-11/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-08-11 22:32:09",
-        "summary_zh": "澳大利亞AGL能源公司近日公布年度財務報告，顯示該公司年度利潤近2%下滑。根據報告，AGL能源的營業收入達到 32.6 億澳元，較去年同期下滑 1.3%。公司的營業利潤則為 3.3 億澳元，較去年同期下滑 1.9%。AGL能源的財務報告顯示，公司面臨著能源市場的競爭壓力，營運成本增加。公司的管理層表示，將繼續努力降低營運成本和提高營業收入。這項報告對於澳大利亞能源市場的發展有重要意義，同時也對於AGL能源未來的發展方向提供了參考。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "b10ac7a8",
-        "title": "布萊克斯通斥資 180 億元收購加拿大航空忠誠度單位",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-11/blackstone-leads-1-8-billion-air-canada-loyalty-plan-stake-deal",
+        "id": "bd1d3a04",
+        "title": "記憶體晶片產業焦點轉往Samsung和SK Hynix的股東回報",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-11/peak-memory-fears-put-focus-on-samsung-sk-hynix-cash-returns",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-08-11 22:25:46",
-        "summary_zh": "加拿大航空忠誠度單位將被布萊克斯通收購，交易價值達 180 億元。這項交易將為布萊克斯通提供機會進一步擴展其忠誠度業務，同時加拿大航空也將能夠將其忠誠度單位的經營權移交給一家資金雄厚的投資公司。這項交易對加拿大航空的忠誠度單位將產生重大影響，同時也將為布萊克斯通帶來新的商業機會。然而，交易的具體細節尚未公開，投資者仍需要等待更多信息才能評估交易的意義。",
+        "published_at": "2026-08-11 23:00:00",
+        "summary_zh": "記憶體晶片產業近期受困於產能過剩和需求下滑的問題。為了應對這種情況，Samsung和SK Hynix等大型記憶體晶片製造商正在考慮將更多的資金回饋給股東。這種做法可能會讓股東感到高興，但也可能會對公司的長期發展造成負面影響。 Samsung和SK Hynix的股東回報將成為市場關注的焦點，投資者將密切關注這些公司的財務狀況和未來發展方向。目前，市場對於記憶體晶片產業的未來發展感到擔憂，是否能夠找到新的生產方向和需求來源，將成為未來的關鍵問題。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       }
     ],
     "stock_us": [
+      {
+        "id": "6599b779",
+        "title": "吉姆·克拉默：賈森·黃和他的同盟者創造了全新的資產類別",
+        "url": "https://www.cnbc.com/video/2026/08/11/jim-cramer-jensen-huang-and-his-confederates-created-a-whole-new-asset-class.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-08-11 23:51:04",
+        "summary_zh": "吉姆·克拉默在節目《瘋狂的錢》中討論了Nvidia宣布與華爾街公司合作資金AI建設的消息。這項合作將幫助Nvidia擴大其人工智慧業務，並創造新的投資機會。Nvidia的CEO賈森·黃被視為人工智慧領域的先驅者，他的公司正致力於推動AI技術的發展。這項合作將為投資者提供新的投資機會，並可能對整個資產市場產生重大影響。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "6ea27239",
         "title": "克拉默說要想了解市場的真實情況，投資者應該問自己這三個問題",
@@ -748,8 +832,8 @@
         "published_at": "2026-08-11 22:15:30",
         "summary_zh": "CNBC的Jim克拉默表示，投資者可以通過關注三個關鍵指標來快速評估市場：債券、石油和Nvidia。克拉默認為，這三個指標能夠提供投資者了解市場情況的重要線索。債券市場的走勢能夠反映出市場對經濟前景的評估，而石油價格則能夠反映出市場對全球經濟活動的評估。Nvidia則是科技股之一，其股價走勢能夠反映出市場對科技業的評估。通過關注這三個指標，投資者可以快速了解市場的真實情況，並做出明智的投資決策。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "fde38bc3",
@@ -760,8 +844,8 @@
         "published_at": "2026-08-11 21:57:54",
         "summary_zh": "超微公司數週前已經讓華爾街印象深刻，透露了改善盈利趨勢。最新的預測也超出了市場預期。這意味著超微公司的財務表現正在改善，股價自然也會受到鼓舞。這項消息對於投資者來說是好消息，因為它表明公司的經營狀況正在改善。然而，股價的攀升也可能使得投資者感到擔憂，因為它可能代表著市場對公司的預期過高。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "14a8de62",
@@ -772,8 +856,8 @@
         "published_at": "2026-08-11 21:17:00",
         "summary_zh": "人工智慧雲端服務提供商 CoreWeave，財報顯示其收入和盈利均遠超市場預期，其 CEO 表示，這是公司歷史上的一個重要轉折點。 CoreWeave 的財報表明，該公司正在經歷快速的成長，人工智慧業務取得重大突破。這一成績使得股價大幅上升，投資者對公司未來前景充滿希望。然而，市場也對公司未來的競爭環境和發展方向產生了關注。 CoreWeave 的成功表明，人工智慧雲端服務正成為企業的重要工具，公司的成長前景充滿希望。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "41009a91",
@@ -784,8 +868,8 @@
         "published_at": "2026-08-11 21:01:13",
         "summary_zh": "美國 NVIDIA CEO 杰森·黃 (Jensen Huang) 正在推銷 GPU 作為長期抵押品，以解鎖 5,000 億美元的融資。但是，問題在於他的芯片會迅速貶值嗎？這項計畫的目標是為 AI 研究和開發提供龐大的資金支持。然而，中國的芯片產業也在快速發展，可能會對 NVIDIA 的計畫造成影響。這項風險可能會影響到 NVIDIA 的股價和整個 AI 行業。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "6eaf3ea4",
@@ -844,18 +928,6 @@
         "published_at": "2026-08-11 18:56:49",
         "summary_zh": "NVIDIA 最近與 Wall Street 建立了夥伴關係，引起了市場的關注。艾德·雅典尼表示，這項合作可能會帶來一些炒作，但他認為這也是一個有前景的投資機會。雅典尼指出，NVIDIA 的技術在金融領域的應用潛力非常大，例如在交易和風險管理方面。然而，他也提到，市場對這項合作的預期可能有些過高。雅典尼認為，投資者應該保持謹慎，盡量了解這項合作的具體內容和潛在風險。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "573dae1e",
-        "title": "RBC Capital 分析師稱 Nvidia 線上 5000 億美元融資：‘很有道理’",
-        "url": "https://www.cnbc.com/video/2026/08/11/rbcas-pajjuri-on-nvidia-lining-up-500b-in-financing-very-sensible.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-08-11 18:26:14",
-        "summary_zh": "RBC Capital Markets 分析師 Srini Pajjuri 表示，Nvidia 線上 5000 億美元融資是一個很有道理的決定。這項融資將與 Wall Street 資產管理者合作，推動人工智慧基礎設施的發展。分析師認為，如果計算能力被視為資產類別，那麼這項融資將是一個很好的投資機會。這項融資將對 Nvidia 的未來發展產生重大影響，分析師預測 Nvidia 將在人工智慧領域取得重大突破。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       }
