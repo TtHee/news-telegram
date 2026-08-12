@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-12T10:04:25.831831+08:00",
+  "generated_at": "2026-08-12T11:04:22.926859+08:00",
   "risk_signals": [
-    "🟢 台股加權 45325.58（正常）",
+    "🟢 台股加權 45451.0（正常）",
     "🟢 S&P 500 7728.2（正常）",
     "🟢 VIX 恐慌指數 15.28（正常）",
     "🟢 MOVE 債市波動 77.92（正常）",
-    "🟢 美元指數 99.84（正常）",
-    "🟡 黃金 4455.1（漲 +2.14%，留意）",
+    "🟢 美元指數 99.86（正常）",
+    "🟡 黃金 4473.4（漲 +2.56%，留意）",
     "🟡 美債10Y殖利率 4.68（留意）",
-    "🟢 原油 WTI 83.78（正常）",
-    "🟢 美元/台幣 32.21（正常）"
+    "🟢 原油 WTI 84.04（正常）",
+    "🟢 美元/台幣 32.19（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，投資人正在關注黃金和美債10年殖利率的動態。",
+  "ai_summary": "市場氛圍穩定，美元指數與台股指數維持正常水準，但黃金價格大幅上漲，美債10年殖利率值稍有上升，留意投資者。",
   "market": {
     "TWII": {
-      "price": 45325.58,
-      "change_pct": 0.45
+      "price": 45451.0,
+      "change_pct": 0.73
     },
     "SP500": {
       "price": 7728.2,
@@ -38,24 +38,278 @@
       "change_pct": null
     },
     "DXY": {
-      "price": 99.84,
-      "change_pct": 0.02
+      "price": 99.86,
+      "change_pct": 0.04
     },
     "GOLD": {
-      "price": 4455.1,
-      "change_pct": 2.14
+      "price": 4473.4,
+      "change_pct": 2.56
     },
     "OIL": {
-      "price": 83.78,
-      "change_pct": 2.01
+      "price": 84.04,
+      "change_pct": 2.33
     },
     "USDTWD": {
-      "price": 32.21,
-      "change_pct": -0.05
+      "price": 32.19,
+      "change_pct": -0.11
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "85ba4ff1",
+        "title": "哥倫比亞地震：救援人員瘋狂搶救生還者，已有 180 人遇難",
+        "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 19:09:52 GMT",
+        "summary_zh": "哥倫比亞近日遭遇強烈地震，造成大量建築物倒塌，目前已有 180 人遇難。救援人員正在努力搶救生還者，同時也發生了多次余震。地震的影響非常嚴重，許多人被困在瓦礫下，救援人員正努力將他們救出。這次地震對哥倫比亞的經濟和社會都造成了重大影響。哥倫比亞政府已經派出救援隊伍和醫療人員到災區幫助受災者。這次地震的影響將持續很長時間，哥倫比亞人民將面臨嚴重的挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c9580ebd",
+        "title": "這座海邊公寓曾經是鬼城，警方稱詐騙集團已經進駐",
+        "url": "https://www.bbc.co.uk/news/articles/cx2kvlye1k5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 23:31:18 GMT",
+        "summary_zh": "馬來西亞的Forest City被推銷為「天堂」，但去月警方發動突襲行動，指控該處有詐騙集團活動。這座海邊公寓曾經是空無一人，現在卻有詐騙集團進駐，警方發現了許多違法行為。Forest City的開發商曾經大肆宣傳，稱該處將成為一個繁榮的海邊城市，但現在卻被指控有詐騙集團活動。警方的行動可能會對該處的發展造成重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ffe33504",
+        "title": "俄羅斯利用朝鮮製彈藥攻擊烏克蘭，澤連斯基表示",
+        "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 16:19:44 GMT",
+        "summary_zh": "烏克蘭總統澤連斯基表示，扎波羅熱地區的攻擊事件中，至少有六人死亡，十九人受傷，攻擊使用的彈藥來自俄羅斯的盟友朝鮮。這次攻擊事件發生在烏克蘭南部的扎波羅熱地區，造成嚴重的破壞和傷亡。這是俄羅斯繼續對烏克蘭進行攻擊的最新例子，顯示俄羅斯仍然在使用各種武器對烏克蘭進行打擊。烏克蘭政府對此表示強烈抗議，要求俄羅斯停止這種侵略行為。這次攻擊事件也引起了國際社會的關注和譴責，各國政府和組織都在呼籲俄羅斯停止對烏克蘭的攻擊。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "19e70b42",
+        "title": "美國稱直升機發射彈藥擊中船隻引擎室，破解伊朗封鎖",
+        "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 21:14:56 GMT",
+        "summary_zh": "事件背景：美國中央司令部宣布，美國直升機在波斯灣的奧曼灣擊中了一艘巴拿馬註冊的貨運船隻的引擎室。關鍵細節：美國中央司令部表示，這次行動是為了破解伊朗的封鎖，保護海上交通安全。影響分析：這次行動可能會加劇伊朗與美國之間的緊張關係，進一步升級中東地區的軍事緊張。後續展望：美國政府未對此次行動的具體原因和後果進行詳細解釋，未來的發展仍存不確定性。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "6c535afc",
+        "title": "黎巴嫩議會通過廢除死刑法案",
+        "url": "https://www.bbc.co.uk/news/articles/c8enj8p1xwgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 15:24:07 GMT",
+        "summary_zh": "黎巴嫩議會近日通過一項法案，廢除死刑。這項新法案將會送交內閣審議，若通過，黎巴嫩將成為中東地區第一個廢除死刑的國家。這項決定受到各界關注，許多人認為這是黎巴嫩走向民主化的一步重要措施。然而，也有部分人擔心這可能會對國家的安全產生影響。黎巴嫩政府將如何處理這項新法案，還需要觀察。這項事件也引起了國際社會的關注，許多人希望黎巴嫩能夠成為一個更民主和開放的國家。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6cc85051",
+        "title": "俄羅斯釋放前美國海軍陸戰隊員　被指身體狀況不佳",
+        "url": "https://www.bbc.co.uk/news/articles/cvgj4m8e1ryo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 23:33:45 GMT",
+        "summary_zh": "俄羅斯當局宣布釋放前美國海軍陸戰隊員羅伯特·吉爾曼（Robert Gilman）。吉爾曼於2022年因醉酒踢警員而被捕。據報導，他在監禁期間處於類似癱瘓狀態。吉爾曼的釋放引發了對俄羅斯對待外國囚犯的質疑。許多人擔心他在監禁期間的健康狀況。吉爾曼的釋放也引發了對美國政府應該如何處理這種情況的討論。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "389ee28c",
+        "title": "法國禁止未經同意的電話銷售",
+        "url": "https://www.bbc.co.uk/news/articles/cy5d11g72ppo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 14:19:45 GMT",
+        "summary_zh": "法國政府近期宣布禁止未經消費者同意的電話銷售行為，對於法國的一些消費者團體而言，這是一個「小型革命」。這項禁令將對法國的電話銷售業界產生重大影響，消費者將不再受打擾。這項政策的推行將使法國成為全球首個禁止未經同意的電話銷售的國家。法國政府表示，這項禁令將保護消費者免受電話銷售行為的侵害，同時也將促進消費者權益的保護。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3d621bd7",
+        "title": "萊茵河乾旱影響瑞士物價",
+        "url": "https://www.cna.com.tw/news/aopl/202608120019.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Wed, 12 Aug 2026 08:12:25 +0800",
+        "summary_zh": "近期歐洲遭遇百年大旱，萊茵河水位大幅下降，德國航段受嚴重影響，瑞士也因此受到波及。若萊茵河航段進一步中斷，貨物將需要改由火車或卡車運往瑞士，從而增加運輸相關成本。雖然瑞士目前並未預期出現物資短缺，但由於運輸成本上升，穀物、燃料及飼料等商品的價格也會因此而上升。這將對瑞士民生物價造成影響，瑞士政府正在密切監控情況，準備應對任何可能出現的挑戰。萊茵河乾旱對瑞士物價的影響將是長期的，瑞士需要找到適當的解決方案來應對這種情況。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "63f0b12b",
+        "title": "前法官被奧班撤換當選匈牙利總統",
+        "url": "https://www.bbc.co.uk/news/articles/clyed7rem5no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 18:34:39 GMT",
+        "summary_zh": "匈牙利新政府自五月初上任以來，沒有耽擱時間，開始拆除維克多·奧班的遺產。其中一位被奧班撤換的前法官，最近當選為匈牙利總統。這位前法官是由奧班政府撤換的前任法官，他的選舉結果顯示了匈牙利民眾對奧班政府的不滿。這次選舉結果對匈牙利政治產生了重大影響，可能會導致奧班政府的政策面臨挑戰。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "bdafb45f",
+        "title": "被驅逐的敘利亞前總統巴沙爾·阿薩德被判處死刑",
+        "url": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 14:50:10 GMT",
+        "summary_zh": "敘利亞內戰期間，前總統巴沙爾·阿薩德被指控犯下戰爭罪行和反人類罪。根據最新的消息，阿薩德已被判處死刑，但他並未出席審判。這一判決是對阿薩德在敘利亞內戰中所犯下的罪行的一個重大回應。阿薩德的政府被指控犯下大量人權侵犯和戰爭罪行，導致數萬人喪生。這一判決可能會對敘利亞政治局勢產生重大影響，尤其是在阿薩德的政權仍然存在的情況下。然而，阿薩德是否會被實際執行死刑仍然存疑。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9cf14eb2",
+        "title": "泰國暫停發放新槍枝許可證",
+        "url": "https://www.bbc.co.uk/news/articles/cm2g550v0pvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 15:11:54 GMT",
+        "summary_zh": "泰國近日發生大規模槍擊案，導致多人喪生。泰國當局承諾將推出嚴厲的新法規，限制槍枝擁有。泰國槍枝擁有率相對較高，該國政府面臨著如何控制槍枝流通的挑戰。泰國當局暫停發放新槍枝許可證，試圖控制槍枝流通。這一措施將對泰國槍枝擁有者產生重大影響。泰國政府的新法規將如何實施，還有待觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "442103ae",
+        "title": "加拿大小姐選美參賽者道歉穿著原住民服裝",
+        "url": "https://www.bbc.co.uk/news/articles/cx2kv12nqx6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 18:04:48 GMT",
+        "summary_zh": "近日，加拿大小姐選美比賽發生爭議，參賽者穿著原住民服裝引起原住民社區的不滿。選美參賽者在比賽後表示，自己的服裝選擇造成了對原住民社區的傷害和冒犯。這一事件引發了對文化敏感性的關注，許多人認為參賽者應該更謹慎地選擇服裝，以避免冒犯原住民社區。這一事件也引發了對選美活動的評估，是否該更加重視文化敏感性和多元性。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "482eacee",
+        "title": "澳洲總理遭批評為對日本對方水蜜桃禮物的評論",
+        "url": "https://www.bbc.co.uk/news/articles/c0jl6ewvq42o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 07:55:22 GMT",
+        "summary_zh": "澳洲總理最近在接受採訪時提到日本首相送給他的水蜜桃禮物，評論中被指有性別歧視的意味。這引起了澳洲和日本兩國外交官的批評。澳洲前駐日大使表示，這些評論「背叛了兩國之間的密切關係」。這次事件引起了兩國之間的外交爭議，讓人們關注澳洲總理的言論是否會對兩國的關係造成影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "3fdb0a56",
+        "title": "荷莫茲海峽通航前景未明 國際油價小幅上漲",
+        "url": "https://www.cna.com.tw/news/afe/202608120009.aspx",
+        "source": "中央社財經",
+        "category": "global",
+        "published_at": "Wed, 12 Aug 2026 04:57:58 +0800",
+        "summary_zh": "荷莫茲海峽是世界上最重要的海上通道之一，連接波斯灣和印度洋。近期，該地區的軍事緊張局勢引發了對海峽通航的擔憂。儘管官員宣稱取得進展，但交易員對於恢復荷莫茲海峽航運的可能性仍持懷疑態度。這使得國際原油價格今天在震盪交易中小幅上揚。海峽通航的前景未明，對於全球能源市場造成了不確定性。這種不確定性可能會導致油價的波動。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d01a87d4",
+        "title": "無人機拍攝斯波坎大火災後的慘烈景象",
+        "url": "https://www.bbc.co.uk/news/videos/c80nm9melpmo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 14:02:07 GMT",
+        "summary_zh": "斯波坿大火災造成慘重的後果，無人機拍攝的空拍片段顯示房屋被燒毀到地基，某些車輛仍停放在車道上。這場大火災的原因尚未明確，但已經造成嚴重的損失。斯波坿當地居民正在努力重建和恢復。這場大火災的影響將會持續很長時間，需要長期的重建和恢復工作。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8d3dbb47",
+        "title": "中國火箭發射失敗，爆炸在空中",
+        "url": "https://www.bbc.co.uk/news/videos/c78grn8vnvvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 04:08:06 GMT",
+        "summary_zh": "中國一枚火箭在發射升空後不久，出現了飛行異常，導致失敗。根據中國官方媒體的報導，這枚火箭正在攜帶一顆衛星。這次失敗事件可能會對中國的太空計畫造成影響。中國的太空計畫一直在快速發展中，最近幾年有多次成功的發射。然而，這次失敗事件也顯示出中國的太空技術仍然面臨著挑戰。中國政府可能會對此事件進行調查，以確保未來的太空計畫能夠順利進行。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9a329ee4",
+        "title": "發展在援助後的道路：如何加強脆弱國家的防禦能力",
+        "url": "https://www.foreignaffairs.com/united-states/path-development-post-aid-world",
+        "source": "Foreign Affairs",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 00:00:00 -0400",
+        "summary_zh": "在援助結束後，脆弱國家面臨著發展的挑戰。這些國家需要找到方法來加強自己的防禦能力，減少對外援的依賴。根據研究，脆弱國家可以通過投資教育和基礎建設來增強自己的能力。教育可以幫助培養人才，基礎建設可以改善公共服務和交通。同時，脆弱國家也需要建立有效的治理機制和政策框架來促進發展。這樣，脆弱國家就可以在援助結束後繼續發展和增強自己的能力。然而，這需要長期的努力和投入。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c8448230",
+        "title": "中國的飢餓遊戲",
+        "url": "https://www.foreignaffairs.com/china/chinas-hunger-games",
+        "source": "Foreign Affairs",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 00:00:00 -0400",
+        "summary_zh": "中國因為糧食安全問題而變得更加強大，透過這種情況，北京獲得了地緣政治的籌碼。中國的糧食安全問題一直是全球關注的議題，尤其是在近年來的糧食短缺和價格上漲中。中國政府通過多種方式來應對這種情況，包括投資農業、建立糧食儲備系統和推動糧食出口。這些措施不僅幫助中國自身糧食安全，也使得中國成為全球糧食市場的重要參與者。中國的糧食安全問題也成為地緣政治的籌碼，許多國家通過與中國的糧食交易來影響中國的外交政策。這種情況使得中國的糧食安全問題變得更加複雜和敏感。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a65eee4f",
+        "title": "加拿大航空公司取消航班，因兒童拒絕戴安全帶",
+        "url": "https://www.theguardian.com/business/2026/aug/11/canadian-airline-cancels-flight-after-child-refuses-to-wear-seatbelt",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 14:03:28 GMT",
+        "summary_zh": "加拿大航空公司 Porter Airlines 一架從維多利亞飛往多倫多的航班，因兒童拒絕戴安全帶而被迫返航。根據航空公司的說法，兒童在 6 日的航班準備起飛時，仍然站在椅子上。乘機父母和機組人員多次嘗試讓兒童戴上安全帶，但都失敗了。因此，機組人員決定返航讓兩名乘客下機，表示「飛機無法在這種不安全狀態下起飛」。這個事件表明航空公司對乘客安全的重視，同時也提醒父母和照顧者要注意兒童的安全。這個事件也引發了對兒童安全帶使用的重視。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d69eb66b",
+        "title": "哥倫比亞西部發生7.4級強烈地震逾70人死亡",
+        "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 10:14:01 GMT",
+        "summary_zh": "哥倫比亞西部發生7.4級強烈地震，造成多座城市建築物倒塌或嚴重損壞，包括卡利市和佩雷拉市。根據美國和哥倫比亞地質調查局的報告，地震發生於當地時間7:34，震央位於西部的查科省。地震也在鄰國委內瑞拉造成了影響，該國仍在重建從6月24日發生的雙重地震的災後情況。目前已知逾70人死亡，地震對哥倫比亞西部造成了嚴重的破壞。哥倫比亞政府已派出救援隊伍前往受災區域，提供援助和救援。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "cc1b1c51",
+        "title": "7.4級地震襲擊哥倫比亞，超過70人死亡、建築物倒塌",
+        "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Tue, 11 Aug 2026 05:32:08 GMT",
+        "summary_zh": "哥倫比亞發生7.4級地震，超過70人死亡，數十棟建築物倒塌。地震發生後，哥倫比亞最大城市卡利的市長亞歷杭德羅‧埃德爾表示，卡利市有超過二十多棟建築物倒塌，還有許多人被困於其中。他指出，卡利市已經向哥倫比亞首都波哥大和梅德林市請求派遣災害救援隊伍來協助救援工作。地震的影響還在持續中，卡利市的狀況尤其嚴重。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
       {
         "id": "c0b3ca3b",
@@ -70,6 +324,18 @@
         "ai_classified": true
       },
       {
+        "id": "a8454b5b",
+        "title": "川普稱因可能威脅而更換飛機",
+        "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 12 Aug 2026 02:45:01 GMT",
+        "summary_zh": "川普在土耳其參加北約峰會後，表示美國秘書處要求他改乘另一架飛機。根據川普的說法，這是因為有可能存在威脅。這一事件的背景是在北約峰會期間，川普與土耳其總統埃爾多安會面，雙方關係緊張。關鍵細節是川普沒有具體說明威脅的來源或性質。影響分析，這一事件可能會使川普的安全措施更加嚴格，同時也會加深與土耳其的緊張關係。後續展望，未來川普的安全措施可能會更加謹慎，同時也會關注與土耳其的關係發展。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "fbeef973",
         "title": "盧吉·曼瓊尼再度出庭，謀殺案審判前仍有關鍵問題未解",
         "url": "https://www.bbc.co.uk/news/articles/cgje05wd1v4o?at_medium=RSS&at_campaign=rss",
@@ -77,18 +343,6 @@
         "category": "whitehouse",
         "published_at": "Tue, 11 Aug 2026 19:12:54 GMT",
         "summary_zh": "盧吉·曼瓊尼謀殺案即將開審，但他的律師仍未表明他們的辯護策略。檢方則在爭取證據的過程中遇到困難。曼瓊尼案的背景是，曼瓊尼被指控謀殺某人，但檢方和律師尚未公開證據和辯護策略。這使得審判前仍有許多未解的關鍵問題。曼瓊尼的律師尚未公開他們的辯護策略，檢方則在爭取證據的過程中遇到困難。這使得審判前仍有許多未解的關鍵問題。曼瓊尼案的影響將在審判中被揭露。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6454f229",
-        "title": "美國法官撤銷印度億萬富豪Gautam Adani涉嫌賄賂和詐欺案",
-        "url": "https://www.bbc.co.uk/news/articles/clyqxknpp26o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Tue, 11 Aug 2026 06:33:03 GMT",
-        "summary_zh": "美國法官最近撤銷了對印度億萬富豪Gautam Adani涉嫌賄賂和詐欺的起訴案。雖然案件被撤銷，但法官卻批評了美國司法部決定撤銷案件的方式。這一決定引發了關於司法部在調查和起訴高層犯罪時的判斷力的質疑。Gautam Adani 是印度第二大企業集團之一的創辦人，他的企業涉及多個領域，包括能源、交通和物流。這一案件的撤銷可能會對他的企業和個人聲譽產生影響。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -126,8 +380,8 @@
         "published_at": "Tue, 11 Aug 2026 23:16:38 GMT",
         "summary_zh": "美國總統川普多次對兒童疫苗的安全性提出質疑，提出多個誤導性的說法。川普的說法引起了醫學界和公共衛生專家的關注，他們強調疫苗的安全性和重要性。事實查核人員指出，川普的說法與科學證據不符，可能會導致公眾對疫苗的誤解。川普的決定可能會影響兒童的健康和公共衛生政策。這一事件也引起了政治界的關注，許多人批評川普的說法是有害的。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "6982748b",
@@ -137,6 +391,18 @@
         "category": "whitehouse",
         "published_at": "Tue, 11 Aug 2026 23:04:06 GMT",
         "summary_zh": "據美國媒體報導，美國總統川普在去月在土耳其參加北約峰會後，從舊版空軍一號被轉移到一架軍用飛機上。這次轉機的動作被視為對伊朗威脅的應對措施。這種秘密換機的做法讓人聯想到川普曾在過去的任期中多次展示其對安全的重視。然而，這種做法也引發了對總統安全的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6454f229",
+        "title": "美國法官撤銷印度億萬富豪Gautam Adani涉嫌賄賂和詐欺案",
+        "url": "https://www.bbc.co.uk/news/articles/clyqxknpp26o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "whitehouse",
+        "published_at": "Tue, 11 Aug 2026 06:33:03 GMT",
+        "summary_zh": "美國法官最近撤銷了對印度億萬富豪Gautam Adani涉嫌賄賂和詐欺的起訴案。雖然案件被撤銷，但法官卻批評了美國司法部決定撤銷案件的方式。這一決定引發了關於司法部在調查和起訴高層犯罪時的判斷力的質疑。Gautam Adani 是印度第二大企業集團之一的創辦人，他的企業涉及多個領域，包括能源、交通和物流。這一案件的撤銷可能會對他的企業和個人聲譽產生影響。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -159,7 +425,7 @@
         "url": "https://www.theguardian.com/us-news/live/2026/aug/11/donald-trump-democrats-primaries-wisconsin-minnesota-south-carolina-vaccines-max-miller-latest-news-updates",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Wed, 12 Aug 2026 01:55:04 GMT",
+        "published_at": "Wed, 12 Aug 2026 02:54:11 GMT",
         "summary_zh": "美國民主黨內部派系爭奪之戰將在威斯康星州和明尼蘇達州初選中展開。這些州的選民將在本週的選舉中決定黨內的方向和競選勝算。進步派候選人佩吉·弗拉南（Peggy Flanagan）將與民主黨議員安吉·克萊格（Angie Craig）競爭威斯康星州參議院席位。這場選戰將圍繞著移民執法在該州的角色展開，該州在過去的冬季移民暴力事件中有兩名居民被移民官員殺害。這場選戰將是民主黨內部派系爭奪之戰的最新一環，包括密歇根州的選舉，進步派候選人阿卜杜勒·艾爾-賽德（Abdul El-Sayed）在那裡取得了勝利。",
         "sentiment": "中性",
         "is_breaking": false,
@@ -272,8 +538,8 @@
         "published_at": "2026-08-11T20:39:26-04:00",
         "summary_zh": "遊戲開發商Saber最近被指控取代遊戲《Rideshare Stimulator》的編劇團隊用ChatGPT。然而，Saber CEO Matthew Karch否認這一指控，表示公司並沒有取代任何編劇人員。這起爭議的起源是前任主編劇Stella Sacco在社交平台Bluesky上發文，表示自己曾經是該遊戲的主編劇。Saber的CEO Matthew Karch認為，這一指控是錯誤的，並表示公司正在努力開發這款遊戲。這一事件引發了對於人工智慧在遊戲開發中的應用和倫理的討論。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "7d86757e",
@@ -422,6 +688,66 @@
     ],
     "stock_tw": [
       {
+        "id": "51fe43bb",
+        "title": "台積電上漲10元 台股上揚逾300點突破45400點",
+        "url": "https://www.cna.com.tw/news/afe/202608120032.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 12 Aug 2026 09:17:54 +0800",
+        "summary_zh": "台股今天同步走高，早盤上漲超過300點，突破45400點。與台股關聯性高的費城半導體指數上漲104.61點，台指期夜盤上漲194點。美股主要指數漲跌互見，台股走高與美股半導體指數的上漲有關。台股的走高對台灣經濟有正面影響，尤其是台積電的上漲對於整體市場有推動作用。然而，市場的波動仍然存在，投資者需要保持警惕。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "2ce41a19",
+        "title": "新台幣開盤升2.8分為32.25元",
+        "url": "https://www.cna.com.tw/news/afe/202608120028.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 12 Aug 2026 09:05:45 +0800",
+        "summary_zh": "台北外匯市場新台幣兌美元匯率今天以32.25元開盤，升2.8分。這是近期新台幣兌美元匯率的升值。根據市場分析，新台幣的升值可能與外資的流入有關，外資投資者對台股的投資增加，導致新台幣的需求增加，從而造成升值。然而，這種升值可能短暫，市場仍需關注外匯市場的變化。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "ebf8a359",
+        "title": "台股開盤漲54.98點",
+        "url": "https://www.cna.com.tw/news/afe/202608120027.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 12 Aug 2026 09:02:43 +0800",
+        "summary_zh": "台北股市今天開盤出現明顯的上揚趨勢，股價指數大幅上升至45175.7點，成交金額也達到103.99億元。這表明投資者對市場有著相當的信心和積極性。然而，市場的短期走勢仍然難以預測，投資者需要繼續密切關注市場的變化。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "20b52ee2",
+        "title": "OpenAI高層再異動 萊特凱普擬離職投入新事業",
+        "url": "https://www.cna.com.tw/news/aopl/202608120024.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 12 Aug 2026 08:35:36 +0800",
+        "summary_zh": "OpenAI高層萊特凱普宣布將離開公司，投入創辦新事業。這項消息出現於OpenAI積極籌備首次公開募股（IPO）之際，人工智慧（AI）需求日益增加。萊特凱普曾擔任OpenAI資深主管，對公司的發展有重要貢獻。他的離職將對公司未來的發展產生影響。雖然OpenAI正積極籌備IPO，但萊特凱普的離職可能會對公司的股價產生影響。同時，萊特凱普的新事業將會如何運作，還需要觀察和等待。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "4c49c451",
+        "title": "台指期夜盤上揚 法人：台股有望挑戰45200點",
+        "url": "https://www.cna.com.tw/news/afe/202608120021.aspx",
+        "source": "中央社財經",
+        "category": "stock_tw",
+        "published_at": "Wed, 12 Aug 2026 08:23:29 +0800",
+        "summary_zh": "台股近日表現穩定，11日上漲191.96點，收在45120.72點。與台股關聯性高的費城半導體指數也上漲104.61點。根據台股期貨夜盤的走勢，台指期夜盤上漲194點，預示著台股今天有望挑戰45200點。這一預測可能與台股的穩定表現和全球半導體市場的良好狀況有關。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "9641736a",
         "title": "CoreWeave第二季營收超越預期，股價大漲近10% ",
         "url": "https://www.cna.com.tw/news/afe/202608120013.aspx",
@@ -492,185 +818,113 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "45c78c81",
-        "title": "大樂透第115078期 頭獎槓龜",
-        "url": "https://www.cna.com.tw/news/ahel/202608110373.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 11 Aug 2026 22:02:53 +0800",
-        "summary_zh": "大樂透第115078期今晚開獎，中獎號碼為08、46、24、29、12、16，特別號10。結果顯示頭獎是槓龜，意味著沒有中獎者。這是大樂透歷史上再次出現頭獎槓龜的案例，引起了許多玩家關注。這種情況通常是由於中獎號碼與玩家的投注號碼不符所致。玩家們將會繼續參與下一期的遊戲，希望能夠中獎。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "911c2e3d",
-        "title": "兆基屋管聯貸案 金管會：目前履約付息皆正常",
-        "url": "https://www.cna.com.tw/news/afe/202608110366.aspx",
-        "source": "中央社財經",
-        "category": "stock_tw",
-        "published_at": "Tue, 11 Aug 2026 21:36:38 +0800",
-        "summary_zh": "兆基屋管相關公司趙姬投資、寄居蟹管理顧問爆出公司債兌付危機，引發外界關注兆基屋管與銀行團聯貸案狀態。根據金管會的回應，聯貸行表示目前仍在正常履約還款和付息，沒有逾期的情況。這意味著兆基屋管目前仍在按時償還銀行貸款和付息。然而，這個消息也引發了對兆基屋管未來發展的關注，尤其是在公司債兌付危機的背景下。金管會的回應表明，目前兆基屋管的財務狀況仍然穩定，但未來仍需要密切關注公司的發展情況。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6e7ef2be",
-        "title": "嬌生爽身粉百年企業地動山搖",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5531767",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 12 Aug 2026 07:00:00 +0800",
-        "summary_zh": "嬌生爽身粉以滑石為主要原料，美國製藥與醫療科技巨頭嬌生始終否認旗下滑石粉產品含有石綿或導致癌症。2026年7月，嬌生提出估計55億美元的補償方案，為因使用嬌生爽身粉而患有肺癌的美國人提供賠償。這一事件引起了廣泛關注，許多人開始懷疑嬌生爽身粉的安全性。嬌生爽身粉的百年歷史和全球知名度，使得這一事件的影響更加深遠。嬌生爽身粉的問題不僅影響到嬌生公司的聲譽，也影響到全球對滑石粉的安全性評估。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2f23bb0c",
-        "title": "從代客泊車員到億萬富翁 馬克·羅文如何創造出3600億元身價",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5536511",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 12 Aug 2026 06:33:54 +0800",
-        "summary_zh": "美國企業家馬克·羅文從一名時薪3.10美元的代客泊車員做起，後來成為私募基金公司黑石集團的高管。黑石集團是全球最大的私募基金公司之一，旗下管理著超過32兆美元的資產。馬克·羅文的成功故事令人印象深刻，他從一名普通的代客泊車員成長為億萬富翁。他的經歷和成就值得我們學習和尊敬。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "df0aa0a2",
-        "title": "中印搶單 台灣機械業發展「小批量、客製化」",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5536614",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 12 Aug 2026 06:27:53 +0800",
-        "summary_zh": "台灣機械業面臨中國及印度的競爭壓力，兩國的批量生產能力佔全球製造業產出的20%以上。為應對這種情況，台灣機械工業同業公會建議會員強化小批量製造能力，去接顧客價值導向的訂單。公會理事長莊大立表示，發展小批量、客製化製造是台灣機械業的未來發展方向。這種策略可以幫助台灣機械業企業保留核心競爭力，同時也可以滿足顧客對於個性化產品的需求。然而，這也需要企業投資更多在研發、設計和製造上，提高效率和品質。根據公會的估計，台灣機械業的出口額在近年來一直在下滑，今年的出口額預計將會下降10%。因此，發展小批量、客製化製造是台灣機械業企業應對挑戰的關鍵策略。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "053a11fb",
-        "title": "南投5萬戶房屋享優惠稅率1％ 把握申報時間",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5536629",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Wed, 12 Aug 2026 06:25:59 +0800",
-        "summary_zh": "南投縣政府為減輕全國僅持有單一自住房屋者的房屋稅負擔，宣布坐落於南投縣且現值在162萬7500元以下房屋，116年期房屋稅可享優惠稅率1%。此舉將會幫助約5萬戶自住房屋的家庭。根據規定，超過162萬7500元的房屋不在此優惠範圍內。南投縣政府鼓勵房屋持有人趁機申報，以便享受此優惠稅率。這項政策的目的是減輕房屋稅負擔，幫助家庭節省更多的金錢。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "finance": [
       {
-        "id": "0e87bf9b",
-        "title": "美國二手房屋銷售量跌至三個月低點",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-11/us-sales-of-previously-owned-homes-decline-to-three-month-low",
+        "id": "be092f01",
+        "title": "印度監管機構建議將所有黃金交易納入儲存管理規則",
+        "url": "https://www.reuters.com/legal/government/indian-regulator-proposes-bring-all-bullion-trades-under-vault-management-rules-2026-08-11/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-08-11 14:55:44",
+        "summary_zh": "印度監管機構最近提出了一項建議，旨在將所有黃金交易納入儲存管理規則。這項建議的背後原因是為了防止非法黃金進入市場，並確保市場的透明度。根據這項建議，所有黃金交易商都必須將其黃金儲存在監管儲存倉庫中，並且必須遵守嚴格的儲存管理規則。這項建議的影響將是提高市場的安全性和透明度，同時也將增加交易商的成本和負擔。印度監管機構的這項建議將對印度黃金市場產生重大影響，需要進一步的監管和監督。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "0fda01e8",
+        "title": "查詢是否符合埃克森費雪 2200 萬美元和解方案，了解如何爭辯信貸報告錯誤",
+        "url": "https://www.cnbc.com/select/equifax-2-2-million-class-action-settlement/",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-08-11 14:52:05",
+        "summary_zh": "埃克森費雪因為在信貸報告中重複負面項目，降低了消費者信用分數，導致消費者無法獲得房屋貸款、貸款等。埃克森費雪被指控重複負面項目，降低了消費者信用分數，導致消費者無法獲得房屋貸款、貸款等。這項和解方案旨在幫助消費者糾正信貸報告錯誤，提高信用分數。消費者可以查詢是否符合和解方案的資格，並學習如何爭辯信貸報告錯誤。這項和解方案對於消費者來說是一個重要的機會，能夠糾正信貸報告錯誤，提高信用分數，從而獲得更好的貸款條件。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "9a1cf7ab",
+        "title": "肯尼迪中心須支付25萬美元予音樂家，與川普名譽糾紛有關",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-11/kennedy-center-must-pay-250-000-to-musician-in-trump-name-spat",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-08-11 14:00:00",
-        "summary_zh": "美國二手房屋銷售量在上月跌至三個月低點，根據美國房地產交易協會（NAR）公布的數據，二手房屋銷售量下降了 2.3%，達到每月 4,340 萬套。這是自 3 月份以來銷售量最低的月份。專家認為，房屋價格上升和利率上升是導致銷售量下降的主要原因。房屋價格上升使得買家感到不耐煩，而利率上升則使得房屋貸款成本增加。這些因素都對房屋市場產生了負面影響。未來，美國房屋市場可能會繼續面臨挑戰，特別是在房屋價格和利率上升的情況下。",
+        "published_at": "2026-08-11 14:51:02",
+        "summary_zh": "肯尼迪中心因與川普的名譽糾紛而被要求支付25萬美元給一名音樂家。這名音樂家曾在川普的演唱會上表演，但後來因為肯尼迪中心的行為而對其提起訴訟。法官認為肯尼迪中心的行為侵犯了音樂家的名譽權，判決肯尼迪中心須支付25萬美元的賠償金。這樁案件與川普的名譽糾紛有關，顯示川普的名譽仍然是敏感話題。肯尼迪中心的行為被視為對音樂家的不當對待，法官的判決將對肯尼迪中心的形象造成影響。這樁案件的結果將對未來的名譽糾紛案件有所啟發。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "caf05e68",
-        "title": "父母可將稅前薪水存入特朗普賬戶，政府表示僱主將匹配",
-        "url": "https://www.cnbc.com/2026/08/11/trump-accounts-employer-match-paycheck-contributions-treasury.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-08-11 13:49:30",
-        "summary_zh": "美國財政部發佈指南，可能允許父母從薪水中直接將稅前款項存入兒童的特朗普賬戶。這項新政策可能會鼓勵父母為孩子儲蓄，並透過僱主的匹配款項，增加儲蓄額度。然而，具體細節仍待明確，包括如何申請、儲蓄額度上限等。這項政策的影響可能會在未來的財政預算中體現。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "9312712e",
-        "title": "俄羅斯原油出口跌至五月以來最低",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-11/russia-s-crude-oil-exports-tumble-to-their-lowest-since-may",
+        "id": "5d27c8bc",
+        "title": "肯雅加入同儕暫不調整利率，與伊朗戰爭無直接關係",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-11/kenya-joins-peers-in-leaving-interest-rates-on-hold-on-iran-war",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-08-11 13:43:18",
-        "summary_zh": "俄羅斯原油出口量在今年下半年持續下滑，根據最新數據顯示，俄羅斯的原油出口量已經跌至五月以來最低。這一趨勢與西方對俄羅斯的制裁政策有關，制裁政策限制了俄羅斯出口原油的能力。這一發展對全球能源市場產生了重大影響，油價上漲，能源供應緊張。分析師預測，俄羅斯原油出口量的下滑將持續下去，對全球能源市場造成持久的影響。這一發展也使得能源安全成為全球關注的焦點。",
+        "published_at": "2026-08-11 14:47:48",
+        "summary_zh": "肯雅央行宣布暫不調整利率，與其他國家一致。這一決定與伊朗戰爭無直接關係，主要是為了維持經濟穩定。肯雅央行表示，目前的經濟環境仍然穩定，未見任何跡象表明需要調整利率。肯雅的經濟成長率在最近幾年一直保持穩定，央行認為這是維持低利率的理由。然而，肯雅的經濟仍面臨著一些挑戰，包括通貨膨脹和貿易逆差。肯雅央行的決定可能會對本國的經濟產生一定影響，尤其是在短期內。然而，央行認為這一決定是為了長期的經濟穩定而做出的。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "9f358ea4",
+        "title": "Radiant World 負債申訴案件數量自 2025 年以來翻倍",
+        "url": "https://www.reuters.com/legal/transactional/claims-against-radiant-world-assets-have-doubled-since-2025-filings-show-2026-08-11/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-08-11 14:40:03",
+        "summary_zh": "Radiant World 的負債申訴案件數量自 2025 年以來大幅增加。根據最近的文件顯示，公司遭受的訴訟案件數量已經翻倍。這種情況可能與 Radiant World 的財務狀況有關，公司可能面臨著嚴重的財務壓力。 Radiant World 的負債申訴案件數量的增加可能會對公司的財務穩定性產生重大影響。這種情況可能會對 Radiant World 的股價和投資人造成影響。 Radiant World 的管理層應該會採取措施來解決這種問題，避免公司的財務狀況惡化。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "31eaa7e0",
-        "title": "肯雅電力表示風力和太陽能迅速增加對電網造成影響",
-        "url": "https://www.reuters.com/business/energy/kenya-power-says-rapid-wind-solar-uptake-is-affecting-grid-2026-08-11/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-08-11 13:36:18",
-        "summary_zh": "肯雅電力公司表示，近期風力和太陽能的快速發展對電網造成了重大影響。公司指出，風力和太陽能的產量已經超過了傳統的石化能源，導致電網的穩定性受到影響。肯雅電力公司正在努力調整電網的運作，以適應這種變化。這種變化對肯雅電力的電力供應和電網的穩定性都造成了挑戰。肯雅政府也正在推動風力和太陽能的發展，以減少對石化能源的依賴。肯雅電力公司的這一聲明表明，肯雅電力正在努力應對這種變化，並尋找新的方法來維持電網的穩定性。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "03459d33",
-        "title": "投資銀行大行Bank of America：牛市仍有最後一道考驗",
-        "url": "https://www.cnbc.com/2026/08/11/one-big-question-remains-for-the-bull-market-says-bank-of-america.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-08-11 13:32:02",
-        "summary_zh": "投資銀行大行Bank of America最新發表報告指出，雖然股市一直能夠順利應對各種市場波動，但仍有一個關鍵問題尚未解決。這個問題是牛市的持續性，Bank of America認為股市仍需要面對最後一道考驗。雖然股市表現出色，但投資者仍需要保持謹慎的態度，因為市場仍存在許多不確定性。Bank of America的報告強調，投資者需要密切關注市場的發展和政策變化，以避免未來的風險。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "f5e7b90e",
-        "title": "印度表示零售選擇交易者損失下降18%後規管限制",
-        "url": "https://www.reuters.com/legal/government/india-says-retail-option-trader-losses-fell-18-after-regulatory-curbs-2026-08-11/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-08-11 13:30:26",
-        "summary_zh": "印度政府近期出台新的規管限制，旨在防止零售選擇交易者在市場上過度炒作。根據印度政府的數據，零售選擇交易者在今年上半年因為規管限制而遭受的損失下降了18%。這項措施是印度政府為了防止市場泡沫而採取的另一個步驟。印度政府認為，零售選擇交易者的過度炒作是市場泡沫的主要原因。這項措施將對印度的金融市場產生重大影響，投資者應該注意市場的變化。印度政府的規管限制將持續監控市場，以防止市場泡沫的形成。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "89cd9950",
-        "title": "克拉默瘋狂衝鋒：英特爾",
-        "url": "https://www.cnbc.com/video/2026/08/11/crameras-mad-dash-intel.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-08-11 13:29:22",
-        "summary_zh": "克拉默在他的節目中提到了英特爾，但由於內容僅可在付費計劃中獲得，因此無法提供更多資訊。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "22873054",
-        "title": "NYSE母公司ICE啟動市場軸買斷案債券發行",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-11/nyse-parent-ice-kicks-off-bond-sale-for-marketaxess-takeover",
+        "id": "14a76f8c",
+        "title": "亞特蘭大機場借款 1.1 億美元，市政債券市場銷售疲弱",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-11/atlanta-airport-taps-munis-for-1-1-billion-as-sector-sales-lag",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-08-11 13:18:02",
-        "summary_zh": "美國紐約證券交易所（NYSE）母公司ICE，計劃以市場軸買斷案（MarketAxess Takeover）作為籌資手段，啟動債券發行。市場軸是一家全球性電子交易平台，提供固定收益、股票和衍生品交易服務。ICE的買斷案，旨在擴大市場軸在全球交易市場的影響力。債券發行將為ICE提供額外的資金來實現買斷案。市場分析師預測，債券發行將對市場軸的股價產生一定影響。ICE的買斷案，將進一步加強市場軸在全球交易市場的競爭力。",
+        "published_at": "2026-08-11 14:36:41",
+        "summary_zh": "亞特蘭大機場近日宣布借入 1.1 億美元的市政債券，來源為美國公部門債券市場。這項融資行動是在市政債券市場銷售疲弱的情況下進行的。根據市場分析師的評估，市政債券市場的銷售額明顯低於預期，導致市場上債券價格下跌。亞特蘭大機場的借款行動被視為市場上的一個重要指標，反映了投資者對市政債券市場的信心。分析師認為，這項行動可能會對市場造成一定的影響，可能會引發更多的投資者關注市政債券市場。然而，市場仍然面臨著不確定性，投資者需要密切關注市場的發展。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
       },
       {
-        "id": "e0f1972d",
-        "title": "投資人對股票市場的流出趨緩，對股票市場的投資再次轉正，國際投資研究所表示",
-        "url": "https://www.reuters.com/world/asia-pacific/em-investment-flows-turn-positive-equity-exodus-slowed-iif-says-2026-08-11/",
+        "id": "2f5eabe6",
+        "title": "日圓逼近每美元160元，干預風險升高",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-11/yen-slides-toward-160-per-dollar-raising-intervention-concerns",
+        "source": "Bloomberg",
+        "category": "finance",
+        "published_at": "2026-08-11 14:32:22",
+        "summary_zh": "日圓近日對美元的匯率快速升值，目前已經接近160元一美元的關口。這種快速升值使得日本政府面臨著干預匯率的風險。日本央行在過去曾多次干預匯率以穩定市場，但這種干預措施也可能會對市場造成不利影響。市場分析師認為，日本政府如果干預匯率，可能會導致市場對日圓的信心下降，進而影響日本的出口業。另一方面，日圓的快速升值也使得日本的出口業受益，日本的出口業者可能會因為日圓的升值而獲得更高的收入。然而，這種升值也可能會對其他國家的出口業造成不利影響。因此，市場分析師認為，日本政府需要謹慎評估干預匯率的風險和收益。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "0f480ba4",
+        "title": "7月房屋銷售量下跌1.7%",
+        "url": "https://www.cnbc.com/video/2026/08/11/july-existing-home-sales-dropped-1-point-7-percent.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-08-11 14:29:28",
+        "summary_zh": "房屋市場出現下滑跡象，7月房屋銷售量下跌1.7%。根據最新數據，房屋銷售量的下跌可能與房屋價格的上升有關。房屋價格的上升使得房屋購買成為一個更具挑戰性的任務，從而導致銷售量下跌。房屋市場的下滑跡象可能對整體經濟產生影響，尤其是在房屋建造和裝修業的領域。房屋市場的下滑跡象也可能使得房屋價格的上升趨勢暫時中止。房屋市場的未來發展仍存有不確定性，需要密切關注。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "96f5cdca",
+        "title": "阿根廷YPF 2026投資預估提升至 62 億美元",
+        "url": "https://www.reuters.com/business/energy/argentinas-ypf-ups-2026-investment-estimate-62-billion-2026-08-11/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-08-11 13:17:44",
-        "summary_zh": "根據國際投資研究所的調查，投資人對股票市場的流出趨緩，投資人開始對股票市場再次轉正。這表明投資人對股票市場的信心正在恢復。投資人對股票市場的流出曾經達到歷史最高點，但現在正在趨緩。這種趨緩可能是由於投資人對股票市場的價格趨勢感到樂觀。投資人對股票市場的投資再次轉正，可能會對股票市場帶來正面的影響。然而，投資人對股票市場的投資仍然需要謹慎。投資人需要密切關注股票市場的發展，隨時準備應對市場的變化。",
+        "published_at": "2026-08-11 14:29:05",
+        "summary_zh": "阿根廷國家石油公司 YPF 宣布，2026 年投資預估將從原先的 55 億美元提升至 62 億美元。這項投資將主要集中在石油和天然氣開發、儲備和運輸領域。 YPF 的這一決定是為了應對全球能源需求的增長，並且是公司致力於發展阿根廷能源產業的一部分。這項投資預估的提升將對阿根廷的經濟產生積極影響，同時也將促進公司的發展和成長。",
         "sentiment": "正面",
         "ai_classified": true,
         "is_breaking": false
@@ -702,6 +956,30 @@
     ],
     "stock_us": [
       {
+        "id": "08dba4da",
+        "title": "貝塞默的Deeter對Nvidia $5000億美元華爾街交易表示:「這是生態系統的成熟」",
+        "url": "https://www.cnbc.com/video/2026/08/11/bessemeras-byron-deeter-on-nvidia-500b-wall-street-deal-a-great-maturation-of-the-ecosystem.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-08-11 14:35:31",
+        "summary_zh": "貝塞默投資夥伴Byron Deeter在接受《華爾街日報》訪問時表示，Nvidia與六家華爾街資產管理公司合作推動 $5000億美元的AI基礎設施計畫，是「生態系統成熟」的標誌。這項合作將幫助Nvidia進一步擴大其在AI基礎設施領域的影響力。這項交易的背後，還有著對未來AI發展的遠景和願景。這項合作將對AI基礎設施產業帶來重大影響，同時也將推動Nvidia在全球AI市場的領先地位。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f39f67ac",
+        "title": "摩根士丹利：SpaceX 股票價格可超過雙倍，理由並非來自太空業務",
+        "url": "https://www.cnbc.com/2026/08/11/spacex-shares-can-double-morgan-stanley-says-.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-08-11 14:08:22",
+        "summary_zh": "摩根士丹利最新報告指出，SpaceX 股票價格有望超過雙倍。然而，這並非因為太空業務的成長，而是因為公司在人工智慧領域的投資。SpaceX 近期收購了起始公司 Cursor，摩根士丹利認為，這將對公司股價帶來顯著增值。這項投資將幫助 SpaceX 在人工智慧領域佔據更大的市場份額，從而提高公司的價值。這項投資將對公司股價帶來顯著增值，摩根士丹利預測 SpaceX 股票價格將在未來的時間內大幅上漲。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "f514bb5e",
         "title": "Polymarket整頓營運，準備迎接預測市場的繁榮時期",
         "url": "https://www.cnbc.com/2026/08/11/polymarket-revamps-marketing-expands-us-hiring-ahead-of-fall-events.html",
@@ -710,8 +988,8 @@
         "published_at": "2026-08-11 13:56:28",
         "summary_zh": "Polymarket公司近期進行市場營運的改變，與此同時，美國商品期貨交易委員會（CFTC）正在調查該公司的推廣行為。這些調查可能與Polymarket預計今年秋季預測市場將經歷繁榮時期有關。Polymarket的營運改變可能是為了應對即將到來的市場變化，同時也要確保公司的營運合法合規。這些改變可能對公司未來的發展有所影響，讓我們等待進一步的消息。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "9fe16a92",
@@ -723,18 +1001,6 @@
         "summary_zh": "美國石油儲備持續減少，美國石油儲備委員會公布的數據顯示，美國石油儲備的儲存量已經降至歷史新低。這一消息對於石油市場的影響可能會持續存在。另外，Nvidia的股價近期表現出色，公司的投資資產也受到投資者的關注。川普政府曾經下令購買疫苗，但這一消息對於疫苗公司的股價影響不大。投資者需要關注這些消息以便做出明智的投資決策。",
         "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "1f608219",
-        "title": "美國通膨數據揭曉前夕 美股收盤互有漲跌",
-        "url": "https://www.cna.com.tw/news/afe/202608120011.aspx",
-        "source": "中央社財經",
-        "category": "stock_us",
-        "published_at": "Wed, 12 Aug 2026 05:39:03 +0800",
-        "summary_zh": "美國軍方近日與伊朗軍隊發生衝突，中東局勢緊張。市場關注的是即將公布的美國7月消費者物價指數（CPI），這項數據將對美股市場產生重大影響。根據市場預期，7月CPI可能會升高，進一步加劇美股市場的不確定性。美股今天收盤走勢不一，表明市場對未來的不確定性感到擔憂。這項數據的公布將對全球金融市場產生重大影響，投資者應該密切關注此事的發展。",
-        "sentiment": "中性",
-        "is_breaking": true,
         "ai_classified": true
       },
       {
@@ -786,6 +1052,18 @@
         "ai_classified": true
       },
       {
+        "id": "1f608219",
+        "title": "美國通膨數據揭曉前夕 美股收盤互有漲跌",
+        "url": "https://www.cna.com.tw/news/afe/202608120011.aspx",
+        "source": "中央社財經",
+        "category": "stock_us",
+        "published_at": "Wed, 12 Aug 2026 05:39:03 +0800",
+        "summary_zh": "美國軍方近日與伊朗軍隊發生衝突，中東局勢緊張。市場關注的是即將公布的美國7月消費者物價指數（CPI），這項數據將對美股市場產生重大影響。根據市場預期，7月CPI可能會升高，進一步加劇美股市場的不確定性。美股今天收盤走勢不一，表明市場對未來的不確定性感到擔憂。這項數據的公布將對全球金融市場產生重大影響，投資者應該密切關注此事的發展。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
         "id": "c00c83c2",
         "title": "Nvidia籌集5000億美元融資，與6家華爾街公司合作貸款平台",
         "url": "https://www.cnbc.com/video/2026/08/11/nvidia-lines-up-500b-in-financing-partners-with-6-wall-street-firms-on-lending-platforms.html",
@@ -805,284 +1083,6 @@
         "category": "stock_us",
         "published_at": "2026-08-11 11:29:29",
         "summary_zh": "巴克萊銀行將 Gap 股票的評級從 overweight 下調至 equal weight。這意味著巴克萊銀行對 Gap 股票的投資意見變得更加保守。根據巴克萊銀行的分析，Gap 股票的價格可能會下跌。這是因為 Gap 股票面臨著競爭壓力和銷售下滑的問題。巴克萊銀行的這一評估可能會對 Gap 股票的股價產生一定的影響。投資者應該密切關注 Gap 股票的發展情況，以便做出明智的投資決策。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "167b1955",
-        "title": "華爾街銀行建議投資者在7月CPI出爐前進行套保",
-        "url": "https://www.marketwatch.com/story/wall-street-bank-urges-hedging-into-julys-cpi-as-sell-trigger-hits-highest-level-in-eight-years-bc9374f1?mod=mw_rss_topstories",
-        "source": "Marketwatch",
-        "category": "stock_us",
-        "published_at": "2026-08-11 10:50:00",
-        "summary_zh": "近日，華爾街銀行Well's Fargo發布了最新的市場情緒指標，指出該指標已經達到2018年1月以來的最高水平，達到1.4。這表明投資者對市場的悲觀情緒正在增強。同時，銀行也建議投資者在7月CPI出爐前進行套保，以避免市場的不確定性。這一建議是基於市場的賣壓正在增強，賣壓達到八年來的最高水平。投資者應該密切關注市場的變化，準備好面對未來的挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "5794afae",
-        "title": "UBS: 人工智慧需求增長將為這家電路板製造商帶來更多利益",
-        "url": "https://www.cnbc.com/2026/08/11/ai-will-drive-more-gains-for-this-circuit-board-builder-says-ubs.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-08-11 10:49:44",
-        "summary_zh": "UBS Investment Bank 對一家電路板製造商進行了評級升級，將其評級從中性升級為買入。根據UBS的分析，人工智慧需求的增長將為這家公司帶來更多利益。這家公司的產品主要供應給超級計算機（hyperscaler）等大型企業，這些企業正面臨著日益增長的電路板需求。UBS 的分析師認為，這家公司的業務將受益於超級計算機的需求增長，從而帶來更多的利益。這一評級升級表明UBS對這家公司未來發展的信心正在增強。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "19e70b42",
-        "title": "美國稱直升機發射彈藥擊中船隻引擎室，破解伊朗封鎖",
-        "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 21:14:56 GMT",
-        "summary_zh": "事件背景：美國中央司令部宣布，美國直升機在波斯灣的奧曼灣擊中了一艘巴拿馬註冊的貨運船隻的引擎室。關鍵細節：美國中央司令部表示，這次行動是為了破解伊朗的封鎖，保護海上交通安全。影響分析：這次行動可能會加劇伊朗與美國之間的緊張關係，進一步升級中東地區的軍事緊張。後續展望：美國政府未對此次行動的具體原因和後果進行詳細解釋，未來的發展仍存不確定性。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "6cc85051",
-        "title": "俄羅斯釋放前美國海軍陸戰隊員　被指身體狀況不佳",
-        "url": "https://www.bbc.co.uk/news/articles/cvgj4m8e1ryo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 23:33:45 GMT",
-        "summary_zh": "俄羅斯當局宣布釋放前美國海軍陸戰隊員羅伯特·吉爾曼（Robert Gilman）。吉爾曼於2022年因醉酒踢警員而被捕。據報導，他在監禁期間處於類似癱瘓狀態。吉爾曼的釋放引發了對俄羅斯對待外國囚犯的質疑。許多人擔心他在監禁期間的健康狀況。吉爾曼的釋放也引發了對美國政府應該如何處理這種情況的討論。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3fdb0a56",
-        "title": "荷莫茲海峽通航前景未明 國際油價小幅上漲",
-        "url": "https://www.cna.com.tw/news/afe/202608120009.aspx",
-        "source": "中央社財經",
-        "category": "global",
-        "published_at": "Wed, 12 Aug 2026 04:57:58 +0800",
-        "summary_zh": "荷莫茲海峽是世界上最重要的海上通道之一，連接波斯灣和印度洋。近期，該地區的軍事緊張局勢引發了對海峽通航的擔憂。儘管官員宣稱取得進展，但交易員對於恢復荷莫茲海峽航運的可能性仍持懷疑態度。這使得國際原油價格今天在震盪交易中小幅上揚。海峽通航的前景未明，對於全球能源市場造成了不確定性。這種不確定性可能會導致油價的波動。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a65eee4f",
-        "title": "加拿大航空公司取消航班，因兒童拒絕戴安全帶",
-        "url": "https://www.theguardian.com/business/2026/aug/11/canadian-airline-cancels-flight-after-child-refuses-to-wear-seatbelt",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 14:03:28 GMT",
-        "summary_zh": "加拿大航空公司 Porter Airlines 一架從維多利亞飛往多倫多的航班，因兒童拒絕戴安全帶而被迫返航。根據航空公司的說法，兒童在 6 日的航班準備起飛時，仍然站在椅子上。乘機父母和機組人員多次嘗試讓兒童戴上安全帶，但都失敗了。因此，機組人員決定返航讓兩名乘客下機，表示「飛機無法在這種不安全狀態下起飛」。這個事件表明航空公司對乘客安全的重視，同時也提醒父母和照顧者要注意兒童的安全。這個事件也引發了對兒童安全帶使用的重視。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d69eb66b",
-        "title": "哥倫比亞西部發生7.4級強烈地震逾70人死亡",
-        "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 10:14:01 GMT",
-        "summary_zh": "哥倫比亞西部發生7.4級強烈地震，造成多座城市建築物倒塌或嚴重損壞，包括卡利市和佩雷拉市。根據美國和哥倫比亞地質調查局的報告，地震發生於當地時間7:34，震央位於西部的查科省。地震也在鄰國委內瑞拉造成了影響，該國仍在重建從6月24日發生的雙重地震的災後情況。目前已知逾70人死亡，地震對哥倫比亞西部造成了嚴重的破壞。哥倫比亞政府已派出救援隊伍前往受災區域，提供援助和救援。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "cc1b1c51",
-        "title": "7.4級地震襲擊哥倫比亞，超過70人死亡、建築物倒塌",
-        "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 05:32:08 GMT",
-        "summary_zh": "哥倫比亞發生7.4級地震，超過70人死亡，數十棟建築物倒塌。地震發生後，哥倫比亞最大城市卡利的市長亞歷杭德羅‧埃德爾表示，卡利市有超過二十多棟建築物倒塌，還有許多人被困於其中。他指出，卡利市已經向哥倫比亞首都波哥大和梅德林市請求派遣災害救援隊伍來協助救援工作。地震的影響還在持續中，卡利市的狀況尤其嚴重。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d01a87d4",
-        "title": "無人機拍攝斯波坎大火災後的慘烈景象",
-        "url": "https://www.bbc.co.uk/news/videos/c80nm9melpmo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 14:02:07 GMT",
-        "summary_zh": "斯波坿大火災造成慘重的後果，無人機拍攝的空拍片段顯示房屋被燒毀到地基，某些車輛仍停放在車道上。這場大火災的原因尚未明確，但已經造成嚴重的損失。斯波坿當地居民正在努力重建和恢復。這場大火災的影響將會持續很長時間，需要長期的重建和恢復工作。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "85ba4ff1",
-        "title": "哥倫比亞地震：救援人員瘋狂搶救生還者，已有 180 人遇難",
-        "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 19:09:52 GMT",
-        "summary_zh": "哥倫比亞近日遭遇強烈地震，造成大量建築物倒塌，目前已有 180 人遇難。救援人員正在努力搶救生還者，同時也發生了多次余震。地震的影響非常嚴重，許多人被困在瓦礫下，救援人員正努力將他們救出。這次地震對哥倫比亞的經濟和社會都造成了重大影響。哥倫比亞政府已經派出救援隊伍和醫療人員到災區幫助受災者。這次地震的影響將持續很長時間，哥倫比亞人民將面臨嚴重的挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "c9580ebd",
-        "title": "這座海邊公寓曾經是鬼城，警方稱詐騙集團已經進駐",
-        "url": "https://www.bbc.co.uk/news/articles/cx2kvlye1k5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 23:31:18 GMT",
-        "summary_zh": "馬來西亞的Forest City被推銷為「天堂」，但去月警方發動突襲行動，指控該處有詐騙集團活動。這座海邊公寓曾經是空無一人，現在卻有詐騙集團進駐，警方發現了許多違法行為。Forest City的開發商曾經大肆宣傳，稱該處將成為一個繁榮的海邊城市，但現在卻被指控有詐騙集團活動。警方的行動可能會對該處的發展造成重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "ffe33504",
-        "title": "俄羅斯利用朝鮮製彈藥攻擊烏克蘭，澤連斯基表示",
-        "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 16:19:44 GMT",
-        "summary_zh": "烏克蘭總統澤連斯基表示，扎波羅熱地區的攻擊事件中，至少有六人死亡，十九人受傷，攻擊使用的彈藥來自俄羅斯的盟友朝鮮。這次攻擊事件發生在烏克蘭南部的扎波羅熱地區，造成嚴重的破壞和傷亡。這是俄羅斯繼續對烏克蘭進行攻擊的最新例子，顯示俄羅斯仍然在使用各種武器對烏克蘭進行打擊。烏克蘭政府對此表示強烈抗議，要求俄羅斯停止這種侵略行為。這次攻擊事件也引起了國際社會的關注和譴責，各國政府和組織都在呼籲俄羅斯停止對烏克蘭的攻擊。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "389ee28c",
-        "title": "法國禁止未經同意的電話銷售",
-        "url": "https://www.bbc.co.uk/news/articles/cy5d11g72ppo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 14:19:45 GMT",
-        "summary_zh": "法國政府近期宣布禁止未經消費者同意的電話銷售行為，對於法國的一些消費者團體而言，這是一個「小型革命」。這項禁令將對法國的電話銷售業界產生重大影響，消費者將不再受打擾。這項政策的推行將使法國成為全球首個禁止未經同意的電話銷售的國家。法國政府表示，這項禁令將保護消費者免受電話銷售行為的侵害，同時也將促進消費者權益的保護。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6c535afc",
-        "title": "黎巴嫩議會通過廢除死刑法案",
-        "url": "https://www.bbc.co.uk/news/articles/c8enj8p1xwgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 15:24:07 GMT",
-        "summary_zh": "黎巴嫩議會近日通過一項法案，廢除死刑。這項新法案將會送交內閣審議，若通過，黎巴嫩將成為中東地區第一個廢除死刑的國家。這項決定受到各界關注，許多人認為這是黎巴嫩走向民主化的一步重要措施。然而，也有部分人擔心這可能會對國家的安全產生影響。黎巴嫩政府將如何處理這項新法案，還需要觀察。這項事件也引起了國際社會的關注，許多人希望黎巴嫩能夠成為一個更民主和開放的國家。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "63f0b12b",
-        "title": "前法官被奧班撤換當選匈牙利總統",
-        "url": "https://www.bbc.co.uk/news/articles/clyed7rem5no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 18:34:39 GMT",
-        "summary_zh": "匈牙利新政府自五月初上任以來，沒有耽擱時間，開始拆除維克多·奧班的遺產。其中一位被奧班撤換的前法官，最近當選為匈牙利總統。這位前法官是由奧班政府撤換的前任法官，他的選舉結果顯示了匈牙利民眾對奧班政府的不滿。這次選舉結果對匈牙利政治產生了重大影響，可能會導致奧班政府的政策面臨挑戰。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "bdafb45f",
-        "title": "被驅逐的敘利亞前總統巴沙爾·阿薩德被判處死刑",
-        "url": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 14:50:10 GMT",
-        "summary_zh": "敘利亞內戰期間，前總統巴沙爾·阿薩德被指控犯下戰爭罪行和反人類罪。根據最新的消息，阿薩德已被判處死刑，但他並未出席審判。這一判決是對阿薩德在敘利亞內戰中所犯下的罪行的一個重大回應。阿薩德的政府被指控犯下大量人權侵犯和戰爭罪行，導致數萬人喪生。這一判決可能會對敘利亞政治局勢產生重大影響，尤其是在阿薩德的政權仍然存在的情況下。然而，阿薩德是否會被實際執行死刑仍然存疑。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9cf14eb2",
-        "title": "泰國暫停發放新槍枝許可證",
-        "url": "https://www.bbc.co.uk/news/articles/cm2g550v0pvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 15:11:54 GMT",
-        "summary_zh": "泰國近日發生大規模槍擊案，導致多人喪生。泰國當局承諾將推出嚴厲的新法規，限制槍枝擁有。泰國槍枝擁有率相對較高，該國政府面臨著如何控制槍枝流通的挑戰。泰國當局暫停發放新槍枝許可證，試圖控制槍枝流通。這一措施將對泰國槍枝擁有者產生重大影響。泰國政府的新法規將如何實施，還有待觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "2c895bb5",
-        "title": "利比亞當局與大火搏鬥：重大石油煉油廠遭空襲",
-        "url": "https://www.bbc.co.uk/news/articles/cp308z9pl30o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 08:28:24 GMT",
-        "summary_zh": "利比亞當局正在與大火搏鬥，該火災發生在該國重要的煉油廠——扎維亞煉油廠。這是本週一在扎維亞煉油廠發生的第三次空襲事件，過去兩天內已經有兩次空襲。扎維亞煉油廠是利比亞石油產業的重要據點，該廠的停擺將對該國的石油出口產生重大影響。利比亞當局正在努力控制火勢並恢復煉油廠的運作。這一事件也引發了對該國安全局勢的擔憂。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "482eacee",
-        "title": "澳洲總理遭批評為對日本對方水蜜桃禮物的評論",
-        "url": "https://www.bbc.co.uk/news/articles/c0jl6ewvq42o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 07:55:22 GMT",
-        "summary_zh": "澳洲總理最近在接受採訪時提到日本首相送給他的水蜜桃禮物，評論中被指有性別歧視的意味。這引起了澳洲和日本兩國外交官的批評。澳洲前駐日大使表示，這些評論「背叛了兩國之間的密切關係」。這次事件引起了兩國之間的外交爭議，讓人們關注澳洲總理的言論是否會對兩國的關係造成影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8d3dbb47",
-        "title": "中國火箭發射失敗，爆炸在空中",
-        "url": "https://www.bbc.co.uk/news/videos/c78grn8vnvvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 04:08:06 GMT",
-        "summary_zh": "中國一枚火箭在發射升空後不久，出現了飛行異常，導致失敗。根據中國官方媒體的報導，這枚火箭正在攜帶一顆衛星。這次失敗事件可能會對中國的太空計畫造成影響。中國的太空計畫一直在快速發展中，最近幾年有多次成功的發射。然而，這次失敗事件也顯示出中國的太空技術仍然面臨著挑戰。中國政府可能會對此事件進行調查，以確保未來的太空計畫能夠順利進行。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "9a329ee4",
-        "title": "發展在援助後的道路：如何加強脆弱國家的防禦能力",
-        "url": "https://www.foreignaffairs.com/united-states/path-development-post-aid-world",
-        "source": "Foreign Affairs",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 00:00:00 -0400",
-        "summary_zh": "在援助結束後，脆弱國家面臨著發展的挑戰。這些國家需要找到方法來加強自己的防禦能力，減少對外援的依賴。根據研究，脆弱國家可以通過投資教育和基礎建設來增強自己的能力。教育可以幫助培養人才，基礎建設可以改善公共服務和交通。同時，脆弱國家也需要建立有效的治理機制和政策框架來促進發展。這樣，脆弱國家就可以在援助結束後繼續發展和增強自己的能力。然而，這需要長期的努力和投入。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c8448230",
-        "title": "中國的飢餓遊戲",
-        "url": "https://www.foreignaffairs.com/china/chinas-hunger-games",
-        "source": "Foreign Affairs",
-        "category": "global",
-        "published_at": "Tue, 11 Aug 2026 00:00:00 -0400",
-        "summary_zh": "中國因為糧食安全問題而變得更加強大，透過這種情況，北京獲得了地緣政治的籌碼。中國的糧食安全問題一直是全球關注的議題，尤其是在近年來的糧食短缺和價格上漲中。中國政府通過多種方式來應對這種情況，包括投資農業、建立糧食儲備系統和推動糧食出口。這些措施不僅幫助中國自身糧食安全，也使得中國成為全球糧食市場的重要參與者。中國的糧食安全問題也成為地緣政治的籌碼，許多國家通過與中國的糧食交易來影響中國的外交政策。這種情況使得中國的糧食安全問題變得更加複雜和敏感。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "59671f5e",
-        "title": "北京拿稀土威脅東京！上半年中國對日本稀土出口銳減51％",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5536527",
-        "source": "自由時報財經",
-        "category": "global",
-        "published_at": "Wed, 12 Aug 2026 06:36:54 +0800",
-        "summary_zh": "日媒報導，今年上半年中國對日本的稀土出口量大幅減少，達到51％。其中，鏑和鋱的出口量更是大幅下降。這種情況引起了關注，因為稀土是製造高科技產品的重要原料。中國的這一行動被視為對日本的經濟施壓。日本政府正在密切關注這一情況，並正在考慮如何應對。這一事件可能會對兩國的經濟關係產生重大影響。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
