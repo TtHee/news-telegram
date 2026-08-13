@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-14T06:04:30.426596+08:00",
+  "generated_at": "2026-08-14T07:04:24.909746+08:00",
   "risk_signals": [
     "🟢 台股加權 45518.07（正常）",
     "🟢 S&P 500 7798.99（正常）",
     "🟢 VIX 恐慌指數 14.63（正常）",
     "🟢 MOVE 債市波動 69.23（正常）",
-    "🟢 美元指數 99.97（正常）",
-    "🟢 黃金 4407.1（正常）",
+    "🟢 美元指數 99.95（正常）",
+    "🟢 黃金 4411.8（正常）",
     "🟡 美債10Y殖利率 4.64（留意）",
-    "🟢 原油 WTI 81.21（正常）",
+    "🟢 原油 WTI 81.08（正常）",
     "🟢 美元/台幣 32.12（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，投資人心態樂觀。",
+  "ai_summary": "市場氣氛相對穩定，指標表現正常。唯一值得留意的是美債10年殖利率略有上升，可能對市場投資風險評估產生影響。",
   "market": {
     "TWII": {
       "price": 45518.07,
@@ -38,32 +38,418 @@
       "change_pct": null
     },
     "DXY": {
-      "price": 99.97,
-      "change_pct": -0.04
+      "price": 99.95,
+      "change_pct": -0.06
     },
     "GOLD": {
-      "price": 4407.1,
-      "change_pct": -0.04
+      "price": 4411.8,
+      "change_pct": 0.07
     },
     "OIL": {
-      "price": 81.21,
-      "change_pct": -2.47
+      "price": 81.08,
+      "change_pct": -2.63
     },
     "USDTWD": {
       "price": 32.12,
-      "change_pct": -0.26
+      "change_pct": -0.25
     }
   },
   "macro": {},
   "categories": {
+    "global": [
+      {
+        "id": "71b41994",
+        "title": "更多軍隊將前往以色列定居者圍困的西岸村莊",
+        "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 20:12:17 GMT",
+        "summary_zh": "在以色列定居者圍困的西岸村莊Qusra，兩個巴勒斯坦家庭表示自星期日起已被困在家中，水電被切斷。這種狀況一直持續到目前。這種事件出現在一個以色列定居者和巴勒斯坦村民之間的長期衝突地區。這種衝突可能會對當地的和平進程產生負面影響。目前尚未有明確的後續展望，但國際社會可能會對此事件表達關注和批評。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "598e73e1",
+        "title": "羅馬尼亞關閉唯一核電廠，丹尼布河水位大幅下降",
+        "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 19:46:27 GMT",
+        "summary_zh": "羅馬尼亞因熱浪導致丹尼布河水位大幅下降，決定關閉該國唯一的核電廠——塞納沃達核電廠。該廠為羅馬尼亞電力產量的20%，預計在下10天內不會重啟運作。熱浪導致河水水位下降，對當地生態和水資源造成影響。羅馬尼亞政府需要評估該廠關閉對電力供應的影響，並考慮采取措施應對電力短缺。這一事件也引發了關注，羅馬尼亞是否能夠有效應對氣候變化的挑戰。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a55db7e8",
+        "title": "普丁再也不能宣稱在烏克蘭取得勝利，諾貝爾和平獎得主對BBC發表評論",
+        "url": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 04:55:58 GMT",
+        "summary_zh": "烏克蘭局勢持續惡化，諾貝爾和平獎得主德米特里·穆拉托夫（Dmitry Muratov）在接受BBC獨家採訪時表示，普丁領導的克里姆林宮再也不能宣稱在烏克蘭取得勝利。德米特里·穆拉托夫強調，俄羅斯只能「摧毀烏克蘭，而不是征服它」。烏克蘭戰爭已經進入第五年，局勢惡化的跡象不斷出現。德米特里·穆拉托夫的評論表明，烏克蘭戰爭的結局遠遠超出了俄羅斯的預期。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "ef382bbf",
+        "title": "五名加拿大冰球選手中四名仍遭停賽，雖然其中一名已獲復權",
+        "url": "https://www.bbc.co.uk/news/articles/cj9dpdmr77do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 14:51:44 GMT",
+        "summary_zh": "加拿大冰球聯盟(Hockey Canada)近期發生一樁性侵案醜聞。五名加拿大冰球選手因涉嫌性侵犯一名女性而被停賽。雖然其中一名選手已經獲復權，但另外四名選手仍遭停賽。然而，停賽的四名選手已經獲得上訴委員會的支持，但委員會認為這五名選手都違反了冰球聯盟的行為守則。這樁事件引起了廣泛的關注和爭議，許多人批評冰球聯盟對性侵犯的處理不當。這樁事件也引起了對冰球聯盟行為守則和性侵犯處理的檢視。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "5fbf0180",
+        "title": "飛機引擎碎片撞破窗戶，乘客頭部被吸出",
+        "url": "https://www.bbc.co.uk/news/articles/cr59j4z3vl8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 21:43:47 GMT",
+        "summary_zh": "一架由希臘飛往德國的飛機在上月發生意外，美國調查人員發布初步報告指出，飛機引擎的風扇葉片在飛行過程中斷裂，碎片撞破了窗戶，將一名乘客的頭部吸出。這起事故引起了廣泛關注，調查人員正在進一步調查事故的原因。這起事件可能會對航空業的安全標準和乘客安全措施產生影響。航空公司和監管機構正在密切關注這起事故的發展，並將會對乘客安全措施進行檢視和改進。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "a1b98738",
+        "title": "特拉維斯凱利斯分享婚禮細節：與泰勒絲的婚禮是「一生中最棒的一夜」",
+        "url": "https://www.bbc.co.uk/news/articles/cx2r179e232o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 01:19:23 GMT",
+        "summary_zh": "NFL球星特拉維斯凱利斯與歌手泰勒絲的婚禮在紐約的麥迪遜廣場花園舉行。凱利斯在社交媒體留言中稱泰勒絲為自己的妻子，並表示這是他「童年夢想」的婚禮。凱利斯與泰勒絲的婚禮成為了媒體的焦點，許多人對這對新人感到高興和祝福。這對新人的婚禮將會是媒體的話題之一。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "5e002b1a",
+        "title": "贊比亞選民猶疑不決：是否支持商業領袖連任",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-13/zambia-s-investor-darling-leader-asks-wary-voters-to-reelect-him",
+        "source": "Bloomberg",
+        "category": "global",
+        "published_at": "2026-08-13 10:54:17",
+        "summary_zh": "贊比亞即將舉行總統選舉，選民們正在衡量是否支持現任總統卡加梅連任。卡加梅自2015年上任以來，推動了商業環境的改善和投資的增加。然而，他的連任也引發了對人權和民主的擔憂。選民們需要在經濟發展和人權平衡之間做出選擇。卡加梅的連任將對贊比亞的經濟和政治產生重大影響。選民們的選擇將決定贊比亞的未來走向。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "f74cb95f",
+        "title": "古巴紀念費德爾·卡斯特羅誕生百年　面臨嚴重經濟危機",
+        "url": "https://www.reuters.com/world/americas/cuba-marks-centenary-fidel-castros-birth-amid-deepening-economic-crisis-2026-08-13/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-08-13 10:15:22",
+        "summary_zh": "古巴在本周四紀念革命領袖費德爾·卡斯特羅誕生百年，同時面臨著其歷史上最嚴重的經濟和政治危機。美國對古巴的石油禁運和加強的制裁使得局勢更加惡化。古巴政府正努力應對經濟困難，包括推出一系列經濟改革和增加對外投資。然而，美國的制裁仍然對古巴的經濟造成重大影響。古巴人民對未來的前景感到擔憂，同時也對政府的努力表示支持。這一百年紀念是古巴歷史上一個重要的里程碑，同時也是古巴人民對未來的期待和挑戰。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "c1109bd3",
+        "title": "人被罰款因使用霹靂炮喚醒睡眠的北極熊",
+        "url": "https://www.bbc.co.uk/news/articles/cx2k1r97vx7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 15:30:57 GMT",
+        "summary_zh": "在北極熊棲息的地區，當地規定禁止無故打擾、吸引或追捕北極熊。近日，一名男子因使用霹靂炮喚醒睡眠的北極熊而被罰款。這名男子的行為違反了當地的規定，可能會對北極熊造成傷害。這個事件引起了關注，提醒人們保護北極熊的重要性。北極熊是極地生態系統中的重要物種，保護它們的生存環境是關鍵的。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9a8bf4ee",
+        "title": "今年夏天的高溫背後：2027年可能會更糟糕",
+        "url": "https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/",
+        "source": "MIT Tech Review",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 10:00:00 +0000",
+        "summary_zh": "今年夏天，北半球的大部分地區都經歷了嚴重的高溫。6月和7月是歐洲自記錄開始以來最熱的兩個月。美國大陸在7月錄得了歷史最高的月份平均溫度。南韓也錄得了歷史最高的溫度。高溫還沒有結束，但一些科學家已經開始預測未來……根據科學家的分析，今年夏天的高溫是由於氣候變化和氣候模式的變化引起的。氣候變化導致了大氣中的溫室氣體含量增加，從而導致溫度升高。氣候模式的變化則導致了氣候系統的不穩定性增加。這些變化導致了今年夏天的高溫。預測模型表明，2027年可能會更加惡劣。科學家們警告，氣候變化和氣候模式的變化將會導致更嚴重的高溫和乾旱。因此，需要採取積極的措施來應對氣候變化的影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f1343720",
+        "title": "兩名男子否認與英國首相史塔默相關的縱火案",
+        "url": "https://www.reuters.com/world/uk/two-men-deny-conspiring-set-fires-linked-uk-pm-starmer-2025-10-17/",
+        "source": "Reuters",
+        "category": "global",
+        "published_at": "2026-08-13 08:42:23",
+        "summary_zh": "英國首相史塔默相關的縱火案，兩名烏克蘭男子被控共謀縱火。案件發生在倫敦，涉及多處房屋和一輛汽車。英國檢察官表示，這些縱火案並不被視為恐怖主義。兩名男子在星期五被指控，否認了共謀縱火的指控。這起案件的背景是，英國首相史塔默在倫敦出現過縱火案，相關的調查仍在進行中。這些縱火案對英國政府和首相史塔默造成了影響，引起了社會的關注。目前，案件仍在調查中，相關的後續發展尚未公布。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "aa11e139",
+        "title": "愛爾蘭飛機失事遇難者家屬獲得2,900萬美元賠償",
+        "url": "https://www.bbc.co.uk/news/articles/ce85p80nn2yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 19:08:49 GMT",
+        "summary_zh": "美國芝加哥一名陪審團判決波音公司應該向愛爾蘭飛機失事遇難者家屬支付2,900萬美元賠償。這起案件是由遇難者Michael Ryan的寡婦Naoise Connolly Ryan提出的民事訴訟。事件背景是Michael Ryan在2018年12月21日乘坐波音737 MAX飛機時遇難。波音737 MAX飛機曾因多起事故而引起爭議。波音公司被指責其產品設計存在缺陷，導致多起事故發生。這起案件的判決對於波音公司的聲譽和財務有重大影響。波音公司將會面臨更多的法律訴訟和財務壓力。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "efef4739",
+        "title": "印度航空將對所有駕駛員進行禁藥檢測",
+        "url": "https://www.bbc.co.uk/news/articles/c2352jyvm5xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 16:52:15 GMT",
+        "summary_zh": "印度航空最近一架飛機突然下降，造成多名乘客受傷。為了確保乘客安全，印度航空決定對所有駕駛員進行禁藥檢測。這項措施是針對最近的事件，印度航空希望能夠確保駕駛員的身體健康狀況，從而確保飛機的安全。這項檢測將對所有駕駛員進行，包括那些有良好紀錄的駕駛員。印度航空的這一決定受到業界的關注，許多人認為這是一個必要的措施。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "c0aebb3e",
+        "title": "2027 歐洲歌唱大賽將在保加利亞布爾加斯舉行",
+        "url": "https://www.bbc.co.uk/news/articles/cly8p8lpyvmo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 11:10:31 GMT",
+        "summary_zh": "保加利亞歌手達拉(Dara)今年贏得了歐洲歌唱大賽，保加利亞布爾加斯沿著黑海被選為2027年大賽的舉辦地。這是保加利亞首次主辦歐洲歌唱大賽。布爾加斯是一座沿海城市，擁有豐富的文化和歷史遺產。這次選擇可能會為該城市帶來新的商機和觀光客。然而，主辦大賽也需要面臨許多挑戰，包括組織和資源的安排。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "11e155a2",
+        "title": "法國前總統赦免疑似間諜被控策動馬利政變",
+        "url": "https://www.bbc.co.uk/news/articles/c2el29e3m3xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 15:50:49 GMT",
+        "summary_zh": "法國政府尚未就雅恩·韋茲利耶（Yann Vezilier）獲得總統赦免發表評論。法國政府之前稱這些指控是「毫無根據的」。雅恩·韋茲利耶被控策動馬利政變，法國政府對此表示不滿。這一事件引起了國際關注，各國政府正在密切關注這一發展。雅恩·韋茲利耶的赦免可能會對法國政府的形象產生影響。這一事件的發展仍在進展中，各方正在等待法國政府的正式回應。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e658943c",
+        "title": "法國駐中非共和國大使涉嫌將女性帶入官邸面臨紀律處分",
+        "url": "https://www.bbc.co.uk/news/articles/cqx7pp3yd25o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 08:15:10 GMT",
+        "summary_zh": "法國駐中非共和國大使布魯諾·福歇 (Bruno Foucher) 遭到指控，引發了安全漏洞的調查。根據消息，布魯諾·福歇被指控將女性帶入官邸，這引起了外界的關注和質疑。法國外交部對此事件進行了調查，並將對布魯諾·福歇進行紀律處分。這一事件也引發了對法國駐外使館安全和紀律的關注。法國政府將對此事件進行進一步的調查和處理。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "3a343f50",
+        "title": "日本抗議普京訪問爭議群島",
+        "url": "https://www.bbc.co.uk/news/articles/cqx7ple0nxxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 09:54:03 GMT",
+        "summary_zh": "俄羅斯領袖普京首次訪問千島群島，根據官方媒體報導。千島群島是俄羅斯和日本長期爭議的領土，兩國多年來一直對此問題有著不同的看法。日本政府對普京訪問千島群島表達了強烈抗議，認為這是對日本主權的侵犯。俄羅斯的行動可能會加劇兩國之間的緊張關係。日本政府正在考慮如何回應這一事件，可能會採取多種措施來保護自己的利益。這一事件也會對兩國之間的關係產生重大影響。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "1953122d",
+        "title": "BTS成員V公開聽力受損的兩年戰爭",
+        "url": "https://www.bbc.co.uk/news/articles/cx2v1893n3eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 04:09:12 GMT",
+        "summary_zh": "BTS成員V在直播節目中公開了自己近兩年的聽力問題。根據V的說法，他在兩年前就開始出現聽力問題，但一直沒有公開。這個消息讓粉絲們感到驚訝和關心。聽力受損的原因尚未明確，但V已經開始採取措施來改善自己的聽力。這個消息也讓人們開始關注K-pop歌手的工作環境和健康問題。目前，V仍然在為BTS進行演出和錄製歌曲，但他的聽力問題將會對他未來的音樂事業造成影響。",
+        "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "8c0d9495",
+        "title": "仁川機場成為全球最繁忙的國際機場",
+        "url": "https://www.bbc.co.uk/news/articles/cr49p1279n0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 05:49:22 GMT",
+        "summary_zh": "仁川機場在全球航空交通量中取得了突破性的成績，超越了倫敦希思羅機場，成為全球最繁忙的國際機場。根據仁川機場的說法，這是由於中東衝突導致的轉場安排幫助了其交通量的增長。倫敦希思羅機場排名第二。這項成就對仁川機場的發展和全球航空業的競爭格局都產生了重要影響。",
+        "sentiment": "正面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "89dd3f06",
+        "title": "剛果民主共和國埃博拉疫情迅速擴散至第六個省份",
+        "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 15:17:13 GMT",
+        "summary_zh": "剛果民主共和國的埃博拉疫情已經擴散至第六個省份，官員表示，這一消息出現於疫情爆發後的一天，世界衛生組織總幹事表示，這次疫情有可能超越歷史上最為嚴重的埃博拉疫情，前者在十多年前造成至少 11,000 人死亡。根據最新的政府數據，目前的疫情已經造成超過 2,100 人死亡，超過 4,500 起病例。相比之下，2014-16 年間發生的西非埃博拉疫情，當時的死亡人數僅有 755 人。這次疫情的死亡人數和病例數已經遠遠超過了前一次疫情的數字，世界衛生組織總幹事表示，這次疫情有可能成為歷史上最為嚴重的埃博拉疫情。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "c6ef1f0c",
+        "title": "法國駐中非共和國大使面臨調查：涉嫌在官邸接待數十名女性",
+        "url": "https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 14:21:52 GMT",
+        "summary_zh": "法國駐中非共和國大使面臨調查，原因是他在官邸接待了數十名女性，引發安全擔憂。這項調查是在法國試圖重建與中非共和國的關係之際進行的，中非共和國在近年來與法國關係惡化，主要是因為俄羅斯在前法國殖民地的影響力擴大。法國政府試圖重建關係，同時也要確保大使的行為不會影響國家形象。這項調查可能會對法國與中非共和國的關係產生影響，同時也會關注大使的行為是否符合法國外交人員的標準。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "67ae5032",
+        "title": "尚比亞選舉陰霾中：前總統遺孀仍在追究前任總統之仇",
+        "url": "https://www.theguardian.com/world/2026/aug/13/zambia-elections-hakainde-hichilema-haunted-ghost-incumbent-president-arch-rival-edgar-lungu",
+        "source": "Guardian World",
+        "category": "global",
+        "published_at": "Thu, 13 Aug 2026 04:00:49 GMT",
+        "summary_zh": "尚比亞即將舉行選舉，前總統埃德加·倫古的死去仍然留下了深遠的影響。現任總統哈卡因德·希契萊馬（Hakainde Hichilema）正在競選連任，但與前總統家人的恩怨仍未解決。希契萊馬在2021年以壓倒性優勢擊敗了前總統埃德加·倫古，當時倫古被視為他的死對頭。雖然倫古於2025年去世，但他的家人仍然對希契萊馬的政府持懷疑態度，認為他在任內的政策對他們造成了不公平的影響。這種對立情緒在尚比亞選舉中扮演了重要角色，許多選民仍然懷念著倫古的領導風格。雖然希契萊馬的競選活動取得了初步成功，但仍然面臨著對立的挑戰。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
     "whitehouse": [
+      {
+        "id": "b9191bc7",
+        "title": "美國航空母艦在海上超過250天引發關注",
+        "url": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 22:02:54 GMT",
+        "summary_zh": "美國航空母艦USS Abraham Lincoln自11月份開始在海上航行超過250天，引發關注。有報導指出艦上出現食物短缺、破裂的水管等問題，可能對船員造成傷害。這些問題引發了關注，軍方正在調查艦上的狀況。這種長時間在海上的航行可能會對船員的健康和心理造成影響。軍方正在努力解決這些問題，確保船員的安全和健康。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "2006805d",
+        "title": "馬吉奧內律師將會見聯邦檢察官，傳出和解協議",
+        "url": "https://www.bbc.co.uk/news/articles/c5yw71q9y00o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 18:45:51 GMT",
+        "summary_zh": "馬吉奧內面臨兩項聯邦跟蹤罪，最高刑罰為終身監禁無期。根據最新消息，馬吉奧內律師將會見聯邦檢察官，傳出可能有和解協議。這項消息引起了廣泛關注，許多人都在等待著馬吉奧內的下一步行動。馬吉奧內的律師將會與聯邦檢察官進行會談，探討可能的和解方案。這項會議的結果將對馬吉奧內的未來產生重大影響。馬吉奧內的案件引起了社會的關注，許多人都在關注著他的下一步行動。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ffffa4a3",
+        "title": "BBC Verify 訪問一名拍下 ICE 代理人點槍的婦女",
+        "url": "https://www.bbc.co.uk/news/videos/c1m12m12nzzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 20:37:14 GMT",
+        "summary_zh": "BBC Verify 進行調查，檢視一名維吉尼亞州婦女分享的影片，內容中 ICE 代理人點槍指向她。這名婦女在社交媒體上分享了這段影片，引起了廣泛關注。根據她的描述，她與 ICE 代理人發生了衝突，代理人最終點槍指向她。BBC Verify 尋求了更多的資訊，但 ICE 代理人拒絕了採訪。這一事件引起了對 ICE 行為的爭議，許多人批評 ICE 代理人的行為是過度武力。這一事件也引起了對 ICE 的監督和管制的呼聲。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "71b4b36d",
+        "title": "肯尼迪中心董事會投票將川普的名字重新掛在建築上",
+        "url": "https://www.bbc.co.uk/news/articles/cn7n5l5xy5ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 22:21:36 GMT",
+        "summary_zh": "美國肯尼迪中心董事會在週四通過決議，將川普總統的名字重新掛在該中心建築上。這項決定是董事會在兩年內關閉該中心進行改建的前提下通過的。早前，聯邦法官曾阻止該中心進行改建。川普總統曾在2020年被肯尼迪中心董事會決定從建築上移除他的名字，理由是他參與了1月6日的國會大廈暴亂事件。該事件導致美國國會大廈遭到破壞。川普總統的名字在2020年被移除後，該中心的董事會一直在爭議中。該中心的董事會決定將川普總統的名字重新掛在建築上，意味著該中心將在未來兩年內關閉進行改建。這項決定將對該中心的運作產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "270e4730",
+        "title": "白宮新聞秘書卡羅琳·利維特可能被哪些人取代?",
+        "url": "https://www.bbc.co.uk/news/articles/c0l5273xjnlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 14:56:19 GMT",
+        "summary_zh": "白宮新聞秘書卡羅琳·利維特可能會被取代。這個職位需要管理與媒體的複雜關係，以及與川普的高期望。白宮新聞秘書是一個重要職位，負責與媒體溝通、處理新聞事件等。卡羅琳·利維特的取代可能會對白宮的形象和運作產生影響。川普對新聞秘書的期望很高，需要有人能夠滿足他的需求。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "40f231cc",
+        "title": "警車監控公司承認監控系統應該早點行動",
+        "url": "https://www.bbc.co.uk/news/articles/crrv1rjwgl9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 13:02:24 GMT",
+        "summary_zh": "美國警察部門因使用車牌識別攝影機跟蹤情侶而引發爭議，多名警察官員已經辭職。這起事件涉及一家名為Flock Safety的監控公司，其產品被許多美國警察部門使用。該公司的負責人承認，該公司應該早點採取行動來防止警察滥用監控系統。這起事件引發了對警察監控和個人隱私的關注。許多人認為，警察應該能夠信任公民，而不是對他們進行監控。這起事件也引發了對監控公司的責任和監管的問題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d898698b",
+        "title": "美國三人同日執行死刑，死刑數字在全國上升",
+        "url": "https://www.bbc.co.uk/news/articles/cn5n399n6zvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 13:27:00 GMT",
+        "summary_zh": "美國死刑執行的數字在全國上升，儘管有越來越多人反對死刑。這種情況下，美國某個州的死刑執行率居高不下。根據最新的數據，美國某州的死刑執行率居高不下，甚至超過其他州的平均數字。這種情況引起了許多人的關注，許多人認為這種情況是有問題的。許多人認為，死刑執行的數字應該降低，而不是上升。美國的死刑執行率一直是爭議的話題，許多人對此有不同的看法。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "f8c00fb2",
+        "title": "如果你不是保守派，就別來這裡：特朗普的鎮民們為總統製造導彈",
+        "url": "https://www.bbc.co.uk/news/articles/cn0n8nd6645o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Wed, 12 Aug 2026 23:26:21 GMT",
+        "summary_zh": "特朗普的支持率可能在全國下滑，但在田納西州的一個小鎮，鎮民們對他的支持卻依舊堅定不移。這個鎮名叫馬里昂，這裡是美國空軍導彈系統公司的總部所在地。鎮民們對特朗普的支持是出於對他的政策的認同，包括對於美國國防和安全的重視。鎮長也表示，鎮民們對特朗普的支持是因為他堅定不移地支持美國的利益。這個鎮的鎮民們對特朗普的支持是美國政治中的一個典型案例，展現了保守派對總統的支持。",
+        "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "66b4bfe5",
+        "title": "川普內閣成員在假飛機上等待，總統悄悄離開",
+        "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 09:40:18 GMT",
+        "summary_zh": "在北約峰會期間，川普總統因伊朗安全問題而在土耳其轉乘另一架飛機。這使得他的內閣成員被留在另一架假飛機上等待。這一事件的具體原因尚未明確，但安全問題似乎是主要原因。這一行動可能是為了避免任何潛在的安全風險或威脅。這一事件也引發了對川普總統安全措施的關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "57b0f877",
+        "title": "大轉運詐騙案",
+        "url": "https://www.whitehouse.gov/releases/2026/08/the-great-transshipment-scam/",
+        "source": "White House News",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 09:00:00 +0000",
+        "summary_zh": "白宮發表文章《大轉運詐騙案》，內容未知。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
       {
         "id": "9f3df86e",
         "title": "卡羅琳·利維特卸任白宮新聞秘書　美國政治熱議",
         "url": "https://www.theguardian.com/us-news/live/2026/aug/13/karoline-leavitt-white-house-primaries-trump-politics-latest-updates",
         "source": "Guardian US",
         "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 21:47:17 GMT",
+        "published_at": "Thu, 13 Aug 2026 22:37:35 GMT",
         "summary_zh": "白宮新聞秘書卡羅琳·利維特宣布離職，引發關於誰將傳達川普訊息的問題。根據YouGov民調，川普的認可率已經跌至歷史新低。同時，美國法官將在明天聽取社交媒體影響者安德魯·泰特和特里斯坦·泰特的辯護案，決定是否讓他們留在監獄或釋放。泰特兄弟被指控犯有強姦和性交易罪，已經反覆否認有罪。法官將會聽取雙方的意見後，決定是否讓泰特兄弟留在監獄或釋放。這將是一個漫長的引渡程序。",
         "sentiment": "中性",
         "is_breaking": false,
@@ -78,8 +464,8 @@
         "published_at": "Thu, 13 Aug 2026 21:34:58 GMT",
         "summary_zh": "麻薩諸塞州一名17歲的少年阿儒恩·阿拉溫德（Arjun Aravind）被控殺害母親和弟弟，當局正在調查一宗雙重謀殺案，檢察官表示該案與少年使用ChatGPT有關。阿儒恩·阿拉溫德在康科德區法院出席聽證會，對謀殺和多項其他指控的不負責任辯護。根據檢察官的說法，阿儒恩·阿拉溫德使用互聯網和人工智慧工具查找幻想故事，內容涉及殺害家人。該案件引起了對少年使用ChatGPT的影響和安全性的關注。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "7105ae3f",
@@ -154,18 +540,6 @@
         "ai_classified": true
       },
       {
-        "id": "dc977d13",
-        "title": "新澤西州移民拘留中心第三人死亡",
-        "url": "https://www.theguardian.com/us-news/2026/aug/13/immigrant-dies-delaney-hall-new-jersey",
-        "source": "Guardian US",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 16:33:32 GMT",
-        "summary_zh": "美國移民和海關執法局（ICE）在紐澤西州新約克的拘留中心，已經有第三名移民在醫院逝世。根據川普政府的說法，這名來自危地馬拉的移民在Delaney Hall拘留中心經歷了癲癇樣的活動後，後被送往醫院。這名移民的死亡是自該拘留中心在川普政府推行移民打擊行動後重新開放以來的第三宗。該拘留中心在2025年5月重新開放。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "95ae8596",
         "title": "川普政府終止聯邦對性別認同治療的支持",
         "url": "https://www.theguardian.com/us-news/2026/aug/13/trump-administration-gender-affirming-care",
@@ -176,469 +550,21 @@
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
-      },
-      {
-        "id": "b9191bc7",
-        "title": "美國航空母艦在海上超過250天引發關注",
-        "url": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 20:01:30 GMT",
-        "summary_zh": "美國航空母艦USS Abraham Lincoln自11月份開始在海上航行超過250天，引發關注。有報導指出艦上出現食物短缺、破裂的水管等問題，可能對船員造成傷害。這些問題引發了關注，軍方正在調查艦上的狀況。這種長時間在海上的航行可能會對船員的健康和心理造成影響。軍方正在努力解決這些問題，確保船員的安全和健康。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "2006805d",
-        "title": "馬吉奧內律師將會見聯邦檢察官，傳出和解協議",
-        "url": "https://www.bbc.co.uk/news/articles/c5yw71q9y00o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 18:45:51 GMT",
-        "summary_zh": "馬吉奧內面臨兩項聯邦跟蹤罪，最高刑罰為終身監禁無期。根據最新消息，馬吉奧內律師將會見聯邦檢察官，傳出可能有和解協議。這項消息引起了廣泛關注，許多人都在等待著馬吉奧內的下一步行動。馬吉奧內的律師將會與聯邦檢察官進行會談，探討可能的和解方案。這項會議的結果將對馬吉奧內的未來產生重大影響。馬吉奧內的案件引起了社會的關注，許多人都在關注著他的下一步行動。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "270e4730",
-        "title": "白宮新聞秘書卡羅琳·利維特可能被哪些人取代?",
-        "url": "https://www.bbc.co.uk/news/articles/c0l5273xjnlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 14:56:19 GMT",
-        "summary_zh": "白宮新聞秘書卡羅琳·利維特可能會被取代。這個職位需要管理與媒體的複雜關係，以及與川普的高期望。白宮新聞秘書是一個重要職位，負責與媒體溝通、處理新聞事件等。卡羅琳·利維特的取代可能會對白宮的形象和運作產生影響。川普對新聞秘書的期望很高，需要有人能夠滿足他的需求。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "40f231cc",
-        "title": "警車監控公司承認監控系統應該早點行動",
-        "url": "https://www.bbc.co.uk/news/articles/crrv1rjwgl9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 13:02:24 GMT",
-        "summary_zh": "美國警察部門因使用車牌識別攝影機跟蹤情侶而引發爭議，多名警察官員已經辭職。這起事件涉及一家名為Flock Safety的監控公司，其產品被許多美國警察部門使用。該公司的負責人承認，該公司應該早點採取行動來防止警察滥用監控系統。這起事件引發了對警察監控和個人隱私的關注。許多人認為，警察應該能夠信任公民，而不是對他們進行監控。這起事件也引發了對監控公司的責任和監管的問題。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d898698b",
-        "title": "美國三人同日執行死刑，死刑數字在全國上升",
-        "url": "https://www.bbc.co.uk/news/articles/cn5n399n6zvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 13:27:00 GMT",
-        "summary_zh": "美國死刑執行的數字在全國上升，儘管有越來越多人反對死刑。這種情況下，美國某個州的死刑執行率居高不下。根據最新的數據，美國某州的死刑執行率居高不下，甚至超過其他州的平均數字。這種情況引起了許多人的關注，許多人認為這種情況是有問題的。許多人認為，死刑執行的數字應該降低，而不是上升。美國的死刑執行率一直是爭議的話題，許多人對此有不同的看法。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f8c00fb2",
-        "title": "如果你不是保守派，就別來這裡：特朗普的鎮民們為總統製造導彈",
-        "url": "https://www.bbc.co.uk/news/articles/cn0n8nd6645o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 12 Aug 2026 23:26:21 GMT",
-        "summary_zh": "特朗普的支持率可能在全國下滑，但在田納西州的一個小鎮，鎮民們對他的支持卻依舊堅定不移。這個鎮名叫馬里昂，這裡是美國空軍導彈系統公司的總部所在地。鎮民們對特朗普的支持是出於對他的政策的認同，包括對於美國國防和安全的重視。鎮長也表示，鎮民們對特朗普的支持是因為他堅定不移地支持美國的利益。這個鎮的鎮民們對特朗普的支持是美國政治中的一個典型案例，展現了保守派對總統的支持。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "66b4bfe5",
-        "title": "川普內閣成員在假飛機上等待，總統悄悄離開",
-        "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 09:40:18 GMT",
-        "summary_zh": "在北約峰會期間，川普總統因伊朗安全問題而在土耳其轉乘另一架飛機。這使得他的內閣成員被留在另一架假飛機上等待。這一事件的具體原因尚未明確，但安全問題似乎是主要原因。這一行動可能是為了避免任何潛在的安全風險或威脅。這一事件也引發了對川普總統安全措施的關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "57ee3103",
-        "title": "加拿大民眾要求驅逐美國駐加拿大大使",
-        "url": "https://www.bbc.co.uk/news/articles/c9d83j4ql2xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Wed, 12 Aug 2026 22:56:44 GMT",
-        "summary_zh": "近日，一份對美國駐加拿大大使霍克斯特拉（Pete Hoekstra）進行批評的線上請願書，指控他干預加拿大內政事務，已經收集到超過 60,000 個簽名。這份請願書的出現，引發了對加美關係的關注。霍克斯特拉的言論被視為對加拿大內政的干涉，引起了加拿大民眾的不滿。這一事件可能會對加美關係產生影響，引發了各界的關注。加拿大政府是否會採取行動，驅逐霍克斯特拉，尚未明確。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "57b0f877",
-        "title": "大轉運詐騙案",
-        "url": "https://www.whitehouse.gov/releases/2026/08/the-great-transshipment-scam/",
-        "source": "White House News",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 09:00:00 +0000",
-        "summary_zh": "白宮發表文章《大轉運詐騙案》，內容未知。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      }
-    ],
-    "global": [
-      {
-        "id": "89dd3f06",
-        "title": "剛果民主共和國埃博拉疫情迅速擴散至第六個省份",
-        "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 15:17:13 GMT",
-        "summary_zh": "剛果民主共和國的埃博拉疫情已經擴散至第六個省份，官員表示，這一消息出現於疫情爆發後的一天，世界衛生組織總幹事表示，這次疫情有可能超越歷史上最為嚴重的埃博拉疫情，前者在十多年前造成至少 11,000 人死亡。根據最新的政府數據，目前的疫情已經造成超過 2,100 人死亡，超過 4,500 起病例。相比之下，2014-16 年間發生的西非埃博拉疫情，當時的死亡人數僅有 755 人。這次疫情的死亡人數和病例數已經遠遠超過了前一次疫情的數字，世界衛生組織總幹事表示，這次疫情有可能成為歷史上最為嚴重的埃博拉疫情。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "f1343720",
-        "title": "兩名男子否認與英國首相史塔默相關的縱火案",
-        "url": "https://www.reuters.com/world/uk/two-men-deny-conspiring-set-fires-linked-uk-pm-starmer-2025-10-17/",
-        "source": "Reuters",
-        "category": "global",
-        "published_at": "2026-08-13 08:42:23",
-        "summary_zh": "英國首相史塔默相關的縱火案，兩名烏克蘭男子被控共謀縱火。案件發生在倫敦，涉及多處房屋和一輛汽車。英國檢察官表示，這些縱火案並不被視為恐怖主義。兩名男子在星期五被指控，否認了共謀縱火的指控。這起案件的背景是，英國首相史塔默在倫敦出現過縱火案，相關的調查仍在進行中。這些縱火案對英國政府和首相史塔默造成了影響，引起了社會的關注。目前，案件仍在調查中，相關的後續發展尚未公布。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c6ef1f0c",
-        "title": "法國駐中非共和國大使面臨調查：涉嫌在官邸接待數十名女性",
-        "url": "https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 14:21:52 GMT",
-        "summary_zh": "法國駐中非共和國大使面臨調查，原因是他在官邸接待了數十名女性，引發安全擔憂。這項調查是在法國試圖重建與中非共和國的關係之際進行的，中非共和國在近年來與法國關係惡化，主要是因為俄羅斯在前法國殖民地的影響力擴大。法國政府試圖重建關係，同時也要確保大使的行為不會影響國家形象。這項調查可能會對法國與中非共和國的關係產生影響，同時也會關注大使的行為是否符合法國外交人員的標準。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "67ae5032",
-        "title": "尚比亞選舉陰霾中：前總統遺孀仍在追究前任總統之仇",
-        "url": "https://www.theguardian.com/world/2026/aug/13/zambia-elections-hakainde-hichilema-haunted-ghost-incumbent-president-arch-rival-edgar-lungu",
-        "source": "Guardian World",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 04:00:49 GMT",
-        "summary_zh": "尚比亞即將舉行選舉，前總統埃德加·倫古的死去仍然留下了深遠的影響。現任總統哈卡因德·希契萊馬（Hakainde Hichilema）正在競選連任，但與前總統家人的恩怨仍未解決。希契萊馬在2021年以壓倒性優勢擊敗了前總統埃德加·倫古，當時倫古被視為他的死對頭。雖然倫古於2025年去世，但他的家人仍然對希契萊馬的政府持懷疑態度，認為他在任內的政策對他們造成了不公平的影響。這種對立情緒在尚比亞選舉中扮演了重要角色，許多選民仍然懷念著倫古的領導風格。雖然希契萊馬的競選活動取得了初步成功，但仍然面臨著對立的挑戰。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "71b41994",
-        "title": "更多軍隊將前往以色列定居者圍困的西岸村莊",
-        "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 20:12:17 GMT",
-        "summary_zh": "在以色列定居者圍困的西岸村莊Qusra，兩個巴勒斯坦家庭表示自星期日起已被困在家中，水電被切斷。這種狀況一直持續到目前。這種事件出現在一個以色列定居者和巴勒斯坦村民之間的長期衝突地區。這種衝突可能會對當地的和平進程產生負面影響。目前尚未有明確的後續展望，但國際社會可能會對此事件表達關注和批評。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "598e73e1",
-        "title": "羅馬尼亞關閉唯一核電廠，丹尼布河水位大幅下降",
-        "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 19:46:27 GMT",
-        "summary_zh": "羅馬尼亞因熱浪導致丹尼布河水位大幅下降，決定關閉該國唯一的核電廠——塞納沃達核電廠。該廠為羅馬尼亞電力產量的20%，預計在下10天內不會重啟運作。熱浪導致河水水位下降，對當地生態和水資源造成影響。羅馬尼亞政府需要評估該廠關閉對電力供應的影響，並考慮采取措施應對電力短缺。這一事件也引發了關注，羅馬尼亞是否能夠有效應對氣候變化的挑戰。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "ef382bbf",
-        "title": "五名加拿大冰球選手中四名仍遭停賽，雖然其中一名已獲復權",
-        "url": "https://www.bbc.co.uk/news/articles/cj9dpdmr77do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 14:51:44 GMT",
-        "summary_zh": "加拿大冰球聯盟(Hockey Canada)近期發生一樁性侵案醜聞。五名加拿大冰球選手因涉嫌性侵犯一名女性而被停賽。雖然其中一名選手已經獲復權，但另外四名選手仍遭停賽。然而，停賽的四名選手已經獲得上訴委員會的支持，但委員會認為這五名選手都違反了冰球聯盟的行為守則。這樁事件引起了廣泛的關注和爭議，許多人批評冰球聯盟對性侵犯的處理不當。這樁事件也引起了對冰球聯盟行為守則和性侵犯處理的檢視。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a55db7e8",
-        "title": "普丁再也不能宣稱在烏克蘭取得勝利，諾貝爾和平獎得主對BBC發表評論",
-        "url": "https://www.bbc.co.uk/news/articles/c74grmy2v7ko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 04:55:58 GMT",
-        "summary_zh": "烏克蘭局勢持續惡化，諾貝爾和平獎得主德米特里·穆拉托夫（Dmitry Muratov）在接受BBC獨家採訪時表示，普丁領導的克里姆林宮再也不能宣稱在烏克蘭取得勝利。德米特里·穆拉托夫強調，俄羅斯只能「摧毀烏克蘭，而不是征服它」。烏克蘭戰爭已經進入第五年，局勢惡化的跡象不斷出現。德米特里·穆拉托夫的評論表明，烏克蘭戰爭的結局遠遠超出了俄羅斯的預期。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "a1b98738",
-        "title": "特拉維斯凱利斯分享婚禮細節：與泰勒絲的婚禮是「一生中最棒的一夜」",
-        "url": "https://www.bbc.co.uk/news/articles/cx2r179e232o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 01:19:23 GMT",
-        "summary_zh": "NFL球星特拉維斯凱利斯與歌手泰勒絲的婚禮在紐約的麥迪遜廣場花園舉行。凱利斯在社交媒體留言中稱泰勒絲為自己的妻子，並表示這是他「童年夢想」的婚禮。凱利斯與泰勒絲的婚禮成為了媒體的焦點，許多人對這對新人感到高興和祝福。這對新人的婚禮將會是媒體的話題之一。",
-        "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c1109bd3",
-        "title": "人被罰款因使用霹靂炮喚醒睡眠的北極熊",
-        "url": "https://www.bbc.co.uk/news/articles/cx2k1r97vx7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 15:30:57 GMT",
-        "summary_zh": "在北極熊棲息的地區，當地規定禁止無故打擾、吸引或追捕北極熊。近日，一名男子因使用霹靂炮喚醒睡眠的北極熊而被罰款。這名男子的行為違反了當地的規定，可能會對北極熊造成傷害。這個事件引起了關注，提醒人們保護北極熊的重要性。北極熊是極地生態系統中的重要物種，保護它們的生存環境是關鍵的。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "aa11e139",
-        "title": "愛爾蘭飛機失事遇難者家屬獲得2,900萬美元賠償",
-        "url": "https://www.bbc.co.uk/news/articles/ce85p80nn2yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 19:08:49 GMT",
-        "summary_zh": "美國芝加哥一名陪審團判決波音公司應該向愛爾蘭飛機失事遇難者家屬支付2,900萬美元賠償。這起案件是由遇難者Michael Ryan的寡婦Naoise Connolly Ryan提出的民事訴訟。事件背景是Michael Ryan在2018年12月21日乘坐波音737 MAX飛機時遇難。波音737 MAX飛機曾因多起事故而引起爭議。波音公司被指責其產品設計存在缺陷，導致多起事故發生。這起案件的判決對於波音公司的聲譽和財務有重大影響。波音公司將會面臨更多的法律訴訟和財務壓力。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "efef4739",
-        "title": "印度航空將對所有駕駛員進行禁藥檢測",
-        "url": "https://www.bbc.co.uk/news/articles/c2352jyvm5xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 16:52:15 GMT",
-        "summary_zh": "印度航空最近一架飛機突然下降，造成多名乘客受傷。為了確保乘客安全，印度航空決定對所有駕駛員進行禁藥檢測。這項措施是針對最近的事件，印度航空希望能夠確保駕駛員的身體健康狀況，從而確保飛機的安全。這項檢測將對所有駕駛員進行，包括那些有良好紀錄的駕駛員。印度航空的這一決定受到業界的關注，許多人認為這是一個必要的措施。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c0aebb3e",
-        "title": "2027 歐洲歌唱大賽將在保加利亞布爾加斯舉行",
-        "url": "https://www.bbc.co.uk/news/articles/cly8p8lpyvmo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 11:10:31 GMT",
-        "summary_zh": "保加利亞歌手達拉(Dara)今年贏得了歐洲歌唱大賽，保加利亞布爾加斯沿著黑海被選為2027年大賽的舉辦地。這是保加利亞首次主辦歐洲歌唱大賽。布爾加斯是一座沿海城市，擁有豐富的文化和歷史遺產。這次選擇可能會為該城市帶來新的商機和觀光客。然而，主辦大賽也需要面臨許多挑戰，包括組織和資源的安排。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "11e155a2",
-        "title": "法國前總統赦免疑似間諜被控策動馬利政變",
-        "url": "https://www.bbc.co.uk/news/articles/c2el29e3m3xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 15:50:49 GMT",
-        "summary_zh": "法國政府尚未就雅恩·韋茲利耶（Yann Vezilier）獲得總統赦免發表評論。法國政府之前稱這些指控是「毫無根據的」。雅恩·韋茲利耶被控策動馬利政變，法國政府對此表示不滿。這一事件引起了國際關注，各國政府正在密切關注這一發展。雅恩·韋茲利耶的赦免可能會對法國政府的形象產生影響。這一事件的發展仍在進展中，各方正在等待法國政府的正式回應。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e658943c",
-        "title": "法國駐中非共和國大使涉嫌將女性帶入官邸面臨紀律處分",
-        "url": "https://www.bbc.co.uk/news/articles/cqx7pp3yd25o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 08:15:10 GMT",
-        "summary_zh": "法國駐中非共和國大使布魯諾·福歇 (Bruno Foucher) 遭到指控，引發了安全漏洞的調查。根據消息，布魯諾·福歇被指控將女性帶入官邸，這引起了外界的關注和質疑。法國外交部對此事件進行了調查，並將對布魯諾·福歇進行紀律處分。這一事件也引發了對法國駐外使館安全和紀律的關注。法國政府將對此事件進行進一步的調查和處理。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "9a8bf4ee",
-        "title": "今年夏天的高溫背後：2027年可能會更糟糕",
-        "url": "https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/",
-        "source": "MIT Tech Review",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 10:00:00 +0000",
-        "summary_zh": "今年夏天，北半球的大部分地區都經歷了嚴重的高溫。6月和7月是歐洲自記錄開始以來最熱的兩個月。美國大陸在7月錄得了歷史最高的月份平均溫度。南韓也錄得了歷史最高的溫度。高溫還沒有結束，但一些科學家已經開始預測未來……根據科學家的分析，今年夏天的高溫是由於氣候變化和氣候模式的變化引起的。氣候變化導致了大氣中的溫室氣體含量增加，從而導致溫度升高。氣候模式的變化則導致了氣候系統的不穩定性增加。這些變化導致了今年夏天的高溫。預測模型表明，2027年可能會更加惡劣。科學家們警告，氣候變化和氣候模式的變化將會導致更嚴重的高溫和乾旱。因此，需要採取積極的措施來應對氣候變化的影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "3a343f50",
-        "title": "日本抗議普京訪問爭議群島",
-        "url": "https://www.bbc.co.uk/news/articles/cqx7ple0nxxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 09:54:03 GMT",
-        "summary_zh": "俄羅斯領袖普京首次訪問千島群島，根據官方媒體報導。千島群島是俄羅斯和日本長期爭議的領土，兩國多年來一直對此問題有著不同的看法。日本政府對普京訪問千島群島表達了強烈抗議，認為這是對日本主權的侵犯。俄羅斯的行動可能會加劇兩國之間的緊張關係。日本政府正在考慮如何回應這一事件，可能會採取多種措施來保護自己的利益。這一事件也會對兩國之間的關係產生重大影響。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "1953122d",
-        "title": "BTS成員V公開聽力受損的兩年戰爭",
-        "url": "https://www.bbc.co.uk/news/articles/cx2v1893n3eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 04:09:12 GMT",
-        "summary_zh": "BTS成員V在直播節目中公開了自己近兩年的聽力問題。根據V的說法，他在兩年前就開始出現聽力問題，但一直沒有公開。這個消息讓粉絲們感到驚訝和關心。聽力受損的原因尚未明確，但V已經開始採取措施來改善自己的聽力。這個消息也讓人們開始關注K-pop歌手的工作環境和健康問題。目前，V仍然在為BTS進行演出和錄製歌曲，但他的聽力問題將會對他未來的音樂事業造成影響。",
-        "sentiment": "中性",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "8c0d9495",
-        "title": "仁川機場成為全球最繁忙的國際機場",
-        "url": "https://www.bbc.co.uk/news/articles/cr49p1279n0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 05:49:22 GMT",
-        "summary_zh": "仁川機場在全球航空交通量中取得了突破性的成績，超越了倫敦希思羅機場，成為全球最繁忙的國際機場。根據仁川機場的說法，這是由於中東衝突導致的轉場安排幫助了其交通量的增長。倫敦希思羅機場排名第二。這項成就對仁川機場的發展和全球航空業的競爭格局都產生了重要影響。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      }
-    ],
-    "ai": [
-      {
-        "id": "da231860",
-        "title": "微軟 Copilot 的 Mico 人物不再是語音模式的代言人",
-        "url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-08-13T17:42:38-04:00",
-        "summary_zh": "微軟 Copilot 的語音模式不再會出現 Mico 這個有感情的黃色小球。根據微軟的支援頁面，Mico 將會被移到 Learn Live 平台，讓 Mico 可以有更多反應的機會。Mico 最初在 Copilot 的語音模式中推出，讓使用者可以與它互動。雖然微軟沒有明確表示 Mico 的功能會被取消，但這個變化可能會對使用者造成影響。許多人對於 Mico 的出現感到高興，認為它可以讓 Copilot 的語音模式更具人性化。然而，這個變化也可能會讓一些人感到失望。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "32bc4b8d",
-        "title": "OpenAI 第二位高管離職",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-08-13T15:28:39-04:00",
-        "summary_zh": "OpenAI 這週又有一位高管離職。 Denise Dresser 在去年 12 月加入 OpenAI 擔任首席收入官，曾擔任 Slack CEO。 Denise 表示，她將在未來幾周內離職，理由是「追求其他機會」。 Wiz 的總裁兼 COO Dali Rajic 將接替 Denise 的職位。 Denise 的離職是本週第二位 OpenAI 高管離職的消息。 Denise 的離職將對 OpenAI 的收入和業務發展造成影響。 未來如何發展仍待觀察。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "5907436e",
-        "title": "Suno 正在嘗試成為真正的音樂製作工具",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-08-13T12:00:00-04:00",
-        "summary_zh": "Suno 最近推出了 Studio 2.0 的重大升級，將其推向了真正的數字音頻工作站 (DAW) 的方向，而不是一款基本的音頻編輯器，具備生成 AI 功能。最大的新增功能無疑是 MIDI 支援。Suno 表示，MIDI 是最受歡迎的功能，對於任何現代 DAW 來說都是必不可少的。然而，與此同時，Suno 的 Studio 2.0 還面臨著一些挑戰。雖然 MIDI 支援是重要的功能，但它也使得 Suno 的軟體更加複雜，需要更高的系統需求。這可能會對部分使用者造成困擾。儘管如此，Suno 的 Studio 2.0 還是帶來了許多新的功能和改進，例如更好的音頻編輯功能和更強大的 AI 功能。這些改進將使得 Suno 的軟體更接近於一個真正的 DAW。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "e5256eb5",
-        "title": "我進入了人工智慧生成的電影，人氣最高的部分都是由人創作的",
-        "url": "https://www.theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-08-13T11:30:00-04:00",
-        "summary_zh": "近日，一部由人工智慧生成的電影引起了關注。該電影的故事設定在倫敦的一間髒亂的酒吧，描述三個英國年輕人在喝酒時幻想成為巨星。這些年輕人互相競爭，各自描繪出一系列更加閃亮的未來，幻想著自己成為巨星後能夠享受豪華生活。然而，這部電影最吸引人的地方其實是人工智慧生成的部分並不如人們想象的那樣出色，而是那些由人創作的部分更加引人入勝。這一點引起了對人工智慧生成內容的質疑，是否人工智慧能夠完全取代人類創作的能力？這一事件也讓人們開始思考人工智慧生成內容的真實價值。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "a7bd9dab",
-        "title": "谷歌是否還想在人工智慧競賽中勝出?",
-        "url": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-08-13T10:10:31-04:00",
-        "summary_zh": "近日，谷歌宣布重組其人工智慧部門Google DeepMind，引起了業界的關注。這次重組的背後原因，是否是谷歌在人工智慧競賽中已經落後？谷歌的首席科學家Jeff Dean將會負責領導新的組織結構。這次重組對於谷歌的競爭地位和未來發展方向，將會產生什麼影響？在這次重組的背後，谷歌是否仍然堅持在人工智慧競賽中勝出？",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6b576d08",
-        "title": "微軟整合 Copilot 應用程式，預備「超級應用程式」",
-        "url": "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
-        "source": "The Verge AI",
-        "category": "ai",
-        "published_at": "2026-08-13T09:30:00-04:00",
-        "summary_zh": "微軟終於開始將其消費者和商業 Copilot 人工智慧助手整合為一個單一的「超級應用程式」界面，首先是 Copilot 和 Microsoft 365 Copilot 應用程式。個人和工作帳戶都將被移至新整合的應用程式中，這個應用程式重用了「微軟 Copilot」名稱，但具有更新的應用程式圖標。這個單一應用程式將為使用者提供更簡單的體驗，並且可以在任何地方存取 Copilot 功能。這項變革是為了讓使用者更容易地在工作和個人生活中使用 Copilot 功能。微軟正在努力將 Copilot 功能整合到更多應用程式中，以便使用者可以在任何地方存取這些功能。這項變革對於微軟的 Copilot 產品來說是一個重要的里程碑，標誌著公司正在努力將人工智慧整合到更多應用程式中。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "527ad981",
-        "title": "實踐後量子加密的途徑",
-        "url": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 13 Aug 2026 18:11:42 +0000",
-        "summary_zh": "量子計算在科技圈間曾被視為突破性的新興技術，但也被認為是過度炒作。然而，對於企業領袖來說，應該要清晰地看到，後量子加密（PQC）是一種可管理的演進，而不是一場危機。現今加密數位交易的數學基礎可能會被破壞，但這並不意味著企業必須立即採用新技術。事實上，許多企業已經開始研究和實踐後量子加密，為未來的數位交易做好準備。這項技術的發展將會對企業的數位安全性產生重大影響，企業應該要積極地參與和投資於此項研究。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "382a035e",
-        "title": "群眾反彈，警用科技巨頭Flock調整監控規則",
-        "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 13 Aug 2026 13:41:10 +0000",
-        "summary_zh": "警用科技巨頭Flock近日宣布，將調整其全國性車牌識別網絡的使用權限，試圖平息因大規模監控和警察濫權引起的反彈聲浪。這一決定是針對近期引起熱議的問題：Flock的監控系統被指有可能被濫用，導致民眾的隱私受到侵犯。Flock的新規定將限制警察對其監控系統的訪問權限，旨在防止警察濫權和保護民眾的隱私。這一舉動被視為Flock試圖贏回因為監控問題而失去的合同。然而，這一決定是否足以平息民眾的反彈聲浪，尚待觀察。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "6c09900b",
-        "title": "下載：孩子們對人工智慧的看法，以及雄性老鼠的雌性複製體",
-        "url": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 13 Aug 2026 12:10:00 +0000",
-        "summary_zh": "人工智慧技術日益普及，對孩子們的影響也越來越大。Anyway雜誌的創辦人Jen Swetzoff和Keeley McNamara最近進行了一項調查，了解孩子們對人工智慧的看法。調查結果顯示，孩子們對人工智慧的看法各不相同，有些孩子覺得人工智慧很有趣，有些孩子則覺得人工智慧很令人擔憂。另外，研究人員也發現，雄性老鼠的雌性複製體可以用來研究人工智慧的應用。這項研究的結果可能對未來的人工智慧發展有所啟發。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "d5a89f92",
-        "title": "孩子們對人工智慧的看法，透過自己的話語",
-        "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-        "source": "MIT Tech Review",
-        "category": "ai",
-        "published_at": "Thu, 13 Aug 2026 09:00:00 +0000",
-        "summary_zh": "在與孩子們討論人工智慧時，我們想知道他們會說些什麼。然而，我們的預期並不完全符合實際情況。有些孩子坦承他們使用人工智慧來作弊，類似於前幾代人使用 CliffsNotes 或將公式輸入 TI-82。另一方面，有些孩子則分享了他們如何用人工智慧創造出令人驚嘆的作品。這些孩子的看法讓我們對未來充滿了希望。然而，我們也發現有些孩子對人工智慧的看法是非常消極的。這些孩子認為人工智慧會取代人類的工作，導致失業率上升。這些看法讓我們感到擔憂。因此，我們需要更加關注孩子們對人工智慧的看法，並且鼓勵他們對這個領域進行更多的探索和研究。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
       }
     ],
     "stock_tw": [
+      {
+        "id": "d211bea4",
+        "title": "馬斯克薪酬達特斯拉員工250萬倍！川普1年所得抵勞工4萬年",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5539283",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 14 Aug 2026 06:07:50 +0800",
+        "summary_zh": "針對高階企業主管與員工之間日益擴大的薪資差距，一份最新報告指出，科技富豪馬斯克在特斯拉獲得的薪酬，是該公司平均員工薪資的250萬倍以上。這項數據引發了對企業薪資不平等的關注。根據報告，特斯拉的最高薪酬者是馬斯克，他的薪酬遠遠超過公司其他員工。這種薪資差距不僅在特斯拉存在，也在許多其他企業中都有所出現。這種不平等的薪資結構可能會對企業的凝聚力和員工滿意度產生負面影響。因此，企業應該考慮如何平衡高階主管的薪酬和員工的薪酬，以確保企業的整體效率和員工的滿意度。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "d5899d5b",
         "title": "兆基前董董前妻返台到案 交保 100 萬",
@@ -648,8 +574,8 @@
         "published_at": "Fri, 14 Aug 2026 05:30:00 +0800",
         "summary_zh": "兆基屋管前董事長李建成涉嫌透過趙姬投資、寄居蟹發行公司債募資逾十億元，並挪用近七億元購買豪車、名牌精品及清償私人債務遭法院裁定羈押。李男前妻何思瑩主動返台，並於昨日接受調查，台北地檢署複訊後，依侵占、洗錢罪嫌諭令一百萬元交保，並限制出境、出海。這起案件的背景是李建成的財務問題，涉及到公司債務、豪車購買、名牌精品等。李建成的行為被視為侵占和洗錢罪嫌，法院裁定羈押後，李建成的前妻何思瑩主動返台接受調查。台北地檢署複訊後，對何思瑩諭令一百萬元交保，並限制出境、出海。這個案件的影響是對李建成和他的前妻的法律後果，同時也會對兆基屋管的聲譽和信譽產生影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "6dfef78c",
@@ -660,8 +586,8 @@
         "published_at": "Fri, 14 Aug 2026 05:30:00 +0800",
         "summary_zh": "長興積極擴產，半導體封裝材料出貨量持續擴增。公司預期下半年營運可優於上半年。長興也加碼全球布局，積極擴建乾膜光阻與特用材料產能。上半年，長興的稅後淨利達到 12.75 億元。公司的合成樹脂、特用材料、乾膜光阻三大事業銷售穩定，為公司的財務提供穩定的收入。長興的精密設備驗收認列將進入高峰期，預計對公司的營運產生正面影響。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "db801653",
@@ -672,8 +598,8 @@
         "published_at": "Fri, 14 Aug 2026 05:30:00 +0800",
         "summary_zh": "近一年來台股投資人面臨重重考驗，市場處於波動之中。然而，國安基金卻屢屢展現其投資策略的優勢，連續7年取得勝利。高嘉和指出，國安基金的成功秘密在於其敢於在市場恐慌時入市，從而打敗其他台股ETF。這種策略在今年的護盤風光中也得到了體現，國安基金的年化報酬率達到70%到75%。這種表現令人印象深刻，尤其是在市場波動的時期。然而，這也讓人們開始思考，是否該考慮將投資集中在國安基金上。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "b6ece63c",
@@ -684,8 +610,8 @@
         "published_at": "Fri, 14 Aug 2026 05:30:00 +0800",
         "summary_zh": "美國那斯達克交易所的全球交易時間計畫，已於今年四月獲得美國證管會（SEC）批准，預定於今年十二月六日正式啟動。新制將每週五天僅美東時間晚上8時～9時暫停交易，進行系統維護。這意味著全球將進入每週五天、每天二十三個小時的「炒美股」時代。日本五家網路券商預計從十二月六日起，與那斯達克交易所同步進行交易。這項變革將可能對全球股市產生重大影響，投資者需要適應新的交易時間安排。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "234b8a40",
@@ -696,8 +622,8 @@
         "published_at": "Fri, 14 Aug 2026 05:30:00 +0800",
         "summary_zh": "日本政府有足夠的資金，能夠再進行匯率干預行動，主要是因為日本可以利用美國聯準會的一項政策工具。根據高盛的估計，日本約一兆美元的外匯存底中，有將近二〇〇〇億美元是以美元形式存放在美國銀行的。知情人士也透露，日本首相高市早苗政府支持日本銀行加速升息。這意味著日本銀行可能會在未來的幾個月內加快升息步伐，以應對日本的經濟挑戰。日本銀行的升息步伐將對全球金融市場產生重大影響，特別是在美元兌日元匯率方面。高盛的分析表明，日本政府有足夠的資金和政策工具，能夠影響匯率市場，從而影響全球經濟。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "864f7d06",
@@ -708,8 +634,8 @@
         "published_at": "Fri, 14 Aug 2026 05:30:00 +0800",
         "summary_zh": "泰山食品廠因為中聯油脂油安風暴導致投資減損，公司上半年虧損近8億元。為了籌措資金，泰山董事會通過參與街口電子支付股權拍賣投標案，授權董事長劉偉龍參與台北地方法院民事執行處拍賣街口電子支付100%股權投標。泰山表示，投標金額不高於原投資款本金35億9580萬元，且不高於參與競價者最高出標金額2000萬元範圍內。這項投標行動可能會對泰山的財務狀況產生影響，投資者應密切關注公司的發展。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "1bae7da8",
@@ -786,37 +712,61 @@
     ],
     "finance": [
       {
-        "id": "1a55225f",
-        "title": "印度七月貿易缺口擴大，進口量增長超出預期",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-13/india-s-july-trade-gap-widens-as-imports-rise-on-robust-demand",
+        "id": "0b4911d7",
+        "title": "塔佩斯里預測強勁年度利潤，Coach吸引年輕消費者",
+        "url": "https://www.reuters.com/business/retail-consumer/tapestry-forecasts-strong-annual-profit-coach-draws-young-shoppers-2026-08-13/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-08-13 10:58:12",
+        "summary_zh": "塔佩斯里公司預測本年度將錄得強勁的利潤成長。該公司旗下品牌Coach已經成功吸引年輕消費者，成為時尚市場的熱門品牌。塔佩斯里公司的財務報告顯示，該公司的銷售額和利潤都已經超出了預期。分析師認為，這是由於Coach品牌的成功吸引年輕消費者所致。Coach品牌的產品設計和市場策略都已經得到改善，吸引了更多年輕消費者。塔佩斯里公司的這一預測將對時尚市場產生重要影響，可能會推動更多品牌改善產品設計和市場策略。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "3e3f1b5d",
+        "title": "Thoma Bravo將以超過 400 億美元交易收購Accelerant私有化",
+        "url": "https://www.reuters.com/business/thoma-bravo-buy-accelerant-more-than-4-billion-deal-2026-08-13/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-08-13 10:57:38",
+        "summary_zh": "美國私募基金Thoma Bravo宣布將以超過 400 億美元的交易價格收購軟體公司Accelerant私有化。這項交易將使Accelerant成為Thoma Bravo旗下的一家私有公司。Accelerant是一家提供軟體解決方案的公司，主要服務於企業客戶。該公司的軟體解決方案主要針對企業的財務、人力資源和客戶關係管理等領域。 Thoma Bravo的收購將使Accelerant能夠更好地發展其業務，並加強其在軟體市場的競爭力。這項交易的具體細節尚未公布，但預計將在未來的時間內完成。 Thoma Bravo是一家美國的私募基金公司，主要投資於軟體、金融和其他行業。該公司已經投資於多家知名企業，包括軟體公司、金融公司和其他行業領導者。 Thoma Bravo的收購將對軟體市場產生重大影響，將使Accelerant成為一家更強大的企業。這項交易的具體影響尚未明確，但預計將對軟體市場產生重大影響。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "781721da",
+        "title": "印度銀行存款三個半月內大幅增加達 1150 億美元創新高",
+        "url": "https://www.reuters.com/world/india/indian-bank-deposits-jump-by-115-billion-over-three-fortnights-record-high-2026-08-13/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-08-13 10:52:43",
+        "summary_zh": "印度銀行存款在最近三個半月內大幅增加，達到創紀錄的 1150 億美元。這一波存款增加主要是由於印度政府的刺激政策和經濟復甦的趨勢。儘管印度經濟在去年受到嚴重的疫情影響，但今年的經濟復甦已經取得顯著進展。印度政府的刺激政策，包括降低利率和增加基礎建設投資，已經幫助刺激經濟活動。同時，印度企業的盈利能力也在改善，企業的投資意願增加，從而推動銀行存款的增加。這一波存款增加對印度銀行業有著積極的影響，銀行業的貸款和投資業務都有所增加。然而，這一波存款增加也引發了對銀行業風險的關注，銀行業需要保持穩健的風險管理和資本充足性。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "79eb3f0e",
+        "title": "JD.com 首次錄得季度營收下滑，中國消費者信心再跌",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-13/jd-com-profit-beats-estimates-after-food-delivery-fight-calms",
         "source": "Bloomberg",
         "category": "finance",
-        "published_at": "2026-08-13 10:00:14",
-        "summary_zh": "印度七月貿易缺口擴大，進口量增長超出預期，反映了國內需求的韌性。印度七月貿易缺口達到 67.7 億美元，遠超預期的 53.5 億美元。這是因為進口量增長了 15.6%，而出口量增長了 12.4%。印度政府正在努力改善貿易平衡，通過提高出口和降低進口來實現。這項措施的效果尚未明顯，但政府仍然堅持這一路線。印度的貿易缺口擴大對印度經濟的影響仍在觀察中。",
+        "published_at": "2026-08-13 10:51:29",
+        "summary_zh": "中國最大電子商務平台 JD.com 公布季度營收首次下滑，自 2014 年上市以來首次出現下滑。這是中國消費者信心再次下滑的最新跡象。根據 JD.com 的數據，今年第二季度的營收為 341 億元人民幣，較去年同期下滑 1.6%。這是自 2014 年上市以來首次出現季度營收下滑。中國消費者信心的下滑是由於多個因素導致的，包括房地產市場的疲弱、金融市場的波動以及經濟增長的放緩。這些因素都對消費者信心產生了負面影響。中國政府正試圖通過刺激政策來刺激經濟增長和消費者信心。然而，消費者信心的下滑仍然是中國經濟面臨的重大挑戰。",
         "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
       },
       {
-        "id": "7eb13061",
-        "title": "Shein敗訴英國版權訴訟　Temu獲勝",
-        "url": "https://www.reuters.com/world/shein-loses-uk-copyright-lawsuit-against-rival-temu-over-photos-clothing-2026-08-13/",
+        "id": "d51fcc77",
+        "title": "中國點擊巨頭滴滴二季度轉虧為盈",
+        "url": "https://www.reuters.com/world/asia-pacific/china-ride-hailing-giant-didi-q2-swings-net-profit-2026-08-13/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-08-13 09:57:34",
-        "summary_zh": "快速時尚平台Shein在倫敦法院敗訴，對競爭對手Temu的版權侵權訴訟遭拒絕。 Shein控訴Temu在其網站上使用了Shein產品照片，侵犯了Shein的版權。然而，法院認為Shein未能提供足夠的證據來證明Temu的侵權行為。 Shein的敗訴可能會對其品牌形象和商業運作產生影響。 Shein將會繼續在全球市場上競爭，包括在英國和其他地區。 Temu的勝利可能會使其在快速時尚市場上獲得更多市場份額。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "522adf4c",
-        "title": "UBS 評估價值大幅上升是有理的狂熱",
-        "url": "https://www.reuters.com/commentary/breakingviews/ubs-valuation-surge-is-case-rational-exuberance-2026-08-13/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-08-13 09:56:01",
-        "summary_zh": "UBS 的評估價值最近大幅上升，引起了投資者的關注。這種情況被描述為「有理的狂熱」，意味著投資者對公司未來成長前景的樂觀情緒正在推動市場價格上升。投資者們認為，UBS 的業務持續擴張，公司的財務表現也越來越好，這使得投資者對公司未來前景感到樂觀。然而，市場分析師也提醒投資者，市場價格上升過快可能會導致泡沫形成。因此，投資者需要謹慎評估公司的實際價值和未來成長前景，以避免投資錯誤。",
+        "published_at": "2026-08-13 10:51:21",
+        "summary_zh": "滴滴出行在二季度的財務報告顯示，該公司在今年二季度轉虧為盈，實現了 1.44 億美元的淨利潤。這是該公司自去年四季度以來首次錄得盈利。滴滴出行的收入在二季度同比增長了 10%，達到 17.5 億美元。該公司的營運效率和成本控制能力在二季度有所改善，導致盈利的出現。然而，滴滴出行仍面臨著嚴格的監管環境和競爭壓力。該公司的未來發展前景仍存疑問。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -834,37 +784,13 @@
         "ai_classified": true
       },
       {
-        "id": "477aaaa5",
-        "title": "歐洲央行預計下月最後一次加息，自2011年以來最短的收緊周期",
-        "url": "https://www.reuters.com/business/ecb-set-deliver-final-rate-hike-next-month-shortest-tightening-drive-since-2011-2026-08-13/",
+        "id": "86e095d7",
+        "title": "鐵礦價格波動不大，鋼鐵廠的損失減少，運費穩定",
+        "url": "https://www.reuters.com/pt/negocio/GDUHWLFWBJNJVINNFN5BT6VD2E-2026-08-13/",
         "source": "Reuters",
         "category": "finance",
-        "published_at": "2026-08-13 09:51:45",
-        "summary_zh": "歐洲央行預計下月將進行最後一次加息，結束自2011年以來最短的收緊周期。這項決定是由於歐洲央行希望控制通膨，同時避免對經濟造成過度打擊。歐洲央行的加息計畫已經獲得了市場的預期，市場預期下月將出現一場加息行情。這項決定將對歐洲的經濟產生重大影響，特別是對於那些依賴外部資金的國家。歐洲央行的決定也將對全球金融市場產生影響，特別是對於美元和歐元的兌換率。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "49c0cbac",
-        "title": "美國馬友認為FIA總裁競選提名已經結束",
-        "url": "https://www.reuters.com/sports/formula1/american-mayer-recognises-bid-fia-presidency-is-over-2025-10-17/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-08-13 09:50:33",
-        "summary_zh": "美國馬友（Mayer）最近發表聲明，表示他認為自己對FIA總裁職位的競選提名已經結束。這一決定可能會對FIA未來的領導產生重大影響。馬友曾經是FIA競選的一個熱門人選，但他最近的表態似乎表明他已經放棄競選。這一發展可能會讓其他競選人有機會爭取FIA總裁職位。馬友的決定可能會對FIA未來的發展產生重大影響，包括對於汽車運動的領導和政策。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "bc7a7a0e",
-        "title": "花旗集團看好亞洲ADR流通管道強勁發展",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-13/citigroup-sees-robust-adr-pipeline-in-asia-on-tech-funding-drive",
-        "source": "Bloomberg",
-        "category": "finance",
-        "published_at": "2026-08-13 09:33:22",
-        "summary_zh": "花旗集團預測更多亞洲公司會在美國上市，主要是由於科技公司希望提高估值並在全球最大的股權市場中籌集資金。這些公司認為美國股市的資金池深厚，能夠為其籌集到足夠的資金來推動業務發展。花旗集團的這一預測是基於亞洲科技公司對美國股市的興趣日漸增加的趨勢。這一趨勢不僅僅是由於美國股市的資金池深厚，更是由於美國股市的估值較高，能夠為科技公司提供更高的估值。然而，花旗集團也提醒投資者，美國股市的風險也在增加，因此投資者需要謹慎評估風險並做好準備。",
+        "published_at": "2026-08-13 10:49:43",
+        "summary_zh": "鐵礦價格近期波動不大，主要是由於鋼鐵廠的損失減少所致。同時，運費也保持穩定。這些因素都對鐵礦市場產生了影響。分析人士認為，這種情況可能是短期的，長期來看，鐵礦價格仍有可能出現波動。鐵礦市場的波動對鋼鐵廠和運費都有影響，需要密切關注。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -908,6 +834,54 @@
     ],
     "stock_us": [
       {
+        "id": "de38d794",
+        "title": "這家與人工智慧相關的公司股價今年已經翻倍近三倍，銀行集團Bank of America認為它仍有升值空間",
+        "url": "https://www.cnbc.com/2026/08/13/nebius-has-tripled-in-2026-but-it-can-rise-more-bank-of-america-says.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-08-13 10:45:56",
+        "summary_zh": "根據銀行集團Bank of America的分析，Nebius Group的第二季度財報表現強勁，預示著該公司未來股價的好走勢。這家公司與人工智慧有關，Bank of America認為它仍有升值空間。 Nebius Group的股價今年已經翻倍近三倍，Bank of America認為這是因為公司的業務持續增長，市場對該公司的看法正逐漸改善。 Bank of America的分析師認為，Nebius Group的財報表現是該公司業務持續增長的證據，市場對該公司的看法正逐漸改善。 Nebius Group的未來發展前景令人關注，Bank of America認為該公司仍有升值空間。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "d26ebc8e",
+        "title": "美股收盤：通膨緩解、科技股提振！標普創新高 台積電ADR上漲",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5539304",
+        "source": "自由時報財經",
+        "category": "stock_us",
+        "published_at": "Fri, 14 Aug 2026 06:02:54 +0800",
+        "summary_zh": "美股週四收盤呈正面走勢，受科技股和記憶體類股的推動，標普500指數創下收盤歷史新高，達到0.65%的上漲。道瓊工業指數上漲0.13%，達到69.72點。這種走勢與市場對通膨數據的預期相符，溫和的通膨數據使市場感到放心。台積電的ADR也上漲，科技股的提振對整體市場產生了正面影響。這種走勢預示著市場對未來的樂觀態度，但投資者仍需保持謹慎。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "ada8d723",
+        "title": "思科股價下跌：華爾街分析師關注毛利率壓力",
+        "url": "https://www.marketwatch.com/story/cisco-stock-falls-on-margin-concerns-heres-what-wall-street-analysts-are-saying-582e39fe?mod=mw_rss_topstories",
+        "source": "Marketwatch",
+        "category": "stock_us",
+        "published_at": "2026-08-13 10:28:00",
+        "summary_zh": "思科股價近期下跌，主要原因是分析師關注公司對人工智慧領域的投資可能會壓縮毛利率。人工智慧領域的快速發展被視為未來的重要趨勢，許多公司正在投資人工智慧技術以提升競爭力。然而，分析師認為，這些投資可能會導致公司的毛利率下降。毛利率是衡量公司盈利能力的重要指標，公司的毛利率下降可能會影響股價。分析師正在密切關注思科的財務表現，以了解公司是否能夠在投資人工智慧領域的同時維持高毛利率。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "4544916b",
+        "title": "美國金融監管機構高級官員離職加入融資科技公司Finalis",
+        "url": "https://www.reuters.com/legal/government/senior-us-market-watchdog-official-exits-join-dealmaking-fintech-finalis-2026-08-13/",
+        "source": "Reuters",
+        "category": "stock_us",
+        "published_at": "2026-08-13 10:16:09",
+        "summary_zh": "美國金融業監管機構（FINRA）市場調查副總裁史蒂文·普萊斯（Steven Price）宣布離職，轉任融資科技公司Finalis的首席合規官。根據路透社報導，普萊斯將於周四離職。這位高級官員在FINRA擔任市場調查副總裁一職超過 7 年，負責監督美國金融市場的交易和市場操控。他的離職將對美國金融監管機構帶來影響，尤其是在市場調查和監管方面。最終，普萊斯的加入將對Finalis的業務發展帶來新的動力和挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
         "id": "96038ca8",
         "title": "美金息率跌落，華爾街等待批發通膨數據",
         "url": "https://www.cnbc.com/2026/08/13/treasury-yields-wall-street-inflation-data.html",
@@ -932,18 +906,6 @@
         "ai_classified": true
       },
       {
-        "id": "922e1c88",
-        "title": "股市未見明顯波動，投資者等待通膨數據",
-        "url": "https://www.cnbc.com/2026/08/12/stock-market-today-live-updates.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-08-12 22:19:36",
-        "summary_zh": "美股未來發展備受關注，投資者正在等待通膨數據的最新報告。美國將於週四早上8:30分公佈生產者價格指數（PPI）的七月份數據，這個指數反映了供應商對原材料和商品的支付價格。投資者將密切關注這個數據，以了解通膨趨勢和未來經濟發展的方向。這項數據將對股市的走勢產生重要影響，投資者需要密切關注以做好準備。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "da737772",
         "title": "美國7月PPI年增4.7% 能源價格下跌助通膨放緩",
         "url": "https://www.cna.com.tw/news/aopl/202608130350.aspx",
@@ -951,6 +913,140 @@
         "category": "stock_us",
         "published_at": "Thu, 13 Aug 2026 22:09:34 +0800",
         "summary_zh": "美國政府公布的資料顯示，美國7月生產者物價指數（PPI）年增率為4.7%，較6月有所降溫。能源價格在7月較6月下跌，成為通膨放緩的主因。這一數據表明，美國經濟可能正逐步放緩通膨壓力。然而，仍需密切監測未來的經濟發展情況。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      }
+    ],
+    "ai": [
+      {
+        "id": "527ad981",
+        "title": "實踐後量子加密的途徑",
+        "url": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 13 Aug 2026 18:11:42 +0000",
+        "summary_zh": "量子計算在科技圈間曾被視為突破性的新興技術，但也被認為是過度炒作。然而，對於企業領袖來說，應該要清晰地看到，後量子加密（PQC）是一種可管理的演進，而不是一場危機。現今加密數位交易的數學基礎可能會被破壞，但這並不意味著企業必須立即採用新技術。事實上，許多企業已經開始研究和實踐後量子加密，為未來的數位交易做好準備。這項技術的發展將會對企業的數位安全性產生重大影響，企業應該要積極地參與和投資於此項研究。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "382a035e",
+        "title": "群眾反彈，警用科技巨頭Flock調整監控規則",
+        "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 13 Aug 2026 13:41:10 +0000",
+        "summary_zh": "警用科技巨頭Flock近日宣布，將調整其全國性車牌識別網絡的使用權限，試圖平息因大規模監控和警察濫權引起的反彈聲浪。這一決定是針對近期引起熱議的問題：Flock的監控系統被指有可能被濫用，導致民眾的隱私受到侵犯。Flock的新規定將限制警察對其監控系統的訪問權限，旨在防止警察濫權和保護民眾的隱私。這一舉動被視為Flock試圖贏回因為監控問題而失去的合同。然而，這一決定是否足以平息民眾的反彈聲浪，尚待觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "f83150c9",
+        "title": "人工智慧熱潮推動股市上漲，Anthropic籌措 600 億美元大案",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-08-13/ai-boom-drives-stocks-higher-as-anthropic-eyes-6-billion-deal",
+        "source": "Bloomberg",
+        "category": "ai",
+        "published_at": "2026-08-13 10:54:40",
+        "summary_zh": "人工智慧領域正經歷著一股熱潮， Anthropic 的 $6 億美元大案成為這波熱潮的最新代表。這家人工智慧公司正在籌措資金，以便與其他公司合併。這項交易將使 Anthropic 成為人工智慧領域的新玩家。這項交易的影響將遠超出 Anthropic 本身，將對整個人工智慧產業產生重大影響。這項交易的完成將使 Anthropic 擁有更多資源和技術，從而進一步推動人工智慧領域的發展。這項交易的完成將對整個產業產生重大影響，將使人工智慧領域的發展更加快速和持續。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "6c09900b",
+        "title": "下載：孩子們對人工智慧的看法，以及雄性老鼠的雌性複製體",
+        "url": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 13 Aug 2026 12:10:00 +0000",
+        "summary_zh": "人工智慧技術日益普及，對孩子們的影響也越來越大。Anyway雜誌的創辦人Jen Swetzoff和Keeley McNamara最近進行了一項調查，了解孩子們對人工智慧的看法。調查結果顯示，孩子們對人工智慧的看法各不相同，有些孩子覺得人工智慧很有趣，有些孩子則覺得人工智慧很令人擔憂。另外，研究人員也發現，雄性老鼠的雌性複製體可以用來研究人工智慧的應用。這項研究的結果可能對未來的人工智慧發展有所啟發。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "d5a89f92",
+        "title": "孩子們對人工智慧的看法，透過自己的話語",
+        "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+        "source": "MIT Tech Review",
+        "category": "ai",
+        "published_at": "Thu, 13 Aug 2026 09:00:00 +0000",
+        "summary_zh": "在與孩子們討論人工智慧時，我們想知道他們會說些什麼。然而，我們的預期並不完全符合實際情況。有些孩子坦承他們使用人工智慧來作弊，類似於前幾代人使用 CliffsNotes 或將公式輸入 TI-82。另一方面，有些孩子則分享了他們如何用人工智慧創造出令人驚嘆的作品。這些孩子的看法讓我們對未來充滿了希望。然而，我們也發現有些孩子對人工智慧的看法是非常消極的。這些孩子認為人工智慧會取代人類的工作，導致失業率上升。這些看法讓我們感到擔憂。因此，我們需要更加關注孩子們對人工智慧的看法，並且鼓勵他們對這個領域進行更多的探索和研究。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "da231860",
+        "title": "微軟 Copilot 的 Mico 人物不再是語音模式的代言人",
+        "url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-08-13T17:42:38-04:00",
+        "summary_zh": "微軟 Copilot 的語音模式不再會出現 Mico 這個有感情的黃色小球。根據微軟的支援頁面，Mico 將會被移到 Learn Live 平台，讓 Mico 可以有更多反應的機會。Mico 最初在 Copilot 的語音模式中推出，讓使用者可以與它互動。雖然微軟沒有明確表示 Mico 的功能會被取消，但這個變化可能會對使用者造成影響。許多人對於 Mico 的出現感到高興，認為它可以讓 Copilot 的語音模式更具人性化。然而，這個變化也可能會讓一些人感到失望。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "32bc4b8d",
+        "title": "OpenAI 第二位高管離職",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-08-13T15:28:39-04:00",
+        "summary_zh": "OpenAI 這週又有一位高管離職。 Denise Dresser 在去年 12 月加入 OpenAI 擔任首席收入官，曾擔任 Slack CEO。 Denise 表示，她將在未來幾周內離職，理由是「追求其他機會」。 Wiz 的總裁兼 COO Dali Rajic 將接替 Denise 的職位。 Denise 的離職是本週第二位 OpenAI 高管離職的消息。 Denise 的離職將對 OpenAI 的收入和業務發展造成影響。 未來如何發展仍待觀察。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "5907436e",
+        "title": "Suno 正在嘗試成為真正的音樂製作工具",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-08-13T12:00:00-04:00",
+        "summary_zh": "Suno 最近推出了 Studio 2.0 的重大升級，將其推向了真正的數字音頻工作站 (DAW) 的方向，而不是一款基本的音頻編輯器，具備生成 AI 功能。最大的新增功能無疑是 MIDI 支援。Suno 表示，MIDI 是最受歡迎的功能，對於任何現代 DAW 來說都是必不可少的。然而，與此同時，Suno 的 Studio 2.0 還面臨著一些挑戰。雖然 MIDI 支援是重要的功能，但它也使得 Suno 的軟體更加複雜，需要更高的系統需求。這可能會對部分使用者造成困擾。儘管如此，Suno 的 Studio 2.0 還是帶來了許多新的功能和改進，例如更好的音頻編輯功能和更強大的 AI 功能。這些改進將使得 Suno 的軟體更接近於一個真正的 DAW。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "e5256eb5",
+        "title": "我進入了人工智慧生成的電影，人氣最高的部分都是由人創作的",
+        "url": "https://www.theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-08-13T11:30:00-04:00",
+        "summary_zh": "近日，一部由人工智慧生成的電影引起了關注。該電影的故事設定在倫敦的一間髒亂的酒吧，描述三個英國年輕人在喝酒時幻想成為巨星。這些年輕人互相競爭，各自描繪出一系列更加閃亮的未來，幻想著自己成為巨星後能夠享受豪華生活。然而，這部電影最吸引人的地方其實是人工智慧生成的部分並不如人們想象的那樣出色，而是那些由人創作的部分更加引人入勝。這一點引起了對人工智慧生成內容的質疑，是否人工智慧能夠完全取代人類創作的能力？這一事件也讓人們開始思考人工智慧生成內容的真實價值。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "a7bd9dab",
+        "title": "谷歌是否還想在人工智慧競賽中勝出?",
+        "url": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-08-13T10:10:31-04:00",
+        "summary_zh": "近日，谷歌宣布重組其人工智慧部門Google DeepMind，引起了業界的關注。這次重組的背後原因，是否是谷歌在人工智慧競賽中已經落後？谷歌的首席科學家Jeff Dean將會負責領導新的組織結構。這次重組對於谷歌的競爭地位和未來發展方向，將會產生什麼影響？在這次重組的背後，谷歌是否仍然堅持在人工智慧競賽中勝出？",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "6b576d08",
+        "title": "微軟整合 Copilot 應用程式，預備「超級應用程式」",
+        "url": "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
+        "source": "The Verge AI",
+        "category": "ai",
+        "published_at": "2026-08-13T09:30:00-04:00",
+        "summary_zh": "微軟終於開始將其消費者和商業 Copilot 人工智慧助手整合為一個單一的「超級應用程式」界面，首先是 Copilot 和 Microsoft 365 Copilot 應用程式。個人和工作帳戶都將被移至新整合的應用程式中，這個應用程式重用了「微軟 Copilot」名稱，但具有更新的應用程式圖標。這個單一應用程式將為使用者提供更簡單的體驗，並且可以在任何地方存取 Copilot 功能。這項變革是為了讓使用者更容易地在工作和個人生活中使用 Copilot 功能。微軟正在努力將 Copilot 功能整合到更多應用程式中，以便使用者可以在任何地方存取這些功能。這項變革對於微軟的 Copilot 產品來說是一個重要的里程碑，標誌著公司正在努力將人工智慧整合到更多應用程式中。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
