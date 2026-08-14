@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-14T13:04:15.764621+08:00",
+  "generated_at": "2026-08-14T14:04:13.050858+08:00",
   "risk_signals": [
-    "🟢 台股加權 46043.78（正常）",
+    "🟢 台股加權 45811.01（正常）",
     "🟢 S&P 500 7798.99（正常）",
     "🟢 VIX 恐慌指數 14.63（正常）",
     "🟢 MOVE 債市波動 69.23（正常）",
-    "🟢 美元指數 99.87（正常）",
-    "🟢 黃金 4379.9（正常）",
+    "🟢 美元指數 99.85（正常）",
+    "🟢 黃金 4384.6（正常）",
     "🟡 美債10Y殖利率 4.64（留意）",
-    "🟢 原油 WTI 81.36（正常）",
-    "🟢 美元/台幣 31.99（正常）"
+    "🟢 原油 WTI 81.7（正常）",
+    "🟢 美元/台幣 31.95（正常）"
   ],
-  "ai_summary": "市場氛圍保持穩定，多個指標處於正常水準。然而，美債10年殖利率略微上升，值得關注。整體來說，市場仍持續穩健運行，投資者應保持警醒。",
+  "ai_summary": "市場氛圍保持穩定，多個指標維持正常水平，表明投資者仍然對全球經濟持樂觀態度。然而，美債10Y殖利率略微上漲，值得留意。",
   "market": {
     "TWII": {
-      "price": 46043.78,
-      "change_pct": 0.05
+      "price": 45811.01,
+      "change_pct": -0.46
     },
     "SP500": {
       "price": 7798.99,
@@ -38,25 +38,37 @@
       "change_pct": null
     },
     "DXY": {
-      "price": 99.87,
-      "change_pct": -0.09
+      "price": 99.85,
+      "change_pct": -0.11
     },
     "GOLD": {
-      "price": 4379.9,
-      "change_pct": -0.66
+      "price": 4384.6,
+      "change_pct": -0.55
     },
     "OIL": {
-      "price": 81.36,
-      "change_pct": -2.29
+      "price": 81.7,
+      "change_pct": -1.89
     },
     "USDTWD": {
-      "price": 31.99,
-      "change_pct": -0.67
+      "price": 31.95,
+      "change_pct": -0.79
     }
   },
   "macro": {},
   "categories": {
     "global": [
+      {
+        "id": "25c756c3",
+        "title": "日本歷史性大雨造成四人死亡",
+        "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Asia",
+        "category": "global",
+        "published_at": "Fri, 14 Aug 2026 04:54:13 GMT",
+        "summary_zh": "日本近日遭遇史無前例的大雨，造成四人死亡，超過 2 萬戶家庭斷電，另外 7,000 人被困在東京的成田機場。這場豪雨對日本的交通和生活造成了重大影響，許多地方的道路被淹水，交通秩序混亂。日本政府已經啟動應急措施，派遣救援隊伍前往受災區域，試圖幫助受影響的人民。這次大雨的來臨，讓日本人民感到驚訝和擔憂，同時也提醒大家應該對天氣預報和防災措施給予重視。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
       {
         "id": "71b41994",
         "title": "更多軍隊將前往以色列定居者圍困的西岸村莊",
@@ -70,18 +82,6 @@
         "ai_classified": true
       },
       {
-        "id": "9a5c9d2c",
-        "title": "美國指控數十國協助中國逃避川普關稅",
-        "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Fri, 14 Aug 2026 03:09:48 GMT",
-        "summary_zh": "根據美國最新報告，中國在與川普政府對壘的關稅戰中，透過與稅率較低的國家合作，將商品轉運至這些國家後再出口至美國，從而避免支付較高的關稅。這種做法被視為中國對抗美國關稅政策的一種策略。美國政府認為，這些國家的政府或企業與中國的合作，違反了美國對這些國家的貿易協定。美國政府將這種做法視為對美國國內工人和企業的不公平競爭。這份報告的發布，可能會加劇美中貿易關係的緊張局勢。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
         "id": "ef382bbf",
         "title": "五名加拿大冰球選手中四名仍遭停賽，雖然其中一名已獲復權",
         "url": "https://www.bbc.co.uk/news/articles/cj9dpdmr77do?at_medium=RSS&at_campaign=rss",
@@ -89,6 +89,18 @@
         "category": "global",
         "published_at": "Thu, 13 Aug 2026 14:51:44 GMT",
         "summary_zh": "加拿大冰球聯盟(Hockey Canada)近期發生一樁性侵案醜聞。五名加拿大冰球選手因涉嫌性侵犯一名女性而被停賽。雖然其中一名選手已經獲復權，但另外四名選手仍遭停賽。然而，停賽的四名選手已經獲得上訴委員會的支持，但委員會認為這五名選手都違反了冰球聯盟的行為守則。這樁事件引起了廣泛的關注和爭議，許多人批評冰球聯盟對性侵犯的處理不當。這樁事件也引起了對冰球聯盟行為守則和性侵犯處理的檢視。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "9a5c9d2c",
+        "title": "美國指控數十國協助中國逃避川普關稅",
+        "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "category": "global",
+        "published_at": "Fri, 14 Aug 2026 03:09:48 GMT",
+        "summary_zh": "根據美國最新報告，中國在與川普政府對壘的關稅戰中，透過與稅率較低的國家合作，將商品轉運至這些國家後再出口至美國，從而避免支付較高的關稅。這種做法被視為中國對抗美國關稅政策的一種策略。美國政府認為，這些國家的政府或企業與中國的合作，違反了美國對這些國家的貿易協定。美國政府將這種做法視為對美國國內工人和企業的不公平競爭。這份報告的發布，可能會加劇美中貿易關係的緊張局勢。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -125,18 +137,6 @@
         "category": "global",
         "published_at": "Thu, 13 Aug 2026 15:30:57 GMT",
         "summary_zh": "在北極熊棲息的地區，當地規定禁止無故打擾、吸引或追捕北極熊。近日，一名男子因使用霹靂炮喚醒睡眠的北極熊而被罰款。這名男子的行為違反了當地的規定，可能會對北極熊造成傷害。這個事件引起了關注，提醒人們保護北極熊的重要性。北極熊是極地生態系統中的重要物種，保護它們的生存環境是關鍵的。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "aa11e139",
-        "title": "愛爾蘭飛機失事遇難者家屬獲得2,900萬美元賠償",
-        "url": "https://www.bbc.co.uk/news/articles/ce85p80nn2yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC World",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 19:08:49 GMT",
-        "summary_zh": "美國芝加哥一名陪審團判決波音公司應該向愛爾蘭飛機失事遇難者家屬支付2,900萬美元賠償。這起案件是由遇難者Michael Ryan的寡婦Naoise Connolly Ryan提出的民事訴訟。事件背景是Michael Ryan在2018年12月21日乘坐波音737 MAX飛機時遇難。波音737 MAX飛機曾因多起事故而引起爭議。波音公司被指責其產品設計存在缺陷，導致多起事故發生。這起案件的判決對於波音公司的聲譽和財務有重大影響。波音公司將會面臨更多的法律訴訟和財務壓力。",
         "sentiment": "負面",
         "is_breaking": true,
         "ai_classified": true
@@ -238,18 +238,6 @@
         "ai_classified": true
       },
       {
-        "id": "8c0d9495",
-        "title": "仁川機場成為全球最繁忙的國際機場",
-        "url": "https://www.bbc.co.uk/news/articles/cr49p1279n0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Asia",
-        "category": "global",
-        "published_at": "Thu, 13 Aug 2026 05:49:22 GMT",
-        "summary_zh": "仁川機場在全球航空交通量中取得了突破性的成績，超越了倫敦希思羅機場，成為全球最繁忙的國際機場。根據仁川機場的說法，這是由於中東衝突導致的轉場安排幫助了其交通量的增長。倫敦希思羅機場排名第二。這項成就對仁川機場的發展和全球航空業的競爭格局都產生了重要影響。",
-        "sentiment": "正面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
         "id": "89dd3f06",
         "title": "剛果民主共和國埃博拉疫情迅速擴散至第六個省份",
         "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
@@ -295,6 +283,78 @@
         "category": "whitehouse",
         "published_at": "Thu, 13 Aug 2026 18:45:51 GMT",
         "summary_zh": "馬吉奧內面臨兩項聯邦跟蹤罪，最高刑罰為終身監禁無期。根據最新消息，馬吉奧內律師將會見聯邦檢察官，傳出可能有和解協議。這項消息引起了廣泛關注，許多人都在等待著馬吉奧內的下一步行動。馬吉奧內的律師將會與聯邦檢察官進行會談，探討可能的和解方案。這項會議的結果將對馬吉奧內的未來產生重大影響。馬吉奧內的案件引起了社會的關注，許多人都在關注著他的下一步行動。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "ffffa4a3",
+        "title": "BBC Verify 訪問一名拍下 ICE 代理人點槍的婦女",
+        "url": "https://www.bbc.co.uk/news/videos/c1m12m12nzzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 20:37:14 GMT",
+        "summary_zh": "BBC Verify 進行調查，檢視一名維吉尼亞州婦女分享的影片，內容中 ICE 代理人點槍指向她。這名婦女在社交媒體上分享了這段影片，引起了廣泛關注。根據她的描述，她與 ICE 代理人發生了衝突，代理人最終點槍指向她。BBC Verify 尋求了更多的資訊，但 ICE 代理人拒絕了採訪。這一事件引起了對 ICE 行為的爭議，許多人批評 ICE 代理人的行為是過度武力。這一事件也引起了對 ICE 的監督和管制的呼聲。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "71b4b36d",
+        "title": "肯尼迪中心董事會投票將川普的名字重新掛在建築上",
+        "url": "https://www.bbc.co.uk/news/articles/cn7n5l5xy5ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 22:21:36 GMT",
+        "summary_zh": "美國肯尼迪中心董事會在週四通過決議，將川普總統的名字重新掛在該中心建築上。這項決定是董事會在兩年內關閉該中心進行改建的前提下通過的。早前，聯邦法官曾阻止該中心進行改建。川普總統曾在2020年被肯尼迪中心董事會決定從建築上移除他的名字，理由是他參與了1月6日的國會大廈暴亂事件。該事件導致美國國會大廈遭到破壞。川普總統的名字在2020年被移除後，該中心的董事會一直在爭議中。該中心的董事會決定將川普總統的名字重新掛在建築上，意味著該中心將在未來兩年內關閉進行改建。這項決定將對該中心的運作產生重大影響。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "270e4730",
+        "title": "白宮新聞秘書卡羅琳·利維特可能被哪些人取代?",
+        "url": "https://www.bbc.co.uk/news/articles/c0l5273xjnlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 14:56:19 GMT",
+        "summary_zh": "白宮新聞秘書卡羅琳·利維特可能會被取代。這個職位需要管理與媒體的複雜關係，以及與川普的高期望。白宮新聞秘書是一個重要職位，負責與媒體溝通、處理新聞事件等。卡羅琳·利維特的取代可能會對白宮的形象和運作產生影響。川普對新聞秘書的期望很高，需要有人能夠滿足他的需求。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "40f231cc",
+        "title": "警車監控公司承認監控系統應該早點行動",
+        "url": "https://www.bbc.co.uk/news/articles/crrv1rjwgl9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 13:02:24 GMT",
+        "summary_zh": "美國警察部門因使用車牌識別攝影機跟蹤情侶而引發爭議，多名警察官員已經辭職。這起事件涉及一家名為Flock Safety的監控公司，其產品被許多美國警察部門使用。該公司的負責人承認，該公司應該早點採取行動來防止警察滥用監控系統。這起事件引發了對警察監控和個人隱私的關注。許多人認為，警察應該能夠信任公民，而不是對他們進行監控。這起事件也引發了對監控公司的責任和監管的問題。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "d898698b",
+        "title": "美國三人同日執行死刑，死刑數字在全國上升",
+        "url": "https://www.bbc.co.uk/news/articles/cn5n399n6zvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 13:27:00 GMT",
+        "summary_zh": "美國死刑執行的數字在全國上升，儘管有越來越多人反對死刑。這種情況下，美國某個州的死刑執行率居高不下。根據最新的數據，美國某州的死刑執行率居高不下，甚至超過其他州的平均數字。這種情況引起了許多人的關注，許多人認為這種情況是有問題的。許多人認為，死刑執行的數字應該降低，而不是上升。美國的死刑執行率一直是爭議的話題，許多人對此有不同的看法。",
+        "sentiment": "負面",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "66b4bfe5",
+        "title": "川普內閣成員在假飛機上等待，總統悄悄離開",
+        "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC North America",
+        "category": "whitehouse",
+        "published_at": "Thu, 13 Aug 2026 09:40:18 GMT",
+        "summary_zh": "在北約峰會期間，川普總統因伊朗安全問題而在土耳其轉乘另一架飛機。這使得他的內閣成員被留在另一架假飛機上等待。這一事件的具體原因尚未明確，但安全問題似乎是主要原因。這一行動可能是為了避免任何潛在的安全風險或威脅。這一事件也引發了對川普總統安全措施的關注。",
         "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
@@ -420,78 +480,6 @@
         "ai_classified": true
       },
       {
-        "id": "ffffa4a3",
-        "title": "BBC Verify 訪問一名拍下 ICE 代理人點槍的婦女",
-        "url": "https://www.bbc.co.uk/news/videos/c1m12m12nzzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 20:37:14 GMT",
-        "summary_zh": "BBC Verify 進行調查，檢視一名維吉尼亞州婦女分享的影片，內容中 ICE 代理人點槍指向她。這名婦女在社交媒體上分享了這段影片，引起了廣泛關注。根據她的描述，她與 ICE 代理人發生了衝突，代理人最終點槍指向她。BBC Verify 尋求了更多的資訊，但 ICE 代理人拒絕了採訪。這一事件引起了對 ICE 行為的爭議，許多人批評 ICE 代理人的行為是過度武力。這一事件也引起了對 ICE 的監督和管制的呼聲。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "71b4b36d",
-        "title": "肯尼迪中心董事會投票將川普的名字重新掛在建築上",
-        "url": "https://www.bbc.co.uk/news/articles/cn7n5l5xy5ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 22:21:36 GMT",
-        "summary_zh": "美國肯尼迪中心董事會在週四通過決議，將川普總統的名字重新掛在該中心建築上。這項決定是董事會在兩年內關閉該中心進行改建的前提下通過的。早前，聯邦法官曾阻止該中心進行改建。川普總統曾在2020年被肯尼迪中心董事會決定從建築上移除他的名字，理由是他參與了1月6日的國會大廈暴亂事件。該事件導致美國國會大廈遭到破壞。川普總統的名字在2020年被移除後，該中心的董事會一直在爭議中。該中心的董事會決定將川普總統的名字重新掛在建築上，意味著該中心將在未來兩年內關閉進行改建。這項決定將對該中心的運作產生重大影響。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "270e4730",
-        "title": "白宮新聞秘書卡羅琳·利維特可能被哪些人取代?",
-        "url": "https://www.bbc.co.uk/news/articles/c0l5273xjnlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 14:56:19 GMT",
-        "summary_zh": "白宮新聞秘書卡羅琳·利維特可能會被取代。這個職位需要管理與媒體的複雜關係，以及與川普的高期望。白宮新聞秘書是一個重要職位，負責與媒體溝通、處理新聞事件等。卡羅琳·利維特的取代可能會對白宮的形象和運作產生影響。川普對新聞秘書的期望很高，需要有人能夠滿足他的需求。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "40f231cc",
-        "title": "警車監控公司承認監控系統應該早點行動",
-        "url": "https://www.bbc.co.uk/news/articles/crrv1rjwgl9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 13:02:24 GMT",
-        "summary_zh": "美國警察部門因使用車牌識別攝影機跟蹤情侶而引發爭議，多名警察官員已經辭職。這起事件涉及一家名為Flock Safety的監控公司，其產品被許多美國警察部門使用。該公司的負責人承認，該公司應該早點採取行動來防止警察滥用監控系統。這起事件引發了對警察監控和個人隱私的關注。許多人認為，警察應該能夠信任公民，而不是對他們進行監控。這起事件也引發了對監控公司的責任和監管的問題。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "d898698b",
-        "title": "美國三人同日執行死刑，死刑數字在全國上升",
-        "url": "https://www.bbc.co.uk/news/articles/cn5n399n6zvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 13:27:00 GMT",
-        "summary_zh": "美國死刑執行的數字在全國上升，儘管有越來越多人反對死刑。這種情況下，美國某個州的死刑執行率居高不下。根據最新的數據，美國某州的死刑執行率居高不下，甚至超過其他州的平均數字。這種情況引起了許多人的關注，許多人認為這種情況是有問題的。許多人認為，死刑執行的數字應該降低，而不是上升。美國的死刑執行率一直是爭議的話題，許多人對此有不同的看法。",
-        "sentiment": "負面",
-        "is_breaking": true,
-        "ai_classified": true
-      },
-      {
-        "id": "66b4bfe5",
-        "title": "川普內閣成員在假飛機上等待，總統悄悄離開",
-        "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC North America",
-        "category": "whitehouse",
-        "published_at": "Thu, 13 Aug 2026 09:40:18 GMT",
-        "summary_zh": "在北約峰會期間，川普總統因伊朗安全問題而在土耳其轉乘另一架飛機。這使得他的內閣成員被留在另一架假飛機上等待。這一事件的具體原因尚未明確，但安全問題似乎是主要原因。這一行動可能是為了避免任何潛在的安全風險或威脅。這一事件也引發了對川普總統安全措施的關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
         "id": "57b0f877",
         "title": "大轉運詐騙案",
         "url": "https://www.whitehouse.gov/releases/2026/08/the-great-transshipment-scam/",
@@ -530,6 +518,18 @@
         "ai_classified": true
       },
       {
+        "id": "35d5992f",
+        "title": "人工智慧已經揭開了網路安全的大隱患",
+        "url": "https://www.ft.com/content/c78f18d3-fd4f-47ee-b34b-e5bdaa2fb9c6?syn-25a6b1a6=1",
+        "source": "Financial Times",
+        "category": "ai",
+        "published_at": "2026-08-13 17:14:07",
+        "summary_zh": "人工智慧技術已經被廣泛應用在各個領域，但同時也揭開了網路安全的隱患。人工智慧技術的發展使得黑客可以更容易地發動攻擊，造成更大的損害。因此，防禦措施的投資已經成為迫切需要的問題。雖然仍然可以通過教育和培訓來提高網路安全意識，但防禦措施的投資仍然是必需的。這樣才能夠有效地應對人工智慧技術帶來的網路安全風險。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "5907436e",
         "title": "Suno 正在嘗試成為真正的音樂製作工具",
         "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
@@ -566,18 +566,6 @@
         "ai_classified": true
       },
       {
-        "id": "c486a4e7",
-        "title": "歐洲人工智慧貿易銀行賴仟在落後者之利",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-08-13/europe-s-ai-trade-banks-on-a-late-mover-advantage",
-        "source": "Bloomberg",
-        "category": "ai",
-        "published_at": "2026-08-13 16:02:34",
-        "summary_zh": "人工智慧貿易銀行正迅速發展，歐洲企業正嘗試利用落後者之利，通過投資人工智慧技術來擴大業務。這項趨勢表明，歐洲企業正在努力與美國和亞洲企業競爭，爭取在全球人工智慧市場中佔據重要地位。人工智慧貿易銀行的興起，將會對全球金融市場產生重大影響，可能會改變銀行業的運營模式和風險管理策略。歐洲企業的投資人工智慧技術，將會使其在全球金融市場中更加競爭力強大。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
         "id": "6b576d08",
         "title": "微軟整合 Copilot 應用程式，預備「超級應用程式」",
         "url": "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
@@ -598,30 +586,6 @@
         "published_at": "2026-08-13 15:30:16",
         "summary_zh": "Cerebras Systems CEO兼創辦人Andrew Feldman在CNBC節目『Squawk on the Street』中接受訪談，討論公司最新財報、成長戰略、人工智慧晶片需求等。Cerebras Systems是一家專注於人工智慧晶片研發的公司，近期財報表現亮眼，股價大幅上漲。Andrew Feldman在訪談中表示，公司的成長戰略是通過持續研發新技術和擴大客戶基礎，同時也面臨著競爭對手的挑戰。人工智慧晶片需求的增長，也對公司的業務發展產生了重要影響。整體來說，Cerebras Systems的未來發展前景看好，但也面臨著多重挑戰。",
         "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "eddfde9c",
-        "title": "OpenAI bổ nhiệm新財務總監僅一年內",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-13/openai-hires-new-chief-revenue-officer-after-less-than-a-year",
-        "source": "Bloomberg",
-        "category": "ai",
-        "published_at": "2026-08-13 15:55:22",
-        "summary_zh": "人工智慧公司OpenAI宣布，新任財務總監將於不久之後加入公司。這位新任財務總監將負責公司的收入管理，旨在為公司的快速發展提供財務支持。這項任命是公司在短短一年內的一項重要步驟，表明公司對於財務管理的重視。然而，公司並未披露新任財務總監的身份和背景。這項任命將對公司未來的發展方向產生重大影響，值得關注。",
-        "sentiment": "中性",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "8f9f2c3c",
-        "title": "Cerebras Systems CEO Andrew Feldman 就 Q2 業績表現: '我們對結果感到很驕傲'",
-        "url": "https://www.cnbc.com/video/2026/08/13/cerebras-ceo-andrew-feldman-on-q2-earnings.html",
-        "source": "Cnbc",
-        "category": "ai",
-        "published_at": "2026-08-13 15:29:20",
-        "summary_zh": "Cerebras Systems 的 CEO 和共同創辦人 Andrew Feldman 在 'Squawk on the Street' 中討論了最新的業績報告、公司的成長策略、人工智慧晶片需求等。根據 Cerebras Systems 的 Q2 業績報告，公司的收入和利潤都達到預期，顯示出公司在人工智慧晶片市場的競爭力。 Feldman 表示，公司的成長策略是通過開發高性能人工智慧晶片來滿足市場需求，同時也致力於推動人工智慧技術的發展。然而，人工智慧晶片的需求對於公司的業績表現有著重要影響，Feldman 表示，公司正努力滿足市場的需求，同時也致力於推動人工智慧技術的發展。",
-        "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
       },
@@ -676,6 +640,42 @@
     ],
     "stock_tw": [
       {
+        "id": "236cf8c9",
+        "title": "台股失守4萬6！晶圓雙雄、被動元件翻車 指數收跌210點",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5539402",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 14 Aug 2026 13:53:50 +0800",
+        "summary_zh": "台股在週五的交易中出現了下跌，指數收跌210點，失守4萬6的關卡。晶圓雙雄和被動元件股都受到影響，表現不佳。與此同時，亞洲其他市場則表現出強勁的反彈，韓股漲近3%，日經則漲逾1200點，站上6萬9。台股的下跌可能與南亞科和華邦電等記憶體股的表現有關，這些股都在週五的交易中表現出上漲的趨勢。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
+        "id": "b6b632b7",
+        "title": "42歲媽媽在廚房打造副業 半年營收拚100萬",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5539356",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 14 Aug 2026 13:49:21 +0800",
+        "summary_zh": "麥克達菲是一名42歲的媽媽，她原本經營食譜網站和出版食譜書，但她覺得自製沙拉醬太麻煩。2024年，她與表姊共同推出沙拉醬粉，創造了一個新的副業機會。半年內，她的營收已經達到百萬元的目標。這個故事表明，即使在中年後，也可以通過創業和創新來實現財富自由。麥克達菲的成功也鼓勵了其他人追求自己的夢想和創業理念。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "e574ef9b",
+        "title": "75歲翁存款600萬卻極端省錢　拒開冷氣只吃泡麵　下場曝光",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5539334",
+        "source": "自由時報財經",
+        "category": "stock_tw",
+        "published_at": "Fri, 14 Aug 2026 13:13:58 +0800",
+        "summary_zh": "日本一名75歲的老翁佐藤正雄擁有3000萬日圓的存款，每月領取18萬日圓的年金。然而，他卻因為擔憂老後生活與物價上漲，長年過著極端省錢的生活。佐藤正雄拒絕開冷氣，僅吃泡麵，甚至將家中的家電和家具都賣掉。他的極端省錢行為引起了社會的關注。分析指出，佐藤正雄的行為可能是由於過度擔憂老後生活的結果。專家表示，老年人應該盡量享受生活，而不是過著極端省錢的生活。佐藤正雄的下場曝光後，社會對極端省錢的生活方式進行了反思。",
+        "sentiment": "負面",
+        "ai_classified": true,
+        "is_breaking": true
+      },
+      {
         "id": "af7186ba",
         "title": "光聚晶電Q2、上半年獲利虧轉盈 法人看全年營收挑戰120億元",
         "url": "https://ec.ltn.com.tw/article/breakingnews/5539688",
@@ -684,8 +684,8 @@
         "published_at": "Fri, 14 Aug 2026 12:45:11 +0800",
         "summary_zh": "光聚晶電在2026年第二季度公布財報，表現出令人振奮的業績。公司的稅後淨利在第二季度達到逾5800萬元，單季EPS達到0.58元。這使得公司在上半年的稅後淨利達到4000萬元。光聚晶電的這一轉變，讓人們對公司未來的前景充滿希望。公司的法人表示，公司將會挑戰今年的營收達到120億元。這一目標表明公司對未來的信心和決心。光聚晶電的業績表現和未來的目標，讓人們對公司的發展充滿期待。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "4a440b69",
@@ -696,8 +696,8 @@
         "published_at": "Fri, 14 Aug 2026 12:43:25 +0800",
         "summary_zh": "群聯科技因高頻寬記憶體供應吃緊，且大幅漲價，可能導致AI伺服器採用的記憶體「降規」。此外，傳出輝達新一代Rubin Ultra繪圖處理器（GPU）的記憶體容量可能降低。這些消息導致群聯股價跳水，急殺逼近跌停。分析師認為，這些消息對群聯的影響可能持續，股價可能繼續下跌。群聯的未來發展將取決於公司的應對措施和市場的反應。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "aabbad19",
@@ -708,8 +708,8 @@
         "published_at": "Fri, 14 Aug 2026 12:41:32 +0800",
         "summary_zh": "近年來，不少退休族選擇賣掉透天厝搬進公寓大樓，希望讓退休生活更輕鬆。然而，退休夫婦在搬進公寓後，卻發現一些原本沒有察覺到的問題。透天厝的空間雖然大，但公寓的生活成本卻高於想像。另外，公寓的噪音和人潮也讓退休夫婦感到不適。這些問題讓退休夫婦感到後悔，認為賣掉透天厝的決定可能不是最佳選擇。退休夫婦的經歷提醒我們，退休生活的選擇應該謹慎考慮，不能單純地追求物質上的便利。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "914f3ed6",
@@ -720,8 +720,8 @@
         "published_at": "Fri, 14 Aug 2026 11:48:54 +0800",
         "summary_zh": "中國晶片大廠長江存儲在全球NAND快閃記憶體市場展現強勁爆發力，根據Counterpoint Research最新數據，該公司第2季出貨量以14%的市佔率躍居全球第三。長江存儲的快速崛起使得全球記憶體市場大洗牌，美光和鎧俠的市佔率也受到了影響。這一發展對於全球記憶體供應鏈和市場格局都有重要影響。市場分析師認為，長江存儲的崛起是由於其優異的產品質量和競爭力的優勢所致。然而，這一發展也引發了對於中國晶片產業的關注和疑慮。中國政府對於晶片產業的支持和投資也成為了市場關注的焦點。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "c6fcc53d",
@@ -732,8 +732,8 @@
         "published_at": "Fri, 14 Aug 2026 11:43:17 +0800",
         "summary_zh": "南韓股市今年在AI與半導體熱潮帶動下一度狂飆，吸引了不少散戶投資。然而，單一股票槓桿ETF也讓不少散戶慘遭重創。為了防止散戶投資風險，南韓監管機構決定收緊規定，提高最低現金存款門檻至3倍。這意味著散戶如果沒有通過模擬交易，將無法購買這類型的ETF。這一措施旨在防止散戶投資過度風險，保護投資者權益。然而，這也可能會限制散戶的投資選擇，影響市場競爭力。南韓股市的未來發展如何，仍待觀察。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "b7d55967",
@@ -743,18 +743,6 @@
         "category": "stock_tw",
         "published_at": "Fri, 14 Aug 2026 11:37:28 +0800",
         "summary_zh": "崇越電股價今日開高走高，盤中強勢攻上漲停價83.9元，距離收復半年線僅一步之遙。截至上午11時21分，成交量2431張，漲停委買張數超過52萬張。崇越電的股價表現引起市場關注，投資者紛紛關注其未來走勢。然而，市場也存在一定的風險，投資者需要謹慎評估。崇越電的亮燈漲停表明市場對其有信心，但仍需要觀察其後續發展。",
-        "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "14607d5c",
-        "title": "亞股狂歡！日經飆逾1200點站上6萬9 韓股漲近3％",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5539346",
-        "source": "自由時報財經",
-        "category": "stock_tw",
-        "published_at": "Fri, 14 Aug 2026 10:56:26 +0800",
-        "summary_zh": "亞股週五持續狂歡，受通膨緩解和科技股提振的影響，韓股漲近3%，指數重返7000點。日經則飆逾1200點，站上6萬9。記憶體類股及其相關產業的股價大幅上漲，科技股也受益於市場的正面情緒。這些因素共同推動亞股的上漲，展現出市場對未來的樂觀態度。然而，市場的波動性仍然很高，投資者需要保持警惕。",
         "sentiment": "正面",
         "is_breaking": false,
         "ai_classified": true
@@ -854,8 +842,68 @@
         "published_at": "2026-08-13 16:28:49",
         "summary_zh": "美國前總統特朗普近期發起了一項名為「私掠戰略」的計畫，旨在與企業界合作，共同抗擊網路犯罪。這項計畫的靈感來自於美國獨立戰爭時期的「私掠戰略」，該戰略是指政府與民間企業合作，雇用民間船隻和船員來對抗敵軍。特朗普的計畫同樣是將民間企業的資源與美國政府的力量結合起來，共同對抗網路犯罪。這項計畫的影響將是對網路犯罪的打擊力度增強，並且企業界也將有機會參與到國家安全的工作中。然而，這項計畫的具體細節仍待觀察，是否能夠有效地打擊網路犯罪還需要時間來證實。",
         "sentiment": "中性",
+        "is_breaking": true,
+        "ai_classified": true
+      },
+      {
+        "id": "efc860ff",
+        "title": "加拿大政府消息人士稱美國也渴望在8月19日前達成貿易協議",
+        "url": "https://www.reuters.com/world/canada-government-source-says-us-also-keen-trade-deal-before-aug-19-deadline-2026-08-13/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-08-13 17:41:19",
+        "summary_zh": "加拿大政府消息人士表示，加拿大和美國雙方都希望在8月19日前達成貿易協議。這項消息出自加拿大政府的一位消息人士，該人士透露，雙方正在努力達成協議，避免貿易談判延遲。根據消息人士的說法，加拿大和美國雙方都認為，達成協議對雙方的經濟都有利。這項消息出現於加拿大政府與美國政府之間的貿易談判的關鍵時刻。加拿大政府的消息人士表示，加拿大和美國雙方都願意做出必要的讓步，以便達成協議。然而，消息人士也表示，達成協議的過程仍然面臨著挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "cb99b7ef",
+        "title": "朋友的喪禮教會了我什麼關於金錢的道理",
+        "url": "https://www.reuters.com/markets/on-the-money/what-my-friends-funeral-taught-me-about-money-2026-08-13/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-08-13 17:30:00",
+        "summary_zh": "朋友的喪禮讓我深刻體會到金錢的重要性。當朋友去世時，我們的社交媒體上充滿了對他的悼念和懷念。然而，當我們開始處理他的財產時，我們才發現他的財務狀況並不理想。這個經歷讓我思考，我們往往把金錢的重要性放在了後面，而忽略了它對我們生活的影響。金錢不僅僅是用於買東西和支付帳單，它還能給我們帶來安全感和自由。然而，我們往往把金錢的重要性放在了後面，直到我們面臨著財務困難時才開始重視它。這個經歷讓我明白，我們應該對金錢有更好的管理和預算，才能在未來的生活中更好地應對挑戰。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "12ea1b33",
+        "title": "購買者需謹慎：新型ETF的潛在風險",
+        "url": "https://www.ft.com/content/9f299fc0-b3ed-4a60-b228-9b2cc097f222?syn-25a6b1a6=1",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-08-13 17:29:38",
+        "summary_zh": "近期出現了許多新型Exchange Traded Funds（ETF），這些ETF通常具有高杠杆和監管不夠嚴格的特點，可能會使個人投資者和整個市場面臨更大的風險。高杠杆ETF的風險在於，如果市場走向不利，投資者可能會遭受重大損失。另一方面，監管不夠嚴格的ETF可能會導致投資者無法得到充分的資訊和保護。這些風險對個人投資者和整個市場都構成了威脅，投資者應該謹慎地評估這些新型ETF的風險並做出明智的投資決策。",
+        "sentiment": "負面",
         "ai_classified": true,
         "is_breaking": true
+      },
+      {
+        "id": "7bb338ef",
+        "title": "這家獨特的電力公司是 Anthropic IPO 的一種玩法，銀行集團 Bank of America 說它還有很大的發展空間",
+        "url": "https://www.cnbc.com/2026/08/13/this-unique-power-company-is-a-play-on-the-anthropic-ipo-bank-of-america-says-it-has-room-to-run.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-08-13 17:13:20",
+        "summary_zh": "ERock 是一家專門開發可調整的氣體發電機的公司，這些發電機正因為人工智慧的快速發展而被廣泛需求。根據銀行集團 Bank of America 的分析，ERock 的業務仍有很大的發展空間。這家公司的業務模式與 Anthropic 的 IPO 有相似之處，兩者都關注人工智慧的快速發展帶來的新機會。Bank of America 的分析認為，ERock 的業務將繼續受益於人工智慧的快速發展，公司的股價有很大的發展空間。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b6a7432c",
+        "title": "風能產業復甦速度加快",
+        "url": "https://www.ft.com/content/4acd29fb-3e64-4474-a116-1cd50f6e9dae?syn-25a6b1a6=1",
+        "source": "Financial Times",
+        "category": "finance",
+        "published_at": "2026-08-13 17:04:41",
+        "summary_zh": "風能產業近年來經歷了不少挑戰，但近期卻看到了復甦的跡象。這種復甦不僅是由於商業和戰略考量的改善，也是由於投資人對風能的信心增強。投資人開始重新關注風能的潛力，尤其是在減少碳排放和應對氣候變化的背景下。風能產業的復甦對於減少對化石燃料的依賴以及促進可再生能源的發展具有重要意義。然而，風能產業仍面臨著許多挑戰，包括投資成本、基礎設施建設和政策支持等問題。風能產業的復甦將對全球能源市場產生重大影響，投資人和政策制定者都應該密切關注這一趨勢。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
       },
       {
         "id": "bfbd0e44",
@@ -865,6 +913,30 @@
         "category": "finance",
         "published_at": "2026-08-13 16:08:09",
         "summary_zh": "英格蘭銀行首席經濟學家 Huw Pill 表示，英國經濟增長強勁超出預期，進一步支持提高利率以控制通膨回歸目標。英國經濟增長的強勁表現，讓英格蘭銀行有理由提高利率，以防止通膨過高。這是英國經濟增長的好消息，但也可能導致利率上升，對消費者和企業造成影響。英格蘭銀行的決定將對英國經濟產生重大影響，需要密切關注。",
+        "sentiment": "中性",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "193f7cd1",
+        "title": "中國國有企業CMRG要求部分交易商在其平台購買鐵礦石",
+        "url": "https://www.reuters.com/world/asia-pacific/chinas-state-owned-cmrg-asks-some-traders-buy-iron-ore-its-platform-sources-say-2026-08-13/",
+        "source": "Reuters",
+        "category": "finance",
+        "published_at": "2026-08-13 17:01:43",
+        "summary_zh": "根據來源，中國國有企業CMRG要求部分交易商在其平台購買鐵礦石。這一舉動可能是中國政府試圖控制鐵礦石市場供應鏈。鐵礦石是鋼鐵生產的重要原材料，中國是全球最大的鐵礦石消費國。這一要求可能會對全球鐵礦石市場產生影響，特別是在中國的鐵礦石需求量大於供應量的情況下。中國政府通過控制鐵礦石市場來實現其經濟政策的目標。這一舉動可能會對全球經濟產生影響，特別是在鋼鐵產業方面。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "daae435b",
+        "title": "午市最大漲跌股：Netflix、Super Micro Computer、Sandisk、StubHub等",
+        "url": "https://www.cnbc.com/2026/08/13/stocks-making-the-biggest-moves-midday-nflx-smci-sndk-stub.html",
+        "source": "Cnbc",
+        "category": "finance",
+        "published_at": "2026-08-13 17:00:17",
+        "summary_zh": "午市交易中，Netflix、Super Micro Computer、Sandisk、StubHub等公司引起了投資者的關注。這些公司的股價在午市交易中出現了明顯的波動，投資者們正在密切關注這些公司的動向。其中，Netflix 的股價在午市交易中出現了顯著的上漲，而 Super Micro Computer 的股價則出現了明顯的下跌。投資者們需要密切關注這些公司的財務報表和未來發展方向，以便做出明智的投資決策。",
         "sentiment": "中性",
         "ai_classified": true,
         "is_breaking": false
@@ -878,71 +950,35 @@
         "published_at": "2026-08-13 16:58:34",
         "summary_zh": "房屋短缺問題在美國加劇，導致住房公積金抵押券市場急速成長。為了釋放資金用於新貸款，貸款機構正在將多層住宅抵押貸款組合包裝成抵押券。這種做法能夠釋放資金，同時為貸款機構提供新的貸款機會。然而，這也引發了對房屋短缺問題的擔憂，是否能夠滿足日益增加的房屋需求。房屋短缺問題已經成為美國的一個重大挑戰，需要政府和貸款機構共同努力來解決。",
         "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "d3588331",
-        "title": "OpenAI 收入主管 Denise Dresser 辭職，連日內第二位高管離職",
-        "url": "https://www.cnbc.com/2026/08/13/openai-denise-dresser-executive-exits.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-08-13 16:26:59",
-        "summary_zh": "OpenAI 的收入主管 Denise Dresser 突然辭職，這可能對 OpenAI 的即將來臨的巨型 IPO 造成重大打擊。這是連日內第二位高管離職的案例，之前已經有另一位高管辭職。OpenAI 的 IPO 是近期備受關注的話題，公司正試圖籌措資金來實現其業務目標。 Denise Dresser 的離職可能會對公司的財務規劃和未來發展產生影響。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "bc2bd5c3",
-        "title": "債券市場預示股市將出現困難",
-        "url": "https://www.cnbc.com/2026/08/13/the-bond-market-is-signaling-trouble-ahead-for-stocks.html",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-08-13 16:03:05",
-        "summary_zh": "根據Jefferies的分析，目前實際收益率升高可能意味著股市未來回報率將不佳。實際收益率是指實際投資回報率，包括利息收入和股價變動。升高的實際收益率通常表明投資者對股市的信心下降，從而導致股價下跌。這種情況下，投資者可能會將資金轉移到債券市場，尋求較穩定的收益。因此，升高的實際收益率可能是股市未來回報率不佳的信號。這種情況對股市投資者來說是有影響的，投資者需要密切關注實際收益率的變化，以做出適當的投資決策。",
-        "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
-      },
-      {
-        "id": "a82aa04e",
-        "title": "CNBC Select 週刊房屋貸款利率快照：今天你有哪些選擇",
-        "url": "https://www.cnbc.com/select/mortgage-rates/",
-        "source": "Cnbc",
-        "category": "finance",
-        "published_at": "2026-08-13 16:01:01",
-        "summary_zh": "根據房利美（Freddie Mac）最新數據，截至 8 月 13 日房屋貸款利率有所調整。這意味著房屋購買者或房屋持有人有更多選擇。房屋貸款利率的變化對房屋市場有著重要影響，購買者或房屋持有人需要考慮這些變化來做出明智的決定。房屋貸款利率的變化也會對房屋市場的未來發展產生影響，需要密切關注。房屋貸款利率的調整對房屋市場的影響將持續存在，房屋購買者或房屋持有人需要保持警覺。",
-        "sentiment": "中性",
-        "ai_classified": true,
-        "is_breaking": false
-      },
-      {
-        "id": "4a5dbb68",
-        "title": "AMD 計劃發行 400 億至 500 億美元債券，來源稱",
-        "url": "https://www.reuters.com/technology/amd-looks-raise-4-billion-5-billion-debt-offering-source-says-2026-08-13/",
-        "source": "Reuters",
-        "category": "finance",
-        "published_at": "2026-08-13 16:00:50",
-        "summary_zh": "AMD 正在籌劃發行 400 億至 500 億美元的債券，來源稱。這將是 AMD 近期的一項重要財務行動，旨在籌措資金應對未來的業務發展。 AMD 的債券發行將對公司的財務狀況產生重大影響，同時也將對市場的預期和投資者造成重要影響。這項行動的成功將取決於市場的反應和投資者的參與。目前尚未有更多的細節被披露，公司將在未來的公告中提供更多的資訊。",
-        "sentiment": "中性",
         "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "c1f7b117",
-        "title": "美國指控超過40國協助中國避稅",
-        "url": "https://www.ft.com/content/5d5ed2dd-8326-4cad-aac3-5816448ceccf?syn-25a6b1a6=1",
-        "source": "Financial Times",
-        "category": "finance",
-        "published_at": "2026-08-13 15:55:56",
-        "summary_zh": "美國白宮指出，加拿大、日本、歐盟等多國協助中國避免川普政府的關稅，涉及超過60億美元的貿易。白宮稱這是一種「轉運詐騙」，讓中國的商品通過這些國家轉運，進而避免美國的關稅。這項指控引發了對全球貿易的關注，同時也使得美中貿易摩擦再次升級。",
-        "sentiment": "負面",
-        "is_breaking": true,
         "ai_classified": true
       }
     ],
     "stock_us": [
+      {
+        "id": "55196e76",
+        "title": "克拉默推薦32隻股票，包括5隻買入的首選股",
+        "url": "https://www.cnbc.com/2026/08/13/heres-a-rapid-fire-update-on-our-32-stock-portfolio-including-cramers-5-favorites-to-buy.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-08-13 17:53:51",
+        "summary_zh": "知名投資家克拉默近期的投資重點包括三家晶片製造商和一家運輸巨頭。根據最新消息，克拉默的投資組合中包括了32隻股票，其中5隻被他視為購買的首選股。其中三家晶片製造商包括了知名的半導體公司，運輸巨頭則是全球知名的運輸公司。克拉默的投資組合表明他對於晶片製造商和運輸業有著正面的看法，預計這些公司將在未來的市場中表現出色。然而，投資市場的風險和不確定性仍然存在，投資者需要謹慎評估風險並做出明智的決定。",
+        "sentiment": "正面",
+        "ai_classified": true,
+        "is_breaking": false
+      },
+      {
+        "id": "b847420d",
+        "title": "剩餘今年的能源重頭戲... 包括一項 '自用電' 的投資機會",
+        "url": "https://www.cnbc.com/2026/08/13/top-energy-plays-for-the-rest-of-the-year-including-a-behind-the-meter-power-play.html",
+        "source": "Cnbc",
+        "category": "stock_us",
+        "published_at": "2026-08-13 17:08:24",
+        "summary_zh": "近日，能源市場正面臨著一系列的變化，包括 '自用電' 的趨勢。這項趨勢指的是企業和家庭自行生產電力的能力。為了了解這一趨勢，我們與一家領導這一趨勢的公司的 CEO 進行了對話。這家公司正在推動 '自用電' 的發展，為企業和家庭提供自行生產電力的解決方案。這項趨勢對能源市場的影響將是什麼？企業和家庭是否會開始自行生產電力？這些問題將在未來的時間中逐步浮現。目前，能源市場正面臨著一系列的挑戰，包括氣候變化和能源安全。 '自用電' 的趨勢可能會成為能源市場的未來發展方向。",
+        "sentiment": "中性",
+        "ai_classified": true,
+        "is_breaking": false
+      },
       {
         "id": "c2e4052d",
         "title": "SanDisk 股票大幅上升，華爾街的目標值出爐！",
@@ -952,8 +988,20 @@
         "published_at": "2026-08-13 16:58:00",
         "summary_zh": "SanDisk 進一步預測公司的收入增長，將持續到十年末。該公司預計將維持高利潤率，華爾街投資者對此感到興奮。這項預測顯示 SanDisk 將繼續在記憶體芯片領域佔據重要地位，投資者對公司未來發展充滿信心。然而，這也意味著市場將對公司的業績表現施加更高的壓力。",
         "sentiment": "正面",
+        "is_breaking": false,
+        "ai_classified": true
+      },
+      {
+        "id": "04dd9f54",
+        "title": "底特律車廠警告：美墨加貿易協定修改 美車廠恐損失數十億",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5539347",
+        "source": "自由時報財經",
+        "category": "stock_us",
+        "published_at": "Fri, 14 Aug 2026 12:57:20 +0800",
+        "summary_zh": "美國底特律汽車製造商對川普政府提出的北美貿易協定修改表示關注，認為這可能會使美國車廠損失數十億美元，並損害競爭力。根據《路透》報導，美國汽車業者正在努力理解去年政府的新規定。這項協定修改可能會對美國汽車業造成重大影響，包括增加生產成本和限制出口。美國汽車業者正在與政府磋商，以試圖減少這些影響。這項協定修改的結果，將對美國汽車業的競爭力和生產成本產生重大影響。",
+        "sentiment": "負面",
         "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": true
       },
       {
         "id": "69549752",
@@ -964,8 +1012,8 @@
         "published_at": "2026-08-13 16:42:17",
         "summary_zh": "Luigi Mangione 將在聯邦法院面臨跟蹤案罪的起訴，另有案件指控他在 2024 年 12 月殺害 UnitedHealthcare CEO Brian Thompson。根據消息，Mangione 預計將承認犯下聯邦跟蹤案罪。這起案件的背景是 Mangione 對 UnitedHealthcare CEO Brian Thompson 的跟蹤行為，導致了 Thompson 的死亡。這起案件的關鍵細節是 Mangione 對 Thompson 的跟蹤行為，包括 Mangione 對 Thompson 的持續跟蹤和威脅。這起案件的影響分析是，Mangione 的行為對 Thompson 和他的家人造成了嚴重的影響，導致了 Thompson 的死亡。後續展望是，Mangione 將面臨聯邦法院的審判，並可能受到嚴厲的懲罰。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "e0a1d123",
@@ -976,8 +1024,8 @@
         "published_at": "2026-08-13 16:26:14",
         "summary_zh": "里克卡魯索，Caruso集團的執行主席和創辦人，近日在節目『Squawk on the Street』中談到洛杉磯帕里塞斯村的重開。里克卡魯索表示，重開過程中，團隊的努力和付出值得讚賞。帕里塞斯村的重開象徵著洛杉磯經濟的復甦和繁榮。里克卡魯索的團隊通過對村莊的改造和重建，為當地居民和遊客帶來了新的體驗和機會。這一舉措不僅為當地經濟帶來了新的活力，也為帕里塞斯村注入了新的生命力。里克卡魯索的表現和團隊的努力，值得肯定和讚賞。",
         "sentiment": "正面",
-        "ai_classified": true,
-        "is_breaking": false
+        "is_breaking": false,
+        "ai_classified": true
       },
       {
         "id": "238985da",
@@ -988,8 +1036,8 @@
         "published_at": "2026-08-13 16:24:09",
         "summary_zh": "底特律汽車製造商擔憂美國總統川普政府的北美貿易協議重修方案將對他們造成巨大損失，損失數十億美元，影響競爭力。根據消息，底特律汽車製造商將向川普政府提出抗議，表達對這項重修方案的擔憂。這項重修方案可能會對汽車製造商造成嚴重影響，包括增加稅收和進口限制等。汽車製造商認為，這項重修方案將會對他們的競爭力造成嚴重影響，尤其是在與外國競爭者競爭時。這項重修方案的影響將會波及整個汽車產業，包括供應鏈和零部件製造商等。汽車製造商將會努力爭取政府的支持，以避免這項重修方案的影響。",
         "sentiment": "負面",
-        "ai_classified": true,
-        "is_breaking": true
+        "is_breaking": true,
+        "ai_classified": true
       },
       {
         "id": "67a83979",
@@ -1012,18 +1060,6 @@
         "published_at": "2026-08-13 15:53:26",
         "summary_zh": "Tapestry CEO 喬安·克雷沃伊塞拉特（Joanne Crevoiserat）在 CNBC 的節目 'Squawk on the Street' 中表示，公司的第四季度財報超出預期。這是由於公司推出的策略正在發揮作用。克雷沃伊塞拉特表示，公司正在努力滿足對奢侈品牌的需求。Tapestry 是一家專門從事高端時尚產品的公司，旗下品牌包括 Coach、Kate Spade 和 Stuart Weitzman。公司的財報表明，奢侈品牌的需求正在增加，公司的銷售額也在增長。克雷沃伊塞拉特表示，公司的策略包括強化線上銷售、加強品牌形象和投資數字化技術。這些策略正在為公司帶來成果，公司的財報表明，公司的銷售額和利潤都在增長。克雷沃伊塞拉特表示，公司將繼續推出新的策略和產品，以滿足對奢侈品牌的需求。",
         "sentiment": "正面",
-        "is_breaking": false,
-        "ai_classified": true
-      },
-      {
-        "id": "3ce9377f",
-        "title": "觀看CNBC對MetLife市場策略師Drew Matus的完整訪談",
-        "url": "https://www.cnbc.com/video/2026/08/13/watch-cnbcs-full-interview-with-metlifes-drew-matus.html",
-        "source": "Cnbc",
-        "category": "stock_us",
-        "published_at": "2026-08-13 15:15:24",
-        "summary_zh": "市場策略師Drew Matus表示，近期的通膨數據對市場產生了重大影響。他預期美國經濟將在短期內出現回調，但長期來看，市場仍將保持穩定。他認為，投資者應該將目光放在長期投資上，而不是短期波動。他還提到，MetLife Investment Management將繼續關注市場變化，並根據情況進行調整。",
-        "sentiment": "中性",
         "is_breaking": false,
         "ai_classified": true
       }
